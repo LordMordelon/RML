@@ -7,6 +7,15 @@ el mod se puede tener puesto siempre sin importar qué mods se usen en cada part
 
 Arquitectura basada en [RimWorld Mod Korean (RMK)](https://github.com/RimWorldKorea/RMK).
 
+---
+
+### 👉 ¿Querés colaborar traduciendo? Leé **[TRADUCIR.md](TRADUCIR.md)**
+
+Esa guía está escrita para alguien que no sabe programar: no necesita git, ni consola, ni .NET.
+Lo que sigue en este README es la documentación del **mantenedor** del proyecto.
+
+---
+
 ## Cómo está organizado
 
 ```
