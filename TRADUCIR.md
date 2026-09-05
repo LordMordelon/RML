@@ -40,7 +40,7 @@ deja un par de archivos al lado suyo.
 > por año. Si aparece una pantalla azul, hacé clic en **Más información** → **Ejecutar de todas
 > formas**.
 >
-> El archivo pesa alrededor de 160 MB porque trae todo lo que necesita adentro, así no tenés que
+> El archivo pesa alrededor de 175 MB porque trae todo lo que necesita adentro, así no tenés que
 > instalar nada más.
 
 ---
@@ -283,6 +283,32 @@ Deberías ver tus textos. Si algo sale en inglés, probablemente esa fila quedó
 > Esto es solo para verificar. **Lo que entregás sigue siendo el `.xlsx`.**
 
 ---
+
+## 10b. El otro camino: traducir sobre el XML
+
+El Excel es el camino principal y es lo que se entrega. Pero hay un segundo modo, útil para
+**retoques puntuales** o para corregir algo ya traducido sin abrir una planilla entera.
+
+En **Opciones** → *Formato de extracción*, elegí **"Archivo XML para traducir a mano"**. En vez de
+dejar el inglés como valor, escribe el original en un comentario y pone `TODO` donde falta traducir:
+
+```xml
+<!-- EN: Storage -->
+<BuildingsNeatStorage.label>TODO</BuildingsNeatStorage.label>
+```
+
+Traducís reemplazando cada `TODO`, con el original a la vista justo arriba. Y para saber qué falta,
+buscás `TODO` con Ctrl+F.
+
+Valen las mismas reglas de la sección 6: lo que está entre llaves, los `
+` y las etiquetas de
+formato **no se traducen**.
+
+> ⚠️ **Un archivo con `TODO` sin terminar muestra literalmente "TODO" en el juego.** Es justamente la
+> gracia —se nota al toque lo que falta—, pero no lo entregues así pensando que se ve el inglés.
+
+**¿Cuál conviene?** Para un mod entero, el Excel: tenés el original al lado en su columna y es mucho
+más cómodo en volumen. El XML sirve para arreglos chicos.
 
 ## 11. Cómo lo entregás
 

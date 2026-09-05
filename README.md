@@ -34,7 +34,7 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
 
 ## Requisitos
 
-- **.NET SDK 10** para las herramientas de `Source/`.
+- **.NET SDK 10** — lo usan tanto las herramientas de `Source/` como el extractor, así que alcanza con uno solo.
 - El fork del extractor clonado **como carpeta hermana de este repositorio**:
 
   ```
