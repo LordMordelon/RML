@@ -28,7 +28,8 @@ no hace falta terminar nada para que sirva.
 
 ### Descargar el extractor
 
-Andá a la **página de Releases** del extractor y bajá **`RimworldExtractor-Portable.exe`**.
+Andá a la **[página de Releases](https://github.com/LordMordelon/RimworldExtractor/releases/latest)**
+del extractor y bajá **`RimworldExtractor-Portable.exe`**.
 
 Es un solo archivo, no se instala: lo guardás donde quieras y lo abrís haciendo doble clic.
 Poneló en una carpeta propia (por ejemplo `Documentos\RimWorld Traducciones\`), porque el programa
