@@ -10,15 +10,22 @@ static class Program
 {
     static void Main(string[] args)
     {
+        // Permitir uso no interactivo: FileNameEncoder <ruta> [<ruta> ...]
+        if (args.Length > 0)
+        {
+            foreach (var Ruta in args) FileNameEncoder(Ruta);
+            return;
+        }
+
         while (true)
         {
-            Console.WriteLine("Ingresa la ruta de la carpeta cuyos archivos queres renombrar.");
-            if (Console.ReadLine() is not { } UserInput)
-            {
-                Console.WriteLine("La ruta no es valida.");
-                continue;
-            }
-        
+            Console.WriteLine("Ingresa la ruta de la carpeta cuyos archivos queres renombrar (vacio para salir).");
+            // ReadLine devuelve null al cerrarse la entrada. El codigo original
+            // hacia continue, lo que dejaba el proceso girando en vano al
+            // ejecutarlo con la entrada redirigida.
+            if (Console.ReadLine() is not { } UserInput) return;
+            if (string.IsNullOrWhiteSpace(UserInput)) return;
+
             FileNameEncoder(UserInput);
         }
     }

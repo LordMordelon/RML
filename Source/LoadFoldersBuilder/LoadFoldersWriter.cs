@@ -480,7 +480,11 @@ public class SingleVersionRule : LockableString
     public XElement ToXElement()
     {
         string LoadCondition;
-        string PathForLoadFolders = LoadPath!.Substring(Statics.RootPath!.Length).Replace("\\","/");
+        // Substring(RootPath.Length) dejaba una barra inicial ("/Data/...") salvo
+        // que RootPath terminara en separador, lo que solo ocurre si el ejecutable
+        // esta en la raiz del mod. Con el exe en bin/ el XML sale con rutas que
+        // RimWorld no resuelve. GetRelativePath es el idioma que ya usa BuildRule.
+        string PathForLoadFolders = Path.GetRelativePath(Statics.RootPath!, LoadPath!).Replace("\\","/");
         switch (Mode)
         {
             case BindingMode.All:
