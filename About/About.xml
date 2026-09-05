@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <packageId>LordMordelon.RML.translation</packageId>
+    <name>RimWorld Mod Latino</name>
+    <author>LordMordelon</author>
+
+<description>Mod que reúne traducciones al español latinoamericano de mods de RimWorld.
+
+Cada traducción se aplica únicamente si el mod correspondiente está activo, así que podés tenerlo puesto siempre sin importar qué mods uses en cada partida.
+
+[Orden de carga]
+- Colocá este mod lo más abajo posible en la lista. Los mods de abajo tienen prioridad.
+- Si aparece una advertencia de orden de carga, en general es inofensiva.
+- Las traducciones de la versión base del juego deben ir ANTES que este mod, porque algunos mods requieren ajustar textos del juego base.
+
+[Idioma]
+Seleccioná "SpanishLatin" en las opciones de idioma del juego.
+
+Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWorldKorea/RMK</description>
+
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+
+    <loadAfter>
+
+        <!-- Mods que traen traducciones propias que podrían pisar las de este mod -->
+        <li>DankPyon.Medieval.Overhaul</li><!-- Medieval Overhaul -->
+        <li>rwmt.Multiplayer</li><!-- Multiplayer -->
+        <li>Fluffy.FluffyRelations</li><!-- Relations Tab -->
+        <li>Uuugggg.ReplaceStuff</li><!-- Replace Stuff -->
+        <li>neronix17.toolbox</li><!-- Tabula Rasa -->
+
+    </loadAfter>
+
+</ModMetaData>

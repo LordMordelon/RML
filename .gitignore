@@ -1,0 +1,23 @@
+# Área de trabajo local: traducciones en curso, sin versionar.
+# Mismo criterio que usa RMK.
+Data/User/
+
+# Compilación .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+.vs/
+
+# Publicados de las herramientas
+Source/**/publish/
+
+# Archivos temporales de Excel generados al traducir
+~$*.xlsx
+*.xlsx.tmp
+
+# Sistema
+Thumbs.db
+desktop.ini
