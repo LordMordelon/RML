@@ -50,12 +50,9 @@ static class Program
             Directory.EnumerateDirectories("DefInjected", SearchOption.AllDirectories).FirstOrDefault();
         var KeyedDirectory =
             Directory.EnumerateDirectories("Keyed", SearchOption.AllDirectories).FirstOrDefault();
-        var PatchesDirectory =
-            Directory.EnumerateDirectories("Patches", SearchOption.AllDirectories).FirstOrDefault();
         
         var DefInjectedFiles = DefInjectedDirectory?.EnumerateFiles("*", SearchOption.AllDirectories);
         var KeyedFiles = KeyedDirectory?.EnumerateFiles("*", SearchOption.AllDirectories);
-        var PatchFiles = PatchesDirectory?.EnumerateFiles("*", SearchOption.AllDirectories);
 
         if (DefInjectedFiles is not null && DefInjectedFiles.Any())
         {
@@ -94,7 +91,10 @@ static class Program
         }
 
         RenameFlatFolder(KeyedFiles, KeyedDirectory, TranslationFolderName, "Keyed");
-        RenameFlatFolder(PatchFiles, PatchesDirectory, TranslationFolderName, "Patches");
+
+        // Patches no se toca: el extractor ya los nombra con el mod al que le aplica cada
+        // uno, que es legible y estable —mismo mod, mismo archivo—, o sea la propiedad por
+        // la que existia este renombrado. Codificarlos solo perderia esa informacion.
     }
 
     /** Keyed y Patches no se agrupan por clase: son una sola carpeta plana.

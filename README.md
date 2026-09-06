@@ -67,7 +67,9 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
    dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
    ```
 
-   Sin argumentos pregunta la ruta por teclado.
+   Sin argumentos pregunta la ruta por teclado. **No toca la carpeta `Patches`**: esos
+   archivos ya vienen del extractor nombrados con el mod al que le aplica cada uno, que es
+   legible y estable, así que codificarlos sólo perdería esa información.
 7. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder` y escribir
    `-build` cuando lo pida. El `-build` **no** se puede pasar como argumento: el
    programa lo lee por teclado.
