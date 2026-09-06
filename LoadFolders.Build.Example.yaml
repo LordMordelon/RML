@@ -1,18 +1,24 @@
-# 파일 이름은 반드시 LoadFolders.Build.yaml이어야 합니다. (예시 파일의 이름은 LoadFolders.Build.Example.yaml입니다.)
-# LoadFolders.Build.yaml이 위치한 폴더는 로드 기준점이 되는 폴더입니다. 해당 경로에 Languages 폴더 등이 있을 경우 아래 규칙에 따라 로드됩니다.
-# 모든 요소는 쌍따옴표로 "감싸"서 입력합니다. YAML 문법에 따른 다른 표기도 가능하지만, 사용자간에 혼란이 생길 수 있으므로 가급적 표현을 통일해주기 바랍니다.
-# 각 항목의 주석 앞부분에 [ ]가 있는 경우 [ ]로 입력해야 하며, 여러 개의 요소를 넣을 수 있습니다. 없는 경우 [ ]로 입력할 수 없습니다.
+# El archivo tiene que llamarse exactamente LoadFolders.Build.yaml. (Este es el de ejemplo, se llama LoadFolders.Build.Example.yaml, y por eso el constructor lo ignora.)
+# La carpeta donde está el LoadFolders.Build.yaml es el punto de referencia de la carga: si ahí adentro hay una carpeta Languages, se carga según las reglas de abajo.
+# Todos los valores van "entre comillas dobles". YAML admite otras notaciones, pero conviene usar siempre la misma para que no haya confusiones entre quienes editan estos archivos.
+# Los campos cuyo comentario empieza con [ ] aceptan varios elementos y se escriben como lista. Los que no lo tienen no admiten lista.
 BuildRule: ##
   Binding: ##
-    PackageID: ["MoMo.Friends", "Peroro.Daisuki"] #[ ] 이 패키지ID를 가진 모드를 로드할 때 함께 로드합니다.
-    Mode: "None" # "All"인 경우 PackageID에 해당하는 모든 모드가 로드되어야 로드합니다. "Any"인 경우 그 중 하나만 로드되어도 로드합니다. PacakageID가 두 개 이상인 경우 필수입니다.
-    Dependency: "Independent" # "Independent"인 경우 모든 규칙을 그대로 적용하며, 하위 경로에는 Dependent 규칙만 존재할 수 있습니다. "Dependent"인 경우 상위 경로에 위치한 Independent 규칙이 가리키는 폴더를 로드할 때 함께 로드합니다.
+    PackageID: ["MoMo.Friends", "Peroro.Daisuki"] #[ ] Esta carpeta se carga junto con los mods que tengan estos packageId.
+    Mode: "None" # "All": se carga solo si están cargados todos los mods de PackageID. "Any": alcanza con que esté cargado uno. Obligatorio cuando hay dos o más PackageID; con uno solo da igual, porque el constructor lo trata como "Any".
+    Dependency: "Independent" # "Independent": se aplican todas las reglas tal cual, y dentro de esta carpeta solo puede haber reglas "Dependent". "Dependent": esta carpeta se carga junto con la que indique la regla "Independent" de la carpeta que la contiene.
   Order: ##
-    After: ["kentington.saveourship2"] #[ ] 이 PackageID와 연결된 폴더가 로드되는 경우, 해당 폴더가 로드되고 난 다음 이 폴더를 로드합니다.
-    Before: ["Aoba.DeadManSwitch.Core"] #[ ] 이 PackageID와 연결된 폴더가 로드되는 경우, 이 폴더가 로드되고 난 다음 해당 폴더를 로드합니다.
+    After: ["kentington.saveourship2"] #[ ] Si se carga la carpeta asociada a estos packageId, esta se carga después de aquella.
+    Before: ["Aoba.DeadManSwitch.Core"] #[ ] Si se carga la carpeta asociada a estos packageId, esta se carga antes que aquella.
   Version: ##
-    Default: "1.5" # 이 폴더를 로드하는 기본 버전입니다. 해당 버전 앞뒤에서도 다른 규칙에 의해 막히지 않는한 로드하려고 합니다. 예를 들어, 동일한 PackageID를 참조하는 규칙에 "1.7"이 Default로 설정돼있는 경우 이 폴더는 1.6 버전까지 로드됩니다.
-    LeftBoundary: # Default 규칙이 앞버전으로 확장할 때, 이 버전까지만 로드하려고 합니다.
-    RightBoundary: # Default 규칙이 뒷버전으로 확장할 때, 이 버전까지만 로드하려고 합니다.
-    Designate: #[ ] Default 버전과 별도로 이 버전에도 로드합니다.
-    Ban: #[ ] 이 버전에는 로드하지 않습니다.
+    Default: "1.5" # Versión de RimWorld en la que se carga esta carpeta. También intenta cargarse en las versiones anteriores y posteriores mientras otra regla no se lo impida. Por ejemplo: si otra regla que apunta al mismo PackageID tiene "1.7" como Default, esta carpeta se carga hasta la 1.6.
+    LeftBoundary: # Al extenderse hacia versiones anteriores, no pasa de esta.
+    RightBoundary: # Al extenderse hacia versiones posteriores, no pasa de esta.
+    Designate: #[ ] Además de la versión Default, se carga también en estas.
+    Ban: #[ ] No se carga en estas versiones.
+
+# Datos del mod traducido. No intervienen en la carga: sirven únicamente para armar
+# ModList.tsv, el índice de qué mods cubre RML. Van en todas las carpetas reales.
+Metadata:
+  WorkshopID: "1678847247" # El número que aparece en la URL del mod en el workshop de Steam.
+  ModName: "Graphics Settings+" # El nombre del mod, tal como figura en su About.xml.

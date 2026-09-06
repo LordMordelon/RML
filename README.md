@@ -61,9 +61,16 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
 5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
-6. Normalizar los nombres de archivo:
-   `dotnet run --project Source/FileNameEncoder/FileNameEncoder`
-7. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder -- -build`
+6. Normalizar los nombres de archivo, pasándole la carpeta del mod:
+
+   ```
+   dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
+   ```
+
+   Sin argumentos pregunta la ruta por teclado.
+7. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder` y escribir
+   `-build` cuando lo pida. El `-build` **no** se puede pasar como argumento: el
+   programa lo lee por teclado.
 8. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
 ## Instalar para probar
