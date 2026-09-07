@@ -19,7 +19,7 @@ static class Program
 
         while (true)
         {
-            Console.WriteLine("Ingresa la ruta de la carpeta cuyos archivos queres renombrar (vacio para salir).");
+            Console.WriteLine("Ingresa la ruta de la carpeta cuyos archivos quieres renombrar (vacio para salir).");
             // ReadLine devuelve null al cerrarse la entrada. El codigo original
             // hacia continue, lo que dejaba el proceso girando en vano al
             // ejecutarlo con la entrada redirigida.
