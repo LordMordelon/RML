@@ -5,12 +5,12 @@
     <name>RimWorld Mod Latino</name>
     <author>LordMordelon</author>
 
-<description>Mod que reúne traducciones al español latinoamericano de mods de RimWorld.
+<description>Mod que reúne traducciones al español latinoamericano de mods de RimWorld. Cubre 246 mods.
 
 Cada traducción se aplica únicamente si el mod correspondiente está activo, así que puedes tenerlo puesto siempre sin importar qué mods uses en cada partida.
 
 [Orden de carga]
-- Coloca este mod lo más abajo posible en la lista. Los mods de abajo tienen prioridad.
+- Coloca este mod lo más abajo posible en la lista. Los mods de abajo tienen prioridad, y esto es lo que hace que sus traducciones ganen siempre.
 - Si aparece una advertencia de orden de carga, en general es inofensiva.
 - Las traducciones de la versión base del juego deben ir ANTES que este mod, porque algunos mods requieren ajustar textos del juego base.
 
@@ -25,15 +25,22 @@ Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWo
 
     <loadAfter>
 
-        <!-- Acá va el packageId de un mod cuando se cumplen las dos cosas a la vez:
-             que RML lo traduzca, y que el mod traiga su propia carpeta
-             Languages/SpanishLatin. Sin esto, la traducción del mod se carga después
-             y pisa la de RML. Hoy no hay ninguno, y el extractor avisa cuando pasa.
+        <!-- Mods que RML traduce y que además traen su propia carpeta
+             Languages/SpanishLatin. Sin esto, la del mod se carga después y pisa la
+             de RML. El extractor avisa cuando encuentra uno.
 
-             La lista tenía cinco mods heredados de RMK, el proyecto coreano del que
-             deriva este. Apuntaban a mods que traen traducción al coreano, no al
-             español: Medieval Overhaul, por ejemplo, trae chino, inglés, coreano y
-             portugués. Y además ninguno de los cinco es un mod que RML traduzca. -->
+             La garantía de verdad es colocar RML último en la lista de mods: eso hace
+             que gane siempre, contra cualquier mod. Esta lista es lo que hace que
+             RimWorld avise si no está en ese orden.
+
+             La lista tenía cinco entradas heredadas de RMK, el proyecto coreano del
+             que deriva este, que apuntaban a mods con traducción al coreano y no al
+             español. Se reemplazaron por las que corresponden acá. -->
+        <li>Adamas.Hospital</li><!-- Hospital -->
+        <li>m00nl1ght.MapPreview</li><!-- Map Preview -->
+        <li>Fluffy.Pharmacist</li><!-- Pharmacist: Represcribed -->
+        <li>RashoMcree.Odyssey.AsteroidGrounds</li><!-- Asteroid Grounds -->
+        <li>RashoMcree.Odyssey.OrbitalPlatforms</li><!-- Orbital Platforms -->
 
     </loadAfter>
 
