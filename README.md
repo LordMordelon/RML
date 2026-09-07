@@ -25,7 +25,8 @@ Data/!<Autor>/                  autores con 4 o más mods; el ! los fija arriba
   <Nombre del mod> - <ID>/
 Data/<Nombre del mod> - <ID>/   los demás, sueltos
   Languages/SpanishLatin (Español(Latinoamérica))/
-    Keyed/ DefInjected/ Patches/
+    Keyed/ DefInjected/ Strings/
+  Patches/                      fuera de Languages, a la par
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
   UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
 LoadFolders.xml                 GENERADO — no editar a mano
@@ -39,10 +40,11 @@ Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extra
 `LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo
 cuando ese mod está presente, mediante el atributo `IfModActive`.
 
-El `UNUSED.xml` guarda las traducciones cuyo nodo desapareció del mod, fuera de `Languages/`
-para que el juego no intente cargar claves muertas. No hay que tocarlo: el extractor lo vuelve
-a leer en cada actualización, así que si el mod devuelve el nodo a su lugar la traducción se
-recupera sola.
+Los `Patches/` y el `UNUSED.xml` van fuera de `Languages/` por el mismo motivo: ahí adentro
+RimWorld los cargaría como una traducción más. El `UNUSED.xml` guarda las traducciones cuyo
+nodo desapareció del mod, y sus claves muertas le llenarían el log de errores al jugador. No
+hay que tocarlo: el extractor lo vuelve a leer en cada actualización, así que si el mod
+devuelve el nodo a su lugar la traducción se recupera sola.
 
 Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
 cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada.
