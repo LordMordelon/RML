@@ -2,6 +2,10 @@
 <UnusedTranslations>
   <entry class="MVCF.ModDef" node="DMSMD.description" original="DMS Mobile dragoon">DMS Mobile dragoon</entry>
   <entry class="MVCF.ModDef" node="DMSMD.label" original="DMS Mobile dragoon">DMS Mobile dragoon</entry>
+  <entry class="Patches.ThingDef" node="DMS_Apparel_MissilePod.verbs.0.label">lanzar misil</entry>
+  <entry class="Patches.ThingDef" node="DMS_Apparel_MissilePodPlus.verbs.0.label">lanzar misil</entry>
+  <entry class="Patches.ThingDef" node="DMS_Apparel_StugnaLauncher.verbs.0.label">lanzar misil stugna</entry>
+  <entry class="Patches.ThingDef" node="DMS_Apparel_SwarmMissilePod.verbs.0.label">lanzar cohete</entry>
   <entry class="ScenarioDef" node="DMSMD_Scenario.scenario.parts.GameStartDialog.text" original="&quot;Thank you for your efforts along the way Sir!, Just tell us if you need anything.&quot;\n\nOut of respect for you a legendary pilot, the Colonial Fleet Command allows you to take away this mobile dragoon that has been with you for almost half of your life and assigns you a decommissioned old base, willing helper from your platoon, as well as a place to be developed in this land, a piece of land completely owned by you.\n\nlook outside, the orbital pod is leaving a trail of red. this old base is the beginning of your new life. and of course... your enemies won't pass up this opportunity either.">"¡Gracias por sus esfuerzos en el camino, señor! Solo díganos si necesita algo."\n\nPor respeto a usted, un piloto legendario, el comando de la flota colonial le permite llevarse este exotraje móvil que lo ha acompañado durante casi la mitad de su vida y le asigna una base antigua desmantelada, un ayudante dispuesto de su pelotón, así como un lugar para desarrollarse en esta tierra, un pedazo de tierra completamente de su propiedad.\n\nMire afuera, la cápsula orbital está dejando un rastro rojo. esta vieja base es el comienzo de su nueva vida. y, por supuesto... sus enemigos tampoco dejarán pasar esta oportunidad.</entry>
   <entry class="ThingDef" node="DMS_Apparel_AT34_Core.apparel.renderNodeProperties.0.children.0.debugLabel" original="Mecha Apparel Body">cuerpo de mecha</entry>
   <entry class="ThingDef" node="DMS_Apparel_AT34_Core.apparel.renderNodeProperties.0.children.1.debugLabel" original="Mecha Apparel Head">cabeza de mecha</entry>
@@ -15,7 +19,6 @@
   <entry class="ThingDef" node="DMS_Apparel_MissilePod.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
   <entry class="ThingDef" node="DMS_Apparel_MissilePodPlus.comps.CompApparelReloadable.chargeNoun" original="missile">misil</entry>
   <entry class="ThingDef" node="DMS_Apparel_MissilePodPlus.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
-  <entry class="ThingDef" node="DMS_Apparel_MissilePodPlus.verbs.launch_missile.label" original="launch missile">lanzar misil</entry>
   <entry class="ThingDef" node="DMS_Apparel_PF3_Core.apparel.renderNodeProperties.0.children.0.debugLabel" original="Mecha Apparel Body">Cuerpo de la ropa de mecha</entry>
   <entry class="ThingDef" node="DMS_Apparel_PF3_Core.apparel.renderNodeProperties.0.children.1.debugLabel" original="Mecha Apparel Head">Cabeza de la ropa de mecha</entry>
   <entry class="ThingDef" node="DMS_Apparel_PF3_Core.apparel.renderNodeProperties.0.debugLabel" original="Mecha Root">Raíz de mecha</entry>
