@@ -25,12 +25,18 @@ Data/<Nombre del mod> - <ID>/   una carpeta por mod traducido
     Keyed/ DefInjected/ Patches/
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
 LoadFolders.xml                 GENERADO — no editar a mano
+ModList.tsv                     GENERADO — índice de qué mods cubre RML
+actualizar.cmd                  regenera los dos anteriores
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
-Source/FileNameEncoder/         normaliza los nombres de los XML
+Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 ```
 
 `LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo
 cuando ese mod está presente, mediante el atributo `IfModActive`.
+
+**Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
+una traducción rápida, y una GitHub Action lo rehace al hacer push. `actualizar.cmd` es
+para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los dos.
 
 ## Requisitos
 
@@ -65,19 +71,42 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
    al `<loadAfter>` de `About/About.xml`. Si no, esa traducción se carga después de RML
    y lo pisa. El extractor avisa en el log cuando el mod viene traducido, así que en el
    paso 1 ya se sabe; acá solo hay que acordarse de anotarlo.
-7. Normalizar los nombres de archivo, pasándole la carpeta del mod:
+7. Regenerar el índice con **`actualizar.cmd`** (doble clic). Deja al día
+   `LoadFolders.xml` y `ModList.tsv`, que es lo que hace que el mod cargue.
+8. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
-   ```
-   dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
-   ```
+### El atajo: la traducción rápida
 
-   Sin argumentos pregunta la ruta por teclado. **No toca la carpeta `Patches`**: esos
-   archivos ya vienen del extractor nombrados con el mod al que le aplica cada uno, que es
-   legible y estable, así que codificarlos sólo perdería esa información.
-8. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder` y escribir
-   `-build` cuando lo pida. El `-build` **no** se puede pasar como argumento: el
-   programa lo lee por teclado.
-9. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
+Si en el extractor marcás **«Traducción rápida»** al elegir el mod, los pasos 3 a 5 y el
+7 los hace él solo: escribe directamente en `Data/`, conserva lo que ya estaba traducido,
+genera el `LoadFolders.Build.yaml` y regenera el índice. Quedan el paso 6, si el mod trae
+traducción propia, y probar en el juego.
+
+### Sobre `FileNameEncoder`
+
+**No hay que correrlo sobre lo que genera el extractor**, aunque el nombre sugiera que sí.
+Los dos calculan el nombre con la misma función pero con entradas distintas:
+
+| | Entrada del hash |
+|---|---|
+| Extractor | nombre del mod + `Clase\|ArchivoOrigen` |
+| FileNameEncoder | nombre de la carpeta en `Data/` + `Clase` |
+
+Como el extractor borra y reescribe la carpeta entera en cada actualización, correr el
+encoder encima renombraría todo, y la siguiente extracción lo devolvería a su nombre
+original. **Cada ciclo sería un borrar+agregar completo en git** en vez de un diff línea
+por línea.
+
+Sigue sirviendo para XML que vengan de otro lado —hechos a mano, o sacados con otra
+herramienta—, y ahí se usa así:
+
+```
+dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
+```
+
+Sin argumentos pregunta la ruta por teclado. **No toca la carpeta `Patches`**: esos
+archivos ya vienen nombrados con el mod al que le aplica cada uno, que es legible y
+estable, así que codificarlos sólo perdería esa información.
 
 ## Instalar para probar
 

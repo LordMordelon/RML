@@ -10,18 +10,29 @@ using YamlDotNet.Serialization.NamingConventions;
 // Rider 문제인지 MSBuild 문제인지 버튼으로 하면 Main 진입점을 못찾음
 // dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=true -p:IncludeNativeLibrariesForSelfExtract=true -p:DebugType=embedded -p:ExcludeAllSymbols=true -o "../../out"
 
+// Permitir uso no interactivo: LoadFoldersBuilder -build
+//
+// Sin esto el builder no se puede lanzar desde otro programa, y no es que sea
+// incomodo: con la entrada redirigida ReadLine devuelve null, cae en el default
+// del switch y el proceso gira para siempre. Va declarado aca afuera para que lo
+// vean las funciones locales del final.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-migrate");
+
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
-    
+
     if (Statics.IsPathValid is not true)
     {
         Console.WriteLine("\n\e[93m구성 환경이 올바르지 않습니다.\nLoadFoldersBuilder 실행 파일이 LoadFolders를 생성할 올바른 모드 폴더 아래에 있는지 확인하세요.\x1b[0m");
-        StopProgram();
+        StopProgram(1);
     }
 
     if (Statics.ReadSupportedVersions(Statics.RootPath!) is not true)
-        StopProgram();
-    
+        StopProgram(1);
+
+    if (Comando is "-build") goto StartBuild;
+    if (Comando is "-migrate") goto StartMigration;
+
     Console.WriteLine("\n빌드를 시작하려면 '-build' 명령어를 입력하세요.");
 
     while (true)
@@ -30,6 +41,8 @@ using YamlDotNet.Serialization.NamingConventions;
         {
             case "-build": goto StartBuild;
             case "-migrate": goto StartMigration; // 초기 파일 생성
+            // Se acabo la entrada y no va a llegar ningun comando mas.
+            case null: StopProgram(1); break;
             default: ClearLastLine(); break;
         }
     }
@@ -44,7 +57,7 @@ using YamlDotNet.Serialization.NamingConventions;
     if (ValidPath.Length is 0)
     {
         Console.WriteLine("\e[93m유효한 경로에 위치한 LoadFolders.Build.yaml 파일을 하나도 찾을 수 없습니다.\x1b[0m");
-        StopProgram();
+        StopProgram(1);
     }
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
@@ -95,7 +108,7 @@ using YamlDotNet.Serialization.NamingConventions;
         catch (IOException e) when (e.HResult is unchecked((int)0x800704C8))
         {
             Console.WriteLine("\e[93m다른 프로그램이 LoadFolders.xml의 쓰기 권한을 점유하고 있습니다.\n해당 프로그램을 닫고 다시 시도하세요.\n문제가 해결되지 않는다면 작업 관리자에서 Windows 탐색기를 '다시 시작'해보세요.\x1b[0m");
-            StopProgram();
+            StopProgram(1);
         }
         
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
@@ -114,7 +127,7 @@ using YamlDotNet.Serialization.NamingConventions;
     else
     {
         Console.WriteLine("\e[93mXML 구조를 형성하는 중 문제가 발생했습니다.\x1b[0m");
-        StopProgram();
+        StopProgram(1);
     }
     
     StopProgram();
@@ -124,9 +137,13 @@ using YamlDotNet.Serialization.NamingConventions;
     string TSVPath;
     while (true)
     {
-        TSVPath = Console.ReadLine()?.Trim('\"') ?? String.Empty;
+        // Mismo caso que el bucle de comandos: si se acabo la entrada no va a
+        // llegar ninguna ruta, y volver a preguntar seria girar en vano.
+        var Entrada = Console.ReadLine();
+        if (Entrada is null) StopProgram(1);
+        TSVPath = Entrada!.Trim('\"');
         if (Path.Exists(TSVPath)) break;
-        
+
         Console.WriteLine("\n입력한 파일 경로가 유효하지 않습니다.");
         if (TSVPath is "-cancel") StopProgram();
     }
@@ -136,18 +153,30 @@ using YamlDotNet.Serialization.NamingConventions;
     StopProgram();
     
     Console.WriteLine("\n\e[93m이 문구를 보았다면 희망을 버려라.\x1b[0m");
-    StopProgram();
+    StopProgram(1);
 }
 
-void StopProgram()
+void StopProgram(int Codigo = 0)
 {
-    Console.WriteLine("\n창을 닫거나 엔터키를 눌러 프로그램을 종료하십시오.");
-    Console.ReadLine();
-    Environment.Exit(0);
+    // Solo se espera el enter si hay alguien para apretarlo. Lanzado desde otro
+    // programa o desde la CI no hay teclado, y el codigo de salida es la unica
+    // forma que tiene quien llama de enterarse de que algo fallo.
+    if (Comando is null)
+    {
+        Console.WriteLine("\n창을 닫거나 엔터키를 눌러 프로그램을 종료하십시오.");
+        Console.ReadLine();
+    }
+
+    Environment.Exit(Codigo);
 }
 
 void ClearLastLine()
 {
+    // Sin consola no hay cursor que mover: Console.CursorTop tira IOException
+    // cuando la salida esta redirigida.
+    if (Console.IsOutputRedirected)
+        return;
+
     if (Console.CursorTop > 0)
     {
         Console.SetCursorPosition(0, Console.CursorTop - 1);

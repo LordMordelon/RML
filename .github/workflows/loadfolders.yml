@@ -1,0 +1,57 @@
+name: Regenerar el índice de LoadFolders
+
+# Red de seguridad para lo que entra sin pasar por el extractor: una traducción
+# aceptada por PR, un yaml editado a mano, una carpeta borrada de Data. Con la
+# traducción rápida el extractor ya regenera el índice al terminar, así que en ese
+# caso este flujo corre y no encuentra nada que cambiar.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      # A propósito no están LoadFolders.xml ni ModList.tsv: son justo los archivos
+      # que escribe este flujo, y si estuvieran acá su propio commit lo volvería a
+      # disparar.
+      - 'Data/**'
+      - 'About/About.xml'
+      - 'Source/LoadFoldersBuilder/**'
+
+jobs:
+  regenerar:
+    # windows-latest y no ubuntu-latest: Source/LoadFoldersBuilder/Statics.cs arma la
+    # ruta como Path.Combine(Location, "About\\About.xml"), con la barra invertida
+    # cableada, así que en Linux no encuentra el About.xml y no construye nada.
+    runs-on: windows-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      # LoadFoldersBuilder solo depende de YamlDotNet, así que no hace falta clonar
+      # el extractor. El que sí lo necesita es FileNameEncoder, que no participa.
+      - name: Regenerar
+        run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -build
+
+      - name: Commitear si cambió algo
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv)" ]; then
+            echo "El índice ya estaba al día."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add LoadFolders.xml ModList.tsv
+          git commit -m "Regenerar el indice de LoadFolders [skip ci]"
+          git push
