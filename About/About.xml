@@ -25,22 +25,20 @@ Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWo
 
     <loadAfter>
 
-        <!-- Mods que RML traduce y que además traen su propia carpeta
-             Languages/SpanishLatin. Sin esto, la del mod se carga después y pisa la
-             de RML. El extractor avisa cuando encuentra uno.
+        <!-- A propósito vacío.
 
-             La garantía de verdad es colocar RML último en la lista de mods: eso hace
-             que gane siempre, contra cualquier mod. Esta lista es lo que hace que
-             RimWorld avise si no está en ese orden.
+             La garantía de que las traducciones de RML ganen es colocarlo último en la
+             lista de mods: el último que carga es el que manda, contra cualquier mod.
+             Eso ya está dicho en la descripción y no necesita esta lista.
 
-             La lista tenía cinco entradas heredadas de RMK, el proyecto coreano del
-             que deriva este, que apuntaban a mods con traducción al coreano y no al
-             español. Se reemplazaron por las que corresponden acá. -->
-        <li>Adamas.Hospital</li><!-- Hospital -->
-        <li>m00nl1ght.MapPreview</li><!-- Map Preview -->
-        <li>Fluffy.Pharmacist</li><!-- Pharmacist: Represcribed -->
-        <li>RashoMcree.Odyssey.AsteroidGrounds</li><!-- Asteroid Grounds -->
-        <li>RashoMcree.Odyssey.OrbitalPlatforms</li><!-- Orbital Platforms -->
+             Un loadAfter tampoco fuerza nada: RimWorld solo avisa si el orden no lo
+             respeta. Enumerar acá los mods que traen su propia traducción al español
+             sería mantener una lista larga que no cambia el resultado. Y si alguna de
+             esas traducciones sirve, se extrae y se suma a RML, que es donde se puede
+             actualizar y revisar.
+
+             Antes tenía cinco entradas heredadas de RMK, el proyecto coreano del que
+             deriva este, que apuntaban a mods con traducción al coreano. -->
 
     </loadAfter>
 
