@@ -337,8 +337,13 @@ Se modificó la primera fila de la planilla. Si tienes una copia sin tocar, usa 
 nueva y vuelve a pegar tus traducciones en la columna F (sin mover filas).
 
 **El mod ya tiene algo de traducción al español.**
-Puede pasar. Las filas ya traducidas vienen completas; concéntrate en las vacías. Si algo está mal
-traducido, corrígelo.
+Puede pasar, y el extractor te lo avisa en el log al terminar. **Pero la planilla te va a salir
+igual con todo vacío:** el extractor siempre saca el original del inglés y nunca lee la traducción
+que trae el mod.
+
+Si quieres aprovecharla, abre esa carpeta a mano —está dentro del mod, en
+`Languages/SpanishLatin`— y copia lo que sirva. Revisa lo que copies: si el mod se actualizó
+después, esa traducción puede estar vieja.
 
 **¿Cuánto tarda un mod?**
 Uno de interfaz pequeño son 30 frases cortas, un rato. Uno grande con descripciones de objetos puede

@@ -25,12 +25,15 @@ Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWo
 
     <loadAfter>
 
-        <!-- Mods que traen traducciones propias que podrían pisar las de este mod -->
-        <li>DankPyon.Medieval.Overhaul</li><!-- Medieval Overhaul -->
-        <li>rwmt.Multiplayer</li><!-- Multiplayer -->
-        <li>Fluffy.FluffyRelations</li><!-- Relations Tab -->
-        <li>Uuugggg.ReplaceStuff</li><!-- Replace Stuff -->
-        <li>neronix17.toolbox</li><!-- Tabula Rasa -->
+        <!-- Acá va el packageId de un mod cuando se cumplen las dos cosas a la vez:
+             que RML lo traduzca, y que el mod traiga su propia carpeta
+             Languages/SpanishLatin. Sin esto, la traducción del mod se carga después
+             y pisa la de RML. Hoy no hay ninguno, y el extractor avisa cuando pasa.
+
+             La lista tenía cinco mods heredados de RMK, el proyecto coreano del que
+             deriva este. Apuntaban a mods que traen traducción al coreano, no al
+             español: Medieval Overhaul, por ejemplo, trae chino, inglés, coreano y
+             portugués. Y además ninguno de los cinco es un mod que RML traduzca. -->
 
     </loadAfter>
 

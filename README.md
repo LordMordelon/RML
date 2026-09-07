@@ -61,7 +61,11 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
 5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
-6. Normalizar los nombres de archivo, pasándole la carpeta del mod:
+6. Si el mod trae **su propia** carpeta `Languages/SpanishLatin`, agregar su `packageId`
+   al `<loadAfter>` de `About/About.xml`. Si no, esa traducción se carga después de RML
+   y lo pisa. El extractor avisa en el log cuando el mod viene traducido, así que en el
+   paso 1 ya se sabe; acá solo hay que acordarse de anotarlo.
+7. Normalizar los nombres de archivo, pasándole la carpeta del mod:
 
    ```
    dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
@@ -70,10 +74,10 @@ cuando ese mod está presente, mediante el atributo `IfModActive`.
    Sin argumentos pregunta la ruta por teclado. **No toca la carpeta `Patches`**: esos
    archivos ya vienen del extractor nombrados con el mod al que le aplica cada uno, que es
    legible y estable, así que codificarlos sólo perdería esa información.
-7. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder` y escribir
+8. Regenerar el índice: `dotnet run --project Source/LoadFoldersBuilder` y escribir
    `-build` cuando lo pida. El `-build` **no** se puede pasar como argumento: el
    programa lo lee por teclado.
-8. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
+9. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
 ## Instalar para probar
 
