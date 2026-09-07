@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [visciouslymocked] [target] for [characteristic]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [visciouslymocked] [target]&apos;s [characteristic], causing whispers among the onlookers. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] launched a biting taunt at [target], targeting their [characteristic]. -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic] -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube] -->
+  <!-- EN: target(p=4)-&gt;[RECIPIENT_nameDef] -->
+  <!-- EN: target-&gt;[RECIPIENT_nameDef]&apos;s [PersonFamily] -->
+  <!-- EN: visciouslymocked-&gt;viciously mocked -->
+  <!-- EN: visciouslymocked-&gt;cruelly derided -->
+  <!-- EN: visciouslymocked-&gt;bitingly taunted -->
+  <!-- EN: visciouslymocked-&gt;scornfully ridiculed -->
+  <!-- EN: visciouslymocked-&gt;sharply teased -->
+  <!-- EN: visciouslymocked-&gt;aggressively belittled -->
+  <!-- EN: visciouslymocked-&gt;sneeringly insulted -->
+  <!-- EN: visciouslymocked-&gt;harshly lampooned -->
+  <!-- EN: visciouslymocked-&gt;savagely diminished -->
+  <!-- EN: visciouslymocked-&gt;maliciously slandered -->
+  <!-- EN: visciouslymocked-&gt;cuttingly satirized -->
+  <!-- EN: visciouslymocked-&gt;brutally disparaged -->
+  <VAEI_ViciousMockery.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [visciouslymocked] a [target] por su [characteristic].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [visciouslymocked] [characteristic] de [target], causando susurros entre los espectadores.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] lanzó una burla mordaz a [target], apuntando a su [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+    <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+    <li>target-&gt;[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>visciouslymocked-&gt;ridiculizó viciosamente</li>
+    <li>visciouslymocked-&gt;escarneció cruelmente</li>
+    <li>visciouslymocked-&gt;provocó mordazmente</li>
+    <li>visciouslymocked-&gt;ridiculizó con desprecio</li>
+    <li>visciouslymocked-&gt;atormentó agudamente</li>
+    <li>visciouslymocked-&gt;menospreció agresivamente</li>
+    <li>visciouslymocked-&gt;insultó con desdén</li>
+    <li>visciouslymocked-&gt;satirizó duramente</li>
+    <li>visciouslymocked-&gt;rebajó salvajemente</li>
+    <li>visciouslymocked-&gt;calumnió maliciosamente</li>
+    <li>visciouslymocked-&gt;satirizó cortantemente</li>
+    <li>visciouslymocked-&gt;desacreditó brutalmente</li>
+  </VAEI_ViciousMockery.logRulesInitiator.rulesStrings>
+</LanguageData>

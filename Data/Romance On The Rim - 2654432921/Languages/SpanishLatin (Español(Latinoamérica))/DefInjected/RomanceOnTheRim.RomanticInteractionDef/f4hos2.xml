@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_interaction(Happen_time==Day)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] gazed at the [day_object], [day_desc]. -->
+  <!-- EN: r_interaction(Happen_time==Night)-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] gazed at the [night_object], [night_desc]. -->
+  <!-- EN: day_object-&gt;endless blue -->
+  <!-- EN: day_object-&gt;soaring birds -->
+  <!-- EN: day_object-&gt;hazy horizon -->
+  <!-- EN: day_object-&gt;kaleidoscopic rainbow -->
+  <!-- EN: day_object-&gt;distant mountains -->
+  <!-- EN: day_object-&gt;blossoming tree -->
+  <!-- EN: day_object-&gt;moving shadows -->
+  <!-- EN: day_object-&gt;cotton-candy clouds drifting lazily -->
+  <!-- EN: day_object-&gt;ethereal spectacle of a sundog -->
+  <!-- EN: night_object-&gt;night sky -->
+  <!-- EN: night_object-&gt;lunar glow -->
+  <!-- EN: night_object-&gt;glistening moon -->
+  <!-- EN: night_object-&gt;distant galaxies -->
+  <!-- EN: night_object-&gt;milky way -->
+  <!-- EN: night_object-&gt;mysterious nebulae -->
+  <!-- EN: night_object-&gt;twinkling constellations -->
+  <!-- EN: night_object-&gt;dark silhouette of the trees -->
+  <!-- EN: night_object-&gt;glowing embers of their campfire -->
+  <!-- EN: night_object-&gt;mysterious shadows cast by the moonlight -->
+  <!-- EN: night_object-&gt;night owls in flight -->
+  <!-- EN: day_desc(p=1.5)-&gt;rambling about [TalkTopicAny] -->
+  <!-- EN: day_desc-&gt;when a fresh breeze blew through their hair -->
+  <!-- EN: day_desc-&gt;when the sunshine softly warmed them -->
+  <!-- EN: day_desc-&gt;when clouds were kissed to their heady blush by the sun -->
+  <!-- EN: day_desc-&gt;washing their souls with its clearness -->
+  <!-- EN: day_desc-&gt;inhaling the fragrance of the soil -->
+  <!-- EN: day_desc-&gt;as the sun&apos;s rays sparkled off the dewdrops around them -->
+  <!-- EN: day_desc-&gt;taking comfort in the steady rhythm of nature -->
+  <!-- EN: day_desc-&gt;sharing stories of their past under the wide, welcoming sky -->
+  <!-- EN: day_desc-&gt;marveling at the serenity of the day, and each other&apos;s company -->
+  <!-- EN: day_desc-&gt;feeling the pulse of the earth beneath them -->
+  <!-- EN: day_desc-&gt;whispering their dreams into the gentle wind -->
+  <!-- EN: day_desc-&gt;as the light refracted through morning dew drops -->
+  <!-- EN: day_desc-&gt;as their laughter echoing under the wide blue expanse -->
+  <!-- EN: day_desc-&gt;seeking shapes in the shifting clouds, as playful as children -->
+  <!-- EN: night_desc(p=1.5)-&gt;rambling about [TalkTopicLight] -->
+  <!-- EN: night_desc-&gt;gossiping about other colonists&apos; affairs -->
+  <!-- EN: night_desc-&gt;sharing mythologies of constellations -->
+  <!-- EN: night_desc-&gt;discussing the infinite possibilities of their shared future -->
+  <!-- EN: night_desc-&gt;dumping daily pressures in the eternal night -->
+  <!-- EN: night_desc-&gt;allowing the darkness to swallow their fears and insecurities -->
+  <!-- EN: night_desc-&gt;dreaming under the shimmering veil of the Milky Way -->
+  <!-- EN: night_desc-&gt;lost in the cosmic ballet of shooting stars -->
+  <!-- EN: night_desc-&gt;marveling at the constellations, as if they were echoes of their shared dreams -->
+  <!-- EN: night_desc-&gt;feeling the hum of the night, its stillness promising endless possibilities -->
+  <!-- EN: night_desc-&gt;their whispers carried away by the cool breeze -->
+  <!-- EN: night_desc-&gt;their thoughts as vast as the cosmos above -->
+  <!-- EN: night_desc-&gt;their hearts mirroring the celestial infinity above -->
+  <!-- EN: night_desc-&gt;their souls resonating with the harmonious silence of the night -->
+  <!-- EN: night_desc-&gt;the tranquil darkness holding their deepest secrets -->
+  <!-- EN: night_desc-&gt;while meteors gliding through their fingertips -->
+  <!-- EN: night_desc-&gt;when the moon hung over them silently -->
+  <!-- EN: night_desc-&gt;under the watchful eyes of a thousand celestial bodies -->
+  <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings>
+    <li>r_interaction(Happen_time==Day)-&gt;[INITIATOR_nameDef] y [RECIPIENT_nameDef] miraron el [day_object], [day_desc].</li>
+    <li>r_interaction(Happen_time==Night)-&gt;[INITIATOR_nameDef] y [RECIPIENT_nameDef] miraron el [night_object], [night_desc].</li>
+    <li>day_object-&gt;azul infinito</li>
+    <li>day_object-&gt;pájaros volando</li>
+    <li>day_object-&gt;horizonte brumoso</li>
+    <li>day_object-&gt;arcoíris caleidoscópico</li>
+    <li>day_object-&gt;montañas distantes</li>
+    <li>day_object-&gt;árbol floreciente</li>
+    <li>day_object-&gt;sombras en movimiento</li>
+    <li>day_object-&gt;nubes de algodón de azúcar a la deriva perezosamente</li>
+    <li>day_object-&gt;espectáculo etéreo de un parhelio</li>
+    <li>night_object-&gt;cielo nocturno</li>
+    <li>night_object-&gt;resplandor lunar</li>
+    <li>night_object-&gt;luna brillante</li>
+    <li>night_object-&gt;galaxias distantes</li>
+    <li>night_object-&gt;vía láctea</li>
+    <li>night_object-&gt;nebulosas misteriosas</li>
+    <li>night_object-&gt;constelaciones centelleantes</li>
+    <li>night_object-&gt;silueta oscura de los árboles</li>
+    <li>night_object-&gt;brasas brillantes de su fogata</li>
+    <li>night_object-&gt;sombras misteriosas proyectadas por la luz de la luna</li>
+    <li>night_object-&gt;búhos nocturnos en vuelo</li>
+    <li>day_desc(p=1.5)-&gt;divagando sobre [TalkTopicAny]</li>
+    <li>day_desc-&gt;cuando una brisa fresca sopló a través de su cabello</li>
+    <li>day_desc-&gt;cuando la luz del sol los calentó suavemente</li>
+    <li>day_desc-&gt;cuando las nubes fueron besadas hasta su rubor embriagador por el sol</li>
+    <li>day_desc-&gt;lavando sus almas con su claridad</li>
+    <li>day_desc-&gt;inhalando la fragancia de la tierra</li>
+    <li>day_desc-&gt;mientras los rayos del sol brillaban en las gotas de rocío a su alrededor</li>
+    <li>day_desc-&gt;encontrando consuelo en el ritmo constante de la naturaleza</li>
+    <li>day_desc-&gt;compartiendo historias de su pasado bajo el cielo amplio y acogedor</li>
+    <li>day_desc-&gt;maravillándose de la serenidad del día y la compañía del otro</li>
+    <li>day_desc-&gt;sintiendo el pulso de la tierra debajo de ellos</li>
+    <li>day_desc-&gt;susurrando sus sueños al viento suave</li>
+    <li>day_desc-&gt;mientras la luz se refractaba a través de las gotas de rocío de la mañana</li>
+    <li>day_desc-&gt;mientras sus risas resonaban bajo la amplia extensión azul</li>
+    <li>day_desc-&gt;buscando formas en las nubes cambiantes, tan juguetones como niños</li>
+    <li>night_desc(p=1.5)-&gt;divagando sobre [TalkTopicLight]</li>
+    <li>night_desc-&gt;chismeando sobre los asuntos de otros colonos</li>
+    <li>night_desc-&gt;compartiendo mitologías de constelaciones</li>
+    <li>night_desc-&gt;discutiendo las infinitas posibilidades de su futuro compartido</li>
+    <li>night_desc-&gt;descargando las presiones diarias en la noche eterna</li>
+    <li>night_desc-&gt;permitiendo que la oscuridad se tragara sus miedos e inseguridades</li>
+    <li>night_desc-&gt;soñando bajo el velo brillante de la Vía Láctea</li>
+    <li>night_desc-&gt;perdidos en el ballet cósmico de estrellas fugaces</li>
+    <li>night_desc-&gt;maravillándose de las constelaciones, como si fueran ecos de sus sueños compartidos</li>
+    <li>night_desc-&gt;sintiendo el zumbido de la noche, su quietud prometiendo infinitas posibilidades</li>
+    <li>night_desc-&gt;sus susurros llevados por la brisa fresca</li>
+    <li>night_desc-&gt;sus pensamientos tan vastos como el cosmos arriba</li>
+    <li>night_desc-&gt;sus corazones reflejando la infinidad celestial arriba</li>
+    <li>night_desc-&gt;sus almas resonando con el silencio armonioso de la noche</li>
+    <li>night_desc-&gt;la oscuridad tranquila sosteniendo sus secretos más profundos</li>
+    <li>night_desc-&gt;mientras los meteoros se deslizaban a través de sus dedos</li>
+    <li>night_desc-&gt;cuando la luna colgaba sobre ellos silenciosamente</li>
+    <li>night_desc-&gt;bajo los ojos vigilantes de mil cuerpos celestes</li>
+  </RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings>
+</LanguageData>

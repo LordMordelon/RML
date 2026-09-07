@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: deserter shuttle (incoming) -->
+  <VFED_DeserterShuttleIncoming.label>transbordador de desertores (entrante)</VFED_DeserterShuttleIncoming.label>
+  <!-- EN: deserter shuttle (leaving) -->
+  <VFED_DeserterShuttleLeaving.label>transbordador de desertores (saliendo)</VFED_DeserterShuttleLeaving.label>
+  <!-- EN: deserter shuttle -->
+  <VFED_DeserterShuttle.label>transbordador de desertores</VFED_DeserterShuttle.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <VFED_DeserterShuttle.description>Un transbordador de tecnología espacial diseñado para el tránsito entre la superficie y la órbita, o entre lunas de un sistema planetario.</VFED_DeserterShuttle.description>
+  <!-- EN: flagship chunk -->
+  <VFED_FlagshipChunk.label>trozo de nave insignia</VFED_FlagshipChunk.label>
+  <!-- EN: A chunk of an imperial flagship. It seems to have been torn off by some kind of powerful weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it. -->
+  <VFED_FlagshipChunk.description>Un trozo de una nave insignia imperial. Parece haber sido arrancado por algún tipo de arma poderosa.\n\nHabiendo aterrizado no hace mucho, todavía contiene recursos útiles que puedes adquirir al deconstruirlo.</VFED_FlagshipChunk.description>
+  <!-- EN: kontarion -->
+  <VFED_Turret_Kontarion.label>kontarion</VFED_Turret_Kontarion.label>
+  <!-- EN: A powerful, long-range weapon used by the Empire to take out enemy targets from afar. Kontarion turret fires ultra-dense uranium slugs at incredible speeds, penetrating even the heaviest armor. With its rapid-fire capabilities, tremendous accuracy and infinite range, it’s a force to be reckoned with. It&apos;s more accurate at longer ranges, and can&apos;t fire at all close up. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of uranium slug ammo in order to automatically reload. It cannot be reloaded by hand. -->
+  <VFED_Turret_Kontarion.description>Un arma poderosa de largo alcance utilizada por el Imperio para eliminar objetivos enemigos desde lejos. La torreta kontarion dispara balas de uranio ultradensas a velocidades increíbles, penetrando incluso la armadura más pesada. Con sus capacidades de disparo rápido, tremenda precisión y alcance infinito, es una fuerza a tener en cuenta. Es más precisa a distancias más largas y no puede disparar de cerca. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de balas de uranio para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Kontarion.description>
+  <!-- EN: Shots until rearm -->
+  <VFED_Turret_Kontarion.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Kontarion.comps.5.fuelLabel>
+  <!-- EN: Uranium slugs -->
+  <VFED_Turret_Kontarion.comps.5.fuelGizmoLabel>Balas de uranio</VFED_Turret_Kontarion.comps.5.fuelGizmoLabel>
+  <!-- EN: No slugs -->
+  <VFED_Turret_Kontarion.comps.5.outOfFuelMessage>Sin balas</VFED_Turret_Kontarion.comps.5.outOfFuelMessage>
+  <!-- EN: kontarion cannon -->
+  <VFED_Gun_Kontarion.label>cañón kontarion</VFED_Gun_Kontarion.label>
+  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
+  <VFED_Gun_Kontarion.description>Un cañón de balas de uranio de carga automática diseñado para acoplarse a una torreta.</VFED_Gun_Kontarion.description>
+  <!-- EN: kontarion cannon -->
+  <VFED_Gun_Kontarion.verbs.Verb_Shoot.label>cañón kontarion</VFED_Gun_Kontarion.verbs.Verb_Shoot.label>
+  <!-- EN: palintone -->
+  <VFED_Turret_Palintone.label>palintone</VFED_Turret_Palintone.label>
+  <!-- EN: A powerful, anti-infantry weapon used by the Empire to defend unsafe outposts. Palintone turret fires large-caliber shells at incredible speeds, dealing heavy damage over significant ranges. It fires huge volleys of rounds that can provide suppressive fire and quickly shred lightly armored targets. With its devastating firepower, the Palintone turret is capable of keeping even the largest enemy forces at bay. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of autocannon ammo in order to automatically reload. It cannot be reloaded by hand. -->
+  <VFED_Turret_Palintone.description>Un arma poderosa anti-infantería utilizada por el Imperio para defender puestos avanzados inseguros. La torreta palintone dispara proyectiles de gran calibre a velocidades increíbles, causando graves daños a distancias significativas. Dispara enormes descargas de rondas que pueden proporcionar fuego de supresión y destrozar rápidamente objetivos con armadura ligera. Con su devastadora potencia de fuego, la torreta Palintone es capaz de mantener a raya incluso a las fuerzas enemigas más grandes. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de cañón automático para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Palintone.description>
+  <!-- EN: Shots until rearm -->
+  <VFED_Turret_Palintone.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Palintone.comps.5.fuelLabel>
+  <!-- EN: Autocannon ammo -->
+  <VFED_Turret_Palintone.comps.5.fuelGizmoLabel>Munición de cañón automático</VFED_Turret_Palintone.comps.5.fuelGizmoLabel>
+  <!-- EN: No ammo -->
+  <VFED_Turret_Palintone.comps.5.outOfFuelMessage>Sin munición</VFED_Turret_Palintone.comps.5.outOfFuelMessage>
+  <!-- EN: palintone cannon -->
+  <VFED_Gun_Palintone.label>cañón palintone</VFED_Gun_Palintone.label>
+  <!-- EN: A self-loading cannon designed to attach to a turret. -->
+  <VFED_Gun_Palintone.description>Un cañón de carga automática diseñado para acoplarse a una torreta.</VFED_Gun_Palintone.description>
+  <!-- EN: palintone cannon -->
+  <VFED_Gun_Palintone.verbs.Verb_Shoot.label>cañón palintone</VFED_Gun_Palintone.verbs.Verb_Shoot.label>
+  <!-- EN: onager -->
+  <VFED_Turret_Onager.label>onager</VFED_Turret_Onager.label>
+  <!-- EN: A powerful, anti-armored weapon used by the Empire to destroy heavily armored targets with ease. Capable of launching missiles in bursts of 6, the Onager can deal devastating damage to enemy forces in a short amount of time. The Onager turret is most effective at short range, where its missiles can be accurately targeted at enemy positions. However, it cannot fire at enemies that are too close, as the missiles require a certain distance to arm and track their targets. Additionally, due to the sheer number of missiles it fires, the Onager is not as accurate as other turrets, and can sometimes miss its targets. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of missile ammo in order to automatically reload. It cannot be reloaded by hand. -->
+  <VFED_Turret_Onager.description>Un arma poderosa anti-blindaje utilizada por el Imperio para destruir objetivos fuertemente blindados con facilidad. Capaz de lanzar misiles en ráfagas de 6, el onager puede causar daños devastadores a las fuerzas enemigas en poco tiempo. La torreta Onager es más efectiva a corto alcance, donde sus misiles pueden apuntar con precisión a las posiciones enemigas. Sin embargo, no puede disparar a enemigos que estén demasiado cerca, ya que los misiles requieren cierta distancia para armarse y rastrear sus objetivos. Además, debido a la gran cantidad de misiles que dispara, el Onager no es tan preciso como otras torretas y, a veces, puede fallar sus objetivos. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de misiles para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Onager.description>
+  <!-- EN: Shots until rearm -->
+  <VFED_Turret_Onager.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Onager.comps.5.fuelLabel>
+  <!-- EN: Onager missiles -->
+  <VFED_Turret_Onager.comps.5.fuelGizmoLabel>Misiles Onager</VFED_Turret_Onager.comps.5.fuelGizmoLabel>
+  <!-- EN: No missiles -->
+  <VFED_Turret_Onager.comps.5.outOfFuelMessage>Sin misiles</VFED_Turret_Onager.comps.5.outOfFuelMessage>
+  <!-- EN: onager cannon -->
+  <VFED_Gun_Onager.label>cañón onager</VFED_Gun_Onager.label>
+  <!-- EN: A self-loading rocket launcher designed to attach to a turret. -->
+  <VFED_Gun_Onager.description>Un lanzacohetes de carga automática diseñado para acoplarse a una torreta.</VFED_Gun_Onager.description>
+  <!-- EN: onager cannon -->
+  <VFED_Gun_Onager.verbs.Verb_Shoot.label>cañón onager</VFED_Gun_Onager.verbs.Verb_Shoot.label>
+  <!-- EN: onager -->
+  <VFFED_Bullet_Onager.label>onager</VFFED_Bullet_Onager.label>
+  <!-- EN: striker turret -->
+  <VFED_Turret_StrikerTurret.label>torreta striker</VFED_Turret_StrikerTurret.label>
+  <!-- EN: A stationary, powerful turret. Will self-destruct if it is sufficiently damaged. -->
+  <VFED_Turret_StrikerTurret.description>Una torreta estacionaria y poderosa. Se autodestruirá si se daña lo suficiente.</VFED_Turret_StrikerTurret.description>
+  <!-- EN: remote charge -->
+  <VFED_RemoteTrapIED_HighExplosive.label>mina remota</VFED_RemoteTrapIED_HighExplosive.label>
+  <!-- EN: A pair of high-explosive shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_HighExplosive.description>Un par de obuses de alto explosivo conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_HighExplosive.description>
+  <!-- EN: remote incendiary charge -->
+  <VFED_RemoteTrapIED_Incendiary.label>mina incendiaria remota</VFED_RemoteTrapIED_Incendiary.label>
+  <!-- EN: A pair of incendiary shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_Incendiary.description>Un par de obuses incendiarios conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_Incendiary.description>
+  <!-- EN: remote EMP charge -->
+  <VFED_RemoteTrapIED_EMP.label>mina PEM remota</VFED_RemoteTrapIED_EMP.label>
+  <!-- EN: A pair of EMP shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_EMP.description>Un par de obuses PEM conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_EMP.description>
+  <!-- EN: remote smoke charge -->
+  <VFED_RemoteTrapIED_Smoke.label>mina de humo remota</VFED_RemoteTrapIED_Smoke.label>
+  <!-- EN: A pair of smoke shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_Smoke.description>Un par de obuses de humo conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_Smoke.description>
+  <!-- EN: remote firefoam charge -->
+  <VFED_RemoteTrapIED_Firefoam.label>mina de espumafuego remota</VFED_RemoteTrapIED_Firefoam.label>
+  <!-- EN: A pair of firefoam shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_Firefoam.description>Un par de obuses de espumafuego conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_Firefoam.description>
+  <!-- EN: remote antigrain charge -->
+  <VFED_RemoteTrapIED_AntigrainWarhead.label>mina antimateria remota</VFED_RemoteTrapIED_AntigrainWarhead.label>
+  <!-- EN: A pair of antigrain warheads connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_AntigrainWarhead.description>Un par de ojivas de antimateria conectadas a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_AntigrainWarhead.description>
+  <!-- EN: deployed bomb pack -->
+  <VFED_BombPack_Deployed.label>paquete bomba desplegado</VFED_BombPack_Deployed.label>
+  <!-- EN: A deployed bomb pack. It’s armed, and can be detonated with a press of a button. -->
+  <VFED_BombPack_Deployed.description>Un paquete bomba desplegado. Está armado y puede detonarse presionando un botón.</VFED_BombPack_Deployed.description>
+  <!-- EN: IED shrapnel trap -->
+  <VFED_TrapIED_Shrapnel.label>mina de metralla</VFED_TrapIED_Shrapnel.label>
+  <!-- EN: A pair of shrapnel shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_TrapIED_Shrapnel.description>Un par de obuses de metralla conectados a un disparador que detona al contacto o impacto de bala. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_TrapIED_Shrapnel.description>
+  <!-- EN: IED armor-piercing trap -->
+  <VFED_TrapIED_ArmorPiercing.label>mina perforante</VFED_TrapIED_ArmorPiercing.label>
+  <!-- EN: A pair of armor-piercing shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_TrapIED_ArmorPiercing.description>Un par de obuses perforantes conectados a un disparador que detona al contacto o impacto de bala. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_TrapIED_ArmorPiercing.description>
+  <!-- EN: IED cluster trap -->
+  <VFED_TrapIED_Cluster.label>mina de racimo</VFED_TrapIED_Cluster.label>
+  <!-- EN: A pair of cluster shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_TrapIED_Cluster.description>Un par de obuses de racimo conectados a un disparador que detona al contacto o impacto de bala. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_TrapIED_Cluster.description>
+  <!-- EN: remote shrapnel charge -->
+  <VFED_RemoteTrapIED_Shrapnel.label>mina de metralla remota</VFED_RemoteTrapIED_Shrapnel.label>
+  <!-- EN: A pair of shrapnel shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_Shrapnel.description>Un par de obuses de metralla conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_Shrapnel.description>
+  <!-- EN: remote armor-piercing charge -->
+  <VFED_RemoteTrapIED_ArmorPiercing.label>mina perforante remota</VFED_RemoteTrapIED_ArmorPiercing.label>
+  <!-- EN: A pair of armor-piercing shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_ArmorPiercing.description>Un par de obuses perforantes conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_ArmorPiercing.description>
+  <!-- EN: remote cluster charge -->
+  <VFED_RemoteTrapIED_Cluster.label>mina de racimo remota</VFED_RemoteTrapIED_Cluster.label>
+  <!-- EN: A pair of cluster shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <VFED_RemoteTrapIED_Cluster.description>Un par de obuses de racimo conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</VFED_RemoteTrapIED_Cluster.description>
+  <!-- EN: uranium slug ammo box -->
+  <VFED_AmmoBox_UraniumSlug.label>caja de proyectiles kontarion</VFED_AmmoBox_UraniumSlug.label>
+  <!-- EN: A small-sized box containing uranium slug ammunition. Used by Kontarion turrets to reload. May explode when damaged. -->
+  <VFED_AmmoBox_UraniumSlug.description>Una caja de tamaño pequeño que contiene munición de balas de uranio. Utilizada por las torretas kontarion para recargar. Puede explotar cuando se daña.</VFED_AmmoBox_UraniumSlug.description>
+  <!-- EN: autocannon ammo box -->
+  <VFED_AmmoBox_Autocannon.label>caja de proyectiles palintone</VFED_AmmoBox_Autocannon.label>
+  <!-- EN: A small-sized box containing autocannon ammunition. Used by Palintone turrets to reload. May explode when damaged. -->
+  <VFED_AmmoBox_Autocannon.description>Una caja de tamaño pequeño que contiene munición de cañón automático. Utilizada por las torretas palintone para recargar. Puede explotar cuando se daña.</VFED_AmmoBox_Autocannon.description>
+  <!-- EN: missile ammo box -->
+  <VFED_AmmoBox_Missile.label>caja de misiles onager</VFED_AmmoBox_Missile.label>
+  <!-- EN: A small-sized box containing missiles. Used by Onager turrets to reload. May explode when damaged. -->
+  <VFED_AmmoBox_Missile.description>Una caja de tamaño pequeño que contiene misiles. Utilizada por las torretas onager para recargar. Puede explotar cuando se daña.</VFED_AmmoBox_Missile.description>
+  <!-- EN: supply crate -->
+  <VFED_SupplyCrate.label>caja de suministros</VFED_SupplyCrate.label>
+  <!-- EN: A small imperial crate containing valuables. May contain intel. Opening it requires bypassing several security protocols and takes a short while.\n\nAny attempt to destroy it will destroy the items as well. -->
+  <VFED_SupplyCrate.description>Una pequeña caja imperial que contiene objetos de valor. Puede contener inteligencia. Abrirla requiere eludir varios protocolos de seguridad y lleva poco tiempo.\n\nCualquier intento de destruirla destruirá también los artículos.</VFED_SupplyCrate.description>
+  <!-- EN: biosecured crate -->
+  <VFED_BiosecuredCrate.label>caja biosegura</VFED_BiosecuredCrate.label>
+  <!-- EN: A small imperial crate containing extremely valuable items. May contain critical intel. Due to the special restrictions, only imperial nobles are capable of opening it.\n\nAny attempt to destroy it will destroy the items as well. -->
+  <VFED_BiosecuredCrate.description>Una pequeña caja imperial que contiene artículos extremadamente valiosos. Puede contener inteligencia crítica. Debido a las restricciones especiales, solo los nobles imperiales son capaces de abrirla.\n\nCualquier intento de destruirla destruirá también los artículos.</VFED_BiosecuredCrate.description>
+  <!-- EN: surveillance pillar -->
+  <VFED_SurveillancePillar.label>pilar de vigilancia</VFED_SurveillancePillar.label>
+  <!-- EN: A large pillar with a series of sensors, cameras and motion detectors. Thanks to the sophisticated face recognition system, surveillance pillar can detect the presence of deserters in radius and will increase the visibility of whichever faction has sent them. Can be disabled via electromagnetic pulse, or by simply cutting off the power grid. -->
+  <VFED_SurveillancePillar.description>Un gran pilar con una serie de sensores, cámaras y detectores de movimiento. Gracias al sofisticado sistema de reconocimiento facial, el pilar de vigilancia puede detectar la presencia de desertores en el radio y aumentará la visibilidad de cualquier facción que los haya enviado. Se puede desactivar mediante pulso electromagnético o simplemente cortando la red eléctrica.</VFED_SurveillancePillar.description>
+  <!-- EN: aerodrone munitions crate -->
+  <VFED_AerodroneMunitionsCrate.label>caja de municiones de aerodron</VFED_AerodroneMunitionsCrate.label>
+  <!-- EN: A large military crate of aerodrone munitions. Will explode when damaged, sending armed shells flying in random directions. -->
+  <VFED_AerodroneMunitionsCrate.description>Una gran caja militar de municiones de aerodron. Explotará cuando se dañe, enviando obuses armados volando en direcciones aleatorias.</VFED_AerodroneMunitionsCrate.description>
+  <!-- EN: aerodrone battery pack -->
+  <VFED_AerodroneBatteryPack.label>paquete de baterías de aerodron</VFED_AerodroneBatteryPack.label>
+  <!-- EN: A large, overcharged aerodrone battery. Will release a strong electromagnetic pulse when damaged, potentially disabling nearby defenses. -->
+  <VFED_AerodroneBatteryPack.description>Una batería de aerodron grande y sobrecargada. Liberará un fuerte pulso electromagnético cuando se dañe, desactivando potencialmente las defensas cercanas.</VFED_AerodroneBatteryPack.description>
+  <!-- EN: aerodrone -->
+  <VFED_Aerodrone.label>aerodron</VFED_Aerodrone.label>
+  <!-- EN: Aerodrone is a spacer-tech, unmanned aerial vehicle equipped with advanced sensors and a missile payload. Designed for autonomous long-range operations, it&apos;s commonly used by the Empire for reconnaissance and bombardment. Its ability to release powerful missile salvos makes it effective against various targets. This aerodrone is temporarily disabled due to the recharge cycle. -->
+  <VFED_Aerodrone.description>El aerodron es un vehículo aéreo no tripulado de tecnología espacial equipado con sensores avanzados y una carga útil de misiles. Diseñado para operaciones autónomas de largo alcance, es comúnmente utilizado por el Imperio para reconocimiento y bombardeo. Su capacidad para lanzar poderosas salvas de misiles lo hace efectivo contra varios objetivos. Este aerodron está temporalmente deshabilitado debido al ciclo de recarga.</VFED_Aerodrone.description>
+  <!-- EN: imperial maxpack -->
+  <VFED_ImperialMaxpack.label>maxpack imperial</VFED_ImperialMaxpack.label>
+  <!-- EN: The Imperial maxpack is a formidable armored transport truck, known for its impressive cargo capacity. Its armor is impenetrable, ensuring the safety of its contents throughout transit. Once in motion, the Maxpack’s doors remain sealed until it reaches its predetermined destination. While attempting to loot its cargo is futile due to built-in self-destruct protocols, its robust exterior makes it an ideal shield on the battlefield. -->
+  <VFED_ImperialMaxpack.description>El maxpack imperial es un formidable camión de transporte blindado, conocido por su impresionante capacidad de carga. Su armadura es impenetrable, asegurando la seguridad de su contenido durante todo el tránsito. Una vez en movimiento, las puertas del Maxpack permanecen selladas hasta que llega a su destino predeterminado. Si bien intentar saquear su carga es inútil debido a los protocolos de autodestrucción incorporados, su exterior robusto lo convierte en un escudo ideal en el campo de batalla.</VFED_ImperialMaxpack.description>
+  <!-- EN: strike buoy -->
+  <VFED_StrikeBuoy.label>boya de ataque</VFED_StrikeBuoy.label>
+  <!-- EN: A small surveillance buoy usually deployed around temporary convoy stops. Linked directly with a patrolling aerodrone, once triggered, it will send down a small missile salvo on its location. -->
+  <VFED_StrikeBuoy.description>Una pequeña boya de vigilancia generalmente desplegada alrededor de paradas temporales de convoyes. Vinculada directamente con un aerodron de patrulla, una vez activada, enviará una pequeña salva de misiles a su ubicación.</VFED_StrikeBuoy.description>
+  <!-- EN: fuel tank -->
+  <VFED_FuelTank.label>tanque de combustible</VFED_FuelTank.label>
+  <!-- EN: A large fuel tank used to refuel Imperial shuttles. Will detonate if damaged beyond a certain point, potentially triggering a chain reaction. -->
+  <VFED_FuelTank.description>Un gran tanque de combustible utilizado para repostar transbordadores imperiales. Detonará si se daña más allá de cierto punto, provocando potencialmente una reacción en cadena.</VFED_FuelTank.description>
+  <!-- EN: surveillance console -->
+  <VFED_SurveillanceStation.label>consola de vigilancia</VFED_SurveillanceStation.label>
+  <!-- EN: A large console designed to link to surrounding surveillance pillars. Provides users with all the necessary data related to enemy movements in a given sector. -->
+  <VFED_SurveillanceStation.description>Una gran consola diseñada para vincularse a los pilares de vigilancia circundantes. Proporciona a los usuarios todos los datos necesarios relacionados con los movimientos enemigos en un sector determinado.</VFED_SurveillanceStation.description>
+  <!-- EN: surveillance display bank -->
+  <VFED_SurveillanceDisplayBank.label>banco de pantallas de vigilancia</VFED_SurveillanceDisplayBank.label>
+  <!-- EN: An imperial computer interface. Linked to the surveillance console, the display bank shows live footage from all surveillance pillars in the sector. -->
+  <VFED_SurveillanceDisplayBank.description>Una interfaz informática imperial. Vinculado a la consola de vigilancia, el banco de pantallas muestra imágenes en vivo de todos los pilares de vigilancia en el sector.</VFED_SurveillanceDisplayBank.description>
+  <!-- EN: techprinter -->
+  <VFED_Techprinter.label>tecnoimpresora</VFED_Techprinter.label>
+  <!-- EN: The Techprinter is a marvel of technological innovation, designed to capture and preserve the intricate knowledge residing within a techfriar’s mind. These advanced machines imprint this invaluable information directly onto techite discs. Techprints provide foundational knowledge for researchers, shedding light on innovations from more advanced societies. -->
+  <VFED_Techprinter.description>La tecnoimpresora es una maravilla de la innovación tecnológica, diseñada para capturar y preservar el intrincado conocimiento que reside dentro de la mente de un tecnofraile. Estas máquinas avanzadas imprimen esta valiosa información directamente en discos de tecnita. Los tecnoplanos proporcionan conocimientos fundamentales para los investigadores, arrojando luz sobre las innovaciones de sociedades más avanzadas.</VFED_Techprinter.description>
+  <!-- EN: techite disc stack -->
+  <VFED_TechiteDiscStack.label>pila de discos de tecnita</VFED_TechiteDiscStack.label>
+  <!-- EN: A compact stack of discs crafted from the enigmatic element known as techite, produced exclusively by the Empire for knowledge transcribing. Primarily designed for preserving information. When ignited, they release a dense cloud of blinding smoke and sparks, capable of engulfing a vast area in flames. -->
+  <VFED_TechiteDiscStack.description>Una pila compacta de discos elaborados a partir del enigmático elemento conocido como tecnita, producido exclusivamente por el Imperio para la transcripción de conocimientos. Diseñado principalmente para preservar información. Cuando se encienden, liberan una densa nube de humo cegador y chispas, capaz de envolver una vasta área en llamas.</VFED_TechiteDiscStack.description>
+  <!-- EN: imperial underfarm -->
+  <VFED_ImperialUnderfarm.label>granja subterránea imperial</VFED_ImperialUnderfarm.label>
+  <!-- EN: An underground hydroponics basic used by the empire to feed their subjects. Fully automated and connected to water mains, these farms require no labor to operate. -->
+  <VFED_ImperialUnderfarm.description>Una base hidropónica subterránea utilizada por el imperio para alimentar a sus súbditos. Totalmente automatizadas y conectadas a la red de agua, estas granjas no requieren mano de obra para funcionar.</VFED_ImperialUnderfarm.description>
+  <!-- EN: water main -->
+  <VFED_WaterMain.label>tubería principal de agua</VFED_WaterMain.label>
+  <!-- EN: A large node connecting all the nearby water mains. Required for the underfarms to operate. -->
+  <VFED_WaterMain.description>Un gran nodo que conecta todas las tuberías principales de agua cercanas. Necesario para que funcionen las granjas subterráneas.</VFED_WaterMain.description>
+  <!-- EN: crashed aerodrone -->
+  <VFED_CrashedAerodrone.label>aerodron estrellado</VFED_CrashedAerodrone.label>
+  <!-- EN: A crashed imperial aerodrone. -->
+  <VFED_CrashedAerodrone.description>Un aerodron imperial estrellado.</VFED_CrashedAerodrone.description>
+  <!-- EN: imperial mega high-shield -->
+  <VFED_ImperialMegaHighShield.label>mega escudo alto imperial</VFED_ImperialMegaHighShield.label>
+  <!-- EN: An advanced shielding apparatus, the Imperial mega high-shield projects a vast momentum repulsor field, allowing shots to exit but preventing any from entering. Specifically calibrated for high angles, it&apos;s adept at deflecting incoming mortar rounds, aerodrone strikes and even orbital slicer beams. The unit can be temporarily disabled by EMP attacks, either by shocking the projector unit itself, or using EMP munitions on the shield. Draws huge amounts of power. -->
+  <VFED_ImperialMegaHighShield.description>Un aparato de blindaje avanzado, el mega escudo alto imperial proyecta un vasto campo repulsor de momento, permitiendo que los disparos salgan pero impidiendo que entren. Específicamente calibrado para ángulos altos, es experto en desviar rondas de mortero entrantes, ataques de aerodrones e incluso rayos cortadores orbitales. La unidad puede desactivarse temporalmente mediante ataques EMP, ya sea impactando la unidad del proyector en sí o usando municiones EMP en el escudo. Consume enormes cantidades de energía.</VFED_ImperialMegaHighShield.description>
+  <!-- EN: zeus cannon control station -->
+  <VFED_ZeusCannonControlStation.label>estación de control del cañón zeus</VFED_ZeusCannonControlStation.label>
+  <!-- EN: This terminal serves as the primary interface for operating the Zeus Cannon batteries. Equipped with sophisticated controls and targeting systems, the Zeus Cannon Control Station ensures precision and coordination when deploying the formidable firepower of the Zeus Cannons. Operators need to be within its radius to control it. -->
+  <VFED_ZeusCannonControlStation.description>Esta terminal sirve como la interfaz principal para operar las baterías del Cañón Zeus. Equipada con controles sofisticados y sistemas de puntería, la Estación de Control del Cañón Zeus garantiza precisión y coordinación al desplegar la formidable potencia de fuego de los Cañones Zeus. Los operadores deben estar dentro de su radio para controlarlo.</VFED_ZeusCannonControlStation.description>
+  <!-- EN: zeus cannon capacitor bank -->
+  <VFED_ZeusCannonCapacitorBank.label>banco de condensadores del cañón zeus</VFED_ZeusCannonCapacitorBank.label>
+  <!-- EN: A capacitor bank that transforms electricity into raw energy for the Zeus cannon. Will release a large EMP shockwave when destroyed, potentially disabling the Zeus cannon itself. -->
+  <VFED_ZeusCannonCapacitorBank.description>Un banco de condensadores que transforma la electricidad en energía bruta para el cañón Zeus. Liberará una gran onda de choque EMP cuando se destruya, desactivando potencialmente el propio cañón Zeus.</VFED_ZeusCannonCapacitorBank.description>
+  <!-- EN: zeus cannon -->
+  <VFED_ZeusCannon.label>cañón zeus</VFED_ZeusCannon.label>
+  <!-- EN: A relic of ancient Sophiamundan technology, the Zeus Cannon is a closely guarded secret of the Empire. This formidable artillery piece has the unique ability to convert vast quantities of electricity into potent energy blasts. With unmatched range, it can pierce the atmosphere to target and obliterate objects in orbit. A testament to lost engineering brilliance, it stands as both a weapon and a symbol of the Empire&apos;s might.\n\nIt has a long charging cycle, after which it will aim at the target and release a devastating energy blast. -->
+  <VFED_ZeusCannon.description>Una reliquia de la antigua tecnología de Sophiamunda, el Cañón Zeus es un secreto celosamente guardado del Imperio. Esta formidable pieza de artillería tiene la capacidad única de convertir grandes cantidades de electricidad en potentes explosiones de energía. Con un alcance inigualable, puede atravesar la atmósfera para apuntar y destruir objetos en órbita. Un testimonio de la brillantez de la ingeniería perdida, se erige como un arma y un símbolo del poder del Imperio.\n\nTiene un largo ciclo de carga, después del cual apuntará al objetivo y liberará una devastadora explosión de energía.</VFED_ZeusCannon.description>
+  <!-- EN: burnout intel scraper -->
+  <VFED_BurnoutIntelScraper.label>raspador de inteligencia</VFED_BurnoutIntelScraper.label>
+  <!-- EN: A deserter device capable of intercepting imperial communication. When activated, it will begin intel scraping, emitting a pulse in regular intervals. Each pulse has a chance of generating a small amount of intel, but it may also increase your visibility and even alert an imperial strike force. After 10 pulses, the machine burns out and triggers a fiery explosion. -->
+  <VFED_BurnoutIntelScraper.description>Un dispositivo de desertor capaz de interceptar la comunicación imperial. Cuando se activa, comenzará a raspar inteligencia, emitiendo un pulso en intervalos regulares. Cada pulso tiene la posibilidad de generar una pequeña cantidad de inteligencia, pero también puede aumentar tu visibilidad e incluso alertar a una fuerza de ataque imperial. Después de 10 pulsos, la máquina se quema y provoca una explosión ardiente.</VFED_BurnoutIntelScraper.description>
+  <!-- EN: biodecoder -->
+  <VFED_Biodecoder.label>biodecodificador</VFED_Biodecoder.label>
+  <!-- EN: A biodecoder is a single-use ultratech device that is designed to strip biocoding off any item. It uses a complex process to unlatch the biocoding from the original item, which transfers the biocoding onto the biodecoder, breaking it in the process. Biodecoder can also be used on biosecured crate to open them. This device is often used in sensitive operations where the presence of biocoding could compromise the mission. -->
+  <VFED_Biodecoder.description>Un biodecodificador es un dispositivo ultratecnológico de un solo uso diseñado para eliminar la biocodificación de cualquier objeto. Utiliza un proceso complejo para desbloquear la biocodificación del objeto original, transfiriendo la biocodificación al biodecodificador y rompiéndolo en el proceso. El biodecodificador también se puede usar en cajas bioseguras para abrirlas. Este dispositivo se utiliza a menudo en operaciones sensibles donde la presencia de biocodificación podría comprometer la misión.</VFED_Biodecoder.description>
+  <!-- EN: Use {0_label} -->
+  <VFED_Biodecoder.comps.1.useLabel>Usar {0_label}</VFED_Biodecoder.comps.1.useLabel>
+  <!-- EN: psychic amplifier -->
+  <VFED_PsychicAmplifier.label>amplificador psíquico</VFED_PsychicAmplifier.label>
+  <!-- EN: Decommissioned Imperial technology since the invention of psylink neuroformers, psychic amplifier upgrades a psylink in the user&apos;s mind. It cannot form a psylink by itself, and can only be used by colonists with already present psylink. The user presses the device over the eyes, where it links to the brain directly and restructures part of it. Afterwards, the device disintegrates into worthless ash. -->
+  <VFED_PsychicAmplifier.description>Tecnología imperial retirada desde la invención de los neuroformadores de psienlace, el amplificador psíquico mejora un psienlace en la mente del usuario. No puede formar un psienlace por sí mismo y solo puede ser utilizado por colonos con un psienlace ya presente. El usuario presiona el dispositivo sobre los ojos, donde se vincula directamente al cerebro y reestructura parte de él. Después, el dispositivo se desintegra en cenizas sin valor.</VFED_PsychicAmplifier.description>
+  <!-- EN: Use {0_label} -->
+  <VFED_PsychicAmplifier.comps.1.useLabel>Usar {0_label}</VFED_PsychicAmplifier.comps.1.useLabel>
+  <!-- EN: intel -->
+  <VFED_Intel.label>inteligencia</VFED_Intel.label>
+  <!-- EN: A dossier containing information about the Shattered Empire. In order to protect the information from the Imperial counterintelligence, the information needs to be stored in a physical form. It can be used to obtain contraband items from the Deserters, or to gain access to quests and even assassination missions on Imperial nobility. -->
+  <VFED_Intel.description>Un expediente que contiene información sobre el Imperio Destrozado. Para proteger la información de la contrainteligencia imperial, la información debe almacenarse en forma física. Se puede utilizar para obtener artículos de contrabando de los Desertores, o para obtener acceso a misiones e incluso misiones de asesinato contra la nobleza imperial.</VFED_Intel.description>
+  <!-- EN: critical intel -->
+  <VFED_CriticalIntel.label>inteligencia crítica</VFED_CriticalIntel.label>
+  <!-- EN: A dossier containing critical information about the Shattered Empire. In order to protect the information from the Imperial counterintelligence, the information needs to be stored in a physical form. It can be used to plan high-profile assassination attempts, but it can also be exchanged into standard intel via the contraband system. -->
+  <VFED_CriticalIntel.description>Un expediente que contiene información crítica sobre el Imperio Destrozado. Para proteger la información de la contrainteligencia imperial, la información debe almacenarse en forma física. Se puede utilizar para planificar intentos de asesinato de alto perfil, pero también se puede intercambiar por inteligencia estándar a través del sistema de contrabando.</VFED_CriticalIntel.description>
+  <!-- EN: shrapnel shell -->
+  <VFED_Shell_Shrapnel.label>obús de metralla</VFED_Shell_Shrapnel.label>
+  <!-- EN: Mortar shell that is designed to explode mid-air and release a large number of sharp projectiles. These projectiles are specifically designed to cut through light armored enemies, inflicting serious injuries or fatalities. Projectiles are ejected with the same vector as the mortar shell, and may be stopped by obstacles. -->
+  <VFED_Shell_Shrapnel.description>Obús de mortero diseñado para explotar en el aire y liberar una gran cantidad de proyectiles afilados. Estos proyectiles están diseñados específicamente para atravesar enemigos con armadura ligera, infligiendo heridas graves o la muerte. Los proyectiles son expulsados con el mismo vector que el obús de mortero y pueden ser detenidos por obstáculos.</VFED_Shell_Shrapnel.description>
+  <!-- EN: shrapnel shell -->
+  <VFED_Bullet_Shell_Shrapnel.label>obús de metralla</VFED_Bullet_Shell_Shrapnel.label>
+  <!-- EN: shrapnel -->
+  <VFED_Bullet_Shrapnel.label>metralla</VFED_Bullet_Shrapnel.label>
+  <!-- EN: armor-piercing shell -->
+  <VFED_Shell_ArmorPiercing.label>obús perforante</VFED_Shell_ArmorPiercing.label>
+  <!-- EN: Armor-piercing shells are designed to explode upon impact and destroy anything they hit, completely bypassing the armor of the target. Their explosion radius is almost non-existent, and armored targets need to be hit directly for the shell to destroy them. They are very accurate and travel at extreme speeds. -->
+  <VFED_Shell_ArmorPiercing.description>Los obuses perforantes están diseñados para explotar al impactar y destruir cualquier cosa que golpeen, ignorando por completo la armadura del objetivo. Su radio de explosión es casi inexistente, y los objetivos blindados deben ser golpeados directamente para que el obús los destruya. Son muy precisos y viajan a velocidades extremas.</VFED_Shell_ArmorPiercing.description>
+  <!-- EN: armor-piercing shell -->
+  <VFED_Bullet_Shell_ArmorPiercing.label>obús perforante</VFED_Bullet_Shell_ArmorPiercing.label>
+  <!-- EN: cluster shell -->
+  <VFED_Shell_Cluster.label>obús de racimo</VFED_Shell_Cluster.label>
+  <!-- EN: Mortar shell that is designed to split mid-air and release three high-explosive shells. Separated shells are ejected in random directions, following the same vector as the cluster shell. Explosions cover a high area but the accuracy of the shells leave a lot to be desired. -->
+  <VFED_Shell_Cluster.description>Obús de mortero diseñado para dividirse en el aire y liberar tres obuses de alto explosivo. Los obuses separados son expulsados en direcciones aleatorias, siguiendo el mismo vector que el obús de racimo. Las explosiones cubren un área grande, pero la precisión de los obuses deja mucho que desear.</VFED_Shell_Cluster.description>
+  <!-- EN: cluster shell -->
+  <VFED_Bullet_Shell_Cluster.label>obús de racimo</VFED_Bullet_Shell_Cluster.label>
+  <!-- EN: bomb pack -->
+  <VFED_Apparel_BombPack.label>paquete bomba</VFED_Apparel_BombPack.label>
+  <!-- EN: A single-use man-portable explosive device. Deployed on the ground, it becomes armed and can be detonated with a press of a button. It generates a big explosion thanks to a wired-in antigrain warhead, making it capable of destroying critical infrastructure and personnel alike. -->
+  <VFED_Apparel_BombPack.description>Un dispositivo explosivo portátil de un solo uso. Desplegado en el suelo, se arma y puede detonarse presionando un botón. Genera una gran explosión gracias a una ojiva de antimateria conectada, lo que lo hace capaz de destruir infraestructura crítica y personal por igual.</VFED_Apparel_BombPack.description>
+  <!-- EN: invisibility engulfer -->
+  <VFED_Apparel_InvisibilityEngulfer.label>engullidor de invisibilidad</VFED_Apparel_InvisibilityEngulfer.label>
+  <!-- EN: A multi-use personal invisibility device engineered based on experimental imperial technology. Allows the user to become completely invisible for a brief duration, after which the device requires a short amount of time to recharge. -->
+  <VFED_Apparel_InvisibilityEngulfer.description>Un dispositivo de invisibilidad personal de uso múltiple diseñado en base a tecnología imperial experimental. Permite al usuario volverse completamente invisible durante un breve período, después del cual el dispositivo requiere un corto tiempo para recargarse.</VFED_Apparel_InvisibilityEngulfer.description>
+  <!-- EN: deserter declassifier -->
+  <VFED_DeserterDeclassifier.label>desclasificador</VFED_DeserterDeclassifier.label>
+  <!-- EN: A deserter declassifier is a single-use, ultra-tech device consisting of a brain-scan apparatus and a long, thick needle. It is primarily used by imperial deserters for data extraction. By inserting the needle into the skull of a titled nobility, memories can be downloaded from their brain, forming valuable deserter intel. The amount of intel received is determined by the rank of the noble person. The person affected by a Deserter Declassifier dies in the process, and when used on neutral visitors, it is treated as an act of war. -->
+  <VFED_DeserterDeclassifier.description>El desclasificador es un dispositivo ultratecnológico de un solo uso que consiste en un aparato de escaneo cerebral y una aguja larga y gruesa. Es utilizado principalmente por desertores imperiales para la extracción de datos. Al insertar la aguja en el cráneo de un noble con título, se pueden descargar recuerdos de su cerebro, formando valiosa inteligencia de desertor. La cantidad de inteligencia recibida está determinada por el rango de la persona noble. La persona afectada por un desclasificador muere en el proceso, y cuando se usa en visitantes neutrales, se trata como un acto de guerra.</VFED_DeserterDeclassifier.description>
+  <!-- EN: Mote -->
+  <VFED_Mote_AerodroneStrike.label>TODO</VFED_Mote_AerodroneStrike.label>
+  <!-- EN: imperial propaganda -->
+  <VFED_Filth_Propaganda.label>propaganda imperial</VFED_Filth_Propaganda.label>
+  <!-- EN: Mote -->
+  <VFED_Mote_ProximityScannerRadius_Orange.label>TODO</VFED_Mote_ProximityScannerRadius_Orange.label>
+  <!-- EN: Mote -->
+  <VFED_Mote_ActivatorProximityGlow_Orange.label>TODO</VFED_Mote_ActivatorProximityGlow_Orange.label>
+  <!-- EN: Mote -->
+  <VFED_Mote_ProximityScannerRadius_Green.label>TODO</VFED_Mote_ProximityScannerRadius_Green.label>
+  <!-- EN: Mote -->
+  <VFED_Mote_ActivatorProximityGlow_Green.label>TODO</VFED_Mote_ActivatorProximityGlow_Green.label>
+  <!-- EN: aerodrone strike -->
+  <VFED_AerodroneStrikeIncoming.label>ataque de aerodron</VFED_AerodroneStrikeIncoming.label>
+  <!-- EN: spark -->
+  <VFED_Spark.label>chispa</VFED_Spark.label>
+  <!-- EN: charge cycler -->
+  <VFED_Gun_ChargeCycler.label>revólver de impacto</VFED_Gun_ChargeCycler.label>
+  <!-- EN: A modified charged-shot revolver that incorporates mechanoid technology. Recovered thump cannons have been reversed engineered to allow for a powerful charge revolver with two shooting modes to be created. Charged shot mode will eliminate any close targets with a powerful, armor-piercing blast, whilst a Thump shot mode allows users to incapacitate enemies and break any defenses they might be hiding behind. Modes can be changed with a press of a button. -->
+  <VFED_Gun_ChargeCycler.description>Un revólver de cargas modificado que incorpora tecnología mecanoide. Los cañones de impacto recuperados han sido sometidos a ingeniería inversa para permitir la creación de un potente revólver de cargas con dos modos de disparo. El modo de disparo de cargas eliminará cualquier objetivo cercano con una potente explosión perforante, mientras que el modo de disparo de impacto permite a los usuarios incapacitar a los enemigos y romper cualquier defensa detrás de la cual puedan esconderse. Los modos se pueden cambiar presionando un botón.</VFED_Gun_ChargeCycler.description>
+  <!-- EN: handle -->
+  <VFED_Gun_ChargeCycler.tools.0.label>mango</VFED_Gun_ChargeCycler.tools.0.label>
+  <!-- EN: barrel -->
+  <VFED_Gun_ChargeCycler.tools.1.label>cañón</VFED_Gun_ChargeCycler.tools.1.label>
+  <!-- EN: Single shot (Charged shot) -->
+  <VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.0.visualLabel>TODO</VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.0.visualLabel>
+  <!-- EN:  -->
+  <VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.0.description>TODO</VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.0.description>
+  <!-- EN: Single shot (Thump shot) -->
+  <VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.1.visualLabel>TODO</VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.1.visualLabel>
+  <!-- EN:  -->
+  <VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.1.description>TODO</VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.1.description>
+  <!-- EN: charged shot -->
+  <VFED_Bullet_ChargedShot.label>disparo de cargas</VFED_Bullet_ChargedShot.label>
+  <!-- EN: thump shot -->
+  <VFEE_Bullet_ThumpShot.label>disparo de impacto</VFEE_Bullet_ThumpShot.label>
+  <!-- EN: fletchling -->
+  <VFED_Gun_Fletchling.label>escopeta acidificadora</VFED_Gun_Fletchling.label>
+  <!-- EN: A modification to the extremely rare fletcher rifle, fletchling is a shotgun commonly used by Imperial deserters. The mere possession of it can be seen as an act of war against the Shattered Empire. Each fletchling shot releases a number of small acidifier darts that may hit several targets, causing extreme amounts of pain and acid burns. Lethal to organics and almost useless against non-organics, such as mechanoids. \n\nTargets hit by these flechettes will be inflicted with an unstable variant of acidifier fluids, designed to dissolve the target from the inside rather than destroy their equipment. The acid will rampage through the target’s body and usually results in vital organs being dissolved, however lethality isn’t guaranteed. -->
+  <VFED_Gun_Fletchling.description>Una modificación del extremadamente raro rifle acidificador, la escopeta acidificadora es una escopeta comúnmente utilizada por los desertores imperiales. Su mera posesión puede verse como un acto de guerra contra el Imperio Destrozado. Cada disparo de la escopeta acidificadora libera una serie de pequeños dardos acidificadores que pueden golpear a varios objetivos, causando cantidades extremas de dolor y quemaduras por ácido. Letal para los orgánicos y casi inútil contra los no orgánicos, como los mecanoides.\n\nLos objetivos alcanzados por estas flechettes sufrirán una variante inestable de fluidos acidificadores, diseñados para disolver al objetivo desde el interior en lugar de destruir su equipo. El ácido arrasará el cuerpo del objetivo y generalmente resulta en la disolución de órganos vitales, sin embargo, la letalidad no está garantizada.</VFED_Gun_Fletchling.description>
+  <!-- EN: fletchling -->
+  <VFED_Gun_Fletchling.verbs.Verb_Shoot.label>escopeta acidificadora</VFED_Gun_Fletchling.verbs.Verb_Shoot.label>
+  <!-- EN: barrel -->
+  <VFED_Gun_Fletchling.tools.0.label>cañón</VFED_Gun_Fletchling.tools.0.label>
+  <!-- EN: fletcher dart -->
+  <VFEE_Bullet_FletchlingDart.label>dardo acidificador</VFEE_Bullet_FletchlingDart.label>
+  <!-- EN: drop pod (incoming) -->
+  <VFED_DropPodIncoming_Propaganda.label>cápsula de transporte (entrante)</VFED_DropPodIncoming_Propaganda.label>
+</LanguageData>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/customizationTitle</xpath>
+          <value>
+            <!-- EN: Persona Weapon Customization -->
+            <customizationTitle>TODO</customizationTitle>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/name</xpath>
+          <value>
+            <!-- EN: Blade -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/name</xpath>
+          <value>
+            <!-- EN: Grip -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/name</xpath>
+          <value>
+            <!-- EN: Guard -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Absolute -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Exponential -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Parabolic -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Quadratic -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Quartic -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Rectangular -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Serpentine -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Three-Phase -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Trapezoid -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Trinomial -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Bladed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Guarded -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Hatched -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Inverse -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Looped -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Ornate -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Squat -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Threaded -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Transverse -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Weighted -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Accipiter -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Anatis -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Chiroptera -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Cygnus -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Larum -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Milvus -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Passer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Perdix -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Vermis -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Vombati -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

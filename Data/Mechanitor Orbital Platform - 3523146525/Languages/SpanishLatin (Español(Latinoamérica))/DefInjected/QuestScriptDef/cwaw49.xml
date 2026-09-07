@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questName(p=3)-&gt;[ancientPlatAdj] [mechAdj] [platform] -->
+  <!-- EN: questName-&gt;[PlaceOutlander] [mechAdj] [platform] -->
+  <!-- EN: questName-&gt;[mechAdj] [platform] [greekLetter] -->
+  <!-- EN: questName-&gt;[platAdj] [mechAdj] [platform] [RomanNumeral] -->
+  <!-- EN: mechAdj -&gt; mechanitor -->
+  <!-- EN: ancientPlatAdj-&gt;abandoned -->
+  <!-- EN: ancientPlatAdj-&gt;ancient -->
+  <!-- EN: ancientPlatAdj-&gt;[platAdj] -->
+  <!-- EN: platAdj-&gt;starlight -->
+  <!-- EN: platAdj-&gt;nebula -->
+  <!-- EN: platAdj-&gt;horizon -->
+  <!-- EN: platAdj-&gt;eclipse -->
+  <!-- EN: platAdj-&gt;zenith -->
+  <!-- EN: platAdj-&gt;aurora -->
+  <!-- EN: platAdj-&gt;corona -->
+  <!-- EN: platAdj-&gt;nova -->
+  <!-- EN: platAdj-&gt;eon -->
+  <!-- EN: platAdj-&gt;solace -->
+  <!-- EN: platAdj-&gt;lumina -->
+  <!-- EN: platAdj-&gt;ion -->
+  <!-- EN: platAdj-&gt;astralis -->
+  <!-- EN: platAdj-&gt;apollo -->
+  <!-- EN: platAdj-&gt;ares -->
+  <!-- EN: platAdj-&gt;hades -->
+  <!-- EN: platAdj-&gt;ajax -->
+  <!-- EN: platAdj-&gt;eos -->
+  <!-- EN: platAdj-&gt;eros -->
+  <!-- EN: platAdj-&gt;chronos -->
+  <!-- EN: platAdj-&gt;zephyrus -->
+  <!-- EN: platAdj-&gt;argos -->
+  <!-- EN: platAdj-&gt;orion -->
+  <!-- EN: platAdj-&gt;hermes -->
+  <!-- EN: platAdj-&gt;atlas -->
+  <!-- EN: platAdj-&gt;helios -->
+  <!-- EN: platAdj-&gt;hephaestus -->
+  <!-- EN: platAdj-&gt;talos -->
+  <!-- EN: platAdj-&gt;vanguard -->
+  <!-- EN: platAdj-&gt;aegis -->
+  <!-- EN: platAdj-&gt;halcyon -->
+  <!-- EN: platAdj-&gt;skyforge -->
+  <!-- EN: platAdj-&gt;titan -->
+  <!-- EN: platform(p=2)-&gt;station -->
+  <!-- EN: platform-&gt;platform -->
+  <!-- EN: platform-&gt;orbital platform -->
+  <!-- EN: platform-&gt;orbital hub -->
+  <!-- EN: platform(p=0.5)-&gt;skygate -->
+  <!-- EN: platform(p=0.5)-&gt;spacedock -->
+  <!-- EN: platform(p=0.5)-&gt;gateway -->
+  <!-- EN: greekLetter-&gt;alpha -->
+  <!-- EN: greekLetter-&gt;beta -->
+  <!-- EN: greekLetter-&gt;theta -->
+  <!-- EN: greekLetter-&gt;delta -->
+  <!-- EN: greekLetter-&gt;zeta -->
+  <!-- EN: greekLetter-&gt;sigma -->
+  <!-- EN: greekLetter-&gt;omega -->
+  <!-- EN: PlaceOutlander(p=3)-&gt;[SylE][place_end] -->
+  <!-- EN: PlaceOutlander-&gt;[SylE][SylE][place_end] -->
+  <OpportunitySite_AbandonedMechanitorPlatform.questNameRules.rulesStrings>
+    <li>questName(p=3)-&gt;[platform] [mechAdj] [ancientPlatAdj]</li>
+    <li>questName-&gt;[platform] [mechAdj] de [PlaceOutlander]</li>
+    <li>questName-&gt;[platform] [mechAdj] [greekLetter]</li>
+    <li>questName-&gt;[platform] [mechAdj] [platAdj] [RomanNumeral]</li>
+    <li>mechAdj-&gt;de mecanizador</li>
+    <li>ancientPlatAdj-&gt;abandonada</li>
+    <li>ancientPlatAdj-&gt;antigua</li>
+    <li>ancientPlatAdj-&gt;[platAdj]</li>
+    <li>platAdj-&gt;Luz Estelar</li>
+    <li>platAdj-&gt;Nebulosa</li>
+    <li>platAdj-&gt;Horizonte</li>
+    <li>platAdj-&gt;Eclipse</li>
+    <li>platAdj-&gt;Cénit</li>
+    <li>platAdj-&gt;Aurora</li>
+    <li>platAdj-&gt;Corona</li>
+    <li>platAdj-&gt;Nova</li>
+    <li>platAdj-&gt;Eón</li>
+    <li>platAdj-&gt;Consuelo</li>
+    <li>platAdj-&gt;Lúmina</li>
+    <li>platAdj-&gt;Ion</li>
+    <li>platAdj-&gt;Astralis</li>
+    <li>platAdj-&gt;Apolo</li>
+    <li>platAdj-&gt;Ares</li>
+    <li>platAdj-&gt;Hades</li>
+    <li>platAdj-&gt;Áyax</li>
+    <li>platAdj-&gt;Eos</li>
+    <li>platAdj-&gt;Eros</li>
+    <li>platAdj-&gt;Cronos</li>
+    <li>platAdj-&gt;Céfiro</li>
+    <li>platAdj-&gt;Argos</li>
+    <li>platAdj-&gt;Orión</li>
+    <li>platAdj-&gt;Hermes</li>
+    <li>platAdj-&gt;Atlas</li>
+    <li>platAdj-&gt;Helios</li>
+    <li>platAdj-&gt;Hefesto</li>
+    <li>platAdj-&gt;Talos</li>
+    <li>platAdj-&gt;Vanguardia</li>
+    <li>platAdj-&gt;Égida</li>
+    <li>platAdj-&gt;Alción</li>
+    <li>platAdj-&gt;Forjacielos</li>
+    <li>platAdj-&gt;Titán</li>
+    <li>platform(p=2)-&gt;estación</li>
+    <li>platform-&gt;plataforma</li>
+    <li>platform-&gt;plataforma orbital</li>
+    <li>platform-&gt;terminal orbital</li>
+    <li>platform(p=0.5)-&gt;puerta celeste</li>
+    <li>platform(p=0.5)-&gt;dársena espacial</li>
+    <li>platform(p=0.5)-&gt;pasarela espacial</li>
+    <li>greekLetter-&gt;alfa</li>
+    <li>greekLetter-&gt;beta</li>
+    <li>greekLetter-&gt;theta</li>
+    <li>greekLetter-&gt;delta</li>
+    <li>greekLetter-&gt;zeta</li>
+    <li>greekLetter-&gt;sigma</li>
+    <li>greekLetter-&gt;omega</li>
+    <li>PlaceOutlander(p=3)-&gt;[SylE][place_end]</li>
+    <li>PlaceOutlander-&gt;[SylE][SylE][place_end]</li>
+  </OpportunitySite_AbandonedMechanitorPlatform.questNameRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Helixien Gas Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="VCHE_PipeNetworks"]/label</xpath>
+          <value>
+            <!-- EN: Resources -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

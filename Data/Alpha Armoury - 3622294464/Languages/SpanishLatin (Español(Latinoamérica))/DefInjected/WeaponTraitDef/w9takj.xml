@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: self-skip field -->
+  <AArmoury_SelfSkipField.label>campo de autosalto</AArmoury_SelfSkipField.label>
+  <!-- EN: This weapon generates a localized skip field that allows its user to self-skip.\n\nAbility details: No charges, 4800 ticks cooldown (around 2 hours). 21 tiles range in line of sight. -->
+  <AArmoury_SelfSkipField.description>Esta arma genera un campo de salto localizado que permite a su usuario autosaltar.\n\nDetalles de la habilidad: Sin cargas, 4800 ticks de enfriamiento (alrededor de 2 horas). Alcance de 21 casillas en línea de visión.</AArmoury_SelfSkipField.description>
+  <!-- EN: skip field -->
+  <AArmoury_SkipField.label>campo de salto</AArmoury_SkipField.label>
+  <!-- EN: This weapon generates a localized skip field that allows its user to skip a target away.\n\nAbility details: No charges, 4800 ticks cooldown (around 2 hours). 21 tiles range in line of sight. -->
+  <AArmoury_SkipField.description>Esta arma genera un campo de salto localizado que permite a su usuario saltar a un objetivo lejos.\n\nDetalles de la habilidad: Sin cargas, 4800 ticks de enfriamiento (alrededor de 2 horas). Alcance de 21 casillas en línea de visión.</AArmoury_SkipField.description>
+  <!-- EN: invisibility field -->
+  <AArmoury_InvisibilityField.label>campo de invisibilidad</AArmoury_InvisibilityField.label>
+  <!-- EN: This weapon generates a field of psychic invisibility that will conceal its user for a time.\n\nAbility details: No charges, 30000 ticks cooldown (half a day). Lasts 4 hours. -->
+  <AArmoury_InvisibilityField.description>Esta arma genera un campo de invisibilidad psíquica que ocultará a su usuario por un tiempo.\n\nDetalles de la habilidad: Sin cargas, 30000 ticks de enfriamiento (medio día). Dura 4 horas.</AArmoury_InvisibilityField.description>
+  <!-- EN: sludge spewer -->
+  <AArmoury_Sludge.label>escupidor de lodo</AArmoury_Sludge.label>
+  <!-- EN: This weapon can project a spray of acidic slug. The sludge will stick to targets and burn them, and turn terrain into insect sludge. -->
+  <AArmoury_Sludge.description>Esta arma puede proyectar un spray de lodo ácido. El lodo se pegará a los objetivos y los quemará, y convertirá el terreno en lodo de insectos.</AArmoury_Sludge.description>
+  <!-- EN: sludge -->
+  <AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: detonation -->
+  <AArmoury_Detonation.label>detonación</AArmoury_Detonation.label>
+  <!-- EN: This weapon generates ultra heated gasses that can be released in the form of a powerful explosion. It will not harm the wielder.\n\nAbility details: No charges, 30000 ticks cooldown (half a day). Affects 2 tiles around the wielder with 50 Bomb damage. -->
+  <AArmoury_Detonation.description>Esta arma genera gases ultra calientes que pueden liberarse en forma de una poderosa explosión. No dañará al portador.\n\nDetalles de la habilidad: Sin cargas, 30000 ticks de enfriamiento (medio día). Afecta a 2 casillas alrededor del portador con 50 de daño de bomba.</AArmoury_Detonation.description>
+  <!-- EN: mimic core -->
+  <AArmoury_MimicCore.label>núcleo mimético</AArmoury_MimicCore.label>
+  <!-- EN: This weapon can acquire the weapon traits of another unique weapon, destroying it in the process. Note that only traits that are compatible with the weapon will be acquired (no rocket launching bows).\n\nAbility details: No charges, 30000 ticks cooldown (half a day). 6 tiles range. -->
+  <AArmoury_MimicCore.description>Esta arma puede adquirir los rasgos de arma de otra arma única, destruyéndola en el proceso. Ten en cuenta que solo se adquirirán los rasgos que sean compatibles con el arma (nada de arcos lanzacohetes).\n\nDetalles de la habilidad: Sin cargas, 30000 ticks de enfriamiento (medio día). Alcance de 6 casillas.</AArmoury_MimicCore.description>
+  <!-- EN: flechettes -->
+  <AArmoury_Flechettes.label>flechettes</AArmoury_Flechettes.label>
+  <!-- EN: This weapon fires pointed, fin-stabilized steel projectiles. -->
+  <AArmoury_Flechettes.description>Esta arma dispara proyectiles de acero puntiagudos y estabilizados por aletas.</AArmoury_Flechettes.description>
+  <!-- EN: mini-rockets -->
+  <AArmoury_MiniRocket.label>minicohetes</AArmoury_MiniRocket.label>
+  <!-- EN: This weapon fires dangerous mini-rockets with an explosive payload. Less damaging than bullets, but affecting a greater area. -->
+  <AArmoury_MiniRocket.description>Esta arma dispara peligrosos minicohetes con una carga explosiva. Menos dañinos que las balas, pero afectan a un área mayor.</AArmoury_MiniRocket.description>
+  <!-- EN: sonic amplifier -->
+  <AArmoury_Sonic.label>amplificador sónico</AArmoury_Sonic.label>
+  <!-- EN: Instead of bullets, this gun fires bursts of compressed sound, causing blunt damage. -->
+  <AArmoury_Sonic.description>En lugar de balas, esta arma dispara ráfagas de sonido comprimido, causando daño contundente.</AArmoury_Sonic.description>
+  <!-- EN: cryo rounds -->
+  <AArmoury_Cryo.label>rondas criogénicas</AArmoury_Cryo.label>
+  <!-- EN: This weapon fires ammunition that contains cryogenic chemicals. It will cause frostbite. -->
+  <AArmoury_Cryo.description>Esta arma dispara munición que contiene productos químicos criogénicos. Causará congelación.</AArmoury_Cryo.description>
+  <!-- EN: fertilizer canisters -->
+  <AArmoury_FertilizerCanisters.label>TODO</AArmoury_FertilizerCanisters.label>
+  <!-- EN: This weapon fires fertilizer canisters that will turn soil into tilled soil. -->
+  <AArmoury_FertilizerCanisters.description>TODO</AArmoury_FertilizerCanisters.description>
+  <!-- EN: corrosive burst -->
+  <AArmoury_Corrosive.label>ráfaga corrosiva</AArmoury_Corrosive.label>
+  <!-- EN: This weapon fires a pressurized blast of corrosive acid that deals increased damage to armor. -->
+  <AArmoury_Corrosive.description>Esta arma dispara una ráfaga presurizada de ácido corrosivo que inflige mayor daño a la armadura.</AArmoury_Corrosive.description>
+  <!-- EN: potato cannon -->
+  <AArmoury_PotatoCannon.label>cañón de patatas</AArmoury_PotatoCannon.label>
+  <!-- EN: This weapon fires... potatoes... Not very useful offensively, but it is a great way to, well, plant potatoes. Note that potatoes need terrain with more than 70% fertility. -->
+  <AArmoury_PotatoCannon.description>Esta arma dispara... patatas... No es muy útil ofensivamente, pero es una gran manera de, bueno, plantar patatas. Ten en cuenta que las patatas necesitan terreno con más del 70% de fertilidad.</AArmoury_PotatoCannon.description>
+  <!-- EN: incendiary launcher -->
+  <AArmoury_IncendiaryLauncher.label>lanzador incendiario</AArmoury_IncendiaryLauncher.label>
+  <!-- EN: This weapon fires incendiary canisters. -->
+  <AArmoury_IncendiaryLauncher.description>Esta arma dispara botes incendiarios.</AArmoury_IncendiaryLauncher.description>
+  <!-- EN: EMP launcher -->
+  <AArmoury_EMPLauncher.label>lanzador PEM</AArmoury_EMPLauncher.label>
+  <!-- EN: This weapon fires EMP canisters. -->
+  <AArmoury_EMPLauncher.description>Esta arma dispara botes PEM.</AArmoury_EMPLauncher.description>
+  <!-- EN: toxbomb launcher -->
+  <AArmoury_ToxLauncherMain.label>lanzador de bombas tóxicas</AArmoury_ToxLauncherMain.label>
+  <!-- EN: This weapon fires toxic gas canisters. -->
+  <AArmoury_ToxLauncherMain.description>Esta arma dispara botes de gas tóxico.</AArmoury_ToxLauncherMain.description>
+  <!-- EN: flamethrower -->
+  <AArmoury_Flamethrower.label>lanzallamas</AArmoury_Flamethrower.label>
+  <!-- EN: This launcher ignites its incendiary shells as soon as they leave the gun, releasing a huge cone of fire that burns everything in its path. -->
+  <AArmoury_Flamethrower.description>Este lanzador enciende sus proyectiles incendiarios tan pronto como salen del arma, liberando un enorme cono de fuego que quema todo a su paso.</AArmoury_Flamethrower.description>
+  <!-- EN: laser capacitor -->
+  <AArmoury_Laser.label>condensador láser</AArmoury_Laser.label>
+  <!-- EN: Instead of bullets, this gun fires laser shots. -->
+  <AArmoury_Laser.description>En lugar de balas, esta arma dispara tiros láser.</AArmoury_Laser.description>
+  <!-- EN: coil lance conversion -->
+  <AArmoury_CoilLance.label>conversión de lanza de bobina</AArmoury_CoilLance.label>
+  <!-- EN: Instead of bullets or charge shots, this sniper has been modified to electromagnetically accelerate piercing metal shards to enormous speeds. These will pierce through enemies. -->
+  <AArmoury_CoilLance.description>En lugar de balas o disparos de carga, este francotirador ha sido modificado para acelerar electromagnéticamente fragmentos de metal perforantes a velocidades enormes. Estos atravesarán a los enemigos.</AArmoury_CoilLance.description>
+  <!-- EN: acidic repeater -->
+  <AArmoury_AcidicRepeater.label>repetidor acídico</AArmoury_AcidicRepeater.label>
+  <!-- EN: Instead of gamma ray laser bursts, this repeater will produce a bunch of extremely dangerous acidic blasts. -->
+  <AArmoury_AcidicRepeater.description>En lugar de ráfagas láser de rayos gamma, este repetidor producirá un montón de explosiones ácidas extremadamente peligrosas.</AArmoury_AcidicRepeater.description>
+  <!-- EN: cryo cannon -->
+  <AArmoury_FrostRepeater.label>cañón criogénico</AArmoury_FrostRepeater.label>
+  <!-- EN: Instead of gamma ray laser bursts, this repeater will fire a single frost ray that will damage everything on its path. -->
+  <AArmoury_FrostRepeater.description>En lugar de ráfagas láser de rayos gamma, este repetidor disparará un solo rayo de escarcha que dañará todo a su paso.</AArmoury_FrostRepeater.description>
+  <!-- EN: plasma cannon -->
+  <AArmoury_PlasmaCannon.label>cañón de plasma</AArmoury_PlasmaCannon.label>
+  <!-- EN: Instead of gamma ray laser bursts, this repeater will fire a single plasma ray that will damage everything on its path. -->
+  <AArmoury_PlasmaCannon.description>En lugar de ráfagas láser de rayos gamma, este repetidor disparará un solo rayo de plasma que dañará todo a su paso.</AArmoury_PlasmaCannon.description>
+  <!-- EN: chakram launcher -->
+  <AArmoury_Chakram.label>lanzador de chakrams</AArmoury_Chakram.label>
+  <!-- EN: Instead of bullets, this sniper fires extremely dangerous plasteel chakram that propel themselves via nano-skip fields. These chakram have extremely high armor penetration and deal gruesome cuts. -->
+  <AArmoury_Chakram.description>En lugar de balas, este francotirador dispara chakrams de plastiacero extremadamente peligrosos que se propulsan mediante campos de nanosalto. Estos chakrams tienen una penetración de armadura extremadamente alta e infligen cortes espantosos.</AArmoury_Chakram.description>
+  <!-- EN: thermal blasts -->
+  <AArmoury_ThermalBlasts.label>explosiones térmicas</AArmoury_ThermalBlasts.label>
+  <!-- EN: Instead of bullets, this gun fires concentrated thermal blasts that cause instant heatstroke in its targets. Useless against non-flammable enemies such as mechanoids. -->
+  <AArmoury_ThermalBlasts.description>En lugar de balas, esta arma dispara explosiones térmicas concentradas que causan un golpe de calor instantáneo en sus objetivos. Inútil contra enemigos no inflamables como los mecanoides.</AArmoury_ThermalBlasts.description>
+  <!-- EN: vanometric 3D printer -->
+  <AArmoury_RandomProjectiles.label>impresora 3D vanométrica</AArmoury_RandomProjectiles.label>
+  <!-- EN: A very rare archotech device that allows the weapon to work without the need for either ammunition or any power source. It seems to be very ancient tech and is malfunctioning, causing the weapon to produce random results every time it is fired.\n\nThis will either annihilate its target, or cause unbound chaos. -->
+  <AArmoury_RandomProjectiles.description>Un dispositivo arqueotecnológico muy raro que permite que el arma funcione sin necesidad de munición ni ninguna fuente de energía. Parece ser tecnología muy antigua y está funcionando mal, causando que el arma produzca resultados aleatorios cada vez que se dispara.\n\nEsto aniquilará a su objetivo o causará un caos desatado.</AArmoury_RandomProjectiles.description>
+  <!-- EN: needle projectiles -->
+  <AArmoury_NeedleProjectiles.label>proyectiles de aguja</AArmoury_NeedleProjectiles.label>
+  <!-- EN: Instead of bullets, this weapon will fire a rapid burst of small needles, coated with a paralytic poison. -->
+  <AArmoury_NeedleProjectiles.description>En lugar de balas, esta arma disparará una ráfaga rápida de pequeñas agujas, recubiertas con un veneno paralizante.</AArmoury_NeedleProjectiles.description>
+  <!-- EN: tesla coil -->
+  <AArmoury_Tesla.label>bobina de tesla</AArmoury_Tesla.label>
+  <!-- EN: Instead of charge shots, this rifle can fire a cascade of chaining electromagnetic energy that can stun and disable mechanoids, while at the same time unleashing energy that can burn through organic targets. -->
+  <AArmoury_Tesla.description>En lugar de disparos de carga, este fusil puede disparar una cascada de energía electromagnética en cadena que puede aturdir e incapacitar a los mecanoides, mientras que al mismo tiempo desata energía que puede quemar a través de objetivos orgánicos.</AArmoury_Tesla.description>
+  <!-- EN: nerve spiker -->
+  <AArmoury_NerveSpiker.label>perforador nervioso</AArmoury_NerveSpiker.label>
+  <!-- EN: This weapon has been modified with a crossbow-like device that throws rough spikes embedded with a paralytic biotoxin. -->
+  <AArmoury_NerveSpiker.description>Esta arma ha sido modificada con un dispositivo similar a una ballesta que lanza púas toscas incrustadas con una biotoxina paralizante.</AArmoury_NerveSpiker.description>
+  <!-- EN: thumper rounds -->
+  <AArmoury_Thumper.label>rondas golpeadoras</AArmoury_Thumper.label>
+  <!-- EN: Instead of pellets, this shotgun fires breaching explosive concussions bombs that are extremely effective against walls and structures, but do much less damage to small targets. -->
+  <AArmoury_Thumper.description>En lugar de perdigones, esta escopeta dispara bombas de conmoción explosivas de brecha que son extremadamente efectivas contra muros y estructuras, pero hacen mucho menos daño a objetivos pequeños.</AArmoury_Thumper.description>
+  <!-- EN: net gun -->
+  <AArmoury_NetGun.label>pistola de red</AArmoury_NetGun.label>
+  <!-- EN: This launcher fires tangled nets to entangle and immobilize targets.\n\n-Negates the forced miss radius of this weapon. -->
+  <AArmoury_NetGun.description>Este lanzador dispara redes enredadas para enredar e inmovilizar objetivos.\n\n-Niega el radio de fallo forzado de esta arma.</AArmoury_NetGun.description>
+  <!-- EN: syringer gun -->
+  <AArmoury_SyringerGun.label>pistola de jeringas</AArmoury_SyringerGun.label>
+  <!-- EN: This rifle has been modified to fire mutagenic syringes that can cause random harmful mutations on their targets. -->
+  <AArmoury_SyringerGun.description>Este fusil ha sido modificado para disparar jeringas mutagénicas que pueden causar mutaciones dañinas aleatorias en sus objetivos.</AArmoury_SyringerGun.description>
+  <!-- EN: shatter rounds -->
+  <AArmoury_ShatterRounds.label>rondas de fragmentación</AArmoury_ShatterRounds.label>
+  <!-- EN: This weapon fires shatter rounds that will create shrapnel upon impact. -->
+  <AArmoury_ShatterRounds.description>Esta arma dispara rondas de fragmentación que crearán metralla al impactar.</AArmoury_ShatterRounds.description>
+  <!-- EN: shatter pellets -->
+  <AArmoury_ShatterPellets.label>perdigones de fragmentación</AArmoury_ShatterPellets.label>
+  <!-- EN: Instead of regular pellets, this shotgun fires shatter pellets that will create shrapnel upon impact. -->
+  <AArmoury_ShatterPellets.description>En lugar de perdigones regulares, esta escopeta dispara perdigones de fragmentación que crearán metralla al impactar.</AArmoury_ShatterPellets.description>
+  <!-- EN: electrified -->
+  <AArmoury_Electric.label>electrificado</AArmoury_Electric.label>
+  <!-- EN: This weapon fires microscopic mechanite charges that cause a bolt of lightning to impact their targets. -->
+  <AArmoury_Electric.description>Esta arma dispara cargas de mecanitos microscópicos que causan que un rayo impacte en sus objetivos.</AArmoury_Electric.description>
+  <!-- EN: tachyonic feed -->
+  <AArmoury_TachyonicFeed.label>alimentación taquiónica</AArmoury_TachyonicFeed.label>
+  <!-- EN: Projectiles fired by this weapon will cause increased, scaling damage on moving targets. -->
+  <AArmoury_TachyonicFeed.description>Los proyectiles disparados por esta arma causarán daño aumentado y escalado en objetivos en movimiento.</AArmoury_TachyonicFeed.description>
+  <!-- EN: hemovoric -->
+  <AArmoury_Hemovoric.label>hemovórico</AArmoury_Hemovoric.label>
+  <!-- EN: Projectiles fired by this weapon will drain blood from their target and attempt to transfer it to the shooter. Which is obviously quite useless unless the shooter is a Sanguophage! -->
+  <AArmoury_Hemovoric.description>Los proyectiles disparados por esta arma drenarán sangre de su objetivo e intentarán transferirla al tirador. ¡Lo cual es obviamente bastante inútil a menos que el tirador sea un Sanguófago!</AArmoury_Hemovoric.description>
+  <!-- EN: psychic -->
+  <AArmoury_Psychic.label>psíquico</AArmoury_Psychic.label>
+  <!-- EN: Projectiles fired by this weapon will absorb life power from their target and attempt to transfer it in the form of psyfocus to the shooter. Which is obviously quite useless unless the shooter is a psycaster! -->
+  <AArmoury_Psychic.description>Los proyectiles disparados por esta arma absorberán poder vital de su objetivo e intentarán transferirlo en forma de psicoconcentración al tirador. ¡Lo cual es obviamente bastante inútil a menos que el tirador sea un psíquico!</AArmoury_Psychic.description>
+  <!-- EN: bullet splitting -->
+  <AArmoury_Splitting.label>división de balas</AArmoury_Splitting.label>
+  <!-- EN: Projectiles fired by this weapon will be duplicated at half strength. -->
+  <AArmoury_Splitting.description>Los proyectiles disparados por esta arma se duplicarán a la mitad de fuerza.</AArmoury_Splitting.description>
+  <!-- EN: healing gun -->
+  <AArmoury_HealingMinigun.label>pistola curativa</AArmoury_HealingMinigun.label>
+  <!-- EN: This minigun fires mechanite needles filled with a powerful healing serum. They will heal their targets instead of harming them. -->
+  <AArmoury_HealingMinigun.description>Esta ametralladora dispara agujas de mecanitos llenas de un poderoso suero curativo. Curarán a sus objetivos en lugar de dañarlos.</AArmoury_HealingMinigun.description>
+  <!-- EN: lifesteal -->
+  <AArmoury_Lifesteal.label>robo de vida</AArmoury_Lifesteal.label>
+  <!-- EN: Projectiles fired by this weapon will drain health from their target and transfer it back to the wielder. -->
+  <AArmoury_Lifesteal.description>Los proyectiles disparados por esta arma drenarán salud de su objetivo y la transferirán de vuelta al portador.</AArmoury_Lifesteal.description>
+  <!-- EN: chemburster -->
+  <AArmoury_Chemburster.label>explotador químico</AArmoury_Chemburster.label>
+  <!-- EN: Bullets fired from this weapon have a microscopic ampoule of concentrated chemfuel. This will be injected into their targets and cause them to explode on death. -->
+  <AArmoury_Chemburster.description>Las balas disparadas por esta arma tienen una ampolla microscópica de biocombustible concentrado. Esto se inyectará en sus objetivos y hará que exploten al morir.</AArmoury_Chemburster.description>
+  <!-- EN: flux-charged -->
+  <AArmoury_Flux.label>cargado de flujo</AArmoury_Flux.label>
+  <!-- EN: Projectiles fired by this weapon will imbue their target with flux damage. Flux damage destabilizes a target’s bioelectric field, causing a short-range energy discharge that harms nearby creatures. -->
+  <AArmoury_Flux.description>Los proyectiles disparados por esta arma imbuirán a su objetivo con daño de flujo. El daño de flujo desestabiliza el campo bioeléctrico de un objetivo, causando una descarga de energía de corto alcance que daña a las criaturas cercanas.</AArmoury_Flux.description>
+  <!-- EN: voltaic rounds -->
+  <AArmoury_Voltaic.label>rondas voltaicas</AArmoury_Voltaic.label>
+  <!-- EN: This weapon fires rounds with a stored electrical charge, which will paralize and cause heart attacks in targets. -->
+  <AArmoury_Voltaic.description>Esta arma dispara rondas con una carga eléctrica almacenada, que paralizará y causará ataques al corazón en los objetivos.</AArmoury_Voltaic.description>
+  <!-- EN: target locator -->
+  <AArmoury_TargetLocator.label>localizador de objetivos</AArmoury_TargetLocator.label>
+  <!-- EN: This weapon will do almost no damage, but will inject its target with a nano-beacon that will make other guns impact much harder. -->
+  <AArmoury_TargetLocator.description>Esta arma no hará casi daño, pero inyectará a su objetivo una nanobaliza que hará que otras armas impacten mucho más fuerte.</AArmoury_TargetLocator.description>
+  <!-- EN: repair gun -->
+  <AArmoury_RepairGun.label>pistola de reparación</AArmoury_RepairGun.label>
+  <!-- EN: This weapon will do no damage, and will instead repair buildings it is fired at. -->
+  <AArmoury_RepairGun.description>Esta arma no hará daño, y en su lugar reparará los edificios a los que se dispare.</AArmoury_RepairGun.description>
+  <!-- EN: bee-bee gun -->
+  <AArmoury_BeeBeeGun.label>pistola de abejas</AArmoury_BeeBeeGun.label>
+  <!-- EN: This weapon will fire bees instead of bullets. Ok... -->
+  <AArmoury_BeeBeeGun.description>Esta arma disparará abejas en lugar de balas. Vale...</AArmoury_BeeBeeGun.description>
+  <!-- EN: bubble burster -->
+  <AArmoury_BubbleBurster.label>explotaburbujas</AArmoury_BubbleBurster.label>
+  <!-- EN: This weapon will fire a burst of short range acidic bubbles. -->
+  <AArmoury_BubbleBurster.description>Esta arma disparará una ráfaga de burbujas ácidas de corto alcance.</AArmoury_BubbleBurster.description>
+  <!-- EN: entropy rounds -->
+  <AArmoury_EntropyRounds.label>rondas de entropía</AArmoury_EntropyRounds.label>
+  <!-- EN: Projectiles fired by this weapon will convert their wielder&apos;s neural heat into extra psychic damage. Every shot that hits will reduce this heat by 1. -->
+  <AArmoury_EntropyRounds.description>Los proyectiles disparados por esta arma convertirán el calor neural de su portador en daño psíquico extra. Cada disparo que acierte reducirá este calor en 1.</AArmoury_EntropyRounds.description>
+  <!-- EN: attached chainsaw -->
+  <AArmoury_Chainsaw.label>motosierra acoplada</AArmoury_Chainsaw.label>
+  <!-- EN: This weapon has an attached chainsaw, just like the Emperor intended. -->
+  <AArmoury_Chainsaw.description>Esta arma tiene una motosierra acoplada, tal como el Emperador pretendía.</AArmoury_Chainsaw.description>
+  <!-- EN: attached bayonet -->
+  <AArmoury_Bayonet.label>bayoneta acoplada</AArmoury_Bayonet.label>
+  <!-- EN: This weapon has an attached bayonet. -->
+  <AArmoury_Bayonet.description>Esta arma tiene una bayoneta acoplada.</AArmoury_Bayonet.description>
+  <!-- EN: toxic sprayer -->
+  <AArmoury_ToxicSprayer.label>rociador tóxico</AArmoury_ToxicSprayer.label>
+  <!-- EN: This weapon has a close quarters sprayer that will create a toxic mist when used in melee range. -->
+  <AArmoury_ToxicSprayer.description>Esta arma tiene un rociador de corto alcance que creará una niebla tóxica cuando se use en combate cuerpo a cuerpo.</AArmoury_ToxicSprayer.description>
+  <!-- EN: acid sprayer -->
+  <AArmoury_AcidSprayer.label>rociador de ácido</AArmoury_AcidSprayer.label>
+  <!-- EN: This weapon has a close quarters sprayer that will create an acid mist when used in melee range. -->
+  <AArmoury_AcidSprayer.description>Esta arma tiene un rociador de corto alcance que creará una niebla ácida cuando se use en combate cuerpo a cuerpo.</AArmoury_AcidSprayer.description>
+  <!-- EN: flare launcher -->
+  <AArmoury_FlareLauncher.label>lanzabengalas</AArmoury_FlareLauncher.label>
+  <!-- EN: This weapon has an attached flare launcher. Once fired, it must be reloaded using bioferrite. -->
+  <AArmoury_FlareLauncher.description>Esta arma tiene un lanzabengalas acoplado. Una vez disparado, debe recargarse usando bioferrita.</AArmoury_FlareLauncher.description>
+  <!-- EN: flare -->
+  <AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: &quot;Holy hand&quot; launcher -->
+  <AArmoury_HolyLauncher.label>lanzador de "mano santa"</AArmoury_HolyLauncher.label>
+  <!-- EN: This weapon has an attached grenade launcher that fires &quot;holy hand&quot; grenades, filled with nanite inhibitors that will destabilize reanimated shamblers. It seems to have been intentionally adorned with religious motifs, though whether this was meant as a joke or taken seriously is unclear. Once fired, it must be reloaded using bioferrite. -->
+  <AArmoury_HolyLauncher.description>Esta arma tiene un lanzagranadas acoplado que dispara granadas de "mano santa", llenas de inhibidores de nanitos que desestabilizarán a los shamblers reanimados. Parece haber sido adornada intencionalmente con motivos religiosos, aunque no está claro si esto fue una broma o se tomó en serio. Una vez disparado, debe recargarse usando bioferrita.</AArmoury_HolyLauncher.description>
+  <!-- EN: grenade -->
+  <AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: deadlife launcher -->
+  <AArmoury_DeadlifeLauncher.label>lanzador necrovita</AArmoury_DeadlifeLauncher.label>
+  <!-- EN: This weapon has an attached deadlife launcher. Once fired, it must be reloaded using a deadlife shell. -->
+  <AArmoury_DeadlifeLauncher.description>Esta arma tiene un lanzador necrovita acoplado. Una vez disparado, debe recargarse usando un proyectil necrovita.</AArmoury_DeadlifeLauncher.description>
+  <!-- EN: deadlife shell -->
+  <AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>proyectil necrovita</AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: fleshmelter launcher -->
+  <AArmoury_FleshMelter.label>lanzador fundecarne</AArmoury_FleshMelter.label>
+  <!-- EN: This weapon has an attached fleshmelter launcher. Once fired, it must be reloaded using a shard. -->
+  <AArmoury_FleshMelter.description>Esta arma tiene un lanzador fundecarne acoplado. Una vez disparado, debe recargarse usando un fragmento.</AArmoury_FleshMelter.description>
+  <!-- EN: fleshmelter shell -->
+  <AArmoury_FleshMelter.modExtensions.0.abilityWithCharges.chargeNoun>proyectil fundecarne</AArmoury_FleshMelter.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: tox grenade launcher -->
+  <AArmoury_ToxLauncher.label>lanzagranadas tóxico</AArmoury_ToxLauncher.label>
+  <!-- EN: This weapon has an attached tox grenade launcher. Once fired, it must be reloaded using steel. -->
+  <AArmoury_ToxLauncher.description>Esta arma tiene un lanzagranadas tóxico acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_ToxLauncher.description>
+  <!-- EN: tox canister -->
+  <AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bote tóxico</AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: hellsphere launcher -->
+  <AArmoury_HellsphereLauncher.label>lanzador de esfera infernal</AArmoury_HellsphereLauncher.label>
+  <!-- EN: This weapon has an attached hellsphere launcher. Once fired, it must be reloaded using advanced components. -->
+  <AArmoury_HellsphereLauncher.description>Esta arma tiene un lanzador de esfera infernal acoplado. Una vez disparado, debe recargarse usando componentes avanzados.</AArmoury_HellsphereLauncher.description>
+  <!-- EN: hellsphere -->
+  <AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: rotstink launcher -->
+  <AArmoury_RotstinkLauncher.label>lanzador de hedor de putrefacción</AArmoury_RotstinkLauncher.label>
+  <!-- EN: This weapon has an attached rotstink launcher. Once fired, it must be reloaded using steel. -->
+  <AArmoury_RotstinkLauncher.description>Esta arma tiene un lanzador de hedor de putrefacción acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_RotstinkLauncher.description>
+  <!-- EN: rotstink canister -->
+  <AArmoury_RotstinkLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bote de hedor de putrefacción</AArmoury_RotstinkLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: magma launcher -->
+  <AArmoury_MagmaLauncher.label>lanzador de magma</AArmoury_MagmaLauncher.label>
+  <!-- EN: This weapon has an attached magma grenade launcher. Once fired, it must be reloaded using a lot of steel. Magma grenades won&apos;t work on water. -->
+  <AArmoury_MagmaLauncher.description>Esta arma tiene un lanzagranadas de magma acoplado. Una vez disparado, debe recargarse usando mucho acero. Las granadas de magma no funcionarán en el agua.</AArmoury_MagmaLauncher.description>
+  <!-- EN: magma grenade -->
+  <AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de magma</AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: archotegg launcher -->
+  <AArmoury_ArchoteggLauncher.label>lanzador arqueohuevo</AArmoury_ArchoteggLauncher.label>
+  <!-- EN: This weapon ███cluck ███▌▌egg 0101▌▌feather-collapse ▌▌[TIME] inexhaustible nesting [REDACTED] GRAVITY ▌▌do not ███shell fractals███do not███[ERROR].\n\nThe ███cosmic YOLK ███fracture █cluck▌▌FEATHER cascade ███INITIATE █▌▌▌GOLDEN BEAK██▌▌NULL ██DESTINY ████ERROR. -->
+  <AArmoury_ArchoteggLauncher.description>Esta arma ███cloc ███▌▌huevo 0101▌▌colapso-pluma ▌▌[TIEMPO] anidación inagotable [CENSURADO] GRAVEDAD ▌▌no ███fractales de cáscara███no███[ERROR].\n\nLa ███YEMA cósmica ███fractura █cloc▌▌cascada de PLUMAS ███INICIAR █▌▌▌PICO DORADO██▌▌NULO ██DESTINO ████ERROR.</AArmoury_ArchoteggLauncher.description>
+  <!-- EN: archotegg -->
+  <AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: acid launcher -->
+  <AArmoury_AcidLauncher.label>lanzador de ácido</AArmoury_AcidLauncher.label>
+  <!-- EN: This weapon has an attached acid grenade launcher. Once fired, it must be reloaded using components. -->
+  <AArmoury_AcidLauncher.description>Esta arma tiene un lanzagranadas de ácido acoplado. Una vez disparado, debe recargarse usando componentes.</AArmoury_AcidLauncher.description>
+  <!-- EN: acid grenade -->
+  <AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de ácido</AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: shrapnel launcher -->
+  <AArmoury_ShrapnelLauncher.label>lanzador de metralla</AArmoury_ShrapnelLauncher.label>
+  <!-- EN: This weapon has an attached shrapnel grenade launcher. Once fired, it must be reloaded using steel. -->
+  <AArmoury_ShrapnelLauncher.description>Esta arma tiene un lanzagranadas de metralla acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_ShrapnelLauncher.description>
+  <!-- EN: shrapnel grenade -->
+  <AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de metralla</AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: swarm launcher -->
+  <AArmoury_SwarmLauncher.label>lanzador de enjambre</AArmoury_SwarmLauncher.label>
+  <!-- EN: This weapon has an attached rocket swarm launcher. Once fired, it must be reloaded using advanced components. -->
+  <AArmoury_SwarmLauncher.description>Esta arma tiene un lanzador de enjambre de cohetes acoplado. Una vez disparado, debe recargarse usando componentes avanzados.</AArmoury_SwarmLauncher.description>
+  <!-- EN: rocket swarm shell -->
+  <AArmoury_SwarmLauncher.modExtensions.0.abilityWithCharges.chargeNoun>proyectil de enjambre de cohetes</AArmoury_SwarmLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: firefoam launcher -->
+  <AArmoury_FirefoamLauncher.label>lanzador de espuma contraincendios</AArmoury_FirefoamLauncher.label>
+  <!-- EN: This weapon has an attached firefoam launcher. Once fired, it must be reloaded using chemfuel. -->
+  <AArmoury_FirefoamLauncher.description>Esta arma tiene un lanzador de espuma contraincendios acoplado. Una vez disparado, debe recargarse usando biocombustible.</AArmoury_FirefoamLauncher.description>
+  <!-- EN: firefoam shell -->
+  <AArmoury_FirefoamLauncher.modExtensions.0.abilityWithCharges.chargeNoun>proyectil de espuma contraincendios</AArmoury_FirefoamLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: mine deployer -->
+  <AArmoury_MineDeployer.label>desplegador de minas</AArmoury_MineDeployer.label>
+  <!-- EN: This weapon has an attached mine launcher. Once fired, it must be reloaded using steel. -->
+  <AArmoury_MineDeployer.description>Esta arma tiene un lanzador de minas acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_MineDeployer.description>
+  <!-- EN: mine -->
+  <AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: caltrop launcher -->
+  <AArmoury_Caltrops.label>lanzador de abrojos</AArmoury_Caltrops.label>
+  <!-- EN: This weapon has an attached caltrop launcher. Once fired, it can be reloaded using steel. -->
+  <AArmoury_Caltrops.description>Esta arma tiene un lanzador de abrojos acoplado. Una vez disparado, puede recargarse usando acero.</AArmoury_Caltrops.description>
+  <!-- EN: caltrops -->
+  <AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: barricade deployer -->
+  <AArmoury_BarricadeDeployer.label>desplegador de barricadas</AArmoury_BarricadeDeployer.label>
+  <!-- EN: This weapon has an attached barricade deployer. Once fired, it can be reloaded using steel. -->
+  <AArmoury_BarricadeDeployer.description>Esta arma tiene un desplegador de barricadas acoplado. Una vez disparado, puede recargarse usando acero.</AArmoury_BarricadeDeployer.description>
+  <!-- EN: barricade -->
+  <AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: pesticide canisters -->
+  <AArmoury_PesticideCanisters.label>botes de pesticida</AArmoury_PesticideCanisters.label>
+  <!-- EN: This weapon has an attachment to fire pesticide canisters. They will destroy all blighted plants in a large area. Can be reloaded using chemfuel. -->
+  <AArmoury_PesticideCanisters.description>Esta arma tiene un accesorio para disparar botes de pesticida. Destruirán todas las plantas asoladas en un área grande. Se puede recargar usando biocombustible.</AArmoury_PesticideCanisters.description>
+  <!-- EN: pesticide canister -->
+  <AArmoury_PesticideCanisters.modExtensions.0.abilityWithCharges.chargeNoun>bote de pesticida</AArmoury_PesticideCanisters.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: dehydrator grenades -->
+  <AArmoury_DehydratorGrenades.label>granadas deshidratadoras</AArmoury_DehydratorGrenades.label>
+  <!-- EN: This weapon has an attachment to fire dehydrator grenades. They will dry terrain, similar to a moisture pump. Can be reloaded using 10 components. Very expensive, but beats having to wait ages for a moisture pump! -->
+  <AArmoury_DehydratorGrenades.description>Esta arma tiene un accesorio para disparar granadas deshidratadoras. Secarán el terreno, similar a una bomba de humedad. Se puede recargar usando 10 componentes. ¡Muy caro, pero mejor que tener que esperar siglos por una bomba de humedad!</AArmoury_DehydratorGrenades.description>
+  <!-- EN: dehydrator grenade -->
+  <AArmoury_DehydratorGrenades.modExtensions.0.abilityWithCharges.chargeNoun>granada deshidratadora</AArmoury_DehydratorGrenades.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: broadshield launcher -->
+  <AArmoury_ShieldLauncher.label>lanzador de escudo amplio</AArmoury_ShieldLauncher.label>
+  <!-- EN: This weapon has an attached broadshield launcher. Once fired, it must be reloaded using advanced components. -->
+  <AArmoury_ShieldLauncher.description>Esta arma tiene un lanzador de escudo amplio acoplado. Una vez disparado, debe recargarse usando componentes avanzados.</AArmoury_ShieldLauncher.description>
+  <!-- EN: shield generator -->
+  <AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>generador de escudo</AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: anti-tox launcher -->
+  <AArmoury_AntiToxLauncher.label>lanzador antitoxinas</AArmoury_AntiToxLauncher.label>
+  <!-- EN: This weapon has an attached anti-tox grenade launcher. Once fired, it must be reloaded using steel. Grenades reduce toxic buildup by 20%. -->
+  <AArmoury_AntiToxLauncher.description>Esta arma tiene un lanzagranadas antitoxinas acoplado. Una vez disparado, debe recargarse usando acero. Las granadas reducen la acumulación tóxica en un 20%.</AArmoury_AntiToxLauncher.description>
+  <!-- EN: anti-tox canister -->
+  <AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bote antitoxinas</AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: grapple gun -->
+  <AArmoury_GrappleGun.label>pistola de anclaje</AArmoury_GrappleGun.label>
+  <!-- EN: This weapon has a grapple launcher. It can be fired at an enemy target, pulling them toward the wielder, or at an empty tile, propelling the wielder toward that tile. Once fired, it must be reloaded using steel. -->
+  <AArmoury_GrappleGun.description>Esta arma tiene un lanzador de anclaje. Se puede disparar a un objetivo enemigo, atrayéndolo hacia el portador, o a una casilla vacía, impulsando al portador hacia esa casilla. Una vez disparado, debe recargarse usando acero.</AArmoury_GrappleGun.description>
+  <!-- EN: grapple gun -->
+  <AArmoury_GrappleGun.modExtensions.0.abilityWithCharges.chargeNoun>pistola de anclaje</AArmoury_GrappleGun.modExtensions.0.abilityWithCharges.chargeNoun>
+  <!-- EN: psychic resilience -->
+  <AArmoury_PsychicResilience.label>resistencia psíquica</AArmoury_PsychicResilience.label>
+  <!-- EN: This weapon&apos;s wielder will not crack under pressure. As long as they are drafted, they will not be at risk of suffering a mental break. -->
+  <AArmoury_PsychicResilience.description>El portador de esta arma no cederá bajo presión. Mientras esté reclutado, no correrá el riesgo de sufrir un colapso mental.</AArmoury_PsychicResilience.description>
+  <!-- EN: satiating -->
+  <AArmoury_Satiating.label>saciante</AArmoury_Satiating.label>
+  <!-- EN: This weapon psychically suppresses the wielder&apos;s appetite. -->
+  <AArmoury_Satiating.description>Esta arma suprime psíquicamente el apetito del portador.</AArmoury_Satiating.description>
+  <!-- EN: sharpshooter’s focus -->
+  <AArmoury_SharpshootersFocus.label>enfoque de tirador</AArmoury_SharpshootersFocus.label>
+  <!-- EN: This weapon is so easy to handle and wield that it will increase the wielder&apos;s shooting skill just by having it equipped.\n\n- Shooting skill +4. -->
+  <AArmoury_SharpshootersFocus.description>Esta arma es tan fácil de manejar y empuñar que aumentará la habilidad de disparo del portador con solo tenerla equipada.\n\n- Habilidad de disparo +4.</AArmoury_SharpshootersFocus.description>
+  <!-- EN: adrenal rush -->
+  <AArmoury_AdrenalRush.label>subidón de adrenalina</AArmoury_AdrenalRush.label>
+  <!-- EN: This weapon floods the wielder with a surge of combat stimulants upon landing a kill, briefly heightening reflexes and movement speed.\n\n- Move Speed x1.25 for 4 hours after a kill.\n\n- Melee Dodge Chance x1.25 for 4 hours after a kill.\n\n- Ranged Dodge Chance +25% for 4 hours after a kill. -->
+  <AArmoury_AdrenalRush.description>Esta arma inunda al portador con una oleada de estimulantes de combate al matar, aumentando brevemente los reflejos y la velocidad de movimiento.\n\n- Velocidad de movimiento x1.25 durante 4 horas tras matar.\n\n- Probabilidad de esquivar cuerpo a cuerpo x1.25 durante 4 horas tras matar.\n\n- Probabilidad de esquivar a distancia +25% durante 4 horas tras matar.</AArmoury_AdrenalRush.description>
+  <!-- EN: radiant core -->
+  <AArmoury_RadiantCore.label>núcleo radiante</AArmoury_RadiantCore.label>
+  <!-- EN: This weapon is powered by a faulty vanometric power source that will occasionally produce bursts of dirty radiation, affecting its wielder with toxic buildup.\n\n- Toxic Buildup +10% Severity after a kill. -->
+  <AArmoury_RadiantCore.description>Esta arma funciona con una fuente de energía vanométrica defectuosa que ocasionalmente produce ráfagas de radiación sucia, afectando a su portador con acumulación tóxica.\n\n- Acumulación tóxica +10% de gravedad tras matar.</AArmoury_RadiantCore.description>
+  <!-- EN: orgasmatron core -->
+  <AArmoury_Orgasmatron.label>núcleo orgasmatrón</AArmoury_Orgasmatron.label>
+  <!-- EN: This weapon infuses projectiles with blissful bio-feedback, leaving targets dazed, flushed, and oddly satisfied, but also sluggy. -->
+  <AArmoury_Orgasmatron.description>Esta arma infunde proyectiles con una maravillosa biorretroalimentación, dejando a los objetivos aturdidos, sonrojados y extrañamente satisfechos, pero también lentos.</AArmoury_Orgasmatron.description>
+  <!-- EN: sunburst core -->
+  <AArmoury_SunburstCore.label>núcleo solar</AArmoury_SunburstCore.label>
+  <!-- EN: This weapon blazes brighter under sunlight, dealing increased damage. Its power fades in shadow or darkness.\n\n- Damage while in sunlight +20%.\n\n- Damage while not in sunlight -20%. -->
+  <AArmoury_SunburstCore.description>Esta arma brilla más bajo la luz del sol, infligiendo mayor daño. Su poder se desvanece en la sombra o la oscuridad.\n\n- Daño bajo la luz del sol +20%.\n\n- Daño sin luz del sol -20%.</AArmoury_SunburstCore.description>
+  <!-- EN: vacuum sealed -->
+  <AArmoury_VacuumSealed.label>sellado al vacío</AArmoury_VacuumSealed.label>
+  <!-- EN: This weapon is optimized for vacuum and deals greater damage in space or airless environments.\n\n- Damage while in space +20%.\n\n- Damage while planetside -20%. -->
+  <AArmoury_VacuumSealed.description>Esta arma está optimizada para el vacío e inflige mayor daño en el espacio o entornos sin aire.\n\n- Daño en el espacio +20%.\n\n- Daño en la superficie planetaria -20%.</AArmoury_VacuumSealed.description>
+  <!-- EN: toxin-tuned -->
+  <AArmoury_ToxinTuned.label>sintonizado con toxinas</AArmoury_ToxinTuned.label>
+  <!-- EN: This weapon is fed by pollution, doing more damage in polluted terrains.\n\n- Damage while on top of polluted terrain +20%. -->
+  <AArmoury_ToxinTuned.description>Esta arma se alimenta de la contaminación, haciendo más daño en terrenos contaminados.\n\n- Daño sobre terreno contaminado +20%.</AArmoury_ToxinTuned.description>
+  <!-- EN: oversized -->
+  <AArmoury_Oversized.label>sobredimensionada</AArmoury_Oversized.label>
+  <!-- EN: This weapon is oversized, making it slower to aim, heavier, and more dangerous in close combat. -->
+  <AArmoury_Oversized.description>Esta arma es sobredimensionada, lo que la hace más lenta para apuntar, más pesada y más peligrosa en combate cuerpo a cuerpo.</AArmoury_Oversized.description>
+  <!-- EN: undersized -->
+  <AArmoury_Undersized.label>subdimensionada</AArmoury_Undersized.label>
+  <!-- EN: This weapon is undersized, making it faster to aim, lighter, and less dangerous in close combat. -->
+  <AArmoury_Undersized.description>Esta arma es subdimensionada, lo que la hace más rápida para apuntar, más ligera y menos peligrosa en combate cuerpo a cuerpo.</AArmoury_Undersized.description>
+  <!-- EN: revolver scope -->
+  <AArmoury_RevolverScope.label>mira de revólver</AArmoury_RevolverScope.label>
+  <!-- EN: This revolver is outfitted with a scope, allowing it to fire farther. -->
+  <AArmoury_RevolverScope.description>Este revólver está equipado con una mira, lo que le permite disparar más lejos.</AArmoury_RevolverScope.description>
+  <!-- EN: double-tap cylinder -->
+  <AArmoury_DoubleTap.label>cilindro de doble disparo</AArmoury_DoubleTap.label>
+  <!-- EN: Turns the revolver’s single-shot action into a short burst, trading some accuracy for faster suppression. -->
+  <AArmoury_DoubleTap.description>Convierte la acción de un solo disparo del revólver en una ráfaga corta, intercambiando algo de precisión por una supresión más rápida.</AArmoury_DoubleTap.description>
+  <!-- EN: reinforced frame -->
+  <AArmoury_ReinforcedFrame.label>marco reforzado</AArmoury_ReinforcedFrame.label>
+  <!-- EN: This weapon has been reinforced with a plasteel carapace increasing its resilience. -->
+  <AArmoury_ReinforcedFrame.description>Esta arma ha sido reforzada con un caparazón de plastiacero aumentando su resistencia.</AArmoury_ReinforcedFrame.description>
+  <!-- EN: insectoid slayer -->
+  <AArmoury_InsectKiller.label>asesino de insectoides</AArmoury_InsectKiller.label>
+  <!-- EN: This gun is especially damaging to insectoids, ripping them apart with a dangerous acid. -->
+  <AArmoury_InsectKiller.description>Esta arma es especialmente dañina para los insectoides, destrozándolos con un ácido peligroso.</AArmoury_InsectKiller.description>
+  <!-- EN: entity slayer -->
+  <AArmoury_AnomalyKiller.label>asesino de entidades</AArmoury_AnomalyKiller.label>
+  <!-- EN: This gun is especially damaging to anomalous entities, ripping them apart with a dangerous acid. -->
+  <AArmoury_AnomalyKiller.description>Esta arma es especialmente dañina para las entidades anómalas, destrozándolas con un ácido peligroso.</AArmoury_AnomalyKiller.description>
+</LanguageData>

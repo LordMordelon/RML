@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##VanillaExpanded.VFEA</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AC_Turret_AncientGraserTurret"]/description</xpath>
+          <value>
+            <!-- EN: An ancientportable graser turret. May explode when damaged. Its dumb AI brain can&apos;t be directly controlled, so beware of friendly fire.\n\nThis structure was built by a long forgotten civilisation and the technology can no longer be replicated. It will never suffer breakdowns, and it operates more efficiently during solar flare incidents. -->
+            <description>Una antigua torreta láser de rayos gamma de alta energía que dispara un rayo de barrido que atraviesa armaduras gruesas y quema a los objetivos. Puede explotar si resulta dañada. Su tonta IA no puede ser controlada directamente, así que ten cuidado con el fuego amigo.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

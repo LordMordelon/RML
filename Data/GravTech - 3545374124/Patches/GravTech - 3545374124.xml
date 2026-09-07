@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Gravship Expanded - Chapter 1</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Gravship Expanded - Chapter 1</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravForge"]/description</xpath>
+            <value>
+              <!-- EN: A high-tech forge designed to assemble Gravcores by compressing Gravlite panels using powerful gravitational waves.\n\nWhen built next to the Gravship engine, the work speed is increased by 120%.\nWhen built next to the Gravhulk engine, the work speed is increased by 190%.\n\n&lt;color=#E5E54C&gt;Gameplay impact:&lt;/color&gt; Reduces maintenance sensitivity of all gravship structures on this gravship by 0.25. -->
+              <description>Una forja de alta tecnología diseñada para ensamblar gravinúcleos comprimiendo paneles de gravilita utilizando poderosas ondas gravitacionales.\n\nCuando se construye junto al motor de gravinave, la velocidad de trabajo aumenta en un 120%.\nCuando se construye junto al motor de gravicoloso, la velocidad de trabajo aumenta en un 190%.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt; Reduce la sensibilidad de mantenimiento de todas las estructuras de gravinave en esta gravinave en 0.25.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBattery"]/description</xpath>
+            <value>
+              <!-- EN: A large electric battery with a huge capacity. With the help of a gravcore, it stores energy in the form of a gravitational fluctuations between gravlite panels.\nIt can absorb heat from gravship travel and quickly converts it into usable power and decreasing the grav engine cooldown duration. A gravship can support up to four gravcore battery.\n\nContinuously generates 500W. -->
+              <description>Una gran batería eléctrica con una capacidad enorme. Con la ayuda de un gravinúcleo, almacena energía en forma de fluctuaciones gravitacionales entre paneles de gravilita.\nPuede absorber calor del viaje de la gravinave y convertirlo rápidamente en energía utilizable, disminuyendo la duración del enfriamiento del gravimotor. Una gravinave puede soportar hasta cuatro gravibaterías.\n\nGenera continuamente 500W.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_GravChemfuelTank"]/label</xpath>
+            <value>
+              <!-- EN: grav astrofuel tank -->
+              <label>gravitanque de astrobustible</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_GravChemfuelTank"]/description</xpath>
+            <value>
+              <!-- EN: A advanced astrofuel storage tank that supplies fuel for thrusters on a gravship. Сompresses fuel using gravcores and increases its efficiency.\n\nA gravship can support two grav astrofuel tank. -->
+              <description>Un tanque de almacenamiento de astrobustible avanzado que suministra combustible para los propulsores de una gravinave. Comprime el combustible usando gravinúcleos y aumenta su eficiencia.\n\nUna gravinave puede soportar dos tanques de astrobustible gravitacionales.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="Apparel_GravPack"]/comps/li[1]/chargeNoun</xpath>
+            <value>
+              <!-- EN: oxygen u³ -->
+              <chargeNoun>oxígeno u³</chargeNoun>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBlaster"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: barrel -->
+              <label>cañón</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravRifle"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: barrel -->
+              <label>cañón</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="GravRifle_LooongShot"]/description</xpath>
+            <value>
+              <!-- EN: Long-range shot using gravitonium bullet. (130 t) -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBeamCannon"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: emitter -->
+              <label>emisor</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravHammer"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravHammerBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="GravHands"]/comps/li[1]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: grav fist -->
+              <label>gravipuño</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_ComputerCore"]/description</xpath>
+            <value>
+              <!-- EN: Cerebrex Gravship pilot computer core. Improves flight quality of gravship by 30%.\n\nСan be tuned to a specific mechanitor to improve his ability.\n Bandwidth +32 \n Control groups +3 \n Work speed mech +60% \n Forming speed +150% \n Cerebrex node ability -->
+              <description>Núcleo de computadora de piloto cerebrex diseñado especialmente para naves gravitacionales de última generación. Este sistema avanzado optimiza significativamente la estabilidad y maniobrabilidad de la nave, mejorando la calidad de vuelo en un 30%.\n\nPuede sintonizarse con un mecanitor específico, permitiendo que la máquina-mente aprenda y se adapte mejor a su piloto.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt;\n- Ancho de banda +20 \n- Grupos de control +3 \n- Velocidad de trabajo mech +30% \n- Velocidad de formación +100% \n- Habilidad de nodo Cerebrex</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

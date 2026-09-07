@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GauranlenTreeModeDef[defName="VDE_Spitter"]/label</xpath>
+          <value>
+            <!-- EN: acidic spitter -->
+            <label>escupidora</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VDE_Dryad_Spitter"]/label</xpath>
+          <value>
+            <!-- EN: acidic spitter dryad -->
+            <label>dríada escupidora</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VDE_Dryad_Spitter"]/label</xpath>
+          <value>
+            <!-- EN: acidic spitter dryad -->
+            <label>dríada escupidora</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

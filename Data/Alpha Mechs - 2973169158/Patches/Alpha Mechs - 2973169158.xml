@@ -1,0 +1,1093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Angler"]/label</xpath>
+            <value>
+              <!-- EN: gestate angler -->
+              <label>gestar oceanus</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Angler"]/description</xpath>
+            <value>
+              <!-- EN: Gestate an angler mechanoid. -->
+              <description>Gestar un mecanoide oceanus.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Fishing Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/label</xpath>
+              <value>
+                <!-- EN: oceanus -->
+                <label>oceanus</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/description</xpath>
+              <value>
+                <!-- EN: The Oceanus mechanoid is a unique machine, shaped like an old tugboat, that is specialized in fishing. It is equipped with state-of-the-art fishing gear, including nets, hooks, and lines, as well as advanced sonar and radar systems that allow it to locate schools of fish with great precision. Its hull is reinforced with advanced materials, making it impervious to most natural hazards in the sea, and it features a large cargo hold that can store great amounts of fresh fish. It is however pretty useless in combat. -->
+                <description>El mecanoide oceanus es una máquina única, con forma de viejo remolcador, que se especializa en la pesca. Está equipado con equipos de pesca de última generación, incluyendo redes, anzuelos y líneas, así como sistemas avanzados de sonar y radar que le permiten localizar bancos de peces con gran precisión. Su casco está reforzado con materiales avanzados, lo que lo hace resistente a la mayoría de los peligros naturales del mar, y cuenta con una gran bodega de carga que puede almacenar grandes cantidades de pescado fresco. Sin embargo, es bastante inútil en combate.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/tools/li[1]/label</xpath>
+              <value>
+                <!-- EN: head -->
+                <label>cabeza</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/tools/li[2]/label</xpath>
+              <value>
+                <!-- EN: prow -->
+                <label>proa</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="AM_Mech_Angler"]/label</xpath>
+              <value>
+                <!-- EN: oceanus -->
+                <label>oceanus</label>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##sarg.rimbees</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/label</xpath>
+            <value>
+              <!-- EN: gestate apiarist -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/description</xpath>
+            <value>
+              <!-- EN: Gestate an apiarist mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/label</xpath>
+            <value>
+              <!-- EN: apiarist -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/description</xpath>
+            <value>
+              <!-- EN: The Apiarist is a small, bee-shaped machine designed specifically for beekeeping tasks. With its advanced sensors and programming, it can monitor hive health, collect honey, and perform other essential tasks with exceptional precision and efficiency. The Apiarist&apos;s compact size and winged design allow it to hover over terrain, ignoring terrain movement costs and accessing hard-to-reach locations. While not designed for combat, its robust construction and ability to move swiftly and nimbly make it difficult to catch.\n\n&lt;color=#E5E54C&gt;Special abilities:&lt;/color&gt; Hovers over terrain, ignoring terrain movement costs. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Apiarist"]/label</xpath>
+            <value>
+              <!-- EN: apiarist -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##VanillaExpanded.VGeneticsE</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Geneticor"]/label</xpath>
+            <value>
+              <!-- EN: gestate geneticor -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Geneticor"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a geneticor mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Geneticor"]/label</xpath>
+            <value>
+              <!-- EN: geneticor -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Geneticor"]/description</xpath>
+            <value>
+              <!-- EN: The Geneticor mechanoid is a humanoid robot designed for genetic engineering tasks. With advanced sensors and programming, it can analyze and manipulate DNA sequences with exceptional precision and speed. The Geneticor is equipped with a suite of specialized tools and equipment, including gene sequencers, CRISPR/Cas9 gene editing systems, and gene splicers, among others. Its programming includes an extensive database of genetic information and sequences, allowing it to adapt and customize its approach to any given task. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Geneticor"]/label</xpath>
+            <value>
+              <!-- EN: geneticor -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##VanillaExpanded.VBooksE</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Librarian"]/label</xpath>
+            <value>
+              <!-- EN: gestate librarian -->
+              <label>gestar scriptomaton</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Librarian"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a librarian mechanoid. -->
+              <description>Gestar un mecanoide scriptomaton.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Librarian"]/label</xpath>
+            <value>
+              <!-- EN: scriptomaton -->
+              <label>scriptomaton</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Librarian"]/description</xpath>
+            <value>
+              <!-- EN: The Scriptomaton is a humanoid mechanoid designed for writing and maintaining libraries. It has a vast database of knowledge at its disposal and can quickly and efficiently categorize and organize new information as it becomes available. The Scriptomaton is equipped with advanced writing tools, including pens, pencils, and quills, as well as cutting-edge software that allows it to transcribe written text into digital formats. Its sleek, humanoid form and advanced mobility systems enable it to move swiftly and gracefully through libraries and archives, collecting and preserving valuable documents and artifacts. -->
+              <description>El scriptomaton es un mecanoide humanoide diseñado para escribir y mantener bibliotecas. Tiene a su disposición una vasta base de conocimientos y puede categorizar y organizar información nueva de forma rápida y eficiente a medida que está disponible. El scriptomaton está equipado con herramientas de escritura avanzadas, incluyendo plumas, lápices y plumillas, así como software de última generación que le permite transcribir texto escrito a formatos digitales. Su elegante forma humanoide y sus avanzados sistemas de movilidad le permiten moverse con rapidez y gracia por bibliotecas y archivos, recolectando y preservando documentos y artefactos valiosos.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Librarian"]/label</xpath>
+            <value>
+              <!-- EN: scriptomaton -->
+              <label>scriptomaton</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Races Expanded - Sanguophage</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="AM_ExtractHemogen"]/label</xpath>
+            <value>
+              <!-- EN: extract hemogen -->
+              <label>extraer hemogenina</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="AM_ExtractHemogen"]/description</xpath>
+            <value>
+              <!-- EN: Extract hemogen directly from the blood of a downed person. The target will lose blood and get knocked down. A fast-acting coagulant will seal the wound to prevent bleeding. -->
+              <description>Extrae hemogenina directamente de la sangre de una persona incapacitada. El objetivo perderá sangre y quedará derribado. Un coagulante de acción rápida sellará la herida para evitar el sangrado.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Sanguinarius"]/label</xpath>
+            <value>
+              <!-- EN: gestate sanguinarius -->
+              <label>gestar sanguinarius</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Sanguinarius"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a sanguinarius mechanoid. -->
+              <description>Gestar un mecanoide sanguinarius.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/label</xpath>
+            <value>
+              <!-- EN: blood belcher -->
+              <label>escupidor de sangre</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/description</xpath>
+            <value>
+              <!-- EN: A fearsome weapon that harnesses the power of boiling, acidic blood. When activated, the Blood Belcher propels a high-pressure stream of acidic hemogen towards its target. -->
+              <description>Un arma temible que aprovecha el poder de la sangre ácida hirviente. Al activarse, el escupidor de sangre propulsa un chorro de hemogenina ácida a alta presión hacia su objetivo.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: barrel -->
+              <label>cañón</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VEF.Weapons.ExpandableProjectileDef[defName="AM_Bullet_BloodBelcher"]/label</xpath>
+            <value>
+              <!-- EN: boiling hemogen -->
+              <label>hemogenina hirviente</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/label</xpath>
+            <value>
+              <!-- EN: sanguinarius -->
+              <label>sanguinarius</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/description</xpath>
+            <value>
+              <!-- EN: A formidable mechanoid that resembles a Centipede in its body plan, optimized for the efficient collection and processing of hemogen. Its sharp, retractable proboscis makes precise incisions to extract the resource, which is then processed and stored within its internal reservoirs. -->
+              <description>Un formidable mecanoide que se asemeja a un ciempiés en su plan corporal, optimizado para la recolección y el procesamiento eficientes de hemogenina. Su probóscide afilada y retráctil hace incisiones precisas para extraer el recurso, que luego se procesa y almacena en sus depósitos internos.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: front left leg -->
+              <label>pata frontal izquierda</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[2]/label</xpath>
+            <value>
+              <!-- EN: front right leg -->
+              <label>pata frontal derecha</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[3]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Sanguinarius"]/label</xpath>
+            <value>
+              <!-- EN: sanguinarius -->
+              <label>sanguinarius</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##OskarPotocki.VFE.Mechanoid</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: dominion -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: An improved and strengthened version of the Aura, a Dominion is an angel-shaped mechanoid surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: wing blade -->
+              <label>hoja de ala</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/tools/li[2]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: dominion -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_DominionRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate dominion -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_DominionRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a dominion mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: eviscerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The eviscerator is a more advanced version of the daggersnout, an insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn&apos;t as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: snout blade -->
+              <label>hoja de hocico</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/tools/li[2]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: eviscerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_EvisceratorRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate eviscerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_EvisceratorRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate an eviscerator mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: incinerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The Incinerator is an advanced version of the Fireworm, a huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don&apos;t let an incinerator approach your defenses!\n\nThe incinerator superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn&apos;t want to see what a biological scyther looks like... -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: incinerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_IncineratorRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate incinerator -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_IncineratorRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate an incinerator mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: colossus -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The Colossus is an advanced version of the Goliath, a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns. If built by the player, it will have a &quot;Swap weapon&quot; ability to choose between the charge blaster and the Needle gun. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: colossus -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_ColossusRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate colossus -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_ColossusRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a colossus mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: hoplite -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The Hoplite is an advanced version of the Phalanx, a bulking mechanoid based on a rhinoceros beetle body plan. The hoplite&apos;s plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid&apos;s head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: hoplite -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_HopliteRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate hoplite -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_HopliteRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a hoplite mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: siegemaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The Siegemaster is an advanced version of the Siegebreaker, a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosive shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: siegemaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_SiegemasterRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate siegemaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_SiegemasterRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a siegemaster mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: pristine slurrymaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/description</xpath>
+            <value>
+              <!-- EN: The Slurrymaster is an advanced version of the Slurrypede. This extremely rare bio-mechanical creature is the result of a batch of mechanoids receiving a hardware upgrade. The Slurrymaster is a modified bio-mechanoid capable of extracting energy from standard mech rechargers and use it to process inorganic matter into a homogeneous organic slurry. This slurry is virtually indistinguishable from nutrient paste produced in a nutrient paste dispenser. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: head -->
+              <label>cabeza</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/label</xpath>
+            <value>
+              <!-- EN: pristine slurrymaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_PristineSlurrymasterRecipe"]/label</xpath>
+            <value>
+              <!-- EN: gestate pristine slurrymaster -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_PristineSlurrymasterRecipe"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a pristine slurrymaster mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="AM_AlphaHardwareUpgrade"]/label</xpath>
+            <value>
+              <!-- EN: alpha hardware upgrade -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="AM_AlphaHardwareUpgrade"]/description</xpath>
+            <value>
+              <!-- EN: Researching the mechanoid hardware upgrade will allow you to build all the advanced alpha mechs added in Vanilla Factions Expanded - Mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Animals</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_DisgustingMealNutrientPaste"]/label</xpath>
+            <value>
+              <!-- EN: disgusting nutrient paste meal -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_DisgustingMealNutrientPaste"]/description</xpath>
+            <value>
+              <!-- EN: A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!\n\nThis slurry is edible for carnivore and omnivore animals, but barely, and completely indigestible for herbivores. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_AteSuperAwfulMeal"]/stages/li[1]/label</xpath>
+            <value>
+              <!-- EN: ate incredibly awful meal -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_AteSuperAwfulMeal"]/stages/li[1]/description</xpath>
+            <value>
+              <!-- EN: I had to eat something that was processed in the guts of a biomechanical abomination. I haven&apos;t eaten a more disgusting meal in my whole life. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/label</xpath>
+            <value>
+              <!-- EN: prestige mechlord helmet -->
+              <label>casco de mecalord prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/description</xpath>
+            <value>
+              <!-- EN: A heavy plasteel-weave helmet packed with mechanitor-assistance gear. The mechlord helmet dramatically amplifies a mechanitor&apos;s bandwidth, but is somewhat less protective than dedicated heavy armor.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un casco pesado de tejido de plasteel repleto de equipo de asistencia para mecanizador. El casco de mecalord amplifica drásticamente el ancho de banda de un mecanizador, pero es algo menos protector que una armadura pesada dedicada.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/label</xpath>
+            <value>
+              <!-- EN: prestige mech master helmet -->
+              <label>casco de mecamaestro prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/description</xpath>
+            <value>
+              <!-- EN: A heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor&apos;s bandwidth, while being as protective as a marine helmet.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un casco de armadura de poder pesado repleto de equipo de asistencia para mecanizador. El casco de mecamaestro amplifica drásticamente el ancho de banda de un mecanizador, a la vez que es tan protector como un casco de marine.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/label</xpath>
+            <value>
+              <!-- EN: prestige mech breaker helmet -->
+              <label>casco de rompemecas prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/description</xpath>
+            <value>
+              <!-- EN: A modified siegebreaker helmet designed to improve the abilities of a mechanitor even further.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un casco rompeasedios modificado diseñado para mejorar aún más las habilidades de un mecanizador.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/label</xpath>
+            <value>
+              <!-- EN: prestige mechlord suit -->
+              <label>traje de mecalord prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/description</xpath>
+            <value>
+              <!-- EN: A power-assisted armor suit packed with mechanitor-assistance gear. The mechlord suit dramatically amplifies a mechanitor&apos;s bandwidth, but is somewhat less protective than dedicated heavy armor.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un traje de armadura asistida repleto de equipo de asistencia para mecanizador. El traje de mecalord amplifica drásticamente el ancho de banda de un mecanizador, pero es algo menos protector que una armadura pesada dedicada.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/label</xpath>
+            <value>
+              <!-- EN: prestige mech master suit -->
+              <label>armadura de mecamaestro prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/description</xpath>
+            <value>
+              <!-- EN: A power-assisted armor suit packed with mechanitor-assistance gear. Greatly amplifies the abilities of a mechanitor, while also being slightly stronger than a suit of marine armor.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un traje de armadura asistida repleto de equipo de asistencia para mecanizador. Amplifica enormemente las habilidades de un mecanizador, a la vez que es ligeramente más fuerte que un traje de armadura de marine.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/label</xpath>
+            <value>
+              <!-- EN: prestige mech breaker armor -->
+              <label>armadura de rompemecas prestigioso</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/description</xpath>
+            <value>
+              <!-- EN: A modified suit of siegebreaker armor designed to improve the abilities of a mechanitor even further.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+              <description>Un traje modificado de armadura rompeasedios diseñado para mejorar aún más las habilidades de un mecanizador.\n\nCaro y hermoso, una armadura de prestigio como esta suele estar hecha para personas de alto estatus. Los hilos de eltex incrustados también mejoran la sensibilidad psíquica del portador.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Pirates</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/label</xpath>
+            <value>
+              <!-- EN: mech master warcasket -->
+              <label>sarcotraje de mecamaestro</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/shortDescription</xpath>
+            <value>
+              <!-- EN: Specialized spacer-tech warcasket shell that enables the wearer to control mechanoids effectively. -->
+              <shortDescription>Un sarcotraje de guerra espacializado especializado que permite al portador controlar mecanoides de forma efectiva.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/description</xpath>
+            <value>
+              <!-- EN: The Mech Master Warcasket is a specialized warcasket shell that enables the wearer to control mechanoids effectively. It is equipped with advanced technology that enhances the wearer&apos;s neural mechlink with mechanoids, providing unparalleled control over these machines on the battlefield.\n\nIn addition to its advanced control systems, the Mech Master Warcasket also features a powerful energy shield that can absorb and deflect incoming attacks, making it an excellent choice for frontline combat situations. Its integrated power systems ensure that the shield remains operational even in the most intense combat situations. -->
+              <description>El sarcotraje mecamaestro permite controlar mecanoides de forma efectiva. Esta equipado con tecnologia avanzada que refuerza el mecaenlace neural del portador, otorgando un control preciso en combate.\n\nAdemas integra un potente escudo de energia que absorbe y desvia ataques, ideal para la primera linea. Sus sistemas de energia garantizan que el escudo se mantenga operativo incluso en combates intensos.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/label</xpath>
+            <value>
+              <!-- EN: mech master warcasket shoulders -->
+              <label>hombreras de mecamaestro</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/shortDescription</xpath>
+            <value>
+              <!-- EN: Specialized spacer-tech warcasket pauldrons that enable the wearer to control mechanoids effectively. -->
+              <shortDescription>Hombreras de sarcotraje especializadas que permiten al portador controlar mecanoides de forma efectiva.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/description</xpath>
+            <value>
+              <!-- EN: The Mech Master Warcasket is a specialized warcasket shell that enables the wearer to control mechanoids effectively. It is equipped with advanced technology that enhances the wearer&apos;s neural mechlink with mechanoids, providing unparalleled control over these machines on the battlefield.\n\nIn addition to its advanced control systems, the Mech Master Warcasket also features a powerful energy shield that can absorb and deflect incoming attacks, making it an excellent choice for frontline combat situations. Its integrated power systems ensure that the shield remains operational even in the most intense combat situations. -->
+              <description>El sarcotraje mecamaestro permite controlar mecanoides de forma efectiva. Esta equipado con tecnologia avanzada que refuerza el mecaenlace neural del portador, otorgando un control preciso en combate.\n\nAdemas integra un potente escudo de energia que absorbe y desvia ataques, ideal para la primera linea. Sus sistemas de energia garantizan que el escudo se mantenga operativo incluso en combates intensos.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/label</xpath>
+            <value>
+              <!-- EN: mech master warcasket helmet -->
+              <label>casco de mecamaestro</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/shortDescription</xpath>
+            <value>
+              <!-- EN: Specialized spacer-tech warcasket helmet that enables the wearer to control mechanoids effectively. -->
+              <shortDescription>Casco de sarcotraje espacializado especializado que permite al portador controlar mecanoides de forma efectiva.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/description</xpath>
+            <value>
+              <!-- EN: The Mech Master Warcasket is a specialized warcasket shell that enables the wearer to control mechanoids effectively. It is equipped with advanced technology that enhances the wearer&apos;s neural mechlink with mechanoids, providing unparalleled control over these machines on the battlefield.\n\nIn addition to its advanced control systems, the Mech Master Warcasket also features a powerful energy shield that can absorb and deflect incoming attacks, making it an excellent choice for frontline combat situations. Its integrated power systems ensure that the shield remains operational even in the most intense combat situations. -->
+              <description>El sarcotraje mecamaestro permite controlar mecanoides de forma efectiva. Esta equipado con tecnologia avanzada que refuerza el mecaenlace neural del portador, otorgando un control preciso en combate.\n\nAdemas integra un potente escudo de energia que absorbe y desvia ataques, ideal para la primera linea. Sus sistemas de energia garantizan que el escudo se mantenga operativo incluso en combates intensos.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TraitDef[defName="VFEP_WarcasketTrait_Mech"]/degreeDatas/li[1]/label</xpath>
+            <value>
+              <!-- EN: mech warcasket -->
+              <label>sarcotraje meca</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TraitDef[defName="VFEP_WarcasketTrait_Mech"]/degreeDatas/li[1]/description</xpath>
+            <value>
+              <!-- EN: {PAWN_nameDef} is entombed in a mech master warcasket. No amount of pain will have an effect on them, and they can never go into a pain shock or drop unconscious due to pain. {PAWN_nameDef} will be unable to do most tasks, except those necessary to maintain and build mechanoids. -->
+              <description>{PAWN_nameDef} esta encerrado en un sarcotraje de mecamaestro. Ninguna cantidad de dolor tendra efecto, y nunca sufrira un shock de dolor ni caera inconsciente por dolor. {PAWN_nameDef} no podra realizar la mayoria de las tareas, excepto las necesarias para mantener y construir mecanoides.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##Dubwise.Rimatomics</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Nucleotron"]/label</xpath>
+            <value>
+              <!-- EN: gestate nucleotron -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Nucleotron"]/description</xpath>
+            <value>
+              <!-- EN: Gestate a nucleotron mechanoid. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Nucleotron"]/label</xpath>
+            <value>
+              <!-- EN: nucleotron -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Nucleotron"]/description</xpath>
+            <value>
+              <!-- EN: A specialized Lifter mechanoid designed to transport fissile material inserting and extracting it into nuclear reactors. It is equipped with a secure containment unit to prevent any leaks or contamination during transportation. As it is less versatile than a Lifter, it is also quite faster moving. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Nucleotron"]/label</xpath>
+            <value>
+              <!-- EN: nucleotron -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

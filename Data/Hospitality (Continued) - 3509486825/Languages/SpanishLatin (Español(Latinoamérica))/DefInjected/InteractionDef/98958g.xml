@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [saidwords] [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] about all the [ConceptPositive] at [INITIATOR_factionName]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] [adjwords] things about another colonists. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] introduced [RECIPIENT_nameDef] to another colonist. -->
+  <!-- EN: saidwords-&gt;said [adjwords] words to -->
+  <!-- EN: saidwords-&gt;expressed [ConceptPositive] towards -->
+  <!-- EN: saidwords-&gt;made [adjwords] gestures towards -->
+  <!-- EN: adjwords-&gt;intriguing -->
+  <!-- EN: adjwords-&gt;kind -->
+  <!-- EN: adjwords-&gt;inviting -->
+  <!-- EN: adjwords-&gt;friendly -->
+  <!-- EN: adjwords-&gt;charming -->
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [saidwords] [RECIPIENT_nameDef].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le habló a [RECIPIENT_nameDef] sobre [ConceptPositive] en [INITIATOR_factionName].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le dijo a [RECIPIENT_nameDef] cosas [adjwords_f] sobre otros colonos.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le presentó a [RECIPIENT_nameDef] a otro colono.</li>
+    <li>saidwords-&gt;le dijo palabras [adjwords_f] a</li>
+    <li>saidwords-&gt;expresó [ConceptPositive] hacia</li>
+    <li>saidwords-&gt;hizo gestos [adjwords_m] hacia</li>
+    <li>adjwords_f-&gt;intrigantes</li>
+    <li>adjwords_f-&gt;amables</li>
+    <li>adjwords_f-&gt;acogedoras</li>
+    <li>adjwords_f-&gt;amistosas</li>
+    <li>adjwords_f-&gt;encantadoras</li>
+  </CharmGuestAttempt.logRulesInitiator.rulesStrings>
+</LanguageData>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Improved Insectoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_InsectoidSupremacy"]/label</xpath>
+          <value>
+            <!-- EN: insectoid mastery -->
+            <label>supremacía insectoide</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_InsectMeatEating_Sacrilegious"]/label</xpath>
+          <value>
+            <!-- EN: sacrilegious -->
+            <label>aborrecible</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>More Precepts</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Nomad"]/label</xpath>
+          <value>
+            <!-- EN: wanderlust -->
+            <label>nómada</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Pacifist"]/label</xpath>
+          <value>
+            <!-- EN: nonaggression -->
+            <label>pacifista</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/IssueDef[defName="VME_Violence"]/label</xpath>
+          <value>
+            <!-- EN: aggression -->
+            <label>violencia</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_Violence_Acceptable"]/description</xpath>
+          <value>
+            <!-- EN: Aggression is just a fact of life. -->
+            <description>La violencia es solo un hecho de la vida.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Precepts and Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_Death_DontCare"]/label</xpath>
+          <value>
+            <!-- EN: extremely irrelevant -->
+            <label>no importa</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Trader"]/label</xpath>
+          <value>
+            <!-- EN: wealthy -->
+            <label>comerciante</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/IssueDef[defName="VME_FishingYield"]/label</xpath>
+            <value>
+              <!-- EN: fishing skill -->
+              <label>habilidad de pesca</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="VME_Fishing_Adept"]/description</xpath>
+            <value>
+              <!-- EN: Our adoration for the water and all life within has led us to employ new and subtle techniques for catching as many fish as possible.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Adept fishermen will be able to catch additional fish from fishing zones. These &quot;adept fish&quot; will be caught 20% of the time in a stack of 10, increasing the overall yield of fishing. -->
+              <description>Nuestra adoración por el agua y toda la vida en su interior nos ha llevado a emplear técnicas nuevas y sutiles para capturar tantos peces como sea posible.\n\n&lt;color=#E5E54C&gt;Efecto de juego:&lt;/color&gt;\n - Los pescadores adeptos podrán capturar peces adicionales en las zonas de pesca. Estos "peces adeptos" se capturarán el 20% de las veces en una pila de 10, aumentando el rendimiento general de la pesca.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_Crayfish"]/label</xpath>
+            <value>
+              <!-- EN: crayfish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_Crayfish"]/description</xpath>
+            <value>
+              <!-- EN: Raw crayfish. Crayfish are freshwater crustaceans resembling small lobsters (to which they are related). Some species are found in brooks and streams, where fresh water is running, while others thrive in swamps, ditches, and paddy fields.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ButterFish"]/label</xpath>
+            <value>
+              <!-- EN: butterfish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ButterFish"]/description</xpath>
+            <value>
+              <!-- EN: Raw Atlantic butterfish. The Atlantic butterfish is distinguished by its very thin, deep body, resembling a flounder on edge. It earned its buttery name from its high oil content.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FreshwaterStingray"]/label</xpath>
+            <value>
+              <!-- EN: freshwater stingray (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FreshwaterStingray"]/description</xpath>
+            <value>
+              <!-- EN: Raw freshwater stingray. Freshwater stingrays are one of the only rays inhabiting freshwater rather than saltwater. Though docile animals, they were responsiblein old Earth for more injuries to humans each year than any other Amazonian species.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FlyingFish"]/label</xpath>
+            <value>
+              <!-- EN: flying fish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FlyingFish"]/description</xpath>
+            <value>
+              <!-- EN: Raw flying fish. While they cannot fly in the same way a bird does, flying fish can make powerful, self-propelled leaps out of the water where their long wing-like fins enable gliding for considerable distances above the water&apos;s surface.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_Arapaima"]/label</xpath>
+            <value>
+              <!-- EN: arapaima (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_Arapaima"]/description</xpath>
+            <value>
+              <!-- EN: Raw arapaima. On old Earth, it was among the world&apos;s largest freshwater fish, reaching as much as 3 m in length. It was an important food fish.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ShortfinMakoShark"]/label</xpath>
+            <value>
+              <!-- EN: shortfin mako shark (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ShortfinMakoShark"]/description</xpath>
+            <value>
+              <!-- EN: Raw shortfin mako shark. A large, predatory shark that lives in the open ocean and is often considered the fastest shark. It is known for its incredible leaping ability and can be observed jumping to extreme heights (out of the water) when hunting.\n\nThis is an adept catch that is caught in addition to other fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Fishing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_CrayfishItem"]/label</xpath>
+            <value>
+              <!-- EN: crayfish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_CrayfishItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw crayfish. Crayfish are freshwater crustaceans resembling small lobsters (to which they are related). Some species are found in brooks and streams, where fresh water is running, while others thrive in swamps, ditches, and paddy fields.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ButterFishItem"]/label</xpath>
+            <value>
+              <!-- EN: butterfish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ButterFishItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw Atlantic butterfish. The Atlantic butterfish is distinguished by its very thin, deep body, resembling a flounder on edge. It earned its buttery name from its high oil content.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FreshwaterStingrayItem"]/label</xpath>
+            <value>
+              <!-- EN: freshwater stingray (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FreshwaterStingrayItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw freshwater stingray. Freshwater stingrays are one of the only rays inhabiting freshwater rather than saltwater. Though docile animals, they were responsiblein old Earth for more injuries to humans each year than any other Amazonian species.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FlyingFishItem"]/label</xpath>
+            <value>
+              <!-- EN: flying fish (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_FlyingFishItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw flying fish. While they cannot fly in the same way a bird does, flying fish can make powerful, self-propelled leaps out of the water where their long wing-like fins enable gliding for considerable distances above the water&apos;s surface.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ArapaimaItem"]/label</xpath>
+            <value>
+              <!-- EN: arapaima (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ArapaimaItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw arapaima. On old Earth, it was among the world&apos;s largest freshwater fish, reaching as much as 3 m in length. It was an important food fish.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ShortfinMakoSharkItem"]/label</xpath>
+            <value>
+              <!-- EN: shortfin mako shark (adept catch) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VCEF_ShortfinMakoSharkItem"]/description</xpath>
+            <value>
+              <!-- EN: Raw shortfin mako shark. A large, predatory shark that lives in the open ocean and is often considered the fastest shark. It is known for its incredible leaping ability and can be observed jumping to extreme heights (out of the water) when hunting.\n\nThis is an adept catch and provides double nutrition than other fish in their size category. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="VME_Fishing_Forbidden"]/label</xpath>
+            <value>
+              <!-- EN: forbidden -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="VME_Fishing_Forbidden"]/description</xpath>
+            <value>
+              <!-- EN: Fish are animals, and as such fishing should be a banned activity. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_SmallFishingTrap"]/label</xpath>
+            <value>
+              <!-- EN: small fishing trap -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_SmallFishingTrap"]/description</xpath>
+            <value>
+              <!-- EN: A primitive, though quite ingenious barricade made of wooden stick and netting meant to entrap incoming fish and leave them with no way out. Fish traps are eventually destroyed by the currents and struggling fish, and will need replacing.\n\nThis is a small trap that will only catch small sized fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_MediumFishingTrap"]/label</xpath>
+            <value>
+              <!-- EN: medium fishing trap -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_MediumFishingTrap"]/description</xpath>
+            <value>
+              <!-- EN: A primitive, though quite ingenious barricade made of wooden stick and netting meant to entrap incoming fish and leave them with no way out. Fish traps are eventually destroyed by the currents and struggling fish, and will need replacing.\n\nThis is a medium trap that will only catch medium sized fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_LargeFishingTrap"]/label</xpath>
+            <value>
+              <!-- EN: large fishing trap -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VME_LargeFishingTrap"]/description</xpath>
+            <value>
+              <!-- EN: A primitive, though quite ingenious barricade made of wooden stick and netting meant to entrap incoming fish and leave them with no way out. Fish traps are eventually destroyed by the currents and struggling fish, and will need replacing.\n\nThis is a large trap that will only catch large sized fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>

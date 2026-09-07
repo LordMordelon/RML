@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Architecture of the Rim (incl. corners)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="Eaves"]/label</xpath>
+          <value>
+            <!-- EN: Eaves -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

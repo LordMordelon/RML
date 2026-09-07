@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questName(priority=1)-&gt;[asker_nameDef]&apos;s [verb] [abj] [facility] -->
+  <!-- EN: questName-&gt;[abj] [facility] -->
+  <!-- EN: verb-&gt;Located -->
+  <!-- EN: verb-&gt;Detected -->
+  <!-- EN: verb-&gt;Exposed -->
+  <!-- EN: abj-&gt;Military -->
+  <!-- EN: abj-&gt;Fortified -->
+  <!-- EN: abj-&gt;Militarized -->
+  <!-- EN: abj-&gt;Confidential -->
+  <!-- EN: facility-&gt;Base -->
+  <!-- EN: facility-&gt;Facility -->
+  <!-- EN: facility-&gt;Fortress -->
+  <!-- EN: facility-&gt;Shelter -->
+  <!-- EN: facility-&gt;Installation -->
+  <DMSAC_OpportunitySite_Facility.questNameRules.rulesStrings>
+    <li>questName(priority=1)-&gt;[verb] [abj] [facility] de [asker_nameDef]</li>
+    <li>questName-&gt;[facility] [abj]</li>
+    <li>verb-&gt;Localizada</li>
+    <li>verb-&gt;Detectada</li>
+    <li>verb-&gt;Descubierta</li>
+    <li>abj-&gt;Militar</li>
+    <li>abj-&gt;Fortificada</li>
+    <li>abj-&gt;Militarizada</li>
+    <li>abj-&gt;Confidencial</li>
+    <li>facility-&gt;Base</li>
+    <li>facility-&gt;Instalación</li>
+    <li>facility-&gt;Fortaleza</li>
+    <li>facility-&gt;Refugio</li>
+    <li>facility-&gt;Complejo</li>
+  </DMSAC_OpportunitySite_Facility.questNameRules.rulesStrings>
+</LanguageData>

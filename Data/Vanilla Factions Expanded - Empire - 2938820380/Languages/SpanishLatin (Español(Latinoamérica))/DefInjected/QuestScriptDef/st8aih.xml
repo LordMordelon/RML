@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: lodgersLabel-&gt;noble -->
+  <!-- EN: lodgersLabelPlural-&gt;nobles -->
+  <!-- EN: lodgersDef(nobleCount==1)-&gt;[lodgers0_nameDef] -->
+  <!-- EN: lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural] -->
+  <!-- EN: joinerEnding-&gt;You&apos;ll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation] -->
+  <!-- EN: specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt; You&apos;ll need to satisfy any special royal needs the [lodgersLabelPlural] may have. -->
+  <!-- EN: specialNeedsExplanation-&gt; -->
+  <!-- EN: theirHisHer(nobleCount==1)-&gt;[lodgers0_possessive] -->
+  <!-- EN: theirHisHer(nobleCount&gt;=2)-&gt;their -->
+  <!-- EN: lodgersPronoun(nobleCount==1)-&gt;[lodgers0_pronoun] -->
+  <!-- EN: lodgersPronoun(nobleCount&gt;=2)-&gt;they -->
+  <!-- EN: lodgersWasWere(nobleCount==1)-&gt;was -->
+  <!-- EN: lodgersWasWere(nobleCount&gt;=2)-&gt;were -->
+  <!-- EN: appreciateAppreciates(nobleCount==1)-&gt;appreciates -->
+  <!-- EN: appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate -->
+  <!-- EN: questDescription-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] would like to perform a customary visit. Invite [asker_possessive], satisfy [asker_possessive] royal needs for [shuttleDelayTicks_duration], and you will gain a large amount of honor. During their visit, you must keep their mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.\nThe [asker_royalTitleInCurrentFaction] will bring two of [asker_possessive] personal guards and place them under your command. You must house these guards, but the [asker_royalTitleInCurrentFaction] will not complain if they are killed or unhappy.\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, your relations with [asker_nameFull] will degrade and you will lose honor. -->
+  <!-- EN: questDescription(nobleCount&gt;=2)-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] would like to perform a customary visit. Invite [asker_possessive], and [asker_possessive] royal court of [nobleCountLessOne] nobles and satisfy their royal needs for [shuttleDelayTicks_duration], and you will gain a large amount of honor. During their visit, you must keep their mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.\nThe [asker_nameFull] will bring two of his personal guards and place them under your command. You must house these guards, but the [asker_royalTitleInCurrentFaction] will not complain if they are killed or unhappy.\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, your relations with [asker_nameFull] will degrade and you will lose honor. -->
+  <!-- EN: allyAllies(lodgersCountMinusOne==1)-&gt;ally -->
+  <!-- EN: allyAllies(lodgersCountMinusOne&gt;=2)-&gt;allies -->
+  <VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel-&gt;noble</li>
+    <li>lodgersLabelPlural-&gt;nobles</li>
+    <li>lodgersDef(nobleCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgersDef(nobleCount&gt;=2)-&gt;los [lodgersLabelPlural]</li>
+    <li>joinerEnding-&gt;Podrás dirigir a [lodgersDef] de la misma manera que diriges a tus propios colonos.[specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt; Deberás satisfacer cualquier necesidad real especial que los [lodgersLabelPlural] puedan tener.</li>
+    <li>specialNeedsExplanation-&gt;</li>
+    <li>theirHisHer(nobleCount==1)-&gt;[lodgers0_possessive]</li>
+    <li>theirHisHer(nobleCount&gt;=2)-&gt;su</li>
+    <li>lodgersPronoun(nobleCount==1)-&gt;[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(nobleCount&gt;=2)-&gt;ellos</li>
+    <li>lodgersWasWere(nobleCount==1)-&gt;fue</li>
+    <li>lodgersWasWere(nobleCount&gt;=2)-&gt;fueron</li>
+    <li>appreciateAppreciates(nobleCount==1)-&gt;aprecia</li>
+    <li>appreciateAppreciates(nobleCount&gt;=2)-&gt;aprecian</li>
+    <li>questDescription-&gt;[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name] quisiera realizar una visita habitual. Invita a [asker_possessive], satisface sus necesidades reales durante [shuttleDelayTicks_duration], y ganarás una gran cantidad de honor. Durante su visita, debes mantener su estado de ánimo por encima de [lodgersMoodThreshold_percent]. Esto significa proporcionar beneficios reales como un dormitorio lujoso.\nEl [asker_royalTitleInCurrentFaction] traerá dos de sus guardias personales y los pondrá bajo tu mando. Debes alojar a estos guardias, pero el [asker_royalTitleInCurrentFaction] no se quejará si mueren o son infelices.\nDebes mantener a los visitantes en [map_definite] y no enviarlos a ningún otro lugar. Si fallas esta misión o migras, tus relaciones con [asker_nameFull] se degradarán y perderás honor.</li>
+    <li>questDescription(nobleCount&gt;=2)-&gt;[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name] quisiera realizar una visita habitual. Invita a [asker_possessive], y a su corte real de [nobleCountLessOne] nobles y satisface sus necesidades reales durante [shuttleDelayTicks_duration], y ganarás una gran cantidad de honor. Durante su visita, debes mantener su estado de ánimo por encima de [lodgersMoodThreshold_percent]. Esto significa proporcionar beneficios reales como un dormitorio lujoso.\nEl [asker_nameFull] traerá dos de sus guardias personales y los pondrá bajo tu mando. Debes alojar a estos guardias, pero el [asker_royalTitleInCurrentFaction] no se quejará si mueren o son infelices.\nDebes mantener a los visitantes en [map_definite] y no enviarlos a ningún otro lugar. Si fallas esta misión o migras, tus relaciones con [asker_nameFull] se degradarán y perderás honor.</li>
+    <li>allyAllies(lodgersCountMinusOne==1)-&gt;aliado</li>
+    <li>allyAllies(lodgersCountMinusOne&gt;=2)-&gt;aliados</li>
+  </VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings>
+</LanguageData>

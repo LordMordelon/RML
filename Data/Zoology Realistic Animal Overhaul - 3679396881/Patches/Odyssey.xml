@@ -1,0 +1,1021 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Panda"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Panda"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Panda"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Panda"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Swan"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Swan"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Heron"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Heron"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Flamingo"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Flamingo"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Penguin"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Penguin"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Peacock"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Peacock"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Peacock"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Peacock"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Vulture"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Vulture"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Vulture"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Vulture"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Sparrow"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Sparrow"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Sparrow"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Sparrow"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bluebird"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bluebird"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bluebird"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bluebird"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Crow"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Crow"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Crow"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Crow"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Macaw"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Macaw"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Macaw"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Macaw"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HermitCrab"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HermitCrab"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HermitCrab"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cat_Scimitar"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cat_Scimitar"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cat_Scimitar"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cat_Scimitar"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bullfrog"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bullfrog"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ColossusToad"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ColossusToad"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HiveQueen"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HiveQueen"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: mandibles -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Larva"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Larva"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: mandibles -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Locust"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Locust"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: mandibles -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Hippo"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Hippo"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mastodon"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mastodon"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left foot -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mastodon"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right foot -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mastodon"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: tusk -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AlphaThrumbo"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AlphaThrumbo"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left foot -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AlphaThrumbo"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right foot -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AlphaThrumbo"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: horn -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Armadillo"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Armadillo"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolverine"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolverine"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolverine"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolverine"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mink"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mink"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mink"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mink"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Badger"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Badger"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Badger"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Badger"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Otter"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Otter"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Otter"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Otter"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SeaLion"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SeaLion"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Seal"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Seal"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Walrus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Walrus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: tusk -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gorilla"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gorilla"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gorilla"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gorilla"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Alligator"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Alligator"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SeaTurtle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SeaTurtle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: beak -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PrairieDog"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PrairieDog"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: Incisors -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Porcupine"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Porcupine"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: Incisors -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Megavole"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Megavole"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: Incisors -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Moose"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Moose"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left hoof -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Moose"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right hoof -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Moose"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: antler -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Muskox"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Muskox"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left hoof -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Muskox"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right hoof -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Muskox"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: horn -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LavaSnail"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LavaSnail"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: radula -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BogHound"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BogHound"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolf_Great"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Wolf_Great"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: canines -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

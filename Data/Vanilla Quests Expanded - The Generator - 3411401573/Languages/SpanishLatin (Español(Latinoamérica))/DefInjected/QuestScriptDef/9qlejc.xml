@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of an ancient construction site where [inventor_nameFull] once worked on a massive prototype generator. The site appears abandoned and isolated, surrounded by the remnants of a long-forgotten project.\n\n[terminalDetails] Visiting this site may provide [potentialRewards]. [journeyDetails] [finalDetails] -->
+  <!-- EN: questDescription(askerIsNull==True)-&gt;We have discovered an ancient construction site where [inventor_nameFull] was working on a large prototype generator. The site lies in a remote location, surrounded by the ruins of an unfinished project.\n\n[terminalDetails] Exploring the site may yield [potentialRewards]. [journeyDetails] [finalDetails] -->
+  <!-- EN: terminalDetails-&gt;There is a still-operational terminal containing research notes and schematics of [inventor_nameFull]&apos;s work. -->
+  <!-- EN: terminalDetails-&gt;An active terminal holds critical data logs and experimental insights into generator construction. -->
+  <!-- EN: terminalDetails-&gt;The site contains a terminal rumored to have design blueprints and energy research breakthroughs. -->
+  <!-- EN: terminalDetails-&gt;Ancient systems still hum faintly, offering a glimpse into [inventor_nameFull]&apos;s ambitious prototype. -->
+  <!-- EN: terminalDetails-&gt;A damaged terminal may still hold data on the ARC prototype, but its condition is uncertain. -->
+  <!-- EN: potentialRewards-&gt;rare components, advanced research data, and valuable resources -->
+  <!-- EN: potentialRewards-&gt;essential materials, generator schematics, and advanced technology insights -->
+  <!-- EN: potentialRewards-&gt;valuable knowledge, unique building materials, and rare artifacts -->
+  <!-- EN: potentialRewards-&gt;critical research breakthroughs and a bounty of salvageable materials -->
+  <!-- EN: potentialRewards-&gt;rare loot and potentially groundbreaking energy research -->
+  <!-- EN: journeyDetails-&gt;The location is far away and will require careful preparation for the trip. -->
+  <!-- EN: journeyDetails-&gt;The long distance to the site makes the expedition challenging but potentially rewarding. -->
+  <!-- EN: journeyDetails-&gt;Traveling to the site will demand significant time and resources. -->
+  <!-- EN: journeyDetails-&gt;The journey to this remote site may be dangerous but worth the effort. -->
+  <!-- EN: journeyDetails-&gt;Its remote location suggests few immediate threats, but supplies will be key. -->
+  <!-- EN: finalDetails-&gt;While no dangers are expected, the journey itself poses risks to unprepared colonists. -->
+  <!-- EN: finalDetails-&gt;The site seems derelict, but caution is advised—its isolation may hide unexpected challenges. -->
+  <!-- EN: finalDetails-&gt;The area appears uninhabited, but its age may make navigation and survival difficult. -->
+  <!-- EN: finalDetails-&gt;Prepare for the worst while hoping for the best—opportunity often comes with risk. -->
+  <!-- EN: finalDetails-&gt;The isolation may provide safety, but also leaves little room for error if trouble arises. -->
+  <VQE_PrototypeARC.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], nos ha informado de un antiguo sitio de construcción donde [inventor_nameFull] trabajó una vez en un enorme prototipo de generador. El sitio parece abandonado y aislado, rodeado por los restos de un proyecto olvidado hace mucho tiempo.\n\n[terminalDetails] Visitar este sitio puede proporcionar [potentialRewards]. [journeyDetails] [finalDetails]</li>
+    <li>questDescription(askerIsNull==True)-&gt;Hemos descubierto un antiguo sitio de construcción donde [inventor_nameFull] estaba trabajando en un gran prototipo de generador. El sitio se encuentra en una ubicación remota, rodeado por las ruinas de un proyecto inacabado.\n\n[terminalDetails] Explorar el sitio puede rendir [potentialRewards]. [journeyDetails] [finalDetails]</li>
+    <li>terminalDetails-&gt;Hay una terminal aún operativa que contiene notas de investigación y esquemas del trabajo de [inventor_nameFull].</li>
+    <li>terminalDetails-&gt;Una terminal activa contiene registros de datos críticos y conocimientos experimentales sobre la construcción de generadores.</li>
+    <li>terminalDetails-&gt;El sitio contiene una terminal que se rumorea que tiene planos de diseño y avances en la investigación energética.</li>
+    <li>terminalDetails-&gt;Los sistemas antiguos todavía zumban débilmente, ofreciendo un vistazo al ambicioso prototipo de [inventor_nameFull].</li>
+    <li>terminalDetails-&gt;Una terminal dañada aún puede contener datos sobre el prototipo ARC, pero su estado es incierto.</li>
+    <li>potentialRewards-&gt;componentes raros, datos de investigación avanzados y recursos valiosos</li>
+    <li>potentialRewards-&gt;materiales esenciales, esquemas de generadores y conocimientos tecnológicos avanzados</li>
+    <li>potentialRewards-&gt;conocimientos valiosos, materiales de construcción únicos y artefactos raros</li>
+    <li>potentialRewards-&gt;avances críticos en la investigación y una gran cantidad de materiales recuperables</li>
+    <li>potentialRewards-&gt;botín raro y una investigación energética potencialmente innovadora</li>
+    <li>journeyDetails-&gt;La ubicación está lejos y requerirá una preparación cuidadosa para el viaje.</li>
+    <li>journeyDetails-&gt;La larga distancia al sitio hace que la expedición sea desafiante pero potencialmente gratificante.</li>
+    <li>journeyDetails-&gt;Viajar al sitio exigirá tiempo y recursos significativos.</li>
+    <li>journeyDetails-&gt;El viaje a este sitio remoto puede ser peligroso pero vale la pena el esfuerzo.</li>
+    <li>journeyDetails-&gt;Su ubicación remota sugiere pocas amenazas inmediatas, pero los suministros serán clave.</li>
+    <li>finalDetails-&gt;Aunque no se esperan peligros, el viaje en sí plantea riesgos para los colonos no preparados.</li>
+    <li>finalDetails-&gt;El sitio parece abandonado, pero se recomienda precaución; su aislamiento puede ocultar desafíos inesperados.</li>
+    <li>finalDetails-&gt;El área parece deshabitada, pero su antigüedad puede dificultar la navegación y la supervivencia.</li>
+    <li>finalDetails-&gt;Prepárate para lo peor mientras esperas lo mejor; la oportunidad a menudo viene con riesgos.</li>
+    <li>finalDetails-&gt;El aislamiento puede proporcionar seguridad, pero también deja poco margen de error si surgen problemas.</li>
+  </VQE_PrototypeARC.questDescriptionRules.rulesStrings>
+</LanguageData>

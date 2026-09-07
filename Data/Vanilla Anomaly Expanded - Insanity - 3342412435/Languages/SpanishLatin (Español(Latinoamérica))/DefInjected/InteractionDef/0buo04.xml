@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [twistedlyComplimented] [RECIPIENT_nameDef]&apos;s [characteristic], comparing it to [subjectInsane]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [twistedlyComplimented] [RECIPIENT_nameDef]&apos;s [characteristic], drawing similarities to [subjectDarkStudy]. -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic] -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube] -->
+  <!-- EN: twistedlyComplimented-&gt;bizarrely praised -->
+  <!-- EN: twistedlyComplimented-&gt;eerily commended -->
+  <!-- EN: twistedlyComplimented-&gt;strangely lauded -->
+  <!-- EN: twistedlyComplimented-&gt;unnervingly celebrated -->
+  <!-- EN: twistedlyComplimented-&gt;disturbingly saluted -->
+  <!-- EN: twistedlyComplimented-&gt;darkly spoke of -->
+  <!-- EN: twistedlyComplimented-&gt;sinisterly expressed admiration for -->
+  <!-- EN: twistedlyComplimented-&gt;creepily expressed fondness for -->
+  <!-- EN: twistedlyComplimented-&gt;unnaturally offered words about -->
+  <!-- EN: twistedlyComplimented-&gt;macabrely verbalized appreciation for -->
+  <!-- EN: twistedlyComplimented-&gt;spookily said good things about -->
+  <VAEI_TwistedWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [twistedlyComplimented] [characteristic] de [RECIPIENT_nameDef], comparándolo con [subjectInsane].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [twistedlyComplimented] [characteristic] de [RECIPIENT_nameDef], trazando similitudes con [subjectDarkStudy].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+    <li>twistedlyComplimented-&gt;elogió extrañamente</li>
+    <li>twistedlyComplimented-&gt;elogió inquietantemente</li>
+    <li>twistedlyComplimented-&gt;alabó extrañamente</li>
+    <li>twistedlyComplimented-&gt;celebró desconcertantemente</li>
+    <li>twistedlyComplimented-&gt;saludó perturbadoramente</li>
+    <li>twistedlyComplimented-&gt;habló oscuramente de</li>
+    <li>twistedlyComplimented-&gt;expresó siniestramente admiración por</li>
+    <li>twistedlyComplimented-&gt;expresó espeluznantemente cariño por</li>
+    <li>twistedlyComplimented-&gt;ofreció palabras antinaturales sobre</li>
+    <li>twistedlyComplimented-&gt;verbalizó macabramente aprecio por</li>
+    <li>twistedlyComplimented-&gt;dijo cosas buenas de manera espeluznante sobre</li>
+  </VAEI_TwistedWords.logRulesInitiator.rulesStrings>
+</LanguageData>

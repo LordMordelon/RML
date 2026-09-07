@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>##packageId##CETeam.CombatExtended_steam</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PWL_Weapon_Claw"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PWL_Weapon_Claw"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PWL_Weapon_Drill"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PWL_Weapon_Drill"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PWL_Weapon_Welder"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

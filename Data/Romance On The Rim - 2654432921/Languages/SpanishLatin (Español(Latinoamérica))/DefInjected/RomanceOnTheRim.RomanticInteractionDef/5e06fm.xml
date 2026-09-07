@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_interaction(Kiss_type==Common)-&gt;[gentle_action], [gentle_kiss]. -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] wrapped [INITIATOR_possessive] arms around [RECIPIENT_nameDef] -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] softly caressed [RECIPIENT_nameDef]&apos;s cheek -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] tucked a loose strand of hair behind [RECIPIENT_nameDef]&apos;s ear -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] lightly traced the contours of [RECIPIENT_nameDef]&apos;s face -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] took [RECIPIENT_nameDef]&apos;s hand into [INITIATOR_possessive] own -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] held [RECIPIENT_nameDef] close -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] gently lifted [RECIPIENT_nameDef]&apos;s chin -->
+  <!-- EN: gentle_action-&gt;[INITIATOR_nameDef] ran [INITIATOR_possessive] fingers through [RECIPIENT_nameDef]&apos;s hair -->
+  <!-- EN: gentle_kiss-&gt;planting a warm kiss on [RECIPIENT_possessive] cheek -->
+  <!-- EN: gentle_kiss-&gt;sealed a promise with a gentle kiss on [RECIPIENT_possessive] lips -->
+  <!-- EN: gentle_kiss-&gt;brushed [RECIPIENT_possessive] lips lightly with [INITIATOR_possessive] own -->
+  <!-- EN: gentle_kiss-&gt;leaning in to peck [RECIPIENT_objective] on the cheek -->
+  <!-- EN: gentle_kiss-&gt;delivered a sweet peck on [RECIPIENT_possessive] forehead -->
+  <!-- EN: gentle_kiss-&gt;planted a series of quick kisses on [RECIPIENT_possessive] face -->
+  <!-- EN: gentle_kiss-&gt;stole a playful kiss from [RECIPIENT_objective] -->
+  <!-- EN: gentle_kiss-&gt;drawing [RECIPIENT_objective] into a slow, intense kiss -->
+  <!-- EN: r_interaction(Kiss_type==Romantic)-&gt;[passionate_action], [passionate_kissing]. -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] gripped [RECIPIENT_nameDef]&apos;s waist firmly, pressing their bodies together -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] tugged [RECIPIENT_nameDef] closer by the belt loops -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] backed [RECIPIENT_nameDef] against a wall -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] trapped [RECIPIENT_nameDef] in a heated gaze before pulling [RECIPIENT_objective] in -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] slid [INITIATOR_possessive] hand around the nape of [RECIPIENT_nameDef]&apos;s neck -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] leaned into [RECIPIENT_nameDef], [INITIATOR_possessive] hand trailing up [RECIPIENT_possessive] back -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] latched onto [RECIPIENT_nameDef]&apos;s hand, spinning [RECIPIENT_objective] around -->
+  <!-- EN: passionate_action-&gt;[INITIATOR_nameDef] jumped into [RECIPIENT_nameDef]&apos;s embrace, catching [RECIPIENT_objective] off guard -->
+  <!-- EN: passionate_kissing-&gt;devoured [RECIPIENT_possessive] lips in a heated kiss -->
+  <!-- EN: passionate_kissing-&gt;pulled [RECIPIENT_objective] into a fervent kiss -->
+  <!-- EN: passionate_kissing-&gt;explored [RECIPIENT_possessive] mouth with a passionate kiss -->
+  <!-- EN: passionate_kissing-&gt;their lips crashing together in a searing kiss -->
+  <!-- EN: passionate_kissing-&gt;sniffed the scent of [RECIPIENT_objective] greedily -->
+  <!-- EN: passionate_kissing-&gt;grabbed [RECIPIENT_possessive] lower lip and bited it lightly -->
+  <!-- EN: passionate_kissing-&gt;puckered up and gave [RECIPIENT_objective] a big smooch -->
+  <!-- EN: passionate_kissing-&gt;shared an all-consuming, breath-stealing kiss -->
+  <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings>
+    <li>r_interaction(Kiss_type==Common)-&gt;[gentle_action], [gentle_kiss].</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] envolvió sus brazos alrededor de [RECIPIENT_nameDef]</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] acarició suavemente la mejilla de [RECIPIENT_nameDef]</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] colocó un mechón de cabello suelto detrás de la oreja de [RECIPIENT_nameDef]</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] trazó ligeramente los contornos del rostro de [RECIPIENT_nameDef]</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] tomó la mano de [RECIPIENT_nameDef] entre las suyas</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] sostuvo a [RECIPIENT_nameDef] cerca</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] levantó suavemente la barbilla de [RECIPIENT_nameDef]</li>
+    <li>gentle_action-&gt;[INITIATOR_nameDef] pasó sus dedos por el cabello de [RECIPIENT_nameDef]</li>
+    <li>gentle_kiss-&gt;plantando un cálido beso en su mejilla</li>
+    <li>gentle_kiss-&gt;selló una promesa con un suave beso en sus labios</li>
+    <li>gentle_kiss-&gt;rozó sus labios ligeramente con los suyos</li>
+    <li>gentle_kiss-&gt;inclinándose para darle un pico en la mejilla</li>
+    <li>gentle_kiss-&gt;dio un dulce pico en su frente</li>
+    <li>gentle_kiss-&gt;plantó una serie de besos rápidos en su rostro</li>
+    <li>gentle_kiss-&gt;robó un beso juguetón de [RECIPIENT_objective]</li>
+    <li>gentle_kiss-&gt;atrayéndo[RECIPIENT_objective] hacia un beso lento e intenso</li>
+    <li>r_interaction(Kiss_type==Romantic)-&gt;[passionate_action], [passionate_kissing].</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] agarró la cintura de [RECIPIENT_nameDef] firmemente, presionando sus cuerpos juntos</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] tiró de [RECIPIENT_nameDef] más cerca por las presillas del cinturón</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] acorraló a [RECIPIENT_nameDef] contra una pared</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] atrapó a [RECIPIENT_nameDef] en una mirada acalorada antes de atraer[RECIPIENT_objective]</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] deslizó su mano alrededor de la nuca de [RECIPIENT_nameDef]</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] se inclinó hacia [RECIPIENT_nameDef], su mano recorriendo su espalda</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] se aferró a la mano de [RECIPIENT_nameDef], girándo[RECIPIENT_objective]</li>
+    <li>passionate_action-&gt;[INITIATOR_nameDef] saltó al abrazo de [RECIPIENT_nameDef], tomándo[RECIPIENT_objective] por sorpresa</li>
+    <li>passionate_kissing-&gt;devoró sus labios en un beso acalorado</li>
+    <li>passionate_kissing-&gt;[RECIPIENT_objective] atrajo hacia un beso ferviente</li>
+    <li>passionate_kissing-&gt;exploró su boca con un beso apasionado</li>
+    <li>passionate_kissing-&gt;sus labios chocando en un beso abrasador</li>
+    <li>passionate_kissing-&gt;olió el aroma de [RECIPIENT_objective] con avidez</li>
+    <li>passionate_kissing-&gt;agarró su labio inferior y lo mordió ligeramente</li>
+    <li>passionate_kissing-&gt;frunció los labios y le dio un gran beso</li>
+    <li>passionate_kissing-&gt;compartieron un beso devorador que les robó el aliento</li>
+  </RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings>
+</LanguageData>

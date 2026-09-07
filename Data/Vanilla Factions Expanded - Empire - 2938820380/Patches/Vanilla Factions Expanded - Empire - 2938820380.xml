@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Psycasts Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Conflagator"]/label</xpath>
+          <value>
+            <!-- EN: deserter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Warlord"]/label</xpath>
+          <value>
+            <!-- EN: deserter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Nightstalker"]/label</xpath>
+          <value>
+            <!-- EN: deserter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Protector"]/label</xpath>
+          <value>
+            <!-- EN: deserter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Harmonist"]/label</xpath>
+          <value>
+            <!-- EN: deserter -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Mote -->
+  <VGE_OxygenMote.label>TODO</VGE_OxygenMote.label>
+  <!-- EN: astrofuel pipe -->
+  <VGE_AstrofuelPipe.label>tubería de astrobustible</VGE_AstrofuelPipe.label>
+  <!-- EN: A large pipe for transporting high-grade astrofuel around. Unlike other pipes, it’s big, bulky, acts as cover and can’t be stood on. Astrofuel pipes can’t be placed on workbench interaction spots and in doorways. -->
+  <VGE_AstrofuelPipe.description>Una tubería grande para transportar astrobustible de alta calidad. A diferencia de otras tuberías, es grande, voluminosa, sirve como cobertura y no se puede estar de pie sobre ella. Las tuberías de astrobustible no pueden colocarse en los puntos de interacción de los bancos de trabajo ni en los umbrales de las puertas.</VGE_AstrofuelPipe.description>
+  <!-- EN: hidden astrofuel pipe -->
+  <VGE_HiddenAstrofuelPipe.label>tubería de astrobustible oculta</VGE_HiddenAstrofuelPipe.label>
+  <!-- EN: A hidden, reinforced tube for transporting high-grade astrofuel around. While it’s not visible, it is much more expensive to construct. -->
+  <VGE_HiddenAstrofuelPipe.description>Un tubo reforzado y oculto para transportar astrobustible. Aunque no es visible, es mucho más costoso de construir.</VGE_HiddenAstrofuelPipe.description>
+  <!-- EN: astrofuel valve -->
+  <VGE_AstrofuelValve.label>válvula de astrobustible</VGE_AstrofuelValve.label>
+  <!-- EN: Switches astrofuel flow on and off. -->
+  <VGE_AstrofuelValve.description>Activa y desactiva el flujo de astrobustible.</VGE_AstrofuelValve.description>
+  <!-- EN: giant astrofuel tank -->
+  <VGE_GiantAstrofuelTank.label>tanque gigante de astrobustible</VGE_GiantAstrofuelTank.label>
+  <!-- EN: A monumental astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <VGE_GiantAstrofuelTank.description>Un tanque de almacenamiento de astrobustible monumental que suministra combustible para los propulsores de una gravinave.</VGE_GiantAstrofuelTank.description>
+  <!-- EN: astrofuel tap -->
+  <VGE_AstrofuelTap.label>grifo de astrobustible</VGE_AstrofuelTap.label>
+  <!-- EN: A hopper-like storage device meant to hold dispensed astrofuel for use later. -->
+  <VGE_AstrofuelTap.description>Un dispositivo de almacenamiento tipo tolva destinado a contener el astrobustible dispensado para su uso posterior.</VGE_AstrofuelTap.description>
+  <!-- EN: astrofuel drain -->
+  <VGE_AstrofuelDrain.label>drenaje de astrobustible</VGE_AstrofuelDrain.label>
+  <!-- EN: A hopper-like storage structure meant to input astrofuel into the network, filling up connected tanks. -->
+  <VGE_AstrofuelDrain.description>Una estructura de almacenamiento tipo tolva destinada a introducir astrobustible en la red, llenando los tanques conectados.</VGE_AstrofuelDrain.description>
+  <!-- EN: astrofuel generator -->
+  <VGE_AstrofuelGenerator.label>generador de astrobustible</VGE_AstrofuelGenerator.label>
+  <!-- EN: Produces power by consuming astrofuel. Much more efficient than chemfuel generators. -->
+  <VGE_AstrofuelGenerator.description>Produce energía consumiendo astrobustible. Mucho más eficiente que los generadores de quimbustible.</VGE_AstrofuelGenerator.description>
+  <!-- EN: industrial astrofuel generator -->
+  <VGE_IndustrialAstrofuelGenerator.label>generador de astrobustible industrial</VGE_IndustrialAstrofuelGenerator.label>
+  <!-- EN: Produces a large amount of power by consuming astrofuel. Much more efficient than chemfuel generators. -->
+  <VGE_IndustrialAstrofuelGenerator.description>Produce una gran cantidad de energía consumiendo astrobustible. Mucho más eficiente que los generadores de quimbustible.</VGE_IndustrialAstrofuelGenerator.description>
+  <!-- EN: astrofuel synthesizer -->
+  <VGE_AstrofuelSynthesizer.label>sintetizador de astrobustible</VGE_AstrofuelSynthesizer.label>
+  <!-- EN: A specialized structure that refines chemfuel into high-grade astrofuel. It must be connected to the astrofuel pipe network and linked to at least one astrofuel tank to operate. Once connected, it automatically converts inserted chemfuel into astrofuel for use in engines and systems. -->
+  <VGE_AstrofuelSynthesizer.description>Una estructura especializada que refina quimbustible en astrobustible de alta calidad. Debe estar conectada a la red de tuberías de astrobustible y vinculada a al menos un tanque de astrobustible para funcionar. Una vez conectada, convierte automáticamente el quimbustible insertado en astrobustible para su uso en motores y sistemas.</VGE_AstrofuelSynthesizer.description>
+  <!-- EN: astropurifier -->
+  <VGE_Astropurifier.label>astropurificador</VGE_Astropurifier.label>
+  <!-- EN: A gravtech unit that enhances the precision and stability of astrofuel refinement. When placed next to an astrofuel synthesizer, it enables perfect 1:1 conversion from chemfuel to astrofuel, though the process takes twice as long. -->
+  <VGE_Astropurifier.description>Una unidad de gravitecnología que mejora la precisión y estabilidad del refinado de astrobustible. Cuando se coloca junto a un sintetizador de astrobustible, permite una conversión perfecta de 1:1 de quimbustible a astrobustible, aunque el proceso tarda el doble de tiempo.</VGE_Astropurifier.description>
+  <!-- EN: giant thruster -->
+  <VGE_GiantThruster.label>propulsor gigante</VGE_GiantThruster.label>
+  <!-- EN: A massive, reinforced astrofuel thruster built with advanced alloys and ultra-dense vacstone plating. It massively increases the range and maximum size of the gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to four giant thrusters. -->
+  <VGE_GiantThruster.description>Un propulsor de astrobustible masivo y reforzado, construido con aleaciones avanzadas y revestimiento de vaciorita ultradensa. Aumenta enormemente el alcance y el tamaño máximo de la gravinave. Los propulsores requieren un área despejada libre de edificios grandes y subestructuras de gravinave.\n\nRequiere bloques de vaciorita, que pueden obtenerse de asteroides orbitales.\n\nUna gravinave puede soportar hasta cuatro propulsores gigantes.</VGE_GiantThruster.description>
+  <!-- EN: oxygen pipe -->
+  <VGE_OxygenPipe.label>tubería de oxígeno</VGE_OxygenPipe.label>
+  <!-- EN: A reinforced tube for moving oxygen around. Can be placed under walls and other buildings. -->
+  <VGE_OxygenPipe.description>Un tubo reforzado para mover oxígeno. Puede colocarse debajo de paredes y otros edificios.</VGE_OxygenPipe.description>
+  <!-- EN: hidden oxygen pipe -->
+  <VGE_HiddenOxygenPipe.label>tubería de oxígeno oculta</VGE_HiddenOxygenPipe.label>
+  <!-- EN: A hidden, reinforced tube for moving oxygen around. While it’s not visible, it is much more expensive to construct. -->
+  <VGE_HiddenOxygenPipe.description>Un tubo reforzado y oculto para mover oxígeno. Aunque no es visible, es mucho más costoso de construir.</VGE_HiddenOxygenPipe.description>
+  <!-- EN: oxygen valve -->
+  <VGE_OxygenValve.label>válvula de oxígeno</VGE_OxygenValve.label>
+  <!-- EN: Switches oxygen flow on and off. -->
+  <VGE_OxygenValve.description>Activa y desactiva el flujo de oxígeno.</VGE_OxygenValve.description>
+  <!-- EN: small oxygen tank -->
+  <VGE_SmallOxygenTank.label>tanque de oxígeno pequeño</VGE_SmallOxygenTank.label>
+  <!-- EN: An oxygen tank that supplies oxygen to pumps throughout the gravship. -->
+  <VGE_SmallOxygenTank.description>Un tanque de oxígeno que suministra oxígeno a las bombas en toda la gravinave.</VGE_SmallOxygenTank.description>
+  <!-- EN: large oxygen tank -->
+  <VGE_LargeOxygenTank.label>tanque de oxígeno grande</VGE_LargeOxygenTank.label>
+  <!-- EN: A large oxygen tank that supplies oxygen to pumps throughout the gravship. -->
+  <VGE_LargeOxygenTank.description>Un tanque de oxígeno grande que suministra oxígeno a las bombas en toda la gravinave.</VGE_LargeOxygenTank.description>
+  <!-- EN: oxygen canister filler -->
+  <VGE_OxygenCanisterFiller.label>llenador de botes de oxígeno</VGE_OxygenCanisterFiller.label>
+  <!-- EN: A hopper-like storage device meant to hold dispensed oxygen in canisters for use later. -->
+  <VGE_OxygenCanisterFiller.description>Un dispositivo de almacenamiento tipo tolva destinado a contener el oxígeno dispensado en botes para su uso posterior.</VGE_OxygenCanisterFiller.description>
+  <!-- EN: oxygen canister emptier -->
+  <VGE_OxygenCanisterEmptier.label>vaciador de botes de oxígeno</VGE_OxygenCanisterEmptier.label>
+  <!-- EN: A hopper-like storage structure meant to input oxygen from canisters into the network, filling up connected tanks. -->
+  <VGE_OxygenCanisterEmptier.description>Una estructura de almacenamiento tipo tolva destinada a introducir oxígeno de los botes en la red, llenando los tanques conectados.</VGE_OxygenCanisterEmptier.description>
+  <!-- EN: oxygen harvester -->
+  <VGE_OxygenHarvester.label>recolector de oxígeno</VGE_OxygenHarvester.label>
+  <!-- EN: A device that draws in breathable oxygen from the surrounding atmosphere and stores it in the oxygen network. It functions only on planetary surfaces with an atmosphere and will not operate in vacuum or low-oxygen environments. -->
+  <VGE_OxygenHarvester.description>Un dispositivo que extrae oxígeno respirable de la atmósfera circundante y lo almacena en la red de oxígeno. Funciona solo en superficies planetarias con atmósfera y no operará en el vacío o en entornos con poco oxígeno.</VGE_OxygenHarvester.description>
+  <!-- EN: algae oxygenator -->
+  <VGE_LifeSupportSystem.label>oxigenador de algas</VGE_LifeSupportSystem.label>
+  <!-- EN: A vital device that processes harvested oxyalgae into breathable oxygen. Converts biomass into gas and pumps it into the oxygen network to supply pressurized rooms and equipment. -->
+  <VGE_LifeSupportSystem.description>Un dispositivo vital que procesa la oxialga cosechada en oxígeno respirable. Convierte la biomasa en gas y la bombea a la red de oxígeno para abastecer habitaciones presurizadas y equipos.</VGE_LifeSupportSystem.description>
+  <!-- EN: Oxyalgae -->
+  <VGE_LifeSupportSystem.comps.CompRefuelable_IgnoreFlickableComp.fuelLabel>Oxialga</VGE_LifeSupportSystem.comps.CompRefuelable_IgnoreFlickableComp.fuelLabel>
+  <!-- EN: Oxyalgae -->
+  <VGE_LifeSupportSystem.comps.CompRefuelable_IgnoreFlickableComp.fuelGizmoLabel>Oxialga</VGE_LifeSupportSystem.comps.CompRefuelable_IgnoreFlickableComp.fuelGizmoLabel>
+  <!-- EN: industrial oxygen pump -->
+  <VGE_IndustrialOxygenPump.label>bomba de oxígeno industrial</VGE_IndustrialOxygenPump.label>
+  <!-- EN: A powerful unit that releases large amounts of oxygen into the surrounding room, allowing enclosed areas to repressurize in space. Essential for long stays in orbit. -->
+  <VGE_IndustrialOxygenPump.description>Una unidad potente que libera grandes cantidades de oxígeno en la habitación circundante, permitiendo que las áreas cerradas se vuelvan a presurizar en el espacio. Esencial para estancias prolongadas en órbita.</VGE_IndustrialOxygenPump.description>
+  <!-- EN: oxygen reclaimer -->
+  <VGE_OxygenReclaimer.label>recuperador de oxígeno</VGE_OxygenReclaimer.label>
+  <!-- EN: A self-contained atmospheric unit that extracts trace oxygen from surrounding gases. It produces oxygen at a slow, steady rate, but requires no input materials. Needs to be connected to an oxygen tank via oxygen pipes to work. -->
+  <VGE_OxygenReclaimer.description>Una unidad atmosférica autónoma que extrae trazas de oxígeno de los gases circundantes. Produce oxígeno a un ritmo lento y constante, pero no requiere materiales de entrada. Necesita estar conectado a un tanque de oxígeno mediante tuberías de oxígeno para funcionar.</VGE_OxygenReclaimer.description>
+  <!-- EN: agrocell -->
+  <VGE_Agrocell.label>agrocélula</VGE_Agrocell.label>
+  <!-- EN: An enclosed, space-efficient growing unit designed for use on gravships. Built into the floor for unobstructed movement, it features integrated sunlamps and a nutrient system that must remain powered, as plants will die if power is cut. -->
+  <VGE_Agrocell.description>Una unidad de cultivo cerrada y eficiente en espacio diseñada para su uso en gravinaves. Integrada en el suelo para permitir el movimiento sin obstáculos, cuenta con lámparas solares y un sistema de nutrientes integrados que deben permanecer alimentados, ya que las plantas morirán si se corta la energía.</VGE_Agrocell.description>
+  <!-- EN: targeting terminal -->
+  <VGE_TargetingTerminal.label>terminal de puntería</VGE_TargetingTerminal.label>
+  <!-- EN: A control station dedicated to operating a single gravship artillery piece. Requires a crew member to manually aim and fire the weapon. It draws power directly from the grav engine. -->
+  <VGE_TargetingTerminal.description>Una estación de control dedicada a operar una sola pieza de artillería de gravinave. Requiere un miembro de la tripulación para apuntar y disparar el arma manualmente. Extrae energía directamente del motor gravitacional.</VGE_TargetingTerminal.description>
+  <!-- EN: point defense turret -->
+  <VGE_PointDefenseTurret.label>torreta de defensa de punto</VGE_PointDefenseTurret.label>
+  <!-- EN: A specialized defensive turret built exclusively for gravships. It intercepts explosive projectiles and incoming drop pods within its protective radius, but cannot engage ground targets. Interception chance scales with the target’s velocity. -->
+  <VGE_PointDefenseTurret.description>Una torreta defensiva especializada construida exclusivamente para gravinaves. Intercepta proyectiles explosivos y cápsulas de escape entrantes dentro de su radio de protección, pero no puede atacar objetivos terrestres. La probabilidad de intercepción escala con la velocidad del objetivo.</VGE_PointDefenseTurret.description>
+  <!-- EN: Ammunition -->
+  <VGE_PointDefenseTurret.comps.2.fuelLabel>Munición</VGE_PointDefenseTurret.comps.2.fuelLabel>
+  <!-- EN: Ammunition -->
+  <VGE_PointDefenseTurret.comps.2.fuelGizmoLabel>Munición</VGE_PointDefenseTurret.comps.2.fuelGizmoLabel>
+  <!-- EN: point defense gun -->
+  <VGE_Gun_PointDefense.label>cañón de defensa de punto</VGE_Gun_PointDefense.label>
+  <!-- EN: A rapid-fire gun for point-defense applications. -->
+  <VGE_Gun_PointDefense.description>Un arma de disparo rápido para aplicaciones de defensa de punto.</VGE_Gun_PointDefense.description>
+  <!-- EN: point defense gun -->
+  <VGE_Gun_PointDefense.verbs.Verb_Shoot.label>cañón de defensa de punto</VGE_Gun_PointDefense.verbs.Verb_Shoot.label>
+  <!-- EN: gauss shell ammo box -->
+  <VGE_AmmoBox_GaussShell.label>caja de munición gauss</VGE_AmmoBox_GaussShell.label>
+  <!-- EN: A small-sized box containing large uranium shells. Used by different gauss artillery turrets to reload. A box is fed directly into an adjacent gravship artillery when it needs to be reloaded. -->
+  <VGE_AmmoBox_GaussShell.description>Una caja pequeña que contiene proyectiles de uranio grandes. Utilizada por diferentes torretas de artillería gauss para recargar. Una caja se introduce directamente en una artillería de gravinave adyacente cuando necesita ser recargada.</VGE_AmmoBox_GaussShell.description>
+  <!-- EN: gauss gun -->
+  <VGE_GaussGun.label>cañón gauss</VGE_GaussGun.label>
+  <!-- EN: A small, single-barrel electromagnetic cannon that launches dense uranium slugs at extreme velocities. Designed for both local bombardments and medium-range engagements, it can also target other gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
+  <VGE_GaussGun.description>Un cañón electromagnético pequeño de un solo cañón que lanza proyectiles de uranio densos a velocidades extremas. Diseñado tanto para bombardeos locales como para enfrentamientos de medio alcance, también puede apuntar a otras gravinaves en órbita. Requiere una terminal de puntería vinculada con un operador para funcionar. Extrae energía directamente del motor gravitacional.</VGE_GaussGun.description>
+  <!-- EN: Uranium Slugs -->
+  <VGE_GaussGun.comps.1.fuelLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelLabel>
+  <!-- EN: Uranium Slugs -->
+  <VGE_GaussGun.comps.1.fuelGizmoLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelGizmoLabel>
+  <!-- EN: gauss gun -->
+  <VGE_Gun_GaussGun.label>cañón gauss</VGE_Gun_GaussGun.label>
+  <!-- EN: A small, single-barrel electromagnetic cannon. -->
+  <VGE_Gun_GaussGun.description>Un cañón electromagnético pequeño de un solo cañón.</VGE_Gun_GaussGun.description>
+  <!-- EN: gauss gun -->
+  <VGE_Gun_GaussGun.verbs.Verb_ShootWithSmoke.label>cañón gauss</VGE_Gun_GaussGun.verbs.Verb_ShootWithSmoke.label>
+  <!-- EN: Gauss gun shot -->
+  <VGE_Bullet_GaussGun.label>disparo de cañón gauss</VGE_Bullet_GaussGun.label>
+  <!-- EN: javelin pod -->
+  <VGE_JavelinPod.label>lanzadera javelin</VGE_JavelinPod.label>
+  <!-- EN: A compact multi-tube missile platform that launches a volley of six guided astrofuel javelins. Meant for fast, hard-hitting strikes against exposed gravships and unarmored surface forces. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
+  <VGE_JavelinPod.description>Una plataforma de misiles compacta de tubos múltiples que lanza una salva de seis jabalinas de astrobustible guiadas. Destinada a ataques rápidos y contundentes contra gravinaves expuestas y fuerzas de superficie sin blindaje. Requiere una terminal de puntería vinculada con un operador para funcionar. Extrae energía directamente del motor gravitacional.</VGE_JavelinPod.description>
+  <!-- EN: Astrofuel -->
+  <VGE_JavelinPod.comps.1.fuelLabel>Astrobustible</VGE_JavelinPod.comps.1.fuelLabel>
+  <!-- EN: Astrofuel -->
+  <VGE_JavelinPod.comps.1.fuelGizmoLabel>Astrobustible</VGE_JavelinPod.comps.1.fuelGizmoLabel>
+  <!-- EN: Missing rockets -->
+  <VGE_JavelinPod.comps.1.outOfFuelMessage>Faltan cohetes</VGE_JavelinPod.comps.1.outOfFuelMessage>
+  <!-- EN: javelin pod -->
+  <VGE_Gun_JavelinPod.label>lanzadera javelin</VGE_Gun_JavelinPod.label>
+  <!-- EN: A compact multi-tube missile platform. -->
+  <VGE_Gun_JavelinPod.description>Una plataforma de misiles compacta de tubos múltiples.</VGE_Gun_JavelinPod.description>
+  <!-- EN: javelin pod -->
+  <VGE_Gun_JavelinPod.verbs.Verb_ShootWithWorldTargeting.label>lanzadera javelin</VGE_Gun_JavelinPod.verbs.Verb_ShootWithWorldTargeting.label>
+  <!-- EN: Javelin rocket -->
+  <VGE_Rocket_JavelinRocket.label>Cohete javelin</VGE_Rocket_JavelinRocket.label>
+  <!-- EN: anticraft caster -->
+  <VGE_AnticraftCaster.label>emisor antiaéreo</VGE_AnticraftCaster.label>
+  <!-- EN: A medium gravship-mounted energy weapon that fires short, razor-sharp bursts of cutting beam with surgical precision. Built to punch holes through critical systems, the caster trades sustained suppression for rapid, accurate strikes. Requires a linked targeting terminal with an operator to function. Uses a lot of power to fire. -->
+  <VGE_AnticraftCaster.description>Un arma de energía de tamaño medio montada en gravinave que dispara ráfagas cortas y afiladas de rayos de corte con precisión quirúrgica. Construido para perforar sistemas críticos, el emisor sacrifica la supresión sostenida por ataques rápidos y precisos. Requiere una terminal de puntería vinculada con un operador para funcionar. Consume mucha energía al disparar.</VGE_AnticraftCaster.description>
+  <!-- EN: anticraft caster -->
+  <VGE_Gun_AnticraftCaster.label>emisor antiaéreo</VGE_Gun_AnticraftCaster.label>
+  <!-- EN: A medium gravship-mounted energy weapon. -->
+  <VGE_Gun_AnticraftCaster.description>Un arma de energía de tamaño medio montada en gravinave.</VGE_Gun_AnticraftCaster.description>
+  <!-- EN: anticraft caster -->
+  <VGE_Gun_AnticraftCaster.verbs.Verb_ShootWithWorldTargeting.label>emisor antiaéreo</VGE_Gun_AnticraftCaster.verbs.Verb_ShootWithWorldTargeting.label>
+  <!-- EN: anticraft caster beam -->
+  <VGE_Bullet_AnticraftCaster.label>rayo de emisor antiaéreo</VGE_Bullet_AnticraftCaster.label>
+  <!-- EN: Mote -->
+  <VGE_Mote_BeamRepeaterLaser.label>TODO</VGE_Mote_BeamRepeaterLaser.label>
+  <!-- EN: compact stove -->
+  <VGE_CompactStove.label>estufa compacta</VGE_CompactStove.label>
+  <!-- EN: A space-efficient, gravship-powered stove designed for use aboard gravships. Despite its smaller frame, it contains a high-efficiency cooktop and integrated prep surface, as well as a butchering slate. It draws power directly from the grav engine. -->
+  <VGE_CompactStove.description>Una estufa eficiente en espacio y alimentada por la gravinave, diseñada para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, contiene una placa de cocina de alta eficiencia y una superficie de preparación integrada, así como una tabla de carnicería. Extrae energía directamente del motor gravitacional.</VGE_CompactStove.description>
+  <!-- EN: compact drug lab -->
+  <VGE_CompactDrugLab.label>laboratorio de drogas compacto</VGE_CompactDrugLab.label>
+  <!-- EN: A space-efficient, gravship-powered drug lab designed for use aboard gravships. Despite its smaller frame, it’s equipped with containers, heaters, and measurement devices for producing various drugs. It draws power directly from the grav engine. -->
+  <VGE_CompactDrugLab.description>Un laboratorio de drogas eficiente en espacio y alimentado por la gravinave, diseñado para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, está equipado con contenedores, calentadores y dispositivos de medición para producir diversas drogas. Extrae energía directamente del motor gravitacional.</VGE_CompactDrugLab.description>
+  <!-- EN: compact machining table -->
+  <VGE_CompactMachiningTable.label>mesa de maquinado compacta</VGE_CompactMachiningTable.label>
+  <!-- EN: A space-efficient, gravship-powered machining table designed for use aboard gravships. Despite its smaller frame, it’s ideal for assembling machinery like guns and ammunition, or breaking down dead mechanoids. It draws power directly from the grav engine. -->
+  <VGE_CompactMachiningTable.description>Una mesa de maquinado eficiente en espacio y alimentada por la gravinave, diseñada para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, es ideal para ensamblar maquinaria como armas y municiones, o para desmantelar mecanoides muertos. Extrae energía directamente del motor gravitacional.</VGE_CompactMachiningTable.description>
+  <!-- EN: compact smithy -->
+  <VGE_CompactSmithy.label>forja compacta</VGE_CompactSmithy.label>
+  <!-- EN: A space-efficient, gravship-powered smithy designed for use aboard gravships. Despite its smaller frame, it can be used to smith non-mechanical weapons and tools, as well as extract usable metal from slag chunks. It draws power directly from the grav engine. -->
+  <VGE_CompactSmithy.description>Una forja eficiente en espacio y alimentada por la gravinave, diseñada para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, puede usarse para forjar armas y herramientas no mecánicas, así como extraer metal utilizable de fragmentos de escoria. Extrae energía directamente del motor gravitacional.</VGE_CompactSmithy.description>
+  <!-- EN: compact tailor bench -->
+  <VGE_CompactTailor.label>mesa de sastre compacta</VGE_CompactTailor.label>
+  <!-- EN: A space-efficient, gravship-powered tailor bench designed for use aboard gravships. Despite its smaller frame, this workbench comes with a sewing machine for rapid tailoring of clothes. It draws power directly from the grav engine. -->
+  <VGE_CompactTailor.description>Una mesa de sastrería eficiente en espacio y alimentada por la gravinave, diseñada para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, este banco de trabajo viene con una máquina de coser para la confección rápida de ropa. Extrae energía directamente del motor gravitacional.</VGE_CompactTailor.description>
+  <!-- EN: compact biofuel refinery -->
+  <VGE_CompactRefinery.label>refinería de biocombustible compacta</VGE_CompactRefinery.label>
+  <!-- EN: A space-efficient, gravship-powered biofuel refinery designed for use aboard gravships. Despite its smaller frame, it refines biological matter like wood or plant matter into chemfuel. It draws power directly from the grav engine. -->
+  <VGE_CompactRefinery.description>Una refinería de biocombustible eficiente en espacio y alimentada por la gravinave, diseñada para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, refina materia biológica como madera o materia vegetal en quimbustible. Extrae energía directamente del motor gravitacional.</VGE_CompactRefinery.description>
+  <!-- EN: compact fabrication bench -->
+  <VGE_CompactFabBench.label>banco de fabricación compacto</VGE_CompactFabBench.label>
+  <!-- EN: A space-efficient, gravship-powered fabrication bench designed for use aboard gravships. Despite its smaller frame, it’s equipped with advanced tools for producing technological marvels from simpler materials. It draws power directly from the grav engine. -->
+  <VGE_CompactFabBench.description>Un banco de fabricación eficiente en espacio y alimentado por la gravinave, diseñado para su uso a bordo de gravinaves. A pesar de su estructura más pequeña, está equipado con herramientas avanzadas para producir maravillas tecnológicas a partir de materiales más simples. Extrae energía directamente del motor gravitacional.</VGE_CompactFabBench.description>
+  <!-- EN: wall tool cabinet -->
+  <VGE_WallToolCabinet.label>casillero de herramientas de pared</VGE_WallToolCabinet.label>
+  <!-- EN: A wall-mounted version of a tool cabinet. Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets. -->
+  <VGE_WallToolCabinet.description>Una versión montada en pared del casillero de herramientas. Aumenta la velocidad de trabajo cuando se coloca cerca de un banco de trabajo. Un banco de trabajo puede usar hasta dos casilleros de herramientas.</VGE_WallToolCabinet.description>
+  <!-- EN: destroyed small oxygen tank -->
+  <VQEA_DestroyedSmallOxygenTank.label>tanque de oxígeno pequeño destruido</VQEA_DestroyedSmallOxygenTank.label>
+  <!-- EN: This tank once supplied oxygen to the gravship, but it’s now broken and useless. Some steel can still be salvaged from it. -->
+  <VQEA_DestroyedSmallOxygenTank.description>Este tanque una vez suministró oxígeno a la gravinave, pero ahora está roto e inútil. Aún se puede rescatar algo de acero de él.</VQEA_DestroyedSmallOxygenTank.description>
+  <!-- EN: destroyed small astrofuel tank -->
+  <VQEA_DestroyedSmallAstrofuelTank.label>tanque de astrobustible pequeño destruido</VQEA_DestroyedSmallAstrofuelTank.label>
+  <!-- EN: This tank once stored astrofuel for thrusters, but it has been destroyed. Its frame still holds recoverable materials. -->
+  <VQEA_DestroyedSmallAstrofuelTank.description>Este tanque una vez almacenó astrobustible para los propulsores, pero ha sido destruido. Su estructura aún contiene materiales recuperables.</VQEA_DestroyedSmallAstrofuelTank.description>
+  <!-- EN: destroyed grav field extender -->
+  <VQEA_DestroyedGravExtender.label>extensor de campo gravitacional destruido</VQEA_DestroyedGravExtender.label>
+  <!-- EN: This device once expanded a gravship’s build area, but it is now shattered. Some valuable parts can still be reclaimed. -->
+  <VQEA_DestroyedGravExtender.description>Este dispositivo una vez expandió el área de construcción de una gravinave, pero ahora está destrozado. Aún se pueden recuperar algunas piezas valiosas.</VQEA_DestroyedGravExtender.description>
+  <!-- EN: destroyed small thruster -->
+  <VQEA_DestroyedSmallThruster.label>propulsor pequeño destruido</VQEA_DestroyedSmallThruster.label>
+  <!-- EN: This thruster once powered the gravship, but it is now wrecked beyond use. Scraps of metal and components can still be taken. -->
+  <VQEA_DestroyedSmallThruster.description>Este propulsor una vez alimentó la gravinave, pero ahora está destrozado y fuera de uso. Aún se pueden tomar restos de metal y componentes.</VQEA_DestroyedSmallThruster.description>
+  <!-- EN: destroyed large thruster -->
+  <VQEA_DestroyedLargeThruster.label>propulsor grande destruido</VQEA_DestroyedLargeThruster.label>
+  <!-- EN: This powerful thruster once pushed gravships across space, but now it lies broken. Even ruined, it holds some useful salvage. -->
+  <VQEA_DestroyedLargeThruster.description>Este potente propulsor una vez impulsó gravinaves a través del espacio, pero ahora yace roto. Incluso arruinado, contiene restos útiles.</VQEA_DestroyedLargeThruster.description>
+  <!-- EN: destroyed small heatsink -->
+  <VQEA_DestroyedSmallHeatsink.label>disipador de calor pequeño destruido</VQEA_DestroyedSmallHeatsink.label>
+  <!-- EN: This heatsink once cooled the gravship’s systems, but it has burned out. Some steel can still be recovered from the wreck. -->
+  <VQEA_DestroyedSmallHeatsink.description>Este disipador de calor una vez enfrió los sistemas de la gravinave, pero se ha quemado. Aún se puede recuperar algo de acero de los restos.</VQEA_DestroyedSmallHeatsink.description>
+  <!-- EN: damaged escape pod -->
+  <VGE_DamagedEscapePod.label>cápsula de escape dañada</VGE_DamagedEscapePod.label>
+  <!-- EN: A crashlanded, damaged escape pod. Can be hacked open to reveal what&apos;s inside. -->
+  <VGE_DamagedEscapePod.description>Una cápsula de escape dañada que se estrelló. Se puede hackear para revelar lo que hay dentro.</VGE_DamagedEscapePod.description>
+  <!-- EN: escape pod (incoming) -->
+  <VGE_EscapePodSkyfaller.label>cápsula de escape (entrante)</VGE_EscapePodSkyfaller.label>
+  <!-- EN: minified thing -->
+  <VGE_MinifiedGravjumperEngine.label>objeto minimizado</VGE_MinifiedGravjumperEngine.label>
+  <!-- EN: minified thing -->
+  <VGE_MinifiedGravhulkEngine.label>objeto minimizado</VGE_MinifiedGravhulkEngine.label>
+  <!-- EN: gravjumper engine -->
+  <VGE_GravjumperEngine.label>motor de gravisaltador</VGE_GravjumperEngine.label>
+  <!-- EN: A compact gravtech engine designed for short-range jumps within a planet’s atmosphere. The gravjumper engine creates a brief, localized distortion in gravitational flow, allowing rapid vertical lift, but does not produce forward thrust. It can&apos;t function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that&apos;s connected to the grav engine will be transported to a new map.\n\nOften used by explorers, scouts, and smugglers, gravjumper engines are prized for their agility and minimal power requirements. They are simpler to produce than full gravship engines, but still rely on high-grade materials and advanced fabrication. -->
+  <VGE_GravjumperEngine.description>Un motor de gravitecnología compacto diseñado para saltos de corto alcance dentro de la atmósfera de un planeta. El motor de gravisaltador crea una breve distorsión localizada en el flujo gravitacional, permitiendo una elevación vertical rápida, pero no produce empuje hacia adelante. No puede funcionar lejos de un pozo de gravedad grande como un planeta, por lo que es inútil para viajes interplanetarios.\n\nCuando se lanza, cualquier cosa en la subestructura que esté conectada al motor gravitacional será transportada a un nuevo mapa.\n\nUtilizados a menudo por exploradores, exploradores y contrabandistas, los motores de gravisaltador son apreciados por su agilidad y requisitos mínimos de energía. Son más sencillos de producir que los motores de gravinave completos, pero aún dependen de materiales de alta calidad y fabricación avanzada.</VGE_GravjumperEngine.description>
+  <!-- EN: gravhulk engine -->
+  <VGE_GravhulkEngine.label>motor de gravicoloso</VGE_GravhulkEngine.label>
+  <!-- EN: The gravhulk is a colossal class of gravship, engineered to transport entire megacolonies, orbital platforms, or mobile city-cores across the skies of a planet. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can&apos;t function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that&apos;s connected to the grav engine will be transported to a new map.\n\nGravhulks are the pride of glitterworld infrastructure fleets, often used to deploy prefabricated settlements, floating arcologies, or deep-strata excavation hubs. Their sheer scale demands enormous production facilities and crew specialization, making them one of the rarest and most powerful gravships ever built. -->
+  <VGE_GravhulkEngine.description>El gravicoloso es una clase colosal de gravinave, diseñada para transportar megacolonias enteras, plataformas orbitales o núcleos de ciudades móviles a través de los cielos de un planeta. El motor gravitacional genera sustentación invirtiendo e intensificando el efecto de la gravedad en un campo a su alrededor. Este motor puede elevarse, pero no produce empuje hacia adelante. No puede funcionar lejos de un pozo de gravedad grande como un planeta, por lo que es inútil para viajes interplanetarios.\n\nCuando se lanza, cualquier cosa en la subestructura que esté conectada al motor gravitacional será transportada a un nuevo mapa.\n\nLos gravicolosos son el orgullo de las flotas de infraestructura de mundobrillante, a menudo utilizados para desplegar asentamientos prefabricados, arcologías flotantes o centros de excavación de estratos profundos. Su escala masiva exige enormes instalaciones de producción y especialización de la tripulación, lo que los convierte en una de las gravinaves más raras y poderosas jamás construidas.</VGE_GravhulkEngine.description>
+  <!-- EN: grav field amplifier -->
+  <VGE_GravFieldAmplifier.label>amplificador de campo gravitacional</VGE_GravFieldAmplifier.label>
+  <!-- EN: An advanced ultratech device that dramatically increases the size of a gravship.  It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine. A gravship can support up to four grav field amplifiers. -->
+  <VGE_GravFieldAmplifier.description>Un dispositivo ultratecnológico avanzado que aumenta drásticamente el tamaño de una gravinave. Extiende el área en la que se puede construir la subestructura y aumenta la cantidad de subestructura que una gravinave puede soportar. Debe construirse cerca de un motor gravitacional. Una gravinave puede soportar hasta cuatro amplificadores de campo gravitacional.</VGE_GravFieldAmplifier.description>
+  <!-- EN: crew bunk bed -->
+  <VGE_CrewBunkBed.label>litera de tripulación</VGE_CrewBunkBed.label>
+  <!-- EN: A compact double-tiered bed designed for gravship use. Maximizes limited space by allowing two crew members to rest in the footprint of one bed. -->
+  <VGE_CrewBunkBed.description>Una cama compacta de dos niveles diseñada para su uso en gravinaves. Maximiza el espacio limitado al permitir que dos miembros de la tripulación descansen en el espacio de una sola cama.</VGE_CrewBunkBed.description>
+  <!-- EN: medbay bed -->
+  <VGE_MedbayBed.label>cama de enfermería</VGE_MedbayBed.label>
+  <!-- EN: A specialized gravship bed equipped with an integrated vitals monitor. Designed for medbays, it improves medical outcomes over normal beds. It draws power directly from the grav engine. -->
+  <VGE_MedbayBed.description>Una cama de gravinave especializada equipada con un monitor de signos vitales integrado. Diseñada para enfermerías, mejora los resultados médicos en comparación con las camas normales. Extrae energía directamente del motor gravitacional.</VGE_MedbayBed.description>
+  <!-- EN: crew lockers -->
+  <VGE_CrewLockers.label>casilleros de tripulación</VGE_CrewLockers.label>
+  <!-- EN: A set of compact lockers designed for gravship crew quarters. Provides a small comfort bonus to all nearby bunk beds. Placing more than one locker near the same bed has no effect. -->
+  <VGE_CrewLockers.description>Un conjunto de casilleros compactos diseñados para los camarotes de la tripulación de la gravinave. Proporciona un pequeño bono de comodidad a todas las literas cercanas. Colocar más de un casillero cerca de la misma cama no tiene efecto.</VGE_CrewLockers.description>
+  <!-- EN: gravship shelf -->
+  <VGE_GravshipShelf.label>estantería de gravinave</VGE_GravshipShelf.label>
+  <!-- EN: A reinforced storage shelf designed for use aboard gravships. Items stored in this will not affect room beauty and they won&apos;t deteriorate, even if outside. -->
+  <VGE_GravshipShelf.description>Una estantería de almacenamiento reforzada diseñada para su uso a bordo de gravinaves. Los objetos almacenados en ella no afectarán la belleza de la habitación y no se deteriorarán, incluso si están a la intemperie.</VGE_GravshipShelf.description>
+  <!-- EN: wall firefoam popper -->
+  <VGE_WallFirefoamPopper.label>extintor de espuma de pared</VGE_WallFirefoamPopper.label>
+  <!-- EN: A wall-mounted variant of the firefoam popper. When it detects fire, it bursts and sprays fire-retardant foam in a circular area around itself. Can also be triggered manually. -->
+  <VGE_WallFirefoamPopper.description>Una variante de pared del extintor de espuma. Cuando detecta fuego, estalla y rocía espuma retardante de fuego en un área circular a su alrededor. También puede activarse manualmente.</VGE_WallFirefoamPopper.description>
+  <!-- EN: Trigger {0_label} -->
+  <VGE_WallFirefoamPopper.comps.1.useLabel>Activar {0_label}</VGE_WallFirefoamPopper.comps.1.useLabel>
+  <!-- EN: comms terminal -->
+  <VGE_CommsTerminal.label>terminal de comunicaciones</VGE_CommsTerminal.label>
+  <!-- EN: A compact version of a comms console that allows radio contact with other factions and orbital traders. It draws power directly from the grav engine. -->
+  <VGE_CommsTerminal.description>Una versión compacta de una consola de comunicaciones que permite el contacto por radio con otras facciones y comerciantes orbitales. Extrae energía directamente del motor gravitacional.</VGE_CommsTerminal.description>
+  <!-- EN: Summon diabolus threat -->
+  <VGE_CommsTerminal.comps.3.useLabel>Invocar amenaza de diabolus</VGE_CommsTerminal.comps.3.useLabel>
+  <!-- EN: wall orbital trade beacon -->
+  <VGE_WallOrbitalTradeBeacon.label>baliza de comercio orbital de pared</VGE_WallOrbitalTradeBeacon.label>
+  <!-- EN: A wall-mounted version of an orbital trade beacon, required for orbital trading. You can only sell goods to orbital traders if they&apos;re near an orbital trade beacon. Can be placed indoors. -->
+  <VGE_WallOrbitalTradeBeacon.description>Una versión de pared de una baliza de comercio orbital, necesaria para el comercio orbital. Solo puedes vender mercancías a los comerciantes orbitales si están cerca de una baliza de comercio orbital. Puede colocarse en interiores.</VGE_WallOrbitalTradeBeacon.description>
+  <!-- EN: faux plant -->
+  <VGE_FauxPlant.label>planta artificial</VGE_FauxPlant.label>
+  <!-- EN: An artificial plant in a sturdy metal pot. It requires no light, water, or air, making it perfect for adding beauty to even the most inhospitable gravship environments. -->
+  <VGE_FauxPlant.description>Una planta artificial en una maceta de metal resistente. No requiere luz, agua ni aire, lo que la hace perfecta para añadir belleza incluso a los entornos más inhóspitos de la gravinave.</VGE_FauxPlant.description>
+  <!-- EN: sealant popper -->
+  <VGE_SealantPopper.label>sellador de emergencia</VGE_SealantPopper.label>
+  <!-- EN: When it detects vacuum levels above 25%, this safety device pops and releases a fast-expanding sealant goo. The substance quickly solidifies, sealing gaps and breaches to restore pressure in the room. Can also be triggered manually. -->
+  <VGE_SealantPopper.description>Cuando detecta niveles de vacío superiores al 25%, este dispositivo de seguridad se activa y libera una sustancia selladora de expansión rápida. La sustancia se solidifica rápidamente, sellando huecos y brechas para restaurar la presión en la habitación. También puede activarse manualmente.</VGE_SealantPopper.description>
+  <!-- EN: Trigger {0_label} -->
+  <VGE_SealantPopper.comps.1.useLabel>Activar {0_label}</VGE_SealantPopper.comps.1.useLabel>
+  <!-- EN: sealant goop -->
+  <VGE_SealantGoop.label>masa selladora</VGE_SealantGoop.label>
+  <!-- EN: A hardened mass of rapidly-expanding polymer foam. Produced by a sealant popper, it forms an airtight plug that seals breaches in gravship rooms exposed to vacuum. While effective at restoring pressure, it is brittle and easy to destroy. -->
+  <VGE_SealantGoop.description>Una masa endurecida de espuma polimérica de expansión rápida. Producida por un sellador de emergencia, forma un tapón hermético que sella brechas en las habitaciones de la gravinave expuestas al vacío. Aunque es eficaz para restaurar la presión, es frágil y fácil de destruir.</VGE_SealantGoop.description>
+  <!-- EN: pilot cockpit -->
+  <VGE_PilotCockpit.label>cabina de pilotaje</VGE_PilotCockpit.label>
+  <!-- EN: An interface that allows launching and piloting a gravjumper. It draws power directly from the grav engine. -->
+  <VGE_PilotCockpit.description>Una interfaz que permite lanzar y pilotar un gravisaltador. Extrae energía directamente del motor gravitacional.</VGE_PilotCockpit.description>
+  <!-- EN: pilot bridge -->
+  <VGE_PilotBridge.label>puente de pilotaje</VGE_PilotBridge.label>
+  <!-- EN: An interface that allows launching and piloting a gravhulk. It draws power directly from the gravhulk engine. -->
+  <VGE_PilotBridge.description>Una interfaz que permite lanzar y pilotar un gravicoloso. Extrae energía directamente del motor de gravicoloso.</VGE_PilotBridge.description>
+  <!-- EN: copilot console -->
+  <VGE_CopilotConsole.label>consola de copiloto</VGE_CopilotConsole.label>
+  <!-- EN: An auxiliary interface that allows a copilot to assist in launching and piloting a gravship. It draws power directly from the grav engine. -->
+  <VGE_CopilotConsole.description>Una interfaz auxiliar que permite a un copiloto asistir en el lanzamiento y pilotaje de una gravinave. Extrae energía directamente del motor gravitacional.</VGE_CopilotConsole.description>
+  <!-- EN: small heatsink -->
+  <VGE_SmallHeatsink.label>disipador de calor pequeño</VGE_SmallHeatsink.label>
+  <!-- EN: A compact thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. A gravship can support up to ten small heatsinks. -->
+  <VGE_SmallHeatsink.description>Un regulador térmico compacto que absorbe el calor de los viajes de la gravinave y convierte lentamente parte de él en energía utilizable, al tiempo que evita el sobrecalentamiento del sistema y reduce la duración del enfriamiento del motor gravitacional. Una gravinave puede soportar hasta diez disipadores de calor pequeños.</VGE_SmallHeatsink.description>
+  <!-- EN: large heatsink -->
+  <VGE_LargeHeatsink.label>disipador de calor grande</VGE_LargeHeatsink.label>
+  <!-- EN: A large thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. A gravship can support up to six large heatsinks. -->
+  <VGE_LargeHeatsink.description>Un regulador térmico grande que absorbe el calor de los viajes de la gravinave y convierte lentamente parte de él en energía utilizable, al tiempo que evita el sobrecalentamiento del sistema y reduce la duración del enfriamiento del motor gravitacional. Una gravinave puede soportar hasta seis disipadores de calor grandes.</VGE_LargeHeatsink.description>
+  <!-- EN: gravheat absorber -->
+  <VGE_GravheatAbsorber.label>absorbedor de gravicalor</VGE_GravheatAbsorber.label>
+  <!-- EN: A specialized thermal sink that draws all residual heat from the grav engine, instantly clearing its cooldown. The absorbed heat leaves the gravheat absorber inoperable for an extended period while it safely dissipates the stored energy. Furthermore, the specialized design provides protection from the heat of solar flares encountered in space, preventing excessive heat from bleeding into the gravship&apos;s interior. -->
+  <VGE_GravheatAbsorber.description>Un disipador térmico especializado que extrae todo el calor residual del motor gravitacional, eliminando instantáneamente su tiempo de enfriamiento. El calor absorbido deja al absorbedor de gravicalor inoperativo durante un periodo prolongado mientras disipa de forma segura la energía almacenada. Además, el diseño especializado proporciona protección contra el calor de las llamaradas solares encontradas en el espacio, evitando que el calor excesivo se filtre al interior de la gravinave.</VGE_GravheatAbsorber.description>
+  <!-- EN: engineering console -->
+  <VGE_EngineeringConsole.label>consola de ingeniería</VGE_EngineeringConsole.label>
+  <!-- EN: An interface used to monitor the maintenance status of all gravship components. It draws power directly from the grav engine.\n\n&lt;color=#E5E54C&gt;Gameplay impact:&lt;/color&gt; Reduces maintenance sensitivity of all gravship structures on this gravship by 0.5. -->
+  <VGE_EngineeringConsole.description>Una interfaz utilizada para monitorear el estado de mantenimiento de todos los componentes de la gravinave. Extrae energía directamente del motor gravitacional.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt; Reduce la sensibilidad de mantenimiento de todas las estructuras de gravinave en esta nave en 0.5.</VGE_EngineeringConsole.description>
+  <!-- EN: mass driver -->
+  <VGE_MassDriver.label>impulsor de masa</VGE_MassDriver.label>
+  <!-- EN: A triple-barrel electromagnetic artillery system built into mechanoid defense platforms. It fires dense slugs at incredible velocities, tearing through both armored gravships in orbit and ground targets with equal ease. The weapon is fully autonomous, operated by a machine brain that requires no crew. Commonly seen on orbital bombardment platforms. -->
+  <VGE_MassDriver.description>Un sistema de artillería electromagnética de triple cañón integrado en las plataformas de defensa mecanoides. Dispara proyectiles densos a velocidades increíbles, atravesando tanto gravinaves blindadas en órbita como objetivos terrestres con la misma facilidad. El arma es totalmente autónoma, operada por un cerebro de máquina que no requiere tripulación. Se ve comúnmente en plataformas de bombardeo orbital.</VGE_MassDriver.description>
+  <!-- EN: mass driver -->
+  <VGE_Gun_MassDriver.label>impulsor de masa</VGE_Gun_MassDriver.label>
+  <!-- EN: A triple-barrel electromagnetic artillery system. -->
+  <VGE_Gun_MassDriver.description>Un sistema de artillería electromagnética de triple cañón.</VGE_Gun_MassDriver.description>
+  <!-- EN: mass driver -->
+  <VGE_Gun_MassDriver.verbs.Verb_ShootWithSmoke.label>impulsor de masa</VGE_Gun_MassDriver.verbs.Verb_ShootWithSmoke.label>
+  <!-- EN: mass driver shot -->
+  <VGE_Bullet_MassDriver.label>disparo de impulsor de masa</VGE_Bullet_MassDriver.label>
+  <!-- EN: heavy charge annihilator -->
+  <VGE_HeavyChargeAnnihilator.label>aniquilador de carga pesada</VGE_HeavyChargeAnnihilator.label>
+  <!-- EN: A heavy pulse-charged weapon, designed for sustained suppressive fire in defense of mechanoid orbital platforms. Its upgraded capacitors and cooling systems allow it to unleash longer, more devastating bursts than standard charge blasters, saturating entire areas with surprisingly accurate shots. -->
+  <VGE_HeavyChargeAnnihilator.description>Un arma pesada de carga de pulsos, diseñada para fuego de supresión sostenido en defensa de las plataformas orbitales mecanoides. Sus condensadores y sistemas de enfriamiento mejorados le permiten desatar ráfagas más largas y devastadoras que los lanzadores de carga estándar, saturando áreas enteras con disparos sorprendentemente precisos.</VGE_HeavyChargeAnnihilator.description>
+  <!-- EN: heavy charge annihilator -->
+  <VGE_Gun_HeavyChargeAnnihilator.label>aniquilador de carga pesada</VGE_Gun_HeavyChargeAnnihilator.label>
+  <!-- EN: A heavy pulse-charged weapon for mechanoid defense. -->
+  <VGE_Gun_HeavyChargeAnnihilator.description>Un arma pesada de carga de pulsos para la defensa mecanoide.</VGE_Gun_HeavyChargeAnnihilator.description>
+  <!-- EN: heavy charge annihilator -->
+  <VGE_Gun_HeavyChargeAnnihilator.verbs.Verb_Shoot.label>aniquilador de carga pesada</VGE_Gun_HeavyChargeAnnihilator.verbs.Verb_Shoot.label>
+  <!-- EN: mechanoid grav engine -->
+  <VGE_MechanoidGravEngine.label>motor gravitacional mecanoide</VGE_MechanoidGravEngine.label>
+  <!-- EN: The cold, artificial heart of a mechanoid orbital platform. Unlike human-built grav engines, these are constructed by the mechanoid core itself, optimized for ruthless efficiency and unending operation. They generate immense lift and stabilization fields that allow entire platforms to remain suspended in orbit, forming the backbone of mechanoid dominance in space. While largely incompatible with human systems and not usable for gravship construction, they can be destroyed to yield a gravcore, a rare and valuable prize for any who dare to challenge them. -->
+  <VGE_MechanoidGravEngine.description>El corazón frío y artificial de una plataforma orbital mecanoide. A diferencia de los motores gravitacionales construidos por humanos, estos son construidos por el propio núcleo mecanoide, optimizados para una eficiencia despiadada y un funcionamiento incesante. Generan inmensos campos de sustentación y estabilización que permiten que plataformas enteras permanezcan suspendidas en órbita, formando la columna vertebral del dominio mecanoide en el espacio. Aunque son en gran medida incompatibles con los sistemas humanos y no se pueden usar para la construcción de gravinaves, pueden ser destruidos para obtener un núcleo gravitacional, un premio raro y valioso para cualquiera que se atreva a desafiarlos.</VGE_MechanoidGravEngine.description>
+  <!-- EN: large mechanoid thruster -->
+  <VGE_LargeMechanoidThruster.label>propulsor mecanoide grande</VGE_LargeMechanoidThruster.label>
+  <!-- EN: A massive astrofuel thruster built by the mechanoid core to propel their orbital platforms. Its construction mirrors human design but is reinforced with mechanical precision and efficiency, lined with thick vacstone plating that shrugs off extreme heat and stress. These thrusters allow mechanoid platforms to maneuver and maintain position in orbit. While unusable for human gravships, destroying one will yield a small supply of precious vacstone blocks. -->
+  <VGE_LargeMechanoidThruster.description>Un propulsor de astrobustible masivo construido por el núcleo mecanoide para propulsar sus plataformas orbitales. Su construcción imita el diseño humano pero está reforzada con precisión y eficiencia mecánica, revestida con un grueso blindaje de vaciorita que resiste el calor y el estrés extremos. Estos propulsores permiten que las plataformas mecanoides maniobren y mantengan su posición en órbita. Aunque no son utilizables para las gravinaves humanas, destruir uno proporcionará un pequeño suministro de valiosos bloques de vaciorita.</VGE_LargeMechanoidThruster.description>
+  <!-- EN: resource processor -->
+  <VGE_MechanoidResourceProcessor.label>procesador de recursos</VGE_MechanoidResourceProcessor.label>
+  <!-- EN: A machine-built structure that sustains mechanoid platforms by breaking down cosmic debris and wreckage into usable resources. It operates at regular intervals, steadily producing metals and fuels needed to keep their orbiting strongholds supplied. -->
+  <VGE_MechanoidResourceProcessor.description>Una estructura construida por máquinas que sostiene las plataformas mecanoides descomponiendo desechos cósmicos y restos en recursos utilizables. Funciona a intervalos regulares, produciendo constantemente metales y combustibles necesarios para mantener abastecidas sus fortalezas en órbita.</VGE_MechanoidResourceProcessor.description>
+  <!-- EN: mechanoid pod launcher -->
+  <VGE_MechanoidPodLauncher.label>lanzador de cápsulas mecanoide</VGE_MechanoidPodLauncher.label>
+  <!-- EN: A mechanized launch bay that periodically fires drop pods packed with mechanoids. These pods strike distant targets or nearby ships, allowing the platform to project its forces far beyond its hull. -->
+  <VGE_MechanoidPodLauncher.description>Una bahía de lanzamiento mecanizada que dispara periódicamente cápsulas de escape cargadas de mecanoides. Estas cápsulas impactan en objetivos distantes o naves cercanas, permitiendo que la plataforma proyecte sus fuerzas mucho más allá de su casco.</VGE_MechanoidPodLauncher.description>
+  <!-- EN: mechanoid temp shield -->
+  <VGE_MechanoidTempShield.label>escudo temporal mecanoide</VGE_MechanoidTempShield.label>
+  <!-- EN: A compact defense unit that projects a localized shield around itself. The barrier activates only for a short time before collapsing, after which the device must cool down before it can deploy again. -->
+  <VGE_MechanoidTempShield.description>Una unidad de defensa compacta que proyecta un escudo localizado a su alrededor. La barrera se activa solo por un corto tiempo antes de colapsar, después de lo cual el dispositivo debe enfriarse antes de poder desplegarse nuevamente.</VGE_MechanoidTempShield.description>
+  <!-- EN: astrofuel node -->
+  <VGE_MechanoidAstrofuelNode.label>nodo de astrobustible</VGE_MechanoidAstrofuelNode.label>
+  <!-- EN: A compact fuel reservoir integrated into mechanoid platforms. It stores refined astrofuel for their systems, but when damaged it is highly unstable and prone to violent explosions. -->
+  <VGE_MechanoidAstrofuelNode.description>Un depósito de combustible compacto integrado en las plataformas mecanoides. Almacena astrobustible refinado para sus sistemas, pero cuando se daña es altamente inestable y propenso a explosiones violentas.</VGE_MechanoidAstrofuelNode.description>
+  <!-- EN: compressed vacstone -->
+  <VGE_Compressed_Vacstone.label>vaciorita comprimida</VGE_Compressed_Vacstone.label>
+  <!-- EN: An ultra-dense mass of asteroid rock and dust, compacted over millennia into a near-indestructible block. Found only in deep space. -->
+  <VGE_Compressed_Vacstone.description>Una masa ultradensa de roca y polvo de asteroide, compactada durante milenios en un bloque casi indestructible. Se encuentra solo en el espacio profundo.</VGE_Compressed_Vacstone.description>
+  <!-- EN: compressed steel -->
+  <VGE_Compressed_Steel.label>acero comprimido</VGE_Compressed_Steel.label>
+  <!-- EN: Ancient structural mass fused into a single, ultra-dense vacstone-steel deposit. Found only in deep space. -->
+  <VGE_Compressed_Steel.description>Masa estructural antigua fundida en un único depósito ultradenso de vaciorita y acero. Se encuentra solo en el espacio profundo.</VGE_Compressed_Steel.description>
+  <!-- EN: compressed silver ore -->
+  <VGE_Compressed_Silver.label>mena de plata comprimida</VGE_Compressed_Silver.label>
+  <!-- EN: Silver-bearing rock compacted under extreme pressure into a dense, uniform seam. Found only in deep space. -->
+  <VGE_Compressed_Silver.description>Roca con plata compactada bajo presión extrema en una veta densa y uniforme. Se encuentra solo en el espacio profundo.</VGE_Compressed_Silver.description>
+  <!-- EN: compressed gold ore -->
+  <VGE_Compressed_Gold.label>mena de oro comprimida</VGE_Compressed_Gold.label>
+  <!-- EN: Gold-rich strata crushed and recrystallized into a tight, resilient vein. Found only in deep space. -->
+  <VGE_Compressed_Gold.description>Estratos ricos en oro triturados y recristalizados en una veta apretada y resistente. Se encuentra solo en el espacio profundo.</VGE_Compressed_Gold.description>
+  <!-- EN: compressed uranium ore -->
+  <VGE_Compressed_Uranium.label>mena de uranio comprimida</VGE_Compressed_Uranium.label>
+  <!-- EN: Uranium-laden rock sintered into a nearly monolithic deposit, difficult to fracture. Found only in deep space. -->
+  <VGE_Compressed_Uranium.description>Roca cargada de uranio sinterizada en un depósito casi monolítico, difícil de fracturar. Se encuentra solo en el espacio profundo.</VGE_Compressed_Uranium.description>
+  <!-- EN: compressed plasteel -->
+  <VGE_Compressed_Plasteel.label>plastiacero comprimido</VGE_Compressed_Plasteel.label>
+  <!-- EN: Ultra-dense plasteel conglomerate formed in vacuum over generations; brutally tough to mine. Found only in deep space. -->
+  <VGE_Compressed_Plasteel.description>Conglomerado de plastiacero ultradenso formado en el vacío durante generaciones; brutalmente difícil de minar. Se encuentra solo en el espacio profundo.</VGE_Compressed_Plasteel.description>
+  <!-- EN: compressed jade -->
+  <VGE_Compressed_Jade.label>jade comprimido</VGE_Compressed_Jade.label>
+  <!-- EN: Jade-bearing vacstone compacted into a rigid, fine-grained mass. Found only in deep space. -->
+  <VGE_Compressed_Jade.description>Vaciorita con jade compactada en una masa rígida de grano fino. Se encuentra solo en el espacio profundo.</VGE_Compressed_Jade.description>
+  <!-- EN: gravcore power coil -->
+  <VGE_GravcorePowerCoil.label>bobina de gravinúcleo</VGE_GravcorePowerCoil.label>
+  <!-- EN: A massive gravtech reactor that channels and amplifies gravitational wave energy into immense electrical output. Its reinforced coils can handle extreme flux, making it one of the most potent power sources available for gravships. Adjacent gravcore power cells will multiply the power output by 15% for each gravcore power cell. -->
+  <VGE_GravcorePowerCoil.description>Un reactor masivo de gravitecnología que canaliza y amplifica la energía de las ondas gravitacionales en una inmensa producción eléctrica. Sus bobinas reforzadas pueden manejar un flujo extremo, lo que lo convierte en una de las fuentes de energía más potentes disponibles para las gravinaves. Las celdas de energía de núcleo gravitacional adyacentes multiplicarán la producción de energía en un 15% por cada celda.</VGE_GravcorePowerCoil.description>
+  <!-- EN: gravship capacitor -->
+  <VGE_GravshipCapacitor.label>condensador de gravinave</VGE_GravshipCapacitor.label>
+  <!-- EN: Stores high amounts of electricity for later use. Constructed in the gravship substructure, gravship capacitors do not obstruct movement. -->
+  <VGE_GravshipCapacitor.description>Almacena grandes cantidades de electricidad para su uso posterior. Construidos en la subestructura de la gravinave, los condensadores de gravinave no obstruyen el movimiento.</VGE_GravshipCapacitor.description>
+  <!-- EN: solar panelling -->
+  <VGE_SolarPanelling.label>paneles solares</VGE_SolarPanelling.label>
+  <!-- EN: Produces electricity from sunlight. Does not work in the dark or under artificial light. Does not obstruct movement or provide cover, but can only be constructed on the gravship substructure. -->
+  <VGE_SolarPanelling.description>Produce electricidad a partir de la luz solar. No funciona en la oscuridad ni bajo luz artificial. No obstruye el movimiento ni proporciona cobertura, pero solo puede construirse sobre la subestructura de la gravinave.</VGE_SolarPanelling.description>
+  <!-- EN: gravtech console -->
+  <VGE_GravtechConsole.label>consola de gravitecnología</VGE_GravtechConsole.label>
+  <!-- EN: An interface used to analyze gravdata gathered from gravship launches and travel. It draws power directly from the grav engine. -->
+  <VGE_GravtechConsole.description>Una interfaz utilizada para analizar los gravidatos recolectados de los lanzamientos y viajes de la gravinave. Extrae energía directamente del motor gravitacional.</VGE_GravtechConsole.description>
+  <!-- EN: gravship black box -->
+  <VGE_GravshipBlackBox.label>caja negra de gravinave</VGE_GravshipBlackBox.label>
+  <!-- EN: An indestructible advanced recorder integrated into the gravship’s systems. It greatly increases gravdata yield, captures any overflow that would normally be wasted, and allows stored gravdata to be converted directly into research points. A gravship can support only one black box. -->
+  <VGE_GravshipBlackBox.description>Un registrador avanzado indestructible integrado en los sistemas de la gravinave. Aumenta enormemente el rendimiento de los gravidatos, captura cualquier excedente que normalmente se desperdiciaría y permite que los gravidatos almacenados se conviertan directamente en puntos de investigación. Una gravinave solo puede soportar una caja negra.</VGE_GravshipBlackBox.description>
+  <!-- EN: flight computer -->
+  <VGE_FlightComputer.label>computadora de vuelo</VGE_FlightComputer.label>
+  <!-- EN: An advanced computational unit that optimizes data collection during gravship travel. Increases the amount of gravdata gained from each launch. -->
+  <VGE_FlightComputer.description>Una unidad computacional avanzada que optimiza la recolección de datos durante los viajes de la gravinave. Aumenta la cantidad de gravidatos obtenidos en cada lanzamiento.</VGE_FlightComputer.description>
+  <!-- EN: compact research bench -->
+  <VGE_CompactResearchBench.label>banco de investigación compacto</VGE_CompactResearchBench.label>
+  <!-- EN: A miniaturized version of the high-tech research bench, designed to fit within the confined spaces of a gravship. Despite its compact size, it features the same computers and electronic equipment, providing the same research capabilities and unlocking advanced projects as its larger counterpart. It draws power directly from the grav engine. -->
+  <VGE_CompactResearchBench.description>Una versión miniaturizada del banco de investigación de alta tecnología, diseñada para caber en los espacios reducidos de una gravinave. A pesar de su tamaño compacto, cuenta con las mismas computadoras y equipos electrónicos, proporcionando las mismas capacidades de investigación y desbloqueando proyectos avanzados que su contraparte más grande. Extrae energía directamente del motor gravitacional.</VGE_CompactResearchBench.description>
+  <!-- EN: compact multi-analyzer -->
+  <VGE_CompactMultiAnalyzer.label>multianalizador compacto</VGE_CompactMultiAnalyzer.label>
+  <!-- EN: A miniaturized version of the multi-analyzer, designed to work aboard a gravship. While taking up less space, it performs the same essential function: increasing research speed when placed near a high-tech research bench and unlocking advanced projects. Each bench can only benefit from one multi-analyzer. It draws power directly from the grav engine. -->
+  <VGE_CompactMultiAnalyzer.description>Una versión miniaturizada del multianalizador, diseñada para trabajar a bordo de una gravinave. Aunque ocupa menos espacio, realiza la misma función esencial: aumentar la velocidad de investigación cuando se coloca cerca de un banco de investigación de alta tecnología y desbloquear proyectos avanzados. Cada banco solo puede beneficiarse de un multianalizador. Extrae energía directamente del motor gravitacional.</VGE_CompactMultiAnalyzer.description>
+  <!-- EN: gravship scanner cluster -->
+  <VGE_GravshipScannerCluster.label>clúster de escáneres de gravinave</VGE_GravshipScannerCluster.label>
+  <!-- EN: An advanced multi-frequency sensor cluster used by researchers to detect resources underground, across the planet, or in orbit. The scanner can be tuned to target specific minerals underground, or over long range, or set to scan for orbital objects. Detection rates depend on the operator&apos;s research ability. Buried resources will require deep drills to extract, while distant mineral deposits and orbital objects must be visited to be collected. Building multiple units does not increase the frequency of orbital detections. It draws power directly from the grav engine. -->
+  <VGE_GravshipScannerCluster.description>Un avanzado clúster de sensores multifrecuencia utilizado por investigadores para detectar recursos subterráneos, en todo el planeta o en órbita. El escáner puede ajustarse para apuntar a minerales específicos bajo tierra, a larga distancia, o configurarse para escanear objetos orbitales. Las tasas de detección dependen de la habilidad de investigación del operador. Los recursos enterrados requerirán taladros profundos para extraerlos, mientras que los depósitos minerales distantes y los objetos orbitales deben visitarse para recogerlos. Construir múltiples unidades no aumenta la frecuencia de las detecciones orbitales. Extrae energía directamente del motor gravitacional.</VGE_GravshipScannerCluster.description>
+  <!-- EN: gravship structural beam -->
+  <VGE_GravshipStructuralBeam.label>viga estructural de gravinave</VGE_GravshipStructuralBeam.label>
+  <!-- EN: A structural beam around which a gravship can be constructed. It extends the area in which substructure can be built in a 5x5 square. If destroyed, it causes adjacent beams to collapse. -->
+  <VGE_GravshipStructuralBeam.description>Una viga estructural alrededor de la cual se puede construir una gravinave. Extiende el área en la que se puede construir subestructura en un cuadrado de 5x5. Si es destruida, provoca que las vigas adyacentes colapsen.</VGE_GravshipStructuralBeam.description>
+  <!-- EN: gunner subpersona core -->
+  <VGE_GunnerSubpersonaCore.label>núcleo sub-IA de artillero</VGE_GunnerSubpersonaCore.label>
+  <!-- EN: A low-grade subpersona specialized in gravship combat. It can link with a single gravship artillery piece and control it the same way a crewmember manning a targeting terminal can. It&apos;s combat capabilities are beyond that of even the best human gunner. A gravship can support up to two gunner subpersona cores. -->
+  <VGE_GunnerSubpersonaCore.description>Una sub-IA de bajo grado especializada en el combate de gravinaves. Puede vincularse con una sola pieza de artillería de gravinave y controlarla de la misma manera que un miembro de la tripulación que opera una terminal de puntería. Sus capacidades de combate superan incluso las del mejor artillero humano. Una gravinave puede soportar hasta dos núcleos de sub-IA artillera.</VGE_GunnerSubpersonaCore.description>
+  <!-- EN: maintenance hub -->
+  <VGE_MaintenanceHub.label>centro de mantenimiento</VGE_MaintenanceHub.label>
+  <!-- EN: A centralized system that optimizes and automates routine upkeep across the gravship. It passively reduces the maintenance decay rate of all connected machinery. Requires power to work. -->
+  <VGE_MaintenanceHub.description>Un sistema centralizado que optimiza y automatiza el mantenimiento rutinario en toda la gravinave. Reduce pasivamente la tasa de deterioro del mantenimiento de toda la maquinaria conectada. Requiere energía para funcionar.</VGE_MaintenanceHub.description>
+  <!-- EN: capacitor harmonizer -->
+  <VGE_CapacitorHarmonizer.label>armonizador de condensadores</VGE_CapacitorHarmonizer.label>
+  <!-- EN: A specialized device that balances and synchronizes energy flow between nearby capacitors. It passively boosts their charge and discharge efficiency to peak performance. Requires power to operate. -->
+  <VGE_CapacitorHarmonizer.description>Un dispositivo especializado que equilibra y sincroniza el flujo de energía entre condensadores cercanos. Aumenta pasivamente su eficiencia de carga y descarga hasta el máximo rendimiento. Requiere energía para funcionar.</VGE_CapacitorHarmonizer.description>
+  <!-- EN: gravlift -->
+  <VGE_Gravlift.label>gravielevador</VGE_Gravlift.label>
+  <!-- EN: A complex vertical launch and stabilization platform integrated into the gravship’s core structure. The gravlift provides the immense thrust required for vertical takeoff from planetary surfaces and stabilizes orbital insertion, allowing the gravship to remain suspended in space. It also softens the crash landing greatly, reducing the damage taken and ensuring substructure does not suffer critical damage. -->
+  <VGE_Gravlift.description>Una compleja plataforma de lanzamiento vertical y estabilización integrada en la estructura central de la gravinave. El gravielevador proporciona el inmenso empuje necesario para el despegue vertical desde superficies planetarias y estabiliza la inserción orbital, permitiendo que la gravinave permanezca suspendida en el espacio. También suaviza enormemente el aterrizaje forzoso, reduciendo el daño recibido y asegurando que la subestructura no sufra daños críticos.</VGE_Gravlift.description>
+  <!-- EN: An ultrasonic barrier that prevents depressurization in space. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it. A vac barrier will do nothing to prevent intruders.\n\nMust be powered to prevent depressurization. -->
+  <VGE_VacBarrierDouble.description>Una barrera ultrasónica que previene la despresurización en el espacio. El campo comprime las moléculas de aire cerca del umbral, evitando que los gases escapen mientras permite que las personas viajen libremente a través de ella. Una barrera de vacío no hará nada para prevenir intrusos.\n\nDebe estar alimentada para prevenir la despresurización.</VGE_VacBarrierDouble.description>
+  <!-- EN: vac barrier (2x1) -->
+  <VGE_VacBarrierDouble.label>barrera de vacío (2x1)</VGE_VacBarrierDouble.label>
+  <!-- EN: An ultrasonic barrier that prevents depressurization in space. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it. A vac barrier will do nothing to prevent intruders.\n\nMust be powered to prevent depressurization. -->
+  <VGE_VacBarrierTriple.description>Una barrera ultrasónica que previene la despresurización en el espacio. El campo comprime las moléculas de aire cerca del umbral, evitando que los gases escapen mientras permite que las personas viajen libremente a través de ella. Una barrera de vacío no hará nada para prevenir intrusos.\n\nDebe estar alimentada para evitar la despresurización.</VGE_VacBarrierTriple.description>
+  <!-- EN: vac barrier (3x1) -->
+  <VGE_VacBarrierTriple.label>barrera de vacío (3x1)</VGE_VacBarrierTriple.label>
+  <!-- EN: An ultrasonic barrier that prevents depressurization in space. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it. A vac barrier will do nothing to prevent intruders.\n\nMust be powered to prevent depressurization. -->
+  <VGE_VacBarrierQuintuple.description>Una barrera ultrasónica que previene la despresurización en el espacio. El campo comprime las moléculas de aire cerca del umbral, evitando que los gases escapen mientras permite que las personas viajen libremente a través de ella. Una barrera de vacío no hará nada para prevenir intrusos.\n\nDebe estar alimentada para evitar la despresurización.</VGE_VacBarrierQuintuple.description>
+  <!-- EN: vac barrier (5x1) -->
+  <VGE_VacBarrierQuintuple.label>barrera de vacío (5x1)</VGE_VacBarrierQuintuple.label>
+  <!-- EN: vac checkpoint -->
+  <VGE_VacCheckpoint.label>punto de control de vacío</VGE_VacCheckpoint.label>
+  <!-- EN: A safety checkpoint indicating the entrance to vacuum environment. Colonists will not cross it without required vacuum resistance. -->
+  <VGE_VacCheckpoint.description>Un punto de control de seguridad que indica la entrada a un entorno de vacío. Los colonos no lo cruzarán sin la resistencia al vacío requerida.</VGE_VacCheckpoint.description>
+  <!-- EN: oxygen canister -->
+  <VGE_OxygenCanister.label>bote de oxígeno</VGE_OxygenCanister.label>
+  <!-- EN: A life-sustaining gas. Used to pressurize rooms, supply breathable air, or fuel specialized equipment and survival gear. Volatile when damaged. -->
+  <VGE_OxygenCanister.description>Un gas vital. Se utiliza para presurizar habitaciones, suministrar aire respirable o alimentar equipos especializados y equipo de supervivencia. Volátil cuando se daña.</VGE_OxygenCanister.description>
+  <!-- EN: astrofuel -->
+  <VGE_Astrofuel.label>astrobustible</VGE_Astrofuel.label>
+  <!-- EN: A high-energy synthetic fuel. Used to power gravship thrusters and boosters, or to generate electricity in specialized systems. Extremely combustible, it burns violently even in low-oxygen environments. -->
+  <VGE_Astrofuel.description>Un combustible sintético de alta energía. Se utiliza para alimentar los propulsores y potenciadores de la gravinave, o para generar electricidad en sistemas especializados. Extremadamente combustible, arde violentamente incluso en entornos con poco oxígeno.</VGE_Astrofuel.description>
+  <!-- EN: oxyalgae -->
+  <VGE_Oxyalgae.label>oxialga</VGE_Oxyalgae.label>
+  <!-- EN: A dense mat of harvested aquatic algae, cultivated for use in life support systems. Oxyalgae provides steady oxygen generation but spoils quickly if not processed. -->
+  <VGE_Oxyalgae.description>Una densa capa de algas acuáticas cosechadas, cultivadas para su uso en sistemas de soporte vital. La oxialga proporciona una generación constante de oxígeno, pero se echa a perder rápidamente si no se procesa.</VGE_Oxyalgae.description>
+  <!-- EN: oxygen pack -->
+  <VGE_Apparel_OxygenPack.label>mochila de oxígeno</VGE_Apparel_OxygenPack.label>
+  <!-- EN: A utility pack containing a large supply of compressed oxygen. When worn with vacuum-sealed apparel, it provides full immunity to vacuum by supplying breathable air. The pack only consumes oxygen while in vacuum and must be periodically reloaded. It also dramatically reduces exposure to pollution through the lungs. -->
+  <VGE_Apparel_OxygenPack.description>Una mochila de utilidad que contiene un gran suministro de oxígeno comprimido. Cuando se usa con prendas selladas al vacío, proporciona inmunidad total al vacío al suministrar aire respirable. La mochila solo consume oxígeno mientras está en el vacío y debe recargarse periódicamente. También reduce drásticamente la exposición a la contaminación a través de los pulmones.</VGE_Apparel_OxygenPack.description>
+  <!-- EN: oxygen u³ -->
+  <VGE_Apparel_OxygenPack.comps.2.chargeNoun>oxígeno u³</VGE_Apparel_OxygenPack.comps.2.chargeNoun>
+  <!-- EN: astrofuel puddle -->
+  <VGE_Filth_Astrofuel.label>charco de astrobustible</VGE_Filth_Astrofuel.label>
+  <!-- EN: A puddle of flammable astrofuel. -->
+  <VGE_Filth_Astrofuel.description>Un charco de astrobustible inflamable.</VGE_Filth_Astrofuel.description>
+  <!-- EN: damaged substructure debris -->
+  <VGE_Filth_DamagedSubstructure.label>restos de subestructura dañada</VGE_Filth_DamagedSubstructure.label>
+  <!-- EN: Debris from damaged gravship substructure. -->
+  <VGE_Filth_DamagedSubstructure.description>Restos de una subestructura de gravinave dañada.</VGE_Filth_DamagedSubstructure.description>
+  <!-- EN: Mote -->
+  <VGE_GaussSmoke.label>TODO</VGE_GaussSmoke.label>
+  <!-- EN: small debris -->
+  <VGE_SmallDebris.label>restos pequeños</VGE_SmallDebris.label>
+  <!-- EN: medium debris -->
+  <VGE_MediumDebris.label>restos medianos</VGE_MediumDebris.label>
+  <!-- EN: large debris -->
+  <VGE_LargeDebris.label>restos grandes</VGE_LargeDebris.label>
+  <!-- EN: small asteroid -->
+  <VGE_SmallAsteroid_Projectile.label>asteroide pequeño</VGE_SmallAsteroid_Projectile.label>
+  <!-- EN: medium asteroid -->
+  <VGE_MediumAsteroid.label>asteroide mediano</VGE_MediumAsteroid.label>
+  <!-- EN: large asteroid -->
+  <VGE_LargeAsteroid.label>asteroide grande</VGE_LargeAsteroid.label>
+  <!-- EN: astrofire -->
+  <VGE_Astrofire.label>astrofuego</VGE_Astrofire.label>
+  <!-- EN: astrofire spark -->
+  <VGE_AstrofireSpark.label>chispa de astrofuego</VGE_AstrofireSpark.label>
+  <!-- EN: landing structure -->
+  <VGE_LandingStructure.label>estructura de aterrizaje</VGE_LandingStructure.label>
+  <!-- EN: oxyalgae plant -->
+  <VGE_OxyalgaePlant.label>planta de oxialga</VGE_OxyalgaePlant.label>
+  <!-- EN: A fast-growing aquatic plant cultivated in hydroponics and used to generate oxygen when converted in algae oxygenator. Rots quickly when harvested, making immediate processing essential. -->
+  <VGE_OxyalgaePlant.description>Una planta acuática de rápido crecimiento cultivada en hidroponía y utilizada para generar oxígeno cuando se procesa en un oxigenador de algas. Se pudre rápidamente al ser cosechada, por lo que su procesamiento inmediato es esencial.</VGE_OxyalgaePlant.description>
+  <!-- EN: astropede -->
+  <VGE_Astropede.label>astrópodo</VGE_Astropede.label>
+  <!-- EN: Heavily armored mechanoids adapted for zero-G warfare. Astropedes drift silently through space using gravitic stabilizers, unleashing explosive kinetic barrages from their minified mass lances. Their hovering profile makes them ideal for shipboard assaults and station breaches, though their slow movement speed leaves them vulnerable to concentrated fire. -->
+  <VGE_Astropede.description>Mecanoides fuertemente blindados adaptados para el combate en gravedad cero. Los astrópodos se desplazan silenciosamente por el espacio usando estabilizadores gravíticos, desatando ráfagas cinéticas explosivas con sus lanzas de masa miniaturizadas. Su perfil flotante los hace ideales para asaltos a naves y brechas en estaciones, aunque su baja velocidad de movimiento los hace vulnerables al fuego concentrado.</VGE_Astropede.description>
+  <!-- EN: head -->
+  <VGE_Astropede.tools.0.label>cabeza</VGE_Astropede.tools.0.label>
+  <!-- EN: hunter -->
+  <VGE_Hunter.label>cazador</VGE_Hunter.label>
+  <!-- EN: A fast, human-sized combat mechanoid designed for zero-gravity warfare. It drifts effortlessly through space, closing in on the target before unleashing devastating salvos from the twin-linked javelin launcher. While the missiles strike with lethal precision, their short range forces hunters into dangerous proximity with the enemy. -->
+  <VGE_Hunter.description>Un mecanoide de combate rápido, de tamaño humano, diseñado para la guerra en gravedad cero. Se desplaza sin esfuerzo por el espacio, acercándose al objetivo antes de desatar salvas devastadoras desde su lanzadera javelin doble. Aunque los misiles impactan con precisión letal, su corto alcance obliga a los cazadores a una proximidad peligrosa con el enemigo.</VGE_Hunter.description>
+  <!-- EN: head -->
+  <VGE_Hunter.tools.0.label>cabeza</VGE_Hunter.tools.0.label>
+  <!-- EN: mass lance -->
+  <VGE_MassLance.label>lanza de masa</VGE_MassLance.label>
+  <!-- EN: A mechanoid-mounted portable mass driver artillery. It fires dense slugs at incredible velocities, capable of destroying even heavily armored gravships. -->
+  <VGE_MassLance.description>Una artillería de impulsor de masa portátil montada en mecanoide. Dispara proyectiles densos a velocidades increíbles, capaces de destruir incluso gravinaves fuertemente blindadas.</VGE_MassLance.description>
+  <!-- EN: mass lance -->
+  <VGE_MassLance.verbs.Verb_Shoot.label>lanza de masa</VGE_MassLance.verbs.Verb_Shoot.label>
+  <!-- EN: barrel -->
+  <VGE_MassLance.tools.0.label>cañón</VGE_MassLance.tools.0.label>
+  <!-- EN: rocketswarm pod -->
+  <VGE_RocketswarmPod.label>lanzadera de enjambre de cohetes</VGE_RocketswarmPod.label>
+  <!-- EN: A mechanoid-mounted, minified, twin-linked rocketswarm launcher. It is very effective against large groups of weaker combatants, but less effective against small numbers of armored targets. -->
+  <VGE_RocketswarmPod.description>Un lanzador de enjambre de cohetes de doble enlace, miniaturizado y montado en mecanoide. Es muy eficaz contra grandes grupos de combatientes débiles, pero menos eficaz contra un número reducido de objetivos blindados.</VGE_RocketswarmPod.description>
+  <!-- EN: rocketswarm pod -->
+  <VGE_RocketswarmPod.verbs.Verb_Shoot.label>lanzadera de enjambre de cohetes</VGE_RocketswarmPod.verbs.Verb_Shoot.label>
+  <!-- EN: barrel -->
+  <VGE_RocketswarmPod.tools.0.label>cañón</VGE_RocketswarmPod.tools.0.label>
+  <!-- EN: operator subpersona core -->
+  <VGE_OperatorSubpersonaCore.label>subnúcleo de operador</VGE_OperatorSubpersonaCore.label>
+  <!-- EN: A high-grade subcore specialized in gravship combat. It can link with a single gravship artillery piece and control it the same way a crewmember manning a targeting terminal can. It’s combat capabilities are subpar, but it allows for autonomous artillery batteries without the need for human operators. -->
+  <VGE_OperatorSubpersonaCore.description>Un subnúcleo avanzado especializado en el combate de gravinaves. Puede vincularse con una sola pieza de artillería de gravinave y controlarla de la misma manera que un miembro de la tripulación que opera una terminal de puntería. Sus capacidades de combate son mediocres, pero permite baterías de artillería autónomas sin necesidad de operadores humanos.</VGE_OperatorSubpersonaCore.description>
+  <!-- EN: compact mech recharger -->
+  <VGE_GravshipBasicRecharger.label>cargador de mecas compacto</VGE_GravshipBasicRecharger.label>
+  <!-- EN: A miniaturized version of the mech recharger, designed to fit within the confined spaces of a gravship. Lightweight mechanoids can recharge here. During recharge, this recharger produces toxic wastepacks and stores them internally. Haulers must remove the wastepacks from time to time. It draws most of the power directly from the grav engine. -->
+  <VGE_GravshipBasicRecharger.description>Una versión miniaturizada del cargador de mecas, diseñada para caber en los espacios reducidos de una gravinave. Los mecanoides ligeros pueden recargarse aquí. Durante la recarga, este recargador produce paquetes de residuos tóxicos y los almacena internamente. Los transportadores deben retirar los paquetes de residuos de vez en cuando. Extrae la mayor parte de la energía directamente del motor gravitacional.</VGE_GravshipBasicRecharger.description>
+  <!-- EN: compact large mech recharger -->
+  <VGE_GravshipStandardRecharger.label>gran cargador de mecas compacto</VGE_GravshipStandardRecharger.label>
+  <!-- EN: A miniaturized version of the large mech recharger, designed to fit within the confined spaces of a gravship. Medium, heavy, and ultraheavy mechanoids can recharge here. During recharge, this recharger produces toxic wastepacks and stores them internally. Haulers must remove the wastepacks from time to time. It draws most of the power directly from the grav engine. -->
+  <VGE_GravshipStandardRecharger.description>Una versión miniaturizada del gran cargador de mecas, diseñada para caber en los espacios reducidos de una gravinave. Los mecanoides medianos, pesados y ultragrandes pueden recargarse aquí. Durante la recarga, este recargador produce paquetes de residuos tóxicos y los almacena internamente. Los transportadores deben retirar los paquetes de residuos de vez en cuando. Extrae la mayor parte de la energía directamente del motor gravitacional.</VGE_GravshipStandardRecharger.description>
+  <!-- EN: compact gene bank -->
+  <VGE_CompactGeneBank.label>banco genético compacto</VGE_CompactGeneBank.label>
+  <!-- EN: A miniaturized version of the gene bank, designed to fit within the confined spaces of a gravship. It stores genepacks and makes them usable for creating new xenogerms when placed near a gene assembler. It draws power directly from the grav engine and prevents genepacks from deteriorating while slowly repairing deterioration. -->
+  <VGE_CompactGeneBank.description>Una versión miniaturizada del banco genético, diseñada para caber en los espacios reducidos de una gravinave. Almacena paquetes genéticos y los hace utilizables para crear nuevos xenogérmenes cuando se coloca cerca de un ensamblador genético. Extrae energía directamente del motor gravitacional y evita que los paquetes genéticos se deterioren mientras repara lentamente el deterioro.</VGE_CompactGeneBank.description>
+  <!-- EN: astronaut -->
+  <VGE_Astronaut.label>astronauta</VGE_Astronaut.label>
+  <!-- EN: A medium sized mechanoid designed to perform construction and firefighting tasks in orbit. It can perform blunt melee attacks if necessary. It is not affected by the slow space traversing speeds. -->
+  <VGE_Astronaut.description>Un mecanoide de tamaño mediano diseñado para realizar tareas de construcción y extinción de incendios en órbita. Puede realizar ataques cuerpo a cuerpo contundentes si es necesario. No se ve afectado por las velocidades lentas de desplazamiento espacial.</VGE_Astronaut.description>
+  <!-- EN: torso -->
+  <VGE_Astronaut.tools.0.label>torso</VGE_Astronaut.tools.0.label>
+  <!-- EN: prestige vacsuit -->
+  <VGE_Apparel_Vacsuit_Prestige.label>traje de vacío prestigioso</VGE_Apparel_Vacsuit_Prestige.label>
+  <!-- EN: A protective suit that keeps the user safe in the vacuum of space. The suit restricts the wearer&apos;s movement, considerably reducing their movement speed.\n\nExpensive and beautiful, prestige vacsuits like this is usually made for those of high status in the royal navy. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+  <VGE_Apparel_Vacsuit_Prestige.description>Un traje protector que mantiene al usuario a salvo en el vacío del espacio. El traje restringe el movimiento del portador, reduciendo considerablemente su velocidad de movimiento.\n\nCostosos y hermosos, los trajes de vacío de prestigio como este suelen fabricarse para aquellos de alto estatus en la armada real. Los hilos de eltex integrados también mejoran la sensibilidad psíquica del portador.</VGE_Apparel_Vacsuit_Prestige.description>
+  <!-- EN: prestige vacsuit helmet -->
+  <VGE_Apparel_VacsuitHelmet_Prestige.label>casco de traje de vacío prestigioso</VGE_Apparel_VacsuitHelmet_Prestige.label>
+  <!-- EN: A helmet that efficiently recycles the user&apos;s oxygen, allowing them to breathe in the vacuum of space for hours at a time. The process isn&apos;t perfectly efficient, so the user must periodically return to a pressurized environment.\n\nExpensive and beautiful, prestige vacsuit helmet like this is usually made for those of high status in the royal navy. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+  <VGE_Apparel_VacsuitHelmet_Prestige.description>Un casco que recicla eficientemente el oxígeno del usuario, permitiéndole respirar en el vacío del espacio durante horas seguidas. El proceso no es perfectamente eficiente, por lo que el usuario debe regresar periódicamente a un entorno presurizado.\n\nCostosos y hermosos, los cascos de traje de vacío de prestigio como este suelen fabricarse para aquellos de alto estatus en la armada real. Los hilos de eltex integrados también mejoran la sensibilidad psíquica del portador.</VGE_Apparel_VacsuitHelmet_Prestige.description>
+  <!-- EN: Mote -->
+  <VGE_EngineeringCommand_Mote.label>TODO</VGE_EngineeringCommand_Mote.label>
+  <!-- EN: Mote -->
+  <VGE_EngineeringCommand_LinkLine.label>TODO</VGE_EngineeringCommand_LinkLine.label>
+  <!-- EN: compact biosculpter pod -->
+  <VGE_CompactBiosculpterPod.label>cápsula biosculptora compacta</VGE_CompactBiosculpterPod.label>
+  <!-- EN: A miniaturized version of the biosculpter pod, designed to fit within the confined spaces of a gravship. It performs a variety of biological alterations including age reversal and pleasure-giving. The pod biotunes to its user at the end of a cycle. While biotuned, it cannot be used by anyone else, but cycles will complete 25% more quickly. Biotuning resets if the pod is unused for 80 days. It draws power directly from the grav engine. -->
+  <VGE_CompactBiosculpterPod.description>Una versión miniaturizada de la cápsula biosculptora, diseñada para caber en los espacios reducidos de una gravinave. Realiza una variedad de alteraciones biológicas, incluyendo la reversión de la edad y la generación de placer. La cápsula se biosintoniza con su usuario al final de un ciclo. Mientras está biosintonizada, no puede ser usada por nadie más, pero los ciclos se completarán un 25% más rápido. La biosintonización se reinicia si la cápsula no se usa durante 80 días. Extrae energía directamente del motor gravitacional.</VGE_CompactBiosculpterPod.description>
+</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Quests Expanded - Drone Factory</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VQE_UnfinishedDroneSpawner_AutobroadcasterDrone"]/label</xpath>
+          <value>
+            <!-- EN: deployed broadcaster drone -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
+          <value>
+            <!-- EN: broadcaster drone -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
+          <value>
+            <!-- EN: broadcaster drone -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VQE_AssembleAutobroadcasterDrone"]/label</xpath>
+          <value>
+            <!-- EN: assemble broadcaster drone -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

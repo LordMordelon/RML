@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [GrowingTopic]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [GrowingTopic] with [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [GrowingTopic] to [RECIPIENT_nameDef]. -->
+  <!-- EN: talkedabout(p=4)-&gt;chatted about -->
+  <!-- EN: talkedabout-&gt;shared a word about -->
+  <!-- EN: talkedabout-&gt;spoke about -->
+  <!-- EN: talkedabout-&gt;gabbed about -->
+  <!-- EN: talkedabout-&gt;talked about -->
+  <!-- EN: talkedabout-&gt;joked about -->
+  <!-- EN: talkedabout-&gt;quipped about -->
+  <!-- EN: commentedabout-&gt;said something about -->
+  <!-- EN: commentedabout-&gt;said a word about -->
+  <!-- EN: commentedabout-&gt;made a comment about -->
+  <!-- EN: commentedabout-&gt;commented about -->
+  <!-- EN: commentedabout-&gt;told a joke about -->
+  <VSIE_Teaching_Plants.rulePack.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedaboutPlural] [GrowingTopic].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedaboutSingular] [GrowingTopic] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [GrowingTopic] a [RECIPIENT_nameDef].</li>
+    <li>talkedaboutPlural(p=4)-&gt;charlaron sobre</li>
+    <li>talkedaboutPlural-&gt;compartieron unas palabras sobre</li>
+    <li>talkedaboutPlural-&gt;hablaron sobre</li>
+    <li>talkedaboutPlural-&gt;parlotearon sobre</li>
+    <li>talkedaboutPlural-&gt;conversaron sobre</li>
+    <li>talkedaboutPlural-&gt;bromearon sobre</li>
+    <li>talkedaboutPlural-&gt;hicieron chistes sobre</li>
+    <li>talkedaboutSingular(p=4)-&gt;charló sobre</li>
+    <li>talkedaboutSingular-&gt;compartió unas palabras sobre</li>
+    <li>talkedaboutSingular-&gt;habló sobre</li>
+    <li>talkedaboutSingular-&gt;parloteó sobre</li>
+    <li>talkedaboutSingular-&gt;conversó sobre</li>
+  </VSIE_Teaching_Plants.rulePack.rulesStrings>
+</LanguageData>

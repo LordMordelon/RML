@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: bugblood -->
+  <VRE_BugBlood.label>sangre de insecto</VRE_BugBlood.label>
+  <!-- EN: Carriers of this gene have greenish blood color, just like insects. -->
+  <VRE_BugBlood.description>Los portadores de este gen tienen la sangre de color verdoso, igual que los insectos.</VRE_BugBlood.description>
+  <!-- EN: bugbleeder -->
+  <VRE_BugBlood.symbolPack.wholeNameSymbols.0.symbol>sangreinsecto</VRE_BugBlood.symbolPack.wholeNameSymbols.0.symbol>
+  <!-- EN: insectskin -->
+  <VRE_InsectSkin.label>piel de insecto</VRE_InsectSkin.label>
+  <!-- EN: insectskinned -->
+  <VRE_InsectSkin.labelShortAdj>piel de insecto</VRE_InsectSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene have a slightly thicker carapace as their skin. Chitin plating is capable of deflecting sharp attacks, but is quite brittle and not as defensive against blunt trauma. -->
+  <VRE_InsectSkin.description>Los portadores de este gen tienen un caparazón ligeramente más grueso como piel. El revestimiento de quitina es capaz de desviar ataques cortantes, pero es bastante quebradizo y no tan defensivo contra traumatismos contundentes.</VRE_InsectSkin.description>
+  <!-- EN: insect antennae -->
+  <VRE_InsectAntennae.label>antenas de insecto</VRE_InsectAntennae.label>
+  <!-- EN: Carriers of this gene grow small antennae at the top of their head. These antennae do not serve any known function, and can be safely assumed to be cosmetic-only. -->
+  <VRE_InsectAntennae.description>A los portadores de este gen les crecen pequeñas antenas en la parte superior de la cabeza. Estas antenas no cumplen ninguna función conocida y se puede asumir con seguridad que son solo cosméticas.</VRE_InsectAntennae.description>
+  <!-- EN: geneline evolution -->
+  <VRE_GenelineEvolution.label>evolución de línea genética</VRE_GenelineEvolution.label>
+  <!-- EN: Carriers of this gene are capable of adapting their geneline at will. They may form different castes and obtain numerous new, geneline-exclusive evolutions and degrades. -->
+  <VRE_GenelineEvolution.description>Los portadores de este gen son capaces de adaptar su línea genética a voluntad. Pueden formar diferentes castas y obtener numerosas evoluciones y degradaciones nuevas y exclusivas de la línea genética.</VRE_GenelineEvolution.description>
+  <!-- EN: insect flesh -->
+  <VRE_InsectFlesh.label>carne de insecto</VRE_InsectFlesh.label>
+  <!-- EN: Carriers of this gene have insect tissue for flesh. Consuming insect meat by them is classed as cannibalism. When butchered, they will yield insect meat instead of human meat.\n\nIf VFE - Insectoids 2 is present, this gene will negate the movement penalty on Creep. -->
+  <VRE_InsectFlesh.description>Los portadores de este gen tienen tejido de insecto como carne. El consumo de carne de insecto por su parte se clasifica como canibalismo. Al ser descuartizados, producirán carne de insecto en lugar de carne humana.\n\nSi VFE - Insectoids 2 está presente, este gen anulará la penalización de movimiento en el bioma de la colmena (Creep).</VRE_InsectFlesh.description>
+  <!-- EN: insect pheromones -->
+  <VRE_InsectPheromones.label>feromonas de insecto</VRE_InsectPheromones.label>
+  <!-- EN: Carriers of this gene emit special pheromones, allowing them to co-exist with wild insectoids. They will not be attacked by insectoids unless they are provoked. -->
+  <VRE_InsectPheromones.description>Los portadores de este gen emiten feromonas especiales, lo que les permite coexistir con insectoides salvajes. No serán atacados por insectoides a menos que sean provocados.</VRE_InsectPheromones.description>
+  <!-- EN: Consider that this gene doesn&apos;t make its carrier immune from insectoid attacks. An insectoid gone manhunter will still be aggressive! -->
+  <VRE_InsectPheromones.customEffectDescriptions.0>TODO</VRE_InsectPheromones.customEffectDescriptions.0>
+  <!-- EN: insect jelly dependency -->
+  <VRE_InsectJellyDependency.label>dependencia de jalea de insecto</VRE_InsectJellyDependency.label>
+  <!-- EN: Carriers of this gene need to ingest insect jelly on a regular basis to survive. After 5 days without insect jelly, carriers will suffer from insect jelly deficiency. After 30 days, they will fall into a coma. After 60 days, they will die. -->
+  <VRE_InsectJellyDependency.description>Los portadores de este gen necesitan ingerir jalea de insecto de forma regular para sobrevivir. Tras 5 días sin jalea de insecto, los portadores sufrirán deficiencia de jalea de insecto. Tras 30 días, caerán en coma. Tras 60 días, morirán.</VRE_InsectJellyDependency.description>
+  <!-- EN: insect jelly -->
+  <VRE_InsectJellyDependency.resourceLabel>jalea de insecto</VRE_InsectJellyDependency.resourceLabel>
+  <!-- EN: A need by {PAWN_nameDef} to consume insect jelly -->
+  <VRE_InsectJellyDependency.resourceDescription>Una necesidad de {PAWN_nameDef} de consumir jalea de insecto</VRE_InsectJellyDependency.resourceDescription>
+  <!-- EN: Gives immunity to food poisoning chance from directly consuming insect jelly. -->
+  <VRE_InsectJellyDependency.customEffectDescriptions.0>Otorga inmunidad a la probabilidad de intoxicación alimentaria por consumir directamente jalea de insecto.</VRE_InsectJellyDependency.customEffectDescriptions.0>
+  <!-- EN: chestburst pregnancy -->
+  <VRE_ChestburstPregnancy.label>embarazo revientapechos</VRE_ChestburstPregnancy.label>
+  <!-- EN: Carriers of this gene do not carry their own fetus. Instead, fetus needs to be implanted in another willing or unwilling individual or animal. Once the fetus matures, it will burst out of the ribcage of the victim, killing the host. -->
+  <VRE_ChestburstPregnancy.description>Los portadores de este gen no llevan su propio feto. En su lugar, el feto necesita ser implantado en otro individuo o animal dispuesto o no dispuesto. Una vez que el feto madura, estallará de la caja torácica de la víctima, matando al huésped.</VRE_ChestburstPregnancy.description>
+  <!-- EN: Colonist needs to get pregnant in a conventional way before being able to proceed with the chestburst pregnancy. -->
+  <VRE_ChestburstPregnancy.customEffectDescriptions.0>El colono necesita quedar embarazado de manera convencional antes de poder proceder con el embarazo revientapechos.</VRE_ChestburstPregnancy.customEffectDescriptions.0>
+  <!-- EN: vat-grown insectoid skin -->
+  <VRE_VatGrownInsectoidSkin.label>piel de insectoide cultivado en tanque</VRE_VatGrownInsectoidSkin.label>
+  <!-- EN: insect -->
+  <VRE_VatGrownInsectoidSkin.labelShortAdj>insecto</VRE_VatGrownInsectoidSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene produce a pigment similar to that of vat-grown insectoids. -->
+  <VRE_VatGrownInsectoidSkin.description>Los portadores de este gen producen un pigmento similar al de los insectoides cultivados en tanque.</VRE_VatGrownInsectoidSkin.description>
+  <!-- EN: megaspider insectoid skin -->
+  <VRE_MegaspiderInsectoidSkin.label>piel de insectoide megaraña</VRE_MegaspiderInsectoidSkin.label>
+  <!-- EN: insect -->
+  <VRE_MegaspiderInsectoidSkin.labelShortAdj>insecto</VRE_MegaspiderInsectoidSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene produce a pigment similar to that of megaspiders. -->
+  <VRE_MegaspiderInsectoidSkin.description>Los portadores de este gen producen un pigmento similar al de las megarañas.</VRE_MegaspiderInsectoidSkin.description>
+  <!-- EN: megascarab insectoid skin -->
+  <VRE_MegascarabInsectoidSkin.label>piel de insectoide megascarabajo</VRE_MegascarabInsectoidSkin.label>
+  <!-- EN: insect -->
+  <VRE_MegascarabInsectoidSkin.labelShortAdj>insecto</VRE_MegascarabInsectoidSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene produce a pigment similar to that of megascarabs. -->
+  <VRE_MegascarabInsectoidSkin.description>Los portadores de este gen producen un pigmento similar al de los megascarabajos.</VRE_MegascarabInsectoidSkin.description>
+  <!-- EN: spelopede insectoid skin -->
+  <VRE_SpelopedeInsectoidSkin.label>piel de insectoide espelópedo</VRE_SpelopedeInsectoidSkin.label>
+  <!-- EN: insect -->
+  <VRE_SpelopedeInsectoidSkin.labelShortAdj>insecto</VRE_SpelopedeInsectoidSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene produce a pigment similar to that of spelopedes. -->
+  <VRE_SpelopedeInsectoidSkin.description>Los portadores de este gen producen un pigmento similar al de los espelópedos.</VRE_SpelopedeInsectoidSkin.description>
+</LanguageData>

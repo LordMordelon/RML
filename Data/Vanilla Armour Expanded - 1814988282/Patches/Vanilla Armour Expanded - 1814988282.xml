@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]/label</xpath>
+          <value>
+            <!-- EN: Military Clothing -->
+            <label>ropa militar</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]/description</xpath>
+          <value>
+            <!-- EN: Craft bulletproof and weatherproof outfits to protect your soldiers. -->
+            <description>Fabricar atuendos a prueba de balas y resistentes a la intemperie para proteger a tus soldados.</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry(p=3)-&gt;[INITIATOR_nameDef] [insulted] [target]&apos;s [PersonalCharacteristic]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] compared [target] to a [insultcomparison]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] called [target] a [insultcomparison]. -->
+  <!-- EN: target(p=4)-&gt;[RECIPIENT_nameDef] -->
+  <!-- EN: target-&gt;[RECIPIENT_nameDef]&apos;s [PersonFamily] -->
+  <!-- EN: insulted(p=3)-&gt;insulted -->
+  <!-- EN: insulted-&gt;openly insulted -->
+  <!-- EN: insulted-&gt;loudly insulted -->
+  <!-- EN: insulted-&gt;flagrantly insulted -->
+  <!-- EN: insulted-&gt;directly insulted -->
+  <!-- EN: insulted-&gt;viciously insulted -->
+  <!-- EN: insulted-&gt;flagrantly disrespected -->
+  <!-- EN: insulted-&gt;slandered -->
+  <!-- EN: insulted-&gt;hurled invective about -->
+  <!-- EN: insulted-&gt;derided -->
+  <!-- EN: insultcomparison(p=2)-&gt;[Animal] -->
+  <!-- EN: insultcomparison-&gt;[Enemy] -->
+  <VSIE_Discord.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] [insulted] la [PersonalCharacteristic] de [target].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] comparó a [target] con un [insultcomparison].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] llamó [insultcomparison] a [target].</li>
+    <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+    <li>target-&gt;[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>insulted(p=3)-&gt;insultó</li>
+    <li>insulted-&gt;insultó abiertamente</li>
+    <li>insulted-&gt;insultó en voz alta</li>
+    <li>insulted-&gt;insultó flagrantemente</li>
+    <li>insulted-&gt;insultó directamente</li>
+    <li>insulted-&gt;insultó viciosamente</li>
+    <li>insulted-&gt;faltó al respeto flagrantemente a</li>
+    <li>insulted-&gt;calumnió</li>
+    <li>insulted-&gt;lanzó invectivas sobre</li>
+    <li>insulted-&gt;ridiculizó</li>
+    <li>insultcomparison(p=2)-&gt;[Animal]</li>
+    <li>insultcomparison-&gt;[Enemy]</li>
+  </VSIE_Discord.logRulesInitiator.rulesStrings>
+</LanguageData>

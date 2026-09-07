@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="ElectricSmelter"]/description</xpath>
+    <value>
+      <!-- EN: Extracts usable metal from slag chunks and other mixed metal items, as well as refines stone chunks into glass. Consumes a lot of power. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>

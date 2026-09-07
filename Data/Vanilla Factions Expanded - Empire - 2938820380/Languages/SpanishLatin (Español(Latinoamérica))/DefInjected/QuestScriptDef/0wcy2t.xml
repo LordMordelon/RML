@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questName(sameQuestsCount==0)-&gt;[asker_nameDef]’s visit -->
+  <!-- EN: questName-&gt;hosting [lodgerIndef] -->
+  <!-- EN: questName-&gt;[lodgerIndef] visit -->
+  <!-- EN: lodgerIndef(nobleCount==1)-&gt;a royal -->
+  <!-- EN: lodgerIndef(nobleCount==1)-&gt;a noble -->
+  <!-- EN: lodgerIndef(nobleCount&gt;=2)-&gt;royals -->
+  <!-- EN: lodgerIndef(nobleCount&gt;=2)-&gt;nobles -->
+  <VFEE_NobleVisit.questNameRules.rulesStrings>
+    <li>questName(sameQuestsCount==0)-&gt;Visita de [asker_nameDef]</li>
+    <li>questName-&gt;alojando a [lodgerIndef]</li>
+    <li>questName-&gt;visita de [lodgerIndef]</li>
+    <li>lodgerIndef(nobleCount==1)-&gt;un miembro de la realeza</li>
+    <li>lodgerIndef(nobleCount==1)-&gt;un noble</li>
+    <li>lodgerIndef(nobleCount&gt;=2)-&gt;miembros de la realeza</li>
+    <li>lodgerIndef(nobleCount&gt;=2)-&gt;nobles</li>
+  </VFEE_NobleVisit.questNameRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Props and Decor</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualOutcomeEffectDef[defName="VGE_GravjumperLaunch"]/comps/li[10]/label</xpath>
+          <value>
+            <!-- EN: nuclear thrusters -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualOutcomeEffectDef[defName="VGE_GravhulkLaunch"]/comps/li[13]/label</xpath>
+          <value>
+            <!-- EN: nuclear thrusters -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

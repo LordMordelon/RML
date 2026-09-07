@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/label</xpath>
+          <value>
+            <!-- EN: chitin -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/description</xpath>
+          <value>
+            <!-- EN: Hard overlapping scales of insect chitin. It is exceptionally durable in combat, but provides little protection from weather. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Animals Expanded — Waste Animals</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="ToxicMeat"]/label</xpath>
+            <value>
+              <!-- EN: toxic meat -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="ToxicMeat"]/description</xpath>
+            <value>
+              <!-- EN: Raw meat from a toxic animal.\n\nChewy, gelatinous and disgusting. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/label</xpath>
+            <value>
+              <!-- EN: ate toxic meat -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/description</xpath>
+            <value>
+              <!-- EN: I ate some toxic meat. It was, possibly, the most disgusting thing I&apos;ve ever tasted. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <!-- EN: ate cooked toxic meat -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <!-- EN: I ate a meal cooked from toxic meat. The seasoning partly covered the taste, but it still tasted quite poisonous. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: teeth -->
+            <label>dientes</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: claw -->
+            <label>garra</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

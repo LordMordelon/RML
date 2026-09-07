@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription-&gt;A trader ship temporarily stationed nearby, [requester_label], has a special trade request. They would like to purchase:
+\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])
+\nIn return, [allRewardsDescriptions]
+\nIf you want to make the trade, accept the quest, and the ship will land. You will have about one day to deliver requested items. -->
+  <!-- EN: qualityInfo(requestedThingHasQuality==True,priority=1)-&gt;of normal+ quality  -->
+  <!-- EN: qualityInfo-&gt; -->
+  <TraderShipsTradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Un transbordador comercial estacionado temporalmente cerca, [requester_label], tiene una solicitud comercial especial. Les gustaría comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nA cambio, [allRewardsDescriptions]\n\nSi quieres realizar el intercambio, acepta la misión y el transbordador aterrizará. Tendrás aproximadamente un día para entregar los artículos solicitados.</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)-&gt;de calidad normal o superior </li>
+    <li>qualityInfo-&gt;</li>
+  </TraderShipsTradeRequest.questDescriptionRules.rulesStrings>
+</LanguageData>

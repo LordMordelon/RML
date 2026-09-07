@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnusedTranslations>
+  <entry class="FactionDef" node="VFED_NewSafehaven.messageDefendersAttacking" original="{0} from {1} are attacking your {2}.">{0} de {1} están atacando tu {2}.</entry>
+  <entry class="QuestScriptDef" node="VFED_ChasedDeserter.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef" original="{BASELABEL}: Loyalty squad">{BASELABEL}: Escuadrón de lealtad</entry>
+  <entry class="QuestScriptDef" node="VFED_ChasedDeserter.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef" original="{BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].">{BASETEXT}\n\nEste es el escuadrón de lealtad que estaba cazando a [../asker_nameFull].</entry>
+  <entry class="QuestScriptDef" node="VFED_ChasedDeserter.root.nodes.PawnsArrive.customLetterText.slateRef" original="{BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon.">{BASETEXT}\n\nDebido a que aceptaste a [asker_nameDef], [asker_factionName] se ha vuelto hostil.\n\nEl escuadrón de lealtad que está cazando a [asker_objective] llegará pronto.</entry>
+  <entry class="QuestScriptDef" node="VFED_DeadDrop.root.nodes.HiddenDelay.node.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef" original="Quest expired: [resolvedQuestName]">Misión expirada: [resolvedQuestName]</entry>
+  <entry class="QuestScriptDef" node="VFED_DeadDrop.root.nodes.HiddenDelay.node.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef" original="Intercepted communications indicate the dead drop has been located by [empire_name]. The quest [resolvedQuestName] has expired.">Las comunicaciones interceptadas indican que el punto de entrega ha sido localizado por [empire_name]. La misión [resolvedQuestName] ha expirado.</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.GetEmperor.storeAs.slateRef" original="noble">noble</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.ImperialResponse.siteName.slateRef" original="site">sitio</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.Letter.label.slateRef" original="Shuttle arrived">Transbordador llegó</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.Letter.text.slateRef" original="[shuttleLetterText]">[shuttleLetterText]</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.objectivesComplete.node.nodes.Letter.label.slateRef" original="Control station destroyed">Estación de control destruida</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.objectivesComplete.node.nodes.Letter.text.slateRef" original="The zeus cannon control station has been destroyed.">La estación de control del cañón Zeus ha sido destruida.</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.label.slateRef" original="Shuttle destroyed">Transbordador destruido</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterEndgame.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.text.slateRef" original="The shuttle sent to collect colonists has been destroyed.">El transbordador enviado para recoger a los colonos ha sido destruido.</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterQuestBase.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef" original="Quest expired: [resolvedQuestName]">Misión expirada: [resolvedQuestName]</entry>
+  <entry class="QuestScriptDef" node="VFED_DeserterQuestBase.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef" original="The [site_label] has packed up and moved on. The quest [resolvedQuestName] has expired.">El [site_label] ha empacado y se ha ido. La misión [resolvedQuestName] ha expirado.</entry>
+  <entry class="QuestScriptDef" node="VFED_EmpireBargain.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef" original="{BASELABEL}: Retribution force">{BASELABEL}: Fuerza de retribución</entry>
+  <entry class="QuestScriptDef" node="VFED_EmpireBargain.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef" original="{BASETEXT}\n\nThis is a retribution force for your betrayal of [../deserters_name] to [../empire_name].">{BASETEXT}\n\nEsta es una fuerza de retribución por tu traición a [../deserters_name] ante [../empire_name].</entry>
+  <entry class="QuestScriptDef" node="VFED_EmpireRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef" original="Quest expired: [resolvedQuestName]">Misión expirada: [resolvedQuestName]</entry>
+  <entry class="QuestScriptDef" node="VFED_EmpireRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef" original="The [site_label] has been stripped by scavengers. The quest [resolvedQuestName] has expired.">El [site_label] ha sido despojado por carroñeros. La misión [resolvedQuestName] ha expirado.</entry>
+  <entry class="QuestScriptDef" node="VFED_PlotMission.questNameRules.rulesStrings" original="&lt;li&gt;questName-&gt;[plotName]&lt;/li&gt;">questName-&gt;[plotName]</entry>
+  <entry class="ThingDef" node="VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.0.label" original="Single shot (Charged shot)">Disparo de cargas</entry>
+  <entry class="ThingDef" node="VFED_Gun_ChargeCycler.comps.Comp_VerbProps.verbProps.1.label" original="Single shot (Thump shot)">Disparo de impacto</entry>
+  <entry class="ThingDef" node="VFED_Gun_ChargeCycler.verbs.Single_shot_Charged_shot.label" original="Single shot (Charged shot)">Disparo de cargas</entry>
+  <entry class="ThingDef" node="VFED_Gun_ChargeCycler.verbs.Single_shot_Thump_shot.label" original="Single shot (Thump shot)">Disparo de impacto</entry>
+  <entry class="ThingDef" node="VFED_Gun_Fletchling.tools.barrel.label" original="barrel">cañón</entry>
+  <entry class="ThingDef" node="VFED_PsychicAmplifier.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
+  <entry class="ThingDef" node="VFED_Turret_Onager.comps.CompRefuelable.fuelLabel" original="Shots until rearm">Disparos hasta rearmar</entry>
+  <entry class="ThingDef" node="VFED_Turret_Palintone.comps.CompRefuelable.fuelLabel" original="Shots until rearm">Disparos hasta rearmar</entry>
+  <entry class="VFED.DeserterTabDef" node="VFED_Contraband.description" original="tab">pestaña</entry>
+  <entry class="VFED.DeserterTabDef" node="VFED_Plots.description" original="tab">pestaña</entry>
+  <entry class="VFED.DeserterTabDef" node="VFED_Services.description" original="tab">pestaña</entry>
+</UnusedTranslations>

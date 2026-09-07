@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Target cannot be colonist. -->
+  <VPEP.TargetCannotBeSameFactionAsCaster>El objetivo no puede ser un colono.</VPEP.TargetCannotBeSameFactionAsCaster>
+  <!-- EN: Target must be prisoner or colonist. -->
+  <VPEP.TargetMustBeSameFactionAsCaster>El objetivo debe ser prisionero o colono.</VPEP.TargetMustBeSameFactionAsCaster>
+  <!-- EN: Target must be prisoner or slave. -->
+  <VPEP.TargetMustBePrisonerOrSlave>El objetivo debe ser prisionero o esclavo.</VPEP.TargetMustBePrisonerOrSlave>
+  <!-- EN: It was caused by the Degrade psycast. -->
+  <VPEP.DegradePsycast>Fue causado por la psicoemisión Degradar.</VPEP.DegradePsycast>
+  <!-- EN: Target must have brain leech from the caster. -->
+  <VPEP.TargetMustHaveBrainLeech>El objetivo debe tener una sanguijuela cerebral del lanzador.</VPEP.TargetMustHaveBrainLeech>
+  <!-- EN: Target is a puppet already. -->
+  <VPEP.TargetIsPuppetAlready>El objetivo ya es una marioneta.</VPEP.TargetIsPuppetAlready>
+  <!-- EN: Cannot have more puppets due to the puppet limit. -->
+  <VPEP.CannotHaveMorePuppets>No se pueden tener más marionetas debido al límite de marionetas.</VPEP.CannotHaveMorePuppets>
+  <!-- EN: Puppets -->
+  <VPEP.Puppets>Marionetas</VPEP.Puppets>
+  <!-- EN: A puppeteer can only sustain a puppet if there is enough psychic capacity to do so. Gain more psychic capacity to sustain more puppets by casting mind split, however bear in mind it will send the puppeteer and all their puppets into a {0} coma.\n\nPsychic capacity: {1} -->
+  <VPEP.PuppetsGizmoTip>Un titiritero solo puede mantener una marioneta si hay suficiente capacidad psíquica para hacerlo. Gana más capacidad psíquica para mantener más marionetas lanzando división mental, sin embargo ten en cuenta que enviará al titiritero y a todas sus marionetas a un coma de {0}.\n\nCapacidad psíquica: {1}</VPEP.PuppetsGizmoTip>
+  <!-- EN: Current puppets: -->
+  <VPEP.PuppetsUsage>Marionetas actuales:</VPEP.PuppetsUsage>
+  <!-- EN: Target must be a puppet of the caster. -->
+  <VPEP.TargetMustBePuppetOfCaster>El objetivo debe ser una marioneta del lanzador.</VPEP.TargetMustBePuppetOfCaster>
+  <!-- EN: No puppets. -->
+  <VPEP.NoPuppets>Sin marionetas.</VPEP.NoPuppets>
+  <!-- EN: Mind jump -->
+  <VPEP.MindJumpTitle>Salto mental</VPEP.MindJumpTitle>
+  <!-- EN: {Puppeteer_nameDef} has died. Before {Puppeteer_pronoun} died, {Puppeteer_pronoun} used the mind jump ability on {NewPuppeteer_nameDef}. Now {NewPuppeteer_nameDef} is a new puppeteer. -->
+  <VPEP.MindJumpText>{Puppeteer_nameDef} ha muerto. Antes de que {Puppeteer_pronoun} muriera, usó la habilidad de salto mental en {NewPuppeteer_nameDef}. Ahora {NewPuppeteer_nameDef} es un nuevo titiritero.</VPEP.MindJumpText>
+  <!-- EN: Must target a battery or fiendly mechanoid -->
+  <VPE.MustTargetBattery>Debe apuntar a una batería o mecanoide amistoso</VPE.MustTargetBattery>
+  <!-- EN: Stop Hurricane -->
+  <VPE.StopHurricane>Detener huracán</VPE.StopHurricane>
+  <!-- EN: No nearby chunks -->
+  <VPE.NoChunks>Sin trozos cercanos</VPE.NoChunks>
+  <!-- EN: {PAWN_nameDef} must have living family members. -->
+  <VPE.MustHaveLivingFamilyMembers>{PAWN_nameDef} debe tener familiares vivos.</VPE.MustHaveLivingFamilyMembers>
+  <!-- EN: {0} things at level {1} -->
+  <VPE.ThingsOfLevel>{0} cosas en el nivel {1}</VPE.ThingsOfLevel>
+  <!-- EN: Not enough value, must be worth at least $1 per item. -->
+  <VPE.TooCheap>No hay suficiente valor, debe valer al menos $1 por artículo.</VPE.TooCheap>
+  <!-- EN: Break Link -->
+  <VPE_BreakLink>Romper enlace</VPE_BreakLink>
+  <!-- EN: Break the link and immediately kill this construct -->
+  <VPE_BreakLinkDesc>Romper el enlace y matar inmediatamente a este constructo</VPE_BreakLinkDesc>
+  <!-- EN: Next PsySet -->
+  <VPE.PsySetNext>Siguiente conjunto psíquico</VPE.PsySetNext>
+  <!-- EN: Previous PsySet -->
+  <VPE.PsySetPrev>Conjunto psíquico anterior</VPE.PsySetPrev>
+  <!-- EN: Nearby -->
+  <VPE.Nearby>Cercano</VPE.Nearby>
+  <!-- EN: {0} wealth nearby out of {1} total wealth -->
+  <VPE.WealthNearby>{0} riqueza cercana de {1} riqueza total</VPE.WealthNearby>
+  <!-- EN: {0} other pawns nearby -->
+  <VPE.GroupFocus>{0} otros peones cercanos</VPE.GroupFocus>
+  <!-- EN: All -->
+  <VPE.All>Todos</VPE.All>
+  <!-- EN: Move to the next PsySet. Right click to choose a specific one.\nCurrent: {0}, Next: {1} -->
+  <VPE.PsySetDesc>Mover al siguiente conjunto psíquico. Clic derecho para elegir uno específico.\nActual: {0}, Siguiente: {1}</VPE.PsySetDesc>
+  <!-- EN: Target must have quality -->
+  <VPE.MustHaveQuality>El objetivo debe tener calidad</VPE.MustHaveQuality>
+  <!-- EN: Target quality too high, must be lower than {0}. -->
+  <VPE.QualityTooHigh>Calidad del objetivo demasiado alta, debe ser inferior a {0}.</VPE.QualityTooHigh>
+  <!-- EN: Maximum quality: {0} -->
+  <VPE.MaxQuality>Calidad máxima: {0}</VPE.MaxQuality>
+  <!-- EN: Not enough neural heat available. -->
+  <VPE.NotEnoughHeat>No hay suficiente calor neural disponible.</VPE.NotEnoughHeat>
+  <!-- EN: Must consume power. -->
+  <VPE.MustConsumePower>Debe consumir energía.</VPE.MustConsumePower>
+  <!-- EN: Target a stone chunk -->
+  <VPE.MustBeStoneChunk>Apuntar a un trozo de piedra</VPE.MustBeStoneChunk>
+  <!-- EN: Target steel slag -->
+  <VPE.MustBeSteelSlag>Apuntar a escoria de acero</VPE.MustBeSteelSlag>
+  <!-- EN: Psylink level gained: {0} -->
+  <VPE.PsylinkGained>Nivel de psicoenlace ganado: {0}</VPE.PsylinkGained>
+  <!-- EN: {0} has gained a new level of psylink. Upon reaching that level, {1} raised psycasting-related stats slightly. {1} can now also allocate a point to either learn a new psycast, improve psycasting stats further or unlock a new meditation focus.\n\nPsycasting experience needed for next level is: {2}. -->
+  <VPE.PsylinkGained.Desc>{0} ha ganado un nuevo nivel de psicoenlace. Al alcanzar ese nivel, {1} aumentó ligeramente las estadísticas relacionadas con el lanzamiento psíquico. {1} ahora también puede asignar un punto para aprender una nueva psicoemisión, mejorar aún más las estadísticas de lanzamiento psíquico o desbloquear un nuevo foco de meditación.\n\nLa experiencia psíquica necesaria para el siguiente nivel es: {2}.</VPE.PsylinkGained.Desc>
+  <!-- EN: Unlocked via Psycaster points -->
+  <VPE.UnlockedByPoints>Desbloqueado a través de puntos de psíquico</VPE.UnlockedByPoints>
+  <!-- EN: Must target eltex -->
+  <VPE.MustEltex>Debe apuntar a eltex</VPE.MustEltex>
+  <!-- EN: Not a psycaster -->
+  <VPE.NotPsycaster>No es un psíquico</VPE.NotPsycaster>
+  <!-- EN: Already wearing a psyring -->
+  <VPE.AlreadyPsyring>Ya lleva un anillo psíquico</VPE.AlreadyPsyring>
+  <!-- EN: Must be researchable -->
+  <VPE.Research>Debe ser investigable</VPE.Research>
+  <!-- EN: Already researched -->
+  <VPE.AlreadyResearch>Ya investigado</VPE.AlreadyResearch>
+  <!-- EN: Target must be ally or neutral. -->
+  <VPE.MustBeAllyOrNeutral>El objetivo debe ser aliado o neutral.</VPE.MustBeAllyOrNeutral>
+  <!-- EN: Target must be downed. -->
+  <VPE.MustBeDowned>El objetivo debe estar derribado.</VPE.MustBeDowned>
+  <!-- EN: Target must have at least one psycaster level. -->
+  <VPE.MustHavePsychicLevel>El objetivo debe tener al menos un nivel de psíquico.</VPE.MustHavePsychicLevel>
+  <!-- EN: Must have at least {0} neural heat. -->
+  <VPE.MustHaveHeatAmount>Debe tener al menos {0} de calor neural.</VPE.MustHaveHeatAmount>
+  <!-- EN: Target must be corpse. -->
+  <VPE.MustBeCorpse>El objetivo debe ser un cadáver.</VPE.MustBeCorpse>
+  <!-- EN: Corpse must be humanlike. -->
+  <VPE.MustBeCorpseHumanlike>El cadáver debe ser humanoide.</VPE.MustBeCorpseHumanlike>
+  <!-- EN: Pack Summoned! -->
+  <VPE.PackSummon>¡Manada invocada!</VPE.PackSummon>
+  <!-- EN: A pack of wild animals have been summoned by {0} to defend the colony. -->
+  <VPE.PackSummon.Desc>Una manada de animales salvajes ha sido invocada por {0} para defender la colonia.</VPE.PackSummon.Desc>
+  <!-- EN: No available fingers. -->
+  <VPE.NoAvailableFingers>No hay dedos disponibles.</VPE.NoAvailableFingers>
+  <!-- EN: Currently channeling {0} -->
+  <VPE.CurrentChanneling>Actualmente canalizando {0}</VPE.CurrentChanneling>
+  <!-- EN: Target must in the dark -->
+  <VPE.MustBeInDark>El objetivo debe estar en la oscuridad</VPE.MustBeInDark>
+  <!-- EN: Must be a psycaster -->
+  <VPE.MustBePsycaster>Debe ser un psíquico</VPE.MustBePsycaster>
+  <!-- EN: Already knows {0} -->
+  <VPE.AlreadyHasPsycast>Ya conoce {0}</VPE.AlreadyHasPsycast>
+  <!-- EN: Target must be in the same faction. -->
+  <VPE.MustBeAlly>El objetivo debe estar en la misma facción.</VPE.MustBeAlly>
+  <!-- EN: Target&apos;s equipment must be damaged. -->
+  <VPE.MustHaveDamagedEquipment>El equipo del objetivo debe estar dañado.</VPE.MustHaveDamagedEquipment>
+  <!-- EN: Cannot target animals -->
+  <VPE.NoAnimals>No se puede apuntar a animales</VPE.NoAnimals>
+  <!-- EN: Target must be damaged -->
+  <VPE.MustBeDamaged>El objetivo debe estar dañado</VPE.MustBeDamaged>
+  <!-- EN: Vanilla Psycasts Expanded -->
+  <VanillaPsycastsExpanded>Vanilla Psycasts Expanded</VanillaPsycastsExpanded>
+  <!-- EN: Psycaster XP per Psyfocus % gained -->
+  <VPE.XPPerPercent>XP de psíquico por % de psicofoco ganado</VPE.XPPerPercent>
+  <!-- EN: Basilicus Bestower Psycaster spawn chance -->
+  <VPE.PsycasterSpawnBaseChance>Probabilidad de aparición de psíquico de Basilicus el Otorgador</VPE.PsycasterSpawnBaseChance>
+  <!-- EN: Basilicus Bestower Psycaster strength factor -->
+  <VPE.PsycasterSpawnAdditional>Factor de fuerza de psíquico de Basilicus el Otorgador</VPE.PsycasterSpawnAdditional>
+  <!-- EN: Allow shrinking? -->
+  <VPE.AllowShrink>¿Permitir encoger?</VPE.AllowShrink>
+  <!-- EN: Allow psycast gizmos to be shrunken to half size when there are a lot of them. -->
+  <VPE.AllowShrink.Desc>Permitir que los gizmos de psicoemisiones se reduzcan a la mitad de tamaño cuando hay muchos de ellos.</VPE.AllowShrink.Desc>
+  <!-- EN: UI small mode -->
+  <VPE.SmallMode>Modo pequeño de UI</VPE.SmallMode>
+  <!-- EN: In small mode, the stats are moved to a tooltip and the psysets are moved to a separate dialog. If checked, this will force small mode. If X&apos;ed, this will ban small mode. If partial (yellow line), this will allow default behavior (small mode will be active if your vertical resolution is less than 1080). -->
+  <VPE.SmallMode.Desc>En el modo pequeño, las estadísticas se mueven a una información sobre herramientas y los conjuntos psíquicos se mueven a un diálogo separado. Si se marca, esto forzará el modo pequeño. Si se marca con una X, esto prohibirá el modo pequeño. Si es parcial (línea amarilla), esto permitirá el comportamiento predeterminado (el modo pequeño estará activo si tu resolución vertical es inferior a 1080).</VPE.SmallMode.Desc>
+  <!-- EN: Mute Skipdoor Sound -->
+  <VPE.MuteSkipdoor>Silenciar sonido de puerta de salto</VPE.MuteSkipdoor>
+  <!-- EN: Maximum psycaster level -->
+  <VPE.MaxLevel>Nivel máximo de psíquico</VPE.MaxLevel>
+  <!-- EN: Scale base psyfocus gain with stat points? -->
+  <VPE.ChangeFocusGain>¿Escalar ganancia base de psicofoco con puntos de estadística?</VPE.ChangeFocusGain>
+  <!-- EN: If enabled, then the base psyfocus gain before any foci can be increased by spending stat points. -->
+  <VPE.ChangeFocusGain.Desc>Si está habilitado, entonces la ganancia base de psicofoco antes de cualquier foco se puede aumentar gastando puntos de estadística.</VPE.ChangeFocusGain.Desc>
+  <!-- EN: Psycasts -->
+  <VPE.Psycasts>Psico</VPE.Psycasts>
+  <!-- EN: Psycaster Level: {0} -->
+  <VPE.PsyLevel>Nivel de psicoenlace: {0}</VPE.PsyLevel>
+  <!-- EN: Earn psycaster experience by meditating. -->
+  <VPE.EarnXP>Gana experiencia psíquica meditando.</VPE.EarnXP>
+  <!-- EN: Available points to spend: {0} -->
+  <VPE.Points>Puntos disponibles para gastar: {0}</VPE.Points>
+  <!-- EN: Spend points on unlocking new paths, unlocking psycasts, unlocking meditation foci, improving stats, etc. -->
+  <VPE.SpendPoints>Gasta puntos en desbloquear nuevos caminos, desbloquear psicoemisiones, desbloquear focos de meditación, mejorar estadísticas, etc.</VPE.SpendPoints>
+  <!-- EN: Psycaster stats -->
+  <VPE.PsycasterStats>Estadísticas psíquicas</VPE.PsycasterStats>
+  <!-- EN: Upgrade -->
+  <VPE.Upgrade>Mejorar</VPE.Upgrade>
+  <!-- EN: Focus types: -->
+  <VPE.FocusTypes>Tipos de foco:</VPE.FocusTypes>
+  <!-- EN: Customize Psysets -->
+  <VPE.PsysetCustomize>Personalizar conjuntos psíquicos</VPE.PsysetCustomize>
+  <!-- EN: Drag and drop learnt psycasts into psysets that you can cycle between ingame. -->
+  <VPE.PsysetDesc>Arrastra y suelta psicoemisiones en conjuntos psíquicos para alternar en juego.</VPE.PsysetDesc>
+  <!-- EN: Create Psyset -->
+  <VPE.CreatePsyset>Crear conjunto psíquico</VPE.CreatePsyset>
+  <!-- EN: Unlock -->
+  <VPE.Unlock>Desbloquear</VPE.Unlock>
+  <!-- EN: Click to Unlock -->
+  <VPE.ClickToUnlock>&lt;color=#E5E54C&gt;Clic para desbloquear&lt;/color&gt;</VPE.ClickToUnlock>
+  <!-- EN: Use alternative backgrounds -->
+  <VPE.UseAltBackground>Usar fondos alternativos</VPE.UseAltBackground>
+  <!-- EN: Destroy -->
+  <VPE.DestroySkipdoor>Destruir</VPE.DestroySkipdoor>
+  <!-- EN: Destroy this skipdoor. It will no longer be usable, but will no longer impact the max heat of {0}. -->
+  <VPE.DestroySkipdoor.Desc>Destruye esta puerta de salto. Ya no será utilizable, pero ya no afectará el calor máximo de {0}.</VPE.DestroySkipdoor.Desc>
+  <!-- EN: Rename -->
+  <VPE.RenameSkipdoor>Renombrar</VPE.RenameSkipdoor>
+  <!-- EN: Rename this skipdoor. -->
+  <VPE.RenameSkipdoor.Desc>Renombrar esta puerta de salto.</VPE.RenameSkipdoor.Desc>
+  <!-- EN: Teleport to {0} -->
+  <VPE.TeleportTo>Teletransportarse a {0}</VPE.TeleportTo>
+  <!-- EN: Cancel Skipbarrier -->
+  <VPE.CancelSkipbarrier>Cancelar barrera de salto</VPE.CancelSkipbarrier>
+  <!-- EN: Click to cancel Skipbarrier on the caster. -->
+  <VPE.CancelSkipbarrierDesc>Clic para cancelar la barrera de salto en el lanzador.</VPE.CancelSkipbarrierDesc>
+  <!-- EN: Edit -->
+  <VPE.Edit>Editar</VPE.Edit>
+  <!-- EN: Rename -->
+  <VPE.Rename>Renombrar</VPE.Rename>
+  <!-- EN: Untitled -->
+  <VPE.Untitled>Sin título</VPE.Untitled>
+  <!-- EN: Remove -->
+  <VPE.Remove>Eliminar</VPE.Remove>
+  <!-- EN: Contents: -->
+  <VPE.Contents>Contenidos:</VPE.Contents>
+  <!-- EN: Click to Remove -->
+  <VPE.ClickRemove>Clic para eliminar</VPE.ClickRemove>
+  <!-- EN: Selling Eltex is against Imperial law. This may or may not affect your relations with the Empire in the future. -->
+  <VPE.SellingEltexWarning>Vender Eltex va en contra de la ley imperial. Esto puede o no afectar tus relaciones con el Imperio en el futuro.</VPE.SellingEltexWarning>
+  <!-- EN: Gifting Eltex is against Imperial law. This may or may not affect your relations with the Empire in the future. -->
+  <VPE.GiftingEltexWarning>Regalar Eltex va en contra de la ley imperial. Esto puede o no afectar tus relaciones con el Imperio en el futuro.</VPE.GiftingEltexWarning>
+  <!-- EN: Empire angered -->
+  <VPE.EmpireAngeredTitle>Imperio enfadado</VPE.EmpireAngeredTitle>
+  <!-- EN: Empire caught wind that you have been {0} Eltex behind their back. They consider it to be against Imperial law, and your relations have degraded. -->
+  <VPE.EmpireAngeredDesc>El Imperio se enteró de que has estado {0} Eltex a sus espaldas. Consideran que va en contra de la ley imperial y tus relaciones se han degradado.</VPE.EmpireAngeredDesc>
+  <!-- EN: gifting -->
+  <VPE.Gifting>regalando</VPE.Gifting>
+  <!-- EN: trading -->
+  <VPE.Trading>comerciando</VPE.Trading>
+  <!-- EN: Goodwill with {FACTION_name} is now {1}. (Reduced by {2}) -->
+  <VPE.FactionRelationReducedInfo>La buena voluntad con {FACTION_name} es ahora {1}. (Reducida en {2})</VPE.FactionRelationReducedInfo>
+  <!-- EN: Choose Psycast: -->
+  <VPE.CreatePsyringTitle>Elegir psicoemisión:</VPE.CreatePsyringTitle>
+  <!-- EN: Create Psyring -->
+  <VPE.CreatePsyringButton>Crear anillo psíquico</VPE.CreatePsyringButton>
+  <!-- EN: Locked -->
+  <VPE.Locked>Bloqueado</VPE.Locked>
+  <!-- EN: Bodies consumed: +{0} -->
+  <VPE.StatsReport_BodiesConsumed>Cuerpos consumidos: +{0}</VPE.StatsReport_BodiesConsumed>
+  <!-- EN: Developer mode -->
+  <VPE.DevMode>Modo desarrollador</VPE.DevMode>
+  <!-- EN: Not enough points available -->
+  <VPE.NotEnoughPoints>No hay suficientes puntos disponibles</VPE.NotEnoughPoints>
+  <!-- EN: Psycasts included: -->
+  <VPE.AbilitiesList>Psicoemisiones incluidas:</VPE.AbilitiesList>
+  <!-- EN: hover -->
+  <VPE.Hover>pasar el cursor</VPE.Hover>
+  <!-- EN: {0}
+
+Capturing psycasters is a viable strategy and can be considered beneficial. -->
+  <VPE.PsycasterRaidDescription>{0}\n\nCapturar psíquicos es una estrategia viable y puede considerarse beneficiosa.</VPE.PsycasterRaidDescription>
+  <!-- EN: Locked: Requires a Royal Title -->
+  <VPE.LockedTitle>Bloqueado: Requiere un título real</VPE.LockedTitle>
+  <!-- EN: Locked: Cannot be unlocked with points -->
+  <VPE.LockedLocked>Bloqueado: No se puede desbloquear con puntos</VPE.LockedLocked>
+  <!-- EN: Success chance -->
+  <VPE.SuccessChance>Probabilidad de éxito</VPE.SuccessChance>
+  <!-- EN: Psychic coma for -->
+  <VPE.PsychicComaDuration>Coma psíquico durante</VPE.PsychicComaDuration>
+</LanguageData>

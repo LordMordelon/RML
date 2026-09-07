@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="TubeTelevision"]/description</xpath>
+    <value>
+      <!-- EN: Build basic electronic joy sources such as tube televisions, industrial radios, arcades and more. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="TubeTelevision"]/label</xpath>
+    <value>
+      <!-- EN: basic electronics -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+</Patch>

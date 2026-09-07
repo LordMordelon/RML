@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CE_Embrasure"]/label</xpath>
+          <value>
+            <!-- EN: embrasure -->
+            <label>aspillera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CE_Embrasure"]/description</xpath>
+          <value>
+            <!-- EN: A wall with a firing port to allow shooting from relative safety. This is the vanilla embrasure if you are using Combat Extended and you see this def there is something wrong with your modlist. -->
+            <description>Un muro con un puerto de disparo que permite disparar desde una seguridad relativa. Esta es la aspillera vanilla; si estás usando Combat Extended y ves esta definición, hay algo mal en tu lista de mods.</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

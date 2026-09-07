@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[4]/desc</xpath>
+          <value>
+            <!-- EN: Firepit is missing. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[5]/desc</xpath>
+          <value>
+            <!-- EN: Dark firepit is missing. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[6]/desc</xpath>
+          <value>
+            <!-- EN: Firepit is not lit. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[7]/desc</xpath>
+          <value>
+            <!-- EN: Dark firepit is not lit. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[8]/desc</xpath>
+          <value>
+            <!-- EN: No drums. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[9]/desc</xpath>
+          <value>
+            <!-- EN: No drums. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

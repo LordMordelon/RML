@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Det's Xenotypes - Venators</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DV_Gun_LaserpulseLongrifle"]/label</xpath>
+          <value>
+            <!-- EN: laserpulse longrifle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DV_Gun_LaserpulseLongrifle"]/description</xpath>
+          <value>
+            <!-- EN: A high tech long-range laser rifle. Photons are channeled through various gain mediums, forming a cascade of light particles that are focused into a single bolt. The long range scope is only compatible with the eyes of people with the farsighted gene, and it allows the wielder to fire at extremely long ranges.n\n\Due to the weapon&apos;s sheer size and weight, it is slow to aim and hard to move with when equipped.n\n\Far less common than the cartridge based precision longrifle, the laserpulse longrifle is often utilized by spaceborn venators hunting in zero-g environments. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DV_Gun_LaserpulseLongrifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DV_Gun_LaserpulseLongrifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

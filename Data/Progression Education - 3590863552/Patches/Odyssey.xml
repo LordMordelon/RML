@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/li[1]/title</xpath>
+          <value>
+            <!-- EN: Orbital piloting proficiency -->
+            <title>TODO</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/li[1]/desc</xpath>
+          <value>
+            <!-- EN: Your intellectual has been bestowed the understanding of how to operate orbital vehicles. Other colonists can now be taught this knowledge in proficiency classes. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight]. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef]. -->
+  <!-- EN: talkedabout(p=4)-&gt;chatted about -->
+  <!-- EN: talkedabout-&gt;shared a word about -->
+  <!-- EN: talkedabout-&gt;spoke about -->
+  <!-- EN: talkedabout-&gt;gabbed about -->
+  <!-- EN: talkedabout-&gt;talked about -->
+  <!-- EN: talkedabout-&gt;joked about -->
+  <!-- EN: talkedabout-&gt;quipped about -->
+  <!-- EN: commentedabout-&gt;said something about -->
+  <!-- EN: commentedabout-&gt;said a word about -->
+  <!-- EN: commentedabout-&gt;made a comment about -->
+  <!-- EN: commentedabout-&gt;commented about -->
+  <!-- EN: commentedabout-&gt;told a joke about -->
+  <VSIE_Vent.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] a [RECIPIENT_nameDef].</li>
+    <li>talkedabout(p=4)-&gt;charlaron sobre</li>
+    <li>talkedabout-&gt;compartieron unas palabras sobre</li>
+    <li>talkedabout-&gt;hablaron sobre</li>
+    <li>talkedabout-&gt;parlotearon sobre</li>
+    <li>talkedabout-&gt;conversaron sobre</li>
+    <li>talkedabout-&gt;bromearon sobre</li>
+    <li>talkedabout-&gt;hicieron chistes sobre</li>
+    <li>commentedabout-&gt;dijo algo sobre</li>
+    <li>commentedabout-&gt;dijo una palabra sobre</li>
+    <li>commentedabout-&gt;hizo un comentario sobre</li>
+    <li>commentedabout-&gt;comentó sobre</li>
+    <li>commentedabout-&gt;contó un chiste sobre</li>
+  </VSIE_Vent.logRulesInitiator.rulesStrings>
+</LanguageData>

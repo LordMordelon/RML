@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: grav shield -->
+  <GravShieldPsychic.label>graviescudo</GravShieldPsychic.label>
+  <!-- EN: Mote -->
+  <GravInvisibility_Mote.label>TODO</GravInvisibility_Mote.label>
+  <!-- EN: advanced gravship computer core -->
+  <AdvShip_ComputerCore.label>gravinúcleo de control cerebrex</AdvShip_ComputerCore.label>
+  <!-- EN: Cerebrex Gravship pilot computer core. Improves flight quality of gravship by 30%.\n\nСan be tuned to a specific mechanitor to improve his ability.\n Bandwidth +20 \n Control groups +3 \n Work speed mech +30% \n Forming speed +100% \n Cerebrex node ability -->
+  <AdvShip_ComputerCore.description>Núcleo de computadora de piloto cerebrex diseñado especialmente para naves gravitacionales de última generación. Este sistema avanzado optimiza significativamente la estabilidad y maniobrabilidad de la nave, mejorando la calidad de vuelo en un 30%.\n\nPuede sintonizarse con un mecanitor específico, permitiendo que la máquina-mente aprenda y se adapte mejor a su piloto.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt;\n- Ancho de banda +20 \n- Grupos de control +3 \n- Velocidad de trabajo mech +30% \n- Velocidad de formación +100% \n- Habilidad de nodo Cerebrex</AdvShip_ComputerCore.description>
+  <!-- EN: grav chemfuel tank -->
+  <AdvShip_GravChemfuelTank.label>gravitanque de astrobustible</AdvShip_GravChemfuelTank.label>
+  <!-- EN: A advanced chemfuel storage tank that supplies fuel for thrusters on a gravship. Сompresses fuel using gravcores and increases its efficiency.\n\nA gravship can support two grav chemfuel tank. -->
+  <AdvShip_GravChemfuelTank.description>Un tanque de almacenamiento de astrobustible avanzado que suministra combustible para los propulsores de una gravinave. Comprime el combustible usando gravinúcleos y aumenta su eficiencia.\n\nUna gravinave puede soportar dos tanques de astrobustible gravitacionales.</AdvShip_GravChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <AdvShip_GravChemfuelTank.comps.0.fuelLabel>TODO</AdvShip_GravChemfuelTank.comps.0.fuelLabel>
+  <!-- EN: Chemfuel -->
+  <AdvShip_GravChemfuelTank.comps.0.fuelGizmoLabel>TODO</AdvShip_GravChemfuelTank.comps.0.fuelGizmoLabel>
+  <!-- EN: The Singularity Reactor -->
+  <AdvShip_GravReactor.label>reactor de singularidad</AdvShip_GravReactor.label>
+  <!-- EN: A special reactor for the gravship. The interaction of the eight gravcore creates a singularity and extracts a huge amount of energy from it. \nAlso increases the area of the gravship. \n\nWARNING: in case of serious damage, it may explode. -->
+  <AdvShip_GravReactor.description>Un reactor especial para la gravinave. La interacción de los ocho gravinúcleos crea una singularidad y extrae una enorme cantidad de energía de ella. \nTambién aumenta el área de la gravinave. Explotará si es dañado gravemente.</AdvShip_GravReactor.description>
+  <!-- EN: big crack -->
+  <GravCraterLarge.label>gran grieta</GravCraterLarge.label>
+  <!-- EN: crack -->
+  <GravCrackFilth.label>grieta</GravCrackFilth.label>
+  <!-- EN: advanced gravship thruster -->
+  <AdvShip_GravThruster.label>gravipropulsor avanzado</AdvShip_GravThruster.label>
+  <!-- EN: A advanced gravship thruster based on Johnson-Tanaka drive. More than twice powerful as a large thruster.\n\nA gravship can support up to three thrusters. -->
+  <AdvShip_GravThruster.description>Un propulsor de gravinave avanzado basado en el motor Johnson-Tanaka. Más del doble de potente que un propulsor grande.\n\nUna gravinave puede soportar hasta tres propulsores.</AdvShip_GravThruster.description>
+  <!-- EN: advanced shield generator -->
+  <AdvShip_ShieldGenerator.label>generador de escudo avanzado</AdvShip_ShieldGenerator.label>
+  <!-- EN: An advanced shielding device that can protect a gravship will use gravcore. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support three advanced shield generators. -->
+  <AdvShip_ShieldGenerator.description>Un dispositivo de blindaje avanzado que puede proteger una gravinave usando gravinúcleos. Modula el campo gravitacional para crear una superficie repulsora de momento de corta duración que bloquea los proyectiles. Funciona contra disparos normales y morteros. Los que están dentro aún pueden disparar hacia afuera.\n\nDebe cargarse antes de su uso. Una gravinave puede soportar tres generadores de escudo avanzados.</AdvShip_ShieldGenerator.description>
+  <!-- EN: activate -->
+  <AdvShip_ShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>activar</AdvShip_ShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  <!-- EN: time acceleration pod -->
+  <AdvShip_TimeFasterPod.label>cápsula de aceleración temporal</AdvShip_TimeFasterPod.label>
+  <!-- EN: A sleep capsule that speeds up time inside by several times. Also equipped with medical mechanisms. \nIt can work only on a gravship. -->
+  <AdvShip_TimeFasterPod.description>Una cápsula de sueño que acelera el tiempo en su interior varias veces. También está equipada con mecanismos médicos. \nSolo puede funcionar en una gravinave.</AdvShip_TimeFasterPod.description>
+  <!-- EN: asteroid collector -->
+  <AsteroidCollector.label>recolector de asteroides</AsteroidCollector.label>
+  <!-- EN: This device collects small asteroids from space and creates vacstone blocks from them. It must be built in outer space. -->
+  <AsteroidCollector.description>Este dispositivo recolecta pequeños asteroides del espacio y crea bloques de vaciorita a partir de ellos. Debe construirse en el espacio exterior.</AsteroidCollector.description>
+  <!-- EN: Mote -->
+  <AsteroidsCollectMote.label>TODO</AsteroidsCollectMote.label>
+  <!-- EN: big vac barrier -->
+  <BigVacBarrier.label>gran barrera de vacío</BigVacBarrier.label>
+  <!-- EN: A big ship needs a big vacuum barrier. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it. A vac barrier will do nothing to prevent intruders.\n\nMust be powered to prevent depressurization. -->
+  <BigVacBarrier.description>Una nave grande necesita una gran barrera de vacío. El campo comprime las moléculas de aire cerca del umbral, evitando que los gases escapen mientras permite que las personas viajen libremente a través de él. Una barrera de vacío no hará nada para evitar intrusos.\n\nDebe estar alimentada para evitar la despresurización.</BigVacBarrier.description>
+  <!-- EN: gravcore battery -->
+  <GravBattery.label>gravibatería</GravBattery.label>
+  <!-- EN: A large electric battery with a huge capacity. With the help of a gravcore, it stores energy in the form of a gravitational fluctuations between gravlite panels.\nContinuously generates 200W. -->
+  <GravBattery.description>Una gran batería eléctrica con una capacidad enorme. Con la ayuda de un gravinúcleo, almacena energía en forma de fluctuaciones gravitacionales entre paneles de gravilita.\nPuede absorber calor del viaje de la gravinave y convertirlo rápidamente en energía utilizable, disminuyendo la duración del enfriamiento del gravimotor. Una gravinave puede soportar hasta cuatro gravibaterías.\n\nGenera continuamente 500W.</GravBattery.description>
+  <!-- EN: grav capsule -->
+  <GravCapsule_GT.label>gravicápsula</GravCapsule_GT.label>
+  <!-- EN: A launchable cargo pod summoned by grav pack for long-distance travel. Disappears after 24 hours. -->
+  <GravCapsule_GT.description>Una cápsula de carga lanzable invocada por una gravimochila para viajes de larga distancia. Desaparece después de 24 horas.</GravCapsule_GT.description>
+  <!-- EN: drop pod -->
+  <ActiveGravCapsule.label>cápsula de caída</ActiveGravCapsule.label>
+  <!-- EN: grav capsule (leaving) -->
+  <GravCapsuleLeaving.label>gravicápsula (saliendo)</GravCapsuleLeaving.label>
+  <!-- EN: grav capsule (incoming) -->
+  <GravCapsuleIncoming.label>gravicápsula (entrante)</GravCapsuleIncoming.label>
+  <!-- EN: grav chemreactor -->
+  <GravChemreactor_GT.label>graviquimireactor</GravChemreactor_GT.label>
+  <!-- EN: Infinite chemreactor enhanced by a Gravcore.\nSix times faster than the regular version. -->
+  <GravChemreactor_GT.description>Quimireactor infinito mejorado por un gravinúcleo.\nSeis veces más rápido que la versión normal.</GravChemreactor_GT.description>
+  <!-- EN: grav field pylon -->
+  <GravFieldPylon.label>pilón de campo gravitacional</GravFieldPylon.label>
+  <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to three grav field pylon -->
+  <GravFieldPylon.description>Un dispositivo ultratecnológico utilizado para aumentar el tamaño de una gravinave. Extiende el área en la que se puede construir la subestructura y aumenta la cantidad de subestructura que una gravinave puede soportar. Debe construirse cerca de un gravimotor.\n\nUna gravinave puede soportar hasta tres pilones de campo gravitacional.</GravFieldPylon.description>
+  <!-- EN: grav forge -->
+  <GravForge.label>graviforja</GravForge.label>
+  <!-- EN: A high-tech forge designed to assemble Gravcores by compressing Gravlite panels using powerful gravitational waves.\n\nWhen built next to the Grav engine, the work speed is increased by 140%. -->
+  <GravForge.description>Una forja de alta tecnología diseñada para ensamblar gravinúcleos comprimiendo paneles de gravilita utilizando poderosas ondas gravitacionales.\n\nCuando se construye junto al motor de gravinave, la velocidad de trabajo aumenta en un 120%.\nCuando se construye junto al motor de gravicoloso, la velocidad de trabajo aumenta en un 190%.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt; Reduce la sensibilidad de mantenimiento de todas las estructuras de gravinave en esta gravinave en 0.25.</GravForge.description>
+  <!-- EN: grav blaster turret -->
+  <Turret_GravBlaster.label>torreta gravibláster</Turret_GravBlaster.label>
+  <!-- EN: A high-powered turret with a grav blaster. It cannot sense targets at close ranges. Refilling with gravlite panels. -->
+  <Turret_GravBlaster.description>Una torreta de alta potencia con un gravibláster. No puede detectar objetivos a distancias cortas. Se recarga con paneles de gravilita.</Turret_GravBlaster.description>
+  <!-- EN: Shots until gravlite panels will be used up -->
+  <Turret_GravBlaster.comps.5.fuelLabel>Disparos hasta que se agoten los paneles de gravilita</Turret_GravBlaster.comps.5.fuelLabel>
+  <!-- EN: Still have gravlite -->
+  <Turret_GravBlaster.comps.5.fuelGizmoLabel>Aún tiene gravilita</Turret_GravBlaster.comps.5.fuelGizmoLabel>
+  <!-- EN: Needs more gravlite -->
+  <Turret_GravBlaster.comps.5.outOfFuelMessage>Necesita más gravilita</Turret_GravBlaster.comps.5.outOfFuelMessage>
+  <!-- EN: Heavy grav blaster -->
+  <Gun_GravBlasterTurret.label>gravibláster pesado</Gun_GravBlasterTurret.label>
+  <!-- EN: Heavy version of the grav blaster for mounting on the turret base. -->
+  <Gun_GravBlasterTurret.description>Versión pesada del gravibláster para montar en la base de la torreta.</Gun_GravBlasterTurret.description>
+  <!-- EN: Heavy grav blaster -->
+  <Gun_GravBlasterTurret.verbs.Verb_Shoot.label>gravibláster pesado</Gun_GravBlasterTurret.verbs.Verb_Shoot.label>
+  <!-- EN: bullet Grav blast -->
+  <Bullet_GravBlastTurret.label>bala de graviexplosión</Bullet_GravBlastTurret.label>
+  <!-- EN: beam repeater turret -->
+  <Turret_BeamRepeater.label>torreta repetidora de rayos</Turret_BeamRepeater.label>
+  <!-- EN: A medium-powered turret with a beam repeater. Don&apos;t need refill. -->
+  <Turret_BeamRepeater.description>Una torreta de potencia media con un repetidor de rayos. No necesita recarga.</Turret_BeamRepeater.description>
+  <!-- EN: beam repeater turret -->
+  <Gun_BeamRepeaterTurret.label>torreta repetidora de rayos</Gun_BeamRepeaterTurret.label>
+  <!-- EN: An ultratech weapon that emits gamma ray laser bursts in a rapid sequence. The tight gamma beams can pierce shields. -->
+  <Gun_BeamRepeaterTurret.description>Un arma ultratecnológica que emite ráfagas de láser de rayos gamma en una secuencia rápida. Los haces de rayos gamma concentrados pueden atravesar escudos.</Gun_BeamRepeaterTurret.description>
+  <!-- EN: beam repeater turret -->
+  <Gun_BeamRepeaterTurret.verbs.Verb_Shoot.label>torreta repetidora de rayos</Gun_BeamRepeaterTurret.verbs.Verb_Shoot.label>
+  <!-- EN: IED gravcore trap -->
+  <TrapIED_Gravcore.label>mina de gravinúcleo</TrapIED_Gravcore.label>
+  <!-- EN: A Gravcore loaded with EMP shells, connected to a trigger which detonates on touch or bullet impact. When activated, a gravitational wave is released in a large area. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe Gravcore is preserved after explosion. -->
+  <TrapIED_Gravcore.description>Un gravinúcleo cargado con varios obuses PEM, conectado a un disparador que detona al contacto o impacto de bala. Cuando se activa, se libera una onda gravitacional en un área grande. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.\n\nEl gravinúcleo se conserva después de la explosión.</TrapIED_Gravcore.description>
+  <!-- EN: shield pylon -->
+  <ShieldPylon_GT.label>pilón de escudo</ShieldPylon_GT.label>
+  <!-- EN: A pylon with a gravcore that creates a protective field around itself with a radius of 5 m.\n\nIt does not require electricity.\nRecharges very quickly. -->
+  <ShieldPylon_GT.description>Un pilón con un gravinúcleo que crea un campo protector a su alrededor con un radio de 5 m.\n\nNo requiere electricidad.\nSe recarga muy rápidamente.</ShieldPylon_GT.description>
+  <!-- EN: cooler pylon -->
+  <CoolerPylon_GT.label>pilón enfriador</CoolerPylon_GT.label>
+  <!-- EN: A pylon with a gravcore designed for fast cooling without heat dissipation.\n\nIt does not require electricity.\nGenerates 300W when idle. -->
+  <CoolerPylon_GT.description>Un pilón con un gravinúcleo diseñado para un enfriamiento rápido sin disipación de calor.\n\nNo requiere electricidad.\nGenera 300W cuando está inactivo.</CoolerPylon_GT.description>
+  <!-- EN: heater pylon -->
+  <HeaterPylon_GT.label>pilón calentador</HeaterPylon_GT.label>
+  <!-- EN: A pylon with a gravcore designed for rapid heating of the environment.\n\nIt does not require electricity.\nGenerates 300W when idle. -->
+  <HeaterPylon_GT.description>Un pilón con un gravinúcleo diseñado para un calentamiento rápido del entorno.\n\nNo requiere electricidad.\nGenera 300W cuando está inactivo.</HeaterPylon_GT.description>
+  <!-- EN: gravity decrease pylon -->
+  <GravDecreasePylon_GT.label>pilón de baja gravedad</GravDecreasePylon_GT.label>
+  <!-- EN: A pylon with a gravcore that creates a low gravity field with a radius of 14 m. In this field, pawns move 40% faster and carry more items at a time. -->
+  <GravDecreasePylon_GT.description>Un pilón con un gravinúcleo que crea un campo de baja gravedad con un radio de 14 m. En este campo, los peones se mueven un 40% más rápido y llevan más objetos a la vez.</GravDecreasePylon_GT.description>
+  <!-- EN: gravity increase pylon -->
+  <GravIncreasePylon_GT.label>pilón de alta gravedad</GravIncreasePylon_GT.label>
+  <!-- EN: A pylon with a gravcore that creates a high gravity field with a radius of 7 m. In this field, maximum speed of the pawns is 40% and they are in constant pain. -->
+  <GravIncreasePylon_GT.description>Un pilón con un gravinúcleo que crea un campo de alta gravedad con un radio de 7 m. En este campo, la velocidad máxima de los peones es del 40% y sienten dolor constante.</GravIncreasePylon_GT.description>
+  <!-- EN: empty AI persona core -->
+  <EmptyAICore.label>núcleo de IA vacío</EmptyAICore.label>
+  <!-- EN: This empty core of artificial intelligence is useless on its own, but another AI persona can be copied into it. -->
+  <EmptyAICore.description>Este núcleo vacío de inteligencia artificial sobrehumana es inútil por sí solo, pero se puede copiar otra IA en él.</EmptyAICore.description>
+  <!-- EN: gravitonium -->
+  <Gravitonium.label>gravitonio</Gravitonium.label>
+  <!-- EN: An incredibly durable alloy of uranium, plasteel and gravlite, obtained by compression under large pressure on a grav forge. -->
+  <Gravitonium.description>Una aleación increíblemente duradera de uranio, plastiacero y paneles de gravilita, obtenida por compresión bajo gran presión en una graviforja.</Gravitonium.description>
+  <!-- EN: graweave -->
+  <Graweave.label>tela gravilita</Graweave.label>
+  <!-- EN: This fabric is made by pressing a Devilstrand and Gravlite panels on a Grav forge. Has highly resistant to heat and cold. -->
+  <Graweave.description>Esta tela se fabrica prensando hilodiablo y paneles gravilita en una graviforja. Es altamente resistente al calor y al frío. Desarrollada para travesias prolongadas y entornos orbitales, mantiene su integridad ante cambios termicos bruscos.</Graweave.description>
+  <!-- EN: rough gravlite panel -->
+  <RoughGravlitePanel.label>panel de gravilita rugoso</RoughGravlitePanel.label>
+  <!-- EN: A blank for a gravlite panel, cut from a single piece of vacstone chunk. Final processing requires the crematorium. -->
+  <RoughGravlitePanel.description>Una pieza en bruto para un panel de gravilita, cortada de una sola pieza de trozo de vaciorita. El procesamiento final requiere el crematorio.</RoughGravlitePanel.description>
+  <!-- EN: unfinished AI core -->
+  <UnfinishedAICore.label>núcleo de IA sin terminar</UnfinishedAICore.label>
+  <!-- EN: An unfinished AI Core. -->
+  <UnfinishedAICore.description>Un núcleo de IA sin terminar.</UnfinishedAICore.description>
+  <!-- EN: unfinished gravcore -->
+  <UnfinishedGravcore.label>gravinúcleo sin terminar</UnfinishedGravcore.label>
+  <!-- EN: An unfinished gravcore. -->
+  <UnfinishedGravcore.description>Un gravinúcleo sin terminar.</UnfinishedGravcore.description>
+  <!-- EN: unfinished Grav hammer -->
+  <UnfinishedGravHammer.label>gravimartillo sin terminar</UnfinishedGravHammer.label>
+  <!-- EN: An unfinished Grav hammer. -->
+  <UnfinishedGravHammer.description>Un gravimartillo sin terminar.</UnfinishedGravHammer.description>
+  <!-- EN: unfinished Grav blaster -->
+  <UnfinishedGravBlaster.label>gravibláster sin terminar</UnfinishedGravBlaster.label>
+  <!-- EN: An unfinished Grav blaster. -->
+  <UnfinishedGravBlaster.description>Un gravibláster sin terminar.</UnfinishedGravBlaster.description>
+  <!-- EN: unfinished Grav rifle -->
+  <UnfinishedGravRifle.label>gravifusil sin terminar</UnfinishedGravRifle.label>
+  <!-- EN: An unfinished Grav rifle. -->
+  <UnfinishedGravRifle.description>Un gravifusil sin terminar.</UnfinishedGravRifle.description>
+  <!-- EN: unfinished Grav beam cannon -->
+  <UnfinishedGravBeamCannon.label>cañón de gravirrayos sin terminar</UnfinishedGravBeamCannon.label>
+  <!-- EN: An unfinished Grav beam cannon. -->
+  <UnfinishedGravBeamCannon.description>Un cañón de gravirrayos sin terminar.</UnfinishedGravBeamCannon.description>
+  <!-- EN: grav shield belt -->
+  <Apparel_GravBelt.label>cinturón de graviescudo</Apparel_GravBelt.label>
+  <!-- EN: A projectile-repulsion device based on gravity technologies. It has a small capacity, but a high charging speed. Does not block the use of ranged weapons. Has a special ability. -->
+  <Apparel_GravBelt.description>Un dispositivo de repulsión de proyectiles basado en tecnologías gravitacionales. Tiene poca capacidad, pero una alta velocidad de carga. No bloquea el uso de armas a distancia. Tiene una habilidad especial.</Apparel_GravBelt.description>
+  <!-- EN: grav pack -->
+  <Apparel_GravPack.label>gravimochila</Apparel_GravPack.label>
+  <!-- EN: A special pack gives the wearer three abilities: to move enemies, apply invisibility and summon an aircraft. -->
+  <Apparel_GravPack.description>Una mochila especial que otorga al portador tres habilidades: mover enemigos, aplicar invisibilidad e invocar una aeronave.</Apparel_GravPack.description>
+  <!-- EN: plasteel slag chunk -->
+  <ChunkSlagPlasteel_GT.label>trozo de plastiacero</ChunkSlagPlasteel_GT.label>
+  <!-- EN: A chunk of plasteel slag. While it&apos;s useless in its current form, it can be smelted to recover plasteel. -->
+  <ChunkSlagPlasteel_GT.description>Un trozo de chatarra de plastiacero. Aunque es inútil en su forma actual, se puede fundir para recuperar plastiacero.</ChunkSlagPlasteel_GT.description>
+  <!-- EN: grav spine -->
+  <GravSpine.label>gravicolumna</GravSpine.label>
+  <!-- EN: This is a spine implant with a built-in Gravcore. Increases movement speed and carrying capacity. \nAlso allows jump and hover above the ground. -->
+  <GravSpine.description>Este es un implante de columna con un gravinúcleo incorporado. Aumenta la velocidad de movimiento y la capacidad de carga. \nTambién permite saltar y flotar sobre el suelo.</GravSpine.description>
+  <!-- EN: grav armor -->
+  <GravArmor.label>graviarmadura</GravArmor.label>
+  <!-- EN: This is a combat implant that increases the wearer&apos;s protection and allows him to deploy a protective barrier. -->
+  <GravArmor.description>Este es un implante de combate que aumenta la protección del portador y le permite desplegar una barrera protectora.</GravArmor.description>
+  <!-- EN: gravcore stomach -->
+  <GravStomach.label>graviestómago</GravStomach.label>
+  <!-- EN: An artificial stomach using a Gravcore as an energy source for body. Absolutely safe for health and allows to temporarily enhance pawn combat abilities. -->
+  <GravStomach.description>Un estómago artificial que utiliza un gravinúcleo como fuente de energía para el cuerpo. Absolutamente seguro para la salud y permite mejorar temporalmente las habilidades de combate del peón.</GravStomach.description>
+  <!-- EN: grav hands -->
+  <GravHands.label>gravimanos</GravHands.label>
+  <!-- EN: An additional pair of hands, hovering near to the head. These hands can perform fast and precise operations on both large and small objects. Each hand is equipped with a set of cameras connected to the wearer&apos;s brain. -->
+  <GravHands.description>Un par de manos adicionales, flotando cerca de la cabeza. Estas manos pueden realizar operaciones rápidas y precisas tanto en objetos grandes como pequeños. Cada mano está equipada con un conjunto de cámaras conectadas al cerebro del portador.</GravHands.description>
+  <!-- EN: hydroponic devilstrand -->
+  <Plant_HydroDevilstrand_GT.label>hilodiablo hidropónico</Plant_HydroDevilstrand_GT.label>
+  <!-- EN: This fragile mushroom was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the mushroom takes a very long time to grow, only exotic ultra-tech fabrics outperform its devilstrand fibers.\n\nThis version of mushroom has been modified to grow exclusively on hydroponics. -->
+  <Plant_HydroDevilstrand_GT.description>Este frágil hongo fue diseñado genéticamente para producir una red de seda que es difícil de rasgar y suave al tacto. Aunque el hongo tarda mucho tiempo en crecer, solo las telas exóticas de ultratecnología superan a sus fibras de hilodiablo.\n\nEsta versión del hongo ha sido modificada para crecer exclusivamente en hidroponía.</Plant_HydroDevilstrand_GT.description>
+  <!-- EN: grav blaster -->
+  <GravBlaster.label>gravibláster</GravBlaster.label>
+  <!-- EN: A heavy weapon that launches gravity charges with large area of damage. Ignores armor and shields. -->
+  <GravBlaster.description>Un arma pesada que lanza cargas gravitacionales con una gran área de daño. Ignora armaduras y escudos.</GravBlaster.description>
+  <!-- EN: grav blaster -->
+  <GravBlaster.verbs.Verb_Shoot.label>gravibláster</GravBlaster.verbs.Verb_Shoot.label>
+  <!-- EN: barrel -->
+  <GravBlaster.tools.0.label>cañón</GravBlaster.tools.0.label>
+  <!-- EN: bullet Grav blast -->
+  <Bullet_GravBlast.label>bala de graviexplosión</Bullet_GravBlast.label>
+  <!-- EN: Mote -->
+  <Mote_GravBlaster_Charge.label>TODO</Mote_GravBlaster_Charge.label>
+  <!-- EN: grav beam cannon -->
+  <GravBeamCannon.label>cañón de gravirrayos</GravBeamCannon.label>
+  <!-- EN: A heavy weapon that emits a beam of concentrated gravity waves that cause micro rips in area. Wounds from the beam do not cause severe bleeding, but they do cause very severe pain.\n\nBody parts damaged by the beam reduce the target&apos;s armor and increase taken damage.\nCan place a decelerating barricade on the ground. -->
+  <GravBeamCannon.description>Un arma pesada que emite un rayo de ondas gravitacionales concentradas que causan micro desgarros en el área. Las heridas del rayo no causan sangrado severo, pero causan un dolor muy intenso.\n\nLas partes del cuerpo dañadas por el rayo reducen la armadura del objetivo y aumentan el daño recibido.\nPuede colocar una barricada desaceleradora en el suelo.</GravBeamCannon.description>
+  <!-- EN: barrier charges -->
+  <GravBeamCannon.comps.0.chargeNoun>cargas de barrera</GravBeamCannon.comps.0.chargeNoun>
+  <!-- EN: grav beam cannon -->
+  <GravBeamCannon.verbs.Verb_ShootBeam.label>cañón de gravirrayos</GravBeamCannon.verbs.Verb_ShootBeam.label>
+  <!-- EN: emitter -->
+  <GravBeamCannon.tools.0.label>emisor</GravBeamCannon.tools.0.label>
+  <!-- EN: gravity barrier -->
+  <GravBarrierProj.label>barrera gravitacional</GravBarrierProj.label>
+  <!-- EN: gravity barrier -->
+  <GravBarrier_GT.label>barrera gravitacional</GravBarrier_GT.label>
+  <!-- EN: A temporary gravity barrier projected by gravlite panels on the ground. It works for 5 hours and provides good cover from gunfire.\n\nGreatly slows down the pawns passing through it (does not work on flying). -->
+  <GravBarrier_GT.description>Una barrera gravitacional temporal proyectada por paneles de gravilita en el suelo. Funciona durante 5 horas y proporciona buena cobertura contra disparos.\n\nRalentiza enormemente a los peones que pasan a través de ella (no funciona en vuelo).</GravBarrier_GT.description>
+  <!-- EN: gravity barrier -->
+  <GravBarrierCentre_GT.label>barrera gravitacional</GravBarrierCentre_GT.label>
+  <!-- EN: Service placeholder. -->
+  <GravBarrierCentre_GT.description>Marcador de posición de servicio.</GravBarrierCentre_GT.description>
+  <!-- EN: Mote -->
+  <Mote_GravBeamBase.label>TODO</Mote_GravBeamBase.label>
+  <!-- EN: grav rifle -->
+  <GravRifle.label>gravifusil</GravRifle.label>
+  <!-- EN: A heavy sniper weapon that firing gravitonium bullets. High attack range and damage, but low cooldown rate. It has a special long-range shooting ability. -->
+  <GravRifle.description>Un arma de francotirador pesada que dispara balas de gravitonio. Alto rango de ataque y daño, pero baja cadencia de tiro. Tiene una habilidad especial de disparo de largo alcance.</GravRifle.description>
+  <!-- EN: gravitonium bullet -->
+  <GravRifle.comps.0.chargeNoun>bala de gravitonio</GravRifle.comps.0.chargeNoun>
+  <!-- EN: grav rifle -->
+  <GravRifle.verbs.Verb_Shoot.label>gravifusil</GravRifle.verbs.Verb_Shoot.label>
+  <!-- EN: barrel -->
+  <GravRifle.tools.0.label>cañón</GravRifle.tools.0.label>
+  <!-- EN: bullet grav rifle -->
+  <Bullet_GravRifle.label>bala de gravifusil</Bullet_GravRifle.label>
+  <!-- EN: Mote -->
+  <Mote_GravRifle_Aim.label>TODO</Mote_GravRifle_Aim.label>
+  <!-- EN: distant bullet grav rifle -->
+  <Bullet_GravRifleDistant.label>bala de gravifusil distante</Bullet_GravRifleDistant.label>
+  <!-- EN: grav hammer -->
+  <GravHammer.label>gravimartillo</GravHammer.label>
+  <!-- EN: A warhammer with a Gravcore. Upon impact, it blasts the target with a gravity blast in addition to the physical damage.\nСauses huge damage to buildings.(&gt;1000) -->
+  <GravHammer.description>Un martillo de guerra con un gravinúcleo. Al impactar, golpea al objetivo con una explosión gravitacional además del daño físico.\nCausa un daño enorme a los edificios (&gt;1000).</GravHammer.description>
+  <!-- EN: head -->
+  <GravHammer.tools.0.label>cabeza</GravHammer.tools.0.label>
+  <!-- EN: persona grav hammer -->
+  <GravHammerBladelink.label>gravimartillo con IA</GravHammerBladelink.label>
+  <!-- EN: A warhammer with a Gravcore. Upon impact, it blasts the target with a gravity blast in addition to the physical damage.\nСauses huge damage to buildings.(&gt;1000)
+\n\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon&apos;s persona will refuse to be wielded by anyone else. -->
+  <GravHammerBladelink.description>Un martillo de guerra con un gravinúcleo. Al impactar, golpea al objetivo con una explosión gravitacional además del daño físico.\nCausa un daño enorme a los edificios (&gt;1000)\n\n\nEsta arma tiene una IA a bordo que solo puede vincularse a una sola persona. El portador y el arma inteligente pueden sincronizar sus reflejos y atacar con una velocidad, precisión y creatividad aterradoras. Una vez vinculada a un portador, la IA del arma se negará a ser empuñada por nadie más.</GravHammerBladelink.description>
+  <!-- EN: head -->
+  <GravHammerBladelink.tools.0.label>cabeza</GravHammerBladelink.tools.0.label>
+  <!-- EN: Grav blaster spares -->
+  <GravBlasterSpares.label>TODO</GravBlasterSpares.label>
+  <!-- EN: Spare parts for the Grav blaster. Consumed as cartridges. -->
+  <GravBlasterSpares.description>TODO</GravBlasterSpares.description>
+  <!-- EN: grav blast -->
+  <Bullet_GravBlastCE.label>TODO</Bullet_GravBlastCE.label>
+  <!-- EN: gravitonium bullets (AP) -->
+  <Ammo_GravRifle_AP.label>TODO</Ammo_GravRifle_AP.label>
+  <!-- EN: Heavy bullets made of gravitonium. Armor piercing. -->
+  <Ammo_GravRifle_AP.description>TODO</Ammo_GravRifle_AP.description>
+  <!-- EN: gravitonium bullet (AP) -->
+  <Bullet_GravRifle_AP.label>TODO</Bullet_GravRifle_AP.label>
+  <!-- EN: gravitonium bullets (HP) -->
+  <Ammo_GravRifle_HP.label>TODO</Ammo_GravRifle_HP.label>
+  <!-- EN: Heavy bullets made of gravitonium. Hollow point. -->
+  <Ammo_GravRifle_HP.description>TODO</Ammo_GravRifle_HP.description>
+  <!-- EN: gravitonium bullet (HP) -->
+  <Bullet_GravRifle_HP.label>TODO</Bullet_GravRifle_HP.label>
+  <!-- EN: gravitonium bullets (HE) -->
+  <Ammo_GravRifle_HE.label>TODO</Ammo_GravRifle_HE.label>
+  <!-- EN: Heavy bullets made of gravitonium. Explosive. -->
+  <Ammo_GravRifle_HE.description>TODO</Ammo_GravRifle_HE.description>
+  <!-- EN: gravitonium bullet (HE) -->
+  <Bullet_GravRifle_HE.label>TODO</Bullet_GravRifle_HE.label>
+  <!-- EN: distant bullet grav rifle -->
+  <Bullet_GravRifleDistant_CE.label>TODO</Bullet_GravRifleDistant_CE.label>
+</LanguageData>

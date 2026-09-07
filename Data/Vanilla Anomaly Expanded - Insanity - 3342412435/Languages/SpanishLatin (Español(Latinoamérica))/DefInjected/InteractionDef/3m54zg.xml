@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] spread false rumors about [target]&apos;s [characteristic], damaging their reputation. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] falsely claimed [target] was [slanderousAccusation], causing a stir. -->
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] accused [target] of [slanderousAccusation] in front of others, tarnishing their image. -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic] -->
+  <!-- EN: characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube] -->
+  <!-- EN: target(p=4)-&gt;[RECIPIENT_nameDef] -->
+  <!-- EN: target-&gt;[RECIPIENT_nameDef]&apos;s [PersonFamily] -->
+  <!-- EN: slanderousAccusation-&gt;having secret illegal dealings -->
+  <!-- EN: slanderousAccusation-&gt;betraying their friends -->
+  <!-- EN: slanderousAccusation-&gt;stealing from the community -->
+  <!-- EN: slanderousAccusation-&gt;lying about their credentials -->
+  <!-- EN: slanderousAccusation-&gt;cheating in important matters -->
+  <!-- EN: slanderousAccusation-&gt;being disloyal to the faction -->
+  <!-- EN: slanderousAccusation-&gt;spreading forbidden knowledge -->
+  <!-- EN: slanderousAccusation-&gt;spreading forbidden knowledge -->
+  <!-- EN: slanderousAccusation-&gt;practicing dark arts -->
+  <!-- EN: slanderousAccusation-&gt;sabotaging vital equipment -->
+  <!-- EN: slanderousAccusation-&gt;poisoning the community&apos;s water supply -->
+  <!-- EN: slanderousAccusation-&gt;communicating with enemy factions -->
+  <!-- EN: slanderousAccusation-&gt;embezzling funds -->
+  <!-- EN: slanderousAccusation-&gt;falsifying records -->
+  <!-- EN: slanderousAccusation-&gt;manipulating others for personal gain -->
+  <!-- EN: slanderousAccusation-&gt;aiding criminals -->
+  <!-- EN: slanderousAccusation-&gt;committing treason -->
+  <!-- EN: slanderousAccusation-&gt;lying under oath -->
+  <!-- EN: slanderousAccusation-&gt;hiding a serious illness -->
+  <!-- EN: slanderousAccusation-&gt;forging documents -->
+  <!-- EN: slanderousAccusation-&gt;conducting unethical experiments -->
+  <!-- EN: slanderousAccusation-&gt;stealing intellectual property -->
+  <!-- EN: slanderousAccusation-&gt;hoarding supplies during a shortage -->
+  <!-- EN: slanderousAccusation-&gt;neglecting their duties during a critical moment -->
+  <!-- EN: slanderousAccusation-&gt;providing faulty construction that endangered lives -->
+  <!-- EN: slanderousAccusation-&gt;spreading a contagious disease through negligence -->
+  <!-- EN: slanderousAccusation-&gt;deliberately giving misleading directions to explorers -->
+  <!-- EN: slanderousAccusation-&gt;tampering with the food supply -->
+  <!-- EN: slanderousAccusation-&gt;leading a factional split -->
+  <!-- EN: slanderousAccusation-&gt;inciting unrest among the youth -->
+  <!-- EN: slanderousAccusation-&gt;faking an injury to avoid work -->
+  <!-- EN: slanderousAccusation-&gt;lying about resource finds -->
+  <!-- EN: slanderousAccusation-&gt;secretly trading with hostile entities -->
+  <!-- EN: slanderousAccusation-&gt;sabotaging communication equipment -->
+  <!-- EN: slanderousAccusation-&gt;stealing critical survival gear -->
+  <!-- EN: slanderousAccusation-&gt;wasting water in a drought -->
+  <!-- EN: slanderousAccusation-&gt;violating quarantine protocols -->
+  <!-- EN: slanderousAccusation-&gt;performing forbidden rituals at night -->
+  <!-- EN: slanderousAccusation-&gt;murdering fellow colonists for personal gain -->
+  <!-- EN: slanderousAccusation-&gt;cannibalizing the missing survivors -->
+  <!-- EN: slanderousAccusation-&gt;poisoning community leaders to usurp power -->
+  <!-- EN: slanderousAccusation-&gt;using dark magic to control others -->
+  <!-- EN: slanderousAccusation-&gt;selling children to raiders -->
+  <!-- EN: slanderousAccusation-&gt;planting evidence to frame innocent people -->
+  <!-- EN: slanderousAccusation-&gt;making pacts with demonic entities -->
+  <!-- EN: slanderousAccusation-&gt;orchestrating a massacre of rival factions -->
+  <!-- EN: slanderousAccusation-&gt;betraying the colony&apos;s location to enemy raiders -->
+  <!-- EN: slanderousAccusation-&gt;conducting heinous experiments on live subjects -->
+  <!-- EN: slanderousAccusation-&gt;creating a plague to eliminate undesirables -->
+  <!-- EN: slanderousAccusation-&gt;stealing and desecrating sacred relics -->
+  <!-- EN: slanderousAccusation-&gt;spreading lethal diseases on purpose -->
+  <!-- EN: slanderousAccusation-&gt;sacrificing colonists in secret ceremonies -->
+  <VAEI_Slander.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] difundió falsos rumores sobre [characteristic] de [target], dañando su reputación.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] afirmó falsamente que [target] es culpable de [slanderousAccusation], causando revuelo.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] acusó a [target] de [slanderousAccusation] frente a otros, empañando su imagen.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+    <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+    <li>target-&gt;[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>slanderousAccusation-&gt;tener tratos ilegales secretos</li>
+    <li>slanderousAccusation-&gt;traicionar a sus amigos</li>
+    <li>slanderousAccusation-&gt;robar a la comunidad</li>
+    <li>slanderousAccusation-&gt;mentir sobre sus credenciales</li>
+    <li>slanderousAccusation-&gt;hacer trampa en asuntos importantes</li>
+    <li>slanderousAccusation-&gt;ser desleal a la facción</li>
+    <li>slanderousAccusation-&gt;difundir conocimientos prohibidos</li>
+    <li>slanderousAccusation-&gt;difundir conocimientos prohibidos</li>
+    <li>slanderousAccusation-&gt;practicar artes oscuras</li>
+    <li>slanderousAccusation-&gt;sabotear equipos vitales</li>
+    <li>slanderousAccusation-&gt;envenenar el suministro de agua de la comunidad</li>
+    <li>slanderousAccusation-&gt;comunicarse con facciones enemigas</li>
+    <li>slanderousAccusation-&gt;malversar fondos</li>
+    <li>slanderousAccusation-&gt;falsificar registros</li>
+    <li>slanderousAccusation-&gt;manipular a otros para beneficio personal</li>
+    <li>slanderousAccusation-&gt;ayudar a criminales</li>
+    <li>slanderousAccusation-&gt;cometer traición</li>
+    <li>slanderousAccusation-&gt;mentir bajo juramento</li>
+    <li>slanderousAccusation-&gt;ocultar una enfermedad grave</li>
+    <li>slanderousAccusation-&gt;falsificar documentos</li>
+    <li>slanderousAccusation-&gt;realizar experimentos poco éticos</li>
+    <li>slanderousAccusation-&gt;robar propiedad intelectual</li>
+    <li>slanderousAccusation-&gt;acaparar suministros durante una escasez</li>
+    <li>slanderousAccusation-&gt;descuidar sus deberes durante un momento crítico</li>
+    <li>slanderousAccusation-&gt;proporcionar una construcción defectuosa que puso en peligro vidas</li>
+    <li>slanderousAccusation-&gt;propagar una enfermedad contagiosa por negligencia</li>
+    <li>slanderousAccusation-&gt;dar deliberadamente direcciones engañosas a los exploradores</li>
+    <li>slanderousAccusation-&gt;manipular el suministro de alimentos</li>
+    <li>slanderousAccusation-&gt;liderar una división de facciones</li>
+    <li>slanderousAccusation-&gt;incitar disturbios entre los jóvenes</li>
+    <li>slanderousAccusation-&gt;fingir una lesión para evitar trabajar</li>
+    <li>slanderousAccusation-&gt;mentir sobre hallazgos de recursos</li>
+    <li>slanderousAccusation-&gt;comerciar secretamente con entidades hostiles</li>
+    <li>slanderousAccusation-&gt;sabotear equipos de comunicación</li>
+    <li>slanderousAccusation-&gt;robar equipo de supervivencia crítico</li>
+    <li>slanderousAccusation-&gt;desperdiciar agua en una sequía</li>
+    <li>slanderousAccusation-&gt;violar protocolos de cuarentena</li>
+    <li>slanderousAccusation-&gt;realizar rituales prohibidos por la noche</li>
+    <li>slanderousAccusation-&gt;asesinar a compañeros colonos para beneficio personal</li>
+    <li>slanderousAccusation-&gt;canibalizar a los supervivientes desaparecidos</li>
+    <li>slanderousAccusation-&gt;envenenar a los líderes de la comunidad para usurpar el poder</li>
+    <li>slanderousAccusation-&gt;usar magia oscura para controlar a otros</li>
+    <li>slanderousAccusation-&gt;vender niños a asaltantes</li>
+    <li>slanderousAccusation-&gt;plantar evidencia para incriminar a personas inocentes</li>
+    <li>slanderousAccusation-&gt;hacer pactos con entidades demoníacas</li>
+    <li>slanderousAccusation-&gt;orquestar una masacre de facciones rivales</li>
+    <li>slanderousAccusation-&gt;traicionar la ubicación de la colonia a asaltantes enemigos</li>
+    <li>slanderousAccusation-&gt;realizar experimentos atroces en sujetos vivos</li>
+    <li>slanderousAccusation-&gt;crear una plaga para eliminar indeseables</li>
+    <li>slanderousAccusation-&gt;robar y profanar reliquias sagradas</li>
+    <li>slanderousAccusation-&gt;propagar enfermedades letales a propósito</li>
+    <li>slanderousAccusation-&gt;sacrificar colonos en ceremonias secretas</li>
+  </VAEI_Slander.logRulesInitiator.rulesStrings>
+</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Vehicles Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/li[1]/title</xpath>
+          <value>
+            <!-- EN: Automobile driving proficiency -->
+            <title>TODO</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/li[1]/desc</xpath>
+          <value>
+            <!-- EN: Your intellectual has been bestowed the understanding of how to operate automobiles. Other colonists can now be taught this knowledge in proficiency classes. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/li[1]/title</xpath>
+          <value>
+            <!-- EN: Aerial vehicle proficiency -->
+            <title>TODO</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/li[1]/desc</xpath>
+          <value>
+            <!-- EN: Your intellectual has been bestowed the understanding of how to operate aerial vehicles. Other colonists can now be taught this knowledge in proficiency classes. -->
+            <desc>TODO</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Uranium rounds -->
+  <CWE_Trait_UraniumRounds.label>Munición de uranio</CWE_Trait_UraniumRounds.label>
+  <!-- EN: Its ultra-dense uranium shells can punch through heavy armor, but more time to be loaded after use. -->
+  <CWE_Trait_UraniumRounds.description>Sus proyectiles de uranio ultradenso pueden atravesar blindajes pesados, pero tardan más en recargarse tras usarse.</CWE_Trait_UraniumRounds.description>
+  <!-- EN: flechette ammo -->
+  <CWE_Trait_Flechette.label>munición flechette</CWE_Trait_Flechette.label>
+  <!-- EN: Loads fin-stabilized steel darts that pierce armor more readily, at the cost of reduced precision across all ranges. -->
+  <CWE_Trait_Flechette.description>Carga dardos de acero estabilizados por aletas que perforan el blindaje con más facilidad, a costa de una menor precisión a todas las distancias.</CWE_Trait_Flechette.description>
+  <!-- EN: erosion rounds -->
+  <CWE_Trait_Cinder_ErosionRounds.label>TODO</CWE_Trait_Cinder_ErosionRounds.label>
+  <!-- EN: This erosion rounds reduce the target&apos;s armor. -->
+  <CWE_Trait_Cinder_ErosionRounds.description>TODO</CWE_Trait_Cinder_ErosionRounds.description>
+  <!-- EN: erosion pellets -->
+  <CWE_Trait_Cinder_ErosionPellets.label>TODO</CWE_Trait_Cinder_ErosionPellets.label>
+  <!-- EN: This erosion pellets reduce the target&apos;s armor. -->
+  <CWE_Trait_Cinder_ErosionPellets.description>TODO</CWE_Trait_Cinder_ErosionPellets.description>
+  <!-- EN: extreme heat rounds -->
+  <CWE_Trait_Miho_HeatRounds.label>TODO</CWE_Trait_Miho_HeatRounds.label>
+  <!-- EN: A extreme heat rounds that reduce the target&apos;s armor. -->
+  <CWE_Trait_Miho_HeatRounds.description>TODO</CWE_Trait_Miho_HeatRounds.description>
+  <!-- EN: mechanites rounds -->
+  <CWE_Trait_Miho_MechanitesRounds.label>TODO</CWE_Trait_Miho_MechanitesRounds.label>
+  <!-- EN: A special charge using mechanites, both Mechanoids and humans equally electrocuted. -->
+  <CWE_Trait_Miho_MechanitesRounds.description>TODO</CWE_Trait_Miho_MechanitesRounds.description>
+  <!-- EN: tungsten penetrators -->
+  <CWE_Trait_TungstenPenetrators.label>penetradores de tungsteno</CWE_Trait_TungstenPenetrators.label>
+  <!-- EN: Dense sub-caliber rods optimized for extreme penetration. Harder to group precisely under sustained fire.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_TungstenPenetrators.description>Varillas subcalibre de gran densidad optimizadas para una penetración extrema. Más difíciles de agrupar con precisión en fuego sostenido.\n            Munición para armas gauss/de riel</CWE_Trait_TungstenPenetrators.description>
+  <!-- EN: saboted darts -->
+  <CWE_Trait_SabotedDarts.label>dardos con sabot</CWE_Trait_SabotedDarts.label>
+  <!-- EN: Discard-sabot darts accelerate faster for better penetration and higher burst tempo, at the cost of long-range precision.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_SabotedDarts.description>Los dardos con sabot desechable aceleran más rápido, lo que mejora la penetración y aumenta el ritmo de la ráfaga, a costa de la precisión a larga distancia.\n            Munición para armas gauss/de riel</CWE_Trait_SabotedDarts.description>
+  <!-- EN: ferrite fragmentation -->
+  <CWE_Trait_FerriteFragmentation.label>fragmentación de ferrita</CWE_Trait_FerriteFragmentation.label>
+  <!-- EN: Frangible ferromagnetic slugs that shatter into shards on impact, widening wound channels. Reduced armor penetration, steadier control at short to mid range.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_FerriteFragmentation.description>Balas ferromagnéticas frangibles que se fragmentan en esquirlas al impactar y ensanchan los canales de la herida. Menor penetración de blindaje y mayor control a corta y media distancia.\n            Munición para armas gauss/de riel</CWE_Trait_FerriteFragmentation.description>
+  <!-- EN: emp slugs -->
+  <CWE_Trait_EMPSlugs.label>balas EMP</CWE_Trait_EMPSlugs.label>
+  <!-- EN: Conductive, disruption-tuned slugs that interfere with electronics. Faster cycling but reduced raw penetration.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_EMPSlugs.description>Balas conductoras, ajustadas para la disrupción, que interfieren con la electrónica. Ciclo más rápido, pero menor penetración bruta.\n            Munición para armas gauss/de riel</CWE_Trait_EMPSlugs.description>
+  <!-- EN: thermite core -->
+  <CWE_Trait_ThermiteCore.label>núcleo de termita</CWE_Trait_ThermiteCore.label>
+  <!-- EN: Penetrators with a reactive thermite core that burns after impact. Improves armor punching power with a slight loss of precision.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_ThermiteCore.description>Penetradores con un núcleo reactivo de termita que arde tras el impacto. Mejora la capacidad de perforar blindajes con una ligera pérdida de precisión.\n            Munición para armas gauss/de riel</CWE_Trait_ThermiteCore.description>
+  <!-- EN: Paralytic arrows -->
+  <CWE_Trait_ParalyticArrows.label>Flechas paralizantes</CWE_Trait_ParalyticArrows.label>
+  <!-- EN: Arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
+  <CWE_Trait_ParalyticArrows.description>Flechas impregnadas con una biotoxina paralizante que aturde brevemente a los objetivos.</CWE_Trait_ParalyticArrows.description>
+  <!-- EN: Incendiary Arrow -->
+  <CWE_Trait_FlameArrows.label>Flecha incendiaria</CWE_Trait_FlameArrows.label>
+  <!-- EN: These arrows are loaded with an incendiary compound. Upon impact, they burst into flames, inflicting burns and potentially igniting targets and their surroundings. -->
+  <CWE_Trait_FlameArrows.description>Estas flechas están cargadas con un compuesto incendiario. Al impactar, estallan en llamas, provocan quemaduras y pueden prender fuego a los objetivos y a su entorno.</CWE_Trait_FlameArrows.description>
+  <!-- EN: Tox Arrow -->
+  <CWE_Trait_ToxArrows.label>Flecha tóxica</CWE_Trait_ToxArrows.label>
+  <!-- EN: These arrows are tipped with a potent toxin. They are designed not just to injure, but to poison, inflicting a debilitating toxic buildup on anyone they hit. -->
+  <CWE_Trait_ToxArrows.description>Estas flechas están impregnadas con una potente toxina. No solo están diseñadas para herir, sino para envenenar, e infligen una debilitante acumulación tóxica a quien alcanzan.</CWE_Trait_ToxArrows.description>
+  <!-- EN: piercing arrows -->
+  <CWE_Trait_PiercingArrows.label>flechas perforantes</CWE_Trait_PiercingArrows.label>
+  <!-- EN: This bodkin-tipped arrows, making it more effective against armored targets. -->
+  <CWE_Trait_PiercingArrows.description>Estas flechas llevan punta perforante tipo bodkin, lo que las hace más eficaces contra objetivos blindados.</CWE_Trait_PiercingArrows.description>
+  <!-- EN: broadhead arrows -->
+  <CWE_Trait_BroadheadArrows.label>flechas de punta ancha</CWE_Trait_BroadheadArrows.label>
+  <!-- EN: Arrows tipped with sharp blades, increasing its damage. -->
+  <CWE_Trait_BroadheadArrows.description>Flechas con puntas afiladas que aumentan su daño.</CWE_Trait_BroadheadArrows.description>
+  <!-- EN: lightweight arrows -->
+  <CWE_Trait_LightweightArrows.label>flechas ligeras</CWE_Trait_LightweightArrows.label>
+  <!-- EN: Lightweight arrows, they fly farther but deal less damage. -->
+  <CWE_Trait_LightweightArrows.description>Flechas ligeras: vuelan más lejos, pero infligen menos daño.</CWE_Trait_LightweightArrows.description>
+  <!-- EN: rail alignment kit -->
+  <CWE_Trait_RailAlignmentKit.label>kit de alineación de rieles</CWE_Trait_RailAlignmentKit.label>
+  <!-- EN: Precision truing of the launch rails tightens groups; the tighter tolerances slightly slow cycling.
+            Barrel for Gauss/Rail guns -->
+  <CWE_Trait_RailAlignmentKit.description>El ajuste de precisión de los rieles de lanzamiento cierra los agrupamientos; las tolerancias más estrictas ralentizan un poco la cadencia.\n            Cañón para armas gauss/de riel</CWE_Trait_RailAlignmentKit.description>
+  <!-- EN: induction harmonizer -->
+  <CWE_Trait_InductionHarmonizer.label>armonizador de inducción</CWE_Trait_InductionHarmonizer.label>
+  <!-- EN: Harmonizes induction fields to reduce jitter for steadier shots, slightly slowing split times.
+            Barrel for Gauss/Rail guns -->
+  <CWE_Trait_InductionHarmonizer.description>Armoniza los campos de inducción para reducir las vibraciones y lograr disparos más estables, aunque ralentiza ligeramente la cadencia.\n            Cañón para armas gauss/de riel</CWE_Trait_InductionHarmonizer.description>
+  <!-- EN: Overcharge Gauss Shoot Barrel -->
+  <CWE_Trait_Overcharge_GaussShoot.label>Cañón gauss de sobrecarga</CWE_Trait_Overcharge_GaussShoot.label>
+  <!-- EN: Installs an overcharge circuit that unlocks the Overcharge ability. Activating it supercharges the gauss coils and, after a brief 3s charge-up, fires a single overcharged shot. The blast deals 55 Sharp damage, 50% armor penetration, and high stopping power, but the ability has a long cooldown save it for priority targets. -->
+  <CWE_Trait_Overcharge_GaussShoot.description>Instala un circuito de sobrecarga que desbloquea la habilidad Sobrecarga. Al activarla, sobrecarga las bobinas gauss y, tras una breve carga de 3 s, dispara un único proyectil sobrecargado. La descarga inflige 55 de daño punzante, un 50 % de penetración de blindaje y un gran poder de detención, pero la habilidad tiene un enfriamiento largo: resérvala para los objetivos prioritarios.</CWE_Trait_Overcharge_GaussShoot.description>
+  <!-- EN: thermal lance focus -->
+  <CWE_Trait_ThermalLanceFocus.label>enfoque de lanza térmica</CWE_Trait_ThermalLanceFocus.label>
+  <!-- EN: Extreme focus for cutting shots: harder hits in short strings, reduced reach, and an ignition effect. 
+            Barrel for Laser like guns -->
+  <CWE_Trait_ThermalLanceFocus.description>Enfoque extremo para disparos de corte: impactos más fuertes en ráfagas cortas, menor alcance y efecto de ignición. \n            Cañón para armas tipo láser</CWE_Trait_ThermalLanceFocus.description>
+  <!-- EN: emission diffuser -->
+  <CWE_Trait_EmissionDiffuser.label>difusor de emisión</CWE_Trait_EmissionDiffuser.label>
+  <!-- EN: Spreads and straightens the energy stream for greater effective reach, with a small penalty at point-blank alignment. \nBarrel for Energy guns. -->
+  <CWE_Trait_EmissionDiffuser.description>Dispersa y endereza el flujo de energía para lograr un mayor alcance efectivo, con una pequeña penalización a quemarropa. \nCañón para armas de energía.</CWE_Trait_EmissionDiffuser.description>
+  <!-- EN: field alignment tuner -->
+  <CWE_Trait_FieldAlignmentTuner.label>ajustador de alineación de campo</CWE_Trait_FieldAlignmentTuner.label>
+  <!-- EN: Actively aligns the emission field to reduce aberrations and drift, tightening groups across all ranges. \nBarrel for Energy guns. -->
+  <CWE_Trait_FieldAlignmentTuner.description>Alinea activamente el campo de emisión para reducir aberraciones y desviaciones, lo que cierra los agrupamientos a todas las distancias. \nCañón para armas de energía.</CWE_Trait_FieldAlignmentTuner.description>
+  <!-- EN: cryo-cooler shroud -->
+  <CWE_Trait_CryoCoolerShroud.label>cubierta criorrefrigerante</CWE_Trait_CryoCoolerShroud.label>
+  <!-- EN: Aggressive thermal sinking cuts cooldown between bursts; adds a bit of weight. \nBarrel for Energy guns. -->
+  <CWE_Trait_CryoCoolerShroud.description>La disipación térmica agresiva reduce el enfriamiento entre ráfagas; añade algo de peso. \nCañón para armas de energía.</CWE_Trait_CryoCoolerShroud.description>
+  <!-- EN: phase synchronizer array -->
+  <CWE_Trait_PhaseSynchronizerArray.label>matriz sincronizadora de fase</CWE_Trait_PhaseSynchronizerArray.label>
+  <!-- EN: Synchronizes phase across emitters/coils to improve coherence and reach, at the cost of a slightly calmer split tempo. \nBarrel for Energy guns. -->
+  <CWE_Trait_PhaseSynchronizerArray.description>Sincroniza la fase entre emisores y bobinas para mejorar la coherencia y el alcance, a costa de un ritmo de disparo algo más pausado. \nCañón para armas de energía.</CWE_Trait_PhaseSynchronizerArray.description>
+  <!-- EN: vented heat shroud -->
+  <CWE_Trait_VentedHeatShroud.label>TODO</CWE_Trait_VentedHeatShroud.label>
+  <!-- EN: Aggressive heat venting trims cooldown between strings; a touch of added weight. 
+      Magazine for Plasma like guns. -->
+  <CWE_Trait_VentedHeatShroud.description>TODO</CWE_Trait_VentedHeatShroud.description>
+  <!-- EN: Black camouflage -->
+  <CWE_Trait_CamoBlk.label>TODO</CWE_Trait_CamoBlk.label>
+  <!-- EN: Change the weapon&apos;s camouflage to black. -->
+  <CWE_Trait_CamoBlk.description>TODO</CWE_Trait_CamoBlk.description>
+  <!-- EN: Sand camouflage -->
+  <CWE_Trait_CamoSnd.label>TODO</CWE_Trait_CamoSnd.label>
+  <!-- EN: Change the weapon&apos;s camouflage to sand. -->
+  <CWE_Trait_CamoSnd.description>TODO</CWE_Trait_CamoSnd.description>
+  <!-- EN: Green camouflage -->
+  <CWE_Trait_CamoGrn.label>TODO</CWE_Trait_CamoGrn.label>
+  <!-- EN: Change the weapon&apos;s camouflage to green. -->
+  <CWE_Trait_CamoGrn.description>TODO</CWE_Trait_CamoGrn.description>
+  <!-- EN: Copper camouflage -->
+  <CWE_Trait_CamoCopper.label>TODO</CWE_Trait_CamoCopper.label>
+  <!-- EN: Change the weapon&apos;s camouflage to copper. -->
+  <CWE_Trait_CamoCopper.description>TODO</CWE_Trait_CamoCopper.description>
+  <!-- EN: leather wrap -->
+  <CWE_Trait_LeatherWrap.label>forro de cuero</CWE_Trait_LeatherWrap.label>
+  <!-- EN: Palm-filling leather wrap that improves control and sight return for steadier strings. -->
+  <CWE_Trait_LeatherWrap.description>Forro de cuero que llena la palma y mejora el control y el retorno de la mira para lograr ráfagas más estables.</CWE_Trait_LeatherWrap.description>
+  <!-- EN: palm-swell composite -->
+  <CWE_Trait_PalmSwellComposite.label>compuesto con realce palmar</CWE_Trait_PalmSwellComposite.label>
+  <!-- EN: Shaped palm swell promotes a repeatable anchor and steadier aim. -->
+  <CWE_Trait_PalmSwellComposite.description>El realce palmar moldeado favorece un agarre repetible y una puntería más estable.</CWE_Trait_PalmSwellComposite.description>
+  <!-- EN: carbon grip -->
+  <CWE_Trait_CarbonGrip.label>empuñadura de carbono</CWE_Trait_CarbonGrip.label>
+  <!-- EN: Weight-relieved carbon grip for quicker handling, with reduced mid/long-range steadiness. -->
+  <CWE_Trait_CarbonGrip.description>Empuñadura de carbono aligerada para un manejo más rápido, con menor estabilidad a media y larga distancia.</CWE_Trait_CarbonGrip.description>
+  <!-- EN: Eltex grip -->
+  <CWE_Trait_EltexGrip.label>Empuñadura de eltex</CWE_Trait_EltexGrip.label>
+  <!-- EN: A grip threaded with psychic focusing materials. While it enhances the wielder’s psychic sensitivity and neural heat dissipation -->
+  <CWE_Trait_EltexGrip.description>Una empuñadura entretejida con materiales de enfoque psíquico. Aumenta la sensibilidad psíquica del portador y la disipación del calor neural.</CWE_Trait_EltexGrip.description>
+  <!-- EN: short magazine -->
+  <CWF_Trait_ShortMagazine.label>cargador corto</CWF_Trait_ShortMagazine.label>
+  <!-- EN: Downsized magazine optimized for quick handling and faster follow-up shots; its reduced capacity limits the length of each burst. -->
+  <CWF_Trait_ShortMagazine.description>Cargador reducido, optimizado para un manejo ágil y disparos de seguimiento más rápidos; su menor capacidad limita la duración de cada ráfaga.</CWF_Trait_ShortMagazine.description>
+  <!-- EN: coupled magazine -->
+  <CWF_Trait_CoupledMagazine.label>cargador acoplado</CWF_Trait_CoupledMagazine.label>
+  <!-- EN: Two magazines clipped together for rapid swaps. Speeds cycling between bursts while adding a bit of weight. -->
+  <CWF_Trait_CoupledMagazine.description>Dos cargadores unidos entre sí para cambiarlos con rapidez. Acelera la cadencia entre ráfagas y añade algo de peso.</CWF_Trait_CoupledMagazine.description>
+  <!-- EN: lightweight polymer magazine -->
+  <CWF_Trait_PolymerMagazine.label>cargador ligero de polímero</CWF_Trait_PolymerMagazine.label>
+  <!-- EN: Polymer construction shaves weight and improves cycling for quicker follow-up bursts. -->
+  <CWF_Trait_PolymerMagazine.description>La construcción en polímero reduce el peso y mejora la cadencia para lograr ráfagas de seguimiento más rápidas.</CWF_Trait_PolymerMagazine.description>
+  <!-- EN: weighted counter-balance magazine -->
+  <CWF_Trait_WeightedCounterMagazine.label>cargador contrapesado</CWF_Trait_WeightedCounterMagazine.label>
+  <!-- EN: Adds mass low in the grip to steady recoil. -->
+  <CWF_Trait_WeightedCounterMagazine.description>Añade masa en la parte baja de la empuñadura para estabilizar el retroceso.</CWF_Trait_WeightedCounterMagazine.description>
+  <!-- EN: Extend Energy magazine -->
+  <CWE_Trait_ExtendEnergyMagazine.label>TODO</CWE_Trait_ExtendEnergyMagazine.label>
+  <!-- EN: An enlarged energy cell increases max charge, supporting longer engagements. The deeper reserve also lengthens the full reset time after a complete drain. -->
+  <CWE_Trait_ExtendEnergyMagazine.description>TODO</CWE_Trait_ExtendEnergyMagazine.description>
+  <!-- EN: Fast Recharge magazine -->
+  <CWE_Trait_FasterRechargeMagazine.label>TODO</CWE_Trait_FasterRechargeMagazine.label>
+  <!-- EN: A tuned recharge pack that trades capacity for faster recovery cycles. Reduces max charge, but shortens both recharge interval and full reset time. -->
+  <CWE_Trait_FasterRechargeMagazine.description>TODO</CWE_Trait_FasterRechargeMagazine.description>
+  <!-- EN: multi-channel capacitor bank -->
+  <CWE_Trait_MultiChannelCapBank.label>banco de condensadores multicanal</CWE_Trait_MultiChannelCapBank.label>
+  <!-- EN: Parallelized discharge paths reduce recovery time between volleys, with a noticeable weight increase.
+        Magazine for Gauss/Rail guns -->
+  <CWE_Trait_MultiChannelCapBank.description>Las vías de descarga en paralelo reducen el tiempo de recuperación entre andanadas, con un aumento de peso notable.\n        Cargador para armas gauss/de riel</CWE_Trait_MultiChannelCapBank.description>
+  <!-- EN: heavy capacitor bank -->
+  <CWE_Trait_HeavyCapacitorBank.label>banco de condensadores pesado</CWE_Trait_HeavyCapacitorBank.label>
+  <!-- EN: A dense capacitor bank that shortens recovery between volleys at the cost of significant added weight.
+        Magazine for Gauss/Rail guns -->
+  <CWE_Trait_HeavyCapacitorBank.description>Un banco de condensadores denso que acorta la recuperación entre andanadas a costa de un peso adicional considerable.\n        Cargador para armas gauss/de riel</CWE_Trait_HeavyCapacitorBank.description>
+  <!-- EN: flux-gated charger -->
+  <CWE_Trait_FluxGatedCharger.label>cargador con compuerta de flujo</CWE_Trait_FluxGatedCharger.label>
+  <!-- EN: Smart gating of charge flow reduces spin-up time for quicker first shots.
+        Magazine for Gauss/Rail guns -->
+  <CWE_Trait_FluxGatedCharger.description>La gestión inteligente del flujo de carga reduce el tiempo de arranque y permite disparar antes.\n        Cargador para armas gauss/de riel</CWE_Trait_FluxGatedCharger.description>
+  <!-- EN: overcurrent governor -->
+  <CWE_Trait_OvercurrentGovernor.label>regulador de sobrecorriente</CWE_Trait_OvercurrentGovernor.label>
+  <!-- EN: Limits discharge duration to maintain control and conserve charge—shorter bursts, slightly tighter placement.
+        Magazine for Gauss/Rail guns -->
+  <CWE_Trait_OvercurrentGovernor.description>Limita la duración de la descarga para mantener el control y conservar carga: ráfagas más cortas y una colocación algo más precisa.\n        Cargador para armas gauss/de riel</CWE_Trait_OvercurrentGovernor.description>
+  <!-- EN: high-density energy cell -->
+  <CWE_Trait_HighDensityEnergyCell.label>celda de energía de alta densidad</CWE_Trait_HighDensityEnergyCell.label>
+  <!-- EN: A compact high-capacity cell for longer strings, with slower recovery and added weight. 
+      Magazine for Laser like guns -->
+  <CWE_Trait_HighDensityEnergyCell.description>Una celda compacta de gran capacidad para ráfagas más largas, con una recuperación más lenta y peso añadido. \n      Cargador para armas tipo láser</CWE_Trait_HighDensityEnergyCell.description>
+  <!-- EN: quick-swap cell bay -->
+  <CWE_Trait_QuickSwapCellBay.label>alojamiento de celda de cambio rápido</CWE_Trait_QuickSwapCellBay.label>
+  <!-- EN: Tool-less latch for rapid swaps; faster recovery but shorter strings. 
+      Magazine for Laser like guns -->
+  <CWE_Trait_QuickSwapCellBay.description>Pestillo sin herramientas para cambios rápidos; recuperación más veloz, pero ráfagas más cortas. \n      Cargador para armas tipo láser</CWE_Trait_QuickSwapCellBay.description>
+  <!-- EN: supercapacitor pack -->
+  <CWE_Trait_SupercapacitorPack.label>pack de supercondensadores</CWE_Trait_SupercapacitorPack.label>
+  <!-- EN: Parallel discharge paths push faster splits, with a mild control trade-off and longer cooldown. 
+      Magazine for Laser like guns -->
+  <CWE_Trait_SupercapacitorPack.description>Las vías de descarga en paralelo aceleran los disparos, con una leve pérdida de control y un enfriamiento más largo. \n      Cargador para armas tipo láser</CWE_Trait_SupercapacitorPack.description>
+  <!-- EN: thermal-buffered cell -->
+  <CWE_Trait_ThermalBufferedCell.label>celda con amortiguación térmica</CWE_Trait_ThermalBufferedCell.label>
+  <!-- EN: Heat-sinking sleeve reduces downtime between shoots; adds modest weight. 
+      Magazine for Laser like guns -->
+  <CWE_Trait_ThermalBufferedCell.description>El manguito disipador reduce el tiempo de inactividad entre disparos; añade un peso moderado. \n      Cargador para armas tipo láser</CWE_Trait_ThermalBufferedCell.description>
+  <!-- EN: overcharged battery drum -->
+  <CWE_Trait_OverchargedBatteryDrum.label>tambor de batería sobrecargado</CWE_Trait_OverchargedBatteryDrum.label>
+  <!-- EN: High-output drum for heavy hits in short strings; bulky and slow to recover. 
+      Magazine for Laser like guns. -->
+  <CWE_Trait_OverchargedBatteryDrum.description>Tambor de alta potencia para impactos fuertes en ráfagas cortas; voluminoso y de recuperación lenta. \n      Cargador para armas tipo láser.</CWE_Trait_OverchargedBatteryDrum.description>
+  <!-- EN: capacitor belt-feed -->
+  <CWE_Trait_CapacitorBeltFeed.label>alimentación por cinta de condensadores</CWE_Trait_CapacitorBeltFeed.label>
+  <!-- EN: Belted capacitor cassettes for very long strings; heavier and slower to cool. 
+      Magazine for Laser like guns -->
+  <CWE_Trait_CapacitorBeltFeed.description>Casetes de condensadores en cinta para ráfagas muy largas; más pesado y de enfriamiento más lento. \n      Cargador para armas tipo láser</CWE_Trait_CapacitorBeltFeed.description>
+  <!-- EN: corrosive gel payload -->
+  <CWE_Trait_CorrosiveGelPayload.label>TODO</CWE_Trait_CorrosiveGelPayload.label>
+  <!-- EN: Suspends reactive gel in the plasma for armor scouring and post-impact etching. 
+      Magazine for Plasma like guns. -->
+  <CWE_Trait_CorrosiveGelPayload.description>TODO</CWE_Trait_CorrosiveGelPayload.description>
+  <!-- EN: Heavy suppressor -->
+  <CWE_Trait_Suppressor.label>Silenciador pesado</CWE_Trait_Suppressor.label>
+  <!-- EN: A heavy suppressor that greatly reduces the weapon&apos;s sound signature at the cost of added weight and reduced damage. -->
+  <CWE_Trait_Suppressor.description>Un silenciador pesado que reduce en gran medida la firma sonora del arma a costa de un peso añadido y de menos daño.</CWE_Trait_Suppressor.description>
+  <!-- EN: Muzzle Brake -->
+  <CWE_Trait_MuzzleBrake.label>Freno de boca</CWE_Trait_MuzzleBrake.label>
+  <!-- EN: Compensates for recoil with side jets; increases noise and glare. -->
+  <CWE_Trait_MuzzleBrake.description>Compensa el retroceso con chorros laterales; aumenta el ruido y el fogonazo.</CWE_Trait_MuzzleBrake.description>
+  <!-- EN: Compensator -->
+  <CWE_Trait_Compensator.label>Compensador</CWE_Trait_Compensator.label>
+  <!-- EN: Vents gases upward to reduce muzzle climb and keep the weapon on target during rapid fire. Lighter and more agile than a full brake, favoring close- to mid-range control. -->
+  <CWE_Trait_Compensator.description>Expulsa los gases hacia arriba para reducir el ascenso de la bocacha y mantener el arma sobre el objetivo durante el fuego rápido. Más ligero y ágil que un freno completo, favorece el control a corta y media distancia.</CWE_Trait_Compensator.description>
+  <!-- EN: Full choke -->
+  <CWE_Trait_FullChoke.label>Estrangulador completo</CWE_Trait_FullChoke.label>
+  <!-- EN: A tightly constricted choke that concentrates the shot pattern for far better medium- and long-range performance, at the cost of close-range spread. -->
+  <CWE_Trait_FullChoke.description>Un estrangulador muy cerrado que concentra el patrón de disparo y mejora mucho el rendimiento a media y larga distancia, a costa de la dispersión a corta distancia.</CWE_Trait_FullChoke.description>
+  <!-- EN: Duckbill choke -->
+  <CWE_Trait_DuckbillChoke.label>Estrangulador de pico de pato</CWE_Trait_DuckbillChoke.label>
+  <!-- EN: A flattened choke that spreads the shot horizontally, improving room-clearing coverage at the expense of range and per-shot impact. -->
+  <CWE_Trait_DuckbillChoke.description>Un estrangulador aplanado que dispersa el disparo en horizontal, lo que mejora la cobertura para despejar habitaciones a costa del alcance y del impacto por disparo.</CWE_Trait_DuckbillChoke.description>
+  <!-- EN: Recoil brake -->
+  <CWE_Trait_RecoilBrake.label>Freno de retroceso</CWE_Trait_RecoilBrake.label>
+  <!-- EN: A heavy compensating brake that keeps the muzzle flatter during rapid fire, improving follow-up control and burst handling at the cost of added weight. -->
+  <CWE_Trait_RecoilBrake.description>Un freno compensador pesado que mantiene la bocacha más plana durante el fuego rápido, lo que mejora el control de seguimiento y el manejo de las ráfagas a costa de un peso añadido.</CWE_Trait_RecoilBrake.description>
+  <!-- EN: field collimator -->
+  <CWE_Trait_FieldCollimator.label>colimador de campo</CWE_Trait_FieldCollimator.label>
+  <!-- EN: Shapes muzzle fringe fields to keep projectiles on-axis, boosting distant accuracy with a slight loss up close.
+            Muzzle for Gauss/Rail guns -->
+  <CWE_Trait_FieldCollimator.description>Modela los campos marginales de la bocacha para mantener los proyectiles en eje, lo que mejora la precisión a distancia con una ligera pérdida a corta.\n            Bocacha para armas gauss/de riel</CWE_Trait_FieldCollimator.description>
+  <!-- EN: harmonic tuner muzzle -->
+  <CWE_Trait_HarmonicTunerMuzzle.label>bocacha armonizadora</CWE_Trait_HarmonicTunerMuzzle.label>
+  <!-- EN: Adjustable muzzle weight that tunes system harmonics, improving mid- to long-range precision and slightly reducing pre-shot settle.
+            Muzzle for Gauss/Rail guns -->
+  <CWE_Trait_HarmonicTunerMuzzle.description>Peso de bocacha ajustable que afina las armónicas del sistema, mejora la precisión a media y larga distancia y reduce ligeramente el asentamiento previo al disparo.\n            Bocacha para armas gauss/de riel</CWE_Trait_HarmonicTunerMuzzle.description>
+  <!-- EN: muzzle mass damper -->
+  <CWE_Trait_MuzzleMassDamper.label>amortiguador de masa de bocacha</CWE_Trait_MuzzleMassDamper.label>
+  <!-- EN: A front-weighted damper that reduces muzzle jump for steadier bursts, slightly slowing split times.
+            Muzzle for Gauss/Rail guns -->
+  <CWE_Trait_MuzzleMassDamper.description>Un amortiguador con peso delantero que reduce el salto de la bocacha para lograr ráfagas más estables, aunque ralentiza ligeramente la cadencia.\n            Bocacha para armas gauss/de riel</CWE_Trait_MuzzleMassDamper.description>
+  <!-- EN: multi-emitter manifold -->
+  <CWE_Trait_MultiEmitterManifold.label>colector multiemisor</CWE_Trait_MultiEmitterManifold.label>
+  <!-- EN: Divides discharge into multiple sub-pulses/streams, increasing shots per burst while reducing per-shot effect and long-range precision. 
+            Muzzle for Energy guns. -->
+  <CWE_Trait_MultiEmitterManifold.description>Divide la descarga en varios subpulsos o flujos, lo que aumenta los disparos por ráfaga y reduce el efecto por disparo y la precisión a larga distancia. \n            Bocacha para armas de energía.</CWE_Trait_MultiEmitterManifold.description>
+  <!-- EN: aperture collimator -->
+  <CWE_Trait_ApertureCollimator.label>colimador de apertura</CWE_Trait_ApertureCollimator.label>
+  <!-- EN: Adjustable aperture that favors precision over volume, improving accuracy while reducing burst length. 
+            Muzzle for Energy guns. -->
+  <CWE_Trait_ApertureCollimator.description>Apertura ajustable que prioriza la precisión sobre el volumen de fuego: mejora la precisión y reduce la duración de las ráfagas. \n            Bocacha para armas de energía.</CWE_Trait_ApertureCollimator.description>
+  <!-- EN: focused lance cone -->
+  <CWE_Trait_FocusedLanceCone.label>cono de lanza enfocado</CWE_Trait_FocusedLanceCone.label>
+  <!-- EN: A hardened, tight focus that concentrates energy on target for greater damage, with a slight near-field alignment penalty. 
+            Muzzle for Energy guns. -->
+  <CWE_Trait_FocusedLanceCone.description>Un enfoque endurecido y estrecho que concentra la energía en el objetivo para infligir más daño, con una ligera penalización de alineación a corta distancia. \n            Bocacha para armas de energía.</CWE_Trait_FocusedLanceCone.description>
+  <!-- EN: Light frame receiver -->
+  <CWE_Trait_Receiver_Light.label>Mecanismos de armazón ligero</CWE_Trait_Receiver_Light.label>
+  <!-- EN: A light frame receiver reduces weapon weight at the cost of precision. -->
+  <CWE_Trait_Receiver_Light.description>Unos mecanismos de armazón ligero reducen el peso del arma a costa de la precisión.</CWE_Trait_Receiver_Light.description>
+  <!-- EN: Heavy frame receiver -->
+  <CWE_Trait_Receiver_Heavy.label>Mecanismos de armazón pesado</CWE_Trait_Receiver_Heavy.label>
+  <!-- EN: A heavy frame receiver improves the gun&apos;s accuracy at the expense of weight. -->
+  <CWE_Trait_Receiver_Heavy.description>Unos mecanismos de armazón pesado mejoran la precisión del arma a costa del peso.</CWE_Trait_Receiver_Heavy.description>
+  <!-- EN: Low Energy Receiver -->
+  <CWE_Trait_LowEnergyReceiver.label>TODO</CWE_Trait_LowEnergyReceiver.label>
+  <!-- EN: A lightweight, low-capacitance receiver with reduced max charge, but significantly faster recharge cadence and full reset time. -->
+  <CWE_Trait_LowEnergyReceiver.description>TODO</CWE_Trait_LowEnergyReceiver.description>
+  <!-- EN: High-Capacitance Receiver -->
+  <CWE_Trait_HighCapacitanceReceiver.label>TODO</CWE_Trait_HighCapacitanceReceiver.label>
+  <!-- EN: A heavy, high-capacitance receiver that greatly boosts max charge for sustained fire. Recharge interval is doubled, but full reset time is dramatically reduced. -->
+  <CWE_Trait_HighCapacitanceReceiver.description>TODO</CWE_Trait_HighCapacitanceReceiver.description>
+  <!-- EN: superconducting coils -->
+  <CWE_Trait_SuperconductingCoils.label>bobinas superconductoras</CWE_Trait_SuperconductingCoils.label>
+  <!-- EN: Low-resistance coils shorten spin-up for faster first shots, while adding bulk to the assembly.
+            Receivers for Gauss/Rail guns -->
+  <CWE_Trait_SuperconductingCoils.description>Unas bobinas de baja resistencia acortan el arranque y permiten disparar antes, aunque añaden volumen al conjunto.\n            Mecanismos para armas gauss/de riel</CWE_Trait_SuperconductingCoils.description>
+  <!-- EN: flux compensator -->
+  <CWE_Trait_FluxCompensator.label>compensador de flujo</CWE_Trait_FluxCompensator.label>
+  <!-- EN: Counteracts parasitic forces in the launch rails, tightening groups at a modest cost to cycling speed.
+            Receivers for Gauss/Rail guns -->
+  <CWE_Trait_FluxCompensator.description>Contrarresta las fuerzas parásitas en los rieles de lanzamiento y cierra los agrupamientos con un coste moderado en la velocidad de ciclo.\n            Mecanismos para armas gauss/de riel</CWE_Trait_FluxCompensator.description>
+  <!-- EN: coil overdrive -->
+  <CWE_Trait_CoilOverdrive.label>sobreimpulso de bobinas</CWE_Trait_CoilOverdrive.label>
+  <!-- EN: Overdriven coil current produces very fast split times, at the expense of precision.
+            Receivers for Gauss/Rail guns -->
+  <CWE_Trait_CoilOverdrive.description>La sobrecorriente en las bobinas produce cadencias muy rápidas, a costa de la precisión.\n            Mecanismos para armas gauss/de riel</CWE_Trait_CoilOverdrive.description>
+  <!-- EN: pulse compression module -->
+  <CWE_Trait_PulseCompressionModule.label>módulo de compresión de pulsos</CWE_Trait_PulseCompressionModule.label>
+  <!-- EN: Temporarily stores energy and releases tightly compressed pulses, hitting harder while shortening bursts and slightly lengthening recovery. 
+            Receivers for Energy guns -->
+  <CWE_Trait_PulseCompressionModule.description>Almacena energía temporalmente y libera pulsos muy comprimidos: golpea más fuerte, acorta las ráfagas y alarga un poco la recuperación. \n            Mecanismos para armas de energía</CWE_Trait_PulseCompressionModule.description>
+  <!-- EN: frequency modulator -->
+  <CWE_Trait_FrequencyModulator.label>modulador de frecuencia</CWE_Trait_FrequencyModulator.label>
+  <!-- EN: Shifts the operating frequency for better coupling, yielding modest gains in range and damage with a slight warmup cost. 
+            Receivers for Energy guns. -->
+  <CWE_Trait_FrequencyModulator.description>Desplaza la frecuencia de trabajo para mejorar el acoplamiento, lo que aporta mejoras moderadas de alcance y daño con un ligero coste en la preparación. \n            Mecanismos para armas de energía.</CWE_Trait_FrequencyModulator.description>
+  <!-- EN: feedback isolator -->
+  <CWE_Trait_FeedbackIsolator.label>aislador de retroalimentación</CWE_Trait_FeedbackIsolator.label>
+  <!-- EN: Prevents harmful feedback into the power path, stabilizing the emitter and trimming warmup; improves close-range steadiness. 
+            Receivers for Energy guns. -->
+  <CWE_Trait_FeedbackIsolator.description>Evita la retroalimentación dañina hacia la vía de potencia, estabiliza el emisor y recorta la preparación; mejora la estabilidad a corta distancia. \n            Mecanismos para armas de energía.</CWE_Trait_FeedbackIsolator.description>
+  <!-- EN: pulse timing controller -->
+  <CWE_Trait_PulseTimingController.label>controlador de sincronización de pulsos</CWE_Trait_PulseTimingController.label>
+  <!-- EN: Locks discharge into short, regular pulses for tidier strings and steadier long-range placement; mildly reduces split speed. 
+            Receivers for Energy guns. -->
+  <CWE_Trait_PulseTimingController.description>Bloquea la descarga en pulsos cortos y regulares para lograr ráfagas más ordenadas y una colocación más estable a larga distancia; reduce levemente la cadencia. \n            Mecanismos para armas de energía.</CWE_Trait_PulseTimingController.description>
+  <!-- EN: cryo-plasma injector -->
+  <CWE_Trait_CryoPlasmaInjector.label>TODO</CWE_Trait_CryoPlasmaInjector.label>
+  <!-- EN: Cools the plasma mix for shock and slowdown effects; less raw damage, snappier cycling. 
+      Magazine for Plasma like guns. -->
+  <CWE_Trait_CryoPlasmaInjector.description>TODO</CWE_Trait_CryoPlasmaInjector.description>
+  <!-- EN: EMP braid injector -->
+  <CWE_Trait_EMPInjectorBraid.label>TODO</CWE_Trait_EMPInjectorBraid.label>
+  <!-- EN: Conductive filaments seed the bolt for disruptive bursts against electronics. 
+      Magazine for Plasma like guns. -->
+  <CWE_Trait_EMPInjectorBraid.description>TODO</CWE_Trait_EMPInjectorBraid.description>
+  <!-- EN: Eltex stock -->
+  <CWE_Trait_EltexStock.label>Culata de eltex</CWE_Trait_EltexStock.label>
+  <!-- EN: A stock threaded with psychic focusing materials. While it enhances the wielder’s psychic sensitivity and neural heat dissipation -->
+  <CWE_Trait_EltexStock.description>Una culata entretejida con materiales de enfoque psíquico. Aumenta la sensibilidad psíquica del portador y la disipación del calor neural.</CWE_Trait_EltexStock.description>
+  <!-- EN: hair trigger -->
+  <CWF_Trait_HairTrigger.label>gatillo ultrasensible</CWF_Trait_HairTrigger.label>
+  <!-- EN: An ultra-sensitive trigger with minimal travel and an aggressive reset, enabling extremely rapid bursts. The feather-light break is harder to control, slightly degrading accuracy at all ranges. -->
+  <CWF_Trait_HairTrigger.description>Un gatillo ultrasensible, de recorrido mínimo y reinicio agresivo, que permite ráfagas extremadamente rápidas. Su disparo tan ligero es más difícil de controlar y degrada un poco la precisión a todas las distancias.</CWF_Trait_HairTrigger.description>
+  <!-- EN: match-grade trigger -->
+  <CWF_Trait_MatchGradeTrigger.label>gatillo de competición</CWF_Trait_MatchGradeTrigger.label>
+  <!-- EN: A precision-tuned trigger with minimal creep and a clean break, improving accuracy at all ranges. -->
+  <CWF_Trait_MatchGradeTrigger.description>Un gatillo de precisión, con un recorrido mínimo y un disparo limpio, que mejora la precisión a todas las distancias.</CWF_Trait_MatchGradeTrigger.description>
+  <!-- EN: heavy duty trigger -->
+  <CWF_Trait_HeavyDutyTrigger.label>gatillo reforzado</CWF_Trait_HeavyDutyTrigger.label>
+  <!-- EN: A stiffer, durable trigger pack that reduces accidental discharge and steadies control, at the cost of slower split times. -->
+  <CWF_Trait_HeavyDutyTrigger.description>Un conjunto de gatillo más duro y resistente que reduce los disparos accidentales y estabiliza el control, a costa de una cadencia más lenta.</CWF_Trait_HeavyDutyTrigger.description>
+  <!-- EN: fast-gating emitter -->
+  <CWE_Trait_FastGatingEmitter.label>emisor de conmutación rápida</CWE_Trait_FastGatingEmitter.label>
+  <!-- EN: High-speed gating drives very quick splits, with a small precision trade-off. 
+            Triggers for Energy guns. -->
+  <CWE_Trait_FastGatingEmitter.description>La conmutación de alta velocidad permite disparos muy rápidos, con una pequeña pérdida de precisión. \n            Gatillo para armas de energía.</CWE_Trait_FastGatingEmitter.description>
+  <!-- EN: Knife -->
+  <CWE_Trait_Knife.label>Cuchillo</CWE_Trait_Knife.label>
+  <!-- EN: A fixed bayonet mounted under the barrel for close-quarters work. Hits harder and recovers faster in melee, but the added front mass slightly reduces accuracy at range. -->
+  <CWE_Trait_Knife.description>Una bayoneta fija montada bajo el cañón para el combate a corta distancia. Golpea más fuerte y se recupera más rápido en cuerpo a cuerpo, pero la masa añadida en la parte delantera reduce ligeramente la precisión a distancia.</CWE_Trait_Knife.description>
+  <!-- EN: Tox launcher -->
+  <CWE_Trait_Tox_Launcher.label>Lanzagranadas tóxicas</CWE_Trait_Tox_Launcher.label>
+  <!-- EN: Launch a tox grenade. Can be reloaded using steel. -->
+  <CWE_Trait_Tox_Launcher.description>Lanza una granada tóxica. Se puede recargar con acero.</CWE_Trait_Tox_Launcher.description>
+  <!-- EN: grenade -->
+  <CWE_Trait_Tox_Launcher.abilityProps.chargeNoun>granada</CWE_Trait_Tox_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Flash launcher -->
+  <CWE_Trait_Flash_Launcher.label>Lanzagranadas de destello</CWE_Trait_Flash_Launcher.label>
+  <!-- EN: A utility launcher that shoots flash grenades. Temporarily stuns organic enemies allowing users to close the distance. -->
+  <CWE_Trait_Flash_Launcher.description>Un lanzador de utilidad que dispara granadas de destello. Aturde temporalmente a los enemigos orgánicos, lo que permite al usuario acortar la distancia.</CWE_Trait_Flash_Launcher.description>
+  <!-- EN: shell -->
+  <CWE_Trait_Flash_Launcher.abilityProps.chargeNoun>proyectil</CWE_Trait_Flash_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Shotgun slug attachment -->
+  <CWE_Trait_Shotgun_UnderbarrelSlug.label>Accesorio de escopeta con bala maciza</CWE_Trait_Shotgun_UnderbarrelSlug.label>
+  <!-- EN: A under-barrel shotgun attachment loaded with a solid slug round. It sacrifices pellet spread for a single heavy-impact shot, giving the user a compact breaching and anti-armor option without switching weapons. -->
+  <CWE_Trait_Shotgun_UnderbarrelSlug.description>Un accesorio de escopeta bajo el cañón cargado con una bala maciza. Sacrifica la dispersión de los perdigones a cambio de un único disparo de gran impacto, lo que ofrece al usuario una opción compacta de derribo y antiblindaje sin cambiar de arma.</CWE_Trait_Shotgun_UnderbarrelSlug.description>
+  <!-- EN: Shotgun emp attachment -->
+  <CWE_Trait_Shotgun_UnderbarrelEMP.label>Accesorio de escopeta EMP</CWE_Trait_Shotgun_UnderbarrelEMP.label>
+  <!-- EN: A under-barrel shotgun attachment configured to fire EMP shells. Instead of raw stopping power, it delivers a close-range pulse designed to disable shields, machinery, and electronic targets without requiring a weapon swap. -->
+  <CWE_Trait_Shotgun_UnderbarrelEMP.description>Un accesorio de escopeta bajo el cañón configurado para disparar proyectiles EMP. En lugar de poder de detención bruto, lanza un pulso a corta distancia diseñado para inutilizar escudos, maquinaria y objetivos electrónicos sin necesidad de cambiar de arma.</CWE_Trait_Shotgun_UnderbarrelEMP.description>
+  <!-- EN: Tear gas launcher -->
+  <CWE_Trait_TearGas_Launcher.label>TODO</CWE_Trait_TearGas_Launcher.label>
+  <!-- EN: A modern single-shell launcher loaded with tear gas canisters. Often used by riot police across almost all urbworlds. -->
+  <CWE_Trait_TearGas_Launcher.description>TODO</CWE_Trait_TearGas_Launcher.description>
+  <!-- EN: shell -->
+  <CWE_Trait_TearGas_Launcher.abilityProps.chargeNoun>TODO</CWE_Trait_TearGas_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Tactical Lantern -->
+  <CWE_Trait_TacticalLantern.label>Linterna táctica</CWE_Trait_TacticalLantern.label>
+  <!-- EN: A weapon-mounted light with on/off control. Aids aiming in dark tiles. -->
+  <CWE_Trait_TacticalLantern.description>Una luz montada en el arma con control de encendido/apagado. Ayuda a apuntar en casillas oscuras.</CWE_Trait_TacticalLantern.description>
+  <!-- EN: Vertical grip (Lantern) -->
+  <CWE_Trait_VerticalGrip_Lantern.label>Empuñadura vertical (linterna)</CWE_Trait_VerticalGrip_Lantern.label>
+  <!-- EN: This vertical foregrip provides an additional point of contact, giving the user greater control over the weapon. This enhanced stability is particularly effective for improving aiming precision during close-quarters combat. \n Contains almost weapon-mounted light with on/off control. Aids aiming in dark tiles. -->
+  <CWE_Trait_VerticalGrip_Lantern.description>Esta empuñadura delantera vertical ofrece un punto de contacto adicional que da al usuario un mayor control sobre el arma. Esta mayor estabilidad resulta especialmente eficaz para mejorar la precisión de puntería en el combate a corta distancia. \n Incluye una luz montada en el arma con control de encendido/apagado. Ayuda a apuntar en casillas oscuras.</CWE_Trait_VerticalGrip_Lantern.description>
+  <!-- EN: Triangular grip (Lantern) -->
+  <CWE_Trait_TriangularGrip_Lantern.label>Empuñadura triangular (linterna)</CWE_Trait_TriangularGrip_Lantern.label>
+  <!-- EN: The ergonomic design of this triangular foregrip allows for a more natural and comfortable hold. This improved handling makes it quicker to bring the weapon to a ready position and enhances stability for precise shots at point-blank range. \n Contains a weapon-mounted light with on/off control. Aids aiming in dark tiles. -->
+  <CWE_Trait_TriangularGrip_Lantern.description>El diseño ergonómico de esta empuñadura delantera triangular permite un agarre más natural y cómodo. Este mejor manejo permite poner el arma en posición de disparo más rápido y mejora la estabilidad para lograr disparos precisos a quemarropa. \n Incluye una luz montada en el arma con control de encendido/apagado. Ayuda a apuntar en casillas oscuras.</CWE_Trait_TriangularGrip_Lantern.description>
+  <!-- EN: Laser sight (Lantern) -->
+  <CWE_Trait_LaserSight_Lantern.label>Mira láser (linterna)</CWE_Trait_LaserSight_Lantern.label>
+  <!-- EN: This module projects a visible laser dot directly onto the target. This allows for rapid, intuitive point-and-shoot aiming, which significantly speeds up target acquisition and increases precision in close to medium-range engagements. \n Contains a weapon-mounted light with on/off control. Aids aiming in dark tiles. -->
+  <CWE_Trait_LaserSight_Lantern.description>Este módulo proyecta un punto láser visible directamente sobre el objetivo. Esto permite apuntar y disparar de forma rápida e intuitiva, lo que acelera notablemente la adquisición de objetivos y aumenta la precisión en los enfrentamientos a corta y media distancia. \n Incluye una luz montada en el arma con control de encendido/apagado. Ayuda a apuntar en casillas oscuras.</CWE_Trait_LaserSight_Lantern.description>
+  <!-- EN: Vertical grip (Laser sight) -->
+  <CWE_Trait_VerticalGrip_Laser.label>Empuñadura vertical (mira láser)</CWE_Trait_VerticalGrip_Laser.label>
+  <!-- EN: This vertical foregrip provides an additional point of contact, giving the user greater control over the weapon. This enhanced stability is particularly effective for improving aiming precision during close-quarters combat. \n Featuring a module that projects a visible laser pointer directly onto the target. -->
+  <CWE_Trait_VerticalGrip_Laser.description>Esta empuñadura delantera vertical ofrece un punto de contacto adicional que da al usuario un mayor control sobre el arma. Esta mayor estabilidad resulta especialmente eficaz para mejorar la precisión de puntería en el combate a corta distancia. \n Incorpora un módulo que proyecta un puntero láser visible directamente sobre el objetivo.</CWE_Trait_VerticalGrip_Laser.description>
+  <!-- EN: Bipod -->
+  <CWE_Trait_Bipod.label>Bípode</CWE_Trait_Bipod.label>
+  <!-- EN: Retractable bipod for stabilization. When armed, it reduces sway and recoil, but requires preparation to achieve maximum effect. -->
+  <CWE_Trait_Bipod.description>Bípode retráctil para estabilizar el arma. Cuando está desplegado, reduce la oscilación y el retroceso, pero requiere preparación para lograr el máximo efecto.</CWE_Trait_Bipod.description>
+  <!-- EN: Plasma Grenade launcher -->
+  <CWE_Trait_PlasmaGrenade_Launcher.label>TODO</CWE_Trait_PlasmaGrenade_Launcher.label>
+  <!-- EN: A launcher that shoots plasma-fusion ignition grenades. Long fragile bombs that trigger an internal fusion reaction, once thrown the vessel implodes and a scalding plasma ball sears and vaporizes organic material. -->
+  <CWE_Trait_PlasmaGrenade_Launcher.description>TODO</CWE_Trait_PlasmaGrenade_Launcher.description>
+  <!-- EN: shell -->
+  <CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>TODO</CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Mounted Sonic Stunner -->
+  <CWE_Trait_SonicStunner.label>TODO</CWE_Trait_SonicStunner.label>
+  <!-- EN: An ultra-sonic wave personal defense device. Utilizing an advanced high-power projector dish it creates an intense pulse of sound that disorients and stuns targets, rendering them unable to move for a short while. The sound pulses are ineffective against anything except humans, animals and mechanoids. -->
+  <CWE_Trait_SonicStunner.description>TODO</CWE_Trait_SonicStunner.description>
+  <!-- EN: Myth Dust Launcher -->
+  <CWE_Trait_MysticDust_Launcher.label>TODO</CWE_Trait_MysticDust_Launcher.label>
+  <!-- EN: Launch a myth dust grenade. \n\nThis type of mystic dust micro-mechanism is target-programmed to attack nearby precision electronic equipment. Unlike EMP attacks, all mechanoid exposed to the dust cloud will be continuously paralyzed until the cloud dissipates.Except respiratory-related implants, other bionic bodies are unaffected. This provides soldiers with a brief window of opportunity for evacuation or assault. -->
+  <CWE_Trait_MysticDust_Launcher.description>TODO</CWE_Trait_MysticDust_Launcher.description>
+  <!-- EN: charges -->
+  <CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>TODO</CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>
+  <!-- EN: shard shearing lattice -->
+  <CWE_Trait_ShardShearingLattice.label>TODO</CWE_Trait_ShardShearingLattice.label>
+  <!-- EN: Refines the crystal shear into smaller, more numerous shards; longer barrages with lighter per-shot impact. -->
+  <CWE_Trait_ShardShearingLattice.description>TODO</CWE_Trait_ShardShearingLattice.description>
+  <!-- EN: homing prism array -->
+  <CWE_Trait_HomingPrismArray.label>TODO</CWE_Trait_HomingPrismArray.label>
+  <!-- EN: Enhanced target painting and beam-split prisms improve homing consistency at range. -->
+  <CWE_Trait_HomingPrismArray.description>TODO</CWE_Trait_HomingPrismArray.description>
+  <!-- EN: accretion governor -->
+  <CWE_Trait_AccretionGovernor.label>TODO</CWE_Trait_AccretionGovernor.label>
+  <!-- EN: Controls shard accretion to favor critical mass events; fewer, heavier hits per string. -->
+  <CWE_Trait_AccretionGovernor.description>TODO</CWE_Trait_AccretionGovernor.description>
+  <!-- EN: resonant phase tuner -->
+  <CWE_Trait_ResonantPhaseTuner.label>TODO</CWE_Trait_ResonantPhaseTuner.label>
+  <!-- EN: Phase tuning encourages in-target resonance for brief disruptions; steadier groups, calmer splits. -->
+  <CWE_Trait_ResonantPhaseTuner.description>TODO</CWE_Trait_ResonantPhaseTuner.description>
+  <!-- EN: crystal quiver magazine -->
+  <CWE_Trait_CrystalQuiverMagazine.label>TODO</CWE_Trait_CrystalQuiverMagazine.label>
+  <!-- EN: Expanded crystal hopper feeds long strings but adds bulk and slows recovery. -->
+  <CWE_Trait_CrystalQuiverMagazine.description>TODO</CWE_Trait_CrystalQuiverMagazine.description>
+  <!-- EN: microshard feeder -->
+  <CWE_Trait_MicroshardFeeder.label>TODO</CWE_Trait_MicroshardFeeder.label>
+  <!-- EN: High-rate microshard feed boosts volume; each shard hits softer. -->
+  <CWE_Trait_MicroshardFeeder.description>TODO</CWE_Trait_MicroshardFeeder.description>
+  <!-- EN: detonation primer -->
+  <CWE_Trait_DetonationPrimer.label>TODO</CWE_Trait_DetonationPrimer.label>
+  <!-- EN: Embedded primers bias the cascade toward micro-detonations; fewer, harder pulses. -->
+  <CWE_Trait_DetonationPrimer.description>TODO</CWE_Trait_DetonationPrimer.description>
+  <!-- EN: implosion seed core -->
+  <CWE_Trait_ImplosionSeedCore.label>TODO</CWE_Trait_ImplosionSeedCore.label>
+  <!-- EN: Seeds each shard with an instability nucleus that favors implosive cascades on critical mass. -->
+  <CWE_Trait_ImplosionSeedCore.description>TODO</CWE_Trait_ImplosionSeedCore.description>
+  <!-- EN: Alliance Stability Damper I -->
+  <CWE_Trait_MA_StabilityDamperI.label>TODO</CWE_Trait_MA_StabilityDamperI.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperI.description>TODO</CWE_Trait_MA_StabilityDamperI.description>
+  <!-- EN: Alliance Stability Damper II -->
+  <CWE_Trait_MA_StabilityDamperII.label>TODO</CWE_Trait_MA_StabilityDamperII.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperII.description>TODO</CWE_Trait_MA_StabilityDamperII.description>
+  <!-- EN: Alliance Stability Damper III -->
+  <CWE_Trait_MA_StabilityDamperIII.label>TODO</CWE_Trait_MA_StabilityDamperIII.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperIII.description>TODO</CWE_Trait_MA_StabilityDamperIII.description>
+  <!-- EN: Alliance Magazine Upgrade I -->
+  <CWE_Trait_MA_MagazineUpgradeI.label>TODO</CWE_Trait_MA_MagazineUpgradeI.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeI.description>TODO</CWE_Trait_MA_MagazineUpgradeI.description>
+  <!-- EN: Alliance Magazine Upgrade II -->
+  <CWE_Trait_MA_MagazineUpgradeII.label>TODO</CWE_Trait_MA_MagazineUpgradeII.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeII.description>TODO</CWE_Trait_MA_MagazineUpgradeII.description>
+  <!-- EN: Alliance Magazine Upgrade III -->
+  <CWE_Trait_MA_MagazineUpgradeIII.label>TODO</CWE_Trait_MA_MagazineUpgradeIII.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeIII.description>TODO</CWE_Trait_MA_MagazineUpgradeIII.description>
+  <!-- EN: Alliance Piercing Mod I -->
+  <CWE_Trait_MA_PiercingModI.label>TODO</CWE_Trait_MA_PiercingModI.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModI.description>TODO</CWE_Trait_MA_PiercingModI.description>
+  <!-- EN: Alliance Piercing Mod II -->
+  <CWE_Trait_MA_PiercingModII.label>TODO</CWE_Trait_MA_PiercingModII.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModII.description>TODO</CWE_Trait_MA_PiercingModII.description>
+  <!-- EN: Alliance Piercing Mod III -->
+  <CWE_Trait_MA_PiercingModIII.label>TODO</CWE_Trait_MA_PiercingModIII.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModIII.description>TODO</CWE_Trait_MA_PiercingModIII.description>
+  <!-- EN: Alliance Extended Barrel I -->
+  <CWE_Trait_MA_ExtendedBarrelI.label>TODO</CWE_Trait_MA_ExtendedBarrelI.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelI.description>TODO</CWE_Trait_MA_ExtendedBarrelI.description>
+  <!-- EN: Alliance Extended Barrel II -->
+  <CWE_Trait_MA_ExtendedBarrelII.label>TODO</CWE_Trait_MA_ExtendedBarrelII.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelII.description>TODO</CWE_Trait_MA_ExtendedBarrelII.description>
+  <!-- EN: Alliance Extended Barrel III -->
+  <CWE_Trait_MA_ExtendedBarrelIII.label>TODO</CWE_Trait_MA_ExtendedBarrelIII.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelIII.description>TODO</CWE_Trait_MA_ExtendedBarrelIII.description>
+  <!-- EN: Alliance Precision Scope I -->
+  <CWE_Trait_MA_PrecisionScopeI.label>TODO</CWE_Trait_MA_PrecisionScopeI.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeI.description>TODO</CWE_Trait_MA_PrecisionScopeI.description>
+  <!-- EN: Alliance Precision Scope II -->
+  <CWE_Trait_MA_PrecisionScopeII.label>TODO</CWE_Trait_MA_PrecisionScopeII.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeII.description>TODO</CWE_Trait_MA_PrecisionScopeII.description>
+  <!-- EN: Alliance Precision Scope III -->
+  <CWE_Trait_MA_PrecisionScopeIII.label>TODO</CWE_Trait_MA_PrecisionScopeIII.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeIII.description>TODO</CWE_Trait_MA_PrecisionScopeIII.description>
+  <!-- EN: Alliance Omni-Blade I -->
+  <CWE_Trait_MA_OmniBladeI.label>TODO</CWE_Trait_MA_OmniBladeI.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeI.description>TODO</CWE_Trait_MA_OmniBladeI.description>
+  <!-- EN: Alliance Omni-Blade II -->
+  <CWE_Trait_MA_OmniBladeII.label>TODO</CWE_Trait_MA_OmniBladeII.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeII.description>TODO</CWE_Trait_MA_OmniBladeII.description>
+  <!-- EN: Alliance Omni-Blade III -->
+  <CWE_Trait_MA_OmniBladeIII.label>TODO</CWE_Trait_MA_OmniBladeIII.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeIII.description>TODO</CWE_Trait_MA_OmniBladeIII.description>
+  <!-- EN: Alliance High-Velocity Barrel I -->
+  <CWE_Trait_MA_HighVelocityBarrelI.label>TODO</CWE_Trait_MA_HighVelocityBarrelI.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelI.description>TODO</CWE_Trait_MA_HighVelocityBarrelI.description>
+  <!-- EN: Alliance High-Velocity Barrel II -->
+  <CWE_Trait_MA_HighVelocityBarrelII.label>TODO</CWE_Trait_MA_HighVelocityBarrelII.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelII.description>TODO</CWE_Trait_MA_HighVelocityBarrelII.description>
+  <!-- EN: Alliance High-Velocity Barrel III -->
+  <CWE_Trait_MA_HighVelocityBarrelIII.label>TODO</CWE_Trait_MA_HighVelocityBarrelIII.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelIII.description>TODO</CWE_Trait_MA_HighVelocityBarrelIII.description>
+  <!-- EN: Alliance Heavy Barrel I -->
+  <CWE_Trait_MA_HeavyBarrelI.label>TODO</CWE_Trait_MA_HeavyBarrelI.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelI.description>TODO</CWE_Trait_MA_HeavyBarrelI.description>
+  <!-- EN: Alliance Heavy Barrel II -->
+  <CWE_Trait_MA_HeavyBarrelII.label>TODO</CWE_Trait_MA_HeavyBarrelII.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelII.description>TODO</CWE_Trait_MA_HeavyBarrelII.description>
+  <!-- EN: Alliance Heavy Barrel III -->
+  <CWE_Trait_MA_HeavyBarrelIII.label>TODO</CWE_Trait_MA_HeavyBarrelIII.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelIII.description>TODO</CWE_Trait_MA_HeavyBarrelIII.description>
+  <!-- EN: Alliance Ultralight Materials I -->
+  <CWE_Trait_MA_UltralightMaterialsI.label>TODO</CWE_Trait_MA_UltralightMaterialsI.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsI.description>TODO</CWE_Trait_MA_UltralightMaterialsI.description>
+  <!-- EN: Alliance Ultralight Materials II -->
+  <CWE_Trait_MA_UltralightMaterialsII.label>TODO</CWE_Trait_MA_UltralightMaterialsII.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsII.description>TODO</CWE_Trait_MA_UltralightMaterialsII.description>
+  <!-- EN: Alliance Ultralight Materials III -->
+  <CWE_Trait_MA_UltralightMaterialsIII.label>TODO</CWE_Trait_MA_UltralightMaterialsIII.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsIII.description>TODO</CWE_Trait_MA_UltralightMaterialsIII.description>
+  <!-- EN: Alliance Melee Stunner I -->
+  <CWE_Trait_MA_MeleeStunnerI.label>TODO</CWE_Trait_MA_MeleeStunnerI.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerI.description>TODO</CWE_Trait_MA_MeleeStunnerI.description>
+  <!-- EN: Alliance Melee Stunner II -->
+  <CWE_Trait_MA_MeleeStunnerII.label>TODO</CWE_Trait_MA_MeleeStunnerII.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerII.description>TODO</CWE_Trait_MA_MeleeStunnerII.description>
+  <!-- EN: Alliance Melee Stunner III -->
+  <CWE_Trait_MA_MeleeStunnerIII.label>TODO</CWE_Trait_MA_MeleeStunnerIII.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerIII.description>TODO</CWE_Trait_MA_MeleeStunnerIII.description>
+  <!-- EN: Alliance High-Caliber Barrel I -->
+  <CWE_Trait_MA_HighCaliberBarrelI.label>TODO</CWE_Trait_MA_HighCaliberBarrelI.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelI.description>TODO</CWE_Trait_MA_HighCaliberBarrelI.description>
+  <!-- EN: Alliance High-Caliber Barrel II -->
+  <CWE_Trait_MA_HighCaliberBarrelII.label>TODO</CWE_Trait_MA_HighCaliberBarrelII.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelII.description>TODO</CWE_Trait_MA_HighCaliberBarrelII.description>
+  <!-- EN: Alliance High-Caliber Barrel III -->
+  <CWE_Trait_MA_HighCaliberBarrelIII.label>TODO</CWE_Trait_MA_HighCaliberBarrelIII.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelIII.description>TODO</CWE_Trait_MA_HighCaliberBarrelIII.description>
+  <!-- EN: Alliance Power Magnifier I -->
+  <CWE_Trait_MA_PowerMagnifierI.label>TODO</CWE_Trait_MA_PowerMagnifierI.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierI.description>TODO</CWE_Trait_MA_PowerMagnifierI.description>
+  <!-- EN: Alliance Power Magnifier II -->
+  <CWE_Trait_MA_PowerMagnifierII.label>TODO</CWE_Trait_MA_PowerMagnifierII.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierII.description>TODO</CWE_Trait_MA_PowerMagnifierII.description>
+  <!-- EN: Alliance Power Magnifier III -->
+  <CWE_Trait_MA_PowerMagnifierIII.label>TODO</CWE_Trait_MA_PowerMagnifierIII.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierIII.description>TODO</CWE_Trait_MA_PowerMagnifierIII.description>
+  <!-- EN: Alliance Heat Sink I -->
+  <CWE_Trait_MA_HeatSinkI.label>TODO</CWE_Trait_MA_HeatSinkI.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkI.description>TODO</CWE_Trait_MA_HeatSinkI.description>
+  <!-- EN: Alliance Heat Sink II -->
+  <CWE_Trait_MA_HeatSinkII.label>TODO</CWE_Trait_MA_HeatSinkII.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkII.description>TODO</CWE_Trait_MA_HeatSinkII.description>
+  <!-- EN: Alliance Heat Sink III -->
+  <CWE_Trait_MA_HeatSinkIII.label>TODO</CWE_Trait_MA_HeatSinkIII.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkIII.description>TODO</CWE_Trait_MA_HeatSinkIII.description>
+  <!-- EN: Alliance Smart Choke I -->
+  <CWE_Trait_MA_SmartChokeI.label>TODO</CWE_Trait_MA_SmartChokeI.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeI.description>TODO</CWE_Trait_MA_SmartChokeI.description>
+  <!-- EN: Alliance Smart Choke II -->
+  <CWE_Trait_MA_SmartChokeII.label>TODO</CWE_Trait_MA_SmartChokeII.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeII.description>TODO</CWE_Trait_MA_SmartChokeII.description>
+  <!-- EN: Alliance Smart Choke III -->
+  <CWE_Trait_MA_SmartChokeIII.label>TODO</CWE_Trait_MA_SmartChokeIII.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeIII.description>TODO</CWE_Trait_MA_SmartChokeIII.description>
+  <!-- EN: Alliance Toxic Ammunition -->
+  <CWE_Trait_MA_AmmoToxic.label>TODO</CWE_Trait_MA_AmmoToxic.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies toxic buildup. -->
+  <CWE_Trait_MA_AmmoToxic.description>TODO</CWE_Trait_MA_AmmoToxic.description>
+  <!-- EN: Alliance Piercing Ammunition -->
+  <CWE_Trait_MA_AmmoPiercing.label>TODO</CWE_Trait_MA_AmmoPiercing.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a higher armor penetration. -->
+  <CWE_Trait_MA_AmmoPiercing.description>TODO</CWE_Trait_MA_AmmoPiercing.description>
+  <!-- EN: Alliance Shredder Ammunition -->
+  <CWE_Trait_MA_AmmoShredder.label>TODO</CWE_Trait_MA_AmmoShredder.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a high damage but a lower armor penetration. -->
+  <CWE_Trait_MA_AmmoShredder.description>TODO</CWE_Trait_MA_AmmoShredder.description>
+  <!-- EN: Alliance Incendiary Ammunition -->
+  <CWE_Trait_MA_AmmoIncendiary.label>TODO</CWE_Trait_MA_AmmoIncendiary.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies fire damage and sets the target on fire. -->
+  <CWE_Trait_MA_AmmoIncendiary.description>TODO</CWE_Trait_MA_AmmoIncendiary.description>
+  <!-- EN: Alliance Explosive Ammunition -->
+  <CWE_Trait_MA_AmmoExplosive.label>TODO</CWE_Trait_MA_AmmoExplosive.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one is an explosive shot. -->
+  <CWE_Trait_MA_AmmoExplosive.description>TODO</CWE_Trait_MA_AmmoExplosive.description>
+  <!-- EN: Alliance Disruptor Ammunition -->
+  <CWE_Trait_MA_AmmoDisruptor.label>TODO</CWE_Trait_MA_AmmoDisruptor.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies EMP damage. -->
+  <CWE_Trait_MA_AmmoDisruptor.description>TODO</CWE_Trait_MA_AmmoDisruptor.description>
+  <!-- EN: Alliance Cryo Ammunition -->
+  <CWE_Trait_MA_AmmoCryo.label>TODO</CWE_Trait_MA_AmmoCryo.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies hypothermia. -->
+  <CWE_Trait_MA_AmmoCryo.description>TODO</CWE_Trait_MA_AmmoCryo.description>
+  <!-- EN: Ion Charge -->
+  <CWE_Trait_Ion_Charge.label>TODO</CWE_Trait_Ion_Charge.label>
+  <!-- EN: Ammo fuled with ion particles, the particles once sufficiently built up, release in an electromagnetic pulse, breaking energy shields and stunning any mechanoid caught in the radius.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_Ion_Charge.description>TODO</CWE_Trait_Ion_Charge.description>
+  <!-- EN: Marine psychic grenade launcher -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.label>TODO</CWE_Trait_MarinePsychicGrenade_Launcher.label>
+  <!-- EN: Launch a replica of the psychic grenade derived from the knowledge of the marine lancer. The explosion of the shock wave can disturb the enemy&apos;s psychic nerves, making them dizzy, vomiting, and in severe cases may fall or even die.\n\nDoes not damage friendly or neutral units. -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.description>TODO</CWE_Trait_MarinePsychicGrenade_Launcher.description>
+  <!-- EN: grenade -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>TODO</CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Micro Missile Launcher -->
+  <CWE_Trait_MicroMissileLauncher.label>TODO</CWE_Trait_MicroMissileLauncher.label>
+  <!-- EN: Launch a micro missile to the target location. -->
+  <CWE_Trait_MicroMissileLauncher.description>TODO</CWE_Trait_MicroMissileLauncher.description>
+  <!-- EN: micro missiles -->
+  <CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>TODO</CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>
+  <!-- EN: Singularity Grenade Launcher -->
+  <CWE_Trait_GriefLauncher.label>TODO</CWE_Trait_GriefLauncher.label>
+  <!-- EN: When it explodes, the &quot;Grief&quot; impact grenade releases a graviton shockwave. Although its damage is low, movement within the grenade’s explosion radius is severely restricted. -->
+  <CWE_Trait_GriefLauncher.description>TODO</CWE_Trait_GriefLauncher.description>
+  <!-- EN: singularity grenades -->
+  <CWE_Trait_GriefLauncher.abilityProps.chargeNoun>TODO</CWE_Trait_GriefLauncher.abilityProps.chargeNoun>
+  <!-- EN: Micro Turret Launcher -->
+  <CWE_Trait_MicroTurretLauncher.label>TODO</CWE_Trait_MicroTurretLauncher.label>
+  <!-- EN: Launch a micro turret to the target location. -->
+  <CWE_Trait_MicroTurretLauncher.description>TODO</CWE_Trait_MicroTurretLauncher.description>
+  <!-- EN: micro turret -->
+  <CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>TODO</CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>
+  <!-- EN: Bronze camouflage -->
+  <CWE_Trait_CamoBronze.label>TODO</CWE_Trait_CamoBronze.label>
+  <!-- EN: Change the weapon&apos;s camouflage to bronze. -->
+  <CWE_Trait_CamoBronze.description>TODO</CWE_Trait_CamoBronze.description>
+  <!-- EN: Gold camouflage -->
+  <CWE_Trait_CamoGold.label>TODO</CWE_Trait_CamoGold.label>
+  <!-- EN: Change the weapon&apos;s camouflage to gold. -->
+  <CWE_Trait_CamoGold.description>TODO</CWE_Trait_CamoGold.description>
+  <!-- EN: shortened barrel -->
+  <CWE_Trait_ShortenedBarrel_SLR.label>TODO</CWE_Trait_ShortenedBarrel_SLR.label>
+  <!-- EN: A shortened barrel. It lowers muzzle velocity and range, but the lighter weight and better balance make the weapon faster to aim. -->
+  <CWE_Trait_ShortenedBarrel_SLR.description>TODO</CWE_Trait_ShortenedBarrel_SLR.description>
+  <!-- EN: tactical barrel -->
+  <CWE_Trait_TacticalBarrel_SLR.label>TODO</CWE_Trait_TacticalBarrel_SLR.label>
+  <!-- EN: A redesigned barrel built for ergonomics and handling. Its lighter profile reduces weight and makes the weapon quicker to steady. -->
+  <CWE_Trait_TacticalBarrel_SLR.description>TODO</CWE_Trait_TacticalBarrel_SLR.description>
+  <!-- EN: Stun Launcher -->
+  <CWE_Trait_CWS_Grenade_launcher.label>TODO</CWE_Trait_CWS_Grenade_launcher.label>
+  <!-- EN: Fires powerful grenade rounds that injure and stun enemies within a wide area. -->
+  <CWE_Trait_CWS_Grenade_launcher.description>TODO</CWE_Trait_CWS_Grenade_launcher.description>
+  <!-- EN: Grenade -->
+  <CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>TODO</CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>
+  <!-- EN: Shock Slug -->
+  <CWE_Trait_CWS_shock_slug.label>TODO</CWE_Trait_CWS_shock_slug.label>
+  <!-- EN: Fires a powerful round that stuns the target upon impact. -->
+  <CWE_Trait_CWS_shock_slug.description>TODO</CWE_Trait_CWS_shock_slug.description>
+  <!-- EN: Grenade -->
+  <CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>TODO</CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>
+  <!-- EN: extended magazine -->
+  <CWE_Trait_ExtendedMagazine_VolleyShotgun.label>TODO</CWE_Trait_ExtendedMagazine_VolleyShotgun.label>
+  <!-- EN: This magazine holds more ammo than the standard version, letting the weapon fire more shots per burst. -->
+  <CWE_Trait_ExtendedMagazine_VolleyShotgun.description>TODO</CWE_Trait_ExtendedMagazine_VolleyShotgun.description>
+</LanguageData>

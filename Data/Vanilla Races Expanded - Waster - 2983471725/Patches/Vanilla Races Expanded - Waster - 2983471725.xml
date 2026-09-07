@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/label</xpath>
+          <value>
+            <!-- EN: gaunt body -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/labelShortAdj</xpath>
+          <value>
+            <!-- EN: gaunt -->
+            <labelShortAdj>TODO</labelShortAdj>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/description</xpath>
+          <value>
+            <!-- EN: Carriers of this gene have a pinched, gaunt appearance in their body. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[1]/symbol</xpath>
+          <value>
+            <!-- EN: gaunt -->
+            <symbol>TODO</symbol>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[2]/symbol</xpath>
+          <value>
+            <!-- EN: zomb -->
+            <symbol>TODO</symbol>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[3]/symbol</xpath>
+          <value>
+            <!-- EN: dead -->
+            <symbol>TODO</symbol>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[4]/symbol</xpath>
+          <value>
+            <!-- EN: bone -->
+            <symbol>TODO</symbol>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

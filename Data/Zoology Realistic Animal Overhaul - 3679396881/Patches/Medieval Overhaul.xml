@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[1]/label</xpath>
+    <value>
+      <!-- EN: head -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[2]/label</xpath>
+    <value>
+      <!-- EN: left hoof -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[3]/label</xpath>
+    <value>
+      <!-- EN: right hoof -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[4]/label</xpath>
+    <value>
+      <!-- EN: teeth -->
+      <label>dientes</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Rat"]/tools/li[1]/label</xpath>
+    <value>
+      <!-- EN: head -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Rat"]/tools/li[2]/label</xpath>
+    <value>
+      <!-- EN: Incisors -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[1]/label</xpath>
+    <value>
+      <!-- EN: head -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[2]/label</xpath>
+    <value>
+      <!-- EN: left hoof -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[3]/label</xpath>
+    <value>
+      <!-- EN: right hoof -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[4]/label</xpath>
+    <value>
+      <!-- EN: horn -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.7)-&gt;[INITIATOR_nameDef] brought up [subject] in a brief chat with [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] mentioned something about [subject] while passing by [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.3)-&gt;[INITIATOR_nameDef] gave a passing nod to [RECIPIENT_nameDef]. -->
+  <!-- EN: r_logentry(p=0.1)-&gt;[INITIATOR_nameDef] greeted [RECIPIENT_nameDef] in passing. -->
+  <!-- EN: r_logentry(p=0.1)-&gt;[INITIATOR_nameDef] waved at [RECIPIENT_nameDef]. -->
+  <!-- EN: subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicLight] -->
+  <!-- EN: subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube] -->
+  <!-- EN: commentedabout-&gt;made a comment about -->
+  <!-- EN: commentedabout-&gt;casually remarked on -->
+  <!-- EN: commentedabout-&gt;muttered something about -->
+  <!-- EN: commentedabout-&gt;made a quick observation about -->
+  <Rimpsyche_Smalltalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [commentedabout] [subject] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.7)-&gt;[INITIATOR_nameDef] sacó el tema de [subject] en una breve charla con [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] mencionó algo sobre [subject] al pasar junto a [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.3)-&gt;[INITIATOR_nameDef] saludó con la cabeza a [RECIPIENT_nameDef] al pasar.</li>
+    <li>r_logentry(p=0.1)-&gt;[INITIATOR_nameDef] saludó a [RECIPIENT_nameDef] al pasar.</li>
+    <li>r_logentry(p=0.1)-&gt;[INITIATOR_nameDef] saludó con la mano a [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube]</li>
+    <li>commentedabout-&gt;hizo un comentario sobre</li>
+    <li>commentedabout-&gt;comentó casualmente sobre</li>
+    <li>commentedabout-&gt;murmuró algo sobre</li>
+    <li>commentedabout-&gt;hizo una observación rápida sobre</li>
+  </Rimpsyche_Smalltalk.logRulesInitiator.rulesStrings>
+</LanguageData>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>##packageId##CETeam.CombatExtended_steam</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="DMS_ProstheticArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="DMS_SyntheticArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>puño</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Caretta"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: laser cutter -->
+            <label>cortador láser</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: surgical drill -->
+            <label>taladro quirúrgico</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Pioneer"]/description</xpath>
+          <value>
+            <!-- EN: forward reconnaissance variant of Arquebusier. with improved sight sensor equipped, it has better capability in night time operations, capable of hunting if needed. -->
+            <description>Una variante de reconocimiento avanzado del arcabucero, los Pioneros están equipados con un paquete de sensores de visión mejorado que les otorga una mejor capacidad en operaciones de campo. En caso de apuro, se puede usar para cazar vida silvestre.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: right arm blade -->
+            <label>cuchilla de brazo derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: left arm blade -->
+            <label>cuchilla de brazo izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gladiator"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: assault shield -->
+            <label>escudo de asalto</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gladiator"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Protector"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: ballistic shield -->
+            <label>escudo balístico</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Protector"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Lady"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Lady"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: blade -->
+            <label>cuchilla</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Revolver"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Revolver"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_TacticalPistol"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_TacticalPistol"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_PDW"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_PDW"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_AssaultPiercer"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_AssaultPiercer"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>mango</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>mango</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>punta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DoorBreaker"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DoorBreaker"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Flameblaster"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Flameblaster"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

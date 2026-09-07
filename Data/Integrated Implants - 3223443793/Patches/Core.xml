@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+      <li>##packageId##Mlie.XNDTurretExtensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[2]/label</xpath>
+            <value>
+              <!-- EN: Offset from mechanitor -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[2]/label</xpath>
+            <value>
+              <!-- EN: Offset from mechanitor -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="MeleeDodgeChance"]/parts/li[1]/label</xpath>
+            <value>
+              <!-- EN: Offset from mechanitor -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="ShootingAccuracyPawn"]/parts/li[1]/label</xpath>
+          <value>
+            <!-- EN: Offset from mechanitor -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[3]/label</xpath>
+          <value>
+            <!-- EN: Offset from mechanitor -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[3]/label</xpath>
+          <value>
+            <!-- EN: Offset from mechanitor -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

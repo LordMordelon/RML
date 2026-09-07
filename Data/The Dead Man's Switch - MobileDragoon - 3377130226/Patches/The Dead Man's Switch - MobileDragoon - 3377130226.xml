@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>##packageId##CETeam.CombatExtended_steam</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_MissilePod"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
+          <value>
+            <!-- EN: launch missile -->
+            <label>lanzar misil</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_MissilePod"]/comps/li[5]/chargeNoun</xpath>
+          <value>
+            <!-- EN: missile -->
+            <chargeNoun>misil</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_SwarmMissilePod"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileCE')]]/label</xpath>
+          <value>
+            <!-- EN: launch rocket -->
+            <label>lanzar cohete</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_SwarmMissilePod"]/comps/li[5]/chargeNoun</xpath>
+          <value>
+            <!-- EN: rocket -->
+            <chargeNoun>cohete</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_MissilePodPlus"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
+          <value>
+            <!-- EN: launch missile -->
+            <label>lanzar misil</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Apparel_MissilePodPlus"]/comps/li[5]/chargeNoun</xpath>
+          <value>
+            <!-- EN: missile -->
+            <chargeNoun>misil</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Axe"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Axe"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: sweep -->
+            <label>barrer</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Axe"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: poke -->
+            <label>picar</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Sword"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Sword"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: sweep -->
+            <label>barrer</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Dragoon_Sword"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: poke -->
+            <label>picar</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+        <li>##packageId##CETeam.CombatExtended_steam</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackLight"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
+            <value>
+              <!-- EN: LMG -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackHeavy"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
+            <value>
+              <!-- EN: Kord -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackGAU"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
+            <value>
+              <!-- EN: GAU-19 -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>The Dead Man's Switch - AncientCorps</li>
+        <li>##packageId##aoba.deadmanswitch.ancientcorps_steam</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="DMS_Apparel_StugnaLauncher"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileCE')]]/label</xpath>
+            <value>
+              <!-- EN: launch stugna missile -->
+              <label>lanzar misil stugna</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

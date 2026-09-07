@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Gravship Expanded - Chapter 1</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="VGE_Platform"]/label</xpath>
+          <value>
+            <!-- EN: Bug. Tell Ferny. -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="VGE_Combat"]/label</xpath>
+          <value>
+            <!-- EN: Bug. Tell Ferny. -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="VGE_Vacuum"]/label</xpath>
+          <value>
+            <!-- EN: Bug. Tell Ferny. -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="VGE_Fuel"]/label</xpath>
+          <value>
+            <!-- EN: Bug. Tell Ferny. -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription(asker_factionLeader==True)-&gt;[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. A group of [siteFaction_pawnsPlural] has taken control of an abandoned nuclear ARC husk site. The camp is currently under the control of [siteFaction_name].\n\n[asker_nameDef] is requesting that we clear out the area by eliminating all enemies and defenses. Once the site is secured, we will have the opportunity to study the nuclear ARC husk and recover valuable ARC components. [asker_label] also mentions that [sitePart0_description]. [sitePart1_description] -->
+  <!-- EN: questDescription(askerIsNull==true)-&gt;We have received intelligence that an abandoned nuclear ARC husk site has been overtaken by [siteFaction_pawnsPlural] from [siteFaction_name]. The bandits have fortified their position and are using the location as a hideout.\n\nSecuring the site will allow us to examine the nuclear ARC husk for any remaining research data and salvageable ARC components. Be prepared for resistance, as the bandits have likely set up significant defenses. Additionally, [sitePart0_description]. [sitePart1_description] -->
+  <!-- EN: sitePart0_description-&gt;the nuclear ARC husk is surrounded by overgrowth, with much of its structure showing signs of decay -->
+  <!-- EN: sitePart0_description-&gt;the bandits have heavily fortified the area with makeshift barriers and traps -->
+  <!-- EN: sitePart0_description-&gt;the husk appears partially intact, holding the promise of valuable salvage -->
+  <!-- EN: sitePart0_description-&gt;the site is a mix of ancient industrial ruins and ramshackle bandit encampments -->
+  <!-- EN: sitePart0_description-&gt;hostile patrols have been spotted guarding the perimeter -->
+  <!-- EN: sitePart0_description-&gt;the bandits are using the ARC husk to power their crude machinery and weapons -->
+  <!-- EN: sitePart1_description-&gt;The entire area is blanketed in toxic fallout, making prolonged exposure dangerous without proper equipment -->
+  <!-- EN: sitePart1_description-&gt;A thick layer of toxic fallout lingers over the site, creating an additional hazard for anyone attempting to approach -->
+  <!-- EN: sitePart1_description-&gt;Toxic fallout from the ARC husk’s old reactor has poisoned the area, presenting a significant environmental danger -->
+  <!-- EN: sitePart1_description-&gt;The site is covered in toxic fallout, making survival without protective gear extremely difficult -->
+  <!-- EN: sitePart1_description-&gt;Hazardous fallout clouds the area, a grim reminder of the ARC’s unstable nuclear past -->
+  <VQE_NuclearArcSite.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], nos ha enviado un mensaje. Un grupo de [siteFaction_pawnsPlural] ha tomado el control de un sitio abandonado de restos de un ARC nuclear. El campamento está actualmente bajo el control de [siteFaction_name].\n\n[asker_nameDef] solicita que despejemos el área eliminando a todos los enemigos y defensas. Una vez asegurado el sitio, tendremos la oportunidad de estudiar los restos del ARC nuclear y recuperar valiosos componentes ARC. [asker_label] también menciona que [sitePart0_description]. [sitePart1_description]</li>
+    <li>questDescription(askerIsNull==true)-&gt;Hemos recibido inteligencia de que un sitio abandonado de restos de un ARC nuclear ha sido tomado por [siteFaction_pawnsPlural] de [siteFaction_name]. Los bandidos han fortificado su posición y están utilizando el lugar como escondite.\n\nAsegurar el sitio nos permitirá examinar los restos del ARC nuclear en busca de datos de investigación restantes y componentes ARC recuperables. Prepárate para la resistencia, ya que los bandidos probablemente han establecido defensas significativas. Además, [sitePart0_description]. [sitePart1_description]</li>
+    <li>sitePart0_description-&gt;los restos del ARC nuclear están rodeados de vegetación, con gran parte de su estructura mostrando signos de deterioro</li>
+    <li>sitePart0_description-&gt;los bandidos han fortificado fuertemente el área con barreras y trampas improvisadas</li>
+    <li>sitePart0_description-&gt;los restos parecen parcialmente intactos, prometiendo un valioso botín</li>
+    <li>sitePart0_description-&gt;el sitio es una mezcla de ruinas industriales antiguas y campamentos de bandidos destartalados</li>
+    <li>sitePart0_description-&gt;se han avistado patrullas hostiles vigilando el perímetro</li>
+    <li>sitePart0_description-&gt;los bandidos están usando los restos del ARC para alimentar su maquinaria y armas rudimentarias</li>
+    <li>sitePart1_description-&gt;Toda el área está cubierta por lluvia radiactiva tóxica, lo que hace que la exposición prolongada sea peligrosa sin el equipo adecuado</li>
+    <li>sitePart1_description-&gt;Una espesa capa de lluvia radiactiva tóxica persiste sobre el sitio, creando un peligro adicional para cualquiera que intente acercarse</li>
+    <li>sitePart1_description-&gt;La lluvia radiactiva tóxica del antiguo reactor del ARC ha envenenado el área, presentando un peligro ambiental significativo</li>
+    <li>sitePart1_description-&gt;El sitio está cubierto de lluvia radiactiva tóxica, lo que hace que la supervivencia sin equipo de protección sea extremadamente difícil</li>
+    <li>sitePart1_description-&gt;Nubes de lluvia radiactiva peligrosa cubren el área, un sombrío recordatorio del inestable pasado nuclear del ARC</li>
+  </VQE_NuclearArcSite.questDescriptionRules.rulesStrings>
+</LanguageData>

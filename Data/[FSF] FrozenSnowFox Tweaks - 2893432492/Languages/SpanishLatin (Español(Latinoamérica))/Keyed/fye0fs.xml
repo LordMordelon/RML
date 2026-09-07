@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: For any changed settings to take effect the game must be restarted. -->
+  <FSFTweaksModWarning>TODO</FSFTweaksModWarning>
+  <!-- EN: Core Tweaks -->
+  <FSFTweaksCoreTweaksTitle>TODO</FSFTweaksCoreTweaksTitle>
+  <!-- EN: Animals -->
+  <FSFTweaksAnimalsTitle>TODO</FSFTweaksAnimalsTitle>
+  <!-- EN: Filters and Storage -->
+  <FSFTweaksFiltersAndStorageTitle>TODO</FSFTweaksFiltersAndStorageTitle>
+  <!-- EN: Food -->
+  <FSFTweaksFoodTitle>TODO</FSFTweaksFoodTitle>
+  <!-- EN: Misc -->
+  <FSFTweaksMiscTitle>TODO</FSFTweaksMiscTitle>
+  <!-- EN: Plants -->
+  <FSFTweaksPlantsTitle>TODO</FSFTweaksPlantsTitle>
+  <!-- EN: No Starting Research -->
+  <FSFTweaksNoStartingResearchTitle>TODO</FSFTweaksNoStartingResearchTitle>
+  <!-- EN: Special Trees -->
+  <FSFTweaksSpecialTreesTitle>TODO</FSFTweaksSpecialTreesTitle>
+  <!-- EN: Animals Dont Eat Random Things -->
+  <FSFTweaksAnimalsDontEatRandomThingsTitle>TODO</FSFTweaksAnimalsDontEatRandomThingsTitle>
+  <!-- EN: Removes the action of eating random things for curiosity from animal AI logic trees. -->
+  <FSFTweaksAnimalsDontEatRandomThingsDesc>TODO</FSFTweaksAnimalsDontEatRandomThingsDesc>
+  <!-- EN: Animals Don&apos;t Mine To Escape -->
+  <FSFTweaksAnimalsDontMineToEscapeTitle>TODO</FSFTweaksAnimalsDontMineToEscapeTitle>
+  <!-- EN: Removes the action of mining through walls and rock to escape when hungry from animal AI logic trees.  Instead they will now just starve to death.\nNote: This does not apply to Alpha Animals creatures who use the Animal Digger logic tree since they are designed to dig through things. -->
+  <FSFTweaksAnimalsDontMineToEscapeDesc>TODO</FSFTweaksAnimalsDontMineToEscapeDesc>
+  <!-- EN: Herd Migration On Any Biome -->
+  <FSFTweaksHerdMigrationOnAnyBiomeTitle>TODO</FSFTweaksHerdMigrationOnAnyBiomeTitle>
+  <!-- EN: Removes the allowedBiomes tag on the Herd Migration event so it can trigger on any biome. -->
+  <FSFTweaksHerdMigrationOnAnyBiomeDesc>TODO</FSFTweaksHerdMigrationOnAnyBiomeDesc>
+  <!-- EN: Mounts For Sale -->
+  <FSFTweaksMountsForSaleTitle>TODO</FSFTweaksMountsForSaleTitle>
+  <!-- EN: Adds breeding pairs of Horses always for sale at Neolithic and Medieval bases so you have an easy way to get caravan animals. -->
+  <FSFTweaksMountsForSaleDesc>TODO</FSFTweaksMountsForSaleDesc>
+  <!-- EN: Wild Animal Reproduction -->
+  <FSFTweaksWildAnimalReproductionTitle>TODO</FSFTweaksWildAnimalReproductionTitle>
+  <!-- EN: Allows wild animals to mate so they become pregnant just like colony animals.  Also removes the deterioration rate of fertilized eggs so they can survive outdoors. -->
+  <FSFTweaksWildAnimalReproductionDesc>TODO</FSFTweaksWildAnimalReproductionDesc>
+  <!-- EN: Wolves Are Dogs -->
+  <FSFTweaksWolvesAreDogsTitle>TODO</FSFTweaksWolvesAreDogsTitle>
+  <!-- EN: Changes the FilthRate to 1, Wildness to 0, Petness to 1, nuzzleMtbHours to 12, removes the manhunter on failed taming chance and adds the Special Trainable Comfort.  This puts them on par with dogs allowing you to have clean, friendly, nuzzle happy wolves.  Also adds mating pairs of Timber Wolves and Arctic Wolves for sale at faction bases so they&apos;re easy to acquire. -->
+  <FSFTweaksWolvesAreDogsDesc>TODO</FSFTweaksWolvesAreDogsDesc>
+  <!-- EN: More Filters Drugs -->
+  <FSFTweaksMoreFiltersDrugsTitle>TODO</FSFTweaksMoreFiltersDrugsTitle>
+  <!-- EN: Adds a number of new categories for drugs and organises items so they can be more easily accessed.  The following categories are added, Hard, Medical, Social. -->
+  <FSFTweaksMoreFiltersDrugsDesc>TODO</FSFTweaksMoreFiltersDrugsDesc>
+  <!-- EN: More Filters Food -->
+  <FSFTweaksMoreFiltersFoodTitle>TODO</FSFTweaksMoreFiltersFoodTitle>
+  <!-- EN: Adds a number of new categories for food and organises items so they can be more easily accessed.  The following categories are added, Awful, Simple, Fine, Lavish, Gourmet (VCE), Confectionery (VCE), Long Term, Jelly (Alpha Animals), Milk (Alpha Animals), Raw Tasty, Baby Food (Biotech DLC), Animal Feed, Gluttonous, Blood (Biotech DLC), Cocktails (VBE). -->
+  <FSFTweaksMoreFiltersFoodDesc>TODO</FSFTweaksMoreFiltersFoodDesc>
+  <!-- EN: Warning: Due to changing item categories this tweak can interfere with stacking mods that rely on categories.  For OgreStack this causes the items to be classed under Other instead of their default categories.  If you use more specific stacking settings be sure to account for this. -->
+  <FSFTweaksMoreFiltersFoodWarning>TODO</FSFTweaksMoreFiltersFoodWarning>
+  <!-- EN: No Default Storage Settings -->
+  <FSFTweaksNoDefaultStorageSettingsTitle>TODO</FSFTweaksNoDefaultStorageSettingsTitle>
+  <!-- EN: Changes every ThingDef to remove the defaultStorageSettings and changes the default priority to normal.  Unlike the mod No Default Shelf Storage which intentionally looks for a ThingClass to target only storage items this patch goes for everything.  This means it&apos;ll target things like Mortars, Sarcophaguses, Biosculpters, Growth Pods and more. -->
+  <FSFTweaksNoDefaultStorageSettingsDesc>TODO</FSFTweaksNoDefaultStorageSettingsDesc>
+  <!-- EN: Stackable Chunks -->
+  <FSFTweaksStackableChunksTitle>TODO</FSFTweaksStackableChunksTitle>
+  <!-- EN: Changes rock and slag chunks to be stacklable and allows you to customise the stack limit. -->
+  <FSFTweaksStackableChunksOnDesc>TODO</FSFTweaksStackableChunksOnDesc>
+  <!-- EN: Warning: If enabled midsave this option may cause all rock and slag chunks to vanish. -->
+  <FSFTweaksStackableChunksWarningDesc>TODO</FSFTweaksStackableChunksWarningDesc>
+  <!-- EN: Foods Are Safe -->
+  <FSFTweaksFoodsAreSafeTitle>TODO</FSFTweaksFoodsAreSafeTitle>
+  <!-- EN: Removes the food poisoning chance from all RawTasty foods and all Gluttonous items that have the ParentDef OrganicProductBase.  Foods that use RawTasty are things like Berries, Milk and modded items such as Fruits.  Gluttonous items that have the ParentDef OrganicProductBase are things such as Insect Jelly and modded items such as Honey. -->
+  <FSFTweaksFoodsAreSafeDesc>TODO</FSFTweaksFoodsAreSafeDesc>
+  <!-- EN: Insect Jelly Isn&apos;t A Meal -->
+  <FSFTweaksInsectJellyIsntAMealTitle>TODO</FSFTweaksInsectJellyIsntAMealTitle>
+  <!-- EN: Changes the preferability of Insect Jelly from Fine Meal to Raw Tasty.  This means pawns will only prefer it as food if there are no cooked meals.  However, they will still eat it for Gluttonous Recreation.  This allows you to easier keep your expensive jelly for sale and recreation. -->
+  <FSFTweaksInsectJellyIsntAMealDesc>TODO</FSFTweaksInsectJellyIsntAMealDesc>
+  <!-- EN: Less Desirable Long Term Food -->
+  <FSFTweaksLessDesirableLongTermFoodTitle>TODO</FSFTweaksLessDesirableLongTermFoodTitle>
+  <!-- EN: Changes long term foods like Pemmican and Packaged Survival Meals to be less desirable than normal meals.\nNote: Distance seems to be factored into food choice so for best results long term foods should be stored near other meals. -->
+  <FSFTweaksLessDesirableLongTermFoodDesc>TODO</FSFTweaksLessDesirableLongTermFoodDesc>
+  <!-- EN: Warning: This tweak may cause friendlies to pilfer your food supplies more as their preserved meals are considered less desirable. -->
+  <FSFTweaksLessDesirableLongTermFoodWarning>TODO</FSFTweaksLessDesirableLongTermFoodWarning>
+  <!-- EN: No Default Fungus In Meals -->
+  <FSFTweaksNoDefaultFungusInMealsTitle>TODO</FSFTweaksNoDefaultFungusInMealsTitle>
+  <!-- EN: Adds Raw Fungus to the list of default disallowed ingredients on meals. -->
+  <FSFTweaksNoDefaultFungusInMealsDesc>TODO</FSFTweaksNoDefaultFungusInMealsDesc>
+  <!-- EN: Table Search Radius -->
+  <FSFTweaksTableSearchRadiusTitle>TODO</FSFTweaksTableSearchRadiusTitle>
+  <!-- EN: Allows you to set a maximum radius pawns will search for a table when consuming ingestible items.  This patches all items with a preferability except ones with NeverForNutrition. -->
+  <FSFTweaksTableSearchRadiusOnDesc>TODO</FSFTweaksTableSearchRadiusOnDesc>
+  <!-- EN: Accurate Mechanoid Disassembly -->
+  <FSFTweaksAccurateMechDisassemblyTitle>TODO</FSFTweaksAccurateMechDisassemblyTitle>
+  <!-- EN: Replaces the mechanoid disassembly returns with accurate resources based on the resources required for gestating them.  It also allows tweaking of the disassembly efficiency stat so the returns can be scaled down while remaining accurate.  To prevent excess resources Mechanoid Slag Chunk drops are removed from all mechanoids. -->
+  <FSFTweaksAccurateMechDisassemblyOnDesc>TODO</FSFTweaksAccurateMechDisassemblyOnDesc>
+  <!-- EN: Always Refuel Turrets -->
+  <FSFTweaksAlwaysRefuelTurretsTitle>TODO</FSFTweaksAlwaysRefuelTurretsTitle>
+  <!-- EN: Changes turrets to be rearmed even if they are 99% full of ammo. -->
+  <FSFTweaksAlwaysRefuelTurretsDesc>TODO</FSFTweaksAlwaysRefuelTurretsDesc>
+  <!-- EN: Bed Rest Effectiveness -->
+  <FSFTweaksBedRestEffectivenessTitle>TODO</FSFTweaksBedRestEffectivenessTitle>
+  <!-- EN: Allows you to customise how furniture quality effects the Bed Rest Effectiveness stat. -->
+  <FSFTweaksBedRestEffectivenessOnDesc>TODO</FSFTweaksBedRestEffectivenessOnDesc>
+  <!-- EN: Better Quest Rewards -->
+  <FSFTweaksBetterQuestRewardsTitle>TODO</FSFTweaksBetterQuestRewardsTitle>
+  <!-- EN: Allows you to individually enable options that will add or change things in the quest reward pool. -->
+  <FSFTweaksBetterQuestRewardsOnDesc>TODO</FSFTweaksBetterQuestRewardsOnDesc>
+  <!-- EN: Better Utility Layers -->
+  <FSFTweaksBetterUtilityLayersTitle>TODO</FSFTweaksBetterUtilityLayersTitle>
+  <!-- EN: Changes the layering of a large number of utility items so they can be worn together.  For instance, many items are moved to the Torso, Lances are moved to the Shoulders, Orbital items are moved to the Legs.  This change does not cause issues for clothing/armour since all items are on the Utility layer which is normally unused except for Waist.  This tweak also includes a patch to change all Utility items to not count as clothing for nudists in the event they are not tagged correctly. -->
+  <FSFTweaksBetterUtilityLayersDesc>TODO</FSFTweaksBetterUtilityLayersDesc>
+  <!-- EN: Bigger Rivers -->
+  <FSFTweaksBiggerRiversTitle>TODO</FSFTweaksBiggerRiversTitle>
+  <!-- EN: Allows you to customise how large rivers appear on maps. -->
+  <FSFTweaksBiggerRiversOnDesc>TODO</FSFTweaksBiggerRiversOnDesc>
+  <!-- EN: Chat On Comms -->
+  <FSFTweaksFSFChatOnCommsTitle>TODO</FSFTweaksFSFChatOnCommsTitle>
+  <!-- EN: Allows pawns to chat on the Comms Console to gain Social Recreation and Social Experience. -->
+  <FSFTweaksFSFChatOnCommsDesc>TODO</FSFTweaksFSFChatOnCommsDesc>
+  <!-- EN: Consciousness Affects Learning Speed -->
+  <FSFTweaksConsciousnessLearningSpeedTitle>TODO</FSFTweaksConsciousnessLearningSpeedTitle>
+  <!-- EN: Changes the Global Learning Speed stat to be affected by consciousness.  This makes it so people with brain injuries learn slower while those with increased consciousness from bionics or drugs learn faster. -->
+  <FSFTweaksConsciousnessLearningSpeedDesc>TODO</FSFTweaksConsciousnessLearningSpeedDesc>
+  <!-- EN: Dangerous Skyfallers -->
+  <FSFTweaksDangerousSkyfallersTitle>TODO</FSFTweaksDangerousSkyfallersTitle>
+  <!-- EN: Doubles the explosion radius of skyfallers so they are more dangerous when they land.  Skyfallers are things that drop out of the sky like meteors, ship parts and ship chunks. -->
+  <FSFTweaksDangerousSkyfallersDesc>TODO</FSFTweaksDangerousSkyfallersDesc>
+  <!-- EN: Default White Lights -->
+  <FSFTweaksDefaultWhiteLightsTitle>TODO</FSFTweaksDefaultWhiteLightsTitle>
+  <!-- EN: Changes the default colour of electric lights to be White. -->
+  <FSFTweaksDefaultWhiteLightsDesc>TODO</FSFTweaksDefaultWhiteLightsDesc>
+  <!-- EN: Encounter Map Ancient Dangers -->
+  <FSFTweaksEncounterMapAncientDangersTitle>TODO</FSFTweaksEncounterMapAncientDangersTitle>
+  <!-- EN: Allows ancient dangers to spawn on encounter maps. -->
+  <FSFTweaksEncounterMapAncientDangersDesc>TODO</FSFTweaksEncounterMapAncientDangersDesc>
+  <!-- EN: Encounter Map Resources -->
+  <FSFTweaksEncounterMapResourcesTitle>TODO</FSFTweaksEncounterMapResourcesTitle>
+  <!-- EN: Allows resources and deep drilling veins to spawn on encounter maps again. -->
+  <FSFTweaksEncounterMapResourcesDesc>TODO</FSFTweaksEncounterMapResourcesDesc>
+  <!-- EN: Faster Components -->
+  <FSFTweaksFasterComponentsTitle>TODO</FSFTweaksFasterComponentsTitle>
+  <!-- EN: Reduces the crafting time of Components and Advanced Components to 1/4.  Also adds bulk recipes for crafting 5x 10x 25x and 50x. -->
+  <FSFTweaksFasterComponentsDesc>TODO</FSFTweaksFasterComponentsDesc>
+  <!-- EN: Faster Moisture Pumps -->
+  <FSFTweaksFasterMoisturePumpsTitle>TODO</FSFTweaksFasterMoisturePumpsTitle>
+  <!-- EN: Allows you to customise the speed of Moisture Pumps. -->
+  <FSFTweaksFasterMoisturePumpsOnDesc>TODO</FSFTweaksFasterMoisturePumpsOnDesc>
+  <!-- EN: Filth Vanishes With Rain And Time -->
+  <FSFTweaksFilthVanishesWithRainAndTimeTitle>TODO</FSFTweaksFilthVanishesWithRainAndTimeTitle>
+  <!-- EN: Changes all filth types so they disappear within 14-15 days and wash away with rain/snow.  See the Filth Vanishes With Rain And Time workshop page for full details. -->
+  <FSFTweaksFilthVanishesWithRainAndTimeDesc>TODO</FSFTweaksFilthVanishesWithRainAndTimeDesc>
+  <!-- EN: Harder Drop Pod Raids -->
+  <FSFTweaksHarderDropPodRaidsTitle>TODO</FSFTweaksHarderDropPodRaidsTitle>
+  <!-- EN: Doubles the selection weight of Drop Pod raid strategies.  Also removes the raid point scaling so drop pod raids are the same size as normal raids. -->
+  <FSFTweaksHarderDropPodRaidsDesc>TODO</FSFTweaksHarderDropPodRaidsDesc>
+  <!-- EN: Harder Environmental Events -->
+  <FSFTweaksHarderEnvironmentalEventsTitle>TODO</FSFTweaksHarderEnvironmentalEventsTitle>
+  <!-- EN: Modifies the duration of Environmental Events and increases the refire interval somewhat to compensate.  This makes events overall harder as they last longer.\n\nCold Snap and Heat Wave x2 Duration, Toxic Fallout x4 Duration, Volcanic Winter x2.5 Min and x1.5 Max Duration, Blood Rain x4.5 Min and x2 Max Duration (Anomaly DLC), Death Pall x2 Duration (Anomaly DLC), Volcanic Ash x1.5 Min and x1.75 Max Duration (Odyssey DLC), Drought x1.67 Min and x1.5 Max Duration (Odyssey DLC), Gill Rot x2.34 Min and x2.5 Max Duration (Odyssey DLC), Drought (Vanilla Events Expanded) x1.7 Min and x3 Max Duration. -->
+  <FSFTweaksHarderEnvironmentalEventsDesc>TODO</FSFTweaksHarderEnvironmentalEventsDesc>
+  <!-- EN: Immortal Special Items -->
+  <FSFTweaksImmortalSpecialItemsTitle>TODO</FSFTweaksImmortalSpecialItemsTitle>
+  <!-- EN: Changes all special valuable items you get under special circumstances to be immortal, they have no health, can&apos;t catch fire, deteriorate from weather or be damaged from combat.  These items are things like Mechanoid Chips (Biotech DLC), Shuttle Engines (Odyssey DLC) and Special Mod Added items that drop in combat. -->
+  <FSFTweaksImmortalSpecialItemsDesc>TODO</FSFTweaksImmortalSpecialItemsDesc>
+  <!-- EN: Immortal Power Conduits -->
+  <FSFTweaksImmortalPowerConduitsTitle>TODO</FSFTweaksImmortalPowerConduitsTitle>
+  <!-- EN: Makes power conduits immortal, they have no health and can&apos;t catch fire. -->
+  <FSFTweaksImmortalPowerConduitsDesc>TODO</FSFTweaksImmortalPowerConduitsDesc>
+  <!-- EN: Increased Linkables Range -->
+  <FSFTweaksIncreasedLinkablesRangeTitle>TODO</FSFTweaksIncreasedLinkablesRangeTitle>
+  <!-- EN: Changes linkables to have a maximum connection distance of 50 tiles, removes the line of sight requirement and removes the must be placed adjacent requirement.\nNote: The adjacent change is only for certain linkables like Vitals Monitors. -->
+  <FSFTweaksIncreasedLinkablesRangeDesc>TODO</FSFTweaksIncreasedLinkablesRangeDesc>
+  <!-- EN: Interaction Spots Can Overlap -->
+  <FSFTweaksInteractionSpotsCanOverlapTitle>TODO</FSFTweaksInteractionSpotsCanOverlapTitle>
+  <!-- EN: Removes the restriction on everything so interaction spots can overlap.  The interaction spot is where a pawn stands while using the building and typically where you place a seat for them. -->
+  <FSFTweaksInteractionSpotsCanOverlapDesc>TODO</FSFTweaksInteractionSpotsCanOverlapDesc>
+  <!-- EN: Metal Flammability -->
+  <FSFTweaksMetalFlammabilityTitle>TODO</FSFTweaksMetalFlammabilityTitle>
+  <!-- EN: Allows you to customise the flammability stat of each metal.  You can make things less or more flammable or completely immune to fire. -->
+  <FSFTweaksMetalFlammabilityOnDesc>TODO</FSFTweaksMetalFlammabilityOnDesc>
+  <!-- EN: More Quests -->
+  <FSFTweaksMoreQuestsTitle>TODO</FSFTweaksMoreQuestsTitle>
+  <!-- EN: Allows you to customise how frequently quests appear. -->
+  <FSFTweaksMoreQuestsOnDesc>TODO</FSFTweaksMoreQuestsOnDesc>
+  <!-- EN: More Slaves -->
+  <FSFTweaksMoreSlavesTitle>TODO</FSFTweaksMoreSlavesTitle>
+  <!-- EN: Allows you to customise the number of slaves traders have for sale and makes it so you can request slave caravans.  Also removes the Population Intent on slave trading so you always have a full selection of slaves regardless of your colony population. -->
+  <FSFTweaksMoreSlavesOnDesc>TODO</FSFTweaksMoreSlavesOnDesc>
+  <!-- EN: More Varied Raid Loot -->
+  <FSFTweaksMoreVariedRaidLootTitle>TODO</FSFTweaksMoreVariedRaidLootTitle>
+  <!-- EN: Adds new items to the raid loot tables to add some more variety to the rewards for defeating raids.  Raid loot is a stack of items given to a raider or a number of raiders to serve as a reward for defeating them, this typically comes in the form of resources, medicine or drugs. -->
+  <FSFTweaksMoreVariedRaidLootDesc>TODO</FSFTweaksMoreVariedRaidLootDesc>
+  <!-- EN: No Debuff For Banishing -->
+  <FSFTweaksNoDebuffForBanishingTitle>TODO</FSFTweaksNoDebuffForBanishingTitle>
+  <!-- EN: Changes the duration of all thoughts for banishing or rejecting people to expire instantly. -->
+  <FSFTweaksNoDebuffForBanishingDesc>TODO</FSFTweaksNoDebuffForBanishingDesc>
+  <!-- EN: No Human Filth -->
+  <FSFTweaksNoHumanFilthTitle>TODO</FSFTweaksNoHumanFilthTitle>
+  <!-- EN: Changes the human FilthRate stat to 0 so they don&apos;t randomly spawn filth. -->
+  <FSFTweaksNoHumanFilthDesc>TODO</FSFTweaksNoHumanFilthDesc>
+  <!-- EN: No Improvised Weapons -->
+  <FSFTweaksNoImprovisedWeaponsTitle>TODO</FSFTweaksNoImprovisedWeaponsTitle>
+  <!-- EN: Removes the weapon stats from all Ingestible and Resource items so they can no longer be used as weapons.\nNote: If enabled mid save this will cause errors if anyone has these items equipped.  You can use the mod Character Editor to move items to the inventory to fix this. -->
+  <FSFTweaksNoImprovisedWeaponsDesc>TODO</FSFTweaksNoImprovisedWeaponsDesc>
+  <!-- EN: No One Ever Flees -->
+  <FSFTweaksNoOneEverFleesTitle>TODO</FSFTweaksNoOneEverFleesTitle>
+  <!-- EN: Patches every faction adding autoflee false as a tag so they will never break or flee no matter how many people die.\nThis setting is best used in combination with other mods.  See the No One Ever Flees workshop page for full details. -->
+  <FSFTweaksNoOneEverFleesDesc>TODO</FSFTweaksNoOneEverFleesDesc>
+  <!-- EN: Power Generation Multiplier -->
+  <FSFTweaksPowerGenerationMultiplierTitle>TODO</FSFTweaksPowerGenerationMultiplierTitle>
+  <!-- EN: Allows you to multiply the power generation of all Power Generating items and the Storage Capacity of all Batteries by an input value. -->
+  <FSFTweaksPowerGenerationMultiplierOnDesc>TODO</FSFTweaksPowerGenerationMultiplierOnDesc>
+  <!-- EN: Psychic Sensitivity Bonuses -->
+  <FSFTweaksPsychicSensBonusesTitle>TODO</FSFTweaksPsychicSensBonusesTitle>
+  <!-- EN: Changes the stats Meditation Psyfocus Gain and Neural Heat Recovery Rate to be affected by Psychic Sensitivity.  Also removes the bonuses to these stats from all GeneDef&apos;s (Genes), HediffDef&apos;s (Health Conditions), ThingDef&apos;s (Weapons and Apparel) and TraitDef&apos;s (Traits).  What this means is that Psychic Sensitivity itself will provide these bonuses instead of the aforementioned things.  In this way all bonuses are equally balanced, and those that didn&apos;t provide bonuses but probably should have do now.  So now there is a good reason to stack your psycasters with as much Psychic Sensitivity as you can because doing so will increase their overall recovery speed.  With Vanilla Psycasts Expanded the increase in Psyfocus gain will also result in your psycasters gaining XP faster. -->
+  <FSFTweaksPsychicSensBonusesDesc>TODO</FSFTweaksPsychicSensBonusesDesc>
+  <!-- EN: Randy Big Threat Interval -->
+  <FSFTweaksRandyBigThreatIntTitle>TODO</FSFTweaksRandyBigThreatIntTitle>
+  <!-- EN: Changes the maxThreatBigIntervalDays for Randy (and storytellers based on him) to the input number.  If Randy hasn&apos;t triggered a major threat in X days, the next event he fires will be a major threat, regardless of the random chance.  It does not guarantee a major threat every X days as Randy can still choose not to fire an event at all during that time.\nThe vanilla value is 13, I recommend a value of 7 if you like him being more aggressive. -->
+  <FSFTweaksRandyBigThreatIntDesc>TODO</FSFTweaksRandyBigThreatIntDesc>
+  <!-- EN: Randy Fixes -->
+  <FSFTweaksRandyFixesTitle>TODO</FSFTweaksRandyFixesTitle>
+  <!-- EN: Randy is missing the fields TraderCaravanArrival, VisitorGroup, TravelerGroup, OrbitalTraderArrival.  This is no doubt so it relies on his randomness.  Unfortunately the randomness tends to result in not getting these events very often.  This fix adds the fields from Cassandra so these events show up regularly.  This is an addition not a replacement, so the original randomness aspect is also present.  If Vanilla Psycasts Expanded is loaded this tweak also adds the fields to Basilicus Bestower, as he&apos;s an exact copy of Randy except for his unique ability. -->
+  <FSFTweaksRandyFixesDesc>TODO</FSFTweaksRandyFixesDesc>
+  <!-- EN: Render Hair Over Clothing -->
+  <FSFTweaksRenderHairOverClothingTitle>TODO</FSFTweaksRenderHairOverClothingTitle>
+  <!-- EN: With the new rendering system clothing is rendered over a pawns head when viewed from behind.  This is most noticeable with long hairstyles, instead of the hair draping over the clothing as it should it instead ends up hidden beneath making things look rather odd.  This tweak patches all clothing that would pose an issue so hair is rendered over clothing allowing hair to drape over clothing as it should. -->
+  <FSFTweaksRenderHairOverClothingDesc>TODO</FSFTweaksRenderHairOverClothingDesc>
+  <!-- EN: Sealed Power Armour -->
+  <FSFTweaksSealedPowerArmourTitle>TODO</FSFTweaksSealedPowerArmourTitle>
+  <!-- EN: Changes power armour to be airtight if it fully covers the head or body.  Meaning when the body armour and helmet are worn together it provides full Toxic Environmental Resistance.  The helmets will also provide immunity to Toxic Gas. -->
+  <FSFTweaksSealedPowerArmourDesc>TODO</FSFTweaksSealedPowerArmourDesc>
+  <!-- EN: Tradeable Goods -->
+  <FSFTweaksTradeableGoodsTitle>TODO</FSFTweaksTradeableGoodsTitle>
+  <!-- EN: Changes the tradability of a number of items allowing you to sell them to traders.  For example this allows you to sell meals and stone blocks. -->
+  <FSFTweaksTradeableGoodsDesc>TODO</FSFTweaksTradeableGoodsDesc>
+  <!-- EN: Tribal Patchleather -->
+  <FSFTweaksTribalPatchleatherTitle>TODO</FSFTweaksTribalPatchleatherTitle>
+  <!-- EN: Adds the patchleather recipe to the crafting spot allowing tribals an easier way to craft leather items. -->
+  <FSFTweaksTribalPatchleatherDesc>TODO</FSFTweaksTribalPatchleatherDesc>
+  <!-- EN: Quest Reward Pawn Bios -->
+  <FSFTweaksQuestRewardPawnBiosTitle>TODO</FSFTweaksQuestRewardPawnBiosTitle>
+  <!-- EN: Stops quests from hiding the bio of pawns given as rewards so you can decide if its worth doing the quest or not. -->
+  <FSFTweaksQuestRewardPawnBiosDesc>TODO</FSFTweaksQuestRewardPawnBiosDesc>
+  <!-- EN: Unlock Hediffs For Scenario Settings -->
+  <FSFTweaksUnlockHediffsForScenarioTitle>TODO</FSFTweaksUnlockHediffsForScenarioTitle>
+  <!-- EN: Changes a number of hediffs so they can be used in the scenario settings.  For instance this allows you to create a scenario where anyone can have a chance to spawn with Metal Horrors (Anomaly DLC), as a Mime (Alpha Animals) or a Traitor (Vanilla Expanded Events).\nTo do this in the scenario editor click Add Part -&gt; Forced Health Condition -&gt; (The hediff you want). Set the severity (depending on the hediff severity can do different things), modify the percentage chance and set the context. -->
+  <FSFTweaksUnlockHediffsForScenarioDesc>TODO</FSFTweaksUnlockHediffsForScenarioDesc>
+  <!-- EN: Water Movement Tweaks -->
+  <FSFTweaksWaterMovementTweaksTitle>TODO</FSFTweaksWaterMovementTweaksTitle>
+  <!-- EN: Allows you to customise the pathing cost of water and if the tiles are impassable. -->
+  <FSFTweaksWaterMovementTweaksOnDesc>TODO</FSFTweaksWaterMovementTweaksOnDesc>
+  <!-- EN: Wear Masks With Hats -->
+  <FSFTweaksWearMasksWithHatsTitle>TODO</FSFTweaksWearMasksWithHatsTitle>
+  <!-- EN: Changes all items with a label name containing the word mask to the layer EyeCover so they can be worn with hats. -->
+  <FSFTweaksWearMasksWithHatsDesc>TODO</FSFTweaksWearMasksWithHatsDesc>
+  <!-- EN: Younger People -->
+  <FSFTweaksYoungerPeopleTitle>TODO</FSFTweaksYoungerPeopleTitle>
+  <!-- EN: This is intended for games with a high ageing multiplier to ensure a steady supply of new marriage candidates.  While the settings are set to 18 to 25 the actual age of people should be between 13 and 25 with it tending toward the average.  The numbers can skew outside of that range when you include children and parent/child relationships.  After spawning people will age at your set multiplier so you should see older pawns as time goes on provided they don&apos;t die and the game doesn&apos;t purge them. -->
+  <FSFTweaksYoungerPeopleDesc>TODO</FSFTweaksYoungerPeopleDesc>
+  <!-- EN: Growable Ambrosia -->
+  <FSFTweaksGrowableAmbrosiaTitle>TODO</FSFTweaksGrowableAmbrosiaTitle>
+  <!-- EN: Allows ambrosia to be researched and planted in growing zones. -->
+  <FSFTweaksGrowableAmbrosiaDesc>TODO</FSFTweaksGrowableAmbrosiaDesc>
+  <!-- EN: Growable Grass -->
+  <FSFTweaksGrowableGrassTitle>TODO</FSFTweaksGrowableGrassTitle>
+  <!-- EN: Allows grass to be planted in growing zones. -->
+  <FSFTweaksGrowableGrassDesc>TODO</FSFTweaksGrowableGrassDesc>
+  <!-- EN: Growable Mushrooms -->
+  <FSFTweaksGrowableMushroomsTitle>TODO</FSFTweaksGrowableMushroomsTitle>
+  <!-- EN: Changes a number of cave mushrooms into plantable crops.  Some have had their growth days and yield modified to make them viable as the original numbers were absurdly high. -->
+  <FSFTweaksGrowableMushroomsDesc>TODO</FSFTweaksGrowableMushroomsDesc>
+  <!-- EN: Growable Pasture Grass -->
+  <FSFTweaksPastureGrassTitle>TODO</FSFTweaksPastureGrassTitle>
+  <!-- EN: Adds a new type of grass called Pasture Grass.  It&apos;s a species of grass designed for feeding grazing animals.  It lives for a long time and although it can be grown in low fertility soil it likes lushier soil. -->
+  <FSFTweaksPastureGrassDesc>TODO</FSFTweaksPastureGrassDesc>
+  <!-- EN: Indoor Tree Farms -->
+  <FSFTweaksIndoorTreeFarmsTitle>TODO</FSFTweaksIndoorTreeFarmsTitle>
+  <!-- EN: Allows you to individually enable options that will allow plants to be plantable under roofs, allow adjacent sowing and allow planting regardless of biome.  These limitations ordinarily only appear on tree or tree like plants. -->
+  <FSFTweaksIndoorTreeFarmsOnDesc>TODO</FSFTweaksIndoorTreeFarmsOnDesc>
+  <!-- EN: Plants Give Hay -->
+  <FSFTweaksPlantsGiveHayTitle>TODO</FSFTweaksPlantsGiveHayTitle>
+  <!-- EN: Patches grass and grass like plants to give Hay when they are cut with harvest yields starting at 33% grown.  Normal grass plants gives 3 Hay when fully grown which is around 50% less efficient than Haygrass.  Tall Grass plants give 6 Hay when fully grown which is around 25% less efficient than Haygrass. -->
+  <FSFTweaksPlantsGiveHayDesc>TODO</FSFTweaksPlantsGiveHayDesc>
+  <!-- EN: Tidy Crop Textures -->
+  <FSFTweaksTidyCropTexturesTitle>TODO</FSFTweaksTidyCropTexturesTitle>
+  <!-- EN: Changes the texture drawing of crops like rice that have messy texture placement to be nice and uniform like corn. -->
+  <FSFTweaksTidyCropTexturesDesc>TODO</FSFTweaksTidyCropTexturesDesc>
+  <!-- EN: Allows you to pick which starting Player Factions should start the game with no completed research projects. -->
+  <FSFNoStartingResearchOnDesc>TODO</FSFNoStartingResearchOnDesc>
+  <!-- EN: All Factions -->
+  <FSFTweaksNoStartingResearchAllTitle>TODO</FSFTweaksNoStartingResearchAllTitle>
+  <!-- EN: Removes all starting research from every Player Faction.  This should work for all DLC and mods.  If this is enabled then none of the following settings should be enabled.\nNote: This does not remove any research added by starting Scenarios. -->
+  <FSFTweaksNoStartingResearchAllDesc>TODO</FSFTweaksNoStartingResearchAllDesc>
+  <!-- EN: Colony Faction -->
+  <FSFTweaksNoStartingResearchColonyTitle>TODO</FSFTweaksNoStartingResearchColonyTitle>
+  <!-- EN: Removes all starting research from the Player Colony Faction called New Arrivals which is used for industrial starting scenarios like Crashlanded. -->
+  <FSFTweaksNoStartingResearchColonyDesc>TODO</FSFTweaksNoStartingResearchColonyDesc>
+  <!-- EN: Research Expedition -->
+  <FSFTweaksNoStartingResearchResearchExTitle>TODO</FSFTweaksNoStartingResearchResearchExTitle>
+  <!-- EN: Removes all starting research from the Player Research Expedition Faction called Research Expedition which is used for industrial starting scenarios like The Anomaly. -->
+  <FSFTweaksNoStartingResearchResearchExDesc>TODO</FSFTweaksNoStartingResearchResearchExDesc>
+  <!-- EN: Tribal Faction -->
+  <FSFTweaksNoStartingResearchTribalTitle>TODO</FSFTweaksNoStartingResearchTribalTitle>
+  <!-- EN: Removes all starting research from the Player Tribal Faction called New Tribe which is used for tribal starting scenarios like Lost Tribe. -->
+  <FSFTweaksNoStartingResearchTribalDesc>TODO</FSFTweaksNoStartingResearchTribalDesc>
+  <!-- EN: Polux -->
+  <FSFTweaksPoluxTitle>TODO</FSFTweaksPoluxTitle>
+  <!-- EN: Rock Chunks Stack Limit -->
+  <FSFTweaksStackableChunksRocks>TODO</FSFTweaksStackableChunksRocks>
+  <!-- EN: Slag Chunks Stack Limit -->
+  <FSFTweaksStackableChunksSlag>TODO</FSFTweaksStackableChunksSlag>
+  <!-- EN: Mechanoid Slag Chunks Stack Limit -->
+  <FSFTweaksStackableChunksMechanoid>TODO</FSFTweaksStackableChunksMechanoid>
+  <!-- EN: Input values to adjust the stack limit. -->
+  <FSFTweaksStackableChunksDesc>TODO</FSFTweaksStackableChunksDesc>
+  <!-- EN: Table Search Radius -->
+  <FSFTweaksTableSearchRadius>TODO</FSFTweaksTableSearchRadius>
+  <!-- EN: Input a value to set a maximum radius pawns will search for a table when consuming ingestible items.  This patches all items with a preferability except ones with NeverForNutrition.\nNote: If a table is within this radius they will go to it before consuming items so be careful not to set it too high.  The default value of 75 is what I&apos;ve found to be a nice middle ground. -->
+  <FSFTweaksTableSearchRadiusDesc>TODO</FSFTweaksTableSearchRadiusDesc>
+  <!-- EN: Base Disassembly Efficiency {FSFAccurateMechDisassemblyBaseEff} -->
+  <FSFTweaksAccurateMechDisassemblyBaseEff>TODO</FSFTweaksAccurateMechDisassemblyBaseEff>
+  <!-- EN: Maximum Disassembly Efficiency {FSFAccurateMechDisassemblyMaxEff} -->
+  <FSFTweaksAccurateMechDisassemblyMaxEff>TODO</FSFTweaksAccurateMechDisassemblyMaxEff>
+  <!-- EN: Input a value to adjust the efficiency stats for Mechanoid Disassembly.  The Base stat is the starting efficiency percentage before factoring in manipulation, eyesight and crafting skill while the Max stat is the maximum percentage of resources acquirable.\nVanilla (0.75, 1). -->
+  <FSFTweaksAccurateMechDisassemblyDesc>TODO</FSFTweaksAccurateMechDisassemblyDesc>
+  <!-- EN: Disable Mechanoid Subcores from disassembly loot. -->
+  <FSFTweaksAccurateMechDisassemblySubcores>TODO</FSFTweaksAccurateMechDisassemblySubcores>
+  <!-- EN: Awful Quality {FSFBedRestEffectivenessAwful} -->
+  <FSFTweaksBedRestEffectivenessAwful>TODO</FSFTweaksBedRestEffectivenessAwful>
+  <!-- EN: Poor Quality {FSFBedRestEffectivenessPoor} -->
+  <FSFTweaksBedRestEffectivenessPoor>TODO</FSFTweaksBedRestEffectivenessPoor>
+  <!-- EN: Normal Quality {FSFBedRestEffectivenessNormal} -->
+  <FSFTweaksBedRestEffectivenessNormal>TODO</FSFTweaksBedRestEffectivenessNormal>
+  <!-- EN: Good Quality {FSFBedRestEffectivenessGood} -->
+  <FSFTweaksBedRestEffectivenessGood>TODO</FSFTweaksBedRestEffectivenessGood>
+  <!-- EN: Excellent Quality {FSFBedRestEffectivenessExcellent} -->
+  <FSFTweaksBedRestEffectivenessExcellent>TODO</FSFTweaksBedRestEffectivenessExcellent>
+  <!-- EN: Masterwork Quality {FSFBedRestEffectivenessMasterwork} -->
+  <FSFTweaksBedRestEffectivenessMasterwork>TODO</FSFTweaksBedRestEffectivenessMasterwork>
+  <!-- EN: Legendary Quality {FSFBedRestEffectivenessLegendary} -->
+  <FSFTweaksBedRestEffectivenessLegendary>TODO</FSFTweaksBedRestEffectivenessLegendary>
+  <!-- EN: Move the slider to adjust the Bed Rest Effectiveness stat for that particular quality.\nVanilla (0.86, 0.92, 1.00, 1.08, 1.14, 1.25, 1.60). -->
+  <FSFTweaksBedRestEffectivenessDesc>TODO</FSFTweaksBedRestEffectivenessDesc>
+  <!-- EN: Adds Devilstrand as a filler material. -->
+  <FSFTweaksBetterQuestRewardsDevilstrand>TODO</FSFTweaksBetterQuestRewardsDevilstrand>
+  <!-- EN: Adds Hyperweave as a filler material. -->
+  <FSFTweaksBetterQuestRewardsHyperweave>TODO</FSFTweaksBetterQuestRewardsHyperweave>
+  <!-- EN: Adds Jade as a filler material. -->
+  <FSFTweaksBetterQuestRewardsJade>TODO</FSFTweaksBetterQuestRewardsJade>
+  <!-- EN: Adds expensive Leather/Wool as a filler material. -->
+  <FSFTweaksBetterQuestRewardsLeather>TODO</FSFTweaksBetterQuestRewardsLeather>
+  <!-- EN: Adds Obsidian as a filler material. -->
+  <FSFTweaksBetterQuestRewardsObsidian>TODO</FSFTweaksBetterQuestRewardsObsidian>
+  <!-- EN: Adds Synthread as a filler material. -->
+  <FSFTweaksBetterQuestRewardsSynthread>TODO</FSFTweaksBetterQuestRewardsSynthread>
+  <!-- EN: Huge River -->
+  <FSFTweaksBiggerRiversHugeRiver>TODO</FSFTweaksBiggerRiversHugeRiver>
+  <!-- EN: Large River -->
+  <FSFTweaksBiggerRiversLargeRiver>TODO</FSFTweaksBiggerRiversLargeRiver>
+  <!-- EN: River -->
+  <FSFTweaksBiggerRiversRiver>TODO</FSFTweaksBiggerRiversRiver>
+  <!-- EN: Creek -->
+  <FSFTweaksBiggerRiversCreek>TODO</FSFTweaksBiggerRiversCreek>
+  <!-- EN: Input a value to adjust the size of rivers.\nVanilla values (30, 14, 6, 4). -->
+  <FSFTweaksBiggerRiversDesc>TODO</FSFTweaksBiggerRiversDesc>
+  <!-- EN: Days to Max Radius -->
+  <FSFTweaksFasterMoisturePumps>TODO</FSFTweaksFasterMoisturePumps>
+  <!-- EN: Radius -->
+  <FSFTweaksMoisturePumpsRadius>TODO</FSFTweaksMoisturePumpsRadius>
+  <!-- EN: Input values to adjust the speed and radius of Moisture Pumps.  The speed value is written in days.\nThe Vanilla value is 60 (1 year). -->
+  <FSFTweaksFasterMoisturePumpsDesc>TODO</FSFTweaksFasterMoisturePumpsDesc>
+  <!-- EN: Allow Gray Flesh trails to wash away with rain/snow. -->
+  <FSFTweaksFilthVWRATGrayFlesh>TODO</FSFTweaksFilthVWRATGrayFlesh>
+  <!-- EN: Warning: This will make Metalhorrors more dangerous during bad weather as their traces will disappear almost immediately. -->
+  <FSFTweaksFilthVWRATGrayFleshDesc>TODO</FSFTweaksFilthVWRATGrayFleshDesc>
+  <!-- EN: Allow Revenant blood and trails to wash away with rain/snow. -->
+  <FSFTweaksFilthVWRATRevenant>TODO</FSFTweaksFilthVWRATRevenant>
+  <!-- EN: Warning: This will make Revenants significantly more dangerous during bad weather as their traces will disappear almost immediately making them impossible to track. -->
+  <FSFTweaksFilthVWRATRevenantDesc>TODO</FSFTweaksFilthVWRATRevenantDesc>
+  <!-- EN: Bioferrite Flammability {FSFMetalFlammabilityBioferrite} -->
+  <FSFTweaksMetalFlammabilityBioferrite>TODO</FSFTweaksMetalFlammabilityBioferrite>
+  <!-- EN: Gold Flammability {FSFMetalFlammabilityGold} -->
+  <FSFTweaksMetalFlammabilityGold>TODO</FSFTweaksMetalFlammabilityGold>
+  <!-- EN: Iron Flammability {FSFMetalFlammabilityIron} -->
+  <FSFTweaksMetalFlammabilityIron>TODO</FSFTweaksMetalFlammabilityIron>
+  <!-- EN: Silver Flammability {FSFMetalFlammabilitySilver} -->
+  <FSFTweaksMetalFlammabilitySilver>TODO</FSFTweaksMetalFlammabilitySilver>
+  <!-- EN: Sky Steel Flammability {FSFMetalFlammabilitySkySteel} -->
+  <FSFTweaksMetalFlammabilitySkySteel>TODO</FSFTweaksMetalFlammabilitySkySteel>
+  <!-- EN: Steel Flammability {FSFMetalFlammabilitySteel} -->
+  <FSFTweaksMetalFlammabilitySteel>TODO</FSFTweaksMetalFlammabilitySteel>
+  <!-- EN: Input a value to adjust the flammability of each metal.  The lower the number the less flammable it is.  The displayed number is a percentage of its flammability.  Setting it to 0 will make that metal completely immune to fire.\nVanilla flammability is 0.4 (40%). -->
+  <FSFTweaksMetalFlammabilityDesc>TODO</FSFTweaksMetalFlammabilityDesc>
+  <!-- EN: onDays -->
+  <FSFTweaksMoreQuestsonDays>TODO</FSFTweaksMoreQuestsonDays>
+  <!-- EN: numIncidentsRange -->
+  <FSFTweaksMoreQuestsnumIncidentsRange>TODO</FSFTweaksMoreQuestsnumIncidentsRange>
+  <!-- EN: minSpacingDays {FSFMoreQuestsminSpacingDays} -->
+  <FSFTweaksMoreQuestsminSpacingDays>TODO</FSFTweaksMoreQuestsminSpacingDays>
+  <!-- EN: Input a value to adjust the amount of quests generated within a timeframe.  The minSpacingDays (minimum days between quests) must allow the numIncidentsRange (number of quests) to fit within onDays (how many days before this block of quests ends) otherwise the game will throw errors.\nVanilla (12, 2, 3), Double Vanilla (12, 4, 1), Triple Vanilla (12, 6, 1), Daily (1, 1, 0.5).\nNote: Quests by default require a certain wealth threshold to be reached to trigger. In very low wealth starts like naked brutality or tribals its possible you might not get quests for a year or more until you hit that specific threshold. -->
+  <FSFTweaksMoreQuestsDesc>TODO</FSFTweaksMoreQuestsDesc>
+  <!-- EN: Slaves For Sale Minimum Range -->
+  <FSFTweaksMoreSlavesMin>TODO</FSFTweaksMoreSlavesMin>
+  <!-- EN: Slaves For Sale Maximum Range -->
+  <FSFTweaksMoreSlavesMax>TODO</FSFTweaksMoreSlavesMax>
+  <!-- EN: Input a value to adjust the number of slaves traders have for sale\nDefault Setting 9-10. -->
+  <FSFTweaksMoreSlavesDesc>TODO</FSFTweaksMoreSlavesDesc>
+  <!-- EN: Power Generation Multiplier {FSFPowerGenerationMultiplier} -->
+  <FSFTweaksPowerGenerationMultiplier>TODO</FSFTweaksPowerGenerationMultiplier>
+  <!-- EN: Battery Storage Capacity Multiplier {FSFBatteryStorageMultiplier} -->
+  <FSFTweaksBatteryStorageMultiplier>TODO</FSFTweaksBatteryStorageMultiplier>
+  <!-- EN: Vanometric Power Generation Multiplier {FSFVanometricGenerationMultiplier} -->
+  <FSFTweaksVanometricGenerationMultiplier>TODO</FSFTweaksVanometricGenerationMultiplier>
+  <!-- EN: Move the sliders to adjust the multiplier of all Power Generating items and the Storage Capacity of all Batteries.  The value is a straight multiplier, a value of 2 will double the original while 3 will triple it.\nThe Vanilla value is 1. -->
+  <FSFTweaksPowerGenerationMultiplierDesc>TODO</FSFTweaksPowerGenerationMultiplierDesc>
+  <!-- EN: maxThreatBigIntervalDays -->
+  <FSFTweaksRandyBigThreatIntRange>TODO</FSFTweaksRandyBigThreatIntRange>
+  <!-- EN: Traitor Minimum Time Range In Ticks -->
+  <FSFTweaksScenarioHediffTraitorMinTicks>TODO</FSFTweaksScenarioHediffTraitorMinTicks>
+  <!-- EN: Traitor Maximum Time Range In Ticks -->
+  <FSFTweaksScenarioHediffTraitorMaxTicks>TODO</FSFTweaksScenarioHediffTraitorMaxTicks>
+  <!-- EN: Input values to adjust the minimum and maximum time range of a Traitor reveal.  The value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in a day.\nThe Vanilla value is 120000 (2 day) to 360000 (6 days). -->
+  <FSFTweaksScenarioHediffTraitorTicksDesc>TODO</FSFTweaksScenarioHediffTraitorTicksDesc>
+  <!-- EN: Shallow Water Pathing Cost -->
+  <FSFTweaksWaterMovementTweaksShallowCost>TODO</FSFTweaksWaterMovementTweaksShallowCost>
+  <!-- EN: Shallow Water is Impassable -->
+  <FSFTweaksWaterMovementTweaksShallowImpassable>TODO</FSFTweaksWaterMovementTweaksShallowImpassable>
+  <!-- EN: Chest Deep Water Pathing Cost -->
+  <FSFTweaksWaterMovementTweaksChestDeepCost>TODO</FSFTweaksWaterMovementTweaksChestDeepCost>
+  <!-- EN: Chest Deep Water is Impassable -->
+  <FSFTweaksWaterMovementTweaksChestDeepImpassable>TODO</FSFTweaksWaterMovementTweaksChestDeepImpassable>
+  <!-- EN: Deep Water Pathing Cost -->
+  <FSFTweaksWaterMovementTweaksDeepCost>TODO</FSFTweaksWaterMovementTweaksDeepCost>
+  <!-- EN: Deep Water is Passable -->
+  <FSFTweaksWaterMovementTweaksDeepPassable>TODO</FSFTweaksWaterMovementTweaksDeepPassable>
+  <!-- EN: Input a value to adjust the pathing cost of water tiles.  The pathing cost is irrelevant if the terrain is set to impassable.\nPathing cost is a bit odd so you&apos;ll have to experiment with numbers.  A cost of 4 gives 76% movement speed on a tile but 40 gives 25%.\nVanilla Values Shallow Water 30, Chest Deep Water 42, Deep Water 300. -->
+  <FSFTweaksWaterMovementTweaksDesc>TODO</FSFTweaksWaterMovementTweaksDesc>
+  <!-- EN: Allow Adjacent Sowing on plants. -->
+  <FSFTweaksIndoorTreeFarmsAdjacentSow>TODO</FSFTweaksIndoorTreeFarmsAdjacentSow>
+  <!-- EN: Allow plants to be planted under roofs. -->
+  <FSFTweaksIndoorTreeFarmsRoof>TODO</FSFTweaksIndoorTreeFarmsRoof>
+  <!-- EN: Allow plants to be planted regardless of biome. -->
+  <FSFTweaksIndoorTreeFarmsWildToSow>TODO</FSFTweaksIndoorTreeFarmsWildToSow>
+  <!-- EN: No Artificial Building Radius -->
+  <FSFTweaksPoluxNoArtificialBuildingTitle>TODO</FSFTweaksPoluxNoArtificialBuildingTitle>
+  <!-- EN: Removes the radius that prevents Polux plants from functioning if they are too close to artificial buildings. -->
+  <FSFTweaksPoluxNoArtificialBuildingDesc>TODO</FSFTweaksPoluxNoArtificialBuildingDesc>
+  <!-- EN: Pollution Absorption -->
+  <FSFTweaksPoluxPollutionTitle>TODO</FSFTweaksPoluxPollutionTitle>
+  <!-- EN: Allows you to adjust the radius and speed at which Polux plants absorb pollution from the area. -->
+  <FSFTweaksXenogeneRegrowTimeOnDesc>TODO</FSFTweaksXenogeneRegrowTimeOnDesc>
+  <!-- EN: Replantable -->
+  <FSFTweaksPoluxReplantableTitle>TODO</FSFTweaksPoluxReplantableTitle>
+  <!-- EN: Changes Polux plants to be replantable allowing you to move them to another area. -->
+  <FSFTweaksPoluxReplantableDesc>TODO</FSFTweaksPoluxReplantableDesc>
+  <!-- EN: Seeds From Trees -->
+  <FSFTweaksPoluxSeedsSpawnTitle>TODO</FSFTweaksPoluxSeedsSpawnTitle>
+  <!-- EN: Causes Polux Trees to drop a seed every 30 to 60 days. -->
+  <FSFTweaksPoluxSeedsSpawnDesc>TODO</FSFTweaksPoluxSeedsSpawnDesc>
+  <!-- EN: Seeds On Traders -->
+  <FSFTweaksPoluxSeedsTitle>TODO</FSFTweaksPoluxSeedsTitle>
+  <!-- EN: Causes exotic traders and empire traders to stock extra Polux Seeds. -->
+  <FSFTweaksPoluxSeedsDesc>TODO</FSFTweaksPoluxSeedsDesc>
+  <!-- EN: Polux Tree Absorption Radius (Default 7) -->
+  <FSFTweaksPoluxTreeRadius>TODO</FSFTweaksPoluxTreeRadius>
+  <!-- EN: Polux Tree Absorption Speed (Default 25000) -->
+  <FSFTweaksPoluxTreeSpeed>TODO</FSFTweaksPoluxTreeSpeed>
+  <!-- EN: Polux Bush Absorption Radius (Default 1) -->
+  <FSFTweaksPoluxBushRadius>TODO</FSFTweaksPoluxBushRadius>
+  <!-- EN: Polux Bush Absorption Speed (Default 25000) -->
+  <FSFTweaksPoluxBushSpeed>TODO</FSFTweaksPoluxBushSpeed>
+  <!-- EN: Input values to adjust the radius and speed at which Polux plants absorb pollution.  The Radius is written in tiles which use a circular radius.  The Speed value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day. -->
+  <FSFTweaksPoluxPollutionDesc>TODO</FSFTweaksPoluxPollutionDesc>
+  <!-- EN: Polux Seed Amount Minimum Range (Default 0) -->
+  <FSFTweaksPoluxSeedsMin>TODO</FSFTweaksPoluxSeedsMin>
+  <!-- EN: Polux Seed Amount Maximum Range (Default 1) -->
+  <FSFTweaksPoluxSeedsMax>TODO</FSFTweaksPoluxSeedsMax>
+  <!-- EN: Reset All Mod settings -->
+  <FSFTweaksGlobalResetTitle>TODO</FSFTweaksGlobalResetTitle>
+  <!-- EN: Clicking the reset button below will reset all mod settings in this tweak pack.  This action cannot be undone. -->
+  <FSFTweaksGlobalResetDesc>TODO</FSFTweaksGlobalResetDesc>
+  <!-- EN: Royalty Tweaks -->
+  <FSFTweaksRoyaltyTweaksTitle>TODO</FSFTweaksRoyaltyTweaksTitle>
+  <!-- EN: Better Pawn Lending Quest -->
+  <FSFTweaksBetterPawnLendingQuestTitle>TODO</FSFTweaksBetterPawnLendingQuestTitle>
+  <!-- EN: Changes the Pawn Lending Quest to provide a much larger reward per colonist by smoothing the point curve, making the curve scale up to 10,000 points and adding a multiplier to the formula.  The multiplier itself can be customised. -->
+  <FSFTweaksBetterPawnLendingQuestOnDesc>TODO</FSFTweaksBetterPawnLendingQuestOnDesc>
+  <!-- EN: Buyable Psylink Neuroformers -->
+  <FSFTweaksBuyablePsylinkTitle>TODO</FSFTweaksBuyablePsylinkTitle>
+  <!-- EN: Makes Psylink Neuroformers buyable.  Also adds a stock of Psylink Neuroformers to traders based on an input amount and selected factions. -->
+  <FSFTweaksBuyablePsylinkOnDesc>TODO</FSFTweaksBuyablePsylinkOnDesc>
+  <!-- EN: Buyable Psytrainers -->
+  <FSFTweaksBuyablePsytrainerTitle>TODO</FSFTweaksBuyablePsytrainerTitle>
+  <!-- EN: Adds a stock of Psytrainers to traders based on an input amount and selected factions.\nNote: By default Psytrainers appear in small numbers on some traders.  This behaviour is unchanged. -->
+  <FSFTweaksBuyablePsytrainerOnDesc>TODO</FSFTweaksBuyablePsytrainerOnDesc>
+  <!-- EN: Gunlinks Give Mortar Accuracy -->
+  <FSFTweaksGunlinksGiveMortarAccuracyTitle>TODO</FSFTweaksGunlinksGiveMortarAccuracyTitle>
+  <!-- EN: Changes Gunlinks so they also give a bonus to mortar accuracy. -->
+  <FSFTweaksGunlinksGiveMortarAccuracyDesc>TODO</FSFTweaksGunlinksGiveMortarAccuracyDesc>
+  <!-- EN: Meditation Freedom -->
+  <FSFTweaksMeditationFreedomTitle>TODO</FSFTweaksMeditationFreedomTitle>
+  <!-- EN: Provides a suite of changes to allow you to set up meditation areas for your psycasters however you please without nerfing their psyfocus gain. -->
+  <FSFTweaksMeditationFreedomOnDesc>TODO</FSFTweaksMeditationFreedomOnDesc>
+  <!-- EN: More Varied Refugees -->
+  <FSFTweaksMoreVariedRefugeesTitle>TODO</FSFTweaksMoreVariedRefugeesTitle>
+  <!-- EN: Changes the Refugee PawnKindDef so the game creates more varied refugees.  This is done by giving them a wider range of item tags and a higher upper limit of money for spawning things.  As a result, refugees can spawn extremely poor (like normal), or they can spawn with armour, guns and bionics. -->
+  <FSFTweaksMoreVariedRefugeesDesc>TODO</FSFTweaksMoreVariedRefugeesDesc>
+  <!-- EN: No Empire Trading Permit -->
+  <FSFTweaksNoEmpireTradingPermitTitle>TODO</FSFTweaksNoEmpireTradingPermitTitle>
+  <!-- EN: Removes the need for a trading permit to trade with the empire faction. -->
+  <FSFTweaksNoEmpireTradingPermitDesc>TODO</FSFTweaksNoEmpireTradingPermitDesc>
+  <!-- EN: No Title Required For Concerts -->
+  <FSFTweaksNoTitleConcertsTitle>TODO</FSFTweaksNoTitleConcertsTitle>
+  <!-- EN: Removes the royal title requirement from Concerts.  Allowing any pawn to hold a music concert. -->
+  <FSFTweaksNoTitleConcertsDesc>TODO</FSFTweaksNoTitleConcertsDesc>
+  <!-- EN: Normal Fine Carpet -->
+  <FSFTweaksNormalFineCarpetTitle>TODO</FSFTweaksNormalFineCarpetTitle>
+  <!-- EN: Adds a carpet with identical stats to fine carpet only with the normal carpet texture. -->
+  <FSFTweaksNormalFineCarpetDesc>TODO</FSFTweaksNormalFineCarpetDesc>
+  <!-- EN: Remove Techprints -->
+  <FSFTweaksRemoveTechprintsTitle>TODO</FSFTweaksRemoveTechprintsTitle>
+  <!-- EN: Removes all techprints from the game.  Note: If the mod Configurable Techprints is enabled the patch will be disabled without you needing to turn this setting off. -->
+  <FSFTweaksRemoveTechprintsDesc>TODO</FSFTweaksRemoveTechprintsDesc>
+  <!-- EN: Quest Reward Multiplier -->
+  <FSFTweaksBetterPawnLendingQuest>TODO</FSFTweaksBetterPawnLendingQuest>
+  <!-- EN: Changes the Pawn Lending Quest to provide a much larger reward per colonist by smoothing the point curve, making the curve scale up to 10,000 points and adding a multiplier to the formula.  The multiplier itself can be customised.\nDefault setting (5) -->
+  <FSFTweaksBetterPawnLendingQuestDesc>TODO</FSFTweaksBetterPawnLendingQuestDesc>
+  <!-- EN: Which factions should sell Psylink Neuroformers? -->
+  <FSFTweaksBuyablePsylinkFactionsDesc>TODO</FSFTweaksBuyablePsylinkFactionsDesc>
+  <!-- EN: Psylink Neuroformer Amount Minimum Range -->
+  <FSFTweaksBuyablePsylinkMin>TODO</FSFTweaksBuyablePsylinkMin>
+  <!-- EN: Psylink Neuroformer Amount Maximum Range -->
+  <FSFTweaksBuyablePsylinkMax>TODO</FSFTweaksBuyablePsylinkMax>
+  <!-- EN: Input values to adjust the minimum and maximum ranges for the above items.  You can set a minimum and maximum for the range.  The game will then use RNG to determine a number between those two numbers.\nDefault settings (1-2) -->
+  <FSFTweaksBuyablePsylinkDesc>TODO</FSFTweaksBuyablePsylinkDesc>
+  <!-- EN: Which factions should sell Psytrainers? -->
+  <FSFTweaksBuyablePsytrainerFactionsDesc>TODO</FSFTweaksBuyablePsytrainerFactionsDesc>
+  <!-- EN: Psytrainer Types Minimum Range -->
+  <FSFTweaksBuyablePsytrainerMin>TODO</FSFTweaksBuyablePsytrainerMin>
+  <!-- EN: Psytrainer Types Maximum Range -->
+  <FSFTweaksBuyablePsytrainerMax>TODO</FSFTweaksBuyablePsytrainerMax>
+  <!-- EN: Psytrainer Amount Per Type Minimum Range -->
+  <FSFTweaksBuyablePsytrainerRangeMin>TODO</FSFTweaksBuyablePsytrainerRangeMin>
+  <!-- EN: Psytrainer Amount Per Type Maximum Range -->
+  <FSFTweaksBuyablePsytrainerRangeMax>TODO</FSFTweaksBuyablePsytrainerRangeMax>
+  <!-- EN: Input values to adjust the minimum and maximum ranges for the above items.  You can set a minimum and maximum for the range.  The game will then use RNG to determine a number between those two numbers.\nDefault settings (9-10, 1-2) -->
+  <FSFTweaksBuyablePsytrainerDesc>TODO</FSFTweaksBuyablePsytrainerDesc>
+  <!-- EN: List of active changes.\n- Meditation Focus item is available in Architect Menu.\n- Anima Grass lifespan has been greatly extended to prevent premature death.\n- Negative Artificial Building Radius is disabled on all things.\n- Anima Trees can now be moved and planted.\n- Anima Trees can be planted adjacent to trees and can be planted under roofs.\n- Nature Shrines can be built without a Nature Psycaster. -->
+  <FSFTweaksMeditationFreedomDesc>TODO</FSFTweaksMeditationFreedomDesc>
+  <!-- EN: Remove Backstory Requirement for Natural Meditation -->
+  <FSFTweaksMeditationFreedomBackstoryReq>TODO</FSFTweaksMeditationFreedomBackstoryReq>
+  <!-- EN: Meditation Focus Strength {FSFMeditationFreedomFocusStr} -->
+  <FSFTweaksMeditationFreedomFocusStr>TODO</FSFTweaksMeditationFreedomFocusStr>
+  <!-- EN: The Meditation Focus is an item that can be freely placed anywhere and allows pawns to meditate with any type of meditation.  This allows you to set up a optimal meditation area however and wherever you like.  The strength of the Meditation Focus can be adjusted via the slider above.  The number listed is the speed at which a pawn gains psyfocus from meditating at the Meditation Focus.  The default is 0.40, the Anima Tree with all bonuses provides 0.36, a Grand Throne with all bonuses provides 0.33. -->
+  <FSFTweaksMeditationFreedomFocusStrDesc>TODO</FSFTweaksMeditationFreedomFocusStrDesc>
+  <!-- EN: Anima Tree Focus Strength {FSFMeditationFreedomAnimaTreeStr} -->
+  <FSFTweaksMeditationFreedomAnimaTreeStr>TODO</FSFTweaksMeditationFreedomAnimaTreeStr>
+  <!-- EN: The meditation strength of the Anima Tree can be adjusted via the slider above.  The number listed is the base speed at which a pawn gains psyfocus from meditating at the Anima Tree.  The default base speed is 0.28 which excludes attachement bonuses. -->
+  <FSFTweaksMeditationFreedomAnimaTreeStrDesc>TODO</FSFTweaksMeditationFreedomAnimaTreeStrDesc>
+  <!-- EN: Only the Empire -->
+  <FSFTweaksBuyablePsylinkFactionsEmpire>TODO</FSFTweaksBuyablePsylinkFactionsEmpire>
+  <!-- EN: All High Tech Factions -->
+  <FSFTweaksBuyablePsylinkFactionsEveryone>TODO</FSFTweaksBuyablePsylinkFactionsEveryone>
+  <!-- EN: Only the Empire -->
+  <FSFTweaksBuyablePsytrainerFactionsEmpire>TODO</FSFTweaksBuyablePsytrainerFactionsEmpire>
+  <!-- EN: All High Tech Factions -->
+  <FSFTweaksBuyablePsytrainerFactionsEveryone>TODO</FSFTweaksBuyablePsytrainerFactionsEveryone>
+  <!-- EN: Ideology Tweaks -->
+  <FSFTweaksIdeologyTweaksTitle>TODO</FSFTweaksIdeologyTweaksTitle>
+  <!-- EN: Precepts and Memes -->
+  <FSFTweaksPreceptsandMemesTitle>TODO</FSFTweaksPreceptsandMemesTitle>
+  <!-- EN: Roles -->
+  <FSFTweaksRolesTitle>TODO</FSFTweaksRolesTitle>
+  <!-- EN: Archonexus Radius -->
+  <FSFTweaksArchonexusRadiusTitle>TODO</FSFTweaksArchonexusRadiusTitle>
+  <!-- EN: Scales down the radius of the Archonexus&apos;s effects on the initial structures so it expands only slightly out from the towers.  This allows you to safely build and plant around the Archonexus while still allowing it to produce its effects.  The number and density of anima grass has also been doubled. -->
+  <FSFTweaksArchonexusRadiusDesc>TODO</FSFTweaksArchonexusRadiusDesc>
+  <!-- EN: Better Mining Worksite Resources -->
+  <FSFTweaksMiningWorksiteResourcesTitle>TODO</FSFTweaksMiningWorksiteResourcesTitle>
+  <!-- EN: Changes Mining Worksites so they can spawn with extra resource types like Jade, Plasteel and Uranium.  The weighting odds are balanced around the Deep Drill commonality. -->
+  <FSFTweaksMiningWorksiteResourcesDesc>TODO</FSFTweaksMiningWorksiteResourcesDesc>
+  <!-- EN: Biosculpter Pod No Default Settings -->
+  <FSFTweaksBiosculpterPodNoDefaultSettingsTitle>TODO</FSFTweaksBiosculpterPodNoDefaultSettingsTitle>
+  <!-- EN: When enabled Biosculpter Pods will no longer have any default settings for nutrition.\nNote: This tweak is not needed if No Default Storage Settings is enabled but it will not cause issues if it is. -->
+  <FSFTweaksBiosculpterPodNoDefaultSettingsDesc>TODO</FSFTweaksBiosculpterPodNoDefaultSettingsDesc>
+  <!-- EN: Biosculpter Pod Restore All Body Parts -->
+  <FSFTweaksBiosculpterPodRestoreAllBodyPartsTitle>TODO</FSFTweaksBiosculpterPodRestoreAllBodyPartsTitle>
+  <!-- EN: When enabled the Biosculpter Pods Bioregeneration cycle will restore all body parts.  This includes all organs, bones and limbs.  It can also cure the Organ Decay disease. -->
+  <FSFTweaksBiosculpterPodRestoreAllBodyPartsDesc>TODO</FSFTweaksBiosculpterPodRestoreAllBodyPartsDesc>
+  <!-- EN: Conversion Ritual Effectiveness -->
+  <FSFTweaksConversionRitualEffectivenessTitle>TODO</FSFTweaksConversionRitualEffectivenessTitle>
+  <!-- EN: Allows you to customise the cooldown, chance and certainly gain/loss when performing conversion rituals. -->
+  <FSFTweaksConversionRitualEffectivenessOnDesc>TODO</FSFTweaksConversionRitualEffectivenessOnDesc>
+  <!-- EN: More Ideology Colours -->
+  <FSFTweaksMoreIdeologyColoursTitle>TODO</FSFTweaksMoreIdeologyColoursTitle>
+  <!-- EN: Adds a collection of colours usable for Ideologies and Clothing. -->
+  <FSFTweaksMoreIdeologyColoursDesc>TODO</FSFTweaksMoreIdeologyColoursDesc>
+  <!-- EN: Neural Supercharger Cooldown -->
+  <FSFTweaksNeuralSuperchargerCooldownTitle>TODO</FSFTweaksNeuralSuperchargerCooldownTitle>
+  <!-- EN: Allows you to customise the cooldown of the Neural Supercharger. -->
+  <FSFTweaksNeuralSuperchargerCooldownOnDesc>TODO</FSFTweaksNeuralSuperchargerCooldownOnDesc>
+  <!-- EN: No Age Restriction For Ideologies -->
+  <FSFTweaksNoAgeRestrictionForIdeologiesTitle>TODO</FSFTweaksNoAgeRestrictionForIdeologiesTitle>
+  <!-- EN: Changes the restrictions on Ideology roles, rituals and abilities to allow children.  In other words they can do everything adults can do when it comes to Ideology interactions. -->
+  <FSFTweaksNoAgeRestrictionForIdeologiesDesc>TODO</FSFTweaksNoAgeRestrictionForIdeologiesDesc>
+  <!-- EN: Embodied Theist Number Of Deities -->
+  <FSFTweaksEmbodiedTheistDeitiesTitle>TODO</FSFTweaksEmbodiedTheistDeitiesTitle>
+  <!-- EN: Changes the minimum and maximum amount of Deities allowed from 2-4 to 1-10. -->
+  <FSFTweaksEmbodiedTheistDeitiesDesc>TODO</FSFTweaksEmbodiedTheistDeitiesDesc>
+  <!-- EN: Pain Idealized Pain Threshold -->
+  <FSFTweaksPainIdealizedPainThresholdTitle>TODO</FSFTweaksPainIdealizedPainThresholdTitle>
+  <!-- EN: Adds a buff to the Pain Idealized precept that increases the pain shock threshold. -->
+  <FSFTweaksPainIdealizedPainThresholdDesc>TODO</FSFTweaksPainIdealizedPainThresholdDesc>
+  <!-- EN: Raider No Work Speed Malus -->
+  <FSFTweaksRaiderNoWorkSpeedMalusTitle>TODO</FSFTweaksRaiderNoWorkSpeedMalusTitle>
+  <!-- EN: Removes the work speed penalty from the Raiding precepts. -->
+  <FSFTweaksRaiderNoWorkSpeedMalusDesc>TODO</FSFTweaksRaiderNoWorkSpeedMalusDesc>
+  <!-- EN: Ranching No Plant Malus -->
+  <FSFTweaksRanchingNoPlantMalusTitle>TODO</FSFTweaksRanchingNoPlantMalusTitle>
+  <!-- EN: Removes the dislike of plants from the Ranching precept. -->
+  <FSFTweaksRanchingNoPlantMalusDesc>TODO</FSFTweaksRanchingNoPlantMalusDesc>
+  <!-- EN: All Roles Are Capable -->
+  <FSFTweaksAllRolesAreCapableTitle>TODO</FSFTweaksAllRolesAreCapableTitle>
+  <!-- EN: Removes all the disabled worktypes from all ideoligion roles. -->
+  <FSFTweaksAllRolesAreCapableDesc>TODO</FSFTweaksAllRolesAreCapableDesc>
+  <!-- EN: Artists Are Production Specialists -->
+  <FSFTweaksArtistsAreProductionSpecialistsTitle>TODO</FSFTweaksArtistsAreProductionSpecialistsTitle>
+  <!-- EN: Changes the Production Specialist role to include Artistic as a viable skill. -->
+  <FSFTweaksArtistsAreProductionSpecialistsDesc>TODO</FSFTweaksArtistsAreProductionSpecialistsDesc>
+  <!-- EN: Berserk Trance No Mental Break -->
+  <FSFTweaksBerserkTranceNoMentalBreakTitle>TODO</FSFTweaksBerserkTranceNoMentalBreakTitle>
+  <!-- EN: Removes the mental break from the berserk trance.  This allows you to continue controlling your pawn while the ability is active. -->
+  <FSFTweaksBerserkTranceNoMentalBreakDesc>TODO</FSFTweaksBerserkTranceNoMentalBreakDesc>
+  <!-- EN: People Required For Roles -->
+  <FSFTweaksPeopleRequiredForRolesTitle>TODO</FSFTweaksPeopleRequiredForRolesTitle>
+  <!-- EN: Allows you to change the required amount of people for ideology roles to unlock from the 3 to whatever number you want. -->
+  <FSFTweaksPeopleRequiredForRolesOnDesc>TODO</FSFTweaksPeopleRequiredForRolesOnDesc>
+  <!-- EN: Roles Don&apos;t Require Memes -->
+  <FSFTweaksRolesDontRequireMemesTitle>TODO</FSFTweaksRolesDontRequireMemesTitle>
+  <!-- EN: Removes the requirement of Memes from Roles and their associated Abilities. -->
+  <FSFTweaksRolesDontRequireMemesDesc>TODO</FSFTweaksRolesDontRequireMemesDesc>
+  <!-- EN: Warning: Removing the Meme lock will cause all Ideoligions to spawn with every role initially. -->
+  <FSFTweaksRolesDontRequireMemesWarning>TODO</FSFTweaksRolesDontRequireMemesWarning>
+  <!-- EN: Ticks to Cooldown (2500 is one hour, 60000 is one day) -->
+  <FSFTweaksConversionRitualCooldown>TODO</FSFTweaksConversionRitualCooldown>
+  <!-- EN: Terrible Quality Chance {FSFConversionRETerribleChance} -->
+  <FSFTweaksConversionRETerribleChance>TODO</FSFTweaksConversionRETerribleChance>
+  <!-- EN: Terrible Quality Certainly Gain {FSFConversionRETerribleCertainty} -->
+  <FSFTweaksConversionRETerribleCertainty>TODO</FSFTweaksConversionRETerribleCertainty>
+  <!-- EN: Ineffective Quality Chance {FSFConversionREIneffectiveChance} -->
+  <FSFTweaksConversionREIneffectiveChance>TODO</FSFTweaksConversionREIneffectiveChance>
+  <!-- EN: Ineffective Quality Certainly Gain {FSFConversionREIneffectiveCertainty} -->
+  <FSFTweaksConversionREIneffectiveCertainty>TODO</FSFTweaksConversionREIneffectiveCertainty>
+  <!-- EN: Effective Quality Chance {FSFConversionREEffectiveChance} -->
+  <FSFTweaksConversionREEffectiveChance>TODO</FSFTweaksConversionREEffectiveChance>
+  <!-- EN: Effective Quality Certainly Gain -{FSFConversionREEffectiveCertainty} -->
+  <FSFTweaksConversionREEffectiveCertainty>TODO</FSFTweaksConversionREEffectiveCertainty>
+  <!-- EN: Masterful Quality Chance {FSFConversionREMasterfulChance} -->
+  <FSFTweaksConversionREMasterfulChance>TODO</FSFTweaksConversionREMasterfulChance>
+  <!-- EN: Masterful Quality Certainly Gain -{FSFConversionREMasterfulCertainty} -->
+  <FSFTweaksConversionREMasterfulCertainty>TODO</FSFTweaksConversionREMasterfulCertainty>
+  <!-- EN: Input values to adjust the resulting Conversion Ritual Effectiveness&apos;s chance and certainty for each ritual quality.  Terrible and Ineffective are always negative and Effective and Masterful are always positive.  If you change the ritual chances ensure the four ritual quality chances add up to 100% otherwise there may be issues.\nVanilla Settings (Terrible 0.05, 0.20, Ineffective 0.15, 0.12, Effective 0.60, -0.30, Masterful 0.20, -1.00). -->
+  <FSFTweaksConversionRitualEffectivenessDesc>TODO</FSFTweaksConversionRitualEffectivenessDesc>
+  <!-- EN: Ticks to Recharge -->
+  <FSFTweaksNeuralSuperchargerCooldown>TODO</FSFTweaksNeuralSuperchargerCooldown>
+  <!-- EN: Input a value to adjust the cooldown of the Neural Supercharger.  The value is written in what the game calls ticks.  There are 2500 ticks in one game hour.\nThe Vanilla value is 60000 (1 day), set to 0 to remove the cooldown completely. -->
+  <FSFTweaksNeuralSuperchargerCooldownDesc>TODO</FSFTweaksNeuralSuperchargerCooldownDesc>
+  <!-- EN: People required for roles to activate -->
+  <FSFTweaksPeopleRequiredForRolesNum>TODO</FSFTweaksPeopleRequiredForRolesNum>
+  <!-- EN: Input a value to adjust the number of people required to activate ideology roles.\nThe Vanilla value is 3 and the minimum is 2 due to there being a minimum of 2 roles for ideologies the leader and moral guide. -->
+  <FSFTweaksPeopleRequiredForRolesDesc>TODO</FSFTweaksPeopleRequiredForRolesDesc>
+  <!-- EN: Biotech Tweaks -->
+  <FSFTweaksBiotechTweaksTitle>TODO</FSFTweaksBiotechTweaksTitle>
+  <!-- EN: Genetics -->
+  <FSFTweaksGeneticsTitle>TODO</FSFTweaksGeneticsTitle>
+  <!-- EN: Human Reproduction -->
+  <FSFTweaksHumanReproductonTitle>TODO</FSFTweaksHumanReproductonTitle>
+  <!-- EN: Mechanoids and Mechanitors -->
+  <FSFTweaksMechanoidsMechanitorsTitle>TODO</FSFTweaksMechanoidsMechanitorsTitle>
+  <!-- EN: Additional Xenotypes -->
+  <FSFTweaksAddXenotypesTitle>TODO</FSFTweaksAddXenotypesTitle>
+  <!-- EN: Adds a number of different Custom Xenotypes as Defs for better compatibility with mods.  Enabling this option alone does not toggle anything on, it only displays more options.  All Xenotypes are off by default and can be enabled individually. -->
+  <FSFTweaksAddXenotypesOnDesc>TODO</FSFTweaksAddXenotypesOnDesc>
+  <!-- EN: Multiple Birth Gene -->
+  <FSFTweaksMultipleBirthGeneTitle>TODO</FSFTweaksMultipleBirthGeneTitle>
+  <!-- EN: Adds a new gene that allows pawns to rarely give birth to multiple babies.  With the gene there is a 97% chance of one baby, a 1% chance of twins, a 1% chance of triplets and a 1% chance of quads. -->
+  <FSFTweaksMultipleBirthGeneDesc>TODO</FSFTweaksMultipleBirthGeneDesc>
+  <!-- EN: Twins Birth Gene -->
+  <FSFTweaksTwinsBirthGeneTitle>TODO</FSFTweaksTwinsBirthGeneTitle>
+  <!-- EN: Adds a new gene that causes a pawn to always give birth to twins. -->
+  <FSFTweaksTwinsBirthGeneDesc>TODO</FSFTweaksTwinsBirthGeneDesc>
+  <!-- EN: Growth Vat No Default Settings -->
+  <FSFTweaksGrowthVatNoDefaultSettingsTitle>TODO</FSFTweaksGrowthVatNoDefaultSettingsTitle>
+  <!-- EN: When enabled Growth Vats will no longer have any default settings for nutrition.\nNote: This tweak is not needed if No Default Storage Settings is enabled but it will not cause issues if it is. -->
+  <FSFTweaksGrowthVatNoDefaultSettingsDesc>TODO</FSFTweaksGrowthVatNoDefaultSettingsDesc>
+  <!-- EN: Larger Gene Banks -->
+  <FSFTweaksLargerGenebanksTitle>TODO</FSFTweaksLargerGenebanksTitle>
+  <!-- EN: Allows you to customise the amount of Genepacks a Gene Bank can hold. -->
+  <FSFTweaksLargerGenebanksOnDesc>TODO</FSFTweaksLargerGenebanksOnDesc>
+  <!-- EN: Larger Gene Processors -->
+  <FSFTweaksLargerGeneProcessorsTitle>TODO</FSFTweaksLargerGeneProcessorsTitle>
+  <!-- EN: Allows you to customise the amount of Complexity Gene Processors give. -->
+  <FSFTweaksLargerGeneProcessorsOnDesc>TODO</FSFTweaksLargerGeneProcessorsOnDesc>
+  <!-- EN: More Genepacks On Traders -->
+  <FSFTweaksMoreGenepacksOnTradersTitle>TODO</FSFTweaksMoreGenepacksOnTradersTitle>
+  <!-- EN: Changes the traders stock for Genepacks and Archite Capsules to the input amount. -->
+  <FSFTweaksMoreGenepacksOnTradersOnDesc>TODO</FSFTweaksMoreGenepacksOnTradersOnDesc>
+  <!-- EN: Xenogene Regrow Time -->
+  <FSFTweaksXenogeneRegrowTimeTitle>TODO</FSFTweaksXenogeneRegrowTimeTitle>
+  <!-- EN: No RNG Gene Tools -->
+  <FSFTweaksNoRNGGeneToolsTitle>TODO</FSFTweaksNoRNGGeneToolsTitle>
+  <!-- EN: Changes the randomness of the normal Gene Tools from Alpha Genes to use the Archotech variant which allows you to specifically target a gene of your choice. -->
+  <FSFTweaksNoRNGGeneToolsDesc>TODO</FSFTweaksNoRNGGeneToolsDesc>
+  <!-- EN: Human Lactation Settings -->
+  <FSFTweaksHumanLactationSettingsTitle>TODO</FSFTweaksHumanLactationSettingsTitle>
+  <!-- EN: Provides a set of options for changing things related to human lactation. -->
+  <FSFTweaksHumanLactationOnDesc>TODO</FSFTweaksHumanLactationOnDesc>
+  <!-- EN: Warning: These settings are not compatible with the mod Lactation Expansion. -->
+  <FSFTweaksHumanLactationWarning>TODO</FSFTweaksHumanLactationWarning>
+  <!-- EN: Primitive Fertility Procedures -->
+  <FSFTweaksNeolithicFertilityProceduresTitle>TODO</FSFTweaksNeolithicFertilityProceduresTitle>
+  <!-- EN: Adds a new research project for the Neolithic era which provides surgery recipes that use medicine for boosting/inhibiting fertility, inducing/stopping lactation and sterilizing pawns.  Locks the sterilize animal and terminate pregnancy surgery recipes to this research.  Also makes this research a requirement for the Fertility Procedures research but lowers the research cost to compensate. -->
+  <FSFTweaksNeolithicFertilityProceduresDesc>TODO</FSFTweaksNeolithicFertilityProceduresDesc>
+  <!-- EN: Human Reproduction Settings -->
+  <FSFTweaksReproductonSettingsTitle>TODO</FSFTweaksReproductonSettingsTitle>
+  <!-- EN: Provides a suite of options to adjust how fertility, lactation and pregnancy functions. -->
+  <FSFTweaksHumanReproductonOnDesc>TODO</FSFTweaksHumanReproductonOnDesc>
+  <!-- EN: Wastepack Generation and Management -->
+  <FSFTweaksWastepacksTitle>TODO</FSFTweaksWastepacksTitle>
+  <!-- EN: Allows you to customise various aspects relating to wastepack generation and management. -->
+  <FSFTweaksWastepacksOnDesc>TODO</FSFTweaksWastepacksOnDesc>
+  <!-- EN: Coagulate Can Target Self -->
+  <FSFTweaksCoagulateCanTargetSelfTitle>TODO</FSFTweaksCoagulateCanTargetSelfTitle>
+  <!-- EN: Allows the Sanguophages to target themselves with the Coagulate power. -->
+  <FSFTweaksCoagulateCanTargetSelfDesc>TODO</FSFTweaksCoagulateCanTargetSelfDesc>
+  <!-- EN: Hemogen For Food -->
+  <FSFTweaksHemogenForFoodTitle>TODO</FSFTweaksHemogenForFoodTitle>
+  <!-- EN: Changes the preferability on Hemogen Packs so pawns will prioritise them as meals.  Also changes the nutrition they provide to match meals. -->
+  <FSFTweaksHemogenForFoodDesc>TODO</FSFTweaksHemogenForFoodDesc>
+  <!-- EN: Killed A Child Malus -->
+  <FSFTweaksKilledAChildMalusTitle>TODO</FSFTweaksKilledAChildMalusTitle>
+  <!-- EN: Changes the negative social opinion modifier to 0 for when someone kills a child.  Also changes the Killed Child mood debuff to use DeathMemory as a ParentDef which some mods use to alter how pawns see death.\nNote: The social opinion change also unfortunately affects killing colony children.  There is a flag so it only affects colonists however this does not seem to function on this thought for some reason. -->
+  <FSFTweaksKilledAChildMalusDesc>TODO</FSFTweaksKilledAChildMalusDesc>
+  <!-- EN: Love Is Blind -->
+  <FSFTweaksLoveIsBlindTitle>TODO</FSFTweaksLoveIsBlindTitle>
+  <!-- EN: Removes the romance chance reduction from genes allowing pawns to fall in love with whoever they like. -->
+  <FSFTweaksLoveIsBlindDesc>TODO</FSFTweaksLoveIsBlindDesc>
+  <!-- EN: More Children Clothing -->
+  <FSFTweaksMoreChildrenClothingTitle>TODO</FSFTweaksMoreChildrenClothingTitle>
+  <!-- EN: Changes numerous clothing items so they can be worn by children.  This may include hats, gloves, boots and utility items.\nNote: Some Utility items may look overly large or not sit right.  Fixing this would require adding new child variants of the items so I opted for including them vs not including them. -->
+  <FSFTweaksMoreChildrenClothingDesc>TODO</FSFTweaksMoreChildrenClothingDesc>
+  <!-- EN: Pollution Pumps -->
+  <FSFTweaksPollutionPumpsTitle>TODO</FSFTweaksPollutionPumpsTitle>
+  <!-- EN: Allows you to customise the statistics of Pollution Pumps. -->
+  <FSFTweaksPollutionPumpsOnDesc>TODO</FSFTweaksPollutionPumpsOnDesc>
+  <!-- EN: Venerated Xenotype -->
+  <FSFTweaksAddXenotypesVeneratedTitle>TODO</FSFTweaksAddXenotypesVeneratedTitle>
+  <!-- EN: Adds a dummy xenotype to the game meant to be used with the mod Venerated Xenotype Flexibility.  The xenotype itself does not appear in any faction and uses only a couple genes that will likely be used in any end game custom xenotype build.  As such, regardless of the game&apos;s theme the Venerated Xenotype should fit the end game custom xenotype when used alongside the Precept that requires specific genes but allows any additional genes.  The genes used are Archite Metabolism, Dark Vision, Quick Study and Xenogerm Reimplanter. -->
+  <FSFTweaksAddXenotypesVeneratedDesc>TODO</FSFTweaksAddXenotypesVeneratedDesc>
+  <!-- EN: Gene Bank Storage Limit -->
+  <FSFTweaksLargerGenebanks>TODO</FSFTweaksLargerGenebanks>
+  <!-- EN: Gene Bank Storage Limit -->
+  <FSFTweaksOAGNLargerGeneArchive>TODO</FSFTweaksOAGNLargerGeneArchive>
+  <!-- EN: Gene Bank Storage Limit -->
+  <FSFTweaksOAGNLargerGeneRegister>TODO</FSFTweaksOAGNLargerGeneRegister>
+  <!-- EN: Input a value to adjust the capacity of Gene Banks.  The value is how many Genepacks can be stored per Gene Bank.\nThe Vanilla value Gene Bank 4 (Texture shows 8 slots), Gene Archive 24 (Texture shows 48 slots), Gene Register 80 (Texture shows 144 slots). -->
+  <FSFTweaksLargerGenebanksDesc>TODO</FSFTweaksLargerGenebanksDesc>
+  <!-- EN: Gene Processor Complexity Increase -->
+  <FSFTweaksLargerGeneProcessor>TODO</FSFTweaksLargerGeneProcessor>
+  <!-- EN: Gene Subprocessor Complexity Increase -->
+  <FSFTweaksOAGNLargerGeneSubprocessor>TODO</FSFTweaksOAGNLargerGeneSubprocessor>
+  <!-- EN: Gene Macroprocessor Complexity Increase -->
+  <FSFTweaksOAGNLargerGeneMacroprocessor>TODO</FSFTweaksOAGNLargerGeneMacroprocessor>
+  <!-- EN: Input a value to adjust the complexity provided by Gene Processors.  The value is how much Complexity given by each Gene Processor.\nThe Vanilla value Gene Processor 2, Gene Subprocessor 4, Gene Macroprocessor 8. -->
+  <FSFTweaksLargerGeneProcessorsDesc>TODO</FSFTweaksLargerGeneProcessorsDesc>
+  <!-- EN: Genepack Amount Minimum Range -->
+  <FSFTweaksMoreGenepacksOnTradersGenepackMin>TODO</FSFTweaksMoreGenepacksOnTradersGenepackMin>
+  <!-- EN: Genepack Amount Maximum Range -->
+  <FSFTweaksMoreGenepacksOnTradersGenepackMax>TODO</FSFTweaksMoreGenepacksOnTradersGenepackMax>
+  <!-- EN: Archite Capsule Minimum Range -->
+  <FSFTweaksMoreGenepacksOnTradersArchiteCapulesMin>TODO</FSFTweaksMoreGenepacksOnTradersArchiteCapulesMin>
+  <!-- EN: Archite Capsule Maximum Range -->
+  <FSFTweaksMoreGenepacksOnTradersArchiteCapulesMax>TODO</FSFTweaksMoreGenepacksOnTradersArchiteCapulesMax>
+  <!-- EN: Changes the traders stock for Genepacks and Archite Capsules to the input amount.  Input values to adjust the minimum and maximum ranges for the above items.  You can set a minimum and maximum for the range.  The game will then use RNG to determine a number between those two numbers.\nDefault settings (5-6, 6-7). -->
+  <FSFTweaksMoreGenepacksOnTradersDesc>TODO</FSFTweaksMoreGenepacksOnTradersDesc>
+  <!-- EN: Xenogene Regrow Time Minimum Range -->
+  <FSFTweaksXenogeneRegrowTimeMin>TODO</FSFTweaksXenogeneRegrowTimeMin>
+  <!-- EN: Xenogene Regrow Time Maximum Range -->
+  <FSFTweaksXenogeneRegrowTimeMax>TODO</FSFTweaksXenogeneRegrowTimeMax>
+  <!-- EN: Input a value to adjust the regrowth time of Xenogenes.  The value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 6000000 (100 days) to 8400000 (140 Days).\nSome values for easy input, (5 Days) 300000 ticks, (10 Days) 600000 ticks, (15 Days) 900000 ticks, (30 Days) 1800000 ticks, (45 Days) 2700000 ticks, (60 Days) 3600000 ticks. -->
+  <FSFTweaksXenogeneRegrowTimeDesc>TODO</FSFTweaksXenogeneRegrowTimeDesc>
+  <!-- EN: Lactating Doesn&apos;t Lower Fertility -->
+  <FSFTweaksLactatingNoFertilityMalusTitle>TODO</FSFTweaksLactatingNoFertilityMalusTitle>
+  <!-- EN: Removes the massive fertility reduction for people who are lactating. -->
+  <FSFTweaksLactatingNoFertilityMalusDesc>TODO</FSFTweaksLactatingNoFertilityMalusDesc>
+  <!-- EN: Lactation Duration -->
+  <FSFTweaksLactationDurationTitle>TODO</FSFTweaksLactationDurationTitle>
+  <!-- EN: Lactation Duration In Days -->
+  <FSFTweaksLactationDuration>TODO</FSFTweaksLactationDuration>
+  <!-- EN: Input a value to set the duration of Lactating.\nThe Vanilla value is 10 days. -->
+  <FSFTweaksLactationDurationDesc>TODO</FSFTweaksLactationDurationDesc>
+  <!-- EN: Lactation Recharge Speed -->
+  <FSFTweaksLactationRechargeSpeedTitle>TODO</FSFTweaksLactationRechargeSpeedTitle>
+  <!-- EN: Lactation Recharge Speed in Ticks -->
+  <FSFTweaksLactationRechargeSpeed>TODO</FSFTweaksLactationRechargeSpeed>
+  <!-- EN: Input a value to set how long it takes a person&apos;s breasts to reach a full state.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 15000 ticks, a total of 6 hours, it&apos;s commented as 2 hours to feed a child and 4 hours to recharge. -->
+  <FSFTweaksLactationRechargeSpeedDesc>TODO</FSFTweaksLactationRechargeSpeedDesc>
+  <!-- EN: Warning: Changing this value changes the required food intake of the lactating pawn.  Making it very low will cause the pawn to require a massive amount of food. -->
+  <FSFTweaksLactationRechargeSpeedWarning>TODO</FSFTweaksLactationRechargeSpeedWarning>
+  <!-- EN: Ovum Extracted Duration -->
+  <FSFTweaksOvumExtractedDurationTitle>TODO</FSFTweaksOvumExtractedDurationTitle>
+  <!-- EN: Ovum Extracted Duration in Ticks -->
+  <FSFTweaksOvumExtractedDuration>TODO</FSFTweaksOvumExtractedDuration>
+  <!-- EN: Input a value to set how long it takes a woman&apos;s ovum to regenerate.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 600000 ticks (10 Days). -->
+  <FSFTweaksOvumExtractedDurationDesc>TODO</FSFTweaksOvumExtractedDurationDesc>
+  <!-- EN: Human Pregnancy Duration -->
+  <FSFTweaksHumanPregnancyTitle>TODO</FSFTweaksHumanPregnancyTitle>
+  <!-- EN: Pregnancy Duration In Days -->
+  <FSFTweaksHumanPregnancyDays>TODO</FSFTweaksHumanPregnancyDays>
+  <!-- EN: Input a value to set the duration of Human Pregnancies.\nThe Vanilla value is 18 days. -->
+  <FSFTweaksHumanPregnancyDaysDesc>TODO</FSFTweaksHumanPregnancyDaysDesc>
+  <!-- EN: Human Postpartum Exhaustion Duration -->
+  <FSFTweaksPostpartumDurationTitle>TODO</FSFTweaksPostpartumDurationTitle>
+  <!-- EN: Postpartum Duration In Ticks -->
+  <FSFTweaksPostpartumDuration>TODO</FSFTweaksPostpartumDuration>
+  <!-- EN: Input a value to set the duration of Human Postpartum Exhaustion.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 40000 ticks (16 hours). -->
+  <FSFTweaksPostpartumDurationDesc>TODO</FSFTweaksPostpartumDurationDesc>
+  <!-- EN: Human Refractory Duration -->
+  <FSFTweaksRefractoryDurationTitle>TODO</FSFTweaksRefractoryDurationTitle>
+  <!-- EN: Refractory Duration In Ticks -->
+  <FSFTweaksRefractoryDuration>TODO</FSFTweaksRefractoryDuration>
+  <!-- EN: Alpha Genes Asexual Fission Interval -->
+  <FSFTweaksAGAsexualFissionDaysTitle>TODO</FSFTweaksAGAsexualFissionDaysTitle>
+  <!-- EN: Asexual Fission Interval In Days -->
+  <FSFTweaksAGAsexualFissionDays>TODO</FSFTweaksAGAsexualFissionDays>
+  <!-- EN: Input a value to set the Asexual Fission Interval for the Alpha Genes Asexual Fission gene.\nThe Vanilla value is 25 days. -->
+  <FSFTweaksAGAsexualFissionDaysDesc>TODO</FSFTweaksAGAsexualFissionDaysDesc>
+  <!-- EN: Alpha Genes Oviparous Egg Laying Interval -->
+  <FSFTweaksAGEggLayDaysTitle>TODO</FSFTweaksAGEggLayDaysTitle>
+  <!-- EN: Oviparous Egg Laying Interval In Days -->
+  <FSFTweaksAGEggLayDays>TODO</FSFTweaksAGEggLayDays>
+  <!-- EN: Input a value to set the Oviparous Egg Laying Interval for the Alpha Genes Oviparous gene.  The progress will count up to 50% of this value and remain there until the female is fertilized.\nThe Vanilla value is 9 days. -->
+  <FSFTweaksAGEggLayDaysDesc>TODO</FSFTweaksAGEggLayDaysDesc>
+  <!-- EN: Alpha Genes Oviparous Egg Days To Hatch -->
+  <FSFTweaksAGEggHatchDaysTitle>TODO</FSFTweaksAGEggHatchDaysTitle>
+  <!-- EN: Oviparous Egg Days To Hatch -->
+  <FSFTweaksAGEggHatchDays>TODO</FSFTweaksAGEggHatchDays>
+  <!-- EN: Input a value to set how long it takes for Alpha Genes Human Eggs to hatch.\nThe Vanilla value is 15 days. -->
+  <FSFTweaksAGEggHatchDaysDesc>TODO</FSFTweaksAGEggHatchDaysDesc>
+  <!-- EN: Alpha Genes Parasitic Implantation Duration -->
+  <FSFTweaksAGParasiticImplantationDaysTitle>TODO</FSFTweaksAGParasiticImplantationDaysTitle>
+  <!-- EN: Parasitic Implantation Duration In Days -->
+  <FSFTweaksAGParasiticImplantationDays>TODO</FSFTweaksAGParasiticImplantationDays>
+  <!-- EN: Input a value to set the duration of Parasitic Implantation for the Alpha Genes Parasitic Implantation gene.\nThe Vanilla value is 15 days. -->
+  <FSFTweaksAGParasiticImplantationDaysDesc>TODO</FSFTweaksAGParasiticImplantationDaysDesc>
+  <!-- EN: VRE Phytokin Sapling Fatigue Duration -->
+  <FSFTweaksSaplingFatigueTitle>TODO</FSFTweaksSaplingFatigueTitle>
+  <!-- EN: Sapling Fatigue Duration In Days -->
+  <FSFTweaksSaplingFatigueDays>TODO</FSFTweaksSaplingFatigueDays>
+  <!-- EN: Input a value to set the duration for VRE Phytokin Sapling Fatigue.\nThe Vanilla value is 18 days. -->
+  <FSFTweaksSaplingFatigueDaysDesc>TODO</FSFTweaksSaplingFatigueDaysDesc>
+  <!-- EN: VRE Saurid Oviparous Egg Days To Hatch -->
+  <FSFTweaksVRESauridEggHatchDaysTitle>TODO</FSFTweaksVRESauridEggHatchDaysTitle>
+  <!-- EN: Oviparous Egg Days To Hatch -->
+  <FSFTweaksVRESauridEggHatchDays>TODO</FSFTweaksVRESauridEggHatchDays>
+  <!-- EN: Input a value to set how long it takes for VRE Saurid Human Eggs to hatch.\nThe Vanilla value is 18 days. -->
+  <FSFTweaksVRESauridEggHatchDaysDesc>TODO</FSFTweaksVRESauridEggHatchDaysDesc>
+  <!-- EN: VRE Saurid Oviparous Egg Fatigue Duration -->
+  <FSFTweaksVRESauridEggFatigueDaysTitle>TODO</FSFTweaksVRESauridEggFatigueDaysTitle>
+  <!-- EN: Oviparous Egg Fatigue Duration In Days -->
+  <FSFTweaksVRESauridEggFatigueDays>TODO</FSFTweaksVRESauridEggFatigueDays>
+  <!-- EN: Input a value to set the duration for VRE Saurid Egg Fatigue.\nThe Vanilla value is 18 days. -->
+  <FSFTweaksVRESauridEggFatigueDaysDesc>TODO</FSFTweaksVRESauridEggFatigueDaysDesc>
+  <!-- EN: Mechanoid Wastepacks Per Recharge -->
+  <FSFTweaksMechanoidRechargeWaste>TODO</FSFTweaksMechanoidRechargeWaste>
+  <!-- EN: Input a value to adjust the amount of Wastepacks mechanoids generate per recharge.  The value itself is multiplied by the mechanoids bandwidth consumption.\nThe Vanilla value is 5. -->
+  <FSFTweaksMechanoidRechargeWasteDesc>TODO</FSFTweaksMechanoidRechargeWasteDesc>
+  <!-- EN: Wastepack Atomizer Power Consumption -->
+  <FSFTweaksWastepackAtomizerPower>TODO</FSFTweaksWastepackAtomizerPower>
+  <!-- EN: Wastepack Atomizer Wastepack Stack Limit -->
+  <FSFTweaksWastepackAtomizerStackLimit>TODO</FSFTweaksWastepackAtomizerStackLimit>
+  <!-- EN: Wastepack Atomizer Ticks Required to Destroy a Wastepack -->
+  <FSFTweaksWastepackAtomizerSpeed>TODO</FSFTweaksWastepackAtomizerSpeed>
+  <!-- EN: Input values to adjust statistics of the WastePack Atomizer.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nVanilla Values 400, 10, 30000. -->
+  <FSFTweaksWastepackAtomizerSpeedDesc>TODO</FSFTweaksWastepackAtomizerSpeedDesc>
+  <!-- EN: Power Usage -->
+  <FSFTweaksPollutionPumpsPower>TODO</FSFTweaksPollutionPumpsPower>
+  <!-- EN: Radius -->
+  <FSFTweaksPollutionPumpsRadius>TODO</FSFTweaksPollutionPumpsRadius>
+  <!-- EN: Tiles Per Wastepack -->
+  <FSFTweaksPollutionPumpsWaste>TODO</FSFTweaksPollutionPumpsWaste>
+  <!-- EN: Ticks Per Interval -->
+  <FSFTweaksPollutionPumpsInterval>TODO</FSFTweaksPollutionPumpsInterval>
+  <!-- EN: Input values to adjust the various statistics of Pollution Pumps.  The Interval value is written in ticks.\nTicks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nVanilla Values 200, 10, 6, 15000.  Based on these numbers the pump can cover 372 tiles, it cleans 1 tile every 6 hours which takes 93 days and produces 62 Wastepacks. -->
+  <FSFTweaksPollutionPumpsDesc>TODO</FSFTweaksPollutionPumpsDesc>
+  <!-- EN: Anomaly Tweaks -->
+  <FSFTweaksAnomalyTweaksTitle>TODO</FSFTweaksAnomalyTweaksTitle>
+  <!-- EN: Ghouls -->
+  <FSFTweaksGhoulsTitle>TODO</FSFTweaksGhoulsTitle>
+  <!-- EN: Shamblers -->
+  <FSFTweaksShamblersTitle>TODO</FSFTweaksShamblersTitle>
+  <!-- EN: Ghouls Can Use Any Ability -->
+  <FSFTweaksGhoulsAnyAbilityTitle>TODO</FSFTweaksGhoulsAnyAbilityTitle>
+  <!-- EN: Ghouls have a white list of abilities they are allowed to use.  Any ability not on this list will not appear on the ghoul as a UI button to activate.  This tweak removes the white list which results in the game allowing ghouls to use any ability they might have gained via genes, bionics or other methods. -->
+  <FSFTweaksGhoulsAnyAbilityDesc>TODO</FSFTweaksGhoulsAnyAbilityDesc>
+  <!-- EN: Normal Ghoul Appearance -->
+  <FSFTweaksNormalGhoulAppearanceTitle>TODO</FSFTweaksNormalGhoulAppearanceTitle>
+  <!-- EN: Disables the custom body, head and hairstyles ghouls normally use.  This means pawns made into ghouls will retain their normal appearance but have the dead greenish skin and grey hair. -->
+  <FSFTweaksNormalGhoulAppearanceDesc>TODO</FSFTweaksNormalGhoulAppearanceDesc>
+  <!-- EN: No Psychic Ritual Cooldown -->
+  <FSFTweaksNoPsychicRitualCDTitle>TODO</FSFTweaksNoPsychicRitualCDTitle>
+  <!-- EN: Removes the cooldown of Psychic Rituals allowing you to perform them again immediately providing you have the time and resources. -->
+  <FSFTweaksNoPsychicRitualCDDesc>TODO</FSFTweaksNoPsychicRitualCDDesc>
+  <!-- EN: Lethal Shambler Infections -->
+  <FSFTweaksLethalShamblersTitle>TODO</FSFTweaksLethalShamblersTitle>
+  <!-- EN: Changes Shambler infections from Alpha Genes and Ushankas Necroa Archovirus to be lethal.  These infections can no longer be tended and the natural immunity gain is non-existent. -->
+  <FSFTweaksLethalShamblersDesc>TODO</FSFTweaksLethalShamblersDesc>
+  <!-- EN: Permanent Shambler Infection -->
+  <FSFTweaksPermanentShamblerInfectionTitle>TODO</FSFTweaksPermanentShamblerInfectionTitle>
+  <!-- EN: Adds a hidden hediff that can be applied in the Scenario Settings.  This hediff is a Shambler Infection that does not progress and cannot be cured.  This allows the pawn to immediately return as a shambler in the event of their death even if they weren&apos;t previously infected by a shambler. -->
+  <FSFTweaksPermanentShamblerInfectionDesc>TODO</FSFTweaksPermanentShamblerInfectionDesc>
+  <!-- EN: Realistic Shamblers -->
+  <FSFTweaksRealisticShamblersTitle>TODO</FSFTweaksRealisticShamblersTitle>
+  <!-- EN: Makes a number of changes to Shamblers so they more accurately resemble people from factions.  They can have bionics, they can have helmets and they can have better gear with higher health and quality.\nNote: This will make shamblers especially soldier variants more dangerous as they now can spawn with proper armour. -->
+  <FSFTweaksRealisticShamblersDesc>TODO</FSFTweaksRealisticShamblersDesc>
+  <!-- EN: Shamblers Aggro Further -->
+  <FSFTweaksShamblersAggroFurtherTitle>TODO</FSFTweaksShamblersAggroFurtherTitle>
+  <!-- EN: Changes the Shambler Acquire Aggro Radius from 20 to 50 and the Keep Aggro Radius from 30 to 60.  This causes Shamblers to seek out targets much further than before.\nNote this may negatively affect performance. -->
+  <FSFTweaksShamblersAggroFurtherDesc>TODO</FSFTweaksShamblersAggroFurtherDesc>
+  <!-- EN: Shamblers Wander Further -->
+  <FSFTweaksShamblersWanderFurtherTitle>TODO</FSFTweaksShamblersWanderFurtherTitle>
+  <!-- EN: Changes the Shambler wander radius from 5 to the maximum 12.  This causes Shamblers to wander and spread out more instead of idling near the map edge.\nNote this may negatively affect performance. -->
+  <FSFTweaksShamblersWanderFurtherDesc>TODO</FSFTweaksShamblersWanderFurtherDesc>
+  <!-- EN: Odyssey Tweaks -->
+  <FSFTweaksOdysseyTweaksTitle>TODO</FSFTweaksOdysseyTweaksTitle>
+  <!-- EN: Land On Any Site -->
+  <FSFTweaksLandOnAnySiteTitle>TODO</FSFTweaksLandOnAnySiteTitle>
+  <!-- EN: Patches all SitePartDef&apos;s to add the tag gravShipsCanLandOn allowing Gravships to land on any site spawned on the world map.  Some sites may have events which are scaled to map wealth so landing a very expensive gravship there can be a bad idea.  This issue should only happen with a few mod added sites, regardless its a good idea to save before flying your ship anywhere in case things go horribly wrong. -->
+  <FSFTweaksLandOnAnySiteDesc>TODO</FSFTweaksLandOnAnySiteDesc>
+  <!-- EN: Anthrosonae Tweaks -->
+  <FSFTweaksAnthrosonaeTweaksTitle>TODO</FSFTweaksAnthrosonaeTweaksTitle>
+  <!-- EN: Anthrosonae Animusen -->
+  <FSFTweaksAnthrosonaeAnimusenTitle>TODO</FSFTweaksAnthrosonaeAnimusenTitle>
+  <!-- EN: Changes the Animusen xenotype from the mod Alpha Genes to use cosmetic Anthrosonae Anthrofox genes. -->
+  <FSFTweaksAnthrosonaeAnimusenDesc>TODO</FSFTweaksAnthrosonaeAnimusenDesc>
+  <!-- EN: Anthrosonae Yttakin -->
+  <FSFTweaksAnthrosonaeYttakinTitle>TODO</FSFTweaksAnthrosonaeYttakinTitle>
+  <!-- EN: Changes the Yttakin from the Biotech DLC to use cosmetic Anthrosonae Anthrowolf genes. -->
+  <FSFTweaksAnthrosonaeYttakinDesc>TODO</FSFTweaksAnthrosonaeYttakinDesc>
+  <!-- EN: Big and Small - Framework Tweaks -->
+  <FSFTweaksBSFTweaksTitle>TODO</FSFTweaksBSFTweaksTitle>
+  <!-- EN: No Size Trait Changes -->
+  <FSFTweaksBSFNoSizeTraitChangesTitle>TODO</FSFTweaksBSFNoSizeTraitChangesTitle>
+  <!-- EN: Removes all the skill and lifespan modifiers from the Big and Small size traits. -->
+  <FSFTweaksBSFNoSizeTraitChangesDesc>TODO</FSFTweaksBSFNoSizeTraitChangesDesc>
+  <!-- EN: Common Sense Tweaks -->
+  <FSFTweaksCommonSenseTweaksTitle>TODO</FSFTweaksCommonSenseTweaksTitle>
+  <!-- EN: Smarter Cleaning -->
+  <FSFTweaksCSSmarterCleaningTitle>TODO</FSFTweaksCSSmarterCleaningTitle>
+  <!-- EN: Disables opportunistic cleaning for a number of tasks.  Such as Flicking switches, Opening items, Repairing things, Uninstalling things, Deconstructing things, Rearming traps/turrets and more. -->
+  <FSFTweaksCSSmarterCleaningDesc>TODO</FSFTweaksCSSmarterCleaningDesc>
+  <!-- EN: Dubs Bad Hygiene Tweaks -->
+  <FSFTweaksDubsBadHygieneTweaksTitle>TODO</FSFTweaksDubsBadHygieneTweaksTitle>
+  <!-- EN: Immortal Pipes -->
+  <FSFTweaksDubsBadHygieneImmortalPipesTitle>TODO</FSFTweaksDubsBadHygieneImmortalPipesTitle>
+  <!-- EN: Makes pipes immortal, they have no health and can&apos;t catch fire. -->
+  <FSFTweaksDubsBadHygieneImmortalPipesDesc>TODO</FSFTweaksDubsBadHygieneImmortalPipesDesc>
+  <!-- EN: Hauts Added Traits Tweaks -->
+  <FSFTweaksHATTweaksTitle>TODO</FSFTweaksHATTweaksTitle>
+  <!-- EN: Latent Psychics Revealed -->
+  <FSFTweaksHATLatentPsychicsTitle>TODO</FSFTweaksHATLatentPsychicsTitle>
+  <!-- EN: Removes all the mystery for Latent Psychics so you know exactly how to get them to awaken.  The traits now show the unlock type in their label and the description has full details explaining all the methods and their odds to awaken a person. -->
+  <FSFTweaksHATLatentPsychicsDesc>TODO</FSFTweaksHATLatentPsychicsDesc>
+  <!-- EN: Lethal Darkness Tweaks -->
+  <FSFTweaksLethalDarknessTweaksTitle>TODO</FSFTweaksLethalDarknessTweaksTitle>
+  <!-- EN: Pitch Black Darkness -->
+  <FSFTweaksPitchBlackDarknessTitle>TODO</FSFTweaksPitchBlackDarknessTitle>
+  <!-- EN: Changes all weather types to give a pitch black darkness effect regardless of the time of day making it impossible to see anything without light sources.  This is designed to be used in conjunction with a permanent variant of Unnatural Darkness. -->
+  <FSFTweaksPitchBlackDarknessDesc>TODO</FSFTweaksPitchBlackDarknessDesc>
+  <!-- EN: [LTS] Ammunition - Simple Ammo Pack Tweaks -->
+  <FSFTweaksLTSAmmunitionSimpleTweaksTitle>TODO</FSFTweaksLTSAmmunitionSimpleTweaksTitle>
+  <!-- EN: Expensive Ammo -->
+  <FSFTweaksLTSExpensiveAmmoTitle>TODO</FSFTweaksLTSExpensiveAmmoTitle>
+  <!-- EN: Changes the ammo crafting recipes from LTS to make ammunition more expensive to create.  The values are balanced around the idea that each ingredient will yield 1.5 units of ammo and each recipe will create 60 units of ammo.  The market price is automatically calculated based on the material costs.  Spacer ammo is made with a 1:2 ratio to make it somewhat cheaper than Ultratech ammo. -->
+  <FSFTweaksLTSExpensiveAmmoDesc>TODO</FSFTweaksLTSExpensiveAmmoDesc>
+  <!-- EN: No Kit Movement Speed Malus -->
+  <FSFTweaksLTSKitSpeedMalusTitle>TODO</FSFTweaksLTSKitSpeedMalusTitle>
+  <!-- EN: Removes the movement speed malus from LTS Ammo Kits. -->
+  <FSFTweaksLTSKitSpeedMalusDesc>TODO</FSFTweaksLTSKitSpeedMalusDesc>
+  <!-- EN: Packs Are Not Belts Tweaks -->
+  <FSFTweaksPacksAreNotBeltsTitle>TODO</FSFTweaksPacksAreNotBeltsTitle>
+  <!-- EN: Grenade Belt Layering -->
+  <FSFTweaksGrenadeBeltLayeringTitle>TODO</FSFTweaksGrenadeBeltLayeringTitle>
+  <!-- EN: Changes the wearable grenade belts from Vanilla Weapons Expanded Grenades to use the Artifact layer added by Packs Are Not Belts.\nNote: This tweak requires the Artifact layer to be enabled in the Packs Are Not Belts mod settings. -->
+  <FSFTweaksGrenadeBeltLayeringDesc>TODO</FSFTweaksGrenadeBeltLayeringDesc>
+  <!-- EN: Research Appropriation Tweaks -->
+  <FSFTweaksResearchAppropriationTweaksTitle>TODO</FSFTweaksResearchAppropriationTweaksTitle>
+  <!-- EN: Buyable Research Data -->
+  <FSFTweaksRABuyableResearchDataTitle>TODO</FSFTweaksRABuyableResearchDataTitle>
+  <!-- EN: Adds tech appropriate Research Data buyable from bases, caravans and orbital traders for all factions.  The amount of which can be customized. -->
+  <FSFTweaksRABuyableResearchDataOnDesc>TODO</FSFTweaksRABuyableResearchDataOnDesc>
+  <!-- EN: Research Data Amount Minimum Range -->
+  <FSFTweaksRABuyableResearchDataMin>TODO</FSFTweaksRABuyableResearchDataMin>
+  <!-- EN: Research Data Amount Maximum Range -->
+  <FSFTweaksRABuyableResearchDataMax>TODO</FSFTweaksRABuyableResearchDataMax>
+  <!-- EN: Adds tech appropriate Research Data buyable from bases, caravans and orbital traders for all factions.  Input values to adjust the minimum and maximum ranges for the above items.  You can set a minimum and maximum for the range.  The game will then use RNG to determine a number between those two numbers.\nDefault settings (1-3) -->
+  <FSFTweaksRABuyableResearchDataDesc>TODO</FSFTweaksRABuyableResearchDataDesc>
+  <!-- EN: Research Reinvented Stepping Stones Tweaks -->
+  <FSFTweaksRRSSTweaksTitle>TODO</FSFTweaksRRSSTweaksTitle>
+  <!-- EN: Sorted Steps -->
+  <FSFTweaksRRSSSortedStepsTitle>TODO</FSFTweaksRRSSSortedStepsTitle>
+  <!-- EN: Patches numerous items from the Core game and mods that were missed to better fit the flow of research.  This is done by using research projects provided by Research Reinvented Stepping Stones and other mods such as Vanilla Expanded.  Also adds a number of items from mods to Research Reinvented&apos;s blacklist so they don&apos;t appear as research items.  These items are generally things like invisible walls or items that require a specific Ideology style.\nThis version is designed to only work without Vanilla Factions Expanded Tribals. -->
+  <FSFTweaksRRSSSortedStepsDesc>TODO</FSFTweaksRRSSSortedStepsDesc>
+  <!-- EN: Sorted Steps VFE Tribals -->
+  <FSFTweaksRRSSSortedStepsVFETribalsTitle>TODO</FSFTweaksRRSSSortedStepsVFETribalsTitle>
+  <!-- EN: Patches numerous items from the Core game and mods that were missed to better fit the flow of research.  This is done by using research projects provided by Research Reinvented Stepping Stones and other mods such as Vanilla Expanded.  Also adds a number of items from mods to Research Reinvented&apos;s blacklist so they don&apos;t appear as research items.  These items are generally things like invisible walls or items that require a specific Ideology style.\nThis version requires Vanilla Factions Expanded Tribals. -->
+  <FSFTweaksRRSSSortedStepsVFETribalsDesc>TODO</FSFTweaksRRSSSortedStepsVFETribalsDesc>
+  <!-- EN: SafeJobWorld Tweaks -->
+  <FSFTweaksSafeJobWorldTweaksTitle>TODO</FSFTweaksSafeJobWorldTweaksTitle>
+  <!-- EN: No Genital Size Debuffs -->
+  <FSFTweaksSJWNoGenitalSizeDebuffsTitle>TODO</FSFTweaksSJWNoGenitalSizeDebuffsTitle>
+  <!-- EN: Removes the Manipulation and Movement debuffs from large genital sizes. -->
+  <FSFTweaksSJWNoGenitalSizeDebuffsDesc>TODO</FSFTweaksSJWNoGenitalSizeDebuffsDesc>
+  <!-- EN: Simple Utilities Ceiling Tweaks -->
+  <FSFTweaksSimpleUtilitiesCeilingTitle>TODO</FSFTweaksSimpleUtilitiesCeilingTitle>
+  <!-- EN: Biodome Sunlamp -->
+  <FSFTweaksBiodomeSunlampTitle>TODO</FSFTweaksBiodomeSunlampTitle>
+  <!-- EN: Adds a sun lamp that requires no power and is designed to act as a transparent biodome ceiling.  It&apos;s a simple alternative to mods that add skylights or transparent roofing.  Material cost and work to build should be fairly reasonable as if you&apos;re actually building a glass roof. -->
+  <FSFTweaksBiodomeSunlampDesc>TODO</FSFTweaksBiodomeSunlampDesc>
+  <!-- EN: Simple Utilities Fridge Tweaks -->
+  <FSFTweaksSimpleUtilitiesFridgeTweaksTitle>TODO</FSFTweaksSimpleUtilitiesFridgeTweaksTitle>
+  <!-- EN: Cheaper Utilities -->
+  <FSFTweaksSUFCheaperUtilitiesTitle>TODO</FSFTweaksSUFCheaperUtilitiesTitle>
+  <!-- EN: Allows you to customise the power usage on various utilities. -->
+  <FSFTweaksSUFCheaperUtilitiesOnDesc>TODO</FSFTweaksSUFCheaperUtilitiesOnDesc>
+  <!-- EN: Refrigerator -->
+  <FSFTweaksSUFCheaperUtilitiesFridge>TODO</FSFTweaksSUFCheaperUtilitiesFridge>
+  <!-- EN: Double Refrigerator -->
+  <FSFTweaksSUFCheaperUtilitiesDoubleFridge>TODO</FSFTweaksSUFCheaperUtilitiesDoubleFridge>
+  <!-- EN: Input a value to adjust the power usage.\n Vanilla values Refrigerator (Default 80W), Double Refrigerator (Default 150W). -->
+  <FSFTweaksSUFCheaperUtilitiesDesc>TODO</FSFTweaksSUFCheaperUtilitiesDesc>
+  <!-- EN: Time Kills Tweaks -->
+  <FSFTweaksTimeKillsTweaksTitle>TODO</FSFTweaksTimeKillsTweaksTitle>
+  <!-- EN: Ageing Rebalance -->
+  <FSFTweaksTKAgeingRebalanceTitle>TODO</FSFTweaksTKAgeingRebalanceTitle>
+  <!-- EN: Lowers the age requirement for the Old Age condition so it starts at 70 and reaches its maximum chance of 10% per year at 80.  This makes it more accurately reflect the Human life expectancy of 80.  By default Time Kills has the condition start at 80 and reach its peak of 10% per year at 84. -->
+  <FSFTweaksTKAgeingRebalanceDesc>TODO</FSFTweaksTKAgeingRebalanceDesc>
+  <!-- EN: Vanilla Cooking Expanded Tweaks -->
+  <FSFTweaksVanillaCookingExpandedTweaksTitle>TODO</FSFTweaksVanillaCookingExpandedTweaksTitle>
+  <!-- EN: Bulk Canning Recipes -->
+  <FSFTweaksVCookEBulkCanningRecipesTitle>TODO</FSFTweaksVCookEBulkCanningRecipesTitle>
+  <!-- EN: Adds recipes to process food in larger quantities with the canning machine. -->
+  <FSFTweaksVCookEBulkCanningRecipesDesc>TODO</FSFTweaksVCookEBulkCanningRecipesDesc>
+  <!-- EN: No Ruined Grills -->
+  <FSFTweaksVCookENoRuinedGrillsTitle>TODO</FSFTweaksVCookENoRuinedGrillsTitle>
+  <!-- EN: Changes grill meals so they no longer get ruined by low temperatures. -->
+  <FSFTweaksVCookENoRuinedGrillsDesc>TODO</FSFTweaksVCookENoRuinedGrillsDesc>
+  <!-- EN: Vanilla Expanded Framework Tweaks -->
+  <FSFTweaksVanillaExpandedFrameworkTweaksTitle>TODO</FSFTweaksVanillaExpandedFrameworkTweaksTitle>
+  <!-- EN: Vanilla Expanded Pipe Network -->
+  <FSFVEPipeNetworkTitle>TODO</FSFVEPipeNetworkTitle>
+  <!-- EN: Allows you to customise the storage capacity of various Pipe Networks that use the Vanilla Expanded Pipe Network framework. -->
+  <FSFTweaksVEPipeNetworkOnDesc>TODO</FSFTweaksVEPipeNetworkOnDesc>
+  <!-- EN: Chemfuel Tanks -->
+  <FSFTweaksVEPNChemfuelTank>TODO</FSFTweaksVEPNChemfuelTank>
+  <!-- EN: Deepchem Tanks -->
+  <FSFTweaksVEPNDeepchemTank>TODO</FSFTweaksVEPNDeepchemTank>
+  <!-- EN: Input a value to adjust the amount of fuel that can be stored within the tanks.  The vanilla stack limit of Chemfuel and Deepchem is 150, the tanks take up 6 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 27,000. -->
+  <FSFTweaksVEPNChemfuelDesc>TODO</FSFTweaksVEPNChemfuelDesc>
+  <!-- EN: Helixien Gas Tanks -->
+  <FSFTweaksVEPNHelixienTank>TODO</FSFTweaksVEPNHelixienTank>
+  <!-- EN: Input a value to adjust the amount of helixien gas that can be stored within the tanks.  The vanilla capacity is 3000. -->
+  <FSFTweaksVEPNHelixienDesc>TODO</FSFTweaksVEPNHelixienDesc>
+  <!-- EN: Hemogen Tanks -->
+  <FSFTweaksVEPNHemogenTank>TODO</FSFTweaksVEPNHemogenTank>
+  <!-- EN: Input a value to adjust the amount of hemogen that can be stored within the tanks.  The vanilla capacity is 200, the stack limit of Hemogen Packs is 10, the tank takes up 4 tiles. -->
+  <FSFTweaksVEPNHemogenDesc>TODO</FSFTweaksVEPNHemogenDesc>
+  <!-- EN: Neutroamine Tanks -->
+  <FSFTweaksVEPNNeutroamineTank>TODO</FSFTweaksVEPNNeutroamineTank>
+  <!-- EN: Input a value to adjust the amount of neutroamine that can be stored within the tanks.  The vanilla stack limit of Neutroamine is 150, the tank takes up 6 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 27,000. -->
+  <FSFTweaksVEPNNeutroamineDesc>TODO</FSFTweaksVEPNNeutroamineDesc>
+  <!-- EN: Nutrient Paste Tanks -->
+  <FSFTweaksVEPNPasteTank>TODO</FSFTweaksVEPNPasteTank>
+  <!-- EN: Input a value to adjust the amount of paste that can be stored within the tanks.  The vanilla stack limit of Paste Meals is 10, the tank takes up 4 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 1,200. -->
+  <FSFTweaksVEPNPasteDesc>TODO</FSFTweaksVEPNPasteDesc>
+  <!-- EN: Vanilla Factions Expanded Deserters Tweaks -->
+  <FSFTweaksVFEDesertersTweaksTitle>TODO</FSFTweaksVFEDesertersTweaksTitle>
+  <!-- EN: Intel Never Expires -->
+  <FSFTweaksVFEDesertersIntelNeverExpiresTitle>TODO</FSFTweaksVFEDesertersIntelNeverExpiresTitle>
+  <!-- EN: Changes Intel and Critical Intel so they never expire allowing you to stockpile or use them as you please. -->
+  <FSFTweaksVFEDesertersIntelNeverExpiresDesc>TODO</FSFTweaksVFEDesertersIntelNeverExpiresDesc>
+  <!-- EN: More Contraband Items -->
+  <FSFTweaksVFEDesertersMoreContrabandItemsTitle>TODO</FSFTweaksVFEDesertersMoreContrabandItemsTitle>
+  <!-- EN: Adds a range of new contraband items to be purchased from the deserter network.  The items themselves are all Spacer and Ultra tech items. -->
+  <FSFTweaksVFEDesertersMoreContrabandItemsDesc>TODO</FSFTweaksVFEDesertersMoreContrabandItemsDesc>
+  <!-- EN: Vanilla Factions Expanded Empire Tweaks -->
+  <FSFTweaksVFEEmpireTweaksTitle>TODO</FSFTweaksVFEEmpireTweaksTitle>
+  <!-- EN: Disguised Rebels -->
+  <FSFTweaksVFEEDisguisedRebelsTitle>TODO</FSFTweaksVFEEDisguisedRebelsTitle>
+  <!-- EN: Changes the name and equipment of rebel soldiers so they blend in with empire troops. -->
+  <FSFTweaksVFEEDisguisedRebelsDesc>TODO</FSFTweaksVFEEDisguisedRebelsDesc>
+  <!-- EN: Vanilla Ideology Expanded - Dryads Tweaks -->
+  <FSFTweaksVIEDryadsTweaksTitle>TODO</FSFTweaksVIEDryadsTweaksTitle>
+  <!-- EN: No Separation Sickness -->
+  <FSFTweaksVIEDNoSeparationSicknessTitle>TODO</FSFTweaksVIEDNoSeparationSicknessTitle>
+  <!-- EN: Prevents the Separation Sickness from appearing on awakened dryads. -->
+  <FSFTweaksVIEDNoSeparationSicknessDesc>TODO</FSFTweaksVIEDNoSeparationSicknessDesc>
+  <!-- EN: Vanilla Ideology Expanded - Memes and Structures Tweaks -->
+  <FSFTweaksVanillaExpandedMemesTweaksTitle>TODO</FSFTweaksVanillaExpandedMemesTweaksTitle>
+  <!-- EN: Unlock Fishing Traps -->
+  <FSFTweaksUnlockFishingTrapsTitle>TODO</FSFTweaksUnlockFishingTrapsTitle>
+  <!-- EN: Allows building fishing traps without having the Fishing Meme. -->
+  <FSFTweaksUnlockFishingTrapsDesc>TODO</FSFTweaksUnlockFishingTrapsDesc>
+  <!-- EN: Warning: Fishing traps are not added if the Odyssey DLC is active.  If you have the Odyssey DLC in your mod list do not enable this tweak. -->
+  <FSFTweaksUnlockFishingTrapsWarning>TODO</FSFTweaksUnlockFishingTrapsWarning>
+  <!-- EN: Vanilla Psycasts Expanded Tweaks -->
+  <FSFTweaksVanillaPsycastsExpandedTweaksTitle>TODO</FSFTweaksVanillaPsycastsExpandedTweaksTitle>
+  <!-- EN: Merge Psycast Tabs -->
+  <FSFTweaksMergePsycastTabsTitle>TODO</FSFTweaksMergePsycastTabsTitle>
+  <!-- EN: Merges all the psycast tabs added by various mods into the original Psycast tab. -->
+  <FSFTweaksMergePsycastTabsDesc>TODO</FSFTweaksMergePsycastTabsDesc>
+  <!-- EN: Psycast Tweaks -->
+  <FSFTweaksPsycastTweaksTitle>TODO</FSFTweaksPsycastTweaksTitle>
+  <!-- EN: Allows you to individually enable a variety of tweaks for psycasts.  These changes may be for changing targeting parameters or changing how specific psycasts function. -->
+  <FSFTweaksPsycastTweaksDesc>TODO</FSFTweaksPsycastTweaksDesc>
+  <!-- EN: Allow Self Targeting and Pawn Targetting where it makes sense. -->
+  <FSFTweaksPsycastTweaksTargetChanges>TODO</FSFTweaksPsycastTweaksTargetChanges>
+  <!-- EN: Killskip Works Through Walls. -->
+  <FSFTweaksPsycastTweaksKillskip>TODO</FSFTweaksPsycastTweaksKillskip>
+  <!-- EN: Power Leap Works Through Walls. -->
+  <FSFTweaksPsycastTweaksPowerLeap>TODO</FSFTweaksPsycastTweaksPowerLeap>
+  <!-- EN: Skip Works Through Walls. -->
+  <FSFTweaksPsycastTweaksSkip>TODO</FSFTweaksPsycastTweaksSkip>
+  <!-- EN: Shield Psycasts Allow Outgoing Projectiles. -->
+  <FSFTweaksPsycastTweaksSkipshield>TODO</FSFTweaksPsycastTweaksSkipshield>
+  <!-- EN: Solar Pinhole Provides Sunlight. -->
+  <FSFTweaksPsycastTweaksSolarPinhole>TODO</FSFTweaksPsycastTweaksSolarPinhole>
+  <!-- EN: Unlock Psycast Trees -->
+  <FSFTweaksUnlockPsycastTreesTitle>TODO</FSFTweaksUnlockPsycastTreesTitle>
+  <!-- EN: Unlocks the locked Psycast trees allowing anyone to use them. -->
+  <FSFTweaksUnlockPsycastTreesDesc>TODO</FSFTweaksUnlockPsycastTreesDesc>
+  <!-- EN: Vanilla Quests Expanded Tweaks -->
+  <FSFTweaksVQETweaksTitle>TODO</FSFTweaksVQETweaksTitle>
+  <!-- EN: Vanilla Quests Expanded Ancients -->
+  <FSFTweaksVQEAncientsTitle>TODO</FSFTweaksVQEAncientsTitle>
+  <!-- EN: Vanilla Quests Expanded Cryptoforge -->
+  <FSFTweaksVQECryptoforgeTitle>TODO</FSFTweaksVQECryptoforgeTitle>
+  <!-- EN: Vanilla Quests Expanded Deadlife -->
+  <FSFTweaksVQEDeadlifeTitle>TODO</FSFTweaksVQEDeadlifeTitle>
+  <!-- EN: More Ancient Vaults -->
+  <FSFTweaksVQEMoreAncientVaultsTitle>TODO</FSFTweaksVQEMoreAncientVaultsTitle>
+  <!-- EN: Allows you to change the interval between random Ancient Vault quests with an input number.  These random quests only begin appearing after advancing the quest chain enough and they trigger when a quest finishes whether that be success, failure or expiry. -->
+  <FSFTweaksVQEMoreAncientVaultsDesc>TODO</FSFTweaksVQEMoreAncientVaultsDesc>
+  <!-- EN: Repeatable Cryptoforge -->
+  <FSFTweaksVQERepeatableCryptoforgeTitle>TODO</FSFTweaksVQERepeatableCryptoforgeTitle>
+  <!-- EN: Changes the Cryptoforge quests to repeat on success after 30 days.  Allowing you to keep looting crashed ships and making crypto equipment. -->
+  <FSFTweaksVQERepeatableCryptoforgeDesc>TODO</FSFTweaksVQERepeatableCryptoforgeDesc>
+  <!-- EN: No Deadlife Apocalypse -->
+  <FSFTweaksVQENoDeadlifeApocalypseTitle>TODO</FSFTweaksVQENoDeadlifeApocalypseTitle>
+  <!-- EN: Changes the required number of completed silos for the ending quest with the General to require 99999 completed silos.  This will allow you to explore and complete the deadlife silos repeatedly without worrying about triggering the ending.  If you do want to see the ending at some point just turn this tweak off. -->
+  <FSFTweaksVQENoDeadlifeApocalypseDesc>TODO</FSFTweaksVQENoDeadlifeApocalypseDesc>
+  <!-- EN: Days Between Ancient Vaults -->
+  <FSFTweaksVQEMoreAncientVaults>TODO</FSFTweaksVQEMoreAncientVaults>
+  <!-- EN: Input a value to adjust the interval between random Ancient Vault quests.\nVanilla value 60 Days. -->
+  <FSFTweaksOAGNLargerGenebanksDesc>TODO</FSFTweaksOAGNLargerGenebanksDesc>
+  <!-- EN: Vanilla Races Expanded Genie Tweaks -->
+  <FSFTweaksVREGenieTweaksTitle>TODO</FSFTweaksVREGenieTweaksTitle>
+  <!-- EN: No Immunity Issues -->
+  <FSFTweaksVREGenieNoImmunityIssuesTitle>TODO</FSFTweaksVREGenieNoImmunityIssuesTitle>
+  <!-- EN: Removes the genes No Immunity, Slow Diseases and Antibiotics Addiction Resistant from Genies so they no longer have immunity issues. -->
+  <FSFTweaksVREGenieNoImmunityIssuesDesc>TODO</FSFTweaksVREGenieNoImmunityIssuesDesc>
+  <!-- EN: Vanilla Races Expanded Highmate Tweaks -->
+  <FSFTweaksVREHighmateTweaksTitle>TODO</FSFTweaksVREHighmateTweaksTitle>
+  <!-- EN: High Libido Lovin Ability -->
+  <FSFTweaksVREHighmateHighLibidoLovinAbilityTitle>TODO</FSFTweaksVREHighmateHighLibidoLovinAbilityTitle>
+  <!-- EN: Adds the initiate lovin ability to the High Libido gene.  Also reduces the mood bonus for lovin to match the vanilla one. -->
+  <FSFTweaksVREHighmateHighLibidoLovinAbilityDesc>TODO</FSFTweaksVREHighmateHighLibidoLovinAbilityDesc>
+  <!-- EN: Initiate Lovin Gene -->
+  <FSFTweaksVREHighmateInitiateLovinGeneTitle>TODO</FSFTweaksVREHighmateInitiateLovinGeneTitle>
+  <!-- EN: Adds a new gene to the game with 0 Complexity and 0 Metabolism that provides the Initiate Lovin ability.  Also reduces the mood bonus from lovin to match the vanilla lovin bonus. -->
+  <FSFTweaksVREHighmateInitiateLovinGeneOnDesc>TODO</FSFTweaksVREHighmateInitiateLovinGeneOnDesc>
+  <!-- EN: Add the Initiate Lovin gene to every xenotype in the game allowing any pawn to use the Initiate Lovin ability. -->
+  <FSFTweaksVREHighmateInitiateLovinForEveryone>TODO</FSFTweaksVREHighmateInitiateLovinForEveryone>
+  <!-- EN: Vanilla Races Expanded Phytokin Tweaks -->
+  <FSFTweaksVREPhytokinTweaksTitle>TODO</FSFTweaksVREPhytokinTweaksTitle>
+  <!-- EN: No Workspeed Malus On Sap Blood -->
+  <FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusTitle>TODO</FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusTitle>
+  <!-- EN: Removes the work speed malus on the Sap Blood gene and lowers the gene complexity from -2 to -1. -->
+  <FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusDesc>TODO</FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusDesc>
+  <!-- EN: Vehicle Framework Tweaks -->
+  <FSFTweaksVehicleFrameworkTweaksTitle>TODO</FSFTweaksVehicleFrameworkTweaksTitle>
+  <!-- EN: Factions Stock Vehicle Parts -->
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>
+  <!-- EN: Adds an additional stock of Vehicle Parts to tech appropriate Faction bases based on an input range. -->
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>
+  <!-- EN: Faster Helicopters -->
+  <FSFTweaksVehicleFrameworkFasterHelicoptersTitle>TODO</FSFTweaksVehicleFrameworkFasterHelicoptersTitle>
+  <!-- EN: Speeds up the takeoff and landing animation on helicopters that are slow to use.  For example this tweak changes the takeoff and landing animation speed on Vanilla Expanded Helicopters so they take one third of the time making them comparable in speed to drop pod style vehicles like the Toad. -->
+  <FSFTweaksVehicleFrameworkFasterHelicoptersDesc>TODO</FSFTweaksVehicleFrameworkFasterHelicoptersDesc>
+  <!-- EN: Faster Vehicles -->
+  <FSFTweaksVehicleFrameworkFasterVehiclesTitle>TODO</FSFTweaksVehicleFrameworkFasterVehiclesTitle>
+  <!-- EN: Allows you to multiply the speed of all land and water vehicles on the world map by an input value. -->
+  <FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>TODO</FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>
+  <!-- EN: Rename Car Parts -->
+  <FSFTweaksVehicleFrameworkRenameCarPartsTitle>TODO</FSFTweaksVehicleFrameworkRenameCarPartsTitle>
+  <!-- EN: Changes the name of Car Parts from Vanilla Vehicles Expanded to Vehicle Parts. -->
+  <FSFTweaksVehicleFrameworkRenameCarPartsDesc>TODO</FSFTweaksVehicleFrameworkRenameCarPartsDesc>
+  <!-- EN: Vehicle Parts Stock Minimum Range -->
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>
+  <!-- EN: Vehicle Parts Stock Maximum Range -->
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>
+  <!-- EN: Adds an additional stock of Vehicle Parts to tech appropriate Faction bases based on an input range.\nDefault setting 5-10. -->
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>
+  <!-- EN: Speed Multiplier {FSFVehicleFrameworkFasterVehicles} -->
+  <FSFTweaksVehicleFrameworkFasterVehicles>TODO</FSFTweaksVehicleFrameworkFasterVehicles>
+  <!-- EN: Move the slider to adjust the speed multiplier of all land and water Vehicles on the world map.  The value is a straight multiplier, a value of 2 will double the original while 3 will triple it.\nThe Vanilla value is 1. -->
+  <FSFTweaksVehicleFrameworkFasterVehiclesDesc>TODO</FSFTweaksVehicleFrameworkFasterVehiclesDesc>
+</LanguageData>

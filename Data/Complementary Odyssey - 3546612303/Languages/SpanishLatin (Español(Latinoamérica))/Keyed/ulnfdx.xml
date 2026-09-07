@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Rotate -->
+  <ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Label>TODO</ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Label>
+  <!-- EN: Will rotate towards new direction for deployment. -->
+  <ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Desc>TODO</ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Desc>
+  <!-- EN:  [Current]. -->
+  <ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Current>TODO</ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Current>
+  <!-- EN:  [Obstructed]. -->
+  <ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Obstructed>TODO</ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Obstructed>
+  <!-- EN: Currently deployed. -->
+  <ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Deployed>TODO</ComplementaryOdyssey.ExtBridge.Gizmo.Rotate.Reason.Deployed>
+  <!-- EN: Max bridge tiles -->
+  <ComplementaryOdyssey.ExtBridge.Command.SetMaxExtBridgeTiles.Title>TODO</ComplementaryOdyssey.ExtBridge.Command.SetMaxExtBridgeTiles.Title>
+  <!-- EN: Deployed {0}/{1}[{2}] -->
+  <ComplementaryOdyssey.ExtBridge.InspectString.Deployed>TODO</ComplementaryOdyssey.ExtBridge.InspectString.Deployed>
+  <!-- EN: Complementary Odyssey -->
+  <ComplementaryOdyssey.Settings.Title>TODO</ComplementaryOdyssey.Settings.Title>
+  <!-- EN: Enable Vac Barrier Roof patches. (Can be disabled in case of compatability issues with other roof mod, but it will make Vac Barrier Roof act as normal roof. Require game restart.) -->
+  <ComplementaryOdyssey.Settings.VacRoofPatches>TODO</ComplementaryOdyssey.Settings.VacRoofPatches>
+  <!-- EN: All Vac Barrier Roof will be force powered for {0} after gravship landing. (Needed to avoid loosing oxygen upon landing.) -->
+  <ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>TODO</ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>
+  <!-- EN: Chance to spawn 1-3 Vacflower on asteroid: {0}. -->
+  <ComplementaryOdyssey.Settings.VacflowerChance>TODO</ComplementaryOdyssey.Settings.VacflowerChance>
+  <!-- EN: Enable Vac Resist Area of Effect patches. (Can be disabled in case of compatability issues related to getting Vacuum value at cell, but it will remove ability of Vacflower to grow plants around it in vacuum. Require game restart.) -->
+  <ComplementaryOdyssey.Settings.VacResistAOEPatches>TODO</ComplementaryOdyssey.Settings.VacResistAOEPatches>
+  <!-- EN: Vacflower area of effect decreasing vacuum value to {0}. (Vanilla will have normal vacuum value without override.) -->
+  <ComplementaryOdyssey.Settings.VacResistAOEVacOverride>TODO</ComplementaryOdyssey.Settings.VacResistAOEVacOverride>
+  <!-- EN: Vacflower area of effect keeping plants warm enough, but increasing growing speed temperature factor to {0}. (In vanilla plants in orbit freeze to 0% growing speed.) -->
+  <ComplementaryOdyssey.Settings.VacResistAOEGrowthRateFactorTemperature>TODO</ComplementaryOdyssey.Settings.VacResistAOEGrowthRateFactorTemperature>
+  <!-- EN: Set multiplier of {0} installed into {1} to {2} [+{3} {4}]. (100% equal to vanilla +{5} {4}.) -->
+  <ComplementaryOdyssey.Settings.GravFieldExtenderOffsetMult>TODO</ComplementaryOdyssey.Settings.GravFieldExtenderOffsetMult>
+  <!-- EN: Maximum quantity of {0} installed into {1}. (Infinite, when set to 0) -->
+  <ComplementaryOdyssey.Settings.GravFieldExtenderMaxAmount>TODO</ComplementaryOdyssey.Settings.GravFieldExtenderMaxAmount>
+  <!-- EN: Deploy -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Label>Desplegar</ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Label>
+  <!-- EN: Will extend and deploy {0}. -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Desc>Extenderá y desplegará {0}.</ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Desc>
+  <!-- EN: Deploying {0} -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Reason.Active>Desplegando {0}</ComplementaryOdyssey.Deployable.Gizmo.isDeploying.Reason.Active>
+  <!-- EN: Pack -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isPacking.Label>Empacar</ComplementaryOdyssey.Deployable.Gizmo.isPacking.Label>
+  <!-- EN: Will pack {0} and retract. -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isPacking.Desc>Empacará {0} y se retraerá.</ComplementaryOdyssey.Deployable.Gizmo.isPacking.Desc>
+  <!-- EN: Packing {0} -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isPacking.Reason.Active>Empacando {0}</ComplementaryOdyssey.Deployable.Gizmo.isPacking.Reason.Active>
+  <!-- EN: Auto deploy -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Label>Despliegue automático</ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Label>
+  <!-- EN: Will auto deploy {0} on gravship landing. -->
+  <ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Desc>Desplegará automáticamente {0} al aterrizar la nave gravitacional.</ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Desc>
+  <!-- EN: Deployed {0}[{1}]/{2} -->
+  <ComplementaryOdyssey.Deployable.InspectString.Deployed>Desplegados {0}[{1}]/{2}</ComplementaryOdyssey.Deployable.InspectString.Deployed>
+  <!-- EN: Currently retracted. -->
+  <ComplementaryOdyssey.RoofRetractor.Gizmo.Rotate.Reason.Retracted>TODO</ComplementaryOdyssey.RoofRetractor.Gizmo.Rotate.Reason.Retracted>
+  <!-- EN: Roof zone -->
+  <ComplementaryOdyssey.RoofRetractor.Command.SetBorderRoofRetractor.Title>TODO</ComplementaryOdyssey.RoofRetractor.Command.SetBorderRoofRetractor.Title>
+  <!-- EN: {0} - {1} [{2} - {3}] -->
+  <ComplementaryOdyssey.RoofRetractor.Command.SetBorderRoofRetractor.BarLabel>TODO</ComplementaryOdyssey.RoofRetractor.Command.SetBorderRoofRetractor.BarLabel>
+  <!-- EN: Retracted {0}/{1}[{2}] -->
+  <ComplementaryOdyssey.RoofRetractor.InspectString.Retracted>TODO</ComplementaryOdyssey.RoofRetractor.InspectString.Retracted>
+  <!-- EN: Reset -->
+  <ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Label>Reiniciar</ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Label>
+  <!-- EN: Will reset scan progress and start from 0%. -->
+  <ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Desc>Reiniciará el progreso del escaneo y comenzará desde el 0%.</ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Desc>
+  <!-- EN: Region was fully scanned. -->
+  <ComplementaryOdyssey.TerrainScanner.CanUse.ScannedFully>Región escaneada por completo.</ComplementaryOdyssey.TerrainScanner.CanUse.ScannedFully>
+  <!-- EN: {0} vein was located by {1}. -->
+  <ComplementaryOdyssey.TerrainScanner.Message.FoundOre>Una veta de {0} fue localizada por {1}.</ComplementaryOdyssey.TerrainScanner.Message.FoundOre>
+  <!-- EN: Progress till region scanned: {0} -->
+  <ComplementaryOdyssey.TerrainScanner.InspectString.Progress>Progreso del escaneo: {0}</ComplementaryOdyssey.TerrainScanner.InspectString.Progress>
+  <!-- EN: Install {0} -->
+  <ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Label>TODO</ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Label>
+  <!-- EN: Will consume {0} adjacent to {1} and install it as upgrade with +{2} {3}. -->
+  <ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Desc>TODO</ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Desc>
+  <!-- EN: Missing {0} adjacent to {1}. -->
+  <ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Reason.Missing>TODO</ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Reason.Missing>
+  <!-- EN: Maximum quantity of {0} reached. -->
+  <ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Reason.Maximum>TODO</ComplementaryOdyssey.UpgradableGravEngine.Gizmo.GravFieldExtenderInstall.Reason.Maximum>
+  <!-- EN: Installed upgrades: -->
+  <ComplementaryOdyssey.UpgradableGravEngine.StatsReport.Group>TODO</ComplementaryOdyssey.UpgradableGravEngine.StatsReport.Group>
+  <!-- EN:     {2}x {0}: {1} x {2} = {3} -->
+  <ComplementaryOdyssey.UpgradableGravEngine.StatsReport.Line>TODO</ComplementaryOdyssey.UpgradableGravEngine.StatsReport.Line>
+  <!-- EN: Installed {1}x {0} -->
+  <ComplementaryOdyssey.UpgradableGravEngine.InspectString.Installed>TODO</ComplementaryOdyssey.UpgradableGravEngine.InspectString.Installed>
+  <!-- EN: Move Projection Area -->
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Label>TODO</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Label>
+  <!-- EN: Will move projection area. -->
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Desc>TODO</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Desc>
+  <!-- EN: Change Projection Area Size -->
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Label>TODO</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Label>
+  <!-- EN: Will change size of projection area. -->
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Desc>TODO</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Desc>
+  <!-- EN: Projection Area {0}/{1} -->
+  <ComplementaryOdyssey.VacBarrierProjector.InspectString.BarrierTiles>TODO</ComplementaryOdyssey.VacBarrierProjector.InspectString.BarrierTiles>
+  <!-- EN: Auto Harvest -->
+  <ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Label>TODO</ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Label>
+  <!-- EN: Will automatically designate {0} for harvesting {1}, upon reaching maturity. -->
+  <ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Desc>TODO</ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Desc>
+</LanguageData>

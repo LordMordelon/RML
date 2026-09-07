@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: desc-&gt;This [writingQualityAdjective] [bookType] [follows] a [trainer] as [heOrShe] [storyStruggles]. [writingQualitySentence]. [maybe_date]\n\nOnce read, this book will grant a boost to [subject_primary] skill gain and then it will be destroyed. -->
+  <!-- EN: follows-&gt;shares the techniques of -->
+  <!-- EN: follows-&gt;highlights the teachings of -->
+  <!-- EN: follows-&gt;documents the training of -->
+  <!-- EN: follows-&gt;explores the methods of -->
+  <!-- EN: heOrShe-&gt;he -->
+  <!-- EN: heOrShe-&gt;she -->
+  <!-- EN: storyStruggles-&gt;seeks to unlock the potential in others -->
+  <!-- EN: storyStruggles-&gt;aims to provide a clear path to mastery -->
+  <!-- EN: storyStruggles-&gt;explains the challenges and rewards of [subject_primary] -->
+  <!-- EN: storyStruggles-&gt;shares unique insights into training techniques -->
+  <!-- EN: storyStruggles-&gt;delves into the complexities of learning [subject_primary] -->
+  <!-- EN: storyStruggles-&gt;outlines effective strategies for skill improvement -->
+  <!-- EN: storyStruggles-&gt;focuses on the importance of practice and perseverance -->
+  <!-- EN: storyStruggles-&gt;emphasizes the value of discipline and dedication -->
+  <!-- EN: storyStruggles-&gt;offers practical advice for excelling in [subject_primary] -->
+  <!-- EN: storyStruggles-&gt;charts the journey to skill mastery -->
+  <!-- EN: storyStruggles-&gt;breaks down the steps to becoming proficient -->
+  <!-- EN: trainer-&gt;mentor -->
+  <!-- EN: trainer-&gt;coach -->
+  <!-- EN: trainer-&gt;guide -->
+  <!-- EN: trainer-&gt;instructor -->
+  <!-- EN: trainer-&gt;teacher -->
+  <!-- EN: trainer-&gt;expert -->
+  <!-- EN: trainer-&gt;tutor -->
+  <!-- EN: trainer-&gt;master -->
+  <!-- EN: trainer-&gt;specialist -->
+  <!-- EN: trainer-&gt;practitioner -->
+  <!-- EN: writingQualityAdjective(quality==6)-&gt;masterfully crafted -->
+  <!-- EN: writingQualityAdjective(quality==5)-&gt;intelligent and perceptive -->
+  <!-- EN: writingQualityAdjective(quality==4)-&gt;articulate and considered -->
+  <!-- EN: writingQualityAdjective(quality==3)-&gt;decently composed -->
+  <!-- EN: writingQualityAdjective(quality==2)-&gt;average at best -->
+  <!-- EN: writingQualityAdjective(quality==1)-&gt;poorly executed -->
+  <!-- EN: writingQualityAdjective(quality==0)-&gt;barely readable -->
+  <!-- EN: writingQualitySentence(quality[greater_than]4)-&gt;It is [excellentDesc] [excellentExtra] -->
+  <!-- EN: writingQualitySentence(quality[less_than]5,quality[greater_than]1)-&gt;It is [decentDesc] [decentExtra] -->
+  <!-- EN: writingQualitySentence(quality[less_than]2)-&gt;It is [awfulDesc] [awfulExtra] -->
+  <!-- EN: excellentDesc-&gt;a thoughtful exploration of skill-building -->
+  <!-- EN: excellentDesc-&gt;deeply insightful about the process of learning -->
+  <!-- EN: excellentDesc-&gt;tightly-written and filled with practical wisdom -->
+  <!-- EN: excellentDesc-&gt;creative and inspiring -->
+  <!-- EN: excellentDesc-&gt;a remarkably original and well-crafted guide -->
+  <!-- EN: excellentDesc-&gt;filled with engaging anecdotes from experienced trainers -->
+  <!-- EN: excellentExtra-&gt;. Each section builds upon the last in a logical way -->
+  <!-- EN: excellentExtra-&gt;. It is an engaging read that motivates constant improvement -->
+  <!-- EN: excellentExtra-&gt;. Its advice is highly actionable and effective -->
+  <!-- EN: decentDesc-&gt;a decent training guide -->
+  <!-- EN: decentDesc-&gt;interesting and informative, with solid advice -->
+  <!-- EN: decentDesc-&gt;focused on a single effective training technique -->
+  <!-- EN: decentDesc-&gt;occasionally engaging with relatable examples -->
+  <!-- EN: decentDesc-&gt;appealing to those looking to refine their skills -->
+  <!-- EN: decentExtra-&gt; but it lacks advanced strategies -->
+  <!-- EN: decentExtra-&gt; but some examples feel outdated -->
+  <!-- EN: decentExtra-&gt; but its methods are sometimes unclear -->
+  <!-- EN: decentExtra-&gt; but it focuses too heavily on theory over practice -->
+  <!-- EN: decentExtra-&gt; but it often overcomplicates simple ideas -->
+  <!-- EN: awfulDesc-&gt;written by someone with little understanding of training -->
+  <!-- EN: awfulDesc-&gt;filled with irrelevant personal anecdotes -->
+  <!-- EN: awfulDesc-&gt;vague and unstructured -->
+  <!-- EN: awfulDesc-&gt;lacking in clear, actionable advice -->
+  <!-- EN: awfulDesc-&gt;riddled with contradictory statements -->
+  <!-- EN: awfulExtra-&gt; and its advice is often counterproductive -->
+  <!-- EN: awfulExtra-&gt; and it fails to address key skill-building principles -->
+  <!-- EN: awfulExtra-&gt; and it includes nonsensical or unhelpful methods -->
+  <!-- EN: maybe_date-&gt; -->
+  <!-- EN: maybe_date-&gt;The book was published [date_form]. -->
+  <!-- EN: maybe_date-&gt;The text was first printed [date_form]. -->
+  <!-- EN: maybe_date-&gt;It&apos;s unclear exactly when the book was written. -->
+  <!-- EN: date_form-&gt;recently -->
+  <!-- EN: date_form-&gt;many centuries ago -->
+  <!-- EN: date_form-&gt;on the [date] -->
+  <!-- EN: date_form-&gt;in [date_season] -->
+  <!-- EN: bookType(p=4)-&gt;training manual -->
+  <!-- EN: bookType(p=2)-&gt;study guide -->
+  <!-- EN: bookType-&gt;reference book -->
+  <!-- EN: bookType-&gt;educational guide -->
+  <!-- EN: bookType-&gt;learning resource -->
+  <ABooks_TrainingManual_Description.rulePack.rulesStrings>
+    <li>desc-&gt;Este [bookType] [writingQualityAdjective] [follows] a un [trainer] mientras [heOrShe] [storyStruggles]. [writingQualitySentence]. [maybe_date]\n\nUna vez leído, este libro otorgará un impulso a la ganancia de habilidad [subject_primary] y luego será destruido.</li>
+    <li>follows-&gt;comparte las técnicas de</li>
+    <li>follows-&gt;destaca las enseñanzas de</li>
+    <li>follows-&gt;documenta el entrenamiento de</li>
+    <li>follows-&gt;explora los métodos de</li>
+    <li>heOrShe-&gt;él</li>
+    <li>heOrShe-&gt;ella</li>
+    <li>storyStruggles-&gt;busca desbloquear el potencial en otros</li>
+    <li>storyStruggles-&gt;pretende proporcionar un camino claro hacia la maestría</li>
+    <li>storyStruggles-&gt;explica los desafíos y recompensas de [subject_primary]</li>
+    <li>storyStruggles-&gt;comparte conocimientos únicos sobre técnicas de entrenamiento</li>
+    <li>storyStruggles-&gt;profundiza en las complejidades de aprender [subject_primary]</li>
+    <li>storyStruggles-&gt;describe estrategias efectivas para la mejora de habilidades</li>
+    <li>storyStruggles-&gt;se centra en la importancia de la práctica y la perseverancia</li>
+    <li>storyStruggles-&gt;enfatiza el valor de la disciplina y la dedicación</li>
+    <li>storyStruggles-&gt;ofrece consejos prácticos para sobresalir en [subject_primary]</li>
+    <li>storyStruggles-&gt;traza el viaje hacia la maestría de habilidades</li>
+    <li>storyStruggles-&gt;desglosa los pasos para volverse competente</li>
+    <li>trainer-&gt;mentor</li>
+    <li>trainer-&gt;entrenador</li>
+    <li>trainer-&gt;guía</li>
+    <li>trainer-&gt;instructor</li>
+    <li>trainer-&gt;maestro</li>
+    <li>trainer-&gt;experto</li>
+    <li>trainer-&gt;tutor</li>
+    <li>trainer-&gt;maestro</li>
+    <li>trainer-&gt;especialista</li>
+    <li>trainer-&gt;practicante</li>
+    <li>writingQualityAdjective(quality==6)-&gt;elaborado magistralmente</li>
+    <li>writingQualityAdjective(quality==5)-&gt;inteligente y perceptivo</li>
+    <li>writingQualityAdjective(quality==4)-&gt;articulado y considerado</li>
+    <li>writingQualityAdjective(quality==3)-&gt;decentemente compuesto</li>
+    <li>writingQualityAdjective(quality==2)-&gt;promedio en el mejor de los casos</li>
+    <li>writingQualityAdjective(quality==1)-&gt;mal ejecutado</li>
+    <li>writingQualityAdjective(quality==0)-&gt;apenas legible</li>
+    <li>writingQualitySentence(quality[greater_than]4)-&gt;Es [excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)-&gt;Es [decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)-&gt;Es [awfulDesc] [awfulExtra]</li>
+    <li>excellentDesc-&gt;una exploración reflexiva de la construcción de habilidades</li>
+    <li>excellentDesc-&gt;profundamente perspicaz sobre el proceso de aprendizaje</li>
+    <li>excellentDesc-&gt;bien escrito y lleno de sabiduría práctica</li>
+    <li>excellentDesc-&gt;creativo e inspirador</li>
+    <li>excellentDesc-&gt;una guía notablemente original y bien elaborada</li>
+    <li>excellentDesc-&gt;lleno de anécdotas atractivas de entrenadores experimentados</li>
+    <li>excellentExtra-&gt;. Cada sección se basa en la última de una manera lógica</li>
+    <li>excellentExtra-&gt;. Es una lectura atractiva que motiva la mejora constante</li>
+    <li>excellentExtra-&gt;. Su consejo es altamente procesable y efectivo</li>
+    <li>decentDesc-&gt;una guía de entrenamiento decente</li>
+    <li>decentDesc-&gt;interesante e informativo, con consejos sólidos</li>
+    <li>decentDesc-&gt;centrado en una sola técnica de entrenamiento efectiva</li>
+    <li>decentDesc-&gt;ocasionalmente atractivo con ejemplos identificables</li>
+    <li>decentDesc-&gt;atractivo para aquellos que buscan refinar sus habilidades</li>
+    <li>decentExtra-&gt; pero carece de estrategias avanzadas</li>
+    <li>decentExtra-&gt; pero algunos ejemplos parecen obsoletos</li>
+    <li>decentExtra-&gt; pero sus métodos son a veces poco claros</li>
+    <li>decentExtra-&gt; pero se centra demasiado en la teoría sobre la práctica</li>
+    <li>decentExtra-&gt; pero a menudo complica demasiado las ideas simples</li>
+    <li>awfulDesc-&gt;escrito por alguien con poca comprensión del entrenamiento</li>
+    <li>awfulDesc-&gt;lleno de anécdotas personales irrelevantes</li>
+    <li>awfulDesc-&gt;vago y desestructurado</li>
+    <li>awfulDesc-&gt;carente de consejos claros y procesables</li>
+    <li>awfulDesc-&gt;plagado de declaraciones contradictorias</li>
+    <li>awfulExtra-&gt; y su consejo es a menudo contraproducente</li>
+    <li>awfulExtra-&gt; y no aborda los principios clave de la construcción de habilidades</li>
+    <li>awfulExtra-&gt; e incluye métodos sin sentido o inútiles</li>
+    <li>maybe_date-&gt;</li>
+    <li>maybe_date-&gt;El libro fue publicado [date_form].</li>
+    <li>maybe_date-&gt;El texto se imprimió por primera vez [date_form].</li>
+    <li>maybe_date-&gt;No está claro exactamente cuándo se escribió el libro.</li>
+    <li>date_form-&gt;recientemente</li>
+    <li>date_form-&gt;hace muchos siglos</li>
+    <li>date_form-&gt;en el [date]</li>
+    <li>date_form-&gt;en [date_season]</li>
+    <li>bookType(p=4)-&gt;manual de entrenamiento</li>
+    <li>bookType(p=2)-&gt;guía de estudio</li>
+    <li>bookType-&gt;libro de referencia</li>
+    <li>bookType-&gt;guía educativa</li>
+    <li>bookType-&gt;recurso de aprendizaje</li>
+  </ABooks_TrainingManual_Description.rulePack.rulesStrings>
+</LanguageData>

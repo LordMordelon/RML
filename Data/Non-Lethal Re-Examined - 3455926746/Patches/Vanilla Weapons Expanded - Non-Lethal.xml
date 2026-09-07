@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VWE_NonLethal"]/label</xpath>
+    <value>
+      <!-- EN: non-lethal solutions -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VWE_NonLethal"]/description</xpath>
+    <value>
+      <!-- EN: Craft a selection of non-lethal solutions, including tear gas launchers and tasers. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>

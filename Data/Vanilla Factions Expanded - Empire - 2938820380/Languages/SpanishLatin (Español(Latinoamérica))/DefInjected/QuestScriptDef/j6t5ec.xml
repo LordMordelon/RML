@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: lastOrNot(nobleCount==1)-&gt; -->
+  <!-- EN: lastOrNot(nobleCount&gt;=2)-&gt;last -->
+  <!-- EN: lodgersLabelSingularOrPlural(nobleCount==1)-&gt;[lodgersLabel] -->
+  <!-- EN: lodgersLabelSingularOrPlural(nobleCount&gt;=2)-&gt;[lodgersLabelPlural] -->
+  <!-- EN: decidedToLeave-&gt;Are leaving immediately, and will not remember this event fondly! -->
+  <!-- EN: oneOfThe-&gt;one of the nobles visting for the parade -->
+  <!-- EN: questOver-&gt;The quest &apos;[resolvedQuestName]&apos; is over. -->
+  <!-- EN: CeremonyFailedLetterLabel-&gt;Parade failed -->
+  <!-- EN: CeremonyFailedLetterText-&gt;[asker_nameFull] is disappointed by your failure to make for an enjoyable Parade. [asker_pronoun] is leaving with [asker_possessive] guests -->
+  <!-- EN: CeremonyTimeoutLetterLabel-&gt;Parade failed -->
+  <!-- EN: CeremonyTimeoutLetterText-&gt;[asker_nameFull] has grown tired of waiting for you to start the Parade. [asker_pronoun] is leaving with [asker_possessive] guests. -->
+  <!-- EN: letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe]. -->
+  <!-- EN: lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested -->
+  <!-- EN: lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] has died. -->
+  <!-- EN: lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure -->
+  <!-- EN: lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery. -->
+  <!-- EN: lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Surgery: Departure -->
+  <!-- EN: lodgerSurgeryVioLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped. -->
+  <!-- EN: lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Kidnapped: Departure -->
+  <!-- EN: lodgerKidnappedLeaveMapLetterText-&gt;[letterIntroKidnapped]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished. -->
+  <!-- EN: lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Banished: Departure -->
+  <!-- EN: lodgerBanishedLeaveMapLetterText-&gt;[letterIntroBanished]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual. -->
+  <!-- EN: lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Psychic Ritual: Departure -->
+  <!-- EN: lodgerPsychicRitualTargetText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave] -->
+  <!-- EN: ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, has been destroyed -->
+  <!-- EN: ShuttleDestroyedLabel-&gt;Shuttle destroyed: Parade Failed -->
+  <!-- EN: ShuttleDestroyedText-&gt;[ShuttleDestroyedIntro]\n\n[decidedToLeave] -->
+  <!-- EN: raidArrivedLetterLabel-&gt;Deserter assasination attempt -->
+  <!-- EN: raidArrivedLetterText-&gt;A group of deserters have arrived to attempt to disrupt the parade and assasinate the [stellarch_nameFull]\n\nThe parade must not be interrupted for any reason! -->
+  <!-- EN: ParadeSuccessLetterLetterLabel-&gt;Parade Success -->
+  <!-- EN: ParadeSuccessLetterText-&gt;The shuttle is ready to depart with all those ascending with [stellarch_nameFull]. It will depart upon your command! -->
+  <VFEE_Parade.questContentRules.rulesStrings>
+    <li>lastOrNot(nobleCount==1)-&gt;</li>
+    <li>lastOrNot(nobleCount&gt;=2)-&gt;último</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>decidedToLeave-&gt;¡Se van inmediatamente y no recordarán este evento con cariño!</li>
+    <li>oneOfThe-&gt;uno de los nobles que visitan para el desfile</li>
+    <li>questOver-&gt;La misión '[resolvedQuestName]' ha terminado.</li>
+    <li>CeremonyFailedLetterLabel-&gt;Desfile fallido</li>
+    <li>CeremonyFailedLetterText-&gt;[asker_nameFull] está decepcionado por tu fracaso en hacer un desfile agradable. [asker_pronoun] se va con sus invitados</li>
+    <li>CeremonyTimeoutLetterLabel-&gt;Desfile fallido</li>
+    <li>CeremonyTimeoutLetterText-&gt;[asker_nameFull] se ha cansado de esperar a que comiences el desfile. [asker_pronoun] se va con sus invitados.</li>
+    <li>letterIntroArrested-&gt;Arrestaste a {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrestado</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] ha muerto.</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] murió: Partida</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], fue violado por cirugía.</li>
+    <li>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Cirugía: Partida</li>
+    <li>lodgerSurgeryVioLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], fue secuestrado.</li>
+    <li>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Secuestrado: Partida</li>
+    <li>lodgerKidnappedLeaveMapLetterText-&gt;[letterIntroKidnapped]\n\n[decidedToLeave]</li>
+    <li>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], fue desterrado.</li>
+    <li>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Desterrado: Partida</li>
+    <li>lodgerBanishedLeaveMapLetterText-&gt;[letterIntroBanished]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], fue el objetivo de un ritual psíquico.</li>
+    <li>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Ritual psíquico: Partida</li>
+    <li>lodgerPsychicRitualTargetText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, ha sido destruido</li>
+    <li>ShuttleDestroyedLabel-&gt;Transbordador destruido: Desfile fallido</li>
+    <li>ShuttleDestroyedText-&gt;[ShuttleDestroyedIntro]\n\n[decidedToLeave]</li>
+    <li>raidArrivedLetterLabel-&gt;Intento de asesinato de desertores</li>
+    <li>raidArrivedLetterText-&gt;Un grupo de desertores ha llegado para intentar interrumpir el desfile y asesinar al [stellarch_nameFull]\n\n¡El desfile no debe ser interrumpido por ninguna razón!</li>
+    <li>ParadeSuccessLetterLetterLabel-&gt;Éxito del desfile</li>
+    <li>ParadeSuccessLetterText-&gt;El transbordador está listo para partir con todos aquellos que ascienden con el [stellarch_nameFull]. ¡Partirá a tu orden!</li>
+  </VFEE_Parade.questContentRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/description</xpath>
+            <value>
+              <!-- EN: A bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/label</xpath>
+            <value>
+              <!-- EN: Mini Flamethrower -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CWE_Module_BioBurner"]/label</xpath>
+            <value>
+              <!-- EN: Mini Flamethrower -->
+              <label>Bioquemador</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Flare_Launcher"]/description</xpath>
+            <value>
+              <!-- EN: A utility launcher that shoots disruptor flares. Used for signaling or illumination. Loaded from the breech, its barrel is too thin to fire anything but flares. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Shotgun_Underbarrel"]/label</xpath>
+          <value>
+            <!-- EN: 12 gauge Shotgun attachment -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CWE_Module_Shotgun_Underbarrel"]/label</xpath>
+          <value>
+            <!-- EN: 12 gauge Shotgun attachment -->
+            <label>Accesorio de escopeta</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>The Birds and the Bees</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <!-- EN: efficient copulation extremity -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <!-- EN: I cannot imagine what &quot;features&quot; this has to make it so much better than what nature gave you. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <!-- EN: efficient copulation extremity -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <!-- EN: I cannot imagine what &quot;features&quot; this has to make it so much better than what nature gave you. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant efficient copulation extremity&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <!-- EN: Implant an efficient copulation extremity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting efficient copulation extremity. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SwimmingKit</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Swim"]/label</xpath>
+          <value>
+            <!-- EN: hydrophobic webbed leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Swim"]/description</xpath>
+          <value>
+            <!-- EN: By creating a new cellular mesh that is both light and durable, it is possible to create a mesh that allows for leg mounted webbing that doesnt tear easily. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/label</xpath>
+          <value>
+            <!-- EN: hydrophobic webbed leg -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/description</xpath>
+          <value>
+            <!-- EN: By creating a new cellular mesh that is both light and durable, it is possible to create a mesh that allows for leg mounted webbing that doesnt tear easily. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant hydrophobic webbed leg&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/description</xpath>
+          <value>
+            <!-- EN: Implant a hydrophobic webbed leg. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting hydrophobic webbed leg. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Prosthetic Combat Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a voracious maggot bolter -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/description</xpath>
+          <value>
+            <!-- EN: By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Voracious Maggot Bolter -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a voracious maggot bolter -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/description</xpath>
+          <value>
+            <!-- EN: By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Voracious Maggot Bolter -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a venom crystal cannon -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/description</xpath>
+          <value>
+            <!-- EN: The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Venom Crystal Cannon -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a venom crystal cannon -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/description</xpath>
+          <value>
+            <!-- EN: The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Venom Crystal Cannon -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a cryogenic slime cannon -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/description</xpath>
+          <value>
+            <!-- EN: This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Cryogenic Slime Cannon -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a cryogenic slime cannon -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/description</xpath>
+          <value>
+            <!-- EN: This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Cryogenic Slime Cannon -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/labelNoun</xpath>
+          <value>
+            <!-- EN: an impulse shock blaster -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/description</xpath>
+          <value>
+            <!-- EN: Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Impulse Shock Blaster -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/labelNoun</xpath>
+          <value>
+            <!-- EN: an impulse shock blaster -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/description</xpath>
+          <value>
+            <!-- EN: Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Impulse Shock Blaster -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/label</xpath>
+          <value>
+            <!-- EN: volatile spore array -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/labelNoun</xpath>
+          <value>
+            <!-- EN: a volatile spore array -->
+            <labelNoun>TODO</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/description</xpath>
+          <value>
+            <!-- EN: These spores on the host&apos;s back can be launched in a certain direction, where they glide to the target and explode. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <!-- EN: volatile spore array -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <!-- EN: volatile spore array -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <!-- EN: Volatile Spore Array -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs4"]/label</xpath>
+          <value>
+            <!-- EN: Bio-weapon Symbiosis -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs4"]/description</xpath>
+          <value>
+            <!-- EN: By creating specialized organisms to live in our limbs, we can create bio-weapons utilizing them that are part of our very own bodies. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_MaggotBolter"]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot bolter -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_MaggotBolter"]/description</xpath>
+          <value>
+            <!-- EN: By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: venom crystal cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/description</xpath>
+          <value>
+            <!-- EN: The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime cannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/description</xpath>
+          <value>
+            <!-- EN: This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: impulse shock blaster -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/description</xpath>
+          <value>
+            <!-- EN: Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/label</xpath>
+          <value>
+            <!-- EN: volatile spore array -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/description</xpath>
+          <value>
+            <!-- EN: These spores on the host&apos;s back can be launched in a certain direction, where they glide to the target and explode. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant voracious maggot bolter&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/description</xpath>
+          <value>
+            <!-- EN: Implant a voracious maggot bolter. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting voracious maggot bolter. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant voracious maggot bolter&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/description</xpath>
+          <value>
+            <!-- EN: Implant a voracious maggot bolter. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting voracious maggot bolter. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/description</xpath>
+          <value>
+            <!-- EN: Implant a venom crystal cannon. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting venom crystal cannon. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/description</xpath>
+          <value>
+            <!-- EN: Implant a venom crystal cannon. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting venom crystal cannon. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant cryogenic slime cannon&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/description</xpath>
+          <value>
+            <!-- EN: Implant a cryogenic slime cannon. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting cryogenic slime cannon. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant cryogenic slime cannon&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/description</xpath>
+          <value>
+            <!-- EN: Implant a cryogenic slime cannon. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting cryogenic slime cannon. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant impulse shock blaster&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/description</xpath>
+          <value>
+            <!-- EN: Implant an impulse shock blaster. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting impulse shock blaster. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant impulse shock blaster&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/description</xpath>
+          <value>
+            <!-- EN: Implant an impulse shock blaster. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting impulse shock blaster. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant volatile spore array&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/description</xpath>
+          <value>
+            <!-- EN: Implant a volatile spore array. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting volatile spore array. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_Maggot"]/label</xpath>
+          <value>
+            <!-- EN: voracious maggot -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_VenomCrystal"]/label</xpath>
+          <value>
+            <!-- EN: venom crystal -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_CryoSlime"]/label</xpath>
+          <value>
+            <!-- EN: cryogenic slime -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_ImpulseShock"]/label</xpath>
+          <value>
+            <!-- EN: impulse shock -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_KaboomSpore"]/label</xpath>
+          <value>
+            <!-- EN: volatile spore -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimatomics</li>
+      <li>Dubs Rimatomics</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Abd_Rad"]/label</xpath>
+          <value>
+            <!-- EN: radiation suppressor -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Abd_Rad"]/description</xpath>
+          <value>
+            <!-- EN: An organ developed to release protective proteins which insulate cells from radiation damage as well as filtering and replacing irradiated tissue. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/label</xpath>
+          <value>
+            <!-- EN: radiation suppressor -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/description</xpath>
+          <value>
+            <!-- EN: An organ developed to release protective protiens which insulate cells from radiation damage as well as filtering and replacing irradiated tissue. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/label</xpath>
+          <value>
+            <!-- EN: &lt;color=#00FFF7&gt;implant radiation suppressor&lt;/color&gt; -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/description</xpath>
+          <value>
+            <!-- EN: Implant a radiation suppressor. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/jobString</xpath>
+          <value>
+            <!-- EN: Implanting radiation suppressor. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

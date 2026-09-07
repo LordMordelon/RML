@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WeaponTraitDef[defName="BioferriteBurner"]/li[1]/abilityWithCharges/chargeNoun</xpath>
+          <value>
+            <!-- EN: burner charge -->
+            <chargeNoun>TODO</chargeNoun>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WeaponTraitDef[defName="GrenadeLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
+    <value>
+      <!-- EN: grenade -->
+      <chargeNoun>TODO</chargeNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WeaponTraitDef[defName="EMPLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
+    <value>
+      <!-- EN: shell -->
+      <chargeNoun>TODO</chargeNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WeaponTraitDef[defName="SmokeLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
+    <value>
+      <!-- EN: shell -->
+      <chargeNoun>TODO</chargeNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WeaponTraitDef[defName="IncendiaryLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
+    <value>
+      <!-- EN: shell -->
+      <chargeNoun>TODO</chargeNoun>
+    </value>
+  </Operation>
+</Patch>

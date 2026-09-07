@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_NobleFoodDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 25 lavish meals. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 50 herbal medicine. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 30 medicine. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 15 high-explosiveshells. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 25 components. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_WoodDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 1250 wood. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_GoldDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 100 gold. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_PlasteelDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 110 plasteel. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ChemfuelDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 685 chemfuel. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_JadeDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 300 jade. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_UraniumDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 240 uranium. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ClothDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 1000 Cloth. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_SynthreadDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 375 Synthread. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_DevilstrandDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 270 Devilstrand. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HyperweaveDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 165 Hyperweave. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of 5 advanced components -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StrikerTurretDrop"]/description</xpath>
+          <value>
+            <!-- EN: Call for a drop of four striker turrets to aid you in battle. After they fire all their ammo, striker turrets self-detonate. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

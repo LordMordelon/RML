@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription(asker_factionLeader==True)-&gt;[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. A group of [siteFaction_pawnsPlural] has taken control of an abandoned geothermal ARC site. The camp is under the control of [siteFaction_name].\n\n[asker_nameDef] is requesting that we clear out the area by eliminating all enemies and defenses. Securing the site will allow us to study the geothermal ARC and recover valuable components for future use. Additionally, [sitePart0_description]. -->
+  <!-- EN: questDescription(askerIsNull==true)-&gt;We have received information that an old geothermal ARC site has been occupied by [siteFaction_pawnsPlural] from [siteFaction_name]. The bandits have fortified their position and are using the site to control the surrounding area.\n\nSecuring the site will give us access to study the geothermal ARC and extract useful components. The site is likely well-defended, so prepare for resistance. Additionally, [sitePart0_description]. -->
+  <!-- EN: sitePart0_description-&gt;the site is partially overgrown, with remnants of its original machinery scattered around -->
+  <!-- EN: sitePart0_description-&gt;the bandits have reinforced the area with crude barricades and guard posts -->
+  <!-- EN: sitePart0_description-&gt;the geothermal ARC appears heavily worn but intact enough to salvage parts -->
+  <!-- EN: sitePart0_description-&gt;the facility&apos;s infrastructure is still standing, though it shows signs of significant wear -->
+  <!-- EN: sitePart0_description-&gt;hostile patrols have been spotted in the area, ensuring no one approaches unchallenged -->
+  <!-- EN: sitePart0_description-&gt;the bandits seem to be utilizing the ARC to power their operations -->
+  <VQE_GeothermalArcSite.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], nos ha enviado un mensaje. Un grupo de [siteFaction_pawnsPlural] ha tomado el control de un sitio de ARC geotérmico abandonado. El campamento está bajo el control de [siteFaction_name].\n\n[asker_nameDef] solicita que despejemos el área eliminando a todos los enemigos y defensas. Asegurar el sitio nos permitirá estudiar el ARC geotérmico y recuperar componentes valiosos para su uso futuro. Además, [sitePart0_description].</li>
+    <li>questDescription(askerIsNull==true)-&gt;Hemos recibido información de que un antiguo sitio de ARC geotérmico ha sido ocupado por [siteFaction_pawnsPlural] de [siteFaction_name]. Los bandidos han fortificado su posición y están utilizando el sitio para controlar el área circundante.\n\nAsegurar el sitio nos dará acceso para estudiar el ARC geotérmico y extraer componentes útiles. Es probable que el sitio esté bien defendido, así que prepárate para la resistencia. Además, [sitePart0_description].</li>
+    <li>sitePart0_description-&gt;el sitio está parcialmente cubierto de vegetación, con restos de su maquinaria original esparcidos por los alrededores</li>
+    <li>sitePart0_description-&gt;los bandidos han reforzado el área con barricadas rudimentarias y puestos de guardia</li>
+    <li>sitePart0_description-&gt;el ARC geotérmico parece muy desgastado pero lo suficientemente intacto como para recuperar piezas</li>
+    <li>sitePart0_description-&gt;la infraestructura de la instalación sigue en pie, aunque muestra signos de un desgaste significativo</li>
+    <li>sitePart0_description-&gt;se han avistado patrullas hostiles en el área, asegurando que nadie se acerque sin ser desafiado</li>
+    <li>sitePart0_description-&gt;los bandidos parecen estar utilizando el ARC para alimentar sus operaciones</li>
+  </VQE_GeothermalArcSite.questDescriptionRules.rulesStrings>
+</LanguageData>

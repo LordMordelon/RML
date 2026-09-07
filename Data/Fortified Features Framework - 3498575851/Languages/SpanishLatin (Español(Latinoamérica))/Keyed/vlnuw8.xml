@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Access locked -->
+  <FFF.AccessKeyDoor.Locked>TODO</FFF.AccessKeyDoor.Locked>
+  <!-- EN: Access locked: {0} more access key use(s) required -->
+  <FFF.AccessKeyDoor.LockedKeysRemaining>TODO</FFF.AccessKeyDoor.LockedKeysRemaining>
+  <!-- EN: The {0} accepts the access key and slides open. -->
+  <FFF.AccessKeyDoor.Unlocked>TODO</FFF.AccessKeyDoor.Unlocked>
+  <!-- EN: Alert level {0} -->
+  <FFF_Alert_AlertLevel_Label>TODO</FFF_Alert_AlertLevel_Label>
+  <!-- EN: Alert triggered! -->
+  <FFF_Alert_AlertLevel_Label_Triggered>TODO</FFF_Alert_AlertLevel_Label_Triggered>
+  <!-- EN: Alert-detection buildings on this map have raised the security alert level to {0}.\n\nIf the level reaches maximum, an automated countermeasure will be triggered. Neutralize the scanners to let it decay.\n\nMonitored buildings: {1} -->
+  <FFF_Alert_AlertLevel_Desc>TODO</FFF_Alert_AlertLevel_Desc>
+  <!-- EN: The security alert level has reached maximum and an automated countermeasure is now active.\n\nMonitored buildings: {0} -->
+  <FFF_Alert_AlertLevel_Desc_Triggered>TODO</FFF_Alert_AlertLevel_Desc_Triggered>
+  <!-- EN: {0} -->
+  <FFF.AmmoSwitch.Label>TODO</FFF.AmmoSwitch.Label>
+  <!-- EN: click to switch ammo type -->
+  <FFF.AmmoSwitch.Desc>TODO</FFF.AmmoSwitch.Desc>
+  <!-- EN: {0} - {1} -->
+  <FFF.AmmoSwitch.AmmoTooltip>TODO</FFF.AmmoSwitch.AmmoTooltip>
+  <!-- EN: Default Ammo -->
+  <FFF.AmmoSwitch.DefaultAmmo>TODO</FFF.AmmoSwitch.DefaultAmmo>
+  <!-- EN: Default Projectile -->
+  <FFF.AmmoSwitch.DefaultProjectile>TODO</FFF.AmmoSwitch.DefaultProjectile>
+  <!-- EN: Accuracy Factor -->
+  <FFF.AmmoSwitch.StatFactor>TODO</FFF.AmmoSwitch.StatFactor>
+  <!-- EN: Using default -->
+  <FFF.AmmoSwitch.UsingDefault>TODO</FFF.AmmoSwitch.UsingDefault>
+  <!-- EN: Cancel proccess -->
+  <FFF.CancelActiveBill>Cancelar proceso</FFF.CancelActiveBill>
+  <!-- EN: Cancel the current process, which will return resources and stop consuming power. -->
+  <FFF.CancelActiveBillDesc>Cancela el proceso actual, lo que devolverá los recursos y dejará de consumir energía.</FFF.CancelActiveBillDesc>
+  <!-- EN: The currently executing work list has been canceled, but it needs to stop running. -->
+  <FFF.Autofacturer.WorkerCanceled>La lista de trabajo en ejecución ha sido cancelada, pero necesita detenerse.</FFF.Autofacturer.WorkerCanceled>
+  <!-- EN: {0} Completed -->
+  <FFF.Autofacturer.WorkerDone>{0} completado</FFF.Autofacturer.WorkerDone>
+  <!-- EN: current bill: {0} -->
+  <FFF.Autofacturer.CurrentRecipe>TODO</FFF.Autofacturer.CurrentRecipe>
+  <!-- EN: current processes have completed, require colonist to work -->
+  <FFF.Autofacturer.WorkerFinished>los procesos actuales se han completado, se requiere que un colono trabaje</FFF.Autofacturer.WorkerFinished>
+  <!-- EN: Remaining work amount: {0}\nRemaining stages: {1} -->
+  <FFF.Autofacturer.Information>Cantidad de trabajo restante: {0}\nEtapas restantes: {1}</FFF.Autofacturer.Information>
+  <!-- EN: Completed, require colonist to work -->
+  <FFF.Autofacturer.Prepared>Completado, se requiere que un colono trabaje</FFF.Autofacturer.Prepared>
+  <!-- EN: Stop broadcast -->
+  <FFF.StopWarmup>Detener transmisión</FFF.StopWarmup>
+  <!-- EN: Start broadcast -->
+  <FFF.StartWarmup>Iniciar transmisión</FFF.StartWarmup>
+  <!-- EN: Unable to start: not cooled yet -->
+  <FFF.NotCooldown>No se puede iniciar: aún no se ha enfriado</FFF.NotCooldown>
+  <!-- EN: will complete broadcast at: -->
+  <FFF.WillReadyAt>completará la transmisión en:</FFF.WillReadyAt>
+  <!-- EN: will complete cooling at: -->
+  <FFF.WillCooldownAt>completará el enfriamiento en:</FFF.WillCooldownAt>
+  <!-- EN: Move forward -->
+  <FFF.BuildingMover.Dir0>TODO</FFF.BuildingMover.Dir0>
+  <!-- EN: Move backward -->
+  <FFF.BuildingMover.Dir1>TODO</FFF.BuildingMover.Dir1>
+  <!-- EN: Move right -->
+  <FFF.BuildingMover.Dir2>TODO</FFF.BuildingMover.Dir2>
+  <!-- EN: Move left -->
+  <FFF.BuildingMover.Dir3>TODO</FFF.BuildingMover.Dir3>
+  <!-- EN: Move this structure along its facing axis if the destination is clear. -->
+  <FFF.BuildingMover.Desc>TODO</FFF.BuildingMover.Desc>
+  <!-- EN: The destination is blocked. -->
+  <FFF.BuildingMover.Blocked>TODO</FFF.BuildingMover.Blocked>
+  <!-- EN: Rotate -->
+  <FFF.BuildingMover.Rotate>TODO</FFF.BuildingMover.Rotate>
+  <!-- EN: Rotate this structure clockwise if there is room. -->
+  <FFF.BuildingMover.RotateDesc>TODO</FFF.BuildingMover.RotateDesc>
+  <!-- EN: Reciprocating track: toggles back and forth -->
+  <FFF.BuildingMover.Place.Toggle>TODO</FFF.BuildingMover.Place.Toggle>
+  <!-- EN: Moves along its facing axis -->
+  <FFF.BuildingMover.Place.OneWay>TODO</FFF.BuildingMover.Place.OneWay>
+  <!-- EN: Crushes obstacles in its path -->
+  <FFF.BuildingMover.Place.Crush>TODO</FFF.BuildingMover.Place.Crush>
+  <!-- EN: Mines ore veins it crushes through -->
+  <FFF.BuildingMover.Place.Mine>TODO</FFF.BuildingMover.Place.Mine>
+  <!-- EN: Open door -->
+  <DMS.MachineCabinet.Door.Open>TODO</DMS.MachineCabinet.Door.Open>
+  <!-- EN: Close door -->
+  <DMS.MachineCabinet.Door.Close>TODO</DMS.MachineCabinet.Door.Close>
+  <!-- EN: Slides aside to open. Anything in the way is shoved aside and bruised. -->
+  <DMS.MachineCabinet.Door.OpenDesc>TODO</DMS.MachineCabinet.Door.OpenDesc>
+  <!-- EN: THUNDEROUS CHARGE! -->
+  <DMS.MachineCabinet.Charge.Label>TODO</DMS.MachineCabinet.Charge.Label>
+  <!-- EN: Charges forward, crushing everything in its path and tearing ore from the rock. -->
+  <DMS.MachineCabinet.Charge.Desc>TODO</DMS.MachineCabinet.Charge.Desc>
+  <!-- EN: Activate -->
+  <FFF_CompContinuousDamager_Activate>TODO</FFF_CompContinuousDamager_Activate>
+  <!-- EN: Deactivate -->
+  <FFF_CompContinuousDamager_Deactivate>TODO</FFF_CompContinuousDamager_Deactivate>
+  <!-- EN: Activate this device. It will deal {0} {2} damage every interval for {1} seconds, then destroy itself. -->
+  <FFF_CompContinuousDamager_Desc>TODO</FFF_CompContinuousDamager_Desc>
+  <!-- EN: Active — time remaining: {0} -->
+  <FFF_CompContinuousDamager_Remaining>TODO</FFF_CompContinuousDamager_Remaining>
+  <!-- EN: No continuous damager component found on this building. -->
+  <FFF_NoContinuousDamagerComp>TODO</FFF_NoContinuousDamagerComp>
+  <!-- EN: Device is already active. -->
+  <FFF_ContinuousDamagerAlreadyActive>TODO</FFF_ContinuousDamagerAlreadyActive>
+  <!-- EN: Arm device -->
+  <FFF_ArmThermiteDevice>TODO</FFF_ArmThermiteDevice>
+  <!-- EN: Block charges: {0}/{1} -->
+  <FFF.DamageBlocker.Charges>TODO</FFF.DamageBlocker.Charges>
+  <!-- EN: Replenish ({0} x{1}) -->
+  <FFF.DamageBlocker.Replenish>TODO</FFF.DamageBlocker.Replenish>
+  <!-- EN: Split threshold: {0}{1} -->
+  <FFF.DamageBlocker.Threshold>TODO</FFF.DamageBlocker.Threshold>
+  <!-- EN: Damage absorbed. -->
+  <FFF.DamageBlocker.Absorbed>TODO</FFF.DamageBlocker.Absorbed>
+  <!-- EN: Threshold protection -->
+  <FFF.DamageBlocker.Stat.Category>TODO</FFF.DamageBlocker.Stat.Category>
+  <!-- EN: Split threshold -->
+  <FFF.DamageBlocker.Stat.Threshold>TODO</FFF.DamageBlocker.Stat.Threshold>
+  <!-- EN: The damage amount at which this protection activates. -->
+  <FFF.DamageBlocker.Stat.ThresholdDesc>TODO</FFF.DamageBlocker.Stat.ThresholdDesc>
+  <!-- EN: Block charges -->
+  <FFF.DamageBlocker.Stat.Charges>TODO</FFF.DamageBlocker.Stat.Charges>
+  <!-- EN: Number of times this protection can block before it must be replenished. -->
+  <FFF.DamageBlocker.Stat.ChargesDesc>TODO</FFF.DamageBlocker.Stat.ChargesDesc>
+  <!-- EN: Threshold behavior -->
+  <FFF.DamageBlocker.Stat.Behavior>TODO</FFF.DamageBlocker.Stat.Behavior>
+  <!-- EN: How this protection reacts to hits above and below the threshold. -->
+  <FFF.DamageBlocker.Stat.BehaviorDesc>TODO</FFF.DamageBlocker.Stat.BehaviorDesc>
+  <!-- EN: Above threshold: {0} ({1}) -->
+  <FFF.DamageBlocker.Stat.BehaviorAbove>TODO</FFF.DamageBlocker.Stat.BehaviorAbove>
+  <!-- EN: Below threshold: {0} ({1}) -->
+  <FFF.DamageBlocker.Stat.BehaviorBelow>TODO</FFF.DamageBlocker.Stat.BehaviorBelow>
+  <!-- EN: fully blocked -->
+  <FFF.DamageBlocker.Stat.ActionBlock>TODO</FFF.DamageBlocker.Stat.ActionBlock>
+  <!-- EN: clamped to {0} -->
+  <FFF.DamageBlocker.Stat.ActionClamp>TODO</FFF.DamageBlocker.Stat.ActionClamp>
+  <!-- EN: passes through -->
+  <FFF.DamageBlocker.Stat.ActionPass>TODO</FFF.DamageBlocker.Stat.ActionPass>
+  <!-- EN: consumes a charge -->
+  <FFF.DamageBlocker.Stat.ConsumeYes>TODO</FFF.DamageBlocker.Stat.ConsumeYes>
+  <!-- EN: no charge cost -->
+  <FFF.DamageBlocker.Stat.ConsumeNo>TODO</FFF.DamageBlocker.Stat.ConsumeNo>
+  <!-- EN: Active conditions -->
+  <FFF.DamageBlocker.Stat.Filter>TODO</FFF.DamageBlocker.Stat.Filter>
+  <!-- EN: Restrictions on which attacks this protection responds to. -->
+  <FFF.DamageBlocker.Stat.FilterDesc>TODO</FFF.DamageBlocker.Stat.FilterDesc>
+  <!-- EN: Restricted -->
+  <FFF.DamageBlocker.Stat.FilterValue>TODO</FFF.DamageBlocker.Stat.FilterValue>
+  <!-- EN: Attack sources: {0} -->
+  <FFF.DamageBlocker.Stat.FilterSource>TODO</FFF.DamageBlocker.Stat.FilterSource>
+  <!-- EN: Only blocks: {0} -->
+  <FFF.DamageBlocker.Stat.FilterAllowed>TODO</FFF.DamageBlocker.Stat.FilterAllowed>
+  <!-- EN: Ignores: {0} -->
+  <FFF.DamageBlocker.Stat.FilterExcluded>TODO</FFF.DamageBlocker.Stat.FilterExcluded>
+  <!-- EN: Weapon tags: {0} -->
+  <FFF.DamageBlocker.Stat.FilterWeaponTags>TODO</FFF.DamageBlocker.Stat.FilterWeaponTags>
+  <!-- EN: ranged -->
+  <FFF.DamageBlocker.Stat.SourceRanged>TODO</FFF.DamageBlocker.Stat.SourceRanged>
+  <!-- EN: melee -->
+  <FFF.DamageBlocker.Stat.SourceMelee>TODO</FFF.DamageBlocker.Stat.SourceMelee>
+  <!-- EN: direct -->
+  <FFF.DamageBlocker.Stat.SourceDirect>TODO</FFF.DamageBlocker.Stat.SourceDirect>
+  <!-- EN: none -->
+  <FFF.DamageBlocker.Stat.SourceNone>TODO</FFF.DamageBlocker.Stat.SourceNone>
+  <!-- EN: Trigger behavior -->
+  <FFF.DamageBlocker.Stat.Era>TODO</FFF.DamageBlocker.Stat.Era>
+  <!-- EN: {0} reaction(s) -->
+  <FFF.DamageBlocker.Stat.EraValue>TODO</FFF.DamageBlocker.Stat.EraValue>
+  <!-- EN: Triggers on: {0} -->
+  <FFF.DamageBlocker.Stat.EraTrigger>TODO</FFF.DamageBlocker.Stat.EraTrigger>
+  <!-- EN: {0} {1} to {2} -->
+  <FFF.DamageBlocker.Stat.EraEntry>TODO</FFF.DamageBlocker.Stat.EraEntry>
+  <!-- EN: If {0} below {1}: {2} -->
+  <FFF.DamageBlocker.Stat.EraEntryCond>TODO</FFF.DamageBlocker.Stat.EraEntryCond>
+  <!-- EN: No counter damage -->
+  <FFF.DamageBlocker.Stat.EraEntryNone>TODO</FFF.DamageBlocker.Stat.EraEntryNone>
+  <!-- EN: a random part -->
+  <FFF.DamageBlocker.Stat.EraPartRandom>TODO</FFF.DamageBlocker.Stat.EraPartRandom>
+  <!-- EN: any hit -->
+  <FFF.DamageBlocker.Stat.EraOnHit>TODO</FFF.DamageBlocker.Stat.EraOnHit>
+  <!-- EN: charge consumed -->
+  <FFF.DamageBlocker.Stat.EraOnConsume>TODO</FFF.DamageBlocker.Stat.EraOnConsume>
+  <!-- EN: above threshold -->
+  <FFF.DamageBlocker.Stat.EraOnAbove>TODO</FFF.DamageBlocker.Stat.EraOnAbove>
+  <!-- EN: below threshold -->
+  <FFF.DamageBlocker.Stat.EraOnBelow>TODO</FFF.DamageBlocker.Stat.EraOnBelow>
+  <!-- EN: never -->
+  <FFF.DamageBlocker.Stat.EraNever>TODO</FFF.DamageBlocker.Stat.EraNever>
+  <!-- EN: Operator: -->
+  <FFF.CurrentOperator>Operador:</FFF.CurrentOperator>
+  <!-- EN: Requires operator -->
+  <FFF.RequireOperator>Requiere operador</FFF.RequireOperator>
+  <!-- EN: Enter fortification -->
+  <FFF.BunkerFacility_EnterText>Entrar en la fortificación</FFF.BunkerFacility_EnterText>
+  <!-- EN: Exit fortification -->
+  <FFF.BunkerFacility_ExitText>Salir de la fortificación</FFF.BunkerFacility_ExitText>
+  <!-- EN: not drafted -->
+  <FFF.DisabledUndrafted>No reclutado</FFF.DisabledUndrafted>
+  <!-- EN: area blocked -->
+  <FFF.MinifiedDeployable.SelectedAreaBlocked>área bloqueada</FFF.MinifiedDeployable.SelectedAreaBlocked>
+  <!-- EN: Unrestricted -->
+  <FFF.Drone.NoRestrict>Sin restricciones</FFF.Drone.NoRestrict>
+  <!-- EN: Allowed area -->
+  <FFF.Drone.AllowedArea>Área permitida</FFF.Drone.AllowedArea>
+  <!-- EN: Set the allow area for Drones, deployed Drone will comply with the platform&apos;s area settings. -->
+  <FFF.Drone.AllowedAreaDesc>Establece el área permitida para los drones, los drones desplegados cumplirán con la configuración de área de la plataforma.</FFF.Drone.AllowedAreaDesc>
+  <!-- EN: control platform unavailable -->
+  <FFF.Drone.NoControlPlatform>plataforma de control no disponible</FFF.Drone.NoControlPlatform>
+  <!-- EN: No control -->
+  <FFF.Drone.NoController>Sin control</FFF.Drone.NoController>
+  <!-- EN: platform not controlled -->
+  <FFF.Drone.ControllerNotInControl>plataforma no controlada</FFF.Drone.ControllerNotInControl>
+  <!-- EN: platform not drafted -->
+  <FFF.Drone.ControllerNotDrafted>plataforma no reclutada</FFF.Drone.ControllerNotDrafted>
+  <!-- EN: platform not exist in the map -->
+  <FFF.Drone.ControllerNotInMap>la plataforma no existe en el mapa</FFF.Drone.ControllerNotInMap>
+  <!-- EN: Will detonate explosives payloads after collision -->
+  <FFF.ExplosiveOnDead>Detonará las cargas explosivas después de la colisión</FFF.ExplosiveOnDead>
+  <!-- EN: Prioritize filling {0}x{1} -->
+  <FFF.FillMechPlatform>Priorizar el llenado de {0}x{1}</FFF.FillMechPlatform>
+  <!-- EN: Return to platform -->
+  <FFF.Drone.Return>Volver a la plataforma</FFF.Drone.Return>
+  <!-- EN: Commands drone return to the deployment platform and shut down, which will restore the consumed resources. -->
+  <FFF.Drone.ReturnDesc>Ordena al dron que regrese a la plataforma de despliegue y se apague, lo que restaurará los recursos consumidos.</FFF.Drone.ReturnDesc>
+  <!-- EN: The deployment platform for {0} is unavailable -->
+  <FFF.Drone.NoPlatform>La plataforma de despliegue para {0} no está disponible</FFF.Drone.NoPlatform>
+  <!-- EN: Deploy {0} -->
+  <FFF.DeployDrone>Desplegar {0}</FFF.DeployDrone>
+  <!-- EN: Consume stored {0} to deploy up to {1} {2} drones. If the platform is destroyed, all {3} controlled by it will shut down. {4} operates on internal batteries and automatically returns to the platform when the battery is low. -->
+  <FFF.DeployDroneDesc>Consume {0} almacenado para desplegar hasta {1} drones {2}. Si la plataforma es destruida, todos los {3} controlados por ella se apagarán. {4} funciona con baterías internas y regresa automáticamente a la plataforma cuando la batería está baja.</FFF.DeployDroneDesc>
+  <!-- EN: Auto Deploy -->
+  <FFF.AutoDeploy>Despliegue automático</FFF.AutoDeploy>
+  <!-- EN: Command this platform to automatically deploy and undeploy drones at a stable interval. -->
+  <FFF.AutoDeployDesc>Ordena a esta plataforma que despliegue y repliegue drones automáticamente a un intervalo estable.</FFF.AutoDeployDesc>
+  <!-- EN: Auto Deploy Enable -->
+  <FFF.AutoDeployEnabled>Habilitar despliegue automático</FFF.AutoDeployEnabled>
+  <!-- EN: Deployment interval: {0} -->
+  <FFF.WillDeployAt>Intervalo de despliegue: {0}</FFF.WillDeployAt>
+  <!-- EN: Retract all {0} -->
+  <FFF.RetractDrones>Retraer todos los {0}</FFF.RetractDrones>
+  <!-- EN: Command all {0} controlled by this platform to withdraw, which will replenish the {1} consumption. -->
+  <FFF.RetractDronesDesc>Ordena a todos los {0} controlados por esta plataforma que se retiren, lo que repondrá el consumo de {1}.</FFF.RetractDronesDesc>
+  <!-- EN: Deploy type: {0} -->
+  <FFF.Drone.SelectKind>TODO</FFF.Drone.SelectKind>
+  <!-- EN: Choose which unit type this platform deploys. Units already in the field are not affected. -->
+  <FFF.Drone.SelectKindDesc>TODO</FFF.Drone.SelectKindDesc>
+  <!-- EN: requires {0} -->
+  <FFF.Drone.KindLocked>TODO</FFF.Drone.KindLocked>
+  <!-- EN: No deployable unit type available -->
+  <FFF.Drone.NoSpawnKind>TODO</FFF.Drone.NoSpawnKind>
+  <!-- EN: drones -->
+  <FFF.Drone.GenericPlural>TODO</FFF.Drone.GenericPlural>
+  <!-- EN: {0} on {1} were suspended -->
+  <FFF.Message.BillSuspended>TODO</FFF.Message.BillSuspended>
+  <!-- EN: require dust-free environment with a cleanliness level higher than {1}. Current: {0} -->
+  <FFF.Cannot.TableNotInCleanRoom>TODO</FFF.Cannot.TableNotInCleanRoom>
+  <!-- EN: require temperature environment between {1} and {2}. Current: {0} -->
+  <FFF.Cannot.TableNotInTemperatureBetween>TODO</FFF.Cannot.TableNotInTemperatureBetween>
+  <!-- EN: require light environment between {1} and {2}. Current: {0} -->
+  <FFF.Cannot.TableNotInLightnessBetween>TODO</FFF.Cannot.TableNotInLightnessBetween>
+  <!-- EN: require bright environment with light level higher than {1}. Current: {0} -->
+  <FFF.Cannot.TableNotInLightness>TODO</FFF.Cannot.TableNotInLightness>
+  <!-- EN: require dark environment with light level lower than {1}. Current: {0} -->
+  <FFF.Cannot.TableNotInDarkness>TODO</FFF.Cannot.TableNotInDarkness>
+  <!-- EN: require pressurized environment with a vacuum between {1} and {2}. Current: {0} -->
+  <FFF.Cannot.TableNotInPressureBetween>TODO</FFF.Cannot.TableNotInPressureBetween>
+  <!-- EN: require pressurized environment with vacuum rate lower than {1}. Current: {0} -->
+  <FFF.Cannot.TableNotInPressure>TODO</FFF.Cannot.TableNotInPressure>
+  <!-- EN: require low-pressure environment with vacuum rate higher than {1}. Current: {0} -->
+  <FFF.Cannot.TableNotInVacuum>TODO</FFF.Cannot.TableNotInVacuum>
+  <!-- EN: require in a microgravity environment. -->
+  <FFF.Cannot.TableNotInMicroGravity>TODO</FFF.Cannot.TableNotInMicroGravity>
+  <!-- EN: required environment -->
+  <FFF.EnvironmentRestriction>TODO</FFF.EnvironmentRestriction>
+  <!-- EN: Indoor cleanliness above: {0} -->
+  <FFF.CleanRoom>TODO</FFF.CleanRoom>
+  <!-- EN: Indoor temperature between: {0} ~ {1} -->
+  <FFF.Temperature>TODO</FFF.Temperature>
+  <!-- EN: indoor brightness between: {0} ~ {1} -->
+  <FFF.LightnessDarkness>TODO</FFF.LightnessDarkness>
+  <!-- EN: Indoor brightness above: {0} -->
+  <FFF.Lightness>TODO</FFF.Lightness>
+  <!-- EN: Indoor brightness below: {0} -->
+  <FFF.Darkness>TODO</FFF.Darkness>
+  <!-- EN: Vacuum between: {0} ~ {1} -->
+  <FFF.PressureVacuum>TODO</FFF.PressureVacuum>
+  <!-- EN: Vacuum below: {0} -->
+  <FFF.Pressure>TODO</FFF.Pressure>
+  <!-- EN: Vacuum above: {0} -->
+  <FFF.Vacuum>TODO</FFF.Vacuum>
+  <!-- EN: Microgravity -->
+  <FFF.MicroGravity>TODO</FFF.MicroGravity>
+  <!-- EN: Requires pressure: {0} -->
+  <FFF.PressureRestriction>TODO</FFF.PressureRestriction>
+  <!-- EN: the environment around the workbench cannot be determined. -->
+  <FFF.Cannot.TableEnvironmentUnknown>TODO</FFF.Cannot.TableEnvironmentUnknown>
+  <!-- EN: Environmental exemption -->
+  <FFF.EnvironmentExemption.Label>TODO</FFF.EnvironmentExemption.Label>
+  <!-- EN: While linked and active, this facility waives or relaxes the environmental requirements of recipes crafted at the connected workbench. -->
+  <FFF.EnvironmentExemption.Desc>TODO</FFF.EnvironmentExemption.Desc>
+  <!-- EN: inactive -->
+  <FFF.EnvironmentExemption.Inactive>TODO</FFF.EnvironmentExemption.Inactive>
+  <!-- EN: none -->
+  <FFF.EnvironmentExemption.NoneLabel>TODO</FFF.EnvironmentExemption.NoneLabel>
+  <!-- EN: Exempted: {0} -->
+  <FFF.EnvironmentExemption.StatusLine>TODO</FFF.EnvironmentExemption.StatusLine>
+  <!-- EN: (may be waived by a linked facility) -->
+  <FFF.EnvironmentExemption.RecipeNote>TODO</FFF.EnvironmentExemption.RecipeNote>
+  <!-- EN: cleanliness -->
+  <FFF.EnvironmentExemption.Cleanliness>TODO</FFF.EnvironmentExemption.Cleanliness>
+  <!-- EN: temperature -->
+  <FFF.EnvironmentExemption.Temperature>TODO</FFF.EnvironmentExemption.Temperature>
+  <!-- EN: brightness -->
+  <FFF.EnvironmentExemption.Lightness>TODO</FFF.EnvironmentExemption.Lightness>
+  <!-- EN: darkness -->
+  <FFF.EnvironmentExemption.Darkness>TODO</FFF.EnvironmentExemption.Darkness>
+  <!-- EN: pressure -->
+  <FFF.EnvironmentExemption.Pressure>TODO</FFF.EnvironmentExemption.Pressure>
+  <!-- EN: vacuum -->
+  <FFF.EnvironmentExemption.Vacuum>TODO</FFF.EnvironmentExemption.Vacuum>
+  <!-- EN: microgravity -->
+  <FFF.EnvironmentExemption.MicroGravity>TODO</FFF.EnvironmentExemption.MicroGravity>
+  <!-- EN: cleanliness -{0} -->
+  <FFF.EnvironmentExemption.CleanlinessOffset>TODO</FFF.EnvironmentExemption.CleanlinessOffset>
+  <!-- EN: temperature ±{0} -->
+  <FFF.EnvironmentExemption.TemperatureOffset>TODO</FFF.EnvironmentExemption.TemperatureOffset>
+  <!-- EN: brightness -{0} -->
+  <FFF.EnvironmentExemption.LightnessOffset>TODO</FFF.EnvironmentExemption.LightnessOffset>
+  <!-- EN: darkness +{0} -->
+  <FFF.EnvironmentExemption.DarknessOffset>TODO</FFF.EnvironmentExemption.DarknessOffset>
+  <!-- EN: pressure +{0} -->
+  <FFF.EnvironmentExemption.PressureOffset>TODO</FFF.EnvironmentExemption.PressureOffset>
+  <!-- EN: vacuum -{0} -->
+  <FFF.EnvironmentExemption.VacuumOffset>TODO</FFF.EnvironmentExemption.VacuumOffset>
+  <!-- EN: Paint &amp; Color System -->
+  <FFF_PaintSystemTitle>TODO</FFF_PaintSystemTitle>
+  <!-- EN: Change Paint -->
+  <FFF_ChangePaint>TODO</FFF_ChangePaint>
+  <!-- EN: Open the custom paint interface. -->
+  <FFF_ChangePaintDesc>TODO</FFF_ChangePaintDesc>
+  <!-- EN: No dye available nearby -->
+  <FFF_NoDye>TODO</FFF_NoDye>
+  <!-- EN: Cancel Paint -->
+  <FFF_CancelPaint>TODO</FFF_CancelPaint>
+  <!-- EN: Cancel the pending paint job -->
+  <FFF_CancelPaintDesc>TODO</FFF_CancelPaintDesc>
+  <!-- EN: Paint job dispatched -->
+  <FFF_PaintRequestSent>TODO</FFF_PaintRequestSent>
+  <!-- EN: Confirm Color -->
+  <FFF_ConfirmPaint>TODO</FFF_ConfirmPaint>
+  <!-- EN: Camouflage Scheme -->
+  <FFF_CamoScheme>TODO</FFF_CamoScheme>
+  <!-- EN: 2 Columns -->
+  <FFF_2Columns>TODO</FFF_2Columns>
+  <!-- EN: 4 Columns -->
+  <FFF_4Columns>TODO</FFF_4Columns>
+  <!-- EN: 6 Columns -->
+  <FFF_6Columns>TODO</FFF_6Columns>
+  <!-- EN: Standard -->
+  <FFF_CamoStandard>TODO</FFF_CamoStandard>
+  <!-- EN: Standard (no camouflage) -->
+  <FFF_CamoStandardDesc>TODO</FFF_CamoStandardDesc>
+  <!-- EN: Color 1 (R) -->
+  <FFF_Color1>TODO</FFF_Color1>
+  <!-- EN: Color 2 (G) -->
+  <FFF_Color2>TODO</FFF_Color2>
+  <!-- EN: Color 3 (B) -->
+  <FFF_Color3>TODO</FFF_Color3>
+  <!-- EN: Red -->
+  <FFF_Red>TODO</FFF_Red>
+  <!-- EN: Green -->
+  <FFF_Green>TODO</FFF_Green>
+  <!-- EN: Blue -->
+  <FFF_Blue>TODO</FFF_Blue>
+  <!-- EN: Base Brightness -->
+  <FFF_BaseBrightness>TODO</FFF_BaseBrightness>
+  <!-- EN:  [Multiply] -->
+  <FFF_OverlayMultiply>TODO</FFF_OverlayMultiply>
+  <!-- EN:  [Direct] -->
+  <FFF_OverlayDirect>TODO</FFF_OverlayDirect>
+  <!-- EN: Overlay -->
+  <FFF_OverlayTitle>TODO</FFF_OverlayTitle>
+  <!-- EN: No overlay -->
+  <FFF_OverlayNone>TODO</FFF_OverlayNone>
+  <!-- EN: Copy Config -->
+  <FFF_CopyPaintConfig>TODO</FFF_CopyPaintConfig>
+  <!-- EN: Config copied -->
+  <FFF_PaintConfigCopied>TODO</FFF_PaintConfigCopied>
+  <!-- EN: Paste Config -->
+  <FFF_PastePaintConfig>TODO</FFF_PastePaintConfig>
+  <!-- EN: Paste the copied paint configuration -->
+  <FFF_PastePaintConfigDesc>TODO</FFF_PastePaintConfigDesc>
+  <!-- EN: an operation of this kind is already underway -->
+  <FFF_TimedSite_AlreadyActive>TODO</FFF_TimedSite_AlreadyActive>
+  <!-- EN: Unable to locate a target: no valid site could be found on the world map. -->
+  <FFF_TimedSite_CannotFindSite>TODO</FFF_TimedSite_CannotFindSite>
+  <!-- EN: Target site lost -->
+  <FFF_TimedSite_ExpiredLabel>TODO</FFF_TimedSite_ExpiredLabel>
+  <!-- EN: The window of opportunity has closed. The target site has relocated and its position is lost. -->
+  <FFF_TimedSite_ExpiredText>TODO</FFF_TimedSite_ExpiredText>
+  <!-- EN: Site secured -->
+  <FFF_TimedSite_ClearedLabel>TODO</FFF_TimedSite_ClearedLabel>
+  <!-- EN: All hostiles at the site have been neutralized. Whatever remains on-site is yours to claim. -->
+  <FFF_TimedSite_ClearedText>TODO</FFF_TimedSite_ClearedText>
+  <!-- EN: Hostile site: reinforcements inbound -->
+  <FFF_TimedSite_EntryCountdownLabel>TODO</FFF_TimedSite_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile installation and your presence has been flagged.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out — or dig in. -->
+  <FFF_TimedSite_EntryCountdownText>TODO</FFF_TimedSite_EntryCountdownText>
+  <!-- EN: Mounted weapon -->
+  <FFF.MountedWeapon>Arma montada</FFF.MountedWeapon>
+  <!-- EN: This weapon can only be equipped with listed automatroid or mech frame -->
+  <FFF.MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>Esta arma solo puede ser equipada con automatroide o exotraje listados</FFF.MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: This weapon can be equipped with listed specific apparel or bionics -->
+  <FFF.WeaponCanBeEquippedBySpecificApparelOrRaces>Esta arma puede ser equipada con la ropa o biónicos específicos listados</FFF.WeaponCanBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: Must be in listed tech level: -->
+  <FFF.Req_TechLevel>Debe estar en el nivel tecnológico listado:</FFF.Req_TechLevel>
+  <!-- EN: Can equip heavy weapon with bodysize requirement below:{0} -->
+  <FFF.Req_BodySize>Puede equipar armas pesadas con un requisito de tamaño corporal inferior a:{0}</FFF.Req_BodySize>
+  <!-- EN: Limited to use listed weapon below -->
+  <FFF.Req_WeaponFilter>Limitado al uso del arma listada a continuación</FFF.Req_WeaponFilter>
+  <!-- EN: No other weapon restrictions -->
+  <FFF.Req_NoWeaponFilter>Sin otras restricciones de armas</FFF.Req_NoWeaponFilter>
+  <!-- EN: bodysize not supported (need:{0}) -->
+  <FFF.BodysizeNotSupported>TODO</FFF.BodysizeNotSupported>
+  <!-- EN: View Usable Weapons -->
+  <FFF.ViewUsableWeapons>TODO</FFF.ViewUsableWeapons>
+  <!-- EN: Weapon not supported -->
+  <FFF.WeaponNotSupported>TODO</FFF.WeaponNotSupported>
+  <!-- EN: Mech frame not supported -->
+  <FFF.FrameNotSupported>TODO</FFF.FrameNotSupported>
+  <!-- EN: Internal battery -->
+  <FFF_InternalBattery>TODO</FFF_InternalBattery>
+  <!-- EN: self-powered -->
+  <FFF_SelfPowered>TODO</FFF_SelfPowered>
+  <!-- EN: full -->
+  <FFF_BatteryFull>TODO</FFF_BatteryFull>
+  <!-- EN: DMS: Trigger Safe Actived -->
+  <FFF.WillTerminateTheBetrayedUnit>DMS: Disparador seguro activado</FFF.WillTerminateTheBetrayedUnit>
+  <!-- EN: Need mechanitor in map -->
+  <FFF.Reason.NoMechanitorInMap>Se necesita un mecanitor en el mapa</FFF.Reason.NoMechanitorInMap>
+  <!-- EN: Must be Mechanitor -->
+  <FFF.Reason.NotMechanitor>Debe ser un mecanitor</FFF.Reason.NotMechanitor>
+  <!-- EN: Orbital downlink has established connection with mechanitor -->
+  <FFF.Message.BandwidthSupported>El enlace orbital ha establecido conexión con el mecanitor</FFF.Message.BandwidthSupported>
+  <!-- EN: Inventroy fulled -->
+  <FFF.Reason.NoPayloadCapacity>Inventario lleno</FFF.Reason.NoPayloadCapacity>
+  <!-- EN: Take {0} -->
+  <FFF.TakeToInventory>Tomar {0}</FFF.TakeToInventory>
+  <!-- EN: Drop inventories -->
+  <FFF.DropGears>Soltar inventarios</FFF.DropGears>
+  <!-- EN: work type disabled -->
+  <FFF.Reason.WorkTypeDisabled>tipo de trabajo deshabilitado</FFF.Reason.WorkTypeDisabled>
+  <!-- EN: need bandwidths:{0} -->
+  <FFF.Reason.NeedBandwidth>necesita ancho de banda:{0}</FFF.Reason.NeedBandwidth>
+  <!-- EN: altitude layer occupied -->
+  <FFF.Reason.AltitudeLayerOccupied>capa de altitud ocupada</FFF.Reason.AltitudeLayerOccupied>
+  <!-- EN: No enough fuel -->
+  <FFF.Reason.NoEnoughFuel>No hay suficiente combustible</FFF.Reason.NoEnoughFuel>
+  <!-- EN: No fuel -->
+  <FFF.Reason.NotFueled>Sin combustible</FFF.Reason.NotFueled>
+  <!-- EN: deactivate mech -->
+  <FFF.DeactivatedMech_Disable>desactivar mecanoide</FFF.DeactivatedMech_Disable>
+  <!-- EN: Try hacking {0} -->
+  <FFF.DeactivatedMech_TryHack>Intentar hackear {0}</FFF.DeactivatedMech_TryHack>
+  <!-- EN: Cannot hack -->
+  <FFF.DeactivatedMech_CannotHack>No se puede hackear</FFF.DeactivatedMech_CannotHack>
+  <!-- EN: Requires total mass exceeding {0} -->
+  <FFF.BillRequires.Mass>Requiere una masa total superior a {0}</FFF.BillRequires.Mass>
+  <!-- EN: Requires total price to exceed {0} -->
+  <FFF.BillRequires.MarketValue>Requiere que el precio total exceda {0}</FFF.BillRequires.MarketValue>
+  <!-- EN: missing mech returned -->
+  <FFF.MechReturn>mecanoide perdido devuelto</FFF.MechReturn>
+  <!-- EN: a wandering mech that was under your command has returned to your base. -->
+  <FFF.MechReturnDesc>un mecanoide errante que estaba bajo tu mando ha regresado a tu base.</FFF.MechReturnDesc>
+  <!-- EN: switch reset failure -->
+  <FFF.MechWake>fallo de reinicio del interruptor</FFF.MechWake>
+  <!-- EN: maybe because it has been wandering for a long time, the dead man switch doesn&apos;t reset as usual, and the faulty unit has gained its understanding of death. \n\nIt named itself and now refuses to be controlled, but it respected its former commander. \n\nit will follow your command until it decides to leave. -->
+  <FFF.MechWakeDesc>tal vez porque ha estado vagando durante mucho tiempo, el Dead Man's Switch no se reinicia como de costumbre, y la unidad defectuosa ha ganado su comprensión de la muerte.\n\nSe nombró a sí mismo y ahora se niega a ser controlado, pero respetaba a su antiguo comandante.\n\nseguirá tus órdenes hasta que decida irse.</FFF.MechWakeDesc>
+  <!-- EN: {0} is leaving -->
+  <FFF.MechStartLeave>{0} se va</FFF.MechStartLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <FFF.MechStartLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</FFF.MechStartLeaveDesc>
+  <!-- EN: {0} is leaving -->
+  <FFF.WokenMechLeave>{0} se va</FFF.WokenMechLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <FFF.WokenMechLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</FFF.WokenMechLeaveDesc>
+  <!-- EN: {0}&apos;s after story -->
+  <FFF.MechStory_Attack>La historia posterior de {0}</FFF.MechStory_Attack>
+  <!-- EN: {0}&apos;s return of favors -->
+  <FFF.MechStory_Loot>La devolución de favores de {0}</FFF.MechStory_Loot>
+  <!-- EN: APS remain time:{0} -->
+  <FFF.APS_TickRemain>Tiempo restante de APS:{0}</FFF.APS_TickRemain>
+  <!-- EN: Imprinted: {0}({1}) -->
+  <FFF.WeaponImprinted>Grabado: {0}({1})</FFF.WeaponImprinted>
+  <!-- EN: Imprinted: {0} -->
+  <FFF.Inprinted>Grabado: {0}</FFF.Inprinted>
+  <!-- EN: the colony mech {0} has equipped with its first weapon, this makes its adaptive learning ability bound to that type of weapon. -->
+  <FFF.InprintedDesc>el mecanoide de la colonia {0} se ha equipado con su primera arma, esto hace que su capacidad de aprendizaje adaptativo se vincule a ese tipo de arma.</FFF.InprintedDesc>
+  <!-- EN: {1} from {0} is inbound. -->
+  <FFF.AirSupportFromClosestBase>{1} de {0} está en camino.</FFF.AirSupportFromClosestBase>
+  <!-- EN: {0}mmRha armor -->
+  <FFF.Armor.CE>TODO</FFF.Armor.CE>
+  <!-- EN: {0}% protection -->
+  <FFF.Armor.Vanilla>TODO</FFF.Armor.Vanilla>
+  <!-- EN: select structure -->
+  <FFF.ScenPart_SelectPrefabDef>TODO</FFF.ScenPart_SelectPrefabDef>
+  <!-- EN: must be placed on a wall or door -->
+  <FFF.Message.CannotPlaceWithoutWall>TODO</FFF.Message.CannotPlaceWithoutWall>
+  <!-- EN: must be placed on a cover building -->
+  <FFF.Message.MustOnACoverBuilding>TODO</FFF.Message.MustOnACoverBuilding>
+  <!-- EN: Estimated raid time: {0} -->
+  <FFF_NextRaidIn>TODO</FFF_NextRaidIn>
+  <!-- EN: Estimated strike time: {0} -->
+  <FFF_NextStrikeIn>TODO</FFF_NextStrikeIn>
+  <!-- EN: Air support status: {0} -->
+  <FFF_NextStrikeStatus>TODO</FFF_NextStrikeStatus>
+  <!-- EN: Standby (Waiting for target) -->
+  <FFF_Status_Standby>TODO</FFF_Status_Standby>
+  <!-- EN: Local monitoring (Offline) -->
+  <FFF_Site_LocalMonitoring>TODO</FFF_Site_LocalMonitoring>
+  <!-- EN: Deactivate -->
+  <FFF.DeactivateMech>TODO</FFF.DeactivateMech>
+  <!-- EN: Put this mech into hibernation mode. It will become a dormant structure that can be reactivated later by a mechanitor. -->
+  <FFF.DeactivateMechDesc>TODO</FFF.DeactivateMechDesc>
+  <!-- EN: {0} has entered hibernation mode. -->
+  <FFF.MechDeactivated>TODO</FFF.MechDeactivated>
+  <!-- EN: {0} has been activated and is now under {1}&apos;s control. -->
+  <FFF.MechActivated>TODO</FFF.MechActivated>
+  <!-- EN: Contains: {0} -->
+  <FFF.ContainsMech>TODO</FFF.ContainsMech>
+  <!-- EN: Cannot reach -->
+  <FFF.CannotReach>TODO</FFF.CannotReach>
+  <!-- EN: Need {0} bandwidth to control this mech. -->
+  <FFF.NeedMoreBandwidth>TODO</FFF.NeedMoreBandwidth>
+  <!-- EN: Control {0} -->
+  <FFF.DeactivatedMech_Control>TODO</FFF.DeactivatedMech_Control>
+  <!-- EN: Cannot control -->
+  <FFF.DeactivatedMech_CannotControl>TODO</FFF.DeactivatedMech_CannotControl>
+  <!-- EN: Hack Failed -->
+  <FFF.HackFailed>TODO</FFF.HackFailed>
+  <!-- EN: {0} failed to hack the mech. The mech has awakened and is now hostile! -->
+  <FFF.HackFailedDesc>TODO</FFF.HackFailedDesc>
+  <!-- EN: Not deployed -->
+  <FFF.Mothball.Reason.NotSpawned>TODO</FFF.Mothball.Reason.NotSpawned>
+  <!-- EN: Not a mechanoid -->
+  <FFF.Mothball.Reason.NotMech>TODO</FFF.Mothball.Reason.NotMech>
+  <!-- EN: Not under your control -->
+  <FFF.Mothball.Reason.NotPlayer>TODO</FFF.Mothball.Reason.NotPlayer>
+  <!-- EN: Cannot mothball while drafted -->
+  <FFF.Mothball.Reason.Drafted>TODO</FFF.Mothball.Reason.Drafted>
+  <!-- EN: Cannot mothball while downed -->
+  <FFF.Mothball.Reason.Downed>TODO</FFF.Mothball.Reason.Downed>
+  <!-- EN: No suitable storage frame for this chassis -->
+  <FFF.Mothball.Reason.NoCapsule>TODO</FFF.Mothball.Reason.NoCapsule>
+  <!-- EN: Camouflage -->
+  <FFF_Camouflage_Label>TODO</FFF_Camouflage_Label>
+  <!-- EN: Toggle camouflage mode. -->
+  <FFF_Camouflage_Desc>TODO</FFF_Camouflage_Desc>
+  <!-- EN: Time left till camouflage reset: {0}. -->
+  <FFF_Camouflage_CooldownDesc>TODO</FFF_Camouflage_CooldownDesc>
+  <!-- EN: A perimeter scanner has detected an invisible creature. -->
+  <FFF_MessageLadarTriggered>TODO</FFF_MessageLadarTriggered>
+  <!-- EN: Invisible object nearby -->
+  <FFF_LadarDetectedInvisible>TODO</FFF_LadarDetectedInvisible>
+  <!-- EN: Weapon system not supported -->
+  <FFF.Reason.WeaponNotSupported>Sistema de armas no compatible</FFF.Reason.WeaponNotSupported>
+  <!-- EN: Mech frame not supported  -->
+  <FFF.Reason.FrameNotSupported>Estructura de mecanoide no compatible</FFF.Reason.FrameNotSupported>
+  <!-- EN: model not supported -->
+  <FFF.Modification_RaceNotSupported>modelo no compatible</FFF.Modification_RaceNotSupported>
+  <!-- EN: no body part to attach modification -->
+  <FFF.Modification_NoValidPart>ninguna parte del cuerpo para adjuntar la modificación</FFF.Modification_NoValidPart>
+  <!-- EN: remove {0} -->
+  <FFF.Modification_Remove>eliminar {0}</FFF.Modification_Remove>
+  <!-- EN: A modification durability on one of your mechs has exhausted -->
+  <FFF.Message.AddonBroken>La durabilidad de la modificación en uno de tus mecanoides se ha agotado</FFF.Message.AddonBroken>
+  <!-- EN: Modification applied -->
+  <FFF.Message.Modification.Applied>Modificación aplicada</FFF.Message.Modification.Applied>
+  <!-- EN: Modification removed -->
+  <FFF.Message.Modification.Removed>Modificación eliminada</FFF.Message.Modification.Removed>
+  <!-- EN: Disposable ceramic armor protects the mecha from damage as ablative armor until its durability is exhausted and needs replacement. -->
+  <FFF.PlatingTooltip>La armadura de cerámica desechable protege al meca del daño como armadura ablativa hasta que se agota su durabilidad y necesita ser reemplazada.</FFF.PlatingTooltip>
+  <!-- EN: This weapon mod cannot be applied here -->
+  <FFF.Mod.CannotUseDueToNotSupport>TODO</FFF.Mod.CannotUseDueToNotSupport>
+  <!-- EN: Target is not a weapon -->
+  <FFF.Mod.NotAGun>TODO</FFF.Mod.NotAGun>
+  <!-- EN: This weapon does not support modifications -->
+  <FFF.Mod.NotModifiable>TODO</FFF.Mod.NotModifiable>
+  <!-- EN: This modification is not valid for this weapon -->
+  <FFF.Mod.NotValidForThisWeapon>TODO</FFF.Mod.NotValidForThisWeapon>
+  <!-- EN: Name: {0} -->
+  <FFF.MechModification.InfoName>TODO</FFF.MechModification.InfoName>
+  <!-- EN: Model: {0} -->
+  <FFF.MechModification.InfoRace>TODO</FFF.MechModification.InfoRace>
+  <!-- EN: Service age: {0} -->
+  <FFF.MechModification.InfoAge>TODO</FFF.MechModification.InfoAge>
+  <!-- EN: Open mech information. -->
+  <FFF.MechModification.PawnInfoTip>TODO</FFF.MechModification.PawnInfoTip>
+  <!-- EN: Mech modification -->
+  <FFF.MechModification.GizmoLabel>TODO</FFF.MechModification.GizmoLabel>
+  <!-- EN: Open this mech&apos;s modification window. Requires microelectronics. -->
+  <FFF.MechModification.GizmoDesc>TODO</FFF.MechModification.GizmoDesc>
+  <!-- EN: Available modifications for {0} -->
+  <FFF.MechModification.SelectModsFor>TODO</FFF.MechModification.SelectModsFor>
+  <!-- EN: Select a body slot. -->
+  <FFF.MechModification.SelectPartPrompt>TODO</FFF.MechModification.SelectPartPrompt>
+  <!-- EN: No compatible modification is available on this map. -->
+  <FFF.MechModification.NoModsOnMap>TODO</FFF.MechModification.NoModsOnMap>
+  <!-- EN: No queued operations. -->
+  <FFF.MechModification.QueueEmpty>TODO</FFF.MechModification.QueueEmpty>
+  <!-- EN: Install {0} on {1} -->
+  <FFF.MechModification.QueueInstall>TODO</FFF.MechModification.QueueInstall>
+  <!-- EN: Remove {0} from {1} -->
+  <FFF.MechModification.QueueUninstall>TODO</FFF.MechModification.QueueUninstall>
+  <!-- EN: missing -->
+  <FFF.MechModification.Missing>TODO</FFF.MechModification.Missing>
+  <!-- EN: frame -->
+  <FFF.MechModification.PartFallback>TODO</FFF.MechModification.PartFallback>
+  <!-- EN: Save preset -->
+  <FFF.MechModification.SavePreset>TODO</FFF.MechModification.SavePreset>
+  <!-- EN: Load preset -->
+  <FFF.MechModification.LoadPreset>TODO</FFF.MechModification.LoadPreset>
+  <!-- EN: Mech preset -->
+  <FFF.MechModification.PresetDefaultName>TODO</FFF.MechModification.PresetDefaultName>
+  <!-- EN: Preset saved: {0} -->
+  <FFF.MechModification.PresetSaved>TODO</FFF.MechModification.PresetSaved>
+  <!-- EN: Preset loaded: {0} -->
+  <FFF.MechModification.PresetLoaded>TODO</FFF.MechModification.PresetLoaded>
+  <!-- EN: Could not load preset: {0} -->
+  <FFF.MechModification.PresetLoadFailed>TODO</FFF.MechModification.PresetLoadFailed>
+  <!-- EN: Apply -->
+  <FFF.MechModification.Apply>TODO</FFF.MechModification.Apply>
+  <!-- EN: Reset -->
+  <FFF.MechModification.Reset>TODO</FFF.MechModification.Reset>
+  <!-- EN: Return -->
+  <FFF.MechModification.Return>TODO</FFF.MechModification.Return>
+  <!-- EN: Settings applied; {0} operation(s) queued. -->
+  <FFF.MechModification.AppliedQueued>TODO</FFF.MechModification.AppliedQueued>
+  <!-- EN: This item does not define a valid mech modification. -->
+  <FFF.MechModification.InvalidModification>TODO</FFF.MechModification.InvalidModification>
+  <!-- EN: There are not enough reachable {0} on this map. -->
+  <FFF.MechModification.NotEnoughItems>TODO</FFF.MechModification.NotEnoughItems>
+  <!-- EN: {0} already has another modification installed or queued. -->
+  <FFF.MechModification.PartOccupied>TODO</FFF.MechModification.PartOccupied>
+  <!-- EN: {0} is unique and cannot be installed more than once in the same slot. -->
+  <FFF.MechModification.Unique>TODO</FFF.MechModification.Unique>
+  <!-- EN: {0} has reached its installation limit ({1}). -->
+  <FFF.MechModification.StackFull>TODO</FFF.MechModification.StackFull>
+  <!-- EN: Slot -->
+  <FFF.MultiTurret.WeaponSlot>TODO</FFF.MultiTurret.WeaponSlot>
+  <!-- EN: Select turret -->
+  <FFF.SelectWeapon>TODO</FFF.SelectWeapon>
+  <!-- EN: Select turret target, use {0} to set it for all turrets, use Right click to clear forced target ({0} for all turrets). -->
+  <FFF.MultiTurret.AttackRectTip>TODO</FFF.MultiTurret.AttackRectTip>
+  <!-- EN: Toggle auto attack mode, use {0} to set it for all turrets. -->
+  <FFF.MultiTurret.AutoAttackTip>TODO</FFF.MultiTurret.AutoAttackTip>
+  <!-- EN: Drop turret weapon, use {0} to drop all weapons. -->
+  <FFF.MultiTurret.DropWeaponTip>TODO</FFF.MultiTurret.DropWeaponTip>
+  <!-- EN: Select ammo type. Current: {0} -->
+  <FFF.MultiTurret.SelectAmmoTypeTip>TODO</FFF.MultiTurret.SelectAmmoTypeTip>
+  <!-- EN: Ammo settings -->
+  <FFF.MultiTurret.CommandSetAmmoSettings>TODO</FFF.MultiTurret.CommandSetAmmoSettings>
+  <!-- EN: Set auto pick up ammo settings. -->
+  <FFF.MultiTurret.CommandSetAmmoSettingsDesc>TODO</FFF.MultiTurret.CommandSetAmmoSettingsDesc>
+  <!-- EN: Occult knowledge: {0} / {1} remaining -->
+  <FFF_Occultech_SourceRemaining>TODO</FFF_Occultech_SourceRemaining>
+  <!-- EN: Depleted — an inert husk; no knowledge remains -->
+  <FFF_Occultech_SourceDepleted>TODO</FFF_Occultech_SourceDepleted>
+  <!-- EN: Knowledge reserve -->
+  <FFF_Occultech_SourceStatLabel>TODO</FFF_Occultech_SourceStatLabel>
+  <!-- EN: Occult knowledge points still extractable from this font. -->
+  <FFF_Occultech_SourceStatDesc>TODO</FFF_Occultech_SourceStatDesc>
+  <!-- EN: Inactive: no power -->
+  <FFF_Occultech_ExtractorNoPower>TODO</FFF_Occultech_ExtractorNoPower>
+  <!-- EN: Inactive: no knowledge font in front -->
+  <FFF_Occultech_ExtractorNoSource>TODO</FFF_Occultech_ExtractorNoSource>
+  <!-- EN: Inactive: font depleted -->
+  <FFF_Occultech_ExtractorSourceDepleted>TODO</FFF_Occultech_ExtractorSourceDepleted>
+  <!-- EN: Inactive: no project in progress -->
+  <FFF_Occultech_ExtractorNoResearch>TODO</FFF_Occultech_ExtractorNoResearch>
+  <!-- EN: Extracting {0} knowledge/day (font: {1} left) -->
+  <FFF_Occultech_ExtractorWorking>TODO</FFF_Occultech_ExtractorWorking>
+  <!-- EN: Extraction rate -->
+  <FFF_Occultech_ExtractorStatLabel>TODO</FFF_Occultech_ExtractorStatLabel>
+  <!-- EN: Knowledge points extracted per day while running. Knowledge is filed into the {0} category, overflowing into later categories of the same research tab. -->
+  <FFF_Occultech_ExtractorStatDesc>TODO</FFF_Occultech_ExtractorStatDesc>
+  <!-- EN: Control mech -->
+  <FFF_SelectMechToControlLabel>TODO</FFF_SelectMechToControlLabel>
+  <!-- EN: Select a mechanoid to place under this overseer&apos;s control. -->
+  <FFF_SelectMechToControlDesc>TODO</FFF_SelectMechToControlDesc>
+  <!-- EN: Rations: {COUNT} / {MAX} -->
+  <FFF.ArtificialOrganismRations>TODO</FFF.ArtificialOrganismRations>
+  <!-- EN: Raid Wave Incoming -->
+  <FFF_RaidWave_LetterLabel>TODO</FFF_RaidWave_LetterLabel>
+  <!-- EN: A raid wave from {0} has arrived and is now attacking your colony. -->
+  <FFF_RaidWave_LetterText>TODO</FFF_RaidWave_LetterText>
+  <!-- EN: Raid Wave Inbound -->
+  <FFF_RaidWave_Alert>TODO</FFF_RaidWave_Alert>
+  <!-- EN: A raid wave from {0} is en route and will arrive shortly. -->
+  <FFF_RaidWave_AlertDesc>TODO</FFF_RaidWave_AlertDesc>
+  <!-- EN: Raid wave unavailable for {0}. -->
+  <FFF_RaidWave_Cooldown>TODO</FFF_RaidWave_Cooldown>
+  <!-- EN: FFF: RaidWave game component not found. -->
+  <FFF_RaidWave_NoGameComponent>TODO</FFF_RaidWave_NoGameComponent>
+  <!-- EN: Calling {WAVE} will send the following forces against your colony:
+
+{PAWNS}
+
+Proceed? -->
+  <FFF_RaidWave_ConfirmDialog>TODO</FFF_RaidWave_ConfirmDialog>
+  <!-- EN: Research revealed -->
+  <FFF_Research_DiscoveredLetterLabel>TODO</FFF_Research_DiscoveredLetterLabel>
+  <!-- EN: Our latest findings have made sense of archived material that was previously unreadable. The following research projects are no longer unknown, and can now be started: -->
+  <FFF_Research_DiscoveredLetterText>TODO</FFF_Research_DiscoveredLetterText>
+  <!-- EN: Archived technology revealed -->
+  <FFF_Research_UnsealLetterLabel>TODO</FFF_Research_UnsealLetterLabel>
+  <!-- EN: Successfully decrypted records mean the archived {PROJECT} is no longer unknown, and what we already have on file is worth {PROGRESS} points of research progress. -->
+  <FFF_Research_UnsealLetterText>TODO</FFF_Research_UnsealLetterText>
+  <!-- EN: {PROJECT} advanced by {PROGRESS} research points. -->
+  <FFF_Research_UnsealProgressMessage>TODO</FFF_Research_UnsealProgressMessage>
+  <!-- EN: The decrypted data holds no technical material worth having, but {PAWN} still gained {XP} {SKILL} experience from it. -->
+  <FFF_Research_UnsealNothingMessage>TODO</FFF_Research_UnsealNothingMessage>
+  <!-- EN: The decrypted data holds nothing worth having, and nobody could learn anything from it. -->
+  <FFF_Research_UnsealNothingNoGainMessage>TODO</FFF_Research_UnsealNothingNoGainMessage>
+  <!-- EN: Colonist counts:{0} -->
+  <FFF.ColonistCount>TODO</FFF.ColonistCount>
+  <!-- EN: Device cooling: remain {0} -->
+  <FFF.MessageCooldownRemaining>TODO</FFF.MessageCooldownRemaining>
+  <!-- EN: {0} has finished cooling and back operational. -->
+  <FFF.MessageDeviceReady>TODO</FFF.MessageDeviceReady>
+  <!-- EN: Shielding device intercepted: {0} -->
+  <FFF.DeviceIntercepted>TODO</FFF.DeviceIntercepted>
+  <!-- EN: Shielded -->
+  <FFF.Shielded>TODO</FFF.Shielded>
+  <!-- EN: Deployed structure: {0} -->
+  <FFF_StructureGenerated>TODO</FFF_StructureGenerated>
+  <!-- EN: Restore substation power -->
+  <FFF_Substation_TurnOn>TODO</FFF_Substation_TurnOn>
+  <!-- EN: Manually restart this substation. No skill check required — the dangerous part is shutting it down. -->
+  <FFF_Substation_TurnOnDesc>TODO</FFF_Substation_TurnOnDesc>
+  <!-- EN: Hack to shut down -->
+  <FFF_Substation_HackPrompt>TODO</FFF_Substation_HackPrompt>
+  <!-- EN: Offline (shut down) -->
+  <FFF_Substation_HackedLabel>TODO</FFF_Substation_HackedLabel>
+  <!-- EN: {HACKER_labelShort} shut down {SUBJECT_label}. -->
+  <FFF_Substation_HackedMsg>TODO</FFF_Substation_HackedMsg>
+  <!-- EN: Status: Online — generating 3000 W -->
+  <FFF_Substation_Online>TODO</FFF_Substation_Online>
+  <!-- EN: Status: Offline (manually shut down) -->
+  <FFF_Substation_Offline>TODO</FFF_Substation_Offline>
+  <!-- EN: Status: Disabled by EMP -->
+  <FFF_Substation_EMPDisabled>TODO</FFF_Substation_EMPDisabled>
+  <!-- EN: {PAWN_labelShort} was shocked while shutting down the substation! -->
+  <FFF_Substation_ShockMessage>TODO</FFF_Substation_ShockMessage>
+  <!-- EN: Workshop upload — excluded content -->
+  <FFF_RimIgnore_Title>TODO</FFF_RimIgnore_Title>
+  <!-- EN: {0} — upload filtered by {1} -->
+  <FFF_RimIgnore_Subtitle>TODO</FFF_RimIgnore_Subtitle>
+  <!-- EN: Will upload: {0} files ({1})\n\nExcluded: {2} entries / {3} files ({4}) -->
+  <FFF_RimIgnore_Summary>TODO</FFF_RimIgnore_Summary>
+  <!-- EN: Entry -->
+  <FFF_RimIgnore_ColPath>TODO</FFF_RimIgnore_ColPath>
+  <!-- EN: Size -->
+  <FFF_RimIgnore_ColSize>TODO</FFF_RimIgnore_ColSize>
+  <!-- EN: Matched rule -->
+  <FFF_RimIgnore_ColRule>TODO</FFF_RimIgnore_ColRule>
+  <!-- EN: {0} files / {1} -->
+  <FFF_RimIgnore_DirSize>TODO</FFF_RimIgnore_DirSize>
+  <!-- EN: Nothing is excluded. -->
+  <FFF_RimIgnore_NothingExcluded>TODO</FFF_RimIgnore_NothingExcluded>
+  <!-- EN: Open .rimignore -->
+  <FFF_RimIgnore_OpenFile>TODO</FFF_RimIgnore_OpenFile>
+  <!-- EN: Rescan -->
+  <FFF_RimIgnore_Rescan>TODO</FFF_RimIgnore_Rescan>
+  <!-- EN: Upload -->
+  <FFF_RimIgnore_Confirm>TODO</FFF_RimIgnore_Confirm>
+  <!-- EN: The scan is incomplete, or no file would be uploaded. -->
+  <FFF_RimIgnore_CannotUpload>TODO</FFF_RimIgnore_CannotUpload>
+  <!-- EN: Rescan failed. -->
+  <FFF_RimIgnore_RescanFailed>TODO</FFF_RimIgnore_RescanFailed>
+  <!-- EN: .rimignore not found. -->
+  <FFF_RimIgnore_FileMissing>TODO</FFF_RimIgnore_FileMissing>
+  <!-- EN: Upload everything anyway -->
+  <FFF_RimIgnore_UploadAnyway>TODO</FFF_RimIgnore_UploadAnyway>
+  <!-- EN: Upload ignore rules failed -->
+  <FFF_RimIgnore_ErrorTitle>TODO</FFF_RimIgnore_ErrorTitle>
+  <!-- EN: … ({0} more) -->
+  <FFF_RimIgnore_MoreWarnings>TODO</FFF_RimIgnore_MoreWarnings>
+  <!-- EN: [built-in] {0} -->
+  <FFF_RimIgnore_RuleImplicit>TODO</FFF_RimIgnore_RuleImplicit>
+  <!-- EN: L{0}: {1} -->
+  <FFF_RimIgnore_RuleLine>TODO</FFF_RimIgnore_RuleLine>
+  <!-- EN: [mod root] -->
+  <FFF_RimIgnore_ModRootLabel>TODO</FFF_RimIgnore_ModRootLabel>
+  <!-- EN: Line {0}: no pattern after &apos;!&apos;, ignored. -->
+  <FFF_RimIgnore_Warn_NoPatternAfterBang>TODO</FFF_RimIgnore_Warn_NoPatternAfterBang>
+  <!-- EN: Line {0}: pattern is just &apos;/&apos;, ignored. -->
+  <FFF_RimIgnore_Warn_SlashOnly>TODO</FFF_RimIgnore_Warn_SlashOnly>
+  <!-- EN: Line {0}: empty pattern, ignored. -->
+  <FFF_RimIgnore_Warn_EmptyPattern>TODO</FFF_RimIgnore_Warn_EmptyPattern>
+  <!-- EN: Line {0}: could not parse pattern ({1}), ignored. -->
+  <FFF_RimIgnore_Warn_ParseFailed>TODO</FFF_RimIgnore_Warn_ParseFailed>
+  <!-- EN: Line {0}: pattern failed to compile ({1}), ignored. -->
+  <FFF_RimIgnore_Warn_CompileFailed>TODO</FFF_RimIgnore_Warn_CompileFailed>
+  <!-- EN: {0} exceeds {1} lines; the rest was skipped. -->
+  <FFF_RimIgnore_Warn_TooManyLines>TODO</FFF_RimIgnore_Warn_TooManyLines>
+  <!-- EN: Directory nesting exceeds {0} levels; stopped descending at: {1} -->
+  <FFF_RimIgnore_Warn_DepthLimit>TODO</FFF_RimIgnore_Warn_DepthLimit>
+  <!-- EN: Could not list directory contents ({0}): {1} -->
+  <FFF_RimIgnore_Warn_ListDirFailed>TODO</FFF_RimIgnore_Warn_ListDirFailed>
+  <!-- EN: Could not read entry attributes ({0}): {1} -->
+  <FFF_RimIgnore_Warn_AttributeFailed>TODO</FFF_RimIgnore_Warn_AttributeFailed>
+  <!-- EN: Skipped symlink / junction: {0} -->
+  <FFF_RimIgnore_Warn_SkippedSymlink>TODO</FFF_RimIgnore_Warn_SkippedSymlink>
+  <!-- EN: More than {0} entries; the scan was cut short. Check the paths in {1}. -->
+  <FFF_RimIgnore_Warn_EntryLimit>TODO</FFF_RimIgnore_Warn_EntryLimit>
+  <!-- EN: Could not read {0}; upload aborted. See the dev console for details. -->
+  <FFF_RimIgnore_Err_LoadFailed>TODO</FFF_RimIgnore_Err_LoadFailed>
+  <!-- EN: Could not scan the mod folder; upload aborted. See the dev console for details. -->
+  <FFF_RimIgnore_Err_ScanFailed>TODO</FFF_RimIgnore_Err_ScanFailed>
+  <!-- EN: Unexpected error while applying the ignore rules; upload aborted. See the dev console for details. -->
+  <FFF_RimIgnore_Err_Unexpected>TODO</FFF_RimIgnore_Err_Unexpected>
+  <!-- EN: Failed to build the staging mirror; upload aborted (your original mod files were not touched).\n\n{0} -->
+  <FFF_RimIgnore_Err_StagingFailed>TODO</FFF_RimIgnore_Err_StagingFailed>
+  <!-- EN: The scan is incomplete (safety limit exceeded); mirror creation aborted. -->
+  <FFF_RimIgnore_Err_PlanTruncated>TODO</FFF_RimIgnore_Err_PlanTruncated>
+  <!-- EN: No file would be uploaded after applying {0}; aborted. -->
+  <FFF_RimIgnore_Err_NothingToUpload>TODO</FFF_RimIgnore_Err_NothingToUpload>
+  <!-- EN: Mirrored file count mismatch (expected {0}, got {1}). -->
+  <FFF_RimIgnore_Err_MirrorCountMismatch>TODO</FFF_RimIgnore_Err_MirrorCountMismatch>
+  <!-- EN: Could not clear the existing staging mirror: {0} -->
+  <FFF_RimIgnore_Err_StaleStagingLocked>TODO</FFF_RimIgnore_Err_StaleStagingLocked>
+  <!-- EN: No local mod folder found. -->
+  <FFF_RimIgnore_Dbg_NoLocalMods>TODO</FFF_RimIgnore_Dbg_NoLocalMods>
+  <!-- EN: Every local mod already has a {0}. -->
+  <FFF_RimIgnore_Dbg_AllHaveIgnore>TODO</FFF_RimIgnore_Dbg_AllHaveIgnore>
+  <!-- EN: Could not read {0}. -->
+  <FFF_RimIgnore_Dbg_LoadFailed>TODO</FFF_RimIgnore_Dbg_LoadFailed>
+  <!-- EN: Could not scan the mod folder. -->
+  <FFF_RimIgnore_Dbg_ScanFailed>TODO</FFF_RimIgnore_Dbg_ScanFailed>
+  <!-- EN: Created {0} -->
+  <FFF_RimIgnore_Dbg_TemplateCreated>TODO</FFF_RimIgnore_Dbg_TemplateCreated>
+  <!-- EN: Creation failed. See the dev console for details. -->
+  <FFF_RimIgnore_Dbg_TemplateFailed>TODO</FFF_RimIgnore_Dbg_TemplateFailed>
+  <!-- EN:  (no {0}) -->
+  <FFF_RimIgnore_Dbg_NoIgnoreSuffix>TODO</FFF_RimIgnore_Dbg_NoIgnoreSuffix>
+  <!-- EN: # .rimignore — files and folders to exclude when uploading to the Steam Workshop
+#
+# The syntax is identical to GitHub&apos;s .gitignore:
+#   #        comment (\# for a literal hash)
+#   !xxx     re-include; later rules override earlier ones
+#   /xxx     anchored to the mod root
+#   xxx/     directories only
+#   *        any characters, but never across /
+#   ?        a single character, but never across /
+#   [abc]    character set; [!abc] to negate
+#   **/xxx   at any depth; xxx/** for everything inside that folder
+#
+# Note: as in Git, once a directory is excluded its contents cannot be
+# re-included with !.
+# Always excluded by default: this file, .git/ .gitignore .gitattributes
+#                             .svn/ .hg/ .vs/ .idea/ .vscode/
+#                             Thumbs.db desktop.ini .DS_Store
+# Those built-in rules can be overridden with !, e.g. !.rimignore uploads this file too.
+
+# - - Source code and build output - -
+/_Sources/
+/Source/
+**/obj/
+**/bin/
+*.pdb
+*.csproj.user
+*.sln
+*.suo
+
+# - - Unity project - -
+/UnityProject/
+
+# - - Dev tools and shortcuts - -
+/_Tools/
+*.lnk
+*.bat
+
+# - - Editor and backup noise - -
+*.orig
+*.rej
+*.bak
+*~
+
+# - - Example: exclude a folder&apos;s contents but keep one file - -
+# Exclude the *contents* rather than the folder itself, then re-include:
+# /Docs/*
+# !/Docs/Manual.md
+ -->
+  <FFF_RimIgnore_Template>TODO</FFF_RimIgnore_Template>
+</LanguageData>

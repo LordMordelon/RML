@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: lodgersLabel-&gt;noble -->
+  <!-- EN: lodgersLabelPlural-&gt;nobles -->
+  <!-- EN: lodgersDef(nobleCount==1)-&gt;[lodgers0_nameDef] -->
+  <!-- EN: lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural] -->
+  <!-- EN: joinerEnding-&gt;You&apos;ll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation] -->
+  <!-- EN: theirHisHer(nobleCount==1)-&gt;[lodgers0_possessive] -->
+  <!-- EN: theirHisHer(nobleCount&gt;=2)-&gt;their -->
+  <!-- EN: lodgersPronoun(nobleCount==1)-&gt;[lodgers0_pronoun] -->
+  <!-- EN: lodgersPronoun(nobleCount&gt;=2)-&gt;they -->
+  <!-- EN: lodgersWasWere(nobleCount==1)-&gt;was -->
+  <!-- EN: lodgersWasWere(nobleCount&gt;=2)-&gt;were -->
+  <!-- EN: appreciateAppreciates(nobleCount==1)-&gt;appreciates -->
+  <!-- EN: appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate -->
+  <!-- EN: questDescription-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] would like to come over with a few other noble people and gaze upon the works of art in your gallery. [asker_pronoun] requests [colonyHost_nameFull] hosts the occasion. This is a great opportunity for noble gossip and to build relations with other members of the imperial nobility.\nYou are required to have a gallery present in your colony. If at any point the gallery is destroyed, the art exhibition will be called off.\n[asker_nameFull] has forwarded you a list of nobility that was invited to the exhibit and will arrive in the shuttle:\n[noblesDetailList]\n\nYou will need to make sure the guests are safe and comfortable during the exhibition. If anything happens to any of the guests, the art exhibition will be cancelled.\nDeserters might use this opportunity to launch an assassination attempt.
+
+
+			 -->
+  <VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel-&gt;noble</li>
+    <li>lodgersLabelPlural-&gt;nobles</li>
+    <li>lodgersDef(nobleCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgersDef(nobleCount&gt;=2)-&gt;los [lodgersLabelPlural]</li>
+    <li>joinerEnding-&gt;Podrás dirigir a [lodgersDef] de la misma manera que diriges a tus propios colonos.[specialNeedsExplanation]</li>
+    <li>theirHisHer(nobleCount==1)-&gt;[lodgers0_possessive]</li>
+    <li>theirHisHer(nobleCount&gt;=2)-&gt;su</li>
+    <li>lodgersPronoun(nobleCount==1)-&gt;[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(nobleCount&gt;=2)-&gt;ellos</li>
+    <li>lodgersWasWere(nobleCount==1)-&gt;fue</li>
+    <li>lodgersWasWere(nobleCount&gt;=2)-&gt;fueron</li>
+    <li>appreciateAppreciates(nobleCount==1)-&gt;aprecia</li>
+    <li>appreciateAppreciates(nobleCount&gt;=2)-&gt;aprecian</li>
+    <li>questDescription-&gt;[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], quisiera venir con algunos otros nobles y contemplar las obras de arte en tu galería. [asker_pronoun] solicita que [colonyHost_nameFull] sea el anfitrión de la ocasión. Esta es una gran oportunidad para el chisme noble y para construir relaciones con otros miembros de la nobleza imperial.\nSe requiere que tengas una galería presente en tu colonia. Si en algún momento la galería es destruida, la exhibición de arte será cancelada.\n[asker_nameFull] te ha enviado una lista de la nobleza que fue invitada a la exhibición y llegará en el transbordador:\n[noblesDetailList]\n\nNecesitarás asegurarte de que los invitados estén seguros y cómodos durante la exhibición. Si algo le sucede a alguno de los invitados, la exhibición de arte será cancelada.\nLos desertores podrían usar esta oportunidad para lanzar un intento de asesinato.\n\n\n</li>
+  </VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings>
+</LanguageData>

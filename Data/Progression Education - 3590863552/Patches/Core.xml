@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]/li[1]/title</xpath>
+    <value>
+      <!-- EN: Learning to use guns -->
+      <title>TODO</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]/li[1]/desc</xpath>
+    <value>
+      <!-- EN: Your intellectual has been bestowed the understanding of how to operate firearms. Other colonists can now be taught this knowledge in proficiency classes. -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]/li[1]/title</xpath>
+    <value>
+      <!-- EN: High-tech gear -->
+      <title>TODO</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]/li[1]/desc</xpath>
+    <value>
+      <!-- EN: Your intellectual has been bestowed the understanding of how to operate high-tech gear. Other colonists can now be taught this knowledge in proficiency classes. -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,1190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {0} is on cooldown for {1} -->
+  <VFEA.AbilityDisableReasonCooldown>{0} está en enfriamiento por {1}</VFEA.AbilityDisableReasonCooldown>
+  <!-- EN: {0} doesn&apos;t meet the requirements -->
+  <VFEA.AbilityDisableReasonGeneral>{0} no cumple los requisitos</VFEA.AbilityDisableReasonGeneral>
+  <!-- EN: Power -->
+  <VFEA.AbilityStatsPower>Poder</VFEA.AbilityStatsPower>
+  <!-- EN: Duration -->
+  <VFEA.AbilityStatsDuration>Duración</VFEA.AbilityStatsDuration>
+  <!-- EN: Target must be hostile -->
+  <VFEA.TargetMustBeHostile>El objetivo debe ser hostil</VFEA.TargetMustBeHostile>
+  <!-- EN: Minimum radius -->
+  <VFEA.MinRadius>Radio mínimo</VFEA.MinRadius>
+  <!-- EN: Right-click to enable autocasting. -->
+  <VFEA.RClickToAuto>Clic derecho para activar el autolanzamiento.</VFEA.RClickToAuto>
+  <!-- EN: Right-click to disable autocasting. -->
+  <VFEA.RClickToNoAuto>Clic derecho para desactivar el autolanzamiento.</VFEA.RClickToNoAuto>
+  <!-- EN: Disable corpse decaying -->
+  <VEF_DisableCorpseDecaying>Desactivar descomposición de cadáveres</VEF_DisableCorpseDecaying>
+  <!-- EN: Disable the constant corpse decaying ability of this animal. -->
+  <VEF_DisableCorpseDecayingDesc>Desactiva la habilidad de descomposición constante de cadáveres de este animal.</VEF_DisableCorpseDecayingDesc>
+  <!-- EN: Enable corpse decaying -->
+  <VEF_EnableCorpseDecaying>Activar descomposición de cadáveres</VEF_EnableCorpseDecaying>
+  <!-- EN: Enable the constant corpse decaying ability of this animal. -->
+  <VEF_EnableCorpseDecayingDesc>Activa la habilidad de descomposición constante de cadáveres de este animal.</VEF_EnableCorpseDecayingDesc>
+  <!-- EN: Disable digging for food -->
+  <VEF_DisableDigging>Desactivar excavar por comida</VEF_DisableDigging>
+  <!-- EN: Disable the ability to dig the terrain for food of this animal. -->
+  <VEF_DisableDiggingDesc>Desactiva la habilidad de excavar el terreno por comida de este animal.</VEF_DisableDiggingDesc>
+  <!-- EN: Enable digging for food -->
+  <VEF_EnableDigging>Activar excavar por comida</VEF_EnableDigging>
+  <!-- EN: Enable the ability to dig the terrain for food of this animal. -->
+  <VEF_EnableDiggingDesc>Activa la habilidad de excavar el terreno por comida de este animal.</VEF_EnableDiggingDesc>
+  <!-- EN: Disable gas production -->
+  <VEF_DisableGas>Desactivar producción de gas</VEF_DisableGas>
+  <!-- EN: Disable the ability to produce gas of this animal. -->
+  <VEF_DisableGasDesc>Desactiva la habilidad de producir gas de este animal.</VEF_DisableGasDesc>
+  <!-- EN: Enable gas production -->
+  <VEF_EnableGas>Activar producción de gas</VEF_EnableGas>
+  <!-- EN: Enable the ability to produce gas of this animal. -->
+  <VEF_EnableGasDesc>Activa la habilidad de producir gas de este animal.</VEF_EnableGasDesc>
+  <!-- EN: Body clock -->
+  <NocturnalAnimals.BodyClock>Reloj biológico</NocturnalAnimals.BodyClock>
+  <!-- EN: Determines when the animal sleeps and when it is awake.\n\nDiurnal animals sleep during the night and are awake during the day, while nocturnal animals sleep during the day and are awake during the night. Crepuscular animals are mainly active during dusk. -->
+  <NocturnalAnimals.BodyClock_Description>Determina cuándo duerme el animal y cuándo está despierto.\n\nLos animales diurnos duermen durante la noche y están despiertos durante el día, mientras que los animales nocturnos duermen durante el día y están despiertos durante la noche. Los animales crepusculares son activos principalmente durante el anochecer.</NocturnalAnimals.BodyClock_Description>
+  <!-- EN: Diurnal -->
+  <NocturnalAnimals.BodyClock_Diurnal>Diurno</NocturnalAnimals.BodyClock_Diurnal>
+  <!-- EN: Nocturnal -->
+  <NocturnalAnimals.BodyClock_Nocturnal>Nocturno</NocturnalAnimals.BodyClock_Nocturnal>
+  <!-- EN: Crepuscular -->
+  <NocturnalAnimals.BodyClock_Crepuscular>Crepuscular</NocturnalAnimals.BodyClock_Crepuscular>
+  <!-- EN: {0} has reproduced asexually. -->
+  <VEF_AsexualHatched>{0} se ha reproducido asexualmente.</VEF_AsexualHatched>
+  <!-- EN: {0} has cloned itself. -->
+  <VEF_AsexualCloning>{0} se ha clonado a sí mismo.</VEF_AsexualCloning>
+  <!-- EN: {0} has sporulated. -->
+  <VEF_AsexualHatchedEgg>{0} ha esporulado.</VEF_AsexualHatchedEgg>
+  <!-- EN: This creature is untameable -->
+  <VEF_NotTameable>Esta criatura es indomable</VEF_NotTameable>
+  <!-- EN: Time to metamorphosis: {0} -->
+  <VEF_TimeToMetamorphosis>Tiempo para la metamorfosis: {0}</VEF_TimeToMetamorphosis>
+  <!-- EN: Warning, this egg explodes when hatching! -->
+  <VEF_WarningEggExplodes>¡Advertencia, este huevo explota al eclosionar!</VEF_WarningEggExplodes>
+  <!-- EN: Animal expires in: {0} -->
+  <VEF_TimeToDie>El animal expira en: {0}</VEF_TimeToDie>
+  <!-- EN: Disable {0} -->
+  <VEF_DisableAnimal>Desactivar {0}</VEF_DisableAnimal>
+  <!-- EN: {0} creatures swallowed whole.  -->
+  <VEF_StomachContents>{0} criaturas tragadas enteras.</VEF_StomachContents>
+  <!-- EN: Will be consumed in {0} -->
+  <VEF_DigestionTime>Será consumido en {0}</VEF_DigestionTime>
+  <!-- EN: The terrain needs to be diggable to do this -->
+  <VEF_TerrainsNeedsDiggable>El terreno debe ser excavable para hacer esto</VEF_TerrainsNeedsDiggable>
+  <!-- EN: While caravaning, produces {0} {1} every:  -->
+  <VEF_WhileCaravaning>Mientras está en caravana, produce {0} {1} cada: </VEF_WhileCaravaning>
+  <!-- EN: Base special animal products production for this animal is {0} {1}. Adjusted by its animal product yield factor this will result in {2} {1} instead. -->
+  <VEF_AnimalProductYieldFactorDetails>TODO</VEF_AnimalProductYieldFactorDetails>
+  <!-- EN: Base special animal products production for this animal is {0} of a selection of randomized or terrain dependent items. Adjusted by its animal product yield factor this will result in {1} units instead. -->
+  <VEF_AnimalProductYieldFactorDetails_Random>TODO</VEF_AnimalProductYieldFactorDetails_Random>
+  <!-- EN: Base special animal products interval for this animal is {0} days. Adjusted by its animal products interval factor this will result in {1} days instead. This value is capped at a minimum of 1 day. -->
+  <VEF_AnimalProductIntervalFactorDetails>TODO</VEF_AnimalProductIntervalFactorDetails>
+  <!-- EN: These animal behaviours options will affect all animal mods that share code from the Vanilla Expanded Framework -->
+  <VCE_AffectsAllAnimalMods>Estas opciones de comportamiento animal afectarán a todos los mods que compartan código del Vanilla Expanded Framework.</VCE_AffectsAllAnimalMods>
+  <!-- EN: Allow corpse decaying mechanics (for example, Helixien slug&apos;s effect) -->
+  <VCE_CorpseDecayingEffectOption>Permitir mecánicas de descomposición de cadáveres (por ejemplo, el efecto de la babosa Helixien)</VCE_CorpseDecayingEffectOption>
+  <!-- EN: Allow digging when hungry mechanics (for example, Frostmites digging corpses) -->
+  <VCE_DigWhenHungryOption>Permitir mecánicas de excavar cuando se tiene hambre (por ejemplo, Frostmites excavando cadáveres)</VCE_DigWhenHungryOption>
+  <!-- EN: Allows animals digging for things periodically -->
+  <VCE_DigPeriodicallyOption>Permitir que los animales excaven cosas periódicamente</VCE_DigPeriodicallyOption>
+  <!-- EN: Allow animal particles (gas and filth) -->
+  <VCE_AnimalParticlesOption>Permitir partículas animales (gas y suciedad)</VCE_AnimalParticlesOption>
+  <!-- EN: Allow asexual reproduction -->
+  <VCE_AsexualReproductionOption>Permitir reproducción asexual</VCE_AsexualReproductionOption>
+  <!-- EN: Asexual reproduction disabled via mod options -->
+  <VFE_AsexualReproductionDisabled>Reproducción asexual desactivada mediante las opciones del mod</VFE_AsexualReproductionDisabled>
+  <!-- EN: Allow &quot;blink&quot; mechanics (for example, Skiphounds) -->
+  <VCE_BlinkMechanicsOption>Permitir mecánicas de "parpadeo" (por ejemplo, Skiphounds)</VCE_BlinkMechanicsOption>
+  <!-- EN: Allow animals building things (for example, beavers building dams) -->
+  <VCE_BuildPeriodicallyOption>Permitir que los animales construyan cosas (por ejemplo, castores construyendo presas)</VCE_BuildPeriodicallyOption>
+  <!-- EN: Allow animals recharging nearby batteries or refueling -->
+  <VCE_ChargeBatteriesOption>Permitir que los animales recarguen baterías cercanas o reposten</VCE_ChargeBatteriesOption>
+  <!-- EN: Allow animals&apos; eggs that explode (such as dragons&apos;) -->
+  <VCE_ExplodingEggsOption>Permitir huevos de animales que explotan (como los de los dragones)</VCE_ExplodingEggsOption>
+  <!-- EN: Allow animals &quot;hovering&quot;, ignoring terrain movement costs and waterstriding -->
+  <VCE_HoveringOption>Permitir que los animales "vuelen bajo", ignorando los costes de movimiento del terreno y caminando sobre el agua</VCE_HoveringOption>
+  <!-- EN: Allow animals changing graphics (for example, Chameleon Yak) -->
+  <VCE_GraphicChangingOption>Permitir que los animales cambien de gráficos (por ejemplo, el Yak Camaleón)</VCE_GraphicChangingOption>
+  <!-- EN: Allows animals causing hediffs, mental states or thoughts -->
+  <VCE_EffecterOption>Permitir que los animales causen hediffs, estados mentales o pensamientos</VCE_EffecterOption>
+  <!-- EN: Allow health regeneration (active and passive) -->
+  <VCE_RegenerationOption>Permitir regeneración de salud (activa y pasiva)</VCE_RegenerationOption>
+  <!-- EN: Allow animals to auto-resurrect (for example Phoenix Owlcat) -->
+  <VCE_ResurrectionOption>Permitir que los animales se autorresuciten (por ejemplo, el Búho-gato Fénix)</VCE_ResurrectionOption>
+  <!-- EN: Allow some animals to be untameable -->
+  <VCE_UntameableOption>Permitir que algunos animales sean indomables</VCE_UntameableOption>
+  <!-- EN: Search: -->
+  <VEF_AnimalsSearch>Buscar:</VEF_AnimalsSearch>
+  <!-- EN: Requires {0} Kg total mass -->
+  <VEF_BillRequiresMass>Requiere {0} kg de masa total</VEF_BillRequiresMass>
+  <!-- EN: Genes -->
+  <VRE_TabAnimalGenes>TODO</VRE_TabAnimalGenes>
+  <!-- EN: Animal genes -->
+  <VRE_AnimalGenes>TODO</VRE_AnimalGenes>
+  <!-- EN: Gene family -->
+  <VRE_FamilyTag>TODO</VRE_FamilyTag>
+  <!-- EN: The genes associated with this feratype. -->
+  <VRE_AnimalGenesFeratypeDesc>TODO</VRE_AnimalGenesFeratypeDesc>
+  <!-- EN: Feratype -->
+  <VRE_Feratype>TODO</VRE_Feratype>
+  <!-- EN: Genes present in this animal -->
+  <VRE_AnimalGenesDesc>TODO</VRE_AnimalGenesDesc>
+  <!-- EN: Relevant animal genes -->
+  <VRE_StatsReport_Genes>TODO</VRE_StatsReport_Genes>
+  <!-- EN: More information is available on this feratype&apos;s information screen. -->
+  <VRE_MoreInfoInInfoScreen>TODO</VRE_MoreInfoInInfoScreen>
+  <!-- EN: Animal illness MTB -->
+  <VRE_AnimalIllness>TODO</VRE_AnimalIllness>
+  <!-- EN: Animal tantrum MTB -->
+  <VRE_AnimalTantrum>TODO</VRE_AnimalTantrum>
+  <!-- EN: Trainability set to -->
+  <VRE_Trainability>TODO</VRE_Trainability>
+  <!-- EN: Stability -->
+  <VRE_Stability>TODO</VRE_Stability>
+  <!-- EN: Stability represents the complexity of an animal&apos;s genetic code and affecting predictability of gene inheritance.\n\nHigh stability ensures offspring typically inherit the average of their parents&apos; genes, whereas low stability increases the likelihood that offspring will deviate from parental traits towards the natural median. -->
+  <VRE_StabilityDesc>TODO</VRE_StabilityDesc>
+  <!-- EN: days -->
+  <VRE_Days>TODO</VRE_Days>
+  <!-- EN: Lifespan -->
+  <VRE_LifespanFactor>TODO</VRE_LifespanFactor>
+  <!-- EN: Lifespan factor of this animal according to its genetic stability -->
+  <VRE_LifespanFactorDesc>TODO</VRE_LifespanFactorDesc>
+  <!-- EN: feratype family -->
+  <VRE_FeratypeFamily>TODO</VRE_FeratypeFamily>
+  <!-- EN: This feratype belongs to the {0} feratype family:\n\n{1} -->
+  <VRE_FeratypeFamilyDesc>TODO</VRE_FeratypeFamilyDesc>
+  <!-- EN: Allowed partners -->
+  <VRE_AllowedPartners>TODO</VRE_AllowedPartners>
+  <!-- EN: A list of all feratypes belonging to the {0} feratype family that this animal can make offspring with. -->
+  <VRE_AllowedPartnersDesc>TODO</VRE_AllowedPartnersDesc>
+  <!-- EN: This animal is not pregnant -->
+  <VRE_NotPregnant>TODO</VRE_NotPregnant>
+  <!-- EN: Stillborn {0} -->
+  <VRE_StillbornLabel>TODO</VRE_StillbornLabel>
+  <!-- EN: Your {0}, {1} gave birth to a stillborn offspring. -->
+  <VRE_StillbornDesc>TODO</VRE_StillbornDesc>
+  <!-- EN: Specialized gene -->
+  <VRE_SpecializedGene>TODO</VRE_SpecializedGene>
+  <!-- EN: This gene is only inherited by offspring whose feratype contains a gene from this family. -->
+  <VRE_SpecializedGeneDesc>TODO</VRE_SpecializedGeneDesc>
+  <!-- EN: Gifting {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
+  <VEF.Factions.Contraband_Booze_GiftWarning>Regalar {ILLEGALTHING_label} va en contra de la ley de {FACTION_name}. Esto puede o no afectar tus relaciones con ellos en el futuro</VEF.Factions.Contraband_Booze_GiftWarning>
+  <!-- EN: Gifting {ILLEGALTHING_label} to {ILLEGALFACTION_name} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
+  <VEF.Factions.Contraband_Booze_GiftIllegalWarning>Regalar {ILLEGALTHING_label} a {ILLEGALFACTION_name} va en contra de la ley de {FACTION_name}. Esto puede o no afectar tus relaciones con ellos en el futuro</VEF.Factions.Contraband_Booze_GiftIllegalWarning>
+  <!-- EN: Selling {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
+  <VEF.Factions.Contraband_Booze_SellWarning>Vender {ILLEGALTHING_label} va en contra de la ley de {FACTION_name}. Esto puede o no afectar tus relaciones con ellos en el futuro</VEF.Factions.Contraband_Booze_SellWarning>
+  <!-- EN: Selling {ILLEGALTHING_label} to {ILLEGALFACTION_name} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
+  <VEF.Factions.Contraband_Booze_SellIllegalWarning>Vender {ILLEGALTHING_label} a {ILLEGALFACTION_name} va en contra de la ley de {FACTION_name}. Esto puede o no afectar tus relaciones con ellos en el futuro</VEF.Factions.Contraband_Booze_SellIllegalWarning>
+  <!-- EN: {FACTION_name} angered -->
+  <VEF.Factions.Contraband_Booze_LetterLabel>{FACTION_name} se ha enfadado</VEF.Factions.Contraband_Booze_LetterLabel>
+  <!-- EN: {FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded -->
+  <VEF.Factions.Contraband_Booze_LetterDescGift>{FACTION_name} se ha enterado de que has estado regalando {ILLEGALTHING_label} a sus espaldas. Consideran que va en contra de la ley, y vuestras relaciones se han degradado</VEF.Factions.Contraband_Booze_LetterDescGift>
+  <!-- EN: {FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded -->
+  <VEF.Factions.Contraband_Booze_LetterDescSold>{FACTION_name} se ha enterado de que has estado vendiendo {ILLEGALTHING_label} a sus espaldas. Consideran que va en contra de la ley, y vuestras relaciones se han degradado</VEF.Factions.Contraband_Booze_LetterDescSold>
+  <!-- EN: {FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} to {ILLEGALFACTION_name} behind their back. They consider it to be against the law, and your relations have degraded -->
+  <VEF.Factions.Contraband_Booze_LetterDescIllegalGift>{FACTION_name} se ha enterado de que has estado regalando {ILLEGALTHING_label} a {ILLEGALFACTION_name} a sus espaldas. Consideran que va en contra de la ley, y vuestras relaciones se han degradado</VEF.Factions.Contraband_Booze_LetterDescIllegalGift>
+  <!-- EN: {FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} to {ILLEGALFACTION_name} behind their back. They consider it to be against the law, and your relations have degraded -->
+  <VEF.Factions.Contraband_Booze_LetterDescIllegalSold>{FACTION_name} se ha enterado de que has estado vendiendo {ILLEGALTHING_label} a {ILLEGALFACTION_name} a sus espaldas. Consideran que va en contra de la ley, y vuestras relaciones se han degradado</VEF.Factions.Contraband_Booze_LetterDescIllegalSold>
+  <!-- EN: Goodwill with {FACTION_name} is now {1}. (Changed by {2}) -->
+  <VEF.Factions.Contraband_Booze_RelationInfo>La buena voluntad con {FACTION_name} es ahora {1}. (Cambió por {2})</VEF.Factions.Contraband_Booze_RelationInfo>
+  <!-- EN: Trading details -->
+  <VEF.Factions.FactionDef_Description_Contraband>Detalles de comercio</VEF.Factions.FactionDef_Description_Contraband>
+  <!-- EN: Positive goodwill from trading {0} -->
+  <VEF.Factions.FactionDef_Description_Positives>Buena voluntad positiva por comerciar {0}</VEF.Factions.FactionDef_Description_Positives>
+  <!-- EN: Negative goodwill from trading {0} -->
+  <VEF.Factions.FactionDef_Description_Negatives>Buena voluntad negativa por comerciar {0}</VEF.Factions.FactionDef_Description_Negatives>
+  <!-- EN: Weapon requires powered armor -->
+  <VWE.CannotEquipHeavy>El arma requiere servoarmadura</VWE.CannotEquipHeavy>
+  <!-- EN: Insert -->
+  <IP_InsertFirstItemDesc>Insertar</IP_InsertFirstItemDesc>
+  <!-- EN: Insert -->
+  <IP_InsertSecondItemDesc>Insertar</IP_InsertSecondItemDesc>
+  <!-- EN: Insert -->
+  <IP_InsertThirdItemDesc>Insertar</IP_InsertThirdItemDesc>
+  <!-- EN: Insert -->
+  <IP_InsertFourthItemDesc>Insertar</IP_InsertFourthItemDesc>
+  <!-- EN: Insert {0} -->
+  <IP_InsertVariable>Insertar {0}</IP_InsertVariable>
+  <!-- EN: Output {0} -->
+  <IP_Output>Producto: {0}</IP_Output>
+  <!-- EN: Output {0} from {1} -->
+  <IP_OutputVariable>Obtener {0} de {1}</IP_OutputVariable>
+  <!-- EN: Processor will output {0}. It needs to be fed {1} -->
+  <IP_OutputDesc>El procesador producirá {0}. Necesita ser alimentado con {1}</IP_OutputDesc>
+  <!-- EN: Insert {0} in 2nd slot -->
+  <IP_InsertVariableSecond>Insertar {0} en la 2ª ranura</IP_InsertVariableSecond>
+  <!-- EN: Insert {0} in 3rd slot -->
+  <IP_InsertVariableThird>Insertar {0} en la 3ª ranura</IP_InsertVariableThird>
+  <!-- EN: No items of that kind ({0}) found in this map -->
+  <IP_CantFindThing>No se encontraron objetos de ese tipo ({0}) en este mapa</IP_CantFindThing>
+  <!-- EN: Bring Ingredients -->
+  <IP_BringIngredients>Traer ingredientes</IP_BringIngredients>
+  <!-- EN: Bring ingredients to start the process -->
+  <IP_BringIngredientsDesc>Traer ingredientes para comenzar el proceso</IP_BringIngredientsDesc>
+  <!-- EN: Cancel Bringing Ingredients -->
+  <IP_CancelIngredients>Cancelar transporte de ingredientes</IP_CancelIngredients>
+  <!-- EN: Cancel Bringing Ingredients to this building -->
+  <IP_CancelIngredientsDesc>Cancelar el transporte de ingredientes a este edificio</IP_CancelIngredientsDesc>
+  <!-- EN: No ingredient found on map -->
+  <IP_NoIngredientFound>No se encontró el ingrediente en el mapa</IP_NoIngredientFound>
+  <!-- EN: Choose Ingredient -->
+  <IP_ChooseIngredient>Elegir ingrediente</IP_ChooseIngredient>
+  <!-- EN: Choose Output -->
+  <IP_ChooseOutput>Elegir producto</IP_ChooseOutput>
+  <!-- EN: Choose Second Ingredient -->
+  <IP_ChooseIngredientSecond>Elegir segundo ingrediente</IP_ChooseIngredientSecond>
+  <!-- EN: Choose Third Ingredient -->
+  <IP_ChooseIngredientThird>Elegir tercer ingrediente</IP_ChooseIngredientThird>
+  <!-- EN: Choose Fourth Ingredient -->
+  <IP_ChooseIngredientFourth>Elegir cuarto ingrediente</IP_ChooseIngredientFourth>
+  <!-- EN: One of the ingredients has been improperly defined to work with the item processor, contact the mod&apos;s author -->
+  <IP_IngredientImproperlyDefined>Uno de los ingredientes ha sido definido incorrectamente para funcionar con el procesador de objetos; contacta con el autor del mod</IP_IngredientImproperlyDefined>
+  <!-- EN: {0} needs to be powered to start working -->
+  <IP_NoPowerDestroysWarning>{0} necesita energía para empezar a funcionar</IP_NoPowerDestroysWarning>
+  <!-- EN: {0} needs to be fueled to start working -->
+  <IP_NoFuelDestroysWarning>{0} necesita combustible para empezar a funcionar</IP_NoFuelDestroysWarning>
+  <!-- EN: {0} needs to have an adequate light level to start working -->
+  <IP_LightDestroysWarning>{0} necesita un nivel de luz adecuado para empezar a funcionar</IP_LightDestroysWarning>
+  <!-- EN: {0} needs to not be raining to start working -->
+  <IP_RainDestroysWarning>{0} necesita que no esté lloviendo para empezar a funcionar</IP_RainDestroysWarning>
+  <!-- EN: {0} needs to have an adequate temperature ({1} - {2}) to start working -->
+  <IP_TemperatureDestroysWarning>{0} necesita una temperatura adecuada ({1} - {2}) para empezar a funcionar</IP_TemperatureDestroysWarning>
+  <!-- EN: The result is spoiling due to a power failure in the item processor -->
+  <IP_NoPowerDestroysInitialWarning>El resultado se está echando a perder debido a un fallo de energía en el procesador de objetos</IP_NoPowerDestroysInitialWarning>
+  <!-- EN: The result has spoiled due to a power failure in the item processor -->
+  <IP_NoPowerDestroysMessage>El resultado se ha echado a perder debido a un fallo de energía en el procesador de objetos</IP_NoPowerDestroysMessage>
+  <!-- EN: A product has finished processing and is waiting for pickup -->
+  <IP_GenericProductFinished>Un producto ha terminado de procesarse y está esperando a ser recogido</IP_GenericProductFinished>
+  <!-- EN: {0} is empty -->
+  <IP_IsEmpty>{0} está vacío</IP_IsEmpty>
+  <!-- EN: {0} is filled with {1} -->
+  <IP_FilledWith>{0} está lleno de {1}</IP_FilledWith>
+  <!-- EN: {0}&apos;s 2nd slot is filled with {1} -->
+  <IP_FilledWithSecond>La 2ª ranura de {0} está llena de {1}</IP_FilledWithSecond>
+  <!-- EN: {0}&apos;s 3rd slot is filled with {1} -->
+  <IP_FilledWithThird>La 3ª ranura de {0} está llena de {1}</IP_FilledWithThird>
+  <!-- EN: {0}&apos;s 4th slot is filled with {1} -->
+  <IP_FilledWithFourth>La 4ª ranura de {0} está llena de {1}</IP_FilledWithFourth>
+  <!-- EN:  (filled at {0} of {1}) -->
+  <IP_IngredientPercentage> (lleno al {0} de {1})</IP_IngredientPercentage>
+  <!-- EN: {0} is working:  -->
+  <IP_ProcessorWorking>{0} está funcionando: </IP_ProcessorWorking>
+  <!-- EN: {0} is paused:  -->
+  <IP_ProcessorPaused>{0} está en pausa: </IP_ProcessorPaused>
+  <!-- EN: {0} is processing {1}. {2} will be ready with {3} quality in {4} -->
+  <IP_ProcessingInProgress>{0} está procesando {1}. {2} estará listo con calidad {3} en {4}</IP_ProcessingInProgress>
+  <!-- EN: {0} is processing {1}. {2} will be ready in {3} -->
+  <IP_ProcessingInProgressNoQuality>{0} está procesando {1}. {2} estará listo en {3}</IP_ProcessingInProgressNoQuality>
+  <!-- EN: Remove {0} ({1}) -->
+  <IP_RemoveProduct>Retirar {0} ({1})</IP_RemoveProduct>
+  <!-- EN: Remove {0} from the {1}. The product will be ready at the present quality level ({2}) -->
+  <IP_RemoveProductDesc>Retirar {0} de {1}. El producto estará listo con el nivel de calidad actual ({2})</IP_RemoveProductDesc>
+  <!-- EN: Reset Recipes -->
+  <IP_ResetSemiautomatic>Restablecer recetas</IP_ResetSemiautomatic>
+  <!-- EN: This will reset the building after the current product is finished, so a new input ingredient can be chosen -->
+  <IP_ResetSemiautomaticDesc>Esto restablecerá el edificio después de que el producto actual termine, para que se pueda elegir un nuevo ingrediente de entrada</IP_ResetSemiautomaticDesc>
+  <!-- EN: No combination found for these ingredients -->
+  <IP_NoCombination>No se encontró ninguna combinación para estos ingredientes</IP_NoCombination>
+  <!-- EN: Set quality for product extraction. When the product reaches this quality, a colonist will automatically retrieve it and carry it to an stockpile if available. If not set, products will be extracted manually, or at Legendary quality. -->
+  <IP_SetAutoQuality>Establecer calidad para la extracción del producto. Cuando el producto alcance esta calidad, un colono lo recogerá automáticamente y lo llevará a un almacén si está disponible. Si no se establece, los productos se extraerán manualmente o al alcanzar la calidad Legendaria.</IP_SetAutoQuality>
+  <!-- EN: Choose Auto Quality -->
+  <IP_ChooseQualityAuto>Elegir calidad automática</IP_ChooseQualityAuto>
+  <!-- EN: Auto Quality: {0} -->
+  <IP_QualityAutoIs>Calidad automática: {0}</IP_QualityAutoIs>
+  <!-- EN: Disable Auto Quality -->
+  <IP_QualityAutoNot>Desactivar calidad automática</IP_QualityAutoNot>
+  <!-- EN: Auto Quality, product will be extracted at quality level: {0} -->
+  <IP_QualityAutoEstablished>Calidad automática, el producto se extraerá al nivel de calidad: {0}</IP_QualityAutoEstablished>
+  <!-- EN: Auto Ingredient Acquiring -->
+  <IP_ToggleAuto>Adquisición automática de ingredientes</IP_ToggleAuto>
+  <!-- EN: If set to active, this building will automatically grab ingredients from adjacent hoppers, and automatically start working again once the product is removed. If not, colonists will haul the ingredients to the building, and it will need to be activated manually once refilled -->
+  <IP_ToggleAutoDesc>Si se activa, este edificio tomará automáticamente los ingredientes de las tolvas adyacentes y volverá a funcionar automáticamente una vez que se retire el producto. Si no, los colonos transportarán los ingredientes al edificio y este deberá activarse manualmente una vez rellenado.</IP_ToggleAutoDesc>
+  <!-- EN: Reset Machine -->
+  <IP_ResetFullAuto>Reiniciar máquina</IP_ResetFullAuto>
+  <!-- EN: Fully resets the machine and makes it stop. Warning, it will destroy the process and the input items -->
+  <IP_ResetFullAutoDesc>Reinicia completamente la máquina y la detiene. Advertencia: destruirá el proceso y los objetos de entrada.</IP_ResetFullAutoDesc>
+  <!-- EN: Waiting for pickup -->
+  <IP_ProductWaiting>Esperando recogida</IP_ProductWaiting>
+  <!-- EN: The process in this machine is being interrupted due to an inadequate level of light and will be spoiled soon -->
+  <IP_OutsideLightRange>El proceso en esta máquina se está interrumpiendo debido a un nivel de luz inadecuado y se echará a perder pronto</IP_OutsideLightRange>
+  <!-- EN: The product in this machine has spoiled due to an inadequate level of light -->
+  <IP_SpoiledDueToLight>El producto en esta máquina se ha echado a perder debido a un nivel de luz inadecuado</IP_SpoiledDueToLight>
+  <!-- EN: The process in this machine is being interrupted due to inclement weather and will be spoiled soon -->
+  <IP_ItRains>El proceso en esta máquina se está interrumpiendo debido a las inclemencias del tiempo y se echará a perder pronto</IP_ItRains>
+  <!-- EN: The product in this machine has spoiled due to inclement weather -->
+  <IP_SpoiledDueToRain>El producto en esta máquina se ha echado a perder debido a las inclemencias del tiempo</IP_SpoiledDueToRain>
+  <!-- EN: The process in this machine is being interrupted due to an unsuitable temperature and will be spoiled soon -->
+  <IP_WrongTemp>El proceso en esta máquina se está interrumpiendo debido a una temperatura inadecuada y se echará a perder pronto</IP_WrongTemp>
+  <!-- EN: The product has spoiled due to an unsuitable temperature. Needs between {0} and {1} ºC -->
+  <IP_SpoiledDueToWrongTemp>El producto se ha echado a perder debido a una temperatura inadecuada. Necesita entre {0} y {1} ºC</IP_SpoiledDueToWrongTemp>
+  <!-- EN: Current process needs a temperature between {0} and {1} ºC -->
+  <IP_TempRangeInThisMachine>El proceso actual necesita una temperatura entre {0} y {1} ºC</IP_TempRangeInThisMachine>
+  <!-- EN: Pause / Restart -->
+  <IP_TogglePause>Pausar / Reanudar</IP_TogglePause>
+  <!-- EN: Pause / Restart this machine&apos;s processing -->
+  <IP_TogglePauseDesc>Pausar o reanudar el procesamiento de esta máquina</IP_TogglePauseDesc>
+  <!-- EN:  Waiting for output to clear. Output limit is {0} -->
+  <IP_OverThreshold> Esperando a que se despeje la salida. El límite de salida es {0}</IP_OverThreshold>
+  <!-- EN: No modded recipes found for this factory -->
+  <IP_NoRecipesHere>No se encontraron recetas de mods para esta fábrica</IP_NoRecipesHere>
+  <!-- EN: Add -->
+  <KCSG.Add>Añadir</KCSG.Add>
+  <!-- EN: Remove -->
+  <KCSG.Remove>Eliminar</KCSG.Remove>
+  <!-- EN: Spawn near center -->
+  <KCSG.SpawnNearCenter>Generar cerca del centro</KCSG.SpawnNearCenter>
+  <!-- EN: Allow fogged position -->
+  <KCSG.AllowFoggedPosition>Permitir posición bajo la niebla</KCSG.AllowFoggedPosition>
+  <!-- EN: Spawn part of ennemy faction -->
+  <KCSG.SpawnPartOfEnnemyFaction>Generar como parte de una facción enemiga</KCSG.SpawnPartOfEnnemyFaction>
+  <!-- EN: Map contains -->
+  <KCSG.Mapcontains>El mapa contiene</KCSG.Mapcontains>
+  <!-- EN: Enter {0} -->
+  <KCSG.Enter>Entrar en {0}</KCSG.Enter>
+  <!-- EN: Cannot enter {0} -->
+  <KCSG.CantEnter>No se puede entrar en {0}</KCSG.CantEnter>
+  <!-- EN: Equip {0} as shield -->
+  <VanillaFactionsExpanded.EquipShield>Equipar {0} como escudo</VanillaFactionsExpanded.EquipShield>
+  <!-- EN: (unusable with {0}) -->
+  <VanillaFactionsExpanded.EquipWarningShieldUnusable>(inutilizable con {0})</VanillaFactionsExpanded.EquipWarningShieldUnusable>
+  <!-- EN: ({0} will be unusable) -->
+  <VanillaFactionsExpanded.EquipWarningShieldUnusableWithWeapon>({0} será inutilizable)</VanillaFactionsExpanded.EquipWarningShieldUnusableWithWeapon>
+  <!-- EN: Protects -->
+  <VanillaFactionsExpanded.Protects>Protege</VanillaFactionsExpanded.Protects>
+  <!-- EN: What body parts the shield protects. -->
+  <VanillaFactionsExpanded.Protects_Desc>Qué partes del cuerpo protege el escudo.</VanillaFactionsExpanded.Protects_Desc>
+  <!-- EN: Faction relation modifiers -->
+  <VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>Modificadores de relación de facción</VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>
+  <!-- EN: {0} to {1} -->
+  <VanillaFactionsExpanded.NumberRange>{0} a {1}</VanillaFactionsExpanded.NumberRange>
+  <!-- EN: All factions -->
+  <VanillaFactionsExpanded.AllFactions>Todas las facciones</VanillaFactionsExpanded.AllFactions>
+  <!-- EN: All factions including hidden -->
+  <VanillaFactionsExpanded.AllFactionsIncludingHidden>Todas las facciones, incluyendo las ocultas</VanillaFactionsExpanded.AllFactionsIncludingHidden>
+  <!-- EN: Always hostile -->
+  <VanillaFactionsExpanded.AlwaysHostile>Siempre hostil</VanillaFactionsExpanded.AlwaysHostile>
+  <!-- EN: Affect hidden -->
+  <VanillaFactionsExpanded.AffectHiddenFactions>Afectar facciones ocultas</VanillaFactionsExpanded.AffectHiddenFactions>
+  <!-- EN: Starting -->
+  <VanillaFactionsExpanded.StartingGoodwill>Inicial</VanillaFactionsExpanded.StartingGoodwill>
+  <!-- EN: Natural -->
+  <VanillaFactionsExpanded.NaturalGoodwill>Natural</VanillaFactionsExpanded.NaturalGoodwill>
+  <!-- EN: Usable with shields -->
+  <VanillaFactionsExpanded.UsableWithShield>Utilizable con escudos</VanillaFactionsExpanded.UsableWithShield>
+  <!-- EN: Whether or not this weapon can be used if the character also has a shield equipped. -->
+  <VanillaFactionsExpanded.UsableWithShield_Desc>Si esta arma puede usarse o no si el personaje también tiene un escudo equipado.</VanillaFactionsExpanded.UsableWithShield_Desc>
+  <!-- EN: Ammo per charge -->
+  <VEF.Weapons.Stat_Thing_MaterialPerCharge>Munición por carga</VEF.Weapons.Stat_Thing_MaterialPerCharge>
+  <!-- EN: {0} {1} per charge (total {2} charges) -->
+  <VEF.Weapons.Stat_Thing_MaterialPerCharge_Value>{0} {1} por carga (total {2} cargas)</VEF.Weapons.Stat_Thing_MaterialPerCharge_Value>
+  <!-- EN: The amount of {0} per charge this ability needs to be recharged. -->
+  <VEF.Weapons.Stat_Thing_MaterialPerCharge_Desc>La cantidad de {0} por carga que esta habilidad necesita para recargarse.</VEF.Weapons.Stat_Thing_MaterialPerCharge_Desc>
+  <!-- EN: New faction: {FactionName} -->
+  <VanillaFactionsExpanded.FactionTitle>Nueva facción: {FactionName}</VanillaFactionsExpanded.FactionTitle>
+  <!-- EN: This faction is added by {ModName} and not currently present in your game. -->
+  <VanillaFactionsExpanded.ModInfo>Esta facción es añadida por {ModName} y no está presente actualmente en tu partida.</VanillaFactionsExpanded.ModInfo>
+  <!-- EN: an unknown mod -->
+  <VanillaFactionsExpanded.AnUnknownMod>un mod desconocido</VanillaFactionsExpanded.AnUnknownMod>
+  <!-- EN: This is a hidden faction and won&apos;t show up in your faction list. -->
+  <VanillaFactionsExpanded.HiddenFactionInfo>Esta es una facción oculta y no aparecerá en tu lista de facciones.</VanillaFactionsExpanded.HiddenFactionInfo>
+  <!-- EN: It is marked as required by {ModName}. -->
+  <VanillaFactionsExpanded.RequiredFactionInfo>Está marcada como requerida por {ModName}.</VanillaFactionsExpanded.RequiredFactionInfo>
+  <!-- EN: This faction is marked as non-spawning and you should probably just ignore it. -->
+  <VanillaFactionsExpanded.NonSpawningFactionInfo>Esta facción está marcada como no generable y probablemente deberías ignorarla.</VanillaFactionsExpanded.NonSpawningFactionInfo>
+  <!-- EN: Please select how to proceed: -->
+  <VanillaFactionsExpanded.FactionSelectOption>Por favor, selecciona cómo proceder:</VanillaFactionsExpanded.FactionSelectOption>
+  <!-- EN: Add the faction -->
+  <VanillaFactionsExpanded.FactionButtonAdd>Añadir la facción</VanillaFactionsExpanded.FactionButtonAdd>
+  <!-- EN: Add the faction with settlements -->
+  <VanillaFactionsExpanded.FactionButtonAddFull>Añadir la facción con asentamientos</VanillaFactionsExpanded.FactionButtonAddFull>
+  <!-- EN: Do nothing -->
+  <VanillaFactionsExpanded.FactionButtonSkip>No hacer nada</VanillaFactionsExpanded.FactionButtonSkip>
+  <!-- EN: Don&apos;t ask for this faction again -->
+  <VanillaFactionsExpanded.FactionButtonIgnore>No volver a preguntar por esta facción</VanillaFactionsExpanded.FactionButtonIgnore>
+  <!-- EN: Failed to add the faction. -->
+  <VanillaFactionsExpanded.FactionMessageFailed>Error al añadir la facción.</VanillaFactionsExpanded.FactionMessageFailed>
+  <!-- EN: Failed to create a faction with settlements. -->
+  <VanillaFactionsExpanded.FactionMessageFailedFull>Error al crear una facción con asentamientos.</VanillaFactionsExpanded.FactionMessageFailedFull>
+  <!-- EN: Added {FactionName} with {Amount} settlements. -->
+  <VanillaFactionsExpanded.FactionMessageSuccessFull>Se ha añadido {FactionName} con {Amount} asentamientos.</VanillaFactionsExpanded.FactionMessageSuccessFull>
+  <!-- EN: Added {FactionName}. -->
+  <VanillaFactionsExpanded.FactionMessageSuccess>Se ha añadido {FactionName}.</VanillaFactionsExpanded.FactionMessageSuccess>
+  <!-- EN: It is marked as required, and you must add it to the game. -->
+  <VanillaFactionsExpanded.FactionDiscoveryRequired>Está marcada como requerida, y debes añadirla a la partida.</VanillaFactionsExpanded.FactionDiscoveryRequired>
+  <!-- EN: Failed to generate this faction. It is recommended to try again, but you can now skip adding this faction. Skipping may cause issues. -->
+  <VanillaFactionsExpanded.FactionFailedMessage>Error al generar esta facción. Se recomienda intentarlo de nuevo, pero ahora puedes omitir la adición de esta facción. Omitirla puede causar problemas.</VanillaFactionsExpanded.FactionFailedMessage>
+  <!-- EN: {FACTION} cannot be disabled{REQUIRED_multiple ? , you need at least {REQUIRED} factions of that type. : .} -->
+  <VanillaFactionsExpanded.FactionRequired>{FACTION} no se puede desactivar{REQUIRED_multiple ? , necesitas al menos {REQUIRED} facciones de ese tipo. : .}</VanillaFactionsExpanded.FactionRequired>
+  <!-- EN: {REQUIRED_multiple ? It is recommended to have at least {REQUIRED} factions of {FACTION} type, but currently there&apos;s only {COUNT}. : It is recommended to enable {FACTION}.} -->
+  <VanillaFactionsExpanded.FactionRecommended>{REQUIRED_multiple ? Se recomienda tener al menos {REQUIRED} facciones del tipo {FACTION}, pero actualmente solo hay {COUNT}. : Se recomienda habilitar {FACTION}.}</VanillaFactionsExpanded.FactionRecommended>
+  <!-- EN: Settlements to spawn (recommended are {0}): {1} -->
+  <VanillaFactionsExpanded.FactionSettlementsToSpawn>Asentamientos a generar (recomendados: {0}): {1}</VanillaFactionsExpanded.FactionSettlementsToSpawn>
+  <!-- EN: The minimum distance from player bases (recommended are {0}): {1} -->
+  <VanillaFactionsExpanded.FactionMinDistance>La distancia mínima desde las bases del jugador (recomendada: {0}): {1}</VanillaFactionsExpanded.FactionMinDistance>
+  <!-- EN: Spawn -->
+  <VanillaFactionsExpanded.FactionButtonSpawn>Generar</VanillaFactionsExpanded.FactionButtonSpawn>
+  <!-- EN: Cancel -->
+  <VanillaFactionsExpanded.FactionButtonCancel>Cancelar</VanillaFactionsExpanded.FactionButtonCancel>
+  <!-- EN: Reinforcements -->
+  <VSE.Reinforcements>Refuerzos</VSE.Reinforcements>
+  <!-- EN: Seeing that your forces suffered losses, {FACTION_name} has decided to reinforce their raiding force -->
+  <VSE.ReinforcementsDesc>Viendo que tus fuerzas sufrieron bajas, {FACTION_name} ha decidido reforzar su fuerza de asalto</VSE.ReinforcementsDesc>
+  <!-- EN: cost: {0} goodwill -->
+  <VSE.CostGoodwill>coste: {0} de buena voluntad</VSE.CostGoodwill>
+  <!-- EN: Weapon warm-up -->
+  <VWEL_ToggleHotshotLabel>Calentamiento del arma</VWEL_ToggleHotshotLabel>
+  <!-- EN: Shots fired when standing still warm-up the weapon allowing for increased firing speed. Overheating can lead to detonation. -->
+  <VWEL_ToggleHotshotDesc>Los disparos realizados mientras se está quieto calientan el arma, lo que permite una mayor velocidad de disparo. El sobrecalentamiento puede provocar una detonación.</VWEL_ToggleHotshotDesc>
+  <!-- EN: Deep drill cannot be used with {0}. -->
+  <VFE_DeepDrillNo>El taladro profundo no se puede usar con {0}.</VFE_DeepDrillNo>
+  <!-- EN: Teleport to {0} -->
+  <VEF.TeleportTo>Teletransportar a {0}</VEF.TeleportTo>
+  <!-- EN: Market value range (base) -->
+  <VEF.TotalMarketValueRange>Rango de valor de mercado (base)</VEF.TotalMarketValueRange>
+  <!-- EN: Total market value range (minimum and maximum) of the objects that can be found by opening this loot box. -->
+  <VEF.TotalMarketValueRange_Desc>Rango de valor de mercado total (mínimo y máximo) de los objetos que se pueden encontrar al abrir esta caja de botín.</VEF.TotalMarketValueRange_Desc>
+  <!-- EN: Market value range (by quality) -->
+  <VEF.TotalMarketValueRange_Quality>Rango de valor de mercado (por calidad)</VEF.TotalMarketValueRange_Quality>
+  <!-- EN: Total market value range (minimum and maximum) of the objects that can be found by opening this loot box. Box quality has modified the base value by a factor of {0} -->
+  <VEF.TotalMarketValueRange_Quality_Desc>Rango de valor de mercado total (mínimo y máximo) de los objetos que se pueden encontrar al abrir esta caja de botín. La calidad de la caja ha modificado el valor base por un factor de {0}</VEF.TotalMarketValueRange_Quality_Desc>
+  <!-- EN: Extracted flower will die in {time} unless replanted. -->
+  <VPE_MinifiedFlowerWillDieIn>La flor extraída morirá en {time} a menos que sea replantada.</VPE_MinifiedFlowerWillDieIn>
+  <!-- EN: Extract flower -->
+  <VPE_ExtractFlower>Extraer flor</VPE_ExtractFlower>
+  <!-- EN: Extract this flower while keeping it alive, so that it can be replanted elsewhere. -->
+  <VPE_ExtractFlower_Desc>Extrae esta flor manteniéndola con vida para que pueda ser replantada en otro lugar.</VPE_ExtractFlower_Desc>
+  <!-- EN: Cancel extraction -->
+  <VPE_CancelExtractFlower>Cancelar extracción</VPE_CancelExtractFlower>
+  <!-- EN: Cancel extracting this flower. -->
+  <VPE_CancelExtractFlower_Desc>Cancela la extracción de esta flor.</VPE_CancelExtractFlower_Desc>
+  <!-- EN: Replant -->
+  <VPE_ReplantFlower>Replantar</VPE_ReplantFlower>
+  <!-- EN: The flower is currently packaged up for storage and transport. Use this command to replant it in the new location. -->
+  <VPE_ReplantFlower_Desc>La flor está actualmente empaquetada para almacenamiento y transporte. Usa este comando para replantarla en la nueva ubicación.</VPE_ReplantFlower_Desc>
+  <!-- EN: Age: {0} -->
+  <VPE_RealAge>Edad: {0}</VPE_RealAge>
+  <!-- EN: Flower is blooming -->
+  <VPE_FlowerIsBlooming>La flor está floreciendo</VPE_FlowerIsBlooming>
+  <!-- EN: Beauty by age: +{0} -->
+  <VPE_BeautyByAge>Belleza por edad: +{0}</VPE_BeautyByAge>
+  <!-- EN: Beauty by blooming: x{0} -->
+  <VPE_BeautyByBloming>Belleza por floración: x{0}</VPE_BeautyByBloming>
+  <!-- EN: Beauty because of weeds: {0} -->
+  <VPE_BeautyByWeeds>Belleza por malezas: {0}</VPE_BeautyByWeeds>
+  <!-- EN: Leafless beauty: {0} -->
+  <VPE_BeautyByLeafless>Belleza sin hojas: {0}</VPE_BeautyByLeafless>
+  <!-- EN: Leafless beauty -->
+  <VPE_LeaflessBeauty>Belleza sin hojas</VPE_LeaflessBeauty>
+  <!-- EN: Blooming flowers are pretty ugly when leafless due to cold. They won&apos;t die just for being leafless, but their beauty will be greatly affected. -->
+  <VPE_LeaflessBeauty_Desc>Las flores en floración son bastante feas cuando pierden las hojas debido al frío. No morirán solo por perder las hojas, pero su belleza se verá muy afectada.</VPE_LeaflessBeauty_Desc>
+  <!-- EN: Plant must be fully grown before you can add age to it -->
+  <VPE_MustBeGrown>La planta debe haber crecido por completo antes de poder añadirle edad</VPE_MustBeGrown>
+  <!-- EN: Age beauty modifier -->
+  <VPE_AgeBeautyModifier>Modificador de belleza por edad</VPE_AgeBeautyModifier>
+  <!-- EN: The beauty of this plant will increase by this amount for every year it is kept alive, up to a maximum of +{0}. -->
+  <VPE_AgeBeautyModifier_Desc>La belleza de esta planta aumentará en esta cantidad por cada año que se mantenga viva, hasta un máximo de +{0}.</VPE_AgeBeautyModifier_Desc>
+  <!-- EN: Bloom beauty modifier -->
+  <VPE_BloomBeautyModifier>Modificador de belleza por floración</VPE_BloomBeautyModifier>
+  <!-- EN: The beauty of this plant will be multiplied by this amount when in its blooming stage. -->
+  <VPE_BloomBeautyModifier_Desc>La belleza de esta planta se multiplicará por esta cantidad cuando esté en su etapa de floración.</VPE_BloomBeautyModifier_Desc>
+  <!-- EN: Blooming period -->
+  <VPE_BloomingPeriod>Período de floración</VPE_BloomingPeriod>
+  <!-- EN: This flower will enter a blooming stage in this period, or the equivalent in days of the year in permanent summer / winter. -->
+  <VPE_BloomingPeriod_Desc>Esta flor entrará en una etapa de floración en este período, o su equivalente en días del año en verano o invierno permanente.</VPE_BloomingPeriod_Desc>
+  <!-- EN: Minimum bloom temperature -->
+  <VPE_BloomTemperatureMin>Temperatura mínima de floración</VPE_BloomTemperatureMin>
+  <!-- EN: The minimum temperature the plant will need to enter a blooming stage.\n\n{0} -->
+  <VPE_BloomTemperatureMin_Desc>La temperatura mínima que la planta necesitará para entrar en etapa de floración.\n\n{0}</VPE_BloomTemperatureMin_Desc>
+  <!-- EN: Maximum bloom temperature -->
+  <VPE_BloomTemperatureMax>Temperatura máxima de floración</VPE_BloomTemperatureMax>
+  <!-- EN: The maximum temperature the plant will need to be below to enter a blooming stage.\n\n{0} -->
+  <VPE_BloomTemperatureMax_Desc>La temperatura máxima por debajo de la cual debe estar la planta para entrar en etapa de floración.\n\n{0}</VPE_BloomTemperatureMax_Desc>
+  <!-- EN: If the blooming stops due to low temperature, this flower can enter a blooming stage again if the conditions improve. -->
+  <VPE_CanBloom>Si la floración se detiene debido a las bajas temperaturas, esta flor puede volver a entrar en etapa de floración si las condiciones mejoran.</VPE_CanBloom>
+  <!-- EN: If the blooming stops due to low temperature, this flower won&apos;t be able to bloom again until next year! -->
+  <VPE_CantBloom>¡Si la floración se detiene debido a las bajas temperaturas, esta flor no podrá volver a florecer hasta el próximo año!</VPE_CantBloom>
+  <!-- EN: Deadly cold temperature -->
+  <VPE_DeadlyColdTemperature>Temperatura de frío mortal</VPE_DeadlyColdTemperature>
+  <!-- EN: Below this temperature, the plant will start dying. -->
+  <VPE_DeadlyColdTemperature_Desc>Por debajo de esta temperatura, la planta comenzará a morir.</VPE_DeadlyColdTemperature_Desc>
+  <!-- EN: Temperature too low for blooming -->
+  <VPE_TempTooLowForBlooming>Temperatura demasiado baja para florecer</VPE_TempTooLowForBlooming>
+  <!-- EN: Temperature too high for blooming -->
+  <VPE_TempTooHighForBlooming>Temperatura demasiado alta para florecer</VPE_TempTooHighForBlooming>
+  <!-- EN: Remove weeds -->
+  <VPE_RemoveWeeds>Eliminar malezas</VPE_RemoveWeeds>
+  <!-- EN: Remove the weeds that are negatively impacting this flower&apos;s beauty. -->
+  <VPE_RemoveWeeds_Desc>Elimina las malezas que están afectando negativamente la belleza de esta flor.</VPE_RemoveWeeds_Desc>
+  <!-- EN: Cancel weed removal -->
+  <VPE_CancelWeedRemoval>Cancelar eliminación de malezas</VPE_CancelWeedRemoval>
+  <!-- EN: Cancel removing the weeds from this flower. -->
+  <VPE_CancelWeedRemoval_Desc>Cancela la eliminación de malezas de esta flor.</VPE_CancelWeedRemoval_Desc>
+  <!-- EN: Weeds: {PLANTDEF_labelPlural} -->
+  <VEF_LetterLabelWeeds>Malezas: {PLANTDEF_labelPlural}</VEF_LetterLabelWeeds>
+  <!-- EN: Weeds have spread across your {PLANTDEF_labelPlural}, as well as other nearby blooming flowers, greatly affecting their beauty.\n\nYou can order your colonists to remove the weeds, though it is a time consuming process. -->
+  <VEF_LetterWeeds>Las malezas se han extendido por tus {PLANTDEF_labelPlural}, así como por otras flores en floración cercanas, afectando en gran medida su belleza.\n\nPuedes ordenar a tus colonos que eliminen las malezas, aunque es un proceso que lleva tiempo.</VEF_LetterWeeds>
+  <!-- EN: Force Recharge -->
+  <VFEMechForceRecharge>Recarga forzada</VFEMechForceRecharge>
+  <!-- EN: Order the associated machine to return to this platform for charging, regardless of its current battery level. -->
+  <VFEMechForceRechargeDesc>Ordena a la máquina asociada que regrese a esta plataforma para cargarse, independientemente de su nivel de batería actual.</VFEMechForceRechargeDesc>
+  <!-- EN: Attach Turret -->
+  <VFEMechAttachTurret>Acoplar torreta</VFEMechAttachTurret>
+  <!-- EN: Construct a turret atop this mobile platform. This will require a colonist to deliver resources equal to that turret&apos;s normal construction cost. -->
+  <VFEMechAttachTurretDesc>Construye una torreta sobre esta plataforma móvil. Esto requerirá que un colono entregue recursos equivalentes al coste de construcción normal de esa torreta.</VFEMechAttachTurretDesc>
+  <!-- EN: Machine destroyed -->
+  <VFEMechMachineDied>Máquina destruida</VFEMechMachineDied>
+  <!-- EN: One of your machines has been destroyed! You can dismantle its remains at a machining table. In order to construct a replacement, one of your colonists will need to deliver the following parts to its platform:\n\n{0} -->
+  <VFEMechMachineDiedDesc>¡Una de tus máquinas ha sido destruida! Puedes desmantelar sus restos en una mesa de mecanizado. Para construir un reemplazo, uno de tus colonos deberá entregar las siguientes piezas a su plataforma:\n\n{0}</VFEMechMachineDiedDesc>
+  <!-- EN: Not enough resources -->
+  <VFEMechNoResources>No hay suficientes recursos</VFEMechNoResources>
+  <!-- EN: No active mobile turret -->
+  <VFEMechNoTurret>No hay torreta móvil activa</VFEMechNoTurret>
+  <!-- EN: Needed to rebuild machine: -->
+  <VFEMechReconstruct>Necesario para reconstruir la máquina:</VFEMechReconstruct>
+  <!-- EN: Needed to construct turret: -->
+  <VFEMechTurretResources>Necesario para construir la torreta:</VFEMechTurretResources>
+  <!-- EN: Reduce range -->
+  <VFEMechLowerRange>Reducir alcance</VFEMechLowerRange>
+  <!-- EN: Reduce the number of tiles this machine will travel. -->
+  <VFEMechLowerRangeDesc>Reduce el número de casillas que viajará esta máquina.</VFEMechLowerRangeDesc>
+  <!-- EN: Increase range -->
+  <VFEMechRaiseRange>Aumentar alcance</VFEMechRaiseRange>
+  <!-- EN: Increase the number of tiles this machine will travel. -->
+  <VFEMechRaiseRangeDesc>Aumenta el número de casillas que viajará esta máquina.</VFEMechRaiseRangeDesc>
+  <!-- EN: Stop machine -->
+  <VFEMechStopMachine>Detener máquina</VFEMechStopMachine>
+  <!-- EN: Stop this machine&apos;s progress and force it to return to base. -->
+  <VFEMechStopMachineDesc>Detiene el progreso de esta máquina y la obliga a regresar a la base.</VFEMechStopMachineDesc>
+  <!-- EN: Start machine -->
+  <VFEMechStartMachine>Iniciar máquina</VFEMechStartMachine>
+  <!-- EN: Start this machine. -->
+  <VFEMechStartMachineDesc>Inicia esta máquina.</VFEMechStartMachineDesc>
+  <!-- EN: Machine has run into an obstacle! -->
+  <VFEMechMachineHitObstacle>¡La máquina se ha topado con un obstáculo!</VFEMechMachineHitObstacle>
+  <!-- EN: Set area -->
+  <VFEMechSetArea>Establecer área</VFEMechSetArea>
+  <!-- EN: Set the allowed area for all of this platform&apos;s associated machines. -->
+  <VFEMechSetAreaDesc>Establece el área permitida para todas las máquinas asociadas a esta plataforma.</VFEMechSetAreaDesc>
+  <!-- EN: This droid is rideable. People in a caravan will ride the fastest available animals/droids, improving the speed of the caravan as a whole. -->
+  <VFEMRideableMachineTip>Este droide es montable. Las personas en una caravana montarán los animales/droides más rápidos disponibles, mejorando la velocidad de la caravana en su conjunto.</VFEMRideableMachineTip>
+  <!-- EN: {MACHINE_nameDef} ran out of power, and was left behind. -->
+  <VFEM.CaravanMachineRanOutPower>{MACHINE_nameDef} se quedó sin energía y fue dejado atrás.</VFEM.CaravanMachineRanOutPower>
+  <!-- EN: The drone&apos;s name is now {0}. -->
+  <VFEM.DroneGainsName>El nombre del dron es ahora {0}.</VFEM.DroneGainsName>
+  <!-- EN: Toggle {0} -->
+  <MVCF.Toggle>Alternar {0}</MVCF.Toggle>
+  <!-- EN: Toggle using {0} automatically -->
+  <MVCF.ToggleUsing>Alternar el uso de {0} automáticamente</MVCF.ToggleUsing>
+  <!-- EN: Toggle automatic usage -->
+  <MVCF.ToggleAuto>Alternar uso automático</MVCF.ToggleAuto>
+  <!-- EN: Still on cooldown. {0} left. -->
+  <MVCF.Cooldown>Aún en enfriamiento. Quedan {0}.</MVCF.Cooldown>
+  <!-- EN: Multi-Verb Combat Framework -->
+  <MVCF.Setting>Multi-Verb Combat Framework</MVCF.Setting>
+  <!-- EN: Developer Mode -->
+  <MVCF.Settings.Debug>Modo desarrollador</MVCF.Settings.Debug>
+  <!-- EN: Log level: -->
+  <MVCF.Settings.LogLevel>Nivel de registro:</MVCF.Settings.LogLevel>
+  <!-- EN: None -->
+  <MVCF.Settings.LogLevel.None>Ninguno</MVCF.Settings.LogLevel.None>
+  <!-- EN: Important -->
+  <MVCF.Settings.LogLevel.Important>Importante</MVCF.Settings.LogLevel.Important>
+  <!-- EN: Info -->
+  <MVCF.Settings.LogLevel.Info>Información</MVCF.Settings.LogLevel.Info>
+  <!-- EN: Verbose -->
+  <MVCF.Settings.LogLevel.Verbose>Detallado</MVCF.Settings.LogLevel.Verbose>
+  <!-- EN: Silly -->
+  <MVCF.Settings.LogLevel.Silly>Trivial</MVCF.Settings.LogLevel.Silly>
+  <!-- EN: Tick -->
+  <MVCF.Settings.LogLevel.Tick>Tick</MVCF.Settings.LogLevel.Tick>
+  <!-- EN: Toggle automatic reloading while drafted -->
+  <MVCF.ToggleAutoReload>Alternar recarga automática mientras está reclutado</MVCF.ToggleAutoReload>
+  <!-- EN: VE Framework - Outposts -->
+  <Outposts.Settings.Title>VE Framework - Puestos de avanzada</Outposts.Settings.Title>
+  <!-- EN: Gloabal Production Multiplier: {0} -->
+  <Outposts.Settings.Multiplier.Production>Multiplicador de producción global: {0}</Outposts.Settings.Multiplier.Production>
+  <!-- EN: Global Time Multiplier: {0} -->
+  <Outposts.Settings.Multiplier.Time>Multiplicador de tiempo global: {0}</Outposts.Settings.Multiplier.Time>
+  <!-- EN: Global Raid Difficulty Multiplier: {0} -->
+  <Outposts.Settings.RaidDifficulty>Multiplicador de dificultad de asalto global: {0}</Outposts.Settings.RaidDifficulty>
+  <!-- EN: Raid Frequency Range -->
+  <Outposts.Settings.RaidFrequency>Rango de frecuencia de asaltos</Outposts.Settings.RaidFrequency>
+  <!-- EN: Create -->
+  <Outposts.Dialog.Create>Crear</Outposts.Dialog.Create>
+  <!-- EN: Create outpost -->
+  <Outposts.Commands.Create.Label>Crear puesto de avanzada</Outposts.Commands.Create.Label>
+  <!-- EN: Create a new outpost using this caravan. -->
+  <Outposts.Commands.Create.Desc>Crea un nuevo puesto de avanzada usando esta caravana</Outposts.Commands.Create.Desc>
+  <!-- EN: Take items -->
+  <Outposts.Commands.TakeItems.Label>Tomar objetos</Outposts.Commands.TakeItems.Label>
+  <!-- EN: Take items from {0} and add them to the caravan -->
+  <Outposts.Commands.TakeItems.Desc>Toma objetos de {0} y los añade a la caravana</Outposts.Commands.TakeItems.Desc>
+  <!-- EN: Give items -->
+  <Outposts.Commands.GiveItems.Label>Dar objetos</Outposts.Commands.GiveItems.Label>
+  <!-- EN: Take items from {0} and add them to the outpost -->
+  <Outposts.Commands.GiveItems.Desc>Toma objetos de {0} y los añade al puesto de avanzada</Outposts.Commands.GiveItems.Desc>
+  <!-- EN: Outpost lost -->
+  <Outposts.Letters.Lost.Label>Puesto de avanzada perdido</Outposts.Letters.Lost.Label>
+  <!-- EN: Regretfully, due to the deaths of all inhabitants, the outpost of {0} has been lost to us. -->
+  <Outposts.Letters.Lost.Text>Lamentablemente, debido a la muerte de todos sus habitantes, hemos perdido el puesto de avanzada de {0}.</Outposts.Letters.Lost.Text>
+  <!-- EN: Outpost battle won -->
+  <Outposts.Letters.BattleWon.Label>Batalla ganada en el puesto de avanzada</Outposts.Letters.BattleWon.Label>
+  <!-- EN: We have successfully won the battle for {0}.{1} -->
+  <Outposts.Letters.BattleWon.Text>Hemos ganado con éxito la batalla por {0}.{1}</Outposts.Letters.BattleWon.Text>
+  <!-- EN: We have managed to capture {0} in the aftermath -->
+  <Outposts.Letters.BattleWon.Captured>Hemos logrado capturar a {0} tras la batalla</Outposts.Letters.BattleWon.Captured>
+  <!-- EN: We have managed to recover {0}&apos;s body -->
+  <Outposts.Letters.BattleWon.Rescued>Hemos logrado recuperar el cuerpo de {0}</Outposts.Letters.BattleWon.Rescued>
+  <!-- EN: We have secured: {0} worth of goods and weapons from the raiders -->
+  <Outposts.Letters.BattleWon.Secured>Hemos asegurado: {0} en bienes y armas de los asaltantes</Outposts.Letters.BattleWon.Secured>
+  <!-- EN: Items From {0} -->
+  <Outposts.Letters.Items.Label>Objetos de {0}</Outposts.Letters.Items.Label>
+  <!-- EN: You have received the follow items from the outpost {0}: -->
+  <Outposts.Letters.Items.Text>Has recibido los siguientes objetos del puesto de avanzada {0}:</Outposts.Letters.Items.Text>
+  <!-- EN: Add pawn -->
+  <Outposts.Commands.AddPawn.Label>Añadir peón</Outposts.Commands.AddPawn.Label>
+  <!-- EN: Transfer a pawn from this caravan to the outpost -->
+  <Outposts.Commands.AddPawn.Desc>Transfiere un peón de esta caravana al puesto de avanzada</Outposts.Commands.AddPawn.Desc>
+  <!-- EN: Delivery destination -->
+  <Outposts.Commands.DeliveryColony.Label>Destino de entrega</Outposts.Commands.DeliveryColony.Label>
+  <!-- EN: Select which colony will recieve the goods. Currently: {0} -->
+  <Outposts.Commands.DeliveryColony.Desc>Selecciona qué colonia recibirá los bienes. Actualmente: {0}</Outposts.Commands.DeliveryColony.Desc>
+  <!-- EN: Pack -->
+  <Outposts.Commands.Pack.Label>Empacar</Outposts.Commands.Pack.Label>
+  <!-- EN: Begin packing this outpost back into a caravan -->
+  <Outposts.Commands.Pack.Desc>Comienza a empacar este puesto de avanzada de nuevo en una caravana</Outposts.Commands.Pack.Desc>
+  <!-- EN: Stop packing -->
+  <Outposts.Commands.StopPack.Label>Detener empaque</Outposts.Commands.StopPack.Label>
+  <!-- EN: Cancel packing this outpost into a caravan -->
+  <Outposts.Commands.StopPack.Desc>Cancela el empaque de este puesto de avanzada en una caravana</Outposts.Commands.StopPack.Desc>
+  <!-- EN: Remove pawn -->
+  <Outposts.Commands.Remove.Label>Retirar peón</Outposts.Commands.Remove.Label>
+  <!-- EN: Remove a pawn from this outpost into a new caravan -->
+  <Outposts.Commands.Remove.Desc>Retira un peón de este puesto de avanzada a una nueva caravana</Outposts.Commands.Remove.Desc>
+  <!-- EN: Cannot remove pawns: Only 1 inhabitant. If you want to remove this outpost, select &quot;Pack&quot;. -->
+  <Outposts.Command.Remove.Only1>No se pueden retirar peones: solo hay 1 habitante. Si quieres retirar este puesto de avanzada, selecciona "Empacar".</Outposts.Command.Remove.Only1>
+  <!-- EN: Contains {0} pawns -->
+  <Outposts.Contains>Contiene {0} peones</Outposts.Contains>
+  <!-- EN: Packing into caravan. Done in {0} -->
+  <Outposts.Packing>Empacando en caravana. Listo en {0}</Outposts.Packing>
+  <!-- EN: Pawns are not skilled enough, need a cumulative {0} skill of at least {1} -->
+  <Outposts.NotSkilledEnough>Los peones no tienen suficiente habilidad, necesitan una habilidad de {0} acumulada de al menos {1}</Outposts.NotSkilledEnough>
+  <!-- EN: Resting at outpost {0} -->
+  <Outposts.RestingAt>Descansando en el puesto de avanzada {0}</Outposts.RestingAt>
+  <!-- EN: Will produce some items in {0} -->
+  <Outposts.WillProduce.0>Producirá algunos objetos en {0}</Outposts.WillProduce.0>
+  <!-- EN: Will produce {0} {1} in {2} -->
+  <Outposts.WillProduce.1>Producirá {0} {1} en {2}</Outposts.WillProduce.1>
+  <!-- EN: Will produce {0} {1} and {2} {3} in {4} -->
+  <Outposts.WillProduce.2>Producirá {0} {1} y {2} {3} en {4}</Outposts.WillProduce.2>
+  <!-- EN: Will produce the following in {0}:\n{1} -->
+  <Outposts.WillProduce.N>Producirá lo siguiente en {0}:\n{1}</Outposts.WillProduce.N>
+  <!-- EN: Cannot be made in {0} -->
+  <Outposts.CannotBeMade>No se puede fabricar en {0}</Outposts.CannotBeMade>
+  <!-- EN: Not enough pawns in caravan, need at least {0} -->
+  <Outposts.NotEnoughPawns>No hay suficientes peones en la caravana, se necesitan al menos {0}</Outposts.NotEnoughPawns>
+  <!-- EN: Cumulative {0} skill: {1} -->
+  <Outposts.TotalSkill>Habilidad de {0} acumulada: {1}</Outposts.TotalSkill>
+  <!-- EN: Too close to settlement or other outpost, must have at least 1 tile between them. -->
+  <Outposts.TooClose>Demasiado cerca de un asentamiento u otro puesto de avanzada, debe haber al menos 1 casilla entre ellos</Outposts.TooClose>
+  <!-- EN: Your transport pods have arrived. {0} has been added to {1}. -->
+  <Outposts.AddedFromTransportPods>Tus cápsulas de transporte han llegado. {0} ha sido añadido a {1}.</Outposts.AddedFromTransportPods>
+  <!-- EN: Add to outpost -->
+  <Outposts.AddTo>Añadir al puesto de avanzada</Outposts.AddTo>
+  <!-- EN: Confirm sending items to the outpost? They will be permanently lost. -->
+  <Outposts.SendNonPawns>¿Confirmas el envío de objetos al puesto de avanzada? Se perderán permanentemente.</Outposts.SendNonPawns>
+  <!-- EN: Already packing -->
+  <Outposts.AlreadyPacking>Ya se está empacando</Outposts.AlreadyPacking>
+  <!-- EN: Delivery method -->
+  <Outposts.Settings.DeliveryMethod>Método de entrega</Outposts.Settings.DeliveryMethod>
+  <!-- EN: Teleport items to colony -->
+  <Outposts.Settings.DeliveryMethod.Teleport>Teletransportar objetos a la colonia</Outposts.Settings.DeliveryMethod.Teleport>
+  <!-- EN: Send pack animal carrying items to colony -->
+  <Outposts.Settings.DeliveryMethod.PackAnimal>Enviar animal de carga con los objetos a la colonia</Outposts.Settings.DeliveryMethod.PackAnimal>
+  <!-- EN: Store items at outpost -->
+  <Outposts.Settings.DeliveryMethod.Store>Almacenar objetos en el puesto de avanzada</Outposts.Settings.DeliveryMethod.Store>
+  <!-- EN: Always send drop pods -->
+  <Outposts.Settings.DeliveryMethod.ForcePods>Enviar siempre cápsulas de carga</Outposts.Settings.DeliveryMethod.ForcePods>
+  <!-- EN: Pods if available, otherwise pack animal -->
+  <Outposts.Settings.DeliveryMethod.PackOrPods>Cápsulas si están disponibles, de lo contrario animal de carga</Outposts.Settings.DeliveryMethod.PackOrPods>
+  <!-- EN: Outpost abandoned -->
+  <Outposts.Abandoned>Puesto de avanzada abandonado</Outposts.Abandoned>
+  <!-- EN: {0} has been abonded due to having no one inside to run it. It will very quickly be looted and taken over by nature, leaving no trace it was ever there. -->
+  <Outposts.Abandoned.Desc>{0} ha sido abandonado por no tener a nadie dentro para dirigirlo. Será saqueado muy rápidamente y reclamado por la naturaleza, sin dejar rastro de que alguna vez estuvo allí.</Outposts.Abandoned.Desc>
+  <!-- EN: Take -->
+  <Outposts.Take>Tomar</Outposts.Take>
+  <!-- EN: Give -->
+  <Outposts.Give>Dar</Outposts.Give>
+  <!-- EN: Must be in one of the following biomes: -->
+  <Outposts.AllowedBiomes>Debe estar en uno de los siguientes biomas:</Outposts.AllowedBiomes>
+  <!-- EN: Cannot be in any of the following biomes: -->
+  <Outposts.DisallowedBiomes>No puede estar en ninguno de los siguientes biomas:</Outposts.DisallowedBiomes>
+  <!-- EN: Must have at least {0} pawns willing to join the outpost -->
+  <Outposts.NumPawns>Debe haber al menos {0} peones dispuestos a unirse al puesto de avanzada</Outposts.NumPawns>
+  <!-- EN: Cumulative {0} skill must be at least {1} -->
+  <Outposts.RequiredSkill>La habilidad de {0} acumulada debe ser de al menos {1}</Outposts.RequiredSkill>
+  <!-- EN: Must have ability to grow plants -->
+  <Outposts.GrowingRequired>Debe tener la capacidad de cultivar plantas</Outposts.GrowingRequired>
+  <!-- EN: Must have {0} in caravan -->
+  <Outposts.MustHaveInCaravan>Debe tener {0} en la caravana</Outposts.MustHaveInCaravan>
+  <!-- EN: No valid pawns to add to outpost -->
+  <Outposts.NoValidPawns>No hay peones válidos para añadir al puesto de avanzada</Outposts.NoValidPawns>
+  <!-- EN: Due to changes in skill level, {0} can no longer produce {1} -->
+  <Outposts.SkillChange>Debido a cambios en el nivel de habilidad, {0} ya no puede producir {1}</Outposts.SkillChange>
+  <!-- EN: Production Time -->
+  <Outposts.Setting.ProductionTime>Tiempo de producción</Outposts.Setting.ProductionTime>
+  <!-- EN: Pack Time -->
+  <Outposts.Setting.PackTime>Tiempo de empaque</Outposts.Setting.PackTime>
+  <!-- EN: Range -->
+  <Outposts.Setting.Range>Rango</Outposts.Setting.Range>
+  <!-- EN: Minimum Pawns to Create -->
+  <Outposts.Setting.MinimumPawns>Peones mínimos para crear</Outposts.Setting.MinimumPawns>
+  <!-- EN: Production Multiplier -->
+  <Outposts.Settings.Production>Multiplicador de producción</Outposts.Settings.Production>
+  <!-- EN: Enable Outpost Raids? -->
+  <Outposts.Settings.DoRaids>¿Activar asaltos a puestos de avanzada?</Outposts.Settings.DoRaids>
+  <!-- EN: {0} consumption -->
+  <PipeSystem_Consumption>Consumo de {0}</PipeSystem_Consumption>
+  <!-- EN: The amount per day of {0} this building will draw from the {1} grid. -->
+  <PipeSystem_ConsumptionExplained>La cantidad diaria de {0} que este edificio extraerá de la red de {1}.</PipeSystem_ConsumptionExplained>
+  <!-- EN: {0} idle consumption -->
+  <PipeSystem_IdleConsumption>Consumo de {0} en reposo</PipeSystem_IdleConsumption>
+  <!-- EN: The amount of {0} this building will draw from the {1} grid when idle. -->
+  <PipeSystem_IdleConsumptionExplained>La cantidad de {0} que este edificio extraerá de la red de {1} cuando esté inactivo.</PipeSystem_IdleConsumptionExplained>
+  <!-- EN: {0} production -->
+  <PipeSystem_Production>Producción de {0}</PipeSystem_Production>
+  <!-- EN: The amount per day of {0} this building will produce for the {1} grid. -->
+  <PipeSystem_ProductionExplained>La cantidad diaria de {0} que este edificio producirá para la red de {1}.</PipeSystem_ProductionExplained>
+  <!-- EN: Deconstruct {0} pipes -->
+  <PipeSystem_DeconstructLabel>Desmantelar tuberías de {0}</PipeSystem_DeconstructLabel>
+  <!-- EN: Only deconstruct pipes part of the {0} network. -->
+  <PipeSystem_DeconstructDesc>Solo desmantelar tuberías que formen parte de la red de {0}.</PipeSystem_DeconstructDesc>
+  <!-- EN: {0} output: -->
+  <PipeSystem_ResourceOutput>{0} generado:</PipeSystem_ResourceOutput>
+  <!-- EN: {0} needed: -->
+  <PipeSystem_ResourceNeeded>{0} necesario:</PipeSystem_ResourceNeeded>
+  <!-- EN: {0} stored: -->
+  <PipeSystem_ResourceStored>{0} almacenado:</PipeSystem_ResourceStored>
+  <!-- EN: Not connected to {0}. -->
+  <PipeSystem_NotConnected>No conectado a {0}.</PipeSystem_NotConnected>
+  <!-- EN: {0} net excess/stored in network: {1} {3}/d / {2} {3} -->
+  <PipeSystem_ExcessStored>{0} sobrante: {1} {3} ({2} {3}/d almacenados)</PipeSystem_ExcessStored>
+  <!-- EN: {0} stored in network: -->
+  <PipeSystem_Stored>{0} almacenado en la red:</PipeSystem_Stored>
+  <!-- EN: Valve closed. -->
+  <PipeSystem_ValveClosed>Válvula cerrada.</PipeSystem_ValveClosed>
+  <!-- EN: Valve opened. -->
+  <PipeSystem_ValveOpened>Válvula abierta.</PipeSystem_ValveOpened>
+  <!-- EN: +1 -->
+  <PipeSystem_AugmentStack>+1</PipeSystem_AugmentStack>
+  <!-- EN: Augment output maximum stack size by 1. -->
+  <PipeSystem_AugmentStackDesc>Aumenta el tamaño máximo de la pila de salida en 1.</PipeSystem_AugmentStackDesc>
+  <!-- EN: +10 -->
+  <PipeSystem_AugmentStackB>+10</PipeSystem_AugmentStackB>
+  <!-- EN: Augment output maximum stack size by 10. -->
+  <PipeSystem_AugmentStackDescB>Aumenta el tamaño máximo de la pila de salida en 10.</PipeSystem_AugmentStackDescB>
+  <!-- EN: -1 -->
+  <PipeSystem_DecreaseStack>-1</PipeSystem_DecreaseStack>
+  <!-- EN: Decrease output maximum stack size by 1. -->
+  <PipeSystem_DecreaseStackDesc>Disminuye el tamaño máximo de la pila de salida en 1.</PipeSystem_DecreaseStackDesc>
+  <!-- EN: -10 -->
+  <PipeSystem_DecreaseStackB>-10</PipeSystem_DecreaseStackB>
+  <!-- EN: Decrease output maximum stack size by 10. -->
+  <PipeSystem_DecreaseStackDescB>Disminuye el tamaño máximo de la pila de salida en 10.</PipeSystem_DecreaseStackDescB>
+  <!-- EN: Maximum amount stored here: {0} -->
+  <PipeSystem_AmountOut>Cantidad máxima almacenada aquí: {0}</PipeSystem_AmountOut>
+  <!-- EN: Buffer: {0} -->
+  <PipeSystem_ProcessorBuffer>Búfer: {0}</PipeSystem_ProcessorBuffer>
+  <!-- EN: Producing {0} {1}. Cycle progress: {2}. -->
+  <PipeSystem_Producing>Produciendo {0} {1}. Progreso del ciclo: {2}.</PipeSystem_Producing>
+  <!-- EN: Produce {0} {1} from {2} {3}. -->
+  <PipeSystem_Produce>Producir {0} {1} de {2} {3}.</PipeSystem_Produce>
+  <!-- EN: Choose result -->
+  <PipeSystem_ChooseResult>Elegir resultado</PipeSystem_ChooseResult>
+  <!-- EN: Choose processor result. -->
+  <PipeSystem_ChooseResultDesc>Elegir el resultado del procesador.</PipeSystem_ChooseResultDesc>
+  <!-- EN: Produce {0} {1} using: -->
+  <PipeSystem_ProduceLabel>Producir {0} {1} usando:</PipeSystem_ProduceLabel>
+  <!-- EN: Transfer storage content -->
+  <PipeSystem_TransferContent>Transferir contenido del almacén</PipeSystem_TransferContent>
+  <!-- EN: Transfer storage content to other available storages. -->
+  <PipeSystem_TransferContentDesc>Transfiere el contenido del almacén a otros almacenes disponibles.</PipeSystem_TransferContentDesc>
+  <!-- EN: Transfering content to other available storages... -->
+  <PipeSystem_MarkedToTransferContent>Transfiriendo contenido a otros almacenes disponibles...</PipeSystem_MarkedToTransferContent>
+  <!-- EN: No thing to refill {0} -->
+  <PipeSystem_NothingToRefill>Nada para rellenar {0}</PipeSystem_NothingToRefill>
+  <!-- EN: Allow manual refill -->
+  <PipeSystem_AllowManualRefill>Permitir rellenado manual</PipeSystem_AllowManualRefill>
+  <!-- EN: Allow pawns to directly refill storage -->
+  <PipeSystem_AllowManualRefillDesc>Permite que los peones rellenen directamente el almacén</PipeSystem_AllowManualRefillDesc>
+  <!-- EN: Can&apos;t extract: Tanks are full -->
+  <PipeSystem_CantExtract>No se puede extraer: los tanques están llenos</PipeSystem_CantExtract>
+  <!-- EN: {0} can only be placed on the {1} deposit. Use ground-penetrating scanner to find the deposits. -->
+  <PipeSystem_CantPlaceHere>{0} solo se puede colocar sobre el depósito de {1}. Usa el escáner de subsuelo para encontrar los depósitos.</PipeSystem_CantPlaceHere>
+  <!-- EN: Amount left in deposit: {0}. -->
+  <PipeSystem_ResourceLeft>Cantidad restante en el depósito: {0}.</PipeSystem_ResourceLeft>
+  <!-- EN: No storage connected -->
+  <PipeSystem_NoStorageInNet>No hay almacén conectado</PipeSystem_NoStorageInNet>
+  <!-- EN: The following networks are not connected to any storage building, but need one: -->
+  <PipeSystem_NoStorageInNetDesc>Las siguientes redes no están conectadas a ningún edificio de almacenamiento, pero necesitan uno:</PipeSystem_NoStorageInNetDesc>
+  <!-- EN: {0} content rotted away due to a lack of power. -->
+  <PipeSystem_StorageContentRotted>El contenido de {0} se ha podrido debido a la falta de energía.</PipeSystem_StorageContentRotted>
+  <!-- EN: Content will rot in {0} due to a lack of power. -->
+  <PipeSystem_ContentWillRot>El contenido se pudrirá en {0} debido a la falta de energía.</PipeSystem_ContentWillRot>
+  <!-- EN: Nothing to pick-up -->
+  <PipeSystem_NothingToPickUp>Nada que recoger</PipeSystem_NothingToPickUp>
+  <!-- EN: Make {0} -->
+  <PipeSystem_MakeProcess>Fabricar {0}</PipeSystem_MakeProcess>
+  <!-- EN: {0} to net -->
+  <PipeSystem_OutputToNet>{0} a la red</PipeSystem_OutputToNet>
+  <!-- EN: or {0} net -->
+  <PipeSystem_OrNet>o red de {0}</PipeSystem_OrNet>
+  <!-- EN: {0} from net -->
+  <PipeSystem_XFromNet>{0} de la red</PipeSystem_XFromNet>
+  <!-- EN: Processes -->
+  <PipeSystem_Processes>Procesos</PipeSystem_Processes>
+  <!-- EN: Add process -->
+  <PipeSystem_AddProcess>Añadir proceso</PipeSystem_AddProcess>
+  <!-- EN: Cancel current process -->
+  <PipeSystem_CancelCurrentProcess>Cancelar proceso actual</PipeSystem_CancelCurrentProcess>
+  <!-- EN: Can output on ground -->
+  <PipeSystem_OutputOnGround>Puede soltar en el suelo</PipeSystem_OutputOnGround>
+  <!-- EN: No current process -->
+  <PipeSystem_NoProcess>Sin proceso actual</PipeSystem_NoProcess>
+  <!-- EN: No process available -->
+  <PipeSystem_NoProcessAvailable>No hay procesos disponibles</PipeSystem_NoProcessAvailable>
+  <!-- EN: Product -->
+  <PipeSystem_Product>Producto</PipeSystem_Product>
+  <!-- EN: {0}: {1} -->
+  <PipeSystem_ProgressInInfobox>{0}: {1}</PipeSystem_ProgressInInfobox>
+  <!-- EN: Missing inputs: {0} -->
+  <PipeSystem_MissingInputIngredients>Faltan entradas: {0}</PipeSystem_MissingInputIngredients>
+  <!-- EN: Copy processes -->
+  <PipeSystem_CopyProcesses>Copiar procesos</PipeSystem_CopyProcesses>
+  <!-- EN: Paste processes -->
+  <PipeSystem_PasteProcesses>Pegar procesos</PipeSystem_PasteProcesses>
+  <!-- EN: Paste all processes -->
+  <PipeSystem_PasteAllRecipes>Pegar todos los procesos</PipeSystem_PasteAllRecipes>
+  <!-- EN: Paste all copied processes into this processor. You can select multiple and the processes will be pasted to all of them. -->
+  <PipeSystem_PasteAllRecipes_Desc>Pega todos los procesos copiados en este procesador. Puedes seleccionar varios y los procesos se pegarán en todos ellos.</PipeSystem_PasteAllRecipes_Desc>
+  <!-- EN: Extract at current quality -->
+  <PipeSystem_ExtractAtCurrentQuality>Extraer con la calidad actual</PipeSystem_ExtractAtCurrentQuality>
+  <!-- EN: Extract the product at the current quality. -->
+  <PipeSystem_ExtractAtCurrentQuality_Desc>Extrae el producto con la calidad actual.</PipeSystem_ExtractAtCurrentQuality_Desc>
+  <!-- EN: Select the quality at which this process will stop -->
+  <PipeSystem_QualitySelector>Selecciona la calidad en la que se detendrá este proceso</PipeSystem_QualitySelector>
+  <!-- EN: Process needs to advance at least until the Awful quality time, which is {0} -->
+  <PipeSystem_ProcessNeedsAwfulAtLeast>El proceso debe avanzar al menos hasta el tiempo de calidad Pésima, que es {0}</PipeSystem_ProcessNeedsAwfulAtLeast>
+  <!-- EN: Current quality: {0} -->
+  <PipeSystem_CurrentQuality>Calidad actual: {0}</PipeSystem_CurrentQuality>
+  <!-- EN: Process hasn&apos;t reached Awful quality yet -->
+  <PipeSystem_CurrentNotReachedAwful>El proceso aún no ha alcanzado la calidad Pésima</PipeSystem_CurrentNotReachedAwful>
+  <!-- EN: Extracting product at current quality -->
+  <PipeSystem_ExtractingAtCurrent>Extrayendo producto con la calidad actual</PipeSystem_ExtractingAtCurrent>
+  <!-- EN: Output factory hopper absent or not accepting item due to storage configuration. -->
+  <PipeSystem_OutputFactoryHopperIncorrect>La tolva de salida de la fábrica está ausente o no acepta el objeto debido a la configuración de almacenamiento.</PipeSystem_OutputFactoryHopperIncorrect>
+  <!-- EN: Output factory hopper too full (max {0} units) -->
+  <PipeSystem_OutputFactoryHopperFull>La tolva de salida de la fábrica está demasiado llena (máx. {0} unidades)</PipeSystem_OutputFactoryHopperFull>
+  <!-- EN: This processor is not situated in a room that counts as a {0}, and will receive a {1} penalty to its work speed. This will be recalculated once a process has started. -->
+  <PipeSystem_NotInRoomExplanation>Este procesador no está situado en una habitación que cuente como {0}, y recibirá una penalización de {1} a su velocidad de trabajo. Esto se recalculará una vez que haya comenzado un proceso.</PipeSystem_NotInRoomExplanation>
+  <!-- EN: work speed -->
+  <PipeSystem_WorkSpeed>velocidad de trabajo</PipeSystem_WorkSpeed>
+  <!-- EN: Can’t breed fish due to gill rot -->
+  <PipeSystem_InterruptedByGillRot>No se pueden criar peces debido a la podredumbre de las agallas</PipeSystem_InterruptedByGillRot>
+  <!-- EN: Unload {GEAR_labelShort} -->
+  <Reloading.Unload>Descargar {GEAR_labelShort}</Reloading.Unload>
+  <!-- EN: No Ammo -->
+  <Reloading.NoAmmo>Sin munición</Reloading.NoAmmo>
+  <!-- EN: Ammo: {0} / {1} -->
+  <Reloading.Ammo>Munición: {0} / {1}</Reloading.Ammo>
+  <!-- EN: Reload {GEAR} with {AMMO_label} -->
+  <Reloading.Reload>Recargar {GEAR} con {AMMO_label}</Reloading.Reload>
+  <!-- EN: General -->
+  <VEF_GeneralTitle>General</VEF_GeneralTitle>
+  <!-- EN: Custom structure generation: -->
+  <CSGTitle>Generación de estructuras personalizada:</CSGTitle>
+  <!-- EN: Enable structure generation debugging log:  -->
+  <CSGLog>Activar registro de depuración de generación de estructuras:</CSGLog>
+  <!-- EN: Toggleable patches -->
+  <VEF_TPTitle>Parches activables</VEF_TPTitle>
+  <!-- EN: All settings need a restart to be applied -->
+  <NeedRestart>Todos los ajustes necesitan un reinicio para aplicarse</NeedRestart>
+  <!-- EN: {0} patches found -->
+  <XPatchFound>se encontraron {0} parches</XPatchFound>
+  <!-- EN: Weather damages -->
+  <VEF.WeatherDamages>Daños climáticos</VEF.WeatherDamages>
+  <!-- EN: {0} -->
+  <VEF.EnableWeatherDamage>{0}</VEF.EnableWeatherDamage>
+  <!-- EN: Faction Discovery -->
+  <FDTitle>Descubrimiento de facciones</FDTitle>
+  <!-- EN: You first need to load a save -->
+  <NeedToBeInGame>Primero debes cargar una partida</NeedToBeInGame>
+  <!-- EN: Add faction(s) -->
+  <AskForPopUp>Añadir facción(es)</AskForPopUp>
+  <!-- EN: Click this to be asked for each faction if you want it to be added to your game -->
+  <AskForPopUpExplained>Haz clic aquí para que se te pregunte por cada facción si quieres que se añada a tu partida</AskForPopUpExplained>
+  <!-- EN: {0} faction(s) can be added to your current save -->
+  <CanAddXFaction>Se pueden añadir {0} facción(es) a tu partida actual</CanAddXFaction>
+  <!-- EN: Disable mod source reports -->
+  <VEF.DisableModSourceReport>Desactivar informes de origen de mods</VEF.DisableModSourceReport>
+  <!-- EN: Search:  -->
+  <VEF.Shields.Search>Buscar:</VEF.Shields.Search>
+  <!-- EN: Reset mod settings to default -->
+  <VEF.Shields.ResetModSettingsToDefault>Restablecer ajustes del mod por defecto</VEF.Shields.ResetModSettingsToDefault>
+  <!-- EN: Set weapons to be usable or not usable with shields. -->
+  <VEF.Shields.ExplanationTitle>Establece si las armas son utilizables o no con escudos.</VEF.Shields.ExplanationTitle>
+  <!-- EN: Show melee weapons -->
+  <VEF.Shields.ShowMeleeWeapons>Mostrar armas cuerpo a cuerpo</VEF.Shields.ShowMeleeWeapons>
+  <!-- EN: Show range weapons -->
+  <VEF.Shields.ShowRangeWeapons>Mostrar armas a distancia</VEF.Shields.ShowRangeWeapons>
+  <!-- EN: Disable Texture Caching -->
+  <VEF_DisableTextureCaching>Desactivar caché de texturas</VEF_DisableTextureCaching>
+  <!-- EN: Enable PipeSystem no storage alert -->
+  <VEF_EnablePipeSystemNoStorageAlert>Activar alerta de falta de almacenamiento en PipeSystem</VEF_EnablePipeSystemNoStorageAlert>
+  <!-- EN: Faction Discovery -->
+  <VEF_FactionDiscovery>Descubrimiento de facciones</VEF_FactionDiscovery>
+  <!-- EN: Custom Structure Generation: -->
+  <VEF_CustomStructureGeneration>Generación de estructuras personalizada:</VEF_CustomStructureGeneration>
+  <!-- EN: Texture Variations: -->
+  <VEF_TextureVariations>Variaciones de textura:</VEF_TextureVariations>
+  <!-- EN: Verbose logging -->
+  <VEF_VerboseLogging>Registro detallado</VEF_VerboseLogging>
+  <!-- EN: Unforbid mined ores -->
+  <VEF_UnforbidMinedOres>Permitir minerales minados</VEF_UnforbidMinedOres>
+  <!-- EN: Never -->
+  <VEF_Never>Nunca</VEF_Never>
+  <!-- EN: Home Area -->
+  <VEF_HomeArea>Área del hogar</VEF_HomeArea>
+  <!-- EN: Always -->
+  <VEF_Always>Siempre</VEF_Always>
+  <!-- EN: Never unforbid mined ores (this is how the base game works for non-human pawns, such as animals and mechs) -->
+  <VEF_NeverDesc>Nunca permitir minerales minados (así funciona el juego base para peones no humanos, como animales y mecanoides)</VEF_NeverDesc>
+  <!-- EN: Ores mined by pawns are only unforbidden if mined in the home area -->
+  <VEF_HomeAreaDesc>Los minerales minados por peones solo se permiten si se minan en el área del hogar</VEF_HomeAreaDesc>
+  <!-- EN: Ores mined by pawns are always unforbidden -->
+  <VEF_AlwaysDesc>Los minerales minados por peones siempre se permiten</VEF_AlwaysDesc>
+  <!-- EN: is too -->
+  <VFECore.IsToo>es demasiado</VFECore.IsToo>
+  <!-- EN: advanced -->
+  <VFECore.Advanced>avanzado</VFECore.Advanced>
+  <!-- EN: primitive -->
+  <VFECore.Primitive>primitivo</VFECore.Primitive>
+  <!-- EN: Powered -->
+  <VFECore.StatsReport_Powered>Con energía</VFECore.StatsReport_Powered>
+  <!-- EN: Unpowered -->
+  <VFECore.StatsReport_Unpowered>Sin energía</VFECore.StatsReport_Unpowered>
+  <!-- EN: Range Attack Speed Factor -->
+  <VEF_RangeAttackSpeedFactor>Factor de velocidad de ataque a distancia</VEF_RangeAttackSpeedFactor>
+  <!-- EN: Dodge -->
+  <VEF.RangedDodge.ShotReportReadout>Esquivar</VEF.RangedDodge.ShotReportReadout>
+  <!-- EN: insect creep -->
+  <TerrainTagVFEI2_Creep>biomasa insecto</TerrainTagVFEI2_Creep>
+  <!-- EN: jellyfloor -->
+  <TerrainTagVFEI2_JellyFloor>suelo de jalea</TerrainTagVFEI2_JellyFloor>
+  <!-- EN: royal jellyfloor -->
+  <TerrainTagVFEI2_RoyalJellyFloor>suelo de jalea real</TerrainTagVFEI2_RoyalJellyFloor>
+  <!-- EN: Hire {0} -->
+  <VEF.Hire>Contratar {0}</VEF.Hire>
+  <!-- EN: Hire some {0} to help around the colony, for example with defense. -->
+  <VEF.HireDesc>Contrata algunos {0} para ayudar en la colonia, por ejemplo, con la defensa.</VEF.HireDesc>
+  <!-- EN: Available Silver: {0} -->
+  <VEF.AvailableSilver>Plata disponible: {0}</VEF.AvailableSilver>
+  <!-- EN: Value -->
+  <VEF.Value>Valor</VEF.Value>
+  <!-- EN: How many of that unit do you want to have? -->
+  <VEF.ChooseNumberOfUnits>¿Cuántas unidades de ese tipo quieres tener?</VEF.ChooseNumberOfUnits>
+  <!-- EN: Breakdown -->
+  <VEF.Breakdown>Desglose</VEF.Breakdown>
+  <!-- EN: Amount of Days -->
+  <VEF.DayAmount>Cantidad de días</VEF.DayAmount>
+  <!-- EN: Cost to hire -->
+  <VEF.Cost>Coste de contratación</VEF.Cost>
+  <!-- EN: Risk multiplier -->
+  <VEF.RiskMult>Multiplicador de riesgo</VEF.RiskMult>
+  <!-- EN: Total Price -->
+  <VEF.TotalPrice>Precio total</VEF.TotalPrice>
+  <!-- EN: You can hire {0} for any period of time.You can only have one contract active at a time, and you cannot mix and match the factions from which you hire.
+If hired {0} die on duty, you will incur an additional 5% increase to contract price per dead pirate on all future contracts for a full year. -->
+  <VEF.HiringDesc>Puedes contratar {0} por cualquier periodo de tiempo. Solo puedes tener un contrato activo a la vez, y no puedes mezclar facciones de las que contratas.\nSi los {0} contratados mueren en servicio, incurrirás en un aumento adicional del 5% al precio del contrato por cada pirata muerto en todos los contratos futuros durante un año completo.</VEF.HiringDesc>
+  <!-- EN: Long term contracts are significantly more expensive -->
+  <VEF.LongTerm>Los contratos a largo plazo son significativamente más caros</VEF.LongTerm>
+  <!-- EN: View contract with {0} -->
+  <VEF.ContractInfo>Ver contrato con {0}</VEF.ContractInfo>
+  <!-- EN: Contracted: -->
+  <VEF.PawnsList>Contratados:</VEF.PawnsList>
+  <!-- EN: Contract with {0} -->
+  <VEF.ContractTitle>Contrato con {0}</VEF.ContractTitle>
+  <!-- EN: Silver spent: -->
+  <VEF.Spent>Plata gastada:</VEF.Spent>
+  <!-- EN: Time remaining: -->
+  <VEF.TimeLeft>Tiempo restante:</VEF.TimeLeft>
+  <!-- EN: Cancel Contract -->
+  <VEF.CancelContract>Cancelar contrato</VEF.CancelContract>
+  <!-- EN: Cancelling your contract will not refund the silver you spent on it. -->
+  <VEF.NoRefund>Cancelar tu contrato no reembolsará la plata que gastaste en él.</VEF.NoRefund>
+  <!-- EN: Customize {0} -->
+  <VEF.Customize>Personalizar {0}</VEF.Customize>
+  <!-- EN: {0} Customization -->
+  <VEF.CustomizationTitle>Personalización de {0}</VEF.CustomizationTitle>
+  <!-- EN: Name -->
+  <VEF.Name>Nombre</VEF.Name>
+  <!-- EN: Cancel -->
+  <VEF.Cancel>Cancelar</VEF.Cancel>
+  <!-- EN: Available contracts: {0} -->
+  <VEF.AvailableContracts>Contratos disponibles: {0}</VEF.AvailableContracts>
+  <!-- EN: Mechanoids -->
+  <VEF.MechsSection>Mecanoides</VEF.MechsSection>
+  <!-- EN: Default -->
+  <VEF.DoorLockDefault>Por defecto</VEF.DoorLockDefault>
+  <!-- EN: Everyone -->
+  <VEF.DoorLockEveryone>Todos</VEF.DoorLockEveryone>
+  <!-- EN: Only colonists and animals -->
+  <VEF.DoorLockOnlyColonistsAndAnimals>Solo colonos y animales</VEF.DoorLockOnlyColonistsAndAnimals>
+  <!-- EN: Only colonists, animals and friendlies -->
+  <VEF.DoorLockOnlyColonistsAndAnimalsAndFriendlies>Solo colonos, animales y aliados</VEF.DoorLockOnlyColonistsAndAnimalsAndFriendlies>
+  <!-- EN: Only drafted -->
+  <VEF.DoorLockOnlyDrafted>Solo reclutados</VEF.DoorLockOnlyDrafted>
+  <!-- EN: Current door lock policy &quot;{0}&quot; -->
+  <VEF.DoorLockState>Política actual de bloqueo de puertas "{0}"</VEF.DoorLockState>
+  <!-- EN: Click to change current door lock policy. -->
+  <VEF.DoorLockStateDesc>Haz clic para cambiar la política actual de bloqueo de puertas.</VEF.DoorLockStateDesc>
+  <!-- EN: Power is off. Impossible to change door lock policy. -->
+  <VEF.DoorLockStatePowerOff>La energía está apagada. Es imposible cambiar la política de bloqueo de puertas.</VEF.DoorLockStatePowerOff>
+  <!-- EN: Hunt -->
+  <VEF.DraftHuntLabel>Cazar</VEF.DraftHuntLabel>
+  <!-- EN: While this is on characters will automatically move to engage nearby targets.\n\nYou can right-click this button to toggle autofire for ALL abilities on the selected pawn. -->
+  <VEF.HuntDescription>Mientras esto esté activado, los personajes se moverán automáticamente para atacar a los objetivos cercanos.\n\nPuedes hacer clic derecho en este botón para alternar el autodisparo de TODAS las habilidades en el peón seleccionado.</VEF.HuntDescription>
+  <!-- EN: This quest is a part of a quest chain. Completing it may trigger continuation quests.\n\n{0}\n\n{1} -->
+  <VEF.QuestChainTooltip>Esta misión es parte de una cadena de misiones. Completarla puede activar misiones de continuación.\n\n{0}\n\n{1}</VEF.QuestChainTooltip>
+  <!-- EN: Attack this {0}. -->
+  <VEF.CommandAttackMovingBaseDesc>Atacar este {0}.</VEF.CommandAttackMovingBaseDesc>
+  <!-- EN: Change visual -->
+  <VFE.ChangeVisualLabel>Cambiar aspecto visual</VFE.ChangeVisualLabel>
+  <!-- EN: Set a specific visual for the building or item. -->
+  <VFE.ChangeVisualDesc>Establece un aspecto visual específico para el edificio u objeto.</VFE.ChangeVisualDesc>
+  <!-- EN: min {MIN}% -->
+  <VEF.MinCapacityLevel>mín {MIN}%</VEF.MinCapacityLevel>
+  <!-- EN: Allow chronic health conditions in food (Diabetes, Cholesterol and High Blood Pressure) -->
+  <VCE_AllowConditions>Permitir condiciones de salud crónicas en la comida (diabetes, colesterol e hipertensión)</VCE_AllowConditions>
+  <!-- EN: Vanilla Cooking Expanded must be installed for these options to have any effect -->
+  <VCE_MustBeInstalled>Vanilla Cooking Expanded debe estar instalado para que estas opciones tengan efecto</VCE_MustBeInstalled>
+  <!-- EN: Apiary found nearby -->
+  <VCE_Pollinated>Apiario encontrado cerca</VCE_Pollinated>
+  <!-- EN: No apiary found in a 6 tiles radius (calculated on sowing) -->
+  <VCE_NotPollinated>No se encontró ningún apiario en un radio de 6 casillas (calculado al sembrar)</VCE_NotPollinated>
+  <!-- EN: Not in equatorial region (in this planet, below {0} latitude). Growing normally. -->
+  <VCE_NotInEquator>No está en la región ecuatorial (en este planeta, por debajo de {0} de latitud). Creciendo normalmente.</VCE_NotInEquator>
+  <!-- EN: In equatorial region, growing 30% faster. -->
+  <VCE_InEquator>En la región ecuatorial, creciendo un 30% más rápido.</VCE_InEquator>
+  <!-- EN: This plant needs to grow in shade: outside, but under a roof. -->
+  <VCE_NeedsShade>Esta planta necesita crecer a la sombra: en el exterior, pero bajo un techo.</VCE_NeedsShade>
+  <!-- EN: Growth reduced due to non-rocky terrain -->
+  <VCE_StuntedGrowthFertility>Crecimiento reducido debido a terreno no rocoso</VCE_StuntedGrowthFertility>
+  <!-- EN: Growth impossible due to too fertile terrain -->
+  <VCE_StoppedGrowthFertility>Crecimiento imposible debido a un terreno demasiado fértil</VCE_StoppedGrowthFertility>
+  <!-- EN: A body of water nearby is impeding this plant&apos;s growth -->
+  <VCE_WaterNearby>Un cuerpo de agua cercano está impidiendo el crecimiento de esta planta</VCE_WaterNearby>
+  <!-- EN: Lack of a body of water nearby is impeding this plant&apos;s growth -->
+  <VCE_NoWaterNearby>La falta de un cuerpo de agua cercano está impidiendo el crecimiento de esta planta</VCE_NoWaterNearby>
+  <!-- EN: Too far away from the sea, no extra growth bonus -->
+  <VCE_NoSeaTilesNearby>Demasiado lejos del mar, sin bonificación de crecimiento adicional</VCE_NoSeaTilesNearby>
+  <!-- EN: {0} sea tiles nearby, providing {0}% growth bonus -->
+  <VCE_SeaTilesNearby>{0} casillas de mar cerca, proporcionando un {0}% de bonificación de crecimiento</VCE_SeaTilesNearby>
+  <!-- EN: Drill for {0} -->
+  <VFE_ChunkToMine>Perforar para obtener {0}</VFE_ChunkToMine>
+  <!-- EN: Drill for Random Chunks -->
+  <VFE_ChunkRandomMine>Perforar para obtener trozos aleatorios</VFE_ChunkRandomMine>
+  <!-- EN: Choose chunk type to drill -->
+  <VFE_ChooseMine>Elegir tipo de trozo a perforar</VFE_ChooseMine>
+  <!-- EN: Choose chunk type to drill. You can choose any of the map&apos;s rock types, or random -->
+  <VFE_ChooseMineDesc>Elige el tipo de trozo a perforar. Puedes elegir cualquiera de los tipos de roca del mapa, o aleatorio</VFE_ChooseMineDesc>
+  <!-- EN: Random chunk -->
+  <VFE_RandomRock>Trozo aleatorio</VFE_RandomRock>
+  <!-- EN: Select machine output -->
+  <VFE_PleaseSelectOutput>Seleccionar producto de la máquina</VFE_PleaseSelectOutput>
+  <!-- EN: This building must be placed on water -->
+  <VFE_NeedsWater>Este edificio debe colocarse sobre agua</VFE_NeedsWater>
+  <!-- EN: This building must be placed on sand -->
+  <VFE_NeedsSand>Este edificio debe colocarse sobre arena</VFE_NeedsSand>
+  <!-- EN: Random Graphic -->
+  <VFE_ChangeGraphic>Gráfico aleatorio</VFE_ChangeGraphic>
+  <!-- EN: Change Graphic of this building randomly between those available -->
+  <VFE_ChangeGraphicDesc>Cambia el gráfico de este edificio aleatoriamente entre los disponibles</VFE_ChangeGraphicDesc>
+  <!-- EN: Choose Graphic -->
+  <VFE_ChooseGraphic>Elegir gráfico</VFE_ChooseGraphic>
+  <!-- EN: Choose Graphic of this building via a menu with all available options -->
+  <VFE_ChooseGraphicDesc>Elige el gráfico de este edificio a través de un menú con todas las opciones disponibles</VFE_ChooseGraphicDesc>
+  <!-- EN: This building doesn&apos;t have extra random graphics to choose from. Some modder added the comp class to the building without alternative graphics, which is weird -->
+  <VFE_NoGraphics>Este edificio no tiene gráficos aleatorios adicionales para elegir. Algún modder añadió la clase comp al edificio sin gráficos alternativos, lo cual es extraño</VFE_NoGraphics>
+  <!-- EN: Hide the &quot;Random Graphic&quot; and &quot;Choose Graphic&quot; buttons -->
+  <VFE_HideRandomizeButton>Ocultar los botones "Gráfico aleatorio" y "Elegir gráfico"</VFE_HideRandomizeButton>
+  <!-- EN: Make random graphics buildings NOT start randomized -->
+  <VFE_RandomBuildingsDontStartRandom>Hacer que los edificios con gráficos aleatorios NO comiencen aleatorizados</VFE_RandomBuildingsDontStartRandom>
+  <!-- EN: Switch light color -->
+  <VFE.SwitchLightColor>Cambiar color de luz</VFE.SwitchLightColor>
+  <!-- EN: Change current light colour. -->
+  <VFE.SwitchLightColorDesc>Cambia el color de luz actual.</VFE.SwitchLightColorDesc>
+  <!-- EN: Change color to {0} -->
+  <VFE.ChangeColorTo>Cambiar color a {0}</VFE.ChangeColorTo>
+  <!-- EN: Power is off. Impossible to switch color. -->
+  <VFE.ColorSwitchPowerOff>La energía está apagada. Es imposible cambiar el color.</VFE.ColorSwitchPowerOff>
+  <!-- EN: over 40ºC -->
+  <VGE_StatsReport_Over40>sobre 40ºC</VGE_StatsReport_Over40>
+  <!-- EN: below 0ºC -->
+  <VGE_StatsReport_Below0>bajo 0ºC</VGE_StatsReport_Below0>
+  <!-- EN: armoured -->
+  <VGE_StatsReport_Armoured>blindado</VGE_StatsReport_Armoured>
+  <!-- EN: no sunlight -->
+  <VGE_StatsReport_NoSunlight>sin luz solar</VGE_StatsReport_NoSunlight>
+  <!-- EN: on water -->
+  <VGE_StatsReport_Water>sobre el agua</VGE_StatsReport_Water>
+  <!-- EN: on dry land -->
+  <VGE_StatsReport_NotWater>en tierra firme</VGE_StatsReport_NotWater>
+  <!-- EN: outdoors -->
+  <VGE_StatsReport_Outside>en exteriores</VGE_StatsReport_Outside>
+  <!-- EN: indoors -->
+  <VGE_StatsReport_Inside>en interiores</VGE_StatsReport_Inside>
+  <!-- EN: above 50% lit -->
+  <VGE_StatsReport_InLight>iluminación superior al 50%</VGE_StatsReport_InLight>
+  <!-- EN: below 50% lit -->
+  <VGE_StatsReport_InDarkness>iluminación inferior al 50%</VGE_StatsReport_InDarkness>
+  <!-- EN: in pain -->
+  <VGE_StatsReport_InPain>con dolor</VGE_StatsReport_InPain>
+  <!-- EN: in great pain (&gt;20%) -->
+  <VGE_StatsReport_InGreatPain>TODO</VGE_StatsReport_InGreatPain>
+  <!-- EN: in polluted terrain -->
+  <VGE_StatsReport_InPollution>en terreno contaminado</VGE_StatsReport_InPollution>
+  <!-- EN: on colony map -->
+  <VGE_StatsReport_ColonyMap>en el mapa de la colonia</VGE_StatsReport_ColonyMap>
+  <!-- EN: outside colony map -->
+  <VGE_StatsReport_OutsideColonyMap>fuera del mapa de la colonia</VGE_StatsReport_OutsideColonyMap>
+  <!-- EN: light sensitivity -->
+  <VGE_StatsReport_AnyLightSensitivity>sensibilidad a la luz</VGE_StatsReport_AnyLightSensitivity>
+  <!-- EN: in vacuum -->
+  <VGE_StatsReport_InVacuum>en el vacío</VGE_StatsReport_InVacuum>
+  <!-- EN: in Space -->
+  <VGE_StatsReport_InSpace>en el espacio</VGE_StatsReport_InSpace>
+  <!-- EN: in the planet -->
+  <VGE_StatsReport_InPlanet>en el planeta</VGE_StatsReport_InPlanet>
+  <!-- EN: {0}&apos;s eggs have been fertilized! The egglaying process will continue until a fertile egg is laid. -->
+  <VGE_EggPregnancy>¡Los huevos de {0} han sido fertilizados! El proceso de puesta continuará hasta que se ponga un huevo fértil.</VGE_EggPregnancy>
+  <!-- EN: {0} fertilized! -->
+  <VGE_EggPregnancyLabel>¡{0} fertilizado!</VGE_EggPregnancyLabel>
+  <!-- EN: {0} has laid an egg! Keep it warm and protected. -->
+  <VGE_EggLaid>¡{0} ha puesto un huevo! Manténlo caliente y protegido.</VGE_EggLaid>
+  <!-- EN: {0} laid an egg! -->
+  <VGE_EggLaidLabel>¡{0} puso un huevo!</VGE_EggLaidLabel>
+  <!-- EN: {0} has hatched from an egg! -->
+  <VGE_EggHatched>¡{0} ha eclosionado de un huevo!</VGE_EggHatched>
+  <!-- EN: {0} hatched! -->
+  <VGE_EggHatchedLabel>¡{0} eclosionó!</VGE_EggHatchedLabel>
+  <!-- EN: Males don&apos;t lay eggs -->
+  <VGE_Male_Egg>Los machos no ponen huevos</VGE_Male_Egg>
+  <!-- EN: Pregnancy factor gene: {0} gestation speed -->
+  <VGE_PregnancyFactor>Gen de factor de embarazo: {0} de velocidad de gestación</VGE_PregnancyFactor>
+  <!-- EN: {0} only gene. -->
+  <VGE_ForGenderOnly>Gen solo para {0}.</VGE_ForGenderOnly>
+  <!-- EN: {0} needs one of the following memes to be chosen too to work: {1} -->
+  <VME_MessageNeedsThePairedMeme>{0} necesita que también se elija uno de los siguientes memes para funcionar: {1}</VME_MessageNeedsThePairedMeme>
+</LanguageData>

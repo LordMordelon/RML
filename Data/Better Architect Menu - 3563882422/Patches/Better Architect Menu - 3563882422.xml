@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Colony"]/label</xpath>
+    <value>
+      <!-- EN: Manage -->
+      <label>Gestionar</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Automation"]/label</xpath>
+    <value>
+      <!-- EN: Automate -->
+      <label>Automatizar</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Storage"]/label</xpath>
+    <value>
+      <!-- EN: Store -->
+      <label>Almacén</label>
+    </value>
+  </Operation>
+</Patch>

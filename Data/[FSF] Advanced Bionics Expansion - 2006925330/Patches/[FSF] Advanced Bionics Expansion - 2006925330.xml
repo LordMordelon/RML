@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFAdvBionicLung"]/description</xpath>
+          <value>
+            <!-- EN: An installed advanced bionic lung.  A highly advanced artificial lung made using cutting edge ultratech techniques.  It provides enhanced breathing which improves consciousness, helps with movement and promotes a better night’s rest.  It’s as hard as plasteel and through the use of a lattice-dust healing system its capable of repairing itself over time.\n\nIt’s microfilters reduce the intake of environmental toxins allowing the user to survive longer in polluted environments.  Additionally, it negates the irritation of acidic smoke and prevents lung rot in this lung. -->
+            <description>Un pulmón ultrabiónico instalado. Un pulmón artificial altamente avanzado hecho con técnicas de ultratecnología de vanguardia. Proporciona una respiración mejorada que mejora la conciencia, ayuda con el movimiento y promueve un mejor descanso nocturno. Es tan duro como el plastiacero y a través del uso de un sistema de curación de polvo reticular es capaz de repararse a sí mismo con el tiempo.\n\nSus microfiltros reducen la ingesta de toxinas ambientales permitiendo al usuario sobrevivir más tiempo en ambientes contaminados. Además, niega la irritación del humo ácido y previene la podredumbre pulmonar en este pulmón.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFAdvBionicLung"]/description</xpath>
+          <value>
+            <!-- EN: A highly advanced artificial lung made using cutting edge ultratech techniques.  It provides enhanced breathing which improves consciousness, helps with movement and promotes a better night’s rest.  It’s as hard as plasteel and through the use of a lattice-dust healing system its capable of repairing itself over time.\n\nIt’s microfilters reduce the intake of environmental toxins allowing the user to survive longer in polluted environments.  Additionally, it negates the irritation of acidic smoke and prevents lung rot in this lung. -->
+            <description>Un pulmón artificial altamente avanzado hecho con técnicas de ultratecnología de vanguardia. Proporciona una respiración mejorada que mejora la conciencia, ayuda con el movimiento y promueve un mejor descanso nocturno. Es tan duro como el plastiacero y a través del uso de un sistema de curación de polvo reticular es capaz de repararse a sí mismo con el tiempo.\n\nSus microfiltros reducen la ingesta de toxinas ambientales permitiendo al usuario sobrevivir más tiempo en ambientes contaminados. Además, niega la irritación del humo ácido y previene la podredumbre pulmonar en este pulmón.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFAdvBionicKidney"]/description</xpath>
+          <value>
+            <!-- EN: An installed advanced bionic kidney.  A highly advanced artificial kidney made using cutting edge ultratech techniques.  It provides enhanced blood filtration which helps fight against diseases and infections.  Using a series of nanofilters, it can rapidly remove a vast range of toxins from the blood, making it effective against environmental toxins, venoms, and injected poisons.  It’s as hard as plasteel and through the use of a lattice-dust healing system its capable of repairing itself over time. -->
+            <description>Un riñón ultrabiónico instalado. Un riñón artificial altamente avanzado hecho con técnicas de ultratecnología de vanguardia. Proporciona una filtración sanguínea mejorada que ayuda a luchar contra enfermedades e infecciones. Usando una serie de nanofiltros, puede eliminar rápidamente una amplia gama de toxinas de la sangre, haciéndolo efectivo contra toxinas ambientales, venenos y venenos inyectados. Es tan duro como el plastiacero y a través del uso de un sistema de curación de polvo reticular es capaz de repararse a sí mismo con el tiempo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFAdvBionicKidney"]/description</xpath>
+          <value>
+            <!-- EN: A highly advanced artificial kidney made using cutting edge ultratech techniques.  It provides enhanced blood filtration which helps fight against diseases and infections.  Using a series of nanofilters, it can rapidly remove a vast range of toxins from the blood, making it effective against environmental toxins, venoms, and injected poisons.  It’s as hard as plasteel and through the use of a lattice-dust healing system its capable of repairing itself over time. -->
+            <description>Un riñón artificial altamente avanzado hecho con técnicas de ultratecnología de vanguardia. Proporciona una filtración sanguínea mejorada que ayuda a luchar contra enfermedades e infecciones. Usando una serie de nanofiltros, puede eliminar rápidamente una amplia gama de toxinas de la sangre, haciéndolo efectivo contra toxinas ambientales, venenos y venenos inyectados. Es tan duro como el plastiacero y a través del uso de un sistema de curación de polvo reticular es capaz de repararse a sí mismo con el tiempo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFImplantTorsoRespirator"]/description</xpath>
+          <value>
+            <!-- EN: An installed environmental filter.  A small internal module connected to the respiratory system that filters the incoming air of environmental toxins and gases.  The gathered toxins are later harmlessly excreted from the body.  The implant allows the user to survive longer in polluted environments.  Additionally, it negates the irritation of acidic smoke and prevents lung rot. -->
+            <description>Un filtro ambiental instalado. Un pequeño módulo interno conectado al sistema respiratorio que filtra el aire entrante de toxinas y gases ambientales. Las toxinas recolectadas se excretan más tarde inofensivamente del cuerpo. El implante permite al usuario sobrevivir más tiempo en ambientes contaminados. Además, niega la irritación del humo ácido y previene la podredumbre pulmonar.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFImplantTorsoRespirator"]/description</xpath>
+          <value>
+            <!-- EN: A small internal module connected to the respiratory system that filters the incoming air of environmental toxins and gases.  The gathered toxins are later harmlessly excreted from the body.  The implant allows the user to survive longer in polluted environments.  Additionally, it negates the irritation of acidic smoke and prevents lung rot. -->
+            <description>Un pequeño módulo interno conectado al sistema respiratorio que filtra el aire entrante de toxinas y gases ambientales. Las toxinas recolectadas se excretan más tarde inofensivamente del cuerpo. El implante permite al usuario sobrevivir más tiempo en ambientes contaminados. Además, niega la irritación del humo ácido y previene la podredumbre pulmonar.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFImplantMechanitesHealing"]/description</xpath>
+            <value>
+              <!-- EN: A dose of semi-coherent mechanites designed to rapidly heal injuries within the host.  They&apos;re so powerful they can regenerate scars, missing organs and lost limbs.\n\nFor ease-of-use the mechanites are designed to be self-installable via a small handheld injector.  Due to how mechanites work only one strain can exist harmoniously inside the host’s body.  Upon injection any existing strain will be eliminated by the newly injected mechanites.  It is possible to remove mechanite strains entirely from a host, however it requires an expensive and difficult surgery. -->
+              <description>Una dosis de mecanitas semi-coherentes diseñados para curar rápidamente lesiones dentro del huésped. Son tan poderosos que pueden regenerar cicatrices, órganos faltantes y extremidades perdidas.\n\nPara facilitar su uso, las mecanitas están diseñados para ser autoinstalables mediante un pequeño inyector manual. Debido a cómo funcionan las mecanitas, solo una cepa puede existir armoniosamente dentro del cuerpo del huésped. Tras la inyección, cualquier cepa existente será eliminada por las mecanitas recién inyectadas. Es posible eliminar las cepas de mecanitas por completo de un huésped, sin embargo, requiere una cirugía costosa y difícil.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFImplantMechanitesHealing"]/description</xpath>
+            <value>
+              <!-- EN: A dose of semi-coherent mechanites designed to rapidly heal injuries within the host.  They&apos;re so powerful they can regenerate scars, missing organs and lost limbs.\n\nFor ease-of-use the mechanites are designed to be self-installable via a small handheld injector.  Due to how mechanites work only one strain can exist harmoniously inside the host’s body.  Upon injection any existing strain will be eliminated by the newly injected mechanites.  It is possible to remove mechanite strains entirely from a host, however it requires an expensive and difficult surgery. -->
+              <description>Una dosis de mecanitas semi-coherentes diseñados para curar rápidamente lesiones dentro del huésped. Son tan poderosos que pueden regenerar cicatrices, órganos faltantes y extremidades perdidas.\n\nPara facilitar su uso, las mecanitas están diseñados para ser autoinstalables mediante un pequeño inyector manual. Debido a cómo funcionan las mecanitas, solo una cepa puede existir armoniosamente dentro del cuerpo del huésped. Tras la inyección, cualquier cepa existente será eliminada por las mecanitas recién inyectadas. Es posible eliminar las cepas de mecanitas por completo de un huésped, sin embargo, requiere una cirugía costosa y difícil.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFImplantTorsoResurrect"]/description</xpath>
+            <value>
+              <!-- EN: An installed resurrection core.  A small durable core which contains a one-use super-dose of mechanites tuned to resurrect the dead. After the host dies, the core will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. -->
+              <description>Un núcleo de resurrección instalado. Un pequeño núcleo duradero que contiene una superdosis de un solo uso de mecanitas sintonizadas para resucitar a los muertos. Después de que el huésped muere, el núcleo mantendrá su mente y, cuando elija, reconstruirá su cuerpo. La carne se reformará rápidamente, reemplazando órganos faltantes y curando heridas. El proceso no es perfecto y puede causar cicatrices u otras complicaciones de salud.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFImplantTorsoResurrect"]/description</xpath>
+            <value>
+              <!-- EN: A small durable core which contains a one-use super-dose of mechanites tuned to resurrect the dead. After the host dies, the core will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. -->
+              <description>Un pequeño núcleo duradero que contiene una superdosis de un solo uso de mecanitas sintonizadas para resucitar a los muertos. Después de que el huésped muere, el núcleo mantendrá su mente y, cuando elija, reconstruirá su cuerpo. La carne se reformará rápidamente, reemplazando órganos faltantes y curando heridas. El proceso no es perfecto y puede causar cicatrices u otras complicaciones de salud.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFArchotechImplantTorsoImmortal"]/description</xpath>
+            <value>
+              <!-- EN: An installed immortality core.  A small durable core of archotech design said to make its host immortal through rapid regeneration.  Its inner workings are a complete mystery, it’s unclear how it can endlessly regenerate a person seemingly from nothing.  Once implanted the core cannot be removed without damaging the device rendering it inert. -->
+              <description>Un núcleo de inmortalidad instalado. Un pequeño núcleo duradero de diseño arqueotéc que se dice que hace inmortal a su huésped a través de una rápida regeneración. Su funcionamiento interno es un completo misterio, no está claro cómo puede regenerar infinitamente a una persona aparentemente de la nada. Una vez implantado, el núcleo no se puede quitar sin dañar el dispositivo dejándolo inerte.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFArchotechImplantTorsoImmortal"]/description</xpath>
+            <value>
+              <!-- EN: A small durable core of archotech design said to make its host immortal through rapid regeneration.  Its inner workings are a complete mystery, it’s unclear how it can endlessly regenerate a person seemingly from nothing.  Once implanted the core cannot be removed without damaging the device rendering it inert. -->
+              <description>Un pequeño núcleo duradero de diseño arqueotéc que se dice que hace inmortal a su huésped a través de una rápida regeneración. Su funcionamiento interno es un completo misterio, no está claro cómo puede regenerar infinitamente a una persona aparentemente de la nada. Una vez implantado, el núcleo no se puede quitar sin dañar el dispositivo dejándolo inerte.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

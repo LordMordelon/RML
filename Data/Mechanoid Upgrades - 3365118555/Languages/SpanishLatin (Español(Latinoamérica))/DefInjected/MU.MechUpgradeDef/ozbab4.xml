@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: mini-burner -->
+  <MU_ChemfuelMiniBurner.label>mini-quemador</MU_ChemfuelMiniBurner.label>
+  <!-- EN: A chemfuel-powered mini-burner unit which can be installed into mechanoid. Generates a stream of flame from highly flammable chemfuel, that form flamming pools on the ground. The mini-burner requires refueling after every use. -->
+  <MU_ChemfuelMiniBurner.description>Una unidad de mini-quemador alimentada por quimicombustible que puede instalarse en el mecanoide. Genera una corriente de llamas a partir de quimicombustible altamente inflamable, que forman charcos de fuego en el suelo. La unidad de mini-quemador requiere reabastecimiento después de cada uso.</MU_ChemfuelMiniBurner.description>
+  <!-- EN: burner -->
+  <MU_ChemfuelBurner.label>quemador</MU_ChemfuelBurner.label>
+  <!-- EN: A chemfuel-powered burner unit which can be installed into mechanoid. Generates a stream of flame from highly flammable chemfuel, that form flamming pools on the ground. The burner unit can be used twice before refueling. -->
+  <MU_ChemfuelBurner.description>Una unidad de quemador alimentada por quimicombustible que puede instalarse en el mecanoide. Genera una corriente de llamas a partir de quimicombustible altamente inflamable, que forman charcos de fuego en el suelo. La unidad de quemador se puede usar dos veces antes de necesitar reabastecimiento.</MU_ChemfuelBurner.description>
+  <!-- EN: flamethrower -->
+  <MU_ChemfuelFlamethrower.label>lanzallamas</MU_ChemfuelFlamethrower.label>
+  <!-- EN: A chemfuel-powered flamethrower unit which can be installed into mechanoid. Generates a long stream of flame from highly flammable chemfuel, that form flamming pools on the ground. The flamethrower unit can be used five times before refueling. -->
+  <MU_ChemfuelFlamethrower.description>Una unidad de lanzallamas alimentada por quimicombustible que puede instalarse en el mecanoide. Genera una larga corriente de llamas a partir de quimicombustible altamente inflamable, que forman charcos de fuego en el suelo. La unidad de lanzallamas se puede usar cinco veces antes de necesitar reabastecimiento.</MU_ChemfuelFlamethrower.description>
+  <!-- EN: small cargo cell -->
+  <MU_CargoCell_Small.label>contenedor pequeño</MU_CargoCell_Small.label>
+  <!-- EN: Small cargo cell that can be installed in mechanoid. Increases carried weight, but also affects energy consumption. -->
+  <MU_CargoCell_Small.description>Una pequeña bahía de carga que puede instalarse en un mecanoide. Incrementa el peso que puede transportar, pero también afecta el consumo de energía.</MU_CargoCell_Small.description>
+  <!-- EN: double cargo cell -->
+  <MU_CargoCell_Double.label>contenedor doble</MU_CargoCell_Double.label>
+  <!-- EN: Two small cargo cells that can be installed in mechanoid. Increase carried weight, but also affects energy consumption. -->
+  <MU_CargoCell_Double.description>Dos pequeñas bahías de carga que pueden instalarse en un mecanoide. Incrementan el peso que puede transportar, pero también afectan el consumo de energía.</MU_CargoCell_Double.description>
+  <!-- EN: large cargo cell -->
+  <MU_CargoCell_Large.label>contenedor grande</MU_CargoCell_Large.label>
+  <!-- EN: Large cargo cell that can be installed in mechanoid. Increases carried weight, but also affects energy consumption. -->
+  <MU_CargoCell_Large.description>Una gran bahía de carga que puede instalarse en un mecanoide. Incrementa el peso que puede transportar, pero también afecta el consumo de energía.</MU_CargoCell_Large.description>
+  <!-- EN: frag grenades -->
+  <MU_FragGrenades.label>granadas fragmentarias</MU_FragGrenades.label>
+  <!-- EN: Fragmentation grenades. This particular version is designed to be used by mechanoids. -->
+  <MU_FragGrenades.description>Granadas de fragmentación. Esta versión en particular está diseñada para ser usada por mecanoides.</MU_FragGrenades.description>
+  <!-- EN: incendiary grenades -->
+  <MU_IncendiaryGrenades.label>granadas incendiarias</MU_IncendiaryGrenades.label>
+  <!-- EN: Incendiary grenades. This particular version is designed to be used by mechanoids. -->
+  <MU_IncendiaryGrenades.description>Granadas incendiarias. Esta versión en particular está diseñada para ser usada por mecanoides.</MU_IncendiaryGrenades.description>
+  <!-- EN: EMP grenades -->
+  <MU_EMPGrenades.label>granadas PEM</MU_EMPGrenades.label>
+  <!-- EN: Electromagnetic pulse grenades damaging to electronic equipment. This particular version is designed to be used by mechanoids. -->
+  <MU_EMPGrenades.description>Granadas de pulso electromagnético que dañan los equipos electrónicos. Esta versión en particular está diseñada para ser usada por mecanoides.</MU_EMPGrenades.description>
+  <!-- EN: shield booster -->
+  <MU_ShieldBooster.label>amplificador de escudo</MU_ShieldBooster.label>
+  <!-- EN: An advanced discharger device that allow to conduct large amount of energy in the shield system, making it much more durable to damage for a short period of time.\n\nThe main conductor gets overload when device is active, so it requires components for recharging.\n\nThe effect scales based on mechanoid body size. -->
+  <MU_ShieldBooster.description>Un dispositivo descargador avanzado que permite canalizar una gran cantidad de energía al sistema de escudo, haciéndolo mucho más resistente al daño durante un breve periodo de tiempo.\n\nEl conductor principal se sobrecarga cuando el dispositivo está activo, por lo que requiere componentes para recargarse.\n\nEl efecto escala según el tamaño del cuerpo del mecanoide.</MU_ShieldBooster.description>
+  <!-- EN: reinforced leg actuators -->
+  <MU_LegActuators.label>actuadores de pierna</MU_LegActuators.label>
+  <!-- EN: Reinforced leg actuators for ultraheavy mechanoid. Greatly increase movement speed. -->
+  <MU_LegActuators.description>Actuadores de pierna reforzados para mecanoides ultrapesados. Aumentan considerablemente la velocidad de movimiento.</MU_LegActuators.description>
+  <!-- EN: urchin mini-gestator -->
+  <MU_UrchinSpawner.label>mini-gestador</MU_UrchinSpawner.label>
+  <!-- EN: A mini-gestator unit which can create war urchins. Require steel for gestation. -->
+  <MU_UrchinSpawner.description>Unidad mini-gestadora que puede crear erizos de guerra. Requiere acero para la gestación.</MU_UrchinSpawner.description>
+  <!-- EN: jump launcher -->
+  <MU_JumpLauncher.label>lanzador de salto</MU_JumpLauncher.label>
+  <!-- EN: Jump launcher that allows to jump to a distant location. -->
+  <MU_JumpLauncher.description>Lanzador de salto que permite desplazarse a una ubicación lejana.</MU_JumpLauncher.description>
+  <!-- EN: medicine kit -->
+  <MU_MedicineKit.label>meca-kit médico</MU_MedicineKit.label>
+  <!-- EN: A first aid kit that can be installed in mechanoid. Can be used to tend living creatures. -->
+  <MU_MedicineKit.description>Un kit de primeros auxilios que puede instalarse en un mecanoide. Puede usarse para atender a seres vivos.</MU_MedicineKit.description>
+  <!-- EN: frequency amplifier -->
+  <MU_FrequencyAmplifier.label>amplificador de frecuencia</MU_FrequencyAmplifier.label>
+  <!-- EN: Amplifier for mechanoid graser generator. Increases beam density and focusing speed, but consumes significant additional energy. -->
+  <MU_FrequencyAmplifier.description>Amplificador para el generador del concentrador láser del mecanoide. Aumenta la densidad del haz y la velocidad de enfoque, pero consume una cantidad significativa de energía adicional.</MU_FrequencyAmplifier.description>
+  <!-- EN: repair module tier A -->
+  <MU_Module_Repair_A.label>módulo de reparación A</MU_Module_Repair_A.label>
+  <!-- EN: A special module, that can be installed into mechanoid repair system, making it more efficient. -->
+  <MU_Module_Repair_A.description>Un módulo especial que puede instalarse en el sistema de reparación del mecanoide, haciéndolo más eficiente.</MU_Module_Repair_A.description>
+  <!-- EN: repair module tier B -->
+  <MU_Module_Repair_B.label>módulo de reparación B</MU_Module_Repair_B.label>
+  <!-- EN: A special module, that can be installed into mechanoid repair system, making it more efficient. -->
+  <MU_Module_Repair_B.description>Un módulo especial que puede instalarse en el sistema de reparación del mecanoide, haciéndolo más eficiente.</MU_Module_Repair_B.description>
+  <!-- EN: repair module tier C -->
+  <MU_Module_Repair_C.label>módulo de reparación C</MU_Module_Repair_C.label>
+  <!-- EN: A special module, that can be installed into mechanoid repair system, making it more efficient. -->
+  <MU_Module_Repair_C.description>Un módulo especial que puede instalarse en el sistema de reparación del mecanoide, haciéndolo más eficiente.</MU_Module_Repair_C.description>
+  <!-- EN: melee damage module tier A -->
+  <MU_Module_Melee_A.label>módulo de daño CaC A</MU_Module_Melee_A.label>
+  <!-- EN: A special module, that can be installed into mechanoid, giving a large melee damage increase. -->
+  <MU_Module_Melee_A.description>Un módulo especial que puede instalarse en el mecanoide, aumentando considerable el daño cuerpo a cuerpo.</MU_Module_Melee_A.description>
+  <!-- EN: melee damage module tier B -->
+  <MU_Module_Melee_B.label>módulo de daño CaC B</MU_Module_Melee_B.label>
+  <!-- EN: A special module, that can be installed into mechanoid, giving a medium melee damage increase. -->
+  <MU_Module_Melee_B.description>Un módulo especial que puede instalarse en el mecanoide, aumentando moderadamente el daño cuerpo a cuerpo.</MU_Module_Melee_B.description>
+  <!-- EN: melee damage module tier C -->
+  <MU_Module_Melee_C.label>módulo de daño CaC C</MU_Module_Melee_C.label>
+  <!-- EN: A special module, that can be installed into mechanoid, giving a small melee damage increase. -->
+  <MU_Module_Melee_C.description>Un módulo especial que puede instalarse en el mecanoide, aumentando ligeramente el daño cuerpo a cuerpo.</MU_Module_Melee_C.description>
+  <!-- EN: ranged damage module tier A -->
+  <MU_Module_Ranged_A.label>módulo de daño DaD A</MU_Module_Ranged_A.label>
+  <!-- EN: A special module, that can be installed into mechanoid ammo control system, giving a large ranged damage increase. -->
+  <MU_Module_Ranged_A.description>Un módulo especial que puede instalarse en el sistema de control de munición del mecanoide, aumentando considerablemente el daño a distancia.</MU_Module_Ranged_A.description>
+  <!-- EN: ranged damage module tier B -->
+  <MU_Module_Ranged_B.label>módulo de daño DaD B</MU_Module_Ranged_B.label>
+  <!-- EN: A special module, that can be installed into mechanoid ammo control system, giving a medium ranged damage increase. -->
+  <MU_Module_Ranged_B.description>Un módulo especial que puede instalarse en el sistema de control de munición del mecanoide, aumentando moderadamente el daño a distancia.</MU_Module_Ranged_B.description>
+  <!-- EN: ranged damage module tier C -->
+  <MU_Module_Ranged_C.label>módulo de daño DaD C</MU_Module_Ranged_C.label>
+  <!-- EN: A special module, that can be installed into mechanoid ammo control system, giving a small ranged damage increase. -->
+  <MU_Module_Ranged_C.description>Un módulo especial que puede instalarse en el sistema de control de munición del mecanoide, aumentando ligeramente el daño a distancia.</MU_Module_Ranged_C.description>
+  <!-- EN: shield module tier A -->
+  <MU_Module_Shield_A.label>módulo de escudo A</MU_Module_Shield_A.label>
+  <!-- EN: A special module, that can be installed into mechanoid shield core, giving a large max energy increase. -->
+  <MU_Module_Shield_A.description>Un módulo especial que puede instalarse en el núcleo de escudo del mecanoide, aumentando considerablemente la energía máxima.</MU_Module_Shield_A.description>
+  <!-- EN: shield module tier B -->
+  <MU_Module_Shield_B.label>módulo de escudo B</MU_Module_Shield_B.label>
+  <!-- EN: A special module, that can be installed into mechanoid shield core, giving a medium max energy increase. -->
+  <MU_Module_Shield_B.description>Un módulo especial que puede instalarse en el núcleo de escudo del mecanoide, aumentando moderadamente la energía máxima.</MU_Module_Shield_B.description>
+  <!-- EN: shield module tier C -->
+  <MU_Module_Shield_C.label>módulo de escudo C</MU_Module_Shield_C.label>
+  <!-- EN: A special module, that can be installed into mechanoid shield core, giving a small max energy increase. -->
+  <MU_Module_Shield_C.description>Un módulo especial que puede instalarse en el núcleo de escudo del mecanoide, aumentando ligeramente la energía máxima.</MU_Module_Shield_C.description>
+  <!-- EN: durability module -->
+  <MU_Module_Robust.label>módulo de durabilidad</MU_Module_Robust.label>
+  <!-- EN: A special module, that can be installed into mechanoid, increasing it&apos;s durability. -->
+  <MU_Module_Robust.description>Un módulo especial que puede instalarse en el mecanoide, aumentando su durabilidad.</MU_Module_Robust.description>
+  <!-- EN: command pack -->
+  <MU_CommandPack.label>pack de comando</MU_CommandPack.label>
+  <!-- EN: A utility pack for mechanoid that rebroadcast mechanitor command signals, creating additional control area. -->
+  <MU_CommandPack.description>Un paquete utilitario para mecanoides que retransmite las señales de comando del mecanizador, creando un área de control adicional.</MU_CommandPack.description>
+  <!-- EN: firefoam pop pack -->
+  <MU_FirefoamPopPack.label>pack de espuma cortafuego</MU_FirefoamPopPack.label>
+  <!-- EN: A utility pack for mechanoid. When triggered, a burst of fire-retardant foam is released, covering a wide circle around its wearer. -->
+  <MU_FirefoamPopPack.description>Un paquete utilitario para mecanoides. Al activarse, libera una ráfaga de espuma ignífuga que cubre un amplio círculo alrededor del portador.</MU_FirefoamPopPack.description>
+  <!-- EN: firefoam pop pack -->
+  <MU_SmokePopPack.label>pack de humo</MU_SmokePopPack.label>
+  <!-- EN: A utility pack for mechanoid. When activated, it will release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. -->
+  <MU_SmokePopPack.description>Un paquete utilitario para mecanoides. Al activarse, libera una nube de humo que dificulta los disparos entrantes e impide que las torretas fijen su objetivo.</MU_SmokePopPack.description>
+  <!-- EN: small shield tier A -->
+  <MU_Shield_Small_A.label>escudo pequeño A</MU_Shield_Small_A.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Small_A.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Small_A.description>
+  <!-- EN: small shield tier B -->
+  <MU_Shield_Small_B.label>escudo pequeño B</MU_Shield_Small_B.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Small_B.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Small_B.description>
+  <!-- EN: small shield tier C -->
+  <MU_Shield_Small_C.label>escudo pequeño C</MU_Shield_Small_C.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Small_C.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Small_C.description>
+  <!-- EN: medium shield tier A -->
+  <MU_Shield_Medium_A.label>escudo mediano A</MU_Shield_Medium_A.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Medium_A.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Medium_A.description>
+  <!-- EN: medium shield tier B -->
+  <MU_Shield_Medium_B.label>escudo mediano B</MU_Shield_Medium_B.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Medium_B.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Medium_B.description>
+  <!-- EN: medium shield tier C -->
+  <MU_Shield_Medium_C.label>escudo mediano C</MU_Shield_Medium_C.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Medium_C.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Medium_C.description>
+  <!-- EN: large shield tier A -->
+  <MU_Shield_Large_A.label>escudo grande A</MU_Shield_Large_A.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Large_A.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Large_A.description>
+  <!-- EN: large shield tier B -->
+  <MU_Shield_Large_B.label>escudo grande B</MU_Shield_Large_B.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Large_B.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Large_B.description>
+  <!-- EN: large shield tier C -->
+  <MU_Shield_Large_C.label>escudo grande C</MU_Shield_Large_C.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Large_C.description>Un dispositivo de repulsión de proyectiles que se puede instalar en un mecanoide. Intentará detener los proyectiles entrantes o escombros, pero no hace nada contra los ataques cuerpo a cuerpo. Se apaga instantáneamente si es alcanzado por un ataque PEM.</MU_Shield_Large_C.description>
+  <!-- EN: militor upgrade pack -->
+  <MU_UpgradePack_Militor.label>pack de mejora militoide</MU_UpgradePack_Militor.label>
+  <!-- EN: Pack of different upgrades for militor.\nAlso contains remote controle module that allows control outside of mechanitor command range. -->
+  <MU_UpgradePack_Militor.description>Paquete de diferentes mejoras para militoide.\nTambién contiene un módulo de control remoto que permite el control fuera del alcance de la señal del mecanizador.</MU_UpgradePack_Militor.description>
+  <!-- EN: scyther upgrade pack -->
+  <MU_UpgradePack_Scyther.label>pack de mejora segador</MU_UpgradePack_Scyther.label>
+  <!-- EN: Pack of different upgrades for scyther.\nAlso contains remote controle module that allows control outside of mechanitor command range. -->
+  <MU_UpgradePack_Scyther.description>Paquete de diferentes mejoras para segador.\nTambién contiene un módulo de control remoto que permite el control fuera del alcance de la señal del mecanizador.</MU_UpgradePack_Scyther.description>
+  <!-- EN: tesseron upgrade pack -->
+  <MU_UpgradePack_Tesseron.label>pack de mejora teserón</MU_UpgradePack_Tesseron.label>
+  <!-- EN: Pack of different upgrades for tesseron.\nAlso contains remote controle module that allows control outside of mechanitor command range. -->
+  <MU_UpgradePack_Tesseron.description>Paquete de diferentes mejoras para teserón.\nTambién contiene un módulo de control remoto que permite el control fuera del alcance de la señal del mecanizador.</MU_UpgradePack_Tesseron.description>
+  <!-- EN: mini-turret -->
+  <MU_MiniTurret.label>mini-torreta</MU_MiniTurret.label>
+  <!-- EN: Small defence turret that can be mounted on mechanoid. Has lower range and accuracy than stationary variants. -->
+  <MU_MiniTurret.description>Pequeña torre de defensa que se puede montar en un mecanoide. Tiene menor alcance y precisión que las variantes estacionarias.</MU_MiniTurret.description>
+  <!-- EN: large mech armor tier C -->
+  <MU_MechArmor_Large_C.label>armadura mecanoide grande C</MU_MechArmor_Large_C.label>
+  <!-- EN: Universal armor for a large mechanoid. Gives a small increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Large_C.description>Armadura universal para un mecanoide grande. Proporciona un pequeño aumento en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Large_C.description>
+  <!-- EN: large mech armor tier B -->
+  <MU_MechArmor_Large_B.label>armadura mecanoide grande B</MU_MechArmor_Large_B.label>
+  <!-- EN: Universal armor for a large mechanoid. Gives a medium increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Large_B.description>Armadura universal para un mecanoide grande. Proporciona un aumento medio en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Large_B.description>
+  <!-- EN: large mech armor tier A -->
+  <MU_MechArmor_Large_A.label>armadura mecanoide grande A</MU_MechArmor_Large_A.label>
+  <!-- EN: Universal armor for a large mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Large_A.description>Armadura universal para un mecanoide grande. Proporciona un gran aumento en la protección contra daños penetrantes y aplastantes.\n\nLa tecnología estándar de armaduras permite reducir incluso los daños no reflejados.</MU_MechArmor_Large_A.description>
+  <!-- EN: medium mech armor tier C -->
+  <MU_MechArmor_Medium_C.label>armadura mecanoide mediana C</MU_MechArmor_Medium_C.label>
+  <!-- EN: Universal armor for a medium mechanoid. Gives a small increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Medium_C.description>Armadura universal para un mecanoide mediano. Proporciona un pequeño aumento en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Medium_C.description>
+  <!-- EN: medium mech armor tier B -->
+  <MU_MechArmor_Medium_B.label>armadura mecanoide mediana B</MU_MechArmor_Medium_B.label>
+  <!-- EN: Universal armor for a medium mechanoid. Gives a medium increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Medium_B.description>Armadura universal para un mecanoide mediano. Proporciona un aumento medio en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Medium_B.description>
+  <!-- EN: medium mech armor tier A -->
+  <MU_MechArmor_Medium_A.label>armadura mecanoide mediana A</MU_MechArmor_Medium_A.label>
+  <!-- EN: Universal armor for a medium mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Medium_A.description>Armadura universal para un mecanoide mediano. Proporciona un gran aumento en la protección contra daños penetrantes y aplastantes.\n\nLa tecnología estándar de armaduras permite reducir incluso los daños no reflejados.</MU_MechArmor_Medium_A.description>
+  <!-- EN: small mech armor tier C -->
+  <MU_MechArmor_Small_C.label>armadura mecanoide pequeña C</MU_MechArmor_Small_C.label>
+  <!-- EN: Universal armor for a small mechanoid. Gives a small increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Small_C.description>Armadura universal para un mecanoide pequeño. Proporciona un ligero aumento en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Small_C.description>
+  <!-- EN: small mech armor tier B -->
+  <MU_MechArmor_Small_B.label>armadura mecanoide pequeña B</MU_MechArmor_Small_B.label>
+  <!-- EN: Universal armor for a small mechanoid. Gives a medium increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_Small_B.description>Armadura universal para un mecanoide pequeño. Proporciona un aumento moderado en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_Small_B.description>
+  <!-- EN: small mech armor tier A -->
+  <MU_MechArmor_Small_A.label>armadura mecanoide pequeña A</MU_MechArmor_Small_A.label>
+  <!-- EN: Universal armor for a small mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Small_A.description>Armadura universal para un mecanoide pequeño. Proporciona un aumento considerable en la protección contra daños penetrantes y aplastantes.\n\nLa tecnología estándar de armaduras permite reducir incluso los daños no reflejados.</MU_MechArmor_Small_A.description>
+  <!-- EN: ultra large mech armor tier C -->
+  <MU_MechArmor_UltraLarge_C.label>armadura mecanoide enorme C</MU_MechArmor_UltraLarge_C.label>
+  <!-- EN: Universal armor for an ultra large mechanoid. Gives a small increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_UltraLarge_C.description>Armadura universal para un mecanoide ultra grande. Proporciona un pequeño aumento en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_UltraLarge_C.description>
+  <!-- EN: ultra large mech armor tier B -->
+  <MU_MechArmor_UltraLarge_B.label>armadura mecanoide enorme B</MU_MechArmor_UltraLarge_B.label>
+  <!-- EN: Universal armor for an ultra large mechanoid. Gives a medium increase in protection against penetrating and crushing damage. -->
+  <MU_MechArmor_UltraLarge_B.description>Armadura universal para un mecanoide ultra grande. Proporciona un aumento medio en la protección contra daños penetrantes y aplastantes.</MU_MechArmor_UltraLarge_B.description>
+  <!-- EN: ultra large mech armor tier A -->
+  <MU_MechArmor_UltraLarge_A.label>armadura mecanoide enorme A</MU_MechArmor_UltraLarge_A.label>
+  <!-- EN: Universal armor for an ultra large mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_UltraLarge_A.description>Armadura universal para un mecanoide ultra grande. Proporciona un gran aumento en la protección contra daños penetrantes y aplastantes.\n\nLa tecnología estándar de armaduras permite reducir incluso los daños no reflejados.</MU_MechArmor_UltraLarge_A.description>
+  <!-- EN: melee chip tier A -->
+  <MU_MechChip_Melee_A.label>chip de combate A</MU_MechChip_Melee_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large melee hit chance increase. -->
+  <MU_MechChip_Melee_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la probabilidad de golpear en combate cuerpo a cuerpo.</MU_MechChip_Melee_A.description>
+  <!-- EN: melee chip tier B -->
+  <MU_MechChip_Melee_B.label>chip de combate B</MU_MechChip_Melee_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium melee hit chance increase. -->
+  <MU_MechChip_Melee_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la probabilidad de golpear en combate cuerpo a cuerpo.</MU_MechChip_Melee_B.description>
+  <!-- EN: melee chip tier C -->
+  <MU_MechChip_Melee_C.label>chip de combate C</MU_MechChip_Melee_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a small melee hit chance increase. -->
+  <MU_MechChip_Melee_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la probabilidad de golpear en combate cuerpo a cuerpo.</MU_MechChip_Melee_C.description>
+  <!-- EN: dodge chip tier A -->
+  <MU_MechChip_Dodge_A.label>chip de evasión A</MU_MechChip_Dodge_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large melee dodge chance increase. -->
+  <MU_MechChip_Dodge_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la probabilidad de esquivar en combate cuerpo a cuerpo.</MU_MechChip_Dodge_A.description>
+  <!-- EN: dodge chip tier B -->
+  <MU_MechChip_Dodge_B.label>chip de evasión B</MU_MechChip_Dodge_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium melee dodge chance increase. -->
+  <MU_MechChip_Dodge_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la probabilidad de esquivar en combate cuerpo a cuerpo.</MU_MechChip_Dodge_B.description>
+  <!-- EN: dodge chip tier C -->
+  <MU_MechChip_Dodge_C.label>chip de evasión C</MU_MechChip_Dodge_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a small melee dodge chance increase. -->
+  <MU_MechChip_Dodge_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la probabilidad de esquivar en combate cuerpo a cuerpo.</MU_MechChip_Dodge_C.description>
+  <!-- EN: gastro-analize chip tier A -->
+  <MU_MechChip_GastroAnalize_A.label>chip de gastro-análisis A</MU_MechChip_GastroAnalize_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives cooking speed increase and prevent food poisoning. -->
+  <MU_MechChip_GastroAnalize_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta la velocidad de cocina y previene por completo la intoxicación alimentaria.</MU_MechChip_GastroAnalize_A.description>
+  <!-- EN: gastro-analize chip tier B -->
+  <MU_MechChip_GastroAnalize_B.label>chip de gastro-análisis B</MU_MechChip_GastroAnalize_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a cooking speed increase and decreases food poisoning chance. -->
+  <MU_MechChip_GastroAnalize_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta la velocidad de cocina y disminuye la probabilidad de intoxicación alimentaria.</MU_MechChip_GastroAnalize_B.description>
+  <!-- EN: production chip tier A -->
+  <MU_MechChip_Production_A.label>chip de producción A</MU_MechChip_Production_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a work speed increase and increases quality of things created by mechanoid. -->
+  <MU_MechChip_Production_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta la velocidad de trabajo y mejora la calidad de los objetos creados por el mecanoide.</MU_MechChip_Production_A.description>
+  <!-- EN: production chip tier B -->
+  <MU_MechChip_Production_B.label>chip de producción B</MU_MechChip_Production_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a work speed increase. -->
+  <MU_MechChip_Production_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta la velocidad de trabajo.</MU_MechChip_Production_B.description>
+  <!-- EN: medical chip tier A -->
+  <MU_MechChip_Medical_A.label>chip médico A</MU_MechChip_Medical_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large increase to all medical characteristics. -->
+  <MU_MechChip_Medical_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente todas las características médicas.</MU_MechChip_Medical_A.description>
+  <!-- EN: medical chip tier B -->
+  <MU_MechChip_Medical_B.label>chip médico B</MU_MechChip_Medical_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium increase to all medical characteristics. -->
+  <MU_MechChip_Medical_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente todas las características médicas.</MU_MechChip_Medical_B.description>
+  <!-- EN: remote control chip -->
+  <MU_RemoteControlChip.label>chip de control remoto</MU_RemoteControlChip.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Mechanoid with it can be controlled even outside of mechanitor command range. -->
+  <MU_RemoteControlChip.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. El mecanoide que lo tenga puede ser controlado incluso fuera del rango de comando del mecanizador.</MU_RemoteControlChip.description>
+  <!-- EN: accuracy chip tier A -->
+  <MU_MechChip_Ranged_A.label>chip de precisión A</MU_MechChip_Ranged_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large shooting accuracy increase. -->
+  <MU_MechChip_Ranged_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la precisión al disparar.</MU_MechChip_Ranged_A.description>
+  <!-- EN: accuracy chip tier B -->
+  <MU_MechChip_Ranged_B.label>chip de precisión B</MU_MechChip_Ranged_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium shooting accuracy increase. -->
+  <MU_MechChip_Ranged_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la precisión al disparar.</MU_MechChip_Ranged_B.description>
+  <!-- EN: accuracy chip tier C -->
+  <MU_MechChip_Ranged_C.label>chip de precisión C</MU_MechChip_Ranged_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a a small shooting accuracy increase. -->
+  <MU_MechChip_Ranged_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la precisión al disparar.</MU_MechChip_Ranged_C.description>
+  <!-- EN: reload chip tier A -->
+  <MU_MechChip_Reload_A.label>chip de recarga A</MU_MechChip_Reload_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large reload speed increase. -->
+  <MU_MechChip_Reload_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la velocidad de recarga.</MU_MechChip_Reload_A.description>
+  <!-- EN: reload chip tier B -->
+  <MU_MechChip_Reload_B.label>chip de recarga B</MU_MechChip_Reload_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium reload speed increase. -->
+  <MU_MechChip_Reload_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la velocidad de recarga.</MU_MechChip_Reload_B.description>
+  <!-- EN: reload chip tier C -->
+  <MU_MechChip_Reload_C.label>chip de recarga C</MU_MechChip_Reload_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a a small reload speed increase. -->
+  <MU_MechChip_Reload_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la velocidad de recarga.</MU_MechChip_Reload_C.description>
+  <!-- EN: aiming chip tier A -->
+  <MU_MechChip_Aiming_A.label>chip de puntería A</MU_MechChip_Aiming_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large aiming speed increase. -->
+  <MU_MechChip_Aiming_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la velocidad de puntería.</MU_MechChip_Aiming_A.description>
+  <!-- EN: aiming chip tier B -->
+  <MU_MechChip_Aiming_B.label>chip de puntería B</MU_MechChip_Aiming_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium aiming speed increase. -->
+  <MU_MechChip_Aiming_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la velocidad de puntería.</MU_MechChip_Aiming_B.description>
+  <!-- EN: aiming chip tier C -->
+  <MU_MechChip_Aiming_C.label>chip de puntería C</MU_MechChip_Aiming_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a a small aiming speed increase. -->
+  <MU_MechChip_Aiming_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la velocidad de puntería.</MU_MechChip_Aiming_C.description>
+  <!-- EN: range increase chip tier A -->
+  <MU_MechChip_Range_A.label>chip de alcance A</MU_MechChip_Range_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large ranged weapon range increase. -->
+  <MU_MechChip_Range_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente el alcance del arma a distancia.</MU_MechChip_Range_A.description>
+  <!-- EN: range increase chip tier B -->
+  <MU_MechChip_Range_B.label>chip de alcance B</MU_MechChip_Range_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium ranged weapon range increase. -->
+  <MU_MechChip_Range_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente el alcance del arma a distancia.</MU_MechChip_Range_B.description>
+  <!-- EN: range increase chip tier C -->
+  <MU_MechChip_Range_C.label>chip de alcance C</MU_MechChip_Range_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a a small ranged weapon range increase. -->
+  <MU_MechChip_Range_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente el alcance del arma a distancia.</MU_MechChip_Range_C.description>
+  <!-- EN: work chip tier A -->
+  <MU_MechChip_Work_A.label>chip de trabajo A</MU_MechChip_Work_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large work speed increase. -->
+  <MU_MechChip_Work_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la velocidad de trabajo.</MU_MechChip_Work_A.description>
+  <!-- EN: work chip tier B -->
+  <MU_MechChip_Work_B.label>chip de trabajo B</MU_MechChip_Work_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium work speed increase. -->
+  <MU_MechChip_Work_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la velocidad de trabajo.</MU_MechChip_Work_B.description>
+  <!-- EN: work chip tier C -->
+  <MU_MechChip_Work_C.label>chip de trabajo C</MU_MechChip_Work_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a small work speed increase. -->
+  <MU_MechChip_Work_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la velocidad de trabajo.</MU_MechChip_Work_C.description>
+  <!-- EN: speed chip tier A -->
+  <MU_MechChip_Speed_A.label>chip de velocidad A</MU_MechChip_Speed_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large movement speed increase. -->
+  <MU_MechChip_Speed_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta considerablemente la velocidad de movimiento.</MU_MechChip_Speed_A.description>
+  <!-- EN: speed chip tier B -->
+  <MU_MechChip_Speed_B.label>chip de velocidad B</MU_MechChip_Speed_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium movement speed increase. -->
+  <MU_MechChip_Speed_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta moderadamente la velocidad de movimiento.</MU_MechChip_Speed_B.description>
+  <!-- EN: speed chip tier C -->
+  <MU_MechChip_Speed_C.label>chip de velocidad B</MU_MechChip_Speed_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives CL movement speed increase. -->
+  <MU_MechChip_Speed_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Aumenta ligeramente la velocidad de movimiento.</MU_MechChip_Speed_C.description>
+  <!-- EN: energy chip tier A -->
+  <MU_MechChip_Energy_A.label>chip de energía A</MU_MechChip_Energy_A.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large energy usage decrease. -->
+  <MU_MechChip_Energy_A.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Reduce considerablemente el consumo de energía.</MU_MechChip_Energy_A.description>
+  <!-- EN: energy chip tier B -->
+  <MU_MechChip_Energy_B.label>chip de energía B</MU_MechChip_Energy_B.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a medium energy usage decrease. -->
+  <MU_MechChip_Energy_B.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Reduce moderadamente el consumo de energía.</MU_MechChip_Energy_B.description>
+  <!-- EN: energy chip tier C -->
+  <MU_MechChip_Energy_C.label>chip de energía C</MU_MechChip_Energy_C.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives CL energy usage decrease. -->
+  <MU_MechChip_Energy_C.description>Un pequeño chip que puede instalarse en el cerebro del mecanoide. Reduce ligeramente el consumo de energía.</MU_MechChip_Energy_C.description>
+  <!-- EN: small mech armor tier S -->
+  <MU_MechArmor_Small_S.label>TODO</MU_MechArmor_Small_S.label>
+  <!-- EN: Universal armor for a small mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Small_S.description>TODO</MU_MechArmor_Small_S.description>
+  <!-- EN: medium mech armor tier S -->
+  <MU_MechArmor_Medium_S.label>TODO</MU_MechArmor_Medium_S.label>
+  <!-- EN: Universal armor for a medium mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Medium_S.description>TODO</MU_MechArmor_Medium_S.description>
+  <!-- EN: large mech armor tier S -->
+  <MU_MechArmor_Large_S.label>TODO</MU_MechArmor_Large_S.label>
+  <!-- EN: Universal armor for a large mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_Large_S.description>TODO</MU_MechArmor_Large_S.description>
+  <!-- EN: ultra large mech armor tier S -->
+  <MU_MechArmor_UltraLarge_S.label>TODO</MU_MechArmor_UltraLarge_S.label>
+  <!-- EN: Universal armor for an ultra large mechanoid. Gives a large increase in protection against penetrating and crushing damage.\n\nStandard armor technology allows to reduce even non-reflected damage. -->
+  <MU_MechArmor_UltraLarge_S.description>TODO</MU_MechArmor_UltraLarge_S.description>
+  <!-- EN: gastro-analize chip tier S -->
+  <MU_MechChip_GastroAnalize_S.label>TODO</MU_MechChip_GastroAnalize_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives cooking speed increase and prevent food poisoning. -->
+  <MU_MechChip_GastroAnalize_S.description>TODO</MU_MechChip_GastroAnalize_S.description>
+  <!-- EN: production chip tier S -->
+  <MU_MechChip_Production_S.label>TODO</MU_MechChip_Production_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a work speed increase and increases quality of things created by mechanoid. -->
+  <MU_MechChip_Production_S.description>TODO</MU_MechChip_Production_S.description>
+  <!-- EN: medical chip tier S -->
+  <MU_MechChip_Medical_S.label>TODO</MU_MechChip_Medical_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large increase to all medical characteristics. -->
+  <MU_MechChip_Medical_S.description>TODO</MU_MechChip_Medical_S.description>
+  <!-- EN: melee chip tier S -->
+  <MU_MechChip_Melee_S.label>TODO</MU_MechChip_Melee_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large melee hit chance increase. -->
+  <MU_MechChip_Melee_S.description>TODO</MU_MechChip_Melee_S.description>
+  <!-- EN: dodge chip tier S -->
+  <MU_MechChip_Dodge_S.label>TODO</MU_MechChip_Dodge_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large melee dodge chance increase. -->
+  <MU_MechChip_Dodge_S.description>TODO</MU_MechChip_Dodge_S.description>
+  <!-- EN: accuracy chip tier S -->
+  <MU_MechChip_Ranged_S.label>TODO</MU_MechChip_Ranged_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large shooting accuracy increase. -->
+  <MU_MechChip_Ranged_S.description>TODO</MU_MechChip_Ranged_S.description>
+  <!-- EN: reload chip tier S -->
+  <MU_MechChip_Reload_S.label>TODO</MU_MechChip_Reload_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large reload speed increase. -->
+  <MU_MechChip_Reload_S.description>TODO</MU_MechChip_Reload_S.description>
+  <!-- EN: aiming chip tier S -->
+  <MU_MechChip_Aiming_S.label>TODO</MU_MechChip_Aiming_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large aiming speed increase. -->
+  <MU_MechChip_Aiming_S.description>TODO</MU_MechChip_Aiming_S.description>
+  <!-- EN: work chip tier S -->
+  <MU_MechChip_Work_S.label>TODO</MU_MechChip_Work_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large work speed increase. -->
+  <MU_MechChip_Work_S.description>TODO</MU_MechChip_Work_S.description>
+  <!-- EN: speed chip tier S -->
+  <MU_MechChip_Speed_S.label>TODO</MU_MechChip_Speed_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large movement speed increase. -->
+  <MU_MechChip_Speed_S.description>TODO</MU_MechChip_Speed_S.description>
+  <!-- EN: energy chip tier S -->
+  <MU_MechChip_Energy_S.label>TODO</MU_MechChip_Energy_S.label>
+  <!-- EN: A small chip, that can be installed into mechanoid brain. Gives a large energy usage decrease. -->
+  <MU_MechChip_Energy_S.description>TODO</MU_MechChip_Energy_S.description>
+  <!-- EN: repair module tier S -->
+  <MU_Module_Repair_S.label>TODO</MU_Module_Repair_S.label>
+  <!-- EN: A special module, that can be installed into mechanoid repair system, making it more efficient. -->
+  <MU_Module_Repair_S.description>TODO</MU_Module_Repair_S.description>
+  <!-- EN: melee damage module tier S -->
+  <MU_Module_Melee_S.label>TODO</MU_Module_Melee_S.label>
+  <!-- EN: A special module, that can be installed into mechanoid, giving a large melee damage increase. -->
+  <MU_Module_Melee_S.description>TODO</MU_Module_Melee_S.description>
+  <!-- EN: ranged damage module tier S -->
+  <MU_Module_Ranged_S.label>TODO</MU_Module_Ranged_S.label>
+  <!-- EN: A special module, that can be installed into mechanoid ammo control system, giving a large ranged damage increase. -->
+  <MU_Module_Ranged_S.description>TODO</MU_Module_Ranged_S.description>
+  <!-- EN: shield module tier S -->
+  <MU_Module_Shield_S.label>TODO</MU_Module_Shield_S.label>
+  <!-- EN: A special module, that can be installed into mechanoid shield core, giving a large max energy increase. -->
+  <MU_Module_Shield_S.description>TODO</MU_Module_Shield_S.description>
+  <!-- EN: small shield tier S -->
+  <MU_Shield_Small_S.label>TODO</MU_Shield_Small_S.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Small_S.description>TODO</MU_Shield_Small_S.description>
+  <!-- EN: medium shield tier S -->
+  <MU_Shield_Medium_S.label>TODO</MU_Shield_Medium_S.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Medium_S.description>TODO</MU_Shield_Medium_S.description>
+  <!-- EN: large shield tier S -->
+  <MU_Shield_Large_S.label>TODO</MU_Shield_Large_S.label>
+  <!-- EN: A projectile-repulsion device which can be installed into a mechanoid. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks. It shuts down instantly if hit by EMP. -->
+  <MU_Shield_Large_S.description>TODO</MU_Shield_Large_S.description>
+  <!-- EN: propulsion amplifier -->
+  <MU_PropulsorAmplifier.label>TODO</MU_PropulsorAmplifier.label>
+  <!-- EN: Amplifier for mechanoid propulsion engine. Increases speed and carried mass, but also consumes additional energy. -->
+  <MU_PropulsorAmplifier.description>TODO</MU_PropulsorAmplifier.description>
+  <!-- EN: system merger -->
+  <MU_SystemMerger.label>TODO</MU_SystemMerger.label>
+  <!-- EN: A special device that can be installed into mechanoid, allowing to connect and merge systems with another mechanoid, boosting its data processing and mobility, while reducing incoming damage by acting as backup for critical subsystems. Should the connection end prematurely by broadcaster&apos;s death, the receiver will suffer from severe system disruption. -->
+  <MU_SystemMerger.description>TODO</MU_SystemMerger.description>
+</LanguageData>

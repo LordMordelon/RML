@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_Repulsive"]/label</xpath>
+          <value>
+            <!-- EN: very repulsive -->
+            <label>repulsivo</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

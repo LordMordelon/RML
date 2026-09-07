@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/label</xpath>
+    <value>
+      <!-- EN: blackboard (1x2) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SchoolDesk"]/description</xpath>
+    <value>
+      <!-- EN: A desk where students can learn in general classes. Functions at a good speed for most lessons. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/description</xpath>
+    <value>
+      <!-- EN: A flat surface for writing on with chalk at moderate speed. Placing a board marks the area as a classroom, which can then be assigned classes. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>

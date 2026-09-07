@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Apex Mechanoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AdvancedMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Advanced mechtech -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="ApexMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Apex mechtech -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Apparel_MechamancerSuit"]/label</xpath>
+          <value>
+            <!-- EN: mechmancer suit -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/label</xpath>
+          <value>
+            <!-- EN: mechmancer helmet -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Apparel_MechamancerPack"]/label</xpath>
+          <value>
+            <!-- EN: mechmancer pack -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Apparel_MechamancerPack"]/description</xpath>
+          <value>
+            <!-- EN: A backpack containing an advanced bandwidth-expansion computer and antenna. Increases a mechanitor&apos;s maximum total bandwidth and control groups. When fueled with steel, it can construct small mechanoids that operate independently without consuming bandwidth. Each mechanitor can deploy up to two satellite mechanoids simultaneously. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_MechbandAntenna_Dominus"]/label</xpath>
+          <value>
+            <!-- EN: dominus invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_MechbandAntenna_Terminus"]/label</xpath>
+          <value>
+            <!-- EN: terminus invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_MechbandAntenna_Celerus"]/label</xpath>
+          <value>
+            <!-- EN: celerus invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_MechbandAntenna_United"]/label</xpath>
+          <value>
+            <!-- EN: three-lord invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_MechanoidContainer_Player"]/label</xpath>
+          <value>
+            <!-- EN: mechanoid stasis chamber -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/label</xpath>
+          <value>
+            <!-- EN: make mechmancer suit -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/description</xpath>
+          <value>
+            <!-- EN: Make a mechmancer suit. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/jobString</xpath>
+          <value>
+            <!-- EN: Making mechmancer suit. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/label</xpath>
+          <value>
+            <!-- EN: make mechmancer helmet -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/description</xpath>
+          <value>
+            <!-- EN: Make a mechmancer helmet. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/jobString</xpath>
+          <value>
+            <!-- EN: Making mechmancer helmet. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_MechamancerPack"]/label</xpath>
+          <value>
+            <!-- EN: make mechmancer pack -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_MechamancerPack"]/description</xpath>
+          <value>
+            <!-- EN: Make a mechmancer pack. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="APM_MechamancerPack"]/jobString</xpath>
+          <value>
+            <!-- EN: Making mechmancer pack. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

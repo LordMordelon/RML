@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementTabDef[defName="VCE_AchievementsFishing"]/label</xpath>
+            <value>
+              <!-- EN: Vanilla Fishing -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/label</xpath>
+            <value>
+              <!-- EN: Feeling a Little Shellfish -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/description</xpath>
+            <value>
+              <!-- EN: Make a Lavish meal with lobster -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/label</xpath>
+            <value>
+              <!-- EN: Fugu -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/description</xpath>
+            <value>
+              <!-- EN: Eat a raw pufferfish -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/label</xpath>
+            <value>
+              <!-- EN: Something Special -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/description</xpath>
+            <value>
+              <!-- EN: Catch something that is not a fish -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Skills Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/label</xpath>
+            <value>
+              <!-- EN: Swiftcasting -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/description</xpath>
+            <value>
+              <!-- EN: An expertise in fishing speed that reduces the time spent on fishing jobs. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/label</xpath>
+            <value>
+              <!-- EN: Catchmastery -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/description</xpath>
+            <value>
+              <!-- EN: An expertise in fish catching that increases the amount of fish caught. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/label</xpath>
+            <value>
+              <!-- EN: Aquabounty -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/description</xpath>
+            <value>
+              <!-- EN: An expertise in getting lucky when fishing, catching special items that are not fish. -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

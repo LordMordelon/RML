@@ -1,0 +1,1685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/customizationTitle</xpath>
+          <value>
+            <!-- EN: Persona Weapon Customization -->
+            <customizationTitle>TODO</customizationTitle>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/name</xpath>
+          <value>
+            <!-- EN: Blade -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/name</xpath>
+          <value>
+            <!-- EN: Detail -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/name</xpath>
+          <value>
+            <!-- EN: Grip -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/name</xpath>
+          <value>
+            <!-- EN: Guard -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Anarchy -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Apex -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Avian -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Decimation -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Diplomat -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Diversion -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Enigma -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Feral -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Hallowed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Labyrinth -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Lethal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Maniac -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Martyr -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Slayer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Sullied -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Aggressive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Breacher -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Caster -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Charger -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Crescent -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Defensive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Gaze -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Guard -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Leverage -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Piercer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Protector -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Signal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Standard -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Twilight -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Uplink -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Archivist -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Buckler -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Duelist -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Governor -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Guardian -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Inquisitor -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Magi -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Overseer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Piercer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Proctor -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Protector -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Rigid -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Sentinel -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Tempest -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Wieldy -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Bellhop -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Claymore -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Cross -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Eclipse -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Einhander -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Elementary -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Incisor -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Madu -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Omen -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Regal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Savage -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Solidus -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Striker -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Tron -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Veritas -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/customizationTitle</xpath>
+          <value>
+            <!-- EN: Persona Weapon Customization -->
+            <customizationTitle>TODO</customizationTitle>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/name</xpath>
+          <value>
+            <!-- EN: Blade -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/name</xpath>
+          <value>
+            <!-- EN: Grip -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/name</xpath>
+          <value>
+            <!-- EN: Flameguard -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Backdraft -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Beacon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Buzz -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Caladbolg -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Cutter -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Edgy -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Elegant -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Ethereal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Ignition -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Phoenix -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Prime -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Saber -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Torch -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Warlord -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Wicklash -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Atreyu -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Celestial -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Chosen -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Corsair -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Creed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Fated -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Focus -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Gauge -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Hex -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Mason -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Pendulum -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Reverse -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Shear -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Standard -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Torque -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Basket -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Bladesman -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Brazier -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Chevron -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Decimation -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Direct -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Emiter -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Guided -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Magna -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Riot -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Rotary -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Simple -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Streamline -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Torrent -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Triangulate -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/customizationTitle</xpath>
+          <value>
+            <!-- EN: Persona Weapon Customization -->
+            <customizationTitle>TODO</customizationTitle>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/name</xpath>
+          <value>
+            <!-- EN: Left head -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/name</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/name</xpath>
+          <value>
+            <!-- EN: Grip -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/name</xpath>
+          <value>
+            <!-- EN: Middle -->
+            <name>TODO</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Bore -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Chaos -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Compound -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Driver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Foreign -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Impact -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Incensed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Isolated -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Massive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Piledriver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Polarized -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Ridge -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Shockwave -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Signal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Talon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Bore -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Chaos -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Compound -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Driver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Foreign -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Impact -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Incensed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Isolated -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Massive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Piledriver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Polarized -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Ridge -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Shockwave -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Signal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Talon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Canon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Cataract -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Civilized -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Darkside -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Finese -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Flagbearer -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Lodestone -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Overture -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Rumble -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Sibling -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Simple -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Stalwart -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Sweeper -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Thesis -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Zenon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[1]/texName</xpath>
+          <value>
+            <!-- EN: Alignment -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[2]/texName</xpath>
+          <value>
+            <!-- EN: Amplitude -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[3]/texName</xpath>
+          <value>
+            <!-- EN: Bandsaw -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[4]/texName</xpath>
+          <value>
+            <!-- EN: Cask -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[5]/texName</xpath>
+          <value>
+            <!-- EN: Collide -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[6]/texName</xpath>
+          <value>
+            <!-- EN: Divisive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[7]/texName</xpath>
+          <value>
+            <!-- EN: Inverse -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[8]/texName</xpath>
+          <value>
+            <!-- EN: Linked -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[9]/texName</xpath>
+          <value>
+            <!-- EN: Modular -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[10]/texName</xpath>
+          <value>
+            <!-- EN: Morphos -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[11]/texName</xpath>
+          <value>
+            <!-- EN: Nominal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[12]/texName</xpath>
+          <value>
+            <!-- EN: Orbital -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[13]/texName</xpath>
+          <value>
+            <!-- EN: Streamline -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[14]/texName</xpath>
+          <value>
+            <!-- EN: Umbra -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[4]/texVariants/li[15]/texName</xpath>
+          <value>
+            <!-- EN: Worthy -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Bore -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Chaos -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Compound -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Driver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Foreign -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Impact -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Incensed -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Isolated -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Massive -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Piledriver -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[11]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[11]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Polarized -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[12]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[12]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Ridge -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[13]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[13]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Shockwave -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[14]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[14]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Signal -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[15]/textureVariantOverride/groupName</xpath>
+          <value>
+            <!-- EN: Right head -->
+            <groupName>TODO</groupName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[15]/textureVariantOverride/texName</xpath>
+          <value>
+            <!-- EN: Talon -->
+            <texName>TODO</texName>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

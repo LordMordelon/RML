@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: cortex siphon -->
+  <PMP_CortexSiphon.label>sifón de córtex</PMP_CortexSiphon.label>
+  <!-- EN: cortex siphon -->
+  <PMP_CortexSiphon.labelNoun>sifón de córtex</PMP_CortexSiphon.labelNoun>
+  <!-- EN: this person is having their mind tapped into by a cortex siphon to contribute to a self-propagating performance enhancing mesh-network for boosting mechanoids.\n\nIt operates by viciously partitioning a notable portion of the user&apos;s wetware. This results in a drastic decrease in mental capability, followed by persistent pain and discomfort.\n\nFor the network to function a minimum of two cortex siphons must be active per persona mechanoid. &lt;color=#f1ce02&gt;If the network is unable to meet capacity it fails to function entirely until sufficient siphoning power is achieved once more.&lt;/color&gt;\n\nOnly colonists, slaves, or prisoners that are presently owned by your faction can contribute, transmits over long distances regardless of world map or local map presence. -->
+  <PMP_CortexSiphon.description>la mente de esta persona está siendo intervenida por un sifón de córtex para contribuir a una red de malla autopropagante que mejora el rendimiento y potencia a los mecanoides.\n\nOpera particionando salvajemente una porción notable del tejido neural del usuario. Esto resulta en una disminución drástica de la capacidad mental, seguida de dolor y malestar persistentes.\n\nPara que la red funcione, debe haber un mínimo de dos sifones de córtex activos por cada mecanoide IA. &lt;color=#f1ce02&gt;Si la red no puede alcanzar su capacidad, deja de funcionar por completo hasta que se logre de nuevo suficiente potencia de sifonado.&lt;/color&gt;\n\nSolo pueden contribuir los colonos, esclavos o prisioneros que actualmente pertenezcan a tu facción; transmite a largas distancias sin importar la presencia en el mapa del mundo o en el mapa local.</PMP_CortexSiphon.description>
+  <!-- EN: system shock -->
+  <PMP_PersonaSystemShock.label>choque de sistema</PMP_PersonaSystemShock.label>
+  <!-- EN: system shock -->
+  <PMP_PersonaSystemShock.labelNoun>choque de sistema</PMP_PersonaSystemShock.labelNoun>
+  <!-- EN: The after-effects of an electromagnetic shock to the persona core. Unlike simpler sub persona grade systems, the more intricate architecture of persona cores leaves them extra susceptible to electromagnetic interference to some degree, even after standard adaptation to immediate scrambling.\n\nThankfully advanced materials engineering and developed technologies allow the core to continue operation and auto-correct itself without any permanent side effects after enough time.\n\nHowever, until then, the core will be severely impaired. -->
+  <PMP_PersonaSystemShock.description>Las secuelas de un choque electromagnético al núcleo de IA. A diferencia de los sistemas más simples de nivel sub-IA, la arquitectura más intrincada de los núcleos de IA los deja algo más susceptibles a la interferencia electromagnética, incluso tras la adaptación estándar al bloqueo inmediato.\n\nAfortunadamente, la ingeniería de materiales avanzada y las tecnologías desarrolladas permiten que el núcleo siga funcionando y se autocorrija sin ningún efecto secundario permanente tras el tiempo suficiente.\n\nSin embargo, hasta entonces, el núcleo estará gravemente afectado.</PMP_PersonaSystemShock.description>
+  <!-- EN: critically low power -->
+  <PMP_PersonaCriticalPower.label>energía críticamente baja</PMP_PersonaCriticalPower.label>
+  <!-- EN: This persona mechanoid is critically low on energy, unless they are recharged soon they will be forced into dormancy to self-recharge. -->
+  <PMP_PersonaCriticalPower.labelNoun>energía críticamente baja</PMP_PersonaCriticalPower.labelNoun>
+  <!-- EN: This persona mechanoid is critically low on energy, unless they are recharged soon they will be forced into dormancy to self-recharge. -->
+  <PMP_PersonaCriticalPower.description>Este mecanoide IA tiene la energía críticamente baja; a menos que sea recargado pronto, será forzado a la latencia para autorrecargarse.</PMP_PersonaCriticalPower.description>
+  <!-- EN: Forced Recharge: {PAWN_nameDef} -->
+  <PMP_PersonaCriticalPower.comps.2.letterLabel>Recarga forzada: {PAWN_nameDef}</PMP_PersonaCriticalPower.comps.2.letterLabel>
+  <!-- EN: {PAWN_nameDef} has been without power for too long and has entered an emergency dormancy to self-recharge.\n\nIf the dormancy completes without external input, {PAWN_nameDef} will awake with only 15% energy after 15 days.\n\nA bioelectic cell or persona mech recharger bed can also be used to charge {PAWN_nameDef} to end the dormancy. -->
+  <PMP_PersonaCriticalPower.comps.2.letterText>{PAWN_nameDef} ha estado sin energía demasiado tiempo y ha entrado en una latencia de emergencia para autorrecargarse.\n\nSi la latencia se completa sin intervención externa, {PAWN_nameDef} despertará con solo un 15% de energía tras 15 días.\n\nTambién se puede usar una célula bioeléctrica o una cama de mantenimiento de mecas IA para cargar a {PAWN_nameDef} y terminar la latencia.</PMP_PersonaCriticalPower.comps.2.letterText>
+  <!-- EN: dormant recharge -->
+  <PMP_PersonaDormantRecharge.label>recarga en latencia</PMP_PersonaDormantRecharge.label>
+  <!-- EN: This persona mechanoid is in a dormant self-recharging state, after it is complete they will awake with 15% energy. -->
+  <PMP_PersonaDormantRecharge.labelNoun>recarga en latencia</PMP_PersonaDormantRecharge.labelNoun>
+  <!-- EN: This persona mechanoid is in a dormant self-recharging state, after it is complete they will awake with 15% energy.\n\nYou can recharge a persona mech early from this dormancy using either a bioelectric energy cell or by taking them to a powered recharger bed. -->
+  <PMP_PersonaDormantRecharge.description>Este mecanoide IA está en un estado de latencia de autorrecarga; una vez completado, despertará con un 15% de energía.\n\nPuedes recargar antes a un mecanoide IA para sacarlo de esta latencia usando una célula de energía bioeléctrica o llevándolo a una cama de mantenimiento con energía.</PMP_PersonaDormantRecharge.description>
+  <!-- EN: charger disabled hunger -->
+  <PMP_DisableHungerWhileCharging.label>hambre desactivada por cargador</PMP_DisableHungerWhileCharging.label>
+  <!-- EN: This pawn is using a charger and should not be losing food. -->
+  <PMP_DisableHungerWhileCharging.description>Este colono está usando un cargador y no debería estar perdiendo comida.</PMP_DisableHungerWhileCharging.description>
+  <!-- EN: cold boot -->
+  <PMP_ColdBoot.label>arranque en frío</PMP_ColdBoot.label>
+  <!-- EN: This persona mech has been recharged and is recovering from forced dormancy, however the amount of power was insufficient to rapidly restart it and the recovery will take a short duration. -->
+  <PMP_ColdBoot.labelNoun>arranque en frío</PMP_ColdBoot.labelNoun>
+  <!-- EN: This persona mech has been recharged and is recovering from forced dormancy, however the amount of power was insufficient to rapidly restart it and the recovery will take a short duration. -->
+  <PMP_ColdBoot.description>Este mecanoide IA ha sido recargado y se está recuperando de la latencia forzada; sin embargo, la cantidad de energía fue insuficiente para reiniciarlo rápidamente y la recuperación tardará un breve periodo.</PMP_ColdBoot.description>
+  <!-- EN: was recently fixed by player -->
+  <PMP_WasRecentlyFixedByPlayer.label>reparado recientemente por el jugador</PMP_WasRecentlyFixedByPlayer.label>
+  <!-- EN: This persona mechanoid was recently repaired by the player, if they leave the map they can give good relations with their faction. -->
+  <PMP_WasRecentlyFixedByPlayer.labelNoun>reparado recientemente por el jugador</PMP_WasRecentlyFixedByPlayer.labelNoun>
+  <!-- EN: This persona mechanoid was recently repaired by the player, if they leave the map they can give good relations with their faction. -->
+  <PMP_WasRecentlyFixedByPlayer.description>Este mecanoide IA fue reparado recientemente por el jugador; si abandona el mapa, puede mejorar las relaciones con su facción.</PMP_WasRecentlyFixedByPlayer.description>
+  <!-- EN: was just created by player -->
+  <PMP_WasJustGestated.label>recién creado por el jugador</PMP_WasJustGestated.label>
+  <!-- EN: This persona mechanoid was just created by the player. -->
+  <PMP_WasJustGestated.labelNoun>recién creado por el jugador</PMP_WasJustGestated.labelNoun>
+  <!-- EN: This persona mechanoid was just created by the player. -->
+  <PMP_WasJustGestated.description>Este mecanoide IA acaba de ser creado por el jugador.</PMP_WasJustGestated.description>
+  <!-- EN: system haze -->
+  <PMP_ScanningHaze.label>bruma de sistema</PMP_ScanningHaze.label>
+  <!-- EN: This persona mechanoid recently utilized a persona interface and incurred temporary system aberrations that are being restored, this impacts data processing capabilities. -->
+  <PMP_ScanningHaze.labelNoun>bruma de sistema</PMP_ScanningHaze.labelNoun>
+  <!-- EN: This persona mechanoid recently utilized a persona interface and incurred temporary system aberrations that are being restored, this impacts data processing capabilities. -->
+  <PMP_ScanningHaze.description>Este mecanoide IA utilizó recientemente una interfaz de IA e incurrió en aberraciones temporales de sistema que se están restaurando; esto afecta a las capacidades de procesamiento de datos.</PMP_ScanningHaze.description>
+  <!-- EN: extreme system haze -->
+  <PMP_ScanningHazeExtreme.label>bruma de sistema extrema</PMP_ScanningHazeExtreme.label>
+  <!-- EN: This persona mechanoid is in a dormant self-correcting state, accounting for sudden fluctuations in its underlying subroutines after using a persona interface to create an engram or high grade subcore. -->
+  <PMP_ScanningHazeExtreme.labelNoun>bruma de sistema extrema</PMP_ScanningHazeExtreme.labelNoun>
+  <!-- EN: This persona mechanoid is in a dormant self-correcting state, accounting for sudden fluctuations in its underlying subroutines after using a persona interface to create an engram or high grade subcore. -->
+  <PMP_ScanningHazeExtreme.description>Este mecanoide IA está en un estado de latencia autocorrectiva, compensando fluctuaciones repentinas en sus subrutinas subyacentes tras usar una interfaz de IA para crear un engrama o un subnúcleo de alto nivel.</PMP_ScanningHazeExtreme.description>
+  <!-- EN: engram viable -->
+  <PMP_CanAbsorbEngrams.label>engrama viable</PMP_CanAbsorbEngrams.label>
+  <!-- EN: The AI persona core in this mech has had its neuro signature temporarily supercharged to boost its polymorphic psychically receptive properties, allowing it to integrate a persona engram within a limited time frame.\n\nThis can either be retroactively induced with a procedure requiring fragments of persona data, or naturally occurring when a persona mech is first gestated. -->
+  <PMP_CanAbsorbEngrams.labelNoun>engrama viable</PMP_CanAbsorbEngrams.labelNoun>
+  <!-- EN: The AI persona core in this mech has had its neuro signature temporarily supercharged to boost its polymorphic psychically receptive properties, allowing it to integrate a persona engram within within a limited time frame.\n\nThis can either be retroactively induced with a procedure requiring fragments of persona data, or naturally occurring when a persona mech is first gestated. -->
+  <PMP_CanAbsorbEngrams.description>El núcleo de IA de este mecanoide ha tenido su firma neuronal temporalmente sobrecargada para potenciar sus propiedades polimórficas psíquicamente receptivas, permitiéndole integrar un engrama de IA dentro de un plazo limitado.\n\nEsto puede inducirse retroactivamente con un procedimiento que requiere fragmentos de datos de IA, o suceder de forma natural cuando un mecanoide IA es gestado por primera vez.</PMP_CanAbsorbEngrams.description>
+  <!-- EN: hunger drain by 20% -->
+  <PMP_InstantHungerLoss.label>drenaje de hambre del 20%</PMP_InstantHungerLoss.label>
+  <!-- EN: Instantly drains 20% of hunger. -->
+  <PMP_InstantHungerLoss.description>Drena instantáneamente el 20% del hambre.</PMP_InstantHungerLoss.description>
+  <!-- EN: paralytic strata -->
+  <PMP_Abasia.label>estrato paralítico</PMP_Abasia.label>
+  <!-- EN: A condition that makes a persona mech unable to walk due to faulty signalling from command and control connective strata.\n\nWhile passive maintenance routines will eventually resolve the problem direct replacement of compromised parts through an operation is much faster. -->
+  <PMP_Abasia.description>Una condición que impide caminar a un mecanoide IA debido a una señalización defectuosa de los estratos conectivos de mando y control.\n\nAunque las rutinas de mantenimiento pasivo acabarán resolviendo el problema, el reemplazo directo de las partes comprometidas mediante una operación es mucho más rápido.</PMP_Abasia.description>
+  <!-- EN: A condition that makes a persona mech unable to walk due to faulty signalling from command and control connective strata. -->
+  <PMP_Abasia.descriptionShort>Una condición que impide caminar a un mecanoide IA debido a una señalización defectuosa de los estratos conectivos de mando y control.</PMP_Abasia.descriptionShort>
+  <!-- EN: Mechanoid Body -->
+  <PMP_PersonaMechHediff.label>cuerpo mecanoide</PMP_PersonaMechHediff.label>
+  <!-- EN: This pawn is a human-like mechanoid, thus it comes with some extra differences. -->
+  <PMP_PersonaMechHediff.description>Este colono es un mecanoide con forma humana, por lo que presenta algunas diferencias adicionales.</PMP_PersonaMechHediff.description>
+  <!-- EN: boosted by cortex siphoning -->
+  <PMP_PersonaMechCortexSiphonBuff.label>potenciado por sifonado de córtex</PMP_PersonaMechCortexSiphonBuff.label>
+  <!-- EN: boosted by cortex siphoning -->
+  <PMP_PersonaMechCortexSiphonBuff.labelNoun>potenciado por sifonado de córtex</PMP_PersonaMechCortexSiphonBuff.labelNoun>
+  <!-- EN: this mechanoid is being boosted by an sufficiently empowered cortex siphon network.\n\nIf there is a sufficient amount of neural siphon caskets assisting the cortex siphons on the network, the resulting performance enhancements will be far greater. Even boosting standard mechanoids controlled by your faction with eight or more active caskets. -->
+  <PMP_PersonaMechCortexSiphonBuff.description>este mecanoide está siendo potenciado por una red de sifones de córtex suficientemente empoderada.\n\nSi hay una cantidad suficiente de cápsulas de sifón neural asistiendo a los sifones de córtex de la red, las mejoras de rendimiento resultantes serán mucho mayores. Incluso potenciando a los mecanoides estándar controlados por tu facción con ocho o más cápsulas activas.</PMP_PersonaMechCortexSiphonBuff.description>
+  <!-- EN: archotech sight sensor -->
+  <PMP_ArchotechEye.label>sensor de vista arqueotéc</PMP_ArchotechEye.label>
+  <!-- EN: an archotech sight sensor -->
+  <PMP_ArchotechEye.labelNoun>un sensor de vista arqueotéc</PMP_ArchotechEye.labelNoun>
+  <!-- EN: An installed archotech sight sensor. -->
+  <PMP_ArchotechEye.description>Un sensor de vista arqueotéc instalado.</PMP_ArchotechEye.description>
+  <!-- EN: tunneler claws -->
+  <PMP_TunnelerClaws.label>garras de tunelador</PMP_TunnelerClaws.label>
+  <!-- EN: tunneler claws -->
+  <PMP_TunnelerClaws.labelNoun>garras de tunelador</PMP_TunnelerClaws.labelNoun>
+  <!-- EN: An installed set of tunneler claws. -->
+  <PMP_TunnelerClaws.description>Un conjunto de garras de tunelador instalado.</PMP_TunnelerClaws.description>
+  <!-- EN: left claw -->
+  <PMP_TunnelerClaws.comps.0.tools.0.label>garra izquierda</PMP_TunnelerClaws.comps.0.tools.0.label>
+  <!-- EN: right claw -->
+  <PMP_TunnelerClaws.comps.0.tools.1.label>garra derecha</PMP_TunnelerClaws.comps.0.tools.1.label>
+  <!-- EN: agrihand harvester arm -->
+  <PMP_AgrihandHarvesterArm.label>brazo cosechador agricoide</PMP_AgrihandHarvesterArm.label>
+  <!-- EN: agrihand harvester arm -->
+  <PMP_AgrihandHarvesterArm.labelNoun>brazo cosechador agricoide</PMP_AgrihandHarvesterArm.labelNoun>
+  <!-- EN: An installed agrihand harvester arm. -->
+  <PMP_AgrihandHarvesterArm.description>Un brazo cosechador agricoide instalado.</PMP_AgrihandHarvesterArm.description>
+  <!-- EN: blade -->
+  <PMP_AgrihandHarvesterArm.comps.0.tools.0.label>cuchilla</PMP_AgrihandHarvesterArm.comps.0.tools.0.label>
+  <!-- EN: subpersona assistant -->
+  <PMP_SubpersonaAssistantMecha.label>asistente sub-IA</PMP_SubpersonaAssistantMecha.label>
+  <!-- EN: subpersona assistant -->
+  <PMP_SubpersonaAssistantMecha.labelNoun>asistente sub-IA</PMP_SubpersonaAssistantMecha.labelNoun>
+  <!-- EN: An installed subpersona assistant. -->
+  <PMP_SubpersonaAssistantMecha.description>Un asistente sub-IA instalado.</PMP_SubpersonaAssistantMecha.description>
+  <!-- EN: frame stabilizer -->
+  <PMP_FrameStabilizer.label>estabilizador de estructura</PMP_FrameStabilizer.label>
+  <!-- EN: frame stabilizer -->
+  <PMP_FrameStabilizer.labelNoun>estabilizador de estructura</PMP_FrameStabilizer.labelNoun>
+  <!-- EN: An installed frame stabilizer. -->
+  <PMP_FrameStabilizer.description>Un estabilizador de estructura instalado.</PMP_FrameStabilizer.description>
+  <!-- EN: inline jump launcher -->
+  <PMP_LongjumpMechImplant.label>lanzador de salto en línea</PMP_LongjumpMechImplant.label>
+  <!-- EN: A hardware module manifesting as a miniaturized jump launcher built directly into the thorax of the persona mechanoid, able to launch the user briefly to a desired destination before needing to recharge.\n\nUses 20% of energy per jump! Instantly forces dormancy after jumping at critical power levels! -->
+  <PMP_LongjumpMechImplant.description>Un módulo de hardware que se manifiesta como un lanzador de salto miniaturizado construido directamente en el tórax del mecanoide IA, capaz de lanzar al usuario brevemente a un destino deseado antes de necesitar recargarse.\n\n¡Usa 20% de energía por salto! ¡Fuerza instantáneamente la latencia después de saltar con niveles de energía críticos!</PMP_LongjumpMechImplant.description>
+  <!-- EN: concealed tox gas vents -->
+  <PMP_ToxGasImplant.label>rejillas de gas tóxico</PMP_ToxGasImplant.label>
+  <!-- EN: Concealed vents throughout this mechanoid&apos;s body allow the formation of a cloud of tox gas around the user. After firing it takes about 5 days for the tox gas generator to passively rebuild enough material for another use.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
+  <PMP_ToxGasImplant.description>Rejillas ocultas a lo largo del cuerpo de este mecanoide permiten la formación de una nube de gas tóxico alrededor del usuario. Después de disparar, toma aproximadamente 5 días para que el generador de gas tóxico reconstruya pasivamente suficiente material para otro uso.\n\nEl gas tóxico quema los pulmones y los ojos, causando una dificultad respiratoria temporal y reducción de la vista. La exposición continua al gas tóxico resulta en acumulación tóxica que puede ser letal.</PMP_ToxGasImplant.description>
+  <!-- EN: concealed smokepop vents -->
+  <PMP_SmokepopImplant.label>rejillas de humo</PMP_SmokepopImplant.label>
+  <!-- EN: Concealed vents throughout this mechanoid&apos;s body allow the projection of a temporary smoke screen. After firing it takes about 15 days for the smoke generator to passively rebuild enough material for another use. Smoke reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
+  <PMP_SmokepopImplant.description>Rejillas ocultas a lo largo del cuerpo de este mecanoide permiten la proyección de una cortina de humo temporal. Después de disparar, toma aproximadamente 15 días para que el generador de humo reconstruya pasivamente suficiente material para otro uso. El humo reduce la precisión de cualquier disparo que pase a través de él, y evita que las torretas se fijen por completo.</PMP_SmokepopImplant.description>
+  <!-- EN: concealed firefoam spewer -->
+  <PMP_FirefoampopImplant.label>lanzador de espuma ignífuga</PMP_FirefoampopImplant.label>
+  <!-- EN: A firefoam spewer on a persona mechanoid&apos;s body, allows for rapid dispersal of firefoam. After firing it takes about 5 days for the foam generator to passively rebuild enough material for another use. -->
+  <PMP_FirefoampopImplant.description>Un lanzador de espuma ignífuga oculto en el cuerpo de un mecanoide IA, permite la dispersión rápida de espuma ignífuga. Después de disparar, toma aproximadamente 5 días para que el generador de espuma reconstruya pasivamente suficiente material para otro uso.</PMP_FirefoampopImplant.description>
+  <!-- EN: enhanced casing -->
+  <PMP_EnhancedCasing.label>chasis reforzado</PMP_EnhancedCasing.label>
+  <!-- EN: a enhanced casing -->
+  <PMP_EnhancedCasing.labelNoun>un chasis reforzado</PMP_EnhancedCasing.labelNoun>
+  <!-- EN: An installed enhanced casing. -->
+  <PMP_EnhancedCasing.description>Un chasis reforzado instalado.</PMP_EnhancedCasing.description>
+  <!-- EN: wire jack suite -->
+  <PMP_WireJack.label>suite de conexión por cable</PMP_WireJack.label>
+  <!-- EN: wire jack suite -->
+  <PMP_WireJack.labelNoun>suite de conexión por cable</PMP_WireJack.labelNoun>
+  <!-- EN: An installed wire jack suite. -->
+  <PMP_WireJack.description>Una suite de conexión por cable instalada.</PMP_WireJack.description>
+  <!-- EN: enhanced mobility suite -->
+  <PMP_EnhancedMobilitySuite.label>suite de movilidad mejorada</PMP_EnhancedMobilitySuite.label>
+  <!-- EN: enhanced mobility suite -->
+  <PMP_EnhancedMobilitySuite.labelNoun>suite de movilidad mejorada</PMP_EnhancedMobilitySuite.labelNoun>
+  <!-- EN: An installed enhanced mobility suite. -->
+  <PMP_EnhancedMobilitySuite.description>Una suite de movilidad mejorada instalada.</PMP_EnhancedMobilitySuite.description>
+  <!-- EN: archotech core accelerator -->
+  <PMP_ArchotechCoreAccelerator.label>acelerador de núcleo arqueotéc</PMP_ArchotechCoreAccelerator.label>
+  <!-- EN: archotech core accelerator -->
+  <PMP_ArchotechCoreAccelerator.labelNoun>acelerador de núcleo arqueotéc</PMP_ArchotechCoreAccelerator.labelNoun>
+  <!-- EN: An archotech installed core accelerator. -->
+  <PMP_ArchotechCoreAccelerator.description>Un acelerador de núcleo arqueotéc instalado.</PMP_ArchotechCoreAccelerator.description>
+  <!-- EN: joy looper -->
+  <PMP_Joylooper.label>bucle de gozo</PMP_Joylooper.label>
+  <!-- EN: PMP_Joylooper -->
+  <PMP_Joylooper.labelNoun>bucle de gozo</PMP_Joylooper.labelNoun>
+  <!-- EN: An installed joy looper. -->
+  <PMP_Joylooper.description>Un bucle de gozo instalado.</PMP_Joylooper.description>
+  <!-- EN: environmental nullifier -->
+  <PMP_EnvironmentalNullifier.label>anulador ambiental</PMP_EnvironmentalNullifier.label>
+  <!-- EN: environmental nullifier -->
+  <PMP_EnvironmentalNullifier.labelNoun>anulador ambiental</PMP_EnvironmentalNullifier.labelNoun>
+  <!-- EN: An installed environmental nullifier. -->
+  <PMP_EnvironmentalNullifier.description>Un anulador ambiental instalado.</PMP_EnvironmentalNullifier.description>
+  <!-- EN: Gilded casing -->
+  <PMP_GildedCasing.label>Chasis dorado</PMP_GildedCasing.label>
+  <!-- EN: Gilded casing -->
+  <PMP_GildedCasing.labelNoun>Chasis dorado</PMP_GildedCasing.labelNoun>
+  <!-- EN: An installed gilded casing. -->
+  <PMP_GildedCasing.description>Un chasis dorado instalado.</PMP_GildedCasing.description>
+  <!-- EN: auxiliary manipulator arm -->
+  <PMP_AuxiliaryManipulatorArm.label>brazo manipulador auxiliar</PMP_AuxiliaryManipulatorArm.label>
+  <!-- EN: an additional manipulator arm -->
+  <PMP_AuxiliaryManipulatorArm.labelNoun>un brazo manipulador adicional</PMP_AuxiliaryManipulatorArm.labelNoun>
+  <!-- EN: A hadware module manifesting as a cumbersome yet surprisingly dexterous manipulator arm integrated directly into the chassis of a persona mechanoid, engineered to balance fine motor precision with the strength required for routine labor and maintenance work.\n\nIts surprisingly sharp manipulator tips for quick utility cutting paired with its load bearing strength grant it notable melee capabilities. -->
+  <PMP_AuxiliaryManipulatorArm.description>Un módulo de hardware que se manifiesta como un brazo manipulador voluminoso pero sorprendentemente diestro, integrado directamente en el chasis de un mecanoide IA, diseñado para equilibrar la precisión motora fina con la fuerza requerida para el trabajo rutinario y el mantenimiento.\n\nSus puntas de manipulador sorprendentemente afiladas para corte utilitario rápido, combinadas con su fuerza de carga, le otorgan notables capacidades de combate cuerpo a cuerpo.</PMP_AuxiliaryManipulatorArm.description>
+  <!-- EN: should tool -->
+  <PMP_AuxiliaryManipulatorArm.comps.0.tools.0.label>herramienta de hombro</PMP_AuxiliaryManipulatorArm.comps.0.tools.0.label>
+  <!-- EN: integrated lesser mechlink -->
+  <PMP_LesserMechlink.label>mecaenlace menor integrado</PMP_LesserMechlink.label>
+  <!-- EN: A lesser approximation of a mechlink only made possible due to the direct interface potential between the persona core and an adapted mechanoid control band interface, such a simple sublink is too delicate to execute with with organic minds without the ultrafine wiring webs normally found in mechlinks.\n\nWhile it will allow a user to control mechanoids and perform other work made possible by having a mechlink its suffers greatly in bandwidth scaling and other capacities due to its weakened signalling capabilities.\n\nCan be replaced with a fully integrated mechlink via an operation to negate penalties.\n\nNotice: &lt;color=#e44e4e&gt;Only allows for 5 max bandwidth and any further to be acquired only through band node tuning, all other bandwidth buffs from equipment or otherwise are negated.&lt;/color&gt; -->
+  <PMP_LesserMechlink.description>Una aproximación menor de un mecaenlace solo posible gracias al potencial de interfaz directa entre el núcleo de IA y una interfaz adaptada de banda de control mecanoide, un subenlace tan simple es demasiado delicado para ejecutarse con mentes orgánicas sin las redes de cableado ultrafino que normalmente se encuentran en los mecaenlaces.\n\nAunque permitirá al usuario controlar mecanoides y realizar otros trabajos posibles al tener un mecaenlace, sufre enormemente en escalado de ancho de banda y otras capacidades debido a sus capacidades de señalización debilitadas.\n\nPuede ser reemplazado con un mecaenlace completamente integrado mediante una operación para negar las penalizaciones.\n\nAviso: &lt;color=#e44e4e&gt;Solo permite un máximo de 5 de ancho de banda y cualquier adicional solo puede adquirirse a través del ajuste de nodo de banda, todos los demás beneficios de ancho de banda de equipamiento u otros se anulan.&lt;/color&gt;</PMP_LesserMechlink.description>
+  <!-- EN: Electro-tuning casing -->
+  <PMP_ElectroTuningCasing.label>Chasis de electrosintonización</PMP_ElectroTuningCasing.label>
+  <!-- EN: Electro-tuning casing -->
+  <PMP_ElectroTuningCasing.labelNoun>Chasis de electrosintonización</PMP_ElectroTuningCasing.labelNoun>
+  <!-- EN: An installed electro tuning casing. -->
+  <PMP_ElectroTuningCasing.description>Un chasis de electrosintonización instalado.</PMP_ElectroTuningCasing.description>
+  <!-- EN: hellsphere weapon system -->
+  <PMP_DiabolusUpgrade.label>sistema de arma de esfera infernal</PMP_DiabolusUpgrade.label>
+  <!-- EN: hellsphere weapon system -->
+  <PMP_DiabolusUpgrade.labelNoun>sistema de arma de esfera infernal</PMP_DiabolusUpgrade.labelNoun>
+  <!-- EN: An installed hellsphere weapon system. -->
+  <PMP_DiabolusUpgrade.description>Un sistema de arma de esfera infernal instalado.</PMP_DiabolusUpgrade.description>
+  <!-- EN: integrated thump cannon -->
+  <PMP_IntegratedThumpCannon.label>cañón de impacto integrado</PMP_IntegratedThumpCannon.label>
+  <!-- EN: A hardware module manifesting as concealed yet rapidly deployable thump cannon armament, usually only seen in termite mechs.\n\nInstalled directly into the chassis of the persona mechanoid it can be toggled utilizing the associated ability, instantly stowing any other integrated weapon or dropping the current standard armament on activation. -->
+  <PMP_IntegratedThumpCannon.description>Un módulo de hardware que se manifiesta como un armamento de cañón de impacto oculto pero rápidamente desplegable, generalmente solo visto en mecas termita.\n\nInstalado directamente en el chasis del mecanoide IA, puede alternarse utilizando la habilidad asociada, guardando instantáneamente cualquier otra arma integrada o soltando el armamento estándar actual al activarse.</PMP_IntegratedThumpCannon.description>
+  <!-- EN: integrated mini-flameblaster -->
+  <PMP_IntegratedMiniFlameblaster.label>mini lanzallamas integrado</PMP_IntegratedMiniFlameblaster.label>
+  <!-- EN: A hardware module manifesting as concealed yet rapidly deployable mini-flameblaster armament, usually only seen in schorcher mechs.\n\nInstalled directly into the chassis of the persona mechanoid it can be toggled utilizing the associated ability, instantly stowing any other integrated weapon or dropping the current standard armament on activation. -->
+  <PMP_IntegratedMiniFlameblaster.description>Un módulo de hardware que se manifiesta como un armamento de mini lanzallamas oculto pero rápidamente desplegable, generalmente solo visto en mecas abrasadores.\n\nInstalado directamente en el chasis del mecanoide IA, puede alternarse utilizando la habilidad asociada, guardando instantáneamente cualquier otra arma integrada o soltando el armamento estándar actual al activarse.</PMP_IntegratedMiniFlameblaster.description>
+  <!-- EN: integrated toxic needle gun -->
+  <PMP_IntegratedToxicNeedle.label>pistola de agujas tóxicas integrada</PMP_IntegratedToxicNeedle.label>
+  <!-- EN: A hardware module manifesting as concealed yet rapidly deployable mini-flameblaster armament, usually only seen in schorcher mechs.\n\nInstalled directly into the chassis of the persona mechanoid it can be toggled utilizing the associated ability, instantly stowing any other integrated weapon or dropping the current standard armament on activation. -->
+  <PMP_IntegratedToxicNeedle.description>Un módulo de hardware que se manifiesta como un armamento de pistola de agujas tóxicas oculto pero rápidamente desplegable, generalmente solo visto en mecas apocritón.\n\nInstalado directamente en el chasis del mecanoide IA, puede alternarse utilizando la habilidad asociada, guardando instantáneamente cualquier otra arma integrada o soltando el armamento estándar actual al activarse.</PMP_IntegratedToxicNeedle.description>
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="FlatscreenTelevision"]/description</xpath>
+    <value>
+      <!-- EN: Build complex electronic joy sources such as flatscreen televisions, longwave radios and more. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="FlatscreenTelevision"]/label</xpath>
+    <value>
+      <!-- EN: complex electronics -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+</Patch>

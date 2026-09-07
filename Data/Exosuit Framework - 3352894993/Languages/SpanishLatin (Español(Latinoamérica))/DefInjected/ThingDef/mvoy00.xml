@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: dock point -->
+  <MF_Building_ParkingSpot.label>lugar de atraque</MF_Building_ParkingSpot.label>
+  <!-- EN: A point designated for temporary parking the frame. suppose the frame is designed to be able to disembark temporarily. the pilot can leave the frame here and rest or receive treatment. However, due to the lack of relevant equipment, it can not unload the module for maintenance or repair and requires a longer boarding time. -->
+  <MF_Building_ParkingSpot.description>Un punto designado para el estacionamiento temporal del armazón. Se supone que el armazón está diseñado para poder desembarcar temporalmente. El piloto puede dejar el armazón aquí y descansar o recibir tratamiento. Sin embargo, debido a la falta de equipo relevante, no puede descargar el módulo para mantenimiento o reparación y requiere un tiempo de embarque más largo.</MF_Building_ParkingSpot.description>
+  <!-- EN: maintenance Gantry -->
+  <MF_Building_MaintenanceBay.label>bahia de mantenimiento</MF_Building_MaintenanceBay.label>
+  <!-- EN: A place for walker frame storage and maintenance, it has a gantry that allows you to do mechsuit loadout modification but requires at least one connected module storage shelve. -->
+  <MF_Building_MaintenanceBay.description>Un lugar para el almacenamiento y mantenimiento de armazones de caminante, tiene un pórtico que te permite hacer modificaciones en la carga del mecatraje, pero requiere al menos un estante de almacenamiento de módulos conectado.</MF_Building_MaintenanceBay.description>
+  <!-- EN: module shelve -->
+  <MF_Building_ComponentStorage.label>estante de módulos</MF_Building_ComponentStorage.label>
+  <!-- EN: a module storage rack, pawn can repair damaged module on it. and the maintenance bay can only select modules storaged in connected storage shelve. -->
+  <MF_Building_ComponentStorage.description>Un estante para almacenar módulos, los colonos pueden reparar módulos dañados en él. Y la bahía de mantenimiento solo puede seleccionar módulos almacenados en estantes de almacenamiento conectados.</MF_Building_ComponentStorage.description>
+  <!-- EN: payload shelve -->
+  <MF_Building_PayloadStorage.label>estante de carga útil</MF_Building_PayloadStorage.label>
+  <!-- EN: A storage shelf for inventory management, Pawn will take items automatically when boarding the exosuit. And when docking the exosuit, acceptable items for this shelf will automatically unload. -->
+  <MF_Building_PayloadStorage.description>Un estante de almacenamiento para la gestión de inventario, el colono tomará los artículos automáticamente al abordar el exoesqueleto. Y al atracar el exoesqueleto, los artículos aceptables para este estante se descargarán automáticamente.</MF_Building_PayloadStorage.description>
+  <!-- EN: scaffold -->
+  <MF_Building_Scaffold.label>andamio</MF_Building_Scaffold.label>
+  <!-- EN: Metal scaffolding used to facilitate maintenance and disassembly during mecha maintenance, which can effectively reduce the work time of installation and disassembly. Each rack can be connected to up to 4 scaffolds. -->
+  <MF_Building_Scaffold.description>Andamio metálico utilizado para facilitar el mantenimiento y desmontaje durante el mantenimiento de mechas, lo que puede reducir eficazmente el tiempo de trabajo de instalación y desmontaje. Cada estante se puede conectar a hasta 4 andamios.</MF_Building_Scaffold.description>
+  <!-- EN: scaffold stair -->
+  <MF_Building_ScaffoldStair.label>escalera de andamio</MF_Building_ScaffoldStair.label>
+  <!-- EN: Metal scaffolding used to facilitate maintenance and disassembly during mecha maintenance, which can effectively reduce the work time of installation and disassembly. Each rack can be connected to up to 4 scaffolds. -->
+  <MF_Building_ScaffoldStair.description>Andamio metálico utilizado para facilitar el mantenimiento y desmontaje during el mantenimiento de mechas, lo que puede reducir eficazmente el tiempo de trabajo de instalación y desmontaje. Cada estante se puede conectar a hasta 4 andamios.</MF_Building_ScaffoldStair.description>
+  <!-- EN: wreckage -->
+  <MF_Building_Wreckage.label>restos</MF_Building_Wreckage.label>
+  <!-- EN: flying -->
+  <WG_PawnFlyer.label>volador</WG_PawnFlyer.label>
+  <!-- EN: auto repair arm -->
+  <MF_Building_AutoRepairArm.label>TODO</MF_Building_AutoRepairArm.label>
+  <!-- EN: An automated repair arm that can automatically repair exosuits on the maintenance gantry it faces. Place it so that its wide side faces the gantry. Requires power to operate. -->
+  <MF_Building_AutoRepairArm.description>TODO</MF_Building_AutoRepairArm.description>
+  <!-- EN: human -->
+  <Dummy.label>humano</Dummy.label>
+  <!-- EN: A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets. -->
+  <Dummy.description>Un humano de referencia, mayormente sin modificar por ingeniería genética y mayormente sin cambios por las presiones evolutivas en planetas no terrestres.</Dummy.description>
+  <!-- EN: left fist -->
+  <Dummy.tools.0.label>puño izquierdo</Dummy.tools.0.label>
+  <!-- EN: right fist -->
+  <Dummy.tools.1.label>puño derecho</Dummy.tools.1.label>
+  <!-- EN: teeth -->
+  <Dummy.tools.2.label>dientes</Dummy.tools.2.label>
+  <!-- EN: head -->
+  <Dummy.tools.3.label>cabeza</Dummy.tools.3.label>
+  <!-- EN: fuel cell module -->
+  <MF_Module_FuelCell.label>TODO</MF_Module_FuelCell.label>
+  <!-- EN: A high-capacity fuel cell that provides additional power to exosuit systems. When fueled with chemfuel, it boosts the pilot&apos;s movement speed and work efficiency. The fuel cell automatically activates when installed and has fuel. -->
+  <MF_Module_FuelCell.description>TODO</MF_Module_FuelCell.description>
+  <!-- EN: fuel cell module -->
+  <MF_Apparel_FuelCell.label>TODO</MF_Apparel_FuelCell.label>
+  <!-- EN: A high-capacity fuel cell that provides additional power to exosuit systems. -->
+  <MF_Apparel_FuelCell.description>TODO</MF_Apparel_FuelCell.description>
+  <!-- EN: ammo backpack module -->
+  <MF_Module_AmmoBackpack.label>TODO</MF_Module_AmmoBackpack.label>
+  <!-- EN: A belt-fed ammunition backpack that connects to compatible weapons, providing continuous ammo supply without manual reloading. Not compatible with rockets, missiles, or grenades. -->
+  <MF_Module_AmmoBackpack.description>TODO</MF_Module_AmmoBackpack.description>
+  <!-- EN: heavy ammo backpack module -->
+  <MF_Module_AmmoBackpack_Heavy.label>TODO</MF_Module_AmmoBackpack_Heavy.label>
+  <!-- EN: A large belt-fed ammunition backpack with double capacity. Occupies both the attachment slot and right shoulder mount. Not compatible with rockets, missiles, or grenades. -->
+  <MF_Module_AmmoBackpack_Heavy.description>TODO</MF_Module_AmmoBackpack_Heavy.description>
+  <!-- EN: compact ammo box module -->
+  <MF_Module_AmmoBackpack_Light.label>TODO</MF_Module_AmmoBackpack_Light.label>
+  <!-- EN: A lightweight ammunition box mounted on the left arm. Smaller capacity but leaves the backpack slot free. Not compatible with rockets, missiles, or grenades. -->
+  <MF_Module_AmmoBackpack_Light.description>TODO</MF_Module_AmmoBackpack_Light.description>
+  <!-- EN: ammo backpack -->
+  <MF_Apparel_AmmoBackpack.label>TODO</MF_Apparel_AmmoBackpack.label>
+  <!-- EN: A belt-fed ammunition backpack module installed on an exosuit. -->
+  <MF_Apparel_AmmoBackpack.description>TODO</MF_Apparel_AmmoBackpack.description>
+  <!-- EN: heavy ammo backpack -->
+  <MF_Apparel_AmmoBackpack_Heavy.label>TODO</MF_Apparel_AmmoBackpack_Heavy.label>
+  <!-- EN: A large belt-fed ammunition backpack module with double capacity. -->
+  <MF_Apparel_AmmoBackpack_Heavy.description>TODO</MF_Apparel_AmmoBackpack_Heavy.description>
+  <!-- EN: compact ammo box -->
+  <MF_Apparel_AmmoBackpack_Light.label>TODO</MF_Apparel_AmmoBackpack_Light.label>
+  <!-- EN: A lightweight ammunition box mounted on the left arm. -->
+  <MF_Apparel_AmmoBackpack_Light.description>TODO</MF_Apparel_AmmoBackpack_Light.description>
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RoyalTitlePermitDef[defName="FoodDrop"]/description</xpath>
+    <value>
+      <!-- EN: Call for a drop of 35 packaged survival meals. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/description</xpath>
+    <value>
+      <!-- EN: Call for a drop of 750 steel. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RoyalTitlePermitDef[defName="SilverDrop"]/description</xpath>
+    <value>
+      <!-- EN: Call for a drop of 1500 silver. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/description</xpath>
+    <value>
+      <!-- EN: Call for a drop of 8 glitterworld medicine. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>

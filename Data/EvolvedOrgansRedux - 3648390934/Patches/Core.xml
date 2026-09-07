@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[18]/customLabel</xpath>
+    <value>
+      <!-- EN: tail bone -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[19]/customLabel</xpath>
+    <value>
+      <!-- EN: lower back -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[20]/customLabel</xpath>
+    <value>
+      <!-- EN: upper back -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[21]/customLabel</xpath>
+    <value>
+      <!-- EN: right abdominal cavity -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[22]/customLabel</xpath>
+    <value>
+      <!-- EN: left abdominal cavity -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[23]/customLabel</xpath>
+    <value>
+      <!-- EN: right chest cavity -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[24]/customLabel</xpath>
+    <value>
+      <!-- EN: left chest cavity -->
+      <customLabel>TODO</customLabel>
+    </value>
+  </Operation>
+</Patch>

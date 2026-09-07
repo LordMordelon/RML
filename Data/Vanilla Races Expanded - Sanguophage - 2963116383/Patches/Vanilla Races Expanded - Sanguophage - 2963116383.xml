@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Nutrient Paste Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VRE_Draincasket"]/description</xpath>
+          <value>
+            <!-- EN: A sinister contraption designed to extract hemogen from an individual while maintaining their life force at the barest minimum. This dark and foreboding casket houses its occupant in a twilight state of existence with their body slowly drained of precious hemogen. Bound to their Draincasket, the occupant&apos;s survival depends on being fed regularly, as they can still starve to death.\n\nProduces hemogen packs a day as long as the occupant has food and the casket is connected to a hemogen network. The amount of hemogen packs depends on the occupant&apos;s hunger rate - someone with a worse metabolic efficiency will produce more hemogen packs while using proportionally more nutrition to do so. If deprived of food, the casket will eventually kill its occupant.\n\nIf connected to a nutrient paste network it will feed its occupant using its stored nutrients. -->
+            <description>Un artilugio siniestro diseñado para extraer hemógeno de un individuo mientras mantiene su fuerza vital al mínimo indispensable. Este ataúd oscuro y premonitorio alberga a su ocupante en un estado crepuscular de existencia con su cuerpo drenado lentamente de precioso hemógeno. Atado a su Ataúd de Drenaje, la supervivencia del ocupante depende de ser alimentado regularmente, ya que aún pueden morir de hambre.\n\nProduce packs de hemógeno al día siempre que el ocupante tenga comida y el ataúd esté conectado a una red de hemógeno. La cantidad de packs de hemógeno depende de la tasa de hambre del ocupante: alguien con una peor eficiencia metabólica producirá más packs de hemógeno mientras usa proporcionalmente más nutrición para hacerlo. Si se le priva de comida, el ataúd eventualmente matará a su ocupante.\n\nSi está conectado a una red de pasta nutritiva, alimentará a su ocupante utilizando sus nutrientes almacenados.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

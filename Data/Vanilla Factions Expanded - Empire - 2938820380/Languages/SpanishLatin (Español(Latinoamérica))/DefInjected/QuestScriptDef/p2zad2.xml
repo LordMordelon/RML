@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: lastOrNot(nobleCount==1)-&gt; -->
+  <!-- EN: lastOrNot(nobleCount&gt;=2)-&gt;last -->
+  <!-- EN: lodgersLabelSingularOrPlural(nobleCount==1)-&gt;[lodgersLabel] -->
+  <!-- EN: lodgersLabelSingularOrPlural(nobleCount&gt;=2)-&gt;[lodgersLabelPlural] -->
+  <!-- EN: decidedToLeave-&gt;[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } decided to leave. -->
+  <!-- EN: othersWillNotAccept-&gt;The {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} not willing to accept this -->
+  <!-- EN: oneOfThe-&gt;one of the nobles you invited to stay with you -->
+  <!-- EN: questOver-&gt;The quest &apos;[resolvedQuestName]&apos; is over. -->
+  <!-- EN: letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe]. -->
+  <!-- EN: lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure -->
+  <!-- EN: lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] has died. -->
+  <!-- EN: lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure -->
+  <!-- EN: lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery. -->
+  <!-- EN: lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Surgery: Departure -->
+  <!-- EN: lodgerSurgeryVioLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped. -->
+  <!-- EN: lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Kidnapped: Departure -->
+  <!-- EN: lodgerKidnappedLeaveMapLetterText-&gt;[letterIntroKidnapped]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished. -->
+  <!-- EN: lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Banished: Departure -->
+  <!-- EN: lodgerBanishedLeaveMapLetterText-&gt;[letterIntroBanished]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual. -->
+  <!-- EN: lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Psychic Ritual: Departure -->
+  <!-- EN: lodgerPsychicRitualTargetText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave] -->
+  <!-- EN: ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, has been destroyed -->
+  <!-- EN: ShuttleDestroyedLabel-&gt;[lodgersLabel] Shuttle destroyed: Departure -->
+  <!-- EN: ShuttleDestroyedText-&gt;[ShuttleDestroyedIntro]\n\n[decidedToLeave] -->
+  <!-- EN: letterIntroBadMood-&gt;{SUBJECT_definite}, [oneOfThe], who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. -->
+  <!-- EN: nobleUnhappyLetterLabel-&gt;[lodgersLabel] unhappy -->
+  <!-- EN: nobleUnhappyLetterText-&gt;[letterIntroBadMood]\n\n[decidedToLeave] -->
+  <!-- EN: lodgerLeftNotAllHealthyLetterLabel-&gt;[lodgersLabel] : untreated -->
+  <!-- EN: lodgerLeftNotAllHealthyLetterText-&gt;[lodgersLabel] left the map with injuries and wll not have fond memories of their visit -->
+  <!-- EN: LetterLabelShuttleArrived-&gt;Shuttle arrived -->
+  <!-- EN: LetterTextShuttleArrived-&gt;The shuttle has arrived to collect [asker_nameFull] and their court -->
+  <!-- EN: lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] left healthy -->
+  <!-- EN: lodgersLeavingLetterText-&gt;[asker_nameFull] thanks you for inviting them to stay at [map_definite] for these [questDurationTicks_duration]. -->
+  <VFEE_NobleVisit.questContentRules.rulesStrings>
+    <li>lastOrNot(nobleCount==1)-&gt;</li>
+    <li>lastOrNot(nobleCount&gt;=2)-&gt;último</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], y {PAWNSALIVECOUNT_multiple ? han : ha } decidido irse.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? Los otros no están dispuestos : El último [lodgersLabel] no está dispuesto} a aceptar esto</li>
+    <li>oneOfThe-&gt;uno de los nobles que invitaste a quedarse contigo</li>
+    <li>questOver-&gt;La misión '[resolvedQuestName]' ha terminado.</li>
+    <li>letterIntroArrested-&gt;Arrestaste a {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrestado: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] ha muerto.</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] murió: Partida</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], fue violado por cirugía.</li>
+    <li>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Cirugía: Partida</li>
+    <li>lodgerSurgeryVioLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], fue secuestrado.</li>
+    <li>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Secuestrado: Partida</li>
+    <li>lodgerKidnappedLeaveMapLetterText-&gt;[letterIntroKidnapped]\n\n[decidedToLeave]</li>
+    <li>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], fue desterrado.</li>
+    <li>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Desterrado: Partida</li>
+    <li>lodgerBanishedLeaveMapLetterText-&gt;[letterIntroBanished]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], fue el objetivo de un ritual psíquico.</li>
+    <li>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Ritual psíquico: Partida</li>
+    <li>lodgerPsychicRitualTargetText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, ha sido destruido</li>
+    <li>ShuttleDestroyedLabel-&gt;[lodgersLabel] Transbordador destruido: Partida</li>
+    <li>ShuttleDestroyedText-&gt;[ShuttleDestroyedIntro]\n\n[decidedToLeave]</li>
+    <li>letterIntroBadMood-&gt;{SUBJECT_definite}, [oneOfThe], a quien se te encargó proteger y mantener feliz, ha estado por debajo del estado de ánimo mínimo de [lodgersMoodThreshold] demasiado tiempo.</li>
+    <li>nobleUnhappyLetterLabel-&gt;[lodgersLabel] infeliz</li>
+    <li>nobleUnhappyLetterText-&gt;[letterIntroBadMood]\n\n[decidedToLeave]</li>
+    <li>lodgerLeftNotAllHealthyLetterLabel-&gt;[lodgersLabel] : sin tratar</li>
+    <li>lodgerLeftNotAllHealthyLetterText-&gt;[lodgersLabel] dejó el mapa con heridas y no tendrá buenos recuerdos de su visita</li>
+    <li>LetterLabelShuttleArrived-&gt;Llegada del transbordador</li>
+    <li>LetterTextShuttleArrived-&gt;El transbordador ha llegado para recoger a [asker_nameFull] y su corte</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] partieron sanos</li>
+    <li>lodgersLeavingLetterText-&gt;[asker_nameFull] te agradece por invitarlos a quedarse en [map_definite] por estos [questDurationTicks_duration].</li>
+  </VFEE_NobleVisit.questContentRules.rulesStrings>
+</LanguageData>

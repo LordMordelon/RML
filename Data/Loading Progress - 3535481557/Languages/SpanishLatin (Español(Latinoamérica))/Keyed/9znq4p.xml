@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Loading progress -->
+  <LoadingProgress.Title>TODO</LoadingProgress.Title>
+  <!-- EN: Loading progress: Executing delayed initialization tasks -->
+  <LoadingProgress.ExecuteToExecuteWhenFinished>Loading progress: Ejecutando tareas de inicialización retrasadas</LoadingProgress.ExecuteToExecuteWhenFinished>
+  <!-- EN: Loading progress: Calling all static constructors -->
+  <LoadingProgress.CallAll>Loading progress: Llamando a todos los constructores estáticos</LoadingProgress.CallAll>
+  <!-- EN: (Mod list has changed since last game start; estimate may be inaccurate.) -->
+  <LoadingProgress.ModHashChanged>(La lista de mods ha cambiado desde el último inicio del juego; la estimación puede ser imprecisa.)</LoadingProgress.ModHashChanged>
+  <!-- EN: Heap: {0}  ·  Process: {1} -->
+  <LoadingProgress.MemoryUsage>TODO</LoadingProgress.MemoryUsage>
+  <!-- EN: estimate based on previous game launch -->
+  <LoadingProgress.EstimateBasedOnSingle>TODO</LoadingProgress.EstimateBasedOnSingle>
+  <!-- EN: estimate based on {0} previous game launches -->
+  <LoadingProgress.EstimateBasedOn>TODO</LoadingProgress.EstimateBasedOn>
+  <!-- EN: Loading time -->
+  <LoadingProgress.LoadingTimeLabel>TODO</LoadingProgress.LoadingTimeLabel>
+  <!-- EN: Game took {0} to load -->
+  <LoadingProgress.LoadingTime>El juego tardó {0} en cargar</LoadingProgress.LoadingTime>
+  <!-- EN: Click to see loading time broken down in detail. -->
+  <LoadingProgress.LoadingTime.Tip>Información añadida por el mod Loading Progress; se puede desactivar en los ajustes.</LoadingProgress.LoadingTime.Tip>
+  <!-- EN: {0} left of {1} -->
+  <LoadingProgress.TimeRemaining>{0} restantes de {1}</LoadingProgress.TimeRemaining>
+  <!-- EN: {0} over {1} -->
+  <LoadingProgress.TimeOverEstimate>{0} sobre {1}</LoadingProgress.TimeOverEstimate>
+  <!-- EN: Loading progress — Faster Game Loading Early Mod Content Loading -->
+  <LoadingProgress.FasterGameLoadingEarlyModContentLoading>Loading progress — Carga de contenido de mods temprana de Faster Game Loading</LoadingProgress.FasterGameLoadingEarlyModContentLoading>
+  <!-- EN: Faster Game Loading is early loading content for &lt;i&gt;{0}&lt;/i&gt;... -->
+  <LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>Faster Game Loading está cargando contenido de forma temprana para {0}...</LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>
+  <!-- EN: Patch late-loading initialization code to show loading progress -->
+  <LoadingProgress.PatchInitialization>Parchear código de inicialización de carga tardía para mostrar el progreso de carga</LoadingProgress.PatchInitialization>
+  <!-- EN: When enabled, the mod will patch the part during RimWorld&apos;s startup process where the game typically hangs to make it more responsive. This allows the mod to track and display loading progress for each static constructor. This should not cause any problems unless you are running mods that very specifically have targeted this code and is very timing sensitive.\n\nIf you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. -->
+  <LoadingProgress.PatchInitialization.Tip>Cuando está activado, el mod parcheará la parte del proceso de inicio de RimWorld donde el juego normalmente se cuelga para hacerlo más responsivo. Esto permite al mod rastrear y mostrar el progreso de carga para cada constructor estático. Esto no debería causar ningún problema a menos que estés usando mods que hayan apuntado muy específicamente a este código y sean muy sensibles al tiempo.\n\nSi experimentas algún problema con Loading Progress, intenta desactivar esta opción para ver si se resuelve el problema.</LoadingProgress.PatchInitialization.Tip>
+  <!-- EN: Patch content loading code to show loading progress -->
+  <LoadingProgress.PatchReloadContent>Parchear código de carga de contenido para mostrar el progreso de carga</LoadingProgress.PatchReloadContent>
+  <!-- EN: When enabled, the mod will replace the method that loads mod content to track and display loading progress for each content pack being reloaded. This should not cause any problems unless you are running mods that very specifically have targeted this code. The mod will log a warning if it detects any other mods patching this code.\n\nIf you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. Feel free to report any problems you encounter with mods that triggered the warning message. -->
+  <LoadingProgress.PatchReloadContent.Tip>Cuando está activado, el mod reemplazará el método que carga el contenido de los mods para rastrear y mostrar el progreso de carga de cada paquete de contenido que se está recargando. Esto no debería causar ningún problema a menos que estés usando mods que hayan apuntado muy específicamente a este código. El mod registrará una advertencia si detecta que otros mods están parcheando este código.\n\nSi experimentas algún problema con Loading Progress, intenta desactivar esta opción para ver si se resuelve el problema. No dudes en informar cualquier problema que encuentres con mods que activaron el mensaje de advertencia.</LoadingProgress.PatchReloadContent.Tip>
+  <!-- EN: Show loading time -->
+  <LoadingProgress.LastLoadingTime>Mostrar tiempo de carga</LoadingProgress.LastLoadingTime>
+  <!-- EN: When enabled, the mod will display the time elapsed so far. Once the game has loaded at least once, it will store it for next time, and use it as the estimated loading time for the next loading session. -->
+  <LoadingProgress.LastLoadingTime.Tip>Cuando está activado, el mod mostrará el tiempo transcurrido hasta ahora. Una vez que el juego se haya cargado al menos una vez, lo guardará para la próxima vez y lo usará como el tiempo de carga estimado para la siguiente sesión de carga.</LoadingProgress.LastLoadingTime.Tip>
+  <!-- EN: Estimates to store: {0} -->
+  <LoadingProgress.LoadingTimesCapacity>TODO</LoadingProgress.LoadingTimesCapacity>
+  <!-- EN: How many previous load times to remember when calculating the estimated loading time.\n\nThe estimate is a weighted average that gives the 10 most recent launches progressively more influence (from 1× for the 10th-most-recent up to 10× for the most recent). Any launches beyond those 10 all receive equal weight (1×), so they are never completely ignored no matter how many you store.\n\nA higher value produces a more stable estimate by smoothing out one-off slow or fast loads. -->
+  <LoadingProgress.LoadingTimesCapacity.Tip>TODO</LoadingProgress.LoadingTimesCapacity.Tip>
+  <!-- EN: Clear estimates when mod list changes -->
+  <LoadingProgress.ClearEstimatesOnModListChange>TODO</LoadingProgress.ClearEstimatesOnModListChange>
+  <!-- EN: When enabled, the stored load time history is cleared whenever the mod list changes. This ensures that the estimate always reflects your current mod setup.\n\nDisable this if you want the estimate to persist across mod list changes, for example if you frequently add or remove mods and still want a rough baseline. -->
+  <LoadingProgress.ClearEstimatesOnModListChange.Tip>TODO</LoadingProgress.ClearEstimatesOnModListChange.Tip>
+  <!-- EN: Show loading time as countdown -->
+  <LoadingProgress.LoadingTimeAsCountDown>Mostrar tiempo de carga como cuenta regresiva</LoadingProgress.LoadingTimeAsCountDown>
+  <!-- EN: When enabled, the mod will display the loading time as a countdown, starting from the estimated loading time. This is useful to see how much time is left until the game is fully loaded. -->
+  <LoadingProgress.LoadingTimeAsCountDown.Tip>Cuando está activado, el mod mostrará el tiempo de carga como una cuenta regresiva, comenzando desde el tiempo de carga estimado. Esto es útil para ver cuánto tiempo queda hasta que el juego esté completamente cargado.</LoadingProgress.LoadingTimeAsCountDown.Tip>
+  <!-- EN:  - Show loading time progress bar -->
+  <LoadingProgress.LastLoadingTimeProgressBar> - Mostrar barra de progreso del tiempo de carga</LoadingProgress.LastLoadingTimeProgressBar>
+  <!-- EN: When enabled, the mod will show a progress bar during loading that indicates how much time has passed since the game started loading compared to the expected time. -->
+  <LoadingProgress.LastLoadingTimeProgressBar.Tip>Cuando está activado, el mod mostrará una barra de progreso durante la carga que indica cuánto tiempo ha pasado desde que el juego comenzó a cargar en comparación con el tiempo esperado.</LoadingProgress.LastLoadingTimeProgressBar.Tip>
+  <!-- EN: Show loading time in bottom-right corner of the main menu -->
+  <LoadingProgress.LastLoadingTimeInCorner>Mostrar tiempo de carga en la esquina inferior derecha del menú principal</LoadingProgress.LastLoadingTimeInCorner>
+  <!-- EN: When enabled, the mod will show the time it took to load the game in the bottom-right corner of the main menu. -->
+  <LoadingProgress.LastLoadingTimeInCorner.Tip>Cuando está activado, el mod mostrará el tiempo que tardó en cargar el juego en la esquina inferior derecha del menú principal.</LoadingProgress.LastLoadingTimeInCorner.Tip>
+  <!-- EN: Show memory usage -->
+  <LoadingProgress.ShowMemoryUsage>TODO</LoadingProgress.ShowMemoryUsage>
+  <!-- EN: When enabled, the loading window shows the current managed (Mono) heap size and the game process&apos;s total memory usage (working set).\n\nThe process figure is the more useful one for judging overall RAM pressure; the heap figure is a narrower measure of only the .NET-managed portion of memory. -->
+  <LoadingProgress.ShowMemoryUsage.Tip>TODO</LoadingProgress.ShowMemoryUsage.Tip>
+  <!-- EN: Show Faster Game Loading&apos;s early mod content loading progress -->
+  <LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading>Mostrar progreso de carga temprana de contenido de mods de Faster Game Loading</LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading>
+  <!-- EN: When enabled, and Faster Game Loading is active, the mod will show an additional loading indicator for mod content that is loaded early during the game startup process. -->
+  <LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading.Tip>Cuando está activado y Faster Game Loading está activo, el mod mostrará un indicador de carga adicional para el contenido de mods que se carga de forma temprana durante el proceso de inicio del juego.</LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading.Tip>
+  <!-- EN: Track startup loading impact -->
+  <LoadingProgress.TrackStartupLoadingImpact>TODO</LoadingProgress.TrackStartupLoadingImpact>
+  <!-- EN: When enabled, the mod will track the impact of startup loading impact from mods and the base game allowing you to see a detailed breakdown of what is causing the biggest delays during the loading process. -->
+  <LoadingProgress.TrackStartupLoadingImpact.Tip>TODO</LoadingProgress.TrackStartupLoadingImpact.Tip>
+  <!-- EN:  - Automatically save startup impact report -->
+  <LoadingProgress.AutoSaveStartupImpactReport>TODO</LoadingProgress.AutoSaveStartupImpactReport>
+  <!-- EN: When enabled, the startup impact report is automatically saved to StartupImpactData.xml in your RimWorld save data folder after every game startup, without having to open the startup impact window and press Save.\n\nThis lets external tools, such as the RimSort mod manager, show each mod&apos;s startup load time. -->
+  <LoadingProgress.AutoSaveStartupImpactReport.Tip>TODO</LoadingProgress.AutoSaveStartupImpactReport.Tip>
+  <!-- EN:  - Show base game&apos;s background-thread startup impact -->
+  <LoadingProgress.ShowBaseGameOffThreadImpact>TODO</LoadingProgress.ShowBaseGameOffThreadImpact>
+  <!-- EN: When enabled, the startup impact window shows a second bar under the base game&apos;s impact bar, breaking down the time the base game spent doing work on background threads during startup, separately from its main thread work.\n\nThis is off by default because most people won&apos;t find it particularly informative, but it&apos;s here if you want the extra detail. -->
+  <LoadingProgress.ShowBaseGameOffThreadImpact.Tip>TODO</LoadingProgress.ShowBaseGameOffThreadImpact.Tip>
+  <!-- EN: Progress bar color -->
+  <LoadingProgress.ProgressBarColor>TODO</LoadingProgress.ProgressBarColor>
+  <!-- EN: The color of the main progress bar in the loading progress window. -->
+  <LoadingProgress.ProgressBarColor.Tip>TODO</LoadingProgress.ProgressBarColor.Tip>
+  <!-- EN: Progress bar sub-stage color -->
+  <LoadingProgress.SmallBarColor>TODO</LoadingProgress.SmallBarColor>
+  <!-- EN: The color of the sub-stage indicator on the main progress bar in the loading progress window. -->
+  <LoadingProgress.SmallBarColor.Tip>TODO</LoadingProgress.SmallBarColor.Tip>
+  <!-- EN: Reset -->
+  <LoadingProgress.Reset>TODO</LoadingProgress.Reset>
+  <!-- EN: Loading window placement -->
+  <LoadingProgress.LoadingWindowPlacement>Ubicación de la ventana de carga</LoadingProgress.LoadingWindowPlacement>
+  <!-- EN: Top -->
+  <LoadingProgress.Top>Arriba</LoadingProgress.Top>
+  <!-- EN: Middle -->
+  <LoadingProgress.Middle>Medio</LoadingProgress.Middle>
+  <!-- EN: Bottom -->
+  <LoadingProgress.Bottom>Abajo</LoadingProgress.Bottom>
+  <!-- EN: Custom -->
+  <LoadingProgress.Custom>Personalizado</LoadingProgress.Custom>
+  <!-- EN: Set custom position... -->
+  <LoadingProgress.EditCustomPlacement>TODO</LoadingProgress.EditCustomPlacement>
+  <!-- EN: Drag this window to where you want the loading window to appear, then close it. It can&apos;t be dragged off-screen, and its position is kept relative to your screen size, so it stays in the same relative spot if you change resolution. -->
+  <LoadingProgress.CustomPlacementPreview.Tip>TODO</LoadingProgress.CustomPlacementPreview.Tip>
+  <!-- EN: Initializing... -->
+  <LoadingProgress.Stage.Initializing>Inicializando...</LoadingProgress.Stage.Initializing>
+  <!-- EN: Loading mod classes... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.LoadingModClasses>Cargando clases de mods... ({0})</LoadingProgress.Stage.LoadingModClasses>
+  <!-- EN: Loading mod XML... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.LoadModXml>Cargando XML de mods... ({0})</LoadingProgress.Stage.LoadModXml>
+  <!-- EN: Combining XML... -->
+  <LoadingProgress.Stage.CombineIntoUnifiedXml>Combinando XML...</LoadingProgress.Stage.CombineIntoUnifiedXml>
+  <!-- EN: Parsing Translation Key system... -->
+  <LoadingProgress.Stage.TKeySystemParse>Analizando sistema de claves de traducción...</LoadingProgress.Stage.TKeySystemParse>
+  <!-- EN: Checking XML patches for errors... -->
+  <LoadingProgress.Stage.ErrorCheckPatches>Comprobando errores en parches XML...</LoadingProgress.Stage.ErrorCheckPatches>
+  <!-- EN: Checking XML patches for errors.. (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.ErrorCheckPatches.ForMod>Comprobando errores en parches XML.. ({0})</LoadingProgress.Stage.ErrorCheckPatches.ForMod>
+  <!-- EN: Applying XML patches... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.ApplyPatches>Aplicando parches XML... ({0})</LoadingProgress.Stage.ApplyPatches>
+  <!-- EN: Parsing and processing XML... -->
+  <LoadingProgress.Stage.ParseAndProcessXml>Analizando y procesando XML...</LoadingProgress.Stage.ParseAndProcessXml>
+  <!-- EN: Parsing and processing XML... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.ParseAndProcessXml.ForMod>Analizando y procesando XML... ({0})</LoadingProgress.Stage.ParseAndProcessXml.ForMod>
+  <!-- EN: Resolving XML inheritance... -->
+  <LoadingProgress.Stage.XmlInheritanceResolve>Resolviendo herencia XML...</LoadingProgress.Stage.XmlInheritanceResolve>
+  <!-- EN: Loading defs... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.LoadingDefs>Cargando definiciones... ({0})</LoadingProgress.Stage.LoadingDefs>
+  <!-- EN: Loading defs... (&lt;i&gt;{0} — {1} ({2})&lt;/i&gt;) -->
+  <LoadingProgress.Stage.LoadingDefs.WithDef>Cargando definiciones... ({0} — {1} ({2}))</LoadingProgress.Stage.LoadingDefs.WithDef>
+  <!-- EN: Clearing cached patches... -->
+  <LoadingProgress.Stage.ClearCachedPatches>Limpiando parches en caché...</LoadingProgress.Stage.ClearCachedPatches>
+  <!-- EN: Clearing XML inheritance... -->
+  <LoadingProgress.Stage.XmlInheritanceClear>Limpiando herencia XML...</LoadingProgress.Stage.XmlInheritanceClear>
+  <!-- EN: Loading language metadata... -->
+  <LoadingProgress.Stage.LoadLanguageMetadata>Cargando metadatos de idioma...</LoadingProgress.Stage.LoadLanguageMetadata>
+  <!-- EN: Loading language data... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.LoadLanguage>Cargando datos de idioma... ({0})</LoadingProgress.Stage.LoadLanguage>
+  <!-- EN: Copying all Defs from mods to global databases... -->
+  <LoadingProgress.Stage.CopyAllDefsToGlobalDatabases>Copiando todas las definiciones de los mods a las bases de datos globales...</LoadingProgress.Stage.CopyAllDefsToGlobalDatabases>
+  <!-- EN: Resolving cross-references between non-implied Defs (stage 1)... -->
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage1>Resolviendo referencias cruzadas entre definiciones no implícitas (etapa 1)...</LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage1>
+  <!-- EN: Resolving cross-references between non-implied Defs (stage 2)... -->
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage2>Resolviendo referencias cruzadas entre definiciones no implícitas (etapa 2)...</LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage2>
+  <!-- EN: Rebinding DefOfs (early)... -->
+  <LoadingProgress.Stage.RebindDefOfsEarly>Revinculando DefOfs (temprano)...</LoadingProgress.Stage.RebindDefOfsEarly>
+  <!-- EN: Building Translation Key system mappings... -->
+  <LoadingProgress.Stage.TKeySystemBuildMappings>Construyendo mapeos del sistema de claves de traducción...</LoadingProgress.Stage.TKeySystemBuildMappings>
+  <!-- EN: Loading legacy backstory translations... -->
+  <LoadingProgress.Stage.LegacyBackstoryTranslations>Cargando traducciones de trasfondos heredados...</LoadingProgress.Stage.LegacyBackstoryTranslations>
+  <!-- EN: Injecting selected language data into game data (early pass)... -->
+  <LoadingProgress.Stage.InjectSelectedLanguageDataEarly>Inyectando datos de idioma seleccionado en los datos del juego (pasada temprana)...</LoadingProgress.Stage.InjectSelectedLanguageDataEarly>
+  <!-- EN: Running global operations (early pass)... -->
+  <LoadingProgress.Stage.GlobalOperationsEarly>Ejecutando operaciones globales (pasada temprana)...</LoadingProgress.Stage.GlobalOperationsEarly>
+  <!-- EN: Generating implied Defs (pre-resolve)... -->
+  <LoadingProgress.Stage.GenerateImpliedDefs>Generando definiciones implícitas (pre-resolución)...</LoadingProgress.Stage.GenerateImpliedDefs>
+  <!-- EN: Resolving cross-references between Defs made by the implied defs... -->
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenImpliedDefs>Resolviendo referencias cruzadas entre definiciones creadas por las definiciones implícitas...</LoadingProgress.Stage.ResolveCrossReferencesBetweenImpliedDefs>
+  <!-- EN: Rebinding DefOfs (final)... -->
+  <LoadingProgress.Stage.RebindDefOfsFinal>Revinculando DefOfs (final)...</LoadingProgress.Stage.RebindDefOfsFinal>
+  <!-- EN: Running other global operations (pre-resolve)... -->
+  <LoadingProgress.Stage.OtherOperationsPreResolve>Ejecutando otras operaciones globales (pre-resolución)...</LoadingProgress.Stage.OtherOperationsPreResolve>
+  <!-- EN: Resolving references... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.ResolveReferences>Resolviendo referencias... ({0})</LoadingProgress.Stage.ResolveReferences>
+  <!-- EN: Running other global operations (post-resolve)... -->
+  <LoadingProgress.Stage.OtherOperationsPostResolve>Ejecutando otras operaciones globales (post-resolución)...</LoadingProgress.Stage.OtherOperationsPostResolve>
+  <!-- EN: Checking all defs for errors... -->
+  <LoadingProgress.Stage.ErrorCheckAllDefs>Comprobando errores en todas las definiciones...</LoadingProgress.Stage.ErrorCheckAllDefs>
+  <!-- EN: Giving short hashes to defs... -->
+  <LoadingProgress.Stage.ShortHashGiving>Asignando hashes cortos a las definiciones...</LoadingProgress.Stage.ShortHashGiving>
+  <!-- EN: Running delayed initialization tasks... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished>Ejecutando tareas de inicialización retrasadas... ({0})</LoadingProgress.Stage.ExecuteToExecuteWhenFinished>
+  <!-- EN: Loading audio clips for &lt;i&gt;{0}&lt;/i&gt; -->
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.audio_clips>Cargando clips de audio para {0}</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.audio_clips>
+  <!-- EN: Loading textures for &lt;i&gt;{0}&lt;/i&gt; -->
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.textures>Cargando texturas para {0}</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.textures>
+  <!-- EN: Loading strings for &lt;i&gt;{0}&lt;/i&gt; -->
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.strings>Cargando cadenas de texto para {0}</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.strings>
+  <!-- EN: Loading asset bundles for &lt;i&gt;{0}&lt;/i&gt; -->
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.asset_bundles>Cargando paquetes de recursos para {0}</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.asset_bundles>
+  <!-- EN: Calling all static constructors... (&lt;i&gt;{0}&lt;/i&gt;) -->
+  <LoadingProgress.Stage.StaticConstructorOnStartupCallAll>Llamando a todos los constructores estáticos... ({0})</LoadingProgress.Stage.StaticConstructorOnStartupCallAll>
+  <!-- EN: Loading all bios... -->
+  <LoadingProgress.Stage.LoadingAllBios>Cargando todas las biografías...</LoadingProgress.Stage.LoadingAllBios>
+  <!-- EN: Injecting selected language data into game data... -->
+  <LoadingProgress.Stage.InjectSelectedLanguageDataIntoGameData>Inyectando datos de idioma seleccionado en los datos del juego...</LoadingProgress.Stage.InjectSelectedLanguageDataIntoGameData>
+  <!-- EN: Baking static atlases... -->
+  <LoadingProgress.Stage.AtlasBaking>Creando atlas estáticos...</LoadingProgress.Stage.AtlasBaking>
+  <!-- EN: Running garbage collection... -->
+  <LoadingProgress.Stage.GarbageCollection>Ejecutando recolección de basura...</LoadingProgress.Stage.GarbageCollection>
+  <!-- EN: Finished! -->
+  <LoadingProgress.Stage.Finished>¡Finalizado!</LoadingProgress.Stage.Finished>
+  <!-- EN: Running mod constructor -->
+  <LoadingProgress.StartupImpact.ModConstructor>TODO</LoadingProgress.StartupImpact.ModConstructor>
+  <!-- EN: Loading defs -->
+  <LoadingProgress.StartupImpact.LoadDefs>TODO</LoadingProgress.StartupImpact.LoadDefs>
+  <!-- EN: Combining XML into a single XML document -->
+  <LoadingProgress.StartupImpact.CombineXml>TODO</LoadingProgress.StartupImpact.CombineXml>
+  <!-- EN: Translation key system parsing -->
+  <LoadingProgress.StartupImpact.TKeySystemParse>TODO</LoadingProgress.StartupImpact.TKeySystemParse>
+  <!-- EN: Parsing and processing XML -->
+  <LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>TODO</LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>
+  <!-- EN: Error checking patches -->
+  <LoadingProgress.StartupImpact.ErrorCheckPatches>TODO</LoadingProgress.StartupImpact.ErrorCheckPatches>
+  <!-- EN: Loading patches -->
+  <LoadingProgress.StartupImpact.LoadPatches>TODO</LoadingProgress.StartupImpact.LoadPatches>
+  <!-- EN: Applying patches -->
+  <LoadingProgress.StartupImpact.ApplyPatches>TODO</LoadingProgress.StartupImpact.ApplyPatches>
+  <!-- EN: Registering XML inheritance -->
+  <LoadingProgress.StartupImpact.RegisterXmlInheritance>TODO</LoadingProgress.StartupImpact.RegisterXmlInheritance>
+  <!-- EN: Resolving XML inheritance -->
+  <LoadingProgress.StartupImpact.ResolveXmlInheritance>TODO</LoadingProgress.StartupImpact.ResolveXmlInheritance>
+  <!-- EN: Clearing cached patches -->
+  <LoadingProgress.StartupImpact.ClearCachedPatches>TODO</LoadingProgress.StartupImpact.ClearCachedPatches>
+  <!-- EN: Clearing cached XML inheritance -->
+  <LoadingProgress.StartupImpact.ClearCachedXmlInheritance>TODO</LoadingProgress.StartupImpact.ClearCachedXmlInheritance>
+  <!-- EN: Loading language metadata -->
+  <LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>TODO</LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>
+  <!-- EN: Copying all Defs from mods to global databases -->
+  <LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>TODO</LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>
+  <!-- EN: Resolving cross-references between non-implied Defs -->
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>TODO</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>
+  <!-- EN: Rebinding DefOfs (early) -->
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>TODO</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>
+  <!-- EN: Translation key system mapping -->
+  <LoadingProgress.StartupImpact.TKeySystemBuildMappings>TODO</LoadingProgress.StartupImpact.TKeySystemBuildMappings>
+  <!-- EN: Loading and injecting legacy backstory translations -->
+  <LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>TODO</LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>
+  <!-- EN: Loading audio clips -->
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>TODO</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>
+  <!-- EN: Loading textures -->
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>TODO</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>
+  <!-- EN: Loading strings -->
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>TODO</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>
+  <!-- EN: Loading asset bundles -->
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>TODO</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>
+  <!-- EN: Injecting selected language data into game data (early pass) -->
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>TODO</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>
+  <!-- EN: Running global operations (early pass) -->
+  <LoadingProgress.StartupImpact.ColoredTextResetStaticData>TODO</LoadingProgress.StartupImpact.ColoredTextResetStaticData>
+  <!-- EN: Generating implied Defs (pre-resolve) -->
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>TODO</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>
+  <!-- EN: Resolving cross-references between Defs made by the implied defs -->
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>TODO</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>
+  <!-- EN: Rebinding DefOfs (final) -->
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>TODO</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>
+  <!-- EN: Other def binding, resetting and global operations (pre-resolve) -->
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>TODO</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>
+  <!-- EN: Resolving references -->
+  <LoadingProgress.StartupImpact.ResolveReferences>TODO</LoadingProgress.StartupImpact.ResolveReferences>
+  <!-- EN: Generating implied Defs (post-resolve) -->
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>TODO</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>
+  <!-- EN: Other def binding, resetting and global operations (post-resolve) -->
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>TODO</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>
+  <!-- EN: Error checking all defs -->
+  <LoadingProgress.StartupImpact.ErrorCheckAllDefs>TODO</LoadingProgress.StartupImpact.ErrorCheckAllDefs>
+  <!-- EN: Loading keyboard preferences -->
+  <LoadingProgress.StartupImpact.KeyPrefsInit>TODO</LoadingProgress.StartupImpact.KeyPrefsInit>
+  <!-- EN: Short hash giving -->
+  <LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>TODO</LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>
+  <!-- EN: Running delayed initialization task {0} -->
+  <LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>TODO</LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>
+  <!-- EN: Loading all bios -->
+  <LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>TODO</LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>
+  <!-- EN: Injecting selected language data into game data -->
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>TODO</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>
+  <!-- EN: Running static constructors -->
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>TODO</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>
+  <!-- EN: Initializing float menu maker map -->
+  <LoadingProgress.StartupImpact.FloatMenuMakerMapInit>TODO</LoadingProgress.StartupImpact.FloatMenuMakerMapInit>
+  <!-- EN: Texture atlas baking -->
+  <LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>TODO</LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>
+  <!-- EN: Clearing filesystem cache -->
+  <LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>TODO</LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>
+  <!-- EN: Mods -->
+  <LoadingProgress.StartupImpact.Total.Mods>TODO</LoadingProgress.StartupImpact.Total.Mods>
+  <!-- EN: Hidden mods -->
+  <LoadingProgress.StartupImpact.Total.ModsHidden>TODO</LoadingProgress.StartupImpact.Total.ModsHidden>
+  <!-- EN: Not directly related to mods -->
+  <LoadingProgress.StartupImpact.Total.BaseGame>TODO</LoadingProgress.StartupImpact.Total.BaseGame>
+  <!-- EN: Untracked -->
+  <LoadingProgress.StartupImpact.Total.Others>TODO</LoadingProgress.StartupImpact.Total.Others>
+  <!-- EN: {0} s -->
+  <LoadingProgress.StartupImpact.Seconds>TODO</LoadingProgress.StartupImpact.Seconds>
+  <!-- EN: {0} ms -->
+  <LoadingProgress.StartupImpact.Milliseconds>TODO</LoadingProgress.StartupImpact.Milliseconds>
+  <!-- EN: Startup time: {0} -->
+  <LoadingProgress.StartupImpact.StartupTime>TODO</LoadingProgress.StartupImpact.StartupTime>
+  <!-- EN: {0} defs parsed, {1} patch operations applied, {2} mods loaded -->
+  <LoadingProgress.StartupImpact.SessionStats>TODO</LoadingProgress.StartupImpact.SessionStats>
+  <!-- EN: Mods startup impact: {0} -->
+  <LoadingProgress.StartupImpact.StartupMods>TODO</LoadingProgress.StartupImpact.StartupMods>
+  <!-- EN: Not directly related to mods: {0} -->
+  <LoadingProgress.StartupImpact.StartupNonmods>TODO</LoadingProgress.StartupImpact.StartupNonmods>
+  <!-- EN: Use logarithmic scale -->
+  <LoadingProgress.StartupImpact.LogarithmicScale>TODO</LoadingProgress.StartupImpact.LogarithmicScale>
+  <!-- EN: When this is enabled, the startup impact values will be displayed on a logarithmic scale, compressing large differences in impact so they are easier to compare. Use the Detail slider that appears next to this option to fine-tune how strong the compression is. -->
+  <LoadingProgress.StartupImpact.LogarithmicScale.Tip>TODO</LoadingProgress.StartupImpact.LogarithmicScale.Tip>
+  <!-- EN: Detail: {0} -->
+  <LoadingProgress.StartupImpact.ScaleDetail>TODO</LoadingProgress.StartupImpact.ScaleDetail>
+  <!-- EN: Impact values below this amount of time are shown close to their true proportions; values above it get compressed more heavily so a single very slow mod does not drown out the rest of the bar. Lower this to make small differences between fast mods easier to see; raise it to keep large impacts looking proportionally larger. -->
+  <LoadingProgress.StartupImpact.ScaleDetail.Tip>TODO</LoadingProgress.StartupImpact.ScaleDetail.Tip>
+  <!-- EN: Toggle the visibility of this mod&apos;s impact on startup performance. If this is currently the mod with the highest impact, its impact will no longer be used as a reference point for other mods, but instead the next highest impact mod will be used. -->
+  <LoadingProgress.StartupImpact.ToggleModVisibility.Tip>TODO</LoadingProgress.StartupImpact.ToggleModVisibility.Tip>
+  <!-- EN: Filter: -->
+  <LoadingProgress.StartupImpact.FilterMods>TODO</LoadingProgress.StartupImpact.FilterMods>
+  <!-- EN: Filter by mod name or package ID -->
+  <LoadingProgress.StartupImpact.FilterMods.Placeholder>TODO</LoadingProgress.StartupImpact.FilterMods.Placeholder>
+  <!-- EN: Mod -->
+  <LoadingProgress.StartupImpact.ColumnName>TODO</LoadingProgress.StartupImpact.ColumnName>
+  <!-- EN: Impact -->
+  <LoadingProgress.StartupImpact.ColumnImpact>TODO</LoadingProgress.StartupImpact.ColumnImpact>
+  <!-- EN: Export HTML -->
+  <LoadingProgress.StartupImpact.ExportHtml>TODO</LoadingProgress.StartupImpact.ExportHtml>
+  <!-- EN: Export this session&apos;s startup impact data as a self-contained HTML report you can open in a browser or share with others, without needing this game running. -->
+  <LoadingProgress.StartupImpact.ExportHtml.Tip>TODO</LoadingProgress.StartupImpact.ExportHtml.Tip>
+  <!-- EN: Exported successfully -->
+  <LoadingProgress.StartupImpact.Exported>TODO</LoadingProgress.StartupImpact.Exported>
+  <!-- EN: Saved to {0} -->
+  <LoadingProgress.StartupImpact.Exported.Tip>TODO</LoadingProgress.StartupImpact.Exported.Tip>
+  <!-- EN: Export failed: {0} -->
+  <LoadingProgress.StartupImpact.ExportFailed>TODO</LoadingProgress.StartupImpact.ExportFailed>
+  <!-- EN: Saved successfully -->
+  <LoadingProgress.StartupImpact.Saved>TODO</LoadingProgress.StartupImpact.Saved>
+  <!-- EN: Saving failed: {0} -->
+  <LoadingProgress.StartupImpact.SaveFailed>TODO</LoadingProgress.StartupImpact.SaveFailed>
+  <!-- EN: Loaded successfully -->
+  <LoadingProgress.StartupImpact.Loaded>TODO</LoadingProgress.StartupImpact.Loaded>
+  <!-- EN: Loading failed: No saved data found -->
+  <LoadingProgress.StartupImpact.LoadFailedNoData>TODO</LoadingProgress.StartupImpact.LoadFailedNoData>
+  <!-- EN: Loading failed: {0} -->
+  <LoadingProgress.StartupImpact.LoadFailed>TODO</LoadingProgress.StartupImpact.LoadFailed>
+  <!-- EN: &lt;i&gt;Startup loading impact has been disabled in the settings&lt;/i&gt; -->
+  <LoadingProgress.StartupImpact.Disabled>TODO</LoadingProgress.StartupImpact.Disabled>
+  <!-- EN: Startup Impact Report -->
+  <LoadingProgress.StartupImpact.HtmlReport.Title>TODO</LoadingProgress.StartupImpact.HtmlReport.Title>
+  <!-- EN: Generated by Loading Progress on {0}. -->
+  <LoadingProgress.StartupImpact.HtmlReport.Footer>TODO</LoadingProgress.StartupImpact.HtmlReport.Footer>
+</LanguageData>

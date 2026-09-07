@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HRK_FineEmbrasure"]/label</xpath>
+          <value>
+            <!-- EN: fine embrasure -->
+            <label>aspillera fina</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="HRK_FineEmbrasure"]/description</xpath>
+          <value>
+            <!-- EN: A beautiful, impassable wall with a firing port to allow shooting from relative safety. Capable of holding up a roof. -->
+            <description>Un hermoso muro intransitable con un puerto de disparo que permite disparar desde una seguridad relativa. Capaz de sostener un techo.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

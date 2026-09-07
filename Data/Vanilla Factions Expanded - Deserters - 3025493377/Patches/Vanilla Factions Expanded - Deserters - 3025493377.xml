@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFED_RemoteTrapIED_ToxGas"]/label</xpath>
+          <value>
+            <!-- EN: remote tox charge -->
+            <label>mina tóxica remota</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFED_RemoteTrapIED_ToxGas"]/description</xpath>
+          <value>
+            <!-- EN: A pair of tox shells connected to a remote triggering mechanism. It can be detonated at will, but the fuse time might vary. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+            <description>Un par de obuses tóxicos conectados a un mecanismo de activación remota. Se puede detonar a voluntad, pero el tiempo de la mecha puede variar. Dado que está oculto en el terreno circundante, no se puede colocar adyacente a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

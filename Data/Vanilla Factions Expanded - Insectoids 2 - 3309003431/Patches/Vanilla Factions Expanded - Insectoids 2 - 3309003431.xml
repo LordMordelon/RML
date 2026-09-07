@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI2_Queen"]/label</xpath>
+          <value>
+            <!-- EN: insectoid princess -->
+            <label>princesa insectoide</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFEI2_Queen"]/label</xpath>
+          <value>
+            <!-- EN: insectoid princess -->
+            <label>princesa insectoide</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI2_Queen"]/description</xpath>
+          <value>
+            <!-- EN: A giant, genetically-engineered insectoid responsible for creating new spawn. A broodmother to the insects in her hive, the princess doesn’t do heavy work, and tries to avoid combat if possible. As massive as an adult thrumbo, the princess instills fear in most opponents. Her thick chitinous armor makes her hard to kill, whilst long, deadly blades can tear through plasteel shielding in seconds. Despite being quite slow in open terrain, an insectoid princess is capable of creating new swarmlings at a rapid pace, and should never be allowed to settle down. -->
+            <description>Un insectoide gigante, genéticamente modificado, responsable de crear nuevas crías. Una madre de cría para los insectos en su colmena, la princesa no hace trabajos pesados e intenta evitar el combate si es posible. Tan masiva como un thrumbo adulto, la princesa infunde miedo en la mayoría de los oponentes. Su gruesa armadura quitinosa la hace difícil de matar, mientras que las cuchillas largas y mortales pueden atravesar el blindaje de plastiacero en segundos. A pesar de ser bastante lenta en terreno abierto, una princesa insectoide es capaz de crear nuevos enjambradores a un ritmo rápido y nunca se le debe permitir establecerse.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI_BurrowWall"]/label</xpath>
+          <value>
+            <!-- EN: burrow wall -->
+            <label>muro de madriguera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI_BurrowWall"]/description</xpath>
+          <value>
+            <!-- EN: A compact mix of dirt, rock, and insect secretion. -->
+            <description>Una mezcla compacta de tierra, roca y secreción de insecto.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

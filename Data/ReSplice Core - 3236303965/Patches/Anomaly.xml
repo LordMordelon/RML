@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VoidTouched"]/description</xpath>
+          <value>
+            <!-- EN: This person has seen the depths of the void and drank from its essence. It changed them on a genetic level, living inside them still, guiding their actions and twisting their flesh. From now on, to eternity! -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

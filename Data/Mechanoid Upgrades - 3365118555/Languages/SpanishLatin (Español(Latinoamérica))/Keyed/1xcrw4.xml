@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Not controlled -->
+  <MU_IsNotControlled>No controlado</MU_IsNotControlled>
+  <!-- EN: Not mechanitor -->
+  <MU_IsNotMechanitor>No es mecanizador</MU_IsNotMechanitor>
+  <!-- EN: No mechanoids -->
+  <MU_NoPawns>No hay mecanoides</MU_NoPawns>
+  <!-- EN: No mechanitor -->
+  <MU_NoMechanitor>No hay mecanizador</MU_NoMechanitor>
+  <!-- EN: Cannot manipulate -->
+  <MU_CannotReload_CannotManipulate>No puede manipular</MU_CannotReload_CannotManipulate>
+  <!-- EN: Cannot hold enough resource -->
+  <MU_CannotReload_NoStackSpace>No puede almacenar suficientes recursos</MU_CannotReload_NoStackSpace>
+  <!-- EN: no enough resource -->
+  <MU_CannotReload_NoEnoughAmmo>No hay suficientes recursos</MU_CannotReload_NoEnoughAmmo>
+  <!-- EN: No enough free upgradability -->
+  <MU_CannotAdd_NotEnoughPoints>No hay suficiente capacidad de mejora disponible</MU_CannotAdd_NotEnoughPoints>
+  <!-- EN: Wrong mech weight class -->
+  <MU_CannotAdd_WrongMechClass>Clase de peso del mecanoide incorrecta</MU_CannotAdd_WrongMechClass>
+  <!-- EN: Mech is too large -->
+  <MU_CannotAdd_BiggerSize>El mecanoide es demasiado grande</MU_CannotAdd_BiggerSize>
+  <!-- EN: Mech is too small -->
+  <MU_CannotAdd_SmallerSize>El mecanoide es demasiado pequeño</MU_CannotAdd_SmallerSize>
+  <!-- EN: Wrong mech -->
+  <MU_CannotAdd_WrongMech>Mecanoide incorrecto</MU_CannotAdd_WrongMech>
+  <!-- EN: Has same upgrade -->
+  <MU_CannotAdd_SameUpgrade>Ya tiene esta mejora</MU_CannotAdd_SameUpgrade>
+  <!-- EN: Has conflicting upgrade: {0} -->
+  <MU_CannotAdd_SameTags>Tiene una mejora en conflicto</MU_CannotAdd_SameTags>
+  <!-- EN: No required body part -->
+  <MU_CannotAdd_NoRequiredBodyPart>No tiene la parte corporal requerida</MU_CannotAdd_NoRequiredBodyPart>
+  <!-- EN: Has conflicting body part -->
+  <MU_CannotAdd_HaveConflictingBodyPart>Tiene una parte corporal en conflicto</MU_CannotAdd_HaveConflictingBodyPart>
+  <!-- EN: Cannot do required work type -->
+  <MU_CannotAdd_NoRequiredWorkType>No puede realizar el tipo de trabajo requerido</MU_CannotAdd_NoRequiredWorkType>
+  <!-- EN: Can do conflicting work type -->
+  <MU_CannotAdd_HaveConflictingWorkType>Puede realizar un tipo de trabajo en conflicto</MU_CannotAdd_HaveConflictingWorkType>
+  <!-- EN: Isn&apos;t worker mechanoid -->
+  <MU_CannotAdd_IsNotWorker>No es un mecanoide trabajador</MU_CannotAdd_IsNotWorker>
+  <!-- EN: Is worker mechanoid -->
+  <MU_CannotAdd_IsWorker>Es un mecanoide trabajador</MU_CannotAdd_IsWorker>
+  <!-- EN: Wrong mech -->
+  <MU_CannotAdd_IsNotRangedFighter>No es un mecanoide de combate a distancia</MU_CannotAdd_IsNotRangedFighter>
+  <!-- EN: Wrong mech -->
+  <MU_CannotAdd_IsRangedFighter>Es un mecanoide de combate a distancia</MU_CannotAdd_IsRangedFighter>
+  <!-- EN: No shield -->
+  <MU_CannotAdd_NoShieldComp>No tiene escudo</MU_CannotAdd_NoShieldComp>
+  <!-- EN: Has shield -->
+  <MU_CannotAdd_HasShieldComp>Tiene un escudo</MU_CannotAdd_HasShieldComp>
+  <!-- EN: Ability on cooldown -->
+  <MU_OnCooldown>Habilidad en enfriamiento</MU_OnCooldown>
+  <!-- EN: Some upgrades from this set cannot be installed on this mechanoid -->
+  <MU_CannotAddSet_CannotAddUpgrade>Algunas mejoras de este conjunto no pueden instalarse en este mecanoide</MU_CannotAddSet_CannotAddUpgrade>
+  <!-- EN: No enough upgrades for the whole set -->
+  <MU_CannotAddSet_NoUpgrade>No hay suficientes mejoras para el conjunto completo</MU_CannotAddSet_NoUpgrade>
+  <!-- EN: Insert mechanoid -->
+  <MU_InsertMech>Insertar mecanoide</MU_InsertMech>
+  <!-- EN: Insert a mechanoid into the mech upgrader. After insertion mechanitor should begin upgrade process. -->
+  <MU_InsertMech_Desc>Inserta un mecanoide en el mejorador de mecanoides. Después de la inserción, el mecanizador debería iniciar el proceso de mejora.</MU_InsertMech_Desc>
+  <!-- EN: Cancel upgrade -->
+  <MU_CommandCancelWaiting>Cancelar mejora</MU_CommandCancelWaiting>
+  <!-- EN: Cancel the upgrade process. The contained mechanoid will be ejected. -->
+  <MU_CommandCancelWaiting_Desc>Cancela el proceso de mejora. El mecanoide contenido será expulsado.</MU_CommandCancelWaiting_Desc>
+  <!-- EN: Cancel process -->
+  <MU_CommandCancelUpgrading>Cancelar proceso</MU_CommandCancelUpgrading>
+  <!-- EN: Cancel the upgrade process. The contained mechanoid will be ejected. -->
+  <MU_CommandCancelUpgrading_Desc>Cancela el proceso de mejora. El mecanoide contenido será expulsado.</MU_CommandCancelUpgrading_Desc>
+  <!-- EN: Force reload... -->
+  <MU_ForceReload>Forzar recarga...</MU_ForceReload>
+  <!-- EN: Force mechanoid to reload one of upgrades that need reload. -->
+  <MU_ForceReload_Desc>Fuerza al mecanoide a recargar una de las mejoras que lo requiera.</MU_ForceReload_Desc>
+  <!-- EN: Switch mech booster -->
+  <MU_MechBooster_Label>Cambiar impulsor de mecanoide</MU_MechBooster_Label>
+  <!-- EN: Switch mech booster to another mode. -->
+  <MU_MechBooster_Desc>Cambia el impulsor de mecanoide a otro modo.</MU_MechBooster_Desc>
+  <!-- EN: Choose upgrades -->
+  <MU_UpgradeConfig_Label>Elegir mejoras</MU_UpgradeConfig_Label>
+  <!-- EN: No upgrades -->
+  <MU_NoUpgradesInside>Sin mejoras</MU_NoUpgradesInside>
+  <!-- EN: Upgrades -->
+  <MU_TabUpgrades>Mejoras</MU_TabUpgrades>
+  <!-- EN: Should mechanoid automatically reload upgrades. -->
+  <MU_AutoReload_Desc>¿Debería el mecanoide recargar automáticamente las mejoras?</MU_AutoReload_Desc>
+  <!-- EN: Generate mechs with upgrades -->
+  <MU_Setting_GenerateWithUpgrades>Generar mecanoides con mejoras</MU_Setting_GenerateWithUpgrades>
+  <!-- EN: Allow mechanoid generation with upgrades. -->
+  <MU_Setting_GenerateWithUpgrades_Desc>Permitir la generación de mecanoides con mejoras.</MU_Setting_GenerateWithUpgrades_Desc>
+  <!-- EN: Chance for generation with upgrades -->
+  <MU_Setting_ChanceForUpgrades>Probabilidad de generación con mejoras</MU_Setting_ChanceForUpgrades>
+  <!-- EN: How often mechanoids will be generated with upgrades.\n\nFreshly manufactured mechanoids won&apos;t be affected. -->
+  <MU_Setting_ChanceForUpgrades_Desc>Frecuencia con la que los mecanoides se generarán con mejoras.\n\nLos mecanoides recién fabricados no se verán afectados.</MU_Setting_ChanceForUpgrades_Desc>
+  <!-- EN: Minimum amount of upgrades -->
+  <MU_Setting_MinPercent>Cantidad mínima de mejoras</MU_Setting_MinPercent>
+  <!-- EN: Minimum amount of upgrades for mechanoid generation. -->
+  <MU_Setting_MinPercent_Desc>Cantidad mínima de mejoras para la generación de mecanoides.</MU_Setting_MinPercent_Desc>
+  <!-- EN: Maximum amount of upgrades -->
+  <MU_Setting_MaxPercent>Cantidad máxima de mejoras</MU_Setting_MaxPercent>
+  <!-- EN: Maximum amount of upgrades for mechanoid generation. -->
+  <MU_Setting_MaxPercent_Desc>Cantidad máxima de mejoras para la generación de mecanoides.</MU_Setting_MaxPercent_Desc>
+  <!-- EN: Chance for preset combination -->
+  <MU_Setting_CombinationsCommonality>Probabilidad de combinaciones predefinidas</MU_Setting_CombinationsCommonality>
+  <!-- EN: How often mechanoids will spawn with preset combinations of upgrades. -->
+  <MU_Setting_CombinationsCommonality_Desc>Frecuencia con la que los mecanoides aparecerán con combinaciones predefinidas de mejoras.</MU_Setting_CombinationsCommonality_Desc>
+  <!-- EN: Extra loot -->
+  <MU_Setting_ExtraButcherProducts>Botín adicional</MU_Setting_ExtraButcherProducts>
+  <!-- EN: Allow extra resources after shredding of upgraded mechs. -->
+  <MU_Setting_ExtraButcherProducts_Desc>Permitir recursos adicionales tras desmantelar mecanoides mejorados.</MU_Setting_ExtraButcherProducts_Desc>
+  <!-- EN: Chance for extra loot -->
+  <MU_Setting_ChanceForExtraLoot>Probabilidad de botín adicional</MU_Setting_ChanceForExtraLoot>
+  <!-- EN: Chance for extra resources after shredding of upgraded mechs.\n\nThis chance applies for each upgrade. -->
+  <MU_Setting_ChanceForExtraLoot_Desc>Probabilidad de recursos adicionales tras desmantelar mecanoides mejorados.\n\nEsta probabilidad se aplica a cada mejora.</MU_Setting_ChanceForExtraLoot_Desc>
+  <!-- EN: Amount of extra loot -->
+  <MU_Setting_ExtraLootAmount>Cantidad de botín adicional</MU_Setting_ExtraLootAmount>
+  <!-- EN: Amount of extra resources after shredding of upgraded mechs. -->
+  <MU_Setting_ExtraLootAmount_Desc>Cantidad de recursos adicionales tras desmantelar mecanoides mejorados.</MU_Setting_ExtraLootAmount_Desc>
+  <!-- EN: Base upgradability -->
+  <MU_Setting_BaseUpgradability>Mejorabilidad base</MU_Setting_BaseUpgradability>
+  <!-- EN: Base upgradability value.\n\nFinal value calculation includes body size and weight class factors. -->
+  <MU_Setting_BaseUpgradability_Desc>Valor base de mejorabilidad.\n\nEl cálculo final incluye factores como el tamaño del cuerpo y la clase de peso.</MU_Setting_BaseUpgradability_Desc>
+  <!-- EN: Warning! Change of value significantly affects balance. -->
+  <MU_Setting_BaseUpgradability_Warning>¡Advertencia! Cambiar este valor afecta significativamente el equilibrio.</MU_Setting_BaseUpgradability_Warning>
+  <!-- EN: Waiting -->
+  <MU_Upgrader_WaitingForOrder>Esperando órdenes</MU_Upgrader_WaitingForOrder>
+  <!-- EN: Waiting for mechanoid -->
+  <MU_Upgrader_WaitingForMechanoid>Esperando al mecanoide</MU_Upgrader_WaitingForMechanoid>
+  <!-- EN: Waiting for mechanitor -->
+  <MU_Upgrader_WaitingForMechanitor>Esperando al mecanizador</MU_Upgrader_WaitingForMechanitor>
+  <!-- EN: Time left -->
+  <MU_Upgrader_TimeLeft>Tiempo restante</MU_Upgrader_TimeLeft>
+  <!-- EN: all upgrades -->
+  <MU_AllOperations>todas las mejoras</MU_AllOperations>
+  <!-- EN: current upgrade -->
+  <MU_ThisOperation>mejora actual</MU_ThisOperation>
+  <!-- EN: Begin process -->
+  <MU_ConfigureUpgrades>Iniciar proceso</MU_ConfigureUpgrades>
+  <!-- EN: Steel -->
+  <MU_MechCarrier_Title>Acero</MU_MechCarrier_Title>
+  <!-- EN: How many steel mini-gestator has to create war urchins. -->
+  <MU_MechCarrier_Tooltip>Cantidad de acero que necesita el mini-gestador para crear erizos de guerra.</MU_MechCarrier_Tooltip>
+  <!-- EN: mini-gestator -->
+  <MU_MechCarrier_Label>mini-gestador</MU_MechCarrier_Label>
+  <!-- EN: Cannot create upgrades set -->
+  <MU_CannotCreateSet>No se puede crear el conjunto de mejoras</MU_CannotCreateSet>
+  <!-- EN: Save as -->
+  <MU_SaveAs>Guardar como</MU_SaveAs>
+  <!-- EN: Hide not installable -->
+  <MU_HideNotInstallable>Ocultar no instalables</MU_HideNotInstallable>
+  <!-- EN: Factor from user -->
+  <MU_StatsReport_FactorFromHolder>Factor del usuario</MU_StatsReport_FactorFromHolder>
+  <!-- EN: Upgradable mech -->
+  <MU_IsUpgradableMechanoid>Mecanoide mejorable</MU_IsUpgradableMechanoid>
+  <!-- EN: This mechanoid can be upgraded. -->
+  <MU_IsUpgradableMechanoid_Desc>Este mecanoide puede ser mejorado.</MU_IsUpgradableMechanoid_Desc>
+  <!-- EN: Upgrades -->
+  <MU_UpgradesInsideMech>Mejoras instaladas</MU_UpgradesInsideMech>
+  <!-- EN: Installed upgrades. -->
+  <MU_UpgradesInsideMech_Desc>Mejoras instaladas.</MU_UpgradesInsideMech_Desc>
+  <!-- EN: Offsets from upgrades -->
+  <MU_StatOffsetsFromUpgrades>Desviaciones por mejoras</MU_StatOffsetsFromUpgrades>
+  <!-- EN: Factors from upgrades -->
+  <MU_StatFactorsFromUpgrades>Factores por mejoras</MU_StatFactorsFromUpgrades>
+  <!-- EN: Gives personal shield -->
+  <MU_GivesPersonalShield>Proporciona escudo personal</MU_GivesPersonalShield>
+  <!-- EN: This upgrade creates shield bubble around mechanoid. -->
+  <MU_GivesPersonalShield_Desc>Esta mejora crea una burbuja de escudo alrededor del mecanoide.</MU_GivesPersonalShield_Desc>
+  <!-- EN: Command range -->
+  <MU_CommandRange>Rango de comando</MU_CommandRange>
+  <!-- EN: Range around mechanoid where other mechs can be controlled. -->
+  <MU_CommandRange_Desc>Rango alrededor del mecanoide en el cual otros mecanoides pueden ser controlados.</MU_CommandRange_Desc>
+  <!-- EN: Upgrade points -->
+  <MU_UpgradePoints>Puntos de mejora</MU_UpgradePoints>
+  <!-- EN: Upgradability which this upgrade takes. -->
+  <MU_UpgradePoints_Desc>Capacidad de mejora que consume esta mejora.</MU_UpgradePoints_Desc>
+  <!-- EN: Allows remote control -->
+  <MU_AllowsRemoteControl>Permite control remoto</MU_AllowsRemoteControl>
+  <!-- EN: With this upgrade mechanoid can be controlled outside of command range. -->
+  <MU_AllowsRemoteControl_Desc>Con esta mejora, el mecanoide puede ser controlado fuera del rango de comando.</MU_AllowsRemoteControl_Desc>
+  <!-- EN: minimum body size -->
+  <MU_MinBodySize>Tamaño corporal mínimo</MU_MinBodySize>
+  <!-- EN: This upgrade is only for mechs with body size equal or larger than this value. -->
+  <MU_MinBodySize_Desc>Esta mejora es solo para mecanoides con un tamaño corporal igual o mayor a este valor.</MU_MinBodySize_Desc>
+  <!-- EN: maximum body size -->
+  <MU_MaxBodySize>Tamaño corporal máximo</MU_MaxBodySize>
+  <!-- EN: This upgrade is only for mechs with body size smaller than this value. -->
+  <MU_MaxBodySize_Desc>Esta mejora es solo para mecanoides con un tamaño corporal menor a este valor.</MU_MaxBodySize_Desc>
+  <!-- EN: Upgradable mechs -->
+  <MU_MechanoidsToAdd>Mecanoides mejorables</MU_MechanoidsToAdd>
+  <!-- EN: Mechanoids which can be upgraded with this upgrade. -->
+  <MU_MechanoidsToAdd_Desc>Mecanoides que pueden ser mejorados con esta mejora.</MU_MechanoidsToAdd_Desc>
+  <!-- EN: Reload cost -->
+  <MU_Stat_ReloadCost>Costo de recarga</MU_Stat_ReloadCost>
+  <!-- EN: The amount of items required to reload this object once. -->
+  <MU_Stat_ReloadCost_Desc>Cantidad de elementos necesarios para recargar este objeto una vez.</MU_Stat_ReloadCost_Desc>
+  <!-- EN: Quality offset -->
+  <MU_QualityOffset>Modificador de calidad</MU_QualityOffset>
+  <!-- EN: Quality offset to crafting or construction. -->
+  <MU_QualityOffset_Desc>Modificador de calidad aplicado a la fabricación o construcción.</MU_QualityOffset_Desc>
+</LanguageData>

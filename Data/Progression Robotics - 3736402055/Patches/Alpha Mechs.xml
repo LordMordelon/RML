@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Mechs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_InfernusMechlinkBooster"]/label</xpath>
+          <value>
+            <!-- EN: infernus invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_WarEmpressMechlinkBooster"]/label</xpath>
+          <value>
+            <!-- EN: war empress invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_ApoptosisMechlinkBooster"]/label</xpath>
+          <value>
+            <!-- EN: apoptosis invoker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Daggersnout -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/description</xpath>
+          <value>
+            <!-- EN: Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn&apos;t as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Sagittarius -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/description</xpath>
+          <value>
+            <!-- EN: Build a humanoid mechanoid equipped with a powerful tesla gun, a fearsome energy weapon designed to unleash a cascade of electromagnetic energy upon its targets. Capable of generating a burst of EMP energy that can stun and disable mechanoids with a single shot. At the same time, it unleashes a searing bolt of electrical energy that can burn through organic targets, leaving them smoldering and vulnerable. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Goliath -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/description</xpath>
+          <value>
+            <!-- EN: Build a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If built by the player, it will have a &quot;Swap weapon&quot; ability to choose between the charge blaster and the Needle gun. If toggled to not spawn via mod options, they will get replaced by a Centipede Gunner. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/label</xpath>
+          <value>
+            <!-- EN: Siegebreaker -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/description</xpath>
+          <value>
+            <!-- EN: Build a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosive shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Daggersnout"]/description</xpath>
+          <value>
+            <!-- EN: The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn&apos;t as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Aura"]/description</xpath>
+          <value>
+            <!-- EN: The Aura, also known as Avenging Angels, are angel-shaped mechanoids surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Auras don&apos;t have much health, but they will regenerate damage quite fast.\n\nRegeneration is 0.1 damage to a random wound every 10 ticks, 1/6th of a second. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Demolisher"]/description</xpath>
+          <value>
+            <!-- EN: The strange demolisher mechanoid looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony&apos;s outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Demolishers will only appear in breach raids. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Fireworm"]/description</xpath>
+          <value>
+            <!-- EN: A huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don&apos;t let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn&apos;t want to see what a biological scyther looks like...\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 15 Bomb damage on a 1.9 tile radius. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Goliath"]/description</xpath>
+          <value>
+            <!-- EN: The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If built by the player, it will have a &quot;Swap weapon&quot; ability to choose between the charge blaster and the Needle gun. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AM_Phalanx"]/description</xpath>
+          <value>
+            <!-- EN: A hulking mechanoid based on a rhinoceros beetle body plan. The phalanx&apos;s plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid&apos;s head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 10 Frostbite damage on a 2.9 tile radius. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

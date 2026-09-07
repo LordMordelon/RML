@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: System Maintenance -->
+  <DMS_SelfRepair.label>Mantenimiento del sistema</DMS_SelfRepair.label>
+  <!-- EN: This mech has entered self-maintenance mode and is repairing itself using electroactive memory metal. All sensors are temporarily disabled to during this process which will last at least a day. -->
+  <DMS_SelfRepair.description>Este meca ha entrado en modo de automantenimiento y se está reparando a sí mismo usando metal con memoria electroactiva. Todos los sensores están desactivados temporalmente durante este proceso, que durará al menos un día.</DMS_SelfRepair.description>
+  <!-- EN: Repair Field -->
+  <DMS_RangeRepair.label>Campo de reparación</DMS_RangeRepair.label>
+  <!-- EN: A cluster field of nanites. -->
+  <DMS_RangeRepair.description>Un campo de cúmulos de nanitos.</DMS_RangeRepair.description>
+  <!-- EN: Sprint Burst -->
+  <DMS_BurstSprint.label>Ráfaga de velocidad</DMS_BurstSprint.label>
+  <!-- EN: Release accumulated mechanical energy allowing the Pioneer to sprint for a short duration. -->
+  <DMS_BurstSprint.description>Libera la energía mecánica acumulada, lo que permite al Pionero correr a gran velocidad durante un corto período de tiempo.</DMS_BurstSprint.description>
+  <!-- EN: Infrasound Barrage -->
+  <DMS_InfrasoundWave.label>bombardeo de infrasonido</DMS_InfrasoundWave.label>
+  <!-- EN: This unit is creating waves of infrasound which is interfering with the sensory systems of all creatures within range. -->
+  <DMS_InfrasoundWave.description>Esta unidad está creando ondas de infrasonido que interfieren con los sistemas sensoriales de todas las criaturas dentro del alcance.</DMS_InfrasoundWave.description>
+  <!-- EN: Infrasound -->
+  <DMS_InfrasoundWaveBuff.label>infrasonido</DMS_InfrasoundWaveBuff.label>
+  <!-- EN: Low-frequency sound waves that make living bodies uncomfortable, may cause vomiting and confusion. -->
+  <DMS_InfrasoundWaveBuff.description>Ondas de sonido de baja frecuencia que incomodan a los cuerpos vivos, pueden causar vómitos y confusión.</DMS_InfrasoundWaveBuff.description>
+  <!-- EN: Precision Marksmanship Mode -->
+  <DMS_SharpShooting.label>Modo de puntería de precisión</DMS_SharpShooting.label>
+  <!-- EN: This unit is performing intricate ballistic calculations and cannot move. Once its calculations are complete, it will take a precision shot with deadly accuracy. -->
+  <DMS_SharpShooting.description>Esta unidad está realizando cálculos balísticos complejos y no puede moverse. Una vez que se completen sus cálculos, realizará un disparo de precisión con una precisión mortal.</DMS_SharpShooting.description>
+  <!-- EN: Recon Calibration -->
+  <DMS_RangeFinder.label>Calibración de reconocimiento</DMS_RangeFinder.label>
+  <!-- EN: A large amount of fire control data is being shared with surrounding friendly forces through this unit which temporarily slows down its ability to respond to commands. -->
+  <DMS_RangeFinder.description>Se está compartiendo una gran cantidad de datos de control de fuego con las fuerzas amigas circundantes a través de esta unidad, lo que ralentiza temporalmente su capacidad para responder a los comandos.</DMS_RangeFinder.description>
+  <!-- EN: Received Calibration -->
+  <DMS_RangeFinderBuff.label>Calibración recibida</DMS_RangeFinderBuff.label>
+  <!-- EN: The missile knows where it is at all times. It knows this because it knows where it isn&apos;t. By subtracting where it is from where it isn&apos;t, or where it isn&apos;t from where it is... -->
+  <DMS_RangeFinderBuff.description>El misil sabe dónde está en todo momento. Lo sabe porque sabe dónde no está. Restando dónde está de dónde no está, o dónde no está de dónde está...</DMS_RangeFinderBuff.description>
+  <!-- EN: Kill Switch -->
+  <DMS_MechlinkKillSwitch.label>Interruptor de apagado</DMS_MechlinkKillSwitch.label>
+  <!-- EN: This device will destroy the mechlink by overloading the neural interface after the user&apos;s death. -->
+  <DMS_MechlinkKillSwitch.description>Este dispositivo destruirá el enlace mecánico sobrecargando la interfaz neuronal después de la muerte del usuario.</DMS_MechlinkKillSwitch.description>
+  <!-- EN: Fatal Trigger -->
+  <DMS_MechlinkFatalTrigger.label>Gatillo fatal</DMS_MechlinkFatalTrigger.label>
+  <!-- EN: Due to the instability of this device, this safety protocol was created to automatically eject and destroy the disabled mechlink before it can cause catastrophic damage to the user&apos;s brain. -->
+  <DMS_MechlinkFatalTrigger.description>Debido a la inestabilidad de este dispositivo, se creó este protocolo de seguridad para expulsar y destruir automáticamente el enlace mecánico desactivado antes de que pueda causar un daño catastrófico al cerebro del usuario.</DMS_MechlinkFatalTrigger.description>
+  <!-- EN: Mechlink Rejection -->
+  <DMS_MechlinkRejection.label>Rechazo de mecaenlace</DMS_MechlinkRejection.label>
+  <!-- EN: Due to limited technology and the lack of medical nanites, there are some side effect after installing this mechlink. It will take some time before the implantee&apos;s nervous system adjusts to its presence. -->
+  <DMS_MechlinkRejection.description>Debido a la tecnología limitada y la falta de nanitos médicos, existen algunos efectos secundarios después de instalar este enlace mecánico. Tomará algún tiempo antes de que el sistema nervioso del implantado se adapte a su presencia.</DMS_MechlinkRejection.description>
+  <!-- EN: fever -->
+  <DMS_MechlinkRejection.stages.0.label>fiebre</DMS_MechlinkRejection.stages.0.label>
+  <!-- EN: N.A.C.S. -->
+  <DMS_MechlinkOverload.label>N.A.C.S.</DMS_MechlinkOverload.label>
+  <!-- EN: Neural-Auxiliary Computation and Control System, this system&apos;s unique protocol allows the user to connect with existing mech and Automatroid tech. -->
+  <DMS_MechlinkOverload.description>Sistema de Computación y Control Neuro-Auxiliar, el protocolo único de este sistema permite al usuario conectarse con la tecnología de mecanoides y automatroides existente.</DMS_MechlinkOverload.description>
+  <!-- EN: low -->
+  <DMS_MechlinkOverload.stages.0.label>bajo</DMS_MechlinkOverload.stages.0.label>
+  <!-- EN: medium -->
+  <DMS_MechlinkOverload.stages.1.label>medio</DMS_MechlinkOverload.stages.1.label>
+  <!-- EN: high -->
+  <DMS_MechlinkOverload.stages.2.label>alto</DMS_MechlinkOverload.stages.2.label>
+  <!-- EN: very high -->
+  <DMS_MechlinkOverload.stages.3.label>muy alto</DMS_MechlinkOverload.stages.3.label>
+  <!-- EN: overloaded -->
+  <DMS_MechlinkOverload.stages.4.label>sobrecargado</DMS_MechlinkOverload.stages.4.label>
+  <!-- EN: danger -->
+  <DMS_MechlinkOverload.stages.5.label>peligro</DMS_MechlinkOverload.stages.5.label>
+  <!-- EN: Synthetic Rejection -->
+  <DMS_SyntheticRejection.label>Rechazo sintético</DMS_SyntheticRejection.label>
+  <!-- EN: Due to modifications of circulatory system, synthetic bionic enhancements can be rejected temporarily by the body. The effect does not last long, and the body&apos;s ability to fight infections is reduced for its duration. -->
+  <DMS_SyntheticRejection.description>Debido a las modificaciones del sistema circulatorio, las mejoras biónicas sintéticas pueden ser rechazadas temporalmente por el cuerpo. El efecto no dura mucho y la capacidad del cuerpo para combatir infecciones se reduce durante su duración.</DMS_SyntheticRejection.description>
+  <!-- EN: Bionic Rejection Syndrome has been cured. -->
+  <DMS_SyntheticRejection.comps.0.message>El síndrome de rechazo biónico ha sido curado.</DMS_SyntheticRejection.comps.0.message>
+  <!-- EN: fever -->
+  <DMS_SyntheticRejection.stages.0.label>fiebre</DMS_SyntheticRejection.stages.0.label>
+  <!-- EN: Phantom Limb Syndrome -->
+  <DMS_BionicShockRemove.label>Síndrome del miembro fantasma</DMS_BionicShockRemove.label>
+  <!-- EN: A commonly occurring syndrome in pre-spacer worlds when neurally interfaced bionics are removed. -->
+  <DMS_BionicShockRemove.description>Un síndrome que ocurre comúnmente en mundos pre-espaciales cuando se retiran las biónicas con interfaz neuronal.</DMS_BionicShockRemove.description>
+  <!-- EN: Phantom Limb Syndrome has been cured -->
+  <DMS_BionicShockRemove.comps.0.message>El síndrome del miembro fantasma ha sido curado</DMS_BionicShockRemove.comps.0.message>
+  <!-- EN: initial -->
+  <DMS_BionicShockRemove.stages.0.label>inicial</DMS_BionicShockRemove.stages.0.label>
+  <!-- EN: pain -->
+  <DMS_BionicShockRemove.stages.1.label>dolor</DMS_BionicShockRemove.stages.1.label>
+  <!-- EN: Xeno Limb Syndrome -->
+  <DMS_BionicShock.label>Síndrome del miembro xeno</DMS_BionicShock.label>
+  <!-- EN: A syndrome commonly occurring in pre-spacer worlds when one or more neurally interfaced bionics are installed. Due to the lack of biological receptors, the body will temporarily reject the bionic connection to the nervous system.\n\nThere are five classifications of severity for these symptoms. -->
+  <DMS_BionicShock.description>Un síndrome que ocurre comúnmente en mundos pre-espaciales cuando se instalan una o más biónicas con interfaz neuronal. Debido a la falta de receptores biológicos, el cuerpo rechazará temporalmente la conexión biónica con el sistema nervioso.\n\nHay cinco clasificaciones de gravedad para estos síntomas.</DMS_BionicShock.description>
+  <!-- EN: bionic syndrome has been cured -->
+  <DMS_BionicShock.comps.0.message>el síndrome biónico ha sido curado</DMS_BionicShock.comps.0.message>
+  <!-- EN: Initial -->
+  <DMS_BionicShock.stages.0.label>Inicial</DMS_BionicShock.stages.0.label>
+  <!-- EN: LV.1 Initial -->
+  <DMS_BionicShock.stages.1.label>NV.1 Inicial</DMS_BionicShock.stages.1.label>
+  <!-- EN: LV.2 Minor -->
+  <DMS_BionicShock.stages.2.label>NV.2 Menor</DMS_BionicShock.stages.2.label>
+  <!-- EN: LV.3 Serious -->
+  <DMS_BionicShock.stages.3.label>NV.3 Grave</DMS_BionicShock.stages.3.label>
+  <!-- EN: LV.4 Catatonic -->
+  <DMS_BionicShock.stages.4.label>NV.4 Catatónico</DMS_BionicShock.stages.4.label>
+  <!-- EN: LV.5 Disabled -->
+  <DMS_BionicShock.stages.5.label>NV.5 Incapacitado</DMS_BionicShock.stages.5.label>
+  <!-- EN: Emotional Misalignment -->
+  <DMS_FilterShock.label>Desalineación emocional</DMS_FilterShock.label>
+  <!-- EN: A syndrome caused by a cognitive dissonance created by the user&apos;s mind conflicting with the installed bionics. This internal conflict causes emotional trauma as the user struggles to adjust to their new baseline. -->
+  <DMS_FilterShock.description>Un síndrome causado por una disonancia cognitiva creada por el conflicto entre la mente del usuario y las biónicas instaladas. Este conflicto interno causa un trauma emocional mientras el usuario lucha por adaptarse a su nueva línea de base.</DMS_FilterShock.description>
+  <!-- EN: catatonic -->
+  <DMS_FilterShock.stages.0.label>catatónico</DMS_FilterShock.stages.0.label>
+  <!-- EN: calibration -->
+  <DMS_WeaponInprint.label>calibración</DMS_WeaponInprint.label>
+  <!-- EN: This Synth is integrated with an adaptive mechanism that allows its body to develop reflexive actions based on its handling experience and increase the density of artificial muscles in specific parts to better adapt to the weapon. As a result, an MG-1 can achieve superior combat effectiveness when operating the weapon it is adapted to.\n\nHowever, overfitting issues in the system prevent it from calibrating itself to only one weapon, usually the first weapon equipped upon startup. -->
+  <DMS_WeaponInprint.description>Este sintético está integrado con un mecanismo adaptativo que permite a su cuerpo desarrollar acciones reflejas basadas en su experiencia de manejo y aumentar la densidad de los músculos artificiales en partes específicas para adaptarse mejor al arma. Como resultado, un MG-1 puede lograr una efectividad de combate superior cuando opera el arma a la que está adaptado.\n\nSin embargo, los problemas de sobreajuste en el sistema le impiden calibrarse a una sola arma, generalmente la primera arma equipada al iniciarse.</DMS_WeaponInprint.description>
+  <!-- EN: Adapt to specific weapons and have better combat effectiveness when using adapted weapons. the effect will increase over time. -->
+  <DMS_WeaponInprint.descriptionShort>Se adapta a armas específicas y tiene una mejor efectividad de combate al usar armas adaptadas. El efecto aumentará con el tiempo.</DMS_WeaponInprint.descriptionShort>
+  <!-- EN: acquaintance -->
+  <DMS_WeaponInprint.stages.0.label>conocimiento</DMS_WeaponInprint.stages.0.label>
+  <!-- EN: adaptation -->
+  <DMS_WeaponInprint.stages.1.label>adaptación</DMS_WeaponInprint.stages.1.label>
+  <!-- EN: optimization -->
+  <DMS_WeaponInprint.stages.2.label>optimización</DMS_WeaponInprint.stages.2.label>
+  <!-- EN: experienced -->
+  <DMS_WeaponInprint.stages.3.label>experimentado</DMS_WeaponInprint.stages.3.label>
+  <!-- EN: specialized -->
+  <DMS_WeaponInprint.stages.4.label>especializado</DMS_WeaponInprint.stages.4.label>
+  <!-- EN: maximized -->
+  <DMS_WeaponInprint.stages.5.label>maximizado</DMS_WeaponInprint.stages.5.label>
+  <!-- EN: Visual Sensor -->
+  <DMS_ProstheticEye.label>sensor visual</DMS_ProstheticEye.label>
+  <!-- EN: a bionic sensor -->
+  <DMS_ProstheticEye.labelNoun>un sensor biónico</DMS_ProstheticEye.labelNoun>
+  <!-- EN: An installed visual sensor serving as a replacement eye. -->
+  <DMS_ProstheticEye.description>Un sensor visual instalado que sirve como ojo de reemplazo.</DMS_ProstheticEye.description>
+  <!-- EN: Mechaneural Arm -->
+  <DMS_ProstheticArm.label>brazo mecaneural</DMS_ProstheticArm.label>
+  <!-- EN: a neuromechanical arm -->
+  <DMS_ProstheticArm.labelNoun>un brazo neuromecánico</DMS_ProstheticArm.labelNoun>
+  <!-- EN: An installed neuromechanical arm. -->
+  <DMS_ProstheticArm.description>Un brazo neuromecánico instalado.</DMS_ProstheticArm.description>
+  <!-- EN: fist -->
+  <DMS_ProstheticArm.comps.0.tools.0.label>puño</DMS_ProstheticArm.comps.0.tools.0.label>
+  <!-- EN: Mechaneural leg -->
+  <DMS_ProstheticLeg.label>pierna mecaneural</DMS_ProstheticLeg.label>
+  <!-- EN: a neural-mechanical leg -->
+  <DMS_ProstheticLeg.labelNoun>una pierna neuro-mecánica</DMS_ProstheticLeg.labelNoun>
+  <!-- EN: An installed neural-mechanical leg. -->
+  <DMS_ProstheticLeg.description>Una pierna neuro-mecánica instalada.</DMS_ProstheticLeg.description>
+  <!-- EN: Mechaneural lung -->
+  <DMS_ProstheticLung.label>pulmón mecaneural</DMS_ProstheticLung.label>
+  <!-- EN: a neural-mechanical lung -->
+  <DMS_ProstheticLung.labelNoun>un pulmón neuro-mecánico</DMS_ProstheticLung.labelNoun>
+  <!-- EN: An installed neural-mechanical lung. -->
+  <DMS_ProstheticLung.description>Un pulmón neuro-mecánico instalado.</DMS_ProstheticLung.description>
+  <!-- EN: Mechaneural kidney -->
+  <DMS_ProstheticKidney.label>riñón mecaneural</DMS_ProstheticKidney.label>
+  <!-- EN: a neural-mechanical kidney -->
+  <DMS_ProstheticKidney.labelNoun>un riñón neuro-mecánico</DMS_ProstheticKidney.labelNoun>
+  <!-- EN: An installed neural-mechanical kidney. -->
+  <DMS_ProstheticKidney.description>Un riñón neuro-mecánico instalado.</DMS_ProstheticKidney.description>
+  <!-- EN: Mechaneural neurochord -->
+  <DMS_ProstheticSpine.label>neurocordón biomecánico</DMS_ProstheticSpine.label>
+  <!-- EN: An advanced neuromechanical spine which functions as a sub-brain. \n\n It takes over the user&apos;s reflex nerves and thereby reduces the burden on an operator&apos;s brain at the cost of minor side effects. -->
+  <DMS_ProstheticSpine.labelNoun>Un neurocordón biomecánico avanzado que funciona como un subcerebro.\n\nSe apodera de los nervios reflejos del usuario y, por lo tanto, reduce la carga en el cerebro de un operador a costa de efectos secundarios menores.</DMS_ProstheticSpine.labelNoun>
+  <!-- EN: An installed bionic spine. -->
+  <DMS_ProstheticSpine.description>Un neurocordón biomecánico instalado.</DMS_ProstheticSpine.description>
+  <!-- EN: Emotion Neutralizer -->
+  <DMS_SensoryFilter.label>neutralizador emocional</DMS_SensoryFilter.label>
+  <!-- EN: an emotion neutralizer -->
+  <DMS_SensoryFilter.labelNoun>un neutralizador emocional</DMS_SensoryFilter.labelNoun>
+  <!-- EN: A regulatory implant which hijacks the neural pathways for emotion, severing their connections. The process removes most of what it means to be human. -->
+  <DMS_SensoryFilter.description>Un implante regulador que secuestra las vías neuronales de las emociones, cortando sus conexiones. El proceso elimina la mayor parte de lo que significa ser humano.</DMS_SensoryFilter.description>
+  <!-- EN: Nutrition port -->
+  <DMS_NutrientPort.label>puerto de nutrición</DMS_NutrientPort.label>
+  <!-- EN: a nutrition port -->
+  <DMS_NutrientPort.labelNoun>un puerto de nutrición</DMS_NutrientPort.labelNoun>
+  <!-- EN: A total overhaul of the patient&apos;s digestive system, replacing it with a fueling port and nutrient storage. -->
+  <DMS_NutrientPort.description>Una revisión total del sistema digestivo del paciente, reemplazándolo con un puerto de alimentación y almacenamiento de nutrientes.</DMS_NutrientPort.description>
+  <!-- EN: Biosynthetic arm -->
+  <DMS_SyntheticArm.label>brazo biosintético</DMS_SyntheticArm.label>
+  <!-- EN: a biosynthetic arm -->
+  <DMS_SyntheticArm.labelNoun>un brazo biosintético</DMS_SyntheticArm.labelNoun>
+  <!-- EN: An installed biosynthetic arm. -->
+  <DMS_SyntheticArm.description>Un brazo biosintético instalado.</DMS_SyntheticArm.description>
+  <!-- EN: fist -->
+  <DMS_SyntheticArm.comps.0.tools.0.label>puño</DMS_SyntheticArm.comps.0.tools.0.label>
+  <!-- EN: Biosynthetic leg -->
+  <DMS_SyntheticLeg.label>pierna biosintética</DMS_SyntheticLeg.label>
+  <!-- EN: a biosynthetic leg -->
+  <DMS_SyntheticLeg.labelNoun>una pierna biosintética</DMS_SyntheticLeg.labelNoun>
+  <!-- EN: An installed biosynthetic leg. -->
+  <DMS_SyntheticLeg.description>Una pierna biosintética instalada.</DMS_SyntheticLeg.description>
+  <!-- EN: Receptor gel -->
+  <NeuroglueHigh.label>gel receptor</NeuroglueHigh.label>
+  <!-- EN: Receptor gel which connects biological and mechanical nerves, which can cure the Bionic syndrome with only minor side effects. -->
+  <NeuroglueHigh.description>Gel receptor que conecta los nervios biológicos y mecánicos, que puede curar el síndrome biónico con solo efectos secundarios menores.</NeuroglueHigh.description>
+  <!-- EN: Ceramic Plates -->
+  <DMS_CeramicsPlating.label>placas de cerámica</DMS_CeramicsPlating.label>
+  <!-- EN: Disposable ceramic armor that effectively protects the wearer from small arms fire and shrapnel.\n\nAlthough it is an excellent protective armor, it must be completely replaced once damaged. -->
+  <DMS_CeramicsPlating.description>Blindaje de cerámica desechable que protege eficazmente al portador del fuego de armas pequeñas y la metralla.\n\nAunque es un excelente blindaje protector, debe reemplazarse por completo una vez dañado.</DMS_CeramicsPlating.description>
+  <!-- EN: Reinforced Frame -->
+  <DMS_ReinforcedFrame.label>armazón reforzado</DMS_ReinforcedFrame.label>
+  <!-- EN: A set of tungsteel parts made to replace those prone to wearing down, effectively improving reliability and durability during high-intensity combat. These heavy-duty replacement parts will significantly increase the weight of the mech and affect its speed. -->
+  <DMS_ReinforcedFrame.description>Un conjunto de piezas de tungstanio hechas para reemplazar aquellas propensas al desgaste, mejorando eficazmente la fiabilidad y la durabilidad durante el combate de alta intensidad. Estas piezas de repuesto de alta resistencia aumentarán significativamente el peso del meca y afectarán su velocidad.</DMS_ReinforcedFrame.description>
+  <!-- EN: Nuclear Battery -->
+  <DMS_NuclearBattery.label>batería nuclear</DMS_NuclearBattery.label>
+  <!-- EN: The abundant output of installed nuclear-powered quantum batteries eliminates the need to recharge. The reactor can be overloaded to produce a chain reaction meltdown comparable to an anti-grain warhead. -->
+  <DMS_NuclearBattery.description>La abundante salida de las baterías cuánticas de propulsión nuclear instaladas elimina la necesidad de recargarlas. El reactor puede sobrecargarse para producir una fusión en cadena comparable a una ojiva de antigrano.</DMS_NuclearBattery.description>
+  <!-- EN: Synthetic Tendon -->
+  <DMS_SyntheticTendon.label>tendón sintético</DMS_SyntheticTendon.label>
+  <!-- EN: Biosynthetic muscles attached on the outer layer of mechanical limbs. Synthetic tendons effectively increase output at the cost of additional energy consumption. -->
+  <DMS_SyntheticTendon.description>Músculos biosintéticos unidos a la capa externa de las extremidades mecánicas. Los tendones sintéticos aumentan eficazmente la producción a costa de un consumo de energía adicional.</DMS_SyntheticTendon.description>
+  <!-- EN: Heavy Hydraulic Frame -->
+  <DMS_TB_HeavyHydraulicFrame.label>armazón hidráulico pesado</DMS_TB_HeavyHydraulicFrame.label>
+  <!-- EN: A heavy hydraulic module and power pack for bipedal mechs to gain the capability to lift heavier objects or mount heavy weapons. -->
+  <DMS_TB_HeavyHydraulicFrame.description>Un módulo hidráulico pesado y un paquete de energía para que los mecas bípedos puedan levantar objetos más pesados o montar armas pesadas.</DMS_TB_HeavyHydraulicFrame.description>
+  <!-- EN: Extended Cargo Rack -->
+  <DMS_BF_ExtendCargo.label>soporte de carga</DMS_BF_ExtendCargo.label>
+  <!-- EN: Side mounted cargo racks suitable for battle frame pylons. The racks increase the carrying capacity of battle frame and their variants. -->
+  <DMS_BF_ExtendCargo.description>Soportes de carga montados lateralmente adecuados para los pilones de los armazones de batalla. Los soportes aumentan la capacidad de carga del armazón de batalla y sus variantes.</DMS_BF_ExtendCargo.description>
+  <!-- EN: Additional Armor Plating -->
+  <DMS_BF_ExtendArmor.label>placas de blindaje</DMS_BF_ExtendArmor.label>
+  <!-- EN: Composite armor plates designed for battle frame pylons add survivability to the battle frame by protecting it from fragmentation and medium-caliber gunfire. -->
+  <DMS_BF_ExtendArmor.description>Las placas de blindaje compuesto diseñadas para los pilones de los armazones de batalla aumentan la supervivencia del armazón de batalla protegiéndolo de la fragmentación y los disparos de mediano calibre.</DMS_BF_ExtendArmor.description>
+  <!-- EN: Supported Bandwidth -->
+  <DMS_OrbitalService.label>ancho de banda orbital</DMS_OrbitalService.label>
+  <!-- EN: Orbital support ships from colonial fleets are providing bandwidth to allied mechanitor. -->
+  <DMS_OrbitalService.description>Las naves de apoyo orbital de las flotas coloniales proporcionan ancho de banda al mecanizador aliado.</DMS_OrbitalService.description>
+  <!-- EN: none -->
+  <DMS_OrbitalService.stages.0.label>ninguno</DMS_OrbitalService.stages.0.label>
+  <!-- EN: corporal -->
+  <DMS_OrbitalService.stages.1.label>cabo</DMS_OrbitalService.stages.1.label>
+  <!-- EN: pre-sergeant -->
+  <DMS_OrbitalService.stages.2.label>pre-sargento</DMS_OrbitalService.stages.2.label>
+  <!-- EN: sergeant -->
+  <DMS_OrbitalService.stages.3.label>sargento</DMS_OrbitalService.stages.3.label>
+  <!-- EN: warrant officer -->
+  <DMS_OrbitalService.stages.4.label>suboficial</DMS_OrbitalService.stages.4.label>
+  <!-- EN: lieutenant -->
+  <DMS_OrbitalService.stages.5.label>teniente</DMS_OrbitalService.stages.5.label>
+  <!-- EN: captain -->
+  <DMS_OrbitalService.stages.6.label>capitán</DMS_OrbitalService.stages.6.label>
+  <!-- EN: major -->
+  <DMS_OrbitalService.stages.7.label>mayor</DMS_OrbitalService.stages.7.label>
+  <!-- EN: colonel -->
+  <DMS_OrbitalService.stages.8.label>coronel</DMS_OrbitalService.stages.8.label>
+  <!-- EN: brigadier -->
+  <DMS_OrbitalService.stages.9.label>brigadier</DMS_OrbitalService.stages.9.label>
+  <!-- EN: Band node (N.A.C.S.) -->
+  <DMS_BandNode.label>Nodo de banda (N.A.C.S.)</DMS_BandNode.label>
+  <!-- EN: Following the N.A.C.S. protocol, the assisted computing array has increased this
+      mechanitor&apos;s bandwidth. -->
+  <DMS_BandNode.description>Siguiendo el protocolo N.A.C.S., el conjunto de computación asistida ha aumentado el ancho de banda de este mecanizador.</DMS_BandNode.description>
+</LanguageData>

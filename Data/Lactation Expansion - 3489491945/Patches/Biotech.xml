@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="Lactating"]/description</xpath>
+    <value>
+      <!-- EN: The condition of being able to produce milk and breastfeed a baby. The lactating state begins when a human gives birth, and continues indefinitely as long as they breastfeed a baby or milk themselves at least once every 10 days. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>

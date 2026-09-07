@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Mote -->
+  <VQE_Mote_Ice.label>TODO</VQE_Mote_Ice.label>
+  <!-- EN: empty ancient cryptosleep pod -->
+  <VQE_FrozenEmptyCryptosleepPod.label>sarcófago de criptosueño antiguo vacío</VQE_FrozenEmptyCryptosleepPod.label>
+  <!-- EN: An old cryptosleep pod that has been opened. Whatever was inside is long gone. -->
+  <VQE_FrozenEmptyCryptosleepPod.description>Un antiguo sarcófago de criptosueño que ha sido abierto. Lo que sea que estuviera dentro se ha ido hace mucho tiempo.</VQE_FrozenEmptyCryptosleepPod.description>
+  <!-- EN: failed cryptosleep pod -->
+  <VQE_FrozenFailedCryptosleepPod.label>sarcófago de criptosueño fallido</VQE_FrozenFailedCryptosleepPod.label>
+  <!-- EN: A cryptosleep pod that suffered a critical failure. The occupant inside is long dead and most likely turned into dust. -->
+  <VQE_FrozenFailedCryptosleepPod.description>Un sarcófago de criptosueño que sufrió un fallo crítico. El ocupante del interior ha muerto hace mucho tiempo y lo más probable es que se haya convertido en polvo.</VQE_FrozenFailedCryptosleepPod.description>
+  <!-- EN: fading cryptosleep pod -->
+  <VQE_FrozenFadingCryptosleepPod.label>sarcófago de criptosueño agonizante</VQE_FrozenFadingCryptosleepPod.label>
+  <!-- EN: A heavily damaged cryptosleep pod that is barely functioning. The occupant inside is still alive but in danger. -->
+  <VQE_FrozenFadingCryptosleepPod.description>Un sarcófago de criptosueño fuertemente dañado que apenas funciona. El ocupante del interior todavía está vivo pero en peligro.</VQE_FrozenFadingCryptosleepPod.description>
+  <!-- EN: spent cryptofusion coil -->
+  <VQE_SpentCryptofusionCoil.label>bobina de criptofusión agotada</VQE_SpentCryptofusionCoil.label>
+  <!-- EN: A depleted cryptofuel coil. Completely spent, it’s just another useless relic. -->
+  <VQE_SpentCryptofusionCoil.description>Una bobina de criptocombustible agotada. Completamente gastada, es solo otra reliquia inútil.</VQE_SpentCryptofusionCoil.description>
+  <!-- EN: busted shielded turret -->
+  <VQE_BustedShieldedTurret.label>torreta blindada estropeada</VQE_BustedShieldedTurret.label>
+  <!-- EN: An old, busted turret equipped with its own ballistic shield capable of deflecting some shots. Now, it’s little more than scrap metal. -->
+  <VQE_BustedShieldedTurret.description>Una torreta vieja y estropeada equipada con su propio escudo balístico capaz de desviar algunos disparos. Ahora, no es más que chatarra.</VQE_BustedShieldedTurret.description>
+  <!-- EN: busted spacer autocannon -->
+  <VQE_BustedSpacerAutocannon.label>cañón automático espacial estropeado</VQE_BustedSpacerAutocannon.label>
+  <!-- EN: An ancient autocannon designed for ship-to-ship combat. Its barrel is shattered, and its targeting systems are fried. -->
+  <VQE_BustedSpacerAutocannon.description>Un antiguo cañón automático diseñado para el combate entre naves. Su cañón está destrozado y sus sistemas de puntería están fritos.</VQE_BustedSpacerAutocannon.description>
+  <!-- EN: frozen crypto railcannon -->
+  <VQE_FrozenCryptoRailcannon.label>cañón de riel cripto congelado</VQE_FrozenCryptoRailcannon.label>
+  <!-- EN: A cutting-edge railcannon encased in ice. It has been salvaged beyond usefulness. -->
+  <VQE_FrozenCryptoRailcannon.description>Un cañón de riel de vanguardia envuelto en hielo. Ha sido despojado más allá de su utilidad.</VQE_FrozenCryptoRailcannon.description>
+  <!-- EN: ancient ship landing beacon -->
+  <VQE_AncientShipLandingBeacon.label>baliza de aterrizaje de nave antigua</VQE_AncientShipLandingBeacon.label>
+  <!-- EN: A rusted ship landing beacon, still flickering with an ancient, failing signal. No ship will ever respond. -->
+  <VQE_AncientShipLandingBeacon.description>Una baliza de aterrizaje de nave oxidada, que todavía parpadea con una señal antigua y fallida. Ninguna nave responderá jamás.</VQE_AncientShipLandingBeacon.description>
+  <!-- EN: frozen mechanoid shell -->
+  <VQE_FrozenMechanoidShell.label>caparazón de mecanoide congelado</VQE_FrozenMechanoidShell.label>
+  <!-- EN: A frozen shell from a smashed mechanoid. It has been frozen for generations and the useful components have disintegrated. -->
+  <VQE_FrozenMechanoidShell.description>Un caparazón congelado de un mecanoide destrozado. Ha estado congelado durante generaciones y los componentes útiles se han desintegrado.</VQE_FrozenMechanoidShell.description>
+  <!-- EN: ancient terminal -->
+  <VQE_CryptoAncientTerminal.label>terminal antigua</VQE_CryptoAncientTerminal.label>
+  <!-- EN: An ancient computer terminal. It’s disconnected from power, or simply not working. -->
+  <VQE_CryptoAncientTerminal.description>Una antigua terminal de computadora. Está desconectada de la energía, o simplemente no funciona.</VQE_CryptoAncientTerminal.description>
+  <!-- EN: ancient terminal bank -->
+  <VQE_CryptoAncientTerminalBank.label>banco de terminales antiguas</VQE_CryptoAncientTerminalBank.label>
+  <!-- EN: An ancient set of computer terminals. It’s disconnected from power, or simply not working. -->
+  <VQE_CryptoAncientTerminalBank.description>Un antiguo conjunto de terminales de computadora. Está desconectado de la energía, o simplemente no funciona.</VQE_CryptoAncientTerminalBank.description>
+  <!-- EN: frozen capacitor -->
+  <VQE_FrozenCapacitor.label>condensador congelado</VQE_FrozenCapacitor.label>
+  <!-- EN: A small, frost-covered energy capacitor. It no longer holds any residual charge. -->
+  <VQE_FrozenCapacitor.description>Un pequeño condensador de energía cubierto de escarcha. Ya no mantiene ninguna carga residual.</VQE_FrozenCapacitor.description>
+  <!-- EN: large frozen capacitor -->
+  <VQE_FrozenCapacitorLarge.label>condensador congelado grande</VQE_FrozenCapacitorLarge.label>
+  <!-- EN: A large, frost-covered energy capacitor. It no longer holds any residual charge. -->
+  <VQE_FrozenCapacitorLarge.description>Un gran condensador de energía cubierto de escarcha. Ya no mantiene ninguna carga residual.</VQE_FrozenCapacitorLarge.description>
+  <!-- EN: rusted ancient bed -->
+  <VQE_RuinedHospitalBed.label>cama antigua oxidada</VQE_RuinedHospitalBed.label>
+  <!-- EN: A rusted-out bedframe, with a decently intact bedsheet. It offers little comfort. -->
+  <VQE_RuinedHospitalBed.description>Un armazón de cama oxidado, con una sábana decentemente intacta. Ofrece poca comodidad.</VQE_RuinedHospitalBed.description>
+  <!-- EN: frozen fuel tank -->
+  <VQE_FrozenFuelTank.label>tanque de combustible congelado</VQE_FrozenFuelTank.label>
+  <!-- EN: A frozen-over fuel tank, potentially filled with cryptofuel back in the day, now cracked and empty. -->
+  <VQE_FrozenFuelTank.description>Un tanque de combustible congelado, potencialmente lleno de criptocombustible en su día, ahora agrietado y vacío.</VQE_FrozenFuelTank.description>
+  <!-- EN: frozen thrusters -->
+  <VQE_FrozenThrusters.label>propulsores congelados</VQE_FrozenThrusters.label>
+  <!-- EN: A set of smaller ship thrusters, now frozen solid and useless. -->
+  <VQE_FrozenThrusters.description>Un conjunto de propulsores de nave más pequeños, ahora congelados y completamente inútiles.</VQE_FrozenThrusters.description>
+  <!-- EN: large frozen thrusters -->
+  <VQE_LargeFrozenThrusters.label>propulsores congelados grandes</VQE_LargeFrozenThrusters.label>
+  <!-- EN: A colossal set of frozen thrusters from the cryptoforge ship. They will never fire again. -->
+  <VQE_LargeFrozenThrusters.description>Un conjunto colosal de propulsores congelados de la nave criptoforja. Nunca volverán a encenderse.</VQE_LargeFrozenThrusters.description>
+  <!-- EN: frozen machinery -->
+  <VQE_FrozenMachinery.label>maquinaria congelada</VQE_FrozenMachinery.label>
+  <!-- EN: A tangle of ancient machinery, too damaged by frost and impact to be of any use. -->
+  <VQE_FrozenMachinery.description>Un enredo de maquinaria antigua, demasiado dañada por la escarcha y el impacto para ser de alguna utilidad.</VQE_FrozenMachinery.description>
+  <!-- EN: frozen life support -->
+  <VQE_FrozenLifeSupport.label>soporte vital congelado</VQE_FrozenLifeSupport.label>
+  <!-- EN: A collapsed life support module, its systems dead and displays shattered. No air will flow through it again. -->
+  <VQE_FrozenLifeSupport.description>Un módulo de soporte vital colapsado, con sus sistemas muertos y pantallas destrozadas. No volverá a fluir aire a través de él.</VQE_FrozenLifeSupport.description>
+  <!-- EN: frozen skyripper -->
+  <VQE_FrozenSkyripper.label>skyripper congelado</VQE_FrozenSkyripper.label>
+  <!-- EN: A high-altitude fighter jet, frozen and rusted beyond repair. Whatever battles it once fought are long forgotten. -->
+  <VQE_FrozenSkyripper.description>Un caza de gran altitud, congelado y oxidado más allá de toda reparación. Cualesquiera que fueran las batallas que libró una vez, han sido olvidadas hace mucho tiempo.</VQE_FrozenSkyripper.description>
+  <!-- EN: frozen torpedo bay -->
+  <VQE_FrozenTorpedoBay.label>bahía de torpedos congelada</VQE_FrozenTorpedoBay.label>
+  <!-- EN: A torpedo storage bay, frozen shut. Its launch systems are irreparably damaged. -->
+  <VQE_FrozenTorpedoBay.description>Una bahía de almacenamiento de torpedos, cerrada por el hielo. Sus sistemas de lanzamiento están dañados irreparablemente.</VQE_FrozenTorpedoBay.description>
+  <!-- EN: frozen torpedo launcher -->
+  <VQE_FrozenTorpedoLauncher.label>lanzatorpedos congelado</VQE_FrozenTorpedoLauncher.label>
+  <!-- EN: A large torpedo launcher, its firing mechanisms locked under a thick layer of ice. -->
+  <VQE_FrozenTorpedoLauncher.description>Un gran lanzatorpedos, con sus mecanismos de disparo bloqueados bajo una gruesa capa de hielo.</VQE_FrozenTorpedoLauncher.description>
+  <!-- EN: frozen small ship console -->
+  <VQE_FrozenSmallShipConsole.label>consola de nave pequeña congelada</VQE_FrozenSmallShipConsole.label>
+  <!-- EN: A compact ship control panel, now frozen and non-functional. -->
+  <VQE_FrozenSmallShipConsole.description>Un panel de control de nave compacto, ahora congelado y no funcional.</VQE_FrozenSmallShipConsole.description>
+  <!-- EN: frozen ship console -->
+  <VQE_FrozenShipConsole.label>consola de nave congelada</VQE_FrozenShipConsole.label>
+  <!-- EN: A standard ship control console, now frozen and non-functional. -->
+  <VQE_FrozenShipConsole.description>Una consola de control de nave estándar, ahora congelada y no funcional.</VQE_FrozenShipConsole.description>
+  <!-- EN: acient transmitter beacon -->
+  <VQE_AncientTransmitterBeacon.label>baliza transmisora antigua</VQE_AncientTransmitterBeacon.label>
+  <!-- EN: A long-dead transmission beacon. Any components of value have long been removed. -->
+  <VQE_AncientTransmitterBeacon.description>Una baliza de transmisión muerta hace mucho tiempo. Cualquier componente de valor ha sido retirado hace mucho.</VQE_AncientTransmitterBeacon.description>
+  <!-- EN: frozen minefield sign -->
+  <VQE_FrozenMinefieldSign.label>letrero de campo de minas congelado</VQE_FrozenMinefieldSign.label>
+  <!-- EN: A half-buried warning sign, encased in ice. It reads: &quot;DANGER - ACTIVE MINEFIELD,&quot; but no mines can be seen. -->
+  <VQE_FrozenMinefieldSign.description>Un letrero de advertencia medio enterrado, envuelto en hielo. Dice: "PELIGRO - CAMPO DE MINAS ACTIVO", pero no se ven minas.</VQE_FrozenMinefieldSign.description>
+  <!-- EN: frozen torpedo crate -->
+  <VQE_FrozenTorpedoCrate.label>caja de torpedos congelada</VQE_FrozenTorpedoCrate.label>
+  <!-- EN: A sealed crate containing volatile torpedoes. A single shot could turn it into a catastrophic explosion. -->
+  <VQE_FrozenTorpedoCrate.description>Una caja sellada que contiene torpedos volátiles. Un solo disparo podría convertirla en una explosión catastrófica.</VQE_FrozenTorpedoCrate.description>
+  <!-- EN: frozen hive -->
+  <VQE_FrozenHive.label>colmena congelada</VQE_FrozenHive.label>
+  <!-- EN: A hive of giant insects, twisted by exposure to the crypto particles. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly. -->
+  <VQE_FrozenHive.description>Una colmena de insectos gigantes, deformada por la exposición a las criptopartículas. Si se activa, generará insectos y colmenas adicionales con el tiempo, así como valiosa jalea de insecto.</VQE_FrozenHive.description>
+  <!-- EN: twisted metal -->
+  <VQE_TwistedMetal.label>metal retorcido</VQE_TwistedMetal.label>
+  <!-- EN: A mangled piece of metal, twisted from the sheer force of the cryptoforge spaceship crash. Some steel can still be salvaged. -->
+  <VQE_TwistedMetal.description>Una pieza de metal destrozada, retorcida por la fuerza pura del choque de la nave espacial criptoforja. Todavía se puede recuperar algo de acero.</VQE_TwistedMetal.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_TwistedMetal.modExtensions.0.gizmoDesc>TODO</VQE_TwistedMetal.modExtensions.0.gizmoDesc>
+  <!-- EN: large twisted metal -->
+  <VQE_LargeTwistedMetal.label>metal retorcido grande</VQE_LargeTwistedMetal.label>
+  <!-- EN: A large mangled piece of metal, twisted from the sheer force of the cryptoforge spaceship crash. Some steel can still be salvaged. -->
+  <VQE_LargeTwistedMetal.description>Una enorme pieza de metal destrozada, retorcida por la fuerza pura del choque de la nave espacial criptoforja. Todavía se puede recuperar algo de acero.</VQE_LargeTwistedMetal.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_LargeTwistedMetal.modExtensions.0.gizmoDesc>TODO</VQE_LargeTwistedMetal.modExtensions.0.gizmoDesc>
+  <!-- EN: huge twisted metal -->
+  <VQE_HugeTwistedMetal.label>metal retorcido enorme</VQE_HugeTwistedMetal.label>
+  <!-- EN: A huge mangled piece of metal, twisted from the sheer force of the cryptoforge spaceship crash. Some steel can still be salvaged. -->
+  <VQE_HugeTwistedMetal.description>Una enorme pieza de metal destrozada, retorcida por la fuerza pura del choque de la nave espacial criptoforja. Todavía se puede recuperar algo de acero.</VQE_HugeTwistedMetal.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_HugeTwistedMetal.modExtensions.0.gizmoDesc>TODO</VQE_HugeTwistedMetal.modExtensions.0.gizmoDesc>
+  <!-- EN: twisted components -->
+  <VQE_TwistedComponents.label>componentes retorcidos</VQE_TwistedComponents.label>
+  <!-- EN: A warped collection of machinery and circuits. While the original function is lost, some usable components can still be extracted. -->
+  <VQE_TwistedComponents.description>Una colección deformada de maquinaria y circuitos. Aunque se ha perdido la función original, todavía se pueden extraer algunos componentes utilizables.</VQE_TwistedComponents.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_TwistedComponents.modExtensions.0.gizmoDesc>TODO</VQE_TwistedComponents.modExtensions.0.gizmoDesc>
+  <!-- EN: twisted advanced components -->
+  <VQE_TwistedAdvancedComponents.label>componentes avanzados retorcidos</VQE_TwistedAdvancedComponents.label>
+  <!-- EN: A pile of severely damaged high-tech components. While the original function is lost, some usable advanced components can still be extracted. -->
+  <VQE_TwistedAdvancedComponents.description>Una pila de componentes de alta tecnología gravemente dañados. Aunque se ha perdido la función original, todavía se pueden extraer algunos componentes avanzados utilizables.</VQE_TwistedAdvancedComponents.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_TwistedAdvancedComponents.modExtensions.0.gizmoDesc>TODO</VQE_TwistedAdvancedComponents.modExtensions.0.gizmoDesc>
+  <!-- EN: twisted plasteel -->
+  <VQE_TwistedPlasteel.label>plastiacero retorcido</VQE_TwistedPlasteel.label>
+  <!-- EN: A crumpled sheet of plasteel, scorched and bent beyond recognition. With enough effort, some of it could be salvaged. -->
+  <VQE_TwistedPlasteel.description>Una lámina de plastiacero arrugada, quemada y doblada más allá del reconocimiento. Con suficiente esfuerzo, parte de ella podría recuperarse.</VQE_TwistedPlasteel.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_TwistedPlasteel.modExtensions.0.gizmoDesc>TODO</VQE_TwistedPlasteel.modExtensions.0.gizmoDesc>
+  <!-- EN: gold pile -->
+  <VQE_GoldPile.label>pila de oro</VQE_GoldPile.label>
+  <!-- EN: A scattered pile of ancient gold coins, each stamped with cryptic serial codes. Their value is entirely theoretical - until someone decides otherwise. -->
+  <VQE_GoldPile.description>Una pila dispersa de monedas de oro antiguas, cada una sellada con códigos de serie crípticos. Su valor es enteramente teórico, hasta que alguien decida lo contrario.</VQE_GoldPile.description>
+  <!-- EN: VQE_ScavengeDesc -->
+  <VQE_GoldPile.modExtensions.0.gizmoDesc>TODO</VQE_GoldPile.modExtensions.0.gizmoDesc>
+  <!-- EN: empty frozen crate -->
+  <VQE_EmptyFrozenCrate.label>caja congelada vacía</VQE_EmptyFrozenCrate.label>
+  <!-- EN: An empty crate, rusted and frozen solid. Its contents are long gone. -->
+  <VQE_EmptyFrozenCrate.description>Una caja vacía, oxidada y congelada. Su contenido ha desaparecido hace mucho tiempo.</VQE_EmptyFrozenCrate.description>
+  <!-- EN: frozen box -->
+  <VQE_EmptyFrozenCrate_Small.label>caja congelada</VQE_EmptyFrozenCrate_Small.label>
+  <!-- EN: A frost-covered box that once contained something valuable. Now, it’s just junk. -->
+  <VQE_EmptyFrozenCrate_Small.description>Una caja cubierta de escarcha que alguna vez contuvo algo valioso. Ahora, es solo basura.</VQE_EmptyFrozenCrate_Small.description>
+  <!-- EN: frozen crate of medicine -->
+  <VQE_FrozenCrateOfMedicine.label>caja de medicinas congelada</VQE_FrozenCrateOfMedicine.label>
+  <!-- EN: A frozen crate containing medical supplies. The subzero temperatures have kept them well-preserved. -->
+  <VQE_FrozenCrateOfMedicine.description>Una caja congelada que contiene suministros médicos. Las temperaturas bajo cero los han mantenido bien conservados.</VQE_FrozenCrateOfMedicine.description>
+  <!-- EN: frozen crate of rations -->
+  <VQE_FrozenCrateOfRations.label>caja de raciones congelada</VQE_FrozenCrateOfRations.label>
+  <!-- EN: A supply crate filled with survival rations, flash-frozen in the wreckage. The food inside should still be edible. -->
+  <VQE_FrozenCrateOfRations.description>Una caja de suministros llena de raciones de supervivencia, congeladas instantáneamente en los restos. La comida del interior aún debería ser edible.</VQE_FrozenCrateOfRations.description>
+  <!-- EN: useless blueprints bench -->
+  <VQE_EmptyBlueprintsBench.label>banco de planos inútiles</VQE_EmptyBlueprintsBench.label>
+  <!-- EN: A pile of faded and illegible blueprints. Whatever knowledge they once held has long since faded away. -->
+  <VQE_EmptyBlueprintsBench.description>Una pila de planos descoloridos e ilegibles. Cualquier conocimiento que alguna vez tuvieron se ha desvanecido hace mucho tiempo.</VQE_EmptyBlueprintsBench.description>
+  <!-- EN: ancient blueprints bench -->
+  <VQE_BlueprintsBench.label>banco de planos antiguos</VQE_BlueprintsBench.label>
+  <!-- EN: An old bench covered in pristine blueprints. Studying them could provide a rare burst of crafting inspiration. -->
+  <VQE_BlueprintsBench.description>Un banco viejo cubierto de planos impecables. Estudiarlos podría proporcionar un raro estallido de inspiración para la artesanía.</VQE_BlueprintsBench.description>
+  <!-- EN: VQE_StudyBlueprintsDesc -->
+  <VQE_BlueprintsBench.modExtensions.0.gizmoDesc>TODO</VQE_BlueprintsBench.modExtensions.0.gizmoDesc>
+  <!-- EN: cryptofusion coil -->
+  <VQE_CryptofusionCoil.label>bobina de criptofusión</VQE_CryptofusionCoil.label>
+  <!-- EN: A small coil that converts cryptofuel into power. Despite its age, it still operates at minimal capacity. -->
+  <VQE_CryptofusionCoil.description>Una pequeña bobina que convierte el criptocombustible en energía. A pesar de su antigüedad, todavía funciona a una capacidad mínima.</VQE_CryptofusionCoil.description>
+  <!-- EN: frozen cryptogenerator -->
+  <VQE_FrozenCryptogenerator.label>criptogenerador congelado</VQE_FrozenCryptogenerator.label>
+  <!-- EN: A frozen cryptogenerator. -->
+  <VQE_FrozenCryptogenerator.description>Un criptogenerador congelado.</VQE_FrozenCryptogenerator.description>
+  <!-- EN: frozen cryptogenerator -->
+  <VQE_FrozenCryptogenerator_Off.label>criptogenerador congelado</VQE_FrozenCryptogenerator_Off.label>
+  <!-- EN: An advanced generator that once powered cryptotech devices. Now, it hums faintly with dying energy. It can be restarted to once again provide power to the various subsystems, but the permanent damage to the critical component will cause the generator to become more and more unstable, eventually detonating in a devastating cryptoexplosion. -->
+  <VQE_FrozenCryptogenerator_Off.description>Un generador avanzado que alguna vez alimentó dispositivos de criptotecnología. Ahora, zumba débilmente con energía agonizante. Se puede reiniciar para proporcionar energía una vez más a los diversos subsistemas, pero el daño permanente al componente crítico hará que el generador se vuelva cada vez más inestable, detonando finalmente en una devastadora criptoexplosión.</VQE_FrozenCryptogenerator_Off.description>
+  <!-- EN: VQE_RestartGeneratorDesc -->
+  <VQE_FrozenCryptogenerator_Off.modExtensions.0.gizmoDesc>TODO</VQE_FrozenCryptogenerator_Off.modExtensions.0.gizmoDesc>
+  <!-- EN: ancient cryptoforge -->
+  <VQE_AncientCryptoforge.label>criptoforja antigua</VQE_AncientCryptoforge.label>
+  <!-- EN: An ancient workbench designed for crafting advanced crypto-technology weapons and armor. It features intricate mechanisms and a forging process that seems to defy conventional metallurgy. The tools and technology integrated into it are beyond modern understanding, utilizing encrypted blueprints and precision-tuned nano-assembly techniques. -->
+  <VQE_AncientCryptoforge.description>Un banco de trabajo antiguo diseñado para fabricar armas y armaduras de criptotecnología avanzada. Presenta mecanismos intrincados y un proceso de forja que parece desafiar la metalurgia convencional. Las herramientas y la tecnología integradas en él están más allá de la comprensión moderna, utilizando planos encriptados y técnicas de nanoensamblaje de precisión ajustada.</VQE_AncientCryptoforge.description>
+  <!-- EN: aether pressure tubes -->
+  <VQE_AetherPressureTubes.label>tubos de presión de éter</VQE_AetherPressureTubes.label>
+  <!-- EN: A network of reinforced tubes that once regulated high-density ether coolant, allowing the cryptoforge to function at peak efficiency. The technology behind it is now lost. -->
+  <VQE_AetherPressureTubes.description>Una red de tubos reforzados que alguna vez regularon el refrigerante de éter de alta densidad, permitiendo que la criptoforja funcionara a su máxima eficiencia. La tecnología detrás de esto se ha perdido.</VQE_AetherPressureTubes.description>
+  <!-- EN: crypto infusion coils -->
+  <VQE_CryptoInfusionCoils.label>bobinas de infusión cripto</VQE_CryptoInfusionCoils.label>
+  <!-- EN: These coils once channeled encrypted energy pulses to refine and enhance crypto-tech materials. Without a working power source, they are just intricate, useless relics. -->
+  <VQE_CryptoInfusionCoils.description>Estas bobinas alguna vez canalizaron pulsos de energía encriptada para refinar y mejorar los materiales de criptotecnología. Sin una fuente de energía que funcione, son solo reliquias intrincadas e inútiles.</VQE_CryptoInfusionCoils.description>
+  <!-- EN: sub-zero hammer -->
+  <VQE_SubZeroHammer.label>martillo bajo cero</VQE_SubZeroHammer.label>
+  <!-- EN: A massive forging hammer designed to shape materials at near absolute zero, strengthening them beyond conventional limits. Now, it’s little more than an oversized chunk of frozen scrap. -->
+  <VQE_SubZeroHammer.description>Un enorme martillo de forja diseñado para dar forma a materiales a temperaturas cercanas al cero absoluto, fortaleciéndolos más allá de los límites convencionales. Ahora, no es más que un trozo de chatarra congelada de gran tamaño.</VQE_SubZeroHammer.description>
+  <!-- EN: cryptotech prototype bench -->
+  <VQE_CryptotechPrototypeBench.label>banco de prototipos de criptotecnología</VQE_CryptotechPrototypeBench.label>
+  <!-- EN: A specialized workbench used to design and iterate new crypto-tech blueprints. The trial and error carefully documented in the blueprints and prototypes is bound to speed up the work done on the cryptoforge greatly. -->
+  <VQE_CryptotechPrototypeBench.description>Un banco de trabajo especializado utilizado para diseñar e iterar nuevos planos de criptotecnología. El ensayo y error cuidadosamente documentado en los planos y prototipos seguramente acelerará enormemente el trabajo realizado en la criptoforja.</VQE_CryptotechPrototypeBench.description>
+  <!-- EN: ancient black box -->
+  <VQE_AncientBlackBox.label>caja negra antigua</VQE_AncientBlackBox.label>
+  <!-- EN: A ship&apos;s black box recorder, filled with encrypted data. Given enough time, a skilled hacker may be able to extract critical information about what transpired. -->
+  <VQE_AncientBlackBox.description>Un registrador de caja negra de una nave, lleno de datos encriptados. Con el tiempo suficiente, un hacker experto podría extraer información crítica sobre lo que ocurrió.</VQE_AncientBlackBox.description>
+  <!-- EN: VQE_StudyBlackBoxDesc -->
+  <VQE_AncientBlackBox.modExtensions.0.gizmoDesc>TODO</VQE_AncientBlackBox.modExtensions.0.gizmoDesc>
+  <!-- EN: disabled ancient black box -->
+  <VQE_AncientBlackBox_Off.label>caja negra antigua desactivada</VQE_AncientBlackBox_Off.label>
+  <!-- EN: A ship&apos;s black box recorder. Any important information has already been downloaded, and the black box is nothing but junk. -->
+  <VQE_AncientBlackBox_Off.description>Un registrador de caja negra de una nave. Toda la información importante ya ha sido descargada, y la caja negra no es más que chatarra.</VQE_AncientBlackBox_Off.description>
+  <!-- EN: frozen scanning relay -->
+  <VQE_FrozenScanningRelay.label>repetidor de escaneo congelado</VQE_FrozenScanningRelay.label>
+  <!-- EN: A long-range scanning relay with some old alerts about an important event. If one was to initiate a scan, the location of a ship crash will be revealed. Initiating the scan will generate a strong enough power signature to attract a mechanoid hive. -->
+  <VQE_FrozenScanningRelay.description>Un repetidor de escaneo de largo alcance con algunas alertas antiguas sobre un evento importante. Si se iniciara un escaneo, se revelaría la ubicación del impacto de una nave. Iniciar el escaneo generará una firma de energía lo suficientemente fuerte como para atraer a una colmena de mecanoides.</VQE_FrozenScanningRelay.description>
+  <!-- EN: VQE_InitiateScanDesc -->
+  <VQE_FrozenScanningRelay.modExtensions.0.gizmoDesc>TODO</VQE_FrozenScanningRelay.modExtensions.0.gizmoDesc>
+  <!-- EN: disabled frozen scanning relay -->
+  <VQE_FrozenScanningRelay_Off.label>repetidor de escaneo congelado desactivado</VQE_FrozenScanningRelay_Off.label>
+  <!-- EN: A long-range scanning relay. Any notifications and data has been removed, and it’s nothing but a big hunk of junk. -->
+  <VQE_FrozenScanningRelay_Off.description>Un repetidor de escaneo de largo alcance. Se han eliminado todas las notificaciones y datos, y no es más que un gran trozo de chatarra.</VQE_FrozenScanningRelay_Off.description>
+  <!-- EN: ancient wargaming table -->
+  <VQE_AncientWargamingTable.label>mesa de juegos de guerra antigua</VQE_AncientWargamingTable.label>
+  <!-- EN: An ancient, slightly rusted, sturdy table designed for strategic miniature wargames, featuring a spacious surface for terrain, armies, and battle plans. The diplomacy required by the rules trains social skill. -->
+  <VQE_AncientWargamingTable.description>Una mesa antigua, robusta y ligeramente oxidada, diseñada para juegos de guerra estratégicos con miniaturas, con una superficie espaciosa para terreno, ejércitos y planes de batalla. La diplomacia requerida por las reglas entrena la habilidad social.</VQE_AncientWargamingTable.description>
+  <!-- EN: ancient shielded turret -->
+  <VQE_AncientShieldedTurret.label>torreta blindada antigua</VQE_AncientShieldedTurret.label>
+  <!-- EN: A portable automatic turret with a ballistic shield in front of it. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can&apos;t be directly controlled, so beware of friendly fire. The ballistic shield is capable of deflecting some shots. -->
+  <VQE_AncientShieldedTurret.description>Una torreta automática portátil con un escudo balístico al frente. Requiere acero para reacondicionar su cañón tras un uso intensivo. Puede explotar al dañarse. Su rudimentaria IA no puede controlarse directamente, así que ten cuidado con el fuego amigo. El escudo balístico es capaz de desviar algunos disparos.</VQE_AncientShieldedTurret.description>
+  <!-- EN: Shots until barrel change -->
+  <VQE_AncientShieldedTurret.comps.5.fuelLabel>Disparos hasta el cambio de cañón</VQE_AncientShieldedTurret.comps.5.fuelLabel>
+  <!-- EN: Barrel durability -->
+  <VQE_AncientShieldedTurret.comps.5.fuelGizmoLabel>Durabilidad del cañón</VQE_AncientShieldedTurret.comps.5.fuelGizmoLabel>
+  <!-- EN: Needs new barrel -->
+  <VQE_AncientShieldedTurret.comps.5.outOfFuelMessage>Necesita un cañón nuevo</VQE_AncientShieldedTurret.comps.5.outOfFuelMessage>
+  <!-- EN: mini-turret bullet -->
+  <VQE_AncientShieldedTurret_Bullet.label>proyectil de minitorreta</VQE_AncientShieldedTurret_Bullet.label>
+  <!-- EN: ancient shielded turret -->
+  <VQE_AncientShieldedTurret_Gun.label>torreta blindada antigua</VQE_AncientShieldedTurret_Gun.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <VQE_AncientShieldedTurret_Gun.description>Un arma automática sencilla diseñada para ser montada en una torreta.</VQE_AncientShieldedTurret_Gun.description>
+  <!-- EN: ancient shielded turret -->
+  <VQE_AncientShieldedTurret_Gun.verbs.Verb_Shoot.label>torreta blindada antigua</VQE_AncientShieldedTurret_Gun.verbs.Verb_Shoot.label>
+  <!-- EN: ancient spacer autocannon -->
+  <VQE_AncientSpacerAutocannon.label>cañón automático espacial antiguo</VQE_AncientSpacerAutocannon.label>
+  <!-- EN: An ancient autocannon designed for ship-to-ship combat. It still appears to be functional. Its large-caliber shells do heavy damage over significant ranges. -->
+  <VQE_AncientSpacerAutocannon.description>Un antiguo cañón automático diseñado para el combate entre naves. Todavía parece estar operativo. Sus proyectiles de gran calibre causan un gran daño a distancias considerables.</VQE_AncientSpacerAutocannon.description>
+  <!-- EN: ancient spacer autocannon shell -->
+  <VQE_AncientSpacerAutocannon_Bullet.label>proyectil de cañón automático espacial antiguo</VQE_AncientSpacerAutocannon_Bullet.label>
+  <!-- EN: ancient spacer autocannon -->
+  <VQE_AncientSpacerAutocannon_Gun.label>cañón automático espacial antiguo</VQE_AncientSpacerAutocannon_Gun.label>
+  <!-- EN: todo. -->
+  <VQE_AncientSpacerAutocannon_Gun.description>Un cañón automático pesado diseñado para la defensa de naves.</VQE_AncientSpacerAutocannon_Gun.description>
+  <!-- EN: ancient spacer autocannon -->
+  <VQE_AncientSpacerAutocannon_Gun.verbs.Verb_Shoot.label>cañón automático espacial antiguo</VQE_AncientSpacerAutocannon_Gun.verbs.Verb_Shoot.label>
+  <!-- EN: ancient landmine -->
+  <VQE_AncientLandmine.label>mina terrestre antigua</VQE_AncientLandmine.label>
+  <!-- EN: An ancient, high-explosive payload connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. It’s impossible to detect it until triggered. -->
+  <VQE_AncientLandmine.description>Una antigua carga de alto explosivo conectada a un detonador que se activa al contacto o por el impacto de una bala. Dado que está oculta en el terreno circundante, no se puede colocar junto a otras trampas. Es imposible detectarla hasta que se activa.</VQE_AncientLandmine.description>
+  <!-- EN: frozen lancer -->
+  <VQE_FrozenLancer.label>lancero congelado</VQE_FrozenLancer.label>
+  <!-- EN: A frozen shell containing a lancer.\n\nLong-dormant mechanoids can become encased in ice, preserving them for years. Though inert, they remain alert, scanning for movement. Any disturbance, such as footsteps, explosions, or shifting ice, can trigger a sudden reboot, shattering their frozen shell. Nearby frozen mechanoids may awaken in unison. -->
+  <VQE_FrozenLancer.description>Un caparazón congelado que contiene un lancero.\n\nLos mecanoides que han estado inactivos durante mucho tiempo pueden quedar envueltos en hielo, preservándolos durante años. Aunque inertes, permanecen alerta, escaneando cualquier movimiento. Cualquier perturbación, como pasos, explosiones o el movimiento del hielo, puede provocar un reinicio repentino, destrozando su caparazón congelado. Los mecanoides congelados cercanos pueden despertar al unísono.</VQE_FrozenLancer.description>
+  <!-- EN: frozen centipede -->
+  <VQE_FrozenCentipede.label>ciempiés congelado</VQE_FrozenCentipede.label>
+  <!-- EN: A frozen shell containing a centipede.\n\nLong-dormant mechanoids can become encased in ice, preserving them for years. Though inert, they remain alert, scanning for movement. Any disturbance, such as footsteps, explosions, or shifting ice, can trigger a sudden reboot, shattering their frozen shell. Nearby frozen mechanoids may awaken in unison. -->
+  <VQE_FrozenCentipede.description>Un caparazón congelado que contiene un ciempiés.\n\nLos mecanoides que han estado inactivos durante mucho tiempo pueden quedar envueltos en hielo, preservándolos durante años. Aunque inertes, permanecen alerta, escaneando cualquier movimiento. Cualquier perturbación, como pasos, explosiones o el movimiento del hielo, puede provocar un reinicio repentino, destrozando su caparazón congelado. Los mecanoides congelados cercanos pueden despertar al unísono.</VQE_FrozenCentipede.description>
+  <!-- EN: frozen scyther -->
+  <VQE_FrozenScyther.label>segador congelado</VQE_FrozenScyther.label>
+  <!-- EN: A frozen shell containing a scyther.\n\nLong-dormant mechanoids can become encased in ice, preserving them for years. Though inert, they remain alert, scanning for movement. Any disturbance, such as footsteps, explosions, or shifting ice, can trigger a sudden reboot, shattering their frozen shell. Nearby frozen mechanoids may awaken in unison. -->
+  <VQE_FrozenScyther.description>Un caparazón congelado que contiene un segador.\n\nLos mecanoides que han estado inactivos durante mucho tiempo pueden quedar envueltos en hielo, preservándolos durante años. Aunque inertes, permanecen alerta, escaneando cualquier movimiento. Cualquier perturbación, como pasos, explosiones o el movimiento del hielo, puede provocar un reinicio repentino, destrozando su caparazón congelado. Los mecanoides congelados cercanos pueden despertar al unísono.</VQE_FrozenScyther.description>
+  <!-- EN: frozen ship hull -->
+  <VQE_FrozenShipHull.label>casco de nave congelado</VQE_FrozenShipHull.label>
+  <!-- EN: An impassable, indestructible ship hull wall. Capable of holding up a roof. -->
+  <VQE_FrozenShipHull.description>Una pared de casco de nave impasable e indestructible. Capaz de sostener un techo.</VQE_FrozenShipHull.description>
+  <!-- EN: fragile frozen ship hull -->
+  <VQE_FragileFrozenShipHull.label>casco de nave congelado frágil</VQE_FragileFrozenShipHull.label>
+  <!-- EN: An impassable ship hull wall. The cracks and damage from the crash allow it to be destroyed. Capable of holding up a roof. -->
+  <VQE_FragileFrozenShipHull.description>Una pared de casco de nave impasable. Las grietas y el daño del impacto permiten que sea destruida. Capaz de sostener un techo.</VQE_FragileFrozenShipHull.description>
+  <!-- EN: ancient airlock -->
+  <VQE_AncientAirlock.label>esclusa de aire antigua</VQE_AncientAirlock.label>
+  <!-- EN: A heavily reinforced airlock door. It is slow to open but very strong. The door requires walls on either side to function. -->
+  <VQE_AncientAirlock.description>Una puerta de esclusa de aire fuertemente reforzada. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_AncientAirlock.description>
+  <!-- EN: stuck ancient airlock -->
+  <VQE_JammedAncientAirlock.label>esclusa de aire antigua atascada</VQE_JammedAncientAirlock.label>
+  <!-- EN: A heavily reinforced airlock door. Due to malfunction or damage, it needs to be forced open. It is slow to open but very strong. The door requires walls on either side to function. -->
+  <VQE_JammedAncientAirlock.description>Una puerta de esclusa de aire fuertemente reforzada. Debido a un mal funcionamiento o daño, necesita ser forzada para abrirse. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_JammedAncientAirlock.description>
+  <!-- EN: Force open... -->
+  <VQE_JammedAncientAirlock.comps.0.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock.comps.0.activateLabelString>
+  <!-- EN: Choose someone to force this ancient airlock open. -->
+  <VQE_JammedAncientAirlock.comps.0.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua.</VQE_JammedAncientAirlock.comps.0.activateDescString>
+  <!-- EN: Choose who should do this -->
+  <VQE_JammedAncientAirlock.comps.0.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock.comps.0.guiLabelString>
+  <!-- EN: Force this ancient airlock open -->
+  <VQE_JammedAncientAirlock.comps.0.jobString>Forzar la apertura de esta esclusa de aire antigua</VQE_JammedAncientAirlock.comps.0.jobString>
+  <!-- EN: forced ancient airlock -->
+  <VQE_ForcedAncientAirlock.label>esclusa de aire antigua forzada</VQE_ForcedAncientAirlock.label>
+  <!-- EN: A heavily reinforced airlock door. It has been forced open and cannot be closed again. -->
+  <VQE_ForcedAncientAirlock.description>Una puerta de esclusa de aire fuertemente reforzada. Ha sido forzada para abrirse y no se puede volver a cerrar.</VQE_ForcedAncientAirlock.description>
+  <!-- EN: ancient large airlock -->
+  <VQE_AncientAirlock_Large.label>esclusa de aire antigua grande</VQE_AncientAirlock_Large.label>
+  <!-- EN: A large, heavily reinforced airlock door. It is slow to open but very strong. The door requires walls on either side to function. -->
+  <VQE_AncientAirlock_Large.description>Una puerta de esclusa de aire grande y fuertemente reforzada. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_AncientAirlock_Large.description>
+  <!-- EN: stuck ancient large airlock -->
+  <VQE_JammedAncientAirlock_Large.label>esclusa de aire antigua grande atascada</VQE_JammedAncientAirlock_Large.label>
+  <!-- EN: A large, heavily reinforced airlock door. Due to malfunction or damage, it needs to be forced open. It is slow to open but very strong. The door requires walls on either side to function. -->
+  <VQE_JammedAncientAirlock_Large.description>Una puerta de esclusa de aire grande y fuertemente reforzada. Debido a un mal funcionamiento o daño, necesita ser forzada para abrirse. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_JammedAncientAirlock_Large.description>
+  <!-- EN: Force open... -->
+  <VQE_JammedAncientAirlock_Large.comps.0.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock_Large.comps.0.activateLabelString>
+  <!-- EN: Choose someone to force this ancient large airlock open. -->
+  <VQE_JammedAncientAirlock_Large.comps.0.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua grande.</VQE_JammedAncientAirlock_Large.comps.0.activateDescString>
+  <!-- EN: Choose who should do this -->
+  <VQE_JammedAncientAirlock_Large.comps.0.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock_Large.comps.0.guiLabelString>
+  <!-- EN: Force this ancient large airlock open -->
+  <VQE_JammedAncientAirlock_Large.comps.0.jobString>Forzar la apertura de esta esclusa de aire antigua grande</VQE_JammedAncientAirlock_Large.comps.0.jobString>
+  <!-- EN: forced ancient large airlock -->
+  <VQE_ForcedAncientAirlock_Large.label>esclusa de aire antigua grande forzada</VQE_ForcedAncientAirlock_Large.label>
+  <!-- EN: A heavily reinforced large airlock door. It has been forced open and cannot be closed again. -->
+  <VQE_ForcedAncientAirlock_Large.description>Una puerta de esclusa de aire grande y fuertemente reforzada. Ha sido forzada para abrirse y no se puede volver a cerrar.</VQE_ForcedAncientAirlock_Large.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull1x1Left.label>casco de criptonave</VQE_CryptoshipHull1x1Left.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull1x1Left.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull1x1Left.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull1x1Right.label>casco de criptonave</VQE_CryptoshipHull1x1Right.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull1x1Right.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull1x1Right.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull2x1Left.label>casco de criptonave</VQE_CryptoshipHull2x1Left.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull2x1Left.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull2x1Left.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull2x1Right.label>casco de criptonave</VQE_CryptoshipHull2x1Right.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull2x1Right.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull2x1Right.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull3x1Left.label>casco de criptonave</VQE_CryptoshipHull3x1Left.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull3x1Left.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull3x1Left.description>
+  <!-- EN: cryptoship hull -->
+  <VQE_CryptoshipHull3x1Right.label>casco de criptonave</VQE_CryptoshipHull3x1Right.label>
+  <!-- EN: A fragment of the exterior hull of the cryptoforge ship. -->
+  <VQE_CryptoshipHull3x1Right.description>Un fragmento del casco exterior de la nave criptoforja.</VQE_CryptoshipHull3x1Right.description>
+  <!-- EN: small flashfreezer -->
+  <VQE_SmallFlashfreezer.label>congelador rápido pequeño</VQE_SmallFlashfreezer.label>
+  <!-- EN: A floor-mounted vent that continuously releases near-absolute-zero air. It could freeze anything given enough time. -->
+  <VQE_SmallFlashfreezer.description>Un conducto montado en el suelo que libera continuamente aire a una temperatura cercana al cero absoluto. Podría congelar cualquier cosa con el tiempo suficiente.</VQE_SmallFlashfreezer.description>
+  <!-- EN: ancient floor heater -->
+  <VQE_AncientFloorHeater.label>calentador de suelo antiguo</VQE_AncientFloorHeater.label>
+  <!-- EN: A large, outdated floor heater. If power is restored, it might still provide warmth. -->
+  <VQE_AncientFloorHeater.description>Un calentador de suelo grande y anticuado. Si se restaura la energía, aún podría proporcionar calor.</VQE_AncientFloorHeater.description>
+  <!-- EN: unfinished crypto armor -->
+  <VQE_UnfinishedCryptoArmor.label>cripto armadura sin terminar</VQE_UnfinishedCryptoArmor.label>
+  <!-- EN: An unfinished piece of metal armor. -->
+  <VQE_UnfinishedCryptoArmor.description>Una pieza de armadura de metal sin terminar.</VQE_UnfinishedCryptoArmor.description>
+  <!-- EN: crypto armor -->
+  <VQE_CryptoArmor.label>armadura criptofaga</VQE_CryptoArmor.label>
+  <!-- EN: Low-powered plasteel carapace armor draped with an unknown but impossibly durable cloth sash affixed over one shoulder, the armor emits a low electrical hum and feels smooth to the touch. The power supply itself features embedded cryptocasket technology and will use a stasis effect to slow one&apos;s bleeding. -->
+  <VQE_CryptoArmor.description>Armadura de caparazón de plastiacero de baja potencia cubierta con una banda de tela de durabilidad imposible pero desconocida fijada sobre un hombro; la armadura emite un zumbido eléctrico bajo y se siente suave al tacto. La fuente de alimentación en sí cuenta con tecnología de criptosarcófago integrada y utilizará un efecto de estasis para ralentizar el sangrado.</VQE_CryptoArmor.description>
+  <!-- EN: heavy crypto armor -->
+  <VQE_CryptoHeavyArmor.label>armadura criptofracta</VQE_CryptoHeavyArmor.label>
+  <!-- EN: Heavy, high-powered plasteel plate armor affixed with an unknown but impossibly durable cloth cowl, the armor emits a low electrical hum and feels smooth to the touch. The power supply itself features embedded cryptocasket technology and will use a stasis effect to slow ones bleeding. -->
+  <VQE_CryptoHeavyArmor.description>Armadura de placas de plastiacero pesada y de alta potencia fijada con una capucha de tela de durabilidad imposible pero desconocida; la armadura emite un zumbido eléctrico bajo y se siente suave al tacto. La fuente de alimentación en sí cuenta con tecnología de criptosarcófago integrada y utilizará un efecto de estasis para ralentizar el sangrado.</VQE_CryptoHeavyArmor.description>
+  <!-- EN: crypto helmet -->
+  <VQE_Apparel_CryptoLightHelmet.label>casco criptofago</VQE_Apparel_CryptoLightHelmet.label>
+  <!-- EN: A lower-powered helmet with an unknown but impossibly durable cloth hood. It&apos;s theorized that either a long-lost or far-advanced civilizations scout troopers would adorn this helmet before recon missions during the mechanoid wars. The helmet itself features embedded cryptocasket technology and will use a stasis effect to slow ones bleeding. -->
+  <VQE_Apparel_CryptoLightHelmet.description>Un casco de menor potencia con una capucha de tela de una durabilidad imposible pero desconocida. Se teoriza que los exploradores de civilizaciones perdidas hace mucho tiempo o muy avanzadas usarían este casco antes de las misiones de reconocimiento durante las guerras mecanoides. El casco en sí cuenta con tecnología de criptosarcófago integrada y utilizará un efecto de estasis para ralentizar el sangrado.</VQE_Apparel_CryptoLightHelmet.description>
+  <!-- EN: heavy crypto helmet -->
+  <VQE_Apparel_CryptoHeavyHelmet.label>casco criptofracto</VQE_Apparel_CryptoHeavyHelmet.label>
+  <!-- EN: A heavy, high-powered helmet complete with an embedded HUD system and diagnostics display. It&apos;s theorized that either a long-lost or far-advanced civilizations shock troopers would adorn this helmet before strike missions during the mechanoid wars. The helmet itself features embedded cryptocasket technology and will use a stasis effect to slow ones bleeding. -->
+  <VQE_Apparel_CryptoHeavyHelmet.description>Un casco pesado de alta potencia que incluye un sistema HUD integrado y una pantalla de diagnóstico. Se teoriza que los soldados de choque de civilizaciones perdidas hace mucho tiempo o muy avanzadas usarían este casco antes de las misiones de ataque durante las guerras mecanoides. El casco en sí cuenta con tecnología de criptosarcófago integrada y utilizará un efecto de estasis para ralentizar el sangrado.</VQE_Apparel_CryptoHeavyHelmet.description>
+  <!-- EN: cryptofreeze -->
+  <VQE_Cryptofreeze.label>criptocongelación</VQE_Cryptofreeze.label>
+  <!-- EN: cryptospark -->
+  <VQE_CryptoSpark.label>criptochispa</VQE_CryptoSpark.label>
+  <!-- EN: unfinished crypto weapon -->
+  <VQE_UnfinishedCryptoWeapon.label>arma cripto sin terminar</VQE_UnfinishedCryptoWeapon.label>
+  <!-- EN: An unfinished crypto weapon. -->
+  <VQE_UnfinishedCryptoWeapon.description>Un arma cripto sin terminar.</VQE_UnfinishedCryptoWeapon.description>
+  <!-- EN: cryptoaxe -->
+  <VQE_MeleeWeapon_Cryptoaxe.label>criptohacha</VQE_MeleeWeapon_Cryptoaxe.label>
+  <!-- EN: A heavy, high-tech axe with a cryogenic-coated edge that delivers crushing strikes. On impact, it inflicts deep frostburns, flash-freezing flesh and lacing wounds with cryptofreeze, slowing movement and dealing substantial hypothermic damage over time. -->
+  <VQE_MeleeWeapon_Cryptoaxe.description>Un hacha pesada de alta tecnología con un filo recubierto criogénicamente que asesta golpes demoledores. Al impactar, inflige quemaduras por frío profundas, congelando instantáneamente la carne y cubriendo las heridas con criptocongelación, lo que ralentiza el movimiento y causa un daño hipotérmico sustancial con el tiempo.</VQE_MeleeWeapon_Cryptoaxe.description>
+  <!-- EN: Cryptoaxe Customization -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.customizationTitle>Personalización de criptohacha</VQE_MeleeWeapon_Cryptoaxe.comps.5.customizationTitle>
+  <!-- EN: handle -->
+  <VQE_MeleeWeapon_Cryptoaxe.tools.0.label>mango</VQE_MeleeWeapon_Cryptoaxe.tools.0.label>
+  <!-- EN: edge -->
+  <VQE_MeleeWeapon_Cryptoaxe.tools.1.label>filo</VQE_MeleeWeapon_Cryptoaxe.tools.1.label>
+  <!-- EN: Handle -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.name>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.name>
+  <!-- EN: Blade -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.name>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.name>
+  <!-- EN: Shoulder -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.name>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.name>
+  <!-- EN: Drottulgrip -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.0.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.0.texName>
+  <!-- EN: Eikthrymr -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.1.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.1.texName>
+  <!-- EN: Eldvidr -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.2.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.2.texName>
+  <!-- EN: Fenrisvidr -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.3.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.3.texName>
+  <!-- EN: Hrafnkraki -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.4.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.4.texName>
+  <!-- EN: Ormstefna -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.5.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.5.texName>
+  <!-- EN: Tanngnystr -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.6.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.6.texName>
+  <!-- EN: Blodleiptr -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.0.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.0.texName>
+  <!-- EN: Dreyrugfang -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.1.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.1.texName>
+  <!-- EN: Hrafnsbit -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.2.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.2.texName>
+  <!-- EN: Jotunfang -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.3.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.3.texName>
+  <!-- EN: Mjodhogg -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.4.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.4.texName>
+  <!-- EN: Skelfir -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.5.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.5.texName>
+  <!-- EN: Svalbrod -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.6.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.6.texName>
+  <!-- EN: Brimskel -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.0.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.0.texName>
+  <!-- EN: Gjallarhorn -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.1.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.1.texName>
+  <!-- EN: Jarnfesti -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.2.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.2.texName>
+  <!-- EN: Nidhuggnar -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.3.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.3.texName>
+  <!-- EN: Styrkrbryggja -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.4.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.4.texName>
+  <!-- EN: Sverdmondull -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.5.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.5.texName>
+  <!-- EN: Vebond -->
+  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.6.texName>TODO</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.6.texName>
+  <!-- EN: cryptobolter -->
+  <VQE_Weapon_Cryptobolter.label>criptoballesta</VQE_Weapon_Cryptobolter.label>
+  <!-- EN: A high-tech crossbow rifle that fires cryogenic-coated bolts with devastating impact. On penetration, the bolts inflict deep frostburns, flash-freezing flesh and lacing wounds with cryptofreeze, drastically slowing movement and causing severe hypothermic damage over time. -->
+  <VQE_Weapon_Cryptobolter.description>Un rifle de ballesta de alta tecnología que dispara virotes recubiertos criogénicamente con un impacto devastador. Al penetrar, los virotes infligen quemaduras por frío profundas, congelando instantáneamente la carne y cubriendo las heridas con criptocongelación, lo que ralentiza drásticamente el movimiento y causa un daño hipotérmico severo con el tiempo.</VQE_Weapon_Cryptobolter.description>
+  <!-- EN: Cryptobolter Customization -->
+  <VQE_Weapon_Cryptobolter.comps.6.customizationTitle>Personalización de criptoballesta</VQE_Weapon_Cryptobolter.comps.6.customizationTitle>
+  <!-- EN: stock -->
+  <VQE_Weapon_Cryptobolter.tools.0.label>culata</VQE_Weapon_Cryptobolter.tools.0.label>
+  <!-- EN: barrel -->
+  <VQE_Weapon_Cryptobolter.tools.1.label>cañón</VQE_Weapon_Cryptobolter.tools.1.label>
+  <!-- EN: barrel -->
+  <VQE_Weapon_Cryptobolter.tools.2.label>cañón</VQE_Weapon_Cryptobolter.tools.2.label>
+  <!-- EN: cryptobolter -->
+  <VQE_Weapon_Cryptobolter.verbs.Verb_Shoot.label>criptoballesta</VQE_Weapon_Cryptobolter.verbs.Verb_Shoot.label>
+  <!-- EN: Bow -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.name>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.name>
+  <!-- EN: Grip -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.name>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.name>
+  <!-- EN: Rail -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.name>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.name>
+  <!-- EN: Blodstreng -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.0.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.0.texName>
+  <!-- EN: Fenrisbogi -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.1.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.1.texName>
+  <!-- EN: Gjallarstrik -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.2.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.2.texName>
+  <!-- EN: Jotunstreng -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.3.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.3.texName>
+  <!-- EN: Nidhoggsbue -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.4.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.4.texName>
+  <!-- EN: Sleipnirband -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.5.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.5.texName>
+  <!-- EN: Stormgeir -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.6.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.6.texName>
+  <!-- EN: Dreyrfang -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.0.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.0.texName>
+  <!-- EN: Hrafngrip -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.1.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.1.texName>
+  <!-- EN: Jarnklo -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.2.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.2.texName>
+  <!-- EN: Mjolngrip -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.3.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.3.texName>
+  <!-- EN: Sigrhald -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.4.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.4.texName>
+  <!-- EN: Ulfhand -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.5.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.5.texName>
+  <!-- EN: Vidargrep -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.6.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.6.texName>
+  <!-- EN: Bifrostlin -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.0.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.0.texName>
+  <!-- EN: Drakkensleif -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.1.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.1.texName>
+  <!-- EN: Gungnarlaup -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.2.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.2.texName>
+  <!-- EN: Hafgudstigur -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.3.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.3.texName>
+  <!-- EN: Naglfarskena -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.4.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.4.texName>
+  <!-- EN: Skotarveg -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.5.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.5.texName>
+  <!-- EN: Ullrsstigur -->
+  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.6.texName>TODO</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.6.texName>
+  <!-- EN: cryptobolter shot -->
+  <VQE_Bullet_Cryptobolter.label>proyectil de criptoballesta</VQE_Bullet_Cryptobolter.label>
+  <!-- EN: ice crawler -->
+  <VQE_IceCrawler.label>rastreador helado</VQE_IceCrawler.label>
+  <!-- EN: A medium-sized bioengineered insectoid adapted for extreme cold. In frigid temperatures, razor-sharp blades emerge from its limbs, turning it into a swift and deadly predator. However, when exposed to warmth, the blades retract, and the creature becomes sluggish, its movements slow and cumbersome. Highly dangerous in icy environments but far less threatening when overheated. -->
+  <VQE_IceCrawler.description>Un insectoide de tamaño mediano diseñado biológicamente y adaptado al frío extremo. En temperaturas gélidas, de sus extremidades brotan cuchillas afiladas como navajas, convirtiéndolo en un depredador rápido y letal. Sin embargo, cuando se expone al calor, las cuchillas se retraen y la criatura se vuelve lenta, con movimientos torpes y pesados. Altamente peligroso en entornos helados, pero mucho menos amenazante cuando se sobrecalienta.</VQE_IceCrawler.description>
+  <!-- EN: head claw -->
+  <VQE_IceCrawler.tools.0.label>garra de la cabeza</VQE_IceCrawler.tools.0.label>
+  <!-- EN: head -->
+  <VQE_IceCrawler.tools.1.label>cabeza</VQE_IceCrawler.tools.1.label>
+  <!-- EN: megamidge -->
+  <VQE_Megamidge.label>megamosquito</VQE_Megamidge.label>
+  <!-- EN: Not actually a midge, the megamidge is a genetically-engineered giant insectoid adapted for extreme cold. In freezing temperatures, deadly cryogenic blades extend from its limbs, allowing it to deliver devastating slashes that inflict deep wounds and crippling crypto slowdown. However, when exposed to warmth, its blades retract, and it becomes sluggish and far less dangerous. Agile and lethal in the cold, but vulnerable in heat. -->
+  <VQE_Megamidge.description>No es realmente un mosquito; el megamosquito es un insectoide gigante diseñado genéticamente y adaptado al frío extremo. En temperaturas de congelación, de sus extremidades se extienden cuchillas criogénicas letales, lo que le permite asestar tajos devastadores que infligen heridas profundas y una incapacitante ralentización cripto. Sin embargo, cuando se expone al calor, sus cuchillas se retraen y se vuelve lento y mucho menos peligroso. Ágil y letal en el frío, pero vulnerable al calor.</VQE_Megamidge.description>
+  <!-- EN: head -->
+  <VQE_Megamidge.tools.0.label>cabeza</VQE_Megamidge.tools.0.label>
+</LanguageData>

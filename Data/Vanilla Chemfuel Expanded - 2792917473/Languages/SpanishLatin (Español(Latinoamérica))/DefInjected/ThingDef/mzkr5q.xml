@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: chemfuel pipe -->
+  <VCHE_ChemfuelPipe.label>tubería de quimbustible</VCHE_ChemfuelPipe.label>
+  <!-- EN: Steel pipes designed to transport usable chemfuel from deepchem refineries to chemfuel tanks for storage or to chemfuel-consuming structures for automatic refilling. -->
+  <VCHE_ChemfuelPipe.description>Tuberías de acero diseñadas para transportar quimbustible utilizable desde las refinerías de quimiofango a los tanques de quimbustible para su almacenamiento o a estructuras que consumen quimbustible para su reabastecimiento automático.</VCHE_ChemfuelPipe.description>
+  <!-- EN: hidden chemfuel pipe -->
+  <VCHE_UndergroundChemfuelPipe.label>tubería de quimbustible oculta</VCHE_UndergroundChemfuelPipe.label>
+  <!-- EN: Hidden steel pipes designed to transport usable chemfuel from deepchem refineries to chemfuel tanks for storage or to chemfuel-consuming structures for automatic refilling. -->
+  <VCHE_UndergroundChemfuelPipe.description>Tuberías de acero ocultas diseñadas para transportar quimbustible utilizable desde las refinerías de quimiofango a los tanques de quimbustible para su almacenamiento o a estructuras que consumen quimbustible para su reabastecimiento automático.</VCHE_UndergroundChemfuelPipe.description>
+  <!-- EN: chemfuel valve -->
+  <VCHE_ChemfuelValve.label>válvula de quimbustible</VCHE_ChemfuelValve.label>
+  <!-- EN: Switches chemfuel flow on/off. -->
+  <VCHE_ChemfuelValve.description>Abre o cierra el flujo de quimbustible.</VCHE_ChemfuelValve.description>
+  <!-- EN: chemfuel tank -->
+  <PS_ChemfuelTank.label>tanque de quimbustible</PS_ChemfuelTank.label>
+  <!-- EN: An industrial liquid storage tank meant for storing chemfuel delivered via chemfuel pipe network. Tanks can be designated to be siphoned for usable chemfuel as needed.  If damaged even lightly the escaping fumes will very swiftly create a gaseous fireball, the size of the resulting explosion will depend on the amount stored within. -->
+  <PS_ChemfuelTank.description>Un tanque de almacenamiento de líquido industrial destinado a almacenar quimbustible entregado a través de una red de tuberías. Los tanques pueden designarse para ser sifonados para obtener quimbustible utilizable según sea necesario. Si se daña, incluso levemente, los vapores que escapan crearán muy rápidamente una bola de fuego gaseosa; el tamaño de la explosión resultante dependerá de la cantidad almacenada en su interior.</PS_ChemfuelTank.description>
+  <!-- EN: chemfuel tap -->
+  <VCHE_ChemfuelTap.label>grifo de quimbustible</VCHE_ChemfuelTap.label>
+  <!-- EN: A hopper-like storage basin meant to hold dispensed chemfuel from tanks periodically for use later. -->
+  <VCHE_ChemfuelTap.description>Una cuenca de almacenamiento tipo tolva destinada a contener periódicamente el quimbustible dispensado de los tanques para su uso posterior.</VCHE_ChemfuelTap.description>
+  <!-- EN: chemfuel drain -->
+  <VCHE_ChemfuelDrain.label>drenaje de quimbustible</VCHE_ChemfuelDrain.label>
+  <!-- EN: A hopper-like storage basin meant to input chemfuel into the network, filling up connected tanks. -->
+  <VCHE_ChemfuelDrain.description>Una cuenca de almacenamiento tipo tolva destinada a introducir quimbustible en la red, llenando los tanques conectados.</VCHE_ChemfuelDrain.description>
+  <!-- EN: deepchem pipe -->
+  <VCHE_DeepchemPipe.label>tubería de quimiofango</VCHE_DeepchemPipe.label>
+  <!-- EN: Heavy steel pipes for transporting the sludge known as deepchem from pumpjacks to refineries or deepchem tanks for storage. -->
+  <VCHE_DeepchemPipe.description>Tuberías de acero pesado para transportar el lodo conocido como quimiofango desde las bombas de varilla hasta las refinerías o tanques de quimiofango para su almacenamiento.</VCHE_DeepchemPipe.description>
+  <!-- EN: hidden deepchem pipe -->
+  <VCHE_UndergroundDeepchemPipe.label>tubería de quimiofango oculta</VCHE_UndergroundDeepchemPipe.label>
+  <!-- EN: Hidden heavy steel pipes for transporting the sludge known as deepchem from pumpjacks to refineries or deepchem tanks for storage. -->
+  <VCHE_UndergroundDeepchemPipe.description>Tuberías de acero pesado ocultas para transportar el lodo conocido como quimiofango desde las bombas de varilla hasta las refinerías o tanques de quimiofango para su almacenamiento.</VCHE_UndergroundDeepchemPipe.description>
+  <!-- EN: deepchem valve -->
+  <VCHE_DeepchemValve.label>válvula de quimiofango</VCHE_DeepchemValve.label>
+  <!-- EN: Switches deepchem flow on/off. -->
+  <VCHE_DeepchemValve.description>Abre o cierra el flujo de quimiofango.</VCHE_DeepchemValve.description>
+  <!-- EN: deepchem tank -->
+  <PS_DeepchemTank.label>tanque de quimiofango</PS_DeepchemTank.label>
+  <!-- EN: A heavy industrial sludge storage tank meant for storing deepchem delivered via deepchem pipe network. Tanks can be designated to be siphoned as needed.  If damaged even lightly the escaping fumes will very swiftly create a gaseous fireball, the size of the resulting explosion will depend on the amount stored within. -->
+  <PS_DeepchemTank.description>Un tanque de almacenamiento de lodo industrial pesado destinado a almacenar quimiofango entregado a través de una red de tuberías. Los tanques pueden designarse para ser sifonados según sea necesario. Si se daña, incluso levemente, los vapores que escapan crearán muy rápidamente una bola de fuego gaseosa; el tamaño de la explosión resultante dependerá de la cantidad almacenada en su interior.</PS_DeepchemTank.description>
+  <!-- EN: deepchem refinery -->
+  <PS_DeepchemRefinery.label>refinería de quimiofango</PS_DeepchemRefinery.label>
+  <!-- EN: A complex machine capable of refining deepchem delivered via deepchem pipes into usable liquid chemfuel. If no output is detected fuel will automatically be dispensed into cans. If output is connected to a tank or tap via chemfuel pipes the finished product will be transported as such for storage or dispensing. -->
+  <PS_DeepchemRefinery.description>Una máquina compleja capaz de refinar el quimiofango entregado a través de tuberías en quimbustible líquido utilizable. Si no se detecta una salida, el combustible se dispensará automáticamente en bidones. Si la salida está conectada a un tanque o grifo mediante tuberías de quimbustible, el producto terminado se transportará como tal para su almacenamiento o dispensación.</PS_DeepchemRefinery.description>
+  <!-- EN: deepchem pumpjack -->
+  <VCHE_DeepchemPumpjack.label>bomba de varilla de quimiofango</VCHE_DeepchemPumpjack.label>
+  <!-- EN: A deep-crust drilling rig for extracting deepchem from deep under the surface. Use a ground penetrating scanner to detect deposits. Deepchem can then be further refined into usable chemfuel. Can be repositioned freely. -->
+  <VCHE_DeepchemPumpjack.description>Una plataforma de perforación de corteza profunda para extraer quimiofango de las profundidades de la superficie. Usa un escáner de penetración terrestre para detectar depósitos. El quimiofango puede luego refinarse más en quimbustible utilizable. Se puede reposicionar libremente.</VCHE_DeepchemPumpjack.description>
+  <!-- EN: deepchem tap -->
+  <VCHE_DeepchemTap.label>grifo de quimiofango</VCHE_DeepchemTap.label>
+  <!-- EN: A hopper-like storage basin meant to hold dispensed deepchem from tanks periodically for use later. -->
+  <VCHE_DeepchemTap.description>Una cuenca de almacenamiento tipo tolva destinada a contener periódicamente el quimiofango dispensado de los tanques para su uso posterior.</VCHE_DeepchemTap.description>
+  <!-- EN: deepchem drain -->
+  <VCHE_DeepchemDrain.label>drenaje de quimiofango</VCHE_DeepchemDrain.label>
+  <!-- EN: A hopper-like storage basin meant to input deepchem into the network, filling up connected tanks. -->
+  <VCHE_DeepchemDrain.description>Una cuenca de almacenamiento tipo tolva destinada a introducir quimiofango en la red, llenando los tanques conectados.</VCHE_DeepchemDrain.description>
+  <!-- EN: deepchem -->
+  <VCHE_Deepchem.label>quimiofango</VCHE_Deepchem.label>
+  <!-- EN: A volatile liquid chemical sludge, extracted from deep underground pockets. It’s too thick to be used to fuel engines and rockets, or to transmute into propellant for projectiles, but it can be refined down into standard chemfuel. -->
+  <VCHE_Deepchem.description>Un lodo químico líquido volátil, extraído de bolsas subterráneas profundas. Es demasiado espeso para ser usado como combustible para motores y cohetes, o para transmutarse en propulsor para proyectiles, pero puede ser refinado en quimbustible estándar.</VCHE_Deepchem.description>
+</LanguageData>

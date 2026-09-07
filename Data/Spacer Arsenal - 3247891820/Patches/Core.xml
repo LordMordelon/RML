@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="ChargedShot"]/label</xpath>
+    <value>
+      <!-- EN: Spacer war solutions -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="ChargedShot"]/description</xpath>
+    <value>
+      <!-- EN: Build an arsenal of advanced spacer weapons used throughout the galaxy by militias, navies and ultratech starforces. Note that these also require advanced components. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+</Patch>
