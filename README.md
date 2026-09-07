@@ -9,7 +9,7 @@ Arquitectura basada en [RimWorld Mod Korean (RMK)](https://github.com/RimWorldKo
 
 ---
 
-### 👉 ¿Quieres colaborar traduciendo? Lee **[TRADUCIR.md](TRADUCIR.md)**
+### 👉 ¿Quieres colaborar traduciendo? Lee **[TRADUCIR.md](TRADUCIR.md)** y el **[GLOSARIO](GLOSARIO.md)**
 
 Esa guía está escrita para alguien que no sabe programar: no necesita git, ni consola, ni .NET.
 Lo que sigue en este README es la documentación del **mantenedor** del proyecto.

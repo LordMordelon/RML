@@ -3,6 +3,11 @@
 Guía para colaborar traduciendo, **sin saber programar**. No hace falta git, ni consola, ni
 instalar nada raro. Si sabes usar Excel, puedes hacer esto.
 
+> 📖 **Antes de traducir, mira el [GLOSARIO](GLOSARIO.md).** Dice cómo se traduce cada término del
+> juego siguiendo la traducción oficial de RimWorld: *mechanitor* es «mecanizador», *chemfuel* es
+> «quimbustible», *bandwidth* es «banda ancha». Es lo que hace que dos personas distintas traduzcan
+> igual.
+
 ---
 
 ## 1. De qué se trata
