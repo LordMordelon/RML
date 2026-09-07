@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="Swan"]/description</xpath>
           <value>
             <!-- EN: One of the largest birds capable of flying, swans are often kept by royalty due to the beautiful nests of flowers they build for themselves. These nests have an extremely high beauty, but a swan will never build more than one.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Swans create their own sleeping spots that have extremely high beauty. These nests are auto-asigned to them as sleeping spots on creation. -->
-            <description>TODO</description>
+            <description>Uno de los pájaros más grandes capaces de volar, los cisnes suelen ser criados por la realeza debido a los hermosos nidos de flores que construyen para sí mismos. Estos nidos tienen una belleza extremadamente alta, pero un cisne nunca construirá más de uno.\n\n&lt;color=#E5E54C&gt;Efecto de juego:&lt;/color&gt; Los cisnes crean sus propios lugares para dormir que tienen una belleza extremadamente alta. Estos nidos se les asignan automáticamente como lugares para dormir al ser creados.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ThingDef[defName="Peacock"]/description</xpath>
           <value>
             <!-- EN: Beautiful, majestic royal birds genetically altered to be able to bestow psychic energy onto people they nuzzle.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Peacocks will periodically nuzzle your colonists. This increases Psychic Sensitivity of the nuzzled person by 25% for 12 hours. This stacks up to 8 times, resulting in +200% Psychic sensitivity if nuzzled by 8 peacocks. -->
-            <description>TODO</description>
+            <description>Hermosas y majestuosas aves reales modificadas genéticamente para poder otorgar energía psíquica a las personas que acarician.\n\n&lt;color=#E5E54C&gt;Efecto de juego:&lt;/color&gt; Los pavos reales acariciarán periódicamente a tus colonos. Esto aumenta la sensibilidad psíquica de la persona acariciada en un 25% durante 12 horas. Se acumula hasta 8 veces, resultando en +200% de sensibilidad psíquica si es acariciado por 8 pavos reales.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ThingDef[defName="Quail"]/description</xpath>
           <value>
             <!-- EN: Royal poultry bred specifically for human consumption, quail meat is one of a kind, with a taste so succulent it turns any meal into a lavish meal.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Their extremely tasty meat instantly turns any simple or fine meal it’s used in into a lavish meal. It will also turn grills and bakes from Vanilla Cooking expanded into their lavish variations. -->
-            <description>TODO</description>
+            <description>Aves de corral reales criadas específicamente para el consumo humano. La carne de codorniz es única en su tipo, con un sabor tan suculento que convierte cualquier comida en una comida lujosa.\n\n&lt;color=#E5E54C&gt;Efecto de juego:&lt;/color&gt; Su carne extremadamente sabrosa convierte instantáneamente cualquier comida simple o refinada en la que se use en una comida lujosa. También convertirá las parrilladas y horneados de Vanilla Cooking Expanded en sus variantes lujosas.</description>
           </value>
         </li>
       </operations>
