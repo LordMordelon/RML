@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -16,7 +16,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VAE_PlantsVsZombies"]/label</xpath>
             <value>
               <!-- EN: Plants Vs Zombies -->
-              <label>TODO</label>
+              <label>Plantas Vs Zombis</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -24,7 +24,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VAE_PlantsVsZombies"]/description</xpath>
             <value>
               <!-- EN: Have a clawer dryad kill a shambler swarmer -->
-              <description>TODO</description>
+              <description>Haz que una dríada garra mate a un enjambrador trastabillante</description>
             </value>
           </li>
         </operations>
