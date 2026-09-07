@@ -39,6 +39,11 @@ Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extra
 `LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo
 cuando ese mod está presente, mediante el atributo `IfModActive`.
 
+El `UNUSED.xml` guarda las traducciones cuyo nodo desapareció del mod, fuera de `Languages/`
+para que el juego no intente cargar claves muertas. No hay que tocarlo: el extractor lo vuelve
+a leer en cada actualización, así que si el mod devuelve el nodo a su lugar la traducción se
+recupera sola.
+
 Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
 cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada.
 
