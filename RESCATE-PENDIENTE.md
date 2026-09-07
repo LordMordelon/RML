@@ -1,72 +1,60 @@
-# Traducciones que quedaron sin rescatar
+# El rescate de traducciones huérfanas
 
 Cuando un mod se actualiza, el extractor cruza la extracción nueva con lo que ya estaba
-traducido. Cruza primero por identidad —qué def, qué campo— y, para lo que queda sin
-traducir, hace un segundo pase que busca entre las traducciones huérfanas una con **el
-mismo texto en inglés y el mismo campo**. Eso recuperó **7644 traducciones** en la última
-corrida.
+traducido. Cruza **por identidad**: qué def, qué campo. Si el mod movió un nodo de lugar,
+hay un segundo pase que lo busca **por el texto original en inglés y el mismo campo**.
 
-Este documento anota lo que ese segundo pase **decidió no tocar**: casos donde el inglés
-coincide pero el campo no.
+Entre las dos cosas se recuperaron 7644 traducciones en la corrida de los 246 mods.
 
-## Por qué existe la guarda del campo
+## Lo que ese segundo pase no toca, y por qué
 
-Sin ella, un `label` sin traducir se llevaría la traducción huérfana de un `labelFemale`.
-En inglés los dos dicen `hunter`; en español uno es «cazador» y el otro «cazadora». La
-traducción quedaría mal puesta y **nadie la volvería a mirar**, porque solo se revisa lo
-que está marcado como `TODO`.
+Exige que coincida el campo. Sin esa guarda, un `label` sin traducir se llevaría la
+traducción huérfana de un `labelFemale`: en inglés los dos dicen `hunter`, en español uno
+es «cazador» y el otro «cazadora». Quedaría mal puesta y **nadie la revisaría**, porque
+solo se mira lo que dice `TODO`.
 
-Ese es el criterio: equivocarse en silencio es peor que pedir la traducción de nuevo.
+La guarda se queda. Equivocarse en silencio es peor que pedir la traducción de nuevo.
 
-## Lo que cuesta
+## El caso que la guarda deja afuera
 
-**626 entradas en 20 mods** se recuperarían si se relajara la guarda. Están muy
-concentradas: 480 son de un solo mod.
-
-| Mod | Rescatables sin la guarda | Ambiguas | Total sin traducir |
-|---|---:|---:|---:|
-| [FSF] FrozenSnowFox Tweaks - 2893432492 | 480 | 0 | 605 |
-| Ancient hydroponic farm facilities - 3075384838 | 32 | 6 | 46 |
-| [FSF] Advanced Bionics Expansion - 2006925330 | 22 | 0 | 67 |
-| Vanilla Factions Expanded - Deserters - 3025493377 | 18 | 0 | 57 |
-| Vanilla Quests Expanded - The Generator - 3411401573 | 18 | 0 | 27 |
-| Vanilla Factions Expanded - Empire - 2938820380 | 14 | 0 | 35 |
-| Zoology Realistic Animal Overhaul - 3679396881 | 8 | 9 | 336 |
-| Vanilla Factions Expanded - Insectoids 2 - 3309003431 | 6 | 0 | 16 |
-| The Dead Man's Switch - AncientCorps - 3469398006 | 4 | 0 | 60 |
-| The Dead Man's Switch - 3121742525 | 3 | 0 | 143 |
-| Altered Carbon 2 ReSleeved - 2196278117 | 3 | 0 | 64 |
-| Vanilla Animals Expanded - 2871933948 | 2 | 5 | 119 |
-| Vanilla Furniture Expanded - Props and Decor - 2102143149 | 2 | 0 | 1330 |
-| Alpha Books - 3403180654 | 2 | 0 | 71 |
-| Vanilla Psycasts Expanded - 2842502659 | 2 | 0 | 38 |
-| Vanilla Races Expanded - Android - 2975771801 | 2 | 0 | 21 |
-| Ushankas Glittertech Expansion - 3522676478 | 2 | 0 | 12 |
-| Vanilla Races Expanded - Phytokin - 2927323805 | 2 | 0 | 7 |
-| Mechanitor Orbital Platform - 3523146525 | 2 | 0 | 4 |
-| Trader ships - 2046222331 | 2 | 0 | 3 |
-La columna **Ambiguas** son casos donde el mismo inglés tiene dos traducciones distintas
-entre las huérfanas. Esos no se rescatan ni relajando la guarda: no hay forma de saber cuál
-corresponde.
-
-## El caso grande
-
-`[FSF] FrozenSnowFox Tweaks` aporta 480 de las 626. El mod **migró sus textos de
-`DefInjected` posicional a `Keyed` con nombres propios**:
+Cuando un mod **renombra sus claves**, el campo cambia entero y la guarda bloquea todo,
+aunque el inglés sea idéntico. Pasó dos veces:
 
 ```
-antes:  XmlExtensions.SettingsMenuDef / FrozenSnowFoxTweaksSettings.settings.1.text
-ahora:  Keyed / FSFTweaksModWarning          <- mismo inglés exacto
+[FSF] FrozenSnowFox Tweaks    DefInjected posicional  ->  Keyed con nombres propios
+    XmlExtensions.SettingsMenuDef / FrozenSnowFoxTweaksSettings.settings.1.text
+    Keyed / FSFTweaksModWarning
+
+[DR] Auto Ability             claves en chino  ->  claves en inglés
+    粘贴  ->  Paste
+    复制  ->  Copy
 ```
 
-El campo pasó de `text` a `FSFTweaksModWarning`, así que la guarda lo bloqueó. Es una
-migración legítima y frecuente, y es el caso que más fuerte argumenta a favor de relajar.
+En esos casos el mod no cambió el texto: cambió cómo lo nombra.
 
-## Si algún día se relaja
+## Qué se hizo
 
-La forma segura son dos niveles: primero con la guarda, y para lo que quede, sin ella pero
-solo cuando el inglés sea único entre **todas** las huérfanas del mod. El caso peligroso
-—`label` contra `labelFemale`— es justamente el ambiguo, así que seguiría bloqueado.
+Un rescate **manual**, de una sola vez, cruzando por el texto en inglés e ignorando el
+campo: **635 traducciones en 18 mods**. No se relajó la regla general.
 
-Lo rescatado por el segundo nivel habría que listarlo aparte para revisarlo a ojo, porque
-se decidiría por contenido y no por identidad.
+Cada reemplazo se hizo con dos condiciones:
+
+- El inglés tiene **una sola** traducción posible entre las huérfanas. Con dos distintas no
+  se toca nada: quedaron 11 así.
+- La clave aparece **una sola vez** en su archivo, para no reemplazar la ocurrencia
+  equivocada.
+
+Los tres mods con más recuperado: FrozenSnowFox Tweaks (480), Auto Ability (34) y Ancient
+hydroponic farm facilities (32).
+
+## Si vuelve a pasar
+
+El síntoma es un mod que aparece con muchos `TODO` y un `UNUSED.xml` grande a la vez, con
+los mismos textos en inglés de los dos lados. Ahí conviene revisar si renombró sus claves
+antes de traducir nada de nuevo.
+
+La alternativa de fondo sería un segundo nivel en el rescate automático: primero con la
+guarda del campo y, para lo que quede, sin ella pero solo si el inglés es único entre todas
+las huérfanas. El caso peligroso —`label` contra `labelFemale`— es justamente el ambiguo,
+así que seguiría bloqueado. Se decidió no hacerlo: lo rescatado por contenido conviene
+mirarlo, y a mano queda revisado.
