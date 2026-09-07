@@ -6,6 +6,7 @@ Cada traducción se aplica únicamente si el mod correspondiente está activo, a
 el mod se puede tener puesto siempre sin importar qué mods se usen en cada partida.
 
 Arquitectura basada en [RimWorld Mod Korean (RMK)](https://github.com/RimWorldKorea/RMK).
+Qué cambia respecto de ese original: **[CAMBIOS.md](CAMBIOS.md)**.
 
 ---
 
@@ -20,19 +21,26 @@ Lo que sigue en este README es la documentación del **mantenedor** del proyecto
 
 ```
 About/About.xml                 metadatos del mod y supportedVersions
-Data/<Nombre del mod> - <ID>/   una carpeta por mod traducido
+Data/!<Autor>/                  autores con 4 o más mods; el ! los fija arriba
+  <Nombre del mod> - <ID>/
+Data/<Nombre del mod> - <ID>/   los demás, sueltos
   Languages/SpanishLatin (Español(Latinoamérica))/
     Keyed/ DefInjected/ Patches/
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
+  UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
 LoadFolders.xml                 GENERADO — no editar a mano
 ModList.tsv                     GENERADO — índice de qué mods cubre RML
 actualizar.cmd                  regenera los dos anteriores
+publicar.cmd                    arma la copia limpia para el Workshop
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 ```
 
 `LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo
 cuando ese mod está presente, mediante el atributo `IfModActive`.
+
+Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
+cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada.
 
 **Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
 una traducción rápida, y una GitHub Action lo rehace al hacer push. `actualizar.cmd` es
@@ -112,6 +120,23 @@ estable, así que codificarlos sólo perdería esa información.
 
 Enlazar o copiar este repositorio dentro de la carpeta `Mods/` de RimWorld,
 activarlo **último** en la lista de mods y elegir el idioma `SpanishLatin`.
+
+Activarlo último no es un detalle: es lo que hace que sus traducciones le ganen a
+las que traiga cualquier otro mod.
+
+## Publicar
+
+- **GitHub Releases** — etiquetar una versión (`git tag v1.0 && git push --tags`) y la
+  Action arma el `.zip` con solo lo que el juego necesita.
+- **Steam Workshop** — doble clic en **`publicar.cmd`**. Deja en `salida/` una copia
+  limpia del mod, sin `Source/` ni documentación, para copiar a `Mods/` y subirla desde
+  el juego.
+
+Los dos usan la misma lista de qué entra: `About/`, `Data/`, `LoadFolders.xml`,
+`ModList.tsv` y `LICENSE`. Y los dos comprueban que la copia tenga los mismos archivos
+que el original antes de publicar nada.
+
+Falta un `Preview.png` en `About/` para que el Workshop tenga imagen de portada.
 
 ## Licencia
 

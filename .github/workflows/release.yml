@@ -1,0 +1,68 @@
+name: Publicar release
+
+# Arma el .zip del mod cuando se etiqueta una versión. El zip lleva solo lo que
+# RimWorld necesita —About, Data, LoadFolders.xml, ModList.tsv y LICENSE—: nada de
+# Source/, .github/ ni documentación.
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Armar la carpeta del mod
+        run: |
+          # Lo mismo que copia el script local: si esta lista cambia, cambiar las dos.
+          mkdir -p "salida/RimWorld Mod Latino"
+          cp -r About Data LoadFolders.xml ModList.tsv LICENSE "salida/RimWorld Mod Latino/"
+
+          echo "Contenido:"
+          du -sh "salida/RimWorld Mod Latino"
+          find "salida/RimWorld Mod Latino" -maxdepth 1
+
+      - name: Comprobar que no se colo nada
+        run: |
+          cd "salida/RimWorld Mod Latino"
+          for prohibido in Source .github actualizar.cmd LoadFolders.Build.Example.yaml README.md; do
+            if [ -e "$prohibido" ]; then
+              echo "El zip no puede llevar $prohibido"
+              exit 1
+            fi
+          done
+          # Sin LoadFolders.xml el mod no carga ninguna traduccion.
+          test -s LoadFolders.xml || { echo "falta LoadFolders.xml"; exit 1; }
+
+          # Que no falte ningun archivo. El script local hacia esta copia con xcopy y
+          # perdia 2666 de 3527 archivos en silencio, por el limite de longitud de ruta.
+          origen=$(find "$GITHUB_WORKSPACE/Data" -type f | wc -l)
+          copia=$(find Data -type f | wc -l)
+          if [ "$origen" != "$copia" ]; then
+            echo "copia incompleta: $copia de $origen archivos"
+            exit 1
+          fi
+
+          echo "OK: $copia archivos, $(grep -c IfModActive LoadFolders.xml) traducciones"
+
+      - name: Comprimir
+        run: |
+          cd salida
+          zip -qr "../RimWorld-Mod-Latino-${GITHUB_REF_NAME}.zip" "RimWorld Mod Latino"
+          cd ..
+          ls -lh *.zip
+
+      - name: Publicar
+        uses: softprops/action-gh-release@v2
+        with:
+          files: RimWorld-Mod-Latino-*.zip
+          generate_release_notes: true
