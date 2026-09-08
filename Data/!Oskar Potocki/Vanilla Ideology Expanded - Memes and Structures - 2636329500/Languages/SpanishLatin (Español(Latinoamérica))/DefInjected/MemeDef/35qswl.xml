@@ -21,25 +21,25 @@
   <!-- EN: eschatologismFact(tag=meme_Cultured)-&gt;Three scrolls written with the blood of our enemies in human skin parchment will be the testament of our victory, and upon seeing them our enemies will only know fear. -->
   <!-- EN: introMemo(tag=meme_Cultured)-&gt;I&apos;m so tired, SO tired of having to remind you this... PLEASE, for all that is holy, DOCUMENT YOUR CODE! Undocumented code is useless down the line, and I don&apos;t want to have to train the next developer into deciphering the vague code ramblings of the last person who &quot;conveniently forgot&quot; to do it! Come on, people! -->
   <VME_Cultured.descriptionMaker.rules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>creation(tag=meme_Cultured)        -&gt;[deity0_name] enseñó a todos [deity0_possessive] seguidores los secretos de la escritura: "Escribe en un libro todas las palabras que te he dicho".</li>
+    <li>episode(uses=1,tag=meme_Cultured)  -&gt;[deity0_name] dijo a todos los [memberNamePlural]: "Todo escriba que se ha vuelto discípulo del reino de los cielos es como el dueño de una casa, que saca de su tesoro cosas nuevas y viejas".</li>
+    <li>intro(tag=meme_Cultured)           -&gt;Los [memberNamePlural] construyeron una gran biblioteca en [place_summary] [place_name], y la llenaron de libros y pergaminos maravillosos que contenían la sabiduría de sus ancestros.</li>
+    <li>conflict(tag=meme_Cultured)        -&gt;Un simplón [foeLeader], buscando negar la voluntad de [deity0_name], ordenó a [foeLeader_possessive] [foeSoldiers] reducir a cenizas todo el conocimiento, pues [foeLeader_pronoun] era un antiintelectual furibundo.</li>
+    <li>founderJoin(tag=meme_Cultured)     -&gt;[deity0_name] bendijo a un [place_job] llamado [founderName] con [deity0_possessive] conocimiento infinito, y [founder_pronoun] transcribió todo el saber de los [memberNamePlural] en núcleos de datos casi indestructibles.</li>
+    <li>victory(tag=meme_Cultured)         -&gt;Los [foeSoldiers] lograron quemar y destruir todos los libros antiguos de los [memberNamePlural], pero no importó: los datos ya estaban a salvo gracias al esfuerzo de [founderName].</li>
+    <li>setup(tag=meme_Cultured)           -&gt;Nuestro fundador [founderName] fue un escritor, uno de los más grandes que haya visto la galaxia. [founderName_possessive] prosa te permitía visitar mundos lejanos y perderte en fantasías intrincadas.</li>
+    <li>story(uses=1,tag=meme_Cultured)    -&gt;[founderName] nos enseñó que una sociedad que no valora la tradición escrita está perdida.</li>
+    <li>lessonIntro(tag=meme_Cultured)         -&gt;He escrito libros durante casi toda mi vida, y he aprendido una cosa fundamental:</li>
+    <li>lesson(tag=meme_Cultured)              -&gt;no hay agonía más grande que llevar dentro una historia no contada</li>
+    <li>lessonReinforcement(tag=meme_Cultured) -&gt;Si hay un libro que quieres leer, pero todavía no ha sido escrito, entonces debes escribirlo tú.</li>
+    <li>archistBasis(tag=meme_Cultured)    -&gt;Los arcotecs valoran el conocimiento por encima de todas las cosas, y respetan las tradiciones escritas de la humanidad.</li>
+    <li>archistFact(tag=meme_Cultured)     -&gt;Los arcotecs no querrían que fuéramos simplones sin educación, avanzando por la vida como autómatas sin mente.</li>
+    <li>archistProphecy(tag=meme_Cultured) -&gt;[inTheEnd], los arcotecs solo elegirán para la trascendencia a quienes sean lo bastante cultos e instruidos.</li>
+    <li>animistFact(tag=meme_Cultured)     -&gt;Los espíritus quieren que desarrollemos nuestra inteligencia, que seamos cultos e instruidos, porque una mente simple les resulta ofensiva.</li>
+    <li>serketistProphecy(tag=meme_Cultured)-&gt;[itIsSaid] que grabaremos el conocimiento de los insectos en tablillas de obsidiana, para que sus palabras divinas no puedan ser borradas por el paso del tiempo.</li>
+    <li>chthonianProphecy(tag=meme_Cultured)-&gt;Se dice que un Tomo Negro de magia prohibida contiene revelaciones sobre la locura de estas inteligencias transhumanas. Quizá nuestros escribas descifren algún día su mensaje sobrenatural.</li>
+    <li>esotericismProphecy(tag=meme_Cultured)-&gt;Solo con el estudio cuidadoso de los textos arcanos más oscuros podemos aspirar a desvelar estos secretos.</li>
+    <li>eschatologismFact(tag=meme_Cultured)-&gt;Tres pergaminos escritos con la sangre de nuestros enemigos sobre pergamino de piel humana serán el testamento de nuestra victoria, y al verlos nuestros enemigos solo conocerán el miedo.</li>
+    <li>introMemo(tag=meme_Cultured)-&gt;Estoy tan cansado, TAN cansado de tener que recordarles esto... POR FAVOR, por todo lo sagrado, ¡DOCUMENTEN SU CÓDIGO! El código sin documentar es inútil a la larga, ¡y no quiero tener que entrenar al próximo desarrollador para que descifre los vagos desvaríos en código de la última persona que "convenientemente se olvidó" de hacerlo! ¡Vamos, gente!</li>
   </VME_Cultured.descriptionMaker.rules.rulesStrings>
 </LanguageData>
