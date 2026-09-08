@@ -29,7 +29,7 @@
           <xpath>/Defs/ThingDef[defName="DMS_Apparel_SwarmMissilePod"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileCE')]]/label</xpath>
           <value>
             <!-- EN: launch rocket -->
-            <label>TODO</label>
+            <label>lanzar cohete</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -124,7 +124,7 @@
             <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackLight"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
             <value>
               <!-- EN: LMG -->
-              <label>TODO</label>
+              <label>LMG</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -132,7 +132,7 @@
             <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackHeavy"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
             <value>
               <!-- EN: Kord -->
-              <label>TODO</label>
+              <label>kord</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -140,7 +140,7 @@
             <xpath>/Defs/ThingDef[defName="DMS_Apparel_TurretPackGAU"]/verbs/*[.//*[contains(text(), 'AsyncShootVerbCE')]]/label</xpath>
             <value>
               <!-- EN: GAU-19 -->
-              <label>TODO</label>
+              <label>GAU-19</label>
             </value>
           </li>
         </operations>
@@ -164,7 +164,7 @@
             <xpath>/Defs/ThingDef[defName="DMS_Apparel_StugnaLauncher"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileCE')]]/label</xpath>
             <value>
               <!-- EN: launch stugna missile -->
-              <label>TODO</label>
+              <label>lanzar misil stugna</label>
             </value>
           </li>
         </operations>

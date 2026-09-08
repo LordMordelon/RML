@@ -12,7 +12,7 @@
           <xpath>/Defs/DesignationCategoryDef[defName="Biotech"]/label</xpath>
           <value>
             <!-- EN: Genetics -->
-            <label>TODO</label>
+            <label>Genética</label>
           </value>
         </li>
       </operations>
@@ -30,7 +30,7 @@
           <xpath>/Defs/DesignationCategoryDef[defName="Anomaly"]/label</xpath>
           <value>
             <!-- EN: Monolith -->
-            <label>TODO</label>
+            <label>Monolito</label>
           </value>
         </li>
       </operations>
@@ -48,7 +48,7 @@
           <xpath>/Defs/ThingDef[defName="MarriageSpot"]/label</xpath>
           <value>
             <!-- EN: 2x1 marriage spot -->
-            <label>TODO</label>
+            <label>Punto de boda 2x1</label>
           </value>
         </li>
       </operations>
@@ -59,7 +59,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Security"]/label</xpath>
     <value>
       <!-- EN: Fight -->
-      <label>TODO</label>
+      <label>Combate</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -67,7 +67,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Structure"]/label</xpath>
     <value>
       <!-- EN: Build -->
-      <label>TODO</label>
+      <label>Construir</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -75,7 +75,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Production"]/label</xpath>
     <value>
       <!-- EN: Make -->
-      <label>TODO</label>
+      <label>Fabricar</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -83,7 +83,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Furniture"]/label</xpath>
     <value>
       <!-- EN: Furnish -->
-      <label>TODO</label>
+      <label>Mobiliario</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -91,7 +91,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Ship"]/label</xpath>
     <value>
       <!-- EN: Interstellar -->
-      <label>TODO</label>
+      <label>Interestelar</label>
     </value>
   </Operation>
 </Patch>

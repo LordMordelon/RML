@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/label</xpath>
           <value>
             <!-- EN: chitin -->
-            <label>TODO</label>
+            <label>quitina</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/description</xpath>
           <value>
             <!-- EN: Hard overlapping scales of insect chitin. It is exceptionally durable in combat, but provides little protection from weather. -->
-            <description>TODO</description>
+            <description>Escamas duras y superpuestas de quitina de insecto. Es excepcionalmente resistente en combate, pero protege poco del clima.</description>
           </value>
         </li>
       </operations>
@@ -42,7 +42,7 @@
             <xpath>/Defs/ThingDef[defName="ToxicMeat"]/label</xpath>
             <value>
               <!-- EN: toxic meat -->
-              <label>TODO</label>
+              <label>carne tóxica</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -50,7 +50,7 @@
             <xpath>/Defs/ThingDef[defName="ToxicMeat"]/description</xpath>
             <value>
               <!-- EN: Raw meat from a toxic animal.\n\nChewy, gelatinous and disgusting. -->
-              <description>TODO</description>
+              <description>Carne cruda de un animal tóxico.\n\nCorreosa, gelatinosa y asquerosa.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -58,7 +58,7 @@
             <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/label</xpath>
             <value>
               <!-- EN: ate toxic meat -->
-              <label>TODO</label>
+              <label>comió carne tóxica</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -66,7 +66,7 @@
             <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/description</xpath>
             <value>
               <!-- EN: I ate some toxic meat. It was, possibly, the most disgusting thing I&apos;ve ever tasted. -->
-              <description>TODO</description>
+              <description>Comí algo de carne tóxica. Fue, posiblemente, lo más asqueroso que he probado jamás.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -74,7 +74,7 @@
             <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/label</xpath>
             <value>
               <!-- EN: ate cooked toxic meat -->
-              <label>TODO</label>
+              <label>comió carne tóxica cocinada</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -82,7 +82,7 @@
             <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/description</xpath>
             <value>
               <!-- EN: I ate a meal cooked from toxic meat. The seasoning partly covered the taste, but it still tasted quite poisonous. -->
-              <description>TODO</description>
+              <description>Comí una comida preparada con carne tóxica. El condimento ocultó en parte el sabor, pero aún así sabía bastante venenosa.</description>
             </value>
           </li>
         </operations>

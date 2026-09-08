@@ -12,7 +12,7 @@
           <xpath>/Defs/DesignationCategoryDef[defName="Ideology"]/label</xpath>
           <value>
             <!-- EN: Culture -->
-            <label>TODO</label>
+            <label>Cultura</label>
           </value>
         </li>
       </operations>
@@ -23,7 +23,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Misc"]/label</xpath>
     <value>
       <!-- EN: More -->
-      <label>TODO</label>
+      <label>Más</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -31,7 +31,7 @@
     <xpath>/Defs/DesignationCategoryDef[defName="Temperature"]/label</xpath>
     <value>
       <!-- EN: Area -->
-      <label>TODO</label>
+      <label>Área</label>
     </value>
   </Operation>
 </Patch>

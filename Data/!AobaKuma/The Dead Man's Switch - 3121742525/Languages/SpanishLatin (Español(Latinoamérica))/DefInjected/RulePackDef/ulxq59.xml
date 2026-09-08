@@ -29,33 +29,33 @@
   <!-- EN: details(context==personnel)-&gt;preliminary conclusions on the impact of surface unknown signal analysis on personnel. -->
   <!-- EN: details(context==personnel)-&gt;recording human operation deviations occurring in the hibernation pod wake-up protocol. -->
   <DMS_QuestDocumentRules.rulePack.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>docName-&gt;[fleet_prefix] [doc_type] sobre [subject]</li>
+    <li>docDesc-&gt;Este es un [doc_type] sobre [subject], [details]</li>
+    <li>fleet_prefix-&gt;de la Flota</li>
+    <li>fleet_prefix-&gt;Colonial</li>
+    <li>fleet_prefix-&gt;Pionero</li>
+    <li>subject(context==supply)-&gt;suministros</li>
+    <li>subject(context==supply)-&gt;materiales</li>
+    <li>subject(context==supply)-&gt;energía</li>
+    <li>doc_type(context==supply)-&gt;listado de auditoría</li>
+    <li>doc_type(context==supply)-&gt;informe resumen</li>
+    <li>details(context==supply)-&gt;que registra los detalles de programación de recursos en ciertos sectores durante los últimos tiempos.</li>
+    <li>details(context==supply)-&gt;que detalla los registros de fluctuaciones anómalas de los reactores de energía durante el vuelo por el espacio profundo.</li>
+    <li>details(context==supply)-&gt;que contiene solicitudes de reposición para faltantes críticos de material en los puestos de avanzada.</li>
+    <li>subject(context==combat)-&gt;bajas en combate</li>
+    <li>subject(context==combat)-&gt;táctica</li>
+    <li>subject(context==combat)-&gt;equipamiento</li>
+    <li>doc_type(context==combat)-&gt;registro de procesamiento</li>
+    <li>doc_type(context==combat)-&gt;informe clasificado</li>
+    <li>details(context==combat)-&gt;que analiza las pérdidas de material y las recomendaciones de reparación tras cierta operación.</li>
+    <li>details(context==combat)-&gt;un plan de optimización para el despliegue de unidades mecanizadas en la zona actual.</li>
+    <li>details(context==combat)-&gt;que registra los números de serie de los mecanismos neutralizados y confirmados como perdidos en cierto enfrentamiento.</li>
+    <li>subject(context==personnel)-&gt;personal</li>
+    <li>subject(context==personnel)-&gt;supervivientes</li>
+    <li>doc_type(context==personnel)-&gt;archivo cifrado</li>
+    <li>doc_type(context==personnel)-&gt;credencial de traslado</li>
+    <li>details(context==personnel)-&gt;que resume el estado de supervivencia y los resultados de la auditoría psicológica de los miembros pioneros.</li>
+    <li>details(context==personnel)-&gt;conclusiones preliminares sobre el impacto en el personal del análisis de señales desconocidas en la superficie.</li>
+    <li>details(context==personnel)-&gt;que registra las desviaciones de operación humana ocurridas en el protocolo de despertar de las cápsulas de hibernación.</li>
   </DMS_QuestDocumentRules.rulePack.rulesStrings>
 </LanguageData>

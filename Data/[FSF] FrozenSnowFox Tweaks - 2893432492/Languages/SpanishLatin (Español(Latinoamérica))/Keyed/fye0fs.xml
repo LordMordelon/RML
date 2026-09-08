@@ -5,15 +5,15 @@
   <!-- EN: Core Tweaks -->
   <FSFTweaksCoreTweaksTitle>Ajustes de Core</FSFTweaksCoreTweaksTitle>
   <!-- EN: Animals -->
-  <FSFTweaksAnimalsTitle>TODO</FSFTweaksAnimalsTitle>
+  <FSFTweaksAnimalsTitle>Animales</FSFTweaksAnimalsTitle>
   <!-- EN: Filters and Storage -->
   <FSFTweaksFiltersAndStorageTitle>Filtros y Almacenamiento</FSFTweaksFiltersAndStorageTitle>
   <!-- EN: Food -->
-  <FSFTweaksFoodTitle>TODO</FSFTweaksFoodTitle>
+  <FSFTweaksFoodTitle>Comida</FSFTweaksFoodTitle>
   <!-- EN: Misc -->
   <FSFTweaksMiscTitle>Varios</FSFTweaksMiscTitle>
   <!-- EN: Plants -->
-  <FSFTweaksPlantsTitle>TODO</FSFTweaksPlantsTitle>
+  <FSFTweaksPlantsTitle>Plantas</FSFTweaksPlantsTitle>
   <!-- EN: No Starting Research -->
   <FSFTweaksNoStartingResearchTitle>Sin investigación inicial</FSFTweaksNoStartingResearchTitle>
   <!-- EN: Special Trees -->
@@ -23,7 +23,7 @@
   <!-- EN: Removes the action of eating random things for curiosity from animal AI logic trees. -->
   <FSFTweaksAnimalsDontEatRandomThingsDesc>Elimina la acción de comer cosas al azar por curiosidad de los árboles lógicos de la IA animal.</FSFTweaksAnimalsDontEatRandomThingsDesc>
   <!-- EN: Animals Don&apos;t Mine To Escape -->
-  <FSFTweaksAnimalsDontMineToEscapeTitle>TODO</FSFTweaksAnimalsDontMineToEscapeTitle>
+  <FSFTweaksAnimalsDontMineToEscapeTitle>Los animales no minan para escapar</FSFTweaksAnimalsDontMineToEscapeTitle>
   <!-- EN: Removes the action of mining through walls and rock to escape when hungry from animal AI logic trees.  Instead they will now just starve to death.\nNote: This does not apply to Alpha Animals creatures who use the Animal Digger logic tree since they are designed to dig through things. -->
   <FSFTweaksAnimalsDontMineToEscapeDesc>Elimina la acción de minar a través de paredes y rocas para escapar cuando tienen hambre de los árboles lógicos de la IA animal. En su lugar, ahora simplemente morirán de hambre.\nNota: Esto no se aplica a las criaturas de Alpha Animals que usan el árbol lógico Animal Digger, ya que están diseñadas para excavar a través de las cosas.</FSFTweaksAnimalsDontMineToEscapeDesc>
   <!-- EN: Herd Migration On Any Biome -->
@@ -41,7 +41,7 @@
   <!-- EN: Wolves Are Dogs -->
   <FSFTweaksWolvesAreDogsTitle>Los lobos son perros</FSFTweaksWolvesAreDogsTitle>
   <!-- EN: Changes the FilthRate to 1, Wildness to 0, Petness to 1, nuzzleMtbHours to 12, removes the manhunter on failed taming chance and adds the Special Trainable Comfort.  This puts them on par with dogs allowing you to have clean, friendly, nuzzle happy wolves.  Also adds mating pairs of Timber Wolves and Arctic Wolves for sale at faction bases so they&apos;re easy to acquire. -->
-  <FSFTweaksWolvesAreDogsDesc>TODO</FSFTweaksWolvesAreDogsDesc>
+  <FSFTweaksWolvesAreDogsDesc>Cambia FilthRate a 1, Wildness a 0, Petness a 1 y nuzzleMtbHours a 12, elimina la probabilidad de que se vuelvan cazadores al fallar la doma y añade la entrenabilidad especial Comodidad. Esto los pone a la par de los perros y te permite tener lobos limpios, amistosos y cariñosos. También añade parejas reproductoras de lobos madereros y lobos árticos a la venta en las bases de facción para conseguirlos con facilidad.</FSFTweaksWolvesAreDogsDesc>
   <!-- EN: More Filters Drugs -->
   <FSFTweaksMoreFiltersDrugsTitle>Más filtros de drogas</FSFTweaksMoreFiltersDrugsTitle>
   <!-- EN: Adds a number of new categories for drugs and organises items so they can be more easily accessed.  The following categories are added, Hard, Medical, Social. -->
@@ -55,7 +55,7 @@
   <!-- EN: No Default Storage Settings -->
   <FSFTweaksNoDefaultStorageSettingsTitle>Sin ajustes de almacenamiento predeterminados</FSFTweaksNoDefaultStorageSettingsTitle>
   <!-- EN: Changes every ThingDef to remove the defaultStorageSettings and changes the default priority to normal.  Unlike the mod No Default Shelf Storage which intentionally looks for a ThingClass to target only storage items this patch goes for everything.  This means it&apos;ll target things like Mortars, Sarcophaguses, Biosculpters, Growth Pods and more. -->
-  <FSFTweaksNoDefaultStorageSettingsDesc>TODO</FSFTweaksNoDefaultStorageSettingsDesc>
+  <FSFTweaksNoDefaultStorageSettingsDesc>Cambia cada ThingDef para eliminar defaultStorageSettings y cambia la prioridad predeterminada a normal. A diferencia del mod No Default Shelf Storage, que busca intencionalmente una ThingClass para apuntar solo a objetos de almacenamiento, este parche va por todo. Eso significa que afectará cosas como morteros, sarcófagos, cápsulas bioescultoras, cápsulas de crecimiento y más.</FSFTweaksNoDefaultStorageSettingsDesc>
   <!-- EN: Stackable Chunks -->
   <FSFTweaksStackableChunksTitle>Trozos apilables</FSFTweaksStackableChunksTitle>
   <!-- EN: Changes rock and slag chunks to be stacklable and allows you to customise the stack limit. -->
@@ -67,7 +67,7 @@
   <!-- EN: Removes the food poisoning chance from all RawTasty foods and all Gluttonous items that have the ParentDef OrganicProductBase.  Foods that use RawTasty are things like Berries, Milk and modded items such as Fruits.  Gluttonous items that have the ParentDef OrganicProductBase are things such as Insect Jelly and modded items such as Honey. -->
   <FSFTweaksFoodsAreSafeDesc>Elimina la probabilidad de intoxicación alimentaria de todos los alimentos RawTasty y todos los objetos Gluttonous que tengan el ParentDef OrganicProductBase. Los alimentos que usan RawTasty son cosas como bayas, leche y objetos de mods como frutas. Los objetos Gluttonous que tienen el ParentDef OrganicProductBase son cosas como la jalea de insecto y objetos de mods como la miel.</FSFTweaksFoodsAreSafeDesc>
   <!-- EN: Insect Jelly Isn&apos;t A Meal -->
-  <FSFTweaksInsectJellyIsntAMealTitle>TODO</FSFTweaksInsectJellyIsntAMealTitle>
+  <FSFTweaksInsectJellyIsntAMealTitle>La jalea de insecto no es una comida</FSFTweaksInsectJellyIsntAMealTitle>
   <!-- EN: Changes the preferability of Insect Jelly from Fine Meal to Raw Tasty.  This means pawns will only prefer it as food if there are no cooked meals.  However, they will still eat it for Gluttonous Recreation.  This allows you to easier keep your expensive jelly for sale and recreation. -->
   <FSFTweaksInsectJellyIsntAMealDesc>Cambia la preferencia de la jalea de insecto de Comida Fina a Cruda Sabrosa. Esto significa que los colonos solo la preferirán como alimento si no hay comidas cocinadas. Sin embargo, seguirán comiéndola por recreación glotona. Esto te permite guardar más fácilmente tu costosa jalea para la venta y la recreación.</FSFTweaksInsectJellyIsntAMealDesc>
   <!-- EN: Less Desirable Long Term Food -->
@@ -155,11 +155,11 @@
   <!-- EN: Immortal Special Items -->
   <FSFTweaksImmortalSpecialItemsTitle>Objetos especiales inmortales</FSFTweaksImmortalSpecialItemsTitle>
   <!-- EN: Changes all special valuable items you get under special circumstances to be immortal, they have no health, can&apos;t catch fire, deteriorate from weather or be damaged from combat.  These items are things like Mechanoid Chips (Biotech DLC), Shuttle Engines (Odyssey DLC) and Special Mod Added items that drop in combat. -->
-  <FSFTweaksImmortalSpecialItemsDesc>TODO</FSFTweaksImmortalSpecialItemsDesc>
+  <FSFTweaksImmortalSpecialItemsDesc>Cambia todos los objetos valiosos especiales que se obtienen en circunstancias especiales para volverlos inmortales: no tienen salud, no pueden incendiarse, deteriorarse por el clima ni dañarse en combate. Estos objetos son cosas como los chips mecanoides (DLC Biotech), los motores de lanzadera (DLC Odyssey) y objetos especiales añadidos por mods que caen en combate.</FSFTweaksImmortalSpecialItemsDesc>
   <!-- EN: Immortal Power Conduits -->
   <FSFTweaksImmortalPowerConduitsTitle>Conductos de energía inmortales</FSFTweaksImmortalPowerConduitsTitle>
   <!-- EN: Makes power conduits immortal, they have no health and can&apos;t catch fire. -->
-  <FSFTweaksImmortalPowerConduitsDesc>TODO</FSFTweaksImmortalPowerConduitsDesc>
+  <FSFTweaksImmortalPowerConduitsDesc>Vuelve inmortales a los conductos de energía: no tienen salud y no pueden incendiarse.</FSFTweaksImmortalPowerConduitsDesc>
   <!-- EN: Increased Linkables Range -->
   <FSFTweaksIncreasedLinkablesRangeTitle>Rango de objetos vinculables aumentado</FSFTweaksIncreasedLinkablesRangeTitle>
   <!-- EN: Changes linkables to have a maximum connection distance of 50 tiles, removes the line of sight requirement and removes the must be placed adjacent requirement.\nNote: The adjacent change is only for certain linkables like Vitals Monitors. -->
@@ -191,7 +191,7 @@
   <!-- EN: No Human Filth -->
   <FSFTweaksNoHumanFilthTitle>Sin suciedad humana</FSFTweaksNoHumanFilthTitle>
   <!-- EN: Changes the human FilthRate stat to 0 so they don&apos;t randomly spawn filth. -->
-  <FSFTweaksNoHumanFilthDesc>TODO</FSFTweaksNoHumanFilthDesc>
+  <FSFTweaksNoHumanFilthDesc>Cambia a 0 la estadística FilthRate de los humanos para que no generen suciedad al azar.</FSFTweaksNoHumanFilthDesc>
   <!-- EN: No Improvised Weapons -->
   <FSFTweaksNoImprovisedWeaponsTitle>Sin armas improvisadas</FSFTweaksNoImprovisedWeaponsTitle>
   <!-- EN: Removes the weapon stats from all Ingestible and Resource items so they can no longer be used as weapons.\nNote: If enabled mid save this will cause errors if anyone has these items equipped.  You can use the mod Character Editor to move items to the inventory to fix this. -->
@@ -207,15 +207,15 @@
   <!-- EN: Psychic Sensitivity Bonuses -->
   <FSFTweaksPsychicSensBonusesTitle>Bonificaciones de sensibilidad psíquica</FSFTweaksPsychicSensBonusesTitle>
   <!-- EN: Changes the stats Meditation Psyfocus Gain and Neural Heat Recovery Rate to be affected by Psychic Sensitivity.  Also removes the bonuses to these stats from all GeneDef&apos;s (Genes), HediffDef&apos;s (Health Conditions), ThingDef&apos;s (Weapons and Apparel) and TraitDef&apos;s (Traits).  What this means is that Psychic Sensitivity itself will provide these bonuses instead of the aforementioned things.  In this way all bonuses are equally balanced, and those that didn&apos;t provide bonuses but probably should have do now.  So now there is a good reason to stack your psycasters with as much Psychic Sensitivity as you can because doing so will increase their overall recovery speed.  With Vanilla Psycasts Expanded the increase in Psyfocus gain will also result in your psycasters gaining XP faster. -->
-  <FSFTweaksPsychicSensBonusesDesc>TODO</FSFTweaksPsychicSensBonusesDesc>
+  <FSFTweaksPsychicSensBonusesDesc>Cambia las estadísticas Ganancia de psicofoco por meditación y Tasa de recuperación de calor neuronal para que se vean afectadas por la Sensibilidad psíquica. También elimina las bonificaciones a esas estadísticas de todos los GeneDef (genes), HediffDef (condiciones de salud), ThingDef (armas y ropa) y TraitDef (rasgos). Esto significa que la propia Sensibilidad psíquica aportará esas bonificaciones en lugar de lo anterior. De este modo todas las bonificaciones quedan igualmente equilibradas, y las que no aportaban nada pero probablemente deberían hacerlo ahora sí lo hacen. Así que ahora hay una buena razón para acumular toda la Sensibilidad psíquica que puedas en tus psiconjuradores, porque eso aumentará su velocidad de recuperación general. Con Vanilla Psycasts Expanded, el aumento de ganancia de psicofoco también hará que tus psiconjuradores ganen experiencia más rápido.</FSFTweaksPsychicSensBonusesDesc>
   <!-- EN: Randy Big Threat Interval -->
   <FSFTweaksRandyBigThreatIntTitle>Intervalo de gran amenaza de Randy</FSFTweaksRandyBigThreatIntTitle>
   <!-- EN: Changes the maxThreatBigIntervalDays for Randy (and storytellers based on him) to the input number.  If Randy hasn&apos;t triggered a major threat in X days, the next event he fires will be a major threat, regardless of the random chance.  It does not guarantee a major threat every X days as Randy can still choose not to fire an event at all during that time.\nThe vanilla value is 13, I recommend a value of 7 if you like him being more aggressive. -->
-  <FSFTweaksRandyBigThreatIntDesc>TODO</FSFTweaksRandyBigThreatIntDesc>
+  <FSFTweaksRandyBigThreatIntDesc>Cambia maxThreatBigIntervalDays de Randy (y de los narradores basados en él) al número indicado. Si Randy no ha desencadenado una amenaza mayor en X días, el próximo evento que dispare será una amenaza mayor, sin importar la probabilidad aleatoria. No garantiza una amenaza mayor cada X días, ya que Randy igual puede decidir no disparar ningún evento durante ese tiempo.\nEl valor original es 13; recomiendo 7 si te gusta que sea más agresivo.</FSFTweaksRandyBigThreatIntDesc>
   <!-- EN: Randy Fixes -->
   <FSFTweaksRandyFixesTitle>Correcciones de Randy</FSFTweaksRandyFixesTitle>
   <!-- EN: Randy is missing the fields TraderCaravanArrival, VisitorGroup, TravelerGroup, OrbitalTraderArrival.  This is no doubt so it relies on his randomness.  Unfortunately the randomness tends to result in not getting these events very often.  This fix adds the fields from Cassandra so these events show up regularly.  This is an addition not a replacement, so the original randomness aspect is also present.  If Vanilla Psycasts Expanded is loaded this tweak also adds the fields to Basilicus Bestower, as he&apos;s an exact copy of Randy except for his unique ability. -->
-  <FSFTweaksRandyFixesDesc>TODO</FSFTweaksRandyFixesDesc>
+  <FSFTweaksRandyFixesDesc>A Randy le faltan los campos TraderCaravanArrival, VisitorGroup, TravelerGroup y OrbitalTraderArrival. Sin duda es así para que dependa de su aleatoriedad. Lamentablemente, esa aleatoriedad suele hacer que estos eventos aparezcan muy poco. Esta corrección añade los campos de Cassandra para que estos eventos aparezcan con regularidad. Es un agregado, no un reemplazo, así que el aspecto aleatorio original también sigue presente. Si Vanilla Psycasts Expanded está cargado, este ajuste también añade los campos a Basilicus Bestower, ya que es una copia exacta de Randy salvo por su habilidad única.</FSFTweaksRandyFixesDesc>
   <!-- EN: Render Hair Over Clothing -->
   <FSFTweaksRenderHairOverClothingTitle>Renderizar cabello sobre la ropa</FSFTweaksRenderHairOverClothingTitle>
   <!-- EN: With the new rendering system clothing is rendered over a pawns head when viewed from behind.  This is most noticeable with long hairstyles, instead of the hair draping over the clothing as it should it instead ends up hidden beneath making things look rather odd.  This tweak patches all clothing that would pose an issue so hair is rendered over clothing allowing hair to drape over clothing as it should. -->
@@ -239,7 +239,7 @@
   <!-- EN: Unlock Hediffs For Scenario Settings -->
   <FSFTweaksUnlockHediffsForScenarioTitle>Desbloquear hediffs para ajustes de escenario</FSFTweaksUnlockHediffsForScenarioTitle>
   <!-- EN: Changes a number of hediffs so they can be used in the scenario settings.  For instance this allows you to create a scenario where anyone can have a chance to spawn with Metal Horrors (Anomaly DLC), as a Mime (Alpha Animals) or a Traitor (Vanilla Expanded Events).\nTo do this in the scenario editor click Add Part -&gt; Forced Health Condition -&gt; (The hediff you want). Set the severity (depending on the hediff severity can do different things), modify the percentage chance and set the context. -->
-  <FSFTweaksUnlockHediffsForScenarioDesc>TODO</FSFTweaksUnlockHediffsForScenarioDesc>
+  <FSFTweaksUnlockHediffsForScenarioDesc>Cambia varias condiciones de salud para que puedan usarse en la configuración de escenarios. Por ejemplo, esto te permite crear un escenario donde cualquiera pueda aparecer con horrores metálicos (DLC Anomaly), como mimo (Alpha Animals) o como traidor (Vanilla Expanded Events).\nPara hacerlo en el editor de escenarios, haz clic en Añadir parte -&gt; Condición de salud forzada -&gt; (la condición que quieras). Ajusta la gravedad (según la condición, la gravedad puede hacer cosas distintas), modifica el porcentaje de probabilidad y define el contexto.</FSFTweaksUnlockHediffsForScenarioDesc>
   <!-- EN: Water Movement Tweaks -->
   <FSFTweaksWaterMovementTweaksTitle>Retoques de movimiento en el agua</FSFTweaksWaterMovementTweaksTitle>
   <!-- EN: Allows you to customise the pathing cost of water and if the tiles are impassable. -->
@@ -251,7 +251,7 @@
   <!-- EN: Younger People -->
   <FSFTweaksYoungerPeopleTitle>Personas más jóvenes</FSFTweaksYoungerPeopleTitle>
   <!-- EN: This is intended for games with a high ageing multiplier to ensure a steady supply of new marriage candidates.  While the settings are set to 18 to 25 the actual age of people should be between 13 and 25 with it tending toward the average.  The numbers can skew outside of that range when you include children and parent/child relationships.  After spawning people will age at your set multiplier so you should see older pawns as time goes on provided they don&apos;t die and the game doesn&apos;t purge them. -->
-  <FSFTweaksYoungerPeopleDesc>TODO</FSFTweaksYoungerPeopleDesc>
+  <FSFTweaksYoungerPeopleDesc>Está pensado para partidas con un multiplicador de envejecimiento alto, para asegurar un suministro constante de nuevos candidatos al matrimonio. Aunque los ajustes están fijados entre 18 y 25, la edad real de las personas debería estar entre 13 y 25, tendiendo hacia el promedio. Los números pueden salirse de ese rango cuando se incluyen niños y relaciones padre/hijo. Tras aparecer, la gente envejecerá según tu multiplicador, así que con el tiempo deberías ver colonos más viejos, siempre que no mueran y el juego no los depure.</FSFTweaksYoungerPeopleDesc>
   <!-- EN: Growable Ambrosia -->
   <FSFTweaksGrowableAmbrosiaTitle>Ambrosía cultivable</FSFTweaksGrowableAmbrosiaTitle>
   <!-- EN: Allows ambrosia to be researched and planted in growing zones. -->
@@ -267,7 +267,7 @@
   <!-- EN: Growable Pasture Grass -->
   <FSFTweaksPastureGrassTitle>Hierba de pasto cultivable</FSFTweaksPastureGrassTitle>
   <!-- EN: Adds a new type of grass called Pasture Grass.  It&apos;s a species of grass designed for feeding grazing animals.  It lives for a long time and although it can be grown in low fertility soil it likes lushier soil. -->
-  <FSFTweaksPastureGrassDesc>TODO</FSFTweaksPastureGrassDesc>
+  <FSFTweaksPastureGrassDesc>Añade un nuevo tipo de pasto llamado pasto de pastoreo. Es una especie de pasto diseñada para alimentar animales de pastoreo. Vive mucho tiempo y, aunque puede cultivarse en suelo de baja fertilidad, prefiere los suelos más fértiles.</FSFTweaksPastureGrassDesc>
   <!-- EN: Indoor Tree Farms -->
   <FSFTweaksIndoorTreeFarmsTitle>Granjas de árboles de interior</FSFTweaksIndoorTreeFarmsTitle>
   <!-- EN: Allows you to individually enable options that will allow plants to be plantable under roofs, allow adjacent sowing and allow planting regardless of biome.  These limitations ordinarily only appear on tree or tree like plants. -->
@@ -299,7 +299,7 @@
   <!-- EN: Removes all starting research from the Player Tribal Faction called New Tribe which is used for tribal starting scenarios like Lost Tribe. -->
   <FSFTweaksNoStartingResearchTribalDesc>Elimina toda la investigación inicial de la facción tribal del jugador llamada Nueva tribu, que se utiliza para escenarios iniciales tribales como Tribu perdida.</FSFTweaksNoStartingResearchTribalDesc>
   <!-- EN: Polux -->
-  <FSFTweaksPoluxTitle>TODO</FSFTweaksPoluxTitle>
+  <FSFTweaksPoluxTitle>Polux</FSFTweaksPoluxTitle>
   <!-- EN: Rock Chunks Stack Limit -->
   <FSFTweaksStackableChunksRocks>Límite de apilamiento de trozos de roca</FSFTweaksStackableChunksRocks>
   <!-- EN: Slag Chunks Stack Limit -->
@@ -311,7 +311,7 @@
   <!-- EN: Table Search Radius -->
   <FSFTweaksTableSearchRadius>Radio de búsqueda de mesa</FSFTweaksTableSearchRadius>
   <!-- EN: Input a value to set a maximum radius pawns will search for a table when consuming ingestible items.  This patches all items with a preferability except ones with NeverForNutrition.\nNote: If a table is within this radius they will go to it before consuming items so be careful not to set it too high.  The default value of 75 is what I&apos;ve found to be a nice middle ground. -->
-  <FSFTweaksTableSearchRadiusDesc>TODO</FSFTweaksTableSearchRadiusDesc>
+  <FSFTweaksTableSearchRadiusDesc>Ingresa un valor para fijar el radio máximo en el que los colonos buscarán una mesa al consumir objetos ingeribles. Esto parchea todos los objetos con preferabilidad, salvo los que tienen NeverForNutrition.\nNota: si hay una mesa dentro de ese radio, irán hasta ella antes de consumir, así que ten cuidado de no ponerlo demasiado alto. El valor predeterminado de 75 es el punto medio que me pareció mejor.</FSFTweaksTableSearchRadiusDesc>
   <!-- EN: Base Disassembly Efficiency {FSFAccurateMechDisassemblyBaseEff} -->
   <FSFTweaksAccurateMechDisassemblyBaseEff>Eficiencia de desmontaje base {FSFAccurateMechDisassemblyBaseEff}</FSFTweaksAccurateMechDisassemblyBaseEff>
   <!-- EN: Maximum Disassembly Efficiency {FSFAccurateMechDisassemblyMaxEff} -->
@@ -353,9 +353,9 @@
   <!-- EN: Large River -->
   <FSFTweaksBiggerRiversLargeRiver>Río grande</FSFTweaksBiggerRiversLargeRiver>
   <!-- EN: River -->
-  <FSFTweaksBiggerRiversRiver>TODO</FSFTweaksBiggerRiversRiver>
+  <FSFTweaksBiggerRiversRiver>Río</FSFTweaksBiggerRiversRiver>
   <!-- EN: Creek -->
-  <FSFTweaksBiggerRiversCreek>TODO</FSFTweaksBiggerRiversCreek>
+  <FSFTweaksBiggerRiversCreek>Arroyo</FSFTweaksBiggerRiversCreek>
   <!-- EN: Input a value to adjust the size of rivers.\nVanilla values (30, 14, 6, 4). -->
   <FSFTweaksBiggerRiversDesc>Introduce un valor para ajustar el tamaño de los ríos.\nValores de Vanilla (30, 14, 6, 4).</FSFTweaksBiggerRiversDesc>
   <!-- EN: Days to Max Radius -->
@@ -377,19 +377,19 @@
   <!-- EN: Gold Flammability {FSFMetalFlammabilityGold} -->
   <FSFTweaksMetalFlammabilityGold>Inflamabilidad del oro {FSFMetalFlammabilityGold}</FSFTweaksMetalFlammabilityGold>
   <!-- EN: Iron Flammability {FSFMetalFlammabilityIron} -->
-  <FSFTweaksMetalFlammabilityIron>TODO</FSFTweaksMetalFlammabilityIron>
+  <FSFTweaksMetalFlammabilityIron>Inflamabilidad del hierro {FSFMetalFlammabilityIron}</FSFTweaksMetalFlammabilityIron>
   <!-- EN: Silver Flammability {FSFMetalFlammabilitySilver} -->
   <FSFTweaksMetalFlammabilitySilver>Inflamabilidad de la plata {FSFMetalFlammabilitySilver}</FSFTweaksMetalFlammabilitySilver>
   <!-- EN: Sky Steel Flammability {FSFMetalFlammabilitySkySteel} -->
-  <FSFTweaksMetalFlammabilitySkySteel>TODO</FSFTweaksMetalFlammabilitySkySteel>
+  <FSFTweaksMetalFlammabilitySkySteel>Inflamabilidad del acero celeste {FSFMetalFlammabilitySkySteel}</FSFTweaksMetalFlammabilitySkySteel>
   <!-- EN: Steel Flammability {FSFMetalFlammabilitySteel} -->
   <FSFTweaksMetalFlammabilitySteel>Inflamabilidad del acero {FSFMetalFlammabilitySteel}</FSFTweaksMetalFlammabilitySteel>
   <!-- EN: Input a value to adjust the flammability of each metal.  The lower the number the less flammable it is.  The displayed number is a percentage of its flammability.  Setting it to 0 will make that metal completely immune to fire.\nVanilla flammability is 0.4 (40%). -->
   <FSFTweaksMetalFlammabilityDesc>Introduce un valor para ajustar la inflamabilidad de cada metal. Cuanto menor sea el número, menos inflamable será. El número mostrado es un porcentaje de su inflamabilidad. Establecerlo en 0 hará que ese metal sea completamente inmune al fuego.\nLa inflamabilidad de Vanilla es 0.4 (40%).</FSFTweaksMetalFlammabilityDesc>
   <!-- EN: onDays -->
-  <FSFTweaksMoreQuestsonDays>TODO</FSFTweaksMoreQuestsonDays>
+  <FSFTweaksMoreQuestsonDays>onDays</FSFTweaksMoreQuestsonDays>
   <!-- EN: numIncidentsRange -->
-  <FSFTweaksMoreQuestsnumIncidentsRange>TODO</FSFTweaksMoreQuestsnumIncidentsRange>
+  <FSFTweaksMoreQuestsnumIncidentsRange>numIncidentsRange</FSFTweaksMoreQuestsnumIncidentsRange>
   <!-- EN: minSpacingDays {FSFMoreQuestsminSpacingDays} -->
   <FSFTweaksMoreQuestsminSpacingDays>minSpacingDays {FSFMoreQuestsminSpacingDays}</FSFTweaksMoreQuestsminSpacingDays>
   <!-- EN: Input a value to adjust the amount of quests generated within a timeframe.  The minSpacingDays (minimum days between quests) must allow the numIncidentsRange (number of quests) to fit within onDays (how many days before this block of quests ends) otherwise the game will throw errors.\nVanilla (12, 2, 3), Double Vanilla (12, 4, 1), Triple Vanilla (12, 6, 1), Daily (1, 1, 0.5).\nNote: Quests by default require a certain wealth threshold to be reached to trigger. In very low wealth starts like naked brutality or tribals its possible you might not get quests for a year or more until you hit that specific threshold. -->
@@ -409,7 +409,7 @@
   <!-- EN: Move the sliders to adjust the multiplier of all Power Generating items and the Storage Capacity of all Batteries.  The value is a straight multiplier, a value of 2 will double the original while 3 will triple it.\nThe Vanilla value is 1. -->
   <FSFTweaksPowerGenerationMultiplierDesc>Mueve los deslizadores para ajustar el multiplicador de todos los objetos generadores de energía y la capacidad de almacenamiento de todas las baterías. El valor es un multiplicador directo: un valor de 2 duplica el original y 3 lo triplica.\nEl valor de Vanilla es 1.</FSFTweaksPowerGenerationMultiplierDesc>
   <!-- EN: maxThreatBigIntervalDays -->
-  <FSFTweaksRandyBigThreatIntRange>TODO</FSFTweaksRandyBigThreatIntRange>
+  <FSFTweaksRandyBigThreatIntRange>maxThreatBigIntervalDays</FSFTweaksRandyBigThreatIntRange>
   <!-- EN: Traitor Minimum Time Range In Ticks -->
   <FSFTweaksScenarioHediffTraitorMinTicks>Rango de tiempo mínimo del traidor en ticks</FSFTweaksScenarioHediffTraitorMinTicks>
   <!-- EN: Traitor Maximum Time Range In Ticks -->
@@ -429,7 +429,7 @@
   <!-- EN: Deep Water is Passable -->
   <FSFTweaksWaterMovementTweaksDeepPassable>El agua profunda es transitable</FSFTweaksWaterMovementTweaksDeepPassable>
   <!-- EN: Input a value to adjust the pathing cost of water tiles.  The pathing cost is irrelevant if the terrain is set to impassable.\nPathing cost is a bit odd so you&apos;ll have to experiment with numbers.  A cost of 4 gives 76% movement speed on a tile but 40 gives 25%.\nVanilla Values Shallow Water 30, Chest Deep Water 42, Deep Water 300. -->
-  <FSFTweaksWaterMovementTweaksDesc>TODO</FSFTweaksWaterMovementTweaksDesc>
+  <FSFTweaksWaterMovementTweaksDesc>Ingresa un valor para ajustar el costo de desplazamiento de las casillas de agua. El costo es irrelevante si el terreno está definido como intransitable.\nEl costo de desplazamiento es algo particular, así que tendrás que experimentar con los números. Un costo de 4 da un 76 % de velocidad de movimiento en la casilla, pero 40 da un 25 %.\nValores originales: agua poco profunda 30, agua hasta el pecho 42, agua profunda 300.</FSFTweaksWaterMovementTweaksDesc>
   <!-- EN: Allow Adjacent Sowing on plants. -->
   <FSFTweaksIndoorTreeFarmsAdjacentSow>Permitir siembra adyacente en plantas.</FSFTweaksIndoorTreeFarmsAdjacentSow>
   <!-- EN: Allow plants to be planted under roofs. -->
@@ -445,7 +445,7 @@
   <!-- EN: Allows you to adjust the radius and speed at which Polux plants absorb pollution from the area. -->
   <FSFTweaksXenogeneRegrowTimeOnDesc>Te permite ajustar el radio y la velocidad a la que las plantas Polux absorben la contaminación del área.</FSFTweaksXenogeneRegrowTimeOnDesc>
   <!-- EN: Replantable -->
-  <FSFTweaksPoluxReplantableTitle>TODO</FSFTweaksPoluxReplantableTitle>
+  <FSFTweaksPoluxReplantableTitle>Replantable</FSFTweaksPoluxReplantableTitle>
   <!-- EN: Changes Polux plants to be replantable allowing you to move them to another area. -->
   <FSFTweaksPoluxReplantableDesc>Cambia las plantas Polux para que se puedan replantar, permitiéndote moverlas a otra zona.</FSFTweaksPoluxReplantableDesc>
   <!-- EN: Seeds From Trees -->
@@ -565,11 +565,11 @@
   <!-- EN: Precepts and Memes -->
   <FSFTweaksPreceptsandMemesTitle>Preceptos y Memes</FSFTweaksPreceptsandMemesTitle>
   <!-- EN: Roles -->
-  <FSFTweaksRolesTitle>TODO</FSFTweaksRolesTitle>
+  <FSFTweaksRolesTitle>Roles</FSFTweaksRolesTitle>
   <!-- EN: Archonexus Radius -->
   <FSFTweaksArchonexusRadiusTitle>Radio del Arconexo</FSFTweaksArchonexusRadiusTitle>
   <!-- EN: Scales down the radius of the Archonexus&apos;s effects on the initial structures so it expands only slightly out from the towers.  This allows you to safely build and plant around the Archonexus while still allowing it to produce its effects.  The number and density of anima grass has also been doubled. -->
-  <FSFTweaksArchonexusRadiusDesc>TODO</FSFTweaksArchonexusRadiusDesc>
+  <FSFTweaksArchonexusRadiusDesc>Reduce el radio de los efectos del arconexo sobre las estructuras iniciales para que se extienda solo un poco más allá de las torres. Esto te permite construir y plantar con seguridad alrededor del arconexo sin dejar de aprovechar sus efectos. La cantidad y densidad del pasto de anima también se duplicó.</FSFTweaksArchonexusRadiusDesc>
   <!-- EN: Better Mining Worksite Resources -->
   <FSFTweaksMiningWorksiteResourcesTitle>Mejores recursos de centros de trabajo de minería</FSFTweaksMiningWorksiteResourcesTitle>
   <!-- EN: Changes Mining Worksites so they can spawn with extra resource types like Jade, Plasteel and Uranium.  The weighting odds are balanced around the Deep Drill commonality. -->
@@ -631,7 +631,7 @@
   <!-- EN: Allows you to change the required amount of people for ideology roles to unlock from the 3 to whatever number you want. -->
   <FSFTweaksPeopleRequiredForRolesOnDesc>Te permite cambiar la cantidad requerida de personas para que los roles de ideología se desbloqueen de 3 a cualquier número que desees.</FSFTweaksPeopleRequiredForRolesOnDesc>
   <!-- EN: Roles Don&apos;t Require Memes -->
-  <FSFTweaksRolesDontRequireMemesTitle>TODO</FSFTweaksRolesDontRequireMemesTitle>
+  <FSFTweaksRolesDontRequireMemesTitle>Los roles no requieren memes</FSFTweaksRolesDontRequireMemesTitle>
   <!-- EN: Removes the requirement of Memes from Roles and their associated Abilities. -->
   <FSFTweaksRolesDontRequireMemesDesc>Elimina el requisito de memes de los roles y sus habilidades asociadas.</FSFTweaksRolesDontRequireMemesDesc>
   <!-- EN: Warning: Removing the Meme lock will cause all Ideoligions to spawn with every role initially. -->
@@ -655,7 +655,7 @@
   <!-- EN: Masterful Quality Certainly Gain -{FSFConversionREMasterfulCertainty} -->
   <FSFTweaksConversionREMasterfulCertainty>Ganancia de certeza de calidad magistral -{FSFConversionREMasterfulCertainty}</FSFTweaksConversionREMasterfulCertainty>
   <!-- EN: Input values to adjust the resulting Conversion Ritual Effectiveness&apos;s chance and certainty for each ritual quality.  Terrible and Ineffective are always negative and Effective and Masterful are always positive.  If you change the ritual chances ensure the four ritual quality chances add up to 100% otherwise there may be issues.\nVanilla Settings (Terrible 0.05, 0.20, Ineffective 0.15, 0.12, Effective 0.60, -0.30, Masterful 0.20, -1.00). -->
-  <FSFTweaksConversionRitualEffectivenessDesc>TODO</FSFTweaksConversionRitualEffectivenessDesc>
+  <FSFTweaksConversionRitualEffectivenessDesc>Ingresa valores para ajustar la probabilidad y la certeza resultantes de la efectividad del ritual de conversión para cada calidad de ritual. Terrible e Ineficaz son siempre negativos, y Efectivo y Magistral son siempre positivos. Si cambias las probabilidades de ritual, asegúrate de que las cuatro sumen 100 %, o podría haber problemas.\nAjustes originales (Terrible 0.05, 0.20; Ineficaz 0.15, 0.12; Efectivo 0.60, -0.30; Magistral 0.20, -1.00).</FSFTweaksConversionRitualEffectivenessDesc>
   <!-- EN: Ticks to Recharge -->
   <FSFTweaksNeuralSuperchargerCooldown>Ticks para recargar</FSFTweaksNeuralSuperchargerCooldown>
   <!-- EN: Input a value to adjust the cooldown of the Neural Supercharger.  The value is written in what the game calls ticks.  There are 2500 ticks in one game hour.\nThe Vanilla value is 60000 (1 day), set to 0 to remove the cooldown completely. -->
@@ -677,13 +677,13 @@
   <!-- EN: Adds a number of different Custom Xenotypes as Defs for better compatibility with mods.  Enabling this option alone does not toggle anything on, it only displays more options.  All Xenotypes are off by default and can be enabled individually. -->
   <FSFTweaksAddXenotypesOnDesc>Añade una serie de xenotipos personalizados diferentes como Defs para una mejor compatibilidad con mods. Activar esta opción por sí sola no activa nada, solo muestra más opciones. Todos los xenotipos están desactivados por defecto y se pueden activar individualmente.</FSFTweaksAddXenotypesOnDesc>
   <!-- EN: Multiple Birth Gene -->
-  <FSFTweaksMultipleBirthGeneTitle>TODO</FSFTweaksMultipleBirthGeneTitle>
+  <FSFTweaksMultipleBirthGeneTitle>Gen de parto múltiple</FSFTweaksMultipleBirthGeneTitle>
   <!-- EN: Adds a new gene that allows pawns to rarely give birth to multiple babies.  With the gene there is a 97% chance of one baby, a 1% chance of twins, a 1% chance of triplets and a 1% chance of quads. -->
-  <FSFTweaksMultipleBirthGeneDesc>TODO</FSFTweaksMultipleBirthGeneDesc>
+  <FSFTweaksMultipleBirthGeneDesc>Añade un nuevo gen que permite a los colonos dar a luz, en raras ocasiones, a varios bebés. Con el gen hay un 97 % de probabilidad de un bebé, un 1 % de mellizos, un 1 % de trillizos y un 1 % de cuatrillizos.</FSFTweaksMultipleBirthGeneDesc>
   <!-- EN: Twins Birth Gene -->
-  <FSFTweaksTwinsBirthGeneTitle>TODO</FSFTweaksTwinsBirthGeneTitle>
+  <FSFTweaksTwinsBirthGeneTitle>Gen de parto de mellizos</FSFTweaksTwinsBirthGeneTitle>
   <!-- EN: Adds a new gene that causes a pawn to always give birth to twins. -->
-  <FSFTweaksTwinsBirthGeneDesc>TODO</FSFTweaksTwinsBirthGeneDesc>
+  <FSFTweaksTwinsBirthGeneDesc>Añade un nuevo gen que hace que un colono siempre dé a luz mellizos.</FSFTweaksTwinsBirthGeneDesc>
   <!-- EN: Growth Vat No Default Settings -->
   <FSFTweaksGrowthVatNoDefaultSettingsTitle>Tanque de crecimiento sin ajustes predeterminados</FSFTweaksGrowthVatNoDefaultSettingsTitle>
   <!-- EN: When enabled Growth Vats will no longer have any default settings for nutrition.\nNote: This tweak is not needed if No Default Storage Settings is enabled but it will not cause issues if it is. -->
@@ -703,15 +703,15 @@
   <!-- EN: Xenogene Regrow Time -->
   <FSFTweaksXenogeneRegrowTimeTitle>Tiempo de regeneración de xenogenes</FSFTweaksXenogeneRegrowTimeTitle>
   <!-- EN: No RNG Gene Tools -->
-  <FSFTweaksNoRNGGeneToolsTitle>TODO</FSFTweaksNoRNGGeneToolsTitle>
+  <FSFTweaksNoRNGGeneToolsTitle>Herramientas genéticas sin azar</FSFTweaksNoRNGGeneToolsTitle>
   <!-- EN: Changes the randomness of the normal Gene Tools from Alpha Genes to use the Archotech variant which allows you to specifically target a gene of your choice. -->
-  <FSFTweaksNoRNGGeneToolsDesc>TODO</FSFTweaksNoRNGGeneToolsDesc>
+  <FSFTweaksNoRNGGeneToolsDesc>Cambia la aleatoriedad de las herramientas genéticas normales de Alpha Genes para que usen la variante arqueotéc, que permite apuntar específicamente al gen que elijas.</FSFTweaksNoRNGGeneToolsDesc>
   <!-- EN: Human Lactation Settings -->
   <FSFTweaksHumanLactationSettingsTitle>Ajustes de lactancia humana</FSFTweaksHumanLactationSettingsTitle>
   <!-- EN: Provides a set of options for changing things related to human lactation. -->
   <FSFTweaksHumanLactationOnDesc>Ofrece un conjunto de opciones para cambiar cosas relacionadas con la lactancia humana.</FSFTweaksHumanLactationOnDesc>
   <!-- EN: Warning: These settings are not compatible with the mod Lactation Expansion. -->
-  <FSFTweaksHumanLactationWarning>TODO</FSFTweaksHumanLactationWarning>
+  <FSFTweaksHumanLactationWarning>Advertencia: estos ajustes no son compatibles con el mod Lactation Expansion.</FSFTweaksHumanLactationWarning>
   <!-- EN: Primitive Fertility Procedures -->
   <FSFTweaksNeolithicFertilityProceduresTitle>Procedimientos de fertilidad primitivos</FSFTweaksNeolithicFertilityProceduresTitle>
   <!-- EN: Adds a new research project for the Neolithic era which provides surgery recipes that use medicine for boosting/inhibiting fertility, inducing/stopping lactation and sterilizing pawns.  Locks the sterilize animal and terminate pregnancy surgery recipes to this research.  Also makes this research a requirement for the Fertility Procedures research but lowers the research cost to compensate. -->
@@ -751,7 +751,7 @@
   <!-- EN: Venerated Xenotype -->
   <FSFTweaksAddXenotypesVeneratedTitle>Xenotipo venerado</FSFTweaksAddXenotypesVeneratedTitle>
   <!-- EN: Adds a dummy xenotype to the game meant to be used with the mod Venerated Xenotype Flexibility.  The xenotype itself does not appear in any faction and uses only a couple genes that will likely be used in any end game custom xenotype build.  As such, regardless of the game&apos;s theme the Venerated Xenotype should fit the end game custom xenotype when used alongside the Precept that requires specific genes but allows any additional genes.  The genes used are Archite Metabolism, Dark Vision, Quick Study and Xenogerm Reimplanter. -->
-  <FSFTweaksAddXenotypesVeneratedDesc>TODO</FSFTweaksAddXenotypesVeneratedDesc>
+  <FSFTweaksAddXenotypesVeneratedDesc>Añade al juego un xenotipo de relleno pensado para usarse con el mod Venerated Xenotype Flexibility. El xenotipo en sí no aparece en ninguna facción y usa solo un par de genes que probablemente se usen en cualquier xenotipo personalizado de fin de partida. Por eso, sin importar la temática de la partida, el xenotipo venerado debería encajar con el xenotipo personalizado de fin de partida cuando se usa junto al precepto que exige genes específicos pero permite genes adicionales. Los genes usados son Metabolismo arquita, Visión oscura, Aprendizaje rápido y Reimplantador de xenogermen.</FSFTweaksAddXenotypesVeneratedDesc>
   <!-- EN: Gene Bank Storage Limit -->
   <FSFTweaksLargerGenebanks>Límite de almacenamiento del banco de genes</FSFTweaksLargerGenebanks>
   <!-- EN: Gene Bank Storage Limit -->
@@ -763,9 +763,9 @@
   <!-- EN: Gene Processor Complexity Increase -->
   <FSFTweaksLargerGeneProcessor>Aumento de complejidad del procesador de genes</FSFTweaksLargerGeneProcessor>
   <!-- EN: Gene Subprocessor Complexity Increase -->
-  <FSFTweaksOAGNLargerGeneSubprocessor>TODO</FSFTweaksOAGNLargerGeneSubprocessor>
+  <FSFTweaksOAGNLargerGeneSubprocessor>Aumento de complejidad del subprocesador genético</FSFTweaksOAGNLargerGeneSubprocessor>
   <!-- EN: Gene Macroprocessor Complexity Increase -->
-  <FSFTweaksOAGNLargerGeneMacroprocessor>TODO</FSFTweaksOAGNLargerGeneMacroprocessor>
+  <FSFTweaksOAGNLargerGeneMacroprocessor>Aumento de complejidad del macroprocesador genético</FSFTweaksOAGNLargerGeneMacroprocessor>
   <!-- EN: Input a value to adjust the complexity provided by Gene Processors.  The value is how much Complexity given by each Gene Processor.\nThe Vanilla value Gene Processor 2, Gene Subprocessor 4, Gene Macroprocessor 8. -->
   <FSFTweaksLargerGeneProcessorsDesc>Introduce un valor para ajustar la complejidad que proporcionan los procesadores de genes. El valor es cuánta complejidad aporta cada procesador de genes.\nEl valor de Vanilla es: Procesador de genes 2, Subprocesador de genes 4, Macroprocesador de genes 8.</FSFTweaksLargerGeneProcessorsDesc>
   <!-- EN: Genepack Amount Minimum Range -->
@@ -785,7 +785,7 @@
   <!-- EN: Input a value to adjust the regrowth time of Xenogenes.  The value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 6000000 (100 days) to 8400000 (140 Days).\nSome values for easy input, (5 Days) 300000 ticks, (10 Days) 600000 ticks, (15 Days) 900000 ticks, (30 Days) 1800000 ticks, (45 Days) 2700000 ticks, (60 Days) 3600000 ticks. -->
   <FSFTweaksXenogeneRegrowTimeDesc>Introduce un valor para ajustar el tiempo de regeneración de xenogenes. El valor se expresa en lo que el juego llama ticks. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nEl valor de Vanilla es 6000000 (100 días) a 8400000 (140 días).\nAlgunos valores para entrada fácil: (5 días) 300000 ticks, (10 días) 600000 ticks, (15 días) 900000 ticks, (30 días) 1800000 ticks, (45 días) 2700000 ticks, (60 días) 3600000 ticks.</FSFTweaksXenogeneRegrowTimeDesc>
   <!-- EN: Lactating Doesn&apos;t Lower Fertility -->
-  <FSFTweaksLactatingNoFertilityMalusTitle>TODO</FSFTweaksLactatingNoFertilityMalusTitle>
+  <FSFTweaksLactatingNoFertilityMalusTitle>La lactancia no reduce la fertilidad</FSFTweaksLactatingNoFertilityMalusTitle>
   <!-- EN: Removes the massive fertility reduction for people who are lactating. -->
   <FSFTweaksLactatingNoFertilityMalusDesc>Elimina la reducción masiva de fertilidad para las personas que están lactando.</FSFTweaksLactatingNoFertilityMalusDesc>
   <!-- EN: Lactation Duration -->
@@ -799,7 +799,7 @@
   <!-- EN: Lactation Recharge Speed in Ticks -->
   <FSFTweaksLactationRechargeSpeed>Velocidad de recarga de la lactancia en ticks</FSFTweaksLactationRechargeSpeed>
   <!-- EN: Input a value to set how long it takes a person&apos;s breasts to reach a full state.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 15000 ticks, a total of 6 hours, it&apos;s commented as 2 hours to feed a child and 4 hours to recharge. -->
-  <FSFTweaksLactationRechargeSpeedDesc>TODO</FSFTweaksLactationRechargeSpeedDesc>
+  <FSFTweaksLactationRechargeSpeedDesc>Ingresa un valor para fijar cuánto tarda el pecho de una persona en alcanzar el estado lleno. Los ticks son un término del juego para el tiempo. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nEl valor original es 15000 ticks, un total de 6 horas: se comenta como 2 horas para alimentar a un niño y 4 horas para recargarse.</FSFTweaksLactationRechargeSpeedDesc>
   <!-- EN: Warning: Changing this value changes the required food intake of the lactating pawn.  Making it very low will cause the pawn to require a massive amount of food. -->
   <FSFTweaksLactationRechargeSpeedWarning>Advertencia: Cambiar este valor modifica la ingesta de comida necesaria del colono en lactancia. Ponerlo muy bajo hará que el colono requiera una cantidad enorme de comida.</FSFTweaksLactationRechargeSpeedWarning>
   <!-- EN: Ovum Extracted Duration -->
@@ -807,7 +807,7 @@
   <!-- EN: Ovum Extracted Duration in Ticks -->
   <FSFTweaksOvumExtractedDuration>Duración del óvulo extraído en ticks</FSFTweaksOvumExtractedDuration>
   <!-- EN: Input a value to set how long it takes a woman&apos;s ovum to regenerate.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 600000 ticks (10 Days). -->
-  <FSFTweaksOvumExtractedDurationDesc>TODO</FSFTweaksOvumExtractedDurationDesc>
+  <FSFTweaksOvumExtractedDurationDesc>Ingresa un valor para fijar cuánto tarda en regenerarse el óvulo de una mujer. Los ticks son un término del juego para el tiempo. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nEl valor original es 600000 ticks (10 días).</FSFTweaksOvumExtractedDurationDesc>
   <!-- EN: Human Pregnancy Duration -->
   <FSFTweaksHumanPregnancyTitle>Duración del embarazo humano</FSFTweaksHumanPregnancyTitle>
   <!-- EN: Pregnancy Duration In Days -->
@@ -821,33 +821,33 @@
   <!-- EN: Input a value to set the duration of Human Postpartum Exhaustion.  Ticks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nThe Vanilla value is 40000 ticks (16 hours). -->
   <FSFTweaksPostpartumDurationDesc>Introduce un valor para establecer la duración del agotamiento posparto humano. Los ticks son un término del juego para el tiempo. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nEl valor de Vanilla es 40000 ticks (16 horas).</FSFTweaksPostpartumDurationDesc>
   <!-- EN: Human Refractory Duration -->
-  <FSFTweaksRefractoryDurationTitle>TODO</FSFTweaksRefractoryDurationTitle>
+  <FSFTweaksRefractoryDurationTitle>Duración del período refractario humano</FSFTweaksRefractoryDurationTitle>
   <!-- EN: Refractory Duration In Ticks -->
-  <FSFTweaksRefractoryDuration>TODO</FSFTweaksRefractoryDuration>
+  <FSFTweaksRefractoryDuration>Duración del período refractario en ticks</FSFTweaksRefractoryDuration>
   <!-- EN: Alpha Genes Asexual Fission Interval -->
-  <FSFTweaksAGAsexualFissionDaysTitle>TODO</FSFTweaksAGAsexualFissionDaysTitle>
+  <FSFTweaksAGAsexualFissionDaysTitle>Intervalo de fisión asexual de Alpha Genes</FSFTweaksAGAsexualFissionDaysTitle>
   <!-- EN: Asexual Fission Interval In Days -->
-  <FSFTweaksAGAsexualFissionDays>TODO</FSFTweaksAGAsexualFissionDays>
+  <FSFTweaksAGAsexualFissionDays>Intervalo de fisión asexual en días</FSFTweaksAGAsexualFissionDays>
   <!-- EN: Input a value to set the Asexual Fission Interval for the Alpha Genes Asexual Fission gene.\nThe Vanilla value is 25 days. -->
-  <FSFTweaksAGAsexualFissionDaysDesc>TODO</FSFTweaksAGAsexualFissionDaysDesc>
+  <FSFTweaksAGAsexualFissionDaysDesc>Ingresa un valor para fijar el intervalo de fisión asexual del gen Fisión asexual de Alpha Genes.\nEl valor original es 25 días.</FSFTweaksAGAsexualFissionDaysDesc>
   <!-- EN: Alpha Genes Oviparous Egg Laying Interval -->
-  <FSFTweaksAGEggLayDaysTitle>TODO</FSFTweaksAGEggLayDaysTitle>
+  <FSFTweaksAGEggLayDaysTitle>Intervalo de puesta de huevos ovíparos de Alpha Genes</FSFTweaksAGEggLayDaysTitle>
   <!-- EN: Oviparous Egg Laying Interval In Days -->
-  <FSFTweaksAGEggLayDays>TODO</FSFTweaksAGEggLayDays>
+  <FSFTweaksAGEggLayDays>Intervalo de puesta de huevos ovíparos en días</FSFTweaksAGEggLayDays>
   <!-- EN: Input a value to set the Oviparous Egg Laying Interval for the Alpha Genes Oviparous gene.  The progress will count up to 50% of this value and remain there until the female is fertilized.\nThe Vanilla value is 9 days. -->
-  <FSFTweaksAGEggLayDaysDesc>TODO</FSFTweaksAGEggLayDaysDesc>
+  <FSFTweaksAGEggLayDaysDesc>Ingresa un valor para fijar el intervalo de puesta de huevos ovíparos del gen Ovíparo de Alpha Genes. El progreso llegará hasta el 50 % de ese valor y se quedará ahí hasta que la hembra sea fecundada.\nEl valor original es 9 días.</FSFTweaksAGEggLayDaysDesc>
   <!-- EN: Alpha Genes Oviparous Egg Days To Hatch -->
-  <FSFTweaksAGEggHatchDaysTitle>TODO</FSFTweaksAGEggHatchDaysTitle>
+  <FSFTweaksAGEggHatchDaysTitle>Días de eclosión de huevos ovíparos de Alpha Genes</FSFTweaksAGEggHatchDaysTitle>
   <!-- EN: Oviparous Egg Days To Hatch -->
   <FSFTweaksAGEggHatchDays>Días para eclosionar del huevo ovíparo</FSFTweaksAGEggHatchDays>
   <!-- EN: Input a value to set how long it takes for Alpha Genes Human Eggs to hatch.\nThe Vanilla value is 15 days. -->
-  <FSFTweaksAGEggHatchDaysDesc>TODO</FSFTweaksAGEggHatchDaysDesc>
+  <FSFTweaksAGEggHatchDaysDesc>Ingresa un valor para fijar cuánto tardan en eclosionar los huevos humanos de Alpha Genes.\nEl valor original es 15 días.</FSFTweaksAGEggHatchDaysDesc>
   <!-- EN: Alpha Genes Parasitic Implantation Duration -->
-  <FSFTweaksAGParasiticImplantationDaysTitle>TODO</FSFTweaksAGParasiticImplantationDaysTitle>
+  <FSFTweaksAGParasiticImplantationDaysTitle>Duración de la implantación parasitaria de Alpha Genes</FSFTweaksAGParasiticImplantationDaysTitle>
   <!-- EN: Parasitic Implantation Duration In Days -->
-  <FSFTweaksAGParasiticImplantationDays>TODO</FSFTweaksAGParasiticImplantationDays>
+  <FSFTweaksAGParasiticImplantationDays>Duración de la implantación parasitaria en días</FSFTweaksAGParasiticImplantationDays>
   <!-- EN: Input a value to set the duration of Parasitic Implantation for the Alpha Genes Parasitic Implantation gene.\nThe Vanilla value is 15 days. -->
-  <FSFTweaksAGParasiticImplantationDaysDesc>TODO</FSFTweaksAGParasiticImplantationDaysDesc>
+  <FSFTweaksAGParasiticImplantationDaysDesc>Ingresa un valor para fijar la duración de la implantación parasitaria del gen Implantación parasitaria de Alpha Genes.\nEl valor original es 15 días.</FSFTweaksAGParasiticImplantationDaysDesc>
   <!-- EN: VRE Phytokin Sapling Fatigue Duration -->
   <FSFTweaksSaplingFatigueTitle>Duración de la fatiga de brote de VRE Phytokin</FSFTweaksSaplingFatigueTitle>
   <!-- EN: Sapling Fatigue Duration In Days -->
@@ -893,7 +893,7 @@
   <!-- EN: Ghouls -->
   <FSFTweaksGhoulsTitle>Necrófagos</FSFTweaksGhoulsTitle>
   <!-- EN: Shamblers -->
-  <FSFTweaksShamblersTitle>TODO</FSFTweaksShamblersTitle>
+  <FSFTweaksShamblersTitle>Caminantes</FSFTweaksShamblersTitle>
   <!-- EN: Ghouls Can Use Any Ability -->
   <FSFTweaksGhoulsAnyAbilityTitle>Los necrófagos pueden usar cualquier habilidad</FSFTweaksGhoulsAnyAbilityTitle>
   <!-- EN: Ghouls have a white list of abilities they are allowed to use.  Any ability not on this list will not appear on the ghoul as a UI button to activate.  This tweak removes the white list which results in the game allowing ghouls to use any ability they might have gained via genes, bionics or other methods. -->
@@ -913,7 +913,7 @@
   <!-- EN: Permanent Shambler Infection -->
   <FSFTweaksPermanentShamblerInfectionTitle>Infección de caminante permanente</FSFTweaksPermanentShamblerInfectionTitle>
   <!-- EN: Adds a hidden hediff that can be applied in the Scenario Settings.  This hediff is a Shambler Infection that does not progress and cannot be cured.  This allows the pawn to immediately return as a shambler in the event of their death even if they weren&apos;t previously infected by a shambler. -->
-  <FSFTweaksPermanentShamblerInfectionDesc>TODO</FSFTweaksPermanentShamblerInfectionDesc>
+  <FSFTweaksPermanentShamblerInfectionDesc>Añade una condición de salud oculta que puede aplicarse en la configuración de escenarios. Esta condición es una infección de caminante que no progresa y no puede curarse. Permite que el colono regrese de inmediato como caminante al morir, incluso si antes no había sido infectado por uno.</FSFTweaksPermanentShamblerInfectionDesc>
   <!-- EN: Realistic Shamblers -->
   <FSFTweaksRealisticShamblersTitle>Caminantes realistas</FSFTweaksRealisticShamblersTitle>
   <!-- EN: Makes a number of changes to Shamblers so they more accurately resemble people from factions.  They can have bionics, they can have helmets and they can have better gear with higher health and quality.\nNote: This will make shamblers especially soldier variants more dangerous as they now can spawn with proper armour. -->
@@ -931,23 +931,23 @@
   <!-- EN: Land On Any Site -->
   <FSFTweaksLandOnAnySiteTitle>Aterrizar en cualquier lugar</FSFTweaksLandOnAnySiteTitle>
   <!-- EN: Patches all SitePartDef&apos;s to add the tag gravShipsCanLandOn allowing Gravships to land on any site spawned on the world map.  Some sites may have events which are scaled to map wealth so landing a very expensive gravship there can be a bad idea.  This issue should only happen with a few mod added sites, regardless its a good idea to save before flying your ship anywhere in case things go horribly wrong. -->
-  <FSFTweaksLandOnAnySiteDesc>TODO</FSFTweaksLandOnAnySiteDesc>
+  <FSFTweaksLandOnAnySiteDesc>Parchea todos los SitePartDef para añadir la etiqueta gravShipsCanLandOn, lo que permite que las naves gravitacionales aterricen en cualquier sitio generado en el mapa mundial. Algunos sitios pueden tener eventos escalados según la riqueza del mapa, así que aterrizar allí una nave gravitacional muy cara puede ser mala idea. Esto solo debería pasar con unos pocos sitios añadidos por mods; de todos modos, conviene guardar antes de volar a cualquier parte por si algo sale terriblemente mal.</FSFTweaksLandOnAnySiteDesc>
   <!-- EN: Anthrosonae Tweaks -->
-  <FSFTweaksAnthrosonaeTweaksTitle>TODO</FSFTweaksAnthrosonaeTweaksTitle>
+  <FSFTweaksAnthrosonaeTweaksTitle>Ajustes de Anthrosonae</FSFTweaksAnthrosonaeTweaksTitle>
   <!-- EN: Anthrosonae Animusen -->
-  <FSFTweaksAnthrosonaeAnimusenTitle>TODO</FSFTweaksAnthrosonaeAnimusenTitle>
+  <FSFTweaksAnthrosonaeAnimusenTitle>Anthrosonae Animusen</FSFTweaksAnthrosonaeAnimusenTitle>
   <!-- EN: Changes the Animusen xenotype from the mod Alpha Genes to use cosmetic Anthrosonae Anthrofox genes. -->
-  <FSFTweaksAnthrosonaeAnimusenDesc>TODO</FSFTweaksAnthrosonaeAnimusenDesc>
+  <FSFTweaksAnthrosonaeAnimusenDesc>Cambia el xenotipo Animusen del mod Alpha Genes para que use genes cosméticos Anthrofox de Anthrosonae.</FSFTweaksAnthrosonaeAnimusenDesc>
   <!-- EN: Anthrosonae Yttakin -->
-  <FSFTweaksAnthrosonaeYttakinTitle>TODO</FSFTweaksAnthrosonaeYttakinTitle>
+  <FSFTweaksAnthrosonaeYttakinTitle>Anthrosonae Yttakin</FSFTweaksAnthrosonaeYttakinTitle>
   <!-- EN: Changes the Yttakin from the Biotech DLC to use cosmetic Anthrosonae Anthrowolf genes. -->
-  <FSFTweaksAnthrosonaeYttakinDesc>TODO</FSFTweaksAnthrosonaeYttakinDesc>
+  <FSFTweaksAnthrosonaeYttakinDesc>Cambia a los yttakin del DLC Biotech para que usen genes cosméticos Anthrowolf de Anthrosonae.</FSFTweaksAnthrosonaeYttakinDesc>
   <!-- EN: Big and Small - Framework Tweaks -->
-  <FSFTweaksBSFTweaksTitle>TODO</FSFTweaksBSFTweaksTitle>
+  <FSFTweaksBSFTweaksTitle>Big and Small - Ajustes del framework</FSFTweaksBSFTweaksTitle>
   <!-- EN: No Size Trait Changes -->
-  <FSFTweaksBSFNoSizeTraitChangesTitle>TODO</FSFTweaksBSFNoSizeTraitChangesTitle>
+  <FSFTweaksBSFNoSizeTraitChangesTitle>Sin cambios por rasgos de tamaño</FSFTweaksBSFNoSizeTraitChangesTitle>
   <!-- EN: Removes all the skill and lifespan modifiers from the Big and Small size traits. -->
-  <FSFTweaksBSFNoSizeTraitChangesDesc>TODO</FSFTweaksBSFNoSizeTraitChangesDesc>
+  <FSFTweaksBSFNoSizeTraitChangesDesc>Elimina todos los modificadores de habilidad y esperanza de vida de los rasgos de tamaño de Big and Small.</FSFTweaksBSFNoSizeTraitChangesDesc>
   <!-- EN: Common Sense Tweaks -->
   <FSFTweaksCommonSenseTweaksTitle>Ajustes de Common Sense</FSFTweaksCommonSenseTweaksTitle>
   <!-- EN: Smarter Cleaning -->
@@ -955,91 +955,91 @@
   <!-- EN: Disables opportunistic cleaning for a number of tasks.  Such as Flicking switches, Opening items, Repairing things, Uninstalling things, Deconstructing things, Rearming traps/turrets and more. -->
   <FSFTweaksCSSmarterCleaningDesc>Desactiva la limpieza oportunista en varias tareas, como accionar interruptores, abrir objetos, reparar cosas, desinstalar cosas, desmantelar cosas, rearmar trampas/torretas y más.</FSFTweaksCSSmarterCleaningDesc>
   <!-- EN: Dubs Bad Hygiene Tweaks -->
-  <FSFTweaksDubsBadHygieneTweaksTitle>TODO</FSFTweaksDubsBadHygieneTweaksTitle>
+  <FSFTweaksDubsBadHygieneTweaksTitle>Ajustes de Dubs Bad Hygiene</FSFTweaksDubsBadHygieneTweaksTitle>
   <!-- EN: Immortal Pipes -->
-  <FSFTweaksDubsBadHygieneImmortalPipesTitle>TODO</FSFTweaksDubsBadHygieneImmortalPipesTitle>
+  <FSFTweaksDubsBadHygieneImmortalPipesTitle>Tuberías inmortales</FSFTweaksDubsBadHygieneImmortalPipesTitle>
   <!-- EN: Makes pipes immortal, they have no health and can&apos;t catch fire. -->
-  <FSFTweaksDubsBadHygieneImmortalPipesDesc>TODO</FSFTweaksDubsBadHygieneImmortalPipesDesc>
+  <FSFTweaksDubsBadHygieneImmortalPipesDesc>Vuelve inmortales a las tuberías: no tienen salud y no pueden incendiarse.</FSFTweaksDubsBadHygieneImmortalPipesDesc>
   <!-- EN: Hauts Added Traits Tweaks -->
-  <FSFTweaksHATTweaksTitle>TODO</FSFTweaksHATTweaksTitle>
+  <FSFTweaksHATTweaksTitle>Ajustes de Hauts Added Traits</FSFTweaksHATTweaksTitle>
   <!-- EN: Latent Psychics Revealed -->
-  <FSFTweaksHATLatentPsychicsTitle>TODO</FSFTweaksHATLatentPsychicsTitle>
+  <FSFTweaksHATLatentPsychicsTitle>Psíquicos latentes revelados</FSFTweaksHATLatentPsychicsTitle>
   <!-- EN: Removes all the mystery for Latent Psychics so you know exactly how to get them to awaken.  The traits now show the unlock type in their label and the description has full details explaining all the methods and their odds to awaken a person. -->
-  <FSFTweaksHATLatentPsychicsDesc>TODO</FSFTweaksHATLatentPsychicsDesc>
+  <FSFTweaksHATLatentPsychicsDesc>Elimina todo el misterio de los psíquicos latentes para que sepas exactamente cómo despertarlos. Ahora los rasgos muestran el tipo de desbloqueo en su etiqueta, y la descripción trae todos los detalles de cada método y sus probabilidades de despertar a una persona.</FSFTweaksHATLatentPsychicsDesc>
   <!-- EN: Lethal Darkness Tweaks -->
-  <FSFTweaksLethalDarknessTweaksTitle>TODO</FSFTweaksLethalDarknessTweaksTitle>
+  <FSFTweaksLethalDarknessTweaksTitle>Ajustes de Lethal Darkness</FSFTweaksLethalDarknessTweaksTitle>
   <!-- EN: Pitch Black Darkness -->
-  <FSFTweaksPitchBlackDarknessTitle>TODO</FSFTweaksPitchBlackDarknessTitle>
+  <FSFTweaksPitchBlackDarknessTitle>Oscuridad total</FSFTweaksPitchBlackDarknessTitle>
   <!-- EN: Changes all weather types to give a pitch black darkness effect regardless of the time of day making it impossible to see anything without light sources.  This is designed to be used in conjunction with a permanent variant of Unnatural Darkness. -->
-  <FSFTweaksPitchBlackDarknessDesc>TODO</FSFTweaksPitchBlackDarknessDesc>
+  <FSFTweaksPitchBlackDarknessDesc>Cambia todos los tipos de clima para que produzcan un efecto de oscuridad total sin importar la hora del día, lo que hace imposible ver nada sin fuentes de luz. Está pensado para usarse junto con una variante permanente de Oscuridad antinatural.</FSFTweaksPitchBlackDarknessDesc>
   <!-- EN: [LTS] Ammunition - Simple Ammo Pack Tweaks -->
-  <FSFTweaksLTSAmmunitionSimpleTweaksTitle>TODO</FSFTweaksLTSAmmunitionSimpleTweaksTitle>
+  <FSFTweaksLTSAmmunitionSimpleTweaksTitle>[LTS] Ammunition - Ajustes de packs de munición simples</FSFTweaksLTSAmmunitionSimpleTweaksTitle>
   <!-- EN: Expensive Ammo -->
-  <FSFTweaksLTSExpensiveAmmoTitle>TODO</FSFTweaksLTSExpensiveAmmoTitle>
+  <FSFTweaksLTSExpensiveAmmoTitle>Munición cara</FSFTweaksLTSExpensiveAmmoTitle>
   <!-- EN: Changes the ammo crafting recipes from LTS to make ammunition more expensive to create.  The values are balanced around the idea that each ingredient will yield 1.5 units of ammo and each recipe will create 60 units of ammo.  The market price is automatically calculated based on the material costs.  Spacer ammo is made with a 1:2 ratio to make it somewhat cheaper than Ultratech ammo. -->
-  <FSFTweaksLTSExpensiveAmmoDesc>TODO</FSFTweaksLTSExpensiveAmmoDesc>
+  <FSFTweaksLTSExpensiveAmmoDesc>Cambia las recetas de fabricación de munición de LTS para que sea más cara de crear. Los valores están equilibrados con la idea de que cada ingrediente rinda 1,5 unidades de munición y cada receta cree 60 unidades. El precio de mercado se calcula automáticamente según el costo de los materiales. La munición espacial se fabrica con una proporción de 1:2 para que resulte algo más barata que la munición ultratecnológica.</FSFTweaksLTSExpensiveAmmoDesc>
   <!-- EN: No Kit Movement Speed Malus -->
-  <FSFTweaksLTSKitSpeedMalusTitle>TODO</FSFTweaksLTSKitSpeedMalusTitle>
+  <FSFTweaksLTSKitSpeedMalusTitle>Sin penalización de velocidad por los kits</FSFTweaksLTSKitSpeedMalusTitle>
   <!-- EN: Removes the movement speed malus from LTS Ammo Kits. -->
-  <FSFTweaksLTSKitSpeedMalusDesc>TODO</FSFTweaksLTSKitSpeedMalusDesc>
+  <FSFTweaksLTSKitSpeedMalusDesc>Elimina la penalización a la velocidad de movimiento de los kits de munición de LTS.</FSFTweaksLTSKitSpeedMalusDesc>
   <!-- EN: Packs Are Not Belts Tweaks -->
-  <FSFTweaksPacksAreNotBeltsTitle>TODO</FSFTweaksPacksAreNotBeltsTitle>
+  <FSFTweaksPacksAreNotBeltsTitle>Ajustes de Packs Are Not Belts</FSFTweaksPacksAreNotBeltsTitle>
   <!-- EN: Grenade Belt Layering -->
-  <FSFTweaksGrenadeBeltLayeringTitle>TODO</FSFTweaksGrenadeBeltLayeringTitle>
+  <FSFTweaksGrenadeBeltLayeringTitle>Capa de los cinturones de granadas</FSFTweaksGrenadeBeltLayeringTitle>
   <!-- EN: Changes the wearable grenade belts from Vanilla Weapons Expanded Grenades to use the Artifact layer added by Packs Are Not Belts.\nNote: This tweak requires the Artifact layer to be enabled in the Packs Are Not Belts mod settings. -->
-  <FSFTweaksGrenadeBeltLayeringDesc>TODO</FSFTweaksGrenadeBeltLayeringDesc>
+  <FSFTweaksGrenadeBeltLayeringDesc>Cambia los cinturones de granadas de Vanilla Weapons Expanded Grenades para que usen la capa Artefacto añadida por Packs Are Not Belts.\nNota: este ajuste requiere que la capa Artefacto esté activada en la configuración del mod Packs Are Not Belts.</FSFTweaksGrenadeBeltLayeringDesc>
   <!-- EN: Research Appropriation Tweaks -->
-  <FSFTweaksResearchAppropriationTweaksTitle>TODO</FSFTweaksResearchAppropriationTweaksTitle>
+  <FSFTweaksResearchAppropriationTweaksTitle>Ajustes de Research Appropriation</FSFTweaksResearchAppropriationTweaksTitle>
   <!-- EN: Buyable Research Data -->
-  <FSFTweaksRABuyableResearchDataTitle>TODO</FSFTweaksRABuyableResearchDataTitle>
+  <FSFTweaksRABuyableResearchDataTitle>Datos de investigación comprables</FSFTweaksRABuyableResearchDataTitle>
   <!-- EN: Adds tech appropriate Research Data buyable from bases, caravans and orbital traders for all factions.  The amount of which can be customized. -->
-  <FSFTweaksRABuyableResearchDataOnDesc>TODO</FSFTweaksRABuyableResearchDataOnDesc>
+  <FSFTweaksRABuyableResearchDataOnDesc>Añade datos de investigación acordes al nivel tecnológico, comprables en bases, caravanas y comerciantes orbitales de todas las facciones. La cantidad se puede personalizar.</FSFTweaksRABuyableResearchDataOnDesc>
   <!-- EN: Research Data Amount Minimum Range -->
-  <FSFTweaksRABuyableResearchDataMin>TODO</FSFTweaksRABuyableResearchDataMin>
+  <FSFTweaksRABuyableResearchDataMin>Rango mínimo de cantidad de datos de investigación</FSFTweaksRABuyableResearchDataMin>
   <!-- EN: Research Data Amount Maximum Range -->
-  <FSFTweaksRABuyableResearchDataMax>TODO</FSFTweaksRABuyableResearchDataMax>
+  <FSFTweaksRABuyableResearchDataMax>Rango máximo de cantidad de datos de investigación</FSFTweaksRABuyableResearchDataMax>
   <!-- EN: Adds tech appropriate Research Data buyable from bases, caravans and orbital traders for all factions.  Input values to adjust the minimum and maximum ranges for the above items.  You can set a minimum and maximum for the range.  The game will then use RNG to determine a number between those two numbers.\nDefault settings (1-3) -->
-  <FSFTweaksRABuyableResearchDataDesc>TODO</FSFTweaksRABuyableResearchDataDesc>
+  <FSFTweaksRABuyableResearchDataDesc>Añade datos de investigación acordes al nivel tecnológico, comprables en bases, caravanas y comerciantes orbitales de todas las facciones. Ingresa valores para ajustar los rangos mínimo y máximo de los objetos anteriores. Puedes fijar un mínimo y un máximo; el juego usará azar para determinar un número entre esos dos.\nAjustes predeterminados (1-3)</FSFTweaksRABuyableResearchDataDesc>
   <!-- EN: Research Reinvented Stepping Stones Tweaks -->
-  <FSFTweaksRRSSTweaksTitle>TODO</FSFTweaksRRSSTweaksTitle>
+  <FSFTweaksRRSSTweaksTitle>Ajustes de Research Reinvented Stepping Stones</FSFTweaksRRSSTweaksTitle>
   <!-- EN: Sorted Steps -->
-  <FSFTweaksRRSSSortedStepsTitle>TODO</FSFTweaksRRSSSortedStepsTitle>
+  <FSFTweaksRRSSSortedStepsTitle>Pasos ordenados</FSFTweaksRRSSSortedStepsTitle>
   <!-- EN: Patches numerous items from the Core game and mods that were missed to better fit the flow of research.  This is done by using research projects provided by Research Reinvented Stepping Stones and other mods such as Vanilla Expanded.  Also adds a number of items from mods to Research Reinvented&apos;s blacklist so they don&apos;t appear as research items.  These items are generally things like invisible walls or items that require a specific Ideology style.\nThis version is designed to only work without Vanilla Factions Expanded Tribals. -->
-  <FSFTweaksRRSSSortedStepsDesc>TODO</FSFTweaksRRSSSortedStepsDesc>
+  <FSFTweaksRRSSSortedStepsDesc>Parchea numerosos objetos del juego base y de mods que quedaron fuera, para que encajen mejor con el flujo de investigación. Se hace usando proyectos de investigación provistos por Research Reinvented Stepping Stones y otros mods como Vanilla Expanded. También añade varios objetos de mods a la lista negra de Research Reinvented para que no aparezcan como objetos de investigación. Suelen ser cosas como muros invisibles u objetos que requieren un estilo de Ideology específico.\nEsta versión está diseñada para funcionar solo sin Vanilla Factions Expanded Tribals.</FSFTweaksRRSSSortedStepsDesc>
   <!-- EN: Sorted Steps VFE Tribals -->
-  <FSFTweaksRRSSSortedStepsVFETribalsTitle>TODO</FSFTweaksRRSSSortedStepsVFETribalsTitle>
+  <FSFTweaksRRSSSortedStepsVFETribalsTitle>Pasos ordenados VFE Tribals</FSFTweaksRRSSSortedStepsVFETribalsTitle>
   <!-- EN: Patches numerous items from the Core game and mods that were missed to better fit the flow of research.  This is done by using research projects provided by Research Reinvented Stepping Stones and other mods such as Vanilla Expanded.  Also adds a number of items from mods to Research Reinvented&apos;s blacklist so they don&apos;t appear as research items.  These items are generally things like invisible walls or items that require a specific Ideology style.\nThis version requires Vanilla Factions Expanded Tribals. -->
-  <FSFTweaksRRSSSortedStepsVFETribalsDesc>TODO</FSFTweaksRRSSSortedStepsVFETribalsDesc>
+  <FSFTweaksRRSSSortedStepsVFETribalsDesc>Parchea numerosos objetos del juego base y de mods que quedaron fuera, para que encajen mejor con el flujo de investigación. Se hace usando proyectos de investigación provistos por Research Reinvented Stepping Stones y otros mods como Vanilla Expanded. También añade varios objetos de mods a la lista negra de Research Reinvented para que no aparezcan como objetos de investigación. Suelen ser cosas como muros invisibles u objetos que requieren un estilo de Ideology específico.\nEsta versión requiere Vanilla Factions Expanded Tribals.</FSFTweaksRRSSSortedStepsVFETribalsDesc>
   <!-- EN: SafeJobWorld Tweaks -->
-  <FSFTweaksSafeJobWorldTweaksTitle>TODO</FSFTweaksSafeJobWorldTweaksTitle>
+  <FSFTweaksSafeJobWorldTweaksTitle>Ajustes de SafeJobWorld</FSFTweaksSafeJobWorldTweaksTitle>
   <!-- EN: No Genital Size Debuffs -->
-  <FSFTweaksSJWNoGenitalSizeDebuffsTitle>TODO</FSFTweaksSJWNoGenitalSizeDebuffsTitle>
+  <FSFTweaksSJWNoGenitalSizeDebuffsTitle>Sin penalizaciones por tamaño genital</FSFTweaksSJWNoGenitalSizeDebuffsTitle>
   <!-- EN: Removes the Manipulation and Movement debuffs from large genital sizes. -->
-  <FSFTweaksSJWNoGenitalSizeDebuffsDesc>TODO</FSFTweaksSJWNoGenitalSizeDebuffsDesc>
+  <FSFTweaksSJWNoGenitalSizeDebuffsDesc>Elimina las penalizaciones de manipulación y movimiento por tamaños genitales grandes.</FSFTweaksSJWNoGenitalSizeDebuffsDesc>
   <!-- EN: Simple Utilities Ceiling Tweaks -->
-  <FSFTweaksSimpleUtilitiesCeilingTitle>TODO</FSFTweaksSimpleUtilitiesCeilingTitle>
+  <FSFTweaksSimpleUtilitiesCeilingTitle>Ajustes de Simple Utilities Ceiling</FSFTweaksSimpleUtilitiesCeilingTitle>
   <!-- EN: Biodome Sunlamp -->
-  <FSFTweaksBiodomeSunlampTitle>TODO</FSFTweaksBiodomeSunlampTitle>
+  <FSFTweaksBiodomeSunlampTitle>Lámpara solar de biodomo</FSFTweaksBiodomeSunlampTitle>
   <!-- EN: Adds a sun lamp that requires no power and is designed to act as a transparent biodome ceiling.  It&apos;s a simple alternative to mods that add skylights or transparent roofing.  Material cost and work to build should be fairly reasonable as if you&apos;re actually building a glass roof. -->
-  <FSFTweaksBiodomeSunlampDesc>TODO</FSFTweaksBiodomeSunlampDesc>
+  <FSFTweaksBiodomeSunlampDesc>Añade una lámpara solar que no requiere energía y está pensada para funcionar como un techo transparente de biodomo. Es una alternativa simple a los mods que añaden claraboyas o techos transparentes. El costo de materiales y el trabajo de construcción deberían ser bastante razonables, como si realmente estuvieras construyendo un techo de vidrio.</FSFTweaksBiodomeSunlampDesc>
   <!-- EN: Simple Utilities Fridge Tweaks -->
-  <FSFTweaksSimpleUtilitiesFridgeTweaksTitle>TODO</FSFTweaksSimpleUtilitiesFridgeTweaksTitle>
+  <FSFTweaksSimpleUtilitiesFridgeTweaksTitle>Ajustes de Simple Utilities Fridge</FSFTweaksSimpleUtilitiesFridgeTweaksTitle>
   <!-- EN: Cheaper Utilities -->
-  <FSFTweaksSUFCheaperUtilitiesTitle>TODO</FSFTweaksSUFCheaperUtilitiesTitle>
+  <FSFTweaksSUFCheaperUtilitiesTitle>Servicios más baratos</FSFTweaksSUFCheaperUtilitiesTitle>
   <!-- EN: Allows you to customise the power usage on various utilities. -->
-  <FSFTweaksSUFCheaperUtilitiesOnDesc>TODO</FSFTweaksSUFCheaperUtilitiesOnDesc>
+  <FSFTweaksSUFCheaperUtilitiesOnDesc>Te permite personalizar el consumo de energía de varios servicios.</FSFTweaksSUFCheaperUtilitiesOnDesc>
   <!-- EN: Refrigerator -->
-  <FSFTweaksSUFCheaperUtilitiesFridge>TODO</FSFTweaksSUFCheaperUtilitiesFridge>
+  <FSFTweaksSUFCheaperUtilitiesFridge>Heladera</FSFTweaksSUFCheaperUtilitiesFridge>
   <!-- EN: Double Refrigerator -->
-  <FSFTweaksSUFCheaperUtilitiesDoubleFridge>TODO</FSFTweaksSUFCheaperUtilitiesDoubleFridge>
+  <FSFTweaksSUFCheaperUtilitiesDoubleFridge>Heladera doble</FSFTweaksSUFCheaperUtilitiesDoubleFridge>
   <!-- EN: Input a value to adjust the power usage.\n Vanilla values Refrigerator (Default 80W), Double Refrigerator (Default 150W). -->
-  <FSFTweaksSUFCheaperUtilitiesDesc>TODO</FSFTweaksSUFCheaperUtilitiesDesc>
+  <FSFTweaksSUFCheaperUtilitiesDesc>Ingresa un valor para ajustar el consumo de energía.\n Valores originales: heladera (80 W por defecto), heladera doble (150 W por defecto).</FSFTweaksSUFCheaperUtilitiesDesc>
   <!-- EN: Time Kills Tweaks -->
-  <FSFTweaksTimeKillsTweaksTitle>TODO</FSFTweaksTimeKillsTweaksTitle>
+  <FSFTweaksTimeKillsTweaksTitle>Ajustes de Time Kills</FSFTweaksTimeKillsTweaksTitle>
   <!-- EN: Ageing Rebalance -->
-  <FSFTweaksTKAgeingRebalanceTitle>TODO</FSFTweaksTKAgeingRebalanceTitle>
+  <FSFTweaksTKAgeingRebalanceTitle>Reequilibrio del envejecimiento</FSFTweaksTKAgeingRebalanceTitle>
   <!-- EN: Lowers the age requirement for the Old Age condition so it starts at 70 and reaches its maximum chance of 10% per year at 80.  This makes it more accurately reflect the Human life expectancy of 80.  By default Time Kills has the condition start at 80 and reach its peak of 10% per year at 84. -->
-  <FSFTweaksTKAgeingRebalanceDesc>TODO</FSFTweaksTKAgeingRebalanceDesc>
+  <FSFTweaksTKAgeingRebalanceDesc>Reduce el requisito de edad de la condición Vejez para que empiece a los 70 y alcance su probabilidad máxima del 10 % anual a los 80. Así refleja con más precisión la esperanza de vida humana de 80 años. Por defecto, Time Kills hace que la condición empiece a los 80 y llegue a su pico del 10 % anual a los 84.</FSFTweaksTKAgeingRebalanceDesc>
   <!-- EN: Vanilla Cooking Expanded Tweaks -->
   <FSFTweaksVanillaCookingExpandedTweaksTitle>Ajustes de Vanilla Cooking Expanded</FSFTweaksVanillaCookingExpandedTweaksTitle>
   <!-- EN: Bulk Canning Recipes -->
@@ -1183,31 +1183,31 @@
   <!-- EN: Removes the work speed malus on the Sap Blood gene and lowers the gene complexity from -2 to -1. -->
   <FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusDesc>Elimina la penalización de velocidad de trabajo del gen Sangre de savia y reduce la complejidad del gen de -2 a -1.</FSFTweaksVREPhytokinSapBloodNoWorkspeedMalusDesc>
   <!-- EN: Vehicle Framework Tweaks -->
-  <FSFTweaksVehicleFrameworkTweaksTitle>TODO</FSFTweaksVehicleFrameworkTweaksTitle>
+  <FSFTweaksVehicleFrameworkTweaksTitle>Ajustes de Vehicle Framework</FSFTweaksVehicleFrameworkTweaksTitle>
   <!-- EN: Factions Stock Vehicle Parts -->
-  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>Stock de piezas de vehículo en facciones</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsTitle>
   <!-- EN: Adds an additional stock of Vehicle Parts to tech appropriate Faction bases based on an input range. -->
-  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>Añade un stock adicional de piezas de vehículo a las bases de facción acordes al nivel tecnológico, según un rango indicado.</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsOnDesc>
   <!-- EN: Faster Helicopters -->
-  <FSFTweaksVehicleFrameworkFasterHelicoptersTitle>TODO</FSFTweaksVehicleFrameworkFasterHelicoptersTitle>
+  <FSFTweaksVehicleFrameworkFasterHelicoptersTitle>Helicópteros más rápidos</FSFTweaksVehicleFrameworkFasterHelicoptersTitle>
   <!-- EN: Speeds up the takeoff and landing animation on helicopters that are slow to use.  For example this tweak changes the takeoff and landing animation speed on Vanilla Expanded Helicopters so they take one third of the time making them comparable in speed to drop pod style vehicles like the Toad. -->
-  <FSFTweaksVehicleFrameworkFasterHelicoptersDesc>TODO</FSFTweaksVehicleFrameworkFasterHelicoptersDesc>
+  <FSFTweaksVehicleFrameworkFasterHelicoptersDesc>Acelera la animación de despegue y aterrizaje de los helicópteros que son lentos de usar. Por ejemplo, este ajuste cambia la velocidad de esas animaciones en Vanilla Expanded Helicopters para que tarden un tercio del tiempo, dejándolos a la par en velocidad con vehículos tipo cápsula de descenso como el Toad.</FSFTweaksVehicleFrameworkFasterHelicoptersDesc>
   <!-- EN: Faster Vehicles -->
-  <FSFTweaksVehicleFrameworkFasterVehiclesTitle>TODO</FSFTweaksVehicleFrameworkFasterVehiclesTitle>
+  <FSFTweaksVehicleFrameworkFasterVehiclesTitle>Vehículos más rápidos</FSFTweaksVehicleFrameworkFasterVehiclesTitle>
   <!-- EN: Allows you to multiply the speed of all land and water vehicles on the world map by an input value. -->
-  <FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>TODO</FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>
+  <FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>Te permite multiplicar por un valor indicado la velocidad de todos los vehículos terrestres y acuáticos en el mapa mundial.</FSFTweaksVehicleFrameworkFasterVehiclesOnDesc>
   <!-- EN: Rename Car Parts -->
-  <FSFTweaksVehicleFrameworkRenameCarPartsTitle>TODO</FSFTweaksVehicleFrameworkRenameCarPartsTitle>
+  <FSFTweaksVehicleFrameworkRenameCarPartsTitle>Renombrar piezas de auto</FSFTweaksVehicleFrameworkRenameCarPartsTitle>
   <!-- EN: Changes the name of Car Parts from Vanilla Vehicles Expanded to Vehicle Parts. -->
-  <FSFTweaksVehicleFrameworkRenameCarPartsDesc>TODO</FSFTweaksVehicleFrameworkRenameCarPartsDesc>
+  <FSFTweaksVehicleFrameworkRenameCarPartsDesc>Cambia el nombre de las piezas de auto de Vanilla Vehicles Expanded a piezas de vehículo.</FSFTweaksVehicleFrameworkRenameCarPartsDesc>
   <!-- EN: Vehicle Parts Stock Minimum Range -->
-  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>Rango mínimo de stock de piezas de vehículo</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMin>
   <!-- EN: Vehicle Parts Stock Maximum Range -->
-  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>Rango máximo de stock de piezas de vehículo</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsMax>
   <!-- EN: Adds an additional stock of Vehicle Parts to tech appropriate Faction bases based on an input range.\nDefault setting 5-10. -->
-  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>TODO</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>
+  <FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>Añade un stock adicional de piezas de vehículo a las bases de facción acordes al nivel tecnológico, según un rango indicado.\nAjuste predeterminado: 5-10.</FSFTweaksVehicleFrameworkFactionsStockVehiclePartsDesc>
   <!-- EN: Speed Multiplier {FSFVehicleFrameworkFasterVehicles} -->
-  <FSFTweaksVehicleFrameworkFasterVehicles>TODO</FSFTweaksVehicleFrameworkFasterVehicles>
+  <FSFTweaksVehicleFrameworkFasterVehicles>Multiplicador de velocidad {FSFVehicleFrameworkFasterVehicles}</FSFTweaksVehicleFrameworkFasterVehicles>
   <!-- EN: Move the slider to adjust the speed multiplier of all land and water Vehicles on the world map.  The value is a straight multiplier, a value of 2 will double the original while 3 will triple it.\nThe Vanilla value is 1. -->
-  <FSFTweaksVehicleFrameworkFasterVehiclesDesc>TODO</FSFTweaksVehicleFrameworkFasterVehiclesDesc>
+  <FSFTweaksVehicleFrameworkFasterVehiclesDesc>Mueve el control deslizante para ajustar el multiplicador de velocidad de todos los vehículos terrestres y acuáticos en el mapa mundial. El valor es un multiplicador directo: un valor de 2 duplicará el original y 3 lo triplicará.\nEl valor original es 1.</FSFTweaksVehicleFrameworkFasterVehiclesDesc>
 </LanguageData>

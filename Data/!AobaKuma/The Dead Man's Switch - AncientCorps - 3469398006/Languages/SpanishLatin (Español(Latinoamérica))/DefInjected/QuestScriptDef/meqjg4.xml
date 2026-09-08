@@ -6,6 +6,6 @@
   <DMSAC_OpportunitySite_Facility.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)-&gt;Hemos interceptado mensajes sobre una instalación del Cuerpo antiguo no muy lejos de nosotros. \n\nParece que [allSitePartsDescriptions]</li>
     <li>questDescription(asker_factionLeader==true)-&gt;[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], nos ha informado de una instalación del Cuerpo antiguo no muy lejos de nosotros.\n\n[asker_label] dice que [allSitePartsDescriptions]</li>
-    <li>TODO</li>
+    <li>questDescription(asker!=null)-&gt;[asker_nameDef] de [asker_faction_name] nos informó de una instalación del Cuerpo Antiguo no muy lejos de aquí.\n\n[asker_label] dice que [allSitePartsDescriptions]</li>
   </DMSAC_OpportunitySite_Facility.questDescriptionRules.rulesStrings>
 </LanguageData>

@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="GravFieldExtender"]/description</xpath>
           <value>
             <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to eight grav field extenders. -->
-            <description>TODO</description>
+            <description>Un dispositivo ultratecnológico usado para aumentar el tamaño de una nave gravitacional. Amplía el área en la que se puede construir subestructura y aumenta la cantidad de subestructura que puede soportar una nave gravitacional. Debe construirse cerca de un motor gravitatorio.\n\nUna nave gravitacional puede soportar hasta ocho extensores de campo gravitatorio.</description>
           </value>
         </li>
       </operations>
@@ -23,7 +23,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/completedLetterLabel</xpath>
     <value>
       <!-- EN: Cerebrex node studied: {RESEARCH} unlocked -->
-      <completedLetterLabel>TODO</completedLetterLabel>
+      <completedLetterLabel>Nodo cerebrex estudiado: {RESEARCH} desbloqueado</completedLetterLabel>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -31,7 +31,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/completedLetter</xpath>
     <value>
       <!-- EN: By studying the Cerebrex node, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-      <completedLetter>TODO</completedLetter>
+      <completedLetter>Al estudiar el nodo cerebrex, {PAWN_labelShort} obtuvo la comprensión necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ya pueden usar los bancos de investigación para empezar a investigar cómo usar realmente esa tecnología.</completedLetter>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -39,7 +39,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/activateLabelString</xpath>
     <value>
       <!-- EN: Analyze... -->
-      <activateLabelString>TODO</activateLabelString>
+      <activateLabelString>Analizar...</activateLabelString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -47,7 +47,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/activateDescString</xpath>
     <value>
       <!-- EN: Analyze the Cerebrex node. -->
-      <activateDescString>TODO</activateDescString>
+      <activateDescString>Analiza el nodo cerebrex.</activateDescString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -55,7 +55,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/jobString</xpath>
     <value>
       <!-- EN: Analyze Cerebrex node -->
-      <jobString>TODO</jobString>
+      <jobString>Analizar nodo cerebrex</jobString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -63,7 +63,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/guiLabelString</xpath>
     <value>
       <!-- EN: Choose who should analyze this -->
-      <guiLabelString>TODO</guiLabelString>
+      <guiLabelString>Elige quién debería analizar esto</guiLabelString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -71,7 +71,7 @@
     <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/inspectString</xpath>
     <value>
       <!-- EN: Can be analyzed by a colonist. -->
-      <inspectString>TODO</inspectString>
+      <inspectString>Puede ser analizado por un colono.</inspectString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -79,7 +79,7 @@
     <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[7]/label</xpath>
     <value>
       <!-- EN: Advanced ship AI core -->
-      <label>TODO</label>
+      <label>Núcleo de IA de nave avanzado</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -87,7 +87,7 @@
     <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[8]/label</xpath>
     <value>
       <!-- EN: Advanced gravship thruster -->
-      <label>TODO</label>
+      <label>Propulsor de nave gravitacional avanzado</label>
     </value>
   </Operation>
 </Patch>

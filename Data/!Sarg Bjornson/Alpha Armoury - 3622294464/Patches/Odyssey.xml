@@ -12,7 +12,7 @@
           <xpath>/Defs/WeaponTraitDef[defName="BioferriteBurner"]/li[1]/abilityWithCharges/chargeNoun</xpath>
           <value>
             <!-- EN: burner charge -->
-            <chargeNoun>TODO</chargeNoun>
+            <chargeNoun>carga de quemador</chargeNoun>
           </value>
         </li>
       </operations>
@@ -23,7 +23,7 @@
     <xpath>/Defs/WeaponTraitDef[defName="GrenadeLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
     <value>
       <!-- EN: grenade -->
-      <chargeNoun>TODO</chargeNoun>
+      <chargeNoun>granada</chargeNoun>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -31,7 +31,7 @@
     <xpath>/Defs/WeaponTraitDef[defName="EMPLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
     <value>
       <!-- EN: shell -->
-      <chargeNoun>TODO</chargeNoun>
+      <chargeNoun>proyectil</chargeNoun>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -39,7 +39,7 @@
     <xpath>/Defs/WeaponTraitDef[defName="SmokeLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
     <value>
       <!-- EN: shell -->
-      <chargeNoun>TODO</chargeNoun>
+      <chargeNoun>proyectil</chargeNoun>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -47,7 +47,7 @@
     <xpath>/Defs/WeaponTraitDef[defName="IncendiaryLauncher"]/li[1]/abilityWithCharges/chargeNoun</xpath>
     <value>
       <!-- EN: shell -->
-      <chargeNoun>TODO</chargeNoun>
+      <chargeNoun>proyectil</chargeNoun>
     </value>
   </Operation>
 </Patch>

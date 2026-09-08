@@ -17,7 +17,7 @@
   <!-- EN: This weapon can project a spray of acidic slug. The sludge will stick to targets and burn them, and turn terrain into insect sludge. -->
   <AArmoury_Sludge.description>Esta arma puede proyectar un spray de lodo ácido. El lodo se pegará a los objetivos y los quemará, y convertirá el terreno en lodo de insectos.</AArmoury_Sludge.description>
   <!-- EN: sludge -->
-  <AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>lodo</AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: detonation -->
   <AArmoury_Detonation.label>detonación</AArmoury_Detonation.label>
   <!-- EN: This weapon generates ultra heated gasses that can be released in the form of a powerful explosion. It will not harm the wielder.\n\nAbility details: No charges, 30000 ticks cooldown (half a day). Affects 2 tiles around the wielder with 50 Bomb damage. -->
@@ -43,9 +43,9 @@
   <!-- EN: This weapon fires ammunition that contains cryogenic chemicals. It will cause frostbite. -->
   <AArmoury_Cryo.description>Esta arma dispara munición que contiene productos químicos criogénicos. Causará congelación.</AArmoury_Cryo.description>
   <!-- EN: fertilizer canisters -->
-  <AArmoury_FertilizerCanisters.label>TODO</AArmoury_FertilizerCanisters.label>
+  <AArmoury_FertilizerCanisters.label>bidones de fertilizante</AArmoury_FertilizerCanisters.label>
   <!-- EN: This weapon fires fertilizer canisters that will turn soil into tilled soil. -->
-  <AArmoury_FertilizerCanisters.description>TODO</AArmoury_FertilizerCanisters.description>
+  <AArmoury_FertilizerCanisters.description>Esta arma dispara bidones de fertilizante que convierten la tierra en tierra labrada.</AArmoury_FertilizerCanisters.description>
   <!-- EN: corrosive burst -->
   <AArmoury_Corrosive.label>ráfaga corrosiva</AArmoury_Corrosive.label>
   <!-- EN: This weapon fires a pressurized blast of corrosive acid that deals increased damage to armor. -->
@@ -215,13 +215,13 @@
   <!-- EN: This weapon has an attached flare launcher. Once fired, it must be reloaded using bioferrite. -->
   <AArmoury_FlareLauncher.description>Esta arma tiene un lanzabengalas acoplado. Una vez disparado, debe recargarse usando bioferrita.</AArmoury_FlareLauncher.description>
   <!-- EN: flare -->
-  <AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bengala</AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: &quot;Holy hand&quot; launcher -->
   <AArmoury_HolyLauncher.label>lanzador de "mano santa"</AArmoury_HolyLauncher.label>
   <!-- EN: This weapon has an attached grenade launcher that fires &quot;holy hand&quot; grenades, filled with nanite inhibitors that will destabilize reanimated shamblers. It seems to have been intentionally adorned with religious motifs, though whether this was meant as a joke or taken seriously is unclear. Once fired, it must be reloaded using bioferrite. -->
   <AArmoury_HolyLauncher.description>Esta arma tiene un lanzagranadas acoplado que dispara granadas de "mano santa", llenas de inhibidores de nanitos que desestabilizarán a los shamblers reanimados. Parece haber sido adornada intencionalmente con motivos religiosos, aunque no está claro si esto fue una broma o se tomó en serio. Una vez disparado, debe recargarse usando bioferrita.</AArmoury_HolyLauncher.description>
   <!-- EN: grenade -->
-  <AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada</AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: deadlife launcher -->
   <AArmoury_DeadlifeLauncher.label>lanzador necrovita</AArmoury_DeadlifeLauncher.label>
   <!-- EN: This weapon has an attached deadlife launcher. Once fired, it must be reloaded using a deadlife shell. -->
@@ -245,7 +245,7 @@
   <!-- EN: This weapon has an attached hellsphere launcher. Once fired, it must be reloaded using advanced components. -->
   <AArmoury_HellsphereLauncher.description>Esta arma tiene un lanzador de esfera infernal acoplado. Una vez disparado, debe recargarse usando componentes avanzados.</AArmoury_HellsphereLauncher.description>
   <!-- EN: hellsphere -->
-  <AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>esfera infernal</AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: rotstink launcher -->
   <AArmoury_RotstinkLauncher.label>lanzador de hedor de putrefacción</AArmoury_RotstinkLauncher.label>
   <!-- EN: This weapon has an attached rotstink launcher. Once fired, it must be reloaded using steel. -->
@@ -263,7 +263,7 @@
   <!-- EN: This weapon ███cluck ███▌▌egg 0101▌▌feather-collapse ▌▌[TIME] inexhaustible nesting [REDACTED] GRAVITY ▌▌do not ███shell fractals███do not███[ERROR].\n\nThe ███cosmic YOLK ███fracture █cluck▌▌FEATHER cascade ███INITIATE █▌▌▌GOLDEN BEAK██▌▌NULL ██DESTINY ████ERROR. -->
   <AArmoury_ArchoteggLauncher.description>Esta arma ███cloc ███▌▌huevo 0101▌▌colapso-pluma ▌▌[TIEMPO] anidación inagotable [CENSURADO] GRAVEDAD ▌▌no ███fractales de cáscara███no███[ERROR].\n\nLa ███YEMA cósmica ███fractura █cloc▌▌cascada de PLUMAS ███INICIAR █▌▌▌PICO DORADO██▌▌NULO ██DESTINO ████ERROR.</AArmoury_ArchoteggLauncher.description>
   <!-- EN: archotegg -->
-  <AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>arqueohuevo</AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: acid launcher -->
   <AArmoury_AcidLauncher.label>lanzador de ácido</AArmoury_AcidLauncher.label>
   <!-- EN: This weapon has an attached acid grenade launcher. Once fired, it must be reloaded using components. -->
@@ -293,19 +293,19 @@
   <!-- EN: This weapon has an attached mine launcher. Once fired, it must be reloaded using steel. -->
   <AArmoury_MineDeployer.description>Esta arma tiene un lanzador de minas acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_MineDeployer.description>
   <!-- EN: mine -->
-  <AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>mina</AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: caltrop launcher -->
   <AArmoury_Caltrops.label>lanzador de abrojos</AArmoury_Caltrops.label>
   <!-- EN: This weapon has an attached caltrop launcher. Once fired, it can be reloaded using steel. -->
   <AArmoury_Caltrops.description>Esta arma tiene un lanzador de abrojos acoplado. Una vez disparado, puede recargarse usando acero.</AArmoury_Caltrops.description>
   <!-- EN: caltrops -->
-  <AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>abrojos</AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: barricade deployer -->
   <AArmoury_BarricadeDeployer.label>desplegador de barricadas</AArmoury_BarricadeDeployer.label>
   <!-- EN: This weapon has an attached barricade deployer. Once fired, it can be reloaded using steel. -->
   <AArmoury_BarricadeDeployer.description>Esta arma tiene un desplegador de barricadas acoplado. Una vez disparado, puede recargarse usando acero.</AArmoury_BarricadeDeployer.description>
   <!-- EN: barricade -->
-  <AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>TODO</AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+  <AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>barricada</AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: pesticide canisters -->
   <AArmoury_PesticideCanisters.label>botes de pesticida</AArmoury_PesticideCanisters.label>
   <!-- EN: This weapon has an attachment to fire pesticide canisters. They will destroy all blighted plants in a large area. Can be reloaded using chemfuel. -->

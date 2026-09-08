@@ -5,7 +5,7 @@
     <xpath>/Defs/ThingDef[defName="Blackboard"]/label</xpath>
     <value>
       <!-- EN: blackboard (1x2) -->
-      <label>TODO</label>
+      <label>pizarrón (1x2)</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -13,7 +13,7 @@
     <xpath>/Defs/ThingDef[defName="SchoolDesk"]/description</xpath>
     <value>
       <!-- EN: A desk where students can learn in general classes. Functions at a good speed for most lessons. -->
-      <description>TODO</description>
+      <description>Un escritorio donde los estudiantes pueden aprender en clases generales. Funciona a buena velocidad para la mayoría de las lecciones.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -21,7 +21,7 @@
     <xpath>/Defs/ThingDef[defName="Blackboard"]/description</xpath>
     <value>
       <!-- EN: A flat surface for writing on with chalk at moderate speed. Placing a board marks the area as a classroom, which can then be assigned classes. -->
-      <description>TODO</description>
+      <description>Una superficie plana para escribir con tiza a velocidad moderada. Colocar un pizarrón marca el área como aula, a la que luego se le pueden asignar clases.</description>
     </value>
   </Operation>
 </Patch>

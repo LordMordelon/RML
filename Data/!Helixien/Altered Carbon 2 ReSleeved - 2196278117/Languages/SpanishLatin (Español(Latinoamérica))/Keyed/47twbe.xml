@@ -517,11 +517,11 @@ If you edit the content from a non-colonist stack from another faction, their en
   <!-- EN: Selling neural stacks can create duplicates -->
   <AC.EnableSoldNeuralStacksCreatingPawnDuplicates>Vender pilas neurales puede crear duplicados</AC.EnableSoldNeuralStacksCreatingPawnDuplicates>
   <!-- EN: text.todo -->
-  <AC.EnableSoldNeuralStacksCreatingPawnDuplicatesDesc>TODO</AC.EnableSoldNeuralStacksCreatingPawnDuplicatesDesc>
+  <AC.EnableSoldNeuralStacksCreatingPawnDuplicatesDesc>text.todo</AC.EnableSoldNeuralStacksCreatingPawnDuplicatesDesc>
   <!-- EN: Enable neural stacks spawning in ancient dangers -->
   <AC.EnableNeuralStacksInAncientDangers>Habilitar aparición de pilas neurales en peligros ancestrales</AC.EnableNeuralStacksInAncientDangers>
   <!-- EN: text.todo -->
-  <AC.EnableNeuralStacksInAncientDangersDesc>TODO</AC.EnableNeuralStacksInAncientDangersDesc>
+  <AC.EnableNeuralStacksInAncientDangersDesc>text.todo</AC.EnableNeuralStacksInAncientDangersDesc>
   <!-- EN: Enable single use mental fuses -->
   <AC.SingleUseMentalFuses>Habilitar fusibles mentales de un solo uso</AC.SingleUseMentalFuses>
   <!-- EN: If enabled, mental fuses will &quot;blow&quot; when triggered, requiring a new one to be installed. -->
@@ -565,17 +565,17 @@ If you edit the content from a non-colonist stack from another faction, their en
   <!-- EN: Create skilltrainer -->
   <AC.CreateSkilltrainer>Crear neuroentrenador</AC.CreateSkilltrainer>
   <!-- EN: Create psytrainer -->
-  <AC.CreatePsytrainer>TODO</AC.CreatePsytrainer>
+  <AC.CreatePsytrainer>Crear psientrenador</AC.CreatePsytrainer>
   <!-- EN: Not sufficient skill levels -->
   <AC.NotSufficientSkillLevels>Niveles de habilidad insuficientes</AC.NotSufficientSkillLevels>
   <!-- EN: No psycaster abilities -->
-  <AC.NoPsycasterAbilities>TODO</AC.NoPsycasterAbilities>
+  <AC.NoPsycasterAbilities>Sin habilidades de psiconjurador</AC.NoPsycasterAbilities>
   <!-- EN: Creating neural stack completed for {PAWN_nameDef}. -->
   <AC.CreatingNeuralStackCompleted>Creación de pila neural completada para {PAWN_nameDef}.</AC.CreatingNeuralStackCompleted>
   <!-- EN: Creating skilltrainer completed for {PAWN_nameDef}. {PAWN_nameDef}&apos;s brain has been destroyed by the neural connector. -->
   <AC.CreatingSkilltrainerCompleted>Creación de neuroentrenador completada para {PAWN_nameDef}. El cerebro de {PAWN_nameDef} ha sido destruido por el conector neural.</AC.CreatingSkilltrainerCompleted>
   <!-- EN: Creating psytrainer completed for {PAWN_nameDef}. {PAWN_nameDef}&apos;s brain has been destroyed by the neural connector. -->
-  <AC.CreatingPsytrainerCompleted>TODO</AC.CreatingPsytrainerCompleted>
+  <AC.CreatingPsytrainerCompleted>Se completó la creación del psientrenador para {PAWN_nameDef}. El cerebro de {PAWN_nameDef} fue destruido por el conector neural.</AC.CreatingPsytrainerCompleted>
   <!-- EN: Scanning {PAWN_nameDef} to create a skilltrainer will kill {PAWN_objective}. Are you sure you want to continue?
 
 Scanning {PAWN_nameDef} will create a skilltrainer for one of the following skills:
@@ -585,11 +585,11 @@ Scanning {PAWN_nameDef} will create a skilltrainer for one of the following skil
 
 Scanning {PAWN_nameDef} will create a psytrainer for one of the following abilities:
 {1} -->
-  <AC.ConfirmPsytrainerPawn>TODO</AC.ConfirmPsytrainerPawn>
+  <AC.ConfirmPsytrainerPawn>Escanear a {PAWN_nameDef} para crear un psientrenador lo matará. ¿Seguro que quieres continuar?  Escanear a {PAWN_nameDef} creará un psientrenador para una de las siguientes habilidades: {1}</AC.ConfirmPsytrainerPawn>
   <!-- EN: Cancelling a skilltrainer process will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
   <AC.ConfirmCancelSkilltrainerPawn>Cancelar el proceso de creación del neuroentrenador matará igualmente a {PAWN_nameDef}. ¿Seguro que quieres continuar?</AC.ConfirmCancelSkilltrainerPawn>
   <!-- EN: Cancelling a psytrainer process will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
-  <AC.ConfirmCancelPsytrainerPawn>TODO</AC.ConfirmCancelPsytrainerPawn>
+  <AC.ConfirmCancelPsytrainerPawn>Cancelar el proceso del psientrenador igual matará a {PAWN_nameDef}. ¿Seguro que quieres continuar?</AC.ConfirmCancelPsytrainerPawn>
   <!-- EN: Already registered selected the neural matrix -->
   <AC.AlreadyRegisteredToMatrix>Ya está registrado en la matriz neural seleccionada</AC.AlreadyRegisteredToMatrix>
   <!-- EN: Stack of {PAWN_nameDef} successfully registered with neural matrix. -->
@@ -601,7 +601,7 @@ Scanning {PAWN_nameDef} will create a psytrainer for one of the following abilit
   <!-- EN: Creating skilltrainer from {PAWN_nameDef} -->
   <AC.CreatingSkillTrainer>Creando neuroentrenador a partir de {PAWN_nameDef}</AC.CreatingSkillTrainer>
   <!-- EN: Creating psytrainer for {PAWN_labelShort} -->
-  <AC.CreatingPsytrainer>TODO</AC.CreatingPsytrainer>
+  <AC.CreatingPsytrainer>Creando psientrenador para {PAWN_labelShort}</AC.CreatingPsytrainer>
   <!-- EN: Registering stack of {PAWN_nameDef} -->
   <AC.RegisteringStack>Registrando pila de {PAWN_nameDef}</AC.RegisteringStack>
   <!-- EN: Once imprinted to a user, the weapon can not be used by anyone else until its biocoding is reset again. Are you sure you want to equip this time? -->
@@ -609,5 +609,5 @@ Scanning {PAWN_nameDef} will create a psytrainer for one of the following abilit
   <!-- EN: Biocoding: Ready to imprint. -->
   <AC.BiocodingNotYetImprinted>Biocodificación: Lista para vincular.</AC.BiocodingNotYetImprinted>
   <!-- EN: {PAWN_nameDef} has short-circuited due to sandstorm. -->
-  <VREA.AndroidShortCircuitSandstorm>TODO</VREA.AndroidShortCircuitSandstorm>
+  <VREA.AndroidShortCircuitSandstorm>{PAWN_nameDef} sufrió un cortocircuito por la tormenta de arena.</VREA.AndroidShortCircuitSandstorm>
 </LanguageData>

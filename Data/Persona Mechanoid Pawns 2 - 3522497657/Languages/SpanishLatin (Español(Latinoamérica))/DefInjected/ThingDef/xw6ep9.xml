@@ -97,17 +97,17 @@
   <!-- EN: A hardware module manifesting as concealed yet rapidly toxic needle gun armament, usually only seen in apocriton mechs.\n\nInstalled directly into the chassis of the persona mechanoid it can be toggled utilizing the associated ability, instantly stowing any other integrated weapon or dropping the current standard armament on activation. -->
   <PMP_IntegratedToxicNeedle.description>Un módulo de hardware que se manifiesta como un armamento de pistola de agujas tóxicas oculto pero de despliegue rápido, generalmente visto solo en mecas apocritón.\n\nInstalado directamente en el chasis del mecanoide IA, puede alternarse utilizando la habilidad asociada, guardando instantáneamente cualquier otra arma integrada o soltando el armamento estándar actual al activarse.</PMP_IntegratedToxicNeedle.description>
   <!-- EN: persona bandwidth sublink (standard) -->
-  <PMP_BandwidthSublink.label>TODO</PMP_BandwidthSublink.label>
+  <PMP_BandwidthSublink.label>subenlace de banda ancha de IA(estándar)</PMP_BandwidthSublink.label>
   <!-- EN: A core upgrade which gives a mechanitor four additional bandwidth.\n\nThis standard-tier sublink can only increase the bandwidth count up an additional 12. To go higher, a higher-tier sublink upgrade must be used.\n\nIt can be self-installed without modification.\n\nThis upgrade can be installed up to 3 times to increase its effect. -->
-  <PMP_BandwidthSublink.description>TODO</PMP_BandwidthSublink.description>
+  <PMP_BandwidthSublink.description>Una mejora de núcleo que le da al mecanizador cuatro de banda ancha adicionales.\n\nEste subenlace de nivel estándar solo puede aumentar la banda ancha en 12 puntos adicionales. Para superar ese tope hay que usar una mejora de subenlace de nivel superior.\n\nPuede autoinstalarse sin modificaciones.\n\nEsta mejora puede instalarse hasta 3 veces para aumentar su efecto.</PMP_BandwidthSublink.description>
   <!-- EN: Implant sublink -->
-  <PMP_BandwidthSublink.comps.CompUsableImplant.useLabel>TODO</PMP_BandwidthSublink.comps.CompUsableImplant.useLabel>
+  <PMP_BandwidthSublink.comps.CompUsableImplant.useLabel>Implantar subenlace</PMP_BandwidthSublink.comps.CompUsableImplant.useLabel>
   <!-- EN: persona bandwidth sublink (high) -->
-  <PMP_BandwidthSublinkHigh.label>TODO</PMP_BandwidthSublinkHigh.label>
+  <PMP_BandwidthSublinkHigh.label>subenlace de banda ancha de IA(avanzado)</PMP_BandwidthSublinkHigh.label>
   <!-- EN: A core upgrade which gives a mechanitor four additional bandwidth.\n\nThis high-tier upgrade can increase the bandwidth count up an additional 12.\n\nIt can be self-installed without modification.\n\nThis upgrade can be installed up to 3 times to increase its effect. -->
-  <PMP_BandwidthSublinkHigh.description>TODO</PMP_BandwidthSublinkHigh.description>
+  <PMP_BandwidthSublinkHigh.description>Una mejora de núcleo que le da al mecanizador cuatro de banda ancha adicionales.\n\nEsta mejora de nivel avanzado puede aumentar la banda ancha en 12 puntos adicionales.\n\nPuede autoinstalarse sin modificaciones.\n\nEsta mejora puede instalarse hasta 3 veces para aumentar su efecto.</PMP_BandwidthSublinkHigh.description>
   <!-- EN: Implant high sublink -->
-  <PMP_BandwidthSublinkHigh.comps.CompUsableImplant.useLabel>TODO</PMP_BandwidthSublinkHigh.comps.CompUsableImplant.useLabel>
+  <PMP_BandwidthSublinkHigh.comps.CompUsableImplant.useLabel>Implantar subenlace avanzado</PMP_BandwidthSublinkHigh.comps.CompUsableImplant.useLabel>
   <!-- EN: persona core psylink neuroformer -->
   <PMP_PsychicAmplifier.label>neuroformador de psicoenlace de IA</PMP_PsychicAmplifier.label>
   <!-- EN: A consumable archotech-created device that forms or upgrades a psylink in the user&apos;s mind. This one has been modified to bypass its standard organic interface, allowing direct hookup to a persona core via a wired connection instead.\n\nRemarkably, the neuroformer appears to have recognized the alteration, adapting its internal composition to accommodate the new functionality.\n\nAfter usage, the device disintegrates into worthless ash as expected. -->
@@ -157,11 +157,11 @@
   <!-- EN: Implant {0_label} -->
   <PMP_RepairProbe.comps.CompUsableImplant.useLabel>Implantar {0_label}</PMP_RepairProbe.comps.CompUsableImplant.useLabel>
   <!-- EN: persona cortex bandwidth sublink -->
-  <PMP_InternalBandPackMBT.label>TODO</PMP_InternalBandPackMBT.label>
+  <PMP_InternalBandPackMBT.label>subenlace de banda ancha de córtex de IA</PMP_InternalBandPackMBT.label>
   <!-- EN: A compact upgrade designed to enhance bandwidth. Directly interfacing with the user&apos;s core, it increases a mechanitor&apos;s maximum total bandwidth by 9.\n\nNotice: &lt;color=#e44e4e&gt;Due to interference from conflicting frequencies, this upgrade does not stack with the traditional bandwidth pack and will become inert while it is equipped.&lt;/color&gt;\n\nThis upgrade can be self-installed. -->
-  <PMP_InternalBandPackMBT.description>TODO</PMP_InternalBandPackMBT.description>
+  <PMP_InternalBandPackMBT.description>Una mejora compacta diseñada para potenciar la banda ancha. Al conectarse directamente con el núcleo del usuario, aumenta en 9 la banda ancha total máxima de un mecanizador.\n\nAviso: &lt;color=#e44e4e&gt;por interferencia de frecuencias en conflicto, esta mejora no se acumula con la mochila de banda ancha tradicional y quedará inerte mientras esta esté equipada.&lt;/color&gt;\n\nEsta mejora puede autoinstalarse.</PMP_InternalBandPackMBT.description>
   <!-- EN: Implant {0_label} -->
-  <PMP_InternalBandPackMBT.comps.CompUsableImplant.useLabel>TODO</PMP_InternalBandPackMBT.comps.CompUsableImplant.useLabel>
+  <PMP_InternalBandPackMBT.comps.CompUsableImplant.useLabel>Implantar {0_label}</PMP_InternalBandPackMBT.comps.CompUsableImplant.useLabel>
   <!-- EN: unfinished persona core -->
   <PMP_UnfinishedPersonaCore.label>núcleo de IA sin terminar</PMP_UnfinishedPersonaCore.label>
   <!-- EN: A partially completed persona core. -->

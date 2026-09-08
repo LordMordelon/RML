@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="VQE_UnfinishedDroneSpawner_AutobroadcasterDrone"]/label</xpath>
           <value>
             <!-- EN: deployed broadcaster drone -->
-            <label>TODO</label>
+            <label>dron emisor desplegado</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ThingDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
           <value>
             <!-- EN: broadcaster drone -->
-            <label>TODO</label>
+            <label>dron emisor</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/PawnKindDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
           <value>
             <!-- EN: broadcaster drone -->
-            <label>TODO</label>
+            <label>dron emisor</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/RecipeDef[defName="VQE_AssembleAutobroadcasterDrone"]/label</xpath>
           <value>
             <!-- EN: assemble broadcaster drone -->
-            <label>TODO</label>
+            <label>ensamblar dron emisor</label>
           </value>
         </li>
       </operations>

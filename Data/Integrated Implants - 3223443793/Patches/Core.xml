@@ -17,7 +17,7 @@
             <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[2]/label</xpath>
             <value>
               <!-- EN: Offset from mechanitor -->
-              <label>TODO</label>
+              <label>Desplazamiento respecto del mecanizador</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -25,7 +25,7 @@
             <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[2]/label</xpath>
             <value>
               <!-- EN: Offset from mechanitor -->
-              <label>TODO</label>
+              <label>Desplazamiento respecto del mecanizador</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -33,7 +33,7 @@
             <xpath>/Defs/StatDef[defName="MeleeDodgeChance"]/parts/li[1]/label</xpath>
             <value>
               <!-- EN: Offset from mechanitor -->
-              <label>TODO</label>
+              <label>Desplazamiento respecto del mecanizador</label>
             </value>
           </li>
         </operations>
@@ -52,7 +52,7 @@
           <xpath>/Defs/StatDef[defName="ShootingAccuracyPawn"]/parts/li[1]/label</xpath>
           <value>
             <!-- EN: Offset from mechanitor -->
-            <label>TODO</label>
+            <label>Desplazamiento respecto del mecanizador</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -60,7 +60,7 @@
           <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[3]/label</xpath>
           <value>
             <!-- EN: Offset from mechanitor -->
-            <label>TODO</label>
+            <label>Desplazamiento respecto del mecanizador</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -68,7 +68,7 @@
           <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[3]/label</xpath>
           <value>
             <!-- EN: Offset from mechanitor -->
-            <label>TODO</label>
+            <label>Desplazamiento respecto del mecanizador</label>
           </value>
         </li>
       </operations>

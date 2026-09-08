@@ -71,7 +71,7 @@
   <!-- EN: Exosuit moving speed: -->
   <WG_ArmorSpeed>Velocidad mov. del exotraje:</WG_ArmorSpeed>
   <!-- EN: Pilot exosuit move speed: -->
-  <WG_PilotExosuitMoveSpeed>TODO</WG_PilotExosuitMoveSpeed>
+  <WG_PilotExosuitMoveSpeed>Velocidad de movimiento del exotraje del piloto:</WG_PilotExosuitMoveSpeed>
   <!-- EN: Dead weight: -->
   <WG_ArmorDeadWeight>Peso muerto:</WG_ArmorDeadWeight>
   <!-- EN: Payload capacity: -->
@@ -85,25 +85,25 @@
   <!-- EN: Toggles whether colonists should automatically repair damaged modules in this gantry. -->
   <WG_AutoRepair_Desc>Activa o desactiva si los colonos deben reparar automáticamente los módulos dañados en este pórtico.</WG_AutoRepair_Desc>
   <!-- EN: Default: pilot weapon -->
-  <WG_PreferModuleWeapon_Idle_Pilot>TODO</WG_PreferModuleWeapon_Idle_Pilot>
+  <WG_PreferModuleWeapon_Idle_Pilot>Predeterminada: arma del piloto</WG_PreferModuleWeapon_Idle_Pilot>
   <!-- EN: Default: module weapon -->
-  <WG_PreferModuleWeapon_Idle_Module>TODO</WG_PreferModuleWeapon_Idle_Module>
+  <WG_PreferModuleWeapon_Idle_Module>Predeterminada: arma del módulo</WG_PreferModuleWeapon_Idle_Module>
   <!-- EN: Switch to module weapon -->
-  <WG_PreferModuleWeapon_Hover_ToModule>TODO</WG_PreferModuleWeapon_Hover_ToModule>
+  <WG_PreferModuleWeapon_Hover_ToModule>Cambiar al arma del módulo</WG_PreferModuleWeapon_Hover_ToModule>
   <!-- EN: Switch to pilot weapon -->
-  <WG_PreferModuleWeapon_Hover_ToPilot>TODO</WG_PreferModuleWeapon_Hover_ToPilot>
+  <WG_PreferModuleWeapon_Hover_ToPilot>Cambiar al arma del piloto</WG_PreferModuleWeapon_Hover_ToPilot>
   <!-- EN: When the pilot mounts the exosuit, choose which weapon to equip by default.  -->
-  <WG_PreferModuleWeapon_Desc>TODO</WG_PreferModuleWeapon_Desc>
+  <WG_PreferModuleWeapon_Desc>Cuando el piloto se monta en el exotraje, elige qué arma se equipa de forma predeterminada.</WG_PreferModuleWeapon_Desc>
   <!-- EN: Default: melee module -->
-  <WG_PreferMeleeModuleWeapon_Idle_Melee>TODO</WG_PreferMeleeModuleWeapon_Idle_Melee>
+  <WG_PreferMeleeModuleWeapon_Idle_Melee>Predeterminado: módulo cuerpo a cuerpo</WG_PreferMeleeModuleWeapon_Idle_Melee>
   <!-- EN: Default: ranged module -->
-  <WG_PreferMeleeModuleWeapon_Idle_Ranged>TODO</WG_PreferMeleeModuleWeapon_Idle_Ranged>
+  <WG_PreferMeleeModuleWeapon_Idle_Ranged>Predeterminado: módulo a distancia</WG_PreferMeleeModuleWeapon_Idle_Ranged>
   <!-- EN: Switch to melee module -->
-  <WG_PreferMeleeModuleWeapon_Hover_ToMelee>TODO</WG_PreferMeleeModuleWeapon_Hover_ToMelee>
+  <WG_PreferMeleeModuleWeapon_Hover_ToMelee>Cambiar al módulo cuerpo a cuerpo</WG_PreferMeleeModuleWeapon_Hover_ToMelee>
   <!-- EN: Switch to ranged module -->
-  <WG_PreferMeleeModuleWeapon_Hover_ToRanged>TODO</WG_PreferMeleeModuleWeapon_Hover_ToRanged>
+  <WG_PreferMeleeModuleWeapon_Hover_ToRanged>Cambiar al módulo a distancia</WG_PreferMeleeModuleWeapon_Hover_ToRanged>
   <!-- EN: When both melee and ranged module weapons are installed, choose which one to equip on mount. -->
-  <WG_PreferMeleeModuleWeapon_Desc>TODO</WG_PreferMeleeModuleWeapon_Desc>
+  <WG_PreferMeleeModuleWeapon_Desc>Cuando hay instalados módulos de arma cuerpo a cuerpo y a distancia, elige cuál se equipa al montar.</WG_PreferMeleeModuleWeapon_Desc>
   <!-- EN: Available modules for this slot -->
   <WG_AvailableModuleForThisSlot>Módulos disponibles para esta ranura</WG_AvailableModuleForThisSlot>
   <!-- EN: Change module color -->
@@ -133,259 +133,259 @@
   <!-- EN: a sub turret attached on this frame -->
   <WG_SubTurretDesc>Una subtorreta acoplada a este armazón.</WG_SubTurretDesc>
   <!-- EN: Request install: {0} -->
-  <WG_RequestInstall>TODO</WG_RequestInstall>
+  <WG_RequestInstall>Solicitar instalación: {0}</WG_RequestInstall>
   <!-- EN: Request replace: {0} -->
-  <WG_RequestReplace>TODO</WG_RequestReplace>
+  <WG_RequestReplace>Solicitar reemplazo: {0}</WG_RequestReplace>
   <!-- EN: Replace core (remove all modules): {0} -->
-  <WG_RequestReplaceCoreRemoveAll>TODO</WG_RequestReplaceCoreRemoveAll>
+  <WG_RequestReplaceCoreRemoveAll>Reemplazar núcleo (quitar todos los módulos): {0}</WG_RequestReplaceCoreRemoveAll>
   <!-- EN: Replace core (keep modules): {0} -->
-  <WG_RequestReplaceCoreKeepModules>TODO</WG_RequestReplaceCoreKeepModules>
+  <WG_RequestReplaceCoreKeepModules>Reemplazar núcleo (conservar módulos): {0}</WG_RequestReplaceCoreKeepModules>
   <!-- EN: Request remove: {0} -->
-  <WG_RequestRemove>TODO</WG_RequestRemove>
+  <WG_RequestRemove>Solicitar extracción: {0}</WG_RequestRemove>
   <!-- EN: Cancel install: {0} -->
-  <WG_CancelInstall>TODO</WG_CancelInstall>
+  <WG_CancelInstall>Cancelar instalación: {0}</WG_CancelInstall>
   <!-- EN: Cancel remove: {0} -->
-  <WG_CancelRemove>TODO</WG_CancelRemove>
+  <WG_CancelRemove>Cancelar extracción: {0}</WG_CancelRemove>
   <!-- EN: Cancel replace: {0} -->
-  <WG_CancelReplace>TODO</WG_CancelReplace>
+  <WG_CancelReplace>Cancelar reemplazo: {0}</WG_CancelReplace>
   <!-- EN: Pending -->
-  <WG_Pending>TODO</WG_Pending>
+  <WG_Pending>Pendiente</WG_Pending>
   <!-- EN: Removing -->
-  <WG_PendingRemove>TODO</WG_PendingRemove>
+  <WG_PendingRemove>Extrayendo</WG_PendingRemove>
   <!-- EN: Replacing -->
-  <WG_PendingReplace>TODO</WG_PendingReplace>
+  <WG_PendingReplace>Reemplazando</WG_PendingReplace>
   <!-- EN: Core work in progress, cannot operate -->
-  <WG_CoreWorkInProgress>TODO</WG_CoreWorkInProgress>
+  <WG_CoreWorkInProgress>Hay trabajo de núcleo en curso, no se puede operar</WG_CoreWorkInProgress>
   <!-- EN: Cancel core work -->
-  <WG_CancelCoreWork>TODO</WG_CancelCoreWork>
+  <WG_CancelCoreWork>Cancelar trabajo de núcleo</WG_CancelCoreWork>
   <!-- EN: Weapon -->
-  <WG_WeaponModule>TODO</WG_WeaponModule>
+  <WG_WeaponModule>Arma</WG_WeaponModule>
   <!-- EN: Weapon provided by this module, can be switch when exosuit is in active. -->
-  <WG_WeaponModule_Desc>TODO</WG_WeaponModule_Desc>
+  <WG_WeaponModule_Desc>Arma que aporta este módulo; puede cambiarse mientras el exotraje está activo.</WG_WeaponModule_Desc>
   <!-- EN: Fuel -->
-  <WG_FuelCell_Fuel>TODO</WG_FuelCell_Fuel>
+  <WG_FuelCell_Fuel>Combustible</WG_FuelCell_Fuel>
   <!-- EN: Fuel cell provides extra energy for the exosuit, consumed while piloting.\nColonists will automatically haul chemfuel to refill it. -->
-  <WG_FuelCell_Tip>TODO</WG_FuelCell_Tip>
+  <WG_FuelCell_Tip>La celda de combustible aporta energía extra al exotraje y se consume mientras se pilotea.\nLos colonos llevarán quimbustible automáticamente para recargarla.</WG_FuelCell_Tip>
   <!-- EN: Fuel amount -->
-  <WG_FuelCell_FuelPercent>TODO</WG_FuelCell_FuelPercent>
+  <WG_FuelCell_FuelPercent>Cantidad de combustible</WG_FuelCell_FuelPercent>
   <!-- EN: Current remaining fuel percentage in the module. -->
-  <WG_FuelCell_FuelPercent_Desc>TODO</WG_FuelCell_FuelPercent_Desc>
+  <WG_FuelCell_FuelPercent_Desc>Porcentaje de combustible que queda actualmente en el módulo.</WG_FuelCell_FuelPercent_Desc>
   <!-- EN: Fuel capacity -->
-  <WG_FuelCell_FuelCapacity>TODO</WG_FuelCell_FuelCapacity>
+  <WG_FuelCell_FuelCapacity>Capacidad de combustible</WG_FuelCell_FuelCapacity>
   <!-- EN: Maximum fuel capacity that can be stored in the module. -->
-  <WG_FuelCell_FuelCapacity_Desc>TODO</WG_FuelCell_FuelCapacity_Desc>
+  <WG_FuelCell_FuelCapacity_Desc>Capacidad máxima de combustible que puede almacenarse en el módulo.</WG_FuelCell_FuelCapacity_Desc>
   <!-- EN: Refill per unit -->
-  <WG_FuelCell_FuelPerUnit>TODO</WG_FuelCell_FuelPerUnit>
+  <WG_FuelCell_FuelPerUnit>Recarga por unidad</WG_FuelCell_FuelPerUnit>
   <!-- EN: Fuel value that can be refilled per unit of fuel. -->
-  <WG_FuelCell_FuelPerUnit_Desc>TODO</WG_FuelCell_FuelPerUnit_Desc>
+  <WG_FuelCell_FuelPerUnit_Desc>Valor de combustible que se puede recargar por unidad de combustible.</WG_FuelCell_FuelPerUnit_Desc>
   <!-- EN: Daily fuel consumption -->
-  <WG_FuelCell_FuelConsumptionPerDay>TODO</WG_FuelCell_FuelConsumptionPerDay>
+  <WG_FuelCell_FuelConsumptionPerDay>Consumo diario de combustible</WG_FuelCell_FuelConsumptionPerDay>
   <!-- EN: Amount of fuel consumed per day while operating. -->
-  <WG_FuelCell_FuelConsumptionPerDay_Desc>TODO</WG_FuelCell_FuelConsumptionPerDay_Desc>
+  <WG_FuelCell_FuelConsumptionPerDay_Desc>Cantidad de combustible consumida por día durante el funcionamiento.</WG_FuelCell_FuelConsumptionPerDay_Desc>
   <!-- EN: Movement speed bonus provided by this exosuit module when fuel is sufficient. -->
-  <WG_FuelCell_MoveSpeedOffset_Desc>TODO</WG_FuelCell_MoveSpeedOffset_Desc>
+  <WG_FuelCell_MoveSpeedOffset_Desc>Bonificación de velocidad de movimiento que aporta este módulo del exotraje cuando hay combustible suficiente.</WG_FuelCell_MoveSpeedOffset_Desc>
   <!-- EN: Status effect -->
-  <WG_FuelCell_Hediff>TODO</WG_FuelCell_Hediff>
+  <WG_FuelCell_Hediff>Efecto de estado</WG_FuelCell_Hediff>
   <!-- EN: Hediff applied when this module is enabled. -->
-  <WG_FuelCell_Hediff_Desc>TODO</WG_FuelCell_Hediff_Desc>
+  <WG_FuelCell_Hediff_Desc>Efecto de salud que se aplica cuando este módulo está activado.</WG_FuelCell_Hediff_Desc>
   <!-- EN: Payload: {0} -->
-  <WG_ModuleInfo_Load>TODO</WG_ModuleInfo_Load>
+  <WG_ModuleInfo_Load>Carga útil: {0}</WG_ModuleInfo_Load>
   <!-- EN: Will replace: {0} -->
-  <WG_ModuleInfo_Slots>TODO</WG_ModuleInfo_Slots>
+  <WG_ModuleInfo_Slots>Reemplazará: {0}</WG_ModuleInfo_Slots>
   <!-- EN: Module mass: {0} kg\nPayload after install: {1} / {2} -->
-  <WG_ModuleInfo_LoadTip>TODO</WG_ModuleInfo_LoadTip>
+  <WG_ModuleInfo_LoadTip>Masa del módulo: {0} kg\nCarga útil tras la instalación: {1} / {2}</WG_ModuleInfo_LoadTip>
   <!-- EN: Warning: Will exceed payload capacity! -->
-  <WG_ModuleInfo_OverloadWarning>TODO</WG_ModuleInfo_OverloadWarning>
+  <WG_ModuleInfo_OverloadWarning>Advertencia: ¡se superará la capacidad de carga útil!</WG_ModuleInfo_OverloadWarning>
   <!-- EN: No maintenance gantry detected -->
-  <WG_AutoRepair_NoTarget>TODO</WG_AutoRepair_NoTarget>
+  <WG_AutoRepair_NoTarget>No se detectó ningún pórtico de mantenimiento</WG_AutoRepair_NoTarget>
   <!-- EN: Target gantry has no exosuit -->
-  <WG_AutoRepair_NoCore>TODO</WG_AutoRepair_NoCore>
+  <WG_AutoRepair_NoCore>El pórtico objetivo no tiene exotraje</WG_AutoRepair_NoCore>
   <!-- EN: Exosuit fully repaired -->
-  <WG_AutoRepair_NoDamage>TODO</WG_AutoRepair_NoDamage>
+  <WG_AutoRepair_NoDamage>Exotraje totalmente reparado</WG_AutoRepair_NoDamage>
   <!-- EN: Repairing... -->
-  <WG_AutoRepair_Working>TODO</WG_AutoRepair_Working>
+  <WG_AutoRepair_Working>Reparando...</WG_AutoRepair_Working>
   <!-- EN: This side already has a repair arm -->
-  <WG_AutoRepair_SideOccupied>TODO</WG_AutoRepair_SideOccupied>
+  <WG_AutoRepair_SideOccupied>Este lado ya tiene un brazo de reparación</WG_AutoRepair_SideOccupied>
   <!-- EN: Stop attacking -->
-  <WG_CommandStopAttack>TODO</WG_CommandStopAttack>
+  <WG_CommandStopAttack>Dejar de atacar</WG_CommandStopAttack>
   <!-- EN: Stop the current forced attack and return to auto-fire mode. -->
-  <WG_CommandStopAttackDesc>TODO</WG_CommandStopAttackDesc>
+  <WG_CommandStopAttackDesc>Detiene el ataque forzado actual y vuelve al modo de fuego automático.</WG_CommandStopAttackDesc>
   <!-- EN: Manual Attack ({0}) -->
-  <WG_CommandManualAttack>TODO</WG_CommandManualAttack>
+  <WG_CommandManualAttack>Ataque manual ({0})</WG_CommandManualAttack>
   <!-- EN: Order this turret to attack a specific target. -->
-  <WG_CommandManualAttackDesc>TODO</WG_CommandManualAttackDesc>
+  <WG_CommandManualAttackDesc>Ordena a esta torreta atacar un objetivo específico.</WG_CommandManualAttackDesc>
   <!-- EN: Order this assigned pilot to walk to their maintenance bay and gear up - the exosuit is donned automatically on arrival. -->
-  <WG_GetInDesc>TODO</WG_GetInDesc>
+  <WG_GetInDesc>Ordena a este piloto asignado caminar hasta su bahía de mantenimiento y equiparse: el exotraje se coloca automáticamente al llegar.</WG_GetInDesc>
   <!-- EN: Return to bay -->
-  <WG_GetOff>TODO</WG_GetOff>
+  <WG_GetOff>Volver a la bahía</WG_GetOff>
   <!-- EN: Order this pilot to walk back to their assigned maintenance bay - the exosuit is doffed automatically on arrival. -->
-  <WG_GetOffDesc>TODO</WG_GetOffDesc>
+  <WG_GetOffDesc>Ordena a este piloto volver caminando a su bahía de mantenimiento asignada: el exotraje se retira automáticamente al llegar.</WG_GetOffDesc>
   <!-- EN: {0} was depleted and jettisoned from {1}&apos;s exosuit. -->
-  <MF_ModuleEjected>TODO</MF_ModuleEjected>
+  <MF_ModuleEjected>{0} se agotó y fue expulsado del exotraje de {1}.</MF_ModuleEjected>
   <!-- EN: Ammo Backpack -->
-  <WG_AmmoBackpack_Title>TODO</WG_AmmoBackpack_Title>
+  <WG_AmmoBackpack_Title>Mochila de munición</WG_AmmoBackpack_Title>
   <!-- EN: Ammo Storage Editor -->
-  <WG_AmmoBackpack_EditorTitle>TODO</WG_AmmoBackpack_EditorTitle>
+  <WG_AmmoBackpack_EditorTitle>Editor de almacenamiento de munición</WG_AmmoBackpack_EditorTitle>
   <!-- EN: No compatible weapon -->
-  <WG_AmmoBackpack_NoWeapon>TODO</WG_AmmoBackpack_NoWeapon>
+  <WG_AmmoBackpack_NoWeapon>No hay ningún arma compatible</WG_AmmoBackpack_NoWeapon>
   <!-- EN: Weapon Module: {0} -->
-  <WG_AmmoBackpack_WeaponModule>TODO</WG_AmmoBackpack_WeaponModule>
+  <WG_AmmoBackpack_WeaponModule>Módulo de arma: {0}</WG_AmmoBackpack_WeaponModule>
   <!-- EN: No weapon module -->
-  <WG_AmmoBackpack_NoWeaponModule>TODO</WG_AmmoBackpack_NoWeaponModule>
+  <WG_AmmoBackpack_NoWeaponModule>Sin módulo de arma</WG_AmmoBackpack_NoWeaponModule>
   <!-- EN: Select ammo type -->
-  <WG_AmmoBackpack_SelectAmmo>TODO</WG_AmmoBackpack_SelectAmmo>
+  <WG_AmmoBackpack_SelectAmmo>Selecciona el tipo de munición</WG_AmmoBackpack_SelectAmmo>
   <!-- EN: Weapon Ammo -->
-  <WG_AmmoBackpack_WeaponAmmo>TODO</WG_AmmoBackpack_WeaponAmmo>
+  <WG_AmmoBackpack_WeaponAmmo>Munición del arma</WG_AmmoBackpack_WeaponAmmo>
   <!-- EN: Other Ammo -->
-  <WG_AmmoBackpack_OtherAmmo>TODO</WG_AmmoBackpack_OtherAmmo>
+  <WG_AmmoBackpack_OtherAmmo>Otra munición</WG_AmmoBackpack_OtherAmmo>
   <!-- EN: No ammo selected -->
-  <WG_AmmoBackpack_NoAmmoSelected>TODO</WG_AmmoBackpack_NoAmmoSelected>
+  <WG_AmmoBackpack_NoAmmoSelected>No hay munición seleccionada</WG_AmmoBackpack_NoAmmoSelected>
   <!-- EN: {0}: {1} / {2} -->
-  <WG_AmmoBackpack_AmmoStatus>TODO</WG_AmmoBackpack_AmmoStatus>
+  <WG_AmmoBackpack_AmmoStatus>{0}: {1} / {2}</WG_AmmoBackpack_AmmoStatus>
   <!-- EN: Mixed: {0} / {1} -->
-  <WG_AmmoBackpack_MixStatus>TODO</WG_AmmoBackpack_MixStatus>
+  <WG_AmmoBackpack_MixStatus>Mezclada: {0} / {1}</WG_AmmoBackpack_MixStatus>
   <!-- EN: Available Ammo -->
-  <WG_AmmoBackpack_AvailableAmmo>TODO</WG_AmmoBackpack_AvailableAmmo>
+  <WG_AmmoBackpack_AvailableAmmo>Munición disponible</WG_AmmoBackpack_AvailableAmmo>
   <!-- EN: No ammo available -->
-  <WG_AmmoBackpack_NoAmmoAvailable>TODO</WG_AmmoBackpack_NoAmmoAvailable>
+  <WG_AmmoBackpack_NoAmmoAvailable>No hay munición disponible</WG_AmmoBackpack_NoAmmoAvailable>
   <!-- EN: Load -->
-  <WG_AmmoBackpack_Load>TODO</WG_AmmoBackpack_Load>
+  <WG_AmmoBackpack_Load>Cargar</WG_AmmoBackpack_Load>
   <!-- EN: No matching results -->
-  <WG_AmmoBackpack_NoSearchResult>TODO</WG_AmmoBackpack_NoSearchResult>
+  <WG_AmmoBackpack_NoSearchResult>No hay resultados coincidentes</WG_AmmoBackpack_NoSearchResult>
   <!-- EN: {0}\nMass: {1} kg\nMax Capacity: {2} -->
-  <WG_AmmoBackpack_AmmoTip>TODO</WG_AmmoBackpack_AmmoTip>
+  <WG_AmmoBackpack_AmmoTip>{0}\nMasa: {1} kg\nCapacidad máxima: {2}</WG_AmmoBackpack_AmmoTip>
   <!-- EN: Pending: {0} (unload required) -->
-  <WG_AmmoBackpack_PendingSwitch>TODO</WG_AmmoBackpack_PendingSwitch>
+  <WG_AmmoBackpack_PendingSwitch>Pendiente: {0} (hay que descargar)</WG_AmmoBackpack_PendingSwitch>
   <!-- EN: Normal -->
-  <WG_AmmoBackpack_NormalMode>TODO</WG_AmmoBackpack_NormalMode>
+  <WG_AmmoBackpack_NormalMode>Normal</WG_AmmoBackpack_NormalMode>
   <!-- EN: Mix -->
-  <WG_AmmoBackpack_MixModeBtn>TODO</WG_AmmoBackpack_MixModeBtn>
+  <WG_AmmoBackpack_MixModeBtn>Mezcla</WG_AmmoBackpack_MixModeBtn>
   <!-- EN: Mixed Belt -->
-  <WG_AmmoBackpack_MixMode>TODO</WG_AmmoBackpack_MixMode>
+  <WG_AmmoBackpack_MixMode>Cinta mezclada</WG_AmmoBackpack_MixMode>
   <!-- EN: Ratio: {0} -->
-  <WG_AmmoBackpack_MixRatio>TODO</WG_AmmoBackpack_MixRatio>
+  <WG_AmmoBackpack_MixRatio>Proporción: {0}</WG_AmmoBackpack_MixRatio>
   <!-- EN: Current Ratio: {0} -->
-  <WG_AmmoBackpack_CurrentRatio>TODO</WG_AmmoBackpack_CurrentRatio>
+  <WG_AmmoBackpack_CurrentRatio>Proporción actual: {0}</WG_AmmoBackpack_CurrentRatio>
   <!-- EN: + Add Ammo Type -->
-  <WG_AmmoBackpack_AddMixAmmo>TODO</WG_AmmoBackpack_AddMixAmmo>
+  <WG_AmmoBackpack_AddMixAmmo>+ Añadir tipo de munición</WG_AmmoBackpack_AddMixAmmo>
   <!-- EN: + Add Slot -->
-  <WG_AmmoBackpack_AddSlot>TODO</WG_AmmoBackpack_AddSlot>
+  <WG_AmmoBackpack_AddSlot>+ Añadir ranura</WG_AmmoBackpack_AddSlot>
   <!-- EN: No more ammo available -->
-  <WG_AmmoBackpack_NoMoreAmmo>TODO</WG_AmmoBackpack_NoMoreAmmo>
+  <WG_AmmoBackpack_NoMoreAmmo>No hay más munición disponible</WG_AmmoBackpack_NoMoreAmmo>
   <!-- EN: No mix configured -->
-  <WG_AmmoBackpack_NoMixConfig>TODO</WG_AmmoBackpack_NoMixConfig>
+  <WG_AmmoBackpack_NoMixConfig>No hay ninguna mezcla configurada</WG_AmmoBackpack_NoMixConfig>
   <!-- EN: Select... -->
-  <WG_AmmoBackpack_SelectType>TODO</WG_AmmoBackpack_SelectType>
+  <WG_AmmoBackpack_SelectType>Seleccionar...</WG_AmmoBackpack_SelectType>
   <!-- EN: (in use) -->
-  <WG_AmmoBackpack_AlreadyUsed>TODO</WG_AmmoBackpack_AlreadyUsed>
+  <WG_AmmoBackpack_AlreadyUsed>(en uso)</WG_AmmoBackpack_AlreadyUsed>
   <!-- EN: Eject Ammo -->
-  <WG_AmmoBackpack_Eject>TODO</WG_AmmoBackpack_Eject>
+  <WG_AmmoBackpack_Eject>Expulsar munición</WG_AmmoBackpack_Eject>
   <!-- EN: Clear Type -->
-  <WG_AmmoBackpack_ClearType>TODO</WG_AmmoBackpack_ClearType>
+  <WG_AmmoBackpack_ClearType>Borrar tipo</WG_AmmoBackpack_ClearType>
   <!-- EN: Select Ammo Set -->
-  <WG_AmmoBackpack_SelectAmmoSet>TODO</WG_AmmoBackpack_SelectAmmoSet>
+  <WG_AmmoBackpack_SelectAmmoSet>Seleccionar conjunto de munición</WG_AmmoBackpack_SelectAmmoSet>
   <!-- EN: Weapon Ammo Sets -->
-  <WG_AmmoBackpack_WeaponAmmoSet>TODO</WG_AmmoBackpack_WeaponAmmoSet>
+  <WG_AmmoBackpack_WeaponAmmoSet>Conjuntos de munición del arma</WG_AmmoBackpack_WeaponAmmoSet>
   <!-- EN: Other Ammo Sets -->
-  <WG_AmmoBackpack_OtherAmmoSet>TODO</WG_AmmoBackpack_OtherAmmoSet>
+  <WG_AmmoBackpack_OtherAmmoSet>Otros conjuntos de munición</WG_AmmoBackpack_OtherAmmoSet>
   <!-- EN: Please select ammo set first -->
-  <WG_AmmoBackpack_SelectAmmoSetFirst>TODO</WG_AmmoBackpack_SelectAmmoSetFirst>
+  <WG_AmmoBackpack_SelectAmmoSetFirst>Primero selecciona un conjunto de munición</WG_AmmoBackpack_SelectAmmoSetFirst>
   <!-- EN: No compatible ammo set -->
-  <WG_AmmoBackpack_NoCompatibleAmmoSet>TODO</WG_AmmoBackpack_NoCompatibleAmmoSet>
+  <WG_AmmoBackpack_NoCompatibleAmmoSet>No hay ningún conjunto de munición compatible</WG_AmmoBackpack_NoCompatibleAmmoSet>
   <!-- EN: Wildcard Mode\nLoads any ammo from the ammo set randomly\nFires random ammo from loaded types -->
-  <WG_AmmoBackpack_WildcardMode>TODO</WG_AmmoBackpack_WildcardMode>
+  <WG_AmmoBackpack_WildcardMode>Modo comodín\nCarga al azar cualquier munición del conjunto\nDispara munición aleatoria entre los tipos cargados</WG_AmmoBackpack_WildcardMode>
   <!-- EN: {0} types -->
-  <WG_AmmoBackpack_WildcardTypes>TODO</WG_AmmoBackpack_WildcardTypes>
+  <WG_AmmoBackpack_WildcardTypes>{0} tipos</WG_AmmoBackpack_WildcardTypes>
   <!-- EN: Wildcard -->
-  <WG_AmmoBackpack_WildcardEmpty>TODO</WG_AmmoBackpack_WildcardEmpty>
+  <WG_AmmoBackpack_WildcardEmpty>Comodín</WG_AmmoBackpack_WildcardEmpty>
   <!-- EN: Save -->
-  <WG_AmmoBackpack_SavePreset>TODO</WG_AmmoBackpack_SavePreset>
+  <WG_AmmoBackpack_SavePreset>Guardar</WG_AmmoBackpack_SavePreset>
   <!-- EN: Load -->
-  <WG_AmmoBackpack_LoadPreset>TODO</WG_AmmoBackpack_LoadPreset>
+  <WG_AmmoBackpack_LoadPreset>Cargar</WG_AmmoBackpack_LoadPreset>
   <!-- EN: Save Mix Preset -->
-  <WG_AmmoBackpack_SavePresetTitle>TODO</WG_AmmoBackpack_SavePresetTitle>
+  <WG_AmmoBackpack_SavePresetTitle>Guardar preajuste de mezcla</WG_AmmoBackpack_SavePresetTitle>
   <!-- EN: Name: -->
-  <WG_AmmoBackpack_PresetName>TODO</WG_AmmoBackpack_PresetName>
+  <WG_AmmoBackpack_PresetName>Nombre:</WG_AmmoBackpack_PresetName>
   <!-- EN: Preset -->
-  <WG_AmmoBackpack_PresetDefault>TODO</WG_AmmoBackpack_PresetDefault>
+  <WG_AmmoBackpack_PresetDefault>Preajuste</WG_AmmoBackpack_PresetDefault>
   <!-- EN: Cancel -->
-  <WG_AmmoBackpack_Cancel>TODO</WG_AmmoBackpack_Cancel>
+  <WG_AmmoBackpack_Cancel>Cancelar</WG_AmmoBackpack_Cancel>
   <!-- EN: Save -->
-  <WG_AmmoBackpack_Save>TODO</WG_AmmoBackpack_Save>
+  <WG_AmmoBackpack_Save>Guardar</WG_AmmoBackpack_Save>
   <!-- EN: Preset &quot;{0}&quot; saved -->
-  <WG_AmmoBackpack_PresetSaved>TODO</WG_AmmoBackpack_PresetSaved>
+  <WG_AmmoBackpack_PresetSaved>Preajuste "{0}" guardado</WG_AmmoBackpack_PresetSaved>
   <!-- EN: Failed to save preset -->
-  <WG_AmmoBackpack_PresetSaveFailed>TODO</WG_AmmoBackpack_PresetSaveFailed>
+  <WG_AmmoBackpack_PresetSaveFailed>No se pudo guardar el preajuste</WG_AmmoBackpack_PresetSaveFailed>
   <!-- EN: Preset &quot;{0}&quot; already exists. Overwrite? -->
-  <WG_AmmoBackpack_PresetOverwrite>TODO</WG_AmmoBackpack_PresetOverwrite>
+  <WG_AmmoBackpack_PresetOverwrite>El preajuste "{0}" ya existe. ¿Sobrescribir?</WG_AmmoBackpack_PresetOverwrite>
   <!-- EN: No presets saved -->
-  <WG_AmmoBackpack_NoPresets>TODO</WG_AmmoBackpack_NoPresets>
+  <WG_AmmoBackpack_NoPresets>No hay preajustes guardados</WG_AmmoBackpack_NoPresets>
   <!-- EN: (need empty) -->
-  <WG_AmmoBackpack_PresetNeedEmpty>TODO</WG_AmmoBackpack_PresetNeedEmpty>
+  <WG_AmmoBackpack_PresetNeedEmpty>(hace falta que esté vacía)</WG_AmmoBackpack_PresetNeedEmpty>
   <!-- EN: Applied preset &quot;{0}&quot; -->
-  <WG_AmmoBackpack_PresetApplied>TODO</WG_AmmoBackpack_PresetApplied>
+  <WG_AmmoBackpack_PresetApplied>Se aplicó el preajuste "{0}"</WG_AmmoBackpack_PresetApplied>
   <!-- EN: Failed to apply preset -->
-  <WG_AmmoBackpack_PresetApplyFailed>TODO</WG_AmmoBackpack_PresetApplyFailed>
+  <WG_AmmoBackpack_PresetApplyFailed>No se pudo aplicar el preajuste</WG_AmmoBackpack_PresetApplyFailed>
   <!-- EN: Empty preset -->
-  <WG_AmmoBackpack_PresetEmpty>TODO</WG_AmmoBackpack_PresetEmpty>
+  <WG_AmmoBackpack_PresetEmpty>Preajuste vacío</WG_AmmoBackpack_PresetEmpty>
   <!-- EN: Manage Presets... -->
-  <WG_AmmoBackpack_ManagePresets>TODO</WG_AmmoBackpack_ManagePresets>
+  <WG_AmmoBackpack_ManagePresets>Gestionar preajustes...</WG_AmmoBackpack_ManagePresets>
   <!-- EN: Manage Mix Presets -->
-  <WG_AmmoBackpack_ManagePresetsTitle>TODO</WG_AmmoBackpack_ManagePresetsTitle>
+  <WG_AmmoBackpack_ManagePresetsTitle>Gestionar preajustes de mezcla</WG_AmmoBackpack_ManagePresetsTitle>
   <!-- EN: Rename -->
-  <WG_AmmoBackpack_Rename>TODO</WG_AmmoBackpack_Rename>
+  <WG_AmmoBackpack_Rename>Renombrar</WG_AmmoBackpack_Rename>
   <!-- EN: Delete -->
-  <WG_AmmoBackpack_Delete>TODO</WG_AmmoBackpack_Delete>
+  <WG_AmmoBackpack_Delete>Eliminar</WG_AmmoBackpack_Delete>
   <!-- EN: Delete preset &quot;{0}&quot;? -->
-  <WG_AmmoBackpack_DeletePresetConfirm>TODO</WG_AmmoBackpack_DeletePresetConfirm>
+  <WG_AmmoBackpack_DeletePresetConfirm>¿Eliminar el preajuste "{0}"?</WG_AmmoBackpack_DeletePresetConfirm>
   <!-- EN: Name already exists -->
-  <WG_AmmoBackpack_RenameExists>TODO</WG_AmmoBackpack_RenameExists>
+  <WG_AmmoBackpack_RenameExists>El nombre ya existe</WG_AmmoBackpack_RenameExists>
   <!-- EN: Preset manager not available -->
-  <WG_AmmoBackpack_NoPresetManager>TODO</WG_AmmoBackpack_NoPresetManager>
+  <WG_AmmoBackpack_NoPresetManager>El gestor de preajustes no está disponible</WG_AmmoBackpack_NoPresetManager>
   <!-- EN: Global -->
-  <WG_AmmoBackpack_Global>TODO</WG_AmmoBackpack_Global>
+  <WG_AmmoBackpack_Global>Global</WG_AmmoBackpack_Global>
   <!-- EN: Backpack -->
-  <WG_AmmoBackpack_MainPack>TODO</WG_AmmoBackpack_MainPack>
+  <WG_AmmoBackpack_MainPack>Mochila</WG_AmmoBackpack_MainPack>
   <!-- EN: Heavy Pack -->
-  <WG_AmmoBackpack_HeavyPack>TODO</WG_AmmoBackpack_HeavyPack>
+  <WG_AmmoBackpack_HeavyPack>Mochila pesada</WG_AmmoBackpack_HeavyPack>
   <!-- EN: Ammo Box -->
-  <WG_AmmoBackpack_LightBox>TODO</WG_AmmoBackpack_LightBox>
+  <WG_AmmoBackpack_LightBox>Caja de munición</WG_AmmoBackpack_LightBox>
   <!-- EN: {0} activated -->
-  <WG_AmmoBackpack_Activated>TODO</WG_AmmoBackpack_Activated>
+  <WG_AmmoBackpack_Activated>{0} activado</WG_AmmoBackpack_Activated>
   <!-- EN: Ammo Color Legend: -->
-  <WG_AmmoBackpack_ColorLegend>TODO</WG_AmmoBackpack_ColorLegend>
+  <WG_AmmoBackpack_ColorLegend>Leyenda de colores de munición:</WG_AmmoBackpack_ColorLegend>
   <!-- EN: Yellow -->
-  <WG_AmmoBackpack_ColorYellow>TODO</WG_AmmoBackpack_ColorYellow>
+  <WG_AmmoBackpack_ColorYellow>Amarillo</WG_AmmoBackpack_ColorYellow>
   <!-- EN: Blue -->
-  <WG_AmmoBackpack_ColorBlue>TODO</WG_AmmoBackpack_ColorBlue>
+  <WG_AmmoBackpack_ColorBlue>Azul</WG_AmmoBackpack_ColorBlue>
   <!-- EN: Green -->
-  <WG_AmmoBackpack_ColorGreen>TODO</WG_AmmoBackpack_ColorGreen>
+  <WG_AmmoBackpack_ColorGreen>Verde</WG_AmmoBackpack_ColorGreen>
   <!-- EN: Orange -->
-  <WG_AmmoBackpack_ColorOrange>TODO</WG_AmmoBackpack_ColorOrange>
+  <WG_AmmoBackpack_ColorOrange>Naranja</WG_AmmoBackpack_ColorOrange>
   <!-- EN: Red -->
-  <WG_AmmoBackpack_ColorRed>TODO</WG_AmmoBackpack_ColorRed>
+  <WG_AmmoBackpack_ColorRed>Rojo</WG_AmmoBackpack_ColorRed>
   <!-- EN: Gray -->
-  <WG_AmmoBackpack_ColorGray>TODO</WG_AmmoBackpack_ColorGray>
+  <WG_AmmoBackpack_ColorGray>Gris</WG_AmmoBackpack_ColorGray>
   <!-- EN: mm RHA -->
   <WG_Sharp_CE>mm RHA</WG_Sharp_CE>
   <!-- EN: MPA -->
   <WG_Blunt_CE>MPA</WG_Blunt_CE>
   <!-- EN: Turret Ammo -->
-  <WG_TurretAmmo_Label>TODO</WG_TurretAmmo_Label>
+  <WG_TurretAmmo_Label>Munición de la torreta</WG_TurretAmmo_Label>
   <!-- EN: Ammo: -->
-  <WG_TurretAmmo_Selected>TODO</WG_TurretAmmo_Selected>
+  <WG_TurretAmmo_Selected>Munición:</WG_TurretAmmo_Selected>
   <!-- EN: None -->
-  <WG_TurretAmmo_None>TODO</WG_TurretAmmo_None>
+  <WG_TurretAmmo_None>Ninguna</WG_TurretAmmo_None>
   <!-- EN: Allow backpack feed -->
-  <WG_TurretAmmo_AllowBackpack>TODO</WG_TurretAmmo_AllowBackpack>
+  <WG_TurretAmmo_AllowBackpack>Permitir alimentación desde la mochila</WG_TurretAmmo_AllowBackpack>
   <!-- EN: No ammo set configured -->
-  <WG_TurretAmmo_NoAmmoSet>TODO</WG_TurretAmmo_NoAmmoSet>
+  <WG_TurretAmmo_NoAmmoSet>No hay ningún conjunto de munición configurado</WG_TurretAmmo_NoAmmoSet>
   <!-- EN: No compatible ammo types -->
-  <WG_TurretAmmo_NoCompatible>TODO</WG_TurretAmmo_NoCompatible>
+  <WG_TurretAmmo_NoCompatible>No hay tipos de munición compatibles</WG_TurretAmmo_NoCompatible>
   <!-- EN: No ammo loaded -->
-  <WG_TurretAmmo_NoAmmo>TODO</WG_TurretAmmo_NoAmmo>
+  <WG_TurretAmmo_NoAmmo>No hay munición cargada</WG_TurretAmmo_NoAmmo>
   <!-- EN: {0}: {1}/{2} -->
-  <WG_TurretAmmo_Status>TODO</WG_TurretAmmo_Status>
+  <WG_TurretAmmo_Status>{0}: {1}/{2}</WG_TurretAmmo_Status>
   <!-- EN: Backpack feed: Enabled -->
-  <WG_TurretAmmo_BackpackEnabled>TODO</WG_TurretAmmo_BackpackEnabled>
+  <WG_TurretAmmo_BackpackEnabled>Alimentación desde mochila: activada</WG_TurretAmmo_BackpackEnabled>
 </LanguageData>

@@ -16,7 +16,7 @@
             <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/description</xpath>
             <value>
               <!-- EN: A bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant. -->
-              <description>TODO</description>
+              <description>Un miniquemador de bioferrita capaz de prender fuego a los objetivos cercanos con un chorro de acelerante ardiente.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -24,7 +24,7 @@
             <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/label</xpath>
             <value>
               <!-- EN: Mini Flamethrower -->
-              <label>TODO</label>
+              <label>Bioquemador</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -40,7 +40,7 @@
             <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Flare_Launcher"]/description</xpath>
             <value>
               <!-- EN: A utility launcher that shoots disruptor flares. Used for signaling or illumination. Loaded from the breech, its barrel is too thin to fire anything but flares. -->
-              <description>TODO</description>
+              <description>Un lanzador utilitario que dispara bengalas disruptoras. Se usa para señalización o iluminación. Se carga por la recámara y su cañón es demasiado fino para disparar otra cosa que no sean bengalas.</description>
             </value>
           </li>
         </operations>
@@ -59,7 +59,7 @@
           <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Shotgun_Underbarrel"]/label</xpath>
           <value>
             <!-- EN: 12 gauge Shotgun attachment -->
-            <label>TODO</label>
+            <label>Accesorio de escopeta</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
