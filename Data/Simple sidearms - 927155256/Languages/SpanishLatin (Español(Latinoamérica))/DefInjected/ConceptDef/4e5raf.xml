@@ -2,36 +2,16 @@
 <LanguageData>
   <!-- EN: SS: Sidearms -->
   <Concept_SimpleSidearmsBasic.label>SS: Armas secundarias</Concept_SimpleSidearmsBasic.label>
-  <!-- EN: Simple Sidearms\n\nIn order to equip weapons as sidearms, rightclick them and select the Equip as sidearm option.\n\nSidearms are listed in the Sidearms gizmo that is displayed when a colonist with at least one weapon is selected. By default, colonists will automatically switch to range-appropriate weapons, and will switch to a melee weapon when engaged in close combat. This behaviour can be altered in the mod settings. -->
+  <!-- EN: Simple Sidearms\n\nIn order to equip weapons as sidearms, rightclick them and select the Equip as sidearm option.\n\nBy default, colonists will use whichever weapon type they are best skilled with or passionate about. Ranged weapon users will also switch to a melee weapon when engaged in close combat. This behaviour can be altered in the mod settings. -->
   <Concept_SimpleSidearmsBasic.helpText>Simple Sidearms\n\nPara equipar armas como secundarias, haz clic derecho en ellas y selecciona la opción Equipar como secundaria.\n\nPor defecto, los colonos usarán el tipo de arma con el que sean más hábiles o tengan pasión. Los usuarios de armas a distancia también cambiarán a un arma cuerpo a cuerpo cuando participen en combate cercano. Este comportamiento se puede alterar en la configuración del mod.</Concept_SimpleSidearmsBasic.helpText>
-  <!-- EN: SS: Carried sidearms -->
-  <Concept_SidearmsInInventory.label>TODO</Concept_SidearmsInInventory.label>
-  <!-- EN: Sidearms with a gray background are currently in a colonists inventory and eligible for use. Left click to switch to them. Right click to drop. -->
-  <Concept_SidearmsInInventory.helpText>TODO</Concept_SidearmsInInventory.helpText>
-  <!-- EN: SS: Inactive primary weapons -->
-  <Concept_SidearmsPrimary.label>TODO</Concept_SidearmsPrimary.label>
-  <!-- EN: Sidearms with a golden background are designated as a colonists primary weapon, but are currently not used as such. They will switch back to them once out of combat. -->
-  <Concept_SidearmsPrimary.helpText>TODO</Concept_SidearmsPrimary.helpText>
-  <!-- EN: SS: Missing sidearms -->
-  <Concept_SidearmsMissing.label>SS: Armas secundarias faltantes</Concept_SidearmsMissing.label>
-  <!-- EN: Sidearms with a dark purple background are currently missing from a colonists loadout. They will attempt to replace them at earliest opportunity, assuming any can be found. Right click to forget about the sidearm. -->
-  <Concept_SidearmsMissing.helpText>Las armas secundarias con fondo morado oscuro faltan actualmente en el equipamiento de un colono. Intentarán reemplazarlas lo antes posible, asumiendo que se pueda encontrar alguna. Haz clic derecho para olvidar el arma secundaria.</Concept_SidearmsMissing.helpText>
-  <!-- EN: SS: Advanced controls -->
-  <Concept_SimpleSidearmsAdvanced.label>TODO</Concept_SimpleSidearmsAdvanced.label>
-  <!-- EN: Colonists can have sidearm use configured on an individual basis. Switching the top lock to red forces the pawn to continue using their primary weapon even if other ranged weapon would provide more DPS. Manually switching to a weapon automatically disables autoswitching - this behaviour can be disabled using the bottom lock. -->
-  <Concept_SimpleSidearmsAdvanced.helpText>TODO</Concept_SimpleSidearmsAdvanced.helpText>
-  <!-- EN: SS: Dropping weapons -->
-  <Concept_SimpleSidearmsDropping.label>TODO</Concept_SimpleSidearmsDropping.label>
-  <!-- EN: Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don&apos;t worry - your colonists will retrieve their weapons after the fight. \n\nThis is a customizable feature - take a look in the mod settings dialog to learn more. -->
-  <Concept_SimpleSidearmsDropping.helpText>TODO</Concept_SimpleSidearmsDropping.helpText>
-  <!-- EN: SS: CE patch -->
-  <Concept_CEOverride.label>SS: Parche CE</Concept_CEOverride.label>
-  <!-- EN: Combat Extended is loaded. SimpleSidearms inventory management functionality is disabled. -->
-  <Concept_CEOverride.helpText>Combat Extended está cargado. La funcionalidad de gestión de inventario de SimpleSidearms está desactivada.</Concept_CEOverride.helpText>
   <!-- EN: SS: Dropping sidearms -->
   <Concept_SidearmsDropping.label>SS: Soltar armas secundarias</Concept_SidearmsDropping.label>
   <!-- EN: Sidearms with a gray background are currently in a colonists inventory and eligible for use. Right click to drop. -->
   <Concept_SidearmsDropping.helpText>Las armas secundarias con fondo gris están actualmente en el inventario de un colono y son elegibles para su uso. Haz clic derecho para soltarlas.</Concept_SidearmsDropping.helpText>
+  <!-- EN: SS: Missing sidearms -->
+  <Concept_SidearmsMissing.label>SS: Armas secundarias faltantes</Concept_SidearmsMissing.label>
+  <!-- EN: Sidearms with a dark purple background are currently missing from a colonists loadout. They will attempt to replace them at earliest opportunity, assuming any can be found. Right click to forget about the sidearm. -->
+  <Concept_SidearmsMissing.helpText>Las armas secundarias con fondo morado oscuro faltan actualmente en el equipamiento de un colono. Intentarán reemplazarlas lo antes posible, asumiendo que se pueda encontrar alguna. Haz clic derecho para olvidar el arma secundaria.</Concept_SidearmsMissing.helpText>
   <!-- EN: SS: Weapon preference -->
   <Concept_SimpleSidearmsPreference.label>SS: Preferencia de armas</Concept_SimpleSidearmsPreference.label>
   <!-- EN: Colonists can have sidearm use configured on an individual basis. The options are: \nUse ranged weapons\nUse weapons colonist is passionate about or skilled with \nUse melee weapons -->
@@ -52,4 +32,24 @@
   <Concept_SimpleSidearmsLosingWeapons.label>SS: Perder armas</Concept_SimpleSidearmsLosingWeapons.label>
   <!-- EN: Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don&apos;t worry - your colonists will retrieve their weapons after the fight. \n\nThis is a customizable feature - take a look in the mod settings dialog to learn more. -->
   <Concept_SimpleSidearmsLosingWeapons.helpText>Dependiendo de la configuración, Simple Sidearms puede hacer que los colonos suelten sus armas en una variedad de situaciones (por defecto es ataques cuerpo a cuerpo). No te preocupes, tus colonos recuperarán sus armas después de la pelea. \n\nEsta es una característica personalizable: echa un vistazo al diálogo de configuración del mod para obtener más información.</Concept_SimpleSidearmsLosingWeapons.helpText>
+  <!-- EN: SS: CE patch -->
+  <Concept_CEOverride.label>SS: Parche CE</Concept_CEOverride.label>
+  <!-- EN: Combat Extended is loaded. SimpleSidearms inventory management functionality is disabled. -->
+  <Concept_CEOverride.helpText>Combat Extended está cargado. La funcionalidad de gestión de inventario de SimpleSidearms está desactivada.</Concept_CEOverride.helpText>
+  <!-- EN: SS: Carried sidearms -->
+  <Concept_SidearmsInInventory.label>TODO</Concept_SidearmsInInventory.label>
+  <!-- EN: Sidearms with a gray background are currently in a colonists inventory and eligible for use. Left click to switch to them. Right click to drop. -->
+  <Concept_SidearmsInInventory.helpText>TODO</Concept_SidearmsInInventory.helpText>
+  <!-- EN: SS: Inactive primary weapons -->
+  <Concept_SidearmsPrimary.label>TODO</Concept_SidearmsPrimary.label>
+  <!-- EN: Sidearms with a golden background are designated as a colonists primary weapon, but are currently not used as such. They will switch back to them once out of combat. -->
+  <Concept_SidearmsPrimary.helpText>TODO</Concept_SidearmsPrimary.helpText>
+  <!-- EN: SS: Advanced controls -->
+  <Concept_SimpleSidearmsAdvanced.label>TODO</Concept_SimpleSidearmsAdvanced.label>
+  <!-- EN: Colonists can have sidearm use configured on an individual basis. Switching the top lock to red forces the pawn to continue using their primary weapon even if other ranged weapon would provide more DPS. Manually switching to a weapon automatically disables autoswitching - this behaviour can be disabled using the bottom lock. -->
+  <Concept_SimpleSidearmsAdvanced.helpText>TODO</Concept_SimpleSidearmsAdvanced.helpText>
+  <!-- EN: SS: Dropping weapons -->
+  <Concept_SimpleSidearmsDropping.label>TODO</Concept_SimpleSidearmsDropping.label>
+  <!-- EN: Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don&apos;t worry - your colonists will retrieve their weapons after the fight. \n\nThis is a customizable feature - take a look in the mod settings dialog to learn more. -->
+  <Concept_SimpleSidearmsDropping.helpText>TODO</Concept_SimpleSidearmsDropping.helpText>
 </LanguageData>
