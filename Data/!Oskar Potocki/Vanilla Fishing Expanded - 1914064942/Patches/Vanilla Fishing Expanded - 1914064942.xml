@@ -16,7 +16,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementTabDef[defName="VCE_AchievementsFishing"]/label</xpath>
             <value>
               <!-- EN: Vanilla Fishing -->
-              <label>TODO</label>
+              <label>Vanilla Fishing</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -24,7 +24,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/label</xpath>
             <value>
               <!-- EN: Feeling a Little Shellfish -->
-              <label>TODO</label>
+              <label>Un poco marisquista</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -32,7 +32,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/description</xpath>
             <value>
               <!-- EN: Make a Lavish meal with lobster -->
-              <description>TODO</description>
+              <description>Prepara una comida opulenta con langosta</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -40,7 +40,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/label</xpath>
             <value>
               <!-- EN: Fugu -->
-              <label>TODO</label>
+              <label>Fugu</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -48,7 +48,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/description</xpath>
             <value>
               <!-- EN: Eat a raw pufferfish -->
-              <description>TODO</description>
+              <description>Come un pez globo crudo</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -56,7 +56,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/label</xpath>
             <value>
               <!-- EN: Something Special -->
-              <label>TODO</label>
+              <label>Algo especial</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -64,7 +64,7 @@
             <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/description</xpath>
             <value>
               <!-- EN: Catch something that is not a fish -->
-              <description>TODO</description>
+              <description>Pesca algo que no sea un pez</description>
             </value>
           </li>
         </operations>
@@ -87,7 +87,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/label</xpath>
             <value>
               <!-- EN: Swiftcasting -->
-              <label>TODO</label>
+              <label>Lanzado veloz</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -95,7 +95,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/description</xpath>
             <value>
               <!-- EN: An expertise in fishing speed that reduces the time spent on fishing jobs. -->
-              <description>TODO</description>
+              <description>Una pericia en velocidad de pesca que reduce el tiempo dedicado a los trabajos de pesca.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -103,7 +103,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/label</xpath>
             <value>
               <!-- EN: Catchmastery -->
-              <label>TODO</label>
+              <label>Maestría de captura</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -111,7 +111,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/description</xpath>
             <value>
               <!-- EN: An expertise in fish catching that increases the amount of fish caught. -->
-              <description>TODO</description>
+              <description>Una pericia en la captura de peces que aumenta la cantidad de peces atrapados.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -119,7 +119,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/label</xpath>
             <value>
               <!-- EN: Aquabounty -->
-              <label>TODO</label>
+              <label>Botín acuático</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -127,7 +127,7 @@
             <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/description</xpath>
             <value>
               <!-- EN: An expertise in getting lucky when fishing, catching special items that are not fish. -->
-              <description>TODO</description>
+              <description>Una pericia para tener suerte al pescar, atrapando objetos especiales que no son peces.</description>
             </value>
           </li>
         </operations>

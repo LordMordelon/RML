@@ -75,11 +75,11 @@
   <!-- EN: While caravaning, produces {0} {1} every:  -->
   <VEF_WhileCaravaning>Mientras está en caravana, produce {0} {1} cada: </VEF_WhileCaravaning>
   <!-- EN: Base special animal products production for this animal is {0} {1}. Adjusted by its animal product yield factor this will result in {2} {1} instead. -->
-  <VEF_AnimalProductYieldFactorDetails>TODO</VEF_AnimalProductYieldFactorDetails>
+  <VEF_AnimalProductYieldFactorDetails>La producción base de productos animales especiales de este animal es {0} {1}. Ajustada por su factor de rendimiento de productos animales, esto dará {2} {1} en su lugar.</VEF_AnimalProductYieldFactorDetails>
   <!-- EN: Base special animal products production for this animal is {0} of a selection of randomized or terrain dependent items. Adjusted by its animal product yield factor this will result in {1} units instead. -->
-  <VEF_AnimalProductYieldFactorDetails_Random>TODO</VEF_AnimalProductYieldFactorDetails_Random>
+  <VEF_AnimalProductYieldFactorDetails_Random>La producción base de productos animales especiales de este animal es {0} de una selección de objetos aleatorios o dependientes del terreno. Ajustada por su factor de rendimiento de productos animales, esto dará {1} unidades en su lugar.</VEF_AnimalProductYieldFactorDetails_Random>
   <!-- EN: Base special animal products interval for this animal is {0} days. Adjusted by its animal products interval factor this will result in {1} days instead. This value is capped at a minimum of 1 day. -->
-  <VEF_AnimalProductIntervalFactorDetails>TODO</VEF_AnimalProductIntervalFactorDetails>
+  <VEF_AnimalProductIntervalFactorDetails>El intervalo base de productos animales especiales de este animal es de {0} días. Ajustado por su factor de intervalo de productos animales, esto dará {1} días en su lugar. Este valor tiene un mínimo de 1 día.</VEF_AnimalProductIntervalFactorDetails>
   <!-- EN: These animal behaviours options will affect all animal mods that share code from the Vanilla Expanded Framework -->
   <VCE_AffectsAllAnimalMods>Estas opciones de comportamiento animal afectarán a todos los mods que compartan código del Vanilla Expanded Framework.</VCE_AffectsAllAnimalMods>
   <!-- EN: Allow corpse decaying mechanics (for example, Helixien slug&apos;s effect) -->
@@ -119,55 +119,55 @@
   <!-- EN: Requires {0} Kg total mass -->
   <VEF_BillRequiresMass>Requiere {0} kg de masa total</VEF_BillRequiresMass>
   <!-- EN: Genes -->
-  <VRE_TabAnimalGenes>TODO</VRE_TabAnimalGenes>
+  <VRE_TabAnimalGenes>Genes</VRE_TabAnimalGenes>
   <!-- EN: Animal genes -->
-  <VRE_AnimalGenes>TODO</VRE_AnimalGenes>
+  <VRE_AnimalGenes>Genes animales</VRE_AnimalGenes>
   <!-- EN: Gene family -->
-  <VRE_FamilyTag>TODO</VRE_FamilyTag>
+  <VRE_FamilyTag>Familia genética</VRE_FamilyTag>
   <!-- EN: The genes associated with this feratype. -->
-  <VRE_AnimalGenesFeratypeDesc>TODO</VRE_AnimalGenesFeratypeDesc>
+  <VRE_AnimalGenesFeratypeDesc>Los genes asociados a este feratipo.</VRE_AnimalGenesFeratypeDesc>
   <!-- EN: Feratype -->
-  <VRE_Feratype>TODO</VRE_Feratype>
+  <VRE_Feratype>Feratipo</VRE_Feratype>
   <!-- EN: Genes present in this animal -->
-  <VRE_AnimalGenesDesc>TODO</VRE_AnimalGenesDesc>
+  <VRE_AnimalGenesDesc>Genes presentes en este animal</VRE_AnimalGenesDesc>
   <!-- EN: Relevant animal genes -->
-  <VRE_StatsReport_Genes>TODO</VRE_StatsReport_Genes>
+  <VRE_StatsReport_Genes>Genes animales relevantes</VRE_StatsReport_Genes>
   <!-- EN: More information is available on this feratype&apos;s information screen. -->
-  <VRE_MoreInfoInInfoScreen>TODO</VRE_MoreInfoInInfoScreen>
+  <VRE_MoreInfoInInfoScreen>Hay más información disponible en la pantalla de información de este feratipo.</VRE_MoreInfoInInfoScreen>
   <!-- EN: Animal illness MTB -->
-  <VRE_AnimalIllness>TODO</VRE_AnimalIllness>
+  <VRE_AnimalIllness>TMP de enfermedad animal</VRE_AnimalIllness>
   <!-- EN: Animal tantrum MTB -->
-  <VRE_AnimalTantrum>TODO</VRE_AnimalTantrum>
+  <VRE_AnimalTantrum>TMP de berrinche animal</VRE_AnimalTantrum>
   <!-- EN: Trainability set to -->
-  <VRE_Trainability>TODO</VRE_Trainability>
+  <VRE_Trainability>Adiestrabilidad fijada en</VRE_Trainability>
   <!-- EN: Stability -->
-  <VRE_Stability>TODO</VRE_Stability>
+  <VRE_Stability>Estabilidad</VRE_Stability>
   <!-- EN: Stability represents the complexity of an animal&apos;s genetic code and affecting predictability of gene inheritance.\n\nHigh stability ensures offspring typically inherit the average of their parents&apos; genes, whereas low stability increases the likelihood that offspring will deviate from parental traits towards the natural median. -->
-  <VRE_StabilityDesc>TODO</VRE_StabilityDesc>
+  <VRE_StabilityDesc>La estabilidad representa la complejidad del código genético de un animal y afecta la previsibilidad de la herencia genética.\n\nUna estabilidad alta asegura que la descendencia suela heredar el promedio de los genes de sus padres, mientras que una estabilidad baja aumenta la probabilidad de que la descendencia se aleje de los rasgos parentales hacia la mediana natural.</VRE_StabilityDesc>
   <!-- EN: days -->
-  <VRE_Days>TODO</VRE_Days>
+  <VRE_Days>días</VRE_Days>
   <!-- EN: Lifespan -->
-  <VRE_LifespanFactor>TODO</VRE_LifespanFactor>
+  <VRE_LifespanFactor>Vida útil</VRE_LifespanFactor>
   <!-- EN: Lifespan factor of this animal according to its genetic stability -->
-  <VRE_LifespanFactorDesc>TODO</VRE_LifespanFactorDesc>
+  <VRE_LifespanFactorDesc>Factor de vida útil de este animal según su estabilidad genética</VRE_LifespanFactorDesc>
   <!-- EN: feratype family -->
-  <VRE_FeratypeFamily>TODO</VRE_FeratypeFamily>
+  <VRE_FeratypeFamily>familia de feratipos</VRE_FeratypeFamily>
   <!-- EN: This feratype belongs to the {0} feratype family:\n\n{1} -->
-  <VRE_FeratypeFamilyDesc>TODO</VRE_FeratypeFamilyDesc>
+  <VRE_FeratypeFamilyDesc>Este feratipo pertenece a la familia de feratipos {0}:\n\n{1}</VRE_FeratypeFamilyDesc>
   <!-- EN: Allowed partners -->
-  <VRE_AllowedPartners>TODO</VRE_AllowedPartners>
+  <VRE_AllowedPartners>Parejas permitidas</VRE_AllowedPartners>
   <!-- EN: A list of all feratypes belonging to the {0} feratype family that this animal can make offspring with. -->
-  <VRE_AllowedPartnersDesc>TODO</VRE_AllowedPartnersDesc>
+  <VRE_AllowedPartnersDesc>Una lista de todos los feratipos de la familia de feratipos {0} con los que este animal puede tener descendencia.</VRE_AllowedPartnersDesc>
   <!-- EN: This animal is not pregnant -->
-  <VRE_NotPregnant>TODO</VRE_NotPregnant>
+  <VRE_NotPregnant>Este animal no está preñado</VRE_NotPregnant>
   <!-- EN: Stillborn {0} -->
-  <VRE_StillbornLabel>TODO</VRE_StillbornLabel>
+  <VRE_StillbornLabel>{0} nacido muerto</VRE_StillbornLabel>
   <!-- EN: Your {0}, {1} gave birth to a stillborn offspring. -->
-  <VRE_StillbornDesc>TODO</VRE_StillbornDesc>
+  <VRE_StillbornDesc>Tu {0}, {1}, dio a luz una cría nacida muerta.</VRE_StillbornDesc>
   <!-- EN: Specialized gene -->
-  <VRE_SpecializedGene>TODO</VRE_SpecializedGene>
+  <VRE_SpecializedGene>Gen especializado</VRE_SpecializedGene>
   <!-- EN: This gene is only inherited by offspring whose feratype contains a gene from this family. -->
-  <VRE_SpecializedGeneDesc>TODO</VRE_SpecializedGeneDesc>
+  <VRE_SpecializedGeneDesc>Este gen solo lo hereda la descendencia cuyo feratipo contenga un gen de esta familia.</VRE_SpecializedGeneDesc>
   <!-- EN: Gifting {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
   <VEF.Factions.Contraband_Booze_GiftWarning>Regalar {ILLEGALTHING_label} va en contra de la ley de {FACTION_name}. Esto puede o no afectar tus relaciones con ellos en el futuro</VEF.Factions.Contraband_Booze_GiftWarning>
   <!-- EN: Gifting {ILLEGALTHING_label} to {ILLEGALFACTION_name} is against {FACTION_name} law. This may or may not affect your relations with them in the future -->
@@ -1152,7 +1152,7 @@ If hired {0} die on duty, you will incur an additional 5% increase to contract p
   <!-- EN: in pain -->
   <VGE_StatsReport_InPain>con dolor</VGE_StatsReport_InPain>
   <!-- EN: in great pain (&gt;20%) -->
-  <VGE_StatsReport_InGreatPain>TODO</VGE_StatsReport_InGreatPain>
+  <VGE_StatsReport_InGreatPain>con mucho dolor (&gt;20%)</VGE_StatsReport_InGreatPain>
   <!-- EN: in polluted terrain -->
   <VGE_StatsReport_InPollution>en terreno contaminado</VGE_StatsReport_InPollution>
   <!-- EN: on colony map -->

@@ -12,7 +12,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/label</xpath>
           <value>
             <!-- EN: gaunt body -->
-            <label>TODO</label>
+            <label>cuerpo demacrado</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/labelShortAdj</xpath>
           <value>
             <!-- EN: gaunt -->
-            <labelShortAdj>TODO</labelShortAdj>
+            <labelShortAdj>demacrado</labelShortAdj>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/description</xpath>
           <value>
             <!-- EN: Carriers of this gene have a pinched, gaunt appearance in their body. -->
-            <description>TODO</description>
+            <description>Los portadores de este gen tienen una apariencia corporal enjuta y demacrada.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[1]/symbol</xpath>
           <value>
             <!-- EN: gaunt -->
-            <symbol>TODO</symbol>
+            <symbol>demacrado</symbol>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -44,7 +44,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[2]/symbol</xpath>
           <value>
             <!-- EN: zomb -->
-            <symbol>TODO</symbol>
+            <symbol>zomb</symbol>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -52,7 +52,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[3]/symbol</xpath>
           <value>
             <!-- EN: dead -->
-            <symbol>TODO</symbol>
+            <symbol>muerto</symbol>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -60,7 +60,7 @@
           <xpath>/Defs/GeneDef[defName="VRE_GauntBody"]/symbolPack/prefixSymbols/li[4]/symbol</xpath>
           <value>
             <!-- EN: bone -->
-            <symbol>TODO</symbol>
+            <symbol>hueso</symbol>
           </value>
         </li>
       </operations>

@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: siteFaction -->
-  <VFED_DeserterQuestBase.root.nodes.7.name>TODO</VFED_DeserterQuestBase.root.nodes.7.name>
+  <VFED_DeserterQuestBase.root.nodes.7.name>siteFaction</VFED_DeserterQuestBase.root.nodes.7.name>
   <!-- EN: objectiveCompleteSignal -->
-  <VFED_DeserterQuestBase.root.nodes.13.name>TODO</VFED_DeserterQuestBase.root.nodes.13.name>
+  <VFED_DeserterQuestBase.root.nodes.13.name>objectiveCompleteSignal</VFED_DeserterQuestBase.root.nodes.13.name>
   <!-- EN: objectiveCompleteSignal -->
-  <VFED_DeserterQuestBase.root.nodes.13.elseNode.name>TODO</VFED_DeserterQuestBase.root.nodes.13.elseNode.name>
+  <VFED_DeserterQuestBase.root.nodes.13.elseNode.name>objectiveCompleteSignal</VFED_DeserterQuestBase.root.nodes.13.elseNode.name>
   <!-- EN: questCompleteSignal -->
-  <VFED_DeserterQuestBase.root.nodes.14.elseNode.name>TODO</VFED_DeserterQuestBase.root.nodes.14.elseNode.name>
+  <VFED_DeserterQuestBase.root.nodes.14.elseNode.name>questCompleteSignal</VFED_DeserterQuestBase.root.nodes.14.elseNode.name>
   <!-- EN: questCompleteSignal -->
-  <VFED_DeserterQuestBase.root.nodes.14.node.nodes.1.name>TODO</VFED_DeserterQuestBase.root.nodes.14.node.nodes.1.name>
+  <VFED_DeserterQuestBase.root.nodes.14.node.nodes.1.name>questCompleteSignal</VFED_DeserterQuestBase.root.nodes.14.node.nodes.1.name>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <VFED_DeserterQuestBase.root.nodes.20.node.nodes.0.label>Misión expirada: [resolvedQuestName]</VFED_DeserterQuestBase.root.nodes.20.node.nodes.0.label>
   <!-- EN: The [site_label] has packed up and moved on. The quest [resolvedQuestName] has expired. -->
   <VFED_DeserterQuestBase.root.nodes.20.node.nodes.0.text>El [site_label] ha empacado y se ha ido. La misión [resolvedQuestName] ha expirado.</VFED_DeserterQuestBase.root.nodes.20.node.nodes.0.text>
   <!-- EN: raidPoints -->
-  <VFED_ChasedDeserter.root.nodes.2.name>TODO</VFED_ChasedDeserter.root.nodes.2.name>
+  <VFED_ChasedDeserter.root.nodes.2.name>raidPoints</VFED_ChasedDeserter.root.nodes.2.name>
   <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
   <VFED_ChasedDeserter.root.nodes.6.customLetterText>{BASETEXT}\n\nDebido a que aceptaste a [asker_nameDef], [asker_factionName] se ha vuelto hostil.\n\nEl escuadrón de lealtad que está cazando a [asker_objective] llegará pronto.</VFED_ChasedDeserter.root.nodes.6.customLetterText>
   <!-- EN: raidDelayTicks -->
-  <VFED_ChasedDeserter.root.nodes.7.name>TODO</VFED_ChasedDeserter.root.nodes.7.name>
+  <VFED_ChasedDeserter.root.nodes.7.name>raidDelayTicks</VFED_ChasedDeserter.root.nodes.7.name>
   <!-- EN: {BASELABEL}: Loyalty squad -->
   <VFED_ChasedDeserter.root.nodes.8.node.nodes.0.parms.customLetterLabel>{BASELABEL}: Escuadrón de lealtad</VFED_ChasedDeserter.root.nodes.8.node.nodes.0.parms.customLetterLabel>
   <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull]. -->
@@ -29,23 +29,23 @@
   <!-- EN: Intercepted communications indicate the dead drop has been located by [empire_name]. The quest [resolvedQuestName] has expired. -->
   <VFED_DeadDrop.root.nodes.3.node.nodes.4.node.nodes.0.text>Las comunicaciones interceptadas indican que el punto de entrega ha sido localizado por [empire_name]. La misión [resolvedQuestName] ha expirado.</VFED_DeadDrop.root.nodes.3.node.nodes.4.node.nodes.0.text>
   <!-- EN: raidPoints -->
-  <VFED_EmpireBargain.root.nodes.4.name>TODO</VFED_EmpireBargain.root.nodes.4.name>
+  <VFED_EmpireBargain.root.nodes.4.name>raidPoints</VFED_EmpireBargain.root.nodes.4.name>
   <!-- EN: raidDelayTicks -->
-  <VFED_EmpireBargain.root.nodes.5.name>TODO</VFED_EmpireBargain.root.nodes.5.name>
+  <VFED_EmpireBargain.root.nodes.5.name>raidDelayTicks</VFED_EmpireBargain.root.nodes.5.name>
   <!-- EN: {BASELABEL}: Retribution force -->
   <VFED_EmpireBargain.root.nodes.8.node.parms.customLetterLabel>{BASELABEL}: Fuerza de retribución</VFED_EmpireBargain.root.nodes.8.node.parms.customLetterLabel>
   <!-- EN: {BASETEXT}\n\nThis is a retribution force for your betrayal of [../deserters_name] to [../empire_name]. -->
   <VFED_EmpireBargain.root.nodes.8.node.parms.customLetterText>{BASETEXT}\n\nEsta es una fuerza de retribución por tu traición a [../deserters_name] ante [../empire_name].</VFED_EmpireBargain.root.nodes.8.node.parms.customLetterText>
   <!-- EN: siteFaction -->
-  <VFED_EmpireRuins.root.nodes.3.name>TODO</VFED_EmpireRuins.root.nodes.3.name>
+  <VFED_EmpireRuins.root.nodes.3.name>siteFaction</VFED_EmpireRuins.root.nodes.3.name>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <VFED_EmpireRuins.root.nodes.6.node.nodes.0.label>Misión expirada: [resolvedQuestName]</VFED_EmpireRuins.root.nodes.6.node.nodes.0.label>
   <!-- EN: The [site_label] has been stripped by scavengers. The quest [resolvedQuestName] has expired. -->
   <VFED_EmpireRuins.root.nodes.6.node.nodes.0.text>El [site_label] ha sido despojado por carroñeros. La misión [resolvedQuestName] ha expirado.</VFED_EmpireRuins.root.nodes.6.node.nodes.0.text>
   <!-- EN: pointsOriginal -->
-  <VFED_DeserterEndgame.root.nodes.5.name>TODO</VFED_DeserterEndgame.root.nodes.5.name>
+  <VFED_DeserterEndgame.root.nodes.5.name>pointsOriginal</VFED_DeserterEndgame.root.nodes.5.name>
   <!-- EN: siteFaction -->
-  <VFED_DeserterEndgame.root.nodes.10.name>TODO</VFED_DeserterEndgame.root.nodes.10.name>
+  <VFED_DeserterEndgame.root.nodes.10.name>siteFaction</VFED_DeserterEndgame.root.nodes.10.name>
   <!-- EN: Shuttle arrived -->
   <VFED_DeserterEndgame.root.nodes.21.label>Transbordador llegó</VFED_DeserterEndgame.root.nodes.21.label>
   <!-- EN: [shuttleLetterText] -->
@@ -59,35 +59,35 @@
   <!-- EN: The zeus cannon control station has been destroyed. -->
   <VFED_DeserterEndgame.root.nodes.36.node.nodes.0.text>La estación de control del cañón Zeus ha sido destruida.</VFED_DeserterEndgame.root.nodes.36.node.nodes.0.text>
   <!-- EN: pointsOriginal -->
-  <VFED_PlotMission.root.nodes.7.name>TODO</VFED_PlotMission.root.nodes.7.name>
+  <VFED_PlotMission.root.nodes.7.name>pointsOriginal</VFED_PlotMission.root.nodes.7.name>
   <!-- EN: $nobleTitle -->
-  <VFED_PlotMission.root.nodes.9.title>TODO</VFED_PlotMission.root.nodes.9.title>
+  <VFED_PlotMission.root.nodes.9.title>$nobleTitle</VFED_PlotMission.root.nodes.9.title>
   <!-- EN: siteFaction -->
-  <VFED_PlotMission.root.nodes.13.choices.raid.nodes.2.name>TODO</VFED_PlotMission.root.nodes.13.choices.raid.nodes.2.name>
+  <VFED_PlotMission.root.nodes.13.choices.raid.nodes.2.name>siteFaction</VFED_PlotMission.root.nodes.13.choices.raid.nodes.2.name>
   <!-- EN: siteFaction -->
-  <VFED_PlotMission.root.nodes.13.choices.shootDown.nodes.5.name>TODO</VFED_PlotMission.root.nodes.13.choices.shootDown.nodes.5.name>
+  <VFED_PlotMission.root.nodes.13.choices.shootDown.nodes.5.name>siteFaction</VFED_PlotMission.root.nodes.13.choices.shootDown.nodes.5.name>
   <!-- EN: owningFaction -->
-  <VFED_PlotMission.root.nodes.13.choices.falseInvitation.nodes.4.name>TODO</VFED_PlotMission.root.nodes.13.choices.falseInvitation.nodes.4.name>
+  <VFED_PlotMission.root.nodes.13.choices.falseInvitation.nodes.4.name>owningFaction</VFED_PlotMission.root.nodes.13.choices.falseInvitation.nodes.4.name>
   <!-- EN: pointsOriginal -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.0.name>pointsOriginal</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.0.name>
   <!-- EN: challengeRating -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.0.name>challengeRating</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.0.name>
   <!-- EN: pointsFactor -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.1.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.1.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.1.name>pointsFactor</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.0.nodes.1.name>
   <!-- EN: challengeRating -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.0.name>challengeRating</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.0.name>
   <!-- EN: pointsFactor -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.1.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.1.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.1.name>pointsFactor</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.1.nodes.1.name>
   <!-- EN: challengeRating -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.0.name>challengeRating</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.0.name>
   <!-- EN: pointsFactor -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.1.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.1.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.1.name>pointsFactor</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.2.nodes.1.name>
   <!-- EN: challengeRating -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.0.name>challengeRating</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.0.name>
   <!-- EN: pointsFactor -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.1.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.1.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.1.name>pointsFactor</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.3.nodes.1.name>
   <!-- EN: challengeRating -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.0.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.0.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.0.name>challengeRating</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.0.name>
   <!-- EN: pointsFactor -->
-  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.1.name>TODO</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.1.name>
+  <VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.1.name>pointsFactor</VFED_Util_RandomizePointsChallengeRating_AllStars.root.nodes.1.nodes.4.nodes.1.name>
 </LanguageData>

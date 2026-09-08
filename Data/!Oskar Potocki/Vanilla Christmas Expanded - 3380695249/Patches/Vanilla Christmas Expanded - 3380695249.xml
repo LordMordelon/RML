@@ -16,7 +16,7 @@
             <xpath>/Defs/ThingDef[defName="VCE_UncookedBorscht"]/label</xpath>
             <value>
               <!-- EN: uncooked borscht -->
-              <label>TODO</label>
+              <label>borscht sin cocinar</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -24,7 +24,7 @@
             <xpath>/Defs/ThingDef[defName="VCE_UncookedBorscht"]/description</xpath>
             <value>
               <!-- EN: An uncooked traditional beetroot soup. This needs to be cooked in an electric pot to be edible. -->
-              <description>TODO</description>
+              <description>Una sopa tradicional de remolacha sin cocinar. Hay que cocinarla en una olla eléctrica para que sea comestible.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -32,7 +32,7 @@
             <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/label</xpath>
             <value>
               <!-- EN: prepare borscht -->
-              <label>TODO</label>
+              <label>preparar borscht</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -40,7 +40,7 @@
             <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/description</xpath>
             <value>
               <!-- EN: Prepare a traditional uncooked borscht from beetroots. -->
-              <description>TODO</description>
+              <description>Prepara un borscht tradicional sin cocinar a partir de remolachas.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -48,7 +48,7 @@
             <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/jobString</xpath>
             <value>
               <!-- EN: Preparing borscht. -->
-              <jobString>TODO</jobString>
+              <jobString>Preparando borscht.</jobString>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -56,7 +56,7 @@
             <xpath>/Defs/ThingDef[defName="VCE_Borscht"]/label</xpath>
             <value>
               <!-- EN: festive borscht -->
-              <label>TODO</label>
+              <label>borscht festivo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -64,7 +64,7 @@
             <xpath>/Defs/ThingDef[defName="VCE_Borscht"]/description</xpath>
             <value>
               <!-- EN: A traditional soup slow cooked from beetroots. Eating it in Decembrary is bound to fill everyone with festive cheer, granting festive favor. -->
-              <description>TODO</description>
+              <description>Una sopa tradicional cocinada lentamente a partir de remolachas. Comerla en Diciembrero llena a todos de alegría festiva y otorga favor festivo.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -72,7 +72,7 @@
             <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BorschtRecipe"]/label</xpath>
             <value>
               <!-- EN: Cook Festive Borscht -->
-              <label>TODO</label>
+              <label>Cocinar borscht festivo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -80,7 +80,7 @@
             <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BorschtRecipe"]/description</xpath>
             <value>
               <!-- EN: Turns an uncooked borscht into 10 cooked festive borschts. -->
-              <description>TODO</description>
+              <description>Convierte un borscht sin cocinar en 10 borschts festivos cocinados.</description>
             </value>
           </li>
         </operations>

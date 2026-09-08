@@ -290,7 +290,7 @@
   <!-- EN: A junction of old chemfuel pipes that still leaks faint fumes. It can be tapped to extract a small amount of chemfuel, though no one knows its source. It can be tapped now. -->
   <VQEA_AncientPipelineJunction_On.description>Una unión de viejas tuberías de quimbustible que aún gotea vapores tenues. Se puede aprovechar para extraer una pequeña cantidad de quimbustible, aunque nadie conoce su origen. Se puede aprovechar ahora.</VQEA_AncientPipelineJunction_On.description>
   <!-- EN: VQEA_OverrideDesc -->
-  <VQEA_AncientPipelineJunction_On.modExtensions.0.gizmoDesc>TODO</VQEA_AncientPipelineJunction_On.modExtensions.0.gizmoDesc>
+  <VQEA_AncientPipelineJunction_On.modExtensions.0.gizmoDesc>VQEA_OverrideDesc</VQEA_AncientPipelineJunction_On.modExtensions.0.gizmoDesc>
   <!-- EN: archite capsule containment -->
   <VQEA_ArchiteCapsuleContainment_Empty.label>contención de cápsulas de arquitas vacía</VQEA_ArchiteCapsuleContainment_Empty.label>
   <!-- EN: A containment unit built to store and release archite capsules for experimentation. It&apos;s empty. -->
@@ -300,7 +300,7 @@
   <!-- EN: A containment unit built to store and release archite capsules for experimentation. It still hums softly when approached. Can be opened to release an archite capsule. -->
   <VQEA_ArchiteCapsuleContainment.description>Una unidad de contención construida para almacenar y liberar cápsulas de arquitas para experimentación. Todavía zumba suavemente cuando alguien se acerca. Se puede abrir para liberar una cápsula de arquitas.</VQEA_ArchiteCapsuleContainment.description>
   <!-- EN: VQEA_OverrideDesc_Queue -->
-  <VQEA_ArchiteCapsuleContainment.modExtensions.0.gizmoDesc>TODO</VQEA_ArchiteCapsuleContainment.modExtensions.0.gizmoDesc>
+  <VQEA_ArchiteCapsuleContainment.modExtensions.0.gizmoDesc>VQEA_OverrideDesc_Queue</VQEA_ArchiteCapsuleContainment.modExtensions.0.gizmoDesc>
   <!-- EN: ancient genepack crate -->
   <VQEA_AncientGenepackCrate_Empty.label>caja de pack de genes antigua vacía</VQEA_AncientGenepackCrate_Empty.label>
   <!-- EN: A secure storage crate used to hold genetic data packs. It&apos;s empty now. -->
@@ -310,7 +310,7 @@
   <!-- EN: A secure storage crate used to hold genetic data packs. It can be hacked open to recover the genepacks inside. -->
   <VQEA_AncientGenepackCrate.description>Una caja de almacenamiento segura utilizada para guardar paquetes de datos genéticos. Se puede hackear para recuperar los paquetes genéticos de su interior.</VQEA_AncientGenepackCrate.description>
   <!-- EN: VQEA_OverrideDesc_Queue -->
-  <VQEA_AncientGenepackCrate.modExtensions.0.gizmoDesc>TODO</VQEA_AncientGenepackCrate.modExtensions.0.gizmoDesc>
+  <VQEA_AncientGenepackCrate.modExtensions.0.gizmoDesc>VQEA_OverrideDesc_Queue</VQEA_AncientGenepackCrate.modExtensions.0.gizmoDesc>
   <!-- EN: empty storage shelf -->
   <VQEA_StorageShelf_Empty.label>estante de almacenamiento vacío</VQEA_StorageShelf_Empty.label>
   <!-- EN: An empty, wobbly storage shelf. Anything of value is long gone. -->
@@ -340,7 +340,7 @@
   <!-- EN: A secure storage box with a built-in cooling system, typically used to preserve organs over extended durations. Can be hacked open to release whatever remains inside. -->
   <VQEA_AncientOrganBox.description>Una caja de almacenamiento segura con un sistema de enfriamiento incorporado, típicamente utilizada para preservar órganos durante periodos prolongados. Se puede hackear para liberar lo que quede dentro.</VQEA_AncientOrganBox.description>
   <!-- EN: VQEA_OverrideDesc_Queue -->
-  <VQEA_AncientOrganBox.modExtensions.0.gizmoDesc>TODO</VQEA_AncientOrganBox.modExtensions.0.gizmoDesc>
+  <VQEA_AncientOrganBox.modExtensions.0.gizmoDesc>VQEA_OverrideDesc_Queue</VQEA_AncientOrganBox.modExtensions.0.gizmoDesc>
   <!-- EN: pneumatic tube launch port -->
   <VQEA_PneumaticTubeLaunchPort.label>puerto de lanzamiento de tubos neumáticos</VQEA_PneumaticTubeLaunchPort.label>
   <!-- EN: A large transfer station for the ancient pneumatic tube network. It was used to send supply capsules between distant vaults, moving food, tools, and research materials through sealed underground tunnels. Cargo can still be loaded and launched, and a return capsule may arrive from another vault after some time. -->
@@ -410,7 +410,7 @@
   <!-- EN: An old communications console used to transmit encrypted signals between ancient facilities. Can be used to intercept broadcasts and trace their origin. -->
   <VQEA_AncientBroadcastingStation.description>Una antigua consola de comunicaciones utilizada para transmitir señales cifradas entre instalaciones antiguas. Se puede utilizar para interceptar transmisiones y rastrear su origen.</VQEA_AncientBroadcastingStation.description>
   <!-- EN: VQEA_InterceptBroadcastDesc -->
-  <VQEA_AncientBroadcastingStation.modExtensions.0.gizmoDesc>TODO</VQEA_AncientBroadcastingStation.modExtensions.0.gizmoDesc>
+  <VQEA_AncientBroadcastingStation.modExtensions.0.gizmoDesc>VQEA_InterceptBroadcastDesc</VQEA_AncientBroadcastingStation.modExtensions.0.gizmoDesc>
   <!-- EN: disabled ancient broadcasting station -->
   <VQEA_AncientBroadcastingStation_Off.label>estación de transmisión antigua desactivada</VQEA_AncientBroadcastingStation_Off.label>
   <!-- EN: An old communications console used to transmit encrypted signals between ancient facilities. Seems that whatever information it stored is long gone. -->
