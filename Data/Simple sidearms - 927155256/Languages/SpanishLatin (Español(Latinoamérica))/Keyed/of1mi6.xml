@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!-- EN:  -->
-  <ActiveTab_desc>Pestañas de configuración</ActiveTab_desc>
   <!-- EN: Configuration tabs -->
   <ActiveTab_title>Pestañas de configuración</ActiveTab_title>
   <!-- EN: Should pawns switch tools/weapons with statboosts for their current job? -->
@@ -32,12 +30,8 @@
   <ReEquipBest_desc>El reequipamiento automático encontrará la mejor arma disponible (en lugar de la más cercana)</ReEquipBest_desc>
   <!-- EN: Re-equip best available -->
   <ReEquipBest_title>Reequipar la mejor disponible</ReEquipBest_title>
-  <!-- EN:  -->
-  <LimitCarryInfo_desc>Siempre limitado por la capacidad de carga del peón</LimitCarryInfo_desc>
   <!-- EN: *Always limited by pawn&apos;s carry capacity -->
   <LimitCarryInfo_title>Siempre limitado por la capacidad de carga del peón</LimitCarryInfo_title>
-  <!-- EN:  -->
-  <CEOverrideInfo_desc>Desactivado a favor del sistema de CE.</CEOverrideInfo_desc>
   <!-- EN: Disabled in favor of CE&apos;s system. -->
   <CEOverrideInfo_title>Desactivado a favor del sistema de CE.</CEOverrideInfo_title>
   <!-- EN: What restrictions are there on all melee sidearms. -->
@@ -100,8 +94,6 @@
   <SeparateModes_desc>¿Deberían las armas cuerpo a cuerpo y a distancia tener restricciones compartidas o separadas?</SeparateModes_desc>
   <!-- EN: Split melee/ranged -->
   <SeparateModes_title>Separar cuerpo a cuerpo/a distancia</SeparateModes_title>
-  <!-- EN:  -->
-  <SidearmSelection_desc>Selección de armas secundarias</SidearmSelection_desc>
   <!-- EN: Sidearm selection -->
   <SidearmSelection_title>Selección de armas secundarias</SidearmSelection_title>
   <!-- EN: Should pawns switch to sidearms after expending single-use weapons? -->
@@ -118,8 +110,6 @@
   <SpeedSelectionBiasRanged_title>Sesgo de velocidad (a distancia)</SpeedSelectionBiasRanged_title>
   <!-- EN: These are the weapons that match the given criteria. -->
   <WeaponMatch_desc>Estas son las armas que coinciden con los criterios dados.</WeaponMatch_desc>
-  <!-- EN:  -->
-  <WeaponMatch_title>Coincidencia de armas</WeaponMatch_title>
   <!-- EN: The chance for any pawn that spawns with a weapon to also have a sidearm. -->
   <SidearmSpawnChance_desc>La probabilidad de que cualquier peón que aparezca con un arma también tenga un arma secundaria.</SidearmSpawnChance_desc>
   <!-- EN: Sidearm spawn chance -->
@@ -193,60 +183,40 @@ absolute -->
   <DropMode_option_InCombat>En combate</DropMode_option_InCombat>
   <!-- EN: Always -->
   <DropMode_option_Always>Siempre</DropMode_option_Always>
-  <!-- EN:  -->
-  <PresetExport_title>Exportar preajuste</PresetExport_title>
-  <!-- EN:  -->
-  <PresetExport_desc>Copiar configuración activa al portapapeles</PresetExport_desc>
   <!-- EN: Copy active config to clipboard -->
   <PresetExport_label>Copiar configuración activa al portapapeles</PresetExport_label>
   <!-- EN: Custom -->
   <PresetCustom_title>Personalizado</PresetCustom_title>
   <!-- EN: Custom settings. Automatically selected upon making a change. -->
   <PresetCustom_desc>Configuración personalizada. Seleccionada automáticamente al realizar un cambio.</PresetCustom_desc>
-  <!-- EN:  -->
-  <PresetCustom_label>Personalizado</PresetCustom_label>
   <!-- EN: Disabled -->
   <Preset0_title>Desactivado</Preset0_title>
   <!-- EN: All options disabled. Good base for configurations that use only a small portion of the mod&apos;s features. -->
   <Preset0_desc>Todas las opciones desactivadas. Buena base para configuraciones que usan solo una pequeña parte de las características del mod.</Preset0_desc>
-  <!-- EN:  -->
-  <Preset0_label>Desactivado</Preset0_label>
   <!-- EN: Lite -->
   <Preset1half_title>Lite</Preset1half_title>
   <!-- EN: Allows a single light weapon as a sidearm. -->
   <Preset1half_desc>Permite una sola arma ligera como secundaria.</Preset1half_desc>
-  <!-- EN:  -->
-  <Preset1half_label>Lite</Preset1half_label>
   <!-- EN: Loadout only -->
   <Preset1_title>Solo equipamiento</Preset1_title>
   <!-- EN: Allows equipping sidearms, but nothing else. Essentially a convenient inventory extension. -->
   <Preset1_desc>Permite equipar armas secundarias, pero nada más. Esencialmente una extensión de inventario conveniente.</Preset1_desc>
-  <!-- EN:  -->
-  <Preset1_label>Solo equipamiento</Preset1_label>
   <!-- EN: Basic -->
   <Preset2_title>Básico</Preset2_title>
   <!-- EN: A simple setup. Pawns can use a few light weapons and will attempt to use them in appropriate situations. -->
   <Preset2_desc>Una configuración simple. Los peones pueden usar algunas armas ligeras e intentarán usarlas en situaciones apropiadas.</Preset2_desc>
-  <!-- EN:  -->
-  <Preset2_label>Básico</Preset2_label>
   <!-- EN: Advanced -->
   <Preset3_title>Avanzado</Preset3_title>
   <!-- EN: Pawns get more creative with their weapon selection, but still remain within what one would expect possible from regular people trying to survive on a dangerous rimworld. -->
   <Preset3_desc>Los peones se vuelven más creativos con su selección de armas, pero aún permanecen dentro de lo que uno esperaría posible de personas normales tratando de sobrevivir en un mundo peligroso.</Preset3_desc>
-  <!-- EN:  -->
-  <Preset3_label>Avanzado</Preset3_label>
   <!-- EN: Excessive -->
   <Preset4_title>Excesivo</Preset4_title>
   <!-- EN: Bring all of it! Minigun? Bring two! Spears? I&apos;ve got a whole collection in my backpack! -->
   <Preset4_desc>¡Trae todo! ¿Minigun? ¡Trae dos! ¿Lanzas? ¡Tengo toda una colección en mi mochila!</Preset4_desc>
-  <!-- EN:  -->
-  <Preset4_label>Excesivo</Preset4_label>
   <!-- EN: Brawler mode -->
   <Preset5_title>Modo luchador</Preset5_title>
   <!-- EN: Melee sidearms for everyone. -->
   <Preset5_desc>Armas secundarias cuerpo a cuerpo para todos.</Preset5_desc>
-  <!-- EN:  -->
-  <Preset5_label>Modo luchador</Preset5_label>
   <!-- EN: No free space -->
   <SidearmPickupFail_NoFreeSpace>Sin espacio libre</SidearmPickupFail_NoFreeSpace>
   <!-- EN: Loadout too heavy -->
@@ -380,8 +350,6 @@ Right click to remove unarmed combat as preferred melee option. -->
   <SidearmsEnableNeolithicExtension_desc>Permitir que más armas sean usadas como secundarias por tribales.</SidearmsEnableNeolithicExtension_desc>
   <!-- EN: Extend neolithic sidearms -->
   <SidearmsEnableNeolithicExtension_title>Extender armas secundarias neolíticas</SidearmsEnableNeolithicExtension_title>
-  <!-- EN:  -->
-  <SidearmsNeolithicExtension_desc>Armas consideradas neolíticas</SidearmsNeolithicExtension_desc>
   <!-- EN: Sidearms considered neolithic -->
   <SidearmsNeolithicExtension_title>Armas secundarias consideradas neolíticas</SidearmsNeolithicExtension_title>
   <!-- EN: Simple Sidearms -->
