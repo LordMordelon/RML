@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Classical</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEC_NewEmpire"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A gathering of nobility with a grand purpose. A somewhat wealthy Neolithic experience. -->
+            <summary>Una reunión de nobles con un gran propósito. Una experiencia neolítica relativamente próspera.</summary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEC_NewEmpire"]/label</xpath>
+          <value>
+            <!-- EN: Ambitious Senators -->
+            <label>Senadores ambiciosos</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

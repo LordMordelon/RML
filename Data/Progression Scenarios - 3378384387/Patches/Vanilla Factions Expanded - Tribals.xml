@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFET_WildMen"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A group of wild people trying to form a tribe. The true Progression start. Can you thrive starting from the very bottom? -->
+            <summary>Un grupo de personas salvajes intentando formar una tribu. El verdadero inicio de Progression. ¿Puedes prosperar empezando desde lo más bajo?</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

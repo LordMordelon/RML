@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Deserters</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFED_NewSafehaven"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A desertion party on high alert. Lay low while the Empire attempts to extinguish your cell. -->
+            <summary>Un grupo de desertores en alerta máxima. Mantente oculto mientras el imperio intenta eliminar tu célula.</summary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFED_NewSafehaven"]/label</xpath>
+          <value>
+            <!-- EN: Desertion Cell -->
+            <label>Célula desertora</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -26,6 +26,7 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | supercharger | sobrecargador | |
 | mech booster | acelerador de mecas | |
 | mech cluster | clúster mecanoide | |
+| mechhive / mech hive | **mecacolmena** | Oficial vanilla. NO "colmena mecanoide" |
 | war mech | meca de guerra | |
 | labor mech | meca de trabajo | |
 | subcore | **subnúcleo** | |
@@ -93,11 +94,12 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | orbital platform | **plataforma orbital** | |
 | mechanitor platform | plataforma de mecanizador | |
 | orbital hub | **terminal orbital** / centro orbital | |
+| orbital relay | **retransmisor orbital** | Oficial vanilla (escenario "La Gravinave") |
 | space station / station | estación espacial / estación | |
 | spacedock | **dársena espacial** | |
 | skygate | puerta celeste | |
 | gateway | pasarela espacial / portal espacial | |
-| gravship | **nave gravitacional** | |
+| gravship | **gravinave** | Oficial vanilla (Odyssey). NO "nave gravitacional", "nave gravitatoria" ni "gravnave" |
 | shuttle | **lanzadera** | Vehículo espacial/orbital imperial vanilla |
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
 | drop pod | **cápsula de descenso** | |
@@ -160,6 +162,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | outlander | forastero | Facción de colonos forasteros |
 | pirate | pirata | |
 | empire | imperio | Facción imperial |
+| rimworld | **mundoborde** | Término oficial del juego para los planetas del borde. NO "mundo del borde" |
 
 ---
 
@@ -323,3 +326,7 @@ OJO: en estas descripciones el vanilla llama a los chips *chips de señal*, *chi
 >
 > **Chip nanoestructurador:** Un microórgano mecanoide de reestructuración molecular. Es necesario para producir ciertos mecanoides y equipos avanzados.\n\nUn mecanizador puede estudiar este chip para ayudar a desbloquear niveles superiores de investigación mecatrónica.
 
+**Náufragos (crashlanded) — referencia oficial vanilla:**
+> Ustedes tres despiertan, en su sarcófago de criptosueño, con el sonido de las sirenas y el crujido del metal. Apenas logran llegar a las cápsulas de escape antes de que la nave se despedace. Un tiempo después, aterrizan en este inexplorado mundoborde.
+
+OJO: el vanilla dice **mundoborde** (una sola palabra), no "mundo del borde". También usa **sarcófago de criptosueño** (singular), **crujido del metal** (no "metal desgarrándose"), **se despedace** (no "se haga pedazos").

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Insector</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VRE_InfestedCrash"]/label</xpath>
+          <value>
+            <!-- EN: Infested Crash -->
+            <label>Choque infestado</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VRE_InfestedCrash"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A hive of insectors, crashlanding in the wilderness. A difficult scenario. -->
+            <summary>Una colmena de insectores, aterrizando de emergencia en la naturaleza salvaje. Un escenario difícil.</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

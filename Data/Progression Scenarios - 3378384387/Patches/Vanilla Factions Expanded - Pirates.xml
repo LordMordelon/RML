@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEP_LowOrbitCrash"]/label</xpath>
+          <value>
+            <!-- EN: Pirate Crash -->
+            <label>Choque pirata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEP_LowOrbitCrash"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A group of pirates, crash landing in the middle of nowhere. -->
+            <summary>Un grupo de piratas, aterrizando de emergencia en medio de la nada.</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

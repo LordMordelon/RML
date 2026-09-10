@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##vanillaexpanded.vfea</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_TribalVault"]/label</xpath>
+            <value>
+              <!-- EN: Locked Out -->
+              <label>Encerrados afuera</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_TribalVault"]/description</xpath>
+            <value>
+              <!-- EN: With each passing day you stare at your fellow companions hibernating in cryptosleep sarcophagi. One day, when your life is nearing its end, you will wake your successor, and his watch will begin. Every day for the last hundreds of years your outpost was awaiting orders from High Command which may no longer exist. Will today be the day you not only wake up, but also open your eyes?
+	
+Note: Since you start alone with random superpowers and weaknesses, this is a difficult scenario. -->
+              <description>Con cada día que pasa, observas a tus compañeros hibernando en sarcófagos de criptosueño. Un día, cuando tu vida esté llegando a su fin, despertarás a tu sucesor, y su guardia comenzará. Cada día durante los últimos cientos de años tu puesto avanzado ha estado esperando órdenes del Alto Mando, que quizás ya no exista. ¿Será hoy el día en que no solo despiertes, sino que también abras los ojos?
+
+Nota: Como empiezas solo con superpoderes y debilidades aleatorias, este es un escenario difícil.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_TribalVault"]/scenario/summary</xpath>
+            <value>
+              <!-- EN: A small group of wild men locked outside of an ancient vault. Very challenging. -->
+              <summary>Un pequeño grupo de hombres salvajes encerrados fuera de una bóveda antigua. Muy desafiante.</summary>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_TribalVault"]/scenario/parts/li[1]/text</xpath>
+            <value>
+              <!-- EN: With each passing day you stare at your fellow companions hibernating in cryptosleep sarcophagi. One day, when your life is nearing its end, you will wake your successor, and his watch will begin. Every day for the last hundreds of years your outpost was awaiting orders from High Command which may no longer exist. Will today be the day you not only wake up, but also open your eyes? -->
+              <text>Con cada día que pasa, observas a tus compañeros hibernando en sarcófagos de criptosueño. Un día, cuando tu vida esté llegando a su fin, despertarás a tu sucesor, y su guardia comenzará. Cada día durante los últimos cientos de años tu puesto avanzado ha estado esperando órdenes del Alto Mando, que quizás ya no exista. ¿Será hoy el día en que no solo despiertes, sino que también abras los ojos?</text>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_TribalVault"]/scenario/parts/li[4]/structureLabel</xpath>
+            <value>
+              <!-- EN: A sealed vault -->
+              <structureLabel>Una bóveda sellada</structureLabel>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Medieval Overhaul</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ScenarioDef[defName="Ferny_LoneTribal"]/scenario/parts/li[7]/text</xpath>
+            <value>
+              <!-- EN: You have been alone on this anarchal planet for as long as you can remember. The only flicker of hope being the small burst of flame you had just managed to create. A burst of warmth, power, and most importantly hope. Will you have the strength to take that flicker far enough to exit these horrible conditions? -->
+              <text>Has estado solo en este planeta anárquico desde que tienes memoria. El único destello de esperanza es la pequeña llama que acabas de lograr crear. Una ráfaga de calor, poder y, lo más importante, esperanza. ¿Tendrás la fuerza para llevar ese destello lo suficientemente lejos como para salir de estas horribles condiciones?</text>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Quests Expanded - Ancients</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VQE_NewVault"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A lone super-soldier awakes in a heavily fortified ancient lab. -->
+            <summary>Un supersoldado solitario despierta en un laboratorio antiguo fuertemente fortificado.</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

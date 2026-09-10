@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEE_NewFamily"]/label</xpath>
+          <value>
+            <!-- EN: Ambushed Manor -->
+            <label>Mansión emboscada</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEE_NewFamily"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: An imperial family in dire need of help. A very challenging Empire start. -->
+            <summary>Una familia imperial en desesperada necesidad de ayuda. Un inicio del imperio muy desafiante.</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

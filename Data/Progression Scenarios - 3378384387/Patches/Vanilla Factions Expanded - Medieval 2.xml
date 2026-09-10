@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEM2_NewKingdom"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A group of peasants, rebelling against oppressing knights. -->
+            <summary>Un grupo de campesinos rebelándose contra caballeros opresores.</summary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VFEM2_NewKingdom"]/label</xpath>
+          <value>
+            <!-- EN: The Revolution -->
+            <label>La revolución</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

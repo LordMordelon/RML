@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Android</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VREA_NewUtopia"]/label</xpath>
+          <value>
+            <!-- EN: Awakened Androids -->
+            <label>Androides Despertados</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="VREA_NewUtopia"]/scenario/summary</xpath>
+          <value>
+            <!-- EN: A new blossoming hideout for awakened androids, but can you sustain it? -->
+            <summary>Un nuevo refugio floreciente para androides despertados, pero ¿podrás mantenerlo?</summary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
