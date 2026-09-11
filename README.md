@@ -47,7 +47,10 @@ hay que tocarlo: el extractor lo vuelve a leer en cada actualización, así que 
 devuelve el nodo a su lugar la traducción se recupera sola.
 
 Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
-cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada.
+cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada. Los autores con
+cuatro traducciones o más tienen su `Data/!Autor/`, y de mantenerlo se encarga el extractor:
+un mod nuevo cae directo ahí si su autor ya tiene carpeta, y si un autor recién llega a
+cuatro lo avisa por log para que la carpeta la crees vos.
 
 **Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
 una traducción rápida, y una GitHub Action lo rehace al hacer push. `actualizar.cmd` es

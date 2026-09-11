@@ -66,6 +66,13 @@ Agrupar por autor es solo para ordenar. El extractor busca la carpeta de un mod 
 cualquier nivel bajo `Data/`, así que mover una no rompe nada. El `!` se usa porque el
 guion bajo no alcanza: ordena después de las carpetas tipo `[FSF]`.
 
+El umbral es de cuatro traducciones por autor, y lo mantiene el `Agrupador` del extractor:
+un mod nuevo cae directo en `Data/!Autor/` si esa carpeta ya existe, y las sueltas que
+queden de antes se acomodan solas al extraer. Un autor que recién llega a cuatro se avisa
+por log y no se mueve nada: la carpeta la crea una persona. El autor sale del `<author>`
+del `About.xml` del mod instalado, no del `packageId` —los mods de Oskar Potocki usan
+cuatro prefijos distintos—, y se normaliza antes de comparar.
+
 ## Cómo se produce una traducción
 
 1. **Extraer** el mod con el extractor, con idioma de destino
