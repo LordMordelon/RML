@@ -24,6 +24,10 @@ Eso se conservó tal cual. Lo que cambió es todo lo de alrededor.
 Ahora acepta `-build` como argumento, no pregunta nada en ese modo y devuelve un código distinto de
 cero si algo falló. El modo interactivo quedó igual.
 
+Se quitaron el modo `-migrate` y `MigrationHelper.cs`, que convertían la planilla de Google de RMK en
+los `LoadFolders.Build.yaml`: una migración de una sola vez que acá nunca se usó. En RML los yaml los
+genera el extractor, mod por mod.
+
 ---
 
 ## El índice se regenera solo

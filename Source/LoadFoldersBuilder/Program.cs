@@ -16,7 +16,7 @@ using YamlDotNet.Serialization.NamingConventions;
 // incomodo: con la entrada redirigida ReadLine devuelve null, cae en el default
 // del switch y el proceso gira para siempre. Va declarado aca afuera para que lo
 // vean las funciones locales del final.
-var Comando = args.FirstOrDefault(x => x is "-build" or "-migrate");
+var Comando = args.FirstOrDefault(x => x is "-build");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -31,7 +31,6 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-migrate");
         StopProgram(1);
 
     if (Comando is "-build") goto StartBuild;
-    if (Comando is "-migrate") goto StartMigration;
 
     Console.WriteLine("\n빌드를 시작하려면 '-build' 명령어를 입력하세요.");
 
@@ -40,7 +39,6 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-migrate");
         switch (Console.ReadLine())
         {
             case "-build": goto StartBuild;
-            case "-migrate": goto StartMigration; // 초기 파일 생성
             // Se acabo la entrada y no va a llegar ningun comando mas.
             case null: StopProgram(1); break;
             default: ClearLastLine(); break;
@@ -131,29 +129,6 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-migrate");
     }
     
     StopProgram();
-    StartMigration: // 구글 시트에서 LFB로 이주용
-    
-    Console.WriteLine("\nLoadFolders.Build.yaml 파일로 변환할 tsv 형식의 파일 경로를 입력하십시오.");
-    string TSVPath;
-    while (true)
-    {
-        // Mismo caso que el bucle de comandos: si se acabo la entrada no va a
-        // llegar ninguna ruta, y volver a preguntar seria girar en vano.
-        var Entrada = Console.ReadLine();
-        if (Entrada is null) StopProgram(1);
-        TSVPath = Entrada!.Trim('\"');
-        if (Path.Exists(TSVPath)) break;
-
-        Console.WriteLine("\n입력한 파일 경로가 유효하지 않습니다.");
-        if (TSVPath is "-cancel") StopProgram();
-    }
-    Console.WriteLine("\n\e[32m데이터 변환 시작\x1b[0m\n");
-    
-    MigrationHelper.MigrateFromTSV(TSVPath);
-    StopProgram();
-    
-    Console.WriteLine("\n\e[93m이 문구를 보았다면 희망을 버려라.\x1b[0m");
-    StopProgram(1);
 }
 
 void StopProgram(int Codigo = 0)
