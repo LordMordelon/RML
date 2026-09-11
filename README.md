@@ -49,8 +49,9 @@ devuelve el nodo a su lugar la traducción se recupera sola.
 Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
 cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada. Los autores con
 cuatro traducciones o más tienen su `Data/!Autor/`, y de mantenerlo se encarga el extractor:
-un mod nuevo cae directo ahí si su autor ya tiene carpeta, y si un autor recién llega a
-cuatro lo avisa por log para que la carpeta la crees vos.
+un mod nuevo cae directo ahí si su autor ya tiene carpeta, y las sueltas de ese autor se
+mueven solas en la siguiente traducción rápida. Si un autor recién llega a cuatro, lo avisa
+por log: la carpeta la creas tú, y basta con crearla vacía.
 
 **Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
 una traducción rápida, y una GitHub Action lo rehace al hacer push. `actualizar.cmd` es
@@ -62,7 +63,7 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
 - El fork del extractor clonado **como carpeta hermana de este repositorio**:
 
   ```
-  INVESTIGAR/
+  <carpeta de trabajo>/
     RML/                  <- este repo
     RimworldExtractor/    <- https://github.com/LordMordelon/RimworldExtractor
   ```
@@ -95,9 +96,17 @@ traducción sirve para partir de ahí, no porque haya que anotarla en ningún la
 
 ### El atajo: la traducción rápida
 
-Si en el extractor marcás **«Traducción rápida»** al elegir el mod, los pasos 3 a 6 los
+Si en el extractor marcas **«Traducción rápida»** al elegir el mod, los pasos 3 a 6 los
 hace él solo: escribe directamente en `Data/`, conserva lo que ya estaba traducido, genera
 el `LoadFolders.Build.yaml` y regenera el índice. Solo queda probar en el juego.
+
+### Después de una actualización del juego: «Actualizar todo RML»
+
+El botón **«Actualizar todo RML»** del extractor hace la traducción rápida de todos los mods
+de `Data/`, uno detrás de otro, contra la versión instalada. Lo nuevo sale como `TODO` y lo
+que el mod ya no tiene va a su `UNUSED.xml`. Los mods que no tengas instalados quedan como
+están. Tarda varios minutos; antes de commitear, revisa el diff como indica
+[AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
 
 ### Sobre `FileNameEncoder`
 

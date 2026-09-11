@@ -16,7 +16,7 @@ Las traducciones **no se escriben a mano desde cero**: las produce el extractor,
 como repositorio hermano.
 
 ```
-INVESTIGAR/
+<carpeta de trabajo>/
   RML/                  <- este repo
   RimworldExtractor/    <- https://github.com/LordMordelon/RimworldExtractor
 ```
@@ -67,9 +67,10 @@ cualquier nivel bajo `Data/`, así que mover una no rompe nada. El `!` se usa po
 guion bajo no alcanza: ordena después de las carpetas tipo `[FSF]`.
 
 El umbral es de cuatro traducciones por autor, y lo mantiene el `Agrupador` del extractor:
-un mod nuevo cae directo en `Data/!Autor/` si esa carpeta ya existe, y las sueltas que
-queden de antes se acomodan solas al extraer. Un autor que recién llega a cuatro se avisa
-por log y no se mueve nada: la carpeta la crea una persona. El autor sale del `<author>`
+un mod nuevo cae directo en `Data/!Autor/` si esa carpeta ya existe, y las sueltas de ese
+autor se mueven ahí en la siguiente traducción rápida. Un autor que recién llega a cuatro
+se avisa por log y no se mueve nada: la carpeta la crea una persona, y alcanza con crearla
+vacía. El autor sale del `<author>`
 del `About.xml` del mod instalado, no del `packageId` —los mods de Oskar Potocki usan
 cuatro prefijos distintos—, y se normaliza antes de comparar.
 
@@ -83,7 +84,9 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
    una traducción rápida y la GitHub Action al hacer push.
 
 Con «Traducción rápida» marcada, el extractor escribe directamente en `Data/`, conserva
-lo ya traducido, genera el `LoadFolders.Build.yaml` y regenera el índice.
+lo ya traducido, genera el `LoadFolders.Build.yaml` y regenera el índice. Después de una
+actualización del juego, «Actualizar todo RML» hace lo mismo con todos los mods de una vez;
+los que no están instalados quedan como están.
 
 ## Reglas
 
@@ -149,6 +152,11 @@ commitear: puede ser correcto, pero nunca se da por bueno sin mirarlo.
 Cuando algo aparece dañado, lo primero es averiguar si lo causó el cambio en curso:
 volver a correr los mismos mods con ese cambio desactivado. Tres veces el resultado fue
 que el daño ya existía y el cambio solo lo destapó.
+
+**El mensaje de commit dice qué se tocó y en qué mod.** «Magic: devolver sus nombres a las
+reglas del meme Transcendent» sirve; «correccion» no. Cuando aparece una pérdida, se rastrea
+con `git log`, y una fila de «correccion» obliga a abrir cada commit para saber cuál fue.
+Un commit por arreglo: si uno resulta mal, se revierte ese solo.
 
 ## Editar XML de traducción
 

@@ -45,8 +45,8 @@ deja un par de archivos al lado suyo.
 > por año. Si aparece una pantalla azul, haz clic en **Más información** → **Ejecutar de todas
 > formas**.
 >
-> El archivo pesa alrededor de 175 MB porque trae todo lo que necesita adentro, así no tienes que
-> instalar nada más.
+> El archivo pesa alrededor de 80 MB porque trae todo lo que necesita adentro, así no tienes que
+> instalar nada más. La primera vez que lo abres tarda unos segundos en arrancar.
 
 ---
 
@@ -358,9 +358,6 @@ llevar varias sesiones. **Empieza por uno pequeño.**
 Como punto de partida sí, pero hay que revisarlo **siempre**: los traductores automáticos rompen los
 `{0}` y los `\n`, y no distinguen gerundios de sustantivos ni el género. Una traducción automática
 sin revisar es peor que ninguna, porque nadie la vuelve a mirar.
-
-**Vi un botón raro de "Unir imagen + archivo".**
-Ignóralo. Es una función heredada del proyecto coreano original que no se usa aquí.
 
 ---
 
