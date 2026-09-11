@@ -310,29 +310,29 @@
   <!-- EN: {0} was unable to improve the enchantments on {1} using a {2} -->
   <TM_NothingEnchanted>{0} no pudo mejorar los encantamientos en {1} usando un {2}</TM_NothingEnchanted>
   <!-- EN: Taunting! -->
-  <TM_ActivateGolem>Activar</TM_ActivateGolem>
+  <TM_Taunting>¡Provocando!</TM_Taunting>
   <!-- EN: {0} has ceased to exist... -->
-  <TM_ActivateGolemDesc>Inicia el proceso para activar el gólem; tras activarlo, el gólem se moverá como un peón normal. Cualquier mejora o reparación en estado inactivo se descartará. Requiere un mínimo de {0} de energía para activar.</TM_ActivateGolemDesc>
+  <TM_CeaseToExist>{0} ha dejado de existir...</TM_CeaseToExist>
   <!-- EN: {0} has successfully ended the {1}. -->
-  <TM_DeActivateGolem>Desactivar</TM_DeActivateGolem>
+  <TM_EndingGameCondition>{0} puso fin con éxito a &quot;{1}&quot;.</TM_EndingGameCondition>
   <!-- EN: {0} has inadvertently changed {1} into a {2}! -->
-  <TM_DeActivateGolemDesc>Ordena al gólem entrar en estado inactivo. El gólem intentará volver a su ubicación inactiva asignada. Si esta ubicación es inalcanzable, el gólem se desactivará en su ubicación actual. Si la ubicación está disponible, emitir este comando por segunda vez anulará el retorno y desactivará el gólem de inmediato en su posición actual.</TM_DeActivateGolemDesc>
+  <TM_GameConditionChanged>¡{0} convirtió sin querer &quot;{1}&quot; en &quot;{2}&quot;!</TM_GameConditionChanged>
   <!-- EN: The {0} has become permanent. -->
-  <TM_ActivateGolemDisabled>Deshabilitado - {0}</TM_ActivateGolemDisabled>
+  <TM_GameConditionMadePermanent>&quot;{0}&quot; se volvió permanente.</TM_GameConditionMadePermanent>
   <!-- EN: {0} has caused a(n) {1} while attempting to alter {2}. -->
-  <TM_AssignGolemRestPosition>Posición inactiva</TM_AssignGolemRestPosition>
+  <TM_GameConditionAdded>{0} provocó &quot;{1}&quot; al intentar alterar &quot;{2}&quot;.</TM_GameConditionAdded>
   <!-- EN: {0} has failed to alter the {1}. -->
-  <TM_AssignGolemRestPositionDesc>Asigna la ubicación donde el gólem debe desactivarse.</TM_AssignGolemRestPositionDesc>
+  <TM_AlterGameConditionFailed>{0} no logró alterar &quot;{1}&quot;.</TM_AlterGameConditionFailed>
   <!-- EN: {0} feels confident that {1} has averted the {2}. -->
-  <TM_DormantPositionUnreachable>La posición seleccionada es inalcanzable u ocupada; cancelando</TM_DormantPositionUnreachable>
+  <TM_PredictionFeelsConfident>{0} confía en haber evitado &quot;{2}&quot;.</TM_PredictionFeelsConfident>
   <!-- EN: {0} is unsure if {1} has had any affect on the {2} prediction. -->
-  <TM_GolemStationaryDefenseToggle>protocolo de defensa</TM_GolemStationaryDefenseToggle>
+  <TM_PredictionFeelsUnsure>{0} no sabe si influyó en la predicción de &quot;{2}&quot;.</TM_PredictionFeelsUnsure>
   <!-- EN: {0} feels uneasy about {1} changes made to the {2} prediction, perhaps something has gone awry... -->
-  <TM_GolemStationaryDefenseToggleDesc>Alterna defensas estacionarias. El gólem permanece en estado inactivo mientras usa defensas estacionarias.</TM_GolemStationaryDefenseToggleDesc>
+  <TM_PredictionUnease>A {0} le inquietan los cambios que hizo en la predicción de &quot;{2}&quot;; quizá algo salió mal...</TM_PredictionUnease>
   <!-- EN: {0} is terrified, {1} feels sure something disastrous is about to happen... -->
-  <TM_GolemActiveDefenseToggle>protocolo de enfrentamiento</TM_GolemActiveDefenseToggle>
+  <TM_PredictionTerrified>{0} siente terror y la certeza de que algo desastroso está por pasar...</TM_PredictionTerrified>
   <!-- EN: Undead: No Value -->
-  <TM_GolemActiveDefenseToggleDesc>Alterna defensas activas. El gólem se activará si un enemigo entra en su rango de amenaza. El rango de amenaza puede ajustarse seleccionando el gólem inactivo y abriendo la pestaña de gólem.</TM_GolemActiveDefenseToggleDesc>
+  <TM_StatsReport_Undead>No-muerto: sin valor</TM_StatsReport_Undead>
   <!-- EN: Incompatible weapon for this ability. -->
   <TM_IncompatibleWeapon>Arma incompatible para esta habilidad.</TM_IncompatibleWeapon>
   <!-- EN: Unable to link to bonded pawn {0}, soul in transition. -->
