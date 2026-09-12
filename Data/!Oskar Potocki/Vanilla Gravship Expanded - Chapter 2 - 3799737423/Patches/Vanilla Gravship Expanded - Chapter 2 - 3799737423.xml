@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI2_Nullipede"]/description</xpath>
+          <value>
+            <!-- EN: An incredibly rare and monstrously large insectoid of the Exo geneline, the nullipede is an insect leviathan perfectly adapted to the frigid vacuum of space. It possesses extreme cellular regeneration, allowing it to knit together grievous wounds and heal damage almost instantly. Direct exposure to fire completely shuts down its biological repair systems. Its sheer resilience makes it a dreaded, virtually indestructible horror among the stars, and the main reason many adventurers prefer to stay planet-side. Upon death, it’s possible to extract an Exo pherocore from its body. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
