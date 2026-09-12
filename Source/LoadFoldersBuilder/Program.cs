@@ -113,11 +113,14 @@ var Comando = args.FirstOrDefault(x => x is "-build");
         Console.WriteLine("\e[32mLoadFolders.xml 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
         
         // 참고용으로 쓸 ModList.tsv 파일을 작성합니다.
+        // Y ModList.md, la misma lista con el nombre de cada mod enlazado a Steam.
         Stopwatch.Restart();
-        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), FilteredRules.ExportModList());
-        
+        var (ModListTsv, ModListMarkdown) = FilteredRules.ExportModList();
+        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), ModListTsv);
+        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.md"), ModListMarkdown);
+
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32mModList.tsv 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        Console.WriteLine("\e[32mModList.tsv, ModList.md 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
         
         Console.WriteLine("\e[32m작업 완료\x1b[0m");
         Console.WriteLine("총 작업시간 {0:F3}s", TotalRunTime.TotalSeconds);

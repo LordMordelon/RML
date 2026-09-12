@@ -3,7 +3,7 @@ using System.Text.Json;
 namespace LoadFoldersBuilder;
 
 /** Fecha de la ultima actualizacion de cada mod en el Workshop, sacada de la API publica de Steam.
- *  Solo sirve para la columna de ModList.tsv: no interviene en la carga.
+ *  Solo sirve para la lista de mods (ModList.md y .tsv): no interviene en la carga.
  */
 public static class ActualizacionesSteam
 {
@@ -49,7 +49,7 @@ public static class ActualizacionesSteam
         catch (Exception e)
         {
             // Sin conexion, Steam caido o una respuesta con otra forma.
-            Console.WriteLine("\e[93mNo se pudo consultar Steam: ModList.tsv queda sin fecha de actualizacion ({0}).\x1b[0m", e.Message);
+            Console.WriteLine("\e[93mNo se pudo consultar Steam: la lista de mods queda sin fecha de actualizacion ({0}).\x1b[0m", e.Message);
             return new Dictionary<string, string>();
         }
 

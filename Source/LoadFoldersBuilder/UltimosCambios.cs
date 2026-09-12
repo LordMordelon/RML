@@ -4,7 +4,7 @@ using System.Text;
 namespace LoadFoldersBuilder;
 
 /** Fecha del ultimo cambio de cada mod, sacada del historial de git.
- *  Solo sirve para la columna de ModList.tsv: no interviene en la carga.
+ *  Solo sirve para la lista de mods (ModList.md y .tsv): no interviene en la carga.
  */
 public static class UltimosCambios
 {
@@ -25,7 +25,7 @@ public static class UltimosCambios
             "--format=%x01%as", "--name-only", "--", "Data");
         if (Historial is null)
         {
-            Console.WriteLine("\e[93mNo se pudo leer el historial de git: ModList.tsv queda sin fechas.\x1b[0m");
+            Console.WriteLine("\e[93mNo se pudo leer el historial de git: la lista de mods queda sin fecha de traduccion.\x1b[0m");
             return Fechas;
         }
 
