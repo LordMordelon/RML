@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="AG_ArmourMinor"]/label</xpath>
+          <value>
+            <!-- EN: wooden skin -->
+            <label>piel de madera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="AG_ArmourMinor"]/description</xpath>
+          <value>
+            <!-- EN: Hard, wood-like skin. This confers a small amount of natural armour. -->
+            <description>Piel dura, parecida a la madera. Confiere una pequeña cantidad de armadura natural.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="AG_ArmourMinor"]/label</xpath>
+          <value>
+            <!-- EN: wooden skin -->
+            <label>piel de madera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="AG_ArmourMinor"]/description</xpath>
+          <value>
+            <!-- EN: Hard, wood-like skin. This confers a small amount of natural armour. -->
+            <description>Piel dura, parecida a la madera. Confiere una pequeña cantidad de armadura natural.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

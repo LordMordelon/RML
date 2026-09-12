@@ -16,7 +16,7 @@
             <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/description</xpath>
             <value>
               <!-- EN: A bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant. -->
-              <description>Un miniquemador de bioferrita capaz de prender fuego a los objetivos cercanos con un chorro de acelerante ardiente.</description>
+              <description>Consume una carga presurizada de bioferrita para crear una llamarada.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -40,7 +40,7 @@
             <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Flare_Launcher"]/description</xpath>
             <value>
               <!-- EN: A utility launcher that shoots disruptor flares. Used for signaling or illumination. Loaded from the breech, its barrel is too thin to fire anything but flares. -->
-              <description>Un lanzador utilitario que dispara bengalas disruptoras. Se usa para señalización o iluminación. Se carga por la recámara y su cañón es demasiado fino para disparar otra cosa que no sean bengalas.</description>
+              <description>Un lanzador de utilidad que dispara bengalas disruptoras. Al impactar, la bengala quema una cápsula de bioferrita, lo que produce un destello brillante y una disrupción psíquica localizada. Esto aturde a las criaturas sensibles a lo psíquico, revela a las que son invisibles y reduce su consciencia y su velocidad de movimiento durante un breve periodo. Después, la bengala sigue ardiendo e ilumina una amplia zona durante un tiempo.</description>
             </value>
           </li>
         </operations>

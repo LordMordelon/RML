@@ -12,6 +12,10 @@
   <VSEWW_Sprinters.label>Velocistas</VSEWW_Sprinters.label>
   <!-- EN: Movement speed of all the enemies is doubled -->
   <VSEWW_Sprinters.description>La velocidad de movimiento de todos los enemigos se duplica</VSEWW_Sprinters.description>
+  <!-- EN: Adrenaline rush -->
+  <VSEWW_AdrenalineRush.label>Subidón de adrenalina</VSEWW_AdrenalineRush.label>
+  <!-- EN: Enemies will become faster and more dangerous as their health decreases -->
+  <VSEWW_AdrenalineRush.description>Los enemigos se vuelven más rápidos y peligrosos a medida que pierden salud</VSEWW_AdrenalineRush.description>
   <!-- EN: Veterans -->
   <VSEWW_Veterans.label>Veteranos</VSEWW_Veterans.label>
   <!-- EN: All stats of the enemies (Manipulation, sight etc) are offset by 50% -->
@@ -20,6 +24,10 @@
   <VSEWW_Boom.label>¡Bum!</VSEWW_Boom.label>
   <!-- EN: All enemies explode when killed -->
   <VSEWW_Boom.description>Todos los enemigos explotan al morir</VSEWW_Boom.description>
+  <!-- EN: Regenerators -->
+  <VSEWW_Regenerators.label>Regeneradores</VSEWW_Regenerators.label>
+  <!-- EN: All enemies regenerate their health at an increased rate -->
+  <VSEWW_Regenerators.description>Todos los enemigos regeneran su salud a un ritmo mayor</VSEWW_Regenerators.description>
   <!-- EN: Reinforcements -->
   <VSEWW_Reinforcements.label>Refuerzos</VSEWW_Reinforcements.label>
   <!-- EN: Enemies receive reinforcements from the same faction, worth 50% of the initial wave size, after about 20% of the raid size is defeated -->
@@ -32,14 +40,22 @@
   <VSEWW_Flashstorm.label>Tormenta eléctrica</VSEWW_Flashstorm.label>
   <!-- EN: During the wave, flashstorm is present on the map and rain won’t trigger to extinguish the flames -->
   <VSEWW_Flashstorm.description>Durante la oleada, hay una tormenta eléctrica en el mapa y la lluvia no se activará para extinguir las llamas</VSEWW_Flashstorm.description>
+  <!-- EN: Toxic fallout -->
+  <VESWW_ToxicFallout.label>Lluvia tóxica</VESWW_ToxicFallout.label>
+  <!-- EN: During the wave, a toxic fallout is present on the map -->
+  <VESWW_ToxicFallout.description>Durante la oleada, cae lluvia tóxica en todo el mapa</VESWW_ToxicFallout.description>
   <!-- EN: Ninjas -->
   <VSEWW_Ninjas.label>Ninjas</VSEWW_Ninjas.label>
   <!-- EN: All enemies are invisible for the first 30 seconds -->
   <VSEWW_Ninjas.description>Todos los enemigos son invisibles durante los primeros 30 segundos</VSEWW_Ninjas.description>
   <!-- EN: Bulletproof -->
   <VSEWW_Bulletproof.label>A prueba de balas</VSEWW_Bulletproof.label>
-  <!-- EN: All enemies have their natural armor increased by 50% -->
-  <VSEWW_Bulletproof.description>Todos los enemigos tienen su armadura natural aumentada en un 50%</VSEWW_Bulletproof.description>
+  <!-- EN: All enemies have an incoming damage factor of 50% -->
+  <VSEWW_Bulletproof.description>Todos los enemigos tienen un multiplicador de daño recibido del 50%</VSEWW_Bulletproof.description>
+  <!-- EN: Glass cannons -->
+  <VSEWW_GlassCannons.label>Cañones de cristal</VSEWW_GlassCannons.label>
+  <!-- EN: Enemies deal greatly increased damage but also take much higher damage. Lower raid size in points. -->
+  <VSEWW_GlassCannons.description>Los enemigos infligen mucho más daño, pero también lo reciben. Reduce el tamaño de la incursión en puntos.</VSEWW_GlassCannons.description>
   <!-- EN: No Pain No Gain -->
   <VSEWW_NoPainNoGain.label>Sin dolor no hay ganancia</VSEWW_NoPainNoGain.label>
   <!-- EN: All enemies don’t feel pain -->
@@ -60,10 +76,22 @@
   <VSEWW_SniperForEveryone.label>¡Francotiradores para todos!</VSEWW_SniperForEveryone.label>
   <!-- EN: All enemies get a sniper. -->
   <VSEWW_SniperForEveryone.description>Todos los enemigos obtienen un rifle de francotirador.</VSEWW_SniperForEveryone.description>
+  <!-- EN: Shotguns for everyone! -->
+  <VSEWW_ShotgunForEveryone.label>¡Escopetas para todos!</VSEWW_ShotgunForEveryone.label>
+  <!-- EN: All enemies get a pump shotgun. -->
+  <VSEWW_ShotgunForEveryone.description>Todos los enemigos reciben una escopeta.</VSEWW_ShotgunForEveryone.description>
+  <!-- EN: Bullet hell -->
+  <VSEWW_BulletHell.label>Lluvia de balas</VSEWW_BulletHell.label>
+  <!-- EN: All enemies get a minigun. Lower raid size in points. -->
+  <VSEWW_BulletHell.description>Todos los enemigos reciben una minigun. Reduce el tamaño de la incursión en puntos.</VSEWW_BulletHell.description>
   <!-- EN: Melee only! -->
   <VSEWW_OnlyMelee.label>¡Solo cuerpo a cuerpo!</VSEWW_OnlyMelee.label>
   <!-- EN: All pawns get a melee weapon and a shield belt. -->
   <VSEWW_OnlyMelee.description>Todos los peones obtienen un arma cuerpo a cuerpo y un cinturón de escudo.</VSEWW_OnlyMelee.description>
+  <!-- EN: Toxic squad -->
+  <VSEWW_ToxicSquad.label>Escuadrón tóxico</VSEWW_ToxicSquad.label>
+  <!-- EN: All pawns get a a toxbomb launcher. -->
+  <VSEWW_ToxicSquad.description>Todos los peones reciben un lanzador de toxinas.</VSEWW_ToxicSquad.description>
   <!-- EN: Charge weapons for everyone! -->
   <VSEWW_ChargeForEveryone.label>¡Armas de carga para todos!</VSEWW_ChargeForEveryone.label>
   <!-- EN: All enemies have a charge weapon. -->
@@ -76,12 +104,16 @@
   <VSEWW_MeteorStorm.label>Lluvia de meteoritos</VSEWW_MeteorStorm.label>
   <!-- EN: During the wave, meteors fall on the map. -->
   <VSEWW_MeteorStorm.description>Durante la oleada, caen meteoritos en el mapa.</VSEWW_MeteorStorm.description>
-  <!-- EN: Mystery -->
-  <VSEWW_Mystery.label>Misterio</VSEWW_Mystery.label>
-  <!-- EN: A random modifier has been applied. You will discover it soon enough. -->
-  <VSEWW_Mystery.description>Se ha aplicado un modificador aleatorio. Lo descubrirás bastante pronto.</VSEWW_Mystery.description>
   <!-- EN: Big Bosses -->
   <VSEWW_BigBosses.label>Grandes Jefes</VSEWW_BigBosses.label>
   <!-- EN: All enemies are mercenaries. Wave raid point is divided by two. -->
   <VSEWW_BigBosses.description>Todos los enemigos son mercenarios. Los puntos de asalto de la oleada se dividen por dos.</VSEWW_BigBosses.description>
+  <!-- EN: Combat animals -->
+  <VSEWW_Animals.label>Animales de combate</VSEWW_Animals.label>
+  <!-- EN: Enemies will be assisted by several combat animals. -->
+  <VSEWW_Animals.description>Los enemigos vienen acompañados de varios animales de combate.</VSEWW_Animals.description>
+  <!-- EN: Mystery -->
+  <VSEWW_Mystery.label>Misterio</VSEWW_Mystery.label>
+  <!-- EN: A random modifier has been applied. You will discover it soon enough. -->
+  <VSEWW_Mystery.description>Se ha aplicado un modificador aleatorio. Lo descubrirás bastante pronto.</VSEWW_Mystery.description>
 </LanguageData>

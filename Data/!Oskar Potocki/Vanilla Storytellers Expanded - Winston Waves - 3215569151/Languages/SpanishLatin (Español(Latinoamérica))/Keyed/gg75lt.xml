@@ -90,8 +90,8 @@
   <VESWW.Legendary>Legendario</VESWW.Legendary>
   <!-- EN: Raid pawns arriving... -->
   <VESWW.PawnsArriving>Peones de asalto llegando...</VESWW.PawnsArriving>
-  <!-- EN: Winston Wave -->
-  <VESWW.ModName>Winston Wave</VESWW.ModName>
+  <!-- EN: Winston Waves -->
+  <VESWW.ModName>Winston Waves</VESWW.ModName>
   <!-- EN: Time before first wave: -->
   <VESWW.TimeBeforeFirstWave>Tiempo antes de la primera oleada:</VESWW.TimeBeforeFirstWave>
   <!-- EN: Time between waves: -->
@@ -134,6 +134,8 @@
   <VESWW.AddExcludedStrategy>Excluir estrategia de asalto</VESWW.AddExcludedStrategy>
   <!-- EN: Remove raid strategy from excluded -->
   <VESWW.RemoveExcludedStrategy>Eliminar estrategia de asalto de excluidas</VESWW.RemoveExcludedStrategy>
+  <!-- EN: Invalid modifier (this was a modded item from a removed mod) -->
+  <VSEWW_Removed>Modificador inválido (era un elemento de un mod que ya no está)</VSEWW_Removed>
   <!-- EN: Hide the wave counter &quot;draggable&quot; checkbox: -->
   <VESWW.ShowDraggable>Ocultar la casilla "arrastrable" del contador de oleadas:</VESWW.ShowDraggable>
   <!-- EN: Timer use rimworld time: -->
@@ -180,4 +182,28 @@
   <VESWW.UseRimworldTimeTip>Si esto está habilitado, el temporizador usa el tiempo de RimWorld en lugar del tiempo de la vida real.</VESWW.UseRimworldTimeTip>
   <!-- EN: Allows raids to occur in Odyssey space biomes. Requires map reload to take effect. -->
   <VESWW.AllowSpaceRaidsTip>Permite que ocurran asaltos en los biomas espaciales de Odyssey. Requiere recargar el mapa para que surta efecto.</VESWW.AllowSpaceRaidsTip>
+  <!-- EN: Faction weight and strength multipliers -->
+  <VESWW.FactionMultipliers>Multiplicadores de peso y fuerza de facción</VESWW.FactionMultipliers>
+  <!-- EN: Weight multiplier -->
+  <VESWW.WeightMultiplier>Multiplicador de peso</VESWW.WeightMultiplier>
+  <!-- EN: Strength multiplier -->
+  <VESWW.StrengthMultiplier>Multiplicador de fuerza</VESWW.StrengthMultiplier>
+  <!-- EN: Multiplier (0 to 10) applied to the chance of this faction being picked for a raid. -->
+  <VESWW.WeightMultiplierTip>Multiplicador (de 0 a 10) que se aplica a la probabilidad de que esta facción sea elegida para una incursión.</VESWW.WeightMultiplierTip>
+  <!-- EN: Multiplier (0 to 10) applied to raid points if this faction is picked. -->
+  <VESWW.StrengthMultiplierTip>Multiplicador (de 0 a 10) que se aplica a los puntos de la incursión si se elige esta facción.</VESWW.StrengthMultiplierTip>
+  <!-- EN: Configure faction weight and strength multipliers -->
+  <VESWW.OpenFactionMultipliers>Configurar los multiplicadores de peso y fuerza de facción</VESWW.OpenFactionMultipliers>
+  <!-- EN: hostile -->
+  <VESWW.Hostile>hostil</VESWW.Hostile>
+  <!-- EN: allied -->
+  <VESWW.Allied>aliada</VESWW.Allied>
+  <!-- EN: neutral -->
+  <VESWW.Neutral>neutral</VESWW.Neutral>
+  <!-- EN: unknown -->
+  <VESWW.Unknown>desconocida</VESWW.Unknown>
+  <!-- EN: Ignore base raid commonality curve -->
+  <VESWW.IgnoreBaseCommonality>Ignorar la curva base de frecuencia de incursiones</VESWW.IgnoreBaseCommonality>
+  <!-- EN: When enabled, the faction&apos;s built-in RaidCommonalityFromPoints curve is ignored entirely, and only your weight multiplier decides the chance of that faction raiding. -->
+  <VESWW.IgnoreBaseCommonalityTip>Cuando está activado, la curva RaidCommonalityFromPoints propia de la facción se ignora por completo y solo tu multiplicador de peso decide la probabilidad de que esa facción incursione.</VESWW.IgnoreBaseCommonalityTip>
 </LanguageData>
