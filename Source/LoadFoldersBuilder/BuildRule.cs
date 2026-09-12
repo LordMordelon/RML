@@ -1,6 +1,5 @@
 ﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
 
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace LoadFoldersBuilder;
@@ -236,7 +235,7 @@ public class BuildRules
     /** 이 BuildRules의 현재 BuildRule에 기록된 메타데이터로 모드 목록을 작성합니다.
      *  공시용 데이터를 출력하기 위해 사용합니다.
      */
-    public (string Tsv, string Markdown) ExportModList()
+    public List<FilaDeModList> ExportModList()
     {
         var ExportList = new OrderedDictionary<int, FilaDeModList>();
 
@@ -290,60 +289,18 @@ public class BuildRules
             .ThenBy(Fila => Fila.Nombre, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
-        return (ModListTsv(Filas), ModListMarkdown(Filas));
+        return Filas;
     }
-
-    /** ModList.tsv: los mismos datos en texto plano, para leer desde otro programa. */
-    private static string ModListTsv(List<FilaDeModList> Filas)
-    {
-        // Con encabezado: GitHub muestra el .tsv como tabla y toma la primera fila como
-        // titulos, asi que sin esto el primer mod quedaba de encabezado.
-        // Ultima actualizacion es la del mod en Steam; ultima traduccion, la del commit en RML.
-        // Si la primera es mas nueva, la traduccion puede haber quedado atrasada.
-        const string Encabezado = "WorkshopID\tMod\tCarpeta\tPackageID\tÚltima actualización\tÚltima traducción";
-        return string.Join(Environment.NewLine, Filas
-            .Select(Fila => $"{Fila.WorkshopID ?? "No ID"}\t{Fila.Nombre}\t{Fila.Carpeta}\t{Fila.PackageID}\t{Fila.Actualizacion}\t{Fila.Traduccion}")
-            .Prepend(Encabezado));
-    }
-
-    /** ModList.md: la lista para personas. Es la que enlazan el About y la pagina del Workshop.
-     *  Existe porque un .tsv no admite links: aca el nombre del mod lleva a su pagina de Steam
-     *  sin sumar una columna con la URL entera.
-     */
-    private static string ModListMarkdown(List<FilaDeModList> Filas)
-    {
-        var Texto = new StringBuilder();
-        Texto.AppendLine("<!-- GENERADO por Source/LoadFoldersBuilder: no editar a mano. -->");
-        Texto.AppendLine();
-        Texto.AppendLine("# Mods traducidos");
-        Texto.AppendLine();
-        Texto.AppendLine($"{Filas.Count} mods, de la traducción más reciente a la más antigua. El nombre de cada mod lleva a su página en Steam.");
-        Texto.AppendLine();
-        Texto.AppendLine("- **Última actualización:** cuándo el autor actualizó el mod en Steam.");
-        Texto.AppendLine("- **Última traducción:** el último cambio de la traducción en RML. Si es anterior a la última actualización, la traducción puede haber quedado atrasada.");
-        Texto.AppendLine();
-        Texto.AppendLine("| WorkshopID | Mod | Carpeta | PackageID | Última actualización | Última traducción |");
-        Texto.AppendLine("|---|---|---|---|---|---|");
-
-        foreach (var Fila in Filas)
-        {
-            string Mod = string.IsNullOrEmpty(Fila.WorkshopID)
-                ? Escapar(Fila.Nombre)
-                : $"[{Escapar(Fila.Nombre)}](https://steamcommunity.com/sharedfiles/filedetails/?id={Fila.WorkshopID})";
-
-            Texto.AppendLine($"| {Escapar(Fila.WorkshopID ?? "No ID")} | {Mod} | {Escapar(Fila.Carpeta)} | {Escapar(Fila.PackageID)} | {Fila.Actualizacion} | {Fila.Traduccion} |");
-        }
-
-        return Texto.ToString();
-    }
-
-    /** Nombres como "[sbz] Fridge" o con | romperian el link o la tabla, y un * o _ los pondria en cursiva. */
-    private static string Escapar(string Texto)
-        => Regex.Replace(Texto, @"[\\`*_\[\]<>|]", Coincidencia => "\\" + Coincidencia.Value);
 }
 
-/** Un mod de la lista, con lo que se escribe tanto en ModList.tsv como en ModList.md. */
-public record FilaDeModList(string? WorkshopID, string Nombre, string Carpeta, string PackageID, string Actualizacion, string Traduccion);
+/** Un mod de la lista, con lo que se escribe en ModList.tsv, ModList.md y docs/index.html. */
+public record FilaDeModList(string? WorkshopID, string Nombre, string Carpeta, string PackageID, string Actualizacion, string Traduccion)
+{
+    public string? Steam => string.IsNullOrEmpty(WorkshopID) ? null : $"https://steamcommunity.com/sharedfiles/filedetails/?id={WorkshopID}";
+
+    /** El mod se actualizo en Steam despues del ultimo cambio de su traduccion. */
+    public bool PosiblementeAtrasada => Actualizacion.Length > 0 && Traduccion.Length > 0 && string.CompareOrdinal(Actualizacion, Traduccion) > 0;
+}
 
 public enum BindingMode
 {

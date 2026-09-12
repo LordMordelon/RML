@@ -33,9 +33,10 @@ Data/
     <Nombre del mod> - <ID>/
   <Nombre del mod> - <ID>/      los demás, sueltos
 LoadFolders.xml                 GENERADO — no editar a mano
+docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
-actualizar.cmd                  regenera los dos anteriores
+actualizar.cmd                  regenera los anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
@@ -94,7 +95,7 @@ los que no están instalados quedan como están.
 1. **El glosario manda.** Revisar [GLOSARIO.md](GLOSARIO.md) antes de traducir cualquier
    texto. Tiene la terminología oficial de RimWorld en español. No inventar términos.
 
-2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md` y `ModList.tsv` se rehacen enteros. Para
+2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
    cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `actualizar.cmd`.
 
 3. **No tocar el `UNUSED.xml`.** Guarda las traducciones cuyo nodo desapareció del mod.

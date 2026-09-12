@@ -11,7 +11,7 @@ on:
     branches:
       - master
     paths:
-      # A propósito no están LoadFolders.xml ni ModList.*: son justo los archivos
+      # A propósito no están LoadFolders.xml, ModList.* ni docs/: son justo los archivos
       # que escribe este flujo, y si estuvieran acá su propio commit lo volvería a
       # disparar.
       - 'Data/**'
@@ -50,13 +50,13 @@ jobs:
       - name: Commitear si cambió algo
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv ModList.md)" ]; then
+          if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv ModList.md docs/index.html)" ]; then
             echo "El índice ya estaba al día."
             exit 0
           fi
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add LoadFolders.xml ModList.tsv ModList.md
+          git add LoadFolders.xml ModList.tsv ModList.md docs/index.html
           git commit -m "Regenerar el indice de LoadFolders [skip ci]"
           git push

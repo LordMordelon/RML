@@ -30,9 +30,10 @@ Data/<Nombre del mod> - <ID>/   los demás, sueltos
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
   UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
 LoadFolders.xml                 GENERADO — no editar a mano
+docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
-actualizar.cmd                  regenera los dos anteriores
+actualizar.cmd                  regenera los anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
@@ -89,7 +90,8 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
 6. Regenerar el índice con **`actualizar.cmd`** (doble clic). Deja al día
    `LoadFolders.xml`, que es lo que hace que el mod cargue, y la lista de mods
-   (`ModList.md` y `ModList.tsv`).
+   (`ModList.md`, `ModList.tsv` y la página `docs/index.html`, publicada en
+   https://lordmordelon.github.io/RML/).
 7. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
 No hace falta hacer nada si el mod trae su propia traducción al español: RML va último
