@@ -129,12 +129,14 @@ sin que nada falle ni avise: los archivos se reescriben enteros, así que un bor
 valor cambiado se ve igual que un cambio legítimo. Así se encontraron tres pérdidas
 distintas, ninguna reportada por ninguna herramienta.
 
-Las dos comprobaciones que importan, y qué significa cada una:
+Las tres comprobaciones que importan, y qué significa cada una. Van contra `HEAD`, no
+contra el índice: si los archivos ya están «staged», un `git diff` a secas sale vacío
+aunque el daño esté ahí.
 
 ```sh
 # 1) Que ninguna traducción haya cambiado de valor.
 #    Compara clave por clave el valor viejo y el nuevo, ignorando los TODO.
-git diff -U0 -- "Data/*/Languages/*" "Data/*/*/Languages/*" \
+git diff HEAD -U0 -- "Data/*/Languages/*" "Data/*/*/Languages/*" \
   | grep -E "^[-+]  <[A-Za-z]" \
   | sed 's/^\([-+]\) *<\([^>]*\)>\(.*\)<\/.*/\1 \2 = \3/' \
   | awk '{k=$2; v=substr($0, index($0,"= ")+2);
@@ -143,10 +145,19 @@ git diff -U0 -- "Data/*/Languages/*" "Data/*/*/Languages/*" \
             print k ": " old[k] " -> " new[k]}'
 
 # 2) Que no se haya borrado ningún UNUSED.xml.
-git status --short | grep '^ D'
+git status --short | grep -E '^( D|D )'
+
+# 3) Que toda regla de gramática conserve su prefijo «simbolo->».
+#    Dentro de un bloque *.rulesStrings cada <li> es una regla entera, y sin el "->"
+#    deja de serlo. La comprobación 1 no lo ve: solo mira las líneas <clave>valor</clave>.
+git diff HEAD --name-only -z | xargs -0 -r awk '
+  /<[A-Za-z0-9_.]+\.rulesStrings>/ {dentro=1}
+  /<\/[A-Za-z0-9_.]+\.rulesStrings>/ {dentro=0}
+  dentro && /<li>/ && !/-&gt;/ {print FILENAME ": " $0}
+'
 ```
 
-Las dos tienen que salir vacías. Si sale algo, hay que entender **por qué** antes de
+Las tres tienen que salir vacías. Si sale algo, hay que entender **por qué** antes de
 commitear: puede ser correcto, pero nunca se da por bueno sin mirarlo.
 
 Cuando algo aparece dañado, lo primero es averiguar si lo causó el cambio en curso:
