@@ -15,6 +15,22 @@
             <label>campo de tiro con arco</label>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/li[1]/title</xpath>
+          <value>
+            <!-- EN: Learning to use guns -->
+            <title>Aprendiendo a usar armas</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/li[1]/desc</xpath>
+          <value>
+            <!-- EN: Your intellectual has been bestowed the understanding of how to operate firearms. Other colonists can now be taught this knowledge in proficiency classes. -->
+            <desc>Su intelecto ha sido dotado de la comprensión de cómo operar armas de fuego. Otros colonos ahora pueden aprender este conocimiento en clases de competencia.</desc>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

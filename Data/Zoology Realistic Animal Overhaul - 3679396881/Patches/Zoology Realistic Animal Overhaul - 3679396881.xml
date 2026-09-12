@@ -2,32 +2,6 @@
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Alpha Animals</li>
-    </mods>
-    <nomatch Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/label</xpath>
-          <value>
-            <!-- EN: chitin -->
-            <label>quitina</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/description</xpath>
-          <value>
-            <!-- EN: Hard overlapping scales of insect chitin. It is exceptionally durable in combat, but provides little protection from weather. -->
-            <description>Escamas duras y superpuestas de quitina de insecto. Es excepcionalmente resistente en combate, pero protege poco del clima.</description>
-          </value>
-        </li>
-      </operations>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
       <li>Biotech</li>
     </mods>
     <match Class="PatchOperationFindMod">

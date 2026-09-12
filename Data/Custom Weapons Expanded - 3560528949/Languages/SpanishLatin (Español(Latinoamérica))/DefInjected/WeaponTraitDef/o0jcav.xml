@@ -1,5 +1,310 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: Plasma Grenade launcher -->
+  <CWE_Trait_PlasmaGrenade_Launcher.label>Lanzagranadas de plasma</CWE_Trait_PlasmaGrenade_Launcher.label>
+  <!-- EN: A launcher that shoots plasma-fusion ignition grenades. Long fragile bombs that trigger an internal fusion reaction, once thrown the vessel implodes and a scalding plasma ball sears and vaporizes organic material. -->
+  <CWE_Trait_PlasmaGrenade_Launcher.description>Un lanzador que dispara granadas de ignición por plasma-fusión. Bombas alargadas y frágiles que desencadenan una reacción de fusión interna; una vez lanzadas, el recipiente implosiona y una bola de plasma abrasador chamusca y vaporiza el material orgánico.</CWE_Trait_PlasmaGrenade_Launcher.description>
+  <!-- EN: shell -->
+  <CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>proyectil</CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Mounted Sonic Stunner -->
+  <CWE_Trait_SonicStunner.label>Aturdidor sónico montado</CWE_Trait_SonicStunner.label>
+  <!-- EN: An ultra-sonic wave personal defense device. Utilizing an advanced high-power projector dish it creates an intense pulse of sound that disorients and stuns targets, rendering them unable to move for a short while. The sound pulses are ineffective against anything except humans, animals and mechanoids. -->
+  <CWE_Trait_SonicStunner.description>Un dispositivo de defensa personal de ondas ultrasónicas. Mediante un proyector parabólico avanzado de alta potencia genera un pulso de sonido intenso que desorienta y aturde a los objetivos, dejándolos incapaces de moverse durante un breve lapso.</CWE_Trait_SonicStunner.description>
+  <!-- EN: Myth Dust Launcher -->
+  <CWE_Trait_MysticDust_Launcher.label>Lanzador de polvo mítico</CWE_Trait_MysticDust_Launcher.label>
+  <!-- EN: Launch a myth dust grenade. \n\nThis type of mystic dust micro-mechanism is target-programmed to attack nearby precision electronic equipment. Unlike EMP attacks, all mechanoid exposed to the dust cloud will be continuously paralyzed until the cloud dissipates.Except respiratory-related implants, other bionic bodies are unaffected. This provides soldiers with a brief window of opportunity for evacuation or assault. -->
+  <CWE_Trait_MysticDust_Launcher.description>Lanza una granada de polvo mítico. \n\nEste tipo de micromecanismo de polvo místico está programado para atacar equipos electrónicos de precisión cercanos. A diferencia de los ataques PEM, todo mecanoide expuesto a él sufre daños permanentes.</CWE_Trait_MysticDust_Launcher.description>
+  <!-- EN: charges -->
+  <CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>cargas</CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>
+  <!-- EN: shard shearing lattice -->
+  <CWE_Trait_ShardShearingLattice.label>retícula de cizallamiento de fragmentos</CWE_Trait_ShardShearingLattice.label>
+  <!-- EN: Refines the crystal shear into smaller, more numerous shards; longer barrages with lighter per-shot impact. -->
+  <CWE_Trait_ShardShearingLattice.description>Refina el cizallamiento del cristal en fragmentos más pequeños y numerosos; andanadas más largas con menos impacto por disparo.</CWE_Trait_ShardShearingLattice.description>
+  <!-- EN: homing prism array -->
+  <CWE_Trait_HomingPrismArray.label>conjunto de prismas guiados</CWE_Trait_HomingPrismArray.label>
+  <!-- EN: Enhanced target painting and beam-split prisms improve homing consistency at range. -->
+  <CWE_Trait_HomingPrismArray.description>El marcado de objetivos mejorado y los prismas divisores de haz mejoran la constancia del guiado a distancia.</CWE_Trait_HomingPrismArray.description>
+  <!-- EN: accretion governor -->
+  <CWE_Trait_AccretionGovernor.label>regulador de acreción</CWE_Trait_AccretionGovernor.label>
+  <!-- EN: Controls shard accretion to favor critical mass events; fewer, heavier hits per string. -->
+  <CWE_Trait_AccretionGovernor.description>Controla la acreción de fragmentos para favorecer eventos de masa crítica; menos impactos, pero más pesados por ráfaga.</CWE_Trait_AccretionGovernor.description>
+  <!-- EN: resonant phase tuner -->
+  <CWE_Trait_ResonantPhaseTuner.label>sintonizador de fase resonante</CWE_Trait_ResonantPhaseTuner.label>
+  <!-- EN: Phase tuning encourages in-target resonance for brief disruptions; steadier groups, calmer splits. -->
+  <CWE_Trait_ResonantPhaseTuner.description>El ajuste de fase favorece la resonancia dentro del objetivo para provocar breves interrupciones; agrupaciones más estables y divisiones más suaves.</CWE_Trait_ResonantPhaseTuner.description>
+  <!-- EN: crystal quiver magazine -->
+  <CWE_Trait_CrystalQuiverMagazine.label>cargador de aljaba de cristal</CWE_Trait_CrystalQuiverMagazine.label>
+  <!-- EN: Expanded crystal hopper feeds long strings but adds bulk and slows recovery. -->
+  <CWE_Trait_CrystalQuiverMagazine.description>Una tolva de cristal ampliada alimenta ráfagas largas, pero agrega volumen y ralentiza la recuperación.</CWE_Trait_CrystalQuiverMagazine.description>
+  <!-- EN: microshard feeder -->
+  <CWE_Trait_MicroshardFeeder.label>alimentador de microfragmentos</CWE_Trait_MicroshardFeeder.label>
+  <!-- EN: High-rate microshard feed boosts volume; each shard hits softer. -->
+  <CWE_Trait_MicroshardFeeder.description>La alimentación de microfragmentos a alta cadencia aumenta el volumen de fuego; cada fragmento impacta con menos fuerza.</CWE_Trait_MicroshardFeeder.description>
+  <!-- EN: detonation primer -->
+  <CWE_Trait_DetonationPrimer.label>fulminante de detonación</CWE_Trait_DetonationPrimer.label>
+  <!-- EN: Embedded primers bias the cascade toward micro-detonations; fewer, harder pulses. -->
+  <CWE_Trait_DetonationPrimer.description>Unos fulminantes incrustados inclinan la cascada hacia las microdetonaciones; menos pulsos, pero más fuertes.</CWE_Trait_DetonationPrimer.description>
+  <!-- EN: implosion seed core -->
+  <CWE_Trait_ImplosionSeedCore.label>núcleo semilla de implosión</CWE_Trait_ImplosionSeedCore.label>
+  <!-- EN: Seeds each shard with an instability nucleus that favors implosive cascades on critical mass. -->
+  <CWE_Trait_ImplosionSeedCore.description>Siembra en cada fragmento un núcleo de inestabilidad que favorece las cascadas implosivas al alcanzar la masa crítica.</CWE_Trait_ImplosionSeedCore.description>
+  <!-- EN: Alliance Stability Damper I -->
+  <CWE_Trait_MA_StabilityDamperI.label>Amortiguador de estabilidad de la Alianza I</CWE_Trait_MA_StabilityDamperI.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperI.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperI.description>
+  <!-- EN: Alliance Stability Damper II -->
+  <CWE_Trait_MA_StabilityDamperII.label>Amortiguador de estabilidad de la Alianza II</CWE_Trait_MA_StabilityDamperII.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperII.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperII.description>
+  <!-- EN: Alliance Stability Damper III -->
+  <CWE_Trait_MA_StabilityDamperIII.label>Amortiguador de estabilidad de la Alianza III</CWE_Trait_MA_StabilityDamperIII.label>
+  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
+  <CWE_Trait_MA_StabilityDamperIII.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperIII.description>
+  <!-- EN: Alliance Magazine Upgrade I -->
+  <CWE_Trait_MA_MagazineUpgradeI.label>Mejora de cargador de la Alianza I</CWE_Trait_MA_MagazineUpgradeI.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeI.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeI.description>
+  <!-- EN: Alliance Magazine Upgrade II -->
+  <CWE_Trait_MA_MagazineUpgradeII.label>Mejora de cargador de la Alianza II</CWE_Trait_MA_MagazineUpgradeII.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeII.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeII.description>
+  <!-- EN: Alliance Magazine Upgrade III -->
+  <CWE_Trait_MA_MagazineUpgradeIII.label>Mejora de cargador de la Alianza III</CWE_Trait_MA_MagazineUpgradeIII.label>
+  <!-- EN: Increases magazine capacity, allowing more shots. -->
+  <CWE_Trait_MA_MagazineUpgradeIII.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeIII.description>
+  <!-- EN: Alliance Piercing Mod I -->
+  <CWE_Trait_MA_PiercingModI.label>Mod perforante de la Alianza I</CWE_Trait_MA_PiercingModI.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModI.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModI.description>
+  <!-- EN: Alliance Piercing Mod II -->
+  <CWE_Trait_MA_PiercingModII.label>Mod perforante de la Alianza II</CWE_Trait_MA_PiercingModII.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModII.description>
+  <!-- EN: Alliance Piercing Mod III -->
+  <CWE_Trait_MA_PiercingModIII.label>Mod perforante de la Alianza III</CWE_Trait_MA_PiercingModIII.label>
+  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
+  <CWE_Trait_MA_PiercingModIII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModIII.description>
+  <!-- EN: Alliance Extended Barrel I -->
+  <CWE_Trait_MA_ExtendedBarrelI.label>Cañón extendido de la Alianza I</CWE_Trait_MA_ExtendedBarrelI.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelI.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelI.description>
+  <!-- EN: Alliance Extended Barrel II -->
+  <CWE_Trait_MA_ExtendedBarrelII.label>Cañón extendido de la Alianza II</CWE_Trait_MA_ExtendedBarrelII.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelII.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelII.description>
+  <!-- EN: Alliance Extended Barrel III -->
+  <CWE_Trait_MA_ExtendedBarrelIII.label>Cañón extendido de la Alianza III</CWE_Trait_MA_ExtendedBarrelIII.label>
+  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
+  <CWE_Trait_MA_ExtendedBarrelIII.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelIII.description>
+  <!-- EN: Alliance Precision Scope I -->
+  <CWE_Trait_MA_PrecisionScopeI.label>Mira de precisión de la Alianza I</CWE_Trait_MA_PrecisionScopeI.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeI.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeI.description>
+  <!-- EN: Alliance Precision Scope II -->
+  <CWE_Trait_MA_PrecisionScopeII.label>Mira de precisión de la Alianza II</CWE_Trait_MA_PrecisionScopeII.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeII.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeII.description>
+  <!-- EN: Alliance Precision Scope III -->
+  <CWE_Trait_MA_PrecisionScopeIII.label>Mira de precisión de la Alianza III</CWE_Trait_MA_PrecisionScopeIII.label>
+  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
+  <CWE_Trait_MA_PrecisionScopeIII.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeIII.description>
+  <!-- EN: Alliance Omni-Blade I -->
+  <CWE_Trait_MA_OmniBladeI.label>Omnihoja de la Alianza I</CWE_Trait_MA_OmniBladeI.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeI.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeI.description>
+  <!-- EN: Alliance Omni-Blade II -->
+  <CWE_Trait_MA_OmniBladeII.label>Omnihoja de la Alianza II</CWE_Trait_MA_OmniBladeII.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeII.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeII.description>
+  <!-- EN: Alliance Omni-Blade III -->
+  <CWE_Trait_MA_OmniBladeIII.label>Omnihoja de la Alianza III</CWE_Trait_MA_OmniBladeIII.label>
+  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
+  <CWE_Trait_MA_OmniBladeIII.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeIII.description>
+  <!-- EN: Alliance High-Velocity Barrel I -->
+  <CWE_Trait_MA_HighVelocityBarrelI.label>Cañón de alta velocidad de la Alianza I</CWE_Trait_MA_HighVelocityBarrelI.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelI.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelI.description>
+  <!-- EN: Alliance High-Velocity Barrel II -->
+  <CWE_Trait_MA_HighVelocityBarrelII.label>Cañón de alta velocidad de la Alianza II</CWE_Trait_MA_HighVelocityBarrelII.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelII.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelII.description>
+  <!-- EN: Alliance High-Velocity Barrel III -->
+  <CWE_Trait_MA_HighVelocityBarrelIII.label>Cañón de alta velocidad de la Alianza III</CWE_Trait_MA_HighVelocityBarrelIII.label>
+  <!-- EN: Superior kinetic coils increase shot penetration. -->
+  <CWE_Trait_MA_HighVelocityBarrelIII.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelIII.description>
+  <!-- EN: Alliance Heavy Barrel I -->
+  <CWE_Trait_MA_HeavyBarrelI.label>Cañón pesado de la Alianza I</CWE_Trait_MA_HeavyBarrelI.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelI.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelI.description>
+  <!-- EN: Alliance Heavy Barrel II -->
+  <CWE_Trait_MA_HeavyBarrelII.label>Cañón pesado de la Alianza II</CWE_Trait_MA_HeavyBarrelII.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelII.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelII.description>
+  <!-- EN: Alliance Heavy Barrel III -->
+  <CWE_Trait_MA_HeavyBarrelIII.label>Cañón pesado de la Alianza III</CWE_Trait_MA_HeavyBarrelIII.label>
+  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
+  <CWE_Trait_MA_HeavyBarrelIII.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelIII.description>
+  <!-- EN: Alliance Ultralight Materials I -->
+  <CWE_Trait_MA_UltralightMaterialsI.label>Materiales ultraligeros de la Alianza I</CWE_Trait_MA_UltralightMaterialsI.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsI.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsI.description>
+  <!-- EN: Alliance Ultralight Materials II -->
+  <CWE_Trait_MA_UltralightMaterialsII.label>Materiales ultraligeros de la Alianza II</CWE_Trait_MA_UltralightMaterialsII.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsII.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsII.description>
+  <!-- EN: Alliance Ultralight Materials III -->
+  <CWE_Trait_MA_UltralightMaterialsIII.label>Materiales ultraligeros de la Alianza III</CWE_Trait_MA_UltralightMaterialsIII.label>
+  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
+  <CWE_Trait_MA_UltralightMaterialsIII.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsIII.description>
+  <!-- EN: Alliance Melee Stunner I -->
+  <CWE_Trait_MA_MeleeStunnerI.label>Aturdidor cuerpo a cuerpo de la Alianza I</CWE_Trait_MA_MeleeStunnerI.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerI.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerI.description>
+  <!-- EN: Alliance Melee Stunner II -->
+  <CWE_Trait_MA_MeleeStunnerII.label>Aturdidor cuerpo a cuerpo de la Alianza II</CWE_Trait_MA_MeleeStunnerII.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerII.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerII.description>
+  <!-- EN: Alliance Melee Stunner III -->
+  <CWE_Trait_MA_MeleeStunnerIII.label>Aturdidor cuerpo a cuerpo de la Alianza III</CWE_Trait_MA_MeleeStunnerIII.label>
+  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
+  <CWE_Trait_MA_MeleeStunnerIII.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerIII.description>
+  <!-- EN: Alliance High-Caliber Barrel I -->
+  <CWE_Trait_MA_HighCaliberBarrelI.label>Cañón de alto calibre de la Alianza I</CWE_Trait_MA_HighCaliberBarrelI.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelI.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelI.description>
+  <!-- EN: Alliance High-Caliber Barrel II -->
+  <CWE_Trait_MA_HighCaliberBarrelII.label>Cañón de alto calibre de la Alianza II</CWE_Trait_MA_HighCaliberBarrelII.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelII.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelII.description>
+  <!-- EN: Alliance High-Caliber Barrel III -->
+  <CWE_Trait_MA_HighCaliberBarrelIII.label>Cañón de alto calibre de la Alianza III</CWE_Trait_MA_HighCaliberBarrelIII.label>
+  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
+  <CWE_Trait_MA_HighCaliberBarrelIII.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelIII.description>
+  <!-- EN: Alliance Power Magnifier I -->
+  <CWE_Trait_MA_PowerMagnifierI.label>Amplificador de potencia de la Alianza I</CWE_Trait_MA_PowerMagnifierI.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierI.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierI.description>
+  <!-- EN: Alliance Power Magnifier II -->
+  <CWE_Trait_MA_PowerMagnifierII.label>Amplificador de potencia de la Alianza II</CWE_Trait_MA_PowerMagnifierII.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierII.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierII.description>
+  <!-- EN: Alliance Power Magnifier III -->
+  <CWE_Trait_MA_PowerMagnifierIII.label>Amplificador de potencia de la Alianza III</CWE_Trait_MA_PowerMagnifierIII.label>
+  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
+  <CWE_Trait_MA_PowerMagnifierIII.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierIII.description>
+  <!-- EN: Alliance Heat Sink I -->
+  <CWE_Trait_MA_HeatSinkI.label>Disipador térmico de la Alianza I</CWE_Trait_MA_HeatSinkI.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkI.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkI.description>
+  <!-- EN: Alliance Heat Sink II -->
+  <CWE_Trait_MA_HeatSinkII.label>Disipador térmico de la Alianza II</CWE_Trait_MA_HeatSinkII.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkII.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkII.description>
+  <!-- EN: Alliance Heat Sink III -->
+  <CWE_Trait_MA_HeatSinkIII.label>Disipador térmico de la Alianza III</CWE_Trait_MA_HeatSinkIII.label>
+  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
+  <CWE_Trait_MA_HeatSinkIII.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkIII.description>
+  <!-- EN: Alliance Smart Choke I -->
+  <CWE_Trait_MA_SmartChokeI.label>Estrangulador inteligente de la Alianza I</CWE_Trait_MA_SmartChokeI.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeI.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeI.description>
+  <!-- EN: Alliance Smart Choke II -->
+  <CWE_Trait_MA_SmartChokeII.label>Estrangulador inteligente de la Alianza II</CWE_Trait_MA_SmartChokeII.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeII.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeII.description>
+  <!-- EN: Alliance Smart Choke III -->
+  <CWE_Trait_MA_SmartChokeIII.label>Estrangulador inteligente de la Alianza III</CWE_Trait_MA_SmartChokeIII.label>
+  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
+  <CWE_Trait_MA_SmartChokeIII.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeIII.description>
+  <!-- EN: Alliance Toxic Ammunition -->
+  <CWE_Trait_MA_AmmoToxic.label>Munición tóxica de la Alianza</CWE_Trait_MA_AmmoToxic.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies toxic buildup. -->
+  <CWE_Trait_MA_AmmoToxic.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica acumulación de toxinas.</CWE_Trait_MA_AmmoToxic.description>
+  <!-- EN: Alliance Piercing Ammunition -->
+  <CWE_Trait_MA_AmmoPiercing.label>Munición perforante de la Alianza</CWE_Trait_MA_AmmoPiercing.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a higher armor penetration. -->
+  <CWE_Trait_MA_AmmoPiercing.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta hace que tu arma tenga mayor penetración de blindaje.</CWE_Trait_MA_AmmoPiercing.description>
+  <!-- EN: Alliance Shredder Ammunition -->
+  <CWE_Trait_MA_AmmoShredder.label>Munición trituradora de la Alianza</CWE_Trait_MA_AmmoShredder.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a high damage but a lower armor penetration. -->
+  <CWE_Trait_MA_AmmoShredder.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta hace que tu arma tenga mucho daño pero menor penetración de blindaje.</CWE_Trait_MA_AmmoShredder.description>
+  <!-- EN: Alliance Incendiary Ammunition -->
+  <CWE_Trait_MA_AmmoIncendiary.label>Munición incendiaria de la Alianza</CWE_Trait_MA_AmmoIncendiary.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies fire damage and sets the target on fire. -->
+  <CWE_Trait_MA_AmmoIncendiary.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica daño por fuego y prende fuego al objetivo.</CWE_Trait_MA_AmmoIncendiary.description>
+  <!-- EN: Alliance Explosive Ammunition -->
+  <CWE_Trait_MA_AmmoExplosive.label>Munición explosiva de la Alianza</CWE_Trait_MA_AmmoExplosive.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one is an explosive shot. -->
+  <CWE_Trait_MA_AmmoExplosive.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta es un disparo explosivo.</CWE_Trait_MA_AmmoExplosive.description>
+  <!-- EN: Alliance Disruptor Ammunition -->
+  <CWE_Trait_MA_AmmoDisruptor.label>Munición disruptora de la Alianza</CWE_Trait_MA_AmmoDisruptor.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies EMP damage. -->
+  <CWE_Trait_MA_AmmoDisruptor.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica daño PEM.</CWE_Trait_MA_AmmoDisruptor.description>
+  <!-- EN: Alliance Cryo Ammunition -->
+  <CWE_Trait_MA_AmmoCryo.label>Munición criogénica de la Alianza</CWE_Trait_MA_AmmoCryo.label>
+  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies hypothermia. -->
+  <CWE_Trait_MA_AmmoCryo.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica hipotermia.</CWE_Trait_MA_AmmoCryo.description>
+  <!-- EN: Ion Charge -->
+  <CWE_Trait_Ion_Charge.label>Carga iónica</CWE_Trait_Ion_Charge.label>
+  <!-- EN: Ammo fuled with ion particles, the particles once sufficiently built up, release in an electromagnetic pulse, breaking energy shields and stunning any mechanoid caught in the radius.
+            Ammo for Gauss/Rail guns -->
+  <CWE_Trait_Ion_Charge.description>Munición cargada con partículas de iones; una vez que las partículas se acumulan lo suficiente, se liberan en un pulso electromagnético que rompe escudos de energía y aturde a cualquier mecanoide atrapado en el radio. Munición para armas tipo plasma.</CWE_Trait_Ion_Charge.description>
+  <!-- EN: Marine psychic grenade launcher -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.label>Lanzagranadas psíquicas marine</CWE_Trait_MarinePsychicGrenade_Launcher.label>
+  <!-- EN: Launch a replica of the psychic grenade derived from the knowledge of the marine lancer. The explosion of the shock wave can disturb the enemy&apos;s psychic nerves, making them dizzy, vomiting, and in severe cases may fall or even die.\n\nDoes not damage friendly or neutral units. -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.description>Lanza una réplica de la granada psíquica derivada del conocimiento del lancero marine. La explosión de la onda de choque puede perturbar los nervios psíquicos del enemigo, provocándole mareos, vómitos y otros síntomas.</CWE_Trait_MarinePsychicGrenade_Launcher.description>
+  <!-- EN: grenade -->
+  <CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>granada</CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>
+  <!-- EN: Micro Missile Launcher -->
+  <CWE_Trait_MicroMissileLauncher.label>Lanzador de micromisiles</CWE_Trait_MicroMissileLauncher.label>
+  <!-- EN: Launch a micro missile to the target location. -->
+  <CWE_Trait_MicroMissileLauncher.description>Lanza un micromisil a la ubicación objetivo.</CWE_Trait_MicroMissileLauncher.description>
+  <!-- EN: micro missiles -->
+  <CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>micromisiles</CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>
+  <!-- EN: Singularity Grenade Launcher -->
+  <CWE_Trait_GriefLauncher.label>Lanzagranadas de singularidad</CWE_Trait_GriefLauncher.label>
+  <!-- EN: When it explodes, the &quot;Grief&quot; impact grenade releases a graviton shockwave. Although its damage is low, movement within the grenade’s explosion radius is severely restricted. -->
+  <CWE_Trait_GriefLauncher.description>Al explotar, la granada de impacto "Grief" libera una onda de choque de gravitones. Aunque su daño es bajo, el movimiento dentro del radio de explosión de la granada queda severamente restringido.</CWE_Trait_GriefLauncher.description>
+  <!-- EN: singularity grenades -->
+  <CWE_Trait_GriefLauncher.abilityProps.chargeNoun>granadas de singularidad</CWE_Trait_GriefLauncher.abilityProps.chargeNoun>
+  <!-- EN: Micro Turret Launcher -->
+  <CWE_Trait_MicroTurretLauncher.label>Lanzador de microtorretas</CWE_Trait_MicroTurretLauncher.label>
+  <!-- EN: Launch a micro turret to the target location. -->
+  <CWE_Trait_MicroTurretLauncher.description>Lanza una microtorreta a la ubicación objetivo.</CWE_Trait_MicroTurretLauncher.description>
+  <!-- EN: micro turret -->
+  <CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>microtorreta</CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>
+  <!-- EN: Bronze camouflage -->
+  <CWE_Trait_CamoBronze.label>Camuflaje bronce</CWE_Trait_CamoBronze.label>
+  <!-- EN: Change the weapon&apos;s camouflage to bronze. -->
+  <CWE_Trait_CamoBronze.description>Cambia el camuflaje del arma a bronce.</CWE_Trait_CamoBronze.description>
+  <!-- EN: Gold camouflage -->
+  <CWE_Trait_CamoGold.label>Camuflaje dorado</CWE_Trait_CamoGold.label>
+  <!-- EN: Change the weapon&apos;s camouflage to gold. -->
+  <CWE_Trait_CamoGold.description>Cambia el camuflaje del arma a dorado.</CWE_Trait_CamoGold.description>
+  <!-- EN: shortened barrel -->
+  <CWE_Trait_ShortenedBarrel_SLR.label>cañón acortado</CWE_Trait_ShortenedBarrel_SLR.label>
+  <!-- EN: A shortened barrel. It lowers muzzle velocity and range, but the lighter weight and better balance make the weapon faster to aim. -->
+  <CWE_Trait_ShortenedBarrel_SLR.description>Un cañón acortado. Reduce la velocidad de boca y el alcance, pero su menor peso y mejor equilibrio hacen que el arma sea más rápida de apuntar.</CWE_Trait_ShortenedBarrel_SLR.description>
+  <!-- EN: tactical barrel -->
+  <CWE_Trait_TacticalBarrel_SLR.label>cañón táctico</CWE_Trait_TacticalBarrel_SLR.label>
+  <!-- EN: A redesigned barrel built for ergonomics and handling. Its lighter profile reduces weight and makes the weapon quicker to steady. -->
+  <CWE_Trait_TacticalBarrel_SLR.description>Un cañón rediseñado, pensado para la ergonomía y el manejo. Su perfil más liviano reduce el peso y hace que el arma se estabilice más rápido.</CWE_Trait_TacticalBarrel_SLR.description>
+  <!-- EN: Stun Launcher -->
+  <CWE_Trait_CWS_Grenade_launcher.label>Lanzador de aturdimiento</CWE_Trait_CWS_Grenade_launcher.label>
+  <!-- EN: Fires powerful grenade rounds that injure and stun enemies within a wide area. -->
+  <CWE_Trait_CWS_Grenade_launcher.description>Dispara potentes proyectiles de granada que hieren y aturden a los enemigos en un área amplia.</CWE_Trait_CWS_Grenade_launcher.description>
+  <!-- EN: Grenade -->
+  <CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>Granada</CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>
+  <!-- EN: Shock Slug -->
+  <CWE_Trait_CWS_shock_slug.label>Bala de choque</CWE_Trait_CWS_shock_slug.label>
+  <!-- EN: Fires a powerful round that stuns the target upon impact. -->
+  <CWE_Trait_CWS_shock_slug.description>Dispara un potente proyectil que aturde al objetivo al impactar.</CWE_Trait_CWS_shock_slug.description>
+  <!-- EN: Grenade -->
+  <CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>Granada</CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>
+  <!-- EN: extended magazine -->
+  <CWE_Trait_ExtendedMagazine_VolleyShotgun.label>cargador extendido</CWE_Trait_ExtendedMagazine_VolleyShotgun.label>
+  <!-- EN: This magazine holds more ammo than the standard version, letting the weapon fire more shots per burst. -->
+  <CWE_Trait_ExtendedMagazine_VolleyShotgun.description>Este cargador contiene más munición que la versión estándar, lo que permite al arma disparar más tiros por ráfaga.</CWE_Trait_ExtendedMagazine_VolleyShotgun.description>
   <!-- EN: Uranium rounds -->
   <CWE_Trait_UraniumRounds.label>Munición de uranio</CWE_Trait_UraniumRounds.label>
   <!-- EN: Its ultra-dense uranium shells can punch through heavy armor, but more time to be loaded after use. -->
@@ -414,309 +719,4 @@
   <CWE_Trait_Bipod.label>Bípode</CWE_Trait_Bipod.label>
   <!-- EN: Retractable bipod for stabilization. When armed, it reduces sway and recoil, but requires preparation to achieve maximum effect. -->
   <CWE_Trait_Bipod.description>Bípode retráctil para estabilizar el arma. Cuando está desplegado, reduce la oscilación y el retroceso, pero requiere preparación para lograr el máximo efecto.</CWE_Trait_Bipod.description>
-  <!-- EN: Plasma Grenade launcher -->
-  <CWE_Trait_PlasmaGrenade_Launcher.label>Lanzagranadas de plasma</CWE_Trait_PlasmaGrenade_Launcher.label>
-  <!-- EN: A launcher that shoots plasma-fusion ignition grenades. Long fragile bombs that trigger an internal fusion reaction, once thrown the vessel implodes and a scalding plasma ball sears and vaporizes organic material. -->
-  <CWE_Trait_PlasmaGrenade_Launcher.description>Un lanzador que dispara granadas de ignición por plasma-fusión. Bombas alargadas y frágiles que desencadenan una reacción de fusión interna; una vez lanzadas, el recipiente implosiona y una bola de plasma abrasador chamusca y vaporiza el material orgánico.</CWE_Trait_PlasmaGrenade_Launcher.description>
-  <!-- EN: shell -->
-  <CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>proyectil</CWE_Trait_PlasmaGrenade_Launcher.abilityProps.chargeNoun>
-  <!-- EN: Mounted Sonic Stunner -->
-  <CWE_Trait_SonicStunner.label>Aturdidor sónico montado</CWE_Trait_SonicStunner.label>
-  <!-- EN: An ultra-sonic wave personal defense device. Utilizing an advanced high-power projector dish it creates an intense pulse of sound that disorients and stuns targets, rendering them unable to move for a short while. The sound pulses are ineffective against anything except humans, animals and mechanoids. -->
-  <CWE_Trait_SonicStunner.description>Un dispositivo de defensa personal de ondas ultrasónicas. Mediante un proyector parabólico avanzado de alta potencia genera un pulso de sonido intenso que desorienta y aturde a los objetivos, dejándolos incapaces de moverse durante un breve lapso.</CWE_Trait_SonicStunner.description>
-  <!-- EN: Myth Dust Launcher -->
-  <CWE_Trait_MysticDust_Launcher.label>Lanzador de polvo mítico</CWE_Trait_MysticDust_Launcher.label>
-  <!-- EN: Launch a myth dust grenade. \n\nThis type of mystic dust micro-mechanism is target-programmed to attack nearby precision electronic equipment. Unlike EMP attacks, all mechanoid exposed to the dust cloud will be continuously paralyzed until the cloud dissipates.Except respiratory-related implants, other bionic bodies are unaffected. This provides soldiers with a brief window of opportunity for evacuation or assault. -->
-  <CWE_Trait_MysticDust_Launcher.description>Lanza una granada de polvo mítico. \n\nEste tipo de micromecanismo de polvo místico está programado para atacar equipos electrónicos de precisión cercanos. A diferencia de los ataques PEM, todo mecanoide expuesto a él sufre daños permanentes.</CWE_Trait_MysticDust_Launcher.description>
-  <!-- EN: charges -->
-  <CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>cargas</CWE_Trait_MysticDust_Launcher.abilityProps.chargeNoun>
-  <!-- EN: shard shearing lattice -->
-  <CWE_Trait_ShardShearingLattice.label>retícula de cizallamiento de fragmentos</CWE_Trait_ShardShearingLattice.label>
-  <!-- EN: Refines the crystal shear into smaller, more numerous shards; longer barrages with lighter per-shot impact. -->
-  <CWE_Trait_ShardShearingLattice.description>Refina el cizallamiento del cristal en fragmentos más pequeños y numerosos; andanadas más largas con menos impacto por disparo.</CWE_Trait_ShardShearingLattice.description>
-  <!-- EN: homing prism array -->
-  <CWE_Trait_HomingPrismArray.label>conjunto de prismas guiados</CWE_Trait_HomingPrismArray.label>
-  <!-- EN: Enhanced target painting and beam-split prisms improve homing consistency at range. -->
-  <CWE_Trait_HomingPrismArray.description>El marcado de objetivos mejorado y los prismas divisores de haz mejoran la constancia del guiado a distancia.</CWE_Trait_HomingPrismArray.description>
-  <!-- EN: accretion governor -->
-  <CWE_Trait_AccretionGovernor.label>regulador de acreción</CWE_Trait_AccretionGovernor.label>
-  <!-- EN: Controls shard accretion to favor critical mass events; fewer, heavier hits per string. -->
-  <CWE_Trait_AccretionGovernor.description>Controla la acreción de fragmentos para favorecer eventos de masa crítica; menos impactos, pero más pesados por ráfaga.</CWE_Trait_AccretionGovernor.description>
-  <!-- EN: resonant phase tuner -->
-  <CWE_Trait_ResonantPhaseTuner.label>sintonizador de fase resonante</CWE_Trait_ResonantPhaseTuner.label>
-  <!-- EN: Phase tuning encourages in-target resonance for brief disruptions; steadier groups, calmer splits. -->
-  <CWE_Trait_ResonantPhaseTuner.description>El ajuste de fase favorece la resonancia dentro del objetivo para provocar breves interrupciones; agrupaciones más estables y divisiones más suaves.</CWE_Trait_ResonantPhaseTuner.description>
-  <!-- EN: crystal quiver magazine -->
-  <CWE_Trait_CrystalQuiverMagazine.label>cargador de aljaba de cristal</CWE_Trait_CrystalQuiverMagazine.label>
-  <!-- EN: Expanded crystal hopper feeds long strings but adds bulk and slows recovery. -->
-  <CWE_Trait_CrystalQuiverMagazine.description>Una tolva de cristal ampliada alimenta ráfagas largas, pero agrega volumen y ralentiza la recuperación.</CWE_Trait_CrystalQuiverMagazine.description>
-  <!-- EN: microshard feeder -->
-  <CWE_Trait_MicroshardFeeder.label>alimentador de microfragmentos</CWE_Trait_MicroshardFeeder.label>
-  <!-- EN: High-rate microshard feed boosts volume; each shard hits softer. -->
-  <CWE_Trait_MicroshardFeeder.description>La alimentación de microfragmentos a alta cadencia aumenta el volumen de fuego; cada fragmento impacta con menos fuerza.</CWE_Trait_MicroshardFeeder.description>
-  <!-- EN: detonation primer -->
-  <CWE_Trait_DetonationPrimer.label>fulminante de detonación</CWE_Trait_DetonationPrimer.label>
-  <!-- EN: Embedded primers bias the cascade toward micro-detonations; fewer, harder pulses. -->
-  <CWE_Trait_DetonationPrimer.description>Unos fulminantes incrustados inclinan la cascada hacia las microdetonaciones; menos pulsos, pero más fuertes.</CWE_Trait_DetonationPrimer.description>
-  <!-- EN: implosion seed core -->
-  <CWE_Trait_ImplosionSeedCore.label>núcleo semilla de implosión</CWE_Trait_ImplosionSeedCore.label>
-  <!-- EN: Seeds each shard with an instability nucleus that favors implosive cascades on critical mass. -->
-  <CWE_Trait_ImplosionSeedCore.description>Siembra en cada fragmento un núcleo de inestabilidad que favorece las cascadas implosivas al alcanzar la masa crítica.</CWE_Trait_ImplosionSeedCore.description>
-  <!-- EN: Alliance Stability Damper I -->
-  <CWE_Trait_MA_StabilityDamperI.label>Amortiguador de estabilidad de la Alianza I</CWE_Trait_MA_StabilityDamperI.label>
-  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
-  <CWE_Trait_MA_StabilityDamperI.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperI.description>
-  <!-- EN: Alliance Stability Damper II -->
-  <CWE_Trait_MA_StabilityDamperII.label>Amortiguador de estabilidad de la Alianza II</CWE_Trait_MA_StabilityDamperII.label>
-  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
-  <CWE_Trait_MA_StabilityDamperII.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperII.description>
-  <!-- EN: Alliance Stability Damper III -->
-  <CWE_Trait_MA_StabilityDamperIII.label>Amortiguador de estabilidad de la Alianza III</CWE_Trait_MA_StabilityDamperIII.label>
-  <!-- EN: Distributes recoil with sliding system of counterweights compatible with kinetic coil generators. Reduces weapon kickback. -->
-  <CWE_Trait_MA_StabilityDamperIII.description>Distribuye el retroceso mediante un sistema deslizante de contrapesos compatible con generadores de bobina cinética. Reduce el culatazo del arma.</CWE_Trait_MA_StabilityDamperIII.description>
-  <!-- EN: Alliance Magazine Upgrade I -->
-  <CWE_Trait_MA_MagazineUpgradeI.label>Mejora de cargador de la Alianza I</CWE_Trait_MA_MagazineUpgradeI.label>
-  <!-- EN: Increases magazine capacity, allowing more shots. -->
-  <CWE_Trait_MA_MagazineUpgradeI.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeI.description>
-  <!-- EN: Alliance Magazine Upgrade II -->
-  <CWE_Trait_MA_MagazineUpgradeII.label>Mejora de cargador de la Alianza II</CWE_Trait_MA_MagazineUpgradeII.label>
-  <!-- EN: Increases magazine capacity, allowing more shots. -->
-  <CWE_Trait_MA_MagazineUpgradeII.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeII.description>
-  <!-- EN: Alliance Magazine Upgrade III -->
-  <CWE_Trait_MA_MagazineUpgradeIII.label>Mejora de cargador de la Alianza III</CWE_Trait_MA_MagazineUpgradeIII.label>
-  <!-- EN: Increases magazine capacity, allowing more shots. -->
-  <CWE_Trait_MA_MagazineUpgradeIII.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Trait_MA_MagazineUpgradeIII.description>
-  <!-- EN: Alliance Piercing Mod I -->
-  <CWE_Trait_MA_PiercingModI.label>Mod perforante de la Alianza I</CWE_Trait_MA_PiercingModI.label>
-  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
-  <CWE_Trait_MA_PiercingModI.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModI.description>
-  <!-- EN: Alliance Piercing Mod II -->
-  <CWE_Trait_MA_PiercingModII.label>Mod perforante de la Alianza II</CWE_Trait_MA_PiercingModII.label>
-  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
-  <CWE_Trait_MA_PiercingModII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModII.description>
-  <!-- EN: Alliance Piercing Mod III -->
-  <CWE_Trait_MA_PiercingModIII.label>Mod perforante de la Alianza III</CWE_Trait_MA_PiercingModIII.label>
-  <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
-  <CWE_Trait_MA_PiercingModIII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Trait_MA_PiercingModIII.description>
-  <!-- EN: Alliance Extended Barrel I -->
-  <CWE_Trait_MA_ExtendedBarrelI.label>Cañón extendido de la Alianza I</CWE_Trait_MA_ExtendedBarrelI.label>
-  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
-  <CWE_Trait_MA_ExtendedBarrelI.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelI.description>
-  <!-- EN: Alliance Extended Barrel II -->
-  <CWE_Trait_MA_ExtendedBarrelII.label>Cañón extendido de la Alianza II</CWE_Trait_MA_ExtendedBarrelII.label>
-  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
-  <CWE_Trait_MA_ExtendedBarrelII.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelII.description>
-  <!-- EN: Alliance Extended Barrel III -->
-  <CWE_Trait_MA_ExtendedBarrelIII.label>Cañón extendido de la Alianza III</CWE_Trait_MA_ExtendedBarrelIII.label>
-  <!-- EN: Lengthens barrel, creating greater bullet velocity and impact. -->
-  <CWE_Trait_MA_ExtendedBarrelIII.description>Alarga el cañón, lo que genera mayor velocidad e impacto del proyectil.</CWE_Trait_MA_ExtendedBarrelIII.description>
-  <!-- EN: Alliance Precision Scope I -->
-  <CWE_Trait_MA_PrecisionScopeI.label>Mira de precisión de la Alianza I</CWE_Trait_MA_PrecisionScopeI.label>
-  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
-  <CWE_Trait_MA_PrecisionScopeI.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeI.description>
-  <!-- EN: Alliance Precision Scope II -->
-  <CWE_Trait_MA_PrecisionScopeII.label>Mira de precisión de la Alianza II</CWE_Trait_MA_PrecisionScopeII.label>
-  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
-  <CWE_Trait_MA_PrecisionScopeII.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeII.description>
-  <!-- EN: Alliance Precision Scope III -->
-  <CWE_Trait_MA_PrecisionScopeIII.label>Mira de precisión de la Alianza III</CWE_Trait_MA_PrecisionScopeIII.label>
-  <!-- EN: Simple 4x optical scope to enhance stability while zoomed. -->
-  <CWE_Trait_MA_PrecisionScopeIII.description>Mira óptica simple de 4x para mejorar la estabilidad con el zoom activado.</CWE_Trait_MA_PrecisionScopeIII.description>
-  <!-- EN: Alliance Omni-Blade I -->
-  <CWE_Trait_MA_OmniBladeI.label>Omnihoja de la Alianza I</CWE_Trait_MA_OmniBladeI.label>
-  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
-  <CWE_Trait_MA_OmniBladeI.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeI.description>
-  <!-- EN: Alliance Omni-Blade II -->
-  <CWE_Trait_MA_OmniBladeII.label>Omnihoja de la Alianza II</CWE_Trait_MA_OmniBladeII.label>
-  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
-  <CWE_Trait_MA_OmniBladeII.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeII.description>
-  <!-- EN: Alliance Omni-Blade III -->
-  <CWE_Trait_MA_OmniBladeIII.label>Omnihoja de la Alianza III</CWE_Trait_MA_OmniBladeIII.label>
-  <!-- EN: Attach an omni-blade to the weapon for increased melee damage. -->
-  <CWE_Trait_MA_OmniBladeIII.description>Acopla una omnihoja al arma para aumentar el daño cuerpo a cuerpo.</CWE_Trait_MA_OmniBladeIII.description>
-  <!-- EN: Alliance High-Velocity Barrel I -->
-  <CWE_Trait_MA_HighVelocityBarrelI.label>Cañón de alta velocidad de la Alianza I</CWE_Trait_MA_HighVelocityBarrelI.label>
-  <!-- EN: Superior kinetic coils increase shot penetration. -->
-  <CWE_Trait_MA_HighVelocityBarrelI.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelI.description>
-  <!-- EN: Alliance High-Velocity Barrel II -->
-  <CWE_Trait_MA_HighVelocityBarrelII.label>Cañón de alta velocidad de la Alianza II</CWE_Trait_MA_HighVelocityBarrelII.label>
-  <!-- EN: Superior kinetic coils increase shot penetration. -->
-  <CWE_Trait_MA_HighVelocityBarrelII.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelII.description>
-  <!-- EN: Alliance High-Velocity Barrel III -->
-  <CWE_Trait_MA_HighVelocityBarrelIII.label>Cañón de alta velocidad de la Alianza III</CWE_Trait_MA_HighVelocityBarrelIII.label>
-  <!-- EN: Superior kinetic coils increase shot penetration. -->
-  <CWE_Trait_MA_HighVelocityBarrelIII.description>Unas bobinas cinéticas superiores aumentan la penetración del disparo.</CWE_Trait_MA_HighVelocityBarrelIII.description>
-  <!-- EN: Alliance Heavy Barrel I -->
-  <CWE_Trait_MA_HeavyBarrelI.label>Cañón pesado de la Alianza I</CWE_Trait_MA_HeavyBarrelI.label>
-  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
-  <CWE_Trait_MA_HeavyBarrelI.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelI.description>
-  <!-- EN: Alliance Heavy Barrel II -->
-  <CWE_Trait_MA_HeavyBarrelII.label>Cañón pesado de la Alianza II</CWE_Trait_MA_HeavyBarrelII.label>
-  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
-  <CWE_Trait_MA_HeavyBarrelII.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelII.description>
-  <!-- EN: Alliance Heavy Barrel III -->
-  <CWE_Trait_MA_HeavyBarrelIII.label>Cañón pesado de la Alianza III</CWE_Trait_MA_HeavyBarrelIII.label>
-  <!-- EN: A pistol barrel that produces and withstands extreme kinetic and thermal energy. -->
-  <CWE_Trait_MA_HeavyBarrelIII.description>Un cañón de pistola que genera y soporta energía cinética y térmica extrema.</CWE_Trait_MA_HeavyBarrelIII.description>
-  <!-- EN: Alliance Ultralight Materials I -->
-  <CWE_Trait_MA_UltralightMaterialsI.label>Materiales ultraligeros de la Alianza I</CWE_Trait_MA_UltralightMaterialsI.label>
-  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
-  <CWE_Trait_MA_UltralightMaterialsI.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsI.description>
-  <!-- EN: Alliance Ultralight Materials II -->
-  <CWE_Trait_MA_UltralightMaterialsII.label>Materiales ultraligeros de la Alianza II</CWE_Trait_MA_UltralightMaterialsII.label>
-  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
-  <CWE_Trait_MA_UltralightMaterialsII.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsII.description>
-  <!-- EN: Alliance Ultralight Materials III -->
-  <CWE_Trait_MA_UltralightMaterialsIII.label>Materiales ultraligeros de la Alianza III</CWE_Trait_MA_UltralightMaterialsIII.label>
-  <!-- EN: Superior lightweight alloys replace weapon parts, making weapon less obtrusive and easier to handle. -->
-  <CWE_Trait_MA_UltralightMaterialsIII.description>Unas aleaciones ligeras superiores reemplazan piezas del arma, volviéndola menos aparatosa y más fácil de manejar.</CWE_Trait_MA_UltralightMaterialsIII.description>
-  <!-- EN: Alliance Melee Stunner I -->
-  <CWE_Trait_MA_MeleeStunnerI.label>Aturdidor cuerpo a cuerpo de la Alianza I</CWE_Trait_MA_MeleeStunnerI.label>
-  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
-  <CWE_Trait_MA_MeleeStunnerI.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerI.description>
-  <!-- EN: Alliance Melee Stunner II -->
-  <CWE_Trait_MA_MeleeStunnerII.label>Aturdidor cuerpo a cuerpo de la Alianza II</CWE_Trait_MA_MeleeStunnerII.label>
-  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
-  <CWE_Trait_MA_MeleeStunnerII.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerII.description>
-  <!-- EN: Alliance Melee Stunner III -->
-  <CWE_Trait_MA_MeleeStunnerIII.label>Aturdidor cuerpo a cuerpo de la Alianza III</CWE_Trait_MA_MeleeStunnerIII.label>
-  <!-- EN: Adds a visible stunner beneath the barrel, causing massive damage to meleed targets. -->
-  <CWE_Trait_MA_MeleeStunnerIII.description>Añade un aturdidor visible bajo el cañón, que causa un daño enorme a los objetivos golpeados cuerpo a cuerpo.</CWE_Trait_MA_MeleeStunnerIII.description>
-  <!-- EN: Alliance High-Caliber Barrel I -->
-  <CWE_Trait_MA_HighCaliberBarrelI.label>Cañón de alto calibre de la Alianza I</CWE_Trait_MA_HighCaliberBarrelI.label>
-  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
-  <CWE_Trait_MA_HighCaliberBarrelI.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelI.description>
-  <!-- EN: Alliance High-Caliber Barrel II -->
-  <CWE_Trait_MA_HighCaliberBarrelII.label>Cañón de alto calibre de la Alianza II</CWE_Trait_MA_HighCaliberBarrelII.label>
-  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
-  <CWE_Trait_MA_HighCaliberBarrelII.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelII.description>
-  <!-- EN: Alliance High-Caliber Barrel III -->
-  <CWE_Trait_MA_HighCaliberBarrelIII.label>Cañón de alto calibre de la Alianza III</CWE_Trait_MA_HighCaliberBarrelIII.label>
-  <!-- EN: Allows wider projectiles, causing more trauma on impact. Ballistically optimized to maintain penetrative power. -->
-  <CWE_Trait_MA_HighCaliberBarrelIII.description>Permite proyectiles más anchos, que causan más traumatismo al impactar. Optimizado balísticamente para mantener el poder de penetración.</CWE_Trait_MA_HighCaliberBarrelIII.description>
-  <!-- EN: Alliance Power Magnifier I -->
-  <CWE_Trait_MA_PowerMagnifierI.label>Amplificador de potencia de la Alianza I</CWE_Trait_MA_PowerMagnifierI.label>
-  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
-  <CWE_Trait_MA_PowerMagnifierI.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierI.description>
-  <!-- EN: Alliance Power Magnifier II -->
-  <CWE_Trait_MA_PowerMagnifierII.label>Amplificador de potencia de la Alianza II</CWE_Trait_MA_PowerMagnifierII.label>
-  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
-  <CWE_Trait_MA_PowerMagnifierII.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierII.description>
-  <!-- EN: Alliance Power Magnifier III -->
-  <CWE_Trait_MA_PowerMagnifierIII.label>Amplificador de potencia de la Alianza III</CWE_Trait_MA_PowerMagnifierIII.label>
-  <!-- EN: Places a generator atop the weapon, designed to enhance the effectiveness of tech or biotic attacks. -->
-  <CWE_Trait_MA_PowerMagnifierIII.description>Coloca un generador sobre el arma, diseñado para aumentar la eficacia de los ataques tecnológicos o bióticos.</CWE_Trait_MA_PowerMagnifierIII.description>
-  <!-- EN: Alliance Heat Sink I -->
-  <CWE_Trait_MA_HeatSinkI.label>Disipador térmico de la Alianza I</CWE_Trait_MA_HeatSinkI.label>
-  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
-  <CWE_Trait_MA_HeatSinkI.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkI.description>
-  <!-- EN: Alliance Heat Sink II -->
-  <CWE_Trait_MA_HeatSinkII.label>Disipador térmico de la Alianza II</CWE_Trait_MA_HeatSinkII.label>
-  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
-  <CWE_Trait_MA_HeatSinkII.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkII.description>
-  <!-- EN: Alliance Heat Sink III -->
-  <CWE_Trait_MA_HeatSinkIII.label>Disipador térmico de la Alianza III</CWE_Trait_MA_HeatSinkIII.label>
-  <!-- EN: Increases heat conductivity of thermal clip receiver. Negates heat generated by some shots. -->
-  <CWE_Trait_MA_HeatSinkIII.description>Aumenta la conductividad térmica del receptor de cargadores térmicos. Anula el calor generado por algunos disparos.</CWE_Trait_MA_HeatSinkIII.description>
-  <!-- EN: Alliance Smart Choke I -->
-  <CWE_Trait_MA_SmartChokeI.label>Estrangulador inteligente de la Alianza I</CWE_Trait_MA_SmartChokeI.label>
-  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
-  <CWE_Trait_MA_SmartChokeI.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeI.description>
-  <!-- EN: Alliance Smart Choke II -->
-  <CWE_Trait_MA_SmartChokeII.label>Estrangulador inteligente de la Alianza II</CWE_Trait_MA_SmartChokeII.label>
-  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
-  <CWE_Trait_MA_SmartChokeII.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeII.description>
-  <!-- EN: Alliance Smart Choke III -->
-  <CWE_Trait_MA_SmartChokeIII.label>Estrangulador inteligente de la Alianza III</CWE_Trait_MA_SmartChokeIII.label>
-  <!-- EN: Servo motors hooked up to adjustable system tighten or loosen pellet spread for maximum accuracy. -->
-  <CWE_Trait_MA_SmartChokeIII.description>Unos servomotores conectados a un sistema regulable cierran o abren la dispersión de perdigones para lograr la máxima precisión.</CWE_Trait_MA_SmartChokeIII.description>
-  <!-- EN: Alliance Toxic Ammunition -->
-  <CWE_Trait_MA_AmmoToxic.label>Munición tóxica de la Alianza</CWE_Trait_MA_AmmoToxic.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies toxic buildup. -->
-  <CWE_Trait_MA_AmmoToxic.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica acumulación de toxinas.</CWE_Trait_MA_AmmoToxic.description>
-  <!-- EN: Alliance Piercing Ammunition -->
-  <CWE_Trait_MA_AmmoPiercing.label>Munición perforante de la Alianza</CWE_Trait_MA_AmmoPiercing.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a higher armor penetration. -->
-  <CWE_Trait_MA_AmmoPiercing.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta hace que tu arma tenga mayor penetración de blindaje.</CWE_Trait_MA_AmmoPiercing.description>
-  <!-- EN: Alliance Shredder Ammunition -->
-  <CWE_Trait_MA_AmmoShredder.label>Munición trituradora de la Alianza</CWE_Trait_MA_AmmoShredder.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one makes your weapon have a high damage but a lower armor penetration. -->
-  <CWE_Trait_MA_AmmoShredder.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta hace que tu arma tenga mucho daño pero menor penetración de blindaje.</CWE_Trait_MA_AmmoShredder.description>
-  <!-- EN: Alliance Incendiary Ammunition -->
-  <CWE_Trait_MA_AmmoIncendiary.label>Munición incendiaria de la Alianza</CWE_Trait_MA_AmmoIncendiary.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies fire damage and sets the target on fire. -->
-  <CWE_Trait_MA_AmmoIncendiary.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica daño por fuego y prende fuego al objetivo.</CWE_Trait_MA_AmmoIncendiary.description>
-  <!-- EN: Alliance Explosive Ammunition -->
-  <CWE_Trait_MA_AmmoExplosive.label>Munición explosiva de la Alianza</CWE_Trait_MA_AmmoExplosive.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one is an explosive shot. -->
-  <CWE_Trait_MA_AmmoExplosive.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta es un disparo explosivo.</CWE_Trait_MA_AmmoExplosive.description>
-  <!-- EN: Alliance Disruptor Ammunition -->
-  <CWE_Trait_MA_AmmoDisruptor.label>Munición disruptora de la Alianza</CWE_Trait_MA_AmmoDisruptor.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies EMP damage. -->
-  <CWE_Trait_MA_AmmoDisruptor.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica daño PEM.</CWE_Trait_MA_AmmoDisruptor.description>
-  <!-- EN: Alliance Cryo Ammunition -->
-  <CWE_Trait_MA_AmmoCryo.label>Munición criogénica de la Alianza</CWE_Trait_MA_AmmoCryo.label>
-  <!-- EN: Thermal clips designed to fit almost all mass accelerator weapons. \nThis one applies hypothermia. -->
-  <CWE_Trait_MA_AmmoCryo.description>Cargadores térmicos diseñados para encajar en casi todas las armas de acelerador de masa. \nEsta aplica hipotermia.</CWE_Trait_MA_AmmoCryo.description>
-  <!-- EN: Ion Charge -->
-  <CWE_Trait_Ion_Charge.label>Carga iónica</CWE_Trait_Ion_Charge.label>
-  <!-- EN: Ammo fuled with ion particles, the particles once sufficiently built up, release in an electromagnetic pulse, breaking energy shields and stunning any mechanoid caught in the radius.
-            Ammo for Gauss/Rail guns -->
-  <CWE_Trait_Ion_Charge.description>Munición cargada con partículas de iones; una vez que las partículas se acumulan lo suficiente, se liberan en un pulso electromagnético que rompe escudos de energía y aturde a cualquier mecanoide atrapado en el radio. Munición para armas tipo plasma.</CWE_Trait_Ion_Charge.description>
-  <!-- EN: Marine psychic grenade launcher -->
-  <CWE_Trait_MarinePsychicGrenade_Launcher.label>Lanzagranadas psíquicas marine</CWE_Trait_MarinePsychicGrenade_Launcher.label>
-  <!-- EN: Launch a replica of the psychic grenade derived from the knowledge of the marine lancer. The explosion of the shock wave can disturb the enemy&apos;s psychic nerves, making them dizzy, vomiting, and in severe cases may fall or even die.\n\nDoes not damage friendly or neutral units. -->
-  <CWE_Trait_MarinePsychicGrenade_Launcher.description>Lanza una réplica de la granada psíquica derivada del conocimiento del lancero marine. La explosión de la onda de choque puede perturbar los nervios psíquicos del enemigo, provocándole mareos, vómitos y otros síntomas.</CWE_Trait_MarinePsychicGrenade_Launcher.description>
-  <!-- EN: grenade -->
-  <CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>granada</CWE_Trait_MarinePsychicGrenade_Launcher.abilityProps.chargeNoun>
-  <!-- EN: Micro Missile Launcher -->
-  <CWE_Trait_MicroMissileLauncher.label>Lanzador de micromisiles</CWE_Trait_MicroMissileLauncher.label>
-  <!-- EN: Launch a micro missile to the target location. -->
-  <CWE_Trait_MicroMissileLauncher.description>Lanza un micromisil a la ubicación objetivo.</CWE_Trait_MicroMissileLauncher.description>
-  <!-- EN: micro missiles -->
-  <CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>micromisiles</CWE_Trait_MicroMissileLauncher.abilityProps.chargeNoun>
-  <!-- EN: Singularity Grenade Launcher -->
-  <CWE_Trait_GriefLauncher.label>Lanzagranadas de singularidad</CWE_Trait_GriefLauncher.label>
-  <!-- EN: When it explodes, the &quot;Grief&quot; impact grenade releases a graviton shockwave. Although its damage is low, movement within the grenade’s explosion radius is severely restricted. -->
-  <CWE_Trait_GriefLauncher.description>Al explotar, la granada de impacto "Grief" libera una onda de choque de gravitones. Aunque su daño es bajo, el movimiento dentro del radio de explosión de la granada queda severamente restringido.</CWE_Trait_GriefLauncher.description>
-  <!-- EN: singularity grenades -->
-  <CWE_Trait_GriefLauncher.abilityProps.chargeNoun>granadas de singularidad</CWE_Trait_GriefLauncher.abilityProps.chargeNoun>
-  <!-- EN: Micro Turret Launcher -->
-  <CWE_Trait_MicroTurretLauncher.label>Lanzador de microtorretas</CWE_Trait_MicroTurretLauncher.label>
-  <!-- EN: Launch a micro turret to the target location. -->
-  <CWE_Trait_MicroTurretLauncher.description>Lanza una microtorreta a la ubicación objetivo.</CWE_Trait_MicroTurretLauncher.description>
-  <!-- EN: micro turret -->
-  <CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>microtorreta</CWE_Trait_MicroTurretLauncher.abilityProps.chargeNoun>
-  <!-- EN: Bronze camouflage -->
-  <CWE_Trait_CamoBronze.label>Camuflaje bronce</CWE_Trait_CamoBronze.label>
-  <!-- EN: Change the weapon&apos;s camouflage to bronze. -->
-  <CWE_Trait_CamoBronze.description>Cambia el camuflaje del arma a bronce.</CWE_Trait_CamoBronze.description>
-  <!-- EN: Gold camouflage -->
-  <CWE_Trait_CamoGold.label>Camuflaje dorado</CWE_Trait_CamoGold.label>
-  <!-- EN: Change the weapon&apos;s camouflage to gold. -->
-  <CWE_Trait_CamoGold.description>Cambia el camuflaje del arma a dorado.</CWE_Trait_CamoGold.description>
-  <!-- EN: shortened barrel -->
-  <CWE_Trait_ShortenedBarrel_SLR.label>cañón acortado</CWE_Trait_ShortenedBarrel_SLR.label>
-  <!-- EN: A shortened barrel. It lowers muzzle velocity and range, but the lighter weight and better balance make the weapon faster to aim. -->
-  <CWE_Trait_ShortenedBarrel_SLR.description>Un cañón acortado. Reduce la velocidad de boca y el alcance, pero su menor peso y mejor equilibrio hacen que el arma sea más rápida de apuntar.</CWE_Trait_ShortenedBarrel_SLR.description>
-  <!-- EN: tactical barrel -->
-  <CWE_Trait_TacticalBarrel_SLR.label>cañón táctico</CWE_Trait_TacticalBarrel_SLR.label>
-  <!-- EN: A redesigned barrel built for ergonomics and handling. Its lighter profile reduces weight and makes the weapon quicker to steady. -->
-  <CWE_Trait_TacticalBarrel_SLR.description>Un cañón rediseñado, pensado para la ergonomía y el manejo. Su perfil más liviano reduce el peso y hace que el arma se estabilice más rápido.</CWE_Trait_TacticalBarrel_SLR.description>
-  <!-- EN: Stun Launcher -->
-  <CWE_Trait_CWS_Grenade_launcher.label>Lanzador de aturdimiento</CWE_Trait_CWS_Grenade_launcher.label>
-  <!-- EN: Fires powerful grenade rounds that injure and stun enemies within a wide area. -->
-  <CWE_Trait_CWS_Grenade_launcher.description>Dispara potentes proyectiles de granada que hieren y aturden a los enemigos en un área amplia.</CWE_Trait_CWS_Grenade_launcher.description>
-  <!-- EN: Grenade -->
-  <CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>Granada</CWE_Trait_CWS_Grenade_launcher.abilityProps.chargeNoun>
-  <!-- EN: Shock Slug -->
-  <CWE_Trait_CWS_shock_slug.label>Bala de choque</CWE_Trait_CWS_shock_slug.label>
-  <!-- EN: Fires a powerful round that stuns the target upon impact. -->
-  <CWE_Trait_CWS_shock_slug.description>Dispara un potente proyectil que aturde al objetivo al impactar.</CWE_Trait_CWS_shock_slug.description>
-  <!-- EN: Grenade -->
-  <CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>Granada</CWE_Trait_CWS_shock_slug.abilityProps.chargeNoun>
-  <!-- EN: extended magazine -->
-  <CWE_Trait_ExtendedMagazine_VolleyShotgun.label>cargador extendido</CWE_Trait_ExtendedMagazine_VolleyShotgun.label>
-  <!-- EN: This magazine holds more ammo than the standard version, letting the weapon fire more shots per burst. -->
-  <CWE_Trait_ExtendedMagazine_VolleyShotgun.description>Este cargador contiene más munición que la versión estándar, lo que permite al arma disparar más tiros por ráfaga.</CWE_Trait_ExtendedMagazine_VolleyShotgun.description>
 </LanguageData>

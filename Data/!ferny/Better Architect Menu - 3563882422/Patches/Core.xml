@@ -54,44 +54,4 @@
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/DesignationCategoryDef[defName="Security"]/label</xpath>
-    <value>
-      <!-- EN: Fight -->
-      <label>Combate</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/DesignationCategoryDef[defName="Structure"]/label</xpath>
-    <value>
-      <!-- EN: Build -->
-      <label>Construir</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/DesignationCategoryDef[defName="Production"]/label</xpath>
-    <value>
-      <!-- EN: Make -->
-      <label>Fabricar</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/DesignationCategoryDef[defName="Furniture"]/label</xpath>
-    <value>
-      <!-- EN: Furnish -->
-      <label>Mobiliario</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/DesignationCategoryDef[defName="Ship"]/label</xpath>
-    <value>
-      <!-- EN: Interstellar -->
-      <label>Interestelar</label>
-    </value>
-  </Operation>
 </Patch>

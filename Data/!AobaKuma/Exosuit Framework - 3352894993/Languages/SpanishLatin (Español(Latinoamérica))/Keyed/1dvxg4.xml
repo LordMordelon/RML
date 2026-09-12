@@ -1,5 +1,171 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: Ammo Backpack -->
+  <WG_AmmoBackpack_Title>Mochila de munición</WG_AmmoBackpack_Title>
+  <!-- EN: Ammo Storage Editor -->
+  <WG_AmmoBackpack_EditorTitle>Editor de almacenamiento de munición</WG_AmmoBackpack_EditorTitle>
+  <!-- EN: No compatible weapon -->
+  <WG_AmmoBackpack_NoWeapon>No hay ningún arma compatible</WG_AmmoBackpack_NoWeapon>
+  <!-- EN: Weapon Module: {0} -->
+  <WG_AmmoBackpack_WeaponModule>Módulo de arma: {0}</WG_AmmoBackpack_WeaponModule>
+  <!-- EN: No weapon module -->
+  <WG_AmmoBackpack_NoWeaponModule>Sin módulo de arma</WG_AmmoBackpack_NoWeaponModule>
+  <!-- EN: Select ammo type -->
+  <WG_AmmoBackpack_SelectAmmo>Selecciona el tipo de munición</WG_AmmoBackpack_SelectAmmo>
+  <!-- EN: Weapon Ammo -->
+  <WG_AmmoBackpack_WeaponAmmo>Munición del arma</WG_AmmoBackpack_WeaponAmmo>
+  <!-- EN: Other Ammo -->
+  <WG_AmmoBackpack_OtherAmmo>Otra munición</WG_AmmoBackpack_OtherAmmo>
+  <!-- EN: No ammo selected -->
+  <WG_AmmoBackpack_NoAmmoSelected>No hay munición seleccionada</WG_AmmoBackpack_NoAmmoSelected>
+  <!-- EN: {0}: {1} / {2} -->
+  <WG_AmmoBackpack_AmmoStatus>{0}: {1} / {2}</WG_AmmoBackpack_AmmoStatus>
+  <!-- EN: Mixed: {0} / {1} -->
+  <WG_AmmoBackpack_MixStatus>Mezclada: {0} / {1}</WG_AmmoBackpack_MixStatus>
+  <!-- EN: Available Ammo -->
+  <WG_AmmoBackpack_AvailableAmmo>Munición disponible</WG_AmmoBackpack_AvailableAmmo>
+  <!-- EN: No ammo available -->
+  <WG_AmmoBackpack_NoAmmoAvailable>No hay munición disponible</WG_AmmoBackpack_NoAmmoAvailable>
+  <!-- EN: Load -->
+  <WG_AmmoBackpack_Load>Cargar</WG_AmmoBackpack_Load>
+  <!-- EN: No matching results -->
+  <WG_AmmoBackpack_NoSearchResult>No hay resultados coincidentes</WG_AmmoBackpack_NoSearchResult>
+  <!-- EN: {0}\nMass: {1} kg\nMax Capacity: {2} -->
+  <WG_AmmoBackpack_AmmoTip>{0}\nMasa: {1} kg\nCapacidad máxima: {2}</WG_AmmoBackpack_AmmoTip>
+  <!-- EN: Pending: {0} (unload required) -->
+  <WG_AmmoBackpack_PendingSwitch>Pendiente: {0} (hay que descargar)</WG_AmmoBackpack_PendingSwitch>
+  <!-- EN: Normal -->
+  <WG_AmmoBackpack_NormalMode>Normal</WG_AmmoBackpack_NormalMode>
+  <!-- EN: Mix -->
+  <WG_AmmoBackpack_MixModeBtn>Mezcla</WG_AmmoBackpack_MixModeBtn>
+  <!-- EN: Mixed Belt -->
+  <WG_AmmoBackpack_MixMode>Cinta mezclada</WG_AmmoBackpack_MixMode>
+  <!-- EN: Ratio: {0} -->
+  <WG_AmmoBackpack_MixRatio>Proporción: {0}</WG_AmmoBackpack_MixRatio>
+  <!-- EN: Current Ratio: {0} -->
+  <WG_AmmoBackpack_CurrentRatio>Proporción actual: {0}</WG_AmmoBackpack_CurrentRatio>
+  <!-- EN: + Add Ammo Type -->
+  <WG_AmmoBackpack_AddMixAmmo>+ Añadir tipo de munición</WG_AmmoBackpack_AddMixAmmo>
+  <!-- EN: + Add Slot -->
+  <WG_AmmoBackpack_AddSlot>+ Añadir ranura</WG_AmmoBackpack_AddSlot>
+  <!-- EN: No more ammo available -->
+  <WG_AmmoBackpack_NoMoreAmmo>No hay más munición disponible</WG_AmmoBackpack_NoMoreAmmo>
+  <!-- EN: No mix configured -->
+  <WG_AmmoBackpack_NoMixConfig>No hay ninguna mezcla configurada</WG_AmmoBackpack_NoMixConfig>
+  <!-- EN: Select... -->
+  <WG_AmmoBackpack_SelectType>Seleccionar...</WG_AmmoBackpack_SelectType>
+  <!-- EN: (in use) -->
+  <WG_AmmoBackpack_AlreadyUsed>(en uso)</WG_AmmoBackpack_AlreadyUsed>
+  <!-- EN: Eject Ammo -->
+  <WG_AmmoBackpack_Eject>Expulsar munición</WG_AmmoBackpack_Eject>
+  <!-- EN: Clear Type -->
+  <WG_AmmoBackpack_ClearType>Borrar tipo</WG_AmmoBackpack_ClearType>
+  <!-- EN: Select Ammo Set -->
+  <WG_AmmoBackpack_SelectAmmoSet>Seleccionar conjunto de munición</WG_AmmoBackpack_SelectAmmoSet>
+  <!-- EN: Weapon Ammo Sets -->
+  <WG_AmmoBackpack_WeaponAmmoSet>Conjuntos de munición del arma</WG_AmmoBackpack_WeaponAmmoSet>
+  <!-- EN: Other Ammo Sets -->
+  <WG_AmmoBackpack_OtherAmmoSet>Otros conjuntos de munición</WG_AmmoBackpack_OtherAmmoSet>
+  <!-- EN: Please select ammo set first -->
+  <WG_AmmoBackpack_SelectAmmoSetFirst>Primero selecciona un conjunto de munición</WG_AmmoBackpack_SelectAmmoSetFirst>
+  <!-- EN: No compatible ammo set -->
+  <WG_AmmoBackpack_NoCompatibleAmmoSet>No hay ningún conjunto de munición compatible</WG_AmmoBackpack_NoCompatibleAmmoSet>
+  <!-- EN: Wildcard Mode\nLoads any ammo from the ammo set randomly\nFires random ammo from loaded types -->
+  <WG_AmmoBackpack_WildcardMode>Modo comodín\nCarga al azar cualquier munición del conjunto\nDispara munición aleatoria entre los tipos cargados</WG_AmmoBackpack_WildcardMode>
+  <!-- EN: {0} types -->
+  <WG_AmmoBackpack_WildcardTypes>{0} tipos</WG_AmmoBackpack_WildcardTypes>
+  <!-- EN: Wildcard -->
+  <WG_AmmoBackpack_WildcardEmpty>Comodín</WG_AmmoBackpack_WildcardEmpty>
+  <!-- EN: Save -->
+  <WG_AmmoBackpack_SavePreset>Guardar</WG_AmmoBackpack_SavePreset>
+  <!-- EN: Load -->
+  <WG_AmmoBackpack_LoadPreset>Cargar</WG_AmmoBackpack_LoadPreset>
+  <!-- EN: Save Mix Preset -->
+  <WG_AmmoBackpack_SavePresetTitle>Guardar preajuste de mezcla</WG_AmmoBackpack_SavePresetTitle>
+  <!-- EN: Name: -->
+  <WG_AmmoBackpack_PresetName>Nombre:</WG_AmmoBackpack_PresetName>
+  <!-- EN: Preset -->
+  <WG_AmmoBackpack_PresetDefault>Preajuste</WG_AmmoBackpack_PresetDefault>
+  <!-- EN: Cancel -->
+  <WG_AmmoBackpack_Cancel>Cancelar</WG_AmmoBackpack_Cancel>
+  <!-- EN: Save -->
+  <WG_AmmoBackpack_Save>Guardar</WG_AmmoBackpack_Save>
+  <!-- EN: Preset &quot;{0}&quot; saved -->
+  <WG_AmmoBackpack_PresetSaved>Preajuste "{0}" guardado</WG_AmmoBackpack_PresetSaved>
+  <!-- EN: Failed to save preset -->
+  <WG_AmmoBackpack_PresetSaveFailed>No se pudo guardar el preajuste</WG_AmmoBackpack_PresetSaveFailed>
+  <!-- EN: Preset &quot;{0}&quot; already exists. Overwrite? -->
+  <WG_AmmoBackpack_PresetOverwrite>El preajuste "{0}" ya existe. ¿Sobrescribir?</WG_AmmoBackpack_PresetOverwrite>
+  <!-- EN: No presets saved -->
+  <WG_AmmoBackpack_NoPresets>No hay preajustes guardados</WG_AmmoBackpack_NoPresets>
+  <!-- EN: (need empty) -->
+  <WG_AmmoBackpack_PresetNeedEmpty>(hace falta que esté vacía)</WG_AmmoBackpack_PresetNeedEmpty>
+  <!-- EN: Applied preset &quot;{0}&quot; -->
+  <WG_AmmoBackpack_PresetApplied>Se aplicó el preajuste "{0}"</WG_AmmoBackpack_PresetApplied>
+  <!-- EN: Failed to apply preset -->
+  <WG_AmmoBackpack_PresetApplyFailed>No se pudo aplicar el preajuste</WG_AmmoBackpack_PresetApplyFailed>
+  <!-- EN: Empty preset -->
+  <WG_AmmoBackpack_PresetEmpty>Preajuste vacío</WG_AmmoBackpack_PresetEmpty>
+  <!-- EN: Manage Presets... -->
+  <WG_AmmoBackpack_ManagePresets>Gestionar preajustes...</WG_AmmoBackpack_ManagePresets>
+  <!-- EN: Manage Mix Presets -->
+  <WG_AmmoBackpack_ManagePresetsTitle>Gestionar preajustes de mezcla</WG_AmmoBackpack_ManagePresetsTitle>
+  <!-- EN: Rename -->
+  <WG_AmmoBackpack_Rename>Renombrar</WG_AmmoBackpack_Rename>
+  <!-- EN: Delete -->
+  <WG_AmmoBackpack_Delete>Eliminar</WG_AmmoBackpack_Delete>
+  <!-- EN: Delete preset &quot;{0}&quot;? -->
+  <WG_AmmoBackpack_DeletePresetConfirm>¿Eliminar el preajuste "{0}"?</WG_AmmoBackpack_DeletePresetConfirm>
+  <!-- EN: Name already exists -->
+  <WG_AmmoBackpack_RenameExists>El nombre ya existe</WG_AmmoBackpack_RenameExists>
+  <!-- EN: Preset manager not available -->
+  <WG_AmmoBackpack_NoPresetManager>El gestor de preajustes no está disponible</WG_AmmoBackpack_NoPresetManager>
+  <!-- EN: Global -->
+  <WG_AmmoBackpack_Global>Global</WG_AmmoBackpack_Global>
+  <!-- EN: Backpack -->
+  <WG_AmmoBackpack_MainPack>Mochila</WG_AmmoBackpack_MainPack>
+  <!-- EN: Heavy Pack -->
+  <WG_AmmoBackpack_HeavyPack>Mochila pesada</WG_AmmoBackpack_HeavyPack>
+  <!-- EN: Ammo Box -->
+  <WG_AmmoBackpack_LightBox>Caja de munición</WG_AmmoBackpack_LightBox>
+  <!-- EN: {0} activated -->
+  <WG_AmmoBackpack_Activated>{0} activado</WG_AmmoBackpack_Activated>
+  <!-- EN: Ammo Color Legend: -->
+  <WG_AmmoBackpack_ColorLegend>Leyenda de colores de munición:</WG_AmmoBackpack_ColorLegend>
+  <!-- EN: Yellow -->
+  <WG_AmmoBackpack_ColorYellow>Amarillo</WG_AmmoBackpack_ColorYellow>
+  <!-- EN: Blue -->
+  <WG_AmmoBackpack_ColorBlue>Azul</WG_AmmoBackpack_ColorBlue>
+  <!-- EN: Green -->
+  <WG_AmmoBackpack_ColorGreen>Verde</WG_AmmoBackpack_ColorGreen>
+  <!-- EN: Orange -->
+  <WG_AmmoBackpack_ColorOrange>Naranja</WG_AmmoBackpack_ColorOrange>
+  <!-- EN: Red -->
+  <WG_AmmoBackpack_ColorRed>Rojo</WG_AmmoBackpack_ColorRed>
+  <!-- EN: Gray -->
+  <WG_AmmoBackpack_ColorGray>Gris</WG_AmmoBackpack_ColorGray>
+  <!-- EN: mm RHA -->
+  <WG_Sharp_CE>mm RHA</WG_Sharp_CE>
+  <!-- EN: MPA -->
+  <WG_Blunt_CE>MPA</WG_Blunt_CE>
+  <!-- EN: Turret Ammo -->
+  <WG_TurretAmmo_Label>Munición de la torreta</WG_TurretAmmo_Label>
+  <!-- EN: Ammo: -->
+  <WG_TurretAmmo_Selected>Munición:</WG_TurretAmmo_Selected>
+  <!-- EN: None -->
+  <WG_TurretAmmo_None>Ninguna</WG_TurretAmmo_None>
+  <!-- EN: Allow backpack feed -->
+  <WG_TurretAmmo_AllowBackpack>Permitir alimentación desde la mochila</WG_TurretAmmo_AllowBackpack>
+  <!-- EN: No ammo set configured -->
+  <WG_TurretAmmo_NoAmmoSet>No hay ningún conjunto de munición configurado</WG_TurretAmmo_NoAmmoSet>
+  <!-- EN: No compatible ammo types -->
+  <WG_TurretAmmo_NoCompatible>No hay tipos de munición compatibles</WG_TurretAmmo_NoCompatible>
+  <!-- EN: No ammo loaded -->
+  <WG_TurretAmmo_NoAmmo>No hay munición cargada</WG_TurretAmmo_NoAmmo>
+  <!-- EN: {0}: {1}/{2} -->
+  <WG_TurretAmmo_Status>{0}: {1}/{2}</WG_TurretAmmo_Status>
+  <!-- EN: Backpack feed: Enabled -->
+  <WG_TurretAmmo_BackpackEnabled>Alimentación desde mochila: activada</WG_TurretAmmo_BackpackEnabled>
   <!-- EN: Pilot -->
   <WG_GetIn>Pilotar</WG_GetIn>
   <!-- EN: After leaving the frame, {0} cannot equip and dropped the weapon. -->
@@ -222,170 +388,4 @@
   <WG_GetOffDesc>Ordena a este piloto volver caminando a su bahía de mantenimiento asignada: el exotraje se retira automáticamente al llegar.</WG_GetOffDesc>
   <!-- EN: {0} was depleted and jettisoned from {1}&apos;s exosuit. -->
   <MF_ModuleEjected>{0} se agotó y fue expulsado del exotraje de {1}.</MF_ModuleEjected>
-  <!-- EN: Ammo Backpack -->
-  <WG_AmmoBackpack_Title>Mochila de munición</WG_AmmoBackpack_Title>
-  <!-- EN: Ammo Storage Editor -->
-  <WG_AmmoBackpack_EditorTitle>Editor de almacenamiento de munición</WG_AmmoBackpack_EditorTitle>
-  <!-- EN: No compatible weapon -->
-  <WG_AmmoBackpack_NoWeapon>No hay ningún arma compatible</WG_AmmoBackpack_NoWeapon>
-  <!-- EN: Weapon Module: {0} -->
-  <WG_AmmoBackpack_WeaponModule>Módulo de arma: {0}</WG_AmmoBackpack_WeaponModule>
-  <!-- EN: No weapon module -->
-  <WG_AmmoBackpack_NoWeaponModule>Sin módulo de arma</WG_AmmoBackpack_NoWeaponModule>
-  <!-- EN: Select ammo type -->
-  <WG_AmmoBackpack_SelectAmmo>Selecciona el tipo de munición</WG_AmmoBackpack_SelectAmmo>
-  <!-- EN: Weapon Ammo -->
-  <WG_AmmoBackpack_WeaponAmmo>Munición del arma</WG_AmmoBackpack_WeaponAmmo>
-  <!-- EN: Other Ammo -->
-  <WG_AmmoBackpack_OtherAmmo>Otra munición</WG_AmmoBackpack_OtherAmmo>
-  <!-- EN: No ammo selected -->
-  <WG_AmmoBackpack_NoAmmoSelected>No hay munición seleccionada</WG_AmmoBackpack_NoAmmoSelected>
-  <!-- EN: {0}: {1} / {2} -->
-  <WG_AmmoBackpack_AmmoStatus>{0}: {1} / {2}</WG_AmmoBackpack_AmmoStatus>
-  <!-- EN: Mixed: {0} / {1} -->
-  <WG_AmmoBackpack_MixStatus>Mezclada: {0} / {1}</WG_AmmoBackpack_MixStatus>
-  <!-- EN: Available Ammo -->
-  <WG_AmmoBackpack_AvailableAmmo>Munición disponible</WG_AmmoBackpack_AvailableAmmo>
-  <!-- EN: No ammo available -->
-  <WG_AmmoBackpack_NoAmmoAvailable>No hay munición disponible</WG_AmmoBackpack_NoAmmoAvailable>
-  <!-- EN: Load -->
-  <WG_AmmoBackpack_Load>Cargar</WG_AmmoBackpack_Load>
-  <!-- EN: No matching results -->
-  <WG_AmmoBackpack_NoSearchResult>No hay resultados coincidentes</WG_AmmoBackpack_NoSearchResult>
-  <!-- EN: {0}\nMass: {1} kg\nMax Capacity: {2} -->
-  <WG_AmmoBackpack_AmmoTip>{0}\nMasa: {1} kg\nCapacidad máxima: {2}</WG_AmmoBackpack_AmmoTip>
-  <!-- EN: Pending: {0} (unload required) -->
-  <WG_AmmoBackpack_PendingSwitch>Pendiente: {0} (hay que descargar)</WG_AmmoBackpack_PendingSwitch>
-  <!-- EN: Normal -->
-  <WG_AmmoBackpack_NormalMode>Normal</WG_AmmoBackpack_NormalMode>
-  <!-- EN: Mix -->
-  <WG_AmmoBackpack_MixModeBtn>Mezcla</WG_AmmoBackpack_MixModeBtn>
-  <!-- EN: Mixed Belt -->
-  <WG_AmmoBackpack_MixMode>Cinta mezclada</WG_AmmoBackpack_MixMode>
-  <!-- EN: Ratio: {0} -->
-  <WG_AmmoBackpack_MixRatio>Proporción: {0}</WG_AmmoBackpack_MixRatio>
-  <!-- EN: Current Ratio: {0} -->
-  <WG_AmmoBackpack_CurrentRatio>Proporción actual: {0}</WG_AmmoBackpack_CurrentRatio>
-  <!-- EN: + Add Ammo Type -->
-  <WG_AmmoBackpack_AddMixAmmo>+ Añadir tipo de munición</WG_AmmoBackpack_AddMixAmmo>
-  <!-- EN: + Add Slot -->
-  <WG_AmmoBackpack_AddSlot>+ Añadir ranura</WG_AmmoBackpack_AddSlot>
-  <!-- EN: No more ammo available -->
-  <WG_AmmoBackpack_NoMoreAmmo>No hay más munición disponible</WG_AmmoBackpack_NoMoreAmmo>
-  <!-- EN: No mix configured -->
-  <WG_AmmoBackpack_NoMixConfig>No hay ninguna mezcla configurada</WG_AmmoBackpack_NoMixConfig>
-  <!-- EN: Select... -->
-  <WG_AmmoBackpack_SelectType>Seleccionar...</WG_AmmoBackpack_SelectType>
-  <!-- EN: (in use) -->
-  <WG_AmmoBackpack_AlreadyUsed>(en uso)</WG_AmmoBackpack_AlreadyUsed>
-  <!-- EN: Eject Ammo -->
-  <WG_AmmoBackpack_Eject>Expulsar munición</WG_AmmoBackpack_Eject>
-  <!-- EN: Clear Type -->
-  <WG_AmmoBackpack_ClearType>Borrar tipo</WG_AmmoBackpack_ClearType>
-  <!-- EN: Select Ammo Set -->
-  <WG_AmmoBackpack_SelectAmmoSet>Seleccionar conjunto de munición</WG_AmmoBackpack_SelectAmmoSet>
-  <!-- EN: Weapon Ammo Sets -->
-  <WG_AmmoBackpack_WeaponAmmoSet>Conjuntos de munición del arma</WG_AmmoBackpack_WeaponAmmoSet>
-  <!-- EN: Other Ammo Sets -->
-  <WG_AmmoBackpack_OtherAmmoSet>Otros conjuntos de munición</WG_AmmoBackpack_OtherAmmoSet>
-  <!-- EN: Please select ammo set first -->
-  <WG_AmmoBackpack_SelectAmmoSetFirst>Primero selecciona un conjunto de munición</WG_AmmoBackpack_SelectAmmoSetFirst>
-  <!-- EN: No compatible ammo set -->
-  <WG_AmmoBackpack_NoCompatibleAmmoSet>No hay ningún conjunto de munición compatible</WG_AmmoBackpack_NoCompatibleAmmoSet>
-  <!-- EN: Wildcard Mode\nLoads any ammo from the ammo set randomly\nFires random ammo from loaded types -->
-  <WG_AmmoBackpack_WildcardMode>Modo comodín\nCarga al azar cualquier munición del conjunto\nDispara munición aleatoria entre los tipos cargados</WG_AmmoBackpack_WildcardMode>
-  <!-- EN: {0} types -->
-  <WG_AmmoBackpack_WildcardTypes>{0} tipos</WG_AmmoBackpack_WildcardTypes>
-  <!-- EN: Wildcard -->
-  <WG_AmmoBackpack_WildcardEmpty>Comodín</WG_AmmoBackpack_WildcardEmpty>
-  <!-- EN: Save -->
-  <WG_AmmoBackpack_SavePreset>Guardar</WG_AmmoBackpack_SavePreset>
-  <!-- EN: Load -->
-  <WG_AmmoBackpack_LoadPreset>Cargar</WG_AmmoBackpack_LoadPreset>
-  <!-- EN: Save Mix Preset -->
-  <WG_AmmoBackpack_SavePresetTitle>Guardar preajuste de mezcla</WG_AmmoBackpack_SavePresetTitle>
-  <!-- EN: Name: -->
-  <WG_AmmoBackpack_PresetName>Nombre:</WG_AmmoBackpack_PresetName>
-  <!-- EN: Preset -->
-  <WG_AmmoBackpack_PresetDefault>Preajuste</WG_AmmoBackpack_PresetDefault>
-  <!-- EN: Cancel -->
-  <WG_AmmoBackpack_Cancel>Cancelar</WG_AmmoBackpack_Cancel>
-  <!-- EN: Save -->
-  <WG_AmmoBackpack_Save>Guardar</WG_AmmoBackpack_Save>
-  <!-- EN: Preset &quot;{0}&quot; saved -->
-  <WG_AmmoBackpack_PresetSaved>Preajuste "{0}" guardado</WG_AmmoBackpack_PresetSaved>
-  <!-- EN: Failed to save preset -->
-  <WG_AmmoBackpack_PresetSaveFailed>No se pudo guardar el preajuste</WG_AmmoBackpack_PresetSaveFailed>
-  <!-- EN: Preset &quot;{0}&quot; already exists. Overwrite? -->
-  <WG_AmmoBackpack_PresetOverwrite>El preajuste "{0}" ya existe. ¿Sobrescribir?</WG_AmmoBackpack_PresetOverwrite>
-  <!-- EN: No presets saved -->
-  <WG_AmmoBackpack_NoPresets>No hay preajustes guardados</WG_AmmoBackpack_NoPresets>
-  <!-- EN: (need empty) -->
-  <WG_AmmoBackpack_PresetNeedEmpty>(hace falta que esté vacía)</WG_AmmoBackpack_PresetNeedEmpty>
-  <!-- EN: Applied preset &quot;{0}&quot; -->
-  <WG_AmmoBackpack_PresetApplied>Se aplicó el preajuste "{0}"</WG_AmmoBackpack_PresetApplied>
-  <!-- EN: Failed to apply preset -->
-  <WG_AmmoBackpack_PresetApplyFailed>No se pudo aplicar el preajuste</WG_AmmoBackpack_PresetApplyFailed>
-  <!-- EN: Empty preset -->
-  <WG_AmmoBackpack_PresetEmpty>Preajuste vacío</WG_AmmoBackpack_PresetEmpty>
-  <!-- EN: Manage Presets... -->
-  <WG_AmmoBackpack_ManagePresets>Gestionar preajustes...</WG_AmmoBackpack_ManagePresets>
-  <!-- EN: Manage Mix Presets -->
-  <WG_AmmoBackpack_ManagePresetsTitle>Gestionar preajustes de mezcla</WG_AmmoBackpack_ManagePresetsTitle>
-  <!-- EN: Rename -->
-  <WG_AmmoBackpack_Rename>Renombrar</WG_AmmoBackpack_Rename>
-  <!-- EN: Delete -->
-  <WG_AmmoBackpack_Delete>Eliminar</WG_AmmoBackpack_Delete>
-  <!-- EN: Delete preset &quot;{0}&quot;? -->
-  <WG_AmmoBackpack_DeletePresetConfirm>¿Eliminar el preajuste "{0}"?</WG_AmmoBackpack_DeletePresetConfirm>
-  <!-- EN: Name already exists -->
-  <WG_AmmoBackpack_RenameExists>El nombre ya existe</WG_AmmoBackpack_RenameExists>
-  <!-- EN: Preset manager not available -->
-  <WG_AmmoBackpack_NoPresetManager>El gestor de preajustes no está disponible</WG_AmmoBackpack_NoPresetManager>
-  <!-- EN: Global -->
-  <WG_AmmoBackpack_Global>Global</WG_AmmoBackpack_Global>
-  <!-- EN: Backpack -->
-  <WG_AmmoBackpack_MainPack>Mochila</WG_AmmoBackpack_MainPack>
-  <!-- EN: Heavy Pack -->
-  <WG_AmmoBackpack_HeavyPack>Mochila pesada</WG_AmmoBackpack_HeavyPack>
-  <!-- EN: Ammo Box -->
-  <WG_AmmoBackpack_LightBox>Caja de munición</WG_AmmoBackpack_LightBox>
-  <!-- EN: {0} activated -->
-  <WG_AmmoBackpack_Activated>{0} activado</WG_AmmoBackpack_Activated>
-  <!-- EN: Ammo Color Legend: -->
-  <WG_AmmoBackpack_ColorLegend>Leyenda de colores de munición:</WG_AmmoBackpack_ColorLegend>
-  <!-- EN: Yellow -->
-  <WG_AmmoBackpack_ColorYellow>Amarillo</WG_AmmoBackpack_ColorYellow>
-  <!-- EN: Blue -->
-  <WG_AmmoBackpack_ColorBlue>Azul</WG_AmmoBackpack_ColorBlue>
-  <!-- EN: Green -->
-  <WG_AmmoBackpack_ColorGreen>Verde</WG_AmmoBackpack_ColorGreen>
-  <!-- EN: Orange -->
-  <WG_AmmoBackpack_ColorOrange>Naranja</WG_AmmoBackpack_ColorOrange>
-  <!-- EN: Red -->
-  <WG_AmmoBackpack_ColorRed>Rojo</WG_AmmoBackpack_ColorRed>
-  <!-- EN: Gray -->
-  <WG_AmmoBackpack_ColorGray>Gris</WG_AmmoBackpack_ColorGray>
-  <!-- EN: mm RHA -->
-  <WG_Sharp_CE>mm RHA</WG_Sharp_CE>
-  <!-- EN: MPA -->
-  <WG_Blunt_CE>MPA</WG_Blunt_CE>
-  <!-- EN: Turret Ammo -->
-  <WG_TurretAmmo_Label>Munición de la torreta</WG_TurretAmmo_Label>
-  <!-- EN: Ammo: -->
-  <WG_TurretAmmo_Selected>Munición:</WG_TurretAmmo_Selected>
-  <!-- EN: None -->
-  <WG_TurretAmmo_None>Ninguna</WG_TurretAmmo_None>
-  <!-- EN: Allow backpack feed -->
-  <WG_TurretAmmo_AllowBackpack>Permitir alimentación desde la mochila</WG_TurretAmmo_AllowBackpack>
-  <!-- EN: No ammo set configured -->
-  <WG_TurretAmmo_NoAmmoSet>No hay ningún conjunto de munición configurado</WG_TurretAmmo_NoAmmoSet>
-  <!-- EN: No compatible ammo types -->
-  <WG_TurretAmmo_NoCompatible>No hay tipos de munición compatibles</WG_TurretAmmo_NoCompatible>
-  <!-- EN: No ammo loaded -->
-  <WG_TurretAmmo_NoAmmo>No hay munición cargada</WG_TurretAmmo_NoAmmo>
-  <!-- EN: {0}: {1}/{2} -->
-  <WG_TurretAmmo_Status>{0}: {1}/{2}</WG_TurretAmmo_Status>
-  <!-- EN: Backpack feed: Enabled -->
-  <WG_TurretAmmo_BackpackEnabled>Alimentación desde mochila: activada</WG_TurretAmmo_BackpackEnabled>
 </LanguageData>
