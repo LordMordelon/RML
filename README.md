@@ -30,7 +30,7 @@ Data/<Nombre del mod> - <ID>/   los demás, sueltos
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
   UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
 LoadFolders.xml                 GENERADO — no editar a mano
-ModList.tsv                     GENERADO — índice de qué mods cubre RML
+ModList.tsv                     GENERADO — mods que cubre RML, con link a Steam y fecha del último cambio
 actualizar.cmd                  regenera los dos anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml

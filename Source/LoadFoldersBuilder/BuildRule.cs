@@ -241,34 +241,49 @@ public class BuildRules
         
         // 문자열이 d.d 형식인지 확인하는 정규식 패턴
         Regex FolderNameChecker = new Regex(@"^\d+\.\d+$", RegexOptions.Compiled);
-        
+
+        // Carpeta del mod relativa a la raiz y con /, sin la subcarpeta de version si la hay.
+        string CarpetaDelMod(string LoadPath)
+        {
+            string RelativeLocation = Path.GetRelativePath(Statics.RootPath!, LoadPath);
+
+            string TopLocation = Path.GetFileName(RelativeLocation);
+            int TrimIndex = RelativeLocation.LastIndexOf(TopLocation) - 1;
+            if(FolderNameChecker.IsMatch(TopLocation) && TrimIndex is not -1)
+               RelativeLocation = RelativeLocation.Remove(TrimIndex);
+
+            return RelativeLocation.Replace("\\", "/");
+        }
+
+        var Fechas = UltimosCambios.Calcular(Statics.RootPath!, Rules.Keys.Select(CarpetaDelMod));
+
         foreach (var Pair in Rules)
         {
             var Rule = Pair.Value;
             if (Rule.ModName is not { } ModName) continue;
 
-            string RelativeLocation = Path.GetRelativePath(Statics.RootPath!, Pair.Key);
-            
-            string TopLocation = Path.GetFileName(RelativeLocation);
-            int TrimIndex = RelativeLocation.LastIndexOf(TopLocation) - 1;
-            if(FolderNameChecker.IsMatch(TopLocation) && TrimIndex is not -1)
-               RelativeLocation = RelativeLocation.Remove(TrimIndex);
-            
-            TopLocation = Path.GetFileName(RelativeLocation);
-            TrimIndex = RelativeLocation.LastIndexOf(TopLocation) - 1;
-            RelativeLocation = RelativeLocation.Remove(TrimIndex).Replace("\\", "/");
-            
+            string Carpeta = CarpetaDelMod(Pair.Key);
+            string RelativeLocation = Carpeta.Remove(Carpeta.LastIndexOf('/'));
+
             int hash = 0;
             unchecked
             {
                 hash = ModName.GetHashCode() * 31 + Rule.WorkshopID?.GetHashCode() ?? ModName.GetHashCode();
             }
 
-            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.RepresentativePID}";
+            string Steam = string.IsNullOrEmpty(Rule.WorkshopID)
+                ? ""
+                : $"https://steamcommunity.com/sharedfiles/filedetails/?id={Rule.WorkshopID}";
+            string Fecha = Fechas.GetValueOrDefault(Carpeta, "");
+
+            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.RepresentativePID}\t{Steam}\t{Fecha}";
             ExportList.TryAdd(hash, TextLine);
         }
 
-        return string.Join(Environment.NewLine, ExportList.Values);
+        // Con encabezado: GitHub muestra el .tsv como tabla y toma la primera fila como
+        // titulos, asi que sin esto el primer mod quedaba de encabezado.
+        const string Encabezado = "WorkshopID\tMod\tCarpeta\tPackageID\tSteam\tÚltima actualización";
+        return string.Join(Environment.NewLine, ExportList.Values.Prepend(Encabezado));
     }
 }
 

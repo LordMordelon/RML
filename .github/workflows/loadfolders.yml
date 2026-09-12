@@ -29,8 +29,13 @@ jobs:
       contents: write
 
     steps:
+      # Con el historial completo: ModList.tsv lleva la fecha del último commit que tocó
+      # cada mod, y con el clon superficial de siempre todos quedarían con la fecha del
+      # último commit.
       - name: Clonar el repositorio
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Preparar .NET
         uses: actions/setup-dotnet@v6
