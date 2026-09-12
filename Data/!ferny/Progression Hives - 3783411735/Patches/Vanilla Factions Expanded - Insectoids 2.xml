@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/label</xpath>
+          <value>
+            <!-- EN: insectoid hive -->
+            <label>colmena insectoide</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]/description</xpath>
+          <value>
+            <!-- EN: Collect a mass of insect jelly to create a habitable breeding ground for basic colony-owned insectoids. -->
+            <description>Reúne una masa de jalea de insecto para crear un criadero habitable de insectoides básicos propios de la colonia.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/label</xpath>
+          <value>
+            <!-- EN: sorne hive -->
+            <label>colmena sorne</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]/description</xpath>
+          <value>
+            <!-- EN: Build artificial hives that spawn Sorne geneline insectoids. -->
+            <description>Construye colmenas artificiales que generan insectoides de la línea genética Sorne.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/label</xpath>
+          <value>
+            <!-- EN: chelis hive -->
+            <label>colmena chelis</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/description</xpath>
+          <value>
+            <!-- EN: Build artificial hives that spawn Chelis geneline insectoids. -->
+            <description>Construye colmenas artificiales que generan insectoides de la línea genética Chelis.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Insectoids 2</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackHive"]/label</xpath>
+            <value>
+              <!-- EN: black hive -->
+              <label>colmena negra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackHive"]/description</xpath>
+            <value>
+              <!-- EN: Build artificial hives that spawn black hive insectoids. -->
+              <description>Construye colmenas artificiales que generan insectoides de la colmena negra.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BioMechDisruptor"]/label</xpath>
+            <value>
+              <!-- EN: bio mech disruptor -->
+              <label>perturbador biológico de mecas</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BioMechDisruptor"]/description</xpath>
+            <value>
+              <!-- EN: Grow bio mech disruptors that weaken mechanoids in their radius. -->
+              <description>Cultiva perturbadores biológicos de mecas que debilitan a los mecanoides dentro de su radio.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackCreeper"]/label</xpath>
+            <value>
+              <!-- EN: black creeper -->
+              <label>trepadora negra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackCreeper"]/description</xpath>
+            <value>
+              <!-- EN: Grow black creepers that convert existing creep into black creep. -->
+              <description>Cultiva trepadoras negras que convierten la biomateria existente en biomateria negra.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackDefiler"]/label</xpath>
+            <value>
+              <!-- EN: black defiler -->
+              <label>profanador negro</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackDefiler"]/description</xpath>
+            <value>
+              <!-- EN: Raise black defiler mounds that spit toxic black hive bile. -->
+              <description>Levanta montículos de profanador negro que escupen bilis tóxica de la colmena negra.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackJellyMorpher"]/label</xpath>
+            <value>
+              <!-- EN: black jelly morpher -->
+              <label>transformador de jalea negra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackJellyMorpher"]/description</xpath>
+            <value>
+              <!-- EN: Grow black jelly morphers that refine insect jelly into black insect jelly. -->
+              <description>Cultiva transformadores de jalea negra que refinan la jalea de insecto en jalea de insecto negra.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackJellyWall"]/label</xpath>
+            <value>
+              <!-- EN: black jelly wall -->
+              <label>muro de jalea negra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_BlackJellyWall"]/description</xpath>
+            <value>
+              <!-- EN: Build hardened walls from black insect jelly. -->
+              <description>Construye muros endurecidos hechos de jalea de insecto negra.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_FoamBelcher"]/label</xpath>
+            <value>
+              <!-- EN: foam belcher -->
+              <label>escupeespuma</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_FoamBelcher"]/description</xpath>
+            <value>
+              <!-- EN: Grow foam belchers that spray fire-retardant foam in a cone. -->
+              <description>Cultiva escupeespumas que rocían espuma retardante de fuego en cono.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_FreezePod"]/label</xpath>
+            <value>
+              <!-- EN: freeze pod -->
+              <label>vaina congelante</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_FreezePod"]/description</xpath>
+            <value>
+              <!-- EN: Grow cold-emitting freeze pods from black hive bioforms. -->
+              <description>Cultiva vainas congelantes emisoras de frío a partir de bioformas de la colmena negra.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
