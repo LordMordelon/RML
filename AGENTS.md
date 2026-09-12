@@ -33,7 +33,7 @@ Data/
     <Nombre del mod> - <ID>/
   <Nombre del mod> - <ID>/      los demás, sueltos
 LoadFolders.xml                 GENERADO — no editar a mano
-ModList.tsv                     GENERADO — mods que cubre RML, con link a Steam y fecha del último cambio
+ModList.tsv                     GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 actualizar.cmd                  regenera los dos anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado

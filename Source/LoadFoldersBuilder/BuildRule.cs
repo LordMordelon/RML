@@ -237,8 +237,8 @@ public class BuildRules
      */
     public string ExportModList()
     {
-        var ExportList = new OrderedDictionary<int, string>();
-        
+        var ExportList = new OrderedDictionary<int, (string Linea, string Traduccion, string Nombre)>();
+
         // 문자열이 d.d 형식인지 확인하는 정규식 패턴
         Regex FolderNameChecker = new Regex(@"^\d+\.\d+$", RegexOptions.Compiled);
 
@@ -255,7 +255,10 @@ public class BuildRules
             return RelativeLocation.Replace("\\", "/");
         }
 
-        var Fechas = UltimosCambios.Calcular(Statics.RootPath!, Rules.Keys.Select(CarpetaDelMod));
+        var Traducciones = UltimosCambios.Calcular(Statics.RootPath!, Rules.Keys.Select(CarpetaDelMod));
+        var Actualizaciones = ActualizacionesSteam.Consultar(Rules.Values
+            .Select(Rule => Rule.WorkshopID)
+            .Where(ID => !string.IsNullOrEmpty(ID))!);
 
         foreach (var Pair in Rules)
         {
@@ -274,16 +277,28 @@ public class BuildRules
             string Steam = string.IsNullOrEmpty(Rule.WorkshopID)
                 ? ""
                 : $"https://steamcommunity.com/sharedfiles/filedetails/?id={Rule.WorkshopID}";
-            string Fecha = Fechas.GetValueOrDefault(Carpeta, "");
+            string Actualizacion = string.IsNullOrEmpty(Rule.WorkshopID) ? "" : Actualizaciones.GetValueOrDefault(Rule.WorkshopID, "");
+            string Traduccion = Traducciones.GetValueOrDefault(Carpeta, "");
 
-            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.RepresentativePID}\t{Steam}\t{Fecha}";
-            ExportList.TryAdd(hash, TextLine);
+            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.RepresentativePID}\t{Steam}\t{Actualizacion}\t{Traduccion}";
+            ExportList.TryAdd(hash, (TextLine, Traduccion, ModName));
         }
+
+        // De la traduccion mas reciente a la mas antigua, que es lo que interesa ver primero.
+        // Las fechas yyyy-MM-dd se ordenan bien como texto. El desempate por nombre es para
+        // que dos corridas iguales den el mismo archivo y el diff no baile. Sin fecha, al final.
+        var Ordenadas = ExportList.Values
+            .OrderBy(Fila => Fila.Traduccion.Length is 0)
+            .ThenByDescending(Fila => Fila.Traduccion, StringComparer.Ordinal)
+            .ThenBy(Fila => Fila.Nombre, StringComparer.OrdinalIgnoreCase)
+            .Select(Fila => Fila.Linea);
 
         // Con encabezado: GitHub muestra el .tsv como tabla y toma la primera fila como
         // titulos, asi que sin esto el primer mod quedaba de encabezado.
-        const string Encabezado = "WorkshopID\tMod\tCarpeta\tPackageID\tSteam\tÚltima actualización";
-        return string.Join(Environment.NewLine, ExportList.Values.Prepend(Encabezado));
+        // Ultima actualizacion es la del mod en Steam; ultima traduccion, la del commit en RML.
+        // Si la primera es mas nueva, la traduccion puede haber quedado atrasada.
+        const string Encabezado = "WorkshopID\tMod\tCarpeta\tPackageID\tSteam\tÚltima actualización\tÚltima traducción";
+        return string.Join(Environment.NewLine, Ordenadas.Prepend(Encabezado));
     }
 }
 
