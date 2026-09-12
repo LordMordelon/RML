@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Clonar el repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Armar la carpeta del mod
         run: |
@@ -62,7 +62,7 @@ jobs:
           ls -lh *.zip
 
       - name: Publicar
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: RimWorld-Mod-Latino-*.zip
           generate_release_notes: true
