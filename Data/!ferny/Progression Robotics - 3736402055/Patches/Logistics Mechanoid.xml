@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Logistics Mechanoid</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mech_Logistic"]/label</xpath>
+          <value>
+            <!-- EN: dozer -->
+            <label>buldócer</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Mech_Logistic"]/description</xpath>
+          <value>
+            <!-- EN: A heavy hauling mechanoid built around an armored cargo bay and rugged six-legged frame. Dozers move bulky loads over rough ground, keep colony logistics flowing, and can force their way through danger with hydraulic loading claws and emergency smoke vents.\n\nIt is still a worker mech rather than a dedicated combat platform, but its armor, mass, and utility systems let it survive trouble long enough to finish the job. -->
+            <description>Un mecanoide pesado de transporte construido alrededor de una bahía de carga blindada y una resistente estructura de seis patas. Los buldóceres trasladan cargas voluminosas por terrenos difíciles, mantienen fluida la logística de la colonia y pueden abrirse paso a través del peligro gracias a sus garras de carga hidráulicas y sus respiraderos de humo de emergencia.\n\nSigue siendo un meca de trabajo más que una plataforma de combate dedicada, pero su blindaje, masa y sistemas de utilidad le permiten sobrevivir a los problemas el tiempo suficiente para terminar el trabajo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="Mech_Logistic"]/label</xpath>
+          <value>
+            <!-- EN: dozer -->
+            <label>buldócer</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

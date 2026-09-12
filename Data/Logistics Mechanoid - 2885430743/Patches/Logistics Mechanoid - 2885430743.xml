@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Logistic"]/label</xpath>
+    <value>
+      <!-- EN: gestate logistics mech -->
+      <label>gestar meca logístico</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Logistic"]/description</xpath>
+    <value>
+      <!-- EN: Gestate a logistics mechanoid. -->
+      <description>Gesta un mecanoide logístico.</description>
+    </value>
+  </Operation>
+</Patch>
