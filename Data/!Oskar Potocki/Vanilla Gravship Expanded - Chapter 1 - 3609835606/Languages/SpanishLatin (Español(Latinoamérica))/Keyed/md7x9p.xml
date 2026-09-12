@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: Targeting terminal can only link with gravship artillery. -->
   <VGE_TargetingTerminalCanOnlyLinkWithGravshipArtillery>La terminal de puntería solo puede vincularse con artillería de gravinave.</VGE_TargetingTerminalCanOnlyLinkWithGravshipArtillery>
@@ -26,18 +26,20 @@
   <VGE_LinkWithTurret>Vincular con una torreta</VGE_LinkWithTurret>
   <!-- EN: Select a turret to link with. This targeting terminal will be used to operate that turret. -->
   <VGE_LinkWithTurretDesc>Selecciona una torreta para vincular. Esta terminal de puntería se usará para operar esa torreta.</VGE_LinkWithTurretDesc>
-  <!-- EN: Unlink turret -->
-  <VGE_UnlinkWithTurret>Desvincular torreta</VGE_UnlinkWithTurret>
+  <!-- EN: Unlink {0} -->
+  <VGE_UnlinkWithTurret>Desvincular {0}</VGE_UnlinkWithTurret>
   <!-- EN: Break the current link to a turret, allowing you to link with a different turret. -->
   <VGE_UnlinkWithTurretDesc>Rompe el vínculo actual con una torreta, permitiéndote vincularte con una torreta diferente.</VGE_UnlinkWithTurretDesc>
-  <!-- EN: Select linked turret -->
-  <VGE_SelectLinkedTurret>Seleccionar torreta vinculada</VGE_SelectLinkedTurret>
+  <!-- EN: Select linked {0} -->
+  <VGE_SelectLinkedTurret>Seleccionar {0} vinculada</VGE_SelectLinkedTurret>
   <!-- EN: Show the linked turret. -->
   <VGE_SelectLinkedTurretDesc>Muestra la torreta vinculada.</VGE_SelectLinkedTurretDesc>
   <!-- EN: Gravship artillery needs to target a visible, explored map. -->
   <VGE_GravshipArtilleryNeedsVisibleMap>La artillería de gravinave necesita apuntar a un mapa visible y explorado.</VGE_GravshipArtilleryNeedsVisibleMap>
   <!-- EN: Target is out of range. -->
-  <VGE_GravshipArtilleryOutOfRange>El objetivo está fuera de alcance.</VGE_GravshipArtilleryOutOfRange>
+  <VGE_TargetOutOfRange>El objetivo está fuera de alcance.</VGE_TargetOutOfRange>
+  <!-- EN: Must be aimed using an equipped targeting device. -->
+  <VGE_MustBeAimedViaEquippedTargeter>Debe apuntarse con un dispositivo de puntería equipado.</VGE_MustBeAimedViaEquippedTargeter>
   <!-- EN: Artillery cannot fire in this direction. -->
   <VGE_GravshipArtilleryInvalidFiringMode>La artillería no puede disparar en esta dirección.</VGE_GravshipArtilleryInvalidFiringMode>
   <!-- EN: Artillery cannot fire from planet to space. -->
@@ -198,6 +200,10 @@ Please note that keeping several maps open may affect your performance. -->
   <VGE_SetDesiredMaintenance>Establecer mantenimiento deseado</VGE_SetDesiredMaintenance>
   <!-- EN: Set the desired maintenance for all gravship components on this gravship. Colonists assigned to construction will maintain the structures if they fall below the set level. -->
   <VGE_SetDesiredMaintenanceDesc>Establece el mantenimiento deseado para todos los componentes de esta gravinave. Los colonos asignados a la construcción mantendrán las estructuras si caen por debajo del nivel establecido.</VGE_SetDesiredMaintenanceDesc>
+  <!-- EN: Automatic maintenance -->
+  <VGE_ToggleMaintainBuilding>Mantenimiento automático</VGE_ToggleMaintainBuilding>
+  <!-- EN: This determines whether colonists will automatically maintain this building. -->
+  <VGE_ToggleMaintainBuildingDesc>Determina si los colonos realizarán automáticamente el mantenimiento de este edificio.</VGE_ToggleMaintainBuildingDesc>
   <!-- EN: Estimated gravdata yield: {0} -->
   <VGE_GravdataYieldInfo>Rendimiento estimado de gravidatos: {0}</VGE_GravdataYieldInfo>
   <!-- EN: No gravtech research project selected. Launching will not yield any gravdata. -->
@@ -238,10 +244,6 @@ Please note that keeping several maps open may affect your performance. -->
   <VGE_CooldownRemaining>Enfriamiento restante: {0}</VGE_CooldownRemaining>
   <!-- EN: {0} {1} production completes in: {2}\nRemaining production processes to complete: {3} -->
   <VGE_ResourceProcessorInfo>La producción de {0} {1} se completa en: {2}\nProcesos de producción restantes por completar: {3}</VGE_ResourceProcessorInfo>
-  <!-- EN: stored astrofuel -->
-  <VGE_StoredAstrofuel>astrobustible almacenado</VGE_StoredAstrofuel>
-  <!-- EN: {0} astrofuel per tile -->
-  <VGE_AstrofuelPerTile>{0} de astrobustible por casilla</VGE_AstrofuelPerTile>
   <!-- EN: Astrofire! -->
   <VGE_AstrofireInHomeArea>¡Astrofuego!</VGE_AstrofireInHomeArea>
   <!-- EN: There is an astrofire in the home area. -->
@@ -280,7 +282,7 @@ Please note that keeping several maps open may affect your performance. -->
   <VGE_GrabFloorColor>Tomar color del suelo: {COLOR}</VGE_GrabFloorColor>
   <!-- EN: Select specific color from tile -->
   <VGE_SelectColorFromTile>Seleccionar color específico de casilla</VGE_SelectColorFromTile>
-  <!-- EN: Amongst the remnants of the crashed gravship, a still-intact gravjumper engine hums with energy.\n\nIt is possible to repair the substructure, but various components of the gravship are beyond saving. The engine pushes against gravity, levitating the ship and allowing long-distance travel. By travelling, you may unlock the technology that will give you an opportunity to rebuild these systems and more.\n\nLaunch a gravship by scaling it down, fixing damaged substructure and replacing damaged thrusters and astrofuel tanks. Refine more astrofuel in the biofuel refinery and select a gravtech research project to progress as you travel and stress the grav engine.\n\nLaunching a gravship will give you an option to abandon your current map.\n\n  - Research project completed: Basic gravtech\n  - Flooring unlocked: Gravship substructure\n  - Wall unlocked: Gravship hull\n  - Structures unlocked: Pilot cockpit, Gravjumper engine, Small thruster, Small astrofuel tank, Astrofuel pipe, Astrofuel valve, Astrofuel tap, Astrofuel drain, Grav field extender\n  - Recipe unlocked: Make astrofuel from chemfuel -->
+  <!-- EN: Amongst the remnants of the crashed gravship, a still-intact gravjumper engine hums with energy.\n\nIt is possible to repair the substructure, but various components of the gravship are beyond saving. The engine pushes against gravity, levitating the ship and allowing long-distance travel. By travelling, you may unlock the technology that will give you an opportunity to rebuild these systems and more.\n\nLaunch a gravship by scaling it down, fixing damaged substructure and replacing damaged thrusters and astrofuel tanks. Refine more astrofuel in the biofuel refinery and select a gravtech research project to progress as you travel and stress the grav engine.\n\nLaunching a gravship will give you an option to abandon your current map.\n\n  - Research project completed: Basic gravtech\n  - Flooring unlocked: Gravship substructure\n  - Wall unlocked: Gravship hull\n  - Structures unlocked: Pilot cockpit, Gravjumper engine, Small thruster, Small astrofuel tank, Astrofuel pipe, Astrofuel valve, Astrofuel tap, Astrofuel drain, Grav field extender, Small heatsink\n  - Recipe unlocked: Make astrofuel from chemfuel -->
   <GravEngineInspectedLetterContents>Entre los restos de la gravinave estrellada, un motor de gravisaltador aún intacto zumba con energía.\n\nPuedes construir la subestructura de la gravinave alrededor del motor para crear una nueva gravinave. El motor empuja contra la gravedad, elevando la nave y permitiendo viajes de larga distancia.\n\nLanza una gravinave investigando gravitecnología básica, luego construye tanques de combustible, propulsores y una consola de piloto.\n\nLanzar una gravinave abandonará tu mapa actual a menos que primero construyas un ancla gravitacional.\n\n  - Investigación desbloqueada: gravitecnología básica\n  - Suelo desbloqueado: subestructura de la gravinave</GravEngineInspectedLetterContents>
   <!-- EN: Turn sun lamp on -->
   <VGE_AgrocellSunLampEnable>Encender lámpara solar</VGE_AgrocellSunLampEnable>
@@ -322,10 +324,36 @@ Please note that keeping several maps open may affect your performance. -->
   <VGE_ScannerCluster_LongRangeResource>{RESOURCE} de largo alcance</VGE_ScannerCluster_LongRangeResource>
   <!-- EN: Missing {RESEARCH_label} research -->
   <VGE_ScannerCluster_MissingResearchPrerequisite>Falta investigación de {RESEARCH_label}</VGE_ScannerCluster_MissingResearchPrerequisite>
+  <!-- EN: Fuel -->
+  <VGE_GravshipFuelTab>Combustible</VGE_GravshipFuelTab>
+  <!-- EN: {RESOURCE} thrusters -->
+  <VGE_FuelTab_ThrustersTitle>propulsores de {RESOURCE}</VGE_FuelTab_ThrustersTitle>
+  <!-- EN: connected thrusters -->
+  <VGE_FuelTab_Thrusters>propulsores conectados</VGE_FuelTab_Thrusters>
+  <!-- EN: other fuel -->
+  <VGE_FuelTab_OtherFuelTitle>otro combustible</VGE_FuelTab_OtherFuelTitle>
+  <!-- EN: fuel -->
+  <VGE_FuelTab_OtherFuel>combustible</VGE_FuelTab_OtherFuel>
+  <!-- EN: range -->
+  <VGE_FuelTab_Range>alcance</VGE_FuelTab_Range>
+  <!-- EN: fuel consumption: {COST} {RESOURCE} per tile -->
+  <VGE_FuelTab_UsagePerTile>consumo de combustible: {COST} {RESOURCE} por casilla</VGE_FuelTab_UsagePerTile>
+  <!-- EN: other fuel -->
+  <VGE_OtherFuel>otro combustible</VGE_OtherFuel>
   <!-- EN: Protecting from space solar flare -->
   <VGE_ProtectingFromSpaceSolarFlare>Protegiendo de la llamarada solar espacial</VGE_ProtectingFromSpaceSolarFlare>
   <!-- EN: gravcore tax -->
   <VGE_GravcoreTax>impuesto del núcleo gravitacional</VGE_GravcoreTax>
+  <!-- EN: Permanently disabled (warcomputer destroyed) -->
+  <VGE_PermanentlyDisabled>Desactivado permanentemente (computadora de guerra destruida)</VGE_PermanentlyDisabled>
+  <!-- EN: Choose a starting gravship -->
+  <VGE_ChooseAStartingGravship>Elige una gravinave inicial</VGE_ChooseAStartingGravship>
+  <!-- EN: Choose which gravship you’d like to start the scenario with. Starting resources will be deposited on that gravship. Different gravships may start with different structures. -->
+  <VGE_ChooseAStartingGravshipDesc>Elige con qué gravinave quieres iniciar el escenario. Los recursos iniciales se depositarán en esa gravinave. Distintas gravinaves pueden comenzar con diferentes estructuras.</VGE_ChooseAStartingGravshipDesc>
+  <!-- EN: Source: {0} -->
+  <VGE_SourceMod>Origen: {0}</VGE_SourceMod>
+  <!-- EN: gravship range ({0}) -->
+  <VGE_GravshipRangeCurrentLayer>alcance de gravinave ({0})</VGE_GravshipRangeCurrentLayer>
   <!-- EN: Extract {THINGEXTRACTCOUNT} oxygen canisters -->
   <VGE_ExtractOxygen>Extraer {THINGEXTRACTCOUNT} botes de oxígeno</VGE_ExtractOxygen>
   <!-- EN: Extract {THINGEXTRACTCOUNT} oxygen canisters from the tank. A pawn will come to extract it. -->
@@ -352,4 +380,6 @@ Please note that keeping several maps open may affect your performance. -->
   <VGE_AstrofuelValveDesc>Activa/desactiva el flujo de astrobustible. Un colono vendrá a abrir/cerrar la válvula.</VGE_AstrofuelValveDesc>
   <!-- EN: a valid {THING_label} -->
   <VGE_ValidThing>un {THING_label} válido</VGE_ValidThing>
+  <!-- EN: space -->
+  <TerrainTagSpace>espacio</TerrainTagSpace>
 </LanguageData>

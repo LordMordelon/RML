@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: astrofuel pipe -->
   <VGE_AstrofuelPipe.label>tubería de astrobustible</VGE_AstrofuelPipe.label>
-  <!-- EN: A large pipe for transporting high-grade astrofuel around. Unlike other pipes, it’s big, bulky, acts as cover and can’t be stood on. Astrofuel pipes can’t be placed on workbench interaction spots and in doorways. -->
-  <VGE_AstrofuelPipe.description>Una tubería grande para transportar astrobustible de alta calidad. A diferencia de otras tuberías, es grande, voluminosa, sirve como cobertura y no se puede estar de pie sobre ella. Las tuberías de astrobustible no pueden colocarse en los puntos de interacción de los bancos de trabajo ni en los umbrales de las puertas.</VGE_AstrofuelPipe.description>
+  <!-- EN: A large pipe for transporting high-grade astrofuel around. Unlike other pipes, it’s big, bulky and acts as cover. -->
+  <VGE_AstrofuelPipe.description>Una tubería grande para transportar astrobustible de alta calidad. A diferencia de otras tuberías, es grande, voluminosa y sirve como cobertura.</VGE_AstrofuelPipe.description>
   <!-- EN: hidden astrofuel pipe -->
   <VGE_HiddenAstrofuelPipe.label>tubería de astrobustible oculta</VGE_HiddenAstrofuelPipe.label>
   <!-- EN: A hidden, reinforced tube for transporting high-grade astrofuel around. While it’s not visible, it is much more expensive to construct. -->
@@ -26,8 +26,8 @@
   <VGE_AstrofuelDrain.description>Una estructura de almacenamiento tipo tolva destinada a introducir astrobustible en la red, llenando los tanques conectados.</VGE_AstrofuelDrain.description>
   <!-- EN: astrofuel generator -->
   <VGE_AstrofuelGenerator.label>generador de astrobustible</VGE_AstrofuelGenerator.label>
-  <!-- EN: Produces power by consuming astrofuel. Much more efficient than chemfuel generators. -->
-  <VGE_AstrofuelGenerator.description>Produce energía consumiendo astrobustible. Mucho más eficiente que los generadores de quimbustible.</VGE_AstrofuelGenerator.description>
+  <!-- EN: Produces power by consuming astrofuel. Marginally more efficient than chemfuel generators. -->
+  <VGE_AstrofuelGenerator.description>Produce energía consumiendo astrobustible. Ligeramente más eficiente que los generadores de quimbustible.</VGE_AstrofuelGenerator.description>
   <!-- EN: industrial astrofuel generator -->
   <VGE_IndustrialAstrofuelGenerator.label>generador de astrobustible industrial</VGE_IndustrialAstrofuelGenerator.label>
   <!-- EN: Produces a large amount of power by consuming astrofuel. Much more efficient than chemfuel generators. -->
@@ -122,9 +122,9 @@
   <VGE_GaussGun.label>cañón gauss</VGE_GaussGun.label>
   <!-- EN: A small, single-barrel electromagnetic cannon that launches dense uranium slugs at extreme velocities. Designed for both local bombardments and medium-range engagements, it can also target other gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
   <VGE_GaussGun.description>Un cañón electromagnético pequeño de un solo cañón que lanza proyectiles de uranio densos a velocidades extremas. Diseñado tanto para bombardeos locales como para enfrentamientos de medio alcance, también puede apuntar a otras gravinaves en órbita. Requiere una terminal de puntería vinculada con un operador para funcionar. Extrae energía directamente del motor gravitacional.</VGE_GaussGun.description>
-  <!-- EN: Uranium Slugs -->
+  <!-- EN: Uranium slugs -->
   <VGE_GaussGun.comps.1.fuelLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelLabel>
-  <!-- EN: Uranium Slugs -->
+  <!-- EN: Uranium slugs -->
   <VGE_GaussGun.comps.1.fuelGizmoLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelGizmoLabel>
   <!-- EN: gauss gun -->
   <VGE_Gun_GaussGun.label>cañón gauss</VGE_Gun_GaussGun.label>
@@ -404,8 +404,8 @@
   <VGE_SolarPanelling.description>Produce electricidad a partir de la luz solar. No funciona en la oscuridad ni bajo luz artificial. No obstruye el movimiento ni proporciona cobertura, pero solo puede construirse sobre la subestructura de la gravinave.</VGE_SolarPanelling.description>
   <!-- EN: gravtech console -->
   <VGE_GravtechConsole.label>consola de gravitecnología</VGE_GravtechConsole.label>
-  <!-- EN: An interface used to analyze gravdata gathered from gravship launches and travel. It draws power directly from the grav engine. -->
-  <VGE_GravtechConsole.description>Una interfaz utilizada para analizar los gravidatos recolectados de los lanzamientos y viajes de la gravinave. Extrae energía directamente del motor gravitacional.</VGE_GravtechConsole.description>
+  <!-- EN: An interface used to analyze gravdata gathered from gravship launches and travel. In orbit, gravtech researcher can work the console to generate a continuous stream of gravdata. It draws power directly from the grav engine. -->
+  <VGE_GravtechConsole.description>Una interfaz utilizada para analizar los gravidatos recolectados de los lanzamientos y viajes de la gravinave. En órbita, el gravinvestigador puede trabajar en la consola para generar un flujo continuo de gravidatos. Extrae energía directamente del motor gravitacional.</VGE_GravtechConsole.description>
   <!-- EN: gravship black box -->
   <VGE_GravshipBlackBox.label>caja negra de gravinave</VGE_GravshipBlackBox.label>
   <!-- EN: An indestructible advanced recorder integrated into the gravship’s systems. It greatly increases gravdata yield, captures any overflow that would normally be wasted, and allows stored gravdata to be converted directly into research points. A gravship can support only one black box. -->

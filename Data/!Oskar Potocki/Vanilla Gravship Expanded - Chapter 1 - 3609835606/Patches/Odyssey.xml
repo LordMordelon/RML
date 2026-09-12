@@ -10,6 +10,46 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/label</xpath>
+    <value>
+      <!-- EN: small astrofuel tank -->
+      <label>tanque pequeño de astrobustible</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/description</xpath>
+    <value>
+      <!-- EN: An astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
+      <description>Un tanque de almacenamiento de astrobustible que suministra combustible para los propulsores de una gravinave.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/label</xpath>
+    <value>
+      <!-- EN: large astrofuel tank -->
+      <label>tanque grande de astrobustible</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/description</xpath>
+    <value>
+      <!-- EN: A massive astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
+      <description>Un tanque de almacenamiento de astrobustible masivo que suministra combustible para los propulsores de una gravinave.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GravcorePowerCell"]/description</xpath>
+    <value>
+      <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. Adjacent gravcore power cells will multiply their power output by 15% for each gravcore power cell. -->
+      <description>Un generador de energía que extrae pasivamente una pequeña cantidad de energía de las ondas gravitacionales que atraviesan la gravinave. Las celdas de energía de gravinúcleo adyacentes multiplicarán su producción de energía en un 15% por cada celda de energía de gravinúcleo.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>/Defs/ThingDef[defName="GravFieldExtender"]/description</xpath>
     <value>
       <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine. A gravship can support up to ten grav field extenders. -->
@@ -98,78 +138,6 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/description</xpath>
-    <value>
-      <!-- EN: Refine chemfuel into astrofuel and store it in pressurized tanks. Unlocks the construction of the gravjumper engine, allowing the first steps into gravship travel. -->
-      <description>Refina el quimbustible en astrobustible y almacénalo en tanques presurizados. Desbloquea la construcción del motor gravisaltador, permitiendo los primeros pasos en los viajes con gravinaves.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/description</xpath>
-    <value>
-      <!-- EN: Build vac barriers to protect against depressurization, and orbital scanners to detect locations in space. -->
-      <description>Construye barreras de vacío para proteger contra la despresurización y escáneres orbitales para detectar ubicaciones en el espacio.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/description</xpath>
-    <value>
-      <!-- EN: Unlock gravship engines capable of lifting a colony into orbit. Allows construction of control terminals for new gravship systems such as gravtech research and maintenance. -->
-      <description>Desbloquea motores de gravinaves capaces de elevar una colonia a la órbita. Permite la construcción de terminales de control para nuevos sistemas de gravinaves, como la investigación y el mantenimiento de gravitecnología.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/description</xpath>
-    <value>
-      <!-- EN: Unlock gravhulks, massive gravships capable of supporting entire colonies. Also allows crafting of gravlite panels, essential ultratech material for advanced gravship construction. -->
-      <description>Desbloquea los gravicolosos, gravinaves masivas capaces de soportar colonias enteras. También permite la fabricación de paneles de gravilita, material ultratecnológico esencial para la construcción avanzada de gravinaves.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/label</xpath>
-    <value>
-      <!-- EN: small astrofuel tank -->
-      <label>tanque pequeño de astrobustible</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/description</xpath>
-    <value>
-      <!-- EN: An astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
-      <description>Un tanque de almacenamiento de astrobustible que suministra combustible para los propulsores de una gravinave.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/label</xpath>
-    <value>
-      <!-- EN: large astrofuel tank -->
-      <label>tanque grande de astrobustible</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/description</xpath>
-    <value>
-      <!-- EN: A massive astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
-      <description>Un tanque de almacenamiento de astrobustible masivo que suministra combustible para los propulsores de una gravinave.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="GravcorePowerCell"]/description</xpath>
-    <value>
-      <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. Adjacent gravcore power cells will multiply their power output by 15% for each gravcore power cell. -->
-      <description>Un generador de energía que extrae pasivamente una pequeña cantidad de energía de las ondas gravitacionales que atraviesan la gravinave. Las celdas de energía de gravinúcleo adyacentes multiplicarán su producción de energía en un 15% por cada celda de energía de gravinúcleo.</description>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
     <xpath>/Defs/QuestScriptDef[defName="MechanoidSignal"]/questNameRules/rulesStrings/li[1]</xpath>
     <value>
       <!-- EN: questName-&gt;runaway gravjumper -->
@@ -198,6 +166,38 @@
     <value>
       <!-- EN: gravEngineSpawnedLetterText-&gt;The damaged Trading Guild vessel has crashlanded nearby.\n\nAmidst the wreckage, you spot a functional gravjumper engine: a compact gravity manipulation core used to lift ships from planetary surfaces into orbit. The ship seems badly damaged, and substantial repair will be required.\n\n\n\nInspect the engine to make use of it and unlock the basic gravtech research project. -->
       <li>gravEngineSpawnedLetterText-&gt;La nave dañada del Gremio de Comerciantes se ha estrellado cerca.\n\nEntre los restos, ves un motor de salto gravitacional funcional: un núcleo compacto de manipulación de gravedad utilizado para elevar naves desde superficies planetarias hasta la órbita. La nave parece muy dañada y requerirá una reparación sustancial.\n\n\n\nInspecciona el motor para usarlo y desbloquear el proyecto de investigación de gravitecnología básica.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/description</xpath>
+    <value>
+      <!-- EN: Refine chemfuel into astrofuel and store it in pressurized tanks. Unlocks the construction of the gravjumper engine, allowing the first steps into gravship travel. -->
+      <description>Refina el quimbustible en astrobustible y almacénalo en tanques presurizados. Desbloquea la construcción del motor gravisaltador, permitiendo los primeros pasos en los viajes con gravinaves.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/description</xpath>
+    <value>
+      <!-- EN: Build vac barriers to protect against depressurization, and orbital scanners to detect locations in space. -->
+      <description>Construye barreras de vacío para proteger contra la despresurización y escáneres orbitales para detectar ubicaciones en el espacio.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/description</xpath>
+    <value>
+      <!-- EN: Unlock gravship engines capable of lifting a colony into orbit. Allows construction of control terminals for new gravship systems such as gravtech research and maintenance. -->
+      <description>Desbloquea motores de gravinaves capaces de elevar una colonia a la órbita. Permite la construcción de terminales de control para nuevos sistemas de gravinaves, como la investigación y el mantenimiento de gravitecnología.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/description</xpath>
+    <value>
+      <!-- EN: Unlock gravhulks, massive gravships capable of supporting entire colonies. Also allows crafting of gravlite panels, essential ultratech material for advanced gravship construction. -->
+      <description>Desbloquea los gravicolosos, gravinaves masivas capaces de soportar colonias enteras. También permite la fabricación de paneles de gravilita, material ultratecnológico esencial para la construcción avanzada de gravinaves.</description>
     </value>
   </Operation>
 </Patch>
