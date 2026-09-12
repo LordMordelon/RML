@@ -79,7 +79,11 @@ public static class ModListFormatos
             string Buscar = WebUtility.HtmlEncode($"{Fila.Nombre} {Fila.PackageID}".ToLowerInvariant());
             string Atrasada = Fila.PosiblementeAtrasada ? " data-atrasada" : "";
 
-            FilasHtml.AppendLine($"<tr data-buscar=\"{Buscar}\"{Atrasada}><td data-valor=\"{Nombre}\">{Mod}</td><td class=\"pid\">{WebUtility.HtmlEncode(Fila.PackageID)}</td><td class=\"fecha\">{Fila.Actualizacion}</td><td class=\"fecha\">{Fila.Traduccion}</td></tr>");
+            // El packageId solo se puede cortar en los puntos. Asi la tabla reparte el ancho
+            // segun el contenido y, si no entra, parte "Autor.Mod" en vez de a mitad de palabra.
+            string PackageID = WebUtility.HtmlEncode(Fila.PackageID).Replace(".", ".<wbr>");
+
+            FilasHtml.AppendLine($"<tr data-buscar=\"{Buscar}\"{Atrasada}><td data-valor=\"{Nombre}\">{Mod}</td><td class=\"pid\">{PackageID}</td><td class=\"fecha\">{Fila.Actualizacion}</td><td class=\"fecha\">{Fila.Traduccion}</td></tr>");
         }
 
         int Atrasadas = Filas.Count(Fila => Fila.PosiblementeAtrasada);
@@ -108,7 +112,8 @@ public static class ModListFormatos
             * { box-sizing: border-box; }
             body { margin: 0; padding: 40px 16px 56px; background: var(--fondo); color: var(--texto);
               font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-            main { max-width: 980px; margin: 0 auto; }
+            main { max-width: 1280px; margin: 0 auto; }
+            main > p, .leyenda { max-width: 80ch; }
             h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 8px; }
             p { margin: 0 0 12px; }
             .suave { color: var(--suave); }
@@ -131,7 +136,7 @@ public static class ModListFormatos
             th button::after { content: " ↕"; color: var(--suave); }
             th[aria-sort=ascending] button::after { content: " ↑"; color: var(--texto); }
             th[aria-sort=descending] button::after { content: " ↓"; color: var(--texto); }
-            td.pid { color: var(--suave); font-size: .85em; overflow-wrap: anywhere; }
+            td.pid { color: var(--suave); font-size: .85em; }
             td.fecha { white-space: nowrap; font-variant-numeric: tabular-nums; }
             .atrasada { display: inline-block; margin-left: 4px; padding: 0 7px; border-radius: 999px; font-size: .75em;
               white-space: nowrap; background: var(--aviso-fondo); color: var(--aviso-texto); }
