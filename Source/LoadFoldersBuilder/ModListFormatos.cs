@@ -239,8 +239,9 @@ public static class ModListFormatos
             </html>
             """;
 
-        // Mismos saltos de linea en local y en la CI, sin importar como haya quedado este
-        // archivo al clonarlo: si no, git veria la pagina entera como cambiada.
-        return Pagina.ReplaceLineEndings("\n");
+        // Los saltos de linea del sistema, como en ModList.tsv y ModList.md, y no los que tenga
+        // este .cs segun como se clono. Con LF fijo, en la CI (Windows, checkout con CRLF) git
+        // marcaba la pagina como cambiada sin que hubiera nada que commitear.
+        return Pagina.ReplaceLineEndings();
     }
 }
