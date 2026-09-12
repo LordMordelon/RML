@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ModMetaData>
-    <packageId>LordMordelon.RML.translation</packageId>
-    <name>RimWorld Mod Latino</name>
-    <author>LordMordelon</author>
+    <name>Traducciones [Español Latino]</name>
+    <author>Mordelon</author>
+    <packageId>Mordelon.ModPack.SpanishLatin</packageId>
+    <description>Mod que reúne traducciones al español latinoamericano de mods de RimWorld, con términos y expresiones que buscan ser coherentes con el trasfondo del juego. No incluye el español de España.
 
-<description>Mod que reúne traducciones al español latinoamericano de mods de RimWorld. Cubre 249 mods.
+Cubre 253 mods. La lista completa está en: https://github.com/LordMordelon/RML/blob/master/ModList.tsv
 
 Cada traducción se aplica únicamente si el mod correspondiente está activo, así que puedes tenerlo puesto siempre sin importar qué mods uses en cada partida.
 
@@ -17,7 +17,12 @@ Cada traducción se aplica únicamente si el mod correspondiente está activo, a
 [Idioma]
 Selecciona "SpanishLatin" en las opciones de idioma del juego.
 
-Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWorldKorea/RMK</description>
+[Errores y sugerencias]
+Si encuentras errores o tienes sugerencias, no dudes en avisar. GitHub está más actualizado que el Workshop: https://github.com/LordMordelon/RML
+
+[Créditos]
+- Colaborador: KurvazNumeritos
+- Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWorldKorea/RMK</description>
 
     <supportedVersions>
         <li>1.6</li>
@@ -35,10 +40,7 @@ Basado en la arquitectura de RimWorld Mod Korean (RMK): https://github.com/RimWo
              respeta. Enumerar acá los mods que traen su propia traducción al español
              sería mantener una lista larga que no cambia el resultado. Y si alguna de
              esas traducciones sirve, se extrae y se suma a RML, que es donde se puede
-             actualizar y revisar.
-
-             Antes tenía cinco entradas heredadas de RMK, el proyecto coreano del que
-             deriva este, que apuntaban a mods con traducción al coreano. -->
+             actualizar y revisar. -->
 
     </loadAfter>
 
