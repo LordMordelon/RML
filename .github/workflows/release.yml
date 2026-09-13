@@ -34,7 +34,7 @@ jobs:
       - name: Comprobar que no se colo nada
         run: |
           cd "output/RimWorld Mod Latino"
-          for prohibido in Source .github regenerar-indice.cmd armar-copia-limpia.cmd subir-al-workshop.cmd LoadFolders.Build.Example.yaml README.md; do
+          for prohibido in Source .github 01-regenerar-indice.cmd 02-armar-copia-limpia.cmd 03-subir-al-workshop.cmd LoadFolders.Build.Example.yaml README.md; do
             if [ -e "$prohibido" ]; then
               echo "El zip no puede llevar $prohibido"
               exit 1

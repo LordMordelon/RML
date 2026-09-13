@@ -18,7 +18,7 @@ using YamlDotNet.Serialization.NamingConventions;
 // vean las funciones locales del final.
 //
 // -rutas solo comprueba el arbol de Data/ (ver Rutas.cs) y sale con 1 si hay algo que
-// corregir. Lo usan armar-copia-limpia.cmd y la CI para no publicar un mod que no carga.
+// corregir. Lo usan 02-armar-copia-limpia.cmd y la CI para no publicar un mod que no carga.
 var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas");
 
 {

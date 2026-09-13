@@ -33,9 +33,9 @@ LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
-regenerar-indice.cmd            regenera los anteriores
-armar-copia-limpia.cmd          arma la copia limpia para el Workshop en output/
-subir-al-workshop.cmd           sube esa copia desde el juego sin romper el enlace de Mods\RML
+01-regenerar-indice.cmd         regenera los anteriores
+02-armar-copia-limpia.cmd       arma la copia limpia para el Workshop en output/
+03-subir-al-workshop.cmd        sube esa copia desde el juego sin romper el enlace de Mods\RML (corre el 02)
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 ```
@@ -57,7 +57,7 @@ mueven solas en la siguiente traducción rápida. Si un autor recién llega a cu
 por log: la carpeta la creas tú, y basta con crearla vacía.
 
 **Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
-una traducción rápida, y una GitHub Action lo rehace al hacer push. `regenerar-indice.cmd` es
+una traducción rápida, y una GitHub Action lo rehace al hacer push. `01-regenerar-indice.cmd` es
 para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los dos.
 
 ## Requisitos
@@ -90,7 +90,7 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
 5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
-6. Regenerar el índice con **`regenerar-indice.cmd`** (doble clic). Deja al día
+6. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
    `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
    (`ModList.md`, `ModList.tsv` y la página `docs/index.html`, publicada en
    https://lordmordelon.github.io/RML/) y el `forceLoadAfter` de `About/About.xml`,
@@ -153,8 +153,8 @@ las que traiga cualquier otro mod.
 
 - **GitHub Releases** — etiquetar una versión (`git tag v1.0 && git push --tags`) y la
   Action arma el `.zip` con solo lo que el juego necesita.
-- **Steam Workshop** — con RimWorld cerrado, doble clic en **`subir-al-workshop.cmd`**. Corre
-  `armar-copia-limpia.cmd`, que deja en `output/` una copia limpia del mod, sin `.git`, `Source/` ni
+- **Steam Workshop** — con RimWorld cerrado, doble clic en **`03-subir-al-workshop.cmd`**. Corre
+  `02-armar-copia-limpia.cmd`, que deja en `output/` una copia limpia del mod, sin `.git`, `Source/` ni
   documentación. Después apunta el enlace `Mods\RML` a esa copia y espera: abres el juego,
   subes RML, cierras el juego y presionas una tecla para que el enlace vuelva al repo.
 
@@ -169,7 +169,7 @@ las que traiga cualquier otro mod.
 
 Los dos usan la misma lista de qué entra: `About/`, `Data/`, `LoadFolders.xml`,
 `ModList.tsv` y `LICENSE`. Y los dos comprueban que la copia tenga los mismos archivos
-que el original antes de publicar nada. `armar-copia-limpia.cmd` además corre
+que el original antes de publicar nada. `02-armar-copia-limpia.cmd` además corre
 `LoadFoldersBuilder -rutas` y no arma la copia si alguna ruta, instalada desde el
 Workshop, pasaría el límite de Windows.
 

@@ -2,7 +2,7 @@
 REM Deja una copia limpia del mod en "output\RimWorld Mod Latino", con solo lo que
 REM RimWorld necesita. Es la carpeta que se sube al Workshop: Steam sube la carpeta
 REM tal cual la encuentra, y el repo entero lleva .git y Source con sus binarios.
-REM Para subirla desde el juego, usar subir-al-workshop.cmd, que la llama.
+REM Para subirla desde el juego, usar 03-subir-al-workshop.cmd, que la llama.
 REM
 REM El .zip de GitHub Releases lo arma la Action con esta misma lista. Si cambia
 REM aca, cambiarla alla.
@@ -16,7 +16,7 @@ REM Solo ASCII en este archivo: con chcp 65001, cmd lee corrido un .cmd con salt
 REM LF y caracteres de mas de un byte, y ejecuta pedazos de los comentarios.
 REM
 REM Con /sinpausa no espera una tecla al terminar: es como la llama
-REM subir-al-workshop.cmd.
+REM 03-subir-al-workshop.cmd.
 
 setlocal
 chcp 65001 > nul
@@ -26,7 +26,7 @@ set "PAUSA=pause"
 if /i "%~1"=="/sinpausa" set "PAUSA=rem"
 
 if not exist "LoadFolders.xml" (
-    echo No esta el LoadFolders.xml. Corre regenerar-indice.cmd primero.
+    echo No esta el LoadFolders.xml. Corre 01-regenerar-indice.cmd primero.
     %PAUSA%
     exit /b 1
 )

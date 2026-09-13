@@ -4,7 +4,7 @@ REM
 REM Para probar las traducciones en vivo, Mods\RML es un enlace (junction) a este
 REM repo. Pero RimWorld sube la carpeta tal cual la encuentra, y asi al Workshop iba
 REM todo: .git, Source con sus binarios. Este script arma la copia limpia con
-REM armar-copia-limpia.cmd, apunta el enlace a esa copia mientras se sube desde el
+REM 02-armar-copia-limpia.cmd, apunta el enlace a esa copia mientras se sube desde el
 REM juego, y despues lo devuelve al repo.
 REM
 REM Necesita la variable RIMWORLD_MODS con la carpeta Mods de RimWorld. Se define una
@@ -49,7 +49,7 @@ if errorlevel 1 (
 
 REM Por su ruta y no por el nombre solo: con NoDefaultCurrentDirectoryInExePath
 REM definida, cmd no busca comandos en la carpeta actual y no lo encuentra.
-call "%~dp0armar-copia-limpia.cmd" /sinpausa
+call "%~dp002-armar-copia-limpia.cmd" /sinpausa
 if errorlevel 1 (
     pause
     exit /b 1
