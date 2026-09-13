@@ -98,6 +98,19 @@ los que no están instalados quedan como están.
 2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
    cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `actualizar.cmd`.
 
+   Los regeneran tanto el extractor como la CI, así que después de un push es normal
+   que el remoto traiga un «Regenerar el indice» con lo mismo que acabas de generar en
+   local. Para que traer cambios lo resuelva solo, configurar una vez por clon:
+
+   ```sh
+   git config pull.rebase true        # el commit repetido se descarta solo
+   git config rebase.autoStash true   # sin frenar por cambios sin commitear
+   git config merge.generado.driver true
+   ```
+
+   La última activa el `merge=generado` de `.gitattributes`: si lo generado difiere,
+   queda la versión del remoto en lugar de un conflicto.
+
 3. **No tocar el `UNUSED.xml`.** Guarda las traducciones cuyo nodo desapareció del mod.
    El extractor lo relee en cada actualización, así que si el mod devuelve el nodo a su
    lugar la traducción se recupera sola. Borrarlo pierde ese trabajo de forma definitiva.
