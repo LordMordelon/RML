@@ -16,7 +16,10 @@ using YamlDotNet.Serialization.NamingConventions;
 // incomodo: con la entrada redirigida ReadLine devuelve null, cae en el default
 // del switch y el proceso gira para siempre. Va declarado aca afuera para que lo
 // vean las funciones locales del final.
-var Comando = args.FirstOrDefault(x => x is "-build");
+//
+// -rutas solo comprueba el arbol de Data/ (ver Rutas.cs) y sale con 1 si hay algo que
+// corregir. Lo usan publicar.cmd y la CI para no publicar un mod que no carga.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -29,6 +32,9 @@ var Comando = args.FirstOrDefault(x => x is "-build");
 
     if (Statics.ReadSupportedVersions(Statics.RootPath!) is not true)
         StopProgram(1);
+
+    if (Comando is "-rutas")
+        StopProgram(Rutas.Informar(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-build") goto StartBuild;
 
@@ -60,6 +66,10 @@ var Comando = args.FirstOrDefault(x => x is "-build");
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
     Console.WriteLine("\e[32m폴더 구조 및 필수 파일 확인 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+
+    // Solo avisa: el indice se regenera igual, para no dejar al extractor ni a la CI con uno
+    // viejo. El que frena la publicacion es -rutas.
+    Rutas.Informar(Statics.RootPath!);
     
     // LoadFolders.Build.yaml을 불러들여 BuildRule 타입으로 변환합니다.
     Stopwatch.Restart();

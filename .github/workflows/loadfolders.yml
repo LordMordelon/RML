@@ -84,6 +84,12 @@ jobs:
 
   # Si regenerar no commiteó nada, la página ya está al día: o el push no la tocó, o
   # traía docs/ nuevo y lo publicó pages.yml por su cuenta.
+      # Despues de commitear, para que el indice se regenere igual. Si falla, el push queda
+      # en rojo: hay rutas que instaladas desde el Workshop pasan el limite de Windows (el
+      # juego queda en pantalla negra) o un mod con la carpeta de idioma duplicada.
+      - name: Comprobar rutas de Data
+        run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -rutas
+
   publicar-pagina:
     needs: regenerar
     if: needs.regenerar.outputs.pagina != ''
