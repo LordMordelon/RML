@@ -1,8 +1,8 @@
 @echo off
-REM Deja una copia limpia del mod en "salida\RimWorld Mod Latino", con solo lo que
+REM Deja una copia limpia del mod en "output\RimWorld Mod Latino", con solo lo que
 REM RimWorld necesita. Es la carpeta que se sube al Workshop: Steam sube la carpeta
 REM tal cual la encuentra, y el repo entero lleva .git y Source con sus binarios.
-REM Para subirla desde el juego, usar subir.cmd, que la llama.
+REM Para subirla desde el juego, usar subir-al-workshop.cmd, que la llama.
 REM
 REM El .zip de GitHub Releases lo arma la Action con esta misma lista. Si cambia
 REM aca, cambiarla alla.
@@ -15,7 +15,8 @@ REM
 REM Solo ASCII en este archivo: con chcp 65001, cmd lee corrido un .cmd con saltos
 REM LF y caracteres de mas de un byte, y ejecuta pedazos de los comentarios.
 REM
-REM Con /sinpausa no espera una tecla al terminar: es como la llama subir.cmd.
+REM Con /sinpausa no espera una tecla al terminar: es como la llama
+REM subir-al-workshop.cmd.
 
 setlocal
 chcp 65001 > nul
@@ -25,7 +26,7 @@ set "PAUSA=pause"
 if /i "%~1"=="/sinpausa" set "PAUSA=rem"
 
 if not exist "LoadFolders.xml" (
-    echo No esta el LoadFolders.xml. Corre actualizar.cmd primero.
+    echo No esta el LoadFolders.xml. Corre regenerar-indice.cmd primero.
     %PAUSA%
     exit /b 1
 )
@@ -41,8 +42,8 @@ if errorlevel 1 (
     exit /b 1
 )
 
-set "DESTINO=salida\RimWorld Mod Latino"
-if exist "salida" rmdir /s /q "salida"
+set "DESTINO=output\RimWorld Mod Latino"
+if exist "output" rmdir /s /q "output"
 mkdir "%DESTINO%"
 
 robocopy "About" "%DESTINO%\About" /e /njh /njs /ndl /nc /ns /np > nul

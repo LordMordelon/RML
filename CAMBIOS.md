@@ -36,7 +36,7 @@ genera el extractor, mod por mod.
 olvidarse no daba ningún error: la traducción simplemente no aparecía.
 
 Ahora se rehace en los dos caminos que importan: **el extractor lo corre** al terminar una
-traducción rápida, y **una GitHub Action** lo corre al hacer push. `actualizar.cmd` queda para los
+traducción rápida, y **una GitHub Action** lo corre al hacer push. `regenerar-indice.cmd` queda para los
 cambios hechos a mano.
 
 La Action va en `windows-latest` a propósito: `Statics.cs` arma la ruta como

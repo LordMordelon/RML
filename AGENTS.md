@@ -36,9 +36,9 @@ LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
-actualizar.cmd                  regenera los anteriores
-publicar.cmd                    arma la copia limpia para el Workshop
-subir.cmd                       apunta Mods\RML a esa copia mientras se sube desde el juego
+regenerar-indice.cmd            regenera los anteriores
+armar-copia-limpia.cmd          arma la copia limpia para el Workshop en output/
+subir-al-workshop.cmd           apunta Mods\RML a esa copia mientras se sube desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
 TRADUCIR.md                     guía para colaboradores sin git
@@ -88,11 +88,11 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
    caracteres. RimWorld no los abre y queda en pantalla negra al cargar. En `Mods\RML` la
    ruta es más corta, así que probando en local no se ve. RimWorld acepta el nombre corto
    como nombre legado del idioma. `LoadFoldersBuilder -rutas` lo comprueba contra la ruta
-   del Workshop, y `publicar.cmd` y la CI no dejan pasar una ruta larga ni un mod con las
+   del Workshop, y `armar-copia-limpia.cmd` y la CI no dejan pasar una ruta larga ni un mod con las
    dos carpetas de idioma. Un extractor anterior a este cambio escribe con el nombre largo:
    no correrlo sobre este RML.
 2. **Traducir**, en la planilla `.xlsx` o reemplazando los `TODO` en el XML.
-3. **Regenerar el índice.** Lo hace `actualizar.cmd`, y también el extractor al terminar
+3. **Regenerar el índice.** Lo hace `regenerar-indice.cmd`, y también el extractor al terminar
    una traducción rápida y la GitHub Action al hacer push.
 
 Con «Traducción rápida» marcada, el extractor escribe directamente en `Data/`, conserva
@@ -106,7 +106,7 @@ los que no están instalados quedan como están.
    texto. Tiene la terminología oficial de RimWorld en español. No inventar términos.
 
 2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
-   cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `actualizar.cmd`.
+   cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `regenerar-indice.cmd`.
    En `About/About.xml` lo generado es solo el `<forceLoadAfter>`, con el packageId de cada
    mod de `Data/`: el resto del archivo se edita a mano y el builder no lo toca.
 
@@ -135,17 +135,17 @@ los que no están instalados quedan como están.
    `BuildRuleYaml.cs`, y además el extractor genera estos archivos: ver
    `LoadFoldersBuild.Contents` en el repositorio del extractor.
 
-6. **La carpeta de origen es siempre `Data/`.** Nunca editar `salida/`, que es la copia
-   que arma `publicar.cmd`. Al Workshop se sube esa copia, con `subir.cmd`, y no el repo:
+6. **La carpeta de origen es siempre `Data/`.** Nunca editar `output/`, que es la copia
+   que arma `armar-copia-limpia.cmd`. Al Workshop se sube esa copia, con `subir-al-workshop.cmd`, y no el repo:
    subido tal cual llevaba `.git` y los binarios de `Source/` (57 MB en vez de ~19).
 
 7. **Rutas largas.** Las de `Data/` pasan los 254 caracteres. Usar `robocopy`, no
    `xcopy`, que trunca en silencio: una vez se perdieron 2666 de 3527 archivos sin un
-   solo error. `publicar.cmd` ya lo hace bien y además cuenta los archivos.
+   solo error. `armar-copia-limpia.cmd` ya lo hace bien y además cuenta los archivos.
 
    Y ninguna puede llegar a 260 contando la ruta del Workshop (ver «Cómo se produce una
    traducción»). Un nombre de mod o de carpeta de autor nuevo puede volver a pasarse:
-   `actualizar.cmd` lo avisa en amarillo y la CI queda en rojo.
+   `regenerar-indice.cmd` lo avisa en amarillo y la CI queda en rojo.
 
 8. **Nombres con espacios, `!` y acentos.** Casi todas las rutas de `Data/` los tienen.
    En consola hay que entrecomillar cada ruta por separado; un `git checkout --` con

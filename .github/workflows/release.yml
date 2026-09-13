@@ -24,17 +24,17 @@ jobs:
       - name: Armar la carpeta del mod
         run: |
           # Lo mismo que copia el script local: si esta lista cambia, cambiar las dos.
-          mkdir -p "salida/RimWorld Mod Latino"
-          cp -r About Data LoadFolders.xml ModList.tsv LICENSE "salida/RimWorld Mod Latino/"
+          mkdir -p "output/RimWorld Mod Latino"
+          cp -r About Data LoadFolders.xml ModList.tsv LICENSE "output/RimWorld Mod Latino/"
 
           echo "Contenido:"
-          du -sh "salida/RimWorld Mod Latino"
-          find "salida/RimWorld Mod Latino" -maxdepth 1
+          du -sh "output/RimWorld Mod Latino"
+          find "output/RimWorld Mod Latino" -maxdepth 1
 
       - name: Comprobar que no se colo nada
         run: |
-          cd "salida/RimWorld Mod Latino"
-          for prohibido in Source .github actualizar.cmd LoadFolders.Build.Example.yaml README.md; do
+          cd "output/RimWorld Mod Latino"
+          for prohibido in Source .github regenerar-indice.cmd armar-copia-limpia.cmd subir-al-workshop.cmd LoadFolders.Build.Example.yaml README.md; do
             if [ -e "$prohibido" ]; then
               echo "El zip no puede llevar $prohibido"
               exit 1
@@ -56,7 +56,7 @@ jobs:
 
       - name: Comprimir
         run: |
-          cd salida
+          cd output
           zip -qr "../RimWorld-Mod-Latino-${GITHUB_REF_NAME}.zip" "RimWorld Mod Latino"
           cd ..
           ls -lh *.zip
