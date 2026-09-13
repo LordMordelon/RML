@@ -126,15 +126,10 @@
       </match>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
-    </mods>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
-      </mods>
-      <match Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationSequence" MayRequire="CerebrexNodeUnleashed.Sentinel">
         <success>Always</success>
         <operations>
           <li Class="PatchOperationReplace">
@@ -146,7 +141,7 @@
             </value>
           </li>
         </operations>
-      </match>
-    </match>
+      </li>
+    </operations>
   </Operation>
 </Patch>
