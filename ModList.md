@@ -18,6 +18,7 @@
 | 3648390934 | [EvolvedOrgansRedux](https://steamcommunity.com/sharedfiles/filedetails/?id=3648390934) | Data | StatistNo1.EvolvedOrgansRedux | 2026-07-07 | 2026-09-12 |
 | 3352894993 | [Exosuit Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3352894993) | Data/!AobaKuma | Aoba.Exosuit.Framework | 2026-08-20 | 2026-09-12 |
 | 3498575851 | [Fortified Features Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3498575851) | Data | AOBA.Framework | 2026-09-04 | 2026-09-12 |
+| 3545374124 | [GravTech](https://steamcommunity.com/sharedfiles/filedetails/?id=3545374124) | Data | als.gravtech | 2026-09-12 | 2026-09-12 |
 | 3489491945 | [Lactation Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3489491945) | Data | Euterpe.MilkyTitfuck | 2026-08-01 | 2026-09-12 |
 | 2885430743 | [Logistics Mechanoid](https://steamcommunity.com/sharedfiles/filedetails/?id=2885430743) | Data | Pal5k.LogisticsMechanoid | 2025-07-01 | 2026-09-12 |
 | 3683998684 | [Manipulator Beam Emitter](https://steamcommunity.com/sharedfiles/filedetails/?id=3683998684) | Data | natsuki.manipulatorbeam | 2026-09-11 | 2026-09-12 |
@@ -72,7 +73,6 @@
 | 3546612303 | [Complementary Odyssey](https://steamcommunity.com/sharedfiles/filedetails/?id=3546612303) | Data | MrHydralisk.ComplementaryOdyssey | 2026-08-01 | 2026-09-10 |
 | 3587277884 | [Dlc collaboration - Void universe](https://steamcommunity.com/sharedfiles/filedetails/?id=3587277884) | Data | HaiLuan.VoidUniverse | 2026-09-02 | 2026-09-10 |
 | 3352773112 | [Gene Fabrication](https://steamcommunity.com/sharedfiles/filedetails/?id=3352773112) | Data | AmCh.Eragon.HCGeneFabrication | 2026-08-31 | 2026-09-10 |
-| 3545374124 | [GravTech](https://steamcommunity.com/sharedfiles/filedetails/?id=3545374124) | Data | als.gravtech | 2026-09-12 | 2026-09-10 |
 | 3628174105 | [GravTech - Big cannons](https://steamcommunity.com/sharedfiles/filedetails/?id=3628174105) | Data | als.gravtech.bc | 2026-09-12 | 2026-09-10 |
 | 3332603923 | [Mech Charger Booster](https://steamcommunity.com/sharedfiles/filedetails/?id=3332603923) | Data | AzzyH.MechChargerBooster | 2025-11-02 | 2026-09-10 |
 | 3522497657 | [Persona Mechanoid Pawns 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3522497657) | Data | Pal5k.PersonaMechs2 | 2026-08-29 | 2026-09-10 |
