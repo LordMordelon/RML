@@ -1,0 +1,59 @@
+name: Publicar la página de mods
+
+# Publica docs/ en GitHub Pages solo cuando cambia. Con Pages en "Deploy from a
+# branch", GitHub la volvía a publicar con cada push a master, aunque el push fuera
+# solo una traducción en Data/.
+#
+# Necesita Settings → Pages → Source: "GitHub Actions".
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'docs/**'
+  # Lo llama loadfolders.yml después de commitear el índice regenerado: ese push lo hace
+  # GITHUB_TOKEN, y un push de GITHUB_TOKEN no dispara otros flujos, así que el filtro
+  # de arriba no lo vería.
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit a publicar
+        type: string
+        required: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    # Dos publicaciones a la vez se pisarían: la segunda espera a que termine la primera.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+
+    environment:
+      name: github-pages
+      url: ${{ steps.desplegar.outputs.page_url }}
+
+    steps:
+      # Desde loadfolders.yml, github.sha es el push que lo disparó, anterior al commit
+      # con el índice nuevo; por eso llega el commit a publicar como input.
+      - name: Clonar el repositorio
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+
+      - name: Empaquetar docs/
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+      - name: Publicar
+        id: desplegar
+        uses: actions/deploy-pages@v5

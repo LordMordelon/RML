@@ -45,7 +45,7 @@ CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
-.github/workflows/              loadfolders.yml (índice en push), release.yml (.zip)
+.github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (.zip)
 ```
 
 Y cada carpeta de mod, por dentro:

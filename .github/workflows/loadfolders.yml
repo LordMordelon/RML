@@ -28,6 +28,10 @@ jobs:
     permissions:
       contents: write
 
+    outputs:
+      # El commit a publicar en Pages, o vacío si no hay nada nuevo en docs/.
+      pagina: ${{ steps.commitear.outputs.pagina }}
+
     steps:
       # Con el historial completo: la lista de mods lleva la fecha del último commit que tocó
       # cada mod, y con el clon superficial de siempre todos quedarían con la fecha del
@@ -48,6 +52,7 @@ jobs:
         run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -build
 
       - name: Commitear si cambió algo
+        id: commitear
         shell: bash
         run: |
           if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv ModList.md docs/index.html)" ]; then
@@ -69,3 +74,21 @@ jobs:
 
           git commit -m "Regenerar el indice de LoadFolders [skip ci]"
           git push
+
+          # Un cambio de fecha en Steam puede tocar solo ModList.*: ahí la página ya está bien.
+          if ! git diff --quiet HEAD~1 HEAD -- docs; then
+            echo "pagina=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Si regenerar no commiteó nada, la página ya está al día: o el push no la tocó, o
+  # traía docs/ nuevo y lo publicó pages.yml por su cuenta.
+  publicar-pagina:
+    needs: regenerar
+    if: needs.regenerar.outputs.pagina != ''
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.regenerar.outputs.pagina }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
