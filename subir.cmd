@@ -47,7 +47,9 @@ if errorlevel 1 (
     exit /b 1
 )
 
-call publicar.cmd /sinpausa
+REM Por su ruta y no por el nombre solo: con NoDefaultCurrentDirectoryInExePath
+REM definida, cmd no busca comandos en la carpeta actual y no lo encuentra.
+call "%~dp0publicar.cmd" /sinpausa
 if errorlevel 1 (
     pause
     exit /b 1

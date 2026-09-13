@@ -8,9 +8,12 @@ REM El .zip de GitHub Releases lo arma la Action con esta misma lista. Si cambia
 REM aca, cambiarla alla.
 REM
 REM Se usa robocopy y no xcopy: las rutas de Data pasan los 254 caracteres que
-REM aguanta xcopy —nombre de autor, nombre del mod, la carpeta del idioma— y xcopy
+REM aguanta xcopy (nombre de autor, nombre del mod, la carpeta del idioma) y xcopy
 REM las descarta sin decir nada. La primera version de este script perdia 2666 de
 REM 3527 archivos en silencio.
+REM
+REM Solo ASCII en este archivo: con chcp 65001, cmd lee corrido un .cmd con saltos
+REM LF y caracteres de mas de un byte, y ejecuta pedazos de los comentarios.
 REM
 REM Con /sinpausa no espera una tecla al terminar: es como la llama subir.cmd.
 
