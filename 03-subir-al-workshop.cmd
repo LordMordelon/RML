@@ -1,14 +1,19 @@
 @echo off
-REM Sube al Workshop la copia limpia del mod, y no el repo entero.
+REM Prepara la subida al Workshop: deja al dia la copia liviana de output\ y se
+REM asegura de que Mods\RML enlace a ella. Despues se sube desde el juego.
 REM
-REM Para probar las traducciones en vivo, Mods\RML es un enlace (junction) a este
-REM repo. Pero RimWorld sube la carpeta tal cual la encuentra, y asi al Workshop iba
-REM todo: .git, Source con sus binarios. Este script arma la copia limpia con
-REM 02-armar-copia-limpia.cmd, apunta el enlace a esa copia mientras se sube desde el
-REM juego, y despues lo devuelve al repo.
+REM Mods\RML enlaza (junction) a "output\RimWorld Mod Latino" y no al repo: el juego
+REM carga exactamente lo que se sube, sin .git, Source, UNUSED.xml ni comentarios.
+REM La copia se rehace sola cada vez que se regenera el indice, asi que una
+REM traduccion rapida del extractor se ve en el juego sin hacer nada mas. Un cambio
+REM hecho a mano en Data se ve despues de correr 01-regenerar-indice.cmd.
+REM
+REM La primera vez crea el enlace, o lo cambia si todavia apunta al repo.
 REM
 REM Necesita la variable RIMWORLD_MODS con la carpeta Mods de RimWorld. Se define una
 REM sola vez; asi ninguna ruta de una PC queda escrita en el repo.
+REM
+REM Solo ASCII en este archivo, por lo mismo que 02-armar-copia-limpia.cmd.
 
 setlocal
 chcp 65001 > nul
@@ -26,26 +31,7 @@ if "%RIMWORLD_MODS%"=="" (
 )
 
 set "ENLACE=%RIMWORLD_MODS%\RML"
-set "REPO=%CD%"
 set "COPIA=%CD%\output\RimWorld Mod Latino"
-
-REM Con el juego abierto, RimWorld ya leyo la carpeta vieja y subiria esa.
-tasklist /fi "imagename eq RimWorldWin64.exe" | find /i "RimWorldWin64.exe" > nul
-if not errorlevel 1 (
-    echo Cierra RimWorld antes de empezar.
-    pause
-    exit /b 1
-)
-
-REM rmdir sobre un enlace quita solo el enlace. Sobre una carpeta de verdad la borraria,
-REM asi que si no es un enlace no se toca.
-fsutil reparsepoint query "%ENLACE%" > nul 2>&1
-if errorlevel 1 (
-    echo "%ENLACE%" no existe o no es un enlace. No se toca nada.
-    echo Se crea con:  mklink /J "%ENLACE%" "%REPO%"
-    pause
-    exit /b 1
-)
 
 REM Por su ruta y no por el nombre solo: con NoDefaultCurrentDirectoryInExePath
 REM definida, cmd no busca comandos en la carpeta actual y no lo encuentra.
@@ -55,34 +41,43 @@ if errorlevel 1 (
     exit /b 1
 )
 
-rmdir "%ENLACE%"
+REM Si ya enlaza a la copia, no hay nada que tocar.
+fsutil reparsepoint query "%ENLACE%" 2> nul | find /i "%COPIA%" > nul
+if not errorlevel 1 (
+    echo.
+    echo Mods\RML ya apunta a output. Abre RimWorld y sube RML desde el juego.
+    pause
+    exit /b 0
+)
+
+REM Una carpeta de verdad no se toca: rmdir sobre ella la borraria.
+if exist "%ENLACE%" (
+    fsutil reparsepoint query "%ENLACE%" > nul 2>&1
+    if errorlevel 1 (
+        echo "%ENLACE%" es una carpeta y no un enlace. No se toca nada.
+        echo Muevela a otro lado y vuelve a correr este script.
+        pause
+        exit /b 1
+    )
+)
+
+REM Cambiar el enlace con el juego abierto no sirve: ya leyo la carpeta vieja.
+tasklist /fi "imagename eq RimWorldWin64.exe" | find /i "RimWorldWin64.exe" > nul
+if not errorlevel 1 (
+    echo Mods\RML no apunta a output. Cierra RimWorld para cambiarlo.
+    pause
+    exit /b 1
+)
+
+if exist "%ENLACE%" rmdir "%ENLACE%"
 mklink /J "%ENLACE%" "%COPIA%" > nul
 if errorlevel 1 (
-    echo No se pudo apuntar el enlace a la copia limpia. Se devuelve al repo.
-    mklink /J "%ENLACE%" "%REPO%" > nul
+    echo ERROR: no se pudo crear el enlace. Hazlo a mano con:
+    echo     mklink /J "%ENLACE%" "%COPIA%"
     pause
     exit /b 1
 )
 
 echo.
-echo Mods\RML apunta ahora a la copia limpia.
-echo   1. Abre RimWorld y sube RML desde el juego.
-echo   2. Cierra RimWorld.
-echo   3. Vuelve aca y presiona una tecla para devolver el enlace al repo.
-echo.
-echo No cierres esta ventana: si la cierras, el enlace queda apuntando a la copia.
-pause
-
-rmdir "%ENLACE%"
-mklink /J "%ENLACE%" "%REPO%" > nul
-if errorlevel 1 (
-    echo.
-    echo ERROR: no se pudo devolver el enlace. Rehazlo a mano con:
-    echo     mklink /J "%ENLACE%" "%REPO%"
-    pause
-    exit /b 1
-)
-
-echo.
-echo Listo: Mods\RML vuelve a apuntar al repo.
+echo Mods\RML apunta ahora a output. Abre RimWorld y sube RML desde el juego.
 pause

@@ -37,8 +37,8 @@ docs/index.html                 GENERADO — lista de mods como página web orde
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
 01-regenerar-indice.cmd         regenera los anteriores
-02-armar-copia-limpia.cmd       arma la copia limpia para el Workshop en output/
-03-subir-al-workshop.cmd        apunta Mods\RML a esa copia mientras se sube desde el juego (corre el 02)
+02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
+03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
 TRADUCIR.md                     guía para colaboradores sin git
@@ -135,13 +135,20 @@ los que no están instalados quedan como están.
    `BuildRuleYaml.cs`, y además el extractor genera estos archivos: ver
    `LoadFoldersBuild.Contents` en el repositorio del extractor.
 
-6. **La carpeta de origen es siempre `Data/`.** Nunca editar `output/`, que es la copia
-   que arma `02-armar-copia-limpia.cmd`. Al Workshop se sube esa copia, con `03-subir-al-workshop.cmd`, y no el repo:
-   subido tal cual llevaba `.git` y los binarios de `Source/` (57 MB en vez de ~19).
+6. **La carpeta de origen es siempre `Data/`.** Nunca editar `output/`: se rehace en cada
+   `LoadFoldersBuilder -build` y en `-copia` (`CopiaLimpia.cs`), y lo que se toque ahí se
+   pierde. Es la copia liviana del mod —sin `UNUSED.xml`, `LoadFolders.Build.yaml` ni
+   comentarios en los XML—, y es la que carga el juego: `Mods\RML` enlaza a
+   `output\RimWorld Mod Latino`, no al repo. Por eso un cambio hecho a mano en `Data/` no
+   se ve en el juego hasta regenerar el índice. Al Workshop se sube esa copia; subido el
+   repo tal cual llevaba `.git` y los binarios de `Source/` (57 MB contra 11,5).
 
-7. **Rutas largas.** Las de `Data/` pasan los 254 caracteres. Usar `robocopy`, no
-   `xcopy`, que trunca en silencio: una vez se perdieron 2666 de 3527 archivos sin un
-   solo error. `02-armar-copia-limpia.cmd` ya lo hace bien y además cuenta los archivos.
+   Los comentarios se sacan solo en la copia. En `Data/` el `<!-- EN: ... -->` se queda:
+   es lo que deja revisar las traducciones (ver «Editar XML de traducción»).
+
+7. **Rutas largas.** Las de `Data/` pasan los 254 caracteres. No copiarlas con `xcopy`,
+   que trunca en silencio: una vez se perdieron 2666 de 3527 archivos sin un solo error.
+   `CopiaLimpia` usa .NET, que no tiene ese límite, y además cuenta los archivos.
 
    Y ninguna puede llegar a 260 contando la ruta del Workshop (ver «Cómo se produce una
    traducción»). Un nombre de mod o de carpeta de autor nuevo puede volver a pasarse:

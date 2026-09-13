@@ -18,8 +18,11 @@ using YamlDotNet.Serialization.NamingConventions;
 // vean las funciones locales del final.
 //
 // -rutas solo comprueba el arbol de Data/ (ver Rutas.cs) y sale con 1 si hay algo que
-// corregir. Lo usan 02-armar-copia-limpia.cmd y la CI para no publicar un mod que no carga.
-var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas");
+// corregir. La CI lo usa para no publicar un mod que no carga.
+//
+// -copia comprueba lo mismo y, si esta bien, arma la copia liviana en output/ (ver
+// CopiaLimpia.cs). Lo usa 02-armar-copia-limpia.cmd. -build tambien la arma, al final.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -35,6 +38,9 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas");
 
     if (Comando is "-rutas")
         StopProgram(Rutas.Informar(Statics.RootPath!) ? 0 : 1);
+
+    if (Comando is "-copia")
+        StopProgram(Rutas.Informar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-build") goto StartBuild;
 
@@ -141,6 +147,15 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas");
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
         Console.WriteLine("\e[32mAbout.xml forceLoadAfter 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+
+        // La copia liviana en output/, que es la que carga el juego por Mods\RML. Va al final,
+        // con el LoadFolders.xml y el About.xml ya al dia. Si falla solo avisa: el indice ya
+        // quedo bien escrito.
+        Stopwatch.Restart();
+        CopiaLimpia.Armar(Statics.RootPath!);
+
+        Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+        Console.WriteLine("\e[32moutput 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
         Console.WriteLine("\e[32m작업 완료\x1b[0m");
         Console.WriteLine("총 작업시간 {0:F3}s", TotalRunTime.TotalSeconds);

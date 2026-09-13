@@ -1,16 +1,18 @@
 @echo off
-REM Deja una copia limpia del mod en "output\RimWorld Mod Latino", con solo lo que
-REM RimWorld necesita. Es la carpeta que se sube al Workshop: Steam sube la carpeta
-REM tal cual la encuentra, y el repo entero lleva .git y Source con sus binarios.
-REM Para subirla desde el juego, usar 03-subir-al-workshop.cmd, que la llama.
+REM Deja al dia la copia liviana del mod en "output\RimWorld Mod Latino": la que carga
+REM el juego (Mods\RML enlaza ahi) y la que se sube al Workshop.
 REM
-REM El .zip de GitHub Releases lo arma la Action con esta misma lista. Si cambia
-REM aca, cambiarla alla.
+REM Normalmente no hace falta correrlo: 01-regenerar-indice.cmd y el extractor, al
+REM regenerar el indice, ya dejan la copia al dia. 03-subir-al-workshop.cmd lo corre
+REM igual antes de subir, por las dudas.
 REM
-REM Se usa robocopy y no xcopy: las rutas de Data pasan los 254 caracteres que
-REM aguanta xcopy (nombre de autor, nombre del mod, la carpeta del idioma) y xcopy
-REM las descarta sin decir nada. La primera version de este script perdia 2666 de
-REM 3527 archivos en silencio.
+REM Lo hace LoadFoldersBuilder -copia (Source\LoadFoldersBuilder\CopiaLimpia.cs):
+REM   - Solo About, Data, LoadFolders.xml, ModList.tsv y LICENSE.
+REM   - Sin UNUSED.xml ni LoadFolders.Build.yaml, que el juego no lee.
+REM   - Los XML sin comentarios: el original en ingles sirve en el repo, no al jugador.
+REM   - Antes comprueba que ninguna ruta pase el limite de Windows instalada desde el
+REM     Workshop (si pasa, el juego queda en pantalla negra) y no copia nada si pasa.
+REM   - Despues comprueba que la copia tenga todos los archivos.
 REM
 REM Solo ASCII en este archivo: con chcp 65001, cmd lee corrido un .cmd con saltos
 REM LF y caracteres de mas de un byte, y ejecuta pedazos de los comentarios.
@@ -25,52 +27,15 @@ cd /d "%~dp0"
 set "PAUSA=pause"
 if /i "%~1"=="/sinpausa" set "PAUSA=rem"
 
-if not exist "LoadFolders.xml" (
-    echo No esta el LoadFolders.xml. Corre 01-regenerar-indice.cmd primero.
-    %PAUSA%
-    exit /b 1
-)
-
-REM Que ninguna ruta pase el limite de Windows instalada desde el Workshop. Si pasa,
-REM el mod deja el juego en pantalla negra a quien tenga Steam en su carpeta por
-REM defecto, y en esta PC no se nota. Ver Source\LoadFoldersBuilder\Rutas.cs.
-dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -rutas
+dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -copia
 if errorlevel 1 (
     echo.
-    echo ERROR: hay rutas que corregir antes de publicar. La lista esta arriba.
-    %PAUSA%
-    exit /b 1
-)
-
-set "DESTINO=output\RimWorld Mod Latino"
-if exist "output" rmdir /s /q "output"
-mkdir "%DESTINO%"
-
-robocopy "About" "%DESTINO%\About" /e /njh /njs /ndl /nc /ns /np > nul
-robocopy "Data"  "%DESTINO%\Data"  /e /njh /njs /ndl /nc /ns /np > nul
-if %errorlevel% geq 8 (
-    echo Fallo la copia de Data.
-    %PAUSA%
-    exit /b 1
-)
-
-copy "LoadFolders.xml" "%DESTINO%\" > nul
-copy "ModList.tsv"     "%DESTINO%\" > nul
-copy "LICENSE"         "%DESTINO%\" > nul
-
-REM Que la copia tenga los mismos archivos que el origen. Sin esto, una copia
-REM incompleta se publica igual y el mod sale con traducciones faltantes.
-for /f %%A in ('dir /s /b /a-d "Data" ^| find /c /v ""') do set ORIGEN=%%A
-for /f %%A in ('dir /s /b /a-d "%DESTINO%\Data" ^| find /c /v ""') do set COPIA=%%A
-
-if not "%ORIGEN%"=="%COPIA%" (
-    echo.
-    echo ERROR: se copiaron %COPIA% archivos de %ORIGEN%. La copia esta incompleta.
+    echo ERROR: no se armo la copia. El motivo esta arriba.
     %PAUSA%
     exit /b 1
 )
 
 echo.
-echo Listo: %DESTINO%   ^(%COPIA% archivos^)
+echo Listo: output\RimWorld Mod Latino
 %PAUSA%
 exit /b 0

@@ -34,8 +34,8 @@ docs/index.html                 GENERADO — lista de mods como página web orde
 ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
 01-regenerar-indice.cmd         regenera los anteriores
-02-armar-copia-limpia.cmd       arma la copia limpia para el Workshop en output/
-03-subir-al-workshop.cmd        sube esa copia desde el juego sin romper el enlace de Mods\RML (corre el 02)
+02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
+03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 ```
@@ -143,8 +143,20 @@ estable, así que codificarlos sólo perdería esa información.
 
 ## Instalar para probar
 
-Enlazar o copiar este repositorio dentro de la carpeta `Mods/` de RimWorld,
-activarlo **último** en la lista de mods y elegir el idioma `SpanishLatin`.
+Enlazar `output\RimWorld Mod Latino` dentro de la carpeta `Mods/` de RimWorld,
+activarlo **último** en la lista de mods y elegir el idioma `SpanishLatin`. El enlace lo
+crea `03-subir-al-workshop.cmd` la primera vez (ver «Publicar»), o a mano:
+
+```
+mklink /J "D:\SteamLibrary\steamapps\common\RimWorld\Mods\RML" "<repo>\output\RimWorld Mod Latino"
+```
+
+Se enlaza `output` y no el repo: es la copia liviana, la misma que se sube al Workshop
+—sin `.git`, `Source/`, `UNUSED.xml`, `LoadFolders.Build.yaml` ni los comentarios de los
+XML—, así que en el juego se prueba exactamente lo que se publica. Se rehace sola cada vez
+que se regenera el índice: una traducción rápida del extractor se ve en el juego sin hacer
+nada más. **Un cambio hecho a mano en `Data/` no se ve hasta correr
+`01-regenerar-indice.cmd`.**
 
 Activarlo último no es un detalle: es lo que hace que sus traducciones le ganen a
 las que traiga cualquier otro mod.
@@ -153,10 +165,11 @@ las que traiga cualquier otro mod.
 
 - **GitHub Releases** — etiquetar una versión (`git tag v1.0 && git push --tags`) y la
   Action arma el `.zip` con solo lo que el juego necesita.
-- **Steam Workshop** — con RimWorld cerrado, doble clic en **`03-subir-al-workshop.cmd`**. Corre
-  `02-armar-copia-limpia.cmd`, que deja en `output/` una copia limpia del mod, sin `.git`, `Source/` ni
-  documentación. Después apunta el enlace `Mods\RML` a esa copia y espera: abres el juego,
-  subes RML, cierras el juego y presionas una tecla para que el enlace vuelva al repo.
+- **Steam Workshop** — doble clic en **`03-subir-al-workshop.cmd`**. Corre
+  `02-armar-copia-limpia.cmd`, que deja al día la copia liviana de `output/`, y se
+  asegura de que `Mods\RML` enlace a ella: si no existe lo crea, y si todavía apunta al
+  repo lo cambia (para eso RimWorld tiene que estar cerrado). Después abres el juego y
+  subes RML.
 
   Necesita, una sola vez, la variable con la carpeta Mods de RimWorld:
 
@@ -164,14 +177,14 @@ las que traiga cualquier otro mod.
   setx RIMWORLD_MODS "D:\SteamLibrary\steamapps\common\RimWorld\Mods"
   ```
 
-  y que `Mods\RML` sea un enlace al repo (`mklink /J`). Si es una carpeta de verdad, no la
-  toca.
+  Si `Mods\RML` es una carpeta de verdad y no un enlace, no la toca.
 
-Los dos usan la misma lista de qué entra: `About/`, `Data/`, `LoadFolders.xml`,
-`ModList.tsv` y `LICENSE`. Y los dos comprueban que la copia tenga los mismos archivos
-que el original antes de publicar nada. `02-armar-copia-limpia.cmd` además corre
-`LoadFoldersBuilder -rutas` y no arma la copia si alguna ruta, instalada desde el
-Workshop, pasaría el límite de Windows.
+La copia de `output/` la arma `LoadFoldersBuilder -copia` (`CopiaLimpia.cs`): comprueba que
+ninguna ruta, instalada desde el Workshop, pase el límite de Windows, y que no falte ningún
+archivo. Pesa unos 11,5 MB contra los 19 de copiar `About/` y `Data/` tal cual.
+
+El `.zip` de GitHub Releases todavía se arma con `cp` en la Action, sin quitar los
+`UNUSED.xml` ni los comentarios: el builder no corre en Linux (ver CAMBIOS.md).
 
 Falta un `Preview.png` en `About/` para que el Workshop tenga imagen de portada.
 
