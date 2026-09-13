@@ -27,7 +27,7 @@ archivos —y no solo su contenido— el cambio va allá, no acá.
 ## Estructura
 
 ```
-About/About.xml                 metadatos del mod. supportedVersions: 1.6
+About/About.xml                 metadatos del mod. supportedVersions: 1.6. Su forceLoadAfter es GENERADO
 Data/
   !<Autor>/                     autores con 4 o más mods; el ! los fija arriba
     <Nombre del mod> - <ID>/
@@ -97,6 +97,8 @@ los que no están instalados quedan como están.
 
 2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
    cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `actualizar.cmd`.
+   En `About/About.xml` lo generado es solo el `<forceLoadAfter>`, con el packageId de cada
+   mod de `Data/`: el resto del archivo se edita a mano y el builder no lo toca.
 
    Los regeneran tanto el extractor como la CI, así que después de un push es normal
    que el remoto traiga un «Regenerar el indice» con lo mismo que acabas de generar en

@@ -20,7 +20,7 @@ Lo que sigue en este README es la documentación del **mantenedor** del proyecto
 ## Cómo está organizado
 
 ```
-About/About.xml                 metadatos del mod y supportedVersions
+About/About.xml                 metadatos del mod, supportedVersions y forceLoadAfter (GENERADO)
 Data/!<Autor>/                  autores con 4 o más mods; el ! los fija arriba
   <Nombre del mod> - <ID>/
 Data/<Nombre del mod> - <ID>/   los demás, sueltos
@@ -89,9 +89,10 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
 6. Regenerar el índice con **`actualizar.cmd`** (doble clic). Deja al día
-   `LoadFolders.xml`, que es lo que hace que el mod cargue, y la lista de mods
+   `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
    (`ModList.md`, `ModList.tsv` y la página `docs/index.html`, publicada en
-   https://lordmordelon.github.io/RML/).
+   https://lordmordelon.github.io/RML/) y el `forceLoadAfter` de `About/About.xml`,
+   que hace que RML cargue después de cada mod que traduce.
 7. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
 No hace falta hacer nada si el mod trae su propia traducción al español: RML va último

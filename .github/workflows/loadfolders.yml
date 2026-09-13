@@ -13,7 +13,9 @@ on:
     paths:
       # A propósito no están LoadFolders.xml, ModList.* ni docs/: son justo los archivos
       # que escribe este flujo, y si estuvieran acá su propio commit lo volvería a
-      # disparar.
+      # disparar. About.xml sí, porque su supportedVersions es una entrada; que el flujo
+      # también escriba su forceLoadAfter no hace bucle, porque el push con GITHUB_TOKEN
+      # no dispara flujos.
       - 'Data/**'
       - 'About/About.xml'
       - 'Source/LoadFoldersBuilder/**'
@@ -55,14 +57,14 @@ jobs:
         id: commitear
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv ModList.md docs/index.html)" ]; then
+          if [ -z "$(git status --porcelain LoadFolders.xml ModList.tsv ModList.md docs/index.html About/About.xml)" ]; then
             echo "El índice ya estaba al día."
             exit 0
           fi
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add LoadFolders.xml ModList.tsv ModList.md docs/index.html
+          git add LoadFolders.xml ModList.tsv ModList.md docs/index.html About/About.xml
 
           # git status puede marcar un archivo que solo difiere en los saltos de línea; al
           # agregarlo se normaliza y no queda nada. Sin esto, git commit falla y el flujo

@@ -124,7 +124,14 @@ var Comando = args.FirstOrDefault(x => x is "-build");
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
         Console.WriteLine("\e[32mModList.tsv, ModList.md, docs/index.html 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
-        
+
+        // El forceLoadAfter de About.xml, para que RML cargue despues de cada mod que traduce.
+        Stopwatch.Restart();
+        OrdenDeCarga.Actualizar(Statics.RootPath!, FilteredRules.Rules.Values.SelectMany(Rule => Rule.PackageID));
+
+        Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+        Console.WriteLine("\e[32mAbout.xml forceLoadAfter 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+
         Console.WriteLine("\e[32m작업 완료\x1b[0m");
         Console.WriteLine("총 작업시간 {0:F3}s", TotalRunTime.TotalSeconds);
     }
