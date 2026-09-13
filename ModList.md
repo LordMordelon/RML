@@ -19,6 +19,7 @@
 | 3352894993 | [Exosuit Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3352894993) | Data/!AobaKuma | Aoba.Exosuit.Framework | 2026-08-20 | 2026-09-12 |
 | 3498575851 | [Fortified Features Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3498575851) | Data | AOBA.Framework | 2026-09-04 | 2026-09-12 |
 | 3545374124 | [GravTech](https://steamcommunity.com/sharedfiles/filedetails/?id=3545374124) | Data | als.gravtech | 2026-09-12 | 2026-09-12 |
+| 3509486825 | [Hospitality (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825) | Data | Orion.Hospitality | 2026-09-08 | 2026-09-12 |
 | 3489491945 | [Lactation Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3489491945) | Data | Euterpe.MilkyTitfuck | 2026-08-01 | 2026-09-12 |
 | 2885430743 | [Logistics Mechanoid](https://steamcommunity.com/sharedfiles/filedetails/?id=2885430743) | Data | Pal5k.LogisticsMechanoid | 2025-07-01 | 2026-09-12 |
 | 3683998684 | [Manipulator Beam Emitter](https://steamcommunity.com/sharedfiles/filedetails/?id=3683998684) | Data | natsuki.manipulatorbeam | 2026-09-11 | 2026-09-12 |
@@ -188,7 +189,6 @@
 | 3662641911 | [GratefulRefugees](https://steamcommunity.com/sharedfiles/filedetails/?id=3662641911) | Data | cocoapebbles.gratefulrefugees | 2026-02-15 | 2026-09-07 |
 | 3530404957 | [Gravship Launch Info](https://steamcommunity.com/sharedfiles/filedetails/?id=3530404957) | Data | epicduck.rimworld.gravshipinfo | 2025-07-28 | 2026-09-07 |
 | 2992224079 | [Hospital](https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079) | Data | Adamas.Hospital | 2026-08-01 | 2026-09-07 |
-| 3509486825 | [Hospitality (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825) | Data | Orion.Hospitality | 2026-09-08 | 2026-09-07 |
 | 3541847288 | [Hyper Roll](https://steamcommunity.com/sharedfiles/filedetails/?id=3541847288) | Data | AW.HyperRoll | 2025-08-26 | 2026-09-07 |
 | 3551887989 | [Independent Trash bin](https://steamcommunity.com/sharedfiles/filedetails/?id=3551887989) | Data/!AobaKuma | Aoba.Trashbin | 2025-12-04 | 2026-09-07 |
 | 1701592470 | [Level Up!](https://steamcommunity.com/sharedfiles/filedetails/?id=1701592470) | Data | Krafs.LevelUp | 2026-07-05 | 2026-09-07 |
