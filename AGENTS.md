@@ -38,6 +38,7 @@ ModList.md                      GENERADO — mods que cubre RML, con link a Stea
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
 actualizar.cmd                  regenera los anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
+subir.cmd                       apunta Mods\RML a esa copia mientras se sube desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
 TRADUCIR.md                     guía para colaboradores sin git
@@ -52,7 +53,7 @@ Y cada carpeta de mod, por dentro:
 
 ```
 <Nombre del mod> - <ID>/
-  Languages/SpanishLatin (Español(Latinoamérica))/
+  Languages/SpanishLatin/
     DefInjected/  Keyed/  Strings/
   Patches/                    <- fuera de Languages, a la par
   LoadFolders.Build.yaml
@@ -79,8 +80,17 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
 ## Cómo se produce una traducción
 
 1. **Extraer** el mod con el extractor, con idioma de destino
-   `SpanishLatin (Español(Latinoamérica))`. El nombre de la carpeta de idioma es exacto:
-   ni `SpanishLatin` solo ni `Spanish`.
+   `SpanishLatin (Español(Latinoamérica))`. La carpeta que escribe se llama
+   `Languages/SpanishLatin`, sin el paréntesis, y no `Spanish`, que es el castellano.
+
+   El nombre corto es a propósito. Con el largo, RML instalado desde el Workshop con Steam
+   en su carpeta por defecto (74 caracteres de ruta base) tenía archivos de más de 260
+   caracteres. RimWorld no los abre y queda en pantalla negra al cargar. En `Mods\RML` la
+   ruta es más corta, así que probando en local no se ve. RimWorld acepta el nombre corto
+   como nombre legado del idioma. `LoadFoldersBuilder -rutas` lo comprueba contra la ruta
+   del Workshop, y `publicar.cmd` y la CI no dejan pasar una ruta larga ni un mod con las
+   dos carpetas de idioma. Un extractor anterior a este cambio escribe con el nombre largo:
+   no correrlo sobre este RML.
 2. **Traducir**, en la planilla `.xlsx` o reemplazando los `TODO` en el XML.
 3. **Regenerar el índice.** Lo hace `actualizar.cmd`, y también el extractor al terminar
    una traducción rápida y la GitHub Action al hacer push.
@@ -126,11 +136,16 @@ los que no están instalados quedan como están.
    `LoadFoldersBuild.Contents` en el repositorio del extractor.
 
 6. **La carpeta de origen es siempre `Data/`.** Nunca editar `salida/`, que es la copia
-   que arma `publicar.cmd`.
+   que arma `publicar.cmd`. Al Workshop se sube esa copia, con `subir.cmd`, y no el repo:
+   subido tal cual llevaba `.git` y los binarios de `Source/` (57 MB en vez de ~19).
 
 7. **Rutas largas.** Las de `Data/` pasan los 254 caracteres. Usar `robocopy`, no
    `xcopy`, que trunca en silencio: una vez se perdieron 2666 de 3527 archivos sin un
    solo error. `publicar.cmd` ya lo hace bien y además cuenta los archivos.
+
+   Y ninguna puede llegar a 260 contando la ruta del Workshop (ver «Cómo se produce una
+   traducción»). Un nombre de mod o de carpeta de autor nuevo puede volver a pasarse:
+   `actualizar.cmd` lo avisa en amarillo y la CI queda en rojo.
 
 8. **Nombres con espacios, `!` y acentos.** Casi todas las rutas de `Data/` los tienen.
    En consola hay que entrecomillar cada ruta por separado; un `git checkout --` con

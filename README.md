@@ -24,7 +24,7 @@ About/About.xml                 metadatos del mod, supportedVersions y forceLoad
 Data/!<Autor>/                  autores con 4 o más mods; el ! los fija arriba
   <Nombre del mod> - <ID>/
 Data/<Nombre del mod> - <ID>/   los demás, sueltos
-  Languages/SpanishLatin (Español(Latinoamérica))/
+  Languages/SpanishLatin/       nombre corto a propósito: ver AGENTS.md
     Keyed/ DefInjected/ Strings/
   Patches/                      fuera de Languages, a la par
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
@@ -35,6 +35,7 @@ ModList.md                      GENERADO — mods que cubre RML, con link a Stea
 ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
 actualizar.cmd                  regenera los anteriores
 publicar.cmd                    arma la copia limpia para el Workshop
+subir.cmd                       sube esa copia desde el juego sin romper el enlace de Mods\RML
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 ```
@@ -84,7 +85,8 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
 2. Traducir en la planilla `.xlsx`.
 3. Convertir XLSX → XML con el propio extractor.
 4. Copiar el resultado a `Data/<Nombre del mod> - <WorkshopID>/`, verificando que
-   quede `Languages/SpanishLatin (Español(Latinoamérica))/…`.
+   quede `Languages/SpanishLatin/…`, con el nombre corto: con el largo, instalado desde el
+   Workshop algunas rutas pasan el límite de Windows y el juego queda en pantalla negra.
 5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
@@ -151,13 +153,25 @@ las que traiga cualquier otro mod.
 
 - **GitHub Releases** — etiquetar una versión (`git tag v1.0 && git push --tags`) y la
   Action arma el `.zip` con solo lo que el juego necesita.
-- **Steam Workshop** — doble clic en **`publicar.cmd`**. Deja en `salida/` una copia
-  limpia del mod, sin `Source/` ni documentación, para copiar a `Mods/` y subirla desde
-  el juego.
+- **Steam Workshop** — con RimWorld cerrado, doble clic en **`subir.cmd`**. Corre
+  `publicar.cmd`, que deja en `salida/` una copia limpia del mod, sin `.git`, `Source/` ni
+  documentación. Después apunta el enlace `Mods\RML` a esa copia y espera: abres el juego,
+  subes RML, cierras el juego y presionas una tecla para que el enlace vuelva al repo.
+
+  Necesita, una sola vez, la variable con la carpeta Mods de RimWorld:
+
+  ```
+  setx RIMWORLD_MODS "D:\SteamLibrary\steamapps\common\RimWorld\Mods"
+  ```
+
+  y que `Mods\RML` sea un enlace al repo (`mklink /J`). Si es una carpeta de verdad, no la
+  toca.
 
 Los dos usan la misma lista de qué entra: `About/`, `Data/`, `LoadFolders.xml`,
 `ModList.tsv` y `LICENSE`. Y los dos comprueban que la copia tenga los mismos archivos
-que el original antes de publicar nada.
+que el original antes de publicar nada. `publicar.cmd` además corre
+`LoadFoldersBuilder -rutas` y no arma la copia si alguna ruta, instalada desde el
+Workshop, pasaría el límite de Windows.
 
 Falta un `Preview.png` en `About/` para que el Workshop tenga imagen de portada.
 
