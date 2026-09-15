@@ -3,6 +3,5 @@
 # cuanto llega un push que toque Data/. El driver "generado" se define por clon, ver
 # AGENTS.md; sin eso git hace el merge de siempre y marca el conflicto.
 LoadFolders.xml  merge=generado
-ModList.md       merge=generado
 ModList.tsv      merge=generado
 docs/index.html  merge=generado

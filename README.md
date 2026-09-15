@@ -31,8 +31,7 @@ Data/<Nombre del mod> - <ID>/   los demás, sueltos
   UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
-ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
-ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
+ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
@@ -92,7 +91,7 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
 6. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
    `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
-   (`ModList.md`, `ModList.tsv` y la página `docs/index.html`, publicada en
+   (`ModList.tsv` y la página `docs/index.html`, publicada en
    https://lordmordelon.github.io/RML/) y el `forceLoadAfter` de `About/About.xml`,
    que hace que RML cargue después de cada mod que traduce.
 7. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.

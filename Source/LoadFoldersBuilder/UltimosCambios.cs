@@ -4,7 +4,7 @@ using System.Text;
 namespace LoadFoldersBuilder;
 
 /** Fecha del ultimo cambio de cada mod, sacada del historial de git.
- *  Solo sirve para la lista de mods (ModList.md y .tsv): no interviene en la carga.
+ *  Solo sirve para la lista de mods (ModList.tsv y docs/index.html): no interviene en la carga.
  */
 public static class UltimosCambios
 {

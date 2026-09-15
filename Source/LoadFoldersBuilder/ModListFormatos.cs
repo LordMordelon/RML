@@ -1,10 +1,9 @@
 using System.Net;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace LoadFoldersBuilder;
 
-/** Las tres formas en que se publica la lista de mods. Todas salen de las mismas filas, ya
+/** Las dos formas en que se publica la lista de mods. Las dos salen de las mismas filas, ya
  *  ordenadas de la traduccion mas reciente a la mas antigua.
  */
 public static class ModListFormatos
@@ -22,42 +21,8 @@ public static class ModListFormatos
             .Prepend(Encabezado));
     }
 
-    /** ModList.md: la lista vista desde GitHub. Un .tsv no admite links; aca el nombre del mod
-     *  lleva a su pagina de Steam sin sumar una columna con la URL entera.
-     */
-    public static string Markdown(List<FilaDeModList> Filas)
-    {
-        var Texto = new StringBuilder();
-        Texto.AppendLine("<!-- GENERADO por Source/LoadFoldersBuilder: no editar a mano. -->");
-        Texto.AppendLine();
-        Texto.AppendLine("# Mods traducidos");
-        Texto.AppendLine();
-        Texto.AppendLine($"{Filas.Count} mods, de la traducción más reciente a la más antigua. El nombre de cada mod lleva a su página en Steam.");
-        Texto.AppendLine();
-        Texto.AppendLine("- **Última actualización:** cuándo el autor actualizó el mod en Steam.");
-        Texto.AppendLine("- **Última traducción:** el último cambio de la traducción en RML. Si es anterior a la última actualización, la traducción puede haber quedado atrasada.");
-        Texto.AppendLine();
-        Texto.AppendLine("| WorkshopID | Mod | Carpeta | PackageID | Última actualización | Última traducción |");
-        Texto.AppendLine("|---|---|---|---|---|---|");
-
-        foreach (var Fila in Filas)
-        {
-            string Mod = Fila.Steam is { } Steam
-                ? $"[{EscaparMarkdown(Fila.Nombre)}]({Steam})"
-                : EscaparMarkdown(Fila.Nombre);
-
-            Texto.AppendLine($"| {EscaparMarkdown(Fila.WorkshopID ?? "No ID")} | {Mod} | {EscaparMarkdown(Fila.Carpeta)} | {EscaparMarkdown(Fila.PackageID)} | {Fila.Actualizacion} | {Fila.Traduccion} |");
-        }
-
-        return Texto.ToString();
-    }
-
-    /** Nombres como "[sbz] Fridge" o con | romperian el link o la tabla, y un * o _ los pondria en cursiva. */
-    private static string EscaparMarkdown(string Texto)
-        => Regex.Replace(Texto, @"[\\`*_\[\]<>|]", Coincidencia => "\\" + Coincidencia.Value);
-
     /** docs/index.html: la lista para quien llega desde Steam, publicada con GitHub Pages.
-     *  Se ordena por columna y se filtra, cosa que ni el .md ni el .tsv permiten dentro de GitHub.
+     *  Se ordena por columna y se filtra, cosa que el .tsv no permite dentro de GitHub.
      *
      *  Autocontenida a proposito: sin CDN ni librerias, para que no se rompa sola con el tiempo.
      *  La tabla va entera en el HTML (se ve aunque no haya JS) y una fila por linea, asi el diff
@@ -244,7 +209,7 @@ public static class ModListFormatos
             </html>
             """;
 
-        // Los saltos de linea del sistema, como en ModList.tsv y ModList.md, y no los que tenga
+        // Los saltos de linea del sistema, como en ModList.tsv, y no los que tenga
         // este .cs segun como se clono. Con LF fijo, en la CI (Windows, checkout con CRLF) git
         // marcaba la pagina como cambiada sin que hubiera nada que commitear.
         return Pagina.ReplaceLineEndings();

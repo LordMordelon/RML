@@ -293,7 +293,7 @@ public class BuildRules
     }
 }
 
-/** Un mod de la lista, con lo que se escribe en ModList.tsv, ModList.md y docs/index.html. */
+/** Un mod de la lista, con lo que se escribe en ModList.tsv y docs/index.html. */
 public record FilaDeModList(string? WorkshopID, string Nombre, string Carpeta, string PackageID, string Actualizacion, string Traduccion)
 {
     public string? Steam => string.IsNullOrEmpty(WorkshopID) ? null : $"https://steamcommunity.com/sharedfiles/filedetails/?id={WorkshopID}";

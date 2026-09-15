@@ -3,7 +3,7 @@ using System.Text.Json;
 namespace LoadFoldersBuilder;
 
 /** Fecha de la ultima actualizacion de cada mod en el Workshop, sacada de la API publica de Steam.
- *  Solo sirve para la lista de mods (ModList.md y .tsv): no interviene en la carga.
+ *  Solo sirve para la lista de mods (ModList.tsv y docs/index.html): no interviene en la carga.
  */
 public static class ActualizacionesSteam
 {

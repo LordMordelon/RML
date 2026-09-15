@@ -34,8 +34,7 @@ Data/
   <Nombre del mod> - <ID>/      los demás, sueltos
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
-ModList.md                      GENERADO — mods que cubre RML, con link a Steam, fecha de actualización del mod y de la traducción
-ModList.tsv                     GENERADO — los mismos datos en texto plano, sin links
+ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
@@ -105,7 +104,7 @@ los que no están instalados quedan como están.
 1. **El glosario manda.** Revisar [GLOSARIO.md](GLOSARIO.md) antes de traducir cualquier
    texto. Tiene la terminología oficial de RimWorld en español. No inventar términos.
 
-2. **No editar lo generado.** `LoadFolders.xml`, `ModList.md`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
+2. **No editar lo generado.** `LoadFolders.xml`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
    cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `01-regenerar-indice.cmd`.
    En `About/About.xml` lo generado es solo el `<forceLoadAfter>`, con el packageId de cada
    mod de `Data/`: el resto del archivo se edita a mano y el builder no lo toca.
