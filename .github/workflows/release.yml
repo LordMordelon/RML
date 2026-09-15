@@ -84,13 +84,71 @@ jobs:
 
           mods=$(tail -n +2 "$copia/ModList.tsv" | grep -c .)
 
+          # Las carpetas de mod de un commit con el id de su árbol: Data/<mod> o Data/!<autor>/<mod>.
+          carpetas() {
+            git -c core.quotepath=off ls-tree -r -d "$1" -- Data | awk -F'\t' '{
+              n = split($2, p, "/"); split($1, m, " ")
+              if ((n == 2 && p[2] !~ /^!/) || (n == 3 && p[2] ~ /^!/)) print p[n] "\t" m[3]
+            }'
+          }
+          # WorkshopID -> nombre del mod, de la ModList.tsv de un commit.
+          nombres() {
+            git show "$1:ModList.tsv" | awk -F'\t' 'NR > 1 && $1 != "No ID" {print $1 "\t" $2}'
+          }
+
+          # Qué mods cambiaron desde la release anterior: 1 nuevo, 2 actualizado, 3 quitado.
+          # Se comparan por nombre de carpeta y no por ruta, porque el Agrupador las mueve a
+          # Data/!<autor>; con el mismo árbol, un mod que solo se movió no cuenta como actualizado.
+          resumen=""
+          if [ -n "$anterior" ]; then
+            resumen=$(awk -F'\t' '
+              function nombre(carpeta, mapa,   id) {
+                if (match(carpeta, / - [0-9]+$/)) {
+                  id = substr(carpeta, RSTART + 3)
+                  if (id in mapa) return mapa[id]
+                }
+                return carpeta
+              }
+              ARGIND == 1 { nombre_ahora[$1] = $2; next }
+              ARGIND == 2 { nombre_antes[$1] = $2; next }
+              ARGIND == 3 { antes[$1] = $2; next }
+              { ahora[$1] = $2 }
+              END {
+                for (c in ahora) {
+                  if (!(c in antes)) print "1\t" nombre(c, nombre_ahora)
+                  else if (antes[c] != ahora[c]) print "2\t" nombre(c, nombre_ahora)
+                }
+                for (c in antes) if (!(c in ahora)) print "3\t" nombre(c, nombre_antes)
+              }' <(nombres HEAD) <(nombres "$anterior") <(carpetas "$anterior") <(carpetas HEAD) \
+              | LC_ALL=C sort -t$'\t' -k1,1 -k2,2f)
+          fi
+
+          # Una sección por tipo, solo si tiene algo. Con más de 20 mods, como después de
+          # actualizar todo RML, la lista va plegada.
+          seccion() {
+            local lista cantidad
+            lista=$(awk -F'\t' -v tipo="$1" '$1 == tipo {print "- " $2}' <<< "$resumen")
+            [ -n "$lista" ] || return 0
+            cantidad=$(wc -l <<< "$lista")
+            echo
+            if [ "$cantidad" -gt 20 ]; then
+              printf '<details><summary>%s (%s)</summary>\n\n%s\n\n</details>\n' "$2" "$cantidad" "$lista"
+            else
+              printf '**%s (%s)**\n\n%s\n' "$2" "$cantidad" "$lista"
+            fi
+          }
+
           # Los cambios van como link a la comparación entre las dos releases, donde GitHub
-          # muestra los commits y el diff. La primera no tiene con qué compararse.
+          # muestra los commits y el diff, y con el resumen de mods. La primera no tiene con qué
+          # compararse.
           {
             echo "**$mods mods traducidos.** Lista completa: https://lordmordelon.github.io/RML/"
             if [ -n "$anterior" ]; then
               echo
               echo "Cambios desde la release anterior: [$anterior...$tag](https://github.com/$GITHUB_REPOSITORY/compare/$anterior...$tag)"
+              seccion 1 "Mods nuevos"
+              seccion 2 "Mods actualizados"
+              seccion 3 "Mods quitados"
             fi
             echo
             echo "<!-- contenido: $contenido -->"
