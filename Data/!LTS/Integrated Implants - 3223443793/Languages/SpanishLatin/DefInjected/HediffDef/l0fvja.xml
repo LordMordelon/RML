@@ -58,8 +58,8 @@
   <LTS_JotunnskinGland.label>glándula de pieljotunn</LTS_JotunnskinGland.label>
   <!-- EN: a jotunnskin gland -->
   <LTS_JotunnskinGland.labelNoun>una glándula de pieljotunn</LTS_JotunnskinGland.labelNoun>
-  <!-- EN: An installed high-tech, advanced bionic gland that releases chemicals and nanomachines that transform the user&apos;s skin into an insulating sheath. The gland increases the rate and density of hair grow and the whole epedermis thickens and forms a network of cryptotechnological thermoregulating structures that prevent frostbite and greatly increase resistance to cold. -->
-  <LTS_JotunnskinGland.description>Una glándula biónica avanzada de alta tecnología instalada que libera sustancias químicas y nanomáquinas que transforman la piel del usuario en una funda aislante. La glándula aumenta la tasa y densidad del crecimiento del cabello, y toda la epidermis se engrosa formando una red de estructuras termorreguladoras criptotecnológicas que previenen la congelación y aumentan enormemente la resistencia al frío.</LTS_JotunnskinGland.description>
+  <!-- EN: An installed high-tech, advanced bionic gland that releases chemicals and nanomachines that transform the user&apos;s skin into an insulating sheath. The gland forms a network of cryptotechnological thermoregulating structures across the epedermis that prevent frostbite and greatly increase resistance to extreme temperatures. -->
+  <LTS_JotunnskinGland.description>Una glándula biónica avanzada de alta tecnología instalada que libera sustancias químicas y nanomáquinas que transforman la piel del usuario en una funda aislante. La glándula forma en toda la epidermis una red de estructuras termorreguladoras criptotecnológicas que previenen la congelación y aumentan enormemente la resistencia a las temperaturas extremas.</LTS_JotunnskinGland.description>
   <!-- EN: prestige subdermal armour -->
   <LTS_PrestigeSubdermalArmour.label>armadura subdérmica prestigiosa</LTS_PrestigeSubdermalArmour.label>
   <!-- EN: a suit of prestige subdermal armour -->
@@ -352,12 +352,6 @@
   <LTS_ImplantedCluster.labelNoun>bomba de racimo implantada</LTS_ImplantedCluster.labelNoun>
   <!-- EN: An implanted cluster bomb. -->
   <LTS_ImplantedCluster.description>Una bomba de racimo implantada.</LTS_ImplantedCluster.description>
-  <!-- EN: hacking port -->
-  <HackingPortImplant.label>puerto de hackeo</HackingPortImplant.label>
-  <!-- EN: a hacking port implant -->
-  <HackingPortImplant.labelNoun>puerto de hackeo</HackingPortImplant.labelNoun>
-  <!-- EN: An installed hacking port. -->
-  <HackingPortImplant.description>Un puerto de hackeo implantado.</HackingPortImplant.description>
   <!-- EN: strength enhancer -->
   <StrengthEnhancer.label>potenciador de fuerza</StrengthEnhancer.label>
   <!-- EN: a strength enhancer -->
@@ -1054,20 +1048,14 @@
   <WarprogrammerInterfaceImplant.label>interfaz de guerra</WarprogrammerInterfaceImplant.label>
   <!-- EN: An implant which increases the melee and ranged abilities of a mechanitor&apos;s mechs, further scaling with the mechanitor&apos;s own intellectual and melee/shooting skill.\n\nThis implant can be installed up to 3 times to increase its effect. -->
   <WarprogrammerInterfaceImplant.description>Un implante que aumenta las habilidades cuerpo a cuerpo y a distancia de los mecas del mecanizador, escalando aún más con las habilidades intelectuales y de combate/tiro del mecanizador.\n\nEste implante puede ser implantado hasta 3 veces para aumentar su efecto.</WarprogrammerInterfaceImplant.description>
-  <!-- EN: mechhive satellite uplink -->
-  <MechhiveSatelliteUplinkImplant.label>meca-enlace satelital</MechhiveSatelliteUplinkImplant.label>
-  <!-- EN: A neural implant which allows the mechanitor to call in a hostile mech cluster. The user psychically seize an overhead orbital platform, overloading their psychic centers in the process and falling into a 24 hour coma.\n\nThis implant can be installed up to 3 times to decrease it&apos;s cooldown. -->
-  <MechhiveSatelliteUplinkImplant.description>Un implante neural que permite al mecanizador invocar un grupo de mecas hostiles. El usuario toma el control psíquicamente de una plataforma orbital que sobrevuela, lo que sobrecarga sus centros psíquicos en el proceso y lo deja en coma durante 24 horas.\n\nEste implante puede ser implantado hasta 3 veces para reducir su tiempo de recarga.</MechhiveSatelliteUplinkImplant.description>
-  <!-- EN: An implant which allows the user to call in a hostile mech cluster. This can be installed up to 3 times. -->
-  <MechhiveSatelliteUplinkImplant.descriptionShort>Un implante que permite al usuario invocar un grupo de mecas hostiles. Puede ser implantado hasta 3 veces.</MechhiveSatelliteUplinkImplant.descriptionShort>
   <!-- EN: remote resurrector -->
   <RemoteResurrectorImplant.label>resucitador remoto</RemoteResurrectorImplant.label>
   <!-- EN: An implant which allows the mechanitor to externally supercharging a recently-killed, allied mechanoid&apos;s self-repair processes, provided they have enough bandwidth to take that mech under their control.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range. -->
   <RemoteResurrectorImplant.description>Un implante que permite al mecanizador sobrealimentar externamente los procesos de auto-reparación de un mecanoide aliado recientemente destruido, siempre que tenga suficiente ancho de banda para tomar control de ese mecanoide.\n\nEste implante puede ser instalado sin cirugía.\n\nEste implante puede ser implantado hasta 3 veces para aumentar su alcance.</RemoteResurrectorImplant.description>
   <!-- EN: remote dominator -->
   <RemoteDominatorImplant.label>dominador remoto</RemoteDominatorImplant.label>
-  <!-- EN: An implant which allows the mechanitor to psychically attack and override a mechs IFF protocol, taking them under their control, provided the mechanoid is of a weight class lighter than superheavy and the mechanitor has enough bandwidth.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range. -->
-  <RemoteDominatorImplant.description>Un implante que permite al mecanizador atacar psíquicamente y anular el protocolo IFF de un mecanoide, tomando el control de este, siempre que el mecanoide sea de una clase de peso menor a súper pesada y el mecanizador tenga suficiente ancho de banda.\n\nEste implante puede instalarse sin cirugía.\n\nEste implante puede instalarse hasta 3 veces para aumentar su alcance.</RemoteDominatorImplant.description>
+  <!-- EN: An implant which allows the mechanitor to psychically attack and override a mechs IFF protocol, taking them under their control, provided the mechanoid is susceptible to psychic attack and the mechanitor has sufficient bandwidth.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range. -->
+  <RemoteDominatorImplant.description>Un implante que permite al mecanizador atacar psíquicamente y anular el protocolo IFF de un mecanoide, tomando el control de este, siempre que el mecanoide sea susceptible a los ataques psíquicos y el mecanizador tenga suficiente banda ancha.\n\nEste implante puede instalarse sin cirugía.\n\nEste implante puede instalarse hasta 3 veces para aumentar su alcance.</RemoteDominatorImplant.description>
   <!-- EN: mechwomb -->
   <MechwombImplant.label>útero mecanoide</MechwombImplant.label>
   <!-- EN: A miniaturised, implanted mechanoid gestator that allows the mechanitor to produce reinforcements in the field, without infrastructure or complex components.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 6 times to increase its capacity. -->
@@ -1104,134 +1092,6 @@
   <DeathrestApparatus.labelNoun>aparato de mortisueño</DeathrestApparatus.labelNoun>
   <!-- EN: An installed deathrest apparatus. -->
   <DeathrestApparatus.description>Un aparato de mortisueño implantado.</DeathrestApparatus.description>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleEye_LocalArmour.description>Un módulo insertado</LTS_ModuleEye_LocalArmour.description>
-  <!-- EN: ballistic lense module -->
-  <LTS_ModuleEye_LocalArmour.label>módulo de lente balística</LTS_ModuleEye_LocalArmour.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_LocalArmour.description>Un módulo insertado</LTS_ModuleArm_LocalArmour.description>
-  <!-- EN: arm plating module -->
-  <LTS_ModuleArm_LocalArmour.label>módulo de placas de brazo</LTS_ModuleArm_LocalArmour.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleLeg_LocalArmour.description>Un módulo insertado</LTS_ModuleLeg_LocalArmour.description>
-  <!-- EN: leg plating module -->
-  <LTS_ModuleLeg_LocalArmour.label>módulo de placas de pierna</LTS_ModuleLeg_LocalArmour.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleEye_Telescopic.description>Un módulo insertado</LTS_ModuleEye_Telescopic.description>
-  <!-- EN: telescopic sight module -->
-  <LTS_ModuleEye_Telescopic.label>módulo de mira telescópica</LTS_ModuleEye_Telescopic.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleEye_Targeting.description>Un módulo insertado</LTS_ModuleEye_Targeting.description>
-  <!-- EN: targeting module -->
-  <LTS_ModuleEye_Targeting.label>módulo de puntería</LTS_ModuleEye_Targeting.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleEye_NightVision.description>Un módulo insertado</LTS_ModuleEye_NightVision.description>
-  <!-- EN: night vision module -->
-  <LTS_ModuleEye_NightVision.label>módulo de visión nocturna</LTS_ModuleEye_NightVision.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleEye_EyeColour.description>Un módulo insertado</LTS_ModuleEye_EyeColour.description>
-  <!-- EN: eye colour module -->
-  <LTS_ModuleEye_EyeColour.label>módulo de color de ojos</LTS_ModuleEye_EyeColour.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_VibroModule.description>Un módulo insertado</LTS_ModuleArm_VibroModule.description>
-  <!-- EN: vibro-module -->
-  <LTS_ModuleArm_VibroModule.label>vibromódulo</LTS_ModuleArm_VibroModule.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_DeathGrip.description>Un módulo insertado</LTS_ModuleArm_DeathGrip.description>
-  <!-- EN: death grip module -->
-  <LTS_ModuleArm_DeathGrip.label>módulo de agarre mortal</LTS_ModuleArm_DeathGrip.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_RecoilSuppression.description>Un módulo insertado</LTS_ModuleArm_RecoilSuppression.description>
-  <!-- EN: recoil suppression module -->
-  <LTS_ModuleArm_RecoilSuppression.label>módulo de supresión de retroceso</LTS_ModuleArm_RecoilSuppression.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_ArmBlade.description>Un módulo insertado</LTS_ModuleArm_ArmBlade.description>
-  <!-- EN: arm blade module -->
-  <LTS_ModuleArm_ArmBlade.label>módulo de hoja de brazo</LTS_ModuleArm_ArmBlade.label>
-  <!-- EN: arm blade -->
-  <LTS_ModuleArm_ArmBlade.comps.0.tools.0.label>hoja de brazo</LTS_ModuleArm_ArmBlade.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_BionicClaw.description>Un módulo insertado</LTS_ModuleArm_BionicClaw.description>
-  <!-- EN: bionic claw module -->
-  <LTS_ModuleArm_BionicClaw.label>módulo de garra biónica</LTS_ModuleArm_BionicClaw.label>
-  <!-- EN: bionic claw -->
-  <LTS_ModuleArm_BionicClaw.comps.0.tools.0.label>garra biónica</LTS_ModuleArm_BionicClaw.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_Monowire.description>Un módulo insertado</LTS_ModuleArm_Monowire.description>
-  <!-- EN: monowire whip module -->
-  <LTS_ModuleArm_Monowire.label>módulo de látigo de monofilamento</LTS_ModuleArm_Monowire.label>
-  <!-- EN: monowire -->
-  <LTS_ModuleArm_Monowire.comps.0.tools.0.label>monofilamento</LTS_ModuleArm_Monowire.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_ZeusKnuckles.description>Un módulo insertado</LTS_ModuleArm_ZeusKnuckles.description>
-  <!-- EN: zeusknuckles module -->
-  <LTS_ModuleArm_ZeusKnuckles.label>módulo de nudillos de Zeus</LTS_ModuleArm_ZeusKnuckles.label>
-  <!-- EN: zeusknuckles -->
-  <LTS_ModuleArm_ZeusKnuckles.comps.0.tools.0.label>nudillos de Zeus</LTS_ModuleArm_ZeusKnuckles.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_PlasmaClaw.description>Un módulo insertado</LTS_ModuleArm_PlasmaClaw.description>
-  <!-- EN: plasma claw module -->
-  <LTS_ModuleArm_PlasmaClaw.label>módulo de garra de plasma</LTS_ModuleArm_PlasmaClaw.label>
-  <!-- EN: plasma claw -->
-  <LTS_ModuleArm_PlasmaClaw.comps.0.tools.0.label>garra de plasma</LTS_ModuleArm_PlasmaClaw.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_LaserArmBlade.description>Un módulo insertado</LTS_ModuleArm_LaserArmBlade.description>
-  <!-- EN: laser arm blade module -->
-  <LTS_ModuleArm_LaserArmBlade.label>módulo de hoja de brazo láser</LTS_ModuleArm_LaserArmBlade.label>
-  <!-- EN: laser arm blade -->
-  <LTS_ModuleArm_LaserArmBlade.comps.0.tools.0.label>hoja de brazo láser</LTS_ModuleArm_LaserArmBlade.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_FieldHand.description>Un módulo insertado</LTS_ModuleArm_FieldHand.description>
-  <!-- EN: field hand module -->
-  <LTS_ModuleArm_FieldHand.label>módulo de mano campestre</LTS_ModuleArm_FieldHand.label>
-  <!-- EN: knuckle -->
-  <LTS_ModuleArm_FieldHand.comps.0.tools.0.label>golpear</LTS_ModuleArm_FieldHand.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_DrillHand.description>Un módulo insertado</LTS_ModuleArm_DrillHand.description>
-  <!-- EN: drill hand module -->
-  <LTS_ModuleArm_DrillHand.label>módulo de mano perforadora</LTS_ModuleArm_DrillHand.label>
-  <!-- EN: knuckle -->
-  <LTS_ModuleArm_DrillHand.comps.0.tools.0.label>golpear</LTS_ModuleArm_DrillHand.comps.0.tools.0.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_Shotgun.description>Un módulo insertado</LTS_ModuleArm_Shotgun.description>
-  <!-- EN: arm shotgun module -->
-  <LTS_ModuleArm_Shotgun.label>módulo de escopeta de brazo</LTS_ModuleArm_Shotgun.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_SMG.description>Un módulo insertado</LTS_ModuleArm_SMG.description>
-  <!-- EN: arm SMG module -->
-  <LTS_ModuleArm_SMG.label>módulo de SMG de brazo</LTS_ModuleArm_SMG.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_Gauss.description>Un módulo insertado</LTS_ModuleArm_Gauss.description>
-  <!-- EN: arm gauss lance module -->
-  <LTS_ModuleArm_Gauss.label>módulo de lanza gauss de brazo</LTS_ModuleArm_Gauss.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_Incinerator.description>Un módulo insertado</LTS_ModuleArm_Incinerator.description>
-  <!-- EN: arm incinerator module -->
-  <LTS_ModuleArm_Incinerator.label>módulo de incinerador de brazo</LTS_ModuleArm_Incinerator.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_DartGun.description>Un módulo insertado</LTS_ModuleArm_DartGun.description>
-  <!-- EN: arm dart gun module -->
-  <LTS_ModuleArm_DartGun.label>módulo de pistola de dardos de brazo</LTS_ModuleArm_DartGun.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleArm_Fletcher.description>Un módulo insertado</LTS_ModuleArm_Fletcher.description>
-  <!-- EN: arm fletcher module -->
-  <LTS_ModuleArm_Fletcher.label>módulo de acidificador de brazo</LTS_ModuleArm_Fletcher.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleLeg_Digitigrade.description>Un módulo insertado</LTS_ModuleLeg_Digitigrade.description>
-  <!-- EN: digitigrade module -->
-  <LTS_ModuleLeg_Digitigrade.label>módulo digitígrado</LTS_ModuleLeg_Digitigrade.label>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleLeg_Sprint.description>Un módulo insertado</LTS_ModuleLeg_Sprint.description>
-  <!-- EN: sprint module -->
-  <LTS_ModuleLeg_Sprint.label>módulo de esprint</LTS_ModuleLeg_Sprint.label>
-  <!-- EN: bionic sprint -->
-  <LTS_ModuleLeg_SprintActive.label>esprint biónico</LTS_ModuleLeg_SprintActive.label>
-  <!-- EN: this person&apos;s movement is being enhanced by a bionic module. -->
-  <LTS_ModuleLeg_SprintActive.description>el movimiento de esta persona está siendo potenciado por un módulo biónico.</LTS_ModuleLeg_SprintActive.description>
-  <!-- EN: An inserted module -->
-  <LTS_ModuleLeg_Leap.description>Un módulo insertado</LTS_ModuleLeg_Leap.description>
-  <!-- EN: leap module -->
-  <LTS_ModuleLeg_Leap.label>módulo de salto</LTS_ModuleLeg_Leap.label>
   <!-- EN: bionic nose (modular) -->
   <LTS_ModularBionicNose.label>nariz biónica (modular)</LTS_ModularBionicNose.label>
   <!-- EN: a modular bionic nose -->
@@ -1347,15 +1207,119 @@
   <!-- EN: An installed archotech leg. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it&apos;s harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.\n\nThis one has been upgraded to accept modular enhancements. -->
   <LTS_ModularArchotechLeg.description>Una pierna arqueotéc implantada. Se ve y se siente como carne natural, pero un par de ellas puede mover al usuario tan rápido como un auto decente, y es más difícil de dañar que el plastiacero. Incluso si resulta dañada, se repara a sí misma con el tiempo. Su funcionamiento interno es un misterio para todas las mentes humanas.\n\nEsta ha sido actualizada para aceptar mejoras modulares.</LTS_ModularArchotechLeg.description>
   <!-- EN: An inserted module -->
+  <LTS_ModuleEye_Telescopic.description>Un módulo insertado</LTS_ModuleEye_Telescopic.description>
+  <!-- EN: telescopic sight module -->
+  <LTS_ModuleEye_Telescopic.label>módulo de mira telescópica</LTS_ModuleEye_Telescopic.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleEye_Targeting.description>Un módulo insertado</LTS_ModuleEye_Targeting.description>
+  <!-- EN: targeting module -->
+  <LTS_ModuleEye_Targeting.label>módulo de puntería</LTS_ModuleEye_Targeting.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleEye_NightVision.description>Un módulo insertado</LTS_ModuleEye_NightVision.description>
+  <!-- EN: night vision module -->
+  <LTS_ModuleEye_NightVision.label>módulo de visión nocturna</LTS_ModuleEye_NightVision.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleEye_EyeColour.description>Un módulo insertado</LTS_ModuleEye_EyeColour.description>
+  <!-- EN: eye colour module -->
+  <LTS_ModuleEye_EyeColour.label>módulo de color de ojos</LTS_ModuleEye_EyeColour.label>
+  <!-- EN: An inserted module -->
   <LTS_ModuleEye_ProtectiveLens.description>Un módulo insertado</LTS_ModuleEye_ProtectiveLens.description>
   <!-- EN: protective lens module -->
   <LTS_ModuleEye_ProtectiveLens.label>módulo de lente protectora</LTS_ModuleEye_ProtectiveLens.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_VibroModule.description>Un módulo insertado</LTS_ModuleArm_VibroModule.description>
+  <!-- EN: vibro-module -->
+  <LTS_ModuleArm_VibroModule.label>vibromódulo</LTS_ModuleArm_VibroModule.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_DeathGrip.description>Un módulo insertado</LTS_ModuleArm_DeathGrip.description>
+  <!-- EN: death grip module -->
+  <LTS_ModuleArm_DeathGrip.label>módulo de agarre mortal</LTS_ModuleArm_DeathGrip.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_RecoilSuppression.description>Un módulo insertado</LTS_ModuleArm_RecoilSuppression.description>
+  <!-- EN: recoil suppression module -->
+  <LTS_ModuleArm_RecoilSuppression.label>módulo de supresión de retroceso</LTS_ModuleArm_RecoilSuppression.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_ArmBlade.description>Un módulo insertado</LTS_ModuleArm_ArmBlade.description>
+  <!-- EN: arm blade module -->
+  <LTS_ModuleArm_ArmBlade.label>módulo de hoja de brazo</LTS_ModuleArm_ArmBlade.label>
+  <!-- EN: arm blade -->
+  <LTS_ModuleArm_ArmBlade.comps.0.tools.0.label>hoja de brazo</LTS_ModuleArm_ArmBlade.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_BionicClaw.description>Un módulo insertado</LTS_ModuleArm_BionicClaw.description>
+  <!-- EN: bionic claw module -->
+  <LTS_ModuleArm_BionicClaw.label>módulo de garra biónica</LTS_ModuleArm_BionicClaw.label>
+  <!-- EN: bionic claw -->
+  <LTS_ModuleArm_BionicClaw.comps.0.tools.0.label>garra biónica</LTS_ModuleArm_BionicClaw.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_Monowire.description>Un módulo insertado</LTS_ModuleArm_Monowire.description>
+  <!-- EN: monowire whip module -->
+  <LTS_ModuleArm_Monowire.label>módulo de látigo de monofilamento</LTS_ModuleArm_Monowire.label>
+  <!-- EN: monowire -->
+  <LTS_ModuleArm_Monowire.comps.0.tools.0.label>monofilamento</LTS_ModuleArm_Monowire.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_ZeusKnuckles.description>Un módulo insertado</LTS_ModuleArm_ZeusKnuckles.description>
+  <!-- EN: zeusknuckles module -->
+  <LTS_ModuleArm_ZeusKnuckles.label>módulo de nudillos de Zeus</LTS_ModuleArm_ZeusKnuckles.label>
+  <!-- EN: zeusknuckles -->
+  <LTS_ModuleArm_ZeusKnuckles.comps.0.tools.0.label>nudillos de Zeus</LTS_ModuleArm_ZeusKnuckles.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_PlasmaClaw.description>Un módulo insertado</LTS_ModuleArm_PlasmaClaw.description>
+  <!-- EN: plasma claw module -->
+  <LTS_ModuleArm_PlasmaClaw.label>módulo de garra de plasma</LTS_ModuleArm_PlasmaClaw.label>
+  <!-- EN: plasma claw -->
+  <LTS_ModuleArm_PlasmaClaw.comps.0.tools.0.label>garra de plasma</LTS_ModuleArm_PlasmaClaw.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_LaserArmBlade.description>Un módulo insertado</LTS_ModuleArm_LaserArmBlade.description>
+  <!-- EN: laser arm blade module -->
+  <LTS_ModuleArm_LaserArmBlade.label>módulo de hoja de brazo láser</LTS_ModuleArm_LaserArmBlade.label>
+  <!-- EN: laser arm blade -->
+  <LTS_ModuleArm_LaserArmBlade.comps.0.tools.0.label>hoja de brazo láser</LTS_ModuleArm_LaserArmBlade.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_FieldHand.description>Un módulo insertado</LTS_ModuleArm_FieldHand.description>
+  <!-- EN: field hand module -->
+  <LTS_ModuleArm_FieldHand.label>módulo de mano campestre</LTS_ModuleArm_FieldHand.label>
+  <!-- EN: knuckle -->
+  <LTS_ModuleArm_FieldHand.comps.0.tools.0.label>golpear</LTS_ModuleArm_FieldHand.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_DrillHand.description>Un módulo insertado</LTS_ModuleArm_DrillHand.description>
+  <!-- EN: drill hand module -->
+  <LTS_ModuleArm_DrillHand.label>módulo de mano perforadora</LTS_ModuleArm_DrillHand.label>
+  <!-- EN: knuckle -->
+  <LTS_ModuleArm_DrillHand.comps.0.tools.0.label>golpear</LTS_ModuleArm_DrillHand.comps.0.tools.0.label>
   <!-- EN: An inserted module -->
   <LTS_ModuleArm_CryptoClaw.description>Un módulo insertado</LTS_ModuleArm_CryptoClaw.description>
   <!-- EN: crypto claw module -->
   <LTS_ModuleArm_CryptoClaw.label>módulo de criptogarra</LTS_ModuleArm_CryptoClaw.label>
   <!-- EN: crypto claw -->
   <LTS_ModuleArm_CryptoClaw.comps.0.tools.0.label>criptogarra</LTS_ModuleArm_CryptoClaw.comps.0.tools.0.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_Shotgun.description>Un módulo insertado</LTS_ModuleArm_Shotgun.description>
+  <!-- EN: arm shotgun module -->
+  <LTS_ModuleArm_Shotgun.label>módulo de escopeta de brazo</LTS_ModuleArm_Shotgun.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_SMG.description>Un módulo insertado</LTS_ModuleArm_SMG.description>
+  <!-- EN: arm SMG module -->
+  <LTS_ModuleArm_SMG.label>módulo de SMG de brazo</LTS_ModuleArm_SMG.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_Gauss.description>Un módulo insertado</LTS_ModuleArm_Gauss.description>
+  <!-- EN: arm gauss lance module -->
+  <LTS_ModuleArm_Gauss.label>módulo de lanza gauss de brazo</LTS_ModuleArm_Gauss.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_Incinerator.description>Un módulo insertado</LTS_ModuleArm_Incinerator.description>
+  <!-- EN: arm incinerator module -->
+  <LTS_ModuleArm_Incinerator.label>módulo de incinerador de brazo</LTS_ModuleArm_Incinerator.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_DartGun.description>Un módulo insertado</LTS_ModuleArm_DartGun.description>
+  <!-- EN: arm dart gun module -->
+  <LTS_ModuleArm_DartGun.label>módulo de pistola de dardos de brazo</LTS_ModuleArm_DartGun.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_Fletcher.description>Un módulo insertado</LTS_ModuleArm_Fletcher.description>
+  <!-- EN: arm fletcher module -->
+  <LTS_ModuleArm_Fletcher.label>módulo de acidificador de brazo</LTS_ModuleArm_Fletcher.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleLeg_Digitigrade.description>Un módulo insertado</LTS_ModuleLeg_Digitigrade.description>
+  <!-- EN: digitigrade module -->
+  <LTS_ModuleLeg_Digitigrade.label>módulo digitígrado</LTS_ModuleLeg_Digitigrade.label>
   <!-- EN: An inserted module -->
   <LTS_ModuleLeg_RetractableFlipper.description>Un módulo insertado</LTS_ModuleLeg_RetractableFlipper.description>
   <!-- EN: retractable flipper module -->
@@ -1434,6 +1398,18 @@
   <LTS_ModuleLung_Rebreather.description>Un módulo insertado</LTS_ModuleLung_Rebreather.description>
   <!-- EN: rebreather module -->
   <LTS_ModuleLung_Rebreather.label>módulo de recirculador de aire</LTS_ModuleLung_Rebreather.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleArm_SocketJoint.description>Un módulo insertado</LTS_ModuleArm_SocketJoint.description>
+  <!-- EN: multi-arm socket joint module -->
+  <LTS_ModuleArm_SocketJoint.label>módulo de articulación para multibrazos</LTS_ModuleArm_SocketJoint.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleSpine_SteelboneInjector.description>Un módulo insertado</LTS_ModuleSpine_SteelboneInjector.description>
+  <!-- EN: steelbone injector module -->
+  <LTS_ModuleSpine_SteelboneInjector.label>módulo inyector de osacero</LTS_ModuleSpine_SteelboneInjector.label>
+  <!-- EN: An inserted module -->
+  <LTS_ModuleEye_ProspectorEye.description>Un módulo insertado</LTS_ModuleEye_ProspectorEye.description>
+  <!-- EN: prospector module -->
+  <LTS_ModuleEye_ProspectorEye.label>módulo de prospector</LTS_ModuleEye_ProspectorEye.label>
   <!-- EN: extra Arasaka mantis blade (left) -->
   <LeftExtraAraMantisBlade.label>hoja mantis Arasaka extra (izquierda)</LeftExtraAraMantisBlade.label>
   <!-- EN: an extra Arasaka mantis blade (left) -->
@@ -2518,6 +2494,12 @@
   <LTS_EmergencyShieldActive.label>escudo de emergencia activo</LTS_EmergencyShieldActive.label>
   <!-- EN: this person is being protected by an emergency shield. -->
   <LTS_EmergencyShieldActive.description>esta persona está siendo protegida por un escudo de emergencia.</LTS_EmergencyShieldActive.description>
+  <!-- EN: shield implant -->
+  <LTS_ShieldImplant.label>implante de escudo</LTS_ShieldImplant.label>
+  <!-- EN: a shield implant -->
+  <LTS_ShieldImplant.labelNoun>un implante de escudo</LTS_ShieldImplant.labelNoun>
+  <!-- EN: An installed implanted projectile-repulsion device, designed to protect from incoming projectiles while allowing outgoing fire. -->
+  <LTS_ShieldImplant.description>Un dispositivo de repulsión de proyectiles implantado, diseñado para proteger de los proyectiles entrantes permitiendo a la vez el fuego saliente.</LTS_ShieldImplant.description>
   <!-- EN: chip port -->
   <LTS_SkillChipPort.label>puerto de chips</LTS_SkillChipPort.label>
   <!-- EN: a chip port implant -->
@@ -2620,12 +2602,6 @@
   <LTS_UltraSkillChip_Intellectual.description>Un chip de habilidad insertado</LTS_UltraSkillChip_Intellectual.description>
   <!-- EN: ultra skill chip (intellectual) -->
   <LTS_UltraSkillChip_Intellectual.label>chip de habilidad ultra (intelectual)</LTS_UltraSkillChip_Intellectual.label>
-  <!-- EN: shield implant -->
-  <LTS_ShieldImplant.label>implante de escudo</LTS_ShieldImplant.label>
-  <!-- EN: a shield implant -->
-  <LTS_ShieldImplant.labelNoun>un implante de escudo</LTS_ShieldImplant.labelNoun>
-  <!-- EN: An installed implanted projectile-repulsion device, designed to protect from incoming projectiles while allowing outgoing fire. -->
-  <LTS_ShieldImplant.description>Un dispositivo de repulsión de proyectiles implantado, diseñado para proteger de los proyectiles entrantes permitiendo a la vez el fuego saliente.</LTS_ShieldImplant.description>
   <!-- EN: archotech ear -->
   <LTS_ArchotechEar.label>oído arqueotéc</LTS_ArchotechEar.label>
   <!-- EN: an archotech ear -->

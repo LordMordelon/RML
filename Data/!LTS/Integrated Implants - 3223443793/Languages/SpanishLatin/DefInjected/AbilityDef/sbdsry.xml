@@ -120,20 +120,14 @@
   <LTS_ShoulderMortar.label>mortero de hombro</LTS_ShoulderMortar.label>
   <!-- EN: Fire a shell from a shoulder mounted mortar.\n\nMust be reloaded with 30 steel after use. -->
   <LTS_ShoulderMortar.description>Dispara un proyectil desde un mortero montado en el hombro.\n\nDebe recargarse con 30 de acero después de su uso.</LTS_ShoulderMortar.description>
-  <!-- EN: provoke mech cluster -->
-  <MechhiveSatelliteUplink.label>provocar cluster mecanoide</MechhiveSatelliteUplink.label>
-  <!-- EN: psychically seize an overhead orbital platform, causing it to drop a mechanoid combat cluster at the targeted point. The cluster may include any mixture of mechanoids and mech defense structures. the mech will indiscriminately attack any human they see - including the one that summoned them. Due to the prodigeous amount of power this takes, the psychic centres of the mechanitors brain will be overloaded, causing them to fall into a 24 hour psychic coma. -->
-  <MechhiveSatelliteUplink.description>Se apodera psíquicamente de una plataforma orbital, lo que provoca que despliegue un cluster de combate mecanoide en el punto objetivo. El cluster puede incluir cualquier combinación de mecanoides y estructuras defensivas. Los mecanoides atacarán indiscriminadamente a cualquier humano que vean, incluido aquel que los invocó. Debido a la enorme cantidad de energía requerida, los centros psíquicos del cerebro del mecanizador se sobrecargarán, sumiéndolo en un coma psíquico de 24 horas.</MechhiveSatelliteUplink.description>
-  <!-- EN: If you use the mechhive satellite uplink, the mechanitor will fall into a psychic coma for 24 hours.\n\nDo you really want to use the mechhive satellite uplink? -->
-  <MechhiveSatelliteUplink.confirmationDialogText>Si utilizas el enlace satelital del cluster mecanoide, el mecanizador caerá en un coma psíquico durante 24 horas.\n\n¿Realmente quieres usar el enlace satelital del cluster mecanoide?</MechhiveSatelliteUplink.confirmationDialogText>
   <!-- EN: resurrect mech -->
   <RemoteResurrect.label>resucitar mecanoide</RemoteResurrect.label>
   <!-- EN: Resurrect a recently-killed, allied mechanoid by externally supercharging its self-repair processes. The mechanoid must have been dead for no more than 60 seconds and the mechinator must have the bandwidth spare to take the mechanoid under their control. -->
   <RemoteResurrect.description>Resucita un mecanoide aliado recientemente destruido mediante una sobrecarga externa de sus procesos de autorreparación. El mecanoide debe haber estado muerto por no más de 60 segundos, y el mecanizador debe tener ancho de banda disponible para controlarlo.</RemoteResurrect.description>
   <!-- EN: dominate mech -->
   <RemoteDominate.label>dominar mecanoide</RemoteDominate.label>
-  <!-- EN: Take control of an enemy mechanoid. the mechanoid must be of a weight class lighter than superheavy and the mechinator must have the bandwidth spare to take the mechanoid under their control. -->
-  <RemoteDominate.description>Toma el control de un mecanoide enemigo. El mecanoide debe pertenecer a una clase de peso inferior a la superpesada y el mecanizador debe tener ancho de banda disponible para controlarlo.</RemoteDominate.description>
+  <!-- EN: Take control of an enemy mechanoid. The mechanoid must be susceptible to psychic attack and the mechinator must have sufficient available bandwidth to take the mechanoid under their control. -->
+  <RemoteDominate.description>Toma el control de un mecanoide enemigo. El mecanoide debe ser susceptible a los ataques psíquicos y el mecanizador debe tener suficiente banda ancha disponible para controlarlo.</RemoteDominate.description>
   <!-- EN: release grubs -->
   <ReleaseGrubs.label>liberar larvas</ReleaseGrubs.label>
   <!-- EN: Release up to 2 grubs. each grub takes 10 steel to build. If the parent is killed, all linked grubs will die. Grubs cannot be recharged and will die once their power source runs out. -->
@@ -162,16 +156,6 @@
   <LTS_ModuleArm_Fletcher.label>acidificador de brazo</LTS_ModuleArm_Fletcher.label>
   <!-- EN: Extend and fire an internal weapon. -->
   <LTS_ModuleArm_Fletcher.description>Extiende y dispara un arma interna.</LTS_ModuleArm_Fletcher.description>
-  <!-- EN: bionic sprint -->
-  <LTS_ModuleLeg_Sprint.label>esprint biónico</LTS_ModuleLeg_Sprint.label>
-  <!-- EN: Vastly increase movement speed for a short time using an installed sprint module. -->
-  <LTS_ModuleLeg_Sprint.description>Aumenta enormemente la velocidad de movimiento durante un breve lapso usando un módulo de esprint instalado.</LTS_ModuleLeg_Sprint.description>
-  <!-- EN: bionic leap -->
-  <LTS_ModuleLeg_Leap.label>salto biónico</LTS_ModuleLeg_Leap.label>
-  <!-- EN: Jump to a distant location using an installed leap module. -->
-  <LTS_ModuleLeg_Leap.description>Salta a una ubicación lejana usando un módulo de salto instalado.</LTS_ModuleLeg_Leap.description>
-  <!-- EN: jump -->
-  <LTS_ModuleLeg_Leap.verbProperties.label>saltar</LTS_ModuleLeg_Leap.verbProperties.label>
   <!-- EN: emergency shield -->
   <LTS_EmergencyShield.label>escudo de emergencia</LTS_EmergencyShield.label>
   <!-- EN: Deploy a temporary, non-recharging shield that blocks all incoming damage. -->
