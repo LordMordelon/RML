@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Enable mod -->
+  <PA_EnableMod>Activar el mod</PA_EnableMod>
+  <!-- EN: When off, the ammunition system is switched off: weapons fire without using ammo, the ammo gizmo and Assign tab column are hidden, NPCs stop spawning with refills, traders stop stocking them, and the recharger buildings and refill recipes disappear. Existing refill items and built rechargers are left in place. -->
+  <PA_EnableModDesc>Si está desactivado, el sistema de munición se apaga: las armas disparan sin gastar munición, el botón de munición y la columna de la pestaña Políticas se ocultan, los PNJ dejan de aparecer con recargas, los comerciantes dejan de venderlas y desaparecen las construcciones de recarga y las recetas de recargas. Las recargas que ya existan y las estaciones de recarga construidas se quedan donde están.</PA_EnableModDesc>
+  <!-- EN: Show ammunition gizmo only while drafted -->
+  <PA_ShowOnlyDrafted>Mostrar el botón de munición solo al estar reclutado</PA_ShowOnlyDrafted>
+  <!-- EN: Automatically use refill packs -->
+  <PA_AutoRefillWithConsumable>Usar recargas automáticamente</PA_AutoRefillWithConsumable>
+  <!-- EN: Automatically add refill buildings to scenarios -->
+  <PA_AddRefillBuildingsToScenarios>Añadir automáticamente construcciones de recarga a los escenarios</PA_AddRefillBuildingsToScenarios>
+  <!-- EN: Scenarios that start you with ranged weapons also give you one uninstalled refill building for each ammo type those weapons use. -->
+  <PA_AddRefillBuildingsToScenariosDesc>Los escenarios que empiezan con armas a distancia también te dan una construcción de recarga desinstalada por cada tipo de munición que usen esas armas.</PA_AddRefillBuildingsToScenariosDesc>
+  <!-- EN: Baseline maximum ammunition carry: {0} -->
+  <PA_BaselineMaxAmmo>Munición máxima base que se puede llevar: {0}</PA_BaselineMaxAmmo>
+  <!-- EN: Automatically scale ammo maximum by burstShotCount -->
+  <PA_ScaleMaxAmmoByBurstShotCount>Ajustar automáticamente la munición máxima según burstShotCount</PA_ScaleMaxAmmoByBurstShotCount>
+  <!-- EN: Weapons that fire bursts get extra maximum ammo: one extra baseline amount per shot beyond the first, counting up to 10 shots. Weapons with a set maxAmmo are not affected. -->
+  <PA_ScaleMaxAmmoByBurstShotCountDesc>Las armas que disparan ráfagas reciben munición máxima adicional: una cantidad base extra por cada disparo después del primero, hasta 10 disparos. No afecta a las armas que tienen un maxAmmo definido.</PA_ScaleMaxAmmoByBurstShotCountDesc>
+  <!-- EN: Ammo: {0} / {1} -->
+  <PA_AmmoRemaining>Munición: {0} / {1}</PA_AmmoRemaining>
+  <!-- EN: {0} / {1} -->
+  <PA_AmmoFraction>{0} / {1}</PA_AmmoFraction>
+  <!-- EN: Ammo: {0} / {1}\nAuto reload threshold: {2}% -->
+  <PA_AmmoGizmoTooltip>Munición: {0} / {1}\nUmbral de recarga automática: {2}%</PA_AmmoGizmoTooltip>
+  <!-- EN: Order colonist to reload ammunition at the nearest recharger building. -->
+  <PA_ForceReloadDesc>Ordena al colono recargar munición en la construcción de recarga más cercana.</PA_ForceReloadDesc>
+  <!-- EN: Refill ammo -->
+  <PA_RefillWithConsumable>Reponer munición</PA_RefillWithConsumable>
+  <!-- EN: Consume 1 {0} to instantly refill ammunition to maximum. -->
+  <PA_RefillWithConsumableDesc>Consume 1 {0} para reponer al instante la munición al máximo.</PA_RefillWithConsumableDesc>
+  <!-- EN: Cannot refill: ammunition is already full. -->
+  <PA_AmmoAlreadyFull>No se puede recargar: la munición ya está completa.</PA_AmmoAlreadyFull>
+  <!-- EN: Cannot refill: incompatible weapon type. -->
+  <PA_IncompatibleWeapon>No se puede recargar: tipo de arma incompatible.</PA_IncompatibleWeapon>
+  <!-- EN: Cannot refill: recharger is not powered. -->
+  <PA_RechargerUnpowered>No se puede recargar: la estación de recarga no tiene energía.</PA_RechargerUnpowered>
+  <!-- EN: Cannot refill: refill building is already in use. -->
+  <PA_RechargerInUse>No se puede recargar: la construcción de recarga ya está en uso.</PA_RechargerInUse>
+  <!-- EN: Refill {0} -->
+  <PA_ReloadWeaponAtBuilding>Recargar {0}</PA_ReloadWeaponAtBuilding>
+  <!-- EN: Cannot refill: no unreserved {0} refill building found. -->
+  <PA_NoRechargerAvailable>No se puede recargar: no se encontró ninguna construcción de recarga de {0} libre.</PA_NoRechargerAvailable>
+  <!-- EN: refilling at {0}. -->
+  <PA_ReportReloadingAtBuilding>recargando en {0}.</PA_ReportReloadingAtBuilding>
+  <!-- EN: arrow -->
+  <PA_AmmoType_Arrow>flechas</PA_AmmoType_Arrow>
+  <!-- EN: ammo -->
+  <PA_AmmoType_Ammo>munición</PA_AmmoType_Ammo>
+  <!-- EN: charge -->
+  <PA_AmmoType_Charge>carga</PA_AmmoType_Charge>
+  <!-- EN: Refills carried by spawned non-player pawns -->
+  <PA_SpawnRefillHeader>Recargas que llevan los individuos que no son del jugador</PA_SpawnRefillHeader>
+  <!-- EN: Chance for animal NPCs to spawn with an arrow refill: {0}% -->
+  <PA_AnimalRefillChance>Probabilidad de que los PNJ animales aparezcan con una recarga de flechas: {0}%</PA_AnimalRefillChance>
+  <!-- EN: Chance for neolithic faction NPCs to spawn with an arrow refill: {0}% -->
+  <PA_NeolithicRefillChance>Probabilidad de que los PNJ de facciones neolíticas aparezcan con una recarga de flechas: {0}%</PA_NeolithicRefillChance>
+  <!-- EN: Chance for medieval faction NPCs to spawn with an arrow refill: {0}% -->
+  <PA_MedievalRefillChance>Probabilidad de que los PNJ de facciones medievales aparezcan con una recarga de flechas: {0}%</PA_MedievalRefillChance>
+  <!-- EN: Chance for industrial faction NPCs to spawn with an ammo refill: {0}% -->
+  <PA_IndustrialRefillChance>Probabilidad de que los PNJ de facciones industriales aparezcan con una recarga de munición: {0}%</PA_IndustrialRefillChance>
+  <!-- EN: Chance for spacer faction NPCs to spawn with a charge refill: {0}% -->
+  <PA_SpacerRefillChance>Probabilidad de que los PNJ de facciones espaciales aparezcan con una recarga energética: {0}%</PA_SpacerRefillChance>
+  <!-- EN: Chance for ultra faction NPCs to spawn with a charge refill: {0}% -->
+  <PA_UltraRefillChance>Probabilidad de que los PNJ de facciones ultra aparezcan con una recarga energética: {0}%</PA_UltraRefillChance>
+  <!-- EN: Chance for archotech faction NPCs to spawn with a charge refill: {0}% -->
+  <PA_ArchotechRefillChance>Probabilidad de que los PNJ de facciones arqueotéc aparezcan con una recarga energética: {0}%</PA_ArchotechRefillChance>
+</LanguageData>
