@@ -4,7 +4,10 @@ name: Publicar la página de mods
 # branch", GitHub la volvía a publicar con cada push a master, aunque el push fuera
 # solo una traducción en Data/.
 #
-# Necesita Settings → Pages → Source: "GitHub Actions".
+# Necesita Settings → Pages → Source: "GitHub Actions". Si queda en "Deploy from a
+# branch", publican los dos a la vez y chocan: el 14-sep el despliegue de GitHub falló
+# después de 10 minutos. Por lo mismo docs/ no lleva .nojekyll: sin ese despliegue no
+# hay Jekyll que saltear.
 
 on:
   workflow_dispatch:
