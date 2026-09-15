@@ -36,22 +36,22 @@
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>##packageId##inglix.widermarriagespot</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="MarriageSpot"]/label</xpath>
-          <value>
-            <!-- EN: 2x1 marriage spot -->
-            <label>Punto de boda 2x1</label>
-          </value>
-        </li>
-      </operations>
-    </match>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationSequence" MayRequire="inglix.widermarriagespot">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MarriageSpot"]/label</xpath>
+            <value>
+              <!-- EN: 2x1 marriage spot -->
+              <label>Punto de boda 2x1</label>
+            </value>
+          </li>
+        </operations>
+      </li>
+    </operations>
   </Operation>
 </Patch>
