@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Coordination detail -->
+  <SAR_Settings_Section_CoordinationCost>Detalle de la coordinación</SAR_Settings_Section_CoordinationCost>
+  <!-- EN: Fast rescue allocation (experimental) -->
+  <SAR_Settings_FastRescue>Asignación rápida de rescates (experimental)</SAR_Settings_FastRescue>
+  <!-- EN: Prioritize urgent patients and compare a few nearby workers first. Expand the search when none can help. Worker assignments and treatment order may change. Fewer comparisons do not guarantee better overall performance. Disabled by default. -->
+  <SAR_Settings_FastRescue_Desc>Prioriza a los pacientes urgentes y compara primero a unos pocos trabajadores cercanos. Amplía la búsqueda cuando ninguno puede ayudar. Las asignaciones de trabajadores y el orden de tratamiento pueden cambiar. Hacer menos comparaciones no garantiza un mejor rendimiento general. Desactivado por defecto.</SAR_Settings_FastRescue_Desc>
+  <!-- EN: Simplify transport and supplies (experimental) -->
+  <SAR_Settings_SimpleLogistics>Simplificar transporte y suministros (experimental)</SAR_Settings_SimpleLogistics>
+  <!-- EN: Assign transport, handoffs and supply deliveries by patient urgency using fewer worker comparisons. Walking distance and waiting times may increase. Combining simplifications can also reduce overall performance. Resource ownership checks remain active. Disabled by default. -->
+  <SAR_Settings_SimpleLogistics_Desc>Asigna el transporte, los relevos y las entregas de suministros según la urgencia del paciente, con menos comparaciones entre trabajadores. Las distancias a pie y los tiempos de espera pueden aumentar. Combinar simplificaciones también puede reducir el rendimiento general. Las comprobaciones de propiedad de recursos siguen activas. Desactivado por defecto.</SAR_Settings_SimpleLogistics_Desc>
+  <!-- EN: Compare fewer medicine sources -->
+  <SAR_Settings_SimpleMedicine>Comparar menos fuentes de medicina</SAR_Settings_SimpleMedicine>
+  <!-- EN: Limit the ordinary medicine search to four usable sources, checking carried and nearby medicine first. Delivered supplies, special emergency procedures and medical-care restrictions remain active. Smart Medicine and Choose Your Medicine keep their selection. Quality and consumption may change. Disabled by default. -->
+  <SAR_Settings_SimpleMedicine_Desc>Limita la búsqueda normal de medicina a cuatro fuentes utilizables y revisa primero la medicina que se lleva encima y la cercana. Los suministros entregados, los procedimientos especiales de emergencia y las restricciones de atención médica siguen activos. Smart Medicine y Choose Your Medicine conservan su selección. La calidad y el consumo pueden cambiar. Desactivado por defecto.</SAR_Settings_SimpleMedicine_Desc>
+  <!-- EN: Collect medicine for several patients -->
+  <SAR_Settings_MissionKits>Recoger medicina para varios pacientes</SAR_Settings_MissionKits>
+  <!-- EN: Bring extra medicine from the chosen pickup for nearby patients. Turning this off may cause more supply trips; its direct performance benefit is usually small. Enabled by default. -->
+  <SAR_Settings_MissionKits_Desc>Lleva medicina adicional del punto de recogida elegido para los pacientes cercanos. Desactivarlo puede provocar más viajes de suministro; su beneficio directo en el rendimiento suele ser pequeño. Activado por defecto.</SAR_Settings_MissionKits_Desc>
+  <!-- EN: Resume transfusion -->
+  <SAR_ResumeTransfusion>Reanudar transfusión</SAR_ResumeTransfusion>
+  <!-- EN: Remove the extraction recovery marker and allow SAR blood transfusions and saline again. -->
+  <SAR_ResumeTransfusionDesc>Quita el marcador de recuperación tras la extracción y vuelve a permitir las transfusiones sanguíneas y el suero salino de SAR.</SAR_ResumeTransfusionDesc>
+  <!-- EN: Reads individual workgiver priorities, including disabled medical subtasks. Enable Field Rescue and GrimWorks Rescue for evacuation; Hauling is optional in this setup. Tending requires the appropriate medical work, and Nurse provides nursing duties. -->
+  <SAR_Compatibility_GrimWorks>Lee las prioridades de cada tarea, incluidas las subtareas médicas desactivadas. Activa Rescate y el rescate de GrimWorks para las evacuaciones; en esta configuración, Transporte es opcional. Atender heridas requiere el trabajo médico correspondiente, y Enfermería se encarga de los cuidados.</SAR_Compatibility_GrimWorks>
+  <!-- EN: Temporarily protects medical supplies assigned to SAR from surplus unloading. Normal unloading resumes when SAR releases the supplies; Hauler&apos;s Dream retains its own inventory and hauling rules. -->
+  <SAR_Compatibility_HaulersDream>Protege temporalmente de la descarga de excedentes los suministros médicos asignados a SAR. La descarga normal se reanuda cuando SAR libera los suministros; Hauler's Dream conserva sus propias reglas de inventario y transporte.</SAR_Compatibility_HaulersDream>
+  <!-- EN: Fast approximate matching (experimental) -->
+  <SAR_Settings_ApproximateMatching>Emparejamiento aproximado rápido (experimental)</SAR_Settings_ApproximateMatching>
+  <!-- EN: Reduce matching time with an approximate algorithm. Total scores and the number of patients assigned may be lower. It applies to full candidate graphs; fast rescue allocation and simplified logistics use their own assignment methods. Disabled by default. -->
+  <SAR_Settings_ApproximateMatching_Desc>Reduce el tiempo de emparejamiento con un algoritmo aproximado. La puntuación total y la cantidad de pacientes asignados pueden ser menores. Se aplica a los grafos completos de candidatos; la asignación rápida de rescates y la logística simplificada usan sus propios métodos de asignación. Desactivado por defecto.</SAR_Settings_ApproximateMatching_Desc>
+  <!-- EN: Search and Rescue -->
+  <ModName>Search and Rescue</ModName>
+  <!-- EN: Batch battlefield treatment, rescue, and capture orders. Mark multiple humanlike pawns or non-hostile animals and let responders carry out the requested stages in a safe, predictable order. -->
+  <ModDescription>Órdenes en lote de tratamiento, rescate y captura en el campo de batalla. Marca a varios individuos humanoides o animales no hostiles y deja que los socorristas realicen las etapas indicadas en un orden seguro y predecible.</ModDescription>
+  <!-- EN: Search and rescue -->
+  <SAR_Command_Label>Búsqueda y rescate</SAR_Command_Label>
+  <!-- EN: By default, marks every applicable stage in the safe order: capture, field treatment, then rescue. Right-click to choose a single stage or configure the rescue point. -->
+  <SAR_Command_Desc>Por defecto, marca todas las etapas aplicables en el orden seguro: captura, tratamiento de campo y, por último, rescate. Haz clic derecho para elegir una sola etapa o configurar el punto de rescate.</SAR_Command_Desc>
+  <!-- EN: All: capture + treat + rescue -->
+  <SAR_Command_All>Todo: capturar + tratar + rescatar</SAR_Command_All>
+  <!-- EN: Clear all Search and Rescue orders ({0}) -->
+  <SAR_ClearAllOrders>Quitar todas las órdenes de búsqueda y rescate ({0})</SAR_ClearAllOrders>
+  <!-- EN: Field treatment -->
+  <SAR_Treat_Label>Tratamiento de campo</SAR_Treat_Label>
+  <!-- EN: Monitor humanlike pawns and non-hostile animals for battlefield care. Life-threatening injuries are stabilized first, then remaining wounds use a lower lane within Field Rescue. The Work tab controls Field Rescue versus Doctor ordering; Field Rescue wins when their configured priorities match. When paired with rescue, monitoring continues until safe delivery and can interrupt transport if the casualty deteriorates. Repairable colony mechs receive native repairs from mechanitors with Field Rescue and Smithing enabled, following the auto-repair toggle. -->
+  <SAR_Treat_Desc>Vigila a los individuos humanoides y animales no hostiles para atenderlos en el campo de batalla. Primero se estabilizan las heridas que ponen en peligro la vida y después las demás heridas pasan a una cola de menor prioridad dentro de Rescate. La pestaña Trabajo decide el orden entre Rescate y Médico; si sus prioridades coinciden, gana Rescate. Si se combina con el rescate, la vigilancia continúa hasta la entrega segura y puede interrumpir el transporte si el herido empeora. Los mecas reparables de la colonia reciben las reparaciones normales de los mecanizadores que tengan activados Rescate y Forjar, según el interruptor de reparación automática.</SAR_Treat_Desc>
+  <!-- EN: Battlefield rescue -->
+  <SAR_Rescue_Label>Rescate en combate</SAR_Rescue_Label>
+  <!-- EN: Mark downed humanlike pawns and non-hostile animals for evacuation after earlier marked stages finish. Uses a suitable bed, including animal beds, or the rescue point set from this tool&apos;s right-click menu. Downed colony mechs are delivered to the rescue point. -->
+  <SAR_Rescue_Desc>Marca a los individuos humanoides y animales no hostiles incapacitados para evacuarlos cuando terminen las etapas marcadas antes. Usa una cama adecuada, incluidas las camas para animales, o el punto de rescate fijado desde el menú de clic derecho de esta herramienta. Los mecas incapacitados de la colonia se llevan al punto de rescate.</SAR_Rescue_Desc>
+  <!-- EN: Capture here -->
+  <SAR_Capture_Label>Capturar aquí</SAR_Capture_Label>
+  <!-- EN: Mark downed hostile humanlike pawns to be captured in place before treatment or evacuation. -->
+  <SAR_Capture_Desc>Marca a los individuos humanoides hostiles incapacitados para capturarlos en el lugar antes de tratarlos o evacuarlos.</SAR_Capture_Desc>
+  <!-- EN: Set rescue point -->
+  <SAR_SetRescuePoint>Fijar punto de rescate</SAR_SetRescuePoint>
+  <!-- EN: Clear rescue point -->
+  <SAR_ClearRescuePoint>Quitar punto de rescate</SAR_ClearRescuePoint>
+  <!-- EN: Rescue point -->
+  <SAR_RescuePoint_Label>Punto de rescate</SAR_RescuePoint_Label>
+  <!-- EN: Choose a fallback safe cell. Rescuers carry marked pawns here only when no suitable bed is available. -->
+  <SAR_RescuePoint_Desc>Elige una casilla segura de reserva. Los rescatistas llevan aquí a los individuos marcados solo cuando no hay ninguna cama adecuada disponible.</SAR_RescuePoint_Desc>
+  <!-- EN: Only living, spawned humanlike flesh pawns can be marked. -->
+  <SAR_OnlyHumanlike>Solo se pueden marcar individuos humanoides de carne, vivos y presentes en el mapa.</SAR_OnlyHumanlike>
+  <!-- EN: Select a living humanlike, non-hostile animal, or repairable colony mech on this map. -->
+  <SAR_OnlyHumanlikeOrAnimal>Selecciona a un humanoide vivo, un animal no hostil o un meca reparable de la colonia en este mapa.</SAR_OnlyHumanlikeOrAnimal>
+  <!-- EN: Select a humanlike pawn or a non-hostile animal for battlefield treatment and rescue. -->
+  <SAR_HostileAnimalUnsupported>Selecciona a un individuo humanoide o a un animal no hostil para el tratamiento y el rescate en combate.</SAR_HostileAnimalUnsupported>
+  <!-- EN: This pawn has no injury that currently needs treatment. -->
+  <SAR_NoTreatmentNeeded>Este individuo no tiene ninguna herida que necesite tratamiento ahora.</SAR_NoTreatmentNeeded>
+  <!-- EN: Hostile pawns must be marked for capture before they can be marked for field treatment. -->
+  <SAR_TreatmentRequiresCapture>Los individuos hostiles deben marcarse para captura antes de poder marcarse para tratamiento de campo.</SAR_TreatmentRequiresCapture>
+  <!-- EN: This pawn must be downed. -->
+  <SAR_MustBeDowned>Este individuo debe estar incapacitado.</SAR_MustBeDowned>
+  <!-- EN: Hostile pawns must be marked for capture before they can be marked for rescue. -->
+  <SAR_RescueRequiresCapture>Los individuos hostiles deben marcarse para captura antes de poder marcarse para rescate.</SAR_RescueRequiresCapture>
+  <!-- EN: This pawn is already settled in a suitable bed. -->
+  <SAR_AlreadyInSafeBed>Este individuo ya está en una cama adecuada.</SAR_AlreadyInSafeBed>
+  <!-- EN: Only downed hostile pawns that are not already prisoners can be captured here. -->
+  <SAR_CaptureRequiresHostile>Aquí solo se pueden capturar individuos hostiles incapacitados que no sean ya prisioneros.</SAR_CaptureRequiresHostile>
+  <!-- EN: The rescue point must be a standable, unfogged cell. -->
+  <SAR_InvalidRescuePoint>El punto de rescate debe ser una casilla transitable y descubierta.</SAR_InvalidRescuePoint>
+  <!-- EN: Field treatment skipped for {0}: Combat Extended stabilization requires medicine. -->
+  <SAR_CE_NoMedicine>Se omitió el tratamiento de campo de {0}: la estabilización de Combat Extended requiere medicina.</SAR_CE_NoMedicine>
+  <!-- EN: Search and Rescue -->
+  <SAR_Settings_Category>Search and Rescue</SAR_Settings_Category>
+  <!-- EN: Rescue workforce -->
+  <SAR_Settings_RescueWorkMode>Personal de rescate</SAR_Settings_RescueWorkMode>
+  <!-- EN: Hauling uses Hauling work. Nursing preferred prioritizes Nurse Job workers, with haulers filling in. Nursing only uses Nursing work. Enable the work type required by your chosen mode for each responder. -->
+  <SAR_Settings_RescueWorkMode_Desc>Transporte usa el trabajo de Transporte. Preferir enfermería da prioridad a los trabajadores de Nurse Job, con transportistas como refuerzo. Solo enfermería usa el trabajo de Enfermería. Activa en cada socorrista el tipo de trabajo que requiere el modo elegido.</SAR_Settings_RescueWorkMode_Desc>
+  <!-- EN: Hauling -->
+  <SAR_Settings_RescueWorkMode_Hauling>Transporte</SAR_Settings_RescueWorkMode_Hauling>
+  <!-- EN: Nursing preferred, hauling fallback -->
+  <SAR_Settings_RescueWorkMode_NursingPreferred>Preferir enfermería, transporte como reserva</SAR_Settings_RescueWorkMode_NursingPreferred>
+  <!-- EN: Nursing only -->
+  <SAR_Settings_RescueWorkMode_NursingOnly>Solo enfermería</SAR_Settings_RescueWorkMode_NursingOnly>
+  <!-- EN: Medical coordination scope -->
+  <SAR_Settings_MedicalCoordinationMode>Alcance de la coordinación médica</SAR_Settings_MedicalCoordinationMode>
+  <!-- EN: Marked only schedules patients with player designations. Automatic emergencies also coordinates stabilization, transfusions, infection tending and first aid for colony members. All tending extends coordination to every condition currently needing tending. -->
+  <SAR_Settings_MedicalCoordinationMode_Desc>Solo marcados programa a los pacientes que el jugador designó. Emergencias automáticas también coordina la estabilización, las transfusiones, la atención de infecciones y los primeros auxilios de los miembros de la colonia. Toda la atención extiende la coordinación a toda afección que necesite atención en ese momento.</SAR_Settings_MedicalCoordinationMode_Desc>
+  <!-- EN: Marked patients only -->
+  <SAR_Settings_MedicalCoordinationMode_MarkedOnly>Solo pacientes marcados</SAR_Settings_MedicalCoordinationMode_MarkedOnly>
+  <!-- EN: Automatically coordinate emergencies -->
+  <SAR_Settings_MedicalCoordinationMode_EmergencyAuto>Coordinar emergencias automáticamente</SAR_Settings_MedicalCoordinationMode_EmergencyAuto>
+  <!-- EN: Coordinate all ordinary tending -->
+  <SAR_Settings_MedicalCoordinationMode_AllTending>Coordinar toda la atención normal</SAR_Settings_MedicalCoordinationMode_AllTending>
+  <!-- EN: Nurse Job detected. Nursing rescue modes are available. -->
+  <SAR_Settings_NurseDetected>Nurse Job detectado. Los modos de rescate con enfermería están disponibles.</SAR_Settings_NurseDetected>
+  <!-- EN: Enable Nurse Job to use nursing rescue modes. Hauling is available with the current mod setup. -->
+  <SAR_Settings_NurseNotDetected>Activa Nurse Job para usar los modos de rescate con enfermería. Con los mods actuales está disponible Transporte.</SAR_Settings_NurseNotDetected>
+  <!-- EN: General -->
+  <SAR_Settings_Tab_General>General</SAR_Settings_Tab_General>
+  <!-- EN: Triage &amp; logistics -->
+  <SAR_Settings_Tab_Advanced>Triaje y logística</SAR_Settings_Tab_Advanced>
+  <!-- EN: Compatibility -->
+  <SAR_Settings_Tab_Compatibility>Compatibilidad</SAR_Settings_Tab_Compatibility>
+  <!-- EN: Coordination -->
+  <SAR_Settings_Section_Scope>Coordinación</SAR_Settings_Section_Scope>
+  <!-- EN: Enable Field Rescue in the Work tab and set its overall rescue priority. Also enable Doctor, Warden, Hauling or Nursing work so responders can perform the corresponding tasks. -->
+  <SAR_Settings_FieldRescueWorkType_Desc>Activa Rescate en la pestaña Trabajo y fija su prioridad general de rescate. Activa también Médico, Vigilante, Transporte o Enfermería para que los socorristas puedan realizar las tareas correspondientes.</SAR_Settings_FieldRescueWorkType_Desc>
+  <!-- EN: Continuity -->
+  <SAR_Settings_Section_Continuity>Continuidad</SAR_Settings_Section_Continuity>
+  <!-- EN: Triage weights -->
+  <SAR_Settings_Section_Triage>Pesos del triaje</SAR_Settings_Section_Triage>
+  <!-- EN: Medical logistics -->
+  <SAR_Settings_Section_Logistics>Logística médica</SAR_Settings_Section_Logistics>
+  <!-- EN: Interrupt cleaning and patient feeding for emergencies -->
+  <SAR_Settings_PreemptRoutine>Interrumpir la limpieza y la alimentación de pacientes por emergencias</SAR_Settings_PreemptRoutine>
+  <!-- EN: Allows capture and emergency treatment to take over from automatic cleaning or patient-feeding jobs. Player-ordered jobs retain priority. -->
+  <SAR_Settings_PreemptRoutine_Desc>Permite que la captura y el tratamiento de emergencia reemplacen los trabajos automáticos de limpieza o de alimentación de pacientes. Los trabajos ordenados por el jugador conservan la prioridad.</SAR_Settings_PreemptRoutine_Desc>
+  <!-- EN: Let rescuers approach patients who are being treated -->
+  <SAR_Settings_EnableStandby>Dejar que los rescatistas se acerquen a los pacientes en tratamiento</SAR_Settings_EnableStandby>
+  <!-- EN: When a doctor is actually on the way or treating, a rescuer may travel toward the patient so evacuation can begin promptly. -->
+  <SAR_Settings_EnableStandby_Desc>Cuando un médico ya está en camino o tratando al paciente, un rescatista puede ir hacia él para que la evacuación empiece enseguida.</SAR_Settings_EnableStandby_Desc>
+  <!-- EN: Rescuer arrival lead -->
+  <SAR_Settings_StandbyLead>Antelación de llegada del rescatista</SAR_Settings_StandbyLead>
+  <!-- EN: How much earlier a rescuer may arrive than the estimated treatment end. At zero, rescuers depart when their expected travel time equals or exceeds the remaining treatment time. -->
+  <SAR_Settings_StandbyLead_Desc>Cuánto antes del fin estimado del tratamiento puede llegar un rescatista. En cero, los rescatistas salen cuando su tiempo de viaje previsto iguala o supera el tiempo de tratamiento restante.</SAR_Settings_StandbyLead_Desc>
+  <!-- EN: Recent marker memory -->
+  <SAR_Settings_MarkerMemory>Memoria de marcadores recientes</SAR_Settings_MarkerMemory>
+  <!-- EN: After an order completes automatically, remember it for this many game hours. If the pawn recovers and is downed again during that time, applicable markers return. Zero disables this behavior. -->
+  <SAR_Settings_MarkerMemory_Desc>Cuando una orden se completa automáticamente, se recuerda durante esta cantidad de horas de juego. Si el individuo se recupera y vuelve a quedar incapacitado en ese tiempo, los marcadores aplicables regresan. En cero se desactiva este comportamiento.</SAR_Settings_MarkerMemory_Desc>
+  <!-- EN: Bleeding emergency sensitivity -->
+  <SAR_Settings_BleedingSensitivity>Sensibilidad ante hemorragias</SAR_Settings_BleedingSensitivity>
+  <!-- EN: Adjusts how triage responds to bleeding. Higher values bring smaller untreated bleeds into emergency care and continue stabilization longer. -->
+  <SAR_Settings_BleedingSensitivity_Desc>Ajusta cómo responde el triaje al sangrado. Los valores más altos incluyen en la atención de emergencia sangrados menores sin tratar y prolongan la estabilización.</SAR_Settings_BleedingSensitivity_Desc>
+  <!-- EN: Blood-loss prediction horizon -->
+  <SAR_Settings_BloodLossWarning>Horizonte de predicción de hemorragia</SAR_Settings_BloodLossWarning>
+  <!-- EN: A patient predicted to die from blood loss within this many game hours is admitted to emergency stabilization. -->
+  <SAR_Settings_BloodLossWarning_Desc>Un paciente que, según la predicción, morirá por hemorragia dentro de esta cantidad de horas de juego pasa a estabilización de emergencia.</SAR_Settings_BloodLossWarning_Desc>
+  <!-- EN: Urgent-surgery evacuation priority -->
+  <SAR_Settings_SurgeryPriority>Prioridad de evacuación por cirugía urgente</SAR_Settings_SurgeryPriority>
+  <!-- EN: Raises evacuation priority for patients with life-threatening conditions requiring surgery, helping them reach a bed for treatment. Set to zero to disable this bonus. -->
+  <SAR_Settings_SurgeryPriority_Desc>Sube la prioridad de evacuación de los pacientes con afecciones mortales que requieren cirugía, para que lleguen a una cama donde tratarlos. Ponlo en cero para desactivar esta bonificación.</SAR_Settings_SurgeryPriority_Desc>
+  <!-- EN: Treatment-before-transport priority -->
+  <SAR_Settings_TreatmentTransportPriority>Prioridad del tratamiento antes del transporte</SAR_Settings_TreatmentTransportPriority>
+  <!-- EN: Favors stabilizing patients before ordinary evacuation. Capture takes priority in the stage sequence. -->
+  <SAR_Settings_TreatmentTransportPriority_Desc>Favorece estabilizar a los pacientes antes de la evacuación normal. La captura tiene prioridad en la secuencia de etapas.</SAR_Settings_TreatmentTransportPriority_Desc>
+  <!-- EN: Doctor target-switch reluctance -->
+  <SAR_Settings_SwitchReluctance>Resistencia del médico a cambiar de paciente</SAR_Settings_SwitchReluctance>
+  <!-- EN: Higher values require a larger benefit before a doctor switches patients at a safe treatment boundary, reducing walking and target churn. -->
+  <SAR_Settings_SwitchReluctance_Desc>Los valores más altos exigen un beneficio mayor para que un médico cambie de paciente en un punto seguro del tratamiento, lo que reduce las caminatas y los cambios constantes de objetivo.</SAR_Settings_SwitchReluctance_Desc>
+  <!-- EN: Medicine detour tolerance -->
+  <SAR_Settings_MedicineDetour>Tolerancia a desvíos por medicina</SAR_Settings_MedicineDetour>
+  <!-- EN: Higher values make doctors and suppliers more willing to detour for useful medicine or equipment. Urgency, scarcity, and treatment benefit still apply. -->
+  <SAR_Settings_MedicineDetour_Desc>Los valores más altos hacen que médicos y abastecedores estén más dispuestos a desviarse para buscar medicina o equipo útil. La urgencia, la escasez y el beneficio del tratamiento se siguen teniendo en cuenta.</SAR_Settings_MedicineDetour_Desc>
+  <!-- EN: Patients covered by one mission kit -->
+  <SAR_Settings_KitPatients>Pacientes cubiertos por un botiquín de misión</SAR_Settings_KitPatients>
+  <!-- EN: Maximum number of current casualties considered when a doctor plans a multi-patient field kit. -->
+  <SAR_Settings_KitPatients_Desc>Cantidad máxima de heridos actuales que se consideran cuando un médico prepara un botiquín de campo para varios pacientes.</SAR_Settings_KitPatients_Desc>
+  <!-- EN: Consumable units per mission kit -->
+  <SAR_Settings_KitConsumables>Unidades de consumibles por botiquín de misión</SAR_Settings_KitConsumables>
+  <!-- EN: Maximum units of each consumable carried for a mission. Each reusable device is carried as a single unit. -->
+  <SAR_Settings_KitConsumables_Desc>Unidades máximas de cada consumible que se llevan en una misión. Cada dispositivo reutilizable se lleva como una sola unidad.</SAR_Settings_KitConsumables_Desc>
+  <!-- EN: Field-supply association radius -->
+  <SAR_Settings_FieldSupplyRadius>Radio de asociación de suministros de campo</SAR_Settings_FieldSupplyRadius>
+  <!-- EN: Supplies within this many cells of a patient can satisfy that patient&apos;s budget and remain protected while referenced. -->
+  <SAR_Settings_FieldSupplyRadius_Desc>Los suministros que estén a esta cantidad de casillas o menos de un paciente pueden cubrir lo que ese paciente necesita y quedan protegidos mientras estén asignados.</SAR_Settings_FieldSupplyRadius_Desc>
+  <!-- EN: {0}% -->
+  <SAR_Settings_Value_Percent>{0}%</SAR_Settings_Value_Percent>
+  <!-- EN: {0} game hours -->
+  <SAR_Settings_Value_Hours>{0} horas de juego</SAR_Settings_Value_Hours>
+  <!-- EN: {0} seconds -->
+  <SAR_Settings_Value_Seconds>{0} segundos</SAR_Settings_Value_Seconds>
+  <!-- EN: {0} cells -->
+  <SAR_Settings_Value_Cells>{0} casillas</SAR_Settings_Value_Cells>
+  <!-- EN: Restore default settings -->
+  <SAR_Settings_ResetDefaults>Restablecer la configuración predeterminada</SAR_Settings_ResetDefaults>
+  <!-- EN: Third-party compatibility -->
+  <SAR_Settings_Compatibility_Title>Compatibilidad con otros mods</SAR_Settings_Compatibility_Title>
+  <!-- EN: Enabled mods appear first. Hover a row for support details. Integration adds rescue actions, responders or supply sources. Compatible covers settings, job recognition and coordinated behavior. Not enabled indicates a mod that is switched off or awaiting installation. -->
+  <SAR_Settings_Compatibility_Desc>Los mods activados aparecen primero. Pasa el cursor sobre una fila para ver los detalles de compatibilidad. Integración añade acciones de rescate, socorristas o fuentes de suministros. Compatible abarca la configuración, el reconocimiento de trabajos y el comportamiento coordinado. No activado indica un mod desactivado o pendiente de instalar.</SAR_Settings_Compatibility_Desc>
+  <!-- EN: Third-party mod -->
+  <SAR_Settings_Compatibility_Mod>Mod de terceros</SAR_Settings_Compatibility_Mod>
+  <!-- EN: Status -->
+  <SAR_Settings_Compatibility_Status>Estado</SAR_Settings_Compatibility_Status>
+  <!-- EN: {0}
+
+{1} -->
+  <SAR_Settings_Compatibility_TooltipActive>{0}\n\n{1}</SAR_Settings_Compatibility_TooltipActive>
+  <!-- EN: Not enabled. Support when enabled: {0}.
+
+{1} -->
+  <SAR_Settings_Compatibility_TooltipDisabled>No activado. Compatibilidad al activarlo: {0}.\n\n{1}</SAR_Settings_Compatibility_TooltipDisabled>
+  <!-- EN: Integration -->
+  <SAR_Compatibility_Status_Integration>Integración</SAR_Compatibility_Status_Integration>
+  <!-- EN: Compatible -->
+  <SAR_Compatibility_Status_Compatible>Compatible</SAR_Compatibility_Status_Compatible>
+  <!-- EN: Partial -->
+  <SAR_Compatibility_Status_Partial>Parcial</SAR_Compatibility_Status_Partial>
+  <!-- EN: Incompatible -->
+  <SAR_Compatibility_Status_Incompatible>Incompatible</SAR_Compatibility_Status_Incompatible>
+  <!-- EN: Not enabled -->
+  <SAR_Compatibility_Status_Disabled>No activado</SAR_Compatibility_Status_Disabled>
+  <!-- EN: Uses CE stabilization, quantity-aware medicine reservations, carried-inventory access, and CE capacity limits. -->
+  <SAR_Compatibility_CombatExtended>Usa la estabilización de CE, reservas de medicina que tienen en cuenta la cantidad, el acceso al inventario que se lleva encima y los límites de capacidad de CE.</SAR_Compatibility_CombatExtended>
+  <!-- EN: Coordinates CPR, airway care, defibrillation, hemostasis, tourniquets, saline and blood bags. Surgical-only trauma raises evacuation priority. -->
+  <SAR_Compatibility_MoreInjuries>Coordina la RCP, el manejo de la vía aérea, la desfibrilación, la hemostasia, los torniquetes, el suero salino y las bolsas de sangre. Los traumatismos que solo se tratan con cirugía suben la prioridad de evacuación.</SAR_Compatibility_MoreInjuries>
+  <!-- EN: Includes dangerous conditions in triage and prioritizes evacuation for bedside emergencies. MSE2 provides its specialized surgical care, prosthetic subparts and equipment through its bedside system. -->
+  <SAR_Compatibility_MSE2>Incluye las afecciones peligrosas en el triaje y prioriza la evacuación de las emergencias que se tratan en cama. MSE2 aporta su atención quirúrgica especializada, las subpartes protésicas y el equipo mediante su sistema de cabecera.</SAR_Compatibility_MSE2>
+  <!-- EN: Works through standard health and surgery interfaces. Implants, replacements, amputations and elective operations use EPOE and vanilla surgery bills. -->
+  <SAR_Compatibility_EPOE>Funciona mediante las interfaces estándar de salud y cirugía. Los implantes, reemplazos, amputaciones y operaciones programadas usan las órdenes de cirugía de EPOE y del juego base.</SAR_Compatibility_EPOE>
+  <!-- EN: Supports the MemeGoddess and PES7 continuations. Enable only one Smart Medicine core mod at a time. Uses its medicine selection and temporary tending spots, and protects assigned field supplies. SAR restocking and delivery make medicine carried by other pawns available to CE stabilization. -->
+  <SAR_Compatibility_SmartMedicine>Compatible con las continuaciones de MemeGoddess y PES7. Activa solo un mod base de Smart Medicine a la vez. Usa su selección de medicina y sus puntos de atención temporales, y protege los suministros de campo asignados. El reabastecimiento y las entregas de SAR ponen a disposición de la estabilización de CE la medicina que llevan otros individuos.</SAR_Compatibility_SmartMedicine>
+  <!-- EN: Reads its severity- and pawn-category medicine recommendation while retaining the pawn&apos;s vanilla medicine ceiling as a hard limit. -->
+  <SAR_Compatibility_Pharmacist>Lee su recomendación de medicina según la gravedad y la categoría del individuo, y mantiene como límite estricto el tope de medicina del juego base de ese individuo.</SAR_Compatibility_Pharmacist>
+  <!-- EN: Reads its medicine groups, injury-stage policy, ordering, and per-wound coverage for budgets, kits, deliveries, and final tending. -->
+  <SAR_Compatibility_ChooseMedicine>Lee sus grupos de medicina, su política por etapa de herida, su orden y su cobertura por herida para calcular necesidades, botiquines, entregas y la atención final.</SAR_Compatibility_ChooseMedicine>
+  <!-- EN: Reads current individual medical-care settings on each planning pass, applying table changes to the next set of assignments. -->
+  <SAR_Compatibility_MedicalTab>Lee la configuración actual de atención médica de cada individuo en cada ronda de planificación y aplica los cambios de la tabla a la siguiente tanda de asignaciones.</SAR_Compatibility_MedicalTab>
+  <!-- EN: Population defaults ultimately use standard pawn medical-care settings, which Search and Rescue reads directly. -->
+  <SAR_Compatibility_Defaults>Los valores predeterminados por población terminan usando la configuración estándar de atención médica de los individuos, que Search and Rescue lee directamente.</SAR_Compatibility_Defaults>
+  <!-- EN: Creates the mod&apos;s native one-pack transfusion job and can source hemogen from the patient, responder, map, or supported carriers. -->
+  <SAR_Compatibility_EmergencyTransfusions>Crea el trabajo propio del mod de transfusión con un solo pack y puede obtener el hemógeno del paciente, del socorrista, del mapa o de los portadores compatibles.</SAR_Compatibility_EmergencyTransfusions>
+  <!-- EN: Provides emergency hemogen transfusion when Emergency Transfusions is unavailable, using the mod&apos;s native job. -->
+  <SAR_Compatibility_HemogenDirect>Ofrece transfusión de hemógeno de emergencia cuando Emergency Transfusions no está disponible, con el trabajo propio del mod.</SAR_Compatibility_HemogenDirect>
+  <!-- EN: Prioritizes evacuation for native no-pulse, oxygen-deprivation, organ-failure and coma states without creating futile tending jobs. Restored function clears the extra priority. Surgery and life support remain with their own systems. -->
+  <SAR_Compatibility_DeathRattle>Prioriza la evacuación en sus estados de falta de pulso, falta de oxígeno, fallo orgánico y coma, sin crear trabajos de atención inútiles. Al recuperarse la función se quita la prioridad adicional. La cirugía y el soporte vital siguen a cargo de sus propios sistemas.</SAR_Compatibility_DeathRattle>
+  <!-- EN: Uses RH2&apos;s native field-aid job when Combat Extended is not active and registers it as external patient ownership. -->
+  <SAR_Compatibility_RH2FirstAid>Usa el trabajo propio de primeros auxilios de campo de RH2 cuando Combat Extended no está activo y lo registra como asignación externa del paciente.</SAR_Compatibility_RH2FirstAid>
+  <!-- EN: Uses RH2&apos;s native arrest-in-place job for the capture stage. -->
+  <SAR_Compatibility_RH2Arrest>Usa el trabajo propio de arresto en el lugar de RH2 para la etapa de captura.</SAR_Compatibility_RH2Arrest>
+  <!-- EN: Automatically uses a worn, charged medical kit when its native automatic-tending toggle is enabled. Respects medicine policy and reassesses after one native round. CE stabilization retains priority; manual Rimkit jobs keep their original behavior. -->
+  <SAR_Compatibility_DubsRimkit>Usa automáticamente un botiquín equipado y con carga cuando está activado su interruptor propio de atención automática. Respeta la política de medicina y vuelve a evaluar tras una ronda propia. La estabilización de CE conserva la prioridad; los trabajos manuales de Rimkit mantienen su comportamiento original.</SAR_Compatibility_DubsRimkit>
+  <!-- EN: Recognizes team ownership before its first job, its treatment/transport jobs, and releases stale ownership when no operational responder remains. -->
+  <SAR_Compatibility_TraumaTeam>Reconoce la asignación del equipo antes de su primer trabajo y en sus trabajos de tratamiento y transporte, y libera las asignaciones obsoletas cuando no queda ningún socorrista operativo.</SAR_Compatibility_TraumaTeam>
+  <!-- EN: Asks the patient&apos;s transfer component for its preferred medical bed before falling back to vanilla bed search. -->
+  <SAR_Compatibility_MovePatient>Consulta al componente de traslado del paciente cuál es su cama médica preferida antes de recurrir a la búsqueda de camas del juego base.</SAR_Compatibility_MovePatient>
+  <!-- EN: Recognizes pod admission and occupancy. Unassigned SAR marks allow native admission; committed SAR care retains its phase. Pod selection and treatment remain native. -->
+  <SAR_Compatibility_MedPod>Reconoce el ingreso y la ocupación de las cápsulas. Las marcas de SAR sin asignar permiten el ingreso propio del mod; la atención de SAR ya comprometida conserva su fase. La elección de cápsula y el tratamiento siguen a cargo del mod.</SAR_Compatibility_MedPod>
+  <!-- EN: Workers assigned to Field Rescue and CASEVAC start unattended evacuations first, then join existing teams or upgrade nearby SAR transports. Manual commands retain control. -->
+  <SAR_Compatibility_Casevac>Los trabajadores asignados a Rescate y a CASEVAC empiezan primero las evacuaciones sin atender y después se suman a equipos existentes o refuerzan transportes de SAR cercanos. Las órdenes manuales conservan el control.</SAR_Compatibility_Casevac>
+  <!-- EN: Its automatic capture WorkGiver participates in the common ownership gate; player-forced capture remains authoritative. -->
+  <SAR_Compatibility_SmarterCapture>Su tarea de captura automática participa en el control común de asignaciones; la captura forzada por el jugador sigue teniendo la última palabra.</SAR_Compatibility_SmarterCapture>
+  <!-- EN: Keeps supplies assigned to patients and current medical plans available for battlefield care. -->
+  <SAR_Compatibility_PickUpAndHaul>Mantiene disponibles para la atención en combate los suministros asignados a pacientes y a los planes médicos en curso.</SAR_Compatibility_PickUpAndHaul>
+  <!-- EN: Coordinates rescue through standard beds, guest status and faction relations. Hospitality settings and systems provide reception, fees and visitor activities. -->
+  <SAR_Compatibility_Hospitality>Coordina el rescate mediante las camas estándar, la condición de huésped y las relaciones entre facciones. La configuración y los sistemas de Hospitality se encargan de la recepción, las tarifas y las actividades de los visitantes.</SAR_Compatibility_Hospitality>
+  <!-- EN: Stationary, reachable player vehicles provide cargo for medical kits and deliveries. Use the vehicle and related mods’ actions for patient boarding and in-vehicle care. -->
+  <SAR_Compatibility_VehicleFramework>Los vehículos del jugador detenidos y accesibles aportan su carga para botiquines y entregas. Para subir pacientes y atenderlos dentro del vehículo, usa las acciones del vehículo y de los mods relacionados.</SAR_Compatibility_VehicleFramework>
+  <!-- EN: Offers hauling, nurse-preferred, and nurse-only rescue modes. Supportive interventions use Nursing with doctors as fallback where appropriate. -->
+  <SAR_Compatibility_NurseJob>Ofrece los modos de rescate Transporte, Preferir enfermería y Solo enfermería. Las intervenciones de apoyo usan Enfermería, con médicos como reserva cuando corresponde.</SAR_Compatibility_NurseJob>
+  <!-- EN: Reads SAR child priorities. More Injuries CPR, airway management, defibrillation and doctor transfusions also require the corresponding native child work. Nursing remains a separate authorization. -->
+  <SAR_Compatibility_WorkTab>Lee las prioridades de las subtareas de SAR. La RCP, el manejo de la vía aérea, la desfibrilación y las transfusiones de médico de More Injuries también requieren la subtarea propia correspondiente. Enfermería sigue siendo una autorización aparte.</SAR_Compatibility_WorkTab>
+  <!-- EN: Reads colony-mech detailed work settings when deciding which battlefield lanes a mech may enter. -->
+  <SAR_Compatibility_MechWorkTab>Lee la configuración detallada de trabajo de los mecas de la colonia para decidir en qué colas del campo de batalla puede entrar un meca.</SAR_Compatibility_MechWorkTab>
+  <!-- EN: Honors additional mech work modes and their effective work authority. -->
+  <SAR_Compatibility_WVCWorkModes>Respeta los modos de trabajo adicionales de los mecas y los permisos de trabajo que otorgan.</SAR_Compatibility_WVCWorkModes>
+  <!-- EN: Search and Destroy provides drafted combat control. After undrafting, pawns can join Search and Rescue according to their work settings. -->
+  <SAR_Compatibility_SearchDestroy>Search and Destroy se encarga del control en combate de los reclutados. Al desreclutarlos, los individuos pueden sumarse a Search and Rescue según su configuración de trabajo.</SAR_Compatibility_SearchDestroy>
+  <!-- EN: After tending, automatic cleaning yields to further rescue work. Player-ordered queues retain their existing orders. -->
+  <SAR_Compatibility_CommonSense>Después de atender, la limpieza automática cede el paso a más trabajo de rescate. Las colas ordenadas por el jugador conservan sus órdenes.</SAR_Compatibility_CommonSense>
+  <!-- EN: Recognizes field treatment, supply, CE, More Injuries and RH2 jobs so responders stay marked as busy during their tasks. -->
+  <SAR_Compatibility_PriorityTreatment>Reconoce los trabajos de tratamiento de campo, suministro, CE, More Injuries y RH2 para que los socorristas sigan marcados como ocupados durante sus tareas.</SAR_Compatibility_PriorityTreatment>
+  <!-- EN: Ordinary tending uses its urgency ordering. SAR coordinates admitted patients through unified matching. Player-ordered jobs have priority. -->
+  <SAR_Compatibility_TreatDyingFirst>La atención normal usa su orden por urgencia. SAR coordina a los pacientes admitidos mediante un emparejamiento unificado. Los trabajos ordenados por el jugador tienen prioridad.</SAR_Compatibility_TreatDyingFirst>
+  <!-- EN: Player-ordered bleeding control has priority. Combining it with SAR designations is partially compatible, with job behavior awaiting runtime validation. -->
+  <SAR_Compatibility_StabilizeBleeding>El control de hemorragias ordenado por el jugador tiene prioridad. Combinarlo con las designaciones de SAR es parcialmente compatible, y el comportamiento de los trabajos aún está pendiente de verificar en partida.</SAR_Compatibility_StabilizeBleeding>
+  <!-- EN: Allies can take over when SAR has no executable care assignment. Committed care and capture of still-hostile marked targets retain priority; manual orders remain protected. -->
+  <SAR_Compatibility_AlliesHelpful>Los aliados pueden hacerse cargo cuando SAR no tiene ninguna asignación de atención realizable. La atención ya comprometida y la captura de objetivos marcados que siguen siendo hostiles conservan la prioridad; las órdenes manuales siguen protegidas.</SAR_Compatibility_AlliesHelpful>
+  <!-- EN: Enemy evacuation remains authoritative once a hostile carrier starts it. A capture-marked enemy may therefore escape before a responder can claim them. -->
+  <SAR_Compatibility_NoOneLeftBehind>La evacuación enemiga tiene la última palabra una vez que un portador hostil la empieza. Por eso, un enemigo marcado para captura puede escapar antes de que un socorrista lo reclame.</SAR_Compatibility_NoOneLeftBehind>
+  <!-- EN: Field treatment, supply and transport can take over from its idle bed-rest job. -->
+  <SAR_Compatibility_StayInBed>El tratamiento de campo, el suministro y el transporte pueden reemplazar su trabajo de reposo inactivo en cama.</SAR_Compatibility_StayInBed>
+  <!-- EN: Overflow damage produces ordinary injuries, which are included automatically in bleeding, severity, and treatment scoring. -->
+  <SAR_Compatibility_GrievousWounds>El daño excedente produce heridas normales, que se incluyen automáticamente en la puntuación de sangrado, gravedad y tratamiento.</SAR_Compatibility_GrievousWounds>
+  <!-- EN: Added medical beds and medicine follow vanilla definitions and are discovered automatically. -->
+  <SAR_Compatibility_VFEMedical>Las camas médicas y la medicina que añade siguen las definiciones del juego base y se detectan automáticamente.</SAR_Compatibility_VFEMedical>
+  <!-- EN: Checks medical-bed suitability and current bed ownership before each transfer to select an appropriate destination. -->
+  <SAR_Compatibility_SensibleBedOwnership>Comprueba si la cama médica es adecuada y a quién pertenece antes de cada traslado, para elegir un destino apropiado.</SAR_Compatibility_SensibleBedOwnership>
+  <!-- EN: Non-hostile flesh animals can receive tending and rescue with standard medicine and animal beds. Capture applies to humanlike targets. -->
+  <SAR_Compatibility_YokaiVillage>Los animales de carne no hostiles pueden recibir atención y rescate con medicina estándar y camas para animales. La captura se aplica a objetivos humanoides.</SAR_Compatibility_YokaiVillage>
+  <!-- EN: Reads Hardworking settings and respects stop, follow, schedule and rest permissions. Use deterministic work modes for SAR automatic dispatch; species-specific job execution awaits runtime testing. -->
+  <SAR_Compatibility_Hardworking>Lee la configuración de Hardworking y respeta los permisos de detenerse, seguir, horario y descanso. Usa modos de trabajo deterministas para el envío automático de SAR; la ejecución de trabajos propios de cada especie aún está pendiente de probar en partida.</SAR_Compatibility_Hardworking>
+  <!-- EN: Paniel keeps its native medicine selection and tending. Biological emergency procedures are excluded. Full repair uses PN_Repair and its repair kit at a bed; native wound care has been playtested; full bedside repair awaits focused testing. -->
+  <SAR_Compatibility_Paniel>Paniel conserva su propia selección de medicina y su atención. Se excluyen los procedimientos de emergencia biológicos. La reparación completa usa PN_Repair y su kit de reparación en una cama; la atención propia de heridas ya se probó en partida; la reparación completa en cama aún está pendiente de pruebas específicas.</SAR_Compatibility_Paniel>
+  <!-- EN: Mechanical droids use native repair-parts selection and TendPatient; ChjAndroid keeps ordinary medicine. Biological emergency procedures are excluded. Full repair uses the native surgery flow; native wound care has been playtested; full bedside repair awaits focused testing. -->
+  <SAR_Compatibility_Androids>Los droides mecánicos usan su propia selección de piezas de reparación y TendPatient; ChjAndroid conserva la medicina normal. Se excluyen los procedimientos de emergencia biológicos. La reparación completa usa el flujo propio de cirugía; la atención propia de heridas ya se probó en partida; la reparación completa en cama aún está pendiente de pruebas específicas.</SAR_Compatibility_Androids>
+  <!-- EN: Uses Androids pawn and repair interfaces. ChjSpacerDroid repair-parts care has been playtested; other races and special abilities await focused testing. -->
+  <SAR_Compatibility_AndroidsExpanded>Usa las interfaces de individuos y de reparación de Androids. La atención con piezas de reparación de ChjSpacerDroid ya se probó en partida; las demás razas y habilidades especiales están pendientes de pruebas específicas.</SAR_Compatibility_AndroidsExpanded>
+  <!-- EN: Player-owned repairable automatroids use native repair and evacuation points. Repair jobs share patient ownership; deactivated bodies retain native control and resurrection flows. -->
+  <SAR_Compatibility_DmsCore>Los automatroides reparables del jugador usan sus propios puntos de reparación y evacuación. Los trabajos de reparación comparten la asignación del paciente; los cuerpos desactivados conservan su propio control y sus flujos de resurrección.</SAR_Compatibility_DmsCore>
+  <!-- EN: Synthetic automatroids use mech repair. Controlled units with Doctor or Hauling work can join through the rescue toggle, subject to their work mode and energy state. -->
+  <SAR_Compatibility_DmsSynthetic>Los automatroides sintéticos usan la reparación de mecas. Las unidades controladas con el trabajo Médico o Transporte pueden sumarse mediante el interruptor de rescate, según su modo de trabajo y su nivel de energía.</SAR_Compatibility_DmsSynthetic>
+  <!-- EN: Human pilots use normal treatment and rescue. Exosuit maintenance stays with Exosuit Framework; equipment combinations await focused testing. -->
+  <SAR_Compatibility_DmsMobileDragoon>Los pilotos humanos usan el tratamiento y el rescate normales. El mantenimiento de los exotrajes queda a cargo de Exosuit Framework; las combinaciones de equipo están pendientes de pruebas específicas.</SAR_Compatibility_DmsMobileDragoon>
+  <!-- EN: Repairable player-owned units use mech patient rules. Large combat automatroids and equipment combinations await focused testing. -->
+  <SAR_Compatibility_DmsAncientCorps>Las unidades reparables del jugador usan las reglas de pacientes de los mecas. Los automatroides de combate grandes y las combinaciones de equipo están pendientes de pruebas específicas.</SAR_Compatibility_DmsAncientCorps>
+  <!-- EN: Parked player vehicles expose medical cargo through Vehicle Framework. Vehicle maintenance, boarding and onboard treatment use the vehicle systems. -->
+  <SAR_Compatibility_DmsMotorized>Los vehículos estacionados del jugador ofrecen su carga médica mediante Vehicle Framework. El mantenimiento, el embarque y el tratamiento a bordo usan los sistemas del vehículo.</SAR_Compatibility_DmsMotorized>
+  <!-- EN: Dedicated field repair jobs participate in treatment ownership. Native work scheduling assigns Tinker repairs; SAR assigns mechanitors to eligible player-owned automatroids. -->
+  <SAR_Compatibility_DmsJointOperations>Los trabajos específicos de reparación de campo participan en la asignación de tratamientos. La planificación propia del mod asigna las reparaciones de Tinker; SAR asigna mecanizadores a los automatroides elegibles del jugador.</SAR_Compatibility_DmsJointOperations>
+</LanguageData>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Nurse Job</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>More Injuries</li>
+        <li>More Injuries (Continued)</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseBloodBag"]/label</xpath>
+            <value>
+              <!-- EN: perform a blood transfusion to stabilize patients with severe blood loss -->
+              <label>realizar una transfusión sanguínea para estabilizar a pacientes con hemorragia grave</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseBloodBag"]/verb</xpath>
+            <value>
+              <!-- EN: perform blood transfusion on -->
+              <verb>realizar transfusión sanguínea a</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseBloodBag"]/gerund</xpath>
+            <value>
+              <!-- EN: performing blood transfusion on -->
+              <gerund>realizando transfusión sanguínea a</gerund>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseSalineBag"]/label</xpath>
+            <value>
+              <!-- EN: perform a saline IV infusion to stabilize patients with severe blood loss -->
+              <label>administrar suero salino intravenoso para estabilizar a pacientes con hemorragia grave</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseSalineBag"]/verb</xpath>
+            <value>
+              <!-- EN: perform saline IV infusion on -->
+              <verb>administrar suero salino intravenoso a</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="SAR_NurseUseSalineBag"]/gerund</xpath>
+            <value>
+              <!-- EN: performing saline IV infusion on -->
+              <gerund>administrando suero salino intravenoso a</gerund>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
