@@ -33,7 +33,8 @@ jobs:
       cancel-in-progress: false
 
     steps:
-      # Con historial y tags: las notas son los commits desde la release anterior.
+      # Con historial y tags: la fecha del tag sale del último commit y hay que saber qué tags
+      # ya existen.
       - name: Clonar el repositorio
         uses: actions/checkout@v7
         with:
@@ -82,30 +83,15 @@ jobs:
           done
 
           mods=$(tail -n +2 "$copia/ModList.tsv" | grep -c .)
-          workshop=$(tr -d '[:space:]' < About/PublishedFileId.txt)
 
+          # Los cambios van como link a la comparación entre las dos releases, donde GitHub
+          # muestra los commits y el diff. La primera no tiene con qué compararse.
           {
-            if [ -z "$anterior" ]; then
-              echo "Primera release automática."
-            else
-              cambios=$(git log "$anterior"..HEAD --no-merges --format='- %s' -- Data)
-              if [ -z "$cambios" ]; then
-                echo "Sin cambios en las traducciones: se actualizó la lista de mods."
-              else
-                # sed y no head: con pipefail, head cortaria el echo y el paso saldria en rojo.
-                sed -n '1,40p' <<< "$cambios"
-                total=$(wc -l <<< "$cambios")
-                if [ "$total" -gt 40 ]; then
-                  echo "- … y $((total - 40)) cambios más"
-                fi
-              fi
-            fi
-            echo
             echo "**$mods mods traducidos.** Lista completa: https://lordmordelon.github.io/RML/"
-            echo
-            echo "**Sin Steam:** descomprime el zip en la carpeta Mods de RimWorld, pon RML al final de la lista de mods y elige el idioma SpanishLatin. Esta copia no se actualiza sola: para tener la última, vuelve a descargarla."
-            echo
-            echo "**Con Steam:** suscríbete en el Workshop, que se actualiza solo: https://steamcommunity.com/sharedfiles/filedetails/?id=$workshop"
+            if [ -n "$anterior" ]; then
+              echo
+              echo "Cambios desde la release anterior: [$anterior...$tag](https://github.com/$GITHUB_REPOSITORY/compare/$anterior...$tag)"
+            fi
             echo
             echo "<!-- contenido: $contenido -->"
           } > notas.md
