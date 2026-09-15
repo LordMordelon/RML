@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Required materials: {0} -->
+  <SMQ_MaterialMultiplier>Materiales requeridos: {0}</SMQ_MaterialMultiplier>
+  <!-- EN: Construction work: {0} -->
+  <SMQ_WorkMultiplier>Trabajo de construcción: {0}</SMQ_WorkMultiplier>
+  <!-- EN: Multiplier changes apply to the next monument quest that is generated. -->
+  <SMQ_SettingsApplyNextQuest>Los cambios en los multiplicadores se aplican a la próxima misión de monumento que se genere.</SMQ_SettingsApplyNextQuest>
+  <!-- EN: Include archotech monuments in random textures (restart required) -->
+  <SMQ_UseArchotechTexture>Incluir monumentos arqueotéc en las texturas aleatorias (requiere reiniciar)</SMQ_UseArchotechTexture>
+  <!-- EN: No available options; skipped. -->
+  <SMQ_NoOptionsSkipped>No hay opciones disponibles; se omitió.</SMQ_NoOptionsSkipped>
+  <!-- EN: Monument durability: {0} -->
+  <SMQ_MaxHitPointsExplanation>Durabilidad del monumento: {0}</SMQ_MaxHitPointsExplanation>
+  <!-- EN: Monument blueprint -->
+  <SMQ_MonumentBlueprint>Anteproyecto de monumento</SMQ_MonumentBlueprint>
+  <!-- EN: Monument -->
+  <SMQ_MonumentLabel>Monumento</SMQ_MonumentLabel>
+  <!-- EN: A simple monument. Small in size, extremely sturdy, and brimming with immense energy. -->
+  <SMQ_MonumentDescription>Un monumento sencillo. De tamaño reducido, extremadamente resistente y rebosante de una energía inmensa.</SMQ_MonumentDescription>
+  <!-- EN: Monument -->
+  <SMQ_Monument>Monumento</SMQ_Monument>
+  <!-- EN: Monument blueprint -->
+  <Blueprint_SMQ_Monument>Anteproyecto de monumento</Blueprint_SMQ_Monument>
+  <!-- EN: The construction blueprint for the monument. -->
+  <Blueprint_SMQ_MonumentDescription>El anteproyecto de construcción del monumento.</Blueprint_SMQ_MonumentDescription>
+  <!-- EN: Monument frame -->
+  <Frame_SMQ_Monument>Monumento (en construcción)</Frame_SMQ_Monument>
+  <!-- EN: A monument under construction. -->
+  <Frame_SMQ_MonumentDescription>Un monumento en construcción.</Frame_SMQ_MonumentDescription>
+  <!-- EN: Material group {0}: {1} ({2} material units) -->
+  <SMQ_MaterialGroupOption>Grupo de materiales {0}: {1} ({2} unidades de material)</SMQ_MaterialGroupOption>
+  <!-- EN: Material group {0}: {1} -->
+  <SMQ_MaterialGroupSummary>Grupo de materiales {0}: {1}</SMQ_MaterialGroupSummary>
+  <!-- EN: Unknown material -->
+  <SMQ_UnknownMaterial>Material desconocido</SMQ_UnknownMaterial>
+  <!-- EN: Terrain material group {0}: {1} ({2} material units) -->
+  <SMQ_TerrainGroupOption>Grupo de materiales de suelo {0}: {1} ({2} unidades de material)</SMQ_TerrainGroupOption>
+  <!-- EN: Terrain material group {0}: {1} ({2} material units) -->
+  <SMQ_TerrainGroupSummary>Grupo de materiales de suelo {0}: {1} ({2} unidades de material)</SMQ_TerrainGroupSummary>
+  <!-- EN: Select monument materials -->
+  <SMQ_MaterialSelectionTitle>Seleccionar materiales del monumento</SMQ_MaterialSelectionTitle>
+  <!-- EN: Select material -->
+  <SMQ_SelectMaterial>Seleccionar material</SMQ_SelectMaterial>
+  <!-- EN: Select a material for every group. -->
+  <SMQ_SelectAllMaterials>Selecciona un material para cada grupo.</SMQ_SelectAllMaterials>
+  <!-- EN: Cannot uninstall the monument before the quest is complete. -->
+  <SMQ_MonumentCannotUninstall>No se puede desinstalar el monumento antes de completar la misión.</SMQ_MonumentCannotUninstall>
+  <!-- EN: DEV: Complete monument test -->
+  <SMQ_DebugCompleteMonument>DEV: completar prueba de monumento</SMQ_DebugCompleteMonument>
+  <!-- EN: Complete the monument test through the normal construction flow. -->
+  <SMQ_DebugCompleteMonumentDesc>Completa la prueba de monumento siguiendo el flujo normal de construcción.</SMQ_DebugCompleteMonumentDesc>
+  <!-- EN: Monument test failed: the material plan is invalid. -->
+  <SMQ_DebugCompleteMonumentFailed>La prueba de monumento falló: el plan de materiales no es válido.</SMQ_DebugCompleteMonumentFailed>
+  <!-- EN: Monument frame -->
+  <SMQ_FrameLabel>Monumento (en construcción)</SMQ_FrameLabel>
+  <!-- EN: Place monument blueprint -->
+  <SMQ_CommandPlaceBlueprints>Colocar anteproyecto de monumento</SMQ_CommandPlaceBlueprints>
+  <!-- EN: Convert the marker into a monument construction blueprint. -->
+  <SMQ_CommandPlaceBlueprintsDesc>Convierte el marcador en un anteproyecto de construcción del monumento.</SMQ_CommandPlaceBlueprintsDesc>
+  <!-- EN: Monument protection time multiplier: {0} -->
+  <SMQ_ProtectionTimeMultiplier>Multiplicador del tiempo de protección del monumento: {0}</SMQ_ProtectionTimeMultiplier>
+  <!-- EN: Cancel the monument blueprint or frame before moving, uninstalling, or cancelling its marker. -->
+  <SMQ_CancelConstructionBeforeMoving>Cancela el anteproyecto o la obra del monumento antes de mover, desinstalar o cancelar su marcador.</SMQ_CancelConstructionBeforeMoving>
+  <!-- EN: Cancel the existing monument blueprint or frame before selecting materials again. -->
+  <SMQ_CancelConstructionBeforeSelecting>Cancela el anteproyecto o la obra existente del monumento antes de volver a seleccionar materiales.</SMQ_CancelConstructionBeforeSelecting>
+  <!-- EN: Finish or cancel the marker installation, movement, or uninstall order first. -->
+  <SMQ_FinishInstallationFirst>Primero termina o cancela la orden de instalación, traslado o desinstalación del marcador.</SMQ_FinishInstallationFirst>
+  <!-- EN: Monument construction has stopped. Use its marker to select materials and place a new blueprint. -->
+  <SMQ_ConstructionReadyAgain>La construcción del monumento se detuvo. Usa su marcador para seleccionar materiales y colocar un nuevo anteproyecto.</SMQ_ConstructionReadyAgain>
+  <!-- EN: The monument quest sketch is missing, so construction costs cannot be recovered. Please keep this save and report the problem. -->
+  <SMQ_MissingSketch>Falta el boceto de la misión del monumento, así que no se pueden recuperar los costos de construcción. Conserva esta partida guardada e informa del problema.</SMQ_MissingSketch>
+  <!-- EN: Cannot place the monument blueprint: {0} -->
+  <SMQ_BlueprintPlacementFailed>No se puede colocar el anteproyecto del monumento: {0}</SMQ_BlueprintPlacementFailed>
+  <!-- EN: The monument blueprint could not be created. Your material selections are preserved; you can retry. Details were written to the log. -->
+  <SMQ_BlueprintCreationFailed>No se pudo crear el anteproyecto del monumento. Tu selección de materiales se conservó; puedes volver a intentarlo. Los detalles quedaron en el registro.</SMQ_BlueprintCreationFailed>
+  <!-- EN: Construction material count: {0}\nBeauty from material investment: {1} -->
+  <SMQ_InvestmentBeautyExplanation>Cantidad de material de construcción: {0}\nBelleza por inversión de materiales: {1}</SMQ_InvestmentBeautyExplanation>
+  <!-- EN: Construction material count: {0}\nBase meditation focus strength from material investment: {1} -->
+  <SMQ_InvestmentFocusExplanation>Cantidad de material de construcción: {0}\nBono base de meditación de psicofoco por inversión de materiales: {1}</SMQ_InvestmentFocusExplanation>
+  <!-- EN: Monument construction is in progress. Cancel its blueprint or frame to select materials again. -->
+  <SMQ_ConstructionInProgress>La construcción del monumento está en curso. Cancela su anteproyecto o su obra para volver a seleccionar materiales.</SMQ_ConstructionInProgress>
+  <!-- EN: Once the marker is installed, use Place blueprints to select materials and begin construction. -->
+  <SMQ_SelectMaterialsToBuild>Una vez instalado el marcador, usa Colocar anteproyectos para seleccionar materiales y comenzar la construcción.</SMQ_SelectMaterialsToBuild>
+</LanguageData>
