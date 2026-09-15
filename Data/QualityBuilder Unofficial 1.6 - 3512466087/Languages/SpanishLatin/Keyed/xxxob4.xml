@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: QualityBuilder -->
+  <QualityBuilder>QualityBuilder</QualityBuilder>
+  <!-- EN: Quality Builder -->
+  <QualityBuilderCommand.Label>Construcción de calidad</QualityBuilderCommand.Label>
+  <!-- EN: Set Quality Builderer -->
+  <QualityBuilderOn.Label>Activar construcción de calidad</QualityBuilderOn.Label>
+  <!-- EN: Current quality: {0}. Set buildings for skillful workers -->
+  <QualityBuilderOn.Desc>Calidad actual: {0}. Reserva las construcciones para los trabajadores más hábiles.</QualityBuilderOn.Desc>
+  <!-- EN: Unset Quality Builder -->
+  <QualityBuilderOff.Label>Desactivar construcción de calidad</QualityBuilderOff.Label>
+  <!-- EN: Current quality: {0}. Unset buildings for skillful workers -->
+  <QualityBuilderOff.Desc>Calidad actual: {0}. Deja de reservar las construcciones para los trabajadores más hábiles.</QualityBuilderOff.Desc>
+  <!-- EN: Selected settings -->
+  <QualityBuilder.SelectedSettings>Configuración seleccionada</QualityBuilder.SelectedSettings>
+  <!-- EN: Click to switch between these default settings and settings specific to the current map -->
+  <QualityBuilder.SelectedSettingsHint>Haz clic para alternar entre esta configuración predeterminada y la configuración propia del mapa actual</QualityBuilder.SelectedSettingsHint>
+  <!-- EN: Current map -->
+  <QualityBuilder.CurrentMap>Mapa actual</QualityBuilder.CurrentMap>
+  <!-- EN: Default settings -->
+  <QualityBuilder.Global>Configuración predeterminada</QualityBuilder.Global>
+  <!-- EN: Enable QualityBuilder by default -->
+  <QualityBuilder.EnableByDefault>Activar QualityBuilder por defecto</QualityBuilder.EnableByDefault>
+  <!-- EN: Ignore QualityBuilder at skill {0} -->
+  <QualityBuilder.IgnoreAtSkill>Ignorar QualityBuilder con habilidad {0}</QualityBuilder.IgnoreAtSkill>
+  <!-- EN: Quality builds require construction skill {0} (best builder: {1}) -->
+  <QualityBuilder.MinSkill>Las construcciones de calidad requieren habilidad de construcción {0} (mejor constructor: {1})</QualityBuilder.MinSkill>
+  <!-- EN: Allow builders up to {0} skill levels below the best builder -->
+  <QualityBuilder.MinSkillDiff>Permitir constructores hasta {0} niveles de habilidad por debajo del mejor constructor</QualityBuilder.MinSkillDiff>
+  <!-- EN: Default minimum quality -->
+  <QualityBuilder.MinQuality>Calidad mínima predeterminada</QualityBuilder.MinQuality>
+  <!-- EN: Override best builder with -->
+  <QualityBuilder.OverrideBestBuilder>Reemplazar el mejor constructor por</QualityBuilder.OverrideBestBuilder>
+  <!-- EN: Use these map settings (off = use default settings) -->
+  <QualityBuilder.UseMapSettings>Usar esta configuración del mapa (desactivado = usar la configuración predeterminada)</QualityBuilder.UseMapSettings>
+  <!-- EN: Give up after {0} failed rebuild attempts (∞ = never give up) -->
+  <QualityBuilder.MaxRebuildAttempts>Rendirse tras {0} intentos fallidos de reconstrucción (∞ = no rendirse nunca)</QualityBuilder.MaxRebuildAttempts>
+  <!-- EN: QualityBuilder gave up on {0} after {1} rebuild attempts (last quality: {2}). The building was kept. You can change this limit in the mod settings. -->
+  <QualityBuilder.RebuildGaveUp>QualityBuilder se rindió con {0} tras {1} intentos de reconstrucción (última calidad: {2}). Se conservó la construcción. Puedes cambiar este límite en la configuración del mod.</QualityBuilder.RebuildGaveUp>
+  <!-- EN: Mechanoids never do skilled builds -->
+  <QualityBuilder.ExcludeMechs>Los mecanoides nunca hacen construcciones de calidad</QualityBuilder.ExcludeMechs>
+  <!-- EN: Mechanoids are excluded from the best-builder skill calculation and cannot take quality-designated construction. Manually prioritized (forced) orders still work. Useful when you want to train your colonists&apos; Construction on quality builds instead of letting mechs take them. -->
+  <QualityBuilder.ExcludeMechsTooltip>Los mecanoides quedan excluidos del cálculo de habilidad del mejor constructor y no pueden tomar construcciones marcadas como de calidad. Las órdenes priorizadas manualmente (forzadas) siguen funcionando. Útil si quieres entrenar la habilidad de Construcción de tus colonos con las construcciones de calidad en lugar de dejárselas a los mecas.</QualityBuilder.ExcludeMechsTooltip>
+  <!-- EN: Default Settings Active -->
+  <QualityBuilder.DefaultSettingsActive>Configuración predeterminada activa</QualityBuilder.DefaultSettingsActive>
+  <!-- EN: Default Settings Inactive -->
+  <QualityBuilder.DefaultSettingsInactive>Configuración predeterminada inactiva</QualityBuilder.DefaultSettingsInactive>
+  <!-- EN: This map is using the Default settings below. Tick &quot;Use these map settings&quot; on the Current map page to give this map its own independent settings. -->
+  <QualityBuilder.DefaultSettingsActiveNote>Este mapa usa la configuración predeterminada de abajo. Marca &quot;Usar esta configuración del mapa&quot; en la página Mapa actual para darle a este mapa su propia configuración independiente.</QualityBuilder.DefaultSettingsActiveNote>
+  <!-- EN: This map is using its own settings, so changes on the Default settings page will not affect it. Untick &quot;Use these map settings&quot; to hand control back. -->
+  <QualityBuilder.DefaultSettingsInactiveNote>Este mapa usa su propia configuración, así que los cambios en la página Configuración predeterminada no lo afectarán. Desmarca &quot;Usar esta configuración del mapa&quot; para devolverle el control.</QualityBuilder.DefaultSettingsInactiveNote>
+  <!-- EN: No colony is loaded, so only these Default settings exist right now. Once you load a colony, any map can be switched to its own independent settings. -->
+  <QualityBuilder.DefaultSettingsNoMapNote>No hay ninguna colonia cargada, así que por ahora solo existe esta configuración predeterminada. Cuando cargues una colonia, cualquier mapa podrá pasar a tener su propia configuración independiente.</QualityBuilder.DefaultSettingsNoMapNote>
+  <!-- EN: Show quality gizmo only on blueprints/frames -->
+  <QualityBuilder.GizmoOnBlueprintsOnly>Mostrar el botón de calidad solo en planos y estructuras</QualityBuilder.GizmoOnBlueprintsOnly>
+  <!-- EN: Hides the QualityBuilder toggle gizmo and its right-click quality menu on finished buildings, restoring the pre-finished-buildings behavior. Blueprints and in-progress frames are unaffected. Existing designations and rebuild cycles keep working. -->
+  <QualityBuilder.GizmoOnBlueprintsOnlyTooltip>Oculta el botón de QualityBuilder y su menú de calidad del clic derecho en las construcciones terminadas, y recupera el comportamiento de antes de que se admitieran construcciones terminadas. Los planos y las estructuras en obra no se ven afectados. Las designaciones existentes y los ciclos de reconstrucción siguen funcionando.</QualityBuilder.GizmoOnBlueprintsOnlyTooltip>
+</LanguageData>
