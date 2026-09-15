@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Reel in -->
+  <Gravlock_Begin>Remolcar</Gravlock_Begin>
+  <!-- EN: Take hold of a derelict within {0} tiles and pull it here. The grav engine can do nothing else until it arrives. -->
+  <Gravlock_BeginDesc>Atrapa un pecio a {0} casillas o menos y arrástralo hasta aquí. El motor gravitacional no puede hacer nada más hasta que llegue.</Gravlock_BeginDesc>
+  <!-- EN: {0} tiles, {1} days -->
+  <Gravlock_Option>{0} casillas, {1} días</Gravlock_Option>
+  <!-- EN: Track wreck -->
+  <Gravlock_Watch>Seguir pecio</Gravlock_Watch>
+  <!-- EN: Show {0} on the world map. -->
+  <Gravlock_WatchDesc>Mostrar {0} en el mapa del mundo.</Gravlock_WatchDesc>
+  <!-- EN: Reeling in {0}: {1}% -->
+  <Gravlock_Reeling>Remolcando {0}: {1}%</Gravlock_Reeling>
+  <!-- EN: Not connected to grav engine. -->
+  <Gravlock_NoEngine>No está conectado a un motor gravitacional.</Gravlock_NoEngine>
+  <!-- EN: No derelict in range. -->
+  <Gravlock_NothingInRange>No hay ningún pecio al alcance.</Gravlock_NothingInRange>
+  <!-- EN: {0} has no hull left to take -->
+  <Gravlock_NoHull>A {0} no le queda casco que tomar</Gravlock_NoHull>
+  <!-- EN: {0} is still defended -->
+  <Gravlock_StillDefended>{0} todavía está defendido</Gravlock_StillDefended>
+  <!-- EN: {0} has not been boarded -->
+  <Gravlock_NotBoarded>{0} no ha sido abordado</Gravlock_NotBoarded>
+  <!-- EN: {0} is under tow. -->
+  <Gravlock_Started>{0} está siendo remolcado.</Gravlock_Started>
+  <!-- EN: Under tow: {0}% -->
+  <Gravlock_InTransit>Remolque: {0}%</Gravlock_InTransit>
+  <!-- EN: The beam went out. {0} is lost. -->
+  <Gravlock_Lost>El haz se apagó. Se ha perdido {0}.</Gravlock_Lost>
+  <!-- EN: Wreck arrived -->
+  <Gravlock_ArrivedLabel>Pecio recibido</Gravlock_ArrivedLabel>
+  <!-- EN: {0} has arrived and is holding on the beam.\n\nBring it in to choose where the hull settles. Break it up and you will receive a sum of its parts.\n\nThe beam cannot hold it for long. Left alone, it will come apart. -->
+  <Gravlock_ArrivedText>{0} ha llegado y se mantiene sujeto al haz.\n\nAtráelo para elegir dónde se asienta el casco. Si lo desguazas, recibirás el conjunto de sus piezas.\n\nEl haz no puede sostenerlo mucho tiempo. Si no haces nada, se desintegrará.</Gravlock_ArrivedText>
+  <!-- EN: Bring it in -->
+  <Gravlock_Keep>Atraerlo</Gravlock_Keep>
+  <!-- EN: Break it up -->
+  <Gravlock_Scrap>Desguazarlo</Gravlock_Scrap>
+  <!-- EN: Set down hull -->
+  <Gravlock_PlaceLabel>Asentar casco</Gravlock_PlaceLabel>
+  <!-- EN: Choose where the towed hull settles. It cannot overlap your own ship. -->
+  <Gravlock_PlaceDesc>Elige dónde se asienta el casco remolcado. No puede superponerse con tu propia nave.</Gravlock_PlaceDesc>
+  <!-- EN: Cannot land on your own substructure. -->
+  <Gravlock_BlockedByShip>No puede aterrizar sobre tu propia subestructura.</Gravlock_BlockedByShip>
+  <!-- EN: Not enough room for the hull. -->
+  <Gravlock_NoRoom>No hay espacio suficiente para el casco.</Gravlock_NoRoom>
+  <!-- EN: Wreck broken up -->
+  <Gravlock_ScrappedLabel>Pecio desguazado</Gravlock_ScrappedLabel>
+  <!-- EN: {0} has been broken down. The salvage is landing now. -->
+  <Gravlock_ScrappedText>{0} ha sido desguazado. Los restos recuperados están aterrizando.</Gravlock_ScrappedText>
+  <!-- EN: Refit captured hulls -->
+  <Gravlock_SettingRefit>Reacondicionar cascos capturados</Gravlock_SettingRefit>
+  <!-- EN: Replace an incoming hull&apos;s enemy buildings with ones the colony can use. Off by default for balance. -->
+  <Gravlock_SettingRefitDesc>Reemplaza las construcciones enemigas de un casco entrante por otras que la colonia pueda usar. Desactivado por defecto por equilibrio.</Gravlock_SettingRefitDesc>
+</LanguageData>
