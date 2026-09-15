@@ -2,13 +2,21 @@
 
 # Mods traducidos
 
-253 mods, de la traducción más reciente a la más antigua. El nombre de cada mod lleva a su página en Steam.
+260 mods, de la traducción más reciente a la más antigua. El nombre de cada mod lleva a su página en Steam.
 
 - **Última actualización:** cuándo el autor actualizó el mod en Steam.
 - **Última traducción:** el último cambio de la traducción en RML. Si es anterior a la última actualización, la traducción puede haber quedado atrasada.
 
 | WorkshopID | Mod | Carpeta | PackageID | Última actualización | Última traducción |
 |---|---|---|---|---|---|
+| 3714981583 | [More Gravship Workbenches](https://steamcommunity.com/sharedfiles/filedetails/?id=3714981583) | Data | LTS.MGW | 2026-04-28 | 2026-09-15 |
+| 3798845290 | [Progression: Ammunition](https://steamcommunity.com/sharedfiles/filedetails/?id=3798845290) | Data/!ferny | ferny.ProgressionAmmunition | 2026-09-15 | 2026-09-15 |
+| 3512466087 | [QualityBuilder Unofficial 1.6](https://steamcommunity.com/sharedfiles/filedetails/?id=3512466087) | Data | hatti.qualitybuilder | 2026-08-04 | 2026-09-15 |
+| 3799758627 | [Salvage Gravlock](https://steamcommunity.com/sharedfiles/filedetails/?id=3799758627) | Data | asunib.Gravlock | 2026-09-11 | 2026-09-15 |
+| 3796056278 | [Search and Rescue](https://steamcommunity.com/sharedfiles/filedetails/?id=3796056278) | Data | CH4AcKO3.SearchAndRescue | 2026-09-13 | 2026-09-15 |
+| 3796540886 | [Simple Monument Quest](https://steamcommunity.com/sharedfiles/filedetails/?id=3796540886) | Data | ZuoYao.SimpleMonumentQuest | 2026-09-09 | 2026-09-15 |
+| 3740185419 | [Storage Stats in Description](https://steamcommunity.com/sharedfiles/filedetails/?id=3740185419) | Data/!ferny | ferny.StorageStatsinDescription | 2026-06-07 | 2026-09-15 |
+| 2861806869 | [Vanilla Backstories Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869) | Data/!Oskar Potocki | VanillaExpanded.VanillaBackstoriesExpanded | 2025-07-08 | 2026-09-15 |
 | 3242000764 | [1trickPwnyta's Anomaly Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3242000764) | Data/!1trickPwnyta | anomalypatch.1trickPwnyta | 2026-04-29 | 2026-09-13 |
 | 3461060466 | [1trickPwnyta's Biotech Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3461060466) | Data/!1trickPwnyta | biotechpatch.1trickPwnyta | 2026-07-07 | 2026-09-13 |
 | 3285178686 | [1trickPwnyta's Defaults](https://steamcommunity.com/sharedfiles/filedetails/?id=3285178686) | Data/!1trickPwnyta | defaults.1trickPwnyta | 2026-05-30 | 2026-09-13 |
@@ -33,13 +41,13 @@
 | 1098354593 | [Animals Logic](https://steamcommunity.com/sharedfiles/filedetails/?id=1098354593) | Data | Oblitus.AnimalsLogic | 2025-11-22 | 2026-09-13 |
 | 3558784993 | [Anomaly for Gravship](https://steamcommunity.com/sharedfiles/filedetails/?id=3558784993) | Data | als.anomalygravship | 2025-11-26 | 2026-09-13 |
 | 2902258418 | [Anthrosonae](https://steamcommunity.com/sharedfiles/filedetails/?id=2902258418) | Data | ATK.Anthrosonae | 2025-08-11 | 2026-09-13 |
-| 3792325789 | [Apex Mechanoids](https://steamcommunity.com/sharedfiles/filedetails/?id=3792325789) | Data | Mortis.ApexMechanoids | 2026-09-11 | 2026-09-13 |
+| 3792325789 | [Apex Mechanoids](https://steamcommunity.com/sharedfiles/filedetails/?id=3792325789) | Data | Mortis.ApexMechanoids | 2026-09-14 | 2026-09-13 |
 | 2869098359 | [Appliances Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2869098359) | Data | scpchemfuel.appliances | 2026-01-17 | 2026-09-13 |
 | 3575912544 | [Aquatic Repopulation](https://steamcommunity.com/sharedfiles/filedetails/?id=3575912544) | Data | Bart.WBE | 2025-11-27 | 2026-09-13 |
 | 3527371016 | [Asteroid Grounds](https://steamcommunity.com/sharedfiles/filedetails/?id=3527371016) | Data | RashoMcree.Odyssey.AsteroidGrounds | 2025-07-18 | 2026-09-13 |
 | 3528490718 | [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718) | Data | Poncho.AutomaticHydroponics | 2026-07-20 | 2026-09-13 |
 | 3536424131 | [Automatic Hydroponics Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3536424131) | Data | AutomaticHydroponics.Expanded | 2025-12-03 | 2026-09-13 |
-| 3563882422 | [Better Architect Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=3563882422) | Data/!ferny | ferny.BetterArchitect | 2026-09-10 | 2026-09-13 |
+| 3563882422 | [Better Architect Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=3563882422) | Data/!ferny | ferny.BetterArchitect | 2026-09-15 | 2026-09-13 |
 | 3199585285 | [Better autocasting for Vanilla Psycasts Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3199585285) | Data | dev.tobot.vpe.betterautocast | 2026-09-07 | 2026-09-13 |
 | 2269379503 | [Better Transhumanists](https://steamcommunity.com/sharedfiles/filedetails/?id=2269379503) | Data | co.uk.epicguru.bettertranshumanists | 2025-07-27 | 2026-09-13 |
 | 3559292908 | [Bulk Load For Transporters](https://steamcommunity.com/sharedfiles/filedetails/?id=3559292908) | Data | Ilarion.BulkLoadForTransporters | 2026-09-13 | 2026-09-13 |
@@ -53,7 +61,7 @@
 | 3550585103 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103) | Data | Vortex.CustomizeWeapon | 2026-09-02 | 2026-09-13 |
 | 2045496988 | [Days Matter (fork)](https://steamcommunity.com/sharedfiles/filedetails/?id=2045496988) | Data | WiseClock.AC.DaysMatter | 2025-06-16 | 2026-09-13 |
 | 3587277884 | [Dlc collaboration - Void universe](https://steamcommunity.com/sharedfiles/filedetails/?id=3587277884) | Data | HaiLuan.VoidUniverse | 2026-09-02 | 2026-09-13 |
-| 1662119905 | [Dubs Mint Minimap](https://steamcommunity.com/sharedfiles/filedetails/?id=1662119905) | Data | dubwise.dubsmintminimap | 2025-07-11 | 2026-09-13 |
+| 1662119905 | [Dubs Mint Minimap](https://steamcommunity.com/sharedfiles/filedetails/?id=1662119905) | Data | dubwise.dubsmintminimap | 2026-09-14 | 2026-09-13 |
 | 735106432 | [EdB Prepare Carefully](https://steamcommunity.com/sharedfiles/filedetails/?id=735106432) | Data | EdB.PrepareCarefully | 2025-08-03 | 2026-09-13 |
 | 1665403571 | [Elite Bionics Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=1665403571) | Data | V1024.EBFramework | 2026-06-14 | 2026-09-13 |
 | 3551263267 | [Enhanced Vat Learning](https://steamcommunity.com/sharedfiles/filedetails/?id=3551263267) | Data | ninagoblin.enhancedvatlearning | 2025-09-07 | 2026-09-13 |
@@ -66,7 +74,7 @@
 | 3626725895 | [Faction Territories and Vassalage](https://steamcommunity.com/sharedfiles/filedetails/?id=3626725895) | Data | jaeger972.factionterritories | 2026-04-11 | 2026-09-13 |
 | 3538928291 | [Floor-Mounted Aquarium](https://steamcommunity.com/sharedfiles/filedetails/?id=3538928291) | Data | Floor.Mounted.Aquarium | 2025-08-29 | 2026-09-13 |
 | 3498575851 | [Fortified Features Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3498575851) | Data | AOBA.Framework | 2026-09-04 | 2026-09-13 |
-| 3352773112 | [Gene Fabrication](https://steamcommunity.com/sharedfiles/filedetails/?id=3352773112) | Data | AmCh.Eragon.HCGeneFabrication | 2026-08-31 | 2026-09-13 |
+| 3352773112 | [Gene Fabrication](https://steamcommunity.com/sharedfiles/filedetails/?id=3352773112) | Data | AmCh.Eragon.HCGeneFabrication | 2026-09-15 | 2026-09-13 |
 | 2773943594 | [Geological Landforms](https://steamcommunity.com/sharedfiles/filedetails/?id=2773943594) | Data | m00nl1ght.GeologicalLandforms | 2026-08-01 | 2026-09-13 |
 | 1678847247 | [Graphics Settings+](https://steamcommunity.com/sharedfiles/filedetails/?id=1678847247) | Data | Telefonmast.GraphicsSettings | 2025-07-26 | 2026-09-13 |
 | 3662641911 | [GratefulRefugees](https://steamcommunity.com/sharedfiles/filedetails/?id=3662641911) | Data | cocoapebbles.gratefulrefugees | 2026-02-15 | 2026-09-13 |
@@ -81,14 +89,14 @@
 | 3541847288 | [Hyper Roll](https://steamcommunity.com/sharedfiles/filedetails/?id=3541847288) | Data | AW.HyperRoll | 2025-08-26 | 2026-09-13 |
 | 3538728067 | [Impact Weaponry - Reloaded](https://steamcommunity.com/sharedfiles/filedetails/?id=3538728067) | Data/!DetVisor | detvisor.impactweaponryreloaded | 2025-07-31 | 2026-09-13 |
 | 3551887989 | [Independent Trash bin](https://steamcommunity.com/sharedfiles/filedetails/?id=3551887989) | Data/!AobaKuma | Aoba.Trashbin | 2025-12-04 | 2026-09-13 |
-| 3223443793 | [Integrated Implants](https://steamcommunity.com/sharedfiles/filedetails/?id=3223443793) | Data | lts.I | 2026-04-20 | 2026-09-13 |
+| 3223443793 | [Integrated Implants](https://steamcommunity.com/sharedfiles/filedetails/?id=3223443793) | Data | lts.I | 2026-09-14 | 2026-09-13 |
 | 3489491945 | [Lactation Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3489491945) | Data | Euterpe.MilkyTitfuck | 2026-08-01 | 2026-09-13 |
 | 3451325196 | [Laser Weapons: Re-Examined](https://steamcommunity.com/sharedfiles/filedetails/?id=3451325196) | Data/!Smxrez | Smxrez.LaserReexamined | 2026-01-18 | 2026-09-13 |
 | 1701592470 | [Level Up!](https://steamcommunity.com/sharedfiles/filedetails/?id=1701592470) | Data | Krafs.LevelUp | 2026-07-05 | 2026-09-13 |
-| 3535481557 | [Loading Progress](https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557) | Data | ilyvion.LoadingProgress | 2026-08-02 | 2026-09-13 |
+| 3535481557 | [Loading Progress](https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557) | Data | ilyvion.LoadingProgress | 2026-09-14 | 2026-09-13 |
 | 2885430743 | [Logistics Mechanoid](https://steamcommunity.com/sharedfiles/filedetails/?id=2885430743) | Data | Pal5k.LogisticsMechanoid | 2025-07-01 | 2026-09-13 |
 | 3455187943 | [Makeshift: Re-Examined](https://steamcommunity.com/sharedfiles/filedetails/?id=3455187943) | Data/!Smxrez | Smxrez.makeshiftreexamined | 2025-07-02 | 2026-09-13 |
-| 3683998684 | [Manipulator Beam Emitter](https://steamcommunity.com/sharedfiles/filedetails/?id=3683998684) | Data | natsuki.manipulatorbeam | 2026-09-11 | 2026-09-13 |
+| 3683998684 | [Manipulator Beam Emitter](https://steamcommunity.com/sharedfiles/filedetails/?id=3683998684) | Data | natsuki.manipulatorbeam | 2026-09-15 | 2026-09-13 |
 | 3296654393 | [Map Mode Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3296654393) | Data | NozoMe.MapModeFramework | 2025-07-20 | 2026-09-13 |
 | 2800857642 | [Map Preview](https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642) | Data | m00nl1ght.MapPreview | 2026-08-01 | 2026-09-13 |
 | 3332603923 | [Mech Charger Booster](https://steamcommunity.com/sharedfiles/filedetails/?id=3332603923) | Data | AzzyH.MechChargerBooster | 2025-11-02 | 2026-09-13 |
@@ -121,7 +129,7 @@
 | 3766728761 | [Persona Weapons Unbound](https://steamcommunity.com/sharedfiles/filedetails/?id=3766728761) | Data | shunter.personaweaponsunbound | 2026-08-07 | 2026-09-13 |
 | 3527418098 | [Pharmacist: Represcribed](https://steamcommunity.com/sharedfiles/filedetails/?id=3527418098) | Data | Fluffy.Pharmacist | 2025-12-10 | 2026-09-13 |
 | 3590186274 | [Power: Re-Examined](https://steamcommunity.com/sharedfiles/filedetails/?id=3590186274) | Data/!Smxrez | Smxrez.PowerReexamined | 2026-06-04 | 2026-09-13 |
-| 3590863552 | [Progression: Education](https://steamcommunity.com/sharedfiles/filedetails/?id=3590863552) | Data/!ferny | ferny.ProgressionEducation | 2026-09-08 | 2026-09-13 |
+| 3590863552 | [Progression: Education](https://steamcommunity.com/sharedfiles/filedetails/?id=3590863552) | Data/!ferny | ferny.ProgressionEducation | 2026-09-14 | 2026-09-13 |
 | 3522893553 | [Progression: Gravship](https://steamcommunity.com/sharedfiles/filedetails/?id=3522893553) | Data/!ferny | ferny.ProgressionGravship | 2026-09-11 | 2026-09-13 |
 | 3783411735 | [Progression: Hives](https://steamcommunity.com/sharedfiles/filedetails/?id=3783411735) | Data/!ferny | ferny.progressionhives | 2026-08-17 | 2026-09-13 |
 | 3736402055 | [Progression: Robotics](https://steamcommunity.com/sharedfiles/filedetails/?id=3736402055) | Data/!ferny | ferny.progressionrobotics2 | 2026-09-11 | 2026-09-13 |
@@ -176,7 +184,6 @@
 | 1814988282 | [Vanilla Armour Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1814988282) | Data/!Oskar Potocki | VanillaExpanded.VARME | 2026-03-20 | 2026-09-13 |
 | 3273371966 | [Vanilla Arsenal](https://steamcommunity.com/sharedfiles/filedetails/?id=3273371966) | Data/!DetVisor | det.vanillaarsenal | 2026-04-13 | 2026-09-13 |
 | 3268401022 | [Vanilla Aspirations Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3268401022) | Data/!Oskar Potocki | VanillaExpanded.VanillaAspirationsExpanded | 2026-03-30 | 2026-09-13 |
-| 2861806869 | [Vanilla Backstories Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869) | Data/!Oskar Potocki | VanillaExpanded.VanillaBackstoriesExpanded | 2025-07-08 | 2026-09-13 |
 | 2792917473 | [Vanilla Chemfuel Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2792917473) | Data/!Oskar Potocki | VanillaExpanded.VChemfuelE | 2026-04-29 | 2026-09-13 |
 | 3380695249 | [Vanilla Christmas Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3380695249) | Data/!Oskar Potocki | VE.VanillaChristmasExpanded | 2025-08-16 | 2026-09-13 |
 | 2860414285 | [Vanilla Combat Reloaded](https://steamcommunity.com/sharedfiles/filedetails/?id=2860414285) | Data | Donald.VCR | 2025-07-14 | 2026-09-13 |
@@ -201,7 +208,7 @@
 | 1845154007 | [Vanilla Furniture Expanded - Security](https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007) | Data/!Oskar Potocki | VanillaExpanded.VFESecurity | 2026-09-13 | 2026-09-13 |
 | 2028381079 | [Vanilla Furniture Expanded - Spacer Module](https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079) | Data/!Oskar Potocki | VanillaExpanded.VFESpacer | 2025-12-18 | 2026-09-13 |
 | 3609835606 | [Vanilla Gravship Expanded - Chapter 1](https://steamcommunity.com/sharedfiles/filedetails/?id=3609835606) | Data/!Oskar Potocki | vanillaexpanded.gravship | 2026-09-13 | 2026-09-13 |
-| 3799737423 | [Vanilla Gravship Expanded - Chapter 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3799737423) | Data/!Oskar Potocki | vanillaexpanded.gravship2 | 2026-09-13 | 2026-09-13 |
+| 3799737423 | [Vanilla Gravship Expanded - Chapter 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3799737423) | Data/!Oskar Potocki | vanillaexpanded.gravship2 | 2026-09-14 | 2026-09-13 |
 | 3684305707 | [Vanilla Gravship Expanded - Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3684305707) | Data | SOA.compactworkbenches | 2026-03-13 | 2026-09-13 |
 | 2877699803 | [Vanilla Helixien Gas Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803) | Data/!Oskar Potocki | VanillaExpanded.HelixienGas | 2026-01-07 | 2026-09-13 |
 | 2720631512 | [Vanilla Ideology Expanded - Dryads](https://steamcommunity.com/sharedfiles/filedetails/?id=2720631512) | Data/!Oskar Potocki | VanillaExpanded.Ideo.Dryads | 2025-07-04 | 2026-09-13 |
