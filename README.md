@@ -162,9 +162,14 @@ las que traiga cualquier otro mod.
 
 ## Publicar
 
-- **GitHub Releases** — etiquetar una versión (`git tag v1.0 && git push --tags`) y la
-  Action arma el `.zip` con solo lo que el juego necesita.
-- **Steam Workshop** — doble clic en **`03-subir-al-workshop.cmd`**. Corre
+- **GitHub Releases** — salen solas. Después de regenerar el índice, en cada push que
+  cambie el mod, `release.yml` publica la copia liviana de `output/` como
+  `RimWorld-Mod-Latino.zip`. Si la copia quedó igual a la de la última release, no publica
+  nada. La última siempre está en
+  https://github.com/LordMordelon/RML/releases/latest/download/RimWorld-Mod-Latino.zip.
+  Es para quien juega sin Steam: esa copia no se actualiza sola.
+- **Steam Workshop** — una release no lo actualiza, porque Steam no lee GitHub. Se sube desde
+  el juego: doble clic en **`03-subir-al-workshop.cmd`**. Corre
   `02-armar-copia-limpia.cmd`, que deja al día la copia liviana de `output/`, y se
   asegura de que `Mods\RML` enlace a ella: si no existe lo crea, y si todavía apunta al
   repo lo cambia (para eso RimWorld tiene que estar cerrado). Después abres el juego y
@@ -180,12 +185,8 @@ las que traiga cualquier otro mod.
 
 La copia de `output/` la arma `LoadFoldersBuilder -copia` (`CopiaLimpia.cs`): comprueba que
 ninguna ruta, instalada desde el Workshop, pase el límite de Windows, y que no falte ningún
-archivo. Pesa unos 11,5 MB contra los 19 de copiar `About/` y `Data/` tal cual.
-
-El `.zip` de GitHub Releases todavía se arma con `cp` en la Action, sin quitar los
-`UNUSED.xml` ni los comentarios: el builder no corre en Linux (ver CAMBIOS.md).
-
-Falta un `Preview.png` en `About/` para que el Workshop tenga imagen de portada.
+archivo. Pesa unos 11,5 MB contra los 19 de copiar `About/` y `Data/` tal cual. El zip de
+las releases sale de esa misma copia, así que el Workshop y GitHub publican lo mismo.
 
 ## Licencia
 

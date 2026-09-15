@@ -1,68 +1,136 @@
 name: Publicar release
 
-# Arma el .zip del mod cuando se etiqueta una versión. El zip lleva solo lo que
-# RimWorld necesita —About, Data, LoadFolders.xml, ModList.tsv y LICENSE—: nada de
-# Source/, .github/ ni documentación.
+# Publica output/ —la copia liviana que carga el juego y se sube al Workshop— como release de
+# GitHub, para quien juega sin Steam. Lo llama loadfolders.yml después de regenerar el índice,
+# así que sale sola en cada push que cambie el mod.
+#
+# La release no actualiza el Workshop: Steam no lee GitHub. Eso se sigue subiendo desde el
+# juego con 03-subir-al-workshop.cmd.
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - 'v*'
+  # loadfolders.yml la llama con el commit que acaba de dejar al día: su push con GITHUB_TOKEN
+  # no dispara otros flujos, igual que con la página.
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit a publicar
+        type: string
+        required: true
 
 jobs:
   publicar:
-    runs-on: ubuntu-latest
+    # windows-latest por lo mismo que loadfolders.yml: el builder arma la ruta del About.xml
+    # con la barra invertida cableada y en Linux no encuentra nada.
+    runs-on: windows-latest
 
     permissions:
       contents: write
 
+    # Dos pushes seguidos calcularían el mismo tag: la segunda espera a que termine la primera.
+    concurrency:
+      group: release
+      cancel-in-progress: false
+
     steps:
+      # Con historial y tags: las notas son los commits desde la release anterior.
       - name: Clonar el repositorio
         uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+          fetch-depth: 0
 
-      - name: Armar la carpeta del mod
+      - name: Preparar .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+
+      # La misma copia que carga el juego: sin UNUSED.xml, sin LoadFolders.Build.yaml y sin
+      # comentarios. -copia comprueba antes las rutas y después que no falte ningún archivo.
+      - name: Armar la copia liviana
+        run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -copia
+
+      - name: Decidir si hay algo nuevo
+        id: decidir
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          # Lo mismo que copia el script local: si esta lista cambia, cambiar las dos.
-          mkdir -p "output/RimWorld Mod Latino"
-          cp -r About Data LoadFolders.xml ModList.tsv LICENSE "output/RimWorld Mod Latino/"
+          set -euo pipefail
+          copia="output/RimWorld Mod Latino"
 
-          echo "Contenido:"
-          du -sh "output/RimWorld Mod Latino"
-          find "output/RimWorld Mod Latino" -maxdepth 1
-
-      - name: Comprobar que no se colo nada
-        run: |
-          cd "output/RimWorld Mod Latino"
-          for prohibido in Source .github 01-regenerar-indice.cmd 02-armar-copia-limpia.cmd 03-subir-al-workshop.cmd LoadFolders.Build.Example.yaml README.md; do
-            if [ -e "$prohibido" ]; then
-              echo "El zip no puede llevar $prohibido"
-              exit 1
+          # Huella del contenido. Si es la misma de la última release no hay nada que publicar:
+          # pasa con un push que solo toca Source/ o con una corrida a mano.
+          contenido=$(cd "$copia" && find . -type f -print0 | LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1)
+          anterior=$(gh release view --json tagName --jq .tagName 2>/dev/null || true)
+          if [ -n "$anterior" ]; then
+            huella=$(gh release view "$anterior" --json body --jq .body | grep -o 'contenido: [0-9a-f]*' | cut -d' ' -f2 || true)
+            if [ "$huella" = "$contenido" ]; then
+              echo "Sin cambios: la copia es igual a la de $anterior."
+              exit 0
             fi
-          done
-          # Sin LoadFolders.xml el mod no carga ninguna traduccion.
-          test -s LoadFolders.xml || { echo "falta LoadFolders.xml"; exit 1; }
-
-          # Que no falte ningun archivo. El script local hacia esta copia con xcopy y
-          # perdia 2666 de 3527 archivos en silencio, por el limite de longitud de ruta.
-          origen=$(find "$GITHUB_WORKSPACE/Data" -type f | wc -l)
-          copia=$(find Data -type f | wc -l)
-          if [ "$origen" != "$copia" ]; then
-            echo "copia incompleta: $copia de $origen archivos"
-            exit 1
           fi
 
-          echo "OK: $copia archivos, $(grep -c IfModActive LoadFolders.xml) traducciones"
+          # La fecha del último commit de una persona, en su zona horaria: la del bot va en UTC
+          # y de noche daría el día siguiente.
+          fecha=$(git log --format='%an%x09%ad' --date=format:%Y.%m.%d | awk -F'\t' '$1 != "github-actions[bot]" && !listo {print $2; listo=1}')
+          tag="v$fecha"
+          n=1
+          while git rev-parse -q --verify "refs/tags/$tag" > /dev/null; do
+            n=$((n + 1))
+            tag="v$fecha.$n"
+          done
 
+          mods=$(tail -n +2 "$copia/ModList.tsv" | grep -c .)
+          workshop=$(tr -d '[:space:]' < About/PublishedFileId.txt)
+
+          {
+            if [ -z "$anterior" ]; then
+              echo "Primera release automática."
+            else
+              cambios=$(git log "$anterior"..HEAD --no-merges --format='- %s' -- Data)
+              if [ -z "$cambios" ]; then
+                echo "Sin cambios en las traducciones: se actualizó la lista de mods."
+              else
+                # sed y no head: con pipefail, head cortaria el echo y el paso saldria en rojo.
+                sed -n '1,40p' <<< "$cambios"
+                total=$(wc -l <<< "$cambios")
+                if [ "$total" -gt 40 ]; then
+                  echo "- … y $((total - 40)) cambios más"
+                fi
+              fi
+            fi
+            echo
+            echo "**$mods mods traducidos.** Lista completa: https://lordmordelon.github.io/RML/"
+            echo
+            echo "**Sin Steam:** descomprime el zip en la carpeta Mods de RimWorld, pon RML al final de la lista de mods y elige el idioma SpanishLatin. Esta copia no se actualiza sola: para tener la última, vuelve a descargarla."
+            echo
+            echo "**Con Steam:** suscríbete en el Workshop, que se actualiza solo: https://steamcommunity.com/sharedfiles/filedetails/?id=$workshop"
+            echo
+            echo "<!-- contenido: $contenido -->"
+          } > notas.md
+
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "Se publica $tag: $mods mods."
+          cat notas.md
+
+      # 7z con -mcu=on, para que los nombres vayan en UTF-8 y marcados como tales. Seis carpetas
+      # llevan una raya en el nombre (Vanilla Animals Expanded — Royal Animals): guardadas en la
+      # codificación vieja de Windows, otra PC las descomprime con otro nombre, LoadFolders.xml
+      # no las encuentra y sus traducciones no cargan, sin ningún error.
       - name: Comprimir
+        if: steps.decidir.outputs.tag != ''
+        working-directory: output
         run: |
-          cd output
-          zip -qr "../RimWorld-Mod-Latino-${GITHUB_REF_NAME}.zip" "RimWorld Mod Latino"
-          cd ..
-          ls -lh *.zip
+          $PSNativeCommandUseErrorActionPreference = $true
+          7z a -tzip -mcu=on ../RimWorld-Mod-Latino.zip "RimWorld Mod Latino" | Out-Null
+          Get-Item ../RimWorld-Mod-Latino.zip | Select-Object Name, Length
 
+      # Con el nombre fijo, releases/latest/download/RimWorld-Mod-Latino.zip baja siempre la última.
       - name: Publicar
-        uses: softprops/action-gh-release@v3
-        with:
-          files: RimWorld-Mod-Latino-*.zip
-          generate_release_notes: true
+        if: steps.decidir.outputs.tag != ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.decidir.outputs.tag }}
+        run: gh release create "$TAG" RimWorld-Mod-Latino.zip --target "$(git rev-parse HEAD)" --title "$TAG" --notes-file notas.md

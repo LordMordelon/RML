@@ -33,6 +33,8 @@ jobs:
     outputs:
       # El commit a publicar en Pages, o vacío si no hay nada nuevo en docs/.
       pagina: ${{ steps.commitear.outputs.pagina }}
+      # El commit que quedó en master, con el del bot si lo hubo: el que va a la release.
+      commit: ${{ steps.publicado.outputs.commit }}
 
     steps:
       # Con el historial completo: la lista de mods lleva la fecha del último commit que tocó
@@ -88,6 +90,11 @@ jobs:
       - name: Comprobar rutas de Data
         run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -rutas
 
+      - name: Anotar el commit publicado
+        id: publicado
+        shell: bash
+        run: echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
   # Si regenerar no commiteó nada, la página ya está al día: o el push no la tocó, o
   # traía docs/ nuevo y lo publicó pages.yml por su cuenta.
   publicar-pagina:
@@ -100,3 +107,14 @@ jobs:
       contents: read
       pages: write
       id-token: write
+
+  # La copia liviana como release, para quien juega sin Steam. Depende de regenerar, así que
+  # no corre si falló la comprobación de rutas: un mod que no carga no se publica. Si la copia
+  # quedó igual a la de la última release, release.yml termina sin publicar nada.
+  publicar-release:
+    needs: regenerar
+    uses: ./.github/workflows/release.yml
+    with:
+      ref: ${{ needs.regenerar.outputs.commit }}
+    permissions:
+      contents: write
