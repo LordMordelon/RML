@@ -81,20 +81,20 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
 
 1. Extraer el mod con el extractor, con idioma de destino
    `SpanishLatin (Español(Latinoamérica))`.
-2. Traducir en la planilla `.xlsx`.
-3. Convertir XLSX → XML con el propio extractor.
-4. Copiar el resultado a `Data/<Nombre del mod> - <WorkshopID>/`, verificando que
+2. Traducir el XML que deja el extractor, reemplazando cada `TODO`. El original en inglés
+   queda en el comentario `EN:` de la línea de arriba.
+3. Copiar el resultado a `Data/<Nombre del mod> - <WorkshopID>/`, verificando que
    quede `Languages/SpanishLatin/…`, con el nombre corto: con el largo, instalado desde el
    Workshop algunas rutas pasan el límite de Windows y el juego queda en pantalla negra.
-5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
+4. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
    (se lee del `About.xml` del mod en el workshop). Ver
    `LoadFolders.Build.Example.yaml` para la referencia de campos.
-6. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
+5. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
    `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
    (`ModList.tsv` y la página `docs/index.html`, publicada en
    https://lordmordelon.github.io/RML/) y el `forceLoadAfter` de `About/About.xml`,
    que hace que RML cargue después de cada mod que traduce.
-7. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
+6. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
 
 No hace falta hacer nada si el mod trae su propia traducción al español: RML va último
 en la lista de mods y le gana igual. El extractor lo avisa en el log por si esa
@@ -102,7 +102,7 @@ traducción sirve para partir de ahí, no porque haya que anotarla en ningún la
 
 ### El atajo: la traducción rápida
 
-Si en el extractor marcas **«Traducción rápida»** al elegir el mod, los pasos 3 a 6 los
+Si en el extractor marcas **«Traducción rápida»** al elegir el mod, los pasos 3 a 5 los
 hace él solo: escribe directamente en `Data/`, conserva lo que ya estaba traducido, genera
 el `LoadFolders.Build.yaml` y regenera el índice. Solo queda probar en el juego.
 

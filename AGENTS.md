@@ -90,7 +90,7 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
    del Workshop, y `02-armar-copia-limpia.cmd` y la CI no dejan pasar una ruta larga ni un mod con las
    dos carpetas de idioma. Un extractor anterior a este cambio escribe con el nombre largo:
    no correrlo sobre este RML.
-2. **Traducir**, en la planilla `.xlsx` o reemplazando los `TODO` en el XML.
+2. **Traducir**, reemplazando los `TODO` en el XML.
 3. **Regenerar el índice.** Lo hace `01-regenerar-indice.cmd`, y también el extractor al terminar
    una traducción rápida y la GitHub Action al hacer push.
 
