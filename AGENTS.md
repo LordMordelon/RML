@@ -55,6 +55,7 @@ Y cada carpeta de mod, por dentro:
   Languages/SpanishLatin/
     DefInjected/  Keyed/  Strings/
   Patches/                    <- fuera de Languages, a la par
+    <ID> - <mod dueño>.xml    <- el id adelante: el nombre tiene que ser único en todo Data/
   LoadFolders.Build.yaml
   UNUSED.xml                  <- traducciones apartadas
 ```
@@ -245,6 +246,15 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   - `Vanilla`, cuando se refiere al contenido base del juego.
 
 ## Cosas que ya pasaron
+
+- **Una traducción de `Patches/` que estaba escrita y no aparecía en el juego.** El nombre
+  del archivo salía del mod dueño del def, y `Odyssey.xml` estaba en nueve carpetas. Las de
+  `Data/` son carpetas de un solo mod de RimWorld, que las recorre deduplicando por ruta
+  relativa: cargaba uno y descartaba los otros ocho sin avisar. Eran 30 archivos de 107, con
+  737 operaciones de traducción adentro. Ahora el nombre lleva el id del workshop adelante
+  —`3609835606 - Odyssey.xml`— y `01-regenerar-indice.cmd` avisa en amarillo si dos carpetas
+  vuelven a compartir una ruta interna. También caían ahí dos `Jobs_Misc.xml` de traducciones
+  heredadas, con el nombre sin codificar, que no venían del extractor.
 
 - **Un mismo nodo traducido dos veces.** Puede estar en `DefInjected/` y en `Patches/` a
   la vez, con valores distintos. El extractor unifica las dos formas, así que una gana:
