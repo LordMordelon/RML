@@ -12,6 +12,11 @@ namespace LoadFoldersBuilder;
  *  Languages/SpanishLatin (Español(Latinoamérica)). El juego carga las dos como el mismo idioma.
  *  Es lo que deja un extractor anterior al cambio al nombre corto si se corre sobre un RML ya
  *  migrado.
+ *
+ *  Nombres repetidos: dos carpetas de mod con un archivo en la misma ruta interna, por ejemplo
+ *  Patches/Odyssey.xml. Las carpetas de Data/ son carpetas de un solo mod de RimWorld, y el
+ *  juego las recorre deduplicando por esa ruta: carga la primera y descarta el resto sin decir
+ *  nada. Nueve carpetas tenian su Patches/Odyssey.xml y ocho no llegaban al juego.
  */
 public static class Rutas
 {
@@ -66,11 +71,51 @@ public static class Rutas
         return Resultado;
     }
 
+    /** Los archivos que dos carpetas de mod distintas tienen en la misma ruta interna.
+     *
+     *  Se miran solo los que estan en una subcarpeta —Patches/, Languages/…—, que son los que
+     *  el juego busca por ruta relativa. Los sueltos en la raiz de cada carpeta de mod, el
+     *  LoadFolders.Build.yaml y el UNUSED.xml, se llaman igual en las 262 a proposito y no los
+     *  carga nadie.
+     */
+    public static List<string> NombresRepetidos(string RootPath)
+    {
+        var Resultado = new List<string>();
+        string Data = Path.Combine(RootPath, "Data");
+        if (!Directory.Exists(Data)) return Resultado;
+
+        // Una carpeta de mod es una que tiene su yaml: son las mismas que salen como <li> en el
+        // LoadFolders.xml, que es la lista que el juego recorre.
+        var PorRutaInterna = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (string Yaml in Directory.EnumerateFiles(Data, Statics.BuildYamlFileName, SearchOption.AllDirectories))
+        {
+            string Carpeta = Path.GetDirectoryName(Yaml)!;
+            foreach (string Archivo in Directory.EnumerateFiles(Carpeta, "*", SearchOption.AllDirectories))
+            {
+                string Interna = Path.GetRelativePath(Carpeta, Archivo);
+                if (!Interna.Contains(Path.DirectorySeparatorChar)) continue;
+
+                if (!PorRutaInterna.TryGetValue(Interna, out var Lista))
+                    PorRutaInterna[Interna] = Lista = new List<string>();
+                Lista.Add(Path.GetRelativePath(RootPath, Archivo));
+            }
+        }
+
+        foreach (var Grupo in PorRutaInterna.Where(x => x.Value.Count > 1)
+                     .OrderBy(x => x.Key, StringComparer.Ordinal))
+            Resultado.Add(Grupo.Key + " -> " +
+                          string.Join(" | ", Grupo.Value.OrderBy(x => x, StringComparer.Ordinal)));
+
+        return Resultado;
+    }
+
     /** Muestra lo que encuentre. Devuelve true si no hay nada que corregir. */
     public static bool Informar(string RootPath)
     {
         var ListaLargas = Largas(RootPath);
         var ListaDuplicados = IdiomasDuplicados(RootPath);
+        var ListaRepetidos = NombresRepetidos(RootPath);
 
         if (ListaLargas.Count > 0)
         {
@@ -91,6 +136,16 @@ public static class Rutas
                 Console.WriteLine("\t" + Duplicado);
         }
 
-        return ListaLargas.Count == 0 && ListaDuplicados.Count == 0;
+        if (ListaRepetidos.Count > 0)
+        {
+            Console.WriteLine("\n\e[93m{0} archivos estan en la misma ruta interna en mas de una carpeta de Data/.\n" +
+                              "Todas son carpetas del mismo mod, asi que el juego carga uno solo y descarta los demas " +
+                              "sin avisar: esas traducciones no llegan a la pantalla. Hay que darles nombres distintos.\x1b[0m",
+                ListaRepetidos.Count);
+            foreach (string Repetido in ListaRepetidos)
+                Console.WriteLine("\t" + Repetido);
+        }
+
+        return ListaLargas.Count == 0 && ListaDuplicados.Count == 0 && ListaRepetidos.Count == 0;
     }
 }
