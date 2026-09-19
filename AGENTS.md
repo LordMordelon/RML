@@ -55,7 +55,7 @@ Y cada carpeta de mod, por dentro:
   Languages/SpanishLatin/
     DefInjected/  Keyed/  Strings/
   Patches/                    <- fuera de Languages, a la par
-    <ID> - <mod dueño>.xml    <- el id adelante: el nombre tiene que ser único en todo Data/
+    <codigo>.xml              <- codificado: el nombre tiene que ser único en todo Data/
   LoadFolders.Build.yaml
   UNUSED.xml                  <- traducciones apartadas
 ```
@@ -251,10 +251,16 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   del archivo salía del mod dueño del def, y `Odyssey.xml` estaba en nueve carpetas. Las de
   `Data/` son carpetas de un solo mod de RimWorld, que las recorre deduplicando por ruta
   relativa: cargaba uno y descartaba los otros ocho sin avisar. Eran 30 archivos de 107, con
-  737 operaciones de traducción adentro. Ahora el nombre lleva el id del workshop adelante
-  —`3609835606 - Odyssey.xml`— y `01-regenerar-indice.cmd` avisa en amarillo si dos carpetas
-  vuelven a compartir una ruta interna. También caían ahí dos `Jobs_Misc.xml` de traducciones
-  heredadas, con el nombre sin codificar, que no venían del extractor.
+  336 traducciones adentro. Ahora el nombre va codificado, como el de los `Keyed` y los
+  `DefInjected`, y `01-regenerar-indice.cmd` avisa en amarillo si dos carpetas vuelven a
+  compartir una ruta interna.
+
+  Se probó antes con el id del workshop adelante, que también era único pero dejaba el peor
+  archivo en 242 de los 259 que RimWorld puede abrir desde el Workshop; codificado queda en
+  174. Acá el largo de la ruta pesa más que la legibilidad (ver la regla 7). También caían en
+  la colisión dos `Jobs_Misc.xml` de traducciones heredadas, con el nombre sin codificar, que
+  no vienen del extractor: esos quedaron con el id adelante, porque sus rutas están holgadas
+  y el extractor no los rehace.
 
 - **Un mismo nodo traducido dos veces.** Puede estar en `DefInjected/` y en `Patches/` a
   la vez, con valores distintos. El extractor unifica las dos formas, así que una gana:
