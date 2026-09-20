@@ -29,7 +29,7 @@
   <!-- EN: A large targeting console capable of managing up to three gravship artillery pieces. Requires a crew member to manually aim and fire the weapons. It draws power directly from the grav engine. -->
   <VGE_TargetingConsole.description>Una gran consola de puntería capaz de manejar hasta tres piezas de artillería de gravinave. Necesita un tripulante que apunte y dispare las armas manualmente. Toma energía directamente del motor gravitacional.</VGE_TargetingConsole.description>
   <!-- EN: gravship minigun turret -->
-  <VGE_GravshipMinigunTurret.label>torreta de miniametralladora de gravinave</VGE_GravshipMinigunTurret.label>
+  <VGE_GravshipMinigunTurret.label>torreta de minigun de gravinave</VGE_GravshipMinigunTurret.label>
   <!-- EN: A compact gravship-mounted heavy automatic turret. Its multi-barrel mechanism unleashes sustained fire at high speed, shredding lightly armored targets at mid-range. It may explode when damaged. -->
   <VGE_GravshipMinigunTurret.description>Una torreta automática pesada y compacta montada en la gravinave. Su mecanismo de cañones múltiples desata fuego sostenido a gran velocidad y despedaza objetivos poco blindados a media distancia. Puede explotar si resulta dañada.</VGE_GravshipMinigunTurret.description>
   <!-- EN: Steel -->
@@ -37,9 +37,9 @@
   <!-- EN: Steel -->
   <VGE_GravshipMinigunTurret.comps.5.fuelGizmoLabel>Acero</VGE_GravshipMinigunTurret.comps.5.fuelGizmoLabel>
   <!-- EN: gravship minigun -->
-  <VGE_Gun_GravshipMinigun.label>miniametralladora de gravinave</VGE_Gun_GravshipMinigun.label>
+  <VGE_Gun_GravshipMinigun.label>minigun de gravinave</VGE_Gun_GravshipMinigun.label>
   <!-- EN: gravship minigun -->
-  <VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>miniametralladora de gravinave</VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>
+  <VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>minigun de gravinave</VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>
   <!-- EN: gravship autocannon turret -->
   <VGE_GravshipAutocannonTurret.label>torreta de cañón automático de gravinave</VGE_GravshipAutocannonTurret.label>
   <!-- EN: A compact gravship-mounted automatic turret. Its large-caliber shells do heavy damage over significant ranges, but despite its efficiency, the barrel must be refurbished after heavy use. It cannot fire at close-up targets, and may explode when damaged. Needs to be constructed on substructure. -->
@@ -55,7 +55,7 @@
   <!-- EN: autocannon shell -->
   <VGE_Bullet_GravshipAutocannon.label>proyectil de cañón automático</VGE_Bullet_GravshipAutocannon.label>
   <!-- EN: gravship uranium slug turret -->
-  <VGE_GravshipUraniumSlugTurret.label>torreta de proyectiles de uranio de gravinave</VGE_GravshipUraniumSlugTurret.label>
+  <VGE_GravshipUraniumSlugTurret.label>torreta de balas de uranio de gravinave</VGE_GravshipUraniumSlugTurret.label>
   <!-- EN: A compact gravship-mounted armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. More efficient than its ground version, it consumes fewer slugs per shot. It&apos;s more accurate at longer ranges, and can&apos;t fire at all close up. May explode when damaged. Needs to be constructed on substructure. -->
   <VGE_GravshipUraniumSlugTurret.description>Una torreta perforante compacta montada en la gravinave. Sus proyectiles de uranio ultradenso pueden atravesar blindaje pesado, pero hay que cargar nuevos proyectiles de uranio después de usarla. Más eficiente que su versión terrestre, consume menos proyectiles por disparo. Es más precisa a larga distancia y no puede disparar de cerca. Puede explotar si resulta dañada. Debe construirse sobre subestructura.</VGE_GravshipUraniumSlugTurret.description>
   <!-- EN: Uranium -->
@@ -63,9 +63,9 @@
   <!-- EN: Uranium -->
   <VGE_GravshipUraniumSlugTurret.comps.5.fuelGizmoLabel>Uranio</VGE_GravshipUraniumSlugTurret.comps.5.fuelGizmoLabel>
   <!-- EN: gravship uranium slug gun -->
-  <VGE_Gun_GravshipUraniumSlug.label>cañón de proyectiles de uranio de gravinave</VGE_Gun_GravshipUraniumSlug.label>
+  <VGE_Gun_GravshipUraniumSlug.label>cañón de balas de uranio de gravinave</VGE_Gun_GravshipUraniumSlug.label>
   <!-- EN: gravship uranium slug gun -->
-  <VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>cañón de proyectiles de uranio de gravinave</VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>
+  <VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>cañón de balas de uranio de gravinave</VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>
   <!-- EN: uranium slug -->
   <VGE_Bullet_GravshipUraniumSlug.label>proyectil de uranio</VGE_Bullet_GravshipUraniumSlug.label>
   <!-- EN: gauss howitzer -->
@@ -73,9 +73,9 @@
   <!-- EN: A triple-barrel electromagnetic artillery piece that fires dense uranium slugs at high velocity. Designed for both local bombardments and long-range engagements, it can also target other gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
   <VGE_GaussHowitzer.description>Una pieza de artillería electromagnética de triple cañón que dispara proyectiles densos de uranio a gran velocidad. Diseñada tanto para bombardeos locales como para enfrentamientos a larga distancia, también puede atacar a otras gravinaves en órbita. Necesita una terminal de puntería vinculada con un operador para funcionar. Toma energía directamente del motor gravitacional.</VGE_GaussHowitzer.description>
   <!-- EN: Uranium slugs -->
-  <VGE_GaussHowitzer.comps.1.fuelLabel>Proyectiles de uranio</VGE_GaussHowitzer.comps.1.fuelLabel>
+  <VGE_GaussHowitzer.comps.1.fuelLabel>Balas de uranio</VGE_GaussHowitzer.comps.1.fuelLabel>
   <!-- EN: Uranium slugs -->
-  <VGE_GaussHowitzer.comps.1.fuelGizmoLabel>Proyectiles de uranio</VGE_GaussHowitzer.comps.1.fuelGizmoLabel>
+  <VGE_GaussHowitzer.comps.1.fuelGizmoLabel>Balas de uranio</VGE_GaussHowitzer.comps.1.fuelGizmoLabel>
   <!-- EN: gauss howitzer -->
   <VGE_Gun_GaussHowitzer.label>obús gauss</VGE_Gun_GaussHowitzer.label>
   <!-- EN: A triple-barrel electromagnetic artillery piece. -->
@@ -531,13 +531,13 @@
   <!-- EN: defender turret gun -->
   <VGE_Gun_DefenderTurret.verbs.Verb_Shoot.label>cañón de torreta defensora</VGE_Gun_DefenderTurret.verbs.Verb_Shoot.label>
   <!-- EN: enemy gravship minigun turret -->
-  <VGE_EnemyGravshipMinigunTurret.label>torreta de miniametralladora de gravinave enemiga</VGE_EnemyGravshipMinigunTurret.label>
+  <VGE_EnemyGravshipMinigunTurret.label>torreta de minigun de gravinave enemiga</VGE_EnemyGravshipMinigunTurret.label>
   <!-- EN: A compact gravship-mounted heavy automatic turret. Its multi-barrel mechanism unleashes sustained fire at high speed, shredding lightly armored targets at mid-range. It may explode when damaged.\n\nThis particular device is owned by the enemy and can&apos;t be decrypted or unlocked. It can still be deconstructed to yield some valuable resources. -->
   <VGE_EnemyGravshipMinigunTurret.description>Una torreta automática pesada y compacta montada en la gravinave. Su mecanismo de cañones múltiples desata fuego sostenido a gran velocidad y despedaza objetivos poco blindados a media distancia. Puede explotar si resulta dañada.\n\nEste dispositivo en particular pertenece al enemigo y no se puede descifrar ni desbloquear. Aun así, se puede desmantelar para obtener algunos recursos valiosos.</VGE_EnemyGravshipMinigunTurret.description>
   <!-- EN: gravship minigun -->
-  <VGE_Gun_EnemyGravshipMinigun.label>miniametralladora de gravinave</VGE_Gun_EnemyGravshipMinigun.label>
+  <VGE_Gun_EnemyGravshipMinigun.label>minigun de gravinave</VGE_Gun_EnemyGravshipMinigun.label>
   <!-- EN: gravship minigun -->
-  <VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>miniametralladora de gravinave</VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>
+  <VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>minigun de gravinave</VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>
   <!-- EN: enemy gravship autocannon turret -->
   <VGE_EnemyGravshipAutocannonTurret.label>torreta de cañón automático de gravinave enemiga</VGE_EnemyGravshipAutocannonTurret.label>
   <!-- EN: A compact gravship-mounted automatic turret. Its large-caliber shells do heavy damage over significant ranges, but despite its efficiency, the barrel must be refurbished after heavy use. It cannot fire at close-up targets, and may explode when damaged.\n\nThis particular device is owned by the enemy and can&apos;t be decrypted or unlocked. It can still be deconstructed to yield some valuable resources. -->
