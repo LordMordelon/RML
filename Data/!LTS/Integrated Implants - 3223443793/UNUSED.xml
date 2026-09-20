@@ -14,9 +14,6 @@
   <entry class="AbilityDef" node="ReleaseGrubs.comps.LTS_CompAbilityEffect_Reloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
   <entry class="HediffDef" node="DeadlifeVenomClaw.comps.HediffComp_VerbGiver.tools.deadlife_venom_claw.label" original="deadlife venom claw">garra necrovita</entry>
   <entry class="HediffDef" node="EltexAdornments.renderNodeProperties.0.debugLabel" original="Eltex Adornments">Adornos eltex</entry>
-  <entry class="HediffDef" node="HackingPortImplant.description" original="An installed hacking port.">Un puerto de hackeo implantado.</entry>
-  <entry class="HediffDef" node="HackingPortImplant.label" original="hacking port">puerto de hackeo</entry>
-  <entry class="HediffDef" node="HackingPortImplant.labelNoun" original="a hacking port implant">puerto de hackeo</entry>
   <entry class="HediffDef" node="LeftExtraAnimaClawerArm.stages.inconvenient.label" original="inconvenient">inconveniente</entry>
   <entry class="HediffDef" node="LeftExtraAnimaClawerArm.stages.unwieldy.label" original="unwieldy">inmanejable</entry>
   <entry class="HediffDef" node="LeftExtraAnimaGauranlenArm.stages.acclimatised.label" original="acclimatised">aclimatado</entry>
@@ -210,16 +207,20 @@
   <entry class="HediffDef" node="RightExtraPowerClaw.stages.unwieldy.label" original="unwieldy">torpe</entry>
   <entry class="HediffDef" node="StalkerSkull.renderNodeProperties.0.debugLabel" original="Ghoul stalker skull">Cráneo acechador</entry>
   <entry class="JobDef" node="LTS_ExtractCerebrexNode.reportString" original="Doing something.">extrayendo nodo cerebrex.</entry>
-  <entry class="RecipeDef" node="InstallHackingPortImplant.description" original="Install a hacking port.">Implantar un puerto de hackeo.</entry>
-  <entry class="RecipeDef" node="InstallHackingPortImplant.jobString" original="Installing hacking port.">Implantando puerto de hackeo.</entry>
-  <entry class="RecipeDef" node="InstallHackingPortImplant.label" original="install hacking port">implantar puerto de hackeo</entry>
-  <entry class="RecipeDef" node="RemoveHackingPortImplant.description" original="Remove hacking port.">Amputa un miembro corporal.</entry>
-  <entry class="RecipeDef" node="RemoveHackingPortImplant.jobString" original="Removing hacking port.">Amputando miembro.</entry>
-  <entry class="RecipeDef" node="RemoveHackingPortImplant.label" original="remove hacking port">eliminar puerto de hackeo</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicArms.description" original="Craft bionic modules to augment standard bionic and archotech arms.">Permite fabricar módulos biónicos para potenciar brazos biónicos y arqueotéc estándar.</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicArms.generalRules.rulesStrings.0" original="subject_gerund-&amp;gt;augmenting bionic arms">subject-&gt;módulos de brazo biónico</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicArms.generalRules.rulesStrings.1" original="subject_gerund-&amp;gt;augmenting bionic arms">subject_gerund-&gt;potenciar brazos biónicos</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicArms.label" original="modular arm augmentation">potenciación de brazo modular</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicLegs.description" original="Craft optic modules to augment standard bionic and archotech legs.">Permite fabricar módulos ópticos para potenciar piernas biónicas y arqueotéc estándar.</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicLegs.generalRules.rulesStrings.0" original="subject_gerund-&amp;gt;augmenting bionic legs">subject-&gt;módulos de pierna biónica</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicLegs.generalRules.rulesStrings.1" original="subject_gerund-&amp;gt;augmenting bionic legs">subject_gerund-&gt;potenciar piernas biónicas</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicLegs.label" original="modular leg augmentation">potenciación de pierna modular</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicOptics.description" original="Craft bionic optics to augment standard bionic and archotech eyes.">Permite fabricar ópticas biónicas para potenciar ojos biónicos y arqueotéc estándar.</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicOptics.generalRules.rulesStrings.0" original="subject_gerund-&amp;gt;augmenting bionic eyes">subject-&gt;módulos ópticos biónicos</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicOptics.generalRules.rulesStrings.1" original="subject_gerund-&amp;gt;augmenting bionic eyes">subject_gerund-&gt;potenciar ojos biónicos</entry>
+  <entry class="ResearchProjectDef" node="LTS_ModularBionicOptics.label" original="modular eye augmentation">potenciación ocular modular</entry>
   <entry class="ThingDef" node="DreadmeldCore.comps.CompRevenantSpine.activatingStringPending" original="smashing dreadmeld core">aplastando el núcleo de carnifusión</entry>
   <entry class="ThingDef" node="DreadmeldCore.comps.CompUsable.useMessage" original="{PAWN_nameDef} smashed the dreadmeld core.">{PAWN_nameDef} aplastó el núcleo de carnifusión.</entry>
-  <entry class="ThingDef" node="HackingPortImplant.description" original="An extendable multi-band data cable with an adaptive port, linked directly to the nervous system via a biogel nerve-link.">Un cable de datos multi-banda extensible con un puerto adaptable, vinculado directamente al sistema nervioso mediante un enlace nervioso de biogel.</entry>
-  <entry class="ThingDef" node="HackingPortImplant.label" original="hacking port">puerto de hackeo</entry>
   <entry class="ThingDef" node="LTS_ModuleArm_LocalArmour.description" original="A bionic module that adds additional strategic plating to the user&amp;apos;s artificial arm.\n\nModules can be directly installed into bionic or archotech parts, but can only be ejected by removing the part.">Un módulo biónico que añade placas estratégicas adicionales al brazo artificial del usuario.\n\nLos módulos pueden instalarse directamente en partes biónicas o arqueotéc, pero solo pueden extraerse quitando la parte.</entry>
   <entry class="ThingDef" node="LTS_ModuleArm_LocalArmour.label" original="arm plating module">módulo de placas de brazo</entry>
   <entry class="ThingDef" node="LTS_ModuleEye_LocalArmour.description" original="A bionic module that adds a retractable, sunglass-like ballistic lense to protect the user&amp;apos;s eye.\n\nModules can be directly installed into bionic or archotech parts, but can only be ejected by removing the part.">Un módulo biónico que añade una lente balística retráctil, parecida a unos anteojos de sol, para proteger el ojo del usuario.\n\nLos módulos pueden instalarse directamente en partes biónicas o arqueotéc, pero solo pueden extraerse quitando la parte.</entry>
