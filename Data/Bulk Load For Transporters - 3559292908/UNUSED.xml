@@ -2,4 +2,16 @@
 <UnusedTranslations>
   <entry class="JobDef" node="DeliverToConstructionInBulk.reportString" original="Doing something.">Entregando a construcción en masa.</entry>
   <entry class="JobDef" node="LoadPortalInBulk.reportString" original="Doing something.">Cargando portal en masa.</entry>
+  <entry class="JobDef" node="UnloadPackAnimalInBulk.reportString" original="BulkLoadForTransporters.ReportString.UnloadingCarrier">Descargando animal de carga en masa.</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.ReportString.DeliveringTo">Entregando materiales a {0} en masa</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.ReportString.DeliveringTo_Generic">Entregando materiales en masa</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.ConstructionChainScanRadius">Radio de encadenamiento de trabajos (celdas): {0}</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Disabled">Deshabilitado</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Tooltip">Después de completar una entrega de material, un colono buscará el siguiente sitio de construcción necesitado dentro de este radio para "encadenar" tareas.\nPor defecto: 15. Establecer en 0 para deshabilitar completamente el encadenamiento de trabajos para la construcción.</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.ConstructionGroupingGridSize">Tamaño de cuadrícula de agrupación de sitios (celdas): {0}x{0}</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.ConstructionGroupingGridSize.Tooltip">Determina cómo se agrupan los sitios de construcción cercanos para una planificación unificada. Una cuadrícula más grande significa que los colonos planificarán para más sitios a la vez; una más pequeña es más localizada.\nPor defecto: 32x32.</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery">Habilitar entrega masiva para construcción</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery.Tooltip">Interruptor principal para habilitar o deshabilitar la función completa de transporte masivo de materiales para planos y marcos.</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct">Espacio libre mín. en mochila para descargar portador: {0}</entry>
+  <entry class="Keyed" node="BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct.Tooltip">Para iniciar un nuevo trabajo de 'descarga masiva de portador', la mochila de un colono debe tener al menos este espacio libre. Esto evita que los peones con mochilas casi llenas hagan viajes ineficientes. Priorizarán descargar su propia mochila primero.\nPor defecto: 50%.</entry>
 </UnusedTranslations>

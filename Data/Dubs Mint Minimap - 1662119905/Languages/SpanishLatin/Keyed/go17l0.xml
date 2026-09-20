@@ -12,8 +12,8 @@
   <Minimap.DubsModsDiscord>Discord de Dubs Mods</Minimap.DubsModsDiscord>
   <!-- EN: Set keybind in keyboard config -->
   <Minimap.Setkeybindinkeyboardconfig>Configurar tecla en los ajustes de teclado</Minimap.Setkeybindinkeyboardconfig>
-  <!-- EN: Ping button -->
-  <Minimap.Pingbutton>Botón de ping</Minimap.Pingbutton>
+  <!-- EN: Ping mouse button -->
+  <Minimap.Pingbutton>Botón del ratón para el ping</Minimap.Pingbutton>
   <!-- EN: Mouse{0} -->
   <Minimap.Mouse>Ratón{0}</Minimap.Mouse>
   <!-- EN: None -->
@@ -32,8 +32,6 @@
   <Minimap.Fires>Incendios</Minimap.Fires>
   <!-- EN: Hostiles -->
   <Minimap.Hostiles>Hostiles</Minimap.Hostiles>
-  <!-- EN: Animals -->
-  <Minimap.Animals>Animales</Minimap.Animals>
   <!-- EN: Wildlife -->
   <Minimap.Wildlife>Vida silvestre</Minimap.Wildlife>
   <!-- EN: Predators -->
@@ -44,8 +42,8 @@
   <Minimap.Prisoners>Prisioneros</Minimap.Prisoners>
   <!-- EN: Small Arms Fire -->
   <Minimap.SmallArmsFire>Fuego de armas ligeras</Minimap.SmallArmsFire>
-  <!-- EN: Projectiles -->
-  <Minimap.Projectiles>Proyectiles</Minimap.Projectiles>
+  <!-- EN: Overhead projectiles (mortars) -->
+  <Minimap.Projectiles>Proyectiles aéreos (morteros)</Minimap.Projectiles>
   <!-- EN: Faction Colours -->
   <Minimap.FactionColours>Colores de facción</Minimap.FactionColours>
   <!-- EN: Fogged -->
@@ -66,8 +64,8 @@
   <Minimap.Friendlies>Aliados</Minimap.Friendlies>
   <!-- EN: Colony Animals -->
   <Minimap.ColonyAnimals>Animales de la colonia</Minimap.ColonyAnimals>
-  <!-- EN: Map Size -->
-  <Minimap.Mapsize>Tamaño del mapa</Minimap.Mapsize>
+  <!-- EN: Minimap Size -->
+  <Minimap.Mapsize>Tamaño del minimapa</Minimap.Mapsize>
   <!-- EN: Icon Scale -->
   <Minimap.IconScale>Escala de iconos</Minimap.IconScale>
   <!-- EN: Colonist Scale -->
@@ -84,16 +82,16 @@
   <Minimap.Fog>Niebla</Minimap.Fog>
   <!-- EN: No Signal -->
   <Minimap.NoSignal>Sin señal</Minimap.NoSignal>
-  <!-- EN: When enabled the mini map requires a TACS (Target Acquisition and Communication System) from the mod Rimatomics in order to function -->
-  <Minimap.RimatomicsMinimap>Cuando está activado, el minimapa requiere un TACS (Sistema de Adquisición de Objetivos y Comunicación) del mod Rimatomics para funcionar.</Minimap.RimatomicsMinimap>
-  <!-- EN: When enabled the mini map requires a comms console in order to function -->
-  <Minimap.CommsConsoleMap>Cuando está activado, el minimapa requiere una consola de comunicaciones para funcionar.</Minimap.CommsConsoleMap>
+  <!-- EN: When enabled the mini map requires an active TACS (Target Acquisition and Communication System) from the Rimatomics mod in order to function -->
+  <Minimap.RimatomicsMinimap>Cuando está activado, el minimapa requiere un TACS (Sistema de Adquisición de Objetivos y Comunicación) activo del mod Rimatomics para funcionar.</Minimap.RimatomicsMinimap>
+  <!-- EN: When enabled the mini map requires a powered comms console in order to function -->
+  <Minimap.CommsConsoleMap>Cuando está activado, el minimapa requiere una consola de comunicaciones con energía para funcionar.</Minimap.CommsConsoleMap>
   <!-- EN: When enabled the mini map is free to use without requiring extra buildings -->
   <Minimap.FreeMinimap>Cuando está activado, el minimapa es de uso libre sin necesidad de edificios adicionales.</Minimap.FreeMinimap>
   <!-- EN: Ping a location on the map which other players can see in multiplayer -->
   <PinttoolTip>Marca una ubicación en el mapa que otros jugadores pueden ver en multijugador.</PinttoolTip>
-  <!-- EN: Lock the minimap to its current size and location -->
-  <MapAnchorTip>Bloquea el minimapa en su tamaño y ubicación actuales.</MapAnchorTip>
-  <!-- EN: Mark all things on the map that are of the same def as the current selection -->
-  <SneakyFinderTip>Marca todas las cosas en el mapa que sean del mismo tipo que la selección actual.</SneakyFinderTip>
+  <!-- EN: Anchor the camera: save the current camera position and zoom, then click the minimap to jump back to it -->
+  <MapAnchorTip>Ancla la cámara: guarda la posición y el acercamiento actuales de la cámara; después haz clic en el minimapa para volver a ese punto.</MapAnchorTip>
+  <!-- EN: Mark all things on the map that are the same type as the selected thing -->
+  <SneakyFinderTip>Marca todas las cosas del mapa que sean del mismo tipo que la cosa seleccionada.</SneakyFinderTip>
 </LanguageData>

@@ -6,6 +6,10 @@
   <PA_EnableModDesc>Si está desactivado, el sistema de munición se apaga: las armas disparan sin gastar munición, el botón de munición y la columna de la pestaña Políticas se ocultan, los PNJ dejan de aparecer con recargas, los comerciantes dejan de venderlas y desaparecen las construcciones de recarga y las recetas de recargas. Las recargas que ya existan y las estaciones de recarga construidas se quedan donde están.</PA_EnableModDesc>
   <!-- EN: Show ammunition gizmo only while drafted -->
   <PA_ShowOnlyDrafted>Mostrar el botón de munición solo al estar reclutado</PA_ShowOnlyDrafted>
+  <!-- EN: Refill buildings have infinite refills -->
+  <PA_RefillBuildingsAreInfinite>Las construcciones de recarga tienen recargas infinitas</PA_RefillBuildingsAreInfinite>
+  <!-- EN: If disabled, refill buildings have limited amount of refills, and need to be restocked using craftable refill packs of the corresponding ammo type. -->
+  <PA_RefillBuildingsAreInfiniteDesc>Si está desactivado, las construcciones de recarga tienen una cantidad limitada de recargas y hay que reabastecerlas con recargas fabricables del tipo de munición correspondiente.</PA_RefillBuildingsAreInfiniteDesc>
   <!-- EN: Automatically use refill packs -->
   <PA_AutoRefillWithConsumable>Usar recargas automáticamente</PA_AutoRefillWithConsumable>
   <!-- EN: Automatically add refill buildings to scenarios -->
@@ -32,6 +36,8 @@
   <PA_RefillWithConsumableDesc>Consume 1 {0} para reponer al instante la munición al máximo.</PA_RefillWithConsumableDesc>
   <!-- EN: Cannot refill: ammunition is already full. -->
   <PA_AmmoAlreadyFull>No se puede recargar: la munición ya está completa.</PA_AmmoAlreadyFull>
+  <!-- EN: Cannot refill: refill building is out of refills. -->
+  <PA_AmmoBoxOutOfAmmo>No se puede recargar: la construcción de recarga se quedó sin recargas.</PA_AmmoBoxOutOfAmmo>
   <!-- EN: Cannot refill: incompatible weapon type. -->
   <PA_IncompatibleWeapon>No se puede recargar: tipo de arma incompatible.</PA_IncompatibleWeapon>
   <!-- EN: Cannot refill: recharger is not powered. -->

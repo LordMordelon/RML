@@ -12,10 +12,6 @@
   <BulkLoadForTransporters.ReportString.Unloading>Descargando {0} en masa.</BulkLoadForTransporters.ReportString.Unloading>
   <!-- EN: Bulk unloading -->
   <BulkLoadForTransporters.ReportString.Unloading_Generic>Descargando en masa</BulkLoadForTransporters.ReportString.Unloading_Generic>
-  <!-- EN: Bulk delivering materials to {0} -->
-  <BulkLoadForTransporters.ReportString.DeliveringTo>Entregando materiales a {0} en masa</BulkLoadForTransporters.ReportString.DeliveringTo>
-  <!-- EN: Bulk delivering materials -->
-  <BulkLoadForTransporters.ReportString.DeliveringTo_Generic>Entregando materiales en masa</BulkLoadForTransporters.ReportString.DeliveringTo_Generic>
   <!-- EN: Prioritize bulk loading {0} -->
   <BulkLoadForTransporters.PriorityLoadCommand>Priorizar carga masiva de {0}</BulkLoadForTransporters.PriorityLoadCommand>
   <!-- EN: Prioritize bulk unloading {0} -->
@@ -58,24 +54,10 @@
   <BulkLoadForTransporters.Settings.Header.BulkUnload.Tooltip>Ajustes para la característica adicional: descargar animales de carga y otros portadores en masa.</BulkLoadForTransporters.Settings.Header.BulkUnload.Tooltip>
   <!-- EN: General Settings -->
   <BulkLoadForTransporters.Settings.Header.General>Ajustes generales</BulkLoadForTransporters.Settings.Header.General>
-  <!-- EN: Enable Bulk Delivery for Construction -->
-  <BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery>Habilitar entrega masiva para construcción</BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery>
-  <!-- EN: Master switch to enable or disable the entire feature of bulk hauling materials for blueprints and frames. -->
-  <BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery.Tooltip>Interruptor principal para habilitar o deshabilitar la función completa de transporte masivo de materiales para planos y marcos.</BulkLoadForTransporters.Settings.Header.BulkConstructionDelivery.Tooltip>
   <!-- EN: Force surplus into inventory (ignore mass) -->
   <BulkLoadForTransporters.Settings.CheatIgnoreInventoryMass>Forzar excedente al inventario (ignorar masa)</BulkLoadForTransporters.Settings.CheatIgnoreInventoryMass>
   <!-- EN: When enabled, any surplus items left in a pawn&apos;s hands after delivery will be forced back into their inventory, even if it makes them over-encumbered. This prevents items from being dropped on the ground, ensuring a smoother workflow at the cost of realism. -->
   <BulkLoadForTransporters.Settings.CheatIgnoreInventoryMass.Tooltip>Cuando está habilitado, cualquier objeto sobrante en las manos de un peón después de la entrega se forzará a su inventario, incluso si lo sobrecarga. Esto evita que los objetos caigan al suelo, asegurando un flujo de trabajo más fluido a costa del realismo.</BulkLoadForTransporters.Settings.CheatIgnoreInventoryMass.Tooltip>
-  <!-- EN: Job Chaining Radius (cells): {0} -->
-  <BulkLoadForTransporters.Settings.ConstructionChainScanRadius>Radio de encadenamiento de trabajos (celdas): {0}</BulkLoadForTransporters.Settings.ConstructionChainScanRadius>
-  <!-- EN: After completing a material delivery, a colonist will search for the next needy construction site within this radius to &quot;chain&quot; tasks. \nDefault: 15. Set to 0 to completely disable job chaining for construction. -->
-  <BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Tooltip>Después de completar una entrega de material, un colono buscará el siguiente sitio de construcción necesitado dentro de este radio para "encadenar" tareas.\nPor defecto: 15. Establecer en 0 para deshabilitar completamente el encadenamiento de trabajos para la construcción.</BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Tooltip>
-  <!-- EN: Disabled -->
-  <BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Disabled>Deshabilitado</BulkLoadForTransporters.Settings.ConstructionChainScanRadius.Disabled>
-  <!-- EN: Site Grouping Grid Size (cells): {0}x{0} -->
-  <BulkLoadForTransporters.Settings.ConstructionGroupingGridSize>Tamaño de cuadrícula de agrupación de sitios (celdas): {0}x{0}</BulkLoadForTransporters.Settings.ConstructionGroupingGridSize>
-  <!-- EN: Determines how nearby construction sites are grouped together for unified planning. A larger grid means colonists will plan for more sites at once; a smaller grid is more localized.\nDefault: 32x32. -->
-  <BulkLoadForTransporters.Settings.ConstructionGroupingGridSize.Tooltip>Determina cómo se agrupan los sitios de construcción cercanos para una planificación unificada. Una cuadrícula más grande significa que los colonos planificarán para más sitios a la vez; una más pequeña es más localizada.\nPor defecto: 32x32.</BulkLoadForTransporters.Settings.ConstructionGroupingGridSize.Tooltip>
   <!-- EN: Update Frequency (Ticks): {0} -->
   <BulkLoadForTransporters.Settings.AiUpdateFrequency>Frecuencia de actualización (Ticks): {0}</BulkLoadForTransporters.Settings.AiUpdateFrequency>
   <!-- EN: Lower values mean faster colonists&apos; reaction but may cost more performance. Higher values improve performance.\nDefault: 60 (1 second). -->
@@ -88,10 +70,6 @@
   <BulkLoadForTransporters.Settings.EnableContinuousLoading>Habilitar comando 'cargar hasta terminar'</BulkLoadForTransporters.Settings.EnableContinuousLoading>
   <!-- EN: Adds a right-click option to make colonists continuously work on loading transporters in an area until all tasks are done. -->
   <BulkLoadForTransporters.Settings.EnableContinuousLoading.Tooltip>Añade una opción de clic derecho para hacer que los colonos trabajen continuamente en la carga de transportadores en un área hasta que todas las tareas estén hechas.</BulkLoadForTransporters.Settings.EnableContinuousLoading.Tooltip>
-  <!-- EN: Min free backpack space to unload carrier: {0} -->
-  <BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct>Espacio libre mín. en mochila para descargar portador: {0}</BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct>
-  <!-- EN: To start a new &apos;bulk unload carrier&apos; job, a colonist&apos;s backpack must have at least this much free space. This prevents pawns with nearly-full backpacks from making inefficient trips. They will prioritize unloading their own backpack first.\nDefault: 50%. -->
-  <BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct.Tooltip>Para iniciar un nuevo trabajo de 'descarga masiva de portador', la mochila de un colono debe tener al menos este espacio libre. Esto evita que los peones con mochilas casi llenas hagan viajes ineficientes. Priorizarán descargar su propia mochila primero.\nPor defecto: 50%.</BulkLoadForTransporters.Settings.MinFreeSpaceToUnloadCarrierPct.Tooltip>
   <!-- EN: Reserve carrier during bulk unload -->
   <BulkLoadForTransporters.Settings.ReserveCarrierOnUnload>Reservar portador durante descarga masiva</BulkLoadForTransporters.Settings.ReserveCarrierOnUnload>
   <!-- EN: Determines if the carrier is reserved during the unloading process.\n\nEnabled: The job is uninterruptible, similar to vanilla behavior.\n\nDisabled: The job will be automatically cancelled if there is another task like roping needs the carrier. -->

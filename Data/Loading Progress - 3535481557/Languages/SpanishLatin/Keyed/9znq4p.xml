@@ -4,6 +4,8 @@
   <LoadingProgress.Title>Progreso de carga</LoadingProgress.Title>
   <!-- EN: Loading progress: Executing delayed initialization tasks -->
   <LoadingProgress.ExecuteToExecuteWhenFinished>Loading progress: Ejecutando tareas de inicialización retrasadas</LoadingProgress.ExecuteToExecuteWhenFinished>
+  <!-- EN: Loading progress: Regenerating renderer -->
+  <LoadingProgress.InGameExecuteToExecuteWhenFinished>Loading progress: Regenerando el renderizador</LoadingProgress.InGameExecuteToExecuteWhenFinished>
   <!-- EN: Loading progress: Calling all static constructors -->
   <LoadingProgress.CallAll>Loading progress: Llamando a todos los constructores estáticos</LoadingProgress.CallAll>
   <!-- EN: (Mod list has changed since last game start; estimate may be inaccurate.) -->
@@ -28,6 +30,64 @@
   <LoadingProgress.FasterGameLoadingEarlyModContentLoading>Loading progress — Carga de contenido de mods temprana de Faster Game Loading</LoadingProgress.FasterGameLoadingEarlyModContentLoading>
   <!-- EN: Faster Game Loading is early loading content for &lt;i&gt;{0}&lt;/i&gt;... -->
   <LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>Faster Game Loading está cargando contenido de forma temprana para {0}...</LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>
+  <!-- EN: Generating world -->
+  <LoadingProgress.InGame.WorldGeneration>Generando el mundo</LoadingProgress.InGame.WorldGeneration>
+  <!-- EN: Regenerating planet -->
+  <LoadingProgress.InGame.PlanetRegeneration>Regenerando el planeta</LoadingProgress.InGame.PlanetRegeneration>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.NewGameMapGeneration>Generando el mapa</LoadingProgress.InGame.NewGameMapGeneration>
+  <!-- EN: Loading game -->
+  <LoadingProgress.InGame.SaveLoading>Cargando la partida</LoadingProgress.InGame.SaveLoading>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.EncounterMapGeneration>Generando el mapa</LoadingProgress.InGame.EncounterMapGeneration>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.EncounterMapGenerationStatic>Generando el mapa</LoadingProgress.InGame.EncounterMapGenerationStatic>
+  <!-- EN: Setting up -->
+  <LoadingProgress.InGame.Phase.WorldGeneration_SetupSteps>Preparando</LoadingProgress.InGame.Phase.WorldGeneration_SetupSteps>
+  <!-- EN: Generating layers -->
+  <LoadingProgress.InGame.Phase.WorldGeneration_LayerSteps>Generando las capas</LoadingProgress.InGame.Phase.WorldGeneration_LayerSteps>
+  <!-- EN: Regenerating renderer -->
+  <LoadingProgress.InGame.Phase.WorldGeneration_Deferred>Regenerando el renderizador</LoadingProgress.InGame.Phase.WorldGeneration_Deferred>
+  <!-- EN: Regenerating layers -->
+  <LoadingProgress.InGame.Phase.PlanetRegeneration_RegeneratingLayers>Regenerando las capas</LoadingProgress.InGame.Phase.PlanetRegeneration_RegeneratingLayers>
+  <!-- EN: Setting up map -->
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_SetUp>Preparando el mapa</LoadingProgress.InGame.Phase.NewGameMapGeneration_SetUp>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_GenSteps>Generando el mapa</LoadingProgress.InGame.Phase.NewGameMapGeneration_GenSteps>
+  <!-- EN: Finalizing map -->
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_Finalize>Finalizando el mapa</LoadingProgress.InGame.Phase.NewGameMapGeneration_Finalize>
+  <!-- EN: Finishing up -->
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_PostInit>Terminando</LoadingProgress.InGame.Phase.NewGameMapGeneration_PostInit>
+  <!-- EN: Regenerating renderer -->
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_Deferred>Regenerando el renderizador</LoadingProgress.InGame.Phase.NewGameMapGeneration_Deferred>
+  <!-- EN: Reading file -->
+  <LoadingProgress.InGame.Phase.SaveLoading_ReadingFile>Leyendo el archivo</LoadingProgress.InGame.Phase.SaveLoading_ReadingFile>
+  <!-- EN: Loading world -->
+  <LoadingProgress.InGame.Phase.SaveLoading_World>Cargando el mundo</LoadingProgress.InGame.Phase.SaveLoading_World>
+  <!-- EN: Loading maps -->
+  <LoadingProgress.InGame.Phase.SaveLoading_Maps>Cargando los mapas</LoadingProgress.InGame.Phase.SaveLoading_Maps>
+  <!-- EN: Initializing game -->
+  <LoadingProgress.InGame.Phase.SaveLoading_Initializing>Inicializando la partida</LoadingProgress.InGame.Phase.SaveLoading_Initializing>
+  <!-- EN: Spawning things -->
+  <LoadingProgress.InGame.Phase.SaveLoading_Spawning>Haciendo aparecer las cosas</LoadingProgress.InGame.Phase.SaveLoading_Spawning>
+  <!-- EN: Finishing up -->
+  <LoadingProgress.InGame.Phase.SaveLoading_Finishing>Terminando</LoadingProgress.InGame.Phase.SaveLoading_Finishing>
+  <!-- EN: Regenerating renderer -->
+  <LoadingProgress.InGame.Phase.SaveLoading_Deferred>Regenerando el renderizador</LoadingProgress.InGame.Phase.SaveLoading_Deferred>
+  <!-- EN: Setting up map -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_SetUp>Preparando el mapa</LoadingProgress.InGame.Phase.EncounterMapGeneration_SetUp>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_GenSteps>Generando el mapa</LoadingProgress.InGame.Phase.EncounterMapGeneration_GenSteps>
+  <!-- EN: Finalizing map -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_Finalize>Finalizando el mapa</LoadingProgress.InGame.Phase.EncounterMapGeneration_Finalize>
+  <!-- EN: Finishing up -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_PostInit>Terminando</LoadingProgress.InGame.Phase.EncounterMapGeneration_PostInit>
+  <!-- EN: Spawning colonists -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_SpawningColonists>Haciendo aparecer a los colonos</LoadingProgress.InGame.Phase.EncounterMapGeneration_SpawningColonists>
+  <!-- EN: Regenerating renderer -->
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_Deferred>Regenerando el renderizador</LoadingProgress.InGame.Phase.EncounterMapGeneration_Deferred>
+  <!-- EN: Generating map -->
+  <LoadingProgress.InGame.Phase.EncounterMapGenerationStatic_Generating>Generando el mapa</LoadingProgress.InGame.Phase.EncounterMapGenerationStatic_Generating>
   <!-- EN: Patch late-loading initialization code to show loading progress -->
   <LoadingProgress.PatchInitialization>Parchear código de inicialización de carga tardía para mostrar el progreso de carga</LoadingProgress.PatchInitialization>
   <!-- EN: When enabled, the mod will patch the part during RimWorld&apos;s startup process where the game typically hangs to make it more responsive. This allows the mod to track and display loading progress for each static constructor. This should not cause any problems unless you are running mods that very specifically have targeted this code and is very timing sensitive.\n\nIf you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. -->
@@ -36,6 +96,14 @@
   <LoadingProgress.PatchReloadContent>Parchear código de carga de contenido para mostrar el progreso de carga</LoadingProgress.PatchReloadContent>
   <!-- EN: When enabled, the mod will replace the method that loads mod content to track and display loading progress for each content pack being reloaded. This should not cause any problems unless you are running mods that very specifically have targeted this code. The mod will log a warning if it detects any other mods patching this code.\n\nIf you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. Feel free to report any problems you encounter with mods that triggered the warning message. -->
   <LoadingProgress.PatchReloadContent.Tip>Cuando está activado, el mod reemplazará el método que carga el contenido de los mods para rastrear y mostrar el progreso de carga de cada paquete de contenido que se está recargando. Esto no debería causar ningún problema a menos que estés usando mods que hayan apuntado muy específicamente a este código. El mod registrará una advertencia si detecta que otros mods están parcheando este código.\n\nSi experimentas algún problema con Loading Progress, intenta desactivar esta opción para ver si se resuelve el problema. No dudes en informar cualquier problema que encuentres con mods que activaron el mensaje de advertencia.</LoadingProgress.PatchReloadContent.Tip>
+  <!-- EN: Show loading progress during in-game generation/loading -->
+  <LoadingProgress.ShowInGameLoadingProgress>Mostrar el progreso de carga durante la generación o la carga dentro de la partida</LoadingProgress.ShowInGameLoadingProgress>
+  <!-- EN: When enabled, the mod shows a loading window during in-game long operations too, such as generating a new world, generating the map for a new game, and loading a save. -->
+  <LoadingProgress.ShowInGameLoadingProgress.Tip>Cuando está activado, el mod también muestra una ventana de carga durante las operaciones largas dentro de la partida, como generar un mundo nuevo, generar el mapa de una partida nueva y cargar una partida guardada.</LoadingProgress.ShowInGameLoadingProgress.Tip>
+  <!-- EN: Patch in-game renderer regeneration to keep the loading window responsive -->
+  <LoadingProgress.PatchInGameDeferredRepaint>Parchear la regeneración del renderizador dentro de la partida para que la ventana de carga siga respondiendo</LoadingProgress.PatchInGameDeferredRepaint>
+  <!-- EN: When enabled, the mod also makes the map/world renderer regeneration that happens after generating or loading finishes (part of the process that otherwise freezes the loading window for its whole duration) run in smaller pieces with repaints in between, so the window keeps updating instead of appearing to hang. This applies to new games, loaded saves, settling or generating maps in-play, and world generation.\n\nIf you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. -->
+  <LoadingProgress.PatchInGameDeferredRepaint.Tip>Cuando está activado, el mod también hace que la regeneración del renderizador del mapa o del mundo que ocurre al terminar de generar o de cargar (parte del proceso que, si no, congela la ventana de carga durante todo ese tiempo) se ejecute en partes más pequeñas y con repintados entre medio, para que la ventana siga actualizándose en lugar de parecer colgada. Esto se aplica a las partidas nuevas, a las partidas cargadas, a asentarse o generar mapas durante el juego y a la generación del mundo.\n\nSi experimentas algún problema con Loading Progress, intenta desactivar esta opción para ver si se resuelve el problema.</LoadingProgress.PatchInGameDeferredRepaint.Tip>
   <!-- EN: Show loading time -->
   <LoadingProgress.LastLoadingTime>Mostrar tiempo de carga</LoadingProgress.LastLoadingTime>
   <!-- EN: When enabled, the mod will display the time elapsed so far. Once the game has loaded at least once, it will store it for next time, and use it as the estimated loading time for the next loading session. -->
@@ -332,8 +400,14 @@
   <LoadingProgress.StartupImpact.LoadFailedNoData>Falló la carga: no se encontraron datos guardados</LoadingProgress.StartupImpact.LoadFailedNoData>
   <!-- EN: Loading failed: {0} -->
   <LoadingProgress.StartupImpact.LoadFailed>Falló la carga: {0}</LoadingProgress.StartupImpact.LoadFailed>
-  <!-- EN: &lt;i&gt;Startup loading impact has been disabled in the settings&lt;/i&gt; -->
-  <LoadingProgress.StartupImpact.Disabled>&lt;i&gt;El registro del impacto de la carga inicial fue desactivado en la configuración&lt;/i&gt;</LoadingProgress.StartupImpact.Disabled>
+  <!-- EN: Startup loading impact tracking was off when the game started, so there&apos;s no data to show for this session. -->
+  <LoadingProgress.StartupImpact.DisabledAtStartup>El registro del impacto de la carga inicial estaba desactivado cuando arrancó el juego, así que no hay datos para mostrar de esta sesión.</LoadingProgress.StartupImpact.DisabledAtStartup>
+  <!-- EN: Enable startup loading impact tracking -->
+  <LoadingProgress.StartupImpact.EnableTracking>Activar el registro del impacto de la carga inicial</LoadingProgress.StartupImpact.EnableTracking>
+  <!-- EN: Enable it below to track it the next time the game starts. -->
+  <LoadingProgress.StartupImpact.EnableTrackingHint>Actívalo abajo para registrarlo la próxima vez que inicies el juego.</LoadingProgress.StartupImpact.EnableTrackingHint>
+  <!-- EN: It&apos;s now enabled, so it&apos;ll be tracked the next time the game starts. -->
+  <LoadingProgress.StartupImpact.WillTrackNextStartup>Ya está activado, así que se registrará la próxima vez que inicies el juego.</LoadingProgress.StartupImpact.WillTrackNextStartup>
   <!-- EN: Startup Impact Report -->
   <LoadingProgress.StartupImpact.HtmlReport.Title>Informe de impacto de inicio</LoadingProgress.StartupImpact.HtmlReport.Title>
   <!-- EN: Generated by Loading Progress on {0}. -->
