@@ -10,6 +10,8 @@
   <FSFTweaksFiltersAndStorageTitle>Filtros y Almacenamiento</FSFTweaksFiltersAndStorageTitle>
   <!-- EN: Food -->
   <FSFTweaksFoodTitle>Comida</FSFTweaksFoodTitle>
+  <!-- EN: Harder Difficulty -->
+  <FSFTweaksHarderDifficultyTitle>TODO</FSFTweaksHarderDifficultyTitle>
   <!-- EN: Misc -->
   <FSFTweaksMiscTitle>Varios</FSFTweaksMiscTitle>
   <!-- EN: Plants -->
@@ -84,6 +86,26 @@
   <FSFTweaksTableSearchRadiusTitle>Radio de búsqueda de mesa</FSFTweaksTableSearchRadiusTitle>
   <!-- EN: Allows you to set a maximum radius pawns will search for a table when consuming ingestible items.  This patches all items with a preferability except ones with NeverForNutrition. -->
   <FSFTweaksTableSearchRadiusOnDesc>Te permite establecer un radio máximo en el que los colonos buscarán una mesa al consumir objetos ingeribles. Esto parchea todos los objetos con una preferencia, excepto los que tienen NeverForNutrition.</FSFTweaksTableSearchRadiusOnDesc>
+  <!-- EN: Dangerous Skyfallers -->
+  <FSFTweaksDangerousSkyfallersTitle>Objetos que caen del cielo peligrosos</FSFTweaksDangerousSkyfallersTitle>
+  <!-- EN: Doubles the explosion radius of skyfallers so they are more dangerous when they land.  Skyfallers are things that drop out of the sky like meteors, ship parts and ship chunks. -->
+  <FSFTweaksDangerousSkyfallersDesc>Duplica el radio de explosión de los objetos que caen del cielo para que sean más peligrosos al aterrizar. Los objetos que caen del cielo son cosas que caen desde arriba, como meteoritos, partes de nave y trozos de nave.</FSFTweaksDangerousSkyfallersDesc>
+  <!-- EN: Harder Drop Pod Raids -->
+  <FSFTweaksHarderDropPodRaidsTitle>Incursiones con cápsulas de descenso más difíciles</FSFTweaksHarderDropPodRaidsTitle>
+  <!-- EN: Doubles the selection weight of Drop Pod raid strategies.  Also removes the raid point scaling so drop pod raids are the same size as normal raids. -->
+  <FSFTweaksHarderDropPodRaidsDesc>Duplica el peso de selección de las estrategias de incursión con cápsulas de descenso. También elimina el escalado de puntos de incursión para que las incursiones con cápsulas de descenso tengan el mismo tamaño que las incursiones normales.</FSFTweaksHarderDropPodRaidsDesc>
+  <!-- EN: Harder Environmental Events -->
+  <FSFTweaksHarderEnvironmentalEventsTitle>Eventos ambientales más difíciles</FSFTweaksHarderEnvironmentalEventsTitle>
+  <!-- EN: Modifies the duration of Environmental Events and increases the refire interval somewhat to compensate.  This makes events overall harder as they last longer.\n\nCold Snap and Heat Wave x2 Duration, Toxic Fallout x4 Duration, Volcanic Winter x2.5 Min and x1.5 Max Duration, Blood Rain x4.5 Min and x2 Max Duration (Anomaly DLC), Death Pall x2 Duration (Anomaly DLC), Volcanic Ash x1.5 Min and x1.75 Max Duration (Odyssey DLC), Drought x1.67 Min and x1.5 Max Duration (Odyssey DLC), Gill Rot x2.34 Min and x2.5 Max Duration (Odyssey DLC), Drought (Vanilla Events Expanded) x1.7 Min and x3 Max Duration. -->
+  <FSFTweaksHarderEnvironmentalEventsDesc>Modifica la duración de los eventos ambientales y aumenta algo el intervalo de repetición para compensar. Esto hace que los eventos sean en general más difíciles, ya que duran más.\n\nOla de frío y ola de calor x2 de duración, lluvia tóxica x4 de duración, invierno volcánico x2.5 de duración mínima y x1.5 de duración máxima, lluvia de sangre x4.5 de duración mínima y x2 de duración máxima (Anomaly DLC), sudario de muerte x2 de duración (Anomaly DLC), ceniza volcánica x1.5 de duración mínima y x1.75 de duración máxima (Odyssey DLC), sequía x1.67 de duración mínima y x1.5 de duración máxima (Odyssey DLC), podredumbre de branquias x2.34 de duración mínima y x2.5 de duración máxima (Odyssey DLC), sequía (Vanilla Events Expanded) x1.7 de duración mínima y x3 de duración máxima.</FSFTweaksHarderEnvironmentalEventsDesc>
+  <!-- EN: No One Ever Flees -->
+  <FSFTweaksNoOneEverFleesTitle>Nadie huye jamás</FSFTweaksNoOneEverFleesTitle>
+  <!-- EN: Patches every faction adding autoflee false as a tag so they will never break or flee no matter how many people die.\nThis setting is best used in combination with other mods.  See the No One Ever Flees workshop page for full details. -->
+  <FSFTweaksNoOneEverFleesDesc>Parchea cada facción añadiendo autoflee false como etiqueta para que nunca se rompan ni huyan, sin importar cuánta gente muera.\nEste ajuste se usa mejor en combinación con otros mods. Consulta la página del taller de No One Ever Flees para todos los detalles.</FSFTweaksNoOneEverFleesDesc>
+  <!-- EN: Randy Big Threat Interval -->
+  <FSFTweaksRandyBigThreatIntTitle>Intervalo de gran amenaza de Randy</FSFTweaksRandyBigThreatIntTitle>
+  <!-- EN: Changes the maxThreatBigIntervalDays for Randy (and storytellers based on him) to the input number.  If Randy hasn&apos;t triggered a major threat in X days, the next event he fires will be a major threat, regardless of the random chance.  It does not guarantee a major threat every X days as Randy can still choose not to fire an event at all during that time.\nThe vanilla value is 13, I recommend a value of 7 if you like him being more aggressive. -->
+  <FSFTweaksRandyBigThreatIntDesc>Cambia maxThreatBigIntervalDays de Randy (y de los narradores basados en él) al número indicado. Si Randy no ha desencadenado una amenaza mayor en X días, el próximo evento que dispare será una amenaza mayor, sin importar la probabilidad aleatoria. No garantiza una amenaza mayor cada X días, ya que Randy igual puede decidir no disparar ningún evento durante ese tiempo.\nEl valor original es 13; recomiendo 7 si te gusta que sea más agresivo.</FSFTweaksRandyBigThreatIntDesc>
   <!-- EN: Accurate Mechanoid Disassembly -->
   <FSFTweaksAccurateMechDisassemblyTitle>Desmontaje preciso de mecanoides</FSFTweaksAccurateMechDisassemblyTitle>
   <!-- EN: Replaces the mechanoid disassembly returns with accurate resources based on the resources required for gestating them.  It also allows tweaking of the disassembly efficiency stat so the returns can be scaled down while remaining accurate.  To prevent excess resources Mechanoid Slag Chunk drops are removed from all mechanoids. -->
@@ -96,10 +118,22 @@
   <FSFTweaksBedRestEffectivenessTitle>Efectividad del descanso en cama</FSFTweaksBedRestEffectivenessTitle>
   <!-- EN: Allows you to customise how furniture quality effects the Bed Rest Effectiveness stat. -->
   <FSFTweaksBedRestEffectivenessOnDesc>Te permite personalizar cómo la calidad de los muebles afecta a la estadística de efectividad del descanso en cama.</FSFTweaksBedRestEffectivenessOnDesc>
+  <!-- EN: Better Hidden Utilities -->
+  <FSFTweaksBetterHiddenUtilitiesTitle>TODO</FSFTweaksBetterHiddenUtilitiesTitle>
+  <!-- EN: Makes a number of changes to hidden utilities across DLC and Mods to ensure they follow the same logic.  Hidden utilities are safe (they can&apos;t be targeted by raids and can&apos;t be damaged).  Hidden utilities have no flammability and can be built on corners.  Hidden utilities have identical material costs to non hidden utilities.  Hidden utilities take four times longer to build than non hidden utilities. -->
+  <FSFTweaksBetterHiddenUtilitiesDesc>TODO</FSFTweaksBetterHiddenUtilitiesDesc>
   <!-- EN: Better Quest Rewards -->
   <FSFTweaksBetterQuestRewardsTitle>Mejores recompensas de misión</FSFTweaksBetterQuestRewardsTitle>
   <!-- EN: Allows you to individually enable options that will add or change things in the quest reward pool. -->
   <FSFTweaksBetterQuestRewardsOnDesc>Te permite activar individualmente opciones que añadirán o cambiarán cosas en el grupo de recompensas de misión.</FSFTweaksBetterQuestRewardsOnDesc>
+  <!-- EN: Better Room Stats -->
+  <FSFTweaksBetterRoomStatsTitle>TODO</FSFTweaksBetterRoomStatsTitle>
+  <!-- EN: Lowers the threshold value of room Space by 50%.  Also lowers the threshold values of room Impressiveness, Wealth and Beauty by 25% to compensate for the smaller rooms.  This allows you to build smaller, more sensible sized rooms that can achieve the upper tiers of room scoring with some reasonable investment. -->
+  <FSFTweaksBetterRoomStatsDesc>TODO</FSFTweaksBetterRoomStatsDesc>
+  <!-- EN: Better Traps -->
+  <FSFTweaksBetterTrapsTitle>TODO</FSFTweaksBetterTrapsTitle>
+  <!-- EN: Allows you to individually enable options that will allow traps to be placed adjacent, change their material cost and add new stone only trap with faster build time. -->
+  <FSFTweaksBetterTrapsOnDesc>TODO</FSFTweaksBetterTrapsOnDesc>
   <!-- EN: Better Utility Layers -->
   <FSFTweaksBetterUtilityLayersTitle>Mejores capas de utilidad</FSFTweaksBetterUtilityLayersTitle>
   <!-- EN: Changes the layering of a large number of utility items so they can be worn together.  For instance, many items are moved to the Torso, Lances are moved to the Shoulders, Orbital items are moved to the Legs.  This change does not cause issues for clothing/armour since all items are on the Utility layer which is normally unused except for Waist.  This tweak also includes a patch to change all Utility items to not count as clothing for nudists in the event they are not tagged correctly. -->
@@ -112,14 +146,14 @@
   <FSFTweaksFSFChatOnCommsTitle>Charlar por comunicaciones</FSFTweaksFSFChatOnCommsTitle>
   <!-- EN: Allows pawns to chat on the Comms Console to gain Social Recreation and Social Experience. -->
   <FSFTweaksFSFChatOnCommsDesc>Permite a los colonos charlar en la consola de comunicaciones para ganar recreación social y experiencia social.</FSFTweaksFSFChatOnCommsDesc>
+  <!-- EN: Chunks Make Any Blocks -->
+  <FSFTweaksChunksMakeAnyBlocksTitle>TODO</FSFTweaksChunksMakeAnyBlocksTitle>
+  <!-- EN: Patches all Make Stone Block recipes to take any type of chunk (except for making Vacstone). -->
+  <FSFTweaksChunksMakeAnyBlocksDesc>TODO</FSFTweaksChunksMakeAnyBlocksDesc>
   <!-- EN: Consciousness Affects Learning Speed -->
   <FSFTweaksConsciousnessLearningSpeedTitle>La consciencia afecta la velocidad de aprendizaje</FSFTweaksConsciousnessLearningSpeedTitle>
   <!-- EN: Changes the Global Learning Speed stat to be affected by consciousness.  This makes it so people with brain injuries learn slower while those with increased consciousness from bionics or drugs learn faster. -->
   <FSFTweaksConsciousnessLearningSpeedDesc>Cambia la estadística de velocidad de aprendizaje global para que se vea afectada por la consciencia. Esto hace que las personas con lesiones cerebrales aprendan más lento, mientras que aquellas con mayor consciencia por biónicos o drogas aprendan más rápido.</FSFTweaksConsciousnessLearningSpeedDesc>
-  <!-- EN: Dangerous Skyfallers -->
-  <FSFTweaksDangerousSkyfallersTitle>Objetos que caen del cielo peligrosos</FSFTweaksDangerousSkyfallersTitle>
-  <!-- EN: Doubles the explosion radius of skyfallers so they are more dangerous when they land.  Skyfallers are things that drop out of the sky like meteors, ship parts and ship chunks. -->
-  <FSFTweaksDangerousSkyfallersDesc>Duplica el radio de explosión de los objetos que caen del cielo para que sean más peligrosos al aterrizar. Los objetos que caen del cielo son cosas que caen desde arriba, como meteoritos, partes de nave y trozos de nave.</FSFTweaksDangerousSkyfallersDesc>
   <!-- EN: Default White Lights -->
   <FSFTweaksDefaultWhiteLightsTitle>Luces blancas por defecto</FSFTweaksDefaultWhiteLightsTitle>
   <!-- EN: Changes the default colour of electric lights to be White. -->
@@ -144,14 +178,6 @@
   <FSFTweaksFilthVanishesWithRainAndTimeTitle>La suciedad desaparece con la lluvia y el tiempo</FSFTweaksFilthVanishesWithRainAndTimeTitle>
   <!-- EN: Changes all filth types so they disappear within 14-15 days and wash away with rain/snow.  See the Filth Vanishes With Rain And Time workshop page for full details. -->
   <FSFTweaksFilthVanishesWithRainAndTimeDesc>Cambia todos los tipos de suciedad para que desaparezcan en 14-15 días y se laven con la lluvia/nieve. Consulta la página del taller de Filth Vanishes With Rain And Time para todos los detalles.</FSFTweaksFilthVanishesWithRainAndTimeDesc>
-  <!-- EN: Harder Drop Pod Raids -->
-  <FSFTweaksHarderDropPodRaidsTitle>Incursiones con cápsulas de descenso más difíciles</FSFTweaksHarderDropPodRaidsTitle>
-  <!-- EN: Doubles the selection weight of Drop Pod raid strategies.  Also removes the raid point scaling so drop pod raids are the same size as normal raids. -->
-  <FSFTweaksHarderDropPodRaidsDesc>Duplica el peso de selección de las estrategias de incursión con cápsulas de descenso. También elimina el escalado de puntos de incursión para que las incursiones con cápsulas de descenso tengan el mismo tamaño que las incursiones normales.</FSFTweaksHarderDropPodRaidsDesc>
-  <!-- EN: Harder Environmental Events -->
-  <FSFTweaksHarderEnvironmentalEventsTitle>Eventos ambientales más difíciles</FSFTweaksHarderEnvironmentalEventsTitle>
-  <!-- EN: Modifies the duration of Environmental Events and increases the refire interval somewhat to compensate.  This makes events overall harder as they last longer.\n\nCold Snap and Heat Wave x2 Duration, Toxic Fallout x4 Duration, Volcanic Winter x2.5 Min and x1.5 Max Duration, Blood Rain x4.5 Min and x2 Max Duration (Anomaly DLC), Death Pall x2 Duration (Anomaly DLC), Volcanic Ash x1.5 Min and x1.75 Max Duration (Odyssey DLC), Drought x1.67 Min and x1.5 Max Duration (Odyssey DLC), Gill Rot x2.34 Min and x2.5 Max Duration (Odyssey DLC), Drought (Vanilla Events Expanded) x1.7 Min and x3 Max Duration. -->
-  <FSFTweaksHarderEnvironmentalEventsDesc>Modifica la duración de los eventos ambientales y aumenta algo el intervalo de repetición para compensar. Esto hace que los eventos sean en general más difíciles, ya que duran más.\n\nOla de frío y ola de calor x2 de duración, lluvia tóxica x4 de duración, invierno volcánico x2.5 de duración mínima y x1.5 de duración máxima, lluvia de sangre x4.5 de duración mínima y x2 de duración máxima (Anomaly DLC), sudario de muerte x2 de duración (Anomaly DLC), ceniza volcánica x1.5 de duración mínima y x1.75 de duración máxima (Odyssey DLC), sequía x1.67 de duración mínima y x1.5 de duración máxima (Odyssey DLC), podredumbre de branquias x2.34 de duración mínima y x2.5 de duración máxima (Odyssey DLC), sequía (Vanilla Events Expanded) x1.7 de duración mínima y x3 de duración máxima.</FSFTweaksHarderEnvironmentalEventsDesc>
   <!-- EN: Immortal Special Items -->
   <FSFTweaksImmortalSpecialItemsTitle>Objetos especiales inmortales</FSFTweaksImmortalSpecialItemsTitle>
   <!-- EN: Changes all special valuable items you get under special circumstances to be immortal, they have no health, can&apos;t catch fire, deteriorate from weather or be damaged from combat.  These items are things like Mechanoid Chips (Biotech DLC), Shuttle Engines (Odyssey DLC) and Special Mod Added items that drop in combat. -->
@@ -196,10 +222,6 @@
   <FSFTweaksNoImprovisedWeaponsTitle>Sin armas improvisadas</FSFTweaksNoImprovisedWeaponsTitle>
   <!-- EN: Removes the weapon stats from all Ingestible and Resource items so they can no longer be used as weapons.\nNote: If enabled mid save this will cause errors if anyone has these items equipped.  You can use the mod Character Editor to move items to the inventory to fix this. -->
   <FSFTweaksNoImprovisedWeaponsDesc>Elimina las estadísticas de arma de todos los objetos ingeribles y recursos para que ya no puedan usarse como armas.\nNota: Si se activa a mitad de una partida, esto causará errores si alguien tiene estos objetos equipados. Puedes usar el mod Character Editor para mover los objetos al inventario y solucionar esto.</FSFTweaksNoImprovisedWeaponsDesc>
-  <!-- EN: No One Ever Flees -->
-  <FSFTweaksNoOneEverFleesTitle>Nadie huye jamás</FSFTweaksNoOneEverFleesTitle>
-  <!-- EN: Patches every faction adding autoflee false as a tag so they will never break or flee no matter how many people die.\nThis setting is best used in combination with other mods.  See the No One Ever Flees workshop page for full details. -->
-  <FSFTweaksNoOneEverFleesDesc>Parchea cada facción añadiendo autoflee false como etiqueta para que nunca se rompan ni huyan, sin importar cuánta gente muera.\nEste ajuste se usa mejor en combinación con otros mods. Consulta la página del taller de No One Ever Flees para todos los detalles.</FSFTweaksNoOneEverFleesDesc>
   <!-- EN: Power Generation Multiplier -->
   <FSFTweaksPowerGenerationMultiplierTitle>Multiplicador de generación de energía</FSFTweaksPowerGenerationMultiplierTitle>
   <!-- EN: Allows you to multiply the power generation of all Power Generating items and the Storage Capacity of all Batteries by an input value. -->
@@ -208,10 +230,6 @@
   <FSFTweaksPsychicSensBonusesTitle>Bonificaciones de sensibilidad psíquica</FSFTweaksPsychicSensBonusesTitle>
   <!-- EN: Changes the stats Meditation Psyfocus Gain and Neural Heat Recovery Rate to be affected by Psychic Sensitivity.  Also removes the bonuses to these stats from all GeneDef&apos;s (Genes), HediffDef&apos;s (Health Conditions), ThingDef&apos;s (Weapons and Apparel) and TraitDef&apos;s (Traits).  What this means is that Psychic Sensitivity itself will provide these bonuses instead of the aforementioned things.  In this way all bonuses are equally balanced, and those that didn&apos;t provide bonuses but probably should have do now.  So now there is a good reason to stack your psycasters with as much Psychic Sensitivity as you can because doing so will increase their overall recovery speed.  With Vanilla Psycasts Expanded the increase in Psyfocus gain will also result in your psycasters gaining XP faster. -->
   <FSFTweaksPsychicSensBonusesDesc>Cambia las estadísticas Ganancia de psicofoco por meditación y Tasa de recuperación de calor neuronal para que se vean afectadas por la Sensibilidad psíquica. También elimina las bonificaciones a esas estadísticas de todos los GeneDef (genes), HediffDef (condiciones de salud), ThingDef (armas y ropa) y TraitDef (rasgos). Esto significa que la propia Sensibilidad psíquica aportará esas bonificaciones en lugar de lo anterior. De este modo todas las bonificaciones quedan igualmente equilibradas, y las que no aportaban nada pero probablemente deberían hacerlo ahora sí lo hacen. Así que ahora hay una buena razón para acumular toda la Sensibilidad psíquica que puedas en tus psiconjuradores, porque eso aumentará su velocidad de recuperación general. Con Vanilla Psycasts Expanded, el aumento de ganancia de psicofoco también hará que tus psiconjuradores ganen experiencia más rápido.</FSFTweaksPsychicSensBonusesDesc>
-  <!-- EN: Randy Big Threat Interval -->
-  <FSFTweaksRandyBigThreatIntTitle>Intervalo de gran amenaza de Randy</FSFTweaksRandyBigThreatIntTitle>
-  <!-- EN: Changes the maxThreatBigIntervalDays for Randy (and storytellers based on him) to the input number.  If Randy hasn&apos;t triggered a major threat in X days, the next event he fires will be a major threat, regardless of the random chance.  It does not guarantee a major threat every X days as Randy can still choose not to fire an event at all during that time.\nThe vanilla value is 13, I recommend a value of 7 if you like him being more aggressive. -->
-  <FSFTweaksRandyBigThreatIntDesc>Cambia maxThreatBigIntervalDays de Randy (y de los narradores basados en él) al número indicado. Si Randy no ha desencadenado una amenaza mayor en X días, el próximo evento que dispare será una amenaza mayor, sin importar la probabilidad aleatoria. No garantiza una amenaza mayor cada X días, ya que Randy igual puede decidir no disparar ningún evento durante ese tiempo.\nEl valor original es 13; recomiendo 7 si te gusta que sea más agresivo.</FSFTweaksRandyBigThreatIntDesc>
   <!-- EN: Randy Fixes -->
   <FSFTweaksRandyFixesTitle>Correcciones de Randy</FSFTweaksRandyFixesTitle>
   <!-- EN: Randy is missing the fields TraderCaravanArrival, VisitorGroup, TravelerGroup, OrbitalTraderArrival.  This is no doubt so it relies on his randomness.  Unfortunately the randomness tends to result in not getting these events very often.  This fix adds the fields from Cassandra so these events show up regularly.  This is an addition not a replacement, so the original randomness aspect is also present.  If Vanilla Psycasts Expanded is loaded this tweak also adds the fields to Basilicus Bestower, as he&apos;s an exact copy of Randy except for his unique ability. -->
@@ -224,6 +242,10 @@
   <FSFTweaksSealedPowerArmourTitle>Armadura de potencia sellada</FSFTweaksSealedPowerArmourTitle>
   <!-- EN: Changes power armour to be airtight if it fully covers the head or body.  Meaning when the body armour and helmet are worn together it provides full Toxic Environmental Resistance.  The helmets will also provide immunity to Toxic Gas. -->
   <FSFTweaksSealedPowerArmourDesc>Cambia la armadura de potencia para que sea hermética si cubre por completo la cabeza o el cuerpo. Esto significa que, cuando se usan juntos la armadura corporal y el casco, proporciona resistencia ambiental tóxica total. Los cascos también proporcionarán inmunidad al gas tóxico.</FSFTweaksSealedPowerArmourDesc>
+  <!-- EN: Sterile Tiles Aren&apos;t Ugly -->
+  <FSFTweaksSterileTilesBeautyTitle>TODO</FSFTweaksSterileTilesBeautyTitle>
+  <!-- EN: Changes the beauty bonus of Sterile Tiles to be neutral so they no longer give a beauty penalty. -->
+  <FSFTweaksSterileTilesBeautyDesc>TODO</FSFTweaksSterileTilesBeautyDesc>
   <!-- EN: Tradeable Goods -->
   <FSFTweaksTradeableGoodsTitle>Bienes comerciables</FSFTweaksTradeableGoodsTitle>
   <!-- EN: Changes the tradability of a number of items allowing you to sell them to traders.  For example this allows you to sell meals and stone blocks. -->
@@ -298,8 +320,16 @@
   <FSFTweaksNoStartingResearchTribalTitle>Facción tribal</FSFTweaksNoStartingResearchTribalTitle>
   <!-- EN: Removes all starting research from the Player Tribal Faction called New Tribe which is used for tribal starting scenarios like Lost Tribe. -->
   <FSFTweaksNoStartingResearchTribalDesc>Elimina toda la investigación inicial de la facción tribal del jugador llamada Nueva tribu, que se utiliza para escenarios iniciales tribales como Tribu perdida.</FSFTweaksNoStartingResearchTribalDesc>
-  <!-- EN: Polux -->
-  <FSFTweaksPoluxTitle>Polux</FSFTweaksPoluxTitle>
+  <!-- EN: Anima (Royalty DLC) -->
+  <FSFTweaksAnimaTitle>TODO</FSFTweaksAnimaTitle>
+  <!-- EN: Archean (Odyssey DLC) -->
+  <FSFTweaksArcheanTitle>TODO</FSFTweaksArcheanTitle>
+  <!-- EN: Gauranlen (Ideology DLC) -->
+  <FSFTweaksGauranlenTitle>TODO</FSFTweaksGauranlenTitle>
+  <!-- EN: Harbinger (Anomaly DLC) -->
+  <FSFTweaksHarbingerTitle>TODO</FSFTweaksHarbingerTitle>
+  <!-- EN: Polux (Biotech DLC) -->
+  <FSFTweaksPoluxTitle>Polux (DLC Biotech)</FSFTweaksPoluxTitle>
   <!-- EN: Rock Chunks Stack Limit -->
   <FSFTweaksStackableChunksRocks>Límite de apilamiento de trozos de roca</FSFTweaksStackableChunksRocks>
   <!-- EN: Slag Chunks Stack Limit -->
@@ -312,6 +342,8 @@
   <FSFTweaksTableSearchRadius>Radio de búsqueda de mesa</FSFTweaksTableSearchRadius>
   <!-- EN: Input a value to set a maximum radius pawns will search for a table when consuming ingestible items.  This patches all items with a preferability except ones with NeverForNutrition.\nNote: If a table is within this radius they will go to it before consuming items so be careful not to set it too high.  The default value of 75 is what I&apos;ve found to be a nice middle ground. -->
   <FSFTweaksTableSearchRadiusDesc>Ingresa un valor para fijar el radio máximo en el que los colonos buscarán una mesa al consumir objetos ingeribles. Esto parchea todos los objetos con preferabilidad, salvo los que tienen NeverForNutrition.\nNota: si hay una mesa dentro de ese radio, irán hasta ella antes de consumir, así que ten cuidado de no ponerlo demasiado alto. El valor predeterminado de 75 es el punto medio que me pareció mejor.</FSFTweaksTableSearchRadiusDesc>
+  <!-- EN: maxThreatBigIntervalDays -->
+  <FSFTweaksRandyBigThreatIntRange>maxThreatBigIntervalDays</FSFTweaksRandyBigThreatIntRange>
   <!-- EN: Base Disassembly Efficiency {FSFAccurateMechDisassemblyBaseEff} -->
   <FSFTweaksAccurateMechDisassemblyBaseEff>Eficiencia de desmontaje base {FSFAccurateMechDisassemblyBaseEff}</FSFTweaksAccurateMechDisassemblyBaseEff>
   <!-- EN: Maximum Disassembly Efficiency {FSFAccurateMechDisassemblyMaxEff} -->
@@ -348,6 +380,12 @@
   <FSFTweaksBetterQuestRewardsObsidian>Añade obsidiana como material de relleno.</FSFTweaksBetterQuestRewardsObsidian>
   <!-- EN: Adds Synthread as a filler material. -->
   <FSFTweaksBetterQuestRewardsSynthread>Añade tela sintética como material de relleno.</FSFTweaksBetterQuestRewardsSynthread>
+  <!-- EN: Allow traps to be placed adjacent to each other. -->
+  <FSFTweaksBetterTrapsAdjacent>TODO</FSFTweaksBetterTrapsAdjacent>
+  <!-- EN: Enable Stone Spike Traps, a stone only spike trap with build time lowered to match normal Spike Traps. -->
+  <FSFTweaksBetterTrapsStoneSpikeTrap>TODO</FSFTweaksBetterTrapsStoneSpikeTrap>
+  <!-- EN: Custom Trap Costs -->
+  <FSFTweaksBetterTrapsCostTitle>TODO</FSFTweaksBetterTrapsCostTitle>
   <!-- EN: Huge River -->
   <FSFTweaksBiggerRiversHugeRiver>Río enorme</FSFTweaksBiggerRiversHugeRiver>
   <!-- EN: Large River -->
@@ -408,8 +446,6 @@
   <FSFTweaksVanometricGenerationMultiplier>Multiplicador de generación de energía vanométrica {FSFVanometricGenerationMultiplier}</FSFTweaksVanometricGenerationMultiplier>
   <!-- EN: Move the sliders to adjust the multiplier of all Power Generating items and the Storage Capacity of all Batteries.  The value is a straight multiplier, a value of 2 will double the original while 3 will triple it.\nThe Vanilla value is 1. -->
   <FSFTweaksPowerGenerationMultiplierDesc>Mueve los deslizadores para ajustar el multiplicador de todos los objetos generadores de energía y la capacidad de almacenamiento de todas las baterías. El valor es un multiplicador directo: un valor de 2 duplica el original y 3 lo triplica.\nEl valor de Vanilla es 1.</FSFTweaksPowerGenerationMultiplierDesc>
-  <!-- EN: maxThreatBigIntervalDays -->
-  <FSFTweaksRandyBigThreatIntRange>maxThreatBigIntervalDays</FSFTweaksRandyBigThreatIntRange>
   <!-- EN: Traitor Minimum Time Range In Ticks -->
   <FSFTweaksScenarioHediffTraitorMinTicks>Rango de tiempo mínimo del traidor en ticks</FSFTweaksScenarioHediffTraitorMinTicks>
   <!-- EN: Traitor Maximum Time Range In Ticks -->
@@ -436,17 +472,75 @@
   <FSFTweaksIndoorTreeFarmsRoof>Permitir que las plantas se planten bajo techos.</FSFTweaksIndoorTreeFarmsRoof>
   <!-- EN: Allow plants to be planted regardless of biome. -->
   <FSFTweaksIndoorTreeFarmsWildToSow>Permitir que las plantas se planten independientemente del bioma.</FSFTweaksIndoorTreeFarmsWildToSow>
+  <!-- EN: Anima Grass Never Dies -->
+  <FSFTweaksAnimaGrassNeverDiesTitle>TODO</FSFTweaksAnimaGrassNeverDiesTitle>
+  <!-- EN: Changes Anima Grass so it never dies from age. -->
+  <FSFTweaksAnimaGrassNeverDiesDesc>TODO</FSFTweaksAnimaGrassNeverDiesDesc>
+  <!-- EN: Meditation Focus Strength -->
+  <FSFTweaksAnimaMeditationStrengthTitle>TODO</FSFTweaksAnimaMeditationStrengthTitle>
+  <!-- EN: Changes the Meditation Focus Strength of the Anima Tree. -->
+  <FSFTweaksAnimaMeditationStrengthDesc>TODO</FSFTweaksAnimaMeditationStrengthDesc>
+  <!-- EN: No Artificial Building Radius -->
+  <FSFTweaksAnimaNoArtificialBuildingTitle>TODO</FSFTweaksAnimaNoArtificialBuildingTitle>
+  <!-- EN: Removes the radius that prevents Anima Trees from functioning if they are too close to artificial buildings. -->
+  <FSFTweaksAnimaNoArtificialBuildingDesc>TODO</FSFTweaksAnimaNoArtificialBuildingDesc>
+  <!-- EN: Warning: This tweak will only take effect on new plants and will not affect existing ones. -->
+  <FSFTweaksAnimaNoArtificialBuildingWarning>TODO</FSFTweaksAnimaNoArtificialBuildingWarning>
+  <!-- EN: Replantable -->
+  <FSFTweaksAnimaReplantableTitle>TODO</FSFTweaksAnimaReplantableTitle>
+  <!-- EN: Changes Anima Trees to be replantable allowing you to move them to another area. -->
+  <FSFTweaksAnimaReplantableDesc>TODO</FSFTweaksAnimaReplantableDesc>
+  <!-- EN: Seeds From Trees -->
+  <FSFTweaksAnimaSeedsSpawnTitle>TODO</FSFTweaksAnimaSeedsSpawnTitle>
+  <!-- EN: Causes Anima Trees to drop a seed every 30 to 60 days. -->
+  <FSFTweaksAnimaSeedsSpawnDesc>TODO</FSFTweaksAnimaSeedsSpawnDesc>
+  <!-- EN: Replantable -->
+  <FSFTweaksArcheanReplantableTitle>TODO</FSFTweaksArcheanReplantableTitle>
+  <!-- EN: Changes Archean Trees to be replantable allowing you to move them to another area. -->
+  <FSFTweaksArcheanReplantableDesc>TODO</FSFTweaksArcheanReplantableDesc>
+  <!-- EN: Seeds From Trees -->
+  <FSFTweaksArcheanSeedsSpawnTitle>TODO</FSFTweaksArcheanSeedsSpawnTitle>
+  <!-- EN: Causes Archean Trees to drop a seed every 30 to 60 days. -->
+  <FSFTweaksArcheanSeedsSpawnDesc>TODO</FSFTweaksArcheanSeedsSpawnDesc>
+  <!-- EN: No Artificial Building Radius -->
+  <FSFTweaksGauranlenNoArtificialBuildingTitle>TODO</FSFTweaksGauranlenNoArtificialBuildingTitle>
+  <!-- EN: Removes the radius that prevents Gauranlen Trees from functioning if they are too close to artificial buildings. -->
+  <FSFTweaksGauranlenNoArtificialBuildingDesc>TODO</FSFTweaksGauranlenNoArtificialBuildingDesc>
+  <!-- EN: Warning: This tweak may only take effect on new plants.  Also the plant itself still reports Artificial Buildings as an issue but they have no effect. -->
+  <FSFTweaksGauranlenNoArtificialBuildingWarning>TODO</FSFTweaksGauranlenNoArtificialBuildingWarning>
+  <!-- EN: Replantable -->
+  <FSFTweaksGauranlenReplantableTitle>TODO</FSFTweaksGauranlenReplantableTitle>
+  <!-- EN: Changes Gauranlen Trees to be replantable allowing you to move them to another area. -->
+  <FSFTweaksGauranlenReplantableDesc>TODO</FSFTweaksGauranlenReplantableDesc>
+  <!-- EN: Seeds From Trees -->
+  <FSFTweaksGauranlenSeedsSpawnTitle>TODO</FSFTweaksGauranlenSeedsSpawnTitle>
+  <!-- EN: Causes Gauranlen Trees to drop a seed every 30 to 60 days. -->
+  <FSFTweaksGauranlenSeedsSpawnDesc>TODO</FSFTweaksGauranlenSeedsSpawnDesc>
+  <!-- EN: Replantable -->
+  <FSFTweaksHarbingerReplantableTitle>TODO</FSFTweaksHarbingerReplantableTitle>
+  <!-- EN: Changes Harbinger Trees to be replantable allowing you to move them to another area. -->
+  <FSFTweaksHarbingerReplantableDesc>TODO</FSFTweaksHarbingerReplantableDesc>
+  <!-- EN: Seeds From Trees -->
+  <FSFTweaksHarbingerSeedsSpawnTitle>TODO</FSFTweaksHarbingerSeedsSpawnTitle>
+  <!-- EN: Causes Harbinger Trees to drop a seed every 30 to 60 days. -->
+  <FSFTweaksHarbingerSeedsSpawnDesc>TODO</FSFTweaksHarbingerSeedsSpawnDesc>
+  <!-- EN: Seeds On Traders -->
+  <FSFTweaksHarbingerSeedsTitle>TODO</FSFTweaksHarbingerSeedsTitle>
+  <!-- EN: Causes Neolithic Shaman Traders to stock extra Harbinger Seeds. -->
+  <FSFTweaksHarbingerSeedsDesc>TODO</FSFTweaksHarbingerSeedsDesc>
   <!-- EN: No Artificial Building Radius -->
   <FSFTweaksPoluxNoArtificialBuildingTitle>Sin radio de edificios artificiales</FSFTweaksPoluxNoArtificialBuildingTitle>
-  <!-- EN: Removes the radius that prevents Polux plants from functioning if they are too close to artificial buildings. -->
+  <!-- EN: Removes the radius that prevents Polux Plants from functioning if they are too close to artificial buildings. -->
   <FSFTweaksPoluxNoArtificialBuildingDesc>Elimina el radio que impide que las plantas Polux funcionen si están demasiado cerca de edificios artificiales.</FSFTweaksPoluxNoArtificialBuildingDesc>
+  <!-- EN: Warning: This tweak will only take effect on new plants and will not affect existing ones. -->
+  <FSFTweaksPoluxNoArtificialBuildingWarning>TODO</FSFTweaksPoluxNoArtificialBuildingWarning>
   <!-- EN: Pollution Absorption -->
   <FSFTweaksPoluxPollutionTitle>Absorción de contaminación</FSFTweaksPoluxPollutionTitle>
-  <!-- EN: Allows you to adjust the radius and speed at which Polux plants absorb pollution from the area. -->
+  <!-- EN: Allows you to adjust the radius and speed at which Polux Plants absorb pollution from the area. -->
   <FSFTweaksXenogeneRegrowTimeOnDesc>Te permite ajustar el radio y la velocidad a la que las plantas Polux absorben la contaminación del área.</FSFTweaksXenogeneRegrowTimeOnDesc>
   <!-- EN: Replantable -->
   <FSFTweaksPoluxReplantableTitle>Replantable</FSFTweaksPoluxReplantableTitle>
-  <!-- EN: Changes Polux plants to be replantable allowing you to move them to another area. -->
+  <!-- EN: Changes Polux Plants to be replantable allowing you to move them to another area. -->
   <FSFTweaksPoluxReplantableDesc>Cambia las plantas Polux para que se puedan replantar, permitiéndote moverlas a otra zona.</FSFTweaksPoluxReplantableDesc>
   <!-- EN: Seeds From Trees -->
   <FSFTweaksPoluxSeedsSpawnTitle>Semillas de los árboles</FSFTweaksPoluxSeedsSpawnTitle>
@@ -456,6 +550,22 @@
   <FSFTweaksPoluxSeedsTitle>Semillas en los comerciantes</FSFTweaksPoluxSeedsTitle>
   <!-- EN: Causes exotic traders and empire traders to stock extra Polux Seeds. -->
   <FSFTweaksPoluxSeedsDesc>Hace que los comerciantes exóticos y los comerciantes del imperio tengan semillas Polux adicionales en stock.</FSFTweaksPoluxSeedsDesc>
+  <!-- EN: FSFBetterTrapsSpikeCost -->
+  <FSFTweaksBetterTrapsVanillaSpikeCost>TODO</FSFTweaksBetterTrapsVanillaSpikeCost>
+  <!-- EN: Input a value to set the material cost of Spike Traps (Default 45). -->
+  <FSFTweaksBetterTrapsVanillaSpikeCostDesc>TODO</FSFTweaksBetterTrapsVanillaSpikeCostDesc>
+  <!-- EN: FSFBetterTrapsAnimalTrapCost -->
+  <FSFTweaksBetterTrapsAnimalTrapCost>TODO</FSFTweaksBetterTrapsAnimalTrapCost>
+  <!-- EN: Input a value to set the material cost of Animal Traps (Default 45). -->
+  <FSFTweaksBetterTrapsAnimalTrapCostDesc>TODO</FSFTweaksBetterTrapsAnimalTrapCostDesc>
+  <!-- EN: FSFBetterTrapsBearTrapCost -->
+  <FSFTweaksBetterTrapsBearTrapCost>TODO</FSFTweaksBetterTrapsBearTrapCost>
+  <!-- EN: Input a value to set the material cost of Bear Traps (Default 65). -->
+  <FSFTweaksBetterTrapsBearTrapCostDesc>TODO</FSFTweaksBetterTrapsBearTrapCostDesc>
+  <!-- EN: Harbinger Seed Amount Minimum Range (Default 0) -->
+  <FSFTweaksHarbingerSeedsMin>TODO</FSFTweaksHarbingerSeedsMin>
+  <!-- EN: Harbinger Seed Amount Maximum Range (Default 1) -->
+  <FSFTweaksHarbingerSeedsMax>TODO</FSFTweaksHarbingerSeedsMax>
   <!-- EN: Polux Tree Absorption Radius (Default 7) -->
   <FSFTweaksPoluxTreeRadius>Radio de absorción del árbol Polux (por defecto 7)</FSFTweaksPoluxTreeRadius>
   <!-- EN: Polux Tree Absorption Speed (Default 25000) -->
@@ -464,7 +574,7 @@
   <FSFTweaksPoluxBushRadius>Radio de absorción del arbusto Polux (por defecto 1)</FSFTweaksPoluxBushRadius>
   <!-- EN: Polux Bush Absorption Speed (Default 25000) -->
   <FSFTweaksPoluxBushSpeed>Velocidad de absorción del arbusto Polux (por defecto 25000)</FSFTweaksPoluxBushSpeed>
-  <!-- EN: Input values to adjust the radius and speed at which Polux plants absorb pollution.  The Radius is written in tiles which use a circular radius.  The Speed value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day. -->
+  <!-- EN: Input values to adjust the radius and speed at which Polux Plants absorb pollution.  The Radius is written in tiles which use a circular radius.  The Speed value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day. -->
   <FSFTweaksPoluxPollutionDesc>Introduce valores para ajustar el radio y la velocidad a la que las plantas Polux absorben la contaminación. El radio se expresa en casillas y usa un radio circular. El valor de velocidad se expresa en lo que el juego llama ticks. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.</FSFTweaksPoluxPollutionDesc>
   <!-- EN: Polux Seed Amount Minimum Range (Default 0) -->
   <FSFTweaksPoluxSeedsMin>Rango mínimo de cantidad de semillas Polux (por defecto 0)</FSFTweaksPoluxSeedsMin>
@@ -902,6 +1012,12 @@
   <FSFTweaksNormalGhoulAppearanceTitle>Apariencia normal de necrófago</FSFTweaksNormalGhoulAppearanceTitle>
   <!-- EN: Disables the custom body, head and hairstyles ghouls normally use.  This means pawns made into ghouls will retain their normal appearance but have the dead greenish skin and grey hair. -->
   <FSFTweaksNormalGhoulAppearanceDesc>Desactiva el cuerpo, la cabeza y los peinados personalizados que los necrófagos usan normalmente. Esto significa que los colonos convertidos en necrófagos conservarán su apariencia normal, pero tendrán el aspecto de piel verde y muerta.</FSFTweaksNormalGhoulAppearanceDesc>
+  <!-- EN: Movable Anomalies -->
+  <FSFTweaksMovableAnomaliesTitle>TODO</FSFTweaksMovableAnomaliesTitle>
+  <!-- EN: Patches the Monolith and Obelisks so they can be moved and taken along on gravships. -->
+  <FSFTweaksMovableAnomaliesDesc>TODO</FSFTweaksMovableAnomaliesDesc>
+  <!-- EN: Warning: Try to avoid moving the monolith after activating it as the game really doesn&apos;t like that.  If you take it along on a gravship make sure you have ample room around it as the monolith has only one orientation and will overwrite anything in its space.  The monolith quest will fail when moving map but you should be able to attune to the monolith to advance its stage when you&apos;ve encountered enough anomalies. -->
+  <FSFTweaksMovableAnomaliesWarning>TODO</FSFTweaksMovableAnomaliesWarning>
   <!-- EN: No Psychic Ritual Cooldown -->
   <FSFTweaksNoPsychicRitualCDTitle>Sin tiempo de reutilización de rituales psíquicos</FSFTweaksNoPsychicRitualCDTitle>
   <!-- EN: Removes the cooldown of Psychic Rituals allowing you to perform them again immediately providing you have the time and resources. -->
@@ -938,6 +1054,10 @@
   <FSFTweaksAnthrosonaeAnimusenTitle>Anthrosonae Animusen</FSFTweaksAnthrosonaeAnimusenTitle>
   <!-- EN: Changes the Animusen xenotype from the mod Alpha Genes to use cosmetic Anthrosonae Anthrofox genes. -->
   <FSFTweaksAnthrosonaeAnimusenDesc>Cambia el xenotipo Animusen del mod Alpha Genes para que use genes cosméticos Anthrofox de Anthrosonae.</FSFTweaksAnthrosonaeAnimusenDesc>
+  <!-- EN: Anthrosonae Catgirl Highmates -->
+  <FSFTweaksAnthrosonaeCatgirlHighmatesTitle>TODO</FSFTweaksAnthrosonaeCatgirlHighmatesTitle>
+  <!-- EN: Changes the Highmates from the Biotech DLC and Lowmates from Vanilla Races Expanded Highmate to use cosmetic Anthrosonae Anthrocat genes.  If the Vanilla Expanded version is loaded the Perfect Body gene will be swapped for Strong Immunity to preserve the metabolic efficiency as Perfect Body conflicts with Anthrosonae Fur.  Intended for those who find the furry scale of their catgirl companions lacking. -->
+  <FSFTweaksAnthrosonaeCatgirlHighmatesDesc>TODO</FSFTweaksAnthrosonaeCatgirlHighmatesDesc>
   <!-- EN: Anthrosonae Yttakin -->
   <FSFTweaksAnthrosonaeYttakinTitle>Anthrosonae Yttakin</FSFTweaksAnthrosonaeYttakinTitle>
   <!-- EN: Changes the Yttakin from the Biotech DLC to use cosmetic Anthrosonae Anthrowolf genes. -->
@@ -1052,6 +1172,10 @@
   <FSFTweaksVCookENoRuinedGrillsDesc>Cambia las comidas a la parrilla para que ya no se arruinen por las bajas temperaturas.</FSFTweaksVCookENoRuinedGrillsDesc>
   <!-- EN: Vanilla Expanded Framework Tweaks -->
   <FSFTweaksVanillaExpandedFrameworkTweaksTitle>Ajustes de Vanilla Expanded Framework</FSFTweaksVanillaExpandedFrameworkTweaksTitle>
+  <!-- EN: Bulk Processing -->
+  <FSFTweaksBulkProcessingTitle>TODO</FSFTweaksBulkProcessingTitle>
+  <!-- EN: Changes a number of time consuming recipes/processors that are generally done in bulk to require/output larger amounts of resources.  Many of these recipes/processors work off the idea of processing a single stack of items (75 units).  This tweak changes them to work off larger stack sizes (750 units).  For example Meat Drying Racks take 15 days to process 75 Meat, with this change they will take 15 days to process 750 Meat. -->
+  <FSFTweaksBulkProcessingDesc>TODO</FSFTweaksBulkProcessingDesc>
   <!-- EN: Vanilla Expanded Pipe Network -->
   <FSFVEPipeNetworkTitle>Vanilla Expanded Pipe Network</FSFVEPipeNetworkTitle>
   <!-- EN: Allows you to customise the storage capacity of various Pipe Networks that use the Vanilla Expanded Pipe Network framework. -->
