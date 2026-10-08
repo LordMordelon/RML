@@ -11,19 +11,19 @@
   <!-- EN: requires {0} quality or better -->
   <PWU_RequiresMinimumQuality>requiere calidad {0} o superior</PWU_RequiresMinimumQuality>
   <!-- EN: requires {0} expertise -->
-  <PWU_RequiresExpertise>TODO</PWU_RequiresExpertise>
+  <PWU_RequiresExpertise>requiere la especialidad {0}</PWU_RequiresExpertise>
   <!-- EN: no colonist has {0} level {1} -->
-  <PWU_NoColonistWithSkill>TODO</PWU_NoColonistWithSkill>
+  <PWU_NoColonistWithSkill>ningún colono tiene {0} nivel {1}</PWU_NoColonistWithSkill>
   <!-- EN: no colonist on this map has {0} level {1} -->
-  <PWU_NoColonistOnMapWithSkill>TODO</PWU_NoColonistOnMapWithSkill>
+  <PWU_NoColonistOnMapWithSkill>ningún colono de este mapa tiene {0} nivel {1}</PWU_NoColonistOnMapWithSkill>
   <!-- EN: no colonist has {0} expertise -->
-  <PWU_NoColonistWithExpertise>TODO</PWU_NoColonistWithExpertise>
+  <PWU_NoColonistWithExpertise>ningún colono tiene la especialidad {0}</PWU_NoColonistWithExpertise>
   <!-- EN: no colonist on this map has {0} expertise -->
-  <PWU_NoColonistOnMapWithExpertise>TODO</PWU_NoColonistOnMapWithExpertise>
+  <PWU_NoColonistOnMapWithExpertise>ningún colono de este mapa tiene la especialidad {0}</PWU_NoColonistOnMapWithExpertise>
   <!-- EN: hacking -->
-  <PWU_HackingFallbackLabel>TODO</PWU_HackingFallbackLabel>
+  <PWU_HackingFallbackLabel>hackeo</PWU_HackingFallbackLabel>
   <!-- EN: weaponsmithing -->
-  <PWU_WeaponsmithingFallbackLabel>TODO</PWU_WeaponsmithingFallbackLabel>
+  <PWU_WeaponsmithingFallbackLabel>armería</PWU_WeaponsmithingFallbackLabel>
   <!-- EN: Customize persona -->
   <PWU_CustomizeGizmoLabel>Personalizar IA</PWU_CustomizeGizmoLabel>
   <!-- EN: Select a colonist to customize this weapon at a nearby workbench. -->
@@ -229,7 +229,7 @@
   <!-- EN:  (experimental) -->
   <PWU_ExperimentalSuffix> (experimental)</PWU_ExperimentalSuffix>
   <!-- EN:  (requires restart) -->
-  <PWU_RestartRequiredSuffix>TODO</PWU_RestartRequiredSuffix>
+  <PWU_RestartRequiredSuffix> (requiere reiniciar)</PWU_RestartRequiredSuffix>
   <!-- EN: First trait costs an AI persona core -->
   <PWU_FirstTraitCostsPersonaCore>El primer rasgo cuesta un núcleo de IA</PWU_FirstTraitCostsPersonaCore>
   <!-- EN: When enabled (default), adding the first trait to a base weapon installs an AI persona core, which is refunded when the last trait is removed and the weapon reverts to base. When disabled, the first trait added and the last trait removed are priced like any other change: advanced components (scaled by weapon quality per the table below), which are never refunded. -->
@@ -273,63 +273,63 @@
   <!-- EN: Number of {0} techprints required to complete the research, on top of its research point cost. Setting this to 0 removes the techprint requirement entirely and stops traders from stocking the print. Takes effect immediately, no restart needed. -->
   <PWU_TechprintCountDesc>Cantidad de tecnoplanos de {0} necesarios para completar la investigación, además de su costo en puntos de investigación. Si lo estableces en 0, se elimina por completo el requisito de tecnoplanos y los comerciantes dejan de venderlos. Se aplica de inmediato, sin necesidad de reiniciar.</PWU_TechprintCountDesc>
   <!-- EN: Require minimum skill -->
-  <PWU_SkillCheckEnable>TODO</PWU_SkillCheckEnable>
+  <PWU_SkillCheckEnable>Exigir habilidad mínima</PWU_SkillCheckEnable>
   <!-- EN: Require a skill before a weapon&apos;s persona can be customized. Choose whose skill is checked, which skill, and what is required below. -->
-  <PWU_SkillCheckEnableDesc>TODO</PWU_SkillCheckEnableDesc>
+  <PWU_SkillCheckEnableDesc>Exige una habilidad antes de poder personalizar la IA de un arma. Más abajo eliges de quién se comprueba la habilidad, cuál y qué se exige.</PWU_SkillCheckEnableDesc>
   <!-- EN: Skill check applies to -->
-  <PWU_SkillCheckSubject>TODO</PWU_SkillCheckSubject>
+  <PWU_SkillCheckSubject>La comprobación de habilidad se aplica a</PWU_SkillCheckSubject>
   <!-- EN: Whose skill is checked. Which skill, and what is required, are set below. -->
-  <PWU_SkillCheckSubjectDesc>TODO</PWU_SkillCheckSubjectDesc>
+  <PWU_SkillCheckSubjectDesc>De quién se comprueba la habilidad. Cuál habilidad y qué se exige se configuran más abajo.</PWU_SkillCheckSubjectDesc>
   <!-- EN: No one -->
-  <PWU_SkillCheckSubjectNone>TODO</PWU_SkillCheckSubjectNone>
+  <PWU_SkillCheckSubjectNone>Nadie</PWU_SkillCheckSubjectNone>
   <!-- EN: Any pawn can customize persona weapons. -->
-  <PWU_SkillCheckSubjectNoneDesc>TODO</PWU_SkillCheckSubjectNoneDesc>
+  <PWU_SkillCheckSubjectNoneDesc>Cualquier colono puede personalizar armas de IA.</PWU_SkillCheckSubjectNoneDesc>
   <!-- EN: The pawn doing the customization -->
-  <PWU_SkillCheckSubjectPawn>TODO</PWU_SkillCheckSubjectPawn>
+  <PWU_SkillCheckSubjectPawn>El colono que hace la personalización</PWU_SkillCheckSubjectPawn>
   <!-- EN: The pawn ordered to customize the weapon must meet the requirement. When selecting a pawn for a weapon on the ground, hovering an under-skilled colonist shows their shortfall. -->
-  <PWU_SkillCheckSubjectPawnDesc>TODO</PWU_SkillCheckSubjectPawnDesc>
+  <PWU_SkillCheckSubjectPawnDesc>El colono al que se le ordena personalizar el arma debe cumplir el requisito. Al elegir un colono para un arma que está en el suelo, pasar el cursor sobre un colono sin la habilidad suficiente muestra cuánto le falta.</PWU_SkillCheckSubjectPawnDesc>
   <!-- EN: The most skilled colonist on the map -->
-  <PWU_SkillCheckSubjectMap>TODO</PWU_SkillCheckSubjectMap>
+  <PWU_SkillCheckSubjectMap>El colono más hábil del mapa</PWU_SkillCheckSubjectMap>
   <!-- EN: Any colonist on the weapon&apos;s map may meet the requirement on the colony&apos;s behalf. The pawn doing the work does not need the skill themselves. -->
-  <PWU_SkillCheckSubjectMapDesc>TODO</PWU_SkillCheckSubjectMapDesc>
+  <PWU_SkillCheckSubjectMapDesc>Cualquier colono del mapa del arma puede cumplir el requisito en nombre de la colonia. El colono que hace el trabajo no necesita tener la habilidad.</PWU_SkillCheckSubjectMapDesc>
   <!-- EN: The most skilled colonist anywhere -->
-  <PWU_SkillCheckSubjectWorld>TODO</PWU_SkillCheckSubjectWorld>
+  <PWU_SkillCheckSubjectWorld>El colono más hábil de cualquier lugar</PWU_SkillCheckSubjectWorld>
   <!-- EN: Any colonist anywhere in the world, including caravans and transports, may meet the requirement on the colony&apos;s behalf. -->
-  <PWU_SkillCheckSubjectWorldDesc>TODO</PWU_SkillCheckSubjectWorldDesc>
+  <PWU_SkillCheckSubjectWorldDesc>Cualquier colono de cualquier parte del mundo, incluidas caravanas y transportes, puede cumplir el requisito en nombre de la colonia.</PWU_SkillCheckSubjectWorldDesc>
   <!-- EN: Has no effect while the skill check applies to no one. -->
-  <PWU_SkillCheckNoEffect>TODO</PWU_SkillCheckNoEffect>
+  <PWU_SkillCheckNoEffect>No tiene efecto mientras la comprobación de habilidad no se aplique a nadie.</PWU_SkillCheckNoEffect>
   <!-- EN: Skill checked -->
-  <PWU_SkillCheckSkill>TODO</PWU_SkillCheckSkill>
+  <PWU_SkillCheckSkill>Habilidad comprobada</PWU_SkillCheckSkill>
   <!-- EN: Which skill the check reads. Reprogramming a persona is closer to hacking its AI than reworking the weapon, so Intellectual is the default. Choose Crafting to treat it as workbench craftsmanship instead. -->
-  <PWU_SkillCheckSkillDesc>TODO</PWU_SkillCheckSkillDesc>
+  <PWU_SkillCheckSkillDesc>Qué habilidad lee la comprobación. Reprogramar una IA se parece más a hackearla que a rehacer el arma, por eso Intelectual es la opción predeterminada. Elige Fabricación para tratarlo como un trabajo artesanal de banco de trabajo.</PWU_SkillCheckSkillDesc>
   <!-- EN: Check the pawn&apos;s Intellectual skill: the persona is reprogrammed by hacking its AI. -->
-  <PWU_SkillCheckSkillIntellectualDesc>TODO</PWU_SkillCheckSkillIntellectualDesc>
+  <PWU_SkillCheckSkillIntellectualDesc>Comprueba la habilidad Intelectual del colono: la IA se reprograma hackeándola.</PWU_SkillCheckSkillIntellectualDesc>
   <!-- EN: Check the pawn&apos;s Crafting skill: the persona is reworked as a piece of craftsmanship at the bench. -->
-  <PWU_SkillCheckSkillCraftingDesc>TODO</PWU_SkillCheckSkillCraftingDesc>
+  <PWU_SkillCheckSkillCraftingDesc>Comprueba la habilidad Fabricación del colono: la IA se rehace como un trabajo artesanal en el banco de trabajo.</PWU_SkillCheckSkillCraftingDesc>
   <!-- EN: Skill requirement -->
-  <PWU_SkillCheckKind>TODO</PWU_SkillCheckKind>
+  <PWU_SkillCheckKind>Requisito de habilidad</PWU_SkillCheckKind>
   <!-- EN: What the checked pawn must have. Every level below is required in the checked skill. -->
-  <PWU_SkillCheckKindDesc>TODO</PWU_SkillCheckKindDesc>
+  <PWU_SkillCheckKindDesc>Lo que debe tener el colono comprobado. Todos los niveles de abajo se exigen en la habilidad comprobada.</PWU_SkillCheckKindDesc>
   <!-- EN: Based on the weapon&apos;s crafting recipe -->
-  <PWU_SkillCheckKindRecipe>TODO</PWU_SkillCheckKindRecipe>
+  <PWU_SkillCheckKindRecipe>Según la receta de fabricación del arma</PWU_SkillCheckKindRecipe>
   <!-- EN: Require the skill level the weapon&apos;s crafting recipe demands, so whoever could craft a weapon could reprogram its persona. Weapons without a recipe, or whose only recipe is disabled above, require a minimum set by tech level: {0}. -->
-  <PWU_SkillCheckKindRecipeDesc>TODO</PWU_SkillCheckKindRecipeDesc>
+  <PWU_SkillCheckKindRecipeDesc>Exige el nivel de habilidad que pide la receta de fabricación del arma, así quien pueda fabricar un arma podrá reprogramar su IA. Las armas sin receta, o cuya única receta está desactivada más arriba, exigen un mínimo según su nivel tecnológico: {0}.</PWU_SkillCheckKindRecipeDesc>
   <!-- EN: {0} {1} -->
-  <PWU_SkillCheckTierEntry>TODO</PWU_SkillCheckTierEntry>
+  <PWU_SkillCheckTierEntry>{0} {1}</PWU_SkillCheckTierEntry>
   <!-- EN: Based on the weapon&apos;s tech level ({0}) -->
-  <PWU_SkillCheckKindTechTier>TODO</PWU_SkillCheckKindTechTier>
+  <PWU_SkillCheckKindTechTier>Según el nivel tecnológico del arma ({0})</PWU_SkillCheckKindTechTier>
   <!-- EN: Require a minimum skill level set by the weapon&apos;s tech level, ignoring its crafting recipe: {0}. -->
-  <PWU_SkillCheckKindTechTierDesc>TODO</PWU_SkillCheckKindTechTierDesc>
+  <PWU_SkillCheckKindTechTierDesc>Exige un nivel mínimo de habilidad según el nivel tecnológico del arma, sin tener en cuenta su receta de fabricación: {0}.</PWU_SkillCheckKindTechTierDesc>
   <!-- EN: Minimum {0} skill: {1} -->
-  <PWU_SkillCheckKindFlat>TODO</PWU_SkillCheckKindFlat>
+  <PWU_SkillCheckKindFlat>Habilidad mínima de {0}: {1}</PWU_SkillCheckKindFlat>
   <!-- EN: Require at least this {0} skill level for every weapon. -->
-  <PWU_SkillCheckKindFlatDesc>TODO</PWU_SkillCheckKindFlatDesc>
+  <PWU_SkillCheckKindFlatDesc>Exige al menos este nivel de habilidad de {0} para todas las armas.</PWU_SkillCheckKindFlatDesc>
   <!-- EN: Adjusting this selects the minimum skill option. -->
-  <PWU_SkillCheckFlatSliderSelects>TODO</PWU_SkillCheckFlatSliderSelects>
+  <PWU_SkillCheckFlatSliderSelects>Al ajustar esto se elige la opción de habilidad mínima.</PWU_SkillCheckFlatSliderSelects>
   <!-- EN: {0} expertise (Vanilla Skills Expanded) -->
-  <PWU_SkillCheckKindExpertise>TODO</PWU_SkillCheckKindExpertise>
+  <PWU_SkillCheckKindExpertise>Especialidad {0} (Vanilla Skills Expanded)</PWU_SkillCheckKindExpertise>
   <!-- EN: Require the {0} expertise from Vanilla Skills Expanded. -->
-  <PWU_SkillCheckKindExpertiseDesc>TODO</PWU_SkillCheckKindExpertiseDesc>
+  <PWU_SkillCheckKindExpertiseDesc>Exige la especialidad {0} de Vanilla Skills Expanded.</PWU_SkillCheckKindExpertiseDesc>
   <!-- EN: Enable monosword crafting recipe -->
   <PWU_EnableMonoswordRecipe>Activar la receta de fabricación de la monoespada</PWU_EnableMonoswordRecipe>
   <!-- EN: Show the &quot;{0}&quot; bill at the {1} (requires {2} research). Disabling this only hides it from the add-bill menu; bills already queued keep producing. -->
