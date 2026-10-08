@@ -14,6 +14,34 @@
   <FFF_Alert_AlertLevel_Desc>Los edificios de detección de alertas de este mapa elevaron el nivel de alerta de seguridad a {0}.\n\nSi el nivel llega al máximo, se activará una contramedida automatizada. Neutraliza los escáneres para que descienda.\n\nEdificios monitoreados: {1}</FFF_Alert_AlertLevel_Desc>
   <!-- EN: The security alert level has reached maximum and an automated countermeasure is now active.\n\nMonitored buildings: {0} -->
   <FFF_Alert_AlertLevel_Desc_Triggered>El nivel de alerta de seguridad llegó al máximo y hay una contramedida automatizada activa.\n\nEdificios monitoreados: {0}</FFF_Alert_AlertLevel_Desc_Triggered>
+  <!-- EN: Scanner offline -->
+  <FFF_AlertScanner_Offline>TODO</FFF_AlertScanner_Offline>
+  <!-- EN: Scanner re-arming: {0} -->
+  <FFF_AlertScanner_Rearming>TODO</FFF_AlertScanner_Rearming>
+  <!-- EN: Intruder detected! -->
+  <FFF_AlertScanner_Detecting>TODO</FFF_AlertScanner_Detecting>
+  <!-- EN: Scanning for intruders -->
+  <FFF_AlertScanner_Watching>TODO</FFF_AlertScanner_Watching>
+  <!-- EN: Facility lockdown initiated. The site will be sealed shortly — get everyone out. -->
+  <FFF_Alert_FacilityLockdown_Warning>TODO</FFF_Alert_FacilityLockdown_Warning>
+  <!-- EN: Facility lockdown in {0}. -->
+  <FFF_Alert_FacilityLockdown_Countdown>TODO</FFF_Alert_FacilityLockdown_Countdown>
+  <!-- EN: The facility has been sealed. Anyone still inside is lost. -->
+  <FFF_Alert_FacilityLockdown_Executed>TODO</FFF_Alert_FacilityLockdown_Executed>
+  <!-- EN: {0} missing -->
+  <FFF_Alert_PawnMissing_Label>TODO</FFF_Alert_PawnMissing_Label>
+  <!-- EN: {0} was still inside the facility when it was sealed and is now missing, presumed lost. -->
+  <FFF_Alert_PawnMissing_Desc>TODO</FFF_Alert_PawnMissing_Desc>
+  <!-- EN: Airspace blockade in effect. Shuttles and transport pods cannot take off from this map. -->
+  <FFF_Alert_AirspaceBlockade_Start>TODO</FFF_Alert_AirspaceBlockade_Start>
+  <!-- EN: The airspace blockade has lifted. -->
+  <FFF_Alert_AirspaceBlockade_End>TODO</FFF_Alert_AirspaceBlockade_End>
+  <!-- EN: Precision bombardment incoming. Strikes will keep landing on this map until the countermeasure expires. -->
+  <FFF_Alert_PrecisionBombardment_Start>TODO</FFF_Alert_PrecisionBombardment_Start>
+  <!-- EN: The precision bombardment has ended. -->
+  <FFF_Alert_PrecisionBombardment_End>TODO</FFF_Alert_PrecisionBombardment_End>
+  <!-- EN: Security response: {0} {1} released! -->
+  <FFF_Alert_ReleaseEntity_Triggered>TODO</FFF_Alert_ReleaseEntity_Triggered>
   <!-- EN: {0} -->
   <FFF.AmmoSwitch.Label>{0}</FFF.AmmoSwitch.Label>
   <!-- EN: click to switch ammo type -->
@@ -28,6 +56,8 @@
   <FFF.AmmoSwitch.StatFactor>Factor de precisión</FFF.AmmoSwitch.StatFactor>
   <!-- EN: Using default -->
   <FFF.AmmoSwitch.UsingDefault>Usando la predeterminada</FFF.AmmoSwitch.UsingDefault>
+  <!-- EN: Only player-controlled units can switch ammo. -->
+  <FFF.AmmoSwitch.NotPlayerControlled>TODO</FFF.AmmoSwitch.NotPlayerControlled>
   <!-- EN: Cancel proccess -->
   <FFF.CancelActiveBill>Cancelar proceso</FFF.CancelActiveBill>
   <!-- EN: Cancel the current process, which will return resources and stop consuming power. -->
@@ -426,12 +456,18 @@
   <FFF.WeaponNotSupported>Arma no compatible</FFF.WeaponNotSupported>
   <!-- EN: Mech frame not supported -->
   <FFF.FrameNotSupported>Estructura de meca no compatible</FFF.FrameNotSupported>
+  <!-- EN: {0} ({1}) -->
+  <FFF.InfoDisplay.SourceSuffix>TODO</FFF.InfoDisplay.SourceSuffix>
   <!-- EN: Internal battery -->
   <FFF_InternalBattery>Batería interna</FFF_InternalBattery>
   <!-- EN: self-powered -->
   <FFF_SelfPowered>autoalimentado</FFF_SelfPowered>
   <!-- EN: full -->
   <FFF_BatteryFull>llena</FFF_BatteryFull>
+  <!-- EN: standby, charging at {0} W -->
+  <FFF_StandbyCharging>TODO</FFF_StandbyCharging>
+  <!-- EN: standby -->
+  <FFF_StandbyIdle>TODO</FFF_StandbyIdle>
   <!-- EN: DMS: Trigger Safe Actived -->
   <FFF.WillTerminateTheBetrayedUnit>DMS: Disparador seguro activado</FFF.WillTerminateTheBetrayedUnit>
   <!-- EN: Need mechanitor in map -->
@@ -524,6 +560,8 @@
   <FFF.MechDeactivated>{0} entró en modo de hibernación.</FFF.MechDeactivated>
   <!-- EN: {0} has been activated and is now under {1}&apos;s control. -->
   <FFF.MechActivated>{0} fue activada y ahora está bajo el control de {1}.</FFF.MechActivated>
+  <!-- EN: The alarm has reactivated {0}! -->
+  <FFF.CapsuleMechAlarmed>TODO</FFF.CapsuleMechAlarmed>
   <!-- EN: Contains: {0} -->
   <FFF.ContainsMech>Contiene: {0}</FFF.ContainsMech>
   <!-- EN: Cannot reach -->
@@ -644,10 +682,24 @@
   <FFF.MechModification.Unique>{0} es único y no puede instalarse más de una vez en la misma ranura.</FFF.MechModification.Unique>
   <!-- EN: {0} has reached its installation limit ({1}). -->
   <FFF.MechModification.StackFull>{0} alcanzó su límite de instalación ({1}).</FFF.MechModification.StackFull>
+  <!-- EN: {0} could not be merged into the modification already installed on {1}. -->
+  <FFF.MechModification.MergeFailed>TODO</FFF.MechModification.MergeFailed>
+  <!-- EN: Only mechanoids of your colony can be modified. -->
+  <FFF.Modification_NotColonyMech>TODO</FFF.Modification_NotColonyMech>
+  <!-- EN: Modify {0} -->
+  <FFF.MechModification.WindowTitle>TODO</FFF.MechModification.WindowTitle>
+  <!-- EN: Queued operations -->
+  <FFF.MechModification.QueueTitle>TODO</FFF.MechModification.QueueTitle>
+  <!-- EN: Body slots and installed modifications -->
+  <FFF.MechModification.SlotsTitle>TODO</FFF.MechModification.SlotsTitle>
+  <!-- EN: queued for removal -->
+  <FFF.MechModification.PendingUninstall>TODO</FFF.MechModification.PendingUninstall>
   <!-- EN: Slot -->
   <FFF.MultiTurret.WeaponSlot>Ranura</FFF.MultiTurret.WeaponSlot>
   <!-- EN: Select turret -->
   <FFF.SelectWeapon>Seleccionar torreta</FFF.SelectWeapon>
+  <!-- EN: No turret -->
+  <FFF.MultiTurret.NoWeapon>TODO</FFF.MultiTurret.NoWeapon>
   <!-- EN: Select turret target, use {0} to set it for all turrets, use Right click to clear forced target ({0} for all turrets). -->
   <FFF.MultiTurret.AttackRectTip>Selecciona el objetivo de la torreta; usa {0} para asignarlo a todas las torretas y clic derecho para quitar el objetivo forzado ({0} para todas las torretas).</FFF.MultiTurret.AttackRectTip>
   <!-- EN: Toggle auto attack mode, use {0} to set it for all turrets. -->
@@ -684,8 +736,8 @@
   <FFF_Occultech_ExtractorStatDesc>Puntos de conocimiento extraídos por día mientras funciona. El conocimiento se archiva en la categoría {0} y desborda hacia categorías posteriores de la misma pestaña de investigación.</FFF_Occultech_ExtractorStatDesc>
   <!-- EN: Control mech -->
   <FFF_SelectMechToControlLabel>Controlar meca</FFF_SelectMechToControlLabel>
-  <!-- EN: Select a mechanoid to place under this overseer&apos;s control. -->
-  <FFF_SelectMechToControlDesc>Selecciona un mecanoide para ponerlo bajo el control de este supervisor.</FFF_SelectMechToControlDesc>
+  <!-- EN: Select a mechanoid, or a mothballed mech in a storage cradle, to place under this overseer&apos;s control. -->
+  <FFF_SelectMechToControlDesc>Selecciona un mecanoide, o un mecanoide en hibernación en una cuna de almacenamiento, para ponerlo bajo el control de este supervisor.</FFF_SelectMechToControlDesc>
   <!-- EN: Rations: {COUNT} / {MAX} -->
   <FFF.ArtificialOrganismRations>Raciones: {COUNT} / {MAX}</FFF.ArtificialOrganismRations>
   <!-- EN: Raid Wave Incoming -->
@@ -706,6 +758,22 @@
 
 Proceed? -->
   <FFF_RaidWave_ConfirmDialog>Llamar a {WAVE} enviará las siguientes fuerzas contra tu colonia:  {PAWNS}  ¿Continuar?</FFF_RaidWave_ConfirmDialog>
+  <!-- EN: Recycle -->
+  <FFF.Recycle.Gizmo>TODO</FFF.Recycle.Gizmo>
+  <!-- EN: Mark this unit to be dismantled on the spot for materials. A colonist with construction work enabled will come and take it apart.
+
+Expected yield: {0} -->
+  <FFF.Recycle.GizmoDesc>TODO</FFF.Recycle.GizmoDesc>
+  <!-- EN: Marked for recycling -->
+  <FFF.Recycle.Marked>TODO</FFF.Recycle.Marked>
+  <!-- EN: Recycle {0} -->
+  <FFF.Recycle.Order>TODO</FFF.Recycle.Order>
+  <!-- EN: Recycle {0} ({1}) -->
+  <FFF.Recycle.OrderWithProducts>TODO</FFF.Recycle.OrderWithProducts>
+  <!-- EN: not ours to dismantle -->
+  <FFF.Recycle.NotOurs>TODO</FFF.Recycle.NotOurs>
+  <!-- EN: nothing -->
+  <FFF.Recycle.NoProducts>TODO</FFF.Recycle.NoProducts>
   <!-- EN: Research revealed -->
   <FFF_Research_DiscoveredLetterLabel>Investigación revelada</FFF_Research_DiscoveredLetterLabel>
   <!-- EN: Our latest findings have made sense of archived material that was previously unreadable. The following research projects are no longer unknown, and can now be started: -->
