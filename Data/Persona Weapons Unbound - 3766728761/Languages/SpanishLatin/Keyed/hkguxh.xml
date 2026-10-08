@@ -10,6 +10,20 @@
   <PWU_NoSuitableWorkbench>no hay un banco de trabajo adecuado</PWU_NoSuitableWorkbench>
   <!-- EN: requires {0} quality or better -->
   <PWU_RequiresMinimumQuality>requiere calidad {0} o superior</PWU_RequiresMinimumQuality>
+  <!-- EN: requires {0} expertise -->
+  <PWU_RequiresExpertise>TODO</PWU_RequiresExpertise>
+  <!-- EN: no colonist has {0} level {1} -->
+  <PWU_NoColonistWithSkill>TODO</PWU_NoColonistWithSkill>
+  <!-- EN: no colonist on this map has {0} level {1} -->
+  <PWU_NoColonistOnMapWithSkill>TODO</PWU_NoColonistOnMapWithSkill>
+  <!-- EN: no colonist has {0} expertise -->
+  <PWU_NoColonistWithExpertise>TODO</PWU_NoColonistWithExpertise>
+  <!-- EN: no colonist on this map has {0} expertise -->
+  <PWU_NoColonistOnMapWithExpertise>TODO</PWU_NoColonistOnMapWithExpertise>
+  <!-- EN: hacking -->
+  <PWU_HackingFallbackLabel>TODO</PWU_HackingFallbackLabel>
+  <!-- EN: weaponsmithing -->
+  <PWU_WeaponsmithingFallbackLabel>TODO</PWU_WeaponsmithingFallbackLabel>
   <!-- EN: Customize persona -->
   <PWU_CustomizeGizmoLabel>Personalizar IA</PWU_CustomizeGizmoLabel>
   <!-- EN: Select a colonist to customize this weapon at a nearby workbench. -->
@@ -214,6 +228,8 @@
   <PWU_VanillaSuffix> (vanilla)</PWU_VanillaSuffix>
   <!-- EN:  (experimental) -->
   <PWU_ExperimentalSuffix> (experimental)</PWU_ExperimentalSuffix>
+  <!-- EN:  (requires restart) -->
+  <PWU_RestartRequiredSuffix>TODO</PWU_RestartRequiredSuffix>
   <!-- EN: First trait costs an AI persona core -->
   <PWU_FirstTraitCostsPersonaCore>El primer rasgo cuesta un núcleo de IA</PWU_FirstTraitCostsPersonaCore>
   <!-- EN: When enabled (default), adding the first trait to a base weapon installs an AI persona core, which is refunded when the last trait is removed and the weapon reverts to base. When disabled, the first trait added and the last trait removed are priced like any other change: advanced components (scaled by weapon quality per the table below), which are never refunded. -->
@@ -256,6 +272,64 @@
   <PWU_TechprintCount>Tecnoplanos necesarios: {0}</PWU_TechprintCount>
   <!-- EN: Number of {0} techprints required to complete the research, on top of its research point cost. Setting this to 0 removes the techprint requirement entirely and stops traders from stocking the print. Takes effect immediately, no restart needed. -->
   <PWU_TechprintCountDesc>Cantidad de tecnoplanos de {0} necesarios para completar la investigación, además de su costo en puntos de investigación. Si lo estableces en 0, se elimina por completo el requisito de tecnoplanos y los comerciantes dejan de venderlos. Se aplica de inmediato, sin necesidad de reiniciar.</PWU_TechprintCountDesc>
+  <!-- EN: Require minimum skill -->
+  <PWU_SkillCheckEnable>TODO</PWU_SkillCheckEnable>
+  <!-- EN: Require a skill before a weapon&apos;s persona can be customized. Choose whose skill is checked, which skill, and what is required below. -->
+  <PWU_SkillCheckEnableDesc>TODO</PWU_SkillCheckEnableDesc>
+  <!-- EN: Skill check applies to -->
+  <PWU_SkillCheckSubject>TODO</PWU_SkillCheckSubject>
+  <!-- EN: Whose skill is checked. Which skill, and what is required, are set below. -->
+  <PWU_SkillCheckSubjectDesc>TODO</PWU_SkillCheckSubjectDesc>
+  <!-- EN: No one -->
+  <PWU_SkillCheckSubjectNone>TODO</PWU_SkillCheckSubjectNone>
+  <!-- EN: Any pawn can customize persona weapons. -->
+  <PWU_SkillCheckSubjectNoneDesc>TODO</PWU_SkillCheckSubjectNoneDesc>
+  <!-- EN: The pawn doing the customization -->
+  <PWU_SkillCheckSubjectPawn>TODO</PWU_SkillCheckSubjectPawn>
+  <!-- EN: The pawn ordered to customize the weapon must meet the requirement. When selecting a pawn for a weapon on the ground, hovering an under-skilled colonist shows their shortfall. -->
+  <PWU_SkillCheckSubjectPawnDesc>TODO</PWU_SkillCheckSubjectPawnDesc>
+  <!-- EN: The most skilled colonist on the map -->
+  <PWU_SkillCheckSubjectMap>TODO</PWU_SkillCheckSubjectMap>
+  <!-- EN: Any colonist on the weapon&apos;s map may meet the requirement on the colony&apos;s behalf. The pawn doing the work does not need the skill themselves. -->
+  <PWU_SkillCheckSubjectMapDesc>TODO</PWU_SkillCheckSubjectMapDesc>
+  <!-- EN: The most skilled colonist anywhere -->
+  <PWU_SkillCheckSubjectWorld>TODO</PWU_SkillCheckSubjectWorld>
+  <!-- EN: Any colonist anywhere in the world, including caravans and transports, may meet the requirement on the colony&apos;s behalf. -->
+  <PWU_SkillCheckSubjectWorldDesc>TODO</PWU_SkillCheckSubjectWorldDesc>
+  <!-- EN: Has no effect while the skill check applies to no one. -->
+  <PWU_SkillCheckNoEffect>TODO</PWU_SkillCheckNoEffect>
+  <!-- EN: Skill checked -->
+  <PWU_SkillCheckSkill>TODO</PWU_SkillCheckSkill>
+  <!-- EN: Which skill the check reads. Reprogramming a persona is closer to hacking its AI than reworking the weapon, so Intellectual is the default. Choose Crafting to treat it as workbench craftsmanship instead. -->
+  <PWU_SkillCheckSkillDesc>TODO</PWU_SkillCheckSkillDesc>
+  <!-- EN: Check the pawn&apos;s Intellectual skill: the persona is reprogrammed by hacking its AI. -->
+  <PWU_SkillCheckSkillIntellectualDesc>TODO</PWU_SkillCheckSkillIntellectualDesc>
+  <!-- EN: Check the pawn&apos;s Crafting skill: the persona is reworked as a piece of craftsmanship at the bench. -->
+  <PWU_SkillCheckSkillCraftingDesc>TODO</PWU_SkillCheckSkillCraftingDesc>
+  <!-- EN: Skill requirement -->
+  <PWU_SkillCheckKind>TODO</PWU_SkillCheckKind>
+  <!-- EN: What the checked pawn must have. Every level below is required in the checked skill. -->
+  <PWU_SkillCheckKindDesc>TODO</PWU_SkillCheckKindDesc>
+  <!-- EN: Based on the weapon&apos;s crafting recipe -->
+  <PWU_SkillCheckKindRecipe>TODO</PWU_SkillCheckKindRecipe>
+  <!-- EN: Require the skill level the weapon&apos;s crafting recipe demands, so whoever could craft a weapon could reprogram its persona. Weapons without a recipe, or whose only recipe is disabled above, require a minimum set by tech level: {0}. -->
+  <PWU_SkillCheckKindRecipeDesc>TODO</PWU_SkillCheckKindRecipeDesc>
+  <!-- EN: {0} {1} -->
+  <PWU_SkillCheckTierEntry>TODO</PWU_SkillCheckTierEntry>
+  <!-- EN: Based on the weapon&apos;s tech level ({0}) -->
+  <PWU_SkillCheckKindTechTier>TODO</PWU_SkillCheckKindTechTier>
+  <!-- EN: Require a minimum skill level set by the weapon&apos;s tech level, ignoring its crafting recipe: {0}. -->
+  <PWU_SkillCheckKindTechTierDesc>TODO</PWU_SkillCheckKindTechTierDesc>
+  <!-- EN: Minimum {0} skill: {1} -->
+  <PWU_SkillCheckKindFlat>TODO</PWU_SkillCheckKindFlat>
+  <!-- EN: Require at least this {0} skill level for every weapon. -->
+  <PWU_SkillCheckKindFlatDesc>TODO</PWU_SkillCheckKindFlatDesc>
+  <!-- EN: Adjusting this selects the minimum skill option. -->
+  <PWU_SkillCheckFlatSliderSelects>TODO</PWU_SkillCheckFlatSliderSelects>
+  <!-- EN: {0} expertise (Vanilla Skills Expanded) -->
+  <PWU_SkillCheckKindExpertise>TODO</PWU_SkillCheckKindExpertise>
+  <!-- EN: Require the {0} expertise from Vanilla Skills Expanded. -->
+  <PWU_SkillCheckKindExpertiseDesc>TODO</PWU_SkillCheckKindExpertiseDesc>
   <!-- EN: Enable monosword crafting recipe -->
   <PWU_EnableMonoswordRecipe>Activar la receta de fabricación de la monoespada</PWU_EnableMonoswordRecipe>
   <!-- EN: Show the &quot;{0}&quot; bill at the {1} (requires {2} research). Disabling this only hides it from the add-bill menu; bills already queued keep producing. -->
@@ -270,8 +344,8 @@
   <PWU_EnableZeushammerRecipeDesc>Muestra el proyecto "{0}" en el {1} (requiere la investigación {2}). Desactivarlo solo lo oculta del menú de añadir proyectos; los proyectos ya en cola siguen produciendo.</PWU_EnableZeushammerRecipeDesc>
   <!-- EN: Enable persona core crafting recipe -->
   <PWU_EnablePersonaCoreRecipe>Activar la receta de fabricación del núcleo de IA</PWU_EnablePersonaCoreRecipe>
-  <!-- EN: Show the &quot;{0}&quot; bill at the {1} (requires {2} research). Off by default: in vanilla a persona core can only be found or traded for, and crafting them makes persona weapons repeatable rather than rare. Turn this on for a fully self-sufficient in-colony path: craft a base weapon, craft a core, install it through customization. Disabling this only hides it from the add-bill menu; bills already queued keep producing. -->
-  <PWU_EnablePersonaCoreRecipeDesc>Muestra el proyecto "{0}" en el {1} (requiere la investigación {2}). Desactivado de forma predeterminada: en el juego base un núcleo de IA solo se puede encontrar o conseguir mediante comercio, y poder fabricarlos convierte las armas con IA en algo repetible en lugar de excepcional. Actívalo para tener una vía totalmente autosuficiente dentro de la colonia: fabrica un arma base, fabrica un núcleo e instálalo mediante la personalización. Desactivarlo solo lo oculta del menú de añadir proyectos; los proyectos ya en cola siguen produciendo.</PWU_EnablePersonaCoreRecipeDesc>
+  <!-- EN: Show the &quot;{0}&quot; bill at the {1} (requires {2} research). Off by default, since vanilla persona cores can only be found or traded for. Bills already queued keep producing either way. -->
+  <PWU_EnablePersonaCoreRecipeDesc>Muestra el proyecto "{0}" en el {1} (requiere la investigación {2}). Desactivado de forma predeterminada, ya que en el juego base los núcleos de IA solo se pueden encontrar o conseguir mediante comercio. Los proyectos ya en cola siguen produciendo en cualquier caso.</PWU_EnablePersonaCoreRecipeDesc>
   <!-- EN: Persona core component cost: {0} -->
   <PWU_PersonaCoreRecipeComponentCost>Costo en componentes del núcleo de IA: {0}</PWU_PersonaCoreRecipeComponentCost>
   <!-- EN: Advanced components required to craft one persona core. Takes effect immediately, no restart needed; queued bills are repriced too. -->
