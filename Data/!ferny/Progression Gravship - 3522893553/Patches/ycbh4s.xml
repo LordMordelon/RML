@@ -12,7 +12,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="VGE_OxygenNetwork"]/label</xpath>
           <value>
             <!-- EN: oxygen logistics -->
-            <label>TODO</label>
+            <label>logística de oxígeno</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="VGE_GravshipPower"]/label</xpath>
           <value>
             <!-- EN: astrofuel generator -->
-            <label>TODO</label>
+            <label>generador de astrobustible</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="VGE_GravshipPower"]/description</xpath>
           <value>
             <!-- EN: Construct a generator that consumes astrofuel to supply power aboard a gravship. -->
-            <description>TODO</description>
+            <description>Construye un generador que consume astrobustible para suministrar energía a bordo de una gravinave.</description>
           </value>
         </li>
       </operations>

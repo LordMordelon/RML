@@ -12,7 +12,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/label</xpath>
           <value>
             <!-- EN: gravjumper -->
-            <label>TODO</label>
+            <label>gravisaltador</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/label</xpath>
           <value>
             <!-- EN: gravship -->
-            <label>TODO</label>
+            <label>gravinave</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/label</xpath>
           <value>
             <!-- EN: vac barriers -->
-            <label>TODO</label>
+            <label>barreras de vacío</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/description</xpath>
           <value>
             <!-- EN: Construct powered barriers and barrier roofing that prevent depressurization while allowing free passage. -->
-            <description>TODO</description>
+            <description>Construye barreras con energía y techos de barrera que evitan la despresurización y permiten el paso libre.</description>
           </value>
         </li>
       </operations>
