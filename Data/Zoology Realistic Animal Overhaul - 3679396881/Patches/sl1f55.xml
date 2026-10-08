@@ -51,6 +51,22 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Swan"]/tools/li[2]/label</xpath>
           <value>
+            <!-- EN: rear left claw -->
+            <label>garra trasera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Swan"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>garra trasera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Swan"]/tools/li[4]/label</xpath>
+          <value>
             <!-- EN: beak -->
             <label>pico</label>
           </value>
@@ -66,6 +82,22 @@
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Heron"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>garra trasera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Heron"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>garra trasera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Heron"]/tools/li[4]/label</xpath>
           <value>
             <!-- EN: beak -->
             <label>pico</label>
@@ -83,6 +115,22 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Flamingo"]/tools/li[2]/label</xpath>
           <value>
+            <!-- EN: rear left claw -->
+            <label>garra trasera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Flamingo"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>garra trasera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Flamingo"]/tools/li[4]/label</xpath>
+          <value>
             <!-- EN: beak -->
             <label>pico</label>
           </value>
@@ -98,6 +146,22 @@
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Penguin"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: rear left claw -->
+            <label>garra trasera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Penguin"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: rear  right claw -->
+            <label>garra trasera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Penguin"]/tools/li[4]/label</xpath>
           <value>
             <!-- EN: beak -->
             <label>pico</label>
@@ -307,48 +371,8 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[2]/label</xpath>
           <value>
-            <!-- EN: rear left claw -->
-            <label>garra trasera izquierda</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[3]/label</xpath>
-          <value>
-            <!-- EN: rear  right claw -->
-            <label>garra trasera derecha</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Quail"]/tools/li[4]/label</xpath>
-          <value>
             <!-- EN: beak -->
             <label>pico</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: head -->
-            <label>cabeza</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[2]/label</xpath>
-          <value>
-            <!-- EN: left claw -->
-            <label>garra izquierda</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[3]/label</xpath>
-          <value>
-            <!-- EN: right claw -->
-            <label>garra derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -363,16 +387,40 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="HermitCrab"]/tools/li[2]/label</xpath>
           <value>
-            <!-- EN: left claw -->
-            <label>garra izquierda</label>
+            <!-- EN: left pincer -->
+            <label>pinza izquierda</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="HermitCrab"]/tools/li[3]/label</xpath>
           <value>
-            <!-- EN: right claw -->
-            <label>garra derecha</label>
+            <!-- EN: right pincer -->
+            <label>pinza derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left pincer -->
+            <label>pinza izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="StoneCrab"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right pincer -->
+            <label>pinza derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -578,6 +626,22 @@
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Armadillo"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left claw -->
+            <label>garra izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Armadillo"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right claw -->
+            <label>garra derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Armadillo"]/tools/li[4]/label</xpath>
           <value>
             <!-- EN: teeth -->
             <label>dientes</label>
@@ -818,6 +882,14 @@
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: tail -->
+            <label>cola</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MonitorLizard"]/tools/li[5]/label</xpath>
           <value>
             <!-- EN: teeth -->
             <label>dientes</label>
