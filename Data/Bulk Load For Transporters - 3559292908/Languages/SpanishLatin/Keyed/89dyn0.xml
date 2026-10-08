@@ -20,6 +20,16 @@
   <BulkLoadForTransporters.PriorityLoadUntilCompleteCommand>Priorizar carga masiva de {0} hasta terminar</BulkLoadForTransporters.PriorityLoadUntilCompleteCommand>
   <!-- EN: Could not create a bulk load plan for {0}. -->
   <BulkLoadForTransporters.NoHaulPlanFound>No se pudo crear un plan de carga masiva para {0}.</BulkLoadForTransporters.NoHaulPlanFound>
+  <!-- EN: Bulk loading is already in progress -->
+  <BulkLoadForTransporters.CannotLoad.AlreadyLoading>TODO</BulkLoadForTransporters.CannotLoad.AlreadyLoading>
+  <!-- EN: The remaining cargo has been claimed by other haulers -->
+  <BulkLoadForTransporters.CannotLoad.ClaimedByOtherHaulers>TODO</BulkLoadForTransporters.CannotLoad.ClaimedByOtherHaulers>
+  <!-- EN: The required cargo is being carried by other haulers -->
+  <BulkLoadForTransporters.CannotLoad.CarriedByOtherHaulers>TODO</BulkLoadForTransporters.CannotLoad.CarriedByOtherHaulers>
+  <!-- EN: No loadable cargo is currently available -->
+  <BulkLoadForTransporters.CannotLoad.NoCargoFound>TODO</BulkLoadForTransporters.CannotLoad.NoCargoFound>
+  <!-- EN: Cannot bulk load: incapable of hauling -->
+  <BulkLoadForTransporters.CannotLoad.HaulingDisabled>TODO</BulkLoadForTransporters.CannotLoad.HaulingDisabled>
   <!-- EN: Debug Settings (Developer Mode Only) -->
   <BulkLoadForTransporters.Settings.Header.Debug>Ajustes de depuración (Solo modo desarrollador)</BulkLoadForTransporters.Settings.Header.Debug>
   <!-- EN: Debugging log options. Detailed options are only visible and effective in Developer Mode. -->
