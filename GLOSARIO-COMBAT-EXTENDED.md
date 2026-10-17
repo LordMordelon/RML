@@ -61,7 +61,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | drug policy | política de drogas | oficial | |
 | drafted | reclutado | oficial | «Reclutar» es el botón de combate |
 | raid / raider | asalto / asaltante | oficial | NO «incursión» |
-| drop pod | cápsula de escape | oficial | |
+| drop pod | cápsula de escape | oficial | Igual que en el general. NO «cápsula de descenso» |
 | learning helper | asistente de aprendizaje | oficial | |
 | tile / cell | casilla | propuesta | «casilla del mundo» para el mapa del mundo |
 | pawn | personaje | propuesta | En textos de ayuda; si es un colono, «colono» |

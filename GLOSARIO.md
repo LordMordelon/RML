@@ -102,7 +102,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | gravship | **gravinave** | Oficial vanilla (Odyssey). NO "nave gravitacional", "nave gravitatoria" ni "gravnave" |
 | shuttle | **lanzadera** | Vehículo espacial/orbital imperial vanilla |
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
-| drop pod | **cápsula de descenso** | |
+| drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa |
 | ship chunk | **escombro de nave** | |
 | ship core | núcleo de nave | |
 | hard vacuum / vacuum | vacío espacial / vacío | |
@@ -154,7 +154,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | entity | entidad | Término de Anomaly |
 | raid / assault | asalto / incursión | |
 | siege | asedio | |
-| drop pod raid | incursión en cápsulas de descenso | |
+| drop pod raid | incursión en cápsulas de escape | |
 | loot | botín | |
 | quest | misión | |
 | quest expired | misión expirada | |
