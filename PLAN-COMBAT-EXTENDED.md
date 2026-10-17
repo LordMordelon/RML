@@ -170,30 +170,30 @@ revisa antes de escribir.
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** empezar la etapa 3 con la munición de pistola y fusil.
+**Objetivo:** seguir la etapa 3 con la munición de escopeta y la de alto calibre.
 
-**Estado:** etapas 0 a 2 hechas, en la rama `combat-extended` (último commit `f1cded1`, subido a
-`origin/combat-extended`). No queda nada a medias.
+**Estado:** pistola y fusil hechos en la rama `combat-extended` (último commit `9d7a180`, sin subir):
+738 nombres y 324 descripciones. No queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida el filtro de munición del
-   almacén y la línea de munición de la ficha de un arma (lo de la etapa 2). Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un cargador de pistola y
+   uno de fusil: el nombre y la descripción. Anotar lo que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
    avisarlo al empezar.
 
-**Al empezar (Claude):** la etapa 3 está en `DefInjected/ThingDef/c1b3s1.xml`. Contadas el
-17-oct-2026, son 2.962 entradas del núcleo en `TODO`: 954 nombres de proyectiles (`Bullet_*`), 876
-nombres de munición (`Ammo_*`) con 875 descripciones, y unas 260 de otros defs (`CE_*`, `Shell_*`,
-`Gun_*`, armas y ataques). Se avanza por familia; pistola y fusil primero. A mano caben unas 500 por
-sesión (estimado).
+**Al empezar (Claude):** seguir «Munición por script». Contadas el 17-oct-2026, las entradas en
+`TODO` de `DefInjected/ThingDef/c1b3s1.xml` por carpeta de `Defs/Ammo` del mod instalado son:
+`HighCaliber` 432, `Shell` 270, `Modded` 199, `Generic` 162, `Advanced` 158, `Grenade` 144,
+`Rocket` 144, `Shotgun` 80, `Medieval` 48, `Neolithic` 46, `Other` 21. Para esta sesión,
+`Shotgun` y `HighCaliber` (512). Primero los nombres por script; después la tabla de descripciones,
+que Angel revisa antes de escribirla. Escopeta tiene sustantivos propios en el glosario (sección 3:
+postas, bala de escopeta, saco de perdigones), así que sus nombres pueden necesitar reglas nuevas.
 
-**Decisiones de Angel:**
-- **Script para los nombres de munición y proyectiles** (1.830 nombres). Siguen la forma fija de la
-  sección 6 del glosario («cartucho 5.56x45mm NATO (FMJ)»), así que se podrían llenar como las
-  recetas, con una tabla que Angel revisa antes. Las descripciones seguirían a mano. Recomendación:
-  aprobarlo; ahorra unas 3 o 4 sesiones (estimado).
+**Decisiones de Angel:** ninguna pendiente. El script de munición ya está aprobado para toda la
+etapa 3, con tabla de descripciones revisada en cada familia.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
-**Dónde leer:** este plan (etapas y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
-(secciones 3, 4 y 6) y las tres comprobaciones de `AGENTS.md`.
+**Dónde leer:** este plan («Munición por script», etapas y «Cuidados»),
+[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3, 4, 6 y 9) y las tres
+comprobaciones de `AGENTS.md`.
