@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationSequence" MayRequire="Mlie.BlackWidows">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingCategoryDef[defName="AmmoBlackWidowArrows"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrows -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_BlackWidowArrow"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrows -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.AmmoDef[defName="Ammo_BlackWidowArrow_Steel"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrow (steel) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.AmmoDef[defName="Ammo_BlackWidowArrow_Plasteel"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrow (plasteel) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.AmmoDef[defName="Projectile_BlackWidowArrow_Steel"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrow (steel) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CombatExtended.AmmoDef[defName="Projectile_BlackWidowArrow_Plasteel"]/label</xpath>
+            <value>
+              <!-- EN: black widow arrow (plasteel) -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Steel"]/label</xpath>
+            <value>
+              <!-- EN: make steel black widow arrows x10 -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Steel"]/description</xpath>
+            <value>
+              <!-- EN: Craft 10 steel black widow arrows. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Steel"]/jobString</xpath>
+            <value>
+              <!-- EN: Making steel black widow arrows. -->
+              <jobString>TODO</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Plasteel"]/label</xpath>
+            <value>
+              <!-- EN: make plasteel black widow arrows x10 -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Plasteel"]/description</xpath>
+            <value>
+              <!-- EN: Craft 10 plasteel black widow arrows. -->
+              <description>TODO</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlackWidowArrow_Plasteel"]/jobString</xpath>
+            <value>
+              <!-- EN: Making plasteel black widow arrows. -->
+              <jobString>TODO</jobString>
+            </value>
+          </li>
+        </operations>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Weapons Expanded - Coilguns</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WeaponTraitDef[defName="VWE_InvertedRailTuning_longrange"]/label</xpath>
+            <value>
+              <!-- EN: Long-range Rail Tuning -->
+              <label>TODO</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WeaponTraitDef[defName="VWE_InvertedRailTuning_longrange"]/description</xpath>
+            <value>
+              <!-- EN: This weapon is radically tuned for long-range but less lethal engagements -->
+              <description>TODO</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: worn bulk -->
+  <WornBulk.label>TODO</WornBulk.label>
+  <!-- EN: How bulky this apparel is to wear. -->
+  <WornBulk.description>TODO</WornBulk.description>
+  <!-- EN: Armor - Electric -->
+  <ArmorRating_Electric.label>TODO</ArmorRating_Electric.label>
+  <!-- EN: Percentage reduction of damage from electricity such as EMP pulses and the EMP part of EMP and ion projectiles.\n\nThe total across all sources of this armor is added for a protected part, then reduced by the armor reduction value of the incoming attack. If the resulting value is 100% or greater, protected parts of the pawn will be immune to the incoming attack&apos;s electrical damage in that body region. -->
+  <ArmorRating_Electric.description>TODO</ArmorRating_Electric.description>
+  <!-- EN: electric damage -->
+  <ElectricDamageMultiplier.label>TODO</ElectricDamageMultiplier.label>
+  <!-- EN: A multiplier on damage from electric-type attacks for weapons made of this material. -->
+  <ElectricDamageMultiplier.description>TODO</ElectricDamageMultiplier.description>
+  <!-- EN: bulk -->
+  <Bulk.label>TODO</Bulk.label>
+  <!-- EN: The amount of inventory space an item takes up when carried in bag or pocket. -->
+  <Bulk.description>TODO</Bulk.description>
+  <!-- EN: caliber -->
+  <AmmoCaliber.label>TODO</AmmoCaliber.label>
+  <!-- EN: The guns which accept this type of ammo. -->
+  <AmmoCaliber.description>TODO</AmmoCaliber.description>
+  <!-- EN: range -->
+  <LongRange.label>TODO</LongRange.label>
+  <!-- EN: The projectile&apos;s range on the world map. -->
+  <LongRange.description>TODO</LongRange.description>
+  <!-- EN: night vision efficiency -->
+  <NightVisionEfficiency.label>TODO</NightVisionEfficiency.label>
+  <!-- EN: A measure of the creature&apos;s overall ability to overcome the effects of darkness for the purpose of making ranged attacks based on apparel, implants, and their natural abilities. -->
+  <NightVisionEfficiency.description>TODO</NightVisionEfficiency.description>
+  <!-- EN: implant night vision efficiency -->
+  <NightVisionEfficiency_Implant.label>TODO</NightVisionEfficiency_Implant.label>
+  <!-- EN: The effect of artifical implants on a creature&apos;s ability to overcome the effects of darkness for the purpose of making ranged attacks. -->
+  <NightVisionEfficiency_Implant.description>TODO</NightVisionEfficiency_Implant.description>
+  <!-- EN: weapon night vision efficiency -->
+  <NightVisionEfficiency_Weapon.label>TODO</NightVisionEfficiency_Weapon.label>
+  <!-- EN: The effect of a weapon&apos;s optics on the wielder&apos;s ability to overcome the effects of darkness for the purpose of firing accurately. -->
+  <NightVisionEfficiency_Weapon.description>TODO</NightVisionEfficiency_Weapon.description>
+  <!-- EN: apparel night vision efficiency -->
+  <NightVisionEfficiency_Apparel.label>TODO</NightVisionEfficiency_Apparel.label>
+  <!-- EN: The effect of apparel items on a creature&apos;s ability to overcome the effects of darkness for the purpose of making ranged attacks. -->
+  <NightVisionEfficiency_Apparel.description>TODO</NightVisionEfficiency_Apparel.description>
+  <!-- EN: aiming accuracy -->
+  <AimingAccuracy.label>TODO</AimingAccuracy.label>
+  <!-- EN: How well a shooter can lead moving targets and estimate range in combination with the weapon&apos;s aiming efficiency.\n\nThe final modifier is calculated via this formula:\n(1.5 - aiming accuracy) / aiming efficiency\n\nLead error is calculated by multiplying this factor against total lead distance in cells. Range error is calculated by multiplying it against the total distance to the target divided by 4.\n\nAiming accuracy influences the the sway reduction during aimed shots. For example, at 75% aiming accuracy sway will be reduced to 25%. -->
+  <AimingAccuracy.description>TODO</AimingAccuracy.description>
+  <!-- EN: reload speed -->
+  <ReloadSpeed.label>TODO</ReloadSpeed.label>
+  <!-- EN: The speed at which firearms are reloaded. -->
+  <ReloadSpeed.description>TODO</ReloadSpeed.description>
+  <!-- EN: suppressability -->
+  <Suppressability.label>TODO</Suppressability.label>
+  <!-- EN: How susceptible this person is to suppression. Loss of consciousness and certain drugs can lower this value, making it harder to suppress this person. -->
+  <Suppressability.description>TODO</Suppressability.description>
+  <!-- EN: armor coverage -->
+  <AverageSharpArmor.label>TODO</AverageSharpArmor.label>
+  <!-- EN: The average value of armor coverage across this person&apos;s body. Higher values will make them more confident against low-penetration projectiles. -->
+  <AverageSharpArmor.description>TODO</AverageSharpArmor.description>
+  <!-- EN: {0} mm RHA -->
+  <AverageSharpArmor.formatString>TODO</AverageSharpArmor.formatString>
+  <!-- EN: melee armor penetration -->
+  <MeleeArmorPenetration.label>TODO</MeleeArmorPenetration.label>
+  <!-- EN: Armor penetration in melee. Determines how much damage is lost to enemy armor. -->
+  <MeleeArmorPenetration.description>TODO</MeleeArmorPenetration.description>
+  <!-- EN: melee critical chance -->
+  <MeleeCritChance.label>TODO</MeleeCritChance.label>
+  <!-- EN: Base chance to land a critical hit with a melee attack. Critical hits force max damage from the damage variation. On a critical hit, sharp attacks get double penetration, while blunt attacks stun the target.\nThe final chance depends on the opponent&apos;s critical skill and equal opponents will always have a 10% chance to crit. The internal formula is:\n\nFinalCritChance = ClampBetweenZeroAndOne(0.1 + AttackerCritChance - DefenderCritChance)*100% -->
+  <MeleeCritChance.description>TODO</MeleeCritChance.description>
+  <!-- EN: melee parry chance -->
+  <MeleeParryChance.label>TODO</MeleeParryChance.label>
+  <!-- EN: Base chance to parry a melee attack. When a parry is performed the equipped weapon or shield will take damage instead of the wielder. If the parrying pawn passes a critical chance check they will automatically riposte their attacker.\nThe final chance depends on the opponent&apos;s parry skill and equal opponents will always have a 20% chance to parry. The internal formula is:\n\nFinalParryChance = ClampBetweenZeroAndOne(0.2 + DefenderParryChance - AttackerParryChance * (1 + AttackerWeaponMeleeCounterParryBonus)*100%\n\nA pawn that is better skilled in parrying takes less damage from parrying while unarmed and is better at reducing damage taken by their weapon on parry. -->
+  <MeleeParryChance.description>TODO</MeleeParryChance.description>
+  <!-- EN: unarmed damage bonus -->
+  <UnarmedDamage.label>TODO</UnarmedDamage.label>
+  <!-- EN: Additional damage done in unarmed combat. -->
+  <UnarmedDamage.description>TODO</UnarmedDamage.description>
+  <!-- EN: Compared against weapon&apos;s armor penetration to see if it can penetrate to the next layer of body parts. A high value means low-penetration attacks like buckshot will have a harder time hitting internal organs. -->
+  <BodyPartSharpArmor.description>TODO</BodyPartSharpArmor.description>
+  <!-- EN: body part RHA -->
+  <BodyPartSharpArmor.label>TODO</BodyPartSharpArmor.label>
+  <!-- EN: {0} mm RHA -->
+  <BodyPartSharpArmor.formatString>TODO</BodyPartSharpArmor.formatString>
+  <!-- EN: Compared against weapon&apos;s armor penetration to see if it can penetrate to the next layer of body parts. A high value means low-penetration attacks like buckshot will have a harder time hitting internal organs. -->
+  <BodyPartBluntArmor.description>TODO</BodyPartBluntArmor.description>
+  <!-- EN: body part MPa -->
+  <BodyPartBluntArmor.label>TODO</BodyPartBluntArmor.label>
+  <!-- EN: {0} MPa -->
+  <BodyPartBluntArmor.formatString>TODO</BodyPartBluntArmor.formatString>
+  <!-- EN: smoke sensitivity -->
+  <SmokeSensitivity.label>TODO</SmokeSensitivity.label>
+  <!-- EN: Multiplier on the impact of smoke inhalation on this creature. -->
+  <SmokeSensitivity.description>TODO</SmokeSensitivity.description>
+  <!-- EN: carry weight -->
+  <CarryWeight.label>TODO</CarryWeight.label>
+  <!-- EN: The amount of weight this creature can carry in pockets, bags or otherwise attached to its body. -->
+  <CarryWeight.description>TODO</CarryWeight.description>
+  <!-- EN: {0} kg -->
+  <CarryWeight.formatString>TODO</CarryWeight.formatString>
+  <!-- EN: bulk capacity -->
+  <CarryBulk.label>TODO</CarryBulk.label>
+  <!-- EN: The volume of items this creature can carry in pockets, bags or otherwise attached to its body. -->
+  <CarryBulk.description>TODO</CarryBulk.description>
+  <!-- EN: Armor - Electric -->
+  <StuffPower_Armor_Electric.label>TODO</StuffPower_Armor_Electric.label>
+  <!-- EN: Armor against electric damage like EMPs. -->
+  <StuffPower_Armor_Electric.description>TODO</StuffPower_Armor_Electric.description>
+  <!-- EN: melee damage -->
+  <MeleeDamage.label>TODO</MeleeDamage.label>
+  <!-- EN: Damage ranges for each of this weapon&apos;s tools. -->
+  <MeleeDamage.description>TODO</MeleeDamage.description>
+  <!-- EN: Toughness - Material effect multiplier -->
+  <StuffEffectMultiplierToughness.label>TODO</StuffEffectMultiplierToughness.label>
+  <!-- EN: Toughness -->
+  <ToughnessRating.label>TODO</ToughnessRating.label>
+  <!-- EN: Toughness (weapon stat) -->
+  <ToughnessRating.labelForFullStatList>TODO</ToughnessRating.labelForFullStatList>
+  <!-- EN: Mitigation effect on damage taken by a weapon when it is used to parry an attack.\n\nAgainst blunt attacks, this rating is multiplied by 1.5 and is considered as the blunt armor rating, otherwise it&apos;s taken as it is as sharp armor rating. This rating is compared against the attack&apos;s armor penetration, then the damage is reduced by the ratio of remaining to initial penetration and by a flat 50% factor (e.g: if 8mm RHA toughness weapon is used to parry a 15 MPa blunt attack, the weapon will take 10% of the damage).\n\nThis stat is affected by the skill of the user.\n\nWe suggest to read the description of sharp and blunt armor ratings to find more in-depth info about how the damage is affected. -->
+  <ToughnessRating.description>TODO</ToughnessRating.description>
+  <!-- EN: {0} mm RHA -->
+  <ToughnessRating.formatString>TODO</ToughnessRating.formatString>
+  <!-- EN: melee armor penetration factor -->
+  <MeleePenetrationFactor.label>TODO</MeleePenetrationFactor.label>
+  <!-- EN: Capability to penetrate armor on a melee strike. This multiplier is applied to all melee attacks made with this weapon.\n\nThe base value is determined by the tool used. -->
+  <MeleePenetrationFactor.description>TODO</MeleePenetrationFactor.description>
+  <!-- EN: melee counter parry bonus -->
+  <MeleeCounterParryBonus.label>TODO</MeleeCounterParryBonus.label>
+  <!-- EN: When attacking an opponent with this weapon, the attacker&apos;s parry chance is multiplied by this value plus one. -->
+  <MeleeCounterParryBonus.description>TODO</MeleeCounterParryBonus.description>
+  <!-- EN: sights efficiency -->
+  <SightsEfficiency.label>TODO</SightsEfficiency.label>
+  <!-- EN: How good the sights on this weapon are. Quality sights reduce range errors and improve target leading. This is multiplied against the aiming accuracy of the shooter to calculate the amount of range and lead error.\n\nThe final modifier is calculated via this formula:\n(1.5 - aiming accuracy) / aiming efficiency\n\nLead error is calculated by multiplying this factor against total lead distance in cells. Range error is calculated by multiplying it against the total distance to the target divided by 4. -->
+  <SightsEfficiency.description>TODO</SightsEfficiency.description>
+  <!-- EN: One-handed weapon -->
+  <OneHandedness.label>TODO</OneHandedness.label>
+  <!-- EN: Whether or not the weapon can be used with shields -->
+  <OneHandedness.description>TODO</OneHandedness.description>
+  <!-- EN: Additional weapon info -->
+  <UBGLInfo.label>TODO</UBGLInfo.label>
+  <!-- EN: Information about under/over barrel or otherwise mounted weapons -->
+  <UBGLInfo.description>TODO</UBGLInfo.description>
+  <!-- EN: spread -->
+  <ShotSpread.label>TODO</ShotSpread.label>
+  <!-- EN: Inherent projectile spread. This represents the inherent inaccuracy of the gun and causes random conical deviation that is not influenced by skill. -->
+  <ShotSpread.description>TODO</ShotSpread.description>
+  <!-- EN: {0}° -->
+  <ShotSpread.formatString>TODO</ShotSpread.formatString>
+  <!-- EN: weapon sway -->
+  <SwayFactor.label>TODO</SwayFactor.label>
+  <!-- EN: How difficult the gun is to keep steady. \n\nThe total sway is calculated as:\n(4.5 - shooting accuracy) * weapon sway factor\n\nAiming accuracy influences the sway reduction during aimed shots. For example, at 75% aiming accuracy sway will be reduced to 25%. -->
+  <SwayFactor.description>TODO</SwayFactor.description>
+  <!-- EN: muzzle flash -->
+  <MuzzleFlash.label>TODO</MuzzleFlash.label>
+  <!-- EN: How bright the muzzle flash is.\n\nMuzzle flashes will illuminate a shooter&apos;s position in darkness, exposing them to more accurate return fire. Brighter muzzle flashes are easier to target.\n\nPawns will remember the position of the muzzle flash for 5-10 seconds. -->
+  <MuzzleFlash.description>TODO</MuzzleFlash.description>
+  <!-- EN: caliber -->
+  <Caliber.label>TODO</Caliber.label>
+  <!-- EN: The types of ammo this gun accepts. -->
+  <Caliber.description>TODO</Caliber.description>
+  <!-- EN: Bipod stats -->
+  <BipodStats.label>TODO</BipodStats.label>
+  <!-- EN: Stats with bipod deployed and undeployed. -->
+  <BipodStats.description>TODO</BipodStats.description>
+  <!-- EN: fire rate -->
+  <TicksBetweenBurstShots.label>TODO</TicksBetweenBurstShots.label>
+  <!-- EN: The speed at this weapon launch projectiles. -->
+  <TicksBetweenBurstShots.description>TODO</TicksBetweenBurstShots.description>
+  <!-- EN: burst shot count -->
+  <BurstShotCount.label>TODO</BurstShotCount.label>
+  <!-- EN: How many projectiles this weapon launch in one burst. -->
+  <BurstShotCount.description>TODO</BurstShotCount.description>
+  <!-- EN: recoil amount -->
+  <Recoil.label>TODO</Recoil.label>
+  <!-- EN: How much will this weapon recoil upon firing. -->
+  <Recoil.description>TODO</Recoil.description>
+  <!-- EN: recoil multiplier -->
+  <CE_RangedWeapon_RecoilMultiplier.label>TODO</CE_RangedWeapon_RecoilMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon&apos;s recoil. -->
+  <CE_RangedWeapon_RecoilMultiplier.description>TODO</CE_RangedWeapon_RecoilMultiplier.description>
+  <!-- EN: magazine capacity -->
+  <MagazineCapacity.label>TODO</MagazineCapacity.label>
+  <!-- EN: How many projectiles this weapon&apos;s magazine holds and how long it takes to reload it. -->
+  <MagazineCapacity.description>TODO</MagazineCapacity.description>
+  <!-- EN: reload time -->
+  <ReloadTime.label>TODO</ReloadTime.label>
+  <!-- EN: How long should this weapon take to reload. -->
+  <ReloadTime.description>TODO</ReloadTime.description>
+  <!-- EN: reload time multiplier -->
+  <CE_RangedWeapon_ReloadFactor.label>TODO</CE_RangedWeapon_ReloadFactor.label>
+  <!-- EN: A multiplier applied to this weapon&apos;s reload time. -->
+  <CE_RangedWeapon_ReloadFactor.description>TODO</CE_RangedWeapon_ReloadFactor.description>
+  <!-- EN: ammo consumed per shot -->
+  <ammoConsumedPerShotCount.label>TODO</ammoConsumedPerShotCount.label>
+  <!-- EN: How many units of ammunition this gun consumes for each individual shot.\n\nThis applies to guns with multiple barrels that fire simultaneously with each pull of the trigger, or exotic energy weapons that use up different amounts of energy from a power cell. -->
+  <ammoConsumedPerShotCount.description>TODO</ammoConsumedPerShotCount.description>
+  <!-- EN: ammo generation per magazine override -->
+  <AmmoGenPerMagOverride.label>TODO</AmmoGenPerMagOverride.label>
+  <!-- EN: How many units of ammunition per magazine specified in pawnKindDef should a pawn bring.\n\nPurely used in pawn generation. You should not be able to read this in game. -->
+  <AmmoGenPerMagOverride.description>TODO</AmmoGenPerMagOverride.description>
+</LanguageData>

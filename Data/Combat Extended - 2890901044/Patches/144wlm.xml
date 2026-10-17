@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="DrillArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: drill -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FieldHand"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: knuckle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="HandTalon"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: talon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ElbowBlade"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: blade -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="KneeSpike"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: spike -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VenomFangs"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: venom fangs -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VenomTalon"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: venom talon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorCataphract"]/description</xpath>
+          <value>
+            <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit&apos;s massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nWhile bulky and heavy, the advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity and assist in weapon-handling.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorMarineGrenadier"]/description</xpath>
+          <value>
+            <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters.\n\nWhile bulky and heavy, the advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity and assist in weapon-handling. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorMarineGrenadier"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <!-- EN: launch 30x29mm grenade -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorCataphractPhoenix"]/description</xpath>
+          <value>
+            <!-- EN: A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed.\n\nWhile bulky and heavy, the advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity and assist in weapon-handling. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorCataphractPhoenix"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <!-- EN: launch 30x64mm incendiary -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorLocust"]/description</xpath>
+          <value>
+            <!-- EN: A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nThe advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorReconPrestige"]/description</xpath>
+          <value>
+            <!-- EN: A suit of light partially-powered armor, designed to permit quick movement. Plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nThe advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorMarinePrestige"]/description</xpath>
+          <value>
+            <!-- EN: A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nWhile bulky and heavy, the advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity and assist in weapon-handling.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorCataphractPrestige"]/description</xpath>
+          <value>
+            <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit&apos;s massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nWhile bulky and heavy, the advanced built-in servo-motors greatly increase the wearer&apos;s load bearing capacity and assist in weapon-handling\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetCataphract"]/description</xpath>
+          <value>
+            <!-- EN: A heavily-armored high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nBuilt-in servo-motors assist the wearer&apos;s muscles in holding the weight of the helmet while the integrated combat HUD improves weapon accuracy.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetReconPrestige"]/description</xpath>
+          <value>
+            <!-- EN: A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nBuilt-in servo-motors assist the wearer&apos;s muscles in holding the weight of the helmet while the integrated combat HUD improves weapon accuracy.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorMarineHelmetPrestige"]/description</xpath>
+          <value>
+            <!-- EN: A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nBuilt-in servo-motors assist the wearer&apos;s muscles in holding the weight of the helmet while the integrated combat HUD improves weapon accuracy.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetCataphractPrestige"]/description</xpath>
+          <value>
+            <!-- EN: A heavily-armored high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nBuilt-in servo-motors assist the wearer&apos;s muscles in holding the weight of the helmet while the integrated combat HUD improves weapon accuracy.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer&apos;s psychic sensitivity. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSwordBladelink"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_ZeusHammerBladelink"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSwordBladelink"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Axe"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Axe"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PsyfocusStaff"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSword"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSword"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSword"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Zeushammer"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Zeushammer"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSword"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSword"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSword"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

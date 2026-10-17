@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>EvolvedOrgansRedux</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Appendage_ExtradextrousArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: fist -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Appendage_HighPressurePincer"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: pinchy -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Appendage_HighPressurePincer"]/comps/li[1]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: pinchy -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

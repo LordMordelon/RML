@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Crypto Weapons: Restored</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_Shield_Crypto"]/label</xpath>
+          <value>
+            <!-- EN: crypto shield -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_Shield_Crypto"]/description</xpath>
+          <value>
+            <!-- EN: A stabilized crypto-tech field wrapped around an advanced frame, capable of slowing the speed of the atoms of incoming projectiles to a halt. Does nothing to protect against heat and blunt trauma. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoPistol"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: grip -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoPistol"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Crypto Weapons: Restored</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFEP_WarcasketGun_CryptoCannon"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: barrel -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

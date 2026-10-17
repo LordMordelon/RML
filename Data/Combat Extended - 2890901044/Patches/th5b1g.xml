@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Faction - Elves</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: shaft -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Rapier"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Rapier"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: point -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MeleeWeapon_Rapier"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

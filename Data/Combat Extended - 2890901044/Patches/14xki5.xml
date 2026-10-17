@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Arsenal - The Juggernaut</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_SingleLauncher"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_GrenadeLauncher"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_GrenadeLauncher"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_GrenadeLauncher"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_SAW"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_SAW"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Gun_SAW"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>TODO</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
