@@ -217,9 +217,10 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   reemplazo global sobre estos archivos rompe cosas que no se ven hasta que el juego
   las carga.
 
-  Hay una sola excepción: las recetas de Combat Extended, que se llenan por script con las
-  reglas de «Recetas por script» de [PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md). No se
-  extiende a otros mods sin volver a preguntar.
+  Hay dos excepciones, las dos de Combat Extended: las recetas y las etiquetas de partes de
+  armas de `Patches/`, que se llenan por script con las reglas de «Recetas por script» y
+  «Partes de armas por script» de [PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md). No se
+  extienden a otros mods sin volver a preguntar.
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.

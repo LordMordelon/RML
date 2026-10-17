@@ -96,6 +96,9 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | combat frenzy | furia de combate | propuesta | Estado mental |
 | shell-shock | neurosis de guerra | propuesta | Estado mental |
 | preset (patcher) | preajuste | propuesta | «preajuste: casco» |
+| crypto (Vanilla Factions Expanded) | criogénico | propuesta | «bala criogénica», «escudo criogénico» |
+| wide bore | calibre ancho | propuesta | Rasgo de arma |
+| deadlife | necrovita | RML | Como en los mods de RML que ya lo traducen |
 
 ## 2. Estadísticas
 
@@ -159,7 +162,8 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | rocket | cohete | cohetes | oficial | «lanzacohetes» |
 | missile | misil | misiles | propuesta | |
 | round | proyectil | proyectiles | propuesta | Cuando no se sabe de qué tipo es |
-| arrow | flecha | flechas | propuesta | |
+| arrow | flecha | flechas | propuesta | «flecha de viuda negra (acero)» |
+| mortar shell | obús de mortero | obuses de mortero | propuesta | «obús de mortero 81mm (alquitrán)» |
 | crossbow bolt | virote | virotes | propuesta | |
 | bolt (plasma, bláster, láser) | descarga | descargas | propuesta | «descarga de plasma» |
 | pellet | perdigón | perdigones | propuesta | |
@@ -252,13 +256,26 @@ Son las etiquetas de los ataques cuerpo a cuerpo (`tools`), casi todas en `Patch
 | limb (de arco) | pala | oficial |
 | claws | garras | oficial |
 | left claw / right claw | garra izquierda / garra derecha | propuesta |
-| head claw | garra de la cabeza | propuesta |
-| left hoof / right hoof | pezuña izquierda / pezuña derecha | propuesta |
-| fist | puño | propuesta |
+| head claw | garra craneal | oficial. NO «garra de la cabeza» |
+| left hoof / right hoof | pezuña izquierda / pezuña derecha | oficial |
+| fist | puño | oficial |
 | muzzle | boca del cañón | propuesta |
 | drill | taladro | propuesta |
-| blade (de arma) | hoja | propuesta |
-| leg (de insecto) | pata | oficial («pata delantera izquierda»); los cuadrúpedos tienen «pierna» |
+| blade (de arma o implante) | hoja | propuesta |
+| left blade / right blade (de criatura) | cuchilla izquierda / cuchilla derecha | oficial |
+| leg (de insecto) | pata | oficial; «left first leg» es «primera pata izquierda» |
+| front left leg (de meca) | pierna delantera izquierda | oficial. El juego invierte izquierda y derecha en uno de sus mecas: no copiarlo |
+| foot | pata (animal) / pie (pierna humana o biónica) | oficial |
+| fangs / razorfangs | colmillos | oficial |
+| tusk / tusks | colmillo / colmillos | oficial |
+| spike | púa | propuesta |
+| knuckle | nudillo | propuesta |
+| tentacle | tentáculo | propuesta |
+| maw | fauce | propuesta |
+| plagued | pestilente | propuesta |
+
+Estas etiquetas se llenaron con una tabla y un script (ver «Partes de armas por script» en el
+plan). Un término que cambie acá se cambia también en los archivos de `Patches/`.
 
 ## 8. Armas y equipo del juego base
 

@@ -107,13 +107,33 @@ ninguna. Por eso el script **no adivina nada**:
 
 El script vive en el scratchpad de la sesión, no en el repo: es de un solo uso.
 
+## Partes de armas por script
+
+Segunda excepción a «A mano y directo», aprobada por Angel el 17-oct-2026 solo para las
+etiquetas de `Patches/` de Combat Extended: 834 etiquetas con 140 textos distintos («head» se
+repetía 212 veces). Se hizo así:
+
+1. Se armó a mano una tabla inglés → español con los 136 textos que no cambian de sentido, con
+   la traducción oficial del juego primero y lo que RML ya usaba después. Angel la revisó y
+   corrigió antes de correr nada.
+2. El script llenó una etiqueta solo si era `<label>TODO</label>` y el comentario `EN:` justo
+   arriba coincidía letra por letra con una fila de la tabla. No tocó descripciones, `<li>` ni
+   `jobString`. Informe: 825 llenadas, 41 dejadas.
+3. Lo que cambia de sentido según el arma o el animal («blade»), las descripciones, las recetas
+   y las líneas de genes se hicieron a mano.
+4. Al final, cada línea cambiada del diff era un `TODO` reemplazado, y las tres comprobaciones
+   salieron vacías.
+
+Como con las recetas, el script quedó en el scratchpad y no se extiende a otros mods ni a otras
+partes de Combat Extended sin volver a preguntar.
+
 ## Avance
 
 | # | Etapa | Estado |
 |---|---|---|
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
-| 1b | Lo que se ve como «TODO» | pendiente |
+| 1b | Lo que se ve como «TODO» | en curso: `Patches/` hecho (866, 17-oct-2026); faltan las listas `<li>` de `RulePackDef` y `ResearchProjectDef` (114) |
 | 2 | Vocabulario de munición | pendiente |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |

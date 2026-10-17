@@ -102,7 +102,8 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | gravship | **gravinave** | Oficial vanilla (Odyssey). NO "nave gravitacional", "nave gravitatoria" ni "gravnave" |
 | shuttle | **lanzadera** | Vehículo espacial/orbital imperial vanilla |
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
-| drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa |
+| drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa. Pendiente: corregirlo en 4 mods de RML que lo usan (Vanilla Gravship Expanded - Chapter 2, Logistics Mechanoid, Persona Mechanoid Pawns 2, FrozenSnowFox Tweaks) |
+| head claw | **garra craneal** | Oficial vanilla (insectoides). NO «garra de la cabeza». Pendiente: corregirlo en 3 mods de RML que lo usan (VFE - Insectoids 2, VQE - Cryptoforge, Zoology); el `UNUSED.xml` de Cryptoforge no se toca |
 | ship chunk | **escombro de nave** | |
 | ship core | núcleo de nave | |
 | hard vacuum / vacuum | vacío espacial / vacío | |
