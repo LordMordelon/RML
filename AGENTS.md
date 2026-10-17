@@ -40,6 +40,8 @@ ModList.tsv                     GENERADO — la misma lista en texto plano: mods
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
+GLOSARIO-COMBAT-EXTENDED.md     lo que Combat Extended agrega: munición, estadísticas, conceptos
+PLAN-COMBAT-EXTENDED.md         etapas y avance de la traducción de Combat Extended
 TRADUCIR.md                     guía para colaboradores sin git
 CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
@@ -214,6 +216,10 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   herramientas de edición normales. Nada de scripts que reemplacen texto en masa: un
   reemplazo global sobre estos archivos rompe cosas que no se ven hasta que el juego
   las carga.
+
+  Hay una sola excepción: las recetas de Combat Extended, que se llenan por script con las
+  reglas de «Recetas por script» de [PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md). No se
+  extiende a otros mods sin volver a preguntar.
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
