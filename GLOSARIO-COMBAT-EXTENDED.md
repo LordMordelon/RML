@@ -198,6 +198,10 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | charge pack | paquete de carga | paquetes de carga | propuesta | «paquete de carga láser» |
 | canister | bote | botes | propuesta | «bote de plasma», «bote de melta» |
 | flare shell | obús de bengala | obuses de bengala | propuesta | |
+| cannon shell | obús de cañón | obuses de cañón | propuesta | «obús de cañón 90mm (HE)» |
+| Howitzer shell | obús de obusero | obuses de obusero | propuesta | «obús de obusero 105mm (humo)» |
+| recoilless cartridge / rocket | cartucho / cohete … sin retroceso | cartuchos / cohetes … sin retroceso | propuesta | «cartucho 90mm sin retroceso (CAN)» |
+| flechette | flechette | flechettes | Angel | El proyectil de la munición `CAN` y de la flechette avanzada. Queda en inglés |
 
 ## 4. Tipos de munición
 
@@ -243,6 +247,12 @@ propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `M
 | — | airburst | de detonación aérea | propuesta: «explosiva de detonación aérea», para no repetir «explosiva de explosión» |
 | — | antigrain | antigrano | oficial: «ojiva antigrano», «obús de antigrano», «mina antigrano» |
 | — | antimatter | antimateria | oficial: «impulsada por antimateria» |
+| Frag, CAN | fragmentation, canister | Frag, CAN | propuesta: siglas, quedan igual entre paréntesis |
+| — | Anti (en el paréntesis) | antigrano | propuesta: «obús de mortero 81mm (antigrano)» |
+| — | foam | espuma | propuesta: como `FoamFuel` |
+
+Entre paréntesis, un tipo escrito entero concuerda con el sustantivo: «granada RPG-32 (termobárica)»,
+«cohete 57mm (termobárico)».
 
 ## 5. Lo que no se traduce
 
@@ -380,3 +390,13 @@ primero, escopeta y alto calibre después.
 | wildcat cartridge | cartucho artesanal | propuesta |
 | smoothbore | de ánima lisa | propuesta |
 | riot control | control de disturbios | propuesta |
+| grenade launcher | lanzagranadas | propuesta |
+| bazooka | bazuca | propuesta |
+| wire-guided | filoguiado | propuesta |
+| cruise missile | misil de crucero | propuesta |
+| field gun | cañón de campaña | propuesta |
+| tank destroyer | cazatanques | propuesta |
+| battleship | acorazado | propuesta |
+| spigot grenade | granada de espiga | propuesta |
+| rocket motor | motor cohete | propuesta |
+| outdated / obsolete | anticuado/a | propuesta |

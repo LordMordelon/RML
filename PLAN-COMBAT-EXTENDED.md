@@ -162,6 +162,15 @@ una tabla fija («posta», «bala de escopeta», «saco de perdigones», «bala 
 nuevos: `EMP` → «PEM», `Smoke` → «humo», `HE Time-Fuzed` → «HE de espoleta de tiempo». 344 nombres
 por script, ninguno a mano, y 21 textos para 168 descripciones.
 
+Granadas, cohetes y artillería (`Defs/Ammo/Grenade`, `Rocket` y `Shell`) sumaron sustantivos: `cannon
+shell` → «obús de cañón», `Howitzer shell` → «obús de obusero», `mortar shell` → «obús de mortero»,
+`recoilless cartridge|rocket` → «cartucho|cohete … sin retroceso», y `grenade`, `rocket` y `missile`
+del glosario. La designación queda en inglés después del sustantivo («granada RPG-7 (Frag)», «misil
+BGM-71 TOW (HEAT)»), con cinco erratas corregidas («40x53mmVOG25» → «40x53mm VOG-25», «SPG9» →
+«SPG-9»…). Los tipos escritos enteros concuerdan con el sustantivo («granada (termobárica)»). Angel
+eligió dejar «flechette» en inglés. 379 nombres por script, 2 a mano, y 47 textos para 177
+descripciones.
+
 ## Avance
 
 | # | Etapa | Estado |
@@ -170,32 +179,34 @@ por script, ninguno a mano, y 21 textos para 168 descripciones.
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
-| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos |
+| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** seguir la etapa 3 con las granadas y los cohetes y, si alcanza, la artillería.
+**Objetivo:** seguir la etapa 3 con la munición avanzada, la genérica, la medieval, la neolítica y la
+de `Other`.
 
-**Estado:** pistola, fusil, escopeta y alto calibre hechos en la rama `combat-extended` (último
-commit de traducción `985aeb1`, sin subir): 1.082 nombres y 492 descripciones. No queda nada a medias.
+**Estado:** pistola, fusil, escopeta, alto calibre, granadas, cohetes y artillería hechos en la rama
+`combat-extended` (último commit de traducción `866454c`, sin subir): 1.463 nombres y 669
+descripciones. No queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un cartucho de escopeta y
-   uno de alto calibre (por ejemplo, `.50 BMG`): el nombre y la descripción. Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un obús de mortero y una
+   granada de lanzagranadas: el nombre y la descripción. Anotar lo que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
    avisarlo al empezar.
 
 **Al empezar (Claude):** seguir «Munición por script». Quedan en `TODO`, contadas el 17-oct-2026 por
-carpeta de `Defs/Ammo`: `Shell` 270, `Modded` 199, `Generic` 162, `Advanced` 158, `Grenade` 144,
-`Rocket` 144, `Medieval` 48, `Neolithic` 46, `Other` 21. Para esta sesión, `Grenade` y `Rocket`
-(288) y después `Shell` (270), que juntos dan 558: cabe justo en una sesión. Los scripts de la
-sesión anterior sirven de base (`listar.py`, `nombres2.py`, `desc2.py`, en el scratchpad de la sesión
-`379fd5b3`; si ya no están, se rehacen con las reglas de «Munición por script»). Granadas y cohetes
-traen nombres de modelos (`RPG-7`, `M72 LAW`) que quedan en inglés (glosario, sección 5), así que
-habrá formas nuevas que el script tiene que dejar en `TODO` si no las reconoce.
+carpeta de `Defs/Ammo`: `Modded` 199, `Generic` 162, `Advanced` 158, `Medieval` 48, `Neolithic` 46,
+`Other` 21 (634 en total). Para esta sesión, todas menos `Modded` (435); `Modded` y el cierre de la
+etapa 3 quedan para la siguiente. Los scripts de esta sesión sirven de base (`listar.py`,
+`nombres3.py`, `desc3.py`, en el scratchpad de la sesión `5ef01d96`; si ya no están, se rehacen con
+las reglas de «Munición por script»). Arcos, ballestas y energía traen sustantivos que el script
+todavía no conoce (flecha, virote, carga, célula, bote; glosario, sección 3) y nombres propios de
+tipos que quedan en inglés (sección 4), así que habrá reglas nuevas.
 
 **Decisiones de Angel:** ninguna pendiente. Las reglas nuevas de nombres se le muestran junto con la
 tabla de descripciones, antes de escribir.
