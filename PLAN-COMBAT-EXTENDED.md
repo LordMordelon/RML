@@ -148,3 +148,33 @@ partes de Combat Extended sin volver a preguntar.
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
+
+## Próxima sesión (17-oct-2026)
+
+**Objetivo:** empezar la etapa 3 con la munición de pistola y fusil.
+
+**Estado:** etapas 0 a 2 hechas, en la rama `combat-extended` (último commit `f1cded1`, subido a
+`origin/combat-extended`). No queda nada a medias.
+
+**Antes de empezarla (Angel):**
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida el filtro de munición del
+   almacén y la línea de munición de la ficha de un arma (lo de la etapa 2). Anotar lo que se lea raro.
+2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
+   avisarlo al empezar.
+
+**Al empezar (Claude):** la etapa 3 está en `DefInjected/ThingDef/c1b3s1.xml`. Contadas el
+17-oct-2026, son 2.962 entradas del núcleo en `TODO`: 954 nombres de proyectiles (`Bullet_*`), 876
+nombres de munición (`Ammo_*`) con 875 descripciones, y unas 260 de otros defs (`CE_*`, `Shell_*`,
+`Gun_*`, armas y ataques). Se avanza por familia; pistola y fusil primero. A mano caben unas 500 por
+sesión (estimado).
+
+**Decisiones de Angel:**
+- **Script para los nombres de munición y proyectiles** (1.830 nombres). Siguen la forma fija de la
+  sección 6 del glosario («cartucho 5.56x45mm NATO (FMJ)»), así que se podrían llenar como las
+  recetas, con una tabla que Angel revisa antes. Las descripciones seguirían a mano. Recomendación:
+  aprobarlo; ahorra unas 3 o 4 sesiones (estimado).
+
+**Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
+
+**Dónde leer:** este plan (etapas y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
+(secciones 3, 4 y 6) y las tres comprobaciones de `AGENTS.md`.
