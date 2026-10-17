@@ -179,7 +179,7 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | bomb | bomba | bombas | propuesta | |
 | warhead | ojiva | ojivas | oficial | «grandes ojivas incendiarias» |
 | sling bullet | bala de honda | balas de honda | propuesta | |
-| nerve spiker bolt | virote nervioso | virotes nerviosos | Angel | El arma (*nerve spiker*) se llama «espina nerviosa» |
+| nerve spiker bolt | pincho nervioso | pinchos nerviosos | Angel | El arma (*nerve spiker*) es «pinchador de nervios», oficial de Anomaly, y su proyectil «pincha nervios» |
 | forsaken arrow | flecha de los Abandonados | flechas de los Abandonados | propuesta | Para el arco de los Forsaken (`AG_ForsakenBow`). «Abandonados», como «Los Abandonados» de Progression Scenarios |
 | ballista bolt | virote de balista | virotes de balista | propuesta | |
 | musket ball | bala de mosquete | balas de mosquete | propuesta | |

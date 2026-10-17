@@ -73,6 +73,11 @@ juego base y los DLC.
 
 ## Cuidados
 
+- **Los nombres de los DLC salen de la traducción oficial**, aunque en 1.7 el juego no la traiga
+  instalada y se vea en inglés. Está en GitHub, en `Ludeon/RimWorld-SpanishLatin`
+  (`Anomaly/`, `Biotech/`, `Ideology/`, `Odyssey/`, `Royalty/`); se busca con
+  `gh api "search/code?q=repo:Ludeon/RimWorld-SpanishLatin+<defName>"`. Así salió
+  «pinchador de nervios» para el *nerve spiker* de Anomaly.
 - **Combat Extended se actualiza seguido.** Para reextraer, usar el extractor con «Traducción
   rápida» sobre RML: conserva lo traducido. Después, mirar el diff con las tres comprobaciones.
 - **No hay `UNUSED.xml` todavía.** Aparecerá la primera vez que una actualización saque algo;
