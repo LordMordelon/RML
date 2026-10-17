@@ -339,3 +339,33 @@ Combat Extended los nombra en sus descripciones. Se usan los nombres oficiales:
 | chemfuel | quimbustible |
 | plasteel | plastiacero |
 | component | componente |
+
+## 9. Descripciones de munición
+
+Lo que se repite en las descripciones de cartuchos y balas. Las fijó la etapa 3, con pistola y
+fusil.
+
+| Inglés | Español | Origen |
+|---|---|---|
+| handgun | arma corta | propuesta |
+| SMG / SMGs | SMG | oficial («SMG pesado») |
+| submachine gun | subfusil | propuesta |
+| machine gun | ametralladora | propuesta |
+| battle rifle | fusil de combate | propuesta |
+| lever-action rifle | fusil de palanca | propuesta |
+| repeating rifle | fusil de repetición | propuesta |
+| carbine | carabina | propuesta |
+| small arms | armas ligeras | propuesta |
+| top break revolver | revólver basculante | propuesta |
+| rimmed / rimless / semi-rimmed | con pestaña / sin pestaña / de semipestaña | propuesta |
+| bottlenecked | abotellado | propuesta |
+| necked down | de cuello reducido | propuesta |
+| centerfire / rimfire | de percusión central / de percusión anular | propuesta |
+| intermediate cartridge | cartucho intermedio | propuesta |
+| stopping power | poder de detención | propuesta |
+| blackpowder / smokeless powder | pólvora negra / pólvora sin humo | propuesta |
+| subsonic | subsónico/a | propuesta |
+| suppressed fire | disparar con supresor | propuesta |
+| big game / medium game hunting | caza mayor / cazar animales medianos | propuesta |
+| casing | vaina | propuesta |
+| light (peso) | liviano | propuesta |

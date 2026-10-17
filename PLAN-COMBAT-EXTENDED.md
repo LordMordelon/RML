@@ -136,6 +136,25 @@ repetía 212 veces). Se hizo así:
 Como con las recetas, el script quedó en el scratchpad y no se extiende a otros mods ni a otras
 partes de Combat Extended sin volver a preguntar.
 
+## Munición por script
+
+Tercera excepción, aprobada por Angel el 17-oct-2026 para los nombres y las descripciones de la
+munición y los proyectiles de la etapa 3. Se estrenó con pistola y fusil (`Defs/Ammo/Pistols` y
+`Defs/Ammo/Rifle` del mod instalado, que es de donde sale qué `defName` es de cada familia):
+
+1. **Nombres.** El calibre sale de las `label` de `AmmoSetDef` ya traducidas en la etapa 2, más
+   una tabla a mano con las formas cortas que usan los proyectiles («5.56mm NATO»). Quedan igual,
+   salvo `Caseless` → «sin vaina» y dos erratas del original («Smith Wessen» → «S&amp;W»). Solo se
+   llena si el inglés es `<calibre> (<tipo>)`, o `<calibre> bullet|cartridge (<tipo>)`, con un tipo
+   conocido; si no, queda en `TODO`. Pistola y fusil: 735 llenados, 3 a mano.
+2. **Descripciones.** Se traducen a mano en una tabla con un texto por fila, que Angel revisa, y el
+   script pone cada uno donde el `EN:` coincide letra por letra. Pistola y fusil: 60 textos para
+   324 descripciones.
+3. Solo toca `TODO`, y antes del commit van las tres comprobaciones de `AGENTS.md`.
+
+Para las familias que siguen vale lo mismo, pero con una tabla de descripciones nueva que Angel
+revisa antes de escribir.
+
 ## Avance
 
 | # | Etapa | Estado |
@@ -144,7 +163,7 @@ partes de Combat Extended sin volver a preguntar.
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
-| 3 | Munición y proyectiles | pendiente |
+| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
