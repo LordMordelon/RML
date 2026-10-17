@@ -27,7 +27,7 @@ archivos —y no solo su contenido— el cambio va allá, no acá.
 ## Estructura
 
 ```
-About/About.xml                 metadatos del mod. supportedVersions: 1.6. Su forceLoadAfter es GENERADO
+About/About.xml                 metadatos del mod. supportedVersions: 1.6 y 1.7. Su forceLoadAfter es GENERADO
 Data/
   !<Autor>/                     autores con 4 o más mods; el ! los fija arriba
     <Nombre del mod> - <ID>/
