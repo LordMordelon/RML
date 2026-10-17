@@ -107,7 +107,7 @@ El script vive en el scratchpad de la sesión, no en el repo: es de un solo uso.
 | # | Etapa | Estado |
 |---|---|---|
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
-| 1 | Interfaz y reglas | pendiente |
+| 1 | Interfaz y reglas | en curso: `Keyed` hecha (531). Faltan `StatDef`, `ConceptDef`, `TipSetDef`, `DamageDef` y las chicas (~480) |
 | 2 | Vocabulario de munición | pendiente |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |
