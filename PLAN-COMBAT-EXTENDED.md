@@ -143,7 +143,7 @@ partes de Combat Extended sin volver a preguntar.
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
-| 2 | Vocabulario de munición | en curso: `AmmoCategoryDef` del núcleo hecho (248, 17-oct-2026), y de `ThingCategoryDef` del núcleo las 121 primeras (hasta `AmmoFlare`). Faltan las otras 139 de `ThingCategoryDef` del núcleo (casi todas calibres, que quedan igual) y las 303 de `AmmoSetDef` del núcleo |
+| 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |

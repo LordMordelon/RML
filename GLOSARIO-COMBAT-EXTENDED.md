@@ -77,6 +77,10 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | CIWS | CIWS | propuesta | Sigla en inglés; en la ayuda, «sistema de defensa de corto alcance» |
 | turret | torreta | oficial | |
 | mortar | mortero | oficial | |
+| howitzer | obusero | propuesta | El arma; su munición es «obús de obusero 105mm», como «obús de mortero». En inglés el obús es el proyectil y el obusero el arma |
+| recoilless rifle | cañón sin retroceso | propuesta | «cohetes 90mm sin retroceso» |
+| siege engine | máquina de asedio | propuesta | |
+| lasgun | fusil láser | propuesta | De Warhammer 40.000; *bolter* y *melta* quedan en inglés |
 | artillery | artillería | propuesta | |
 | manned turret / auto-turret | torreta manual / torreta automática | propuesta | |
 | spotter (artillery) | observador | propuesta | |
@@ -188,6 +192,10 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | boulder | peñasco | peñascos | propuesta | La munición de catapulta |
 | fuel cell | célula de combustible | células de combustible | propuesta | |
 | power cell | célula de energía | células de energía | propuesta | |
+| power pack | paquete de energía | paquetes de energía | propuesta | «paquete de energía de fusil láser» |
+| charge pack | paquete de carga | paquetes de carga | propuesta | «paquete de carga láser» |
+| canister | bote | botes | propuesta | «bote de plasma», «bote de melta» |
+| flare shell | obús de bengala | obuses de bengala | propuesta | |
 
 ## 4. Tipos de munición
 
