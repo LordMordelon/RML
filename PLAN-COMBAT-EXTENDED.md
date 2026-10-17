@@ -79,6 +79,10 @@ juego base y los DLC.
   desde ahí aplica la regla 3 de `AGENTS.md`.
 - **`Strings/NameBanks`** son `.txt`, una frase por línea. El extractor tiene un error conocido
   con las líneas en blanco en estos archivos: no dejar líneas vacías al traducirlos.
+- **Núcleo y compatibilidad van mezclados en el mismo archivo.** El extractor escribe un solo
+  XML por tipo de def, con las entradas de `ModPatches/` intercaladas. Las del núcleo son las
+  de los `defName` que aparecen en `Defs/` o en las carpetas de DLC (`Royalty/`, `Biotech/`…)
+  del mod instalado; en `AmmoCategoryDef` y `ThingCategoryDef` quedan seguidas, en un bloque.
 - **`EMP` se traduce `PEM`**, aunque el resto de las siglas de munición se queden en inglés.
 - **Los nombres de `GunPatcherPresetDef` quedan en inglés** (`m16a1`, `pistol`, `machine gun`…).
   El parcheo automático los usa para reconocer armas de otros mods por su nombre: traducirlos
@@ -133,8 +137,8 @@ partes de Combat Extended sin volver a preguntar.
 |---|---|---|
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
-| 1b | Lo que se ve como «TODO» | en curso: `Patches/` hecho (866, 17-oct-2026); faltan las listas `<li>` de `RulePackDef` y `ResearchProjectDef` (114) |
-| 2 | Vocabulario de munición | pendiente |
+| 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
+| 2 | Vocabulario de munición | en curso: `AmmoCategoryDef` del núcleo hecho (245, 17-oct-2026; quedan las 3 de `ForsakenArrow`, de un arco de otro mod que no se identificó), y de `ThingCategoryDef` del núcleo las 120 primeras (hasta `AmmoFlare`). Faltan las otras 139 de `ThingCategoryDef` del núcleo (casi todas calibres, que quedan igual), `AmmoNerveSpiker` y las 304 de `AmmoSetDef` del núcleo |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |

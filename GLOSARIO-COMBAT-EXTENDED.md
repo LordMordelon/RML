@@ -178,12 +178,25 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | clip | peine | peines | propuesta | |
 | bomb | bomba | bombas | propuesta | |
 | warhead | ojiva | ojivas | oficial | «grandes ojivas incendiarias» |
+| sling bullet | bala de honda | balas de honda | propuesta | |
+| ballista bolt | virote de balista | virotes de balista | propuesta | |
+| musket ball | bala de mosquete | balas de mosquete | propuesta | |
+| round shot / cannon ball | bala de cañón | balas de cañón | propuesta | |
+| grapeshot | metralla | — | propuesta | |
+| boulder | peñasco | peñascos | propuesta | La munición de catapulta |
+| fuel cell | célula de combustible | células de combustible | propuesta | |
+| power cell | célula de energía | células de energía | propuesta | |
 
 ## 4. Tipos de munición
 
 **Regla:** si el inglés usa la sigla, la sigla queda igual (`FMJ`, `AP`, `HP`, `HE`, `AP-HE`,
 `HEAT`, `HEDP`, `APDS`). La única excepción es `EMP`, que en el juego oficial es **PEM**. Si el
 inglés escribe el nombre entero, se traduce, y el adjetivo concuerda en género con el sustantivo.
+
+Las etiquetas de `AmmoCategoryDef` van solas, sin sustantivo, así que concuerdan con
+«munición»: van en femenino («blindada», «perforante explosiva», «incendiaria»). Los nombres
+propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `Melta`,
+`Shredder`) quedan en inglés.
 
 | Sigla | Nombre en inglés | Español | Origen |
 |---|---|---|---|
@@ -199,6 +212,15 @@ inglés escribe el nombre entero, se traduce, y el adjetivo concuerda en género
 | APDS | armor-piercing discarding sabot | perforante de casquillo desechable | propuesta |
 | EMP | EMP | PEM | oficial |
 | — | sabot | sabot | propuesta |
+| — | discarding sabot | casquillo desechable | propuesta |
+| APCR | armor-piercing composite-rigid | perforante de compuesto rígido | propuesta |
+| — | caseless | sin vaina | propuesta |
+| — | shaped charge | carga hueca | propuesta |
+| — | bunker buster | rompebúnkeres | propuesta |
+| — | charged (armas de carga) | de carga | propuesta: «10x18mm de carga» |
+| — | railgun | cañón de riel | RML |
+| — | gyro-stabilized | giroestabilizado | propuesta |
+| — | tibanna | tibanna | propuesta: masculino, «tibanna presurizado» |
 | — | incendiary | incendiario/a | oficial |
 | — | fragmentation / frag | fragmentario/a | oficial («granadas fragmentarias») |
 | — | smoke | de humo | oficial |
@@ -206,7 +228,7 @@ inglés escribe el nombre entero, se traduce, y el adjetivo concuerda en género
 | — | tear gas | gas lacrimógeno | propuesta |
 | — | toxic | tóxico/a | propuesta |
 | — | time-fuzed | de espoleta de tiempo | propuesta |
-| — | airburst | de explosión aérea | propuesta |
+| — | airburst | de detonación aérea | propuesta: «explosiva de detonación aérea», para no repetir «explosiva de explosión» |
 | — | antigrain | antigrano | oficial: «ojiva antigrano», «obús de antigrano», «mina antigrano» |
 | — | antimatter | antimateria | oficial: «impulsada por antimateria» |
 
