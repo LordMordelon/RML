@@ -35,7 +35,8 @@ juego el 17-oct-2026. Hay dos excepciones, donde «TODO» **sí** llega a la pan
 - **Listas** (`<li>TODO</li>`, 114): las reglas de daño de `RulePackDef` y listas de
   `ResearchProjectDef`. Una lista se inyecta entera, sin revisar cada elemento.
 
-Por eso, si algún día se quiere publicar por etapas, esas dos tienen que estar traducidas antes.
+Por eso van en la etapa 1b, justo después de la interfaz (decidido el 17-oct-2026): así la
+partida de prueba no muestra ningún «TODO», y queda abierta la opción de publicar por etapas.
 
 - **Para probar en partida:** con la rama puesta, `LoadFoldersBuilder -build` deja `output/` al
   día y el juego carga lo traducido. Lo que falta sale en inglés, salvo en esos dos casos.
@@ -60,10 +61,11 @@ Se estima que una sesión traduce unas 500 entradas.
 | # | Etapa | Qué incluye | Entradas | Sesiones |
 |---|---|---|---|---|
 | 1 | Interfaz y reglas | `Keyed` (menús, opciones, equipamiento, modos de disparo), `StatDef`, `ConceptDef` (ayuda del tutorial), `TipSetDef`, `DamageDef` y las categorías chicas: `ApparelLayerDef`, `BodyPartGroupDef`, `BodyDef`, `ToolCapacityDef`, `BipodCategoryDef`, los dos `PatcherPresetDef`, `JobDef`, `WorkGiverDef`, `ThoughtDef`, `MentalStateDef`, `TraitDef`, `StuffCategoryDef`, `PawnColumnDef`, `DesignatorDropdownGroupDef` | ~1.000 | 2 |
+| 1b | Lo que se ve como «TODO» | Las dos excepciones de «Dónde se trabaja»: `Patches/` (partes de armas y ataques, 866, muy repetitivo) y las listas `<li>` de `RulePackDef` (cuidar el prefijo `simbolo->`) y `ResearchProjectDef` (114). Con esto, en la partida ya no se ve ningún «TODO» | ~980 | 2 |
 | 2 | Vocabulario de munición | `AmmoCategoryDef`, `AmmoSetDef` y `ThingCategoryDef` del núcleo. Lo que aparezca se suma al glosario | ~800 | 2 |
 | 3 | Munición y proyectiles del núcleo | `ThingDef` del núcleo, por familias: pistola y fusil, escopeta, granadas y cohetes, artillería, arcos y ballestas, energía (láser, plasma), mecanoides | ~2.900 | 6 |
 | 4 | Recetas del núcleo | `RecipeDef` del núcleo, con la plantilla del glosario (sección 6), llenadas por script con las reglas de abajo | ~2.700 | 1 |
-| 5 | Resto del núcleo | `HediffDef`, `ResearchProjectDef`, `RulePackDef` (cuidar el prefijo `simbolo->`), `PawnKindDef`, `LaserBeamDefCE`, `WorldObjectDef`, `Patches/` (partes de armas, muy repetitivo) y las frases de `Strings/NameBanks` | ~1.400 | 3 |
+| 5 | Resto del núcleo | `HediffDef`, lo que quede de `ResearchProjectDef` y `RulePackDef` tras la 1b, `PawnKindDef`, `LaserBeamDefCE`, `WorldObjectDef` y las frases de `Strings/NameBanks` | ~420 | 1 |
 | 6 | Compatibilidad con otros mods | Lo de `ModPatches/`. Primero los mods que RML ya traduce, porque esos jugadores ya los tienen; el resto, cuando alguien lo pida | ~5.600 | según avance |
 
 Con las etapas 1 a 5 terminadas, Combat Extended queda completo para quien lo juega solo con el
@@ -108,6 +110,7 @@ El script vive en el scratchpad de la sesión, no en el repo: es de un solo uso.
 |---|---|---|
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
 | 1 | Interfaz y reglas | en curso: `Keyed` hecha (531). Faltan `StatDef`, `ConceptDef`, `TipSetDef`, `DamageDef` y las chicas (~480) |
+| 1b | Lo que se ve como «TODO» | pendiente |
 | 2 | Vocabulario de munición | pendiente |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |
