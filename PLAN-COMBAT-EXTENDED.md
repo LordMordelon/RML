@@ -138,7 +138,7 @@ partes de Combat Extended sin volver a preguntar.
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
-| 2 | Vocabulario de munición | en curso: `AmmoCategoryDef` del núcleo hecho (245, 17-oct-2026; quedan las 3 de `ForsakenArrow`, de un arco de otro mod que no se identificó), y de `ThingCategoryDef` del núcleo las 120 primeras (hasta `AmmoFlare`). Faltan las otras 139 de `ThingCategoryDef` del núcleo (casi todas calibres, que quedan igual), `AmmoNerveSpiker` y las 304 de `AmmoSetDef` del núcleo |
+| 2 | Vocabulario de munición | en curso: `AmmoCategoryDef` del núcleo hecho (248, 17-oct-2026), y de `ThingCategoryDef` del núcleo las 121 primeras (hasta `AmmoFlare`). Faltan las otras 139 de `ThingCategoryDef` del núcleo (casi todas calibres, que quedan igual) y las 303 de `AmmoSetDef` del núcleo |
 | 3 | Munición y proyectiles | pendiente |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |

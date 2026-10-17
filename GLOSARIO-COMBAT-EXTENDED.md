@@ -179,6 +179,8 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | bomb | bomba | bombas | propuesta | |
 | warhead | ojiva | ojivas | oficial | «grandes ojivas incendiarias» |
 | sling bullet | bala de honda | balas de honda | propuesta | |
+| nerve spiker (bolt) | virote de espina nerviosa | virotes de espina nerviosa | Angel | El arma se llama «espina nerviosa» |
+| forsaken arrow | flecha de los Abandonados | flechas de los Abandonados | propuesta | Para el arco de los Forsaken (`AG_ForsakenBow`). «Abandonados», como «Los Abandonados» de Progression Scenarios |
 | ballista bolt | virote de balista | virotes de balista | propuesta | |
 | musket ball | bala de mosquete | balas de mosquete | propuesta | |
 | round shot / cannon ball | bala de cañón | balas de cañón | propuesta | |
