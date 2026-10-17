@@ -171,6 +171,15 @@ BGM-71 TOW (HEAT)»), con cinco erratas corregidas («40x53mmVOG25» → «40x53
 eligió dejar «flechette» en inglés. 379 nombres por script, 2 a mano, y 47 textos para 177
 descripciones.
 
+La munición avanzada, la genérica, la medieval, la neolítica y la de `Other` traían nombres demasiado
+distintos para una regla, así que los nombres también fueron con una tabla de un texto por fila (230
+textos para 269 nombres), igual que las descripciones (68 textos para 166). Angel cambió cuatro reglas
+antes de escribir, y están en el glosario (sección 4): la bala de carga es «cargada» («bala 10x18mm
+cargada»), «Conc.» e «Ion» van sin paréntesis («6x24mm de carga concentrada», «cartucho de carga para
+fusil iónico»), y el material de flechas y virotes también («virote de acero», «flecha grande
+incendiaria»). Por eso las categorías «flecha de fuego» y «virote de fuego» de la etapa 2 pasaron a
+«incendiaria» e «incendiario».
+
 ## Avance
 
 | # | Etapa | Estado |
@@ -179,37 +188,36 @@ descripciones.
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
-| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos |
+| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos) |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** seguir la etapa 3 con la munición avanzada, la genérica, la medieval, la neolítica y la
-de `Other`.
+**Objetivo:** cerrar la etapa 3 con la munición de `Modded` y lo que queda de `ThingDef` del núcleo.
 
-**Estado:** pistola, fusil, escopeta, alto calibre, granadas, cohetes y artillería hechos en la rama
-`combat-extended` (último commit de traducción `866454c`, sin subir): 1.463 nombres y 669
-descripciones. No queda nada a medias.
+**Estado:** toda la munición del núcleo hecha en la rama `combat-extended`, salvo `Modded` (último
+commit de traducción `817c3c6`, sin subir): esta tanda sumó 269 nombres y 166 descripciones. No queda
+nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un obús de mortero y una
-   granada de lanzagranadas: el nombre y la descripción. Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida una flecha o un virote, y
+   un arma de carga (munición y bala): el nombre y la descripción. Anotar lo que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
    avisarlo al empezar.
 
-**Al empezar (Claude):** seguir «Munición por script». Quedan en `TODO`, contadas el 17-oct-2026 por
-carpeta de `Defs/Ammo`: `Modded` 199, `Generic` 162, `Advanced` 158, `Medieval` 48, `Neolithic` 46,
-`Other` 21 (634 en total). Para esta sesión, todas menos `Modded` (435); `Modded` y el cierre de la
-etapa 3 quedan para la siguiente. Los scripts de esta sesión sirven de base (`listar.py`,
-`nombres3.py`, `desc3.py`, en el scratchpad de la sesión `5ef01d96`; si ya no están, se rehacen con
-las reglas de «Munición por script»). Arcos, ballestas y energía traen sustantivos que el script
-todavía no conoce (flecha, virote, carga, célula, bote; glosario, sección 3) y nombres propios de
-tipos que quedan en inglés (sección 4), así que habrá reglas nuevas.
+**Al empezar (Claude):** quedan 395 `TODO` del núcleo en `DefInjected/ThingDef`, contados el
+17-oct-2026 por carpeta del mod instalado: `Defs/Ammo/Modded` 199 (140 nombres, 59 descripciones; Halo
+y Warhammer 40k), `Defs/ThingDefs_Misc` 137, `ThingDefs_Buildings` 22, `ThingDefs_Items` 19,
+`Anomaly/Defs/Ammo` 6, `Defs/Ammo` suelta 4, `Defs/Drugs` 4, `Royalty` 2 y `ThingDefs_Plants` 2. Caben
+en una sesión. La munición va con tablas, como la tanda anterior (`listar.py` y `llenar4.py` en el
+scratchpad de la sesión `dd56fb32`; si ya no están, se rehacen con «Munición por script»). Lo que no
+es munición va a mano. Los nombres propios de Halo y Warhammer (`Spartan`, `Melta`, `Kraken`…) quedan
+en inglés (glosario, sección 4). Con eso se cierra la etapa 3 en «Avance».
 
-**Decisiones de Angel:** ninguna pendiente. Las reglas nuevas de nombres se le muestran junto con la
-tabla de descripciones, antes de escribir.
+**Decisiones de Angel:** ninguna pendiente. Las tablas de nombres y descripciones se le muestran antes
+de escribir.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 

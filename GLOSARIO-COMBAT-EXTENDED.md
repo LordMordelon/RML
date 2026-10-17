@@ -166,7 +166,27 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | rocket | cohete | cohetes | oficial | «lanzacohetes» |
 | missile | misil | misiles | propuesta | |
 | round | proyectil | proyectiles | propuesta | Cuando no se sabe de qué tipo es |
-| arrow | flecha | flechas | propuesta | «flecha de viuda negra (acero)» |
+| arrow | flecha | flechas | propuesta | El material va sin paréntesis: «arrow (steel)» → «flecha de acero» (ver la sección 4) |
+| streamlined arrow | flecha aerodinámica | flechas aerodinámicas | propuesta | |
+| great arrow | flecha grande | flechas grandes | oficial («flecha de arco grande», «arco grande») | |
+| sling bullet | bala de honda | balas de honda | propuesta | «bala de honda de piedra» |
+| pilum | pilum | pila | oficial («pila») | «pilum (thrown)» → «pilum (arrojado)», «(fired)» → «(disparado)» |
+| launcher grenade | granada de lanzador | granadas de lanzador | propuesta | Como el `AmmoSetDef` |
+| artillery / light cannon / heavy cannon / autocannon shell | obús de artillería / de cañón ligero / de cañón pesado / de cañón automático | obuses … | propuesta | |
+| mech shell | obús mecanoide | obuses mecanoides | propuesta | «obús mecanoide (demolición)» |
+| demolition shell | obús de demolición | obuses de demolición | propuesta | «obús de demolición 164x284mm» |
+| fuel shell | obús de combustible | obuses de combustible | propuesta | |
+| pistol / rifle / intermediate rifle / magnum cartridge | cartucho de pistola / de fusil / de fusil intermedio / de pistola magnum, de fusil magnum | cartuchos … | propuesta | La munición genérica |
+| anti-materiel cartridge | cartucho antimaterial | cartuchos antimaterial | propuesta | |
+| blunderbuss shot / pellet | perdigones de trabuco / perdigón de trabuco | — | propuesta | |
+| round shot | bala de cañón | balas de cañón | propuesta | «mini round shot» → «bala de cañón pequeña» |
+| bursting shell | obús de estallido | obuses de estallido | propuesta | |
+| flaming shell | obús en llamas | obuses en llamas | propuesta | |
+| grape shot shell | obús de metralla | obuses de metralla | propuesta | El proyectil, «grape shot», es «metralla» |
+| flare round | proyectil de bengala | proyectiles de bengala | propuesta | |
+| stream (lanzallamas) | chorro | chorros | propuesta | «chorro de quimbustible gelificado» |
+| molten slag | escoria fundida | — | propuesta | |
+| nail | clavo | clavos | propuesta | |
 | mortar shell | obús de mortero | obuses de mortero | propuesta | «obús de mortero 81mm (alquitrán)» |
 | crossbow bolt | virote | virotes | propuesta | |
 | bolt (plasma, bláster, láser) | descarga | descargas | propuesta | «descarga de plasma» |
@@ -233,7 +253,14 @@ propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `M
 | — | caseless | sin vaina | propuesta |
 | — | shaped charge | carga hueca | propuesta |
 | — | bunker buster | rompebúnkeres | propuesta |
-| — | charged (armas de carga) | de carga | propuesta: «10x18mm de carga» |
+| — | charged (armas de carga) | de carga; la bala, «cargada» | Angel: «10x18mm de carga», «bala 10x18mm cargada», «cartucho de carga para fusil» |
+| Conc. | concentrated charge | de carga concentrada | Angel: sin paréntesis, «6x24mm de carga concentrada», «bala 6x24mm de carga concentrada», «cartucho de carga concentrada para fusil» |
+| Ion | ion charge | de carga iónica | Angel: sin paréntesis, «8x35mm de carga iónica»; con «cartucho» concuerda con él: «cartucho de carga para fusil iónico» |
+| — | Ion Shot (escopeta) | perdigones iónicos | propuesta: «12 Gauge de carga (perdigones iónicos)» |
+| — | stone / steel / plasteel (flechas, virotes) | de piedra / de acero / de plastiacero | Angel: sin paréntesis, «virote de acero» |
+| — | venom / flame (flechas, virotes) | envenenado/a / incendiario/a | Angel: «flecha grande incendiaria», «virote envenenado». Las categorías de munición dicen lo mismo |
+| — | diffusing | difusor/a | propuesta: «15x65mm de carga difusora» |
+| — | jellied / infused (combustible) | gelificado / infundido | propuesta: «quimbustible infundido» lleva bioferrita |
 | — | railgun | cañón de riel | RML |
 | — | gyro-stabilized | giroestabilizado | propuesta |
 | — | tibanna | tibanna | propuesta: masculino, «tibanna presurizado» |
@@ -400,3 +427,10 @@ primero, escopeta y alto calibre después.
 | spigot grenade | granada de espiga | propuesta |
 | rocket motor | motor cohete | propuesta |
 | outdated / obsolete | anticuado/a | propuesta |
+| charged shot ammo | munición de carga | propuesta |
+| fin-stabilized penetrator | penetrador estabilizado por aletas | propuesta |
+| tungsten carbide | carburo de tungsteno | propuesta |
+| railgun rifle / pistol | fusil de riel / pistola de riel | propuesta |
+| hand mortar | mortero de mano | propuesta |
+| siege engine | máquina de asedio | propuesta |
+| paper cartridge | cartucho de papel | propuesta |
