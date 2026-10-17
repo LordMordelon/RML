@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="Apparel_PackTox"]/description</xpath>
           <value>
             <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
-            <description>TODO</description>
+            <description>Una mochila reutilizable con botes de reactivos y un mecanismo que los usa para generar gas tóxico. Cuando quien la lleva activa la mochila, empieza a esparcir gas tóxico y sigue durante varios segundos, hasta que se le acaban los reactivos.\n\nEl gas tóxico quema los pulmones y los ojos, y causa falta de aliento y pérdida de visión temporales. La exposición continua al gas tóxico provoca acumulación tóxica, que puede ser letal.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ThingDef[defName="WasteRat"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: left claw -->
-            <label>TODO</label>
+            <label>garra izquierda</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ThingDef[defName="WasteRat"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: right claw -->
-            <label>TODO</label>
+            <label>garra derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/ThingDef[defName="WasteRat"]/tools/li[4]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -44,7 +44,7 @@
           <xpath>/Defs/ThingDef[defName="Toxalope"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -52,7 +52,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Tunneler"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: left power claw -->
-            <label>TODO</label>
+            <label>garra potenciada izquierda</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -60,7 +60,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Tunneler"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: right power claw -->
-            <label>TODO</label>
+            <label>garra potenciada derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -68,7 +68,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Constructoid"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: torso -->
-            <label>TODO</label>
+            <label>torso</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -76,7 +76,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Agrihand"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: right blade -->
-            <label>TODO</label>
+            <label>cuchilla derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -84,7 +84,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Agrihand"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: right blade -->
-            <label>TODO</label>
+            <label>cuchilla derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -92,7 +92,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Scorcher"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: front left leg -->
-            <label>TODO</label>
+            <label>pierna delantera izquierda</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -100,7 +100,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Scorcher"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: front right leg -->
-            <label>TODO</label>
+            <label>pierna delantera derecha</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -108,7 +108,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Scorcher"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -116,7 +116,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Apocriton"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -124,7 +124,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Centurion"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -132,7 +132,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Warqueen"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -140,7 +140,7 @@
           <xpath>/Defs/ThingDef[defName="Mech_Diabolus"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -148,7 +148,7 @@
           <xpath>/Defs/CombatExtended.AmmoDef[defName="Weapon_GrenadeTox"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: Body -->
-            <label>TODO</label>
+            <label>cuerpo</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -156,7 +156,7 @@
           <xpath>/Defs/CombatExtended.AmmoDef[defName="Weapon_GrenadeTox"]/label</xpath>
           <value>
             <!-- EN: tox grenade -->
-            <label>TODO</label>
+            <label>granada tóxica</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -164,7 +164,7 @@
           <xpath>/Defs/ThingDef[defName="Gun_HellsphereCannon"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -172,7 +172,7 @@
           <xpath>/Defs/ThingDef[defName="Gun_Slugthrower"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -180,7 +180,7 @@
           <xpath>/Defs/ThingDef[defName="Gun_BeamGraser"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -188,7 +188,7 @@
           <xpath>/Defs/ThingDef[defName="Gun_ToxicNeedle"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
       </operations>

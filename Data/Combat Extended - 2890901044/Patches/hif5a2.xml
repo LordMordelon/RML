@@ -12,7 +12,7 @@
           <xpath>/Defs/GeneDef[defName="AG_FungalSkin"]/customEffectDescriptions/li[1]</xpath>
           <value>
             <!-- EN: +3/5 blunt/sharp natural armour. +25% injury healing factor. -->
-            <li>TODO</li>
+            <li>+3/5 de armadura natural contundente/cortante. +25% de factor de curación de heridas.</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/GeneDef[defName="AG_FungalSkin"]/customEffectDescriptions/li[2]</xpath>
           <value>
             <!-- EN: Fires will cause permanent wounds. -->
-            <li>TODO</li>
+            <li>El fuego causará heridas permanentes.</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/GeneDef[defName="AG_ArmourMinor"]/customEffectDescriptions/li[1]</xpath>
           <value>
             <!-- EN: +1/2 blunt/sharp natural armour. -->
-            <li>TODO</li>
+            <li>+1/2 de armadura natural contundente/cortante.</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/GeneDef[defName="AG_ArmourMedium"]/customEffectDescriptions/li[1]</xpath>
           <value>
             <!-- EN: +2/3.75 blunt/sharp natural armour. -->
-            <li>TODO</li>
+            <li>+2/3.75 de armadura natural contundente/cortante.</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -44,7 +44,7 @@
           <xpath>/Defs/GeneDef[defName="AG_ArmourMajor"]/customEffectDescriptions/li[1]</xpath>
           <value>
             <!-- EN: +2.5/5 blunt/sharp natural armour. -->
-            <li>TODO</li>
+            <li>+2.5/5 de armadura natural contundente/cortante.</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -52,7 +52,7 @@
           <xpath>/Defs/HediffDef[defName="AG_HornAttack"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: horn -->
-            <label>TODO</label>
+            <label>cuerno</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -60,7 +60,7 @@
           <xpath>/Defs/HediffDef[defName="AG_ChainsawHands"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: chainsaw -->
-            <label>TODO</label>
+            <label>motosierra</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -68,7 +68,7 @@
           <xpath>/Defs/HediffDef[defName="AG_ScytherHands"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: scyther blade -->
-            <label>TODO</label>
+            <label>cuchilla de segador</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -76,7 +76,7 @@
           <xpath>/Defs/HediffDef[defName="AG_ClawedHands"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: clawed hand -->
-            <label>TODO</label>
+            <label>mano con garras</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -84,7 +84,7 @@
           <xpath>/Defs/HediffDef[defName="AG_CrabClaw"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: claw -->
-            <label>TODO</label>
+            <label>garra</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -92,7 +92,7 @@
           <xpath>/Defs/HediffDef[defName="AG_VenomFangs"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: venom fangs -->
-            <label>TODO</label>
+            <label>colmillos venenosos</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -100,7 +100,7 @@
           <xpath>/Defs/HediffDef[defName="AG_AcidFangs"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: acid fangs -->
-            <label>TODO</label>
+            <label>colmillos ácidos</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -108,7 +108,7 @@
           <xpath>/Defs/HediffDef[defName="AG_SlowerAcidFangs"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: acid fangs -->
-            <label>TODO</label>
+            <label>colmillos ácidos</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -116,7 +116,7 @@
           <xpath>/Defs/HediffDef[defName="AG_VFEI_VenomGland"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: venom gland -->
-            <label>TODO</label>
+            <label>glándula de veneno</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -124,7 +124,7 @@
           <xpath>/Defs/HediffDef[defName="AG_VFEI_PneumaticClaw"]/comps/li[1]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: claw -->
-            <label>TODO</label>
+            <label>garra</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -132,7 +132,7 @@
           <xpath>/Defs/ThingDef[defName="AG_Bullet_HydraBlast"]/label</xpath>
           <value>
             <!-- EN: Hydra Blast -->
-            <label>TODO</label>
+            <label>ráfaga de hidra</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -140,7 +140,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenLongBlade"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: handle -->
-            <label>TODO</label>
+            <label>mango</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -148,7 +148,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenLongBlade"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: point -->
-            <label>TODO</label>
+            <label>punta</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -156,7 +156,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenLongBlade"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: edge -->
-            <label>TODO</label>
+            <label>filo</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -164,7 +164,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: shaft -->
-            <label>TODO</label>
+            <label>astil</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -172,7 +172,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: point -->
-            <label>TODO</label>
+            <label>punta</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -180,7 +180,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: edge -->
-            <label>TODO</label>
+            <label>filo</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -188,7 +188,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBulkSword"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: handle -->
-            <label>TODO</label>
+            <label>mango</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -196,7 +196,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBulkSword"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: point -->
-            <label>TODO</label>
+            <label>punta</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -204,7 +204,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenBulkSword"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: edge -->
-            <label>TODO</label>
+            <label>filo</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -212,7 +212,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSpear"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: shaft -->
-            <label>TODO</label>
+            <label>astil</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -220,7 +220,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSpear"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: shaft -->
-            <label>TODO</label>
+            <label>astil</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -228,7 +228,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSpear"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: head -->
-            <label>TODO</label>
+            <label>cabeza</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -236,7 +236,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSniper"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: stock -->
-            <label>TODO</label>
+            <label>culata</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -244,7 +244,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSniper"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -252,7 +252,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenSniper"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -260,7 +260,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenShotgun"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: stock -->
-            <label>TODO</label>
+            <label>culata</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -268,7 +268,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenShotgun"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -276,7 +276,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenShotgun"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -284,7 +284,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenAssaultRifle"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: stock -->
-            <label>TODO</label>
+            <label>culata</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -292,7 +292,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenAssaultRifle"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -300,7 +300,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenAssaultRifle"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -308,7 +308,7 @@
           <xpath>/Defs/ThingDef[defName="AG_ForsakenHydra"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
       </operations>
@@ -330,7 +330,7 @@
             <xpath>/Defs/ThingDef[defName="AG_OcularSlinger"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: left pincer -->
-              <label>TODO</label>
+              <label>pinza izquierda</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -338,7 +338,7 @@
             <xpath>/Defs/ThingDef[defName="AG_OcularSlinger"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right pincer -->
-              <label>TODO</label>
+              <label>pinza derecha</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -346,7 +346,7 @@
             <xpath>/Defs/ThingDef[defName="AG_OcularSlinger"]/tools/li[4]/label</xpath>
             <value>
               <!-- EN: head -->
-              <label>TODO</label>
+              <label>cabeza</label>
             </value>
           </li>
         </operations>
@@ -369,7 +369,7 @@
             <xpath>/Defs/HediffDef[defName="AG_PlaguedClaws_Hands"]/comps/li[1]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: plagued claw -->
-              <label>TODO</label>
+              <label>garra pestilente</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -377,7 +377,7 @@
             <xpath>/Defs/HediffDef[defName="AG_GreaterToughspikes"]/comps/li[1]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: greater toughspikes -->
-              <label>TODO</label>
+              <label>púas duras mayores</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -385,7 +385,7 @@
             <xpath>/Defs/HediffDef[defName="AG_GreaterToughspikes"]/comps/li[1]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: greater toughspikes -->
-              <label>TODO</label>
+              <label>púas duras mayores</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -393,7 +393,7 @@
             <xpath>/Defs/HediffDef[defName="AG_GreaterFleshWhip"]/comps/li[1]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: greater flesh whip -->
-              <label>TODO</label>
+              <label>látigo de carne mayor</label>
             </value>
           </li>
         </operations>

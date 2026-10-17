@@ -12,7 +12,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_Shield_Crypto"]/label</xpath>
           <value>
             <!-- EN: crypto shield -->
-            <label>TODO</label>
+            <label>escudo criogénico</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_Shield_Crypto"]/description</xpath>
           <value>
             <!-- EN: A stabilized crypto-tech field wrapped around an advanced frame, capable of slowing the speed of the atoms of incoming projectiles to a halt. Does nothing to protect against heat and blunt trauma. -->
-            <description>TODO</description>
+            <description>Un campo criogénico estabilizado alrededor de un armazón avanzado, capaz de frenar en seco los átomos de los proyectiles que llegan. No protege contra el calor ni los traumatismos contundentes.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoPistol"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: grip -->
-            <label>TODO</label>
+            <label>empuñadura</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoPistol"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -44,7 +44,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: stock -->
-            <label>TODO</label>
+            <label>culata</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -52,7 +52,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -60,7 +60,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoRifle"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -68,7 +68,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[1]/label</xpath>
           <value>
             <!-- EN: stock -->
-            <label>TODO</label>
+            <label>culata</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -76,7 +76,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[2]/label</xpath>
           <value>
             <!-- EN: barrel -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -84,7 +84,7 @@
           <xpath>/Defs/ThingDef[defName="VFEV_CryptoShotGun"]/tools/li[3]/label</xpath>
           <value>
             <!-- EN: muzzle -->
-            <label>TODO</label>
+            <label>boca del cañón</label>
           </value>
         </li>
       </operations>
@@ -106,7 +106,7 @@
             <xpath>/Defs/ThingDef[defName="VFEP_WarcasketGun_CryptoCannon"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
         </operations>
