@@ -78,6 +78,24 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | turret | torreta | oficial | |
 | mortar | mortero | oficial | |
 | artillery | artillería | propuesta | |
+| manned turret / auto-turret | torreta manual / torreta automática | propuesta | |
+| spotter (artillery) | observador | propuesta | |
+| binoculars | binoculares | propuesta | |
+| embrasure | aspillera | propuesta | |
+| loading bench | mesa de recarga | propuesta | Donde se fabrica la munición |
+| machining table | mesa de maquinado | oficial | |
+| sandbags | bolsas de arena | oficial | NO «sacos de arena» |
+| firefoam | espuma cortafuego | oficial | |
+| boomrat / boomalope | bumarata / bumalope | oficial | |
+| FSX | FSX | propuesta | El explosivo del mod; no se traduce |
+| Prometheum | prometio | propuesta | En minúscula en medio de frase, como «quimbustible» |
+| blazebulb | bulbo ígneo | propuesta | La planta del prometio |
+| archonanites | arqueonanitas | propuesta | Como «arqueotéc» |
+| taser | táser | propuesta | |
+| flashbang | granada aturdidora | propuesta | |
+| combat frenzy | furia de combate | propuesta | Estado mental |
+| shell-shock | neurosis de guerra | propuesta | Estado mental |
+| preset (patcher) | preajuste | propuesta | «preajuste: casco» |
 
 ## 2. Estadísticas
 
@@ -112,6 +130,20 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | muzzle flash | fogonazo | propuesta | |
 | deterioration | deterioro | oficial | |
 | work to make | cantidad de trabajo | oficial | |
+| Armor - Electric | Armadura - Eléctrica | propuesta | |
+| aiming accuracy | precisión de puntería | propuesta | Distinta de *shooting accuracy*, «precisión de disparo» |
+| lead / lead error | anticipación / error de anticipación | propuesta | Apuntar delante de un blanco que se mueve |
+| range error | error de distancia | propuesta | |
+| fire rate | cadencia de fuego | propuesta | |
+| toughness (weapon) | dureza | propuesta | |
+| weapon handling | manejo de armas | propuesta | |
+| night vision | visión nocturna | propuesta | |
+| suppressability | susceptibilidad a la supresión | propuesta | |
+| carry weight / bulk capacity | capacidad de peso / capacidad de volumen | propuesta | |
+| worn bulk | volumen puesto | propuesta | |
+
+Los mensajes de muerte de `DamageDef` concuerdan en género como los oficiales:
+`{0} ha muerto quemad{0_gender ? o : a}.`
 
 ## 3. Munición: sustantivos
 
@@ -225,6 +257,8 @@ Son las etiquetas de los ataques cuerpo a cuerpo (`tools`), casi todas en `Patch
 | fist | puño | propuesta |
 | muzzle | boca del cañón | propuesta |
 | drill | taladro | propuesta |
+| blade (de arma) | hoja | propuesta |
+| leg (de insecto) | pata | oficial («pata delantera izquierda»); los cuadrúpedos tienen «pierna» |
 
 ## 8. Armas y equipo del juego base
 

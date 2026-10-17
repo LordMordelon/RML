@@ -80,6 +80,9 @@ juego base y los DLC.
 - **`Strings/NameBanks`** son `.txt`, una frase por línea. El extractor tiene un error conocido
   con las líneas en blanco en estos archivos: no dejar líneas vacías al traducirlos.
 - **`EMP` se traduce `PEM`**, aunque el resto de las siglas de munición se queden en inglés.
+- **Los nombres de `GunPatcherPresetDef` quedan en inglés** (`m16a1`, `pistol`, `machine gun`…).
+  El parcheo automático los usa para reconocer armas de otros mods por su nombre: traducirlos
+  podría hacer que dejara de reconocerlas.
 
 ## Recetas por script
 
@@ -109,7 +112,7 @@ El script vive en el scratchpad de la sesión, no en el repo: es de un solo uso.
 | # | Etapa | Estado |
 |---|---|---|
 | 0 | Rama y carpeta en RML | hecha (17-oct-2026) |
-| 1 | Interfaz y reglas | en curso: `Keyed` hecha (531). Faltan `StatDef`, `ConceptDef`, `TipSetDef`, `DamageDef` y las chicas (~480) |
+| 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | pendiente |
 | 2 | Vocabulario de munición | pendiente |
 | 3 | Munición y proyectiles | pendiente |
