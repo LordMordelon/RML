@@ -57,6 +57,24 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | tactical vest | chaleco táctico | propuesta | |
 | webbing | arnés táctico | propuesta | |
 | backpack | mochila | propuesta | |
+| outfit / apparel policy | vestuario / política de vestuario | oficial | |
+| drug policy | política de drogas | oficial | |
+| drafted | reclutado | oficial | «Reclutar» es el botón de combate |
+| raid / raider | asalto / asaltante | oficial | NO «incursión» |
+| drop pod | cápsula de escape | oficial | |
+| learning helper | asistente de aprendizaje | oficial | |
+| tile / cell | casilla | propuesta | «casilla del mundo» para el mapa del mundo |
+| pawn | personaje | propuesta | En textos de ayuda; si es un colono, «colono» |
+| attachment | accesorio | propuesta | Mira, boca del cañón, culata, bajo el cañón |
+| autoloader | cargador automático | propuesta | |
+| arc of fire | arco de fuego | propuesta | |
+| cook-off | detonación por calor | propuesta | |
+| autopatcher | parcheo automático | propuesta | |
+| unpatched | sin adaptar | propuesta | «No adaptada a CE» |
+| block (melee) | parar el golpe | propuesta | Distinto de *parry*, que es «bloqueo» |
+| riposte | contraataque | propuesta | |
+| counter shelling | contrabatería | propuesta | |
+| CIWS | CIWS | propuesta | Sigla en inglés; en la ayuda, «sistema de defensa de corto alcance» |
 | turret | torreta | oficial | |
 | mortar | mortero | oficial | |
 | artillery | artillería | propuesta | |
@@ -86,7 +104,11 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | sway | oscilación | propuesta | |
 | sight efficiency | eficiencia de mira | propuesta | |
 | shot spread | dispersión del disparo | propuesta | |
-| range | alcance | propuesta | |
+| range | rango | oficial | «Rango», «multiplicador de rango» |
+| warmup | calentamiento | oficial | |
+| burst shot count | tiros por ráfaga | oficial | |
+| magazine size | capacidad del cargador | propuesta | |
+| encumbered | sobrecargado | propuesta | |
 | muzzle flash | fogonazo | propuesta | |
 | deterioration | deterioro | oficial | |
 | work to make | cantidad de trabajo | oficial | |

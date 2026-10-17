@@ -22,12 +22,23 @@ No todo pesa lo mismo:
 ## Dónde se trabaja
 
 **En la rama `combat-extended` de RML, y se publica entero al final.** Mientras falte, nada de
-Combat Extended llega a `master`, a GitHub ni al Workshop: RML no publica entradas en `TODO`, y
-la copia del juego las copiaría tal cual. Las acciones de GitHub corren solo en `master`, así que
-subir la rama como respaldo no publica nada (igual se pregunta antes).
+Combat Extended llega a `master`, a GitHub ni al Workshop. Las acciones de GitHub corren solo en
+`master`, así que subir la rama como respaldo no publica nada (igual se pregunta antes).
+
+**Qué hace el juego con un `TODO`.** `DefInjectionPackage.TryAddInjection` y
+`LoadedLanguage.LoadFromFile_Keyed` comparan el valor con `"TODO"` y lo saltan: en `DefInjected`
+y `Keyed` el jugador ve el inglés, no la palabra. Comprobado en el `Assembly-CSharp.dll` del
+juego el 17-oct-2026. Hay dos excepciones, donde «TODO» **sí** llega a la pantalla:
+
+- **`Patches/`**: un `PatchOperationReplace` pone su valor tal cual. Son las partes de armas y
+  ataques (866), que saldrían como «TODO» en el registro de combate.
+- **Listas** (`<li>TODO</li>`, 114): las reglas de daño de `RulePackDef` y listas de
+  `ResearchProjectDef`. Una lista se inyecta entera, sin revisar cada elemento.
+
+Por eso, si algún día se quiere publicar por etapas, esas dos tienen que estar traducidas antes.
 
 - **Para probar en partida:** con la rama puesta, `LoadFoldersBuilder -build` deja `output/` al
-  día y el juego carga lo traducido. Lo que falta se ve como «TODO»: es lo esperado.
+  día y el juego carga lo traducido. Lo que falta sale en inglés, salvo en esos dos casos.
 - **Para trabajar otros mods:** volver a `master` (`git switch master`) antes de abrir el
   extractor, que escribe en la rama que esté puesta. Al volver a `master` la carpeta de Combat
   Extended desaparece de `Data/` y reaparece al volver a la rama.
