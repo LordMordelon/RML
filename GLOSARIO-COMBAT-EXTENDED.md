@@ -171,9 +171,11 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | crossbow bolt | virote | virotes | propuesta | |
 | bolt (plasma, bláster, láser) | descarga | descargas | propuesta | «descarga de plasma» |
 | pellet | perdigón | perdigones | propuesta | |
-| buckshot | postas | — | propuesta | |
+| buckshot | postas | — | propuesta | En el nombre del cartucho: «cartucho 12 Gauge (postas)» |
+| buckshot pellet | posta | postas | propuesta | El proyectil en vuelo |
 | birdshot | perdigones finos | — | propuesta | |
-| slug | bala de escopeta | balas de escopeta | propuesta | |
+| slug | bala de escopeta | balas de escopeta | propuesta | En el nombre del cartucho va «(bala)», porque «cartucho 12 Gauge» ya dice que es de escopeta. «EMP slug» es «bala de escopeta PEM» |
+| gauge shell | cartucho … Gauge | cartuchos … Gauge | propuesta | «12 gauge shell (Buck)» → «cartucho 12 Gauge (postas)». «Gauge» queda en inglés, como en los `AmmoSetDef` |
 | beanbag | saco de perdigones | sacos de perdigones | propuesta | El no letal de escopeta |
 | dart | dardo | dardos | propuesta | |
 | javelin | jabalina | jabalinas | propuesta | |
@@ -233,7 +235,7 @@ propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `M
 | — | tibanna | tibanna | propuesta: masculino, «tibanna presurizado» |
 | — | incendiary | incendiario/a | oficial |
 | — | fragmentation / frag | fragmentario/a | oficial («granadas fragmentarias») |
-| — | smoke | de humo | oficial |
+| — | smoke | de humo | oficial; entre paréntesis, solo «humo»: «bala 30x113mmB (humo)» |
 | — | thermobaric | termobárico/a | propuesta |
 | — | tear gas | gas lacrimógeno | propuesta |
 | — | toxic | tóxico/a | propuesta |
@@ -342,8 +344,8 @@ Combat Extended los nombra en sus descripciones. Se usan los nombres oficiales:
 
 ## 9. Descripciones de munición
 
-Lo que se repite en las descripciones de cartuchos y balas. Las fijó la etapa 3, con pistola y
-fusil.
+Lo que se repite en las descripciones de cartuchos y balas. Las fijó la etapa 3: pistola y fusil
+primero, escopeta y alto calibre después.
 
 | Inglés | Español | Origen |
 |---|---|---|
@@ -369,3 +371,12 @@ fusil.
 | big game / medium game hunting | caza mayor / cazar animales medianos | propuesta |
 | casing | vaina | propuesta |
 | light (peso) | liviano | propuesta |
+| autocannon | cañón automático | oficial («torreta de cañón automática») |
+| anti-materiel rifle | fusil antimaterial | propuesta |
+| anti-tank rifle / AT rifle | fusil antitanque | propuesta |
+| heavy machine gun | ametralladora pesada | propuesta |
+| sniper rifle | fusil de francotirador | oficial |
+| sporting cartridge | cartucho deportivo | propuesta |
+| wildcat cartridge | cartucho artesanal | propuesta |
+| smoothbore | de ánima lisa | propuesta |
+| riot control | control de disturbios | propuesta |

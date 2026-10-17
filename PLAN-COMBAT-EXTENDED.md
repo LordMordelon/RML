@@ -155,6 +155,13 @@ munición y los proyectiles de la etapa 3. Se estrenó con pistola y fusil (`Def
 Para las familias que siguen vale lo mismo, pero con una tabla de descripciones nueva que Angel
 revisa antes de escribir.
 
+Escopeta y alto calibre (`Defs/Ammo/Shotgun` y `Defs/Ammo/HighCaliber`) sumaron reglas de nombres,
+que Angel aprobó y están en el glosario (secciones 3, 4 y 9): el cartucho es `cartucho 12 Gauge
+(postas|bala|saco de perdigones|PEM)`, y los proyectiles de escopeta, que no traen calibre, van con
+una tabla fija («posta», «bala de escopeta», «saco de perdigones», «bala de escopeta PEM»). Tipos
+nuevos: `EMP` → «PEM», `Smoke` → «humo», `HE Time-Fuzed` → «HE de espoleta de tiempo». 344 nombres
+por script, ninguno a mano, y 21 textos para 168 descripciones.
+
 ## Avance
 
 | # | Etapa | Estado |
@@ -163,37 +170,38 @@ revisa antes de escribir.
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
-| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó |
+| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** seguir la etapa 3 con la munición de escopeta y la de alto calibre.
+**Objetivo:** seguir la etapa 3 con las granadas y los cohetes y, si alcanza, la artillería.
 
-**Estado:** pistola y fusil hechos en la rama `combat-extended` (último commit `9d7a180`, sin subir):
-738 nombres y 324 descripciones. No queda nada a medias.
+**Estado:** pistola, fusil, escopeta y alto calibre hechos en la rama `combat-extended` (último
+commit de traducción `985aeb1`, sin subir): 1.082 nombres y 492 descripciones. No queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un cargador de pistola y
-   uno de fusil: el nombre y la descripción. Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un cartucho de escopeta y
+   uno de alto calibre (por ejemplo, `.50 BMG`): el nombre y la descripción. Anotar lo que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
    avisarlo al empezar.
 
-**Al empezar (Claude):** seguir «Munición por script». Contadas el 17-oct-2026, las entradas en
-`TODO` de `DefInjected/ThingDef/c1b3s1.xml` por carpeta de `Defs/Ammo` del mod instalado son:
-`HighCaliber` 432, `Shell` 270, `Modded` 199, `Generic` 162, `Advanced` 158, `Grenade` 144,
-`Rocket` 144, `Shotgun` 80, `Medieval` 48, `Neolithic` 46, `Other` 21. Para esta sesión,
-`Shotgun` y `HighCaliber` (512). Primero los nombres por script; después la tabla de descripciones,
-que Angel revisa antes de escribirla. Escopeta tiene sustantivos propios en el glosario (sección 3:
-postas, bala de escopeta, saco de perdigones), así que sus nombres pueden necesitar reglas nuevas.
+**Al empezar (Claude):** seguir «Munición por script». Quedan en `TODO`, contadas el 17-oct-2026 por
+carpeta de `Defs/Ammo`: `Shell` 270, `Modded` 199, `Generic` 162, `Advanced` 158, `Grenade` 144,
+`Rocket` 144, `Medieval` 48, `Neolithic` 46, `Other` 21. Para esta sesión, `Grenade` y `Rocket`
+(288) y después `Shell` (270), que juntos dan 558: cabe justo en una sesión. Los scripts de la
+sesión anterior sirven de base (`listar.py`, `nombres2.py`, `desc2.py`, en el scratchpad de la sesión
+`379fd5b3`; si ya no están, se rehacen con las reglas de «Munición por script»). Granadas y cohetes
+traen nombres de modelos (`RPG-7`, `M72 LAW`) que quedan en inglés (glosario, sección 5), así que
+habrá formas nuevas que el script tiene que dejar en `TODO` si no las reconoce.
 
-**Decisiones de Angel:** ninguna pendiente. El script de munición ya está aprobado para toda la
-etapa 3, con tabla de descripciones revisada en cada familia.
+**Decisiones de Angel:** ninguna pendiente. Las reglas nuevas de nombres se le muestran junto con la
+tabla de descripciones, antes de escribir.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
 **Dónde leer:** este plan («Munición por script», etapas y «Cuidados»),
-[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3, 4, 6 y 9) y las tres
+[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3 a 6 y 9) y las tres
 comprobaciones de `AGENTS.md`.
