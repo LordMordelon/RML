@@ -123,6 +123,9 @@ ninguna. Por eso el script **no adivina nada**:
 
 El script vive en el scratchpad de la sesión, no en el repo: es de un solo uso.
 
+Resultado (17-oct-2026): 754 recetas del núcleo por script (2.262 entradas) y 152 a mano (456), con
+una tabla que Angel revisó antes de escribir. Las decisiones están en el glosario (sección 6).
+
 ## Partes de armas por script
 
 Segunda excepción a «A mano y directo», aprobada por Angel el 17-oct-2026 solo para las
@@ -203,37 +206,34 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
 | 3 | Munición y proyectiles | hecha (17-oct-2026). Pistola y fusil (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos); `Modded` (199) y el resto de `ThingDef` del núcleo (196, a mano) |
-| 4 | Recetas | pendiente |
+| 4 | Recetas | hecha (17-oct-2026): 754 recetas por script y 152 a mano, 2.718 entradas |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** etapa 4, las recetas del núcleo, llenadas por script con las reglas de «Recetas por script».
+**Objetivo:** etapa 5, el resto del núcleo. Con ella Combat Extended queda completo para quien lo juega solo con
+el juego base y los DLC.
 
-**Estado:** etapa 3 cerrada en la rama `combat-extended` (últimos commits de traducción `c3bedae` y
-`6a3aa21`, sin subir): ya no queda ningún `TODO` del núcleo en `DefInjected/ThingDef`. No queda nada a
-medias.
+**Estado:** etapa 4 cerrada en la rama `combat-extended` (commits `9759f94` y `827bc80`, sin subir): ya no queda
+ningún `TODO` en las recetas del núcleo. No queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un arma de Halo o de Warhammer,
-   si tienes alguno de esos mods, y lo de esta tanda: la mesa de recarga, la mochila, la máscara antigás y
-   una granada de contusión. Anotar lo que se lea raro.
-2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
-   avisarlo al empezar.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida el menú de la mesa de munición: que las
+   recetas se lean bien («fabricar cartucho 5.56x45mm NATO (FMJ) x500»). Anotar lo que se lea raro.
+2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y avisarlo al
+   empezar.
 
-**Al empezar (Claude):** en `DefInjected/RecipeDef` quedan **906 recetas del núcleo en `TODO`, con 2.718
-textos** (`label`, `description` y `jobString` de cada una), contadas el 17-oct-2026 por `defName` presente
-fuera de `ModPatches/`. Las otras 618 recetas son de compatibilidad (etapa 6). El script sigue las cinco
-reglas de «Recetas por script»: el nombre sale del producto del def instalado y de su `label` ya traducida,
-solo llena si el inglés coincide letra por letra con la plantilla y el plural sale del glosario (sección 3).
-Las recetas que no casen (granadas, torretas, accesorios) quedan para hacerlas a mano. Probablemente cabe en
-una sesión (es una estimación). Antes del commit, el informe del script y una muestra de cada redacción.
+**Al empezar (Claude):** quedan **183 entradas del núcleo en `TODO`**, contadas el 17-oct-2026 por `defName`
+presente fuera de `ModPatches/`: `HediffDef` 147, `ResearchProjectDef` 18, `LaserBeamDefCE` 11, `WorldObjectDef` 4
+y `PawnKindDef` 3. `RulePackDef` ya no tiene ninguna. Además, `Strings/NameBanks` tiene **132 frases en inglés**
+(`SwearLibrary.txt` 77 y `SwearLibrarySuppressed.txt` 55): los gritos de combate, que no son `TODO` y hoy se ven en
+inglés. Todo a mano; cabe en una sesión (estimación). Sin líneas en blanco en los `.txt` (ver «Cuidados»).
 
-**Decisiones de Angel:** ninguna pendiente. El informe y la muestra se le muestran antes del commit.
+**Decisiones de Angel:** el tono de los gritos de combate. Recomendación: fieles al original (son bravuconadas de
+soldado), en español neutro y sin regionalismos. Se le muestra una muestra antes de escribirlos todos.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
-**Dónde leer:** este plan («Recetas por script», etapas y «Cuidados»),
-[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3 y 6) y las tres comprobaciones
-de `AGENTS.md`.
+**Dónde leer:** este plan (etapas y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
+(secciones 1 y 2) y las tres comprobaciones de `AGENTS.md`.

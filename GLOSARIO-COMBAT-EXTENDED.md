@@ -329,6 +329,23 @@ singular, como `preparar té de psiquita x4` del juego:
 | `description` | Craft 200 .50 BMG (FMJ) cartridges. | Fabrica 200 cartuchos .50 BMG (FMJ). |
 | `jobString` | Making .500 S&amp;W Magnum (HP) cartridges. | Fabricando cartuchos .500 S&amp;W Magnum (HP). |
 
+Lo que se decidió al traducir las recetas del núcleo (aprobado por Angel el 17-oct-2026):
+
+- **El nombre sale del producto**, no del texto de la receta: «make 90mm (HE) cannon shells x5» es
+  «fabricar obús de cañón 90mm (HE) x5», como la munición. Si el producto no trae sustantivo
+  («5.56x45mm NATO (FMJ)»), va el de la receta: «cartucho» o «cohete».
+- **La cantidad es la que da el def.** Si el inglés dice otra («.460 S&amp;W Magnum … x460» y da 500),
+  va la real. Excepción: la receta 120mm *Airburst* da el obús HE común por un error del mod, y se
+  traduce «(detonación aérea)», lo que dice, para que no queden dos recetas con el mismo nombre.
+- **De a uno**, con artículo y en singular, como el juego: «Fabrica un obús de obusero 152mm (PEM).»
+  / «Fabricando obús de obusero 152mm (PEM).»
+- **El adjetivo también va en plural**: «flechas grandes incendiarias», «paquetes de carga láser
+  pesados». Lo que está entre paréntesis no cambia: «células de combustible 30x64mm (incendiaria)».
+- **Sin plural**, con «unidades»: «Fabrica 100 unidades de quimbustible gelificado.», «sintetizar FSX
+  x7». Los perdigones de trabuco van por cargas: «Fabrica 100 cargas de perdigones de trabuco.»
+- **Las granadas del juego base llevan su nombre oficial**: «granada fragmentaria», «granada PEM»,
+  «cóctel molotov» y «granada tóxica» (Biotech).
+
 ## 7. Partes de armas y ataques
 
 Son las etiquetas de los ataques cuerpo a cuerpo (`tools`), casi todas en `Patches/`.
