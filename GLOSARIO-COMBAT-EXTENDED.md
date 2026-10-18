@@ -117,6 +117,18 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | grenade pin | anilla de granada | propuesta | |
 | spent casings | vainas usadas | propuesta | El residuo que dejan los disparos |
 | psycho | psicho | Angel | La droga de psiquita del mod: «subidón de psicho», «bajón de psicho» |
+| mercenary machine gunner | mercenario ametrallador | propuesta | Como el oficial «mercenario artillero» |
+| boomer / thunderer (tribal) | bombardero / tronador | propuesta | Los tribales con granadas y con armas de pólvora |
+| charge blaster | bláster de cargas | oficial | «torretas de bláster de cargas» |
+| neuralizer | neuralizador | propuesta | El pulso no letal que aturde |
+| tranquilizer (dart) | (dardo) tranquilizante | propuesta | |
+| beanbag bruise / crack | hematoma / fractura por saco de perdigones | propuesta | |
+| smoke inhalation | inhalación de humo | propuesta | |
+| venom buildup | acumulación de veneno | propuesta | Como la oficial «acumulación tóxica», con sus mismas fases |
+| laser / plasma / melta beam | rayo láser / rayo de plasma / rayo melta | propuesta | |
+| muzzle loading | de avancarga | propuesta | |
+| reflex sight | mira réflex | propuesta | |
+| optoelectronics | optoelectrónica | propuesta | |
 
 ## 2. Estadísticas
 
@@ -165,6 +177,16 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 
 Los mensajes de muerte de `DamageDef` concuerdan en género como los oficiales:
 `{0} ha muerto quemad{0_gender ? o : a}.`
+
+Las heridas de `HediffDef` copian las del juego (`Hediffs_Local_Injuries`): el `labelNounPretty` es
+`el {0} en {1_gender ? el : la} {1}` o `la {0}…` según el género de la herida, y «vendado», «suturado»
+y «estabilizado» concuerdan con ella. Las partes perdidas usan las mismas fórmulas: «Arrancado(a)»,
+«Quemado(a)», «Seccionado(a)».
+
+Los gritos de combate de `Strings/NameBanks` (decisión de Angel, 18-oct-2026): fieles al original,
+bravuconadas incluidas, con las groserías un grado más suaves y sin regionalismos («desgraciado»,
+«imbécil», «porquerías», «rayos»). Las citas de películas quedan reconocibles: «¡Hasta la vista,
+baby!», «¡Saluda a mi pequeño amigo!».
 
 ## 3. Munición: sustantivos
 

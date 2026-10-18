@@ -207,33 +207,38 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
 | 3 | Munición y proyectiles | hecha (17-oct-2026). Pistola y fusil (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos); `Modded` (199) y el resto de `ThingDef` del núcleo (196, a mano) |
 | 4 | Recetas | hecha (17-oct-2026): 754 recetas por script y 152 a mano, 2.718 entradas |
-| 5 | Resto del núcleo | pendiente |
+| 5 | Resto del núcleo | hecha (18-oct-2026): `HediffDef` (147), `ResearchProjectDef` (18), `LaserBeamDefCE` (11), `WorldObjectDef` (4) y `PawnKindDef` (3), todo a mano, más los 132 gritos de combate de `Strings/NameBanks` con el tono que eligió Angel. Combat Extended queda completo para quien juega solo con el juego base y los DLC |
 | 6 | Compatibilidad | pendiente |
 
-## Próxima sesión (17-oct-2026)
+## Próxima sesión (18-oct-2026)
 
-**Objetivo:** etapa 5, el resto del núcleo. Con ella Combat Extended queda completo para quien lo juega solo con
-el juego base y los DLC.
+**Objetivo:** etapa 6, primera tanda: la compatibilidad con los mods que RML ya traduce.
 
-**Estado:** etapa 4 cerrada en la rama `combat-extended` (commits `9759f94` y `827bc80`, sin subir): ya no queda
-ningún `TODO` en las recetas del núcleo. No queda nada a medias.
+**Estado:** etapa 5 cerrada en la rama `combat-extended` (commits `2eccd5e`, `6b87a8a` y `fa77bf8`, sin subir; la
+rama tiene 43 commits que `master` no tiene). El núcleo no tiene ningún `TODO`, y tampoco `Keyed` ni `Patches/`. No
+queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida el menú de la mesa de munición: que las
-   recetas se lean bien («fabricar cartucho 5.56x45mm NATO (FMJ) x500»). Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida: la pestaña de salud de un colono herido
+   (heridas, «subidón de psicho»), los gritos de combate durante un asalto y la pestaña de investigación. Anotar lo
+   que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y avisarlo al
    empezar.
 
-**Al empezar (Claude):** quedan **183 entradas del núcleo en `TODO`**, contadas el 17-oct-2026 por `defName`
-presente fuera de `ModPatches/`: `HediffDef` 147, `ResearchProjectDef` 18, `LaserBeamDefCE` 11, `WorldObjectDef` 4
-y `PawnKindDef` 3. `RulePackDef` ya no tiene ninguna. Además, `Strings/NameBanks` tiene **132 frases en inglés**
-(`SwearLibrary.txt` 77 y `SwearLibrarySuppressed.txt` 55): los gritos de combate, que no son `TODO` y hoy se ven en
-inglés. Todo a mano; cabe en una sesión (estimación). Sin líneas en blanco en los `.txt` (ver «Cuidados»).
+**Al empezar (Claude):** quedan **5.523 entradas en `TODO`**, todas de `ModPatches/` (contadas el 18-oct-2026). De
+esas, unas **354 son de 24 mods que RML ya traduce**: Vanilla Factions Expanded - Pirates 62, Impact Weaponry 43,
+Spacer Arsenal 41, Vanilla Weapons Expanded - Non-Lethal 33, VWE - Laser 22, VFE - Empire 22, VQE - Deadlife 16,
+Integrated Implants 16, Volt Weaponry 13, VWE - Coilguns 12, VQE - Cryptoforge 10, Alpha Mechs 10, A Rimworld of
+Magic 10, y 11 mods más con 8 o menos. La cuenta cruza los `defName` de cada carpeta de `ModPatches/` del mod
+instalado con los `TODO`, y el cruce con RML es por nombre del mod, así que puede faltar alguno: repetirla al
+empezar. Cabe en una sesión (estimación). Antes de traducir cada mod, mirar cómo RML ya traduce sus armas en su
+propia carpeta de `Data/`, para que los nombres coincidan.
 
-**Decisiones de Angel:** el tono de los gritos de combate. Recomendación: fieles al original (son bravuconadas de
-soldado), en español neutro y sin regionalismos. Se le muestra una muestra antes de escribirlos todos.
+**Decisiones de Angel:** si se sube ya el núcleo, uniendo la rama a `master`. Recomendación: sí, porque ya sirve a
+todo el que juega Combat Extended con el juego base y los DLC, y la etapa 6 puede seguir en la rama después. El
+push publica una versión nueva de RML, así que lo decide Angel.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
-**Dónde leer:** este plan (etapas y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
-(secciones 1 y 2) y las tres comprobaciones de `AGENTS.md`.
+**Dónde leer:** este plan (etapa 6 y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
+(secciones 1, 7 y 8) y las tres comprobaciones de `AGENTS.md`.
