@@ -119,7 +119,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | psycho | psicho | Angel | La droga de psiquita del mod: «subidón de psicho», «bajón de psicho» |
 | mercenary machine gunner | mercenario ametrallador | propuesta | Como el oficial «mercenario artillero» |
 | boomer / thunderer (tribal) | bombardero / tronador | propuesta | Los tribales con granadas y con armas de pólvora |
-| charge blaster | bláster de cargas | oficial | «torretas de bláster de cargas» |
+| charge blaster | bláster de cargas | oficial | El arma de los mecanoides. La torreta de CE lleva el fusil de cargas: «torreta automática de cargas», «fusil de cargas de torreta» (Angel, 18-oct-2026) |
 | neuralizer | neuralizador | propuesta | El pulso no letal que aturde |
 | tranquilizer (dart) | (dardo) tranquilizante | propuesta | |
 | beanbag bruise / crack | hematoma / fractura por saco de perdigones | propuesta | |
@@ -241,7 +241,7 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | bomb | bomba | bombas | propuesta | |
 | warhead | ojiva | ojivas | oficial | «grandes ojivas incendiarias» |
 | sling bullet | bala de honda | balas de honda | propuesta | |
-| nerve spiker bolt | pincho nervioso | pinchos nerviosos | Angel | El arma (*nerve spiker*) es «pinchador de nervios», oficial de Anomaly, y su proyectil «pincha nervios» |
+| nerve spiker bolt | virote de bioferrita | virotes de bioferrita | Angel (18-oct-2026) | Es un virote pesado de bioferrita. El arma (*nerve spiker*) es «pinchador de nervios», oficial de Anomaly |
 | forsaken arrow | flecha de los Abandonados | flechas de los Abandonados | propuesta | Para el arco de los Forsaken (`AG_ForsakenBow`). «Abandonados», como «Los Abandonados» de Progression Scenarios |
 | ballista bolt | virote de balista | virotes de balista | propuesta | |
 | musket ball | bala de mosquete | balas de mosquete | propuesta | |
