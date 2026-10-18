@@ -116,6 +116,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | bomblet | submunición | propuesta | |
 | grenade pin | anilla de granada | propuesta | |
 | spent casings | vainas usadas | propuesta | El residuo que dejan los disparos |
+| psycho | psicho | Angel | La droga de psiquita del mod: «subidón de psicho», «bajón de psicho» |
 
 ## 2. Estadísticas
 

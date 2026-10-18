@@ -184,8 +184,8 @@ La munición de `Modded` (Halo y Warhammer 40k) volvió a ir por regla, con una 
 descripciones para 199 entradas. Angel aprobó tres reglas nuevas, que están en el glosario (secciones 3 y
 4): «cartucho .75 Cal Bolter (estándar)» y «proyectil .75 Cal Bolter (Kraken)» para el cartucho y el disparo,
 «antipersonal» y «cartucho Soellkraft 8 Gauge (postas)». Lo que no era munición (equipo, torretas, granadas,
-residuos, psycho: 196 entradas) se hizo a mano, con una lista revisada antes por Angel, que cambió dos términos
-(«mochila radio», «granada de contusión»).
+residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por Angel, que cambió tres términos
+(«mochila radio», «granada de contusión» y «psicho» por *psycho*).
 
 ## Avance
 
