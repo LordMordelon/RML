@@ -103,12 +103,19 @@ ninguna. Por eso el script **no adivina nada**:
 1. **No deduce el nombre del texto en inglés.** Lo saca del def de la receta en el mod
    instalado: qué produce (`products`) y cuántos. El nombre en español es la `label` ya
    traducida de ese producto, de la etapa 3.
-2. **Llena una entrada solo si el inglés coincide letra por letra** con la plantilla armada con la
-   `label` en inglés del producto y su cantidad. Si sobra o falta algo —otra redacción, otra
-   cantidad, un producto que no es munición, más de un producto— queda en `TODO` para hacerla
-   a mano.
-3. **El plural sale del glosario** (sección 3). Si la primera palabra del nombre no está en esa
-   tabla, la entrada queda en `TODO`.
+2. **Llena una receta solo si el inglés nombra al producto con sus mismas palabras**, en cualquier
+   orden, y con la cantidad exacta del def. Se pensó letra por letra, pero las recetas del mod
+   cambian el orden («make 90mm (HE) cannon shells x5» para el producto «90mm cannon shell (HE)») y
+   así quedaban 440 recetas a mano en vez de 152; Angel aprobó el cambio el 17-oct-2026. Como el
+   nombre en español sale del producto y no del texto, el orden del inglés no influye en el
+   resultado. A un producto sin sustantivo («5.56x45mm NATO (FMJ)») la receta solo le puede sumar
+   `cartridge` → «cartucho» o `rocket` → «cohete». Si sobra o falta algo —otra redacción, otra
+   cantidad, otra palabra, un producto que no es munición, más de un producto— queda en `TODO` para
+   hacerla a mano.
+3. **El plural sale del glosario** (sección 3), con el sustantivo más largo de la tabla que abra el
+   nombre («flecha grande de acero» → «flechas grandes de acero»). Si el nombre no empieza con uno
+   de esos sustantivos, o si detrás viene un adjetivo que también habría que poner en plural
+   («granada aturdidora»), la receta queda en `TODO`.
 4. **Solo toca `TODO`.** Nunca reemplaza un valor que ya tenga texto.
 5. **Termina con un informe:** cuántas llenó y cuántas dejó, agrupadas por motivo. Antes del
    commit se lee una muestra de cada redacción y cada cantidad, y se corren las tres
