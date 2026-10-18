@@ -117,7 +117,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | grenade pin | anilla de granada | propuesta | |
 | spent casings | vainas usadas | propuesta | El residuo que dejan los disparos |
 | psycho | psicho | Angel | La droga de psiquita del mod: «subidón de psicho», «bajón de psicho» |
-| melee shield / ballistic shield | escudo / escudo balístico | Angel (18-oct-2026) | «Cuerpo a cuerpo» sobra en el nombre: va en la descripción |
+| melee shield / ballistic shield | escudo simple / escudo balístico | Angel (18-oct-2026) | «Cuerpo a cuerpo» sobra en el nombre: va en la descripción |
 | mercenary machine gunner | mercenario ametrallador | propuesta | Como el oficial «mercenario artillero» |
 | boomer / thunderer (tribal) | bombardero / tronador | propuesta | Los tribales con granadas y con armas de pólvora |
 | charge blaster | bláster de cargas | oficial | El arma de los mecanoides. La torreta de CE lleva el fusil de cargas: «torreta automática de cargas», «fusil de cargas de torreta» (Angel, 18-oct-2026) |
