@@ -180,6 +180,13 @@ fusil iónico»), y el material de flechas y virotes también («virote de acero
 incendiaria»). Por eso las categorías «flecha de fuego» y «virote de fuego» de la etapa 2 pasaron a
 «incendiaria» e «incendiario».
 
+La munición de `Modded` (Halo y Warhammer 40k) volvió a ir por regla, con una tabla de 123 nombres y 18
+descripciones para 199 entradas. Angel aprobó tres reglas nuevas, que están en el glosario (secciones 3 y
+4): «cartucho .75 Cal Bolter (estándar)» y «proyectil .75 Cal Bolter (Kraken)» para el cartucho y el disparo,
+«antipersonal» y «cartucho Soellkraft 8 Gauge (postas)». Lo que no era munición (equipo, torretas, granadas,
+residuos, psycho: 196 entradas) se hizo a mano, con una lista revisada antes por Angel, que cambió dos términos
+(«mochila radio», «granada de contusión»).
+
 ## Avance
 
 | # | Etapa | Estado |
@@ -188,39 +195,38 @@ incendiaria»). Por eso las categorías «flecha de fuego» y «virote de fuego�
 | 1 | Interfaz y reglas | hecha (17-oct-2026): `Keyed` (531) y el resto (485) |
 | 1b | Lo que se ve como «TODO» | hecha (17-oct-2026): `Patches/` (866) y las listas `<li>` (114) |
 | 2 | Vocabulario de munición | hecha (17-oct-2026): `AmmoCategoryDef` (248), `ThingCategoryDef` (260) y `AmmoSetDef` (306) del núcleo. Antes de cerrarla se revisaron contra la traducción oficial los nombres de DLC que usa («bengala disruptora», «necrovita», «bioferrita», «gas tóxico», «ojiva antigrano»): coinciden |
-| 3 | Munición y proyectiles | en curso: pistola y fusil hechos (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos) |
+| 3 | Munición y proyectiles | hecha (17-oct-2026). Pistola y fusil (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos); `Modded` (199) y el resto de `ThingDef` del núcleo (196, a mano) |
 | 4 | Recetas | pendiente |
 | 5 | Resto del núcleo | pendiente |
 | 6 | Compatibilidad | pendiente |
 
 ## Próxima sesión (17-oct-2026)
 
-**Objetivo:** cerrar la etapa 3 con la munición de `Modded` y lo que queda de `ThingDef` del núcleo.
+**Objetivo:** etapa 4, las recetas del núcleo, llenadas por script con las reglas de «Recetas por script».
 
-**Estado:** toda la munición del núcleo hecha en la rama `combat-extended`, salvo `Modded` (último
-commit de traducción `817c3c6`, sin subir): esta tanda sumó 269 nombres y 166 descripciones. No queda
-nada a medias.
+**Estado:** etapa 3 cerrada en la rama `combat-extended` (últimos commits de traducción `c3bedae` y
+`6a3aa21`, sin subir): ya no queda ningún `TODO` del núcleo en `DefInjected/ThingDef`. No queda nada a
+medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida una flecha o un virote, y
-   un arma de carga (munición y bala): el nombre y la descripción. Anotar lo que se lea raro.
+1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida un arma de Halo o de Warhammer,
+   si tienes alguno de esos mods, y lo de esta tanda: la mesa de recarga, la mochila, la máscara antigás y
+   una granada de contusión. Anotar lo que se lea raro.
 2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y
    avisarlo al empezar.
 
-**Al empezar (Claude):** quedan 395 `TODO` del núcleo en `DefInjected/ThingDef`, contados el
-17-oct-2026 por carpeta del mod instalado: `Defs/Ammo/Modded` 199 (140 nombres, 59 descripciones; Halo
-y Warhammer 40k), `Defs/ThingDefs_Misc` 137, `ThingDefs_Buildings` 22, `ThingDefs_Items` 19,
-`Anomaly/Defs/Ammo` 6, `Defs/Ammo` suelta 4, `Defs/Drugs` 4, `Royalty` 2 y `ThingDefs_Plants` 2. Caben
-en una sesión. La munición va con tablas, como la tanda anterior (`listar.py` y `llenar4.py` en el
-scratchpad de la sesión `dd56fb32`; si ya no están, se rehacen con «Munición por script»). Lo que no
-es munición va a mano. Los nombres propios de Halo y Warhammer (`Spartan`, `Melta`, `Kraken`…) quedan
-en inglés (glosario, sección 4). Con eso se cierra la etapa 3 en «Avance».
+**Al empezar (Claude):** en `DefInjected/RecipeDef` quedan **906 recetas del núcleo en `TODO`, con 2.718
+textos** (`label`, `description` y `jobString` de cada una), contadas el 17-oct-2026 por `defName` presente
+fuera de `ModPatches/`. Las otras 618 recetas son de compatibilidad (etapa 6). El script sigue las cinco
+reglas de «Recetas por script»: el nombre sale del producto del def instalado y de su `label` ya traducida,
+solo llena si el inglés coincide letra por letra con la plantilla y el plural sale del glosario (sección 3).
+Las recetas que no casen (granadas, torretas, accesorios) quedan para hacerlas a mano. Probablemente cabe en
+una sesión (es una estimación). Antes del commit, el informe del script y una muestra de cada redacción.
 
-**Decisiones de Angel:** ninguna pendiente. Las tablas de nombres y descripciones se le muestran antes
-de escribir.
+**Decisiones de Angel:** ninguna pendiente. El informe y la muestra se le muestran antes del commit.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
-**Dónde leer:** este plan («Munición por script», etapas y «Cuidados»),
-[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3 a 6 y 9) y las tres
-comprobaciones de `AGENTS.md`.
+**Dónde leer:** este plan («Recetas por script», etapas y «Cuidados»),
+[GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md) (secciones 3 y 6) y las tres comprobaciones
+de `AGENTS.md`.

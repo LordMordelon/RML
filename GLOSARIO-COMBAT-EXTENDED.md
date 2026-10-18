@@ -103,6 +103,19 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | crypto (Vanilla Factions Expanded) | criogénico | propuesta | «bala criogénica», «escudo criogénico» |
 | wide bore | calibre ancho | propuesta | Rasgo de arma |
 | deadlife | necrovita | RML | Como en los mods de RML que ya lo traducen |
+| gunsmithing bench | mesa de armero | propuesta | Donde se fabrican los accesorios |
+| flak (turret, gun) | antiaéreo/a | propuesta | «torreta antiaérea de 90mm», «cañón antiaéreo» |
+| concussion grenade | granada de contusión | Angel | |
+| stick bomb | bomba de palo | propuesta | |
+| radio pack | mochila radio | Angel | |
+| powered exoframe | exoesqueleto motorizado | propuesta | |
+| plate helmet | yelmo de placas | propuesta | |
+| gas mask | máscara antigás | propuesta | |
+| night vision goggles / monocular | gafas / monocular de visión nocturna | propuesta | |
+| composite vest | chaleco de compuesto | propuesta | |
+| bomblet | submunición | propuesta | |
+| grenade pin | anilla de granada | propuesta | |
+| spent casings | vainas usadas | propuesta | El residuo que dejan los disparos |
 
 ## 2. Estadísticas
 
@@ -222,6 +235,9 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | Howitzer shell | obús de obusero | obuses de obusero | propuesta | «obús de obusero 105mm (humo)» |
 | recoilless cartridge / rocket | cartucho / cohete … sin retroceso | cartuchos / cohetes … sin retroceso | propuesta | «cartucho 90mm sin retroceso (CAN)» |
 | flechette | flechette | flechettes | Angel | El proyectil de la munición `CAN` y de la flechette avanzada. Queda en inglés |
+| bolter shell | cartucho … Bolter | cartuchos … Bolter | Angel | «cartucho .75 Cal Bolter (estándar)». «Bolter» queda en inglés, como en el `AmmoSetDef` |
+| bolt (bolter) | proyectil … Bolter | proyectiles … Bolter | Angel | El disparo en vuelo: «proyectil .75 Cal Bolter (Kraken)» |
+| Soellkraft 8 gauge shell | cartucho Soellkraft 8 Gauge | cartuchos Soellkraft 8 Gauge | Angel | Soellkraft es el fabricante: «cartucho Soellkraft 8 Gauge (postas)» |
 
 ## 4. Tipos de munición
 
@@ -277,6 +293,8 @@ propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `M
 | Frag, CAN | fragmentation, canister | Frag, CAN | propuesta: siglas, quedan igual entre paréntesis |
 | — | Anti (en el paréntesis) | antigrano | propuesta: «obús de mortero 81mm (antigrano)» |
 | — | foam | espuma | propuesta: como `FoamFuel` |
+| — | Anti-personnel | antipersonal | Angel: invariable, «cohete M41 (antipersonal)» |
+| — | Standard (bolter) | estándar | Angel: «cartucho .50 Cal Bolter (estándar)» |
 
 Entre paréntesis, un tipo escrito entero concuerda con el sustantivo: «granada RPG-32 (termobárica)»,
 «cohete 57mm (termobárico)».
