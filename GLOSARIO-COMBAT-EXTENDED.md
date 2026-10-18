@@ -112,7 +112,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | plate helmet | yelmo de placas | propuesta | |
 | gas mask | máscara antigás | propuesta | |
 | night vision goggles / monocular | gafas / monocular de visión nocturna | propuesta | |
-| composite vest | chaleco de compuesto | propuesta | |
+| composite vest | chaleco compuesto | Angel (18-oct-2026) | |
 | bomblet | submunición | propuesta | |
 | grenade pin | anilla de granada | propuesta | |
 | spent casings | vainas usadas | propuesta | El residuo que dejan los disparos |
