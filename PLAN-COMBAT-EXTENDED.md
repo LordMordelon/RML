@@ -94,8 +94,14 @@ juego base y los DLC.
   «munición para fusil de cargas bala ()» o «Antimaterial bala (FMJ)». Los 37 tipos sin `labelShort`
   dejan «()», también en inglés, y el orden no se arregla traduciendo. Además, 29 `genericLabel`, 8
   `genericDescription` y 1 `genericLabelOverride` viven en `modExtensions` y el extractor no los saca:
-  con la opción puesta se ven en inglés. Hay que ver si `DefInjected` llega a `modExtensions` y, si
-  llega, enseñarle al extractor a extraerlos. Sesión aparte, en el extractor (Angel, 18-oct-2026).
+  con la opción puesta se ven en inglés. **`DefInjected` sí llega a `modExtensions`**: probado en partida
+  el 18-oct-2026 con `Shell_Firefoam.modExtensions.0.genericLabel` = «obús de mortero (espuma)», que es
+  la única de las 38 puesta a mano. Falta enseñarle al extractor a extraer `genericLabel`,
+  `genericDescription` y `genericLabelOverride` (en los `.xml` de `Defs/Ammo/Shell/` de 60, 81 y
+  120mm y del obusero 155mm, más una pistola) y traducir las otras 37 copiando el nombre con calibre
+  sin el calibre: «obús de mortero (HE)», «fabricar obús de mortero (HE) x5», «Fabrica 5 obuses de
+  mortero (HE).». **Hasta entonces, una reextracción manda la de prueba a `UNUSED.xml`** y vuelve a
+  verse en inglés. Sesión aparte, en el extractor (Angel, 18-oct-2026).
 - **Los nombres de `GunPatcherPresetDef` quedan en inglés** (`m16a1`, `pistol`, `machine gun`…).
   El parcheo automático los usa para reconocer armas de otros mods por su nombre: traducirlos
   podría hacer que dejara de reconocerlas.
