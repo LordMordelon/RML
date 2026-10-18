@@ -89,6 +89,13 @@ juego base y los DLC.
   de los `defName` que aparecen en `Defs/` o en las carpetas de DLC (`Royalty/`, `Biotech/`…)
   del mod instalado; en `AmmoCategoryDef` y `ThingCategoryDef` quedan seguidas, en un bloque.
 - **`EMP` se traduce `PEM`**, aunque el resto de las siglas de munición se queden en inglés.
+- **Munición genérica (opción de CE): pendiente en el extractor.** Con esa opción, CE renombra las
+  balas por código como «<juego de munición> bala (<sigla>)» (`AmmoGeneralizer.cs`), así que salen
+  «munición para fusil de cargas bala ()» o «Antimaterial bala (FMJ)». Los 37 tipos sin `labelShort`
+  dejan «()», también en inglés, y el orden no se arregla traduciendo. Además, 29 `genericLabel`, 8
+  `genericDescription` y 1 `genericLabelOverride` viven en `modExtensions` y el extractor no los saca:
+  con la opción puesta se ven en inglés. Hay que ver si `DefInjected` llega a `modExtensions` y, si
+  llega, enseñarle al extractor a extraerlos. Sesión aparte, en el extractor (Angel, 18-oct-2026).
 - **Los nombres de `GunPatcherPresetDef` quedan en inglés** (`m16a1`, `pistol`, `machine gun`…).
   El parcheo automático los usa para reconocer armas de otros mods por su nombre: traducirlos
   podría hacer que dejara de reconocerlas.
