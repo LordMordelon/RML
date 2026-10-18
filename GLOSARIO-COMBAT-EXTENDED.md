@@ -292,9 +292,9 @@ propios de tipos de munición (`Kraken`, `Metal Storm`, `Inferno`, `Tempest`, `M
 | — | caseless | sin vaina | propuesta |
 | — | shaped charge | carga hueca | propuesta |
 | — | bunker buster | rompebúnkeres | propuesta |
-| — | charged (armas de carga) | de carga; la bala, «cargada» | Angel: «10x18mm de carga», «bala 10x18mm cargada», «cartucho de carga para fusil» |
-| Conc. | concentrated charge | de carga concentrada | Angel: sin paréntesis, «6x24mm de carga concentrada», «bala 6x24mm de carga concentrada», «cartucho de carga concentrada para fusil» |
-| Ion | ion charge | de carga iónica | Angel: sin paréntesis, «8x35mm de carga iónica»; con «cartucho» concuerda con él: «cartucho de carga para fusil iónico» |
+| — | charged (armas de carga) | de carga; la bala, «cargada» | Angel: «10x18mm de carga», «bala 10x18mm cargada». La munición del fusil del juego va por su nombre oficial, «fusil de cargas»: «cartucho para fusil de cargas», «munición para fusil de cargas» (Angel, 18-oct-2026) |
+| Conc. | concentrated charge | de carga concentrada | Angel: sin paréntesis, «6x24mm de carga concentrada», «bala 6x24mm de carga concentrada»; con el fusil, «cartucho concentrado para fusil de cargas» |
+| Ion | ion charge | de carga iónica | Angel: sin paréntesis, «8x35mm de carga iónica»; con el fusil, «cartucho iónico para fusil de cargas» |
 | — | Ion Shot (escopeta) | perdigones iónicos | propuesta: «12 Gauge de carga (perdigones iónicos)» |
 | — | stone / steel / plasteel (flechas, virotes) | de piedra / de acero / de plastiacero | Angel: sin paréntesis, «virote de acero» |
 | — | venom / flame (flechas, virotes) | envenenado/a / incendiario/a | Angel: «flecha grande incendiaria», «virote envenenado». Las categorías de munición dicen lo mismo |
