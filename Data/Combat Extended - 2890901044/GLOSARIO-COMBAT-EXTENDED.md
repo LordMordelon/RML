@@ -1,6 +1,6 @@
 # Glosario de Combat Extended
 
-Complementa a [GLOSARIO.md](GLOSARIO.md), que sigue mandando: si un término está en los dos,
+Complementa a [GLOSARIO.md](../../GLOSARIO.md), que sigue mandando: si un término está en los dos,
 gana el general. Acá va solo lo que Combat Extended agrega: munición, estadísticas de combate y
 los conceptos propios del mod. El plan de trabajo está en
 [PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md).

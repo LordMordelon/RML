@@ -40,8 +40,6 @@ ModList.tsv                     GENERADO — la misma lista en texto plano: mods
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
-GLOSARIO-COMBAT-EXTENDED.md     lo que Combat Extended agrega: munición, estadísticas, conceptos
-PLAN-COMBAT-EXTENDED.md         etapas y avance de la traducción de Combat Extended
 TRADUCIR.md                     guía para colaboradores sin git
 CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
@@ -60,6 +58,8 @@ Y cada carpeta de mod, por dentro:
     <codigo>.xml              <- codificado: el nombre tiene que ser único en todo Data/
   LoadFolders.Build.yaml
   UNUSED.xml                  <- traducciones apartadas
+  *.md                        <- notas de trabajo de una traducción grande (hoy, el plan y el glosario
+                                 de Combat Extended). El extractor no las toca y no van a output/
 ```
 
 **`Patches/` va en la raíz de la carpeta del mod, nunca dentro de `Languages/`.** Es a
@@ -219,7 +219,8 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
 
   Hay dos excepciones, las dos de Combat Extended: las recetas y las etiquetas de partes de
   armas de `Patches/`, que se llenan por script con las reglas de «Recetas por script» y
-  «Partes de armas por script» de [PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md). No se
+  «Partes de armas por script» de
+  [PLAN-COMBAT-EXTENDED.md](Data/Combat%20Extended%20-%202890901044/PLAN-COMBAT-EXTENDED.md). No se
   extienden a otros mods sin volver a preguntar.
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar

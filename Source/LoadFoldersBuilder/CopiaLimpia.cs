@@ -8,7 +8,7 @@ namespace LoadFoldersBuilder;
  *  enlaza a esa carpeta— y lo que se sube al Workshop.
  *
  *  Lleva solo lo que RimWorld lee: About, Data, LoadFolders.xml, ModList.tsv y LICENSE. De Data
- *  quedan afuera los UNUSED.xml y los LoadFolders.Build.yaml, que el juego no usa, y a los XML
+ *  quedan afuera los UNUSED.xml, los LoadFolders.Build.yaml y los .md, que el juego no usa, y a los XML
  *  se les sacan los comentarios: el <!-- EN: ... --> con el original en ingles sirve para
  *  traducir y revisar en el repo, pero al jugador no le hace nada y era un tercio del peso.
  *
@@ -83,7 +83,10 @@ public static class CopiaLimpia
 
             foreach (string Archivo in Directory.EnumerateFiles(Path.Combine(RootPath, "Data"), "*", SearchOption.AllDirectories))
             {
-                if (NoVan.Contains(Path.GetFileName(Archivo)))
+                // Los .md son notas de trabajo de una traduccion (el plan y el glosario de Combat
+                // Extended viven en su carpeta): sirven en el repo, no en el juego
+                if (NoVan.Contains(Path.GetFileName(Archivo)) ||
+                    Archivo.EndsWith(".md", StringComparison.OrdinalIgnoreCase))
                     continue;
 
                 byte[] Contenido = File.ReadAllBytes(Archivo);

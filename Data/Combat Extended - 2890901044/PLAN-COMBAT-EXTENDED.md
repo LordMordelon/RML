@@ -44,6 +44,9 @@ partida de prueba no muestra ningún «TODO», y queda abierta la opción de pub
   extractor, que escribe en la rama que esté puesta. Al volver a `master` la carpeta de Combat
   Extended desaparece de `Data/` y reaparece al volver a la rama.
 - **Para no quedarse atrás:** cada tanto, `git merge master` estando en la rama.
+- **Este plan y el glosario viven en la carpeta del mod** (desde el 19-oct-2026, pedido de Angel),
+  junto a `Languages/`. El extractor no los toca, porque solo borra `Languages/` y `Patches/`, y la
+  copia de `output/` deja afuera los `.md` de `Data/`, así que no se publican con el mod.
 - **Al terminar:** unir la rama a `master` y subir; ahí la CI publica la release.
 
 La etapa 0 quedó hecha el 17-oct-2026: la extracción se movió de `RimworldExtractor/` a
