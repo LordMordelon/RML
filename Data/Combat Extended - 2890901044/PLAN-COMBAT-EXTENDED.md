@@ -226,20 +226,21 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 5 | Resto del núcleo | hecha (18-oct-2026): `HediffDef` (147), `ResearchProjectDef` (18), `LaserBeamDefCE` (11), `WorldObjectDef` (4) y `PawnKindDef` (3), todo a mano, más los 132 gritos de combate de `Strings/NameBanks` con el tono que eligió Angel. Combat Extended queda completo para quien juega solo con el juego base y los DLC |
 | 6 | Compatibilidad | pendiente |
 
-## Próxima sesión (18-oct-2026)
+## Próxima sesión (19-oct-2026)
 
 **Objetivo:** etapa 6, primera tanda: la compatibilidad con los mods que RML ya traduce.
 
-**Estado:** etapa 5 cerrada en la rama `combat-extended` (commits `2eccd5e`, `6b87a8a` y `fa77bf8`, sin subir; la
-rama tiene 43 commits que `master` no tiene). El núcleo no tiene ningún `TODO`, y tampoco `Keyed` ni `Patches/`. No
-queda nada a medias.
+**Estado:** etapa 5 cerrada y revisada en partida por Angel, en la rama `combat-extended` (último commit `d51261e`,
+sin subir; la rama tiene 55 commits que `master` no tiene). Después de probar se corrigieron nombres: la munición
+del fusil de cargas, la torreta de cargas, el «virote de bioferrita», el «escudo simple», el «chaleco compuesto» y
+las «gafas de visión nocturna» (todo en el glosario). Este plan y el glosario pasaron a la carpeta del mod. No queda
+nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Con la rama puesta, correr `01-regenerar-indice.cmd` y mirar en partida: la pestaña de salud de un colono herido
-   (heridas, «subidón de psicho»), los gritos de combate durante un asalto y la pestaña de investigación. Anotar lo
-   que se lea raro.
-2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y avisarlo al
-   empezar.
+1. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y avisarlo al
+   empezar. Ojo: la reextracción manda a `UNUSED.xml` el nombre genérico del obús de espuma (ver «Cuidados»).
+2. Las traducciones oficiales de los DLC que se pusieron a mano en `Data/<DLC>/Languages/` siguen ahí mientras Steam
+   no las pise; si los DLC vuelven a verse en inglés, avisar.
 
 **Al empezar (Claude):** quedan **5.523 entradas en `TODO`**, todas de `ModPatches/` (contadas el 18-oct-2026). De
 esas, unas **354 son de 24 mods que RML ya traduce**: Vanilla Factions Expanded - Pirates 62, Impact Weaponry 43,
@@ -248,13 +249,17 @@ Integrated Implants 16, Volt Weaponry 13, VWE - Coilguns 12, VQE - Cryptoforge 1
 Magic 10, y 11 mods más con 8 o menos. La cuenta cruza los `defName` de cada carpeta de `ModPatches/` del mod
 instalado con los `TODO`, y el cruce con RML es por nombre del mod, así que puede faltar alguno: repetirla al
 empezar. Cabe en una sesión (estimación). Antes de traducir cada mod, mirar cómo RML ya traduce sus armas en su
-propia carpeta de `Data/`, para que los nombres coincidan.
+propia carpeta de `Data/`, para que los nombres coincidan. Proponer antes de cambiar nombres ya decididos: Angel
+quiere ver la propuesta primero.
 
 **Decisiones de Angel:** si se sube ya el núcleo, uniendo la rama a `master`. Recomendación: sí, porque ya sirve a
 todo el que juega Combat Extended con el juego base y los DLC, y la etapa 6 puede seguir en la rama después. El
 push publica una versión nueva de RML, así que lo decide Angel.
 
+**Pendiente aparte, en otra sesión:** el extractor tiene que sacar los nombres de la munición genérica (38 textos;
+ver «Munición genérica» en «Cuidados»). No mezclarlo con la etapa 6.
+
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
 **Dónde leer:** este plan (etapa 6 y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
-(secciones 1, 7 y 8) y las tres comprobaciones de `AGENTS.md`.
+(secciones 1, 7 y 8) y las tres comprobaciones de `AGENTS.md` (en la raíz de RML).
