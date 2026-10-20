@@ -1635,17 +1635,17 @@
   <!-- EN: A biomatroid larva sealed inside the mineral pod it formed around itself after birth. Development continues inside: muscle bundles lay down over the frame, the outer seal cures, and the control lattice organizes itself. The mesonuclear substrate runs the whole process on its own, and needs no power, feedstock or supervision.\n\nThe pod swells as the larva matures, and flexes in wind. It cannot defend itself, and breaking it destroys the biomatroid inside. It is light enough to be uninstalled and carried elsewhere. -->
   <DMS_SynthFormingPod.description>Una larva de bioautomatroide sellada dentro de la cápsula mineral que formó a su alrededor al nacer. Su desarrollo sigue adentro: los haces musculares se depositan sobre la estructura, el sello exterior se endurece y la red de control se organiza sola. El sustrato mesonuclear dirige todo el proceso por sí mismo y no necesita energía, materia prima ni supervisión.\n\nLa cápsula se hincha a medida que la larva madura y se mece con el viento. No puede defenderse, y romperla destruye al bioautomatroide de adentro. Es lo bastante liviana para desinstalarla y llevarla a otro lugar.</DMS_SynthFormingPod.description>
   <!-- EN: Frogman formed -->
-  <DMS_SynthFormingPod.modExtensions.0.completedLetterLabel>TODO</DMS_SynthFormingPod.modExtensions.0.completedLetterLabel>
+  <DMS_SynthFormingPod.modExtensions.0.completedLetterLabel>Hombre rana formado</DMS_SynthFormingPod.modExtensions.0.completedLetterLabel>
   <!-- EN: The gestation pod has opened. The XM132 Frogman inside has reached its adult form, sealed and intact, and is holding in dormancy inside its capsule.\n\nA mechanitor must take control of it before it will respond. -->
-  <DMS_SynthFormingPod.modExtensions.0.completedLetterText>TODO</DMS_SynthFormingPod.modExtensions.0.completedLetterText>
+  <DMS_SynthFormingPod.modExtensions.0.completedLetterText>La cápsula de gestación se abrió. El XM132 hombre rana que había adentro alcanzó su forma adulta, sellado e intacto, y permanece latente dentro de su cápsula.\n\nUn mecanizador debe tomar su control antes de que responda.</DMS_SynthFormingPod.modExtensions.0.completedLetterText>
   <!-- EN: frogman embryo -->
-  <DMS_FrogmanEmbryo.label>TODO</DMS_FrogmanEmbryo.label>
+  <DMS_FrogmanEmbryo.label>embrión de hombre rana</DMS_FrogmanEmbryo.label>
   <!-- EN: A directed embryo carrying the XM132 development sequence. It is inert on its own. Brought to term by a human surrogate or cultured in a growth vat, it produces a biomatroid larva rather than a child.\n\nThe sequence overrides development completely, so the surrogate passes on none of her own genes. The mesonuclear substrate needs a host only for warmth and a blood supply, and colonial fleet doctrine used growth vats wherever they were available. Possession of a single embryo is enough to justify an interdiction. -->
-  <DMS_FrogmanEmbryo.description>TODO</DMS_FrogmanEmbryo.description>
+  <DMS_FrogmanEmbryo.description>Un embrión dirigido que lleva la secuencia de desarrollo XM132. Por sí solo es inerte. Llevado a término por una gestante humana o cultivado en una cuba de crecimiento, produce una larva de bioautomatroide en lugar de un bebé.\n\nLa secuencia anula por completo el desarrollo, así que la gestante no transmite ninguno de sus genes. El sustrato mesonuclear solo necesita un huésped por el calor y el riego sanguíneo, y la doctrina de la flota colonial usaba cubas de crecimiento donde las hubiera. Tener un solo embrión basta para justificar una interdicción.</DMS_FrogmanEmbryo.description>
   <!-- EN: dormant frogman -->
-  <DMS_MechCapsule_Frogman.label>TODO</DMS_MechCapsule_Frogman.label>
+  <DMS_MechCapsule_Frogman.label>hombre rana latente</DMS_MechCapsule_Frogman.label>
   <!-- EN: A newly matured XM132 Frogman, still folded inside the capsule it developed in. The organism is complete and sealed, but has never received a control signal. A mechanitor can take control of it. Anyone else can only break the capsule open and scrap what is inside. -->
-  <DMS_MechCapsule_Frogman.description>TODO</DMS_MechCapsule_Frogman.description>
+  <DMS_MechCapsule_Frogman.description>Un XM132 hombre rana recién maduro, todavía plegado dentro de la cápsula en la que se desarrolló. El organismo está completo y sellado, pero nunca recibió una señal de control. Un mecanizador puede tomar su control; cualquier otro solo puede romper la cápsula y desguazar lo que hay adentro.</DMS_MechCapsule_Frogman.description>
   <!-- EN: Process Array -->
   <DMS_BandNode.label>matriz de proceso</DMS_BandNode.label>
   <!-- EN: An array machine processes the received signal and directs it to a specific mechanitor. This adds 4 bandwidth to that mechanitor&apos;s total, allowing them to control more mechanoids.\n\nOnce a process array is constructed, it can be quickly tuned to a mechanitor. However, returning a band node to a different mechanitor takes significantly longer.\n\nThis device follows the N.A.C.S. protocol so only Mechlinks with following the protocol can receive the service. -->
@@ -1667,9 +1667,9 @@
   <!-- EN: A massive piece of industrial equipment used to assemble light and medium Automatroids. -->
   <DMS_MechGestatorSmall.description>Una pieza masiva de equipo industrial utilizada para ensamblar automatroides ligeros y medianos.</DMS_MechGestatorSmall.description>
   <!-- EN: Large Automatroid Constructor -->
-  <DMS_MechGestatorLarge.label>TODO</DMS_MechGestatorLarge.label>
+  <DMS_MechGestatorLarge.label>gran ensamblador de automatroides</DMS_MechGestatorLarge.label>
   <!-- EN: A giant piece of industrial equipment used to assemble large Automatroids. -->
-  <DMS_MechGestatorLarge.description>TODO</DMS_MechGestatorLarge.description>
+  <DMS_MechGestatorLarge.description>Un enorme equipo industrial que se usa para ensamblar automatroides grandes.</DMS_MechGestatorLarge.description>
   <!-- EN: 60mm mortar shell (HE) -->
   <Bullet_60mmMortarShell_DF_HE.label>proyectil de mortero de 60 mm (AE)</Bullet_60mmMortarShell_DF_HE.label>
   <!-- EN: 60mm mortar shell (Incendiary) -->
@@ -1693,7 +1693,7 @@
   <!-- EN: jellied prometheum stream -->
   <Bullet_DMS_Flamethrower_Bioferrite.label>chorro de prometeo gelificado</Bullet_DMS_Flamethrower_Bioferrite.label>
   <!-- EN: Stugna missile -->
-  <DMS_Bullet_GravekeeperStugna_CE.label>TODO</DMS_Bullet_GravekeeperStugna_CE.label>
+  <DMS_Bullet_GravekeeperStugna_CE.label>misil Stugna</DMS_Bullet_GravekeeperStugna_CE.label>
   <!-- EN: Flame Turret -->
   <DMS_Gecko_FlameTurret.label>Torreta de llamas</DMS_Gecko_FlameTurret.label>
   <!-- EN: A flamethrower used by mechs that will ignite flammable materials within its range. -->
@@ -1735,129 +1735,129 @@
   <!-- EN: A specialized stamping machine designed to mass-produce ammunition based on a processing template, capable of producing standard ammunition of varying calibers simply by replacing the master plate.\n\nDue to its exceptional efficiency and reliability, these ammunition standards, once used on Earth, are still widely circulated throughout the galaxy by colonial fleets. -->
   <DMS_TableAmmoPrinter.description>Una estampadora especializada, diseñada para producir munición en masa a partir de una plantilla de procesamiento, capaz de fabricar munición estándar de distintos calibres con solo cambiar la matriz.\n\nPor su excepcional eficiencia y fiabilidad, estos estándares de munición, usados alguna vez en la Tierra, siguen circulando ampliamente por la galaxia gracias a las flotas coloniales.</DMS_TableAmmoPrinter.description>
   <!-- EN: reinforced wall -->
-  <DMS_SuperWall.label>TODO</DMS_SuperWall.label>
+  <DMS_SuperWall.label>muro reforzado</DMS_SuperWall.label>
   <!-- EN: An armored heavily-reinforced wall. -->
-  <DMS_SuperWall.description>TODO</DMS_SuperWall.description>
+  <DMS_SuperWall.description>Un muro blindado y muy reforzado.</DMS_SuperWall.description>
   <!-- EN: console -->
-  <DMS_ConsoleSingle_Nara.label>TODO</DMS_ConsoleSingle_Nara.label>
+  <DMS_ConsoleSingle_Nara.label>consola</DMS_ConsoleSingle_Nara.label>
   <!-- EN: A multi-purpose computer interface. -->
-  <DMS_ConsoleSingle_Nara.description>TODO</DMS_ConsoleSingle_Nara.description>
+  <DMS_ConsoleSingle_Nara.description>Una interfaz informática de uso múltiple.</DMS_ConsoleSingle_Nara.description>
   <!-- EN: console -->
-  <DMS_ConsoleDouble_Nara.label>TODO</DMS_ConsoleDouble_Nara.label>
+  <DMS_ConsoleDouble_Nara.label>consola</DMS_ConsoleDouble_Nara.label>
   <!-- EN: A multi-purpose computer interface. -->
-  <DMS_ConsoleDouble_Nara.description>TODO</DMS_ConsoleDouble_Nara.description>
+  <DMS_ConsoleDouble_Nara.description>Una interfaz informática de uso múltiple.</DMS_ConsoleDouble_Nara.description>
   <!-- EN: access console -->
-  <DMS_AccessConsole_Nara.label>TODO</DMS_AccessConsole_Nara.label>
+  <DMS_AccessConsole_Nara.label>consola de acceso</DMS_AccessConsole_Nara.label>
   <!-- EN: A multi-purpose computer interface. Built-in reading device accepts key-cards. -->
-  <DMS_AccessConsole_Nara.description>TODO</DMS_AccessConsole_Nara.description>
+  <DMS_AccessConsole_Nara.description>Una interfaz informática de uso múltiple. Su lector integrado acepta tarjetas de acceso.</DMS_AccessConsole_Nara.description>
   <!-- EN: console -->
-  <DMS_ConsoleSingle_Neutral.label>TODO</DMS_ConsoleSingle_Neutral.label>
+  <DMS_ConsoleSingle_Neutral.label>consola</DMS_ConsoleSingle_Neutral.label>
   <!-- EN: A multi-purpose computer interface. -->
-  <DMS_ConsoleSingle_Neutral.description>TODO</DMS_ConsoleSingle_Neutral.description>
+  <DMS_ConsoleSingle_Neutral.description>Una interfaz informática de uso múltiple.</DMS_ConsoleSingle_Neutral.description>
   <!-- EN: console -->
-  <DMS_ConsoleDouble_Neutral.label>TODO</DMS_ConsoleDouble_Neutral.label>
+  <DMS_ConsoleDouble_Neutral.label>consola</DMS_ConsoleDouble_Neutral.label>
   <!-- EN: A multi-purpose computer interface. -->
-  <DMS_ConsoleDouble_Neutral.description>TODO</DMS_ConsoleDouble_Neutral.description>
+  <DMS_ConsoleDouble_Neutral.description>Una interfaz informática de uso múltiple.</DMS_ConsoleDouble_Neutral.description>
   <!-- EN: access console -->
-  <DMS_AccessConsole_Neutral.label>TODO</DMS_AccessConsole_Neutral.label>
+  <DMS_AccessConsole_Neutral.label>consola de acceso</DMS_AccessConsole_Neutral.label>
   <!-- EN: A multi-purpose computer interface. Built-in reading device accepts key-cards. -->
-  <DMS_AccessConsole_Neutral.description>TODO</DMS_AccessConsole_Neutral.description>
+  <DMS_AccessConsole_Neutral.description>Una interfaz informática de uso múltiple. Su lector integrado acepta tarjetas de acceso.</DMS_AccessConsole_Neutral.description>
   <!-- EN: guardian lock relay -->
-  <DMS_BossKillRelay.label>TODO</DMS_BossKillRelay.label>
+  <DMS_BossKillRelay.label>relé de bloqueo del guardián</DMS_BossKillRelay.label>
   <!-- EN: A security relay slaved to the life signs of the installation&apos;s guardian unit. Every door linked to it stays sealed until that signal goes flat. -->
-  <DMS_BossKillRelay.description>TODO</DMS_BossKillRelay.description>
+  <DMS_BossKillRelay.description>Un relé de seguridad atado a los signos vitales de la unidad guardiana de la instalación. Cada puerta vinculada a él sigue sellada hasta que esa señal se apaga.</DMS_BossKillRelay.description>
   <!-- EN: sealed door -->
-  <DMS_SealedRollingDoor_Single.label>TODO</DMS_SealedRollingDoor_Single.label>
+  <DMS_SealedRollingDoor_Single.label>puerta sellada</DMS_SealedRollingDoor_Single.label>
   <!-- EN: A sealed armored door. -->
-  <DMS_SealedRollingDoor_Single.description>TODO</DMS_SealedRollingDoor_Single.description>
+  <DMS_SealedRollingDoor_Single.description>Una puerta blindada sellada.</DMS_SealedRollingDoor_Single.description>
   <!-- EN: sealed door -->
-  <DMS_SealedRollingDoor_Double.label>TODO</DMS_SealedRollingDoor_Double.label>
+  <DMS_SealedRollingDoor_Double.label>puerta sellada</DMS_SealedRollingDoor_Double.label>
   <!-- EN: A sealed armored door. -->
-  <DMS_SealedRollingDoor_Double.description>TODO</DMS_SealedRollingDoor_Double.description>
+  <DMS_SealedRollingDoor_Double.description>Una puerta blindada sellada.</DMS_SealedRollingDoor_Double.description>
   <!-- EN: sealed door -->
-  <DMS_SealedRollingDoor_Triple.label>TODO</DMS_SealedRollingDoor_Triple.label>
+  <DMS_SealedRollingDoor_Triple.label>puerta sellada</DMS_SealedRollingDoor_Triple.label>
   <!-- EN: A sealed armored door. -->
-  <DMS_SealedRollingDoor_Triple.description>TODO</DMS_SealedRollingDoor_Triple.description>
+  <DMS_SealedRollingDoor_Triple.description>Una puerta blindada sellada.</DMS_SealedRollingDoor_Triple.description>
   <!-- EN: sealed door -->
-  <DMS_SealedRollingDoor_Quadruple.label>TODO</DMS_SealedRollingDoor_Quadruple.label>
+  <DMS_SealedRollingDoor_Quadruple.label>puerta sellada</DMS_SealedRollingDoor_Quadruple.label>
   <!-- EN: A sealed armored door. -->
-  <DMS_SealedRollingDoor_Quadruple.description>TODO</DMS_SealedRollingDoor_Quadruple.description>
+  <DMS_SealedRollingDoor_Quadruple.description>Una puerta blindada sellada.</DMS_SealedRollingDoor_Quadruple.description>
   <!-- EN: heavy blast door -->
-  <DMS_Building_DoorLarge.label>TODO</DMS_Building_DoorLarge.label>
+  <DMS_Building_DoorLarge.label>puerta blindada pesada</DMS_Building_DoorLarge.label>
   <!-- EN: A reinforced heavy door built for military installations. It slides open along its track to let authorized personnel pass, and seals shut to block unauthorized intruders. -->
-  <DMS_Building_DoorLarge.description>TODO</DMS_Building_DoorLarge.description>
+  <DMS_Building_DoorLarge.description>Una puerta pesada reforzada, construida para instalaciones militares. Se desliza por su riel para dejar pasar al personal autorizado y se sella para bloquear a los intrusos.</DMS_Building_DoorLarge.description>
   <!-- EN: heavy blast door -->
-  <DMS_Building_DoorLarge_Mirrored.label>TODO</DMS_Building_DoorLarge_Mirrored.label>
+  <DMS_Building_DoorLarge_Mirrored.label>puerta blindada pesada</DMS_Building_DoorLarge_Mirrored.label>
   <!-- EN: A reinforced heavy door built for military installations. It slides open along its track to let authorized personnel pass, and seals shut to block unauthorized intruders. -->
-  <DMS_Building_DoorLarge_Mirrored.description>TODO</DMS_Building_DoorLarge_Mirrored.description>
+  <DMS_Building_DoorLarge_Mirrored.description>Una puerta pesada reforzada, construida para instalaciones militares. Se desliza por su riel para dejar pasar al personal autorizado y se sella para bloquear a los intrusos.</DMS_Building_DoorLarge_Mirrored.description>
   <!-- EN: ruined blast door -->
-  <DMS_Building_DoorLarge_Damaged.label>TODO</DMS_Building_DoorLarge_Damaged.label>
+  <DMS_Building_DoorLarge_Damaged.label>puerta blindada destruida</DMS_Building_DoorLarge_Damaged.label>
   <!-- EN: The wreckage of a heavy military blast door, jammed and burnt out. It no longer opens or seals which purely structural debris left standing amid the ruins. -->
-  <DMS_Building_DoorLarge_Damaged.description>TODO</DMS_Building_DoorLarge_Damaged.description>
+  <DMS_Building_DoorLarge_Damaged.description>Los restos de una puerta blindada militar pesada, atascada y calcinada. Ya no abre ni sella: son escombros estructurales que quedaron en pie entre las ruinas.</DMS_Building_DoorLarge_Damaged.description>
   <!-- EN: ruined blast door -->
-  <DMS_Building_DoorLarge_Damaged_Mirrored.label>TODO</DMS_Building_DoorLarge_Damaged_Mirrored.label>
+  <DMS_Building_DoorLarge_Damaged_Mirrored.label>puerta blindada destruida</DMS_Building_DoorLarge_Damaged_Mirrored.label>
   <!-- EN: The wreckage of a heavy military blast door, jammed and burnt out. It no longer opens or seals which purely structural debris left standing amid the ruins. -->
-  <DMS_Building_DoorLarge_Damaged_Mirrored.description>TODO</DMS_Building_DoorLarge_Damaged_Mirrored.description>
+  <DMS_Building_DoorLarge_Damaged_Mirrored.description>Los restos de una puerta blindada militar pesada, atascada y calcinada. Ya no abre ni sella: son escombros estructurales que quedaron en pie entre las ruinas.</DMS_Building_DoorLarge_Damaged_Mirrored.description>
   <!-- EN: lift shaft -->
-  <DMS_LiftShaft_Bottom.label>TODO</DMS_LiftShaft_Bottom.label>
+  <DMS_LiftShaft_Bottom.label>pozo del ascensor</DMS_LiftShaft_Bottom.label>
   <!-- EN: A large elevator shaft leads to the underground area, large enough to transport vehicles, but apparently there is no way to activate it. -->
-  <DMS_LiftShaft_Bottom.description>TODO</DMS_LiftShaft_Bottom.description>
+  <DMS_LiftShaft_Bottom.description>Un gran pozo de ascensor que lleva a la zona subterránea, lo bastante grande para transportar vehículos, pero al parecer no hay forma de activarlo.</DMS_LiftShaft_Bottom.description>
   <!-- EN: lift shaft -->
-  <DMSRC_LiftShaft_Large_Bottom.label>TODO</DMSRC_LiftShaft_Large_Bottom.label>
+  <DMSRC_LiftShaft_Large_Bottom.label>pozo del ascensor</DMSRC_LiftShaft_Large_Bottom.label>
   <!-- EN: A large elevator shaft leads to the underground area, large enough to transport vehicles, but apparently there is no way to activate it. -->
-  <DMSRC_LiftShaft_Large_Bottom.description>TODO</DMSRC_LiftShaft_Large_Bottom.description>
+  <DMSRC_LiftShaft_Large_Bottom.description>Un gran pozo de ascensor que lleva a la zona subterránea, lo bastante grande para transportar vehículos, pero al parecer no hay forma de activarlo.</DMSRC_LiftShaft_Large_Bottom.description>
   <!-- EN: central command core -->
   <DMS_GestaltEngine.label>núcleo de mando central</DMS_GestaltEngine.label>
   <!-- EN: A command core used to coordinate large-scaled automatroid squads, it have the ability to independently command and support an entire combined combat brigade without any further assist. -->
   <DMS_GestaltEngine.description>Un núcleo de mando usado para coordinar escuadras de automatroides a gran escala. Puede dirigir y apoyar por sí solo a una brigada de combate combinada completa, sin ninguna otra asistencia.</DMS_GestaltEngine.description>
   <!-- EN: command array -->
-  <DMS_Gestalt_CommandArray.label>TODO</DMS_Gestalt_CommandArray.label>
+  <DMS_Gestalt_CommandArray.label>matriz de mando</DMS_Gestalt_CommandArray.label>
   <!-- EN: Increases bandwidth when placed near central command core. Each central command core can only use eight command arrays. -->
-  <DMS_Gestalt_CommandArray.description>TODO</DMS_Gestalt_CommandArray.description>
+  <DMS_Gestalt_CommandArray.description>Aumenta la banda ancha cuando se coloca cerca del núcleo de mando central. Cada núcleo de mando central solo puede usar ocho matrices de mando.</DMS_Gestalt_CommandArray.description>
   <!-- EN: command transmitter -->
-  <DMS_Gestalt_Transmitter.label>TODO</DMS_Gestalt_Transmitter.label>
+  <DMS_Gestalt_Transmitter.label>transmisor de mando</DMS_Gestalt_Transmitter.label>
   <!-- EN: Increases command range and provides additional control group when placed near central command core. Each central command core can only use four command transmitters. -->
-  <DMS_Gestalt_Transmitter.description>TODO</DMS_Gestalt_Transmitter.description>
+  <DMS_Gestalt_Transmitter.description>Aumenta el alcance de mando y da un grupo de control adicional cuando se coloca cerca del núcleo de mando central. Cada núcleo de mando central solo puede usar cuatro transmisores de mando.</DMS_Gestalt_Transmitter.description>
   <!-- EN: infrasonic emitter -->
-  <DMS_Building_SubsonicEmitter.label>TODO</DMS_Building_SubsonicEmitter.label>
+  <DMS_Building_SubsonicEmitter.label>emisor de infrasonido</DMS_Building_SubsonicEmitter.label>
   <!-- EN: A tower-mounted array of tuned infrasound emitters. While powered, it periodically releases a burst of infrasound that passes through walls and reaches every hostile living creature within range, wracking them with nausea and pain and sending many into a panic. It only fires when enemies are in range. Mechs are unaffected. -->
-  <DMS_Building_SubsonicEmitter.description>TODO</DMS_Building_SubsonicEmitter.description>
+  <DMS_Building_SubsonicEmitter.description>Una matriz de emisores de infrasonido afinados, montada en una torre. Mientras tiene energía, suelta cada cierto tiempo una ráfaga de infrasonido que atraviesa los muros y alcanza a cada criatura viva hostil dentro del alcance, provocándole náuseas y dolor, y a muchas las deja en pánico. Solo dispara cuando hay enemigos al alcance. A los mecas no les afecta.</DMS_Building_SubsonicEmitter.description>
   <!-- EN: blast scanner -->
-  <DMS_Building_BlastScanner.label>TODO</DMS_Building_BlastScanner.label>
+  <DMS_Building_BlastScanner.label>escáner de explosión</DMS_Building_BlastScanner.label>
   <!-- EN: A precision geological survey device. A mortar shell loaded into its charge chamber drives a seismic shockwave deep into the ground, and the device reads the returning echoes to map ore deposits far below the surface. One charge maps several deep deposits at once.\n\nSurveying this way is never quiet. The shockwave all but inevitably wakes insect colonies dormant underground, and they tend to dig their way out close to whatever disturbed them.\n\nLoad a high-explosive shell, then light the fuse. The device needs time to recalibrate between charges. -->
-  <DMS_Building_BlastScanner.description>TODO</DMS_Building_BlastScanner.description>
+  <DMS_Building_BlastScanner.description>Un dispositivo de prospección geológica de precisión. Un proyectil de mortero cargado en su cámara de carga envía una onda sísmica a lo profundo del suelo, y el dispositivo lee los ecos que vuelven para cartografiar depósitos de mineral muy por debajo de la superficie. Una carga cartografía varios depósitos profundos a la vez.\n\nProspectar así nunca es silencioso. La onda expansiva casi siempre despierta a colonias de insectos que dormían bajo tierra, y estas suelen salir excavando cerca de lo que las molestó.\n\nCarga un proyectil de alto explosivo y después enciende la mecha. El dispositivo necesita tiempo para recalibrarse entre cargas.</DMS_Building_BlastScanner.description>
   <!-- EN: charge -->
-  <DMS_Building_BlastScanner.comps.0.fuelLabel>TODO</DMS_Building_BlastScanner.comps.0.fuelLabel>
+  <DMS_Building_BlastScanner.comps.0.fuelLabel>carga</DMS_Building_BlastScanner.comps.0.fuelLabel>
   <!-- EN: Charge -->
-  <DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>TODO</DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>
+  <DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>Carga</DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>
   <!-- EN: No charge loaded -->
-  <DMS_Building_BlastScanner.comps.0.outOfFuelMessage>TODO</DMS_Building_BlastScanner.comps.0.outOfFuelMessage>
+  <DMS_Building_BlastScanner.comps.0.outOfFuelMessage>No hay ninguna carga cargada</DMS_Building_BlastScanner.comps.0.outOfFuelMessage>
   <!-- EN: engineering drone bay -->
-  <DMS_EngineeringBay.label>TODO</DMS_EngineeringBay.label>
+  <DMS_EngineeringBay.label>bahía de drones de ingeniería</DMS_EngineeringBay.label>
   <!-- EN: A drone base station for facility maintenance and basic production work. The compute provided by its installed cluster control chipset lets simple drones carry out complex tasks. Commonly found in unmanned facilities and lights-out factories.\n\nCan deploy uca (maintenance and machinery operation) or erima (farming and plant care) drones. -->
-  <DMS_EngineeringBay.description>TODO</DMS_EngineeringBay.description>
+  <DMS_EngineeringBay.description>Una estación base de drones para el mantenimiento de instalaciones y trabajos básicos de producción. La capacidad de cálculo de su chip de control clúster permite que drones simples hagan tareas complejas. Es común en instalaciones sin personal y en fábricas automatizadas.\n\nPuede desplegar drones uca (mantenimiento y operación de maquinaria) o erima (cultivo y cuidado de plantas).</DMS_EngineeringBay.description>
   <!-- EN: FPV nest -->
-  <DMS_Building_FPVNest.label>TODO</DMS_Building_FPVNest.label>
+  <DMS_Building_FPVNest.label>nido FPV</DMS_Building_FPVNest.label>
   <!-- EN: An automated drone nest used for facility defense. When alerted by the facility&apos;s other sensors, it automatically launches FPV drones to drive off or kill intruders, and it will also release drones to fight back when attacked. It is connected to the facility&apos;s underground logistics system below, so its expended drone stock is automatically replenished over time. -->
-  <DMS_Building_FPVNest.description>TODO</DMS_Building_FPVNest.description>
+  <DMS_Building_FPVNest.description>Un nido de drones automatizado para la defensa de la instalación. Cuando los demás sensores de la instalación dan la alerta, lanza solo drones FPV para ahuyentar o matar a los intrusos, y también suelta drones para contraatacar si lo atacan. Está conectado al sistema logístico subterráneo de la instalación, así que los drones gastados se reponen solos con el tiempo.</DMS_Building_FPVNest.description>
   <!-- EN: FPV hangar -->
-  <DMS_Building_FPVHanger.label>TODO</DMS_Building_FPVHanger.label>
+  <DMS_Building_FPVHanger.label>hangar FPV</DMS_Building_FPVHanger.label>
   <!-- EN: An automated drone hangar used for facility defense. When alerted by the facility&apos;s other sensors, it automatically launches FPV drones to drive off or kill intruders, and it will also release drones to fight back when attacked. It is connected to the facility&apos;s underground logistics system below, so its expended drone stock is automatically replenished over time. -->
-  <DMS_Building_FPVHanger.description>TODO</DMS_Building_FPVHanger.description>
+  <DMS_Building_FPVHanger.description>Un hangar de drones automatizado para la defensa de la instalación. Cuando los demás sensores de la instalación dan la alerta, lanza solo drones FPV para ahuyentar o matar a los intrusos, y también suelta drones para contraatacar si lo atacan. Está conectado al sistema logístico subterráneo de la instalación, así que los drones gastados se reponen solos con el tiempo.</DMS_Building_FPVHanger.description>
   <!-- EN: camera -->
-  <DMS_Building_Camera.label>TODO</DMS_Building_Camera.label>
+  <DMS_Building_Camera.label>cámara</DMS_Building_Camera.label>
   <!-- EN: A surveillance camera that monitors a long, narrow corridor for intruders. Connected to the local alert counter. Cut power or hit it with an EMP to disable it safely before dismantling. -->
-  <DMS_Building_Camera.description>TODO</DMS_Building_Camera.description>
+  <DMS_Building_Camera.description>Una cámara de vigilancia que vigila un pasillo largo y estrecho en busca de intrusos. Está conectada al contador de alerta local. Corta la energía o dale con un EMP para desactivarla sin riesgo antes de desmantelarla.</DMS_Building_Camera.description>
   <!-- EN: seismic sensor -->
-  <DMS_Building_Sensor.label>TODO</DMS_Building_Sensor.label>
+  <DMS_Building_Sensor.label>sensor sísmico</DMS_Building_Sensor.label>
   <!-- EN: A passive sensor installed along pipes and secondary passageways. The larger the thing entering its range, the more likely it is to trip the alarm. -->
-  <DMS_Building_Sensor.description>TODO</DMS_Building_Sensor.description>
+  <DMS_Building_Sensor.description>Un sensor pasivo instalado a lo largo de tuberías y pasadizos secundarios. Cuanto más grande es lo que entra en su alcance, más probable es que active la alarma.</DMS_Building_Sensor.description>
   <!-- EN: large sentry tower -->
-  <DMS_Building_Scanner_Large.label>TODO</DMS_Building_Scanner_Large.label>
+  <DMS_Building_Scanner_Large.label>torre de vigilancia grande</DMS_Building_Scanner_Large.label>
   <!-- EN: A tall observation tower with automated sensors. Detects hostiles within a wide radius. Disable with EMP or power cut before attempting to dismantle. -->
-  <DMS_Building_Scanner_Large.description>TODO</DMS_Building_Scanner_Large.description>
+  <DMS_Building_Scanner_Large.description>Una alta torre de observación con sensores automáticos. Detecta hostiles en un radio amplio. Desactívala con un EMP o cortándole la energía antes de intentar desmantelarla.</DMS_Building_Scanner_Large.description>
   <!-- EN: small sentry tower -->
-  <DMS_Building_Scanner_Small.label>TODO</DMS_Building_Scanner_Small.label>
+  <DMS_Building_Scanner_Small.label>torre de vigilancia pequeña</DMS_Building_Scanner_Small.label>
   <!-- EN: An unmanned sentry platform built for long-term unattended operation, fitted with multiple types of sensors to monitor a wide area for suspicious activity. Once an intruder enters its range, it broadcasts an alert that activates the automated defenses to engage. -->
   <DMS_Building_Scanner_Small.description>TODO</DMS_Building_Scanner_Small.description>
   <!-- EN: reinforcement uplink -->
