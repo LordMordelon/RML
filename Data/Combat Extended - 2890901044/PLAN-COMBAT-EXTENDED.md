@@ -256,18 +256,15 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 packageId cuando el mod se vuelve a publicar con otro número del Workshop (The Dead Man's Switch).
 
 **Estado:** arreglo de los verbos hecho. Extractor: `007ec9f` en la rama `1.0-beta`. RML: `d05ddb7`
-(GravTech) y `730dfc1` (MobileDragoon), en `master`. Todo **sin subir**. Al reextraer los 11 mods con
-rutas `verbs/li[N]` o `comps/li[N]` no cambió el nombre de ninguna ruta, y lo que cambió (GravTech y
+(GravTech) y `730dfc1` (MobileDragoon), en `master`, más la gravibatería de GravTech traducida de
+nuevo; subido con la aprobación de Angel (20-oct-2026). Al reextraer los 11 mods con rutas
+`verbs/li[N]` o `comps/li[N]` no cambió el nombre de ninguna ruta, y lo que cambió (GravTech y
 MobileDragoon) sale igual sin el arreglo: son actualizaciones de esos mods. El `UNUSED.xml` de Combat
-Extended sigue en el PC sin commitear y con las mismas 8 copias. En el PC también queda, sin commitear,
-la carpeta `Data/!AobaKuma/The Dead Man's Switch - 3819799478/`: la creó la reextracción y está vacía
-de traducciones (299 `TODO`). El sistema de seguridad no dejó borrarla.
+Extended se borró con el visto bueno de Angel, y él borró la carpeta vacía
+`Data/!AobaKuma/The Dead Man's Switch - 3819799478/` que había creado la reextracción.
 
 **Antes de empezarla (Angel):**
-1. Borrar la carpeta `RML/Data/!AobaKuma/The Dead Man's Switch - 3819799478` (no está en git), o
-   decirle a Claude que la borre.
-2. Decir si se borra el `UNUSED.xml` de Combat Extended. Sus 8 traducciones están en `Patches/`.
-3. Revisar en partida lo que quedó pendiente del 19-oct: obús de mortero y su receta, pistola .45 ACP y
+1. Revisar en partida lo que quedó pendiente del 19-oct: obús de mortero y su receta, pistola .45 ACP y
    granada tóxica, con la munición genérica puesta.
 
 **Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. The Dead Man's Switch tiene ahora el
@@ -279,8 +276,6 @@ después reextraer ese mod y mirar el diff. Cabe en una sesión (estimación).
 
 **Decisiones de Angel:**
 - Etapa 6 con mods que RML no traduce (5.086 `TODO`). Recomendación: no por ahora.
-- La traducción de la gravibatería de GravTech dice «genera 500 W», y el original nuevo dice que se
-  autocarga a 800 W. Recomendación: corregirla a mano en una sesión de traducción.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
