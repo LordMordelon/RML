@@ -161,7 +161,7 @@
         <operations>
           <li Class="PatchOperationReplace">
             <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="DMS_Apparel_StugnaLauncher"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileCE')]]/label</xpath>
+            <xpath>/Defs/ThingDef[defName="DMS_Apparel_StugnaLauncher"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
             <value>
               <!-- EN: launch stugna missile -->
               <label>lanzar misil stugna</label>
