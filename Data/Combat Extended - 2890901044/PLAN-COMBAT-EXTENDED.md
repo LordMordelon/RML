@@ -79,12 +79,17 @@ juego base y los DLC.
   «pinchador de nervios» para el *nerve spiker* de Anomaly.
 - **Combat Extended se actualiza seguido.** Para reextraer, usar el extractor con «Traducción
   rápida» sobre RML: conserva lo traducido. Después, mirar el diff con las tres comprobaciones.
-- **El `UNUSED.xml` de la primera reextracción no está en git.** La del 19-oct-2026 escribió uno
-  con 10 entradas de `Patches/` (verbos de mochilas y armaduras, la hidra de Alpha Genes, el obús de
-  alquitrán y las dos torretas de hombro de LTS), y las 10 siguen traducidas en su `Patches/`: es una
-  copia de más, no una pérdida. Queda sin commitear en el PC y sin borrar (regla 3 de `AGENTS.md`).
-  Por qué la relectura las cuenta como sin uso es una pregunta para el extractor: todas tienen un
-  xpath con `verbs/*[...]` o apuntan a un def de otro mod. Desde ahí, la regla 3 aplica como siempre.
+- **El `UNUSED.xml` de Combat Extended no está en git.** Tiene 8 entradas de `Patches/` (verbos de
+  mochilas y armaduras, el escupitajo de la dríade y las dos torretas de hombro de LTS), y las 8 siguen
+  traducidas en su `Patches/`: es una copia de más, no una pérdida. Queda sin commitear en el PC y sin
+  borrar (regla 3 de `AGENTS.md`). La causa está en el extractor: un xpath que entra a un elemento de
+  lista (`verbs/*[...]/label`) se relee con el índice (`verbs.0.label`), y la extracción lo nombra por
+  su verbo. Arreglarlo cambia el nombre de unas 427 rutas en 11 mods de RML: sesión aparte, con la
+  aprobación de Angel (19-oct-2026).
+- **Xpath con la clase del atributo.** Hasta el 19-oct-2026 el extractor escribía
+  `/Defs/CombatExtended.AmmoDef[...]` para un `ThingDef` con `Class="CombatExtended.AmmoDef"`, que en
+  el juego no encuentra nada: la granada tóxica y las cuatro flechas de viuda negra estaban traducidas y
+  se veían en inglés. Arreglado en el extractor (commit `9f7d871`) y en RML (`18f347a`).
 - **`Strings/NameBanks`** son `.txt`, una frase por línea. El extractor tiene un error conocido
   con las líneas en blanco en estos archivos: no dejar líneas vacías al traducirlos.
 - **Núcleo y compatibilidad van mezclados en el mismo archivo.** El extractor escribe un solo
@@ -246,25 +251,29 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 
 ## Próxima sesión (19-oct-2026)
 
-**Objetivo:** en el extractor, averiguar por qué la relectura manda a `UNUSED.xml` 10 traducciones de
-`Patches/` que siguen en uso, y arreglarlo.
+**Objetivo:** en el extractor, que un xpath que entra a un elemento de lista se relea con el mismo
+nombre con el que se extrae (`verbs.Verb_ShootCE.label` y no `verbs.0.label`), sin dejar duplicados.
 
-**Estado:** munición genérica hecha (etapa 6b). Extractor: commit `7ff33bd` en la rama `1.0-beta`.
-RML: commits `ecb4fca` y `c174f9b` en `master`. Los tres están **sin subir** hasta que Angel lo
-apruebe. En el PC queda sin commitear el `UNUSED.xml` de Combat Extended, con las 10 copias (ver
-«Cuidados»). Quedan 5.086 `TODO`, todos de mods que RML no traduce (contados el 19-oct-2026).
+**Estado:** munición genérica hecha (etapa 6b) y xpath de `AmmoDef` arreglados. Extractor: commits
+`7ff33bd` y `9f7d871` en la rama `1.0-beta`. RML: `ecb4fca`, `c174f9b`, `bcb543d`, `18f347a` y el de
+esta nota, en `master`. Todo **sin subir** hasta que Angel lo apruebe. En el PC queda sin commitear el
+`UNUSED.xml` de Combat Extended con las 8 copias (ver «Cuidados»). Quedan 5.086 `TODO`, todos de mods
+que RML no traduce (contados el 19-oct-2026).
 
 **Antes de empezarla (Angel):**
-1. Con la opción de munición genérica de Combat Extended puesta, mirar en partida un obús de mortero
-   y su receta, y una pistola .45 ACP, y avisar lo que se vea raro.
+1. Con la opción de munición genérica de Combat Extended puesta, mirar en partida un obús de mortero y
+   su receta, una pistola .45 ACP y la granada tóxica, y avisar lo que se vea raro.
 
-**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. Prueba primero: una entrada de
-`Patches/` con xpath `verbs/*[...]` que se relee y no tiene que quedar sin uso. Los 10 casos están en
-el `UNUSED.xml` local; los xpath, en los `Patches/` de Combat Extended. Después reextraer Combat
-Extended y comprobar que el `UNUSED.xml` sale vacío o no sale. Cabe en una sesión (estimación).
+**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. Es un cambio grande: plan primero y
+«Aprobado» de Angel. El arreglo es que `Extractor.GetRootDefNode` nombre los elementos de lista con
+`MatchTranslationHandle`, como `FindExtractableNodes`. Cuidado con el paso intermedio: las 427 rutas
+`verbs/li[N]` y `comps/li[N]` que RML ya tiene (11 mods) se releerían por la vía evaluada con el verbo y
+por la literal con el índice, y la del índice quedaría para siempre en `UNUSED`. La relectura literal
+tiene que quedar solo para los xpath que no encontraron objetivo. Pruebas primero, y después reextraer
+esos 11 mods y comprobar que no sale ningún `UNUSED` nuevo. Puede no caber en una sesión (estimación).
 
-**Decisiones de Angel:** si se sigue con la etapa 6 para mods que RML no traduce. Recomendación: no
-por ahora; si se agrega un mod nuevo a RML, sumar su parte de Combat Extended en la misma sesión.
+**Decisiones de Angel:** si se hace este arreglo (recomendación: sí, en su sesión) y si se sigue con la
+etapa 6 para mods que RML no traduce (recomendación: no por ahora).
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
