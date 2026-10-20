@@ -44,8 +44,8 @@ partida de prueba no muestra ningún «TODO», y queda abierta la opción de pub
   extractor, que escribe en la rama que esté puesta. Al volver a `master` la carpeta de Combat
   Extended desaparece de `Data/` y reaparece al volver a la rama.
 - **Para no quedarse atrás:** cada tanto, `git merge master` estando en la rama.
-- **Este plan y el glosario viven en la carpeta del mod** (desde el 19-oct-2026, pedido de Angel),
-  junto a `Languages/`. El extractor no los toca, porque solo borra `Languages/` y `Patches/`, y la
+- **Este plan y los glosarios viven en la carpeta del mod** (desde el 19-oct-2026, pedido de Angel),
+  junto a `Languages/`: el del núcleo y uno aparte para la compatibilidad con otros mods. El extractor no los toca, porque solo borra `Languages/` y `Patches/`, y la
   copia de `output/` deja afuera los `.md` de `Data/`, así que no se publican con el mod.
 - **Al terminar:** unir la rama a `master` y subir; ahí la CI publica la release.
 
@@ -206,6 +206,26 @@ fusil iónico»), y el material de flechas y virotes también («virote de acero
 incendiaria»). Por eso las categorías «flecha de fuego» y «virote de fuego» de la etapa 2 pasaron a
 «incendiaria» e «incendiario».
 
+## Compatibilidad por script
+
+Cuarta excepción, aprobada por Angel el 19-oct-2026 para la primera tanda de la etapa 6: las 451
+entradas de `ModPatches/` de los 24 mods que RML ya traduce. Se hizo así:
+
+1. **Qué entradas.** Se cruzaron los `defName` de cada carpeta de `ModPatches/` del mod instalado
+   con los `TODO`, y la carpeta con RML **por packageId**, sacado del `LoadFolders.xml` de Combat
+   Extended (`IfModActive`) y de `ModList.tsv`. La cuenta anterior, por nombre, perdía Ushankas
+   Biological Warfare (140) y contaba Impact Weaponry, cuyo parche es para el original
+   (`detvisor.impactweaponry`) y no para el «Reloaded» que traduce RML.
+2. **Los nombres** salen de la carpeta del mod en RML; lo demás, de las reglas del núcleo. Todo en
+   una tabla de una fila por clave, que Angel revisó (cambió la munición del *warbolter* a «cohete de
+   sarcotraje»). Los términos están en [GLOSARIO-CE-COMPATIBILIDAD.md](GLOSARIO-CE-COMPATIBILIDAD.md).
+3. El script reemplazó una línea solo si era `<clave>TODO</clave>` en el archivo y la línea donde
+   la encontró el cruce. Informe: 451 llenadas, ninguna dejada. Cada línea quitada del diff era un
+   `TODO` y las tres comprobaciones salieron vacías.
+
+Como las otras, el script quedó en el scratchpad y no se extiende a la tanda siguiente sin volver a
+preguntar.
+
 La munición de `Modded` (Halo y Warhammer 40k) volvió a ir por regla, con una tabla de 123 nombres y 18
 descripciones para 199 entradas. Angel aprobó tres reglas nuevas, que están en el glosario (secciones 3 y
 4): «cartucho .75 Cal Bolter (estándar)» y «proyectil .75 Cal Bolter (Kraken)» para el cartucho y el disparo,
@@ -224,7 +244,7 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 3 | Munición y proyectiles | hecha (17-oct-2026). Pistola y fusil (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos); `Modded` (199) y el resto de `ThingDef` del núcleo (196, a mano) |
 | 4 | Recetas | hecha (17-oct-2026): 754 recetas por script y 152 a mano, 2.718 entradas |
 | 5 | Resto del núcleo | hecha (18-oct-2026): `HediffDef` (147), `ResearchProjectDef` (18), `LaserBeamDefCE` (11), `WorldObjectDef` (4) y `PawnKindDef` (3), todo a mano, más los 132 gritos de combate de `Strings/NameBanks` con el tono que eligió Angel. Combat Extended queda completo para quien juega solo con el juego base y los DLC |
-| 6 | Compatibilidad | pendiente |
+| 6 | Compatibilidad | primera tanda hecha (19-oct-2026): los 24 mods que RML ya traduce, 451 entradas por script con una tabla que Angel revisó. Quedan 5.072 `TODO`, todos de mods que RML no traduce |
 
 ## Próxima sesión (19-oct-2026)
 

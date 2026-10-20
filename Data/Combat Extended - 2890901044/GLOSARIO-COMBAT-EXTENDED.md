@@ -3,7 +3,8 @@
 Complementa a [GLOSARIO.md](../../GLOSARIO.md), que sigue mandando: si un término está en los dos,
 gana el general. Acá va solo lo que Combat Extended agrega: munición, estadísticas de combate y
 los conceptos propios del mod. El plan de trabajo está en
-[PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md).
+[PLAN-COMBAT-EXTENDED.md](PLAN-COMBAT-EXTENDED.md), y lo que agregan las carpetas `ModPatches/`
+para otros mods, en [GLOSARIO-CE-COMPATIBILIDAD.md](GLOSARIO-CE-COMPATIBILIDAD.md).
 
 Cada fila dice de dónde sale:
 
