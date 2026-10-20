@@ -10,14 +10,14 @@
   <!-- EN: docContents-&gt;classified files we are expected to process without reading -->
   <!-- EN: docContents-&gt;requisition forms, repair orders and letters that were never sent -->
   <DMS_ProcessDocumentQuest.questDescriptionRules.rulesStrings>
-    <li>questDescription-&gt;La Flota Colonial se comunicó contigo y planea dejarte un lote de documentos complejos y atrasados. Deberás asignar personal con capacidades de investigación adecuadas para procesarlos.\n\nSi se destruye algún documento, la misión fracasará de inmediato. Mantenlos a salvo.</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription-&gt;[asker_nameFull], ayudante de la Flota Colonial, nos reenvió un lote de papeleo atrasado para procesar. Su división administrativa está [docReason], y el excedente se está subcontratando a asentamientos de la frontera. El lote consiste principalmente en [docContents].\n\nSi aceptamos, los documentos llegarán en cápsulas de escape cerca de nuestras balizas de comercio o del centro de la colonia. Personal con capacidades de investigación adecuadas deberá verificar y archivar cada uno.\n\n[asker_nameDef] dejó muy clara una condición: la flota espera recibir de vuelta cada documento intacto. Si se destruye alguno, el contrato termina de inmediato. El pago llegará cuando se haya procesado el lote completo.</li>
+    <li>docReason-&gt;corta de personal tras la última rotación</li>
+    <li>docReason-&gt;con meses de retraso tras una falla del sistema de archivo</li>
+    <li>docReason-&gt;sepultada bajo una temporada entera de informes del frente</li>
+    <li>docReason-&gt;apurada por cerrar las cuentas antes de una auditoría de la flota</li>
+    <li>docContents-&gt;manifiestos de suministro, registros de gasto de munición y bitácoras de mantenimiento de drones</li>
+    <li>docContents-&gt;avisos de bajas e informes posteriores a la acción, algunos todavía con olor a pólvora</li>
+    <li>docContents-&gt;archivos clasificados que se espera que procesemos sin leer</li>
+    <li>docContents-&gt;formularios de requisición, órdenes de reparación y cartas que nunca se enviaron</li>
   </DMS_ProcessDocumentQuest.questDescriptionRules.rulesStrings>
 </LanguageData>
