@@ -44,17 +44,18 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 
 | # | Etapa | Tamaño | Estado |
 |---|---|---|---|
-| 1 | Reparar lo dañado | chica | pendiente |
-| 2 | Revisar lo que cambió en inglés | chica | pendiente, con decisión de nombres |
-| 3 | Glosario del mod | chica | pendiente |
-| 4 | Traducir lo nuevo | grande | pendiente |
+| 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
+| 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
+| 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
+| 4 | Traducir lo nuevo | grande | en curso: `Keyed` 64 de 325 |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
 
 Va primero porque son errores que el juego ya muestra mal hoy.
 
-- **El shock biónico quedó corrido un lugar.** El II agregó una etapa al principio de
+- **El shock biónico quedó corrido un lugar.** (Hecho: en realidad el II *quitó* la etapa «Initial»
+  del principio; el efecto era el mismo.) El II agregó una etapa al principio de
   `DMS_BionicShock`, y como sus etapas se nombran por posición, cada traducción quedó en la etapa de al
   lado: donde el juego dice «LV.2 Minor» se lee «NV.1 Inicial». Son `stages.0` a `stages.4`: se
   traducen otra vez contra su `EN:` (LV.1 Initial, LV.2 Minor, LV.3 Serious, LV.4 Catatonic,
@@ -162,16 +163,30 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 ## Próxima sesión (20-oct-2026)
 
-**Objetivo:** etapas 1, 2 y 3 de este plan, y empezar `Keyed`.
+**Objetivo:** terminar `Keyed` (quedan 261) y seguir con `ThingDef` (etapa 4).
 
-**Estado:** plan escrito; nada traducido todavía. La carpeta está como en `bea84c4` (RML, `master`).
+**Estado (20-oct-2026, sesión 1):** etapas 1, 2 y 3 hechas y `Keyed` hasta `DMS_Occultech_RenounceConfirm`
+(64 de 325), en 11 commits de RML `master` desde `45016d0` (este incluido), **sin subir**. Lo que se encontró de más:
 
-**Antes de empezarla (Angel):** las decisiones ya están tomadas. Solo confirmar que el extractor está
-en 1.7 (Opciones), por si hay que reextraer.
+- Las 44 reglas sin «->» venían del pack viejo (`11fcccd`), no del extractor: no hay nada que
+  arreglar allá.
+- La comparación del plan no veía las listas: dos listas de la misión de documentos crecieron de 1 a 9
+  reglas y ya están traducidas (`1a00b8f`), y una regla de `DMS_Mechlink` (Sakalava) cambió.
+- `DMS_CourtMartial_HuntdownEnded` va sin `{DEFENDANT_objective}` a propósito: en español sería un
+  pronombre con género, y la frase se entiende sin él.
+- Inconsistencias viejas («ancho de banda», «autómata», el recargador, «wetware»): anotadas en
+  «Pendientes» de `GLOSARIO-DMS.md`. Dos son nombres y se confirman con Angel.
+- **Cambios que no son de esta sesión, sin commitear:** el `Patches` cambió de nombre
+  (`ncvt73.xml` → `v12z9b.xml`, mismo contenido), tres XML solo con finales de línea, el yaml de Combat
+  Extended y `ModList.tsv`/`docs/` regenerados. Parecen de la reextracción de las 02:20. No se tocaron.
 
-**Al empezar (Claude):** reparar el shock biónico (5 etapas), las 44 reglas y los 19 símbolos; corregir
-las 63 traducciones con el inglés cambiado; armar `GLOSARIO-DMS.md`; seguir con las 325 `Keyed`. Un
-commit por arreglo, con el mod en el mensaje.
+**Antes de empezarla (Angel):** decir si el recargador queda «recargador» o «cargador de automatroides»
+y si `DMS_Wetware` dice «biocomputadora». Y qué hacer con el `Patches` renombrado (commitearlo o
+devolverlo).
+
+**Al empezar (Claude):** seguir `Keyed/1icbuu.xml` desde la línea 131, clave por clave, con
+`GLOSARIO-DMS.md` al lado. Al terminar cada tramo, comprobar que los `{…}` de cada traducción sean
+los del `EN:`. Un commit por tramo, con el mod en el mensaje.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso` o `traspaso-continuo`.
 
