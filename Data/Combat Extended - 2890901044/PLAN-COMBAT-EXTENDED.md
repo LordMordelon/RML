@@ -79,8 +79,12 @@ juego base y los DLC.
   «pinchador de nervios» para el *nerve spiker* de Anomaly.
 - **Combat Extended se actualiza seguido.** Para reextraer, usar el extractor con «Traducción
   rápida» sobre RML: conserva lo traducido. Después, mirar el diff con las tres comprobaciones.
-- **No hay `UNUSED.xml` todavía.** Aparecerá la primera vez que una actualización saque algo;
-  desde ahí aplica la regla 3 de `AGENTS.md`.
+- **El `UNUSED.xml` de la primera reextracción no está en git.** La del 19-oct-2026 escribió uno
+  con 10 entradas de `Patches/` (verbos de mochilas y armaduras, la hidra de Alpha Genes, el obús de
+  alquitrán y las dos torretas de hombro de LTS), y las 10 siguen traducidas en su `Patches/`: es una
+  copia de más, no una pérdida. Queda sin commitear en el PC y sin borrar (regla 3 de `AGENTS.md`).
+  Por qué la relectura las cuenta como sin uso es una pregunta para el extractor: todas tienen un
+  xpath con `verbs/*[...]` o apuntan a un def de otro mod. Desde ahí, la regla 3 aplica como siempre.
 - **`Strings/NameBanks`** son `.txt`, una frase por línea. El extractor tiene un error conocido
   con las líneas en blanco en estos archivos: no dejar líneas vacías al traducirlos.
 - **Núcleo y compatibilidad van mezclados en el mismo archivo.** El extractor escribe un solo
@@ -88,19 +92,16 @@ juego base y los DLC.
   de los `defName` que aparecen en `Defs/` o en las carpetas de DLC (`Royalty/`, `Biotech/`…)
   del mod instalado; en `AmmoCategoryDef` y `ThingCategoryDef` quedan seguidas, en un bloque.
 - **`EMP` se traduce `PEM`**, aunque el resto de las siglas de munición se queden en inglés.
-- **Munición genérica (opción de CE): pendiente en el extractor.** Con esa opción, CE renombra las
-  balas por código como «<juego de munición> bala (<sigla>)» (`AmmoGeneralizer.cs`), así que salen
-  «munición para fusil de cargas bala ()» o «Antimaterial bala (FMJ)». Los 37 tipos sin `labelShort`
-  dejan «()», también en inglés, y el orden no se arregla traduciendo. Además, 29 `genericLabel`, 8
-  `genericDescription` y 1 `genericLabelOverride` viven en `modExtensions` y el extractor no los saca:
-  con la opción puesta se ven en inglés. **`DefInjected` sí llega a `modExtensions`**: probado en partida
-  el 18-oct-2026 con `Shell_Firefoam.modExtensions.0.genericLabel` = «obús de mortero (espuma)», que es
-  la única de las 38 puesta a mano. Falta enseñarle al extractor a extraer `genericLabel`,
-  `genericDescription` y `genericLabelOverride` (en los `.xml` de `Defs/Ammo/Shell/` de 60, 81 y
-  120mm y del obusero 155mm, más una pistola) y traducir las otras 37 copiando el nombre con calibre
-  sin el calibre: «obús de mortero (HE)», «fabricar obús de mortero (HE) x5», «Fabrica 5 obuses de
-  mortero (HE).». **Hasta entonces, una reextracción manda la de prueba a `UNUSED.xml`** y vuelve a
-  verse en inglés. Sesión aparte, en el extractor (Angel, 18-oct-2026).
+- **Munición genérica (opción de CE).** Con esa opción, CE renombra las balas por código como
+  «<juego de munición> bala (<sigla>)» (`AmmoGeneralizer.cs`), así que salen «munición para fusil de
+  cargas bala ()» o «Antimaterial bala (FMJ)». Los 37 tipos sin `labelShort` dejan «()», también en
+  inglés, y el orden no se arregla traduciendo. Los nombres fijos sí se traducen: `genericLabel` y
+  `genericDescription` (en `modExtensions`) y `genericLabelOverride` (en el `projectile` de las balas).
+  El extractor los saca desde el 19-oct-2026 (`Prefabs.EtiquetasAgregadas`), y `DefInjected` llega a
+  `modExtensions` (probado en partida el 18-oct-2026 con el obús de espuma). Se traducen copiando el
+  nombre con calibre sin el calibre: «obús de mortero (HE)», «fabricar obús de mortero (HE) x5»,
+  «Fabrica 5 obuses de mortero (HE).»; `pistol` es «pistola». El `genericLabel` del obusero 155mm dice
+  `mortar shell` en el original y se dejó «obús de mortero», como el inglés.
 - **Los nombres de `GunPatcherPresetDef` quedan en inglés** (`m16a1`, `pistol`, `machine gun`…).
   El parcheo automático los usa para reconocer armas de otros mods por su nombre: traducirlos
   podría hacer que dejara de reconocerlas.
@@ -240,7 +241,8 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 3 | Munición y proyectiles | hecha (17-oct-2026). Pistola y fusil (17-oct-2026), 738 nombres por script y 324 descripciones con una tabla de 60 textos que Angel revisó; escopeta y alto calibre hechos (17-oct-2026), 344 nombres y 168 descripciones con una tabla de 21 textos; granadas, cohetes y artillería hechos (17-oct-2026), 381 nombres y 177 descripciones con una tabla de 47 textos; avanzada, genérica, medieval, neolítica y `Other` hechas (17-oct-2026), 269 nombres y 166 descripciones con dos tablas (230 y 68 textos); `Modded` (199) y el resto de `ThingDef` del núcleo (196, a mano) |
 | 4 | Recetas | hecha (17-oct-2026): 754 recetas por script y 152 a mano, 2.718 entradas |
 | 5 | Resto del núcleo | hecha (18-oct-2026): `HediffDef` (147), `ResearchProjectDef` (18), `LaserBeamDefCE` (11), `WorldObjectDef` (4) y `PawnKindDef` (3), todo a mano, más los 132 gritos de combate de `Strings/NameBanks` con el tono que eligió Angel. Combat Extended queda completo para quien juega solo con el juego base y los DLC |
-| 6 | Compatibilidad | primera tanda hecha (19-oct-2026): los 24 mods que RML ya traduce, 451 entradas por script con una tabla que Angel revisó. Quedan 5.072 `TODO`, todos de mods que RML no traduce |
+| 6 | Compatibilidad | primera tanda hecha (19-oct-2026): los 24 mods que RML ya traduce, 451 entradas por script con una tabla que Angel revisó. Quedan 5.086 `TODO`, todos de mods que RML no traduce |
+| 6b | Munición genérica | hecha (19-oct-2026): el extractor saca los tres campos, y se tradujeron a mano las 41 entradas del núcleo y de VWE Non-Lethal. Las 14 de mods que RML no traduce quedan en `TODO` con el resto de la etapa 6 |
 
 ## Próxima sesión (19-oct-2026)
 
