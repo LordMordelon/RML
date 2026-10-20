@@ -58,7 +58,7 @@ Y cada carpeta de mod, por dentro:
     <codigo>.xml              <- codificado: el nombre tiene que ser único en todo Data/
   LoadFolders.Build.yaml
   UNUSED.xml                  <- traducciones apartadas
-  *.md                        <- notas de trabajo de una traducción grande (hoy, el plan y el glosario
+  *.md                        <- notas de trabajo de una traducción grande (hoy, el plan y los dos glosarios
                                  de Combat Extended). El extractor no las toca y no van a output/
 ```
 
