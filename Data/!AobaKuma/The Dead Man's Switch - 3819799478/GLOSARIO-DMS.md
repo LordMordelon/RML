@@ -81,6 +81,28 @@ Angel tiene que aprobar antes de usarlos en `ThingDef` y en las misiones.
 | mech frame | **estructura de meca** | Como «frame» en el glosario general |
 | «X: reinforcements inbound» | **«X: llegan refuerzos»** | Como en `DMS_DecoySite` |
 
+## Términos nuevos del II (sesión 2, `ThingDef`)
+
+| Inglés | Español | Notas |
+|---|---|---|
+| bullhound / hellhound | **can de presa** / **can infernal** | **A confirmar.** Derivados grandes del dogo; «sabueso» ya es el `Hound` |
+| Frogman (XM132) | **hombre rana** | **A confirmar.** El bioautomatroide anfibio |
+| wildfowl (dron) | **ave silvestre** | **A confirmar.** Dron suicida «Hunter Bee» |
+| Sepulturero, Velador, Lanius, erima, uca | **sepulturero**, **velador**, **lanius**, **erima**, **uca** | Ya vienen en español o son nombres propios: solo van en minúscula |
+| biomatroid | **bioautomatroide** | |
+| mobile cargo lifter | **elevador de carga móvil** | La cápsula de suministros vista como objeto |
+| Large Automatroid Constructor | **gran ensamblador de automatroides** | Como «gran gestador de mecas» |
+| recoilless rifle | **cañón sin retroceso** | |
+| shaped charge / HE-frag | **carga hueca** / **explosivo de fragmentación** | |
+| slug / buckshot / flechette | **posta** / **perdigones** / **flechette** | «posta de goma» ya estaba aprobada |
+| dragon's breath | **aliento de dragón** | |
+| firefoam | **espuma ignífuga** | |
+| EMP | **EMP** | Sin traducir, como en el resto de RML |
+| Legacy remnant | **remanentes del Legado** | |
+| exostrider | **exoandador** | |
+| key-card / access key | **tarjeta de acceso** | |
+| Pick up {0_label} / Decrypt {0_label} | **Recoger {0_label}** / **Descifrar {0_label}** | `Use` ya era «Usar {0_label}» |
+
 **Pronombres de una persona** (`{DEVIANT_pronoun}`, `{DEVIANT_objective}`, `{DEFENDANT_objective}`):
 en español llevarían género, así que la frase se arma sin ellos («La flota nunca supo que estuvo
 aquí», «no tenemos noticias suyas»). `{X_possessive}` sí se usa: es «su».

@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: `Keyed` hecho (325 de 325); sigue `ThingDef` |
+| 4 | Traducir lo nuevo | grande | en curso: `Keyed` y `ThingDef` hechos; sigue investigación y recetas |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -163,20 +163,24 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 ## Próxima sesión (20-oct-2026, después de la sesión 2)
 
-**Objetivo:** `ThingDef` (506 renglones, etapa 4), primero los nombres y después las descripciones.
+**Objetivo:** etapa 4, punto 3: `ResearchProjectDef` (42) y `RecipeDef` (72). Las recetas van con el
+script aprobado (decisión 2): primero la tabla para que Angel la revise.
 
-**Estado (sesión 2):** `Keyed` terminado, en `1e8692d` y `d23d84b`; los términos nuevos, en
-«Términos nuevos del II» de `GLOSARIO-DMS.md` (`6a8d1a0`). Todo en RML `master`, **sin subir**.
-Los pronombres `{DEVIANT_pronoun}` y `{DEVIANT_objective}` se omiten a propósito (ver el glosario).
-Los «Cambios que no son de esta sesión» de abajo siguen sin tocar.
+**Estado (sesión 2):** `Keyed` y `ThingDef` terminados, todo en RML `master`, **sin subir**:
 
-**Antes de empezarla (Angel):** confirmar los nombres marcados «a confirmar» en el glosario
-(disidente, guardatumbas, tecnología oculta, tejedor de clústeres, elevador de tripulación), que
-`ThingDef` usa como etiquetas. Siguen pendientes las tres preguntas de la sesión 1 (abajo):
-recargador, `DMS_Wetware` y el `Patches` renombrado.
+- `Keyed`: `1e8692d`, `d23d84b`. `ThingDef`: `4171796` a `40d4cf9` (seis tramos). Queda en `TODO`
+  solo `DMS_AMO_Beast.description`, que el mod trae como «TODO» en inglés.
+- Decisiones de Angel aplicadas (`dd616ca`): «cargador de automatroides», «biocomputadora» en el gen
+  `DMS_Wetware` y en el núcleo de los mecas. El `Patches` renombrado quedó como `v12z9b.xml`
+  (`8758067`), que es el de la última extracción.
+- Términos nuevos en `GLOSARIO-DMS.md`, en dos tablas («sesión 2, `Keyed`» y «sesión 2, `ThingDef`»).
+  «Mobile dragoon» sigue a *The Dead Man's Switch - MobileDragoon*: «exotraje drago».
+- Las tres comprobaciones del diff, vacías salvo los cambios que decidió Angel.
 
-**Al empezar (Claude):** `DefInjected/ThingDef/`, archivo por archivo, primero las `.label`. Con los
-nombres que Angel cambie, corregir también `Keyed/1icbuu.xml`. Un commit por tramo.
+**Antes de empezarla (Angel):** confirmar los nombres «a confirmar» del glosario: disidente,
+guardatumbas, tecnología oculta, tejedor de clústeres, elevador de tripulación, can de presa / can
+infernal, hombre rana y ave silvestre. Si cambia alguno, se corrige en `Keyed/1icbuu.xml` y en
+`ThingDef/go2jb9.xml`.
 
 ---
 
