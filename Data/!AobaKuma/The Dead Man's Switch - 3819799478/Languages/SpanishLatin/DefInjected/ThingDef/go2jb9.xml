@@ -161,7 +161,7 @@
   <!-- EN: Mech LMG -->
   <DMS_LightMachineGun.label>ametralladora ligera de meca</DMS_LightMachineGun.label>
   <!-- EN: A weapon specializing in supression chambered in a large caliber rifle round.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nIts folding bipod lets a drafted operator drop it into a firing position on the spot, and pick it back up just as quickly. -->
-  <DMS_LightMachineGun.description>Un arma especializada en supresión con recámara para un proyectil de rifle de gran calibre.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.</DMS_LightMachineGun.description>
+  <DMS_LightMachineGun.description>Un arma especializada en supresión con recámara para un proyectil de rifle de gran calibre.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu bípode plegable permite que un operador reclutado la ponga en posición de tiro en el acto, y que la vuelva a levantar igual de rápido.</DMS_LightMachineGun.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_LightMachineGun.comps.2.useLabel>TODO</DMS_LightMachineGun.comps.2.useLabel>
   <!-- EN: Mech LMG -->
@@ -195,7 +195,7 @@
   <!-- EN: Mech Grenade Launcher -->
   <DMS_AutomaticGrenadeLauncher.label>lanzagranadas de meca</DMS_AutomaticGrenadeLauncher.label>
   <!-- EN: A handheld automatic grenade launcher for clearing out clustered targets.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nIts tripod folds under the receiver, so a drafted operator can set it down into a firing position on the spot and break it back down just as quickly. -->
-  <DMS_AutomaticGrenadeLauncher.description>Un lanzagranadas automático de mano para eliminar objetivos agrupados.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.</DMS_AutomaticGrenadeLauncher.description>
+  <DMS_AutomaticGrenadeLauncher.description>Un lanzagranadas automático de mano para eliminar objetivos agrupados.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_AutomaticGrenadeLauncher.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_AutomaticGrenadeLauncher.comps.2.useLabel>TODO</DMS_AutomaticGrenadeLauncher.comps.2.useLabel>
   <!-- EN: stock -->
@@ -227,7 +227,7 @@
   <!-- EN: Mech HMG -->
   <DMS_HeavyMachineGun.label>ametralladora pesada meca</DMS_HeavyMachineGun.label>
   <!-- EN: A heavy machine gun for mech soldiers or infantry support platforms.\n\nThis weapon is designed specifically for automatroid use,it&apos;s so heavy only specific automatroids can operate it unless it&apos;s mounted to a support platform.\n\nIts tripod folds under the receiver, so a drafted operator can set it down into a firing position on the spot and break it back down just as quickly. -->
-  <DMS_HeavyMachineGun.description>Una ametralladora pesada para soldados mecánicos o plataformas de apoyo de infantería.\n\nEsta arma está diseñada específicamente para el uso de automatroides, es tan pesada que solo automatroides específicos pueden operarla a menos que esté montada en una plataforma de apoyo.</DMS_HeavyMachineGun.description>
+  <DMS_HeavyMachineGun.description>Una ametralladora pesada para soldados mecánicos o plataformas de apoyo de infantería.\n\nEsta arma está diseñada específicamente para el uso de automatroides, es tan pesada que solo automatroides específicos pueden operarla a menos que esté montada en una plataforma de apoyo.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_HeavyMachineGun.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_HeavyMachineGun.comps.2.useLabel>TODO</DMS_HeavyMachineGun.comps.2.useLabel>
   <!-- EN: stock -->
@@ -249,7 +249,7 @@
   <!-- EN: machine cabinet -->
   <DMS_MachineCabinet.label>gabinete de control</DMS_MachineCabinet.label>
   <!-- EN: A cabinet that contains many complex mechanical devices to improve product quality, such as laser positioners and temperature detectors to assist with calibration. These instruments also improve work efficiency.\n\nEach production building can connect up to 8 machine cabinets. When producing a product that has quality, each cabinet provides a 25% chance of increasing quality by one level. -->
-  <DMS_MachineCabinet.description>Un gabinete que contiene muchos dispositivos mecánicos complejos para mejorar la calidad del producto, como posicionadores láser y detectores de temperatura para ayudar con la calibración. Estos instrumentos también mejoran la eficiencia del trabajo.\n\nCada edificio de producción puede conectar hasta 8 gabinetes de máquinas. Al producir un producto que tiene calidad, cada gabinete proporciona un 40% de probabilidad de aumentar la calidad.</DMS_MachineCabinet.description>
+  <DMS_MachineCabinet.description>Un gabinete que contiene muchos dispositivos mecánicos complejos para mejorar la calidad del producto, como posicionadores láser y detectores de temperatura para ayudar con la calibración. Estos instrumentos también mejoran la eficiencia del trabajo.\n\nCada edificio de producción puede conectar hasta 8 gabinetes de máquinas. Al producir un producto que tiene calidad, cada gabinete proporciona un 25% de probabilidad de aumentar la calidad en un nivel.</DMS_MachineCabinet.description>
   <!-- EN: perimeter scanner -->
   <DMS_PerimeterScanner.label>escáner perimetral</DMS_PerimeterScanner.label>
   <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible objects within its radius. -->
@@ -341,7 +341,7 @@
   <!-- EN: Sentry gun -->
   <DMS_Turret_Sentry.label>arma centinela</DMS_Turret_Sentry.label>
   <!-- EN: A light automatic turret with a built-in battery, designed to be carried and set up wherever the line needs a gun. On the power grid it charges its internal cell; cut off from the grid it draws on that reserve and keeps firing until the cell runs dry. Switching it off puts it on standby: it stops watching and pours the saved power into the cell instead, charging twice as fast.\n\nIts tripod folds flat, so a drafted operator can pick it up, carry it forward and drop it into position on the spot. A cell charged before departure will keep it standing watch for days. -->
-  <DMS_Turret_Sentry.description>Una torreta controlada a distancia de despliegue rápido y desechable que puede usarse continuamente durante unas 12 horas después de ser desplegada. Se apagará automáticamente una vez que se agote la energía. Este tipo de equipos suelen desplegarse en entornos de combate urbano para emboscar enemigos.</DMS_Turret_Sentry.description>
+  <DMS_Turret_Sentry.description>Una torreta automática ligera con batería integrada, diseñada para llevarse e instalarse donde la línea necesite un arma. Conectada a la red eléctrica, carga su celda interna; desconectada de la red, usa esa reserva y sigue disparando hasta que la celda se agota. Al apagarla queda en espera: deja de vigilar y destina la energía ahorrada a la celda, que carga el doble de rápido.\n\nSu trípode se pliega por completo, así que un operador reclutado puede levantarla, llevarla hacia adelante y ponerla en posición en el acto. Con la celda cargada antes de partir, puede montar guardia durante días.</DMS_Turret_Sentry.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_Turret_Sentry.comps.5.useLabel>TODO</DMS_Turret_Sentry.comps.5.useLabel>
   <!-- EN: Gatekeeper -->
@@ -505,7 +505,7 @@
   <!-- EN: Neuroglue -->
   <Neuroglue.label>neuropegamento</Neuroglue.label>
   <!-- EN: A protein-like receptor gel which connects biological tissues and neural machinery. Neuroglue can effectively block phantom limb syndrome and synthetic rejections, and each dose eases xeno limb syndrome by one level.\n\nSuch products have been circulating Rimworld and Midworld for many decades, but any organization claiming to have produced this product has been sanctioned by agents from the Coreworld. They Declare that such a product will increase the bionic level of pirates which isn&apos;t safe for regional balance. -->
-  <Neuroglue.description>Un gel receptor similar a una proteína que conecta tejidos biológicos y maquinaria neural. El neuropegamento puede bloquear eficazmente el síndrome del miembro fantasma y los rechazos sintéticos.\n\nTales productos han estado circulando por Rimworld y Midworld durante muchas décadas, pero cualquier organización que afirme haber producido este producto ha sido sancionada por agentes del Coreworld. Declaran que dicho producto aumentará el nivel biónico de los piratas, lo que no es seguro para el equilibrio regional.</Neuroglue.description>
+  <Neuroglue.description>Un gel receptor similar a una proteína que conecta tejidos biológicos y maquinaria neural. El neuropegamento puede bloquear eficazmente el síndrome del miembro fantasma y los rechazos sintéticos, y cada dosis alivia en un nivel el síndrome del miembro xeno.\n\nTales productos han estado circulando por Rimworld y Midworld durante muchas décadas, pero cualquier organización que afirme haber producido este producto ha sido sancionada por agentes del Coreworld. Declaran que dicho producto aumentará el nivel biónico de los piratas, lo que no es seguro para el equilibrio regional.</Neuroglue.description>
   <!-- EN: Take {0} -->
   <Neuroglue.ingestible.ingestCommandString>Tomar {0}</Neuroglue.ingestible.ingestCommandString>
   <!-- EN: Taking {0}. -->
@@ -719,7 +719,7 @@
   <!-- EN: Extended Cargo Rack -->
   <DMS_BF_ExtendCargo.label>soporte de carga</DMS_BF_ExtendCargo.label>
   <!-- EN: Side mounted cargo racks suitable for battle frame pylons. The racks increase the carrying capacity of battle frames and their variants, and a fitted unit hauls enough to speed up a caravan it travels with. The added weight slows the unit down on foot. -->
-  <DMS_BF_ExtendCargo.description>Soportes de carga montados lateralmente adecuados para los pilones de los armazones de batalla. Los soportes aumentan la capacidad de carga del armazón de batalla y sus variantes.</DMS_BF_ExtendCargo.description>
+  <DMS_BF_ExtendCargo.description>Soportes de carga montados lateralmente adecuados para los pilones de los armazones de batalla. Los soportes aumentan la capacidad de carga de los armazones de batalla y sus variantes, y una unidad equipada transporta lo suficiente para acelerar la caravana con la que viaja. El peso añadido hace que la unidad se mueva más lento a pie.</DMS_BF_ExtendCargo.description>
   <!-- EN: Use {0_label} -->
   <DMS_BF_ExtendCargo.comps.1.useLabel>Usar {0_label}</DMS_BF_ExtendCargo.comps.1.useLabel>
   <!-- EN: Additional Armor Plating -->
@@ -767,7 +767,7 @@
   <!-- EN: Escort Lifter -->
   <DMS_Mech_EscortLifter.label>elevador escolta</DMS_Mech_EscortLifter.label>
   <!-- EN: An early stage mass-production automatroid. It&apos;s no longer in regular service, but plenty were refitted with external cargo boxes and handling arms for logistics duty - it carries more than anything else in the battle frame line. The military hardware that came off in the conversion means it can only carry a light arm for self-defence. -->
-  <DMS_Mech_EscortLifter.description>Un automatroide de producción masiva de etapa temprana. Ya no está en servicio regular, pero todavía hay muchos de ellos modificados para fines de transporte.</DMS_Mech_EscortLifter.description>
+  <DMS_Mech_EscortLifter.description>Un automatroide de producción masiva de etapa temprana. Ya no está en servicio regular, pero muchos se reacondicionaron con cajas de carga externas y brazos de manipulación para tareas de logística: carga más que cualquier otro modelo de la línea de armazones de batalla. Por el equipo militar que se le retiró en la conversión, solo puede llevar un arma ligera para defensa propia.</DMS_Mech_EscortLifter.description>
   <!-- EN: head -->
   <DMS_Mech_EscortLifter.tools.0.label>cabeza</DMS_Mech_EscortLifter.tools.0.label>
   <!-- EN: left fist -->
@@ -777,7 +777,7 @@
   <!-- EN: Shaft Worker -->
   <DMS_Mech_ShaftWorker.label>trabajador de eje</DMS_Mech_ShaftWorker.label>
   <!-- EN: A colonial engineering derivative of the battle frame lineage. It stands taller and carries heavier working plate than a battle friend, and its site-survey and excavation software is demanding enough to take up more of a mechanitor&apos;s bandwidth than a line unit does. The weapon system was stripped back to hold the unit price down, so it can only carry a light arm for self-defence. -->
-  <DMS_Mech_ShaftWorker.description>Un automatroide de producción masiva de etapa temprana. Ya no está en servicio regular, pero hay muchos de ellos modificados para ser utilizados con fines de minería y construcción.</DMS_Mech_ShaftWorker.description>
+  <DMS_Mech_ShaftWorker.description>Un derivado de ingeniería colonial del linaje de los armazones de batalla. Es más alto y lleva placas de trabajo más pesadas que un amigo de batalla, y su software de reconocimiento de terreno y excavación es tan exigente que ocupa más banda ancha del mecanizador que una unidad de línea. Se recortó su sistema de armas para mantener bajo el precio unitario, así que solo puede llevar un arma ligera para defensa propia.</DMS_Mech_ShaftWorker.description>
   <!-- EN: head -->
   <DMS_Mech_ShaftWorker.tools.0.label>cabeza</DMS_Mech_ShaftWorker.tools.0.label>
   <!-- EN: left fist -->
@@ -799,19 +799,19 @@
   <!-- EN: Caretta -->
   <DMS_Mech_Caretta.label>caretta</DMS_Mech_Caretta.label>
   <!-- EN: A Geochelone variant. This mobile artillery platform mounts a rapid fire mortar launcher to bombard enemy bases and ground forces from afar, while retaining the chassis&apos; miniaturised pulse shield. -->
-  <DMS_Mech_Caretta.description>Una plataforma de artillería móvil equipada con un lanzador de mortero de disparo rápido, diseñada para bombardear bases enemigas y fuerzas terrestres desde lejos.</DMS_Mech_Caretta.description>
+  <DMS_Mech_Caretta.description>Una variante del geochelone. Esta plataforma de artillería móvil monta un lanzador de mortero de disparo rápido para bombardear bases enemigas y fuerzas terrestres desde lejos, y conserva el escudo de pulsos miniaturizado del chasis.</DMS_Mech_Caretta.description>
   <!-- EN: head -->
   <DMS_Mech_Caretta.tools.0.label>cabeza</DMS_Mech_Caretta.tools.0.label>
   <!-- EN: killdozer -->
   <DMS_Mech_Killdozer.label>demoledor</DMS_Mech_Killdozer.label>
   <!-- EN: A heavily built unmanned assault sapper. The frontal dozer blade lets it break through fortifications on the front line, and the armor on various parts of the hull has been reinforced to match. Its bulk exceeds even the Geochelone it was derived from. -->
-  <DMS_Mech_Killdozer.description>Un zapador de asalto no tripulado con una hoja de bulldozer para la ruptura de fortificaciones en la línea del frente, y el blindaje en varias partes del cuerpo también ha sido reforzado.</DMS_Mech_Killdozer.description>
+  <DMS_Mech_Killdozer.description>Un zapador de asalto no tripulado de construcción pesada. Su hoja de bulldozer frontal le permite abrirse paso a través de fortificaciones en la línea del frente, y el blindaje de varias partes del casco se reforzó a la par. Su volumen supera incluso al del geochelone del que deriva.</DMS_Mech_Killdozer.description>
   <!-- EN: dozer blade -->
   <DMS_Mech_Killdozer.tools.0.label>hoja de bulldozer</DMS_Mech_Killdozer.tools.0.label>
   <!-- EN: Iguana -->
   <DMS_Mech_Iguana.label>iguana</DMS_Mech_Iguana.label>
   <!-- EN: The modernized, redesigned bipedal walking tank based on the Tarbosaurus. Small, cheap and suited to mass production, it is the modular model of the line: its weapon mount takes a wide range of heavy weapons, so it can be refitted for the mission at hand. It carries no electromagnetic reactive armor and its base plating is moderate, relying on its mobility and smoke launchers to survive. -->
-  <DMS_Mech_Iguana.description>El tanque andante bípedo modernizado y rediseñado basado en el tarbosaurio. Este modelo se produce sin el blindaje electromagnético experimental, lo que le permite mantener una mayor movilidad.</DMS_Mech_Iguana.description>
+  <DMS_Mech_Iguana.description>El tanque andante bípedo modernizado y rediseñado basado en el tarbosaurio. Pequeño, barato y apto para la producción en masa, es el modelo modular de la línea: su montura de armas admite una amplia gama de armas pesadas, así que puede reequiparse según la misión. No lleva blindaje reactivo electromagnético y sus placas base son moderadas, por lo que depende de su movilidad y sus lanzadores de humo para sobrevivir.</DMS_Mech_Iguana.description>
   <!-- EN: Mechanical Head -->
   <DMS_Mech_Iguana.tools.0.label>Cabeza mecánica</DMS_Mech_Iguana.tools.0.label>
   <!-- EN: Left Leg -->
@@ -821,7 +821,7 @@
   <!-- EN: Gecko -->
   <DMS_Mech_Gecko.label>geco</DMS_Mech_Gecko.label>
   <!-- EN: A close-range armored variant of the Iguana, built to hold streets and breach buildings. Its plating is thickened well beyond the base chassis, and an add-on array of electromagnetic reactive armor bricks negates shaped charges and explosives outright. The extra tonnage makes it slower and more expensive than the Iguana, and its weapon options are limited to short-range heavy arms. -->
-  <DMS_Mech_Gecko.description>Una variante de combate urbano de la Iguana, este modelo está blindado con placas electromagnéticas adicionales para proteger contra proyectiles de carga hueca y explosivos.</DMS_Mech_Gecko.description>
+  <DMS_Mech_Gecko.description>Una variante blindada de corto alcance de la iguana, construida para defender calles e irrumpir en edificios. Sus placas son mucho más gruesas que las del chasis base, y un conjunto adicional de ladrillos de blindaje reactivo electromagnético anula por completo las cargas huecas y los explosivos. El tonelaje extra la hace más lenta y más cara que la iguana, y sus opciones de armamento se limitan a armas pesadas de corto alcance.</DMS_Mech_Gecko.description>
   <!-- EN: Mechanical Head -->
   <DMS_Mech_Gecko.tools.0.label>Cabeza mecánica</DMS_Mech_Gecko.tools.0.label>
   <!-- EN: Left Leg -->
@@ -837,7 +837,7 @@
   <!-- EN: Hermit Crab -->
   <DMS_Mech_HermitCrab.label>cangrejo ermitaño</DMS_Mech_HermitCrab.label>
   <!-- EN: These large, expensive, and heavy mobile industrial machines are designed to be an all-in-one unit for colonizing new worlds. Their large and expensive magnetic stabilized shells integrate many complex-axis CNC tools and precision machinery, and the same stabilisation field doubles as a short-ranged projectile interceptor - a side effect the manufacturers were happy to advertise. In a pinch, its precision tools allow it to perform surgical procedures as long as the patient overcomes their fear of a machine weighing several tons acting as their surgeon. The shell also houses an engineering drone bay, letting it carry and deploy uca and erima work drones in the field. -->
-  <DMS_Mech_HermitCrab.description>Estas grandes, costosas y pesadas máquinas industriales móviles están diseñadas para ser una unidad todo en uno para colonizar nuevos mundos. Sus grandes y costosas carcasas estabilizadas magnéticamente integran muchas herramientas CNC de eje complejo y maquinaria de precisión. En caso de apuro, sus herramientas de precisión le permiten realizar procedimientos quirúrgicos siempre que el paciente supere su miedo a que una máquina que pesa varias toneladas actúe como su cirujano.</DMS_Mech_HermitCrab.description>
+  <DMS_Mech_HermitCrab.description>Estas grandes, costosas y pesadas máquinas industriales móviles están diseñadas para ser una unidad todo en uno para colonizar nuevos mundos. Sus grandes y costosas carcasas estabilizadas magnéticamente integran muchas herramientas CNC de eje complejo y maquinaria de precisión, y el mismo campo de estabilización sirve además como interceptor de proyectiles de corto alcance, un efecto secundario que los fabricantes anunciaron con gusto. En caso de apuro, sus herramientas de precisión le permiten realizar procedimientos quirúrgicos siempre que el paciente supere su miedo a que una máquina que pesa varias toneladas actúe como su cirujano. La carcasa también aloja un compartimento de drones de ingeniería, que le permite llevar y desplegar drones de trabajo uca y erima en el terreno.</DMS_Mech_HermitCrab.description>
   <!-- EN: head -->
   <DMS_Mech_HermitCrab.tools.0.label>cabeza</DMS_Mech_HermitCrab.tools.0.label>
   <!-- EN: laser cutter -->
@@ -857,7 +857,7 @@
   <!-- EN: Falcon -->
   <DMS_Mech_Falcon.label>halcón</DMS_Mech_Falcon.label>
   <!-- EN: A light tri-rotor drone built for armed aerial reconnaissance and anti-tank strikes. Despite its size it is rated to carry a disposable launcher, letting it kill armor a unit of its weight class has no business engaging. -->
-  <DMS_Mech_Falcon.description>Un dron de tres rotores de alta resistencia construido para trabajar en conjunto con unidades de reconocimiento y unidades antitanque.</DMS_Mech_Falcon.description>
+  <DMS_Mech_Falcon.description>Un dron ligero de tres rotores construido para el reconocimiento aéreo armado y los ataques antitanque. Pese a su tamaño, está homologado para llevar un lanzador desechable, lo que le permite destruir blindados que una unidad de su categoría de peso no tendría por qué enfrentar.</DMS_Mech_Falcon.description>
   <!-- EN: head -->
   <DMS_Mech_Falcon.tools.0.label>cabeza</DMS_Mech_Falcon.tools.0.label>
   <!-- EN: Noctula -->
@@ -895,7 +895,7 @@
   <!-- EN: Pioneer -->
   <DMS_Mech_Pioneer.label>pionero</DMS_Mech_Pioneer.label>
   <!-- EN: A forward reconnaissance variant of the Arquebusier. Its fire control is unchanged from the standard model, but the weapon mount and observation gear are opened up to a much wider range of long-barrelled and civilian arms, letting it operate away from the logistics chain. In a pinch, it can be used to hunt wildlife. -->
-  <DMS_Mech_Pioneer.description>Una variante de reconocimiento avanzado del arcabucero, los Pioneros están equipados con un paquete de sensores de visión mejorado que les otorga una mejor capacidad en operaciones de campo. En caso de apuro, se puede usar para cazar vida silvestre.</DMS_Mech_Pioneer.description>
+  <DMS_Mech_Pioneer.description>Una variante de reconocimiento avanzado del arcabucero. Su control de tiro no cambia respecto del modelo estándar, pero su montura de armas y su equipo de observación admiten una gama mucho más amplia de armas de cañón largo y civiles, lo que le permite operar lejos de la cadena logística. En caso de apuro, se puede usar para cazar animales salvajes.</DMS_Mech_Pioneer.description>
   <!-- EN: head -->
   <DMS_Mech_Pioneer.tools.0.label>cabeza</DMS_Mech_Pioneer.tools.0.label>
   <!-- EN: left fist -->
@@ -927,7 +927,7 @@
   <!-- EN: Gladiator -->
   <DMS_Mech_Gladiator.label>gladiador</DMS_Mech_Gladiator.label>
   <!-- EN: A melee specialized variant of the Ronin. The Gladiator keeps the Ronin&apos;s mobility and trades frontal plating for a highly articulated frame, reinforced specifically against the blunt impacts of close combat, plus an upgraded melee module and an assault shield. -->
-  <DMS_Mech_Gladiator.description>Una variante del ronin especializado en combate cuerpo a cuerpo. El gladiador mantiene la movilidad y el blindaje del ronin y viene con un módulo de combate cuerpo a cuerpo mejorado y está equipado con un escudo de asalto.</DMS_Mech_Gladiator.description>
+  <DMS_Mech_Gladiator.description>Una variante del ronin especializada en combate cuerpo a cuerpo. El gladiador conserva la movilidad del ronin y cambia el blindaje frontal por una estructura muy articulada, reforzada específicamente contra los impactos contundentes del combate cercano, además de un módulo de combate cuerpo a cuerpo mejorado y un escudo de asalto.</DMS_Mech_Gladiator.description>
   <!-- EN: assault shield -->
   <DMS_Mech_Gladiator.tools.0.label>escudo de asalto</DMS_Mech_Gladiator.tools.0.label>
   <!-- EN: right fist -->
@@ -953,7 +953,7 @@
   <!-- EN: Phalanx -->
   <DMS_Mech_Phalanx.label>falange</DMS_Mech_Phalanx.label>
   <!-- EN: The Phalanx is a cost-reduced mass-production auxiliary built for urban combat. Its sonar suite and part of its plating were deleted to bring the unit price down, so it is slower and thinner-skinned than a Ronin - it is meant to lay down direct fire alongside Ronin squads and to be fielded in numbers, not to lead the assault. -->
-  <DMS_Mech_Phalanx.description>La unidad falange es una variante barata y de producción masiva especializada en combate urbano. Viene equipada con blindaje de asalto y un paquete de alta movilidad, lo que la convierte en una unidad feroz en el combate cuerpo a cuerpo.</DMS_Mech_Phalanx.description>
+  <DMS_Mech_Phalanx.description>La falange es una unidad auxiliar de producción en masa y costo reducido, construida para el combate urbano. Se le quitaron el equipo de sonar y parte de las placas para bajar su precio unitario, así que es más lenta y menos blindada que un ronin: está pensada para dar fuego directo junto a escuadras de ronin y desplegarse en cantidad, no para encabezar el asalto.</DMS_Mech_Phalanx.description>
   <!-- EN: head -->
   <DMS_Mech_Phalanx.tools.0.label>cabeza</DMS_Mech_Phalanx.tools.0.label>
   <!-- EN: left fist -->
@@ -993,7 +993,7 @@
   <!-- EN: Sergeant -->
   <DMS_Mech_Sergeant.label>sargento</DMS_Mech_Sergeant.label>
   <!-- EN: As a relay command variant of the Soldat, it has a very recognizable disc-shaped omnidirectional radar and transceiver antenna. Sergeants extend a mechanitor&apos;s effective range and can be equipped with the same weapons rated for human use as a standard Soldat. -->
-  <DMS_Mech_Sergeant.description>Como variante de comando de relé de la unidad soldado, tiene un radar omnidireccional en forma de disco muy reconocible y una antena transceptora. Los sargentos extienden el alcance efectivo de un mecanizador, pero debido al peso de su equipo de radar, solo pueden equipar un arma ligera para defensa propia.</DMS_Mech_Sergeant.description>
+  <DMS_Mech_Sergeant.description>Como variante de comando de relé de la unidad soldado, tiene un radar omnidireccional en forma de disco muy reconocible y una antena transceptora. Los sargentos extienden el alcance efectivo de un mecanizador y pueden equiparse con las mismas armas aptas para uso humano que un soldado estándar.</DMS_Mech_Sergeant.description>
   <!-- EN: head -->
   <DMS_Mech_Sergeant.tools.0.label>cabeza</DMS_Mech_Sergeant.tools.0.label>
   <!-- EN: left fist -->
@@ -1059,7 +1059,7 @@
   <!-- EN: Dogge -->
   <DMS_Mech_Dogge.label>dogo</DMS_Mech_Dogge.label>
   <!-- EN: A medium four-legged machine gun platform. Synthetic artificial muscle bundles in its limbs give it exceptional mobility, and its low silhouette suits it to providing mobile fire support across open ground. It can equip small-caliber firearms or flamethrowers. -->
-  <DMS_Mech_Dogge.description>Un perro robot de cuatro patas que sobresale en el reconocimiento avanzado y el apoyo de combate urbano durante las operaciones. Puede equiparse con armas de fuego de pequeño calibre o lanzallamas para proporcionar capacidades ofensivas.</DMS_Mech_Dogge.description>
+  <DMS_Mech_Dogge.description>Una plataforma de ametralladora mediana de cuatro patas. Los haces de músculo artificial sintético de sus extremidades le dan una movilidad excepcional, y su silueta baja la hace adecuada para dar apoyo de fuego móvil en terreno abierto. Puede equiparse con armas de fuego de pequeño calibre o lanzallamas.</DMS_Mech_Dogge.description>
   <!-- EN: head -->
   <DMS_Mech_Dogge.tools.0.label>cabeza</DMS_Mech_Dogge.tools.0.label>
   <!-- EN: Knuckleduster Revolver -->
@@ -1665,7 +1665,7 @@
   <!-- EN: Automatroid Constructor -->
   <DMS_MechGestatorSmall.label>ensamblador de automatroides</DMS_MechGestatorSmall.label>
   <!-- EN: A massive piece of industrial equipment used to assemble light and medium Automatroids. -->
-  <DMS_MechGestatorSmall.description>Una pieza masiva de equipo industrial utilizada para ensamblar Autómatas.</DMS_MechGestatorSmall.description>
+  <DMS_MechGestatorSmall.description>Una pieza masiva de equipo industrial utilizada para ensamblar automatroides ligeros y medianos.</DMS_MechGestatorSmall.description>
   <!-- EN: Large Automatroid Constructor -->
   <DMS_MechGestatorLarge.label>TODO</DMS_MechGestatorLarge.label>
   <!-- EN: A giant piece of industrial equipment used to assemble large Automatroids. -->
@@ -1809,7 +1809,7 @@
   <!-- EN: central command core -->
   <DMS_GestaltEngine.label>núcleo de mando central</DMS_GestaltEngine.label>
   <!-- EN: A command core used to coordinate large-scaled automatroid squads, it have the ability to independently command and support an entire combined combat brigade without any further assist. -->
-  <DMS_GestaltEngine.description>Núcleo de cómputo ultragrande para el mando a gran escala de mecas. Es una tecnología que la flota colonial incorporó al pasar por un Mundo Brillante.</DMS_GestaltEngine.description>
+  <DMS_GestaltEngine.description>Un núcleo de mando usado para coordinar escuadras de automatroides a gran escala. Puede dirigir y apoyar por sí solo a una brigada de combate combinada completa, sin ninguna otra asistencia.</DMS_GestaltEngine.description>
   <!-- EN: command array -->
   <DMS_Gestalt_CommandArray.label>TODO</DMS_Gestalt_CommandArray.label>
   <!-- EN: Increases bandwidth when placed near central command core. Each central command core can only use eight command arrays. -->
