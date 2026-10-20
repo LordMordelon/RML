@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Flashbang barrage -->
+  <DMS_FlashLauncher.label>barrido de granadas aturdidoras</DMS_FlashLauncher.label>
+  <!-- EN: Launch an indirect-fired flashbang to stun the enemy. -->
+  <DMS_FlashLauncher.description>Lanzar una granada aturdidora de fuego indirecto para aturdir al enemigo.</DMS_FlashLauncher.description>
+  <!-- EN: Particle Smoke Barrage -->
+  <DMS_SmokeLauncher.label>barrido de humo</DMS_SmokeLauncher.label>
+  <!-- EN: Launch an antiparticle smoke screen to interfere with incoming charged munitions. -->
+  <DMS_SmokeLauncher.description>Lanzar una cortina de humo de antipartículas para interferir con las municiones cargadas entrantes.</DMS_SmokeLauncher.description>
+  <!-- EN: Launch Missile -->
+  <DMS_MissileLauncher.label>lanzar misil</DMS_MissileLauncher.label>
+  <!-- EN: Launch a long range guided missile with a high explosive payload. -->
+  <DMS_MissileLauncher.description>Lanzar un misil guiado de largo alcance con una carga útil de alto explosivo.</DMS_MissileLauncher.description>
+  <!-- EN: Bionic Longjump -->
+  <DMS_LongJump.label>salto largo biónico</DMS_LongJump.label>
+  <!-- EN: Jump to a distant location using bionic muscles. -->
+  <DMS_LongJump.description>Saltar a una ubicación distante usando músculos biónicos.</DMS_LongJump.description>
+  <!-- EN: jump -->
+  <DMS_LongJump.verbProperties.label>salto</DMS_LongJump.verbProperties.label>
+  <!-- EN: Self-Repair -->
+  <DMS_RepairMode.label>autorreparación</DMS_RepairMode.label>
+  <!-- EN: Initialize self-repair mode to rebuild missing parts, all sensors will temporarily be disabled to prevent electrical damage. -->
+  <DMS_RepairMode.description>Inicializar el modo de autorreparación para reconstruir las partes faltantes, todos los sensores se desactivarán temporalmente para evitar daños eléctricos.</DMS_RepairMode.description>
+  <!-- EN: initialize self-repair mode -->
+  <DMS_RepairMode.verbProperties.label>inicializar modo de autorreparación</DMS_RepairMode.verbProperties.label>
+  <!-- EN: Fission Overload -->
+  <DMS_NuclearOverload.label>sobrecarga de fisión</DMS_NuclearOverload.label>
+  <!-- EN: In order to avoid catastrophic environmental pollution or capture by the enemy, the fission battery can be manually forced into a meltdown. \n\nA meltdown will cause all unreacted nuclear material to atomize instantly, causing a violent explosive reaction. -->
+  <DMS_NuclearOverload.description>Para evitar una contaminación ambiental catastrófica o la captura por parte del enemigo, la batería de fisión puede ser forzada manualmente a una fusión.\n\nUna fusión hará que todo el material nuclear no reaccionado se atomice instantáneamente, causando una violenta reacción explosiva.</DMS_NuclearOverload.description>
+  <!-- EN: Overloading the fission battery will create a devastating explosion and destroy this unit. \n\nAre you sure to do this? -->
+  <DMS_NuclearOverload.confirmationDialogText>Sobrecargar la batería de fisión creará una explosión devastadora y destruirá esta unidad.</DMS_NuclearOverload.confirmationDialogText>
+  <!-- EN: fission overload -->
+  <DMS_NuclearOverload.verbProperties.label>sobrecarga de fisión</DMS_NuclearOverload.verbProperties.label>
+  <!-- EN: strafing -->
+  <DMS_Strafing.label>ametrallamiento</DMS_Strafing.label>
+  <!-- EN: Concentrate firepower to conduct a strafing attack in a specific direction. -->
+  <DMS_Strafing.description>Concentrar la potencia de fuego para realizar un ataque de ametrallamiento en una dirección específica.</DMS_Strafing.description>
+  <!-- EN: Repair Field -->
+  <DMS_RangeRepair.label>campo de reparación</DMS_RangeRepair.label>
+  <!-- EN: Release an ampule of repair nanites to assist nearby friendly mechs. The nanites induce the mechs into self-maintenance mode. -->
+  <DMS_RangeRepair.description>Liberar una ampolla de nanitos de reparación para ayudar a los mecanoides amigos cercanos. Los nanitos inducen a los mecanoides al modo de automantenimiento.</DMS_RangeRepair.description>
+  <!-- EN: Active Camouflage -->
+  <DMS_Camouflage.label>Camuflaje activo</DMS_Camouflage.label>
+  <!-- EN: Blend into the environment by activating morphic camouflage using nanomechanical coatings. -->
+  <DMS_Camouflage.description>Mezclarse con el entorno activando el camuflaje mórfico mediante recubrimientos nanomecánicos.</DMS_Camouflage.description>
+  <!-- EN: Sprint Burst -->
+  <DMS_BurstSprint.label>Ráfaga de velocidad</DMS_BurstSprint.label>
+  <!-- EN: Release accumulated mechanical energy allowing the Pioneer to sprint for a short duration. -->
+  <DMS_BurstSprint.description>Libera la energía mecánica acumulada, lo que permite al Pionero correr a gran velocidad durante un corto período de tiempo.</DMS_BurstSprint.description>
+  <!-- EN: Assault Flash -->
+  <DMS_FlashShock.label>destello de asalto</DMS_FlashShock.label>
+  <!-- EN: Activate the Assault Flash Array temporarily blinding incoming enemies. The device&apos;s battery will slowly recharge after use. -->
+  <DMS_FlashShock.description>Activar la matriz de destello de asalto para cegar temporalmente a los enemigos que se aproximan. La batería del dispositivo se recargará lentamente después de su uso.</DMS_FlashShock.description>
+  <!-- EN: Infrasound Barrage -->
+  <DMS_Infrasound.label>bombardeo de infrasonido</DMS_Infrasound.label>
+  <!-- EN: Cast powerful infrasound waves to interfere with the sensory systems of all creatures within its range. -->
+  <DMS_Infrasound.description>Lanzar potentes ondas de infrasonido para interferir con los sistemas sensoriales de todas las criaturas dentro de su alcance.</DMS_Infrasound.description>
+  <!-- EN: Request Reinforcements -->
+  <DMS_CallDrop.label>Solicitar refuerzos</DMS_CallDrop.label>
+  <!-- EN: Send a reinforcement request to an automated industrial facility in orbit, reinforcements will be dispatched based on the identification code of the transceiver. -->
+  <DMS_CallDrop.description>Enviar una solicitud de refuerzo a una instalación industrial automatizada en órbita, los refuerzos se enviarán según el código de identificación del transceptor.</DMS_CallDrop.description>
+  <!-- EN: Request Air Support -->
+  <DMS_CallDrop_Falcon.label>Solicitar apoyo aéreo</DMS_CallDrop_Falcon.label>
+  <!-- EN: Send a reinforcement request for three Falcons to an automated industrial facility in orbit, reinforcements will be dispatched based on the identification code of the transceiver. -->
+  <DMS_CallDrop_Falcon.description>Enviar una solicitud de refuerzo para tres Halcones a una instalación industrial automatizada en órbita, los refuerzos se enviarán según el código de identificación del transceptor.</DMS_CallDrop_Falcon.description>
+  <!-- EN: Precision Marksmanship -->
+  <DMS_SharpShooting.label>puntería de precisión</DMS_SharpShooting.label>
+  <!-- EN: The mech uses its built-in ballistic calculator to adjust for the conditions of its environment, greatly improving accuracy for a short time. -->
+  <DMS_SharpShooting.description>El meca utiliza su calculadora balística incorporada para ajustarse a las condiciones de su entorno, mejorando enormemente la precisión por un corto tiempo.</DMS_SharpShooting.description>
+  <!-- EN: Recon Calibration -->
+  <DMS_RangeFinder.label>calibración de reconocimiento</DMS_RangeFinder.label>
+  <!-- EN: Share fire control data with friendly forces within range to improve squad accuracy for short period. -->
+  <DMS_RangeFinder.description>Compartir datos de control de fuego con fuerzas amigas dentro del alcance para mejorar la precisión del escuadrón por un corto período.</DMS_RangeFinder.description>
+  <!-- EN: Heavy Jump -->
+  <DMS_TarbosaurusJump.label>salto pesado</DMS_TarbosaurusJump.label>
+  <!-- EN: Dense bionic muscles allow this 40-ton metal monster to leap a short distance, crushing everything unfortunate enough to be in its vicinity. -->
+  <DMS_TarbosaurusJump.description>Músculos biónicos densos permiten a este monstruo de metal de 40 toneladas saltar una corta distancia, aplastando todo lo suficientemente desafortunado como para estar en su proximidad.</DMS_TarbosaurusJump.description>
+  <!-- EN: jump -->
+  <DMS_TarbosaurusJump.verbProperties.label>salto</DMS_TarbosaurusJump.verbProperties.label>
+</LanguageData>
