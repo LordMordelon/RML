@@ -163,57 +163,29 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 ## Próxima sesión (20-oct-2026, después de la sesión 2)
 
-**Objetivo:** etapa 4, punto 3: `ResearchProjectDef` (42) y `RecipeDef` (72). Las recetas van con el
-script aprobado (decisión 2): primero la tabla para que Angel la revise.
+**Objetivo:** etapa 4, punto 3: `RecipeDef` (72 `TODO`) con el script aprobado, y `ResearchProjectDef`
+(42) a mano.
 
-**Estado (sesión 2):** `Keyed` y `ThingDef` terminados, todo en RML `master`, **sin subir**:
+**Estado:** `Keyed` y `ThingDef` terminados y subidos a RML `master` (último commit `70ac7c3`). Quedan
+937 `TODO` en `DefInjected` (contados por renglón el 20-oct-2026), entre ellos `BodyDef` 63, que también
+va por script. Los nombres nuevos están aprobados en `GLOSARIO-DMS.md`; los pronombres de persona se
+omiten a propósito (ver el glosario). Sin cambios a medias.
 
-- `Keyed`: `1e8692d`, `d23d84b`. `ThingDef`: `4171796` a `40d4cf9` (seis tramos). Queda en `TODO`
-  solo `DMS_AMO_Beast.description`, que el mod trae como «TODO» en inglés.
-- Decisiones de Angel aplicadas (`dd616ca`): «cargador de automatroides», «biocomputadora» en el gen
-  `DMS_Wetware` y en el núcleo de los mecas. El `Patches` renombrado quedó como `v12z9b.xml`
-  (`8758067`), que es el de la última extracción.
-- Términos nuevos en `GLOSARIO-DMS.md`, en dos tablas («sesión 2, `Keyed`» y «sesión 2, `ThingDef`»).
-  «Mobile dragoon» sigue a *The Dead Man's Switch - MobileDragoon*: «exotraje drago».
-- Las tres comprobaciones del diff, vacías salvo los cambios que decidió Angel.
+**Antes de empezarla (Angel):** nada.
 
-Angel aprobó los nombres nuevos del glosario (disidente, guardatumbas, tecnología oculta, tejedor de
-clústeres, elevador de tripulación, can de presa / can infernal, hombre rana y ave silvestre) y la
-subida de la sesión 2, el 20-oct-2026.
+**Al empezar (Claude):**
+1. Armar la tabla de las 72 recetas (inglés, traducción propuesta) siguiendo «ensamblar <automatroide>»
+   del glosario y el estilo de las 7 descripciones ya traducidas; mostrársela a Angel. No aplicar nada
+   hasta su «sí».
+2. Mientras Angel la revisa, `ResearchProjectDef` (42) a mano, un commit por tramo.
+3. Con el «sí», aplicar el script, anotar la excepción en «Editar XML de traducción» de `RML/AGENTS.md`
+   y correr las tres comprobaciones del diff. Cabe en una sesión; `BodyDef` queda para la siguiente.
 
-**Al empezar (Claude):** armar la tabla de las 72 recetas (`RecipeDef`) para el script aprobado y
-mostrársela a Angel antes de aplicarla; anotar la excepción en «Editar XML de traducción» de
-`RML/AGENTS.md`. Mientras tanto, `ResearchProjectDef` a mano.
+**Decisiones de Angel:** solo la tabla de recetas. Recomendación: aprobarla entera y corregir después
+en el juego lo que suene raro.
 
----
+**Guías:** ninguna (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
-### Notas de la sesión 1
-
-**Objetivo de la sesión 1:** terminar `Keyed` (quedan 261) y seguir con `ThingDef` (etapa 4).
-
-**Estado (20-oct-2026, sesión 1):** etapas 1, 2 y 3 hechas y `Keyed` hasta `DMS_Occultech_RenounceConfirm`
-(64 de 325), en 11 commits de RML `master` desde `45016d0` (este incluido), **sin subir**. Lo que se encontró de más:
-
-- Las 44 reglas sin «->» venían del pack viejo (`11fcccd`), no del extractor: no hay nada que
-  arreglar allá.
-- La comparación del plan no veía las listas: dos listas de la misión de documentos crecieron de 1 a 9
-  reglas y ya están traducidas (`1a00b8f`), y una regla de `DMS_Mechlink` (Sakalava) cambió.
-- `DMS_CourtMartial_HuntdownEnded` va sin `{DEFENDANT_objective}` a propósito: en español sería un
-  pronombre con género, y la frase se entiende sin él.
-- Inconsistencias viejas («ancho de banda», «autómata», el recargador, «wetware»): anotadas en
-  «Pendientes» de `GLOSARIO-DMS.md`. Dos son nombres y se confirman con Angel.
-- **Cambios que no son de esta sesión, sin commitear:** el `Patches` cambió de nombre
-  (`ncvt73.xml` → `v12z9b.xml`, mismo contenido), tres XML solo con finales de línea, el yaml de Combat
-  Extended y `ModList.tsv`/`docs/` regenerados. Parecen de la reextracción de las 02:20. No se tocaron.
-
-**Antes de empezarla (Angel):** decir si el recargador queda «recargador» o «cargador de automatroides»
-y si `DMS_Wetware` dice «biocomputadora». Y qué hacer con el `Patches` renombrado (commitearlo o
-devolverlo).
-
-**Al empezar (Claude):** seguir `Keyed/1icbuu.xml` desde la línea 131, clave por clave, con
-`GLOSARIO-DMS.md` al lado. Al terminar cada tramo, comprobar que los `{…}` de cada traducción sean
-los del `EN:`. Un commit por tramo, con el mod en el mensaje.
-
-**Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso` o `traspaso-continuo`.
-
-**Dónde leer:** este plan, `RML/AGENTS.md` y `RML/GLOSARIO.md`.
+**Dónde leer:** este plan, `GLOSARIO-DMS.md`, `RML/AGENTS.md` y `RML/GLOSARIO.md`. Los cambios de otra
+sesión que siguen sin commitear (Combat Extended, `ModList.tsv`, `docs/`, dos XML con finales de línea)
+no se tocan.
