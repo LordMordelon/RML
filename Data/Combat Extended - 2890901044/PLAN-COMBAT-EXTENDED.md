@@ -21,9 +21,9 @@ No todo pesa lo mismo:
 
 ## Dónde se trabaja
 
-**En la rama `combat-extended` de RML, y se publica entero al final.** Mientras falte, nada de
-Combat Extended llega a `master`, a GitHub ni al Workshop. Las acciones de GitHub corren solo en
-`master`, así que subir la rama como respaldo no publica nada (igual se pregunta antes).
+**En `master`, desde el 19-oct-2026.** Las etapas 0 a 5 y la primera tanda de la 6 se hicieron en la
+rama `combat-extended`, que se unió a `master` cuando el núcleo quedó completo (decisión de Angel). Lo
+que siga va directo en `master`, como cualquier otro mod, y cada push publica una versión de RML.
 
 **Qué hace el juego con un `TODO`.** `DefInjectionPackage.TryAddInjection` y
 `LoadedLanguage.LoadFromFile_Keyed` comparan el valor con `"TODO"` y lo saltan: en `DefInjected`
@@ -38,16 +38,12 @@ juego el 17-oct-2026. Hay dos excepciones, donde «TODO» **sí** llega a la pan
 Por eso van en la etapa 1b, justo después de la interfaz (decidido el 17-oct-2026): así la
 partida de prueba no muestra ningún «TODO», y queda abierta la opción de publicar por etapas.
 
-- **Para probar en partida:** con la rama puesta, `LoadFoldersBuilder -build` deja `output/` al
-  día y el juego carga lo traducido. Lo que falta sale en inglés, salvo en esos dos casos.
-- **Para trabajar otros mods:** volver a `master` (`git switch master`) antes de abrir el
-  extractor, que escribe en la rama que esté puesta. Al volver a `master` la carpeta de Combat
-  Extended desaparece de `Data/` y reaparece al volver a la rama.
-- **Para no quedarse atrás:** cada tanto, `git merge master` estando en la rama.
+- **Para probar en partida:** `LoadFoldersBuilder -build` deja `output/` al día y el juego carga lo
+  traducido. Lo que falta sale en inglés, salvo en esos dos casos.
 - **Este plan y los glosarios viven en la carpeta del mod** (desde el 19-oct-2026, pedido de Angel),
-  junto a `Languages/`: el del núcleo y uno aparte para la compatibilidad con otros mods. El extractor no los toca, porque solo borra `Languages/` y `Patches/`, y la
-  copia de `output/` deja afuera los `.md` de `Data/`, así que no se publican con el mod.
-- **Al terminar:** unir la rama a `master` y subir; ahí la CI publica la release.
+  junto a `Languages/`: el del núcleo y uno aparte para la compatibilidad con otros mods. El
+  extractor no los toca, porque solo borra `Languages/` y `Patches/`, y la copia de `output/` deja
+  afuera los `.md` de `Data/`, así que no se publican con el mod.
 
 La etapa 0 quedó hecha el 17-oct-2026: la extracción se movió de `RimworldExtractor/` a
 `Data/Combat Extended - 2890901044` (va suelta: es el único mod de su autor en RML), `-rutas`
@@ -248,38 +244,30 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 
 ## Próxima sesión (19-oct-2026)
 
-**Objetivo:** etapa 6, primera tanda: la compatibilidad con los mods que RML ya traduce.
+**Objetivo:** en el extractor, sacar los nombres de la munición genérica (`genericLabel`,
+`genericDescription` y `genericLabelOverride`, 38 textos) y traducirlos en RML.
 
-**Estado:** etapa 5 cerrada y revisada en partida por Angel, en la rama `combat-extended` (último commit `d51261e`,
-sin subir; la rama tiene 55 commits que `master` no tiene). Después de probar se corrigieron nombres: la munición
-del fusil de cargas, la torreta de cargas, el «virote de bioferrita», el «escudo simple», el «chaleco compuesto» y
-las «gafas de visión nocturna» (todo en el glosario). Este plan y el glosario pasaron a la carpeta del mod. No queda
-nada a medias.
+**Estado:** etapa 6, primera tanda hecha (commit `a3df11a`): los 24 mods que RML ya traduce, 451
+entradas. La rama `combat-extended` se unió a `master` y se subió el 19-oct-2026, así que Combat
+Extended ya se publica. Quedan **5.072 `TODO`**, todos de `ModPatches/` de mods que RML no traduce
+(contados el 19-oct-2026). No queda nada a medias.
 
 **Antes de empezarla (Angel):**
-1. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en la misma rama y avisarlo al
-   empezar. Ojo: la reextracción manda a `UNUSED.xml` el nombre genérico del obús de espuma (ver «Cuidados»).
-2. Las traducciones oficiales de los DLC que se pusieron a mano en `Data/<DLC>/Languages/` siguen ahí mientras Steam
-   no las pise; si los DLC vuelven a verse en inglés, avisar.
+1. Probar en partida la munición de algún mod de la tanda (por ejemplo, VFE Pirates o Biological
+   Warfare) y avisar lo que se vea raro.
+2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en `master` y
+   avisarlo al empezar: la reextracción manda a `UNUSED.xml` el nombre genérico del obús de espuma.
 
-**Al empezar (Claude):** quedan **5.523 entradas en `TODO`**, todas de `ModPatches/` (contadas el 18-oct-2026). De
-esas, unas **354 son de 24 mods que RML ya traduce**: Vanilla Factions Expanded - Pirates 62, Impact Weaponry 43,
-Spacer Arsenal 41, Vanilla Weapons Expanded - Non-Lethal 33, VWE - Laser 22, VFE - Empire 22, VQE - Deadlife 16,
-Integrated Implants 16, Volt Weaponry 13, VWE - Coilguns 12, VQE - Cryptoforge 10, Alpha Mechs 10, A Rimworld of
-Magic 10, y 11 mods más con 8 o menos. La cuenta cruza los `defName` de cada carpeta de `ModPatches/` del mod
-instalado con los `TODO`, y el cruce con RML es por nombre del mod, así que puede faltar alguno: repetirla al
-empezar. Cabe en una sesión (estimación). Antes de traducir cada mod, mirar cómo RML ya traduce sus armas en su
-propia carpeta de `Data/`, para que los nombres coincidan. Proponer antes de cambiar nombres ya decididos: Angel
-quiere ver la propuesta primero.
+**Al empezar (Claude):** la sesión es en `RimworldExtractor/`, con su prueba primero: que la
+extracción de Combat Extended devuelva los 38 textos de `modExtensions` (ver «Munición genérica»
+en «Cuidados»). Después, reextraer y traducir los 37 que faltan, copiando el nombre con calibre
+sin el calibre. Cabe en una sesión (estimación).
 
-**Decisiones de Angel:** si se sube ya el núcleo, uniendo la rama a `master`. Recomendación: sí, porque ya sirve a
-todo el que juega Combat Extended con el juego base y los DLC, y la etapa 6 puede seguir en la rama después. El
-push publica una versión nueva de RML, así que lo decide Angel.
-
-**Pendiente aparte, en otra sesión:** el extractor tiene que sacar los nombres de la munición genérica (38 textos;
-ver «Munición genérica» en «Cuidados»). No mezclarlo con la etapa 6.
+**Decisiones de Angel:** si se sigue con la etapa 6 para mods que RML no traduce. Recomendación: no
+por ahora; el plan dice «cuando alguien lo pida», y si se agrega un mod nuevo a RML, sumar su parte
+de Combat Extended en la misma sesión.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
 
-**Dónde leer:** este plan (etapa 6 y «Cuidados»), [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md)
-(secciones 1, 7 y 8) y las tres comprobaciones de `AGENTS.md` (en la raíz de RML).
+**Dónde leer:** este plan («Cuidados», «Munición genérica»), el `AGENTS.md` del extractor
+(«Escribir sobre RML») y [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md).
