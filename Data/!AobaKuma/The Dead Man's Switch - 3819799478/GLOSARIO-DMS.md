@@ -26,7 +26,9 @@ halcón», «escuadras de ronin».
 | artifuscle | **artimúsculo** | El material. La investigación se llama «músculo artificial» |
 | neuroglue | **neuropegamento** | |
 | receptor gel | **gel receptor** | |
-| wetware | **biocomputadora** | 11 usos. Ver «Pendientes»: el hediff `DMS_Wetware` dice «wetware» |
+| wetware (computer) | **biocomputadora** | El objeto `Neurocomputer`, su receta, la investigación y el permiso. El gen `DMS_Wetware` hace dar a luz una, así que es «gestación de biocomputadoras» (adjetivo: «biocomputacional»), y la parte del cuerpo, «núcleo de biocomputadora». Revisado con Angel el 20-oct-2026 |
+| automatroid recharger | **cargador de automatroides** | Aprobado por Angel el 20-oct-2026: como el cargador de mecas de Biotech. La descripción sigue la fórmula vanilla del glosario general |
+| mobile dragoon | **exotraje drago** | Viene de *The Dead Man's Switch - MobileDragoon*, del mismo autor: se usa su etiqueta (`DMS_MobileDragoon`). Este mod ya dice «apoyo drago» y «dragos móviles» |
 | tungsteel | **tungstanio** | |
 | ceramics / ceramic plates | **cerámica** / **placas de cerámica** | |
 | xeno limb syndrome | **síndrome del miembro xeno** | Etapas: NV.1 Inicial, NV.2 Menor, NV.3 Grave, NV.4 Catatónico, NV.5 Incapacitado |
@@ -112,12 +114,8 @@ porque cambian textos que el plan no tocaba; van con la etapa 4 o se deciden con
 - **«ancho de banda» en 8 lugares**, contra «banda ancha» en 6. El glosario general dice
   «banda ancha» y prohíbe «ancho de banda»: es una corrección, no hace falta decidirla. Incluye
   el hediff «Supported Bandwidth», hoy «ancho de banda orbital».
-- **«autómata» en 4 lugares** (`DMS_Recharger.description`, `DMS_Platoon_AC.description`, la
-  categoría «Mods de autómatas» y una regla de `DMS_UAVBasis`): va «automatroide».
-- **`DMS_Recharger.label` dice «recargador de automatroides».** El glosario general pide
-  «cargador» para el edificio. Es un nombre: confirmar con Angel.
-- **`DMS_Wetware.label` dice «gestación de wetware»**, mientras el resto del mod dice
-  «biocomputadora». Confirmar con Angel cuál queda.
+- **«autómata» en 3 lugares** (`DMS_Platoon_AC.description`, la categoría «Mods de autómatas» y
+  una regla de `DMS_UAVBasis`): va «automatroide». El de `DMS_Recharger` ya se corrigió.
 - **«Mechaneural neurochord» está como «neurocordón biomecánico»**, no «mecaneural».
 - **Las etiquetas con mayúscula inicial** (`Tarbosaurio`, `Cabeza mecánica`, `Pierna izquierda`):
   RimWorld pone la mayúscula solo cuando hace falta, así que van en minúscula.
