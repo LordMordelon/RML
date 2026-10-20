@@ -47,6 +47,42 @@ halcón», «escuadras de ronin».
 | Ergonomics (investigación) | **ergonomía** | Aprobado por Angel el 20-oct-2026 |
 | Specialized design (investigación) | **diseño especializado** | Aprobado por Angel el 20-oct-2026 |
 
+## Términos nuevos del II (sesión 2, `Keyed`)
+
+Salen de traducir `Keyed` el 20-oct-2026. El II los trae por primera vez, así que no había una
+traducción en uso: los marcados **a confirmar** son nombres que el jugador ve en etiquetas y que
+Angel tiene que aprobar antes de usarlos en `ThingDef` y en las misiones.
+
+| Inglés | Español | Notas |
+|---|---|---|
+| deviant | **disidente** | **A confirmar.** Sirve para los dos géneros. En los títulos sin nombre va en masculino genérico («Llegó el disidente») |
+| defector / deserter | **desertor** | Cuando el texto lo usa en vez de «deviant» |
+| gravekeeper | **guardatumbas** | **A confirmar.** Invariable. El meca `DMS_Mech_Gravekeeper` |
+| occultech | **tecnología oculta** | **A confirmar.** Coincide con «archivo de clase oculta» (occulted-class) de la sesión 1 |
+| cluster weaver | **tejedor de clústeres** | **A confirmar.** El jefe `DMS_Mech_ClusterWeaver` |
+| crew lifter / mobile crew lifter | **elevador de tripulación** / **elevador de tripulación móvil** | **A confirmar.** Sigue a «elevador escolta» |
+| crew pod | **cápsula de tripulación** | |
+| supply pod | **cápsula de suministros** | |
+| SAGE node / SAGE network | **nodo SAGE** / **red SAGE** | SAGE es una sigla: no se traduce |
+| stele / glyph / decoder | **estela** / **glifo** / **decodificador** | |
+| reality anchor | **ancla de realidad** | |
+| zero-point (generator, reactor) | **de punto cero** | |
+| antigrain warhead | **ojiva de antigrano** | Como en vanilla |
+| court-martial | **consejo de guerra** | Ya lo usaba la sesión 1 |
+| kill order | **orden de exterminio** | Ya lo usaba la sesión 1 |
+| hunt / hunting party / huntdown raid | **cacería** / **partida de caza** / **incursión de cacería** | |
+| remnant(s) | **los remanentes** | Ya lo usaba la sesión 1 |
+| elevator / freight elevator | **ascensor** / **ascensor de carga** | Para no confundirlo con el elevador (lifter) |
+| old arsenal / vault / treasury | **antiguo arsenal** / **bóveda** / **cámara del tesoro** | |
+| access key-card | **tarjeta de acceso** | |
+| modification module | **módulo de modificación** | |
+| mech frame | **estructura de meca** | Como «frame» en el glosario general |
+| «X: reinforcements inbound» | **«X: llegan refuerzos»** | Como en `DMS_DecoySite` |
+
+**Pronombres de una persona** (`{DEVIANT_pronoun}`, `{DEVIANT_objective}`, `{DEFENDANT_objective}`):
+en español llevarían género, así que la frase se arma sin ellos («La flota nunca supo que estuvo
+aquí», «no tenemos noticias suyas»). `{X_possessive}` sí se usa: es «su».
+
 ## Automatroides
 
 | Inglés | Español | | Inglés | Español |
