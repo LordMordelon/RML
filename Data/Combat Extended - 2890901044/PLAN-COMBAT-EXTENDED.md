@@ -256,20 +256,21 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 como `SendForm&gt;texto` en vez de `SendForm-&gt;texto`. Sin la flecha completa el juego no las toma
 como reglas.
 
-**Estado:** el extractor ya encuentra la carpeta de un mod por su packageId cuando cambia de número
-(`7324ddb`), y trae `RimworldExtractorLotes` para reextraer por consola (`69876b4`). La 1.0 se unió a
-`master` del extractor (`b5f165e`): sale como 1.0.0 estable; la 0.1.x quedó en la rama `legacy` y la
-rama `1.0-beta` se borró. En RML, `8cb000f` pasa la carpeta a `The Dead Man's Switch - 3819799478` con
-lo traducido conservado: 2.356 en uso, 1.792 `TODO` nuevos de la actualización del mod y 416 en
-`UNUSED`. Todo subido con la aprobación de Angel (20-oct-2026).
+**Estado:** The Dead Man's Switch (3121742525, hasta la 1.6) y The Dead Man's Switch II (3819799478,
+solo 1.7) son dos mods con el mismo packageId. RML tiene una carpeta para cada uno, separadas por el
+`Default` del bloque `Version` de su yaml (`bea84c4`). La del original queda congelada, sin
+seguimiento (decisión de Angel); el trabajo va en la del II: 2.356 en uso, 1.792 `TODO` y 416 en
+`UNUSED`. El extractor ya no renombra por packageId; avisa y la corrida por lotes se salta la carpeta
+de otro número (`70e7ff7`, en `master`). Trae `RimworldExtractorLotes` para reextraer por consola. La
+1.0 se unió a `master` del extractor como 1.0.0; la 0.1.x quedó en la rama `legacy`.
 
 **Antes de empezarla (Angel):**
 1. Si no lo hiciste: revisar en partida el obús de mortero y su receta, la pistola .45 ACP y la granada
    tóxica, con la munición genérica puesta.
 
 **Al empezar (Claude):** las 44 reglas están en `Data/!AobaKuma/The Dead Man's Switch - 3819799478/`,
-en archivos de `RulePackDef` y `QuestScriptDef`; es el único mod de RML con ese daño (contado). Ya
-estaban así en `HEAD` antes de la reextracción del 20-oct, así que no las causó el cambio de número.
+en archivos de `RulePackDef` y `QuestScriptDef` (contado). La carpeta del original tiene las mismas 44,
+pero no se toca: no tiene seguimiento. Ya estaban así antes de la reextracción del 20-oct.
 Primero averiguar con `git log -S` qué commit les sacó el guion, por si la causa sigue en el extractor;
 después arreglarlas a mano, comparando con el `<!-- EN: -->` de cada una, y pasar la comprobación 3.
 Cabe en una sesión (estimación).
