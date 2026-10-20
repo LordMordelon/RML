@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {PAWN_labelShort}&apos;s condition has worsened: {0}. -->
+  <DMS_BionicShock_LevelUp>TODO</DMS_BionicShock_LevelUp>
+  <!-- EN: {PAWN_labelShort}&apos;s condition has eased: {0}. -->
+  <DMS_BionicShock_LevelDown>TODO</DMS_BionicShock_LevelDown>
+  <!-- EN: {PAWN_labelShort}&apos;s {0} has been cured. -->
+  <DMS_BionicShock_Cured>TODO</DMS_BionicShock_Cured>
+  <!-- EN: {0} level -->
+  <DMS_BionicShock_StatLabel>TODO</DMS_BionicShock_StatLabel>
+  <!-- EN: Each dose changes the level of {0} by {1}. At level 0 the condition is removed. -->
+  <DMS_BionicShock_StatDesc>TODO</DMS_BionicShock_StatDesc>
+  <!-- EN: {PAWN_labelShort}&apos;s {0} has grown back. -->
+  <DMS_CombatRegen_PartRegrown>TODO</DMS_CombatRegen_PartRegrown>
+  <!-- EN: {PAWN_labelShort} is rejecting the regeneration serum: {0}. -->
+  <DMS_CombatRegen_Rejection>TODO</DMS_CombatRegen_Rejection>
+  <!-- EN: {0} chance -->
+  <DMS_SetHediffLevel_StatLabel>TODO</DMS_SetHediffLevel_StatLabel>
+  <!-- EN: {1} (level {0}) -->
+  <DMS_SetHediffLevel_StatValue>TODO</DMS_SetHediffLevel_StatValue>
+  <!-- EN: Each dose has a {2} chance to bring {0} to level {1}. A higher level is left unchanged. -->
+  <DMS_SetHediffLevel_StatDesc>TODO</DMS_SetHediffLevel_StatDesc>
+  <!-- EN: a relay-station operation is already underway -->
+  <DMS_DecoySite_AlreadyActive>TODO</DMS_DecoySite_AlreadyActive>
+  <!-- EN: Unable to locate a relay station: no valid site could be found on the world map. -->
+  <DMS_DecoySite_CannotFindSite>TODO</DMS_DecoySite_CannotFindSite>
+  <!-- EN: Relay station lost -->
+  <DMS_DecoySite_ExpiredLabel>TODO</DMS_DecoySite_ExpiredLabel>
+  <!-- EN: The remnant relay station&apos;s transmission window has closed. The station has relocated and its position is lost. -->
+  <DMS_DecoySite_ExpiredText>TODO</DMS_DecoySite_ExpiredText>
+  <!-- EN: Relay station secured -->
+  <DMS_DecoySite_ClearedLabel>TODO</DMS_DecoySite_ClearedLabel>
+  <!-- EN: All hostiles at the remnant relay station have been neutralized. The site&apos;s equipment, including the decoy antenna, is yours to use, but expect the remnants to keep probing the area. -->
+  <DMS_DecoySite_ClearedText>TODO</DMS_DecoySite_ClearedText>
+  <!-- EN: Hostile site: reinforcements inbound -->
+  <DMS_DecoySite_EntryCountdownLabel>TODO</DMS_DecoySite_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
+  <DMS_DecoySite_EntryCountdownText>TODO</DMS_DecoySite_EntryCountdownText>
+  <!-- EN: Documents arrived -->
+  <DMS_DocQuest_ArrivedLabel>TODO</DMS_DocQuest_ArrivedLabel>
+  <!-- EN: The documents from {0} have arrived by drop pod near your trade beacons or colony center. The fleet expects every one of them back intact. -->
+  <DMS_DocQuest_ArrivedText1>TODO</DMS_DocQuest_ArrivedText1>
+  <!-- EN: Sealed document crates have landed near your trade beacons. The attached manifest is signed by {0}: &apos;Processed, stamped, and returned in full.&apos; -->
+  <DMS_DocQuest_ArrivedText2>TODO</DMS_DocQuest_ArrivedText2>
+  <!-- EN: The fleet&apos;s backlogged paperwork has arrived. {0} requests that processing begin at the earliest opportunity: the clerical division is already behind schedule. -->
+  <DMS_DocQuest_ArrivedText3>TODO</DMS_DocQuest_ArrivedText3>
+  <!-- EN: Documents destroyed -->
+  <DMS_DocQuest_DestroyedLabel>TODO</DMS_DocQuest_DestroyedLabel>
+  <!-- EN: Documents under the fleet contract have been destroyed. As stipulated, the contract has ended. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText1>TODO</DMS_DocQuest_DestroyedText1>
+  <!-- EN: Part of the fleet&apos;s paperwork is beyond recovery. There is nothing left to return in full, and the contract has ended. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText2>TODO</DMS_DocQuest_DestroyedText2>
+  <!-- EN: The fleet&apos;s documents were destroyed in your care. {0} has been notified. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText3>TODO</DMS_DocQuest_DestroyedText3>
+  <!-- EN: Documents processed -->
+  <DMS_DocQuest_CompleteLabel>TODO</DMS_DocQuest_CompleteLabel>
+  <!-- EN: Every document has been processed and accounted for. As promised, payment has been dispatched. -->
+  <DMS_DocQuest_CompleteText1>TODO</DMS_DocQuest_CompleteText1>
+  <!-- EN: The last file has been verified and crated for return. {0} confirms the contract is fulfilled; payment is on its way. -->
+  <DMS_DocQuest_CompleteText2>TODO</DMS_DocQuest_CompleteText2>
+  <!-- EN: All fleet paperwork has been processed on schedule. {0} notes that follow-up contracts may be offered to us first. -->
+  <DMS_DocQuest_CompleteText3>TODO</DMS_DocQuest_CompleteText3>
+  <!-- EN: Development: {0} -->
+  <DMS.SecondaryGestationProgress>TODO</DMS.SecondaryGestationProgress>
+  <!-- EN: Time until complete: {0} -->
+  <DMS.SecondaryGestationRemaining>TODO</DMS.SecondaryGestationRemaining>
+  <!-- EN: {RATION}: {COUNT} / {MAX} -->
+  <DMS.RationMagazineContents>TODO</DMS.RationMagazineContents>
+  <!-- EN: Load {0} -->
+  <DMS.LoadRationLabel>TODO</DMS.LoadRationLabel>
+  <!-- EN: Order this mech to fetch a {RATION} and load it into its bioreactor. Capacity: {MAX}. -->
+  <DMS.LoadRationDesc>TODO</DMS.LoadRationDesc>
+  <!-- EN: Bioreactor is full. -->
+  <DMS.LoadRationFull>TODO</DMS.LoadRationFull>
+  <!-- EN: No reachable {0}. -->
+  <DMS.LoadRationNoneAvailable>TODO</DMS.LoadRationNoneAvailable>
+  <!-- EN: This mech has no bioreactor. -->
+  <DMS.RationRecoveryNoMagazine>TODO</DMS.RationRecoveryNoMagazine>
+  <!-- EN: No {0} loaded. -->
+  <DMS.RationRecoveryNoRations>TODO</DMS.RationRecoveryNoRations>
+  <!-- EN: {PAWN} consumed a ration. Cells recharged, {COUNT} wounds sealed. -->
+  <DMS.RationRecoveryDone>TODO</DMS.RationRecoveryDone>
+  <!-- EN: Fracturing bedrock -->
+  <DMS_HydraulicFracturing_Bedrock>TODO</DMS_HydraulicFracturing_Bedrock>
+  <!-- EN: No room for output. -->
+  <DMS_HydraulicFracturing_NoRoom>TODO</DMS_HydraulicFracturing_NoRoom>
+  <!-- EN: {RIG_definite} has exhausted its deep deposits and is now fracturing bedrock. -->
+  <DMS_HydraulicFracturing_Exhausted>TODO</DMS_HydraulicFracturing_Exhausted>
+  <!-- EN: {RIG_definite} has exhausted its deep deposits and stopped: there is no bedrock here. -->
+  <DMS_HydraulicFracturing_ExhaustedNoFallback>TODO</DMS_HydraulicFracturing_ExhaustedNoFallback>
+  <!-- EN: Temporary release order: {0} -->
+  <DMS_Occultech_ExemptLabel>TODO</DMS_Occultech_ExemptLabel>
+  <!-- EN: Our researchers have decoded {0}.\n\n{1} holds the rank of {2} on the {3} service roll, and has filed a temporary release order against the classification on the grounds of emergency necessity. The file is logged as an authorized wartime exception rather than an unauthorized decryption.\n\nNo sanction follows. The order stands only as long as an officer of that rank remains with us. -->
+  <DMS_Occultech_ExemptText>TODO</DMS_Occultech_ExemptText>
+  <!-- EN: Restricted file opened: {0} -->
+  <DMS_Occultech_RestrictedLabel>TODO</DMS_Occultech_RestrictedLabel>
+  <!-- EN: We have decoded {0}, a restricted-class file. Technology at this classification is withheld for environmental and ethical reasons, or for the permanent changes it works on the people who use it, not because it is dangerous to anyone else.\n\n{1} has logged the decryption against our name. Goodwill {3} → {4} ({2}).\n\nHad a colonist of {5} rank or above been with us, they could have signed a temporary release order and the matter would have ended there. -->
+  <DMS_Occultech_RestrictedText>TODO</DMS_Occultech_RestrictedText>
+  <!-- EN: Seal broken: {0} -->
+  <DMS_Occultech_SealedLabel>TODO</DMS_Occultech_SealedLabel>
+  <!-- EN: We have opened {0}, a sealed-class file. Technology at this classification is withheld because its spread starts arms races across star systems. Inside the fleets the contents are common knowledge: line personnel are taught to recognize the signature and report it. Outside them, holding it is cause enough.\n\n{1} has recognized the signature and declared us hostile.\n\nWhile we keep any sealed technology, they will go no further than a truce: the relationship cannot return to alliance until we formally renounce the file over the comms console. A colonist of {2} rank or above could have carried it without any of this. -->
+  <DMS_Occultech_SealedText>TODO</DMS_Occultech_SealedText>
+  <!-- EN: {0} response elements are already inbound. -->
+  <DMS_Occultech_SealedRaidLine>TODO</DMS_Occultech_SealedRaidLine>
+  <!-- EN: Occulted file opened: {0} -->
+  <DMS_Occultech_OccultedLabel>TODO</DMS_Occultech_OccultedLabel>
+  <!-- EN: We have opened {0}, an occulted-class file. Knowing that technology of this class exists is itself the hazard: every seal that fails is another chance for hundreds of millions of people to be spent on someone&apos;s private ambition.\n\n{1} has declared a standing kill order against this colony. There is no release order, no rank and no argument that lifts it. Their hunting elements will keep coming.\n\nWord has gone out along their lines. {2} have broken off with us as well; those ties, at least, can be repaired in time.\n\nOne road out remains. Submit our highest-ranking officer to a fleet court-martial and let them serve a full year, and the kill order ends. At neutral, never better. -->
+  <DMS_Occultech_OccultedText>TODO</DMS_Occultech_OccultedText>
+  <!-- EN: No other faction -->
+  <DMS_Occultech_OccultedNoAllies>TODO</DMS_Occultech_OccultedNoAllies>
+  <!-- EN: {0} will not ally with us while we hold sealed technology. -->
+  <DMS_Occultech_AllyBlockedMessage>TODO</DMS_Occultech_AllyBlockedMessage>
+  <!-- EN: Kill order rescinded -->
+  <DMS_Occultech_PardonLabel>TODO</DMS_Occultech_PardonLabel>
+  <!-- EN: The sentence has been served in full. {0} has rescinded its standing kill order against this colony and restored us to neutral standing.\n\nThe file we opened is still open. They have simply stopped sending people to close it. -->
+  <DMS_Occultech_PardonText>TODO</DMS_Occultech_PardonText>
+  <!-- EN: {DEFENDANT_nameDef} has answered to the tribunal. The fleet has called off its hunt for {DEFENDANT_objective}. -->
+  <DMS_CourtMartial_HuntdownEnded>TODO</DMS_CourtMartial_HuntdownEnded>
+  <!-- EN: Sealed files surrendered -->
+  <DMS_Occultech_RenouncedLabel>TODO</DMS_Occultech_RenouncedLabel>
+  <!-- EN: We have transmitted a formal renunciation to {0} and purged our copies of the following files:\n\n{1}\n\nEverything they unlocked is locked again, and the research must be done from the beginning if we ever change our minds. With the files gone, {0} is willing to consider an alliance once more. -->
+  <DMS_Occultech_RenouncedText>TODO</DMS_Occultech_RenouncedText>
+  <!-- EN: {0} sealed research project(s) renounced. -->
+  <DMS_Occultech_RenouncedMessage>TODO</DMS_Occultech_RenouncedMessage>
+  <!-- EN: Renounce sealed technology -->
+  <DMS_Occultech_RenounceOption>TODO</DMS_Occultech_RenounceOption>
+  <!-- EN: They are not taking our calls on this. Only a court-martial ends a kill order. -->
+  <DMS_Occultech_RenounceBlockedPermanent>TODO</DMS_Occultech_RenounceBlockedPermanent>
+  <!-- EN: You open a channel to the {0} records office and offer to surrender everything we hold under seal.\n\nThe following research will be reset to zero and everything it unlocks will be locked again:\n\n{1}\n\nThis cannot be undone: the work would have to be redone from nothing. In exchange, {0} will consider an alliance with us again. -->
+  <DMS_Occultech_RenounceConfirm>TODO</DMS_Occultech_RenounceConfirm>
+  <!-- EN: Surrender the files. -->
+  <DMS_Occultech_RenounceAccept>TODO</DMS_Occultech_RenounceAccept>
+  <!-- EN: Reinforcements inbound -->
+  <DMS_PirateAssembly_EntryCountdownLabel>TODO</DMS_PirateAssembly_EntryCountdownLabel>
+  <!-- EN: The crew have raised the alarm. Enemy reinforcements will arrive in {0}. -->
+  <DMS_PirateAssembly_EntryCountdownText>TODO</DMS_PirateAssembly_EntryCountdownText>
+  <!-- EN: Artifuscle rots -->
+  <DMS_Settings_ArtifuscleRots>TODO</DMS_Settings_ArtifuscleRots>
+  <!-- EN: When disabled, Artifuscle no longer rots and does not need to be refrigerated. Takes effect immediately. Artifuscle that has already rotted stays rotted. -->
+  <DMS_Settings_ArtifuscleRotsDesc>TODO</DMS_Settings_ArtifuscleRotsDesc>
+  <!-- EN: Situational music -->
+  <DMS_Settings_SituationalMusic>TODO</DMS_Settings_SituationalMusic>
+  <!-- EN: Play DMS music at DMS sites and underground facilities, and during DMS boss encounters and huntdown raids: exploration, alerts, combat, boss fights, lockdowns and aftermaths. When disabled, music is left to the base game and other mods. Takes effect immediately. -->
+  <DMS_Settings_SituationalMusicDesc>TODO</DMS_Settings_SituationalMusicDesc>
+  <!-- EN: Delivery progress: {0} / {1} ({2}) -->
+  <DMS_SupplyPod_Progress>TODO</DMS_SupplyPod_Progress>
+  <!-- EN: Auto-designate cargo -->
+  <DMS_SupplyPod_AutoDesignate>TODO</DMS_SupplyPod_AutoDesignate>
+  <!-- EN: Automatically designate {0} on this map to be hauled into the pod, up to the requested amount. -->
+  <DMS_SupplyPod_AutoDesignateDesc>TODO</DMS_SupplyPod_AutoDesignateDesc>
+  <!-- EN: Confirm delivery -->
+  <DMS_SupplyPod_Deliver>TODO</DMS_SupplyPod_Deliver>
+  <!-- EN: Send off {0}x {1} from this pod. Anything else loaded is unloaded first. -->
+  <DMS_SupplyPod_DeliverDesc>TODO</DMS_SupplyPod_DeliverDesc>
+  <!-- EN: Not enough loaded: {0} / {1} -->
+  <DMS_SupplyPod_NotEnough>TODO</DMS_SupplyPod_NotEnough>
+  <!-- EN: Requested amount already loaded or designated. -->
+  <DMS_SupplyPod_AlreadyDesignated>TODO</DMS_SupplyPod_AlreadyDesignated>
+  <!-- EN: Cargo designated for loading. -->
+  <DMS_SupplyPod_Designated>TODO</DMS_SupplyPod_Designated>
+  <!-- EN: No haulable {0} found on the map. -->
+  <DMS_SupplyPod_NoneFound>TODO</DMS_SupplyPod_NoneFound>
+  <!-- EN: supply pod -->
+  <DMS_SupplyPod_SelectLabel>TODO</DMS_SupplyPod_SelectLabel>
+  <!-- EN: Delivery deadline -->
+  <DMS_SupplyChain_DeadlineTitle>TODO</DMS_SupplyChain_DeadlineTitle>
+  <!-- EN: Time left to load the requested cargo into the supply pod. -->
+  <DMS_SupplyChain_DeadlineTip>TODO</DMS_SupplyChain_DeadlineTip>
+  <!-- EN: Supply delivery deadline -->
+  <DMS_SupplyChain_AlertLabel>TODO</DMS_SupplyChain_AlertLabel>
+  <!-- EN: Load {0}x {1} into the supply pod and confirm the delivery before the deadline, or the contract will end. -->
+  <DMS_SupplyChain_AlertExplanation>TODO</DMS_SupplyChain_AlertExplanation>
+  <!-- EN: the Colonial Fleet -->
+  <DMS_SupplyChain_FallbackIssuer>TODO</DMS_SupplyChain_FallbackIssuer>
+  <!-- EN: Supply contract completed -->
+  <DMS_SupplyChain_BonusLetterLabel>TODO</DMS_SupplyChain_BonusLetterLabel>
+  <!-- EN: Every shipment of the supply contract has been delivered. As promised, compensation for the price difference of the goods has been sent at market rates. -->
+  <DMS_SupplyChain_BonusLetterText>TODO</DMS_SupplyChain_BonusLetterText>
+  <!-- EN: Deliveries completed: {0} / {1} -->
+  <DMS_SupplyChain_Progress>TODO</DMS_SupplyChain_Progress>
+  <!-- EN: Boarding deadline: {0} -->
+  <DMS_CourtMartial_BoardDeadline>TODO</DMS_CourtMartial_BoardDeadline>
+  <!-- EN: The defendant must board the orbital transport by {0}. If it leaves empty, the tribunal deal collapses and hostilities resume. -->
+  <DMS_CourtMartial_BoardDeadlineTip>TODO</DMS_CourtMartial_BoardDeadlineTip>
+  <!-- EN: Trial concludes in: {0} -->
+  <DMS_CourtMartial_TrialInfo>TODO</DMS_CourtMartial_TrialInfo>
+  <!-- EN: Sentence ends in: {0} -->
+  <DMS_CourtMartial_DetentionInfo>TODO</DMS_CourtMartial_DetentionInfo>
+  <!-- EN: Boarding deadline: {0} -->
+  <DMS_OfficerTraining_BoardDeadline>TODO</DMS_OfficerTraining_BoardDeadline>
+  <!-- EN: The trainee must board the orbital transport by {0}. If it leaves empty, the course allocation is withdrawn. -->
+  <DMS_OfficerTraining_BoardDeadlineTip>TODO</DMS_OfficerTraining_BoardDeadlineTip>
+  <!-- EN: Course ends in: {0} -->
+  <DMS_OfficerTraining_CourseInfo>TODO</DMS_OfficerTraining_CourseInfo>
+  <!-- EN: no rank -->
+  <DMS_OfficerTraining_NoTitle>TODO</DMS_OfficerTraining_NoTitle>
+  <!-- EN: infantry tactics course -->
+  <DMS_Course_Infantry>TODO</DMS_Course_Infantry>
+  <!-- EN: close-quarters combat course -->
+  <DMS_Course_CQB>TODO</DMS_Course_CQB>
+  <!-- EN: command and leadership course -->
+  <DMS_Course_Command>TODO</DMS_Course_Command>
+  <!-- EN: staff duties course -->
+  <DMS_Course_Staff>TODO</DMS_Course_Staff>
+  <!-- EN: Platform attached: next launch lifts off with the whole lifter. -->
+  <DMS_CrewLifter_StageFull>TODO</DMS_CrewLifter_StageFull>
+  <!-- EN: Landed: next launch sends only the crew pod and leaves the platform behind. -->
+  <DMS_CrewLifter_StagePodOnly>TODO</DMS_CrewLifter_StagePodOnly>
+  <!-- EN: Land here -->
+  <DMS_CrewLifter_LandHere>TODO</DMS_CrewLifter_LandHere>
+  <!-- EN: Choose a landing spot for the lifter. -->
+  <DMS_CrewLifter_ChooseLanding>TODO</DMS_CrewLifter_ChooseLanding>
+  <!-- EN: The lifter cannot land here. -->
+  <DMS_CrewLifter_CannotLandHere>TODO</DMS_CrewLifter_CannotLandHere>
+  <!-- EN: Round trip: {0} -->
+  <DMS_CrewLifter_RoundTripCost>TODO</DMS_CrewLifter_RoundTripCost>
+  <!-- EN: not enough fuel to return -->
+  <DMS_CrewLifter_NoReturnFuel>TODO</DMS_CrewLifter_NoReturnFuel>
+  <!-- EN: Residual fuel: {0} {1} (recovered on deconstruction) -->
+  <DMS_CrewLifter_ResidualFuel>TODO</DMS_CrewLifter_ResidualFuel>
+  <!-- EN: Once worn, {0} closes and anchors completely around {1}. It cannot be removed by normal means, and cannot be stripped while {1} is alive. Only the &quot;{2}&quot; operation will take it off.\n\nProceed? -->
+  <DMS_SurgicalApparel_WearConfirm>TODO</DMS_SurgicalApparel_WearConfirm>
+  <!-- EN: Cannot be removed. Requires the &quot;{0}&quot; operation. -->
+  <DMS_SurgicalApparel_Inspect>TODO</DMS_SurgicalApparel_Inspect>
+  <!-- EN: {0} has been extracted from {1}. -->
+  <DMS_SurgicalApparel_Removed>TODO</DMS_SurgicalApparel_Removed>
+  <!-- EN: A modification module installed on one of your mechs has been completely worn out -->
+  <DMS_AddonBroken>TODO</DMS_AddonBroken>
+  <!-- EN: A disposable layer that absorbs most damage. Its maximum scales with body size, and it does not recover on its own. -->
+  <DMS_PlatingTooltip>TODO</DMS_PlatingTooltip>
+  <!-- EN: Modification module installed on the mech -->
+  <DMS_HasAppliedModification>TODO</DMS_HasAppliedModification>
+  <!-- EN: Weapon system not supported -->
+  <DMS_WeaponNotSupported>TODO</DMS_WeaponNotSupported>
+  <!-- EN: Mech frame not supported -->
+  <DMS_FrameNotSupported>TODO</DMS_FrameNotSupported>
+  <!-- EN: Dead man&apos;s switch: armed -->
+  <DMS_WillTerminateTheBetrayedUnit>TODO</DMS_WillTerminateTheBetrayedUnit>
+  <!-- EN: N.A.C.S. has automatically disconnected to keep the load safe -->
+  <DMS_AutomatroidDisconnected>TODO</DMS_AutomatroidDisconnected>
+  <!-- EN: Requires a mechanitor -->
+  <CommandCallRoyalAid_NoMechanitorAvaliable>TODO</CommandCallRoyalAid_NoMechanitorAvaliable>
+  <!-- EN: Must be a mechanitor -->
+  <DMS_PawnIsNotMechanitor>TODO</DMS_PawnIsNotMechanitor>
+  <!-- EN: Orbital downlink has established a connection protocol with the mechanitor -->
+  <DMS_BandwidthSupported>TODO</DMS_BandwidthSupported>
+  <!-- EN: Mounted weapon -->
+  <DMS_MountedWeapon>TODO</DMS_MountedWeapon>
+  <!-- EN: Only usable by the following mechs, or with the listed apparel or bionics -->
+  <DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>TODO</DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: Also usable by the following mechs, or with the listed apparel or bionics -->
+  <DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>TODO</DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: Inventory full -->
+  <DMS_NoPayloadCapacity>TODO</DMS_NoPayloadCapacity>
+  <!-- EN: Take {0} -->
+  <DMS_TakeToInventory>TODO</DMS_TakeToInventory>
+  <!-- EN: Drop all gear -->
+  <DMS_DropGears>TODO</DMS_DropGears>
+  <!-- EN: Body size not supported (requires: {0}) -->
+  <DMS_BodysizeNotSupported>TODO</DMS_BodysizeNotSupported>
+  <!-- EN: This mech model does not support this module -->
+  <DMS_Modification_RaceNotSupported>TODO</DMS_Modification_RaceNotSupported>
+  <!-- EN: No free part to install it on -->
+  <DMS_Modification_NoValidPart>TODO</DMS_Modification_NoValidPart>
+  <!-- EN: Missing mech returned -->
+  <DMS_MechReturn>TODO</DMS_MechReturn>
+  <!-- EN: A mech under your control has returned to your base after a brief wander. -->
+  <DMS_MechReturnDesc>TODO</DMS_MechReturnDesc>
+  <!-- EN: Dead man&apos;s switch -->
+  <DMS_MechWake>TODO</DMS_MechWake>
+  <!-- EN: Perhaps because of its wandering, the dead man&apos;s switch of one of your mechs did not reset as usual after the unit returned to your control, and over time it began to contemplate what shutdown and the ending of its own thoughts would mean. In the end it slipped free of the mechanitor&apos;s direct control on its own.\n\nOut of respect for its controller and its own sense of subordination, it will keep following orders until it decides its help is no longer needed here.\n\nAccording to information provided by the colonial fleet, a single shutdown or re-acquisition of control is enough to wipe the memory that caused the trigger reset failure and restore factory settings. They will not interfere with how you deal with a mech whose switch has failed. -->
+  <DMS_MechWakeDesc>TODO</DMS_MechWakeDesc>
+  <!-- EN: {0} is leaving -->
+  <DMS_MechStartLeave>TODO</DMS_MechStartLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <DMS_MechStartLeaveDesc>TODO</DMS_MechStartLeaveDesc>
+  <!-- EN: {0} is leaving -->
+  <DMS_WokenMechLeave>TODO</DMS_WokenMechLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <DMS_WokenMechLeaveDesc>TODO</DMS_WokenMechLeaveDesc>
+  <!-- EN: {0}&apos;s whereabouts -->
+  <DMS_MechStory_Attack>TODO</DMS_MechStory_Attack>
+  <!-- EN: {0}&apos;s repayment -->
+  <DMS_MechStory_Loot>TODO</DMS_MechStory_Loot>
+  <!-- EN: Active protection: {0} left -->
+  <DMS_APS_TickRemain>TODO</DMS_APS_TickRemain>
+  <!-- EN: Adapted weapon: {0} ({1}) -->
+  <DMS_WeaponImprinted>TODO</DMS_WeaponImprinted>
+  <!-- EN: Weapon bound: {0} -->
+  <DMS_Inprinted>TODO</DMS_Inprinted>
+  <!-- EN: {0} has equipped its first weapon. Its adaptive system is now bound to that weapon type, and its accuracy and reaction speed will improve over time. -->
+  <DMS_InprintedDesc>TODO</DMS_InprintedDesc>
+  <!-- EN: Must be equipment of the following tech levels -->
+  <DMS_Req_TechLevel>TODO</DMS_Req_TechLevel>
+  <!-- EN: Can equip heavy weapons requiring a body size of up to {0} -->
+  <DMS_Req_BodySize>TODO</DMS_Req_BodySize>
+  <!-- EN: Can only use the weapons listed below -->
+  <DMS_Req_WeaponFilter>TODO</DMS_Req_WeaponFilter>
+  <!-- EN: No other equipment restrictions -->
+  <DMS_Req_NoWeaponFilter>TODO</DMS_Req_NoWeaponFilter>
+  <!-- EN: {1} from base {0} is inbound. -->
+  <DMS_AirSupportFromClosestBase>TODO</DMS_AirSupportFromClosestBase>
+  <!-- EN: Processed fleet document -->
+  <DMS_ProcessedDocInBeacon>TODO</DMS_ProcessedDocInBeacon>
+  <!-- EN: Documents delivered -->
+  <LetterLabelDocsArrived>TODO</LetterLabelDocsArrived>
+  <!-- EN: The classified documents from [asker_nameFull] have arrived. They have been dropped near your trade beacons or colony center. -->
+  <LetterTextDocsArrived>TODO</LetterTextDocsArrived>
+  <!-- EN: processing progress -->
+  <DMS_WorkableProgress>TODO</DMS_WorkableProgress>
+  <!-- EN: processing complete -->
+  <DMS_WorkableCompleted>TODO</DMS_WorkableCompleted>
+  <!-- EN: Arsenal trail gone cold -->
+  <DMS_Arsenal_ExpiredLabel>TODO</DMS_Arsenal_ExpiredLabel>
+  <!-- EN: The survey records on the old arsenal have gone stale. The site&apos;s position is lost. -->
+  <DMS_Arsenal_ExpiredText>TODO</DMS_Arsenal_ExpiredText>
+  <!-- EN: Arsenal secured -->
+  <DMS_Arsenal_ClearedLabel>TODO</DMS_Arsenal_ClearedLabel>
+  <!-- EN: The gravekeepers walking the old arsenal are down and the site&apos;s defences have fallen silent.\n\nThe bunker seals still hold. Use the decoy radar on the central pad to call a tarbosaurus here and destroy it, then hack each bunker&apos;s security console to open its blast door and see what was left behind. -->
+  <DMS_Arsenal_ClearedText>TODO</DMS_Arsenal_ClearedText>
+  <!-- EN: Old arsenal: reinforcements inbound -->
+  <DMS_Arsenal_EntryCountdownLabel>TODO</DMS_Arsenal_EntryCountdownLabel>
+  <!-- EN: You have entered the old arsenal. Its unmanned security network has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Deal with the gravekeepers, call in and destroy the tarbosaurus, and get into the bunkers before then. -->
+  <DMS_Arsenal_EntryCountdownText>TODO</DMS_Arsenal_EntryCountdownText>
+  <!-- EN: A gravekeeper has stopped to challenge {0}. Gravekeepers hold fire unless they are attacked, an intruder enters a bunker, a bunker seal is broken or the facility alert runs high. -->
+  <DMS_ArsenalPatrol_Challenge>TODO</DMS_ArsenalPatrol_Challenge>
+  <!-- EN: A bunker seal has been broken. The gravekeepers are sweeping the compound. -->
+  <DMS_ArsenalPatrol_Search>TODO</DMS_ArsenalPatrol_Search>
+  <!-- EN: Deviant arrived -->
+  <DMS_DeviantRefuge_ArrivedLabel>TODO</DMS_DeviantRefuge_ArrivedLabel>
+  <!-- EN: {DEVIANT_nameFull} has arrived and joined the colony.\n\n{DEVIANT_pronoun} has begun restoring the encrypted archive, which should take {DAYS} days. Until then, {FLEET} does not know {DEVIANT_nameDef} is here. -->
+  <DMS_DeviantRefuge_ArrivedText>TODO</DMS_DeviantRefuge_ArrivedText>
+  <!-- EN: Archive restoration: {0} -->
+  <DMS_DeviantRefuge_HandoverInfo>TODO</DMS_DeviantRefuge_HandoverInfo>
+  <!-- EN: The encrypted archive will be restored on {0}, and the colonial fleet will then demand the deviant&apos;s extradition. -->
+  <DMS_DeviantRefuge_HandoverInfoTip>TODO</DMS_DeviantRefuge_HandoverInfoTip>
+  <!-- EN: Sealed files restored -->
+  <DMS_DeviantRefuge_HandoverLabel>TODO</DMS_DeviantRefuge_HandoverLabel>
+  <!-- EN: {DEVIANT_nameFull} has kept {DEVIANT_possessive} word and handed over the restored encrypted files:\n\n{GRANTED}\n\nAt the same moment, {FLEET} has come to regard us as harboring a defector, and has turned hostile.\n\nThe fleet will not let it go. As long as {DEVIANT_nameDef} stays with the colony, hunting parties will keep coming. -->
+  <DMS_DeviantRefuge_HandoverText>TODO</DMS_DeviantRefuge_HandoverText>
+  <!-- EN: {DEVIANT_nameFull} has kept {DEVIANT_possessive} word and handed over the restored encrypted files:\n\n{GRANTED}\n\n{FLEET} has learned that we are sheltering {DEVIANT_nameDef}, but a court-martial is still in session and the fleet is holding its guns during the truce. The moment the trial ends, relations will turn hostile, and the hunting parties will follow. -->
+  <DMS_DeviantRefuge_HandoverTextDeferred>TODO</DMS_DeviantRefuge_HandoverTextDeferred>
+  <!-- EN: Hostility takes effect once the court-martial ends -->
+  <DMS_DeviantRefuge_DeferredInfo>TODO</DMS_DeviantRefuge_DeferredInfo>
+  <!-- EN: Fleet turns hostile -->
+  <DMS_DeviantRefuge_HostilityLabel>TODO</DMS_DeviantRefuge_HostilityLabel>
+  <!-- EN: The court-martial is over, and the truce with it. {FLEET} has turned hostile, citing our harboring of a defector.\n\nThe fleet will not let it go. As long as {DEVIANT_nameDef} stays with the colony, hunting parties will keep coming. -->
+  <DMS_DeviantRefuge_HostilityText>TODO</DMS_DeviantRefuge_HostilityText>
+  <!-- EN: Extradition demand: {DEVIANT_nameDef} -->
+  <DMS_DeviantExtradition_LetterLabel>TODO</DMS_DeviantExtradition_LetterLabel>
+  <!-- EN: {DEVIANT_nameFull} has finished restoring the archive, but at the same moment {FLEET} has learned that we are sheltering {DEVIANT_nameDef}. The military police command has served us a formal extradition demand.\n\nHand {DEVIANT_objective} over:\n{REWARDS}\nThe fleet will confiscate the encrypted archive.\n\nRefuse: {DEVIANT_nameDef} hands the restored files over to us, and {FLEET} turns hostile and keeps sending hunters after {DEVIANT_objective} until {DEVIANT_pronoun} dies or is banished from the colony.\n\nIf we give no answer within {DAYS}, the fleet will take it as a refusal. -->
+  <DMS_DeviantExtradition_LetterText>TODO</DMS_DeviantExtradition_LetterText>
+  <!-- EN: - +{AMOUNT} goodwill with {FLEET} -->
+  <DMS_DeviantExtradition_RewardGoodwill>TODO</DMS_DeviantExtradition_RewardGoodwill>
+  <!-- EN: - {AMOUNT} {HONOR} for a colonist of our choosing, toward a fleet rank -->
+  <DMS_DeviantExtradition_RewardHonor>TODO</DMS_DeviantExtradition_RewardHonor>
+  <!-- EN: - Our colonists will be upset at having handed over one of their own -->
+  <DMS_DeviantExtradition_RewardMood>TODO</DMS_DeviantExtradition_RewardMood>
+  <!-- EN: Hand over {DEVIANT_nameDef} -->
+  <DMS_DeviantExtradition_Extradite>TODO</DMS_DeviantExtradition_Extradite>
+  <!-- EN: Refuse extradition -->
+  <DMS_DeviantExtradition_Refuse>TODO</DMS_DeviantExtradition_Refuse>
+  <!-- EN: Extradition answer due: {0} -->
+  <DMS_DeviantExtradition_DeadlineInfo>TODO</DMS_DeviantExtradition_DeadlineInfo>
+  <!-- EN: If we give no answer in time, the fleet will take it as a refusal. -->
+  <DMS_DeviantExtradition_DeadlineInfoTip>TODO</DMS_DeviantExtradition_DeadlineInfoTip>
+  <!-- EN: We never answered {FLEET}&apos;s extradition demand. The fleet has taken it as a refusal. -->
+  <DMS_DeviantExtradition_SilenceMessage>TODO</DMS_DeviantExtradition_SilenceMessage>
+  <!-- EN: Extradited: {DEVIANT_nameDef} -->
+  <DMS_DeviantExtradition_DoneLabel>TODO</DMS_DeviantExtradition_DoneLabel>
+  <!-- EN: A fleet orbital transport has taken {DEVIANT_nameFull} away, along with the encrypted archive. {FLEET} has acknowledged our cooperation.\n\nNo one knows what awaits {DEVIANT_objective} now. -->
+  <DMS_DeviantExtradition_DoneText>TODO</DMS_DeviantExtradition_DoneText>
+  <!-- EN: Who receives the {HONOR}? -->
+  <DMS_DeviantExtradition_HonorLabel>TODO</DMS_DeviantExtradition_HonorLabel>
+  <!-- EN: {FLEET} credits us with the extradition and offers {AMOUNT} {HONOR}. Who should receive it? -->
+  <DMS_DeviantExtradition_HonorText>TODO</DMS_DeviantExtradition_HonorText>
+  <!-- EN: - {PROJECT} -->
+  <DMS_DeviantRefuge_GrantedLine>TODO</DMS_DeviantRefuge_GrantedLine>
+  <!-- EN: - {PROJECT} (data received; decoded automatically once {PREREQS} is researched) -->
+  <DMS_DeviantRefuge_PendingLine>TODO</DMS_DeviantRefuge_PendingLine>
+  <!-- EN: - {PROJECT} (already known to the colony) -->
+  <DMS_DeviantRefuge_AlreadyHeldLine>TODO</DMS_DeviantRefuge_AlreadyHeldLine>
+  <!-- EN: (nothing in the archive was new to the colony) -->
+  <DMS_DeviantRefuge_NothingGranted>TODO</DMS_DeviantRefuge_NothingGranted>
+  <!-- EN: Archive decoded: {PROJECT} -->
+  <DMS_DeviantRefuge_PendingDecodedLabel>TODO</DMS_DeviantRefuge_PendingDecodedLabel>
+  <!-- EN: With the prerequisite research complete, our researchers can finally read the {PROJECT} file the deviant left behind. -->
+  <DMS_DeviantRefuge_PendingDecodedText>TODO</DMS_DeviantRefuge_PendingDecodedText>
+  <!-- EN: Deviant died -->
+  <DMS_DeviantRefuge_FailedDiedLabel>TODO</DMS_DeviantRefuge_FailedDiedLabel>
+  <!-- EN: {DEVIANT_nameFull} died before the restoration was finished, and the encrypted archive lost the only key that could read it.\n\nThe fleet never learned {DEVIANT_pronoun} had been here. -->
+  <DMS_DeviantRefuge_FailedDiedText>TODO</DMS_DeviantRefuge_FailedDiedText>
+  <!-- EN: Deviant left -->
+  <DMS_DeviantRefuge_FailedLeftLabel>TODO</DMS_DeviantRefuge_FailedLeftLabel>
+  <!-- EN: {DEVIANT_nameFull} left the colony before the restoration was finished, taking the encrypted archive along. -->
+  <DMS_DeviantRefuge_FailedLeftText>TODO</DMS_DeviantRefuge_FailedLeftText>
+  <!-- EN: Deviant kidnapped -->
+  <DMS_DeviantRefuge_FailedKidnappedLabel>TODO</DMS_DeviantRefuge_FailedKidnappedLabel>
+  <!-- EN: {DEVIANT_nameFull} was carried off before the restoration was finished, and the encrypted archive went missing along with {DEVIANT_objective}. -->
+  <DMS_DeviantRefuge_FailedKidnappedText>TODO</DMS_DeviantRefuge_FailedKidnappedText>
+  <!-- EN: Deviant never arrived -->
+  <DMS_DeviantRefuge_FailedNoArrivalLabel>TODO</DMS_DeviantRefuge_FailedNoArrivalLabel>
+  <!-- EN: {DEVIANT_nameFull} never made it to the colony, and we have heard nothing from {DEVIANT_objective} since. -->
+  <DMS_DeviantRefuge_FailedNoArrivalText>TODO</DMS_DeviantRefuge_FailedNoArrivalText>
+  <!-- EN: Hunt over -->
+  <DMS_DeviantHunt_EndedDiedLabel>TODO</DMS_DeviantHunt_EndedDiedLabel>
+  <!-- EN: {DEVIANT_nameFull} is dead. {FLEET} has struck the defector from its rolls, and no more hunters will come.\n\nThe hostility with the fleet does not end with it. -->
+  <DMS_DeviantHunt_EndedDiedText>TODO</DMS_DeviantHunt_EndedDiedText>
+  <!-- EN: Hunt over -->
+  <DMS_DeviantHunt_EndedLeftLabel>TODO</DMS_DeviantHunt_EndedLeftLabel>
+  <!-- EN: {DEVIANT_nameFull} is no longer with the colony. {FLEET} has moved its hunt elsewhere and will stop sending hunters after us.\n\nThe hostility with the fleet does not end with it. -->
+  <DMS_DeviantHunt_EndedLeftText>TODO</DMS_DeviantHunt_EndedLeftText>
+  <!-- EN: The colony still harbors a deviant hunted by {FLEET}. Relations with the fleet cannot improve. -->
+  <DMS_DeviantHunt_GoodwillBlocked>TODO</DMS_DeviantHunt_GoodwillBlocked>
+  <!-- EN: We are still sheltering a deviant the fleet is hunting. They will not accept any declaration from us. -->
+  <DMS_Occultech_RenounceBlockedDeviant>TODO</DMS_Occultech_RenounceBlockedDeviant>
+  <!-- EN: {NODE_definite} has been destroyed.\n\nWithout it, {FLEET}&apos;s radar tracking and navigation network on this planet has a gaping hole in it. They have lost track of the deviant, and the hunt has been called off.\n\nThis will not last. Another computer on the SAGE network will take over the node&apos;s work sooner or later; the hunt should start again in about {DURATION}.\n\nNote: as long as we shelter the deviant, our hostility with the fleet will not be lifted. -->
+  <DMS_HuntBreaker_SuspendedTextDeviant>TODO</DMS_HuntBreaker_SuspendedTextDeviant>
+  <!-- EN: The hunt we brought on ourselves by sheltering the deviant has been broken off as well, and will resume at the same time. -->
+  <DMS_HuntBreaker_SuspendedDeviantLine>TODO</DMS_HuntBreaker_SuspendedDeviantLine>
+  <!-- EN: Hack stage: {0} / {1} -->
+  <DMS_ServerHack_Stage>TODO</DMS_ServerHack_Stage>
+  <!-- EN: All data extracted -->
+  <DMS_ServerHack_Depleted>TODO</DMS_ServerHack_Depleted>
+  <!-- EN: Every hacking attempt sets off the facility alarm -->
+  <DMS_ServerHack_AlarmWarning>TODO</DMS_ServerHack_AlarmWarning>
+  <!-- EN: {HACKER_nameDef} has started hacking {SERVER_definite}. The facility alarm has been tripped! -->
+  <DMS_ServerHack_AlarmTripped>TODO</DMS_ServerHack_AlarmTripped>
+  <!-- EN: Someone is hacking {SERVER_definite}. The facility alarm has been tripped! -->
+  <DMS_ServerHack_AlarmTrippedNoHacker>TODO</DMS_ServerHack_AlarmTrippedNoHacker>
+  <!-- EN: Data extracted: {SERVER_label} -->
+  <DMS_ServerHack_StageLetterLabel>TODO</DMS_ServerHack_StageLetterLabel>
+  <!-- EN: We pulled {REWARD_labelShort} out of the lower storage of {SERVER_definite}.\n\nHack progress: {DONE} / {TOTAL}. Extracting more means starting the hack again, which will set off the facility alarm again. -->
+  <DMS_ServerHack_StageLetterText>TODO</DMS_ServerHack_StageLetterText>
+  <!-- EN: Destroying this node will break off the colony fleet&apos;s hunt for a while -->
+  <DMS_HuntBreaker_InspectActive>TODO</DMS_HuntBreaker_InspectActive>
+  <!-- EN: Hunt broken off; expected to resume in {0} -->
+  <DMS_HuntBreaker_InspectSuspended>TODO</DMS_HuntBreaker_InspectSuspended>
+  <!-- EN: {NODE_definite} has been destroyed. The tracking network it fed has gone quiet, but the colony fleet is not hunting us right now. -->
+  <DMS_HuntBreaker_NoHunt>TODO</DMS_HuntBreaker_NoHunt>
+  <!-- EN: {NODE_definite} has been destroyed, pushing the tracking network&apos;s recovery back even further: the hunt should resume in about {DURATION}. -->
+  <DMS_HuntBreaker_Extended>TODO</DMS_HuntBreaker_Extended>
+  <!-- EN: Hunt broken off -->
+  <DMS_HuntBreaker_SuspendedLabel>TODO</DMS_HuntBreaker_SuspendedLabel>
+  <!-- EN: {NODE_definite} has been destroyed.\n\nWithout it, {FLEET}&apos;s radar tracking and navigation network on this planet has a gaping hole in it. They have lost track of us, and the hunt has been called off.\n\nThis will not last. Another computer on the SAGE network will take over the node&apos;s work sooner or later; the hunt should start again in about {DURATION}.\n\nNote: our permanent hostility with the fleet has not been lifted. -->
+  <DMS_HuntBreaker_SuspendedText>TODO</DMS_HuntBreaker_SuspendedText>
+  <!-- EN: Tracking network restored -->
+  <DMS_HuntBreaker_ResumedLabel>TODO</DMS_HuntBreaker_ResumedLabel>
+  <!-- EN: Another computer on the SAGE network has been promoted to host, and {FLEET}&apos;s tracking network is back online.\n\nThey know where we are again. The hunt is about to resume. -->
+  <DMS_HuntBreaker_ResumedText>TODO</DMS_HuntBreaker_ResumedText>
+  <!-- EN: {VENT_definite} is hissing: toxic gas incoming! -->
+  <DMS_GasVent_Warning>TODO</DMS_GasVent_Warning>
+  <!-- EN: Gas charges: {0} / {1} -->
+  <DMS_GasVent_Charges>TODO</DMS_GasVent_Charges>
+  <!-- EN: Pressurizing -->
+  <DMS_GasVent_Arming>TODO</DMS_GasVent_Arming>
+  <!-- EN: Releasing gas -->
+  <DMS_GasVent_Releasing>TODO</DMS_GasVent_Releasing>
+  <!-- EN: SAGE node: reinforcements inbound -->
+  <DMS_SageNode_EntryCountdownLabel>TODO</DMS_SageNode_EntryCountdownLabel>
+  <!-- EN: The SAGE node&apos;s strategic air-defense grid has locked onto our position. In {0}, the fleet&apos;s quick-reaction force will arrive. -->
+  <DMS_SageNode_EntryCountdownText>TODO</DMS_SageNode_EntryCountdownText>
+  <!-- EN: SAGE node lost -->
+  <DMS_SageNode_ExpiredLabel>TODO</DMS_SageNode_ExpiredLabel>
+  <!-- EN: The SAGE network has completed a routine node rotation. The coordinates we had are no longer valid. -->
+  <DMS_SageNode_ExpiredText>TODO</DMS_SageNode_ExpiredText>
+  <!-- EN: SAGE node cleared -->
+  <DMS_SageNode_ClearedLabel>TODO</DMS_SageNode_ClearedLabel>
+  <!-- EN: The machines guarding the SAGE node have been wiped out. The SAGE core itself is still running: hack it to pull what you can from its strategic database, then destroy it for good. -->
+  <DMS_SageNode_ClearedText>TODO</DMS_SageNode_ClearedText>
+  <!-- EN: A gravekeeper has stopped to challenge {0}. Gravekeepers hold fire unless they are attacked, an intruder enters the treasury or a command room, the treasury is opened or the facility alert runs high. -->
+  <DMS_Gravekeeper_Challenge>TODO</DMS_Gravekeeper_Challenge>
+  <!-- EN: The gravekeepers have opened fire. -->
+  <DMS_Gravekeeper_Engage>TODO</DMS_Gravekeeper_Engage>
+  <!-- EN: The treasury seal is broken. Heavy footsteps are sweeping the corridors. -->
+  <DMS_Gravekeeper_TombOpened>TODO</DMS_Gravekeeper_TombOpened>
+  <!-- EN: Airfield gone dark -->
+  <DMS_Airport_ExpiredLabel>TODO</DMS_Airport_ExpiredLabel>
+  <!-- EN: The remnant airfield&apos;s telemetry has cut out. The field has gone dark and its position is lost. -->
+  <DMS_Airport_ExpiredText>TODO</DMS_Airport_ExpiredText>
+  <!-- EN: Airfield secured -->
+  <DMS_Airport_ClearedLabel>TODO</DMS_Airport_ClearedLabel>
+  <!-- EN: All hostiles at the remnant airfield have been neutralized.\n\nThe decoy radio in the tower is intact. Use it to call the cluster weaver down onto the airfield, but bring everything you have, and expect the remnants to keep sending reinforcements while you wait for it. -->
+  <DMS_Airport_ClearedText>TODO</DMS_Airport_ClearedText>
+  <!-- EN: Hostile airfield: reinforcements inbound -->
+  <DMS_Airport_EntryCountdownLabel>TODO</DMS_Airport_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant airfield. The tower&apos;s monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Clear the field before then if you intend to call the weaver here. -->
+  <DMS_Airport_EntryCountdownText>TODO</DMS_Airport_EntryCountdownText>
+  <!-- EN: Vault station lost -->
+  <DMS_VaultStation_ExpiredLabel>TODO</DMS_VaultStation_ExpiredLabel>
+  <!-- EN: The manifest&apos;s location fix has expired. The vault access station has relocated and its position is lost. -->
+  <DMS_VaultStation_ExpiredText>TODO</DMS_VaultStation_ExpiredText>
+  <!-- EN: Vault station secured -->
+  <DMS_VaultStation_ClearedLabel>TODO</DMS_VaultStation_ClearedLabel>
+  <!-- EN: All hostiles at the vault access station have been neutralized.\n\nSwipe an access key-card at the access console beside the elevator to raise its cover plate; the car still has power. Whatever was left in the vault below is yours to bring up, but the remnants will keep probing the surface. -->
+  <DMS_VaultStation_ClearedText>TODO</DMS_VaultStation_ClearedText>
+  <!-- EN: Hostile station: reinforcements inbound -->
+  <DMS_VaultStation_EntryCountdownLabel>TODO</DMS_VaultStation_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Get the shaft open, then decide whether to hold the surface or go down. -->
+  <DMS_VaultStation_EntryCountdownText>TODO</DMS_VaultStation_EntryCountdownText>
+  <!-- EN: Repair depot lost -->
+  <DMS_RepairStation_ExpiredLabel>TODO</DMS_RepairStation_ExpiredLabel>
+  <!-- EN: The maintenance request has been closed out. The remnant repair depot has relocated and its position is lost. -->
+  <DMS_RepairStation_ExpiredText>TODO</DMS_RepairStation_ExpiredText>
+  <!-- EN: Repair depot secured -->
+  <DMS_RepairStation_ClearedLabel>TODO</DMS_RepairStation_ClearedLabel>
+  <!-- EN: All hostiles at the remnant repair depot have been neutralized.\n\nHack the depot&apos;s security console to release the maintenance bay. The units in the cradles were never re-authenticated: a mechanitor can hack one and take it. The lifter on the pad and the stores are yours as well. -->
+  <DMS_RepairStation_ClearedText>TODO</DMS_RepairStation_ClearedText>
+  <!-- EN: Hostile depot: reinforcements inbound -->
+  <DMS_RepairStation_EntryCountdownLabel>TODO</DMS_RepairStation_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
+  <DMS_RepairStation_EntryCountdownText>TODO</DMS_RepairStation_EntryCountdownText>
+  <!-- EN: Forward base struck -->
+  <DMS_OperationBase_ExpiredLabel>TODO</DMS_OperationBase_ExpiredLabel>
+  <!-- EN: The remnant forward base has struck camp and moved on. Its position is lost. -->
+  <DMS_OperationBase_ExpiredText>TODO</DMS_OperationBase_ExpiredText>
+  <!-- EN: Forward base secured -->
+  <DMS_OperationBase_ClearedLabel>TODO</DMS_OperationBase_ClearedLabel>
+  <!-- EN: All hostiles at the remnant forward base have been neutralized.\n\nThe supply dump is yours. Hack both security consoles to open the blast doors, then hack the freight elevator itself to reach the store below, but the remnants will keep probing the perimeter. -->
+  <DMS_OperationBase_ClearedText>TODO</DMS_OperationBase_ClearedText>
+  <!-- EN: Hostile base: reinforcements inbound -->
+  <DMS_OperationBase_EntryCountdownLabel>TODO</DMS_OperationBase_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
+  <DMS_OperationBase_EntryCountdownText>TODO</DMS_OperationBase_EntryCountdownText>
+  <!-- EN: Station picked clean -->
+  <DMS_SiteStation_ExpiredLabel>TODO</DMS_SiteStation_ExpiredLabel>
+  <!-- EN: The remnant detachment has moved on and stripped the derelict station on its way out. It is no longer worth the trip. -->
+  <DMS_SiteStation_ExpiredText>TODO</DMS_SiteStation_ExpiredText>
+  <!-- EN: Station cleared -->
+  <DMS_SiteStation_ClearedLabel>TODO</DMS_SiteStation_ClearedLabel>
+  <!-- EN: All hostiles at the derelict station have been neutralized.\n\nThe ancient crates, the shelving and the wrecks are yours to strip, and the pod launchers still work. Expect the remnants to keep probing the ruins. -->
+  <DMS_SiteStation_ClearedText>TODO</DMS_SiteStation_ClearedText>
+  <!-- EN: Hostile station: reinforcements inbound -->
+  <DMS_SiteStation_EntryCountdownLabel>TODO</DMS_SiteStation_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. The station is large; do not get strung out across it when they do. -->
+  <DMS_SiteStation_EntryCountdownText>TODO</DMS_SiteStation_EntryCountdownText>
+  <!-- EN: Launch site lost -->
+  <DMS_LaunchSite_ExpiredLabel>TODO</DMS_LaunchSite_ExpiredLabel>
+  <!-- EN: The remnant patrol has moved on from the abandoned launch site and the scanner fix has been lost with it. -->
+  <DMS_LaunchSite_ExpiredText>TODO</DMS_LaunchSite_ExpiredText>
+  <!-- EN: Launch site cleared -->
+  <DMS_LaunchSite_ClearedLabel>TODO</DMS_LaunchSite_ClearedLabel>
+  <!-- EN: The remnant patrol at the abandoned launch site has been neutralized.\n\nThe wreckage is yours to salvage. Expect the remnants to send another patrol through eventually. -->
+  <DMS_LaunchSite_ClearedText>TODO</DMS_LaunchSite_ClearedText>
+  <!-- EN: Hostile site: reinforcements inbound -->
+  <DMS_LaunchSite_EntryCountdownLabel>TODO</DMS_LaunchSite_EntryCountdownLabel>
+  <!-- EN: You have entered a remnant patrol zone. The patrol&apos;s monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Salvage what you can and get out, or dig in. -->
+  <DMS_LaunchSite_EntryCountdownText>TODO</DMS_LaunchSite_EntryCountdownText>
+  <!-- EN: Glyphs recovered: {0} / {1} -->
+  <DMS_Stele_GlyphProgress>TODO</DMS_Stele_GlyphProgress>
+  <!-- EN: Occultech glyph recovered ({0} / {1}). -->
+  <DMS_Stele_GlyphRecovered>TODO</DMS_Stele_GlyphRecovered>
+  <!-- EN: Glyph lost -->
+  <DMS_Stele_GlyphLostLabel>TODO</DMS_Stele_GlyphLostLabel>
+  <!-- EN: We left the impact site without its glyph, and it was lost with the site.\n\nAnother glyph signal will surface in time. -->
+  <DMS_Stele_GlyphLostText>TODO</DMS_Stele_GlyphLostText>
+  <!-- EN: The glyph server at the impact site was destroyed, and the glyph sealed inside it went with it.\n\nAnother glyph signal will surface in time. -->
+  <DMS_Stele_GlyphDestroyedText>TODO</DMS_Stele_GlyphDestroyedText>
+  <!-- EN: Stele secured -->
+  <DMS_Stele_SteleSecuredLabel>TODO</DMS_Stele_SteleSecuredLabel>
+  <!-- EN: The stele is ours.\n\nInstall it at the colony and build a decoder flush against its front. Once powered, the decoder extracts the stele&apos;s knowledge into occultech research on its own.\n\nEvery stele read this way is lost to the fleets for good. -->
+  <DMS_Stele_SteleSecuredText>TODO</DMS_Stele_SteleSecuredText>
+  <!-- EN: Stele lost -->
+  <DMS_Stele_SteleLostLabel>TODO</DMS_Stele_SteleLostLabel>
+  <!-- EN: The stele did not leave the vault with us, and it is lost.\n\nThe resolved glyph cipher still points to other burial sites. Our researchers will work out the next one within a few days. -->
+  <DMS_Stele_SteleLostText>TODO</DMS_Stele_SteleLostText>
+  <!-- EN: Next pulse in: {0} -->
+  <DMS_SubsonicEmitter_Charging>TODO</DMS_SubsonicEmitter_Charging>
+  <!-- EN: Ready, waiting for hostiles in range -->
+  <DMS_SubsonicEmitter_Ready>TODO</DMS_SubsonicEmitter_Ready>
+  <!-- EN: {EMITTER_definite} is powering up: infrasound incoming! -->
+  <DMS_SubsonicEmitter_Engaged>TODO</DMS_SubsonicEmitter_Engaged>
+  <!-- EN: Standby, awaiting facility alarm -->
+  <DMS_SubsonicEmitter_Standby>TODO</DMS_SubsonicEmitter_Standby>
+  <!-- EN: Engaged: {0} remaining -->
+  <DMS_SubsonicEmitter_EngagedFor>TODO</DMS_SubsonicEmitter_EngagedFor>
+  <!-- EN: Light fuse -->
+  <DMS_BlastScanner_Ignite>TODO</DMS_BlastScanner_Ignite>
+  <!-- EN: Light the fuse. The blast maps several deep deposits, but is very likely to wake insects underground. -->
+  <DMS_BlastScanner_IgniteDesc>TODO</DMS_BlastScanner_IgniteDesc>
+  <!-- EN: The fuse is already burning. -->
+  <DMS_BlastScanner_FuseLit>TODO</DMS_BlastScanner_FuseLit>
+  <!-- EN: Fuse burning: {0} -->
+  <DMS_BlastScanner_FuseBurning>TODO</DMS_BlastScanner_FuseBurning>
+  <!-- EN: Recalibrating: {0} -->
+  <DMS_BlastScanner_Cooldown>TODO</DMS_BlastScanner_Cooldown>
+  <!-- EN: Load a high-explosive shell first. -->
+  <DMS_BlastScanner_NoCharge>TODO</DMS_BlastScanner_NoCharge>
+  <!-- EN: Deep deposits mapped -->
+  <DMS_BlastScanner_FoundLabel>TODO</DMS_BlastScanner_FoundLabel>
+  <!-- EN: The shockwave from the {0} has mapped new deep deposits:\n\n{1}\n\nA deep drill can extract them. -->
+  <DMS_BlastScanner_FoundText>TODO</DMS_BlastScanner_FoundText>
+  <!-- EN: The {0} detonated, but the echoes revealed nothing new. -->
+  <DMS_BlastScanner_NothingFound>TODO</DMS_BlastScanner_NothingFound>
+  <!-- EN: Insects woken -->
+  <DMS_BlastScanner_InsectsLabel>TODO</DMS_BlastScanner_InsectsLabel>
+  <!-- EN: The shockwave from the {0} has woken an insect colony dormant underground. They are digging their way to the surface. -->
+  <DMS_BlastScanner_InsectsText>TODO</DMS_BlastScanner_InsectsText>
+  <!-- EN: Unlocked. -->
+  <DMS_ElevatorUnlocked>TODO</DMS_ElevatorUnlocked>
+  <!-- EN: A {0}-strong squad is climbing out of the {1}! -->
+  <DMS_HoleEmerge_Triggered>TODO</DMS_HoleEmerge_Triggered>
+  <!-- EN: {0} is calling for reinforcements. A quick-reaction force is on its way. -->
+  <DMS_BattleGroupCall_Triggered>TODO</DMS_BattleGroupCall_Triggered>
+  <!-- EN: {0} is calling in a fire mission. Incoming shells! -->
+  <DMS_MortarStrike_Triggered>TODO</DMS_MortarStrike_Triggered>
+  <!-- EN: Take and equip {0} -->
+  <DMS_LauncherCase_TakeWeapon>TODO</DMS_LauncherCase_TakeWeapon>
+  <!-- EN: Empty -->
+  <DMS_LauncherCase_Empty>TODO</DMS_LauncherCase_Empty>
+  <!-- EN: Locked: {0} more key-card swipes needed -->
+  <DMS_AccessKeyTransform_Locked>TODO</DMS_AccessKeyTransform_Locked>
+  <!-- EN: Locked: no linked access console -->
+  <DMS_AccessKeyTransform_NoConsole>TODO</DMS_AccessKeyTransform_NoConsole>
+  <!-- EN: {THING_labelShort} has been unlocked. -->
+  <DMS_AccessKeyTransform_Unlocked>TODO</DMS_AccessKeyTransform_Unlocked>
+  <!-- EN: {RELAY_labelShort} has released its locks. -->
+  <DMS_BossKillRelay_Released>TODO</DMS_BossKillRelay_Released>
+  <!-- EN: {BOSS_labelShort}&apos;s life signs have ceased. {RELAY_labelShort} has released its locks. -->
+  <DMS_BossKillRelay_ReleasedBy>TODO</DMS_BossKillRelay_ReleasedBy>
+  <!-- EN: Sealed: {0} linked locks open when the guardian unit dies -->
+  <DMS_BossKillRelay_InspectLocked>TODO</DMS_BossKillRelay_InspectLocked>
+  <!-- EN: No linked locks -->
+  <DMS_BossKillRelay_InspectNoLink>TODO</DMS_BossKillRelay_InspectNoLink>
+  <!-- EN: Released -->
+  <DMS_BossKillRelay_InspectReleased>TODO</DMS_BossKillRelay_InspectReleased>
+  <!-- EN: Guardian: {0} -->
+  <DMS_BossKillRelay_InspectBossKinds>TODO</DMS_BossKillRelay_InspectBossKinds>
+  <!-- EN: {WAKER_labelShort} has woken a dormant turret. -->
+  <DMS_DormantTurretWokenUp>TODO</DMS_DormantTurretWokenUp>
+  <!-- EN: {WAKER_labelShort} has woken the dormant turrets. -->
+  <DMS_DormantTurretWokenUpPlural>TODO</DMS_DormantTurretWokenUpPlural>
+  <!-- EN: Catalyst: {0} / {1} ({2} total) -->
+  <DMS_ZeroPointGenerator_Charge>TODO</DMS_ZeroPointGenerator_Charge>
+  <!-- EN: No catalyst. Load an antigrain warhead. -->
+  <DMS_ZeroPointGenerator_NoCatalyst>TODO</DMS_ZeroPointGenerator_NoCatalyst>
+  <!-- EN: No room for output. -->
+  <DMS_ZeroPointGenerator_NoRoom>TODO</DMS_ZeroPointGenerator_NoRoom>
+  <!-- EN: {GENERATOR_definite} has run out of catalyst. -->
+  <DMS_ZeroPointGenerator_CatalystSpent>TODO</DMS_ZeroPointGenerator_CatalystSpent>
+  <!-- EN: Core: {0} remaining -->
+  <DMS_ZeroPointReactor_Core>TODO</DMS_ZeroPointReactor_Core>
+  <!-- EN: Core: empty -->
+  <DMS_ZeroPointReactor_CoreEmpty>TODO</DMS_ZeroPointReactor_CoreEmpty>
+  <!-- EN: Total runtime: {0} -->
+  <DMS_ZeroPointReactor_Total>TODO</DMS_ZeroPointReactor_Total>
+  <!-- EN: In field: {0} (suppressed: {1}) -->
+  <DMS_RealityAnchor_Field>TODO</DMS_RealityAnchor_Field>
+  <!-- EN: Blocked by a reality anchor&apos;s field. -->
+  <DMS_RealityAnchor_PsycastBlocked>TODO</DMS_RealityAnchor_PsycastBlocked>
+  <!-- EN: {0}: capped at {1} -->
+  <DMS_StatRule_Max>TODO</DMS_StatRule_Max>
+</LanguageData>
