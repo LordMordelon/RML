@@ -1,133 +1,133 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: {PAWN_labelShort}&apos;s condition has worsened: {0}. -->
-  <DMS_BionicShock_LevelUp>TODO</DMS_BionicShock_LevelUp>
+  <DMS_BionicShock_LevelUp>El estado de {PAWN_labelShort} empeoró: {0}.</DMS_BionicShock_LevelUp>
   <!-- EN: {PAWN_labelShort}&apos;s condition has eased: {0}. -->
-  <DMS_BionicShock_LevelDown>TODO</DMS_BionicShock_LevelDown>
+  <DMS_BionicShock_LevelDown>El estado de {PAWN_labelShort} mejoró: {0}.</DMS_BionicShock_LevelDown>
   <!-- EN: {PAWN_labelShort}&apos;s {0} has been cured. -->
-  <DMS_BionicShock_Cured>TODO</DMS_BionicShock_Cured>
+  <DMS_BionicShock_Cured>{PAWN_labelShort} se curó de {0}.</DMS_BionicShock_Cured>
   <!-- EN: {0} level -->
-  <DMS_BionicShock_StatLabel>TODO</DMS_BionicShock_StatLabel>
+  <DMS_BionicShock_StatLabel>nivel de {0}</DMS_BionicShock_StatLabel>
   <!-- EN: Each dose changes the level of {0} by {1}. At level 0 the condition is removed. -->
-  <DMS_BionicShock_StatDesc>TODO</DMS_BionicShock_StatDesc>
+  <DMS_BionicShock_StatDesc>Cada dosis cambia el nivel de {0} en {1}. En el nivel 0, la afección desaparece.</DMS_BionicShock_StatDesc>
   <!-- EN: {PAWN_labelShort}&apos;s {0} has grown back. -->
-  <DMS_CombatRegen_PartRegrown>TODO</DMS_CombatRegen_PartRegrown>
+  <DMS_CombatRegen_PartRegrown>Parte regenerada en {PAWN_labelShort}: {0}.</DMS_CombatRegen_PartRegrown>
   <!-- EN: {PAWN_labelShort} is rejecting the regeneration serum: {0}. -->
-  <DMS_CombatRegen_Rejection>TODO</DMS_CombatRegen_Rejection>
+  <DMS_CombatRegen_Rejection>{PAWN_labelShort} está rechazando el suero de regeneración: {0}.</DMS_CombatRegen_Rejection>
   <!-- EN: {0} chance -->
-  <DMS_SetHediffLevel_StatLabel>TODO</DMS_SetHediffLevel_StatLabel>
+  <DMS_SetHediffLevel_StatLabel>probabilidad de {0}</DMS_SetHediffLevel_StatLabel>
   <!-- EN: {1} (level {0}) -->
-  <DMS_SetHediffLevel_StatValue>TODO</DMS_SetHediffLevel_StatValue>
+  <DMS_SetHediffLevel_StatValue>{1} (nivel {0})</DMS_SetHediffLevel_StatValue>
   <!-- EN: Each dose has a {2} chance to bring {0} to level {1}. A higher level is left unchanged. -->
-  <DMS_SetHediffLevel_StatDesc>TODO</DMS_SetHediffLevel_StatDesc>
+  <DMS_SetHediffLevel_StatDesc>Cada dosis tiene un {2} de probabilidad de llevar {0} al nivel {1}. Si el nivel ya es más alto, no cambia.</DMS_SetHediffLevel_StatDesc>
   <!-- EN: a relay-station operation is already underway -->
-  <DMS_DecoySite_AlreadyActive>TODO</DMS_DecoySite_AlreadyActive>
+  <DMS_DecoySite_AlreadyActive>ya hay una operación en curso en una estación de retransmisión</DMS_DecoySite_AlreadyActive>
   <!-- EN: Unable to locate a relay station: no valid site could be found on the world map. -->
-  <DMS_DecoySite_CannotFindSite>TODO</DMS_DecoySite_CannotFindSite>
+  <DMS_DecoySite_CannotFindSite>No se puede ubicar una estación de retransmisión: no se encontró ningún sitio válido en el mapa del mundo.</DMS_DecoySite_CannotFindSite>
   <!-- EN: Relay station lost -->
-  <DMS_DecoySite_ExpiredLabel>TODO</DMS_DecoySite_ExpiredLabel>
+  <DMS_DecoySite_ExpiredLabel>Estación de retransmisión perdida</DMS_DecoySite_ExpiredLabel>
   <!-- EN: The remnant relay station&apos;s transmission window has closed. The station has relocated and its position is lost. -->
-  <DMS_DecoySite_ExpiredText>TODO</DMS_DecoySite_ExpiredText>
+  <DMS_DecoySite_ExpiredText>Se cerró la ventana de transmisión de la estación de retransmisión de los remanentes. La estación se trasladó y se perdió su posición.</DMS_DecoySite_ExpiredText>
   <!-- EN: Relay station secured -->
-  <DMS_DecoySite_ClearedLabel>TODO</DMS_DecoySite_ClearedLabel>
+  <DMS_DecoySite_ClearedLabel>Estación de retransmisión asegurada</DMS_DecoySite_ClearedLabel>
   <!-- EN: All hostiles at the remnant relay station have been neutralized. The site&apos;s equipment, including the decoy antenna, is yours to use, but expect the remnants to keep probing the area. -->
-  <DMS_DecoySite_ClearedText>TODO</DMS_DecoySite_ClearedText>
+  <DMS_DecoySite_ClearedText>Se neutralizó a todos los hostiles de la estación de retransmisión de los remanentes. El equipo del sitio, incluida la antena señuelo, queda a tu disposición, pero los remanentes seguirán rondando la zona.</DMS_DecoySite_ClearedText>
   <!-- EN: Hostile site: reinforcements inbound -->
-  <DMS_DecoySite_EntryCountdownLabel>TODO</DMS_DecoySite_EntryCountdownLabel>
+  <DMS_DecoySite_EntryCountdownLabel>Sitio hostil: llegan refuerzos</DMS_DecoySite_EntryCountdownLabel>
   <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
-  <DMS_DecoySite_EntryCountdownText>TODO</DMS_DecoySite_EntryCountdownText>
+  <DMS_DecoySite_EntryCountdownText>Entraste en una instalación hostil de los remanentes. Su protocolo de vigilancia detectó tu presencia.\n\nLos refuerzos enemigos llegarán en {0}. Termina lo que viniste a hacer y vete, o atrinchérate.</DMS_DecoySite_EntryCountdownText>
   <!-- EN: Documents arrived -->
-  <DMS_DocQuest_ArrivedLabel>TODO</DMS_DocQuest_ArrivedLabel>
+  <DMS_DocQuest_ArrivedLabel>Llegaron los documentos</DMS_DocQuest_ArrivedLabel>
   <!-- EN: The documents from {0} have arrived by drop pod near your trade beacons or colony center. The fleet expects every one of them back intact. -->
-  <DMS_DocQuest_ArrivedText1>TODO</DMS_DocQuest_ArrivedText1>
+  <DMS_DocQuest_ArrivedText1>Los documentos de {0} llegaron en cápsulas de escape cerca de tus balizas de comercio o del centro de la colonia. La flota espera recibirlos todos de vuelta intactos.</DMS_DocQuest_ArrivedText1>
   <!-- EN: Sealed document crates have landed near your trade beacons. The attached manifest is signed by {0}: &apos;Processed, stamped, and returned in full.&apos; -->
-  <DMS_DocQuest_ArrivedText2>TODO</DMS_DocQuest_ArrivedText2>
+  <DMS_DocQuest_ArrivedText2>Aterrizaron cajas selladas de documentos cerca de tus balizas de comercio. El manifiesto adjunto lo firma {0}: "Procesados, sellados y devueltos completos".</DMS_DocQuest_ArrivedText2>
   <!-- EN: The fleet&apos;s backlogged paperwork has arrived. {0} requests that processing begin at the earliest opportunity: the clerical division is already behind schedule. -->
-  <DMS_DocQuest_ArrivedText3>TODO</DMS_DocQuest_ArrivedText3>
+  <DMS_DocQuest_ArrivedText3>Llegó el papeleo atrasado de la flota. {0} pide que el procesamiento empiece cuanto antes: la división administrativa ya va atrasada.</DMS_DocQuest_ArrivedText3>
   <!-- EN: Documents destroyed -->
-  <DMS_DocQuest_DestroyedLabel>TODO</DMS_DocQuest_DestroyedLabel>
+  <DMS_DocQuest_DestroyedLabel>Documentos destruidos</DMS_DocQuest_DestroyedLabel>
   <!-- EN: Documents under the fleet contract have been destroyed. As stipulated, the contract has ended. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText1>TODO</DMS_DocQuest_DestroyedText1>
+  <DMS_DocQuest_DestroyedText1>Se destruyeron documentos del contrato con la flota. Según lo estipulado, el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText1>
   <!-- EN: Part of the fleet&apos;s paperwork is beyond recovery. There is nothing left to return in full, and the contract has ended. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText2>TODO</DMS_DocQuest_DestroyedText2>
+  <DMS_DocQuest_DestroyedText2>Parte del papeleo de la flota ya no se puede recuperar. No queda forma de devolverlo completo, y el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText2>
   <!-- EN: The fleet&apos;s documents were destroyed in your care. {0} has been notified. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText3>TODO</DMS_DocQuest_DestroyedText3>
+  <DMS_DocQuest_DestroyedText3>Los documentos de la flota se destruyeron mientras estaban a tu cargo. Se notificó a {0}. La misión fracasó.</DMS_DocQuest_DestroyedText3>
   <!-- EN: Documents processed -->
-  <DMS_DocQuest_CompleteLabel>TODO</DMS_DocQuest_CompleteLabel>
+  <DMS_DocQuest_CompleteLabel>Documentos procesados</DMS_DocQuest_CompleteLabel>
   <!-- EN: Every document has been processed and accounted for. As promised, payment has been dispatched. -->
-  <DMS_DocQuest_CompleteText1>TODO</DMS_DocQuest_CompleteText1>
+  <DMS_DocQuest_CompleteText1>Se procesaron y contabilizaron todos los documentos. Tal como se prometió, se envió el pago.</DMS_DocQuest_CompleteText1>
   <!-- EN: The last file has been verified and crated for return. {0} confirms the contract is fulfilled; payment is on its way. -->
-  <DMS_DocQuest_CompleteText2>TODO</DMS_DocQuest_CompleteText2>
+  <DMS_DocQuest_CompleteText2>Se verificó el último archivo y se embaló para devolverlo. {0} confirma que el contrato está cumplido; el pago va en camino.</DMS_DocQuest_CompleteText2>
   <!-- EN: All fleet paperwork has been processed on schedule. {0} notes that follow-up contracts may be offered to us first. -->
-  <DMS_DocQuest_CompleteText3>TODO</DMS_DocQuest_CompleteText3>
+  <DMS_DocQuest_CompleteText3>Todo el papeleo de la flota se procesó a tiempo. {0} señala que podrían ofrecernos a nosotros primero los próximos contratos.</DMS_DocQuest_CompleteText3>
   <!-- EN: Development: {0} -->
-  <DMS.SecondaryGestationProgress>TODO</DMS.SecondaryGestationProgress>
+  <DMS.SecondaryGestationProgress>Desarrollo: {0}</DMS.SecondaryGestationProgress>
   <!-- EN: Time until complete: {0} -->
-  <DMS.SecondaryGestationRemaining>TODO</DMS.SecondaryGestationRemaining>
+  <DMS.SecondaryGestationRemaining>Tiempo restante: {0}</DMS.SecondaryGestationRemaining>
   <!-- EN: {RATION}: {COUNT} / {MAX} -->
-  <DMS.RationMagazineContents>TODO</DMS.RationMagazineContents>
+  <DMS.RationMagazineContents>{RATION}: {COUNT} / {MAX}</DMS.RationMagazineContents>
   <!-- EN: Load {0} -->
-  <DMS.LoadRationLabel>TODO</DMS.LoadRationLabel>
+  <DMS.LoadRationLabel>Cargar {0}</DMS.LoadRationLabel>
   <!-- EN: Order this mech to fetch a {RATION} and load it into its bioreactor. Capacity: {MAX}. -->
-  <DMS.LoadRationDesc>TODO</DMS.LoadRationDesc>
+  <DMS.LoadRationDesc>Ordena a este meca ir a buscar una {RATION} y cargarla en su biorreactor. Capacidad: {MAX}.</DMS.LoadRationDesc>
   <!-- EN: Bioreactor is full. -->
-  <DMS.LoadRationFull>TODO</DMS.LoadRationFull>
+  <DMS.LoadRationFull>El biorreactor está lleno.</DMS.LoadRationFull>
   <!-- EN: No reachable {0}. -->
-  <DMS.LoadRationNoneAvailable>TODO</DMS.LoadRationNoneAvailable>
+  <DMS.LoadRationNoneAvailable>No hay {0} al alcance.</DMS.LoadRationNoneAvailable>
   <!-- EN: This mech has no bioreactor. -->
-  <DMS.RationRecoveryNoMagazine>TODO</DMS.RationRecoveryNoMagazine>
+  <DMS.RationRecoveryNoMagazine>Este meca no tiene biorreactor.</DMS.RationRecoveryNoMagazine>
   <!-- EN: No {0} loaded. -->
-  <DMS.RationRecoveryNoRations>TODO</DMS.RationRecoveryNoRations>
+  <DMS.RationRecoveryNoRations>No hay ninguna {0} cargada.</DMS.RationRecoveryNoRations>
   <!-- EN: {PAWN} consumed a ration. Cells recharged, {COUNT} wounds sealed. -->
-  <DMS.RationRecoveryDone>TODO</DMS.RationRecoveryDone>
+  <DMS.RationRecoveryDone>{PAWN} consumió una ración. Celdas recargadas, {COUNT} heridas selladas.</DMS.RationRecoveryDone>
   <!-- EN: Fracturing bedrock -->
-  <DMS_HydraulicFracturing_Bedrock>TODO</DMS_HydraulicFracturing_Bedrock>
+  <DMS_HydraulicFracturing_Bedrock>Fracturando el lecho de roca</DMS_HydraulicFracturing_Bedrock>
   <!-- EN: No room for output. -->
-  <DMS_HydraulicFracturing_NoRoom>TODO</DMS_HydraulicFracturing_NoRoom>
+  <DMS_HydraulicFracturing_NoRoom>No hay espacio para lo que produce.</DMS_HydraulicFracturing_NoRoom>
   <!-- EN: {RIG_definite} has exhausted its deep deposits and is now fracturing bedrock. -->
-  <DMS_HydraulicFracturing_Exhausted>TODO</DMS_HydraulicFracturing_Exhausted>
+  <DMS_HydraulicFracturing_Exhausted>{RIG_definite} agotó sus depósitos profundos y ahora está fracturando el lecho de roca.</DMS_HydraulicFracturing_Exhausted>
   <!-- EN: {RIG_definite} has exhausted its deep deposits and stopped: there is no bedrock here. -->
-  <DMS_HydraulicFracturing_ExhaustedNoFallback>TODO</DMS_HydraulicFracturing_ExhaustedNoFallback>
+  <DMS_HydraulicFracturing_ExhaustedNoFallback>{RIG_definite} agotó sus depósitos profundos y se detuvo: aquí no hay lecho de roca.</DMS_HydraulicFracturing_ExhaustedNoFallback>
   <!-- EN: Temporary release order: {0} -->
-  <DMS_Occultech_ExemptLabel>TODO</DMS_Occultech_ExemptLabel>
+  <DMS_Occultech_ExemptLabel>Orden de liberación temporal: {0}</DMS_Occultech_ExemptLabel>
   <!-- EN: Our researchers have decoded {0}.\n\n{1} holds the rank of {2} on the {3} service roll, and has filed a temporary release order against the classification on the grounds of emergency necessity. The file is logged as an authorized wartime exception rather than an unauthorized decryption.\n\nNo sanction follows. The order stands only as long as an officer of that rank remains with us. -->
-  <DMS_Occultech_ExemptText>TODO</DMS_Occultech_ExemptText>
+  <DMS_Occultech_ExemptText>Nuestros investigadores descifraron {0}.\n\n{1} tiene el rango de {2} en el registro de servicio de {3}, y presentó una orden de liberación temporal contra la clasificación por motivos de necesidad urgente. El archivo queda registrado como una excepción autorizada en tiempo de guerra, no como un descifrado no autorizado.\n\nNo habrá sanción. La orden se mantiene solo mientras alguien con ese rango siga con nosotros.</DMS_Occultech_ExemptText>
   <!-- EN: Restricted file opened: {0} -->
-  <DMS_Occultech_RestrictedLabel>TODO</DMS_Occultech_RestrictedLabel>
+  <DMS_Occultech_RestrictedLabel>Archivo restringido abierto: {0}</DMS_Occultech_RestrictedLabel>
   <!-- EN: We have decoded {0}, a restricted-class file. Technology at this classification is withheld for environmental and ethical reasons, or for the permanent changes it works on the people who use it, not because it is dangerous to anyone else.\n\n{1} has logged the decryption against our name. Goodwill {3} → {4} ({2}).\n\nHad a colonist of {5} rank or above been with us, they could have signed a temporary release order and the matter would have ended there. -->
-  <DMS_Occultech_RestrictedText>TODO</DMS_Occultech_RestrictedText>
+  <DMS_Occultech_RestrictedText>Desciframos {0}, un archivo de clase restringida. La tecnología de esta clasificación se retiene por razones ambientales y éticas, o por los cambios permanentes que produce en quienes la usan, no porque sea peligrosa para los demás.\n\n{1} registró el descifrado a nuestro nombre. Buena voluntad {3} → {4} ({2}).\n\nSi hubiéramos tenido con nosotros a un colono de rango {5} o superior, podría haber firmado una orden de liberación temporal y el asunto habría terminado ahí.</DMS_Occultech_RestrictedText>
   <!-- EN: Seal broken: {0} -->
-  <DMS_Occultech_SealedLabel>TODO</DMS_Occultech_SealedLabel>
+  <DMS_Occultech_SealedLabel>Sello roto: {0}</DMS_Occultech_SealedLabel>
   <!-- EN: We have opened {0}, a sealed-class file. Technology at this classification is withheld because its spread starts arms races across star systems. Inside the fleets the contents are common knowledge: line personnel are taught to recognize the signature and report it. Outside them, holding it is cause enough.\n\n{1} has recognized the signature and declared us hostile.\n\nWhile we keep any sealed technology, they will go no further than a truce: the relationship cannot return to alliance until we formally renounce the file over the comms console. A colonist of {2} rank or above could have carried it without any of this. -->
-  <DMS_Occultech_SealedText>TODO</DMS_Occultech_SealedText>
+  <DMS_Occultech_SealedText>Abrimos {0}, un archivo de clase sellada. La tecnología de esta clasificación se retiene porque su difusión desata carreras armamentistas entre sistemas estelares. Dentro de las flotas, su contenido es de conocimiento común: al personal de línea se le enseña a reconocer la firma y a reportarla. Fuera de ellas, tenerla ya es motivo suficiente.\n\n{1} reconoció la firma y nos declaró hostiles.\n\nMientras conservemos cualquier tecnología sellada, no irán más allá de una tregua: la relación no podrá volver a ser una alianza hasta que renunciemos formalmente al archivo desde la consola de comunicaciones. Un colono de rango {2} o superior podría haberla tenido sin nada de esto.</DMS_Occultech_SealedText>
   <!-- EN: {0} response elements are already inbound. -->
-  <DMS_Occultech_SealedRaidLine>TODO</DMS_Occultech_SealedRaidLine>
+  <DMS_Occultech_SealedRaidLine>Ya vienen en camino elementos de respuesta de {0}.</DMS_Occultech_SealedRaidLine>
   <!-- EN: Occulted file opened: {0} -->
-  <DMS_Occultech_OccultedLabel>TODO</DMS_Occultech_OccultedLabel>
+  <DMS_Occultech_OccultedLabel>Archivo oculto abierto: {0}</DMS_Occultech_OccultedLabel>
   <!-- EN: We have opened {0}, an occulted-class file. Knowing that technology of this class exists is itself the hazard: every seal that fails is another chance for hundreds of millions of people to be spent on someone&apos;s private ambition.\n\n{1} has declared a standing kill order against this colony. There is no release order, no rank and no argument that lifts it. Their hunting elements will keep coming.\n\nWord has gone out along their lines. {2} have broken off with us as well; those ties, at least, can be repaired in time.\n\nOne road out remains. Submit our highest-ranking officer to a fleet court-martial and let them serve a full year, and the kill order ends. At neutral, never better. -->
-  <DMS_Occultech_OccultedText>TODO</DMS_Occultech_OccultedText>
+  <DMS_Occultech_OccultedText>Abrimos {0}, un archivo de clase oculta. Saber que existe tecnología de esta clase ya es en sí el peligro: cada sello que falla es otra oportunidad de que cientos de millones de personas se sacrifiquen por la ambición personal de alguien.\n\n{1} declaró una orden permanente de exterminio contra esta colonia. No hay orden de liberación, rango ni argumento que la levante. Sus elementos de caza seguirán viniendo.\n\nLa noticia se corrió por sus líneas. {2} también rompieron con nosotros; esos lazos, al menos, pueden repararse con el tiempo.\n\nQueda una salida: entregar a un consejo de guerra de la flota a quien tenga el rango más alto entre nosotros y dejar que cumpla un año completo de condena. Así la orden de exterminio termina, y la relación queda en neutral, nunca mejor.</DMS_Occultech_OccultedText>
   <!-- EN: No other faction -->
-  <DMS_Occultech_OccultedNoAllies>TODO</DMS_Occultech_OccultedNoAllies>
+  <DMS_Occultech_OccultedNoAllies>Ninguna otra facción</DMS_Occultech_OccultedNoAllies>
   <!-- EN: {0} will not ally with us while we hold sealed technology. -->
-  <DMS_Occultech_AllyBlockedMessage>TODO</DMS_Occultech_AllyBlockedMessage>
+  <DMS_Occultech_AllyBlockedMessage>{0} no se aliará con nosotros mientras tengamos tecnología sellada.</DMS_Occultech_AllyBlockedMessage>
   <!-- EN: Kill order rescinded -->
-  <DMS_Occultech_PardonLabel>TODO</DMS_Occultech_PardonLabel>
+  <DMS_Occultech_PardonLabel>Orden de exterminio revocada</DMS_Occultech_PardonLabel>
   <!-- EN: The sentence has been served in full. {0} has rescinded its standing kill order against this colony and restored us to neutral standing.\n\nThe file we opened is still open. They have simply stopped sending people to close it. -->
-  <DMS_Occultech_PardonText>TODO</DMS_Occultech_PardonText>
+  <DMS_Occultech_PardonText>La condena se cumplió por completo. {0} revocó su orden permanente de exterminio contra esta colonia y nos devolvió a una relación neutral.\n\nEl archivo que abrimos sigue abierto. Simplemente dejaron de enviar gente a cerrarlo.</DMS_Occultech_PardonText>
   <!-- EN: {DEFENDANT_nameDef} has answered to the tribunal. The fleet has called off its hunt for {DEFENDANT_objective}. -->
-  <DMS_CourtMartial_HuntdownEnded>TODO</DMS_CourtMartial_HuntdownEnded>
+  <DMS_CourtMartial_HuntdownEnded>{DEFENDANT_nameDef} respondió ante el tribunal. La flota suspendió su cacería.</DMS_CourtMartial_HuntdownEnded>
   <!-- EN: Sealed files surrendered -->
-  <DMS_Occultech_RenouncedLabel>TODO</DMS_Occultech_RenouncedLabel>
+  <DMS_Occultech_RenouncedLabel>Archivos sellados entregados</DMS_Occultech_RenouncedLabel>
   <!-- EN: We have transmitted a formal renunciation to {0} and purged our copies of the following files:\n\n{1}\n\nEverything they unlocked is locked again, and the research must be done from the beginning if we ever change our minds. With the files gone, {0} is willing to consider an alliance once more. -->
-  <DMS_Occultech_RenouncedText>TODO</DMS_Occultech_RenouncedText>
+  <DMS_Occultech_RenouncedText>Transmitimos una renuncia formal a {0} y purgamos nuestras copias de los siguientes archivos:\n\n{1}\n\nTodo lo que desbloqueaban vuelve a estar bloqueado, y si alguna vez cambiamos de opinión habrá que investigarlo desde el principio. Sin los archivos, {0} vuelve a considerar una alianza.</DMS_Occultech_RenouncedText>
   <!-- EN: {0} sealed research project(s) renounced. -->
-  <DMS_Occultech_RenouncedMessage>TODO</DMS_Occultech_RenouncedMessage>
+  <DMS_Occultech_RenouncedMessage>Se renunció a {0} proyecto(s) de investigación sellado(s).</DMS_Occultech_RenouncedMessage>
   <!-- EN: Renounce sealed technology -->
-  <DMS_Occultech_RenounceOption>TODO</DMS_Occultech_RenounceOption>
+  <DMS_Occultech_RenounceOption>Renunciar a la tecnología sellada</DMS_Occultech_RenounceOption>
   <!-- EN: They are not taking our calls on this. Only a court-martial ends a kill order. -->
-  <DMS_Occultech_RenounceBlockedPermanent>TODO</DMS_Occultech_RenounceBlockedPermanent>
+  <DMS_Occultech_RenounceBlockedPermanent>No nos atienden sobre este asunto. Solo un consejo de guerra pone fin a una orden de exterminio.</DMS_Occultech_RenounceBlockedPermanent>
   <!-- EN: You open a channel to the {0} records office and offer to surrender everything we hold under seal.\n\nThe following research will be reset to zero and everything it unlocks will be locked again:\n\n{1}\n\nThis cannot be undone: the work would have to be redone from nothing. In exchange, {0} will consider an alliance with us again. -->
-  <DMS_Occultech_RenounceConfirm>TODO</DMS_Occultech_RenounceConfirm>
+  <DMS_Occultech_RenounceConfirm>Abres un canal con la oficina de registros de {0} y ofreces entregar todo lo que tenemos bajo sello.\n\nLa siguiente investigación volverá a cero y todo lo que desbloquea quedará bloqueado otra vez:\n\n{1}\n\nEsto no se puede deshacer: habría que rehacer el trabajo desde cero. A cambio, {0} volverá a considerar una alianza con nosotros.</DMS_Occultech_RenounceConfirm>
   <!-- EN: Surrender the files. -->
   <DMS_Occultech_RenounceAccept>TODO</DMS_Occultech_RenounceAccept>
   <!-- EN: Reinforcements inbound -->
