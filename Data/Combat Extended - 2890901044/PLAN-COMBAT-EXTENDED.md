@@ -250,34 +250,35 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 6 | Compatibilidad | primera tanda hecha (19-oct-2026): los 24 mods que RML ya traduce, 451 entradas por script con una tabla que Angel revisó. Quedan 5.086 `TODO`, todos de mods que RML no traduce |
 | 6b | Munición genérica | hecha (19-oct-2026): el extractor saca los tres campos, y se tradujeron a mano las 41 entradas del núcleo y de VWE Non-Lethal. Las 14 de mods que RML no traduce quedan en `TODO` con el resto de la etapa 6 |
 
-## Próxima sesión (20-oct-2026)
+## Próxima sesión (21-oct-2026)
 
-**Objetivo:** en el extractor, que «Actualizar todo RML» encuentre la carpeta de un mod por su
-packageId cuando el mod se vuelve a publicar con otro número del Workshop (The Dead Man's Switch).
+**Objetivo:** devolverles el «-» a las 44 reglas de gramática de The Dead Man's Switch que quedaron
+como `SendForm&gt;texto` en vez de `SendForm-&gt;texto`. Sin la flecha completa el juego no las toma
+como reglas.
 
-**Estado:** arreglo de los verbos hecho. Extractor: `007ec9f` en la rama `1.0-beta`. RML: `d05ddb7`
-(GravTech) y `730dfc1` (MobileDragoon), en `master`, más la gravibatería de GravTech traducida de
-nuevo; subido con la aprobación de Angel (20-oct-2026). Al reextraer los 11 mods con rutas
-`verbs/li[N]` o `comps/li[N]` no cambió el nombre de ninguna ruta, y lo que cambió (GravTech y
-MobileDragoon) sale igual sin el arreglo: son actualizaciones de esos mods. El `UNUSED.xml` de Combat
-Extended se borró con el visto bueno de Angel, y él borró la carpeta vacía
-`Data/!AobaKuma/The Dead Man's Switch - 3819799478/` que había creado la reextracción.
+**Estado:** el extractor ya encuentra la carpeta de un mod por su packageId cuando cambia de número
+(`7324ddb`), y trae `RimworldExtractorLotes` para reextraer por consola (`69876b4`). La 1.0 se unió a
+`master` del extractor (`b5f165e`): sale como 1.0.0 estable; la 0.1.x quedó en la rama `legacy` y la
+rama `1.0-beta` se borró. En RML, `8cb000f` pasa la carpeta a `The Dead Man's Switch - 3819799478` con
+lo traducido conservado: 2.356 en uso, 1.792 `TODO` nuevos de la actualización del mod y 416 en
+`UNUSED`. Todo subido con la aprobación de Angel (20-oct-2026).
 
 **Antes de empezarla (Angel):**
-1. Revisar en partida lo que quedó pendiente del 19-oct: obús de mortero y su receta, pistola .45 ACP y
-   granada tóxica, con la munición genérica puesta.
+1. Si no lo hiciste: revisar en partida el obús de mortero y su receta, la pistola .45 ACP y la granada
+   tóxica, con la munición genérica puesta.
 
-**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. The Dead Man's Switch tiene ahora el
-número 3819799478 y el 3121742525 ya no está instalado. `LoadFoldersBuild.CarpetaDe` busca la carpeta
-por «nombre - número», así que no encuentra `Data/!AobaKuma/The Dead Man's Switch - 3121742525` (299
-traducciones) y escribe una nueva al lado. La corrida por lotes ya sabe en qué carpeta está el yaml:
-el arreglo probable es escribir ahí y renombrar la carpeta con el número nuevo. Pruebas primero, y
-después reextraer ese mod y mirar el diff. Cabe en una sesión (estimación).
+**Al empezar (Claude):** las 44 reglas están en `Data/!AobaKuma/The Dead Man's Switch - 3819799478/`,
+en archivos de `RulePackDef` y `QuestScriptDef`; es el único mod de RML con ese daño (contado). Ya
+estaban así en `HEAD` antes de la reextracción del 20-oct, así que no las causó el cambio de número.
+Primero averiguar con `git log -S` qué commit les sacó el guion, por si la causa sigue en el extractor;
+después arreglarlas a mano, comparando con el `<!-- EN: -->` de cada una, y pasar la comprobación 3.
+Cabe en una sesión (estimación).
 
 **Decisiones de Angel:**
 - Etapa 6 con mods que RML no traduce (5.086 `TODO`). Recomendación: no por ahora.
+- Los 1.792 `TODO` nuevos de The Dead Man's Switch: traducirlos en otra sesión.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
-**Dónde leer:** este plan («Cuidados»), el `AGENTS.md` del extractor («Escribir sobre RML») y
-`LoadFoldersBuild.CarpetaDe`.
+**Dónde leer:** `RML/AGENTS.md` («Antes de commitear: mirar el diff», comprobación 3) y
+`RimworldExtractor/AGENTS.md` («Compilar y probar», para `RimworldExtractorLotes`).
