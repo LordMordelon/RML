@@ -246,30 +246,27 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 
 ## Próxima sesión (19-oct-2026)
 
-**Objetivo:** en el extractor, sacar los nombres de la munición genérica (`genericLabel`,
-`genericDescription` y `genericLabelOverride`, 38 textos) y traducirlos en RML.
+**Objetivo:** en el extractor, averiguar por qué la relectura manda a `UNUSED.xml` 10 traducciones de
+`Patches/` que siguen en uso, y arreglarlo.
 
-**Estado:** etapa 6, primera tanda hecha (commit `a3df11a`): los 24 mods que RML ya traduce, 451
-entradas. La rama `combat-extended` se unió a `master` y se subió el 19-oct-2026, así que Combat
-Extended ya se publica. Quedan **5.072 `TODO`**, todos de `ModPatches/` de mods que RML no traduce
-(contados el 19-oct-2026). No queda nada a medias.
+**Estado:** munición genérica hecha (etapa 6b). Extractor: commit `7ff33bd` en la rama `1.0-beta`.
+RML: commits `ecb4fca` y `c174f9b` en `master`. Los tres están **sin subir** hasta que Angel lo
+apruebe. En el PC queda sin commitear el `UNUSED.xml` de Combat Extended, con las 10 copias (ver
+«Cuidados»). Quedan 5.086 `TODO`, todos de mods que RML no traduce (contados el 19-oct-2026).
 
 **Antes de empezarla (Angel):**
-1. Probar en partida la munición de algún mod de la tanda (por ejemplo, VFE Pirates o Biological
-   Warfare) y avisar lo que se vea raro.
-2. Si Combat Extended se actualizó en Steam, reextraerlo con «Traducción rápida» en `master` y
-   avisarlo al empezar: la reextracción manda a `UNUSED.xml` el nombre genérico del obús de espuma.
+1. Con la opción de munición genérica de Combat Extended puesta, mirar en partida un obús de mortero
+   y su receta, y una pistola .45 ACP, y avisar lo que se vea raro.
 
-**Al empezar (Claude):** la sesión es en `RimworldExtractor/`, con su prueba primero: que la
-extracción de Combat Extended devuelva los 38 textos de `modExtensions` (ver «Munición genérica»
-en «Cuidados»). Después, reextraer y traducir los 37 que faltan, copiando el nombre con calibre
-sin el calibre. Cabe en una sesión (estimación).
+**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. Prueba primero: una entrada de
+`Patches/` con xpath `verbs/*[...]` que se relee y no tiene que quedar sin uso. Los 10 casos están en
+el `UNUSED.xml` local; los xpath, en los `Patches/` de Combat Extended. Después reextraer Combat
+Extended y comprobar que el `UNUSED.xml` sale vacío o no sale. Cabe en una sesión (estimación).
 
 **Decisiones de Angel:** si se sigue con la etapa 6 para mods que RML no traduce. Recomendación: no
-por ahora; el plan dice «cuando alguien lo pida», y si se agrega un mod nuevo a RML, sumar su parte
-de Combat Extended en la misma sesión.
+por ahora; si se agrega un mod nuevo a RML, sumar su parte de Combat Extended en la misma sesión.
 
-**Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar la tanda, `traspaso`.
+**Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
-**Dónde leer:** este plan («Cuidados», «Munición genérica»), el `AGENTS.md` del extractor
-(«Escribir sobre RML») y [GLOSARIO-COMBAT-EXTENDED.md](GLOSARIO-COMBAT-EXTENDED.md).
+**Dónde leer:** este plan («Cuidados»), el `AGENTS.md` del extractor («Escribir sobre RML»: la
+relectura de `Patches`, `LeerPatchesLiteral` y `DesarmarXpath`).
