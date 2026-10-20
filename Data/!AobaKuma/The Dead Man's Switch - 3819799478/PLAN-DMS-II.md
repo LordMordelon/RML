@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: `Keyed` 64 de 325 |
+| 4 | Traducir lo nuevo | grande | en curso: `Keyed` hecho (325 de 325); sigue `ThingDef` |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -161,9 +161,28 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 - Sesiones 2 y 3: `ThingDef` y el resto de la etapa 4 (unos 700 renglones por sesión).
 - Sesión 4: lo que quede, y la etapa 5.
 
-## Próxima sesión (20-oct-2026)
+## Próxima sesión (20-oct-2026, después de la sesión 2)
 
-**Objetivo:** terminar `Keyed` (quedan 261) y seguir con `ThingDef` (etapa 4).
+**Objetivo:** `ThingDef` (506 renglones, etapa 4), primero los nombres y después las descripciones.
+
+**Estado (sesión 2):** `Keyed` terminado, en `1e8692d` y `d23d84b`; los términos nuevos, en
+«Términos nuevos del II» de `GLOSARIO-DMS.md` (`6a8d1a0`). Todo en RML `master`, **sin subir**.
+Los pronombres `{DEVIANT_pronoun}` y `{DEVIANT_objective}` se omiten a propósito (ver el glosario).
+Los «Cambios que no son de esta sesión» de abajo siguen sin tocar.
+
+**Antes de empezarla (Angel):** confirmar los nombres marcados «a confirmar» en el glosario
+(disidente, guardatumbas, tecnología oculta, tejedor de clústeres, elevador de tripulación), que
+`ThingDef` usa como etiquetas. Siguen pendientes las tres preguntas de la sesión 1 (abajo):
+recargador, `DMS_Wetware` y el `Patches` renombrado.
+
+**Al empezar (Claude):** `DefInjected/ThingDef/`, archivo por archivo, primero las `.label`. Con los
+nombres que Angel cambie, corregir también `Keyed/1icbuu.xml`. Un commit por tramo.
+
+---
+
+### Notas de la sesión 1
+
+**Objetivo de la sesión 1:** terminar `Keyed` (quedan 261) y seguir con `ThingDef` (etapa 4).
 
 **Estado (20-oct-2026, sesión 1):** etapas 1, 2 y 3 hechas y `Keyed` hasta `DMS_Occultech_RenounceConfirm`
 (64 de 325), en 11 commits de RML `master` desde `45016d0` (este incluido), **sin subir**. Lo que se encontró de más:
