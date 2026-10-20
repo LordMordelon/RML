@@ -145,14 +145,14 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 ## Decisiones de Angel
 
-1. **Los nombres que cambiaron** (tabla de la etapa 2). Recomendaciones: «arma centinela» para Sentry
-   gun, «posta de goma» para rubber slug, «cartucho de estallido aéreo» para Airburst canister,
-   «ergonomía» para Ergonomics, «diseño especializado» para Specialized design y «Acerca de:
-   componentes especiales» para la carta.
-2. **¿Traducción asistida por script para lo repetitivo?** `RML/AGENTS.md` permite scripts solo en
-   Combat Extended y pide volver a preguntar para otro mod. Las 72 recetas y las partes del cuerpo
-   (`BodyDef`, 63) siguen patrones fijos y se harían con una tabla que Angel revisa, como en Combat
-   Extended. Recomendación: sí para recetas y partes del cuerpo, a mano para todo lo demás.
+1. **Los nombres que cambiaron (tabla de la etapa 2): aprobados** (Angel, 20-oct-2026): «arma
+   centinela» para Sentry gun, «posta de goma» para rubber slug, «cartucho de estallido aéreo» para
+   Airburst canister, «ergonomía» para Ergonomics, «diseño especializado» para Specialized design y
+   «Acerca de: componentes especiales» para la carta.
+2. **Script para lo repetitivo: aprobado** (Angel, 20-oct-2026), solo para las 72 recetas y las
+   partes del cuerpo (`BodyDef`, 63), con una tabla que Angel revisa antes de aplicarla, como en
+   Combat Extended. Todo lo demás, a mano. Al hacerlo, anotar la excepción en «Editar XML de
+   traducción» de `RML/AGENTS.md`, que hoy la permite solo en Combat Extended.
 
 ## Sesiones (estimación)
 
@@ -166,9 +166,8 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 **Estado:** plan escrito; nada traducido todavía. La carpeta está como en `bea84c4` (RML, `master`).
 
-**Antes de empezarla (Angel):**
-1. Decidir los nombres de la etapa 2 y lo del script (sección «Decisiones de Angel»).
-2. Confirmar que el extractor está en 1.7 (Opciones).
+**Antes de empezarla (Angel):** las decisiones ya están tomadas. Solo confirmar que el extractor está
+en 1.7 (Opciones), por si hay que reextraer.
 
 **Al empezar (Claude):** reparar el shock biónico (5 etapas), las 44 reglas y los 19 símbolos; corregir
 las 63 traducciones con el inglés cambiado; armar `GLOSARIO-DMS.md`; seguir con las 325 `Keyed`. Un
