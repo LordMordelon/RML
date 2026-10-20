@@ -52,17 +52,16 @@ halcón», «escuadras de ronin».
 ## Términos nuevos del II (sesión 2, `Keyed`)
 
 Salen de traducir `Keyed` el 20-oct-2026. El II los trae por primera vez, así que no había una
-traducción en uso: los marcados **a confirmar** son nombres que el jugador ve en etiquetas y que
-Angel tiene que aprobar antes de usarlos en `ThingDef` y en las misiones.
+traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel el 20-oct-2026.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| deviant | **disidente** | **A confirmar.** Sirve para los dos géneros. En los títulos sin nombre va en masculino genérico («Llegó el disidente») |
+| deviant | **disidente** | Aprobado por Angel el 20-oct-2026. Sirve para los dos géneros. En los títulos sin nombre va en masculino genérico («Llegó el disidente») |
 | defector / deserter | **desertor** | Cuando el texto lo usa en vez de «deviant» |
-| gravekeeper | **guardatumbas** | **A confirmar.** Invariable. El meca `DMS_Mech_Gravekeeper` |
-| occultech | **tecnología oculta** | **A confirmar.** Coincide con «archivo de clase oculta» (occulted-class) de la sesión 1 |
-| cluster weaver | **tejedor de clústeres** | **A confirmar.** El jefe `DMS_Mech_ClusterWeaver` |
-| crew lifter / mobile crew lifter | **elevador de tripulación** / **elevador de tripulación móvil** | **A confirmar.** Sigue a «elevador escolta» |
+| gravekeeper | **guardatumbas** | Aprobado por Angel el 20-oct-2026. Invariable. El meca `DMS_Mech_Gravekeeper` |
+| occultech | **tecnología oculta** | Aprobado por Angel el 20-oct-2026. Coincide con «archivo de clase oculta» (occulted-class) de la sesión 1 |
+| cluster weaver | **tejedor de clústeres** | Aprobado por Angel el 20-oct-2026. El jefe `DMS_Mech_ClusterWeaver` |
+| crew lifter / mobile crew lifter | **elevador de tripulación** / **elevador de tripulación móvil** | Aprobado por Angel el 20-oct-2026. Sigue a «elevador escolta» |
 | crew pod | **cápsula de tripulación** | |
 | supply pod | **cápsula de suministros** | |
 | SAGE node / SAGE network | **nodo SAGE** / **red SAGE** | SAGE es una sigla: no se traduce |
@@ -85,9 +84,9 @@ Angel tiene que aprobar antes de usarlos en `ThingDef` y en las misiones.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| bullhound / hellhound | **can de presa** / **can infernal** | **A confirmar.** Derivados grandes del dogo; «sabueso» ya es el `Hound` |
-| Frogman (XM132) | **hombre rana** | **A confirmar.** El bioautomatroide anfibio |
-| wildfowl (dron) | **ave silvestre** | **A confirmar.** Dron suicida «Hunter Bee» |
+| bullhound / hellhound | **can de presa** / **can infernal** | Aprobado por Angel el 20-oct-2026. Derivados grandes del dogo; «sabueso» ya es el `Hound` |
+| Frogman (XM132) | **hombre rana** | Aprobado por Angel el 20-oct-2026. El bioautomatroide anfibio |
+| wildfowl (dron) | **ave silvestre** | Aprobado por Angel el 20-oct-2026. Dron suicida «Hunter Bee» |
 | Sepulturero, Velador, Lanius, erima, uca | **sepulturero**, **velador**, **lanius**, **erima**, **uca** | Ya vienen en español o son nombres propios: solo van en minúscula |
 | biomatroid | **bioautomatroide** | |
 | mobile cargo lifter | **elevador de carga móvil** | La cápsula de suministros vista como objeto |

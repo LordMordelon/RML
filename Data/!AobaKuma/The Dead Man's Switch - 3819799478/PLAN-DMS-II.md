@@ -177,10 +177,13 @@ script aprobado (decisión 2): primero la tabla para que Angel la revise.
   «Mobile dragoon» sigue a *The Dead Man's Switch - MobileDragoon*: «exotraje drago».
 - Las tres comprobaciones del diff, vacías salvo los cambios que decidió Angel.
 
-**Antes de empezarla (Angel):** confirmar los nombres «a confirmar» del glosario: disidente,
-guardatumbas, tecnología oculta, tejedor de clústeres, elevador de tripulación, can de presa / can
-infernal, hombre rana y ave silvestre. Si cambia alguno, se corrige en `Keyed/1icbuu.xml` y en
-`ThingDef/go2jb9.xml`.
+Angel aprobó los nombres nuevos del glosario (disidente, guardatumbas, tecnología oculta, tejedor de
+clústeres, elevador de tripulación, can de presa / can infernal, hombre rana y ave silvestre) y la
+subida de la sesión 2, el 20-oct-2026.
+
+**Al empezar (Claude):** armar la tabla de las 72 recetas (`RecipeDef`) para el script aprobado y
+mostrársela a Angel antes de aplicarla; anotar la excepción en «Editar XML de traducción» de
+`RML/AGENTS.md`. Mientras tanto, `ResearchProjectDef` a mano.
 
 ---
 
