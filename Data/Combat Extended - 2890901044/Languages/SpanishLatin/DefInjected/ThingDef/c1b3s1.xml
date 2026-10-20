@@ -154,8 +154,12 @@
   <Shell_AENitrogen_CE.label>TODO</Shell_AENitrogen_CE.label>
   <!-- EN: A shell filled with destabilized ice crystal, for spilling nitrogen around that freezing and slowing down surrounding targets when detonated. It causes cryogenic bonding of mechanical components, effectively disrupting the functionality of different machinery and temporarily disabling electrical devices. Explodes when damaged. -->
   <Shell_AENitrogen_CE.description>TODO</Shell_AENitrogen_CE.description>
+  <!-- EN: mortar shell (Nitrogen) -->
+  <Shell_AENitrogen_CE.modExtensions.0.genericLabel>TODO</Shell_AENitrogen_CE.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Nitrogen) -->
   <Bullet_Shell_AENitrogen_CE.label>TODO</Bullet_Shell_AENitrogen_CE.label>
+  <!-- EN: mortar shell (Nitrogen) -->
+  <Bullet_Shell_AENitrogen_CE.modExtensions.0.genericLabel>TODO</Bullet_Shell_AENitrogen_CE.modExtensions.0.genericLabel>
   <!-- EN: Anty Acid Cartridge -->
   <Ammo_AntyAcidRifle.label>TODO</Ammo_AntyAcidRifle.label>
   <!-- EN: Specialised munitions filled with acid produced by anty, used in a number of their weapons. -->
@@ -210,6 +214,8 @@
   <Ammo_7mmMiniRailgun_Sabot.description>TODO</Ammo_7mmMiniRailgun_Sabot.description>
   <!-- EN: 7mm Railgun bullet (Sabot) -->
   <Bullet_7mmMiniRailgun_Sabot.label>TODO</Bullet_7mmMiniRailgun_Sabot.label>
+  <!-- EN: pistol -->
+  <Bullet_7mmMiniRailgun_Sabot.projectile.genericLabelOverride>TODO</Bullet_7mmMiniRailgun_Sabot.projectile.genericLabelOverride>
   <!-- EN: Overengineered pistol rounds that utilizes miniature rockets for propulsion instead of gunpowder. It features limited self guidance. -->
   <Ammo_6mmSmartGyrojet_FMJ.description>TODO</Ammo_6mmSmartGyrojet_FMJ.description>
   <!-- EN: 6mm Smart rocket (FMJ) -->
@@ -224,10 +230,16 @@
   <Ammo_6mmSmartGyrojet_HP.label>TODO</Ammo_6mmSmartGyrojet_HP.label>
   <!-- EN: 6mm Smart bullet (FMJ) -->
   <Bullet_6mmSmartGyrojet_FMJ.label>TODO</Bullet_6mmSmartGyrojet_FMJ.label>
+  <!-- EN: pistol -->
+  <Bullet_6mmSmartGyrojet_FMJ.projectile.genericLabelOverride>TODO</Bullet_6mmSmartGyrojet_FMJ.projectile.genericLabelOverride>
   <!-- EN: 6mm Smart bullet (AP) -->
   <Bullet_6mmSmartGyrojet_AP.label>TODO</Bullet_6mmSmartGyrojet_AP.label>
+  <!-- EN: pistol -->
+  <Bullet_6mmSmartGyrojet_AP.projectile.genericLabelOverride>TODO</Bullet_6mmSmartGyrojet_AP.projectile.genericLabelOverride>
   <!-- EN: 6mm Smart bullet (HP) -->
   <Bullet_6mmSmartGyrojet_HP.label>TODO</Bullet_6mmSmartGyrojet_HP.label>
+  <!-- EN: pistol -->
+  <Bullet_6mmSmartGyrojet_HP.projectile.genericLabelOverride>TODO</Bullet_6mmSmartGyrojet_HP.projectile.genericLabelOverride>
   <!-- EN: A universal charge pack for various Archo weapons. -->
   <Ammo_ArchoChargePack.description>TODO</Ammo_ArchoChargePack.description>
   <!-- EN: Archo charge pack -->
@@ -1804,8 +1816,12 @@
   <Bullet_Blaster_Blue_High.label>TODO</Bullet_Blaster_Blue_High.label>
   <!-- EN: blaster bolt -->
   <Bullet_Blaster_Blue_Low.label>TODO</Bullet_Blaster_Blue_Low.label>
+  <!-- EN: pistol -->
+  <Bullet_Blaster_Blue_Low.projectile.genericLabelOverride>TODO</Bullet_Blaster_Blue_Low.projectile.genericLabelOverride>
   <!-- EN: blaster bolt -->
   <Bullet_Blaster_Red_Low.label>TODO</Bullet_Blaster_Red_Low.label>
+  <!-- EN: pistol -->
+  <Bullet_Blaster_Red_Low.projectile.genericLabelOverride>TODO</Bullet_Blaster_Red_Low.projectile.genericLabelOverride>
   <!-- EN: blaster bolt -->
   <Bullet_Blaster_Red_Mid.label>TODO</Bullet_Blaster_Red_Mid.label>
   <!-- EN: blaster bolt -->
@@ -3328,10 +3344,16 @@
   <RM_Bullet_5x35mmH.label>TODO</RM_Bullet_5x35mmH.label>
   <!-- EN: Shard crystal -->
   <RM_Bullet_ShardPistol.label>TODO</RM_Bullet_ShardPistol.label>
+  <!-- EN: pistol -->
+  <RM_Bullet_ShardPistol.projectile.genericLabelOverride>TODO</RM_Bullet_ShardPistol.projectile.genericLabelOverride>
   <!-- EN: Shard crystal -->
   <RM_Bullet_ShardLance.label>TODO</RM_Bullet_ShardLance.label>
+  <!-- EN: pistol -->
+  <RM_Bullet_ShardLance.projectile.genericLabelOverride>TODO</RM_Bullet_ShardLance.projectile.genericLabelOverride>
   <!-- EN: Shard crystal -->
   <RM_Bullet_ShardSwarmer.label>TODO</RM_Bullet_ShardSwarmer.label>
+  <!-- EN: pistol -->
+  <RM_Bullet_ShardSwarmer.projectile.genericLabelOverride>TODO</RM_Bullet_ShardSwarmer.projectile.genericLabelOverride>
   <!-- EN: immolator shot -->
   <RM_Bullet_PlasmaCellImmolator.label>TODO</RM_Bullet_PlasmaCellImmolator.label>
   <!-- EN: encapsulated hellgator shot -->
@@ -4022,6 +4044,8 @@
   <Bullet_TEConcentratedPowerCharge_KE.label>TODO</Bullet_TEConcentratedPowerCharge_KE.label>
   <!-- EN: Carbon crystal -->
   <Bullet_PistolYP.label>TODO</Bullet_PistolYP.label>
+  <!-- EN: pistol -->
+  <Bullet_PistolYP.projectile.genericLabelOverride>TODO</Bullet_PistolYP.projectile.genericLabelOverride>
   <!-- EN: Small, high-velocity crystal bullet used in Yunhwa Precision arms. -->
   <Ammo_RifleYP.description>TODO</Ammo_RifleYP.description>
   <!-- EN: Light YP cartridge -->
@@ -4638,12 +4662,16 @@
   <Ammo_43cal_NL.description>Cartucho de pistola impulsado por gas que dispara proyectiles de goma. Duele, pero en general no es letal.</Ammo_43cal_NL.description>
   <!-- EN: rubber bullet -->
   <Bullet_43cal_NL.label>bala de goma</Bullet_43cal_NL.label>
+  <!-- EN: pistol -->
+  <Bullet_43cal_NL.projectile.genericLabelOverride>pistola</Bullet_43cal_NL.projectile.genericLabelOverride>
   <!-- EN: taser cartridge -->
   <Ammo_Taser.label>cartucho de táser</Ammo_Taser.label>
   <!-- EN: A nitrogen powered cartridge, firing a pair of thin wires to deliver an incapacitating shock to foes. -->
   <Ammo_Taser.description>Cartucho impulsado por nitrógeno que dispara un par de cables finos para darle al enemigo una descarga incapacitante.</Ammo_Taser.description>
   <!-- EN: taser prong -->
   <Bullet_Taser.label>dardo de táser</Bullet_Taser.label>
+  <!-- EN: pistol -->
+  <Bullet_Taser.projectile.genericLabelOverride>pistola</Bullet_Taser.projectile.genericLabelOverride>
   <!-- EN: Large rifle bullet used in machine guns, sniper rifles, and various other infantry weapons. -->
   <Ammo_DartRifle_NL.description>Bala de fusil grande, usada en ametralladoras, fusiles de francotirador y otras armas de infantería.</Ammo_DartRifle_NL.description>
   <!-- EN: dart rifle cartridge -->
@@ -7622,10 +7650,16 @@
   <Ammo_45ACP_HP.label>.45 ACP (HP)</Ammo_45ACP_HP.label>
   <!-- EN: .45 ACP bullet (FMJ) -->
   <Bullet_45ACP_FMJ.label>bala .45 ACP (FMJ)</Bullet_45ACP_FMJ.label>
+  <!-- EN: pistol -->
+  <Bullet_45ACP_FMJ.projectile.genericLabelOverride>pistola</Bullet_45ACP_FMJ.projectile.genericLabelOverride>
   <!-- EN: .45 ACP bullet (AP) -->
   <Bullet_45ACP_AP.label>bala .45 ACP (AP)</Bullet_45ACP_AP.label>
+  <!-- EN: pistol -->
+  <Bullet_45ACP_AP.projectile.genericLabelOverride>pistola</Bullet_45ACP_AP.projectile.genericLabelOverride>
   <!-- EN: .45 ACP bullet (HP) -->
   <Bullet_45ACP_HP.label>bala .45 ACP (HP)</Bullet_45ACP_HP.label>
+  <!-- EN: pistol -->
+  <Bullet_45ACP_HP.projectile.genericLabelOverride>pistola</Bullet_45ACP_HP.projectile.genericLabelOverride>
   <!-- EN: Ancient pistol cartridge originally designed for revolvers. -->
   <Ammo_45Colt_FMJ.description>Antiguo cartucho de pistola, diseñado originalmente para revólveres.</Ammo_45Colt_FMJ.description>
   <!-- EN: .45 Colt (FMJ) -->
@@ -8359,27 +8393,27 @@
   <!-- EN: .30 Carbine bullet (Sabot) -->
   <Bullet_30Carbine_Sabot_SB.label>bala .30 Carbine (Sabot)</Bullet_30Carbine_Sabot_SB.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_FMJ.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_FMJ.description>
+  <Ammo_3855Winchester_FMJ.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_FMJ.description>
   <!-- EN: .38-55 Winchester (FMJ) -->
   <Ammo_3855Winchester_FMJ.label>.38-55 Winchester (FMJ)</Ammo_3855Winchester_FMJ.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_AP.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_AP.description>
+  <Ammo_3855Winchester_AP.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_AP.description>
   <!-- EN: .38-55 Winchester (AP) -->
   <Ammo_3855Winchester_AP.label>.38-55 Winchester (AP)</Ammo_3855Winchester_AP.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_HP.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_HP.description>
+  <Ammo_3855Winchester_HP.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_HP.description>
   <!-- EN: .38-55 Winchester (HP) -->
   <Ammo_3855Winchester_HP.label>.38-55 Winchester (HP)</Ammo_3855Winchester_HP.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_Incendiary.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_Incendiary.description>
+  <Ammo_3855Winchester_Incendiary.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_Incendiary.description>
   <!-- EN: .38-55 Winchester (AP-I) -->
   <Ammo_3855Winchester_Incendiary.label>.38-55 Winchester (AP-I)</Ammo_3855Winchester_Incendiary.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_HE.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_HE.description>
+  <Ammo_3855Winchester_HE.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_HE.description>
   <!-- EN: .38-55 Winchester (AP-HE) -->
   <Ammo_3855Winchester_HE.label>.38-55 Winchester (AP-HE)</Ammo_3855Winchester_HE.label>
   <!-- EN: Old school lever-gun cartridge that offered somewhat similar performance to black powder .45-70 Gov&apos;t loads in smaller bore rifles. -->
-  <Ammo_3855Winchester_Sabot.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov&apos;t en fusiles de menor calibre.</Ammo_3855Winchester_Sabot.description>
+  <Ammo_3855Winchester_Sabot.description>Cartucho clásico de arma de palanca que ofrecía un rendimiento algo parecido al de las cargas de pólvora negra del .45-70 Gov't en fusiles de menor calibre.</Ammo_3855Winchester_Sabot.description>
   <!-- EN: .38-55 Winchester (Sabot) -->
   <Ammo_3855Winchester_Sabot.label>.38-55 Winchester (Sabot)</Ammo_3855Winchester_Sabot.label>
   <!-- EN: .38-55 Winchester cartridge (FMJ) -->
@@ -9768,6 +9802,8 @@
   <Bullet_120mmMortarShell_HE.label>obús de mortero 120mm (HE)</Bullet_120mmMortarShell_HE.label>
   <!-- EN: 120mm mortar shell (Airburst) -->
   <Bullet_120mmMortarShell_HE_HFuzed.label>obús de mortero 120mm (detonación aérea)</Bullet_120mmMortarShell_HE_HFuzed.label>
+  <!-- EN: mortar shell (Airburst) -->
+  <Bullet_120mmMortarShell_HE_HFuzed.modExtensions.0.genericLabel>obús de mortero (detonación aérea)</Bullet_120mmMortarShell_HE_HFuzed.modExtensions.0.genericLabel>
   <!-- EN: 120mm mortar shell (Incendiary) -->
   <Bullet_120mmMortarShell_Incendiary.label>obús de mortero 120mm (incendiario)</Bullet_120mmMortarShell_Incendiary.label>
   <!-- EN: 120mm mortar shell (EMP) -->
@@ -9868,6 +9904,8 @@
   <Bullet_155mmHowitzerShell_Smoke.label>obús de obusero 155mm (humo)</Bullet_155mmHowitzerShell_Smoke.label>
   <!-- EN: 155mm Howitzer shell (Anti) -->
   <Bullet_155mmHowitzerShell_Anti.label>obús de obusero 155mm (antigrano)</Bullet_155mmHowitzerShell_Anti.label>
+  <!-- EN: mortar shell (Anti) -->
+  <Bullet_155mmHowitzerShell_Anti.modExtensions.0.genericLabel>obús de mortero (antigrano)</Bullet_155mmHowitzerShell_Anti.modExtensions.0.genericLabel>
   <!-- EN: 155mm Howitzer shell (HE) -->
   <Bullet_155mmHowitzerShell_HE_directfire.label>obús de obusero 155mm (HE)</Bullet_155mmHowitzerShell_HE_directfire.label>
   <!-- EN: 155mm Howitzer shell (Incendiary) -->
@@ -10108,18 +10146,26 @@
   <Shell_HighExplosive.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_HighExplosive.description>
   <!-- EN: 81mm mortar shell (HE) -->
   <Shell_HighExplosive.label>obús de mortero 81mm (HE)</Shell_HighExplosive.label>
+  <!-- EN: mortar shell (HE) -->
+  <Shell_HighExplosive.modExtensions.0.genericLabel>obús de mortero (HE)</Shell_HighExplosive.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_HighExplosive_HFuzed.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_HighExplosive_HFuzed.description>
   <!-- EN: 81mm mortar shell (Airburst) -->
   <Shell_HighExplosive_HFuzed.label>obús de mortero 81mm (detonación aérea)</Shell_HighExplosive_HFuzed.label>
+  <!-- EN: mortar shell (Airburst) -->
+  <Shell_HighExplosive_HFuzed.modExtensions.0.genericLabel>obús de mortero (detonación aérea)</Shell_HighExplosive_HFuzed.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_Incendiary.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_Incendiary.description>
   <!-- EN: 81mm mortar shell (Incendiary) -->
   <Shell_Incendiary.label>obús de mortero 81mm (incendiario)</Shell_Incendiary.label>
+  <!-- EN: mortar shell (Incendiary) -->
+  <Shell_Incendiary.modExtensions.0.genericLabel>obús de mortero (incendiario)</Shell_Incendiary.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_EMP.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_EMP.description>
   <!-- EN: 81mm mortar shell (EMP) -->
   <Shell_EMP.label>obús de mortero 81mm (PEM)</Shell_EMP.label>
+  <!-- EN: mortar shell (EMP) -->
+  <Shell_EMP.modExtensions.0.genericLabel>obús de mortero (PEM)</Shell_EMP.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_Firefoam.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_Firefoam.description>
   <!-- EN: 81mm mortar shell (Foam) -->
@@ -10130,36 +10176,62 @@
   <Shell_Smoke.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_Smoke.description>
   <!-- EN: 81mm mortar shell (Smoke) -->
   <Shell_Smoke.label>obús de mortero 81mm (humo)</Shell_Smoke.label>
+  <!-- EN: mortar shell (Smoke) -->
+  <Shell_Smoke.modExtensions.0.genericLabel>obús de mortero (humo)</Shell_Smoke.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_AntigrainWarhead.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_AntigrainWarhead.description>
   <!-- EN: 81mm mortar shell (Anti) -->
   <Shell_AntigrainWarhead.label>obús de mortero 81mm (antigrano)</Shell_AntigrainWarhead.label>
+  <!-- EN: mortar shell (Anti) -->
+  <Shell_AntigrainWarhead.modExtensions.0.genericLabel>obús de mortero (antigrano)</Shell_AntigrainWarhead.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_Toxic.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_Toxic.description>
   <!-- EN: 81mm mortar shell (Toxic) -->
   <Shell_Toxic.label>obús de mortero 81mm (tóxico)</Shell_Toxic.label>
+  <!-- EN: mortar shell (Toxic) -->
+  <Shell_Toxic.modExtensions.0.genericLabel>obús de mortero (tóxico)</Shell_Toxic.modExtensions.0.genericLabel>
   <!-- EN: Low-velocity shell designed to be fired from a mortar. -->
   <Shell_Deadlife.description>Obús de baja velocidad, diseñado para dispararse con un mortero.</Shell_Deadlife.description>
   <!-- EN: 81mm mortar shell (Deadlife) -->
   <Shell_Deadlife.label>obús de mortero 81mm (necrovita)</Shell_Deadlife.label>
+  <!-- EN: mortar shell (Deadlife) -->
+  <Shell_Deadlife.modExtensions.0.genericLabel>obús de mortero (necrovita)</Shell_Deadlife.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (HE) -->
   <Bullet_81mmMortarShell_HE.label>obús de mortero 81mm (HE)</Bullet_81mmMortarShell_HE.label>
+  <!-- EN: mortar shell (HE) -->
+  <Bullet_81mmMortarShell_HE.modExtensions.0.genericLabel>obús de mortero (HE)</Bullet_81mmMortarShell_HE.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Airburst) -->
   <Bullet_81mmMortarShell_HE_HFuzed.label>obús de mortero 81mm (detonación aérea)</Bullet_81mmMortarShell_HE_HFuzed.label>
+  <!-- EN: mortar shell (Airburst) -->
+  <Bullet_81mmMortarShell_HE_HFuzed.modExtensions.0.genericLabel>obús de mortero (detonación aérea)</Bullet_81mmMortarShell_HE_HFuzed.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Incendiary) -->
   <Bullet_81mmMortarShell_Incendiary.label>obús de mortero 81mm (incendiario)</Bullet_81mmMortarShell_Incendiary.label>
+  <!-- EN: mortar shell (Incendiary) -->
+  <Bullet_81mmMortarShell_Incendiary.modExtensions.0.genericLabel>obús de mortero (incendiario)</Bullet_81mmMortarShell_Incendiary.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (EMP) -->
   <Bullet_81mmMortarShell_EMP.label>obús de mortero 81mm (PEM)</Bullet_81mmMortarShell_EMP.label>
+  <!-- EN: mortar shell (EMP) -->
+  <Bullet_81mmMortarShell_EMP.modExtensions.0.genericLabel>obús de mortero (PEM)</Bullet_81mmMortarShell_EMP.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Foam) -->
   <Bullet_81mmMortarShell_Firefoam.label>obús de mortero 81mm (espuma)</Bullet_81mmMortarShell_Firefoam.label>
+  <!-- EN: mortar shell (Foam) -->
+  <Bullet_81mmMortarShell_Firefoam.modExtensions.0.genericLabel>obús de mortero (espuma)</Bullet_81mmMortarShell_Firefoam.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Smoke) -->
   <Bullet_81mmMortarShell_Smoke.label>obús de mortero 81mm (humo)</Bullet_81mmMortarShell_Smoke.label>
+  <!-- EN: mortar shell (Smoke) -->
+  <Bullet_81mmMortarShell_Smoke.modExtensions.0.genericLabel>obús de mortero (humo)</Bullet_81mmMortarShell_Smoke.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Anti) -->
   <Bullet_81mmMortarShell_Antigrain.label>obús de mortero 81mm (antigrano)</Bullet_81mmMortarShell_Antigrain.label>
+  <!-- EN: mortar shell (Anti) -->
+  <Bullet_81mmMortarShell_Antigrain.modExtensions.0.genericLabel>obús de mortero (antigrano)</Bullet_81mmMortarShell_Antigrain.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Toxic) -->
   <Bullet_81mmMortarShell_Tox.label>obús de mortero 81mm (tóxico)</Bullet_81mmMortarShell_Tox.label>
+  <!-- EN: mortar shell (Toxic) -->
+  <Bullet_81mmMortarShell_Tox.modExtensions.0.genericLabel>obús de mortero (tóxico)</Bullet_81mmMortarShell_Tox.modExtensions.0.genericLabel>
   <!-- EN: 81mm mortar shell (Deadlife) -->
   <Bullet_81mmMortarShell_Deadlife.label>obús de mortero 81mm (necrovita)</Bullet_81mmMortarShell_Deadlife.label>
+  <!-- EN: mortar shell (Deadlife) -->
+  <Bullet_81mmMortarShell_Deadlife.modExtensions.0.genericLabel>obús de mortero (necrovita)</Bullet_81mmMortarShell_Deadlife.modExtensions.0.genericLabel>
   <!-- EN: Relatively small cannon shell. -->
   <Ammo_90mmCannonShell_HEAT.description>Obús de cañón relativamente pequeño.</Ammo_90mmCannonShell_HEAT.description>
   <!-- EN: 90mm cannon shell (HEAT) -->
