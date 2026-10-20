@@ -82,10 +82,11 @@ juego base y los DLC.
 - **El `UNUSED.xml` de Combat Extended no está en git.** Tiene 8 entradas de `Patches/` (verbos de
   mochilas y armaduras, el escupitajo de la dríade y las dos torretas de hombro de LTS), y las 8 siguen
   traducidas en su `Patches/`: es una copia de más, no una pérdida. Queda sin commitear en el PC y sin
-  borrar (regla 3 de `AGENTS.md`). La causa está en el extractor: un xpath que entra a un elemento de
-  lista (`verbs/*[...]/label`) se relee con el índice (`verbs.0.label`), y la extracción lo nombra por
-  su verbo. Arreglarlo cambia el nombre de unas 427 rutas en 11 mods de RML: sesión aparte, con la
-  aprobación de Angel (19-oct-2026).
+  borrar (regla 3 de `AGENTS.md`). La causa estaba en el extractor: un xpath que entra a un elemento de
+  lista (`verbs/*[...]/label`) se releía con el índice (`verbs.0.label`), y la extracción lo nombra por
+  su verbo. Arreglado el 20-oct-2026 (extractor `007ec9f`): ya no se crean copias nuevas, pero las 8
+  se quedan mientras exista el archivo, porque el `UNUSED` se relee. Al reextraer los 11 mods con
+  rutas `verbs/li[N]` o `comps/li[N]`, ninguna cambió de nombre: esos elementos no tienen verbo.
 - **Xpath con la clase del atributo.** Hasta el 19-oct-2026 el extractor escribía
   `/Defs/CombatExtended.AmmoDef[...]` para un `ThingDef` con `Class="CombatExtended.AmmoDef"`, que en
   el juego no encuentra nada: la granada tóxica y las cuatro flechas de viuda negra estaban traducidas y
@@ -249,33 +250,39 @@ residuos, psicho: 196 entradas) se hizo a mano, con una lista revisada antes por
 | 6 | Compatibilidad | primera tanda hecha (19-oct-2026): los 24 mods que RML ya traduce, 451 entradas por script con una tabla que Angel revisó. Quedan 5.086 `TODO`, todos de mods que RML no traduce |
 | 6b | Munición genérica | hecha (19-oct-2026): el extractor saca los tres campos, y se tradujeron a mano las 41 entradas del núcleo y de VWE Non-Lethal. Las 14 de mods que RML no traduce quedan en `TODO` con el resto de la etapa 6 |
 
-## Próxima sesión (19-oct-2026)
+## Próxima sesión (20-oct-2026)
 
-**Objetivo:** en el extractor, que un xpath que entra a un elemento de lista se relea con el mismo
-nombre con el que se extrae (`verbs.Verb_ShootCE.label` y no `verbs.0.label`), sin dejar duplicados.
+**Objetivo:** en el extractor, que «Actualizar todo RML» encuentre la carpeta de un mod por su
+packageId cuando el mod se vuelve a publicar con otro número del Workshop (The Dead Man's Switch).
 
-**Estado:** munición genérica hecha (etapa 6b) y xpath de `AmmoDef` arreglados. Extractor: commits
-`7ff33bd` y `9f7d871` en la rama `1.0-beta`. RML: `ecb4fca`, `c174f9b`, `bcb543d`, `18f347a` y el de
-esta nota, en `master`. Todo **sin subir** hasta que Angel lo apruebe. En el PC queda sin commitear el
-`UNUSED.xml` de Combat Extended con las 8 copias (ver «Cuidados»). Quedan 5.086 `TODO`, todos de mods
-que RML no traduce (contados el 19-oct-2026).
+**Estado:** arreglo de los verbos hecho. Extractor: `007ec9f` en la rama `1.0-beta`. RML: `d05ddb7`
+(GravTech) y `730dfc1` (MobileDragoon), en `master`. Todo **sin subir**. Al reextraer los 11 mods con
+rutas `verbs/li[N]` o `comps/li[N]` no cambió el nombre de ninguna ruta, y lo que cambió (GravTech y
+MobileDragoon) sale igual sin el arreglo: son actualizaciones de esos mods. El `UNUSED.xml` de Combat
+Extended sigue en el PC sin commitear y con las mismas 8 copias. En el PC también queda, sin commitear,
+la carpeta `Data/!AobaKuma/The Dead Man's Switch - 3819799478/`: la creó la reextracción y está vacía
+de traducciones (299 `TODO`). El sistema de seguridad no dejó borrarla.
 
 **Antes de empezarla (Angel):**
-1. Con la opción de munición genérica de Combat Extended puesta, mirar en partida un obús de mortero y
-   su receta, una pistola .45 ACP y la granada tóxica, y avisar lo que se vea raro.
+1. Borrar la carpeta `RML/Data/!AobaKuma/The Dead Man's Switch - 3819799478` (no está en git), o
+   decirle a Claude que la borre.
+2. Decir si se borra el `UNUSED.xml` de Combat Extended. Sus 8 traducciones están en `Patches/`.
+3. Revisar en partida lo que quedó pendiente del 19-oct: obús de mortero y su receta, pistola .45 ACP y
+   granada tóxica, con la munición genérica puesta.
 
-**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. Es un cambio grande: plan primero y
-«Aprobado» de Angel. El arreglo es que `Extractor.GetRootDefNode` nombre los elementos de lista con
-`MatchTranslationHandle`, como `FindExtractableNodes`. Cuidado con el paso intermedio: las 427 rutas
-`verbs/li[N]` y `comps/li[N]` que RML ya tiene (11 mods) se releerían por la vía evaluada con el verbo y
-por la literal con el índice, y la del índice quedaría para siempre en `UNUSED`. La relectura literal
-tiene que quedar solo para los xpath que no encontraron objetivo. Pruebas primero, y después reextraer
-esos 11 mods y comprobar que no sale ningún `UNUSED` nuevo. Puede no caber en una sesión (estimación).
+**Al empezar (Claude):** en `RimworldExtractor/`, rama `1.0-beta`. The Dead Man's Switch tiene ahora el
+número 3819799478 y el 3121742525 ya no está instalado. `LoadFoldersBuild.CarpetaDe` busca la carpeta
+por «nombre - número», así que no encuentra `Data/!AobaKuma/The Dead Man's Switch - 3121742525` (299
+traducciones) y escribe una nueva al lado. La corrida por lotes ya sabe en qué carpeta está el yaml:
+el arreglo probable es escribir ahí y renombrar la carpeta con el número nuevo. Pruebas primero, y
+después reextraer ese mod y mirar el diff. Cabe en una sesión (estimación).
 
-**Decisiones de Angel:** si se hace este arreglo (recomendación: sí, en su sesión) y si se sigue con la
-etapa 6 para mods que RML no traduce (recomendación: no por ahora).
+**Decisiones de Angel:**
+- Etapa 6 con mods que RML no traduce (5.086 `TODO`). Recomendación: no por ahora.
+- La traducción de la gravibatería de GravTech dice «genera 500 W», y el original nuevo dice que se
+  autocarga a 800 W. Recomendación: corregirla a mano en una sesión de traducción.
 
 **Guías:** ninguna en particular (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
-**Dónde leer:** este plan («Cuidados»), el `AGENTS.md` del extractor («Escribir sobre RML»: la
-relectura de `Patches`, `LeerPatchesLiteral` y `DesarmarXpath`).
+**Dónde leer:** este plan («Cuidados»), el `AGENTS.md` del extractor («Escribir sobre RML») y
+`LoadFoldersBuild.CarpetaDe`.
