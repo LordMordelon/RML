@@ -4,8 +4,8 @@
   <!-- EN: questDescription(retry==True)-&gt;The resolved glyph cipher still holds. With the last stele lost, it points to the next one: another sealed vault under Legacy guard, at the marked location.\n\n[vaultInstructions] -->
   <!-- EN: vaultInstructions-&gt;Clear the vault, claim the stele, uninstall it and bring it home. It weighs [steleMass] kg, so plan the transport. If we leave it behind, it will be lost with the site. -->
   <DMS_SteleVault.questDescriptionRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription(retry==False)-&gt;Nuestros investigadores leyeron el juego completo de glifos de tecnología oculta. La lectura colapsó sus estados cuánticos y los glifos quedaron agotados, pero el cifrado que guardaban se resolvió: en el lugar marcado hay una estela enterrada en una bóveda sellada, todavía custodiada por los remanentes del Legado.\n\n[vaultInstructions]</li>
+    <li>questDescription(retry==True)-&gt;El cifrado resuelto de los glifos sigue valiendo. Perdida la última estela, apunta a la siguiente: otra bóveda sellada bajo custodia del Legado, en el lugar marcado.\n\n[vaultInstructions]</li>
+    <li>vaultInstructions-&gt;Despeja la bóveda, reclama la estela, desinstálala y tráela a casa. Pesa [steleMass] kg, así que planifica el transporte. Si la dejamos atrás, se perderá junto con el sitio.</li>
   </DMS_SteleVault.questDescriptionRules.rulesStrings>
 </LanguageData>

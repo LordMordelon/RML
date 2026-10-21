@@ -4,8 +4,8 @@
   <!-- EN: subOpening-&gt;This is shipment [stage] of [totalStages] under the supply contract with [issuerFactionName]. -->
   <!-- EN: subOpening-&gt;[issuerUnit] has scheduled shipment [stage] of [totalStages]: [targetCount]x [categoryLabel]. -->
   <DMS_SupplyChain_Delivery.questDescriptionRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription-&gt;[subOpening]\n\nCarga [targetCount]x [categoryLabel] en la cápsula de carga y lánzala antes del plazo para alcanzar la ventana de salida del carguero de graneles. El pago llegará en una cápsula de escape una vez confirmado el envío.\n\nSi no se cumple el plazo, el contrato terminará. Los pagos ya recibidos quedan para nosotros.</li>
+    <li>subOpening-&gt;Este es el envío [stage] de [totalStages] del contrato de suministro con [issuerFactionName].</li>
+    <li>subOpening-&gt;[issuerUnit] programó el envío [stage] de [totalStages]: [targetCount]x [categoryLabel].</li>
   </DMS_SupplyChain_Delivery.questDescriptionRules.rulesStrings>
 </LanguageData>
