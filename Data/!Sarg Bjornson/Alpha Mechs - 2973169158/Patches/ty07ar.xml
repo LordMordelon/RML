@@ -95,63 +95,63 @@
     <mods>
       <li>Biotech</li>
     </mods>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>Alpha Bees</li>
-      </mods>
-      <match Class="PatchOperationSequence">
-        <success>Always</success>
-        <operations>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/label</xpath>
-            <value>
-              <!-- EN: gestate apiarist -->
-              <label>gestar apicultor</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/description</xpath>
-            <value>
-              <!-- EN: Gestate an apiarist mechanoid. -->
-              <description>Gesta un mecanoide apicultor.</description>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/label</xpath>
-            <value>
-              <!-- EN: apiarist -->
-              <label>apicultor</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/description</xpath>
-            <value>
-              <!-- EN: The Apiarist is a small, bee-shaped machine designed specifically for beekeeping tasks. With its advanced sensors and programming, it can monitor hive health, collect honey, and perform other essential tasks with exceptional precision and efficiency. The Apiarist&apos;s compact size and winged design allow it to hover over terrain, ignoring terrain movement costs and accessing hard-to-reach locations. While not designed for combat, its robust construction and ability to move swiftly and nimbly make it difficult to catch.\n\n&lt;color=#E5E54C&gt;Special abilities:&lt;/color&gt; Hovers over terrain, ignoring terrain movement costs. -->
-              <description>El apicultor es una pequeña máquina con forma de abeja, diseñada específicamente para tareas de apicultura. Con sus sensores y programación avanzados, puede vigilar la salud de la colmena, recolectar miel y realizar otras tareas esenciales con una precisión y eficiencia excepcionales. Su tamaño compacto y su diseño alado le permiten flotar sobre el terreno, ignorando los costos de movimiento y accediendo a lugares difíciles de alcanzar. Aunque no está diseñado para el combate, su construcción robusta y su capacidad de moverse rápido y con agilidad lo hacen difícil de atrapar.\n\n&lt;color=#E5E54C&gt;Habilidades especiales:&lt;/color&gt; flota sobre el terreno e ignora los costos de movimiento del terreno.</description>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: head -->
-              <label>cabeza</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Apiarist"]/label</xpath>
-            <value>
-              <!-- EN: apiarist -->
-              <label>apicultor</label>
-            </value>
-          </li>
-        </operations>
-      </match>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationSequence" MayRequire="sarg.rimbees">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/label</xpath>
+              <value>
+                <!-- EN: gestate apiarist -->
+                <label>gestar apicultor</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/description</xpath>
+              <value>
+                <!-- EN: Gestate an apiarist mechanoid. -->
+                <description>Gesta un mecanoide apicultor.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/label</xpath>
+              <value>
+                <!-- EN: apiarist -->
+                <label>apicultor</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/description</xpath>
+              <value>
+                <!-- EN: The Apiarist is a small, bee-shaped machine designed specifically for beekeeping tasks. With its advanced sensors and programming, it can monitor hive health, collect honey, and perform other essential tasks with exceptional precision and efficiency. The Apiarist&apos;s compact size and winged design allow it to hover over terrain, ignoring terrain movement costs and accessing hard-to-reach locations. While not designed for combat, its robust construction and ability to move swiftly and nimbly make it difficult to catch.\n\n&lt;color=#E5E54C&gt;Special abilities:&lt;/color&gt; Hovers over terrain, ignoring terrain movement costs. -->
+                <description>El apicultor es una pequeña máquina con forma de abeja, diseñada específicamente para tareas de apicultura. Con sus sensores y programación avanzados, puede vigilar la salud de la colmena, recolectar miel y realizar otras tareas esenciales con una precisión y eficiencia excepcionales. Su tamaño compacto y su diseño alado le permiten flotar sobre el terreno, ignorando los costos de movimiento y accediendo a lugares difíciles de alcanzar. Aunque no está diseñado para el combate, su construcción robusta y su capacidad de moverse rápido y con agilidad lo hacen difícil de atrapar.\n\n&lt;color=#E5E54C&gt;Habilidades especiales:&lt;/color&gt; flota sobre el terreno e ignora los costos de movimiento del terreno.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/tools/li[1]/label</xpath>
+              <value>
+                <!-- EN: head -->
+                <label>cabeza</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="AM_Mech_Apiarist"]/label</xpath>
+              <value>
+                <!-- EN: apiarist -->
+                <label>apicultor</label>
+              </value>
+            </li>
+          </operations>
+        </li>
+      </operations>
     </match>
   </Operation>
   <Operation Class="PatchOperationFindMod">
