@@ -39,9 +39,9 @@ static class Statics
         TargetPath = RootPath is null ? null : Path.Combine(RootPath, "Data");
         
         Console.WriteLine();
-        Console.WriteLine("실행 파일 경로-> {0}", ExePath);
-        Console.WriteLine("모드 루트 경로-> {0}", RootPath is null ? "경로 없음" : RootPath);
-        Console.WriteLine("색인 타겟 경로-> {0}", TargetPath is null ? "경로 없음" : TargetPath);
+        Console.WriteLine("Ejecutable-> {0}", ExePath);
+        Console.WriteLine("Raiz del mod-> {0}", RootPath is null ? "sin ruta" : RootPath);
+        Console.WriteLine("Carpeta a indexar-> {0}", TargetPath is null ? "sin ruta" : TargetPath);
     }
     
     /** 지정한 폴더로부터 상위 폴더로 거슬러 올라가며 특정 이름을 가진 폴더가 위치한 경로를 찾습니다. */
@@ -70,7 +70,7 @@ static class Statics
         if (File.Exists(AboutPath)) About = XDocument.Load(AboutPath);
         else
         {
-            Console.WriteLine("\n\e[93mAbout.xml 파일을 찾을 수 없습니다.\x1b[0m");
+            Console.WriteLine("\n\e[93mNo se encontro About.xml.\x1b[0m");
             BuildVersions = Array.Empty<Version>();
             return false;
         }
@@ -84,13 +84,13 @@ static class Statics
 
         if (BuildVersions.Length is not 0)
         {
-            Console.WriteLine("\nAbout.xml로부터 버전 정보를 읽었습니다.");
+            Console.WriteLine("\nVersiones leidas de About.xml:");
             foreach (Version Version in BuildVersions)
                 Console.WriteLine("\t- " + Version);
         }
         else
         {
-            Console.WriteLine("\n\e[93mAbout.xml의 버전 정보가 유효하지 않습니다.\x1b[0m");
+            Console.WriteLine("\n\e[93mLas versiones de About.xml no son validas.\x1b[0m");
             return false;
         }
         
@@ -122,7 +122,7 @@ static class Statics
 
         if (HasNoBuildYaml.Count > 0)
         {
-            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 Languages 또는 Textures 폴더가 있지만 LoadFolders.Build.yaml 파일이 없습니다.\n빌드 대상에서 제외됩니다.\x1b[0m", HasNoBuildYaml.Count);
+            Console.WriteLine("\n\e[93mEstas {0} carpetas tienen Languages o Textures, pero no LoadFolders.Build.yaml.\nQuedan fuera del indice.\x1b[0m", HasNoBuildYaml.Count);
             foreach (var Folder in HasNoBuildYaml)
             {
                 Console.WriteLine("\t" + Folder);
@@ -131,7 +131,7 @@ static class Statics
         
         if (HasNoLanguagesOrTextures.Count > 0)
         {
-            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 LoadFolders.Build.yaml 파일이 있지만 Languages 또는 Textures 폴더가 없습니다.\n하위 경로에 종속 폴더가 의도에 맞게 구성된 경우 무시하세요.\x1b[0m", HasNoLanguagesOrTextures.Count);
+            Console.WriteLine("\n\e[93mEstas {0} carpetas tienen LoadFolders.Build.yaml, pero no Languages ni Textures.\nSi sus subcarpetas dependientes estan armadas a proposito, ignora este aviso.\x1b[0m", HasNoLanguagesOrTextures.Count);
             foreach (var Folder in HasNoLanguagesOrTextures)
             {
                 Console.WriteLine("\t" + Folder);
@@ -139,7 +139,7 @@ static class Statics
         }
 
         if (FoldersWithBuildYaml.Count > 0)
-            Console.WriteLine("\n{0}개의 적합한 빌드 대상 폴더를 찾았습니다.", FoldersWithBuildYaml.Count);
+            Console.WriteLine("\nSe encontraron {0} carpetas validas.", FoldersWithBuildYaml.Count);
         
         return FoldersWithBuildYaml.Order().ToArray();
     }
@@ -159,11 +159,11 @@ static class Statics
         {
             string ErrorInfoMessage = String.Empty;
             if (e.InnerException is InvalidCastException)
-                ErrorInfoMessage = " Yaml 파일에서 단일 요소 속성에 배열을 입력하거나, 다중 요소 속성에 단일 요소를 입력했을 수 있습니다.";
+                ErrorInfoMessage = " Puede que el yaml tenga una lista en un campo de un solo valor, o un solo valor en un campo de lista.";
             
             ErrorInfoMessage += " => " + (e.InnerException?.Message ?? String.Empty);
 
-            Console.WriteLine("\n\e[91m{0}은 유효하지 않습니다.{1}\x1b[0m", LoadPath, ErrorInfoMessage);
+            Console.WriteLine("\n\e[91m{0} no es valido.{1}\x1b[0m", LoadPath, ErrorInfoMessage);
             return null;
         }
         

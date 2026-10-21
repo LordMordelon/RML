@@ -117,7 +117,7 @@ public class LoadRack
                         {
                             BuildRule? LockedBy = RawLockedBy as BuildRule;
                             string HisName = LockedBy!.LoadPath;
-                            Console.WriteLine("\e[91m{0}의 Designate 설정이 {1}(와)과 충돌합니다.\x1b[0m",
+                            Console.WriteLine("\e[91mEl Designate de {0} choca con {1}.\x1b[0m",
                                 FilePath, Path.Combine(HisName, Statics.BuildYamlFileName));
                         }
                         else
@@ -134,7 +134,7 @@ public class LoadRack
                         {
                             BuildRule? LockedBy = RawLockedBy as BuildRule;
                             string HisName = LockedBy!.LoadPath;
-                            Console.WriteLine("\e[91m{0}의 Default 설정이 {1}(와)과 충돌합니다.\x1b[0m",
+                            Console.WriteLine("\e[91mEl Default de {0} choca con {1}.\x1b[0m",
                                 FilePath, Path.Combine(HisName, Statics.BuildYamlFileName));
                         }
                         else
@@ -230,7 +230,7 @@ public class LoadRack
     {
         if (!IsInitialized)
         {
-            Console.WriteLine("\n\e[93mLoadRack이 Initialize 되지 않은 상태에서 XDocument를 생성하려 합니다.\x1b[0m");
+            Console.WriteLine("\n\e[93mSe intento generar el XDocument sin inicializar el LoadRack.\x1b[0m");
             return null;
         }
         
@@ -494,7 +494,7 @@ public class SingleVersionRule : LockableString
                 LoadCondition = "IfModActive";
                 break;
             default:
-                Console.WriteLine("문제가 있어");
+                Console.WriteLine("BindingMode desconocido: {0}", Mode);
                 throw new Exception();
         }
 

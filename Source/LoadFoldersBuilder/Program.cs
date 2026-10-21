@@ -29,7 +29,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
 
     if (Statics.IsPathValid is not true)
     {
-        Console.WriteLine("\n\e[93m구성 환경이 올바르지 않습니다.\nLoadFoldersBuilder 실행 파일이 LoadFolders를 생성할 올바른 모드 폴더 아래에 있는지 확인하세요.\x1b[0m");
+        Console.WriteLine("\n\e[93mLa configuracion no es correcta.\nComprueba que el ejecutable de LoadFoldersBuilder este dentro de la carpeta del mod para el que genera el LoadFolders.\x1b[0m");
         StopProgram(1);
     }
 
@@ -44,7 +44,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
 
     if (Comando is "-build") goto StartBuild;
 
-    Console.WriteLine("\n빌드를 시작하려면 '-build' 명령어를 입력하세요.");
+    Console.WriteLine("\nEscribe '-build' para empezar.");
 
     while (true)
     {
@@ -58,7 +58,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     }
     
     StartBuild: // 하지마루요
-    Console.WriteLine("\n\e[32m빌드 시작\x1b[0m");
+    Console.WriteLine("\n\e[32mEmpieza la generacion\x1b[0m");
     TimeSpan TotalRunTime = TimeSpan.Zero;
     
     // 파일 및 폴더 구조 단위에서 유효성을 검사합니다.
@@ -66,12 +66,12 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     string[] ValidPath = Statics.FindAndValidatePaths(Statics.TargetPath!);
     if (ValidPath.Length is 0)
     {
-        Console.WriteLine("\e[93m유효한 경로에 위치한 LoadFolders.Build.yaml 파일을 하나도 찾을 수 없습니다.\x1b[0m");
+        Console.WriteLine("\e[93mNo se encontro ningun LoadFolders.Build.yaml en una ruta valida.\x1b[0m");
         StopProgram(1);
     }
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-    Console.WriteLine("\e[32m폴더 구조 및 필수 파일 확인 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    Console.WriteLine("\e[32mCarpetas y archivos necesarios comprobados...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
     // Solo avisa: el indice se regenera igual, para no dejar al extractor ni a la CI con uno
     // viejo. El que frena la publicacion es -rutas.
@@ -91,7 +91,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     }
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-    Console.WriteLine("\e[32mLoadFolders.Build.yaml 읽기 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    Console.WriteLine("\e[32mLoadFolders.Build.yaml leidos...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
     
     // BuildRules의 의존 경로 설정을 완성합니다.
     Stopwatch.Restart();
@@ -99,7 +99,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     FilteredRules.CreateDependencyGraph(Statics.TargetPath!);
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-    Console.WriteLine("\e[32m로드 의존성 그래프 생성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    Console.WriteLine("\e[32mDependencias de carga armadas...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
     
     // 로드 구문을 작성하기 위한 최종 형태를 완성합니다.
     Stopwatch.Restart();
@@ -107,7 +107,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     MainRack.Initialize(FilteredRules);
 
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-    Console.WriteLine("\e[32m데이터 전처리 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    Console.WriteLine("\e[32mDatos preparados...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
     if (MainRack.GenerateXDocument() is { } CompleteXML)
     {
@@ -121,12 +121,12 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
         }
         catch (IOException e) when (e.HResult is unchecked((int)0x800704C8))
         {
-            Console.WriteLine("\e[93m다른 프로그램이 LoadFolders.xml의 쓰기 권한을 점유하고 있습니다.\n해당 프로그램을 닫고 다시 시도하세요.\n문제가 해결되지 않는다면 작업 관리자에서 Windows 탐색기를 '다시 시작'해보세요.\x1b[0m");
+            Console.WriteLine("\e[93mOtro programa tiene bloqueado LoadFolders.xml.\nCierralo y vuelve a intentarlo.\nSi sigue igual, reinicia el Explorador de Windows desde el Administrador de tareas.\x1b[0m");
             StopProgram(1);
         }
         
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32mLoadFolders.xml 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        Console.WriteLine("\e[32mLoadFolders.xml escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
         
         // 참고용으로 쓸 ModList.tsv 파일을 작성합니다.
         // Y la misma lista como docs/index.html (la pagina de GitHub Pages, con links a Steam,
@@ -138,14 +138,14 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
         File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", "index.html"), ModListFormatos.Html(ModList));
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32mModList.tsv, docs/index.html 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        Console.WriteLine("\e[32mModList.tsv y docs/index.html escritos...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
         // El forceLoadAfter de About.xml, para que RML cargue despues de cada mod que traduce.
         Stopwatch.Restart();
         OrdenDeCarga.Actualizar(Statics.RootPath!, FilteredRules.Rules.Values.SelectMany(Rule => Rule.PackageID));
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32mAbout.xml forceLoadAfter 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        Console.WriteLine("\e[32mforceLoadAfter de About.xml escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
         // La copia liviana en output/, que es la que carga el juego por Mods\RML. Va al final,
         // con el LoadFolders.xml y el About.xml ya al dia. Si falla solo avisa: el indice ya
@@ -154,14 +154,14 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
         CopiaLimpia.Armar(Statics.RootPath!);
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32moutput 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        Console.WriteLine("\e[32moutput escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
-        Console.WriteLine("\e[32m작업 완료\x1b[0m");
-        Console.WriteLine("총 작업시간 {0:F3}s", TotalRunTime.TotalSeconds);
+        Console.WriteLine("\e[32mTerminado\x1b[0m");
+        Console.WriteLine("Tiempo total {0:F3}s", TotalRunTime.TotalSeconds);
     }
     else
     {
-        Console.WriteLine("\e[93mXML 구조를 형성하는 중 문제가 발생했습니다.\x1b[0m");
+        Console.WriteLine("\e[93mHubo un problema al armar el XML.\x1b[0m");
         StopProgram(1);
     }
     
@@ -175,7 +175,7 @@ void StopProgram(int Codigo = 0)
     // forma que tiene quien llama de enterarse de que algo fallo.
     if (Comando is null)
     {
-        Console.WriteLine("\n창을 닫거나 엔터키를 눌러 프로그램을 종료하십시오.");
+        Console.WriteLine("\nCierra la ventana o presiona Enter para salir.");
         Console.ReadLine();
     }
 

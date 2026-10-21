@@ -97,28 +97,28 @@ public class BuildRule
     {
         if (PackageID.Length is 0)
         {
-            Console.WriteLine("\e[91m{0}의 PackageID 설정이 없습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0} no tiene PackageID.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
         
         if ((After is not null && Before is not null) && After.Intersect(Before).Any())
         {
-            Console.WriteLine("\e[91m{0}의 After와 Before 속성에 중복된 값이 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0} tiene valores repetidos en After y Before.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Default is not null && LeftBoundary is not null && Default < LeftBoundary)
         {
-            Console.WriteLine("\e[91m{0}의 Default 버전이 LeftBoundary보다 앞에 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91mEn {0}, la version Default esta antes de LeftBoundary.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
         
         if (Default is not null && RightBoundary is not null && Default > RightBoundary)
         {
-            Console.WriteLine("\e[91m{0}의 Default 버전이 RightBoundary보다 뒤에 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91mEn {0}, la version Default esta despues de RightBoundary.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
@@ -126,7 +126,7 @@ public class BuildRule
         /* 허용 => 기본 버전을 명확하게 설정할 수 없는 경우가 있기 때문
         if ((LeftBoundary is not null || RightBoundary is not null) && Default is null)
         {
-            Console.WriteLine("\n\e[91m{0}에 Boundary 버전이 설정되어 있으나 Default 버전이 없습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\n\e[91m{0} tiene version Boundary, pero no Default.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }*/
@@ -134,28 +134,28 @@ public class BuildRule
         /* 허용 => 특정 버전에 종속되지 않는 '기본' 로드 폴더를 설정하고 싶을 수 있기 때문 - 이 경우 로드 우선권이 없게 된다.
         if (Default is null && Designate is null)
         {
-            Console.WriteLine("\n\e[91m{0}의 Default 버전과 Designate 버전이 모두 존재하지 않습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\n\e[91m{0} no tiene version Default ni Designate.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }*/
 
         if (Designate is not null && Ban is not null && Designate.Intersect(Ban).Any())
         {
-            Console.WriteLine("\e[91m{0}의 Designate 버전과 Ban 버전에 중복이 존재합니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0} tiene versiones repetidas en Designate y Ban.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Default is not null && Ban is not null && Ban.Contains(Default))
         {
-            Console.WriteLine("\e[91m{0}의 Ban 버전에 Default 버전이 존재합니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91mEn {0}, la version Default esta en Ban.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Mode is BindingMode.None && PackageID.Length > 1)
         {
-            Console.WriteLine("\e[91m{0}의 다중 PackageID 조건에 BindingMode 설정이 존재하지 않습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0} tiene varios PackageID, pero no BindingMode.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
@@ -222,7 +222,7 @@ public class BuildRules
                 CannotFindParent:
                 Rule.IsValid = false;
                 PendingDelete.Add(Pair.Key);
-                Console.WriteLine("\n\e[91m{0}(은)는 Dependent로 설정되어 있으나 상위 경로에 Independent 규칙 파일이 없습니다.\x1b[0m",
+                Console.WriteLine("\n\e[91m{0} esta marcado como Dependent, pero ninguna carpeta de arriba tiene una regla Independent.\x1b[0m",
                     Rule.LoadPath + Statics.BuildYamlFileName);
                 break;
             }
