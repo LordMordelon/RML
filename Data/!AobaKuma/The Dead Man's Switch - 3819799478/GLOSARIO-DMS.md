@@ -125,6 +125,11 @@ a pedido de Angel el 20-oct-2026, y los textos que ya decían otra cosa se corri
 | garrison arsenal | **arsenal de guarnición** | |
 | qubit decryption | **descifrado por cúbits** | |
 | infrasonics | **infrasónica** | Los objetos ya decían «de infrasonido» |
+| «remnant X» (sitios de misión) | **X de los remanentes** | «aeródromo de los remanentes», como en `Keyed` |
+| Assault {0} / Assaulting {0}. | **Asaltar: {0}** / **Asaltando: {0}.** | Con dos puntos para no tener que adivinar el género del sitio |
+| infrasonic trauma / rupture | **trauma infrasónico** / **ruptura infrasónica** | |
+| reality anchored / suppressed | **anclado a la realidad** / **realidad suprimida** | |
+| field mothball | **hibernación en el campo** | Las unidades «en hibernación» de `ThingDef` |
 | Ancient corps | **Cuerpo antiguo** | Como en *The Dead Man's Switch - AncientCorps*. Sus unidades van como allá: «molot BR-3», «krepost BR-6» |
 
 **Pronombres de una persona** (`{DEVIANT_pronoun}`, `{DEVIANT_objective}`, `{DEFENDANT_objective}`):

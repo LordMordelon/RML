@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: `Keyed`, `ThingDef`, `ResearchProjectDef` y `RecipeDef` hechos; sigue el punto 4 (`BodyDef` por script) |
+| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 4 hechos, y del 5 `SitePartDef` e `IncidentDef`; siguen `QuestScriptDef` y `TaleDef` |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -163,27 +163,26 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 ## Próxima sesión (20-oct-2026, después de la sesión 3)
 
-**Objetivo:** etapa 4, punto 4: `BodyDef` (63 `TODO`) con el script aprobado, y `HediffDef` (45) y
-`AbilityDef` (13) a mano.
+**Objetivo:** etapa 4, punto 5: `QuestScriptDef` (140 `TODO`, en 38 archivos) y `TaleDef` (124, en 8),
+a mano.
 
-**Estado:** `ResearchProjectDef` (42) y `RecipeDef` (72) terminados en RML `master`, en local (último
-commit, el de esta nota; sin subir hasta que Angel lo diga). Quedan 822 `TODO` en `DefInjected`, contados
-por renglón. Los términos de la sesión 3, varios sacados de la traducción oficial, están en
-`GLOSARIO-DMS.md`. Sin cambios a medias.
+**Estado:** en la sesión 3 se tradujeron `ResearchProjectDef`, `RecipeDef` y `BodyDef` (estos dos con
+tablas aprobadas por Angel), `HediffDef`, `AbilityDef`, `SitePartDef` e `IncidentDef`. Todo en RML
+`master`, en local (último commit, el de esta nota); se sube cuando Angel lo diga. Quedan 641 `TODO` en
+`DefInjected`, contados por renglón. Sin cambios a medias.
 
 **Antes de empezarla (Angel):** nada.
 
 **Al empezar (Claude):**
-1. Armar la tabla de las 63 partes del cuerpo (inglés, propuesta), con los nombres oficiales de
-   RimWorld para lo que ya existe en vanilla (están en los `.tar` de `Data/*/Languages`) y el glosario
-   para lo del mod; mostrársela a Angel. No aplicar nada hasta su «sí».
-2. Mientras la revisa, `HediffDef` (45) y `AbilityDef` (13) a mano, un commit por tramo.
-3. Con el «sí», aplicar la tabla con el mismo script de las recetas: lee un `.tsv` clave → traducción,
-   comprueba que las claves sean exactamente los `TODO` del archivo y solo reemplaza esos. No quedó
-   guardado: se rehace en un rato. Correr las tres comprobaciones del diff. Cabe en una sesión.
+1. `QuestScriptDef` y después `TaleDef`, un commit por tramo de unos 40 renglones. Son casi todos reglas
+   de gramática: el símbolo y el «->» quedan como en el `EN:` y solo se traduce lo de después (la
+   comprobación 3 tiene que salir vacía). Los pronombres de persona se omiten (ver el glosario).
+2. Para los términos que existen en el juego, comparar con la traducción oficial: los `.tar` de
+   `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\SpanishLatin (Español(Latinoamérica)).tar`.
+   Angel pidió usarla como referencia.
+3. 264 renglones con gramática pueden no caber en una sesión: si no, `TaleDef` queda para la siguiente.
 
-**Decisiones de Angel:** solo la tabla de partes del cuerpo. Recomendación: aprobarla entera y corregir
-después en el juego lo que suene raro.
+**Decisiones de Angel:** ninguna prevista.
 
 **Guías:** ninguna (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
