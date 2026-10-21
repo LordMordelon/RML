@@ -4,6 +4,10 @@
   <PA_EnableMod>Activar el mod</PA_EnableMod>
   <!-- EN: When off, the ammunition system is switched off: weapons fire without using ammo, the ammo gizmo and Assign tab column are hidden, NPCs stop spawning with refills, traders stop stocking them, and the recharger buildings and refill recipes disappear. Existing refill items and built rechargers are left in place. -->
   <PA_EnableModDesc>Si está desactivado, el sistema de munición se apaga: las armas disparan sin gastar munición, el botón de munición y la columna de la pestaña Políticas se ocultan, los PNJ dejan de aparecer con recargas, los comerciantes dejan de venderlas y desaparecen las construcciones de recarga y las recetas de recargas. Las recargas que ya existan y las estaciones de recarga construidas se quedan donde están.</PA_EnableModDesc>
+  <!-- EN: Only colonists use ammo -->
+  <PA_OnlyColonistsUseAmmo>Solo los colonos usan munición</PA_OnlyColonistsUseAmmo>
+  <!-- EN: If enabled, non-colonists will not need ammunition to shoot. -->
+  <PA_OnlyColonistsUseAmmoDesc>Si está activado, quienes no sean colonos no necesitarán munición para disparar.</PA_OnlyColonistsUseAmmoDesc>
   <!-- EN: Show ammunition gizmo only while drafted -->
   <PA_ShowOnlyDrafted>Mostrar el botón de munición solo al estar reclutado</PA_ShowOnlyDrafted>
   <!-- EN: Refill buildings have infinite refills -->
@@ -56,6 +60,8 @@
   <PA_AmmoType_Ammo>munición</PA_AmmoType_Ammo>
   <!-- EN: charge -->
   <PA_AmmoType_Charge>carga</PA_AmmoType_Charge>
+  <!-- EN: out of ammo -->
+  <PA_MoteOutOfAmmo>sin munición</PA_MoteOutOfAmmo>
   <!-- EN: Refills carried by spawned non-player pawns -->
   <PA_SpawnRefillHeader>Recargas que llevan los individuos que no son del jugador</PA_SpawnRefillHeader>
   <!-- EN: Chance for animal NPCs to spawn with an arrow refill: {0}% -->
