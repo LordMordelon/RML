@@ -16,6 +16,7 @@ halcón», «escuadras de ronin».
 | battle friend | **amigo de batalla** | El automatroide `DMS_Mech_BattleFrame` y la investigación. En la descripción de la investigación se dejan las dos formas en inglés con su traducción entre paréntesis, porque el chiste es que suenan parecido |
 | Dead Man's Switch | **Dead Man's Switch** | Nombre propio: no se traduce, ni como mecanismo |
 | Nara Industries | **Industrias Nara** | |
+| United Army Systems | **Sistemas del Ejército Unido** | Fabricante del tejedor de clústeres. Su modelo «Sakalava» queda como nombre propio. Pedido por Angel el 20-oct-2026 |
 | Colonial Fleet / colonial fleet | **Flota Colonial** / **flota colonial** | Con mayúscula cuando el inglés la usa como nombre propio |
 | Colonization Forces | **Fuerzas de colonización** | La facción `DMS_Army` |
 | Great Filter | **Gran Filtro** | |
