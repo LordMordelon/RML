@@ -2,6 +2,8 @@
 <LanguageData>
   <!-- EN: Loading progress -->
   <LoadingProgress.Title>Progreso de carga</LoadingProgress.Title>
+  <!-- EN: Finishing up -->
+  <LoadingProgress.FinishingUp>Terminando</LoadingProgress.FinishingUp>
   <!-- EN: Loading progress: Executing delayed initialization tasks -->
   <LoadingProgress.ExecuteToExecuteWhenFinished>Loading progress: Ejecutando tareas de inicialización retrasadas</LoadingProgress.ExecuteToExecuteWhenFinished>
   <!-- EN: Loading progress: Regenerating renderer -->
@@ -10,6 +12,8 @@
   <LoadingProgress.CallAll>Loading progress: Llamando a todos los constructores estáticos</LoadingProgress.CallAll>
   <!-- EN: (Mod list has changed since last game start; estimate may be inaccurate.) -->
   <LoadingProgress.ModHashChanged>(La lista de mods ha cambiado desde el último inicio del juego; la estimación puede ser imprecisa.)</LoadingProgress.ModHashChanged>
+  <!-- EN: This game launch may take longer as the game is caching new textures. Subsequent launches will be faster. -->
+  <LoadingProgress.CachingTextures>Este inicio del juego puede tardar más porque el juego está guardando en caché texturas nuevas. Los próximos inicios serán más rápidos.</LoadingProgress.CachingTextures>
   <!-- EN: Heap: {0}  ·  Process: {1} -->
   <LoadingProgress.MemoryUsage>Montículo: {0}  ·  Proceso: {1}</LoadingProgress.MemoryUsage>
   <!-- EN: estimate based on previous game launch -->
@@ -21,7 +25,9 @@
   <!-- EN: Game took {0} to load -->
   <LoadingProgress.LoadingTime>El juego tardó {0} en cargar</LoadingProgress.LoadingTime>
   <!-- EN: Click to see loading time broken down in detail. -->
-  <LoadingProgress.LoadingTime.Tip>Información añadida por el mod Loading Progress; se puede desactivar en los ajustes.</LoadingProgress.LoadingTime.Tip>
+  <LoadingProgress.LoadingTime.Tip>Haz clic para ver el tiempo de carga desglosado en detalle.</LoadingProgress.LoadingTime.Tip>
+  <!-- EN: Loading time not recorded -->
+  <LoadingProgress.LoadingTimeNotRecorded>Tiempo de carga no registrado</LoadingProgress.LoadingTimeNotRecorded>
   <!-- EN: {0} left of {1} -->
   <LoadingProgress.TimeRemaining>{0} restantes de {1}</LoadingProgress.TimeRemaining>
   <!-- EN: {0} over {1} -->
@@ -278,6 +284,10 @@
   <LoadingProgress.TrackStartupLoadingImpact>Registrar el impacto de la carga inicial</LoadingProgress.TrackStartupLoadingImpact>
   <!-- EN: When enabled, the mod will track the impact of startup loading impact from mods and the base game allowing you to see a detailed breakdown of what is causing the biggest delays during the loading process. -->
   <LoadingProgress.TrackStartupLoadingImpact.Tip>Cuando está activado, el mod registrará el impacto de la carga inicial de los mods y del juego base, lo que te permite ver un desglose detallado de qué está causando las mayores demoras durante el proceso de carga.</LoadingProgress.TrackStartupLoadingImpact.Tip>
+  <!-- EN:  - Time other mods&apos; Harmony patches separately -->
+  <LoadingProgress.TimeHarmonyHooks>- Medir por separado los parches de Harmony de otros mods</LoadingProgress.TimeHarmonyHooks>
+  <!-- EN: When enabled, the time each Harmony patch takes while the game loads is credited to the mod the patch belongs to, under &apos;Harmony hooks on&apos; and the patched method&apos;s name. When disabled, a patch&apos;s time goes to whatever step was running when it ran.\n\nOn some setups, having this on has kept saved games from loading, so it is off by default. If your saves don&apos;t load with it on, turn it off and leave it off. It takes effect at the next startup. -->
+  <LoadingProgress.TimeHarmonyHooks.Tip>Cuando está activado, el tiempo que tarda cada parche de Harmony durante la carga del juego se le asigna al mod dueño del parche, bajo «Ganchos de Harmony en» y el nombre del método parcheado. Cuando está desactivado, el tiempo de un parche va al paso que estaba en curso cuando se ejecutó.\n\nEn algunas configuraciones, tenerlo activado impidió cargar partidas guardadas, por eso viene desactivado. Si tus partidas no cargan con esto activado, desactívalo y déjalo así. Se aplica en el siguiente inicio.</LoadingProgress.TimeHarmonyHooks.Tip>
   <!-- EN:  - Automatically save startup impact report -->
   <LoadingProgress.AutoSaveStartupImpactReport>- Guardar automáticamente el informe de impacto inicial</LoadingProgress.AutoSaveStartupImpactReport>
   <!-- EN: When enabled, the startup impact report is automatically saved to StartupImpactData.xml in your RimWorld save data folder after every game startup, without having to open the startup impact window and press Save.\n\nThis lets external tools, such as the RimSort mod manager, show each mod&apos;s startup load time. -->
@@ -496,20 +506,56 @@
   <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>Inyectando los datos del idioma seleccionado en los datos del juego</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>
   <!-- EN: Running static constructors -->
   <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>Ejecutando constructores estáticos</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>
+  <!-- EN: Static constructor pass for other mods&apos; hooks -->
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>Pasada de constructores estáticos para los ganchos de otros mods</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>
+  <!-- EN: Static constructor pass for other mods&apos; hooks, with hooks not timed on their own: {0} -->
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>Pasada de constructores estáticos para los ganchos de otros mods, con ganchos sin medir por separado: {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>
+  <!-- EN: Hook on the static constructor pass: {0} -->
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>Gancho en la pasada de constructores estáticos: {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>
+  <!-- EN: Hooks on the static constructor pass -->
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>Ganchos en la pasada de constructores estáticos</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>
+  <!-- EN: Harmony hooks on {0} -->
+  <LoadingProgress.StartupImpact.HarmonyHook>Ganchos de Harmony en {0}</LoadingProgress.StartupImpact.HarmonyHook>
+  <!-- EN: Harmony hooks -->
+  <LoadingProgress.StartupImpact.HarmonyHook.Grouped>Ganchos de Harmony</LoadingProgress.StartupImpact.HarmonyHook.Grouped>
+  <!-- EN: {0} (replaced by {1}) -->
+  <LoadingProgress.StartupImpact.ReplacedBy>{0} (reemplazado por {1})</LoadingProgress.StartupImpact.ReplacedBy>
+  <!-- EN: Checking for missing StaticConstructorOnStartup attributes (development mode) -->
+  <LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>Buscando atributos StaticConstructorOnStartup que falten (modo de desarrollo)</LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>
   <!-- EN: Initializing float menu maker map -->
   <LoadingProgress.StartupImpact.FloatMenuMakerMapInit>Inicializando el mapa del generador de menús flotantes</LoadingProgress.StartupImpact.FloatMenuMakerMapInit>
   <!-- EN: Texture atlas baking -->
   <LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>Horneado del atlas de texturas</LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>
   <!-- EN: Clearing filesystem cache -->
   <LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>Limpiando la caché del sistema de archivos</LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>
+  <!-- EN: Garbage collection and asset unload -->
+  <LoadingProgress.StartupImpact.GarbageCollection>Recolección de basura y descarga de recursos</LoadingProgress.StartupImpact.GarbageCollection>
+  <!-- EN: Early game launch -->
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch>Arranque temprano del juego</LoadingProgress.StartupImpact.Total.EarlyLaunch>
+  <!-- EN: From the moment the game was started until Loading Progress began timing: starting the engine, reading the mod list, loading the mods&apos; code, and running the constructors of mods loaded before Loading Progress. -->
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>Desde que se inició el juego hasta que Loading Progress empezó a medir: arrancar el motor, leer la lista de mods, cargar el código de los mods y ejecutar los constructores de los mods cargados antes de Loading Progress.</LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>
   <!-- EN: Mods -->
   <LoadingProgress.StartupImpact.Total.Mods>Mods</LoadingProgress.StartupImpact.Total.Mods>
   <!-- EN: Hidden mods -->
   <LoadingProgress.StartupImpact.Total.ModsHidden>Mods ocultos</LoadingProgress.StartupImpact.Total.ModsHidden>
   <!-- EN: Not directly related to mods -->
   <LoadingProgress.StartupImpact.Total.BaseGame>No relacionado directamente con los mods</LoadingProgress.StartupImpact.Total.BaseGame>
-  <!-- EN: Untracked -->
-  <LoadingProgress.StartupImpact.Total.Others>No rastreada</LoadingProgress.StartupImpact.Total.Others>
+  <!-- EN: Remaining -->
+  <LoadingProgress.StartupImpact.Total.Others>Restante</LoadingProgress.StartupImpact.Total.Others>
+  <!-- EN: Remaining time by loading stage, largest first: -->
+  <LoadingProgress.StartupImpact.Remaining.ByStage>Tiempo restante por etapa de carga, de mayor a menor:</LoadingProgress.StartupImpact.Remaining.ByStage>
+  <!-- EN: After loading, until the main menu was usable -->
+  <LoadingProgress.StartupImpact.Remaining.AfterLoading>Después de la carga, hasta que se pudo usar el menú principal</LoadingProgress.StartupImpact.Remaining.AfterLoading>
+  <!-- EN: Setting up and removing the timing of hooks on the static constructor pass -->
+  <LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>Poner y quitar la medición de los ganchos en la pasada de constructores estáticos</LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>
+  <!-- EN: {0} (second pass) -->
+  <LoadingProgress.StartupImpact.Remaining.SecondPass>{0} (segunda pasada)</LoadingProgress.StartupImpact.Remaining.SecondPass>
+  <!-- EN: Remaining time: {0} -->
+  <LoadingProgress.StartupImpact.StartupRemaining>Tiempo restante: {0}</LoadingProgress.StartupImpact.StartupRemaining>
+  <!-- EN: After loading: {0} -->
+  <LoadingProgress.StartupImpact.PostLoadLongEvent>Después de la carga: {0}</LoadingProgress.StartupImpact.PostLoadLongEvent>
+  <!-- EN: After loading -->
+  <LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>Después de la carga</LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>
   <!-- EN: {0} s -->
   <LoadingProgress.StartupImpact.Seconds>{0} s</LoadingProgress.StartupImpact.Seconds>
   <!-- EN: {0} ms -->
@@ -524,6 +570,16 @@
   <LoadingProgress.StartupImpact.StartupMods>Impacto de inicio de los mods: {0}</LoadingProgress.StartupImpact.StartupMods>
   <!-- EN: Not directly related to mods: {0} -->
   <LoadingProgress.StartupImpact.StartupNonmods>No relacionado directamente con los mods: {0}</LoadingProgress.StartupImpact.StartupNonmods>
+  <!-- EN: Not directly related to mods, largest steps first: -->
+  <LoadingProgress.StartupImpact.Nonmods.BySteps>No relacionado directamente con los mods, por pasos de mayor a menor:</LoadingProgress.StartupImpact.Nonmods.BySteps>
+  <!-- EN: {0} on other threads -->
+  <LoadingProgress.StartupImpact.Section.OnOtherThreads>{0} en otros hilos</LoadingProgress.StartupImpact.Section.OnOtherThreads>
+  <!-- EN: Click to open or close this section. -->
+  <LoadingProgress.StartupImpact.Section.Tip>Haz clic para abrir o cerrar esta sección.</LoadingProgress.StartupImpact.Section.Tip>
+  <!-- EN: On other threads, summed across them -->
+  <LoadingProgress.StartupImpact.OnOtherThreads.Tip>En otros hilos, sumados entre todos</LoadingProgress.StartupImpact.OnOtherThreads.Tip>
+  <!-- EN: And {0} more -->
+  <LoadingProgress.StartupImpact.Breakdown.More>Y {0} más</LoadingProgress.StartupImpact.Breakdown.More>
   <!-- EN: Use logarithmic scale -->
   <LoadingProgress.StartupImpact.LogarithmicScale>Usar escala logarítmica</LoadingProgress.StartupImpact.LogarithmicScale>
   <!-- EN: When this is enabled, the startup impact values will be displayed on a logarithmic scale, compressing large differences in impact so they are easier to compare. Use the Detail slider that appears next to this option to fine-tune how strong the compression is. -->
@@ -622,8 +678,12 @@
   <LoadingProgress.StartupImpact.History.Note.Unfinished>Nunca terminó</LoadingProgress.StartupImpact.History.Note.Unfinished>
   <!-- EN: Stopped at {0} -->
   <LoadingProgress.StartupImpact.History.Note.UnfinishedAt>Se detuvo en {0}</LoadingProgress.StartupImpact.History.Note.UnfinishedAt>
+  <!-- EN: Stopped after loading, before the main menu was usable -->
+  <LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>Se detuvo después de la carga, antes de que se pudiera usar el menú principal</LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>
   <!-- EN: Different mod list, not comparable -->
   <LoadingProgress.StartupImpact.History.Note.DifferentList>Lista de mods distinta, no comparable</LoadingProgress.StartupImpact.History.Note.DifferentList>
+  <!-- EN: Not timed to the main menu -->
+  <LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>Sin medir hasta el menú principal</LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>
   <!-- EN: Pinned. -->
   <LoadingProgress.StartupImpact.History.Status.Pinned>Fijada.</LoadingProgress.StartupImpact.History.Status.Pinned>
   <!-- EN: Unpinned. -->
@@ -646,4 +706,96 @@
   <LoadingProgress.StartupImpact.History>Historial</LoadingProgress.StartupImpact.History>
   <!-- EN: This is the baseline. Deleting it leaves no baseline until you choose another. -->
   <LoadingProgress.StartupImpact.History.Confirm.Baseline>Esta es la referencia. Si la borras, no habrá referencia hasta que elijas otra.</LoadingProgress.StartupImpact.History.Confirm.Baseline>
+  <!-- EN: Compare -->
+  <LoadingProgress.StartupImpact.Compare.Button>Comparar</LoadingProgress.StartupImpact.Compare.Button>
+  <!-- EN: Compare with... -->
+  <LoadingProgress.StartupImpact.Compare.With>Comparar con...</LoadingProgress.StartupImpact.Compare.With>
+  <!-- EN: There is no other saved session with a breakdown to compare this one with. -->
+  <LoadingProgress.StartupImpact.Compare.NothingToCompare>No hay ninguna otra sesión guardada con desglose para comparar con esta.</LoadingProgress.StartupImpact.Compare.NothingToCompare>
+  <!-- EN: Compare startups -->
+  <LoadingProgress.StartupImpact.Compare.Title>Comparar inicios</LoadingProgress.StartupImpact.Compare.Title>
+  <!-- EN: Reference -->
+  <LoadingProgress.StartupImpact.Compare.Reference>Base</LoadingProgress.StartupImpact.Compare.Reference>
+  <!-- EN: Compared -->
+  <LoadingProgress.StartupImpact.Compare.Compared>Comparada</LoadingProgress.StartupImpact.Compare.Compared>
+  <!-- EN: Change -->
+  <LoadingProgress.StartupImpact.Compare.Change>Cambio</LoadingProgress.StartupImpact.Compare.Change>
+  <!-- EN: Swap -->
+  <LoadingProgress.StartupImpact.Compare.Swap>Intercambiar</LoadingProgress.StartupImpact.Compare.Swap>
+  <!-- EN: Swap the reference and the compared session. -->
+  <LoadingProgress.StartupImpact.Compare.Swap.Tip>Intercambia la sesión base y la comparada.</LoadingProgress.StartupImpact.Compare.Swap.Tip>
+  <!-- EN: {0} (baseline) -->
+  <LoadingProgress.StartupImpact.Compare.BaselineSession>{0} (referencia)</LoadingProgress.StartupImpact.Compare.BaselineSession>
+  <!-- EN: Loading time: {0} → {1} ({2}) -->
+  <LoadingProgress.StartupImpact.Compare.Headline>Tiempo de carga: {0} → {1} ({2})</LoadingProgress.StartupImpact.Compare.Headline>
+  <!-- EN: Overview -->
+  <LoadingProgress.StartupImpact.Compare.Tab.Overview>Resumen</LoadingProgress.StartupImpact.Compare.Tab.Overview>
+  <!-- EN: Stages -->
+  <LoadingProgress.StartupImpact.Compare.Tab.Stages>Etapas</LoadingProgress.StartupImpact.Compare.Tab.Stages>
+  <!-- EN: Mods -->
+  <LoadingProgress.StartupImpact.Compare.Tab.Mods>Mods</LoadingProgress.StartupImpact.Compare.Tab.Mods>
+  <!-- EN: Steps -->
+  <LoadingProgress.StartupImpact.Compare.Tab.Steps>Pasos</LoadingProgress.StartupImpact.Compare.Tab.Steps>
+  <!-- EN: Loading time -->
+  <LoadingProgress.StartupImpact.Compare.LoadingTime>Tiempo de carga</LoadingProgress.StartupImpact.Compare.LoadingTime>
+  <!-- EN: Startup time -->
+  <LoadingProgress.StartupImpact.Compare.StartupTime>Tiempo de inicio</LoadingProgress.StartupImpact.Compare.StartupTime>
+  <!-- EN: Time to the main menu -->
+  <LoadingProgress.StartupImpact.Compare.TimeToMenu>Tiempo hasta el menú principal</LoadingProgress.StartupImpact.Compare.TimeToMenu>
+  <!-- EN: Mods loaded -->
+  <LoadingProgress.StartupImpact.Compare.ModsLoaded>Mods cargados</LoadingProgress.StartupImpact.Compare.ModsLoaded>
+  <!-- EN: Defs parsed -->
+  <LoadingProgress.StartupImpact.Compare.DefsParsed>Defs analizados</LoadingProgress.StartupImpact.Compare.DefsParsed>
+  <!-- EN: Patch operations applied -->
+  <LoadingProgress.StartupImpact.Compare.PatchOperations>Operaciones de parche aplicadas</LoadingProgress.StartupImpact.Compare.PatchOperations>
+  <!-- EN: Mod list -->
+  <LoadingProgress.StartupImpact.Compare.ModList>Lista de mods</LoadingProgress.StartupImpact.Compare.ModList>
+  <!-- EN: Mods only in the compared session -->
+  <LoadingProgress.StartupImpact.Compare.AddedMods>Mods que solo están en la sesión comparada</LoadingProgress.StartupImpact.Compare.AddedMods>
+  <!-- EN: Mods only in the reference session -->
+  <LoadingProgress.StartupImpact.Compare.RemovedMods>Mods que solo están en la sesión base</LoadingProgress.StartupImpact.Compare.RemovedMods>
+  <!-- EN: Mod load order -->
+  <LoadingProgress.StartupImpact.Compare.ModOrder>Orden de carga de los mods</LoadingProgress.StartupImpact.Compare.ModOrder>
+  <!-- EN: Harmony patches timed separately -->
+  <LoadingProgress.StartupImpact.Compare.HarmonyHooks>Parches de Harmony medidos por separado</LoadingProgress.StartupImpact.Compare.HarmonyHooks>
+  <!-- EN: same -->
+  <LoadingProgress.StartupImpact.Compare.Same>igual</LoadingProgress.StartupImpact.Compare.Same>
+  <!-- EN: different -->
+  <LoadingProgress.StartupImpact.Compare.Different>distinto</LoadingProgress.StartupImpact.Compare.Different>
+  <!-- EN: changed -->
+  <LoadingProgress.StartupImpact.Compare.Changed>cambió</LoadingProgress.StartupImpact.Compare.Changed>
+  <!-- EN: on -->
+  <LoadingProgress.StartupImpact.Compare.On>activado</LoadingProgress.StartupImpact.Compare.On>
+  <!-- EN: off -->
+  <LoadingProgress.StartupImpact.Compare.Off>desactivado</LoadingProgress.StartupImpact.Compare.Off>
+  <!-- EN: unknown -->
+  <LoadingProgress.StartupImpact.Compare.Unknown>desconocido</LoadingProgress.StartupImpact.Compare.Unknown>
+  <!-- EN: not loaded -->
+  <LoadingProgress.StartupImpact.Compare.NotLoaded>sin cargar</LoadingProgress.StartupImpact.Compare.NotLoaded>
+  <!-- EN: varies -->
+  <LoadingProgress.StartupImpact.Compare.Noisy>varía</LoadingProgress.StartupImpact.Compare.Noisy>
+  <!-- EN: This is known to vary a lot between runs even when nothing has changed, so a change here may be noise. -->
+  <LoadingProgress.StartupImpact.Compare.Noisy.Tip>Se sabe que esto varía mucho de una ejecución a otra aunque no haya cambiado nada, así que un cambio aquí puede ser ruido.</LoadingProgress.StartupImpact.Compare.Noisy.Tip>
+  <!-- EN: Most of this mod&apos;s change is in steps known to vary a lot between runs even when nothing has changed, so it may be noise. -->
+  <LoadingProgress.StartupImpact.Compare.Noisy.ModTip>La mayor parte del cambio de este mod está en pasos que se sabe que varían mucho de una ejecución a otra aunque no haya cambiado nada, así que puede ser ruido.</LoadingProgress.StartupImpact.Compare.Noisy.ModTip>
+  <!-- EN: Largest changes: -->
+  <LoadingProgress.StartupImpact.Compare.ModDetails>Cambios más grandes:</LoadingProgress.StartupImpact.Compare.ModDetails>
+  <!-- EN: The stages make up the loading time, and are not affected by how time is split between mods. Their changes add up to {0}. -->
+  <LoadingProgress.StartupImpact.Compare.Summary.Stages>Las etapas forman el tiempo de carga y no dependen de cómo se reparte el tiempo entre los mods. Sus cambios suman {0}.</LoadingProgress.StartupImpact.Compare.Summary.Stages>
+  <!-- EN: Each mod&apos;s time. A setting that changes what time is credited to whom can move time from one mod to another, so use these to explain a stage&apos;s change rather than as a result on their own. -->
+  <LoadingProgress.StartupImpact.Compare.Summary.Mods>El tiempo de cada mod. Un ajuste que cambia a quién se le asigna cada tiempo puede pasar tiempo de un mod a otro, así que úsalos para explicar el cambio de una etapa y no como un resultado en sí.</LoadingProgress.StartupImpact.Compare.Summary.Mods>
+  <!-- EN: Time per step, the base game&apos;s and all mods&apos; together. A setting that changes what time is credited to whom can move time from one step to another, so use these to explain a stage&apos;s change rather than as a result on their own. -->
+  <LoadingProgress.StartupImpact.Compare.Summary.Steps>El tiempo por paso, del juego base y de todos los mods juntos. Un ajuste que cambia a quién se le asigna cada tiempo puede pasar tiempo de un paso a otro, así que úsalos para explicar el cambio de una etapa y no como un resultado en sí.</LoadingProgress.StartupImpact.Compare.Summary.Steps>
+  <!-- EN: Times vary from run to run, sometimes by seconds. A change is only likely to be real when it shows up every time you compare runs with and without it. -->
+  <LoadingProgress.StartupImpact.Compare.NoiseHint>Los tiempos varían de una ejecución a otra, a veces en segundos. Lo más probable es que un cambio sea real solo si aparece cada vez que comparas ejecuciones con y sin él.</LoadingProgress.StartupImpact.Compare.NoiseHint>
+  <!-- EN: These sessions ran with different mod lists, so their times are not directly comparable. -->
+  <LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>Estas sesiones se ejecutaron con listas de mods distintas, así que sus tiempos no se pueden comparar directamente.</LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>
+  <!-- EN: The mods were loaded in a different order. -->
+  <LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>Los mods se cargaron en otro orden.</LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>
+  <!-- EN: &apos;Time other mods&apos; Harmony patches separately&apos; differs between these sessions. It moves time out of the steps the patches ran in and onto the mods they belong to, so per-mod and per-step changes can be moves rather than costs. -->
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>«Medir por separado los parches de Harmony de otros mods» es distinto entre estas sesiones. Saca tiempo de los pasos en que se ejecutaron los parches y lo pasa a los mods a los que pertenecen, así que los cambios por mod y por paso pueden ser traslados y no costos.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>
+  <!-- EN: At least one of these sessions was saved before Loading Progress recorded whether Harmony patches were timed separately. -->
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>Al menos una de estas sesiones se guardó antes de que Loading Progress registrara si los parches de Harmony se medían por separado.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>
+  <!-- EN: Only one of these sessions was timed to the main menu, so their startup times cover different spans. Compare their loading times instead. -->
+  <LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>Solo una de estas sesiones se midió hasta el menú principal, así que sus tiempos de inicio cubren tramos distintos. Compara mejor sus tiempos de carga.</LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>
 </LanguageData>
