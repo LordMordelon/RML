@@ -39,7 +39,15 @@ public static class ModListFormatos
                 ? $"<a href=\"{WebUtility.HtmlEncode(Steam)}\">{Nombre}</a>"
                 : Nombre;
             if (Fila.PosiblementeAtrasada)
+            {
                 Mod += " <span class=\"atrasada\">posiblemente atrasada</span>";
+                if (Fila.WorkshopID is { } ID)
+                    Mod += $" <a class=\"revisar\" href=\"{WebUtility.HtmlEncode(EnlaceRevisado(ID, Fila))}\">marcar como revisada</a>";
+            }
+            else if (Fila.Revisada)
+            {
+                Mod += $" <span class=\"revisada\" title=\"La actualización del {Fila.Actualizacion} se revisó y no cambiaba la traducción.\">revisada</span>";
+            }
 
             string Buscar = WebUtility.HtmlEncode($"{Fila.Nombre} {Fila.PackageID}".ToLowerInvariant());
             string Atrasada = Fila.PosiblementeAtrasada ? " data-atrasada" : "";
@@ -52,6 +60,7 @@ public static class ModListFormatos
         }
 
         int Atrasadas = Filas.Count(Fila => Fila.PosiblementeAtrasada);
+        int Revisadas = Filas.Count(Fila => Fila.Revisada);
 
         var Pagina = $$"""
             <!doctype html>
@@ -105,6 +114,10 @@ public static class ModListFormatos
             td.fecha { white-space: nowrap; font-variant-numeric: tabular-nums; }
             .atrasada { display: inline-block; margin-left: 4px; padding: 0 7px; border-radius: 999px; font-size: .75em;
               white-space: nowrap; background: var(--aviso-fondo); color: var(--aviso-texto); }
+            .revisada { display: inline-block; margin-left: 4px; padding: 0 7px; border-radius: 999px; font-size: .75em;
+              white-space: nowrap; border: 1px solid var(--borde); color: var(--suave); cursor: help; }
+            .revisar { display: none; margin-left: 6px; font-size: .75em; white-space: nowrap; }
+            .revisando .revisar { display: inline; }
             .vacio { padding: 24px 14px; text-align: center; color: var(--suave); }
             footer { margin-top: 20px; }
             @media (max-width: 640px) {
@@ -123,6 +136,7 @@ public static class ModListFormatos
             <ul class="leyenda">
             <li><strong>Última actualización:</strong> cuándo el autor actualizó el mod en Steam.</li>
             <li><strong>Última traducción:</strong> el último cambio de su traducción. Si es anterior a la actualización del mod, la fila lleva la etiqueta <span class="atrasada">posiblemente atrasada</span> ({{Atrasadas}} en total).</li>
+            <li>Si esa actualización ya se revisó y no cambiaba nada que traducir, la etiqueta pasa a <span class="revisada">revisada</span> ({{Revisadas}} en total). Las fechas de Steam se consultan cada día.</li>
             </ul>
 
             <div class="controles" hidden>
@@ -201,6 +215,9 @@ public static class ModListFormatos
               encabezados.forEach(th => th.querySelector("button").addEventListener("click", () => ordenar(th)));
               buscar.addEventListener("input", filtrar);
               soloAtrasadas.addEventListener("change", filtrar);
+              // Con ?revisar en la direccion aparecen los enlaces para marcar una actualizacion
+              // como revisada. Son para el dueño del repo: a nadie mas le sirven.
+              if (new URLSearchParams(location.search).has("revisar")) document.body.classList.add("revisando");
               document.querySelector(".controles").hidden = false;
               filtrar();
             })();
@@ -213,5 +230,17 @@ public static class ModListFormatos
         // este .cs segun como se clono. Con LF fijo, en la CI (Windows, checkout con CRLF) git
         // marcaba la pagina como cambiada sin que hubiera nada que commitear.
         return Pagina.ReplaceLineEndings();
+    }
+
+    /** El issue nuevo que marca como revisada la actualizacion de un mod. revisado.yml lo lee
+     *  por el titulo: tiene que empezar con «Revisado: » y el WorkshopID.
+     */
+    private static string EnlaceRevisado(string WorkshopID, FilaDeModList Fila)
+    {
+        string Titulo = $"Revisado: {WorkshopID} {Fila.Nombre}";
+        string Cuerpo = $"La actualización del {Fila.Actualizacion} en Steam de {Fila.Nombre} no cambiaba nada que traducir.\n\n"
+                        + "Al crear este issue, GitHub lo anota en Revisados.tsv, actualiza la página y lo cierra.";
+        return "https://github.com/LordMordelon/RML/issues/new"
+               + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}";
     }
 }

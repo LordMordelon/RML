@@ -22,7 +22,11 @@ using YamlDotNet.Serialization.NamingConventions;
 //
 // -copia comprueba lo mismo y, si esta bien, arma la copia liviana en output/ (ver
 // CopiaLimpia.cs). Lo usa 02-armar-copia-limpia.cmd. -build tambien la arma, al final.
-var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
+//
+// -pagina solo reescribe ModList.tsv y docs/index.html, con las fechas de Steam del momento.
+// Lo usa pagina-diaria.yml para que la pagina siga a Steam aunque nadie toque Data/: no
+// escribe LoadFolders.xml, About.xml ni output/, que no dependen de Steam.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or "-pagina");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -42,7 +46,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     if (Comando is "-copia")
         StopProgram(Rutas.Informar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
 
-    if (Comando is "-build") goto StartBuild;
+    if (Comando is "-build" or "-pagina") goto StartBuild;
 
     Console.WriteLine("\nEscribe '-build' para empezar.");
 
@@ -100,7 +104,14 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
     Console.WriteLine("\e[32mDependencias de carga armadas...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
-    
+
+    if (Comando is "-pagina")
+    {
+        EscribirListaDeMods(FilteredRules);
+        Console.WriteLine("\e[32mTerminado\x1b[0m");
+        StopProgram();
+    }
+
     // 로드 구문을 작성하기 위한 최종 형태를 완성합니다.
     Stopwatch.Restart();
     LoadRack MainRack = new LoadRack(Statics.BuildVersions!);
@@ -128,17 +139,9 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
         Console.WriteLine("\e[32mLoadFolders.xml escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
         
-        // 참고용으로 쓸 ModList.tsv 파일을 작성합니다.
-        // Y la misma lista como docs/index.html (la pagina de GitHub Pages, con links a Steam,
-        // que se ordena y se filtra).
         Stopwatch.Restart();
-        var ModList = FilteredRules.ExportModList();
-        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), ModListFormatos.Tsv(ModList));
-        Directory.CreateDirectory(Path.Combine(Statics.RootPath!, "docs"));
-        File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", "index.html"), ModListFormatos.Html(ModList));
-
+        EscribirListaDeMods(FilteredRules);
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
-        Console.WriteLine("\e[32mModList.tsv y docs/index.html escritos...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
         // El forceLoadAfter de About.xml, para que RML cargue despues de cada mod que traduce.
         Stopwatch.Restart();
@@ -166,6 +169,19 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia");
     }
     
     StopProgram();
+}
+
+// 참고용으로 쓸 ModList.tsv 파일을 작성합니다.
+// Y la misma lista como docs/index.html (la pagina de GitHub Pages, con links a Steam,
+// que se ordena y se filtra).
+void EscribirListaDeMods(BuildRules Reglas)
+{
+    var Cronometro = Stopwatch.StartNew();
+    var ModList = Reglas.ExportModList();
+    File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), ModListFormatos.Tsv(ModList));
+    Directory.CreateDirectory(Path.Combine(Statics.RootPath!, "docs"));
+    File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", "index.html"), ModListFormatos.Html(ModList));
+    Console.WriteLine("\e[32mModList.tsv y docs/index.html escritos...{0:F3}s\x1b[0m", Cronometro.Elapsed.TotalSeconds);
 }
 
 void StopProgram(int Codigo = 0)

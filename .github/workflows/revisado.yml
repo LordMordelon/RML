@@ -1,0 +1,103 @@
+name: Anotar una actualización revisada
+
+# Cuando el dueño del repo abre un issue «Revisado: <WorkshopID> ...» (el enlace «marcar como
+# revisada» de la página, que aparece con ?revisar en la dirección), anota en Revisados.tsv la
+# fecha de Steam de ese mod, vuelve a publicar la página y cierra el issue.
+#
+# Es para el caso de un mod que se actualizó en Steam sin cambiar nada que traducir: la
+# reextracción no deja diff, no hay commit nuevo y la etiqueta «posiblemente atrasada» se
+# quedaba para siempre. Ver Source/LoadFoldersBuilder/Revisados.cs.
+#
+# Un issue de otra persona con ese título no hace nada: queda abierto, a la vista.
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  anotar:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'Revisado:')
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: write
+
+    outputs:
+      commit: ${{ steps.anotar.outputs.commit }}
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v7
+        with:
+          ref: master
+
+      - name: Anotar la revisión
+        id: anotar
+        shell: bash
+        env:
+          # Por variable y no dentro del script: el título lo escribe una persona, y metido
+          # directo en el bash podría ejecutarse.
+          TITULO: ${{ github.event.issue.title }}
+          NUMERO: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          responder() {
+            gh api "repos/$REPO/issues/$NUMERO/comments" -f body="$1" > /dev/null
+          }
+
+          if [[ ! "$TITULO" =~ ^Revisado:\ *([0-9]+) ]]; then
+            responder "No encontré el WorkshopID en el título. Tiene que empezar con «Revisado: » y el número del mod."
+            exit 1
+          fi
+          id="${BASH_REMATCH[1]}"
+
+          nombre=$(awk -F'\t' -v id="$id" '$1 == id { print $2; exit }' ModList.tsv)
+          if [ -z "$nombre" ]; then
+            responder "El mod $id no está en ModList.tsv: no es uno de los que traduce RML."
+            exit 1
+          fi
+
+          # La fecha de Steam de este momento, la misma que usa la página.
+          segundos=$(curl -sf --max-time 30 -d itemcount=1 -d "publishedfileids[0]=$id" \
+            https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/ \
+            | jq -r '.response.publishedfiledetails[0].time_updated // empty')
+          if [ -z "$segundos" ]; then
+            responder "Steam no devolvió la fecha de actualización de $nombre. Vuelve a intentarlo más tarde."
+            exit 1
+          fi
+          fecha=$(date -u -d "@$segundos" +%F)
+
+          # Una línea por mod: si ya estaba, se reemplaza. Ordenado por WorkshopID, para que el
+          # diff muestre solo la línea que cambió.
+          {
+            head -n 1 Revisados.tsv
+            { tail -n +2 Revisados.tsv | awk -F'\t' -v id="$id" '$1 != id'; printf '%s\t%s\t%s\n' "$id" "$fecha" "$nombre"; } | sort -t "$(printf '\t')" -k1,1
+          } > Revisados.nuevo
+          mv Revisados.nuevo Revisados.tsv
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Revisados.tsv
+          if git diff --cached --quiet; then
+            responder "$nombre ya estaba marcado como revisado en la actualización del $fecha."
+          else
+            git commit -m "Revisados: $nombre, actualización del $fecha en Steam"
+            # Si entre el clon y el push llegó otro commit, se pone encima y se reintenta.
+            git push || { git pull --rebase && git push; }
+            responder "Anotado: la actualización del $fecha de $nombre queda como revisada. La página se actualiza en unos minutos."
+          fi
+
+          gh api -X PATCH "repos/$REPO/issues/$NUMERO" -f state=closed -f state_reason=completed > /dev/null
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publicar:
+    needs: anotar
+    uses: ./.github/workflows/pagina-diaria.yml
+    with:
+      ref: ${{ needs.anotar.outputs.commit }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

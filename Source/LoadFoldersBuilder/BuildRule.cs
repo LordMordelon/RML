@@ -259,6 +259,7 @@ public class BuildRules
         var Actualizaciones = ActualizacionesSteam.Consultar(Rules.Values
             .Select(Rule => Rule.WorkshopID)
             .Where(ID => !string.IsNullOrEmpty(ID))!);
+        var Revisiones = Revisados.Leer(Statics.RootPath!);
 
         foreach (var Pair in Rules)
         {
@@ -276,8 +277,9 @@ public class BuildRules
 
             string Actualizacion = string.IsNullOrEmpty(Rule.WorkshopID) ? "" : Actualizaciones.GetValueOrDefault(Rule.WorkshopID, "");
             string Traduccion = Traducciones.GetValueOrDefault(Carpeta, "");
+            string Revisado = string.IsNullOrEmpty(Rule.WorkshopID) ? "" : Revisiones.GetValueOrDefault(Rule.WorkshopID, "");
 
-            ExportList.TryAdd(hash, new FilaDeModList(Rule.WorkshopID, ModName, RelativeLocation, Rule.RepresentativePID, Actualizacion, Traduccion));
+            ExportList.TryAdd(hash, new FilaDeModList(Rule.WorkshopID, ModName, RelativeLocation, Rule.RepresentativePID, Actualizacion, Traduccion, Revisado));
         }
 
         // De la traduccion mas reciente a la mas antigua, que es lo que interesa ver primero.
@@ -294,12 +296,20 @@ public class BuildRules
 }
 
 /** Un mod de la lista, con lo que se escribe en ModList.tsv y docs/index.html. */
-public record FilaDeModList(string? WorkshopID, string Nombre, string Carpeta, string PackageID, string Actualizacion, string Traduccion)
+public record FilaDeModList(string? WorkshopID, string Nombre, string Carpeta, string PackageID, string Actualizacion, string Traduccion, string Revisado = "")
 {
     public string? Steam => string.IsNullOrEmpty(WorkshopID) ? null : $"https://steamcommunity.com/sharedfiles/filedetails/?id={WorkshopID}";
 
     /** El mod se actualizo en Steam despues del ultimo cambio de su traduccion. */
-    public bool PosiblementeAtrasada => Actualizacion.Length > 0 && Traduccion.Length > 0 && string.CompareOrdinal(Actualizacion, Traduccion) > 0;
+    private bool ActualizadoDespues => Actualizacion.Length > 0 && Traduccion.Length > 0 && string.CompareOrdinal(Actualizacion, Traduccion) > 0;
+
+    /** Actualizado despues de la traduccion, y esa actualizacion todavia no se reviso. Una
+     *  revision vieja no cuenta: si Steam trae una fecha mas nueva, hay algo nuevo que mirar.
+     */
+    public bool PosiblementeAtrasada => ActualizadoDespues && string.CompareOrdinal(Actualizacion, Revisado) > 0;
+
+    /** Actualizado despues de la traduccion, pero ya se reviso y no habia nada que cambiar. */
+    public bool Revisada => ActualizadoDespues && !PosiblementeAtrasada;
 }
 
 public enum BindingMode

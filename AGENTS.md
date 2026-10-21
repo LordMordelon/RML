@@ -35,6 +35,7 @@ Data/
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
+Revisados.tsv                   actualizaciones de Steam ya revisadas que no cambiaban la traducción (ver abajo). Lo escribe revisado.yml
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
@@ -45,7 +46,8 @@ CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
-.github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió)
+.github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),
+                                pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión)
 ```
 
 Y cada carpeta de mod, por dentro:
@@ -162,6 +164,25 @@ los que no están instalados quedan como están.
    `[FSF]` como clase de caracteres y saltea esas carpetas: usar `os.walk`.
 
 9. **`extractor.log` no se versiona.** Está en `.gitignore`. Es el log de cada corrida.
+
+## La página de mods sigue a Steam
+
+`pagina-diaria.yml` corre todos los días: rearma `docs/index.html` con `LoadFoldersBuilder -pagina`
+y lo publica en GitHub Pages **sin commitear**. Por eso la página puede tener fechas de Steam más
+nuevas que el `docs/` de `master`, y está bien: el de `master` se pone al día en el próximo push
+que toque `Data/`.
+
+Un mod actualizado en Steam después de su última traducción lleva la etiqueta «posiblemente
+atrasada». Si la actualización no cambiaba nada que traducir, la reextracción no deja diff y la
+etiqueta no se iría nunca. Para eso está `Revisados.tsv`: WorkshopID, la fecha de Steam revisada
+y el nombre. Con esa fecha anotada la fila dice «revisada»; si el mod se vuelve a actualizar, la
+fecha de Steam pasa a ser más nueva y la etiqueta vuelve sola.
+
+Se marca desde la página abierta con `?revisar` al final de la dirección
+(`https://lordmordelon.github.io/RML/?revisar`): cada fila atrasada muestra «marcar como
+revisada», que abre un issue ya escrito. Al crearlo, `revisado.yml` anota la fecha, republica la
+página y cierra el issue. Solo actúa con issues del dueño del repo; también se puede editar el
+archivo a mano.
 
 ## Antes de commitear: mirar el diff
 

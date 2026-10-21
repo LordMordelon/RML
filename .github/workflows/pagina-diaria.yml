@@ -1,0 +1,93 @@
+name: Actualizar la página con las fechas de Steam
+
+# Rearma la página de mods con las fechas de Steam del momento y la publica, aunque nadie haya
+# tocado Data/. Sin esto la fecha de Steam de cada mod, y con ella la etiqueta «posiblemente
+# atrasada», solo se ponía al día cuando llegaba una traducción.
+#
+# No commitea nada: la página se publica directo desde lo que arma el builder. El docs/ de
+# master queda con las fechas del último push que lo regeneró, y eso no importa, porque es esta
+# página la que se ve. Así no hay un commit del bot por día.
+#
+# GitHub pausa los flujos programados de un repo que pasa 60 días sin actividad. Si la página
+# deja de seguir a Steam, ese es el motivo: se reanuda con cualquier push, o desde la pestaña
+# Actions.
+
+on:
+  schedule:
+    # Todos los días a las 09:00 UTC (06:00 en Chile).
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+  # Lo llama revisado.yml después de anotar una revisión, con el commit que la anotó.
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit a publicar
+        type: string
+        required: true
+
+jobs:
+  armar:
+    # windows-latest por lo mismo que loadfolders.yml: el builder arma la ruta del About.xml
+    # con la barra invertida cableada y en Linux no encuentra nada.
+    runs-on: windows-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      # Con el historial completo: la fecha de cada traducción sale del último commit que tocó
+      # el mod, y con el clon superficial todos quedarían con la fecha del último commit.
+      - name: Clonar el repositorio
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+          fetch-depth: 0
+
+      - name: Preparar .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Rearmar la página
+        run: dotnet run --project Source/LoadFoldersBuilder -c Release -- -pagina
+
+      # A otro trabajo, en Linux, que es donde se empaqueta para Pages.
+      - name: Guardar docs/
+        uses: actions/upload-artifact@v7
+        with:
+          name: pagina
+          path: docs
+          retention-days: 1
+
+  publicar:
+    needs: armar
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    # El mismo grupo que pages.yml: si los dos publican a la vez, el segundo espera.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+
+    environment:
+      name: github-pages
+      url: ${{ steps.desplegar.outputs.page_url }}
+
+    steps:
+      - name: Traer docs/
+        uses: actions/download-artifact@v8
+        with:
+          name: pagina
+          path: docs
+
+      - name: Empaquetar docs/
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+      - name: Publicar
+        id: desplegar
+        uses: actions/deploy-pages@v5
