@@ -115,7 +115,7 @@ public static class UltimosCambios
     }
 
     /** Corre git en Directorio y devuelve las lineas de su salida, o null si fallo. */
-    private static List<string>? Git(string Directorio, params string[] Argumentos)
+    internal static List<string>? Git(string Directorio, params string[] Argumentos)
     {
         try
         {

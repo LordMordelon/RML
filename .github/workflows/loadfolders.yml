@@ -45,6 +45,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Las revisiones de la página viven en su propia rama (ver Revisados.cs). Sin ellas la
+      # página que se commitea aquí volvería a marcar como atrasados los mods ya revisados.
+      - name: Traer las revisiones
+        shell: bash
+        run: git fetch --no-tags origin "+refs/heads/revisados:refs/remotes/origin/revisados" || true
+
       - name: Preparar .NET
         uses: actions/setup-dotnet@v6
         with:

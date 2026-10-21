@@ -35,7 +35,6 @@ Data/
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
-Revisados.tsv                   actualizaciones de Steam ya revisadas que no cambiaban la traducción (ver abajo). Lo escribe revisado.yml
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
@@ -178,11 +177,16 @@ etiqueta no se iría nunca. Para eso está `Revisados.tsv`: WorkshopID, la fecha
 y el nombre. Con esa fecha anotada la fila dice «revisada»; si el mod se vuelve a actualizar, la
 fecha de Steam pasa a ser más nueva y la etiqueta vuelve sola.
 
+`Revisados.tsv` vive en la rama `revisados`, que no tiene nada más, y no en `master`: cada marca
+es un commit, y en `master` llenarían el historial de las traducciones. El builder lo lee de
+`origin/revisados` con `git show`, así que en local alcanza con un `git pull` o `git fetch`; sin
+la rama, la página sale igual, sin revisiones. No se trabaja en esa rama a mano: no comparte
+historia con `master` y no se une nunca.
+
 Se marca desde la página abierta con `?revisar` al final de la dirección
 (`https://lordmordelon.github.io/RML/?revisar`): cada fila atrasada muestra «marcar como
 revisada», que abre un issue ya escrito. Al crearlo, `revisado.yml` anota la fecha, republica la
-página y cierra el issue. Solo actúa con issues del dueño del repo; también se puede editar el
-archivo a mano.
+página y cierra el issue. Solo actúa con issues del dueño del repo.
 
 ## Antes de commitear: mirar el diff
 

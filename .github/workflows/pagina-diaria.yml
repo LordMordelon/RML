@@ -17,7 +17,7 @@ on:
     # Todos los días a las 09:00 UTC (06:00 en Chile).
     - cron: '0 9 * * *'
   workflow_dispatch:
-  # Lo llama revisado.yml después de anotar una revisión, con el commit que la anotó.
+  # Lo llama revisado.yml después de anotar una revisión en su rama, con ref: master.
   workflow_call:
     inputs:
       ref:
@@ -42,6 +42,12 @@ jobs:
         with:
           ref: ${{ inputs.ref || github.sha }}
           fetch-depth: 0
+
+      # Las revisiones viven en su propia rama (ver Revisados.cs). Se trae aparte por si el
+      # clon no la incluye; sin ella la página sale igual, sin las revisiones.
+      - name: Traer las revisiones
+        shell: bash
+        run: git fetch --no-tags origin "+refs/heads/revisados:refs/remotes/origin/revisados" || true
 
       - name: Preparar .NET
         uses: actions/setup-dotnet@v6

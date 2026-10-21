@@ -4,6 +4,9 @@ name: Anotar una actualización revisada
 # revisada» de la página, que aparece con ?revisar en la dirección), anota en Revisados.tsv la
 # fecha de Steam de ese mod, vuelve a publicar la página y cierra el issue.
 #
+# Revisados.tsv vive en la rama «revisados», que no tiene nada más: cada marca es un commit, y
+# en master llenarían el historial de las traducciones.
+#
 # Es para el caso de un mod que se actualizó en Steam sin cambiar nada que traducir: la
 # reextracción no deja diff, no hay commit nuevo y la etiqueta «posiblemente atrasada» se
 # quedaba para siempre. Ver Source/LoadFoldersBuilder/Revisados.cs.
@@ -23,17 +26,20 @@ jobs:
       contents: write
       issues: write
 
-    outputs:
-      commit: ${{ steps.anotar.outputs.commit }}
-
     steps:
-      - name: Clonar el repositorio
+      - name: Clonar la rama de las revisiones
         uses: actions/checkout@v7
         with:
-          ref: master
+          ref: revisados
+
+      # El nombre de cada mod sale de la lista de master.
+      - name: Traer la lista de mods
+        shell: bash
+        run: |
+          git fetch --depth=1 --no-tags origin master
+          git show FETCH_HEAD:ModList.tsv > ModList.tsv
 
       - name: Anotar la revisión
-        id: anotar
         shell: bash
         env:
           # Por variable y no dentro del script: el título lo escribe una persona, y metido
@@ -85,18 +91,18 @@ jobs:
           else
             git commit -m "Revisados: $nombre, actualización del $fecha en Steam"
             # Si entre el clon y el push llegó otro commit, se pone encima y se reintenta.
-            git push || { git pull --rebase && git push; }
+            git push origin HEAD:revisados || { git pull --rebase origin revisados && git push origin HEAD:revisados; }
             responder "Anotado: la actualización del $fecha de $nombre queda como revisada. La página se actualiza en unos minutos."
           fi
 
           gh api -X PATCH "repos/$REPO/issues/$NUMERO" -f state=closed -f state_reason=completed > /dev/null
-          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+  # La página se arma desde master, que trae la revisión nueva desde su rama.
   publicar:
     needs: anotar
     uses: ./.github/workflows/pagina-diaria.yml
     with:
-      ref: ${{ needs.anotar.outputs.commit }}
+      ref: master
     permissions:
       contents: read
       pages: write
