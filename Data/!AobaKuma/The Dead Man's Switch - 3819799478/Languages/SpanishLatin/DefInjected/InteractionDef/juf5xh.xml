@@ -32,36 +32,36 @@
   <!-- EN: order-&gt;identify [RECIPIENT_objective]self -->
   <!-- EN: order-&gt;leave the installation -->
   <DMS_GravekeeperChallengeTalk.logRulesInitiator.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] [challenged] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [demanded] [credential] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le ordenó a [RECIPIENT_nameDef] que [order].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [scanned] a [RECIPIENT_nameDef] y no encontró [credential].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le cerró el paso a [RECIPIENT_nameDef] y le exigió explicaciones.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] le recitó a [RECIPIENT_nameDef] un protocolo de seguridad de hace siglos.</li>
+    <li>challenged(p=3)-&gt;le dio el alto</li>
+    <li>challenged-&gt;detuvo e interrogó</li>
+    <li>challenged-&gt;interrogó</li>
+    <li>challenged-&gt;detuvo</li>
+    <li>challenged-&gt;interrogó con severidad</li>
+    <li>challenged-&gt;le hizo un control de seguridad</li>
+    <li>demanded(p=3)-&gt;exigió</li>
+    <li>demanded-&gt;pidió</li>
+    <li>demanded-&gt;insistió en ver</li>
+    <li>demanded-&gt;solicitó</li>
+    <li>credential-&gt;la autorización</li>
+    <li>credential-&gt;el código de acceso</li>
+    <li>credential-&gt;la identificación</li>
+    <li>credential-&gt;el pase de seguridad</li>
+    <li>credential-&gt;la designación de unidad</li>
+    <li>credential-&gt;el permiso</li>
+    <li>scanned-&gt;escaneó</li>
+    <li>scanned-&gt;le pasó un sensor por encima</li>
+    <li>scanned-&gt;revisó</li>
+    <li>order-&gt;se detuviera</li>
+    <li>order-&gt;no se moviera</li>
+    <li>order-&gt;se retirara</li>
+    <li>order-&gt;explicara a qué venía</li>
+    <li>order-&gt;se identificara</li>
+    <li>order-&gt;abandonara la instalación</li>
   </DMS_GravekeeperChallengeTalk.logRulesInitiator.rulesStrings>
 </LanguageData>
