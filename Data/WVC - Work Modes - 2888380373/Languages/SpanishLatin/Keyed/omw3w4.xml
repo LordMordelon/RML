@@ -84,6 +84,10 @@ Allows you to specify to the mechanoid what colonist it will escort.
   <WVC_WorkModes_DormantModeStatPart>En modo de apagado x{0}%</WVC_WorkModes_DormantModeStatPart>
   <!-- EN: shutdown -->
   <WVC_WM_ShutdownGroup>apagado</WVC_WM_ShutdownGroup>
+  <!-- EN: Allow shutdown -->
+  <WVC_WorkModes_AllowShutdownLabel>Permitir apagado</WVC_WorkModes_AllowShutdownLabel>
+  <!-- EN: Allows you to disable or enable shutdown for a specific mech. -->
+  <WVC_WorkModes_AllowShutdownDesc>Permite activar o desactivar el apagado de un meca en particular.</WVC_WorkModes_AllowShutdownDesc>
   <!-- EN: Work Modes -->
   <WVC_MMWM_Settings>Modos de Trabajo</WVC_MMWM_Settings>
   <!-- EN: Main -->
@@ -148,8 +152,8 @@ Allows you to specify to the mechanoid what colonist it will escort.
   <WVC_Label_enableShutdownSearching>Habilitar zonas de apagado de mecanoides</WVC_Label_enableShutdownSearching>
   <!-- EN: If enabled, mechanoids will search for a mechanoid shutdown zone before shutdown. -->
   <WVC_ToolTip_enableShutdownSearching>Si se habilita, los mecanoides buscarán una zona de apagado de mecanoides antes de apagarse.</WVC_ToolTip_enableShutdownSearching>
-  <!-- EN: Enable mechanoid hangar rooms (Beta) -->
-  <WVC_Label_enable_GoToShutdownRoomJob>Habilitar salas de hangar de mecanoides (Beta)</WVC_Label_enable_GoToShutdownRoomJob>
+  <!-- EN: Enable mechanoid hangar rooms -->
+  <WVC_Label_enable_GoToShutdownRoomJob>Habilitar salas de hangar de mecanoides</WVC_Label_enable_GoToShutdownRoomJob>
   <!-- EN: If enabled, all mechanoid chargers will create a new room type &quot;Mechanoid Hangar&quot;. Mechanoids will sleep there if there are no alternatives in the form of zones.
 
 Recommended when playing through gravships (Odyssey DLC), since the zones are reset when the ship flies.
@@ -196,4 +200,24 @@ Restart required! -->
   <WVC_WM_Label_enableAutoRepairByDefault>Auto-reparación activada por defecto</WVC_WM_Label_enableAutoRepairByDefault>
   <!-- EN: After spawning, automatically switches the mechanoid&apos;s auto-repair to true. -->
   <WVC_WM_ToolTip_enableAutoRepairByDefault>Después de aparecer, cambia automáticamente la auto-reparación del mecanoide a verdadero.</WVC_WM_ToolTip_enableAutoRepairByDefault>
+  <!-- EN: Enemy check delay {0} ticks -->
+  <WVC_WorkModes_EnemyCheckDelay>Intervalo de búsqueda de enemigos: {0} ticks</WVC_WorkModes_EnemyCheckDelay>
+  <!-- EN: Allows you to set the delay between checks for enemy presence on the map. Used in safe modes. 60 ticks = 1 second.
+
+Higher values ​​improve performance, but are detrimental to mechanoid responsiveness. -->
+  <WVC_WorkModes_EnemyCheckDelayDesc>Permite fijar cada cuánto se comprueba si hay enemigos en el mapa. Se usa en los modos seguros. 60 ticks = 1 segundo.\n\nLos valores más altos mejoran el rendimiento, pero los mecanoides reaccionan más tarde.</WVC_WorkModes_EnemyCheckDelayDesc>
+  <!-- EN: Opportunistic chargers -->
+  <WVC_Label_enableOpportunisticChargers>Carga oportunista</WVC_Label_enableOpportunisticChargers>
+  <!-- EN: If enabled, mechs heading for smart charging will track other mechs whose energy is below the group threshold and, if any, will interrupt smart charging, immediately heading to the shutdown spot, yielding the charger. -->
+  <WVC_ToolTip_enableOpportunisticChargers>Si está activado, los mecas que van a la carga inteligente vigilarán a los demás mecas con energía por debajo del umbral del grupo y, si hay alguno, interrumpirán la carga inteligente y se irán de inmediato al lugar de apagado para dejarle el cargador.</WVC_ToolTip_enableOpportunisticChargers>
+  <!-- EN: Enable mechs work tab -->
+  <WVC_Label_enableMechsWorkTab>Activar la pestaña de trabajo de mecas</WVC_Label_enableMechsWorkTab>
+  <!-- EN: If enabled, adds an additional tab that allows you to change the work priority of mechanoids.
+
+Restart required! -->
+  <WVC_ToolTip_enableMechsWorkTab>Si está activado, agrega una pestaña más para cambiar la prioridad de trabajo de los mecanoides.\n\n¡Hay que reiniciar el juego!</WVC_ToolTip_enableMechsWorkTab>
+  <!-- EN: Hide mechs work tab -->
+  <WVC_Label_hideMechsWorkTab>Ocultar la pestaña de trabajo de mecas</WVC_Label_hideMechsWorkTab>
+  <!-- EN: If enabled, the priorities tab will be moved to the mechanoid gizmos. -->
+  <WVC_ToolTip_hideMechsWorkTab>Si está activado, la pestaña de prioridades pasa a los botones del mecanoide.</WVC_ToolTip_hideMechsWorkTab>
 </LanguageData>
