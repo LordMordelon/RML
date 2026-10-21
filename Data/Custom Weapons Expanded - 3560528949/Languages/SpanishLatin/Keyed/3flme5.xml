@@ -20,8 +20,6 @@
   <CWE_UI_Recoil_Label>Retroceso</CWE_UI_Recoil_Label>
   <!-- EN: Sights Efficiency -->
   <CWE_UI_SightsEfficiency_Label>Eficiencia de la mira</CWE_UI_SightsEfficiency_Label>
-  <!-- EN: Aiming Accuracy -->
-  <CWE_UI_AimingAccuracy_Label>Precisión de puntería</CWE_UI_AimingAccuracy_Label>
   <!-- EN: Spread -->
   <CWE_UI_ShotSpread_Label>Dispersión</CWE_UI_ShotSpread_Label>
   <!-- EN: Weapon Sway -->
@@ -72,8 +70,6 @@
   <CWE_UI_TechDelta_Label>Máx. de niveles tecnológicos por encima de la facción: {0}</CWE_UI_TechDelta_Label>
   <!-- EN: Compatible modules for {0} -->
   <CWE_UI_Compat_Subtitle>Módulos compatibles con {0}</CWE_UI_Compat_Subtitle>
-  <!-- EN: Show all modules compatible with this weapon. -->
-  <CWE_UI_Compat_Tip>Muestra todos los módulos compatibles con esta arma.</CWE_UI_Compat_Tip>
   <!-- EN: Search modules… -->
   <CWE_UI_Search_Placeholder>Buscar módulos…</CWE_UI_Search_Placeholder>
   <!-- EN: Search by:\n• Module name (for example: extended barrel)\n• Weapon part or slot (for example: barrel, grip or magazine)\n• Effect or stat name (for example: range, accuracy or recoil)\n• Stat value (for example: 15)\n\nPartial words are accepted. Enter multiple words to require every term to match, even when they occur in different fields. Capitalization, accents and punctuation are ignored. -->
@@ -142,34 +138,14 @@
   <CWE_AutoStyleModuleUnavailable>Ninguna ideología de la colonia tiene este estilo.</CWE_AutoStyleModuleUnavailable>
   <!-- EN: Lantern anchor check interval ({0}) -->
   <CWE_UI_Lantern_interval>Intervalo de comprobación del anclaje de la linterna ({0})</CWE_UI_Lantern_interval>
-  <!-- EN: Module: {0} -->
-  <CWE_NiceBillTab_ModuleStatLabel>Módulo: {0}</CWE_NiceBillTab_ModuleStatLabel>
-  <!-- EN: Ability: {0} -->
-  <CWE_NiceBillTab_AbilityStatLabel>Habilidad: {0}</CWE_NiceBillTab_AbilityStatLabel>
-  <!-- EN: Underbarrel: {0} -->
-  <CWE_NiceBillTab_UnderbarrelStatLabel>Bajo el cañón: {0}</CWE_NiceBillTab_UnderbarrelStatLabel>
-  <!-- EN: {0} applies this modifier after it is installed on a weapon. Conditional effects may vary depending on the target weapon. -->
-  <CWE_NiceBillTab_ModuleStatsTooltip>{0} aplica este modificador una vez instalado en un arma. Los efectos condicionales pueden variar según el arma de destino.</CWE_NiceBillTab_ModuleStatsTooltip>
-  <!-- EN: {0} provides these underbarrel weapon stats after it is installed. -->
-  <CWE_NiceBillTab_UnderbarrelStatsTooltip>{0} otorga estas estadísticas de arma bajo el cañón una vez instalado.</CWE_NiceBillTab_UnderbarrelStatsTooltip>
-  <!-- EN: Cost to reload -->
-  <CWE_NiceBillTab_CostToReloadLabel>Coste de recarga</CWE_NiceBillTab_CostToReloadLabel>
-  <!-- EN: Compatible ammunition -->
-  <CWE_NiceBillTab_CompatibleAmmoLabel>Munición compatible</CWE_NiceBillTab_CompatibleAmmoLabel>
-  <!-- EN: Material ({0}, by {1}): effect strength {2} -->
-  <CWE_ModuleMaterialEffect>Material ({0}, por {1}): potencia del efecto {2}</CWE_ModuleMaterialEffect>
-  <!-- EN: Material: {0} -->
-  <CWE_ModuleMaterialSummary>Material: {0}</CWE_ModuleMaterialSummary>
-  <!-- EN: The displayed range depends on the material selected when crafting. -->
-  <CWE_NiceBillTab_MaterialRangeTooltip>El rango mostrado depende del material seleccionado al fabricarlo.</CWE_NiceBillTab_MaterialRangeTooltip>
-  <!-- EN: Values calculated using the selected material: {0}. -->
-  <CWE_NiceBillTab_SelectedMaterialTooltip>Valores calculados con el material seleccionado: {0}.</CWE_NiceBillTab_SelectedMaterialTooltip>
-  <!-- EN: Base values are displayed until a material is selected. -->
-  <CWE_NiceBillTab_BaseMaterialValueTooltip>Se muestran los valores base hasta que se selecciona un material.</CWE_NiceBillTab_BaseMaterialValueTooltip>
+  <!-- EN: Maximum heat -->
+  <CWE_UI_MaxHeat_Label>Calor máximo</CWE_UI_MaxHeat_Label>
+  <!-- EN: Heat cooling -->
+  <CWE_UI_HeatCooling_Label>Enfriamiento del calor</CWE_UI_HeatCooling_Label>
+  <!-- EN: Thermal reset time -->
+  <CWE_UI_HeatResetTime_Label>Tiempo de reinicio térmico</CWE_UI_HeatResetTime_Label>
   <!-- EN: Extra attributes -->
   <CWE_Extras_Header>Atributos adicionales</CWE_Extras_Header>
-  <!-- EN: Details -->
-  <CWE_Extras_Details>Detalles</CWE_Extras_Details>
   <!-- EN: Source: {0} -->
   <CWE_Extras_Sources>Origen: {0}</CWE_Extras_Sources>
   <!-- EN: Ability -->
@@ -195,4 +171,74 @@
   <CWE_DPS_ZeroCycle>DPS = 0 (la duración del ciclo es cero o negativa).</CWE_DPS_ZeroCycle>
   <!-- EN: Excludes magazine reload time and hit chance. -->
   <CWE_DPS_Note>No incluye el tiempo de recarga del cargador ni la probabilidad de acierto.</CWE_DPS_Note>
+  <!-- EN: Module: {0} -->
+  <CWE_NiceBillTab_ModuleStatLabel>Módulo: {0}</CWE_NiceBillTab_ModuleStatLabel>
+  <!-- EN: Ability: {0} -->
+  <CWE_NiceBillTab_AbilityStatLabel>Habilidad: {0}</CWE_NiceBillTab_AbilityStatLabel>
+  <!-- EN: Underbarrel: {0} -->
+  <CWE_NiceBillTab_UnderbarrelStatLabel>Bajo el cañón: {0}</CWE_NiceBillTab_UnderbarrelStatLabel>
+  <!-- EN: {0} applies this modifier after it is installed on a weapon. Conditional effects may vary depending on the target weapon. -->
+  <CWE_NiceBillTab_ModuleStatsTooltip>{0} aplica este modificador una vez instalado en un arma. Los efectos condicionales pueden variar según el arma de destino.</CWE_NiceBillTab_ModuleStatsTooltip>
+  <!-- EN: {0} provides these underbarrel weapon stats after it is installed. -->
+  <CWE_NiceBillTab_UnderbarrelStatsTooltip>{0} otorga estas estadísticas de arma bajo el cañón una vez instalado.</CWE_NiceBillTab_UnderbarrelStatsTooltip>
+  <!-- EN: Cost to reload -->
+  <CWE_NiceBillTab_CostToReloadLabel>Coste de recarga</CWE_NiceBillTab_CostToReloadLabel>
+  <!-- EN: Compatible ammunition -->
+  <CWE_NiceBillTab_CompatibleAmmoLabel>Munición compatible</CWE_NiceBillTab_CompatibleAmmoLabel>
+  <!-- EN: Material ({0}, by {1}): effect strength {2} -->
+  <CWE_ModuleMaterialEffect>Material ({0}, por {1}): potencia del efecto {2}</CWE_ModuleMaterialEffect>
+  <!-- EN: Material: {0} -->
+  <CWE_ModuleMaterialSummary>Material: {0}</CWE_ModuleMaterialSummary>
+  <!-- EN: Values calculated using the selected material: {0}. -->
+  <CWE_NiceBillTab_SelectedMaterialTooltip>Valores calculados con el material seleccionado: {0}.</CWE_NiceBillTab_SelectedMaterialTooltip>
+  <!-- EN: Base values are displayed until a material is selected. -->
+  <CWE_NiceBillTab_BaseMaterialValueTooltip>Se muestran los valores base hasta que se selecciona un material.</CWE_NiceBillTab_BaseMaterialValueTooltip>
+  <!-- EN: Apply -->
+  <CWE_CeleTech_Apply>Aplicar</CWE_CeleTech_Apply>
+  <!-- EN: Camouflage -->
+  <CWE_CeleTech_CamoTitle>Camuflaje</CWE_CeleTech_CamoTitle>
+  <!-- EN: No camouflage -->
+  <CWE_CeleTech_NoCamo>Sin camuflaje</CWE_CeleTech_NoCamo>
+  <!-- EN: No unlocked compatible camouflages are available. -->
+  <CWE_CeleTech_NoAvailableCamos>No hay camuflajes compatibles desbloqueados.</CWE_CeleTech_NoAvailableCamos>
+  <!-- EN: Weapon camouflage applied to {0}. -->
+  <CWE_CeleTech_CamoComplete>Se aplicó el camuflaje de arma a {0}.</CWE_CeleTech_CamoComplete>
+  <!-- EN: Weapon stats -->
+  <CWE_CeleTech_StatsTitle>Estadísticas del arma</CWE_CeleTech_StatsTitle>
+  <!-- EN: Weapon stats are temporarily unavailable. Check the log for details. -->
+  <CWE_CeleTech_StatsUnavailable>Las estadísticas del arma no están disponibles por el momento. Revisa el registro para ver los detalles.</CWE_CeleTech_StatsUnavailable>
+  <!-- EN: No modules in nearby accessory cabinets. -->
+  <CWE_CeleTech_NoModules>No hay módulos en los armarios de accesorios cercanos.</CWE_CeleTech_NoModules>
+  <!-- EN:  (installed) -->
+  <CWE_CeleTech_Installed> (instalado)</CWE_CeleTech_Installed>
+  <!-- EN: The selected module {0} is no longer available in a nearby accessory cabinet. -->
+  <CWE_CeleTech_MissingModule>El módulo seleccionado {0} ya no está en ningún armario de accesorios cercano.</CWE_CeleTech_MissingModule>
+  <!-- EN: A selected module could not be transferred from its accessory cabinet. -->
+  <CWE_CeleTech_TransferFailed>No se pudo sacar uno de los módulos seleccionados de su armario de accesorios.</CWE_CeleTech_TransferFailed>
+  <!-- EN: Module modification completed for {0}. -->
+  <CWE_CeleTech_Complete>Se terminó de modificar los módulos de {0}.</CWE_CeleTech_Complete>
+  <!-- EN: Use a CeleTech bench to modify {0}. -->
+  <CWE_CeleTech_UseBench>Usa una mesa de CeleTech para modificar {0}.</CWE_CeleTech_UseBench>
+  <!-- EN: General -->
+  <CWE_UI_Tab_General>General</CWE_UI_Tab_General>
+  <!-- EN: CeleTech -->
+  <CWE_UI_Tab_CeleTech>CeleTech</CWE_UI_Tab_CeleTech>
+  <!-- EN: Choose which compatible weapons pawns can modify and which weapons the CeleTech bench accepts. -->
+  <CWE_UI_CeleTechCompatibility_Desc>Elige qué armas compatibles pueden modificar los colonos y qué armas acepta la mesa de CeleTech.</CWE_UI_CeleTechCompatibility_Desc>
+  <!-- EN: Weapons pawns can modify -->
+  <CWE_UI_CeleTech_PawnMode_Label>Armas que pueden modificar los colonos</CWE_UI_CeleTech_PawnMode_Label>
+  <!-- EN: When set to All compatible weapons, CWF-compatible non-CeleTech weapons can also be modified at the CeleTech bench if its weapon setting allows them. -->
+  <CWE_UI_CeleTech_PawnMode_Desc>Con «Todas las armas compatibles», las armas compatibles con CWF que no son de CeleTech también se pueden modificar en la mesa de CeleTech, si su ajuste de armas lo permite.</CWE_UI_CeleTech_PawnMode_Desc>
+  <!-- EN: All compatible weapons -->
+  <CWE_UI_CeleTech_Pawn_All>Todas las armas compatibles</CWE_UI_CeleTech_Pawn_All>
+  <!-- EN: No pawn modifications -->
+  <CWE_UI_CeleTech_Pawn_Disabled>Los colonos no modifican armas</CWE_UI_CeleTech_Pawn_Disabled>
+  <!-- EN: Weapons accepted by the CeleTech bench -->
+  <CWE_UI_CeleTech_BenchMode_Label>Armas que acepta la mesa de CeleTech</CWE_UI_CeleTech_BenchMode_Label>
+  <!-- EN: Controls which compatible weapons can be selected at CeleTech benches. -->
+  <CWE_UI_CeleTech_BenchMode_Desc>Controla qué armas compatibles se pueden elegir en las mesas de CeleTech.</CWE_UI_CeleTech_BenchMode_Desc>
+  <!-- EN: All compatible weapons -->
+  <CWE_UI_CeleTech_Bench_All>Todas las armas compatibles</CWE_UI_CeleTech_Bench_All>
+  <!-- EN: CeleTech weapons only -->
+  <CWE_UI_CeleTech_Bench_CeleTechOnly>Solo armas de CeleTech</CWE_UI_CeleTech_Bench_CeleTechOnly>
 </LanguageData>
