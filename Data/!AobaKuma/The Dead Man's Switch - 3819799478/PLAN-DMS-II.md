@@ -47,8 +47,8 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 6 y las reglas de gramática del 7 hechos; sigue el resto del 7 |
-| 5 | Verificar y probar en partida | chica | pendiente |
+| 4 | Traducir lo nuevo | grande | hecha (20-oct-2026, sesión 6) |
+| 5 | Verificar y probar en partida | chica | comprobaciones y `-build` hechos; falta la partida de Angel |
 
 ### 1. Reparar lo dañado
 
@@ -161,32 +161,33 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 - Sesiones 2 y 3: `ThingDef` y el resto de la etapa 4 (unos 700 renglones por sesión).
 - Sesión 4: lo que quede, y la etapa 5.
 
-## Próxima sesión (20-oct-2026, después de la sesión 5)
+## Próxima sesión (20-oct-2026, después de la sesión 6)
 
-**Objetivo:** terminar la etapa 4 (el resto del punto 7) y hacer la etapa 5.
+**Objetivo:** arreglar lo que Angel encuentre al probar en partida y cerrar el plan.
 
-**Estado:** en la sesión 5 se tradujo todo el punto 6 (ideología, 105 renglones) y las reglas de gramática
-del 7 (`RulePackDef` 99 e `InteractionDef` 32). Sus términos están en «sesión 5» de `GLOSARIO-DMS.md`.
-Todo en RML `master`, en local (último commit, el de esta nota); se sube cuando Angel lo diga. Las tres
-comprobaciones del diff salen vacías en lo de esta sesión. Quedan 141 `TODO` en `DefInjected`, contados por
-renglón, y ninguno en `Keyed`. Sin cambios a medias.
+**Estado:** la etapa 4 está terminada: no queda ningún `TODO` salvo `DMS_AMO_Beast.description`, cuyo inglés
+también dice «TODO». La sesión 6 tradujo los 142 renglones del punto 7 y 10 de `Patches/`, comparó las
+etiquetas con la traducción oficial (4 términos corregidos) y resolvió tres de los «Pendientes» del glosario.
+Todo anotado en «sesión 6» de `GLOSARIO-DMS.md`. Las tres comprobaciones del diff contra `cef2dd5` (antes de la
+etapa 4) salen bien: la 2 y la 3 vacías, y la 1 muestra solo correcciones a propósito. `-build` corrido: el
+juego ya carga lo nuevo. Todo en RML `master`, en local; se sube cuando Angel lo diga. Sin cambios a medias.
 
-Ojo: el commit `69f278d` de otra sesión (el cambio a «tejeenjambres», pedido por Angel) se llevó también 26
-renglones de `ThoughtDef` de esta. El contenido está bien; solo quedaron en ese commit.
-
-**Antes de empezarla (Angel):** nada. Si ya probaste en el juego, anota lo raro en el mensaje.
+**Antes de empezarla (Angel):**
+1. Abrir RimWorld 1.7 con el mod The Dead Man's Switch II y RML.
+2. Mirar la pestaña de investigación del mod, un automatroide (su ficha y sus partes del cuerpo), el síndrome
+   del miembro xeno en un colono con prótesis y una misión del mod.
+3. Anotar lo que se vea raro: texto en inglés, en el lugar equivocado o que no se entienda.
 
 **Al empezar (Claude):**
-1. El resto del punto 7, 141 renglones en 27 tipos: `PawnKindDef` 21, `DesignatorDropdownGroupDef` 19,
-   `BackstoryDef` 18, `SongDef` 10, `FactionDef` 10 y 22 tipos de 1 a 6 renglones. Un commit por tramo de
-   unos 40. Cabe en la sesión, con la etapa 5 (estimado).
-2. Comparar con la traducción oficial los términos que existen en el juego. Los `.tar` de idioma de Core y de
-   los cinco DLC sí están en `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\`; se abren con
-   `tar --force-local -xf` hacia la carpeta temporal.
-3. Etapa 5: las tres comprobaciones del diff contra el commit en que empezó la etapa 4 y
-   `dotnet run --project Source/LoadFoldersBuilder -c Release -- -build`. Después, la prueba en partida de Angel.
+1. Corregir lo que anote Angel. Si no anota nada, la etapa 5 queda hecha.
+2. Decidir con Angel las etiquetas con mayúscula inicial (último punto de «Pendientes» del glosario): son unas
+   40 (contadas a ojo con un `grep`; algunas, como facciones y conceptos, quizá deban quedar así).
+3. Marcar el plan como terminado y preguntar si se sube RML.
 
-**Decisiones de Angel:** ninguna prevista.
+**Decisiones de Angel:**
+1. Las mayúsculas iniciales: recomiendo pasar a minúscula solo los nombres de cosas (partes del cuerpo,
+   automatroides, hediffs) y dejar facciones, conceptos y permisos como están.
+2. Subir RML a GitHub: recomiendo hacerlo después de la partida de prueba.
 
 **Guías:** ninguna (no hay tarea de GitHub). Al cerrar, `traspaso`.
 

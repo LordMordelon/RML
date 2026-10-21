@@ -96,7 +96,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | shaped charge / HE-frag | **carga hueca** / **explosivo de fragmentación** | |
 | slug / buckshot / flechette | **posta** / **perdigones** / **flechette** | «posta de goma» ya estaba aprobada |
 | dragon's breath | **aliento de dragón** | |
-| firefoam | **espuma ignífuga** | |
+| firefoam | **espuma cortafuego** | Oficial. Decía «espuma ignífuga» hasta la sesión 6 |
 | EMP | **EMP** | Sin traducir, como en el resto de RML |
 | Legacy remnant | **remanentes del Legado** | |
 | exostrider | **exoandador** | |
@@ -200,6 +200,35 @@ Los grados de los preceptos siguen a la traducción oficial de Ideology, en masc
 (pelotón, compañía). Sale «Compañía de Intendencia de Vanguardia n.º 21» o «Sección 152 de Logística
 Orbital de la Flota». Por lo mismo, los adjetivos van como complemento invariable («de Avanzada»).
 
+## Términos nuevos del II (sesión 6, el resto de los tipos)
+
+Los marcados «oficial» salen de comparar las etiquetas del mod con la traducción oficial (los `.tar`
+de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra cosa se corrigieron.
+
+| Inglés | Español | Notas |
+|---|---|---|
+| visual sensor | **sensor de visión** | Oficial. El ojo protésico `DMS_ProstheticEye` y la parte del cubo de basura |
+| crew member | **miembro de tripulación** | Oficial (Odyssey) |
+| Call aerodrone strike / salvo | **Solicitar ataque aéreo** / **Solicitar ataque aéreo múltiple** | Oficial. Los permisos `DMS_CallOrbitalStrike` y `DMS_CallOrbitalSalvo` |
+| butcher bird / cannon bird | **alcaudón** / **alcaudón cañón** | Los `PawnKindDef` del lanius (el alcaudón es el pájaro *Lanius*). El `ThingDef` dice «lanius» |
+| fleet colony | **colonia de la flota** | La facción `DMS_Colony` |
+| think tank | **centro de estudios** | |
+| Operator Greysia | **Operadora Greysia** | La narradora |
+| Occultech (pestaña) / Expeditional Knowledge | **Tecnología oculta** / **Conocimiento expedicionario** | La pestaña de investigación |
+| restricted / sealed / occulted | **restringido** / **sellado** / **oculto** | Categorías de conocimiento, en masculino como el «básico» oficial |
+| muzzle / tube / flabellum | **boca del cañón** / **tubo** / **flabelo** | Partes con que se golpea (`tools`) |
+| server racks | **racks de servidores** | |
+| freight elevators | **ascensores de carga** | |
+
+**Se dejan como estaban**, aunque la oficial diga otra cosa: «lanzadera» (shuttle; la oficial dice
+«transbordador», pero manda el glosario general), «EMP» (ver la sesión 2), «proyectil de alto
+explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la munición de mortero) y
+«venerado» (el «sagrado» oficial es el del animal venerado, otro contexto).
+
+**No se traducen**: los `shaderProgram.sceneGrab.name` de `ShaderDef`, que son nombres de shader. Se
+copian igual que el `EN:`. Y `DMS_AMO_Beast.description` queda en `TODO` porque el inglés del mod
+también dice «TODO»: el autor no le escribió descripción.
+
 ## Automatroides
 
 | Inglés | Español | | Inglés | Español |
@@ -224,13 +253,13 @@ Orbital de la Flota». Por lo mismo, los adjetivos van como complemento invariab
 ## Pendientes
 
 Inconsistencias que ya estaban en las traducciones. No se corrigieron en las etapas 1 a 3
-porque cambian textos que el plan no tocaba; van con la etapa 4 o se deciden con Angel.
+porque cambian textos que el plan no tocaba.
 
-- **«ancho de banda» en 8 lugares**, contra «banda ancha» en 6. El glosario general dice
-  «banda ancha» y prohíbe «ancho de banda»: es una corrección, no hace falta decidirla. Incluye
-  el hediff «Supported Bandwidth», hoy «ancho de banda orbital».
-- **«autómata» en 3 lugares** (`DMS_Platoon_AC.description`, la categoría «Mods de autómatas» y
-  una regla de `DMS_UAVBasis`): va «automatroide». El de `DMS_Recharger` ya se corrigió.
-- **«Mechaneural neurochord» está como «neurocordón biomecánico»**, no «mecaneural».
+Hechas en la sesión 6: «ancho de banda» pasó a «banda ancha» en los 8 lugares, «autómata» a
+«automatroide» en `DMS_Platoon_AC` y la categoría de mods, y el neurocordón quedó «mecaneural». La
+regla «autómatas de la guerra» de `DMS_UAVBasis` se dejó: ahí el inglés dice «automata».
+
+Falta:
+
 - **Las etiquetas con mayúscula inicial** (`Tarbosaurio`, `Cabeza mecánica`, `Pierna izquierda`):
   RimWorld pone la mayúscula solo cuando hace falta, así que van en minúscula.
