@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 5 hechos; siguen el 6 (ideología) y el 7 (el resto) |
+| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 6 y las reglas de gramática del 7 hechos; sigue el resto del 7 |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -161,30 +161,30 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 - Sesiones 2 y 3: `ThingDef` y el resto de la etapa 4 (unos 700 renglones por sesión).
 - Sesión 4: lo que quede, y la etapa 5.
 
-## Próxima sesión (20-oct-2026, después de la sesión 4)
+## Próxima sesión (20-oct-2026, después de la sesión 5)
 
-**Objetivo:** etapa 4, punto 6 (ideología) y, del 7, las reglas de gramática que quedan, a mano.
+**Objetivo:** terminar la etapa 4 (el resto del punto 7) y hacer la etapa 5.
 
-**Estado:** en la sesión 4 se tradujeron `QuestScriptDef` (140 renglones) y `TaleDef` (124), y sus
-términos quedaron en «sesión 4» de `GLOSARIO-DMS.md`. Todo en RML `master`, en local (último commit, el
-de esta nota); se sube cuando Angel lo diga. Las tres comprobaciones del diff salen vacías. Quedan 378
-`TODO` en `DefInjected`, contados por renglón. Sin cambios a medias.
+**Estado:** en la sesión 5 se tradujo todo el punto 6 (ideología, 105 renglones) y las reglas de gramática
+del 7 (`RulePackDef` 99 e `InteractionDef` 32). Sus términos están en «sesión 5» de `GLOSARIO-DMS.md`.
+Todo en RML `master`, en local (último commit, el de esta nota); se sube cuando Angel lo diga. Las tres
+comprobaciones del diff salen vacías en lo de esta sesión. Quedan 141 `TODO` en `DefInjected`, contados por
+renglón, y ninguno en `Keyed`. Sin cambios a medias.
 
-**Antes de empezarla (Angel):** nada. Si ya probaste en el juego las misiones o los relatos, anota lo
-raro en el mensaje.
+Ojo: el commit `69f278d` de otra sesión (el cambio a «tejeenjambres», pedido por Angel) se llevó también 26
+renglones de `ThoughtDef` de esta. El contenido está bien; solo quedaron en ese commit.
+
+**Antes de empezarla (Angel):** nada. Si ya probaste en el juego, anota lo raro en el mensaje.
 
 **Al empezar (Claude):**
-1. Punto 6, 105 renglones: `ThoughtDef` (40), `PreceptDef` (24), `MemeDef` (22), `HistoryEventDef`
-   (15) e `IssueDef` (4). Un commit por tramo de unos 40.
-2. Del punto 7, primero las reglas de gramática: `RulePackDef` (99) e `InteractionDef` (32). El símbolo
-   y el «->» quedan como en el `EN:`; la comprobación 3 tiene que salir vacía.
-3. Si sobra tiempo, el resto del punto 7: 142 renglones en 28 tipos (`PawnKindDef` 21,
-   `DesignatorDropdownGroupDef` 19, `BackstoryDef` 18, `SongDef` 10, `FactionDef` 10 y 23 tipos chicos).
-   Los 236 de los pasos 1 y 2 seguramente llenan la sesión (estimado): lo que no quepa queda para la
-   sesión 6, junto con la etapa 5.
-4. Comparar con la traducción oficial los términos que existen en el juego (los `.tar` de
-   `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\`). Ojo: hay campos que no se traducen
-   y se copian igual que el `EN:` (ver «Cómo se arman las reglas de gramática» en el glosario).
+1. El resto del punto 7, 141 renglones en 27 tipos: `PawnKindDef` 21, `DesignatorDropdownGroupDef` 19,
+   `BackstoryDef` 18, `SongDef` 10, `FactionDef` 10 y 22 tipos de 1 a 6 renglones. Un commit por tramo de
+   unos 40. Cabe en la sesión, con la etapa 5 (estimado).
+2. Comparar con la traducción oficial los términos que existen en el juego. Los `.tar` de idioma de Core y de
+   los cinco DLC sí están en `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\`; se abren con
+   `tar --force-local -xf` hacia la carpeta temporal.
+3. Etapa 5: las tres comprobaciones del diff contra el commit en que empezó la etapa 4 y
+   `dotnet run --project Source/LoadFoldersBuilder -c Release -- -build`. Después, la prueba en partida de Angel.
 
 **Decisiones de Angel:** ninguna prevista.
 

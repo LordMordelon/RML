@@ -173,6 +173,33 @@ Las fórmulas de las cartas salen de la traducción oficial (los `.tar` de Core 
   variables, ni el `type` de los relatos (`Volatile`, `PermanentHistorical`), que es un valor del
   juego. Se copian igual que el `EN:`.
 
+## Términos nuevos del II (sesión 5, ideología y reglas de gramática)
+
+Los grados de los preceptos siguen a la traducción oficial de Ideology, en masculino como allá
+(«aborrecible», «prohibido», «necesario», «aceptable»), y los sucesos van en pasado y tercera persona
+(«comió comida sintetizada»), como «comió en el suelo».
+
+| Inglés | Español | Notas |
+|---|---|---|
+| venerated / strict / casual / contemptuous | **venerado** / **estricto** / **informal** / **desdeñoso** | Grados de los preceptos |
+| military formality / military operations | **formalidad militar** / **operaciones militares** | Asuntos de ideología |
+| sealed technology / synthetic life | **tecnología sellada** / **vida sintética** | Asuntos de ideología |
+| chain of command | **cadena de mando** | El meme |
+| ceremony observed / failed | **ceremonia cumplida** / **ceremonia fallida** | |
+| operation completed / failed | **operación cumplida** / **operación fallida** | |
+| member court-martialed | **un miembro fue a consejo de guerra** | |
+| call in fire (support) | **pedir fuego** / **pedir apoyo de fuego** | |
+| synthesized food | **comida sintetizada** | |
+| gestation pod / reaction chamber | **cápsula de gestación** / **cámara de reacción** | |
+| training establishment | **centro de formación** | Como en `QuestScriptDef` |
+| provost | **policía militar** | En las cartas. En el meme, el moralista es «preboste» |
+| challenge (centinela) | **dar el alto** | La interacción del guardatumbas |
+
+**Nombre de la unidad del contrato de suministro** (`DMS_SupplyChainIssuer`): el ordinal inglés
+(«21st») pasa a número con «n.º», porque en español el ordinal cambia con el género de la unidad
+(pelotón, compañía). Sale «Compañía de Intendencia de Vanguardia n.º 21» o «Sección 152 de Logística
+Orbital de la Flota». Por lo mismo, los adjetivos van como complemento invariable («de Avanzada»).
+
 ## Automatroides
 
 | Inglés | Español | | Inglés | Español |
