@@ -48,6 +48,10 @@
   <SAR_RescueAll_Result>Búsqueda y rescate: se marcaron {0} individuos.</SAR_RescueAll_Result>
   <!-- EN: Search and rescue -->
   <SAR_Command_Label>Búsqueda y rescate</SAR_Command_Label>
+  <!-- EN: Join field rescue -->
+  <SAR_MechResponder_Label>Unirse al rescate</SAR_MechResponder_Label>
+  <!-- EN: Assign this mech to Search and Rescue. Medical mechs stabilize and evacuate casualties; hauling mechs deliver medical supplies and evacuate casualties. Uses enabled native work types and follows work modes, energy needs, allowed areas and player orders. -->
+  <SAR_MechResponder_Desc>Asigna este meca a Búsqueda y rescate. Los mecas médicos estabilizan y evacúan a los heridos; los mecas de transporte entregan suministros médicos y evacúan a los heridos. Usa los tipos de trabajo propios que tenga activados y respeta los modos de trabajo, las necesidades de energía, las zonas permitidas y las órdenes del jugador.</SAR_MechResponder_Desc>
   <!-- EN: By default, marks every applicable stage in the safe order: capture, field treatment, then rescue. Right-click to choose a single stage or configure the rescue point. -->
   <SAR_Command_Desc>Por defecto, marca todas las etapas aplicables en el orden seguro: captura, tratamiento de campo y, por último, rescate. Haz clic derecho para elegir una sola etapa o configurar el punto de rescate.</SAR_Command_Desc>
   <!-- EN: All: capture + treat + rescue -->
@@ -100,8 +104,8 @@
   <SAR_Settings_Category>Search and Rescue</SAR_Settings_Category>
   <!-- EN: Rescue workforce -->
   <SAR_Settings_RescueWorkMode>Personal de rescate</SAR_Settings_RescueWorkMode>
-  <!-- EN: Hauling uses Hauling work. Nursing preferred prioritizes Nurse Job workers, with haulers filling in. Nursing only uses Nursing work. Enable the work type required by your chosen mode for each responder. -->
-  <SAR_Settings_RescueWorkMode_Desc>Transporte usa el trabajo de Transporte. Preferir enfermería da prioridad a los trabajadores de Nurse Job, con transportistas como refuerzo. Solo enfermería usa el trabajo de Enfermería. Activa en cada socorrista el tipo de trabajo que requiere el modo elegido.</SAR_Settings_RescueWorkMode_Desc>
+  <!-- EN: Hauling uses Hauling work. Nursing preferred prioritizes nurses from Nurse Job or FSF Complex Jobs, with haulers filling in. Nursing only uses the active mod&apos;s nursing work. Enable the work type required by your chosen mode for each responder. -->
+  <SAR_Settings_RescueWorkMode_Desc>Transporte usa el trabajo de Transporte. Preferir enfermería da prioridad a los enfermeros de Nurse Job o FSF Complex Jobs, con transportistas como refuerzo. Solo enfermería usa el trabajo de enfermería del mod activo. Activa en cada socorrista el tipo de trabajo que requiere el modo elegido.</SAR_Settings_RescueWorkMode_Desc>
   <!-- EN: Hauling -->
   <SAR_Settings_RescueWorkMode_Hauling>Transporte</SAR_Settings_RescueWorkMode_Hauling>
   <!-- EN: Nursing preferred, hauling fallback -->
@@ -120,8 +124,8 @@
   <SAR_Settings_MedicalCoordinationMode_AllTending>Coordinar toda la atención normal</SAR_Settings_MedicalCoordinationMode_AllTending>
   <!-- EN: Nurse Job detected. Nursing rescue modes are available. -->
   <SAR_Settings_NurseDetected>Nurse Job detectado. Los modos de rescate con enfermería están disponibles.</SAR_Settings_NurseDetected>
-  <!-- EN: Enable Nurse Job to use nursing rescue modes. Hauling is available with the current mod setup. -->
-  <SAR_Settings_NurseNotDetected>Activa Nurse Job para usar los modos de rescate con enfermería. Con los mods actuales está disponible Transporte.</SAR_Settings_NurseNotDetected>
+  <!-- EN: Enable Nurse Job or FSF Complex Jobs to use nursing rescue modes. Hauling is available with the current mod setup. -->
+  <SAR_Settings_NurseNotDetected>Activa Nurse Job o FSF Complex Jobs para usar los modos de rescate con enfermería. Con los mods actuales está disponible Transporte.</SAR_Settings_NurseNotDetected>
   <!-- EN: General -->
   <SAR_Settings_Tab_General>General</SAR_Settings_Tab_General>
   <!-- EN: Triage &amp; logistics -->
@@ -274,6 +278,10 @@
   <SAR_Compatibility_VehicleFramework>Los vehículos del jugador detenidos y accesibles aportan su carga para botiquines y entregas. Para subir pacientes y atenderlos dentro del vehículo, usa las acciones del vehículo y de los mods relacionados.</SAR_Compatibility_VehicleFramework>
   <!-- EN: Offers hauling, nurse-preferred, and nurse-only rescue modes. Supportive interventions use Nursing with doctors as fallback where appropriate. -->
   <SAR_Compatibility_NurseJob>Ofrece los modos de rescate Transporte, Preferir enfermería y Solo enfermería. Las intervenciones de apoyo usan Enfermería, con médicos como reserva cuando corresponde.</SAR_Compatibility_NurseJob>
+  <!-- EN: Reads the Nurse work priority for nursing rescue modes and supportive care. Ordinary tending uses Doctor. -->
+  <SAR_Compatibility_ComplexJobs>Lee la prioridad del trabajo Enfermería para los modos de rescate con enfermería y los cuidados de apoyo. La atención médica normal usa Médico.</SAR_Compatibility_ComplexJobs>
+  <!-- EN: Work selection batches containing SAR tasks run serially to preserve rescue assignments and resource ownership. Other work batches retain parallel scanning. -->
+  <SAR_Compatibility_YaOpt>Las tandas de selección de trabajo que incluyen tareas de SAR se ejecutan en serie, para conservar las asignaciones de rescate y la reserva de recursos. Las demás tandas siguen buscando en paralelo.</SAR_Compatibility_YaOpt>
   <!-- EN: Reads SAR child priorities. More Injuries CPR, airway management, defibrillation and doctor transfusions also require the corresponding native child work. Nursing remains a separate authorization. -->
   <SAR_Compatibility_WorkTab>Lee las prioridades de las subtareas de SAR. La RCP, el manejo de la vía aérea, la desfibrilación y las transfusiones de médico de More Injuries también requieren la subtarea propia correspondiente. Enfermería sigue siendo una autorización aparte.</SAR_Compatibility_WorkTab>
   <!-- EN: Reads colony-mech detailed work settings when deciding which battlefield lanes a mech may enter. -->
