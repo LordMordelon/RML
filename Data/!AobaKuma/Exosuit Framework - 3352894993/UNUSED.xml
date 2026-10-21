@@ -1,8 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnusedTranslations>
+  <entry class="JobDef" node="WG_LoadWildcardAmmo.reportString" original="loading wildcard ammo for TargetA.">cargando munición comodín para TargetA.</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Activated">{0} activado</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AddMixAmmo">+ Añadir tipo de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AddSlot">+ Añadir ranura</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AlreadyUsed">(en uso)</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AmmoStatus">{0}: {1} / {2}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AmmoTip">{0}\nMasa: {1} kg\nCapacidad máxima: {2}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_AvailableAmmo">Munición disponible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Cancel">Cancelar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ClearType">Borrar tipo</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorBlue">Azul</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorGray">Gris</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorGreen">Verde</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorLegend">Leyenda de colores de munición:</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorOrange">Naranja</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorRed">Rojo</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ColorYellow">Amarillo</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_CurrentRatio">Proporción actual: {0}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Delete">Eliminar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_DeletePresetConfirm">¿Eliminar el preajuste "{0}"?</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_EditorTitle">Editor de almacenamiento de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Eject">Expulsar munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Global">Global</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_HeavyPack">Mochila pesada</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_LightBox">Caja de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Load">Cargar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_LoadPreset">Cargar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_MainPack">Mochila</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ManagePresets">Gestionar preajustes...</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_ManagePresetsTitle">Gestionar preajustes de mezcla</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_MixMode">Cinta mezclada</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_MixModeBtn">Mezcla</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_MixRatio">Proporción: {0}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_MixStatus">Mezclada: {0} / {1}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoAmmoAvailable">No hay munición disponible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoAmmoSelected">No hay munición seleccionada</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoCompatibleAmmoSet">No hay ningún conjunto de munición compatible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoMixConfig">No hay ninguna mezcla configurada</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoMoreAmmo">No hay más munición disponible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoPresetManager">El gestor de preajustes no está disponible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoPresets">No hay preajustes guardados</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NormalMode">Normal</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoSearchResult">No hay resultados coincidentes</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoWeapon">No hay ningún arma compatible</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_NoWeaponModule">Sin módulo de arma</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_OtherAmmo">Otra munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_OtherAmmoSet">Otros conjuntos de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PendingSwitch">Pendiente: {0} (hay que descargar)</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetApplied">Se aplicó el preajuste "{0}"</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetApplyFailed">No se pudo aplicar el preajuste</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetDefault">Preajuste</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetEmpty">Preajuste vacío</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetName">Nombre:</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetNeedEmpty">(hace falta que esté vacía)</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetOverwrite">El preajuste "{0}" ya existe. ¿Sobrescribir?</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetSaved">Preajuste "{0}" guardado</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_PresetSaveFailed">No se pudo guardar el preajuste</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Rename">Renombrar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_RenameExists">El nombre ya existe</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Save">Guardar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SavePreset">Guardar</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SavePresetTitle">Guardar preajuste de mezcla</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SelectAmmo">Selecciona el tipo de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SelectAmmoSet">Seleccionar conjunto de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SelectAmmoSetFirst">Primero selecciona un conjunto de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_SelectType">Seleccionar...</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_Title">Mochila de munición</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WeaponAmmo">Munición del arma</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WeaponAmmoSet">Conjuntos de munición del arma</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WeaponModule">Módulo de arma: {0}</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WildcardEmpty">Comodín</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WildcardMode">Modo comodín\nCarga al azar cualquier munición del conjunto\nDispara munición aleatoria entre los tipos cargados</entry>
+  <entry class="Keyed" node="WG_AmmoBackpack_WildcardTypes">{0} tipos</entry>
+  <entry class="Keyed" node="WG_Blunt_CE">MPA</entry>
+  <entry class="Keyed" node="WG_Sharp_CE">mm RHA</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_AllowBackpack">Permitir alimentación desde la mochila</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_BackpackEnabled">Alimentación desde mochila: activada</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_Label">Munición de la torreta</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_NoAmmo">No hay munición cargada</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_NoAmmoSet">No hay ningún conjunto de munición configurado</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_NoCompatible">No hay tipos de munición compatibles</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_None">Ninguna</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_Selected">Munición:</entry>
+  <entry class="Keyed" node="WG_TurretAmmo_Status">{0}: {1}/{2}</entry>
   <entry class="PawnRenderTreeDef" node="Dummy.root.children.0.children.0.debugLabel" original="Apparel root">raíz de la vestimenta</entry>
   <entry class="PawnRenderTreeDef" node="Dummy.root.children.1.debugLabel" original="Head stump">muñón de la cabeza</entry>
   <entry class="PawnRenderTreeDef" node="Dummy.root.children.2.children.0.debugLabel" original="Apparel root">raíz de la vestimenta</entry>
   <entry class="ThingDef" node="Dummy.tools.left_fist.labelNoLocation" original="fist">puño</entry>
   <entry class="ThingDef" node="Dummy.tools.right_fist.labelNoLocation" original="fist">puño</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack_Heavy.description" original="A large belt-fed ammunition backpack module with double capacity.">Un módulo de mochila de munición grande alimentada por cinta, con el doble de capacidad.</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack_Heavy.label" original="heavy ammo backpack">mochila de munición pesada</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack_Light.description" original="A lightweight ammunition box mounted on the left arm.">Una caja de munición liviana montada en el brazo izquierdo.</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack_Light.label" original="compact ammo box">caja de munición compacta</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack.description" original="A belt-fed ammunition backpack module installed on an exosuit.">Un módulo de mochila de munición alimentada por cinta, instalado en un exotraje.</entry>
+  <entry class="ThingDef" node="MF_Apparel_AmmoBackpack.label" original="ammo backpack">mochila de munición</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack_Heavy.description" original="A large belt-fed ammunition backpack with double capacity. Occupies both the attachment slot and right shoulder mount. Not compatible with rockets, missiles, or grenades.">Una mochila de munición grande alimentada por cinta, con el doble de capacidad. Ocupa tanto la ranura de accesorio como el montaje del hombro derecho. No es compatible con cohetes, misiles ni granadas.</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack_Heavy.label" original="heavy ammo backpack module">módulo de mochila de munición pesada</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack_Light.description" original="A lightweight ammunition box mounted on the left arm. Smaller capacity but leaves the backpack slot free. Not compatible with rockets, missiles, or grenades.">Una caja de munición liviana montada en el brazo izquierdo. Tiene menor capacidad, pero deja libre la ranura de la mochila. No es compatible con cohetes, misiles ni granadas.</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack_Light.label" original="compact ammo box module">módulo de caja de munición compacta</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack.description" original="A belt-fed ammunition backpack that connects to compatible weapons, providing continuous ammo supply without manual reloading. Not compatible with rockets, missiles, or grenades.">Una mochila de munición alimentada por cinta que se conecta a armas compatibles y brinda suministro continuo de munición sin recarga manual. No es compatible con cohetes, misiles ni granadas.</entry>
+  <entry class="ThingDef" node="MF_Module_AmmoBackpack.label" original="ammo backpack module">módulo de mochila de munición</entry>
+  <entry class="WorkGiverDef" node="WG_LoadWildcardAmmo.gerund" original="loading wildcard ammo">cargando munición comodín</entry>
+  <entry class="WorkGiverDef" node="WG_LoadWildcardAmmo.label" original="load wildcard ammo at gantry">cargar munición comodín en el pórtico</entry>
+  <entry class="WorkGiverDef" node="WG_LoadWildcardAmmo.verb" original="load">cargar</entry>
 </UnusedTranslations>
