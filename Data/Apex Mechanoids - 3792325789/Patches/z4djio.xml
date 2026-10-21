@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Aegis"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left shield -->
+            <label>escudo izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Aegis"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right shield -->
+            <label>escudo derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Celerus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Celerus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Celerus"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_CelerusB"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_CelerusB"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_CelerusB"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_AR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_AR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_AR"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_DMR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_DMR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_DMR"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_SMG"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_SMG"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Conqueror_SMG"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Dominus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_DominusB"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Dynamo"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Frostivus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: front left leg -->
+            <label>pata delantera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Frostivus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: front right leg -->
+            <label>pata delantera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Frostivus"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Gazer"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Gazer"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: front left paw -->
+            <label>zarpa delantera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Gazer"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: front right paw -->
+            <label>zarpa delantera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Haze"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Haze"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: front left paw -->
+            <label>zarpa delantera izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Haze"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: front right paw -->
+            <label>zarpa delantera derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Ingestor"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Ingestor"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Javelin"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Lasher"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Lasher"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Lasher"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Mantis"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left blade -->
+            <label>cuchilla izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Mantis"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: left blade -->
+            <label>cuchilla izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Mantis"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: right blade -->
+            <label>cuchilla derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Mantis"]/tools/li[4]/label</xpath>
+          <value>
+            <!-- EN: right blade -->
+            <label>cuchilla derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Mantis"]/tools/li[5]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Maul"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Maul"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Maul"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Pulse"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Ravager"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Satellite"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Satellite"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Satellite"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Siren"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Siren"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Siren"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Terminus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Terminus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Terminus"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_TerminusB"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_TerminusB"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_TerminusB"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Tinker"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Tinker"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Tinker"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Vassal"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left fist -->
+            <label>puño izquierdo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Vassal"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right fist -->
+            <label>puño derecho</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Mech_Vassal"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_JavelinRocketLauncher"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Ravager_Artillery"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Haze_BeamGun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Haze_BeamGun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Solus"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Solus"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_AR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_AR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_DMR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_DMR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_SMG"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Conqueror_SMG"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_EMP_Impactor"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_EMP_Impactor"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Pulse_Shotgun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Pulse_Shotgun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Siren_ChargeEmitter"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Siren_ChargeEmitter"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Maul"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Vassal_SwordRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Gun_Vassal_SwordRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: blade -->
+            <label>hoja</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_DuelistsPsySpear"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_DuelistsPsySpear"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: blade -->
+            <label>hoja</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_DuelistsPsySpear"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_MechWhip"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: whip -->
+            <label>látigo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_PlasmaWhip"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: whip -->
+            <label>látigo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_SeveringBlade"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_SeveringBlade"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: blade -->
+            <label>hoja</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_SeveringBlade"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_Skipblade"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: handle -->
+            <label>empuñadura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_Skipblade"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="APM_Weapon_Skipblade"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: edge -->
+            <label>filo</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
