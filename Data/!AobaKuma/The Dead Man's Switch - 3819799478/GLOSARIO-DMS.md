@@ -16,7 +16,7 @@ halcón», «escuadras de ronin».
 | battle friend | **amigo de batalla** | El automatroide `DMS_Mech_BattleFrame` y la investigación. En la descripción de la investigación se dejan las dos formas en inglés con su traducción entre paréntesis, porque el chiste es que suenan parecido |
 | Dead Man's Switch | **Dead Man's Switch** | Nombre propio: no se traduce, ni como mecanismo |
 | Nara Industries | **Industrias Nara** | |
-| United Army Systems | **Sistemas del Ejército Unido** | Fabricante del tejedor de clústeres. Su modelo «Sakalava» queda como nombre propio. Pedido por Angel el 20-oct-2026 |
+| United Army Systems | **Sistemas del Ejército Unido** | Fabricante del tejeenjambres. Su modelo «Sakalava» queda como nombre propio. Pedido por Angel el 20-oct-2026 |
 | Colonial Fleet / colonial fleet | **Flota Colonial** / **flota colonial** | Con mayúscula cuando el inglés la usa como nombre propio |
 | Colonization Forces | **Fuerzas de colonización** | La facción `DMS_Army` |
 | Great Filter | **Gran Filtro** | |
@@ -61,7 +61,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | defector / deserter | **desertor** | Cuando el texto lo usa en vez de «deviant» |
 | gravekeeper | **guardatumbas** | Aprobado por Angel el 20-oct-2026. Invariable. El meca `DMS_Mech_Gravekeeper` |
 | occultech | **tecnología oculta** | Aprobado por Angel el 20-oct-2026. Coincide con «archivo de clase oculta» (occulted-class) de la sesión 1 |
-| cluster weaver | **tejedor de clústeres** | Aprobado por Angel el 20-oct-2026. El jefe `DMS_Mech_ClusterWeaver` |
+| cluster weaver | **tejeenjambres** | Aprobado por Angel el 20-oct-2026, en lugar de «tejedor de clústeres», que era largo. Invariable, como «guardatumbas». También cuando el inglés dice solo «weaver». El jefe `DMS_Mech_ClusterWeaver` |
 | crew lifter / mobile crew lifter | **elevador de tripulación** / **elevador de tripulación móvil** | Aprobado por Angel el 20-oct-2026. Sigue a «elevador escolta» |
 | crew pod | **cápsula de tripulación** | |
 | supply pod | **cápsula de suministros** | |
