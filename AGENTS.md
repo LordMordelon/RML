@@ -223,6 +223,11 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   [PLAN-COMBAT-EXTENDED.md](Data/Combat%20Extended%20-%202890901044/PLAN-COMBAT-EXTENDED.md). No se
   extienden a otros mods sin volver a preguntar.
 
+  En The Dead Man's Switch II, Angel aprobó otra el 20-oct-2026: las recetas (`RecipeDef`) y las
+  partes del cuerpo (`BodyDef`). Ahí el script no traduce: copia una tabla clave → traducción que
+  Angel revisó entera, y solo sobre `TODO`. Está en «Decisiones de Angel» de
+  [PLAN-DMS-II.md](Data/!AobaKuma/The%20Dead%20Man's%20Switch%20-%203819799478/PLAN-DMS-II.md).
+
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
 
