@@ -11,6 +11,14 @@
   <!-- EN: CeremonyFailedLetterText-&gt;[asker_nameFull] is disappointed by your failure to make for an enjoyable parade. [asker_pronoun] is leaving with [asker_possessive] guests. -->
   <!-- EN: CeremonyTimeoutLetterLabel-&gt;Parade failed -->
   <!-- EN: CeremonyTimeoutLetterText-&gt;[asker_nameFull] has grown tired of waiting for you to start the parade. [asker_pronoun] is leaving with [asker_possessive] guests. -->
+  <!-- EN: NoblesArriveLetterLabel-&gt;Parade nobles arriving -->
+  <!-- EN: NoblesArriveLetterText-&gt;[asker_nameFull] and the nobility for [stellarch_nameDef]&apos;s ascension parade are landing. Once they have gathered, select [asker_nameDef] to start the parade. They will not wait long. -->
+  <!-- EN: CountdownHostileLetterLabel-&gt;Parade called off -->
+  <!-- EN: CountdownHostileLetterText-&gt;The Empire will not send its nobility to a colony it is at war with. [stellarch_nameDef]&apos;s ascension parade is called off. -->
+  <!-- EN: CountdownAwayLetterLabel-&gt;Parade called off -->
+  <!-- EN: CountdownAwayLetterText-&gt;[asker_nameFull] waited a day for [stellarch_nameDef] to be at the colony to receive the nobility. The ascension parade is called off. -->
+  <!-- EN: CountdownThreatLetterLabel-&gt;Parade called off -->
+  <!-- EN: CountdownThreatLetterText-&gt;[asker_nameFull] waited a day for the danger at the colony to pass, and will not land the nobility into it. [stellarch_nameDef]&apos;s ascension parade is called off. -->
   <!-- EN: letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe]. -->
   <!-- EN: lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure -->
   <!-- EN: lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave] -->
@@ -48,6 +56,14 @@
     <li>CeremonyFailedLetterText-&gt;[asker_nameFull] está decepcionado por tu fracaso en hacer un desfile agradable. [asker_pronoun] se va con sus invitados.</li>
     <li>CeremonyTimeoutLetterLabel-&gt;Desfile fallido</li>
     <li>CeremonyTimeoutLetterText-&gt;[asker_nameFull] se ha cansado de esperar a que comiences el desfile. [asker_pronoun] se va con sus invitados.</li>
+    <li>NoblesArriveLetterLabel-&gt;Llegan los nobles del desfile</li>
+    <li>NoblesArriveLetterText-&gt;[asker_nameFull] y la nobleza del desfile de ascensión de [stellarch_nameDef] están aterrizando. Cuando se hayan reunido, selecciona a [asker_nameDef] para comenzar el desfile. No esperarán mucho.</li>
+    <li>CountdownHostileLetterLabel-&gt;Desfile suspendido</li>
+    <li>CountdownHostileLetterText-&gt;El Imperio no enviará a su nobleza a una colonia con la que está en guerra. Se suspende el desfile de ascensión de [stellarch_nameDef].</li>
+    <li>CountdownAwayLetterLabel-&gt;Desfile suspendido</li>
+    <li>CountdownAwayLetterText-&gt;[asker_nameFull] esperó un día a que [stellarch_nameDef] estuviera en la colonia para recibir a la nobleza. Se suspende el desfile de ascensión.</li>
+    <li>CountdownThreatLetterLabel-&gt;Desfile suspendido</li>
+    <li>CountdownThreatLetterText-&gt;[asker_nameFull] esperó un día a que pasara el peligro en la colonia y no hará aterrizar a la nobleza en medio de él. Se suspende el desfile de ascensión de [stellarch_nameDef].</li>
     <li>letterIntroArrested-&gt;Arrestaste a {SUBJECT_definite}, [oneOfThe].</li>
     <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrestado: Partida</li>
     <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
