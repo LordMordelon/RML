@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: `Keyed` y `ThingDef` hechos; sigue investigación y recetas |
+| 4 | Traducir lo nuevo | grande | en curso: `Keyed`, `ThingDef`, `ResearchProjectDef` y `RecipeDef` hechos; sigue el punto 4 (`BodyDef` por script) |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -161,28 +161,29 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 - Sesiones 2 y 3: `ThingDef` y el resto de la etapa 4 (unos 700 renglones por sesión).
 - Sesión 4: lo que quede, y la etapa 5.
 
-## Próxima sesión (20-oct-2026, después de la sesión 2)
+## Próxima sesión (20-oct-2026, después de la sesión 3)
 
-**Objetivo:** etapa 4, punto 3: `RecipeDef` (72 `TODO`) con el script aprobado, y `ResearchProjectDef`
-(42) a mano.
+**Objetivo:** etapa 4, punto 4: `BodyDef` (63 `TODO`) con el script aprobado, y `HediffDef` (45) y
+`AbilityDef` (13) a mano.
 
-**Estado:** `Keyed` y `ThingDef` terminados y subidos a RML `master` (último commit `70ac7c3`). Quedan
-937 `TODO` en `DefInjected` (contados por renglón el 20-oct-2026), entre ellos `BodyDef` 63, que también
-va por script. Los nombres nuevos están aprobados en `GLOSARIO-DMS.md`; los pronombres de persona se
-omiten a propósito (ver el glosario). Sin cambios a medias.
+**Estado:** `ResearchProjectDef` (42) y `RecipeDef` (72) terminados en RML `master`, en local (último
+commit, el de esta nota; sin subir hasta que Angel lo diga). Quedan 822 `TODO` en `DefInjected`, contados
+por renglón. Los términos de la sesión 3, varios sacados de la traducción oficial, están en
+`GLOSARIO-DMS.md`. Sin cambios a medias.
 
 **Antes de empezarla (Angel):** nada.
 
 **Al empezar (Claude):**
-1. Armar la tabla de las 72 recetas (inglés, traducción propuesta) siguiendo «ensamblar <automatroide>»
-   del glosario y el estilo de las 7 descripciones ya traducidas; mostrársela a Angel. No aplicar nada
-   hasta su «sí».
-2. Mientras Angel la revisa, `ResearchProjectDef` (42) a mano, un commit por tramo.
-3. Con el «sí», aplicar el script, anotar la excepción en «Editar XML de traducción» de `RML/AGENTS.md`
-   y correr las tres comprobaciones del diff. Cabe en una sesión; `BodyDef` queda para la siguiente.
+1. Armar la tabla de las 63 partes del cuerpo (inglés, propuesta), con los nombres oficiales de
+   RimWorld para lo que ya existe en vanilla (están en los `.tar` de `Data/*/Languages`) y el glosario
+   para lo del mod; mostrársela a Angel. No aplicar nada hasta su «sí».
+2. Mientras la revisa, `HediffDef` (45) y `AbilityDef` (13) a mano, un commit por tramo.
+3. Con el «sí», aplicar la tabla con el mismo script de las recetas: lee un `.tsv` clave → traducción,
+   comprueba que las claves sean exactamente los `TODO` del archivo y solo reemplaza esos. No quedó
+   guardado: se rehace en un rato. Correr las tres comprobaciones del diff. Cabe en una sesión.
 
-**Decisiones de Angel:** solo la tabla de recetas. Recomendación: aprobarla entera y corregir después
-en el juego lo que suene raro.
+**Decisiones de Angel:** solo la tabla de partes del cuerpo. Recomendación: aprobarla entera y corregir
+después en el juego lo que suene raro.
 
 **Guías:** ninguna (no hay tarea de GitHub). Al cerrar, `traspaso`.
 

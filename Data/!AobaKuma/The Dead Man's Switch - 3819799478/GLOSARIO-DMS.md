@@ -102,6 +102,31 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | key-card / access key | **tarjeta de acceso** | |
 | Pick up {0_label} / Decrypt {0_label} | **Recoger {0_label}** / **Descifrar {0_label}** | `Use` ya era «Usar {0_label}» |
 
+## Términos nuevos del II (sesión 3, `RecipeDef` y `ResearchProjectDef`)
+
+Los de la primera tabla salen de la traducción oficial de RimWorld (Core y los DLC); se buscaron
+a pedido de Angel el 20-oct-2026, y los textos que ya decían otra cosa se corrigieron.
+
+| Inglés | Español | Notas |
+|---|---|---|
+| Remove (receta) | **extraer** | Oficial: «Extraer chip analgésico». No «remover» |
+| growth vat | **tanque de crecimiento** | Oficial (Biotech). No «cuba» |
+| surrogate | **madre de alquiler** | Oficial: «Implanta un embrión en una madre de alquiler». No «gestante» |
+| smoke launcher | **lanzagranadas de humo** | Oficial |
+| make any stone blocks | **cortar trozos de piedra** | Oficial (`Make_StoneBlocksAny`); las de una piedra son «producir bloques de granito» |
+| gestate (un embrión) | **gestar** | Aprobado por Angel el 20-oct-2026. Los automatroides se ensamblan; el embrión es biológico |
+| artificial military organism (AMO) | **organismo militar artificial (OMA)** | |
+| sealed file I / II / III | **archivo sellado I / II / III** | Las cartas de la investigación sellada |
+| class I sealed technology | **tecnología sellada de clase I** | Ya lo usaba la sesión 2 |
+| laws of war | **leyes de la guerra** | |
+| developing worlds | **mundos en desarrollo** | |
+| main battle specification | **especificación de combate principal** | |
+| cluster command | **mando de clústeres** | Investigación `DMS_Occultech_GestaltEngine` |
+| garrison arsenal | **arsenal de guarnición** | |
+| qubit decryption | **descifrado por cúbits** | |
+| infrasonics | **infrasónica** | Los objetos ya decían «de infrasonido» |
+| Ancient corps | **Cuerpo antiguo** | Como en *The Dead Man's Switch - AncientCorps*. Sus unidades van como allá: «molot BR-3», «krepost BR-6» |
+
 **Pronombres de una persona** (`{DEVIANT_pronoun}`, `{DEVIANT_objective}`, `{DEFENDANT_objective}`):
 en español llevarían género, así que la frase se arma sin ellos («La flota nunca supo que estuvo
 aquí», «no tenemos noticias suyas»). `{X_possessive}` sí se usa: es «su».
