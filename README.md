@@ -79,32 +79,33 @@ para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los 
 
 ## Agregar la traducción de un mod
 
-1. Extraer el mod con el extractor, con idioma de destino
-   `SpanishLatin (Español(Latinoamérica))`.
-2. Traducir en la planilla `.xlsx`.
-3. Convertir XLSX → XML con el propio extractor.
-4. Copiar el resultado a `Data/<Nombre del mod> - <WorkshopID>/`, verificando que
-   quede `Languages/SpanishLatin/…`, con el nombre corto: con el largo, instalado desde el
-   Workshop algunas rutas pasan el límite de Windows y el juego queda en pantalla negra.
-5. Crear el `LoadFolders.Build.yaml` de esa carpeta con el `packageId` real del mod
-   (se lee del `About.xml` del mod en el workshop). Ver
-   `LoadFolders.Build.Example.yaml` para la referencia de campos.
-6. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
+1. En el extractor, con la «Carpeta del mod RML» de Opciones apuntando a este clon, elegir
+   el mod con **«Elegir un mod y extraer»**, sin marcar «Extraer en carpeta». Es la
+   traducción rápida: escribe directamente en `Data/<Nombre del mod> - <WorkshopID>/`
+   —o en `Data/!<Autor>/`, si el autor ya tiene carpeta—, conserva lo que ya estaba
+   traducido, deja `TODO` en lo nuevo, genera el `LoadFolders.Build.yaml` con el
+   `packageId` real del mod y regenera el índice.
+2. Traducir reemplazando los `TODO` de los XML, como explica [TRADUCIR.md](TRADUCIR.md).
+3. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
    `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
    (`ModList.tsv` y la página `docs/index.html`, publicada en
-   https://lordmordelon.github.io/RML/) y el `forceLoadAfter` de `About/About.xml`,
-   que hace que RML cargue después de cada mod que traduce.
-7. Probar en el juego y commitear el `LoadFolders.xml` regenerado junto al resto.
+   https://lordmordelon.github.io/RML/), el `forceLoadAfter` de `About/About.xml`,
+   que hace que RML cargue después de cada mod que traduce, y la copia de `output/`,
+   que es la que carga el juego: sin esto, lo traducido a mano no se ve.
+4. Probar en el juego y, antes de commitear, revisar el diff como indica
+   [AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
 
 No hace falta hacer nada si el mod trae su propia traducción al español: RML va último
 en la lista de mods y le gana igual. El extractor lo avisa en el log por si esa
 traducción sirve para partir de ahí, no porque haya que anotarla en ningún lado.
 
-### El atajo: la traducción rápida
+### La traducción de un colaborador
 
-Si en el extractor marcas **«Traducción rápida»** al elegir el mod, los pasos 3 a 6 los
-hace él solo: escribe directamente en `Data/`, conserva lo que ya estaba traducido, genera
-el `LoadFolders.Build.yaml` y regenera el índice. Solo queda probar en el juego.
+Llega como la carpeta del mod comprimida: la bajó de este repositorio o la sacó del
+extractor con «Extraer en carpeta». Los nombres de los archivos son los mismos que en
+`Data/`, así que alcanza con copiar sus `Languages` y `Patches` encima de la carpeta del
+mod —si el mod es nuevo, primero se extrae como en el paso 1— y seguir desde el paso 3.
+El diff muestra si tocó algo además de los `TODO`.
 
 ### Después de una actualización del juego: «Actualizar todo RML»
 

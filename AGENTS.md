@@ -94,14 +94,15 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
    del Workshop, y `02-armar-copia-limpia.cmd` y la CI no dejan pasar una ruta larga ni un mod con las
    dos carpetas de idioma. Un extractor anterior a este cambio escribe con el nombre largo:
    no correrlo sobre este RML.
-2. **Traducir**, en la planilla `.xlsx` o reemplazando los `TODO` en el XML.
+2. **Traducir**, reemplazando los `TODO` en el XML. La planilla `.xlsx` ya no existe: el
+   extractor 1.0 la sacó, y [TRADUCIR.md](TRADUCIR.md) explica el camino sobre el XML.
 3. **Regenerar el índice.** Lo hace `01-regenerar-indice.cmd`, y también el extractor al terminar
    una traducción rápida y la GitHub Action al hacer push.
 
-Con «Traducción rápida» marcada, el extractor escribe directamente en `Data/`, conserva
-lo ya traducido, genera el `LoadFolders.Build.yaml` y regenera el índice. Después de una
-actualización del juego, «Actualizar todo RML» hace lo mismo con todos los mods de una vez;
-los que no están instalados quedan como están.
+Con «Extraer en carpeta» sin marcar, que es la traducción rápida, el extractor escribe
+directamente en `Data/`, conserva lo ya traducido, genera el `LoadFolders.Build.yaml` y
+regenera el índice. Después de una actualización del juego, «Actualizar todo RML» hace lo
+mismo con todos los mods de una vez; los que no están instalados quedan como están.
 
 ## Reglas
 
