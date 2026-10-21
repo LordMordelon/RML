@@ -47,7 +47,7 @@ Pendientes por tipo: `ThingDef` 506, `Keyed` 325 (el original no tenía ninguna 
 | 1 | Reparar lo dañado | chica | hecha (20-oct-2026) |
 | 2 | Revisar lo que cambió en inglés | chica | hecha (20-oct-2026) |
 | 3 | Glosario del mod | chica | hecha: [GLOSARIO-DMS.md](GLOSARIO-DMS.md) |
-| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 4 hechos, y del 5 `SitePartDef` e `IncidentDef`; siguen `QuestScriptDef` y `TaleDef` |
+| 4 | Traducir lo nuevo | grande | en curso: puntos 1 a 5 hechos; siguen el 6 (ideología) y el 7 (el resto) |
 | 5 | Verificar y probar en partida | chica | pendiente |
 
 ### 1. Reparar lo dañado
@@ -161,31 +161,33 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 - Sesiones 2 y 3: `ThingDef` y el resto de la etapa 4 (unos 700 renglones por sesión).
 - Sesión 4: lo que quede, y la etapa 5.
 
-## Próxima sesión (20-oct-2026, después de la sesión 3)
+## Próxima sesión (20-oct-2026, después de la sesión 4)
 
-**Objetivo:** etapa 4, punto 5: `QuestScriptDef` (140 `TODO`, en 38 archivos) y `TaleDef` (124, en 8),
-a mano.
+**Objetivo:** etapa 4, punto 6 (ideología) y, del 7, las reglas de gramática que quedan, a mano.
 
-**Estado:** en la sesión 3 se tradujeron `ResearchProjectDef`, `RecipeDef` y `BodyDef` (estos dos con
-tablas aprobadas por Angel), `HediffDef`, `AbilityDef`, `SitePartDef` e `IncidentDef`. Todo en RML
-`master`, en local (último commit, el de esta nota); se sube cuando Angel lo diga. Quedan 641 `TODO` en
-`DefInjected`, contados por renglón. Sin cambios a medias.
+**Estado:** en la sesión 4 se tradujeron `QuestScriptDef` (140 renglones) y `TaleDef` (124), y sus
+términos quedaron en «sesión 4» de `GLOSARIO-DMS.md`. Todo en RML `master`, en local (último commit, el
+de esta nota); se sube cuando Angel lo diga. Las tres comprobaciones del diff salen vacías. Quedan 378
+`TODO` en `DefInjected`, contados por renglón. Sin cambios a medias.
 
-**Antes de empezarla (Angel):** nada.
+**Antes de empezarla (Angel):** nada. Si ya probaste en el juego las misiones o los relatos, anota lo
+raro en el mensaje.
 
 **Al empezar (Claude):**
-1. `QuestScriptDef` y después `TaleDef`, un commit por tramo de unos 40 renglones. Son casi todos reglas
-   de gramática: el símbolo y el «->» quedan como en el `EN:` y solo se traduce lo de después (la
-   comprobación 3 tiene que salir vacía). Los pronombres de persona se omiten (ver el glosario).
-2. Para los términos que existen en el juego, comparar con la traducción oficial: los `.tar` de
-   `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\SpanishLatin (Español(Latinoamérica)).tar`.
-   Angel pidió usarla como referencia.
-3. 264 renglones con gramática pueden no caber en una sesión: si no, `TaleDef` queda para la siguiente.
+1. Punto 6, 105 renglones: `ThoughtDef` (40), `PreceptDef` (24), `MemeDef` (22), `HistoryEventDef`
+   (15) e `IssueDef` (4). Un commit por tramo de unos 40.
+2. Del punto 7, primero las reglas de gramática: `RulePackDef` (99) e `InteractionDef` (32). El símbolo
+   y el «->» quedan como en el `EN:`; la comprobación 3 tiene que salir vacía.
+3. Si sobra tiempo, el resto del punto 7: 142 renglones en 28 tipos (`PawnKindDef` 21,
+   `DesignatorDropdownGroupDef` 19, `BackstoryDef` 18, `SongDef` 10, `FactionDef` 10 y 23 tipos chicos).
+   Los 236 de los pasos 1 y 2 seguramente llenan la sesión (estimado): lo que no quepa queda para la
+   sesión 6, junto con la etapa 5.
+4. Comparar con la traducción oficial los términos que existen en el juego (los `.tar` de
+   `D:\SteamLibrary\steamapps\common\RimWorld\Data\*\Languages\`). Ojo: hay campos que no se traducen
+   y se copian igual que el `EN:` (ver «Cómo se arman las reglas de gramática» en el glosario).
 
 **Decisiones de Angel:** ninguna prevista.
 
 **Guías:** ninguna (no hay tarea de GitHub). Al cerrar, `traspaso`.
 
-**Dónde leer:** este plan, `GLOSARIO-DMS.md`, `RML/AGENTS.md` y `RML/GLOSARIO.md`. Los cambios de otra
-sesión que siguen sin commitear (Combat Extended, `ModList.tsv`, `docs/`, dos XML con finales de línea)
-no se tocan.
+**Dónde leer:** este plan, `GLOSARIO-DMS.md`, `RML/AGENTS.md` y `RML/GLOSARIO.md`.

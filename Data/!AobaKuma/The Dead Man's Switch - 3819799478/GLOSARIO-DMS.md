@@ -136,6 +136,42 @@ a pedido de Angel el 20-oct-2026, y los textos que ya decían otra cosa se corri
 en español llevarían género, así que la frase se arma sin ellos («La flota nunca supo que estuvo
 aquí», «no tenemos noticias suyas»). `{X_possessive}` sí se usa: es «su».
 
+## Términos nuevos del II (sesión 4, `QuestScriptDef` y `TaleDef`)
+
+Las fórmulas de las cartas salen de la traducción oficial (los `.tar` de Core y los DLC).
+
+| Inglés | Español | Notas |
+|---|---|---|
+| Quest expired: / Quest failed: | **La misión expiró:** / **Misión fallida:** | Oficial. El texto termina en «La misión [resolvedQuestName] ha expirado» |
+| Payment arrived | **Pago recibido** | Como en el resto de RML |
+| These colonists took part in… | **Estos colonos participaron en…** | Oficial, con «los [royalFavorReward_amount] de [asker_faction_royalFavorLabel]» |
+| quadrum(s) | **cuadrunes** | Oficial (`PeriodQuadrums`) |
+| drop pod | **cápsula de escape** | Lo manda el glosario general |
+| cargo pod / mobile cargo pod | **cápsula de carga** / **cápsula de carga móvil** | La del contrato de suministro |
+| Navigation Hall | **Sala de Navegación** | El tribunal que dicta sentencia en el consejo de guerra |
+| military police command | **mando de policía militar** | |
+| the accused | **la persona acusada** | Como en `Keyed`: no se sabe el género |
+| SAGE host | **servidor principal** | El nodo SAGE que coordina la cacería |
+| site server | **servidor del sitio** | Ya estaba en `ThingDef` |
+| key-card | **tarjeta de acceso** | |
+| remnant traffic | **el tráfico de los remanentes** | |
+| airfield / drone field | **aeródromo** / **campo de drones** | |
+| assembly yard | **planta de ensamblaje** | Como en `SitePartDef`, aunque el inglés diga «yard» |
+
+**Cómo se arman las reglas de gramática:**
+
+- **Nombres de misión con un símbolo** («The [vault]»): el artículo va dentro de cada opción
+  («La bóveda sellada», «El almacén profundo») y la regla queda solo con el símbolo. Así no hay que
+  adivinar el género.
+- **Relatos (`TaleDef`)**: la traducción oficial los deja en inglés, pero RML los traduce. Para el
+  objeto se usan `[PRODUCT_indefinite]` y `[PRODUCT_definite]`, que el juego arma con el artículo del
+  género correcto, como hace la oficial con `[OBJECT_indefinite]`. No van detrás de «de» ni de «a»,
+  porque saldría «de el». Los plurales de las listas de palabras se dejan como en el resto de RML
+  («[PersonJob]s»).
+- **No se traducen**: los `name` de los nodos de misión (`asker`, `askerIsNull`), que son nombres de
+  variables, ni el `type` de los relatos (`Volatile`, `PermanentHistorical`), que es un valor del
+  juego. Se copian igual que el `EN:`.
+
 ## Automatroides
 
 | Inglés | Español | | Inglés | Español |
