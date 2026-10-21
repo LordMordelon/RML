@@ -17,21 +17,21 @@
   <!-- EN: missedLetterLabel-&gt;Transport left empty -->
   <!-- EN: missedLetterText-&gt;The transport requisitioned by [askerName] has departed. [issuerFactionName] has struck [traineeName] from the roll for this run of the officer training course; the promotion will have to wait for another opportunity. -->
   <DMS_OfficerTrainingLetters.rulePack.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>arrivedLetterLabel-&gt;Llegó el transporte de personal</li>
+    <li>arrivedLetterLabel-&gt;Aterrizó el transporte de personal</li>
+    <li>arrivedLetterText-&gt;Aterrizó el transporte orbital que requisó [askerName]. [traineeName] tiene que abordarlo para el [courseName] en el centro de formación de [issuerFactionName].</li>
+    <li>graduateLetterLabel-&gt;Graduación: [traineeName]</li>
+    <li>graduateLetterLabel-&gt;[traineeName] recibe el grado de [newTitle]</li>
+    <li>graduateLetterText-&gt;[traineeName] completó el [courseName] y regresa en cápsula de escape, con un ascenso de [oldTitle] a [newTitle] por orden de [issuerFactionName].\n\nEl registro del curso anota una notable mejora en [skillName].</li>
+    <li>graduateNoTraitLetterLabel-&gt;Graduación: [traineeName]</li>
+    <li>graduateNoTraitLetterLabel-&gt;[traineeName] recibe el grado de [newTitle]</li>
+    <li>graduateNoTraitLetterText-&gt;[traineeName] completó el [courseName] y regresa en cápsula de escape, con un ascenso de [oldTitle] a [newTitle] por orden de [issuerFactionName].\n\nLos instructores no encontraron nada que corregir en la disciplina de [traineeName], así que dedicaron el tiempo al programa del curso. La instrucción en [skillName] que consta en el registro supera con creces lo exigido para el grado.</li>
+    <li>capturedLetterLabel-&gt;[issuerFactionName] detuvo a [traineeName]</li>
+    <li>capturedLetterLabel-&gt;Detención durante el curso</li>
+    <li>capturedLetterText-&gt;[issuerFactionName] entró en guerra con [playerFactionName] mientras [traineeName] seguía en el centro de formación. El mando de instrucción del servicio entregó a [traineeName] a la policía militar.\n\n[traineeName] no va a volver en un transporte. Sacar de ahí a [traineeName] ahora es problema nuestro.</li>
+    <li>abortLetterLabel-&gt;Plaza en el curso anulada</li>
+    <li>abortLetterText-&gt;Las hostilidades con [issuerFactionName] anularon la plaza de [traineeName] en el curso. Se ordenó el regreso del transporte.</li>
+    <li>missedLetterLabel-&gt;El transporte partió vacío</li>
+    <li>missedLetterText-&gt;El transporte que requisó [askerName] partió. [issuerFactionName] sacó a [traineeName] de la lista de esta edición del curso de formación de oficiales; el ascenso tendrá que esperar otra oportunidad.</li>
   </DMS_OfficerTrainingLetters.rulePack.rulesStrings>
 </LanguageData>

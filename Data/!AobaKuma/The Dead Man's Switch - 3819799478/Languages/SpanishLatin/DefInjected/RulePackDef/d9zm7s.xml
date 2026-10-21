@@ -13,17 +13,17 @@
   <!-- EN: intervalMessage-&gt;Delivery confirmed. [issuerUnit] will request the next delivery in about [days] days. -->
   <!-- EN: intervalMessage-&gt;Delivery confirmed. The next cargo pod from [issuerUnit] will arrive in about [days] days. -->
   <DMS_SupplyChainLetters.rulePack.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>stageLetterLabel-&gt;Entrega de suministros [stage]/[totalStages]</li>
+    <li>stageLetterLabel-&gt;Entrega solicitada: [categoryLabel]</li>
+    <li>stageLetterText-&gt;[stageOpen]\n\nCarga [count]x [categoryLabel] en la cápsula y confirma la entrega antes del plazo. El pago llegará en cápsula de escape una vez que se confirme la entrega.</li>
+    <li>stageOpen-&gt;[issuerUnit] solicitó la próxima entrega de tu contrato de suministro. Viene en camino una cápsula de carga.</li>
+    <li>stageOpen-&gt;Comenzó la próxima entrega de tu contrato de suministro con [issuerUnit]. Una cápsula de carga aterrizará cerca de tu colonia en breve.</li>
+    <li>paymentLetterLabel-&gt;Pago recibido</li>
+    <li>paymentLetterLabel-&gt;Pago de la entrega</li>
+    <li>paymentLetterText-&gt;[payOpen]</li>
+    <li>payOpen-&gt;[issuerUnit] confirmó la entrega. El pago llegó en cápsula de escape.</li>
+    <li>payOpen-&gt;[issuerUnit] confirmó tu entrega. El pago llegó en cápsula de escape, como se acordó.</li>
+    <li>intervalMessage-&gt;Entrega confirmada. [issuerUnit] solicitará la próxima entrega en unos [days] días.</li>
+    <li>intervalMessage-&gt;Entrega confirmada. La próxima cápsula de carga de [issuerUnit] llegará en unos [days] días.</li>
   </DMS_SupplyChainLetters.rulePack.rulesStrings>
 </LanguageData>

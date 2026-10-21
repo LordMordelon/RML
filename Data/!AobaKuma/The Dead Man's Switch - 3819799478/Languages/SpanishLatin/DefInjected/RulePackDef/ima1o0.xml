@@ -25,27 +25,27 @@ The fleet will cover room, board and medical care for the duration. -->
   <!-- EN: returnDeviantKillOrderLetterLabel-&gt;[defendantName] returned: kill order stands -->
   <!-- EN: returnDeviantKillOrderLetterText-&gt;[defendantName] has served the sentence and been returned by drop pod, and [issuerFactionName] has called off the hunt for [defendantName].\n\nThe kill order over the occulted technology still stands. The truce ended with the case, and [issuerFactionName] is hostile to us again. Lifting the kill order will take a separate court-martial. -->
   <DMS_CourtMartialLetters.rulePack.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>arrivedLetterLabel-&gt;Llegó el transporte del tribunal</li>
+    <li>arrivedLetterLabel-&gt;Aterrizó el transporte orbital</li>
+    <li>arrivedLetterText-&gt;Aterrizó el transporte orbital que requisó [askerName]. [defendantName] tiene que abordarlo para presentarse ante el tribunal militar de [issuerFactionName]. Las hostilidades quedan suspendidas mientras dure el proceso.</li>
+    <li>acquitLetterLabel-&gt;Absolución: [defendantName]</li>
+    <li>acquitLetterLabel-&gt;Veredicto: inocente</li>
+    <li>acquitLetterText-&gt;Contra todo pronóstico, [defendantName] presentó una defensa convincente ante el tribunal. La Sala de Navegación de [issuerFactionName] declaró infundados los cargos y ordenó la liberación inmediata, con el rango y el historial intactos.\n\nEl cuerpo de oficiales quedó visiblemente impresionado. [issuerFactionName] nos dio un reconocimiento formal: ahora nos considera aliados. [defendantName] regresa en cápsula de escape.</li>
+    <li>acquitNoAllyLetterText-&gt;Contra todo pronóstico, [defendantName] presentó una defensa convincente ante el tribunal. La Sala de Navegación de [issuerFactionName] declaró infundados los cargos y ordenó la liberación inmediata, con el rango y el historial intactos.\n\nEl incidente queda cerrado, pero la tecnología sellada que seguimos teniendo mantiene a [issuerFactionName] a distancia: las relaciones vuelven a ser neutrales, y nada más. [defendantName] regresa en cápsula de escape.</li>
+    <li>acquitDeviantLetterText-&gt;Contra todo pronóstico, [defendantName] presentó una defensa convincente ante el tribunal. La Sala de Navegación de [issuerFactionName] aceptó los motivos de la deserción y desestimó los cargos, y se retira la orden de dar caza a [defendantName].\n\nLa flota no irá más allá: las relaciones vuelven a ser neutrales. [defendantName] regresa en cápsula de escape.</li>
+    <li>verdictLetterLabel-&gt;Veredicto: [defendantName]</li>
+    <li>verdictLetterLabel-&gt;Sentencia dictada</li>
+    <li>verdictLetterText-&gt;La Sala de Navegación de [issuerFactionName] dictó sentencia. En consideración a la cooperación de [defendantName], la pena se fija en el mínimo: degradación de [oldTitle] a [newTitle] y [detentionDays] días de detención, con efecto inmediato.\n\nLa flota cubrirá el alojamiento, la comida y la atención médica mientras dure.</li>
+    <li>verdictLetterNoDemotionText-&gt;La Sala de Navegación de [issuerFactionName] dictó sentencia. [defendantName] no tiene rango en los registros de la flota, así que no hay nada que quitarle: la pena es de [detentionDays] días de detención, con efecto inmediato.\n\nLa flota cubrirá el alojamiento, la comida y la atención médica mientras dure.</li>
+    <li>verdictLetterDeviantText-&gt;La Sala de Navegación de [issuerFactionName] dictó sentencia. [defendantName] figuró alguna vez en los registros de la flota y los abandonó; no queda rango que quitarle, solo la deserción y la filtración por las que responder: [detentionDays] días de detención, con efecto inmediato.\n\nLa flota cubrirá el alojamiento, la comida y la atención médica mientras dure. Cuando se cumpla la condena, terminará la cacería de [defendantName].</li>
+    <li>returnAllyLetterLabel-&gt;[defendantName] regresó: se ganó el respeto de la flota</li>
+    <li>returnAllyLetterText-&gt;[defendantName] cumplió la condena y regresa en cápsula de escape.\n\nDurante la detención, el porte y el testimonio de [defendantName] dejaron una fuerte impresión en el cuerpo de oficiales de [issuerFactionName]. La flota nos dio un reconocimiento formal: ahora [issuerFactionName] nos considera aliados.</li>
+    <li>returnNeutralLetterLabel-&gt;[defendantName] regresó</li>
+    <li>returnNeutralLetterText-&gt;[defendantName] cumplió la condena y regresa en cápsula de escape.\n\n[issuerFactionName] da el incidente por cerrado formalmente. Las relaciones siguen siendo neutrales: el alto el fuego se mantiene, pero no trajo ningún acercamiento.</li>
+    <li>betrayLetterLabel-&gt;Términos del tribunal violados</li>
+    <li>betrayLetterText-&gt;El acuerdo de consejo de guerra con [issuerFactionName] se vino abajo. El mando de policía militar declaró nulo el proceso, y [issuerFactionName] reanudó las hostilidades contra nosotros.</li>
+    <li>acquitDeviantKillOrderLetterText-&gt;Contra todo pronóstico, [defendantName] presentó una defensa convincente ante el tribunal. La Sala de Navegación de [issuerFactionName] aceptó los motivos de la deserción y desestimó los cargos, y se retira la orden de dar caza a [defendantName].\n\nSin embargo, la orden de exterminio por la tecnología oculta sigue en pie. La tregua terminó con el caso, y [issuerFactionName] vuelve a sernos hostil. [defendantName] regresa en cápsula de escape.</li>
+    <li>returnDeviantKillOrderLetterLabel-&gt;[defendantName] regresó: la orden de exterminio sigue en pie</li>
+    <li>returnDeviantKillOrderLetterText-&gt;[defendantName] cumplió la condena y regresa en cápsula de escape, y [issuerFactionName] suspendió la cacería de [defendantName].\n\nLa orden de exterminio por la tecnología oculta sigue en pie. La tregua terminó con el caso, y [issuerFactionName] vuelve a sernos hostil. Levantar la orden de exterminio requerirá otro consejo de guerra.</li>
   </DMS_CourtMartialLetters.rulePack.rulesStrings>
 </LanguageData>
