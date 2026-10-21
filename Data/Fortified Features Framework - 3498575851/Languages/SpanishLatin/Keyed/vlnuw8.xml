@@ -22,16 +22,62 @@
   <FFF_AlertScanner_Detecting>¡Intruso detectado!</FFF_AlertScanner_Detecting>
   <!-- EN: Scanning for intruders -->
   <FFF_AlertScanner_Watching>Buscando intrusos</FFF_AlertScanner_Watching>
-  <!-- EN: Facility lockdown initiated. The site will be sealed shortly — get everyone out. -->
-  <FFF_Alert_FacilityLockdown_Warning>Cierre de emergencia de la instalación iniciado. El lugar quedará sellado en breve: saca a todos de ahí.</FFF_Alert_FacilityLockdown_Warning>
+  <!-- EN: Standing by -->
+  <FFF_Lockdown_InspectIdle>En espera</FFF_Lockdown_InspectIdle>
+  <!-- EN: Lockdown in {0} -->
+  <FFF_Lockdown_InspectCountdown>Cierre en {0}</FFF_Lockdown_InspectCountdown>
+  <!-- EN: Facility locked down -->
+  <FFF_Lockdown_InspectLocked>Instalación cerrada</FFF_Lockdown_InspectLocked>
+  <!-- EN: Disarmed -->
+  <FFF_Lockdown_InspectDisarmed>Desactivado</FFF_Lockdown_InspectDisarmed>
+  <!-- EN: Facility lockdown -->
+  <FFF_Lockdown_StartedLabel>Cierre de la instalación</FFF_Lockdown_StartedLabel>
+  <!-- EN: The facility&apos;s alert level has maxed out and the lockdown controller has engaged. In {0}, the blast gates will close and the lifts will stop working.\n\nGet out now, or hack the lockdown controller to stop it. Do not destroy it: it is built to seal the facility completely if it goes down. -->
+  <FFF_Lockdown_StartedText>El nivel de alerta de la instalación llegó al máximo y se activó el controlador de cierre. En {0}, las compuertas blindadas se cerrarán y los ascensores dejarán de funcionar.\n\nSal ahora, o hackea el controlador de cierre para detenerlo. No lo destruyas: está hecho para sellar la instalación por completo si cae.</FFF_Lockdown_StartedText>
   <!-- EN: Facility lockdown in {0}. -->
-  <FFF_Alert_FacilityLockdown_Countdown>Cierre de la instalación en {0}.</FFF_Alert_FacilityLockdown_Countdown>
-  <!-- EN: The facility has been sealed. Anyone still inside is lost. -->
-  <FFF_Alert_FacilityLockdown_Executed>La instalación ha sido sellada. Quien siga adentro está perdido.</FFF_Alert_FacilityLockdown_Executed>
-  <!-- EN: {0} missing -->
-  <FFF_Alert_PawnMissing_Label>{0} desaparecido</FFF_Alert_PawnMissing_Label>
-  <!-- EN: {0} was still inside the facility when it was sealed and is now missing, presumed lost. -->
-  <FFF_Alert_PawnMissing_Desc>{0} seguía dentro de la instalación cuando fue sellada y ahora está desaparecido; se da por perdido.</FFF_Alert_PawnMissing_Desc>
+  <FFF_Lockdown_Countdown>Cierre de la instalación en {0}.</FFF_Lockdown_Countdown>
+  <!-- EN: Facility locked down -->
+  <FFF_Lockdown_LockedLabel>Instalación cerrada</FFF_Lockdown_LockedLabel>
+  <!-- EN: The blast gates have closed and the entrance hack has been wiped. Nobody is getting in or out until someone hacks the lockdown controller, or hacks the entrance open again from the surface. -->
+  <FFF_Lockdown_LockedText>Las compuertas blindadas se cerraron y el hackeo de la entrada se borró. Nadie entra ni sale hasta que alguien hackee el controlador de cierre o vuelva a hackear la entrada desde la superficie.</FFF_Lockdown_LockedText>
+  <!-- EN: Facility sealed -->
+  <FFF_Lockdown_SealedLabel>Instalación sellada</FFF_Lockdown_SealedLabel>
+  <!-- EN: The lockdown controller has been destroyed, and the facility has sealed itself completely. It can no longer be opened from inside.\n\nSomeone on the surface has to work the entrance&apos;s emergency override, or hack the entrance open again, to get the doors open. -->
+  <FFF_Lockdown_SealedText>El controlador de cierre fue destruido y la instalación se selló por completo. Ya no se puede abrir desde adentro.\n\nAlguien en la superficie tiene que usar la anulación de emergencia de la entrada, o volver a hackearla, para abrir las puertas.</FFF_Lockdown_SealedText>
+  <!-- EN: {HACKER_nameDef} has disarmed the lockdown controller. It will no longer seal the facility. -->
+  <FFF_Lockdown_Disarmed>{HACKER_nameDef} desactivó el controlador de cierre. Ya no sellará la instalación.</FFF_Lockdown_Disarmed>
+  <!-- EN: {HACKER_nameDef} has hacked the lockdown controller. The blast gates are opening. -->
+  <FFF_Lockdown_Lifted>{HACKER_nameDef} hackeó el controlador de cierre. Las compuertas blindadas se están abriendo.</FFF_Lockdown_Lifted>
+  <!-- EN: The lockdown controller has been disarmed. It will no longer seal the facility. -->
+  <FFF_Lockdown_Disarmed_NoHacker>El controlador de cierre fue desactivado. Ya no sellará la instalación.</FFF_Lockdown_Disarmed_NoHacker>
+  <!-- EN: The lockdown controller has been hacked. The blast gates are opening. -->
+  <FFF_Lockdown_Lifted_NoHacker>El controlador de cierre fue hackeado. Las compuertas blindadas se están abriendo.</FFF_Lockdown_Lifted_NoHacker>
+  <!-- EN: {PAWN_nameDef} has forced the entrance open from the surface. The facility is accessible again. -->
+  <FFF_Lockdown_Overridden>{PAWN_nameDef} forzó la entrada desde la superficie. Se puede volver a entrar a la instalación.</FFF_Lockdown_Overridden>
+  <!-- EN: Locked down -->
+  <FFF_Lockdown_GateLocked>Cerrada</FFF_Lockdown_GateLocked>
+  <!-- EN: Sealed: needs an emergency override from the surface -->
+  <FFF_Lockdown_GateSealed>Sellada: necesita una anulación de emergencia desde la superficie</FFF_Lockdown_GateSealed>
+  <!-- EN: Permanently sealed -->
+  <FFF_Lockdown_GateLost>Sellada para siempre</FFF_Lockdown_GateLost>
+  <!-- EN: Emergency override on {0} -->
+  <FFF_Lockdown_Override>Anulación de emergencia de {0}</FFF_Lockdown_Override>
+  <!-- EN: Cannot override -->
+  <FFF_Lockdown_CannotOverride>No se puede anular</FFF_Lockdown_CannotOverride>
+  <!-- EN: Override progress: {0} -->
+  <FFF_Lockdown_OverrideProgress>Progreso de la anulación: {0}</FFF_Lockdown_OverrideProgress>
+  <!-- EN: Anyone trapped below will be lost in {0} -->
+  <FFF_Lockdown_GraceLeft>Quien siga atrapado abajo se perderá en {0}</FFF_Lockdown_GraceLeft>
+  <!-- EN: Trapped below -->
+  <FFF_Lockdown_TrappedLabel>Atrapados abajo</FFF_Lockdown_TrappedLabel>
+  <!-- EN: Our people are sealed inside the facility, and nobody can get them out: no one below can hack the lockdown controller, and no one on the surface can override or re-hack the entrance.\n\nIf nothing changes within {0}, they will be given up as lost. -->
+  <FFF_Lockdown_TrappedText>Nuestra gente quedó sellada dentro de la instalación y nadie puede sacarla: nadie abajo puede hackear el controlador de cierre, y nadie en la superficie puede anular la entrada ni volver a hackearla.\n\nSi nada cambia en {0}, se los dará por perdidos.</FFF_Lockdown_TrappedText>
+  <!-- EN: Someone can deal with the lockdown again. The people trapped below still have a chance. -->
+  <FFF_Lockdown_GraceCancelled>Alguien puede volver a ocuparse del cierre. La gente atrapada abajo todavía tiene una oportunidad.</FFF_Lockdown_GraceCancelled>
+  <!-- EN: Lost in the facility -->
+  <FFF_Lockdown_LostLabel>Perdidos en la instalación</FFF_Lockdown_LostLabel>
+  <!-- EN: Nobody came. The facility stays sealed, and everyone trapped inside is now counted as missing:\n\n{0} -->
+  <FFF_Lockdown_LostText>Nadie vino. La instalación sigue sellada, y todos los que quedaron atrapados adentro se dan ahora por desaparecidos:\n\n{0}</FFF_Lockdown_LostText>
   <!-- EN: Airspace blockade in effect. Shuttles and transport pods cannot take off from this map. -->
   <FFF_Alert_AirspaceBlockade_Start>Bloqueo del espacio aéreo en vigor. Los transbordadores y las cápsulas de transporte no pueden despegar de este mapa.</FFF_Alert_AirspaceBlockade_Start>
   <!-- EN: The airspace blockade has lifted. -->
@@ -58,14 +104,12 @@
   <FFF.AmmoSwitch.UsingDefault>Usando la predeterminada</FFF.AmmoSwitch.UsingDefault>
   <!-- EN: Only player-controlled units can switch ammo. -->
   <FFF.AmmoSwitch.NotPlayerControlled>Solo las unidades controladas por el jugador pueden cambiar de munición.</FFF.AmmoSwitch.NotPlayerControlled>
-  <!-- EN: Cancel proccess -->
+  <!-- EN: Cancel process -->
   <FFF.CancelActiveBill>Cancelar proceso</FFF.CancelActiveBill>
   <!-- EN: Cancel the current process, which will return resources and stop consuming power. -->
   <FFF.CancelActiveBillDesc>Cancela el proceso actual, lo que devolverá los recursos y dejará de consumir energía.</FFF.CancelActiveBillDesc>
   <!-- EN: The currently executing work list has been canceled, but it needs to stop running. -->
   <FFF.Autofacturer.WorkerCanceled>La lista de trabajo en ejecución ha sido cancelada, pero necesita detenerse.</FFF.Autofacturer.WorkerCanceled>
-  <!-- EN: {0} Completed -->
-  <FFF.Autofacturer.WorkerDone>{0} completado</FFF.Autofacturer.WorkerDone>
   <!-- EN: current bill: {0} -->
   <FFF.Autofacturer.CurrentRecipe>pedido actual: {0}</FFF.Autofacturer.CurrentRecipe>
   <!-- EN: current processes have completed, require colonist to work -->
@@ -226,10 +270,10 @@
   <FFF.DisabledUndrafted>No reclutado</FFF.DisabledUndrafted>
   <!-- EN: area blocked -->
   <FFF.MinifiedDeployable.SelectedAreaBlocked>área bloqueada</FFF.MinifiedDeployable.SelectedAreaBlocked>
+  <!-- EN: not owned by your faction; claim it first -->
+  <FFF.MinifiedDeployable.NotOwned>no pertenece a tu facción; reclámalo primero</FFF.MinifiedDeployable.NotOwned>
   <!-- EN: Unrestricted -->
   <FFF.Drone.NoRestrict>Sin restricciones</FFF.Drone.NoRestrict>
-  <!-- EN: Allowed area -->
-  <FFF.Drone.AllowedArea>Área permitida</FFF.Drone.AllowedArea>
   <!-- EN: Set the allow area for Drones, deployed Drone will comply with the platform&apos;s area settings. -->
   <FFF.Drone.AllowedAreaDesc>Establece el área permitida para los drones, los drones desplegados cumplirán con la configuración de área de la plataforma.</FFF.Drone.AllowedAreaDesc>
   <!-- EN: control platform unavailable -->
@@ -262,8 +306,6 @@
   <FFF.AutoDeployDesc>Ordena a esta plataforma que despliegue y repliegue drones automáticamente a un intervalo estable.</FFF.AutoDeployDesc>
   <!-- EN: Auto Deploy Enable -->
   <FFF.AutoDeployEnabled>Habilitar despliegue automático</FFF.AutoDeployEnabled>
-  <!-- EN: Deployment interval: {0} -->
-  <FFF.WillDeployAt>Intervalo de despliegue: {0}</FFF.WillDeployAt>
   <!-- EN: Retract all {0} -->
   <FFF.RetractDrones>Retraer todos los {0}</FFF.RetractDrones>
   <!-- EN: Command all {0} controlled by this platform to withdraw, which will replenish the {1} consumption. -->
@@ -312,8 +354,6 @@
   <FFF.Darkness>Brillo interior por debajo de: {0}</FFF.Darkness>
   <!-- EN: Vacuum between: {0} ~ {1} -->
   <FFF.PressureVacuum>Vacío entre: {0} ~ {1}</FFF.PressureVacuum>
-  <!-- EN: Vacuum below: {0} -->
-  <FFF.Pressure>Vacío por debajo de: {0}</FFF.Pressure>
   <!-- EN: Vacuum above: {0} -->
   <FFF.Vacuum>Vacío por encima de: {0}</FFF.Vacuum>
   <!-- EN: Microgravity -->
@@ -450,12 +490,28 @@
   <FFF.Req_NoWeaponFilter>Sin otras restricciones de armas</FFF.Req_NoWeaponFilter>
   <!-- EN: bodysize not supported (need:{0}) -->
   <FFF.BodysizeNotSupported>tamaño corporal no compatible (se necesita: {0})</FFF.BodysizeNotSupported>
+  <!-- EN: mounted weapon, needs a supporting frame, apparel or bionics -->
+  <FFF.MountedWeaponNotSupported>arma montada: necesita una estructura, ropa o biónicos que la sostengan</FFF.MountedWeaponNotSupported>
   <!-- EN: View Usable Weapons -->
   <FFF.ViewUsableWeapons>Ver armas utilizables</FFF.ViewUsableWeapons>
   <!-- EN: Weapon not supported -->
   <FFF.WeaponNotSupported>Arma no compatible</FFF.WeaponNotSupported>
   <!-- EN: Mech frame not supported -->
   <FFF.FrameNotSupported>Estructura de meca no compatible</FFF.FrameNotSupported>
+  <!-- EN: Hunted -->
+  <FFF_Huntdown_LetterLabel>Perseguidos</FFF_Huntdown_LetterLabel>
+  <!-- EN: {0} has picked up your trail. A hunting party will be sent after you before long. -->
+  <FFF_Huntdown_LetterText>{0} encontró tu rastro. Dentro de poco enviará un grupo de caza tras de ti.</FFF_Huntdown_LetterText>
+  <!-- EN: Hunted by {0} -->
+  <FFF_Huntdown_AlertLabel>Perseguidos por {0}</FFF_Huntdown_AlertLabel>
+  <!-- EN: {0} closing in -->
+  <FFF_Huntdown_AlertLabelCritical>{0} se acerca</FFF_Huntdown_AlertLabelCritical>
+  <!-- EN: {0} is tracking this location. It is only a matter of time before they attack. -->
+  <FFF_Huntdown_AlertExplanation>{0} está rastreando este lugar. Es solo cuestión de tiempo antes de que ataque.</FFF_Huntdown_AlertExplanation>
+  <!-- EN: {0} has found this location. Their attack is imminent. -->
+  <FFF_Huntdown_AlertExplanationCritical>{0} encontró este lugar. Su ataque es inminente.</FFF_Huntdown_AlertExplanationCritical>
+  <!-- EN: hunted by {0} from the start -->
+  <FFF_Huntdown_ScenSummary>perseguidos por {0} desde el comienzo</FFF_Huntdown_ScenSummary>
   <!-- EN: {0} ({1}) -->
   <FFF.InfoDisplay.SourceSuffix>{0} ({1})</FFF.InfoDisplay.SourceSuffix>
   <!-- EN: Internal battery -->
@@ -472,28 +528,20 @@
   <FFF.WillTerminateTheBetrayedUnit>DMS: Disparador seguro activado</FFF.WillTerminateTheBetrayedUnit>
   <!-- EN: Need mechanitor in map -->
   <FFF.Reason.NoMechanitorInMap>Se necesita un mecanitor en el mapa</FFF.Reason.NoMechanitorInMap>
-  <!-- EN: Must be Mechanitor -->
-  <FFF.Reason.NotMechanitor>Debe ser un mecanitor</FFF.Reason.NotMechanitor>
   <!-- EN: Orbital downlink has established connection with mechanitor -->
   <FFF.Message.BandwidthSupported>El enlace orbital ha establecido conexión con el mecanitor</FFF.Message.BandwidthSupported>
-  <!-- EN: Inventroy fulled -->
+  <!-- EN: Inventory full -->
   <FFF.Reason.NoPayloadCapacity>Inventario lleno</FFF.Reason.NoPayloadCapacity>
   <!-- EN: Take {0} -->
   <FFF.TakeToInventory>Tomar {0}</FFF.TakeToInventory>
   <!-- EN: Drop inventories -->
   <FFF.DropGears>Soltar inventarios</FFF.DropGears>
-  <!-- EN: work type disabled -->
-  <FFF.Reason.WorkTypeDisabled>tipo de trabajo deshabilitado</FFF.Reason.WorkTypeDisabled>
-  <!-- EN: need bandwidths:{0} -->
-  <FFF.Reason.NeedBandwidth>necesita ancho de banda:{0}</FFF.Reason.NeedBandwidth>
   <!-- EN: altitude layer occupied -->
   <FFF.Reason.AltitudeLayerOccupied>capa de altitud ocupada</FFF.Reason.AltitudeLayerOccupied>
-  <!-- EN: No enough fuel -->
+  <!-- EN: Not enough fuel -->
   <FFF.Reason.NoEnoughFuel>No hay suficiente combustible</FFF.Reason.NoEnoughFuel>
   <!-- EN: No fuel -->
   <FFF.Reason.NotFueled>Sin combustible</FFF.Reason.NotFueled>
-  <!-- EN: deactivate mech -->
-  <FFF.DeactivatedMech_Disable>desactivar mecanoide</FFF.DeactivatedMech_Disable>
   <!-- EN: Try hacking {0} -->
   <FFF.DeactivatedMech_TryHack>Intentar hackear {0}</FFF.DeactivatedMech_TryHack>
   <!-- EN: Cannot hack -->
@@ -536,8 +584,6 @@
   <FFF.Armor.CE>blindaje de {0} mm RHA</FFF.Armor.CE>
   <!-- EN: {0}% protection -->
   <FFF.Armor.Vanilla>{0} % de protección</FFF.Armor.Vanilla>
-  <!-- EN: select structure -->
-  <FFF.ScenPart_SelectPrefabDef>seleccionar estructura</FFF.ScenPart_SelectPrefabDef>
   <!-- EN: must be placed on a wall or door -->
   <FFF.Message.CannotPlaceWithoutWall>debe colocarse sobre un muro o una puerta</FFF.Message.CannotPlaceWithoutWall>
   <!-- EN: must be placed on a cover building -->
@@ -572,6 +618,12 @@
   <FFF.DeactivatedMech_Control>Controlar {0}</FFF.DeactivatedMech_Control>
   <!-- EN: Cannot control -->
   <FFF.DeactivatedMech_CannotControl>No se puede controlar</FFF.DeactivatedMech_CannotControl>
+  <!-- EN: Research work disabled -->
+  <FFF.Reason.WorkTypeDisabled>Trabajo de investigación desactivado</FFF.Reason.WorkTypeDisabled>
+  <!-- EN: Not a mechanitor -->
+  <FFF.Reason.NotMechanitor>No es mecanizador</FFF.Reason.NotMechanitor>
+  <!-- EN: Need {0} bandwidth -->
+  <FFF.Reason.NeedBandwidth>Necesita {0} de banda ancha</FFF.Reason.NeedBandwidth>
   <!-- EN: Hack Failed -->
   <FFF.HackFailed>Hackeo fallido</FFF.HackFailed>
   <!-- EN: {0} failed to hack the mech. The mech has awakened and is now hostile! -->
@@ -598,9 +650,11 @@
   <FFF_MessageLadarTriggered>Un escáner perimetral detectó una criatura invisible.</FFF_MessageLadarTriggered>
   <!-- EN: Invisible object nearby -->
   <FFF_LadarDetectedInvisible>Objeto invisible cerca</FFF_LadarDetectedInvisible>
+  <!-- EN: Repair {0} -->
+  <RepairMech>Reparar {0}</RepairMech>
   <!-- EN: Weapon system not supported -->
   <FFF.Reason.WeaponNotSupported>Sistema de armas no compatible</FFF.Reason.WeaponNotSupported>
-  <!-- EN: Mech frame not supported  -->
+  <!-- EN: Mech frame not supported -->
   <FFF.Reason.FrameNotSupported>Estructura de mecanoide no compatible</FFF.Reason.FrameNotSupported>
   <!-- EN: model not supported -->
   <FFF.Modification_RaceNotSupported>modelo no compatible</FFF.Modification_RaceNotSupported>
@@ -630,8 +684,6 @@
   <FFF.MechModification.InfoRace>Modelo: {0}</FFF.MechModification.InfoRace>
   <!-- EN: Service age: {0} -->
   <FFF.MechModification.InfoAge>Antigüedad de servicio: {0}</FFF.MechModification.InfoAge>
-  <!-- EN: Open mech information. -->
-  <FFF.MechModification.PawnInfoTip>Abrir la información de la meca.</FFF.MechModification.PawnInfoTip>
   <!-- EN: Mech modification -->
   <FFF.MechModification.GizmoLabel>Modificación de meca</FFF.MechModification.GizmoLabel>
   <!-- EN: Open this mech&apos;s modification window. Requires microelectronics. -->
@@ -778,6 +830,10 @@ Expected yield: {0} -->
   <FFF_Research_DiscoveredLetterLabel>Investigación revelada</FFF_Research_DiscoveredLetterLabel>
   <!-- EN: Our latest findings have made sense of archived material that was previously unreadable. The following research projects are no longer unknown, and can now be started: -->
   <FFF_Research_DiscoveredLetterText>Nuestros últimos hallazgos permitieron dar sentido a material archivado que antes era ilegible. Los siguientes proyectos de investigación ya no son desconocidos y ahora pueden iniciarse:</FFF_Research_DiscoveredLetterText>
+  <!-- EN: [an undiscovered technology] -->
+  <FFF_Research_UndiscoveredProject>[una tecnología sin descubrir]</FFF_Research_UndiscoveredProject>
+  <!-- EN: [Undiscovered] -->
+  <FFF_Research_UndiscoveredUnlock>[Sin descubrir]</FFF_Research_UndiscoveredUnlock>
   <!-- EN: Archived technology revealed -->
   <FFF_Research_UnsealLetterLabel>Tecnología archivada revelada</FFF_Research_UnsealLetterLabel>
   <!-- EN: Successfully decrypted records mean the archived {PROJECT} is no longer unknown, and what we already have on file is worth {PROGRESS} points of research progress. -->
@@ -788,6 +844,10 @@ Expected yield: {0} -->
   <FFF_Research_UnsealNothingMessage>Los datos descifrados no contienen material técnico que valga la pena, pero {PAWN} igual ganó {XP} de experiencia en {SKILL}.</FFF_Research_UnsealNothingMessage>
   <!-- EN: The decrypted data holds nothing worth having, and nobody could learn anything from it. -->
   <FFF_Research_UnsealNothingNoGainMessage>Los datos descifrados no contienen nada que valga la pena, y nadie pudo aprender nada de ellos.</FFF_Research_UnsealNothingNoGainMessage>
+  <!-- EN: Show &quot;Building(Dev)&quot; category in dev mode -->
+  <FFF.Settings.ShowDevCategory>Mostrar la categoría "Building(Dev)" en el modo de desarrollo</FFF.Settings.ShowDevCategory>
+  <!-- EN: Contains god-mode-only map-design buildings from this framework and mods built on it. -->
+  <FFF.Settings.ShowDevCategory.Desc>Contiene edificios de diseño de mapas, solo para el modo dios, de este framework y de los mods construidos sobre él.</FFF.Settings.ShowDevCategory.Desc>
   <!-- EN: Colonist counts:{0} -->
   <FFF.ColonistCount>Cantidad de colonos: {0}</FFF.ColonistCount>
   <!-- EN: Device cooling: remain {0} -->
@@ -800,10 +860,6 @@ Expected yield: {0} -->
   <FFF.Shielded>Blindado</FFF.Shielded>
   <!-- EN: Deployed structure: {0} -->
   <FFF_StructureGenerated>Estructura desplegada: {0}</FFF_StructureGenerated>
-  <!-- EN: Restore substation power -->
-  <FFF_Substation_TurnOn>Restaurar la energía de la subestación</FFF_Substation_TurnOn>
-  <!-- EN: Manually restart this substation. No skill check required — the dangerous part is shutting it down. -->
-  <FFF_Substation_TurnOnDesc>Reinicia manualmente esta subestación. No requiere prueba de habilidad: lo peligroso es apagarla.</FFF_Substation_TurnOnDesc>
   <!-- EN: Hack to shut down -->
   <FFF_Substation_HackPrompt>Hackear para apagar</FFF_Substation_HackPrompt>
   <!-- EN: Offline (shut down) -->
@@ -818,6 +874,8 @@ Expected yield: {0} -->
   <FFF_Substation_EMPDisabled>Estado: deshabilitada por PEM</FFF_Substation_EMPDisabled>
   <!-- EN: {PAWN_labelShort} was shocked while shutting down the substation! -->
   <FFF_Substation_ShockMessage>¡{PAWN_labelShort} recibió una descarga mientras apagaba la subestación!</FFF_Substation_ShockMessage>
+  <!-- EN: With {SUBSTATION_label} down, {BUILDING_label} has switched off. -->
+  <FFF_Substation_FlickedOffMessage>Con {SUBSTATION_label} fuera de servicio, {BUILDING_label} se apagó.</FFF_Substation_FlickedOffMessage>
   <!-- EN: Workshop upload — excluded content -->
   <FFF_RimIgnore_Title>Subida al Workshop: contenido excluido</FFF_RimIgnore_Title>
   <!-- EN: {0} — upload filtered by {1} -->
