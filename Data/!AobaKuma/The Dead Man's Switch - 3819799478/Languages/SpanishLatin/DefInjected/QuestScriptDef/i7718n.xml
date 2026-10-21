@@ -12,16 +12,16 @@
   <!-- EN: freightWindow-&gt;the next orbital convoy assembly -->
   <!-- EN: freightWindow-&gt;the fleet&apos;s scheduled logistics uplift -->
   <DMS_SupplyChain.questDescriptionRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription-&gt;[asker_nameFull], a cargo de la logística de [issuerFactionName], nos reenvió un pedido de suministro a largo plazo de [categoryLabel]. Necesitan unos [totalStages] envíos de [categoryLabel], alrededor de [approxTotalCount] unidades en total, para [supplyPurpose].\n\nSegún sus cifras, el primer envío requiere alrededor de [firstCount]x [categoryLabel]. Si aceptamos abastecerlos, [asker_nameDef] va a [deployMethod] para desplegar una cápsula de carga móvil en [map_definite]. El primer envío debe cargarse y lanzarse en un plazo de [deadlineDays] días para alcanzar [freightWindow].\n\n[asker_nameDef] nos asegura que, si el primer envío se entrega a tiempo, los siguientes contratos de [categoryLabel] se nos seguirán ofreciendo primero a nosotros y, una vez completados todos los envíos, nos compensarán la diferencia de precio de los bienes a precio de mercado.</li>
+    <li>supplyPurpose-&gt;mantener abastecidas sus guarniciones avanzadas durante los próximos cuadrunes</li>
+    <li>supplyPurpose-&gt;cubrir un faltante en sus reservas en la superficie del planeta</li>
+    <li>supplyPurpose-&gt;abastecer los puestos de avanzada repartidos por su perímetro</li>
+    <li>supplyPurpose-&gt;reponer las provisiones que se perdieron cuando emboscaron un convoy de suministros</li>
+    <li>deployMethod-&gt;coordinar una plataforma orbital</li>
+    <li>deployMethod-&gt;desviar una nave de desembarco de su ruta de patrulla</li>
+    <li>deployMethod-&gt;requisar un turno de descenso en el centro de suministros de la flota</li>
+    <li>freightWindow-&gt;la ventana de salida del carguero de graneles</li>
+    <li>freightWindow-&gt;la próxima formación del convoy orbital</li>
+    <li>freightWindow-&gt;el envío logístico a órbita programado por la flota</li>
   </DMS_SupplyChain.questDescriptionRules.rulesStrings>
 </LanguageData>
