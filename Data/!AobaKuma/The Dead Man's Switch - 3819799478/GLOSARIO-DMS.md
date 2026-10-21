@@ -209,6 +209,7 @@ de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra co
 |---|---|---|
 | visual sensor | **sensor de visión** | Oficial. El ojo protésico `DMS_ProstheticEye` y la parte del cubo de basura |
 | crew member | **miembro de tripulación** | Oficial (Odyssey) |
+| rimworld / midworld / coreworld | **mundoborde** / **mundomedio** / **mundonúcleo** | Oficial, en una palabra (pl. «mundobordes»). Decía «mundo del borde», «mundo medio» y «Coreworld» sin traducir; lo encontró Angel en el juego |
 | Call aerodrone strike / salvo | **Solicitar ataque aéreo** / **Solicitar ataque aéreo múltiple** | Oficial. Los permisos `DMS_CallOrbitalStrike` y `DMS_CallOrbitalSalvo` |
 | butcher bird / cannon bird | **alcaudón** / **alcaudón cañón** | Los `PawnKindDef` del lanius (el alcaudón es el pájaro *Lanius*). El `ThingDef` dice «lanius» |
 | fleet colony | **colonia de la flota** | La facción `DMS_Colony` |
