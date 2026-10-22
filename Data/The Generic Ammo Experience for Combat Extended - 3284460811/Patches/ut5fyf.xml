@@ -12,7 +12,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="ShieldBelt"]/label</xpath>
           <value>
             <!-- EN: power shields -->
-            <label>TODO</label>
+            <label>escudos de energía</label>
           </value>
         </li>
       </operations>
@@ -30,7 +30,7 @@
           <xpath>/Defs/ThingDef[defName="Apparel_PlateArmor"]/description</xpath>
           <value>
             <!-- EN: Overlapping solid plates of armor cover the bulk of the body. When paired with plate boots, gloves and a helmet this armor offers complete head-to-toe protection. -->
-            <description>TODO</description>
+            <description>Placas sólidas solapadas de armadura que cubren la mayor parte del cuerpo. Junto con las botas, los guantes y el casco de placas, esta armadura ofrece una protección completa de la cabeza a los pies.</description>
           </value>
         </li>
       </operations>
@@ -48,7 +48,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="Greatbow"]/label</xpath>
           <value>
             <!-- EN: greatbows -->
-            <label>TODO</label>
+            <label>arcos grandes</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -56,7 +56,7 @@
           <xpath>/Defs/ResearchProjectDef[defName="Greatbow"]/generalRules/rulesStrings/li[6]</xpath>
           <value>
             <!-- EN: subject-&gt;warbows -->
-            <li>TODO</li>
+            <li>subject-&gt;arcos de guerra</li>
           </value>
         </li>
       </operations>

@@ -32,7 +32,7 @@
             <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/description</xpath>
             <value>
               <!-- EN: A simple axe head fastened to a handle. The wedge-shaped axe head allows the weapon to easily cut into flesh and makes it an effective weapon for one-handed combat. -->
-              <description>TODO</description>
+              <description>Una cabeza de hacha simple sujeta a un mango. Su forma de cuña le permite al arma cortar la carne con facilidad y la convierte en un arma eficaz para el combate a una mano.</description>
             </value>
           </li>
         </operations>
@@ -51,7 +51,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_TrenchGun"]/description</xpath>
           <value>
             <!-- EN: A heavy shotgun that packs a bigger punch than its regular pump-action counterparts. -->
-            <description>TODO</description>
+            <description>Una escopeta pesada que golpea con más fuerza que las escopetas comunes de acción de bombeo.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -59,7 +59,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_SMG"]/label</xpath>
           <value>
             <!-- EN: carbine -->
-            <label>TODO</label>
+            <label>carabina</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -67,7 +67,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_SMG"]/description</xpath>
           <value>
             <!-- EN: A compact carbine design, featuring a short-stroke gas piston system to improve reliability and reduce recoil. -->
-            <description>TODO</description>
+            <description>Una carabina compacta, con un sistema de pistón de gas de carrera corta que mejora la fiabilidad y reduce el retroceso.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -75,7 +75,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]/label</xpath>
           <value>
             <!-- EN: SMG -->
-            <label>TODO</label>
+            <label>SMG</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -83,7 +83,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]/description</xpath>
           <value>
             <!-- EN: A compact submachine gun. Whilst it doesn&apos;t have long range of fire, it deals significant damage in close range. -->
-            <description>TODO</description>
+            <description>Un subfusil compacto. Aunque no tiene mucho alcance, causa un daño considerable a corta distancia.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -91,7 +91,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_MarksmanRifle"]/description</xpath>
           <value>
             <!-- EN: A designated marksman rifle capable of firing rifle caliber rounds at extended ranges. -->
-            <description>TODO</description>
+            <description>Un fusil de tirador designado capaz de disparar proyectiles de calibre de fusil a grandes distancias.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -99,7 +99,7 @@
           <xpath>/Defs/ThingDef[defName="VWE_Gun_HMG"]/label</xpath>
           <value>
             <!-- EN: heavy machine gun -->
-            <label>TODO</label>
+            <label>ametralladora pesada</label>
           </value>
         </li>
       </operations>

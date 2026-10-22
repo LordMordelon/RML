@@ -8,7 +8,7 @@
         <xpath>/Defs/ThingCategoryDef[defName="SEX_MechAmmo"]/label</xpath>
         <value>
           <!-- EN: mech ammo -->
-          <label>TODO</label>
+          <label>munición mecanoide</label>
         </value>
       </li>
     </operations>
@@ -25,7 +25,7 @@
           <xpath>/Defs/ThingCategoryDef[defName="SEX_Nonlethal"]/label</xpath>
           <value>
             <!-- EN: non-lethal ammo -->
-            <label>TODO</label>
+            <label>munición no letal</label>
           </value>
         </li>
       </operations>
@@ -87,7 +87,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="SEX_JointOpsRailgun"]/label</xpath>
           <value>
             <!-- EN: heavy railgun -->
-            <label>TODO</label>
+            <label>cañón de riel pesado</label>
           </value>
         </li>
       </operations>
@@ -105,7 +105,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="SEX_FakeRocketGrenades"]/label</xpath>
           <value>
             <!-- EN: rocket grenade -->
-            <label>TODO</label>
+            <label>granada propulsada</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -113,7 +113,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="SEX_FakeMortarShells"]/label</xpath>
           <value>
             <!-- EN: mortar shell -->
-            <label>TODO</label>
+            <label>obús de mortero</label>
           </value>
         </li>
       </operations>
@@ -139,7 +139,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/label</xpath>
               <value>
                 <!-- EN: grenadier rifles -->
-                <label>TODO</label>
+                <label>fusiles con lanzagranadas</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -147,7 +147,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/description</xpath>
               <value>
                 <!-- EN: Assemble specialized variants of weapons with ordnance launchers. -->
-                <description>TODO</description>
+                <description>Ensambla variantes especializadas de armas con lanzadores de munición explosiva.</description>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -155,7 +155,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/generalRules/rulesStrings/li[1]</xpath>
               <value>
                 <!-- EN: subject-&gt;grenadier rifles -->
-                <li>TODO</li>
+                <li>subject-&gt;fusiles con lanzagranadas</li>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -163,7 +163,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/generalRules/rulesStrings/li[2]</xpath>
               <value>
                 <!-- EN: subject_story-&gt;breached an imperial outpost utilizing special rifles with grenade launchers -->
-                <li>TODO</li>
+                <li>subject_story-&gt;irrumpió en un puesto avanzado imperial usando fusiles especiales con lanzagranadas</li>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -171,7 +171,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/generalRules/rulesStrings/li[3]</xpath>
               <value>
                 <!-- EN: subject_story-&gt;attached an improvised grenade launcher onto their rifle -->
-                <li>TODO</li>
+                <li>subject_story-&gt;le acopló un lanzagranadas improvisado a su fusil</li>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -179,7 +179,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/generalRules/rulesStrings/li[4]</xpath>
               <value>
                 <!-- EN: subject_story-&gt;made a living tinkering with rifles -->
-                <li>TODO</li>
+                <li>subject_story-&gt;se ganó la vida modificando fusiles</li>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -187,7 +187,7 @@
               <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadierRifles"]/generalRules/rulesStrings/li[5]</xpath>
               <value>
                 <!-- EN: subject_gerund-&gt;crafting grenadier rifles -->
-                <li>TODO</li>
+                <li>subject_gerund-&gt;fabricación de fusiles con lanzagranadas</li>
               </value>
             </li>
           </operations>
@@ -211,7 +211,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierBattleRifle"]/label</xpath>
             <value>
               <!-- EN: grenadier battle rifle -->
-              <label>TODO</label>
+              <label>fusil de batalla con lanzagranadas</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -219,7 +219,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierBattleRifle"]/description</xpath>
             <value>
               <!-- EN: A bulky military battle rifle firing full-power rifle cartridges with a grenade launcher built into the weapon. -->
-              <description>TODO</description>
+              <description>Un voluminoso fusil de batalla militar que dispara cartuchos de fusil de potencia completa, con un lanzagranadas integrado en el arma.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -227,7 +227,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierBattleRifle"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
             <value>
               <!-- EN: grenadier battle rifle -->
-              <label>TODO</label>
+              <label>fusil de batalla con lanzagranadas</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -259,7 +259,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierServiceRifle"]/label</xpath>
             <value>
               <!-- EN: grenadier service rifle -->
-              <label>TODO</label>
+              <label>fusil de servicio con lanzagranadas</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -267,7 +267,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierServiceRifle"]/description</xpath>
             <value>
               <!-- EN: A versatile and rugged assault rifle with a grenade launcher attached to the weapon. Popular with urbworld militia forces and rimworld mercenaries due to the flexibility it offers. -->
-              <description>TODO</description>
+              <description>Un fusil de asalto versátil y resistente con un lanzagranadas acoplado. Es popular entre las milicias de los mundourbanos y los mercenarios de los mundobordes por la flexibilidad que ofrece.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -275,7 +275,7 @@
             <xpath>/Defs/ThingDef[defName="SEX_GrenadierServiceRifle"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
             <value>
               <!-- EN: grenadier service rifle -->
-              <label>TODO</label>
+              <label>fusil de servicio con lanzagranadas</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -318,7 +318,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_HFT_SuperheavyShell"]/label</xpath>
           <value>
             <!-- EN: superheavy cannon shell -->
-            <label>TODO</label>
+            <label>obús de cañón ultrapesado</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -326,7 +326,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_HE"]/description</xpath>
           <value>
             <!-- EN: Large cannon shell mainly used by naval guns. -->
-            <description>TODO</description>
+            <description>Obús de cañón grande, usado sobre todo por los cañones navales.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -334,7 +334,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_HE"]/label</xpath>
           <value>
             <!-- EN: superheavy cannon shell (HE) -->
-            <label>TODO</label>
+            <label>obús de cañón ultrapesado (HE)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -342,7 +342,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Incendiary"]/description</xpath>
           <value>
             <!-- EN: Large cannon shell mainly used by naval guns. -->
-            <description>TODO</description>
+            <description>Obús de cañón grande, usado sobre todo por los cañones navales.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -350,7 +350,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Incendiary"]/label</xpath>
           <value>
             <!-- EN: superheavy cannon shell (Incendiary) -->
-            <label>TODO</label>
+            <label>obús de cañón ultrapesado (incendiario)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -358,7 +358,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Prox"]/description</xpath>
           <value>
             <!-- EN: Large cannon shell mainly used by naval guns. -->
-            <description>TODO</description>
+            <description>Obús de cañón grande, usado sobre todo por los cañones navales.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -366,7 +366,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Prox"]/label</xpath>
           <value>
             <!-- EN: superheavy cannon shell (Proximity Fuse) -->
-            <label>TODO</label>
+            <label>obús de cañón ultrapesado (espoleta de proximidad)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -374,7 +374,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Sabot"]/description</xpath>
           <value>
             <!-- EN: Large cannon shell mainly used by naval guns. -->
-            <description>TODO</description>
+            <description>Obús de cañón grande, usado sobre todo por los cañones navales.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -382,7 +382,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyShell_Sabot"]/label</xpath>
           <value>
             <!-- EN: superheavy cannon shell (Sabot) -->
-            <label>TODO</label>
+            <label>obús de cañón ultrapesado (Sabot)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -390,7 +390,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_HE"]/label</xpath>
           <value>
             <!-- EN: make superheavy cannon shell (HE) cartridge x2 -->
-            <label>TODO</label>
+            <label>fabricar obús de cañón ultrapesado (HE) x2</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -398,7 +398,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_HE"]/description</xpath>
           <value>
             <!-- EN: Craft 2 superheavy cannon shell (HE) cartridges. -->
-            <description>TODO</description>
+            <description>Fabrica 2 obuses de cañón ultrapesados (HE).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -406,7 +406,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_HE"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy cannon shell (HE) cartridges. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando obuses de cañón ultrapesados (HE).</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -414,7 +414,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Incendiary"]/label</xpath>
           <value>
             <!-- EN: make superheavy cannon shell (Incendiary) cartridge x2 -->
-            <label>TODO</label>
+            <label>fabricar obús de cañón ultrapesado (incendiario) x2</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -422,7 +422,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Incendiary"]/description</xpath>
           <value>
             <!-- EN: Craft 2 superheavy cannon shell (Incendiary) cartridges. -->
-            <description>TODO</description>
+            <description>Fabrica 2 obuses de cañón ultrapesados (incendiario).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -430,7 +430,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Incendiary"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy cannon shell (Incendiary) cartridges. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando obuses de cañón ultrapesados (incendiario).</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -438,7 +438,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Prox"]/label</xpath>
           <value>
             <!-- EN: make superheavy cannon shell (Proximity) cartridge x2 -->
-            <label>TODO</label>
+            <label>fabricar obús de cañón ultrapesado (espoleta de proximidad) x2</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -446,7 +446,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Prox"]/description</xpath>
           <value>
             <!-- EN: Craft 2 superheavy cannon shell (Proximity) cartridges. -->
-            <description>TODO</description>
+            <description>Fabrica 2 obuses de cañón ultrapesados (espoleta de proximidad).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -454,7 +454,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Prox"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy cannon shell (Proximity) cartridges. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando obuses de cañón ultrapesados (espoleta de proximidad).</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -462,7 +462,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Sabot"]/label</xpath>
           <value>
             <!-- EN: make superheavy cannon shell (Sabot) cartridge x2 -->
-            <label>TODO</label>
+            <label>fabricar obús de cañón ultrapesado (Sabot) x2</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -470,7 +470,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Sabot"]/description</xpath>
           <value>
             <!-- EN: Craft 2 superheavy cannon shell (Sabot) cartridges. -->
-            <description>TODO</description>
+            <description>Fabrica 2 obuses de cañón ultrapesados (Sabot).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -478,7 +478,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyShell_Sabot"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy cannon shell (Sabot) cartridges. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando obuses de cañón ultrapesados (Sabot).</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -486,7 +486,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_HFT_SuperheavyRocket"]/label</xpath>
           <value>
             <!-- EN: superheavy rocket -->
-            <label>TODO</label>
+            <label>cohete ultrapesado</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -494,7 +494,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyRocket_HE"]/description</xpath>
           <value>
             <!-- EN: 220mm Heavy rocket used in multiple rocket launch systems. -->
-            <description>TODO</description>
+            <description>Cohete pesado de 220mm usado en los sistemas de lanzacohetes múltiples.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -502,7 +502,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyRocket_HE"]/label</xpath>
           <value>
             <!-- EN: superheavy rocket (HE) -->
-            <label>TODO</label>
+            <label>cohete ultrapesado (HE)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -510,7 +510,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyRocket_Incendiary"]/description</xpath>
           <value>
             <!-- EN: 220mm Heavy rocket used in multiple rocket launch systems. -->
-            <description>TODO</description>
+            <description>Cohete pesado de 220mm usado en los sistemas de lanzacohetes múltiples.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -518,7 +518,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_HFT_SuperheavyRocket_Incendiary"]/label</xpath>
           <value>
             <!-- EN: superheavy rocket (Incendiary) -->
-            <label>TODO</label>
+            <label>cohete ultrapesado (incendiario)</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -526,7 +526,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_HE"]/label</xpath>
           <value>
             <!-- EN: make superheavy rocket (HE) x1 -->
-            <label>TODO</label>
+            <label>fabricar cohete ultrapesado (HE) x1</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -534,7 +534,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_HE"]/description</xpath>
           <value>
             <!-- EN: Craft 1 superheavy rocket (HE). -->
-            <description>TODO</description>
+            <description>Fabrica un cohete ultrapesado (HE).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -542,7 +542,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_HE"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy rocket (HE). -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando cohete ultrapesado (HE).</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -550,7 +550,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_Incendiary"]/label</xpath>
           <value>
             <!-- EN: make superheavy rocket (Incendiary) x1 -->
-            <label>TODO</label>
+            <label>fabricar cohete ultrapesado (incendiario) x1</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -558,7 +558,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_Incendiary"]/description</xpath>
           <value>
             <!-- EN: Craft 1 superheavy rocket (Incendiary). -->
-            <description>TODO</description>
+            <description>Fabrica un cohete ultrapesado (incendiario).</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -566,7 +566,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_HFT_SuperheavyRocket_Incendiary"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy rocket (Incendiary). -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando cohete ultrapesado (incendiario).</jobString>
           </value>
         </li>
       </operations>
@@ -584,7 +584,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_ImpactShellGeneric"]/label</xpath>
           <value>
             <!-- EN: impact shells -->
-            <label>TODO</label>
+            <label>proyectiles de impacto</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -592,7 +592,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_ImpactShells"]/label</xpath>
           <value>
             <!-- EN: Impact shells -->
-            <label>TODO</label>
+            <label>proyectiles de impacto</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -600,7 +600,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_ImpactShells"]/labelShort</xpath>
           <value>
             <!-- EN: impact -->
-            <labelShort>TODO</labelShort>
+            <labelShort>impacto</labelShort>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -608,7 +608,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_ImpactShells"]/description</xpath>
           <value>
             <!-- EN: A large caliber, gryojet-stabilized projectile with an explosive charge. -->
-            <description>TODO</description>
+            <description>Un proyectil giroestabilizado de gran calibre con una carga explosiva.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -616,7 +616,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_GenericImpactShells"]/label</xpath>
           <value>
             <!-- EN: Impact shell -->
-            <label>TODO</label>
+            <label>proyectil de impacto</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -624,7 +624,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_GenericImpactShells"]/label</xpath>
           <value>
             <!-- EN: make impact shell x200 -->
-            <label>TODO</label>
+            <label>fabricar proyectil de impacto x200</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -632,7 +632,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_GenericImpactShells"]/description</xpath>
           <value>
             <!-- EN: Craft 200 impact shells. -->
-            <description>TODO</description>
+            <description>Fabrica 200 proyectiles de impacto.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -640,7 +640,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_GenericImpactShells"]/jobString</xpath>
           <value>
             <!-- EN: Making impact shells. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando proyectiles de impacto.</jobString>
           </value>
         </li>
       </operations>
@@ -658,7 +658,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_PlasmaImmolatorLaserCall"]/label</xpath>
           <value>
             <!-- EN: laser cell -->
-            <label>TODO</label>
+            <label>célula láser</label>
           </value>
         </li>
       </operations>
@@ -676,7 +676,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_SOS2Shell"]/label</xpath>
           <value>
             <!-- EN: superheavy uranium slug -->
-            <label>TODO</label>
+            <label>bala de uranio ultrapesada</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -684,7 +684,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_SOS2Shell"]/labelShort</xpath>
           <value>
             <!-- EN: superheavy uranium slug -->
-            <labelShort>TODO</labelShort>
+            <labelShort>bala de uranio ultrapesada</labelShort>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -692,7 +692,7 @@
           <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="SEX_SOS2Shell"]/description</xpath>
           <value>
             <!-- EN: Superheavy uranium slug shell used by starship cannons. -->
-            <description>TODO</description>
+            <description>Bala de uranio ultrapesada usada por los cañones de las naves estelares.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -700,7 +700,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_SEX_SOS2FakeCannonShells"]/description</xpath>
           <value>
             <!-- EN: Superheavy uranium slug shell used by starship cannons. -->
-            <description>TODO</description>
+            <description>Bala de uranio ultrapesada usada por los cañones de las naves estelares.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -708,7 +708,7 @@
           <xpath>/Defs/ThingDef[defName="Ammo_SEX_SOS2FakeCannonShells"]/label</xpath>
           <value>
             <!-- EN: superheavy uranium slug -->
-            <label>TODO</label>
+            <label>bala de uranio ultrapesada</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -716,7 +716,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_SEX_SOS2FakeCannonShells"]/label</xpath>
           <value>
             <!-- EN: make superheavy uranium slug x25 -->
-            <label>TODO</label>
+            <label>fabricar bala de uranio ultrapesada x25</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -724,7 +724,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_SEX_SOS2FakeCannonShells"]/description</xpath>
           <value>
             <!-- EN: Craft 25 superheavy uranium slugs. -->
-            <description>TODO</description>
+            <description>Fabrica 25 balas de uranio ultrapesadas.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -732,7 +732,7 @@
           <xpath>/Defs/RecipeDef[defName="MakeAmmo_SEX_SOS2FakeCannonShells"]/jobString</xpath>
           <value>
             <!-- EN: Making superheavy uranium slugs. -->
-            <jobString>TODO</jobString>
+            <jobString>Fabricando balas de uranio ultrapesadas.</jobString>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -740,7 +740,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SOS2FakeCannonShells"]/label</xpath>
           <value>
             <!-- EN: superheavy uranium slugs -->
-            <label>TODO</label>
+            <label>balas de uranio ultrapesadas</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -748,7 +748,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannon"]/label</xpath>
           <value>
             <!-- EN: cannon -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -756,7 +756,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannon"]/description</xpath>
           <value>
             <!-- EN: A heavy cannon mounted on the hull of a ship. -->
-            <description>TODO</description>
+            <description>Un cañón pesado montado en el casco de una nave.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -764,7 +764,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannon"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
           <value>
             <!-- EN: cannon -->
-            <label>TODO</label>
+            <label>cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -772,7 +772,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonBig"]/label</xpath>
           <value>
             <!-- EN: artillery turret -->
-            <label>TODO</label>
+            <label>torreta de artillería</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -780,7 +780,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonBig"]/description</xpath>
           <value>
             <!-- EN: A superheavy cannon mounted on the hull of a ship. -->
-            <description>TODO</description>
+            <description>Un cañón ultrapesado montado en el casco de una nave.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -788,7 +788,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonBig"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
           <value>
             <!-- EN: artillery turret -->
-            <label>TODO</label>
+            <label>torreta de artillería</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -796,7 +796,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonGauss"]/label</xpath>
           <value>
             <!-- EN: railgun turret -->
-            <label>TODO</label>
+            <label>torreta de cañón de riel</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -804,7 +804,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonGauss"]/description</xpath>
           <value>
             <!-- EN: A superheavy gauss cannon mounted on the hull of a ship. -->
-            <description>TODO</description>
+            <description>Un cañón gauss ultrapesado montado en el casco de una nave.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -812,7 +812,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_FakeShipCannonGauss"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
           <value>
             <!-- EN: railgun turret -->
-            <label>TODO</label>
+            <label>torreta de cañón de riel</label>
           </value>
         </li>
       </operations>
@@ -834,7 +834,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_SEX_SOS2FakeCannonShellsStarshipParts"]/label</xpath>
             <value>
               <!-- EN: make superheavy uranium slug x25 with starship parts -->
-              <label>TODO</label>
+              <label>fabricar bala de uranio ultrapesada x25 con piezas de nave estelar</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -842,7 +842,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_SEX_SOS2FakeCannonShellsStarshipParts"]/description</xpath>
             <value>
               <!-- EN: Craft 25 superheavy uranium slugs using starship parts. -->
-              <description>TODO</description>
+              <description>Fabrica 25 balas de uranio ultrapesadas con piezas de nave estelar.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -850,7 +850,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_SEX_SOS2FakeCannonShellsStarshipParts"]/jobString</xpath>
             <value>
               <!-- EN: Making superheavy uranium slugs. -->
-              <jobString>TODO</jobString>
+              <jobString>Fabricando balas de uranio ultrapesadas.</jobString>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -858,7 +858,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_RailgunSabotStarshipParts"]/label</xpath>
             <value>
               <!-- EN: make railgun sabot x500 with starship parts -->
-              <label>TODO</label>
+              <label>fabricar sabot de cañón de riel x500 con piezas de nave estelar</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -866,7 +866,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_RailgunSabotStarshipParts"]/description</xpath>
             <value>
               <!-- EN: Craft 500 railgun sabots using starship parts. -->
-              <description>TODO</description>
+              <description>Fabrica 500 sabots de cañón de riel con piezas de nave estelar.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -874,7 +874,7 @@
             <xpath>/Defs/RecipeDef[defName="AltMakeAmmo_RailgunSabotStarshipParts"]/jobString</xpath>
             <value>
               <!-- EN: Making railgun sabots. -->
-              <jobString>TODO</jobString>
+              <jobString>Fabricando sabots de cañón de riel.</jobString>
             </value>
           </li>
         </operations>
@@ -893,7 +893,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_CannonBall_Indirect"]/label</xpath>
           <value>
             <!-- EN: Cannon balls -->
-            <label>TODO</label>
+            <label>balas de cañón</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -935,7 +935,7 @@
           <xpath>/Defs/VFED.ContrabandCategoryDef[defName="SEX_AmmoContrabandCategory"]/label</xpath>
           <value>
             <!-- EN: munitions -->
-            <label>TODO</label>
+            <label>munición</label>
           </value>
         </li>
       </operations>
@@ -953,7 +953,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_ArtilleryShellsDrop"]/label</xpath>
           <value>
             <!-- EN: artillery shells drop -->
-            <label>TODO</label>
+            <label>solicitar obuses de artillería</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -961,7 +961,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_ArtilleryShellsDrop"]/description</xpath>
           <value>
             <!-- EN: Call for a drop of 10 high-explosive artillery shells. -->
-            <description>TODO</description>
+            <description>Solicita un pedido de transporte aéreo de 10 obuses de artillería explosivos.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -969,7 +969,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_Resupply"]/label</xpath>
           <value>
             <!-- EN: call munitions resupply -->
-            <label>TODO</label>
+            <label>solicitar reabastecimiento de munición</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -977,7 +977,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_Resupply"]/description</xpath>
           <value>
             <!-- EN: Call for a munitions resupply. You will be supplied with roughly three magazines of ammo for every colonist under your control. You will be provided with a standard shipment of rifle ammo if none of your colonists bear any ranged weapons. -->
-            <description>TODO</description>
+            <description>Solicita un reabastecimiento de munición. Recibirás unos tres cargadores de munición por cada colono bajo tu mando. Si ninguno de tus colonos lleva un arma a distancia, recibirás un envío estándar de munición de fusil.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -985,7 +985,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_Restock"]/label</xpath>
           <value>
             <!-- EN: call munitions restock -->
-            <label>TODO</label>
+            <label>solicitar reposición de munición</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -993,7 +993,7 @@
           <xpath>/Defs/RoyalTitlePermitDef[defName="SEX_Restock"]/description</xpath>
           <value>
             <!-- EN: Call for a munitions restock. You will be supplied with roughly five magazines of ammo for every colonist under your control.  You will be provided with a standard shipment of rifle ammo if none of your colonists bear any ranged weapons. -->
-            <description>TODO</description>
+            <description>Solicita una reposición de munición. Recibirás unos cinco cargadores de munición por cada colono bajo tu mando. Si ninguno de tus colonos lleva un arma a distancia, recibirás un envío estándar de munición de fusil.</description>
           </value>
         </li>
       </operations>
@@ -1011,7 +1011,7 @@
           <xpath>/Defs/HediffDef[defName="SEX_FastReload"]/label</xpath>
           <value>
             <!-- EN: rapid reloads -->
-            <label>TODO</label>
+            <label>recarga rápida</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -1019,7 +1019,7 @@
           <xpath>/Defs/HediffDef[defName="SEX_FastReload"]/description</xpath>
           <value>
             <!-- EN: A nearby ammo crate is allowing this person to rapidly reload their weapon. -->
-            <description>TODO</description>
+            <description>Una caja de munición cercana le permite a esta persona recargar su arma rápidamente.</description>
           </value>
         </li>
       </operations>
@@ -1037,7 +1037,7 @@
           <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_ChargeLanceWrapper"]/label</xpath>
           <value>
             <!-- EN: charged railgun -->
-            <label>TODO</label>
+            <label>cañón de riel de carga</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -1045,7 +1045,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_ChargeLance_VWE"]/label</xpath>
           <value>
             <!-- EN: charge lance -->
-            <label>TODO</label>
+            <label>lanza de cargas</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -1053,7 +1053,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_ChargeLance_VWE"]/description</xpath>
           <value>
             <!-- EN: A pulse-charged rail-assisted lance weapon. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. -->
-            <description>TODO</description>
+            <description>Un arma de lanza asistida por carriles con carga de pulsos. Dispara un solo tiro a gran velocidad, cargándolo de energía inestable al salir del carril de aceleración.</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -1061,7 +1061,7 @@
           <xpath>/Defs/ThingDef[defName="SEX_ChargeLance_VWE"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
           <value>
             <!-- EN: charge lance -->
-            <label>TODO</label>
+            <label>lanza de cargas</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -1080,7 +1080,7 @@
     <xpath>/Defs/ThingCategoryDef[defName="AmmoFuelCell"]/label</xpath>
     <value>
       <!-- EN: fuel cells -->
-      <label>TODO</label>
+      <label>células de combustible</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -1088,7 +1088,7 @@
     <xpath>/Defs/ThingCategoryDef[defName="AmmoMissile"]/label</xpath>
     <value>
       <!-- EN: missiles -->
-      <label>TODO</label>
+      <label>misiles</label>
     </value>
   </Operation>
 </Patch>

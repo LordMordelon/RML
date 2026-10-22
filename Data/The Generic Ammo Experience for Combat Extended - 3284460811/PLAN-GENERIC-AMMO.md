@@ -16,6 +16,24 @@ Copia de https://github.com/LordMordelon/RML/issues/4. Al avanzar, actualizar lo
   tiene erratas («r grenades», «(HE) cartridges» en un misil, una sin cantidad) o el plural lleva adjetivo
   («células de combustible incendiarias», «granadas propulsadas»). Las 72 leídas y con la cantidad del def.
 
+**22-oct-2026, sesión 2:** `Patches/` traducido a mano, cero `TODO` en todo el mod (156 renglones, 16
+archivos). Sin scripts: cada texto con el editor, sobre su `TODO`.
+
+- **Nombres de armas y defs de otros mods** copiados de su carpeta en RML (VWE, Quickdraw, VFE Pirates,
+  Deserters, Empire, VAE, VAEA) o del juego oficial («lanza de cargas», «arco grande», «escudos»,
+  «obús tóxico», «obús de necrovita»). Las descripciones que el mod reescribe se tradujeron desde su inglés,
+  reusando las frases de la traducción que RML ya tenía.
+- **Renombres del mod que chocan con el juego:** «automatic pistol» de Quickdraw queda «pistola ligera», como
+  en RML, porque «pistola automática» ya es la del juego base. Los demás renombres van como dice el mod:
+  «carabina», «SMG», «ametralladora pesada», «cañón automático portátil».
+- **Ojo, en el juego:** cuando el mod dueño del def tiene su propia carpeta en RML (VWE, VFE, VAE…), el
+  `DefInjected` de esa carpeta se aplica después del patch y gana, así que se ve el nombre de esa carpeta y no
+  el de este mod. Lo mismo con los defs del juego oficial. No es un error de esta traducción.
+- **Recetas de `Patches/`** (Highfleet Turrets, Impact Weaponry, Save Our Ship 2): con las reglas de CE, el
+  nombre del producto y la cantidad del def (todas coinciden con el inglés).
+- **Permisos de VFE Empire** con la plantilla oficial: «solicitar …» / «Solicita un pedido de transporte
+  aéreo de …».
+
 ## Términos de este mod
 
 Siguen al glosario de Combat Extended; esto es lo que este mod agrega. Usarlos igual en `Patches/`.
@@ -36,40 +54,24 @@ Siguen al glosario de Combat Extended; esto es lo que este mod agrega. Usarlos i
 | X auto-turret | torreta automática X | lanzagranadas, de escopeta, lanzallamas. *mini* → «minitorreta automática»; *light* → «torreta automática ligera» |
 | X mortar shell | obús de mortero X | «obús de mortero explosivo», «… cortafuego», «… de antigrano» |
 | mm sharp / mpa blunt | mm cortante / MPa contundente | Este mod reemplaza `CE_mmRHA` y `CE_MPa` de CE |
+| superheavy (shell, rocket, uranium slug) | ultrapesado/a | «obús de cañón ultrapesado», «cohete ultrapesado», «bala de uranio ultrapesada». Como los «mecas ultrapesados» de RML |
+| Proximity Fuse | espoleta de proximidad | «obús de cañón ultrapesado (espoleta de proximidad)» |
+| grenadier rifle | fusil con lanzagranadas | «fusil de batalla con lanzagranadas», «fusil de servicio con lanzagranadas» (los nombres de VWE en RML) |
+| impact shell | proyectil de impacto | Como `DV_Bullet_ImpactCannon` de Impact Weaponry. `labelShort`: «impacto» |
+| starship parts | piezas de nave estelar | Save Our Ship 2 |
+| throwspikes / smashing rock | púas arrojadizas / piedra aplastante | VFE Tribals; no tenían traducción en RML |
+| harquebusier / warbow | arcabucero / arco de guerra | Como los arcabuceros de Dead Man's Switch |
 
 Las armas del juego base que el mod renombra llevan siempre el nombre oficial, aunque el inglés del mod lo
 cambie (Angel, 22-oct-2026): «light machine gun» → «LMG», «pistol» → «pistola automática», «pilum» → «pila». La frase de las torretas («Its dumb AI brain…») es la oficial de la minitorreta.
 
-## Próxima sesión (22-oct-2026, después de la sesión 1)
+## Pendiente
 
-**Objetivo:** traducir los `Patches/` de The Generic Ammo Experience for Combat Extended.
-
-**Estado:** `DefInjected` y `Keyed` traducidos y en el commit `8356cce` de `master`, **sin subir**. Quedan
-**156 `TODO` en `Patches/`** (contados; 16 archivos, 99 de ellos en `z47okr.xml`). Los 15 que ya estaban en
-Combat Extended se copiaron por script. `About.xml`, `LoadFolders.xml`, `ModList.tsv` y `docs/index.html`
-siguen modificados sin commit: son los generados de la extracción.
-
-**Antes de empezarla (Angel):**
-1. Decir si se sube el commit `8356cce` ahora o junto con `Patches/`.
-
-**Al empezar (Claude):**
-1. Leer «Términos de este mod» en `PLAN-GENERIC-AMMO.md` y los glosarios de Combat Extended.
-2. Traducir los 156 `TODO` de `Patches/` a mano. Son compatibilidades con otros mods (Highfleet Turrets,
-   Impact Weaponry, Grenadier rifles, Dead Man's Switch, etc.): el nombre de cada arma se copia de la carpeta
-   de su mod en RML si existe. Hay 30 textos de recetas (contados): van a mano con las reglas de CE (sección 6 del glosario).
-   Caben en una sesión (estimado).
-3. Cero `TODO`, XML bien formados, las tres comprobaciones de `RML/AGENTS.md`, `-copia`, y commit solo de la
-   carpeta del mod.
-
-**Decisiones de Angel:** ninguna pendiente. Las de la sesión 1 (copiar de CE y recetas por script, con
-revisión) ya se aplicaron; no se extienden a `Patches/` sin volver a preguntar.
-
-**Guías:** `traspaso` al cerrar si no alcanza.
-
-**Dónde leer:**
-- `Data/The Generic Ammo Experience for Combat Extended - 3284460811/PLAN-GENERIC-AMMO.md` («Avance» y «Términos de este mod»)
-- `Data/Combat Extended - 2890901044/GLOSARIO-COMBAT-EXTENDED.md` y `GLOSARIO-CE-COMPATIBILIDAD.md`
-- `RML/AGENTS.md` («Editar XML de traducción» y las comprobaciones del diff)
+- **Subir** los commits de las dos sesiones (`8356cce` y siguientes, sin subir al 22-oct-2026): lo decide Angel.
+- **Probar en el juego** con Combat Extended y este mod: que la munición, las recetas y la configuración salgan en
+  español.
+- `About.xml`, `LoadFolders.xml`, `ModList.tsv` y `docs/index.html` siguen modificados sin commit: son los
+  generados de la extracción, y la CI los rehace al subir.
 
 Nota: **Buffs 'n Nerfs for the Generic Ammo Experience** (3304694092) sigue fuera de RML; si tiene texto, va
 en otra sesión.
