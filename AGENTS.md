@@ -86,9 +86,10 @@ cuatro prefijos distintos—, y se normaliza antes de comparar.
 
 `Ajustes/` es para cuando una traducción correcta no sirve junto a otro mod. Nice Health Tab
 muestra el `AllowFood` del juego seguido de «:» en una columna angosta, y «Permitir comida» se
-cortaba: con ese mod activo, `Ajustes/Nice Health Tab - 3328729902/` lo cambia por «Comida».
-El autor agregó su propia clave, `NHT_AllowFood`, el 22-oct-2026. Cómo agregar un ajuste y
-cuándo sacarlo está en [Ajustes/README.md](Ajustes/README.md).
+cortaba: con ese mod activo, `Ajustes/Nice Health Tab - 3328729902/` lo cambiaba por «Comida».
+El autor agregó su propia clave, `NHT_AllowFood`, el 22-oct-2026, y el ajuste se sacó: hoy la
+carpeta no tiene ninguno. Cómo agregar un ajuste y cuándo sacarlo está en
+[Ajustes/README.md](Ajustes/README.md).
 
 - **Solo arreglos de espacio o de contexto, nunca para traducir.** Una traducción va en `Data/`,
   por el extractor. Lo que se pone acá le gana a todo lo demás y nadie lo revisa al reextraer.
