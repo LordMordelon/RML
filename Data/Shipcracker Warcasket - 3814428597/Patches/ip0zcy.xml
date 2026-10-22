@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Gravship Expanded - Chapter 1</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VFEPirates.WarcasketDef[defName="SCWC_WarcasketHelmet_Shipcracker"]/comps/li[@Class="VanillaGravshipExpanded.CompProperties_ApparelOxygenProvider"]/chargeNoun</xpath>
+          <value>
+            <!-- EN: oxygen u³ -->
+            <chargeNoun>oxígeno u³</chargeNoun>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
