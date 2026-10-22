@@ -211,7 +211,8 @@ historia con `master` y no se une nunca.
 Se marca desde la página abierta con `?revisar` al final de la dirección
 (`https://lordmordelon.github.io/RML/?revisar`): cada fila atrasada muestra «marcar como
 revisada», que abre un issue ya escrito. Al crearlo, `revisado.yml` anota la fecha, republica la
-página y cierra el issue. Solo actúa con issues del dueño del repo.
+página y cierra el issue. Solo actúa con issues del dueño del repo. Esos issues llevan la
+etiqueta `revisión`, que los separa de los de traducción: la pide el enlace y la pone el flujo.
 
 Junto al filtro aparece además «marcar las N como revisadas», que hace lo mismo con todas las
 atrasadas en un solo issue. Ese issue lleva una línea `- <WorkshopID> <fecha>` por mod, y se anota

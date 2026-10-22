@@ -59,6 +59,10 @@ jobs:
             gh api "repos/$REPO/issues/$NUMERO/comments" -f body="$1" > /dev/null
           }
 
+          # La etiqueta que los separa de los issues de traducción. El enlace de la página ya la
+          # pide, pero GitHub la ignora si quien abre el issue no puede etiquetar.
+          gh api "repos/$REPO/issues/$NUMERO/labels" -f "labels[]=revisión" > /dev/null || true
+
           nombre_de() {
             awk -F'\t' -v id="$1" '$1 == id { print $2; exit }' ModList.tsv
           }

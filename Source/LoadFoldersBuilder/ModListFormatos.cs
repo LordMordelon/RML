@@ -249,9 +249,16 @@ public static class ModListFormatos
         string Titulo = $"Revisado: {WorkshopID} {Fila.Nombre}";
         string Cuerpo = $"La actualización del {Fila.Actualizacion} en Steam de {Fila.Nombre} no cambiaba nada que traducir.\n\n"
                         + "Al crear este issue, GitHub lo anota en Revisados.tsv, actualiza la página y lo cierra.";
-        return "https://github.com/LordMordelon/RML/issues/new"
-               + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}";
+        return EnlaceIssue(Titulo, Cuerpo);
     }
+
+    /** Con la etiqueta «revisión», para que estos issues no se mezclen con los de traduccion.
+     *  GitHub solo la toma del enlace si quien abre el issue puede etiquetar; revisado.yml la
+     *  pone igual al anotarlo.
+     */
+    private static string EnlaceIssue(string Titulo, string Cuerpo)
+        => "https://github.com/LordMordelon/RML/issues/new"
+           + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}&labels={Uri.EscapeDataString("revisión")}";
 
     /** El issue que marca de una vez todas las que la pagina muestra como posiblemente atrasadas.
      *  Cada una va en su linea, «- WorkshopID fecha», con la fecha de Steam que mostraba la pagina:
@@ -265,7 +272,6 @@ public static class ModListFormatos
         string Cuerpo = $"Las actualizaciones en Steam de estos {Filas.Count} mods no cambiaban nada que traducir.\n\n"
                         + string.Join("\n", Filas.Select(Fila => $"- {Fila.WorkshopID} {Fila.Actualizacion}"))
                         + "\n\nAl crear este issue, GitHub los anota en Revisados.tsv, actualiza la página y lo cierra.";
-        return "https://github.com/LordMordelon/RML/issues/new"
-               + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}";
+        return EnlaceIssue(Titulo, Cuerpo);
     }
 }
