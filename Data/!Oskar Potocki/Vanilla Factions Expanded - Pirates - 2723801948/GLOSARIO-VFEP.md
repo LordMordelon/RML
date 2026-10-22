@@ -106,13 +106,12 @@ oficiales de animales y cosas se respetan: *Boomalopes* son «bumalopes».
 
 ## Pendientes
 
-Ver «Inspección del 22-oct-2026» abajo: lo que se encontró y todavía no se corrige.
+Ninguno. La inspección del 22-oct-2026 no encontró ningún `TODO`, y lo de la tabla de abajo se
+corrigió el mismo día, aprobado por Angel.
 
-### Inspección del 22-oct-2026
+### Inspección del 22-oct-2026 (corregido)
 
-No hay ningún `TODO`. Lo que queda por corregir:
-
-| Dónde | Hoy dice | Propuesta |
+| Dónde | Decía | Quedó |
 |---|---|---|
 | `ThingDef` · `VFEP_WarcasketGun_CryptoCannon.label` y su `verbs.Verb_Shoot.label` | criptocañón de warcasket | criptocañón (sarcotraje) |
 | `ThingDef` · `VFEP_WarcasketGun_CryptoCannon.description` | un par de warcaskets veloces | un par de sarcotrajes veloces |
