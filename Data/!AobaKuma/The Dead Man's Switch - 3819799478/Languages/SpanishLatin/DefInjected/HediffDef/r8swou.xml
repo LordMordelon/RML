@@ -71,7 +71,7 @@
   <!-- EN: Due to modifications of circulatory system, synthetic bionic enhancements can be rejected temporarily by the body. The effect does not last long, and the body&apos;s ability to fight infections is reduced for its duration. -->
   <DMS_SyntheticRejection.description>Debido a las modificaciones del sistema circulatorio, las mejoras biónicas sintéticas pueden ser rechazadas temporalmente por el cuerpo. El efecto no dura mucho y la capacidad del cuerpo para combatir infecciones se reduce durante su duración.</DMS_SyntheticRejection.description>
   <!-- EN: Bionic Rejection Syndrome has been cured. -->
-  <DMS_SyntheticRejection.comps.0.message>El síndrome de rechazo biónico ha sido curado.</DMS_SyntheticRejection.comps.0.message>
+  <DMS_SyntheticRejection.comps.HediffComp_RemoveIfOtherHediff.message>El síndrome de rechazo biónico ha sido curado.</DMS_SyntheticRejection.comps.HediffComp_RemoveIfOtherHediff.message>
   <!-- EN: fever -->
   <DMS_SyntheticRejection.stages.0.label>fiebre</DMS_SyntheticRejection.stages.0.label>
   <!-- EN: Phantom Limb Syndrome -->
@@ -79,7 +79,7 @@
   <!-- EN: A commonly occurring syndrome in pre-spacer worlds when neurally interfaced bionics are removed. -->
   <DMS_BionicShockRemove.description>Un síndrome que ocurre comúnmente en mundos pre-espaciales cuando se retiran las biónicas con interfaz neuronal.</DMS_BionicShockRemove.description>
   <!-- EN: Phantom Limb Syndrome has been cured -->
-  <DMS_BionicShockRemove.comps.0.message>El síndrome del miembro fantasma ha sido curado</DMS_BionicShockRemove.comps.0.message>
+  <DMS_BionicShockRemove.comps.HediffComp_RemoveIfOtherHediff.message>El síndrome del miembro fantasma ha sido curado</DMS_BionicShockRemove.comps.HediffComp_RemoveIfOtherHediff.message>
   <!-- EN: initial -->
   <DMS_BionicShockRemove.stages.0.label>inicial</DMS_BionicShockRemove.stages.0.label>
   <!-- EN: pain -->
@@ -135,7 +135,7 @@
   <!-- EN: An installed neuromechanical arm. -->
   <DMS_ProstheticArm.description>Un brazo neuromecánico instalado.</DMS_ProstheticArm.description>
   <!-- EN: fist -->
-  <DMS_ProstheticArm.comps.0.tools.0.label>puño</DMS_ProstheticArm.comps.0.tools.0.label>
+  <DMS_ProstheticArm.comps.HediffComp_VerbGiver.tools.0.label>puño</DMS_ProstheticArm.comps.HediffComp_VerbGiver.tools.0.label>
   <!-- EN: Mechaneural leg -->
   <DMS_ProstheticLeg.label>pierna mecaneural</DMS_ProstheticLeg.label>
   <!-- EN: a neural-mechanical leg -->
@@ -179,7 +179,7 @@
   <!-- EN: An installed biosynthetic arm. -->
   <DMS_SyntheticArm.description>Un brazo biosintético instalado.</DMS_SyntheticArm.description>
   <!-- EN: fist -->
-  <DMS_SyntheticArm.comps.0.tools.0.label>puño</DMS_SyntheticArm.comps.0.tools.0.label>
+  <DMS_SyntheticArm.comps.HediffComp_VerbGiver.tools.0.label>puño</DMS_SyntheticArm.comps.HediffComp_VerbGiver.tools.0.label>
   <!-- EN: Biosynthetic leg -->
   <DMS_SyntheticLeg.label>pierna biosintética</DMS_SyntheticLeg.label>
   <!-- EN: a biosynthetic leg -->
@@ -321,13 +321,13 @@
   <!-- EN: Ruptured -->
   <DMS_InfrasoundRupture.injuryProps.destroyedLabel>Reventado(a)</DMS_InfrasoundRupture.injuryProps.destroyedLabel>
   <!-- EN: treated -->
-  <DMS_InfrasoundRupture.comps.0.labelTendedWell>tratada</DMS_InfrasoundRupture.comps.0.labelTendedWell>
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: treated -->
-  <DMS_InfrasoundRupture.comps.0.labelTendedWellInner>tratada</DMS_InfrasoundRupture.comps.0.labelTendedWellInner>
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: repaired -->
-  <DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>reparada</DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>reparada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: infrasonic scarring -->
-  <DMS_InfrasoundRupture.comps.2.permanentLabel>cicatriz infrasónica</DMS_InfrasoundRupture.comps.2.permanentLabel>
+  <DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz infrasónica</DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: infrasonic module -->
   <DMS_SubsonicModule.label>módulo de infrasonido</DMS_SubsonicModule.label>
   <!-- EN: A tuned infrasound emitter array mounted on the hull. It lets the mech release a burst of infrasound that wracks nearby living enemies with pain and panic. -->

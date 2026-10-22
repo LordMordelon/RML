@@ -11,9 +11,9 @@
   <!-- EN: A advanced chemfuel storage tank that supplies fuel for thrusters on a gravship. Сompresses fuel using gravcores and increases its efficiency.\n\nA gravship can support two grav chemfuel tank. -->
   <AdvShip_GravChemfuelTank.description>Un tanque de almacenamiento de astrobustible avanzado que suministra combustible para los propulsores de una gravinave. Comprime el combustible usando gravinúcleos y aumenta su eficiencia.\n\nUna gravinave puede soportar dos tanques de astrobustible gravitacionales.</AdvShip_GravChemfuelTank.description>
   <!-- EN: Chemfuel -->
-  <AdvShip_GravChemfuelTank.comps.0.fuelLabel>Quimbustible</AdvShip_GravChemfuelTank.comps.0.fuelLabel>
+  <AdvShip_GravChemfuelTank.comps.CompRefuelable.fuelLabel>Quimbustible</AdvShip_GravChemfuelTank.comps.CompRefuelable.fuelLabel>
   <!-- EN: Chemfuel -->
-  <AdvShip_GravChemfuelTank.comps.0.fuelGizmoLabel>Quimbustible</AdvShip_GravChemfuelTank.comps.0.fuelGizmoLabel>
+  <AdvShip_GravChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Quimbustible</AdvShip_GravChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: The Singularity Reactor -->
   <AdvShip_GravReactor.label>reactor de singularidad</AdvShip_GravReactor.label>
   <!-- EN: A special reactor for the gravship. The interaction of the eight gravcore creates a singularity and extracts a huge amount of energy from it. \nAlso increases the area of the gravship. \n\nWARNING: in case of serious damage, it may explode. -->
@@ -75,11 +75,11 @@
   <!-- EN: A high-powered turret with a grav blaster. It cannot sense targets at close ranges. Refilling with gravlite panels. -->
   <Turret_GravBlaster.description>Una torreta de alta potencia con un gravibláster. No puede detectar objetivos a distancias cortas. Se recarga con paneles de gravilita.</Turret_GravBlaster.description>
   <!-- EN: Shots until gravlite panels will be used up -->
-  <Turret_GravBlaster.comps.5.fuelLabel>Disparos hasta que se agoten los paneles de gravilita</Turret_GravBlaster.comps.5.fuelLabel>
+  <Turret_GravBlaster.comps.CompRefuelable.fuelLabel>Disparos hasta que se agoten los paneles de gravilita</Turret_GravBlaster.comps.CompRefuelable.fuelLabel>
   <!-- EN: Still have gravlite -->
-  <Turret_GravBlaster.comps.5.fuelGizmoLabel>Aún tiene gravilita</Turret_GravBlaster.comps.5.fuelGizmoLabel>
+  <Turret_GravBlaster.comps.CompRefuelable.fuelGizmoLabel>Aún tiene gravilita</Turret_GravBlaster.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Needs more gravlite -->
-  <Turret_GravBlaster.comps.5.outOfFuelMessage>Necesita más gravilita</Turret_GravBlaster.comps.5.outOfFuelMessage>
+  <Turret_GravBlaster.comps.CompRefuelable.outOfFuelMessage>Necesita más gravilita</Turret_GravBlaster.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: Heavy grav blaster -->
   <Gun_GravBlasterTurret.label>gravibláster pesado</Gun_GravBlasterTurret.label>
   <!-- EN: Heavy version of the grav blaster for mounting on the turret base. -->
@@ -209,7 +209,7 @@
   <!-- EN: A heavy weapon that emits a beam of concentrated gravity waves that cause micro rips in area. Wounds from the beam do not cause severe bleeding, but they do cause very severe pain.\n\nBody parts damaged by the beam reduce the target&apos;s armor and increase taken damage.\nCan place a decelerating barricade on the ground. -->
   <GravBeamCannon.description>Un arma pesada que emite un rayo de ondas gravitacionales concentradas que causan micro desgarros en el área. Las heridas del rayo no causan sangrado severo, pero causan un dolor muy intenso.\n\nLas partes del cuerpo dañadas por el rayo reducen la armadura del objetivo y aumentan el daño recibido.\nPuede colocar una barricada desaceleradora en el suelo.</GravBeamCannon.description>
   <!-- EN: barrier charges -->
-  <GravBeamCannon.comps.0.chargeNoun>cargas de barrera</GravBeamCannon.comps.0.chargeNoun>
+  <GravBeamCannon.comps.CompEquippableAbilityReloadable.chargeNoun>cargas de barrera</GravBeamCannon.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: grav beam cannon -->
   <GravBeamCannon.verbs.Verb_ShootBeam.label>cañón de gravirrayos</GravBeamCannon.verbs.Verb_ShootBeam.label>
   <!-- EN: emitter -->
@@ -229,7 +229,7 @@
   <!-- EN: A heavy sniper weapon that firing gravitonium bullets. High attack range and damage, but low cooldown rate. It has a special long-range shooting ability. -->
   <GravRifle.description>Un arma de francotirador pesada que dispara balas de gravitonio. Alto rango de ataque y daño, pero baja cadencia de tiro. Tiene una habilidad especial de disparo de largo alcance.</GravRifle.description>
   <!-- EN: gravitonium bullet -->
-  <GravRifle.comps.0.chargeNoun>bala de gravitonio</GravRifle.comps.0.chargeNoun>
+  <GravRifle.comps.CompEquippableAbilityReloadable.chargeNoun>bala de gravitonio</GravRifle.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: grav rifle -->
   <GravRifle.verbs.Verb_Shoot.label>gravifusil</GravRifle.verbs.Verb_Shoot.label>
   <!-- EN: barrel -->

@@ -9,9 +9,9 @@
   <!-- EN: A lab machine designed to breed bacteria colonies. It&apos;s fueled by neutroamine and requires a sample of bacteria disease to operate. It will produce 3 bacteria pathogens for every unit of neutroamine. The entire process takes no more than 8 hours. -->
   <USH_BacteriaIncubator.description>Una máquina de laboratorio diseñada para criar colonias de bacterias. Se alimenta con neutroamina y requiere una muestra de enfermedad bacteriana para funcionar. Producirá 3 patógenos bacterianos por cada unidad de neutroamina. Todo el proceso no dura más de 8 horas.</USH_BacteriaIncubator.description>
   <!-- EN: activate -->
-  <USH_BacteriaIncubator.comps.4.jobString>activar</USH_BacteriaIncubator.comps.4.jobString>
+  <USH_BacteriaIncubator.comps.CompBacteriaIncubator.jobString>activar</USH_BacteriaIncubator.comps.CompBacteriaIncubator.jobString>
   <!-- EN: cooling off -->
-  <USH_BacteriaIncubator.comps.4.onCooldownString>enfriando</USH_BacteriaIncubator.comps.4.onCooldownString>
+  <USH_BacteriaIncubator.comps.CompBacteriaIncubator.onCooldownString>enfriando</USH_BacteriaIncubator.comps.CompBacteriaIncubator.onCooldownString>
   <!-- EN: gas vents controller -->
   <USH_GasVentsController.label>controlador de ventilaciones de gas</USH_GasVentsController.label>
   <!-- EN: An interactive panel used for remote pathogen gas vents activation. To trigger it, the targeted vent must be connected to the same power network as the controller. -->
@@ -25,9 +25,9 @@
   <!-- EN: A specialized lab-grade machine is designed to modify virus DNA from provided disease samples. Upon activation, it infects all living creatures in an enclosed, fully roofed room with mutated viruses and provides a way to extract their pathogens. The number of pathogens that can be yielded from an organism depends on its size and infection severity. The bigger the species, the more pathogens drop from it.\n\nAll creatures in the same room will get infected unless they remain in a small safe zone around the replicator or possess environmental toxic resistance exceeding 80%.\n\nNote that large, tamed creatures in their pens are optimal targets for virus replication. -->
   <USH_VirusReplicator.description>Una máquina especializada de grado de laboratorio diseñada para modificar el ADN de virus a partir de muestras de enfermedades proporcionadas. Al activarse, infecta a todas las criaturas vivas en una habitación cerrada y completamente techada con virus mutados y proporciona una forma de extraer sus patógenos. La cantidad de patógenos que se pueden obtener de un organismo depende de su tamaño y la gravedad de la infección. Cuanto más grande es la especie, más patógenos arroja.\n\nTodas las criaturas en la misma habitación se infectarán a menos que permanezcan en una pequeña zona segura alrededor del replicador o posean una resistencia tóxica ambiental superior al 80%.\n\nTenga en cuenta que las criaturas grandes y domesticadas en sus corrales son objetivos óptimos para la replicación de virus.</USH_VirusReplicator.description>
   <!-- EN: activate -->
-  <USH_VirusReplicator.comps.3.jobString>activar</USH_VirusReplicator.comps.3.jobString>
+  <USH_VirusReplicator.comps.CompVirusReplicator.jobString>activar</USH_VirusReplicator.comps.CompVirusReplicator.jobString>
   <!-- EN: cooling off -->
-  <USH_VirusReplicator.comps.3.onCooldownString>enfriando</USH_VirusReplicator.comps.3.onCooldownString>
+  <USH_VirusReplicator.comps.CompVirusReplicator.onCooldownString>enfriando</USH_VirusReplicator.comps.CompVirusReplicator.onCooldownString>
   <!-- EN: flesh-breaker chemical gas -->
   <USH_FleshBreakerGas.label>gas químico rompecarne</USH_FleshBreakerGas.label>
   <!-- EN: A flesh-breaker pathogen gas -->
@@ -49,19 +49,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of flesh-breaker gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_FleshBreakerVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas rompecarne en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_FleshBreakerVent.description>
   <!-- EN: activate -->
-  <USH_FleshBreakerVent.comps.3.jobString>activar</USH_FleshBreakerVent.comps.3.jobString>
+  <USH_FleshBreakerVent.comps.CompGasVent.jobString>activar</USH_FleshBreakerVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_FleshBreakerVent.comps.3.onCooldownString>enfriando</USH_FleshBreakerVent.comps.3.onCooldownString>
+  <USH_FleshBreakerVent.comps.CompGasVent.onCooldownString>enfriando</USH_FleshBreakerVent.comps.CompGasVent.onCooldownString>
   <!-- EN: flesh-breaker gas missile launcher -->
   <USH_FleshBreakerMissileLauncher.label>lanzamisiles de gas rompecarne</USH_FleshBreakerMissileLauncher.label>
   <!-- EN: A military-grade flesh-breaker gas missile launcher that fires a single barrage of rockets covering a large area with flesh-breaker gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of flesh-breaker chemical pathogens. -->
   <USH_FleshBreakerMissileLauncher.description>Un lanzamisiles de gas rompecarne de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas rompecarne. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos químicos rompecarne.</USH_FleshBreakerMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_FleshBreakerMissileLauncher.comps.5.fuelLabel>Misiles</USH_FleshBreakerMissileLauncher.comps.5.fuelLabel>
+  <USH_FleshBreakerMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_FleshBreakerMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_FleshBreakerMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_FleshBreakerMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_FleshBreakerMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_FleshBreakerMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_FleshBreakerMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_FleshBreakerMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_FleshBreakerMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_FleshBreakerMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -133,19 +133,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of flu gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_FluVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas de la gripe en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_FluVent.description>
   <!-- EN: activate -->
-  <USH_FluVent.comps.3.jobString>activar</USH_FluVent.comps.3.jobString>
+  <USH_FluVent.comps.CompGasVent.jobString>activar</USH_FluVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_FluVent.comps.3.onCooldownString>enfriando</USH_FluVent.comps.3.onCooldownString>
+  <USH_FluVent.comps.CompGasVent.onCooldownString>enfriando</USH_FluVent.comps.CompGasVent.onCooldownString>
   <!-- EN: flu gas missile launcher -->
   <USH_FluMissileLauncher.label>lanzamisiles de gas de la gripe</USH_FluMissileLauncher.label>
   <!-- EN: A military-grade flu gas missile launcher that fires a single barrage of rockets covering a large area with flu gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of flu virus pathogens. -->
   <USH_FluMissileLauncher.description>Un lanzamisiles de gas de la gripe de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas de la gripe. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de virus de la gripe.</USH_FluMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_FluMissileLauncher.comps.5.fuelLabel>Misiles</USH_FluMissileLauncher.comps.5.fuelLabel>
+  <USH_FluMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_FluMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_FluMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_FluMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_FluMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_FluMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_FluMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_FluMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_FluMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_FluMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -249,19 +249,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of malaria gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_MalariaVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas de malaria en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_MalariaVent.description>
   <!-- EN: activate -->
-  <USH_MalariaVent.comps.3.jobString>activar</USH_MalariaVent.comps.3.jobString>
+  <USH_MalariaVent.comps.CompGasVent.jobString>activar</USH_MalariaVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_MalariaVent.comps.3.onCooldownString>enfriando</USH_MalariaVent.comps.3.onCooldownString>
+  <USH_MalariaVent.comps.CompGasVent.onCooldownString>enfriando</USH_MalariaVent.comps.CompGasVent.onCooldownString>
   <!-- EN: malaria gas missile launcher -->
   <USH_MalariaMissileLauncher.label>lanzamisiles de gas de malaria</USH_MalariaMissileLauncher.label>
   <!-- EN: A military-grade malaria gas missile launcher that fires a single barrage of rockets covering a large area with malaria gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of malaria parasite pathogens. -->
   <USH_MalariaMissileLauncher.description>Un lanzamisiles de gas de malaria de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas de malaria. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de parásitos de malaria.</USH_MalariaMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_MalariaMissileLauncher.comps.5.fuelLabel>Misiles</USH_MalariaMissileLauncher.comps.5.fuelLabel>
+  <USH_MalariaMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_MalariaMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_MalariaMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_MalariaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_MalariaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_MalariaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_MalariaMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_MalariaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_MalariaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_MalariaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -333,19 +333,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of necroa gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_NecroaVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas necroa en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_NecroaVent.description>
   <!-- EN: activate -->
-  <USH_NecroaVent.comps.3.jobString>activar</USH_NecroaVent.comps.3.jobString>
+  <USH_NecroaVent.comps.CompGasVent.jobString>activar</USH_NecroaVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_NecroaVent.comps.3.onCooldownString>enfriando</USH_NecroaVent.comps.3.onCooldownString>
+  <USH_NecroaVent.comps.CompGasVent.onCooldownString>enfriando</USH_NecroaVent.comps.CompGasVent.onCooldownString>
   <!-- EN: necroa gas missile launcher -->
   <USH_NecroaMissileLauncher.label>lanzamisiles de gas necroa</USH_NecroaMissileLauncher.label>
   <!-- EN: A military-grade necroa gas missile launcher that fires a single barrage of rockets covering a large area with necroa gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of necroa archovirus pathogens. -->
   <USH_NecroaMissileLauncher.description>Un lanzamisiles de gas necroa de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas necroa. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de arquevirus necroa.</USH_NecroaMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_NecroaMissileLauncher.comps.5.fuelLabel>Misiles</USH_NecroaMissileLauncher.comps.5.fuelLabel>
+  <USH_NecroaMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_NecroaMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_NecroaMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_NecroaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_NecroaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_NecroaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_NecroaMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_NecroaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_NecroaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_NecroaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -417,19 +417,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of plague gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_PlagueVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas de la peste en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_PlagueVent.description>
   <!-- EN: activate -->
-  <USH_PlagueVent.comps.3.jobString>activar</USH_PlagueVent.comps.3.jobString>
+  <USH_PlagueVent.comps.CompGasVent.jobString>activar</USH_PlagueVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_PlagueVent.comps.3.onCooldownString>enfriando</USH_PlagueVent.comps.3.onCooldownString>
+  <USH_PlagueVent.comps.CompGasVent.onCooldownString>enfriando</USH_PlagueVent.comps.CompGasVent.onCooldownString>
   <!-- EN: plague gas missile launcher -->
   <USH_PlagueMissileLauncher.label>lanzamisiles de gas de la peste</USH_PlagueMissileLauncher.label>
   <!-- EN: A military-grade plague gas missile launcher that fires a single barrage of rockets covering a large area with plague gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of plague bacteria pathogens. -->
   <USH_PlagueMissileLauncher.description>Un lanzamisiles de gas de la peste de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas de la peste. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de bacterias de la peste.</USH_PlagueMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_PlagueMissileLauncher.comps.5.fuelLabel>Misiles</USH_PlagueMissileLauncher.comps.5.fuelLabel>
+  <USH_PlagueMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_PlagueMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_PlagueMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_PlagueMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_PlagueMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_PlagueMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_PlagueMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_PlagueMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_PlagueMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_PlagueMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -501,19 +501,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of scaria gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_ScariaVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas de escariosis en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_ScariaVent.description>
   <!-- EN: activate -->
-  <USH_ScariaVent.comps.3.jobString>activar</USH_ScariaVent.comps.3.jobString>
+  <USH_ScariaVent.comps.CompGasVent.jobString>activar</USH_ScariaVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_ScariaVent.comps.3.onCooldownString>enfriando</USH_ScariaVent.comps.3.onCooldownString>
+  <USH_ScariaVent.comps.CompGasVent.onCooldownString>enfriando</USH_ScariaVent.comps.CompGasVent.onCooldownString>
   <!-- EN: scaria gas missile launcher -->
   <USH_ScariaMissileLauncher.label>lanzamisiles de gas de escariosis</USH_ScariaMissileLauncher.label>
   <!-- EN: A military-grade scaria gas missile launcher that fires a single barrage of rockets covering a large area with scaria gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of scaria virus pathogens. -->
   <USH_ScariaMissileLauncher.description>Un lanzamisiles de gas de escariosis de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas de escariosis. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de virus de escariosis.</USH_ScariaMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_ScariaMissileLauncher.comps.5.fuelLabel>Misiles</USH_ScariaMissileLauncher.comps.5.fuelLabel>
+  <USH_ScariaMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_ScariaMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_ScariaMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_ScariaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_ScariaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_ScariaMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_ScariaMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_ScariaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_ScariaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_ScariaMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -593,19 +593,19 @@
   <!-- EN: A wall-mounted vent capable of releasing toxic compounds of sleeping sickness gas into the targeted area. Consumes pathogens per every gas release and requires activation by a colonist. -->
   <USH_SleepingSicknessVent.description>Una ventilación montada en la pared capaz de liberar compuestos tóxicos de gas de la enfermedad del sueño en el área objetivo. Consume patógenos por cada liberación de gas y requiere activación por parte de un colono.</USH_SleepingSicknessVent.description>
   <!-- EN: activate -->
-  <USH_SleepingSicknessVent.comps.3.jobString>activar</USH_SleepingSicknessVent.comps.3.jobString>
+  <USH_SleepingSicknessVent.comps.CompGasVent.jobString>activar</USH_SleepingSicknessVent.comps.CompGasVent.jobString>
   <!-- EN: cooling off -->
-  <USH_SleepingSicknessVent.comps.3.onCooldownString>enfriando</USH_SleepingSicknessVent.comps.3.onCooldownString>
+  <USH_SleepingSicknessVent.comps.CompGasVent.onCooldownString>enfriando</USH_SleepingSicknessVent.comps.CompGasVent.onCooldownString>
   <!-- EN: sleeping sickness gas missile launcher -->
   <USH_SleepingSicknessMissileLauncher.label>lanzamisiles de gas de la enfermedad del sueño</USH_SleepingSicknessMissileLauncher.label>
   <!-- EN: A military-grade sleeping sickness gas missile launcher that fires a single barrage of rockets covering a large area with sleeping sickness gas. The turret does not fire until someone activates it. It is very effective against sieges, but less effective against moving targets. A single burst of missiles can severely weaken any siege, potentially killing raiders.\nAn integrated targeting system makes it effective over long distances.\n\nOnce fired, it must cool off for hours and be reloaded to fire again. It&apos;s refueled with large quantities of sleeping sickness parasite pathogens. -->
   <USH_SleepingSicknessMissileLauncher.description>Un lanzamisiles de gas de la enfermedad del sueño de grado militar que dispara una sola andanada de cohetes cubriendo un área grande con gas de la enfermedad del sueño. La torreta no dispara hasta que alguien la activa. Es muy eficaz contra asedios, pero menos eficaz contra objetivos en movimiento. Una sola ráfaga de misiles puede debilitar gravemente cualquier asedio, matando potencialmente a los asaltantes.\nUn sistema de puntería integrado lo hace efectivo a largas distancias.\n\nUna vez disparado, debe enfriarse durante horas y recargarse para disparar de nuevo. Se reposta con grandes cantidades de patógenos de parásitos de la enfermedad del sueño.</USH_SleepingSicknessMissileLauncher.description>
   <!-- EN: Missiles -->
-  <USH_SleepingSicknessMissileLauncher.comps.5.fuelLabel>Misiles</USH_SleepingSicknessMissileLauncher.comps.5.fuelLabel>
+  <USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.fuelLabel>Misiles</USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.fuelLabel>
   <!-- EN: Missiles -->
-  <USH_SleepingSicknessMissileLauncher.comps.5.fuelGizmoLabel>Misiles</USH_SleepingSicknessMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>Misiles</USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing missiles -->
-  <USH_SleepingSicknessMissileLauncher.comps.5.outOfFuelMessage>Faltan misiles</USH_SleepingSicknessMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.outOfFuelMessage>Faltan misiles</USH_SleepingSicknessMissileLauncher.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: activate -->
   <USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>activar</USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
   <!-- EN: cooling off -->
@@ -637,7 +637,7 @@
   <!-- EN: A medical tool intended for use on sick patients. It creates a sample of the disease that can later be utilized in the production of deadly pathogens. \n\nCan be crafted in drug lab.\n\nDiseases that can be sampled are listed below. -->
   <USH_DiseaseSampler.description>Una herramienta médica destinada a ser utilizada en pacientes enfermos. Crea una muestra de la enfermedad que luego puede utilizarse en la producción de patógenos mortales.\n\nSe puede fabricar en el laboratorio de drogas.\n\nLas enfermedades que se pueden muestrear se enumeran a continuación.</USH_DiseaseSampler.description>
   <!-- EN: Use {0_label} -->
-  <USH_DiseaseSampler.comps.1.useLabel>Usar {0_label}</USH_DiseaseSampler.comps.1.useLabel>
+  <USH_DiseaseSampler.comps.CompUsable.useLabel>Usar {0_label}</USH_DiseaseSampler.comps.CompUsable.useLabel>
   <!-- EN: flesh-breaker -->
   <USH_FleshBreaker.label>rompecarne</USH_FleshBreaker.label>
   <!-- EN: A drug that exhausts the body, attacking the brain, lungs, stomach, and eyes. It induces unbearable hallucinations and general weakness in the organism. It is utilized in urbworlds as an illegal interrogation technique. Its properties make it a perfect candidate for a non-lethal chemical weapon. -->

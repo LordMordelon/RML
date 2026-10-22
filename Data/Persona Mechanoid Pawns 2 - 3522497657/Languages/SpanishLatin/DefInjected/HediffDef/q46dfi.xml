@@ -19,9 +19,9 @@
   <!-- EN: This persona mechanoid is critically low on energy, unless they are recharged soon they will be forced into dormancy to self-recharge. -->
   <PMP_PersonaCriticalPower.description>Este mecanoide IA tiene la energía críticamente baja; a menos que sea recargado pronto, será forzado a la latencia para autorrecargarse.</PMP_PersonaCriticalPower.description>
   <!-- EN: Forced Recharge: {PAWN_nameDef} -->
-  <PMP_PersonaCriticalPower.comps.2.letterLabel>Recarga forzada: {PAWN_nameDef}</PMP_PersonaCriticalPower.comps.2.letterLabel>
+  <PMP_PersonaCriticalPower.comps.HediffComp_GiveHediff.letterLabel>Recarga forzada: {PAWN_nameDef}</PMP_PersonaCriticalPower.comps.HediffComp_GiveHediff.letterLabel>
   <!-- EN: {PAWN_nameDef} has been without power for too long and has entered an emergency dormancy to self-recharge.\n\nIf the dormancy completes without external input, {PAWN_nameDef} will awake with only 15% energy after 15 days.\n\nA bioelectic cell or persona mech recharger bed can also be used to charge {PAWN_nameDef} to end the dormancy. -->
-  <PMP_PersonaCriticalPower.comps.2.letterText>{PAWN_nameDef} ha estado sin energía demasiado tiempo y ha entrado en una latencia de emergencia para autorrecargarse.\n\nSi la latencia se completa sin intervención externa, {PAWN_nameDef} despertará con solo un 15% de energía tras 15 días.\n\nTambién se puede usar una célula bioeléctrica o una cama de mantenimiento de mecas IA para cargar a {PAWN_nameDef} y terminar la latencia.</PMP_PersonaCriticalPower.comps.2.letterText>
+  <PMP_PersonaCriticalPower.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} ha estado sin energía demasiado tiempo y ha entrado en una latencia de emergencia para autorrecargarse.\n\nSi la latencia se completa sin intervención externa, {PAWN_nameDef} despertará con solo un 15% de energía tras 15 días.\n\nTambién se puede usar una célula bioeléctrica o una cama de mantenimiento de mecas IA para cargar a {PAWN_nameDef} y terminar la latencia.</PMP_PersonaCriticalPower.comps.HediffComp_GiveHediff.letterText>
   <!-- EN: dormant recharge -->
   <PMP_PersonaDormantRecharge.label>recarga en latencia</PMP_PersonaDormantRecharge.label>
   <!-- EN: This persona mechanoid is in a dormant self-recharging state, after it is complete they will awake with 15% energy. -->
@@ -101,9 +101,9 @@
   <!-- EN: An installed set of tunneler claws. -->
   <PMP_TunnelerClaws.description>Un conjunto de garras de tunelador instalado.</PMP_TunnelerClaws.description>
   <!-- EN: left claw -->
-  <PMP_TunnelerClaws.comps.0.tools.0.label>garra izquierda</PMP_TunnelerClaws.comps.0.tools.0.label>
+  <PMP_TunnelerClaws.comps.HediffComp_VerbGiver.tools.0.label>garra izquierda</PMP_TunnelerClaws.comps.HediffComp_VerbGiver.tools.0.label>
   <!-- EN: right claw -->
-  <PMP_TunnelerClaws.comps.0.tools.1.label>garra derecha</PMP_TunnelerClaws.comps.0.tools.1.label>
+  <PMP_TunnelerClaws.comps.HediffComp_VerbGiver.tools.1.label>garra derecha</PMP_TunnelerClaws.comps.HediffComp_VerbGiver.tools.1.label>
   <!-- EN: agrihand harvester arm -->
   <PMP_AgrihandHarvesterArm.label>brazo cosechador agricoide</PMP_AgrihandHarvesterArm.label>
   <!-- EN: agrihand harvester arm -->
@@ -111,7 +111,7 @@
   <!-- EN: An installed agrihand harvester arm. -->
   <PMP_AgrihandHarvesterArm.description>Un brazo cosechador agricoide instalado.</PMP_AgrihandHarvesterArm.description>
   <!-- EN: blade -->
-  <PMP_AgrihandHarvesterArm.comps.0.tools.0.label>cuchilla</PMP_AgrihandHarvesterArm.comps.0.tools.0.label>
+  <PMP_AgrihandHarvesterArm.comps.HediffComp_VerbGiver.tools.0.label>cuchilla</PMP_AgrihandHarvesterArm.comps.HediffComp_VerbGiver.tools.0.label>
   <!-- EN: subpersona assistant -->
   <PMP_SubpersonaAssistantMecha.label>asistente sub-IA</PMP_SubpersonaAssistantMecha.label>
   <!-- EN: subpersona assistant -->
@@ -189,7 +189,7 @@
   <!-- EN: A hadware module manifesting as a cumbersome yet surprisingly dexterous manipulator arm integrated directly into the chassis of a persona mechanoid, engineered to balance fine motor precision with the strength required for routine labor and maintenance work.\n\nIts surprisingly sharp manipulator tips for quick utility cutting paired with its load bearing strength grant it notable melee capabilities. -->
   <PMP_AuxiliaryManipulatorArm.description>Un módulo de hardware que se manifiesta como un brazo manipulador voluminoso pero sorprendentemente diestro, integrado directamente en el chasis de un mecanoide IA, diseñado para equilibrar la precisión motora fina con la fuerza requerida para el trabajo rutinario y el mantenimiento.\n\nSus puntas de manipulador sorprendentemente afiladas para corte utilitario rápido, combinadas con su fuerza de carga, le otorgan notables capacidades de combate cuerpo a cuerpo.</PMP_AuxiliaryManipulatorArm.description>
   <!-- EN: should tool -->
-  <PMP_AuxiliaryManipulatorArm.comps.0.tools.0.label>herramienta de hombro</PMP_AuxiliaryManipulatorArm.comps.0.tools.0.label>
+  <PMP_AuxiliaryManipulatorArm.comps.HediffComp_VerbGiver.tools.0.label>herramienta de hombro</PMP_AuxiliaryManipulatorArm.comps.HediffComp_VerbGiver.tools.0.label>
   <!-- EN: integrated lesser mechlink -->
   <PMP_LesserMechlink.label>mecaenlace menor integrado</PMP_LesserMechlink.label>
   <!-- EN: A lesser approximation of a mechlink only made possible due to the direct interface potential between the persona core and an adapted mechanoid control band interface, such a simple sublink is too delicate to execute with with organic minds without the ultrafine wiring webs normally found in mechlinks.\n\nWhile it will allow a user to control mechanoids and perform other work made possible by having a mechlink its suffers greatly in bandwidth scaling and other capacities due to its weakened signalling capabilities.\n\nCan be replaced with a fully integrated mechlink via an operation to negate penalties.\n\nNotice: &lt;color=#e44e4e&gt;Only allows for 5 max bandwidth and any further to be acquired only through band node tuning, all other bandwidth buffs from equipment or otherwise are negated.&lt;/color&gt; -->

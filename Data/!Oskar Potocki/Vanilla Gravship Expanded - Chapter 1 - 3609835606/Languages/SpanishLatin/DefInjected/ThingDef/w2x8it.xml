@@ -105,9 +105,9 @@
   <!-- EN: A specialized defensive turret built exclusively for gravships. It intercepts explosive projectiles and incoming drop pods within its protective radius, but cannot engage ground targets. Interception chance scales with the target’s velocity. -->
   <VGE_PointDefenseTurret.description>Una torreta defensiva especializada construida exclusivamente para gravinaves. Intercepta proyectiles explosivos y cápsulas de escape entrantes dentro de su radio de protección, pero no puede atacar objetivos terrestres. La probabilidad de intercepción escala con la velocidad del objetivo.</VGE_PointDefenseTurret.description>
   <!-- EN: Ammunition -->
-  <VGE_PointDefenseTurret.comps.2.fuelLabel>Munición</VGE_PointDefenseTurret.comps.2.fuelLabel>
+  <VGE_PointDefenseTurret.comps.CompRefuelable.fuelLabel>Munición</VGE_PointDefenseTurret.comps.CompRefuelable.fuelLabel>
   <!-- EN: Ammunition -->
-  <VGE_PointDefenseTurret.comps.2.fuelGizmoLabel>Munición</VGE_PointDefenseTurret.comps.2.fuelGizmoLabel>
+  <VGE_PointDefenseTurret.comps.CompRefuelable.fuelGizmoLabel>Munición</VGE_PointDefenseTurret.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: point defense gun -->
   <VGE_Gun_PointDefense.label>cañón de defensa de punto</VGE_Gun_PointDefense.label>
   <!-- EN: A rapid-fire gun for point-defense applications. -->
@@ -123,9 +123,9 @@
   <!-- EN: A small, single-barrel electromagnetic cannon that launches dense uranium slugs at extreme velocities. Designed for both local bombardments and medium-range engagements, it can also target other gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
   <VGE_GaussGun.description>Un cañón electromagnético pequeño de un solo cañón que lanza proyectiles de uranio densos a velocidades extremas. Diseñado tanto para bombardeos locales como para enfrentamientos de medio alcance, también puede apuntar a otras gravinaves en órbita. Requiere una terminal de puntería vinculada con un operador para funcionar. Extrae energía directamente del motor gravitacional.</VGE_GaussGun.description>
   <!-- EN: Uranium slugs -->
-  <VGE_GaussGun.comps.1.fuelLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelLabel>
+  <VGE_GaussGun.comps.CompRefuelable.fuelLabel>Proyectiles de uranio</VGE_GaussGun.comps.CompRefuelable.fuelLabel>
   <!-- EN: Uranium slugs -->
-  <VGE_GaussGun.comps.1.fuelGizmoLabel>Proyectiles de uranio</VGE_GaussGun.comps.1.fuelGizmoLabel>
+  <VGE_GaussGun.comps.CompRefuelable.fuelGizmoLabel>Proyectiles de uranio</VGE_GaussGun.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: gauss gun -->
   <VGE_Gun_GaussGun.label>cañón gauss</VGE_Gun_GaussGun.label>
   <!-- EN: A small, single-barrel electromagnetic cannon. -->
@@ -139,11 +139,11 @@
   <!-- EN: A compact multi-tube missile platform that launches a volley of six guided astrofuel javelins. Meant for fast, hard-hitting strikes against exposed gravships and unarmored surface forces. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine. -->
   <VGE_JavelinPod.description>Una plataforma de misiles compacta de tubos múltiples que lanza una salva de seis jabalinas de astrobustible guiadas. Destinada a ataques rápidos y contundentes contra gravinaves expuestas y fuerzas de superficie sin blindaje. Requiere una terminal de puntería vinculada con un operador para funcionar. Extrae energía directamente del motor gravitacional.</VGE_JavelinPod.description>
   <!-- EN: Astrofuel -->
-  <VGE_JavelinPod.comps.1.fuelLabel>Astrobustible</VGE_JavelinPod.comps.1.fuelLabel>
+  <VGE_JavelinPod.comps.CompRefuelable.fuelLabel>Astrobustible</VGE_JavelinPod.comps.CompRefuelable.fuelLabel>
   <!-- EN: Astrofuel -->
-  <VGE_JavelinPod.comps.1.fuelGizmoLabel>Astrobustible</VGE_JavelinPod.comps.1.fuelGizmoLabel>
+  <VGE_JavelinPod.comps.CompRefuelable.fuelGizmoLabel>Astrobustible</VGE_JavelinPod.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Missing rockets -->
-  <VGE_JavelinPod.comps.1.outOfFuelMessage>Faltan cohetes</VGE_JavelinPod.comps.1.outOfFuelMessage>
+  <VGE_JavelinPod.comps.CompRefuelable.outOfFuelMessage>Faltan cohetes</VGE_JavelinPod.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: javelin pod -->
   <VGE_Gun_JavelinPod.label>lanzadera javelin</VGE_Gun_JavelinPod.label>
   <!-- EN: A compact multi-tube missile platform. -->
@@ -263,13 +263,13 @@
   <!-- EN: A wall-mounted variant of the firefoam popper. When it detects fire, it bursts and sprays fire-retardant foam in a circular area around itself. Can also be triggered manually. -->
   <VGE_WallFirefoamPopper.description>Una variante de pared del extintor de espuma. Cuando detecta fuego, estalla y rocía espuma retardante de fuego en un área circular a su alrededor. También puede activarse manualmente.</VGE_WallFirefoamPopper.description>
   <!-- EN: Trigger {0_label} -->
-  <VGE_WallFirefoamPopper.comps.1.useLabel>Activar {0_label}</VGE_WallFirefoamPopper.comps.1.useLabel>
+  <VGE_WallFirefoamPopper.comps.CompUsable.useLabel>Activar {0_label}</VGE_WallFirefoamPopper.comps.CompUsable.useLabel>
   <!-- EN: comms terminal -->
   <VGE_CommsTerminal.label>terminal de comunicaciones</VGE_CommsTerminal.label>
   <!-- EN: A compact version of a comms console that allows radio contact with other factions and orbital traders. It draws power directly from the grav engine. -->
   <VGE_CommsTerminal.description>Una versión compacta de una consola de comunicaciones que permite el contacto por radio con otras facciones y comerciantes orbitales. Extrae energía directamente del motor gravitacional.</VGE_CommsTerminal.description>
   <!-- EN: Summon diabolus threat -->
-  <VGE_CommsTerminal.comps.3.useLabel>Invocar amenaza de diabolus</VGE_CommsTerminal.comps.3.useLabel>
+  <VGE_CommsTerminal.comps.CompUsable.useLabel>Invocar amenaza de diabolus</VGE_CommsTerminal.comps.CompUsable.useLabel>
   <!-- EN: wall orbital trade beacon -->
   <VGE_WallOrbitalTradeBeacon.label>baliza de comercio orbital de pared</VGE_WallOrbitalTradeBeacon.label>
   <!-- EN: A wall-mounted version of an orbital trade beacon, required for orbital trading. You can only sell goods to orbital traders if they&apos;re near an orbital trade beacon. Can be placed indoors. -->
@@ -283,7 +283,7 @@
   <!-- EN: When it detects vacuum levels above 25%, this safety device pops and releases a fast-expanding sealant goo. The substance quickly solidifies, sealing gaps and breaches to restore pressure in the room. Can also be triggered manually. -->
   <VGE_SealantPopper.description>Cuando detecta niveles de vacío superiores al 25%, este dispositivo de seguridad se activa y libera una sustancia selladora de expansión rápida. La sustancia se solidifica rápidamente, sellando huecos y brechas para restaurar la presión en la habitación. También puede activarse manualmente.</VGE_SealantPopper.description>
   <!-- EN: Trigger {0_label} -->
-  <VGE_SealantPopper.comps.1.useLabel>Activar {0_label}</VGE_SealantPopper.comps.1.useLabel>
+  <VGE_SealantPopper.comps.CompUsable.useLabel>Activar {0_label}</VGE_SealantPopper.comps.CompUsable.useLabel>
   <!-- EN: sealant goop -->
   <VGE_SealantGoop.label>masa selladora</VGE_SealantGoop.label>
   <!-- EN: A hardened mass of rapidly-expanding polymer foam. Produced by a sealant popper, it forms an airtight plug that seals breaches in gravship rooms exposed to vacuum. While effective at restoring pressure, it is brittle and easy to destroy. -->
@@ -479,7 +479,7 @@
   <!-- EN: A utility pack containing a large supply of compressed oxygen. When worn with vacuum-sealed apparel, it provides full immunity to vacuum by supplying breathable air. The pack only consumes oxygen while in vacuum and must be periodically reloaded. It also dramatically reduces exposure to pollution through the lungs. -->
   <VGE_Apparel_OxygenPack.description>Una mochila de utilidad que contiene un gran suministro de oxígeno comprimido. Cuando se usa con prendas selladas al vacío, proporciona inmunidad total al vacío al suministrar aire respirable. La mochila solo consume oxígeno mientras está en el vacío y debe recargarse periódicamente. También reduce drásticamente la exposición a la contaminación a través de los pulmones.</VGE_Apparel_OxygenPack.description>
   <!-- EN: oxygen u³ -->
-  <VGE_Apparel_OxygenPack.comps.2.chargeNoun>oxígeno u³</VGE_Apparel_OxygenPack.comps.2.chargeNoun>
+  <VGE_Apparel_OxygenPack.comps.CompApparelOxygenProvider.chargeNoun>oxígeno u³</VGE_Apparel_OxygenPack.comps.CompApparelOxygenProvider.chargeNoun>
   <!-- EN: astrofuel puddle -->
   <VGE_Filth_Astrofuel.label>charco de astrobustible</VGE_Filth_Astrofuel.label>
   <!-- EN: A puddle of flammable astrofuel. -->

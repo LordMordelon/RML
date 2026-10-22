@@ -185,19 +185,19 @@
   <!-- EN: A mechband signaling device more powerful than the mechband dish. When activated, it puts out a powerful mech signal pulse, which will attract an Infernus mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the beamcaster, so this building can only be used once. -->
   <AM_InfernusMechlinkBooster.description>Un dispositivo de señalización de banda meca más potente que el plato de banda meca. Cuando se activa, emite un potente pulso de señal meca, que atraerá a un mecanoide Infernus para atacar con sus escoltas. Si puedes derrotarlo, puedes recolectar tecnologías especiales de su cadáver. El pulso de señal quema el transmisor de rayos, por lo que este edificio solo se puede usar una vez.</AM_InfernusMechlinkBooster.description>
   <!-- EN: Summon infernus threat -->
-  <AM_InfernusMechlinkBooster.comps.0.useLabel>Invocar amenaza de infernus</AM_InfernusMechlinkBooster.comps.0.useLabel>
+  <AM_InfernusMechlinkBooster.comps.CompUsable.useLabel>Invocar amenaza de infernus</AM_InfernusMechlinkBooster.comps.CompUsable.useLabel>
   <!-- EN: voidlink relay (tier 5) -->
   <AM_WarEmpressMechlinkBooster.label>relé de enlace de vacío</AM_WarEmpressMechlinkBooster.label>
   <!-- EN: A mechband signaling device that connects to a framework of relay stations positioned across the system. These relay stations, known as &quot;voidlinks,&quot; use subspace communication technology to transmit messages at near-light speed, allowing for rapid communication across sub-stellar distances. Activating it which will attract a War Empress mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the relay, so this building can only be used once. -->
   <AM_WarEmpressMechlinkBooster.description>Un dispositivo de señalización de banda meca que se conecta a un marco de estaciones de retransmisión ubicadas en todo el sistema. Estas estaciones de retransmisión, conocidas como "enlaces de vacío", utilizan tecnología de comunicación subespacial para transmitir mensajes a una velocidad cercana a la de la luz, lo que permite una comunicación rápida a través de distancias subestelares. Activarlo atraerá a un mecanoide emperatriz de guerra para atacar con sus escoltas. Si puedes derrotarlo, puedes recolectar tecnologías especiales de su cadáver. El pulso de señal quema el relé, por lo que este edificio solo se puede usar una vez.</AM_WarEmpressMechlinkBooster.description>
   <!-- EN: Summon war empress threat -->
-  <AM_WarEmpressMechlinkBooster.comps.0.useLabel>Invocar amenaza de emperatriz de guerra</AM_WarEmpressMechlinkBooster.comps.0.useLabel>
+  <AM_WarEmpressMechlinkBooster.comps.CompUsable.useLabel>Invocar amenaza de emperatriz de guerra</AM_WarEmpressMechlinkBooster.comps.CompUsable.useLabel>
   <!-- EN: quantum pulse complex (tier 6) -->
   <AM_ApoptosisMechlinkBooster.label>complejo de pulso cuántico</AM_ApoptosisMechlinkBooster.label>
   <!-- EN: A mechband signaling device that leverages the principles of quantum mechanics to transmit information using more than just binary states of 0s and 1s. The use of these qubits allows for the transmission of complex data, instructions, or commands in a highly efficient and secure manner. Activating it which will attract an Apoptosis mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the complex, so this building can only be used once. -->
   <AM_ApoptosisMechlinkBooster.description>Un dispositivo de señalización de banda meca que aprovecha los principios de la mecánica cuántica para transmitir información utilizando más que solo estados binarios de 0s y 1s. El uso de estos qubits permite la transmisión de datos complejos, instrucciones o comandos de una manera altamente eficiente y segura. Activarlo atraerá a un mecanoide Apoptosis para atacar con sus escoltas. Si puedes derrotarlo, puedes recolectar tecnologías especiales de su cadáver. El pulso de señal quema el complejo, por lo que este edificio solo se puede usar una vez.</AM_ApoptosisMechlinkBooster.description>
   <!-- EN: Summon apoptosis threat -->
-  <AM_ApoptosisMechlinkBooster.comps.0.useLabel>Invocar amenaza de apoptosis</AM_ApoptosisMechlinkBooster.comps.0.useLabel>
+  <AM_ApoptosisMechlinkBooster.comps.CompUsable.useLabel>Invocar amenaza de apoptosis</AM_ApoptosisMechlinkBooster.comps.CompUsable.useLabel>
   <!-- EN: beamcaster band node -->
   <AM_BeamcasterBandNode.label>nodo de banda de transmisión de rayos</AM_BeamcasterBandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 2 bandwidth to that mechanitor&apos;s total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
@@ -235,55 +235,55 @@
   <!-- EN: A beamcasting-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the Infernus. -->
   <AM_HyperLinkageChip.description>Un micro-órgano de sincronización de banda de transmisión de rayos. Es necesario para producir ciertos tipos avanzados de mecanoides y equipos.\n\nUn mecanizador puede estudiar este chip para ayudar a desbloquear niveles más altos de investigación de mecatécnica. Soltado por el Infernus.</AM_HyperLinkageChip.description>
   <!-- EN: Hyper-linkage chip studied: {RESEARCH} unlocked -->
-  <AM_HyperLinkageChip.comps.1.completedLetterLabel>Chip de hiperenlace estudiado: {RESEARCH} desbloqueado</AM_HyperLinkageChip.comps.1.completedLetterLabel>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Chip de hiperenlace estudiado: {RESEARCH} desbloqueado</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the hyper-linkage chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <AM_HyperLinkageChip.comps.1.completedLetter>Al estudiar el chip de hiperenlace, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_HyperLinkageChip.comps.1.completedLetter>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el chip de hiperenlace, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <AM_HyperLinkageChip.comps.1.activateLabelString>Analizar...</AM_HyperLinkageChip.comps.1.activateLabelString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the hyper-linkage chip. -->
-  <AM_HyperLinkageChip.comps.1.activateDescString>Analizar el chip de hiperenlace.</AM_HyperLinkageChip.comps.1.activateDescString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el chip de hiperenlace.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze hyper-linkage chip -->
-  <AM_HyperLinkageChip.comps.1.jobString>Analizar chip de hiperenlace</AM_HyperLinkageChip.comps.1.jobString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.jobString>Analizar chip de hiperenlace</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <AM_HyperLinkageChip.comps.1.guiLabelString>Elegir quién debe analizar esto</AM_HyperLinkageChip.comps.1.guiLabelString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Elegir quién debe analizar esto</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <AM_HyperLinkageChip.comps.1.inspectString>Puede ser analizado por un colono.</AM_HyperLinkageChip.comps.1.inspectString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: stellar processing chip (tier 5) -->
   <AM_StellarProcessingChip.label>chip de procesamiento estelar</AM_StellarProcessingChip.label>
   <!-- EN: A voidlink-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the War Empress. -->
   <AM_StellarProcessingChip.description>Un micro-órgano mecanoide de enfoque de enlace de vacío. Es necesario para producir ciertos tipos avanzados de mecanoides y equipos.\n\nUn mecanizador puede estudiar este chip para ayudar a desbloquear niveles más altos de investigación de mecatécnica. Soltado por la emperatriz de guerra.</AM_StellarProcessingChip.description>
   <!-- EN: Stellar processing chip studied: {RESEARCH} unlocked -->
-  <AM_StellarProcessingChip.comps.1.completedLetterLabel>Chip de procesamiento estelar estudiado: {RESEARCH} desbloqueado</AM_StellarProcessingChip.comps.1.completedLetterLabel>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Chip de procesamiento estelar estudiado: {RESEARCH} desbloqueado</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the stellar processing chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <AM_StellarProcessingChip.comps.1.completedLetter>Al estudiar el chip de procesamiento estelar, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_StellarProcessingChip.comps.1.completedLetter>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el chip de procesamiento estelar, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <AM_StellarProcessingChip.comps.1.activateLabelString>Analizar...</AM_StellarProcessingChip.comps.1.activateLabelString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the stellar processing chip. -->
-  <AM_StellarProcessingChip.comps.1.activateDescString>Analizar el chip de procesamiento estelar.</AM_StellarProcessingChip.comps.1.activateDescString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el chip de procesamiento estelar.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze stellar processing chip -->
-  <AM_StellarProcessingChip.comps.1.jobString>Analizar chip de procesamiento estelar</AM_StellarProcessingChip.comps.1.jobString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.jobString>Analizar chip de procesamiento estelar</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <AM_StellarProcessingChip.comps.1.guiLabelString>Elegir quién debe analizar esto</AM_StellarProcessingChip.comps.1.guiLabelString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Elegir quién debe analizar esto</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <AM_StellarProcessingChip.comps.1.inspectString>Puede ser analizado por un colono.</AM_StellarProcessingChip.comps.1.inspectString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: quantum matrix chip (tier 6) -->
   <AM_QuantumMatrixChip.label>chip de matriz cuántica</AM_QuantumMatrixChip.label>
   <!-- EN: A quantum-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the Apoptosis. -->
   <AM_QuantumMatrixChip.description>Un micro-órgano mecanoide de reestructuración cuántica. Es necesario para producir ciertos mecanoides y equipos avanzados.\n\nUn mecanizador puede estudiar este chip para ayudar a desbloquear niveles más altos de investigación de mecatécnica. Soltado por el Apoptosis.</AM_QuantumMatrixChip.description>
   <!-- EN: Quantum matrix chip studied: {RESEARCH} unlocked -->
-  <AM_QuantumMatrixChip.comps.1.completedLetterLabel>Chip de matriz cuántica estudiado: {RESEARCH} desbloqueado</AM_QuantumMatrixChip.comps.1.completedLetterLabel>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Chip de matriz cuántica estudiado: {RESEARCH} desbloqueado</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the quantum matrix chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <AM_QuantumMatrixChip.comps.1.completedLetter>Al estudiar el chip de matriz cuántica, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_QuantumMatrixChip.comps.1.completedLetter>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el chip de matriz cuántica, {PAWN_labelShort} ha adquirido la perspicacia necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ahora pueden usar mesas de investigación para comenzar a investigar cómo usar realmente la tecnología.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <AM_QuantumMatrixChip.comps.1.activateLabelString>Analizar...</AM_QuantumMatrixChip.comps.1.activateLabelString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the quantum matrix chip. -->
-  <AM_QuantumMatrixChip.comps.1.activateDescString>Analizar el chip de matriz cuántica.</AM_QuantumMatrixChip.comps.1.activateDescString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el chip de matriz cuántica.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze quantum matrix chip -->
-  <AM_QuantumMatrixChip.comps.1.jobString>Analizar chip de matriz cuántica</AM_QuantumMatrixChip.comps.1.jobString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.jobString>Analizar chip de matriz cuántica</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <AM_QuantumMatrixChip.comps.1.guiLabelString>Elegir quién debe analizar esto</AM_QuantumMatrixChip.comps.1.guiLabelString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Elegir quién debe analizar esto</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <AM_QuantumMatrixChip.comps.1.inspectString>Puede ser analizado por un colono.</AM_QuantumMatrixChip.comps.1.inspectString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: mech master helmet -->
   <AM_MechCommanderHelm.label>casco de mecamaestro</AM_MechCommanderHelm.label>
   <!-- EN: A heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor&apos;s bandwidth, while being as protective as a marine helmet. -->

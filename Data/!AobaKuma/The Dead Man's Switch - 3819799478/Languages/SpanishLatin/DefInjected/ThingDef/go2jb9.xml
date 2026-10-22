@@ -21,9 +21,9 @@
   <!-- EN: A light transport shuttle designed for transit between surface and orbit, it can lift up to 2 tons of cargo in flight. -->
   <DMS_Shuttle_Player.description>Un transbordador ligero diseñado para viajes entre la superficie y la órbita, capaz de levantar hasta 2 toneladas de carga en vuelo.</DMS_Shuttle_Player.description>
   <!-- EN: Chemfuel -->
-  <DMS_Shuttle_Player.comps.3.fuelLabel>quimbustible</DMS_Shuttle_Player.comps.3.fuelLabel>
+  <DMS_Shuttle_Player.comps.CompRefuelable.fuelLabel>quimbustible</DMS_Shuttle_Player.comps.CompRefuelable.fuelLabel>
   <!-- EN: Chemfuel -->
-  <DMS_Shuttle_Player.comps.3.fuelGizmoLabel>quimbustible</DMS_Shuttle_Player.comps.3.fuelGizmoLabel>
+  <DMS_Shuttle_Player.comps.CompRefuelable.fuelGizmoLabel>quimbustible</DMS_Shuttle_Player.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: orbital transport lifter (incoming) -->
   <DMS_Ship_TransportShuttleIncoming.label>transbordador orbital (entrante)</DMS_Ship_TransportShuttleIncoming.label>
   <!-- EN: orbital transport lifter (leaving) -->
@@ -113,13 +113,13 @@
   <!-- EN: A container and assembly kit for carrying and deploying remote-controlled hound drones, capable of quickly deploying a Hound drone in combat and acting as a remote-controlled base station to control and recover the drone. -->
   <DMS_Apparel_PackHound.description>Un contenedor y kit de ensamblaje para transportar y desplegar drones sabueso controlados a distancia, capaz de desplegar rápidamente un dron sabueso en combate y actuar como una estación base controlada a distancia para controlar y recuperar el dron.</DMS_Apparel_PackHound.description>
   <!-- EN: drone -->
-  <DMS_Apparel_PackHound.comps.3.chargeNoun>dron</DMS_Apparel_PackHound.comps.3.chargeNoun>
+  <DMS_Apparel_PackHound.comps.CompApparelReloadable.chargeNoun>dron</DMS_Apparel_PackHound.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: verlingbrid drone belt -->
   <DMS_Apparel_PackVerling.label>cinturón de drones</DMS_Apparel_PackVerling.label>
   <!-- EN: A remote controller and assembly module for deploying verlingbrid drones, capable deploying drones in combat and acting as a remote-controlled base station to control the drones. -->
   <DMS_Apparel_PackVerling.description>Un controlador remoto y módulo de ensamblaje para desplegar drones exploradores, capaz de desplegar drones en combate y actuar como una estación base controlada a distancia para controlar los drones.</DMS_Apparel_PackVerling.description>
   <!-- EN: drone -->
-  <DMS_Apparel_PackVerling.comps.3.chargeNoun>dron</DMS_Apparel_PackVerling.comps.3.chargeNoun>
+  <DMS_Apparel_PackVerling.comps.CompApparelReloadable.chargeNoun>dron</DMS_Apparel_PackVerling.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: scanner pack -->
   <DMS_Apparel_PackScanner.label>mochila de escáner</DMS_Apparel_PackScanner.label>
   <!-- EN: A wearable pack that allows the user to deploy a battery-powered perimeter scanner. The pack contains a propulsion device, letting the user launch the scanner a short distance. The scanner battery lasts for several hours. -->
@@ -133,25 +133,25 @@
   <!-- EN: A modified signal transponder which is rigged to send a high power burst transmission. Once activated it puts out a powerful decoy signal which will attract a feral group of automatroid forces to attack your colony. If you can defeat them, you can collect the advanced technology from their corpses. The signal pulse burns out the transmitter, so this building can only be used once. -->
   <DMS_DecoyRadio.description>Un transpondedor de señal modificado que está configurado para enviar una transmisión de ráfaga de alta potencia. Una vez activado, emite una potente señal señuelo que atraerá a un grupo salvaje de fuerzas automatroides para atacar tu colonia. Si puedes derrotarlos, podrás recolectar la tecnología avanzada de sus cadáveres. El pulso de la señal quema el transmisor, por lo que este edificio solo se puede usar una vez.</DMS_DecoyRadio.description>
   <!-- EN: Attract geochelone threat -->
-  <DMS_DecoyRadio.comps.0.useLabel>Atraer amenaza de geochelone</DMS_DecoyRadio.comps.0.useLabel>
+  <DMS_DecoyRadio.comps.CompUsable.useLabel>Atraer amenaza de geochelone</DMS_DecoyRadio.comps.CompUsable.useLabel>
   <!-- EN: Decoy Radar -->
   <DMS_DecoyRadar.label>radar señuelo</DMS_DecoyRadar.label>
   <!-- EN: A phase array radar. Once activated, it puts out a powerful wave radiation signal which will attract a feral automatroid to attack along with its escorts. If you can defeat it, you can collect the advanced technology from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
   <DMS_DecoyRadar.description>Un radar de matriz en fase. Una vez activado, emite una potente señal de radiación de onda que atraerá a un automatroide salvaje para que ataque junto con sus escoltas. Si puedes derrotarlo, podrás recolectar la tecnología avanzada de su cadáver. El pulso de la señal quema el transmisor, por lo que este edificio solo se puede usar una vez.</DMS_DecoyRadar.description>
   <!-- EN: Attract tarbosaurus threat -->
-  <DMS_DecoyRadar.comps.0.useLabel>Atraer amenaza de tarbosaurio</DMS_DecoyRadar.comps.0.useLabel>
+  <DMS_DecoyRadar.comps.CompUsable.useLabel>Atraer amenaza de tarbosaurio</DMS_DecoyRadar.comps.CompUsable.useLabel>
   <!-- EN: Decoy radio -->
   <DMS_DecoyTransmitter.label>radio señuelo</DMS_DecoyTransmitter.label>
   <!-- EN: A high-powered radio, used fake radio signals to lure away the automated defense systems that still exist on the planet. Once activated, it puts out a powerful wave radiation signal which will attract ultra heavy automatroid to attack along with its escorts. If you can defeat it, you can collect the advanced technology from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
   <DMS_DecoyTransmitter.description>Una radio de alta potencia que usa señales de radio falsas para atraer a los sistemas de defensa automáticos que todavía quedan en el planeta. Al activarla, emite una potente señal de radiación que atraerá a un automatroide ultrapesado y a su escolta para atacar. Si logras derrotarlo, puedes recuperar la tecnología avanzada de sus restos. El pulso de la señal quema el transmisor, así que este edificio solo se puede usar una vez.</DMS_DecoyTransmitter.description>
   <!-- EN: Attract cluster weaver threat -->
-  <DMS_DecoyTransmitter.comps.0.useLabel>Atraer amenaza de tejeenjambres</DMS_DecoyTransmitter.comps.0.useLabel>
+  <DMS_DecoyTransmitter.comps.CompUsable.useLabel>Atraer amenaza de tejeenjambres</DMS_DecoyTransmitter.comps.CompUsable.useLabel>
   <!-- EN: Mech LMG -->
   <DMS_Turret_LightMachineGun.label>ametralladora ligera de meca</DMS_Turret_LightMachineGun.label>
   <!-- EN: A weapon specializing in supression chambered in a large caliber rifle round.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nIts folding bipod lets a drafted operator drop it into a firing position on the spot, and pick it back up just as quickly. Emplaced, it reaches further and settles onto targets faster than it ever could from the shoulder. -->
   <DMS_Turret_LightMachineGun.description>Un arma especializada en supresión con recámara para un proyectil de rifle de gran calibre.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu bípode plegable permite que un operador reclutado la ponga en posición de tiro en el acto, y que la vuelva a levantar igual de rápido. Emplazada, llega más lejos y fija los objetivos más rápido de lo que podría desde el hombro.</DMS_Turret_LightMachineGun.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_Turret_LightMachineGun.comps.2.useLabel>Recoger {0_label}</DMS_Turret_LightMachineGun.comps.2.useLabel>
+  <DMS_Turret_LightMachineGun.comps.CompUsable.useLabel>Recoger {0_label}</DMS_Turret_LightMachineGun.comps.CompUsable.useLabel>
   <!-- EN: mech LMG -->
   <DMS_Gun_LightMachineGun.label>ametralladora ligera de meca</DMS_Gun_LightMachineGun.label>
   <!-- EN: A light machine gun mounted on a folding bipod. -->
@@ -163,7 +163,7 @@
   <!-- EN: A weapon specializing in supression chambered in a large caliber rifle round.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nIts folding bipod lets a drafted operator drop it into a firing position on the spot, and pick it back up just as quickly. -->
   <DMS_LightMachineGun.description>Un arma especializada en supresión con recámara para un proyectil de rifle de gran calibre.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu bípode plegable permite que un operador reclutado la ponga en posición de tiro en el acto, y que la vuelva a levantar igual de rápido.</DMS_LightMachineGun.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_LightMachineGun.comps.2.useLabel>Recoger {0_label}</DMS_LightMachineGun.comps.2.useLabel>
+  <DMS_LightMachineGun.comps.CompUsable.useLabel>Recoger {0_label}</DMS_LightMachineGun.comps.CompUsable.useLabel>
   <!-- EN: Mech LMG -->
   <DMS_LightMachineGun.verbs.Verb_Shoot.label>ametralladora ligera de meca</DMS_LightMachineGun.verbs.Verb_Shoot.label>
   <!-- EN: stock -->
@@ -175,51 +175,51 @@
   <!-- EN: A handheld automatic grenade launcher for clearing out clustered targets.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nDropped onto its tripod it gains the reach and the settled arc it can never hold from the shoulder, and a crew can break it down again in seconds. -->
   <DMS_Turret_AutomaticGrenadeLauncher.description>Un lanzagranadas automático portátil para despejar objetivos agrupados.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nApoyado en su trípode gana el alcance y la trayectoria estable que nunca logra desde el hombro, y una dotación puede desmontarlo de nuevo en segundos.</DMS_Turret_AutomaticGrenadeLauncher.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_Turret_AutomaticGrenadeLauncher.comps.2.useLabel>Recoger {0_label}</DMS_Turret_AutomaticGrenadeLauncher.comps.2.useLabel>
+  <DMS_Turret_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>Recoger {0_label}</DMS_Turret_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>
   <!-- EN: mech grenade launcher -->
   <DMS_Gun_AutomaticGrenadeLauncher.label>lanzagranadas de meca</DMS_Gun_AutomaticGrenadeLauncher.label>
   <!-- EN: An automatic grenade launcher mounted on a low tripod. -->
   <DMS_Gun_AutomaticGrenadeLauncher.description>Un lanzagranadas automático montado sobre un trípode bajo.</DMS_Gun_AutomaticGrenadeLauncher.description>
   <!-- EN: HE grenade -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.label>granada de alto explosivo</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>granada de alto explosivo</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A high-explosive fragmentation round for clearing out clustered targets. The standard belt. -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.description>Una granada de fragmentación de alto explosivo para despejar objetivos agrupados. La cinta estándar.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.description>Una granada de fragmentación de alto explosivo para despejar objetivos agrupados. La cinta estándar.</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: EMP grenade -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.label>granada EMP</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.label>granada EMP</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A capacitor round that stuns mechanoids and turrets in a small radius instead of destroying them. Useless against flesh, and the heavier fuze assembly slows the burst. -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.description>Una granada de condensador que aturde a mecanoides y torretas en un radio pequeño, en lugar de destruirlos. No sirve contra la carne, y su espoleta más pesada hace más lenta la ráfaga.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.description>Una granada de condensador que aturde a mecanoides y torretas en un radio pequeño, en lugar de destruirlos. No sirve contra la carne, y su espoleta más pesada hace más lenta la ráfaga.</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: smoke grenade -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.label>granada de humo</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.label>granada de humo</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A screening round that lays a smoke bank where it lands. Lighter than the explosive rounds, so it flies a little further and comes on target faster. -->
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.description>Una granada de ocultación que tiende una cortina de humo donde cae. Es más liviana que las explosivas, así que vuela un poco más lejos y llega antes al objetivo.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.description>Una granada de ocultación que tiende una cortina de humo donde cae. Es más liviana que las explosivas, así que vuela un poco más lejos y llega antes al objetivo.</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: Mech Grenade Launcher -->
   <DMS_AutomaticGrenadeLauncher.label>lanzagranadas de meca</DMS_AutomaticGrenadeLauncher.label>
   <!-- EN: A handheld automatic grenade launcher for clearing out clustered targets.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations.\n\nIts tripod folds under the receiver, so a drafted operator can set it down into a firing position on the spot and break it back down just as quickly. -->
   <DMS_AutomaticGrenadeLauncher.description>Un lanzagranadas automático de mano para eliminar objetivos agrupados.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_AutomaticGrenadeLauncher.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_AutomaticGrenadeLauncher.comps.2.useLabel>Recoger {0_label}</DMS_AutomaticGrenadeLauncher.comps.2.useLabel>
+  <DMS_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>Recoger {0_label}</DMS_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>
   <!-- EN: stock -->
   <DMS_AutomaticGrenadeLauncher.tools.0.label>culata</DMS_AutomaticGrenadeLauncher.tools.0.label>
   <!-- EN: barrel -->
   <DMS_AutomaticGrenadeLauncher.tools.1.label>cañón</DMS_AutomaticGrenadeLauncher.tools.1.label>
   <!-- EN: HE grenade -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.label>granada de alto explosivo</DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.label>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>granada de alto explosivo</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A high-explosive fragmentation round for clearing out clustered targets. The standard belt. -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.description>Una granada de fragmentación de alto explosivo para despejar objetivos agrupados. La cinta estándar.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.description>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.description>Una granada de fragmentación de alto explosivo para despejar objetivos agrupados. La cinta estándar.</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: EMP grenade -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.label>granada EMP</DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.label>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.label>granada EMP</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A capacitor round that stuns mechanoids and turrets in a small radius instead of destroying them. Useless against flesh, and the heavier fuze assembly slows the burst. -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.description>Una granada de condensador que aturde a mecanoides y torretas en un radio pequeño, en lugar de destruirlos. No sirve contra la carne, y su espoleta más pesada hace más lenta la ráfaga.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.description>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.description>Una granada de condensador que aturde a mecanoides y torretas en un radio pequeño, en lugar de destruirlos. No sirve contra la carne, y su espoleta más pesada hace más lenta la ráfaga.</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: smoke grenade -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.label>granada de humo</DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.label>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.label>granada de humo</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A screening round that lays a smoke bank where it lands. Lighter than the explosive rounds, so it flies a little further and comes on target faster. -->
-  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.description>Una granada de ocultación que tiende una cortina de humo donde cae. Es más liviana que las explosivas, así que vuela un poco más lejos y llega antes al objetivo.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.description>
+  <DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.description>Una granada de ocultación que tiende una cortina de humo donde cae. Es más liviana que las explosivas, así que vuela un poco más lejos y llega antes al objetivo.</DMS_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: Mech HMG -->
   <DMS_Turret_HeavyMachineGun.label>ametralladora pesada meca</DMS_Turret_HeavyMachineGun.label>
   <!-- EN: A heavy machine gun for mech soldiers or infantry support platforms.\n\nThis weapon is designed specifically for automatroid use,it&apos;s so heavy only specific automatroids can operate it unless it&apos;s mounted to a support platform.\n\nOn its tripod the receiver stops fighting the gunner: the beaten zone tightens, the belt runs longer, and the gun holds ground no shoulder ever could. -->
   <DMS_Turret_HeavyMachineGun.description>Una ametralladora pesada para mecas soldado o plataformas de apoyo de infantería.\n\nEsta arma está diseñada específicamente para el uso de automatroides; es tan pesada que solo ciertos automatroides pueden manejarla, salvo que esté montada en una plataforma de apoyo.\n\nSobre su trípode, el arma deja de pelear contra el tirador: la zona batida se cierra, la cinta dura más y el arma sostiene una posición como ningún hombro podría.</DMS_Turret_HeavyMachineGun.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_Turret_HeavyMachineGun.comps.2.useLabel>Recoger {0_label}</DMS_Turret_HeavyMachineGun.comps.2.useLabel>
+  <DMS_Turret_HeavyMachineGun.comps.CompUsable.useLabel>Recoger {0_label}</DMS_Turret_HeavyMachineGun.comps.CompUsable.useLabel>
   <!-- EN: mech HMG -->
   <DMS_Gun_HeavyMachineGun.label>ametralladora pesada meca</DMS_Gun_HeavyMachineGun.label>
   <!-- EN: A heavy machine gun mounted on a tripod. -->
@@ -229,7 +229,7 @@
   <!-- EN: A heavy machine gun for mech soldiers or infantry support platforms.\n\nThis weapon is designed specifically for automatroid use,it&apos;s so heavy only specific automatroids can operate it unless it&apos;s mounted to a support platform.\n\nIts tripod folds under the receiver, so a drafted operator can set it down into a firing position on the spot and break it back down just as quickly. -->
   <DMS_HeavyMachineGun.description>Una ametralladora pesada para soldados mecánicos o plataformas de apoyo de infantería.\n\nEsta arma está diseñada específicamente para el uso de automatroides, es tan pesada que solo automatroides específicos pueden operarla a menos que esté montada en una plataforma de apoyo.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_HeavyMachineGun.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_HeavyMachineGun.comps.2.useLabel>Recoger {0_label}</DMS_HeavyMachineGun.comps.2.useLabel>
+  <DMS_HeavyMachineGun.comps.CompUsable.useLabel>Recoger {0_label}</DMS_HeavyMachineGun.comps.CompUsable.useLabel>
   <!-- EN: stock -->
   <DMS_HeavyMachineGun.tools.0.label>culata</DMS_HeavyMachineGun.tools.0.label>
   <!-- EN: barrel -->
@@ -259,13 +259,13 @@
   <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible objects within its radius. -->
   <DMS_PerimeterScannerTemp.description>Un escáner capaz de detectar criaturas invisibles. El dispositivo hace sonar una alarma cuando detecta la presencia de objetos psíquicamente invisibles dentro de su radio.</DMS_PerimeterScannerTemp.description>
   <!-- EN: Battery power -->
-  <DMS_PerimeterScannerTemp.comps.1.labelOverride>Energía de la batería</DMS_PerimeterScannerTemp.comps.1.labelOverride>
+  <DMS_PerimeterScannerTemp.comps.CompMechPowerCell.labelOverride>Energía de la batería</DMS_PerimeterScannerTemp.comps.CompMechPowerCell.labelOverride>
   <!-- EN: Thermal breach -->
   <DMS_ThermalBreacher.label>perforador térmico</DMS_ThermalBreacher.label>
   <!-- EN: 一次性定向熱蝕裝置，專為突破重型安全門、防爆閘門以及反器材使用設計。啟動後會產生劇烈的高溫金屬熱流，並透過聚焦噴口將能量集中於接觸點。數秒內即可在大多數工業級合金表面形成熔蝕通道。\n\n由於反應過程極不穩定，裝置僅能使用一次。操作員必須在部署後立即撤離安全距離，以避免高溫飛濺物與蒸發金屬造成傷害。 -->
   <DMS_ThermalBreacher.description>Un dispositivo de fundición térmica dirigida de un solo uso, diseñado para abrir brecha en puertas de seguridad pesadas, compuertas blindadas y como arma antimaterial. Al activarse genera un violento chorro de metal a altísima temperatura y, mediante una boquilla de enfoque, concentra la energía en el punto de contacto. En pocos segundos abre un canal de fusión en la mayoría de las aleaciones de grado industrial.\n\nComo la reacción es muy inestable, el dispositivo solo se puede usar una vez. El operador debe alejarse a una distancia segura apenas lo despliega, para evitar las salpicaduras incandescentes y el metal vaporizado.</DMS_ThermalBreacher.description>
   <!-- EN: FFF_ArmThermiteDevice -->
-  <DMS_ThermalBreacher.comps.0.useLabel>Armar el dispositivo de termita</DMS_ThermalBreacher.comps.0.useLabel>
+  <DMS_ThermalBreacher.comps.CompUsable.useLabel>Armar el dispositivo de termita</DMS_ThermalBreacher.comps.CompUsable.useLabel>
   <!-- EN: lifter platform -->
   <DMS_LifterPlatform.label>plataforma del elevador</DMS_LifterPlatform.label>
   <!-- EN: The landing platform of a mobile lifter, left behind after the pod lifted off. It is of no further use to its owners and can be deconstructed for materials. -->
@@ -275,9 +275,9 @@
   <!-- EN: A self-fuelled crew lifter built on a detachable landing platform. It needs no launch pad and its tank is filled with the chemfuel used in construction: load it and launch it anywhere within range. After landing, the pod can lift off once more for a return flight, leaving the platform behind. Carry spare chemfuel if the destination has no way to refuel. -->
   <DMS_MobileCrewLifter.description>Un elevador de tripulación con combustible propio, montado sobre una plataforma de aterrizaje desmontable. No necesita plataforma de lanzamiento y su tanque se llena con el quimbustible usado al construirlo: cárgalo y lánzalo a cualquier lugar dentro del alcance. Después de aterrizar, la cápsula puede despegar una vez más para el vuelo de regreso y deja atrás la plataforma. Lleva quimbustible de repuesto si en el destino no hay forma de repostar.</DMS_MobileCrewLifter.description>
   <!-- EN: Chemfuel -->
-  <DMS_MobileCrewLifter.comps.2.fuelLabel>quimbustible</DMS_MobileCrewLifter.comps.2.fuelLabel>
+  <DMS_MobileCrewLifter.comps.CompRefuelable.fuelLabel>quimbustible</DMS_MobileCrewLifter.comps.CompRefuelable.fuelLabel>
   <!-- EN: Chemfuel -->
-  <DMS_MobileCrewLifter.comps.2.fuelGizmoLabel>Quimbustible</DMS_MobileCrewLifter.comps.2.fuelGizmoLabel>
+  <DMS_MobileCrewLifter.comps.CompRefuelable.fuelGizmoLabel>Quimbustible</DMS_MobileCrewLifter.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: spent crew pod -->
   <DMS_LifterCrewPod.label>cápsula de tripulación gastada</DMS_LifterCrewPod.label>
   <!-- EN: The crew pod of a mobile crew lifter, spent after its return flight. Without its platform it cannot launch again, but it can be deconstructed for materials, and any chemfuel left in its tank is recovered along with them. -->
@@ -343,17 +343,17 @@
   <!-- EN: A light automatic turret with a built-in battery, designed to be carried and set up wherever the line needs a gun. On the power grid it charges its internal cell; cut off from the grid it draws on that reserve and keeps firing until the cell runs dry. Switching it off puts it on standby: it stops watching and pours the saved power into the cell instead, charging twice as fast.\n\nIts tripod folds flat, so a drafted operator can pick it up, carry it forward and drop it into position on the spot. A cell charged before departure will keep it standing watch for days. -->
   <DMS_Turret_Sentry.description>Una torreta automática ligera con batería integrada, diseñada para llevarse e instalarse donde la línea necesite un arma. Conectada a la red eléctrica, carga su celda interna; desconectada de la red, usa esa reserva y sigue disparando hasta que la celda se agota. Al apagarla queda en espera: deja de vigilar y destina la energía ahorrada a la celda, que carga el doble de rápido.\n\nSu trípode se pliega por completo, así que un operador reclutado puede levantarla, llevarla hacia adelante y ponerla en posición en el acto. Con la celda cargada antes de partir, puede montar guardia durante días.</DMS_Turret_Sentry.description>
   <!-- EN: Pick up {0_label} -->
-  <DMS_Turret_Sentry.comps.5.useLabel>Recoger {0_label}</DMS_Turret_Sentry.comps.5.useLabel>
+  <DMS_Turret_Sentry.comps.CompUsable.useLabel>Recoger {0_label}</DMS_Turret_Sentry.comps.CompUsable.useLabel>
   <!-- EN: Gatekeeper -->
   <DMS_Turret_GateKeeper.label>torreta guardián</DMS_Turret_GateKeeper.label>
   <!-- EN: A large-caliber multi-barreled machine gun turret typically used on spacecraft and maritime ships. It has an extremely high rates of fire and devastating suppression capabilities. -->
   <DMS_Turret_GateKeeper.description>Una torreta de ametralladora de gran calibre y múltiples cañones, típicamente utilizada en naves espaciales y barcos marítimos. Tiene una cadencia de fuego extremadamente alta y capacidades de supresión devastadoras.</DMS_Turret_GateKeeper.description>
   <!-- EN: Shots until barrel change -->
-  <DMS_Turret_GateKeeper.comps.6.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_GateKeeper.comps.6.fuelLabel>
+  <DMS_Turret_GateKeeper.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_GateKeeper.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <DMS_Turret_GateKeeper.comps.6.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_GateKeeper.comps.6.fuelGizmoLabel>
+  <DMS_Turret_GateKeeper.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_GateKeeper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot shoot: Needs new reinforced barrel. -->
-  <DMS_Turret_GateKeeper.comps.6.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_GateKeeper.comps.6.outOfFuelMessage>
+  <DMS_Turret_GateKeeper.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_GateKeeper.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: Gatekeeper -->
   <DMS_Gun_GateKeeper.label>torreta guardián</DMS_Gun_GateKeeper.label>
   <!-- EN: A large-caliber multi-barreled autocannon, also known as the GAU-8 &quot;Avenger&quot;. It&apos;s an ancient practical design with an extremely high rate of fire and a devastating effect on anything unfortunate enough to stand infront of it. -->
@@ -365,11 +365,11 @@
   <!-- EN: The 30x173mm MK44 Bushmaster II autocannon, despite its modest 200 RPM rate of fire, achieves reliable defensive performance through good accuracy and adequate lethality. -->
   <DMS_Turret_MK44_Navy.description>El cañón automático MK44 Bushmaster II de 30x173 mm, a pesar de su modesta cadencia de fuego de 200 RPM, logra un rendimiento defensivo confiable gracias a su buena precisión y letalidad adecuada.</DMS_Turret_MK44_Navy.description>
   <!-- EN: Shots until barrel change -->
-  <DMS_Turret_MK44_Navy.comps.5.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_MK44_Navy.comps.5.fuelLabel>
+  <DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <DMS_Turret_MK44_Navy.comps.5.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_MK44_Navy.comps.5.fuelGizmoLabel>
+  <DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot shoot: Needs new reinforced barrel. -->
-  <DMS_Turret_MK44_Navy.comps.5.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_MK44_Navy.comps.5.outOfFuelMessage>
+  <DMS_Turret_MK44_Navy.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_MK44_Navy.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: MK44 BushMaster-II -->
   <DMS_Gun_MK44_Navy.label>torreta de cañon pesada</DMS_Gun_MK44_Navy.label>
   <!-- EN: The 30x173mm MK44 Bushmaster II autocannon, despite its modest 200 RPM rate of fire, achieves reliable defensive performance through good accuracy and adequate lethality. -->
@@ -381,11 +381,11 @@
   <!-- EN: An ancient design of a remote controlled turret widely used on armored vehicles and mech armor platforms. -->
   <DMS_Turret_Okhotnik.description>Un diseño antiguo de torreta controlada a distancia ampliamente utilizada en vehículos blindados y plataformas de blindaje de mecanoides.</DMS_Turret_Okhotnik.description>
   <!-- EN: Shots until barrel change -->
-  <DMS_Turret_Okhotnik.comps.5.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Okhotnik.comps.5.fuelLabel>
+  <DMS_Turret_Okhotnik.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Okhotnik.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <DMS_Turret_Okhotnik.comps.5.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Okhotnik.comps.5.fuelGizmoLabel>
+  <DMS_Turret_Okhotnik.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Okhotnik.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot shoot: Needs new reinforced barrel. -->
-  <DMS_Turret_Okhotnik.comps.5.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Okhotnik.comps.5.outOfFuelMessage>
+  <DMS_Turret_Okhotnik.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Okhotnik.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: kord -->
   <DMS_Gun_Kord.label>kord</DMS_Gun_Kord.label>
   <!-- EN: kord -->
@@ -399,11 +399,11 @@
   <!-- EN: An ancient design of a rapid fire indirect artillery piece capable of firing four mortar rounds in one burst. -->
   <DMS_Turret_Vasilek.description>Un diseño antiguo de pieza de artillería indirecta de fuego rápido capaz de disparar cuatro proyectiles de mortero en una ráfaga.</DMS_Turret_Vasilek.description>
   <!-- EN: Shots until barrel change -->
-  <DMS_Turret_Vasilek.comps.2.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Vasilek.comps.2.fuelLabel>
+  <DMS_Turret_Vasilek.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Vasilek.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <DMS_Turret_Vasilek.comps.2.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Vasilek.comps.2.fuelGizmoLabel>
+  <DMS_Turret_Vasilek.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Vasilek.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot fire: Needs new reinforced barrel. -->
-  <DMS_Turret_Vasilek.comps.2.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Vasilek.comps.2.outOfFuelMessage>
+  <DMS_Turret_Vasilek.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Vasilek.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: 2B9M vasilek -->
   <DMS_Gun_Vasilek.label>cañon vasilek</DMS_Gun_Vasilek.label>
   <!-- EN: An ancient design of rapid fire indirect artillery piece capabler of firing four mortar rounds in one burst. -->
@@ -415,11 +415,11 @@
   <!-- EN: MPQFS-85 &quot;Dawnblade&quot; is an onboard multirole quick-firing cannon system. It uses drum magazines and an automatic revolver loader to permit a high rate of sustained fire.\n\nThe armor plating has been removed to allow emplacement to be redeployed as needed for heavy fire support. -->
   <DMS_Turret_Dawnblade.description>El MPQFS-85 "Hoja del Alba" es un sistema de cañón de disparo rápido multirol a bordo. Utiliza cargadores de tambor y un cargador de revólver automático para permitir una alta cadencia de fuego sostenido.\n\nEl blindaje ha sido retirado para permitir que el emplazamiento sea redesplegado según sea necesario para un apoyo de fuego pesado.</DMS_Turret_Dawnblade.description>
   <!-- EN: Shots until barrel change -->
-  <DMS_Turret_Dawnblade.comps.6.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Dawnblade.comps.6.fuelLabel>
+  <DMS_Turret_Dawnblade.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</DMS_Turret_Dawnblade.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <DMS_Turret_Dawnblade.comps.6.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Dawnblade.comps.6.fuelGizmoLabel>
+  <DMS_Turret_Dawnblade.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</DMS_Turret_Dawnblade.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot fire: Needs new reinforced barrel. -->
-  <DMS_Turret_Dawnblade.comps.6.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Dawnblade.comps.6.outOfFuelMessage>
+  <DMS_Turret_Dawnblade.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita un nuevo cañón reforzado.</DMS_Turret_Dawnblade.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: Type 85 Multi-Purpose-Quick-Firing System -->
   <DMS_Gun_Dawnblade.label>Sistema de disparo rápido multipropósito Tipo 85</DMS_Gun_Dawnblade.label>
   <!-- EN: An automated artillery system widely used on small to medium-sized frigates and corvettes in colonial fleets. -->
@@ -555,19 +555,19 @@
   <!-- EN: Artifuscle is a type of prosthetic material made from genetically enhanced lab grown muscle-fiber bundles. -->
   <Artifuscle.description>El artimúsculo es un tipo de material protésico hecho de haces de fibras musculares cultivadas en laboratorio y mejoradas genéticamente.</Artifuscle.description>
   <!-- EN: Artificial muscle studied: {RESEARCH} unlocked -->
-  <Artifuscle.comps.3.completedLetterLabel>Músculo artificial estudiado: {RESEARCH} desbloqueado</Artifuscle.comps.3.completedLetterLabel>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Músculo artificial estudiado: {RESEARCH} desbloqueado</Artifuscle.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <Artifuscle.comps.3.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</Artifuscle.comps.3.completedLetter>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</Artifuscle.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <Artifuscle.comps.3.activateLabelString>Analizar...</Artifuscle.comps.3.activateLabelString>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</Artifuscle.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the artificial muscle -->
-  <Artifuscle.comps.3.activateDescString>Analizar el músculo artificial</Artifuscle.comps.3.activateDescString>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el músculo artificial</Artifuscle.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze the artificial muscle -->
-  <Artifuscle.comps.3.jobString>Analizar el músculo artificial</Artifuscle.comps.3.jobString>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.jobString>Analizar el músculo artificial</Artifuscle.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <Artifuscle.comps.3.guiLabelString>Elija quién debe analizar esto</Artifuscle.comps.3.guiLabelString>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.guiLabelString>Elija quién debe analizar esto</Artifuscle.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <Artifuscle.comps.3.inspectString>Puede ser analizado por un colono.</Artifuscle.comps.3.inspectString>
+  <Artifuscle.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</Artifuscle.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: artiprotein -->
   <DMS_Artiprotein.label>artiproteína</DMS_Artiprotein.label>
   <!-- EN: A dense block of high-protein matter synthesized by engineered biological enzymes from digested nutrient stock. It eats much like fish, supplies a full protein intake, and keeps far longer at a higher nutritional density than any butchered meat. Standard issue for long-term storage, and the organic feedstock of choice when culturing biological tissue. -->
@@ -581,73 +581,73 @@
   <!-- EN: An organic computer which functions as an artificial organic brain. It fills the role of a cheap computational brain for factions without access to rare metals and precision machining. -->
   <Neurocomputer.description>Una computadora orgánica que funciona como un cerebro orgánico artificial. Cumple la función de un cerebro computacional barato para facciones sin acceso a metales raros y mecanizado de precisión.</Neurocomputer.description>
   <!-- EN: Wetware computer studied: {RESEARCH} unlocked -->
-  <Neurocomputer.comps.1.completedLetterLabel>Biocomputadora estudiada: {RESEARCH} desbloqueada</Neurocomputer.comps.1.completedLetterLabel>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Biocomputadora estudiada: {RESEARCH} desbloqueada</Neurocomputer.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <Neurocomputer.comps.1.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</Neurocomputer.comps.1.completedLetter>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</Neurocomputer.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <Neurocomputer.comps.1.activateLabelString>Analizar...</Neurocomputer.comps.1.activateLabelString>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</Neurocomputer.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the wetware computer -->
-  <Neurocomputer.comps.1.activateDescString>Analizar la biocomputadora</Neurocomputer.comps.1.activateDescString>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar la biocomputadora</Neurocomputer.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze the wetware computer -->
-  <Neurocomputer.comps.1.jobString>Analizar la biocomputadora</Neurocomputer.comps.1.jobString>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.jobString>Analizar la biocomputadora</Neurocomputer.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <Neurocomputer.comps.1.guiLabelString>Elija quién debe analizar esto</Neurocomputer.comps.1.guiLabelString>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.guiLabelString>Elija quién debe analizar esto</Neurocomputer.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <Neurocomputer.comps.1.inspectString>Puede ser analizado por un colono.</Neurocomputer.comps.1.inspectString>
+  <Neurocomputer.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</Neurocomputer.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: T/R Component -->
   <ComponentTransmitter.label>componentes electrónicos</ComponentTransmitter.label>
   <!-- EN: Precision electronic components for radar and communication devices. -->
   <ComponentTransmitter.description>Componentes electrónicos de precisión para dispositivos de radar y comunicación.</ComponentTransmitter.description>
   <!-- EN: T/R Component studied: {RESEARCH} unlocked -->
-  <ComponentTransmitter.comps.1.completedLetterLabel>Componente electrónico estudiado: {RESEARCH} desbloqueado</ComponentTransmitter.comps.1.completedLetterLabel>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Componente electrónico estudiado: {RESEARCH} desbloqueado</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <ComponentTransmitter.comps.1.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentTransmitter.comps.1.completedLetter>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <ComponentTransmitter.comps.1.activateLabelString>Analizar...</ComponentTransmitter.comps.1.activateLabelString>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the T/R Component -->
-  <ComponentTransmitter.comps.1.activateDescString>Analizar el componente electrónico</ComponentTransmitter.comps.1.activateDescString>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el componente electrónico</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze the T/R Component -->
-  <ComponentTransmitter.comps.1.jobString>Analizar el componente electrónico</ComponentTransmitter.comps.1.jobString>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.jobString>Analizar el componente electrónico</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <ComponentTransmitter.comps.1.guiLabelString>Elija quién debe analizar esto</ComponentTransmitter.comps.1.guiLabelString>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.guiLabelString>Elija quién debe analizar esto</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <ComponentTransmitter.comps.1.inspectString>Puede ser analizado por un colono.</ComponentTransmitter.comps.1.inspectString>
+  <ComponentTransmitter.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</ComponentTransmitter.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Cluster Control Chipsets -->
   <ComponentControlChip.label>chip de control clúster</ComponentControlChip.label>
   <!-- EN: A chipset for remote machine controllers and the core of industrial machines. -->
   <ComponentControlChip.description>Un chip para controladores de máquinas remotas y el núcleo de máquinas industriales.</ComponentControlChip.description>
   <!-- EN: Cluster Control Chipsets studied: {RESEARCH} unlocked -->
-  <ComponentControlChip.comps.1.completedLetterLabel>Chips de control clúster estudiados: {RESEARCH} desbloqueado</ComponentControlChip.comps.1.completedLetterLabel>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Chips de control clúster estudiados: {RESEARCH} desbloqueado</ComponentControlChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <ComponentControlChip.comps.1.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentControlChip.comps.1.completedLetter>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentControlChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <ComponentControlChip.comps.1.activateLabelString>Analizar...</ComponentControlChip.comps.1.activateLabelString>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</ComponentControlChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze Cluster Control Chipsets -->
-  <ComponentControlChip.comps.1.activateDescString>Analizar los chips de control clúster</ComponentControlChip.comps.1.activateDescString>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar los chips de control clúster</ComponentControlChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze the Cluster Control Chipsets -->
-  <ComponentControlChip.comps.1.jobString>Analizar los chips de control clúster</ComponentControlChip.comps.1.jobString>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.jobString>Analizar los chips de control clúster</ComponentControlChip.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this -->
-  <ComponentControlChip.comps.1.guiLabelString>Elija quién debe analizar esto</ComponentControlChip.comps.1.guiLabelString>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Elija quién debe analizar esto</ComponentControlChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <ComponentControlChip.comps.1.inspectString>Puede ser analizado por un colono.</ComponentControlChip.comps.1.inspectString>
+  <ComponentControlChip.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</ComponentControlChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Fire Control System -->
   <ComponentFireControl.label>sistema de control de fuego</ComponentFireControl.label>
   <!-- EN: A chipsets designed for weapon control assistance and trajectory tracking. -->
   <ComponentFireControl.description>Un chip diseñado para la asistencia de control de armas y el seguimiento de trayectoria.</ComponentFireControl.description>
   <!-- EN: Fire control system studied: {RESEARCH} unlocked -->
-  <ComponentFireControl.comps.1.completedLetterLabel>Sistema de control de fuego estudiado: {RESEARCH} desbloqueado</ComponentFireControl.comps.1.completedLetterLabel>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Sistema de control de fuego estudiado: {RESEARCH} desbloqueado</ComponentFireControl.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <ComponentFireControl.comps.1.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentFireControl.comps.1.completedLetter>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.completedLetter>Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</ComponentFireControl.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Analyze... -->
-  <ComponentFireControl.comps.1.activateLabelString>Analizar...</ComponentFireControl.comps.1.activateLabelString>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.activateLabelString>Analizar...</ComponentFireControl.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: Analyze the Fire Control System -->
-  <ComponentFireControl.comps.1.activateDescString>Analizar el sistema de control de fuego</ComponentFireControl.comps.1.activateDescString>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.activateDescString>Analizar el sistema de control de fuego</ComponentFireControl.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze the Fire Control System -->
-  <ComponentFireControl.comps.1.jobString>Analizar el sistema de control de fuego</ComponentFireControl.comps.1.jobString>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.jobString>Analizar el sistema de control de fuego</ComponentFireControl.comps.CompAnalyzableUnlockResearch.jobString>
   <!-- EN: Choose who should analyze this. -->
-  <ComponentFireControl.comps.1.guiLabelString>Elija quién debe analizar esto.</ComponentFireControl.comps.1.guiLabelString>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.guiLabelString>Elija quién debe analizar esto.</ComponentFireControl.comps.CompAnalyzableUnlockResearch.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <ComponentFireControl.comps.1.inspectString>Puede ser analizado por un colono.</ComponentFireControl.comps.1.inspectString>
+  <ComponentFireControl.comps.CompAnalyzableUnlockResearch.inspectString>Puede ser analizado por un colono.</ComponentFireControl.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Pulsar Emitter Unit -->
   <PulsarEmitterUnit.label>unidad emisora de pulsos</PulsarEmitterUnit.label>
   <!-- EN: A precision component used to generate pulsed force fields, and the basis of most midworld shield technology. A single emitter unit can only sustain a field of limited strength, but arraying many of them together produces an energy shield strong enough to deflect artillery shells. -->
@@ -657,7 +657,7 @@
   <!-- EN: A high-power communication relay to be used in the colony for emergency reinforcements. The identification code of this rescue protocol has long been abandoned, so only those mechanized units that are feral will take the bait. -->
   <DMS_EncryptedTransmitter.description>Un relé de comunicación de alta potencia para ser utilizado en la colonia para refuerzos de emergencia. El código de identificación de este protocolo de rescate ha sido abandonado hace mucho tiempo, por lo que solo las unidades mecanizadas que son salvajes morderán el anzuelo.</DMS_EncryptedTransmitter.description>
   <!-- EN: Attract legion threat -->
-  <DMS_EncryptedTransmitter.comps.1.useLabel>Atraer amenaza de legión</DMS_EncryptedTransmitter.comps.1.useLabel>
+  <DMS_EncryptedTransmitter.comps.CompUsable.useLabel>Atraer amenaza de legión</DMS_EncryptedTransmitter.comps.CompUsable.useLabel>
   <!-- EN: Blaster Screen Shell -->
   <Shell_BlasterSmoke.label>obús cortacargas</Shell_BlasterSmoke.label>
   <!-- EN: An artillery shell containing reagents that generate an active-particle field which triggers charged ammo&apos;s detonation mid-flight. These shells are a preferred countermeasure while fighting against mech legions and mid-world megacorps. Does not effect other projectiles. -->
@@ -677,7 +677,7 @@
   <!-- EN: A set of ceramic plates designed to be mounted on to a mech&apos;s external shell to provide additional protection. Once damaged, the armor plating must be completely replaced.\n\nThe maximum amount of plating able to be installed on a mech can depend on its body size. -->
   <DMS_CeramicsPlating.description>Un conjunto de placas de cerámica diseñadas para ser montadas en la carcasa externa de un meca para proporcionar protección adicional. Una vez dañada, la placa de blindaje debe ser reemplazada por completo.\n\nLa cantidad máxima de blindaje que se puede instalar en un meca puede depender de su tamaño corporal.</DMS_CeramicsPlating.description>
   <!-- EN: Use {0_label} -->
-  <DMS_CeramicsPlating.comps.1.useLabel>Usar {0_label}</DMS_CeramicsPlating.comps.1.useLabel>
+  <DMS_CeramicsPlating.comps.CompUsable.useLabel>Usar {0_label}</DMS_CeramicsPlating.comps.CompUsable.useLabel>
   <!-- EN: broken ceramics -->
   <DMS_BrokenCeramics.label>cerámica rota</DMS_BrokenCeramics.label>
   <!-- EN: Reinforced Frame -->
@@ -685,49 +685,49 @@
   <!-- EN: A set of tungsteel parts made to replace those prone to wearing down, effectively improving reliability and durability during high-intensity combat. These heavy-duty replacement parts will significantly increase the weight of the mech and affect its speed. -->
   <DMS_ReinforcedFrame.description>Un conjunto de piezas de tungstanio hechas para reemplazar aquellas propensas al desgaste, mejorando eficazmente la fiabilidad y la durabilidad durante el combate de alta intensidad. Estas piezas de repuesto de alta resistencia aumentarán significativamente el peso del meca y afectarán su velocidad.</DMS_ReinforcedFrame.description>
   <!-- EN: Use {0_label} -->
-  <DMS_ReinforcedFrame.comps.1.useLabel>Usar {0_label}</DMS_ReinforcedFrame.comps.1.useLabel>
+  <DMS_ReinforcedFrame.comps.CompUsable.useLabel>Usar {0_label}</DMS_ReinforcedFrame.comps.CompUsable.useLabel>
   <!-- EN: Nuclear Battery -->
   <DMS_NuclearBattery.label>batería nuclear</DMS_NuclearBattery.label>
   <!-- EN: A nuclear fission reactor powering a quantum battery, this device is commonly found in many unmanned signal stations and defense robots. It consists of six high-density uranium-235 columns with integrated thermocouples all wrapped in a high-strength shell. Its energy is enough to make most models of automatroid operate for decades. -->
   <DMS_NuclearBattery.description>Un reactor de fisión nuclear que alimenta una batería cuántica, este dispositivo se encuentra comúnmente en muchas estaciones de señales no tripuladas y robots de defensa. Consiste en seis columnas de uranio-235 de alta densidad con termopares integrados, todo envuelto en una carcasa de alta resistencia. Su energía es suficiente para hacer que la mayoría de los modelos de automatroide operen durante décadas.</DMS_NuclearBattery.description>
   <!-- EN: Use {0_label} -->
-  <DMS_NuclearBattery.comps.1.useLabel>Usar {0_label}</DMS_NuclearBattery.comps.1.useLabel>
+  <DMS_NuclearBattery.comps.CompUsable.useLabel>Usar {0_label}</DMS_NuclearBattery.comps.CompUsable.useLabel>
   <!-- EN: Synthetic Tendon -->
   <DMS_SyntheticTendon.label>tendón sintético</DMS_SyntheticTendon.label>
   <!-- EN: Biosynthetic muscles attached on the outer layer of mechanical limbs. Synthetic tendons effectively increase output at the cost of additional energy consumption. -->
   <DMS_SyntheticTendon.description>Músculos biosintéticos unidos a la capa externa de las extremidades mecánicas. Los tendones sintéticos aumentan eficazmente la producción a costa de un consumo de energía adicional.</DMS_SyntheticTendon.description>
   <!-- EN: Use {0_label} -->
-  <DMS_SyntheticTendon.comps.1.useLabel>Usar {0_label}</DMS_SyntheticTendon.comps.1.useLabel>
+  <DMS_SyntheticTendon.comps.CompUsable.useLabel>Usar {0_label}</DMS_SyntheticTendon.comps.CompUsable.useLabel>
   <!-- EN: Command Coprocessor -->
   <DMS_CommandCoprocessor.label>coprocesador de mando</DMS_CommandCoprocessor.label>
   <!-- EN: An auxiliary processing board fitted alongside a command automatroid&apos;s core processor. It takes over the signal multiplexing and unit bookkeeping that would otherwise occupy the main processor, letting the automatroid keep more units on its command chain at once.\n\nThe extra silicon draws power continuously, slightly increasing the automatroid&apos;s energy consumption.\n\nOnly command-type automatroids have a processor bus that can accept it. -->
   <DMS_CommandCoprocessor.description>Una placa de procesamiento auxiliar que se instala junto al procesador central de un automatroide de mando. Se encarga de la multiplexación de señales y del registro de unidades que de otro modo ocuparían al procesador principal, lo que permite al automatroide mantener más unidades a la vez en su cadena de mando.\n\nEl silicio adicional consume energía de forma continua y aumenta un poco el consumo del automatroide.\n\nSolo los automatroides de tipo mando tienen un bus de procesador que lo admita.</DMS_CommandCoprocessor.description>
   <!-- EN: Use {0_label} -->
-  <DMS_CommandCoprocessor.comps.1.useLabel>Usar {0_label}</DMS_CommandCoprocessor.comps.1.useLabel>
+  <DMS_CommandCoprocessor.comps.CompUsable.useLabel>Usar {0_label}</DMS_CommandCoprocessor.comps.CompUsable.useLabel>
   <!-- EN: Heavy Hydraulic Frame -->
   <DMS_TB_HeavyHydraulicFrame.label>armazón hidráulico pesado</DMS_TB_HeavyHydraulicFrame.label>
   <!-- EN: A high durability reinforced hydraulic frame designed as a platform for mounting heavy weapons on Iguanas and Geckos. -->
   <DMS_TB_HeavyHydraulicFrame.description>Un armazón hidráulico reforzado de alta durabilidad diseñado como plataforma para montar armas pesadas en mecanoides bípedos.</DMS_TB_HeavyHydraulicFrame.description>
   <!-- EN: Use {0_label} -->
-  <DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>Usar {0_label}</DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>
+  <DMS_TB_HeavyHydraulicFrame.comps.CompUsable.useLabel>Usar {0_label}</DMS_TB_HeavyHydraulicFrame.comps.CompUsable.useLabel>
   <!-- EN: Recoilless rifle rack -->
   <DMS_BF_RecoillessRifle.label>soporte de cañones sin retroceso</DMS_BF_RecoillessRifle.label>
   <!-- EN: A pair of 65mm recoilless tubes on a shared cradle, built to bolt onto the side pylons of a battle frame. Line units fit it for one reason: a frame&apos;s own light armament has no answer to plating or a prepared firing position, and a walking mount can carry the tube into ground a two-man crew would never reach.\n\nLoaded with shaped-charge rockets, the rack defeats armor and fortifications far above the frame&apos;s weight class, and its fire control unit reloads a spent tube from carried stores between engagements. The frame pays for it in walking pace, dodging room and cargo allowance, and every backblast marks its position for every observer on the field. -->
   <DMS_BF_RecoillessRifle.description>Un par de tubos sin retroceso de 65 mm sobre un soporte común, hecho para atornillarse a los pilones laterales de un armazón de batalla. Las unidades de línea lo montan por una sola razón: el armamento ligero propio de un armazón no tiene respuesta contra el blindaje ni contra una posición de tiro preparada, y una plataforma que camina puede llevar el tubo a terrenos que una dotación de dos personas nunca alcanzaría.\n\nCargado con cohetes de carga hueca, el soporte vence blindajes y fortificaciones muy por encima de la categoría de peso del armazón, y su unidad de control de tiro recarga un tubo vacío con la munición que lleva entre un combate y otro. El armazón lo paga en velocidad al caminar, margen para esquivar y capacidad de carga, y cada retrollama delata su posición ante todos los observadores del campo.</DMS_BF_RecoillessRifle.description>
   <!-- EN: Use {0_label} -->
-  <DMS_BF_RecoillessRifle.comps.1.useLabel>Usar {0_label}</DMS_BF_RecoillessRifle.comps.1.useLabel>
+  <DMS_BF_RecoillessRifle.comps.CompUsable.useLabel>Usar {0_label}</DMS_BF_RecoillessRifle.comps.CompUsable.useLabel>
   <!-- EN: Extended Cargo Rack -->
   <DMS_BF_ExtendCargo.label>soporte de carga</DMS_BF_ExtendCargo.label>
   <!-- EN: Side mounted cargo racks suitable for battle frame pylons. The racks increase the carrying capacity of battle frames and their variants, and a fitted unit hauls enough to speed up a caravan it travels with. The added weight slows the unit down on foot. -->
   <DMS_BF_ExtendCargo.description>Soportes de carga montados lateralmente adecuados para los pilones de los armazones de batalla. Los soportes aumentan la capacidad de carga de los armazones de batalla y sus variantes, y una unidad equipada transporta lo suficiente para acelerar la caravana con la que viaja. El peso añadido hace que la unidad se mueva más lento a pie.</DMS_BF_ExtendCargo.description>
   <!-- EN: Use {0_label} -->
-  <DMS_BF_ExtendCargo.comps.1.useLabel>Usar {0_label}</DMS_BF_ExtendCargo.comps.1.useLabel>
+  <DMS_BF_ExtendCargo.comps.CompUsable.useLabel>Usar {0_label}</DMS_BF_ExtendCargo.comps.CompUsable.useLabel>
   <!-- EN: Additional Armor Plating -->
   <DMS_BF_ExtendArmor.label>placas de blindaje</DMS_BF_ExtendArmor.label>
   <!-- EN: Composite armor plates designed for battle frame pylons add survivability to the battle frame by protecting it from fragmentation and medium-caliber gunfire. -->
   <DMS_BF_ExtendArmor.description>Placas de blindaje compuesto diseñadas para los pilones de los armazones de batalla aumentan la supervivencia del armazón de batalla protegiéndolo de la fragmentación y los disparos de mediano calibre.</DMS_BF_ExtendArmor.description>
   <!-- EN: Use {0_label} -->
-  <DMS_BF_ExtendArmor.comps.1.useLabel>Usar {0_label}</DMS_BF_ExtendArmor.comps.1.useLabel>
+  <DMS_BF_ExtendArmor.comps.CompUsable.useLabel>Usar {0_label}</DMS_BF_ExtendArmor.comps.CompUsable.useLabel>
   <!-- EN: beast -->
   <DMS_AMO_Beast.label>bestia</DMS_AMO_Beast.label>
   <!-- EN: TODO -->
@@ -865,9 +865,9 @@
   <!-- EN: A stealth operation command-relay drone nicknamed &quot;Night bat&quot;. The drone is a command-relay variant of the Falcon. -->
   <DMS_Mech_Noctula.description>Un dron de retransmisión de comandos para operaciones sigilosas apodado "Murciélago nocturno". El dron es una variante de retransmisión de comandos halcón.</DMS_Mech_Noctula.description>
   <!-- EN: Noctula revealed -->
-  <DMS_Mech_Noctula.comps.11.detectedLetterLabel>Nóctulo descubierto</DMS_Mech_Noctula.comps.11.detectedLetterLabel>
+  <DMS_Mech_Noctula.comps.CompCamouflage.detectedLetterLabel>Nóctulo descubierto</DMS_Mech_Noctula.comps.CompCamouflage.detectedLetterLabel>
   <!-- EN: An enemy automatroid has appeared out of thin air! -->
-  <DMS_Mech_Noctula.comps.11.detectedLetterDesc>¡Un automatroide enemigo apareció de la nada!</DMS_Mech_Noctula.comps.11.detectedLetterDesc>
+  <DMS_Mech_Noctula.comps.CompCamouflage.detectedLetterDesc>¡Un automatroide enemigo apareció de la nada!</DMS_Mech_Noctula.comps.CompCamouflage.detectedLetterDesc>
   <!-- EN: head -->
   <DMS_Mech_Noctula.tools.0.label>cabeza</DMS_Mech_Noctula.tools.0.label>
   <!-- EN: hyrax -->
@@ -891,9 +891,9 @@
   <!-- EN: An Arquebusier variant specializing in stealth operations and guerilla warfare sabotaging equipment behind enemy lines. It has high mobility and an active camouflage ability. -->
   <DMS_Mech_Jaeger.description>Una variante de arcabucero especializada en operaciones de sigilo y guerra de guerrillas, saboteando equipos detrás de las líneas enemigas. Tiene alta movilidad y una habilidad de camuflaje activa.</DMS_Mech_Jaeger.description>
   <!-- EN: Jaeger revealed -->
-  <DMS_Mech_Jaeger.comps.8.detectedLetterLabel>Jaeger descubierto</DMS_Mech_Jaeger.comps.8.detectedLetterLabel>
+  <DMS_Mech_Jaeger.comps.CompCamouflage.detectedLetterLabel>Jaeger descubierto</DMS_Mech_Jaeger.comps.CompCamouflage.detectedLetterLabel>
   <!-- EN: An enemy automatroid has appeared out of thin air! -->
-  <DMS_Mech_Jaeger.comps.8.detectedLetterDesc>¡Un automatroide enemigo apareció de la nada!</DMS_Mech_Jaeger.comps.8.detectedLetterDesc>
+  <DMS_Mech_Jaeger.comps.CompCamouflage.detectedLetterDesc>¡Un automatroide enemigo apareció de la nada!</DMS_Mech_Jaeger.comps.CompCamouflage.detectedLetterDesc>
   <!-- EN: head -->
   <DMS_Mech_Jaeger.tools.0.label>cabeza</DMS_Mech_Jaeger.tools.0.label>
   <!-- EN: left fist -->
@@ -1037,7 +1037,7 @@
   <!-- EN: The UAS 1/B &quot;Hunter Bee&quot; nicknamed &quot;wildfowl&quot; is a foldable, small coaxial rotor drone equipped with a plastic explosive charge equivalent to an M67 hand grenade, posing a significant threat when approaching a target in swarms. -->
   <DMS_Drone_Wildfowl.description>El UAS 1/B «Hunter Bee», apodado «ave silvestre», es un dron plegable pequeño de rotores coaxiales, equipado con una carga de explosivo plástico equivalente a una granada de mano M67. Es una amenaza seria cuando se acerca al objetivo en enjambre.</DMS_Drone_Wildfowl.description>
   <!-- EN: Battery power -->
-  <DMS_Drone_Wildfowl.comps.6.labelOverride>Energía de la batería</DMS_Drone_Wildfowl.comps.6.labelOverride>
+  <DMS_Drone_Wildfowl.comps.CompMechPowerCell.labelOverride>Energía de la batería</DMS_Drone_Wildfowl.comps.CompMechPowerCell.labelOverride>
   <!-- EN: flabellum -->
   <DMS_Drone_Wildfowl.tools.0.label>flabelo</DMS_Drone_Wildfowl.tools.0.label>
   <!-- EN: Frogman -->
@@ -1115,17 +1115,17 @@
   <!-- EN: barrel -->
   <DMS_Revolver.tools.1.label>cañón</DMS_Revolver.tools.1.label>
   <!-- EN: rubber slug -->
-  <DMS_Revolver.comps.4.ammos.0.label>posta de goma</DMS_Revolver.comps.4.ammos.0.label>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.0.label>posta de goma</DMS_Revolver.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A less-lethal slug that bruises and knocks down instead of killing. What the revolver was sold with, and what most of its owners never bother to change. -->
-  <DMS_Revolver.comps.4.ammos.0.description>Una posta menos letal que contusiona y derriba en lugar de matar. Es la que venía con el revólver, y la mayoría de sus dueños nunca se molesta en cambiarla.</DMS_Revolver.comps.4.ammos.0.description>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.0.description>Una posta menos letal que contusiona y derriba en lugar de matar. Es la que venía con el revólver, y la mayoría de sus dueños nunca se molesta en cambiarla.</DMS_Revolver.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: buckshot -->
-  <DMS_Revolver.comps.4.ammos.1.label>perdigones</DMS_Revolver.comps.4.ammos.1.label>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.1.label>perdigones</DMS_Revolver.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A lethal spread of pellets for when the situation stops being a disturbance and starts being a fight. Slightly harder to place than a rubber slug. -->
-  <DMS_Revolver.comps.4.ammos.1.description>Una dispersión letal de perdigones para cuando la situación deja de ser un disturbio y pasa a ser una pelea. Es algo más difícil de colocar que una posta de goma.</DMS_Revolver.comps.4.ammos.1.description>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.1.description>Una dispersión letal de perdigones para cuando la situación deja de ser un disturbio y pasa a ser una pelea. Es algo más difícil de colocar que una posta de goma.</DMS_Revolver.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: slug -->
-  <DMS_Revolver.comps.4.ammos.2.label>posta</DMS_Revolver.comps.4.ammos.2.label>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.2.label>posta</DMS_Revolver.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A single lead slug that carries much further than shot and punches through light plating. The heavier charge makes the revolver slower to bring on target. -->
-  <DMS_Revolver.comps.4.ammos.2.description>Una sola posta de plomo que llega mucho más lejos que los perdigones y atraviesa placas ligeras. La carga más pesada hace que el revólver tarde más en apuntar al objetivo.</DMS_Revolver.comps.4.ammos.2.description>
+  <DMS_Revolver.comps.CompAmmoSwitch.ammos.2.description>Una sola posta de plomo que llega mucho más lejos que los perdigones y atraviesa placas ligeras. La carga más pesada hace que el revólver tarde más en apuntar al objetivo.</DMS_Revolver.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: 20 gauge rubber slug -->
   <DMS_Bullet_RiotRevolver.label>posta de goma calibre 20</DMS_Bullet_RiotRevolver.label>
   <!-- EN: A 20 gauge rubber slug. It arrives as one heavy impact rather than a spread, which puts someone on the ground and rarely does worse than that. Armor plating shrugs it off entirely. -->
@@ -1149,21 +1149,21 @@
   <!-- EN: barrel -->
   <DMS_RiotShotgun.tools.1.label>cañón</DMS_RiotShotgun.tools.1.label>
   <!-- EN: rubber slug -->
-  <DMS_RiotShotgun.comps.4.ammos.0.label>posta de goma</DMS_RiotShotgun.comps.4.ammos.0.label>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.0.label>posta de goma</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A single rubber slug that knocks a target down instead of killing it. The standard round for riot work and for taking prisoners alive. -->
-  <DMS_RiotShotgun.comps.4.ammos.0.description>Una sola posta de goma que derriba al objetivo en lugar de matarlo. Es la munición estándar para controlar disturbios y capturar prisioneros con vida.</DMS_RiotShotgun.comps.4.ammos.0.description>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.0.description>Una sola posta de goma que derriba al objetivo en lugar de matarlo. Es la munición estándar para controlar disturbios y capturar prisioneros con vida.</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: buckshot -->
-  <DMS_RiotShotgun.comps.4.ammos.1.label>perdigones</DMS_RiotShotgun.comps.4.ammos.1.label>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.1.label>perdigones</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A lethal spread of pellets for close work against unarmored flesh. Marginally harder to place than a rubber slug. -->
-  <DMS_RiotShotgun.comps.4.ammos.1.description>Una dispersión letal de perdigones para el combate cercano contra carne sin blindaje. Es apenas más difícil de colocar que una posta de goma.</DMS_RiotShotgun.comps.4.ammos.1.description>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.1.description>Una dispersión letal de perdigones para el combate cercano contra carne sin blindaje. Es apenas más difícil de colocar que una posta de goma.</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: EMP shot -->
-  <DMS_RiotShotgun.comps.4.ammos.2.label>cartucho EMP</DMS_RiotShotgun.comps.4.ammos.2.label>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.2.label>cartucho EMP</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A capacitor slug that discharges on impact, shorting out mechanoid systems instead of destroying them. It does nothing at all to flesh, and the heavy payload cuts the effective range short. -->
-  <DMS_RiotShotgun.comps.4.ammos.2.description>Una posta de condensador que se descarga al impactar y cortocircuita los sistemas de los mecanoides en lugar de destruirlos. No le hace nada a la carne, y su pesada carga acorta el alcance efectivo.</DMS_RiotShotgun.comps.4.ammos.2.description>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.2.description>Una posta de condensador que se descarga al impactar y cortocircuita los sistemas de los mecanoides en lugar de destruirlos. No le hace nada a la carne, y su pesada carga acorta el alcance efectivo.</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: breaching round -->
-  <DMS_RiotShotgun.comps.4.ammos.3.label>cartucho de brecha</DMS_RiotShotgun.comps.4.ammos.3.label>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.3.label>cartucho de brecha</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.3.label>
   <!-- EN: A solid slug meant to be fired into a door or a thin wall from arm&apos;s length. It will open a way in where nothing else will, and it is close to useless at any other distance. -->
-  <DMS_RiotShotgun.comps.4.ammos.3.description>Una posta sólida pensada para dispararse contra una puerta o un muro delgado a un brazo de distancia. Abre paso donde nada más lo logra, y a cualquier otra distancia casi no sirve.</DMS_RiotShotgun.comps.4.ammos.3.description>
+  <DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.3.description>Una posta sólida pensada para dispararse contra una puerta o un muro delgado a un brazo de distancia. Abre paso donde nada más lo logra, y a cualquier otra distancia casi no sirve.</DMS_RiotShotgun.comps.CompAmmoSwitch.ammos.3.description>
   <!-- EN: 4 gauge rubber slug -->
   <DMS_Bullet_RiotShotgun.label>posta de goma calibre 4</DMS_Bullet_RiotShotgun.label>
   <!-- EN: A 4 gauge rubber slug. It delivers a crushing, non-penetrating impact intended to knock down a target without killing them. Ineffective against armor plating. -->
@@ -1273,21 +1273,21 @@
   <!-- EN: Recoilless Rifle -->
   <DMS_Gun_Recoilless.verbs.Verb_Shoot_AmmoSwitch.label>rifle sin retroceso</DMS_Gun_Recoilless.verbs.Verb_Shoot_AmmoSwitch.label>
   <!-- EN: airburst canister -->
-  <DMS_Gun_Recoilless.comps.4.ammos.0.label>cartucho de estallido aéreo</DMS_Gun_Recoilless.comps.4.ammos.0.label>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.0.label>cartucho de estallido aéreo</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: An explosive canister with a wide blast of spike darts but ordinary penetration. Best used against groups of unarmored targets. -->
-  <DMS_Gun_Recoilless.comps.4.ammos.0.description>Un cartucho explosivo con una amplia ráfaga de dardos, pero de penetración común. Es mejor contra grupos de objetivos sin blindaje.</DMS_Gun_Recoilless.comps.4.ammos.0.description>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.0.description>Un cartucho explosivo con una amplia ráfaga de dardos, pero de penetración común. Es mejor contra grupos de objetivos sin blindaje.</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: shaped-charge shell -->
-  <DMS_Gun_Recoilless.comps.4.ammos.1.label>proyectil de carga hueca</DMS_Gun_Recoilless.comps.4.ammos.1.label>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.1.label>proyectil de carga hueca</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A chemical-energy penetrator with very high armor penetration, backed by a fragmentation sleeve that throws a forward cone of splinters. Best used against heavily armored targets. -->
-  <DMS_Gun_Recoilless.comps.4.ammos.1.description>Un penetrador de energía química con muy alta penetración de blindaje, respaldado por una funda de fragmentación que lanza un cono de esquirlas hacia adelante. Es mejor contra objetivos muy blindados.</DMS_Gun_Recoilless.comps.4.ammos.1.description>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.1.description>Un penetrador de energía química con muy alta penetración de blindaje, respaldado por una funda de fragmentación que lanza un cono de esquirlas hacia adelante. Es mejor contra objetivos muy blindados.</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: demolition shell -->
-  <DMS_Gun_Recoilless.comps.4.ammos.2.label>proyectil de demolición</DMS_Gun_Recoilless.comps.4.ammos.2.label>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.2.label>proyectil de demolición</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A high-explosive shell specialized against structures, able to tear down turrets, walls and other high-durability targets. -->
-  <DMS_Gun_Recoilless.comps.4.ammos.2.description>Un proyectil de alto explosivo especializado contra estructuras, capaz de derribar torretas, muros y otros objetivos muy resistentes.</DMS_Gun_Recoilless.comps.4.ammos.2.description>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.2.description>Un proyectil de alto explosivo especializado contra estructuras, capaz de derribar torretas, muros y otros objetivos muy resistentes.</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: airburst smoke shell -->
-  <DMS_Gun_Recoilless.comps.4.ammos.3.label>proyectil de humo de estallido aéreo</DMS_Gun_Recoilless.comps.4.ammos.3.label>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.3.label>proyectil de humo de estallido aéreo</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.3.label>
   <!-- EN: A support warhead that bursts into a smoke screen over the point of impact. -->
-  <DMS_Gun_Recoilless.comps.4.ammos.3.description>Una ojiva de apoyo que estalla en una cortina de humo sobre el punto de impacto.</DMS_Gun_Recoilless.comps.4.ammos.3.description>
+  <DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.3.description>Una ojiva de apoyo que estalla en una cortina de humo sobre el punto de impacto.</DMS_Gun_Recoilless.comps.CompAmmoSwitch.ammos.3.description>
   <!-- EN: Airburst canister -->
   <DMS_Bullet_RR.label>cartucho de estallido aéreo</DMS_Bullet_RR.label>
   <!-- EN: a shaped charge canister that bursts sharp metal darts mid-air. throws a forward cone of darts down the firing line, so it also hurts whatever was standing behind the cover. -->
@@ -1441,7 +1441,7 @@
   <!-- EN: A single use recoilless rifle designed to be fired and discarded. It&apos;s light-weight and effective against bunkers and heavy mechs. It has a long fire range and requires line of sight. -->
   <DMS_DeposableRocketLauncher.description>Un rifle sin retroceso de un solo uso diseñado para ser disparado y desechado. Es ligero y efectivo contra búnkeres y mecas pesados. Tiene un largo alcance de fuego y requiere línea de visión.</DMS_DeposableRocketLauncher.description>
   <!-- EN: charge -->
-  <DMS_DeposableRocketLauncher.comps.2.chargeNoun>carga</DMS_DeposableRocketLauncher.comps.2.chargeNoun>
+  <DMS_DeposableRocketLauncher.comps.CompApparelReloadable.chargeNoun>carga</DMS_DeposableRocketLauncher.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: Demolisher rocket round -->
   <DMS_Bullet_DR.label>Proyectil de cohete demoledor</DMS_Bullet_DR.label>
   <!-- EN: light recoilless rifle -->
@@ -1449,31 +1449,31 @@
   <!-- EN: A four-kilogram disposable recoilless launcher, issued down to squad level as a throwaway answer to armor, bunkers and doorways. The fibre-wound tube is discarded once fired, and its fire control unit accepts four interchangeable warheads, so the operator picks the effect before the tube ever reaches the shoulder.\n\nIt is light enough for a scout drone to carry, and its shaped-charge warhead defeats plating far above its own weight class, while the demolition and screening rounds let a single trooper open a wall or cover a withdrawal. The cost is that everything is spent in one shot: no reload, a short effective range, and a backblast signature that tells every gun on the field where the operator is standing. -->
   <DMS_Gun_RecoillessLight.description>Un lanzador sin retroceso desechable de cuatro kilos, que se reparte hasta el nivel de escuadra como respuesta de un solo uso contra blindajes, búnkeres y puertas. El tubo de fibra bobinada se descarta después del disparo, y su unidad de control de tiro admite cuatro ojivas intercambiables, así que el operador elige el efecto antes de llevarse el tubo al hombro.\n\nEs lo bastante liviano para que lo lleve un dron explorador, y su ojiva de carga hueca vence placas muy por encima de su categoría de peso, mientras que las de demolición y de ocultación le permiten a un solo soldado abrir un muro o cubrir una retirada. El precio es que todo se gasta en un disparo: no se recarga, tiene poco alcance efectivo y su retrollama le dice a cada arma del campo dónde está el operador.</DMS_Gun_RecoillessLight.description>
   <!-- EN: charge -->
-  <DMS_Gun_RecoillessLight.comps.5.chargeNoun>carga</DMS_Gun_RecoillessLight.comps.5.chargeNoun>
+  <DMS_Gun_RecoillessLight.comps.CompApparelReloadable.chargeNoun>carga</DMS_Gun_RecoillessLight.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: tube -->
   <DMS_Gun_RecoillessLight.tools.0.label>tubo</DMS_Gun_RecoillessLight.tools.0.label>
   <!-- EN: light recoilless rifle -->
   <DMS_Gun_RecoillessLight.verbs.Verb_Shoot_AmmoSwitch.label>cañón sin retroceso ligero</DMS_Gun_RecoillessLight.verbs.Verb_Shoot_AmmoSwitch.label>
   <!-- EN: HE-frag -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.0.label>explosivo de fragmentación</DMS_Gun_RecoillessLight.comps.4.ammos.0.label>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.0.label>explosivo de fragmentación</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A high-explosive round with a wide blast but ordinary penetration. Best used against groups of unarmored targets. -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.0.description>Una munición de alto explosivo con una explosión amplia, pero de penetración común. Es mejor contra grupos de objetivos sin blindaje.</DMS_Gun_RecoillessLight.comps.4.ammos.0.description>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.0.description>Una munición de alto explosivo con una explosión amplia, pero de penetración común. Es mejor contra grupos de objetivos sin blindaje.</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: shaped-charge -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.1.label>carga hueca</DMS_Gun_RecoillessLight.comps.4.ammos.1.label>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.1.label>carga hueca</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A chemical-energy penetrator with a small blast but very high armor penetration. Best used against heavily armored targets. -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.1.description>Un penetrador de energía química con una explosión pequeña, pero de muy alta penetración de blindaje. Es mejor contra objetivos muy blindados.</DMS_Gun_RecoillessLight.comps.4.ammos.1.description>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.1.description>Un penetrador de energía química con una explosión pequeña, pero de muy alta penetración de blindaje. Es mejor contra objetivos muy blindados.</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: demolition -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.2.label>demolición</DMS_Gun_RecoillessLight.comps.4.ammos.2.label>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.2.label>demolición</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A high-explosive round specialized against structures, able to tear down turrets, walls and other high-durability targets. -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.2.description>Una munición de alto explosivo especializada contra estructuras, capaz de derribar torretas, muros y otros objetivos muy resistentes.</DMS_Gun_RecoillessLight.comps.4.ammos.2.description>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.2.description>Una munición de alto explosivo especializada contra estructuras, capaz de derribar torretas, muros y otros objetivos muy resistentes.</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: airburst smoke -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.3.label>humo de estallido aéreo</DMS_Gun_RecoillessLight.comps.4.ammos.3.label>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.3.label>humo de estallido aéreo</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.3.label>
   <!-- EN: A support warhead that bursts into a smoke screen over the point of impact. -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.3.description>Una ojiva de apoyo que estalla en una cortina de humo sobre el punto de impacto.</DMS_Gun_RecoillessLight.comps.4.ammos.3.description>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.3.description>Una ojiva de apoyo que estalla en una cortina de humo sobre el punto de impacto.</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.3.description>
   <!-- EN: firefoam -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.4.label>espuma cortafuego</DMS_Gun_RecoillessLight.comps.4.ammos.4.label>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.4.label>espuma cortafuego</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.4.label>
   <!-- EN: A firefighting round that bursts into a spray of fire-retardant foam, smothering flames across a wide area and leaving a layer of foam that keeps them from catching again. It does no damage. -->
-  <DMS_Gun_RecoillessLight.comps.4.ammos.4.description>Una munición antiincendios que estalla en un rocío de espuma cortafuego, sofoca las llamas en un área amplia y deja una capa de espuma que impide que vuelvan a prender. No hace daño.</DMS_Gun_RecoillessLight.comps.4.ammos.4.description>
+  <DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.4.description>Una munición antiincendios que estalla en un rocío de espuma cortafuego, sofoca las llamas en un área amplia y deja una capa de espuma que impide que vuelvan a prender. No hace daño.</DMS_Gun_RecoillessLight.comps.CompAmmoSwitch.ammos.4.description>
   <!-- EN: 65mm HE-frag rocket -->
   <DMS_Bullet_LRR_HE.label>cohete explosivo de fragmentación de 65 mm</DMS_Bullet_LRR_HE.label>
   <!-- EN: A thin-cased fragmentation warhead loaded with a light bursting charge. The wide fragment pattern strips infantry out of the open and clears trench lines, but the soft case flattens against plating instead of punching through it. -->
@@ -1505,21 +1505,21 @@
   <!-- EN: barrel -->
   <DMS_AssaultShotgun.tools.1.label>cañón</DMS_AssaultShotgun.tools.1.label>
   <!-- EN: buckshot -->
-  <DMS_AssaultShotgun.comps.4.ammos.0.label>perdigones</DMS_AssaultShotgun.comps.4.ammos.0.label>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.label>perdigones</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: The standard three round burst of pellets. Nothing clever about it, and nothing unarmored enjoys standing in front of it. -->
-  <DMS_AssaultShotgun.comps.4.ammos.0.description>La ráfaga estándar de tres disparos de perdigones. No tiene nada de ingenioso, y a nada sin blindaje le gusta estar delante.</DMS_AssaultShotgun.comps.4.ammos.0.description>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.description>La ráfaga estándar de tres disparos de perdigones. No tiene nada de ingenioso, y a nada sin blindaje le gusta estar delante.</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.description>
   <!-- EN: slug -->
-  <DMS_AssaultShotgun.comps.4.ammos.1.label>posta</DMS_AssaultShotgun.comps.4.ammos.1.label>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.1.label>posta</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.1.label>
   <!-- EN: A single rifled slug in place of the pellet spread. It reaches far further and punches through light plating, at the cost of one projectile per trigger pull. -->
-  <DMS_AssaultShotgun.comps.4.ammos.1.description>Una sola posta estriada en lugar de la dispersión de perdigones. Llega mucho más lejos y atraviesa placas ligeras, a costa de un solo proyectil por cada apretón del gatillo.</DMS_AssaultShotgun.comps.4.ammos.1.description>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.1.description>Una sola posta estriada en lugar de la dispersión de perdigones. Llega mucho más lejos y atraviesa placas ligeras, a costa de un solo proyectil por cada apretón del gatillo.</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.1.description>
   <!-- EN: tungsten flechette -->
-  <DMS_AssaultShotgun.comps.4.ammos.2.label>flechette de tungsteno</DMS_AssaultShotgun.comps.4.ammos.2.label>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.2.label>flechette de tungsteno</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.2.label>
   <!-- EN: A sabot load of tungsten-cored darts. Each one carries almost no mass, so flesh barely notices them, but five of them per pull will find their way through plating that shrugs off buckshot outright. -->
-  <DMS_AssaultShotgun.comps.4.ammos.2.description>Una carga con casquillo desechable de dardos con núcleo de tungsteno. Cada uno casi no tiene masa, así que la carne apenas los nota, pero cinco por disparo se abren paso a través de placas que detienen sin problema a los perdigones.</DMS_AssaultShotgun.comps.4.ammos.2.description>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.2.description>Una carga con casquillo desechable de dardos con núcleo de tungsteno. Cada uno casi no tiene masa, así que la carne apenas los nota, pero cinco por disparo se abren paso a través de placas que detienen sin problema a los perdigones.</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.2.description>
   <!-- EN: dragon&apos;s breath -->
-  <DMS_AssaultShotgun.comps.4.ammos.3.label>aliento de dragón</DMS_AssaultShotgun.comps.4.ammos.3.label>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.3.label>aliento de dragón</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.3.label>
   <!-- EN: Zirconium pellets that ignite as they leave the barrel. The burning cloud carries only a few paces and does little damage by itself, but four shells of it will set a corridor alight and keep anything from walking down it. -->
-  <DMS_AssaultShotgun.comps.4.ammos.3.description>Perdigones de circonio que se encienden al salir del cañón. La nube ardiente solo llega a unos pocos pasos y por sí sola hace poco daño, pero cuatro cartuchos bastan para incendiar un pasillo e impedir que nada lo cruce.</DMS_AssaultShotgun.comps.4.ammos.3.description>
+  <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.3.description>Perdigones de circonio que se encienden al salir del cañón. La nube ardiente solo llega a unos pocos pasos y por sí sola hace poco daño, pero cuatro cartuchos bastan para incendiar un pasillo e impedir que nada lo cruce.</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.3.description>
   <!-- EN: 12 gauge slug -->
   <DMS_Bullet_AssaultShotgun_Slug.label>posta calibre 12</DMS_Bullet_AssaultShotgun_Slug.label>
   <!-- EN: A single rifled lead slug instead of a spread of pellets. It reaches much further and punches through light plating, but only one projectile leaves the barrel per trigger pull. -->
@@ -1835,11 +1835,11 @@
   <!-- EN: A precision geological survey device. A mortar shell loaded into its charge chamber drives a seismic shockwave deep into the ground, and the device reads the returning echoes to map ore deposits far below the surface. One charge maps several deep deposits at once.\n\nSurveying this way is never quiet. The shockwave all but inevitably wakes insect colonies dormant underground, and they tend to dig their way out close to whatever disturbed them.\n\nLoad a high-explosive shell, then light the fuse. The device needs time to recalibrate between charges. -->
   <DMS_Building_BlastScanner.description>Un dispositivo de prospección geológica de precisión. Un proyectil de mortero cargado en su cámara de carga envía una onda sísmica a lo profundo del suelo, y el dispositivo lee los ecos que vuelven para cartografiar depósitos de mineral muy por debajo de la superficie. Una carga cartografía varios depósitos profundos a la vez.\n\nProspectar así nunca es silencioso. La onda expansiva casi siempre despierta a colonias de insectos que dormían bajo tierra, y estas suelen salir excavando cerca de lo que las molestó.\n\nCarga un proyectil de alto explosivo y después enciende la mecha. El dispositivo necesita tiempo para recalibrarse entre cargas.</DMS_Building_BlastScanner.description>
   <!-- EN: charge -->
-  <DMS_Building_BlastScanner.comps.0.fuelLabel>carga</DMS_Building_BlastScanner.comps.0.fuelLabel>
+  <DMS_Building_BlastScanner.comps.CompRefuelable.fuelLabel>carga</DMS_Building_BlastScanner.comps.CompRefuelable.fuelLabel>
   <!-- EN: Charge -->
-  <DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>Carga</DMS_Building_BlastScanner.comps.0.fuelGizmoLabel>
+  <DMS_Building_BlastScanner.comps.CompRefuelable.fuelGizmoLabel>Carga</DMS_Building_BlastScanner.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No charge loaded -->
-  <DMS_Building_BlastScanner.comps.0.outOfFuelMessage>No hay ninguna carga cargada</DMS_Building_BlastScanner.comps.0.outOfFuelMessage>
+  <DMS_Building_BlastScanner.comps.CompRefuelable.outOfFuelMessage>No hay ninguna carga cargada</DMS_Building_BlastScanner.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: engineering drone bay -->
   <DMS_EngineeringBay.label>bahía de drones de ingeniería</DMS_EngineeringBay.label>
   <!-- EN: A drone base station for facility maintenance and basic production work. The compute provided by its installed cluster control chipset lets simple drones carry out complex tasks. Commonly found in unmanned facilities and lights-out factories.\n\nCan deploy uca (maintenance and machinery operation) or erima (farming and plant care) drones. -->
@@ -1881,11 +1881,11 @@
   <!-- EN: A wall-mounted emergency case holding a single light recoilless rifle, ready to be grabbed when the facility comes under attack. Anyone can pull the rifle out and shoulder it; the case then sits empty until someone loads a fresh one into it. -->
   <DMS_Building_LauncherCase.description>Una caja de emergencia montada en la pared, con un cañón sin retroceso ligero listo para tomarlo cuando atacan la instalación. Cualquiera puede sacarlo y echárselo al hombro; después la caja queda vacía hasta que alguien le cargue uno nuevo.</DMS_Building_LauncherCase.description>
   <!-- EN: Recoilless rifle -->
-  <DMS_Building_LauncherCase.comps.0.fuelLabel>cañón sin retroceso</DMS_Building_LauncherCase.comps.0.fuelLabel>
+  <DMS_Building_LauncherCase.comps.CompRefuelable.fuelLabel>cañón sin retroceso</DMS_Building_LauncherCase.comps.CompRefuelable.fuelLabel>
   <!-- EN: Recoilless rifle -->
-  <DMS_Building_LauncherCase.comps.0.fuelGizmoLabel>Cañón sin retroceso</DMS_Building_LauncherCase.comps.0.fuelGizmoLabel>
+  <DMS_Building_LauncherCase.comps.CompRefuelable.fuelGizmoLabel>Cañón sin retroceso</DMS_Building_LauncherCase.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No recoilless rifle loaded -->
-  <DMS_Building_LauncherCase.comps.0.outOfFuelMessage>No hay ningún cañón sin retroceso cargado</DMS_Building_LauncherCase.comps.0.outOfFuelMessage>
+  <DMS_Building_LauncherCase.comps.CompRefuelable.outOfFuelMessage>No hay ningún cañón sin retroceso cargado</DMS_Building_LauncherCase.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: gas vent -->
   <DMS_Building_GasVent.label>respiradero de gas</DMS_Building_GasVent.label>
   <!-- EN: A floor grate wired into the facility&apos;s alert network. When the alarm sounds, it hisses for a moment and then floods the area with toxic gas. The facility&apos;s mechanical garrison doesn&apos;t breathe; anyone else had better have a gas mask. It holds enough for a few releases and slowly refills from a tank below. Cut its power or hit it with an EMP to shut it down, even in the middle of a release. -->
@@ -2019,21 +2019,21 @@
   <!-- EN: A Standard issue cargo container containing supplies for military logistics. -->
   <DMS_LogisticContainer.description>Un contenedor de carga de dotación estándar con suministros para la logística militar.</DMS_LogisticContainer.description>
   <!-- EN: unlock container -->
-  <DMS_LogisticContainer.comps.0.jobString>desbloquear contenedor</DMS_LogisticContainer.comps.0.jobString>
+  <DMS_LogisticContainer.comps.CompListedContainer.jobString>desbloquear contenedor</DMS_LogisticContainer.comps.CompListedContainer.jobString>
   <!-- EN: Unlock container... -->
-  <DMS_LogisticContainer.comps.0.activateLabelString>Desbloquear contenedor...</DMS_LogisticContainer.comps.0.activateLabelString>
+  <DMS_LogisticContainer.comps.CompListedContainer.activateLabelString>Desbloquear contenedor...</DMS_LogisticContainer.comps.CompListedContainer.activateLabelString>
   <!-- EN: Unlock container. -->
-  <DMS_LogisticContainer.comps.0.activateDescString>Desbloquear contenedor.</DMS_LogisticContainer.comps.0.activateDescString>
+  <DMS_LogisticContainer.comps.CompListedContainer.activateDescString>Desbloquear contenedor.</DMS_LogisticContainer.comps.CompListedContainer.activateDescString>
   <!-- EN: logistic terminal -->
   <DMS_LogisticTerminal.label>terminal logística</DMS_LogisticTerminal.label>
   <!-- EN: Logistic terminal linked to cargo line below. -->
   <DMS_LogisticTerminal.description>Terminal logística conectada a la línea de carga de abajo.</DMS_LogisticTerminal.description>
   <!-- EN: activate terminal -->
-  <DMS_LogisticTerminal.comps.0.jobString>activar terminal</DMS_LogisticTerminal.comps.0.jobString>
+  <DMS_LogisticTerminal.comps.CompLogisticTerminal.jobString>activar terminal</DMS_LogisticTerminal.comps.CompLogisticTerminal.jobString>
   <!-- EN: Activate terminal... -->
-  <DMS_LogisticTerminal.comps.0.activateLabelString>Activar terminal...</DMS_LogisticTerminal.comps.0.activateLabelString>
+  <DMS_LogisticTerminal.comps.CompLogisticTerminal.activateLabelString>Activar terminal...</DMS_LogisticTerminal.comps.CompLogisticTerminal.activateLabelString>
   <!-- EN: Activate terminal. -->
-  <DMS_LogisticTerminal.comps.0.activateDescString>Activar terminal.</DMS_LogisticTerminal.comps.0.activateDescString>
+  <DMS_LogisticTerminal.comps.CompLogisticTerminal.activateDescString>Activar terminal.</DMS_LogisticTerminal.comps.CompLogisticTerminal.activateDescString>
   <!-- EN: substation cabinet -->
   <DMS_SubstationCabinet.label>gabinete de subestación</DMS_SubstationCabinet.label>
   <!-- EN: A ruggedised metal cabinet that taps an underground power conduit and distributes electricity to surface equipment. The high-voltage internals make shut-down hazardous – only an operator with solid technical knowledge (Intellectual 8+) can safely cut power; anyone less experienced risks a serious electrical burn. An EMP strike will temporarily disable the cabinet without ongoing danger. Once shut down it cannot be restarted, and the nearest facility security device loses power along with it. -->
@@ -2119,17 +2119,17 @@
   <!-- EN: A complex device that punches a hole in real space through the controlled release of antigrain energy, drawing inexhaustible energy from the quantum fluctuations outside and condensing it into solid energy blocks for convenient storage and further processing.\n\nSince the rim generally lacks antigrain production technology, the device usually has to rely on ready-made antigrain warheads as the catalyst that starts it running.\n\nWhile powered, each antigrain warhead loaded as catalyst yields 25 units of solidified zero-point energy, one every 2.4 days. A single warhead keeps the core running for about a year. -->
   <DMS_ZeroPointGenerator.description>Un dispositivo complejo que abre un agujero en el espacio real mediante la liberación controlada de energía de antigrano, extrae energía inagotable de las fluctuaciones cuánticas del otro lado y la condensa en bloques de energía sólida, cómodos de almacenar y de procesar después.\n\nComo en el borde casi nunca hay tecnología para producir antigrano, el dispositivo suele depender de ojivas de antigrano ya fabricadas como catalizador para arrancar.\n\nMientras tiene energía, cada ojiva de antigrano cargada como catalizador produce 25 unidades de energía de punto cero solidificada, una cada 2,4 días. Una sola ojiva mantiene el núcleo funcionando cerca de un año.</DMS_ZeroPointGenerator.description>
   <!-- EN: Antigrain catalyst -->
-  <DMS_ZeroPointGenerator.comps.1.fuelLabel>catalizador de antigrano</DMS_ZeroPointGenerator.comps.1.fuelLabel>
+  <DMS_ZeroPointGenerator.comps.CompRefuelable.fuelLabel>catalizador de antigrano</DMS_ZeroPointGenerator.comps.CompRefuelable.fuelLabel>
   <!-- EN: Antigrain catalyst -->
-  <DMS_ZeroPointGenerator.comps.1.fuelGizmoLabel>Catalizador de antigrano</DMS_ZeroPointGenerator.comps.1.fuelGizmoLabel>
+  <DMS_ZeroPointGenerator.comps.CompRefuelable.fuelGizmoLabel>Catalizador de antigrano</DMS_ZeroPointGenerator.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: zero-point reactor -->
   <DMS_ZeroPointReactor.label>reactor de punto cero</DMS_ZeroPointReactor.label>
   <!-- EN: A generator that unravels the confinement field of solidified zero-point energy in a controlled cascade and converts what it releases into electricity. Most human technology cannot touch the energy locked inside a block; this reactor is one of the few exceptions.\n\nIt loads one block at a time, and a single block keeps it running at full output for a whole year. The magazine holds five. -->
   <DMS_ZeroPointReactor.description>Un generador que deshace en cascada controlada el campo de confinamiento de la energía de punto cero solidificada y convierte lo que libera en electricidad. Casi ninguna tecnología humana puede tocar la energía encerrada en un bloque; este reactor es una de las pocas excepciones.\n\nCarga un bloque a la vez, y un solo bloque lo mantiene a plena potencia durante un año entero. El cargador admite cinco.</DMS_ZeroPointReactor.description>
   <!-- EN: Solidified energy -->
-  <DMS_ZeroPointReactor.comps.2.fuelLabel>energía solidificada</DMS_ZeroPointReactor.comps.2.fuelLabel>
+  <DMS_ZeroPointReactor.comps.CompRefuelable.fuelLabel>energía solidificada</DMS_ZeroPointReactor.comps.CompRefuelable.fuelLabel>
   <!-- EN: Solidified energy -->
-  <DMS_ZeroPointReactor.comps.2.fuelGizmoLabel>Energía solidificada</DMS_ZeroPointReactor.comps.2.fuelGizmoLabel>
+  <DMS_ZeroPointReactor.comps.CompRefuelable.fuelGizmoLabel>Energía solidificada</DMS_ZeroPointReactor.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: reality anchor -->
   <DMS_Anchor.label>ancla de realidad</DMS_Anchor.label>
   <!-- EN: A stabilization device that uses counter-technology to keep the surrounding space free from the influence of transcendent forces. To an ordinary person it is nothing more than a harmless decoration, but psycasters and transcendent artifacts find it hard to establish connections beyond this dimension in its presence, and cannot manifest their transcendent properties.\n\nWhile powered, it holds a stabilized field around itself. Inside it, no creature&apos;s capacities or physical limits can exceed 120% of normal, psycasts cannot be cast and invisibility fails. Anomalous entities and mutants are suppressed: slowed, weakened and far easier to contain. The field makes no distinction between friend and foe. -->
@@ -2243,7 +2243,7 @@
   <!-- EN: A tampered emergency transponder repurposed to broadcast a false peacekeeping distress call. Once activated, it summons a Legacy remnant peacekeeping detachment: Protector shieldbearers screening a Ronin spearhead, with Falcon marksmen providing overwatch, to storm the signal&apos;s origin. The burst burns out the transmitter, so this building can only be used once. -->
   <DMS_RaidWaveBeacon_PeacekeepingOperators.description>Un transpondedor de emergencia manipulado para emitir una falsa llamada de socorro de pacificación. Al activarlo, convoca a un destacamento de pacificación de los remanentes del Legado: portaescudos protectores que cubren una punta de lanza de ronin, con tiradores halcón dando cobertura desde arriba, para asaltar el origen de la señal. La ráfaga quema el transmisor, así que este edificio solo se puede usar una vez.</DMS_RaidWaveBeacon_PeacekeepingOperators.description>
   <!-- EN: Call in peacekeeping operators -->
-  <DMS_RaidWaveBeacon_PeacekeepingOperators.comps.0.useLabel>Llamar a los operadores de pacificación</DMS_RaidWaveBeacon_PeacekeepingOperators.comps.0.useLabel>
+  <DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>Llamar a los operadores de pacificación</DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>
   <!-- EN: Nara Ind. access key -->
   <DMS_AccessKey_Nara.label>tarjeta de acceso de Industrias Nara</DMS_AccessKey_Nara.label>
   <!-- EN: A one-use unified access key used by Nara Industries. It can be used to activate terminals, open crates and doors. -->
@@ -2265,25 +2265,25 @@
   <!-- EN: An encrypted record module holding a technical file that was never cleared for local circulation, kept by colonial army units as a reference for technical signatures. A colonist can spend a few hours decrypting it to reveal a restricted-class occultech research project and make a little progress on it. -->
   <DMS_DataCache_Restricted.description>Un módulo de registro cifrado con un archivo técnico que nunca se autorizó para circular localmente; las unidades del ejército colonial lo guardan como referencia de firmas técnicas. Un colono puede pasar unas horas descifrándolo para revelar un proyecto de investigación de tecnología oculta de clase restringida y avanzar un poco en él.</DMS_DataCache_Restricted.description>
   <!-- EN: Decrypt {0_label} -->
-  <DMS_DataCache_Restricted.comps.1.useLabel>Descifrar {0_label}</DMS_DataCache_Restricted.comps.1.useLabel>
+  <DMS_DataCache_Restricted.comps.CompUsable.useLabel>Descifrar {0_label}</DMS_DataCache_Restricted.comps.CompUsable.useLabel>
   <!-- EN: sealed data cache -->
   <DMS_DataCache_Sealed.label>caché de datos sellados</DMS_DataCache_Sealed.label>
   <!-- EN: A record module with its seal intact. Files at this classification rarely leave the archives the fleets keep watch over. A colonist can decrypt it to reveal a sealed-class occultech research project and make some progress on it. -->
   <DMS_DataCache_Sealed.description>Un módulo de registro con el sello intacto. Los archivos de esta clasificación rara vez salen de los archivos que vigilan las flotas. Un colono puede descifrarlo para revelar un proyecto de investigación de tecnología oculta de clase sellada y avanzar algo en él.</DMS_DataCache_Sealed.description>
   <!-- EN: Decrypt {0_label} -->
-  <DMS_DataCache_Sealed.comps.1.useLabel>Descifrar {0_label}</DMS_DataCache_Sealed.comps.1.useLabel>
+  <DMS_DataCache_Sealed.comps.CompUsable.useLabel>Descifrar {0_label}</DMS_DataCache_Sealed.comps.CompUsable.useLabel>
   <!-- EN: occulted data cache -->
   <DMS_DataCache_Occulted.label>caché de datos ocultos</DMS_DataCache_Occulted.label>
   <!-- EN: An unmarked composite record module with no ports and no seams. A colonist can decrypt it to reveal an occulted-class occultech research project and make some progress on it. -->
   <DMS_DataCache_Occulted.description>Un módulo de registro compuesto, sin marcas, sin puertos y sin junturas. Un colono puede descifrarlo para revelar un proyecto de investigación de tecnología oculta de clase oculta y avanzar algo en él.</DMS_DataCache_Occulted.description>
   <!-- EN: Decrypt {0_label} -->
-  <DMS_DataCache_Occulted.comps.1.useLabel>Descifrar {0_label}</DMS_DataCache_Occulted.comps.1.useLabel>
+  <DMS_DataCache_Occulted.comps.CompUsable.useLabel>Descifrar {0_label}</DMS_DataCache_Occulted.comps.CompUsable.useLabel>
   <!-- EN: infrasonic module -->
   <DMS_SubsonicModule.label>módulo de infrasonido</DMS_SubsonicModule.label>
   <!-- EN: A tuned infrasound emitter array packaged to bolt onto a mech&apos;s hull and draw from its power cell. On command it releases a single burst of infrasound around the mech. Living enemies caught in it are wracked with nausea and pain, and many break and flee outright. Mechs are unaffected.\n\nThe emitter draws power continuously, slightly increasing the mech&apos;s energy consumption. -->
   <DMS_SubsonicModule.description>Una matriz de emisores de infrasonido afinados, empaquetada para atornillarse al casco de un meca y tomar energía de su celda. A la orden, suelta una sola ráfaga de infrasonido alrededor del meca. Los enemigos vivos alcanzados sufren náuseas y dolor, y muchos se quiebran y huyen. A los mecas no les afecta.\n\nEl emisor consume energía de forma continua y aumenta un poco el consumo del meca.</DMS_SubsonicModule.description>
   <!-- EN: Use {0_label} -->
-  <DMS_SubsonicModule.comps.1.useLabel>Usar {0_label}</DMS_SubsonicModule.comps.1.useLabel>
+  <DMS_SubsonicModule.comps.CompUsable.useLabel>Usar {0_label}</DMS_SubsonicModule.comps.CompUsable.useLabel>
   <!-- EN: infrasonic grenades -->
   <DMS_Weapon_GrenadeSubsonic.label>granadas de infrasonido</DMS_Weapon_GrenadeSubsonic.label>
   <!-- EN: Grenades that release a single burst of tuned infrasound instead of shrapnel. Infrasound passes through walls and cover alike, so the burst reaches every living creature in its radius, friend or foe, wracking them with nausea and pain and sending many into a panic. Buildings and mechs are unaffected. -->

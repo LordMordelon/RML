@@ -5,11 +5,11 @@
   <!-- EN: An automatic turret utilizing a plasteel core to charge and spread powerful ADP bolts. The core must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
   <USH_Turret_ADP.description>Torreta automática que utiliza un núcleo de plastiacero para cargar y dispersar potentes rayos PDA. El núcleo debe ser renovado tras su uso. No puede disparar a objetivos cercanos y puede explotar si se daña.</USH_Turret_ADP.description>
   <!-- EN: Shots until core change -->
-  <USH_Turret_ADP.comps.6.fuelLabel>Disparos hasta cambio de núcleo</USH_Turret_ADP.comps.6.fuelLabel>
+  <USH_Turret_ADP.comps.CompRefuelable.fuelLabel>Disparos hasta cambio de núcleo</USH_Turret_ADP.comps.CompRefuelable.fuelLabel>
   <!-- EN: Core durability -->
-  <USH_Turret_ADP.comps.6.fuelGizmoLabel>Durabilidad del núcleo</USH_Turret_ADP.comps.6.fuelGizmoLabel>
+  <USH_Turret_ADP.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del núcleo</USH_Turret_ADP.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Needs new core -->
-  <USH_Turret_ADP.comps.6.outOfFuelMessage>Necesita núcleo nuevo</USH_Turret_ADP.comps.6.outOfFuelMessage>
+  <USH_Turret_ADP.comps.CompRefuelable.outOfFuelMessage>Necesita núcleo nuevo</USH_Turret_ADP.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: ADP pylon core -->
   <USH_Gun_ADPTurret.label>núcleo pilar PDA</USH_Gun_ADPTurret.label>
   <!-- EN: A glittertech offensive core made out of plasteel. -->
@@ -83,9 +83,9 @@
   <!-- EN: A glittertech device designed to store and manage medical nanobots. These nanobots are capable of clearing residue anesthetics from all patients in room after surgery, making recovery almost instantaneous, but still painless.\n\nThe nanobots require glitterworld medicine as a material source. -->
   <USH_NeuroclearConsole.description>Un dispositivo de mundobrillante diseñado para almacenar y gestionar nanobots médicos. Estos nanobots son capaces de eliminar residuos anestésicos de todos los pacientes en la sala tras una cirugía, haciendo la recuperación casi instantánea y sin dolor.\n\nLos nanobots requieren medicina de mundobrillante como fuente material.</USH_NeuroclearConsole.description>
   <!-- EN: activate -->
-  <USH_NeuroclearConsole.comps.3.jobString>activar</USH_NeuroclearConsole.comps.3.jobString>
+  <USH_NeuroclearConsole.comps.CompNeuroclearConsole.jobString>activar</USH_NeuroclearConsole.comps.CompNeuroclearConsole.jobString>
   <!-- EN: cooling off -->
-  <USH_NeuroclearConsole.comps.3.onCooldownString>en enfriamiento</USH_NeuroclearConsole.comps.3.onCooldownString>
+  <USH_NeuroclearConsole.comps.CompNeuroclearConsole.onCooldownString>en enfriamiento</USH_NeuroclearConsole.comps.CompNeuroclearConsole.onCooldownString>
   <!-- EN: neutroamine extractor -->
   <USH_NeutroamineExtractor.label>extractor de neutroamina</USH_NeutroamineExtractor.label>
   <!-- EN: An advanced workstation designed for the mass extraction of neutroamine from various manufactured goods. The process is destructive to the primary ingredients, leaving behind only the chemical through the use of glittertech material fission.
@@ -107,9 +107,9 @@
   <!-- EN: An emergency escape system utilizing translocation technology. It can teleport living beings to itself from anywhere within the visible area or even across the planet. A successful translocation requires the target to have an integrator implant installed, which prepares its brain for the sudden shock. This does not apply to mechanical beings.\n\nIt needs a steady flow of neutroamine to stabilize the process. -->
   <USH_Telepad.description>Un sistema de escape de emergencia que utiliza tecnología de translocación. Puede teletransportar seres vivos hacia sí misma desde cualquier punto dentro del área visible. Para una translocación exitosa, el objetivo debe tener un implante integrador instalado, el cual prepara su cerebro para el impacto repentino. Esto no aplica a seres mecánicos.\n\nRequiere un flujo constante de neutroamina para estabilizar el proceso.</USH_Telepad.description>
   <!-- EN: teleport here -->
-  <USH_Telepad.comps.5.jobString>teletransportar aquí</USH_Telepad.comps.5.jobString>
+  <USH_Telepad.comps.CompTelepad.jobString>teletransportar aquí</USH_Telepad.comps.CompTelepad.jobString>
   <!-- EN: Teleport target -->
-  <USH_Telepad.comps.5.activateLabelString>Teletransportar objetivo</USH_Telepad.comps.5.activateLabelString>
+  <USH_Telepad.comps.CompTelepad.activateLabelString>Teletransportar objetivo</USH_Telepad.comps.CompTelepad.activateLabelString>
   <!-- EN: IED ADP trap -->
   <USH_TrapIED_ADP.label>mina PDA</USH_TrapIED_ADP.label>
   <!-- EN: A pair of ADP shells connected to a trigger which detonates on touch or bullet impact. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->

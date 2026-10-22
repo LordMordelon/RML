@@ -13,9 +13,9 @@
   <!-- EN: Attempt to convert someone to the speaker&apos;s ideoligion. This will reduce the target&apos;s certainty in their own beliefs. The certainty reduction depends on the speaker&apos;s negotiation ability. -->
   <VME_LeaderConvert.description>Intenta convertir a alguien a la ideoligión del orador. Esto reducirá la certeza del objetivo en sus propias creencias. La reducción de la certeza depende de la capacidad de negociación del orador.</VME_LeaderConvert.description>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <VME_LeaderConvert.comps.0.successMessage>{INITIATOR_labelShort} ha convertido a {RECIPIENT_labelShort} a {IDEO}.</VME_LeaderConvert.comps.0.successMessage>
+  <VME_LeaderConvert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} ha convertido a {RECIPIENT_labelShort} a {IDEO}.</VME_LeaderConvert.comps.CompAbilityEffect_Convert.successMessage>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <VME_LeaderConvert.comps.0.failMessage>{INITIATOR_labelShort} no pudo convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se molestó por el intento, pero su certeza cayó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</VME_LeaderConvert.comps.0.failMessage>
+  <VME_LeaderConvert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no pudo convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se molestó por el intento, pero su certeza cayó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</VME_LeaderConvert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: preach health (leader) -->
   <VME_LeaderPreachHealth.label>predicar salud (líder)</VME_LeaderPreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
@@ -25,17 +25,17 @@
   <!-- EN: Increase someone&apos;s certainty in their own beliefs. The regained certainty is based on the speaker&apos;s negotiation ability. -->
   <VME_LeaderReassure.description>Aumenta la certeza de alguien en sus propias creencias. La certeza recuperada se basa en la capacidad de negociación del orador.</VME_LeaderReassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <VME_LeaderReassure.comps.0.successMessage>{INITIATOR_labelShort} ha tranquilizado a {RECIPIENT_labelShort}, aumentando su certeza en {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</VME_LeaderReassure.comps.0.successMessage>
+  <VME_LeaderReassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha tranquilizado a {RECIPIENT_labelShort}, aumentando su certeza en {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</VME_LeaderReassure.comps.CompAbilityEffect_Reassure.successMessage>
   <!-- EN: Counsel (leader) -->
   <VME_LeaderCounsel.label>Aconsejar (líder)</VME_LeaderCounsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker&apos;s social skills and their relationship with the listener. -->
   <VME_LeaderCounsel.description>Ofrece consejo a una persona para cancelar el efecto de un recuerdo triste. La probabilidad de éxito depende de las habilidades sociales del orador y su relación con el oyente.</VME_LeaderCounsel.description>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <VME_LeaderCounsel.comps.0.successMessage>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, cancelando el impacto en el estado de ánimo de {2}.</VME_LeaderCounsel.comps.0.successMessage>
+  <VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, cancelando el impacto en el estado de ánimo de {2}.</VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <VME_LeaderCounsel.comps.0.successMessageNoNegativeThought>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, aumentando su estado de ánimo en {MOODBONUS}.</VME_LeaderCounsel.comps.0.successMessageNoNegativeThought>
+  <VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, aumentando su estado de ánimo en {MOODBONUS}.</VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <VME_LeaderCounsel.comps.0.failMessage>{INITIATOR_labelShort} arruinó el intento de aconsejar a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se ha molestado.</VME_LeaderCounsel.comps.0.failMessage>
+  <VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} arruinó el intento de aconsejar a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se ha molestado.</VME_LeaderCounsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: strengthen flame -->
   <VME_StrengthenFlame.label>fortalecer llama</VME_StrengthenFlame.label>
   <!-- EN: An ability to ignite flame sources and cause an explosion. Only works on wild fires, not on man-made fire structures. -->

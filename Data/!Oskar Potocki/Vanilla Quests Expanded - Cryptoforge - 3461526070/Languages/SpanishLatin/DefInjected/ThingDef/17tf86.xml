@@ -243,11 +243,11 @@
   <!-- EN: A portable automatic turret with a ballistic shield in front of it. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can&apos;t be directly controlled, so beware of friendly fire. The ballistic shield is capable of deflecting some shots. -->
   <VQE_AncientShieldedTurret.description>Una torreta automática portátil con un escudo balístico al frente. Requiere acero para reacondicionar su cañón tras un uso intensivo. Puede explotar al dañarse. Su rudimentaria IA no puede controlarse directamente, así que ten cuidado con el fuego amigo. El escudo balístico es capaz de desviar algunos disparos.</VQE_AncientShieldedTurret.description>
   <!-- EN: Shots until barrel change -->
-  <VQE_AncientShieldedTurret.comps.5.fuelLabel>Disparos hasta el cambio de cañón</VQE_AncientShieldedTurret.comps.5.fuelLabel>
+  <VQE_AncientShieldedTurret.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de cañón</VQE_AncientShieldedTurret.comps.CompRefuelable.fuelLabel>
   <!-- EN: Barrel durability -->
-  <VQE_AncientShieldedTurret.comps.5.fuelGizmoLabel>Durabilidad del cañón</VQE_AncientShieldedTurret.comps.5.fuelGizmoLabel>
+  <VQE_AncientShieldedTurret.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del cañón</VQE_AncientShieldedTurret.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Needs new barrel -->
-  <VQE_AncientShieldedTurret.comps.5.outOfFuelMessage>Necesita un cañón nuevo</VQE_AncientShieldedTurret.comps.5.outOfFuelMessage>
+  <VQE_AncientShieldedTurret.comps.CompRefuelable.outOfFuelMessage>Necesita un cañón nuevo</VQE_AncientShieldedTurret.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: mini-turret bullet -->
   <VQE_AncientShieldedTurret_Bullet.label>proyectil de minitorreta</VQE_AncientShieldedTurret_Bullet.label>
   <!-- EN: ancient shielded turret -->
@@ -301,13 +301,13 @@
   <!-- EN: A heavily reinforced airlock door. Due to malfunction or damage, it needs to be forced open. It is slow to open but very strong. The door requires walls on either side to function. -->
   <VQE_JammedAncientAirlock.description>Una puerta de esclusa de aire fuertemente reforzada. Debido a un mal funcionamiento o daño, necesita ser forzada para abrirse. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_JammedAncientAirlock.description>
   <!-- EN: Force open... -->
-  <VQE_JammedAncientAirlock.comps.0.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock.comps.0.activateLabelString>
+  <VQE_JammedAncientAirlock.comps.CompJammedAirlock.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock.comps.CompJammedAirlock.activateLabelString>
   <!-- EN: Choose someone to force this ancient airlock open. -->
-  <VQE_JammedAncientAirlock.comps.0.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua.</VQE_JammedAncientAirlock.comps.0.activateDescString>
+  <VQE_JammedAncientAirlock.comps.CompJammedAirlock.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua.</VQE_JammedAncientAirlock.comps.CompJammedAirlock.activateDescString>
   <!-- EN: Choose who should do this -->
-  <VQE_JammedAncientAirlock.comps.0.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock.comps.0.guiLabelString>
+  <VQE_JammedAncientAirlock.comps.CompJammedAirlock.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock.comps.CompJammedAirlock.guiLabelString>
   <!-- EN: Force this ancient airlock open -->
-  <VQE_JammedAncientAirlock.comps.0.jobString>Forzar la apertura de esta esclusa de aire antigua</VQE_JammedAncientAirlock.comps.0.jobString>
+  <VQE_JammedAncientAirlock.comps.CompJammedAirlock.jobString>Forzar la apertura de esta esclusa de aire antigua</VQE_JammedAncientAirlock.comps.CompJammedAirlock.jobString>
   <!-- EN: forced ancient airlock -->
   <VQE_ForcedAncientAirlock.label>esclusa de aire antigua forzada</VQE_ForcedAncientAirlock.label>
   <!-- EN: A heavily reinforced airlock door. It has been forced open and cannot be closed again. -->
@@ -321,13 +321,13 @@
   <!-- EN: A large, heavily reinforced airlock door. Due to malfunction or damage, it needs to be forced open. It is slow to open but very strong. The door requires walls on either side to function. -->
   <VQE_JammedAncientAirlock_Large.description>Una puerta de esclusa de aire grande y fuertemente reforzada. Debido a un mal funcionamiento o daño, necesita ser forzada para abrirse. Es lenta de abrir pero muy resistente. La puerta requiere paredes a ambos lados para funcionar.</VQE_JammedAncientAirlock_Large.description>
   <!-- EN: Force open... -->
-  <VQE_JammedAncientAirlock_Large.comps.0.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock_Large.comps.0.activateLabelString>
+  <VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.activateLabelString>Forzar apertura...</VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.activateLabelString>
   <!-- EN: Choose someone to force this ancient large airlock open. -->
-  <VQE_JammedAncientAirlock_Large.comps.0.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua grande.</VQE_JammedAncientAirlock_Large.comps.0.activateDescString>
+  <VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.activateDescString>Elige a alguien para forzar la apertura de esta esclusa de aire antigua grande.</VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.activateDescString>
   <!-- EN: Choose who should do this -->
-  <VQE_JammedAncientAirlock_Large.comps.0.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock_Large.comps.0.guiLabelString>
+  <VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.guiLabelString>Elige quién debe hacer esto</VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.guiLabelString>
   <!-- EN: Force this ancient large airlock open -->
-  <VQE_JammedAncientAirlock_Large.comps.0.jobString>Forzar la apertura de esta esclusa de aire antigua grande</VQE_JammedAncientAirlock_Large.comps.0.jobString>
+  <VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.jobString>Forzar la apertura de esta esclusa de aire antigua grande</VQE_JammedAncientAirlock_Large.comps.CompJammedAirlock.jobString>
   <!-- EN: forced ancient large airlock -->
   <VQE_ForcedAncientAirlock_Large.label>esclusa de aire antigua grande forzada</VQE_ForcedAncientAirlock_Large.label>
   <!-- EN: A heavily reinforced large airlock door. It has been forced open and cannot be closed again. -->
@@ -397,65 +397,65 @@
   <!-- EN: A heavy, high-tech axe with a cryogenic-coated edge that delivers crushing strikes. On impact, it inflicts deep frostburns, flash-freezing flesh and lacing wounds with cryptofreeze, slowing movement and dealing substantial hypothermic damage over time. -->
   <VQE_MeleeWeapon_Cryptoaxe.description>Un hacha pesada de alta tecnología con un filo recubierto criogénicamente que asesta golpes demoledores. Al impactar, inflige quemaduras por frío profundas, congelando instantáneamente la carne y cubriendo las heridas con criptocongelación, lo que ralentiza el movimiento y causa un daño hipotérmico sustancial con el tiempo.</VQE_MeleeWeapon_Cryptoaxe.description>
   <!-- EN: Cryptoaxe Customization -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.customizationTitle>Personalización de criptohacha</VQE_MeleeWeapon_Cryptoaxe.comps.5.customizationTitle>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.customizationTitle>Personalización de criptohacha</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.customizationTitle>
   <!-- EN: handle -->
   <VQE_MeleeWeapon_Cryptoaxe.tools.0.label>mango</VQE_MeleeWeapon_Cryptoaxe.tools.0.label>
   <!-- EN: edge -->
   <VQE_MeleeWeapon_Cryptoaxe.tools.1.label>filo</VQE_MeleeWeapon_Cryptoaxe.tools.1.label>
   <!-- EN: Handle -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.name>Mango</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.name>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.name>Mango</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.name>
   <!-- EN: Blade -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.name>Hoja</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.name>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.name>Hoja</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.name>
   <!-- EN: Shoulder -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.name>Hombro</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.name>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.name>Hombro</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.name>
   <!-- EN: Drottulgrip -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.0.texName>Drottulgrip</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.0.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.0.texName>Drottulgrip</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.0.texName>
   <!-- EN: Eikthrymr -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.1.texName>Eikthrymr</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.1.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.1.texName>Eikthrymr</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.1.texName>
   <!-- EN: Eldvidr -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.2.texName>Eldvidr</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.2.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.2.texName>Eldvidr</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.2.texName>
   <!-- EN: Fenrisvidr -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.3.texName>Fenrisvidr</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.3.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.3.texName>Fenrisvidr</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.3.texName>
   <!-- EN: Hrafnkraki -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.4.texName>Hrafnkraki</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.4.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.4.texName>Hrafnkraki</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.4.texName>
   <!-- EN: Ormstefna -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.5.texName>Ormstefna</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.5.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.5.texName>Ormstefna</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.5.texName>
   <!-- EN: Tanngnystr -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.6.texName>Tanngnystr</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.0.texVariants.6.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.6.texName>Tanngnystr</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.0.texVariants.6.texName>
   <!-- EN: Blodleiptr -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.0.texName>Blodleiptr</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.0.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.0.texName>Blodleiptr</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.0.texName>
   <!-- EN: Dreyrugfang -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.1.texName>Dreyrugfang</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.1.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.1.texName>Dreyrugfang</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.1.texName>
   <!-- EN: Hrafnsbit -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.2.texName>Hrafnsbit</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.2.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.2.texName>Hrafnsbit</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.2.texName>
   <!-- EN: Jotunfang -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.3.texName>Jotunfang</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.3.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.3.texName>Jotunfang</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.3.texName>
   <!-- EN: Mjodhogg -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.4.texName>Mjodhogg</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.4.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.4.texName>Mjodhogg</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.4.texName>
   <!-- EN: Skelfir -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.5.texName>Skelfir</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.5.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.5.texName>Skelfir</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.5.texName>
   <!-- EN: Svalbrod -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.6.texName>Svalbrod</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.1.texVariants.6.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.6.texName>Svalbrod</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.1.texVariants.6.texName>
   <!-- EN: Brimskel -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.0.texName>Brimskel</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.0.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.0.texName>Brimskel</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.0.texName>
   <!-- EN: Gjallarhorn -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.1.texName>Gjallarhorn</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.1.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.1.texName>Gjallarhorn</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.1.texName>
   <!-- EN: Jarnfesti -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.2.texName>Jarnfesti</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.2.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.2.texName>Jarnfesti</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.2.texName>
   <!-- EN: Nidhuggnar -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.3.texName>Nidhuggnar</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.3.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.3.texName>Nidhuggnar</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.3.texName>
   <!-- EN: Styrkrbryggja -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.4.texName>Styrkrbryggja</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.4.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.4.texName>Styrkrbryggja</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.4.texName>
   <!-- EN: Sverdmondull -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.5.texName>Sverdmondull</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.5.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.5.texName>Sverdmondull</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.5.texName>
   <!-- EN: Vebond -->
-  <VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.6.texName>Vebond</VQE_MeleeWeapon_Cryptoaxe.comps.5.graphics.2.texVariants.6.texName>
+  <VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.6.texName>Vebond</VQE_MeleeWeapon_Cryptoaxe.comps.CompGraphicCustomization.graphics.2.texVariants.6.texName>
   <!-- EN: cryptobolter -->
   <VQE_Weapon_Cryptobolter.label>criptoballesta</VQE_Weapon_Cryptobolter.label>
   <!-- EN: A high-tech crossbow rifle that fires cryogenic-coated bolts with devastating impact. On penetration, the bolts inflict deep frostburns, flash-freezing flesh and lacing wounds with cryptofreeze, drastically slowing movement and causing severe hypothermic damage over time. -->
   <VQE_Weapon_Cryptobolter.description>Un rifle de ballesta de alta tecnología que dispara virotes recubiertos criogénicamente con un impacto devastador. Al penetrar, los virotes infligen quemaduras por frío profundas, congelando instantáneamente la carne y cubriendo las heridas con criptocongelación, lo que ralentiza drásticamente el movimiento y causa un daño hipotérmico severo con el tiempo.</VQE_Weapon_Cryptobolter.description>
   <!-- EN: Cryptobolter Customization -->
-  <VQE_Weapon_Cryptobolter.comps.6.customizationTitle>Personalización de criptoballesta</VQE_Weapon_Cryptobolter.comps.6.customizationTitle>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.customizationTitle>Personalización de criptoballesta</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.customizationTitle>
   <!-- EN: stock -->
   <VQE_Weapon_Cryptobolter.tools.0.label>culata</VQE_Weapon_Cryptobolter.tools.0.label>
   <!-- EN: barrel -->
@@ -465,53 +465,53 @@
   <!-- EN: cryptobolter -->
   <VQE_Weapon_Cryptobolter.verbs.Verb_Shoot.label>criptoballesta</VQE_Weapon_Cryptobolter.verbs.Verb_Shoot.label>
   <!-- EN: Bow -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.name>Arco</VQE_Weapon_Cryptobolter.comps.6.graphics.0.name>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.name>Arco</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.name>
   <!-- EN: Grip -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.name>Empuñadura</VQE_Weapon_Cryptobolter.comps.6.graphics.1.name>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.name>Empuñadura</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.name>
   <!-- EN: Rail -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.name>Riel</VQE_Weapon_Cryptobolter.comps.6.graphics.2.name>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.name>Riel</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.name>
   <!-- EN: Blodstreng -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.0.texName>Blodstreng</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.0.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.0.texName>Blodstreng</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.0.texName>
   <!-- EN: Fenrisbogi -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.1.texName>Fenrisbogi</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.1.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.1.texName>Fenrisbogi</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.1.texName>
   <!-- EN: Gjallarstrik -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.2.texName>Gjallarstrik</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.2.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.2.texName>Gjallarstrik</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.2.texName>
   <!-- EN: Jotunstreng -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.3.texName>Jotunstreng</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.3.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.3.texName>Jotunstreng</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.3.texName>
   <!-- EN: Nidhoggsbue -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.4.texName>Nidhoggsbue</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.4.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.4.texName>Nidhoggsbue</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.4.texName>
   <!-- EN: Sleipnirband -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.5.texName>Sleipnirband</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.5.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.5.texName>Sleipnirband</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.5.texName>
   <!-- EN: Stormgeir -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.6.texName>Stormgeir</VQE_Weapon_Cryptobolter.comps.6.graphics.0.texVariants.6.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.6.texName>Stormgeir</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.0.texVariants.6.texName>
   <!-- EN: Dreyrfang -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.0.texName>Dreyrfang</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.0.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.0.texName>Dreyrfang</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.0.texName>
   <!-- EN: Hrafngrip -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.1.texName>Hrafngrip</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.1.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.1.texName>Hrafngrip</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.1.texName>
   <!-- EN: Jarnklo -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.2.texName>Jarnklo</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.2.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.2.texName>Jarnklo</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.2.texName>
   <!-- EN: Mjolngrip -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.3.texName>Mjolngrip</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.3.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.3.texName>Mjolngrip</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.3.texName>
   <!-- EN: Sigrhald -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.4.texName>Sigrhald</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.4.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.4.texName>Sigrhald</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.4.texName>
   <!-- EN: Ulfhand -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.5.texName>Ulfhand</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.5.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.5.texName>Ulfhand</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.5.texName>
   <!-- EN: Vidargrep -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.6.texName>Vidargrep</VQE_Weapon_Cryptobolter.comps.6.graphics.1.texVariants.6.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.6.texName>Vidargrep</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.1.texVariants.6.texName>
   <!-- EN: Bifrostlin -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.0.texName>Bifrostlin</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.0.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.0.texName>Bifrostlin</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.0.texName>
   <!-- EN: Drakkensleif -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.1.texName>Drakkensleif</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.1.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.1.texName>Drakkensleif</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.1.texName>
   <!-- EN: Gungnarlaup -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.2.texName>Gungnarlaup</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.2.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.2.texName>Gungnarlaup</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.2.texName>
   <!-- EN: Hafgudstigur -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.3.texName>Hafgudstigur</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.3.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.3.texName>Hafgudstigur</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.3.texName>
   <!-- EN: Naglfarskena -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.4.texName>Naglfarskena</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.4.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.4.texName>Naglfarskena</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.4.texName>
   <!-- EN: Skotarveg -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.5.texName>Skotarveg</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.5.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.5.texName>Skotarveg</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.5.texName>
   <!-- EN: Ullrsstigur -->
-  <VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.6.texName>Ullrsstigur</VQE_Weapon_Cryptobolter.comps.6.graphics.2.texVariants.6.texName>
+  <VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.6.texName>Ullrsstigur</VQE_Weapon_Cryptobolter.comps.CompGraphicCustomization.graphics.2.texVariants.6.texName>
   <!-- EN: cryptobolter shot -->
   <VQE_Bullet_Cryptobolter.label>proyectil de criptoballesta</VQE_Bullet_Cryptobolter.label>
   <!-- EN: ice crawler -->

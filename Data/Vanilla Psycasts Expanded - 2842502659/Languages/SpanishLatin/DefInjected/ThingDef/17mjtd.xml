@@ -97,9 +97,9 @@
   <!-- EN: A piece of steel slag, animated by powerful psychic energy. It will engage nearby threats and defend the master from any harm that may come to them.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;Constructs generate constant heat for the caster that summoned them. Keeping too many constructs alive could prevent the psycaster from casting other abilities. -->
   <VPE_SteelConstruct.description>Un trozo de escoria de acero, animado por una poderosa energía psíquica. Atacará a las amenazas cercanas y defenderá al maestro de cualquier daño que pueda sufrir.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt; Los constructos generan calor constante para el lanzador que los invocó. Mantener demasiados constructos vivos podría evitar que el psíquico lance otras habilidades.</VPE_SteelConstruct.description>
   <!-- EN: VPE_BreakLink -->
-  <VPE_SteelConstruct.comps.5.gizmoLabel>VPE_BreakLink</VPE_SteelConstruct.comps.5.gizmoLabel>
+  <VPE_SteelConstruct.comps.CompBreakLink.gizmoLabel>VPE_BreakLink</VPE_SteelConstruct.comps.CompBreakLink.gizmoLabel>
   <!-- EN: VPE_BreakLinkDesc -->
-  <VPE_SteelConstruct.comps.5.gizmoDesc>VPE_BreakLinkDesc</VPE_SteelConstruct.comps.5.gizmoDesc>
+  <VPE_SteelConstruct.comps.CompBreakLink.gizmoDesc>VPE_BreakLinkDesc</VPE_SteelConstruct.comps.CompBreakLink.gizmoDesc>
   <!-- EN: head -->
   <VPE_SteelConstruct.tools.0.label>cabeza</VPE_SteelConstruct.tools.0.label>
   <!-- EN: rock construct -->
@@ -107,9 +107,9 @@
   <!-- EN: A piece of rock chunk, animated by powerful psychic energy. It will do simple work around the colony tirelessly and with maximum dedication.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;Constructs generate constant heat for the caster that summoned them. Keeping too many constructs alive could prevent the psycaster from casting other abilities. -->
   <VPE_RockConstruct.description>Un trozo de roca, animado por una poderosa energía psíquica. Hará trabajos simples alrededor de la colonia incansablemente y con la máxima dedicación.\n\n&lt;color=#E5E54C&gt;Impacto en el juego:&lt;/color&gt; Los constructos generan calor constante para el lanzador que los invocó. Mantener demasiados constructos vivos podría evitar que el psíquico lance otras habilidades.</VPE_RockConstruct.description>
   <!-- EN: VPE_BreakLink -->
-  <VPE_RockConstruct.comps.4.gizmoLabel>VPE_BreakLink</VPE_RockConstruct.comps.4.gizmoLabel>
+  <VPE_RockConstruct.comps.CompBreakLink.gizmoLabel>VPE_BreakLink</VPE_RockConstruct.comps.CompBreakLink.gizmoLabel>
   <!-- EN: VPE_BreakLinkDesc -->
-  <VPE_RockConstruct.comps.4.gizmoDesc>VPE_BreakLinkDesc</VPE_RockConstruct.comps.4.gizmoDesc>
+  <VPE_RockConstruct.comps.CompBreakLink.gizmoDesc>VPE_BreakLinkDesc</VPE_RockConstruct.comps.CompBreakLink.gizmoDesc>
   <!-- EN: head -->
   <VPE_RockConstruct.tools.0.label>cabeza</VPE_RockConstruct.tools.0.label>
   <!-- EN: skeleton -->
@@ -153,7 +153,7 @@
   <!-- EN: Mystical heat pearls created by a technomancer in a process of condensing psychic heat into a physical form. They can be thrown at the other psycasters to unleash an insane amount of psychic heat, disabling their psycasting ability for the short duration. -->
   <VPE_HeatPearls.description>Perlas de calor místicas creadas por un tecnomante en un proceso de condensación de calor psíquico en una forma física. Se pueden lanzar a otros psíquicos para liberar una cantidad insana de calor psíquico, deshabilitando su capacidad de lanzamiento psíquico por un corto tiempo.</VPE_HeatPearls.description>
   <!-- EN: usage -->
-  <VPE_HeatPearls.comps.2.chargeNoun>uso</VPE_HeatPearls.comps.2.chargeNoun>
+  <VPE_HeatPearls.comps.CompApparelReloadable.chargeNoun>uso</VPE_HeatPearls.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: throw heat pearl -->
   <VPE_HeatPearls.verbs.Verb_LaunchProjectileStatic.label>lanzar perla de calor</VPE_HeatPearls.verbs.Verb_LaunchProjectileStatic.label>
   <!-- EN: projectile -->

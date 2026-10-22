@@ -213,14 +213,10 @@
   <entry class="StatDef" node="DMS_HeavyGears.label" original="supported body size">tamaño de cuerpo soportado</entry>
   <entry class="StatDef" node="DMS_UsableWeapons.description" original="Usable weapons that are supported by the OS of this model.">Armas utilizables que son compatibles con el sistema operativo de este modelo.</entry>
   <entry class="StatDef" node="DMS_UsableWeapons.label" original="supported weapons">armas soportadas</entry>
-  <entry class="ThingDef" node="ComponentTransmitter.comps.CompAnalyzableUnlockResearch.activateLabelString" original="Analyze...">Analizar...</entry>
-  <entry class="ThingDef" node="ComponentTransmitter.comps.CompAnalyzableUnlockResearch.completedLetter" original="By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.">Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</entry>
-  <entry class="ThingDef" node="ComponentTransmitter.comps.CompAnalyzableUnlockResearch.inspectString" original="Can be analyzed by a colonist.">Puede ser analizado por un colono.</entry>
   <entry class="ThingDef" node="DMS_AntiMaterialRifle.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_AntiMaterialRifle.tools.stock.label" original="stock">culata</entry>
   <entry class="ThingDef" node="DMS_Apparel_PackHound.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
   <entry class="ThingDef" node="DMS_Apparel_PackHound.verbs.Verb_Deploy.label" original="hound drone pack">paquete de drones sabueso</entry>
-  <entry class="ThingDef" node="DMS_Apparel_PackVerling.comps.CompApparelReloadable.chargeNoun" original="drone">dron</entry>
   <entry class="ThingDef" node="DMS_Apparel_PackVerling.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
   <entry class="ThingDef" node="DMS_Apparel_PackVerling.verbs.Verb_Deploy.label" original="verlingbrid drone belt">cinturón de drones</entry>
   <entry class="ThingDef" node="DMS_AssaultPiercer.tools.barrel.label" original="barrel">cañón</entry>
@@ -237,7 +233,6 @@
   <entry class="ThingDef" node="DMS_AutomaticGrenadeLauncher.tools.stock.label" original="stock">culata</entry>
   <entry class="ThingDef" node="DMS_BattleRifle.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_BattleRifle.tools.stock.label" original="stock">culata</entry>
-  <entry class="ThingDef" node="DMS_CeramicsPlating.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
   <entry class="ThingDef" node="DMS_DeposableRocketLauncher.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
   <entry class="ThingDef" node="DMS_DeposableRocketLauncher.verbs.Verb_LaunchProjectile.label" original="Disposable Launcher">Lanzador desechable</entry>
   <entry class="ThingDef" node="DMS_DoorBreaker.tools.barrel.label" original="barrel">cañón</entry>
@@ -355,10 +350,8 @@
   <entry class="ThingDef" node="DMS_MiniMachineGun.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_Mote_ReactionChamberActive.label" original="Mote">Mota</entry>
   <entry class="ThingDef" node="DMS_Mote_SinteringFurnaceActive.label" original="Mote">Mota</entry>
-  <entry class="ThingDef" node="DMS_NuclearBattery.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
   <entry class="ThingDef" node="DMS_PDW.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_PDW.tools.stock.label" original="stock">culata</entry>
-  <entry class="ThingDef" node="DMS_ReinforcedFrame.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
   <entry class="ThingDef" node="DMS_Revolver.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_Revolver.tools.grip.label" original="grip">empuñadura</entry>
   <entry class="ThingDef" node="DMS_RiotShotgun.tools.barrel.label" original="barrel">cañón</entry>
@@ -375,10 +368,8 @@
   <entry class="ThingDef" node="DMS_StunBaton.tools.point.label" original="point">punta</entry>
   <entry class="ThingDef" node="DMS_SurvivalRifle.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_SurvivalRifle.tools.stock.label" original="stock">culata</entry>
-  <entry class="ThingDef" node="DMS_SyntheticTendon.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
   <entry class="ThingDef" node="DMS_TacticalPistol.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="DMS_TacticalPistol.tools.grip.label" original="grip">empuñadura</entry>
-  <entry class="ThingDef" node="DMS_TB_HeavyHydraulicFrame.comps.CompUsable.useLabel" original="Use {0_label}">Usar {0_label}</entry>
   <entry class="ThingDef" node="DMS_TB_HeavyHydraulicFrame.renderNodeProperties.0.debugLabel">armazón hidráulico</entry>
   <entry class="ThingDef" node="DMS_Turret_Dawnblade.comps.4.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_Dawnblade.comps.4.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
@@ -389,21 +380,10 @@
   <entry class="ThingDef" node="DMS_Turret_MK44_Navy.comps.3.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_MK44_Navy.comps.3.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_MK44_Navy.comps.3.outOfFuelMessage" original="Cannot shoot: Needs new reinforced barrel.">No puede disparar: Necesita un nuevo cañón reforzado.</entry>
-  <entry class="ThingDef" node="DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
-  <entry class="ThingDef" node="DMS_Turret_MK44_Navy.comps.CompRefuelable.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.3.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.3.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
   <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.3.outOfFuelMessage" original="Cannot shoot: Needs new reinforced barrel.">No puede disparar: Necesita un nuevo cañón reforzado.</entry>
-  <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.CompRefuelable.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
-  <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.CompRefuelable.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
-  <entry class="ThingDef" node="DMS_Turret_Okhotnik.comps.CompRefuelable.outOfFuelMessage" original="Cannot shoot: Needs new reinforced barrel.">No puede disparar: Necesita un nuevo cañón reforzado.</entry>
   <entry class="ThingDef" node="DMS_Turret_Sentry.comps.CompMechPowerCell.tooltipOverride" original="This turret has a limited battery life. Once it runs out, it will stop working entirely.">Esta torreta tiene una duración de batería limitada. Una vez que se agote, dejará de funcionar por completo.</entry>
-  <entry class="ThingDef" node="DMS_Turret_Vasilek.comps.CompRefuelable.fuelGizmoLabel" original="Barrel durability">Durabilidad del cañón</entry>
-  <entry class="ThingDef" node="DMS_Turret_Vasilek.comps.CompRefuelable.fuelLabel" original="Shots until barrel change">Disparos hasta el cambio de cañón</entry>
-  <entry class="ThingDef" node="Neurocomputer.comps.CompAnalyzableUnlockResearch.activateLabelString" original="Analyze...">Analizar...</entry>
-  <entry class="ThingDef" node="Neurocomputer.comps.CompAnalyzableUnlockResearch.completedLetter" original="By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.">Al estudiar el {PARENT_label}, {STUDIER_labelShort} ha adquirido la información necesaria para el(los) proyecto(s) de investigación {RESEARCH}.\n\nSus investigadores ahora pueden usar bancos de investigación para comenzar a investigar cómo usar realmente la tecnología.</entry>
-  <entry class="ThingDef" node="Neurocomputer.comps.CompAnalyzableUnlockResearch.guiLabelString" original="Choose who should analyze this">Elija quién debe analizar esto</entry>
-  <entry class="ThingDef" node="Neurocomputer.comps.CompAnalyzableUnlockResearch.inspectString" original="Can be analyzed by a colonist.">Puede ser analizado por un colono.</entry>
   <entry class="ThinkTreeDef" node="DMS_HumanlikeMech.thinkRoot.subNodes.7.subNodes.0.subNodes.12.subNodes.4.subNodes.1.subNodes.0.reportStringOverride">Patrullando.</entry>
   <entry class="ThinkTreeDef" node="DMS_HumanlikeMech.thinkRoot.subNodes.7.subNodes.0.subNodes.2.subNodes.3.reportStringOverride">Patrullando.</entry>
   <entry class="ThinkTreeDef" node="DMS_HumanlikeMech.thinkRoot.subNodes.7.subNodes.0.subNodes.2.subNodes.4.subNodes.1.subNodes.0.reportStringOverride" original="Patrolling.">Patrullando.</entry>

@@ -13,7 +13,7 @@
   <!-- EN: Burned out -->
   <VEF_PermanentBurn.injuryProps.destroyedOutLabel>Quemado (destruido)</VEF_PermanentBurn.injuryProps.destroyedOutLabel>
   <!-- EN: permanent burn -->
-  <VEF_PermanentBurn.comps.1.permanentLabel>quemadura permanente</VEF_PermanentBurn.comps.1.permanentLabel>
+  <VEF_PermanentBurn.comps.HediffComp_GetsPermanent.permanentLabel>quemadura permanente</VEF_PermanentBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: acid burn -->
   <VEF_AcidBuildup.label>quemadura de ácido</VEF_AcidBuildup.label>
   <!-- EN: A splash of acid that continues to cause burn wounds for quite some time after the initial attack. -->
@@ -37,13 +37,13 @@
   <!-- EN: Corroded -->
   <VEF_AcidBurn.injuryProps.destroyedOutLabel>Corroído</VEF_AcidBurn.injuryProps.destroyedOutLabel>
   <!-- EN: bandaged -->
-  <VEF_AcidBurn.comps.0.labelTendedWell>vendada</VEF_AcidBurn.comps.0.labelTendedWell>
+  <VEF_AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>vendada</VEF_AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: tended -->
-  <VEF_AcidBurn.comps.0.labelTendedWellInner>atendida</VEF_AcidBurn.comps.0.labelTendedWellInner>
+  <VEF_AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>atendida</VEF_AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: tended -->
-  <VEF_AcidBurn.comps.0.labelSolidTendedWell>atendida</VEF_AcidBurn.comps.0.labelSolidTendedWell>
+  <VEF_AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>atendida</VEF_AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: acid burn scar -->
-  <VEF_AcidBurn.comps.2.permanentLabel>cicatriz de quemadura de ácido</VEF_AcidBurn.comps.2.permanentLabel>
+  <VEF_AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de quemadura de ácido</VEF_AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: This creature feeds on sunlight. Inadequate levels of light will kill it. -->
   <VEF_LightSustenance.description>Esta criatura se alimenta de luz solar. Los niveles inadecuados de luz la matarán.</VEF_LightSustenance.description>
   <!-- EN: level of sunlight -->

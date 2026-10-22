@@ -5,13 +5,13 @@
   <!-- EN: A simple antenna group can intercept the return signal from the supply station after broadcasting the signal, but such a signal transmission without encryption request is bound to attract detection by the reconnaissance team. -->
   <DMSAC_RecoverTransmitter.description>Un simple grupo de antenas puede interceptar la señal de retorno de la estación de suministros después de transmitir la señal, pero tal transmisión de señal sin solicitud de encriptación está destinada a atraer la detección por parte del equipo de reconocimiento.</DMSAC_RecoverTransmitter.description>
   <!-- EN: Attract armed recon threat -->
-  <DMSAC_RecoverTransmitter.comps.1.useLabel>Atraer amenaza de reconocimiento armado</DMSAC_RecoverTransmitter.comps.1.useLabel>
+  <DMSAC_RecoverTransmitter.comps.CompUsable.useLabel>Atraer amenaza de reconocimiento armado</DMSAC_RecoverTransmitter.comps.CompUsable.useLabel>
   <!-- EN: Ancient Decoy Antenna -->
   <DMS_AncientDecoyRadio.label>antena señuelo antigua</DMS_AncientDecoyRadio.label>
   <!-- EN: A modified signal transponder which is rigged to send a high power burst transmission. Once activated it puts out a powerful decoy signal which will attract a feral group of automatroid forces to attack your colony. If you can defeat them, you can collect the advanced technology from their corpses. The signal pulse burns out the transmitter, so this building can only be used once. -->
   <DMS_AncientDecoyRadio.description>Un transpondedor de señal modificado que está preparado para enviar una transmisión de ráfaga de alta potencia. Una vez activado, emite una potente señal de señuelo que atraerá a un grupo salvaje de fuerzas automatroide para atacar tu colonia. Si puedes derrotarlos, podrás recolectar la tecnología avanzada de sus cadáveres. El pulso de la señal quema el transmisor, por lo que este edificio solo se puede usar una vez.</DMS_AncientDecoyRadio.description>
   <!-- EN: Attract krepost threat -->
-  <DMS_AncientDecoyRadio.comps.0.useLabel>Atraer amenaza krepost</DMS_AncientDecoyRadio.comps.0.useLabel>
+  <DMS_AncientDecoyRadio.comps.CompUsable.useLabel>Atraer amenaza krepost</DMS_AncientDecoyRadio.comps.CompUsable.useLabel>
   <!-- EN: Barrier Gate -->
   <DMSAC_Building_BarrierGate.label>puerta de barrera</DMSAC_Building_BarrierGate.label>
   <!-- EN: A barrier gate. -->
@@ -125,7 +125,7 @@
   <!-- EN: A command core used to coordinate large-scaled automatroid squads, it have the ability to independently command and support an entire combined combat brigade without any further assist. -->
   <DMSAC_GestaltEngine.description>Un núcleo de comando utilizado para coordinar escuadrones de automatroides a gran escala, tiene la capacidad de comandar y apoyar de forma independiente a toda una brigada de combate combinada sin ninguna ayuda adicional.</DMSAC_GestaltEngine.description>
   <!-- EN: disable local command -->
-  <DMSAC_GestaltEngine.comps.2.useLabel>desactivar comando local</DMSAC_GestaltEngine.comps.2.useLabel>
+  <DMSAC_GestaltEngine.comps.CompUsable.useLabel>desactivar comando local</DMSAC_GestaltEngine.comps.CompUsable.useLabel>
   <!-- EN: Process Array -->
   <DMSAC_BandNode.label>matriz de procesos</DMSAC_BandNode.label>
   <!-- EN: An array machine processes the received signal and directs it to a specific mechanitor. This adds 4 bandwidth to that mechanitor&apos;s total, allowing them to control more mechanoids.\n\nOnce a process array is constructed, it can be quickly tuned to a mechanitor. However, returning a band node to a different mechanitor takes significantly longer.\n\nThis Device follows the N.A.C.S. protocol so only Mechlinks with following the protocol can receieve the service. -->
@@ -143,25 +143,25 @@
   <!-- EN: A data blackbox, which is designed to storage the operation record of an automatroid, by this it is not hard to find the information about the location of military facility it comes from. -->
   <DMSAC_FacilityIntel.description>Una caja negra de datos, diseñada para almacenar el registro de operación de un automatroide, a través de la cual no es difícil encontrar información sobre la ubicación de la instalación militar de la que proviene.</DMSAC_FacilityIntel.description>
   <!-- EN: Analyzing facility intel -->
-  <DMSAC_FacilityIntel.comps.2.useLabel>Analizando inteligencia de instalación</DMSAC_FacilityIntel.comps.2.useLabel>
+  <DMSAC_FacilityIntel.comps.CompUsable.useLabel>Analizando inteligencia de instalación</DMSAC_FacilityIntel.comps.CompUsable.useLabel>
   <!-- EN: site intel -->
   <DMSAC_SiteIntel.label>inteligencia de sitio</DMSAC_SiteIntel.label>
   <!-- EN: An intel map about the location of a small military site, which is one of the countless pieces of information gathered by scavengers or pirates at that time when dealing with these ancient machines that had existed in this planet for hundreds of years. -->
   <DMSAC_SiteIntel.description>Un mapa de inteligencia sobre la ubicación de un pequeño sitio militar, que es una de las innumerables piezas de información recopiladas por carroñeros o piratas en aquel tiempo cuando trataban con estas máquinas antiguas que habían existido en este planeta durante cientos de años.</DMSAC_SiteIntel.description>
   <!-- EN: Analyzing facility intel -->
-  <DMSAC_SiteIntel.comps.2.useLabel>Analizando inteligencia de instalación</DMSAC_SiteIntel.comps.2.useLabel>
+  <DMSAC_SiteIntel.comps.CompUsable.useLabel>Analizando inteligencia de instalación</DMSAC_SiteIntel.comps.CompUsable.useLabel>
   <!-- EN: Electronic repair kit -->
   <DMSAC_Kit_Electronic.label>kit de reparación electrónica</DMSAC_Kit_Electronic.label>
   <!-- EN: A set of tool consumables for repairing and restarting the electronic system of an automatroid, including a micro pulse battery for restarting the automatroid. Such a forced restart doesn&apos;t restore the damaged structure, and a strong electric surge might leave structural damage. Such hidden dangers can only be repaired by a total factory reassembling. -->
   <DMSAC_Kit_Electronic.description>Un conjunto de herramientas consumibles para reparar y reiniciar el sistema electrónico de un automatroide, incluyendo una microbatería de pulsos para reiniciarlo. Este reinicio forzado no restaura la estructura dañada, y una fuerte sobrecarga eléctrica podría dejar daños estructurales. Estos peligros ocultos solo pueden ser reparados mediante un reensamblaje total en fábrica.</DMSAC_Kit_Electronic.description>
   <!-- EN: reboot mech -->
-  <DMSAC_Kit_Electronic.comps.1.useLabel>reiniciar meca</DMSAC_Kit_Electronic.comps.1.useLabel>
+  <DMSAC_Kit_Electronic.comps.CompUsable.useLabel>reiniciar meca</DMSAC_Kit_Electronic.comps.CompUsable.useLabel>
   <!-- EN: Mechanic repair kit -->
   <DMSAC_Kit_Mechanic.label>kit de reparación mecánica</DMSAC_Kit_Mechanic.label>
   <!-- EN: A set of mechanical repair tools used to temporarily repair damaged parts of mechas on the front-line battlefield. It is simple to operate and can be reused, so non-mechanical front-line personnel can repair automatroids. However, there is a small chance that such a temporary repair will leave some parts with structural damage. Such hidden dangers can only be repaired by a total factory reassembling. -->
   <DMSAC_Kit_Mechanic.description>Un conjunto de herramientas de reparación mecánica utilizadas para reparar temporalmente partes dañadas de mecas en el campo de batalla de primera línea. Es simple de operar y reutilizable, por lo que personal no mecánico de primera línea puede reparar automatroides. Sin embargo, existe una pequeña posibilidad de que dicha reparación temporal deje algunas partes con daños estructurales. Estos peligros ocultos solo pueden ser reparados mediante un reensamblaje total en fábrica.</DMSAC_Kit_Mechanic.description>
   <!-- EN: repair mech -->
-  <DMSAC_Kit_Mechanic.comps.1.useLabel>reparar meca</DMSAC_Kit_Mechanic.comps.1.useLabel>
+  <DMSAC_Kit_Mechanic.comps.CompUsable.useLabel>reparar meca</DMSAC_Kit_Mechanic.comps.CompUsable.useLabel>
   <!-- EN: anti tank missile -->
   <DMSAC_Bullet_9M133Missile.label>misil antitanque</DMSAC_Bullet_9M133Missile.label>
   <!-- EN: swarm rocket -->
@@ -171,11 +171,11 @@
   <!-- EN: disposable phase-shield -->
   <DMSAC_ShieldProjectorShell.label>escudo de fase desechable</DMSAC_ShieldProjectorShell.label>
   <!-- EN: Burnout in -->
-  <DMSAC_ShieldProjectorShell.comps.1.countdownLabel>Agotamiento en</DMSAC_ShieldProjectorShell.comps.1.countdownLabel>
+  <DMSAC_ShieldProjectorShell.comps.CompDestroyAfterDelay.countdownLabel>Agotamiento en</DMSAC_ShieldProjectorShell.comps.CompDestroyAfterDelay.countdownLabel>
   <!-- EN: disposable phase-shield -->
   <DMSAC_ShieldProjectorShell_Water.label>escudo de fase desechable</DMSAC_ShieldProjectorShell_Water.label>
   <!-- EN: Burnout in -->
-  <DMSAC_ShieldProjectorShell_Water.comps.1.countdownLabel>Agotamiento en</DMSAC_ShieldProjectorShell_Water.comps.1.countdownLabel>
+  <DMSAC_ShieldProjectorShell_Water.comps.CompDestroyAfterDelay.countdownLabel>Agotamiento en</DMSAC_ShieldProjectorShell_Water.comps.CompDestroyAfterDelay.countdownLabel>
   <!-- EN: gorod -->
   <DMS_Mech_Gorod.label>gorod</DMS_Mech_Gorod.label>
   <!-- EN: 6M29 / BR4 &quot;Gorod&quot;, NATO nicknamed &quot;ChunkSteel&quot;. It is a burly, heavily armored automatroid, designed as a cost-effective and durable mechanical infantry. Thanks to its outstanding systems engineering, modernized variants of this model continue to serve in many Midworld militaries today. It has also become a highly sought-after model for replication and production by local warlords and pirates in the Rimworld. -->
@@ -329,7 +329,7 @@
   <!-- EN: A single-use anti-tank guided missile designed to be fired and discarded. effective against heavy mechs and even tanks. however to lock on target, it requires a long aiming time and clear line of sight. -->
   <DMSAC_StugnaATGM.description>Un misil guiado antitanque de un solo uso diseñado para ser disparado y desechado. eficaz contra mecas pesados e incluso tanques. sin embargo, para fijar el objetivo, requiere un tiempo de puntería prolongado y una línea de visión clara.</DMSAC_StugnaATGM.description>
   <!-- EN: charge -->
-  <DMSAC_StugnaATGM.comps.2.chargeNoun>carga</DMSAC_StugnaATGM.comps.2.chargeNoun>
+  <DMSAC_StugnaATGM.comps.CompApparelReloadable.chargeNoun>carga</DMSAC_StugnaATGM.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: deploy turret -->
   <DMSAC_StugnaATGM.verbs.Verb_LaunchProjectileStaticOneUse.label>desplegar torreta</DMSAC_StugnaATGM.verbs.Verb_LaunchProjectileStaticOneUse.label>
   <!-- EN: stugna turret -->
@@ -339,13 +339,13 @@
   <!-- EN: An anti-tank missile launcher platform that can be deployed and operated remotely. It will stop functioning once its battery runs out or no available rounds. If damaged sufficiently, it may explode. -->
   <DMSAC_Turret_StugnaATGM.description>Una plataforma de lanzamiento de misiles antitanque que se puede desplegar y operar de forma remota. Dejará de funcionar una vez que se agote la batería o no haya proyectiles disponibles. Si se daña lo suficiente, puede explotar.</DMSAC_Turret_StugnaATGM.description>
   <!-- EN: missile shots -->
-  <DMSAC_Turret_StugnaATGM.comps.3.fuelLabel>disparos de misil</DMSAC_Turret_StugnaATGM.comps.3.fuelLabel>
+  <DMSAC_Turret_StugnaATGM.comps.CompRefuelable.fuelLabel>disparos de misil</DMSAC_Turret_StugnaATGM.comps.CompRefuelable.fuelLabel>
   <!-- EN: loaded missile -->
-  <DMSAC_Turret_StugnaATGM.comps.3.fuelGizmoLabel>misil cargado</DMSAC_Turret_StugnaATGM.comps.3.fuelGizmoLabel>
+  <DMSAC_Turret_StugnaATGM.comps.CompRefuelable.fuelGizmoLabel>misil cargado</DMSAC_Turret_StugnaATGM.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Cannot fire: Needs missile round. -->
-  <DMSAC_Turret_StugnaATGM.comps.3.outOfFuelMessage>No se puede disparar: necesita un proyectil de misil.</DMSAC_Turret_StugnaATGM.comps.3.outOfFuelMessage>
+  <DMSAC_Turret_StugnaATGM.comps.CompRefuelable.outOfFuelMessage>No se puede disparar: necesita un proyectil de misil.</DMSAC_Turret_StugnaATGM.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: Battery power -->
-  <DMSAC_Turret_StugnaATGM.comps.4.labelOverride>Energía de la batería</DMSAC_Turret_StugnaATGM.comps.4.labelOverride>
+  <DMSAC_Turret_StugnaATGM.comps.CompMechPowerCell.labelOverride>Energía de la batería</DMSAC_Turret_StugnaATGM.comps.CompMechPowerCell.labelOverride>
   <!-- EN: Stugna ATGM -->
   <DMSAC_Gun_StugnaATGM.label>ATGM stugna</DMSAC_Gun_StugnaATGM.label>
   <!-- EN: A Stugna anti-tank missile system mounted on a remote aiming platform. -->
@@ -375,7 +375,7 @@
   <!-- EN: Zlobin rifle -->
   <DMS_ZlobinRifle.verbs.Verb_Shoot.label>rifle zlobin</DMS_ZlobinRifle.verbs.Verb_Shoot.label>
   <!-- EN: grenade charge -->
-  <DMS_ZlobinRifle.comps.0.chargeNoun>carga de granada</DMS_ZlobinRifle.comps.0.chargeNoun>
+  <DMS_ZlobinRifle.comps.CompEquippableAbilityReloadable.chargeNoun>carga de granada</DMS_ZlobinRifle.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: subsonic bullet -->
   <Bullet_DMS_Subsonic_Rifle.label>bala subsónica</Bullet_DMS_Subsonic_Rifle.label>
   <!-- EN: Vykhlop rifle -->

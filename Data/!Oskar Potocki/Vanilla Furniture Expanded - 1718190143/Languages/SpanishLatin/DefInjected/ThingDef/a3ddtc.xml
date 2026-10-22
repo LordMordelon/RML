@@ -121,7 +121,7 @@
   <!-- EN: An electrical standing lamp that lights an area, good for large outdoor spaces. Will automatically turn off during the day to prevent power consumption. -->
   <Light_Streetlamp.description>Una lámpara de pie eléctrica que ilumina un área, buena para grandes espacios al aire libre. Se apagará automáticamente durante el día para evitar el consumo de energía.</Light_Streetlamp.description>
   <!-- EN: Off due to sufficient sunlight. -->
-  <Light_Streetlamp.comps.3.offMessage>Apagado debido a suficiente luz solar.</Light_Streetlamp.comps.3.offMessage>
+  <Light_Streetlamp.comps.CompScheduleExtended.offMessage>Apagado debido a suficiente luz solar.</Light_Streetlamp.comps.CompScheduleExtended.offMessage>
   <!-- EN: ergonomic bed -->
   <Bed_Ergonomic.label>cama ergonómica</Bed_Ergonomic.label>
   <!-- EN: A modern, adjustable bed designed for maximum comfort and proper spinal support. -->
@@ -143,49 +143,49 @@
   <!-- EN: A compact, cushioned seat designed to be combined with others to create larger couches or corner seating arrangements. Ideal for large rec rooms, lounges, or social areas. -->
   <VFE_ModularCouch.description>Un asiento compacto y acolchado diseñado para combinarse con otros para crear sofás más grandes o arreglos de asientos en esquina. Ideal para grandes salas de recreo, salones o áreas sociales.</VFE_ModularCouch.description>
   <!-- EN: Set the visuals for the couch to create a seamless seating arrangement. -->
-  <VFE_ModularCouch.comps.1.gizmoDescription>Establece las imágenes del sofá para crear una disposición de asientos perfecta.</VFE_ModularCouch.comps.1.gizmoDescription>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.gizmoDescription>Establece las imágenes del sofá para crear una disposición de asientos perfecta.</VFE_ModularCouch.comps.CompCustomizableGraphic.gizmoDescription>
   <!-- EN: Down-left (Inner) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.0.name>Abajo-izquierda (interior)</VFE_ModularCouch.comps.1.defaultGraphicData.0.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.0.name>Abajo-izquierda (interior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.0.name>
   <!-- EN: Down-left (Outer) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.1.name>Abajo-izquierda (exterior)</VFE_ModularCouch.comps.1.defaultGraphicData.1.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.1.name>Abajo-izquierda (exterior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.1.name>
   <!-- EN: Down-left (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.2.name>Abajo-izquierda (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.2.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.2.name>Abajo-izquierda (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.2.name>
   <!-- EN: Down-middle (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.3.name>Abajo-centro (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.3.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.3.name>Abajo-centro (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.3.name>
   <!-- EN: Down-right (Inner) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.4.name>Abajo-derecha (interior)</VFE_ModularCouch.comps.1.defaultGraphicData.4.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.4.name>Abajo-derecha (interior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.4.name>
   <!-- EN: Down-right (Outer) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.5.name>Abajo-derecha (exterior)</VFE_ModularCouch.comps.1.defaultGraphicData.5.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.5.name>Abajo-derecha (exterior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.5.name>
   <!-- EN: Down-right (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.6.name>Abajo-derecha (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.6.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.6.name>Abajo-derecha (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.6.name>
   <!-- EN: Left-down (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.7.name>Izquierda-abajo (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.7.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.7.name>Izquierda-abajo (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.7.name>
   <!-- EN: Left-middle (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.8.name>Izquierda-centro (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.8.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.8.name>Izquierda-centro (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.8.name>
   <!-- EN: Left-up (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.9.name>Izquierda-arriba (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.9.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.9.name>Izquierda-arriba (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.9.name>
   <!-- EN: Omnidirectional -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.10.name>Omnidireccional</VFE_ModularCouch.comps.1.defaultGraphicData.10.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.10.name>Omnidireccional</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.10.name>
   <!-- EN: Right-down (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.11.name>Derecha-abajo (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.11.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.11.name>Derecha-abajo (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.11.name>
   <!-- EN: Right-middle (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.12.name>Derecha-centro (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.12.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.12.name>Derecha-centro (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.12.name>
   <!-- EN: Right-up (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.13.name>Derecha-arriba (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.13.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.13.name>Derecha-arriba (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.13.name>
   <!-- EN: Up-left (Inner) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.14.name>Arriba-izquierda (interior)</VFE_ModularCouch.comps.1.defaultGraphicData.14.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.14.name>Arriba-izquierda (interior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.14.name>
   <!-- EN: Up-left (Outer) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.15.name>Arriba-izquierda (exterior)</VFE_ModularCouch.comps.1.defaultGraphicData.15.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.15.name>Arriba-izquierda (exterior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.15.name>
   <!-- EN: Up-left (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.16.name>Arriba-izquierda (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.16.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.16.name>Arriba-izquierda (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.16.name>
   <!-- EN: Up-middle (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.17.name>Arriba-centro (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.17.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.17.name>Arriba-centro (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.17.name>
   <!-- EN: Up-right (Inner) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.18.name>Arriba-derecha (interior)</VFE_ModularCouch.comps.1.defaultGraphicData.18.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.18.name>Arriba-derecha (interior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.18.name>
   <!-- EN: Up-right (Outer) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.19.name>Arriba-derecha (exterior)</VFE_ModularCouch.comps.1.defaultGraphicData.19.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.19.name>Arriba-derecha (exterior)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.19.name>
   <!-- EN: Up-right (Straight) -->
-  <VFE_ModularCouch.comps.1.defaultGraphicData.20.name>Arriba-derecha (recto)</VFE_ModularCouch.comps.1.defaultGraphicData.20.name>
+  <VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.20.name>Arriba-derecha (recto)</VFE_ModularCouch.comps.CompCustomizableGraphic.defaultGraphicData.20.name>
   <!-- EN: royal poster bed -->
   <Bed_Kingsize.label>cama real con dosel</Bed_Kingsize.label>
   <!-- EN: An extravagant four-poster bed fit for nobility, adorned with intricate carvings. Extremely comfy and luxurious, its imposing frame and detailed craftsmanship make it a work of art. Fits two. -->

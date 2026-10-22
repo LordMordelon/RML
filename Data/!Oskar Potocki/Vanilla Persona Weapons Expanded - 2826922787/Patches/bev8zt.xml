@@ -9,7 +9,7 @@
       <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/customizationTitle</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/customizationTitle</xpath>
           <value>
             <!-- EN: Persona Weapon Customization -->
             <customizationTitle>Personalización de Arma con IA</customizationTitle>
@@ -17,7 +17,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/name</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/name</xpath>
           <value>
             <!-- EN: Blade -->
             <name>Hoja</name>
@@ -25,7 +25,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/name</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/name</xpath>
           <value>
             <!-- EN: Grip -->
             <name>Empuñadura</name>
@@ -33,7 +33,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/name</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/name</xpath>
           <value>
             <!-- EN: Guard -->
             <name>Guarda</name>
@@ -41,7 +41,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[1]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[1]/texName</xpath>
           <value>
             <!-- EN: Absolute -->
             <texName>Absoluto</texName>
@@ -49,7 +49,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[2]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[2]/texName</xpath>
           <value>
             <!-- EN: Exponential -->
             <texName>Exponencial</texName>
@@ -57,7 +57,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[3]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[3]/texName</xpath>
           <value>
             <!-- EN: Parabolic -->
             <texName>Parabólico</texName>
@@ -65,7 +65,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[4]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[4]/texName</xpath>
           <value>
             <!-- EN: Quadratic -->
             <texName>Cuadrático</texName>
@@ -73,7 +73,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[5]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[5]/texName</xpath>
           <value>
             <!-- EN: Quartic -->
             <texName>Cuártico</texName>
@@ -81,7 +81,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[6]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[6]/texName</xpath>
           <value>
             <!-- EN: Rectangular -->
             <texName>Rectangular</texName>
@@ -89,7 +89,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[7]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[7]/texName</xpath>
           <value>
             <!-- EN: Serpentine -->
             <texName>Serpentino</texName>
@@ -97,7 +97,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[8]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[8]/texName</xpath>
           <value>
             <!-- EN: Three-Phase -->
             <texName>Trifásico</texName>
@@ -105,7 +105,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[9]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[9]/texName</xpath>
           <value>
             <!-- EN: Trapezoid -->
             <texName>Trapezoide</texName>
@@ -113,7 +113,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[1]/texVariants/li[10]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[1]/texVariants/li[10]/texName</xpath>
           <value>
             <!-- EN: Trinomial -->
             <texName>Trinomio</texName>
@@ -121,7 +121,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[1]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[1]/texName</xpath>
           <value>
             <!-- EN: Bladed -->
             <texName>Afilado</texName>
@@ -129,7 +129,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[2]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[2]/texName</xpath>
           <value>
             <!-- EN: Guarded -->
             <texName>Resguardado</texName>
@@ -137,7 +137,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[3]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[3]/texName</xpath>
           <value>
             <!-- EN: Hatched -->
             <texName>Rayado</texName>
@@ -145,7 +145,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[4]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[4]/texName</xpath>
           <value>
             <!-- EN: Inverse -->
             <texName>Inverso</texName>
@@ -153,7 +153,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[5]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[5]/texName</xpath>
           <value>
             <!-- EN: Looped -->
             <texName>En bucle</texName>
@@ -161,7 +161,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[6]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[6]/texName</xpath>
           <value>
             <!-- EN: Ornate -->
             <texName>Ornamentado</texName>
@@ -169,7 +169,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[7]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[7]/texName</xpath>
           <value>
             <!-- EN: Squat -->
             <texName>Achaparrado</texName>
@@ -177,7 +177,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[8]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[8]/texName</xpath>
           <value>
             <!-- EN: Threaded -->
             <texName>Roscado</texName>
@@ -185,7 +185,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[9]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[9]/texName</xpath>
           <value>
             <!-- EN: Transverse -->
             <texName>Transversal</texName>
@@ -193,7 +193,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[10]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[2]/texVariants/li[10]/texName</xpath>
           <value>
             <!-- EN: Weighted -->
             <texName>Lastrado</texName>
@@ -201,7 +201,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[1]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[1]/texName</xpath>
           <value>
             <!-- EN: Accipiter -->
             <texName>Accipiter</texName>
@@ -209,7 +209,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[2]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[2]/texName</xpath>
           <value>
             <!-- EN: Anatis -->
             <texName>Anatis</texName>
@@ -217,7 +217,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[3]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[3]/texName</xpath>
           <value>
             <!-- EN: Chiroptera -->
             <texName>Chiroptera</texName>
@@ -225,7 +225,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[4]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[4]/texName</xpath>
           <value>
             <!-- EN: Cygnus -->
             <texName>Cygnus</texName>
@@ -233,7 +233,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[5]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[5]/texName</xpath>
           <value>
             <!-- EN: Larum -->
             <texName>Larum</texName>
@@ -241,7 +241,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[6]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[6]/texName</xpath>
           <value>
             <!-- EN: Milvus -->
             <texName>Milvus</texName>
@@ -249,7 +249,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[7]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[7]/texName</xpath>
           <value>
             <!-- EN: Passer -->
             <texName>Passer</texName>
@@ -257,7 +257,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[8]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[8]/texName</xpath>
           <value>
             <!-- EN: Perdix -->
             <texName>Perdix</texName>
@@ -265,7 +265,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[9]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[9]/texName</xpath>
           <value>
             <!-- EN: Vermis -->
             <texName>Vermis</texName>
@@ -273,7 +273,7 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[10]/texName</xpath>
+          <xpath>/Defs/ThingDef[defName="VFEE_MeleeWeapon_ToxbladeBladelink"]/comps/li[@Class="VEF.Graphics.CompProperties_GraphicCustomization"]/graphics/li[3]/texVariants/li[10]/texName</xpath>
           <value>
             <!-- EN: Vombati -->
             <texName>Vombati</texName>

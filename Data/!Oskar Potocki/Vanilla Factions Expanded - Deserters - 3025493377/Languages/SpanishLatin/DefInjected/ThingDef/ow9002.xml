@@ -17,11 +17,11 @@
   <!-- EN: A powerful, long-range weapon used by the Empire to take out enemy targets from afar. Kontarion turret fires ultra-dense uranium slugs at incredible speeds, penetrating even the heaviest armor. With its rapid-fire capabilities, tremendous accuracy and infinite range, it’s a force to be reckoned with. It&apos;s more accurate at longer ranges, and can&apos;t fire at all close up. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of uranium slug ammo in order to automatically reload. It cannot be reloaded by hand. -->
   <VFED_Turret_Kontarion.description>Un arma poderosa de largo alcance utilizada por el Imperio para eliminar objetivos enemigos desde lejos. La torreta kontarion dispara balas de uranio ultradensas a velocidades increíbles, penetrando incluso la armadura más pesada. Con sus capacidades de disparo rápido, tremenda precisión y alcance infinito, es una fuerza a tener en cuenta. Es más precisa a distancias más largas y no puede disparar de cerca. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de balas de uranio para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Kontarion.description>
   <!-- EN: Shots until rearm -->
-  <VFED_Turret_Kontarion.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Kontarion.comps.5.fuelLabel>
+  <VFED_Turret_Kontarion.comps.CompRefuelable.fuelLabel>Disparos hasta rearmar</VFED_Turret_Kontarion.comps.CompRefuelable.fuelLabel>
   <!-- EN: Uranium slugs -->
-  <VFED_Turret_Kontarion.comps.5.fuelGizmoLabel>Balas de uranio</VFED_Turret_Kontarion.comps.5.fuelGizmoLabel>
+  <VFED_Turret_Kontarion.comps.CompRefuelable.fuelGizmoLabel>Balas de uranio</VFED_Turret_Kontarion.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No slugs -->
-  <VFED_Turret_Kontarion.comps.5.outOfFuelMessage>Sin balas</VFED_Turret_Kontarion.comps.5.outOfFuelMessage>
+  <VFED_Turret_Kontarion.comps.CompRefuelable.outOfFuelMessage>Sin balas</VFED_Turret_Kontarion.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: kontarion cannon -->
   <VFED_Gun_Kontarion.label>cañón kontarion</VFED_Gun_Kontarion.label>
   <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
@@ -33,11 +33,11 @@
   <!-- EN: A powerful, anti-infantry weapon used by the Empire to defend unsafe outposts. Palintone turret fires large-caliber shells at incredible speeds, dealing heavy damage over significant ranges. It fires huge volleys of rounds that can provide suppressive fire and quickly shred lightly armored targets. With its devastating firepower, the Palintone turret is capable of keeping even the largest enemy forces at bay. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of autocannon ammo in order to automatically reload. It cannot be reloaded by hand. -->
   <VFED_Turret_Palintone.description>Un arma poderosa anti-infantería utilizada por el Imperio para defender puestos avanzados inseguros. La torreta palintone dispara proyectiles de gran calibre a velocidades increíbles, causando graves daños a distancias significativas. Dispara enormes descargas de rondas que pueden proporcionar fuego de supresión y destrozar rápidamente objetivos con armadura ligera. Con su devastadora potencia de fuego, la torreta Palintone es capaz de mantener a raya incluso a las fuerzas enemigas más grandes. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de cañón automático para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Palintone.description>
   <!-- EN: Shots until rearm -->
-  <VFED_Turret_Palintone.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Palintone.comps.5.fuelLabel>
+  <VFED_Turret_Palintone.comps.CompRefuelable.fuelLabel>Disparos hasta rearmar</VFED_Turret_Palintone.comps.CompRefuelable.fuelLabel>
   <!-- EN: Autocannon ammo -->
-  <VFED_Turret_Palintone.comps.5.fuelGizmoLabel>Munición de cañón automático</VFED_Turret_Palintone.comps.5.fuelGizmoLabel>
+  <VFED_Turret_Palintone.comps.CompRefuelable.fuelGizmoLabel>Munición de cañón automático</VFED_Turret_Palintone.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No ammo -->
-  <VFED_Turret_Palintone.comps.5.outOfFuelMessage>Sin munición</VFED_Turret_Palintone.comps.5.outOfFuelMessage>
+  <VFED_Turret_Palintone.comps.CompRefuelable.outOfFuelMessage>Sin munición</VFED_Turret_Palintone.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: palintone cannon -->
   <VFED_Gun_Palintone.label>cañón palintone</VFED_Gun_Palintone.label>
   <!-- EN: A self-loading cannon designed to attach to a turret. -->
@@ -49,11 +49,11 @@
   <!-- EN: A powerful, anti-armored weapon used by the Empire to destroy heavily armored targets with ease. Capable of launching missiles in bursts of 6, the Onager can deal devastating damage to enemy forces in a short amount of time. The Onager turret is most effective at short range, where its missiles can be accurately targeted at enemy positions. However, it cannot fire at enemies that are too close, as the missiles require a certain distance to arm and track their targets. Additionally, due to the sheer number of missiles it fires, the Onager is not as accurate as other turrets, and can sometimes miss its targets. May explode when damaged.\n\nIt consumes a lot of ammunition, and requires an adjacent crate of missile ammo in order to automatically reload. It cannot be reloaded by hand. -->
   <VFED_Turret_Onager.description>Un arma poderosa anti-blindaje utilizada por el Imperio para destruir objetivos fuertemente blindados con facilidad. Capaz de lanzar misiles en ráfagas de 6, el onager puede causar daños devastadores a las fuerzas enemigas en poco tiempo. La torreta Onager es más efectiva a corto alcance, donde sus misiles pueden apuntar con precisión a las posiciones enemigas. Sin embargo, no puede disparar a enemigos que estén demasiado cerca, ya que los misiles requieren cierta distancia para armarse y rastrear sus objetivos. Además, debido a la gran cantidad de misiles que dispara, el Onager no es tan preciso como otras torretas y, a veces, puede fallar sus objetivos. Puede explotar si se daña.\n\nConsume mucha munición y requiere una caja adyacente de munición de misiles para recargarse automáticamente. No se puede recargar a mano.</VFED_Turret_Onager.description>
   <!-- EN: Shots until rearm -->
-  <VFED_Turret_Onager.comps.5.fuelLabel>Disparos hasta rearmar</VFED_Turret_Onager.comps.5.fuelLabel>
+  <VFED_Turret_Onager.comps.CompRefuelable.fuelLabel>Disparos hasta rearmar</VFED_Turret_Onager.comps.CompRefuelable.fuelLabel>
   <!-- EN: Onager missiles -->
-  <VFED_Turret_Onager.comps.5.fuelGizmoLabel>Misiles Onager</VFED_Turret_Onager.comps.5.fuelGizmoLabel>
+  <VFED_Turret_Onager.comps.CompRefuelable.fuelGizmoLabel>Misiles Onager</VFED_Turret_Onager.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No missiles -->
-  <VFED_Turret_Onager.comps.5.outOfFuelMessage>Sin misiles</VFED_Turret_Onager.comps.5.outOfFuelMessage>
+  <VFED_Turret_Onager.comps.CompRefuelable.outOfFuelMessage>Sin misiles</VFED_Turret_Onager.comps.CompRefuelable.outOfFuelMessage>
   <!-- EN: onager cannon -->
   <VFED_Gun_Onager.label>cañón onager</VFED_Gun_Onager.label>
   <!-- EN: A self-loading rocket launcher designed to attach to a turret. -->
@@ -219,13 +219,13 @@
   <!-- EN: A biodecoder is a single-use ultratech device that is designed to strip biocoding off any item. It uses a complex process to unlatch the biocoding from the original item, which transfers the biocoding onto the biodecoder, breaking it in the process. Biodecoder can also be used on biosecured crate to open them. This device is often used in sensitive operations where the presence of biocoding could compromise the mission. -->
   <VFED_Biodecoder.description>Un biodecodificador es un dispositivo ultratecnológico de un solo uso diseñado para eliminar la biocodificación de cualquier objeto. Utiliza un proceso complejo para desbloquear la biocodificación del objeto original, transfiriendo la biocodificación al biodecodificador y rompiéndolo en el proceso. El biodecodificador también se puede usar en cajas bioseguras para abrirlas. Este dispositivo se utiliza a menudo en operaciones sensibles donde la presencia de biocodificación podría comprometer la misión.</VFED_Biodecoder.description>
   <!-- EN: Use {0_label} -->
-  <VFED_Biodecoder.comps.1.useLabel>Usar {0_label}</VFED_Biodecoder.comps.1.useLabel>
+  <VFED_Biodecoder.comps.CompUsable.useLabel>Usar {0_label}</VFED_Biodecoder.comps.CompUsable.useLabel>
   <!-- EN: psychic amplifier -->
   <VFED_PsychicAmplifier.label>amplificador psíquico</VFED_PsychicAmplifier.label>
   <!-- EN: Decommissioned Imperial technology since the invention of psylink neuroformers, psychic amplifier upgrades a psylink in the user&apos;s mind. It cannot form a psylink by itself, and can only be used by colonists with already present psylink. The user presses the device over the eyes, where it links to the brain directly and restructures part of it. Afterwards, the device disintegrates into worthless ash. -->
   <VFED_PsychicAmplifier.description>Tecnología imperial retirada desde la invención de los neuroformadores de psienlace, el amplificador psíquico mejora un psienlace en la mente del usuario. No puede formar un psienlace por sí mismo y solo puede ser utilizado por colonos con un psienlace ya presente. El usuario presiona el dispositivo sobre los ojos, donde se vincula directamente al cerebro y reestructura parte de él. Después, el dispositivo se desintegra en cenizas sin valor.</VFED_PsychicAmplifier.description>
   <!-- EN: Use {0_label} -->
-  <VFED_PsychicAmplifier.comps.1.useLabel>Usar {0_label}</VFED_PsychicAmplifier.comps.1.useLabel>
+  <VFED_PsychicAmplifier.comps.CompUsable.useLabel>Usar {0_label}</VFED_PsychicAmplifier.comps.CompUsable.useLabel>
   <!-- EN: intel -->
   <VFED_Intel.label>inteligencia</VFED_Intel.label>
   <!-- EN: A dossier containing information about the Shattered Empire. In order to protect the information from the Imperial counterintelligence, the information needs to be stored in a physical form. It can be used to obtain contraband items from the Deserters, or to gain access to quests and even assassination missions on Imperial nobility. -->

@@ -283,7 +283,6 @@
   <entry class="PawnRenderTreeDef" node="APM_RenderTree_SatelliteHover.root.children.0.children.2.debugLabel" original="Carried thing">Objeto transportado</entry>
   <entry class="PawnRenderTreeDef" node="APM_RenderTree_Terminus.root.children.1.debugLabel" original="Carried thing">Objeto transportado</entry>
   <entry class="ThingDef" node="APM_Apparel_MechamancerPack.comps.CompApparelReloadable.cooldownGerund" original="on cooldown">en enfriamiento</entry>
-  <entry class="ThingDef" node="APM_DuelSpot_Boss.comps.CompDestroyAfterDelay.countdownLabel" original="Finish in">Termina en</entry>
   <entry class="ThingDef" node="APM_Gun_JavelinRocketLauncher.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="APM_Gun_JavelinRocketLauncher.tools.stock.label" original="stock">culata</entry>
   <entry class="ThingDef" node="APM_Gun_Pulse_Shotgun.tools.barrel.label" original="barrel">cañón</entry>
@@ -373,61 +372,25 @@
   <entry class="ThingDef" node="APM_MechanoidContainer_Ancient.comps.Comp_MechanoidContainerControlled.activatingStringPending" original="hacking {0}">hackeando {0}</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Ancient.comps.Comp_MechanoidContainerControlled.ChooseMechDesc" original="Instruct mechanoid to enter stasis.">Ordenar a un mecanoide que entre en estasis.</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Ancient.comps.Comp_MechanoidContainerControlled.ChooseMechLabel" original="Choose mechanoid">Elegir mecanoide</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.activateDescString" original="Will hack container to reprogram mechanoid inside.">Hackeará el contenedor para reprogramar al mecanoide de su interior.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.activateLabelString" original="Hack">Hackear</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.activatingString" original="hacking {0}: {1}s">hackeando {0}: {1} s</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.activatingStringPending" original="hacking {0}">hackeando {0}</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.guiLabelString" original="Choose who should hack this.">Elige quién debe hackear esto.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.jobString" original="hack container">hackear contenedor</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Cluster.comps.Comp_MechanoidContainer.onCooldownString" original="recalibrating">recalibrando</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.activateDescString" original="Will hack container to reprogram mechanoid inside.">Hackeará el contenedor para reprogramar al mecanoide de su interior.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.activateLabelString" original="Hack">Hackear</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.activatingString" original="hacking {0}: {1}s">hackeando {0}: {1} s</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.activatingStringPending" original="hacking {0}">hackeando {0}</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.ChooseMechDesc" original="Instruct mechanoid to enter stasis.">Ordenar a un mecanoide que entre en estasis.</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.ChooseMechLabel" original="Choose mechanoid">Elegir mecanoide</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.guiLabelString" original="Choose who should hack this.">Elige quién debe hackear esto.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.jobString" original="hack container">hackear contenedor</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Lasher.comps.Comp_MechanoidContainerControlled.onCooldownString" original="recalibrating">recalibrando</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.activateDescString" original="Will hack container to reprogram mechanoid inside.">Hackeará el contenedor para reprogramar al mecanoide de su interior.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.activateLabelString" original="Hack">Hackear</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.activatingString" original="hacking {0}: {1}s">hackeando {0}: {1} s</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.activatingStringPending" original="hacking {0}">hackeando {0}</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.ChooseMechDesc" original="Instruct mechanoid to enter stasis.">Ordenar a un mecanoide que entre en estasis.</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.ChooseMechLabel" original="Choose mechanoid">Elegir mecanoide</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.guiLabelString" original="Choose who should hack this.">Elige quién debe hackear esto.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.jobString" original="hack container">hackear contenedor</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Tinker.comps.Comp_MechanoidContainerControlled.onCooldownString" original="recalibrating">recalibrando</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.activateDescString" original="Will hack container to reprogram mechanoid inside.">Hackeará el contenedor para reprogramar al mecanoide de su interior.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.activateLabelString" original="Hack">Hackear</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.activatingString" original="hacking {0}: {1}s">hackeando {0}: {1} s</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.activatingStringPending" original="hacking {0}">hackeando {0}</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.ChooseMechDesc" original="Instruct mechanoid to enter stasis.">Ordenar a un mecanoide que entre en estasis.</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.ChooseMechLabel" original="Choose mechanoid">Elegir mecanoide</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.guiLabelString" original="Choose who should hack this.">Elige quién debe hackear esto.</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.jobString" original="hack container">hackear contenedor</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Legacy_Vassal.comps.Comp_MechanoidContainerControlled.onCooldownString" original="recalibrating">recalibrando</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Player.comps.Comp_MechanoidContainerControlled.activatingString" original="extracting from {0}: {1}s">extrayendo de {0}: {1} s</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Player.comps.Comp_MechanoidContainerControlled.activatingStringPending" original="extracting from {0}">extrayendo de {0}</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Player.comps.Comp_MechanoidContainerControlled.ChooseMechDesc" original="Instruct mechanoid to enter stasis.">Ordenar a un mecanoide que entre en estasis.</entry>
   <entry class="ThingDef" node="APM_MechanoidContainer_Player.comps.Comp_MechanoidContainerControlled.ChooseMechLabel" original="Choose mechanoid">Elegir mecanoide</entry>
-  <entry class="ThingDef" node="APM_MechanoidContainer_Player.comps.Comp_MechanoidContainerControlled.onCooldownString" original="recalibrating">recalibrando</entry>
   <entry class="ThingDef" node="APM_MechbandAntenna_United.comps.CompUseEffect_CallMulBossgroup.leaderName" original="Three Lords">Los Tres Señores</entry>
-  <entry class="ThingDef" node="APM_OcularChip.comps.CompAnalyzableUnlockResearch.activateDescString" original="Analyze the chip.">Analizar el chip.</entry>
-  <entry class="ThingDef" node="APM_OcularChip.comps.CompAnalyzableUnlockResearch.activateLabelString" original="Analyze...">Analizar...</entry>
-  <entry class="ThingDef" node="APM_OcularChip.comps.CompAnalyzableUnlockResearch.guiLabelString" original="Choose who should analyze this">Elige quién debe analizar esto</entry>
-  <entry class="ThingDef" node="APM_OcularChip.comps.CompAnalyzableUnlockResearch.inspectString" original="Can be analyzed by a colonist.">Un colono puede analizarlo.</entry>
-  <entry class="ThingDef" node="APM_OcularChip.comps.CompAnalyzableUnlockResearch.jobString" original="Analyze chip">Analizar chip</entry>
-  <entry class="ThingDef" node="APM_PsionicChip.comps.CompAnalyzableUnlockResearch.activateDescString" original="Analyze the chip.">Analizar el chip.</entry>
-  <entry class="ThingDef" node="APM_PsionicChip.comps.CompAnalyzableUnlockResearch.activateLabelString" original="Analyze...">Analizar...</entry>
-  <entry class="ThingDef" node="APM_PsionicChip.comps.CompAnalyzableUnlockResearch.guiLabelString" original="Choose who should analyze this">Elige quién debe analizar esto</entry>
-  <entry class="ThingDef" node="APM_PsionicChip.comps.CompAnalyzableUnlockResearch.inspectString" original="Can be analyzed by a colonist.">Un colono puede analizarlo.</entry>
-  <entry class="ThingDef" node="APM_PsionicChip.comps.CompAnalyzableUnlockResearch.jobString" original="Analyze chip">Analizar chip</entry>
-  <entry class="ThingDef" node="APM_PsyfluxChip.comps.CompAnalyzableUnlockResearch.activateDescString" original="Analyze the chip.">Analizar el chip.</entry>
-  <entry class="ThingDef" node="APM_PsyfluxChip.comps.CompAnalyzableUnlockResearch.activateLabelString" original="Analyze...">Analizar...</entry>
-  <entry class="ThingDef" node="APM_PsyfluxChip.comps.CompAnalyzableUnlockResearch.guiLabelString" original="Choose who should analyze this">Elige quién debe analizar esto</entry>
-  <entry class="ThingDef" node="APM_PsyfluxChip.comps.CompAnalyzableUnlockResearch.inspectString" original="Can be analyzed by a colonist.">Un colono puede analizarlo.</entry>
-  <entry class="ThingDef" node="APM_PsyfluxChip.comps.CompAnalyzableUnlockResearch.jobString" original="Analyze chip">Analizar chip</entry>
   <entry class="ThingDef" node="APM_Siren_ChargeEmitter.tools.barrel.label" original="barrel">cañón</entry>
   <entry class="ThingDef" node="APM_Weapon_CelerusVoltana.tools.blade.label" original="blade">hoja</entry>
   <entry class="ThingDef" node="APM_Weapon_CelerusVoltana.tools.handle.label" original="handle">empuñadura</entry>
