@@ -37,9 +37,8 @@ Siguen al glosario de Combat Extended; esto es lo que este mod agrega. Usarlos i
 | X mortar shell | obús de mortero X | «obús de mortero explosivo», «… cortafuego», «… de antigrano» |
 | mm sharp / mpa blunt | mm cortante / MPa contundente | Este mod reemplaza `CE_mmRHA` y `CE_MPa` de CE |
 
-Las armas del juego base que el mod renombra llevan el nombre oficial si el inglés no cambia; si cambia, se
-traduce lo que dice: «pistol» → «pistola», «pilum» → «pilum». Excepción, por decisión de Angel (22-oct-2026):
-«light machine gun» queda «LMG», como en el juego. La frase de las torretas («Its dumb AI brain…») es la oficial de la minitorreta.
+Las armas del juego base que el mod renombra llevan siempre el nombre oficial, aunque el inglés del mod lo
+cambie (Angel, 22-oct-2026): «light machine gun» → «LMG», «pistol» → «pistola automática», «pilum» → «pila». La frase de las torretas («Its dumb AI brain…») es la oficial de la minitorreta.
 
 ## Próxima sesión (22-oct-2026, después de la sesión 1)
 
