@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Toxin Warcasket -->
+  <TXWC_SettingsCategory>Toxin Warcasket</TXWC_SettingsCategory>
+  <!-- EN: Tox gas tank -->
+  <TXWC_SectionTank>Tanque de gas tóxico</TXWC_SectionTank>
+  <!-- EN: Gas jet -->
+  <TXWC_SectionJet>Chorro de gas</TXWC_SectionJet>
+  <!-- EN: Absorb gas -->
+  <TXWC_SectionAbsorb>Absorber gas</TXWC_SectionAbsorb>
+  <!-- EN: Miscellaneous -->
+  <TXWC_SectionMisc>Varios</TXWC_SectionMisc>
+  <!-- EN: Tank capacity (chemfuel) -->
+  <TXWC_TankCapacity>Capacidad del tanque (quimbustible)</TXWC_TankCapacity>
+  <!-- EN: How much chemfuel a full tank holds. The gauge counts it in units of one. Lowering it below a tank&apos;s current fill drops the excess. Default: {0}. -->
+  <TXWC_TankCapacityDesc>Cuánto quimbustible cabe en un tanque lleno. El indicador lo cuenta de a una unidad. Si se baja por debajo de lo que ya tiene un tanque, el sobrante se pierde. Por defecto: {0}.</TXWC_TankCapacityDesc>
+  <!-- EN: Tox gas per chemfuel (cells) -->
+  <TXWC_GasPerChemfuel>Gas tóxico por quimbustible (casillas)</TXWC_GasPerChemfuel>
+  <!-- EN: How many cells of tox gas each chemfuel in the tank makes, however it is spent: vented, jetted, or burst when the pilot goes down. The absorb banks a chemfuel&apos;s worth per that much gas drawn in. A tox pack fills 45 cells from 35 chemfuel. Default: {0}. -->
+  <TXWC_GasPerChemfuelDesc>Cuántas casillas de gas tóxico produce cada unidad de quimbustible del tanque, se gaste como se gaste: liberado, en chorro o al reventar cuando el piloto cae. Al absorber, se guarda una unidad de quimbustible por cada esa cantidad de gas aspirado. Un pack de tóxicos llena 45 casillas con 35 de quimbustible. Por defecto: {0}.</TXWC_GasPerChemfuelDesc>
+  <!-- EN: Vent rate (chemfuel per second) -->
+  <TXWC_VentRate>Ritmo de purga (quimbustible por segundo)</TXWC_VentRate>
+  <!-- EN: How fast the vent empties the tank. A faster vent makes a wider cloud that clears sooner. Default: {0}. -->
+  <TXWC_VentRateDesc>Qué tan rápido la purga vacía el tanque. Una purga más rápida forma una nube más amplia que se despeja antes. Por defecto: {0}.</TXWC_VentRateDesc>
+  <!-- EN: A full tank: {0} chemfuel for {1} cells of tox gas ({2} tox packs). The vent empties it in {3} seconds. -->
+  <TXWC_TankSummary>Un tanque lleno: {0} de quimbustible para {1} casillas de gas tóxico ({2} packs de tóxicos). La purga lo vacía en {3} segundos.</TXWC_TankSummary>
+  <!-- EN: Cost (chemfuel) -->
+  <TXWC_JetCost>Costo (quimbustible)</TXWC_JetCost>
+  <!-- EN: How much chemfuel each gas jet draws from the tank. Without a tank, one of the shoulders&apos; own jets makes the same gas for the same chemfuel. Default: {0}. -->
+  <TXWC_JetCostDesc>Cuánto quimbustible saca del tanque cada chorro de gas. Sin tanque, uno de los chorros propios de las hombreras produce el mismo gas con el mismo quimbustible. Por defecto: {0}.</TXWC_JetCostDesc>
+  <!-- EN: Jets without a tank -->
+  <TXWC_JetReserve>Chorros sin tanque</TXWC_JetReserve>
+  <!-- EN: How many jets the shoulders hold on their own, for wear without the tank. They reload with chemfuel and are untouched while a tank is worn. Default: {0}. -->
+  <TXWC_JetReserveDesc>Cuántos chorros guardan las hombreras por sí solas, para usarlas sin el tanque. Se recargan con quimbustible y no se gastan mientras se lleva un tanque. Por defecto: {0}.</TXWC_JetReserveDesc>
+  <!-- EN: Needs {COUNT} {CHARGENOUN_plural} in the tank. -->
+  <TXWC_JetTankLow>Necesita {COUNT} {CHARGENOUN_plural} en el tanque.</TXWC_JetTankLow>
+  <!-- EN: Cone width (degrees) -->
+  <TXWC_JetConeWidth>Ancho del cono (grados)</TXWC_JetConeWidth>
+  <!-- EN: The full width of the cone the gas jet lands in. A wider cone spreads the same gas thinner. Default: {0}. -->
+  <TXWC_JetConeWidthDesc>El ancho total del cono donde cae el chorro de gas. Un cono más ancho reparte el mismo gas más disperso. Por defecto: {0}.</TXWC_JetConeWidthDesc>
+  <!-- EN: Range (cells) -->
+  <TXWC_JetRange>Alcance (casillas)</TXWC_JetRange>
+  <!-- EN: How far the gas jet reaches. A longer jet spreads the same gas thinner. Default: {0}. -->
+  <TXWC_JetRangeDesc>Hasta dónde llega el chorro de gas. Un chorro más largo reparte el mismo gas más disperso. Por defecto: {0}.</TXWC_JetRangeDesc>
+  <!-- EN: A jet: {0} chemfuel for {1} cells of tox gas ({2} tox packs). A full tank holds {3}, the shoulders alone {4}. -->
+  <TXWC_JetSummary>Un chorro: {0} de quimbustible para {1} casillas de gas tóxico ({2} packs de tóxicos). Un tanque lleno alcanza para {3}; las hombreras solas, para {4}.</TXWC_JetSummary>
+  <!-- EN: Radius (cells) -->
+  <TXWC_AbsorbRadius>Radio (casillas)</TXWC_AbsorbRadius>
+  <!-- EN: How far around the pilot the absorb draws gas in. Default: {0}. -->
+  <TXWC_AbsorbRadiusDesc>Hasta qué distancia alrededor del piloto se aspira el gas. Por defecto: {0}.</TXWC_AbsorbRadiusDesc>
+  <!-- EN: Duration (seconds) -->
+  <TXWC_AbsorbDuration>Duración (segundos)</TXWC_AbsorbDuration>
+  <!-- EN: How long each absorb keeps drawing gas in. Default: {0}. -->
+  <TXWC_AbsorbDurationDesc>Cuánto tiempo sigue aspirando gas cada absorción. Por defecto: {0}.</TXWC_AbsorbDurationDesc>
+  <!-- EN: Cooldown (hours) -->
+  <TXWC_AbsorbCooldown>Tiempo de recarga (horas)</TXWC_AbsorbCooldown>
+  <!-- EN: How long the absorb takes to recharge. Default: {0}. -->
+  <TXWC_AbsorbCooldownDesc>Cuánto tarda en recargarse la absorción. Por defecto: {0}.</TXWC_AbsorbCooldownDesc>
+  <!-- EN: One absorb draws from the {0} cells around the pilot. A full cloud over them banks {1} chemfuel. -->
+  <TXWC_AbsorbSummary>Una absorción aspira de las {0} casillas alrededor del piloto. Una nube completa sobre ellas guarda {1} de quimbustible.</TXWC_AbsorbSummary>
+  <!-- EN: Hazard warcaskets resist vacuum -->
+  <TXWC_HazardVacuum>Los sarcotrajes de riesgo resisten el vacío</TXWC_HazardVacuum>
+  <!-- EN: Gives the hazard warcasket the vacuum resistance of the spacer warcaskets, setting it further apart from the toxin warcasket. Changing this requires a restart. Default: off. -->
+  <TXWC_HazardVacuumDesc>Le da al sarcotraje de riesgo la resistencia al vacío de los sarcotrajes espaciales, lo que lo diferencia más del sarcotraje de toxina. Cambiarlo requiere reiniciar. Por defecto: desactivado.</TXWC_HazardVacuumDesc>
+  <!-- EN:  (requires restart) -->
+  <TXWC_RequiresRestartSuffix> (requiere reiniciar)</TXWC_RequiresRestartSuffix>
+  <!-- EN:  (requires Odyssey) -->
+  <TXWC_RequiresOdysseySuffix> (requiere Odyssey)</TXWC_RequiresOdysseySuffix>
+  <!-- EN: Tank feeds waster tox absorption -->
+  <TXWC_FeedToxAbsorption>El tanque alimenta la absorción de toxinas de los escoriales</TXWC_FeedToxAbsorption>
+  <!-- EN: A tank with gas in it counts as tox gas for pilots with the tox absorption gene ({0}), keeping their pollution mutations active. Costs no gas. Default: on. -->
+  <TXWC_FeedToxAbsorptionDesc>Un tanque con gas cuenta como gas tóxico para los pilotos con el gen de absorción de toxinas ({0}), y así mantiene activas sus mutaciones por contaminación. No gasta gas. Por defecto: activado.</TXWC_FeedToxAbsorptionDesc>
+  <!-- EN:  (requires Vanilla Races Expanded - Waster) -->
+  <TXWC_RequiresVREWasterSuffix> (requiere Vanilla Races Expanded - Waster)</TXWC_RequiresVREWasterSuffix>
+  <!-- EN:  (default) -->
+  <TXWC_DefaultSuffix> (por defecto)</TXWC_DefaultSuffix>
+</LanguageData>
