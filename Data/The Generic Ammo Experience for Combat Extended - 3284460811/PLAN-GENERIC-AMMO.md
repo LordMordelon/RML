@@ -41,56 +41,36 @@ Las armas del juego base que el mod renombra llevan el nombre oficial si el ingl
 traduce lo que dice: «light machine gun» → «ametralladora ligera» (no «LMG»), «pistol» → «pistola», «pilum» →
 «pilum». La frase de las torretas («Its dumb AI brain…») es la oficial de la minitorreta.
 
-## Próxima sesión (22-oct-2026)
+## Próxima sesión (22-oct-2026, después de la sesión 1)
 
-**Objetivo:** traducir The Generic Ammo Experience for Combat Extended
-(`Data/The Generic Ammo Experience for Combat Extended - 3284460811`).
+**Objetivo:** traducir los `Patches/` de The Generic Ammo Experience for Combat Extended.
 
-**Estado:** Angel ya lo extrajo; la carpeta está en el PC **sin commit** (junto con `About.xml`,
-`LoadFolders.xml`, `ModList.tsv` y `docs/index.html`, que se regeneraron con la extracción). No se tradujo
-nada todavía. `master` al día en `8e4b693`.
+**Estado:** `DefInjected` y `Keyed` traducidos y en el commit `8356cce` de `master`, **sin subir**. Quedan
+**156 `TODO` en `Patches/`** (contados; 16 archivos, 99 de ellos en `z47okr.xml`). Los 15 que ya estaban en
+Combat Extended se copiaron por script. `About.xml`, `LoadFolders.xml`, `ModList.tsv` y `docs/index.html`
+siguen modificados sin commit: son los generados de la extracción.
 
-Contado el 22-oct-2026: **486 entradas en `TODO`** (497 renglones, contando cada elemento de lista aparte):
-
-| Tipo | Renglones |
-|---|---|
-| `Patches/` (16 archivos; `z47okr.xml` tiene 112) | 171 |
-| `ThingDef` (munición y proyectiles) | 159 |
-| `RecipeDef` | 72 |
-| `Keyed` (configuración) | 30 |
-| `CombatExtended.AmmoCategoryDef` | 27 |
-| `ResearchProjectDef` (3 archivos) | 15 |
-| `CombatExtended.AmmoSetDef` | 14 |
-| `ThingCategoryDef` | 6 |
-| `StatDef` | 2 |
-| `DesignatorDropdownGroupDef` | 1 |
-
-**69** de esas entradas tienen el mismo inglés ya traducido en la carpeta de Combat Extended (13 de ellas con
-más de una traducción posible). Las otras ~417 van a mano.
-
-**Antes de empezarla (Angel):** nada. Si Combat Extended o el mod se actualizan antes, reextraer.
+**Antes de empezarla (Angel):**
+1. Decir si se sube el commit `8356cce` ahora o junto con `Patches/`.
 
 **Al empezar (Claude):**
-1. Leer los dos glosarios de Combat Extended (abajo) y el `GLOSARIO.md` general.
-2. Traducir `DefInjected` y `Keyed` (~326 renglones). Con eso se llena una sesión (estimado).
-3. En otra sesión, `Patches/` (171 renglones).
-4. Al terminar cada parte: cero `TODO` en lo tocado, XML bien formados, las tres comprobaciones de
-   `RML/AGENTS.md`, `-copia` para el juego, y commit solo de la carpeta del mod.
+1. Leer «Términos de este mod» en `PLAN-GENERIC-AMMO.md` y los glosarios de Combat Extended.
+2. Traducir los 156 `TODO` de `Patches/` a mano. Son compatibilidades con otros mods (Highfleet Turrets,
+   Impact Weaponry, Grenadier rifles, Dead Man's Switch, etc.): el nombre de cada arma se copia de la carpeta
+   de su mod en RML si existe. Hay 30 textos de recetas (contados): van a mano con las reglas de CE (sección 6 del glosario).
+   Caben en una sesión (estimado).
+3. Cero `TODO`, XML bien formados, las tres comprobaciones de `RML/AGENTS.md`, `-copia`, y commit solo de la
+   carpeta del mod.
 
-**Decisiones de Angel:**
-1. **Copiar las 69 traducciones idénticas de Combat Extended** con un script que solo llena `TODO` (como la
-   tabla de recetas de Dead Man's Switch II); las 13 ambiguas, a mano. *Recomiendo que sí:* es el mismo texto
-   y ahorra trabajo.
-2. **Recetas por script** con las reglas de «Recetas por script» de `PLAN-COMBAT-EXTENDED.md`, que hoy solo
-   valen para Combat Extended. *Recomiendo que sí:* las 72 recetas son el mismo patrón («make X ammo»).
+**Decisiones de Angel:** ninguna pendiente. Las de la sesión 1 (copiar de CE y recetas por script, con
+revisión) ya se aplicaron; no se extienden a `Patches/` sin volver a preguntar.
 
 **Guías:** `traspaso` al cerrar si no alcanza.
 
 **Dónde leer:**
-- `Data/Combat Extended - 2890901044/GLOSARIO-COMBAT-EXTENDED.md`
-- `Data/Combat Extended - 2890901044/GLOSARIO-CE-COMPATIBILIDAD.md`
-- `Data/Combat Extended - 2890901044/PLAN-COMBAT-EXTENDED.md` («Recetas por script»)
+- `Data/The Generic Ammo Experience for Combat Extended - 3284460811/PLAN-GENERIC-AMMO.md` («Avance» y «Términos de este mod»)
+- `Data/Combat Extended - 2890901044/GLOSARIO-COMBAT-EXTENDED.md` y `GLOSARIO-CE-COMPATIBILIDAD.md`
 - `RML/AGENTS.md` («Editar XML de traducción» y las comprobaciones del diff)
 
-Nota: también está instalado **Buffs 'n Nerfs for the Generic Ammo Experience** (3304694092), que no está en
-RML. Si tiene texto, va en otra sesión.
+Nota: **Buffs 'n Nerfs for the Generic Ammo Experience** (3304694092) sigue fuera de RML; si tiene texto, va
+en otra sesión.
