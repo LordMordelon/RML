@@ -7,6 +7,12 @@ Términos que este mod repite, con la traducción que ya usan sus 1.874 entradas
 Los nombres van en minúscula en medio de frase, como en el glosario general: «un automatroide
 halcón», «escuadras de ronin».
 
+Las etiquetas (`label`) también van en minúscula, porque RimWorld pone la mayúscula cuando hace falta
+y así lo hace la traducción oficial: permisos, rangos, afecciones, recetas, partes del cuerpo,
+automatroides, armas y torretas. Quedan con mayúscula los nombres propios, lo que empieza con un código
+de modelo (M214, GAU-8, PDW), los conceptos de ayuda, las canciones, las facciones y el escenario.
+Aprobado por Angel el 22-oct-2026.
+
 ## Conceptos del mod
 
 | Inglés | Español | Notas |
@@ -265,7 +271,5 @@ Hechas en la sesión 6: «ancho de banda» pasó a «banda ancha» en los 8 luga
 «automatroide» en `DMS_Platoon_AC` y la categoría de mods, y el neurocordón quedó «mecaneural». La
 regla «autómatas de la guerra» de `DMS_UAVBasis` se dejó: ahí el inglés dice «automata».
 
-Falta:
-
-- **Las etiquetas con mayúscula inicial** (`Tarbosaurio`, `Cabeza mecánica`, `Pierna izquierda`):
-  RimWorld pone la mayúscula solo cuando hace falta, así que van en minúscula.
+Hechas el 22-oct-2026: las etiquetas con mayúscula inicial pasaron a minúscula (ver la regla al
+principio). No falta nada.
