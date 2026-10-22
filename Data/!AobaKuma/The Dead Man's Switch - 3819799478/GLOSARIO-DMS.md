@@ -13,6 +13,8 @@ halcón», «escuadras de ronin».
 |---|---|---|
 | automatroid | **automatroide** | Más de 100 usos. No «autómata»: quedan 4 así, a corregir (ver abajo). No tiene forma corta: no se inventa una |
 | mech | **meca** (pl. mecas) | La forma corta que usa el propio inglés, como en el glosario general. No «mecanoide», que es *mechanoid*. Decidido por Angel el 21-oct-2026 |
+| mech soldier(s) | **soldados meca** | Armas meca: «rifle de asalto meca», sin «de» delante de meca. Aprobado por Angel el 22-oct-2026 |
+| Dawnblade | **Hoja del Alba** | La torreta («torreta Hoja del Alba») y el arma montable («MPQFS-85M "Hoja del Alba"»). Aprobado por Angel el 22-oct-2026 |
 | automatroid debris | **desechos automatroide** | Como los «desechos mecanoide» oficiales (`ChunkMechanoidSlag`). La variante antigua: «desechos automatroide antiguos». Pedido por Angel el 21-oct-2026 |
 | exostrider | **exozancador** | Oficial de Odyssey («restos del exozancador») |
 | battle frame | **armazón de batalla** (pl. armazones) | La línea de automatroides de carga |
