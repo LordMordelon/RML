@@ -33,7 +33,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | reload / reloading | recargar / recarga | propuesta | |
 | unload | descargar | propuesta | |
 | out of ammo | sin munición | propuesta | |
-| loadout | equipamiento | propuesta | El perfil de lo que lleva cada colono |
+| loadout | equipamiento | propuesta | El perfil de lo que lleva cada colono. Los botones de la ventana de equipamientos van solo con el verbo («Elegir...», «Nuevo», «Base...»): con «equipamiento» no cabían |
 | Ad Hoc (loadout) | Ad hoc | propuesta | Se deja en latín, como en español |
 | bulk | volumen | propuesta | Estadística de CE: cuánto espacio ocupa. Distinto de «masa» |
 | mass | masa | oficial | |
