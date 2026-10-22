@@ -22,7 +22,18 @@ static class Statics
     };
 
     public const string BuildYamlFileName = "LoadFolders.Build.yaml";
-    
+
+    /** Los cambios a mano que tienen que ganarle a una traduccion de Data/: una palabra que no
+     *  entra en la ventana de otro mod, por ejemplo. Tiene el mismo formato que Data/, pero el
+     *  extractor no la recorre, asi que lo que se pone ahi no se pierde al reextraer. */
+    public const string CarpetaAjustes = "Ajustes";
+
+    public static string? AjustesPath => RootPath is null ? null : Path.Combine(RootPath, CarpetaAjustes);
+
+    /** Data/ y, si existe, Ajustes/: las carpetas cuyo contenido llega al juego. */
+    public static IEnumerable<string> CarpetasDeOrigen(string Root) =>
+        new[] { "Data", CarpetaAjustes }.Select(x => Path.Combine(Root, x)).Where(Directory.Exists);
+
     /** About.xml로부터 불러들인 정렬된 버전 목록입니다. */
     public static Version[]? BuildVersions { get; private set; }
     

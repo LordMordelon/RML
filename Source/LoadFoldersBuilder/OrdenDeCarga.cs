@@ -35,7 +35,7 @@ public static class OrdenDeCarga
 
             var Nuevo = new StringBuilder();
             Nuevo.Append("    <forceLoadAfter>").Append(Salto);
-            Nuevo.Append("        <!-- GENERADO por Source/LoadFoldersBuilder: el packageId de cada mod de Data/. No editar a mano. -->").Append(Salto);
+            Nuevo.Append("        <!-- GENERADO por Source/LoadFoldersBuilder: el packageId de cada mod de Data/ y Ajustes/. No editar a mano. -->").Append(Salto);
             // Ordenados y sin repetir, para que dos corridas iguales den el mismo archivo.
             foreach (string PackageID in PackageIDs.Distinct(StringComparer.Ordinal).Order(StringComparer.Ordinal))
                 Nuevo.Append("        <li>").Append(new XText(PackageID)).Append("</li>").Append(Salto);

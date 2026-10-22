@@ -28,8 +28,10 @@ RML/
 - **Condicional:** el `PackageID` del yaml da el `IfModActive` de su entrada en `LoadFolders.xml`.
 - **El extractor no la ve:** `ActualizacionPorLotes.Carpetas` y `Agrupador` solo recorren `Data/`.
   No hay que tocar el extractor.
-- **Gana siempre:** las entradas de `Ajustes/` van al final de cada versión en `LoadFolders.xml`,
-  después de las de `Data/`.
+- **Gana siempre:** las entradas de `Ajustes/` van al **principio** de cada versión en
+  `LoadFolders.xml`, antes de las de `Data/`. El plan decía «al final», pero al hacerlo se miró el
+  código del juego: `ModContentPack.InitLoadFolders` invierte la lista, así que la carpeta de más
+  arriba se lee última y su clave pisa a las demás.
 - **Nombre del archivo único:** `Ajustes-<WorkshopID>.xml`. Dos archivos con la misma ruta relativa
   en carpetas distintas de RML hacen que el juego cargue uno solo, sin avisar (ver «Cosas que ya
   pasaron» en `AGENTS.md`).
@@ -57,19 +59,12 @@ RML/
 Con Nice Health Tab activo, la pestaña de salud del juego también dice «Comida:», porque es la
 misma clave. Ese mod la reemplaza, así que no debería verse.
 
-## Próxima sesión (22-oct-2026)
+## Estado (22-oct-2026)
 
-**Objetivo:** hacer la carpeta `Ajustes/` y el primer ajuste (Nice Health Tab).
+**Hecho:** pasos 1 a 7 y la parte de Claude del 8. `-build` pone
+`Ajustes/Nice Health Tab - 3328729902` arriba de `v1.6` y `v1.7`, y `output/` lleva el archivo;
+`-rutas` sale en verde, y en rojo si un ajuste repite un nombre de archivo de `Data/` (probado).
+`ModList.tsv` y `docs/` no cambian. `loadfolders.yml` también corre con un push que toque `Ajustes/`.
 
-**Estado:** plan aprobado, nada escrito. Rama `master` de RML, último commit `105f577`, con commits
-sin subir de la sesión anterior (ver `RimworldExtractor/PLAN-POSICIONES.md`).
-
-**Antes de empezarla (Angel):** nada.
-
-**Al empezar (Claude):** los pasos 1 a 8 de arriba, en orden. Caben en una sesión. No subir nada
-sin preguntar: un push a `master` de RML publica una versión si cambió el mod.
-
-**Guías:** `traspaso` al terminar.
-
-**Dónde leer:** este archivo, `AGENTS.md` (reglas 2, 6 y 7, y «Cosas que ya pasaron»),
-`Source/LoadFoldersBuilder/`.
+**Falta (Angel):** abrir el juego con Nice Health Tab y mirar que la pestaña de salud diga
+«Comida:» en una línea; y decir si se sube. Un push a `master` publica una versión nueva de RML.

@@ -1,6 +1,7 @@
 namespace LoadFoldersBuilder;
 
 /** Lo que tiene que cumplir el arbol de Data/ para que el mod cargue en cualquier instalacion.
+ *  Ajustes/ se revisa junto con Data/: para el juego son carpetas del mismo mod.
  *
  *  Rutas largas: RimWorld no abre rutas de mas de 260 caracteres. Instalado desde el Workshop
  *  con Steam en su carpeta por defecto, RML arranca en una ruta base de 74, y con eso algunos
@@ -33,10 +34,9 @@ public static class Rutas
     public static List<(string Ruta, int Largo)> Largas(string RootPath)
     {
         var Resultado = new List<(string Ruta, int Largo)>();
-        var Data = new DirectoryInfo(Path.Combine(RootPath, "Data"));
-        if (!Data.Exists) return Resultado;
 
-        foreach (FileSystemInfo Entrada in Data.EnumerateFileSystemInfos("*", SearchOption.AllDirectories))
+        foreach (FileSystemInfo Entrada in Statics.CarpetasDeOrigen(RootPath)
+                     .SelectMany(Carpeta => new DirectoryInfo(Carpeta).EnumerateFileSystemInfos("*", SearchOption.AllDirectories)))
         {
             string Relativa = Path.GetRelativePath(RootPath, Entrada.FullName);
             int Largo = BaseWorkshop.Length + Relativa.Length;
@@ -53,10 +53,9 @@ public static class Rutas
     public static List<string> IdiomasDuplicados(string RootPath)
     {
         var Resultado = new List<string>();
-        string Data = Path.Combine(RootPath, "Data");
-        if (!Directory.Exists(Data)) return Resultado;
 
-        foreach (string Languages in Directory.EnumerateDirectories(Data, "Languages", SearchOption.AllDirectories))
+        foreach (string Languages in Statics.CarpetasDeOrigen(RootPath)
+                     .SelectMany(Carpeta => Directory.EnumerateDirectories(Carpeta, "Languages", SearchOption.AllDirectories)))
         {
             // "SpanishLatin" y "SpanishLatin (Español(Latinoamérica))" comparten la primera palabra.
             var Repetidos = Directory.EnumerateDirectories(Languages)
@@ -81,14 +80,14 @@ public static class Rutas
     public static List<string> NombresRepetidos(string RootPath)
     {
         var Resultado = new List<string>();
-        string Data = Path.Combine(RootPath, "Data");
-        if (!Directory.Exists(Data)) return Resultado;
 
         // Una carpeta de mod es una que tiene su yaml: son las mismas que salen como <li> en el
-        // LoadFolders.xml, que es la lista que el juego recorre.
+        // LoadFolders.xml, que es la lista que el juego recorre. Las de Ajustes/ tambien, asi que
+        // un ajuste con el mismo nombre de archivo que una traduccion de Data/ se cruza aca.
         var PorRutaInterna = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
 
-        foreach (string Yaml in Directory.EnumerateFiles(Data, Statics.BuildYamlFileName, SearchOption.AllDirectories))
+        foreach (string Yaml in Statics.CarpetasDeOrigen(RootPath)
+                     .SelectMany(Carpeta => Directory.EnumerateFiles(Carpeta, Statics.BuildYamlFileName, SearchOption.AllDirectories)))
         {
             string Carpeta = Path.GetDirectoryName(Yaml)!;
             foreach (string Archivo in Directory.EnumerateFiles(Carpeta, "*", SearchOption.AllDirectories))
@@ -119,7 +118,7 @@ public static class Rutas
 
         if (ListaLargas.Count > 0)
         {
-            Console.WriteLine("\n\e[93m{0} rutas de Data/ pasan el limite de Windows instalado desde el Workshop " +
+            Console.WriteLine("\n\e[93m{0} rutas de Data/ o Ajustes/ pasan el limite de Windows instalado desde el Workshop " +
                               "(base de {1} caracteres; archivos hasta {2}, carpetas hasta {3}).\n" +
                               "RimWorld no las puede abrir y el juego queda en pantalla negra al cargar. Hay que acortarlas.\x1b[0m",
                 ListaLargas.Count, BaseWorkshop.Length, LimiteArchivo - 1, LimiteCarpeta - 1);
@@ -138,7 +137,7 @@ public static class Rutas
 
         if (ListaRepetidos.Count > 0)
         {
-            Console.WriteLine("\n\e[93m{0} archivos estan en la misma ruta interna en mas de una carpeta de Data/.\n" +
+            Console.WriteLine("\n\e[93m{0} archivos estan en la misma ruta interna en mas de una carpeta de Data/ o Ajustes/.\n" +
                               "Todas son carpetas del mismo mod, asi que el juego carga uno solo y descarta los demas " +
                               "sin avisar: esas traducciones no llegan a la pantalla. Hay que darles nombres distintos.\x1b[0m",
                 ListaRepetidos.Count);

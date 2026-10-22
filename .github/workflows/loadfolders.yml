@@ -17,6 +17,7 @@ on:
       # también escriba su forceLoadAfter no hace bucle, porque el push con GITHUB_TOKEN
       # no dispara flujos.
       - 'Data/**'
+      - 'Ajustes/**'
       - 'About/About.xml'
       - 'Source/LoadFoldersBuilder/**'
 

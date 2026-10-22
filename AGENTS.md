@@ -32,6 +32,8 @@ Data/
   !<Autor>/                     autores con 4 o más mods; el ! los fija arriba
     <Nombre del mod> - <ID>/
   <Nombre del mod> - <ID>/      los demás, sueltos
+Ajustes/
+  <Nombre del mod> - <ID>/      cambios a mano que le ganan a Data/; el extractor no los toca (ver «Ajustes»)
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
@@ -80,6 +82,28 @@ vacía. El autor sale del `<author>`
 del `About.xml` del mod instalado, no del `packageId` —los mods de Oskar Potocki usan
 cuatro prefijos distintos—, y se normaliza antes de comparar.
 
+## Ajustes
+
+`Ajustes/` es para cuando una traducción correcta no sirve junto a otro mod. Nice Health Tab
+muestra el `AllowFood` del juego seguido de «:» en una columna angosta, y «Permitir comida» se
+cortaba: con ese mod activo, `Ajustes/Nice Health Tab - 3328729902/` lo cambia por «Comida».
+
+- **Solo arreglos de espacio o de contexto, nunca para traducir.** Una traducción va en `Data/`,
+  por el extractor. Lo que se pone acá le gana a todo lo demás y nadie lo revisa al reextraer.
+- **Mismo formato que `Data/`:** una carpeta por mod con su `LoadFolders.Build.yaml`, copiado del
+  de ese mod en `Data/` si lo tiene, y su `Languages/SpanishLatin/`. El `PackageID` del yaml decide
+  con qué mod activo se carga.
+- **El archivo se llama `Ajustes-<WorkshopID>.xml`.** Dos archivos con la misma ruta interna en
+  dos carpetas de RML hacen que el juego cargue uno solo (ver «Cosas que ya pasaron»);
+  `LoadFoldersBuilder -rutas` lo comprueba contra `Data/` y la CI queda en rojo si se repite.
+- **Gana porque va arriba.** El builder pone sus entradas al principio de cada versión en
+  `LoadFolders.xml`. RimWorld recorre esa lista de abajo hacia arriba
+  (`ModContentPack.InitLoadFolders` la invierte) y en `Keyed` y `DefInjected` la clave leída al
+  final pisa a la anterior, así que gana la carpeta de más arriba. En `DefInjected` el juego anota
+  además un «Duplicate def-injected translation key» en el informe de traducción: se aplica igual.
+- **El extractor no la ve:** `ActualizacionPorLotes` y el `Agrupador` solo recorren `Data/`. Sí
+  van a `output/` (`CopiaLimpia`) y al `forceLoadAfter`, y no van a `ModList.tsv` ni a la página.
+
 ## Cómo se produce una traducción
 
 1. **Extraer** el mod con el extractor, con idioma de destino
@@ -112,7 +136,7 @@ mismo con todos los mods de una vez; los que no están instalados quedan como es
 2. **No editar lo generado.** `LoadFolders.xml`, `ModList.tsv` y `docs/index.html` se rehacen enteros. Para
    cambiar algo, editar el `LoadFolders.Build.yaml` del mod y correr `01-regenerar-indice.cmd`.
    En `About/About.xml` lo generado es solo el `<forceLoadAfter>`, con el packageId de cada
-   mod de `Data/`: el resto del archivo se edita a mano y el builder no lo toca.
+   mod de `Data/` y de `Ajustes/`: el resto del archivo se edita a mano y el builder no lo toca.
 
    Los regeneran tanto el extractor como la CI, así que después de un push es normal
    que el remoto traiga un «Regenerar el indice» con lo mismo que acabas de generar en
@@ -139,7 +163,7 @@ mismo con todos los mods de una vez; los que no están instalados quedan como es
    `BuildRuleYaml.cs`, y además el extractor genera estos archivos: ver
    `LoadFoldersBuild.Contents` en el repositorio del extractor.
 
-6. **La carpeta de origen es siempre `Data/`.** Nunca editar `output/`: se rehace en cada
+6. **La carpeta de origen es siempre `Data/`** (o `Ajustes/`). Nunca editar `output/`: se rehace en cada
    `LoadFoldersBuilder -build` y en `-copia` (`CopiaLimpia.cs`), y lo que se toque ahí se
    pierde. Es la copia liviana del mod —sin `UNUSED.xml`, `LoadFolders.Build.yaml` ni
    comentarios en los XML—, y es la que carga el juego: `Mods\RML` enlaza a

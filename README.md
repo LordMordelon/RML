@@ -29,6 +29,7 @@ Data/<Nombre del mod> - <ID>/   los demás, sueltos
   Patches/                      fuera de Languages, a la par
   LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
   UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
+Ajustes/<Nombre del mod> - <ID>/  cambios a mano que solo valen con ese mod activo; el extractor no los toca (ver AGENTS.md)
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción

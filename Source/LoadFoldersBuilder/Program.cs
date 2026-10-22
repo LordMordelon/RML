@@ -17,7 +17,7 @@ using YamlDotNet.Serialization.NamingConventions;
 // del switch y el proceso gira para siempre. Va declarado aca afuera para que lo
 // vean las funciones locales del final.
 //
-// -rutas solo comprueba el arbol de Data/ (ver Rutas.cs) y sale con 1 si hay algo que
+// -rutas solo comprueba el arbol de Data/ y Ajustes/ (ver Rutas.cs) y sale con 1 si hay algo que
 // corregir. La CI lo usa para no publicar un mod que no carga.
 //
 // -copia comprueba lo mismo y, si esta bien, arma la copia liviana en output/ (ver
@@ -117,11 +117,22 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
     LoadRack MainRack = new LoadRack(Statics.BuildVersions!);
     MainRack.Initialize(FilteredRules);
 
+    // Ajustes/ va en su propio LoadRack: en el mismo, la carpeta de Ajustes/ de un mod se
+    // juntaria con la de Data/ (la clave es el packageId) y una le pisaria la ruta a la otra.
+    BuildRules ReglasDeAjustes = LeerAjustes(Deserializer);
+    LoadRack RackDeAjustes = new LoadRack(Statics.BuildVersions!);
+    RackDeAjustes.Initialize(ReglasDeAjustes);
+
     Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
     Console.WriteLine("\e[32mDatos preparados...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
-    if (MainRack.GenerateXDocument() is { } CompleteXML)
+    if (MainRack.GenerateXDocument() is { } CompleteXML && RackDeAjustes.GenerateXDocument() is { } XmlDeAjustes)
     {
+        // Los ajustes van arriba de cada version. RimWorld recorre el LoadFolders.xml de abajo
+        // hacia arriba (ModContentPack.InitLoadFolders lo invierte) y en Keyed y DefInjected la
+        // clave que se lee ultima pisa a la anterior, asi que gana la carpeta de mas arriba.
+        foreach (XElement Version in XmlDeAjustes.Root!.Elements())
+            CompleteXML.Root!.Element(Version.Name)!.AddFirst(Version.Elements());
 
         // LoadFolders.xml 파일을 작성합니다.
         Stopwatch.Restart();
@@ -144,8 +155,10 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
 
         // El forceLoadAfter de About.xml, para que RML cargue despues de cada mod que traduce.
+        // Con los de Ajustes/, por si un ajuste corrige un texto propio de ese mod.
         Stopwatch.Restart();
-        OrdenDeCarga.Actualizar(Statics.RootPath!, FilteredRules.Rules.Values.SelectMany(Rule => Rule.PackageID));
+        OrdenDeCarga.Actualizar(Statics.RootPath!, FilteredRules.Rules.Values.Concat(ReglasDeAjustes.Rules.Values)
+            .SelectMany(Rule => Rule.PackageID));
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
         Console.WriteLine("\e[32mforceLoadAfter de About.xml escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
@@ -182,6 +195,25 @@ void EscribirListaDeMods(BuildRules Reglas)
     Directory.CreateDirectory(Path.Combine(Statics.RootPath!, "docs"));
     File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", "index.html"), ModListFormatos.Html(ModList));
     Console.WriteLine("\e[32mModList.tsv y docs/index.html escritos...{0:F3}s\x1b[0m", Cronometro.Elapsed.TotalSeconds);
+}
+
+// Las reglas de Ajustes/, armadas igual que las de Data/. Sin la carpeta no hay ninguna.
+// No van a ModList.tsv ni a la pagina: no son traducciones de un mod, son retoques.
+BuildRules LeerAjustes(IDeserializer Deserializer)
+{
+    string Carpeta = Statics.AjustesPath!;
+    if (!Directory.Exists(Carpeta))
+        return new BuildRules([]);
+
+    Console.WriteLine("\nAjustes-> {0}", Carpeta);
+    var Reglas = Statics.FindAndValidatePaths(Carpeta)
+        .Select(Ruta => Statics.BuildYamlDeserialize(Deserializer, Ruta))
+        .OfType<BuildRule>()
+        .Where(Regla => Regla.IsValid is true);
+
+    var Resultado = new BuildRules(Reglas);
+    Resultado.CreateDependencyGraph(Carpeta);
+    return Resultado;
 }
 
 void StopProgram(int Codigo = 0)

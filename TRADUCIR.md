@@ -378,6 +378,10 @@ Si quieres aprovecharla, abre esa carpeta a mano —está dentro del mod, en
 `Languages/SpanishLatin` o `Languages/Spanish`— y copia lo que sirva. Revisa lo que copies: si el
 mod se actualizó después, esa traducción puede estar vieja.
 
+**Mi traducción está bien, pero en la ventana de otro mod no cabe.**
+Avisa en vez de acortarla: se arregla con un ajuste que solo se carga con ese mod activo, en la
+carpeta `Ajustes` de RML. Esa carpeta no es para traducir; lo tuyo va siempre en `Data`.
+
 **¿Cuánto tarda un mod?**
 Uno de interfaz pequeño son 30 frases cortas, un rato. Uno grande con descripciones de objetos puede
 llevar varias sesiones. **Empieza por uno pequeño.**
