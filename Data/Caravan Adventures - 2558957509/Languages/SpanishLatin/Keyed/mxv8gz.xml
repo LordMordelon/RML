@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {0}&apos;s mental break was cured by {1} -->
+  <CAProtectiveAuraCureMentalBreaks>{1} curó la crisis mental de {0}</CAProtectiveAuraCureMentalBreaks>
+  <!-- EN: {0}&apos;s fire was extinguished by {1} -->
+  <CAProtectiveAuraExtinguishFire>{1} apagó el fuego de {0}</CAProtectiveAuraExtinguishFire>
+  <!-- EN: {0}&apos;s body temperature was regulated by {1} -->
+  <ProtectiveAuraHeatRegulation>{1} reguló la temperatura corporal de {0}</ProtectiveAuraHeatRegulation>
+  <!-- EN: Protect Spaceship -->
+  <sos2ProtectSpaceship>Proteger la nave</sos2ProtectSpaceship>
+  <!-- EN: Allows the ancient protective aura to transfer incoming heat of the ship to this pawn when enabled. -->
+  <sos2ProtectSpaceshipDesc>Si está activado, el aura protectora ancestral transfiere a este colono el calor que recibe la nave.</sos2ProtectSpaceshipDesc>
+  <!-- EN: Engage drafted -->
+  <CAengageMelee>Atacar por su cuenta</CAengageMelee>
+  <!-- EN: Allow drafted melee pawns to walk up to and attack hostiles themselves -->
+  <CAengageMeleeDesc>Permite que los colonos reclutados que luchan cuerpo a cuerpo se acerquen a los enemigos y los ataquen por su cuenta</CAengageMeleeDesc>
+  <!-- EN: The ancient gift left {0}, it appears another chosen one is already gifted. -->
+  <CAancientGiftRemoved>El don ancestral abandonó a {0}: parece que ya hay otro elegido con el don.</CAancientGiftRemoved>
+  <!-- EN: Bounty Services -->
+  <CABountyExchangeOpenOption>Servicios de recompensas</CABountyExchangeOpenOption>
+  <!-- EN: Current bounty credits: {0}\n\n\nBounty for mechanoid kills:\nPikeman - 7\nScyther - 10\nLancer - 15\nCentipede - 45\nSpecial mechs may grand more credits -->
+  <CABountyExchangeMain>Créditos de recompensa actuales: {0}\n\n\nRecompensa por matar mecanoides:\nPiquero - 7\nSegador - 10\nLancero - 15\nCiempiés - 45\nLos mecas especiales pueden dar más créditos</CABountyExchangeMain>
+  <!-- EN: Request military assistance -->
+  <CABountyExchangeRequestHelp>Pedir apoyo militar</CABountyExchangeRequestHelp>
+  <!-- EN: Request rare item -->
+  <CABountyExchangeRequestItem>Pedir un objeto raro</CABountyExchangeRequestItem>
+  <!-- EN: Improve relations -->
+  <CABountyExchangeRequestImprovedRelations>Mejorar las relaciones</CABountyExchangeRequestImprovedRelations>
+  <!-- EN: Recruit veteran soldier -->
+  <CABountyExchangeRecruitVeteranHunter>Reclutar a un soldado veterano</CABountyExchangeRecruitVeteranHunter>
+  <!-- EN: Exchange silver for bounty credit -->
+  <CABountyExchangeBuyBountyWithSilver>Cambiar plata por créditos de recompensa</CABountyExchangeBuyBountyWithSilver>
+  <!-- EN: Back -->
+  <CABountyBack>Volver</CABountyBack>
+  <!-- EN: You are hostile towards {0} -->
+  <CABountyExchangeHostile>Eres hostil con {0}</CABountyExchangeHostile>
+  <!-- EN: Current bounty credits: {0}\n\n\nPlease choose the amount of men you need.\n\n{1} -->
+  <CABountyExchangeRequestHelp_StrengthSelection>Créditos de recompensa actuales: {0}\n\n\nElige cuánta gente necesitas.\n\n{1}</CABountyExchangeRequestHelp_StrengthSelection>
+  <!-- EN: A few   (~ 6 hunters)  - 250 bounty credit -->
+  <CABountyExchangeRequestHelp_StrengthSelection_Few>Unos pocos (~ 6 cazadores) - 250 créditos de recompensa</CABountyExchangeRequestHelp_StrengthSelection_Few>
+  <!-- EN: A bunch (~ 15 hunters) - 650 bounty credit -->
+  <CABountyExchangeRequestHelp_StrengthSelection_Bunch>Un grupo (~ 15 cazadores) - 650 créditos de recompensa</CABountyExchangeRequestHelp_StrengthSelection_Bunch>
+  <!-- EN: An army (~ 30 hunters) - 1250 bounty credit -->
+  <CABountyExchangeRequestHelp_StrengthSelection_Army>Un ejército (~ 30 cazadores) - 1250 créditos de recompensa</CABountyExchangeRequestHelp_StrengthSelection_Army>
+  <!-- EN: Not enough credits -->
+  <CABountyExchangeRequestHelp_StrengthSelection_NotEnoughMoney>No hay suficientes créditos</CABountyExchangeRequestHelp_StrengthSelection_NotEnoughMoney>
+  <!-- EN: Hunters ready to deploy -->
+  <CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentReady>Cazadores listos para el despliegue</CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentReady>
+  <!-- EN: Next hunter deployment ready in {0} days -->
+  <CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentDetail>Próximo despliegue de cazadores listo en {0} días</CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentDetail>
+  <!-- EN: Hunters busy -->
+  <CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentBusy>Cazadores ocupados</CABountyExchangeRequestHelp_StrengthSelection_TroopDeploymentBusy>
+  <!-- EN: Current bounty credits: {0}\n\n\nPlease select the item you&apos;d like to exchange bounty credits for. It will be delivered via drop pod.\n\n{1} -->
+  <CABountyExchangeRequestItemTitle>Créditos de recompensa actuales: {0}\n\n\nElige el objeto por el que quieres cambiar créditos de recompensa. Se entregará en una cápsula de escape.\n\n{1}</CABountyExchangeRequestItemTitle>
+  <!-- EN:          buy {0} for: {1} credits -->
+  <CABountyExchangeRequestItem_ItemDetails>         comprar {0} por: {1} créditos</CABountyExchangeRequestItem_ItemDetails>
+  <!-- EN: Your delivery from {0} arrived! -->
+  <CABountyExchangeRequestItem_ItemArrived>¡Llegó tu entrega de {0}!</CABountyExchangeRequestItem_ItemArrived>
+  <!-- EN: Just restocked.  -->
+  <CABountyExchangeRequestItem_ItemRestockNow>Recién reabastecido. </CABountyExchangeRequestItem_ItemRestockNow>
+  <!-- EN: Next restock in {0} days -->
+  <CABountyExchangeRequestItem_ItemRestockDetail>Próximo reabastecimiento en {0} días</CABountyExchangeRequestItem_ItemRestockDetail>
+  <!-- EN: Current bounty credits: {0}\n\n\nYou can trade in bounty to improve relations.\nRelation trades towards us work immediately, but if we should negotiate with other factions on your behalf, it will cost more and also take some time for our envoy to make the trip.\nThe worse the relations are, the more bounty credits are required. -->
+  <CABountyExchangeRelationHaggle>Créditos de recompensa actuales: {0}\n\n\nPuedes cambiar recompensas por mejores relaciones.\nLos cambios por relaciones con nosotros tienen efecto inmediato, pero si tenemos que negociar con otras facciones en tu nombre, costará más y nuestro enviado tardará un tiempo en hacer el viaje.\nCuanto peores sean las relaciones, más créditos de recompensa se necesitan.</CABountyExchangeRelationHaggle>
+  <!-- EN: Trade {0} credits for {1} goodwill with {2} -->
+  <CABountyExchangeRelationHaggle_WithYou>Cambiar {0} créditos por {1} de buena voluntad con {2}</CABountyExchangeRelationHaggle_WithYou>
+  <!-- EN: Choose another faction -->
+  <CABountyExchangeRelationHaggle_WithAnotherFaction>Elegir otra facción</CABountyExchangeRelationHaggle_WithAnotherFaction>
+  <!-- EN: Envoy traveling for another {0} days -->
+  <CABountyExchangeRelationHaggle_EnvoyBusyDetail>El enviado sigue de viaje {0} días más</CABountyExchangeRelationHaggle_EnvoyBusyDetail>
+  <!-- EN: Envoy busy -->
+  <CABountyExchangeRelationHaggle_EnvoyBusy>Enviado ocupado</CABountyExchangeRelationHaggle_EnvoyBusy>
+  <!-- EN: Envoy ready -->
+  <CABountyExchangeRelationHaggle_EnvoyReady>Enviado listo</CABountyExchangeRelationHaggle_EnvoyReady>
+  <!-- EN: Max goodwill -->
+  <CABountyExchangeRelationHaggle_AlreadyMax>Buena voluntad al máximo</CABountyExchangeRelationHaggle_AlreadyMax>
+  <!-- EN: Current bounty credits: {0}\n\n\nFollowing Factions are available:\n\n{1} -->
+  <CABountyExchangeRelationHaggle_Factions>Créditos de recompensa actuales: {0}\n\n\nEstas son las facciones disponibles:\n\n{1}</CABountyExchangeRelationHaggle_Factions>
+  <!-- EN: {0} ({1})   buy: {2} for: {3} credits -->
+  <CABountyExchangeRelationHaggle_Factions_ListedFaction>{0} ({1})   comprar: {2} por: {3} créditos</CABountyExchangeRelationHaggle_Factions_ListedFaction>
+  <!-- EN: Current bounty credits: {0}\n\n\nThis rare opportunity allows you to recruit one of {1}&apos;s finest soldiers. A battle hardened veteran who knows exactly how to survive on this planet. However, such a privilege requires amounting a lot of bounty credit.\n\n{2} -->
+  <CABountyExchangeVeteranRecruitment>Créditos de recompensa actuales: {0}\n\n\nEsta rara oportunidad te permite reclutar a uno de los mejores soldados de {1}: un veterano curtido en batalla que sabe exactamente cómo sobrevivir en este planeta. Eso sí, un privilegio así exige reunir muchos créditos de recompensa.\n\n{2}</CABountyExchangeVeteranRecruitment>
+  <!-- EN: Veteran available -->
+  <CABountyExchangeVeteranRecruitment_Available>Veterano disponible</CABountyExchangeVeteranRecruitment_Available>
+  <!-- EN: Next veteran available in {0} days -->
+  <CABountyExchangeVeteranRecruitment_Details>Próximo veterano disponible en {0} días</CABountyExchangeVeteranRecruitment_Details>
+  <!-- EN: Enlist top veteran for {0} bounty credits -->
+  <CABountyExchangeVeteranRecruitment_Enlist>Alistar al mejor veterano por {0} créditos de recompensa</CABountyExchangeVeteranRecruitment_Enlist>
+  <!-- EN: No veteran available -->
+  <CABountyExchangeVeteranRecruitment_NotAvailable>No hay veteranos disponibles</CABountyExchangeVeteranRecruitment_NotAvailable>
+  <!-- EN: \n\n\nAs the personality is usually important, we try to find a good fit for you. -->
+  <CABountyExchangeVeteranRecruitment_ChoosePersonality>\n\n\nComo la personalidad suele ser importante, intentamos encontrarte a alguien que encaje contigo.</CABountyExchangeVeteranRecruitment_ChoosePersonality>
+  <!-- EN: Rather none of those -->
+  <CABountyExchangeVeteranRecruitment_ChoosePersonalityNone>Mejor ninguno de esos</CABountyExchangeVeteranRecruitment_ChoosePersonalityNone>
+  <!-- EN: \n\n\nAnd the unique skill? -->
+  <CABountyExchangeVeteranRecruitment_ChooseSkill>\n\n\n¿Y la habilidad destacada?</CABountyExchangeVeteranRecruitment_ChooseSkill>
+  <!-- EN: Current bounty credits: {0}\nCurrent silver: {1}\n\n\nChoose how many bounty credits you want to buy -->
+  <CABountyExchangeSilverForBounty>Créditos de recompensa actuales: {0}\nPlata actual: {1}\n\n\nElige cuántos créditos de recompensa quieres comprar</CABountyExchangeSilverForBounty>
+  <!-- EN: Exchange {0} silver for {1} bounty credit -->
+  <CABountyExchangeSilverForBountyOption>Cambiar {0} de plata por {1} créditos de recompensa</CABountyExchangeSilverForBountyOption>
+  <!-- EN: Not enough silver -->
+  <CABountyExchangeSilverForBountyLackingSilver>No hay suficiente plata</CABountyExchangeSilverForBountyLackingSilver>
+  <!-- EN: Collected {0, -10} bounty credit for killing a {1, -20}, total credit: {2} -->
+  <CABountyKillMessage>Cobrados {0, -10} créditos de recompensa por matar a: {1, -20}, créditos totales: {2}</CABountyKillMessage>
+  <!-- EN: Bounty-kill:  -->
+  <CABountyKillMessageBounty>Presa abatida: </CABountyKillMessageBounty>
+  <!-- EN: Reward:  -->
+  <CABountyKillMessageReward>Recompensa: </CABountyKillMessageReward>
+  <!-- EN: Total credit:  -->
+  <CABountyKillMessageCredit>Créditos totales: </CABountyKillMessageCredit>
+  <!-- EN: Enlist top tribal veteran for {0} bounty credits -->
+  <CABountyExchangeVeteranRecruitment_EnlistTribal>Alistar al mejor veterano tribal por {0} créditos de recompensa</CABountyExchangeVeteranRecruitment_EnlistTribal>
+  <!-- EN: Animal area -->
+  <CAAnimalAreaLabel>Área de animales</CAAnimalAreaLabel>
+  <!-- EN: Animal free -->
+  <CAAnimalNoFoodAreaLabel>Sin animales</CAAnimalNoFoodAreaLabel>
+  <!-- EN: Food -->
+  <CAFoodZoneLabel>Comida</CAFoodZoneLabel>
+  <!-- EN: Animal food -->
+  <CAAnimalFoodZoneLabel>Comida de animales</CAAnimalFoodZoneLabel>
+  <!-- EN: Pack up the camp -->
+  <CADeconstructCamp>Levantar el campamento</CADeconstructCamp>
+  <!-- EN: Packing up the camp -->
+  <CADeconstructCampMessage>Levantando el campamento</CADeconstructCampMessage>
+  <!-- EN: {0} tents couldn&apos;t be built as no space was available. -->
+  <CABuildFailTents>No se pudieron montar {0} carpas por falta de espacio.</CABuildFailTents>
+  <!-- EN: Medicine -->
+  <CAMedicineZone>Medicina</CAMedicineZone>
+  <!-- EN: A high-tech camp was set up for {0} tent supplies -->
+  <CAEstablishedCampNotification>Se montó un campamento de alta tecnología con {0} suministros de carpa</CAEstablishedCampNotification>
+  <!-- EN: Leave immediately -->
+  <CALeaveImmediately>Irse de inmediato</CALeaveImmediately>
+  <!-- EN: Do you want to pack up the camp and abandon this place? \n{0} spacer tent supplies will be added to the caravan. -->
+  <CALeaveImmediatelyPackupCamp>¿Quieres levantar el campamento y abandonar este lugar?\nSe agregarán a la caravana {0} suministros de carpa espacial.</CALeaveImmediatelyPackupCamp>
+  <!-- EN: Do you want to pack up the camp and abandon this place? -->
+  <CALeaveImmediatelyPackupCampTribal>¿Quieres levantar el campamento y abandonar este lugar?</CALeaveImmediatelyPackupCampTribal>
+  <!-- EN: Could not create camp center due to being out of map bounds, canceling camp creation -->
+  <CABuildFailStoppedCampGen>No se pudo crear el centro del campamento porque queda fuera de los límites del mapa. Se cancela la creación del campamento</CABuildFailStoppedCampGen>
+  <!-- EN: Damsel in distress, kidnapped by {0} -->
+  <CaravanDamselInDistressTitle>Damisela en apuros, secuestrada por {0}</CaravanDamselInDistressTitle>
+  <!-- EN: We stumbled over a stunning and helpless girl held by {2} of {1}&apos;s savages... could we bare the thought to leave her in their grasp? -->
+  <CaravanDamselInDistress>Nos topamos con una chica hermosa e indefensa, retenida por {2} de los salvajes de {1}... ¿Podríamos soportar la idea de dejarla en sus garras?</CaravanDamselInDistress>
+  <!-- EN: Rescue her immediately -->
+  <CaravanDamselInDistress_Rescue>Rescatarla de inmediato</CaravanDamselInDistress_Rescue>
+  <!-- EN: Follow them silently until they make camp -->
+  <CaravanDamselInDistress_Follow>Seguirlos en silencio hasta que acampen</CaravanDamselInDistress_Follow>
+  <!-- EN: Leave her to her fate -->
+  <CaravanDamselInDistress_Leave>Abandonarla a su suerte</CaravanDamselInDistress_Leave>
+  <!-- EN: You followed... -->
+  <CaravanDamselInDistress_Follow_Title>Los seguiste...</CaravanDamselInDistress_Follow_Title>
+  <!-- EN: You follow up to their camp and wait till dark, they only have 1 guard which seems rather drunk and would be easy to take. How do you proceed? -->
+  <CaravanDamselInDistress_Follow_Main>Los sigues hasta su campamento y esperas a que oscurezca. Solo tienen un guardia, que parece bastante borracho y sería fácil de reducir. ¿Cómo procedes?</CaravanDamselInDistress_Follow_Main>
+  <!-- EN: Sneak in, kill the bandits in their sleep and free the girl -->
+  <CaravanDamselInDistress_Follow_SneakFreeGirl>Infiltrarse, matar a los bandidos mientras duermen y liberar a la chica</CaravanDamselInDistress_Follow_SneakFreeGirl>
+  <!-- EN: You successfully cut their thoughts without them waking up and freed the surprised and hopeful looking girl. What do you want to do with her? -->
+  <CaravanDamselInDistress_Follow_KillSuccess_Main>Lograste degollarlos sin que despertaran y liberaste a la chica, que te mira sorprendida y esperanzada. ¿Qué quieres hacer con ella?</CaravanDamselInDistress_Follow_KillSuccess_Main>
+  <!-- EN: Let her be on her way, she&apos;s been through enough -->
+  <CaravanDamselInDistress_Follow_KillSuccess_Free>Dejarla seguir su camino; ya sufrió bastante</CaravanDamselInDistress_Follow_KillSuccess_Free>
+  <!-- EN: She&apos;ll make a fine slave -->
+  <CaravanDamselInDistress_Follow_KilSuccess_Slave>Será una buena esclava</CaravanDamselInDistress_Follow_KilSuccess_Slave>
+  <!-- EN: You stepped on a twig and the guards woke up, we can either fight them or run. -->
+  <CaravanDamselInDistress_Follow_KillFail_Main>Pisaste una rama y los guardias despertaron. Podemos pelear o huir.</CaravanDamselInDistress_Follow_KillFail_Main>
+  <!-- EN: Fight -->
+  <CaravanDamselInDistress_Follow_KillFail_Fight>Pelear</CaravanDamselInDistress_Follow_KillFail_Fight>
+  <!-- EN: Try to escape -->
+  <CaravanDamselInDistress_Follow_KillFail_Leave>Intentar escapar</CaravanDamselInDistress_Follow_KillFail_Leave>
+  <!-- EN: You hear {0} asking you to come closer. -->
+  <CaravanDamselInDistress_Saved_AsksToJoin>Oyes que {0} te pide que te acerques.</CaravanDamselInDistress_Saved_AsksToJoin>
+  <!-- EN: Ok. -->
+  <Okay>Está bien.</Okay>
+  <!-- EN: You hear a weak voice... -->
+  <CaravanDamselInDistress_Saved_AsksToJoinTitle>Oyes una voz débil...</CaravanDamselInDistress_Saved_AsksToJoinTitle>
+  <!-- EN: {0} asks to join. -->
+  <CaravanDamselInDistress_AsksToJoinTitle>{0} pide unirse.</CaravanDamselInDistress_AsksToJoinTitle>
+  <!-- EN: Thank you for saving my life, Would you allow me to join you on your journey? -->
+  <CaravanDamselInDistress_AsksToJoin>Gracias por salvarme la vida. ¿Me dejarían acompañarlos en su viaje?</CaravanDamselInDistress_AsksToJoin>
+  <!-- EN: Yes, you&apos;re welcome to join. -->
+  <CaravanDamselInDistress_JoinAllow>Sí, puedes unirte a nosotros.</CaravanDamselInDistress_JoinAllow>
+  <!-- EN: Sorry, we can&apos;t take the risk. -->
+  <CaravanDamselInDistress_JoinDeny>Lo siento, no podemos correr el riesgo.</CaravanDamselInDistress_JoinDeny>
+  <!-- EN: Settle Caravan -->
+  <SettleWithoutUnloading>Asentar la caravana</SettleWithoutUnloading>
+  <!-- EN: Allows the caravan to settle without unloading to find a good spot first or leave quickly. -->
+  <SettleWithoutUnloadingDesc>Permite que la caravana se asiente sin descargar, para buscar primero un buen lugar o irse rápido.</SettleWithoutUnloadingDesc>
+  <!-- EN: Settle with Camp -->
+  <SettleWithCampLabel>Asentarse con campamento</SettleWithCampLabel>
+  <!-- EN: Settle with a prebuild camp your pawns quickly set up. Will consume camp supplies to construct tents and equipment of high quality. If not enough are present, pawns will use materials they can find at hand. Camping supplies can be recovered when packing up the camp. -->
+  <SettleWithCampDesc>Asentarse con un campamento prearmado que tus colonos montan rápidamente. Consume suministros de campamento para construir carpas y equipo de alta calidad. Si no hay suficientes, los colonos usarán los materiales que tengan a mano. Los suministros de campamento se pueden recuperar al levantar el campamento.</SettleWithCampDesc>
+  <!-- EN: Night travel -->
+  <AllowNightTravel>Viajar de noche</AllowNightTravel>
+  <!-- EN: Allow your caravan to travel through the night, but keep in mind that this harbors great risk for strong attacks and if your caravan members get too tired, they have no choice but to rest. -->
+  <AllowNightTravelDesc>Permite que tu caravana viaje durante la noche, pero ten en cuenta que esto conlleva un gran riesgo de ataques fuertes, y que si los miembros de tu caravana se cansan demasiado, no les quedará más remedio que descansar.</AllowNightTravelDesc>
+  <!-- EN: Sell -->
+  <CAFormingTradePresetSell>Vender</CAFormingTradePresetSell>
+  <!-- EN: Select -->
+  <CAFormingTradePresetSelect>Elegir</CAFormingTradePresetSelect>
+  <!-- EN: All -->
+  <CAFormingTradePresetAll>Todo</CAFormingTradePresetAll>
+  <!-- EN: Pack up -->
+  <CAFormingTradePresetPackUp>Empacar</CAFormingTradePresetPackUp>
+  <!-- EN: Goods -->
+  <CAFormingTradePresetGoods>Bienes</CAFormingTradePresetGoods>
+  <!-- EN: Goods2 -->
+  <CAFormingTradePresetGoods2>Bienes2</CAFormingTradePresetGoods2>
+  <!-- EN: Clear -->
+  <CAFormingTradePresetClear>Limpiar</CAFormingTradePresetClear>
+  <!-- EN: Supply disabled -->
+  <CAFormingTradePresetSupply>Suministros desactivados</CAFormingTradePresetSupply>
+  <!-- EN: Quest concluded (Quest info updated) -->
+  <LetterQuestConcludedLabelWithUpdateInfo>Misión concluida (información de la misión actualizada)</LetterQuestConcludedLabelWithUpdateInfo>
+  <!-- EN: Quest completed (Quest info updated) -->
+  <LetterQuestCompletedLabelWithUpdateInfo>Misión completada (información de la misión actualizada)</LetterQuestCompletedLabelWithUpdateInfo>
+  <!-- EN: Quest failed (Quest info updated) -->
+  <LetterQuestFailedLabelWithUpdateInfo>Misión fallida (información de la misión actualizada)</LetterQuestFailedLabelWithUpdateInfo>
+  <!-- EN: Quest updated -->
+  <CALetterQuestOngoingUpdatedInfo>Misión actualizada</CALetterQuestOngoingUpdatedInfo>
+  <!-- EN: The quest &quot;{0}&quot; was updated. -->
+  <CALetterQuestOngoingUpdatedInfoText>La misión «{0}» se actualizó.</CALetterQuestOngoingUpdatedInfoText>
+  <!-- EN: When casting ancient coordinator, every pawn exceeding the default link limit of 4 (gifted pawn not included) will die.\n\n\nDo you really want to cast ancient coordinator? -->
+  <CAAbilityCoordinatorApprovalText>Al lanzar coordinador ancestral, todo colono que supere el límite de vínculos por defecto de 4 (sin contar al colono con el don) morirá.\n\n\n¿De verdad quieres lanzar coordinador ancestral?</CAAbilityCoordinatorApprovalText>
+  <!-- EN: Remove open letters -->
+  <CARemoveLettersButton>Quitar las cartas abiertas</CARemoveLettersButton>
+  <!-- EN: Hints of a dangerous shrine -->
+  <Story_Shrine1_NewShrineDetectedLetterLabel>Indicios de un santuario peligroso</Story_Shrine1_NewShrineDetectedLetterLabel>
+  <!-- EN: {0} sent you a message with vague hints regarding tales of a dangerous shrine. The people providing the hint weren&apos;t very credible, so take care, as they also said that no one ever returned who dared to pilgrimage there. -->
+  <Story_Shrine1_NewShrineDetectedLetterMessage>{0} te envió un mensaje con vagas pistas sobre las historias de un santuario peligroso. Quienes dieron la pista no eran muy creíbles, así que ten cuidado: también dijeron que nadie que se atrevió a peregrinar hasta allí volvió jamás.</Story_Shrine1_NewShrineDetectedLetterMessage>
+  <!-- EN: Discovering mysterious shrine (This might take a while) -->
+  <Story_Shrine1_EnterPossibleShrine>Descubriendo un santuario misterioso (puede tardar un rato)</Story_Shrine1_EnterPossibleShrine>
+  <!-- EN: Caravan Adventures - Secrets of the Shrines -->
+  <Story_Shrine1_QuestName>Caravan Adventures - Secretos de los santuarios</Story_Shrine1_QuestName>
+  <!-- EN: Explore possible master shrines to reveal their secrets and to determine the mechanoid armada threat.\nTake your time to prepare, this may be a long journey and the enemy won&apos;t be easily defeated! -->
+  <Story_Shrine1_QuestDesc>Explora posibles santuarios maestros para revelar sus secretos y determinar la amenaza de la armada mecanoide.\nTómate tu tiempo para prepararte: puede ser un viaje largo, ¡y no será fácil derrotar al enemigo!</Story_Shrine1_QuestDesc>
+  <!-- EN: Visit ancient master shrine -->
+  <VisitAncientMasterShrine>Visitar el santuario maestro ancestral</VisitAncientMasterShrine>
+  <!-- EN: Enemies encountered -->
+  <Story_Shrine1_EnemyEncounterLetterLabel>Enemigos a la vista</Story_Shrine1_EnemyEncounterLetterLabel>
+  <!-- EN: Looks like we&apos;re not alone here. -->
+  <Story_Shrine1_EnemyEncounterLetterMessage>Parece que no estamos solos aquí.</Story_Shrine1_EnemyEncounterLetterMessage>
+  <!-- EN: Give up on clue -->
+  <GiveUpOnClueLabel>Abandonar la pista</GiveUpOnClueLabel>
+  <!-- EN: Give up on this clue, you&apos;ll hear about another one soon. -->
+  <GiveUpOnClueDesc>Abandona esta pista; pronto te enterarás de otra.</GiveUpOnClueDesc>
+  <!-- EN: Give up on shrine -->
+  <Story_Shrine1_GiveUpOnShrineLabel>Abandonar el santuario</Story_Shrine1_GiveUpOnShrineLabel>
+  <!-- EN: Give up on this shrine, you&apos;ll hear about another clue soon. -->
+  <Story_Shrine1_GiveUpOnShrineDesc>Abandona este santuario; pronto te enterarás de otra pista.</Story_Shrine1_GiveUpOnShrineDesc>
+  <!-- EN: Are you sure you want to abandon your remaining colonists? -->
+  <Story_Shrine_AbandonColonists>¿Seguro que quieres abandonar a los colonos que quedan?</Story_Shrine_AbandonColonists>
+  <!-- EN: Bandits defeated -->
+  <MasterShrineVictoryLetterLabel>Bandidos derrotados</MasterShrineVictoryLetterLabel>
+  <!-- EN: The bandits setting a trap at the shrine were defeated.  -->
+  <MasterShrineVictoryLetterMessage>Los bandidos que tendían una trampa en el santuario fueron derrotados. </MasterShrineVictoryLetterMessage>
+  <!-- EN: No luck. -->
+  <NoMasterShrineLetterLabel>Sin suerte.</NoMasterShrineLetterLabel>
+  <!-- EN: While this place may harbor treasures, it doesn&apos;t look like the place you&apos;re searching for. -->
+  <NoMasterShrineLetterMessage>Puede que este lugar guarde tesoros, pero no parece ser el que buscas.</NoMasterShrineLetterMessage>
+  <!-- EN: Defeated {0} -->
+  <MasterShrineVictoryBossLetterLabel>Derrotaste a {0}</MasterShrineVictoryBossLetterLabel>
+  <!-- EN: Defeated {0}, the ancient harbinger of destruction. The shrine awarded you with {1} -->
+  <MasterShrineVictoryBossLetterMessage>Derrotaste a {0}, el antiguo heraldo de la destrucción. El santuario te recompensó con {1}</MasterShrineVictoryBossLetterMessage>
+  <!-- EN: A mech patrol will come through {0} in about {1}. -->
+  <Story_Shrine1_NextPatrolWarning>Una patrulla de mecas pasará por {0} en aproximadamente {1}.</Story_Shrine1_NextPatrolWarning>
+  <!-- EN: Pure pain explodes in {0}&apos;s head -->
+  <Story_Shrine1_BossDefeated_Dia1Title>Un dolor puro estalla en la cabeza de {0}</Story_Shrine1_BossDefeated_Dia1Title>
+  <!-- EN: While the {0} dies, memories start rushing back to the surface... although not {1}&apos;s memories.\n\n{1} can&apos;t make sense of it, but {1} seems to recall a long forgotten spell named {2}. -->
+  <Story_Shrine1_BossDefeated_Dia1_1>Mientras {0} muere, los recuerdos empiezan a aflorar... aunque no son los recuerdos de {1}.\n\n{1} no logra entenderlo, pero parece recordar un conjuro olvidado hace mucho llamado {2}.</Story_Shrine1_BossDefeated_Dia1_1>
+  <!-- EN: The huge metal body of {0} crashes on the ground. -->
+  <Story_Shrine1_BossDefeated_Dia1_1_NoSpell>El enorme cuerpo metálico de {0} se desploma en el suelo.</Story_Shrine1_BossDefeated_Dia1_1_NoSpell>
+  <!-- EN: Astonishing... -->
+  <Story_Shrine1_BossDefeated_Dia1_1_Option1>Asombroso...</Story_Shrine1_BossDefeated_Dia1_1_Option1>
+  <!-- EN: When {0}&apos;s mechanical body came to rest, loud scratching starts to hollow around the ruins... something woke up. -->
+  <Story_Shrine1_BossDefeated_Dia1_2>Cuando el cuerpo mecánico de {0} quedó inmóvil, unos fuertes arañazos empezaron a resonar entre las ruinas... algo despertó.</Story_Shrine1_BossDefeated_Dia1_2>
+  <!-- EN: We better get out of here... -->
+  <Story_Shrine1_BossDefeated_Dia1_1_Option2>Mejor salgamos de aquí...</Story_Shrine1_BossDefeated_Dia1_1_Option2>
+  <!-- EN: Ancient ability gained: {0} -->
+  <Story_Shrine1_AbilityGainedLetterTitle>Habilidad ancestral obtenida: {0}</Story_Shrine1_AbilityGainedLetterTitle>
+  <!-- EN: By defeating {0} and with the power of the Ancient Gift, {1} received the sacred knowledge of the spell: {2} -->
+  <Story_Shrine1_AbilityGainedLetterDesc>Al derrotar a {0}, y con el poder del don ancestral, {1} recibió el conocimiento sagrado del conjuro: {2}</Story_Shrine1_AbilityGainedLetterDesc>
+  <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. You can return once they moved on. You&apos;ll be notified about their arrival every 3 hours. -->
+  <Story_Shrine1_ArrivalTimeShownLetterMessage>Tu caravana fue detectada. En {0}, refuerzos de {1} procedentes de {2} empezarán a llegar a la zona.\n\nReorganiza tu caravana y ponte en marcha para evitar a los {1}. Puedes volver cuando se hayan ido. Se te avisará de su llegada cada 3 horas.</Story_Shrine1_ArrivalTimeShownLetterMessage>
+  <!-- EN: ({1}) {0}: {2} defeated the {3} and received the ancient spell {4}. -->
+  <Story_Shrine1_QuestRewardUpdate_1>({1}) {0}: {2} derrotó a {3} y recibió el conjuro ancestral {4}.</Story_Shrine1_QuestRewardUpdate_1>
+  <!-- EN: ({1}) {0}: {2} defeated the {3}. -->
+  <Story_Shrine1_QuestRewardUpdate_1_WithoutSpell>({1}) {0}: {2} derrotó a {3}.</Story_Shrine1_QuestRewardUpdate_1_WithoutSpell>
+  <!-- EN: {0} is contacting you via comms... -->
+  <Story_Shrine1_SacrilegHunters_DiaTitle>{0} te contacta por comunicaciones...</Story_Shrine1_SacrilegHunters_DiaTitle>
+  <!-- EN: You did it! You found a master shrine!
+    \nTake care when exploring, as I told you before, we lost brothers and sisters when we came across our first shrine of this kind and escaped just barely.\nFocus on the larger buildings, that&apos;s what we&apos;re looking for.
+    \nWe&apos;ll send you some additional help, maybe another disaster can be avoided if we work together.\nGood luck... [{0} pauses shortly] and be careful.
+   -->
+  <Story_Shrine1_SacrilegHunters_Dia1_1>¡Lo lograste! ¡Encontraste un santuario maestro!\n\nTen cuidado al explorar. Como te dije antes, perdimos a hermanos y hermanas cuando dimos con nuestro primer santuario de este tipo, y escapamos por muy poco.\nConcéntrate en los edificios más grandes: eso es lo que buscamos.\n\nTe enviaremos algo de ayuda adicional; quizá podamos evitar otro desastre si trabajamos juntos.\nBuena suerte... [{0} hace una breve pausa] y ten cuidado.</Story_Shrine1_SacrilegHunters_Dia1_1>
+  <!-- EN: Thank you, from the looks of this place, we may need them. -->
+  <Story_Shrine1_SacrilegHunters_Dia1_1_Option1>Gracias. Por el aspecto de este lugar, quizá la necesitemos.</Story_Shrine1_SacrilegHunters_Dia1_1_Option1>
+  <!-- EN: (Not recommended) No need, we can handle it ourselves. -->
+  <Story_Shrine1_SacrilegHunters_Dia1_1_Option2>(No recomendado) No hace falta, podemos encargarnos solos.</Story_Shrine1_SacrilegHunters_Dia1_1_Option2>
+  <!-- EN: Perfect, another shrine, that&apos;s great!\nDo you want us to assist you again? -->
+  <Story_Shrine2_SacrilegHunters_Dia1_1>¡Perfecto, otro santuario, qué bien!\n¿Quieres que volvamos a ayudarte?</Story_Shrine2_SacrilegHunters_Dia1_1>
+  <!-- EN: Not gonna turn down help, those things are dangerous. Thank you! -->
+  <Story_Shrine2_SacrilegHunters_Dia1_1_Option1>No voy a rechazar ayuda, esas cosas son peligrosas. ¡Gracias!</Story_Shrine2_SacrilegHunters_Dia1_1_Option1>
+  <!-- EN: (Not recommended) We&apos;ll deal with it ourselves. -->
+  <Story_Shrine2_SacrilegHunters_Dia1_1_Option2>(No recomendado) Nos encargaremos nosotros.</Story_Shrine2_SacrilegHunters_Dia1_1_Option2>
+  <!-- EN: Wow, this must be it. Alright, lets finish this. I have our best fighters ready if you wish. -->
+  <Story_Shrine5_SacrilegHunters_Dia1_1>Vaya, este tiene que ser. Muy bien, terminemos con esto. Tengo listos a nuestros mejores combatientes, si quieres.</Story_Shrine5_SacrilegHunters_Dia1_1>
+  <!-- EN: Ya, lets tear this place down. -->
+  <Story_Shrine5_SacrilegHunters_Dia1_1_Option1>Sí, arrasemos este lugar.</Story_Shrine5_SacrilegHunters_Dia1_1_Option1>
+  <!-- EN: (Not recommended) Gonna take a different approach, trust me, it&apos;ll be fine. -->
+  <Story_Shrine5_SacrilegHunters_Dia1_1_Option2>(No recomendado) Voy a probar otra forma. Confía en mí, todo saldrá bien.</Story_Shrine5_SacrilegHunters_Dia1_1_Option2>
+  <!-- EN: Guys, I&apos;m not getting any readings of another huge mech here. Although there seems to be a disturbance, some highly bundled particle displacement.\n\n[{0} suddenly worried] Be careful when checking that out, i have a bad feeling about this... -->
+  <Story_Shrine5_SacrilegHunters_Portal_Dia1_1>Chicos, no detecto ningún otro meca enorme aquí. Aunque parece haber una perturbación, un desplazamiento de partículas muy concentrado.\n\n[De pronto, la voz de {0} suena preocupada] Tengan cuidado al revisarlo, tengo un mal presentimiento...</Story_Shrine5_SacrilegHunters_Portal_Dia1_1>
+  <!-- EN: Hmm, we&apos;ll keep an eye out, thanks. -->
+  <Story_Shrine5_SacrilegHunters_Portal_Dia1_1_Option1>Mmm, estaremos atentos, gracias.</Story_Shrine5_SacrilegHunters_Portal_Dia1_1_Option1>
+  <!-- EN: When {0}&apos;s mechanical body came to rest, the ground started to vibrate stronger, then suddenly came to rest, as the old machinery deep within the planet came to a hold. -->
+  <Story_Shrine5_BossDefeated_Dia1_2>Cuando el cuerpo mecánico de {0} quedó inmóvil, el suelo empezó a vibrar con más fuerza y de pronto se calmó, mientras la vieja maquinaria de las profundidades del planeta se detenía.</Story_Shrine5_BossDefeated_Dia1_2>
+  <!-- EN: Is it... over? -->
+  <Story_Shrine5_BossDefeated_Dia1_2_Option1>¿Se... terminó?</Story_Shrine5_BossDefeated_Dia1_2_Option1>
+  <!-- EN: {0} of {1} is contacting you via comms... -->
+  <Story_Shrine1_Apocalypse_Dia1Title>{0}, de {1}, te contacta por comunicaciones...</Story_Shrine1_Apocalypse_Dia1Title>
+  <!-- EN: [{0}, out of breath and shocked] My god, did you guys get out alive?\nWhat happened there? When that abomination died? You screamed like you&apos;d die. Are you alright? -->
+  <Story_Shrine1_Apocalypse_Dia1_1>[{0}, sin aliento y en shock] Dios mío, ¿salieron con vida?\n¿Qué pasó ahí? ¿Cuando murió esa abominación? Gritaste como si fueras a morir. ¿Estás bien?</Story_Shrine1_Apocalypse_Dia1_1>
+  <!-- EN: I remembered something, but I&apos;m not clear what yet, some sort of power... the tree...\nThis is a bad idea over comms... -->
+  <Story_Shrine1_Apocalypse_Dia1_1_Option1>Recordé algo, pero todavía no tengo claro qué. Una especie de poder... el árbol...\nEs mala idea hablar de esto por comunicaciones...</Story_Shrine1_Apocalypse_Dia1_1_Option1>
+  <!-- EN: Aaah, okay... Well, what ever the death of that monster and the following earthquake caused, it&apos;s bad, and it wasn&apos;t natural.\nOur scientists are going crazy. Something very old under the planet&apos;s surface was activated. Our scientists believe it started to cool down the planet&apos;s core.\nWhile the process seems to be slow, it will mean certain death if we can&apos;t find out how to stop it! -->
+  <Story_Shrine1_Apocalypse_Dia1_2>Ah, bueno... Sea lo que sea lo que causaron la muerte de ese monstruo y el terremoto que vino después, es malo, y no fue natural.\nNuestros científicos se están volviendo locos. Algo muy antiguo bajo la superficie del planeta se activó. Creen que empezó a enfriar el núcleo del planeta.\nAunque el proceso parece lento, ¡significará una muerte segura si no descubrimos cómo detenerlo!</Story_Shrine1_Apocalypse_Dia1_2>
+  <!-- EN: Let&apos;s find more of those shrines and see if we can&apos;t find more clues \nas to what we&apos;re dealing with. -->
+  <Story_Shrine1_Apocalypse_Dia1_2_Option1>Busquemos más de esos santuarios y veamos si encontramos más pistas \nsobre lo que enfrentamos.</Story_Shrine1_Apocalypse_Dia1_2_Option1>
+  <!-- EN: Ya, we&apos;ll message you when we can find more shrines. \n[{0}&apos;s voice turning to a worried tone] And stay save until then, i have a really bad feeling about this. -->
+  <Story_Shrine1_Apocalypse_Dia1_3>Sí, te escribiremos cuando encontremos más santuarios. \n[La voz de {0} se vuelve preocupada] Y cuídense hasta entonces, tengo un muy mal presentimiento.</Story_Shrine1_Apocalypse_Dia1_3>
+  <!-- EN: We will, take care as well. Bye! -->
+  <Story_Shrine1_Apocalypse_Dia1_3_Option1>Lo haremos. Cuídense también. ¡Adiós!</Story_Shrine1_Apocalypse_Dia1_3_Option1>
+  <!-- EN: You did it again! What a fight...\nWe were able to track a transmission, when the monster died. Looks like data was sent to a remote site. We need to find it! That is our best bet in stopping whatever the hell is happening with this RimWorld. -->
+  <Story_Shrine2_Apocalypse_Dia1_1>¡Lo lograste otra vez! Qué pelea...\nPudimos rastrear una transmisión cuando el monstruo murió. Parece que se enviaron datos a un sitio remoto. ¡Tenemos que encontrarlo! Es nuestra mejor opción para detener lo que sea que le está pasando a este mundoborde.</Story_Shrine2_Apocalypse_Dia1_1>
+  <!-- EN: Hmm, how would we go about that? -->
+  <Story_Shrine2_Apocalypse_Dia1_1_Option1>Mmm, ¿y cómo haríamos eso?</Story_Shrine2_Apocalypse_Dia1_1_Option1>
+  <!-- EN: We managed to get a rough location, but we need more transmissions to get the exact location. About two more should do the trick, if we can find one. -->
+  <Story_Shrine2_Apocalypse_Dia1_2>Logramos una ubicación aproximada, pero necesitamos más transmisiones para dar con la ubicación exacta. Con unas dos más debería bastar, si es que encontramos una.</Story_Shrine2_Apocalypse_Dia1_2>
+  <!-- EN: Or survive the encounter, for that matter... -->
+  <Story_Shrine2_Apocalypse_Dia1_2_Option1>O si sobrevivimos al encuentro, ya que estamos...</Story_Shrine2_Apocalypse_Dia1_2_Option1>
+  <!-- EN: [{0} laughs and answers sarcastically] Yep, but if we don&apos;t try, it&apos;s gonna be a little frosty around here soon. -->
+  <Story_Shrine2_Apocalypse_Dia1_3>[{0} se ríe y responde con sarcasmo] Sí, pero si no lo intentamos, pronto va a hacer un poquito de frío por aquí.</Story_Shrine2_Apocalypse_Dia1_3>
+  <!-- EN: While I do like snow, this shouldn&apos;t get out of hand.\nAnyway, let us know when you find another one, take care! -->
+  <Story_Shrine2_Apocalypse_Dia1_3_Option1>Aunque me gusta la nieve, esto no debería salirse de control.\nEn fin, avísennos cuando encuentren otro. ¡Cuídense!</Story_Shrine2_Apocalypse_Dia1_3_Option1>
+  <!-- EN: You&apos;re getting pretty good at this, remind me not getting on your bad side...\nWe tracked another transmission. We&apos;re getting closer! -->
+  <Story_Shrine3_Apocalypse_Dia1_1>Esto se te da cada vez mejor, recuérdame no ponerme en tu contra...\nRastreamos otra transmisión. ¡Nos estamos acercando!</Story_Shrine3_Apocalypse_Dia1_1>
+  <!-- EN: Off to the next I guess. -->
+  <Story_Shrine3_Apocalypse_Dia1_1_Option1>Al siguiente, supongo.</Story_Shrine3_Apocalypse_Dia1_1_Option1>
+  <!-- EN: Yes! We have the required data! We&apos;ll let you know when we have the final location. -->
+  <Story_Shrine4_Apocalypse_Dia1_1>¡Sí! ¡Tenemos los datos necesarios! Te avisaremos cuando tengamos la ubicación final.</Story_Shrine4_Apocalypse_Dia1_1>
+  <!-- EN: Why do I kind of not want to know? -->
+  <Story_Shrine4_Apocalypse_Dia1_1_Option1>¿Por qué será que casi prefiero no saberlo?</Story_Shrine4_Apocalypse_Dia1_1_Option1>
+  <!-- EN: [{0} giggles] Come on now, we&apos;re so close. Don&apos;t you want to rescue this planet? -->
+  <Story_Shrine4_Apocalypse_Dia1_2>[{0} suelta una risita] Vamos, estamos muy cerca. ¿No quieres salvar este planeta?</Story_Shrine4_Apocalypse_Dia1_2>
+  <!-- EN: [Sigh] Considering what we might be facing, a little snow really doesn&apos;t sound so bad... -->
+  <Story_Shrine4_Apocalypse_Dia1_2_Option1>[Suspiro] Considerando a lo que podríamos enfrentarnos, un poco de nieve no suena tan mal...</Story_Shrine4_Apocalypse_Dia1_2_Option1>
+  <!-- EN: [{0} laughs] Well, we better prepare ourselves thoroughly, so you get to &quot;enjoy&quot; it until you think you&apos;re ready. Talk to you later? -->
+  <Story_Shrine4_Apocalypse_Dia1_3>[{0} se ríe] Bueno, más vale que nos preparemos a fondo, así que podrás «disfrutarla» hasta que creas que llegó el momento. ¿Hablamos luego?</Story_Shrine4_Apocalypse_Dia1_3>
+  <!-- EN: Alright, good luck with those calculations! -->
+  <Story_Shrine4_Apocalypse_Dia1_3_Option1>Muy bien, ¡suerte con esos cálculos!</Story_Shrine4_Apocalypse_Dia1_3_Option1>
+  <!-- EN: [{0} laughing full of joy] Yes, the ancient machines powered down, the planet is heating up again. We did it. You were so great. \n\nWe won&apos;t forget what you guys have done for us and the entire world. \n\nHmmm, how about 4000 bounty credits, that you can spent freely. \nAnd I really hope u guys stay in touch, especially since I&apos;m not sure this is the last we saw of those damn mechs. \n\nThe planet is safe for now, but there is plenty more ruins out there. \nWe&apos;ll let you know if we find more in case you want to help ridding the planet of them, but for now, go celebrate and enjoy our victory. Wuhuuuuuuu. -->
+  <Story_Shrine5_Apocalypse_Dia1_1>[{0} ríe de pura alegría] Sí, las máquinas antiguas se apagaron y el planeta se está calentando de nuevo. Lo logramos. Estuvieron geniales. \n\nNo olvidaremos lo que hicieron por nosotros y por el mundo entero. \n\nMmm, ¿qué tal 4000 créditos de recompensa para que los gasten como quieran? \nY de verdad espero que sigamos en contacto, sobre todo porque no tengo claro que esto sea lo último que veamos de esos malditos mecas. \n\nEl planeta está a salvo por ahora, pero ahí afuera quedan muchas más ruinas. \nLes avisaremos si encontramos más, por si quieren ayudar a librar al planeta de ellas, pero por ahora, vayan a celebrar y disfruten de nuestra victoria. ¡Yujuuuuuuu!</Story_Shrine5_Apocalypse_Dia1_1>
+  <!-- EN: We couldn&apos;t have done it without you, thanks for all that help.\nWe&apos;ll come visit. Cya. -->
+  <Story_Shrine5_Apocalypse_Dia1_1_Option1>No lo habríamos logrado sin ustedes, gracias por toda esa ayuda.\nIremos de visita. ¡Nos vemos!</Story_Shrine5_Apocalypse_Dia1_1_Option1>
+  <!-- EN: Defeating the mechanical monstrosity activated old unknown machinery deep below the planet&apos;s surface that started to cool down the planet&apos;s core. This will slowly render the planet uninhabitable and the cause needs to be found. You should seek out more shrines to get answers. -->
+  <Story_Shrine1_QuestUpdate_1>Derrotar a la monstruosidad mecánica activó una vieja maquinaria desconocida en las profundidades del planeta, que empezó a enfriar su núcleo. Esto volverá el planeta inhabitable poco a poco, y hay que encontrar la causa. Deberías buscar más santuarios para obtener respuestas.</Story_Shrine1_QuestUpdate_1>
+  <!-- EN: ({1}) {0}: {2} entered a shrine not harboring a guardian.\n{3} mentioned a disturbance, some highly bundled particle displacement.\nYou should find it, it must be hidden away in these ruins.  -->
+  <Story_Shrine5_QuestUpdate_1>({1}) {0}: {2} entró en un santuario sin guardián.\n{3} mencionó una perturbación, un desplazamiento de partículas muy concentrado.\nDeberías encontrarlo; tiene que estar escondido en estas ruinas. </Story_Shrine5_QuestUpdate_1>
+  <!-- EN: Defeating the {0} disabled the mechanoid mechanism responsible for freezing the planet. The catastrophe was avoided, the world will return to normal, but some other shrines may still be out there. -->
+  <Story_Shrine5_QuestUpdate_2>Derrotar a {0} desactivó el mecanismo mecanoide que congelaba el planeta. Se evitó la catástrofe y el mundo volverá a la normalidad, pero puede que aún queden otros santuarios por ahí.</Story_Shrine5_QuestUpdate_2>
+  <!-- EN: (The main quest is now complete, but this quest will stay active to keep logging further shrines you may choose to explore. If you do not wish so, you can dismiss this quest.) -->
+  <Story_Shrine5_QuestUpdate_Info_1>(La misión principal está completa, pero esta misión seguirá activa para registrar los santuarios que decidas explorar. Si no quieres, puedes descartarla.)</Story_Shrine5_QuestUpdate_Info_1>
+  <!-- EN: You look around as you step out of the portal&apos;s room -->
+  <Story_Shrine5_Apocalypse_Dia2Title>Miras a tu alrededor al salir de la sala del portal</Story_Shrine5_Apocalypse_Dia2Title>
+  <!-- EN: [{0} deep in thoughts] The sacrileg hunters have no idea, that I felt something deep within the planet, when I killed the mechanoid monster. It&apos;s still down there... waiting. I may be able to reach it with some amplifier, but what could be that powerful?\n\nOh! Yes, maybe the tree, that chose me to begin with. But what might happen if I do? Do I even want to find out? Hmm, but for now it&apos;s time to get some rest... -->
+  <Story_Shrine5_Apocalypse_Dia2_1>[{0} piensa en silencio] Los cazadores sacrílegos no tienen idea de que sentí algo en las profundidades del planeta cuando maté al monstruo mecanoide. Sigue ahí abajo... esperando. Quizá pueda alcanzarlo con algún amplificador, pero ¿qué podría ser tan poderoso?\n\n¡Oh! Sí, quizá el árbol que me eligió en un principio. Pero ¿qué podría pasar si lo hago? ¿De verdad quiero averiguarlo? Mmm, por ahora es hora de descansar un poco...</Story_Shrine5_Apocalypse_Dia2_1>
+  <!-- EN: Let&apos;s move on. -->
+  <Story_Shrine5_Apocalypse_Dia2_1_Option1>Sigamos adelante.</Story_Shrine5_Apocalypse_Dia2_1_Option1>
+  <!-- EN: Current temperature: -->
+  <CAStoryCurrentTemperature>Temperatura actual:</CAStoryCurrentTemperature>
+  <!-- EN: Unusual Infestation -->
+  <CALabelStrangeInfestation>Infestación inusual</CALabelStrangeInfestation>
+  <!-- EN: Insects seeked you out. They seem more aggressive than usual. -->
+  <CATextStrangeInfestation>Los insectos te buscaron. Parecen más agresivos de lo normal.</CATextStrangeInfestation>
+  <!-- EN: Caravan Adventures - Whispers -->
+  <CA_Story_TheTree_QuestName>Caravan Adventures - Susurros</CA_Story_TheTree_QuestName>
+  <!-- EN: Creepy whispers echo around the village. They seem to be coming from the direction of the anima tree. -->
+  <CA_Story_TheTree_QuestDesc>Unos susurros inquietantes resuenan por la aldea. Parecen venir de la dirección del árbol ánima.</CA_Story_TheTree_QuestDesc>
+  <!-- EN: Talk... -->
+  <CA_Start_Begin>Hablar...</CA_Start_Begin>
+  <!-- EN: The mysterious tree speaks... -->
+  <Story_Start_Dia1_Title>El árbol misterioso habla...</Story_Start_Dia1_Title>
+  <!-- EN: Listen human, the ancient creature awoke. We may all perish unless we empower a savior to gather the ancient spells in order to battle the creature when it is ready to strike. -->
+  <Story_Start_Dia1>Escucha, humano: la criatura ancestral despertó. Puede que todos perezcamos, a menos que demos poder a un salvador que reúna los conjuros ancestrales para combatir a la criatura cuando esté lista para atacar.</Story_Start_Dia1>
+  <!-- EN: Wha... me? -->
+  <Story_Start_Dia1_GuessMe>¿Qu... yo?</Story_Start_Dia1_GuessMe>
+  <!-- EN: Yes, you have the potential that is required to wield the power of the ancient scrolls. Start the journey, acquire the spells and save this planet from doom. Do you accept the Ancient Gift? -->
+  <Story_Start_Dia1_Me>Sí, tienes el potencial necesario para empuñar el poder de los pergaminos ancestrales. Emprende el viaje, consigue los conjuros y salva a este planeta de la perdición. ¿Aceptas el don ancestral?</Story_Start_Dia1_Me>
+  <!-- EN: Guess I don&apos;t have much of a choice, I accept. -->
+  <Story_Start_Dia1_Me_NoChoice>Supongo que no tengo mucha opción. Acepto.</Story_Start_Dia1_Me_NoChoice>
+  <!-- EN: Sorry, I can&apos;t, but there may be someone better suited... -->
+  <Story_Start_Dia1_Me_SomeoneBetter>Lo siento, no puedo, pero quizá haya alguien más adecuado...</Story_Start_Dia1_Me_SomeoneBetter>
+  <!-- EN: The location of the first spell will reveal itself to you soon. Good luck on your journey, chosen one. \n\n\n(Hint: Another pawn can receive the ancient gift instead by talking to the tree.) -->
+  <Story_Start_Dia1_Me_End_Accepted>La ubicación del primer conjuro se te revelará pronto. Buena suerte en tu viaje, alma elegida. \n\n\n(Pista: otro colono puede recibir el don ancestral en tu lugar si habla con el árbol.)</Story_Start_Dia1_Me_End_Accepted>
+  <!-- EN: We hope you are right. -->
+  <Story_Start_Dia1_Me_End_Denied>Esperamos que tengas razón.</Story_Start_Dia1_Me_End_Denied>
+  <!-- EN: Bye. -->
+  <Story_Start_Dia1_Me_End_Bye>Adiós.</Story_Start_Dia1_Me_End_Bye>
+  <!-- EN: The ancient gift was already granted, don&apos;t disturb me any longer. -->
+  <Story_Start_Dia1_Me_End_GiftAlreadyRecieved>El don ancestral ya fue concedido. No me molestes más.</Story_Start_Dia1_Me_End_GiftAlreadyRecieved>
+  <!-- EN: {0} can&apos;t fulfill {1} duty, that&apos;s why I would like to take on the gift. -->
+  <Story_Start_Dia1_1_Neg_Option2>{0} no puede cumplir con su deber; por eso me gustaría recibir el don.</Story_Start_Dia1_1_Neg_Option2>
+  <!-- EN: So be it. Now leave. -->
+  <Story_Start_Dia1_2_Neg>Que así sea. Ahora vete.</Story_Start_Dia1_2_Neg>
+  <!-- EN: Thank you! -->
+  <Story_Start_Dia1_2_Neg_Option1>¡Gracias!</Story_Start_Dia1_2_Neg_Option1>
+  <!-- EN: Thank you! Please transfer their regular psylink and psycasts as well. -->
+  <Story_Start_Dia1_2_Neg_Option2>¡Gracias! Por favor, transfiere también su psicoenlace y sus psiconjuros normales.</Story_Start_Dia1_2_Neg_Option2>
+  <!-- EN: Received ancient gift -->
+  <CA_Story_ReceivedGiftLetterTitle>Don ancestral recibido</CA_Story_ReceivedGiftLetterTitle>
+  <!-- EN: {0} has been granted the ancient gift. {0} also started to remember 2 spells that {1} never knew before. You can find more info in {0}&apos;s health tab. -->
+  <CA_Story_ReceivedGiftLetterDesc>{0} recibió el don ancestral. Además, {0} empezó a recordar 2 conjuros que nunca había conocido. Encontrarás más información en la pestaña de salud de {0}.</CA_Story_ReceivedGiftLetterDesc>
+  <!-- EN: Help me contact the ancient machines below the planet&apos;s surface. -->
+  <CA_Story_Start_EnableAncientMachines>Ayúdame a contactar con las máquinas ancestrales bajo la superficie del planeta.</CA_Story_Start_EnableAncientMachines>
+  <!-- EN: As you wish... hmmm, the machines have become active again and continue fulfilling their work. -->
+  <CA_Story_Start_MachinesEnabled>Como desees... mmm, las máquinas volvieron a activarse y siguen cumpliendo su labor.</CA_Story_Start_MachinesEnabled>
+  <!-- EN: As you wish... hmmm, the machines have become dormant and remain inactive. -->
+  <CA_Story_Start_MachinesDisabled>Como desees... mmm, las máquinas quedaron latentes y permanecen inactivas.</CA_Story_Start_MachinesDisabled>
+  <!-- EN: Bye. -->
+  <CA_Story_Start_Bye>Adiós.</CA_Story_Start_Bye>
+  <!-- EN: {0} denied the ancient gift. Accept the gift with a pawn of your choice to continue the story. You can reach out to any anima tree you may find. -->
+  <CA_Story_DeniedGift>{0} rechazó el don ancestral. Acepta el don con el colono que elijas para continuar la historia. Puedes acudir a cualquier árbol ánima que encuentres.</CA_Story_DeniedGift>
+  <!-- EN: Caravan Adventures - Trade Caravan -->
+  <TradeCaravanQuestName>Caravan Adventures - Caravana comercial</TradeCaravanQuestName>
+  <!-- EN: A Sacrileg Hunters caravan is approaching and it seems rather well equipped. Might be worth checking out what they&apos;re doing here.\n\nIf you miss this chance wait for further caravans, most may seek contact beyond just trade. -->
+  <TradeCaravanQuestDesc>Se acerca una caravana de los Cazadores Sacrílegos, y parece bastante bien equipada. Quizá valga la pena averiguar qué hacen aquí.\n\nSi pierdes esta oportunidad, espera a otras caravanas; la mayoría quizá busque algo más que comerciar.</TradeCaravanQuestDesc>
+  <!-- EN: You had a really nice chat with {0}, keeping in touch may provide great opportunities. -->
+  <TradeCaravanQuestInfoTalkedTo>Tuviste una charla muy agradable con {0}; mantener el contacto podría traer grandes oportunidades.</TradeCaravanQuestInfoTalkedTo>
+  <!-- EN: {0} left you a {1} after your chat. -->
+  <TradeCaravanQuestInfoTalkedToReward>Después de la charla, {0} te dejó esto: {1}.</TradeCaravanQuestInfoTalkedToReward>
+  <!-- EN: {0} waves and comes closer -->
+  <TradeCaravan_Dia1_DiaTitle>{0} saluda con la mano y se acerca</TradeCaravan_Dia1_DiaTitle>
+  <!-- EN: Hey you. We&apos;ve been traveling for weeks now and we were hoping if we could make a few days rest at your village. We won&apos;t trouble you of course, we just need to relax for a bit. \nIt&apos;s been hard on the road. [{0} shivers] -->
+  <TradeCaravan_Dia1_1>Hola. Llevamos semanas viajando y esperábamos poder descansar unos días en su aldea. No les causaremos problemas, claro; solo necesitamos relajarnos un poco. \nEl camino fue duro. [{0} tiembla]</TradeCaravan_Dia1_1>
+  <!-- EN: Sure, we don&apos;t mind. You&apos;re welcome to stay a while. -->
+  <TradeCaravan_Dia1_1_Option1>Claro, no nos molesta. Pueden quedarse un tiempo.</TradeCaravan_Dia1_1_Option1>
+  <!-- EN: [{0} gives you a tired but beautiful smile] That&apos;s kind of you.\n[{0} takes a deep breath and {1} eyes glance over the village and beyond]\nThis is a fantastic village, it fades in with the beautiful nature all around perfectly. \nHow are you guys doing here? -->
+  <TradeCaravan_Dia1_2>[{0} te dedica una sonrisa cansada pero hermosa] Qué amables.\n[{0} respira hondo y recorre con la mirada la aldea y lo que hay más allá]\nEs una aldea fantástica, se funde a la perfección con la hermosa naturaleza que la rodea. \n¿Cómo les va aquí?</TradeCaravan_Dia1_2>
+  <!-- EN: That&apos;s... nice of you to say, thanks. \nWe&apos;ve put a lot of work into it so far, I hope we&apos;ll make it through the winter. -->
+  <TradeCaravan_Dia1_2_Option1>Eso es... muy amable de tu parte, gracias. \nLe pusimos mucho trabajo hasta ahora; espero que pasemos el invierno.</TradeCaravan_Dia1_2_Option1>
+  <!-- EN: I&apos;m sure you&apos;ll be fine. We started building a settlement not far from here. Hopefully Jack runs out of booze soon, so he can finally plan out the rest of the buildings. Our constructors are anxious to get to work.\n\nAnyway, you should come visit us when we&apos;re done and give us a chance to repay you guys for your hospitality. [You notice {0} starting to relax and smile] -->
+  <TradeCaravan_Dia1_3>Seguro que les irá bien. Empezamos a construir un asentamiento no muy lejos de aquí. Ojalá a Jack se le acabe pronto el alcohol, así por fin planifica el resto de los edificios. Nuestros constructores están ansiosos por ponerse a trabajar.\n\nEn fin, deberían venir a visitarnos cuando terminemos y darnos la oportunidad de devolverles su hospitalidad. [Notas que {0} empieza a relajarse y a sonreír]</TradeCaravan_Dia1_3>
+  <!-- EN: Thanks, we&apos;ll be happy to come visit. What brings you guys here? -->
+  <TradeCaravan_Dia1_3_Option1>Gracias, con gusto iremos a visitarlos. ¿Qué los trae por aquí?</TradeCaravan_Dia1_3_Option1>
+  <!-- EN: We might swing by. I&apos;ve got to go, duty calls. \nGood luck on your travels. -->
+  <TradeCaravan_Dia1_3_Option2>Puede que pasemos. Tengo que irme, el deber llama. \nBuena suerte en sus viajes.</TradeCaravan_Dia1_3_Option2>
+  <!-- EN: [{0} looks down and bites on {1} lip] That&apos;s a long story...\n\nBut I guess we have time. We come from another planet, but endless war over powerful artifacts was the end of Valeron. My fiance died when we fled to our guild&apos;s ship. I have no idea how we made it out alive before the planets&apos;s core collapsed.\n\n[{0} looks up to the sky trying to shake the bad memories] Years later we came across your planet. We quickly noticed the ancient structures that can be found all over the planet and our thirst for knowledge drove us to settle here.\n[{0} shrugs] I&apos;m not looking to repeat our mistakes, but in the end it&apos;s what we&apos;re good at. Settling here wasn&apos;t easy though, we were plagued by sickness, and raids from various factions.\n\n Any advice you can give us? -->
+  <TradeCaravan_Dia1_4>[{0} baja la mirada y se muerde el labio] Es una larga historia...\n\nPero supongo que tenemos tiempo. Venimos de otro planeta, pero una guerra interminable por artefactos poderosos fue el fin de Valeron. Mi pareja murió cuando huíamos a la nave de nuestro gremio. No tengo idea de cómo salimos con vida antes de que colapsara el núcleo del planeta.\n\n[{0} mira al cielo, intentando sacudirse los malos recuerdos] Años después dimos con su planeta. Pronto notamos las estructuras antiguas que hay por todo el planeta, y nuestra sed de conocimiento nos llevó a asentarnos aquí.\n[{0} se encoge de hombros] No quiero repetir nuestros errores, pero al final es lo que mejor sabemos hacer. Aun así, asentarnos aquí no fue fácil: nos azotaron las enfermedades y las incursiones de varias facciones.\n\n¿Algún consejo que puedas darnos?</TradeCaravan_Dia1_4>
+  <!-- EN: Wow, that&apos;s quite a story. Our ship crashed here as well not long ago.\nWe are just figuring things out same as you, i guess. \n[{1} points at {0}&apos;s weapon] You seem well equipped for the challenge though. -->
+  <TradeCaravan_Dia1_4_Option1>Vaya, menuda historia. Nuestra nave también se estrelló aquí no hace mucho.\nSupongo que estamos aprendiendo igual que ustedes. \n[{1} señala el arma de {0}] Aunque ustedes parecen bien equipados para el desafío.</TradeCaravan_Dia1_4_Option1>
+  <!-- EN: [{0} starts playing with {1} hair nervously] You noticed hm? Ya, we managed to excavate a bunch of shrines already and found incredible artifacts, but the mechs inside worry me. We lost two of us when breaking open our second shrine.\n\nTheir deaths weren&apos;t in vain! We&apos;d certainly be dead by now without all this gear we managed to scavenge.\n\n[Smiling again {0} looks you in the eyes] But things seem to work out fine, now that we have met you guys. I&apos;m sure our factions will be able to help one another if you&apos;re interested. -->
+  <TradeCaravan_Dia1_5>[{0} empieza a jugar nerviosamente con su pelo] Lo notaste, ¿eh? Sí, ya logramos excavar varios santuarios y encontramos artefactos increíbles, pero los mecas que hay dentro me preocupan. Perdimos a dos de los nuestros al abrir nuestro segundo santuario.\n\n¡Sus muertes no fueron en vano! Seguro que ya estaríamos muertos sin todo este equipo que logramos rescatar.\n\n[Sonriendo otra vez, {0} te mira a los ojos] Pero las cosas parecen ir bien, ahora que los conocimos. Seguro que nuestras facciones podrán ayudarse mutuamente, si les interesa.</TradeCaravan_Dia1_5>
+  <!-- EN: Definitely! Together we might actually make it in this strange place. -->
+  <TradeCaravan_Dia1_5_Option1>¡Desde luego! Juntos quizá logremos salir adelante en este lugar tan extraño.</TradeCaravan_Dia1_5_Option1>
+  <!-- EN: Can&apos;t make any commitments, sorry. -->
+  <TradeCaravan_Dia1_5_Option2>No puedo comprometerme a nada, lo siento.</TradeCaravan_Dia1_5_Option2>
+  <!-- EN: [{0} takes your hand and smiles] Amazing, I can&apos;t wait to bring the good news home... We&apos;re no longer alone.\n\nI&apos;m going to leave this {1} with you, we can spare it.\n\nI should talk to the others and see if everyone is ok. Thank you for that amazing chat, you gave me... hope. [{0} blushed as she let go of your hand and turned to {2} fellow guild mates] -->
+  <TradeCaravan_Dia1_6_1>[{0} te toma la mano y sonríe] Genial, no veo la hora de llevar la buena noticia a casa... Ya no estamos solos.\n\nLes dejo esto, podemos prescindir de ello: {1}.\n\nDebería hablar con los demás y ver si todos están bien. Gracias por esta charla increíble, me diste... esperanza. [{0} se sonroja al soltarte la mano y se vuelve hacia sus compañeros de gremio]</TradeCaravan_Dia1_6_1>
+  <!-- EN: [Coughing perplexed] Alright, see ya soon. -->
+  <TradeCaravan_Dia1_6_1_Option1>[Tos de desconcierto] Muy bien, nos vemos pronto.</TradeCaravan_Dia1_6_1_Option1>
+  <!-- EN: [{0} seems disappointed] Oh... okay. We still won&apos;t forget your help. Thank you. -->
+  <TradeCaravan_Dia1_6_2>[A {0} se le nota la decepción] Ah... bueno. Igual no olvidaremos su ayuda. Gracias.</TradeCaravan_Dia1_6_2>
+  <!-- EN: Take care on your travels! -->
+  <TradeCaravan_Dia1_6_2_Option1>¡Cuídense en sus viajes!</TradeCaravan_Dia1_6_2_Option1>
+  <!-- EN: Caravan Adventures - Rescue a friend -->
+  <StoryVillageQuestName>Caravan Adventures - Al rescate de una amistad</StoryVillageQuestName>
+  <!-- EN: {0} sent a letter requesting help urgently. The letter reads:\n -->
+  <StoryVillageQuestDesc>{0} envió una carta pidiendo ayuda urgente. La carta dice:\n</StoryVillageQuestDesc>
+  <!-- EN: Dear {0},\n\nI really hope u get this letter in time, or we might all be dead. We came across a large shrine and as we cracked it open masses of mechanoids streamed out. We got away, but ever since huge hordes of mechanoids keep attacking our village.\nI&apos;m sending this letter in hope that you can make it here in time to assist us. We&apos;re preparing an escape, but we have to wait for our reinforcements to stand any chance of escaping with our lives.\n\nPlease help us in those dark times and venture to {1} at haste, we&apos;d never forget this great deed. -->
+  <StoryVillageQuestLetterContent>Hola, {0}:\n\nDe verdad espero que recibas esta carta a tiempo, o quizá todos estemos muertos. Dimos con un gran santuario y, al abrirlo, salieron masas de mecanoides. Logramos escapar, pero desde entonces enormes hordas de mecanoides no dejan de atacar nuestra aldea.\nTe envío esta carta con la esperanza de que llegues a tiempo para ayudarnos. Estamos preparando una huida, pero tenemos que esperar a nuestros refuerzos para tener alguna posibilidad de escapar con vida.\n\nPor favor, ayúdanos en estos tiempos oscuros y viaja a {1} cuanto antes; jamás olvidaríamos esta gran hazaña.</StoryVillageQuestLetterContent>
+  <!-- EN: PS: I hope you guys are doing well, I really miss talking to you, I had such a great time when we met. I hope to see you soon, aiding us again. -->
+  <StoryVillageQuestLetterContentPS>PD: Espero que estén bien. Extraño mucho hablar contigo, lo pasé muy bien cuando nos conocimos. Espero verte pronto, ayudándonos otra vez.</StoryVillageQuestLetterContentPS>
+  <!-- EN: Your&apos;s sincerely,\n\n{0}\n -->
+  <StoryVillageQuestLetterContentEnding>Atentamente,\n\n{0}\n</StoryVillageQuestLetterContentEnding>
+  <!-- EN: Travel to the {0} Village {1} and assist {2} before it&apos;s too late. -->
+  <StoryVillageQuestDesc2>Viaja a {1}, la aldea de los {0}, y ayuda a {2} antes de que sea demasiado tarde.</StoryVillageQuestDesc2>
+  <!-- EN: Enter {0} -->
+  <VisitStoryVillageLabel>Entrar en {0}</VisitStoryVillageLabel>
+  <!-- EN: Entering village -->
+  <StoryVillageEnterMapMessage>Entrando en la aldea</StoryVillageEnterMapMessage>
+  <!-- EN: Entered {0} -->
+  <StoryVillageArrivedLetterTitle>Llegada a {0}</StoryVillageArrivedLetterTitle>
+  <!-- EN: Your caravan arrived at {0}. Seems to be a nice place. -->
+  <StoryVillageArrivedLetterMessage>Tu caravana llegó a {0}. Parece un lugar agradable.</StoryVillageArrivedLetterMessage>
+  <!-- EN: While hostile, you can&apos;t help {0}. -->
+  <StoryVillageCantArriveHostile>No puedes ayudar a {0} mientras haya hostilidad entre ustedes.</StoryVillageCantArriveHostile>
+  <!-- EN: {0} embraces you -->
+  <StoryVillage_Dia1_DiaTitle>{0} te abraza</StoryVillage_Dia1_DiaTitle>
+  <!-- EN: {0}, you came. Thank god. We barely fended off the last attack and our scouts spotted the next and yet biggest army only a few minutes away.\n\nI hope our reinforcements make it in time.  -->
+  <StoryVillage_Dia1_1>{0}, viniste. Gracias a Dios. Apenas logramos repeler el último ataque, y nuestros exploradores vieron el siguiente ejército, el más grande hasta ahora, a solo unos minutos.\n\nEspero que nuestros refuerzos lleguen a tiempo. </StoryVillage_Dia1_1>
+  <!-- EN: Good to see you. Any idea why those mechs are after you that bad?\nWe sure get attacked as well, but nothing as you described. -->
+  <StoryVillage_Dia1_1_Option1>Me alegra verte. ¿Alguna idea de por qué esos mecas los persiguen tanto?\nA nosotros también nos atacan, pero nada como lo que describiste.</StoryVillage_Dia1_1_Option1>
+  <!-- EN: [{0}, pale and exhausted, looks you in the eyes] We don&apos;t know exactly. It was a huge shrine. Once we discovered the hordes of mechs coming out of that place we used our last nuke to level the whole place. But it looks like most made it out and they&apos;re after us now.\n\n[{0} hands you a small device in haste] Take this comms device, so I&apos;ll be able to contact you. -->
+  <StoryVillage_Dia1_2>[Con el rostro pálido y agotado, {0} te mira a los ojos] No lo sabemos con exactitud. Era un santuario enorme. Cuando vimos las hordas de mecas que salían de ese lugar, usamos nuestra última bomba nuclear para arrasarlo por completo. Pero parece que la mayoría salió y ahora vienen por nosotros.\n\n[{0} te entrega a toda prisa un pequeño dispositivo] Toma este comunicador, así podré contactarte.</StoryVillage_Dia1_2>
+  <!-- EN: Alright, lets see if we can&apos;t defend this place. -->
+  <StoryVillage_Dia1_2_Option1>Muy bien, veamos si podemos defender este lugar.</StoryVillage_Dia1_2_Option1>
+  <!-- EN: How about we just leave now? -->
+  <StoryVillage_Dia1_2_Option2>¿Y si mejor nos vamos ahora?</StoryVillage_Dia1_2_Option2>
+  <!-- EN: They are here, take cover!\n\n[{0} screamed] My god, what a horde... -->
+  <StoryVillage_Dia1_3>¡Están aquí, a cubierto!\n\n[{0} gritó] Dios mío, qué horda...</StoryVillage_Dia1_3>
+  <!-- EN: Are you really sure you want to fight this? -->
+  <StoryVillage_Dia1_3_Option1>¿De verdad quieres pelear contra esto?</StoryVillage_Dia1_3_Option1>
+  <!-- EN: Yah, they need to be held of until we were able to get the civilians out of here. -->
+  <StoryVillage_Dia1_4>Sí, hay que contenerlos hasta que logremos sacar a los civiles de aquí.</StoryVillage_Dia1_4>
+  <!-- EN: Guess today is as good a day to die as any. -->
+  <StoryVillage_Dia1_4_Option1>Supongo que hoy es tan buen día como cualquier otro para morir.</StoryVillage_Dia1_4_Option1>
+  <!-- EN: Either help {0} to defend {1} base or make a run for it, although Sacrileg Hunters would make good allies in the battles to come. -->
+  <StoryVillage_QuestUpdate_MechsArrived>Ayuda a {0} a defender su base o huye, aunque los Cazadores Sacrílegos serían buenos aliados en las batallas que vienen.</StoryVillage_QuestUpdate_MechsArrived>
+  <!-- EN: {0} died before the hostile mechs arrived. You can still try to defend the base, but it won&apos;t be easy. -->
+  <StoryVillage_QuestUpdate_MechsArrivedFriendAlreadyDead>{0} murió antes de que llegaran los mecas hostiles. Aún puedes intentar defender la base, pero no será fácil.</StoryVillage_QuestUpdate_MechsArrivedFriendAlreadyDead>
+  <!-- EN: {0} had to flee before reinforcements arrived and was killed by mechanoids approaching the village. -->
+  <StoryVillage_QuestUpdate_MechsArrivedFriendDiedFleeing>{0} tuvo que huir antes de que llegaran los refuerzos y murió a manos de los mecanoides que se acercaban a la aldea.</StoryVillage_QuestUpdate_MechsArrivedFriendDiedFleeing>
+  <!-- EN: {0} are attacking {2} -->
+  <VillageAttackMechsMessage>{0} están atacando {2}</VillageAttackMechsMessage>
+  <!-- EN: {0} shouts loudly... -->
+  <StoryVillage_Dia2_Title>{0} grita con fuerza...</StoryVillage_Dia2_Title>
+  <!-- EN: Ey, our reinforcements are here, lets go guys, give them hell!\n\nTowns people and council members, to the escape routes! -->
+  <StoryVillage_Dia2_1>¡Eh, llegaron nuestros refuerzos! ¡Vamos, chicos, denles con todo!\n\n¡Pobladores y miembros del consejo, a las rutas de escape!</StoryVillage_Dia2_1>
+  <!-- EN: This isn&apos;t gonna end well... -->
+  <StoryVillage_Dia2_1_Option1>Esto no va a terminar bien...</StoryVillage_Dia2_1_Option1>
+  <!-- EN: {0} contacts you via comms device... -->
+  <StoryVillage_Dia3_Title>{0} te contacta por el comunicador...</StoryVillage_Dia3_Title>
+  <!-- EN: We got out alive, this is horrible. I&apos;ll have to meet up with our expert hunters and come up with a plan how to defeat these things. We need to act fast or all is lost.\n\nI&apos;ll contact you when we know more, good luck.\n... and thanks. I won&apos;t forget that you fought for us. -->
+  <StoryVillage_Dia3_1_Alive>Salimos con vida, esto es horrible. Tendré que reunirme con nuestros cazadores expertos y pensar un plan para derrotar a estas cosas. Tenemos que actuar rápido o todo estará perdido.\n\nTe contactaré cuando sepamos más. Buena suerte.\n... y gracias. No olvidaré que luchaste por nosotros.</StoryVillage_Dia3_1_Alive>
+  <!-- EN: Save... yourself...\nThis battle... is lost...\nSomeone will reach... out to... you... I&apos;m... sorry... -->
+  <StoryVillage_Dia3_1_Dying>Sálvate... tú...\nEsta batalla... está perdida...\nAlguien se pondrá... en contacto... contigo... Lo... siento...</StoryVillage_Dia3_1_Dying>
+  <!-- EN: We got out alive, this is horrible. I&apos;ll have to meet up with our expert hunters and come up with a plan how to defeat these things. We need to act fast or all is lost.\n\nI&apos;ll contact you when we know more, though I really hope u will help us next time. I was sad to see that you didn&apos;t stick around to help. -->
+  <StoryVillage_Dia3_1_AliveNoHelpFromPlayer>Salimos con vida, esto es horrible. Tendré que reunirme con nuestros cazadores expertos y pensar un plan para derrotar a estas cosas. Tenemos que actuar rápido o todo estará perdido.\n\nTe contactaré cuando sepamos más, aunque de verdad espero que la próxima vez nos ayudes. Me entristeció ver que no te quedaste a ayudar.</StoryVillage_Dia3_1_AliveNoHelpFromPlayer>
+  <!-- EN: Lets move on -->
+  <StoryVillage_Dia3_1_Option1>Sigamos adelante</StoryVillage_Dia3_1_Option1>
+  <!-- EN: Sacrileg Hunters are fleeing. -->
+  <StoryVillage_SacHunters_Fleeing>Los Cazadores Sacrílegos están huyendo.</StoryVillage_SacHunters_Fleeing>
+  <!-- EN: Villagers are escaping as planned. -->
+  <StoryVillage_SacHuntersCivs_Fleeing>Los aldeanos escapan según lo planeado.</StoryVillage_SacHuntersCivs_Fleeing>
+  <!-- EN: The towns folk were able to get to safety, your task is complete. -->
+  <StoryVillage_QuestUpdate_CanLeaveSuccess>Los pobladores lograron ponerse a salvo; tu tarea está completa.</StoryVillage_QuestUpdate_CanLeaveSuccess>
+  <!-- EN: Sacrileg Hunter&apos;s leadership took losses and they will need some time to recover. Your task failed. -->
+  <StoryVillage_QuestUpdate_CanLeaveFailed>Los líderes de los Cazadores Sacrílegos sufrieron bajas y necesitarán un tiempo para recuperarse. Tu tarea fracasó.</StoryVillage_QuestUpdate_CanLeaveFailed>
+  <!-- EN: You survived and made it out alive. But where did all those mechs come from? Best to watch out for more clues... -->
+  <StoryVillage_QuestUpdate_Survived>Sobreviviste y saliste con vida. Pero ¿de dónde salieron todos esos mecas? Mejor seguir atentos a nuevas pistas...</StoryVillage_QuestUpdate_Survived>
+  <!-- EN: Planet-wide bounty announcement -->
+  <StoryVillage_Response_BountyInitiatedTitle>Anuncio de recompensa en todo el planeta</StoryVillage_Response_BountyInitiatedTitle>
+  <!-- EN: Following the tragic mechanoid attack on one of our settlements we, {0}, hereby place a bounty on {1}.\n\nFor every personal kill, your faction will earn bounty credits which can be traded in for military support, rare items, help with smoothing over relations, and for very ambitious participants, you may get the ability to enlist our top veterans permanently.\n\nSimply contact us via the comms console.\nGood hunt! -->
+  <StoryVillage_Response_BountyInitiatedDesc>Tras el trágico ataque mecanoide contra uno de nuestros asentamientos, nosotros, los {0}, ofrecemos por la presente una recompensa por {1}.\n\nPor cada baja que cause personalmente, tu facción ganará créditos de recompensa, que podrá cambiar por apoyo militar, objetos raros y ayuda para suavizar relaciones. Los participantes más ambiciosos podrán incluso alistar de forma permanente a nuestros mejores veteranos.\n\nSolo tienes que contactarnos a través de la consola de comunicaciones.\n¡Buena caza!</StoryVillage_Response_BountyInitiatedDesc>
+  <!-- EN: Unload items -->
+  <DropItemAlert>Descargar objetos</DropItemAlert>
+  <!-- EN: Start unloading items from all colonists and animals. -->
+  <DropItemDesc>Empieza a descargar los objetos de todos los colonos y animales.</DropItemDesc>
+</LanguageData>
