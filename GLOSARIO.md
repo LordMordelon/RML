@@ -29,6 +29,8 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | mechhive / mech hive | **mecacolmena** | Oficial vanilla. NO "colmena mecanoide" |
 | war mech | meca de guerra | |
 | labor mech | meca de trabajo | |
+| mechanoid slag chunk | **desechos mecanoide** | Oficial vanilla (`ChunkMechanoidSlag`), con el adjetivo en singular |
+| exostrider | **exozancador** | Oficial de Odyssey. NO «exoandador» |
 | subcore | **subnúcleo** | |
 | basic subcore | **subnúcleo básico** | |
 | standard subcore | **subnúcleo estándar** | Oficial vanilla. NO "subnúcleo regular" |

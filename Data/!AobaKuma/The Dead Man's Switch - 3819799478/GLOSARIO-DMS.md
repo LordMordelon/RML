@@ -11,7 +11,10 @@ halcón», «escuadras de ronin».
 
 | Inglés | Español | Notas |
 |---|---|---|
-| automatroid | **automatroide** | Más de 100 usos. No «autómata»: quedan 4 así, a corregir (ver abajo) |
+| automatroid | **automatroide** | Más de 100 usos. No «autómata»: quedan 4 así, a corregir (ver abajo). No tiene forma corta: no se inventa una |
+| mech | **meca** (pl. mecas) | La forma corta que usa el propio inglés, como en el glosario general. No «mecanoide», que es *mechanoid*. Decidido por Angel el 21-oct-2026 |
+| automatroid debris | **desechos automatroide** | Como los «desechos mecanoide» oficiales (`ChunkMechanoidSlag`). La variante antigua: «desechos automatroide antiguos». Pedido por Angel el 21-oct-2026 |
+| exostrider | **exozancador** | Oficial de Odyssey («restos del exozancador») |
 | battle frame | **armazón de batalla** (pl. armazones) | La línea de automatroides de carga |
 | battle friend | **amigo de batalla** | El automatroide `DMS_Mech_BattleFrame` y la investigación. En la descripción de la investigación se dejan las dos formas en inglés con su traducción entre paréntesis, porque el chiste es que suenan parecido |
 | Dead Man's Switch | **Dead Man's Switch** | Nombre propio: no se traduce, ni como mecanismo |
