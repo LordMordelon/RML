@@ -35,6 +35,16 @@ riesgo». Los nombres de serie llevan mayúscula solo dentro de las descripcione
 | Aerial | aeroasaltante | | Sarcophagus | sarcófago |
 | Barrage | barrera | | Brute | bruto |
 | Hazard | riesgo | | Toxin (Toxin Warcasket) | toxina |
+| | | | Shipcracker (Shipcracker Warcasket) | rompenaves |
+
+**Los sarcotrajes espaciales** (décima generación) dicen «de tecnología espacial»: «Casco de sarcotraje de
+tecnología espacial especializado con dispersión de impacto mejorada» (*improved impact dispersion*). Otros
+términos de esas piezas: *melee assistor modules* = «módulos de asistencia cuerpo a cuerpo», *ranged shield*
+= «escudo a distancia».
+
+**Shipcracker Warcasket:** *breach jump* = «salto de brecha», *breach burn* = «impulso de brecha», *breach
+power* = «potencia de brecha», *drop thrusters* = «propulsores de descenso», *boarding corps* = «cuerpos de
+abordaje». Con Vanilla Gravship Expanded, la carga de oxígeno es «oxígeno u³», como en ese mod.
 
 **El párrafo de la séptima generación** se copia igual en cada pieza:
 
@@ -111,4 +121,6 @@ No hay ningún `TODO`. Lo que queda por corregir:
 | `VFEPirates.WarcasketDef` · la habilidad de minas | Desplegar minaraña | desplegar mina araña |
 | `VFEPirates.CurseDef` · 18 maldiciones | Maldición de la Mente, …de los Boomalopes | Maldición de la mente, …de los bumalopes |
 | `VEF.Abilities.AbilityDef` | Modo de asedio, Salto de potencia, Despegue | en minúscula |
-| `ScenarioDef` | Choque en Órbita Baja | Choque en órbita baja |
+
+Los escenarios **sí** llevan mayúscula en cada palabra, como los oficiales («La Tribu Perdida»,
+«Desnudez Brutal», «El Explorador Millonario»): «Choque en Órbita Baja» queda como está.
