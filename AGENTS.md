@@ -213,6 +213,12 @@ Se marca desde la página abierta con `?revisar` al final de la dirección
 revisada», que abre un issue ya escrito. Al crearlo, `revisado.yml` anota la fecha, republica la
 página y cierra el issue. Solo actúa con issues del dueño del repo.
 
+Junto al filtro aparece además «marcar las N como revisadas», que hace lo mismo con todas las
+atrasadas en un solo issue. Ese issue lleva una línea `- <WorkshopID> <fecha>` por mod, y se anota
+la fecha de Steam que mostraba la página, no la del momento: si un mod se actualizó después de
+mirarla, esa actualización sigue saliendo como atrasada. Los nombres no van en el enlace, que con
+80 mods se acercaría al largo máximo de una dirección; `revisado.yml` los saca de `ModList.tsv`.
+
 ## Antes de commitear: mirar el diff
 
 Es la regla que más veces salvó el repositorio. Una reextracción puede dañar traducciones

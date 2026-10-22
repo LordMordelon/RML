@@ -62,6 +62,11 @@ public static class ModListFormatos
         int Atrasadas = Filas.Count(Fila => Fila.PosiblementeAtrasada);
         int Revisadas = Filas.Count(Fila => Fila.Revisada);
 
+        var ParaRevisar = Filas.Where(Fila => Fila.PosiblementeAtrasada && Fila.WorkshopID is not null).ToList();
+        string RevisarTodas = ParaRevisar.Count > 0
+            ? $"<a class=\"revisar todas\" href=\"{WebUtility.HtmlEncode(EnlaceRevisadoTodas(ParaRevisar))}\">marcar las {ParaRevisar.Count} como revisadas</a>"
+            : "";
+
         var Pagina = $$"""
             <!doctype html>
             <!-- GENERADO por Source/LoadFoldersBuilder: no editar a mano. -->
@@ -118,6 +123,9 @@ public static class ModListFormatos
               white-space: nowrap; border: 1px solid var(--borde); color: var(--suave); cursor: help; }
             .revisar { display: none; margin-left: 6px; font-size: .75em; white-space: nowrap; }
             .revisando .revisar { display: inline; }
+            .revisando .revisar.todas { display: inline-block; margin: 0; padding: 6px 12px; font-size: .85em;
+              border: 1px solid var(--acento); border-radius: 8px; }
+            .revisando .revisar.todas:hover { text-decoration: none; background: var(--fondo); }
             .vacio { padding: 24px 14px; text-align: center; color: var(--suave); }
             footer { margin-top: 20px; }
             @media (max-width: 640px) {
@@ -142,6 +150,7 @@ public static class ModListFormatos
             <div class="controles" hidden>
             <input type="search" id="buscar" placeholder="Buscar por nombre o packageId" aria-label="Buscar mod">
             <label><input type="checkbox" id="atrasadas"> Solo posiblemente atrasadas</label>
+            {{RevisarTodas}}
             <span class="contador" id="contador" aria-live="polite"></span>
             </div>
 
@@ -240,6 +249,22 @@ public static class ModListFormatos
         string Titulo = $"Revisado: {WorkshopID} {Fila.Nombre}";
         string Cuerpo = $"La actualización del {Fila.Actualizacion} en Steam de {Fila.Nombre} no cambiaba nada que traducir.\n\n"
                         + "Al crear este issue, GitHub lo anota en Revisados.tsv, actualiza la página y lo cierra.";
+        return "https://github.com/LordMordelon/RML/issues/new"
+               + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}";
+    }
+
+    /** El issue que marca de una vez todas las que la pagina muestra como posiblemente atrasadas.
+     *  Cada una va en su linea, «- WorkshopID fecha», con la fecha de Steam que mostraba la pagina:
+     *  asi se anota lo que se vio, y un mod que se actualice entre medio sigue atrasado. Sin los
+     *  nombres, que revisado.yml saca de ModList.tsv: con 80 mods el enlace se acercaria al largo
+     *  maximo de una direccion. Sin ellos son unos 2700 caracteres.
+     */
+    private static string EnlaceRevisadoTodas(List<FilaDeModList> Filas)
+    {
+        string Titulo = $"Revisado: todas las posiblemente atrasadas ({Filas.Count})";
+        string Cuerpo = $"Las actualizaciones en Steam de estos {Filas.Count} mods no cambiaban nada que traducir.\n\n"
+                        + string.Join("\n", Filas.Select(Fila => $"- {Fila.WorkshopID} {Fila.Actualizacion}"))
+                        + "\n\nAl crear este issue, GitHub los anota en Revisados.tsv, actualiza la página y lo cierra.";
         return "https://github.com/LordMordelon/RML/issues/new"
                + $"?title={Uri.EscapeDataString(Titulo)}&body={Uri.EscapeDataString(Cuerpo)}";
     }
