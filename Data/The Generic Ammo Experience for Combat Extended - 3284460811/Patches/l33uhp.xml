@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Warbow"]/description</xpath>
+          <value>
+            <!-- EN: A powerful, heavy variant of the greatbow. Its great strength allows the wielder to fire indirect volleys. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Black powder extras for Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFEM2_Handgunner"]/label</xpath>
+            <value>
+              <!-- EN: harquebusier -->
+              <label>TODO</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

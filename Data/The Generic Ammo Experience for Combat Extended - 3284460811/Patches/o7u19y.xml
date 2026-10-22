@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Laser</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VWE_LaserWeapons"]/label</xpath>
+          <value>
+            <!-- EN: primitive laser weapons -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserPistol"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech pistol capable of emitting a concentrated beam of light with enough power to deal considerable damage at short range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserSMG"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech submachine gun capable of emitting a concentrated beam of light with enough power to deal considerable damage at short to medium ranges. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserRifle"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech rifle capable of emitting a concentrated beam of light with enough power to deal considerable damage. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserShotgun"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech scattergun capable of emitting several beams of light, with each scattered beam dealing considerable damage at short range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserShotgun"]/description</xpath>
+          <value>
+            <!-- EN: A salvaged scattergun capable of emitting several beams of light, with each scattered beam dealing considerable damage at short range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserSniperRifle"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech sniper rifle capable of emitting a concentrated beam of light with enough power to deal considerable damage at long ranges. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserMinigun"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech multi-scatterer device capable of emitting a concentrated beam of light with enough power to deal considerable damage with a long, continuous firing mode. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_TeslaGun"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech arc lightning device capable of emitting a lightning bolt that disable electronic systems and sets enemies on fire.\n\nWeapons like these are widely used by ultratech marines during mechanoid wars. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserPistol"]/description</xpath>
+          <value>
+            <!-- EN: A salvaged pistol capable of emitting an unstable beam of light with enough power to deal moderate damage at short range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserRifle"]/description</xpath>
+          <value>
+            <!-- EN: A salvaged rifle capable of emitting an unstable beam of light with enough power to deal moderate damage. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserSniperRifle"]/description</xpath>
+          <value>
+            <!-- EN: A salvaged sniper rifle capable of emitting a concentrated beam of light with enough power to deal moderate damage at long ranges. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

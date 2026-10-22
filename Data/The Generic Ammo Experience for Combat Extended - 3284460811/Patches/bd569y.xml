@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Heavy Weapons</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/label</xpath>
+          <value>
+            <!-- EN: handheld autocannon -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_Autocannon"]/description</xpath>
+          <value>
+            <!-- EN: A self-loading large-bore cannon. Its large-caliber shells do heavy damage over significant ranges. It&apos;s slow to aim and it cannot fire at close-up targets.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/description</xpath>
+          <value>
+            <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. It&apos;s slow to aim and it cannot fire at close-up targets.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_HeavyFlamer"]/description</xpath>
+          <value>
+            <!-- EN: A powerful, military-grade flamer based on mechanoid inferno spewers. It can cover the entire area in front of the user in flames.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_SwarmMissileLauncher"]/description</xpath>
+          <value>
+            <!-- EN: A rocket launcher that fires eight small-bore explosive missiles that track different targets.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/description</xpath>
+          <value>
+            <!-- EN: A self-loading uranium slug cannon. Its ultra-dense uranium shells can punch through heavy armor. It&quot;s more accurate at longer ranges, and can&apos;t fire at all close up.\n\nBeing an extremely heavy weapon, this gun requires a power armor to be effectively used. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

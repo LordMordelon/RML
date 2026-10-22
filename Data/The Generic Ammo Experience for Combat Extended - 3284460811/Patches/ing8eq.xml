@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_WarcasketGun_HandheldCannon"]/description</xpath>
+          <value>
+            <!-- EN: Essentially a handheld smoothbore mortar that fires explosives in an arc, able to bypass enemy fortifications. Made by those who wanted to combine ancient naval warfare with modern technology. The accuracy is abysmal but its utility - and the cost of its ammo compared to other warcasket weapons - more than makes up for it. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_Box_HandheldCannon"]/description</xpath>
+          <value>
+            <!-- EN: Essentially a handheld smoothbore mortar that fires explosives in an arc, able to bypass enemy fortifications. Made by those who wanted to combine ancient naval warfare with modern technology. The accuracy is abysmal but its utility - and the cost of its ammo compared to other warcasket weapons - more than makes up for it. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_Box_Minigun"]/description</xpath>
+          <value>
+            <!-- EN: An upscaled version of the minigun designed for use by a warcasket. It uses larger caliber magnum rifle rounds with devastating effect. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_WarcasketGun_Minigun"]/description</xpath>
+          <value>
+            <!-- EN: An upscaled version of the minigun designed for use by a warcasket. It uses larger caliber magnum rifle rounds with devastating effect. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_Box_GrenadeLauncher"]/description</xpath>
+          <value>
+            <!-- EN: An upscaled version of the grenade launcher designed for use by a warcasket. A straight upgrade, it fires in bursts of 4 and benefits from recoil damping for faster recovery and better range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_WarcasketGun_GrenadeLauncher"]/description</xpath>
+          <value>
+            <!-- EN: An upscaled version of the grenade launcher designed for use by a warcasket. A straight upgrade, it fires in bursts of 4 and benefits from recoil damping for faster recovery and better range. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]/description</xpath>
+          <value>
+            <!-- EN: A portable medieval cannon mounted on a swivel, capable of launching cannon balls at considerable ranges. The accuracy is rather lacking, but it is a vast improvement compared to pre-gunpowder weapons like catapults in almost every aspect. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEP_Turret_FieldGun"]/description</xpath>
+          <value>
+            <!-- EN: A light manned gun that can fire a variety of cannon shells. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

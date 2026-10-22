@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Deserters</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFED_Turret_Onager"]/description</xpath>
+          <value>
+            <!-- EN: A powerful, anti-armored weapon used by the Empire to destroy heavily armored targets with ease. Capable of launching missiles in bursts of 8, the Onager can deal devastating damage to enemy forces in a short amount of time. The Onager turret is most effective at short range, where its missiles can be accurately targeted at enemy positions. However, it cannot fire at enemies that are too close, as the missiles require a certain distance to arm and track their targets. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFED_Turret_Palintone"]/description</xpath>
+          <value>
+            <!-- EN: A powerful, anti-infantry weapon used by the Empire to defend unsafe outposts. Palintone turret fires large-caliber shells at incredible speeds, dealing heavy damage over significant ranges. It fires huge volleys of rounds that can provide suppressive fire and quickly shred lightly armored targets. With its devastating firepower, the Palintone turret is capable of keeping even the largest enemy forces at bay. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFED_Turret_Kontarion"]/description</xpath>
+          <value>
+            <!-- EN: A powerful, long-range weapon used by the Empire to take out enemy targets from afar. Kontarion turret fires ultra-dense uranium slugs at incredible speeds, penetrating even the heaviest armor. With its rapid-fire capabilities, tremendous accuracy and infinite range, it’s a force to be reckoned with. It&apos;s more accurate at longer ranges, and can&quot;t fire at all close up. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
