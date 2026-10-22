@@ -54,6 +54,8 @@
   <CWF_BillAdded>Pedido añadido: {MODULE_label} ({BENCH_label})</CWF_BillAdded>
   <!-- EN: Dye -->
   <CWF_WeaponColor>Teñir</CWF_WeaponColor>
+  <!-- EN: Dye is only available in Dynamic appearance. -->
+  <CWF_WeaponColorUnavailable>El teñido solo está disponible con la apariencia dinámica.</CWF_WeaponColorUnavailable>
   <!-- EN: Customize Weapon -->
   <CWF_SettingsCategory>Customize Weapon</CWF_SettingsCategory>
   <!-- EN: Parts -->
@@ -92,8 +94,6 @@
   <CWF_Rarity_Legendary>Legendario</CWF_Rarity_Legendary>
   <!-- EN: Input -->
   <CWF_InputTitle>Entrada</CWF_InputTitle>
-  <!-- EN: Only ranged weapons are supported right now. -->
-  <CWF_NotRanged>Por ahora solo se admiten armas a distancia.</CWF_NotRanged>
   <!-- EN: Confirm Install -->
   <CWF_ConfirmInstallTitle>Confirmar instalación</CWF_ConfirmInstallTitle>
   <!-- EN: Installing {MODULE} will also remove these modules:\n\n{CONFLICTS}\n\nContinue? -->
@@ -112,10 +112,6 @@
 ¿Continuar?</CWF_ConfirmUninstallBody>
   <!-- EN: From weapon modules -->
   <CWF_FromEquipped>De los módulos del arma</CWF_FromEquipped>
-  <!-- EN: Enable Dynamic Textures -->
-  <CWF_DynamicTextures>Activar texturas dinámicas</CWF_DynamicTextures>
-  <!-- EN: If enabled, weapon textures are dynamically composed from installed modules. Disable to keep the weapon&apos;s original appearance. -->
-  <CWF_DynamicTexturesDesc>Si se activa, las texturas del arma se componen dinámicamente a partir de los módulos instalados. Desactívalo para conservar el aspecto original del arma.</CWF_DynamicTexturesDesc>
   <!-- EN: Random Module Generation -->
   <CWF_RandomModuleGeneration>Generación aleatoria de módulos</CWF_RandomModuleGeneration>
   <!-- EN: If enabled, pawns from other factions, like raiders, allies, and traders, can spawn with weapons that have random modules -->
@@ -160,4 +156,10 @@
   <CWF_PresetApplied>Configuración aplicada: {NAME}</CWF_PresetApplied>
   <!-- EN: Applied preset: {NAME} (skipped {COUNT} missing or incompatible modules) -->
   <CWF_PresetAppliedWithSkipped>Configuración aplicada: {NAME} (se omitieron {COUNT} módulos ausentes o incompatibles)</CWF_PresetAppliedWithSkipped>
+  <!-- EN: Style -->
+  <CWF_WeaponStyle>Estilo</CWF_WeaponStyle>
+  <!-- EN: Original -->
+  <CWF_AppearanceOriginal>Original</CWF_AppearanceOriginal>
+  <!-- EN: Dynamic -->
+  <CWF_AppearanceDynamic>Dinámica</CWF_AppearanceDynamic>
 </LanguageData>
