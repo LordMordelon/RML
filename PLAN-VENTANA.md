@@ -234,9 +234,12 @@ script del flujo se probó en local con GitHub y Steam simulados: pedido nuevo, 
 persona, ya traducido, sin la línea, número que Steam no conoce, `sin-texto` y pedido de un mod sin
 texto. La página se revisó con capturas en ancho de escritorio y de celular.
 
-## Próxima sesión
+## Subida y probada en GitHub (24-oct-2026)
 
-**Estado:** etapa 4 hecha en local. Falta subirla, crear las etiquetas `solicitud` y `sin-texto`, y
-probar el flujo con un pedido real (Angel autorizó el 24-oct abrir uno de prueba con su cuenta).
-**Angel:** probar en el juego que un mod anotado como sin texto sale «Sin texto» | «No necesita
-traducción» (hace falta un mod así en `SinTexto.tsv` y regenerar `output/`).
+Angel autorizó subirla y probarla. Están creadas las etiquetas `solicitud` y `sin-texto`. El pedido de
+prueba fue el issue #6, Harmony (2009463077), que de verdad no tiene texto: se anotó con el puesto 1,
+salió en `solicitudes.html` y, con la etiqueta `sin-texto`, pasó a `SinTexto.tsv`, se cerró y salió del
+gráfico. Las cuatro corridas quedaron en verde.
+
+**Falta (Angel):** probar en el juego, con la próxima copia de `output/`, que Harmony sale «Sin texto» |
+«No necesita traducción», sin botón «Solicitar».
