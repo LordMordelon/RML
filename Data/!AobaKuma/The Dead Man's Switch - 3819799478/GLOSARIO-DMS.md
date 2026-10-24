@@ -238,8 +238,10 @@ explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la mun
 «venerado» (el «sagrado» oficial es el del animal venerado, otro contexto).
 
 **No se traducen**: los `shaderProgram.sceneGrab.name` de `ShaderDef`, que son nombres de shader. Se
-copian igual que el `EN:`. Y `DMS_AMO_Beast.description` queda en `TODO` porque el inglés del mod
-también dice «TODO»: el autor no le escribió descripción.
+copian igual que el `EN:`. `DMS_AMO_Beast.description` dice «TODO» en el inglés del mod: el autor no le escribió descripción.
+Angel pidió una el 24-oct-2026 y quedó escrita por nosotros, con los datos del def (cuerpo, ataques,
+regeneración con raciones) y la historia de los OMA del hombre rana. Si el autor la escribe, el
+comentario `EN:` cambia y la nuestra se reemplaza por la traducción de la suya.
 
 ## Términos nuevos del II (sesión 7, actualización del 24-oct-2026)
 

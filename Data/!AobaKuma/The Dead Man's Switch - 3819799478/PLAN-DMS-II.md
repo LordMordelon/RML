@@ -165,8 +165,8 @@ reemplazando solo el `TODO`; en las reglas de gramática, el símbolo y el «->�
 
 **Objetivo:** arreglar lo que Angel encuentre al probar en partida y cerrar el plan.
 
-**Estado:** la etapa 4 está terminada: no queda ningún `TODO` salvo `DMS_AMO_Beast.description`, cuyo inglés
-también dice «TODO». La sesión 6 tradujo los 142 renglones del punto 7 y 10 de `Patches/`, comparó las
+**Estado:** la etapa 4 está terminada: no queda ningún `TODO`. `DMS_AMO_Beast.description`, cuyo inglés
+dice «TODO», lleva desde el 24-oct-2026 una descripción escrita por nosotros (ver `GLOSARIO-DMS.md`). La sesión 6 tradujo los 142 renglones del punto 7 y 10 de `Patches/`, comparó las
 etiquetas con la traducción oficial (4 términos corregidos) y resolvió tres de los «Pendientes» del glosario.
 Todo anotado en «sesión 6» de `GLOSARIO-DMS.md`. Las tres comprobaciones del diff contra `cef2dd5` (antes de la
 etapa 4) salen bien: la 2 y la 3 vacías, y la 1 muestra solo correcciones a propósito. `-build` corrido: el
