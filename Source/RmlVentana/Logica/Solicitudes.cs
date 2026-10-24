@@ -32,14 +32,15 @@ namespace RmlVentana.Logica
                 Guardadas.Remove(Id);
         }
 
-        /** «18-oct» o «Oct 18», segun el formato y los meses del idioma. Vacio si la fecha no se lee. */
+        /** «18-oct» o «Oct 18», segun el formato y los meses del idioma: {0} es el dia, {1} el mes y
+         *  {2} el año, para el formato largo («18-oct-2026»). Vacio si la fecha no se lee. */
         public static string FechaCorta(string FechaIso, string[] Meses, string Formato)
         {
             if (!DateTime.TryParseExact(FechaIso, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime Fecha) ||
                 Meses == null || Meses.Length != 12)
                 return "";
 
-            return string.Format(Formato, Fecha.Day, Meses[Fecha.Month - 1].Trim());
+            return string.Format(Formato, Fecha.Day, Meses[Fecha.Month - 1].Trim(), Fecha.Year);
         }
     }
 }

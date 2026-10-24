@@ -91,6 +91,12 @@ public static class CopiaLimpia
                     Poner(Nombre, File.ReadAllBytes(Archivo));
             }
 
+            // Se arma aca y no en el repo: sale entero de la historia de git (ver Novedades.cs).
+            if (Novedades.Armar(RootPath) is { } TextoDeNovedades)
+                Poner(Novedades.Archivo, new System.Text.UTF8Encoding(false).GetBytes(TextoDeNovedades));
+            else
+                Console.WriteLine("\e[93mNo se pudo armar {0}: la ventana del juego queda sin novedades.\x1b[0m", Novedades.Archivo);
+
             foreach (string Archivo in Statics.CarpetasDeOrigen(RootPath)
                          .SelectMany(Carpeta => Directory.EnumerateFiles(Carpeta, "*", SearchOption.AllDirectories)))
             {

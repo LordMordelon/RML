@@ -8,8 +8,8 @@ using Verse;
 
 namespace RmlVentana
 {
-    /** «Traducciones [Español Latino]»: los mods activos y quien los traduce. La pestaña «Novedades»
-     *  llega en la etapa 3 y va antes de esta, que hoy es la unica. */
+    /** «Traducciones [Español Latino]», con dos pestañas: «Novedades», lo que cambio en RML desde la
+     *  ultima vez, y «Tus mods», los mods activos y quien los traduce. Abre siempre en la primera. */
     public class VentanaTraducciones : Window
     {
         private const float AltoFilaSimple = 38f;
@@ -29,11 +29,22 @@ namespace RmlVentana
             [Estado.SinTraducir] = (Hex(0x3A3F45), Hex(0xD0D4D8)),
         };
 
+        private static readonly Dictionary<Cambio, (Color Fondo, Color Texto)> ColoresDeCambio = new Dictionary<Cambio, (Color, Color)>
+        {
+            [Cambio.Anadido] = (Hex(0x3D6B30), Hex(0xEAF6E5)),
+            [Cambio.Actualizado] = (Hex(0x2C5A80), Hex(0xE8F3FC)),
+            [Cambio.Corregido] = (Hex(0x7A5520), Hex(0xFBEFDC)),
+        };
+
         private readonly List<Fila> Filas;
         private readonly string Resumen;
+        private readonly List<EntradaDeNovedades> Entradas;
+        private readonly List<Novedad> Pendientes;
+        private readonly string ResumenNovedades;
         private readonly QuickSearchWidget Buscador = new QuickSearchWidget();
-        private readonly List<TabRecord> Pestanas;
+        private bool EnNovedades = true;
         private Vector2 Desplazamiento;
+        private Vector2 DesplazamientoNovedades;
         private bool NoVolverAMostrar;
 
         public override Vector2 InitialSize => new Vector2(900f, 720f);
@@ -52,9 +63,17 @@ namespace RmlVentana
                     LecturaDelJuego.Id(RmlVentanaMod.Instancia.Content.ModMetaData.PackageIdNonUnique));
 
                 Solicitudes.Limpiar(Ajustes.Solicitudes, PorRml);
+
+                // Novedades.tsv lo arma el builder en la copia de output/ (Novedades.cs). Sin el,
+                // la pestaña queda vacia y la ventana funciona igual.
+                string Archivo = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Novedades.tsv");
+                var Entradas = NovedadesRml.Leer(System.IO.File.Exists(Archivo) ? System.IO.File.ReadAllText(Archivo) : null);
+                var Pendientes = NovedadesRml.Pendientes(Entradas, Ajustes.NovedadesVistas, DateTime.Today);
+
                 Novedades = Clasificador.DebeAparecerSola(Ajustes.NoVolverAMostrar,
-                    Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas);
-                return new VentanaTraducciones(Filas);
+                    Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas,
+                    HayNovedades: Pendientes.Count > 0);
+                return new VentanaTraducciones(Filas, Entradas, Pendientes);
             }
             catch (Exception e)
             {
@@ -63,9 +82,14 @@ namespace RmlVentana
             }
         }
 
-        private VentanaTraducciones(List<Fila> Filas)
+        private VentanaTraducciones(List<Fila> Filas, List<EntradaDeNovedades> Entradas, List<Novedad> Pendientes)
         {
             this.Filas = Filas;
+            this.Entradas = Entradas;
+            this.Pendientes = Pendientes;
+            ResumenNovedades = Ajustes.UltimaVez == null
+                ? "RML_Ventana_ResumenNovedadesPrimeraVez".Translate(NovedadesRml.DiasLaPrimeraVez).ToString()
+                : "RML_Ventana_ResumenNovedades".Translate(FechaLarga(Ajustes.UltimaVez)).ToString();
             doCloseX = true;
             closeOnClickedOutside = false;
             absorbInputAroundWindow = true;
@@ -78,8 +102,6 @@ namespace RmlVentana
             int PorOtros = Filas.Count(x => !x.PorRml && x.Estado == Estado.Traducido);
             int Sin = Filas.Count(x => x.Estado == Estado.SinTraducir);
             Resumen = "RML_Ventana_Resumen".Translate(Filas.Count, PorEste, Sobrescritos, PorOtros, Sin);
-
-            Pestanas = new List<TabRecord> { new TabRecord("RML_Ventana_PestanaTusMods".Translate(), () => { }, true) };
         }
 
         public override void PreClose()
@@ -87,6 +109,10 @@ namespace RmlVentana
             base.PreClose();
             Ajustes.NoVolverAMostrar = NoVolverAMostrar;
             Ajustes.Vistos = Filas.Select(x => x.Mod.PackageId).ToList();
+            // Sin Novedades.tsv no se pisa lo anterior: lo no visto tiene que seguir saliendo.
+            if (Entradas.Count > 0)
+                Ajustes.NovedadesVistas = NovedadesRml.Claves(Entradas);
+            Ajustes.UltimaVez = DateTime.Today.ToString("yyyy-MM-dd");
             RmlVentanaMod.Instancia.WriteSettings();
         }
 
@@ -95,6 +121,11 @@ namespace RmlVentana
             Rect Marco = inRect;
             Marco.yMin += TabDrawer.TabHeight;
             Widgets.DrawMenuSection(Marco);
+            var Pestanas = new List<TabRecord>
+            {
+                new TabRecord("RML_Ventana_PestanaNovedades".Translate(), () => EnNovedades = true, EnNovedades),
+                new TabRecord("RML_Ventana_PestanaTusMods".Translate(), () => EnNovedades = false, !EnNovedades),
+            };
             TabDrawer.DrawTabs(Marco, Pestanas);
 
             Rect Area = Marco.ContractedBy(16f);
@@ -106,17 +137,23 @@ namespace RmlVentana
 
             Text.Font = GameFont.Small;
             GUI.color = Gris;
-            Widgets.Label(new Rect(Area.x, Y, Area.width, 24f), Resumen);
+            Widgets.Label(new Rect(Area.x, Y, Area.width, 24f), EnNovedades ? ResumenNovedades : Resumen);
             GUI.color = Color.white;
             Y += 32f;
 
-            Buscador.OnGUI(new Rect(Area.x, Y, Area.width, QuickSearchWidget.WidgetHeight));
-            Y += QuickSearchWidget.WidgetHeight + 10f;
+            if (!EnNovedades)
+            {
+                Buscador.OnGUI(new Rect(Area.x, Y, Area.width, QuickSearchWidget.WidgetHeight));
+                Y += QuickSearchWidget.WidgetHeight + 10f;
+            }
 
             // Pie: la nota, una linea y la fila de la casilla y el boton.
             const float AltoPie = 24f + 10f + 1f + 12f + 38f;
             Rect Tabla = new Rect(Area.x, Y, Area.width, Area.yMax - AltoPie - 10f - Y);
-            DibujarTabla(Tabla);
+            if (EnNovedades)
+                DibujarNovedades(Tabla);
+            else
+                DibujarTabla(Tabla);
 
             float YPie = Area.yMax - AltoPie;
             GUI.color = Gris;
@@ -136,6 +173,76 @@ namespace RmlVentana
             Text.Anchor = TextAnchor.UpperLeft;
             GUI.color = Color.white;
         }
+
+        private void DibujarNovedades(Rect Tabla)
+        {
+            Rect Encabezado = new Rect(Tabla.x, Tabla.y, Tabla.width, 28f);
+            Widgets.DrawBoxSolid(Encabezado, FondoEncabezado);
+            Columnas(Encabezado.ContractedBy(12f, 0f), out Rect ColMod, out Rect ColCambio, out Rect ColFecha);
+            Text.Anchor = TextAnchor.MiddleLeft;
+            GUI.color = Gris;
+            Widgets.Label(ColMod, "RML_Ventana_ColMod".Translate());
+            Widgets.Label(ColCambio, "RML_Ventana_ColCambio".Translate());
+            Widgets.Label(ColFecha, "RML_Ventana_ColFecha".Translate());
+            GUI.color = Color.white;
+            Text.Anchor = TextAnchor.UpperLeft;
+
+            Rect Lista = new Rect(Tabla.x, Encabezado.yMax, Tabla.width, Tabla.height - Encabezado.height);
+
+            if (Pendientes.Count == 0)
+            {
+                GUI.color = Gris;
+                Widgets.Label(new Rect(Lista.x + 12f, Lista.y + 20f, Lista.width - 24f, 48f), "RML_Ventana_SinNovedades".Translate());
+                GUI.color = Color.white;
+                return;
+            }
+
+            Rect Vista = new Rect(0f, 0f, Lista.width - 16f, Pendientes.Count * AltoFilaSimple);
+            Widgets.BeginScrollView(Lista, ref DesplazamientoNovedades, Vista);
+
+            for (int i = 0; i < Pendientes.Count; i++)
+            {
+                Rect Renglon = new Rect(0f, i * AltoFilaSimple, Vista.width, AltoFilaSimple);
+                if (Renglon.yMax < DesplazamientoNovedades.y || Renglon.y > DesplazamientoNovedades.y + Lista.height)
+                    continue;
+
+                Novedad Novedad = Pendientes[i];
+                if (i % 2 == 1) Widgets.DrawLightHighlight(Renglon);
+                Widgets.DrawHighlightIfMouseover(Renglon);
+                Columnas(Renglon.ContractedBy(12f, 0f), out Rect Mod, out Rect Cambio, out Rect Fecha);
+
+                Text.Font = GameFont.Small;
+                Text.Anchor = TextAnchor.MiddleLeft;
+                string Nombre = Novedad.Nombre.Truncate(Mod.width);
+                Widgets.Label(Mod, Nombre);
+                if (Nombre != Novedad.Nombre)
+                    TooltipHandler.TipRegion(Mod, Novedad.Nombre);
+                Widgets.Label(Fecha, FechaLarga(Novedad.Fecha));
+
+                Text.Font = GameFont.Tiny;
+                string Texto = TextoDeCambio(Novedad.Cambio);
+                var (Fondo, ColorDeTexto) = ColoresDeCambio[Novedad.Cambio];
+                Etiqueta(new Rect(Cambio.x, Cambio.center.y - 11f, Text.CalcSize(Texto).x + 16f, 22f), Texto, Fondo, ColorDeTexto);
+
+                Text.Font = GameFont.Small;
+                Text.Anchor = TextAnchor.UpperLeft;
+            }
+
+            Widgets.EndScrollView();
+        }
+
+        private static string TextoDeCambio(Cambio Cambio)
+        {
+            switch (Cambio)
+            {
+                case Logica.Cambio.Anadido: return "RML_Ventana_Anadido".Translate();
+                case Logica.Cambio.Actualizado: return "RML_Ventana_Actualizado".Translate();
+                default: return "RML_Ventana_Corregido".Translate();
+            }
+        }
+
+        private static string FechaLarga(string FechaIso) =>
+            Solicitudes.FechaCorta(FechaIso, "RML_Ventana_Meses".Translate().ToString().Split(','), "RML_Ventana_FormatoFechaLarga".Translate());
 
         private void DibujarTabla(Rect Tabla)
         {

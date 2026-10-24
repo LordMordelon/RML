@@ -16,10 +16,18 @@ namespace RmlVentana
         /** packageId -> fecha (yyyy-MM-dd) de cada «Solicitar». Se borra sola cuando el mod entra a RML. */
         public Dictionary<string, string> Solicitudes = new Dictionary<string, string>();
 
+        /** Los cambios de Novedades.tsv que ya se mostraron (NovedadesRml.Claves). Null si nunca. */
+        public List<string> NovedadesVistas;
+
+        /** yyyy-MM-dd de la ultima vez que se cerro la ventana, para el «Cambios desde el…». */
+        public string UltimaVez;
+
         public override void ExposeData()
         {
             Scribe_Values.Look(ref NoVolverAMostrar, "noVolverAMostrar");
             Scribe_Collections.Look(ref Vistos, "vistos", LookMode.Value);
+            Scribe_Collections.Look(ref NovedadesVistas, "novedadesVistas", LookMode.Value);
+            Scribe_Values.Look(ref UltimaVez, "ultimaVez");
             Scribe_Collections.Look(ref Solicitudes, "solicitudes", LookMode.Value, LookMode.Value);
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit && Solicitudes == null)

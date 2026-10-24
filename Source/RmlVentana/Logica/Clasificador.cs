@@ -87,14 +87,15 @@ namespace RmlVentana.Logica
         }
 
         /** Sola, solo si hay novedades y el juego esta en español latinoamericano: a un jugador en
-         *  otro idioma RML no le cambia nada. La primera vez cuenta como novedad. */
+         *  otro idioma RML no le cambia nada. Novedad es un mod nuevo en la lista, un cambio en RML
+         *  que no se vio (HayNovedades) o que sea la primera vez. */
         public static bool DebeAparecerSola(bool NoVolverAMostrar, bool EnEspanolLatino, ICollection<string> Vistos,
-            IEnumerable<Fila> Filas)
+            IEnumerable<Fila> Filas, bool HayNovedades = false)
         {
             if (NoVolverAMostrar || !EnEspanolLatino)
                 return false;
 
-            if (Vistos == null)
+            if (Vistos == null || HayNovedades)
                 return true;
 
             foreach (Fila Fila in Filas)

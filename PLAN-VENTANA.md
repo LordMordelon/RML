@@ -183,34 +183,26 @@ Angel la probó en 1.7 el 23-oct: los estados de sus mods están bien y aparece 
 **Pendiente para la etapa 4:** crear la etiqueta `solicitud` en el repositorio de RML. Sin ella, GitHub
 abre el issue igual, pero sin etiqueta.
 
-## Próxima sesión (23-oct-2026)
+## Etapa 3: hecha en local (23-oct-2026)
 
-**Objetivo:** etapa 3, la pestaña «Novedades» y el `Novedades.tsv` que la alimenta.
-**Estado:** etapas 1 y 2 hechas y probadas en 1.7, en `master` de RML **sin subir** (último commit 13729ea4;
-8505bb85 es de otra sesión). Angel todavía no autorizó el push.
-**Antes de empezarla (Angel):** nada.
-**Al empezar (Claude):**
-1. Builder: `Novedades.tsv` en `-build`, con la historia de git de cada carpeta de `Data/` (ver «Cómo sabe
-   cada cosa»): añadido, actualizado o corregido, con la fecha. Para «actualizado» hace falta la fecha de
-   Steam de cada mod: la consulta ya está en `ActualizacionesSteam.Consultar`. Va a `output/` por `CopiaLimpia`.
-2. `Logica/`: leer el TSV y quedarse con lo posterior a la última vez que se abrió la ventana. Pruebas
-   primero, en `Source/RmlVentana.Tests`.
-3. Ajustes: guardar la fecha de la última vez que se abrió. La ventana aparece sola también si hay
-   novedades de RML desde esa fecha.
-4. Ventana: pestaña «Novedades» antes de «Tus mods», y abre siempre en ella. Tabla **Mod** | **Cambio**
-   (etiquetas «Añadido», «Actualizado», «Corregido», colores de la previsualización) | **Fecha**, y el
-   resumen «Cambios desde el <fecha>, la última vez que abriste esta ventana». Textos en los dos `Keyed`.
-5. Comprobar cada función nueva del juego contra el `Assembly-CSharp.dll` de 1.7 con `ilspycmd` (ya
-   instalado), como en la etapa 2: 1.7 corre en otro motor y un método que falte no avisa al compilar.
-6. Unos 8 archivos (estimado): cabe en una sesión.
+**Decisiones (Angel aceptó las recomendadas):** `Novedades.tsv` va solo en `output/`, sin commitearse, y la
+primera vez se muestran los últimos 30 días.
 
-**Decisiones de Angel:**
-- ¿`Novedades.tsv` se commitea, como `ModList.tsv`, o solo se escribe en `output/`? Recomiendo solo en
-  `output/`: sale entero de la historia de git, y commitearlo sumaría un cambio en cada push. La release ya
-  clona con la historia completa.
-- La primera vez que se abre (sin fecha anterior), ¿cuánto muestra? Recomiendo los últimos 30 días.
+- **El builder** arma `Novedades.tsv` en `CopiaLimpia` (o sea, en `-build` y `-copia`), con
+  `Novedades.cs`: una fila por mod de `Data/` con su packageId, nombre, la fecha en que apareció su
+  traducción, la de su último cambio y el tipo de ese cambio. Las fechas salen de
+  `UltimosCambios.Historial` (la misma pasada por git que ya daba la última fecha; ahora guarda todas, sin
+  contar los movimientos del Agrupador). El nombre y la fecha de Steam salen de `ModList.tsv`.
+  **actualizado** = el cambio anterior es de antes de la última actualización del mod en Steam y el
+  último es de después; si no, **corregido**. Steam solo da su última fecha, así que solo se clasifica el
+  último cambio, y es aproximado.
+- **El juego** (`NovedadesRml`, con pruebas) muestra lo que no se vio: guarda al cerrar una clave por
+  fecha de cada mod (`NovedadesVistas`) y la fecha de cierre (`UltimaVez`, para «Cambios desde el…»). Un mod
+  que el jugador no vio añadido sale como «Añadido» aunque después haya cambiado. Con algo sin ver, la
+  ventana también aparece sola.
+- **La ventana** tiene la pestaña «Novedades» primero y abre siempre en ella: **Mod** | **Cambio** |
+  **Fecha**, con los colores de la previsualización. El buscador queda solo en «Tus mods».
+- Con la historia de hoy, la primera vez muestra 116 cambios.
 
-**Guías:** `frontend-design` para la pestaña nueva.
-**Dónde leer:** este plan («Cómo sabe cada cosa» y esta nota); `Source/RmlVentana/`;
-`Source/LoadFoldersBuilder/UltimosCambios.cs` (fecha del último commit de cada carpeta, reutilizable) y
-`ActualizacionesSteam.cs`; la previsualización en https://claude.ai/artifact/WfNYPCKyZAR5RnkJAtcxZb.
+**Falta (Angel):** probarla en el juego y decir si se sube. Después queda la etapa 4 (gráfico de
+solicitudes), que no necesita el juego.

@@ -6,6 +6,15 @@
 
   <RML_Ventana_Titulo>Traducciones [Español Latino]</RML_Ventana_Titulo>
   <RML_Ventana_PestanaTusMods>Your mods</RML_Ventana_PestanaTusMods>
+  <RML_Ventana_PestanaNovedades>What's new</RML_Ventana_PestanaNovedades>
+  <RML_Ventana_ResumenNovedades>Changes since {0}, the last time you opened this window.</RML_Ventana_ResumenNovedades>
+  <RML_Ventana_ResumenNovedadesPrimeraVez>Changes in the last {0} days.</RML_Ventana_ResumenNovedadesPrimeraVez>
+  <RML_Ventana_SinNovedades>Nothing has changed in RML since you last opened this window.</RML_Ventana_SinNovedades>
+  <RML_Ventana_ColCambio>Change</RML_Ventana_ColCambio>
+  <RML_Ventana_ColFecha>Date</RML_Ventana_ColFecha>
+  <RML_Ventana_Anadido>Added</RML_Ventana_Anadido>
+  <RML_Ventana_Actualizado>Updated</RML_Ventana_Actualizado>
+  <RML_Ventana_Corregido>Fixed</RML_Ventana_Corregido>
   <RML_Ventana_Resumen>{0} active mods · {1} by this mod ({2} overridden) · {3} by others · {4} not translated</RML_Ventana_Resumen>
 
   <RML_Ventana_ColMod>Mod</RML_Ventana_ColMod>
@@ -28,6 +37,8 @@
   <RML_Ventana_Meses>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</RML_Ventana_Meses>
   <!-- {0} is the day and {1} the month: "Oct 18". -->
   <RML_Ventana_FormatoFecha>{1} {0}</RML_Ventana_FormatoFecha>
+  <!-- {2} is the year: "Oct 18, 2026". -->
+  <RML_Ventana_FormatoFechaLarga>{1} {0}, {2}</RML_Ventana_FormatoFechaLarga>
 
   <RML_Ventana_SinCoincidencias>No mod matches "{0}".</RML_Ventana_SinCoincidencias>
   <RML_Ventana_SinMods>You have no active mods besides the game and its expansions.</RML_Ventana_SinMods>

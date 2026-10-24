@@ -4,7 +4,8 @@ using System.Text;
 namespace LoadFoldersBuilder;
 
 /** Fecha del ultimo cambio de cada mod, sacada del historial de git.
- *  Solo sirve para la lista de mods (ModList.tsv y docs/index.html): no interviene en la carga.
+ *  Sirve para la lista de mods (ModList.tsv y docs/index.html) y, con todas las fechas, para
+ *  Novedades.tsv: no interviene en la carga.
  */
 public static class UltimosCambios
 {
@@ -12,10 +13,23 @@ public static class UltimosCambios
      *  ultimo commit que la toco. Nunca tira: sin git o fuera de un repo devuelve un
      *  diccionario vacio y la lista sale sin fechas, que no es motivo para no generarla.
      */
-    public static Dictionary<string, string> Calcular(string RootPath, IEnumerable<string> CarpetasDeMod)
+    public static Dictionary<string, string> Calcular(string RootPath, IEnumerable<string> CarpetasDeMod) =>
+        Historial(RootPath, CarpetasDeMod).ToDictionary(x => x.Key, x => x.Value[0]);
+
+    /** Como Calcular, pero con todas las fechas en que cambio cada carpeta, sin repetir y de la
+     *  mas nueva a la mas vieja. La ultima es la de cuando aparecio. */
+    public static Dictionary<string, List<string>> Historial(string RootPath, IEnumerable<string> CarpetasDeMod)
     {
         var Carpetas = new HashSet<string>(CarpetasDeMod);
-        var Fechas = new Dictionary<string, string>();
+        var Fechas = new Dictionary<string, List<string>>();
+
+        void Anotar(string Carpeta, string Fecha)
+        {
+            if (!Fechas.TryGetValue(Carpeta, out var Lista))
+                Fechas[Carpeta] = Lista = new List<string>();
+            if (Lista.Count == 0 || Lista[^1] != Fecha)
+                Lista.Add(Fecha);
+        }
 
         // Una sola pasada por todo el historial y no una llamada por mod, que con 250 mods
         // tarda. Va de lo mas nuevo a lo mas viejo, asi que la primera fecha que aparece para
@@ -72,11 +86,12 @@ public static class UltimosCambios
             }
 
             if (CarpetaDe(Campos[^1], Carpetas, Alias, out _) is { } Carpeta)
-                Fechas.TryAdd(Carpeta, FechaDelCommit);
+                Anotar(Carpeta, FechaDelCommit);
         }
 
         foreach (var (Carpeta, Fecha) in Movidos)
-            Fechas.TryAdd(Carpeta, Fecha);
+            if (!Fechas.ContainsKey(Carpeta))
+                Anotar(Carpeta, Fecha);
 
         // Lo que todavia no esta commiteado cuenta como cambiado hoy. El extractor regenera la
         // lista antes del commit; sin esto quedaria con la fecha anterior, la CI la corregiria
@@ -89,7 +104,12 @@ public static class UltimosCambios
         foreach (var Archivo in Pendientes)
         {
             if (CarpetaDe(Archivo, Carpetas, Alias, out _) is { } Carpeta)
-                Fechas[Carpeta] = Hoy;
+            {
+                if (!Fechas.TryGetValue(Carpeta, out var Lista))
+                    Fechas[Carpeta] = Lista = new List<string>();
+                if (Lista.Count == 0 || Lista[0] != Hoy)
+                    Lista.Insert(0, Hoy);
+            }
         }
 
         return Fechas;
