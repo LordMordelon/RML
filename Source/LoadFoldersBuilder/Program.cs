@@ -199,7 +199,15 @@ void EscribirListaDeMods(BuildRules Reglas)
     File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), ModListFormatos.Tsv(ModList));
     Directory.CreateDirectory(Path.Combine(Statics.RootPath!, "docs"));
     File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", "index.html"), ModListFormatos.Html(ModList));
-    Console.WriteLine("\e[32mModList.tsv y docs/index.html escritos...{0:F3}s\x1b[0m", Cronometro.Elapsed.TotalSeconds);
+
+    // El grafico de los mas pedidos, sin los que ya estan aca. No se commitea (ver Solicitudes.cs).
+    var Pedidos = Solicitudes.Leer(Statics.RootPath!, Solicitudes.Pedidos);
+    if (Pedidos is null)
+        Console.WriteLine("\e[93mNo se encontro la rama {0}: el grafico de pedidos sale vacio.\x1b[0m", Solicitudes.Rama);
+    var EnRml = ModList.Select(Fila => Fila.WorkshopID).OfType<string>().ToHashSet();
+    File.WriteAllText(Path.Combine(Statics.RootPath!, "docs", Solicitudes.Pagina), Solicitudes.Html(
+        Solicitudes.MasPedidos(Pedidos, Solicitudes.Leer(Statics.RootPath!, Solicitudes.SinTexto), EnRml)));
+    Console.WriteLine("\e[32mModList.tsv, docs/index.html y docs/{1} escritos...{0:F3}s\x1b[0m", Cronometro.Elapsed.TotalSeconds, Solicitudes.Pagina);
 }
 
 // Las reglas de Ajustes/, armadas igual que las de Data/. Sin la carpeta no hay ninguna.

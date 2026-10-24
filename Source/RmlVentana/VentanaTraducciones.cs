@@ -27,6 +27,7 @@ namespace RmlVentana
             [Estado.Traducido] = (Hex(0x2C5A80), Hex(0xE8F3FC)),
             [Estado.Sobrescrito] = (Hex(0x5B3F7A), Hex(0xF1E8FB)),
             [Estado.SinTraducir] = (Hex(0x3A3F45), Hex(0xD0D4D8)),
+            [Estado.SinTexto] = (Hex(0x2B3035), Hex(0xA9B0B8)),
         };
 
         private static readonly Dictionary<Cambio, (Color Fondo, Color Texto)> ColoresDeCambio = new Dictionary<Cambio, (Color, Color)>
@@ -59,8 +60,12 @@ namespace RmlVentana
             try
             {
                 var PorRml = LecturaDelJuego.TraducidosPorRml(RmlVentanaMod.Instancia.Content);
+                // Los mods pedidos que no tienen nada que traducir. Como Novedades.tsv, lo pone el
+                // builder en output/ (Solicitudes.cs); sin el, esos mods salen como «Sin traducir».
+                string ArchivoSinTexto = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "SinTexto.tsv");
+                var SinTexto = Clasificador.LeerSinTexto(System.IO.File.Exists(ArchivoSinTexto) ? System.IO.File.ReadAllText(ArchivoSinTexto) : null);
                 var Filas = Clasificador.Clasificar(LecturaDelJuego.ModsActivos(), PorRml, Ajustes.Vistos,
-                    LecturaDelJuego.Id(RmlVentanaMod.Instancia.Content.ModMetaData.PackageIdNonUnique));
+                    LecturaDelJuego.Id(RmlVentanaMod.Instancia.Content.ModMetaData.PackageIdNonUnique), SinTexto);
 
                 Solicitudes.Limpiar(Ajustes.Solicitudes, PorRml);
 
@@ -414,6 +419,7 @@ namespace RmlVentana
             {
                 case Estado.Sobrescrito: return "RML_Ventana_Sobrescrito".Translate();
                 case Estado.SinTraducir: return "RML_Ventana_SinTraducir".Translate();
+                case Estado.SinTexto: return "RML_Ventana_SinTexto".Translate();
                 default: return "RML_Ventana_Traducido".Translate();
             }
         }
@@ -423,6 +429,7 @@ namespace RmlVentana
             if (Fila.PorRml) return NombreDeRml;
             if (Fila.Otros.Count > 0) return string.Join(", ", Fila.Otros);
             if (Fila.IncluidaEnElMod) return "RML_Ventana_IncluidaEnElMod".Translate();
+            if (Fila.Estado == Estado.SinTexto) return "RML_Ventana_NoNecesitaTraduccion".Translate();
             return "";
         }
 

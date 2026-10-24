@@ -41,6 +41,12 @@ jobs:
           ref: ${{ inputs.ref || github.sha }}
           fetch-depth: 0
 
+      # SinTexto.tsv va en la copia y sale de la rama de los pedidos (ver Solicitudes.cs). Sin
+      # traerla, la copia saldría sin él y la huella cambiaría sin que cambiara el mod.
+      - name: Traer los pedidos
+        shell: bash
+        run: git fetch --no-tags origin "+refs/heads/solicitudes:refs/remotes/origin/solicitudes" || true
+
       - name: Preparar .NET
         uses: actions/setup-dotnet@v6
         with:

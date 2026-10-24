@@ -1,0 +1,222 @@
+name: Anotar un pedido de traducción
+
+# El botón «Solicitar» de la ventana del juego abre un issue «Solicitud: <nombre del mod>» con
+# una línea fija en el cuerpo, «- <WorkshopID> <packageId>» (Source/RmlVentana/Logica/
+# Solicitudes.cs). Al abrirse, este flujo:
+# - si el mod ya está en RML, lo dice y cierra el issue;
+# - si está anotado como sin texto, lo dice y lo cierra;
+# - si no, suma el pedido en Pedidos.tsv, en la rama «solicitudes», y cierra con el puesto en que
+#   quedó. Después se vuelve a publicar la página, con el gráfico de los más pedidos.
+#
+# Cuenta personas, no issues: hay una línea por mod y usuario, así que pedir diez veces el mismo
+# mod suma uno. El nombre sale de Steam, que además confirma que el número es un mod de RimWorld.
+#
+# Si el dueño le pone la etiqueta «sin-texto» a un pedido (abierto o cerrado), el mod se anota
+# en SinTexto.tsv: sale del gráfico, los pedidos siguientes se responden solos y la ventana del
+# juego lo muestra como «Sin texto». Si el mod agrega texto después, se saca la fila a mano.
+#
+# La rama «solicitudes» no tiene nada más y no se une nunca, como «revisados». Ver
+# Source/LoadFoldersBuilder/Solicitudes.cs, que la lee.
+#
+# A diferencia de revisado.yml, acepta issues de cualquier usuario. Por eso el título y el cuerpo
+# van solo por variables de entorno y de ellos se lee únicamente la línea con el formato fijo.
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  anotar:
+    if: >-
+      (github.event.action == 'opened' && startsWith(github.event.issue.title, 'Solicitud:')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'sin-texto' &&
+       github.event.sender.login == github.repository_owner)
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: write
+
+    outputs:
+      cambio: ${{ steps.anotar.outputs.cambio }}
+
+    steps:
+      # De master solo ModList.tsv, los mods que RML ya traduce: Data/ son miles de archivos.
+      - name: Clonar el repositorio
+        uses: actions/checkout@v7
+        with:
+          sparse-checkout: ModList.tsv
+          sparse-checkout-cone-mode: false
+
+      - name: Anotar
+        id: anotar
+        shell: bash
+        env:
+          # Por variable y no dentro del script: el cuerpo lo escribe cualquiera, y metido
+          # directo en el bash podría ejecutarse.
+          CUERPO: ${{ github.event.issue.body }}
+          USUARIO: ${{ github.event.issue.user.login }}
+          ACCION: ${{ github.event.action }}
+          NUMERO: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail
+          RAMA=solicitudes
+          TAB=$'\t'
+
+          responder() {
+            gh api "repos/$REPO/issues/$NUMERO/comments" -f body="$1" > /dev/null
+          }
+          cerrar() {
+            gh api -X PATCH "repos/$REPO/issues/$NUMERO" -f state=closed -f state_reason="$1" > /dev/null
+          }
+
+          # La etiqueta que los separa de los issues de traducción. El enlace del juego ya la
+          # pide, pero GitHub la ignora si quien abre el issue no puede etiquetar.
+          if [ "$ACCION" = opened ]; then
+            gh api "repos/$REPO/issues/$NUMERO/labels" -f "labels[]=solicitud" > /dev/null || true
+          fi
+
+          # La única línea que se lee. El packageId solo con los caracteres que acepta RimWorld.
+          id=""
+          pid=""
+          while IFS= read -r linea; do
+            linea="${linea%$'\r'}"
+            if [[ "$linea" =~ ^-\ *([0-9]{1,20})\ +([A-Za-z0-9._-]{1,120})\ *$ ]]; then
+              id="${BASH_REMATCH[1]}"
+              pid="${BASH_REMATCH[2]}"
+              break
+            fi
+          done <<< "$CUERPO"
+
+          if [ -z "$id" ]; then
+            responder "No encontré la línea del pedido. El cuerpo tiene que traer, en su propio renglón, el número del mod en el Workshop y su packageId, así: \`- 1321849735 Dubwise.Rimefeller\`. El botón «Solicitar» de la ventana del juego la escribe sola. Puedes editar este issue o abrir uno nuevo."
+            exit 0
+          fi
+
+          cp ModList.tsv "$RUNNER_TEMP/ModList.tsv"
+          traducido=$(awk -F'\t' -v id="$id" '$1 == id { print $2; exit }' "$RUNNER_TEMP/ModList.tsv")
+          if [ "$ACCION" = opened ] && [ -n "$traducido" ]; then
+            responder "**$traducido** ya está traducido en RML. Si en el juego sale sin traducir, actualiza RML desde Steam; si sigue igual, cuéntalo aquí y se reabre."
+            cerrar completed
+            exit 0
+          fi
+
+          # El nombre, de Steam. Si Steam no conoce el número como un mod de RimWorld (294100),
+          # el pedido no se cuenta.
+          if ! detalle=$(curl -sf --max-time 30 -d itemcount=1 -d "publishedfileids[0]=$id" \
+              https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/); then
+            responder "Steam no respondió y el pedido no se pudo anotar todavía. Queda abierto: se puede volver a correr desde la pestaña Actions."
+            exit 1
+          fi
+          nombre=$(jq -r '.response.publishedfiledetails[0] | select(.result == 1 and .consumer_app_id == 294100) | .title // empty' <<< "$detalle" \
+            | tr -d '\t\r\n' | cut -c1-200)
+          if [ -z "$nombre" ]; then
+            responder "Steam no reconoce el número $id como un mod de RimWorld. Revisa el número (sale en la dirección de la página del mod en el Workshop) y edita este issue o abre uno nuevo."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Con el árbol vacío ya no hace falta limitar el clon: la rama tiene que verse entera.
+          git switch -q --orphan vacia
+          git sparse-checkout disable
+
+          # La rama al día, o nueva si todavía no existe. Sin rama local: se sube con HEAD.
+          preparar() {
+            if git fetch -q --depth=1 --no-tags origin "refs/heads/$RAMA" 2> /dev/null; then
+              git checkout -q -f --detach FETCH_HEAD
+            else
+              git switch -q -f --orphan "nueva$RANDOM"
+            fi
+            [ -f Pedidos.tsv ] || printf 'WorkshopID\tPackageID\tMod\tUsuario\tFecha\n' > Pedidos.tsv
+            [ -f SinTexto.tsv ] || printf 'WorkshopID\tPackageID\tMod\tFecha\n' > SinTexto.tsv
+          }
+
+          # Reemplaza en el archivo $1 las líneas que cumplen el filtro awk $2 por la línea $3,
+          # ordenado por WorkshopID para que el diff muestre solo lo que cambió.
+          reemplazar() {
+            {
+              head -n 1 "$1"
+              { tail -n +2 "$1" | awk -F'\t' -v id="$id" -v u="${usuario:-}" "!($2)"; printf '%s\n' "$3"; } | sort -t "$TAB" -k1,1 -k4,4
+            } > "$1.nuevo"
+            mv "$1.nuevo" "$1"
+          }
+
+          # Aplica el cambio sobre la rama recién traída y lo sube. Si entre medio llegó otro
+          # pedido, el push falla y se vuelve a empezar desde la rama nueva.
+          subir() {
+            for intento in 1 2 3 4 5; do
+              preparar
+              aplicar || return 0
+              git add Pedidos.tsv SinTexto.tsv
+              git diff --cached --quiet && return 0
+              git commit -qm "$1"
+              if git push -q origin "HEAD:refs/heads/$RAMA"; then
+                subio=si
+                echo "cambio=si" >> "$GITHUB_OUTPUT"
+                return 0
+              fi
+              sleep $((intento * 3))
+            done
+            return 1
+          }
+
+          if [ "$ACCION" = labeled ]; then
+            aplicar() {
+              reemplazar SinTexto.tsv '$1 == id' "$id$TAB$pid$TAB$nombre$TAB$(date -u +%F)"
+            }
+            subir "Sin texto: $nombre" || { responder "No pude anotar el mod en SinTexto.tsv. Vuelve a correr el flujo desde Actions."; exit 1; }
+            responder "Anotado: **$nombre** no tiene texto para traducir. Sale del gráfico de pedidos, los pedidos siguientes se responden solos y en el juego aparece como «Sin texto» desde la próxima versión de RML."
+            cerrar not_planned
+            exit 0
+          fi
+
+          usuario=$(tr '[:upper:]' '[:lower:]' <<< "$USUARIO")
+          sin_texto=""
+          subio=""
+          aplicar() {
+            if awk -F'\t' -v id="$id" 'NR > 1 && $1 == id { hay = 1 } END { exit !hay }' SinTexto.tsv; then
+              sin_texto=si
+              return 1
+            fi
+            reemplazar Pedidos.tsv '$1 == id && tolower($4) == u' "$id$TAB$pid$TAB$nombre$TAB$usuario$TAB$(date -u +%F)"
+          }
+          subir "Pedido: $nombre" || { responder "No pude anotar el pedido. Queda abierto: se puede volver a correr desde la pestaña Actions."; exit 1; }
+
+          if [ -n "$sin_texto" ]; then
+            responder "**$nombre** ya se revisó y no tiene texto para traducir: no le hace falta una traducción. Si el mod agregó texto en una actualización, cuéntalo aquí y se reabre."
+            cerrar not_planned
+            exit 0
+          fi
+
+          # El puesto entre los que siguen pendientes: sin los de RML ni los sin texto, y contando
+          # una vez a cada persona. Con empate, comparten el puesto.
+          read -r puesto total personas < <(awk -F'\t' -v id="$id" '
+            FILENAME == ARGV[1] || FILENAME == ARGV[2] { fuera[$1] = 1; next }
+            FNR > 1 && !($1 in fuera) && !(($1 SUBSEP tolower($4)) in visto) { visto[$1 SUBSEP tolower($4)] = 1; n[$1]++ }
+            END { p = 1; t = 0; for (o in n) { t++; if (n[o] > n[id]) p++ } print p, t, n[id] + 0 }
+          ' "$RUNNER_TEMP/ModList.tsv" SinTexto.tsv Pedidos.tsv)
+
+          if [ "$personas" = 1 ]; then quienes="lo pidió 1 persona"; else quienes="lo pidieron $personas personas"; fi
+          if [ -n "$subio" ]; then
+            primero="Anotado: **$nombre** $quienes y quedó"
+          else
+            primero="Ya habías pedido **$nombre**, y cada persona cuenta una vez. Hasta ahora $quienes y va"
+          fi
+          responder "$primero en el puesto $puesto de los $total mods pedidos. Puedes ver la lista en https://lordmordelon.github.io/RML/solicitudes.html (se actualiza en unos minutos). Cuando se traduzca, aparece en las novedades de la ventana del juego."
+          cerrar completed
+
+  # La página se arma desde master, que trae los pedidos nuevos desde su rama.
+  publicar:
+    needs: anotar
+    if: needs.anotar.outputs.cambio == 'si'
+    uses: ./.github/workflows/pagina-diaria.yml
+    with:
+      ref: master
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

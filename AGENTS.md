@@ -55,7 +55,8 @@ Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Kraf
                                 traducidos y sus ajustes (PLAN-VENTANA.md). Logica/ no usa tipos del juego
 Source/RmlVentana.Tests/        las pruebas de Logica/, sin el juego (dotnet test; la CI las corre en loadfolders.yml)
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),
-                                pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión)
+                                pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión),
+                                solicitud.yml (anota un pedido de traducción)
 ```
 
 Y cada carpeta de mod, por dentro:
@@ -231,6 +232,27 @@ atrasadas en un solo issue. Ese issue lleva una línea `- <WorkshopID> <fecha>` 
 la fecha de Steam que mostraba la página, no la del momento: si un mod se actualizó después de
 mirarla, esa actualización sigue saliendo como atrasada. Los nombres no van en el enlace, que con
 80 mods se acercaría al largo máximo de una dirección; `revisado.yml` los saca de `ModList.tsv`.
+
+## Los mods más pedidos
+
+El botón «Solicitar» de la ventana del juego abre un issue «Solicitud: <nombre>» con una línea
+`- <WorkshopID> <packageId>`. `solicitud.yml` lo anota en `Pedidos.tsv`, en la rama `solicitudes`
+(huérfana, como `revisados`), y cierra el issue con el puesto en que quedó. Hay una línea por mod y
+por usuario de GitHub, así que se cuentan personas y no issues. El nombre sale de Steam, que de paso
+confirma que el número es un mod de RimWorld. A diferencia de `revisado.yml`, acepta issues de
+cualquiera: el cuerpo pasa solo por variables de entorno y se lee únicamente esa línea.
+
+Con un pedido que no tiene nada que traducir, el dueño le pone la etiqueta `sin-texto` y el flujo lo
+anota en `SinTexto.tsv`, en la misma rama: sale del gráfico, los pedidos siguientes se responden
+solos y el builder lo copia a `output/`, donde la ventana lo muestra como «Sin texto». Si el mod
+agrega texto después, se saca la fila a mano.
+
+`docs/solicitudes.html` es un gráfico de barras con los 20 más pedidos, sin los que ya tienen
+carpeta en `Data/` ni los sin texto. Lo arman `-pagina` y `-build`, pero **no se commitea**
+(`.gitignore`): lo publica `pagina-diaria.yml`. Por eso `pages.yml` ya no publica el `docs/` del
+commit tal cual: llama a `pagina-diaria.yml`, que lo rearma con el gráfico. Publicado tal cual,
+cada push que tocara la lista borraría el gráfico hasta el día siguiente. La lógica está en
+`Source/LoadFoldersBuilder/Solicitudes.cs`.
 
 ## Antes de commitear: mirar el diff
 

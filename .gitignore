@@ -30,3 +30,7 @@ output/
 
 # Log de las corridas del extractor. Se rehace en cada una.
 extractor.log
+
+# La pagina de los mods mas pedidos: la arma el builder desde la rama solicitudes y la publica
+# pagina-diaria.yml sin commitear (ver Source/LoadFoldersBuilder/Solicitudes.cs).
+docs/solicitudes.html

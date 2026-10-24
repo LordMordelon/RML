@@ -17,7 +17,8 @@ on:
     # Todos los días a las 09:00 UTC (06:00 en Chile).
     - cron: '0 9 * * *'
   workflow_dispatch:
-  # Lo llama revisado.yml después de anotar una revisión en su rama, con ref: master.
+  # Lo llaman revisado.yml y solicitud.yml después de anotar en su rama, con ref: master, y
+  # pages.yml cada vez que cambia docs/.
   workflow_call:
     inputs:
       ref:
@@ -48,6 +49,12 @@ jobs:
       - name: Traer las revisiones
         shell: bash
         run: git fetch --no-tags origin "+refs/heads/revisados:refs/remotes/origin/revisados" || true
+
+      # Lo mismo con los pedidos de traducción (ver Solicitudes.cs): sin la rama, el gráfico de
+      # docs/solicitudes.html sale vacío.
+      - name: Traer los pedidos
+        shell: bash
+        run: git fetch --no-tags origin "+refs/heads/solicitudes:refs/remotes/origin/solicitudes" || true
 
       - name: Preparar .NET
         uses: actions/setup-dotnet@v6

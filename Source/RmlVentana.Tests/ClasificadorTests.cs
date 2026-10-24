@@ -73,6 +73,53 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void SinTraducirYEnSinTextoEsSinTexto()
+        {
+            var Sin = new ModActivo { PackageId = "a", Nombre = "a", WorkshopId = "123" };
+            var Filas = Clasificador.Clasificar(new[] { Sin }, new HashSet<string>(), null, Rml, new HashSet<string> { "123" });
+
+            Assert.AreEqual(Estado.SinTexto, De(Filas, "a").Estado);
+        }
+
+        [TestMethod]
+        public void SinTextoNoTapaUnaTraduccion()
+        {
+            // Si el mod agrego texto despues y alguien lo tradujo, lo que vale es la traduccion.
+            var PorRml = new ModActivo { PackageId = "a", Nombre = "a", WorkshopId = "1" };
+            var PorElMod = new ModActivo { PackageId = "b", Nombre = "b", WorkshopId = "2", TieneEspanol = true };
+            var Filas = Clasificador.Clasificar(new[] { PorRml, PorElMod }, new HashSet<string> { "a" }, null, Rml,
+                new HashSet<string> { "1", "2" });
+
+            Assert.AreEqual(Estado.Traducido, De(Filas, "a").Estado);
+            Assert.AreEqual(Estado.Traducido, De(Filas, "b").Estado);
+        }
+
+        [TestMethod]
+        public void SinTextoVaPorElNumeroDelWorkshop()
+        {
+            // The Dead Man's Switch y su II comparten packageId: el numero es lo que los separa.
+            var Uno = new ModActivo { PackageId = "aoba.dms", Nombre = "Uno", WorkshopId = "3121742525" };
+            var Dos = new ModActivo { PackageId = "aoba.dms", Nombre = "Dos", WorkshopId = "3819799478" };
+            var Filas = Clasificador.Clasificar(new[] { Uno, Dos }, new HashSet<string>(), null, Rml,
+                new HashSet<string> { "3121742525" });
+
+            Assert.AreEqual(Estado.SinTexto, Filas.Single(x => x.Mod.Nombre == "Uno").Estado);
+            Assert.AreEqual(Estado.SinTraducir, Filas.Single(x => x.Mod.Nombre == "Dos").Estado);
+        }
+
+        [TestMethod]
+        public void LeeLosNumerosDeSinTexto()
+        {
+            string Tsv = "WorkshopID\tPackageID\tMod\tFecha\r\n" +
+                         "3584213645\tnanoyss.simplesmokece\tSimple Smoke for Combat Extended\t2026-10-23\r\n" +
+                         "no es numero\tx\ty\t2026-10-23\n" +
+                         "\n";
+
+            CollectionAssert.AreEquivalent(new[] { "3584213645" }, Clasificador.LeerSinTexto(Tsv).ToList());
+            Assert.AreEqual(0, Clasificador.LeerSinTexto(null).Count);
+        }
+
+        [TestMethod]
         public void QuedanAfueraLosOficialesRmlYLosPaquetes()
         {
             var Core = new ModActivo { PackageId = "ludeon.rimworld", Nombre = "Core", Oficial = true };

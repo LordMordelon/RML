@@ -97,6 +97,11 @@ public static class CopiaLimpia
             else
                 Console.WriteLine("\e[93mNo se pudo armar {0}: la ventana del juego queda sin novedades.\x1b[0m", Novedades.Archivo);
 
+            // Los mods pedidos que no tienen texto, para que la ventana no ofrezca pedirlos de nuevo.
+            // Sale de la rama «solicitudes» (ver Solicitudes.cs); sin ella, no va.
+            if (Solicitudes.Leer(RootPath, Solicitudes.SinTexto) is { } SinTexto)
+                Poner(Solicitudes.SinTexto, new System.Text.UTF8Encoding(false).GetBytes(string.Join("\n", SinTexto) + "\n"));
+
             foreach (string Archivo in Statics.CarpetasDeOrigen(RootPath)
                          .SelectMany(Carpeta => Directory.EnumerateFiles(Carpeta, "*", SearchOption.AllDirectories)))
             {

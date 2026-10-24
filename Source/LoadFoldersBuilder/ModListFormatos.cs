@@ -173,7 +173,8 @@ public static class ModListFormatos
 
             <footer class="suave">
             <p>¿Encontraste un error o falta un mod? Avisa en <a href="https://github.com/LordMordelon/RML/issues">GitHub</a>
-            o en los comentarios de <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3541009729">Steam</a>.</p>
+            o en los comentarios de <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3541009729">Steam</a>.
+            Los mods que más se piden están en <a href="solicitudes.html">Mods más pedidos</a>.</p>
             </footer>
             </main>
 

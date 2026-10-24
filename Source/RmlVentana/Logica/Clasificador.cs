@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RmlVentana.Logica
 {
-    public enum Estado { Traducido, Sobrescrito, SinTraducir }
+    /** SinTexto: se pidio y no tiene nada que traducir (SinTexto.tsv, que anota solicitud.yml). */
+    public enum Estado { Traducido, Sobrescrito, SinTraducir, SinTexto }
 
     /** Un mod activo, como lo deja LecturaDelJuego. Sin tipos del juego, para probarlo sin abrirlo. */
     public class ModActivo
@@ -37,9 +39,10 @@ namespace RmlVentana.Logica
         /** Una fila por mod activo, en el orden de la lista de mods. Quedan afuera Core y los DLC, RML
          *  y los paquetes de traduccion: no son mods para traducir. Salvo que RML lo traduzca: un mod de
          *  solo Patches con su propia traduccion parece un paquete y no lo es. Vistos es la lista de la
-         *  ultima vez que se abrio la ventana, o null si nunca se abrio: ahi ninguno es nuevo. */
+         *  ultima vez que se abrio la ventana, o null si nunca se abrio: ahi ninguno es nuevo. SinTexto son
+         *  los numeros del Workshop de LeerSinTexto, y solo cambian a los que nadie traduce. */
         public static List<Fila> Clasificar(IEnumerable<ModActivo> Activos, ICollection<string> TraducidosPorRml,
-            ICollection<string> Vistos, string PackageIdRml)
+            ICollection<string> Vistos, string PackageIdRml, ICollection<string> SinTexto = null)
         {
             var Lista = new List<ModActivo>(Activos);
             var Filas = new List<Fila>();
@@ -69,11 +72,33 @@ namespace RmlVentana.Logica
                 Fila.Estado = Fila.PorRml
                     ? OtraTraduccion ? Estado.Sobrescrito : Estado.Traducido
                     : OtraTraduccion ? Estado.Traducido : Estado.SinTraducir;
+                if (Fila.Estado == Estado.SinTraducir && SinTexto != null && Mod.WorkshopId != null &&
+                    SinTexto.Contains(Mod.WorkshopId))
+                    Fila.Estado = Estado.SinTexto;
 
                 Filas.Add(Fila);
             }
 
             return Filas;
+        }
+
+        /** Los numeros del Workshop de SinTexto.tsv, que el builder copia de la rama «solicitudes» a
+         *  output/. Va por numero y no por packageId: dos mods distintos pueden compartirlo (The Dead
+         *  Man's Switch y su II). Sin archivo, o con una linea que no se entiende, no hay ninguno. */
+        public static HashSet<string> LeerSinTexto(string Texto)
+        {
+            var Ids = new HashSet<string>();
+            if (Texto == null)
+                return Ids;
+
+            foreach (string Linea in Texto.Split('\n'))
+            {
+                string Id = Linea.TrimEnd('\r').Split('\t')[0].Trim();
+                if (Id.Length > 0 && Id.All(char.IsDigit))
+                    Ids.Add(Id);
+            }
+
+            return Ids;
         }
 
         /** El idioma del juego por el nombre de su carpeta: el oficial es «SpanishLatin
