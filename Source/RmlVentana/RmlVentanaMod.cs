@@ -70,11 +70,23 @@ namespace RmlVentana
             {
                 if (Find.WindowStack == null)
                 {
-                    if (Quedan > 1) Encolar(Quedan - 1);
+                    if (Quedan > 1)
+                        Encolar(Quedan - 1);
+                    else
+                        Log.Warning("[Traducciones [Español Latino]] No se abrió la ventana: la pantalla del menú no estaba lista.");
                     return;
                 }
 
-                if (VentanaTraducciones.Crear(out bool Novedades) is VentanaTraducciones Ventana && Novedades)
+                var Ventana = VentanaTraducciones.Crear(out bool Novedades);
+
+                // Con el modo desarrollador, por que aparecio o no: sin esto, «no aparecio» no dice
+                // si fue por el idioma, porque no habia novedades o por un error.
+                if (Prefs.DevMode)
+                    Log.Message("[Traducciones [Español Latino]] Al iniciar: idioma " + LanguageDatabase.activeLanguage?.folderName +
+                                ", novedades " + (Novedades ? "sí" : "no") + ", lista " + (Ventana == null ? "con error" : "lista") +
+                                ", intento " + (Intentos - Quedan + 1) + ".");
+
+                if (Ventana != null && Novedades)
                     Find.WindowStack.Add(Ventana);
             }
             catch (Exception e)
