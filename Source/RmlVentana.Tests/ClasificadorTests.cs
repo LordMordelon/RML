@@ -127,11 +127,13 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
-        public void ApareceSolaLaPrimeraVez()
+        public void LaPrimeraVezApareceSoloSiHuboCambiosEnRml()
         {
+            // Lo pidio Angel: la primera vez no basta con que sea la primera vez.
             var Filas = Clasificador.Clasificar(new[] { Mod("a") }, new HashSet<string>(), null, Rml);
 
-            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, null, Filas));
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, null, Filas, HayNovedades: false));
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, null, Filas, HayNovedades: true));
         }
 
         [TestMethod]

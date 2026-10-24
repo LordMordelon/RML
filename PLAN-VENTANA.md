@@ -207,6 +207,9 @@ muestra **solo lo de la última actualización de RML**; después, todo lo que e
   último commit anterior y marca en una sexta columna lo que cambió desde ahí, sin commitear incluido: «a»
   añadido, «c» cambiado. Al armar la copia para subir, esa subida es la anterior. Sin conexión con Steam no
   va la columna y el juego muestra los últimos 30 días. Hoy marca 7 mods (con 30 días eran 116).
+- **Cuándo aparece sola (Angel, 24-oct):** la primera vez, solo si la última actualización de RML trajo
+  cambios; si no, no se abre. Después, si hay cambios sin ver (de todas las actualizaciones que el jugador
+  se haya saltado: 3 de una y 5 de otra suman 8) o un mod nuevo en su lista.
 
 **Falta (Angel):** probarla en el juego y decir si se sube. Después queda la etapa 4 (gráfico de
 solicitudes), que no necesita el juego.
