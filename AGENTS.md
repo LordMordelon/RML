@@ -46,7 +46,7 @@ Novedades.tsv                   GENERADO solo en output/, sin commitear — lo q
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
-TRADUCIR.md                     guía para colaboradores sin git
+TRADUCIR.md                     guía para colaboradores: fork, extractor, traducir en VS Code y pull request
 CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml

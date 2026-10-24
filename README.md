@@ -19,7 +19,8 @@ Al iniciar, una ventana muestra qué mods activos están traducidos. Para pedir 
 
 ## Colaborar
 
-Para traducir no hace falta saber programar: lee **[TRADUCIR.md](TRADUCIR.md)** y el
+Para traducir un mod, sigue **[TRADUCIR.md](TRADUCIR.md)**: copias el repositorio, extraes el mod,
+traduces lo nuevo en VS Code y lo subes para que se revise. Los términos están en el
 **[GLOSARIO](GLOSARIO.md)**. Para avisar de un error, abre un
 [issue](https://github.com/LordMordelon/RML/issues) o comenta en Steam.
 
