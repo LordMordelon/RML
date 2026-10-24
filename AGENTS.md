@@ -1,8 +1,8 @@
 # Notas para agentes — RimWorld Mod Latino (RML)
 
 Contexto para trabajar en este repositorio sin tener que redescubrirlo. El
-[README](README.md) explica cómo está organizado y cómo publicarlo; acá está lo que hay
-que saber antes de tocar nada.
+[README](README.md) es corto a propósito (Angel pidió dejar solo lo importante): qué es,
+cómo instalarlo y los pasos del mantenedor. Lo demás va acá.
 
 ## Qué es esto
 

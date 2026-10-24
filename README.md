@@ -1,200 +1,47 @@
 # RimWorld Mod Latino (RML)
 
-Mod que reúne traducciones al **español latinoamericano** de mods de RimWorld.
+Traducciones al **español latinoamericano** de mods de RimWorld, todas en un solo mod. Cada
+traducción se aplica solo si su mod está activo, así que puedes dejarlo puesto siempre.
 
-Cada traducción se aplica únicamente si el mod correspondiente está activo, así que
-el mod se puede tener puesto siempre sin importar qué mods se usen en cada partida.
+- **[Lista de mods traducidos](https://lordmordelon.github.io/RML/)**
+- **[Mods más pedidos](https://lordmordelon.github.io/RML/solicitudes.html)**
 
-Arquitectura basada en [RimWorld Mod Korean (RMK)](https://github.com/RimWorldKorea/RMK).
-Qué cambia respecto de ese original: **[CAMBIOS.md](CAMBIOS.md)**.
+## Instalar
 
----
+1. Suscríbete en el [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3541009729).
+   Sin Steam, baja el [zip de la última versión](https://github.com/LordMordelon/RML/releases/latest/download/RimWorld-Mod-Latino.zip)
+   y descomprímelo en la carpeta `Mods` de RimWorld.
+2. Ponlo **último** en la lista de mods: así su traducción le gana a cualquier otra.
+3. Elige el idioma **Español (Latinoamérica)**.
 
-### 👉 ¿Quieres colaborar traduciendo? Lee **[TRADUCIR.md](TRADUCIR.md)** y el **[GLOSARIO](GLOSARIO.md)**
+Al iniciar, una ventana muestra qué mods activos están traducidos. Para pedir uno que falta, aprieta
+**«Solicitar»** junto al mod (la ventana se abre también en Opciones → Configuración de mods).
 
-Esa guía está escrita para alguien que no sabe programar: no necesita git, ni consola, ni .NET.
-Lo que sigue en este README es la documentación del **mantenedor** del proyecto.
+## Colaborar
 
----
+Para traducir no hace falta saber programar: lee **[TRADUCIR.md](TRADUCIR.md)** y el
+**[GLOSARIO](GLOSARIO.md)**. Para avisar de un error, abre un
+[issue](https://github.com/LordMordelon/RML/issues) o comenta en Steam.
 
-## Cómo está organizado
+## Para el mantenedor
 
-```
-About/About.xml                 metadatos del mod, supportedVersions y forceLoadAfter (GENERADO)
-Data/!<Autor>/                  autores con 4 o más mods; el ! los fija arriba
-  <Nombre del mod> - <ID>/
-Data/<Nombre del mod> - <ID>/   los demás, sueltos
-  Languages/SpanishLatin/       nombre corto a propósito: ver AGENTS.md
-    Keyed/ DefInjected/ Strings/
-  Patches/                      fuera de Languages, a la par
-  LoadFolders.Build.yaml        a qué mod se engancha esta carpeta
-  UNUSED.xml                    traducciones cuyo nodo ya no existe en el mod
-Ajustes/<Nombre del mod> - <ID>/  cambios a mano que solo valen con ese mod activo; el extractor no los toca (ver AGENTS.md)
-LoadFolders.xml                 GENERADO — no editar a mano
-docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
-ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
-01-regenerar-indice.cmd         regenera los anteriores
-02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
-03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
-Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
-Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
-Source/RmlVentana/              la DLL de RML; el builder la compila en Common/Assemblies, que se carga siempre
-```
+Las traducciones las produce el [extractor](https://github.com/LordMordelon/RimworldExtractor), clonado
+como carpeta hermana de este repo (`RML/` y `RimworldExtractor/`), con el .NET SDK 10.
 
-`LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo
-cuando ese mod está presente, mediante el atributo `IfModActive`.
-
-Los `Patches/` y el `UNUSED.xml` van fuera de `Languages/` por el mismo motivo: ahí adentro
-RimWorld los cargaría como una traducción más. El `UNUSED.xml` guarda las traducciones cuyo
-nodo desapareció del mod, y sus claves muertas le llenarían el log de errores al jugador. No
-hay que tocarlo: el extractor lo vuelve a leer en cada actualización, así que si el mod
-devuelve el nodo a su lugar la traducción se recupera sola.
-
-Agrupar por autor es solo para ordenar: el extractor busca la carpeta de un mod en
-cualquier nivel bajo `Data/`, así que mover una de lugar no rompe nada. Los autores con
-cuatro traducciones o más tienen su `Data/!Autor/`, y de mantenerlo se encarga el extractor:
-un mod nuevo cae directo ahí si su autor ya tiene carpeta, y las sueltas de ese autor se
-mueven solas en la siguiente traducción rápida. Si un autor recién llega a cuatro, lo avisa
-por log: la carpeta la creas tú, y basta con crearla vacía.
-
-**Se regenera solo en los dos casos que importan:** el extractor lo rehace al terminar
-una traducción rápida, y una GitHub Action lo rehace al hacer push. `01-regenerar-indice.cmd` es
-para el caso que queda, que es cambiar algo a mano sin pasar por ninguno de los dos.
-
-## Requisitos
-
-- **.NET SDK 10** — lo usan tanto las herramientas de `Source/` como el extractor, así que alcanza con uno solo.
-- El fork del extractor clonado **como carpeta hermana de este repositorio**:
-
-  ```
-  <carpeta de trabajo>/
-    RML/                  <- este repo
-    RimworldExtractor/    <- https://github.com/LordMordelon/RimworldExtractor
-  ```
-
-  `FileNameEncoder` usa `RimworldExtractorInternal.Utils.GenerateFileName`. Si el
-  extractor está en otro lado:
-
-  ```
-  dotnet build -p:ExtractorInternalPath=<ruta al RimworldExtractorInternal.csproj>
-  ```
-
-## Agregar la traducción de un mod
-
-1. En el extractor, con la «Carpeta del mod RML» de Opciones apuntando a este clon, elegir
-   el mod con **«Elegir un mod y extraer»**, sin marcar «Extraer en carpeta». Es la
-   traducción rápida: escribe directamente en `Data/<Nombre del mod> - <WorkshopID>/`
-   —o en `Data/!<Autor>/`, si el autor ya tiene carpeta—, conserva lo que ya estaba
-   traducido, deja `TODO` en lo nuevo, genera el `LoadFolders.Build.yaml` con el
-   `packageId` real del mod y regenera el índice.
-2. Traducir reemplazando los `TODO` de los XML, como explica [TRADUCIR.md](TRADUCIR.md).
-3. Regenerar el índice con **`01-regenerar-indice.cmd`** (doble clic). Deja al día
-   `LoadFolders.xml`, que es lo que hace que el mod cargue, la lista de mods
-   (`ModList.tsv` y la página `docs/index.html`, publicada en
-   https://lordmordelon.github.io/RML/), el `forceLoadAfter` de `About/About.xml`,
-   que hace que RML cargue después de cada mod que traduce, y la copia de `output/`,
-   que es la que carga el juego: sin esto, lo traducido a mano no se ve.
-4. Probar en el juego y, antes de commitear, revisar el diff como indica
+1. **Traducir un mod:** en el extractor, «Elegir un mod y extraer» sin marcar «Extraer en carpeta».
+   Después reemplaza los `TODO` de los XML.
+2. **Después de una actualización del juego:** «Actualizar todo RML».
+3. **Cambios a mano en `Data/`:** corre `01-regenerar-indice.cmd`; sin eso no se ven en el juego.
+4. **Antes de commitear:** revisa el diff como dice
    [AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
+5. **Publicar:** las versiones de GitHub salen solas con cada push. Al Workshop se sube desde el juego
+   con `03-subir-al-workshop.cmd`.
 
-No hace falta hacer nada si el mod trae su propia traducción al español: RML va último
-en la lista de mods y le gana igual. El extractor lo avisa en el log por si esa
-traducción sirve para partir de ahí, no porque haya que anotarla en ningún lado.
-
-### La traducción de un colaborador
-
-Llega como la carpeta del mod comprimida: la bajó de este repositorio o la sacó del
-extractor con «Extraer en carpeta». Los nombres de los archivos son los mismos que en
-`Data/`, así que alcanza con copiar sus `Languages` y `Patches` encima de la carpeta del
-mod —si el mod es nuevo, primero se extrae como en el paso 1— y seguir desde el paso 3.
-El diff muestra si tocó algo además de los `TODO`.
-
-### Después de una actualización del juego: «Actualizar todo RML»
-
-El botón **«Actualizar todo RML»** del extractor hace la traducción rápida de todos los mods
-de `Data/`, uno detrás de otro, contra la versión instalada. Lo nuevo sale como `TODO` y lo
-que el mod ya no tiene va a su `UNUSED.xml`. Los mods que no tengas instalados quedan como
-están. Tarda varios minutos; antes de commitear, revisa el diff como indica
-[AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
-
-### Sobre `FileNameEncoder`
-
-**No hay que correrlo sobre lo que genera el extractor**, aunque el nombre sugiera que sí.
-Los dos calculan el nombre con la misma función pero con entradas distintas:
-
-| | Entrada del hash |
-|---|---|
-| Extractor | nombre del mod + `Clase\|ArchivoOrigen` |
-| FileNameEncoder | nombre de la carpeta en `Data/` + `Clase` |
-
-Como el extractor borra y reescribe la carpeta entera en cada actualización, correr el
-encoder encima renombraría todo, y la siguiente extracción lo devolvería a su nombre
-original. **Cada ciclo sería un borrar+agregar completo en git** en vez de un diff línea
-por línea.
-
-Sigue sirviendo para XML que vengan de otro lado —hechos a mano, o sacados con otra
-herramienta—, y ahí se usa así:
-
-```
-dotnet run --project Source/FileNameEncoder/FileNameEncoder -- "Data/<Nombre del mod> - <WorkshopID>"
-```
-
-Sin argumentos pregunta la ruta por teclado. **No toca la carpeta `Patches`**: esos
-archivos ya vienen nombrados con el mod al que le aplica cada uno, que es legible y
-estable, así que codificarlos sólo perdería esa información.
-
-## Instalar para probar
-
-Enlazar `output\RimWorld Mod Latino` dentro de la carpeta `Mods/` de RimWorld,
-activarlo **último** en la lista de mods y elegir el idioma `SpanishLatin`. El enlace lo
-crea `03-subir-al-workshop.cmd` la primera vez (ver «Publicar»), o a mano:
-
-```
-mklink /J "D:\SteamLibrary\steamapps\common\RimWorld\Mods\RML" "<repo>\output\RimWorld Mod Latino"
-```
-
-Se enlaza `output` y no el repo: es la copia liviana, la misma que se sube al Workshop
-—sin `.git`, `Source/`, `UNUSED.xml`, `LoadFolders.Build.yaml` ni los comentarios de los
-XML—, así que en el juego se prueba exactamente lo que se publica. Se rehace sola cada vez
-que se regenera el índice: una traducción rápida del extractor se ve en el juego sin hacer
-nada más. **Un cambio hecho a mano en `Data/` no se ve hasta correr
-`01-regenerar-indice.cmd`.**
-
-Activarlo último no es un detalle: es lo que hace que sus traducciones le ganen a
-las que traiga cualquier otro mod.
-
-## Publicar
-
-- **GitHub Releases** — salen solas. Después de regenerar el índice, en cada push que
-  cambie el mod, `release.yml` publica la copia liviana de `output/` como
-  `RimWorld-Mod-Latino.zip`. Si la copia quedó igual a la de la última release, no publica
-  nada. La última siempre está en
-  https://github.com/LordMordelon/RML/releases/latest/download/RimWorld-Mod-Latino.zip.
-  Es para quien juega sin Steam: esa copia no se actualiza sola.
-- **Steam Workshop** — una release no lo actualiza, porque Steam no lee GitHub. Se sube desde
-  el juego: doble clic en **`03-subir-al-workshop.cmd`**. Corre
-  `02-armar-copia-limpia.cmd`, que deja al día la copia liviana de `output/`, y se
-  asegura de que `Mods\RML` enlace a ella: si no existe lo crea, y si todavía apunta al
-  repo lo cambia (para eso RimWorld tiene que estar cerrado). Después abres el juego y
-  subes RML.
-
-  Necesita, una sola vez, la variable con la carpeta Mods de RimWorld:
-
-  ```
-  setx RIMWORLD_MODS "D:\SteamLibrary\steamapps\common\RimWorld\Mods"
-  ```
-
-  Si `Mods\RML` es una carpeta de verdad y no un enlace, no la toca.
-
-La copia de `output/` la arma `LoadFoldersBuilder -copia` (`CopiaLimpia.cs`): comprueba que
-ninguna ruta, instalada desde el Workshop, pase el límite de Windows, y que no falte ningún
-archivo. Pesa unos 11,5 MB contra los 19 de copiar `About/` y `Data/` tal cual. El zip de
-las releases sale de esa misma copia, así que el Workshop y GitHub publican lo mismo.
+Cómo está organizado y qué no hay que tocar: [AGENTS.md](AGENTS.md). Qué cambia respecto de
+[RimWorld Mod Korean](https://github.com/RimWorldKorea/RMK), del que deriva: [CAMBIOS.md](CAMBIOS.md).
 
 ## Licencia
 
-GPL-3.0. Las herramientas de `Source/` derivan de
-[RimWorldKorea/RMK](https://github.com/RimWorldKorea/RMK), también GPL-3.0.
-
-Los derechos sobre RimWorld y el contenido traducido pertenecen a Ludeon Studios Inc.
+GPL-3.0. Las herramientas de `Source/` derivan de [RimWorldKorea/RMK](https://github.com/RimWorldKorea/RMK),
+también GPL-3.0. Los derechos sobre RimWorld y el contenido traducido pertenecen a Ludeon Studios Inc.
 según el EULA de RimWorld.
