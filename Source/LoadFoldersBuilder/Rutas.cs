@@ -86,10 +86,15 @@ public static class Rutas
         // un ajuste con el mismo nombre de archivo que una traduccion de Data/ se cruza aca.
         var PorRutaInterna = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
 
-        foreach (string Yaml in Statics.CarpetasDeOrigen(RootPath)
-                     .SelectMany(Carpeta => Directory.EnumerateFiles(Carpeta, Statics.BuildYamlFileName, SearchOption.AllDirectories)))
+        // Comun/ no tiene yaml, pero tambien es una carpeta del LoadFolders.xml.
+        string Comun = Path.Combine(RootPath, Statics.CarpetaComun);
+        var CarpetasDeMod = Statics.CarpetasDeOrigen(RootPath)
+            .SelectMany(Carpeta => Directory.EnumerateFiles(Carpeta, Statics.BuildYamlFileName, SearchOption.AllDirectories))
+            .Select(Yaml => Path.GetDirectoryName(Yaml)!)
+            .Concat(Directory.Exists(Comun) ? [Comun] : []);
+
+        foreach (string Carpeta in CarpetasDeMod)
         {
-            string Carpeta = Path.GetDirectoryName(Yaml)!;
             foreach (string Archivo in Directory.EnumerateFiles(Carpeta, "*", SearchOption.AllDirectories))
             {
                 string Interna = Path.GetRelativePath(Carpeta, Archivo);

@@ -34,6 +34,8 @@ Data/
   <Nombre del mod> - <ID>/      los demás, sueltos
 Ajustes/
   <Nombre del mod> - <ID>/      cambios a mano que le ganan a Data/; el extractor no los toca (ver «Ajustes»)
+Comun/                          se carga siempre, sin IfModActive, arriba de cada versión de LoadFolders.xml
+  Assemblies/RmlVentana.dll     GENERADA — la compila el builder desde Source/RmlVentana; no se commitea
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
@@ -47,6 +49,8 @@ CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
+Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6). Hoy solo deja una
+                                línea en el log; la ventana de mods traducidos va por etapas (PLAN-VENTANA.md)
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),
                                 pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión)
 ```
@@ -167,10 +171,11 @@ mismo con todos los mods de una vez; los que no están instalados quedan como es
    `BuildRuleYaml.cs`, y además el extractor genera estos archivos: ver
    `LoadFoldersBuild.Contents` en el repositorio del extractor.
 
-6. **La carpeta de origen es siempre `Data/`** (o `Ajustes/`). Nunca editar `output/`: se rehace en cada
+6. **La carpeta de origen es siempre `Data/`** (o `Ajustes/`, o `Comun/`). Nunca editar `output/`: se rehace en cada
    `LoadFoldersBuilder -build` y en `-copia` (`CopiaLimpia.cs`), y lo que se toque ahí se
    pierde. Es la copia liviana del mod —sin `UNUSED.xml`, `LoadFolders.Build.yaml` ni
-   comentarios en los XML—, y es la que carga el juego: `Mods\RML` enlaza a
+   comentarios en los XML, y con la DLL de `Comun/Assemblies`, que el builder compila justo
+   antes (`Dll.cs`; si no compila, `-copia` sale con 1 y la CI no publica)—, y es la que carga el juego: `Mods\RML` enlaza a
    `output\RimWorld Mod Latino`, no al repo. Por eso un cambio hecho a mano en `Data/` no
    se ve en el juego hasta regenerar el índice. Al Workshop se sube esa copia; subido el
    repo tal cual llevaba `.git` y los binarios de `Source/` (57 MB contra 11,5).

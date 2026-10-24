@@ -44,7 +44,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
         StopProgram(Rutas.Informar(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-copia")
-        StopProgram(Rutas.Informar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
+        StopProgram(Rutas.Informar(Statics.RootPath!) && Dll.Compilar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-build" or "-pagina") goto StartBuild;
 
@@ -134,6 +134,10 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
         foreach (XElement Version in XmlDeAjustes.Root!.Elements())
             CompleteXML.Root!.Element(Version.Name)!.AddFirst(Version.Elements());
 
+        // Comun/ va sin IfModActive, para que el juego la cargue siempre: tiene la DLL.
+        foreach (XElement Version in CompleteXML.Root!.Elements())
+            Version.AddFirst(new XElement("li", Statics.CarpetaComun));
+
         // LoadFolders.xml 파일을 작성합니다.
         Stopwatch.Restart();
 
@@ -164,9 +168,10 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
         Console.WriteLine("\e[32mforceLoadAfter de About.xml escrito...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
         // La copia liviana en output/, que es la que carga el juego por Mods\RML. Va al final,
-        // con el LoadFolders.xml y el About.xml ya al dia. Si falla solo avisa: el indice ya
-        // quedo bien escrito.
+        // con el LoadFolders.xml y el About.xml ya al dia, y con la DLL recien compilada. Si
+        // algo falla solo avisa: el indice ya quedo bien escrito.
         Stopwatch.Restart();
+        Dll.Compilar(Statics.RootPath!);
         CopiaLimpia.Armar(Statics.RootPath!);
 
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;

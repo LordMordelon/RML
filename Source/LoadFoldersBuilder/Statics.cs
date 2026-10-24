@@ -30,9 +30,13 @@ static class Statics
 
     public static string? AjustesPath => RootPath is null ? null : Path.Combine(RootPath, CarpetaAjustes);
 
-    /** Data/ y, si existe, Ajustes/: las carpetas cuyo contenido llega al juego. */
+    /** La carpeta que el juego carga siempre, con cualquier lista de mods: la DLL de RML va en su
+     *  Assemblies (ver Dll.cs). El builder la pone sin IfModActive arriba de cada version. */
+    public const string CarpetaComun = "Comun";
+
+    /** Data/ y, si existen, Ajustes/ y Comun/: las carpetas cuyo contenido llega al juego. */
     public static IEnumerable<string> CarpetasDeOrigen(string Root) =>
-        new[] { "Data", CarpetaAjustes }.Select(x => Path.Combine(Root, x)).Where(Directory.Exists);
+        new[] { "Data", CarpetaAjustes, CarpetaComun }.Select(x => Path.Combine(Root, x)).Where(Directory.Exists);
 
     /** About.xml로부터 불러들인 정렬된 버전 목록입니다. */
     public static Version[]? BuildVersions { get; private set; }

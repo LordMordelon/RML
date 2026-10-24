@@ -11,6 +11,9 @@ obj/
 *.suo
 .vs/
 
+# La DLL de RML: la compila LoadFoldersBuilder en -build y -copia.
+Comun/Assemblies/
+
 # Publicados de las herramientas
 Source/**/publish/
 
