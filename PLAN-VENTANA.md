@@ -211,5 +211,40 @@ muestra **solo lo de la última actualización de RML**; después, todo lo que e
   cambios; si no, no se abre. Después, si hay cambios sin ver (de todas las actualizaciones que el jugador
   se haya saltado: 3 de una y 5 de otra suman 8) o un mod nuevo en su lista.
 
-**Falta (Angel):** probarla en el juego y decir si se sube. Después queda la etapa 4 (gráfico de
-solicitudes), que no necesita el juego.
+Angel la probó en 1.7 el 24-oct: aparece sola la primera vez con la última actualización y guarda lo visto.
+Pidió dejar el nombre en Configuración de mods como está, aunque se corte («Traducciones [Español La...»).
+
+## Próxima sesión (24-oct-2026)
+
+**Objetivo:** etapa 4, el gráfico de los mods más solicitados (ver «Etapa 4» más arriba).
+**Estado:** etapas 1 a 3 hechas y probadas en 1.7, en `master` de RML **sin subir** (último commit c4037894).
+En la carpeta hay cambios sin commitear de otra sesión en The Dead Man's Switch II: no tocarlos.
+**Antes de empezarla (Angel):** decir si se suben antes las etapas 1 a 3 (ver «Decisiones»).
+**Al empezar (Claude):**
+1. `solicitud.yml`, como `revisado.yml`: lee solo la línea `- <WorkshopID> <packageId>` del issue con la
+   etiqueta `solicitud`, comprueba que el ID sean solo números, y si el mod ya está en `ModList.tsv` lo dice
+   y cierra. Si no, lo suma en la rama `solicitudes` (huérfana, como `revisados`) y cierra con su puesto.
+   El texto del issue es de cualquiera: pasarlo por variables de entorno, nunca dentro de la orden.
+2. **Contar personas, no issues:** hace falta guardar quién pidió cada mod. Propuesta: `Pedidos.tsv`
+   (WorkshopID, usuario de GitHub, fecha) además de `Solicitudes.tsv` (WorkshopID, packageId, nombre,
+   personas, último pedido), que se recalcula del primero.
+3. Builder `-solicitudes`: lee `origin/solicitudes` con `git show` (como `Revisados.cs`) y escribe
+   `docs/solicitudes.html`, **barras horizontales de mayor a menor** (Angel, 24-oct), los 20 más pedidos con
+   el enlace al Workshop, sin los que ya tienen carpeta en `Data/` ni los de `SinTexto.tsv`. Autocontenida,
+   como `docs/index.html`. Se publica en Pages sin commitear, como la página diaria, con un enlace desde la
+   lista de mods.
+4. Etiqueta `sin-texto` al cerrar: el action anota `SinTexto.tsv` y responde solo a los pedidos siguientes.
+   El builder lo copia a `output/` y la ventana muestra «Sin texto» | «No necesita traducción», sin
+   «Solicitar»: `Estado.SinTexto` en `Clasificador`, con pruebas primero.
+5. Crear las etiquetas `solicitud` y `sin-texto` (`gh api`, una orden por paso) cuando se apruebe subir.
+6. Unos 8 a 10 archivos (estimado): cabe justo en una sesión; si no, el punto 4 va en otra.
+
+**Decisiones de Angel:**
+- ¿Subir las etapas 1 a 3 antes de la 4? Recomiendo que sí: la ventana ya sirve sola, y los pedidos que
+  lleguen antes del action se pueden contar después corriéndolo sobre los issues abiertos.
+- Al probar el action hace falta abrir al menos un issue de prueba en el repositorio público. Recomiendo
+  uno de Angel, que se cierra solo.
+
+**Guías:** `dataviz` para el gráfico; `frontend-design` si cambia la página de mods.
+**Dónde leer:** «Etapa 4» de este plan; `.github/workflows/revisado.yml` y `pagina-diaria.yml`;
+`Source/LoadFoldersBuilder/Revisados.cs`; `Source/RmlVentana/Logica/Clasificador.cs`.
