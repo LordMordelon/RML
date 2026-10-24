@@ -36,6 +36,7 @@ Ajustes/
   <Nombre del mod> - <ID>/      cambios a mano que le ganan a Data/; el extractor no los toca (ver «Ajustes»)
 Common/                          se carga siempre, sin IfModActive, arriba de cada versión de LoadFolders.xml
   Assemblies/RmlVentana.dll     GENERADA — la compila el builder desde Source/RmlVentana; no se commitea
+  Languages/<idioma>/Keyed/     los textos de la ventana, en SpanishLatin y English. A mano: el extractor no recorre Common/
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
@@ -49,8 +50,9 @@ CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
-Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6). Hoy solo deja una
-                                línea en el log; la ventana de mods traducidos va por etapas (PLAN-VENTANA.md)
+Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6): la ventana de mods
+                                traducidos y sus ajustes (PLAN-VENTANA.md). Logica/ no usa tipos del juego
+Source/RmlVentana.Tests/        las pruebas de Logica/, sin el juego (dotnet test; la CI las corre en loadfolders.yml)
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),
                                 pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión)
 ```

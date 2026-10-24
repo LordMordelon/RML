@@ -53,6 +53,7 @@ public static class CopiaLimpia
             }
 
             var Esperados = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            var EnUso = new List<string>();
             int Escritos = 0, SinComentarios = 0, CopiadosTalCual = 0;
             long Peso = 0;
 
@@ -67,8 +68,17 @@ public static class CopiaLimpia
                     return;
 
                 Directory.CreateDirectory(Path.GetDirectoryName(Archivo)!);
-                File.WriteAllBytes(Archivo, Contenido);
-                Escritos++;
+                try
+                {
+                    File.WriteAllBytes(Archivo, Contenido);
+                    Escritos++;
+                }
+                // Con el juego abierto la DLL de Common/Assemblies queda tomada. Queda la anterior y
+                // se sigue: si no, una traduccion rapida con el juego abierto no copiaba nada.
+                catch (IOException) when (File.Exists(Archivo))
+                {
+                    EnUso.Add(Relativa);
+                }
             }
 
             foreach (string Archivo in Directory.EnumerateFiles(Path.Combine(RootPath, "About"), "*", SearchOption.AllDirectories))
@@ -138,6 +148,18 @@ public static class CopiaLimpia
 
             Console.WriteLine("\e[32mCopia limpia en {0}\\{1}: {2} archivos, {3:F1} MB ({4} actualizados, {5} borrados, {6} XML sin comentarios).\x1b[0m",
                 Carpeta, NombreDelMod, Hay, Peso / 1048576.0, Escritos, Borrados, SinComentarios);
+
+            // La copia sirve para jugar, pero no para subirla: por eso -copia, que corre antes de
+            // subir al Workshop, sale con 1.
+            if (EnUso.Count > 0)
+            {
+                Console.WriteLine("\e[93mQuedo la version anterior de {0} archivos porque otro programa los tiene abiertos (probablemente el juego). " +
+                                  "Cierra el juego y vuelve a armar la copia:\x1b[0m", EnUso.Count);
+                foreach (string Archivo in EnUso)
+                    Console.WriteLine("\t" + Archivo);
+                return false;
+            }
+
             // Un XML que no se pudo aligerar igual va, con sus comentarios: no es un error.
             return true;
         }

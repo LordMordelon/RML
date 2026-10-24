@@ -152,8 +152,35 @@ Lo que quedó:
 **Falta (Angel):** abrir RimWorld 1.7 con RML y mirar en el log que salga la línea «Cargado.» y ningún error
 nuevo. Si se puede, lo mismo en 1.6. Después, decir si se sube.
 
-## Próxima sesión: etapa 2
+Angel la probó en 1.7 el 23-oct: sale la línea en el log y ningún error nuevo.
 
-**Antes de empezarla:** que Angel haya probado la etapa 1 en el juego.
-**Guías:** `frontend-design` para la ventana.
-**Dónde leer:** este plan; `Source/RmlVentana/`; «Reglas» en `RML/AGENTS.md`.
+## Etapa 2: hecha en local (23-oct-2026)
+
+- **La lógica** está en `Source/RmlVentana/Logica/`, sin tipos del juego, con pruebas en
+  `Source/RmlVentana.Tests` (la CI las corre antes de regenerar). `Clasificador` decide el estado de cada
+  mod y si la ventana aparece sola; `Solicitudes` arma el enlace del issue y las fechas.
+- **Lo que lee del juego** (`LecturaDelJuego`): lo que traduce RML sale de los `IfModActive` de sus
+  carpetas de `Data/` en el `LoadFolders.xml` ya leído. Otra traducción: una carpeta
+  `Languages/SpanishLatin` (o el `.tar`) en lo que el juego carga del mod. Un mod sin `Defs` ni
+  `Assemblies` que trae español es un **paquete de traducción**: apunta a lo que traduce con `IfModActive`
+  o, si su carpeta no tiene condición, con el `modDependencies`, `loadAfter` y `forceLoadAfter` de su
+  `About.xml`. Los paquetes no salen en la tabla, salvo que RML los traduzca.
+- **La ventana** (`VentanaTraducciones`) sigue la previsualización con los controles del juego: pestaña
+  «Tus mods» (la de «Novedades» llega en la etapa 3), buscador, tabla, «NUEVO», botón «Solicitar», nota y
+  «No volver a mostrar». Los textos están en `Common/Languages/{SpanishLatin,English}/Keyed/`.
+- **Aparece sola** (`AlIniciar`) al terminar de cargar, si el juego está en español latinoamericano y hay
+  un mod nuevo desde la última vez, o si nunca se abrió. Se abre a mano desde Opciones → Configuración de
+  mods → «Traducciones [Español Latino]».
+- **El builder** ya no corta la copia si el juego tiene tomada la DLL: deja la anterior, copia lo demás y
+  avisa. `-copia` sale con 1 en ese caso, para no subir al Workshop una copia a medias.
+- Todo lo que usa del juego se comprobó contra el `Assembly-CSharp.dll` de 1.7.
+
+**Falta (Angel):** probarla en el juego (ver el mensaje de la sesión) y decir si se sube.
+**Pendiente para la etapa 4:** crear la etiqueta `solicitud` en el repositorio de RML. Sin ella, GitHub
+abre el issue igual, pero sin etiqueta.
+
+## Próxima sesión: etapa 3
+
+**Antes de empezarla:** que Angel haya probado la etapa 2 en el juego.
+**Dónde leer:** este plan; `Source/RmlVentana/`; `Source/LoadFoldersBuilder/UltimosCambios.cs` (las fechas
+de cada carpeta desde git, que `Novedades.tsv` puede reutilizar).

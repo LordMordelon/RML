@@ -23,6 +23,7 @@ on:
       - 'Source/LoadFoldersBuilder/**'
       # La DLL: el cambio llega al juego por la release, que corre despues de este flujo.
       - 'Source/RmlVentana/**'
+      - 'Source/RmlVentana.Tests/**'
 
 jobs:
   regenerar:
@@ -59,6 +60,11 @@ jobs:
         uses: actions/setup-dotnet@v6
         with:
           dotnet-version: '10.0.x'
+
+      # La logica de la ventana del juego (Source/RmlVentana/Logica), probada sin el juego. Si
+      # falla, no se regenera nada y la release no sale.
+      - name: Probar la ventana
+        run: dotnet test Source/RmlVentana.Tests -c Release
 
       # LoadFoldersBuilder solo depende de YamlDotNet, así que no hace falta clonar
       # el extractor. El que sí lo necesita es FileNameEncoder, que no participa.

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- La logica de la ventana (Source/RmlVentana/Logica), probada sin abrir el juego. Esos archivos no
+         usan tipos del juego, asi que se compilan aca de nuevo, en .NET 10, en vez de referenciar la DLL
+         de .NET Framework. -->
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="../RmlVentana/Logica/*.cs" Link="Logica/%(Filename)%(Extension)" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+        <PackageReference Include="MSTest" Version="3.10.2" />
+    </ItemGroup>
+
+</Project>
