@@ -246,6 +246,10 @@
   <DMS_Recharger.label>cargador de automatroides</DMS_Recharger.label>
   <!-- EN: Automatroids can recharge here. During the charging cycle, toxic wastepacks are produced and stored internally. Haulers must remove the wastepacks from time to time. -->
   <DMS_Recharger.description>Los automatroides pueden recargarse aquí. Durante la recarga, este cargador produce packs de residuos tóxicos y los almacena internamente. Los transportistas deben retirar los packs de residuos de vez en cuando.</DMS_Recharger.description>
+  <!-- EN: engineering drone bay -->
+  <DMS_EngineeringBay.label>bahía de drones de ingeniería</DMS_EngineeringBay.label>
+  <!-- EN: A drone base station for facility maintenance and basic production work. The compute provided by its installed cluster control chipset lets simple drones carry out complex tasks. Commonly found in unmanned facilities and lights-out factories.\n\nCan deploy uca (maintenance and machinery operation) or erima (farming and plant care) drones. -->
+  <DMS_EngineeringBay.description>Una estación base de drones para el mantenimiento de instalaciones y trabajos básicos de producción. La capacidad de cálculo de su chip de control clúster permite que drones simples hagan tareas complejas. Es común en instalaciones sin personal y en fábricas automatizadas.\n\nPuede desplegar drones uca (mantenimiento y operación de maquinaria) o erima (cultivo y cuidado de plantas).</DMS_EngineeringBay.description>
   <!-- EN: machine cabinet -->
   <DMS_MachineCabinet.label>gabinete de control</DMS_MachineCabinet.label>
   <!-- EN: A cabinet that contains many complex mechanical devices to improve product quality, such as laser positioners and temperature detectors to assist with calibration. These instruments also improve work efficiency.\n\nEach production building can connect up to 8 machine cabinets. When producing a product that has quality, each cabinet provides a 25% chance of increasing quality by one level. -->
@@ -1840,10 +1844,6 @@
   <DMS_Building_BlastScanner.comps.CompRefuelable.fuelGizmoLabel>Carga</DMS_Building_BlastScanner.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: No charge loaded -->
   <DMS_Building_BlastScanner.comps.CompRefuelable.outOfFuelMessage>No hay ninguna carga cargada</DMS_Building_BlastScanner.comps.CompRefuelable.outOfFuelMessage>
-  <!-- EN: engineering drone bay -->
-  <DMS_EngineeringBay.label>bahía de drones de ingeniería</DMS_EngineeringBay.label>
-  <!-- EN: A drone base station for facility maintenance and basic production work. The compute provided by its installed cluster control chipset lets simple drones carry out complex tasks. Commonly found in unmanned facilities and lights-out factories.\n\nCan deploy uca (maintenance and machinery operation) or erima (farming and plant care) drones. -->
-  <DMS_EngineeringBay.description>Una estación base de drones para el mantenimiento de instalaciones y trabajos básicos de producción. La capacidad de cálculo de su chip de control clúster permite que drones simples hagan tareas complejas. Es común en instalaciones sin personal y en fábricas automatizadas.\n\nPuede desplegar drones uca (mantenimiento y operación de maquinaria) o erima (cultivo y cuidado de plantas).</DMS_EngineeringBay.description>
   <!-- EN: FPV nest -->
   <DMS_Building_FPVNest.label>nido FPV</DMS_Building_FPVNest.label>
   <!-- EN: An automated drone nest used for facility defense. When alerted by the facility&apos;s other sensors, it automatically launches FPV drones to drive off or kill intruders, and it will also release drones to fight back when attacked. It is connected to the facility&apos;s underground logistics system below, so its expended drone stock is automatically replenished over time. -->
@@ -2238,12 +2238,20 @@
   <DMS_Hopper.label>tolva de alimentación</DMS_Hopper.label>
   <!-- EN: A gravity-fed bulk hopper with a powered auger in its base to move the coarse material that a normal conveyor line cannot handle, such as stone chunks, slag and mech wreckage.\n\nAutonomous production buildings linked to this hopper draw material straight out of it, so nothing has to be carried in by hand. Cutting the power stops the feed. -->
   <DMS_Hopper.description>Una tolva de granel por gravedad con un tornillo motorizado en la base, para mover el material grueso que una línea transportadora normal no puede manejar, como trozos de roca, escoria y restos de mecas.\n\nLos edificios de producción autónoma vinculados a esta tolva sacan el material directamente de ella, así que no hay que llevar nada a mano. Cortar la energía detiene la alimentación.</DMS_Hopper.description>
-  <!-- EN: peacekeeping distress beacon -->
-  <DMS_RaidWaveBeacon_PeacekeepingOperators.label>baliza de socorro de pacificación</DMS_RaidWaveBeacon_PeacekeepingOperators.label>
-  <!-- EN: A tampered emergency transponder repurposed to broadcast a false peacekeeping distress call. Once activated, it summons a Legacy remnant peacekeeping detachment: Protector shieldbearers screening a Ronin spearhead, with Falcon marksmen providing overwatch, to storm the signal&apos;s origin. The burst burns out the transmitter, so this building can only be used once. -->
-  <DMS_RaidWaveBeacon_PeacekeepingOperators.description>Un transpondedor de emergencia manipulado para emitir una falsa llamada de socorro de pacificación. Al activarlo, convoca a un destacamento de pacificación de los remanentes del Legado: portaescudos protectores que cubren una punta de lanza de ronin, con tiradores halcón dando cobertura desde arriba, para asaltar el origen de la señal. La ráfaga quema el transmisor, así que este edificio solo se puede usar una vez.</DMS_RaidWaveBeacon_PeacekeepingOperators.description>
-  <!-- EN: Call in peacekeeping operators -->
-  <DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>Llamar a los operadores de pacificación</DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>
+  <!-- EN: remnant distress beacon -->
+  <DMS_RaidWaveBeacon_PeacekeepingOperators.label>baliza de socorro de los remanentes</DMS_RaidWaveBeacon_PeacekeepingOperators.label>
+  <!-- EN: A configurable distress beacon. Select peacekeeping, counter-terrorism or infantry forces before activation. The signal summons the selected detachment and reveals its associated boss installation. Single use. -->
+  <DMS_RaidWaveBeacon_PeacekeepingOperators.description>Una baliza de socorro configurable. Antes de activarla, elige fuerzas de pacificación, antiterroristas o de infantería. La señal convoca al destacamento elegido y revela la instalación del jefe que le corresponde. Se usa una sola vez.</DMS_RaidWaveBeacon_PeacekeepingOperators.description>
+  <!-- EN: Broadcast selected distress signal -->
+  <DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>Emitir la señal de socorro elegida</DMS_RaidWaveBeacon_PeacekeepingOperators.comps.CompUsable.useLabel>
+  <!-- EN: attested archive casket -->
+  <DMS_ArchiveCasket.label>cofre de archivo certificado</DMS_ArchiveCasket.label>
+  <!-- EN: A machined block of composite, one seam, sealed under a confinement field. Inside is not a fragment but one whole file: a complete sealed technology, waiting to be read.
+
+The fleets never made these. They only left them behind, in facility server storage and in the strategic database under a SAGE core, still stamped with the name of a custodian who stopped coming. -->
+  <DMS_ArchiveCasket.description>Un bloque de compuesto mecanizado, de una sola juntura, sellado bajo un campo de contención. Adentro no hay un fragmento sino un archivo entero: una tecnología sellada completa, a la espera de que alguien la lea.\n\nLas flotas nunca los fabricaron. Solo los dejaron atrás, en el almacenamiento de los servidores de las instalaciones y en la base de datos estratégica bajo un núcleo SAGE, todavía con el sello de un custodio que dejó de venir.</DMS_ArchiveCasket.description>
+  <!-- EN: Unseal {0_label} -->
+  <DMS_ArchiveCasket.comps.CompUsable.useLabel>Abrir {0_label}</DMS_ArchiveCasket.comps.CompUsable.useLabel>
   <!-- EN: Nara Ind. access key -->
   <DMS_AccessKey_Nara.label>tarjeta de acceso de Industrias Nara</DMS_AccessKey_Nara.label>
   <!-- EN: A one-use unified access key used by Nara Industries. It can be used to activate terminals, open crates and doors. -->
@@ -2322,8 +2330,8 @@ This model mounts a Flameblaster for clearing corridors, with its plating treate
   <DMS_Mech_Gravekeeper.tools.1.label>puño derecho</DMS_Mech_Gravekeeper.tools.1.label>
   <!-- EN: head -->
   <DMS_Mech_Gravekeeper.tools.2.label>cabeza</DMS_Mech_Gravekeeper.tools.2.label>
-  <!-- EN: gravekeeper (Stugna) -->
-  <DMS_Mech_Gravekeeper_Stugna.label>guardatumbas (Stugna)</DMS_Mech_Gravekeeper_Stugna.label>
+  <!-- EN: Enterrador -->
+  <DMS_Mech_Gravekeeper_Stugna.label>enterrador</DMS_Mech_Gravekeeper_Stugna.label>
   <!-- EN: A highly intelligent large automatroid, deployed by the colonial fleets specifically to patrol and guard important unmanned installations. Its parts are largely interchangeable with the mobile dragoon&apos;s, and it pairs excellent close-quarters combat ability with a formidable weapon system. The gravekeeper&apos;s design dates back to the lunar war of independence after the Universal Century, when most of the fighting took place in the narrow, enclosed tunnels of underground cities. Heavily armored mechs like the gravekeeper and the siegebreaker, carrying heavy weapons and able to suppress at close range, became the spearhead of both sides&apos; fight for control of those tunnels.\nBecause of this specialized design, gravekeepers usually hold a defense in groups of five. Since they must patrol unattended installations for centuries, their rules of engagement are more conservative than an ordinary mech&apos;s, so that failing mechanisms do not trigger by mistake mid-mission. As a result, they will not leave their installation to engage an enemy on their own.\n\nThis pattern carries the mobile dragoon&apos;s Stugna launcher on its right shoulder, racked with two anti-tank guided missiles. -->
   <DMS_Mech_Gravekeeper_Stugna.description>Un automatroide grande y muy inteligente, que las flotas coloniales despliegan específicamente para patrullar y custodiar instalaciones importantes sin personal. Sus piezas son en gran parte intercambiables con las del exotraje drago, y combina una excelente capacidad de combate a corta distancia con un sistema de armas formidable. El diseño del guardatumbas se remonta a la guerra de independencia lunar posterior al Siglo Universal, cuando la mayor parte de los combates se libró en los túneles estrechos y cerrados de las ciudades subterráneas. Los mecas muy blindados como el guardatumbas y el rompeasaltos, con armas pesadas y capaces de suprimir a corta distancia, se convirtieron en la punta de lanza de ambos bandos en la lucha por el control de esos túneles.\nPor este diseño especializado, los guardatumbas suelen defender en grupos de cinco. Como deben patrullar instalaciones sin atención durante siglos, sus reglas de enfrentamiento son más conservadoras que las de un meca común, para que los mecanismos que fallan no se disparen por error en plena misión. Por eso no salen de su instalación para enfrentar a un enemigo por su cuenta.\n\nEste modelo lleva en el hombro derecho el lanzador Stugna del exotraje drago, cargado con dos misiles guiados antitanque.</DMS_Mech_Gravekeeper_Stugna.description>
   <!-- EN: left fist -->

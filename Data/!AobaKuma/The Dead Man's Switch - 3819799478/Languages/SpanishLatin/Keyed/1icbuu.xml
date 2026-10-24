@@ -142,6 +142,8 @@
   <DMS_Settings_SituationalMusic>Música según la situación</DMS_Settings_SituationalMusic>
   <!-- EN: Play DMS music at DMS sites and underground facilities, and during DMS boss encounters and huntdown raids: exploration, alerts, combat, boss fights, lockdowns and aftermaths. When disabled, music is left to the base game and other mods. Takes effect immediately. -->
   <DMS_Settings_SituationalMusicDesc>Reproduce la música de DMS en los sitios de DMS y en las instalaciones subterráneas, y durante los encuentros con jefes de DMS y las incursiones de cacería: exploración, alertas, combate, peleas con jefes, confinamientos y lo que viene después. Si se desactiva, la música queda a cargo del juego base y de otros mods. Se aplica de inmediato.</DMS_Settings_SituationalMusicDesc>
+  <!-- EN: Cannot launch: the departing shuttle would extend beyond the map edge. Move the shuttle farther inside the map. -->
+  <DMS_ShuttleLaunchOutOfBounds>No se puede despegar: al partir, la lanzadera se saldría del borde del mapa. Mueve la lanzadera más hacia el interior del mapa.</DMS_ShuttleLaunchOutOfBounds>
   <!-- EN: Delivery progress: {0} / {1} ({2}) -->
   <DMS_SupplyPod_Progress>Progreso de la entrega: {0} / {1} ({2})</DMS_SupplyPod_Progress>
   <!-- EN: Auto-designate cargo -->
@@ -310,6 +312,26 @@
   <DMS_WorkableProgress>progreso del procesamiento</DMS_WorkableProgress>
   <!-- EN: processing complete -->
   <DMS_WorkableCompleted>procesamiento completo</DMS_WorkableCompleted>
+  <!-- EN: {0} ({1}) -->
+  <DMS_ArchiveCasket_LabelFormat>{0} ({1})</DMS_ArchiveCasket_LabelFormat>
+  <!-- EN: Contains: {0} ({1} file) -->
+  <DMS_ArchiveCasket_Contents>Contiene: {0} (archivo {1})</DMS_ArchiveCasket_Contents>
+  <!-- EN: Casket opened: {0} -->
+  <DMS_ArchiveCasket_UnsealedLabel>Cofre abierto: {0}</DMS_ArchiveCasket_UnsealedLabel>
+  <!-- EN: {PAWN} opens {CASKET}. Inside is one whole file, {PROJECT}, with nothing left to decode. The technology is ours. -->
+  <DMS_ArchiveCasket_UnsealedText>{PAWN} abre el {CASKET}. Adentro hay un archivo entero, {PROJECT}, sin nada que decodificar. La tecnología es nuestra.</DMS_ArchiveCasket_UnsealedText>
+  <!-- EN: File held: {0} -->
+  <DMS_ArchiveCasket_PendingLabel>Archivo en espera: {0}</DMS_ArchiveCasket_PendingLabel>
+  <!-- EN: {PAWN} opens {CASKET}: the file inside is {PROJECT}, and it needs {PREREQS} first. Researchers shelve it until then. -->
+  <DMS_ArchiveCasket_PendingText>{PAWN} abre el {CASKET}: el archivo de adentro es {PROJECT}, y antes necesita {PREREQS}. Los investigadores lo guardan hasta entonces.</DMS_ArchiveCasket_PendingText>
+  <!-- EN: File decoded: {0} -->
+  <DMS_ArchiveCasket_DecodedLabel>Archivo decodificado: {0}</DMS_ArchiveCasket_DecodedLabel>
+  <!-- EN: The groundwork is in place: {PROJECT} is ours. -->
+  <DMS_ArchiveCasket_DecodedText>Las bases ya están: la tecnología {PROJECT} es nuestra.</DMS_ArchiveCasket_DecodedText>
+  <!-- EN: {CASKET} was opened long ago. {PAWN} still gets a little out of the residual encoding. -->
+  <DMS_ArchiveCasket_AlreadyOpenText>{CASKET} se abrió hace mucho. Aun así, {PAWN} saca algo de la codificación que quedó.</DMS_ArchiveCasket_AlreadyOpenText>
+  <!-- EN: {CASKET} holds nothing. {PAWN} still gets a little out of the residual encoding. -->
+  <DMS_ArchiveCasket_EmptyText>{CASKET} no tiene nada adentro. Aun así, {PAWN} saca algo de la codificación que quedó.</DMS_ArchiveCasket_EmptyText>
   <!-- EN: Arsenal trail gone cold -->
   <DMS_Arsenal_ExpiredLabel>Se perdió el rastro del arsenal</DMS_Arsenal_ExpiredLabel>
   <!-- EN: The survey records on the old arsenal have gone stale. The site&apos;s position is lost. -->
@@ -546,6 +568,20 @@
   <DMS_LaunchSite_EntryCountdownLabel>Sitio hostil: llegan refuerzos</DMS_LaunchSite_EntryCountdownLabel>
   <!-- EN: You have entered a remnant patrol zone. The patrol&apos;s monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Salvage what you can and get out, or dig in. -->
   <DMS_LaunchSite_EntryCountdownText>Entraste en una zona de patrulla de los remanentes. El protocolo de vigilancia de la patrulla detectó tu presencia.\n\nLos refuerzos enemigos llegarán en {0}. Rescata lo que puedas y vete, o atrinchérate.</DMS_LaunchSite_EntryCountdownText>
+  <!-- EN: Peacekeeping -->
+  <DMS_RaidGroup_Peacekeeping>Pacificación</DMS_RaidGroup_Peacekeeping>
+  <!-- EN: Counter-terrorism -->
+  <DMS_RaidGroup_CounterTerrorism>Antiterrorismo</DMS_RaidGroup_CounterTerrorism>
+  <!-- EN: Infantry squad -->
+  <DMS_RaidGroup_Infantry>Escuadra de infantería</DMS_RaidGroup_Infantry>
+  <!-- EN: Group: {0} -->
+  <DMS_RaidGroup_Select>Grupo: {0}</DMS_RaidGroup_Select>
+  <!-- EN: Choose the detachment to summon and its associated boss installation. -->
+  <DMS_RaidGroup_SelectDesc>Elige el destacamento que vas a convocar y la instalación del jefe que le corresponde.</DMS_RaidGroup_SelectDesc>
+  <!-- EN: Summon {0}?\n\n{1}\n\nThis also reveals the associated installation and consumes the beacon. -->
+  <DMS_RaidGroup_Confirm>¿Convocar: {0}?\n\n{1}\n\nEsto también revela la instalación que le corresponde y gasta la baliza.</DMS_RaidGroup_Confirm>
+  <!-- EN: Requires: {0} -->
+  <DMS_RaidGroup_ResearchRequired>Requiere: {0}</DMS_RaidGroup_ResearchRequired>
   <!-- EN: Glyphs recovered: {0} / {1} -->
   <DMS_Stele_GlyphProgress>Glifos recuperados: {0} / {1}</DMS_Stele_GlyphProgress>
   <!-- EN: Occultech glyph recovered ({0} / {1}). -->

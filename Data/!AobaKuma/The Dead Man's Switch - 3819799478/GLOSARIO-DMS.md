@@ -99,7 +99,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | bullhound / hellhound | **can de presa** / **can infernal** | Aprobado por Angel el 20-oct-2026. Derivados grandes del dogo; «sabueso» ya es el `Hound` |
 | Frogman (XM132) | **hombre rana** | Aprobado por Angel el 20-oct-2026. El bioautomatroide anfibio |
 | wildfowl (dron) | **ave silvestre** | Aprobado por Angel el 20-oct-2026. Dron suicida «Hunter Bee» |
-| Sepulturero, Velador, Lanius, erima, uca | **sepulturero**, **velador**, **lanius**, **erima**, **uca** | Ya vienen en español o son nombres propios: solo van en minúscula |
+| Sepulturero, Velador, Enterrador, Lanius, erima, uca | **sepulturero**, **velador**, **enterrador**, **lanius**, **erima**, **uca** | Ya vienen en español o son nombres propios: solo van en minúscula. El enterrador es el guardatumbas con el lanzador Stugna (`DMS_Mech_Gravekeeper_Stugna`), que hasta el 24-oct-2026 se llamaba «gravekeeper (Stugna)» |
 | biomatroid | **bioautomatroide** | |
 | mobile cargo lifter | **elevador de carga móvil** | La cápsula de suministros vista como objeto |
 | Large Automatroid Constructor | **gran ensamblador de automatroides** | Como «gran gestador de mecas» |
@@ -240,6 +240,34 @@ explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la mun
 **No se traducen**: los `shaderProgram.sceneGrab.name` de `ShaderDef`, que son nombres de shader. Se
 copian igual que el `EN:`. Y `DMS_AMO_Beast.description` queda en `TODO` porque el inglés del mod
 también dice «TODO»: el autor no le escribió descripción.
+
+## Términos nuevos del II (sesión 7, actualización del 24-oct-2026)
+
+La actualización volvió configurable la baliza de socorro (tres destacamentos a elegir) y agregó el
+distrito residencial y el cofre de archivo. Los términos de preparación para el combate de las
+facciones vienen de Fortified Features Framework y están en
+[GLOSARIO-FFF.md](../../Fortified%20Features%20Framework%20-%203498575851/GLOSARIO-FFF.md).
+
+| Inglés | Español | Notas |
+|---|---|---|
+| remnant distress beacon | **baliza de socorro de los remanentes** | Antes era solo de pacificación |
+| peacekeeping / counter-terrorism / infantry squad | **Pacificación** / **Antiterrorismo** / **Escuadra de infantería** | Los tres grupos de la baliza |
+| peacekeeping unit / counter-terrorism unit / infantry combat squad | **unidad de pacificación** / **unidad antiterrorista** / **escuadra de combate de infantería** | Las oleadas (`Fortified.RaidWaveDef`) |
+| boss installation | **la instalación del jefe** | |
+| abandoned residential district / residential compound | **distrito residencial abandonado** / **complejo residencial** | El sitio `DMS_ResidentialSite` y su misión |
+| attested archive casket | **cofre de archivo certificado** | El objeto `DMS_ArchiveCasket`. «Unseal» es «Abrir» |
+| confinement field | **campo de contención** | |
+| custodian | **custodio** | |
+| File held / File decoded | **Archivo en espera** / **Archivo decodificado** | Las cartas del cofre |
+
+**El nombre del cofre** (`DMS_ArchiveCasketName`) va al revés que en inglés, «[Noun] [Adj]», y todos
+los sustantivos son masculinos para que los adjetivos concuerden siempre: «Oleaje silencioso», «Coro
+postrero». Por eso algunos cambian un poco: Tide es «Oleaje» y no «Marea», Cradle es «Nido» y Anchor,
+«Anclaje».
+
+**`{CASKET}`** llega sin artículo y empieza siempre por «cofre» (es el `LabelNoCount`), así que las
+cartas dicen «abre el {CASKET}». En los mensajes de cofre ya abierto o vacío es el nombre suelto, y va
+al principio de la frase.
 
 ## Automatroides
 
