@@ -13,12 +13,12 @@ traducción en uso, salvo los de la última tabla, que son nuevos.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| mech | **meca** (pl. mecas) | Como en el glosario general. No «mecanoide», que es *mechanoid*. Ver «Pendientes» |
+| mech | **meca** (pl. mecas), masculino | Como en el glosario general y en DMS: «un meca», «este meca», «los mecas». No «mecanoide», que es *mechanoid*. Unificado el 24-oct-2026 |
 | mechanoid | **mecanoide** | |
 | automatroid | **automatroide** | Como en DMS |
 | mech frame | **estructura de meca** | |
 | mech modification | **modificación de meca** | También el botón y el preajuste («preajuste de meca») |
-| deactivated mech | **meca desactivada** | Las cápsulas `FFF_MechCapsule_*`, por tamaño: pequeña, mediana, grande, enorme, colosal |
+| deactivated mech | **meca desactivado** | Las cápsulas `FFF_MechCapsule_*`, por tamaño: pequeño, mediano, grande, enorme, colosal |
 | bandwidth | **banda ancha** | Como en DMS |
 | hack | **hackear** | «Intentar hackear {0}», «No se puede hackear» |
 | facility | **instalación** | |
