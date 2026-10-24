@@ -18,7 +18,8 @@ namespace RmlVentana.Logica
             string Titulo = "Solicitud: " + Nombre;
             string Cuerpo = "Pido la traducción de este mod.\n\n" +
                             "- " + WorkshopId + " " + PackageId + "\n\n" +
-                            "(No cambies la línea de arriba: es la que se lee para contar los pedidos.)";
+                            "(No cambies la línea de arriba: es la que se lee para contar los pedidos.)\n\n" +
+                            "Para enviarlo, solo pulsa «Create».";
 
             return Repositorio + "/issues/new?labels=solicitud" +
                    "&title=" + Uri.EscapeDataString(Titulo) +
