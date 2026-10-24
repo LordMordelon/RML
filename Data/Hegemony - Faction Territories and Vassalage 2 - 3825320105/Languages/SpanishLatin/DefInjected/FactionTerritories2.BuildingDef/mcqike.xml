@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: settlement AI core -->
+  <FT2_GrandAICore.label>núcleo de IA del asentamiento</FT2_GrandAICore.label>
+  <!-- EN: Automates upgrades and, with Biotech, provides mech bandwidth.
+- Improves affordable existing buildings using local materials and required tech points.
+- Does not build new structures or upgrade grand constructions.
+- Higher levels shorten the check interval. Pausing upgrades keeps its bandwidth. -->
+  <FT2_GrandAICore.description>Automatiza las mejoras y, con Biotech, da banda ancha para mecas.\n- Mejora los edificios existentes que se puedan pagar, con materiales locales y los puntos de tecnología necesarios.\n- No construye estructuras nuevas ni mejora grandes construcciones.\n- Los niveles más altos acortan el intervalo de revisión. Pausar las mejoras conserva su banda ancha.</FT2_GrandAICore.description>
+  <!-- EN: town hall -->
+  <FT2_TownHall.label>ayuntamiento</FT2_TownHall.label>
+  <!-- EN: Produces prosperity and leads settlement development. Upgrades unlock technology, raise building limits and create more building space. -->
+  <FT2_TownHall.description>Produce prosperidad y dirige el desarrollo del asentamiento. Las mejoras desbloquean tecnología, suben los límites de edificios y crean más espacio para construir.</FT2_TownHall.description>
+  <!-- EN: housing -->
+  <FT2_Housing.label>viviendas</FT2_Housing.label>
+  <!-- EN: Provides room for residents. Spare housing supports growth; overcrowding reduces happiness. Copies add capacity. -->
+  <FT2_Housing.description>Da espacio a los residentes. Las viviendas libres favorecen el crecimiento; el hacinamiento reduce la felicidad. Cada copia agrega capacidad.</FT2_Housing.description>
+  <!-- EN: barracks -->
+  <FT2_Barracks.label>cuartel</FT2_Barracks.label>
+  <!-- EN: Funds better equipment for recruits and soldiers. Every barracks contributes to the per-soldier budget. -->
+  <FT2_Barracks.description>Financia mejor equipamiento para reclutas y soldados. Cada cuartel aporta al presupuesto por soldado.</FT2_Barracks.description>
+  <!-- EN: mine -->
+  <FT2_Mine.label>mina</FT2_Mine.label>
+  <!-- EN: Produces stone and metal for construction and industry. Taxes can send part of the output home. -->
+  <FT2_Mine.description>Produce piedra y metal para la construcción y la industria. Los impuestos pueden enviar parte de la producción a casa.</FT2_Mine.description>
+  <!-- EN: lumber yard -->
+  <FT2_LumberYard.label>aserradero</FT2_LumberYard.label>
+  <!-- EN: Produces wood for construction and manufacturing. Taxes can send part of the output home. -->
+  <FT2_LumberYard.description>Produce madera para la construcción y la manufactura. Los impuestos pueden enviar parte de la producción a casa.</FT2_LumberYard.description>
+  <!-- EN: farm -->
+  <FT2_Farm.label>granja</FT2_Farm.label>
+  <!-- EN: Grows food to feed inhabitants and build reserves. Normal rations, cloning and growth vats consume reserves; surplus can fund settlers, supply caravans or physical tithes. -->
+  <FT2_Farm.description>Cultiva comida para alimentar a los habitantes y formar reservas. Las raciones normales, la clonación y los tanques de crecimiento consumen reservas; el excedente puede financiar colonos, abastecer caravanas o pagar diezmos físicos.</FT2_Farm.description>
+  <!-- EN: ranch -->
+  <FT2_Ranch.label>rancho</FT2_Ranch.label>
+  <!-- EN: Produces food through livestock husbandry. Food supports population and expeditions; taxes can supply eligible animal-product tithes. Daily yield responds to labour, happiness, mayor and biome. -->
+  <FT2_Ranch.description>Produce comida con la cría de ganado. La comida sostiene a la población y las expediciones; los impuestos pueden abastecer los diezmos de productos animales que correspondan. El rendimiento diario depende del trabajo, la felicidad, el alcalde y el bioma.</FT2_Ranch.description>
+  <!-- EN: trading outpost -->
+  <FT2_TradingOutpost.label>puesto comercial</FT2_TradingOutpost.label>
+  <!-- EN: Generates prosperity through commerce, helping pay for development and expeditions. -->
+  <FT2_TradingOutpost.description>Genera prosperidad con el comercio, lo que ayuda a pagar el desarrollo y las expediciones.</FT2_TradingOutpost.description>
+  <!-- EN: workshop -->
+  <FT2_Workshop.label>taller</FT2_Workshop.label>
+  <!-- EN: Produces components appropriate to workshop development and settlement technology. -->
+  <FT2_Workshop.description>Produce componentes acordes al desarrollo del taller y a la tecnología del asentamiento.</FT2_Workshop.description>
+  <!-- EN: defences -->
+  <FT2_Defences.label>defensas</FT2_Defences.label>
+  <!-- EN: Funds perimeter cover, walls and technology-appropriate automated defences. Recent attacks damage their condition; local materials fund gradual repairs. Controlled by Procedural base defences in Military settings. New settlement maps only. -->
+  <FT2_Defences.description>Financia coberturas perimetrales, muros y defensas automáticas acordes a la tecnología. Los ataques recientes dañan su estado; los materiales locales financian reparaciones graduales. Se controla con «Defensas procedurales de la base» en la configuración militar. Solo en mapas de asentamiento nuevos.</FT2_Defences.description>
+  <!-- EN: great granary -->
+  <FT2_GrandGranary.label>gran granero</FT2_GrandGranary.label>
+  <!-- EN: A monumental reserve and agricultural complex. One grand construction per settlement; upgrades are not capped by the town hall. -->
+  <FT2_GrandGranary.description>Un complejo monumental de reservas y agricultura. Una gran construcción por asentamiento; las mejoras no están limitadas por el ayuntamiento.</FT2_GrandGranary.description>
+  <!-- EN: eternal citadel -->
+  <FT2_GrandCitadel.label>ciudadela eterna</FT2_GrandCitadel.label>
+  <!-- EN: A vast defensive stronghold. Each level supplies ten times the construction allowance of regular Defences when procedural base defences are enabled. Can keep upgrading beyond the town hall limit, with rising costs. -->
+  <FT2_GrandCitadel.description>Una enorme fortaleza defensiva. Cada nivel da diez veces el margen de construcción de las defensas normales cuando las defensas procedurales de la base están activadas. Puede seguir mejorándose más allá del límite del ayuntamiento, con costos crecientes.</FT2_GrandCitadel.description>
+  <!-- EN: grand library -->
+  <FT2_GrandAcademy.label>gran biblioteca</FT2_GrandAcademy.label>
+  <!-- EN: A monumental library producing global tech points and prosperity. Occupies a grand-construction slot. -->
+  <FT2_GrandAcademy.description>Una biblioteca monumental que produce puntos de tecnología globales y prosperidad. Ocupa un espacio de gran construcción.</FT2_GrandAcademy.description>
+  <!-- EN: living arcology -->
+  <FT2_GrandArcology.label>arcología viviente</FT2_GrandArcology.label>
+  <!-- EN: A massive self-supporting habitat. Infinite level progression is independent of town hall level. -->
+  <FT2_GrandArcology.description>Un hábitat enorme y autosuficiente. Su progresión infinita de niveles no depende del nivel del ayuntamiento.</FT2_GrandArcology.description>
+  <!-- EN: river mill -->
+  <FT2_RiverMill.label>molino fluvial</FT2_RiverMill.label>
+  <!-- EN: Uses direct river access for manufacturing. -->
+  <FT2_RiverMill.description>Usa el acceso directo al río para la manufactura.</FT2_RiverMill.description>
+  <!-- EN: coastal fishery -->
+  <FT2_CoastalFishery.label>pesquería costera</FT2_CoastalFishery.label>
+  <!-- EN: Harvests coastal food. Requires a neighbouring water tile. -->
+  <FT2_CoastalFishery.description>Obtiene comida de la costa. Requiere una casilla de agua vecina.</FT2_CoastalFishery.description>
+  <!-- EN: terrace farm -->
+  <FT2_TerraceFarm.label>cultivo en terrazas</FT2_TerraceFarm.label>
+  <!-- EN: Cultivates hillsides. Requires hills or mountains. -->
+  <FT2_TerraceFarm.description>Cultiva las laderas. Requiere colinas o montañas.</FT2_TerraceFarm.description>
+  <!-- EN: deep-core mine -->
+  <FT2_DeepMine.label>mina profunda</FT2_DeepMine.label>
+  <!-- EN: Extracts deep resources at mountain settlements. -->
+  <FT2_DeepMine.description>Extrae recursos profundos en los asentamientos de montaña.</FT2_DeepMine.description>
+  <!-- EN: managed forest -->
+  <FT2_ForestReserve.label>bosque gestionado</FT2_ForestReserve.label>
+  <!-- EN: A managed forest requires a forested biome. Grasslands and other treeless vanilla biomes do not qualify. -->
+  <FT2_ForestReserve.description>Un bosque gestionado requiere un bioma boscoso. La pradera y los demás biomas sin árboles del juego base no sirven.</FT2_ForestReserve.description>
+  <!-- EN: landmark refinery complex -->
+  <FT2_SiteRefinery.label>complejo de refinería del punto de interés</FT2_SiteRefinery.label>
+  <!-- EN: Expands an ancient chemfuel refinery on this exact tile, adding prosperity and chemfuel goods. -->
+  <FT2_SiteRefinery.description>Amplía una refinería de quimbustible antigua en esta misma casilla y agrega prosperidad y quimbustible como bien.</FT2_SiteRefinery.description>
+  <!-- EN: toxic extraction plant -->
+  <FT2_ToxicExtractor.label>planta de extracción tóxica</FT2_ToxicExtractor.label>
+  <!-- EN: Harvests local toxic deposits, with a small happiness cost. Requires a toxic landmark on this tile. -->
+  <FT2_ToxicExtractor.description>Aprovecha los yacimientos tóxicos locales, con un pequeño costo en felicidad. Requiere un punto de interés tóxico en esta casilla.</FT2_ToxicExtractor.description>
+  <!-- EN: geographical observatory -->
+  <FT2_FeatureObservatory.label>observatorio geográfico</FT2_FeatureObservatory.label>
+  <!-- EN: Studies a named geographical feature or local tile feature. Requires the feature on this settlement tile. -->
+  <FT2_FeatureObservatory.description>Estudia un accidente geográfico con nombre o un rasgo local de la casilla. Requiere ese accidente en la casilla del asentamiento.</FT2_FeatureObservatory.description>
+  <!-- EN: landmark research museum -->
+  <FT2_LandmarkMuseum.label>museo de investigación del punto de interés</FT2_LandmarkMuseum.label>
+  <!-- EN: A research and visitor centre for the landmark on this exact tile. -->
+  <FT2_LandmarkMuseum.description>Un centro de investigación y de visitantes para el punto de interés de esta misma casilla.</FT2_LandmarkMuseum.description>
+  <!-- EN: grand cartographic archive -->
+  <FT2_GrandChancery.label>gran archivo cartográfico</FT2_GrandChancery.label>
+  <!-- EN: Coordinates this settlement&apos;s territorial administration, helping it maintain claims farther from home. Higher levels slow the loss of influence with distance, with diminishing returns. Only this settlement&apos;s claims benefit; its strongest active archive applies, and decay never stops. -->
+  <FT2_GrandChancery.description>Coordina la administración territorial de este asentamiento y lo ayuda a mantener reclamos más lejos de casa. Los niveles más altos hacen más lenta la pérdida de influencia con la distancia, con rendimientos decrecientes. Solo benefician los reclamos de este asentamiento; se aplica su archivo activo más fuerte, y la pérdida nunca se detiene.</FT2_GrandChancery.description>
+  <!-- EN: grand academy -->
+  <FT2_GrandTrainingAcademy.label>gran academia</FT2_GrandTrainingAcademy.label>
+  <!-- EN: Develops a small cadre of persistent residents for expeditions and mayoral service. Trains all enabled skills of its residents, mayor and friendly caravan visitors on this tile. Training spends local materials and prosperity; higher levels improve teaching and capacity. -->
+  <FT2_GrandTrainingAcademy.description>Forma un pequeño grupo de residentes permanentes para expediciones y para servir de alcalde. Entrena todas las habilidades activadas de sus residentes, del alcalde y de los visitantes de caravanas amistosas en esta casilla. El entrenamiento gasta materiales locales y prosperidad; los niveles más altos mejoran la enseñanza y la capacidad.</FT2_GrandTrainingAcademy.description>
+  <!-- EN: psychic sanctum -->
+  <FT2_PsychicSanctum.label>santuario psíquico</FT2_PsychicSanctum.label>
+  <!-- EN: Trains a small number of actual residents as psycasters. Training takes time and local resources; psylink advancement has an additional payment. A psycaster mayor mentors the students. Resident psycasters recover focus here between expeditions. -->
+  <FT2_PsychicSanctum.description>Entrena como psicoemisores a unos pocos residentes reales. El entrenamiento lleva tiempo y recursos locales; subir de nivel de psicoenlace tiene un pago adicional. Un alcalde psicoemisor guía a los alumnos. Los psicoemisores residentes recuperan aquí su psicoenfoque entre expediciones.</FT2_PsychicSanctum.description>
+  <!-- EN: flesh heart -->
+  <FT2_FleshHeart.label>corazón de carne</FT2_FleshHeart.label>
+  <!-- EN: A living heart that grows twisted meat and fleshbeasts for your expeditions. Its creatures need feeding and confinement. Neglect them, and they may turn on their keepers. -->
+  <FT2_FleshHeart.description>Un corazón vivo que hace crecer carne retorcida y carnibestias para tus expediciones. Sus criaturas necesitan alimento y encierro. Si las descuidas, pueden volverse contra sus cuidadores.</FT2_FleshHeart.description>
+  <!-- EN: propaganda centre -->
+  <FT2_PropagandaCentre.label>centro de propaganda</FT2_PropagandaCentre.label>
+  <!-- EN: Speakers, broadcasts and carefully chosen stories carry your beliefs beyond the border. Winning a faction over takes time, supplies and influence. Its rulers may resist or resent the interference. -->
+  <FT2_PropagandaCentre.description>Altavoces, transmisiones e historias bien elegidas llevan tus creencias más allá de la frontera. Ganarse a una facción lleva tiempo, suministros e influencia. Sus gobernantes pueden resistirse a la injerencia o tomarla a mal.</FT2_PropagandaCentre.description>
+  <!-- EN: grand logistics array -->
+  <FT2_GrandLogisticsArray.label>gran red logística</FT2_GrandLogisticsArray.label>
+  <!-- EN: A lifeline between distant settlements. Share supplies with towns within reach and send parties instantly to another array, including an ally&apos;s. Greater levels extend the reach. A one-way link does not guarantee a journey back; each faction pays its own travel costs. -->
+  <FT2_GrandLogisticsArray.description>Un lazo vital entre asentamientos lejanos. Comparte suministros con los pueblos a su alcance y envía grupos al instante a otra red, incluida la de un aliado. Los niveles más altos amplían el alcance. Un enlace de ida no garantiza el viaje de vuelta; cada facción paga sus propios costos de viaje.</FT2_GrandLogisticsArray.description>
+  <!-- EN: moving city -->
+  <FT2_MovingCity.label>ciudad móvil</FT2_MovingCity.label>
+  <!-- EN: A city that carries its people and buildings to a new home. Levels 1-5 cross land, 6-10 brave the seas, 11-15 take flight and 16 onward reach space. Movement is unavailable while its map is open. -->
+  <FT2_MovingCity.description>Una ciudad que lleva a su gente y sus edificios a un nuevo hogar. Los niveles 1-5 cruzan tierra, del 6 al 10 desafían los mares, del 11 al 15 levantan vuelo y del 16 en adelante llegan al espacio. No se puede mover mientras su mapa está abierto.</FT2_MovingCity.description>
+  <!-- EN: orbital laser array -->
+  <FT2_OrbitalLaser.label>red de láser orbital</FT2_OrbitalLaser.label>
+  <!-- EN: An orbital weapon that concentrates a devastating beam on an enemy. Firing costs resources, and the weapon must recharge between strikes. Higher levels shorten the wait. Choose a target on an open map. -->
+  <FT2_OrbitalLaser.description>Un arma orbital que concentra un rayo devastador sobre un enemigo. Disparar cuesta recursos, y el arma debe recargarse entre ataques. Los niveles más altos acortan la espera. Elige un objetivo en un mapa abierto.</FT2_OrbitalLaser.description>
+  <!-- EN: orbital bombardment platform -->
+  <FT2_OrbitalBombarder.label>plataforma de bombardeo orbital</FT2_OrbitalBombarder.label>
+  <!-- EN: An orbital battery that rains destruction on enemy positions. Each strike needs ammunition and time to recharge; upgrades shorten the wait. Choose a target on an open map and keep allies clear of the blast. -->
+  <FT2_OrbitalBombarder.description>Una batería orbital que hace llover destrucción sobre las posiciones enemigas. Cada ataque necesita munición y tiempo para recargarse; las mejoras acortan la espera. Elige un objetivo en un mapa abierto y mantén a tus aliados lejos de la explosión.</FT2_OrbitalBombarder.description>
+  <!-- EN: grand observatory -->
+  <FT2_GrandObservatory.label>gran observatorio</FT2_GrandObservatory.label>
+  <!-- EN: Searches orbit for new resource asteroids. Scans need sustained funding, take time and become faster with upgrades. Discoveries are real world sites that can be visited and support nearby territorial settlements. -->
+  <FT2_GrandObservatory.description>Busca en órbita nuevos asteroides con recursos. Los escaneos necesitan financiamiento continuo, llevan tiempo y se aceleran con las mejoras. Los descubrimientos son sitios reales del mundo que se pueden visitar y que benefician a los asentamientos territoriales cercanos.</FT2_GrandObservatory.description>
+  <!-- EN: asteroid extraction plant -->
+  <FT2_SiteBuilding_Asteroid.label>planta de extracción de asteroides</FT2_SiteBuilding_Asteroid.label>
+  <!-- EN: Processes the asteroid deposits on this tile into local metal reserves. -->
+  <FT2_SiteBuilding_Asteroid.description>Procesa los yacimientos de asteroide de esta casilla y los convierte en reservas locales de metal.</FT2_SiteBuilding_Asteroid.description>
+  <!-- EN: station salvage yard -->
+  <FT2_SiteBuilding_SpaceStation.label>desguace de la estación</FT2_SiteBuilding_SpaceStation.label>
+  <!-- EN: Reclaims components and technical knowledge from the station on this tile. -->
+  <FT2_SiteBuilding_SpaceStation.description>Recupera componentes y conocimiento técnico de la estación de esta casilla.</FT2_SiteBuilding_SpaceStation.description>
+  <!-- EN: harbour -->
+  <FT2_Harbour.label>puerto</FT2_Harbour.label>
+  <!-- EN: A river or coastal port supporting fishing, trade and waterborne expeditions. Each level produces food and prosperity and improves water travel speed, following the same level and technology-stage progression as transport hubs. Parties can use this speed along connected rivers, choosing overland travel when it is faster. Hubs below Spacer speed land travel only; Spacer-or-higher hubs take priority on water too. Open-water terrain and territory movement cost 1 per tile before travel speed. Grav sites and Spacer transport hubs provide the same water access. Water settlements start with a harbour. -->
+  <FT2_Harbour.description>Un puerto fluvial o costero que favorece la pesca, el comercio y las expediciones por agua. Cada nivel produce comida y prosperidad y mejora la velocidad de viaje por agua, con la misma progresión de niveles y etapas tecnológicas que los centros de transporte. Los grupos pueden usar esta velocidad por los ríos conectados, y eligen ir por tierra cuando es más rápido. Los centros de nivel inferior a espacial solo aceleran el viaje por tierra; los de nivel espacial o superior también tienen prioridad en el agua. El terreno de mar abierto y el movimiento por el territorio cuestan 1 por casilla antes de aplicar la velocidad de viaje. Los sitios de gravedad y los centros de transporte espaciales dan el mismo acceso al agua. Los asentamientos en el agua empiezan con un puerto.</FT2_Harbour.description>
+  <!-- EN: transport hub -->
+  <FT2_TransportHub.label>centro de transporte</FT2_TransportHub.label>
+  <!-- EN: Improves journey speed and deployment range. Spacer hubs also allow flight over water and impassable mountains. -->
+  <FT2_TransportHub.description>Mejora la velocidad de viaje y el alcance de despliegue. Los centros espaciales también permiten volar sobre el agua y las montañas infranqueables.</FT2_TransportHub.description>
+  <!-- EN: prosthetic workshop -->
+  <FT2_ProstheticWorkshop.label>taller de prótesis</FT2_ProstheticWorkshop.label>
+  <!-- EN: Produces prosthetics and, at higher stages, bionics. Suitable workshops can install better-than-natural implants in new adults and soldiers. -->
+  <FT2_ProstheticWorkshop.description>Produce prótesis y, en etapas más altas, biónicos. Los talleres adecuados pueden instalar implantes mejores que los naturales en los adultos y soldados nuevos.</FT2_ProstheticWorkshop.description>
+  <!-- EN: hospital -->
+  <FT2_Hospital.label>hospital</FT2_Hospital.label>
+  <!-- EN: Accelerates recovery and produces medicine for settlement tithes. -->
+  <FT2_Hospital.description>Acelera la recuperación y produce medicina para los diezmos del asentamiento.</FT2_Hospital.description>
+  <!-- EN: biolab -->
+  <FT2_Biolab.label>biolaboratorio</FT2_Biolab.label>
+  <!-- EN: Design a settlement xenotype using the gene editor. Lab level limits complexity and archite genes; applying a template spends genetic material. -->
+  <FT2_Biolab.description>Diseña un xenotipo para el asentamiento con el editor de genes. El nivel del laboratorio limita la complejidad y los genes arquita; aplicar una plantilla gasta material genético.</FT2_Biolab.description>
+  <!-- EN: mech control centre -->
+  <FT2_MechControl.label>centro de control de mecas</FT2_MechControl.label>
+  <!-- EN: Provides bandwidth for active mechs. Mechs contribute labour and defence without housing or food. -->
+  <FT2_MechControl.description>Da banda ancha para los mecas activos. Los mecas aportan trabajo y defensa sin necesitar vivienda ni comida.</FT2_MechControl.description>
+  <!-- EN: mech fabrication plant -->
+  <FT2_MechFactory.label>planta de fabricación de mecas</FT2_MechFactory.label>
+  <!-- EN: Builds mechs using local materials and available bandwidth. Choose a weighted roster of chassis to suit the settlement. Each completed mech pays its own bandwidth-scaled material cost. -->
+  <FT2_MechFactory.description>Construye mecas con materiales locales y la banda ancha disponible. Elige una lista ponderada de chasis según el asentamiento. Cada meca terminado paga su propio costo de materiales, que aumenta con su banda ancha.</FT2_MechFactory.description>
+  <!-- EN: embassy -->
+  <FT2_Embassy.label>embajada</FT2_Embassy.label>
+  <!-- EN: Supports defence pacts, peace terms, grievance reparations and trusted diplomatic services. Higher levels reduce negotiated costs. -->
+  <FT2_Embassy.description>Permite pactos de defensa, condiciones de paz, reparaciones por agravios y servicios diplomáticos de confianza. Los niveles más altos reducen los costos negociados.</FT2_Embassy.description>
+  <!-- EN: royal chancery -->
+  <FT2_Chancery.label>cancillería real</FT2_Chancery.label>
+  <!-- EN: Stored honour and local materials let titled colonists expedite existing permits. Senior titles improve diplomatic arbitration. No titles or permits are granted for free. -->
+  <FT2_Chancery.description>El honor acumulado y los materiales locales permiten a los colonos con título agilizar los permisos que ya tienen. Los títulos superiores mejoran el arbitraje diplomático. No se otorgan títulos ni permisos gratis.</FT2_Chancery.description>
+  <!-- EN: pilgrim sanctuary -->
+  <FT2_Pilgrimage.label>santuario de peregrinos</FT2_Pilgrimage.label>
+  <!-- EN: Funded pilgrim visits produce prosperity and ritual happiness. Ideological differences cause friction; a relic museum helps mitigate it. -->
+  <FT2_Pilgrimage.description>Las visitas de peregrinos financiadas producen prosperidad y felicidad ritual. Las diferencias ideológicas causan roces; un museo de reliquias ayuda a reducirlos.</FT2_Pilgrimage.description>
+  <!-- EN: relic museum -->
+  <FT2_RelicMuseum.label>museo de reliquias</FT2_RelicMuseum.label>
+  <!-- EN: Sponsor secured relic exhibitions for prosperity and pilgrimage happiness. Security upkeep prevents theft. Exhibits are strategic contracts, not duplicated physical relics. -->
+  <FT2_RelicMuseum.description>Patrocina exhibiciones de reliquias protegidas para obtener prosperidad y felicidad de peregrinaje. El mantenimiento de la seguridad evita robos. Las exhibiciones son contratos estratégicos, no reliquias físicas duplicadas.</FT2_RelicMuseum.description>
+  <!-- EN: pollution reclamation plant -->
+  <FT2_Reclamation.label>planta de recuperación de contaminación</FT2_Reclamation.label>
+  <!-- EN: Uses upkeep to clean tile pollution first, then recycles stored mech waste into steel. Waste above 100 spills onto the tile and can anger nearby factions. Mech hives ignore the penalties and do not operate reclamation. Mitigates toxic landmarks while supplied. -->
+  <FT2_Reclamation.description>Usa el mantenimiento para limpiar primero la contaminación de la casilla y después recicla los desechos de mecas almacenados en acero. Los desechos por encima de 100 se derraman sobre la casilla y pueden enojar a las facciones cercanas. Las mecacolmenas ignoran las penalizaciones y no hacen recuperación. Reduce los efectos de los puntos de interés tóxicos mientras tenga suministros.</FT2_Reclamation.description>
+  <!-- EN: mech repair dock -->
+  <FT2_MechRepair.label>muelle de reparación de mecas</FT2_MechRepair.label>
+  <!-- EN: Recovers a configurable share of destroyed autonomous mechs as damaged chassis. Materials and repair time restore them within bandwidth. Select advanced mech chassis by repair and factory technology. -->
+  <FT2_MechRepair.description>Recupera, como chasis dañados, una parte configurable de los mecas autónomos destruidos. Los materiales y el tiempo de reparación los restauran dentro de la banda ancha. Elige chasis de mecas avanzados según la tecnología de reparación y de fábrica.</FT2_MechRepair.description>
+  <!-- EN: gene bank -->
+  <FT2_GeneBank.label>banco de genes</FT2_GeneBank.label>
+  <!-- EN: Records non-archite genes through funded research in an optional archive. Biolabs do not need a gene bank or saved genepacks and can select any gene. -->
+  <FT2_GeneBank.description>Registra genes no arquita mediante investigación financiada, en un archivo opcional. Los biolaboratorios no necesitan un banco de genes ni packs de genes guardados, y pueden elegir cualquier gen.</FT2_GeneBank.description>
+  <!-- EN: tissue culture centre -->
+  <FT2_TissueCulture.label>centro de cultivo de tejidos</FT2_TissueCulture.label>
+  <!-- EN: Uses local materials to produce gene implantation supplies and medicine. Applying a vassal xenotype consumes supplies; insufficient supplies leave the original xenotype intact. -->
+  <FT2_TissueCulture.description>Usa materiales locales para producir suministros de implantación genética y medicina. Aplicar un xenotipo vasallo consume suministros; si no alcanzan, el xenotipo original queda intacto.</FT2_TissueCulture.description>
+  <!-- EN: containment complex -->
+  <FT2_Containment.label>complejo de contención</FT2_Containment.label>
+  <!-- EN: Fund entity containment contracts for anomaly knowledge and bioferrite. Suppression upkeep and quarantine mitigate breaches. Breaches cause injuries, contamination and temporary threats that can call allied aid. -->
+  <FT2_Containment.description>Financia contratos de contención de entidades para obtener conocimiento de anomalías y bioferrita. El mantenimiento de supresión y la cuarentena reducen las fugas. Las fugas causan heridas, contaminación y amenazas temporales que pueden pedir ayuda aliada.</FT2_Containment.description>
+  <!-- EN: quarantine station -->
+  <FT2_Quarantine.label>estación de cuarentena</FT2_Quarantine.label>
+  <!-- EN: Consumes materials to clear contamination, suppress containment breaches and mitigate toxic landmark penalties. Helps existing hospital recovery through reduced contamination. -->
+  <FT2_Quarantine.description>Consume materiales para eliminar la contaminación, contener las fugas de entidades y reducir las penalizaciones de los puntos de interés tóxicos. Ayuda a la recuperación en el hospital existente al reducir la contaminación.</FT2_Quarantine.description>
+  <!-- EN: orbital observatory -->
+  <FT2_Observatory.label>observatorio orbital</FT2_Observatory.label>
+  <!-- EN: Reports nearby hostile parties and threats to trusted allies. Funded observatories also improve orbital travel. -->
+  <FT2_Observatory.description>Informa a los aliados de confianza sobre los grupos hostiles y las amenazas cercanas. Los observatorios financiados también mejoran el viaje orbital.</FT2_Observatory.description>
+  <!-- EN: hazard engineering station -->
+  <FT2_Terraforming.label>estación de ingeniería de riesgos</FT2_Terraforming.label>
+  <!-- EN: Funded engineering reduces territorial landmark hazards and contamination, increases productivity and improves landmark upgrade efficiency. Does not edit native terrain or weather. -->
+  <FT2_Terraforming.description>La ingeniería financiada reduce los peligros y la contaminación de los puntos de interés territoriales, aumenta la productividad y mejora la eficiencia de las mejoras de los puntos de interés. No modifica el terreno ni el clima nativos.</FT2_Terraforming.description>
+  <!-- EN: military academy -->
+  <FT2_Academy.label>academia militar</FT2_Academy.label>
+  <!-- EN: Recurring local material upkeep builds training readiness. Recruits and departing soldiers receive skill training; saved expedition readiness improves simulation strength independently of barracks equipment. -->
+  <FT2_Academy.description>Un mantenimiento periódico con materiales locales forma preparación de entrenamiento. Los reclutas y los soldados que parten reciben entrenamiento de habilidades; la preparación acumulada para expediciones mejora la fuerza en la simulación, aparte del equipamiento del cuartel.</FT2_Academy.description>
+  <!-- EN: granary and logistics depot -->
+  <FT2_Granary.label>granero y depósito logístico</FT2_Granary.label>
+  <!-- EN: Maintains emergency food reserves, reduces starvation losses and sends funded relief convoys. Convoys carry real food cargo and settlement troops; escorts add actual funded guards. -->
+  <FT2_Granary.description>Mantiene reservas de comida de emergencia, reduce las pérdidas por hambruna y envía convoyes de ayuda financiados. Los convoyes llevan carga real de comida y tropas del asentamiento; las escoltas agregan guardias reales financiados.</FT2_Granary.description>
+  <!-- EN: food processor -->
+  <FT2_FoodProcessor.label>procesador de alimentos</FT2_FoodProcessor.label>
+  <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
+  <FT2_FoodProcessor.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_FoodProcessor.description>
+  <!-- EN: tool workshop -->
+  <FT2_Toolsmith.label>taller de herramientas</FT2_Toolsmith.label>
+  <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
+  <FT2_Toolsmith.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_Toolsmith.description>
+  <!-- EN: clothing workshop -->
+  <FT2_Tailor.label>taller de ropa</FT2_Tailor.label>
+  <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
+  <FT2_Tailor.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_Tailor.description>
+  <!-- EN: luxury workshop -->
+  <FT2_LuxuryIndustry.label>taller de lujo</FT2_LuxuryIndustry.label>
+  <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
+  <FT2_LuxuryIndustry.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_LuxuryIndustry.description>
+  <!-- EN: textile producer -->
+  <FT2_TextileIndustry.label>productor textil</FT2_TextileIndustry.label>
+  <!-- EN: Produces suitable fabric or leather for clothing workshops, caravans and supply contracts. -->
+  <FT2_TextileIndustry.description>Produce tela o cuero adecuados para los talleres de ropa, las caravanas y los contratos de suministro.</FT2_TextileIndustry.description>
+  <!-- EN: nutrient synthesis plant -->
+  <FT2_Orbital_LifeSupport.label>planta de síntesis de nutrientes</FT2_Orbital_LifeSupport.label>
+  <!-- EN: Sealed food-growing and recycling systems supply orbital residents. Negative terrain, specialisation and food-event modifiers do not reduce its food output. Staffing, general productivity, taxes and configured food scaling still apply. -->
+  <FT2_Orbital_LifeSupport.description>Sistemas sellados de cultivo de alimentos y reciclaje abastecen a los residentes orbitales. Los modificadores negativos de terreno, especialización y eventos de comida no reducen su producción de comida. El personal, la productividad general, los impuestos y la escala de comida configurada sí se aplican.</FT2_Orbital_LifeSupport.description>
+  <!-- EN: orbital salvage gantry -->
+  <FT2_Orbital_Salvage.label>grúa de desguace orbital</FT2_Orbital_Salvage.label>
+  <!-- EN: Recovers metal from derelict orbital structures. Output enters local metal reserves; tithes follow the settlement settings. -->
+  <FT2_Orbital_Salvage.description>Recupera metal de estructuras orbitales abandonadas. Lo producido entra en las reservas locales de metal; los diezmos siguen la configuración del asentamiento.</FT2_Orbital_Salvage.description>
+  <!-- EN: vacuum component fabricator -->
+  <FT2_Orbital_Components.label>fabricador de componentes en vacío</FT2_Orbital_Components.label>
+  <!-- EN: Manufactures industrial components in sealed orbital production cells. Output enters local component reserves. -->
+  <FT2_Orbital_Components.description>Fabrica componentes industriales en celdas de producción orbitales selladas. Lo producido entra en las reservas locales de componentes.</FT2_Orbital_Components.description>
+  <!-- EN: orbital fibre culture -->
+  <FT2_Orbital_Textiles.label>cultivo orbital de fibras</FT2_Orbital_Textiles.label>
+  <!-- EN: Cultivates textile feedstock under controlled orbital conditions. Produces the same technology-eligible physical textiles as a textile producer. -->
+  <FT2_Orbital_Textiles.description>Cultiva materia prima textil en condiciones orbitales controladas. Produce los mismos textiles físicos, según la tecnología, que un productor textil.</FT2_Orbital_Textiles.description>
+  <!-- EN: vacuum research laboratory -->
+  <FT2_Orbital_Research.label>laboratorio de investigación en vacío</FT2_Orbital_Research.label>
+  <!-- EN: Runs experiments requiring orbital vacuum and isolation. Produces technology points using normal research and workforce modifiers. -->
+  <FT2_Orbital_Research.description>Hace experimentos que requieren el vacío y el aislamiento orbitales. Produce puntos de tecnología con los modificadores normales de investigación y de fuerza de trabajo.</FT2_Orbital_Research.description>
+  <!-- EN: pressurised habitation ring -->
+  <FT2_Orbital_Habitat.label>anillo habitacional presurizado</FT2_Orbital_Habitat.label>
+  <!-- EN: Expands sealed accommodation around the station. Provides housing and a small comfort bonus, but no free food. -->
+  <FT2_Orbital_Habitat.description>Amplía el alojamiento sellado alrededor de la estación. Da viviendas y una pequeña bonificación de comodidad, pero no comida gratis.</FT2_Orbital_Habitat.description>
+  <!-- EN: orbital freight exchange -->
+  <FT2_Orbital_Exchange.label>bolsa de carga orbital</FT2_Orbital_Exchange.label>
+  <!-- EN: Coordinates cargo handling and orbital commerce. Produces local prosperity; real agreements still need funded shipments. -->
+  <FT2_Orbital_Exchange.description>Coordina el manejo de carga y el comercio orbital. Produce prosperidad local; los acuerdos reales siguen necesitando envíos financiados.</FT2_Orbital_Exchange.description>
+  <!-- EN: orbital defence battery -->
+  <FT2_Orbital_Defence.label>batería de defensa orbital</FT2_Orbital_Defence.label>
+  <!-- EN: Protects the station using the existing settlement defence system. Does not create free soldiers or intercept world parties automatically. -->
+  <FT2_Orbital_Defence.description>Protege la estación con el sistema de defensa existente del asentamiento. No crea soldados gratis ni intercepta grupos del mundo de forma automática.</FT2_Orbital_Defence.description>
+  <!-- EN: microgravity medical centre -->
+  <FT2_Orbital_Medical.label>centro médico de microgravedad</FT2_Orbital_Medical.label>
+  <!-- EN: Produces medicine using the normal hospital technology-stage rules and contributes to settlement recovery. -->
+  <FT2_Orbital_Medical.description>Produce medicina con las reglas normales de etapas tecnológicas del hospital y contribuye a la recuperación del asentamiento.</FT2_Orbital_Medical.description>
+  <!-- EN: orbital mech assembly dock -->
+  <FT2_Orbital_Mechs.label>muelle orbital de ensamblaje de mecas</FT2_Orbital_Mechs.label>
+  <!-- EN: Fabricates autonomous mechanoids using the normal chassis, material and bandwidth requirements. Requires Biotech as well as an orbital location. -->
+  <FT2_Orbital_Mechs.description>Fabrica mecanoides autónomos con los requisitos normales de chasis, materiales y banda ancha. Requiere Biotech, además de una ubicación orbital.</FT2_Orbital_Mechs.description>
+  <!-- EN: cloning facility -->
+  <FT2_Cloning.label>instalación de clonación</FT2_Cloning.label>
+  <!-- EN: Produces adult population using large amounts of surplus food. Requires Spacer technology and free housing; shortages proportionally pause cloning. -->
+  <FT2_Cloning.description>Produce población adulta con grandes cantidades de comida sobrante. Requiere tecnología espacial y viviendas libres; la escasez pausa la clonación en proporción.</FT2_Cloning.description>
+  <!-- EN: growth vat complex -->
+  <FT2_GrowthVats.label>complejo de tanques de crecimiento</FT2_GrowthVats.label>
+  <!-- EN: Accelerates child maturation using much more food than ordinary feeding. Requires Spacer technology and Biotech; food shortages pause the bonus. -->
+  <FT2_GrowthVats.description>Acelera la maduración de los niños usando mucha más comida que la alimentación normal. Requiere tecnología espacial y Biotech; la falta de comida pausa la bonificación.</FT2_GrowthVats.description>
+  <!-- EN: archaeology institute -->
+  <FT2_SiteBuilding_Ruins.label>instituto de arqueología</FT2_SiteBuilding_Ruins.label>
+  <!-- EN: Uses archaeological ruins on this exact tile. -->
+  <FT2_SiteBuilding_Ruins.description>Aprovecha las ruinas arqueológicas de esta misma casilla.</FT2_SiteBuilding_Ruins.description>
+  <!-- EN: infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.label>oficina de recuperación de infraestructura</FT2_SiteBuilding_Colony.label>
+  <!-- EN: Uses abandoned infrastructure on this exact tile. -->
+  <FT2_SiteBuilding_Colony.description>Aprovecha la infraestructura abandonada de esta misma casilla.</FT2_SiteBuilding_Colony.description>
+  <!-- EN: jelly farm -->
+  <FT2_SiteBuilding_Insects.label>granja de jalea</FT2_SiteBuilding_Insects.label>
+  <!-- EN: Uses insectoid habitat on this exact tile. -->
+  <FT2_SiteBuilding_Insects.description>Aprovecha el hábitat insectoide de esta misma casilla.</FT2_SiteBuilding_Insects.description>
+  <!-- EN: fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.label>planta de recuperación de combustible</FT2_SiteBuilding_Refinery.label>
+  <!-- EN: Uses chemfuel deposits on this exact tile. -->
+  <FT2_SiteBuilding_Refinery.description>Aprovecha los yacimientos de quimbustible de esta misma casilla.</FT2_SiteBuilding_Refinery.description>
+  <!-- EN: hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.label>obras de recuperación de zonas peligrosas</FT2_SiteBuilding_Toxic.label>
+  <!-- EN: Uses toxic environment on this exact tile. -->
+  <FT2_SiteBuilding_Toxic.description>Aprovecha el entorno tóxico de esta misma casilla.</FT2_SiteBuilding_Toxic.description>
+  <!-- EN: geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.label>planta geotérmica</FT2_SiteBuilding_Heat.label>
+  <!-- EN: Uses geothermal activity on this exact tile. -->
+  <FT2_SiteBuilding_Heat.description>Aprovecha la actividad geotérmica de esta misma casilla.</FT2_SiteBuilding_Heat.description>
+  <!-- EN: thermal spa -->
+  <FT2_SiteBuilding_Springs.label>balneario termal</FT2_SiteBuilding_Springs.label>
+  <!-- EN: Uses thermal springs on this exact tile. -->
+  <FT2_SiteBuilding_Springs.description>Aprovecha las aguas termales de esta misma casilla.</FT2_SiteBuilding_Springs.description>
+  <!-- EN: inland fishery -->
+  <FT2_SiteBuilding_Water.label>pesquería continental</FT2_SiteBuilding_Water.label>
+  <!-- EN: Uses freshwater habitat on this exact tile. -->
+  <FT2_SiteBuilding_Water.description>Aprovecha el hábitat de agua dulce de esta misma casilla.</FT2_SiteBuilding_Water.description>
+  <!-- EN: marine fishery -->
+  <FT2_SiteBuilding_Coast.label>pesquería marina</FT2_SiteBuilding_Coast.label>
+  <!-- EN: Uses coastal waters on this exact tile. -->
+  <FT2_SiteBuilding_Coast.description>Aprovecha las aguas costeras de esta misma casilla.</FT2_SiteBuilding_Coast.description>
+  <!-- EN: harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.label>lonja comercial del puerto</FT2_SiteBuilding_Harbor.label>
+  <!-- EN: Uses harbour infrastructure on this exact tile. -->
+  <FT2_SiteBuilding_Harbor.description>Aprovecha la infraestructura portuaria de esta misma casilla.</FT2_SiteBuilding_Harbor.description>
+  <!-- EN: glacial research station -->
+  <FT2_SiteBuilding_Ice.label>estación de investigación glacial</FT2_SiteBuilding_Ice.label>
+  <!-- EN: Uses glacial terrain on this exact tile. -->
+  <FT2_SiteBuilding_Ice.description>Aprovecha el terreno glacial de esta misma casilla.</FT2_SiteBuilding_Ice.description>
+  <!-- EN: sheltered orchard -->
+  <FT2_SiteBuilding_Valley.label>huerto resguardado</FT2_SiteBuilding_Valley.label>
+  <!-- EN: Uses sheltered lowlands on this exact tile. -->
+  <FT2_SiteBuilding_Valley.description>Aprovecha las tierras bajas resguardadas de esta misma casilla.</FT2_SiteBuilding_Valley.description>
+  <!-- EN: strata mine -->
+  <FT2_SiteBuilding_Rock.label>mina de estratos</FT2_SiteBuilding_Rock.label>
+  <!-- EN: Uses rock formations on this exact tile. -->
+  <FT2_SiteBuilding_Rock.description>Aprovecha las formaciones rocosas de esta misma casilla.</FT2_SiteBuilding_Rock.description>
+  <!-- EN: volcanic foundry -->
+  <FT2_SiteBuilding_Lava.label>fundición volcánica</FT2_SiteBuilding_Lava.label>
+  <!-- EN: Uses volcanic terrain on this exact tile. -->
+  <FT2_SiteBuilding_Lava.description>Aprovecha el terreno volcánico de esta misma casilla.</FT2_SiteBuilding_Lava.description>
+  <!-- EN: obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.label>mina de obsidiana</FT2_SiteBuilding_Obsidian.label>
+  <!-- EN: Uses obsidian deposits on this exact tile. -->
+  <FT2_SiteBuilding_Obsidian.description>Aprovecha los yacimientos de obsidiana de esta misma casilla.</FT2_SiteBuilding_Obsidian.description>
+  <!-- EN: desert conservatory -->
+  <FT2_SiteBuilding_Desert.label>invernadero del desierto</FT2_SiteBuilding_Desert.label>
+  <!-- EN: Uses arid terrain on this exact tile. -->
+  <FT2_SiteBuilding_Desert.description>Aprovecha el terreno árido de esta misma casilla.</FT2_SiteBuilding_Desert.description>
+  <!-- EN: wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.label>huerto de hierbas del humedal</FT2_SiteBuilding_Wetland.label>
+  <!-- EN: Uses wetland habitat on this exact tile. -->
+  <FT2_SiteBuilding_Wetland.description>Aprovecha el hábitat de humedal de esta misma casilla.</FT2_SiteBuilding_Wetland.description>
+  <!-- EN: terraforming research annex -->
+  <FT2_SiteBuilding_Scar.label>anexo de investigación de terraformación</FT2_SiteBuilding_Scar.label>
+  <!-- EN: Uses terraforming remnants on this exact tile. -->
+  <FT2_SiteBuilding_Scar.description>Aprovecha los restos de terraformación de esta misma casilla.</FT2_SiteBuilding_Scar.description>
+  <!-- EN: restored military depot -->
+  <FT2_SiteBuilding_Military.label>depósito militar restaurado</FT2_SiteBuilding_Military.label>
+  <!-- EN: Uses ancient defences on this exact tile. -->
+  <FT2_SiteBuilding_Military.description>Aprovecha las defensas antiguas de esta misma casilla.</FT2_SiteBuilding_Military.description>
+  <!-- EN: salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.label>patio de clasificación de chatarra</FT2_SiteBuilding_Warehouse.label>
+  <!-- EN: Uses salvage reserves on this exact tile. -->
+  <FT2_SiteBuilding_Warehouse.description>Aprovecha las reservas de chatarra de esta misma casilla.</FT2_SiteBuilding_Warehouse.description>
+  <!-- EN: launch logistics centre -->
+  <FT2_SiteBuilding_Launch.label>centro logístico de lanzamiento</FT2_SiteBuilding_Launch.label>
+  <!-- EN: Uses launch infrastructure on this exact tile. -->
+  <FT2_SiteBuilding_Launch.description>Aprovecha la infraestructura de lanzamiento de esta misma casilla.</FT2_SiteBuilding_Launch.description>
+  <!-- EN: signal research array -->
+  <FT2_SiteBuilding_Uplink.label>antena de investigación de señales</FT2_SiteBuilding_Uplink.label>
+  <!-- EN: Uses ancient communications on this exact tile. -->
+  <FT2_SiteBuilding_Uplink.description>Aprovecha las comunicaciones antiguas de esta misma casilla.</FT2_SiteBuilding_Uplink.description>
+  <!-- EN: wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.label>recinto de fauna</FT2_SiteBuilding_Wildlife.label>
+  <!-- EN: Uses abundant wildlife on this exact tile. -->
+  <FT2_SiteBuilding_Wildlife.description>Aprovecha la fauna abundante de esta misma casilla.</FT2_SiteBuilding_Wildlife.description>
+  <!-- EN: wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.label>recinto de recuperación de fauna</FT2_SiteBuilding_PoorWildlife.label>
+  <!-- EN: Uses sparse wildlife on this exact tile. -->
+  <FT2_SiteBuilding_PoorWildlife.description>Aprovecha la fauna escasa de esta misma casilla.</FT2_SiteBuilding_PoorWildlife.description>
+  <!-- EN: botanical garden -->
+  <FT2_SiteBuilding_Plants.label>jardín botánico</FT2_SiteBuilding_Plants.label>
+  <!-- EN: Uses rich flora on this exact tile. -->
+  <FT2_SiteBuilding_Plants.description>Aprovecha la flora rica de esta misma casilla.</FT2_SiteBuilding_Plants.description>
+  <!-- EN: soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.label>vivero de recuperación de suelos</FT2_SiteBuilding_PoorPlants.label>
+  <!-- EN: Uses sparse flora on this exact tile. -->
+  <FT2_SiteBuilding_PoorPlants.description>Aprovecha la flora escasa de esta misma casilla.</FT2_SiteBuilding_PoorPlants.description>
+  <!-- EN: ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.label>santuario del bosque antiguo</FT2_SiteBuilding_Forest.label>
+  <!-- EN: Uses ancient forest on this exact tile. -->
+  <FT2_SiteBuilding_Forest.description>Aprovecha el bosque antiguo de esta misma casilla.</FT2_SiteBuilding_Forest.description>
+  <!-- EN: mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.label>mina de ensayo mineral</FT2_SiteBuilding_Minerals.label>
+  <!-- EN: Uses mineral deposits on this exact tile. -->
+  <FT2_SiteBuilding_Minerals.description>Aprovecha los yacimientos minerales de esta misma casilla.</FT2_SiteBuilding_Minerals.description>
+  <!-- EN: fog harvesting array -->
+  <FT2_SiteBuilding_Fog.label>red atrapanieblas</FT2_SiteBuilding_Fog.label>
+  <!-- EN: Uses persistent fog on this exact tile. -->
+  <FT2_SiteBuilding_Fog.description>Aprovecha la niebla persistente de esta misma casilla.</FT2_SiteBuilding_Fog.description>
+  <!-- EN: solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.label>complejo agrícola solar</FT2_SiteBuilding_Sun.label>
+  <!-- EN: Uses abundant sunshine on this exact tile. -->
+  <FT2_SiteBuilding_Sun.description>Aprovecha el sol abundante de esta misma casilla.</FT2_SiteBuilding_Sun.description>
+  <!-- EN: rainwater collection works -->
+  <FT2_SiteBuilding_Rain.label>obras de captación de lluvia</FT2_SiteBuilding_Rain.label>
+  <!-- EN: Uses wet climate on this exact tile. -->
+  <FT2_SiteBuilding_Rain.description>Aprovecha el clima húmedo de esta misma casilla.</FT2_SiteBuilding_Rain.description>
+  <!-- EN: wind utility farm -->
+  <FT2_SiteBuilding_Wind.label>parque eólico</FT2_SiteBuilding_Wind.label>
+  <!-- EN: Uses persistent wind on this exact tile. -->
+  <FT2_SiteBuilding_Wind.description>Aprovecha el viento persistente de esta misma casilla.</FT2_SiteBuilding_Wind.description>
+  <!-- EN: fish hatchery -->
+  <FT2_SiteBuilding_Fish.label>criadero de peces</FT2_SiteBuilding_Fish.label>
+  <!-- EN: Uses abundant fish on this exact tile. -->
+  <FT2_SiteBuilding_Fish.description>Aprovecha los peces abundantes de esta misma casilla.</FT2_SiteBuilding_Fish.description>
+  <!-- EN: fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.label>criadero de conservación de peces</FT2_SiteBuilding_PoorFish.label>
+  <!-- EN: Uses depleted fish stocks on this exact tile. -->
+  <FT2_SiteBuilding_PoorFish.description>Aprovecha las poblaciones de peces agotadas de esta misma casilla.</FT2_SiteBuilding_PoorFish.description>
+  <!-- EN: river fishery -->
+  <FT2_SiteBuilding_River.label>pesquería fluvial</FT2_SiteBuilding_River.label>
+  <!-- EN: Uses river formations on this exact tile. -->
+  <FT2_SiteBuilding_River.description>Aprovecha las formaciones fluviales de esta misma casilla.</FT2_SiteBuilding_River.description>
+  <!-- EN: intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.label>finca de cultivo intensivo</FT2_SiteBuilding_Fertile.label>
+  <!-- EN: Uses fertile soil on this exact tile. -->
+  <FT2_SiteBuilding_Fertile.description>Aprovecha el suelo fértil de esta misma casilla.</FT2_SiteBuilding_Fertile.description>
+  <!-- EN: ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.label>reserva de investigación del ecotono</FT2_SiteBuilding_Mixed.label>
+  <!-- EN: Uses biome ecotone on this exact tile. -->
+  <FT2_SiteBuilding_Mixed.description>Aprovecha el ecotono de biomas de esta misma casilla.</FT2_SiteBuilding_Mixed.description>
+  <!-- EN: site survey station -->
+  <FT2_SiteBuilding_Unknown.label>estación de reconocimiento del sitio</FT2_SiteBuilding_Unknown.label>
+  <!-- EN: Uses unclassified site on this exact tile. -->
+  <FT2_SiteBuilding_Unknown.description>Aprovecha el sitio sin clasificar de esta misma casilla.</FT2_SiteBuilding_Unknown.description>
+  <!-- EN: insect gene laboratory -->
+  <FT2_InsectGeneLab.label>laboratorio genético de insectos</FT2_InsectGeneLab.label>
+  <!-- EN: Studies local insect samples, supplying genetic material and the normal vassal xenotype editor with available vanilla and modded genes. Insects occasionally injure workers. -->
+  <FT2_InsectGeneLab.description>Estudia muestras de insectos locales y aporta material genético y, al editor normal de xenotipos vasallos, los genes disponibles del juego base y de los mods. Los insectos a veces hieren a los trabajadores.</FT2_InsectGeneLab.description>
+  <!-- EN: indoctrination camp -->
+  <FT2_IndoctrinationCamp.label>campo de adoctrinamiento</FT2_IndoctrinationCamp.label>
+  <!-- EN: Recruits have a chance equal to indoctrination camp level divided by town hall level to adopt the colony&apos;s primary ideology. -->
+  <FT2_IndoctrinationCamp.description>Los reclutas tienen una probabilidad igual al nivel del campo de adoctrinamiento dividido por el nivel del ayuntamiento de adoptar la ideología principal de la colonia.</FT2_IndoctrinationCamp.description>
+  <!-- EN: weapons workshop -->
+  <FT2_WeaponsWorkshop.label>taller de armas</FT2_WeaponsWorkshop.label>
+  <!-- EN: Unlocks weapons up to this workshop&apos;s technology stage. Current-stage quality rises from poor to masterwork within the stage; lower-stage weapons are always masterwork. -->
+  <FT2_WeaponsWorkshop.description>Desbloquea armas hasta la etapa tecnológica de este taller. En la etapa actual, la calidad sube de mediocre a magistral dentro de la etapa; las armas de etapas inferiores son siempre magistrales.</FT2_WeaponsWorkshop.description>
+  <!-- EN: armor workshop -->
+  <FT2_ArmorWorkshop.label>taller de armaduras</FT2_ArmorWorkshop.label>
+  <!-- EN: Unlocks armor and apparel up to this workshop&apos;s technology stage. Current-stage quality rises from poor to masterwork; lower-stage apparel is always masterwork. -->
+  <FT2_ArmorWorkshop.description>Desbloquea armaduras y ropa hasta la etapa tecnológica de este taller. En la etapa actual, la calidad sube de mediocre a magistral; la ropa de etapas inferiores es siempre magistral.</FT2_ArmorWorkshop.description>
+  <!-- EN: furniture workshop -->
+  <FT2_FurnitureWorkshop.label>taller de muebles</FT2_FurnitureWorkshop.label>
+  <!-- EN: Unlocks minifiable buildings up to this workshop&apos;s technology stage. Buildings with quality rise from poor to masterwork within the stage; lower-stage furniture is always masterwork. -->
+  <FT2_FurnitureWorkshop.description>Desbloquea edificios minificables hasta la etapa tecnológica de este taller. Los edificios con calidad suben de mediocre a magistral dentro de la etapa; los muebles de etapas inferiores son siempre magistrales.</FT2_FurnitureWorkshop.description>
+  <!-- EN: research station -->
+  <FT2_ResearchStation.label>estación de investigación</FT2_ResearchStation.label>
+  <!-- EN: Produces global tech points at player vassals. Spend them to advance a vassal town hall beyond its technology threshold or to fuel selected colony research. -->
+  <FT2_ResearchStation.description>Produce puntos de tecnología globales en los vasallos del jugador. Úsalos para hacer avanzar el ayuntamiento de un vasallo más allá de su umbral tecnológico o para impulsar investigaciones elegidas de la colonia.</FT2_ResearchStation.description>
+  <!-- EN: slave market -->
+  <FT2_SlaveMarket.label>mercado de esclavos</FT2_SlaveMarket.label>
+  <!-- EN: Periodically adds slaves when housing is available, increasing prosperity at a happiness cost. -->
+  <FT2_SlaveMarket.description>Agrega esclavos cada cierto tiempo cuando hay viviendas libres, lo que aumenta la prosperidad a costa de la felicidad.</FT2_SlaveMarket.description>
+  <!-- EN: recreation center -->
+  <FT2_RecreationCenter.label>centro recreativo</FT2_RecreationCenter.label>
+  <!-- EN: Raises the settlement&apos;s happiness target with each building level. -->
+  <FT2_RecreationCenter.description>Sube el objetivo de felicidad del asentamiento con cada nivel del edificio.</FT2_RecreationCenter.description>
+  <!-- EN: royal palace -->
+  <FT2_RoyalPalace.label>palacio real</FT2_RoyalPalace.label>
+  <!-- EN: Accumulates honour at player vassals. Claim it for a colonist with a non-hostile royal faction. -->
+  <FT2_RoyalPalace.description>Acumula honor en los vasallos del jugador. Reclámalo para un colono con una facción real no hostil.</FT2_RoyalPalace.description>
+  <!-- EN: monolith -->
+  <FT2_Monolith.label>monolito</FT2_Monolith.label>
+  <!-- EN: Produces bioferrite, twisted meat and stored anomaly knowledge. Physical goods use the normal tithe delivery schedule. -->
+  <FT2_Monolith.description>Produce bioferrita, carne retorcida y conocimiento de anomalías almacenado. Los bienes físicos siguen el calendario normal de entrega de diezmos.</FT2_Monolith.description>
+  <!-- EN: grav site -->
+  <FT2_GravSite.label>sitio de gravedad</FT2_GravSite.label>
+  <!-- EN: Produces metals and gravlite panels, with rare gravcores at higher stages. Enables military journeys to or from orbit and flight over difficult surface terrain. -->
+  <FT2_GravSite.description>Produce metales y paneles de gravilita, y en etapas más altas, algún gravinúcleo raro. Permite viajes militares hacia la órbita o desde ella, y volar sobre terreno difícil de la superficie.</FT2_GravSite.description>
+  <!-- EN: Stellarch&apos;s flagship -->
+  <FT2_StellarchFlagship.label>buque insignia de la estelarca</FT2_StellarchFlagship.label>
+  <!-- EN: The Empire&apos;s unique flagship combines a spacefaring city, propaganda centre, psychic sanctum and orbital laser. It can travel through space from level 1 at half normal moving-city speed. Upgrades cost the combined price of all four structures. Its services use normal funding and cooldowns. It is granted once and can never be rebuilt after destruction or demolition. -->
+  <FT2_StellarchFlagship.description>El buque insignia único del Imperio combina una ciudad espacial, un centro de propaganda, un santuario psíquico y una red de láser orbital. Puede viajar por el espacio desde el nivel 1 a la mitad de la velocidad normal de una ciudad móvil. Las mejoras cuestan el precio combinado de las cuatro estructuras. Sus servicios usan el financiamiento y los tiempos de recarga normales. Se otorga una sola vez y nunca se puede reconstruir si se destruye o se demuele.</FT2_StellarchFlagship.description>
+  <!-- EN: subcore foundry -->
+  <FT2_SubcoreFoundry.label>fundición de subnúcleos</FT2_SubcoreFoundry.label>
+  <!-- EN: Produces basic, standard and high mechanoid subcores as physical trade goods. Large-scale neural synthesis replaces live scanning. Consumes local metal, industrial components and prosperity; shortages slow production. Higher levels increase output. -->
+  <FT2_SubcoreFoundry.description>Produce subnúcleos básicos, estándar y avanzados como bienes físicos de comercio. La síntesis neuronal a gran escala reemplaza el escaneo en vivo. Consume metal local, componentes industriales y prosperidad; la escasez frena la producción. Los niveles más altos aumentan la producción.</FT2_SubcoreFoundry.description>
+</LanguageData>

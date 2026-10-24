@@ -319,6 +319,12 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   Angel revisó entera, y solo sobre `TODO`. Está en «Decisiones de Angel» de
   [PLAN-DMS-II.md](Data/!AobaKuma/The%20Dead%20Man's%20Switch%20-%203819799478/PLAN-DMS-II.md).
 
+  En Hegemony - Faction Territories and Vassalage 2, Angel aprobó el 24-oct-2026 el mismo camino
+  para todo el mod, por su tamaño (36.000 palabras): una tabla clave → traducción escrita a mano y un
+  script que la copia solo sobre `TODO`, con una revisión después de cada tanda. Las herramientas y
+  las reglas están en
+  [PLAN-HEGEMONY.md](Data/Hegemony%20-%20Faction%20Territories%20and%20Vassalage%202%20-%203825320105/PLAN-HEGEMONY.md).
+
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
 
