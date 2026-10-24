@@ -185,8 +185,8 @@ abre el issue igual, pero sin etiqueta.
 
 ## Etapa 3: hecha en local (23-oct-2026)
 
-**Decisiones (Angel aceptó las recomendadas):** `Novedades.tsv` va solo en `output/`, sin commitearse, y la
-primera vez se muestran los últimos 30 días.
+**Decisiones de Angel (23-oct):** `Novedades.tsv` va solo en `output/`, sin commitearse. La primera vez se
+muestra **solo lo de la última actualización de RML**; después, todo lo que el jugador no vio.
 
 - **El builder** arma `Novedades.tsv` en `CopiaLimpia` (o sea, en `-build` y `-copia`), con
   `Novedades.cs`: una fila por mod de `Data/` con su packageId, nombre, la fecha en que apareció su
@@ -202,7 +202,11 @@ primera vez se muestran los últimos 30 días.
   ventana también aparece sola.
 - **La ventana** tiene la pestaña «Novedades» primero y abre siempre en ella: **Mod** | **Cambio** |
   **Fecha**, con los colores de la previsualización. El buscador queda solo en «Tus mods».
-- Con la historia de hoy, la primera vez muestra 116 cambios.
+- **La última actualización** es la del Workshop, no la de GitHub (que publica una versión en cada push,
+  nueve el 22-oct). El builder pide a Steam el momento de la última subida de RML (3541009729), toma el
+  último commit anterior y marca en una sexta columna lo que cambió desde ahí, sin commitear incluido: «a»
+  añadido, «c» cambiado. Al armar la copia para subir, esa subida es la anterior. Sin conexión con Steam no
+  va la columna y el juego muestra los últimos 30 días. Hoy marca 7 mods (con 30 días eran 116).
 
 **Falta (Angel):** probarla en el juego y decir si se sube. Después queda la etapa 4 (gráfico de
 solicitudes), que no necesita el juego.

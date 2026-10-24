@@ -14,6 +14,9 @@ namespace RmlVentana.Logica
         public string Ultimo;
         /** «actualizado», «corregido» o vacio si solo hay la fecha en que se añadio. */
         public string Tipo;
+        /** Si cambio en la ultima subida de RML al Workshop: «a» añadido, «c» cambiado, vacio si no.
+         *  Null si el archivo no trae la columna (el builder no pudo consultar Steam). */
+        public string EnLaUltima;
     }
 
     public class Novedad
@@ -50,30 +53,48 @@ namespace RmlVentana.Logica
                     Anadido = Campos[2],
                     Ultimo = Campos[3],
                     Tipo = Campos[4],
+                    EnLaUltima = Campos.Length >= 6 ? Campos[5] : null,
                 });
             }
 
             return Resultado;
         }
 
+        /** Si el archivo dice que cambio en la ultima subida de RML al Workshop. Sin eso, la primera
+         *  vez se muestran los ultimos DiasLaPrimeraVez dias. */
+        public static bool PorUltimaActualizacion(List<EntradaDeNovedades> Entradas) =>
+            Entradas.Count > 0 && Entradas[0].EnLaUltima != null;
+
         /** Lo que no se vio, de lo mas nuevo a lo mas viejo. Una fila por mod: si su traduccion es
          *  nueva para el jugador sale como «Añadido», aunque despues haya cambiado. Vistas es lo de
-         *  Claves la ultima vez que se cerro la ventana, o null si nunca se abrio. */
+         *  Claves la ultima vez que se cerro la ventana, o null si nunca se abrio: ahi sale solo la
+         *  ultima actualizacion de RML (o los ultimos dias, si el archivo no la trae). */
         public static List<Novedad> Pendientes(List<EntradaDeNovedades> Entradas, ICollection<string> Vistas, DateTime Hoy)
         {
             string Desde = Hoy.AddDays(-DiasLaPrimeraVez).ToString("yyyy-MM-dd");
+            bool PorUltima = PorUltimaActualizacion(Entradas);
             var Resultado = new List<Novedad>();
 
             foreach (EntradaDeNovedades Entrada in Entradas)
             {
                 bool Cambiado = Entrada.Tipo == "actualizado" || Entrada.Tipo == "corregido";
 
-                bool AnadidoSinVer = Vistas == null
-                    ? string.CompareOrdinal(Entrada.Anadido, Desde) >= 0
-                    : !Vistas.Contains(ClaveDeAnadido(Entrada));
-                bool CambioSinVer = Cambiado && (Vistas == null
-                    ? string.CompareOrdinal(Entrada.Ultimo, Desde) >= 0
-                    : !Vistas.Contains(ClaveDeCambio(Entrada)));
+                bool AnadidoSinVer, CambioSinVer;
+                if (Vistas != null)
+                {
+                    AnadidoSinVer = !Vistas.Contains(ClaveDeAnadido(Entrada));
+                    CambioSinVer = Cambiado && !Vistas.Contains(ClaveDeCambio(Entrada));
+                }
+                else if (PorUltima)
+                {
+                    AnadidoSinVer = Entrada.EnLaUltima == "a";
+                    CambioSinVer = Cambiado && Entrada.EnLaUltima == "c";
+                }
+                else
+                {
+                    AnadidoSinVer = string.CompareOrdinal(Entrada.Anadido, Desde) >= 0;
+                    CambioSinVer = Cambiado && string.CompareOrdinal(Entrada.Ultimo, Desde) >= 0;
+                }
 
                 if (AnadidoSinVer)
                     Resultado.Add(Nueva(Entrada, Cambio.Anadido, Entrada.Anadido));

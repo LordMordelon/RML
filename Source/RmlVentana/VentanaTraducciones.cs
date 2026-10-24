@@ -87,9 +87,11 @@ namespace RmlVentana
             this.Filas = Filas;
             this.Entradas = Entradas;
             this.Pendientes = Pendientes;
-            ResumenNovedades = Ajustes.UltimaVez == null
-                ? "RML_Ventana_ResumenNovedadesPrimeraVez".Translate(NovedadesRml.DiasLaPrimeraVez).ToString()
-                : "RML_Ventana_ResumenNovedades".Translate(FechaLarga(Ajustes.UltimaVez)).ToString();
+            ResumenNovedades = Ajustes.UltimaVez != null
+                ? "RML_Ventana_ResumenNovedades".Translate(FechaLarga(Ajustes.UltimaVez)).ToString()
+                : NovedadesRml.PorUltimaActualizacion(Entradas)
+                    ? "RML_Ventana_ResumenNovedadesUltima".Translate().ToString()
+                    : "RML_Ventana_ResumenNovedadesPrimeraVez".Translate(NovedadesRml.DiasLaPrimeraVez).ToString();
             doCloseX = true;
             closeOnClickedOutside = false;
             absorbInputAroundWindow = true;

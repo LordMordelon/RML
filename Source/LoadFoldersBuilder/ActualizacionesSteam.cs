@@ -16,9 +16,15 @@ public static class ActualizacionesSteam
      *  Nunca tira: el extractor corre el builder y puede estar sin conexion, y eso no es motivo
      *  para no generar la lista. En ese caso devuelve un diccionario vacio.
      */
-    public static Dictionary<string, string> Consultar(IEnumerable<string> WorkshopIDs)
+    public static Dictionary<string, string> Consultar(IEnumerable<string> WorkshopIDs) =>
+        Momentos(WorkshopIDs).ToDictionary(x => x.Key, x => x.Value.UtcDateTime.ToString("yyyy-MM-dd"));
+
+    /** Como Consultar, pero con el momento exacto de la ultima actualizacion. Novedades.cs lo usa
+     *  con el ID de RML: separa lo que ya estaba en la version publicada de lo que trae la que se
+     *  va a subir. */
+    public static Dictionary<string, DateTimeOffset> Momentos(IEnumerable<string> WorkshopIDs)
     {
-        var Fechas = new Dictionary<string, string>();
+        var Fechas = new Dictionary<string, DateTimeOffset>();
 
         try
         {
@@ -41,8 +47,7 @@ public static class ActualizacionesSteam
                     if (!Mod.TryGetProperty("result", out var Resultado) || Resultado.GetInt32() is not 1) continue;
                     if (!Mod.TryGetProperty("time_updated", out var Actualizado)) continue;
 
-                    var Fecha = DateTimeOffset.FromUnixTimeSeconds(Actualizado.GetInt64()).UtcDateTime;
-                    Fechas[Mod.GetProperty("publishedfileid").GetString()!] = Fecha.ToString("yyyy-MM-dd");
+                    Fechas[Mod.GetProperty("publishedfileid").GetString()!] = DateTimeOffset.FromUnixTimeSeconds(Actualizado.GetInt64());
                 }
             }
         }
@@ -50,7 +55,7 @@ public static class ActualizacionesSteam
         {
             // Sin conexion, Steam caido o una respuesta con otra forma.
             Console.WriteLine("\e[93mNo se pudo consultar Steam: la lista de mods queda sin fecha de actualizacion ({0}).\x1b[0m", e.Message);
-            return new Dictionary<string, string>();
+            return new Dictionary<string, DateTimeOffset>();
         }
 
         return Fechas;

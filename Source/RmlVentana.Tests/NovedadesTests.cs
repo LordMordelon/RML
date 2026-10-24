@@ -78,6 +78,41 @@ namespace RmlVentana.Tests
             Assert.AreEqual("2026-10-10", Lista.Single().Fecha);
         }
 
+        // Con la sexta columna: «a» o «c» si el mod cambio en la ultima subida de RML al Workshop.
+        private const string TsvConUltima =
+            "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo\tÚltima actualización de RML\n" +
+            "Autor.Nuevo\tMod nuevo\t2026-10-22\t2026-10-22\t\ta\n" +
+            "Autor.Corregido\tMod corregido\t2026-09-07\t2026-10-20\tcorregido\t\n" +
+            "Autor.Actualizado\tMod actualizado\t2026-09-07\t2026-10-21\tactualizado\tc\n";
+
+        [TestMethod]
+        public void LaPrimeraVezMuestraSoloLaUltimaActualizacionDeRml()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+
+            var Lista = NovedadesRml.Pendientes(Leidas, null, Hoy);
+
+            Assert.IsTrue(NovedadesRml.PorUltimaActualizacion(Leidas));
+            CollectionAssert.AreEqual(new[] { "autor.nuevo", "autor.actualizado" }, Lista.Select(x => x.PackageId).ToList());
+            Assert.AreEqual(Cambio.Anadido, Lista[0].Cambio);
+            Assert.AreEqual(Cambio.Actualizado, Lista[1].Cambio);
+        }
+
+        [TestMethod]
+        public void DespuesDeLaPrimeraVezSaleTodoLoNoVisto()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+
+            // Nada visto todavia, pero ya no es la primera vez: tambien sale el corregido.
+            Assert.AreEqual(3, NovedadesRml.Pendientes(Leidas, new List<string>(), Hoy).Count);
+        }
+
+        [TestMethod]
+        public void SinLaSextaColumnaVuelveALos30Dias()
+        {
+            Assert.IsFalse(NovedadesRml.PorUltimaActualizacion(Entradas));
+        }
+
         [TestMethod]
         public void SinArchivoNoHayNovedades()
         {

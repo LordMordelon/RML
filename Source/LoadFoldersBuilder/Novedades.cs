@@ -14,12 +14,20 @@ namespace LoadFoldersBuilder;
  *
  *  El nombre y la fecha de Steam salen de ModList.tsv, que el -build acaba de escribir. El juego
  *  cruza las filas con los mods por su packageId.
+ *
+ *  La sexta columna marca lo que cambio desde la ultima subida de RML al Workshop («a» añadido, «c»
+ *  cambiado): es lo que el juego muestra la primera vez. Al armar la copia para subir, esa subida es
+ *  la anterior, asi que la columna dice que trae la version nueva. Sin conexion con Steam la columna
+ *  no va, y el juego muestra los ultimos 30 dias.
  */
 public static class Novedades
 {
     public const string Archivo = "Novedades.tsv";
 
     private const string Encabezado = "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo";
+
+    /** RML en el Workshop: la misma carpeta que cuenta Rutas.BaseWorkshop. */
+    private const string IdDeRml = "3541009729";
 
     private static readonly Regex IdAlFinal = new(@" - (\d+)$", RegexOptions.Compiled);
 
@@ -49,7 +57,9 @@ public static class Novedades
         if (Historial.Count == 0)
             return null;
 
-        var Filas = new List<string> { Encabezado };
+        var EnLaUltima = CambiosDesdeLaUltimaSubida(RootPath, Carpetas, Historial);
+
+        var Filas = new List<string> { EnLaUltima is null ? Encabezado : Encabezado + "\tÚltima actualización de RML" };
         foreach (string Carpeta in Carpetas.OrderBy(x => x, StringComparer.Ordinal))
         {
             if (!Historial.TryGetValue(Carpeta, out var Fechas) || Fechas.Count == 0) continue;
@@ -60,10 +70,55 @@ public static class Novedades
             string Ultimo = Fechas[0];
             string Cambio = Fechas.Count < 2 ? "" : TipoDeCambio(Fechas[1], Mod.Steam, Ultimo);
 
-            Filas.Add($"{Mod.PackageId}\t{Mod.Nombre}\t{Anadido}\t{Ultimo}\t{Cambio}");
+            string Fila = $"{Mod.PackageId}\t{Mod.Nombre}\t{Anadido}\t{Ultimo}\t{Cambio}";
+            if (EnLaUltima is not null)
+                Fila += "\t" + (EnLaUltima.TryGetValue(Carpeta, out string? Marca) ? Marca : "");
+            Filas.Add(Fila);
         }
 
         return string.Join("\n", Filas) + "\n";
+    }
+
+    /** Carpeta -> «a» o «c», de las que cambiaron desde la ultima subida de RML al Workshop: el diff
+     *  entre el ultimo commit anterior a esa subida y lo que hay ahora, sin commitear incluido. Un
+     *  movimiento del Agrupador (R100) no cuenta. Null si no se pudo saber. */
+    private static Dictionary<string, string>? CambiosDesdeLaUltimaSubida(string RootPath, List<string> Carpetas,
+        Dictionary<string, List<string>> Historial)
+    {
+        if (!ActualizacionesSteam.Momentos([IdDeRml]).TryGetValue(IdDeRml, out var Subida))
+            return null;
+
+        if (UltimosCambios.Git(RootPath, "rev-list", "-1", $"--before=@{Subida.ToUnixTimeSeconds()}", "HEAD") is not [var Base])
+            return null;
+
+        var Cambiados = UltimosCambios.Git(RootPath, "-c", "core.quotepath=off", "diff", "-M100%", "--name-status", "--relative", Base, "--", "Data");
+        var Nuevos = UltimosCambios.Git(RootPath, "-c", "core.quotepath=off", "ls-files", "--others", "--exclude-standard", "--", "Data");
+        if (Cambiados is null || Nuevos is null)
+            return null;
+
+        var Conjunto = new HashSet<string>(Carpetas);
+        string DiaDeLaSubida = Subida.ToLocalTime().ToString("yyyy-MM-dd");
+        var Resultado = new Dictionary<string, string>();
+
+        foreach (string Linea in Cambiados.Concat(Nuevos.Select(x => "A\t" + x)))
+        {
+            string[] Campos = Linea.Split('\t');
+            if (Campos[0] == "R100") continue;
+
+            string Archivo = Campos[^1];
+            for (int i = Archivo.LastIndexOf('/'); i > 0; i = Archivo.LastIndexOf('/', i - 1))
+            {
+                string Carpeta = Archivo[..i];
+                if (!Conjunto.Contains(Carpeta)) continue;
+
+                // Añadido si su traduccion aparecio despues de la subida anterior.
+                bool Nueva = Historial.TryGetValue(Carpeta, out var Fechas) && string.CompareOrdinal(Fechas[^1], DiaDeLaSubida) >= 0;
+                Resultado[Carpeta] = Nueva ? "a" : "c";
+                break;
+            }
+        }
+
+        return Resultado;
     }
 
     /** Las fechas van como yyyy-MM-dd, asi que se comparan como texto. */
