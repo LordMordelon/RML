@@ -42,24 +42,45 @@ namespace RmlVentana
         }
     }
 
-    /** Corre con el juego ya cargado: la ventana aparece sola si corresponde (Clasificador.DebeAparecerSola). */
+    /** Corre con el juego ya cargado: la ventana aparece sola si corresponde (Clasificador.DebeAparecerSola).
+     *
+     *  Va en un evento largo propio y no en ExecuteWhenFinished: el juego arma la pantalla del menu en
+     *  otro evento, «InitializingInterface», que corre despues de cargar los datos. Con
+     *  ExecuteWhenFinished la ventana se abria antes de eso y no habia donde ponerla (Find.WindowStack
+     *  era null). Un evento encolado ahora va detras de ese.
+     */
     [StaticConstructorOnStartup]
     public static class AlIniciar
     {
+        private const int Intentos = 3;
+
         static AlIniciar()
         {
-            LongEventHandler.ExecuteWhenFinished(() =>
+            Encolar(Intentos);
+        }
+
+        private static void Encolar(int Quedan)
+        {
+            LongEventHandler.QueueLongEvent(() => Mostrar(Quedan), null, false, null);
+        }
+
+        private static void Mostrar(int Quedan)
+        {
+            try
             {
-                try
+                if (Find.WindowStack == null)
                 {
-                    if (VentanaTraducciones.Crear(out bool Novedades) is VentanaTraducciones Ventana && Novedades)
-                        Find.WindowStack.Add(Ventana);
+                    if (Quedan > 1) Encolar(Quedan - 1);
+                    return;
                 }
-                catch (Exception e)
-                {
-                    Log.Warning("[Traducciones [Español Latino]] No se pudo mostrar la ventana: " + e.Message);
-                }
-            });
+
+                if (VentanaTraducciones.Crear(out bool Novedades) is VentanaTraducciones Ventana && Novedades)
+                    Find.WindowStack.Add(Ventana);
+            }
+            catch (Exception e)
+            {
+                Log.Warning("[Traducciones [Español Latino]] No se pudo mostrar la ventana: " + e);
+            }
         }
     }
 }
