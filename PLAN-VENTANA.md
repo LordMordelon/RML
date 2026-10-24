@@ -133,3 +133,30 @@ Cuidados:
   y si algo falla la ventana simplemente no aparece.
 - **Rutas largas:** la carpeta `Comun/` es corta y no se acerca al límite de 260 caracteres.
 - **Workshop:** la primera subida con DLL la hace Angel con el `03`, como siempre.
+
+## Próxima sesión (23-oct-2026)
+
+**Objetivo:** etapa 1, la base: RML con una carpeta que se carga siempre y una DLL vacía, sin ventana todavía.
+**Estado:** plan aprobado y subido a `master` (ec52b95). No hay código todavía. La previsualización de la
+ventana está en https://claude.ai/artifact/WfNYPCKyZAR5RnkJAtcxZb.
+**Antes de empezarla (Angel):** nada.
+**Al empezar (Claude):**
+1. Proyecto nuevo `Source/RmlVentana` (.NET Framework 4.7.2, referencias de `Krafs.Rimworld.Ref`), con una
+   clase `Mod` que solo deja una línea en el log al cargar.
+2. Carpeta `Comun/` (con `Assemblies/` dentro) que el builder pone sin `IfModActive` al principio de cada
+   versión de `LoadFolders.xml`, antes de `Ajustes/`.
+3. `CopiaLimpia` copia `Comun/` a `output/`; `-rutas` la comprueba como las demás.
+4. La DLL se compila en `-build` y `-copia`, y por eso también en `loadfolders.yml` y `release.yml`, que ya
+   usan esos comandos. No se commitea el binario.
+5. Probar: `-rutas`, `-build`, la DLL en `output/`, y las tres comprobaciones del diff. Actualizar
+   `RML/AGENTS.md` (estructura y regla 6). Son unos 6 archivos tocados (estimado): cabe en una sesión.
+6. Al terminar, Angel abre el juego con RML y mira que salga la línea en el log y ningún error nuevo.
+
+**Decisiones de Angel:**
+- Nombre de la carpeta: recomiendo `Comun` (corto y sin tilde, por las rutas largas).
+- Una sola DLL para 1.6 y 1.7, compilada contra 1.6: recomiendo eso y comprobarlo en 1.7 al probar; si
+  falla, se separa por versión.
+
+**Guías:** `frontend-design` recién en la etapa 2, para la ventana.
+**Dónde leer:** este plan; `Source/LoadFoldersBuilder/CopiaLimpia.cs`; `.github/workflows/loadfolders.yml` y
+`release.yml`; «Reglas» en `RML/AGENTS.md`.
