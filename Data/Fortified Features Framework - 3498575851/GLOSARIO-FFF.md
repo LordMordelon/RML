@@ -30,7 +30,7 @@ traducción en uso, salvo los de la última tabla, que son nuevos.
 | airspace blockade | **bloqueo del espacio aéreo** | |
 | precision bombardment | **bombardeo de precisión** | |
 | hostile site / reinforcements inbound | **sitio hostil** / **refuerzos en camino** | |
-| huntdown / hunted by {0} | **persecución** / **perseguidos por {0}** | Ver «Pendientes» |
+| huntdown / hunting party / hunted by {0} | **cacería** / **partida de caza** / **perseguidos por {0}** | Como en DMS («incursión de cacería»). Decía «persecución» y «grupo de caza» hasta el 24-oct-2026 |
 | raid wave | **oleada de asalto** | «Oleada de asalto entrante», «Oleada de asalto en camino» |
 | recycle | **reciclar** | |
 | mounted weapon | **arma montada** | |
@@ -60,16 +60,7 @@ pasa, declaran guerras y mandan compañías. Ninguno tenía traducción en uso, 
 
 ## Pendientes
 
-Inconsistencias que ya estaban en las traducciones. No se corrigieron el 24-oct-2026 porque cambian
-textos que no estaban en el diff; se dejan anotadas para decidirlas con Angel.
-
-- **El género de «meca».** DMS lo usa en masculino («un meca» 23 veces, «los mecas» 15) y FFF lo
-  mezcla: 9 en masculino y 7 en femenino, «esta meca» (`FFF_Camouflage.description`,
-  `FFF.NeedMoreBandwidth`, `FFF.MechModification.GizmoDesc`) y «la meca» (`FFF_PaintMech`,
-  `FFF.HackFailedDesc`), más las cinco cápsulas «meca desactivada». En DMS queda un «las mecas»
-  (`ThingDef/go2jb9.xml`).
-- **«mech» traducido como «mecanoide»** en 5 entradas: `FFF_EjectDeactivatedMech`,
-  `FFF_HackDeactivatedMech`, `FFF.MechReturn` y su descripción, `FFF.Reason.FrameNotSupported` y
-  `FFF.Message.AddonBroken`. `FFF.FrameNotSupported`, con el mismo inglés, dice «estructura de meca».
-- **EMP:** una entrada dice «PEM» («deshabilitada por PEM»); el resto de RML deja «EMP».
-- **huntdown:** FFF dice «persecución» y DMS, «incursión de cacería». Los dos se ven en el mismo juego.
+Las cuatro inconsistencias que se encontraron al armar el glosario se corrigieron el 24-oct-2026,
+con el visto bueno de Angel: «meca» en masculino (13 textos de FFF y uno de DMS), «meca» y no
+«mecanoide» donde el inglés dice *mech* (7 textos), «EMP» en vez de «PEM» y «cacería» en vez de
+«persecución». No falta nada.
