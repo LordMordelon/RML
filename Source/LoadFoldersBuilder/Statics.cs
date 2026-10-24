@@ -32,9 +32,9 @@ static class Statics
 
     /** La carpeta que el juego carga siempre, con cualquier lista de mods: la DLL de RML va en su
      *  Assemblies (ver Dll.cs). El builder la pone sin IfModActive arriba de cada version. */
-    public const string CarpetaComun = "Comun";
+    public const string CarpetaComun = "Common";
 
-    /** Data/ y, si existen, Ajustes/ y Comun/: las carpetas cuyo contenido llega al juego. */
+    /** Data/ y, si existen, Ajustes/ y Common/: las carpetas cuyo contenido llega al juego. */
     public static IEnumerable<string> CarpetasDeOrigen(string Root) =>
         new[] { "Data", CarpetaAjustes, CarpetaComun }.Select(x => Path.Combine(Root, x)).Where(Directory.Exists);
 

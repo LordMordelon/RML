@@ -7,8 +7,8 @@ REM regenerar el indice, ya dejan la copia al dia. 03-subir-al-workshop.cmd lo c
 REM igual antes de subir, por las dudas.
 REM
 REM Lo hace LoadFoldersBuilder -copia (Source\LoadFoldersBuilder\CopiaLimpia.cs):
-REM   - Solo About, Data, Ajustes, Comun, LoadFolders.xml, ModList.tsv y LICENSE.
-REM   - Antes compila la DLL de Comun\Assemblies (Source\RmlVentana).
+REM   - Solo About, Data, Ajustes, Common, LoadFolders.xml, ModList.tsv y LICENSE.
+REM   - Antes compila la DLL de Common\Assemblies (Source\RmlVentana).
 REM   - Sin UNUSED.xml ni LoadFolders.Build.yaml, que el juego no lee.
 REM   - Los XML sin comentarios: el original en ingles sirve en el repo, no al jugador.
 REM   - Antes comprueba que ninguna ruta pase el limite de Windows instalada desde el

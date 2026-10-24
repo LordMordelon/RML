@@ -69,7 +69,7 @@ Cada una en su propia sesión, con su commit. Ninguna se sube sin que Angel lo d
 
 | # | Etapa | Qué incluye |
 |---|---|---|
-| 1 | Base | Proyecto `Source/RmlVentana`, carpeta `Comun/` que se carga siempre en cada versión, builder y `CopiaLimpia` que la incluyen, CI que compila la DLL. Sin ventana todavía: solo comprobar que RML sigue cargando igual |
+| 1 | Base | Proyecto `Source/RmlVentana`, carpeta `Common/` que se carga siempre en cada versión, builder y `CopiaLimpia` que la incluyen, CI que compila la DLL. Sin ventana todavía: solo comprobar que RML sigue cargando igual |
 | 2 | Pestaña «Tus mods» | La ventana, la tabla, los ajustes del mod y las dos reglas para que aparezca sola (hay novedades y el juego está en español latinoamericano). Los textos en `Keyed`, en español y en inglés (el inglés, para los ajustes del mod en otro idioma) |
 | 3 | Pestaña «Novedades» | `Novedades.tsv` en el builder y la segunda pestaña |
 | 4 | Gráfico de solicitudes | La rama `solicitudes`, el action que cuenta los pedidos y el gráfico de los mods más pedidos (ver abajo) |
@@ -131,23 +131,23 @@ Cuidados:
 
 - **Un error en la DLL se ve en el log de todos los jugadores.** Todo lo que haga va dentro de un `try`,
   y si algo falla la ventana simplemente no aparece.
-- **Rutas largas:** la carpeta `Comun/` es corta y no se acerca al límite de 260 caracteres.
+- **Rutas largas:** la carpeta `Common/` es corta y no se acerca al límite de 260 caracteres.
 - **Workshop:** la primera subida con DLL la hace Angel con el `03`, como siempre.
 
 ## Etapa 1: hecha en local (23-oct-2026)
 
-**Decisiones de Angel (23-oct):** la carpeta se llama `Comun`, y va una sola DLL para 1.6 y 1.7, compilada
+**Decisiones de Angel (23-oct):** la carpeta se llama `Common`, como en los demás mods (primero se eligió `Comun`), y va una sola DLL para 1.6 y 1.7, compilada
 contra 1.6 (`Krafs.Rimworld.Ref` 1.6.4871). Si en 1.7 falla, se separa por versión.
 
 Lo que quedó:
 - `Source/RmlVentana`: .NET Framework 4.7.2, una clase `Mod` que deja «[Traducciones [Español Latino]]
-  Cargado.» en el log. Compila a `Comun/Assemblies/RmlVentana.dll` (ignorada por git), sin nada más al lado.
+  Cargado.» en el log. Compila a `Common/Assemblies/RmlVentana.dll` (ignorada por git), sin nada más al lado.
 - El builder la compila (`Dll.cs`) en `-build` (si falla, solo avisa) y en `-copia` (si falla, sale con 1 y
   `release.yml` no publica). La compilación es determinista: dos compilaciones desde cero dan los mismos
   bytes, así que no dispara releases vacías.
-- `LoadFolders.xml` lleva `<li>Comun</li>` arriba de cada versión, sin `IfModActive`. `Comun/` entra en
+- `LoadFolders.xml` lleva `<li>Common</li>` arriba de cada versión, sin `IfModActive`. `Common/` entra en
   `CarpetasDeOrigen`, así que va a `output/` y `-rutas` la revisa, también por nombres repetidos.
-- `loadfolders.yml` corre también con cambios en `Comun/**` y `Source/RmlVentana/**`.
+- `loadfolders.yml` corre también con cambios en `Common/**` y `Source/RmlVentana/**`.
 
 **Falta (Angel):** abrir RimWorld 1.7 con RML y mirar en el log que salga la línea «Cargado.» y ningún error
 nuevo. Si se puede, lo mismo en 1.6. Después, decir si se sube.

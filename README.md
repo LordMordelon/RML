@@ -38,7 +38,7 @@ ModList.tsv                     GENERADO — la misma lista en texto plano: mods
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
-Source/RmlVentana/              la DLL de RML; el builder la compila en Comun/Assemblies, que se carga siempre
+Source/RmlVentana/              la DLL de RML; el builder la compila en Common/Assemblies, que se carga siempre
 ```
 
 `LoadFolders.xml` es lo que hace que RimWorld cargue la traducción de cada mod solo

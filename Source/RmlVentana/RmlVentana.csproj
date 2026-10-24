@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <!-- La DLL de RML. La compila LoadFoldersBuilder en -build y -copia (Ventana.cs), y queda en
-         Comun/Assemblies, la carpeta que LoadFolders.xml carga siempre. No se commitea.
+    <!-- La DLL de RML. La compila LoadFoldersBuilder en -build y -copia (Dll.cs), y queda en
+         Common/Assemblies, la carpeta que LoadFolders.xml carga siempre. No se commitea.
 
-         Una sola DLL para 1.6 y 1.7, compilada contra 1.6: el juego carga la de Comun/ en las dos. -->
+         Una sola DLL para 1.6 y 1.7, compilada contra 1.6: el juego carga la de Common/ en las dos. -->
     <PropertyGroup>
         <TargetFramework>net472</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>disable</Nullable>
         <RootNamespace>RmlVentana</RootNamespace>
-        <OutputPath>../../Comun/Assemblies/</OutputPath>
+        <OutputPath>../../Common/Assemblies/</OutputPath>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-        <!-- En Comun/Assemblies va solo la DLL: el juego intenta cargar todo lo que haya ahi. -->
+        <!-- En Common/Assemblies va solo la DLL: el juego intenta cargar todo lo que haya ahi. -->
         <DebugType>none</DebugType>
         <GenerateDocumentationFile>false</GenerateDocumentationFile>
         <!-- Los mismos bytes en cada compilacion: si no, release.yml veria una copia distinta en
@@ -21,7 +21,7 @@
 
     <ItemGroup>
         <!-- Las referencias del juego, sin el juego instalado: la CI no lo tiene. ExcludeAssets
-             runtime para que no copie Assembly-CSharp.dll y los de Unity a Comun/Assemblies. -->
+             runtime para que no copie Assembly-CSharp.dll y los de Unity a Common/Assemblies. -->
         <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" ExcludeAssets="runtime" />
         <!-- Las de .NET Framework 4.7.2, que no todas las maquinas tienen instaladas. -->
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />

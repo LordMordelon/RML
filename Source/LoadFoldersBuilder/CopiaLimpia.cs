@@ -7,7 +7,7 @@ namespace LoadFoldersBuilder;
 /** La copia liviana del mod en output/RimWorld Mod Latino. Es lo que carga el juego —Mods\RML
  *  enlaza a esa carpeta— y lo que se sube al Workshop.
  *
- *  Lleva solo lo que RimWorld lee: About, Data, Ajustes, Comun (con la DLL), LoadFolders.xml, ModList.tsv y LICENSE.
+ *  Lleva solo lo que RimWorld lee: About, Data, Ajustes, Common (con la DLL), LoadFolders.xml, ModList.tsv y LICENSE.
  *  De Data y Ajustes quedan afuera los UNUSED.xml, los LoadFolders.Build.yaml y los .md, que el juego no usa, y a los XML
  *  se les sacan los comentarios: el <!-- EN: ... --> con el original en ingles sirve para
  *  traducir y revisar en el repo, pero al jugador no le hace nada y era un tercio del peso.
@@ -21,7 +21,7 @@ public static class CopiaLimpia
     public const string Carpeta = "output";
     public const string NombreDelMod = "RimWorld Mod Latino";
 
-    /** Lo de la raiz del repo que va en la copia, ademas de About, Data, Ajustes y Comun. */
+    /** Lo de la raiz del repo que va en la copia, ademas de About, Data, Ajustes y Common. */
     private static readonly string[] ArchivosDeRaiz = ["LoadFolders.xml", "ModList.tsv", "LICENSE"];
 
     /** Lo de Data que no va: el juego no lo lee. */

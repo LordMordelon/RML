@@ -134,7 +134,7 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
         foreach (XElement Version in XmlDeAjustes.Root!.Elements())
             CompleteXML.Root!.Element(Version.Name)!.AddFirst(Version.Elements());
 
-        // Comun/ va sin IfModActive, para que el juego la cargue siempre: tiene la DLL.
+        // Common/ va sin IfModActive, para que el juego la cargue siempre: tiene la DLL.
         foreach (XElement Version in CompleteXML.Root!.Elements())
             Version.AddFirst(new XElement("li", Statics.CarpetaComun));
 

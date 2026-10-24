@@ -2,14 +2,14 @@ using System.Diagnostics;
 
 namespace LoadFoldersBuilder;
 
-/** La DLL de RML (Source/RmlVentana), que va en Comun/Assemblies. No se commitea: se compila aca,
+/** La DLL de RML (Source/RmlVentana), que va en Common/Assemblies. No se commitea: se compila aca,
  *  en -build y en -copia, asi que el extractor, los .cmd y la CI la tienen sin un paso aparte.
  */
 public static class Dll
 {
     public const string Proyecto = "Source/RmlVentana";
 
-    /** Compila la DLL en Comun/Assemblies. Nunca tira: devuelve false y avisa si algo salio mal. */
+    /** Compila la DLL en Common/Assemblies. Nunca tira: devuelve false y avisa si algo salio mal. */
     public static bool Compilar(string RootPath)
     {
         try
