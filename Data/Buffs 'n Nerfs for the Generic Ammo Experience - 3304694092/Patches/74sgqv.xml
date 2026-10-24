@@ -1,0 +1,1082 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Security</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_JavelinsHeavy"]/label</xpath>
+          <value>
+            <!-- EN: javelins -->
+            <label>jabalinas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Pilum_FiredHeavy"]/label</xpath>
+          <value>
+            <!-- EN: pilum (fired) -->
+            <label>pilum (disparado)</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Armour Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/label</xpath>
+          <value>
+            <!-- EN: riot armor -->
+            <label>armadura antidisturbios</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/description</xpath>
+          <value>
+            <!-- EN: Craft specialized suits of heavy armor. -->
+            <description>Fabrica trajes especializados de armadura pesada.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;riot armor -->
+            <li>subject-&gt;armadura antidisturbios</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;heavy industrial armor -->
+            <li>subject-&gt;armadura industrial pesada</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject-&gt;riot gear -->
+            <li>subject-&gt;equipo antidisturbios</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;supplied heavy armor to a social enforcement unit -->
+            <li>subject_story-&gt;suministró armaduras pesadas a una unidad de orden social</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;was a member of an urbworld riot control unit -->
+            <li>subject_story-&gt;formó parte de una unidad antidisturbios de un mundourbano</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_RiotArmor"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;making riot armor -->
+            <li>subject_gerund-&gt;fabricación de armaduras antidisturbios</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Reinforced Mechanoid 2 (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_LocustTankLike"]/label</xpath>
+          <value>
+            <!-- EN: locust energy cannon -->
+            <label>cañón de energía de langosta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bullet_LocustTankLike"]/label</xpath>
+          <value>
+            <!-- EN: locust energy blast -->
+            <label>descarga de energía de langosta</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AbilityDef[defName="SEX_WarcasketRepairAbility"]/label</xpath>
+          <value>
+            <!-- EN: patch warcasket -->
+            <label>reparar sarcotraje</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AbilityDef[defName="SEX_WarcasketRepairAbility"]/description</xpath>
+          <value>
+            <!-- EN: Use semi-automated systems to hammer wearer&apos;s warcasket back into &apos;pristine&apos; condition. -->
+            <description>Usa sistemas semiautomáticos para devolver a martillazos el sarcotraje de quien lo lleva a un estado «impecable».</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SEX_WarcasketRepairing"]/label</xpath>
+          <value>
+            <!-- EN: warcasket repairing -->
+            <label>reparando sarcotraje</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SEX_WarcasketRepairing"]/description</xpath>
+          <value>
+            <!-- EN: Semi-automated systems are roughly hammering the warcasket back into shape. -->
+            <description>Unos sistemas semiautomáticos están devolviendo el sarcotraje a su forma a martillazos.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SEX_Warcasket"]/label</xpath>
+          <value>
+            <!-- EN: entombed -->
+            <label>encerrado</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SEX_Warcasket"]/labelNoun</xpath>
+          <value>
+            <!-- EN: entombed in a warcasket -->
+            <labelNoun>encierro en un sarcotraje</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SEX_Warcasket"]/description</xpath>
+          <value>
+            <!-- EN: This person has been entombed in a warcasket. -->
+            <description>Esta persona está encerrada en un sarcotraje.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_ChargeCannon"]/label</xpath>
+          <value>
+            <!-- EN: charge blaster -->
+            <label>bláster de cargas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_ChargeCannon"]/description</xpath>
+          <value>
+            <!-- EN: A pulse-charged rapid-fire blaster for area suppressive fire -->
+            <description>Un bláster de cargas de pulsos y disparo rápido, para fuego de supresión en área.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_ChargeCannon"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
+          <value>
+            <!-- EN: charge blaster -->
+            <label>bláster de cargas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_ChargeCannon"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Makeshift</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="CE_Tribal_GunnerMakeshift"]/label</xpath>
+          <value>
+            <!-- EN: machinist -->
+            <label>maquinista</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_WallMountedArquebus"]/label</xpath>
+          <value>
+            <!-- EN: musket ball -->
+            <label>bala de mosquete</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Bullet_WallMountedArquebus"]/label</xpath>
+          <value>
+            <!-- EN: high-explosive musket ball -->
+            <label>bala de mosquete explosiva</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom_Reapply"]/label</xpath>
+        <value>
+          <!-- EN: apply venom to steel arrows x20 -->
+          <label>aplicar veneno a flecha de acero x20</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom_Reapply"]/description</xpath>
+        <value>
+          <!-- EN: Apply venom to 20 steel arrows. -->
+          <description>Aplica veneno a 20 flechas de acero.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom_Reapply"]/jobString</xpath>
+        <value>
+          <!-- EN: Applying venom to arrows. -->
+          <jobString>Aplicando veneno a flechas.</jobString>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame_Reapply"]/label</xpath>
+        <value>
+          <!-- EN: apply FSX to steel arrows x20 -->
+          <label>aplicar FSX a flecha de acero x20</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame_Reapply"]/description</xpath>
+        <value>
+          <!-- EN: Apply FSX to 20 steel arrows. -->
+          <description>Aplica FSX a 20 flechas de acero.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame_Reapply"]/jobString</xpath>
+        <value>
+          <!-- EN: Applying FSX to arrows. -->
+          <jobString>Aplicando FSX a flechas.</jobString>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePackBulk"]/label</xpath>
+        <value>
+          <!-- EN: make laser charge pack x30 -->
+          <label>fabricar paquete de carga láser x30</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePackBulk"]/description</xpath>
+        <value>
+          <!-- EN: Craft 30 laser charge packs. -->
+          <description>Fabrica 30 paquetes de carga láser.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePackBulk"]/jobString</xpath>
+        <value>
+          <!-- EN: Making laser charge packs. -->
+          <jobString>Fabricando paquetes de carga láser.</jobString>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech_Bulk"]/label</xpath>
+        <value>
+          <!-- EN: make mechanoid charge pack x30 -->
+          <label>fabricar paquete láser mecanoide x30</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech_Bulk"]/description</xpath>
+        <value>
+          <!-- EN: Craft 30 mechanoid charge packs. -->
+          <description>Fabrica 30 paquetes láser mecanoides.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech_Bulk"]/jobString</xpath>
+        <value>
+          <!-- EN: Making mechanoid charge packs. -->
+          <jobString>Fabricando paquetes láser mecanoides.</jobString>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone_Blocks"]/label</xpath>
+        <value>
+          <!-- EN: make stone sling bullets from blocks x150 -->
+          <label>fabricar bala de honda de piedra con bloques x150</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone_Blocks"]/description</xpath>
+        <value>
+          <!-- EN: Make 150 stone sling bullets from cut stone blocks. -->
+          <description>Fabrica 150 balas de honda de piedra con bloques de piedra tallada.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone_Blocks"]/jobString</xpath>
+        <value>
+          <!-- EN: Making stone sling bullets. -->
+          <jobString>Fabricando balas de honda de piedra.</jobString>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Tribal</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleFireBomb"]/label</xpath>
+          <value>
+            <!-- EN: make fire bomb x1 -->
+            <label>fabricar bomba incendiaria x1</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleFireBomb"]/description</xpath>
+          <value>
+            <!-- EN: Craft 1 fire bomb. -->
+            <description>Fabrica una bomba incendiaria.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleFireBomb"]/jobString</xpath>
+          <value>
+            <!-- EN: Making a fire bomb. -->
+            <jobString>Fabricando bomba incendiaria.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleFireBomb"]/ingredients/li[1]/filter/customSummary</xpath>
+          <value>
+            <!-- EN: any textiles, leathers or wools -->
+            <customSummary>cualquier textil, cuero o lana</customSummary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleThrowSpike"]/label</xpath>
+          <value>
+            <!-- EN: make throwspikes x1 -->
+            <label>fabricar pinchos arrojadizos x1</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleThrowSpike"]/description</xpath>
+          <value>
+            <!-- EN: Craft 1 throwspike. -->
+            <description>Fabrica unos pinchos arrojadizos.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="SEX_MakeSingleThrowSpike"]/jobString</xpath>
+          <value>
+            <!-- EN: Making throwspikes. -->
+            <jobString>Fabricando pinchos arrojadizos.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/label</xpath>
+          <value>
+            <!-- EN: grenades -->
+            <label>granadas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/description</xpath>
+          <value>
+            <!-- EN: Craft throwable fuzed explosives. -->
+            <description>Fabrica explosivos arrojadizos con espoleta.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;grenades -->
+            <li>subject-&gt;granadas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;fuzed bombs -->
+            <li>subject-&gt;bombas con espoleta</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject-&gt;explosives -->
+            <li>subject-&gt;explosivos</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;used a frag grenade to take down an enemy combatant -->
+            <li>subject_story-&gt;usó una granada fragmentaria para abatir a un combatiente enemigo</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;was wounded by a freak incident involving a smoke grenade -->
+            <li>subject_story-&gt;sufrió heridas en un insólito accidente con una granada de humo</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Grenades"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;making grenades -->
+            <li>subject_gerund-&gt;fabricación de granadas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/label</xpath>
+          <value>
+            <!-- EN: weapon emplacements -->
+            <label>emplazamientos de armas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/description</xpath>
+          <value>
+            <!-- EN: Build mounted guns. -->
+            <description>Construye armas montadas.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;mounted weapons -->
+            <li>subject-&gt;armas montadas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;gun emplacements -->
+            <li>subject-&gt;emplazamientos de artillería</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;built a perimeter of mounted guns to defend a toxicworld colony -->
+            <li>subject_story-&gt;construyó un perímetro de armas montadas para defender una colonia en un mundotóxico</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;supplied an urbworld-in-conflict with weapon emplacements -->
+            <li>subject_story-&gt;abasteció de emplazamientos de armas a un mundourbano en guerra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_MountedWeapons"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;building weapon emplacements -->
+            <li>subject_gerund-&gt;construcción de emplazamientos de armas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/label</xpath>
+          <value>
+            <!-- EN: slugthrowers -->
+            <label>lanzabalas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/description</xpath>
+          <value>
+            <!-- EN: Craft simple manually-operated slugthrowers like bolt-action rifles. -->
+            <description>Fabrica lanzabalas simples de accionamiento manual, como los fusiles de cerrojo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;simple slugthrowers -->
+            <li>subject-&gt;lanzabalas simples</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;built a lever-action rifle and got revenge for a past betrayal -->
+            <li>subject_story-&gt;construyó un fusil de palanca y se vengó de una antigua traición</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;specialized in simple gunsmithing, providing lever-action rifles for hunters -->
+            <li>subject_story-&gt;se especializó en la armería sencilla y fabricaba fusiles de palanca para cazadores</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;slugthrower-making -->
+            <li>subject_gerund-&gt;fabricación de lanzabalas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Slugthrowers"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;crafting slugthrowers -->
+            <li>subject_gerund-&gt;elaboración de lanzabalas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/label</xpath>
+          <value>
+            <!-- EN: scatterguns -->
+            <label>escopetas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/description</xpath>
+          <value>
+            <!-- EN: Craft simple manually-operated scatterguns like pump-action shotguns. -->
+            <description>Fabrica escopetas simples de accionamiento manual, como las de corredera.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;simple scatterguns -->
+            <li>subject-&gt;escopetas simples</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;built a lever-action shotgun and used it to miraculously put down a terrible foe -->
+            <li>subject_story-&gt;construyó una escopeta de palanca y con ella abatió de milagro a un terrible enemigo</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;specialized in simple gunsmithing, providing pump-action shotguns to mercenaries -->
+            <li>subject_story-&gt;se especializó en la armería sencilla y fabricaba escopetas de corredera para mercenarios</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;rallied his people and fought against pirate raiders using simple scatterguns -->
+            <li>subject_story-&gt;reunió a su gente y combatió a los asaltantes piratas con escopetas simples</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;scattergun-making -->
+            <li>subject_gerund-&gt;fabricación de escopetas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Scatterguns"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;crafting scatterguns -->
+            <li>subject_gerund-&gt;elaboración de escopetas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/label</xpath>
+          <value>
+            <!-- EN: flamethrowers -->
+            <label>lanzallamas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/description</xpath>
+          <value>
+            <!-- EN: Construct flamethrowers, weapons that project a long, controllable stream of fire. Their brutality has lead to bans on many civilized worlds. -->
+            <description>Construye lanzallamas, armas que proyectan un chorro de fuego largo y controlable. Su brutalidad ha llevado a prohibirlos en muchos mundos civilizados.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;flamethrowers -->
+            <li>subject-&gt;lanzallamas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;flame-spewers -->
+            <li>subject-&gt;escupellamas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;studied the psychological and physical impact of flamethrowers -->
+            <li>subject_story-&gt;estudió el impacto psicológico y físico de los lanzallamas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;harnessed prometheum into a weapon of terror -->
+            <li>subject_story-&gt;convirtió el prometio en un arma de terror</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;dozed a megaspider with chemfuel and set it ablaze -->
+            <li>subject_story-&gt;empapó a una megaraña con quimbustible y le prendió fuego</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;crafting fire weapons -->
+            <li>subject_gerund-&gt;fabricación de armas incendiarias</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[7]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;crafting flamethrowers -->
+            <li>subject_gerund-&gt;fabricación de lanzallamas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Flamethrowers"]/generalRules/rulesStrings/li[8]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;building flame-spewer weapons -->
+            <li>subject_gerund-&gt;construcción de armas escupellamas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/label</xpath>
+          <value>
+            <!-- EN: advanced optics -->
+            <label>óptica avanzada</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/description</xpath>
+          <value>
+            <!-- EN: Craft high-range weapons utilizing advanced optics systems. -->
+            <description>Fabrica armas de largo alcance con sistemas ópticos avanzados.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;marksman rifles -->
+            <li>subject-&gt;fusiles de tirador</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;sniper rifles -->
+            <li>subject-&gt;fusiles de francotirador</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject-&gt;weapon optics -->
+            <li>subject-&gt;miras ópticas</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt; -->
+            <li>subject_story-&gt;</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;was hunted by neanderthals but constructed a sniper rifle to safely kill their leader -->
+            <li>subject_story-&gt;sufrió la persecución de unos neandertales, pero construyó un fusil de francotirador para matar a su líder desde un lugar seguro</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedOptics"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;crafting long range firearms -->
+            <li>subject_gerund-&gt;fabricación de armas de fuego de largo alcance</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/label</xpath>
+          <value>
+            <!-- EN: cannons -->
+            <label>cañones</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/description</xpath>
+          <value>
+            <!-- EN: Build primitive cannons. -->
+            <description>Construye cañones primitivos.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <!-- EN: subject-&gt;cannons -->
+            <li>subject-&gt;cañones</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <!-- EN: subject-&gt;antique cannons -->
+            <li>subject-&gt;cañones antiguos</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;worked as a historian specializing in antique cannons -->
+            <li>subject_story-&gt;se dedicó a la historia, como especialista en cañones antiguos</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <!-- EN: subject_story-&gt;built replica cannons for rich collectors -->
+            <li>subject_story-&gt;construyó réplicas de cañones para coleccionistas ricos</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="SEX_Cannons"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <!-- EN: subject_gerund-&gt;building cannons -->
+            <li>subject_gerund-&gt;construcción de cañones</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Grenade Variety for Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/label</xpath>
+            <value>
+              <!-- EN: advanced grenades -->
+              <label>granadas avanzadas</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/description</xpath>
+            <value>
+              <!-- EN: Craft various specialized explosives. -->
+              <description>Fabrica diversos explosivos especializados.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/generalRules/rulesStrings/li[1]</xpath>
+            <value>
+              <!-- EN: subject-&gt;advanced grenades -->
+              <li>subject-&gt;granadas avanzadas</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/generalRules/rulesStrings/li[2]</xpath>
+            <value>
+              <!-- EN: subject-&gt;complex bombs -->
+              <li>subject-&gt;bombas complejas</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/generalRules/rulesStrings/li[3]</xpath>
+            <value>
+              <!-- EN: subject_story-&gt;used an anti-tank grenade to cripple an enemy warwalker -->
+              <li>subject_story-&gt;usó una granada antitanque para inutilizar a un caminante de guerra enemigo</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/generalRules/rulesStrings/li[4]</xpath>
+            <value>
+              <!-- EN: subject_story-&gt;witnessed a band of pirates burn down a forest using prometheum bombs -->
+              <li>subject_story-&gt;vio a una banda de piratas incendiar un bosque con bombas de prometio</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_AdvancedGrenades"]/generalRules/rulesStrings/li[5]</xpath>
+            <value>
+              <!-- EN: subject_gerund-&gt;making advanced grenades -->
+              <li>subject_gerund-&gt;fabricación de granadas avanzadas</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Weapons Expanded - Grenades</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/label</xpath>
+            <value>
+              <!-- EN: grenade belts -->
+              <label>cinturones de granadas</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/description</xpath>
+            <value>
+              <!-- EN: Craft specialized belts for holding grenades. These belts allow colonists to quickly throw projectiles with greater range. -->
+              <description>Fabrica cinturones especializados para llevar granadas. Con ellos, los colonos pueden lanzar proyectiles más rápido y a mayor distancia.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[1]</xpath>
+            <value>
+              <!-- EN: subject-&gt;grenade belts -->
+              <li>subject-&gt;cinturones de granadas</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[2]</xpath>
+            <value>
+              <!-- EN: subject-&gt;munitions belts -->
+              <li>subject-&gt;cinturones de munición</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[3]</xpath>
+            <value>
+              <!-- EN: subject_story-&gt;slung a cloth sash over their shoulder and attached frag grenades to it -->
+              <li>subject_story-&gt;se colgó una faja de tela al hombro y le sujetó granadas fragmentarias</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[4]</xpath>
+            <value>
+              <!-- EN: subject_story-&gt;always kept a belt of dynamites around -->
+              <li>subject_story-&gt;siempre tenía a mano un cinturón de dinamita</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[5]</xpath>
+            <value>
+              <!-- EN: subject_story-&gt;knew an urbworld ordnance expert who always wore a bandolier of grenades -->
+              <li>subject_story-&gt;conoció a un experto en explosivos de un mundourbano que siempre llevaba una bandolera de granadas</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SEX_GrenadeBelts"]/generalRules/rulesStrings/li[6]</xpath>
+            <value>
+              <!-- EN: subject_gerund-&gt;crafting grenade belts -->
+              <li>subject_gerund-&gt;fabricación de cinturones de granadas</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

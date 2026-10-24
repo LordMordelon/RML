@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Armour Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/description</xpath>
+          <value>
+            <!-- EN: Overlapping solid plates of armor covering the chest and shoulders. Light enough to be worn over other armor. -->
+            <description>Placas sólidas superpuestas de armadura que cubren el pecho y los hombros. Es lo bastante liviana para llevarla encima de otra armadura.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VAE_Apparel_RiotHelmet"]/description</xpath>
+          <value>
+            <!-- EN: A heavy combat helmet with a mounted ballistic shield. Often used by riot police units due to its effectiveness at protecting against blunt trauma. It&apos;s a bit cumbersome but the extra coverage can save one&quot;s life in heated engagements. -->
+            <description>Un casco de combate pesado con un escudo balístico montado. Las unidades de policía antidisturbios lo usan a menudo por su eficacia para proteger contra los traumatismos contundentes. Es algo engorroso, pero la cobertura extra puede salvar una vida en los combates más intensos.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VAE_Apparel_RiotArmor"]/description</xpath>
+          <value>
+            <!-- EN: A thick, armored jacket with numerous armor plates integrated into it. It&apos;s often used by urbworld entrance teams and ordnance experts as it protects well against shrapnel and the occasional stray bullet. -->
+            <description>Una chaqueta gruesa y blindada con numerosas placas de armadura integradas. La usan a menudo los equipos de asalto de los mundourbanos y los expertos en explosivos, porque protege bien contra las esquirlas y alguna que otra bala perdida.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

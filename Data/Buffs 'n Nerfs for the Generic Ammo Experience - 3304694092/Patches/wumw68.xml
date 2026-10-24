@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Laser</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserShotgun"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech scattergun capable of emitting a big beam of light, dealing considerable damage at short range. -->
+            <description>Una escopeta ultratecnológica capaz de emitir un gran rayo de luz que causa un daño considerable a corta distancia.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserShotgun"]/description</xpath>
+          <value>
+            <!-- EN: A salvaged scattergun capable of emitting a big beam of light, dealing considerable damage at short range. -->
+            <description>Una escopeta recuperada capaz de emitir un gran rayo de luz que causa un daño considerable a corta distancia.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWEL_Gun_LaserPistol"]/description</xpath>
+          <value>
+            <!-- EN: An ultratech pistol capable of emitting a concentrated beam of light with enough power to deal considerable damage at short range.\n\nThis weapon is very power efficient and can fire many shots before needing to be reloaded with a fresh charge pack. -->
+            <description>Una pistola ultratecnológica capaz de emitir un rayo de luz concentrado con suficiente potencia para causar un daño considerable a corta distancia.\n\nEsta arma aprovecha muy bien la energía y puede disparar muchas veces antes de tener que recargarla con un paquete de carga nuevo.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

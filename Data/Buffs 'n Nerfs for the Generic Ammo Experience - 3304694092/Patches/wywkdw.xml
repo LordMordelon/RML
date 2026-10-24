@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedDemolition"]/label</xpath>
+    <value>
+      <!-- EN: make charged demolition cell x20 -->
+      <label>fabricar célula de carga de demolición x20</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedDemolition"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 charged demolition cells. -->
+      <description>Fabrica 20 células de carga de demolición.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedDemolition"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged demolition cells. -->
+      <jobString>Fabricando células de carga de demolición.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle"]/label</xpath>
+    <value>
+      <!-- EN: make charged intermediate rifle cartridge x200 -->
+      <label>fabricar cartucho de carga para fusil intermedio x200</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged intermediate rifle cartridges. -->
+      <description>Fabrica 200 cartuchos de carga para fusil intermedio.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged intermediate rifle cartridges. -->
+      <jobString>Fabricando cartuchos de carga para fusil intermedio.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_AP"]/label</xpath>
+    <value>
+      <!-- EN: make charged intermediate rifle (Conc.) cartridge x200 -->
+      <label>fabricar cartucho de carga concentrada para fusil intermedio x200</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged intermediate rifle (Conc.) cartridges. -->
+      <description>Fabrica 200 cartuchos de carga concentrada para fusil intermedio.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged intermediate rifle (Conc.) cartridges. -->
+      <jobString>Fabricando cartuchos de carga concentrada para fusil intermedio.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_Ion"]/label</xpath>
+    <value>
+      <!-- EN: make charged intermediate rifle (Ion) cartridge x200 -->
+      <label>fabricar cartucho de carga iónica para fusil intermedio x200</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_Ion"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged intermediate rifle (Ion) cartridges. -->
+      <description>Fabrica 200 cartuchos de carga iónica para fusil intermedio.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedIntermediateRifle_Ion"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged intermediate rifle (Ion) cartridges. -->
+      <jobString>Fabricando cartuchos de carga iónica para fusil intermedio.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make incendiary fuel cell x20 -->
+      <label>fabricar célula de combustible incendiaria x20</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 incendiary fuel cells. -->
+      <description>Fabrica 20 células de combustible incendiarias.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making incendiary fuel cells. -->
+      <jobString>Fabricando células de combustible incendiarias.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Thermobaric"]/label</xpath>
+    <value>
+      <!-- EN: make thermobaric fuel cell x20 -->
+      <label>fabricar célula de combustible termobárica x20</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Thermobaric"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 thermobaric fuel cells. -->
+      <description>Fabrica 20 células de combustible termobáricas.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Fuel_Thermobaric"]/jobString</xpath>
+    <value>
+      <!-- EN: Making thermobaric fuel cells. -->
+      <jobString>Fabricando células de combustible termobáricas.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="SEX_MakeAmmo_LeadSlug"]/label</xpath>
+    <value>
+      <!-- EN: make lead slug x100 -->
+      <label>fabricar bala de plomo x100</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="SEX_MakeAmmo_LeadSlug"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 lead slugs using steel and any explosive compound. -->
+      <description>Fabrica 100 balas de plomo con acero y cualquier compuesto explosivo.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="SEX_MakeAmmo_LeadSlug"]/jobString</xpath>
+    <value>
+      <!-- EN: Making lead slugs. -->
+      <jobString>Fabricando balas de plomo.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEAT"]/label</xpath>
+    <value>
+      <!-- EN: make HEAT missile x1 -->
+      <label>fabricar misil (HEAT) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEAT"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 HEAT missile -->
+      <description>Fabrica un misil (HEAT).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEAT"]/jobString</xpath>
+    <value>
+      <!-- EN: Making HEAT missile. -->
+      <jobString>Fabricando misil (HEAT).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Thermobaric"]/label</xpath>
+    <value>
+      <!-- EN: make thermobaric missile x1 -->
+      <label>fabricar misil (termobárico) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Thermobaric"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 thermobaric missile. -->
+      <description>Fabrica un misil (termobárico).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Thermobaric"]/jobString</xpath>
+    <value>
+      <!-- EN: Making thermobaric missile. -->
+      <jobString>Fabricando misil (termobárico).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE"]/label</xpath>
+    <value>
+      <!-- EN: make HE missile x1 -->
+      <label>fabricar misil (HE) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 HE missiles. -->
+      <description>Fabrica un misil (HE).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making HE missile. -->
+      <jobString>Fabricando misil (HE).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE_TFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make time-fuzed missile x1 -->
+      <label>fabricar misil (HE de espoleta de tiempo) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE_TFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 time-fuzed missile. -->
+      <description>Fabrica un misil (HE de espoleta de tiempo).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HE_TFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a time-fuzed missile. -->
+      <jobString>Fabricando misil (HE de espoleta de tiempo).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEDP"]/label</xpath>
+    <value>
+      <!-- EN: make HEDP missile x1 -->
+      <label>fabricar misil (HEDP) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEDP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 HEDP missile. -->
+      <description>Fabrica un misil (HEDP).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_HEDP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a HEDP missile. -->
+      <jobString>Fabricando misil (HEDP).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Frag"]/label</xpath>
+    <value>
+      <!-- EN: make frag missile x1 -->
+      <label>fabricar misil (Frag) x5</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Frag"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 frag missile. -->
+      <description>Fabrica 5 misiles (Frag).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Frag"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a frag missile. -->
+      <jobString>Fabricando misiles (Frag).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_CAN"]/label</xpath>
+    <value>
+      <!-- EN: make canister missile x1 -->
+      <label>fabricar misil (CAN) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_CAN"]/description</xpath>
+    <value>
+      <!-- EN: Craft canister 1 missile. -->
+      <description>Fabrica un misil (CAN).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_CAN"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a canister missile. -->
+      <jobString>Fabricando misil (CAN).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make incendiary missile x1 -->
+      <label>fabricar misil (incendiario) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 incendiary missile. -->
+      <description>Fabrica un misil (incendiario).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making an incendiary missile. -->
+      <jobString>Fabricando misil (incendiario).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make EMP missile x1 -->
+      <label>fabricar misil (PEM) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 EMP missile. -->
+      <description>Fabrica un misil (PEM).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making EMP missiles. -->
+      <jobString>Fabricando misil (PEM).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Smoke"]/label</xpath>
+    <value>
+      <!-- EN: make smoke missile x1 -->
+      <label>fabricar misil (humo) x1</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Smoke"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 smoke missile -->
+      <description>Fabrica un misil (humo).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Missile_Smoke"]/jobString</xpath>
+    <value>
+      <!-- EN: Making smoke missiles. -->
+      <jobString>Fabricando misil (humo).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RailgunSabot"]/label</xpath>
+    <value>
+      <!-- EN: make railgun sabot x100 -->
+      <label>fabricar sabot de cañón de riel x100</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RailgunSabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 railgun sabots. -->
+      <description>Fabrica 100 sabots de cañón de riel.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RailgunSabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making railgun sabots. -->
+      <jobString>Fabricando sabots de cañón de riel.</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_HEAT"]/label</xpath>
+    <value>
+      <!-- EN: make (HEAT) rocket grenades x5 -->
+      <label>fabricar granada propulsada (HEAT) x5</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_HEAT"]/description</xpath>
+    <value>
+      <!-- EN: Craft 5 (HEAT) rocket grenades. -->
+      <description>Fabrica 5 granadas propulsadas (HEAT).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_HEAT"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (HEAT) rocket grenades. -->
+      <jobString>Fabricando granadas propulsadas (HEAT).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Thermobaric"]/label</xpath>
+    <value>
+      <!-- EN: make (Thermobaric) rocket grenades x5 -->
+      <label>fabricar granada propulsada (termobárica) x5</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Thermobaric"]/description</xpath>
+    <value>
+      <!-- EN: Craft 5 (Thermobaric) rocket grenades. -->
+      <description>Fabrica 5 granadas propulsadas (termobárica).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Thermobaric"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (Thermobaric) rocket grenades. -->
+      <jobString>Fabricando granadas propulsadas (termobárica).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Frag"]/label</xpath>
+    <value>
+      <!-- EN: make (Frag) rocket grenades x5 -->
+      <label>fabricar granada propulsada (Frag) x5</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Frag"]/description</xpath>
+    <value>
+      <!-- EN: Craft 5 (Frag) rocket grenades. -->
+      <description>Fabrica 5 granadas propulsadas (Frag).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_Frag"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (Frag) rocket grenades. -->
+      <jobString>Fabricando granadas propulsadas (Frag).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make (EMP) rocket grenades x5 -->
+      <label>fabricar granada propulsada (PEM) x5</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 5 (EMP) rocket grenades. -->
+      <description>Fabrica 5 granadas propulsadas (PEM).</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RocketGrenade_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (EMP) rocket grenade. -->
+      <jobString>Fabricando granadas propulsadas (PEM).</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Plasteel"]/label</xpath>
+    <value>
+      <!-- EN: make plasteel sling bullets x20 -->
+      <label>fabricar bala de honda de plastiacero x20</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Plasteel"]/description</xpath>
+    <value>
+      <!-- EN: Make 20 plasteel sling bullets. -->
+      <description>Fabrica 20 balas de honda de plastiacero.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Plasteel"]/jobString</xpath>
+    <value>
+      <!-- EN: Making plasteel sling bullets. -->
+      <jobString>Fabricando balas de honda de plastiacero.</jobString>
+    </value>
+  </Operation>
+</Patch>

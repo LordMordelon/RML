@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/description</xpath>
+          <value>
+            <!-- EN: A heavy leather breastplate meant to provide warmth and protection to heavy infantry during battles in frigid tundras. The bulky leather armor makes it harder to dodge attacks. -->
+            <description>Una pesada coraza de cuero pensada para dar abrigo y protección a la infantería pesada durante las batallas en las tundras heladas. Lo voluminoso de la armadura hace más difícil esquivar los ataques.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Turret_WallMountedArquebus"]/description</xpath>
+          <value>
+            <!-- EN: A stationary heavy arquebus mounted on a low castle wall to grant cover. This heavy mounted weapon is effective against decently armored targets. -->
+            <description>Un arcabuz pesado fijo, montado sobre un muro bajo de castillo que da cobertura. Esta arma pesada montada es eficaz contra blancos con un blindaje decente.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
