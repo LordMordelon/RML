@@ -217,9 +217,13 @@ namespace RmlVentana
                 DibujarAjustes(Tabla);
 
             float YPie = Area.yMax - AltoPie;
-            GUI.color = Gris;
-            Widgets.Label(new Rect(Area.x, YPie, Area.width, 24f), "RML_Ventana_NotaSobrescribe".Translate());
-            GUI.color = Color.white;
+            // La nota es de las traducciones de mods: en «Ajustes», que es de la oficial, no va.
+            if (Abierta != Pestana.Ajustes)
+            {
+                GUI.color = Gris;
+                Widgets.Label(new Rect(Area.x, YPie, Area.width, 24f), "RML_Ventana_NotaSobrescribe".Translate());
+                GUI.color = Color.white;
+            }
             YPie += 34f;
             Widgets.DrawLineHorizontal(Area.x, YPie, Area.width, Widgets.SeparatorLineColor);
             YPie += 13f;
