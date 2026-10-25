@@ -142,8 +142,13 @@ namespace RmlVentana
 
         public override void DoWindowContents(Rect inRect)
         {
+            // El titulo va arriba de las pestañas, como en los ajustes de Vanilla Expanded Framework.
+            Text.Font = GameFont.Medium;
+            Widgets.Label(new Rect(inRect.x, inRect.y, inRect.width - 40f, 34f), NombreDeRml);
+            Text.Font = GameFont.Small;
+
             Rect Marco = inRect;
-            Marco.yMin += TabDrawer.TabHeight;
+            Marco.yMin += 34f + 12f + TabDrawer.TabHeight;
             Widgets.DrawMenuSection(Marco);
             var Pestanas = new List<TabRecord>
             {
@@ -158,11 +163,6 @@ namespace RmlVentana
             Rect Area = Marco.ContractedBy(16f);
             float Y = Area.y;
 
-            Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(Area.x, Y, Area.width, 34f), NombreDeRml);
-            Y += 34f;
-
-            Text.Font = GameFont.Small;
             GUI.color = Gris;
             Widgets.Label(new Rect(Area.x, Y, Area.width, 24f),
                 Abierta == Pestana.Novedades ? ResumenNovedades : Abierta == Pestana.TusMods ? Resumen : "RML_Ventana_ResumenAjustes".Translate().ToString());
