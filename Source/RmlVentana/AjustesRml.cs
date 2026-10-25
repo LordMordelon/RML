@@ -22,10 +22,6 @@ namespace RmlVentana
         /** yyyy-MM-dd de la ultima vez que se cerro la ventana, para el «Cambios desde el…». */
         public string UltimaVez;
 
-        /** «Mostrar los cambios de cada traducción»: el boton «Ver cambios» de Novedades. Encendida por
-         *  defecto, tambien para quien ya tenia ajustes guardados. */
-        public bool VerCambios = true;
-
         /** «Revisar si hay arreglos de la traducción oficial» (PLAN-TRADUCCION-OFICIAL.md). Apagada, RML
          *  no le consulta nada a GitHub salvo con «Revisar ahora». */
         public bool RevisarOficial = true;
@@ -48,7 +44,6 @@ namespace RmlVentana
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref VerCambios, "verCambios", true);
             Scribe_Values.Look(ref RevisarOficial, "revisarOficial", true);
             Scribe_Values.Look(ref OficialSha, "oficialSha");
             Scribe_Values.Look(ref OficialFecha, "oficialFecha");

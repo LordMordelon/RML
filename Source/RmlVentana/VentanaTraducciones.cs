@@ -43,7 +43,10 @@ namespace RmlVentana
         private readonly List<Novedad> Pendientes;
         private readonly string ResumenNovedades;
         private readonly QuickSearchWidget Buscador = new QuickSearchWidget();
-        private bool EnNovedades = true;
+        private enum Pestana { Novedades, TusMods, Ajustes }
+        private Pestana Abierta = Pestana.Novedades;
+        private Vector2 DesplazamientoAjustes;
+        private float AltoAjustes;
         private Vector2 Desplazamiento;
         private Vector2 DesplazamientoNovedades;
         private bool NoVolverAMostrar;
@@ -144,9 +147,12 @@ namespace RmlVentana
             Widgets.DrawMenuSection(Marco);
             var Pestanas = new List<TabRecord>
             {
-                new TabRecord("RML_Ventana_PestanaNovedades".Translate(), () => EnNovedades = true, EnNovedades),
-                new TabRecord("RML_Ventana_PestanaTusMods".Translate(), () => EnNovedades = false, !EnNovedades),
+                new TabRecord("RML_Ventana_PestanaNovedades".Translate(), () => Abierta = Pestana.Novedades, Abierta == Pestana.Novedades),
+                new TabRecord("RML_Ventana_PestanaTusMods".Translate(), () => Abierta = Pestana.TusMods, Abierta == Pestana.TusMods),
             };
+            // En 1.6 no hay traduccion oficial que bajar, y la pestaña quedaria vacia.
+            if (OficialJuego.Disponible)
+                Pestanas.Add(new TabRecord("RML_Ventana_PestanaAjustes".Translate(), () => Abierta = Pestana.Ajustes, Abierta == Pestana.Ajustes));
             TabDrawer.DrawTabs(Marco, Pestanas);
 
             Rect Area = Marco.ContractedBy(16f);
@@ -158,16 +164,17 @@ namespace RmlVentana
 
             Text.Font = GameFont.Small;
             GUI.color = Gris;
-            Widgets.Label(new Rect(Area.x, Y, Area.width, 24f), EnNovedades ? ResumenNovedades : Resumen);
+            Widgets.Label(new Rect(Area.x, Y, Area.width, 24f),
+                Abierta == Pestana.Novedades ? ResumenNovedades : Abierta == Pestana.TusMods ? Resumen : "RML_Ventana_ResumenAjustes".Translate().ToString());
             GUI.color = Color.white;
             Y += 32f;
 
-            if (!EnNovedades)
+            if (Abierta == Pestana.TusMods)
             {
                 Buscador.OnGUI(new Rect(Area.x, Y, Area.width, QuickSearchWidget.WidgetHeight));
                 Y += QuickSearchWidget.WidgetHeight + 10f;
             }
-            else if (OficialJuego.Disponible && OficialJuego.Consulta != null && OficialJuego.Estado() == EstadoOficial.HayArreglos)
+            else if (Abierta == Pestana.Novedades && OficialJuego.Disponible && OficialJuego.Consulta != null && OficialJuego.Estado() == EstadoOficial.HayArreglos)
             {
                 DibujarAvisoOficial(new Rect(Area.x, Y, Area.width, 38f));
                 Y += 38f + 10f;
@@ -176,10 +183,12 @@ namespace RmlVentana
             // Pie: la nota, una linea y la fila de la casilla y el boton.
             const float AltoPie = 24f + 10f + 1f + 12f + 38f;
             Rect Tabla = new Rect(Area.x, Y, Area.width, Area.yMax - AltoPie - 10f - Y);
-            if (EnNovedades)
+            if (Abierta == Pestana.Novedades)
                 DibujarNovedades(Tabla);
-            else
+            else if (Abierta == Pestana.TusMods)
                 DibujarTabla(Tabla);
+            else
+                DibujarAjustes(Tabla);
 
             float YPie = Area.yMax - AltoPie;
             GUI.color = Gris;
@@ -248,7 +257,7 @@ namespace RmlVentana
                 Widgets.Label(Fecha, FechaLarga(Novedad.Fecha));
 
                 // Con la casilla de los ajustes apagada no hay boton, y Cambios.tsv no se lee nunca.
-                if (Ajustes.VerCambios && Novedad.TieneDetalle)
+                if (Novedad.TieneDetalle)
                 {
                     string Ver = "RML_Ventana_VerCambios".Translate();
                     float AnchoBoton = Text.CalcSize(Ver).x + 24f;
@@ -289,10 +298,140 @@ namespace RmlVentana
             Text.Anchor = TextAnchor.UpperLeft;
 
             if (Widgets.ButtonText(Boton, Ir))
+                Abierta = Pestana.Ajustes;
+        }
+
+        /** Para abrirla desde los ajustes de mods del juego. En 1.6 no hay pestaña de ajustes. */
+        public void AbrirEnAjustes() => Abierta = OficialJuego.Disponible ? Pestana.Ajustes : Pestana.Novedades;
+
+        /** La pestaña «Ajustes», en la misma caja que las tablas de las otras dos y con desplazamiento:
+         *  un error o el aviso de juego atrasado la pueden alargar. */
+        private void DibujarAjustes(Rect Tabla)
+        {
+            Widgets.DrawMenuSection(Tabla);
+            Rect Dentro = Tabla.ContractedBy(12f);
+            Rect Vista = new Rect(0f, 0f, Dentro.width - 16f, Mathf.Max(AltoAjustes, Dentro.height));
+            Widgets.BeginScrollView(Dentro, ref DesplazamientoAjustes, Vista);
+            var Lista = new Listing_Standard();
+            Lista.Begin(new Rect(0f, 0f, Vista.width, 100000f));
+            DibujarOficial(Lista);
+            AltoAjustes = Lista.CurHeight;
+            Lista.End();
+            Widgets.EndScrollView();
+            Text.Font = GameFont.Small;
+            GUI.color = Color.white;
+        }
+
+        /** La seccion de la traduccion oficial (PLAN-TRADUCCION-OFICIAL.md): la casilla, una linea con
+         *  el estado y los botones que corresponden a ese estado. */
+        private static void DibujarOficial(Listing_Standard Lista)
+        {
+            Text.Font = GameFont.Medium;
+            Lista.Label("RML_Oficial_Titulo".Translate());
+            Text.Font = GameFont.Small;
+            GUI.color = new Color(0.66f, 0.69f, 0.72f);
+            Lista.Label("RML_Oficial_Explicacion".Translate());
+            GUI.color = Color.white;
+            Lista.Gap(6f);
+
+            bool Antes = Ajustes.RevisarOficial;
+            Lista.CheckboxLabeled("RML_Oficial_Revisar".Translate(), ref Ajustes.RevisarOficial, "RML_Oficial_RevisarAyuda".Translate());
+            if (Ajustes.RevisarOficial && !Antes)
+                OficialJuego.Consultar();
+
+            EstadoOficial Estado = OficialJuego.Estado();
+            ConsultaOficial GitHub = OficialJuego.Consulta;
+            string Fecha = GitHub == null ? "" : VentanaTraducciones.FechaLarga(GitHub.Fecha.ToString("yyyy-MM-dd"));
+            string Texto;
+            var Botones = new List<(string Texto, Action Accion)>();
+
+            if (OficialJuego.EstaConsultando)
+                Texto = "RML_Oficial_Consultando".Translate();
+            else
+                switch (Estado)
+                {
+                    case EstadoOficial.FaltaReiniciar:
+                        Texto = (Ajustes.OficialReiniciar == "deshacer" ? "RML_Oficial_ReiniciarDeshacer" : "RML_Oficial_Reiniciar").Translate();
+                        Botones.Add(("RML_Oficial_ReiniciarAhora".Translate(), GenCommandLine.Restart));
+                        break;
+                    case EstadoOficial.SinUsar:
+                        Texto = "RML_Oficial_SinUsar".Translate();
+                        if (OficialJuego.GitHubEsMasNuevoQueElTar)
+                            Botones.Add(("RML_Oficial_ActualizarDeNuevo".Translate(), OficialJuego.Instalar));
+                        break;
+                    case EstadoOficial.OtraVersion:
+                        Texto = "RML_Oficial_OtraVersion".Translate(GitHub.Version ?? "?", OficialJuego.VersionDelJuego);
+                        break;
+                    case EstadoOficial.HayArreglos:
+                        Texto = "RML_Oficial_HayArreglos".Translate(VentanaTraducciones.FechaLarga(OficialJuego.FechaDeLosArreglos.ToString("yyyy-MM-dd")));
+                        Botones.Add(("RML_Oficial_Actualizar".Translate(), OficialJuego.Instalar));
+                        break;
+                    case EstadoOficial.AlDia:
+                        Texto = "RML_Oficial_AlDia".Translate(Fecha);
+                        break;
+                    default:
+                        if (OficialJuego.FalloLaConsulta)
+                        {
+                            Texto = "RML_Oficial_SinRespuesta".Translate();
+                            Botones.Add(("RML_Oficial_Reintentar".Translate(), OficialJuego.Consultar));
+                        }
+                        else if (!Ajustes.RevisarOficial)
+                        {
+                            Texto = "RML_Oficial_Apagada".Translate();
+                            Botones.Add(("RML_Oficial_RevisarAhora".Translate(), OficialJuego.Consultar));
+                        }
+                        else
+                        {
+                            // Con la casilla encendida la consulta sale al iniciar; esto es por si no salio.
+                            OficialJuego.Consultar();
+                            Texto = "RML_Oficial_Consultando".Translate();
+                        }
+                        break;
+                }
+
+            if (OficialJuego.HayAlgoInstalado)
+                Botones.Add(((Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer));
+
+            Lista.Label(Texto);
+
+            // Una linea por parte: un DLC copiado de otra instalacion puede estar atrasado aunque el
+            // juego base este al dia.
+            if (!OficialJuego.EstaConsultando && GitHub != null && Estado != EstadoOficial.FaltaReiniciar && Estado != EstadoOficial.OtraVersion)
             {
-                Close();
-                Find.WindowStack.Add(new Dialog_ModSettings(RmlVentanaMod.Instancia));
+                GUI.color = new Color(0.66f, 0.69f, 0.72f);
+                foreach (ParteOficial Parte in OficialJuego.Partes())
+                {
+                    // La sangria va aca: el juego recorta los espacios del principio de un texto Keyed.
+                    const string Sangria = "    ";
+                    string Nombre = Parte.Carpeta == "Core" ? "RimWorld" : Parte.Carpeta;
+                    if (Parte.Estado == EstadoOficial.HayArreglos)
+                        Lista.Label(Sangria + "RML_Oficial_ParteArreglos".Translate(Nombre, VentanaTraducciones.FechaLarga(Parte.GitHub.Value.ToString("yyyy-MM-dd"))));
+                    else if (Parte.Estado == EstadoOficial.SinUsar)
+                        Lista.Label(Sangria + "RML_Oficial_ParteSinUsar".Translate(Nombre));
+                    else if (Parte.Estado == EstadoOficial.AlDia)
+                        Lista.Label(Sangria + "RML_Oficial_ParteAlDia".Translate(Nombre));
+                }
+                GUI.color = Color.white;
             }
+
+            // Aproximado (TraduccionOficial.JuegoAtrasado): sirve a quien baja las actualizaciones a mano.
+            if (GitHub != null && TraduccionOficial.JuegoAtrasado(RimWorld.VersionControl.CurrentVersion, GitHub.VersionCompleta))
+            {
+                GUI.color = new Color(0.95f, 0.8f, 0.45f);
+                Lista.Label("RML_Oficial_JuegoAtrasado".Translate(RimWorld.VersionControl.CurrentVersion.ToString(3), GitHub.VersionCompleta.ToString()));
+                GUI.color = Color.white;
+            }
+
+            if (OficialJuego.Error != null)
+            {
+                GUI.color = new Color(1f, 0.55f, 0.5f);
+                Lista.Label(OficialJuego.Error);
+                GUI.color = Color.white;
+            }
+            Lista.Gap(6f);
+            foreach (var Boton in Botones)
+                if (Lista.ButtonText(Boton.Texto, widthPct: 0.4f))
+                    Boton.Accion();
         }
 
         private static void AbrirCambios(Novedad Novedad)

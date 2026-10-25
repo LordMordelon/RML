@@ -139,9 +139,8 @@ ver los textos, al menos de los corregidos y actualizados, y eligió:
 - **Colores, como el diff de VS Code:** «Antes» en rojo y «Ahora» en verde, con un fondo suave del mismo
   color detrás de cada uno. Un texto nuevo solo tiene la línea verde; uno quitado, solo la roja. El inglés
   va en gris. Los dos colores tienen que leerse bien sobre el fondo oscuro de la ventana del juego.
-- **Se puede apagar:** una casilla en los ajustes del mod (Opciones → Configuración de mods → «Traducciones [Español Latino]»),
-  «Mostrar los cambios de cada traducción», encendida por defecto. Apagada, no aparece el botón y el
-  archivo de cambios no se lee nunca.
+- **Ya no se puede apagar:** tenía una casilla en los ajustes del mod, «Mostrar los cambios de cada
+  traducción», que Angel pidió sacar el 25-oct-2026 (ver «Los ajustes, como pestaña»).
 - **Rendimiento:** aun encendida, no pesa al cargar el juego. El archivo se lee recién al apretar «Ver
   cambios», y solo la parte de ese mod; la ventana dibuja solo los renglones que están a la vista, como
   ya hace la pestaña «Novedades».
@@ -185,14 +184,12 @@ mod real cambiado (por ejemplo, uno de los que la columna marca hoy).
   palabra (subsecuencia común más larga; arriba de un millón de celdas marca el texto entero) y une los
   espacios entre dos palabras cambiadas. La ventana corta los renglones ella misma, dibuja cada uno
   entero y mide el resalte sobre el renglón hasta esa palabra, sin el margen que el juego suma a cada
-  medida. Las etiquetas `<color>`, `<b>`, `<i>` y `<size>` se sacan antes: partidas se verían tal cual. La casilla es
-  `AjustesRml.VerCambios` («verCambios», encendida por defecto).
+  medida. Las etiquetas `<color>`, `<b>`, `<i>` y `<size>` se sacan antes: partidas se verían tal cual.
 - **Con los datos de hoy:** 7 mods con detalle, 108 textos, 41 KB; armar la copia tarda unos 13 s. El
   resumen dice «cambiados» y no «corregidos», porque también aparece en las filas «Actualizado».
 
 **Falta (Angel):** con el juego cerrado, rearmar la copia (`02-armar-copia-limpia.cmd`), abrir el juego y
-mirar «Ver cambios» en un mod, por ejemplo The Dead Man's Switch. Y probar que con la casilla apagada el
-botón desaparece.
+mirar «Ver cambios» en un mod, por ejemplo The Dead Man's Switch.
 
 ## «Ver cambios» más claro (aprobado por Angel el 25-oct-2026, hecho el mismo día)
 
@@ -214,6 +211,22 @@ del mod había agregado «provides limited rebreathing and».
 
 Pruebas primero en `RmlVentana.Tests` (lectura con y sin la sexta columna, cuándo va un bloque o dos) y
 en `LoadFoldersBuilder.Tests` (la columna nueva en `Cambios.tsv`).
+
+Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, muestra lo de la última
+actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace
+aparecer la ventana sola.
+
+## Los ajustes, como pestaña (pedido por Angel el 25-oct-2026, hecho)
+
+Los ajustes del mod eran una pantalla aparte (Opciones → Configuración de mods). Ahora son la tercera
+pestaña de la ventana, «Ajustes», con la sección de la traducción oficial (`VentanaTraducciones.DibujarOficial`).
+Desde la configuración de mods del juego se abre la ventana en esa pestaña y se cierra la pantalla del
+juego, que quedaría vacía detrás. En 1.6 no hay traducción oficial que bajar, así que no hay pestaña y la
+ventana abre en «Novedades».
+
+Se sacaron dos opciones: «Mostrar la ventana al iniciar», que repetía la casilla «No volver a mostrar»
+del pie, y «Mostrar los cambios de cada traducción»: «Ver cambios» sale siempre que hay detalle. El
+aviso de arreglos de «Novedades» lleva a la pestaña en vez de abrir otra pantalla.
 
 ## Cómo se prueba
 

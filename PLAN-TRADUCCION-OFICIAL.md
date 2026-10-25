@@ -80,9 +80,10 @@ Pedido de Angel al aprobar: una actualización de la traducción oficial sale en
 
 ## Lo que decidió Angel (25-oct-2026)
 
-1. **El botón va en los ajustes de RML** (Opciones → Ajustes de mods → Traducciones [Español Latino]),
-   donde ya está el botón para abrir la ventana. Si hay arreglos nuevos, una línea en «Novedades»
-   lleva a los ajustes, sin abrir una ventana nueva.
+1. **El botón va en los ajustes de RML**, que desde el 25-oct-2026 son la pestaña «Ajustes» de la
+   ventana (PLAN-VENTANA.md, «Los ajustes, como pestaña»); Opciones → Ajustes de mods → Traducciones
+   [Español Latino] abre la ventana en esa pestaña. Si hay arreglos nuevos, una línea en «Novedades»
+   lleva a la pestaña.
 2. **Sin castellano.** Ludeon tiene otro repositorio igual para `Spanish (Español(Castellano))`, pero
    RML es para el español latinoamericano.
 3. **El `.tar` se renombra**, no se borra.
