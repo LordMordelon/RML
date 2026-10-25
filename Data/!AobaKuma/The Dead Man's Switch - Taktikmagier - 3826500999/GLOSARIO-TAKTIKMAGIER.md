@@ -66,9 +66,29 @@ Alternativa: «mago táctico», «mago adepto», «mago veterano».
 | left / right fist, head | **puño izquierdo** / **derecho**, **cabeza** | RML | `tools` |
 | barrel / stock | **cañón** / **culata** | CE | Partes de armas |
 
+Fijados al traducir (25-oct-2026):
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| psychic focus (del Konzentrat) | **psicofoco** | oficial | Es el *psyfocus* del juego. En «puntería firme» es la concentración en general: «concentración psíquica» |
+| caster | **psicoemisor** | oficial | La oficial no usa «lanzador»; `{CASTER_labelShort}` queda tal cual |
+| Colonization Fleet | **Flota Colonial** | familia | Es la misma flota que la *Colonial Fleet* de DMS |
+| Mage Tower | **Torre de los Magos** | propuesta | |
+| Militärmagier, Feldhandbuch, Anima Prime | sin traducir | propuesta | Nombres en alemán, como «magier» |
+| gun-fighting | **«pelea a tiros»** | propuesta | Así llaman los magiers al desenfunde rápido |
+| stamped component | **componente estampado** | familia | Como la receta de DMS |
+| tungsteel | **tungstanio** | familia | `GLOSARIO-DMS.md` |
+| thrumbo / thrumbo horn | **trumbo** / **cuerno de trumbo** | oficial | |
+| rimworlds | **mundos fronterizos** | oficial | |
+| cloaked enemy magier | **magier enemigo que se ocultaba** | propuesta | «que se ocultaba» no lleva género; «un/una» va con `{PAWN_gender ? un : una}` |
+
 ## Trasfondos
 
 14 trasfondos con título corto en mayúscula inicial (*Assault Engineer*, *Bloodline Ward*, *Breach
 Magier*). Van como los oficiales: título en minúscula salvo nombre propio («ingeniero de asalto»,
-«custodio de linaje», «magier de brecha»), y la descripción con `{PAWN_gender ? o : a}` donde haga falta
+«pupilo de linaje», «magier de brecha»), y la descripción con `{PAWN_gender ? o : a}` donde haga falta
 el género.
+
+*Bloodline Ward* es «pupilo de linaje», no «custodio de linaje», que decía la propuesta: el trasfondo
+cuenta de un niño criado a costa de la Torre de los Magos, o sea a cargo de otros, que es el «pupilo»
+de la oficial. La habilidad *ward* sigue siendo «custodia», porque ahí es un escudo.

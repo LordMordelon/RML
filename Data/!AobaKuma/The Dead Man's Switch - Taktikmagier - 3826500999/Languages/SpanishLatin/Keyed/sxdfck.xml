@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: Must target {0} to assemble a construct. -->
-  <DMST_ConstructNeedsCost>TODO</DMST_ConstructNeedsCost>
+  <DMST_ConstructNeedsCost>Hay que apuntar a {0} para ensamblar un constructo.</DMST_ConstructNeedsCost>
   <!-- EN: Requires {0} to be worn. -->
-  <DMST_CamouflageNeedsApparel>TODO</DMST_CamouflageNeedsApparel>
+  <DMST_CamouflageNeedsApparel>Hay que llevar puesto: {0}.</DMST_CamouflageNeedsApparel>
   <!-- EN: Not enough neural heat capacity: this construct would occupy {0}. -->
-  <DMST_ConstructNoCapacity>TODO</DMST_ConstructNoCapacity>
+  <DMST_ConstructNoCapacity>No hay suficiente capacidad de calor neural: este constructo ocuparía {0}.</DMST_ConstructNoCapacity>
   <!-- EN: Break link -->
-  <DMST_BreakLink>TODO</DMST_BreakLink>
+  <DMST_BreakLink>Romper el vínculo</DMST_BreakLink>
   <!-- EN: Release this construct. {CASTER_labelShort} gets back the neural heat capacity it occupies. -->
-  <DMST_BreakLinkDesc>TODO</DMST_BreakLinkDesc>
+  <DMST_BreakLinkDesc>Libera este constructo. {CASTER_labelShort} recupera la capacidad de calor neural que ocupa.</DMST_BreakLinkDesc>
   <!-- EN: Sustained constructs -->
-  <DMST_SustainedConstructsStat>TODO</DMST_SustainedConstructsStat>
+  <DMST_SustainedConstructsStat>Constructos sostenidos</DMST_SustainedConstructsStat>
   <!-- EN: Psychic lift -->
-  <DMST_PsychicLiftStat>TODO</DMST_PsychicLiftStat>
+  <DMST_PsychicLiftStat>Levitación psíquica</DMST_PsychicLiftStat>
   <!-- EN: only a psycaster (a psylink and psychic sensitivity) can wield it -->
-  <DMST_PsychicLiftCannotEquip>TODO</DMST_PsychicLiftCannotEquip>
+  <DMST_PsychicLiftCannotEquip>solo un psicoemisor (con psicoenlace y sensibilidad psíquica) puede empuñarla</DMST_PsychicLiftCannotEquip>
   <!-- EN: {PAWN_labelShort} is not psychically sensitive. -->
-  <DMST_TargetPsychicallyDeaf>TODO</DMST_TargetPsychicallyDeaf>
+  <DMST_TargetPsychicallyDeaf>{PAWN_labelShort} no es psíquicamente sensible.</DMST_TargetPsychicallyDeaf>
   <!-- EN: There is nothing there to repair. -->
-  <DMST_NothingToRepair>TODO</DMST_NothingToRepair>
+  <DMST_NothingToRepair>Ahí no hay nada que reparar.</DMST_NothingToRepair>
   <!-- EN: {PAWN_labelShort} has learned {SPELL} from a field manual. -->
-  <DMST_ManualLearned>TODO</DMST_ManualLearned>
+  <DMST_ManualLearned>{PAWN_labelShort} aprendió {SPELL} de un manual de campo.</DMST_ManualLearned>
   <!-- EN: Teaches {SPELL} (psylink level {LEVEL} needed). About {HOURS} hours of reading. -->
-  <DMST_ManualTeaches>TODO</DMST_ManualTeaches>
+  <DMST_ManualTeaches>Enseña {SPELL} (se necesita nivel de psicoenlace {LEVEL}). Unas {HOURS} horas de lectura.</DMST_ManualTeaches>
   <!-- EN: {PAWN_labelShort}&apos;s magier sigil folded space and carried {PAWN_objective} back to the colony. -->
-  <DMST_SigilRecalled>TODO</DMST_SigilRecalled>
+  <DMST_SigilRecalled>El sello de magier de {PAWN_labelShort} plegó el espacio y l{PAWN_gender ? o : a} llevó de vuelta a la colonia.</DMST_SigilRecalled>
   <!-- EN: {PAWN_labelShort} vanished: a magier sigil folded space around {PAWN_objective}. -->
-  <DMST_SigilEscaped>TODO</DMST_SigilEscaped>
+  <DMST_SigilEscaped>{PAWN_labelShort} desapareció: un sello de magier plegó el espacio a su alrededor.</DMST_SigilEscaped>
   <!-- EN: {PAWN_labelShort}&apos;s magier sigil carried {PAWN_possessive} body back to the colony. -->
-  <DMST_SigilCorpseRecalled>TODO</DMST_SigilCorpseRecalled>
+  <DMST_SigilCorpseRecalled>El sello de magier de {PAWN_labelShort} llevó su cuerpo de vuelta a la colonia.</DMST_SigilCorpseRecalled>
   <!-- EN: Magier revealed -->
-  <DMST_MagierRevealedLabel>TODO</DMST_MagierRevealedLabel>
+  <DMST_MagierRevealedLabel>Magier al descubierto</DMST_MagierRevealedLabel>
   <!-- EN: {PAWN_labelShort}, a cloaked enemy magier, has appeared out of thin air! -->
-  <DMST_MagierRevealedDesc>TODO</DMST_MagierRevealedDesc>
+  <DMST_MagierRevealedDesc>¡{PAWN_labelShort}, {PAWN_gender ? un : una} magier enemig{PAWN_gender ? o : a} que se ocultaba, apareció de la nada!</DMST_MagierRevealedDesc>
   <!-- EN: A cloaked magier has appeared: {PAWN_labelShort}. -->
-  <DMST_MagierRevealedMessage>TODO</DMST_MagierRevealedMessage>
+  <DMST_MagierRevealedMessage>Apareció {PAWN_gender ? un : una} magier que se ocultaba: {PAWN_labelShort}.</DMST_MagierRevealedMessage>
   <!-- EN: {PAWN_labelShort}&apos;s neural heat is too high to hold the psychic camouflage. It stays down until the heat falls below {1}. -->
-  <DMST_CamouflageOverheated>TODO</DMST_CamouflageOverheated>
+  <DMST_CamouflageOverheated>El calor neural de {PAWN_labelShort} es demasiado alto para mantener el camuflaje psíquico. Seguirá desactivado hasta que el calor baje de {1}.</DMST_CamouflageOverheated>
   <!-- EN: Overheated: the camouflage stays down until neural heat falls below {0} of the limit. -->
-  <DMST_CamouflageOverheatedDesc>TODO</DMST_CamouflageOverheatedDesc>
+  <DMST_CamouflageOverheatedDesc>Sobrecalentado: el camuflaje sigue desactivado hasta que el calor neural baje del {0} del límite.</DMST_CamouflageOverheatedDesc>
   <!-- EN: Other clothing on the torso makes hiding build up {0} neural heat per second. The camouflage fails at {1} of the limit. -->
-  <DMST_CamouflageHeatDesc>TODO</DMST_CamouflageHeatDesc>
+  <DMST_CamouflageHeatDesc>Con otra ropa en el torso, ocultarse acumula {0} de calor neural por segundo. El camuflaje falla al {1} del límite.</DMST_CamouflageHeatDesc>
 </LanguageData>
