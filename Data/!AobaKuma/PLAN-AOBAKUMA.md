@@ -358,35 +358,42 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
 - **El extractor**: la condición de CE (punto 1) y el cruce de `Patches` que cambia de posición a clase
   (punto 2).
 
-## Próxima sesión (25-oct-2026, segunda)
+## Próxima sesión (25-oct-2026, tercera)
 
-**Objetivo:** paso 3 del orden de trabajo: Taktikmagier, a mano.
+**Objetivo:** paso 4 del orden de trabajo: Fortification Industrial - Citadel, a mano.
 
-**Estado:** pasos 1 y 2 terminados el 25-oct-2026: Hemogen Pack (`ac44cde3`), los 3 de MobileDragoon
-(`f5f38247`), las 122 de AncientCorps (`b0d1f599`, glosario al día) y sus tres arreglos (`31788ae9`,
-`ef08f5d0`, `0c5aabff`). Las tres comprobaciones del diff salieron vacías y `-build` pasó sin avisos.
-`master` de RML tiene 14 commits sin subir, este plan incluido. Generados (`About.xml`, `LoadFolders.xml`,
-`ModList.tsv`, `docs/index.html`) sin commitear, como siempre.
+**Estado:** pasos 1 a 3 terminados el 25-oct-2026. Taktikmagier quedó entero en `5fc83719` (182
+entradas, con su glosario al día); antes, Hemogen Pack, MobileDragoon y AncientCorps. Las tres
+comprobaciones del diff salieron vacías y `-build` pasó. `master` de RML tiene 17 commits sin subir, esta nota incluida. Los
+generados (`About.xml`, `LoadFolders.xml`, `ModList.tsv`, `docs/index.html`) quedan sin commitear, como
+siempre.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, probar en el juego AncientCorps: una misión de instalación, el nivel DEFCON en pantalla y un
-   saray ensamblando. Y Hemogen Pack: el botón «Administrar…» sobre un colono con hemorragia.
+2. Cerrar el juego y volver a armar la copia (`02-armar-copia-limpia.cmd`): `-build` no pudo
+   reemplazar `RmlVentana.dll` porque estaba abierta. Las traducciones sí quedaron copiadas.
+3. Si puedes, probar Taktikmagier en el juego: un magier con sus habilidades (destello, custodia,
+   constructo gárgola), la escoba en manos de un psicoemisor y un manual de campo. Y lo de antes:
+   AncientCorps (misión de instalación, DEFCON, saray) y Hemogen Pack («Administrar…»).
 
 **Al empezar (Claude):**
-1. Taktikmagier: 182 entradas (179 en `Languages`, 3 en `Patches`), con `GLOSARIO-TAKTIKMAGIER.md` y las
-   psicoemisiones de la oficial («Reglas comunes»). A mano, con Edit. Su sección de «Cada mod» dice qué hay.
+1. Citadel: 272 entradas en 14 archivos, contadas el 25-oct. La mayor es `ThingDef/yy4tsw.xml` (181);
+   las 51 de investigación están en 5 archivos de `ResearchProjectDef` (43 son reglas de bloques
+   `rulesStrings`). A mano, con Edit, con `GLOSARIO-CITADEL.md`. Su sección de «Cada mod» dice qué hay.
 2. Las tres comprobaciones del diff, que el XML siga bien formado, `LoadFoldersBuilder -build` y
    preguntarle a Angel si sube.
 
-Cabe en una sesión. La siguiente es Citadel (272, a mano).
+Cabe en una sesión, justa: son 1.874 palabras solo en `ThingDef`. La siguiente es Expedition (1.295,
+tabla y script, 5 sesiones).
 
-**Decisiones de Angel:** ninguna pendiente. Recomiendo subir lo de hoy antes de seguir: son cinco mods
-terminados.
+**Decisiones de Angel:** ninguna que frene el trabajo. Una para revisar cuando puedas: en Taktikmagier
+puse «pupilo de linaje» para *Bloodline Ward* en vez de «custodio de linaje», que era la propuesta
+aceptada, porque el trasfondo es de un niño criado a cargo de otros (ver `GLOSARIO-TAKTIKMAGIER.md`).
+Recomiendo dejarlo así.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan («Reglas comunes», la sección de Taktikmagier), `GLOSARIO-TAKTIKMAGIER.md`,
+**Dónde leer:** este plan («Reglas comunes», la sección de Citadel), `GLOSARIO-CITADEL.md`,
 `ARMAS-DMS.md` y `herramientas-traduccion/oficial/` para buscar en la traducción oficial.
