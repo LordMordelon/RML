@@ -139,6 +139,22 @@ namespace RmlVentana.Logica
             return Resultado;
         }
 
+        /** Lo que muestra la pestaña: lo no visto y, si ya se vio todo, lo de la ultima actualizacion
+         *  de RML (o de los ultimos dias), con YaVistas en true. Al cerrar la ventana todo queda visto, y
+         *  sin esto al volver a abrirla desde los ajustes la lista salia vacia y no habia como volver a
+         *  «Ver cambios». */
+        public static List<Novedad> ParaMostrar(List<EntradaDeNovedades> Entradas, ICollection<string> Vistas, DateTime Hoy, out bool YaVistas)
+        {
+            var SinVer = Pendientes(Entradas, Vistas, Hoy);
+            YaVistas = false;
+            if (SinVer.Count > 0 || Vistas == null)
+                return SinVer;
+
+            var Ultimas = Pendientes(Entradas, null, Hoy);
+            YaVistas = Ultimas.Count > 0;
+            return Ultimas;
+        }
+
         /** Lo que se guarda al cerrar la ventana: cada cambio que ya se mostro. */
         public static List<string> Claves(List<EntradaDeNovedades> Entradas)
         {

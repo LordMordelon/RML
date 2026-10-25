@@ -108,6 +108,30 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void ConTodoVistoSigueSaliendoLaUltimaActualizacion()
+        {
+            // Angel cerro la ventana y la volvio a abrir desde los ajustes: no tiene que quedar vacia.
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+
+            var Lista = NovedadesRml.ParaMostrar(Leidas, NovedadesRml.Claves(Leidas), Hoy, out bool YaVistas);
+
+            Assert.IsTrue(YaVistas);
+            CollectionAssert.AreEqual(new[] { "autor.nuevo", "autor.actualizado" }, Lista.Select(x => x.PackageId).ToList());
+        }
+
+        [TestMethod]
+        public void ConAlgoSinVerSaleSoloLoSinVer()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+            var Vistas = NovedadesRml.Claves(Leidas.Where(x => x.PackageId != "autor.corregido").ToList());
+
+            var Lista = NovedadesRml.ParaMostrar(Leidas, Vistas, Hoy, out bool YaVistas);
+
+            Assert.IsFalse(YaVistas);
+            CollectionAssert.AreEqual(new[] { "autor.corregido" }, Lista.Select(x => x.PackageId).ToList());
+        }
+
+        [TestMethod]
         public void SinLaSextaColumnaVuelveALos30Dias()
         {
             Assert.IsFalse(NovedadesRml.PorUltimaActualizacion(Entradas));

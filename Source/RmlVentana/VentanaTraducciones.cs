@@ -73,7 +73,9 @@ namespace RmlVentana
                 // la pestaña queda vacia y la ventana funciona igual.
                 string Archivo = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Novedades.tsv");
                 var Entradas = NovedadesRml.Leer(System.IO.File.Exists(Archivo) ? System.IO.File.ReadAllText(Archivo) : null);
-                var Pendientes = NovedadesRml.Pendientes(Entradas, Ajustes.NovedadesVistas, DateTime.Today);
+                var Pendientes = NovedadesRml.ParaMostrar(Entradas, Ajustes.NovedadesVistas, DateTime.Today, out bool YaVistas);
+                // Lo ya visto se muestra igual, pero no hace aparecer la ventana sola.
+                bool HayNuevas = Pendientes.Count > 0 && !YaVistas;
 
                 // La traduccion oficial va arriba, y recien despues de reiniciar: antes no hizo efecto.
                 if (Ajustes.OficialReiniciar == null)
@@ -83,8 +85,8 @@ namespace RmlVentana
 
                 Novedades = Clasificador.DebeAparecerSola(Ajustes.NoVolverAMostrar,
                     Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas,
-                    HayNovedades: Pendientes.Count > 0);
-                return new VentanaTraducciones(Filas, Entradas, Pendientes);
+                    HayNovedades: HayNuevas || Pendientes.Any(x => x.Oficial));
+                return new VentanaTraducciones(Filas, Entradas, Pendientes, YaVistas);
             }
             catch (Exception e)
             {
@@ -93,12 +95,16 @@ namespace RmlVentana
             }
         }
 
-        private VentanaTraducciones(List<Fila> Filas, List<EntradaDeNovedades> Entradas, List<Novedad> Pendientes)
+        private VentanaTraducciones(List<Fila> Filas, List<EntradaDeNovedades> Entradas, List<Novedad> Pendientes, bool YaVistas)
         {
             this.Filas = Filas;
             this.Entradas = Entradas;
             this.Pendientes = Pendientes;
-            ResumenNovedades = Ajustes.UltimaVez != null
+            ResumenNovedades = YaVistas
+                ? (NovedadesRml.PorUltimaActualizacion(Entradas)
+                    ? "RML_Ventana_ResumenNovedadesVistasUltima".Translate().ToString()
+                    : "RML_Ventana_ResumenNovedadesVistasDias".Translate(NovedadesRml.DiasLaPrimeraVez).ToString())
+                : Ajustes.UltimaVez != null
                 ? "RML_Ventana_ResumenNovedades".Translate(FechaLarga(Ajustes.UltimaVez)).ToString()
                 : NovedadesRml.PorUltimaActualizacion(Entradas)
                     ? "RML_Ventana_ResumenNovedadesUltima".Translate().ToString()
