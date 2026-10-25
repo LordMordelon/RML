@@ -8,6 +8,7 @@ Lo pidió Angel el 23-oct-2026: una ventana que, al iniciar el juego, muestre qu
 - **La ven todos** los jugadores de RML, con una casilla «No volver a mostrar» y una opción en los ajustes
   del mod para volver a activarla o abrirla a mano.
 - **Aparece sola solo si hay novedades**: un mod activo que no estaba la última vez, o cambios nuevos en RML.
+  Cambió el 25-oct: solo cambios nuevos en mods activos (ver «Cuándo aparece sola, de nuevo»).
 - **Y solo si el juego está en español latinoamericano.** Si el idioma activo es otro (inglés, castellano
   u otro), la ventana no aparece sola: RML no le cambia nada a ese jugador, así que no tiene sentido
   avisarle. Se mira el idioma activo del juego (`LanguageDatabase.activeLanguage`) al llegar al menú
@@ -270,6 +271,29 @@ Se sacaron dos opciones: «Mostrar la ventana al iniciar», que repetía la casi
 del pie, y «Mostrar los cambios de cada traducción»: «Ver cambios» sale siempre que hay detalle. El
 aviso de arreglos de «Novedades» lleva a la pestaña en vez de abrir otra pantalla.
 
+## Cuándo aparece sola, de nuevo (decidido por Angel el 25-oct-2026)
+
+Angel activó un mod, el juego se reinició y la ventana apareció con «Novedades» vacía: «No hay cambios en
+RML». La abría el mod nuevo de la lista (la regla del 24-oct), que solo se marca en «Tus mods». Lo mismo
+pasaba al cargar la lista de mods de una partida o al volver a activar un mod.
+
+Ahora aparece sola solo si el juego está en español latinoamericano, no se marcó «No volver a mostrar» y
+«Novedades» tiene algo para mostrar (`Clasificador.DebeAparecerSola`):
+
+- **Un cambio sin ver de RML en un mod activo.** La primera vez, eso es la última actualización de RML; si
+  no trajo cambios, no aparece. Un cambio en un mod que no está activo sale en la tabla, pero no la abre.
+  «Activo» va por la carpeta de RML que el juego carga, con todos sus packageId
+  (`LecturaDelJuego.ConSuModActivo`): Combat Extended trae dos y `Novedades.tsv` lo nombra por uno.
+- **La traducción oficial**, recién instalada o deshecha, después de reiniciar.
+
+No aparece por un mod nuevo en la lista, por lo ya visto, ni al volver al menú desde una partida (la
+revisión corre una sola vez, al terminar de cargar). Si se cierra el juego con la ventana abierta, vuelve a
+salir en el siguiente inicio: no se alcanzó a ver.
+
+Al volver a abrirla a mano con todo visto, la pestaña salía vacía si lo mostrado venía del PC
+(`CambiosLocales`) en un mod sin tipo en `Novedades.tsv`, porque se añadió y se corrigió el mismo día
+(Alpha Prefabs). Ahora lo mostrado se vuelve a armar tal cual (`NovedadesRml.DeNuevo`).
+
 ## Cómo se prueba
 
 - Etapa 1: que `LoadFoldersBuilder -rutas` y `-build` sigan en verde y que la copia de `output/` tenga la
@@ -359,7 +383,8 @@ muestra **solo lo de la última actualización de RML**; después, todo lo que e
   va la columna y el juego muestra los últimos 30 días. Hoy marca 7 mods (con 30 días eran 116).
 - **Cuándo aparece sola (Angel, 24-oct):** la primera vez, solo si la última actualización de RML trajo
   cambios; si no, no se abre. Después, si hay cambios sin ver (de todas las actualizaciones que el jugador
-  se haya saltado: 3 de una y 5 de otra suman 8) o un mod nuevo en su lista.
+  se haya saltado: 3 de una y 5 de otra suman 8) o un mod nuevo en su lista. El mod nuevo se sacó el
+  25-oct (ver «Cuándo aparece sola, de nuevo»).
 
 Angel la probó en 1.7 el 24-oct: aparece sola la primera vez con la última actualización y guarda lo visto.
 Pidió dejar el nombre en Configuración de mods como está, aunque se corte («Traducciones [Español La...»).

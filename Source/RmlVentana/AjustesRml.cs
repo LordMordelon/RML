@@ -9,8 +9,8 @@ namespace RmlVentana
         /** La casilla «No volver a mostrar». La ventana se sigue abriendo a mano desde los ajustes. */
         public bool NoVolverAMostrar;
 
-        /** Los mods de la tabla la ultima vez que se cerro la ventana, para marcar los nuevos. Null
-         *  si nunca se abrio: la primera vez aparece sola y ninguno sale como nuevo. */
+        /** Los mods de la tabla la ultima vez que se cerro la ventana, para marcar los nuevos en «Tus
+         *  mods». Null si nunca se abrio: ahi ninguno sale como nuevo. Un mod nuevo no la abre sola. */
         public List<string> Vistos;
 
         /** packageId -> fecha (yyyy-MM-dd) de cada «Solicitar». Se borra sola cuando el mod entra a RML. */

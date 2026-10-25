@@ -93,18 +93,16 @@ namespace RmlVentana
                 if (Locales != null)
                     Pendientes = CambiosLocales.Aplicar(Pendientes, YaVistas, Entradas, Locales, CambiosEnElPc.ArchivoLocal,
                         DateTime.Today.ToString("yyyy-MM-dd"), out YaVistas);
-                // Lo ya visto se muestra igual, pero no hace aparecer la ventana sola.
-                bool HayNuevas = Pendientes.Count > 0 && !YaVistas;
-
                 // La traduccion oficial va arriba, y recien despues de reiniciar: antes no hizo efecto.
                 if (Ajustes.OficialReiniciar == null)
                     Pendientes.InsertRange(0, Ajustes.OficialNovedades
                         .Select(x => NovedadOficial.Leer(x, OficialJuego.NombreDe(NovedadOficial.CarpetaDe(x)), OficialJuego.ArchivoDeCambios))
                         .Where(x => x != null));
 
+                // Lo ya visto se muestra igual, pero no hace aparecer la ventana sola.
                 Novedades = Clasificador.DebeAparecerSola(Ajustes.NoVolverAMostrar,
-                    Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas,
-                    HayNovedades: HayNuevas || Pendientes.Any(x => x.Oficial));
+                    Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Pendientes, YaVistas,
+                    LecturaDelJuego.ConSuModActivo(RmlVentanaMod.Instancia.Content));
                 return new VentanaTraducciones(Filas, Entradas, Pendientes, YaVistas, Locales != null);
             }
             catch (Exception e)

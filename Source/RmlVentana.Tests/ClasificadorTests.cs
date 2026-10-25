@@ -173,41 +173,53 @@ namespace RmlVentana.Tests
             Assert.AreEqual(Esperado, Clasificador.EsEspanolLatino(Carpeta));
         }
 
-        [TestMethod]
-        public void LaPrimeraVezApareceSoloSiHuboCambiosEnRml()
-        {
-            // Lo pidio Angel: la primera vez no basta con que sea la primera vez.
-            var Filas = Clasificador.Clasificar(new[] { Mod("a") }, new HashSet<string>(), null, Rml);
+        private static Novedad Cambiado(string PackageId) =>
+            new Novedad { PackageId = PackageId, Nombre = PackageId, Cambio = Cambio.Corregido, Fecha = "2026-10-25" };
 
-            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, null, Filas, HayNovedades: false));
-            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, null, Filas, HayNovedades: true));
+        private static readonly HashSet<string> Activos = new HashSet<string> { "a", "b" };
+
+        [TestMethod]
+        public void ApareceSolaConUnCambioSinVerEnUnModActivo()
+        {
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, new[] { Cambiado("a") }, false, Activos));
         }
 
         [TestMethod]
-        public void ApareceSolaSiHayUnModNuevo()
+        public void UnModNuevoEnLaListaNoLaHaceAparecer()
         {
-            var Vistos = new HashSet<string> { "a" };
-            var Filas = Clasificador.Clasificar(new[] { Mod("a"), Mod("b") }, new HashSet<string>(), Vistos, Rml);
-
-            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, Vistos, Filas));
+            // Angel, 25-oct: activo un mod, el juego se reinicio y la ventana salio con «Novedades» vacia.
+            // El mod nuevo se marca en «Tus mods», pero no la abre.
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, new Novedad[0], false, Activos));
         }
 
         [TestMethod]
-        public void NoApareceSinNovedades()
+        public void UnCambioEnUnModQueNoEstaActivoNoLaHaceAparecer()
         {
-            var Vistos = new HashSet<string> { "a" };
-            var Filas = Clasificador.Clasificar(new[] { Mod("a") }, new HashSet<string>(), Vistos, Rml);
+            // Angel, 25-oct: sale en la tabla, pero no la abre.
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, new[] { Cambiado("otro") }, false, Activos));
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, new[] { Cambiado("otro"), Cambiado("b") }, false, Activos));
+        }
 
-            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, Vistos, Filas));
+        [TestMethod]
+        public void LoYaVistoNoLaHaceAparecer()
+        {
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, new[] { Cambiado("a") }, true, Activos));
+        }
+
+        [TestMethod]
+        public void LaTraduccionOficialLaHaceAparecerSiempre()
+        {
+            // Despues de instalarla o deshacerla y reiniciar. No es de ningun mod.
+            var Oficial = new Novedad { PackageId = "", Nombre = "Core", Oficial = true, Fecha = "2026-10-25" };
+
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, new[] { Oficial }, true, Activos));
         }
 
         [TestMethod]
         public void NoApareceEnOtroIdiomaNiConNoVolverAMostrar()
         {
-            var Filas = Clasificador.Clasificar(new[] { Mod("a") }, new HashSet<string>(), null, Rml);
-
-            Assert.IsFalse(Clasificador.DebeAparecerSola(false, false, null, Filas));
-            Assert.IsFalse(Clasificador.DebeAparecerSola(true, true, null, Filas));
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, false, new[] { Cambiado("a") }, false, Activos));
+            Assert.IsFalse(Clasificador.DebeAparecerSola(true, true, new[] { Cambiado("a") }, false, Activos));
         }
     }
 

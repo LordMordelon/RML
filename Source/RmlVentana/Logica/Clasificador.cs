@@ -111,24 +111,22 @@ namespace RmlVentana.Logica
             return CarpetaDelIdioma == "SpanishLatin" || CarpetaDelIdioma.StartsWith("SpanishLatin (", StringComparison.Ordinal);
         }
 
-        /** Sola, solo si hay novedades y el juego esta en español latinoamericano: a un jugador en
-         *  otro idioma RML no le cambia nada. Novedad es un cambio en RML que no se vio
-         *  (HayNovedades) o un mod nuevo en la lista. La primera vez, solo lo primero: si la ultima
-         *  actualizacion de RML no trajo cambios, no aparece (lo pidio Angel). */
-        public static bool DebeAparecerSola(bool NoVolverAMostrar, bool EnEspanolLatino, ICollection<string> Vistos,
-            IEnumerable<Fila> Filas, bool HayNovedades = false)
+        /** Sola, solo si el juego esta en español latinoamericano (a un jugador en otro idioma RML no le
+         *  cambia nada) y la pestaña «Novedades» tiene algo sin ver de un mod activo, o la traduccion
+         *  oficial recien instalada o deshecha. Pendientes y YaVistas son los de NovedadesRml.ParaMostrar;
+         *  la primera vez, eso es la ultima actualizacion de RML, y si no trajo cambios no aparece.
+         *  Activos son los packageId de los mods de RML con su mod activo (todos los de su carpeta).
+         *
+         *  Un mod nuevo en la lista no la abre (Angel, 25-oct): al activarlo el juego se reinicia, y la
+         *  ventana salia con «Novedades» vacia. Lo nuevo se marca en «Tus mods». Un cambio en un mod que
+         *  no esta activo sale en la tabla, pero tampoco la abre. */
+        public static bool DebeAparecerSola(bool NoVolverAMostrar, bool EnEspanolLatino, IEnumerable<Novedad> Pendientes,
+            bool YaVistas, ICollection<string> Activos)
         {
             if (NoVolverAMostrar || !EnEspanolLatino)
                 return false;
 
-            if (Vistos == null || HayNovedades)
-                return HayNovedades;
-
-            foreach (Fila Fila in Filas)
-                if (Fila.Nuevo)
-                    return true;
-
-            return false;
+            return Pendientes.Any(x => x.Oficial || (!YaVistas && Activos.Contains(x.PackageId)));
         }
     }
 }

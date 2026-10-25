@@ -135,6 +135,21 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void ConTodoVistoVuelveASalirLoQueVinoDelPc()
+        {
+            // Lo del PC (CambiosLocales) sale «Corregido» aunque el builder no le ponga tipo, porque el mod se
+            // añadio y se corrigio el mismo dia. Con Alpha Prefabs (25-oct) la pestaña volvia vacia.
+            var Leidas = Entradas;
+            var Mostradas = new List<Novedad> { new Novedad { PackageId = "autor.nuevo", Cambio = Cambio.Corregido, Fecha = "2026-10-22" } };
+
+            var Lista = NovedadesRml.ParaMostrar(Leidas, NovedadesRml.Claves(Leidas), NovedadesRml.ClavesDe(Mostradas), Hoy, out bool YaVistas);
+
+            Assert.IsTrue(YaVistas);
+            CollectionAssert.AreEqual(new[] { "autor.nuevo" }, Lista.Select(x => x.PackageId).ToList());
+            Assert.AreEqual(Cambio.Corregido, Lista[0].Cambio);
+        }
+
+        [TestMethod]
         public void UnModAnadidoLlevaDetalleConSusTextos()
         {
             // Cuarto numero de la septima columna: los textos del mod añadido en esa subida.
@@ -258,14 +273,19 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
-        public void LasNovedadesTambienLaHacenAparecer()
+        public void LaPrimeraVezApareceSoloSiLaUltimaActualizacionTrajoCambios()
         {
-            var Vistos = new HashSet<string> { "a" };
-            var Filas = Clasificador.Clasificar(new[] { new ModActivo { PackageId = "a", Nombre = "a" } }, new HashSet<string>(), Vistos, "rml");
+            // Lo pidio Angel: la primera vez no basta con que sea la primera vez.
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+            var Activos = new HashSet<string>(Leidas.Select(x => x.PackageId));
+            var Lista = NovedadesRml.ParaMostrar(Leidas, null, null, Hoy, out bool YaVistas);
 
-            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, Vistos, Filas, HayNovedades: false));
-            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, Vistos, Filas, HayNovedades: true));
-            Assert.IsFalse(Clasificador.DebeAparecerSola(false, false, Vistos, Filas, HayNovedades: true));
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, Lista, YaVistas, Activos));
+
+            var SinCambios = NovedadesRml.Leer(TsvConUltima.Replace("\ta\n", "\t\n").Replace("\tc\n", "\t\n"));
+            Lista = NovedadesRml.ParaMostrar(SinCambios, null, null, Hoy, out YaVistas);
+
+            Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, Lista, YaVistas, Activos));
         }
     }
 }

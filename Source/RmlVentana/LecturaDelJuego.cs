@@ -34,6 +34,25 @@ namespace RmlVentana
             return Resultado;
         }
 
+        /** Los mods de RML con su mod activo: las carpetas de Data/ que el juego carga, con todos sus
+         *  packageId. Combat Extended trae dos (el oficial y el no oficial de 1.7), y Novedades.tsv lo
+         *  nombra por uno solo, que puede no ser el activo. */
+        public static HashSet<string> ConSuModActivo(ModContentPack Rml)
+        {
+            var Resultado = new HashSet<string>();
+
+            foreach (LoadFolder Carpeta in CarpetasDeLaVersion(Rml.ModMetaData) ?? new List<LoadFolder>())
+            {
+                if (Carpeta.requiredAnyOfPackageIds == null || !Carpeta.ShouldLoad) continue;
+                if (!Carpeta.folderName.Replace('\\', '/').StartsWith("Data/")) continue;
+
+                foreach (string PackageId in Carpeta.requiredAnyOfPackageIds)
+                    Resultado.Add(Id(PackageId));
+            }
+
+            return Resultado;
+        }
+
         /** Los mods activos, en el orden de la lista de mods. */
         public static List<ModActivo> ModsActivos()
         {

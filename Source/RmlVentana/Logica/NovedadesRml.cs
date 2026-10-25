@@ -133,13 +133,7 @@ namespace RmlVentana.Logica
                 if (AnadidoSinVer)
                     Resultado.Add(Anadido(Entrada));
                 else if (CambioSinVer)
-                {
-                    Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
-                    Novedad.Cambiados = Entrada.Cambiados;
-                    Novedad.Nuevos = Entrada.Nuevos;
-                    Novedad.Quitados = Entrada.Quitados;
-                    Resultado.Add(Novedad);
-                }
+                    Resultado.Add(Cambiada(Entrada));
             }
 
             Ordenar(Resultado);
@@ -166,12 +160,29 @@ namespace RmlVentana.Logica
             if (SinVer.Count > 0 || Vistas == null)
                 return SinVer;
 
-            // Lo mostrado es lo que sale si todo lo demas se diera por visto.
             var Otra = Mostradas != null && Mostradas.Count > 0
-                ? Pendientes(Entradas, Claves(Entradas).Where(x => !Mostradas.Contains(x)).ToList(), Hoy)
+                ? DeNuevo(Entradas, Mostradas)
                 : Pendientes(Entradas, null, Hoy);
             YaVistas = Otra.Count > 0;
             return Otra;
+        }
+
+        /** Las filas de Mostradas, armadas otra vez con lo que dice hoy el archivo. No pasa por Pendientes:
+         *  una fila de lo del PC (CambiosLocales) es «Corregido» aunque el builder no le ponga tipo, porque
+         *  el mod se añadio y se corrigio el mismo dia, y ahi Pendientes no la saca. */
+        private static List<Novedad> DeNuevo(List<EntradaDeNovedades> Entradas, ICollection<string> Mostradas)
+        {
+            var Resultado = new List<Novedad>();
+            foreach (EntradaDeNovedades Entrada in Entradas)
+            {
+                if (Mostradas.Contains(ClaveDeAnadido(Entrada)))
+                    Resultado.Add(Anadido(Entrada));
+                else if (Mostradas.Contains(ClaveDeCambio(Entrada)))
+                    Resultado.Add(Cambiada(Entrada));
+            }
+
+            Ordenar(Resultado);
+            return Resultado;
         }
 
         /** Lo que se guarda para volver a mostrar lo mismo (ParaMostrar). La traduccion oficial no va:
@@ -232,6 +243,16 @@ namespace RmlVentana.Logica
         {
             Novedad Novedad = Nueva(Entrada, Cambio.Anadido, Entrada.Anadido);
             Novedad.Nuevos = Entrada.Anadidos;
+            return Novedad;
+        }
+
+        /** La fila «Actualizado» o «Corregido», con lo que trae Cambios.tsv. */
+        private static Novedad Cambiada(EntradaDeNovedades Entrada)
+        {
+            Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
+            Novedad.Cambiados = Entrada.Cambiados;
+            Novedad.Nuevos = Entrada.Nuevos;
+            Novedad.Quitados = Entrada.Quitados;
             return Novedad;
         }
 
