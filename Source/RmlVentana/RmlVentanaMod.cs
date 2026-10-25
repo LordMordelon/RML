@@ -33,6 +33,8 @@ namespace RmlVentana
             Lista.CheckboxLabeled("RML_Ajustes_MostrarAlIniciar".Translate(), ref Mostrar, "RML_Ajustes_MostrarAlIniciarAyuda".Translate());
             Ajustes.NoVolverAMostrar = !Mostrar;
 
+            Lista.CheckboxLabeled("RML_Ajustes_VerCambios".Translate(), ref Ajustes.VerCambios, "RML_Ajustes_VerCambiosAyuda".Translate());
+
             Lista.Gap();
             if (Lista.ButtonText("RML_Ajustes_Abrir".Translate(), widthPct: 0.4f) &&
                 VentanaTraducciones.Crear(out _) is VentanaTraducciones Ventana)

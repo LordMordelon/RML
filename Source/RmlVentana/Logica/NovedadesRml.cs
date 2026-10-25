@@ -17,6 +17,8 @@ namespace RmlVentana.Logica
         /** Si cambio en la ultima subida de RML al Workshop: «a» añadido, «c» cambiado, vacio si no.
          *  Null si el archivo no trae la columna (el builder no pudo consultar Steam). */
         public string EnLaUltima;
+        /** Los textos cambiados, nuevos y quitados en esa subida (septima columna). Cero si no hay. */
+        public int Cambiados, Nuevos, Quitados;
     }
 
     public class Novedad
@@ -25,6 +27,11 @@ namespace RmlVentana.Logica
         public string Nombre;
         public Cambio Cambio;
         public string Fecha;
+        /** Lo que trae Cambios.tsv para este mod, solo si salio como «Actualizado» o «Corregido». */
+        public int Cambiados, Nuevos, Quitados;
+
+        /** Si lleva el boton «Ver cambios». */
+        public bool TieneDetalle => Cambiados + Nuevos + Quitados > 0;
     }
 
     /** La pestaña «Novedades»: que cambio en RML desde la ultima vez que se abrio la ventana. */
@@ -46,7 +53,7 @@ namespace RmlVentana.Logica
                 if (Campos.Length < 5 || !EsFecha(Campos[2]) || !EsFecha(Campos[3]))
                     continue;
 
-                Resultado.Add(new EntradaDeNovedades
+                var Entrada = new EntradaDeNovedades
                 {
                     PackageId = Campos[0].ToLowerInvariant(),
                     Nombre = Campos[1],
@@ -54,7 +61,17 @@ namespace RmlVentana.Logica
                     Ultimo = Campos[3],
                     Tipo = Campos[4],
                     EnLaUltima = Campos.Length >= 6 ? Campos[5] : null,
-                });
+                };
+
+                string[] Cuenta = Campos.Length >= 7 ? Campos[6].Split(',') : new string[0];
+                if (Cuenta.Length == 3 && int.TryParse(Cuenta[0], out int C) && int.TryParse(Cuenta[1], out int N) && int.TryParse(Cuenta[2], out int Q))
+                {
+                    Entrada.Cambiados = C;
+                    Entrada.Nuevos = N;
+                    Entrada.Quitados = Q;
+                }
+
+                Resultado.Add(Entrada);
             }
 
             return Resultado;
@@ -99,7 +116,13 @@ namespace RmlVentana.Logica
                 if (AnadidoSinVer)
                     Resultado.Add(Nueva(Entrada, Cambio.Anadido, Entrada.Anadido));
                 else if (CambioSinVer)
-                    Resultado.Add(Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo));
+                {
+                    Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
+                    Novedad.Cambiados = Entrada.Cambiados;
+                    Novedad.Nuevos = Entrada.Nuevos;
+                    Novedad.Quitados = Entrada.Quitados;
+                    Resultado.Add(Novedad);
+                }
             }
 
             Resultado.Sort((A, B) =>

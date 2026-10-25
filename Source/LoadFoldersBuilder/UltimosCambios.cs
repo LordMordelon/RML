@@ -134,6 +134,88 @@ public static class UltimosCambios
         return null;
     }
 
+    /** El contenido de cada «commit:ruta», en el mismo orden, con null en los que no existen. Null si
+     *  git fallo. Va con un solo git cat-file --batch y no con un git show por archivo: despues de un
+     *  «Actualizar todo RML» son miles de archivos, y un proceso por cada uno tarda minutos. */
+    internal static List<string?>? Blobs(string Directorio, List<string> Objetos)
+    {
+        var Resultado = new List<string?>();
+        if (Objetos.Count == 0)
+            return Resultado;
+
+        try
+        {
+            var Arranque = new ProcessStartInfo("git")
+            {
+                WorkingDirectory = Directorio,
+                UseShellExecute = false,
+                CreateNoWindow = true,
+                RedirectStandardInput = true,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+            };
+            Arranque.ArgumentList.Add("cat-file");
+            Arranque.ArgumentList.Add("--batch");
+
+            using var Proceso = Process.Start(Arranque);
+            if (Proceso is null)
+                return null;
+
+            Proceso.ErrorDataReceived += (_, _) => { };
+            Proceso.BeginErrorReadLine();
+
+            // La entrada se escribe aparte: si no, con muchos archivos git llena la salida mientras
+            // esto sigue escribiendo, y los dos se quedan esperando.
+            var Escritura = Task.Run(() =>
+            {
+                using var Entrada = new StreamWriter(Proceso.StandardInput.BaseStream, new UTF8Encoding(false)) { NewLine = "\n" };
+                foreach (string Objeto in Objetos)
+                    Entrada.WriteLine(Objeto);
+            });
+
+            // Cada respuesta es «<id> blob <bytes>\n<contenido>\n», o «<objeto> missing\n».
+            var Salida = new BufferedStream(Proceso.StandardOutput.BaseStream);
+            for (int i = 0; i < Objetos.Count; i++)
+            {
+                string? Cabecera = LeerLinea(Salida);
+                if (Cabecera is null)
+                    return null;
+
+                string[] Partes = Cabecera.Split(' ');
+                if (Partes.Length != 3 || !int.TryParse(Partes[2], out int Bytes))
+                {
+                    Resultado.Add(null);
+                    continue;
+                }
+
+                byte[] Contenido = new byte[Bytes];
+                Salida.ReadExactly(Contenido);
+                Salida.ReadByte();
+                Resultado.Add(Encoding.UTF8.GetString(Contenido));
+            }
+
+            Escritura.Wait();
+            Proceso.WaitForExit();
+            return Proceso.ExitCode is 0 ? Resultado : null;
+        }
+        catch (Exception)
+        {
+            return null;
+        }
+    }
+
+    private static string? LeerLinea(Stream Salida)
+    {
+        var Bytes = new List<byte>();
+        for (int b = Salida.ReadByte(); b != '\n'; b = Salida.ReadByte())
+        {
+            if (b < 0)
+                return null;
+            Bytes.Add((byte)b);
+        }
+        return Encoding.UTF8.GetString(Bytes.ToArray());
+    }
+
     /** Corre git en Directorio y devuelve las lineas de su salida, o null si fallo. */
     internal static List<string>? Git(string Directorio, params string[] Argumentos)
     {

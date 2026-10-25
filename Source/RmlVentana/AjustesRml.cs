@@ -22,8 +22,13 @@ namespace RmlVentana
         /** yyyy-MM-dd de la ultima vez que se cerro la ventana, para el «Cambios desde el…». */
         public string UltimaVez;
 
+        /** «Mostrar los cambios de cada traducción»: el boton «Ver cambios» de Novedades. Encendida por
+         *  defecto, tambien para quien ya tenia ajustes guardados. */
+        public bool VerCambios = true;
+
         public override void ExposeData()
         {
+            Scribe_Values.Look(ref VerCambios, "verCambios", true);
             Scribe_Values.Look(ref NoVolverAMostrar, "noVolverAMostrar");
             Scribe_Collections.Look(ref Vistos, "vistos", LookMode.Value);
             Scribe_Collections.Look(ref NovedadesVistas, "novedadesVistas", LookMode.Value);

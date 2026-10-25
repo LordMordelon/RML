@@ -7,7 +7,8 @@ namespace LoadFoldersBuilder;
 /** La copia liviana del mod en output/RimWorld Mod Latino. Es lo que carga el juego —Mods\RML
  *  enlaza a esa carpeta— y lo que se sube al Workshop.
  *
- *  Lleva solo lo que RimWorld lee: About, Data, Ajustes, Common (con la DLL), LoadFolders.xml, ModList.tsv y LICENSE.
+ *  Lleva solo lo que RimWorld lee: About, Data, Ajustes, Common (con la DLL), LoadFolders.xml, ModList.tsv y LICENSE,
+ *  mas los archivos de la ventana del juego (Novedades.tsv, Cambios.tsv, SinTexto.tsv).
  *  De Data y Ajustes quedan afuera los UNUSED.xml, los LoadFolders.Build.yaml y los .md, que el juego no usa, y a los XML
  *  se les sacan los comentarios: el <!-- EN: ... --> con el original en ingles sirve para
  *  traducir y revisar en el repo, pero al jugador no le hace nada y era un tercio del peso.
@@ -92,8 +93,13 @@ public static class CopiaLimpia
             }
 
             // Se arma aca y no en el repo: sale entero de la historia de git (ver Novedades.cs).
-            if (Novedades.Armar(RootPath) is { } TextoDeNovedades)
-                Poner(Novedades.Archivo, new System.Text.UTF8Encoding(false).GetBytes(TextoDeNovedades));
+            // Cambios.tsv, con los textos de cada mod para «Ver cambios», sale de la misma pasada.
+            if (Novedades.Armar(RootPath) is { } DeNovedades)
+            {
+                Poner(Novedades.Archivo, new System.Text.UTF8Encoding(false).GetBytes(DeNovedades.Novedades));
+                if (DeNovedades.Cambios is not null)
+                    Poner(CambiosDeTexto.Archivo, new System.Text.UTF8Encoding(false).GetBytes(DeNovedades.Cambios));
+            }
             else
                 Console.WriteLine("\e[93mNo se pudo armar {0}: la ventana del juego queda sin novedades.\x1b[0m", Novedades.Archivo);
 

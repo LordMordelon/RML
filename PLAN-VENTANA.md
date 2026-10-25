@@ -73,6 +73,7 @@ Cada una en su propia sesión, con su commit. Ninguna se sube sin que Angel lo d
 | 2 | Pestaña «Tus mods» | La ventana, la tabla, los ajustes del mod y las dos reglas para que aparezca sola (hay novedades y el juego está en español latinoamericano). Los textos en `Keyed`, en español y en inglés (el inglés, para los ajustes del mod en otro idioma) |
 | 3 | Pestaña «Novedades» | `Novedades.tsv` en el builder y la segunda pestaña |
 | 4 | Gráfico de solicitudes | La rama `solicitudes`, el action que cuenta los pedidos y el gráfico de los mods más pedidos (ver abajo) |
+| 5 | Ver qué cambió | Botón «Ver cambios» en las filas «Actualizado» y «Corregido» de Novedades, con los textos antes y después (ver abajo) |
 
 ## Etapa 4: los mods más solicitados
 
@@ -119,6 +120,73 @@ Cuidados:
   Si aparece abuso, se puede limitar a cuentas con cierta antigüedad.
 - No necesita la ventana del juego para funcionar: también se puede pedir abriendo el issue a mano. Se
   puede hacer antes o después de las etapas 2 y 3.
+
+## Etapa 5: ver qué cambió en cada mod
+
+**Aprobada por Angel el 24-oct-2026.**
+
+**Decisiones de Angel (24-oct):** la pestaña «Novedades» dice que un mod cambió, pero no qué. Angel pidió
+ver los textos, al menos de los corregidos y actualizados, y eligió:
+
+- **Contra qué se compara:** contra la subida anterior de RML al Workshop, la misma que ya usa la sexta
+  columna de `Novedades.tsv`. No solo el último cambio, que dejaría afuera una corrección si hubo dos
+  seguidas.
+- **Cómo se ve:** un botón «Ver cambios» en cada fila «Actualizado» o «Corregido», que abre una ventana
+  aparte. Arriba, el resumen («3 corregidos · 12 nuevos · 1 quitado»); debajo, cada texto con su original
+  en inglés, cómo estaba y cómo quedó. Los «Añadido» no llevan botón: ahí cambió todo.
+- **Cuántos:** hasta 200 textos por mod, primero los corregidos, después los nuevos y los quitados, y un
+  «y N más» si quedan. Así el archivo no crece de más con una actualización grande (Hegemony).
+- **Colores, como el diff de VS Code:** «Antes» en rojo y «Ahora» en verde, con un fondo suave del mismo
+  color detrás de cada uno. Un texto nuevo solo tiene la línea verde; uno quitado, solo la roja. El inglés
+  va en gris. Los dos colores tienen que leerse bien sobre el fondo oscuro de la ventana del juego.
+- **Se puede apagar:** una casilla en los ajustes del mod (Opciones → Configuración de mods → «Traducciones [Español Latino]»),
+  «Mostrar los cambios de cada traducción», encendida por defecto. Apagada, no aparece el botón y el
+  archivo de cambios no se lee nunca.
+- **Rendimiento:** aun encendida, no pesa al cargar el juego. El archivo se lee recién al apretar «Ver
+  cambios», y solo la parte de ese mod; la ventana dibuja solo los renglones que están a la vista, como
+  ya hace la pestaña «Novedades».
+
+Cómo se arma:
+
+- **El builder** lo arma en `CopiaLimpia`, junto a `Novedades.tsv` y con la misma base: el último commit
+  anterior a la subida de RML. Para cada carpeta marcada «c», lee los XML de `Languages/` y `Patches/` en
+  esa base (`git show`) y los de ahora, y los cruza clave por clave. **Corregido** = la clave tenía
+  traducción y cambió; **nuevo** = no estaba o era `TODO` y ahora tiene texto; **quitado** = estaba
+  traducida y ya no está (casi siempre pasó a `UNUSED.xml`). El inglés sale del comentario `<!-- EN: -->`
+  de `Data/`, que la copia de `output/` no tiene. Lo deja en un archivo nuevo, solo en `output/` y sin
+  commitear, como `Novedades.tsv`.
+- **El juego** lo lee en `Logica/` (con pruebas, sin el juego) y lo muestra en la ventana nueva, con el
+  estilo de la ventana actual. Los textos van en `Keyed`, en español y en inglés. La casilla nueva va en
+  `AjustesRml` con su propio nombre (`Scribe_Values.Look(ref …, "verCambios", true)`): a quien ya tiene
+  ajustes guardados le aparece encendida.
+- **Sin conexión con Steam** no se sabe cuál fue la subida anterior: no hay detalle y el botón no aparece,
+  igual que hoy esa pestaña cae a los últimos 30 días.
+
+Para revisar antes de subir: las pruebas del builder y de `Logica/`, y una captura de la ventana con un
+mod real cambiado (por ejemplo, uno de los que la columna marca hoy).
+
+## Etapa 5: hecha en local (24-oct-2026)
+
+- **El builder** (`CambiosDeTexto.cs`, con 12 pruebas en el proyecto nuevo `Source/LoadFoldersBuilder.Tests`,
+  que la CI corre en `loadfolders.yml`). `Novedades.Armar` devuelve los dos archivos: la séptima columna de
+  `Novedades.tsv` («Textos») trae la cuenta «cambiados,nuevos,quitados» de cada mod marcado «c», y
+  `Cambios.tsv` (PackageID, tipo c/n/q, inglés, antes, ahora) trae hasta 200 por mod. Lo de antes se lee de
+  la base con un solo `git cat-file --batch` (`UltimosCambios.Blobs`), no con un proceso por archivo.
+- **Se cruza por carpeta, no por archivo:** la clave lleva su grupo (`Keyed`, `DefInjected/ThingDef`, o
+  el xpath en `Patches/`), así que una clave que el extractor pasó a otro archivo no sale como cambio.
+  Cada `<li>` de una lista va aparte, con el `<li>` del mismo número del comentario `EN:`. El mismo cambio
+  en `1.6/` y `1.7/` sale una vez, y un inglés «TODO» (hay mods que lo traen así) se muestra vacío.
+- **Lo de un mod que el Agrupador movió** se reconoce por el nombre de su carpeta, también para la sexta
+  columna: antes un mod movido y cambiado podía no marcarse.
+- **El juego:** `CambiosDeMod` (Logica, con pruebas) lee solo las líneas del mod y convierte el `\n`
+  literal en salto. `VentanaCambios` dibuja solo los renglones a la vista. La casilla es
+  `AjustesRml.VerCambios` («verCambios», encendida por defecto).
+- **Con los datos de hoy:** 7 mods con detalle, 108 textos, 41 KB; armar la copia tarda unos 13 s. El
+  resumen dice «cambiados» y no «corregidos», porque también aparece en las filas «Actualizado».
+
+**Falta (Angel):** con el juego cerrado, rearmar la copia (`02-armar-copia-limpia.cmd`), abrir el juego y
+mirar «Ver cambios» en un mod, por ejemplo The Dead Man's Switch. Y probar que con la casilla apagada el
+botón desaparece.
 
 ## Cómo se prueba
 

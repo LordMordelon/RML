@@ -113,6 +113,61 @@ namespace RmlVentana.Tests
             Assert.IsFalse(NovedadesRml.PorUltimaActualizacion(Entradas));
         }
 
+        // Con la septima: cuantos textos cambiaron, se agregaron y se quitaron en esa subida.
+        private const string TsvConTextos =
+            "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo\tÚltima actualización de RML\tTextos\n" +
+            "Autor.Nuevo\tMod nuevo\t2026-10-22\t2026-10-22\t\ta\t\n" +
+            "Autor.Corregido\tMod corregido\t2026-09-07\t2026-10-20\tcorregido\tc\t3,12,1\n" +
+            "Autor.Actualizado\tMod actualizado\t2026-09-07\t2026-10-21\tactualizado\tc\t\n";
+
+        [TestMethod]
+        public void LaSeptimaColumnaDiceCuantosTextosCambiaron()
+        {
+            var Lista = NovedadesRml.Pendientes(NovedadesRml.Leer(TsvConTextos), null, Hoy);
+
+            Novedad Corregido = Lista.Single(x => x.PackageId == "autor.corregido");
+            Assert.AreEqual(3, Corregido.Cambiados);
+            Assert.AreEqual(12, Corregido.Nuevos);
+            Assert.AreEqual(1, Corregido.Quitados);
+            Assert.IsTrue(Corregido.TieneDetalle);
+            Assert.IsFalse(Lista.Single(x => x.PackageId == "autor.actualizado").TieneDetalle);
+            Assert.IsFalse(Lista.Single(x => x.PackageId == "autor.nuevo").TieneDetalle);
+        }
+
+        [TestMethod]
+        public void UnModAnadidoNoLlevaDetalleAunqueTengaTextos()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConTextos.Replace("Autor.Nuevo\tMod nuevo\t2026-10-22\t2026-10-22\t\ta\t\n",
+                "Autor.Nuevo\tMod nuevo\t2026-10-22\t2026-10-23\tcorregido\ta\t0,40,0\n"));
+
+            Assert.IsFalse(NovedadesRml.Pendientes(Leidas, null, Hoy).Single(x => x.PackageId == "autor.nuevo").TieneDetalle);
+        }
+
+        [TestMethod]
+        public void ElDetalleSeLeeSoloDelModPedido()
+        {
+            string[] Lineas =
+            {
+                "PackageID\tTipo\tInglés\tAntes\tAhora",
+                "Autor.Corregido\tc\tCornerstone\tPiedra base\tPiedra angular",
+                "otro.mod\tc\tHut\tchoza\tcabaña",
+                "autor.corregido\tn\tChief\t\tJefe\\n\\ntribal",
+                "autor.corregido\tq\tOld\tviejo\t",
+                "autor.corregido\tx\troto",
+            };
+
+            var Textos = CambiosDeMod.Leer(Lineas, "autor.corregido");
+
+            Assert.AreEqual(3, Textos.Count);
+            Assert.AreEqual(TipoDeTexto.Cambiado, Textos[0].Tipo);
+            Assert.AreEqual("Cornerstone", Textos[0].Ingles);
+            Assert.AreEqual("Piedra base", Textos[0].Antes);
+            Assert.AreEqual("Piedra angular", Textos[0].Ahora);
+            Assert.AreEqual(TipoDeTexto.Nuevo, Textos[1].Tipo);
+            Assert.AreEqual("Jefe\n\ntribal", Textos[1].Ahora);
+            Assert.AreEqual(TipoDeTexto.Quitado, Textos[2].Tipo);
+        }
+
         [TestMethod]
         public void SinArchivoNoHayNovedades()
         {

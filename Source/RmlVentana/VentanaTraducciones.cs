@@ -226,6 +226,15 @@ namespace RmlVentana
                     TooltipHandler.TipRegion(Mod, Novedad.Nombre);
                 Widgets.Label(Fecha, FechaLarga(Novedad.Fecha));
 
+                // Con la casilla de los ajustes apagada no hay boton, y Cambios.tsv no se lee nunca.
+                if (Ajustes.VerCambios && Novedad.TieneDetalle)
+                {
+                    string Ver = "RML_Ventana_VerCambios".Translate();
+                    float AnchoBoton = Text.CalcSize(Ver).x + 24f;
+                    if (Widgets.ButtonText(new Rect(Fecha.xMax - AnchoBoton, Fecha.center.y - 14f, AnchoBoton, 28f), Ver))
+                        AbrirCambios(Novedad);
+                }
+
                 Text.Font = GameFont.Tiny;
                 string Texto = TextoDeCambio(Novedad.Cambio);
                 var (Fondo, ColorDeTexto) = ColoresDeCambio[Novedad.Cambio];
@@ -236,6 +245,18 @@ namespace RmlVentana
             }
 
             Widgets.EndScrollView();
+        }
+
+        private static void AbrirCambios(Novedad Novedad)
+        {
+            try
+            {
+                Find.WindowStack.Add(new VentanaCambios(Novedad));
+            }
+            catch (Exception e)
+            {
+                Log.Warning("[Traducciones [Español Latino]] No se pudo abrir la lista de cambios: " + e.Message);
+            }
         }
 
         private static string TextoDeCambio(Cambio Cambio)

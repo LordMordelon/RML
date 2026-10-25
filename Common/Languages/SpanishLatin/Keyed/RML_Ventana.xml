@@ -16,6 +16,21 @@
   <RML_Ventana_Anadido>Añadido</RML_Ventana_Anadido>
   <RML_Ventana_Actualizado>Actualizado</RML_Ventana_Actualizado>
   <RML_Ventana_Corregido>Corregido</RML_Ventana_Corregido>
+  <RML_Ventana_VerCambios>Ver cambios</RML_Ventana_VerCambios>
+
+  <!-- La ventana «Ver cambios» (VentanaCambios.cs). {0} del título es el nombre del mod; el del
+       resumen, la lista de cantidades: «3 cambiados, 12 nuevos, 1 quitado». -->
+  <RML_Cambios_Titulo>Cambios en {0}</RML_Cambios_Titulo>
+  <RML_Cambios_Resumen>{0}. Comparado con la actualización anterior de RML.</RML_Cambios_Resumen>
+  <RML_Cambios_Cambiado>1 cambiado</RML_Cambios_Cambiado>
+  <RML_Cambios_Cambiados>{0} cambiados</RML_Cambios_Cambiados>
+  <RML_Cambios_Nuevo>1 nuevo</RML_Cambios_Nuevo>
+  <RML_Cambios_Nuevos>{0} nuevos</RML_Cambios_Nuevos>
+  <RML_Cambios_Quitado>1 quitado</RML_Cambios_Quitado>
+  <RML_Cambios_Quitados>{0} quitados</RML_Cambios_Quitados>
+  <RML_Cambios_Resto>Hay {0} textos más que no entran en esta lista.</RML_Cambios_Resto>
+  <RML_Cambios_SinDetalle>No se encontró el detalle de estos cambios entre los archivos de RML.</RML_Cambios_SinDetalle>
+
   <RML_Ventana_Resumen>{0} mods activos · {1} por este mod ({2} sobrescritos) · {3} por otros · {4} sin traducir</RML_Ventana_Resumen>
 
   <RML_Ventana_ColMod>Mod</RML_Ventana_ColMod>
@@ -51,6 +66,8 @@
 
   <RML_Ajustes_MostrarAlIniciar>Mostrar la ventana de traducciones al iniciar el juego cuando haya novedades</RML_Ajustes_MostrarAlIniciar>
   <RML_Ajustes_MostrarAlIniciarAyuda>Aparece sola solo si el juego está en español latinoamericano.</RML_Ajustes_MostrarAlIniciarAyuda>
+  <RML_Ajustes_VerCambios>Mostrar los cambios de cada traducción</RML_Ajustes_VerCambios>
+  <RML_Ajustes_VerCambiosAyuda>Agrega el botón «Ver cambios» en la pestaña Novedades, con los textos de antes y de ahora. Apagado, el juego no lee la lista de cambios.</RML_Ajustes_VerCambiosAyuda>
   <RML_Ajustes_Abrir>Abrir la ventana de traducciones</RML_Ajustes_Abrir>
 
 </LanguageData>
