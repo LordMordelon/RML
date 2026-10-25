@@ -24,6 +24,19 @@ Los términos están en [GLOSARIO-ALPHA-PREFABS.md](GLOSARIO-ALPHA-PREFABS.md).
 - Los nombres de mods (Rimatomics, Dub's Bad Hygiene, VFE - Architect) no se traducen.
 - Las bromas del autor se adaptan (Monty Python, Los Sims), sin perder la referencia.
 
+## Estilo (pedido por Angel el 25-oct-2026)
+
+- **Descripciones al estilo del juego**: frases que fluyen, «además de» o «y» en vez de «más»,
+  números chicos con letras, adjetivo delante cuando suena natural («un pequeño establo»). El tamaño
+  de los cuartos va como «su espacio es apretado / ajustado / espacioso», con las palabras del juego.
+- **Títulos en amarillo** (`#E5E54C`, el del «Efecto en el juego:» del mod) en los renglones de la
+  ficha e inspector: «Investigación necesaria:», «Mods necesarios:», etc. El recuadro
+  «Nombre: descripción» del catálogo lo arma la DLL con el nombre del prefabricado: pintarlo
+  obligaría a poner el color dentro del nombre, que se usa en el título, la búsqueda y la caja.
+- **Espacio antes de «Mods necesarios»**: error de la DLL (`Window_Prefab`), que agrega un renglón
+  con un espacio y después pega ese texto sin salto. `AP_ModsNeeded` empieza con `\n` para que quede
+  en su renglón. Con el modo sin bloqueo por investigación queda un renglón vacío arriba.
+
 ## Para confirmar con Angel
 
 1. **killbox → «zona de muerte»**. Otras opciones: «embudo de muerte», o dejar «killbox».
