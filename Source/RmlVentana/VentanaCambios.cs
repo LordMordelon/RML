@@ -36,6 +36,8 @@ namespace RmlVentana
         private readonly List<Fila> Filas = new List<Fila>();
         /** Lo que se dibuja, en orden: las filas, y con «Agrupar por categoría» un titulo antes de cada grupo. */
         private readonly List<Elemento> Elementos = new List<Elemento>();
+        /** Los grupos cerrados. Arrancan todos abiertos y no se guardan. */
+        private readonly HashSet<Categoria> Plegadas = new HashSet<Categoria>();
         /** Los que no entraron en el archivo por el tope del builder (CambiosDeTexto.Tope). */
         private readonly int Resto;
         private Vector2 Desplazamiento;
@@ -72,6 +74,7 @@ namespace RmlVentana
         {
             public Fila Fila;
             public string Titulo;
+            public Categoria Categoria;
             public float Alto => Fila?.Alto ?? AltoTitulo;
         }
 
@@ -157,6 +160,7 @@ namespace RmlVentana
                 Ajustes.CambiosPorCategoria = PorCategoria;
                 RmlVentanaMod.Instancia.WriteSettings();
                 Ordenar();
+                Desplazamiento.y = 0f;
             }
 
             if (Widgets.ButtonText(new Rect(inRect.xMax - 160f, inRect.yMax - 38f, 160f, 38f), "RML_Ventana_Cerrar".Translate()))
@@ -206,7 +210,8 @@ namespace RmlVentana
 
                 if (Elementos[i].Fila == null)
                 {
-                    DibujarTitulo(Renglon, Elementos[i].Titulo);
+                    // Un clic rearma la lista desde este titulo hacia abajo; lo de arriba no cambia.
+                    DibujarTitulo(Renglon, Elementos[i]);
                     continue;
                 }
                 // Sin linea antes de un titulo, que ya separa.
@@ -226,15 +231,33 @@ namespace RmlVentana
             Widgets.EndScrollView();
         }
 
-        /** El titulo de un grupo: la categoria y cuantos textos tiene, en una franja como el encabezado
-         *  de las tablas de la otra ventana. */
-        private static void DibujarTitulo(Rect Renglon, string Titulo)
+        /** El titulo de un grupo: la flecha, la categoria y cuantos textos tiene, en una franja como el
+         *  encabezado de las tablas de la otra ventana. Un clic lo pliega o lo despliega, como las listas
+         *  plegables del juego. */
+        private void DibujarTitulo(Rect Renglon, Elemento Titulo)
         {
+            bool Plegada = Plegadas.Contains(Titulo.Categoria);
             Widgets.DrawBoxSolid(Renglon, FondoTitulo);
+            Widgets.DrawHighlightIfMouseover(Renglon);
+
+            const float Flecha = 14f;
+            GUI.DrawTexture(new Rect(Renglon.x + RellenoTexto, Renglon.center.y - Flecha / 2f, Flecha, Flecha),
+                Plegada ? TexButton.Reveal : TexButton.Collapse);
+
             Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.MiddleLeft;
-            Widgets.Label(new Rect(Renglon.x + RellenoTexto, Renglon.y, Renglon.width - 2 * RellenoTexto, Renglon.height), Titulo);
+            float X = Renglon.x + RellenoTexto + Flecha + 8f;
+            Widgets.Label(new Rect(X, Renglon.y, Renglon.width - X - RellenoTexto, Renglon.height), Titulo.Titulo);
             Text.Anchor = TextAnchor.UpperLeft;
+
+            if (Widgets.ButtonInvisible(Renglon))
+            {
+                if (Plegada)
+                    Plegadas.Remove(Titulo.Categoria);
+                else
+                    Plegadas.Add(Titulo.Categoria);
+                Ordenar();
+            }
         }
 
         private static void DibujarFila(Rect Renglon, Fila Fila, bool ConLinea)
@@ -312,11 +335,16 @@ namespace RmlVentana
 
             foreach (var Grupo in Categorias.Agrupar(Filas, x => x.Categoria))
             {
-                Elementos.Add(new Elemento { Titulo = ("RML_Categoria_" + Grupo.Categoria).Translate() + " (" + Grupo.Textos.Count + ")" });
+                Elementos.Add(new Elemento
+                {
+                    Titulo = ("RML_Categoria_" + Grupo.Categoria).Translate() + " (" + Grupo.Textos.Count + ")",
+                    Categoria = Grupo.Categoria,
+                });
+                if (Plegadas.Contains(Grupo.Categoria))
+                    continue;
                 foreach (Fila Fila in Grupo.Textos)
                     Elementos.Add(new Elemento { Fila = Fila });
             }
-            Desplazamiento.y = 0f;
         }
 
         /** La categoria de un texto. Lo que no es un ThingDef sale de su tipo (Categorias.PorTipo); un
