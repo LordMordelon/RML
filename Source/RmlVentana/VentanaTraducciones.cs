@@ -20,6 +20,9 @@ namespace RmlVentana
 
         private static readonly Color Gris = Hex(0xA9B0B8);
         private static readonly Color FondoEncabezado = Hex(0x1F252B);
+        private static readonly Color FondoFecha = Hex(0x262D35);
+        private static readonly Color FranjaFecha = Hex(0x4A5560);
+        private static readonly Color FranjaFechaAbierta = Hex(0x6C8EAD);
         private static readonly Color Verde = Hex(0x8FC77A);
 
         private static readonly Dictionary<Estado, (Color Fondo, Color Texto)> ColoresDeEstado = new Dictionary<Estado, (Color, Color)>
@@ -279,29 +282,51 @@ namespace RmlVentana
                 if (Renglones[i].Novedad == null)
                     DibujarFecha(Renglon, Renglones[i].Grupo);
                 else
-                    DibujarNovedad(Renglon, Renglones[i].Novedad, i);
+                    // En el historial, las filas van con sangria bajo su fecha.
+                    DibujarNovedad(Renglon, Renglones[i].Novedad, i, VerHistorial ? 26f : 0f);
             }
 
             Widgets.EndScrollView();
         }
 
-        /** El titulo de una fecha del historial: la flecha, la fecha y cuantos mods; un clic lo pliega o
-         *  lo despliega, como los grupos de «Ver cambios». */
+        /** El titulo de una fecha del historial: una franja separada de la de arriba, con una linea de
+         *  color a la izquierda como los bloques de «Ver cambios», la flecha, la fecha y, en la columna
+         *  Cambio, cuantos mods de cada tipo con las mismas etiquetas de las filas. Un clic lo pliega o
+         *  lo despliega. */
         private void DibujarFecha(Rect Renglon, GrupoDeFecha Grupo)
         {
             bool Abierta = FechasAbiertas.Contains(Grupo.Fecha);
-            Widgets.DrawBoxSolid(Renglon, FondoEncabezado);
-            Widgets.DrawHighlightIfMouseover(Renglon);
+            Rect Caja = new Rect(Renglon.x, Renglon.y + 4f, Renglon.width, Renglon.height - 4f);
+            Widgets.DrawBoxSolid(Caja, FondoFecha);
+            Widgets.DrawBoxSolid(new Rect(Caja.x, Caja.y, 3f, Caja.height), Abierta ? FranjaFechaAbierta : FranjaFecha);
+            Widgets.DrawHighlightIfMouseover(Caja);
+            Columnas(Caja.ContractedBy(12f, 0f), out Rect ColMod, out Rect ColCambio, out _);
 
-            const float Flecha = 14f;
-            GUI.DrawTexture(new Rect(Renglon.x + 12f, Renglon.center.y - Flecha / 2f, Flecha, Flecha), Abierta ? TexButton.Collapse : TexButton.Reveal);
+            const float Flecha = 16f;
+            GUI.color = Abierta ? Color.white : Gris;
+            GUI.DrawTexture(new Rect(ColMod.x, Caja.center.y - Flecha / 2f, Flecha, Flecha), Abierta ? TexButton.Collapse : TexButton.Reveal);
+            GUI.color = Color.white;
             Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.MiddleLeft;
-            Widgets.Label(new Rect(Renglon.x + 12f + Flecha + 8f, Renglon.y, Renglon.width - Flecha - 32f, Renglon.height),
-                FechaLarga(Grupo.Fecha) + " (" + Grupo.Novedades.Count + ")");
+            Widgets.Label(new Rect(ColMod.x + Flecha + 10f, Caja.y, ColMod.width - Flecha - 10f, Caja.height), FechaLarga(Grupo.Fecha));
+
+            Text.Font = GameFont.Tiny;
+            float X = ColCambio.x;
+            foreach (Cambio Tipo in new[] { Cambio.Anadido, Cambio.Actualizado, Cambio.Corregido })
+            {
+                int Cuantos = Grupo.Novedades.Count(x => x.Cambio == Tipo);
+                if (Cuantos == 0)
+                    continue;
+                string Texto = TextoDeCambio(Tipo) + " (" + Cuantos + ")";
+                float Ancho = Text.CalcSize(Texto).x + 16f;
+                var (Fondo, ColorDeTexto) = ColoresDeCambio[Tipo];
+                Etiqueta(new Rect(X, Caja.center.y - 11f, Ancho, 22f), Texto, Fondo, ColorDeTexto);
+                X += Ancho + 6f;
+            }
+            Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.UpperLeft;
 
-            if (Widgets.ButtonInvisible(Renglon))
+            if (Widgets.ButtonInvisible(Caja))
             {
                 if (Abierta)
                     FechasAbiertas.Remove(Grupo.Fecha);
@@ -310,13 +335,14 @@ namespace RmlVentana
             }
         }
 
-        private void DibujarNovedad(Rect Renglon, Novedad Novedad, int i)
+        private void DibujarNovedad(Rect Renglon, Novedad Novedad, int i, float Sangria)
         {
             if (i % 2 == 1) Widgets.DrawLightHighlight(Renglon);
             if (Novedad.Oficial)
                 Widgets.DrawBoxSolid(Renglon, new Color(Verde.r, Verde.g, Verde.b, Parpadeo()));
             Widgets.DrawHighlightIfMouseover(Renglon);
             Columnas(Renglon.ContractedBy(12f, 0f), out Rect Mod, out Rect Cambio, out Rect Fecha);
+            Mod.xMin += Sangria;
 
             Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.MiddleLeft;
