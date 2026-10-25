@@ -80,7 +80,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | stele / glyph / decoder | **estela** / **glifo** / **decodificador** | |
 | reality anchor | **ancla de realidad** | |
 | zero-point (generator, reactor) | **de punto cero** | |
-| antigrain warhead | **ojiva de antigrano** | Como en vanilla |
+| antigrain warhead | **obús de antigrano** | Oficial (`Shell_AntigrainWarhead`), el mismo objeto que carga el generador de punto cero. Decía «ojiva de antigrano», con la nota «como en vanilla», hasta el 25-oct-2026. Pendiente: 2 usos en este mod |
 | court-martial | **consejo de guerra** | Ya lo usaba la sesión 1 |
 | kill order | **orden de exterminio** | Ya lo usaba la sesión 1 |
 | hunt / hunting party / huntdown raid | **cacería** / **partida de caza** / **incursión de cacería** | |
@@ -108,7 +108,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | slug / buckshot / flechette | **posta** / **perdigones** / **flechette** | «posta de goma» ya estaba aprobada |
 | dragon's breath | **aliento de dragón** | |
 | firefoam | **espuma cortafuego** | Oficial. Decía «espuma ignífuga» hasta la sesión 6 |
-| EMP | **EMP** | Sin traducir, como en el resto de RML |
+| EMP | **PEM** | Oficial («granadas PEM», «obús PEM»), y como en Combat Extended. Decía «EMP», sin traducir, hasta el 25-oct-2026, cuando Angel decidió que la oficial gana. Pendiente: 14 usos en este mod |
 | Legacy remnant | **remanentes del Legado** | |
 | exostrider | **exoandador** | |
 | key-card / access key | **tarjeta de acceso** | |
@@ -142,7 +142,7 @@ a pedido de Angel el 20-oct-2026, y los textos que ya decían otra cosa se corri
 | infrasonic trauma / rupture | **trauma infrasónico** / **ruptura infrasónica** | |
 | reality anchored / suppressed | **anclado a la realidad** / **realidad suprimida** | |
 | field mothball | **hibernación en el campo** | Las unidades «en hibernación» de `ThingDef` |
-| Ancient corps | **Cuerpo antiguo** | Como en *The Dead Man's Switch - AncientCorps*. Sus unidades van como allá: «molot BR-3», «krepost BR-6» |
+| Ancient corps | **Cuerpo antiguo** | Como en *The Dead Man's Switch - AncientCorps*. Sus unidades van como allá: «molot BR-3», «krepost BR-6». Lo propio de ese mod está en [GLOSARIO-AC.md](../The%20Dead%20Man's%20Switch%20-%20AncientCorps%20-%203469398006/GLOSARIO-AC.md) |
 
 **Pronombres de una persona** (`{DEVIANT_pronoun}`, `{DEVIANT_objective}`, `{DEFENDANT_objective}`):
 en español llevarían género, así que la frase se arma sin ellos («La flota nunca supo que estuvo
@@ -232,8 +232,11 @@ de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra co
 | server racks | **racks de servidores** | |
 | freight elevators | **ascensores de carga** | |
 
-**Se dejan como estaban**, aunque la oficial diga otra cosa: «lanzadera» (shuttle; la oficial dice
-«transbordador», pero manda el glosario general), «EMP» (ver la sesión 2), «proyectil de alto
+**«Lanzadera» y «EMP» pasan a la forma oficial** el 25-oct-2026: Angel decidió que, si un glosario
+contradice a la oficial, gana la oficial. Son «transbordador» (shuttle; 10 usos de «lanzadera» en este
+mod) y «PEM». Los textos ya traducidos quedan pendientes.
+
+**Se dejan como estaban**, porque no son el mismo término que la oficial: «proyectil de alto
 explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la munición de mortero) y
 «venerado» (el «sagrado» oficial es el del animal venerado, otro contexto).
 

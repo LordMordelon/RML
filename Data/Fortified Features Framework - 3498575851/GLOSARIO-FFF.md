@@ -63,4 +63,8 @@ pasa, declaran guerras y mandan compañías. Ninguno tenía traducción en uso, 
 Las cuatro inconsistencias que se encontraron al armar el glosario se corrigieron el 24-oct-2026,
 con el visto bueno de Angel: «meca» en masculino (13 textos de FFF y uno de DMS), «meca» y no
 «mecanoide» donde el inglés dice *mech* (7 textos), «EMP» en vez de «PEM» y «cacería» en vez de
-«persecución». No falta nada.
+«persecución».
+
+El 25-oct-2026 Angel decidió que, si un glosario contradice a la traducción oficial, gana la oficial.
+Por eso «EMP» vuelve a ser **«PEM»**, como «granadas PEM» del juego (ver
+[RML/GLOSARIO.md](../../GLOSARIO.md)). Pendiente: el uso de «EMP» que queda en los textos de FFF.

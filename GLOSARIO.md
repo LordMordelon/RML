@@ -3,6 +3,8 @@
 Glosario y guía de estilo centralizada para el proyecto de traducción al Español Latinoamericano de mods de RimWorld (incluyendo contenido base, expansiones Biotech, Royalty, Anomaly, Ideology, y mods temáticos como Mechanitor Orbital Platform, Persona Mechanoid Pawns, Save Our Ship 2, etc.).
 
 > **Regla de oro:** Mantener absoluta coherencia terminológica con el juego oficial de RimWorld en Español. Ante un término nuevo no documentado aquí, consultar antes de fijarlo.
+>
+> **Si este glosario, o el de un mod, contradice a la traducción oficial, gana la oficial** (Angel, 25-oct-2026). La oficial está en `RimWorld/Data/<Core o DLC>/Languages/SpanishLatin (Español(Latinoamérica))`. Las filas corregidas por esa regla dicen cuántos textos de RML usan todavía el término viejo: se corrigen a mano, mod por mod, sin tocar los `UNUSED.xml`.
 
 ---
 
@@ -24,8 +26,8 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | (mech) recharger / charger | **cargador de mecas** | Oficial vanilla. NO "recargador"; el proceso/verbo sí es "recarga"/"recargar" |
 | large mech recharger | **gran cargador de mecas** | Oficial vanilla. Mismo patrón que "gran gestador de mecas": el adjetivo va **delante**, NO "cargador de mecas grande" |
 | supercharger | sobrecargador | |
-| mech booster | acelerador de mecas | |
-| mech cluster | clúster mecanoide | |
+| mech booster | **potenciador meca** | Oficial (`MechBooster`). Decía «acelerador de mecas» hasta el 25-oct-2026 (sin usos en RML) |
+| mech cluster | **clúster de mecas** | Oficial (`MechCluster`). Decía «clúster mecanoide» hasta el 25-oct-2026. Pendiente: 4 usos en 3 archivos de RML |
 | mechhive / mech hive | **mecacolmena** | Oficial vanilla. NO "colmena mecanoide" |
 | war mech | meca de guerra | |
 | labor mech | meca de trabajo | |
@@ -52,11 +54,11 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | (toxic) waste pack | **pack de residuos (tóxicos)** | NO "paquete" ni "fardo" |
 | wastepack atomizer | atomizador de residuos | |
 | pollution / polluted | contaminación / contaminado | |
-| pollution pump | bomba de descontaminación | |
-| hemogen / sanguophage | hemógeno / sanguófago | |
-| deathrest | letargo mortal | |
+| pollution pump | **bomba descontaminante** | Oficial (`PollutionPump`). Decía «bomba de descontaminación» hasta el 25-oct-2026. Pendiente: 1 uso en RML |
+| hemogen / sanguophage | hemógeno / **sanguífago** | Oficial (`Sanguophage`). Decía «sanguófago» hasta el 25-oct-2026. Pendiente: 6 usos en 5 archivos de RML |
+| deathrest | **mortisueño** | Oficial (`Deathrest`). Decía «letargo mortal» hasta el 25-oct-2026. Pendiente: 2 usos en 2 archivos de RML |
 | xenotype / xenogerm | xenotipo / xenogermen | |
-| gene assembler / genepack | ensamblador de genes / pack de genes | |
+| gene assembler / genepack | **ensamblador genético** / **pack de genes** | Oficiales (`GeneAssembler`, `Genepack`). Decía «ensamblador de genes» hasta el 25-oct-2026. Pendiente: 6 usos en 2 archivos de RML |
 
 ---
 
@@ -67,7 +69,7 @@ En medio de frase se escriben en minúscula (p. ej. *"un mecanoide fabricoide"*,
 | Inglés | Español (LatAm) | Rol / Categoría |
 |---|---|---|
 | Agrihand | **agricoide** | Trabajo (cultivo) |
-| Cleansweeper | **barredoide** | Trabajo (limpieza) |
+| Cleansweeper | **limpiadroide** | Trabajo (limpieza). Oficial (`Mech_Cleansweeper`). Decía «barredoide» hasta el 25-oct-2026. Pendiente: 1 uso en RML |
 | Constructoid | **constructoide** | Trabajo (construcción) |
 | Fabricor | **fabricoide** | Trabajo (fabricación/cocina) |
 | Lifter | **transportoide** | Trabajo (transporte) |
@@ -75,7 +77,7 @@ En medio de frase se escriben en minúscula (p. ej. *"un mecanoide fabricoide"*,
 | Pikeman | **piquero** | Combate a distancia media |
 | Scyther | **segador** | Combate cuerpo a cuerpo |
 | Lancer | **lancero** | Combate de precisión a larga distancia |
-| Scorcher | **abrasador** | Combate ignífugo |
+| Scorcher | **flamígero** | Combate ignífugo. Oficial (`Mech_Scorcher`). Decía «abrasador» hasta el 25-oct-2026. Pendiente: revisar los 22 usos de «abrasador» en 18 archivos de RML; algunos pueden ser el adjetivo («calor abrasador») y esos se quedan |
 | Tunneler | **tunelador** | Minería y blindaje pesado |
 | Centipede | **ciempiés** | Combate pesado (artillero, abrasador, etc.) |
 | Legionary | **legionario** | Soporte con escudo ancho |
@@ -102,7 +104,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | skygate | puerta celeste | |
 | gateway | pasarela espacial / portal espacial | |
 | gravship | **gravinave** | Oficial vanilla (Odyssey). NO "nave gravitacional", "nave gravitatoria" ni "gravnave" |
-| shuttle | **lanzadera** | Vehículo espacial/orbital imperial vanilla |
+| shuttle | **transbordador** | Oficial: «transbordador imperial» (`Shuttle`), 219 usos en la oficial contra 6 de «lanzadera». Decía «lanzadera» hasta el 25-oct-2026. Pendiente: 172 usos de «lanzadera» en 40 archivos de RML |
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
 | drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa. Pendiente: corregirlo en 4 mods de RML que lo usan (Vanilla Gravship Expanded - Chapter 2, Logistics Mechanoid, Persona Mechanoid Pawns 2, FrozenSnowFox Tweaks) |
 | head claw | **garra craneal** | Oficial vanilla (insectoides). NO «garra de la cabeza». Pendiente: corregirlo en 3 mods de RML que lo usan (VFE - Insectoids 2, VQE - Cryptoforge, Zoology); el `UNUSED.xml` de Cryptoforge no se toca |
@@ -137,8 +139,8 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | archotech | **arqueotéc** | Femenino: *"la arqueotéc"*, *"las arqueotéc"*. Como adjetivo es invariable: *"brazo arqueotéc"*, *"artefacto arqueotéc"*. NO "archotec" ni "arcotecnológico" |
 | psylink | **psicoenlace** | NO "psienlace" |
 | psylink neuroformer / psychic amplifier | **neuroformador de psicoenlace** | |
-| psycast / psyfocus | **psiconjuro** / **psicofoco** | Términos oficiales de Royalty |
-| psychic entropy / neural heat | entropía psíquica / calor neuronal | |
+| psycast / psycaster / psyfocus | **psicoemisión** / **psicoemisor** / **psicofoco** | Oficiales de Royalty («aprender la psicoemisión {0}», «Los psicoemisores pueden meditar»). Decía «psiconjuro» hasta el 25-oct-2026, que la oficial no usa. Pendiente: 14 usos en 9 archivos de RML |
+| psychic entropy / neural heat | **calor neural** | Oficial: el juego muestra `PsychicEntropy` como «calor neural». Decía «entropía psíquica / calor neuronal» hasta el 25-oct-2026. Pendiente: 26 usos de «entropía psíquica» en 3 archivos y 7 de «calor neuronal» en 5 |
 
 ---
 
@@ -156,6 +158,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | creepjoiner | forastero anómalo | |
 | entity | entidad | Término de Anomaly |
 | raid / assault | asalto / incursión | |
+| EMP | **PEM** | Oficial: «granadas PEM», «obús PEM», «lanzagranadas PEM», el daño `EMP`. Lo usan así Combat Extended y el `ARMAS-DMS.md` de DMS. Hasta el 25-oct-2026 la familia DMS y Fortified Features Framework lo dejaban como «EMP»: sus glosarios ya dicen «PEM» y sus textos quedan pendientes |
 | siege | asedio | |
 | drop pod raid | incursión en cápsulas de escape | |
 | loot | botín | |
@@ -202,7 +205,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | hyperweave | **hipertejido** | |
 | neutroamine | neutroamina | |
 | components / adv. components | componentes / componentes avanzados | |
-| glitterworld medicine | medicina del mundobrillante | |
+| glitterworld medicine | **medicina de mundobrillante** | Oficial (`MedicineUltratech`). Decía «del mundobrillante» hasta el 25-oct-2026 (sin usos en RML) |
 | herbal medicine | medicina herbal | |
 
 ---
