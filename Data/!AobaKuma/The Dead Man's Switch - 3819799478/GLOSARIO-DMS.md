@@ -19,8 +19,8 @@ Aprobado por Angel el 22-oct-2026.
 |---|---|---|
 | automatroid | **automatroide** | Más de 100 usos. No «autómata»: quedan 4 así, a corregir (ver abajo). No tiene forma corta: no se inventa una |
 | mech | **meca** (pl. mecas) | La forma corta que usa el propio inglés, como en el glosario general. No «mecanoide», que es *mechanoid*. Decidido por Angel el 21-oct-2026 |
-| mech soldier(s) | **soldados meca** | Armas meca: «rifle de asalto meca», sin «de» delante de meca. Aprobado por Angel el 22-oct-2026 |
-| Dawnblade | **Hoja del Alba** | La torreta («torreta Hoja del Alba») y el arma montable («MPQFS-85M "Hoja del Alba"»). Aprobado por Angel el 22-oct-2026 |
+| mech soldier(s) | **soldados meca** | Armas meca: «fusil de asalto meca», sin «de» delante de meca. Aprobado por Angel el 22-oct-2026; «fusil» desde el 24-oct (ver «Armas y torretas») |
+| Dawnblade | **hoja del alba** | La torreta («torreta hoja del alba») y el arma montable («MPQFS-85M hoja del alba»). Aprobado por Angel el 22-oct-2026; en minúscula y sin comillas desde el 24-oct (ver «Armas y torretas») |
 | automatroid debris | **desechos automatroide** | Como los «desechos mecanoide» oficiales (`ChunkMechanoidSlag`). La variante antigua: «desechos automatroide antiguos». Pedido por Angel el 21-oct-2026 |
 | exostrider | **exozancador** | Oficial de Odyssey («restos del exozancador») |
 | battle frame | **armazón de batalla** (pl. armazones) | La línea de automatroides de carga |
@@ -270,6 +270,28 @@ postrero». Por eso algunos cambian un poco: Tide es «Oleaje» y no «Marea», 
 **`{CASKET}`** llega sin artículo y empieza siempre por «cofre» (es el `LabelNoCount`), así que las
 cartas dicen «abre el {CASKET}». En los mensajes de cofre ya abierto o vacío es el nombre suelto, y va
 al principio de la frase.
+
+## Armas y torretas (24-oct-2026)
+
+Decisiones de Angel al revisar las 72 armas y torretas del mod. La lista completa, con el antes y el
+después de cada una, está en [ARMAS-DMS.md](ARMAS-DMS.md).
+
+- **Al estilo del juego**: nombres en minúscula, salvo los códigos (GAU-8, MK44) y los nombres de armas
+  reales (Kord, Vasilek, Okhotnik), como el «martillo Zeus» oficial.
+- **«fusil»** para las armas militares; **«rifle»** solo para las de caza o civiles («rifle de
+  supervivencia», «rifle para elefantes»). También en las descripciones.
+- **Siglas como el juego**: LMG, HMG, SMG, PDW («LMG meca», «torreta de HMG»). La descripción explica la
+  sigla con la fórmula oficial: «Una ametralladora ligera o por sus siglas en inglés LMG (light machine
+  gun) es…».
+- **Apodos traducidos, sin comillas y en minúscula**: «GAU-8 vengador», «GAU-4 vulcano».
+- **Torretas**: el edificio es «torreta de <arma>» (o «mortero» si es un mortero) y el arma que dispara
+  lleva el nombre del arma, como en el juego: «torreta de HMG» dispara la «HMG meca».
+- **Equipo de la cintura**: «pack» o «cinturón» según el inglés, nunca «mochila»: van en la capa
+  «cinturón» del juego. «pack de sabuesos», «cinturón de drones exploradores».
+- **«subfusil»**, no «metralleta». **«militoide»** para el *militor* del juego (la oficial).
+- **«bala perforante trazadora»** para *APT*.
+- `DMS_Gun_Kord.description` es nuestra: el autor dejó «kord». Si escribe la suya, el `EN:` cambia y se
+  reemplaza por la traducción.
 
 ## Automatroides
 
