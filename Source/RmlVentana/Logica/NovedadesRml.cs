@@ -147,7 +147,7 @@ namespace RmlVentana.Logica
         }
 
         /** De lo mas nuevo a lo mas viejo, y en la misma fecha por nombre. */
-        private static void Ordenar(List<Novedad> Lista) =>
+        public static void Ordenar(List<Novedad> Lista) =>
             Lista.Sort((A, B) =>
             {
                 int PorFecha = string.CompareOrdinal(B.Fecha, A.Fecha);

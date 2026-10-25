@@ -118,7 +118,7 @@ namespace RmlVentana
 
         /** La lista del LoadFolders.xml que el juego usa: la de esta version, o la mas cercana hacia
          *  atras, o la «default». Como ModContentPack.InitLoadFolders. Null si el mod no tiene. */
-        private static List<LoadFolder> CarpetasDeLaVersion(ModMetaData Meta)
+        internal static List<LoadFolder> CarpetasDeLaVersion(ModMetaData Meta)
         {
             if (Meta?.loadFolders == null || Meta.loadFolders.DefinedVersions().Count == 0)
                 return null;

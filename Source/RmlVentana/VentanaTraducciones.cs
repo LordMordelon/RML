@@ -44,6 +44,8 @@ namespace RmlVentana
         private readonly string Resumen;
         private readonly List<EntradaDeNovedades> Entradas;
         private readonly List<Novedad> Pendientes;
+        /** Si las novedades salieron con lo del PC (CambiosEnElPc), para poner la copia al dia al cerrar. */
+        private readonly bool ConLocales;
         private readonly bool YaVistas;
         /** «Ver todo el historial»: todos los mods por la fecha de su ultimo cambio. */
         private readonly List<GrupoDeFecha> Historial;
@@ -85,6 +87,12 @@ namespace RmlVentana
                 string Archivo = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Novedades.tsv");
                 var Entradas = NovedadesRml.Leer(System.IO.File.Exists(Archivo) ? System.IO.File.ReadAllText(Archivo) : null);
                 var Pendientes = NovedadesRml.ParaMostrar(Entradas, Ajustes.NovedadesVistas, Ajustes.NovedadesMostradas, DateTime.Today, out bool YaVistas);
+                // Los mods activos con copia en el PC dicen ellos mismos que cambio (PLAN-CAMBIOS-LOCALES.md).
+                // Si todavia se esta calculando, queda lo del builder.
+                var Locales = CambiosEnElPc.Locales;
+                if (Locales != null)
+                    Pendientes = CambiosLocales.Aplicar(Pendientes, YaVistas, Entradas, Locales, CambiosEnElPc.ArchivoLocal,
+                        DateTime.Today.ToString("yyyy-MM-dd"), out YaVistas);
                 // Lo ya visto se muestra igual, pero no hace aparecer la ventana sola.
                 bool HayNuevas = Pendientes.Count > 0 && !YaVistas;
 
@@ -97,7 +105,7 @@ namespace RmlVentana
                 Novedades = Clasificador.DebeAparecerSola(Ajustes.NoVolverAMostrar,
                     Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas,
                     HayNovedades: HayNuevas || Pendientes.Any(x => x.Oficial));
-                return new VentanaTraducciones(Filas, Entradas, Pendientes, YaVistas);
+                return new VentanaTraducciones(Filas, Entradas, Pendientes, YaVistas, Locales != null);
             }
             catch (Exception e)
             {
@@ -106,8 +114,9 @@ namespace RmlVentana
             }
         }
 
-        private VentanaTraducciones(List<Fila> Filas, List<EntradaDeNovedades> Entradas, List<Novedad> Pendientes, bool YaVistas)
+        private VentanaTraducciones(List<Fila> Filas, List<EntradaDeNovedades> Entradas, List<Novedad> Pendientes, bool YaVistas, bool ConLocales)
         {
+            this.ConLocales = ConLocales;
             this.Filas = Filas;
             this.Entradas = Entradas;
             this.Pendientes = Pendientes;
@@ -154,6 +163,9 @@ namespace RmlVentana
             if (Pendientes.Any(x => x.Oficial))
                 Ajustes.OficialNovedades = new List<string>();
             RmlVentanaMod.Instancia.WriteSettings();
+            // Lo del PC ya se mostro: la proxima vez se compara contra esto.
+            if (ConLocales)
+                CambiosEnElPc.AlCerrar();
         }
 
         public override void DoWindowContents(Rect inRect)

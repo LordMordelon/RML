@@ -1,8 +1,9 @@
 # Plan: «Ver cambios» contra la versión que había en el PC
 
-**Estado: aprobado por Angel el 25-oct-2026**, con el inglés del comentario `EN:` y la copia solo de
-los mods activos. Es la etapa 6 de la ventana ([PLAN-VENTANA.md](PLAN-VENTANA.md)). Se hace en una
-sesión nueva.
+**Estado: hecho el 25-oct-2026, falta probarlo en el juego** (ver «Cómo lo prueba Angel»). Aprobado
+por Angel el mismo día, con el inglés del comentario `EN:` y la copia solo de los mods activos. Es la
+etapa 6 de la ventana ([PLAN-VENTANA.md](PLAN-VENTANA.md)). Lo que cambió al hacerlo está en «Cómo
+quedó», al final.
 
 ## Qué se quiere
 
@@ -38,7 +39,7 @@ importar de dónde la bajó ni cómo actualizó.
 
 1. **Una copia de los textos que el jugador tenía.** El juego guarda, en su carpeta de
    configuración, los textos de RML de cada mod tal como estaban la última vez que se cerró la
-   ventana: `Config/RML_Textos/<packageId>.tsv`, una línea por texto (clave, traducción e inglés),
+   ventana: `Config/RML_Textos/<WorkshopID>.tsv`, una línea por texto (clave, traducción e inglés),
    con una huella de los archivos al principio (ruta, tamaño y fecha de cada XML del mod).
 2. **Al iniciar, en segundo plano**, RML recorre sus carpetas de mod que el juego cargó y compara la
    huella de cada una con la guardada. Solo las que cambiaron se leen enteras y se comparan texto por
@@ -59,8 +60,9 @@ importar de dónde la bajó ni cómo actualizó.
   `LanguageDatabase.defaultLanguage.keyedReplacements`, que existen en la 1.7): Angel prefiere el
   mismo origen que ya usa el builder, y así los `Patches/` también tienen su inglés.
   - La copia que carga el juego (`output/`) no trae los comentarios, para pesar menos. Por eso
-    `CopiaLimpia` escribe además `Ingles.tsv` en la raíz de `output/`: una línea por texto con
-    packageId, clave e inglés, el de `CambiosDeTexto.Leer`. No se commitea, como `Cambios.tsv`.
+    `CopiaLimpia` escribe además `Ingles.tsv` en la raíz de `output/`: por cada carpeta de mod, una
+    línea con la carpeta y cuántos textos tiene, y después el inglés de cada texto en el orden en que
+    los lee `TextosDeTraduccion.Leer`. No se commitea, como `Cambios.tsv`.
   - Medido el 25-oct-2026: el inglés de los comentarios de `Data/` son unos 7 MB sin comprimir,
     sobre los 15 MB de `output/`. Comprimido para el Workshop o la release, alrededor de 1,5 MB más.
   - El juego lo lee línea por línea y solo las de los mods que cambiaron, como hoy `Cambios.tsv`.
@@ -74,7 +76,7 @@ importar de dónde la bajó ni cómo actualizó.
 - **Las carpetas son las que el juego cargó** (`ModContentPack.foldersToLoadDescendingOrder` de RML),
   no todo `Data/`: así la copia sigue la versión del juego (1.6 o 1.7) y solo los mods presentes.
   También comprobado en la 1.7.
-- **El mismo lector de textos en los dos lados.** `CambiosDeTexto.Leer` y `Comparar` viven hoy en el
+- **El mismo lector de textos en los dos lados.** `CambiosDeTexto.Leer` y `Comparar` vivían en el
   builder (.NET 10). Se pasan a `Source/RmlVentana/Logica/` (sin tipos del juego, .NET Framework
   4.7.2) y el builder los compila con un enlace al mismo archivo, como hacen hoy las pruebas. Así la
   clave de un texto es la misma en el `Cambios.tsv` del builder y en el local.
@@ -112,3 +114,28 @@ Pruebas primero en `RmlVentana.Tests` para las etapas 2 y 3. Costo estimado: una
    con su inglés en gris.
 2. Cerrar la ventana, reiniciar: ya no sale como novedad, y «Ver todo el historial» lo sigue mostrando.
 3. Un mod que no se tocó no tiene que aparecer, aunque el builder lo tenga en su `Cambios.tsv`.
+
+## Cómo quedó
+
+- **El código.** `Logica/TextosDeTraduccion.cs` (el lector, que el builder compila con un enlace),
+  `Logica/CopiaDeTextos.cs` (la copia y su huella), `Logica/CambiosLocales.cs` (qué filas salen) y
+  `CambiosEnElPc.cs` (lo que corre en el juego). Arranca en el constructor del mod, mientras el juego
+  carga, así que casi siempre está listo antes de que aparezca la ventana. Con el modo desarrollador,
+  el log dice cómo terminó («cambios en el PC: …»).
+- **`Ingles.tsv` sin las claves.** Con carpeta y clave en cada línea pesaba 18 MB: la clave pesaba más
+  que el inglés. Sin ellas son 5,6 MB (1,5 MB comprimido), lo que estimaba el plan. Como el inglés va
+  por orden, cada carpeta lleva cuántos textos tiene, y si no coincide con lo que lee el juego, ese mod
+  queda sin inglés en vez de con uno corrido de lugar.
+- **La copia va por el número del Workshop**, no por el packageId: The Dead Man's Switch y el II
+  comparten packageId, y cambiar de versión del juego compararía uno contra el otro.
+- **Un mod con copia decide él mismo si sale en Novedades.** Hacía falta para las pruebas 1 y 3 de
+  abajo: un texto cambiado a mano no está en `Novedades.tsv`, y un mod que no cambió en el PC no tiene
+  que salir aunque el builder lo tenga. `Novedades.tsv` y `NovedadesRml` no cambian; `CambiosLocales`
+  va encima: si el mod cambió, sale como «Corregido» o «Actualizado» (según `Novedades.tsv`) con lo del
+  PC, aunque el builder lo diera por añadido; si no cambió, no sale.
+- **Medido el 25-oct-2026 con los mods activos de Angel, fuera del juego:** 84 carpetas de RML, 31.485
+  textos, la copia entera en 6,3 MB y 0,6 segundos la primera vez; el inglés calzó en las 84 y ningún
+  mod salió cambiado sin cambios. Se dejó el inglés en la copia: sacarlo ahorraba 1,6 MB y los textos
+  quitados saldrían sin su inglés.
+- **Al actualizar desde el Workshop** cambian las fechas de todos los archivos: ese inicio lee todos los
+  mods activos (medio segundo, en segundo plano) y los que no cambiaron se ponen al día solos.

@@ -41,7 +41,8 @@ LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
 Novedades.tsv                   GENERADO solo en output/, sin commitear — lo que cambió en cada mod, para la ventana del juego (Novedades.cs)
-Cambios.tsv                     GENERADO solo en output/, sin commitear — los textos de cada mod antes y después de la última subida, para «Ver cambios» (CambiosDeTexto.cs)
+Cambios.tsv                     GENERADO solo en output/, sin commitear — los textos de cada mod antes y después de la última subida, para «Ver cambios» (TextosDeTraduccion.cs)
+Ingles.tsv                      GENERADO solo en output/, sin commitear — el inglés de cada texto, que output/ no trae en comentarios, para comparar contra el PC (PLAN-CAMBIOS-LOCALES.md)
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
@@ -54,7 +55,9 @@ Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6): la ventana de mods
                                 traducidos y sus ajustes (PLAN-VENTANA.md), y el botón que baja la traducción oficial
-                                de GitHub (PLAN-TRADUCCION-OFICIAL.md; solo en 1.7, toca Data/ del juego). Logica/ no usa tipos del juego
+                                de GitHub (PLAN-TRADUCCION-OFICIAL.md; solo en 1.7, toca Data/ del juego). Logica/ no usa tipos del juego.
+                                «Ver cambios» compara contra la copia de los textos que guarda en Config/RML_Textos
+                                (CambiosEnElPc.cs, PLAN-CAMBIOS-LOCALES.md); Logica/TextosDeTraduccion.cs lo compila también el builder
 Source/RmlVentana.Tests/        las pruebas de Logica/, sin el juego (dotnet test; la CI las corre en loadfolders.yml)
 Source/LoadFoldersBuilder.Tests/ las del builder que no necesitan git ni Steam: hoy, la comparación de Cambios.tsv
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),

@@ -7,12 +7,13 @@ using Verse;
 
 namespace RmlVentana
 {
-    /** «Ver cambios»: los textos de un mod que cambiaron en la ultima subida de RML, como el diff de
+    /** «Ver cambios»: los textos de un mod que cambiaron desde la version que el jugador tenia en su PC
+     *  (CambiosEnElPc), o si no la hay, desde la ultima subida de RML al Workshop. Como el diff de
      *  VS Code: el renglon de antes con fondo rojo y el de ahora con fondo verde, y dentro de cada uno
      *  las palabras que cambiaron con el mismo color mas fuerte (PLAN-VENTANA.md, etapa 5).
      *
-     *  Cambios.tsv se lee recien al abrirla, y solo las lineas de este mod: con la casilla de los
-     *  ajustes apagada no se abre nunca, y abierta no pesa al cargar el juego.
+     *  Cambios.tsv (o el del PC, en Novedad.Archivo) se lee recien al abrirla, y solo las lineas de este
+     *  mod: con la casilla de los ajustes apagada no se abre nunca, y abierta no pesa al cargar el juego.
      *
      *  Si de la traduccion solo se agrego o solo se quito, va un solo bloque; y el ingles se resalta
      *  igual cuando tambien cambio, asi que sin resaltar dice que el cambio fue solo de la traduccion
@@ -40,7 +41,7 @@ namespace RmlVentana
         private readonly List<Elemento> Elementos = new List<Elemento>();
         /** Los grupos cerrados. Arrancan todos abiertos y no se guardan. */
         private readonly HashSet<Categoria> Plegadas = new HashSet<Categoria>();
-        /** Los que no entraron en el archivo por el tope del builder (CambiosDeTexto.Tope). */
+        /** Los que no entraron en el archivo por el tope del builder (Novedades.Tope del builder); el del PC no tiene tope. */
         private readonly int Resto;
         private Vector2 Desplazamiento;
 

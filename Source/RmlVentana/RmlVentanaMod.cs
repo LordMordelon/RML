@@ -20,6 +20,8 @@ namespace RmlVentana
         {
             Instancia = this;
             Ajustes = GetSettings<AjustesRml>();
+            // Mientras carga el juego, para que este listo al abrir la ventana.
+            CambiosEnElPc.Empezar(content);
         }
 
         public override string SettingsCategory() => "RML_Ventana_Titulo".Translate();
@@ -103,7 +105,7 @@ namespace RmlVentana
                 if (Prefs.DevMode)
                     Log.Message("[Traducciones [Español Latino]] Al iniciar: idioma " + LanguageDatabase.activeLanguage?.folderName +
                                 ", novedades " + (Novedades ? "sí" : "no") + ", lista " + (Ventana == null ? "con error" : "lista") +
-                                ", intento " + (Intentos - Quedan + 1) + ".");
+                                ", intento " + (Intentos - Quedan + 1) + ", cambios en el PC: " + CambiosEnElPc.Estado() + ".");
 
                 if (Ventana != null && Novedades)
                     Find.WindowStack.Add(Ventana);
