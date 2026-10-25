@@ -19,6 +19,9 @@ namespace RmlVentana
         public DateTime Fecha;
         public string Version;
 
+        /** La compilacion del juego para la que esta hecha («1.7.4982»), para el aviso de juego atrasado. */
+        public Version VersionCompleta;
+
         /** El ultimo cambio de cada carpeta del repositorio («Core», «Biotech»…) hasta ese Sha. */
         public Dictionary<string, DateTime> PorCarpeta = new Dictionary<string, DateTime>();
     }
@@ -421,7 +424,13 @@ namespace RmlVentana
             if (!TraduccionOficial.LeerCommit(Json, out string Sha, out DateTime Fecha))
                 return null;
             string Readme = Cliente.GetStringAsync("https://raw.githubusercontent.com/" + TraduccionOficial.Repositorio + "/" + Sha + "/README.md").Result;
-            var Consulta = new ConsultaOficial { Sha = Sha, Fecha = Fecha, Version = TraduccionOficial.VersionDelReadme(Readme) };
+            var Consulta = new ConsultaOficial
+            {
+                Sha = Sha,
+                Fecha = Fecha,
+                Version = TraduccionOficial.VersionDelReadme(Readme),
+                VersionCompleta = TraduccionOficial.VersionCompletaDelReadme(Readme),
+            };
 
             foreach (string Carpeta in Carpetas)
             {

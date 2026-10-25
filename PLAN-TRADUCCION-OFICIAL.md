@@ -214,6 +214,14 @@ venidas de otra instalación, cada una puede tener su traducción de otra fecha,
 - Con los datos reales del 25-oct: RimWorld y Biotech con arreglos del 19-oct; Royalty, Ideology,
   Anomaly y Odyssey al día (su último cambio es del 16-jul, minutos antes de su `.tar`).
 
+**Aviso de juego atrasado, aproximado** (pedido por Angel el 25-oct-2026, hecho ese día). Los DLC no
+tienen versión propia (su `About.xml` no la trae) y se actualizan con el juego, y Ludeon no publica
+cuál es la última versión. Lo único a mano es el README de la traducción oficial, que dice para qué
+compilación está hecha: si el juego es anterior, salió al menos esa. Los ajustes lo dicen en amarillo
+(«Tu juego es la versión 1.7.4900, y ya salió al menos la 1.7.4982…»). Sirve solo hacia un lado: el
+README a veces va atrasado (hoy dice 4982 y el juego es 4985), y un juego más nuevo no dice nada.
+`TraduccionOficial.JuegoAtrasado`, con sus pruebas.
+
 ## Cuidados
 
 - **RML no incluye los archivos de Ludeon:** el jugador los baja de su repositorio público al

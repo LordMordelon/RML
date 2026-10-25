@@ -141,6 +141,14 @@ namespace RmlVentana
                 GUI.color = Color.white;
             }
 
+            // Aproximado (TraduccionOficial.JuegoAtrasado): sirve a quien baja las actualizaciones a mano.
+            if (GitHub != null && TraduccionOficial.JuegoAtrasado(RimWorld.VersionControl.CurrentVersion, GitHub.VersionCompleta))
+            {
+                GUI.color = new Color(0.95f, 0.8f, 0.45f);
+                Lista.Label("RML_Oficial_JuegoAtrasado".Translate(RimWorld.VersionControl.CurrentVersion.ToString(3), GitHub.VersionCompleta.ToString()));
+                GUI.color = Color.white;
+            }
+
             if (OficialJuego.Error != null)
             {
                 GUI.color = new Color(1f, 0.55f, 0.5f);

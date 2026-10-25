@@ -44,6 +44,24 @@ namespace RmlVentana.Logica
             return Numero.Success ? Numero.Groups[1].Value : null;
         }
 
+        /** 1.7.4982 de «versión 1.7.4982»: la compilacion del juego para la que esta hecha la traduccion. */
+        public static Version VersionCompletaDelReadme(string Readme)
+        {
+            if (Readme == null)
+                return null;
+            Match Numero = Regex.Match(Readme, @"\b(\d+)\.(\d+)\.(\d+)");
+            return Numero.Success
+                ? new Version(int.Parse(Numero.Groups[1].Value), int.Parse(Numero.Groups[2].Value), int.Parse(Numero.Groups[3].Value))
+                : null;
+        }
+
+        /** Un aviso aproximado para quien no recibe las actualizaciones solo: Ludeon no publica cual es la
+         *  ultima version, pero la traduccion oficial dice para cual esta hecha, y no puede ser de una
+         *  que no salio. Si el juego es anterior, salio al menos esa. Sirve solo hacia un lado: el
+         *  README a veces va atrasado, y un juego mas nuevo no dice nada. La revision no cuenta. */
+        public static bool JuegoAtrasado(Version Juego, Version DelReadme) =>
+            DelReadme != null && DelReadme > new Version(Juego.Major, Juego.Minor, Math.Max(0, Juego.Build));
+
         /** Las carpetas del zip que el juego tambien tiene en Data/, con el nombre de Data/. Un DLC que
          *  no esta instalado se salta, y Scripts y .github no tienen carpeta en Data/. */
         public static List<string> CarpetasAInstalar(IEnumerable<string> DelZip, IEnumerable<string> DeData)

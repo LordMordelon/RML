@@ -31,6 +31,28 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void LaVersionCompletaDelReadmeTraeElNumeroDeCompilacion()
+        {
+            Assert.AreEqual(new Version(1, 7, 4982), TraduccionOficial.VersionCompletaDelReadme("de RimWorld versión 1.7.4982."));
+            Assert.IsNull(TraduccionOficial.VersionCompletaDelReadme("sin número"));
+        }
+
+        [TestMethod]
+        public void ElJuegoEstaAtrasadoSiElReadmeEsDeUnaCompilacionPosterior()
+        {
+            Assert.IsTrue(TraduccionOficial.JuegoAtrasado(new Version(1, 7, 4900, 1200), new Version(1, 7, 4982)));
+            Assert.IsTrue(TraduccionOficial.JuegoAtrasado(new Version(1, 7, 4985, 1269), new Version(1, 8, 100)));
+        }
+
+        [TestMethod]
+        public void UnJuegoIgualOMasNuevoQueElReadmeNoEstaAtrasado()
+        {
+            Assert.IsFalse(TraduccionOficial.JuegoAtrasado(new Version(1, 7, 4985, 1269), new Version(1, 7, 4982)));
+            Assert.IsFalse(TraduccionOficial.JuegoAtrasado(new Version(1, 7, 4982, 1269), new Version(1, 7, 4982)));
+            Assert.IsFalse(TraduccionOficial.JuegoAtrasado(new Version(1, 7, 4985, 1269), null));
+        }
+
+        [TestMethod]
         public void UnDlcAtrasadoAlcanzaParaQueHayaArreglos()
         {
             Assert.AreEqual(EstadoOficial.HayArreglos,
