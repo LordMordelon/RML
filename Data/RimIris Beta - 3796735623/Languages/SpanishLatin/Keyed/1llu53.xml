@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: On -->
+  <RimIris_Common_On>Encendido</RimIris_Common_On>
+  <!-- EN: Off -->
+  <RimIris_Common_Off>Apagado</RimIris_Common_Off>
+  <!-- EN: Intensity -->
+  <RimIris_Common_Intensity>Intensidad</RimIris_Common_Intensity>
+  <!-- EN: Radius -->
+  <RimIris_Common_Radius>Radio</RimIris_Common_Radius>
+  <!-- EN: Brightness threshold -->
+  <RimIris_Common_Threshold>Umbral de brillo</RimIris_Common_Threshold>
+  <!-- EN: None -->
+  <RimIris_Pack_None_Name>Ninguno</RimIris_Pack_None_Name>
+  <!-- EN: Fully restores the vanilla look (all RimIris effects off). -->
+  <RimIris_Pack_None_Desc>Devuelve por completo el aspecto original del juego (todos los efectos de RimIris apagados).</RimIris_Pack_None_Desc>
+  <!-- EN: Built-in — RimIris Core Effects -->
+  <RimIris_Pack_Builtin_Name>Integrado: efectos básicos de RimIris</RimIris_Pack_Builtin_Name>
+  <!-- EN: Post-processing / lighting tone / water / tides / rain wetness / depth of field / god rays. -->
+  <RimIris_Pack_Builtin_Desc>Posprocesado / tono de la iluminación / agua / mareas / suelo mojado por la lluvia / profundidad de campo / rayos de sol.</RimIris_Pack_Builtin_Desc>
+  <!-- EN: Built-in -->
+  <RimIris_Pack_Builtin_Short>Integrado</RimIris_Pack_Builtin_Short>
+  <!-- EN: RimIris Shader Packs -->
+  <RimIris_Screen_Title>Paquetes de shaders de RimIris</RimIris_Screen_Title>
+  <!-- EN: Lighting: enabled · {0} -->
+  <RimIris_Screen_StatusOn>Iluminación: activada · {0}</RimIris_Screen_StatusOn>
+  <!-- EN:  · +{0} add-on(s) -->
+  <RimIris_Screen_StatusAddons>&#32;· +{0} complemento(s)</RimIris_Screen_StatusAddons>
+  <!-- EN: Lighting: none (vanilla rendering) -->
+  <RimIris_Screen_StatusOff>Iluminación: ninguna (renderizado original)</RimIris_Screen_StatusOff>
+  <!-- EN: Drag to resize the window -->
+  <RimIris_Screen_GripTip>Arrastra para cambiar el tamaño de la ventana</RimIris_Screen_GripTip>
+  <!-- EN: Frost blur {0}% -->
+  <RimIris_Screen_FrostBlur>Desenfoque esmerilado {0}%</RimIris_Screen_FrostBlur>
+  <!-- EN: Frost &amp; transparency (temporarily disabled) — resumes when 1.7 RE matures -->
+  <RimIris_Screen_FrostDisabledNote>Esmerilado y transparencia (desactivados por ahora): vuelven cuando madure el RE de la 1.7</RimIris_Screen_FrostDisabledNote>
+  <!-- EN: Transparency {0}% -->
+  <RimIris_Screen_FrostTransparency>Transparencia {0}%</RimIris_Screen_FrostTransparency>
+  <!-- EN: None — vanilla rendering -->
+  <RimIris_Screen_NoneTitle>Ninguno: renderizado original</RimIris_Screen_NoneTitle>
+  <!-- EN: All RimIris effects are off — you are seeing the untouched vanilla frame. -->
+  <RimIris_Screen_NoneDesc>Todos los efectos de RimIris están apagados: ves la imagen original del juego, sin tocar.</RimIris_Screen_NoneDesc>
+  <!-- EN: Select &quot;Built-in&quot; or another shader pack and its settings will appear here. -->
+  <RimIris_Screen_NoneHint>Elige «Integrado» u otro paquete de shaders y sus ajustes aparecerán aquí.</RimIris_Screen_NoneHint>
+  <!-- EN: Shader packs -->
+  <RimIris_Screen_GroupBundle>Paquetes de shaders</RimIris_Screen_GroupBundle>
+  <!-- EN: Preset packs -->
+  <RimIris_Screen_GroupPreset>Paquetes de preajustes</RimIris_Screen_GroupPreset>
+  <!-- EN: External extensions -->
+  <RimIris_Screen_GroupExternal>Extensiones externas</RimIris_Screen_GroupExternal>
+  <!-- EN: Coexisting add-ons -->
+  <RimIris_Screen_GroupAddon>Complementos que se combinan</RimIris_Screen_GroupAddon>
+  <!-- EN: √ multi-select · stack with the active pack -->
+  <RimIris_Screen_AddonHint>√ selección múltiple · se suman al paquete activo</RimIris_Screen_AddonHint>
+  <!-- EN: ✖ {0} (disabled) -->
+  <RimIris_Screen_DisabledRow>✖ {0} (desactivado)</RimIris_Screen_DisabledRow>
+  <!-- EN: Load failed or repeated exceptions:
+{0} -->
+  <RimIris_Screen_FailTip>Falló la carga o hubo errores repetidos:\n{0}</RimIris_Screen_FailTip>
+  <!-- EN: Previewing &quot;{0}&quot; — not applied; click the circle on the left to apply -->
+  <RimIris_Screen_Preview_Exclusive>Vista previa de «{0}»: no está aplicado; haz clic en el círculo de la izquierda para aplicarlo</RimIris_Screen_Preview_Exclusive>
+  <!-- EN: Previewing &quot;{0}&quot; — not enabled; tick it on the left to activate -->
+  <RimIris_Screen_Preview_Coexist>Vista previa de «{0}»: no está activado; márcalo a la izquierda para activarlo</RimIris_Screen_Preview_Coexist>
+  <!-- EN: Author: {0} -->
+  <RimIris_Screen_TipAuthor>Autor: {0}</RimIris_Screen_TipAuthor>
+  <!-- EN: Version: {0} -->
+  <RimIris_Screen_TipVersion>Versión: {0}</RimIris_Screen_TipVersion>
+  <!-- EN: Source: {0} -->
+  <RimIris_Screen_TipSource>Origen: {0}</RimIris_Screen_TipSource>
+  <!-- EN: A third-party mod requests switching the active shader pack:
+
+{0}
+
+Allow it? You can set the policy to &quot;Allow&quot; in RimIris settings to skip this prompt.
+(Closing this window = deny) -->
+  <RimIris_SwitchDialog_Body>Un mod de terceros pide cambiar el paquete de shaders activo:\n\n{0}\n\n¿Lo permites? En los ajustes de RimIris puedes poner la regla en «Permitir» para no ver más este aviso.\n(Cerrar esta ventana = rechazar)</RimIris_SwitchDialog_Body>
+  <!-- EN: [RimIris] Extension suggests switching shader pack → {0} -->
+  <RimIris_Api_SuggestMsg>[RimIris] Una extensión sugiere cambiar el paquete de shaders → {0}</RimIris_Api_SuggestMsg>
+  <!-- EN: Watchdog: output is {0} for 120 frames — the pack was auto-disabled. Check the pack&apos;s shaders. -->
+  <RimIris_Bundle_WatchdogFail>Vigilancia: la imagen salió {0} durante 120 cuadros y el paquete se desactivó solo. Revisa los shaders del paquete.</RimIris_Bundle_WatchdogFail>
+  <!-- EN: all black -->
+  <RimIris_Bundle_Black>toda negra</RimIris_Bundle_Black>
+  <!-- EN: all white -->
+  <RimIris_Bundle_White>toda blanca</RimIris_Bundle_White>
+  <!-- EN: (Not enabled — tick it under &quot;Coexisting add-ons&quot; on the left to activate its options) -->
+  <RimIris_Bundle_NotEnabledAddon>(No está activado: márcalo en «Complementos que se combinan», a la izquierda, para activar sus opciones)</RimIris_Bundle_NotEnabledAddon>
+  <!-- EN: (Not active — select this pack to activate its options) -->
+  <RimIris_Bundle_NotActive>(No está activo: elige este paquete para activar sus opciones)</RimIris_Bundle_NotActive>
+  <!-- EN: The value maps directly to uniform {0} -->
+  <RimIris_Bundle_UniformTip>El valor va directo a la variable uniform {0}</RimIris_Bundle_UniformTip>
+  <!-- EN: Options apply next frame (uniform push, no material rebuild). -->
+  <RimIris_Bundle_InstantHint>Las opciones se aplican en el cuadro siguiente (se envían como uniform, sin rehacer el material).</RimIris_Bundle_InstantHint>
+  <!-- EN: Light bloom · intensity -->
+  <RimIris_PresetVal_bloomIntensity>Resplandor de luces · intensidad</RimIris_PresetVal_bloomIntensity>
+  <!-- EN: Light bloom · radius -->
+  <RimIris_PresetVal_bloomRadius>Resplandor de luces · radio</RimIris_PresetVal_bloomRadius>
+  <!-- EN: Light bloom · threshold -->
+  <RimIris_PresetVal_bloomThreshold>Resplandor de luces · umbral</RimIris_PresetVal_bloomThreshold>
+  <!-- EN: Light bloom -->
+  <RimIris_PresetVal_enableBloom>Resplandor de luces</RimIris_PresetVal_enableBloom>
+  <!-- EN: Vignette · intensity -->
+  <RimIris_PresetVal_vignetteIntensity>Viñeta · intensidad</RimIris_PresetVal_vignetteIntensity>
+  <!-- EN: Vignette · size -->
+  <RimIris_PresetVal_vignetteFalloff>Viñeta · tamaño</RimIris_PresetVal_vignetteFalloff>
+  <!-- EN: Vignette -->
+  <RimIris_PresetVal_enableVignette>Viñeta</RimIris_PresetVal_enableVignette>
+  <!-- EN: Sun glow · intensity -->
+  <RimIris_PresetVal_glowIntensity>Halo solar · intensidad</RimIris_PresetVal_glowIntensity>
+  <!-- EN: Sun glow -->
+  <RimIris_PresetVal_enableGlow>Halo solar</RimIris_PresetVal_enableGlow>
+  <!-- EN: Exposure -->
+  <RimIris_PresetVal_tonemapExposure>Exposición</RimIris_PresetVal_tonemapExposure>
+  <!-- EN: Tone mapping -->
+  <RimIris_PresetVal_enableTonemap>Mapeo de tonos</RimIris_PresetVal_enableTonemap>
+  <!-- EN: Stylized · strength -->
+  <RimIris_PresetVal_masterStrength>Estilizado · fuerza</RimIris_PresetVal_masterStrength>
+  <!-- EN: Stylized · gold richness -->
+  <RimIris_PresetVal_goldMul>Estilizado · intensidad del dorado</RimIris_PresetVal_goldMul>
+  <!-- EN: Stylized · shadow depth -->
+  <RimIris_PresetVal_shadowMul>Estilizado · profundidad de las sombras</RimIris_PresetVal_shadowMul>
+  <!-- EN: Stylized · moonlight -->
+  <RimIris_PresetVal_moonMul>Estilizado · luz de luna</RimIris_PresetVal_moonMul>
+  <!-- EN: Weather adapt -->
+  <RimIris_PresetVal_weatherAdapt>Adaptación al clima</RimIris_PresetVal_weatherAdapt>
+  <!-- EN: Chromatic aberration -->
+  <RimIris_PresetVal_chromatic>Aberración cromática</RimIris_PresetVal_chromatic>
+  <!-- EN: Water -->
+  <RimIris_PresetVal_enableWater>Agua</RimIris_PresetVal_enableWater>
+  <!-- EN: Water · scatter -->
+  <RimIris_PresetVal_jellyScatter>Agua · dispersión</RimIris_PresetVal_jellyScatter>
+  <!-- EN: Water · night floor -->
+  <RimIris_PresetVal_jellyNightFloor>Agua · mínimo nocturno</RimIris_PresetVal_jellyNightFloor>
+  <!-- EN: River · hue -->
+  <RimIris_PresetVal_riverHue>Río · matiz</RimIris_PresetVal_riverHue>
+  <!-- EN: River · saturation -->
+  <RimIris_PresetVal_riverSat>Río · saturación</RimIris_PresetVal_riverSat>
+  <!-- EN: River · brightness -->
+  <RimIris_PresetVal_riverVal>Río · brillo</RimIris_PresetVal_riverVal>
+  <!-- EN: Sea · hue -->
+  <RimIris_PresetVal_seaHue>Mar · matiz</RimIris_PresetVal_seaHue>
+  <!-- EN: Sea · saturation -->
+  <RimIris_PresetVal_seaSat>Mar · saturación</RimIris_PresetVal_seaSat>
+  <!-- EN: Sea · brightness -->
+  <RimIris_PresetVal_seaVal>Mar · brillo</RimIris_PresetVal_seaVal>
+  <!-- EN: Lake · hue -->
+  <RimIris_PresetVal_lakeHue>Lago · matiz</RimIris_PresetVal_lakeHue>
+  <!-- EN: Lake · saturation -->
+  <RimIris_PresetVal_lakeSat>Lago · saturación</RimIris_PresetVal_lakeSat>
+  <!-- EN: Lake · brightness -->
+  <RimIris_PresetVal_lakeVal>Lago · brillo</RimIris_PresetVal_lakeVal>
+  <!-- EN: Tide run-up -->
+  <RimIris_PresetVal_enableTideShore>Avance de la marea</RimIris_PresetVal_enableTideShore>
+  <!-- EN: Terrain relief -->
+  <RimIris_PresetVal_enableTerrainRelief>Relieve del terreno</RimIris_PresetVal_enableTerrainRelief>
+  <!-- EN: Terrain relief · strength -->
+  <RimIris_PresetVal_terrainReliefStrength>Relieve del terreno · fuerza</RimIris_PresetVal_terrainReliefStrength>
+  <!-- EN: Master -->
+  <RimIris_Sec_Master>General</RimIris_Sec_Master>
+  <!-- EN: Lighting &amp; Color -->
+  <RimIris_Sec_Lighting>Iluminación y color</RimIris_Sec_Lighting>
+  <!-- EN: Post-Processing -->
+  <RimIris_Sec_Post>Posprocesado</RimIris_Sec_Post>
+  <!-- EN: Water &amp; Tide -->
+  <RimIris_Sec_Water>Agua y mareas</RimIris_Sec_Water>
+  <!-- EN: Ground &amp; Weather -->
+  <RimIris_Sec_Ground>Suelo y clima</RimIris_Sec_Ground>
+  <!-- EN: Rendering -->
+  <RimIris_Sec_Rendering>Renderizado</RimIris_Sec_Rendering>
+  <!-- EN: Third-Party API -->
+  <RimIris_Sec_ThirdParty>API para terceros</RimIris_Sec_ThirdParty>
+  <!-- EN: Diagnostics -->
+  <RimIris_Sec_Diagnostics>Diagnóstico</RimIris_Sec_Diagnostics>
+  <!-- EN: Enable RimIris -->
+  <RimIris_Settings_Enable>Activar RimIris</RimIris_Settings_Enable>
+  <!-- EN: Turns every visual effect off and restores the vanilla look (same as the &quot;None&quot; entry on the pack screen). -->
+  <RimIris_Settings_Enable_Tip>Apaga todos los efectos visuales y devuelve el aspecto original del juego (igual que la opción «Ninguno» de la pantalla de paquetes).</RimIris_Settings_Enable_Tip>
+  <!-- EN: Acts on map materials and thing colors — the source of golden sunlight, cool-blue shadows and other tone styles. -->
+  <RimIris_Lighting_Desc>Actúa sobre los materiales del mapa y los colores de las cosas: de aquí salen la luz dorada del sol, las sombras de un azul frío y otros estilos de tono.</RimIris_Lighting_Desc>
+  <!-- EN: This layer changes the scene&apos;s own light colors, not a screen overlay. Combine with post-processing for the full look. -->
+  <RimIris_Lighting_Desc_Tip>Esta capa cambia los colores de la propia luz de la escena; no es una capa encima de la pantalla. Combínala con el posprocesado para el aspecto completo.</RimIris_Lighting_Desc_Tip>
+  <!-- EN: Stylized Lighting -->
+  <RimIris_Lighting_Enable>Iluminación estilizada</RimIris_Lighting_Enable>
+  <!-- EN: Applies a filmic colour grade to the map&apos;s lighting materials (like a LUT colour-grading layer): the sun is tinted along a colour-temperature curve (white noon -&gt; golden dusk), shadows deepen and cool, highlights/shadows split warm-cool, with a slight saturation shift - fading into moonlight tones at night.
+Off = completely vanilla lighting; the sliders below fine-tune each channel of this style. -->
+  <RimIris_Lighting_Enable_Tip>Aplica una corrección de color de cine a los materiales de iluminación del mapa (como una capa de LUT): el sol se tiñe según una curva de temperatura de color (blanco al mediodía -&gt; dorado al atardecer), las sombras se vuelven más profundas y frías, las luces y las sombras se separan en cálidas y frías, con un leve cambio de saturación, y de noche todo pasa a tonos de luz de luna.\nApagado = iluminación original; los deslizadores de abajo afinan cada canal de este estilo.</RimIris_Lighting_Enable_Tip>
+  <!-- EN: Strength -->
+  <RimIris_Lighting_Strength>Fuerza</RimIris_Lighting_Strength>
+  <!-- EN: Overall stylization amount. 0 = keep vanilla colors. -->
+  <RimIris_Lighting_Strength_Tip>Cuánto se estiliza en total. 0 = conservar los colores originales.</RimIris_Lighting_Strength_Tip>
+  <!-- EN: Gold richness -->
+  <RimIris_Lighting_Gold>Intensidad del dorado</RimIris_Lighting_Gold>
+  <!-- EN: Gold saturation of low-angle sunlight. 0 = none, 1 = standard, 2 = rich golden hour. -->
+  <RimIris_Lighting_Gold_Tip>Saturación dorada de la luz del sol cuando está bajo. 0 = nada, 1 = normal, 2 = una hora dorada intensa.</RimIris_Lighting_Gold_Tip>
+  <!-- EN: Shadow depth -->
+  <RimIris_Lighting_Shadow>Profundidad de las sombras</RimIris_Lighting_Shadow>
+  <!-- EN: Shadow contrast. 1 = standard, 2 = dramatic deep shadows. -->
+  <RimIris_Lighting_Shadow_Tip>Contraste de las sombras. 1 = normal, 2 = sombras profundas y dramáticas.</RimIris_Lighting_Shadow_Tip>
+  <!-- EN: Moonlight -->
+  <RimIris_Lighting_Moon>Luz de luna</RimIris_Lighting_Moon>
+  <!-- EN: Night moonlight mood. 0 = pitch dark, 1 = cool moonlight, 2 = bright moonlit night. -->
+  <RimIris_Lighting_Moon_Tip>Ambiente de la luz de luna de noche. 0 = oscuridad total, 1 = luz de luna fría, 2 = noche de luna brillante.</RimIris_Lighting_Moon_Tip>
+  <!-- EN: Per-pixel processing of the final frame. -->
+  <RimIris_Post_Desc>Procesa cada píxel de la imagen final.</RimIris_Post_Desc>
+  <!-- EN: Post-processing works on every frame at GPU level. -->
+  <RimIris_Post_Desc_Tip>El posprocesado trabaja sobre cada cuadro en la GPU.</RimIris_Post_Desc_Tip>
+  <!-- EN: Light Bloom -->
+  <RimIris_Post_Bloom>Resplandor de luces</RimIris_Post_Bloom>
+  <!-- EN: Colored halos around bright sources such as lamps, fire and highlights.
+Independent from Ground Bloom — each has its own threshold, radius and intensity. -->
+  <RimIris_Post_Bloom_Tip>Halos de color alrededor de las fuentes brillantes, como lámparas, fuego y reflejos.\nEs independiente del resplandor del suelo: cada uno tiene su propio umbral, radio e intensidad.</RimIris_Post_Bloom_Tip>
+  <!-- EN: Halo brightness. Affects brightness only, not radius. -->
+  <RimIris_Post_Bloom_Intensity_Tip>Brillo del halo. Solo cambia el brillo, no el radio.</RimIris_Post_Bloom_Intensity_Tip>
+  <!-- EN: Halo spread distance. Affects radius only, not brightness: 0 = tight around the source, 0.35 = natural, 1 = wide soft glow. -->
+  <RimIris_Post_Bloom_Radius_Tip>Hasta dónde se extiende el halo. Solo cambia el radio, no el brillo: 0 = pegado a la fuente, 0,35 = natural, 1 = un brillo amplio y suave.</RimIris_Post_Bloom_Radius_Tip>
+  <!-- EN: How bright a pixel must be to count as a light. 0.75 = lamps and fire only, 0.4 = more areas glow. -->
+  <RimIris_Post_Bloom_Threshold_Tip>Cuánto brillo necesita un píxel para contar como luz. 0,75 = solo lámparas y fuego, 0,4 = brillan más zonas.</RimIris_Post_Bloom_Threshold_Tip>
+  <!-- EN: Ground Bloom -->
+  <RimIris_Post_Ground>Resplandor del suelo</RimIris_Post_Ground>
+  <!-- EN: Ambient soft glow on bright terrain (sand/snow/lit grass) — implemented as a terrain mesh layer:
+ lifts the terrain&apos;s own texels; animals, pawns, items, furniture and buildings are pixel-exact untouched.
+ Dims naturally with lighting at night. -->
+  <RimIris_Post_Ground_Tip>Un brillo suave de ambiente sobre el terreno claro (arena, nieve, pasto iluminado), hecho como una capa sobre la malla del terreno:\nrealza los téxeles del propio terreno; animales, personajes, objetos, muebles y edificios quedan intactos píxel por píxel.\nDe noche se atenúa solo junto con la iluminación.</RimIris_Post_Ground_Tip>
+  <!-- EN: Ground Bloom (locked: upper floor / basement — sunlit ground has no surface here; your setting re-arms on the ground level) -->
+  <RimIris_Post_Ground_Lock>Resplandor del suelo (bloqueado: piso superior o sótano; aquí no hay suelo al sol, y tu ajuste vuelve a valer en el nivel del suelo)</RimIris_Post_Ground_Lock>
+  <!-- EN: Trouble? One-click diagnostic package -->
+  <RimIris_Report_Button>¿Algún problema? Paquete de diagnóstico en un clic</RimIris_Report_Button>
+  <!-- EN: This collects your computer&apos;s OS and hardware info, the game environment configuration and the diagnostic logs. It contains no privacy data unrelated to diagnostics.
+
+On confirm, developer mode turns ON automatically for ~60 seconds (please reproduce the problem during that window), then turns OFF, the package is built and the folder opens by itself. -->
+  <RimIris_Report_Confirm_Body>Esto reúne el sistema operativo y el hardware de tu computadora, la configuración del juego y los registros de diagnóstico. No contiene datos privados que no tengan que ver con el diagnóstico.\n\nAl confirmar, el modo desarrollador se enciende solo durante unos 60 segundos (repite el problema en ese tiempo), después se apaga, se arma el paquete y la carpeta se abre sola.</RimIris_Report_Confirm_Body>
+  <!-- EN: Recording… {0}s left (reproduce the problem now) -->
+  <RimIris_Report_Recording>Grabando… quedan {0} s (repite el problema ahora)</RimIris_Report_Recording>
+  <!-- EN: Generated: -->
+  <RimIris_Report_Done>Generado:</RimIris_Report_Done>
+  <!-- EN: RimIris fault diagnostics -->
+  <RimIris_Report_Confirm_Title>Diagnóstico de fallas de RimIris</RimIris_Report_Confirm_Title>
+  <!-- EN: Confirm -->
+  <RimIris_Report_Confirm_Ok>Confirmar</RimIris_Report_Confirm_Ok>
+  <!-- EN: Cancel -->
+  <RimIris_Report_Cancel>Cancelar</RimIris_Report_Cancel>
+  <!-- EN: Ambient glow brightness. 0 = perfectly clean ground, 0.25 = subtle mood.
+Set 2.0 for a visibility test. -->
+  <RimIris_Post_Ground_Intensity_Tip>Brillo del resplandor de ambiente. 0 = suelo perfectamente limpio, 0,25 = un ambiente sutil.\nPon 2,0 para comprobar que se ve.</RimIris_Post_Ground_Intensity_Tip>
+  <!-- EN: Smoothness of the glow transition between bright tiles. 0 = each cell stands alone, 1 = large smooth blends. -->
+  <RimIris_Post_Ground_Radius_Tip>Suavidad de la transición del brillo entre casillas claras. 0 = cada casilla va sola, 1 = mezclas amplias y suaves.</RimIris_Post_Ground_Radius_Tip>
+  <!-- EN: How bright terrain must be to glow. Drag down = more terrain glows; drag up = terrain types drop out one tier at a time (far right = only the brightest type).
+The threshold auto-normalizes to the terrain types actually present on this map (works on any map/modlist); transitions stay blur-smoothed — no hard per-tile steps. -->
+  <RimIris_Post_Ground_Threshold_Tip>Cuánto brillo necesita el terreno para resplandecer. Hacia abajo = resplandece más terreno; hacia arriba = los tipos de terreno salen de a un nivel (todo a la derecha = solo el tipo más claro).\nEl umbral se ajusta solo a los tipos de terreno que de verdad hay en este mapa (sirve con cualquier mapa y lista de mods); las transiciones quedan suavizadas con desenfoque, sin saltos bruscos entre casillas.</RimIris_Post_Ground_Threshold_Tip>
+  <!-- EN: Tone Mapping -->
+  <RimIris_Post_Tonemap>Mapeo de tonos</RimIris_Post_Tonemap>
+  <!-- EN: ACES curve rolls off overbright areas for filmic highlight transitions. Applies to the game frame only. -->
+  <RimIris_Post_Tonemap_Tip>La curva ACES suaviza las zonas sobreexpuestas para que las luces altas pasen como en el cine. Solo se aplica a la imagen del juego.</RimIris_Post_Tonemap_Tip>
+  <!-- EN: Exposure -->
+  <RimIris_Post_Exposure>Exposición</RimIris_Post_Exposure>
+  <!-- EN: Overall brightness. 1.05 = bright, 0.74 = the cinematic default. -->
+  <RimIris_Post_Exposure_Tip>Brillo general. 1,05 = claro, 0,74 = el valor de cine por defecto.</RimIris_Post_Exposure_Tip>
+  <!-- EN: ACES brightness anchor -->
+  <RimIris_Post_ACESPreGain>Ancla de brillo ACES</RimIris_Post_ACESPreGain>
+  <!-- EN: Linear pre-ACES gain that calibrates overall brightness. 1.9 = the calibrated value (mid-gray re-anchored to its pre-ACES brightness).\nHigher = brighter overall (highlights roll off the ACES shoulder without clipping); lower = darker, denser filmic look.\nvs Exposure: exposure is the gamma-domain feel dial, this is a linear gain at the ACES input — moving it never disturbs your tuned exposure baseline. -->
+  <RimIris_Post_ACESPreGain_Tip>Ganancia lineal antes de ACES que calibra el brillo general. 1,9 = el valor calibrado (el gris medio vuelve al brillo que tenía antes de ACES).\nMás alto = todo más claro (las luces altas se suavizan en el hombro de ACES sin quemarse); más bajo = un aspecto de cine más oscuro y denso.\nFrente a la exposición: la exposición es el control de sensación en el dominio gamma; este es una ganancia lineal en la entrada de ACES, y moverlo nunca altera la exposición que ya ajustaste.</RimIris_Post_ACESPreGain_Tip>
+  <!-- EN: Dusk Calm -->
+  <RimIris_Post_DuskCalm>Calma del atardecer</RimIris_Post_DuskCalm>
+  <!-- EN: God rays intensity -->
+  <RimIris_Post_GodRay>Intensidad de los rayos de sol</RimIris_Post_GodRay>
+  <!-- EN: During the golden dusk/dawn window the mod automatically pulls back its own ACES brightness gain (up to -45%), staying close to the vanilla look — the vanilla golden multiply + our gain stacked on top reads as eye-straining glare.\n0 = off, 0.7 = strongly conservative (default), 1 = max. Only affects the golden window; noon and night are untouched. -->
+  <RimIris_Post_DuskCalm_Tip>Durante el atardecer y el amanecer dorados, el mod reduce solo su propia ganancia de brillo ACES (hasta un -45%) para quedar cerca del aspecto original: el dorado del juego más nuestra ganancia encima resulta en un resplandor que cansa la vista.\n0 = apagado, 0,7 = muy moderado (por defecto), 1 = máximo. Solo afecta la franja dorada; el mediodía y la noche no se tocan.</RimIris_Post_DuskCalm_Tip>
+  <!-- EN: Color Temp -->
+  <RimIris_Post_Temp>Temperatura de color</RimIris_Post_Temp>
+  <!-- EN: Whole-frame white balance: negative = blue (cool), 0 = neutral, positive = orange (warm).
+Applied to the final frame after tone mapping; the UI is unaffected.
+With &quot;Auto Temp&quot; on, this slider becomes the constant base — leave it at 0 and let auto take over. -->
+  <RimIris_Post_Temp_Tip>Balance de blancos de toda la imagen: negativo = azul (frío), 0 = neutro, positivo = naranja (cálido).\nSe aplica a la imagen final, después del mapeo de tonos; la interfaz no cambia.\nCon «Temperatura automática» encendida, este deslizador pasa a ser la base fija: déjalo en 0 y deja que lo automático se encargue.</RimIris_Post_Temp_Tip>
+  <!-- EN: Auto Temp -->
+  <RimIris_Post_AutoTemp>Temperatura automática</RimIris_Post_AutoTemp>
+  <!-- EN: Season- and weather-driven auto color temperature: cold snaps and snow shift cooler, heat waves warmer, with smooth seasonal gradients.
+Signals = current map temperature (responds to cold snap/heat wave events) and snow cover — all O(1) cached reads, zero performance cost.
+The manual color temp slider becomes the constant base; the auto offset stacks on top. -->
+  <RimIris_Post_AutoTemp_Tip>Temperatura de color automática según la estación y el clima: los frentes fríos y la nieve la enfrían, las olas de calor la calientan, con cambios suaves entre estaciones.\nSeñales = la temperatura actual del mapa (responde a los frentes fríos y las olas de calor) y la nieve acumulada; todo son lecturas en caché O(1), sin costo de rendimiento.\nEl deslizador manual de temperatura de color pasa a ser la base fija, y la corrección automática se suma encima.</RimIris_Post_AutoTemp_Tip>
+  <!-- EN: Auto strength -->
+  <RimIris_Post_AutoStrength>Fuerza automática</RimIris_Post_AutoStrength>
+  <!-- EN: Scale of the automatic offset. 0.6 = restrained and natural, 1.0 = full range (neutral at 19°C, ±0.045 per °C; full blue below about -3°C seasonal, +0.75 orange in heat waves, ±0.34 day/night swing). -->
+  <RimIris_Post_AutoStrength_Tip>Escala de la corrección automática. 0,6 = moderada y natural, 1,0 = rango completo (neutro a 19 °C, ±0,045 por °C; azul total bajo unos -3 °C de la estación, +0,75 naranja en las olas de calor, ±0,34 de variación entre el día y la noche).</RimIris_Post_AutoStrength_Tip>
+  <!-- EN: Live: season {0}°C · snow {1}% · auto offset {2} · effective {3} -->
+  <RimIris_Post_AutoLive>En vivo: estación {0} °C · nieve {1}% · corrección automática {2} · valor efectivo {3}</RimIris_Post_AutoLive>
+  <!-- EN: Live auto-temp values: seasonal baseline · total snow cover · auto offset · effective value after stacking on the manual dial.
+Updates in real time with time of day (diurnal swing), weather events and season. -->
+  <RimIris_Post_AutoLive_Tip>Valores de la temperatura automática en vivo: base de la estación · nieve acumulada total · corrección automática · valor efectivo después de sumarlo al control manual.\nSe actualiza en tiempo real con la hora del día (variación diaria), los eventos de clima y la estación.</RimIris_Post_AutoLive_Tip>
+  <!-- EN: Saturation -->
+  <RimIris_Post_Saturation>Saturación</RimIris_Post_Saturation>
+  <!-- EN: Whole-frame color intensity. 0 = grayscale, 1 = standard, 1.3 = vivid. -->
+  <RimIris_Post_Saturation_Tip>Intensidad del color de toda la imagen. 0 = escala de grises, 1 = normal, 1,3 = vívido.</RimIris_Post_Saturation_Tip>
+  <!-- EN: Contrast -->
+  <RimIris_Post_Contrast>Contraste</RimIris_Post_Contrast>
+  <!-- EN: Whole-frame contrast. 1 = standard; above 1 = deeper darks and brighter lights, 0.5 = flat.
+Applied to the final frame after tone mapping; the UI is unaffected. -->
+  <RimIris_Post_Contrast_Tip>Contraste de toda la imagen. 1 = normal; más de 1 = oscuros más profundos y claros más brillantes, 0,5 = plano.\nSe aplica a la imagen final, después del mapeo de tonos; la interfaz no cambia.</RimIris_Post_Contrast_Tip>
+  <!-- EN: Vignette -->
+  <RimIris_Post_Vignette>Viñeta</RimIris_Post_Vignette>
+  <!-- EN: Naturally darkens the corners of the frame. -->
+  <RimIris_Post_Vignette_Tip>Oscurece de forma natural las esquinas de la imagen.</RimIris_Post_Vignette_Tip>
+  <!-- EN: Vignette intensity -->
+  <RimIris_Post_Vignette_Intensity>Intensidad de la viñeta</RimIris_Post_Vignette_Intensity>
+  <!-- EN: Corner darkening. 0.30 = natural, 0.6 = pronounced. -->
+  <RimIris_Post_Vignette_Intensity_Tip>Oscurecimiento de las esquinas. 0,30 = natural, 0,6 = marcado.</RimIris_Post_Vignette_Intensity_Tip>
+  <!-- EN: Vignette size -->
+  <RimIris_Post_Vignette_Size>Tamaño de la viñeta</RimIris_Post_Vignette_Size>
+  <!-- EN: How much of the frame the vignette covers. Higher = larger. 0.58 = standard, 0.8 = wide. -->
+  <RimIris_Post_Vignette_Size_Tip>Cuánto de la imagen cubre la viñeta. Más alto = más grande. 0,58 = normal, 0,8 = amplia.</RimIris_Post_Vignette_Size_Tip>
+  <!-- EN: Sun Glow (experimental, unfinished) -->
+  <RimIris_Post_Glow>Halo solar (experimental, sin terminar)</RimIris_Post_Glow>
+  <!-- EN: A warm golden halo anchored to the sun&apos;s direction. -->
+  <RimIris_Post_Glow_Tip>Un halo dorado y cálido que sigue la dirección del sol.</RimIris_Post_Glow_Tip>
+  <!-- EN: Glow intensity -->
+  <RimIris_Post_Glow_Intensity>Intensidad del halo</RimIris_Post_Glow_Intensity>
+  <!-- EN: 0.6 = subtle, 1.2 = rich. -->
+  <RimIris_Post_Glow_Intensity_Tip>0,6 = sutil, 1,2 = intenso.</RimIris_Post_Glow_Intensity_Tip>
+  <!-- EN: Depth of Field -->
+  <RimIris_Post_Dof>Profundidad de campo</RimIris_Post_Dof>
+  <!-- EN: Octopath-style tilt-shift depth of field: the sharp band locks onto the world row the camera is looking at, with inertial focus follow —
+the focus glides while panning and plays a pull-focus animation on camera jumps; zooming in narrows the band (macro feel), zooming out widens it.
+Pure post-processing, UI unaffected; computed at half resolution — cheap. The blurred area always keeps ≥22% original detail (lens feel, not frosted glass). -->
+  <RimIris_Post_Dof_Tip>Profundidad de campo con efecto miniatura, al estilo de Octopath: la franja nítida se fija en la fila del mundo que mira la cámara y sigue el foco con inercia;\nel foco se desliza al mover la cámara y hace una animación de enfoque cuando la cámara salta; al acercar, la franja se angosta (sensación de macro), y al alejar, se ensancha.\nEs posprocesado puro y no afecta la interfaz; se calcula a media resolución, así que cuesta poco. La zona desenfocada siempre conserva al menos un 22% del detalle original (sensación de lente, no de vidrio esmerilado).</RimIris_Post_Dof_Tip>
+  <!-- EN: Blur strength -->
+  <RimIris_Post_Dof_Strength>Fuerza del desenfoque</RimIris_Post_Dof_Strength>
+  <!-- EN: Maximum defocus at the frame edges. 0.5 = light, 0.7 = natural (a detail-preservation cap inside prevents a frosted-glass wash). -->
+  <RimIris_Post_Dof_Strength_Tip>Desenfoque máximo en los bordes de la imagen. 0,5 = leve, 0,7 = natural (un límite interno que conserva el detalle evita el aspecto de vidrio esmerilado).</RimIris_Post_Dof_Strength_Tip>
+  <!-- EN: Sharp band width -->
+  <RimIris_Post_Dof_Band>Ancho de la franja nítida</RimIris_Post_Dof_Band>
+  <!-- EN: Fraction of the view height that stays fully sharp in the middle of the screen. 0.35 = natural. -->
+  <RimIris_Post_Dof_Band_Tip>Parte de la altura de la vista que queda del todo nítida en el centro de la pantalla. 0,35 = natural.</RimIris_Post_Dof_Band_Tip>
+  <!-- EN: Focus follow speed -->
+  <RimIris_Post_Dof_Follow>Velocidad del seguimiento del foco</RimIris_Post_Dof_Follow>
+  <!-- EN: Inertia of the sharp band following the camera. Low = lazy focus pulls, high = glued to the camera. 8 = recommended. -->
+  <RimIris_Post_Dof_Follow_Tip>Inercia con la que la franja nítida sigue a la cámara. Bajo = el foco tarda en llegar, alto = pegado a la cámara. 8 = recomendado.</RimIris_Post_Dof_Follow_Tip>
+  <!-- EN: Bokeh strength -->
+  <RimIris_Post_Dof_Bokeh>Fuerza del bokeh</RimIris_Post_Dof_Bokeh>
+  <!-- EN: Lights and highlights bloom into circular bokeh discs inside blurred areas (photographic bokeh). 0 = none, 0.6 = natural, 1.0+ = strong orbs. -->
+  <RimIris_Post_Dof_Bokeh_Tip>Dentro de las zonas desenfocadas, las luces y los reflejos se abren en discos de bokeh circulares (como en fotografía). 0 = nada, 0,6 = natural, 1,0 o más = esferas marcadas.</RimIris_Post_Dof_Bokeh_Tip>
+  <!-- EN: Bokeh threshold -->
+  <RimIris_Post_Dof_BokehThreshold>Umbral del bokeh</RimIris_Post_Dof_BokehThreshold>
+  <!-- EN: How much a light must stand out from its surround to spawn a bokeh (isolation measure — independent of day/night brightness). Higher = only the most isolated dots; lower = more sources. -->
+  <RimIris_Post_Dof_BokehThreshold_Tip>Cuánto tiene que destacar una luz sobre lo que la rodea para generar bokeh (una medida de aislamiento, que no depende del brillo del día o la noche). Más alto = solo los puntos más aislados; más bajo = más fuentes.</RimIris_Post_Dof_BokehThreshold_Tip>
+  <!-- EN: Bokeh debug view (fullscreen bokeh buffer) -->
+  <RimIris_Dof_KernelDebug>Vista de depuración del bokeh (búfer de bokeh a pantalla completa)</RimIris_Dof_KernelDebug>
+  <!-- EN: Draws the raw bokeh buffer fullscreen, bypassing the composite mix: gated lights should appear as flat-top hexagons. For shape verification; turn off after checking. -->
+  <RimIris_Dof_KernelDebug_Tip>Dibuja a pantalla completa el búfer de bokeh en bruto, sin pasar por la mezcla final: las luces que pasan el umbral deberían verse como hexágonos de borde plano. Sirve para comprobar la forma; apágalo después de revisar.</RimIris_Dof_KernelDebug_Tip>
+  <!-- EN: Sharpen -->
+  <RimIris_Post_Sharpen>Enfocar</RimIris_Post_Sharpen>
+  <!-- EN: Unsharp-mask micro sharpening (PS Sharpen): crisper fine contours, a &quot;snappier&quot; image.
+0 = off, 0.25 = natural, 0.5+ = strong. Flat and blurred areas have no high frequencies, so they are unaffected — adds no noise. -->
+  <RimIris_Post_Sharpen_Tip>Enfoque fino con máscara de enfoque (como «Enfocar» de PS): contornos finos más definidos y una imagen más «nítida».\n0 = apagado, 0,25 = natural, 0,5 o más = fuerte. Las zonas lisas y desenfocadas no tienen altas frecuencias, así que no cambian: no agrega ruido.</RimIris_Post_Sharpen_Tip>
+  <!-- EN: Clarity -->
+  <RimIris_Post_Clarity>Claridad</RimIris_Post_Clarity>
+  <!-- EN: Local contrast boost (PS Clarity): mid-frequency detail pops, giving the frame more &quot;density&quot; and texture.
+0 = off, 0.35 = natural. Counters the DoF blur when depth of field is on; also works standalone as a quality boost. -->
+  <RimIris_Post_Clarity_Tip>Aumento del contraste local (como «Claridad» de PS): resalta el detalle de frecuencias medias y le da a la imagen más «cuerpo» y textura.\n0 = apagado, 0,35 = natural. Compensa el desenfoque cuando la profundidad de campo está encendida; también sirve sola para mejorar la calidad.</RimIris_Post_Clarity_Tip>
+  <!-- EN: Weather Adapt -->
+  <RimIris_Post_WeatherAdapt>Adaptación al clima</RimIris_Post_WeatherAdapt>
+  <!-- EN: Smart trimming for rain/fog/snow: bloom and exposure shrink with sky transmittance (no overcast blowout),
+sun shafts and the water light column fade in bad weather. Signal = current sky luminance ÷ a clear-sky reference at the same time of day,
+compatible with all vanilla and modded weather automatically. 0 = off, 0.7 = natural. -->
+  <RimIris_Post_WeatherAdapt_Tip>Recorte inteligente con lluvia, niebla o nieve: el resplandor y la exposición bajan según cuánta luz deja pasar el cielo (sin quemar la imagen con el cielo nublado),\ny los rayos de sol y la columna de luz en el agua se desvanecen con mal tiempo. Señal = la luminosidad actual del cielo ÷ una referencia de cielo despejado a la misma hora,\ncompatible sola con todos los climas del juego y de los mods. 0 = apagado, 0,7 = natural.</RimIris_Post_WeatherAdapt_Tip>
+  <!-- EN: [{0}] Transmittance {1}   Sun fade {2}   Post trim {3}   Desat {4}% -->
+  <RimIris_Post_WeatherLive>[{0}] Transmitancia {1}   Atenuación del sol {2}   Recorte del posprocesado {3}   Desaturación {4}%</RimIris_Post_WeatherLive>
+  <!-- EN: Transmittance = current sky luminance ÷ a clear-sky reference at the same time of day (1 = clear, ~0.8 = rain/fog/snow; updates live with the weather).
+Sun fade = multiplier on the sun star / water light column; Post trim = multiplier on bloom and the ACES gain;
+Desat = how far rainy colors pull toward gray. The bracketed name is the weather the signal is currently reading. -->
+  <RimIris_Post_WeatherLive_Tip>Transmitancia = la luminosidad actual del cielo ÷ una referencia de cielo despejado a la misma hora (1 = despejado, ~0,8 = lluvia, niebla o nieve; se actualiza en vivo con el clima).\nAtenuación del sol = multiplicador sobre el sol y la columna de luz en el agua; Recorte del posprocesado = multiplicador sobre el resplandor y la ganancia ACES;\nDesaturación = cuánto se acercan al gris los colores con lluvia. El nombre entre corchetes es el clima que está leyendo la señal.</RimIris_Post_WeatherLive_Tip>
+  <!-- EN: Chromatic aberration -->
+  <RimIris_Post_Chromatic>Aberración cromática</RimIris_Post_Chromatic>
+  <!-- EN: Red/blue fringing at the frame edges. 0 = off. -->
+  <RimIris_Post_Chromatic_Tip>Bordes rojos y azules en los extremos de la imagen. 0 = apagado.</RimIris_Post_Chromatic_Tip>
+  <!-- EN: Realistic Darkness -->
+  <RimIris_Post_Darkness>Oscuridad realista</RimIris_Post_Darkness>
+  <!-- EN: Immersive darkness at night and in unlit areas: campfires and lamps keep glowing in their own colors (orange firelight, colored lamps),
+depth follows day/night, seasonal day length, moon phases (15-day cycle) and eclipses automatically.
+Never modifies the vanilla lighting base — pure post-processing overlay; turning it off fully restores vanilla.
+The strength slider accepts negative values: below 0 brightens the night (nightfall detection applies, no effect in daytime). -->
+  <RimIris_Post_Darkness_Tip>Oscuridad envolvente de noche y en las zonas sin luz: las fogatas y las lámparas siguen brillando con sus propios colores (luz naranja del fuego, lámparas de colores),\ny la profundidad sigue sola el día y la noche, el largo del día según la estación, las fases de la luna (ciclo de 15 días) y los eclipses.\nNunca cambia la iluminación base del juego: es solo una capa de posprocesado, y al apagarla vuelve todo al original.\nEl deslizador de fuerza acepta valores negativos: bajo 0 aclara la noche (se detecta el anochecer; de día no hace nada).</RimIris_Post_Darkness_Tip>
+  <!-- EN: Darkness strength -->
+  <RimIris_Post_Darkness_Strength>Fuerza de la oscuridad</RimIris_Post_Darkness_Strength>
+  <!-- EN: How dark unlit areas get. 0.75 = immersive, 1.0 = deep. Below 0 brightens the night (0 = vanilla, down to -1); the amount follows nightfall automatically, zero in daytime. -->
+  <RimIris_Post_Darkness_Strength_Tip>Cuánto se oscurecen las zonas sin luz. 0,75 = envolvente, 1,0 = profunda. Bajo 0 aclara la noche (0 = original, hasta -1); la cantidad sigue sola el anochecer y de día es cero.</RimIris_Post_Darkness_Strength_Tip>
+  <!-- EN: Eternal night -->
+  <RimIris_Post_Darkness_EternalNight>Noche eterna</RimIris_Post_Darkness_EternalNight>
+  <!-- EN: Turns off the day-cycle auto-avoidance: daytime, season, moon phase and eclipses are ignored — the darkness (or the brighten effect at negative strength) runs at full strength around the clock. The lamp glow exemption is unchanged, so lit areas stay lit. Off = the original sky-driven behaviour. -->
+  <RimIris_Post_Darkness_EternalNight_Tip>Apaga el ajuste automático según el ciclo del día: no se tienen en cuenta la hora, la estación, la fase de la luna ni los eclipses, y la oscuridad (o el aclarado, con fuerza negativa) va a fuerza completa todo el día. Las lámparas siguen exentas, así que las zonas iluminadas siguen con luz. Apagado = el comportamiento original, según el cielo.</RimIris_Post_Darkness_EternalNight_Tip>
+  <!-- EN: Jelly water -->
+  <RimIris_Water_Enable>Agua gelatinosa</RimIris_Water_Enable>
+  <!-- EN: Renders water as a thick translucent volume: transmittance falls with depth — clear shallows over the real bed, saturated deeps; teal rivers and lakes, blue seas; the submerged bed gets caustic light webs. Off = the pristine vanilla water surface. -->
+  <RimIris_Water_Enable_Tip>Dibuja el agua como un volumen espeso y translúcido: deja pasar menos luz cuanto más profunda es, con bajíos transparentes sobre el fondo real y profundidades saturadas; ríos y lagos verdeazulados, mares azules; el fondo sumergido recibe redes de luz cáustica. Apagado = la superficie del agua original, intacta.</RimIris_Water_Enable_Tip>
+  <!-- EN: Cloud reflections -->
+  <RimIris_Water_Cloud>Reflejo de las nubes</RimIris_Water_Cloud>
+  <!-- EN: Density of drifting cloud shadows on the water. 0.6 = natural; higher reads as overcast water. -->
+  <RimIris_Water_Cloud_Tip>Densidad de las sombras de nubes que pasan sobre el agua. 0,6 = natural; más alto se ve como agua bajo un cielo nublado.</RimIris_Water_Cloud_Tip>
+  <!-- EN: Sun/Moon light column -->
+  <RimIris_Water_Column>Columna de luz del sol y la luna</RimIris_Water_Column>
+  <!-- EN: Strength of the sun/moon reflection column on the water. 0.7 = natural; bluish moon tint at night. -->
+  <RimIris_Water_Column_Tip>Fuerza del reflejo en columna del sol o la luna sobre el agua. 0,7 = natural; de noche, la luna le da un tono azulado.</RimIris_Water_Column_Tip>
+  <!-- EN: Absorption density -->
+  <RimIris_Jelly_Absorb>Densidad de absorción</RimIris_Jelly_Absorb>
+  <!-- EN: How fast light dies with depth — higher reads as a thicker medium that turns to full water color sooner. -->
+  <RimIris_Jelly_Absorb_Tip>Qué tan rápido se apaga la luz con la profundidad: más alto se ve como un medio más espeso, que llega antes al color pleno del agua.</RimIris_Jelly_Absorb_Tip>
+  <!-- EN: Scatter strength -->
+  <RimIris_Jelly_Scatter>Fuerza de la dispersión</RimIris_Jelly_Scatter>
+  <!-- EN: How strongly the water column itself glows with scattered light (the jelly body). Low = clear, high = rich. -->
+  <RimIris_Jelly_Scatter_Tip>Cuánto brilla la propia columna de agua con la luz dispersa (el cuerpo gelatinoso). Bajo = transparente, alto = intenso.</RimIris_Jelly_Scatter_Tip>
+  <!-- EN: Night water floor -->
+  <RimIris_Jelly_NightFloor>Mínimo nocturno del agua</RimIris_Jelly_NightFloor>
+  <!-- EN: Minimum night visibility of the water body (moonlit scatter floor). 0 = fully physical (near-black); raise to keep deep water readable at night. -->
+  <RimIris_Jelly_NightFloor_Tip>Lo mínimo que se ve el cuerpo del agua de noche (dispersión mínima con luz de luna). 0 = del todo físico (casi negro); súbelo para que el agua profunda se siga viendo de noche.</RimIris_Jelly_NightFloor_Tip>
+  <!-- EN: Shore clear-zone width -->
+  <RimIris_Jelly_Shelf>Ancho de la franja clara de la orilla</RimIris_Jelly_Shelf>
+  <!-- EN: How far offshore the shallow water stays see-through before it darkens. 1.0 = default wide shelf; 0 ≈ vanilla-like gradient; negative = steeper than vanilla (-1 = opaque right at the waterline); higher = wider clear band. Fixes bright-sand maps where shallow channels read as dry sand. -->
+  <RimIris_Jelly_Shelf_Tip>Hasta dónde mar adentro se sigue viendo a través del agua baja antes de que se oscurezca. 1,0 = plataforma ancha por defecto; 0 ≈ un degradado como el del juego; negativo = más abrupto que el del juego (-1 = opaco justo en la orilla); más alto = franja clara más ancha. Arregla los mapas de arena clara donde los canales poco profundos se ven como arena seca.</RimIris_Jelly_Shelf_Tip>
+  <!-- EN: River hue -->
+  <RimIris_River_Hue>Matiz del río</RimIris_River_Hue>
+  <!-- EN: Hue of the RIVER&apos;s water colour (0-360°). It is only the river-side endpoint of the fresh/sea gradient: the open sea keeps its own colour and the estuary transition keeps its structure - - the whole blend simply follows the river&apos;s new hue (the sea yields to the river near the mouth). Applies live. -->
+  <RimIris_River_Hue_Tip>Matiz del color del agua del RÍO (0-360°). Es solo el extremo del río en el degradado entre agua dulce y mar: el mar abierto conserva su propio color y la transición del estuario mantiene su estructura; toda la mezcla simplemente sigue el nuevo matiz del río (cerca de la desembocadura, el mar le cede al río). Se aplica en vivo.</RimIris_River_Hue_Tip>
+  <!-- EN: River saturation -->
+  <RimIris_River_Sat>Saturación del río</RimIris_River_Sat>
+  <!-- EN: Saturation of the river&apos;s water colour (0 = grey, 1 = vivid). Fresh water only; the sea and the estuary blend are unaffected by construction. Applies live. -->
+  <RimIris_River_Sat_Tip>Saturación del color del agua del río (0 = gris, 1 = vívido). Solo el agua dulce; el mar y la mezcla del estuario no cambian, por cómo está hecho. Se aplica en vivo.</RimIris_River_Sat_Tip>
+  <!-- EN: River brightness -->
+  <RimIris_River_Val>Brillo del río</RimIris_River_Val>
+  <!-- EN: Value/brightness of the river&apos;s water colour. Fresh water only. Lower = deeper/darker channel colour, higher = lighter/clearer. Applies live. -->
+  <RimIris_River_Val_Tip>Valor o brillo del color del agua del río. Solo el agua dulce. Más bajo = un cauce de color más profundo y oscuro; más alto = más claro y transparente. Se aplica en vivo.</RimIris_River_Val_Tip>
+  <!-- EN: Sea hue -->
+  <RimIris_Sea_Hue>Matiz del mar</RimIris_Sea_Hue>
+  <!-- EN: Hue of the SEA&apos;s water colour (0-360°). It is only the sea-side endpoint of the fresh/sea gradient: the river endpoint is independent and the estuary field keeps its structure - - only the gradient&apos;s far end moves. Neutral default = the shipped sea colour (bit-unchanged). Applies live. -->
+  <RimIris_Sea_Hue_Tip>Matiz del color del agua del MAR (0-360°). Es solo el extremo del mar en el degradado entre agua dulce y mar: el extremo del río es independiente y el campo del estuario mantiene su estructura; solo se mueve el extremo lejano del degradado. Valor neutro por defecto = el color de mar que trae el mod (sin cambiar ni un bit). Se aplica en vivo.</RimIris_Sea_Hue_Tip>
+  <!-- EN: Sea saturation -->
+  <RimIris_Sea_Sat>Saturación del mar</RimIris_Sea_Sat>
+  <!-- EN: Saturation of the sea&apos;s water colour (0 = grey, 1 = vivid). Sea-side endpoint only; the river endpoint is independent and the estuary blend follows the endpoint continuously (no cliff). Applies live. -->
+  <RimIris_Sea_Sat_Tip>Saturación del color del agua del mar (0 = gris, 1 = vívido). Solo el extremo del mar; el extremo del río es independiente y la mezcla del estuario sigue ese extremo sin cortes. Se aplica en vivo.</RimIris_Sea_Sat_Tip>
+  <!-- EN: Sea brightness -->
+  <RimIris_Sea_Val>Brillo del mar</RimIris_Sea_Val>
+  <!-- EN: Value/brightness of the sea&apos;s water colour. Lower = deeper sea, higher = lighter. Sea-side endpoint only. Applies live. -->
+  <RimIris_Sea_Val_Tip>Valor o brillo del color del agua del mar. Más bajo = un mar más profundo; más alto = más claro. Solo el extremo del mar. Se aplica en vivo.</RimIris_Sea_Val_Tip>
+  <!-- EN: Lake hue -->
+  <RimIris_Lake_Hue>Matiz del lago</RimIris_Lake_Hue>
+  <!-- EN: Hue of LAKE/pond water (0-360°). Lakes = FRESH still water (rivers use the river hue, the sea its own; marsh counts as land). While neutral the lake follows the live river colour (river dials move it too). Applies live. -->
+  <RimIris_Lake_Hue_Tip>Matiz del agua de los LAGOS y estanques (0-360°). Los lagos son agua DULCE quieta (los ríos usan el matiz del río, y el mar el suyo; la ciénaga cuenta como tierra). Mientras está en neutro, el lago sigue el color actual del río (los controles del río también lo mueven). Se aplica en vivo.</RimIris_Lake_Hue_Tip>
+  <!-- EN: Lake saturation -->
+  <RimIris_Lake_Sat>Saturación del lago</RimIris_Lake_Sat>
+  <!-- EN: Saturation of lake water (0 = grey, 1 = vivid). Lakes only; neutral follows the river colour. Applies live. -->
+  <RimIris_Lake_Sat_Tip>Saturación del agua de los lagos (0 = gris, 1 = vívido). Solo los lagos; en neutro sigue el color del río. Se aplica en vivo.</RimIris_Lake_Sat_Tip>
+  <!-- EN: Lake brightness -->
+  <RimIris_Lake_Val>Brillo del lago</RimIris_Lake_Val>
+  <!-- EN: Value/brightness of lake water. Lower = deeper, higher = lighter. Lakes only. Applies live. -->
+  <RimIris_Lake_Val_Tip>Valor o brillo del agua de los lagos. Más bajo = más profundo; más alto = más claro. Solo los lagos. Se aplica en vivo.</RimIris_Lake_Val_Tip>
+  <!-- EN: Deep water -->
+  <RimIris_Water_DeepToggle>Agua profunda</RimIris_Water_DeepToggle>
+  <!-- EN: When on, deep-water terrain regions (the ocean deep tier and chest-deep river channels) dim slightly into a continuous depth gradient (fixed strength = vanilla&apos;s own deep-ramp luminance ratio); off restores the shipped look. Applies live. -->
+  <RimIris_Water_DeepToggle_Tip>Encendido: las zonas de terreno de agua profunda (el nivel profundo del océano y los cauces de río que llegan al pecho) se oscurecen un poco en un degradado de profundidad continuo (con una fuerza fija igual a la proporción de luminosidad que usa el propio juego para lo profundo); apagado devuelve el aspecto que trae el mod. Se aplica en vivo.</RimIris_Water_DeepToggle_Tip>
+  <!-- EN: Water debug -->
+  <RimIris_Diag_Water>Depuración del agua</RimIris_Diag_Water>
+  <!-- EN: Real water depth -->
+  <RimIris_Jelly_DeepDepth>Profundidad real del agua</RimIris_Jelly_DeepDepth>
+  <!-- EN: Fixes narrow DEEP channels (river mouths: the throat reads as a sandbar). Uses the terrain&apos;s actual deep-water defs, not just distance to shore. 0 = disabled (old behavior); raise to make deep terrain read as opaque water. -->
+  <RimIris_Jelly_DeepDepth_Tip>Arregla los cauces PROFUNDOS angostos (en las desembocaduras, el paso se ve como un banco de arena). Usa los defs de agua profunda que de verdad tiene el terreno, no solo la distancia a la orilla. 0 = desactivado (comportamiento anterior); súbelo para que el terreno profundo se vea como agua opaca.</RimIris_Jelly_DeepDepth_Tip>
+  <!-- EN: Jelly debug view -->
+  <RimIris_Jelly_Debug>Vista de depuración del agua gelatinosa</RimIris_Jelly_Debug>
+  <!-- EN: Diagnostic tool: 1 = depth-field, 2 = water alpha, 3 = tint, 4 = bed dominant-terrain regions (palette), 5 = runner-up terrain, 6 = region blend weight (red = deep-sea fallback zone), 7 = shore cover coverage, 8 = shore albedo field. Keep 0 for normal play. -->
+  <RimIris_Jelly_Debug_Tip>Herramienta de diagnóstico: 1 = campo de profundidad, 2 = alfa del agua, 3 = tinte, 4 = zonas del terreno dominante del fondo (paleta), 5 = segundo terreno, 6 = peso de la mezcla de zonas (rojo = zona de respaldo de mar profundo), 7 = cobertura de la orilla, 8 = campo de albedo de la orilla. Déjalo en 0 para jugar normal.</RimIris_Jelly_Debug_Tip>
+  <!-- EN: Off -->
+  <RimIris_Jelly_Debug0>Apagado</RimIris_Jelly_Debug0>
+  <!-- EN: Distance field -->
+  <RimIris_Jelly_Debug1>Campo de distancia</RimIris_Jelly_Debug1>
+  <!-- EN: Alpha -->
+  <RimIris_Jelly_Debug2>Alfa</RimIris_Jelly_Debug2>
+  <!-- EN: Medium tint -->
+  <RimIris_Jelly_Debug3>Tinte del medio</RimIris_Jelly_Debug3>
+  <!-- EN: Bed regions -->
+  <RimIris_Jelly_Debug4>Zonas del fondo</RimIris_Jelly_Debug4>
+  <!-- EN: Runner-up -->
+  <RimIris_Jelly_Debug5>Segundo terreno</RimIris_Jelly_Debug5>
+  <!-- EN: Blend weight -->
+  <RimIris_Jelly_Debug6>Peso de la mezcla</RimIris_Jelly_Debug6>
+  <!-- EN: Cover coverage -->
+  <RimIris_Jelly_Debug7>Cobertura de la orilla</RimIris_Jelly_Debug7>
+  <!-- EN: Albedo field -->
+  <RimIris_Jelly_Debug8>Campo de albedo</RimIris_Jelly_Debug8>
+  <!-- EN: Tide run-up (water film &amp; wet sand) -->
+  <RimIris_Tide_Enable>Avance de la marea (película de agua y arena mojada)</RimIris_Tide_Enable>
+  <!-- EN: Purely visual: tides periodically wash ashore, each wave runs up the beach and retreats; sand below the high-water line darkens and stretches with the tide. Never modifies the map; unaffected under roofs. -->
+  <RimIris_Tide_Enable_Tip>Solo visual: las mareas llegan a la orilla cada cierto tiempo, y cada ola sube por la playa y se retira; la arena bajo la línea de marea alta se oscurece y se extiende con la marea. Nunca cambia el mapa; bajo techo no se ve.</RimIris_Tide_Enable_Tip>
+  <!-- EN: Run-up strength -->
+  <RimIris_Tide_Strength>Fuerza del avance</RimIris_Tide_Strength>
+  <!-- EN: Overall strength of the water film and wet sand. 0 = invisible, 0.8 = natural, 1.0 = strongest. Applies instantly. -->
+  <RimIris_Tide_Strength_Tip>Fuerza general de la película de agua y la arena mojada. 0 = invisible, 0,8 = natural, 1,0 = lo más fuerte. Se aplica al instante.</RimIris_Tide_Strength_Tip>
+  <!-- EN: Ocean current (directional waves &amp; swash) -->
+  <RimIris_Current_Enable>Corriente marina (olas con dirección y resaca)</RimIris_Current_Enable>
+  <!-- EN: Visual physics only: the sea gets one dominant flow direction per map. The whole wave pattern sweeps along that direction (waves roll toward windward shores), with-current shores stay strong while lee shores weaken to about 15-35%. Rivers follow the game&apos;s real flow field (bends included, sweeping downstream); the open sea follows the map&apos;s ocean-side geography. Never modifies the map. -->
+  <RimIris_Current_Enable_Tip>Solo física visual: el mar recibe una dirección de corriente dominante por mapa. Todo el patrón de olas avanza en esa dirección (las olas rompen hacia las costas de barlovento); las costas a favor de la corriente siguen fuertes y las de sotavento bajan a un 15-35%. Los ríos siguen el campo de corriente real del juego (con las curvas, río abajo); el mar abierto sigue la geografía del lado del océano del mapa. Nunca cambia el mapa.</RimIris_Current_Enable_Tip>
+  <!-- EN: Current directional gain -->
+  <RimIris_Current_Strength>Ganancia de la dirección de la corriente</RimIris_Current_Strength>
+  <!-- EN: How strongly the current skews the wave sweep, foam brightness, swash reach, wet sand and the sea&apos;s drift. 0 = uniform (old behaviour), 0.75 = natural, 1.0 = strongest contrast. -->
+  <RimIris_Current_Strength_Tip>Cuánto inclina la corriente el avance de las olas, el brillo de la espuma, el alcance de la resaca, la arena mojada y la deriva del mar. 0 = uniforme (comportamiento anterior), 0,75 = natural, 1,0 = el mayor contraste.</RimIris_Current_Strength_Tip>
+  <!-- EN: Current debug view (red/green=flow, blue=strength) -->
+  <RimIris_Current_Debug>Vista de depuración de la corriente (rojo/verde = flujo, azul = fuerza)</RimIris_Current_Debug>
+  <!-- EN: Diagnostic view: the SEA is painted with the gain field - red = shore alignment (white/red = windward shore gets full waves, black = lee shore gets none), green = strength x dial, blue = combined. Around an island red should fade from the windward side to the lee side; if red is uniform everywhere the input field is broken. The beach band shows the baked flow direction (hue) instead. Remove after verification. -->
+  <RimIris_Current_Debug_Tip>Vista de diagnóstico: el MAR se pinta con el campo de ganancia. Rojo = orientación de la costa (blanco/rojo = la costa de barlovento recibe todas las olas, negro = la de sotavento no recibe ninguna), verde = fuerza x control, azul = combinado. Alrededor de una isla, el rojo debería desvanecerse del lado de barlovento al de sotavento; si el rojo es igual en todas partes, el campo de entrada está roto. La franja de la playa muestra en cambio la dirección de corriente calculada (como matiz). Quítalo después de comprobarlo.</RimIris_Current_Debug_Tip>
+  <!-- EN: Seabed depth undulation -->
+  <RimIris_Sea_Relief>Ondulación de la profundidad del fondo marino</RimIris_Sea_Relief>
+  <!-- EN: World-anchored undulation of the seabed&apos;s depth shading: sandbars read lighter, troughs darker. Purely visual (the water medium is untouched). 0 = off. -->
+  <RimIris_Sea_Relief_Tip>Ondulación fija al mundo en el sombreado de profundidad del fondo marino: los bancos de arena se ven más claros y las hondonadas más oscuras. Solo visual (el medio del agua no cambia). 0 = apagado.</RimIris_Sea_Relief_Tip>
+  <!-- EN: Reefs -->
+  <RimIris_Sea_Reef>Arrecifes</RimIris_Sea_Reef>
+  <!-- EN: Rocky reef outcrops in the shallow offshore band of saltwater bodies (rivers and ponds stay clear). Purely visual — no terrain, no gameplay. 0 = off. -->
+  <RimIris_Sea_Reef_Tip>Afloramientos de arrecife rocoso en la franja poco profunda cerca de la costa de las masas de agua salada (los ríos y estanques quedan despejados). Solo visual: sin terreno ni efecto en el juego. 0 = apagado.</RimIris_Sea_Reef_Tip>
+  <!-- EN: Terrain relief (normal-shaded ground) -->
+  <RimIris_Terrain_Enable>Relieve del terreno (suelo sombreado por normales)</RimIris_Terrain_Enable>
+  <!-- EN: Treats the terrain texture&apos;s brightness as a heightfield and lights it with the sun/moon direction: raking daylight sweeps visible micro-relief across the ground over the day, and breaks the mechanical 16-cell texture repetition. Multiply-only — can never exceed the original color. Strength 0 is pixel-exact vanilla. Polluted/burned terrain keeps the vanilla look. -->
+  <RimIris_Terrain_Enable_Tip>Toma el brillo de la textura del terreno como un mapa de alturas y lo ilumina según la dirección del sol o la luna: la luz rasante del día recorre un microrrelieve visible sobre el suelo a lo largo de la jornada y rompe la repetición mecánica de la textura cada 16 casillas. Solo multiplica: nunca puede pasar el color original. Con fuerza 0 queda idéntico al juego, píxel por píxel. El terreno contaminado o quemado conserva el aspecto original.</RimIris_Terrain_Enable_Tip>
+  <!-- EN: Relief strength -->
+  <RimIris_Terrain_Strength>Fuerza del relieve</RimIris_Terrain_Strength>
+  <!-- EN: Intensity of the raking light. 0 = exactly vanilla; try 0.4-0.8 and tune live. Applies instantly. -->
+  <RimIris_Terrain_Strength_Tip>Intensidad de la luz rasante. 0 = exactamente como el juego; prueba entre 0,4 y 0,8 y ajústalo en vivo. Se aplica al instante.</RimIris_Terrain_Strength_Tip>
+  <!-- EN: Wet ground (rain wetness &amp; puddles) -->
+  <RimIris_Wet_Enable>Suelo mojado (humedad por lluvia y charcos)</RimIris_Wet_Enable>
+  <!-- EN: Ground gradually darkens and reflects in the rain, with reflective puddles in low spots; slowly dries after the rain stops.
+Unaffected under roofs, on water, and on snow-covered cells. -->
+  <RimIris_Wet_Enable_Tip>El suelo se oscurece y brilla de a poco con la lluvia, con charcos que reflejan en las partes bajas; se seca lentamente cuando para la lluvia.\nNo afecta bajo techo, sobre el agua ni en las casillas cubiertas de nieve.</RimIris_Wet_Enable_Tip>
+  <!-- EN: Wetness strength -->
+  <RimIris_Wet_Strength>Fuerza de la humedad</RimIris_Wet_Strength>
+  <!-- EN: Overall strength of darkening and sheen. 0 = invisible, 0.7 = natural, 1.0 = deepest. Applies instantly. -->
+  <RimIris_Wet_Strength_Tip>Fuerza general del oscurecimiento y el brillo. 0 = invisible, 0,7 = natural, 1,0 = lo más profundo. Se aplica al instante.</RimIris_Wet_Strength_Tip>
+  <!-- EN: Puddle amount -->
+  <RimIris_Wet_Puddle>Cantidad de charcos</RimIris_Wet_Puddle>
+  <!-- EN: Puddle coverage: 0 = none, 0.6 = sparse puddles in low spots, 1 = widespread. Applies instantly. -->
+  <RimIris_Wet_Puddle_Tip>Cuánto cubren los charcos: 0 = nada, 0,6 = algunos charcos en las partes bajas, 1 = por todas partes. Se aplica al instante.</RimIris_Wet_Puddle_Tip>
+  <!-- EN: Drying time (in-game hours) -->
+  <RimIris_Wet_DryHours>Tiempo de secado (horas del juego)</RimIris_Wet_DryHours>
+  <!-- EN: In-game hours for the ground to fully dry after rain. 0.5 = dries fast, 8 = muddy all day. -->
+  <RimIris_Wet_DryHours_Tip>Horas del juego que tarda el suelo en secarse del todo después de la lluvia. 0,5 = se seca rápido, 8 = barro todo el día.</RimIris_Wet_DryHours_Tip>
+  <!-- EN: Wetness {0}   |   Puddles {1}   |   Rain {2} -->
+  <RimIris_Wet_Status>Humedad {0}   |   Charcos {1}   |   Lluvia {2}</RimIris_Wet_Status>
+  <!-- EN: Wetness rises within minutes of rain starting (the ground darkens); puddles take roughly an hour and a half of steady rain to fill.
+After the rain stops the ground dries first — puddles are the last to go. -->
+  <RimIris_Wet_Status_Tip>La humedad sube a los pocos minutos de empezar a llover (el suelo se oscurece); los charcos tardan cerca de una hora y media de lluvia constante en llenarse.\nCuando para la lluvia, primero se seca el suelo; los charcos son lo último en irse.</RimIris_Wet_Status_Tip>
+  <!-- EN: Soak test (flood the whole map now) -->
+  <RimIris_Wet_ForceSoak>Prueba de empapado (inundar todo el mapa ahora)</RimIris_Wet_ForceSoak>
+  <!-- EN: Restore original state -->
+  <RimIris_Wet_ForceSoak_Restore>Volver al estado original</RimIris_Wet_ForceSoak_Restore>
+  <!-- EN: (Enter a map to see wetness status) -->
+  <RimIris_Wet_NoMap>(Entra a un mapa para ver el estado de la humedad)</RimIris_Wet_NoMap>
+  <!-- EN: HDR (High Dynamic Range) -->
+  <RimIris_Render_HDR>HDR (alto rango dinámico)</RimIris_Render_HDR>
+  <!-- EN: Lets pixel brightness exceed 1.0; bloom and glow need that headroom. Recommended to keep on.
+Note: HDR is not a post-processing master switch — post-processing always runs; HDR only raises the brightness ceiling for bloom. -->
+  <RimIris_Render_HDR_Tip>Deja que el brillo de un píxel pase de 1,0; el resplandor y el halo necesitan ese margen. Se recomienda dejarlo encendido.\nOjo: el HDR no es un interruptor general del posprocesado, que siempre corre; el HDR solo sube el techo de brillo para el resplandor.</RimIris_Render_HDR_Tip>
+  <!-- EN: RimIrisApi v{0} — third-party mods can register shader entries (listed on the pack screen) and contribute option pages. -->
+  <RimIris_Api_Desc>RimIrisApi v{0}: los mods de terceros pueden registrar shaders (que aparecen en la pantalla de paquetes) y agregar páginas de opciones.</RimIris_Api_Desc>
+  <!-- EN: Extensions contribute entries via RimIrisApi.RegisterPack and request switches via SetActivePack.
+Switch requests are governed by the policy below (player visual sovereignty). -->
+  <RimIris_Api_Desc_Tip>Las extensiones agregan entradas con RimIrisApi.RegisterPack y piden cambios con SetActivePack.\nLos pedidos de cambio siguen la regla de abajo (el jugador decide cómo se ve su juego).</RimIris_Api_Desc_Tip>
+  <!-- EN: Forbid: extension requests are always rejected -->
+  <RimIris_Api_Policy0>Prohibir: los pedidos de las extensiones se rechazan siempre</RimIris_Api_Policy0>
+  <!-- EN: Ask: confirm each request with a popup (default) -->
+  <RimIris_Api_Policy1>Preguntar: confirmar cada pedido en una ventana (por defecto)</RimIris_Api_Policy1>
+  <!-- EN: Allow: extensions switch directly -->
+  <RimIris_Api_Policy2>Permitir: las extensiones cambian directamente</RimIris_Api_Policy2>
+  <!-- EN: Values this preset applies: -->
+  <RimIris_PresetPane_Values>Valores que aplica este preajuste:</RimIris_PresetPane_Values>
+  <!-- EN: {0}: {1} -->
+  <RimIris_PresetPane_Row>{0}: {1}</RimIris_PresetPane_Row>
+  <!-- EN: Selecting applies instantly; switching back to &quot;Built-in&quot; or &quot;None&quot; automatically restores the values from before you entered. -->
+  <RimIris_PresetPane_RestoreHint>Elegirlo lo aplica al instante; al volver a «Integrado» o «Ninguno» se recuperan solos los valores que tenías antes de entrar.</RimIris_PresetPane_RestoreHint>
+  <!-- EN: Defaults -->
+  <RimIris_Preset_BtnFactory>Por defecto</RimIris_Preset_BtnFactory>
+  <!-- EN: Cinema -->
+  <RimIris_Preset_BtnCinema>Cine</RimIris_Preset_BtnCinema>
+  <!-- EN: Restore the &quot;Cinema&quot; grade — the author&apos;s own tuned look (cool, desaturated).
+Overwrites all picture settings; does not touch the pack slot, frosted glass or other UI preferences. -->
+  <RimIris_Preset_TipCinema>Vuelve al estilo «Cine», el aspecto que ajustó el propio autor (frío y desaturado).\nReemplaza todos los ajustes de imagen; no toca el paquete elegido, el vidrio esmerilado ni otras preferencias de la interfaz.</RimIris_Preset_TipCinema>
+  <!-- EN: RimIris preset imported: {0} -->
+  <RimIris_Preset_Imported>Preajuste de RimIris importado: {0}</RimIris_Preset_Imported>
+  <!-- EN:  (from {0}) -->
+  <RimIris_Preset_OriginTag>&#32;(de {0})</RimIris_Preset_OriginTag>
+  <!-- EN: Share -->
+  <RimIris_Preset_ShareBtn>Compartir</RimIris_Preset_ShareBtn>
+  <!-- EN: Compress this preset&apos;s parameters into a one-line share code and copy it to the clipboard — paste it to other players. -->
+  <RimIris_Preset_ShareBtn_Tip>Comprime los parámetros de este preajuste en un código de una línea y lo copia al portapapeles, para pegárselo a otros jugadores.</RimIris_Preset_ShareBtn_Tip>
+  <!-- EN: Paste -->
+  <RimIris_Preset_PasteBtn>Pegar</RimIris_Preset_PasteBtn>
+  <!-- EN: Read a share code from the clipboard and save it as a new preset in the list (nothing is applied — click the card to apply it later). -->
+  <RimIris_Preset_PasteBtn_Tip>Lee un código del portapapeles y lo guarda como un preajuste nuevo en la lista (no se aplica nada: haz clic en la tarjeta para aplicarlo después).</RimIris_Preset_PasteBtn_Tip>
+  <!-- EN: Share code copied: {0} -->
+  <RimIris_Preset_CodeCopied>Código copiado: {0}</RimIris_Preset_CodeCopied>
+  <!-- EN: Imported preset &apos;{0}&apos; from the clipboard — click it in the list to apply -->
+  <RimIris_Preset_CodeImported>Se importó el preajuste «{0}» desde el portapapeles: haz clic en él en la lista para aplicarlo</RimIris_Preset_CodeImported>
+  <!-- EN: Saving the imported preset failed (see log) -->
+  <RimIris_Preset_CodeImportFailed>No se pudo guardar el preajuste importado (mira el registro)</RimIris_Preset_CodeImportFailed>
+  <!-- EN: Rename -->
+  <RimIris_Preset_Rename>Renombrar</RimIris_Preset_Rename>
+  <!-- EN: Rename this preset — file name and display name together. Does not apply parameters or change the active state. -->
+  <RimIris_Preset_Rename_Tip>Cambia el nombre de este preajuste: el del archivo y el que se muestra, juntos. No aplica parámetros ni cambia cuál está activo.</RimIris_Preset_Rename_Tip>
+  <!-- EN: Rename preset -->
+  <RimIris_Preset_RenameTitle>Renombrar preajuste</RimIris_Preset_RenameTitle>
+  <!-- EN: A preset named &apos;{0}&apos; already exists -->
+  <RimIris_Preset_RenameExists>Ya hay un preajuste llamado «{0}»</RimIris_Preset_RenameExists>
+  <!-- EN: Rename failed (see log) -->
+  <RimIris_Preset_RenameFailed>No se pudo renombrar (mira el registro)</RimIris_Preset_RenameFailed>
+  <!-- EN: No preview yet -->
+  <RimIris_Preset_NoPreview>Todavía sin vista previa</RimIris_Preset_NoPreview>
+  <!-- EN: Capturing… -->
+  <RimIris_Preset_ThumbCapturing>Capturando…</RimIris_Preset_ThumbCapturing>
+  <!-- EN: Capture -->
+  <RimIris_Preset_ThumbBtn>Capturar</RimIris_Preset_ThumbBtn>
+  <!-- EN: Capture a thumbnail of this preset from the current map view and save it. The screen briefly flashes the preset&apos;s look, then your original look is restored (recapture after editing the preset file). -->
+  <RimIris_Preset_ThumbBtn_Tip>Captura una miniatura de este preajuste desde la vista actual del mapa y la guarda. La pantalla muestra un instante el aspecto del preajuste y después vuelve el tuyo (vuelve a capturar si editas el archivo del preajuste).</RimIris_Preset_ThumbBtn_Tip>
+  <!-- EN: Thumbnail capture failed (see log) -->
+  <RimIris_Preset_ThumbFailed>No se pudo capturar la miniatura (mira el registro)</RimIris_Preset_ThumbFailed>
+  <!-- EN: More actions: share, rename, delete. -->
+  <RimIris_Preset_CardMenu_Tip>Más acciones: compartir, renombrar, borrar.</RimIris_Preset_CardMenu_Tip>
+  <!-- EN: No share code found in the clipboard -->
+  <RimIris_Preset_CodeEmpty>No hay ningún código en el portapapeles</RimIris_Preset_CodeEmpty>
+  <!-- EN: Share code is invalid or corrupted (incomplete copy?) -->
+  <RimIris_Preset_CodeInvalid>El código no es válido o está dañado (¿se copió incompleto?)</RimIris_Preset_CodeInvalid>
+  <!-- EN: This share code comes from a newer RimIris version — update the mod first -->
+  <RimIris_Preset_CodeTooNew>Este código viene de una versión más nueva de RimIris: actualiza primero el mod</RimIris_Preset_CodeTooNew>
+  <!-- EN: No pack -->
+  <RimIris_Preset_PackNone>Sin paquete</RimIris_Preset_PackNone>
+  <!-- EN: Built-in -->
+  <RimIris_Preset_PackBuiltin>Integrado</RimIris_Preset_PackBuiltin>
+  <!-- EN: Presets -->
+  <RimIris_Preset_BtnManager>Preajustes</RimIris_Preset_BtnManager>
+  <!-- EN: Open the picture preset manager: apply, save, share, delete and clipboard import in one window. -->
+  <RimIris_Preset_BtnManager_Tip>Abre el administrador de preajustes de imagen: aplicar, guardar, compartir, borrar e importar desde el portapapeles en una sola ventana.</RimIris_Preset_BtnManager_Tip>
+  <!-- EN: Picture presets -->
+  <RimIris_Preset_WindowTitle>Preajustes de imagen</RimIris_Preset_WindowTitle>
+  <!-- EN: Save -->
+  <RimIris_Preset_ExportBtn>Guardar</RimIris_Preset_ExportBtn>
+  <!-- EN: Save the current picture parameters as a preset file and copy the share code to the clipboard. -->
+  <RimIris_Preset_ExportBtn_Tip>Guarda los parámetros de imagen actuales como un archivo de preajuste y copia el código al portapapeles.</RimIris_Preset_ExportBtn_Tip>
+  <!-- EN: Preset saved and share code copied: {0} -->
+  <RimIris_Preset_ExportedCopied>Preajuste guardado y código copiado: {0}</RimIris_Preset_ExportedCopied>
+  <!-- EN: Apply -->
+  <RimIris_Preset_Apply>Aplicar</RimIris_Preset_Apply>
+  <!-- EN: Delete -->
+  <RimIris_Preset_Delete>Borrar</RimIris_Preset_Delete>
+  <!-- EN: Currently active preset -->
+  <RimIris_Preset_CurrentTip>Preajuste activo</RimIris_Preset_CurrentTip>
+  <!-- EN: {0} presets -->
+  <RimIris_Preset_Count>{0} preajustes</RimIris_Preset_Count>
+  <!-- EN: ACES brightness anchor -->
+  <RimIris_PresetVal_acesPreGain>Ancla de brillo ACES</RimIris_PresetVal_acesPreGain>
+  <!-- EN: Open folder -->
+  <RimIris_Preset_OpenFolder>Abrir carpeta</RimIris_Preset_OpenFolder>
+  <!-- EN: Opens the RimIrisPresets save folder in File Explorer (created on demand). -->
+  <RimIris_Preset_OpenFolder_Tip>Abre en el Explorador de archivos la carpeta RimIrisPresets, donde se guardan (se crea si hace falta).</RimIris_Preset_OpenFolder_Tip>
+  <!-- EN: ▸ Show diagnostics -->
+  <RimIris_Diag_ToggleShow>▸ Mostrar diagnóstico</RimIris_Diag_ToggleShow>
+  <!-- EN: ▾ Hide diagnostics -->
+  <RimIris_Diag_ToggleHide>▾ Ocultar diagnóstico</RimIris_Diag_ToggleHide>
+  <!-- EN: Render pipeline status: -->
+  <RimIris_Diag_Pipeline>Estado del proceso de renderizado:</RimIris_Diag_Pipeline>
+  <!-- EN: Status of the rendering subsystems. -->
+  <RimIris_Diag_Pipeline_Tip>Estado de las partes del renderizado.</RimIris_Diag_Pipeline_Tip>
+  <!-- EN: Diag view: darkness glow field (grey) -->
+  <RimIris_Diag_GlowView>Vista de diagnóstico: campo de brillo de la oscuridad (gris)</RimIris_Diag_GlowView>
+  <!-- EN: Shows the darkness glow field as grayscale. Grey above ~0.6 = fully darkness-exempt cells. After building a wall at night, a whole 17x17-section patch lighting up here = the exemption bake is the culprit; if it stays black, switch to the weight view. -->
+  <RimIris_Diag_GlowView_Tip>Muestra en escala de grises el campo de brillo de la oscuridad. Gris sobre ~0,6 = casillas del todo exentas de oscuridad. Si después de construir un muro de noche se ilumina aquí un parche entero de 17x17 casillas, el culpable es el cálculo de la exención; si sigue negro, cambia a la vista de pesos.</RimIris_Diag_GlowView_Tip>
+  <!-- EN: Diag view: ground-glow weight field (red) -->
+  <RimIris_Diag_FieldView>Vista de diagnóstico: campo de pesos del resplandor del suelo (rojo)</RimIris_Diag_FieldView>
+  <!-- EN: Shows the ground-glow GPU weight field in red (post-process read, day/night identical). A section-sized red patch while the rest of the map is uniform = the weight bake is the culprit; if both views look normal, the suspect moves elsewhere. -->
+  <RimIris_Diag_FieldView_Tip>Muestra en rojo el campo de pesos del resplandor del suelo en la GPU (lo que lee el posprocesado; igual de día y de noche). Un parche rojo del tamaño de una sección con el resto del mapa uniforme = el culpable es el cálculo de pesos; si las dos vistas se ven normales, el problema está en otra parte.</RimIris_Diag_FieldView_Tip>
+  <!-- EN: • Custom shader bundle: -->
+  <RimIris_Diag_ShaderPack>• Paquete de shaders propio:</RimIris_Diag_ShaderPack>
+  <!-- EN: Loaded ({0} shaders) -->
+  <RimIris_Diag_ShaderPack_Loaded>Cargado ({0} shaders)</RimIris_Diag_ShaderPack_Loaded>
+  <!-- EN: Not loaded -->
+  <RimIris_Diag_ShaderPack_Missing>No cargado</RimIris_Diag_ShaderPack_Missing>
+  <!-- EN: The asset bundle required by material-level shaders (thing enhancements). -->
+  <RimIris_Diag_ShaderPack_Tip>El paquete de recursos que necesitan los shaders de material (las mejoras de las cosas).</RimIris_Diag_ShaderPack_Tip>
+  <!-- EN: Currently loaded picture parameters: -->
+  <RimIris_Diag_LoadedParams>Parámetros de imagen cargados ahora:</RimIris_Diag_LoadedParams>
+  <!-- EN: Reflects the values actually loaded from the settings file — check here first if the picture looks wrong.
+If it disagrees with what the sliders show, the settings file was rewritten externally or stale values were loaded. -->
+  <RimIris_Diag_LoadedParams_Tip>Muestra los valores que de verdad se cargaron del archivo de ajustes: si la imagen se ve mal, mira aquí primero.\nSi no coincide con lo que muestran los deslizadores, el archivo de ajustes se reescribió desde afuera o se cargaron valores viejos.</RimIris_Diag_LoadedParams_Tip>
+  <!-- EN: Reflects the values actually loaded from the settings file — check here first if the picture looks wrong.
+The &quot;Auto Temp&quot; line: seasonal base temperature, map snow cover, the current auto offset, and the effective color temperature after stacking.
+The &quot;Weather Adapt&quot; line: current weather, sky transmittance (1 = clear, ~0.8 = rain/fog/snow) and each trim factor;
+&quot;ACES/Bloom A→B&quot; = clear-sky value → current effective value; Desat = how far rainy colors pull toward gray.
+Most of a rainy day&apos;s darkening comes from vanilla lighting itself (LightOverlay ≈ -20%); the values above are RimIris&apos;s extra trim only. -->
+  <RimIris_Diag_LoadedParams_Tip3>Muestra los valores que de verdad se cargaron del archivo de ajustes: si la imagen se ve mal, mira aquí primero.\nLa línea «Temperatura automática»: temperatura base de la estación, nieve sobre el mapa, la corrección automática actual y la temperatura de color efectiva después de sumarla.\nLa línea «Adaptación al clima»: clima actual, transmitancia del cielo (1 = despejado, ~0,8 = lluvia, niebla o nieve) y cada factor de recorte;\n«ACES/Resplandor A→B» = valor con cielo despejado → valor efectivo actual; Desaturación = cuánto se acercan al gris los colores con lluvia.\nCasi todo el oscurecimiento de un día de lluvia viene de la propia iluminación del juego (LightOverlay ≈ -20%); los valores de arriba son solo el recorte extra de RimIris.</RimIris_Diag_LoadedParams_Tip3>
+  <!-- EN: Exposure {0} (default 0.74) -->
+  <RimIris_Diag_Exp>Exposición {0} (por defecto 0,74)</RimIris_Diag_Exp>
+  <!-- EN: Realistic Darkness {0} -->
+  <RimIris_Diag_Darkness>Oscuridad realista {0}</RimIris_Diag_Darkness>
+  <!-- EN: Lighting style {0} -->
+  <RimIris_Diag_Lighting>Estilo de iluminación {0}</RimIris_Diag_Lighting>
+  <!-- EN: Grade  temp {0}  sat {1}  contrast {2} -->
+  <RimIris_Diag_Grade>Color  temperatura {0}  saturación {1}  contraste {2}</RimIris_Diag_Grade>
+  <!-- EN: Auto Temp  season {0}°C  snow cover {1}%  offset {2}  effective {3} -->
+  <RimIris_Diag_Auto>Temperatura automática  estación {0} °C  nieve {1}%  corrección {2}  efectiva {3}</RimIris_Diag_Auto>
+  <!-- EN: Weather adapt [{0}]  transmittance {1}  sun fade {2}  post trim {3}  desat {4}% -->
+  <RimIris_Diag_Weather>Adaptación al clima [{0}]  transmitancia {1}  atenuación del sol {2}  recorte del posprocesado {3}  desaturación {4}%</RimIris_Diag_Weather>
+  <!-- EN: ACES {0}→{1} -->
+  <RimIris_Diag_ACES>ACES {0}→{1}</RimIris_Diag_ACES>
+  <!-- EN: dusk calm {0}% -->
+  <RimIris_Diag_DuskPct>calma del atardecer {0}%</RimIris_Diag_DuskPct>
+  <!-- EN: Bloom {0}→{1} -->
+  <RimIris_Diag_Bloom>Resplandor {0}→{1}</RimIris_Diag_Bloom>
+  <!-- EN: Ground bloom {0}→{1} -->
+  <RimIris_Diag_GroundBloom>Resplandor del suelo {0}→{1}</RimIris_Diag_GroundBloom>
+  <!-- EN: Live data: -->
+  <RimIris_Diag_LiveData>Datos en vivo:</RimIris_Diag_LiveData>
+  <!-- EN: Current sun state. -->
+  <RimIris_Diag_LiveData_Tip>Estado actual del sol.</RimIris_Diag_LiveData_Tip>
+  <!-- EN: Sun glow {0}   time {1}   bearing ({2}, {3}) -->
+  <RimIris_Diag_Sun>Brillo del sol {0}   hora {1}   dirección ({2}, {3})</RimIris_Diag_Sun>
+  <!-- EN: Reset Iris window position and size -->
+  <RimIris_Esc_ResetBtn>Restablecer la posición y el tamaño de la ventana de Iris</RimIris_Esc_ResetBtn>
+  <!-- EN: Resets the Iris screen&apos;s window size and position to defaults (92% x 88%, centered).
+Takes effect the next time the Iris screen opens. -->
+  <RimIris_Esc_ResetBtn_Tip>Devuelve el tamaño y la posición de la ventana de Iris a los valores por defecto (92% x 88%, centrada).\nSe aplica la próxima vez que abras la ventana de Iris.</RimIris_Esc_ResetBtn_Tip>
+  <!-- EN: Iris window geometry reset; applies the next time the screen opens. -->
+  <RimIris_Esc_ResetDone>Se restableció la ventana de Iris; se aplica la próxima vez que la abras.</RimIris_Esc_ResetDone>
+  <!-- EN: Restart post-processing manually (click if the picture is flat) -->
+  <RimIris_Esc_ReviveBtn>Reiniciar el posprocesado a mano (haz clic si la imagen se ve plana)</RimIris_Esc_ReviveBtn>
+  <!-- EN: Manually restarts RimIris&apos;s post-processing (Waylith 1.7 engine only).
+Use when postfx / frosted glass is dead for the whole session (typically the second game launch after boot, right after a colony start).
+Enter colony view first; the restart takes a few seconds and the picture may briefly fall back to unprocessed. -->
+  <RimIris_Esc_ReviveBtn_Tip>Reinicia a mano el posprocesado de RimIris (solo con el motor Waylith de la 1.7).\nÚsalo cuando el posprocesado o el vidrio esmerilado no funcionen en toda la sesión (suele pasar en la segunda vez que abres el juego después de encender el PC, justo al empezar una colonia).\nEntra primero a la vista de la colonia; el reinicio tarda unos segundos y la imagen puede volver un momento a verse sin procesar.</RimIris_Esc_ReviveBtn_Tip>
+  <!-- EN: Post-processing manually restarted; re-activating. -->
+  <RimIris_Esc_ReviveDone>Posprocesado reiniciado a mano; activándose de nuevo.</RimIris_Esc_ReviveDone>
+  <!-- EN: Restart postfx -->
+  <RimIris_Revive_Short>Reiniciar posprocesado</RimIris_Revive_Short>
+  <!-- EN: Developer documentation -->
+  <RimIris_Docs_Button>Documentación para desarrolladores</RimIris_Docs_Button>
+  <!-- EN: Opens the mod&apos;s bundled documentation folder (zh/ Chinese, en/ English).
+The path is resolved from the mod&apos;s actual install location. -->
+  <RimIris_Docs_Button_Tip>Abre la carpeta de documentación que trae el mod (zh/ en chino, en/ en inglés).\nLa ruta sale de donde está instalado el mod.</RimIris_Docs_Button_Tip>
+  <!-- EN: RimIris documentation folder not found (this install does not ship Documentation). -->
+  <RimIris_Docs_Missing>No se encontró la carpeta de documentación de RimIris (esta instalación no trae Documentation).</RimIris_Docs_Missing>
+  <!-- EN: tool -->
+  <RimIris_Addon_UtilityTag>herramienta</RimIris_Addon_UtilityTag>
+  <!-- EN: Utility addon: no picture output, not tied to the picture state — stays checked and running while the pack selection is 无 (vanilla). -->
+  <RimIris_Addon_UtilityTip>Complemento de utilidad: no cambia la imagen y no depende de su estado; sigue marcado y funcionando aunque el paquete elegido sea «Ninguno» (original).</RimIris_Addon_UtilityTip>
+  <!-- EN: utility layer {0} -->
+  <RimIris_Addon_StatusUtilityFmt>capa de utilidad {0}</RimIris_Addon_StatusUtilityFmt>
+  <!-- EN: Changelog -->
+  <RimIris_Changelog_Button>Registro de cambios</RimIris_Changelog_Button>
+  <!-- EN: View the RimIris changelog.\nPops up automatically once, the first time you open the Iris screen after each update. -->
+  <RimIris_Changelog_Button_Tip>Muestra el registro de cambios de RimIris.\nAparece solo una vez, la primera vez que abres la ventana de Iris después de cada actualización.</RimIris_Changelog_Button_Tip>
+  <!-- EN: Fast start -->
+  <RimIris_FastStart_Label>Inicio rápido</RimIris_FastStart_Label>
+  <!-- EN: How the composite returns after a map load/switch (applies from the next transition).\n\nOff (default): the first frame stays vanilla, then the effects fade in over ~8 frames. WHY the wait: post-processing reads the PREVIOUS frame&apos;s async screen capture — on the switch frame it has not landed yet, and freshly loaded render resources may still hold transitional data (black/magenta flashes); the fade masks those transitions.\n\nOn: aggressive first-frame start — only the single capture-landing frame is skipped, then the full composite shows immediately; in rare cases one transitional frame may flash. -->
+  <RimIris_FastStart_Tip>Cómo vuelve la imagen procesada después de cargar o cambiar de mapa (se aplica desde la próxima transición).\n\nApagado (por defecto): el primer cuadro queda como el original y después los efectos aparecen de a poco en unos 8 cuadros. Por qué la espera: el posprocesado lee la captura de pantalla asíncrona del cuadro ANTERIOR; en el cuadro del cambio todavía no llegó, y los recursos de renderizado recién cargados pueden tener datos de transición (destellos negros o magenta); el fundido tapa esas transiciones.\n\nEncendido: inicio agresivo desde el primer cuadro; solo se salta el cuadro en que llega la captura y la imagen procesada completa aparece de inmediato; en casos raros puede destellar un cuadro de transición.</RimIris_FastStart_Tip>
+  <!-- EN: Open button -->
+  <RimIris_CornerBtn_Label>Botón para abrir</RimIris_CornerBtn_Label>
+  <!-- EN: Bottom menu bar -->
+  <RimIris_CornerBtn_Bar>Barra de menú de abajo</RimIris_CornerBtn_Bar>
+  <!-- EN: Bottom-right tools -->
+  <RimIris_CornerBtn_Tools>Herramientas de abajo a la derecha</RimIris_CornerBtn_Tools>
+  <!-- EN: Where the Iris menu button lives (switchable from this screen&apos;s footer anytime).\n\nBottom menu bar (default): in the row with Construction, World, etc.\nBottom-right tools: the first slot of the vanilla bottom-right tool row, next to temperature/beauty/room-stats; the bottom bar no longer shows the Iris button then. -->
+  <RimIris_CornerBtn_Tip>Dónde va el botón del menú de Iris (se puede cambiar cuando quieras desde el pie de esta ventana).\n\nBarra de menú de abajo (por defecto): en la fila de Construcción, Mundo, etc.\nHerramientas de abajo a la derecha: el primer lugar de la fila de herramientas de abajo a la derecha del juego, junto a temperatura, belleza y estadísticas de la habitación; en ese caso la barra de abajo ya no muestra el botón de Iris.</RimIris_CornerBtn_Tip>
+  <!-- EN: RimIris Changelog -->
+  <RimIris_Changelog_Title>Registro de cambios de RimIris</RimIris_Changelog_Title>
+  <!-- EN: Changelog file not found: {0} -->
+  <RimIris_Changelog_Missing>No se encontró el archivo del registro de cambios: {0}</RimIris_Changelog_Missing>
+  <!-- EN: source pack not installed -->
+  <RimIris_Preset_PackMissing>el paquete de origen no está instalado</RimIris_Preset_PackMissing>
+  <!-- EN: source pack inactive -->
+  <RimIris_Preset_PackInactive>el paquete de origen no está activo</RimIris_Preset_PackInactive>
+  <!-- EN: (pack &apos;{0}&apos; not installed — its options were skipped) -->
+  <RimIris_Preset_PackSkipped>(el paquete «{0}» no está instalado: se saltaron sus opciones)</RimIris_Preset_PackSkipped>
+  <!-- EN: A preset named &apos;{0}&apos; already exists — overwrite it? -->
+  <RimIris_Preset_OverwriteConfirm>Ya hay un preajuste llamado «{0}». ¿Lo reemplazas?</RimIris_Preset_OverwriteConfirm>
+  <!-- EN: Built-in presets ({0}) -->
+  <RimIris_Preset_BuiltinGroup>Preajustes integrados ({0})</RimIris_Preset_BuiltinGroup>
+  <!-- EN: My presets ({0}) -->
+  <RimIris_Preset_UserGroup>Mis preajustes ({0})</RimIris_Preset_UserGroup>
+  <!-- EN: Restore -->
+  <RimIris_Preset_BuiltinRestore>Restaurar</RimIris_Preset_BuiltinRestore>
+  <!-- EN: Re-apply this built-in preset&apos;s original shipped values. Built-ins cannot be modified — apply it, then export your tweaked version under a new name. -->
+  <RimIris_Preset_BuiltinRestore_Tip>Vuelve a aplicar los valores originales de este preajuste integrado. Los integrados no se pueden cambiar: aplícalo y después exporta tu versión modificada con otro nombre.</RimIris_Preset_BuiltinRestore_Tip>
+  <!-- EN: A shipped built-in preset named &quot;{0}&quot; already exists — choose another name. -->
+  <RimIris_Preset_NameConflict>Ya hay un preajuste integrado llamado «{0}»: elige otro nombre.</RimIris_Preset_NameConflict>
+  <!-- EN: Author -->
+  <RimIris_Preset_AuthorField>Autor</RimIris_Preset_AuthorField>
+  <!-- EN: Author signature: prefilled once from your Steam persona name (edit or clear freely). Stamped into exported presets and shown in the list meta line and share-code header. -->
+  <RimIris_Preset_AuthorField_Tip>Firma del autor: se llena una vez con tu nombre de Steam (puedes cambiarla o borrarla). Va en los preajustes que exportas y se muestra en la línea de datos de la lista y en el encabezado del código para compartir.</RimIris_Preset_AuthorField_Tip>
+  <!-- EN: The shader settings menu is here -->
+  <RimIris_Tut_MenuHere>El menú de ajustes de los shaders está aquí</RimIris_Tut_MenuHere>
+  <!-- EN: Got it -->
+  <RimIris_Tut_Know>Entendido</RimIris_Tut_Know>
+  <!-- EN: Skip tutorial -->
+  <RimIris_Tut_Skip>Saltar el tutorial</RimIris_Tut_Skip>
+  <!-- EN: Reset tutorial -->
+  <RimIris_Tut_Reset>Reiniciar el tutorial</RimIris_Tut_Reset>
+  <!-- EN: Replay the RimIris first-run tutorial next time you enter a game (it normally plays only once in a lifetime). -->
+  <RimIris_Tut_Reset_Tip>Vuelve a mostrar el tutorial de inicio de RimIris la próxima vez que entres a una partida (normalmente se muestra una sola vez).</RimIris_Tut_Reset_Tip>
+  <!-- EN: Tutorial reset — it will replay next time you enter a game -->
+  <RimIris_Tut_ResetDone>Tutorial reiniciado: se mostrará de nuevo la próxima vez que entres a una partida</RimIris_Tut_ResetDone>
+  <!-- EN: RimIris hooks the whole render pipeline and must load after every other mod (Harmony included).\n\nDetected &quot;{1}&quot; loading BELOW RimIris whose About.xml does not declare loadAfter RimIris (no addon-contract compatibility statement).\n\nPlease move that mod above RimIris, or ask its author to declare loadAfter RimIris. This reminder shows once per launch; details are in the log. -->
+  <RimIris_LoadOrder_WarnText>RimIris engancha todo el proceso de renderizado y tiene que cargar después de todos los demás mods (Harmony incluido).\n\nSe detectó que «{1}» carga DEBAJO de RimIris y su About.xml no declara loadAfter RimIris (no indica que sea compatible como complemento).\n\nPon ese mod arriba de RimIris, o pídele a su autor que declare loadAfter RimIris. Este aviso aparece una vez cada vez que abres el juego; los detalles están en el registro.</RimIris_LoadOrder_WarnText>
+  <!-- EN: Load order: &quot;{0}&quot; sits below RimIris without declaring loadAfter — move it above RimIris (hover for details) -->
+  <RimIris_LoadOrder_Diag>Orden de carga: «{0}» está debajo de RimIris sin declarar loadAfter; ponlo arriba de RimIris (pasa el mouse para ver los detalles)</RimIris_LoadOrder_Diag>
+  <!-- EN: Frame {0}ms · peak {1}ms · this mod {2}ms · GPU global {3}% -->
+  <RimIris_Perf_Line>Cuadro {0} ms · pico {1} ms · este mod {2} ms · GPU total {3}%</RimIris_Perf_Line>
+  <!-- EN: Mod = RimIris&apos;s total per-stage CPU submit cost (4Hz live sampling by Rimiris Dashboard). GPU is the machine-wide total — GPUs do not attribute execution time per mod, and no OS API can. Row suffixes: bloom/DoF own exclusive pipeline stages (true per-feature cost); rows marked &apos;composite&apos; (tone mapping / vignette / glow / darkness) share one composite pass — the number is that pass&apos;s total, not one feature&apos;s; &apos;bake&apos; rows (terrain relief / ground bloom / water) are one-time CPU costs paid on terrain rebuilds, shown for 10s after; features without any attributable work (lighting tone) show none; the wet/tide pump cost appears on its own switch row. Hides itself when not sampling or not installed. -->
+  <RimIris_Perf_Line_Tip>Mod = el costo total de CPU de RimIris al enviar cada etapa (medido en vivo 4 veces por segundo por Rimiris Dashboard). La GPU es el total de toda la máquina: las GPU no reparten el tiempo de ejecución por mod, y ninguna API del sistema puede hacerlo. Lo que dice al final de cada fila: el resplandor y la profundidad de campo tienen etapas propias (costo real de cada función); las filas marcadas «combinado» (mapeo de tonos / viñeta / halo / oscuridad) comparten una sola pasada combinada, y el número es el total de esa pasada, no de una función; las filas «cálculo» (relieve del terreno / resplandor del suelo / agua) son costos de CPU de una sola vez que se pagan al rehacer el terreno, y se muestran 10 s después; las funciones sin trabajo que se les pueda atribuir (tono de la iluminación) no muestran nada; el costo de la humedad y la marea aparece en la fila de su interruptor. Se oculta cuando no está midiendo o no está instalado.</RimIris_Perf_Line_Tip>
+  <!-- EN: composite -->
+  <RimIris_PerfStage_Composite>combinado</RimIris_PerfStage_Composite>
+  <!-- EN: bake {0}ms · on terrain rebuild only -->
+  <RimIris_PerfStage_Bake>cálculo {0} ms · solo al rehacer el terreno</RimIris_PerfStage_Bake>
+  <!-- EN: Enable dev mode (record black boxes) -->
+  <RimIris_Report_DevMode>Activar el modo desarrollador (grabar las cajas negras)</RimIris_Report_DevMode>
+  <!-- EN: Turns on RimWorld&apos;s developer mode so the black-box probes (Diagnostics/*.log) record while you reproduce the problem, then package it with the button above. -->
+  <RimIris_Report_DevMode_Tip>Enciende el modo desarrollador de RimWorld para que las sondas de caja negra (Diagnostics/*.log) graben mientras repites el problema; después, empaquétalo con el botón de arriba.</RimIris_Report_DevMode_Tip>
+  <!-- EN: Tide debug view (red=offshore field, green=gate, blue=relief U) -->
+  <RimIris_Tide_Debug>Vista de depuración de la marea (rojo = campo mar adentro, verde = compuerta, azul = relieve U)</RimIris_Tide_Debug>
+  <!-- EN: Renders the water film&apos;s internal fields as colors: red = offshore distance (dark at the waterline -&gt; full red at 4 cells), green = gate, blue = the sampled relief U (blue varying with position = the relief field is alive; constant = flat field). Remove after verification. -->
+  <RimIris_Tide_Debug_Tip>Muestra en colores los campos internos de la película de agua: rojo = distancia mar adentro (oscuro en la orilla -&gt; rojo pleno a 4 casillas), verde = compuerta, azul = el relieve U muestreado (si el azul cambia según la posición, el campo de relieve funciona; si es constante, el campo es plano). Quítalo después de comprobarlo.</RimIris_Tide_Debug_Tip>
+  <!-- EN: Drag the bottom-right grip to resize the window -->
+  <RimIris_Tut_Grip>Arrastra la esquina de abajo a la derecha para cambiar el tamaño de la ventana</RimIris_Tut_Grip>
+  <!-- EN: Drag the top edge of the window to move it -->
+  <RimIris_Tut_Drag>Arrastra el borde de arriba de la ventana para moverla</RimIris_Tut_Drag>
+  <!-- EN: Bake on GPU -->
+  <RimIris_Darkness_GpuBake>Calcular en la GPU</RimIris_Darkness_GpuBake>
+  <!-- EN: Uploads the vanilla glow grid and computes the darkness/glow texture on the GPU. -->
+  <RimIris_Darkness_GpuBake_Tip>Envía la cuadrícula de brillo del juego a la GPU y calcula ahí la textura de oscuridad y brillo.</RimIris_Darkness_GpuBake_Tip>
+  <!-- EN: GPU bake failed this save-cycle — CPU active -->
+  <RimIris_Darkness_GpuBake_Banned>El cálculo en la GPU falló en esta partida cargada: se usa la CPU</RimIris_Darkness_GpuBake_Banned>
+  <!-- EN: The GPU bake hit an error in this save cycle, so the CPU path took over automatically (cause in the log). Loading a save or starting a new game re-arms the GPU path. -->
+  <RimIris_Darkness_GpuBake_Banned_Tip>El cálculo en la GPU tuvo un error desde que se cargó esta partida, así que la CPU se encargó sola (la causa está en el registro). Al cargar una partida o empezar una nueva, se vuelve a probar la GPU.</RimIris_Darkness_GpuBake_Banned_Tip>
+  <!-- EN: Scenario rules -->
+  <RimIris_Scn_Title>Reglas de escena</RimIris_Scn_Title>
+  <!-- EN: Environment census -->
+  <RimIris_Scn_CensusTitle>Censo del entorno</RimIris_Scn_CensusTitle>
+  <!-- EN: Log -->
+  <RimIris_Scn_Log>Registro</RimIris_Scn_Log>
+  <!-- EN: Capture current as rule -->
+  <RimIris_Scn_Capture>Capturar lo actual como regla</RimIris_Scn_Capture>
+  <!-- EN: No rules yet - stand in the scene you want and capture it -->
+  <RimIris_Scn_NoRules>Todavía no hay reglas: ponte en la escena que quieras y captúrala</RimIris_Scn_NoRules>
+  <!-- EN: No map -->
+  <RimIris_Scn_NoMap>Sin mapa</RimIris_Scn_NoMap>
+  <!-- EN: Settings not ready -->
+  <RimIris_Scn_NoSettings>Ajustes no listos</RimIris_Scn_NoSettings>
+  <!-- EN: Delete -->
+  <RimIris_Scn_Delete>Borrar</RimIris_Scn_Delete>
+  <!-- EN: Add condition -->
+  <RimIris_Scn_AddCond>Agregar condición</RimIris_Scn_AddCond>
+  <!-- EN: Profile -->
+  <RimIris_Scn_Profile>Perfil</RimIris_Scn_Profile>
+  <!-- EN: (none) -->
+  <RimIris_Scn_None>(ninguno)</RimIris_Scn_None>
+  <!-- EN: &lt;- MATCH -->
+  <RimIris_Scn_MatchMark>&lt;- COINCIDE</RimIris_Scn_MatchMark>
+  <!-- EN: Branch owns picture -->
+  <RimIris_Scn_Branch>La rama controla la imagen</RimIris_Scn_Branch>
+  <!-- EN: (main dials locked) -->
+  <RimIris_Scn_BranchLocked>(controles principales bloqueados)</RimIris_Scn_BranchLocked>
+  <!-- EN: (main dials editable) -->
+  <RimIris_Scn_BranchUnlocked>(controles principales editables)</RimIris_Scn_BranchUnlocked>
+  <!-- EN: nothing to pick -->
+  <RimIris_Scn_NothingToPick>nada para elegir</RimIris_Scn_NothingToPick>
+  <!-- EN: not set -->
+  <RimIris_Scn_NotSet>sin definir</RimIris_Scn_NotSet>
+  <!-- EN: yes -->
+  <RimIris_Scn_Yes>sí</RimIris_Scn_Yes>
+  <!-- EN: no -->
+  <RimIris_Scn_No>no</RimIris_Scn_No>
+  <!-- EN: capture failed: no map -->
+  <RimIris_Scn_CaptureFailed>falló la captura: no hay mapa</RimIris_Scn_CaptureFailed>
+  <!-- EN: weather name -->
+  <RimIris_Scn_Subj_WeatherDefName>nombre del clima</RimIris_Scn_Subj_WeatherDefName>
+  <!-- EN: favorability -->
+  <RimIris_Scn_Subj_WeatherFavorability>favorabilidad</RimIris_Scn_Subj_WeatherFavorability>
+  <!-- EN: bad weather -->
+  <RimIris_Scn_Subj_WeatherBad>mal tiempo</RimIris_Scn_Subj_WeatherBad>
+  <!-- EN: rain -->
+  <RimIris_Scn_Subj_RainRate>lluvia</RimIris_Scn_Subj_RainRate>
+  <!-- EN: snow -->
+  <RimIris_Scn_Subj_SnowRate>nieve</RimIris_Scn_Subj_SnowRate>
+  <!-- EN: sand -->
+  <RimIris_Scn_Subj_SandRate>arena</RimIris_Scn_Subj_SandRate>
+  <!-- EN: wind -->
+  <RimIris_Scn_Subj_WindSpeed>viento</RimIris_Scn_Subj_WindSpeed>
+  <!-- EN: sun glow -->
+  <RimIris_Scn_Subj_SunGlow>brillo del sol</RimIris_Scn_Subj_SunGlow>
+  <!-- EN: is daytime -->
+  <RimIris_Scn_Subj_IsDaytime>es de día</RimIris_Scn_Subj_IsDaytime>
+  <!-- EN: time band -->
+  <RimIris_Scn_Subj_TimeBand>franja horaria</RimIris_Scn_Subj_TimeBand>
+  <!-- EN: hour -->
+  <RimIris_Scn_Subj_Hour>hora</RimIris_Scn_Subj_Hour>
+  <!-- EN: outdoor temp -->
+  <RimIris_Scn_Subj_TempOutdoor>temperatura exterior</RimIris_Scn_Subj_TempOutdoor>
+  <!-- EN: season temp -->
+  <RimIris_Scn_Subj_TempSeasonal>temperatura de la estación</RimIris_Scn_Subj_TempSeasonal>
+  <!-- EN: snow depth -->
+  <RimIris_Scn_Subj_SnowDepth>profundidad de la nieve</RimIris_Scn_Subj_SnowDepth>
+  <!-- EN: brightness (anomaly) -->
+  <RimIris_Scn_Subj_Brightness>brillo (anomalía)</RimIris_Scn_Subj_Brightness>
+  <!-- EN: always dark -->
+  <RimIris_Scn_Subj_PassiveDark>siempre oscuro</RimIris_Scn_Subj_PassiveDark>
+  <!-- EN: cave -->
+  <RimIris_Scn_Subj_Cave>cueva</RimIris_Scn_Subj_Cave>
+  <!-- EN: active condition -->
+  <RimIris_Scn_Subj_ConditionActive>condición activa</RimIris_Scn_Subj_ConditionActive>
+  <!-- EN: event stage -->
+  <RimIris_Scn_Subj_ConditionStage>etapa del evento</RimIris_Scn_Subj_ConditionStage>
+  <!-- EN: season -->
+  <RimIris_Scn_Subj_Season>estación</RimIris_Scn_Subj_Season>
+  <!-- EN: weather flags -->
+  <RimIris_Scn_Subj_WeatherFlag>marcas del clima</RimIris_Scn_Subj_WeatherFlag>
+  <!-- EN: sub-stage -->
+  <RimIris_Scn_Subj_SubStageIndex>subetapa</RimIris_Scn_Subj_SubStageIndex>
+  <!-- EN: = -->
+  <RimIris_Scn_Op_Eq>=</RimIris_Scn_Op_Eq>
+  <!-- EN: != -->
+  <RimIris_Scn_Op_Ne>!=</RimIris_Scn_Op_Ne>
+  <!-- EN: &lt; -->
+  <RimIris_Scn_Op_Lt>&lt;</RimIris_Scn_Op_Lt>
+  <!-- EN: &lt;= -->
+  <RimIris_Scn_Op_Le>&lt;=</RimIris_Scn_Op_Le>
+  <!-- EN: &gt; -->
+  <RimIris_Scn_Op_Gt>&gt;</RimIris_Scn_Op_Gt>
+  <!-- EN: &gt;= -->
+  <RimIris_Scn_Op_Ge>&gt;=</RimIris_Scn_Op_Ge>
+  <!-- EN: in range -->
+  <RimIris_Scn_Op_InRange>en el rango</RimIris_Scn_Op_InRange>
+  <!-- EN: contains -->
+  <RimIris_Scn_Op_Contains>contiene</RimIris_Scn_Op_Contains>
+  <!-- EN: any -->
+  <RimIris_Scn_Mode_Any>cualquiera</RimIris_Scn_Mode_Any>
+  <!-- EN: all -->
+  <RimIris_Scn_Mode_All>todas</RimIris_Scn_Mode_All>
+  <!-- EN: at least N -->
+  <RimIris_Scn_Mode_AtLeastN>al menos N</RimIris_Scn_Mode_AtLeastN>
+  <!-- EN: none -->
+  <RimIris_Scn_Mode_None>ninguna</RimIris_Scn_Mode_None>
+  <!-- EN: dawn -->
+  <RimIris_Scn_Band_Dawn>amanecer</RimIris_Scn_Band_Dawn>
+  <!-- EN: day -->
+  <RimIris_Scn_Band_Day>día</RimIris_Scn_Band_Day>
+  <!-- EN: dusk -->
+  <RimIris_Scn_Band_Dusk>atardecer</RimIris_Scn_Band_Dusk>
+  <!-- EN: night -->
+  <RimIris_Scn_Band_Night>noche</RimIris_Scn_Band_Night>
+  <!-- EN: Branch picture (what you see is the branch) -->
+  <RimIris_Scn_BranchPicture>Imagen de la rama (lo que ves es la rama)</RimIris_Scn_BranchPicture>
+  <!-- EN: Tick 「Scenario lighting」 in the left column&apos;s add-on group; the branch&apos;s own lighting settings expand here. -->
+  <RimIris_Scn_BranchHint>Marca «Iluminación por escena» en el grupo de complementos de la columna izquierda; aquí se despliegan los ajustes de iluminación propios de la rama.</RimIris_Scn_BranchHint>
+  <!-- EN: (auto switching pauses while a window is open) -->
+  <RimIris_Scn_PausedHint>(el cambio automático se pausa mientras haya una ventana abierta)</RimIris_Scn_PausedHint>
+  <!-- EN: current rule -->
+  <RimIris_Scn_CurrentRule>regla actual</RimIris_Scn_CurrentRule>
+  <!-- EN: Cheat / test panel -->
+  <RimIris_Scn_CheatTitle>Panel de trucos y pruebas</RimIris_Scn_CheatTitle>
+  <!-- EN: Use transition (4000 ticks, tests the settle gate) -->
+  <RimIris_Scn_CheatTransition>Usar transición (4000 ticks, prueba la espera de asentamiento)</RimIris_Scn_CheatTransition>
+  <!-- EN: Weather (click to switch) -->
+  <RimIris_Scn_CheatWeather>Clima (haz clic para cambiarlo)</RimIris_Scn_CheatWeather>
+  <!-- EN: Conditions (click to toggle) -->
+  <RimIris_Scn_CheatConditions>Condiciones (haz clic para activar o desactivar)</RimIris_Scn_CheatConditions>
+  <!-- EN: Jump time -->
+  <RimIris_Scn_CheatTime>Saltar en el tiempo</RimIris_Scn_CheatTime>
+  <!-- EN: dawn -->
+  <RimIris_Scn_CheatDawn>amanecer</RimIris_Scn_CheatDawn>
+  <!-- EN: noon -->
+  <RimIris_Scn_CheatNoon>mediodía</RimIris_Scn_CheatNoon>
+  <!-- EN: dusk -->
+  <RimIris_Scn_CheatDusk>atardecer</RimIris_Scn_CheatDusk>
+  <!-- EN: midnight -->
+  <RimIris_Scn_CheatMidnight>medianoche</RimIris_Scn_CheatMidnight>
+  <!-- EN: Scenario lighting -->
+  <RimIris_Scn_PageTitle>Iluminación por escena</RimIris_Scn_PageTitle>
+  <!-- EN: Auto (owns the picture) -->
+  <RimIris_Scn_AutoOn>Automático (controla la imagen)</RimIris_Scn_AutoOn>
+  <!-- EN: Off -->
+  <RimIris_Scn_AutoOff>Apagado</RimIris_Scn_AutoOff>
+  <!-- EN: now -->
+  <RimIris_Scn_CurrentLabel>ahora</RimIris_Scn_CurrentLabel>
+  <!-- EN: Env -->
+  <RimIris_Scn_EnvLabel>Entorno</RimIris_Scn_EnvLabel>
+  <!-- EN: Conditions -->
+  <RimIris_Scn_ConditionsSpec>Condiciones</RimIris_Scn_ConditionsSpec>
+  <!-- EN: active -->
+  <RimIris_Scn_Applied>activa</RimIris_Scn_Applied>
+  <!-- EN: idle -->
+  <RimIris_Scn_NotApplied>en espera</RimIris_Scn_NotApplied>
+  <!-- EN: Manage rules below: capture one from this scene; select it, edit conditions with 「Edit conditions」, and give it a look with 「Preset / scenario」. -->
+  <RimIris_Scn_EditHint>Administra las reglas abajo: captura una desde esta escena; elígela, edita sus condiciones con «Editar condiciones» y dale un aspecto con «Preajuste / escena».</RimIris_Scn_EditHint>
+  <!-- EN: no events -->
+  <RimIris_Scn_NoEvents>sin eventos</RimIris_Scn_NoEvents>
+  <!-- EN: Scenario lighting (rules / census / cheats) moved to the 「Optional features」 page in the left column. -->
+  <RimIris_Diag_ScenarioMoved>La iluminación por escena (reglas / censo / trucos) se movió a la página «Funciones opcionales» de la columna izquierda.</RimIris_Diag_ScenarioMoved>
+  <!-- EN: Base picture -->
+  <RimIris_Screen_GroupCore>Imagen base</RimIris_Screen_GroupCore>
+  <!-- EN: Scenario lighting -->
+  <RimIris_Screen_ScenarioToggle>Iluminación por escena</RimIris_Screen_ScenarioToggle>
+  <!-- EN: On: scenario rules own the picture; main lighting settings are locked -->
+  <RimIris_Screen_ScenarioToggleDesc>Encendido: las reglas de escena controlan la imagen; los ajustes principales de iluminación quedan bloqueados</RimIris_Screen_ScenarioToggleDesc>
+  <!-- EN: Tick = own and lock the picture (untick = restore); click the name = open the rule page. That page is a settings view, not a pack - opening it changes nothing. -->
+  <RimIris_Screen_ScenarioToggleTip>Marcado = controla y bloquea la imagen (desmarcado = la devuelve); clic en el nombre = abre la página de reglas. Esa página es una vista de ajustes, no un paquete: abrirla no cambia nada.</RimIris_Screen_ScenarioToggleTip>
+  <!-- EN: Off -->
+  <RimIris_Scn_StateOff>Apagado</RimIris_Scn_StateOff>
+  <!-- EN: Auto -->
+  <RimIris_Scn_StateAuto>Automático</RimIris_Scn_StateAuto>
+  <!-- EN: Paused -->
+  <RimIris_Scn_StatePaused>En pausa</RimIris_Scn_StatePaused>
+  <!-- EN: Why -->
+  <RimIris_Scn_WhyLabel>Por qué</RimIris_Scn_WhyLabel>
+  <!-- EN: off -->
+  <RimIris_Scn_R_Off>apagado</RimIris_Scn_R_Off>
+  <!-- EN: paused -->
+  <RimIris_Scn_R_Paused>en pausa</RimIris_Scn_R_Paused>
+  <!-- EN: fading -->
+  <RimIris_Scn_R_Fading>en transición</RimIris_Scn_R_Fading>
+  <!-- EN: no map -->
+  <RimIris_Scn_R_NoMap>sin mapa</RimIris_Scn_R_NoMap>
+  <!-- EN: weather settling -->
+  <RimIris_Scn_R_Weather>el clima se está asentando</RimIris_Scn_R_Weather>
+  <!-- EN: condition settling -->
+  <RimIris_Scn_R_Condition>la condición se está asentando</RimIris_Scn_R_Condition>
+  <!-- EN: no rule matches -->
+  <RimIris_Scn_R_NoMatch>ninguna regla coincide</RimIris_Scn_R_NoMatch>
+  <!-- EN: steady on -->
+  <RimIris_Scn_R_Steady>activa y estable</RimIris_Scn_R_Steady>
+  <!-- EN: min hold -->
+  <RimIris_Scn_R_MinHold>espera mínima</RimIris_Scn_R_MinHold>
+  <!-- EN: candidate -->
+  <RimIris_Scn_R_Dwell>candidata</RimIris_Scn_R_Dwell>
+  <!-- EN: rule has no profile -->
+  <RimIris_Scn_R_NoProfile>la regla no tiene perfil</RimIris_Scn_R_NoProfile>
+  <!-- EN: profile failed to load -->
+  <RimIris_Scn_R_ProfileFail>no se pudo cargar el perfil</RimIris_Scn_R_ProfileFail>
+  <!-- EN: master switch off -->
+  <RimIris_Scn_R_GateMasterOff>interruptor general apagado</RimIris_Scn_R_GateMasterOff>
+  <!-- EN: dialog open -->
+  <RimIris_Scn_R_GateDialog>hay una ventana abierta</RimIris_Scn_R_GateDialog>
+  <!-- EN: Iris screen open -->
+  <RimIris_Scn_R_GateScreen>la ventana de Iris está abierta</RimIris_Scn_R_GateScreen>
+  <!-- EN: planet view -->
+  <RimIris_Scn_R_GatePlanet>vista del planeta</RimIris_Scn_R_GatePlanet>
+  <!-- EN: settings not ready -->
+  <RimIris_Scn_R_GateSettings>ajustes no listos</RimIris_Scn_R_GateSettings>
+  <!-- EN: Edit conditions -->
+  <RimIris_Scn_EditConds>Editar condiciones</RimIris_Scn_EditConds>
+  <!-- EN: Done -->
+  <RimIris_Scn_DoneEdit>Listo</RimIris_Scn_DoneEdit>
+  <!-- EN: Preview -->
+  <RimIris_Scn_Preview>Vista previa</RimIris_Scn_Preview>
+  <!-- EN: missing -->
+  <RimIris_Scn_Missing>falta</RimIris_Scn_Missing>
+  <!-- EN: + New rule -->
+  <RimIris_Scn_NewRule>+ Regla nueva</RimIris_Scn_NewRule>
+  <!-- EN: New rule (from this scene) -->
+  <RimIris_Scn_WizardTitle>Regla nueva (desde esta escena)</RimIris_Scn_WizardTitle>
+  <!-- EN: Name -->
+  <RimIris_Scn_NameLabel>Nombre</RimIris_Scn_NameLabel>
+  <!-- EN: Create -->
+  <RimIris_Scn_Create>Crear</RimIris_Scn_Create>
+  <!-- EN: Cancel -->
+  <RimIris_Scn_Cancel>Cancelar</RimIris_Scn_Cancel>
+  <!-- EN: Export pack -->
+  <RimIris_Scn_ExportPack>Exportar paquete</RimIris_Scn_ExportPack>
+  <!-- EN: Import pack -->
+  <RimIris_Scn_ImportPack>Importar paquete</RimIris_Scn_ImportPack>
+  <!-- EN: Exported {0} rules to {1} -->
+  <RimIris_Scn_PackExported>Se exportaron {0} reglas a {1}</RimIris_Scn_PackExported>
+  <!-- EN: Imported {0} rules (disabled) -->
+  <RimIris_Scn_PackImported>Se importaron {0} reglas (desactivadas)</RimIris_Scn_PackImported>
+  <!-- EN: no scenario packs found -->
+  <RimIris_Scn_PackEmpty>no se encontraron paquetes de escenas</RimIris_Scn_PackEmpty>
+  <!-- EN: import failed -->
+  <RimIris_Scn_PackFailed>falló la importación</RimIris_Scn_PackFailed>
+  <!-- EN: Weather -->
+  <RimIris_Scn_WeatherLabel>Clima</RimIris_Scn_WeatherLabel>
+  <!-- EN: Time -->
+  <RimIris_Scn_TimeLabel>Hora</RimIris_Scn_TimeLabel>
+  <!-- EN: Any -->
+  <RimIris_Scn_Any>Cualquiera</RimIris_Scn_Any>
+  <!-- EN: Day -->
+  <RimIris_Scn_Day>Día</RimIris_Scn_Day>
+  <!-- EN: Night -->
+  <RimIris_Scn_Night>Noche</RimIris_Scn_Night>
+  <!-- EN: Advanced -->
+  <RimIris_Scn_Advanced>Avanzado</RimIris_Scn_Advanced>
+  <!-- EN: Simple -->
+  <RimIris_Scn_Simple>Simple</RimIris_Scn_Simple>
+  <!-- EN: {0} advanced condition(s) -->
+  <RimIris_Scn_ExtraConds>{0} condición(es) avanzada(s)</RimIris_Scn_ExtraConds>
+  <!-- EN: Preset / scenario -->
+  <RimIris_Scn_LookLabel>Preajuste / escena</RimIris_Scn_LookLabel>
+  <!-- EN: This picture -->
+  <RimIris_Scn_LookCurrent>Esta imagen</RimIris_Scn_LookCurrent>
+  <!-- EN: Use this picture -->
+  <RimIris_Scn_UseCurrent>Usar esta imagen</RimIris_Scn_UseCurrent>
+  <!-- EN: Update to this picture -->
+  <RimIris_Scn_UpdateCurrent>Actualizar a esta imagen</RimIris_Scn_UpdateCurrent>
+  <!-- EN: Clear -->
+  <RimIris_Scn_ClearLook>Quitar</RimIris_Scn_ClearLook>
+  <!-- EN: Preset ·  -->
+  <RimIris_Scn_PresetTag>Preajuste ·&#32;</RimIris_Scn_PresetTag>
+  <!-- EN: Profile ·  -->
+  <RimIris_Scn_ProfileTag>Perfil ·&#32;</RimIris_Scn_ProfileTag>
+  <!-- EN: Clear -->
+  <RimIris_Scn_ClearTag>Quitar</RimIris_Scn_ClearTag>
+  <!-- EN: Rain/Snow -->
+  <RimIris_Scn_WetTag>Lluvia/nieve</RimIris_Scn_WetTag>
+  <!-- EN: Each rule picks its look in 「Preset / scenario」 below. -->
+  <RimIris_Scn_LookPerRule>Cada regla elige su aspecto en «Preajuste / escena», abajo.</RimIris_Scn_LookPerRule>
+  <!-- EN: Scenario lighting owns the picture: this window can only manage preset FILES. To use one, pick it in the rule&apos;s 「Look」 row. -->
+  <RimIris_Preset_BranchLocked>La iluminación por escena controla la imagen: esta ventana solo puede administrar ARCHIVOS de preajustes. Para usar uno, elígelo en la fila «Preajuste / escena» de la regla.</RimIris_Preset_BranchLocked>
+  <!-- EN: Update this preset to the current picture -->
+  <RimIris_Scn_UpdatePreset>Actualizar este preajuste a la imagen actual</RimIris_Scn_UpdatePreset>
+  <!-- EN: Preset updated: {0} -->
+  <RimIris_Scn_PresetUpdated>Preajuste actualizado: {0}</RimIris_Scn_PresetUpdated>
+  <!-- EN: Confirm -->
+  <RimIris_Scn_Dwell>Confirmación</RimIris_Scn_Dwell>
+  <!-- EN: Cooldown -->
+  <RimIris_Scn_MinHold>Espera</RimIris_Scn_MinHold>
+  <!-- EN: Fade -->
+  <RimIris_Scn_Transition>Fundido</RimIris_Scn_Transition>
+  <!-- EN: Confirm: how long the new winner must keep matching before a switch. Cooldown: no further switch right after one. Fade: cross-fade duration. When several rules match, the one with MORE conditions (more specific) wins automatically; equal counts go to the rule higher in the list. -->
+  <RimIris_Scn_ParamTip>Confirmación: cuánto tiempo tiene que seguir coincidiendo la nueva regla ganadora antes de cambiar. Espera: no se vuelve a cambiar justo después de un cambio. Fundido: cuánto dura la transición. Cuando coinciden varias reglas, gana sola la que tiene MÁS condiciones (la más específica); si empatan, gana la que está más arriba en la lista.</RimIris_Scn_ParamTip>
+  <!-- EN: equally specific - list order decides -->
+  <RimIris_Scn_R_Tie>igual de específicas: decide el orden de la lista</RimIris_Scn_R_Tie>
+  <!-- EN: Scenario profiles ({0}) -->
+  <RimIris_Scn_ProfilesTitle>Perfiles de escena ({0})</RimIris_Scn_ProfilesTitle>
+  <!-- EN: Show -->
+  <RimIris_Scn_Expand>Mostrar</RimIris_Scn_Expand>
+  <!-- EN: Hide -->
+  <RimIris_Scn_Collapse>Ocultar</RimIris_Scn_Collapse>
+  <!-- EN: built-in -->
+  <RimIris_Scn_ShippedTag>integrado</RimIris_Scn_ShippedTag>
+  <!-- EN: mine -->
+  <RimIris_Scn_MineTag>mío</RimIris_Scn_MineTag>
+  <!-- EN: {0} rule(s) -->
+  <RimIris_Scn_UsedBy>{0} regla(s)</RimIris_Scn_UsedBy>
+  <!-- EN: Rename -->
+  <RimIris_Scn_Rename>Renombrar</RimIris_Scn_Rename>
+  <!-- EN: Overwrite -->
+  <RimIris_Scn_OverwriteLook>Reemplazar</RimIris_Scn_OverwriteLook>
+  <!-- EN: no scenario profiles yet -->
+  <RimIris_Scn_NoProfiles>todavía no hay perfiles de escena</RimIris_Scn_NoProfiles>
+  <!-- EN: rename failed (name taken or file unavailable) -->
+  <RimIris_Scn_RenameFailed>no se pudo renombrar (el nombre ya existe o el archivo no está disponible)</RimIris_Scn_RenameFailed>
+  <!-- EN: Delete profile 「{0}」?  {1} -->
+  <RimIris_Scn_DeleteProfileMsg>¿Borrar el perfil «{0}»?  {1}</RimIris_Scn_DeleteProfileMsg>
+  <!-- EN: {0} rule(s) use it and will then show 「missing」. -->
+  <RimIris_Scn_DeleteProfileUsed>{0} regla(s) lo usan y después mostrarán «falta».</RimIris_Scn_DeleteProfileUsed>
+  <!-- EN: Overwrite 「{0}」 with the current picture? {1} rule(s) using it change too. -->
+  <RimIris_Scn_OverwriteProfileMsg>¿Reemplazar «{0}» con la imagen actual? También cambian las {1} regla(s) que lo usan.</RimIris_Scn_OverwriteProfileMsg>
+  <!-- EN: engage 「Scenario lighting」 first to preview -->
+  <RimIris_Scn_PreviewNeedBranch>activa primero «Iluminación por escena» para ver la vista previa</RimIris_Scn_PreviewNeedBranch>
+  <!-- EN: Packs... -->
+  <RimIris_Scn_PackManager>Paquetes...</RimIris_Scn_PackManager>
+  <!-- EN: Scenario branch is locked: main lighting settings can&apos;t be changed right now. -->
+  <RimIris_Scenario_LockedWrite>La rama de escena está bloqueada: ahora no se pueden cambiar los ajustes principales de iluminación.</RimIris_Scenario_LockedWrite>
+  <!-- EN: Scenario packs -->
+  <RimIris_ScnPack_Title>Paquetes de escenas</RimIris_ScnPack_Title>
+  <!-- EN: Name -->
+  <RimIris_ScnPack_ExportName>Nombre</RimIris_ScnPack_ExportName>
+  <!-- EN: Export all rules -->
+  <RimIris_ScnPack_Export>Exportar todas las reglas</RimIris_ScnPack_Export>
+  <!-- EN: Packs ({0}) -->
+  <RimIris_ScnPack_List>Paquetes ({0})</RimIris_ScnPack_List>
+  <!-- EN: no packs yet -->
+  <RimIris_ScnPack_Empty>todavía no hay paquetes</RimIris_ScnPack_Empty>
+  <!-- EN: Exported: {0} -->
+  <RimIris_ScnPack_Exported>Exportado: {0}</RimIris_ScnPack_Exported>
+  <!-- EN: operation failed -->
+  <RimIris_ScnPack_Failed>la operación falló</RimIris_ScnPack_Failed>
+  <!-- EN: rename failed (name taken or file unavailable) -->
+  <RimIris_ScnPack_RenameFailed>no se pudo renombrar (el nombre ya existe o el archivo no está disponible)</RimIris_ScnPack_RenameFailed>
+  <!-- EN: {0} rule(s) · {1} profile(s) -->
+  <RimIris_ScnPack_Rules>{0} regla(s) · {1} perfil(es)</RimIris_ScnPack_Rules>
+  <!-- EN: Import -->
+  <RimIris_ScnPack_Import>Importar</RimIris_ScnPack_Import>
+  <!-- EN: Imported {0} rules (disabled) -->
+  <RimIris_ScnPack_Imported>Se importaron {0} reglas (desactivadas)</RimIris_ScnPack_Imported>
+  <!-- EN: Preview -->
+  <RimIris_ScnPack_Preview>Vista previa</RimIris_ScnPack_Preview>
+  <!-- EN: Rename -->
+  <RimIris_ScnPack_Rename>Renombrar</RimIris_ScnPack_Rename>
+  <!-- EN: Delete -->
+  <RimIris_ScnPack_Delete>Borrar</RimIris_ScnPack_Delete>
+  <!-- EN: Delete pack 「{0}」? -->
+  <RimIris_ScnPack_DeleteMsg>¿Borrar el paquete «{0}»?</RimIris_ScnPack_DeleteMsg>
+  <!-- EN: OK -->
+  <RimIris_ScnPack_OK>Aceptar</RimIris_ScnPack_OK>
+  <!-- EN: Cancel -->
+  <RimIris_ScnPack_Cancel>Cancelar</RimIris_ScnPack_Cancel>
+  <!-- EN: profiles -->
+  <RimIris_ScnPack_Profiles>perfiles</RimIris_ScnPack_Profiles>
+  <!-- EN: Import pack file… -->
+  <RimIris_ScnPack_ImportExternal>Importar archivo de paquete…</RimIris_ScnPack_ImportExternal>
+  <!-- EN: Refresh -->
+  <RimIris_ScnPack_Refresh>Actualizar</RimIris_ScnPack_Refresh>
+  <!-- EN: Open folder -->
+  <RimIris_ScnPack_OpenFolder>Abrir carpeta</RimIris_ScnPack_OpenFolder>
+  <!-- EN: Copied into this folder; the original stays put -->
+  <RimIris_ScnPack_CopyNote>Se copió a esta carpeta; el original queda donde estaba</RimIris_ScnPack_CopyNote>
+  <!-- EN: Paste -->
+  <RimIris_ScnPack_Paste>Pegar</RimIris_ScnPack_Paste>
+  <!-- EN: Paste the full path of a .rimirispack file -->
+  <RimIris_ScnPack_PathEmpty>Pega la ruta completa de un archivo .rimirispack</RimIris_ScnPack_PathEmpty>
+  <!-- EN: not a .rimirispack file -->
+  <RimIris_ScnPack_PathBadExt>no es un archivo .rimirispack</RimIris_ScnPack_PathBadExt>
+  <!-- EN: file not found -->
+  <RimIris_ScnPack_PathMissing>no se encontró el archivo</RimIris_ScnPack_PathMissing>
+  <!-- EN: will import: {0} -->
+  <RimIris_ScnPack_PathOk>se importará: {0}</RimIris_ScnPack_PathOk>
+  <!-- EN: built-in -->
+  <RimIris_ScnPack_Shipped>integrado</RimIris_ScnPack_Shipped>
+  <!-- EN: The scenario branch owns the picture: main lighting dials are locked. Edit them under Scenarios. -->
+  <RimIris_Scenario_LockBanner>La rama de escena controla la imagen: los controles principales de iluminación están bloqueados. Edítalos en «Iluminación por escena».</RimIris_Scenario_LockBanner>
+  <!-- EN: The picture was changed but not saved to the profile (next switch restores it) -->
+  <RimIris_Scn_TweakDirty>La imagen cambió pero no se guardó en el perfil (el próximo cambio la devuelve)</RimIris_Scn_TweakDirty>
+  <!-- EN: Save to “{0}” -->
+  <RimIris_Scn_TweakSaveBtn>Guardar en «{0}»</RimIris_Scn_TweakSaveBtn>
+  <!-- EN: Saved to “{0}” -->
+  <RimIris_Scn_TweakSaved>Guardado en «{0}»</RimIris_Scn_TweakSaved>
+  <!-- EN: The picture follows main preset “{0}”; these changes are not saved -->
+  <RimIris_Scn_TweakPreset>La imagen sigue el preajuste principal «{0}»; estos cambios no se guardan</RimIris_Scn_TweakPreset>
+  <!-- EN: Changes here apply immediately but only to the current picture; use “Save to …” above to keep them. -->
+  <RimIris_Scn_PicEditHint>Los cambios de aquí se aplican al instante, pero solo a la imagen actual; usa «Guardar en…», arriba, para conservarlos.</RimIris_Scn_PicEditHint>
+  <!-- EN: Demo mode -->
+  <RimIris_Scn_Demo>Modo demostración</RimIris_Scn_Demo>
+  <!-- EN: Stop demo -->
+  <RimIris_Scn_DemoStop>Detener la demostración</RimIris_Scn_DemoStop>
+  <!-- EN: Step {0}/{1} · {2} · {3}s left -->
+  <RimIris_Scn_DemoStatus>Paso {0}/{1} · {2} · quedan {3} s</RimIris_Scn_DemoStatus>
+  <!-- EN: Cycles every 30 s: noon clear → noon rain → noon snow → night clear → night snow (loops). Tick 「Scenario lighting」 in the left column first. -->
+  <RimIris_Scn_DemoHint>Cambia cada 30 s: mediodía despejado → mediodía con lluvia → mediodía con nieve → noche despejada → noche con nieve (y vuelve a empezar). Primero marca «Iluminación por escena» en la columna izquierda.</RimIris_Scn_DemoHint>
+  <!-- EN: night -->
+  <RimIris_Scn_DemoNight>noche</RimIris_Scn_DemoNight>
+</LanguageData>
