@@ -114,12 +114,16 @@
   <DMS_Apparel_PackHound.description>Un contenedor y kit de ensamblaje para transportar y desplegar drones sabueso controlados a distancia, capaz de desplegar rápidamente un dron sabueso en combate y actuar como una estación base controlada a distancia para controlar y recuperar el dron.</DMS_Apparel_PackHound.description>
   <!-- EN: drone -->
   <DMS_Apparel_PackHound.comps.CompApparelReloadable.chargeNoun>dron</DMS_Apparel_PackHound.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: hound drone pack -->
+  <DMS_Apparel_PackHound.verbs.Verb_Deploy.label>pack de sabuesos</DMS_Apparel_PackHound.verbs.Verb_Deploy.label>
   <!-- EN: verlingbrid drone belt -->
   <DMS_Apparel_PackVerling.label>cinturón de drones exploradores</DMS_Apparel_PackVerling.label>
   <!-- EN: A remote controller and assembly module for deploying verlingbrid drones, capable deploying drones in combat and acting as a remote-controlled base station to control the drones. -->
   <DMS_Apparel_PackVerling.description>Un controlador remoto y módulo de ensamblaje para desplegar drones exploradores, capaz de desplegar drones en combate y actuar como una estación base controlada a distancia para controlar los drones.</DMS_Apparel_PackVerling.description>
   <!-- EN: drone -->
   <DMS_Apparel_PackVerling.comps.CompApparelReloadable.chargeNoun>dron</DMS_Apparel_PackVerling.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: verlingbrid drone belt -->
+  <DMS_Apparel_PackVerling.verbs.Verb_Deploy.label>cinturón de drones exploradores</DMS_Apparel_PackVerling.verbs.Verb_Deploy.label>
   <!-- EN: scanner pack -->
   <DMS_Apparel_PackScanner.label>pack de escáner</DMS_Apparel_PackScanner.label>
   <!-- EN: A wearable pack that allows the user to deploy a battery-powered perimeter scanner. The pack contains a propulsion device, letting the user launch the scanner a short distance. The scanner battery lasts for several hours. -->
@@ -180,6 +184,8 @@
   <DMS_Gun_AutomaticGrenadeLauncher.label>lanzagranadas meca</DMS_Gun_AutomaticGrenadeLauncher.label>
   <!-- EN: An automatic grenade launcher mounted on a low tripod. -->
   <DMS_Gun_AutomaticGrenadeLauncher.description>Un lanzagranadas automático montado sobre un trípode bajo.</DMS_Gun_AutomaticGrenadeLauncher.description>
+  <!-- EN: mech grenade launcher -->
+  <DMS_Gun_AutomaticGrenadeLauncher.verbs.Verb_LaunchProjectile_AmmoSwitch.label>lanzagranadas meca</DMS_Gun_AutomaticGrenadeLauncher.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: HE grenade -->
   <DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>granada de alto explosivo</DMS_Gun_AutomaticGrenadeLauncher.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: A high-explosive fragmentation round for clearing out clustered targets. The standard belt. -->
@@ -198,6 +204,8 @@
   <DMS_AutomaticGrenadeLauncher.description>Un lanzagranadas automático de mano para eliminar objetivos agrupados.\n\nEsta arma está especialmente diseñada para el uso de automatroides, los humanos normales tendrán dificultades para usarla sin equipo externo o aumentos.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_AutomaticGrenadeLauncher.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>Recoger {0_label}</DMS_AutomaticGrenadeLauncher.comps.CompUsable.useLabel>
+  <!-- EN: Mech Grenade Launcher -->
+  <DMS_AutomaticGrenadeLauncher.verbs.Verb_LaunchProjectile_AmmoSwitch.label>lanzagranadas meca</DMS_AutomaticGrenadeLauncher.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: stock -->
   <DMS_AutomaticGrenadeLauncher.tools.0.label>culata</DMS_AutomaticGrenadeLauncher.tools.0.label>
   <!-- EN: barrel -->
@@ -224,12 +232,16 @@
   <DMS_Gun_HeavyMachineGun.label>HMG meca</DMS_Gun_HeavyMachineGun.label>
   <!-- EN: A heavy machine gun mounted on a tripod. -->
   <DMS_Gun_HeavyMachineGun.description>Una ametralladora pesada o por sus siglas en inglés HMG (heavy machine gun), montada sobre un trípode.</DMS_Gun_HeavyMachineGun.description>
+  <!-- EN: mech HMG -->
+  <DMS_Gun_HeavyMachineGun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>HMG meca</DMS_Gun_HeavyMachineGun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: Mech HMG -->
   <DMS_HeavyMachineGun.label>HMG meca</DMS_HeavyMachineGun.label>
   <!-- EN: A heavy machine gun for mech soldiers or infantry support platforms.\n\nThis weapon is designed specifically for automatroid use,it&apos;s so heavy only specific automatroids can operate it unless it&apos;s mounted to a support platform.\n\nIts tripod folds under the receiver, so a drafted operator can set it down into a firing position on the spot and break it back down just as quickly. -->
   <DMS_HeavyMachineGun.description>Una ametralladora pesada o por sus siglas en inglés HMG (heavy machine gun) es un arma para soldados meca o plataformas de apoyo de infantería.\n\nEsta arma está diseñada específicamente para el uso de automatroides, es tan pesada que solo automatroides específicos pueden operarla a menos que esté montada en una plataforma de apoyo.\n\nSu trípode se pliega bajo el cajón de mecanismos, así que un operador reclutado puede ponerla en posición de tiro en el acto y volver a desarmarla igual de rápido.</DMS_HeavyMachineGun.description>
   <!-- EN: Pick up {0_label} -->
   <DMS_HeavyMachineGun.comps.CompUsable.useLabel>Recoger {0_label}</DMS_HeavyMachineGun.comps.CompUsable.useLabel>
+  <!-- EN: Mech HMG -->
+  <DMS_HeavyMachineGun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>HMG meca</DMS_HeavyMachineGun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: stock -->
   <DMS_HeavyMachineGun.tools.0.label>culata</DMS_HeavyMachineGun.tools.0.label>
   <!-- EN: barrel -->
@@ -362,6 +374,8 @@
   <DMS_Gun_GateKeeper.label>guardián</DMS_Gun_GateKeeper.label>
   <!-- EN: A large-caliber multi-barreled autocannon, also known as the GAU-8 &quot;Avenger&quot;. It&apos;s an ancient practical design with an extremely high rate of fire and a devastating effect on anything unfortunate enough to stand infront of it. -->
   <DMS_Gun_GateKeeper.description>Un cañón automático de gran calibre y múltiples cañones, también conocido como GAU-8 "Avenger". Es un diseño práctico antiguo con una cadencia de fuego extremadamente alta y un efecto devastador sobre cualquier cosa lo suficientemente desafortunada como para interponerse en su camino.</DMS_Gun_GateKeeper.description>
+  <!-- EN: Gatekeeper -->
+  <DMS_Gun_GateKeeper.verbs.Verb_ArcSprayProjectile.label>guardián</DMS_Gun_GateKeeper.verbs.Verb_ArcSprayProjectile.label>
   <!-- EN: APT shell -->
   <DMS_Bullet_CIWS.label>bala perforante trazadora</DMS_Bullet_CIWS.label>
   <!-- EN: MK44 BushMaster-II -->
@@ -1204,6 +1218,8 @@
   <DMS_M214Gatlinggun.tools.0.label>culata</DMS_M214Gatlinggun.tools.0.label>
   <!-- EN: barrel -->
   <DMS_M214Gatlinggun.tools.1.label>cañón</DMS_M214Gatlinggun.tools.1.label>
+  <!-- EN: M214 -->
+  <DMS_M214Gatlinggun.verbs.Verb_ArcSprayProjectile.label>M214</DMS_M214Gatlinggun.verbs.Verb_ArcSprayProjectile.label>
   <!-- EN: GAU-19/A &quot;Attacker&quot; -->
   <DMS_GAU19Gatlinggun.label>GAU-19/A atacante</DMS_GAU19Gatlinggun.label>
   <!-- EN: A rapid-firing multiple-barrel firearm chambered in heavy machinegun rounds.\n\nThis weapon is specially designed for automatroid use, normal humans will struggle to use it without external equipment or augmentations. -->
@@ -1212,6 +1228,8 @@
   <DMS_GAU19Gatlinggun.tools.0.label>culata</DMS_GAU19Gatlinggun.tools.0.label>
   <!-- EN: barrel -->
   <DMS_GAU19Gatlinggun.tools.1.label>cañón</DMS_GAU19Gatlinggun.tools.1.label>
+  <!-- EN: GAU-19/A &quot;Attacker&quot; -->
+  <DMS_GAU19Gatlinggun.verbs.Verb_ArcSprayProjectile.label>GAU-19/A atacante</DMS_GAU19Gatlinggun.verbs.Verb_ArcSprayProjectile.label>
   <!-- EN: GAU-4 &quot;Vulcan&quot; -->
   <DMS_GAU4Gatlinggun_Hold.label>GAU-4 vulcano</DMS_GAU4Gatlinggun_Hold.label>
   <!-- EN: A rapid-firing multiple-barrel firearm chambered in autocannon rounds. Precision built to spray death at anything unfortunate enough to be in front of it.\n\nThis weapon is designed specifically for automatroid use, it&apos;s so heavy only specific automatroids can operate it. -->
@@ -1221,9 +1239,13 @@
   <!-- EN: barrel -->
   <DMS_GAU4Gatlinggun_Hold.tools.1.label>cañón</DMS_GAU4Gatlinggun_Hold.tools.1.label>
   <!-- EN: GAU-4 &quot;Vulcan&quot; -->
+  <DMS_GAU4Gatlinggun_Hold.verbs.Verb_ArcSprayProjectile.label>GAU-4 vulcano</DMS_GAU4Gatlinggun_Hold.verbs.Verb_ArcSprayProjectile.label>
+  <!-- EN: GAU-4 &quot;Vulcan&quot; -->
   <DMS_GAU4Gatlinggun.label>GAU-4 vulcano</DMS_GAU4Gatlinggun.label>
   <!-- EN: A rapid-firing multiple-barrel firearm chambered in autocannon rounds. Precision built to spray death at anything unfortunate enough to be in front of it.\n\nThis weapon is designed specifically for automatroid use, it&apos;s so heavy only specific automatroids can operate it. -->
   <DMS_GAU4Gatlinggun.description>Un arma de fuego de cañones múltiples de disparo rápido con recámara para munición de cañón automático. Construida con precisión para rociar la muerte a cualquier cosa lo suficientemente desafortunada como para estar frente a ella.\n\nEsta arma está diseñada específicamente para el uso de automatroides, es tan pesada que solo automatroides específicos pueden operarla.</DMS_GAU4Gatlinggun.description>
+  <!-- EN: GAU-4 &quot;Vulcan&quot; -->
+  <DMS_GAU4Gatlinggun.verbs.Verb_ArcSprayProjectile.label>GAU-4 vulcano</DMS_GAU4Gatlinggun.verbs.Verb_ArcSprayProjectile.label>
   <!-- EN: GAU-8 &quot;Avenger&quot; -->
   <DMS_GAU8Gatlinggun.label>GAU-8 vengador</DMS_GAU8Gatlinggun.label>
   <!-- EN: A rapid-firing multiple-barrel firearm chambered in massive autocannon rounds, deadly and destructive. This cannon was co-opted from ancient aircraft rumored to have been built around it.\n\nThis weapon is designed specifically for automatroid use, and it&apos;s so heavy only specific automatroids can wield it. -->
@@ -1232,6 +1254,8 @@
   <DMS_GAU8Gatlinggun.tools.0.label>culata</DMS_GAU8Gatlinggun.tools.0.label>
   <!-- EN: barrel -->
   <DMS_GAU8Gatlinggun.tools.1.label>cañón</DMS_GAU8Gatlinggun.tools.1.label>
+  <!-- EN: GAU-8 &quot;Avenger&quot; -->
+  <DMS_GAU8Gatlinggun.verbs.Verb_ArcSprayProjectile.label>GAU-8 vengador</DMS_GAU8Gatlinggun.verbs.Verb_ArcSprayProjectile.label>
   <!-- EN: Bolt Cannon -->
   <DMS_SniperCannon.label>cañón de cerrojo</DMS_SniperCannon.label>
   <!-- EN: An ultra heavy rifle chambered in autocannon rounds. This rifle has proven the capability to reach out and touch an exostrider at immense distances. It is specifically designed for long-range anti-mech operations.\n\nThis weapon is designed specifically for automatroid use,it&apos;s so heavy only specific automatroids can operate it. -->
@@ -1262,6 +1286,8 @@
   <DMS_Autocannon.tools.0.label>culata</DMS_Autocannon.tools.0.label>
   <!-- EN: barrel -->
   <DMS_Autocannon.tools.1.label>cañón</DMS_Autocannon.tools.1.label>
+  <!-- EN: Mech Autocannon -->
+  <DMS_Autocannon.verbs.Verb_LaunchProjectile_AmmoSwitch.label>cañón automático meca</DMS_Autocannon.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: 20mm tungsten core shell -->
   <DMS_Bullet_Autocannon_TungstenCore.label>proyectil de núcleo de tungsteno de 20 mm</DMS_Bullet_Autocannon_TungstenCore.label>
   <!-- EN: A sub-caliber sabot round carrying a tungsten penetrator. The dense core defeats plating that standard high explosive shells merely scratch, but the heavier propellant charge slows the cycle rate and the flatter, faster projectile is zeroed for a shorter engagement envelope. -->
@@ -1404,6 +1430,8 @@
   <DMS_Flameblaster.tools.1.label>cañón</DMS_Flameblaster.tools.1.label>
   <!-- EN: barrel -->
   <DMS_Flameblaster.tools.2.label>cañón</DMS_Flameblaster.tools.2.label>
+  <!-- EN: Flameblaster -->
+  <DMS_Flameblaster.verbs.Verb_SpewFire.label>bláster de llamas</DMS_Flameblaster.verbs.Verb_SpewFire.label>
   <!-- EN: Close Inbound Defense System -->
   <DMS_ShotgunGunMounted.label>sistema de defensa cercana</DMS_ShotgunGunMounted.label>
   <!-- EN: A multi-barrel shotgun designed to suppress enemies at close-range.\n\nThis weapon is designed specifically for mounted use, so only specific units can equip it. -->
@@ -1446,6 +1474,8 @@
   <DMS_DeposableRocketLauncher.description>Un cañón sin retroceso de un solo uso diseñado para ser disparado y desechado. Es ligero y efectivo contra búnkeres y mecas pesados. Tiene un largo alcance de fuego y requiere línea de visión.</DMS_DeposableRocketLauncher.description>
   <!-- EN: charge -->
   <DMS_DeposableRocketLauncher.comps.CompApparelReloadable.chargeNoun>carga</DMS_DeposableRocketLauncher.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: disposable launcher -->
+  <DMS_DeposableRocketLauncher.verbs.Verb_LaunchProjectile.label>lanzador desechable</DMS_DeposableRocketLauncher.verbs.Verb_LaunchProjectile.label>
   <!-- EN: Demolisher rocket round -->
   <DMS_Bullet_DR.label>proyectil de cohete demoledor</DMS_Bullet_DR.label>
   <!-- EN: light recoilless rifle -->
@@ -1508,6 +1538,8 @@
   <DMS_AssaultShotgun.tools.0.label>culata</DMS_AssaultShotgun.tools.0.label>
   <!-- EN: barrel -->
   <DMS_AssaultShotgun.tools.1.label>cañón</DMS_AssaultShotgun.tools.1.label>
+  <!-- EN: Mech Assault Shotgun -->
+  <DMS_AssaultShotgun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>escopeta de asalto meca</DMS_AssaultShotgun.verbs.Verb_LaunchProjectile_AmmoSwitch.label>
   <!-- EN: buckshot -->
   <DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.label>perdigones</DMS_AssaultShotgun.comps.CompAmmoSwitch.ammos.0.label>
   <!-- EN: The standard three round burst of pellets. Nothing clever about it, and nothing unarmored enjoys standing in front of it. -->
