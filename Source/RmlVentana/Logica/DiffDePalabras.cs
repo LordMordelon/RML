@@ -22,8 +22,6 @@ namespace RmlVentana.Logica
 
         private static readonly Regex Palabras = new Regex(@"\s+|[\p{L}\p{N}_]+|.", RegexOptions.Compiled);
 
-        private static readonly Regex Etiquetas = new Regex(@"</?(color|b|i|size)(=[^>]*)?>", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-
         /** Los dos textos en trozos que, unidos, dan el texto original. Lo que no esta en el otro texto
          *  va marcado; un espacio entre dos trozos marcados tambien, para que una frase cambiada se
          *  marque de corrido y no palabra por palabra. */
@@ -116,7 +114,7 @@ namespace RmlVentana.Logica
 
         /** El texto sin las etiquetas de formato de RimWorld (<color=…>, <b>, <i>, <size=…>): la ventana
          *  lo dibuja palabra por palabra, y una etiqueta partida se veria tal cual. */
-        public static string SinEtiquetas(string Texto) => Etiquetas.Replace(Texto, "");
+        public static string SinEtiquetas(string Texto) => TextosDeTraduccion.SinEtiquetas(Texto);
 
         /** Un texto sin otro con que compararlo (uno nuevo o uno quitado): sus trozos, sin marcar. */
         public static List<Trozo> SinMarcar(string Texto)

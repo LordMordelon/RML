@@ -32,6 +32,13 @@ namespace RmlVentana.Logica
         /** Anadido es cada texto de un mod añadido en la subida, para su fila «Añadido» (Novedades.Armar). */
         public enum Tipo { Cambiado, Nuevo, Quitado, Anadido }
 
+        private static readonly Regex Etiquetas = new Regex(@"</?(color|b|i|size)(=[^>]*)?>", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+        /** El texto sin las etiquetas de formato de RimWorld (<color=…>, <b>, <i>, <size=…>). «Ver cambios»
+         *  lo dibuja asi (DiffDePalabras), de modo que un cambio que solo pinta un titulo saldria como dos
+         *  renglones iguales: no cuenta como cambio. */
+        public static string SinEtiquetas(string Texto) => Etiquetas.Replace(Texto, "");
+
         /** Un texto de un XML: su clave unica dentro de la carpeta del mod, el ingles del comentario EN y
          *  la traduccion («TODO» si no la tiene). */
         public class Texto
@@ -170,7 +177,7 @@ namespace RmlVentana.Logica
                 {
                     if (!TeniaTexto)
                         Nuevos.Add(new Cambio(Tipo.Nuevo, Nuevo.Ingles, "", Nuevo.Valor, Objeto: ObjetoDe(Nuevo.Clave)));
-                    else if (Viejo.Valor != Nuevo.Valor)
+                    else if (SinEtiquetas(Viejo.Valor) != SinEtiquetas(Nuevo.Valor))
                         Cambiados.Add(new Cambio(Tipo.Cambiado, Nuevo.Ingles, Viejo.Valor, Nuevo.Valor,
                             Viejo.Ingles != Nuevo.Ingles && Viejo.Ingles.Length > 0 && Nuevo.Ingles.Length > 0 ? Viejo.Ingles : "",
                             ObjetoDe(Nuevo.Clave)));

@@ -28,6 +28,18 @@ public class CambiosDeTextoTests
         Assert.AreEqual("Piedra angular", Cambios[0].Ahora);
     }
 
+    /** «Ver cambios» dibuja los textos sin las etiquetas de formato: un cambio que solo pinta el titulo
+     *  de amarillo salia como dos renglones iguales (Alpha Prefabs, AP_Author). */
+    [TestMethod]
+    public void UnCambioSoloDeFormatoNoSale()
+    {
+        var Cambios = Comparar(
+            Idioma("  <!-- EN: Prefab designed by: {0} -->\n  <AP_Author>Prefabricado diseñado por: {0}</AP_Author>"),
+            Idioma("  <!-- EN: Prefab designed by: {0} -->\n  <AP_Author>&lt;color=#E5E54C&gt;Prefabricado diseñado por:&lt;/color&gt; {0}</AP_Author>"));
+
+        Assert.AreEqual(0, Cambios.Count);
+    }
+
     [TestMethod]
     public void LosTextosDeUnModAnadidoVanConSuPropiaMarca()
     {
