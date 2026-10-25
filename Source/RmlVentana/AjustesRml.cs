@@ -19,6 +19,10 @@ namespace RmlVentana
         /** Los cambios de Novedades.tsv que ya se mostraron (NovedadesRml.Claves). Null si nunca. */
         public List<string> NovedadesVistas;
 
+        /** Lo que mostro la pestaña la ultima vez que tuvo algo nuevo (NovedadesRml.ClavesDe), para
+         *  volver a mostrar lo mismo al abrirla de nuevo. */
+        public List<string> NovedadesMostradas;
+
         /** yyyy-MM-dd de la ultima vez que se cerro la ventana, para el «Cambios desde el…». */
         public string UltimaVez;
 
@@ -59,6 +63,7 @@ namespace RmlVentana
             Scribe_Values.Look(ref NoVolverAMostrar, "noVolverAMostrar");
             Scribe_Collections.Look(ref Vistos, "vistos", LookMode.Value);
             Scribe_Collections.Look(ref NovedadesVistas, "novedadesVistas", LookMode.Value);
+            Scribe_Collections.Look(ref NovedadesMostradas, "novedadesMostradas", LookMode.Value);
             Scribe_Values.Look(ref UltimaVez, "ultimaVez");
             Scribe_Values.Look(ref CambiosEnUnaLinea, "cambiosEnUnaLinea", false);
             Scribe_Values.Look(ref CambiosPorCategoria, "cambiosPorCategoria", false);

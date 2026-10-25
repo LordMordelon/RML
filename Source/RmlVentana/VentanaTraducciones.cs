@@ -41,6 +41,11 @@ namespace RmlVentana
         private readonly string Resumen;
         private readonly List<EntradaDeNovedades> Entradas;
         private readonly List<Novedad> Pendientes;
+        private readonly bool YaVistas;
+        /** «Ver todo el historial»: todos los mods por la fecha de su ultimo cambio. */
+        private readonly List<GrupoDeFecha> Historial;
+        private readonly HashSet<string> FechasAbiertas = new HashSet<string>();
+        private bool VerHistorial;
         private readonly string ResumenNovedades;
         private readonly QuickSearchWidget Buscador = new QuickSearchWidget();
         private enum Pestana { Novedades, TusMods, Ajustes }
@@ -76,7 +81,7 @@ namespace RmlVentana
                 // la pestaña queda vacia y la ventana funciona igual.
                 string Archivo = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Novedades.tsv");
                 var Entradas = NovedadesRml.Leer(System.IO.File.Exists(Archivo) ? System.IO.File.ReadAllText(Archivo) : null);
-                var Pendientes = NovedadesRml.ParaMostrar(Entradas, Ajustes.NovedadesVistas, DateTime.Today, out bool YaVistas);
+                var Pendientes = NovedadesRml.ParaMostrar(Entradas, Ajustes.NovedadesVistas, Ajustes.NovedadesMostradas, DateTime.Today, out bool YaVistas);
                 // Lo ya visto se muestra igual, pero no hace aparecer la ventana sola.
                 bool HayNuevas = Pendientes.Count > 0 && !YaVistas;
 
@@ -103,6 +108,11 @@ namespace RmlVentana
             this.Filas = Filas;
             this.Entradas = Entradas;
             this.Pendientes = Pendientes;
+            this.YaVistas = YaVistas;
+            Historial = NovedadesRml.PorFecha(NovedadesRml.Historial(Entradas));
+            // El historial arranca con la fecha mas nueva abierta y las demas plegadas.
+            if (Historial.Count > 0)
+                FechasAbiertas.Add(Historial[0].Fecha);
             ResumenNovedades = YaVistas
                 ? (NovedadesRml.PorUltimaActualizacion(Entradas)
                     ? "RML_Ventana_ResumenNovedadesVistasUltima".Translate().ToString()
@@ -134,6 +144,9 @@ namespace RmlVentana
             // Sin Novedades.tsv no se pisa lo anterior: lo no visto tiene que seguir saliendo.
             if (Entradas.Count > 0)
                 Ajustes.NovedadesVistas = NovedadesRml.Claves(Entradas);
+            // Lo nuevo de esta vez es lo que vuelve a salir hasta que haya algo mas nuevo.
+            if (!YaVistas && Pendientes.Any(x => !x.Oficial))
+                Ajustes.NovedadesMostradas = NovedadesRml.ClavesDe(Pendientes);
             Ajustes.UltimaVez = DateTime.Today.ToString("yyyy-MM-dd");
             if (Pendientes.Any(x => x.Oficial))
                 Ajustes.OficialNovedades = new List<string>();
@@ -163,9 +176,19 @@ namespace RmlVentana
             Rect Area = Marco.ContractedBy(16f);
             float Y = Area.y;
 
+            float AnchoResumen = Area.width;
+            if (Abierta == Pestana.Novedades && Historial.Count > 0)
+            {
+                string Historico = "RML_Ventana_VerHistorial".Translate();
+                float AnchoCasilla = Text.CalcSize(Historico).x + 40f;
+                Widgets.CheckboxLabeled(new Rect(Area.xMax - AnchoCasilla, Y - 3f, AnchoCasilla, 30f), Historico, ref VerHistorial, placeCheckboxNearText: true);
+                AnchoResumen -= AnchoCasilla + 12f;
+            }
+
             GUI.color = Gris;
-            Widgets.Label(new Rect(Area.x, Y, Area.width, 24f),
-                Abierta == Pestana.Novedades ? ResumenNovedades : Abierta == Pestana.TusMods ? Resumen : "RML_Ventana_ResumenAjustes".Translate().ToString());
+            string TextoResumen = Abierta == Pestana.Novedades ? (VerHistorial ? "RML_Ventana_ResumenHistorial".Translate().ToString() : ResumenNovedades)
+                : Abierta == Pestana.TusMods ? Resumen : "RML_Ventana_ResumenAjustes".Translate().ToString();
+            Widgets.Label(new Rect(Area.x, Y, AnchoResumen, 24f), TextoResumen.Truncate(AnchoResumen));
             GUI.color = Color.white;
             Y += 32f;
 
@@ -224,7 +247,19 @@ namespace RmlVentana
 
             Rect Lista = new Rect(Tabla.x, Encabezado.yMax, Tabla.width, Tabla.height - Encabezado.height);
 
-            if (Pendientes.Count == 0)
+            // Cada renglon es un titulo de fecha (Novedad null) o una fila.
+            var Renglones = new List<(GrupoDeFecha Grupo, Novedad Novedad)>();
+            if (VerHistorial)
+                foreach (GrupoDeFecha Grupo in Historial)
+                {
+                    Renglones.Add((Grupo, null));
+                    if (FechasAbiertas.Contains(Grupo.Fecha))
+                        Renglones.AddRange(Grupo.Novedades.Select(x => ((GrupoDeFecha)null, x)));
+                }
+            else
+                Renglones.AddRange(Pendientes.Select(x => ((GrupoDeFecha)null, x)));
+
+            if (Renglones.Count == 0)
             {
                 GUI.color = Gris;
                 Widgets.Label(new Rect(Lista.x + 12f, Lista.y + 20f, Lista.width - 24f, 48f), "RML_Ventana_SinNovedades".Translate());
@@ -232,49 +267,81 @@ namespace RmlVentana
                 return;
             }
 
-            Rect Vista = new Rect(0f, 0f, Lista.width - 16f, Pendientes.Count * AltoFilaSimple);
+            Rect Vista = new Rect(0f, 0f, Lista.width - 16f, Renglones.Count * AltoFilaSimple);
             Widgets.BeginScrollView(Lista, ref DesplazamientoNovedades, Vista);
 
-            for (int i = 0; i < Pendientes.Count; i++)
+            for (int i = 0; i < Renglones.Count; i++)
             {
                 Rect Renglon = new Rect(0f, i * AltoFilaSimple, Vista.width, AltoFilaSimple);
                 if (Renglon.yMax < DesplazamientoNovedades.y || Renglon.y > DesplazamientoNovedades.y + Lista.height)
                     continue;
 
-                Novedad Novedad = Pendientes[i];
-                if (i % 2 == 1) Widgets.DrawLightHighlight(Renglon);
-                if (Novedad.Oficial)
-                    Widgets.DrawBoxSolid(Renglon, new Color(Verde.r, Verde.g, Verde.b, Parpadeo()));
-                Widgets.DrawHighlightIfMouseover(Renglon);
-                Columnas(Renglon.ContractedBy(12f, 0f), out Rect Mod, out Rect Cambio, out Rect Fecha);
-
-                Text.Font = GameFont.Small;
-                Text.Anchor = TextAnchor.MiddleLeft;
-                string Nombre = Novedad.Nombre.Truncate(Mod.width);
-                Widgets.Label(Mod, Nombre);
-                if (Nombre != Novedad.Nombre)
-                    TooltipHandler.TipRegion(Mod, Novedad.Nombre);
-                Widgets.Label(Fecha, FechaLarga(Novedad.Fecha));
-
-                // Con la casilla de los ajustes apagada no hay boton, y Cambios.tsv no se lee nunca.
-                if (Novedad.TieneDetalle)
-                {
-                    string Ver = "RML_Ventana_VerCambios".Translate();
-                    float AnchoBoton = Text.CalcSize(Ver).x + 24f;
-                    if (Widgets.ButtonText(new Rect(Fecha.xMax - AnchoBoton, Fecha.center.y - 14f, AnchoBoton, 28f), Ver))
-                        AbrirCambios(Novedad);
-                }
-
-                Text.Font = GameFont.Tiny;
-                string Texto = TextoDeCambio(Novedad.Cambio);
-                var (Fondo, ColorDeTexto) = ColoresDeCambio[Novedad.Cambio];
-                Etiqueta(new Rect(Cambio.x, Cambio.center.y - 11f, Text.CalcSize(Texto).x + 16f, 22f), Texto, Fondo, ColorDeTexto);
-
-                Text.Font = GameFont.Small;
-                Text.Anchor = TextAnchor.UpperLeft;
+                if (Renglones[i].Novedad == null)
+                    DibujarFecha(Renglon, Renglones[i].Grupo);
+                else
+                    DibujarNovedad(Renglon, Renglones[i].Novedad, i);
             }
 
             Widgets.EndScrollView();
+        }
+
+        /** El titulo de una fecha del historial: la flecha, la fecha y cuantos mods; un clic lo pliega o
+         *  lo despliega, como los grupos de «Ver cambios». */
+        private void DibujarFecha(Rect Renglon, GrupoDeFecha Grupo)
+        {
+            bool Abierta = FechasAbiertas.Contains(Grupo.Fecha);
+            Widgets.DrawBoxSolid(Renglon, FondoEncabezado);
+            Widgets.DrawHighlightIfMouseover(Renglon);
+
+            const float Flecha = 14f;
+            GUI.DrawTexture(new Rect(Renglon.x + 12f, Renglon.center.y - Flecha / 2f, Flecha, Flecha), Abierta ? TexButton.Collapse : TexButton.Reveal);
+            Text.Font = GameFont.Small;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            Widgets.Label(new Rect(Renglon.x + 12f + Flecha + 8f, Renglon.y, Renglon.width - Flecha - 32f, Renglon.height),
+                FechaLarga(Grupo.Fecha) + " (" + Grupo.Novedades.Count + ")");
+            Text.Anchor = TextAnchor.UpperLeft;
+
+            if (Widgets.ButtonInvisible(Renglon))
+            {
+                if (Abierta)
+                    FechasAbiertas.Remove(Grupo.Fecha);
+                else
+                    FechasAbiertas.Add(Grupo.Fecha);
+            }
+        }
+
+        private void DibujarNovedad(Rect Renglon, Novedad Novedad, int i)
+        {
+            if (i % 2 == 1) Widgets.DrawLightHighlight(Renglon);
+            if (Novedad.Oficial)
+                Widgets.DrawBoxSolid(Renglon, new Color(Verde.r, Verde.g, Verde.b, Parpadeo()));
+            Widgets.DrawHighlightIfMouseover(Renglon);
+            Columnas(Renglon.ContractedBy(12f, 0f), out Rect Mod, out Rect Cambio, out Rect Fecha);
+
+            Text.Font = GameFont.Small;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            string Nombre = Novedad.Nombre.Truncate(Mod.width);
+            Widgets.Label(Mod, Nombre);
+            if (Nombre != Novedad.Nombre)
+                TooltipHandler.TipRegion(Mod, Novedad.Nombre);
+            Widgets.Label(Fecha, FechaLarga(Novedad.Fecha));
+
+            // Solo los mods con textos en Cambios.tsv (los de la ultima subida) llevan el boton.
+            if (Novedad.TieneDetalle)
+            {
+                string Ver = "RML_Ventana_VerCambios".Translate();
+                float AnchoBoton = Text.CalcSize(Ver).x + 24f;
+                if (Widgets.ButtonText(new Rect(Fecha.xMax - AnchoBoton, Fecha.center.y - 14f, AnchoBoton, 28f), Ver))
+                    AbrirCambios(Novedad);
+            }
+
+            Text.Font = GameFont.Tiny;
+            string Texto = TextoDeCambio(Novedad.Cambio);
+            var (Fondo, ColorDeTexto) = ColoresDeCambio[Novedad.Cambio];
+            Etiqueta(new Rect(Cambio.x, Cambio.center.y - 11f, Text.CalcSize(Texto).x + 16f, 22f), Texto, Fondo, ColorDeTexto);
+
+            Text.Font = GameFont.Small;
+            Text.Anchor = TextAnchor.UpperLeft;
         }
 
         /** El fondo de una fila de la traduccion oficial sube y baja de brillo, una vez cada ~1,6 s. */

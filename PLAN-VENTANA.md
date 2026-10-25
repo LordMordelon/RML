@@ -231,6 +231,17 @@ Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, 
 actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace
 aparecer la ventana sola.
 
+### Lo mismo al volver a abrirla, y el historial (pedido por Angel el 25-oct-2026)
+
+Si se actualizó un solo mod, al cerrar la ventana y volver a abrirla desde los ajustes tiene que seguir
+ese solo. Al cerrarla con algo nuevo se guarda qué se mostró (`AjustesRml.NovedadesMostradas`,
+`NovedadesRml.ClavesDe`), y con todo visto la pestaña vuelve a mostrar eso (`NovedadesRml.ParaMostrar`).
+
+La casilla «Ver todo el historial», a la derecha del resumen, muestra todos los mods de RML por la fecha
+de su último cambio (`NovedadesRml.Historial` y `PorFecha`), con un título plegable por fecha; abre con la
+más nueva desplegada. «Ver cambios» sigue solo en los mods de la última subida, que son los que
+tiene `Cambios.tsv`.
+
 ## Los ajustes, como pestaña (pedido por Angel el 25-oct-2026, hecho)
 
 Los ajustes del mod eran una pantalla aparte (Opciones → Configuración de mods). Ahora son la tercera

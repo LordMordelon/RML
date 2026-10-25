@@ -113,10 +113,51 @@ namespace RmlVentana.Tests
             // Angel cerro la ventana y la volvio a abrir desde los ajustes: no tiene que quedar vacia.
             var Leidas = NovedadesRml.Leer(TsvConUltima);
 
-            var Lista = NovedadesRml.ParaMostrar(Leidas, NovedadesRml.Claves(Leidas), Hoy, out bool YaVistas);
+            var Lista = NovedadesRml.ParaMostrar(Leidas, NovedadesRml.Claves(Leidas), null, Hoy, out bool YaVistas);
 
             Assert.IsTrue(YaVistas);
             CollectionAssert.AreEqual(new[] { "autor.nuevo", "autor.actualizado" }, Lista.Select(x => x.PackageId).ToList());
+        }
+
+        [TestMethod]
+        public void ConTodoVistoVuelveASalirLoMismoQueSeMostro()
+        {
+            // Angel: si se actualizo un solo mod, al volver a abrir la ventana tiene que seguir ese solo.
+            var Leidas = NovedadesRml.Leer(TsvConUltima);
+            var Mostradas = NovedadesRml.Pendientes(Leidas, NovedadesRml.Claves(Leidas.Where(x => x.PackageId != "autor.corregido").ToList()), Hoy);
+
+            var Lista = NovedadesRml.ParaMostrar(Leidas, NovedadesRml.Claves(Leidas), NovedadesRml.ClavesDe(Mostradas), Hoy, out bool YaVistas);
+
+            Assert.IsTrue(YaVistas);
+            CollectionAssert.AreEqual(new[] { "autor.corregido" }, Lista.Select(x => x.PackageId).ToList());
+            Assert.AreEqual(Mostradas[0].Cambio, Lista[0].Cambio);
+            Assert.AreEqual(Mostradas[0].Fecha, Lista[0].Fecha);
+        }
+
+        [TestMethod]
+        public void ElHistorialTraeCadaModUnaVezConSuUltimoCambio()
+        {
+            var Lista = NovedadesRml.Historial(Entradas);
+
+            CollectionAssert.AreEqual(new[] { "autor.nuevo", "autor.actualizado", "autor.corregido", "autor.viejo" },
+                Lista.Select(x => x.PackageId).ToList());
+            Assert.AreEqual(Cambio.Corregido, Lista[2].Cambio);
+            Assert.AreEqual("2026-10-20", Lista[2].Fecha);
+            Assert.AreEqual(Cambio.Anadido, Lista[3].Cambio);
+        }
+
+        [TestMethod]
+        public void ElHistorialSeAgrupaPorFechaDeLaMasNueva()
+        {
+            var Grupos = NovedadesRml.PorFecha(new List<Novedad>
+            {
+                new Novedad { PackageId = "a", Fecha = "2026-10-24" },
+                new Novedad { PackageId = "b", Fecha = "2026-10-25" },
+                new Novedad { PackageId = "c", Fecha = "2026-10-24" },
+            });
+
+            CollectionAssert.AreEqual(new[] { "2026-10-25", "2026-10-24" }, Grupos.Select(x => x.Fecha).ToList());
+            CollectionAssert.AreEqual(new[] { "a", "c" }, Grupos[1].Novedades.Select(x => x.PackageId).ToList());
         }
 
         [TestMethod]
@@ -125,7 +166,7 @@ namespace RmlVentana.Tests
             var Leidas = NovedadesRml.Leer(TsvConUltima);
             var Vistas = NovedadesRml.Claves(Leidas.Where(x => x.PackageId != "autor.corregido").ToList());
 
-            var Lista = NovedadesRml.ParaMostrar(Leidas, Vistas, Hoy, out bool YaVistas);
+            var Lista = NovedadesRml.ParaMostrar(Leidas, Vistas, null, Hoy, out bool YaVistas);
 
             Assert.IsFalse(YaVistas);
             CollectionAssert.AreEqual(new[] { "autor.corregido" }, Lista.Select(x => x.PackageId).ToList());

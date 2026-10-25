@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RmlVentana.Logica
 {
@@ -38,6 +39,12 @@ namespace RmlVentana.Logica
 
         /** De donde lee «Ver cambios» sus textos. Null es el Cambios.tsv de RML. */
         public string Archivo;
+    }
+
+    public class GrupoDeFecha
+    {
+        public string Fecha;
+        public List<Novedad> Novedades;
     }
 
     /** La pestaña «Novedades»: que cambio en RML desde la ultima vez que se abrio la ventana. */
@@ -131,29 +138,74 @@ namespace RmlVentana.Logica
                 }
             }
 
-            Resultado.Sort((A, B) =>
+            Ordenar(Resultado);
+            return Resultado;
+        }
+
+        /** De lo mas nuevo a lo mas viejo, y en la misma fecha por nombre. */
+        private static void Ordenar(List<Novedad> Lista) =>
+            Lista.Sort((A, B) =>
             {
                 int PorFecha = string.CompareOrdinal(B.Fecha, A.Fecha);
                 return PorFecha != 0 ? PorFecha : string.Compare(A.Nombre, B.Nombre, StringComparison.OrdinalIgnoreCase);
             });
-            return Resultado;
-        }
 
-        /** Lo que muestra la pestaña: lo no visto y, si ya se vio todo, lo de la ultima actualizacion
-         *  de RML (o de los ultimos dias), con YaVistas en true. Al cerrar la ventana todo queda visto, y
-         *  sin esto al volver a abrirla desde los ajustes la lista salia vacia y no habia como volver a
-         *  «Ver cambios». */
-        public static List<Novedad> ParaMostrar(List<EntradaDeNovedades> Entradas, ICollection<string> Vistas, DateTime Hoy, out bool YaVistas)
+        /** Lo que muestra la pestaña: lo no visto y, si ya se vio todo, lo mismo que se mostro la ultima
+         *  vez (Mostradas, de ClavesDe), con YaVistas en true. Si se actualizo un solo mod, al cerrar la
+         *  ventana y volver a abrirla desde los ajustes sigue ese solo. Sin Mostradas (ajustes de antes
+         *  de esto), lo de la ultima actualizacion de RML o de los ultimos dias. */
+        public static List<Novedad> ParaMostrar(List<EntradaDeNovedades> Entradas, ICollection<string> Vistas, ICollection<string> Mostradas,
+                                                DateTime Hoy, out bool YaVistas)
         {
             var SinVer = Pendientes(Entradas, Vistas, Hoy);
             YaVistas = false;
             if (SinVer.Count > 0 || Vistas == null)
                 return SinVer;
 
-            var Ultimas = Pendientes(Entradas, null, Hoy);
-            YaVistas = Ultimas.Count > 0;
-            return Ultimas;
+            // Lo mostrado es lo que sale si todo lo demas se diera por visto.
+            var Otra = Mostradas != null && Mostradas.Count > 0
+                ? Pendientes(Entradas, Claves(Entradas).Where(x => !Mostradas.Contains(x)).ToList(), Hoy)
+                : Pendientes(Entradas, null, Hoy);
+            YaVistas = Otra.Count > 0;
+            return Otra;
         }
+
+        /** Lo que se guarda para volver a mostrar lo mismo (ParaMostrar). La traduccion oficial no va:
+         *  tiene su propia fila hasta cerrar la ventana. */
+        public static List<string> ClavesDe(IEnumerable<Novedad> Novedades) =>
+            Novedades.Where(x => !x.Oficial)
+                .Select(x => (x.Cambio == Cambio.Anadido ? "a|" : "c|") + x.PackageId + "|" + x.Fecha)
+                .ToList();
+
+        /** Todos los mods de RML, una vez cada uno con su ultimo cambio, de lo mas nuevo a lo mas viejo:
+         *  «Ver todo el historial». */
+        public static List<Novedad> Historial(List<EntradaDeNovedades> Entradas)
+        {
+            var Resultado = new List<Novedad>();
+            foreach (EntradaDeNovedades Entrada in Entradas)
+            {
+                bool Cambiado = (Entrada.Tipo == "actualizado" || Entrada.Tipo == "corregido") && string.CompareOrdinal(Entrada.Ultimo, Entrada.Anadido) > 0;
+                if (!Cambiado)
+                {
+                    Resultado.Add(Nueva(Entrada, Cambio.Anadido, Entrada.Anadido));
+                    continue;
+                }
+                Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
+                Novedad.Cambiados = Entrada.Cambiados;
+                Novedad.Nuevos = Entrada.Nuevos;
+                Novedad.Quitados = Entrada.Quitados;
+                Resultado.Add(Novedad);
+            }
+            Ordenar(Resultado);
+            return Resultado;
+        }
+
+        /** Las novedades agrupadas por fecha, de la mas nueva a la mas vieja, cada grupo en su orden. */
+        public static List<GrupoDeFecha> PorFecha(IEnumerable<Novedad> Novedades) =>
+            Novedades.GroupBy(x => x.Fecha)
+                .OrderByDescending(x => x.Key, StringComparer.Ordinal)
+                .Select(x => new GrupoDeFecha { Fecha = x.Key, Novedades = x.ToList() })
+                .ToList();
 
         /** Lo que se guarda al cerrar la ventana: cada cambio que ya se mostro. */
         public static List<string> Claves(List<EntradaDeNovedades> Entradas)
