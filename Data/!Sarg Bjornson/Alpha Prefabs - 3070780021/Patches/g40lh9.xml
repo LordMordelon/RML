@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_AnimalistFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: animalist fake sculptures -->
+            <label>esculturas animalistas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_BuddhistFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: buddhist fake sculptures -->
+            <label>esculturas budistas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_ChristianFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: christian fake sculptures -->
+            <label>esculturas cristianas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_HinduFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: hindu fake sculptures -->
+            <label>esculturas hindúes de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_IslamicFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: islamic fake sculptures -->
+            <label>esculturas islámicas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_MorbidFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: morbid fake sculptures -->
+            <label>esculturas mórbidas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_TotemicFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: totemic fake sculptures -->
+            <label>esculturas totémicas de imitación</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Ideology Expanded - Memes and Structures</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_AuthoritarianFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: authoritarian fake sculptures -->
+            <label>esculturas autoritarias de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_CorporateFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: corporate fake sculptures -->
+            <label>esculturas corporativas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_EldritchFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: eldritch fake sculptures -->
+            <label>esculturas sobrenaturales de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_EsotericismFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: esotericism fake sculptures -->
+            <label>esculturas esotéricas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_HedonismFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: hedonism fake sculptures -->
+            <label>esculturas hedonistas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_SerketistFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: serketist fake sculptures -->
+            <label>esculturas serketistas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_TaoistFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: shintaoist fake sculptures -->
+            <label>esculturas sintoístas de imitación</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_JewishFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: jewish fake sculptures -->
+            <label>esculturas judías de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_KemeticFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: kemetic fake sculptures -->
+            <label>esculturas keméticas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_NeolithicFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: neolithic fake sculptures -->
+            <label>esculturas neolíticas de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_ScavengerFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: scavenger fake sculptures -->
+            <label>esculturas carroñeras de imitación</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="AP_SteampunkFakeSculptures"]/label</xpath>
+          <value>
+            <!-- EN: steampunk fake sculptures -->
+            <label>esculturas steampunk de imitación</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Prefab can&apos;t be built, it falls outside the map&apos;s bounds. -->
+  <AP_OutsideMapBounds>No se puede construir el prefabricado: queda fuera de los límites del mapa.</AP_OutsideMapBounds>
+  <!-- EN: Prefab can&apos;t be built. {0} is blocking construction. -->
+  <AP_OccupiedBy>No se puede construir el prefabricado. {0} bloquea la construcción.</AP_OccupiedBy>
+  <!-- EN: Prefab can&apos;t be built. Impassable terrain, &quot;{0}&quot; is blocking construction. -->
+  <AP_ImpassableTerrain>No se puede construir el prefabricado. Terreno intransitable: «{0}» bloquea la construcción.</AP_ImpassableTerrain>
+  <!-- EN: Prefab can&apos;t be built over a steam geyser -->
+  <AP_GeyserAt>No se puede construir el prefabricado sobre un géiser de vapor</AP_GeyserAt>
+  <!-- EN: Can&apos;t deploy prefab on impassable terrain: &quot;{0}&quot; -->
+  <AP_ImpassableTerrainDeploy>No se puede desplegar el prefabricado en terreno intransitable: «{0}»</AP_ImpassableTerrainDeploy>
+  <!-- EN: Go back -->
+  <AP_GoBack>Volver</AP_GoBack>
+  <!-- EN: This prefab needs to be deployed by a colonist -->
+  <AP_NeedsDeployment>Un colono tiene que desplegar este prefabricado</AP_NeedsDeployment>
+  <!-- EN: Structure that will be built: {0} -->
+  <AP_WillTurnInto>Estructura que se construirá: {0}</AP_WillTurnInto>
+  <!-- EN: Select prefab category: -->
+  <AP_ChoosePrefabCategory>Elige la categoría del prefabricado:</AP_ChoosePrefabCategory>
+  <!-- EN: Search -->
+  <AP_PrefabSearch>Buscar</AP_PrefabSearch>
+  <!-- EN: Prefab price: fixed value -->
+  <AP_PrefabFixedPrice>Precio del prefabricado: valor fijo</AP_PrefabFixedPrice>
+  <!-- EN: Order now -->
+  <AP_OrderNow>Pedir ahora</AP_OrderNow>
+  <!-- EN: Order now with... -->
+  <AP_OrderNowWithVariation>Pedir ahora con...</AP_OrderNowWithVariation>
+  <!-- EN: Export -->
+  <AP_Export>Exportar</AP_Export>
+  <!-- EN: Export with... -->
+  <AP_ExportWithVariation>Exportar con...</AP_ExportWithVariation>
+  <!-- EN: Variant layout: {0} -->
+  <AP_VariantLayout>Diseño variante: {0}</AP_VariantLayout>
+  <!-- EN: silver -->
+  <AP_Silver>plata</AP_Silver>
+  <!-- EN: Prefab designed by: {0} -->
+  <AP_Author>Prefabricado diseñado por: {0}</AP_Author>
+  <!-- EN: Research needed: {0} -->
+  <AP_ResearchNeeded>Investigación necesaria: {0}</AP_ResearchNeeded>
+  <!-- EN: No research needed -->
+  <AP_NoResearchNeeded>No necesita investigación</AP_NoResearchNeeded>
+  <!-- EN: Mods needed: {0} -->
+  <AP_ModsNeeded>Mods necesarios: {0}</AP_ModsNeeded>
+  <!-- EN: No mods or DLC needed -->
+  <AP_NoModsNeeded>No necesita mods ni DLC</AP_NoModsNeeded>
+  <!-- EN: Prefab dimensions: {0} x {1} tiles -->
+  <AP_PrefabDimensions>Dimensiones del prefabricado: {0} x {1} celdas</AP_PrefabDimensions>
+  <!-- EN: Suggested mods (not essential to have): {0} -->
+  <AP_SuggestedMods>Mods sugeridos (no son imprescindibles): {0}</AP_SuggestedMods>
+  <!-- EN: Research &quot;{0}&quot; needs to be finished before being able to buy this prefab -->
+  <AP_ResearchNotFinished>Hay que terminar la investigación «{0}» antes de poder comprar este prefabricado</AP_ResearchNotFinished>
+  <!-- EN: This prefab is lacking one or more mods needed to buy it -->
+  <AP_NotAllModsPresent>A este prefabricado le faltan uno o más mods necesarios para comprarlo</AP_NotAllModsPresent>
+  <!-- EN: Not enough silver. You need at least {0} silver around valid trade beacons to buy this prefab -->
+  <AP_NotEnoughMoney>No tienes suficiente plata. Necesitas al menos {0} de plata cerca de balizas comerciales válidas para comprar este prefabricado</AP_NotEnoughMoney>
+  <!-- EN: {0} (not installed) -->
+  <AP_ModNotFound>{0} (no instalado)</AP_ModNotFound>
+  <!-- EN: Total prefab value estimated at {0} simoleons -->
+  <AP_TotalPrefabValue>Valor total del prefabricado estimado en {0} simoleones</AP_TotalPrefabValue>
+  <!-- EN: This prefab requires the following researches: {0} -->
+  <AP_PrefabLockingResearches>Este prefabricado necesita las siguientes investigaciones: {0}</AP_PrefabLockingResearches>
+  <!-- EN: This prefab requires the following mods: {0} -->
+  <AP_PrefabMods>Este prefabricado necesita los siguientes mods: {0}</AP_PrefabMods>
+  <!-- EN: Build prefab -->
+  <AP_BuildPrefab>Construir prefabricado</AP_BuildPrefab>
+  <!-- EN: Build the prefab structure contained inside this builder. The prefab won&apos;t be built if there are already buildings or impassable terrain in the indicated area. -->
+  <AP_BuildPrefabDesc>Construye la estructura prefabricada que guarda este constructor. El prefabricado no se construirá si ya hay edificios o terreno intransitable en la zona indicada.</AP_BuildPrefabDesc>
+  <!-- EN: Undeploy prefab -->
+  <AP_UndeployPrefab>Replegar prefabricado</AP_UndeployPrefab>
+  <!-- EN: Cancels prefab deployment, transforming the prefab builder into an item that can be again moved. -->
+  <AP_UndeployPrefabDesc>Cancela el despliegue del prefabricado y convierte el constructor otra vez en un objeto que se puede mover.</AP_UndeployPrefabDesc>
+  <!-- EN: Open prefab catalog -->
+  <AP_OpenPrefabCatalog>Abrir catálogo de prefabricados</AP_OpenPrefabCatalog>
+  <!-- EN: Open a catalog to browse all available prefabs. To buy prefabs you&apos;ll need a trading beacon with silver on its effect radius. -->
+  <AP_OpenPrefabCatalogDesc>Abre un catálogo para ver todos los prefabricados disponibles. Para comprarlos necesitas una baliza comercial con plata en su radio de efecto.</AP_OpenPrefabCatalogDesc>
+  <!-- EN: Dev mode (requires game restart) -->
+  <AP_DevMode>Modo desarrollador (requiere reiniciar el juego)</AP_DevMode>
+  <!-- EN: Dev mode will allow you to build certain structures that are useful to create your own prefabs. As a player this won&apos;t do much for you. Requires a game restart. -->
+  <AP_DevModeDescription>El modo desarrollador permite construir ciertas estructuras útiles para crear tus propios prefabricados. Como jugador no te servirá de mucho. Requiere reiniciar el juego.</AP_DevModeDescription>
+  <!-- EN: No silver cost mode -->
+  <AP_NoSilverMode>Modo sin costo de plata</AP_NoSilverMode>
+  <!-- EN: With this mode prefabs can be acquired on the catalog without paying for them. Intended for basebuilding and creative playthroughs. -->
+  <AP_NoSilverModeDescription>En este modo los prefabricados se obtienen del catálogo sin pagar por ellos. Pensado para partidas de construcción y creativas.</AP_NoSilverModeDescription>
+  <!-- EN: No research locking mode -->
+  <AP_NoResearchLockingMode>Modo sin bloqueo por investigación</AP_NoResearchLockingMode>
+  <!-- EN: With this mode prefabs can be acquired on the catalog even if the player doesn&apos;t have the required research projects finished. Not intended for a normal playthrough as it will get players access to non-researched items. -->
+  <AP_NoResearchLockingModeDescription>En este modo los prefabricados se obtienen del catálogo aunque no hayas terminado los proyectos de investigación necesarios. No está pensado para una partida normal, porque da acceso a objetos sin investigar.</AP_NoResearchLockingModeDescription>
+  <!-- EN: No prefab catalog building mode (requires game restart) -->
+  <AP_NoPrefabCatalog>Modo sin edificio de catálogo (requiere reiniciar el juego)</AP_NoPrefabCatalog>
+  <!-- EN: With this mode the prefab choosing dialog will be accessed via a designator in the Furniture architect menu, instead of having access to a prefab catalog building on the Misc architect menu. -->
+  <AP_NoPrefabCatalogDescription>En este modo, la ventana para elegir prefabricados se abre con un designador en el menú Mobiliario de arquitectura, en lugar de con un edificio de catálogo en el menú Varios.</AP_NoPrefabCatalogDescription>
+  <!-- EN: No mod locking mode -->
+  <AP_NoModLockingMode>Modo sin bloqueo por mods</AP_NoModLockingMode>
+  <!-- EN: With this mode active prefabs will still show up on the catalog even if the player doesn&apos;t have the required mods. Bear in mind that prefabs using mods you don&apos;t have will still be built, only lacking that mod&apos;s objects. -->
+  <AP_NoModLockingModeDescription>Con este modo activo, los prefabricados aparecen en el catálogo aunque no tengas los mods que necesitan. Ten en cuenta que los prefabricados que usan mods que no tienes se construyen igual, solo que sin los objetos de esos mods.</AP_NoModLockingModeDescription>
+  <!-- EN: Hide &quot;Silly&quot; category -->
+  <AP_HideSilly>Ocultar la categoría «Tonterías»</AP_HideSilly>
+  <!-- EN: On second thought, let&apos;s not go to Camelot. It is a silly place. Removes the &quot;Silly&quot; category, both from the prefab catalog and from appearing on traders, quest rewards, etc. -->
+  <AP_HideSillyDescription>Pensándolo bien, mejor no vayamos a Camelot. Es un lugar tonto. Quita la categoría «Tonterías», tanto del catálogo de prefabricados como de los comerciantes, las recompensas de misiones, etc.</AP_HideSillyDescription>
+  <!-- EN: Prefab cost multiplier -->
+  <AP_CostMultiplier>Multiplicador del costo de los prefabricados</AP_CostMultiplier>
+  <!-- EN: By default, prefabs can be bought for 60% or the price of all the materials of their components. With this you can make them cheaper or more expensive to fit your needs. -->
+  <AP_CostMultiplierDesc>Por defecto, los prefabricados se compran por el 60 % del precio de todos los materiales de sus componentes. Con esto puedes abaratarlos o encarecerlos según lo que necesites.</AP_CostMultiplierDesc>
+  <!-- EN: Reset -->
+  <AP_Reset>Restablecer</AP_Reset>
+</LanguageData>
