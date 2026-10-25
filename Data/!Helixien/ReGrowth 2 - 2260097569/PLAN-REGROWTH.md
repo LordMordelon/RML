@@ -98,8 +98,8 @@ La lectura del resto encontró, y se arregló:
 
 - `RG_Hemolope.description`: «sanguívoros» → «sanguífagos», el término oficial, y «puede ser
   tratado» → «se puede ordeñar».
-- `RG_WasteBathing.stages.0.description`: «Qué guarrería...» es de España; ahora «Un asco total;
-  siento la suciedad en todo el cuerpo».
+- `RG_WasteBathing.stages.0.description`: «Qué guarrería...» es de España; ahora «Qué asco, siento la
+  mugre encima», corto y sin el género de quien habla.
 - `RG_Bathe.reportString`: «relajarse» → «relajándose», como los demás trabajos del juego.
 - En las opciones: «vainilla» → «Vanilla» (2), «cultivos apestados» → «plagados», y las comidas con
   sus nombres oficiales («sencilla», «lujosa»).
