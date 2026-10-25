@@ -289,6 +289,9 @@ namespace RmlVentana
                 {
                     if (Directory.Exists(Instalada(Carpeta)))
                         Directory.Delete(Instalada(Carpeta), true);
+                    // Un DLC sin traducciones (la 1.7 beta no traia los .tar de los DLC) puede no tener
+                    // Languages/, y Directory.Move no crea la carpeta de destino.
+                    Directory.CreateDirectory(Languages(Carpeta));
                     Directory.Move(Path.Combine(Temporal, Carpeta), Instalada(Carpeta));
                     if (File.Exists(Tar(Carpeta)))
                     {
