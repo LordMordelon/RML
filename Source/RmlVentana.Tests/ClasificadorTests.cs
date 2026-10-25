@@ -248,6 +248,8 @@ namespace RmlVentana.Tests
             Assert.AreEqual("Oct 3", Solicitudes.FechaCorta("2026-10-03", "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".Split(','), "{1} {0}"));
             Assert.AreEqual("", Solicitudes.FechaCorta("no es fecha", Meses, "{0}-{1}"));
             Assert.AreEqual("18-oct-2026", Solicitudes.FechaCorta("2026-10-18", Meses, "{0}-{1}-{2}"));
+            // El mes tambien como numero (Angel prefiere 25-10-2026), con el formato de dos cifras.
+            Assert.AreEqual("05-10-2026", Solicitudes.FechaCorta("2026-10-05", Meses, "{0:00}-{3:00}-{2}"));
         }
     }
 }

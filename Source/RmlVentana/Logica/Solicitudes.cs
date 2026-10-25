@@ -41,7 +41,8 @@ namespace RmlVentana.Logica
                 Meses == null || Meses.Length != 12)
                 return "";
 
-            return string.Format(Formato, Fecha.Day, Meses[Fecha.Month - 1].Trim(), Fecha.Year);
+            // {0} dia, {1} mes con su nombre, {2} año y {3} mes como numero («{0:00}-{3:00}-{2}», 25-10-2026).
+            return string.Format(Formato, Fecha.Day, Meses[Fecha.Month - 1].Trim(), Fecha.Year, Fecha.Month);
         }
     }
 }
