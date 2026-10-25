@@ -234,7 +234,10 @@ namespace RmlVentana
                 {
                     string Raiz = TraduccionOficial.RaizDelZip(Archivo.Entries.Select(x => x.FullName));
                     ZipArchiveEntry Readme = Archivo.GetEntry(Raiz + "README.md");
-                    string Version = Readme == null ? null : TraduccionOficial.VersionDelReadme(new StreamReader(Readme.Open()).ReadToEnd());
+                    string Version = null;
+                    if (Readme != null)
+                        using (var Lector = new StreamReader(Readme.Open()))
+                            Version = TraduccionOficial.VersionDelReadme(Lector.ReadToEnd());
                     if (Version != VersionDelJuego)
                     {
                         Hecho.Error = "RML_Oficial_ErrorVersion".Translate(Version ?? "?", VersionDelJuego);
