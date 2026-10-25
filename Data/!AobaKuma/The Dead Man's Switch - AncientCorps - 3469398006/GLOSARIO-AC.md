@@ -78,6 +78,11 @@ la opción A de las que están al final. Cada fila dice de dónde sale: **oficia
 | field maintenance base, repair yard, forward workshop | **taller de mantenimiento de campo**, **patio de reparaciones**, **taller avanzado** | propuesta | Los tres masculinos: la misión los usa con «El [garage]» |
 | automatroid graveyard, scrap field, hulk yard | **cementerio de automatroides**, **campo de chatarra**, **desguace** | propuesta | Los tres masculinos |
 | buried facility, sealed installation, corps shaft | **instalación enterrada**, **instalación sellada**, **galería del Cuerpo** | propuesta | Los tres femeninos: «La [facility]». *Shaft* es pozo, pero sale masculino |
+| logistic terminal, supply terminal, ammunition point | **terminal logística**, **terminal de suministros**, **estación de municiones** | propuesta | Los tres femeninos: «La [terminal]». Puesto al traducir, 25-oct-2026 |
+| corps checkpoint, road block, patrol station | **puesto de control del Cuerpo**, **bloqueo de camino**, **puesto de patrulla** | propuesta | Los tres masculinos: «El [checkpoint]». Puesto al traducir, 25-oct-2026 |
+| surface shaft (en el texto) | **pozo de superficie** | propuesta | En la descripción de la misión, donde no choca con el género del nombre |
+| shkatulka | **el shkatulka** | propuesta | Masculino, como «el krepost», aunque el inglés dice *her* |
+| 7.62 (en el texto) | **7,62 mm** | propuesta | Con coma y la unidad, como «23 mm» |
 
 ## El Cuerpo: opciones
 

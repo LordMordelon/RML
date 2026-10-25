@@ -9,13 +9,13 @@
   <!-- EN: checkpoint-&gt;road block -->
   <!-- EN: checkpoint-&gt;patrol station -->
   <DMSAC_Installation_Logistic.questNameRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questName(installation==DMSAC_LogisticTerminal)-&gt;La [terminal]</li>
+    <li>terminal-&gt;terminal logística</li>
+    <li>terminal-&gt;terminal de suministros</li>
+    <li>terminal-&gt;estación de municiones</li>
+    <li>questName(installation==DMSAC_Checkpoint)-&gt;El [checkpoint]</li>
+    <li>checkpoint-&gt;puesto de control del Cuerpo</li>
+    <li>checkpoint-&gt;bloqueo de camino</li>
+    <li>checkpoint-&gt;puesto de patrulla</li>
   </DMSAC_Installation_Logistic.questNameRules.rulesStrings>
 </LanguageData>
