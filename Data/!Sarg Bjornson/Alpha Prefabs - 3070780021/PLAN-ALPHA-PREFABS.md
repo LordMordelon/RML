@@ -40,4 +40,8 @@ Los términos están en [GLOSARIO-ALPHA-PREFABS.md](GLOSARIO-ALPHA-PREFABS.md).
   y 0 `TODO`.
 - [x] `Patches/` a mano (19 textos).
 - [x] Las tres comprobaciones del diff de `RML/AGENTS.md`: vacías.
+- [x] Probando en el juego, Angel vio dos campos en inglés que el extractor no sacaba: `shortLabel`
+  (el nombre de la cuadrícula del catálogo) y `labelForDefaultVariation` (la primera opción de
+  «Pedir ahora con...»). Se sumaron al extractor, se reextrajo y se tradujeron los 361 textos
+  nuevos. Los cortos van abreviados («lab.», «fáb.», «peq.») porque la cuadrícula es angosta.
 - [ ] Prueba en el juego: abrir el catálogo y mirar que los textos largos entren.
