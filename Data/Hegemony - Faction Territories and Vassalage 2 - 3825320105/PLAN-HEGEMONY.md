@@ -113,6 +113,9 @@ sesión deja anotado acá hasta dónde llegó.
 - 24-oct-2026, sesión 1: plan, decisiones y **etapa 2 terminada**. Los 12 archivos cortos están
   traducidos (977 entradas, ninguna `TODO`), con `revisar.py` y `terminos.py` sin problemas, y en un
   commit local sin push. Falta `ConceptDef`: 930 entradas (465 lecciones), de arriba hacia abajo.
+- 25-oct-2026: **en pausa.** El autor todavía no le da soporte de traducción a la ventana del mod
+  (sus textos están escritos en la DLL, sin `Keyed` ni `.Translate()`). Angel le pidió ese soporte en
+  Steam. Si lo agrega, se reextrae el mod, se traduce la interfaz y después se siguen las lecciones.
 
 ## Próxima sesión
 

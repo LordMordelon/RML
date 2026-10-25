@@ -330,6 +330,13 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   script que la copia solo sobre `TODO`, con una revisión después de cada tanda. Las herramientas y
   las reglas están en
   [PLAN-HEGEMONY.md](Data/Hegemony%20-%20Faction%20Territories%20and%20Vassalage%202%20-%203825320105/PLAN-HEGEMONY.md).
+  Desde el 25-oct-2026 está en pausa: falta traducir las lecciones, y el autor todavía no le da
+  soporte de traducción a la ventana del mod (está escrita en su DLL). Se retoma si lo agrega.
+
+  En tres mods de la familia de AobaKuma, Angel aprobó el 25-oct-2026 el camino de Hegemony, también
+  por su tamaño: The Dead Man's Switch - Expedition, Ascension Megacorp y Cinders of the Embergarden
+  (unas 33.000 palabras entre los tres). Está en
+  [PLAN-AOBAKUMA.md](Data/!AobaKuma/PLAN-AOBAKUMA.md). Los otros mods de la familia van a mano.
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
