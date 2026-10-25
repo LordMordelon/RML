@@ -8,7 +8,7 @@ namespace RmlVentana.Logica
     {
         public string Texto;
         public bool Cambiado;
-        /** Solo en la lista de Unir: si lo cambiado es lo que se quito y no lo que se agrego. */
+        /** Si lo cambiado es lo que se quito y no lo que se agrego: la ventana elige asi el color del resalte. */
         public bool Quitado;
     }
 
@@ -33,7 +33,7 @@ namespace RmlVentana.Logica
             TrozosAhora = new List<Trozo>();
             foreach (Trozo Trozo in Recorrer(Antes, Ahora))
             {
-                if (!Trozo.Cambiado || Trozo.Quitado) TrozosAntes.Add(new Trozo { Texto = Trozo.Texto, Cambiado = Trozo.Cambiado });
+                if (!Trozo.Cambiado || Trozo.Quitado) TrozosAntes.Add(new Trozo { Texto = Trozo.Texto, Cambiado = Trozo.Cambiado, Quitado = Trozo.Quitado });
                 if (!Trozo.Cambiado || !Trozo.Quitado) TrozosAhora.Add(new Trozo { Texto = Trozo.Texto, Cambiado = Trozo.Cambiado });
             }
 

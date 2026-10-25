@@ -38,6 +38,16 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void LoMarcadoDeAntesEsQuitadoYLoDeAhoraNo()
+        {
+            // La ventana elige el color del resalte por Quitado: sin esto, el bloque rojo salia con resaltes verdes.
+            DiffDePalabras.Comparar("un proyectil de rifle", "una bala de fusil", out var Antes, out var Ahora);
+
+            Assert.IsTrue(Antes.Where(x => x.Cambiado).All(x => x.Quitado));
+            Assert.IsFalse(Ahora.Any(x => x.Quitado));
+        }
+
+        [TestMethod]
         public void UnaPalabraQuitadaSeMarcaSoloAntes()
         {
             DiffDePalabras.Comparar("pistola de meca", "pistola meca", out var Antes, out var Ahora);
