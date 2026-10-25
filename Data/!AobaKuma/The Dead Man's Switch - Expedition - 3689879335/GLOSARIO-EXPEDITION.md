@@ -1,0 +1,149 @@
+# Glosario: The Dead Man's Switch - Expedition
+
+Lo propio de este mod: misiles armados por partes, radares, defensa antiaérea, munición y el viaje de la
+gravinave. Lo que comparte con la familia está en
+[GLOSARIO-DMS.md](../The%20Dead%20Man's%20Switch%20-%203819799478/GLOSARIO-DMS.md) y en
+[ARMAS-DMS.md](../The%20Dead%20Man's%20Switch%20-%203819799478/ARMAS-DMS.md) (cómo se nombran las armas);
+la munición de Combat Extended sigue
+[GLOSARIO-COMBAT-EXTENDED.md](../../Combat%20Extended%20-%202890901044/GLOSARIO-COMBAT-EXTENDED.md).
+Por encima de todos manda la traducción oficial, y después [RML/GLOSARIO.md](../../../GLOSARIO.md). El
+plan está en [PLAN-AOBAKUMA.md](../PLAN-AOBAKUMA.md).
+
+Armado el 25-oct-2026, con el mod recién extraído (1.295 entradas, ninguna traducida). Cada término se
+buscó en la oficial y en RML. **Origen**: *oficial* (el juego), *RML* (ya en uso en otro mod), *familia*
+(glosarios de DMS), *CE* (glosario de Combat Extended) o *propuesta* (sin apoyo: el término militar
+habitual en español; se usa así hasta que Angel lo cambie).
+
+## El juego y la familia
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| gravship | **gravinave** | oficial | |
+| thruster | **propulsor** | oficial | «propulsor de transferencia» (*transfer thruster*) |
+| vacsuit | **traje de vacío** | oficial | |
+| vacuum / space | **vacío** / **espacio** | oficial | |
+| orbital platform | **plataforma orbital** | oficial | La «plataforma ligera» (*light platform*) es propuesta |
+| chemfuel | **quimbustible** | oficial | |
+| glitterworld medicine | **medicina de mundobrillante** | oficial | La receta: «fabricar medicina de mundobrillante» |
+| neutroamine | **neutroamina** | oficial | «sintetizar neutroamina» |
+| advanced component | **componentes avanzados** | oficial | En la receta, en singular: «fabricar componente avanzado con grafeno» |
+| microelectronics | **microelectrónica** | oficial | La investigación oficial es «microelectrónicos básicos» |
+| drop pod / incoming drop pods | **cápsula de escape** / **cápsulas de escape entrantes** | oficial | |
+| shuttle | **transbordador** | oficial | «Make Shuttle Engine» → «fabricar motor de transbordador» |
+| flak gun | **cañón antiaéreo** | RML | |
+| decoy | **señuelo** | RML | |
+| railgun | **cañón de riel** | RML | |
+| deviant / huntdown | **disidente** / **cacería** | familia | El escenario «(WIP) The Deviant»: «(en desarrollo) El disidente»; *deviant huntdown*: «cacería del disidente» |
+| Colonial Fleet | **Flota Colonial** | familia | |
+| Dawnblade «Striker» | **hoja del alba atacante** | familia | Apodo traducido, sin comillas y en minúscula, como «GAU-4 vulcano» |
+| Type 85 Multi-Purpose-Quick-Firing System | **sistema de disparo rápido multipropósito tipo 85** | familia | Ya está así en DMS II (`DMS_Gun_Dawnblade`) |
+| GAU-4 «Wing-Back» | **GAU-4 alas atrás** | propuesta | Mismo criterio; en DMS el GAU-4 es «vulcano» |
+| APT shell | **proyectil APT** | familia | «bala perforante trazadora» en la descripción |
+| EMP | **PEM** | oficial | «76.2x385mmR cannon shell (EMP)» → «obús de cañón 76.2x385mmR (PEM)» |
+
+## Misiles
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| missile | **misil** | CE | |
+| ballistic missile / tactical ballistic missile | **misil balístico** / **misil balístico táctico** | propuesta | |
+| cruise missile | **misil de crucero** | propuesta | |
+| surface-to-air missile (SAM) / SAM launcher | **misil tierra-aire** / **lanzador de misiles tierra-aire** | propuesta | La sigla queda en inglés si el texto la usa sola: «SAM» |
+| anti-ship missile | **misil antibuque** | propuesta | «supersónico», «hipersónico» |
+| ground-attack missile | **misil de ataque a tierra** | propuesta | |
+| general-purpose missile | **misil de propósito general** | propuesta | |
+| light missile | **misil ligero** | propuesta | |
+| interceptor / interceptor missile | **interceptor** / **misil interceptor** | propuesta | |
+| loitering munition | **munición merodeadora** | propuesta | El término en uso en español. «munición merodeadora de largo alcance», «… antibuque» |
+| missile body / airframe | **cuerpo del misil** / **fuselaje** | propuesta | *Airframe* es la estructura del misil; «fuselaje» se entiende mejor que «célula» |
+| (missile) chassis | **chasis** | oficial | |
+| assembly slots | **ranuras de montaje** | propuesta | «Tres ranuras de montaje: ojiva, guiado y carga útil» |
+| warhead | **ojiva** | CE (oficial) | «grandes ojivas incendiarias» del juego |
+| payload / no payload | **carga útil** / **sin carga útil** | propuesta | |
+| guidance / terminal guidance | **guiado** / **guiado terminal** | propuesta | |
+| inertial guidance / inertial targeting | **guiado inercial** / **apuntado inercial** | propuesta | |
+| stellar-inertial guidance | **guiado astroinercial** | propuesta | |
+| terrain-matching guidance | **guiado por correlación del terreno** | propuesta | TERCOM y DSMAC quedan como siglas |
+| fire-control guidance / fire control | **guiado por control de tiro** / **control de tiro** | propuesta | «radar de control de tiro», «canal de control de tiro» |
+| TV guidance | **guiado por TV** | propuesta | |
+| seeker | **buscador** | propuesta | «buscador láser», «buscador de radar activo» |
+| active / semi-active radar seeker | **buscador de radar activo** / **semiactivo** | propuesta | |
+| semi-active laser seeker | **buscador láser semiactivo** | propuesta | |
+| imaging infra-red seeker | **buscador infrarrojo de imagen** | propuesta | |
+| heat-signature seeker | **buscador de firma térmica** | propuesta | |
+| anti-radiation seeker | **buscador antirradiación** | propuesta | |
+| electromagnetic-signal seeker | **buscador de señal electromagnética** | propuesta | |
+| millimetre-wave radar seeker | **buscador de radar de onda milimétrica** | propuesta | |
+| fire-and-forget | **dispara y olvida** | propuesta | |
+| laser designation / laser target designator | **designación láser** / **designador láser de objetivos** | propuesta | |
+| datalink / two-way datalink | **enlace de datos** / **enlace de datos bidireccional** | propuesta | |
+| aim point / impact point / dispersion | **punto de puntería** / **punto de impacto** / **dispersión** | propuesta | |
+| circular normal distribution | **distribución normal circular** | propuesta | |
+| target map | **mapa objetivo** | propuesta | |
+| re-entry vehicle / multiple re-entry vehicles | **vehículo de reentrada** / **vehículos de reentrada múltiples** | propuesta | |
+| penetration aids | **ayudas de penetración** | propuesta | |
+| solid rocket booster | **acelerador de combustible sólido** | propuesta | |
+| boosted / standard motor | **motor potenciado** / **motor estándar** | propuesta | |
+| turbofan sustainer / extended-range turbofan | **turbofán de crucero** / **turbofán de alcance extendido** | propuesta | |
+| ramjet | **estatorreactor** | propuesta | |
+| launch rail / rotary launch rail | **riel de lanzamiento** / **riel de lanzamiento giratorio** | propuesta | |
+| missile silo | **silo de misiles** | propuesta | |
+| strike mission / strike planning table | **misión de ataque** / **mesa de planificación de ataques** | propuesta | |
+| wave (de una misión) | **oleada** | familia | Como «oleada de asalto» en FFF |
+| firing solution | **solución de tiro** | propuesta | «Calculando soluciones de tiro» |
+| channel (fire-control) | **canal** | propuesta | «Canales ocupados: {0} / {1}» |
+| BVR | **BVR** | propuesta | Sigla («más allá del alcance visual»): se explica una vez |
+
+## Ojivas y cargas
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| high-explosive warhead / light HE warhead | **ojiva explosiva** / **ojiva HE ligera** | CE | HE = «explosivo» cuando va escrito entero, sigla si va en sigla |
+| blast-fragmentation warhead / fragmentation sleeve | **ojiva de explosión y fragmentación** / **camisa de fragmentación** | CE | «fragmentario» es oficial; acá va «de fragmentación» porque es la ojiva |
+| armor-piercing warhead / hard-target penetrator | **ojiva perforante** / **penetrador de blancos duros** | CE | |
+| tandem shaped-charge warhead | **ojiva de carga hueca en tándem** | familia | «carga hueca» |
+| thermobaric warhead | **ojiva termobárica** | RML | |
+| thermonuclear warhead / low-yield warhead | **ojiva termonuclear** / **ojiva de bajo rendimiento** | propuesta | |
+| incendiary warhead | **ojiva incendiaria** | oficial | |
+| EMP warhead / EMP submunitions | **ojiva PEM** / **submuniciones PEM** | oficial | |
+| airburst warhead | **ojiva de estallido aéreo** | familia | |
+| continuous rod warhead | **ojiva de varilla continua** | propuesta | |
+| kinetic blade warhead | **ojiva de hojas cinéticas** | propuesta | |
+| unitary penetrating warhead | **ojiva penetrante unitaria** | propuesta | |
+| tungsten penetrator | **penetrador de tungsteno** | propuesta | No confundir con el *tungsteel* de DMS, «tungstanio» |
+| cluster payload / submunition dispenser | **carga en racimo** / **dispensador de submuniciones** | propuesta | |
+| graphite filament payload | **carga de filamentos de grafito** | propuesta | |
+| toxic gas payload | **carga de gas tóxico** | propuesta | |
+| antiparticle payload | **carga de antipartículas** | propuesta | |
+| decoy payload / chaff dispenser | **carga señuelo** / **dispensador de chaff** | propuesta | *Chaff* queda en inglés, como en el uso militar |
+| Amatol / Trialen warhead | **ojiva de amatol** / **ojiva de trialeno** | propuesta | Explosivos reales |
+
+## Viaje y estructuras
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| transfer / transfer flight / transfer ship | **transferencia** / **vuelo de transferencia** / **nave de transferencia** | propuesta | |
+| post-transfer safe period | **periodo seguro tras la transferencia** | propuesta | |
+| departure burn / arrival burn / coast | **encendido de partida** / **encendido de llegada** / **vuelo inercial** | propuesta | |
+| Fusion core / fusion reactor | **núcleo de fusión** / **reactor de fusión** | propuesta | |
+| Nuclear thermal thruster | **propulsor térmico nuclear** | propuesta | |
+| structural pile / beam / steel beam | **pilote estructural** / **viga** / **viga de acero** | propuesta | |
+| solar radiation shield | **escudo contra la radiación solar** | propuesta | |
+| vacuum sealed room / vacuumize | **sala sellada al vacío** / **hacer el vacío** | propuesta | |
+| oxygen candle | **vela de oxígeno** | propuesta | El generador químico de oxígeno real |
+| IVA suit | **traje IVA** | propuesta | IVA: intravehicular. Se explica en la descripción |
+| graphene / tantasteel / nitrogallium | **grafeno** / **tantacero** / **nitrogalio** | propuesta | |
+| carbohydrate / C-Ration | **carbohidrato** / **ración C** | propuesta | RML tiene dos «ración de combate» para otro objeto |
+| Precise fabrication center | **centro de fabricación de precisión** | propuesta | |
+| impact crater wasteland | **páramo de cráteres de impacto** | propuesta | Bioma |
+| Aerospace Applications / orbital dynamics / Microgravity Manufacturing | **aplicaciones aeroespaciales** / **dinámica orbital** / **fabricación en microgravedad** | propuesta | Investigaciones, en minúscula como las oficiales |
+| integrated circuits / ballistics / strategic systems | **circuitos integrados** / **balística** / **sistemas estratégicos** | propuesta | |
+
+## Para revisar en contexto
+
+- **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se
+  traduce igual, conservando el «(TODO)», para que se vea como lo que es.
+- **Munición sin vaina** (*caseless*): «sin vaina», también en el nombre, como ya está en RML: «5x50mm
+  sin vaina», «bala 5x50mm sin vaina (Sabot)», «cartucho 5x50mm sin vaina (AP)». La descripción
+  común ya traducida: «Bala sin vaina, con un propelente sólido que envuelve el proyectil.» Lo mismo
+  en Cinders y Ascension.
