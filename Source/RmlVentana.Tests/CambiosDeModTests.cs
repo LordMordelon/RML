@@ -21,6 +21,25 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void LosTextosDeUnModAnadidoSeLeenSoloParaSuFilaAnadido()
+        {
+            var Lineas = new[]
+            {
+                "autor.mod\ta\tWar funds\t\tFondos secretos",
+                "autor.mod\tc\tMediate peace\tMediar por la paz\tNegociar la paz",
+            };
+
+            var DelAnadido = CambiosDeMod.Leer(Lineas, "autor.mod", DelAnadido: true);
+            var DelCambio = CambiosDeMod.Leer(Lineas, "autor.mod");
+
+            Assert.AreEqual(1, DelAnadido.Count);
+            Assert.AreEqual(TipoDeTexto.Nuevo, DelAnadido[0].Tipo);
+            Assert.AreEqual("Fondos secretos", DelAnadido[0].Ahora);
+            Assert.AreEqual(1, DelCambio.Count);
+            Assert.AreEqual("Negociar la paz", DelCambio[0].Ahora);
+        }
+
+        [TestMethod]
         public void SoloAgregadoVaEnUnBloqueVerde()
         {
             // [FSF] Advanced Bionics: la traduccion solo gano una frase y la ventana mostraba el rojo entero.

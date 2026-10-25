@@ -22,7 +22,8 @@ public static class CambiosDeTexto
 
     public const string Encabezado = "PackageID\tTipo\tInglés\tAntes\tAhora\tInglés antes\tObjeto";
 
-    public enum Tipo { Cambiado, Nuevo, Quitado }
+    /** Anadido es cada texto de un mod añadido en la subida, para su fila «Añadido» (Novedades.Armar). */
+    public enum Tipo { Cambiado, Nuevo, Quitado, Anadido }
 
     /** Un texto de un XML: su clave unica dentro de la carpeta del mod, el ingles del comentario EN y
      *  la traduccion («TODO» si no la tiene). */
@@ -129,7 +130,7 @@ public static class CambiosDeTexto
     /** Una linea de Cambios.tsv. Un salto de linea o un tabulador dentro de un texto romperia la fila. */
     public static string Fila(string PackageId, Cambio Cambio)
     {
-        string Marca = Cambio.Tipo switch { Tipo.Cambiado => "c", Tipo.Nuevo => "n", _ => "q" };
+        string Marca = Cambio.Tipo switch { Tipo.Cambiado => "c", Tipo.Nuevo => "n", Tipo.Anadido => "a", _ => "q" };
         return string.Join("\t", PackageId, Marca, Limpio(Cambio.Ingles), Limpio(Cambio.Antes), Limpio(Cambio.Ahora), Limpio(Cambio.InglesAntes), Limpio(Cambio.Objeto));
     }
 

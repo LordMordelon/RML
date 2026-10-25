@@ -32,8 +32,12 @@ namespace RmlVentana.Logica
     public static class CambiosDeMod
     {
         /** Los textos de un mod, en el orden del archivo. Recibe las lineas y no el texto entero para
-         *  que el archivo se pueda leer de a una, y las de otros mods se saltan sin partirlas. */
-        public static List<TextoCambiado> Leer(IEnumerable<string> Lineas, string PackageId)
+         *  que el archivo se pueda leer de a una, y las de otros mods se saltan sin partirlas.
+         *
+         *  Un mod añadido en la subida trae ademas todos sus textos, marcados «a»: son los de su fila
+         *  «Añadido» (DelAnadido), y salen como nuevos. Los c, n y q son los de su fila «Corregido»,
+         *  la de quien ya lo habia visto. */
+        public static List<TextoCambiado> Leer(IEnumerable<string> Lineas, string PackageId, bool DelAnadido = false)
         {
             var Resultado = new List<TextoCambiado>();
             string Prefijo = PackageId + "\t";
@@ -47,11 +51,14 @@ namespace RmlVentana.Logica
                 if (Campos.Length < 5)
                     continue;
 
+                if ((Campos[1] == "a") != DelAnadido)
+                    continue;
+
                 TipoDeTexto Tipo;
                 switch (Campos[1])
                 {
                     case "c": Tipo = TipoDeTexto.Cambiado; break;
-                    case "n": Tipo = TipoDeTexto.Nuevo; break;
+                    case "n": case "a": Tipo = TipoDeTexto.Nuevo; break;
                     case "q": Tipo = TipoDeTexto.Quitado; break;
                     default: continue;
                 }

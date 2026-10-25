@@ -95,7 +95,7 @@ namespace RmlVentana
         {
             string Archivo = Novedad.Archivo ?? System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Cambios.tsv");
             var Textos = System.IO.File.Exists(Archivo)
-                ? CambiosDeMod.Leer(System.IO.File.ReadLines(Archivo), Novedad.PackageId)
+                ? CambiosDeMod.Leer(System.IO.File.ReadLines(Archivo), Novedad.PackageId, DelAnadido: Novedad.Cambio == Cambio.Anadido)
                 : new List<TextoCambiado>();
             Resto = Math.Max(0, Novedad.Cambiados + Novedad.Nuevos + Novedad.Quitados - Textos.Count);
 

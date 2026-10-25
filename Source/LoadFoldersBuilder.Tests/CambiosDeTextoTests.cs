@@ -29,6 +29,14 @@ public class CambiosDeTextoTests
     }
 
     [TestMethod]
+    public void LosTextosDeUnModAnadidoVanConSuPropiaMarca()
+    {
+        var Cambio = new CambiosDeTexto.Cambio(CambiosDeTexto.Tipo.Anadido, "War funds", "", "Fondos secretos", Objeto: "Keyed");
+
+        Assert.AreEqual("autor.mod\ta\tWar funds\t\tFondos secretos\t\tKeyed", CambiosDeTexto.Fila("autor.mod", Cambio));
+    }
+
+    [TestMethod]
     public void CadaCambioDiceDeQueObjetoEs()
     {
         Assert.AreEqual("ThingDef/Gun_LMG", CambiosDeTexto.ObjetoDe("1.6/Languages/SpanishLatin/DefInjected/ThingDef|Gun_LMG.description"));

@@ -135,6 +135,23 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void UnModAnadidoLlevaDetalleConSusTextos()
+        {
+            // Cuarto numero de la septima columna: los textos del mod añadido en esa subida.
+            var Leidas = NovedadesRml.Leer(
+                "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo\tÚltima actualización de RML\tTextos\n" +
+                "Autor.Nuevo\tMod nuevo\t2026-10-22\t2026-10-22\t\ta\t0,0,0,340\n" +
+                "Autor.Viejo\tMod viejo\t2026-09-07\t2026-10-20\tcorregido\tc\t3,1,0\n");
+
+            var Lista = NovedadesRml.Pendientes(Leidas, null, Hoy);
+
+            Assert.AreEqual(Cambio.Anadido, Lista[0].Cambio);
+            Assert.IsTrue(Lista[0].TieneDetalle);
+            Assert.AreEqual(340, Lista[0].Nuevos);
+            Assert.AreEqual(3, Lista[1].Cambiados);
+        }
+
+        [TestMethod]
         public void ElHistorialTraeCadaModUnaVezConSuUltimoCambio()
         {
             var Lista = NovedadesRml.Historial(Entradas);

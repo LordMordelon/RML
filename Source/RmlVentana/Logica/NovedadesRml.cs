@@ -20,6 +20,8 @@ namespace RmlVentana.Logica
         public string EnLaUltima;
         /** Los textos cambiados, nuevos y quitados en esa subida (septima columna). Cero si no hay. */
         public int Cambiados, Nuevos, Quitados;
+        /** Si se añadio en esa subida, cuantos textos tiene (cuarto numero de la septima columna). */
+        public int Anadidos;
     }
 
     public class Novedad
@@ -77,12 +79,14 @@ namespace RmlVentana.Logica
                 };
 
                 string[] Cuenta = Campos.Length >= 7 ? Campos[6].Split(',') : new string[0];
-                if (Cuenta.Length == 3 && int.TryParse(Cuenta[0], out int C) && int.TryParse(Cuenta[1], out int N) && int.TryParse(Cuenta[2], out int Q))
+                if (Cuenta.Length >= 3 && int.TryParse(Cuenta[0], out int C) && int.TryParse(Cuenta[1], out int N) && int.TryParse(Cuenta[2], out int Q))
                 {
                     Entrada.Cambiados = C;
                     Entrada.Nuevos = N;
                     Entrada.Quitados = Q;
                 }
+                if (Cuenta.Length >= 4 && int.TryParse(Cuenta[3], out int A))
+                    Entrada.Anadidos = A;
 
                 Resultado.Add(Entrada);
             }
@@ -127,7 +131,7 @@ namespace RmlVentana.Logica
                 }
 
                 if (AnadidoSinVer)
-                    Resultado.Add(Nueva(Entrada, Cambio.Anadido, Entrada.Anadido));
+                    Resultado.Add(Anadido(Entrada));
                 else if (CambioSinVer)
                 {
                     Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
@@ -187,7 +191,7 @@ namespace RmlVentana.Logica
                 bool Cambiado = (Entrada.Tipo == "actualizado" || Entrada.Tipo == "corregido") && string.CompareOrdinal(Entrada.Ultimo, Entrada.Anadido) > 0;
                 if (!Cambiado)
                 {
-                    Resultado.Add(Nueva(Entrada, Cambio.Anadido, Entrada.Anadido));
+                    Resultado.Add(Anadido(Entrada));
                     continue;
                 }
                 Novedad Novedad = Nueva(Entrada, Entrada.Tipo == "actualizado" ? Cambio.Actualizado : Cambio.Corregido, Entrada.Ultimo);
@@ -222,6 +226,14 @@ namespace RmlVentana.Logica
         private static string ClaveDeAnadido(EntradaDeNovedades Entrada) => "a|" + Entrada.PackageId + "|" + Entrada.Anadido;
 
         private static string ClaveDeCambio(EntradaDeNovedades Entrada) => "c|" + Entrada.PackageId + "|" + Entrada.Ultimo;
+
+        /** La fila «Añadido»: si se añadio en la ultima subida, «Ver cambios» muestra todos sus textos. */
+        private static Novedad Anadido(EntradaDeNovedades Entrada)
+        {
+            Novedad Novedad = Nueva(Entrada, Cambio.Anadido, Entrada.Anadido);
+            Novedad.Nuevos = Entrada.Anadidos;
+            return Novedad;
+        }
 
         private static Novedad Nueva(EntradaDeNovedades Entrada, Cambio Cambio, string Fecha) =>
             new Novedad { PackageId = Entrada.PackageId, Nombre = Entrada.Nombre, Cambio = Cambio, Fecha = Fecha };

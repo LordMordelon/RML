@@ -105,6 +105,17 @@ public static class Novedades
                         FilasDeCambios.AddRange(Cambios.Take(CambiosDeTexto.Tope).Select(x => CambiosDeTexto.Fila(Mod.PackageId, x)));
                     }
                 }
+
+                // Un mod añadido lleva ademas todos sus textos, para «Ver cambios» en su fila «Añadido».
+                if (Marca == "a")
+                {
+                    var Todos = TextosDeLaCarpeta(RootPath, Carpeta);
+                    if (Todos.Count > 0)
+                    {
+                        Cuenta = (Cuenta.Length > 0 ? Cuenta : "0,0,0") + "," + Todos.Count;
+                        FilasDeCambios.AddRange(Todos.Take(CambiosDeTexto.Tope).Select(x => CambiosDeTexto.Fila(Mod.PackageId, x)));
+                    }
+                }
                 Fila += "\t" + Marca + "\t" + Cuenta;
             }
             Filas.Add(Fila);
@@ -198,6 +209,20 @@ public static class Novedades
         }
 
         return new UltimaSubida(Base, Marcas, Archivos);
+    }
+
+    /** Todos los textos traducidos de una carpeta de mod, como añadidos. */
+    private static List<CambiosDeTexto.Cambio> TextosDeLaCarpeta(string RootPath, string Carpeta)
+    {
+        string Raiz = Path.Combine(RootPath, Carpeta);
+        var Ahora = new List<CambiosDeTexto.Texto>();
+        foreach (string Archivo in Directory.EnumerateFiles(Raiz, "*.xml", SearchOption.AllDirectories).OrderBy(x => x, StringComparer.Ordinal))
+        {
+            string Relativa = Path.GetRelativePath(Raiz, Archivo).Replace('\\', '/');
+            if (Relativa.StartsWith("Patches/", StringComparison.Ordinal) || Relativa.Contains("Languages/", StringComparison.Ordinal))
+                Ahora.AddRange(CambiosDeTexto.Leer(Relativa, File.ReadAllText(Archivo)));
+        }
+        return CambiosDeTexto.Comparar([], Ahora).Select(x => x with { Tipo = CambiosDeTexto.Tipo.Anadido }).ToList();
     }
 
     /** El ultimo commit antes de ese dia (yyyy-MM-dd), o null si no hay. */

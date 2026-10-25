@@ -240,6 +240,12 @@ calcula los cambios del día de su último cambio contra el último commit anter
 (`AntesDelDia`, `ArchivosTocados`). La ventana los muestra solo en las filas «Actualizado» y
 «Corregido», así que para un jugador nuevo nada cambia. Salió con RimPacts.
 
+Y la fila «Añadido» también tiene «Ver cambios» (pedido por Angel el 25-oct-2026): todos los textos del
+mod, como nuevos, hasta el tope de 200. Van en `Cambios.tsv` con la marca «a», aparte de los c, n y q de
+su fila «Corregido» (`CambiosDeMod.Leer` con `DelAnadido`), y su cantidad es el cuarto número de la
+séptima columna de `Novedades.tsv` (`EntradaDeNovedades.Anadidos`). Solo los mods añadidos en la última
+subida: los anteriores ya no están en `Cambios.tsv`.
+
 ### Lo mismo al volver a abrirla, y el historial (pedido por Angel el 25-oct-2026)
 
 Si se actualizó un solo mod, al cerrar la ventana y volver a abrirla desde los ajustes tiene que seguir
