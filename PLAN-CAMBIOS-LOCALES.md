@@ -1,7 +1,8 @@
 # Plan: «Ver cambios» contra la versión que había en el PC
 
-**Estado: borrador del 25-oct-2026, falta el «Aprobado» de Angel.** Es la etapa 6 de la ventana
-([PLAN-VENTANA.md](PLAN-VENTANA.md)). No se escribe código hasta la aprobación, que se anota acá.
+**Estado: aprobado por Angel el 25-oct-2026**, con el inglés del comentario `EN:` y la copia solo de
+los mods activos. Es la etapa 6 de la ventana ([PLAN-VENTANA.md](PLAN-VENTANA.md)). Se hace en una
+sesión nueva.
 
 ## Qué se quiere
 
@@ -67,7 +68,7 @@ importar de dónde la bajó ni cómo actualizó.
     recorre al cargar cada archivo.
   - Los saltos de `\n` y las listas (`li`) se guardan igual que en la traducción, y las entidades
     (`&apos;`) ya decodificadas, como en `Cambios.tsv`.
-- **Solo los mods activos** (propuesta, a confirmar por Angel). Guardar todos los mods de RML serían
+- **Solo los mods activos** (Angel, 25-oct-2026). Guardar todos los mods de RML serían
   varios MB en la configuración y más trabajo al iniciar. Con los activos queda chico y rápido. Un mod
   que se activa después empieza a comparar desde ese momento, y mientras tanto usa lo del builder.
 - **Las carpetas son las que el juego cargó** (`ModContentPack.foldersToLoadDescendingOrder` de RML),
