@@ -82,9 +82,22 @@ public static class Novedades
             {
                 string Marca = Subida.Marcas.TryGetValue(Carpeta, out string? M) ? M : "";
                 string Cuenta = "";
-                if (Marca == "c" && Subida.Archivos.TryGetValue(Carpeta, out var Tocados))
+                // Un mod añadido despues de la subida es nuevo entero para quien la recibe, pero quien ya
+                // lo vio (el mantenedor, o quien baja las versiones de GitHub) lo ve «Corregido» si cambio
+                // despues: sus cambios son los del dia de su ultimo cambio, contra como estaba antes.
+                List<Tocado>? Tocados = null;
+                string BaseDeCarpeta = Subida.Base;
+                if (Marca == "c")
+                    Subida.Archivos.TryGetValue(Carpeta, out Tocados);
+                else if (Marca == "a" && Fechas.Count >= 2 && AntesDelDia(RootPath, Ultimo) is { } BaseDelDia)
                 {
-                    var Cambios = TextosCambiados(RootPath, Subida.Base, Tocados);
+                    BaseDeCarpeta = BaseDelDia;
+                    Tocados = ArchivosTocados(RootPath, BaseDelDia, Carpeta);
+                }
+
+                if (Tocados is not null)
+                {
+                    var Cambios = TextosCambiados(RootPath, BaseDeCarpeta, Tocados);
                     if (Cambios.Count > 0)
                     {
                         Cuenta = string.Join(",", Cambios.Count(x => x.Tipo == CambiosDeTexto.Tipo.Cambiado),
@@ -185,6 +198,32 @@ public static class Novedades
         }
 
         return new UltimaSubida(Base, Marcas, Archivos);
+    }
+
+    /** El ultimo commit antes de ese dia (yyyy-MM-dd), o null si no hay. */
+    private static string? AntesDelDia(string RootPath, string Dia) =>
+        UltimosCambios.Git(RootPath, "rev-list", "-1", $"--before={Dia} 00:00:00", "HEAD") is [var Commit] ? Commit : null;
+
+    /** Los archivos de una carpeta de mod que cambiaron desde Base, sin commitear incluido. Sin mirar
+     *  movimientos: es para un mod añadido hace poco, que el Agrupador no movio desde entonces. */
+    private static List<Tocado>? ArchivosTocados(string RootPath, string Base, string Carpeta)
+    {
+        var Cambiados = UltimosCambios.Git(RootPath, "-c", "core.quotepath=off", "diff", "--name-status", "--no-renames", "--relative", Base, "--", Carpeta);
+        var Nuevos = UltimosCambios.Git(RootPath, "-c", "core.quotepath=off", "ls-files", "--others", "--exclude-standard", "--", Carpeta);
+        if (Cambiados is null || Nuevos is null)
+            return null;
+
+        var Lista = new List<Tocado>();
+        foreach (string Linea in Cambiados.Concat(Nuevos.Select(x => "A\t" + x)))
+        {
+            string[] Campos = Linea.Split('\t');
+            string Archivo = Campos[^1];
+            if (!Archivo.StartsWith(Carpeta + "/", StringComparison.Ordinal))
+                continue;
+            bool Agregado = Campos[0] == "A", Borrado = Campos[0] == "D";
+            Lista.Add(new Tocado(Agregado ? null : Archivo, Borrado ? null : Archivo, Archivo[(Carpeta.Length + 1)..]));
+        }
+        return Lista;
     }
 
     /** La carpeta de mod actual de un archivo, por su ruta o por el nombre de la carpeta, y el tramo

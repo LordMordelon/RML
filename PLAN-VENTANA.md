@@ -231,6 +231,15 @@ Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, 
 actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace
 aparecer la ventana sola.
 
+### Un mod añadido que después se corrigió (pedido por Angel el 25-oct-2026)
+
+Un mod añadido después de la última subida es nuevo entero para quien recibe la actualización, y sale
+«Añadido» sin «Ver cambios». Pero quien ya lo vio (Angel probando en su PC, o quien baja las versiones
+de GitHub) lo ve «Corregido» si cambió después, y antes no tenía botón. Ahora `Novedades.Armar` le
+calcula los cambios del día de su último cambio contra el último commit anterior a ese día
+(`AntesDelDia`, `ArchivosTocados`). La ventana los muestra solo en las filas «Actualizado» y
+«Corregido», así que para un jugador nuevo nada cambia. Salió con RimPacts.
+
 ### Lo mismo al volver a abrirla, y el historial (pedido por Angel el 25-oct-2026)
 
 Si se actualizó un solo mod, al cerrar la ventana y volver a abrirla desde los ajustes tiene que seguir
