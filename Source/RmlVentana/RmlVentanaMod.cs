@@ -90,7 +90,7 @@ namespace RmlVentana
                         Texto = "RML_Oficial_OtraVersion".Translate(GitHub.Version ?? "?", OficialJuego.VersionDelJuego);
                         break;
                     case EstadoOficial.HayArreglos:
-                        Texto = "RML_Oficial_HayArreglos".Translate(Fecha);
+                        Texto = "RML_Oficial_HayArreglos".Translate(VentanaTraducciones.FechaLarga(OficialJuego.FechaDeLosArreglos.ToString("yyyy-MM-dd")));
                         Botones.Add(("RML_Oficial_Actualizar".Translate(), OficialJuego.Instalar));
                         break;
                     case EstadoOficial.AlDia:
@@ -120,6 +120,27 @@ namespace RmlVentana
                 Botones.Add(((Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer));
 
             Lista.Label(Texto);
+
+            // Una linea por parte: un DLC copiado de otra instalacion puede estar atrasado aunque el
+            // juego base este al dia.
+            if (!OficialJuego.EstaConsultando && GitHub != null && Estado != EstadoOficial.FaltaReiniciar && Estado != EstadoOficial.OtraVersion)
+            {
+                GUI.color = new Color(0.66f, 0.69f, 0.72f);
+                foreach (ParteOficial Parte in OficialJuego.Partes())
+                {
+                    // La sangria va aca: el juego recorta los espacios del principio de un texto Keyed.
+                    const string Sangria = "    ";
+                    string Nombre = Parte.Carpeta == "Core" ? "RimWorld" : Parte.Carpeta;
+                    if (Parte.Estado == EstadoOficial.HayArreglos)
+                        Lista.Label(Sangria + "RML_Oficial_ParteArreglos".Translate(Nombre, VentanaTraducciones.FechaLarga(Parte.GitHub.Value.ToString("yyyy-MM-dd"))));
+                    else if (Parte.Estado == EstadoOficial.SinUsar)
+                        Lista.Label(Sangria + "RML_Oficial_ParteSinUsar".Translate(Nombre));
+                    else if (Parte.Estado == EstadoOficial.AlDia)
+                        Lista.Label(Sangria + "RML_Oficial_ParteAlDia".Translate(Nombre));
+                }
+                GUI.color = Color.white;
+            }
+
             if (OficialJuego.Error != null)
             {
                 GUI.color = new Color(1f, 0.55f, 0.5f);

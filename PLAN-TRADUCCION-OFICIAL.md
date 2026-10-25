@@ -184,11 +184,35 @@ y `Common/Languages/English/Keyed`, como los demás de la ventana.
 
 ### Etapa 4: prueba en el juego (Angel)
 
-1. Abrir los ajustes de RML: tiene que decir si hay arreglos nuevos.
+1. Abrir los ajustes de RML: tiene que decir si hay arreglos nuevos, con una línea por parte
+   (hoy, RimWorld y Biotech con arreglos y los demás DLC al día).
 2. Apretar «Actualizar» y reiniciar: la ventana se abre sola, con una fila parpadeando por cada
    carpeta que cambió, y su «Ver cambios» muestra el diff. El juego sigue en español latinoamericano.
 3. Apretar «Deshacer», reiniciar y comprobar que vuelve la traducción que traía el juego.
 4. En la carpeta del juego, `Data/Core/Languages/` tiene que quedar como antes de empezar.
+
+## Jugadores sin Steam (25-oct-2026)
+
+El botón no depende de Steam: la carpeta sale de `GenFilePaths.OfficialModsFolderPath`, y se instala
+en cada carpeta de `Data/` que esté, sin mirar cómo llegó ahí. Un juego base solo, o con algunos DLC,
+recibe solo lo suyo; una carpeta sin `.tar` se instala igual (en «Ver cambios», todo como nuevo); un
+1.7 más viejo que el de GitHub también instala, y una clave que no tiene traducción sale en inglés.
+
+**Una revisión por parte** (aprobada por Angel el 25-oct-2026, hecha ese día). Con carpetas de DLC
+venidas de otra instalación, cada una puede tener su traducción de otra fecha, y comparando solo el
+`.tar` de Core un DLC atrasado pasaba como «al día». Ahora:
+
+- La consulta pide, además del último cambio de `master`, el de cada carpeta de `Data/`
+  (`commits?sha=<código>&path=<carpeta>&per_page=1`): 2 consultas más una por carpeta. Una carpeta
+  que falla o que el repositorio no tiene queda afuera; si fallan todas, se compara como antes, con
+  Core contra el último cambio de `master`.
+- Cada parte se compara con su propio `.tar` (`OficialJuego.Partes`), y el estado de todo es el más
+  urgente de las partes (`TraduccionOficial.Combinar`): basta una atrasada para que haya arreglos.
+- Los ajustes muestran una línea por parte: «RimWorld: hay arreglos, del 19 de octubre»,
+  «Royalty: al día». «Actualizar» sigue instalando todas, y en «Novedades» solo salen las que
+  cambiaron.
+- Con los datos reales del 25-oct: RimWorld y Biotech con arreglos del 19-oct; Royalty, Ideology,
+  Anomaly y Odyssey al día (su último cambio es del 16-jul, minutos antes de su `.tar`).
 
 ## Cuidados
 

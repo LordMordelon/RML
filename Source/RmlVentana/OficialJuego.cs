@@ -18,6 +18,17 @@ namespace RmlVentana
         public string Sha;
         public DateTime Fecha;
         public string Version;
+
+        /** El ultimo cambio de cada carpeta del repositorio («Core», «Biotech»…) hasta ese Sha. */
+        public Dictionary<string, DateTime> PorCarpeta = new Dictionary<string, DateTime>();
+    }
+
+    /** Una parte de la traduccion oficial (el juego base o un DLC), comparada con su propio .tar. */
+    public class ParteOficial
+    {
+        public string Carpeta;
+        public EstadoOficial Estado;
+        public DateTime? GitHub;
     }
 
     /** La parte del boton de la traduccion oficial que toca la red y los archivos del juego
@@ -33,10 +44,13 @@ namespace RmlVentana
         private static volatile bool Consultando;
         private static volatile bool Fallo;
 
-        // Lo que se lee del disco, una vez y no en cada cuadro. Se rehace despues de instalar o deshacer.
+        // Lo que se lee del disco, una vez y no en cada cuadro: si cada carpeta de Data/ tiene su .tar y
+        // de cuando es. Se rehace despues de instalar o deshacer.
         private static bool Leido;
-        private static bool TarPresente;
-        private static DateTime? FechaDelJuego;
+        private static Dictionary<string, (bool Presente, DateTime? Fecha)> Tars = new Dictionary<string, (bool, DateTime?)>();
+
+        /** El orden en que salieron: asi se listan en los ajustes. Lo que no esta aca va al final. */
+        private static readonly string[] Orden = { "Core", "Royalty", "Ideology", "Biotech", "Anomaly", "Odyssey" };
 
         /** El error de la ultima instalacion, para mostrarlo en los ajustes. */
         public static string Error;
@@ -66,7 +80,12 @@ namespace RmlVentana
         public static string NombreDe(string Carpeta) =>
             "RML_Oficial_NombreFila".Translate(Carpeta == "Core" ? "RimWorld" : Carpeta);
 
-        public static EstadoOficial Estado()
+        public static EstadoOficial Estado() => TraduccionOficial.Combinar(Partes().Select(x => x.Estado));
+
+        /** Cada parte con su estado. Sin respuesta de GitHub, el juego base y lo instalado, para que
+         *  «quedó sin usar» se vea igual. Si GitHub respondio sin las fechas por carpeta, todo contra la
+         *  fecha del ultimo cambio, en el juego base. */
+        public static List<ParteOficial> Partes()
         {
             if (!Leido)
                 LeerDisco();
@@ -77,32 +96,64 @@ namespace RmlVentana
                     System.Globalization.DateTimeStyles.RoundtripKind, out DateTime Fecha))
                 Instalado = Fecha;
 
-            return TraduccionOficial.EstadoDe(GitHub?.Fecha, FechaDelJuego, Instalado, TarPresente, Ajustes.OficialReiniciar != null,
-                MismaVersion: GitHub == null || GitHub.Version == VersionDelJuego);
+            Dictionary<string, DateTime> PorCarpeta = GitHub == null ? null
+                : GitHub.PorCarpeta.Count > 0 ? GitHub.PorCarpeta
+                : new Dictionary<string, DateTime> { ["Core"] = GitHub.Fecha };
+            IEnumerable<string> Carpetas = PorCarpeta != null
+                ? PorCarpeta.Keys
+                : Tars.Keys.Where(x => x == "Core" || Ajustes.OficialCarpetas.Contains(x));
+
+            return Carpetas.Where(Tars.ContainsKey)
+                .OrderBy(x => Array.IndexOf(Orden, x) < 0 ? Orden.Length : Array.IndexOf(Orden, x)).ThenBy(x => x)
+                .Select(Carpeta =>
+                {
+                    DateTime? EnGitHub = PorCarpeta != null && PorCarpeta.TryGetValue(Carpeta, out DateTime Cuando) ? Cuando : (DateTime?)null;
+                    return new ParteOficial
+                    {
+                        Carpeta = Carpeta,
+                        GitHub = EnGitHub,
+                        Estado = TraduccionOficial.EstadoDe(EnGitHub, Tars[Carpeta].Fecha, Ajustes.OficialCarpetas.Contains(Carpeta) ? Instalado : null,
+                            Tars[Carpeta].Presente, Ajustes.OficialReiniciar != null, MismaVersion: GitHub == null || GitHub.Version == VersionDelJuego),
+                    };
+                })
+                .ToList();
         }
 
-        /** Si GitHub tiene algo mas nuevo que lo que el juego vuelve a cargar con su propio .tar. */
+        /** Si GitHub tiene, en alguna parte, algo mas nuevo que lo que el juego vuelve a cargar con su .tar. */
         public static bool GitHubEsMasNuevoQueElTar =>
-            Respuesta != null && Respuesta.Version == VersionDelJuego && (FechaDelJuego == null || Respuesta.Fecha > FechaDelJuego);
+            Respuesta != null && Respuesta.Version == VersionDelJuego &&
+            Partes().Any(x => x.GitHub != null && (Tars[x.Carpeta].Fecha == null || x.GitHub > Tars[x.Carpeta].Fecha));
+
+        /** La fecha del arreglo mas nuevo entre las partes atrasadas, para «hay arreglos, del…». */
+        public static DateTime FechaDeLosArreglos =>
+            Partes().Where(x => x.Estado == EstadoOficial.HayArreglos && x.GitHub != null).Select(x => x.GitHub.Value)
+                .DefaultIfEmpty(Respuesta?.Fecha ?? DateTime.MinValue).Max();
 
         public static bool HayAlgoInstalado => Ajustes.OficialCarpetas.Count > 0;
 
         private static void LeerDisco()
         {
             Leido = true;
-            TarPresente = File.Exists(Tar("Core"));
-            FechaDelJuego = null;
-            if (!TarPresente)
-                return;
-            try
+            var Nuevos = new Dictionary<string, (bool, DateTime?)>();
+            foreach (string Carpeta in Directory.GetDirectories(GenFilePaths.OfficialModsFolderPath).Select(Path.GetFileName))
             {
-                using (var Archivo = File.OpenRead(Tar("Core")))
-                    FechaDelJuego = LectorTar.FechaMasNueva(Archivo);
+                bool Presente = File.Exists(Tar(Carpeta));
+                DateTime? Fecha = null;
+                if (Presente)
+                {
+                    try
+                    {
+                        using (var Archivo = File.OpenRead(Tar(Carpeta)))
+                            Fecha = LectorTar.FechaMasNueva(Archivo);
+                    }
+                    catch (Exception e)
+                    {
+                        Log.Warning("[Traducciones [Español Latino]] No se pudo leer la fecha de la traducción de " + Carpeta + ": " + e.Message);
+                    }
+                }
+                Nuevos[Carpeta] = (Presente, Fecha);
             }
-            catch (Exception e)
-            {
-                Log.Warning("[Traducciones [Español Latino]] No se pudo leer la fecha de la traducción del juego: " + e.Message);
-            }
+            Tars = Nuevos;
         }
 
         /** En segundo plano: la pantalla sigue mientras tanto y muestra «Consultando GitHub…». */
@@ -112,11 +163,12 @@ namespace RmlVentana
                 return;
             Consultando = true;
             Fallo = false;
+            List<string> Carpetas = Directory.GetDirectories(GenFilePaths.OfficialModsFolderPath).Select(Path.GetFileName).ToList();
             Task.Run(() =>
             {
                 try
                 {
-                    ConsultaOficial Nueva = Red.Consultar();
+                    ConsultaOficial Nueva = Red.Consultar(Carpetas);
                     Respuesta = Nueva ?? Respuesta;
                     Fallo = Nueva == null;
                 }
@@ -359,14 +411,32 @@ namespace RmlVentana
             return Nuevo;
         }
 
-        /** El ultimo cambio de master y la version de su README. Null si GitHub responde algo raro. */
-        public static ConsultaOficial Consultar()
+        /** El ultimo cambio de master, la version de su README y el ultimo cambio de cada carpeta de
+         *  Data/ que el repositorio tenga. Null si GitHub responde algo raro al primero; una carpeta que
+         *  falla solo queda afuera. Son 2 consultas mas una por carpeta, dentro de las 60 por hora. */
+        public static ConsultaOficial Consultar(List<string> Carpetas)
         {
-            string Json = Cliente.GetStringAsync("https://api.github.com/repos/" + TraduccionOficial.Repositorio + "/commits/master").Result;
+            string Api = "https://api.github.com/repos/" + TraduccionOficial.Repositorio + "/commits";
+            string Json = Cliente.GetStringAsync(Api + "/master").Result;
             if (!TraduccionOficial.LeerCommit(Json, out string Sha, out DateTime Fecha))
                 return null;
             string Readme = Cliente.GetStringAsync("https://raw.githubusercontent.com/" + TraduccionOficial.Repositorio + "/" + Sha + "/README.md").Result;
-            return new ConsultaOficial { Sha = Sha, Fecha = Fecha, Version = TraduccionOficial.VersionDelReadme(Readme) };
+            var Consulta = new ConsultaOficial { Sha = Sha, Fecha = Fecha, Version = TraduccionOficial.VersionDelReadme(Readme) };
+
+            foreach (string Carpeta in Carpetas)
+            {
+                try
+                {
+                    string DeLaCarpeta = Cliente.GetStringAsync(Api + "?sha=" + Sha + "&per_page=1&path=" + Uri.EscapeDataString(Carpeta)).Result;
+                    // Una carpeta que el repositorio no tiene responde con una lista vacia.
+                    if (TraduccionOficial.LeerCommit(DeLaCarpeta, out _, out DateTime Cuando))
+                        Consulta.PorCarpeta[Carpeta] = Cuando;
+                }
+                catch (Exception)
+                {
+                }
+            }
+            return Consulta;
         }
 
         /** El zip de ese cambio exacto y no el de master: si alguien sube algo mientras tanto, se instala

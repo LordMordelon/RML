@@ -278,7 +278,7 @@ namespace RmlVentana
             Text.Anchor = TextAnchor.MiddleLeft;
             GUI.color = Verde;
             Widgets.Label(new Rect(Aviso.x + 12f, Aviso.y, Boton.x - Aviso.x - 18f, Aviso.height),
-                "RML_Oficial_AvisoVentana".Translate(FechaLarga(OficialJuego.Consulta.Fecha.ToString("yyyy-MM-dd"))));
+                "RML_Oficial_AvisoVentana".Translate(FechaLarga(OficialJuego.FechaDeLosArreglos.ToString("yyyy-MM-dd"))));
             GUI.color = Color.white;
             Text.Anchor = TextAnchor.UpperLeft;
 

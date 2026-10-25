@@ -31,6 +31,38 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void UnDlcAtrasadoAlcanzaParaQueHayaArreglos()
+        {
+            Assert.AreEqual(EstadoOficial.HayArreglos,
+                TraduccionOficial.Combinar(new[] { EstadoOficial.AlDia, EstadoOficial.HayArreglos, EstadoOficial.AlDia }));
+        }
+
+        [TestMethod]
+        public void ElEstadoDeTodoEsElMasUrgenteDeLasPartes()
+        {
+            Assert.AreEqual(EstadoOficial.SinUsar, TraduccionOficial.Combinar(new[] { EstadoOficial.HayArreglos, EstadoOficial.SinUsar }));
+            Assert.AreEqual(EstadoOficial.AlDia, TraduccionOficial.Combinar(new[] { EstadoOficial.AlDia, EstadoOficial.AlDia }));
+            Assert.AreEqual(EstadoOficial.OtraVersion, TraduccionOficial.Combinar(new[] { EstadoOficial.HayArreglos, EstadoOficial.OtraVersion }));
+        }
+
+        [TestMethod]
+        public void SinPartesNoSeSabe()
+        {
+            Assert.AreEqual(EstadoOficial.SinConsulta, TraduccionOficial.Combinar(new EstadoOficial[0]));
+        }
+
+        [TestMethod]
+        public void LaRespuestaDeUnaCarpetaEsUnaListaConUnCambio()
+        {
+            string Json = "[{\"sha\": \"0123456789abcdef0123456789abcdef01234567\", \"commit\": {" +
+                          "\"committer\": {\"name\": \"GitHub\", \"date\": \"2026-09-02T12:00:00Z\"}}}]";
+
+            Assert.IsTrue(TraduccionOficial.LeerCommit(Json, out _, out DateTime Cuando));
+            Assert.AreEqual(new DateTime(2026, 9, 2, 12, 0, 0, DateTimeKind.Utc), Cuando);
+            Assert.IsFalse(TraduccionOficial.LeerCommit("[]", out _, out _));
+        }
+
+        [TestMethod]
         public void UnXmlConMarcaDeOrdenDeBytesSeLeeIgual()
         {
             var Textos = TraduccionOficial.LeerXml("\uFEFF<?xml version=\"1.0\" encoding=\"UTF-8\"?><LanguageData><a>uno</a></LanguageData>", "Keyed/");

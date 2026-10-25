@@ -89,6 +89,25 @@ namespace RmlVentana.Logica
             return Actual == null || GitHub > Actual ? EstadoOficial.HayArreglos : EstadoOficial.AlDia;
         }
 
+        /** Del mas urgente al menos: lo que pide hacer algo va antes de lo que solo informa. */
+        private static readonly EstadoOficial[] Urgencia =
+        {
+            EstadoOficial.FaltaReiniciar, EstadoOficial.SinUsar, EstadoOficial.SinConsulta,
+            EstadoOficial.OtraVersion, EstadoOficial.HayArreglos, EstadoOficial.AlDia,
+        };
+
+        /** El estado de todo a partir del de cada parte (Core y cada DLC), que se compara con su propio
+         *  .tar: un DLC copiado de otra instalacion puede traer una traduccion mas vieja que la del
+         *  juego base. Basta una parte atrasada para que haya arreglos. */
+        public static EstadoOficial Combinar(IEnumerable<EstadoOficial> Partes)
+        {
+            var Lista = Partes.ToList();
+            foreach (EstadoOficial Estado in Urgencia)
+                if (Lista.Contains(Estado))
+                    return Estado;
+            return EstadoOficial.SinConsulta;
+        }
+
         /** Si mientras tanto Steam puso un .tar nuevo, ese es el bueno y el respaldo viejo sobra. */
         public static Deshacer QueHaceDeshacer(bool TarPresente, bool RespaldoPresente)
         {
