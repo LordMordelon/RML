@@ -27,6 +27,8 @@ namespace RmlVentana
         private const float AltoTitulo = 30f;
 
         private static readonly Color Gris = Hex(0xA9B0B8);
+        /** El ingles, mas apagado que el resto: es la referencia, no lo que cambio (pedido por Angel). */
+        private static readonly Color GrisIngles = Hex(0x7E868E);
         private static readonly Color FondoTitulo = Hex(0x1F252B);
         private static readonly Colores Rojo = new Colores(Hex(0x4A1F21), Hex(0x8C2F33), Hex(0xF2E6E6), Hex(0xE5534B));
         private static readonly Colores Verde = new Colores(Hex(0x233B23), Hex(0x3F6E2F), Hex(0xE8F2E4), Hex(0x57AB5A));
@@ -269,7 +271,7 @@ namespace RmlVentana
             {
                 // El ingles va sin caja: si cambio, lo quitado y lo agregado se resaltan en su lugar.
                 Text.Font = GameFont.Tiny;
-                DibujarTexto(Renglon.x + RellenoTexto, Y, Renglon.xMax - RellenoTexto, Fila.BloqueIngles, Gris);
+                DibujarTexto(Renglon.x + RellenoTexto, Y, Renglon.xMax - RellenoTexto, Fila.BloqueIngles, GrisIngles);
                 Y += Fila.BloqueIngles.Alto + 4f;
             }
 
