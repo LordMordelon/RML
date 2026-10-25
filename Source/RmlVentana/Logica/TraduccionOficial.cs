@@ -196,6 +196,7 @@ namespace RmlVentana.Logica
                         Ingles = Par.Value.Ingles != "" ? Par.Value.Ingles : Anterior.Ingles,
                         Antes = Anterior.Texto,
                         Ahora = Par.Value.Texto,
+                        InglesAntes = Par.Value.Ingles != "" && Anterior.Ingles != "" && Anterior.Ingles != Par.Value.Ingles ? Anterior.Ingles : "",
                     });
             }
 
@@ -211,7 +212,7 @@ namespace RmlVentana.Logica
         public static string Linea(string PackageId, TextoCambiado Texto)
         {
             string Tipo = Texto.Tipo == TipoDeTexto.Cambiado ? "c" : Texto.Tipo == TipoDeTexto.Nuevo ? "n" : "q";
-            return string.Join("\t", PackageId, Tipo, Campo(Texto.Ingles), Campo(Texto.Antes), Campo(Texto.Ahora));
+            return string.Join("\t", PackageId, Tipo, Campo(Texto.Ingles), Campo(Texto.Antes), Campo(Texto.Ahora), Campo(Texto.InglesAntes));
         }
 
         private static string Campo(string Texto) =>

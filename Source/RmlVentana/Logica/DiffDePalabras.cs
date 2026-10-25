@@ -8,6 +8,8 @@ namespace RmlVentana.Logica
     {
         public string Texto;
         public bool Cambiado;
+        /** Solo en la lista de Unir: si lo cambiado es lo que se quito y no lo que se agrego. */
+        public bool Quitado;
     }
 
     /** Que palabras cambiaron entre dos textos, para marcarlas con un color mas fuerte dentro del
@@ -27,15 +29,66 @@ namespace RmlVentana.Logica
          *  marque de corrido y no palabra por palabra. */
         public static void Comparar(string Antes, string Ahora, out List<Trozo> TrozosAntes, out List<Trozo> TrozosAhora)
         {
-            List<string> A = Partir(Antes), B = Partir(Ahora);
             TrozosAntes = new List<Trozo>();
             TrozosAhora = new List<Trozo>();
+            foreach (Trozo Trozo in Recorrer(Antes, Ahora))
+            {
+                if (!Trozo.Cambiado || Trozo.Quitado) TrozosAntes.Add(new Trozo { Texto = Trozo.Texto, Cambiado = Trozo.Cambiado });
+                if (!Trozo.Cambiado || !Trozo.Quitado) TrozosAhora.Add(new Trozo { Texto = Trozo.Texto, Cambiado = Trozo.Cambiado });
+            }
+
+            UnirEspacios(TrozosAntes);
+            UnirEspacios(TrozosAhora);
+        }
+
+        /** Los dos textos en una sola lista, para el ingles, que va en un solo bloque: lo quitado y lo
+         *  agregado en su lugar, cada tramo con lo quitado primero y separado de lo agregado por un
+         *  espacio, como el control de cambios de un procesador de texto. */
+        public static List<Trozo> Unir(string Antes, string Ahora)
+        {
+            var Resultado = new List<Trozo>();
+            var Quitados = new List<Trozo>();
+            var Agregados = new List<Trozo>();
+
+            void Volcar()
+            {
+                Resultado.AddRange(Quitados);
+                if (Quitados.Count > 0 && Agregados.Count > 0
+                    && Quitados[Quitados.Count - 1].Texto.Trim().Length > 0 && Agregados[0].Texto.Trim().Length > 0)
+                    Resultado.Add(new Trozo { Texto = " " });
+                Resultado.AddRange(Agregados);
+                Quitados.Clear();
+                Agregados.Clear();
+            }
+
+            foreach (Trozo Trozo in Recorrer(Antes, Ahora))
+            {
+                if (!Trozo.Cambiado)
+                {
+                    Volcar();
+                    Resultado.Add(Trozo);
+                }
+                else
+                    (Trozo.Quitado ? Quitados : Agregados).Add(Trozo);
+            }
+            Volcar();
+
+            UnirEspacios(Resultado);
+            return Resultado;
+        }
+
+        /** Los trozos de los dos textos en el orden de la comparacion: los comunes una vez, y los de un
+         *  solo lado marcados, con Quitado si son del de antes. */
+        private static List<Trozo> Recorrer(string Antes, string Ahora)
+        {
+            List<string> A = Partir(Antes), B = Partir(Ahora);
+            var Resultado = new List<Trozo>();
 
             if ((long)A.Count * B.Count > MaximoDeCeldas)
             {
-                foreach (string Texto in A) TrozosAntes.Add(new Trozo { Texto = Texto, Cambiado = true });
-                foreach (string Texto in B) TrozosAhora.Add(new Trozo { Texto = Texto, Cambiado = true });
-                return;
+                foreach (string Texto in A) Resultado.Add(new Trozo { Texto = Texto, Cambiado = true, Quitado = true });
+                foreach (string Texto in B) Resultado.Add(new Trozo { Texto = Texto, Cambiado = true });
+                return Resultado;
             }
 
             // Largo de la subsecuencia comun mas larga desde cada par de posiciones.
@@ -49,17 +102,16 @@ namespace RmlVentana.Logica
             {
                 if (x < A.Count && y < B.Count && A[x] == B[y])
                 {
-                    TrozosAntes.Add(new Trozo { Texto = A[x++] });
-                    TrozosAhora.Add(new Trozo { Texto = B[y++] });
+                    Resultado.Add(new Trozo { Texto = A[x++] });
+                    y++;
                 }
                 else if (y >= B.Count || (x < A.Count && Comun[x + 1, y] >= Comun[x, y + 1]))
-                    TrozosAntes.Add(new Trozo { Texto = A[x++], Cambiado = true });
+                    Resultado.Add(new Trozo { Texto = A[x++], Cambiado = true, Quitado = true });
                 else
-                    TrozosAhora.Add(new Trozo { Texto = B[y++], Cambiado = true });
+                    Resultado.Add(new Trozo { Texto = B[y++], Cambiado = true });
             }
 
-            UnirEspacios(TrozosAntes);
-            UnirEspacios(TrozosAhora);
+            return Resultado;
         }
 
         /** El texto sin las etiquetas de formato de RimWorld (<color=…>, <b>, <i>, <size=…>): la ventana
@@ -85,9 +137,14 @@ namespace RmlVentana.Logica
 
         private static void UnirEspacios(List<Trozo> Trozos)
         {
+            // En la lista unida, solo entre dos del mismo lado: entre lo quitado y lo agregado queda sin marcar.
             for (int i = 1; i < Trozos.Count - 1; i++)
-                if (!Trozos[i].Cambiado && Trozos[i - 1].Cambiado && Trozos[i + 1].Cambiado && Trozos[i].Texto.Trim().Length == 0)
+                if (!Trozos[i].Cambiado && Trozos[i - 1].Cambiado && Trozos[i + 1].Cambiado
+                    && Trozos[i - 1].Quitado == Trozos[i + 1].Quitado && Trozos[i].Texto.Trim().Length == 0)
+                {
                     Trozos[i].Cambiado = true;
+                    Trozos[i].Quitado = Trozos[i - 1].Quitado;
+                }
         }
     }
 }

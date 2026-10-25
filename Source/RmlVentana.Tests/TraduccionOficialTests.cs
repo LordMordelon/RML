@@ -142,6 +142,20 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void UnCambioDelInglesLlevaElInglesDeAntesHastaLaLinea()
+        {
+            var Viejo = new Dictionary<string, TextoOficial> { ["a"] = new TextoOficial("Old text", "uno") };
+            var Nuevo = new Dictionary<string, TextoOficial> { ["a"] = new TextoOficial("New text", "dos") };
+
+            var Cambio = TraduccionOficial.Comparar(Viejo, Nuevo).Single();
+            var Leido = CambiosDeMod.Leer(new[] { TraduccionOficial.Linea("ludeon.rimworld", Cambio) }, "ludeon.rimworld").Single();
+
+            Assert.AreEqual("Old text", Cambio.InglesAntes);
+            Assert.AreEqual("New text", Leido.Ingles);
+            Assert.AreEqual("Old text", Leido.InglesAntes);
+        }
+
+        [TestMethod]
         public void LasLineasSeLeenIgualQueLasDeCambiosTsv()
         {
             var Texto = new TextoCambiado { Tipo = TipoDeTexto.Cambiado, Ingles = "Two\nlines", Antes = "dos\trenglones", Ahora = "dos\nrenglones" };

@@ -12,7 +12,11 @@ namespace RmlVentana
      *  las palabras que cambiaron con el mismo color mas fuerte (PLAN-VENTANA.md, etapa 5).
      *
      *  Cambios.tsv se lee recien al abrirla, y solo las lineas de este mod: con la casilla de los
-     *  ajustes apagada no se abre nunca, y abierta no pesa al cargar el juego. */
+     *  ajustes apagada no se abre nunca, y abierta no pesa al cargar el juego.
+     *
+     *  Si de la traduccion solo se agrego o solo se quito, va un solo bloque; y el ingles se resalta
+     *  igual cuando tambien cambio, asi que sin resaltar dice que el cambio fue solo de la traduccion
+     *  (PLAN-VENTANA.md, «Ver cambios» mas claro). */
     public class VentanaCambios : Window
     {
         private const float AnchoFranja = 3f;
@@ -51,17 +55,16 @@ namespace RmlVentana
         /** Un texto del archivo, ya partido en palabras, y como queda acomodado con el ancho actual. */
         private class Fila
         {
-            public string Ingles;
-            public List<Trozo> Antes, Ahora;
-            public Bloque BloqueAntes, BloqueAhora;
-            public float AltoIngles, Alto;
+            public TextoParaVer Texto;
+            public Bloque BloqueIngles, BloqueAntes, BloqueAhora;
+            public float Alto;
         }
 
         /** Los renglones de un texto y los rectangulos de las palabras cambiadas, relativos al texto. */
         private class Bloque
         {
             public readonly List<string> Renglones = new List<string>();
-            public readonly List<Rect> Resaltes = new List<Rect>();
+            public readonly List<(Rect Caja, bool Quitado)> Resaltes = new List<(Rect, bool)>();
             public float Alto;
         }
 
@@ -74,18 +77,7 @@ namespace RmlVentana
             Resto = Math.Max(0, Novedad.Cambiados + Novedad.Nuevos + Novedad.Quitados - Textos.Count);
 
             foreach (TextoCambiado Texto in Textos)
-            {
-                var Fila = new Fila { Ingles = DiffDePalabras.SinEtiquetas(Texto.Ingles) };
-                string Antes = DiffDePalabras.SinEtiquetas(Texto.Antes), Ahora = DiffDePalabras.SinEtiquetas(Texto.Ahora);
-                if (Antes.Length > 0 && Ahora.Length > 0)
-                    DiffDePalabras.Comparar(Antes, Ahora, out Fila.Antes, out Fila.Ahora);
-                else
-                {
-                    Fila.Antes = Antes.Length > 0 ? DiffDePalabras.SinMarcar(Antes) : null;
-                    Fila.Ahora = Ahora.Length > 0 ? DiffDePalabras.SinMarcar(Ahora) : null;
-                }
-                Filas.Add(Fila);
-            }
+                Filas.Add(new Fila { Texto = CambiosDeMod.ParaVer(Texto) });
 
             Titulo = "RML_Cambios_Titulo".Translate(Novedad.Nombre);
             var Partes = new List<string>();
@@ -180,13 +172,12 @@ namespace RmlVentana
             float Ancho = Renglon.width - 2 * RellenoTexto;
             float Y = Renglon.y + RellenoTexto;
 
-            if (Fila.Ingles.Length > 0)
+            if (Fila.BloqueIngles != null)
             {
+                // El ingles va sin caja: si cambio, lo quitado y lo agregado se resaltan en su lugar.
                 Text.Font = GameFont.Tiny;
-                GUI.color = Gris;
-                Widgets.Label(new Rect(Renglon.x + RellenoTexto, Y, Ancho, Fila.AltoIngles), Fila.Ingles);
-                GUI.color = Color.white;
-                Y += Fila.AltoIngles + 4f;
+                DibujarTexto(Renglon.x + RellenoTexto, Y, Renglon.xMax - RellenoTexto, Fila.BloqueIngles, Gris);
+                Y += Fila.BloqueIngles.Alto + 4f;
             }
 
             Text.Font = GameFont.Small;
@@ -216,16 +207,24 @@ namespace RmlVentana
             Text.Anchor = TextAnchor.UpperLeft;
             GUI.color = Color.white;
 
-            foreach (Rect Resalte in Bloque.Resaltes)
-                Widgets.DrawBoxSolid(new Rect(X + Resalte.x, Y + Resalte.y, Resalte.width, Resalte.height), Colores.Resalte);
+            DibujarTexto(X, Y, Caja.xMax, Bloque, Colores.Texto);
+        }
+
+        /** Los renglones de un bloque desde X, Y, con sus resaltes debajo: rojos los quitados y verdes
+         *  los agregados. Va en la fuente con la que se midio. */
+        private static void DibujarTexto(float X, float Y, float Hasta, Bloque Bloque, Color ColorTexto)
+        {
+            foreach (var Resalte in Bloque.Resaltes)
+                Widgets.DrawBoxSolid(new Rect(X + Resalte.Caja.x, Y + Resalte.Caja.y, Resalte.Caja.width, Resalte.Caja.height),
+                    Resalte.Quitado ? Rojo.Resalte : Verde.Resalte);
 
             // Sin ajuste de linea: los renglones ya vienen cortados, y el juego no tiene que volver a
             // cortarlos distinto de como se calcularon los resaltes.
             Text.WordWrap = false;
-            GUI.color = Colores.Texto;
+            GUI.color = ColorTexto;
             float Alto = Text.LineHeight;
             for (int i = 0; i < Bloque.Renglones.Count; i++)
-                Widgets.Label(new Rect(X - MargenIzquierdo(), Y + i * Alto, Caja.xMax - X + MargenIzquierdo(), Alto), Bloque.Renglones[i]);
+                Widgets.Label(new Rect(X - MargenIzquierdo(), Y + i * Alto, Hasta - X + MargenIzquierdo(), Alto), Bloque.Renglones[i]);
             GUI.color = Color.white;
             Text.WordWrap = true;
         }
@@ -243,16 +242,13 @@ namespace RmlVentana
             foreach (Fila Fila in Filas)
             {
                 Fila.Alto = 2 * RellenoTexto;
-                if (Fila.Ingles.Length > 0)
-                {
-                    Text.Font = GameFont.Tiny;
-                    Fila.AltoIngles = Text.CalcHeight(Fila.Ingles, AnchoInterior);
-                    Fila.Alto += Fila.AltoIngles + 4f;
-                }
+                Text.Font = GameFont.Tiny;
+                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : Acomodar(Fila.Texto.Ingles, AnchoInterior);
+                if (Fila.BloqueIngles != null) Fila.Alto += Fila.BloqueIngles.Alto + 4f;
 
                 Text.Font = GameFont.Small;
-                Fila.BloqueAntes = Fila.Antes == null ? null : Acomodar(Fila.Antes, AnchoBloque);
-                Fila.BloqueAhora = Fila.Ahora == null ? null : Acomodar(Fila.Ahora, AnchoBloque);
+                Fila.BloqueAntes = Fila.Texto.Antes == null ? null : ConRelleno(Acomodar(Fila.Texto.Antes, AnchoBloque));
+                Fila.BloqueAhora = Fila.Texto.Ahora == null ? null : ConRelleno(Acomodar(Fila.Texto.Ahora, AnchoBloque));
                 if (Fila.BloqueAntes != null) Fila.Alto += Fila.BloqueAntes.Alto + 2f;
                 if (Fila.BloqueAhora != null) Fila.Alto += Fila.BloqueAhora.Alto;
             }
@@ -280,7 +276,7 @@ namespace RmlVentana
                     float Desde = AnchoDe(Texto.ToString());
                     Texto.Append(Trozo.Texto);
                     if (Trozo.Cambiado)
-                        Bloque.Resaltes.Add(new Rect(Desde, Y, AnchoDe(Texto.ToString()) - Desde, Text.LineHeight));
+                        Bloque.Resaltes.Add((new Rect(Desde, Y, AnchoDe(Texto.ToString()) - Desde, Text.LineHeight), Trozo.Quitado));
                 }
                 Bloque.Renglones.Add(Texto.ToString());
                 Renglon.Clear();
@@ -315,7 +311,14 @@ namespace RmlVentana
             if (Renglon.Count > 0 || Bloque.Renglones.Count == 0)
                 Cerrar();
 
-            Bloque.Alto = Bloque.Renglones.Count * Text.LineHeight + 2 * RellenoBloque;
+            Bloque.Alto = Bloque.Renglones.Count * Text.LineHeight;
+            return Bloque;
+        }
+
+        /** Un bloque de la traduccion, que va en su caja de color con un margen arriba y abajo. */
+        private static Bloque ConRelleno(Bloque Bloque)
+        {
+            Bloque.Alto += 2 * RellenoBloque;
             return Bloque;
         }
 

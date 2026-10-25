@@ -194,7 +194,7 @@ mod real cambiado (por ejemplo, uno de los que la columna marca hoy).
 mirar «Ver cambios» en un mod, por ejemplo The Dead Man's Switch. Y probar que con la casilla apagada el
 botón desaparece.
 
-## «Ver cambios» más claro (aprobado por Angel el 25-oct-2026, sin hacer)
+## «Ver cambios» más claro (aprobado por Angel el 25-oct-2026, hecho el mismo día)
 
 Lo pidió Angel mirando «Ver cambios» de [FSF] Advanced Bionics Expansion: la traducción solo había
 ganado «proporciona una recirculación limitada del aire y», y la ventana mostraba el bloque rojo entero

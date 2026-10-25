@@ -20,7 +20,7 @@ public static class CambiosDeTexto
      *  totales van igual en Novedades.tsv, para el «y N mas». */
     public const int Tope = 200;
 
-    public const string Encabezado = "PackageID\tTipo\tInglés\tAntes\tAhora";
+    public const string Encabezado = "PackageID\tTipo\tInglés\tAntes\tAhora\tInglés antes";
 
     public enum Tipo { Cambiado, Nuevo, Quitado }
 
@@ -28,7 +28,9 @@ public static class CambiosDeTexto
      *  la traduccion («TODO» si no la tiene). */
     public record Texto(string Clave, string Ingles, string Valor);
 
-    public record Cambio(Tipo Tipo, string Ingles, string Antes, string Ahora);
+    /** InglesAntes va solo si el ingles cambio: la ventana lo resalta como a la traduccion, y vacio
+     *  dice que lo que cambio fue solo la traduccion. */
+    public record Cambio(Tipo Tipo, string Ingles, string Antes, string Ahora, string InglesAntes = "");
 
     private static readonly Regex LiDelComentario = new(@"<li>(.*?)</li>", RegexOptions.Singleline | RegexOptions.Compiled);
 
@@ -102,7 +104,8 @@ public static class CambiosDeTexto
                 if (!TeniaTexto)
                     Nuevos.Add(new Cambio(Tipo.Nuevo, Nuevo.Ingles, "", Nuevo.Valor));
                 else if (Viejo!.Valor != Nuevo.Valor)
-                    Cambiados.Add(new Cambio(Tipo.Cambiado, Nuevo.Ingles, Viejo.Valor, Nuevo.Valor));
+                    Cambiados.Add(new Cambio(Tipo.Cambiado, Nuevo.Ingles, Viejo.Valor, Nuevo.Valor,
+                        Viejo.Ingles != Nuevo.Ingles && Viejo.Ingles.Length > 0 && Nuevo.Ingles.Length > 0 ? Viejo.Ingles : ""));
             }
             else if (TeniaTexto)
             {
@@ -122,7 +125,7 @@ public static class CambiosDeTexto
     public static string Fila(string PackageId, Cambio Cambio)
     {
         string Marca = Cambio.Tipo switch { Tipo.Cambiado => "c", Tipo.Nuevo => "n", _ => "q" };
-        return string.Join("\t", PackageId, Marca,Limpio(Cambio.Ingles), Limpio(Cambio.Antes), Limpio(Cambio.Ahora));
+        return string.Join("\t", PackageId, Marca, Limpio(Cambio.Ingles), Limpio(Cambio.Antes), Limpio(Cambio.Ahora), Limpio(Cambio.InglesAntes));
     }
 
     private static string Limpio(string Texto) => Separadores.Replace(Texto, " ").Trim();

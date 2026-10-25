@@ -29,6 +29,19 @@ public class CambiosDeTextoTests
     }
 
     [TestMethod]
+    public void SiElInglesCambioVaTambienElDeAntes()
+    {
+        var Cambios = Comparar(
+            Idioma("  <!-- EN: Filters the air. -->\n  <A>Filtra el aire.</A>\n  <!-- EN: Same -->\n  <B>uno</B>"),
+            Idioma("  <!-- EN: Filters the air and rebreathes. -->\n  <A>Filtra el aire y lo recircula.</A>\n  <!-- EN: Same -->\n  <B>dos</B>"));
+
+        Assert.AreEqual("Filters the air.", Cambios[0].InglesAntes);
+        Assert.AreEqual("", Cambios[1].InglesAntes);
+        Assert.AreEqual("autor.mod\tc\tFilters the air and rebreathes.\tFiltra el aire.\tFiltra el aire y lo recircula.\tFilters the air.",
+            CambiosDeTexto.Fila("autor.mod", Cambios[0]));
+    }
+
+    [TestMethod]
     public void UnTodoQueSeTradujoEsNuevoYUnaTraduccionQueVolvioATodoEsQuitada()
     {
         var Cambios = Comparar(
@@ -163,6 +176,6 @@ public class CambiosDeTextoTests
     {
         var Cambio = new CambiosDeTexto.Cambio(CambiosDeTexto.Tipo.Cambiado, "a\tb", "uno\ndos", "tres\r\ncuatro");
 
-        Assert.AreEqual("Autor.Mod\tc\ta b\tuno dos\ttres cuatro", CambiosDeTexto.Fila("Autor.Mod", Cambio));
+        Assert.AreEqual("Autor.Mod\tc\ta b\tuno dos\ttres cuatro\t", CambiosDeTexto.Fila("Autor.Mod", Cambio));
     }
 }
