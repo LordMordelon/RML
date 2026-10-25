@@ -175,6 +175,15 @@ public class CambiosDeTextoTests
     }
 
     [TestMethod]
+    public void ElInglesDelComentarioSaleConSusSimbolos()
+    {
+        // Toxin Warcasket: «tier&apos;s» salia tal cual en «Ver cambios».
+        var Textos = CambiosDeTexto.Leer(Keyed, Idioma("  <!-- EN: the tier&apos;s &quot;vacuum&quot; &amp; &lt;b&gt;more&lt;/b&gt; -->\n  <A>x</A>"));
+
+        Assert.AreEqual("the tier's \"vacuum\" & <b>more</b>", Textos[0].Ingles);
+    }
+
+    [TestMethod]
     public void UnInglesQueEsTodoSeTomaComoSinIngles()
     {
         // The Dead Man's Switch II trae «TODO» como descripcion en ingles de una de sus criaturas.

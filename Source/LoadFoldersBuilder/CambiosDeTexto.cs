@@ -170,13 +170,14 @@ public static class CambiosDeTexto
             Ingles = "";
 
         var Lista = Elemento.Elements("li").ToList();
+        // Un comentario no decodifica nada: «tier&apos;s» llega asi y se veria asi en la ventana.
         if (Lista.Count == 0)
         {
-            Textos.Add(new Texto(Clave, Ingles, Elemento.Value.Trim()));
+            Textos.Add(new Texto(Clave, System.Net.WebUtility.HtmlDecode(Ingles), Elemento.Value.Trim()));
             return;
         }
 
-        var InglesDeLaLista = LiDelComentario.Matches(Ingles).Select(x => x.Groups[1].Value.Trim()).ToList();
+        var InglesDeLaLista = LiDelComentario.Matches(Ingles).Select(x => System.Net.WebUtility.HtmlDecode(x.Groups[1].Value.Trim())).ToList();
         for (int i = 0; i < Lista.Count; i++)
             Textos.Add(new Texto(Clave + "[" + i + "]", i < InglesDeLaLista.Count ? InglesDeLaLista[i] : "", Lista[i].Value.Trim()));
     }

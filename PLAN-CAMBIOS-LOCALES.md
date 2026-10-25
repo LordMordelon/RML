@@ -19,6 +19,20 @@ a los demás:
 Angel pidió (25-oct-2026) que compare **contra la versión que el jugador tenía en su PC**, sin
 importar de dónde la bajó ni cómo actualizó.
 
+## Hoy y con el plan
+
+| Situación | Hoy | Con el plan |
+|---|---|---|
+| Juega con el Workshop | «Ver cambios» muestra lo que cambió desde la última subida al Workshop, que es lo que tenía | Lo mismo: lo que tenía era la versión del Workshop |
+| Baja RML de GitHub en cada versión | Muestra lo que cambió desde el Workshop, aunque ya lo tuviera de una versión anterior de GitHub | Solo lo que cambió desde la versión que tenía en su PC |
+| Actualiza a mano o prueba en su PC (Angel) | Lo mismo que el Workshop; un mod añadido y corregido después necesita el caso aparte por día | Exactamente lo que cambió desde la última vez que abrió la ventana |
+| Pasan dos subidas sin que juegue | Solo ve lo de la última subida: lo de la anterior ya no está en `Cambios.tsv` | Ve todo lo que cambió desde la última vez, las dos subidas juntas |
+| Recién instala RML | Lo de la última actualización de RML | Lo mismo la primera vez; desde ahí, contra su PC |
+| Un mod que no tiene activo | Sale en «Novedades» con el «Ver cambios» del builder | Igual: sin copia local, usa lo del builder |
+| Un mod añadido | Todos sus textos como nuevos, hasta 200 | Igual |
+| El inglés | Del comentario `EN:` del archivo de RML | Del juego (el texto original que reemplazó la traducción); sin inglés en los `Patches/` |
+| Textos que caben | Hasta 200 por mod (el tope del builder) | Sin tope: se calcula en el PC, solo de los mods que cambiaron |
+
 ## Cómo funcionaría
 
 1. **Una copia de los textos que el jugador tenía.** El juego guarda, en su carpeta de

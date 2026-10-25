@@ -160,7 +160,8 @@ namespace RmlVentana.Logica
                 if (Nodo is XmlComment Comentario)
                 {
                     string Texto = Comentario.Value.Trim();
-                    Ingles = Texto.StartsWith("EN:") ? Texto.Substring(3).Trim() : "";
+                    // Un comentario no decodifica nada: «&apos;» llega asi y se veria asi en la ventana.
+                    Ingles = Texto.StartsWith("EN:") ? System.Net.WebUtility.HtmlDecode(Texto.Substring(3).Trim()) : "";
                     continue;
                 }
 
