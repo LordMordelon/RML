@@ -30,7 +30,7 @@ importar de dónde la bajó ni cómo actualizó.
 | Recién instala RML | Lo de la última actualización de RML | Lo mismo la primera vez; desde ahí, contra su PC |
 | Un mod que no tiene activo | Sale en «Novedades» con el «Ver cambios» del builder | Igual: sin copia local, usa lo del builder |
 | Un mod añadido | Todos sus textos como nuevos, hasta 200 | Igual |
-| El inglés | Del comentario `EN:` del archivo de RML | Del juego (el texto original que reemplazó la traducción); sin inglés en los `Patches/` |
+| El inglés | Del comentario `EN:` del archivo de RML | Igual, del comentario `EN:`, que el builder lleva a `output/` en `Ingles.tsv` |
 | Textos que caben | Hasta 200 por mod (el tope del builder) | Sin tope: se calcula en el PC, solo de los mods que cambiaron |
 
 ## Cómo funcionaría
@@ -53,15 +53,20 @@ importar de dónde la bajó ni cómo actualizó.
 
 ## Decisiones
 
-- **El inglés se muestra** (Angel, 25-oct-2026). La copia que carga el juego (`output/`) no trae los
-  comentarios `<!-- EN: -->`, para pesar menos, pero el juego conoce el original:
-  - `DefInjected`: al inyectar, el juego guarda el texto que reemplazó en
-    `DefInjectionPackage.DefInjection.replacedString`, por ruta (`injections`). Comprobado que el
-    campo existe en el `Assembly-CSharp.dll` de la 1.7 instalada.
-  - `Keyed`: el inglés está en `LanguageDatabase.defaultLanguage.keyedReplacements`.
-  - `Patches/` de RML: el original ya no está a mano (el patch lo reemplazó). Esos textos van sin
-    bloque gris de inglés. Son pocos.
-  - Los saltos de `\n` y las listas (`li`) se guardan igual que en la traducción.
+- **El inglés sale del comentario `EN:` del archivo de traducción, como hoy** (Angel, 25-oct-2026).
+  Se descartó pedírselo al juego (`DefInjectionPackage.DefInjection.replacedString` y
+  `LanguageDatabase.defaultLanguage.keyedReplacements`, que existen en la 1.7): Angel prefiere el
+  mismo origen que ya usa el builder, y así los `Patches/` también tienen su inglés.
+  - La copia que carga el juego (`output/`) no trae los comentarios, para pesar menos. Por eso
+    `CopiaLimpia` escribe además `Ingles.tsv` en la raíz de `output/`: una línea por texto con
+    packageId, clave e inglés, el de `CambiosDeTexto.Leer`. No se commitea, como `Cambios.tsv`.
+  - Medido el 25-oct-2026: el inglés de los comentarios de `Data/` son unos 7 MB sin comprimir,
+    sobre los 15 MB de `output/`. Comprimido para el Workshop o la release, alrededor de 1,5 MB más.
+  - El juego lo lee línea por línea y solo las de los mods que cambiaron, como hoy `Cambios.tsv`.
+  - Se descartó dejar los comentarios dentro de los XML de `output/`: pesa lo mismo y el juego los
+    recorre al cargar cada archivo.
+  - Los saltos de `\n` y las listas (`li`) se guardan igual que en la traducción, y las entidades
+    (`&apos;`) ya decodificadas, como en `Cambios.tsv`.
 - **Solo los mods activos** (propuesta, a confirmar por Angel). Guardar todos los mods de RML serían
   varios MB en la configuración y más trabajo al iniciar. Con los activos queda chico y rápido. Un mod
   que se activa después empieza a comparar desde ese momento, y mientras tanto usa lo del builder.
@@ -83,18 +88,18 @@ importar de dónde la bajó ni cómo actualizó.
 - **Un error al leer no puede romper el juego**: todo en `try`, y un mod que falla se salta, como el
   resto de la DLL.
 - **El tamaño de la copia**: medirlo con los mods activos de Angel antes de cerrar la tarea. Si pasa de
-  unos pocos MB, guardar solo las claves con su texto y no el inglés (el inglés se pide al juego al
-  abrir «Ver cambios»).
+  unos pocos MB, guardar solo las claves con su texto y no el inglés: el inglés de ahora sale de
+  `Ingles.tsv`, y el de antes solo hace falta si cambió.
 - **Rutas largas**: los archivos de la copia van por packageId, no por el nombre de la carpeta.
 
 ## Etapas
 
 | # | Qué | Pruebas |
 |---|---|---|
-| 1 | Pasar `Leer`/`Comparar` a `Logica/` (`TextosDeTraduccion.cs`), con el builder enlazándolo | Las de `CambiosDeTextoTests` siguen en verde, ahora contra `Logica/` |
+| 1 | Pasar `Leer`/`Comparar` a `Logica/` (`TextosDeTraduccion.cs`), con el builder enlazándolo; `CopiaLimpia` escribe `Ingles.tsv` | Las de `CambiosDeTextoTests` siguen en verde, ahora contra `Logica/`; la línea de `Ingles.tsv` y su lectura |
 | 2 | La copia: escribir y leer `RML_Textos/<packageId>.tsv` con su huella (`Logica/CopiaDeTextos.cs`) | Escribir, leer, huella igual y distinta, archivo roto |
 | 3 | El diff local: copia contra textos de ahora → líneas de `Cambios.tsv` | Cambiado, nuevo, quitado, inglés que cambió, mod sin copia |
-| 4 | En el juego: recorrer las carpetas cargadas en segundo plano, pedir el inglés al juego, armar el `Cambios.tsv` local | En el juego: cambiar un texto de un mod activo, reiniciar y verlo en «Ver cambios» |
+| 4 | En el juego: recorrer las carpetas cargadas en segundo plano, tomar el inglés de `Ingles.tsv`, armar el `Cambios.tsv` local | En el juego: cambiar un texto de un mod activo, reiniciar y verlo en «Ver cambios» |
 | 5 | La ventana: usar el local si existe; poner al día la copia al cerrar | Cerrar, reabrir y que ya no salga; el de GitHub y el del Workshop dan lo mismo |
 
 Pruebas primero en `RmlVentana.Tests` para las etapas 2 y 3. Costo estimado: una sesión.
