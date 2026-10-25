@@ -27,8 +27,8 @@ namespace RmlVentana
         private const float AltoTitulo = 30f;
 
         private static readonly Color Gris = Hex(0xA9B0B8);
-        /** El ingles, mas apagado que el resto: es la referencia, no lo que cambio (pedido por Angel). */
-        private static readonly Color GrisIngles = Hex(0x7E868E);
+        /** El bloque del ingles, como los de la traduccion pero en gris (pedido por Angel). */
+        private static readonly Colores GrisBloque = new Colores(Hex(0x2B3035), Hex(0x3D444D), Hex(0xB8C0C8), Hex(0x6E7681));
         private static readonly Color FondoTitulo = Hex(0x1F252B);
         private static readonly Colores Rojo = new Colores(Hex(0x4A1F21), Hex(0x8C2F33), Hex(0xF2E6E6), Hex(0xE5534B));
         private static readonly Colores Verde = new Colores(Hex(0x233B23), Hex(0x3F6E2F), Hex(0xE8F2E4), Hex(0x57AB5A));
@@ -267,12 +267,13 @@ namespace RmlVentana
             float Ancho = Renglon.width - 2 * RellenoTexto;
             float Y = Renglon.y + RellenoTexto;
 
+            // El ingles va en un bloque como los de la traduccion, en gris y con «EN»: si cambio, lo quitado
+            // y lo agregado se resaltan en rojo y verde dentro de el.
+            Text.Font = GameFont.Small;
             if (Fila.BloqueIngles != null)
             {
-                // El ingles va sin caja: si cambio, lo quitado y lo agregado se resaltan en su lugar.
-                Text.Font = GameFont.Tiny;
-                DibujarTexto(Renglon.x + RellenoTexto, Y, Renglon.xMax - RellenoTexto, Fila.BloqueIngles, GrisIngles);
-                Y += Fila.BloqueIngles.Alto + 4f;
+                DibujarBloque(new Rect(Renglon.x + RellenoTexto, Y, Ancho, Fila.BloqueIngles.Alto), "EN", Fila.BloqueIngles, GrisBloque);
+                Y += Fila.BloqueIngles.Alto + 2f;
             }
 
             Text.Font = GameFont.Small;
@@ -297,8 +298,12 @@ namespace RmlVentana
 
             float X = Caja.x + AnchoFranja + AnchoMarca, Y = Caja.y + RellenoBloque;
             GUI.color = Colores.Franja;
-            Text.Anchor = TextAnchor.UpperCenter;
-            Widgets.Label(new Rect(Caja.x + AnchoFranja, Y, AnchoMarca, Text.LineHeight), Signo);
+            // «EN» no entra en la columna del signo con la fuente del texto: va en la chica, centrado en el renglon.
+            Rect Marca = new Rect(Caja.x + AnchoFranja, Y, AnchoMarca, Text.LineHeight);
+            Text.Anchor = Signo.Length > 1 ? TextAnchor.MiddleCenter : TextAnchor.UpperCenter;
+            if (Signo.Length > 1) Text.Font = GameFont.Tiny;
+            Widgets.Label(Marca, Signo);
+            Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.UpperLeft;
             GUI.color = Color.white;
 
@@ -402,15 +407,14 @@ namespace RmlVentana
             {
                 Fila.Alto = 2 * RellenoTexto;
                 Fila.Ancho = 0f;
-                Text.Font = GameFont.Tiny;
-                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : Acomodar(Como(Fila.Texto.Ingles), AnchoInterior);
+                Text.Font = GameFont.Small;
+                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ingles), AnchoBloque));
                 if (Fila.BloqueIngles != null)
                 {
-                    Fila.Alto += Fila.BloqueIngles.Alto + 4f;
-                    Fila.Ancho = Fila.BloqueIngles.Ancho;
+                    Fila.Alto += Fila.BloqueIngles.Alto + 2f;
+                    Fila.Ancho = Fila.BloqueIngles.Ancho + AnchoFranja + AnchoMarca + RellenoBloque;
                 }
 
-                Text.Font = GameFont.Small;
                 Fila.BloqueAntes = Fila.Texto.Antes == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Antes), AnchoBloque));
                 Fila.BloqueAhora = Fila.Texto.Ahora == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ahora), AnchoBloque));
                 foreach (Bloque Bloque in new[] { Fila.BloqueAntes, Fila.BloqueAhora })
