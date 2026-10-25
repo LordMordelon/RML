@@ -133,6 +133,18 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void EnUnaLineaLosSaltosSeVenComoEnElArchivoYConservanSuMarca()
+        {
+            DiffDePalabras.Comparar("Uno.\n\nDos.", "Uno.\nDos.", out var Antes, out _);
+
+            var Linea = DiffDePalabras.EnUnaLinea(Antes);
+
+            Assert.AreEqual("Uno.\\n\\nDos.", string.Concat(Linea.Select(x => x.Texto)));
+            Assert.IsTrue(Linea.Any(x => x.Texto.Contains("\\n") && x.Cambiado));
+            Assert.IsFalse(Linea.Any(x => x.Texto.Contains("\n")));
+        }
+
+        [TestMethod]
         public void SeSacanLasEtiquetasDeFormato()
         {
             Assert.AreEqual("rojo y negrita", DiffDePalabras.SinEtiquetas("<color=#FF0000>rojo</color> y <b>negrita</b>"));

@@ -212,6 +212,11 @@ del mod había agregado «provides limited rebreathing and».
 Pruebas primero en `RmlVentana.Tests` (lectura con y sin la sexta columna, cuándo va un bloque o dos) y
 en `LoadFoldersBuilder.Tests` (la columna nueva en `Cambios.tsv`).
 
+Abajo a la izquierda, «Ajustar líneas (Alt+Z)», como en VS Code (pedido por Angel el 25-oct-2026):
+desactivado, cada texto va en una línea, con los saltos escritos «\n» como en el archivo
+(`DiffDePalabras.EnUnaLinea`), y la lista se desplaza hacia el costado. Se guarda en
+`AjustesRml.CambiosEnUnaLinea`.
+
 Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, muestra lo de la última
 actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace
 aparecer la ventana sola.

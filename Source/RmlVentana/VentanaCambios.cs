@@ -57,7 +57,8 @@ namespace RmlVentana
         {
             public TextoParaVer Texto;
             public Bloque BloqueIngles, BloqueAntes, BloqueAhora;
-            public float Alto;
+            /** Ancho tambien: en una sola linea puede pasar el de la ventana. */
+            public float Alto, Ancho;
         }
 
         /** Los renglones de un texto y los rectangulos de las palabras cambiadas, relativos al texto. */
@@ -65,8 +66,11 @@ namespace RmlVentana
         {
             public readonly List<string> Renglones = new List<string>();
             public readonly List<(Rect Caja, bool Quitado)> Resaltes = new List<(Rect, bool)>();
-            public float Alto;
+            /** El del renglon mas largo. */
+            public float Alto, Ancho;
         }
+
+        private static AjustesRml Ajustes => RmlVentanaMod.Instancia.Ajustes;
 
         public VentanaCambios(Novedad Novedad)
         {
@@ -96,6 +100,13 @@ namespace RmlVentana
         {
             float Y = inRect.y;
 
+            // Alt+Z, como el ajuste de linea de VS Code.
+            if (Event.current.type == EventType.KeyDown && Event.current.alt && Event.current.keyCode == KeyCode.Z)
+            {
+                AlternarAjuste();
+                Event.current.Use();
+            }
+
             Text.Font = GameFont.Medium;
             string TituloCorto = Titulo.Truncate(inRect.width - 40f);
             Widgets.Label(new Rect(inRect.x, Y, inRect.width - 40f, 34f), TituloCorto);
@@ -113,6 +124,14 @@ namespace RmlVentana
             Rect Lista = new Rect(inRect.x, Y, inRect.width, inRect.yMax - 38f - 12f - Y);
             Widgets.DrawMenuSection(Lista);
             DibujarLista(Lista.ContractedBy(1f));
+
+            string Casilla = "RML_Cambios_AjustarLineas".Translate();
+            Rect Ajuste = new Rect(inRect.x, inRect.yMax - 34f, Text.CalcSize(Casilla).x + 40f, 30f);
+            bool Ajustar = !Ajustes.CambiosEnUnaLinea;
+            Widgets.CheckboxLabeled(Ajuste, Casilla, ref Ajustar, placeCheckboxNearText: true);
+            TooltipHandler.TipRegion(Ajuste, "RML_Cambios_AjustarLineasAyuda".Translate());
+            if (Ajustar == Ajustes.CambiosEnUnaLinea)
+                AlternarAjuste();
 
             if (Widgets.ButtonText(new Rect(inRect.xMax - 160f, inRect.yMax - 38f, 160f, 38f), "RML_Ventana_Cerrar".Translate()))
                 Close();
@@ -137,15 +156,21 @@ namespace RmlVentana
             Medir(Ancho);
             float AltoResto = Resto > 0 ? 44f : 0f;
             float Total = AltoResto;
-            foreach (Fila Fila in Filas) Total += Fila.Alto;
+            float AnchoContenido = Ancho;
+            foreach (Fila Fila in Filas)
+            {
+                Total += Fila.Alto;
+                AnchoContenido = Mathf.Max(AnchoContenido, Fila.Ancho);
+            }
 
-            Rect Vista = new Rect(0f, 0f, Ancho, Total);
+            // En una linea, la lista se desplaza tambien hacia el costado, hasta el texto mas largo.
+            Rect Vista = new Rect(0f, 0f, AnchoContenido, Total);
             Widgets.BeginScrollView(Lista, ref Desplazamiento, Vista);
 
             float Y = 0f;
             for (int i = 0; i < Filas.Count; i++)
             {
-                Rect Renglon = new Rect(0f, Y, Ancho, Filas[i].Alto);
+                Rect Renglon = new Rect(0f, Y, AnchoContenido, Filas[i].Alto);
                 Y += Filas[i].Alto;
 
                 // Solo lo que se ve: con 200 textos, dibujarlos todos en cada cuadro se nota.
@@ -229,28 +254,48 @@ namespace RmlVentana
             Text.WordWrap = true;
         }
 
-        /** Los renglones de cada texto con este ancho. */
+        /** Entre ajustar las lineas al ancho y dejar cada texto en una. Queda guardado para la proxima. */
+        private void AlternarAjuste()
+        {
+            Ajustes.CambiosEnUnaLinea = !Ajustes.CambiosEnUnaLinea;
+            RmlVentanaMod.Instancia.WriteSettings();
+            AnchoMedido = -1f;
+            Desplazamiento.x = 0f;
+        }
+
+        /** Los renglones de cada texto con este ancho, o en una sola linea si asi se eligio. */
         private void Medir(float Ancho)
         {
             if (Mathf.Approximately(Ancho, AnchoMedido))
                 return;
 
             AnchoMedido = Ancho;
-            float AnchoInterior = Ancho - 2 * RellenoTexto;
-            float AnchoBloque = AnchoInterior - AnchoFranja - AnchoMarca - RellenoBloque;
+            bool UnaLinea = Ajustes.CambiosEnUnaLinea;
+            float AnchoInterior = UnaLinea ? float.MaxValue : Ancho - 2 * RellenoTexto;
+            float AnchoBloque = UnaLinea ? float.MaxValue : AnchoInterior - AnchoFranja - AnchoMarca - RellenoBloque;
+            List<Trozo> Como(List<Trozo> Trozos) => UnaLinea ? DiffDePalabras.EnUnaLinea(Trozos) : Trozos;
 
             foreach (Fila Fila in Filas)
             {
                 Fila.Alto = 2 * RellenoTexto;
+                Fila.Ancho = 0f;
                 Text.Font = GameFont.Tiny;
-                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : Acomodar(Fila.Texto.Ingles, AnchoInterior);
-                if (Fila.BloqueIngles != null) Fila.Alto += Fila.BloqueIngles.Alto + 4f;
+                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : Acomodar(Como(Fila.Texto.Ingles), AnchoInterior);
+                if (Fila.BloqueIngles != null)
+                {
+                    Fila.Alto += Fila.BloqueIngles.Alto + 4f;
+                    Fila.Ancho = Fila.BloqueIngles.Ancho;
+                }
 
                 Text.Font = GameFont.Small;
-                Fila.BloqueAntes = Fila.Texto.Antes == null ? null : ConRelleno(Acomodar(Fila.Texto.Antes, AnchoBloque));
-                Fila.BloqueAhora = Fila.Texto.Ahora == null ? null : ConRelleno(Acomodar(Fila.Texto.Ahora, AnchoBloque));
+                Fila.BloqueAntes = Fila.Texto.Antes == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Antes), AnchoBloque));
+                Fila.BloqueAhora = Fila.Texto.Ahora == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ahora), AnchoBloque));
+                foreach (Bloque Bloque in new[] { Fila.BloqueAntes, Fila.BloqueAhora })
+                    if (Bloque != null)
+                        Fila.Ancho = Mathf.Max(Fila.Ancho, Bloque.Ancho + AnchoFranja + AnchoMarca + RellenoBloque);
                 if (Fila.BloqueAntes != null) Fila.Alto += Fila.BloqueAntes.Alto + 2f;
                 if (Fila.BloqueAhora != null) Fila.Alto += Fila.BloqueAhora.Alto;
+                Fila.Ancho += 2 * RellenoTexto;
             }
 
             Text.Font = GameFont.Small;
@@ -273,12 +318,14 @@ namespace RmlVentana
                 var Texto = new StringBuilder();
                 foreach (Trozo Trozo in Renglon)
                 {
-                    float Desde = AnchoDe(Texto.ToString());
+                    // Se mide solo alrededor de lo cambiado: en una linea, el renglon es el texto entero.
+                    float Desde = Trozo.Cambiado ? AnchoDe(Texto.ToString()) : 0f;
                     Texto.Append(Trozo.Texto);
                     if (Trozo.Cambiado)
                         Bloque.Resaltes.Add((new Rect(Desde, Y, AnchoDe(Texto.ToString()) - Desde, Text.LineHeight), Trozo.Quitado));
                 }
                 Bloque.Renglones.Add(Texto.ToString());
+                Bloque.Ancho = Mathf.Max(Bloque.Ancho, AnchoDe(Texto.ToString()));
                 Renglon.Clear();
             }
 
@@ -298,7 +345,7 @@ namespace RmlVentana
                 if (Espacio && Renglon.Count == 0)
                     continue;
 
-                if (!Espacio && Renglon.Count > 0 && AnchoDe(Hasta + Trozo.Texto) > Ancho)
+                if (!Espacio && Renglon.Count > 0 && Ancho < float.MaxValue && AnchoDe(Hasta + Trozo.Texto) > Ancho)
                 {
                     Cerrar();
                     Hasta = "";

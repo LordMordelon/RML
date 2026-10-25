@@ -127,6 +127,16 @@ namespace RmlVentana.Logica
             return Resultado;
         }
 
+        /** Los mismos trozos para verlos en una sola linea: cada salto se escribe «\n», como en el archivo
+         *  de traduccion, y conserva su marca. */
+        public static List<Trozo> EnUnaLinea(List<Trozo> Trozos)
+        {
+            var Resultado = new List<Trozo>();
+            foreach (Trozo Trozo in Trozos)
+                Resultado.Add(new Trozo { Texto = Trozo.Texto.Replace("\r", "").Replace("\n", "\\n"), Cambiado = Trozo.Cambiado, Quitado = Trozo.Quitado });
+            return Resultado;
+        }
+
         private static List<string> Partir(string Texto)
         {
             var Resultado = new List<string>();
