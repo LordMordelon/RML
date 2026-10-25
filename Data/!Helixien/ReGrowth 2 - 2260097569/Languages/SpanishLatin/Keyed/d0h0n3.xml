@@ -98,8 +98,8 @@
   <SmartFarming.Icon.Off.Desc>No se sembrará ninguna planta.</SmartFarming.Icon.Off.Desc>
   <!-- EN: Smart -->
   <SmartFarming.Icon.Smart>Siembra: Inteligente</SmartFarming.Icon.Smart>
-  <!-- EN: Sow plants so long as its predicted growth will reach the minimum harvest threshold before it is expected to die from cold or toxin. -->
-  <SmartFarming.Icon.Smart.Desc>Se sembrarán plantas siempre que su crecimiento previsto alcance el umbral mínimo de cosecha antes de que se espere que muera por frío o toxinas.</SmartFarming.Icon.Smart.Desc>
+  <!-- EN: Sow plants as long as their predicted growth will reach the minimum harvest threshold before they are expected to die from cold or toxins. -->
+  <SmartFarming.Icon.Smart.Desc>Se sembrarán plantas siempre que su crecimiento previsto alcance el umbral mínimo de cosecha antes de que se espere que mueran por frío o toxinas.</SmartFarming.Icon.Smart.Desc>
   <!-- EN: Force -->
   <SmartFarming.Icon.Force>Siembra: Forzada</SmartFarming.Icon.Force>
   <!-- EN: Sow plants regardless of grow season status. -->
@@ -169,7 +169,7 @@
   <SmartFarming.Settings.AutoHarvestNow>Cosechar temprano si hay amenaza</SmartFarming.Settings.AutoHarvestNow>
   <!-- EN: If tonight&apos;s weather is going to be deadly cold, designate all plants for an immediate harvest. -->
   <SmartFarming.Settings.AutoHarvestNow.Desc>Si el clima de esta noche va a ser mortalmente frío, designa todas las plantas para una cosecha inmediata.</SmartFarming.Settings.AutoHarvestNow.Desc>
-  <!-- EN: Plants designated for an early harvest due tonight&apos;s forecasted weather. -->
+  <!-- EN: Plants designated for an early harvest due to tonight&apos;s forecast. -->
   <SmartFarming.Message.AutoHarvestNow>Plantas designadas para una cosecha temprana debido al pronóstico del tiempo de esta noche.</SmartFarming.Message.AutoHarvestNow>
   <!-- EN: Alignment gizmo -->
   <SmartFarming.Settings.OrchardAlignment>Gizmo de alineación</SmartFarming.Settings.OrchardAlignment>
@@ -183,7 +183,7 @@
   <SmartFarming.Settings.ProcessedFood.Desc>Cuando las zonas de cultivo dan un rendimiento nutricional potencial estimado, multiplica la nutrición del alimento crudo por este valor. Como referencia, una comida simple multiplica el valor por 1.8, una comida buena por 1.2 y una comida opípara por 1.0.</SmartFarming.Settings.ProcessedFood.Desc>
   <!-- EN: Minimum temperature allowance (Mod default: {0}, Min: {1}, Max: {2}):  -->
   <SmartFarming.Settings.MinTempSlider>Tolerancia de temperatura mínima (Predeterminado: {0}, Mín: {1}, Máx: {2}): </SmartFarming.Settings.MinTempSlider>
-  <!-- EN: When predicting the weather of the earliest harvest day, consider anything below this temperature unacceptable. Plants can potentially die at 0C, but can usually survive if it&apos;s only barely freezing for a few hours. However, random daily temperatre deviation may reduce accuracy. -->
+  <!-- EN: When predicting the weather of the earliest harvest day, consider anything below this temperature unacceptable. Plants can potentially die at 0C, but can usually survive if it&apos;s only barely freezing for a few hours. However, random daily temperature deviation may reduce accuracy. -->
   <SmartFarming.Settings.MinTemp>Al predecir el clima del día de cosecha más temprano, considera inaceptable cualquier temperatura por debajo de esta. Las plantas pueden morir a 0°C, pero generalmente pueden sobrevivir si solo se congela ligeramente durante unas pocas horas. Sin embargo, la desviación aleatoria de la temperatura diaria puede reducir la precisión.</SmartFarming.Settings.MinTemp>
   <!-- EN: Petty jobs margin (Mod default: {0}, Min: {1}, Max: {2}):  -->
   <SmartFarming.Settings.PettyJobsSlider>Margen de trabajos menores (Predeterminado: {0}, Mín: {1}, Máx: {2}): </SmartFarming.Settings.PettyJobsSlider>
@@ -243,7 +243,7 @@
   <ScatteredFlames.Ignite.Scared>Este colono tiene miedo al fuego.</ScatteredFlames.Ignite.Scared>
   <!-- EN: Enable ignite gizmo -->
   <ScatteredFlames.Settings.IgniteGizmo>Habilitar gizmo de prender fuego</ScatteredFlames.Settings.IgniteGizmo>
-  <!-- EN: Adds an &quot;Ignite&quot; gizmo buttons to your colonists, allowing them to manually start fires, similar to how raiders can. -->
+  <!-- EN: Adds an &quot;Ignite&quot; gizmo button to your colonists, allowing them to manually start fires, similar to how raiders can. -->
   <ScatteredFlames.Settings.IgniteGizmo.Desc>Añade un botón de gizmo "Prender fuego" a tus colonos, permitiéndoles iniciar incendios manualmente, de forma similar a como lo hacen los asaltantes.</ScatteredFlames.Settings.IgniteGizmo.Desc>
   <!-- EN: Enable scattered flames -->
   <RG.EnableScatteredFlames>Habilitar llamas dispersas</RG.EnableScatteredFlames>
