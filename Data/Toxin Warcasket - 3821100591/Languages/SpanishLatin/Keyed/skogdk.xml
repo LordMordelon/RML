@@ -42,6 +42,10 @@
   <TXWC_JetRange>Alcance (casillas)</TXWC_JetRange>
   <!-- EN: How far the gas jet reaches. A longer jet spreads the same gas thinner. Default: {0}. -->
   <TXWC_JetRangeDesc>Hasta dónde llega el chorro de gas. Un chorro más largo reparte el mismo gas más disperso. Por defecto: {0}.</TXWC_JetRangeDesc>
+  <!-- EN: Aiming time (seconds) -->
+  <TXWC_JetWarmup>Tiempo de puntería (segundos)</TXWC_JetWarmup>
+  <!-- EN: How long the pilot takes to aim the gas jet before it fires. Default: {0}. -->
+  <TXWC_JetWarmupDesc>Cuánto tarda el piloto en apuntar el chorro de gas antes de que salga. Por defecto: {0}.</TXWC_JetWarmupDesc>
   <!-- EN: A jet: {0} chemfuel for {1} cells of tox gas ({2} tox packs). A full tank holds {3}, the shoulders alone {4}. -->
   <TXWC_JetSummary>Un chorro: {0} de quimbustible para {1} casillas de gas tóxico ({2} packs de tóxicos). Un tanque lleno alcanza para {3}; las hombreras solas, para {4}.</TXWC_JetSummary>
   <!-- EN: Radius (cells) -->
@@ -58,10 +62,30 @@
   <TXWC_AbsorbCooldownDesc>Cuánto tarda en recargarse la absorción. Por defecto: {0}.</TXWC_AbsorbCooldownDesc>
   <!-- EN: One absorb draws from the {0} cells around the pilot. A full cloud over them banks {1} chemfuel. -->
   <TXWC_AbsorbSummary>Una absorción aspira de las {0} casillas alrededor del piloto. Una nube completa sobre ellas guarda {1} de quimbustible.</TXWC_AbsorbSummary>
-  <!-- EN: Hazard warcaskets resist vacuum -->
-  <TXWC_HazardVacuum>Los sarcotrajes de riesgo resisten el vacío</TXWC_HazardVacuum>
-  <!-- EN: Gives the hazard warcasket the vacuum resistance of the spacer warcaskets, setting it further apart from the toxin warcasket. Changing this requires a restart. Default: off. -->
-  <TXWC_HazardVacuumDesc>Le da al sarcotraje de riesgo la resistencia al vacío de los sarcotrajes espaciales, lo que lo diferencia más del sarcotraje de toxina. Cambiarlo requiere reiniciar. Por defecto: desactivado.</TXWC_HazardVacuumDesc>
+  <!-- EN: Toxin warcasket is spacer tier -->
+  <TXWC_SpacerTier>El sarcotraje de toxina es de nivel espacial</TXWC_SpacerTier>
+  <!-- EN: Rebuilds the toxin warcasket at the 10th generation spacer tier, like the siegebreaker. It gains spacer armor and insulation, no speed penalty, toxic and psychic resistance, vacuum resistance{0}, and a shield bubble, but costs spacer components and plasteel and needs the spacer warcaskets research. Veteran raiders can wear it too. Default: off. -->
+  <TXWC_SpacerTierDesc>Reconstruye el sarcotraje de toxina en el nivel espacial de la décima generación, como el de rompesitios. Obtiene armadura y aislamiento de nivel espacial, ninguna penalización de velocidad, resistencia a las toxinas y a los efectos psíquicos, resistencia al vacío{0} y una burbuja de escudo, pero cuesta componentes avanzados y plastiacero, y requiere la investigación de sarcotrajes espaciales. Los asaltantes veteranos también pueden llevarlo. Por defecto: desactivado.</TXWC_SpacerTierDesc>
+  <!-- EN: Specialized spacer-tech warcasket shell with standard protection, fitted with a tox gas tank that vents around the pilot. -->
+  <TXWC_SpacerShortDescription_Armor>Armazón de sarcotraje de tecnología espacial especializado con protección estándar, equipado con un tanque de gas tóxico que se libera alrededor del piloto.</TXWC_SpacerShortDescription_Armor>
+  <!-- EN: Specialized spacer-tech warcasket pauldrons with standard protection, fitted with shoulder-mounted jets that spray tox gas from the shell&apos;s tank. -->
+  <TXWC_SpacerShortDescription_Shoulders>Hombreras de sarcotraje de tecnología espacial especializadas con protección estándar, equipadas con chorros montados en los hombros que rocían gas tóxico desde el tanque del armazón.</TXWC_SpacerShortDescription_Shoulders>
+  <!-- EN: Specialized spacer-tech warcasket helmet with standard protection, sealed behind a respirator that keeps out tox gas and draws it back into the shell&apos;s tank. -->
+  <TXWC_SpacerShortDescription_Helmet>Casco de sarcotraje de tecnología espacial especializado con protección estándar, sellado tras un respirador que impide el paso del gas tóxico y lo devuelve al tanque del armazón.</TXWC_SpacerShortDescription_Helmet>
+  <!-- EN: 10th generation warcaskets were actually adapted from captured pirate rigs, with government military research divisions improving them with advanced power armour designs. Access to a greater amount of high quality resources and the objective of equipping them onto combat veterans that would otherwise be unable to serve meant the program created single-user operated dreadnoughts. The versatility of the armours have been improved, generally reducing restrictions on mixing pieces of different armour series even across generations. -->
+  <TXWC_SpacerLoreGeneration>Los sarcotrajes de décima generación fueron adaptados de plataformas piratas capturadas, con divisiones de investigación militar del gobierno mejorándolos con diseños avanzados de servoarmaduras. El acceso a una mayor cantidad de recursos de alta calidad y el objetivo de equiparlos en veteranos de combate que de otro modo no podrían servir significó que el programa creó acorazados operados por un solo usuario. La versatilidad de las armaduras se ha mejorado, reduciendo generalmente las restricciones sobre la mezcla de piezas de diferentes series de armaduras incluso a través de generaciones.</TXWC_SpacerLoreGeneration>
+  <!-- EN: The Toxin series is built for chemical warfare. A tank in the shell feeds vents around the pilot and gas jets on the pauldrons, and the helmet&apos;s respirator draws gas back into the tank. Together the pieces make the pilot immune to toxins. -->
+  <TXWC_SpacerLoreSeries>La serie de Toxina está hecha para la guerra química. Un tanque en el armazón alimenta purgas alrededor del piloto y chorros de gas en las hombreras, y el respirador del casco devuelve el gas al tanque. Juntas, las piezas hacen al piloto inmune a las toxinas.</TXWC_SpacerLoreSeries>
+  <!-- EN: Toxin warcasket resists vacuum -->
+  <TXWC_ToxinVacuum>El sarcotraje de toxina resiste el vacío</TXWC_ToxinVacuum>
+  <!-- EN: Gives the toxin warcasket the spacer tier&apos;s vacuum resistance, without the rest of the tier. Default: off. -->
+  <TXWC_ToxinVacuumDesc>Le da al sarcotraje de toxina la resistencia al vacío del nivel espacial, sin el resto del nivel. Por defecto: desactivado.</TXWC_ToxinVacuumDesc>
+  <!-- EN:  (included by spacer tier) -->
+  <TXWC_IncludedInSpacerTierSuffix> (incluido en el nivel espacial)</TXWC_IncludedInSpacerTierSuffix>
+  <!-- EN: Hazard warcasket resists vacuum -->
+  <TXWC_HazardVacuum>El sarcotraje de riesgo resiste el vacío</TXWC_HazardVacuum>
+  <!-- EN: Gives the hazard warcasket the spacer tier&apos;s vacuum resistance. Default: off. -->
+  <TXWC_HazardVacuumDesc>Le da al sarcotraje de riesgo la resistencia al vacío del nivel espacial. Por defecto: desactivado.</TXWC_HazardVacuumDesc>
   <!-- EN:  (requires restart) -->
   <TXWC_RequiresRestartSuffix> (requiere reiniciar)</TXWC_RequiresRestartSuffix>
   <!-- EN:  (requires Odyssey) -->
