@@ -194,6 +194,27 @@ mod real cambiado (por ejemplo, uno de los que la columna marca hoy).
 mirar «Ver cambios» en un mod, por ejemplo The Dead Man's Switch. Y probar que con la casilla apagada el
 botón desaparece.
 
+## «Ver cambios» más claro (aprobado por Angel el 25-oct-2026, sin hacer)
+
+Lo pidió Angel mirando «Ver cambios» de [FSF] Advanced Bionics Expansion: la traducción solo había
+ganado «proporciona una recirculación limitada del aire y», y la ventana mostraba el bloque rojo entero
+sin que se hubiera quitado nada. Y el inglés salía sin resaltar, aunque el cambio venía de ahí: el autor
+del mod había agregado «provides limited rebreathing and».
+
+1. **Solo agregado o solo quitado: un bloque.** Si `DiffDePalabras.Comparar` no marca nada en el
+   «antes», se muestra solo el verde con lo agregado resaltado; si no marca nada en el «ahora», solo el
+   rojo con lo quitado resaltado. Si hay de los dos, los dos bloques, como ahora.
+2. **El inglés también con su diff.** `CambiosDeTexto.cs` (builder) ya tiene el inglés viejo
+   (`Viejo.Ingles`) y hoy guarda solo el nuevo. Agregar una sexta columna a `Cambios.tsv` con el inglés
+   de antes; `CambiosDeMod.Leer` la lee si está, para que un `Cambios.tsv` viejo siga sirviendo. En la
+   ventana, si el inglés cambió, se resalta igual que la traducción (palabras agregadas y quitadas); si
+   no cambió, queda como ahora, y eso dice que fue una corrección de la traducción.
+3. **Lo mismo en la traducción oficial** (PLAN-TRADUCCION-OFICIAL.md): `TraduccionOficial.Comparar`
+   tiene el inglés viejo en `Anterior.Ingles`, y `TraduccionOficial.Linea` escribe el mismo formato.
+
+Pruebas primero en `RmlVentana.Tests` (lectura con y sin la sexta columna, cuándo va un bloque o dos) y
+en `LoadFoldersBuilder.Tests` (la columna nueva en `Cambios.tsv`).
+
 ## Cómo se prueba
 
 - Etapa 1: que `LoadFoldersBuilder -rutas` y `-build` sigan en verde y que la copia de `output/` tenga la
