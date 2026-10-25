@@ -292,6 +292,16 @@ después de cada una, está en [ARMAS-DMS.md](ARMAS-DMS.md).
 - **«bala perforante trazadora»** para *APT*.
 - `DMS_Gun_Kord.description` es nuestra: el autor dejó «kord». Si escribe la suya, el `EN:` cambia y se
   reemplaza por la traducción.
+- **El botón de disparo lleva el nombre del arma** (`verbs.<clase>.label`): el juego se lo pone al único
+  verbo sin nombre, y la traducción tiene que ser idéntica a la del arma («escopeta de asalto meca»).
+
+## Cambios del 25-oct-2026
+
+| Inglés | Español | Notas |
+|---|---|---|
+| trashpan | **robot barredor** | Antes «cubo de basura». Plural «robots barredores»; su estación es la «estación de robots barredores» |
+| wreckage chunk | **escombro retorcido** | Antes «trozo de chatarra». «Escombro» como el «escombro de nave» oficial; *scrap* sigue siendo «chatarra» |
+| A noctula has appeared! | **¡Apareció un nóctulo!** | El aviso del camuflaje al quedar a la vista (`detectedMessage`); igual con el jaeger |
 
 ## Automatroides
 
