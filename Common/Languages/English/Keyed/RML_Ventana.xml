@@ -68,4 +68,38 @@
   <RML_Ajustes_VerCambiosAyuda>Adds a "See changes" button to the What's new tab, with the texts before and after. When off, the game never reads the list of changes.</RML_Ajustes_VerCambiosAyuda>
   <RML_Ajustes_Abrir>Open the translations window</RML_Ajustes_Abrir>
 
+  <!-- La traduccion oficial del juego, bajada de GitHub (PLAN-TRADUCCION-OFICIAL.md). -->
+  <RML_Oficial_Titulo>Official game translation</RML_Oficial_Titulo>
+  <RML_Oficial_Explicacion>The game ships the official Latin American Spanish translation as it was at its last update. Fixes the translators make afterwards can be downloaded here, without waiting for the next RimWorld update.</RML_Oficial_Explicacion>
+  <RML_Oficial_Revisar>Check for fixes to the official translation</RML_Oficial_Revisar>
+  <RML_Oficial_RevisarAyuda>At startup, asks GitHub for the date of the last change to the official translation. When off, RML never connects to GitHub unless you press "Check now".</RML_Oficial_RevisarAyuda>
+  <RML_Oficial_Consultando>Checking GitHub…</RML_Oficial_Consultando>
+  <RML_Oficial_Apagada>Checking is turned off.</RML_Oficial_Apagada>
+  <RML_Oficial_RevisarAhora>Check now</RML_Oficial_RevisarAhora>
+  <RML_Oficial_SinRespuesta>Couldn't reach GitHub. Check your internet connection.</RML_Oficial_SinRespuesta>
+  <RML_Oficial_Reintentar>Try again</RML_Oficial_Reintentar>
+  <RML_Oficial_AlDia>The official translation is up to date. Last change on GitHub: {0}.</RML_Oficial_AlDia>
+  <RML_Oficial_HayArreglos>There are new fixes to the official translation, from {0}.</RML_Oficial_HayArreglos>
+  <RML_Oficial_Actualizar>Update</RML_Oficial_Actualizar>
+  <RML_Oficial_OtraVersion>The official translation on GitHub is for version {0} and your game is {1}, so it can't be installed.</RML_Oficial_OtraVersion>
+  <RML_Oficial_SinUsar>The game put its own translation back, for example when it updated, and the one you downloaded is no longer used.</RML_Oficial_SinUsar>
+  <RML_Oficial_ActualizarDeNuevo>Update again</RML_Oficial_ActualizarDeNuevo>
+  <RML_Oficial_Borrar>Delete the one I downloaded</RML_Oficial_Borrar>
+  <RML_Oficial_Deshacer>Undo and go back to the game's</RML_Oficial_Deshacer>
+  <RML_Oficial_Reiniciar>Restart the game to see the new translation.</RML_Oficial_Reiniciar>
+  <RML_Oficial_ReiniciarDeshacer>Restart the game to go back to its own translation.</RML_Oficial_ReiniciarDeshacer>
+  <RML_Oficial_ReiniciarAhora>Restart now</RML_Oficial_ReiniciarAhora>
+  <RML_Oficial_Bajando>Downloading the official translation from GitHub…</RML_Oficial_Bajando>
+  <RML_Oficial_BajandoAvance>Downloading the official translation from GitHub: {0} MB</RML_Oficial_BajandoAvance>
+  <RML_Oficial_Preparando>Comparing texts and installing…</RML_Oficial_Preparando>
+  <RML_Oficial_Listo>Official translation updated. Restart the game to see it.</RML_Oficial_Listo>
+  <RML_Oficial_ErrorPermisos>Can't write to the game folder ({0}). Nothing was changed.</RML_Oficial_ErrorPermisos>
+  <RML_Oficial_ErrorVersion>The official translation on GitHub is for version {0} and your game is {1}. Nothing was changed.</RML_Oficial_ErrorVersion>
+  <RML_Oficial_ErrorNada>The game has none of the official translation's folders. Nothing was changed.</RML_Oficial_ErrorNada>
+  <RML_Oficial_ErrorGeneral>Couldn't finish: {0}. Nothing was changed.</RML_Oficial_ErrorGeneral>
+  <RML_Oficial_ErrorAMedias>It stopped halfway through installing: {0}. Use "Undo" to go back to the game's translation.</RML_Oficial_ErrorAMedias>
+  <RML_Oficial_NombreFila>{0} (official translation)</RML_Oficial_NombreFila>
+  <RML_Oficial_AvisoVentana>There are new fixes to the game's official translation, from {0}.</RML_Oficial_AvisoVentana>
+  <RML_Oficial_IrAAjustes>Go to settings</RML_Oficial_IrAAjustes>
+
 </LanguageData>

@@ -32,6 +32,12 @@ namespace RmlVentana.Logica
 
         /** Si lleva el boton «Ver cambios». */
         public bool TieneDetalle => Cambiados + Nuevos + Quitados > 0;
+
+        /** De la traduccion oficial del juego (TraduccionOficial): la fila parpadea hasta cerrar la ventana. */
+        public bool Oficial;
+
+        /** De donde lee «Ver cambios» sus textos. Null es el Cambios.tsv de RML. */
+        public string Archivo;
     }
 
     /** La pestaña «Novedades»: que cambio en RML desde la ultima vez que se abrio la ventana. */

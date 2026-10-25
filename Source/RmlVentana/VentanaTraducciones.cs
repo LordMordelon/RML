@@ -75,6 +75,12 @@ namespace RmlVentana
                 var Entradas = NovedadesRml.Leer(System.IO.File.Exists(Archivo) ? System.IO.File.ReadAllText(Archivo) : null);
                 var Pendientes = NovedadesRml.Pendientes(Entradas, Ajustes.NovedadesVistas, DateTime.Today);
 
+                // La traduccion oficial va arriba, y recien despues de reiniciar: antes no hizo efecto.
+                if (Ajustes.OficialReiniciar == null)
+                    Pendientes.InsertRange(0, Ajustes.OficialNovedades
+                        .Select(x => NovedadOficial.Leer(x, OficialJuego.NombreDe(NovedadOficial.CarpetaDe(x)), OficialJuego.ArchivoDeCambios))
+                        .Where(x => x != null));
+
                 Novedades = Clasificador.DebeAparecerSola(Ajustes.NoVolverAMostrar,
                     Clasificador.EsEspanolLatino(LanguageDatabase.activeLanguage?.folderName), Ajustes.Vistos, Filas,
                     HayNovedades: Pendientes.Count > 0);
@@ -120,6 +126,8 @@ namespace RmlVentana
             if (Entradas.Count > 0)
                 Ajustes.NovedadesVistas = NovedadesRml.Claves(Entradas);
             Ajustes.UltimaVez = DateTime.Today.ToString("yyyy-MM-dd");
+            if (Pendientes.Any(x => x.Oficial))
+                Ajustes.OficialNovedades = new List<string>();
             RmlVentanaMod.Instancia.WriteSettings();
         }
 
@@ -152,6 +160,11 @@ namespace RmlVentana
             {
                 Buscador.OnGUI(new Rect(Area.x, Y, Area.width, QuickSearchWidget.WidgetHeight));
                 Y += QuickSearchWidget.WidgetHeight + 10f;
+            }
+            else if (OficialJuego.Disponible && OficialJuego.Consulta != null && OficialJuego.Estado() == EstadoOficial.HayArreglos)
+            {
+                DibujarAvisoOficial(new Rect(Area.x, Y, Area.width, 38f));
+                Y += 38f + 10f;
             }
 
             // Pie: la nota, una linea y la fila de la casilla y el boton.
@@ -215,6 +228,8 @@ namespace RmlVentana
 
                 Novedad Novedad = Pendientes[i];
                 if (i % 2 == 1) Widgets.DrawLightHighlight(Renglon);
+                if (Novedad.Oficial)
+                    Widgets.DrawBoxSolid(Renglon, new Color(Verde.r, Verde.g, Verde.b, Parpadeo()));
                 Widgets.DrawHighlightIfMouseover(Renglon);
                 Columnas(Renglon.ContractedBy(12f, 0f), out Rect Mod, out Rect Cambio, out Rect Fecha);
 
@@ -247,6 +262,33 @@ namespace RmlVentana
             Widgets.EndScrollView();
         }
 
+        /** El fondo de una fila de la traduccion oficial sube y baja de brillo, una vez cada ~1,6 s. */
+        private static float Parpadeo() =>
+            0.06f + 0.16f * (0.5f + 0.5f * (float)Math.Sin(DateTime.Now.TimeOfDay.TotalSeconds * 4.0));
+
+        /** «Hay arreglos nuevos de la traducción oficial», con el boton que lleva a los ajustes de RML,
+         *  donde se actualiza. La ventana no se queda abierta debajo. */
+        private void DibujarAvisoOficial(Rect Aviso)
+        {
+            Widgets.DrawBoxSolid(Aviso, FondoEncabezado);
+            string Ir = "RML_Oficial_IrAAjustes".Translate();
+            float AnchoBoton = Text.CalcSize(Ir).x + 24f;
+            Rect Boton = new Rect(Aviso.xMax - AnchoBoton - 6f, Aviso.center.y - 14f, AnchoBoton, 28f);
+
+            Text.Anchor = TextAnchor.MiddleLeft;
+            GUI.color = Verde;
+            Widgets.Label(new Rect(Aviso.x + 12f, Aviso.y, Boton.x - Aviso.x - 18f, Aviso.height),
+                "RML_Oficial_AvisoVentana".Translate(FechaLarga(OficialJuego.Consulta.Fecha.ToString("yyyy-MM-dd"))));
+            GUI.color = Color.white;
+            Text.Anchor = TextAnchor.UpperLeft;
+
+            if (Widgets.ButtonText(Boton, Ir))
+            {
+                Close();
+                Find.WindowStack.Add(new Dialog_ModSettings(RmlVentanaMod.Instancia));
+            }
+        }
+
         private static void AbrirCambios(Novedad Novedad)
         {
             try
@@ -269,7 +311,7 @@ namespace RmlVentana
             }
         }
 
-        private static string FechaLarga(string FechaIso) =>
+        internal static string FechaLarga(string FechaIso) =>
             Solicitudes.FechaCorta(FechaIso, "RML_Ventana_Meses".Translate().ToString().Split(','), "RML_Ventana_FormatoFechaLarga".Translate());
 
         private void DibujarTabla(Rect Tabla)

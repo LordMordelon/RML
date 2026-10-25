@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace RmlVentana.Logica
 {
-    public enum EstadoOficial { SinConsulta, AlDia, HayArreglos, FaltaReiniciar, SinUsar }
+    public enum EstadoOficial { SinConsulta, AlDia, HayArreglos, FaltaReiniciar, SinUsar, OtraVersion }
 
     public enum Deshacer { Nada, DevolverElTar, BorrarElRespaldo }
 
@@ -67,8 +67,10 @@ namespace RmlVentana.Logica
                 : "ludeon.rimworld." + Carpeta.ToLowerInvariant();
 
         /** GitHub es la fecha del ultimo cambio del repositorio; DelJuego, la del empaquetado del .tar
-         *  (sus archivos la traen adentro); Instalado, la del cambio que se bajo con el boton. */
-        public static EstadoOficial EstadoDe(DateTime? GitHub, DateTime? DelJuego, DateTime? Instalado, bool TarPresente, bool FaltaReiniciar)
+         *  (sus archivos la traen adentro); Instalado, la del cambio que se bajo con el boton.
+         *  MismaVersion, si el README de GitHub es de la version principal del juego. */
+        public static EstadoOficial EstadoDe(DateTime? GitHub, DateTime? DelJuego, DateTime? Instalado, bool TarPresente, bool FaltaReiniciar,
+                                             bool MismaVersion = true)
         {
             if (FaltaReiniciar)
                 return EstadoOficial.FaltaReiniciar;
@@ -79,6 +81,9 @@ namespace RmlVentana.Logica
 
             if (GitHub == null)
                 return EstadoOficial.SinConsulta;
+
+            if (!MismaVersion)
+                return EstadoOficial.OtraVersion;
 
             DateTime? Actual = TarPresente ? DelJuego : Instalado;
             return Actual == null || GitHub > Actual ? EstadoOficial.HayArreglos : EstadoOficial.AlDia;
@@ -101,7 +106,8 @@ namespace RmlVentana.Logica
             var Documento = new XmlDocument();
             try
             {
-                Documento.LoadXml(Contenido);
+                // Los archivos oficiales empiezan con la marca de orden de bytes, y LoadXml no la acepta.
+                Documento.LoadXml(Contenido.TrimStart('﻿'));
             }
             catch (XmlException)
             {
@@ -173,5 +179,94 @@ namespace RmlVentana.Logica
 
         private static string Campo(string Texto) =>
             (Texto ?? "").Replace("\r", "").Replace("\t", " ").Replace("\n", "\\n");
+
+        /** El prefijo de las claves de un archivo de la carpeta del idioma, o null si no se compara. Los
+         *  Keyed son claves sueltas, sin importar la subcarpeta; los DefInjected van por tipo de def. */
+        public static string PrefijoDe(string RutaRelativa)
+        {
+            string[] Partes = RutaRelativa.Replace('\\', '/').Split('/');
+            if (Partes.Length < 2 || !Partes[Partes.Length - 1].EndsWith(".xml", StringComparison.OrdinalIgnoreCase))
+                return null;
+            if (Partes[0] == "Keyed")
+                return "Keyed/";
+            if (Partes[0] == "DefInjected" && Partes.Length >= 3)
+                return "DefInjected/" + Partes[1] + "/";
+            return null;
+        }
+
+        /** El codigo y la fecha del ultimo cambio, de la respuesta de api.github.com/repos/…/commits/master.
+         *  Sin un lector de JSON en .NET Framework, va por expresiones: el primer «sha» es el del cambio
+         *  (los de «parents» vienen despues) y la fecha es la del «committer», la de cuando entro a master. */
+        public static bool LeerCommit(string Json, out string Sha, out DateTime Fecha)
+        {
+            Sha = null;
+            Fecha = default;
+            if (Json == null)
+                return false;
+
+            Match Codigo = Regex.Match(Json, "\"sha\"\\s*:\\s*\"([0-9a-f]{40})\"");
+            Match Cuando = Regex.Match(Json, "\"committer\"\\s*:\\s*\\{[^{}]*?\"date\"\\s*:\\s*\"([^\"]+)\"");
+            if (!Codigo.Success || !Cuando.Success ||
+                !DateTime.TryParse(Cuando.Groups[1].Value, System.Globalization.CultureInfo.InvariantCulture,
+                    System.Globalization.DateTimeStyles.AdjustToUniversal | System.Globalization.DateTimeStyles.AssumeUniversal, out Fecha))
+                return false;
+
+            Sha = Codigo.Groups[1].Value;
+            return true;
+        }
+
+        /** La carpeta que envuelve todo el zip de GitHub («RimWorld-SpanishLatin-<codigo>/»), o "" si no hay. */
+        public static string RaizDelZip(IEnumerable<string> Entradas)
+        {
+            string Raiz = null;
+            foreach (string Entrada in Entradas)
+            {
+                int Barra = Entrada.IndexOf('/');
+                string Primera = Barra < 0 ? null : Entrada.Substring(0, Barra + 1);
+                if (Primera == null || (Raiz != null && Raiz != Primera))
+                    return "";
+                Raiz = Primera;
+            }
+            return Raiz ?? "";
+        }
+
+        /** Que una ruta del zip no se salga de la carpeta donde se extrae. */
+        public static bool RutaSegura(string Ruta)
+        {
+            string Normal = Ruta.Replace('\\', '/');
+            return !Normal.StartsWith("/") && !Normal.Contains(":") && !Normal.Split('/').Contains("..");
+        }
+    }
+
+    /** Una fila de la traduccion oficial en «Novedades», guardada en los ajustes entre la instalacion y
+     *  el reinicio: «carpeta|yyyy-MM-dd|cambiados|nuevos|quitados». */
+    public static class NovedadOficial
+    {
+        public static string Linea(string Carpeta, string Fecha, int Cambiados, int Nuevos, int Quitados) =>
+            string.Join("|", Carpeta, Fecha, Cambiados, Nuevos, Quitados);
+
+        public static string CarpetaDe(string Linea) => Linea?.Split('|')[0];
+
+        /** Archivo es el de los textos cambiados, que va en la configuracion y no en la carpeta de RML. */
+        public static Novedad Leer(string Linea, string Nombre, string Archivo)
+        {
+            string[] Campos = Linea?.Split('|');
+            if (Campos == null || Campos.Length < 5 ||
+                !int.TryParse(Campos[2], out int Cambiados) || !int.TryParse(Campos[3], out int Nuevos) || !int.TryParse(Campos[4], out int Quitados))
+                return null;
+
+            return new Novedad
+            {
+                PackageId = TraduccionOficial.PackageIdDe(Campos[0]),
+                Nombre = Nombre,
+                Cambio = Cambio.Actualizado,
+                Fecha = Campos[1],
+                Cambiados = Cambiados,
+                Nuevos = Nuevos,
+                Quitados = Quitados,
+                Oficial = true,
+                Archivo = Archivo,
+            };
+        }
     }
 }

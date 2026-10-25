@@ -49,12 +49,13 @@ Junto al botón, una línea con el estado:
 | Hay arreglos en GitHub más nuevos que lo del juego | «Hay arreglos nuevos de la traducción oficial (del 20-oct)» | Actualizar |
 | Lo instalado ya es lo último | «La traducción oficial está al día» | Deshacer |
 | Steam actualizó el juego y volvió a poner su `.tar` | «El juego trae su propia traducción; la que bajaste quedó sin usar» | Actualizar de nuevo (si GitHub es más nuevo) · Borrar la que bajé |
+| La casilla de revisar está apagada | «La revisión está apagada» | Revisar ahora |
 | El juego no es 1.7 | No aparece la sección | — |
 | Sin internet o GitHub no responde | «No se pudo consultar GitHub» | Reintentar |
 
 La fecha de GitHub sale de su API pública (`api.github.com/repos/Ludeon/RimWorld-SpanishLatin/commits/master`),
-que deja 60 consultas por hora sin clave: se consulta una sola vez por inicio del juego y solo al
-abrir la sección.
+que deja 60 consultas por hora sin clave: se consulta una sola vez por inicio del juego, y nunca
+con la casilla de revisar apagada (ver «Lo que decidió Angel»).
 
 ## En Novedades, con su diff
 
@@ -85,6 +86,15 @@ Pedido de Angel al aprobar: una actualización de la traducción oficial sale en
 2. **Sin castellano.** Ludeon tiene otro repositorio igual para `Spanish (Español(Castellano))`, pero
    RML es para el español latinoamericano.
 3. **El `.tar` se renombra**, no se borra.
+4. **Una casilla para no revisar** (pedida el 25-oct-2026): «Revisar si hay arreglos de la traducción
+   oficial», en los ajustes de RML y encendida por defecto. Apagada:
+   - RML no consulta GitHub al iniciar ni al abrir los ajustes, y no sale la línea de «hay arreglos
+     nuevos» en «Novedades».
+   - La sección muestra «La revisión está apagada» con un botón «Revisar ahora», que consulta una vez
+     sin encender la casilla. Si el jugador quiere actualizar, sigue pudiendo.
+   - Lo ya instalado no se toca: «Deshacer» sigue a mano, y las filas de una actualización hecha
+     antes de reiniciar salen igual, porque esa actualización la pidió el jugador.
+   Se guarda junto a las demás opciones de RML (`AjustesRml`), como la casilla de «Ver cambios».
 
 ## Etapas
 
@@ -121,7 +131,7 @@ Cada una puede cambiar el plan. Si alguna falla, se avisa a Angel antes de segui
    `System.IO.Compression.ZipFile`. Para bajar y abrir el zip no hace falta nada más. Falta
    comprobarlo dentro del juego, en la prueba de la etapa 4.
 3. **El zip** trae `Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly` y `Odyssey`, más `Scripts` y
-   `.github`, que no tienen carpeta en `Data/` y quedan afuera solos. Pesa unos 12 MB.
+   `.github`, que no tienen carpeta en `Data/` y quedan afuera solos. Pesa unos 2 MB.
 4. **La fecha de lo que trae el juego está dentro del `.tar`:** cada archivo lleva la de su
    empaquetado (16-oct-2026, 21:15 en la 1.7.4985). El `.tar` se lee con el `TarDirectory` del
    juego, sin agregar nada.
@@ -144,6 +154,22 @@ La comparación cubre `Keyed` y `DefInjected`. `Strings` (las listas de nombres)
 archivos de texto con miles de renglones, y un diff renglón por renglón no le diría nada útil al jugador.
 Lo que sigue en la lógica, con el juego, es la etapa 2: armar los dos diccionarios (del `.tar` con
 `TarDirectory` y de la carpeta del zip) y guardar las líneas en la carpeta de configuración de RML.
+
+### Etapas 2 y 3: hechas el 25-oct-2026, falta la prueba en el juego
+
+- `Source/RmlVentana/OficialJuego.cs`: la consulta a GitHub (en segundo plano, al iniciar), la
+  instalación (en un evento largo, con la pantalla de carga del juego) y «Deshacer». El zip se baja
+  por el código del cambio y no por `master`, así que se instala justo lo que dice la fecha guardada.
+  Se arma en `RML-temporal`, al lado de `Data/` y en su mismo disco, y se mueve al final.
+- `Logica/LectorTar.cs`: lee el `.tar` del juego con sus fechas, porque .NET Framework no trae
+  lector de tar. Lo prueba también contra el `.tar` real de esta máquina (más de 10.000 textos).
+- Los ajustes guardan lo instalado y las filas de «Novedades»; el diff va a
+  `Config/RML_CambiosOficiales.tsv`, con el formato de `Cambios.tsv`.
+- **Contra los datos reales** (zip de GitHub del 19-oct contra los `.tar` de la 1.7.4985): Core trae
+  2 textos cambiados y 19 nuevos, Biotech 1 cambiado, y los otros DLC ninguno. Los `.tar` de los DLC
+  son del 16-jul: Ludeon no los reempaquetó en esta actualización.
+- Se instalan todas las carpetas, cambien o no: `Strings` no se compara, y una carpeta con cambios
+  solo ahí quedaría afuera.
 
 ### Etapa 2: descarga e instalación
 
@@ -170,6 +196,13 @@ y `Common/Languages/English/Keyed`, como los demás de la ventana.
   apretar el botón. Las traducciones de mods de RML siguen cargando después y no cambian.
 - **Se tocan archivos del juego**, y es lo único de RML que lo hace. Por eso el respaldo, el
   armado en la carpeta temporal y el «Deshacer».
+- **Con los mods normales**, las filas oficiales y las de los mods salen juntas en «Novedades», y la
+  ventana se abre sola por cualquiera de las dos. Solo parpadean las oficiales.
+- **RML gana donde se cruzan.** Cuando un mod cambia un def del juego, RML trae un `DefInjected`
+  para ese def (`IO.PatchesQueElJuegoPisa`, en el extractor), y carga después que la oficial. Un
+  arreglo oficial de esa misma clave sale en «Ver cambios», pero con ese mod activo se ve el de RML.
+- **El extractor no se rompe** en una máquina con el botón usado: `TraduccionOficial.CargarMod` lee
+  el `.tar` y también la carpeta del idioma, así que con el `.tar` renombrado lee la carpeta.
 - **Verificar los archivos del juego en Steam** devuelve el `.tar`. El juego vuelve a usar el suyo,
   y la sección de los ajustes lo dice y ofrece las dos salidas.
 

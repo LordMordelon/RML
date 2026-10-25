@@ -26,17 +26,50 @@ namespace RmlVentana
          *  defecto, tambien para quien ya tenia ajustes guardados. */
         public bool VerCambios = true;
 
+        /** «Revisar si hay arreglos de la traducción oficial» (PLAN-TRADUCCION-OFICIAL.md). Apagada, RML
+         *  no le consulta nada a GitHub salvo con «Revisar ahora». */
+        public bool RevisarOficial = true;
+
+        /** El cambio de GitHub que se instalo con el boton: su codigo y su fecha (UTC, formato «o»).
+         *  Null si no hay nada instalado. */
+        public string OficialSha;
+        public string OficialFecha;
+
+        /** Las carpetas de Data/ donde se instalo («Core», «Biotech»…), para que «Deshacer» toque solo esas. */
+        public List<string> OficialCarpetas = new List<string>();
+
+        /** Las filas de Novedades de la ultima instalacion (NovedadOficial.Linea). Salen despues de
+         *  reiniciar y se borran al cerrar la ventana. */
+        public List<string> OficialNovedades = new List<string>();
+
+        /** «instalar» o «deshacer» mientras falta reiniciar para que haga efecto; null si no. Lo limpia
+         *  AlIniciar en el siguiente inicio del juego. */
+        public string OficialReiniciar;
+
         public override void ExposeData()
         {
             Scribe_Values.Look(ref VerCambios, "verCambios", true);
+            Scribe_Values.Look(ref RevisarOficial, "revisarOficial", true);
+            Scribe_Values.Look(ref OficialSha, "oficialSha");
+            Scribe_Values.Look(ref OficialFecha, "oficialFecha");
+            Scribe_Collections.Look(ref OficialCarpetas, "oficialCarpetas", LookMode.Value);
+            Scribe_Collections.Look(ref OficialNovedades, "oficialNovedades", LookMode.Value);
+            Scribe_Values.Look(ref OficialReiniciar, "oficialReiniciar");
             Scribe_Values.Look(ref NoVolverAMostrar, "noVolverAMostrar");
             Scribe_Collections.Look(ref Vistos, "vistos", LookMode.Value);
             Scribe_Collections.Look(ref NovedadesVistas, "novedadesVistas", LookMode.Value);
             Scribe_Values.Look(ref UltimaVez, "ultimaVez");
             Scribe_Collections.Look(ref Solicitudes, "solicitudes", LookMode.Value, LookMode.Value);
 
-            if (Scribe.mode == LoadSaveMode.PostLoadInit && Solicitudes == null)
-                Solicitudes = new Dictionary<string, string>();
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                if (Solicitudes == null)
+                    Solicitudes = new Dictionary<string, string>();
+                if (OficialCarpetas == null)
+                    OficialCarpetas = new List<string>();
+                if (OficialNovedades == null)
+                    OficialNovedades = new List<string>();
+            }
         }
     }
 }

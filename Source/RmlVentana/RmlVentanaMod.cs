@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using RmlVentana.Logica;
 using UnityEngine;
 using Verse;
 
@@ -40,7 +42,94 @@ namespace RmlVentana
                 VentanaTraducciones.Crear(out _) is VentanaTraducciones Ventana)
                 Find.WindowStack.Add(Ventana);
 
+            if (OficialJuego.Disponible)
+                DibujarOficial(Lista);
+
             Lista.End();
+        }
+
+        /** La seccion de la traduccion oficial (PLAN-TRADUCCION-OFICIAL.md): la casilla, una linea con
+         *  el estado y los botones que corresponden a ese estado. */
+        private void DibujarOficial(Listing_Standard Lista)
+        {
+            Lista.GapLine();
+            Text.Font = GameFont.Medium;
+            Lista.Label("RML_Oficial_Titulo".Translate());
+            Text.Font = GameFont.Small;
+            GUI.color = new Color(0.66f, 0.69f, 0.72f);
+            Lista.Label("RML_Oficial_Explicacion".Translate());
+            GUI.color = Color.white;
+            Lista.Gap(6f);
+
+            bool Antes = Ajustes.RevisarOficial;
+            Lista.CheckboxLabeled("RML_Oficial_Revisar".Translate(), ref Ajustes.RevisarOficial, "RML_Oficial_RevisarAyuda".Translate());
+            if (Ajustes.RevisarOficial && !Antes)
+                OficialJuego.Consultar();
+
+            EstadoOficial Estado = OficialJuego.Estado();
+            ConsultaOficial GitHub = OficialJuego.Consulta;
+            string Fecha = GitHub == null ? "" : VentanaTraducciones.FechaLarga(GitHub.Fecha.ToString("yyyy-MM-dd"));
+            string Texto;
+            var Botones = new List<(string Texto, Action Accion)>();
+
+            if (OficialJuego.EstaConsultando)
+                Texto = "RML_Oficial_Consultando".Translate();
+            else
+                switch (Estado)
+                {
+                    case EstadoOficial.FaltaReiniciar:
+                        Texto = (Ajustes.OficialReiniciar == "deshacer" ? "RML_Oficial_ReiniciarDeshacer" : "RML_Oficial_Reiniciar").Translate();
+                        Botones.Add(("RML_Oficial_ReiniciarAhora".Translate(), GenCommandLine.Restart));
+                        break;
+                    case EstadoOficial.SinUsar:
+                        Texto = "RML_Oficial_SinUsar".Translate();
+                        if (OficialJuego.GitHubEsMasNuevoQueElTar)
+                            Botones.Add(("RML_Oficial_ActualizarDeNuevo".Translate(), OficialJuego.Instalar));
+                        break;
+                    case EstadoOficial.OtraVersion:
+                        Texto = "RML_Oficial_OtraVersion".Translate(GitHub.Version ?? "?", OficialJuego.VersionDelJuego);
+                        break;
+                    case EstadoOficial.HayArreglos:
+                        Texto = "RML_Oficial_HayArreglos".Translate(Fecha);
+                        Botones.Add(("RML_Oficial_Actualizar".Translate(), OficialJuego.Instalar));
+                        break;
+                    case EstadoOficial.AlDia:
+                        Texto = "RML_Oficial_AlDia".Translate(Fecha);
+                        break;
+                    default:
+                        if (OficialJuego.FalloLaConsulta)
+                        {
+                            Texto = "RML_Oficial_SinRespuesta".Translate();
+                            Botones.Add(("RML_Oficial_Reintentar".Translate(), OficialJuego.Consultar));
+                        }
+                        else if (!Ajustes.RevisarOficial)
+                        {
+                            Texto = "RML_Oficial_Apagada".Translate();
+                            Botones.Add(("RML_Oficial_RevisarAhora".Translate(), OficialJuego.Consultar));
+                        }
+                        else
+                        {
+                            // Con la casilla encendida la consulta sale al iniciar; esto es por si no salio.
+                            OficialJuego.Consultar();
+                            Texto = "RML_Oficial_Consultando".Translate();
+                        }
+                        break;
+                }
+
+            if (OficialJuego.HayAlgoInstalado)
+                Botones.Add(((Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer));
+
+            Lista.Label(Texto);
+            if (OficialJuego.Error != null)
+            {
+                GUI.color = new Color(1f, 0.55f, 0.5f);
+                Lista.Label(OficialJuego.Error);
+                GUI.color = Color.white;
+            }
+            Lista.Gap(6f);
+            foreach (var Boton in Botones)
+                if (Lista.ButtonText(Boton.Texto, widthPct: 0.4f))
+                    Boton.Accion();
         }
     }
 
@@ -58,7 +147,30 @@ namespace RmlVentana
 
         static AlIniciar()
         {
+            PrepararOficial();
             Encolar(Intentos);
+        }
+
+        /** Antes de armar la ventana: si se instalo o se deshizo la traduccion oficial, este inicio es el
+         *  reinicio que faltaba, y sus filas ya pueden salir en Novedades. Y la consulta a GitHub sale
+         *  ahora, para que la respuesta este cuando se abran los ajustes. */
+        private static void PrepararOficial()
+        {
+            try
+            {
+                AjustesRml Ajustes = RmlVentanaMod.Instancia.Ajustes;
+                if (Ajustes.OficialReiniciar != null)
+                {
+                    Ajustes.OficialReiniciar = null;
+                    RmlVentanaMod.Instancia.WriteSettings();
+                }
+                if (OficialJuego.Disponible && Ajustes.RevisarOficial)
+                    OficialJuego.Consultar();
+            }
+            catch (Exception e)
+            {
+                Log.Warning("[Traducciones [Español Latino]] No se pudo revisar la traducción oficial: " + e.Message);
+            }
         }
 
         private static void Encolar(int Quedan)

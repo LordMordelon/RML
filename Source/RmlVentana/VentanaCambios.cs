@@ -67,7 +67,7 @@ namespace RmlVentana
 
         public VentanaCambios(Novedad Novedad)
         {
-            string Archivo = System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Cambios.tsv");
+            string Archivo = Novedad.Archivo ?? System.IO.Path.Combine(RmlVentanaMod.Instancia.Content.RootDir, "Cambios.tsv");
             var Textos = System.IO.File.Exists(Archivo)
                 ? CambiosDeMod.Leer(System.IO.File.ReadLines(Archivo), Novedad.PackageId)
                 : new List<TextoCambiado>();

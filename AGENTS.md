@@ -53,7 +53,8 @@ RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6): la ventana de mods
-                                traducidos y sus ajustes (PLAN-VENTANA.md). Logica/ no usa tipos del juego
+                                traducidos y sus ajustes (PLAN-VENTANA.md), y el botón que baja la traducción oficial
+                                de GitHub (PLAN-TRADUCCION-OFICIAL.md; solo en 1.7, toca Data/ del juego). Logica/ no usa tipos del juego
 Source/RmlVentana.Tests/        las pruebas de Logica/, sin el juego (dotnet test; la CI las corre en loadfolders.yml)
 Source/LoadFoldersBuilder.Tests/ las del builder que no necesitan git ni Steam: hoy, la comparación de Cambios.tsv
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),

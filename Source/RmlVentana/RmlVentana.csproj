@@ -27,4 +27,12 @@
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
     </ItemGroup>
 
+    <ItemGroup>
+        <!-- Para bajar la traduccion oficial (OficialJuego.cs). Son de .NET y no se copian: el juego 1.7
+             trae los suyos, y la 1.6 no llega a usarlos. -->
+        <Reference Include="System.Net.Http" Private="false" />
+        <Reference Include="System.IO.Compression" Private="false" />
+        <Reference Include="System.IO.Compression.FileSystem" Private="false" />
+    </ItemGroup>
+
 </Project>
