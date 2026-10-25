@@ -218,7 +218,7 @@ de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra co
 
 | Inglés | Español | Notas |
 |---|---|---|
-| visual sensor | **sensor de visión** | Oficial. El ojo protésico `DMS_ProstheticEye` y la parte del cubo de basura |
+| visual sensor | **sensor de visión** | Oficial. El ojo protésico `DMS_ProstheticEye` y la parte del robot barredor |
 | crew member | **miembro de tripulación** | Oficial (Odyssey) |
 | rimworld / midworld / coreworld | **mundoborde** / **mundomedio** / **mundonúcleo** | Oficial, en una palabra (pl. «mundobordes»). Decía «mundo del borde», «mundo medio» y «Coreworld» sin traducir; lo encontró Angel en el juego |
 | Call aerodrone strike / salvo | **Solicitar ataque aéreo** / **Solicitar ataque aéreo múltiple** | Oficial. Los permisos `DMS_CallOrbitalStrike` y `DMS_CallOrbitalSalvo` |
