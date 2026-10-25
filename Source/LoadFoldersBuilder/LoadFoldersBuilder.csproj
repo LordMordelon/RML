@@ -22,6 +22,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <!-- El lector de textos de traduccion es el mismo que usa el juego para «Ver cambios»
+           (PLAN-CAMBIOS-LOCALES.md): asi la clave de un texto es igual en los dos lados. -->
+      <Compile Include="../RmlVentana/Logica/TextosDeTraduccion.cs" Link="Logica/TextosDeTraduccion.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
       <None Remove="icon.ico" />
     </ItemGroup>
 

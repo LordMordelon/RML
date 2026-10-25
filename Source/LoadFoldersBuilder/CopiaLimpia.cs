@@ -1,6 +1,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
+using RmlVentana.Logica;
 
 namespace LoadFoldersBuilder;
 
@@ -8,7 +9,7 @@ namespace LoadFoldersBuilder;
  *  enlaza a esa carpeta— y lo que se sube al Workshop.
  *
  *  Lleva solo lo que RimWorld lee: About, Data, Ajustes, Common (con la DLL), LoadFolders.xml, ModList.tsv y LICENSE,
- *  mas los archivos de la ventana del juego (Novedades.tsv, Cambios.tsv, SinTexto.tsv).
+ *  mas los archivos de la ventana del juego (Novedades.tsv, Cambios.tsv, Ingles.tsv, SinTexto.tsv).
  *  De Data y Ajustes quedan afuera los UNUSED.xml, los LoadFolders.Build.yaml y los .md, que el juego no usa, y a los XML
  *  se les sacan los comentarios: el <!-- EN: ... --> con el original en ingles sirve para
  *  traducir y revisar en el repo, pero al jugador no le hace nada y era un tercio del peso.
@@ -98,10 +99,14 @@ public static class CopiaLimpia
             {
                 Poner(Novedades.Archivo, new System.Text.UTF8Encoding(false).GetBytes(DeNovedades.Novedades));
                 if (DeNovedades.Cambios is not null)
-                    Poner(CambiosDeTexto.Archivo, new System.Text.UTF8Encoding(false).GetBytes(DeNovedades.Cambios));
+                    Poner(TextosDeTraduccion.ArchivoDeCambios, new System.Text.UTF8Encoding(false).GetBytes(DeNovedades.Cambios));
             }
             else
                 Console.WriteLine("\e[93mNo se pudo armar {0}: la ventana del juego queda sin novedades.\x1b[0m", Novedades.Archivo);
+
+            // El ingles de cada texto, que la copia ya no trae en los comentarios: con el, el juego
+            // arma «Ver cambios» contra lo que el jugador tenia en su PC (PLAN-CAMBIOS-LOCALES.md).
+            Poner(TextosDeTraduccion.ArchivoDeIngles, new System.Text.UTF8Encoding(false).GetBytes(Ingles(RootPath)));
 
             // Los mods pedidos que no tienen texto, para que la ventana no ofrezca pedirlos de nuevo.
             // Sale de la rama «solicitudes» (ver Solicitudes.cs); sin ella, no va.
@@ -185,6 +190,35 @@ public static class CopiaLimpia
             Console.WriteLine("\e[93mNo se pudo armar la copia en {0} ({1}).\x1b[0m", Carpeta, e.Message);
             return false;
         }
+    }
+
+    /** Ingles.tsv: el ingles del comentario EN de cada texto de cada carpeta de mod de Data/ (las que
+     *  tienen su yaml), con el formato de TextosDeTraduccion.LineasDeIngles. Las de Ajustes/ no van: la
+     *  ventana no las muestra. */
+    private static string Ingles(string RootPath)
+    {
+        var Lineas = new StringBuilder();
+        string Data = Path.Combine(RootPath, "Data");
+        var Carpetas = Directory.EnumerateFiles(Data, Statics.BuildYamlFileName, SearchOption.AllDirectories)
+            .Select(Yaml => Path.GetDirectoryName(Yaml)!)
+            .OrderBy(x => x, StringComparer.Ordinal);
+
+        foreach (string Raiz in Carpetas)
+        {
+            // En el orden en que los lee el juego (CambiosEnElPc): por la ruta dentro de la carpeta, con /.
+            var Textos = Directory.EnumerateFiles(Raiz, "*.xml", SearchOption.AllDirectories)
+                .Select(Archivo => (Archivo, Relativa: Path.GetRelativePath(Raiz, Archivo).Replace('\\', '/')))
+                .Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa))
+                .OrderBy(x => x.Relativa, StringComparer.Ordinal)
+                .SelectMany(x => TextosDeTraduccion.Leer(x.Relativa, File.ReadAllText(x.Archivo)))
+                .ToList();
+            if (Textos.Count == 0)
+                continue;
+            foreach (string Linea in TextosDeTraduccion.LineasDeIngles(Path.GetRelativePath(RootPath, Raiz).Replace('\\', '/'), Textos))
+                Lineas.Append(Linea).Append('\n');
+        }
+
+        return Lineas.ToString();
     }
 
     /** El mismo XML sin comentarios, con la misma codificacion y BOM. Null si el resultado no

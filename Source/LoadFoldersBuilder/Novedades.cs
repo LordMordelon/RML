@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using RmlVentana.Logica;
 
 namespace LoadFoldersBuilder;
 
@@ -21,11 +22,16 @@ namespace LoadFoldersBuilder;
  *  no va, y el juego muestra los ultimos 30 dias.
  *
  *  La septima, de los marcados «c», cuenta los textos cambiados, nuevos y quitados desde esa misma
- *  subida («3,12,1»), y el detalle va en Cambios.tsv (CambiosDeTexto.cs): es el boton «Ver cambios».
+ *  subida («3,12,1»), y el detalle va en Cambios.tsv (Logica/TextosDeTraduccion.cs de RmlVentana):
+ *  es el boton «Ver cambios».
  */
 public static class Novedades
 {
     public const string Archivo = "Novedades.tsv";
+
+    /** Cuantos textos por mod van a Cambios.tsv: una actualizacion grande (Hegemony) traeria miles. Los
+     *  totales van igual en Novedades.tsv, para el «y N mas». */
+    public const int Tope = 200;
 
     private const string Encabezado = "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo";
 
@@ -66,7 +72,7 @@ public static class Novedades
         var Subida = CambiosDesdeLaUltimaSubida(RootPath, Carpetas, Historial);
 
         var Filas = new List<string> { Subida is null ? Encabezado : Encabezado + "\tÚltima actualización de RML\tTextos" };
-        var FilasDeCambios = new List<string> { CambiosDeTexto.Encabezado };
+        var FilasDeCambios = new List<string> { TextosDeTraduccion.Encabezado };
         foreach (string Carpeta in Carpetas.OrderBy(x => x, StringComparer.Ordinal))
         {
             if (!Historial.TryGetValue(Carpeta, out var Fechas) || Fechas.Count == 0) continue;
@@ -100,9 +106,9 @@ public static class Novedades
                     var Cambios = TextosCambiados(RootPath, BaseDeCarpeta, Tocados);
                     if (Cambios.Count > 0)
                     {
-                        Cuenta = string.Join(",", Cambios.Count(x => x.Tipo == CambiosDeTexto.Tipo.Cambiado),
-                            Cambios.Count(x => x.Tipo == CambiosDeTexto.Tipo.Nuevo), Cambios.Count(x => x.Tipo == CambiosDeTexto.Tipo.Quitado));
-                        FilasDeCambios.AddRange(Cambios.Take(CambiosDeTexto.Tope).Select(x => CambiosDeTexto.Fila(Mod.PackageId, x)));
+                        Cuenta = string.Join(",", Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Cambiado),
+                            Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Nuevo), Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Quitado));
+                        FilasDeCambios.AddRange(Cambios.Take(Tope).Select(x => TextosDeTraduccion.Fila(Mod.PackageId, x)));
                     }
                 }
 
@@ -113,7 +119,7 @@ public static class Novedades
                     if (Todos.Count > 0)
                     {
                         Cuenta = (Cuenta.Length > 0 ? Cuenta : "0,0,0") + "," + Todos.Count;
-                        FilasDeCambios.AddRange(Todos.Take(CambiosDeTexto.Tope).Select(x => CambiosDeTexto.Fila(Mod.PackageId, x)));
+                        FilasDeCambios.AddRange(Todos.Take(Tope).Select(x => TextosDeTraduccion.Fila(Mod.PackageId, x)));
                     }
                 }
                 Fila += "\t" + Marca + "\t" + Cuenta;
@@ -132,32 +138,28 @@ public static class Novedades
 
     /** Los textos de una carpeta que cambiaron desde Base, mirando solo los XML de traduccion que git
      *  dice que se tocaron: lo de antes sale de Base y lo de ahora, del disco. */
-    private static List<CambiosDeTexto.Cambio> TextosCambiados(string RootPath, string Base, List<Tocado> Tocados)
+    private static List<TextosDeTraduccion.Cambio> TextosCambiados(string RootPath, string Base, List<Tocado> Tocados)
     {
-        static bool EsTraduccion(Tocado Tocado) =>
-            Tocado.Relativa.EndsWith(".xml", StringComparison.OrdinalIgnoreCase) &&
-            (Tocado.Relativa.StartsWith("Patches/", StringComparison.Ordinal) || Tocado.Relativa.Contains("Languages/", StringComparison.Ordinal));
-
-        var DeTraduccion = Tocados.Where(EsTraduccion).OrderBy(x => x.Relativa, StringComparer.Ordinal).ToList();
+        var DeTraduccion = Tocados.Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa)).OrderBy(x => x.Relativa, StringComparer.Ordinal).ToList();
         var Viejos = DeTraduccion.Where(x => x.Antes is not null).ToList();
         var Contenidos = UltimosCambios.Blobs(RootPath, Viejos.Select(x => Base + ":" + x.Antes).ToList());
         if (Contenidos is null)
             return [];
 
-        var Antes = new List<CambiosDeTexto.Texto>();
+        var Antes = new List<TextosDeTraduccion.Texto>();
         for (int i = 0; i < Viejos.Count; i++)
             if (Contenidos[i] is { } Texto)
-                Antes.AddRange(CambiosDeTexto.Leer(Viejos[i].Relativa, Texto));
+                Antes.AddRange(TextosDeTraduccion.Leer(Viejos[i].Relativa, Texto));
 
-        var Ahora = new List<CambiosDeTexto.Texto>();
+        var Ahora = new List<TextosDeTraduccion.Texto>();
         foreach (Tocado Tocado in DeTraduccion.Where(x => x.Ahora is not null))
         {
             string Archivo = Path.Combine(RootPath, Tocado.Ahora!);
             if (File.Exists(Archivo))
-                Ahora.AddRange(CambiosDeTexto.Leer(Tocado.Relativa, File.ReadAllText(Archivo)));
+                Ahora.AddRange(TextosDeTraduccion.Leer(Tocado.Relativa, File.ReadAllText(Archivo)));
         }
 
-        return CambiosDeTexto.Comparar(Antes, Ahora);
+        return TextosDeTraduccion.Comparar(Antes, Ahora);
     }
 
     /** Lo que cambio desde la ultima subida de RML al Workshop: el diff entre el ultimo commit anterior
@@ -212,17 +214,17 @@ public static class Novedades
     }
 
     /** Todos los textos traducidos de una carpeta de mod, como añadidos. */
-    private static List<CambiosDeTexto.Cambio> TextosDeLaCarpeta(string RootPath, string Carpeta)
+    private static List<TextosDeTraduccion.Cambio> TextosDeLaCarpeta(string RootPath, string Carpeta)
     {
         string Raiz = Path.Combine(RootPath, Carpeta);
-        var Ahora = new List<CambiosDeTexto.Texto>();
+        var Ahora = new List<TextosDeTraduccion.Texto>();
         foreach (string Archivo in Directory.EnumerateFiles(Raiz, "*.xml", SearchOption.AllDirectories).OrderBy(x => x, StringComparer.Ordinal))
         {
             string Relativa = Path.GetRelativePath(Raiz, Archivo).Replace('\\', '/');
-            if (Relativa.StartsWith("Patches/", StringComparison.Ordinal) || Relativa.Contains("Languages/", StringComparison.Ordinal))
-                Ahora.AddRange(CambiosDeTexto.Leer(Relativa, File.ReadAllText(Archivo)));
+            if (TextosDeTraduccion.EsDeTraduccion(Relativa))
+                Ahora.AddRange(TextosDeTraduccion.Leer(Relativa, File.ReadAllText(Archivo)));
         }
-        return CambiosDeTexto.Comparar([], Ahora).Select(x => x with { Tipo = CambiosDeTexto.Tipo.Anadido }).ToList();
+        return TextosDeTraduccion.Comparar([], Ahora).Select(x => x.ConTipo(TextosDeTraduccion.Tipo.Anadido)).ToList();
     }
 
     /** El ultimo commit antes de ese dia (yyyy-MM-dd), o null si no hay. */

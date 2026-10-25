@@ -5,7 +5,7 @@ namespace RmlVentana.Logica
 {
     public enum TipoDeTexto { Cambiado, Nuevo, Quitado }
 
-    /** Un texto de Cambios.tsv (Source/LoadFoldersBuilder/CambiosDeTexto.cs). Antes va vacio en uno
+    /** Un texto de Cambios.tsv (TextosDeTraduccion.Fila), el del builder o el del PC (CambiosEnElPc). Antes va vacio en uno
      *  nuevo y Ahora, en uno quitado. */
     public class TextoCambiado
     {
