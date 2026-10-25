@@ -188,11 +188,12 @@ namespace RmlVentana.Logica
             foreach (var Par in Nuevo)
             {
                 if (!Viejo.TryGetValue(Par.Key, out TextoOficial Anterior))
-                    Resultado.Add(new TextoCambiado { Tipo = TipoDeTexto.Nuevo, Ingles = Par.Value.Ingles, Antes = "", Ahora = Par.Value.Texto });
+                    Resultado.Add(new TextoCambiado { Tipo = TipoDeTexto.Nuevo, Ingles = Par.Value.Ingles, Antes = "", Ahora = Par.Value.Texto, Objeto = Categorias.ObjetoDeClaveOficial(Par.Key) });
                 else if (Anterior.Texto != Par.Value.Texto)
                     Resultado.Add(new TextoCambiado
                     {
                         Tipo = TipoDeTexto.Cambiado,
+                        Objeto = Categorias.ObjetoDeClaveOficial(Par.Key),
                         Ingles = Par.Value.Ingles != "" ? Par.Value.Ingles : Anterior.Ingles,
                         Antes = Anterior.Texto,
                         Ahora = Par.Value.Texto,
@@ -202,7 +203,7 @@ namespace RmlVentana.Logica
 
             foreach (var Par in Viejo)
                 if (!Nuevo.ContainsKey(Par.Key))
-                    Resultado.Add(new TextoCambiado { Tipo = TipoDeTexto.Quitado, Ingles = Par.Value.Ingles, Antes = Par.Value.Texto, Ahora = "" });
+                    Resultado.Add(new TextoCambiado { Tipo = TipoDeTexto.Quitado, Ingles = Par.Value.Ingles, Antes = Par.Value.Texto, Ahora = "", Objeto = Categorias.ObjetoDeClaveOficial(Par.Key) });
 
             return Resultado;
         }
@@ -212,7 +213,7 @@ namespace RmlVentana.Logica
         public static string Linea(string PackageId, TextoCambiado Texto)
         {
             string Tipo = Texto.Tipo == TipoDeTexto.Cambiado ? "c" : Texto.Tipo == TipoDeTexto.Nuevo ? "n" : "q";
-            return string.Join("\t", PackageId, Tipo, Campo(Texto.Ingles), Campo(Texto.Antes), Campo(Texto.Ahora), Campo(Texto.InglesAntes));
+            return string.Join("\t", PackageId, Tipo, Campo(Texto.Ingles), Campo(Texto.Antes), Campo(Texto.Ahora), Campo(Texto.InglesAntes), Campo(Texto.Objeto));
         }
 
         private static string Campo(string Texto) =>

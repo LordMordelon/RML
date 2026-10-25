@@ -24,13 +24,18 @@ namespace RmlVentana
         private const float RellenoBloque = 4f;
         private const float RellenoTexto = 12f;
 
+        private const float AltoTitulo = 30f;
+
         private static readonly Color Gris = Hex(0xA9B0B8);
+        private static readonly Color FondoTitulo = Hex(0x1F252B);
         private static readonly Colores Rojo = new Colores(Hex(0x4A1F21), Hex(0x8C2F33), Hex(0xF2E6E6), Hex(0xE5534B));
         private static readonly Colores Verde = new Colores(Hex(0x233B23), Hex(0x3F6E2F), Hex(0xE8F2E4), Hex(0x57AB5A));
 
         private readonly string Titulo;
         private readonly string Resumen;
         private readonly List<Fila> Filas = new List<Fila>();
+        /** Lo que se dibuja, en orden: las filas, y con «Agrupar por categoría» un titulo antes de cada grupo. */
+        private readonly List<Elemento> Elementos = new List<Elemento>();
         /** Los que no entraron en el archivo por el tope del builder (CambiosDeTexto.Tope). */
         private readonly int Resto;
         private Vector2 Desplazamiento;
@@ -56,9 +61,18 @@ namespace RmlVentana
         private class Fila
         {
             public TextoParaVer Texto;
+            public Categoria Categoria;
             public Bloque BloqueIngles, BloqueAntes, BloqueAhora;
             /** Ancho tambien: en una sola linea puede pasar el de la ventana. */
             public float Alto, Ancho;
+        }
+
+        /** Una fila, o el titulo de un grupo si Fila es null. */
+        private class Elemento
+        {
+            public Fila Fila;
+            public string Titulo;
+            public float Alto => Fila?.Alto ?? AltoTitulo;
         }
 
         /** Los renglones de un texto y los rectangulos de las palabras cambiadas, relativos al texto. */
@@ -81,7 +95,8 @@ namespace RmlVentana
             Resto = Math.Max(0, Novedad.Cambiados + Novedad.Nuevos + Novedad.Quitados - Textos.Count);
 
             foreach (TextoCambiado Texto in Textos)
-                Filas.Add(new Fila { Texto = CambiosDeMod.ParaVer(Texto) });
+                Filas.Add(new Fila { Texto = CambiosDeMod.ParaVer(Texto), Categoria = CategoriaDe(Texto.Objeto) });
+            Ordenar();
 
             Titulo = "RML_Cambios_Titulo".Translate(Novedad.Nombre);
             var Partes = new List<string>();
@@ -133,6 +148,17 @@ namespace RmlVentana
             if (Ajustar == Ajustes.CambiosEnUnaLinea)
                 AlternarAjuste();
 
+            string Agrupar = "RML_Cambios_PorCategoria".Translate();
+            Rect Grupos = new Rect(Ajuste.xMax + 24f, Ajuste.y, Text.CalcSize(Agrupar).x + 40f, 30f);
+            bool PorCategoria = Ajustes.CambiosPorCategoria;
+            Widgets.CheckboxLabeled(Grupos, Agrupar, ref PorCategoria, placeCheckboxNearText: true);
+            if (PorCategoria != Ajustes.CambiosPorCategoria)
+            {
+                Ajustes.CambiosPorCategoria = PorCategoria;
+                RmlVentanaMod.Instancia.WriteSettings();
+                Ordenar();
+            }
+
             if (Widgets.ButtonText(new Rect(inRect.xMax - 160f, inRect.yMax - 38f, 160f, 38f), "RML_Ventana_Cerrar".Translate()))
                 Close();
 
@@ -157,10 +183,11 @@ namespace RmlVentana
             float AltoResto = Resto > 0 ? 44f : 0f;
             float Total = AltoResto;
             float AnchoContenido = Ancho;
-            foreach (Fila Fila in Filas)
+            foreach (Elemento Elemento in Elementos)
             {
-                Total += Fila.Alto;
-                AnchoContenido = Mathf.Max(AnchoContenido, Fila.Ancho);
+                Total += Elemento.Alto;
+                if (Elemento.Fila != null)
+                    AnchoContenido = Mathf.Max(AnchoContenido, Elemento.Fila.Ancho);
             }
 
             // En una linea, la lista se desplaza tambien hacia el costado, hasta el texto mas largo.
@@ -168,16 +195,23 @@ namespace RmlVentana
             Widgets.BeginScrollView(Lista, ref Desplazamiento, Vista);
 
             float Y = 0f;
-            for (int i = 0; i < Filas.Count; i++)
+            for (int i = 0; i < Elementos.Count; i++)
             {
-                Rect Renglon = new Rect(0f, Y, AnchoContenido, Filas[i].Alto);
-                Y += Filas[i].Alto;
+                Rect Renglon = new Rect(0f, Y, AnchoContenido, Elementos[i].Alto);
+                Y += Elementos[i].Alto;
 
                 // Solo lo que se ve: con 200 textos, dibujarlos todos en cada cuadro se nota.
                 if (Renglon.yMax < Desplazamiento.y || Renglon.y > Desplazamiento.y + Lista.height)
                     continue;
 
-                DibujarFila(Renglon, Filas[i], i < Filas.Count - 1 || Resto > 0);
+                if (Elementos[i].Fila == null)
+                {
+                    DibujarTitulo(Renglon, Elementos[i].Titulo);
+                    continue;
+                }
+                // Sin linea antes de un titulo, que ya separa.
+                bool ConLinea = i < Elementos.Count - 1 ? Elementos[i + 1].Fila != null : Resto > 0;
+                DibujarFila(Renglon, Elementos[i].Fila, ConLinea);
             }
 
             if (Resto > 0)
@@ -190,6 +224,17 @@ namespace RmlVentana
             }
 
             Widgets.EndScrollView();
+        }
+
+        /** El titulo de un grupo: la categoria y cuantos textos tiene, en una franja como el encabezado
+         *  de las tablas de la otra ventana. */
+        private static void DibujarTitulo(Rect Renglon, string Titulo)
+        {
+            Widgets.DrawBoxSolid(Renglon, FondoTitulo);
+            Text.Font = GameFont.Small;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            Widgets.Label(new Rect(Renglon.x + RellenoTexto, Renglon.y, Renglon.width - 2 * RellenoTexto, Renglon.height), Titulo);
+            Text.Anchor = TextAnchor.UpperLeft;
         }
 
         private static void DibujarFila(Rect Renglon, Fila Fila, bool ConLinea)
@@ -252,6 +297,54 @@ namespace RmlVentana
                 Widgets.Label(new Rect(X - MargenIzquierdo(), Y + i * Alto, Hasta - X + MargenIzquierdo(), Alto), Bloque.Renglones[i]);
             GUI.color = Color.white;
             Text.WordWrap = true;
+        }
+
+        /** Rearma la lista: en el orden del archivo, o por categoria con un titulo por grupo. */
+        private void Ordenar()
+        {
+            Elementos.Clear();
+            if (!Ajustes.CambiosPorCategoria)
+            {
+                foreach (Fila Fila in Filas)
+                    Elementos.Add(new Elemento { Fila = Fila });
+                return;
+            }
+
+            foreach (var Grupo in Categorias.Agrupar(Filas, x => x.Categoria))
+            {
+                Elementos.Add(new Elemento { Titulo = ("RML_Categoria_" + Grupo.Categoria).Translate() + " (" + Grupo.Textos.Count + ")" });
+                foreach (Fila Fila in Grupo.Textos)
+                    Elementos.Add(new Elemento { Fila = Fila });
+            }
+            Desplazamiento.y = 0f;
+        }
+
+        /** La categoria de un texto. Lo que no es un ThingDef sale de su tipo (Categorias.PorTipo); un
+         *  ThingDef se mira en el juego, asi que si su mod no esta activo no esta cargado y va a «Otros». */
+        private static Categoria CategoriaDe(string Objeto)
+        {
+            if (!Categorias.Partir(Objeto, out string Tipo, out string DefName))
+                return Categoria.Otros;
+            Categoria PorTipo = Categorias.PorTipo(Tipo);
+            if (PorTipo != Categoria.Otros || DefName == null)
+                return PorTipo;
+
+            // ThingDef o una clase hija, como el AmmoDef de Combat Extended.
+            Type Clase = GenTypes.GetTypeInAnyAssembly(Tipo);
+            if (Clase == null || !typeof(ThingDef).IsAssignableFrom(Clase))
+                return Categoria.Otros;
+            ThingDef Cosa = DefDatabase<ThingDef>.GetNamedSilentFail(DefName);
+            if (Cosa == null)
+                return Categoria.Otros;
+
+            if (Cosa.building != null && Cosa.building.IsTurret) return Categoria.Torretas;
+            if (Cosa.IsWeapon || Cosa.category == ThingCategory.Projectile) return Categoria.Armas;
+            if (Cosa.category == ThingCategory.Building) return Categoria.Construcciones;
+            if (Cosa.IsApparel) return Categoria.Ropa;
+            if (Cosa.race != null) return Categoria.Criaturas;
+            if (Cosa.plant != null) return Categoria.Plantas;
+            if (Cosa.category == ThingCategory.Item) return Categoria.Objetos;
+            return Categoria.Otros;
         }
 
         /** Entre ajustar las lineas al ancho y dejar cada texto en una. Queda guardado para la proxima. */

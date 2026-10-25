@@ -20,7 +20,7 @@ public static class CambiosDeTexto
      *  totales van igual en Novedades.tsv, para el «y N mas». */
     public const int Tope = 200;
 
-    public const string Encabezado = "PackageID\tTipo\tInglés\tAntes\tAhora\tInglés antes";
+    public const string Encabezado = "PackageID\tTipo\tInglés\tAntes\tAhora\tInglés antes\tObjeto";
 
     public enum Tipo { Cambiado, Nuevo, Quitado }
 
@@ -29,10 +29,14 @@ public static class CambiosDeTexto
     public record Texto(string Clave, string Ingles, string Valor);
 
     /** InglesAntes va solo si el ingles cambio: la ventana lo resalta como a la traduccion, y vacio
-     *  dice que lo que cambio fue solo la traduccion. */
-    public record Cambio(Tipo Tipo, string Ingles, string Antes, string Ahora, string InglesAntes = "");
+     *  dice que lo que cambio fue solo la traduccion. Objeto es de que es el texto (ObjetoDe), para
+     *  que la ventana lo agrupe por categoria. */
+    public record Cambio(Tipo Tipo, string Ingles, string Antes, string Ahora, string InglesAntes = "", string Objeto = "");
 
     private static readonly Regex LiDelComentario = new(@"<li>(.*?)</li>", RegexOptions.Singleline | RegexOptions.Compiled);
+
+    /** El tipo y el defName del def que modifica un xpath de Patches: el ultimo «Tipo[defName=…]». */
+    private static readonly Regex DefDelXpath = new(@"([\w.]+)\[\s*defName\s*=\s*[""']([^""']+)[""']\s*\]", RegexOptions.Compiled);
 
     private static readonly Regex Separadores = new(@"[\t\r\n]+", RegexOptions.Compiled);
 
@@ -102,20 +106,21 @@ public static class CambiosDeTexto
             if (Traducido(Nuevo.Valor))
             {
                 if (!TeniaTexto)
-                    Nuevos.Add(new Cambio(Tipo.Nuevo, Nuevo.Ingles, "", Nuevo.Valor));
+                    Nuevos.Add(new Cambio(Tipo.Nuevo, Nuevo.Ingles, "", Nuevo.Valor, Objeto: ObjetoDe(Nuevo.Clave)));
                 else if (Viejo!.Valor != Nuevo.Valor)
                     Cambiados.Add(new Cambio(Tipo.Cambiado, Nuevo.Ingles, Viejo.Valor, Nuevo.Valor,
-                        Viejo.Ingles != Nuevo.Ingles && Viejo.Ingles.Length > 0 && Nuevo.Ingles.Length > 0 ? Viejo.Ingles : ""));
+                        Viejo.Ingles != Nuevo.Ingles && Viejo.Ingles.Length > 0 && Nuevo.Ingles.Length > 0 ? Viejo.Ingles : "",
+                        ObjetoDe(Nuevo.Clave)));
             }
             else if (TeniaTexto)
             {
-                Quitados.Add(new Cambio(Tipo.Quitado, Viejo!.Ingles, Viejo.Valor, ""));
+                Quitados.Add(new Cambio(Tipo.Quitado, Viejo!.Ingles, Viejo.Valor, "", Objeto: ObjetoDe(Viejo.Clave)));
             }
         }
 
         foreach (Texto Viejo in Viejos.Values)
             if (!Vistas.Contains(Viejo.Clave) && Traducido(Viejo.Valor))
-                Quitados.Add(new Cambio(Tipo.Quitado, Viejo.Ingles, Viejo.Valor, ""));
+                Quitados.Add(new Cambio(Tipo.Quitado, Viejo.Ingles, Viejo.Valor, "", Objeto: ObjetoDe(Viejo.Clave)));
 
         // El mismo texto en dos carpetas de version (1.6/ y 1.7/) es para el jugador un solo cambio.
         return Cambiados.Concat(Nuevos).Concat(Quitados).Distinct().ToList();
@@ -125,7 +130,27 @@ public static class CambiosDeTexto
     public static string Fila(string PackageId, Cambio Cambio)
     {
         string Marca = Cambio.Tipo switch { Tipo.Cambiado => "c", Tipo.Nuevo => "n", _ => "q" };
-        return string.Join("\t", PackageId, Marca, Limpio(Cambio.Ingles), Limpio(Cambio.Antes), Limpio(Cambio.Ahora), Limpio(Cambio.InglesAntes));
+        return string.Join("\t", PackageId, Marca, Limpio(Cambio.Ingles), Limpio(Cambio.Antes), Limpio(Cambio.Ahora), Limpio(Cambio.InglesAntes), Limpio(Cambio.Objeto));
+    }
+
+    /** «ThingDef/Gun_LMG» de una clave de Leer: el tipo de def y su defName, «Keyed» si es un texto
+     *  de la interfaz, o vacio si no se sabe (un Patches que no apunta a un defName). La carpeta de
+     *  version no entra: el mismo texto en 1.6/ y 1.7/ es el mismo objeto. */
+    public static string ObjetoDe(string Clave)
+    {
+        string[] Partes = Clave.Split('|');
+        if (Partes[0] == "Patches")
+        {
+            Match Def = Partes.Length > 1 ? DefDelXpath.Matches(Partes[1]).LastOrDefault() ?? Match.Empty : Match.Empty;
+            return Def.Success ? Def.Groups[1].Value + "/" + Def.Groups[2].Value : "";
+        }
+
+        string[] Grupo = Partes[0].Split('/');
+        if (Grupo[^1] == "Keyed")
+            return "Keyed";
+        if (Grupo.Length >= 2 && Grupo[^2] == "DefInjected" && Partes.Length > 1)
+            return Grupo[^1] + "/" + Partes[1].Split('.')[0];
+        return "";
     }
 
     private static string Limpio(string Texto) => Separadores.Replace(Texto, " ").Trim();

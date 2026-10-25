@@ -25,6 +25,9 @@ namespace RmlVentana
         /** «Ver cambios» con cada texto en una sola linea en vez de ajustado al ancho (Alt+Z). */
         public bool CambiosEnUnaLinea;
 
+        /** «Ver cambios» agrupado por categoria (armas, torretas…) en vez de en el orden del archivo. */
+        public bool CambiosPorCategoria;
+
         /** «Revisar si hay arreglos de la traducción oficial» (PLAN-TRADUCCION-OFICIAL.md). Apagada, RML
          *  no le consulta nada a GitHub salvo con «Revisar ahora». */
         public bool RevisarOficial = true;
@@ -58,6 +61,7 @@ namespace RmlVentana
             Scribe_Collections.Look(ref NovedadesVistas, "novedadesVistas", LookMode.Value);
             Scribe_Values.Look(ref UltimaVez, "ultimaVez");
             Scribe_Values.Look(ref CambiosEnUnaLinea, "cambiosEnUnaLinea", false);
+            Scribe_Values.Look(ref CambiosPorCategoria, "cambiosPorCategoria", false);
             Scribe_Collections.Look(ref Solicitudes, "solicitudes", LookMode.Value, LookMode.Value);
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)

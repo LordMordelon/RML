@@ -29,6 +29,17 @@ public class CambiosDeTextoTests
     }
 
     [TestMethod]
+    public void CadaCambioDiceDeQueObjetoEs()
+    {
+        Assert.AreEqual("ThingDef/Gun_LMG", CambiosDeTexto.ObjetoDe("1.6/Languages/SpanishLatin/DefInjected/ThingDef|Gun_LMG.description"));
+        Assert.AreEqual("RulePackDef/Charla", CambiosDeTexto.ObjetoDe("Languages/SpanishLatin/DefInjected/RulePackDef|Charla.rulePack.rulesStrings[1]"));
+        Assert.AreEqual("Keyed", CambiosDeTexto.ObjetoDe("Languages/SpanishLatin/Keyed|VFE_Piedra"));
+        Assert.AreEqual("ThingDef/Rifle", CambiosDeTexto.ObjetoDe("Patches|/Defs/ThingDef[defName=\"Rifle\"]/tools/li[1]/label|label"));
+        Assert.AreEqual("CombatExtended.AmmoDef/Ammo_556", CambiosDeTexto.ObjetoDe("Patches|Defs/CombatExtended.AmmoDef[defName='Ammo_556']/label|label"));
+        Assert.AreEqual("", CambiosDeTexto.ObjetoDe("Patches|/Defs/ThingDef[@Name=\"BaseGun\"]/label|label"));
+    }
+
+    [TestMethod]
     public void SiElInglesCambioVaTambienElDeAntes()
     {
         var Cambios = Comparar(
@@ -37,7 +48,7 @@ public class CambiosDeTextoTests
 
         Assert.AreEqual("Filters the air.", Cambios[0].InglesAntes);
         Assert.AreEqual("", Cambios[1].InglesAntes);
-        Assert.AreEqual("autor.mod\tc\tFilters the air and rebreathes.\tFiltra el aire.\tFiltra el aire y lo recircula.\tFilters the air.",
+        Assert.AreEqual("autor.mod\tc\tFilters the air and rebreathes.\tFiltra el aire.\tFiltra el aire y lo recircula.\tFilters the air.\tKeyed",
             CambiosDeTexto.Fila("autor.mod", Cambios[0]));
     }
 
@@ -176,6 +187,6 @@ public class CambiosDeTextoTests
     {
         var Cambio = new CambiosDeTexto.Cambio(CambiosDeTexto.Tipo.Cambiado, "a\tb", "uno\ndos", "tres\r\ncuatro");
 
-        Assert.AreEqual("Autor.Mod\tc\ta b\tuno dos\ttres cuatro\t", CambiosDeTexto.Fila("Autor.Mod", Cambio));
+        Assert.AreEqual("Autor.Mod\tc\ta b\tuno dos\ttres cuatro\t\t", CambiosDeTexto.Fila("Autor.Mod", Cambio));
     }
 }

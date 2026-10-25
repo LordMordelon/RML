@@ -217,6 +217,16 @@ desactivado, cada texto va en una línea, con los saltos escritos «\n» como en
 (`DiffDePalabras.EnUnaLinea`), y la lista se desplaza hacia el costado. Se guarda en
 `AjustesRml.CambiosEnUnaLinea`.
 
+Al lado, «Agrupar por categoría» (aprobado por Angel el 25-oct-2026): los textos salen bajo un título
+por categoría, con cuántos tiene, en este orden: Armas, Torretas, Construcciones, Ropa y armaduras,
+Criaturas, Plantas, Objetos, Investigación, Recetas, Salud, Escenarios, Interfaz y mensajes, Otros. Para
+eso `Cambios.tsv` lleva una séptima columna con el objeto de cada texto («ThingDef/Gun_LMG», «Keyed»;
+`CambiosDeTexto.ObjetoDe`, y `Categorias.ObjetoDeClaveOficial` para la traducción oficial). Lo que no es
+un ThingDef se reconoce por su tipo (`Categorias.PorTipo`); un ThingDef, o una clase hija como el
+`AmmoDef` de Combat Extended, lo clasifica el juego mirando el def cargado
+(`VentanaCambios.CategoriaDe`), así que con su mod inactivo va a «Otros». Se guarda en
+`AjustesRml.CambiosPorCategoria`.
+
 Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, muestra lo de la última
 actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace
 aparecer la ventana sola.

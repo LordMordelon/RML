@@ -15,6 +15,8 @@ namespace RmlVentana.Logica
         public string Ahora;
         /** El ingles de antes, solo si cambio (sexta columna). Vacio si no, o si el archivo es anterior. */
         public string InglesAntes = "";
+        /** De que es el texto, «ThingDef/Gun_LMG» o «Keyed» (septima columna), para agruparlo (Categorias). */
+        public string Objeto = "";
     }
 
     /** Un texto listo para «Ver cambios»: el ingles en un bloque, con lo quitado y lo agregado si
@@ -61,6 +63,7 @@ namespace RmlVentana.Logica
                     Antes = ConSaltos(Campos[3]),
                     Ahora = ConSaltos(Campos[4]),
                     InglesAntes = Campos.Length > 5 ? ConSaltos(Campos[5]) : "",
+                    Objeto = Campos.Length > 6 ? Campos[6] : "",
                 });
             }
 
