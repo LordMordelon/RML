@@ -251,7 +251,7 @@
   <!-- EN: One hostile faction at our tech level makes us its rival. Meanwhile it never turns neutral; the rivalry ends once its trust reaches {0}. It declares war on us more often, and while at war its wartime raids come more often. -->
   <Rpt_Tip_RivalAi>Una facción hostil de nuestro nivel tecnológico nos declara su rival. Mientras tanto, nunca se vuelve neutral; la rivalidad termina cuando su confianza llega a {0}. Nos declara la guerra más seguido, y mientras estamos en guerra sus incursiones de guerra llegan con más frecuencia.</Rpt_Tip_RivalAi>
   <!-- EN: Benefits\n· +{0} doctrine progress for each settlement the rival loses (whoever takes it; needs a doctrine)\n· Trust with our rival&apos;s own rivals +{1} each quarter\n· &quot;Fabricate casus belli&quot; against the rival finishes {4} days sooner\n· Our spies at the rival run a {5}% lower risk of discovery\nCosts\n· Rival goodwill −{2} and trust with the rival&apos;s ally −{3} each quarter\n· The rival declares war on us more often\n· While at war with the rival, wartime raids come more often\n· No treaties, gifts or regular aid with a rival -->
-  <Rpt_Tip_RivalEffects>Beneficios\n· +{0} de progreso de doctrina por cada asentamiento que pierde el rival (lo tome quien lo tome; requiere una doctrina)\n· Confianza con los rivales de nuestro rival +{1} cada cuadrun\n· «Fabricar casus belli» contra el rival termina {4} días antes\n· Nuestros espías en el rival corren un riesgo de ser descubiertos un {5}% menor\nCostos\n· Buena voluntad del rival −{2} y confianza con el aliado del rival −{3} cada cuadrun\n· El rival nos declara la guerra más seguido\n· Mientras estamos en guerra con el rival, sus incursiones de guerra llegan con más frecuencia\n· Con un rival no hay tratados, regalos ni ayuda regular</Rpt_Tip_RivalEffects>
+  <Rpt_Tip_RivalEffects>Beneficios\n- +{0} de progreso de doctrina por cada asentamiento que pierde el rival (lo tome quien lo tome; requiere una doctrina)\n- Confianza con los rivales de nuestro rival +{1} cada cuadrun\n- «Fabricar casus belli» contra el rival termina {4} días antes\n- Nuestros espías en el rival corren un riesgo de ser descubiertos un {5}% menor\nCostos\n- Buena voluntad del rival −{2} y confianza con el aliado del rival −{3} cada cuadrun\n- El rival nos declara la guerra más seguido\n- Mientras estamos en guerra con el rival, sus incursiones de guerra llegan con más frecuencia\n- Con un rival no hay tratados, regalos ni ayuda regular</Rpt_Tip_RivalEffects>
   <!-- EN: Declare rival… -->
   <Rpt_Rival_PickBtn>Declarar rival…</Rpt_Rival_PickBtn>
   <!-- EN: (No faction can be made a rival) -->
@@ -550,13 +550,13 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Personal union joined - our personal union partner {0} entered this war against {1} alongside us (not a separate declaration). -->
   <Rpt_SD_War_UnionJoin>Se sumó la unión personal: nuestro socio de unión personal, {0}, entró en esta guerra contra {1} junto a nosotros (no es una declaración aparte).</Rpt_SD_War_UnionJoin>
   <!-- EN: · A world-event hardship on our colony (drought, financial ruin, natural disaster) ends without aid from an ally +{0} -->
-  <Rpt_SD_Doc_Gain1>· Una penuria mundial en nuestra colonia (sequía, ruina financiera, desastre natural) termina sin ayuda de un aliado +{0}</Rpt_SD_Doc_Gain1>
+  <Rpt_SD_Doc_Gain1>- Una penuria mundial en nuestra colonia (sequía, ruina financiera, desastre natural) termina sin ayuda de un aliado +{0}</Rpt_SD_Doc_Gain1>
   <!-- EN: · Buying the goods you ordered through a goods request +{0}\n· Trading company founded or upgraded +{1}\n· Hosting an expo (at closing) or joining another faction&apos;s expo +{2}\n· Buying a monopoly +{3} -->
-  <Rpt_SD_Doc_Gain2>· Comprar los bienes que encargaste con un pedido de bienes +{0}\n· Fundar o mejorar la compañía comercial +{1}\n· Organizar una exposición (al cerrarla) o participar en la exposición de otra facción +{2}\n· Comprar un monopolio +{3}</Rpt_SD_Doc_Gain2>
+  <Rpt_SD_Doc_Gain2>- Comprar los bienes que encargaste con un pedido de bienes +{0}\n- Fundar o mejorar la compañía comercial +{1}\n- Organizar una exposición (al cerrarla) o participar en la exposición de otra facción +{2}\n- Comprar un monopolio +{3}</Rpt_SD_Doc_Gain2>
   <!-- EN: · A faction accepts your ultimatum +{0}\n· Winning a war (automatic victory, peace on favorable terms, enemy wiped out, war of independence, joint war; once per war) +{1} -->
-  <Rpt_SD_Doc_Gain3>· Una facción acepta tu ultimátum +{0}\n· Ganar una guerra (victoria automática, paz en condiciones favorables, enemigo aniquilado, guerra de independencia, guerra conjunta; una vez por guerra) +{1}</Rpt_SD_Doc_Gain3>
+  <Rpt_SD_Doc_Gain3>- Una facción acepta tu ultimátum +{0}\n- Ganar una guerra (victoria automática, paz en condiciones favorables, enemigo aniquilado, guerra de independencia, guerra conjunta; una vez por guerra) +{1}</Rpt_SD_Doc_Gain3>
   <!-- EN: · Independence guarantee upkeep, per quarter +{0}\n· Disaster relief (sending relief or a colonist in person) +{1} -->
-  <Rpt_SD_Doc_Gain4>· Mantenimiento de una garantía de independencia, por cuadrun +{0}\n· Ayuda ante desastres (enviar ayuda o a un colono en persona) +{1}</Rpt_SD_Doc_Gain4>
+  <Rpt_SD_Doc_Gain4>- Mantenimiento de una garantía de independencia, por cuadrun +{0}\n- Ayuda ante desastres (enviar ayuda o a un colono en persona) +{1}</Rpt_SD_Doc_Gain4>
   <!-- EN: Secret war funds… ({0}~{1} silver) -->
   <Rpt_SD_Fund_Act>Fondos secretos… ({0}~{1})</Rpt_SD_Fund_Act>
   <!-- EN: Secretly funds this faction&apos;s war through our embedded spy. Its offensive odds rise for {0} days; if it leaks, its enemies&apos; goodwill and trust toward us fall. -->
@@ -624,7 +624,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Makes a secret pact through our embedded spy. For {0} days this faction will not declare war on us; if it comes to light, every faction&apos;s trust falls. -->
   <Rpt_SD_Pact_Tip>Hace un pacto secreto a través de nuestro espía infiltrado. Durante {0} días, esta facción no nos declarará la guerra; si sale a la luz, cae la confianza de todas las facciones.</Rpt_SD_Pact_Tip>
   <!-- EN: Propose a secret pact to {0} through our embedded spy {1}.\n\nChance of acceptance: {2}% (trust {3})\nCost: {4} silver (paid only if they accept)\nIf refused, you cannot propose again for {5} days.\n\nFor the {6} days the pact lasts, {0}:\n· will not declare war on us.\n· will not join its ally&apos;s war if we fight that ally.\n· will not join a coalition against us.\n\nMeanwhile, our spies:\n· cannot be exposed while staying in {0} without an operation.\n· have {12}× the chance of exposure or leak in operations that hurt {0} (such as stealing technology) and in intel sales.\n\nThe pact does not appear in the &quot;Treaties&quot; window (it is shown as one line at the end of this faction&apos;s &quot;Active treaties&quot;).\nRisk of exposure: {7}% each quarter (intelligence bureau tier {8})\nIf exposed, the pact breaks: every other faction loses {9} trust and {0} loses {10} trust.\nIf we go to war with {0}, the pact breaks and {0} loses {11} trust. -->
-  <Rpt_SD_Pact_Confirm>Proponerle un pacto secreto a {0} a través de nuestro espía infiltrado {1}.\n\nProbabilidad de que acepte: {2}% (confianza {3})\nCosto: {4} de plata (solo se paga si acepta)\nSi lo rechaza, no podrás volver a proponerlo durante {5} días.\n\nDurante los {6} días que dura el pacto, {0}:\n· no nos declarará la guerra.\n· no se sumará a la guerra de su aliado si peleamos contra ese aliado.\n· no se sumará a una coalición contra nosotros.\n\nMientras tanto, nuestros espías:\n· no pueden ser descubiertos mientras estén en {0} sin una operación.\n· tienen {12}× la probabilidad de ser descubiertos o de filtración en las operaciones que perjudican a {0} (como robar tecnología) y en las ventas de información.\n\nEl pacto no aparece en la ventana «Tratados» (se muestra como una línea al final de los «Tratados vigentes» de esta facción).\nRiesgo de que lo descubran: {7}% cada cuadrun (nivel {8} de la oficina de inteligencia)\nSi lo descubren, el pacto se rompe: todas las demás facciones pierden {9} de confianza y {0} pierde {10}.\nSi entramos en guerra con {0}, el pacto se rompe y {0} pierde {11} de confianza.</Rpt_SD_Pact_Confirm>
+  <Rpt_SD_Pact_Confirm>Proponerle un pacto secreto a {0} a través de nuestro espía infiltrado {1}.\n\nProbabilidad de que acepte: {2}% (confianza {3})\nCosto: {4} de plata (solo se paga si acepta)\nSi lo rechaza, no podrás volver a proponerlo durante {5} días.\n\nDurante los {6} días que dura el pacto, {0}:\n- no nos declarará la guerra.\n- no se sumará a la guerra de su aliado si peleamos contra ese aliado.\n- no se sumará a una coalición contra nosotros.\n\nMientras tanto, nuestros espías:\n- no pueden ser descubiertos mientras estén en {0} sin una operación.\n- tienen {12}× la probabilidad de ser descubiertos o de filtración en las operaciones que perjudican a {0} (como robar tecnología) y en las ventas de información.\n\nEl pacto no aparece en la ventana «Tratados» (se muestra como una línea al final de los «Tratados vigentes» de esta facción).\nRiesgo de que lo descubran: {7}% cada cuadrun (nivel {8} de la oficina de inteligencia)\nSi lo descubren, el pacto se rompe: todas las demás facciones pierden {9} de confianza y {0} pierde {10}.\nSi entramos en guerra con {0}, el pacto se rompe y {0} pierde {11} de confianza.</Rpt_SD_Pact_Confirm>
   <!-- EN: Secret pacts cannot be made during the world war. -->
   <Rpt_SD_Pact_WorldWar>Durante la guerra mundial no se pueden hacer pactos secretos.</Rpt_SD_Pact_WorldWar>
   <!-- EN: A secret pact with {0} is not possible. -->
@@ -862,7 +862,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Factions toward the Great Road: {0}/{1} -->
   <Rpt_TX_Net_NotGreat>Facciones hacia el Gran Camino: {0}/{1}</Rpt_TX_Net_NotGreat>
   <!-- EN: Counts other factions&apos; settlements reachable from our settlements (or from the trade hub, if we hold it) by traveling only on roads. Both world-generated roads and roads we built count; settlements of factions hostile to us cannot be passed through. Embargoed factions are not counted.\n\n· Each settlement: all trade route income +{0}% (up to +{1}%)\n· {2} settlements: route slots +1; {3}: +2\n· {4} or more factions connected opens the Great Road\n· Road-connected settlements get a route distance limit of {5} tiles, income by road level, and fewer incidents -->
-  <Rpt_TX_Net_Tip>Cuenta los asentamientos de otras facciones a los que se llega desde los nuestros (o desde el centro de comercio, si lo tenemos) viajando solo por caminos. Cuentan tanto los caminos que generó el mundo como los que construimos; no se puede pasar por asentamientos de facciones hostiles. Las facciones con embargo no se cuentan.\n\n· Cada asentamiento: ingresos de todas las rutas comerciales +{0}% (hasta +{1}%)\n· {2} asentamientos: espacios para rutas +1; {3}: +2\n· Con {4} facciones conectadas o más se abre el Gran Camino\n· Los asentamientos conectados por camino tienen un límite de distancia de ruta de {5} casillas, ingresos según el nivel del camino y menos incidentes</Rpt_TX_Net_Tip>
+  <Rpt_TX_Net_Tip>Cuenta los asentamientos de otras facciones a los que se llega desde los nuestros (o desde el centro de comercio, si lo tenemos) viajando solo por caminos. Cuentan tanto los caminos que generó el mundo como los que construimos; no se puede pasar por asentamientos de facciones hostiles. Las facciones con embargo no se cuentan.\n\n- Cada asentamiento: ingresos de todas las rutas comerciales +{0}% (hasta +{1}%)\n- {2} asentamientos: espacios para rutas +1; {3}: +2\n- Con {4} facciones conectadas o más se abre el Gran Camino\n- Los asentamientos conectados por camino tienen un límite de distancia de ruta de {5} casillas, ingresos según el nivel del camino y menos incidentes</Rpt_TX_Net_Tip>
   <!-- EN: Grand caravan visits this year: {0}/{1} -->
   <Rpt_TX_Grand_Year>Visitas de grandes caravanas este año: {0}/{1}</Rpt_TX_Grand_Year>
   <!-- EN: A grand caravan is on its way: {0} -->
@@ -1346,9 +1346,9 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: This site may not share a front line with our opponents in the {0} unification war. -->
   <Rpt_RD_LandFarHead>Puede que este lugar no comparta una línea de frente con nuestros rivales en la guerra de unificación {0}.</Rpt_RD_LandFarHead>
   <!-- EN: · {0} — not connected by land -->
-  <Rpt_RD_LandFarNoLand>· {0}: no está conectado por tierra</Rpt_RD_LandFarNoLand>
+  <Rpt_RD_LandFarNoLand>- {0}: no está conectado por tierra</Rpt_RD_LandFarNoLand>
   <!-- EN: · {0} — {1} other settlement(s) in between (nearest settlement {2} tiles away) -->
-  <Rpt_RD_LandFarBetween>· {0}: {1} asentamiento(s) de por medio (el más cercano a {2} casillas)</Rpt_RD_LandFarBetween>
+  <Rpt_RD_LandFarBetween>- {0}: {1} asentamiento(s) de por medio (el más cercano a {2} casillas)</Rpt_RD_LandFarBetween>
   <!-- EN: In &quot;Strategy mode&quot;, the client state&apos;s &quot;Order attack&quot; is free only along a connected front line. Without one, offensives reach only the {0} nearest settlements of that faction. -->
   <Rpt_RD_LandFarTail>En el «Modo estrategia», la «Orden de ataque» del estado cliente solo es libre a lo largo de una línea de frente conectada. Sin ella, las ofensivas solo llegan a los {0} asentamientos más cercanos de esa facción.</Rpt_RD_LandFarTail>
   <!-- EN: {0} days — {1} silver · goodwill +{2} · trust +{3} -->
@@ -2014,7 +2014,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: The lot of a tributary -->
   <Rpt_TribLock_LetterLabel>La suerte del tributario</Rpt_TribLock_LetterLabel>
   <!-- EN: Your colony has become a tributary of {0}. While you have an overlord, some things are no longer yours to decide.\n\nLocked\n· You cannot sign new treaties\n· You cannot make any faction your tributary (including demanding imperial submission)\n· You cannot launch independence plots\n· You will not be recognized as a world hegemon, and no coalition will form against you\n· Your tributaries send no silver, goods or laborers, and &quot;Extra demand&quot; and governor postings are blocked\n· Client state armories are limited to industrial\n\nUnchanged\n· Tributary treaties, policies and stability remain\n· Declaring war, joining a world war, sending weapons, covert operations and founding client states all still work\n\nTribute takes {1}% of your wealth every {2} days, automatically. Breaking the treaty starts a war of independence; failing to pay two quarters in a row also breaks it, and harsh retaliation follows. Everything locked returns the moment the treaty is gone. -->
-  <Rpt_TribLock_LetterBody>Tu colonia se volvió tributaria de {0}. Mientras tengas un señor, algunas cosas ya no las decides tú.\n\nBloqueado\n· No puedes firmar tratados nuevos\n· No puedes volver tributaria a ninguna facción (ni exigir el sometimiento imperial)\n· No puedes iniciar conspiraciones de independencia\n· No te reconocerán como hegemón del mundo, y no se formará ninguna coalición en tu contra\n· Tus tributarios no mandan plata, bienes ni trabajadores, y se bloquean la «Exigencia extra» y los puestos de gobernador\n· Los arsenales de los estados clientes quedan limitados a lo industrial\n\nSin cambios\n· Siguen los tratados, las políticas y la estabilidad de tus tributarios\n· Puedes seguir declarando la guerra, sumándote a una guerra mundial, mandando armas, haciendo operaciones encubiertas y fundando estados clientes\n\nEl tributo se lleva el {1}% de tu riqueza cada {2} días, automáticamente. Romper el tratado empieza una guerra de independencia; no pagar dos cuadrunes seguidos también lo rompe, y le siguen duras represalias. Todo lo bloqueado vuelve en cuanto el tratado desaparece.</Rpt_TribLock_LetterBody>
+  <Rpt_TribLock_LetterBody>Tu colonia se volvió tributaria de {0}. Mientras tengas un señor, algunas cosas ya no las decides tú.\n\nBloqueado\n- No puedes firmar tratados nuevos\n- No puedes volver tributaria a ninguna facción (ni exigir el sometimiento imperial)\n- No puedes iniciar conspiraciones de independencia\n- No te reconocerán como hegemón del mundo, y no se formará ninguna coalición en tu contra\n- Tus tributarios no mandan plata, bienes ni trabajadores, y se bloquean la «Exigencia extra» y los puestos de gobernador\n- Los arsenales de los estados clientes quedan limitados a lo industrial\n\nSin cambios\n- Siguen los tratados, las políticas y la estabilidad de tus tributarios\n- Puedes seguir declarando la guerra, sumándote a una guerra mundial, mandando armas, haciendo operaciones encubiertas y fundando estados clientes\n\nEl tributo se lleva el {1}% de tu riqueza cada {2} días, automáticamente. Romper el tratado empieza una guerra de independencia; no pagar dos cuadrunes seguidos también lo rompe, y le siguen duras represalias. Todo lo bloqueado vuelve en cuanto el tratado desaparece.</Rpt_TribLock_LetterBody>
   <!-- EN: {0} independence plot(s) in progress were cancelled. The silver already spent is not returned. -->
   <Rpt_TribLock_LetterPlots>Se cancelaron {0} conspiraciones de independencia en curso. La plata ya gastada no se devuelve.</Rpt_TribLock_LetterPlots>
   <!-- EN: Collection is waived for the first {0} days; tribute is only taken after that. -->
@@ -5839,7 +5839,7 @@ Cost: harder to demand tribute, no combat benefit -->
   <Rpt_UI_DoctrineConfirmHeadDrop>Abandonar tu doctrina.</Rpt_UI_DoctrineConfirmHeadDrop>
   <!-- EN: ■ What you lose
   · {0} progress · {1} unlocked node(s) -->
-  <Rpt_UI_DoctrineConfirmReset>■ Lo que pierdes\n· {0} de progreso · {1} nodo(s) habilitado(s)</Rpt_UI_DoctrineConfirmReset>
+  <Rpt_UI_DoctrineConfirmReset>■ Lo que pierdes\n- {0} de progreso · {1} nodo(s) habilitado(s)</Rpt_UI_DoctrineConfirmReset>
   <!-- EN: ■ Treaties broken at once: {0} -->
   <Rpt_UI_DoctrineConfirmBreak>■ Tratados que se rompen en el acto: {0}</Rpt_UI_DoctrineConfirmBreak>
   <!-- EN: {0} — {1}   trust -{2} goodwill -{3} -->
@@ -5870,7 +5870,7 @@ Cost: harder to demand tribute, no combat benefit -->
   <Rpt_UI_DoctrineConfirmSoft>■ Incumplimientos y costos permanentes</Rpt_UI_DoctrineConfirmSoft>
   <!-- EN: ■ Cost
   · {0} silver · {1} days until the next switch -->
-  <Rpt_UI_DoctrineConfirmCost>■ Costo\n· {0} de plata · {1} días hasta el próximo cambio</Rpt_UI_DoctrineConfirmCost>
+  <Rpt_UI_DoctrineConfirmCost>■ Costo\n- {0} de plata · {1} días hasta el próximo cambio</Rpt_UI_DoctrineConfirmCost>
   <!-- EN: Turning to the Isolation doctrine, you pulled out of other people&apos;s affairs: {0}. -->
   <Rpt_MsgDoctrineMeddleEnd>Al pasarte a la doctrina del Aislamiento, dejaste de meterte en asuntos ajenos: {0}.</Rpt_MsgDoctrineMeddleEnd>
   <!-- EN: Turning to the Mercantile doctrine, you lifted all {0} embargo(es). -->
@@ -5989,27 +5989,27 @@ Cost: {3} silver. Trust with both rises each quarter it holds, but trust gained 
   <!-- EN: Every quarter +{0} -->
   <Rpt_UI_DoctrineGainBase>Cada cuadrun +{0}</Rpt_UI_DoctrineGainBase>
   <!-- EN: · Each settlement your rival loses +{0} (every doctrine) -->
-  <Rpt_UI_DoctrineGainRival>· Cada asentamiento que pierde tu rival +{0} (todas las doctrinas)</Rpt_UI_DoctrineGainRival>
+  <Rpt_UI_DoctrineGainRival>- Cada asentamiento que pierde tu rival +{0} (todas las doctrinas)</Rpt_UI_DoctrineGainRival>
   <!-- EN: At most +{0} per quarter -->
   <Rpt_UI_DoctrineGainCap>Como máximo +{0} por cuadrun</Rpt_UI_DoctrineGainCap>
   <!-- EN: · A treaty runs to its full term without being broken +{0}
 · Neutrality declared: auto-refusing a call to arms or coalition invite +{0}
 · Each quarter you hold 2 treaties or fewer +{1} -->
-  <Rpt_Doctrine1_Gain>· Un tratado que llega a su fin sin romperse +{0}\n· Con la neutralidad declarada, cada llamado a las armas o invitación a una coalición rechazada sola +{0}\n· Cada cuadrun con 2 tratados o menos +{1}</Rpt_Doctrine1_Gain>
+  <Rpt_Doctrine1_Gain>- Un tratado que llega a su fin sin romperse +{0}\n- Con la neutralidad declarada, cada llamado a las armas o invitación a una coalición rechazada sola +{0}\n- Cada cuadrun con 2 tratados o menos +{1}</Rpt_Doctrine1_Gain>
   <!-- EN: · Opening a trade route +{0}
 · Quarterly trade route income +{1}
 · Trade protection pact upkeep, per quarter +{2} -->
-  <Rpt_Doctrine2_Gain>· Abrir una ruta comercial +{0}\n· Ingresos de las rutas comerciales por cuadrun +{1}\n· Mantenimiento de un pacto de protección comercial, por cuadrun +{2}</Rpt_Doctrine2_Gain>
+  <Rpt_Doctrine2_Gain>- Abrir una ruta comercial +{0}\n- Ingresos de las rutas comerciales por cuadrun +{1}\n- Mantenimiento de un pacto de protección comercial, por cuadrun +{2}</Rpt_Doctrine2_Gain>
   <!-- EN: · Signing a tributary pact +{0}
 · Show of force +{1}
 · Receiving tribute +{2} -->
-  <Rpt_Doctrine3_Gain>· Firmar un pacto tributario +{0}\n· Demostración de fuerza +{1}\n· Recibir tributo +{2}</Rpt_Doctrine3_Gain>
+  <Rpt_Doctrine3_Gain>- Firmar un pacto tributario +{0}\n- Demostración de fuerza +{1}\n- Recibir tributo +{2}</Rpt_Doctrine3_Gain>
   <!-- EN: · A summit concludes +{0}
 · Mediation succeeds +{1}
 · Peace guarantee upkeep, per quarter +{2}
 · Each quarter an NPC war runs without you taking a side +{2}
 · Each &apos;Warn&apos; you send against an offensive +{3} -->
-  <Rpt_Doctrine4_Gain>· Una cumbre que concluye +{0}\n· Una mediación que sale bien +{1}\n· Mantenimiento de una garantía de paz, por cuadrun +{2}\n· Cada cuadrun de una guerra entre PNJ sin que tomes partido +{2}\n· Cada «Mandar una advertencia» contra una ofensiva +{3}</Rpt_Doctrine4_Gain>
+  <Rpt_Doctrine4_Gain>- Una cumbre que concluye +{0}\n- Una mediación que sale bien +{1}\n- Mantenimiento de una garantía de paz, por cuadrun +{2}\n- Cada cuadrun de una guerra entre PNJ sin que tomes partido +{2}\n- Cada «Mandar una advertencia» contra una ofensiva +{3}</Rpt_Doctrine4_Gain>
   <!-- EN: Switching breaks {0} treaty(ies) at once -->
   <Rpt_UI_DoctrineWillBreak>El cambio rompe {0} tratado(s) en el acto</Rpt_UI_DoctrineWillBreak>
   <!-- EN: No doctrine chosen. Nothing is modified and nothing is blocked.\n\nChoosing one builds progress along that path and opens its nodes one by one. In exchange each doctrine has a discipline that blocks some treaties and actions. -->

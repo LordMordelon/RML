@@ -225,6 +225,7 @@ Se agregan acá a medida que aparezcan, con su origen.
 | succession struggle / claim | lucha por la sucesión / reclamo | propuesta | |
 | stability (de la unión) | estabilidad | propuesta | |
 | white peace / victorious peace | paz blanca / paz victoriosa | propuesta | |
+| «· » al principio de un renglón (viñeta) | «- » | Angel | 25-oct-2026, cambiadas por script las 53 que había. El «·» que separa en medio de un renglón («combatientes · fuerza») se queda |
 | Mediate (a) peace (el botón) | Negociar la paz | Angel | 25-oct-2026: «Mediar paz» no se dice en español; «mediación» queda para el sustantivo |
 | doctrine progress | progreso de doctrina | propuesta | |
 | Isolation / Mercantile / Hegemony / Mediator (doctrinas) | Aislamiento / Mercantil / Hegemonía / Mediador | propuesta | «Mediator doctrine» → «doctrina del Mediador»; «mercantile doctrine» → «doctrina mercantil» |
