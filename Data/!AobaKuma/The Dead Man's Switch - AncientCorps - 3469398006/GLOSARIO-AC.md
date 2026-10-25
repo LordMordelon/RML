@@ -25,7 +25,7 @@ Salen de las 740 traducciones que el mod tenía al reextraerlo el 25-oct-2026.
 | molot, krepost, gorod, zabor, shkatulka | **molot**, **krepost**, **gorod**, **zabor BR-4U**, **shkatulka BR-4U/FG** | Nombres propios en minúscula, con el código de modelo detrás |
 | NATO: «X» | **apodado por la OTAN "X"** | El apodo queda en inglés: «apodado por la OTAN "TankHead"» |
 | solid slug | **posta sólida** | La munición base de la KS-23K |
-| Tula combat shotgun | **escopeta de combate Tula** | Aprobado por Angel el 25-oct-2026. Tula es la ciudad de la fábrica (nombre propio), y en minúscula en Chile se lee como una grosería. Hoy dice «tula»: es un cambio de valor y va en su propio commit |
+| Tula combat shotgun | **escopeta de combate Talca** | Angel, 25-oct-2026. Tula es la ciudad rusa de la fábrica, pero en Chile «tula» es una grosería, aun con mayúscula: se cambia por Talca, ciudad chilena |
 
 ## Propuestos para lo nuevo
 

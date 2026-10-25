@@ -132,7 +132,7 @@ precisiones:
   «la Compañía Unida de Armamento Estelar o por sus siglas en inglés USAC (United Stellar Armament
   Company)», una vez por descripción, y siempre en la de la facción. El detalle está en `GLOSARIO-USAC.md`.
 
-Quedan decididos: «escopeta de combate Tula» (cambio de valor, en su propio commit), los rótulos de la
+Quedan decididos: «escopeta de combate Talca» (cambio de valor, en su propio commit; primero fue «Tula»), los rótulos de la
 terminal de Ascension (código en inglés, lo de después de `//` traducido), los apodos de sus mecas
 («M7 cobalto», «M88 rocky»), «cinder», «Flota Linterna», «la Cuna», «Fumée», «magier» y «Konzentrat».
 
