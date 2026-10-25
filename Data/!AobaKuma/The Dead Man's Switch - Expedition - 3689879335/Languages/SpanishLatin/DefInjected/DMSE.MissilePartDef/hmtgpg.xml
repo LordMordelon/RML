@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: thermonuclear warhead -->
+  <DMSE_Ballistic_Warhead_Thermonuclear.label>TODO</DMSE_Ballistic_Warhead_Thermonuclear.label>
+  <!-- EN: A massive blast warhead with thermonuclear yield. No special effects: the explosion radius and damage speak for themselves. -->
+  <DMSE_Ballistic_Warhead_Thermonuclear.description>TODO</DMSE_Ballistic_Warhead_Thermonuclear.description>
+  <!-- EN: airburst warhead -->
+  <DMSE_Ballistic_Warhead_Airburst.label>TODO</DMSE_Ballistic_Warhead_Airburst.label>
+  <!-- EN: Detonates above the target for maximum fragment coverage. When used as an interceptor, gains extra engagement rolls per engagement window. -->
+  <DMSE_Ballistic_Warhead_Airburst.description>TODO</DMSE_Ballistic_Warhead_Airburst.description>
+  <!-- EN: tungsten penetrator -->
+  <DMSE_Ballistic_Warhead_TungstenPenetrator.label>TODO</DMSE_Ballistic_Warhead_TungstenPenetrator.label>
+  <!-- EN: A dense tungsten rod that punches through thick roofs before detonating inside, making underground shelters no protection. -->
+  <DMSE_Ballistic_Warhead_TungstenPenetrator.description>TODO</DMSE_Ballistic_Warhead_TungstenPenetrator.description>
+  <!-- EN: inertial guidance -->
+  <DMSE_Ballistic_Guidance_Inertial.label>TODO</DMSE_Ballistic_Guidance_Inertial.label>
+  <!-- EN: Strap-down inertial reference unit. High accuracy is unnecessary at thermonuclear yield. Aim points follow a circular normal distribution around the target map center; it does not lock buildings or units. -->
+  <DMSE_Ballistic_Guidance_Inertial.description>TODO</DMSE_Ballistic_Guidance_Inertial.description>
+  <!-- EN: fire-control guidance -->
+  <DMSE_Ballistic_Guidance_FireControl.label>TODO</DMSE_Ballistic_Guidance_FireControl.label>
+  <!-- EN: Terminal guidance aided by the colony&apos;s fire-control radar network. Significantly tightens impact dispersion for precision strikes. -->
+  <DMSE_Ballistic_Guidance_FireControl.description>TODO</DMSE_Ballistic_Guidance_FireControl.description>
+  <!-- EN: laser terminal seeker -->
+  <DMSE_Ballistic_Guidance_Laser.label>TODO</DMSE_Ballistic_Guidance_Laser.label>
+  <!-- EN: Semi-active laser seeker for the re-entry vehicle. Locks onto the most recent laser designation your faction has painted on the target map with a laser target designator. Falls back to inertial targeting if there is none. -->
+  <DMSE_Ballistic_Guidance_Laser.description>TODO</DMSE_Ballistic_Guidance_Laser.description>
+  <!-- EN: no payload -->
+  <DMSE_Ballistic_Payload_None.label>TODO</DMSE_Ballistic_Payload_None.label>
+  <!-- EN: No secondary payload. The primary warhead alone is typically sufficient for a ballistic strike. -->
+  <DMSE_Ballistic_Payload_None.description>TODO</DMSE_Ballistic_Payload_None.description>
+  <!-- EN: cluster payload -->
+  <DMSE_Ballistic_Payload_Cluster.label>TODO</DMSE_Ballistic_Payload_Cluster.label>
+  <!-- EN: Releases a cloud of sub-munitions across a wide area. Trades blast concentration for area coverage. -->
+  <DMSE_Ballistic_Payload_Cluster.description>TODO</DMSE_Ballistic_Payload_Cluster.description>
+  <!-- EN: antiparticle payload -->
+  <DMSE_Ballistic_Payload_Antiparticle.label>TODO</DMSE_Ballistic_Payload_Antiparticle.label>
+  <!-- EN: A secondary antiparticle burst that vaporises everything in range. The most destructive secondary payload available. -->
+  <DMSE_Ballistic_Payload_Antiparticle.description>TODO</DMSE_Ballistic_Payload_Antiparticle.description>
+  <!-- EN: light HE warhead -->
+  <DMSE_Light_Warhead_HE.label>TODO</DMSE_Light_Warhead_HE.label>
+  <!-- EN: A compact high-explosive warhead scaled for light missiles. Standard blast, no special effects. -->
+  <DMSE_Light_Warhead_HE.description>TODO</DMSE_Light_Warhead_HE.description>
+  <!-- EN: incendiary warhead -->
+  <DMSE_Light_Warhead_Incendiary.label>TODO</DMSE_Light_Warhead_Incendiary.label>
+  <!-- EN: Scatters burning thermite on impact. Ignites all cells within N radius regardless of line of sight. -->
+  <DMSE_Light_Warhead_Incendiary.description>TODO</DMSE_Light_Warhead_Incendiary.description>
+  <!-- EN: continuous rod warhead -->
+  <DMSE_Light_Warhead_ContinuousRod.label>TODO</DMSE_Light_Warhead_ContinuousRod.label>
+  <!-- EN: A ring of steel rods that expand on detonation, maximising fragment density against aerial targets. Provides an intercept hit-chance bonus when used as a SAM round. -->
+  <DMSE_Light_Warhead_ContinuousRod.description>TODO</DMSE_Light_Warhead_ContinuousRod.description>
+  <!-- EN: inertial guidance -->
+  <DMSE_Light_Guidance_Inertial.label>TODO</DMSE_Light_Guidance_Inertial.label>
+  <!-- EN: Baseline strap-down inertial reference unit. No seekers; relies on pre-programmed flight path. Scatter unchanged. Aim points follow a circular normal distribution around the target map center; it does not lock buildings or units. -->
+  <DMSE_Light_Guidance_Inertial.description>TODO</DMSE_Light_Guidance_Inertial.description>
+  <!-- EN: heat-signature seeker -->
+  <DMSE_Light_Guidance_IR.label>TODO</DMSE_Light_Guidance_IR.label>
+  <!-- EN: A passive infrared seeker that homes on the strongest heat signature. Locks onto the hottest indoor room if it is at least 15°C warmer than outside; otherwise the largest creature on the map. Falls back to inertial targeting if neither is found. -->
+  <DMSE_Light_Guidance_IR.description>TODO</DMSE_Light_Guidance_IR.description>
+  <!-- EN: anti-radiation seeker -->
+  <DMSE_Light_Guidance_AntiRadiation.label>TODO</DMSE_Light_Guidance_AntiRadiation.label>
+  <!-- EN: Homes on active radar emissions. Locks onto the switched-on enemy radar with the highest power level on the target map; passive acoustic arrays are invisible to it. Falls back to the building drawing the most power, then to inertial targeting. -->
+  <DMSE_Light_Guidance_AntiRadiation.description>TODO</DMSE_Light_Guidance_AntiRadiation.description>
+  <!-- EN: laser seeker -->
+  <DMSE_Light_Guidance_Laser.label>TODO</DMSE_Light_Guidance_Laser.label>
+  <!-- EN: Semi-active laser seeker. Locks onto the most recent laser designation your faction has painted on the target map with a laser target designator. Falls back to inertial targeting if there is none. -->
+  <DMSE_Light_Guidance_Laser.description>TODO</DMSE_Light_Guidance_Laser.description>
+  <!-- EN: semi-active radar seeker -->
+  <DMSE_Light_Guidance_SemiActive.label>TODO</DMSE_Light_Guidance_SemiActive.label>
+  <!-- EN: A semi-active radar seeker that homes on the echo of a fire-control radar illuminating the target. Built for interception; against ground targets it falls back to inertial targeting with tight dispersion. -->
+  <DMSE_Light_Guidance_SemiActive.description>TODO</DMSE_Light_Guidance_SemiActive.description>
+  <!-- EN: no payload -->
+  <DMSE_Light_Payload_None.label>TODO</DMSE_Light_Payload_None.label>
+  <!-- EN: No secondary payload. The missile relies entirely on its primary warhead detonation. -->
+  <DMSE_Light_Payload_None.description>TODO</DMSE_Light_Payload_None.description>
+  <!-- EN: HE payload -->
+  <DMSE_Light_Payload_HighExplosive.label>TODO</DMSE_Light_Payload_HighExplosive.label>
+  <!-- EN: A secondary high-explosive charge that detonates after the primary warhead, extending the damage radius. -->
+  <DMSE_Light_Payload_HighExplosive.description>TODO</DMSE_Light_Payload_HighExplosive.description>
+  <!-- EN: decoy payload -->
+  <DMSE_Light_Payload_Decoy.label>TODO</DMSE_Light_Payload_Decoy.label>
+  <!-- EN: Radar reflectors and a signal augmenter in place of a secondary charge. On enemy radar the missile looks twice its size: it is detected earlier, and air defenses that rank threats by size engage it first. It does no extra damage. -->
+  <DMSE_Light_Payload_Decoy.description>TODO</DMSE_Light_Payload_Decoy.description>
+  <!-- EN: toxic gas payload -->
+  <DMSE_Light_Payload_ToxicGas.label>TODO</DMSE_Light_Payload_ToxicGas.label>
+  <!-- EN: Disperses a cloud of toxic gas across N tiles, persisting long after the blast to deny area to unprotected infantry. -->
+  <DMSE_Light_Payload_ToxicGas.description>TODO</DMSE_Light_Payload_ToxicGas.description>
+  <!-- EN: chaff dispenser -->
+  <DMSE_Light_Payload_Chaff.label>TODO</DMSE_Light_Payload_Chaff.label>
+  <!-- EN: A single chaff bundle and a handful of radar-absorbing streamers. One chance to break an enemy fire-control lock, then the dispenser is empty for the rest of the flight. -->
+  <DMSE_Light_Payload_Chaff.description>TODO</DMSE_Light_Payload_Chaff.description>
+  <!-- EN: high-explosive warhead -->
+  <DMSE_Warhead_HE.label>TODO</DMSE_Warhead_HE.label>
+  <!-- EN: A large blast warhead. Wide radius, high damage. -->
+  <DMSE_Warhead_HE.description>TODO</DMSE_Warhead_HE.description>
+  <!-- EN: armor-piercing warhead -->
+  <DMSE_Warhead_AP.label>TODO</DMSE_Warhead_AP.label>
+  <!-- EN: A focused penetrator. Smaller radius but far higher damage. -->
+  <DMSE_Warhead_AP.description>TODO</DMSE_Warhead_AP.description>
+  <!-- EN: EMP warhead -->
+  <DMSE_Warhead_EMP.label>TODO</DMSE_Warhead_EMP.label>
+  <!-- EN: Disables mechanoids and stuns targets in a wide area without lethal blast. -->
+  <DMSE_Warhead_EMP.description>TODO</DMSE_Warhead_EMP.description>
+  <!-- EN: inertial guidance -->
+  <DMSE_Guidance_Inertial.label>TODO</DMSE_Guidance_Inertial.label>
+  <!-- EN: Inertial navigation without target recognition. Aim points follow a circular normal distribution around the target map center, bounded by the map&apos;s inscribed circle. Does not lock buildings or units and provides no terminal guidance. -->
+  <DMSE_Guidance_Inertial.description>TODO</DMSE_Guidance_Inertial.description>
+  <!-- EN: active radar seeker -->
+  <DMSE_Guidance_ActiveRadar.label>TODO</DMSE_Guidance_ActiveRadar.label>
+  <!-- EN: A fire-and-forget active radar seeker. Locks the hostile building with the largest footprint; if no hostile buildings exist, locks the largest hostile creature by body size. Falls back to map-center inertial dispersion when no target is found. Provides terminal guidance. -->
+  <DMSE_Guidance_ActiveRadar.description>TODO</DMSE_Guidance_ActiveRadar.description>
+  <!-- EN: TV guidance -->
+  <DMSE_Guidance_Precision.label>TODO</DMSE_Guidance_Precision.label>
+  <!-- EN: An operator-guided TV seeker with a datalink back to the launch site. When the missile reaches the target map, the game pauses and you choose the impact point freely. Greatly tightens impact dispersion. Enemy-launched TV missiles have no operator and fall back to inertial targeting. -->
+  <DMSE_Guidance_Precision.description>TODO</DMSE_Guidance_Precision.description>
+  <!-- EN: electromagnetic-signal seeker -->
+  <DMSE_Guidance_EMSignal.label>TODO</DMSE_Guidance_EMSignal.label>
+  <!-- EN: Passive seeker that homes on electromagnetic emissions from power lines and machinery. Locks onto the powered enemy building drawing the most electricity on the target map. Falls back to inertial targeting if nothing is powered. -->
+  <DMSE_Guidance_EMSignal.description>TODO</DMSE_Guidance_EMSignal.description>
+  <!-- EN: anti-ship radar seeker -->
+  <DMSE_Guidance_AntiShip.label>TODO</DMSE_Guidance_AntiShip.label>
+  <!-- EN: An active radar seeker built for moving targets: ships and any other mobile base on the world map. It keeps re-aiming while the target keeps moving and does so more often than a normal seeker; the missile still misses if the target leaves its remaining range. -->
+  <DMSE_Guidance_AntiShip.description>TODO</DMSE_Guidance_AntiShip.description>
+  <!-- EN: laser seeker -->
+  <DMSE_Guidance_Laser.label>TODO</DMSE_Guidance_Laser.label>
+  <!-- EN: Semi-active laser seeker. Locks onto the most recent laser designation your faction has painted on the target map with a laser target designator. Falls back to inertial targeting if there is none. -->
+  <DMSE_Guidance_Laser.description>TODO</DMSE_Guidance_Laser.description>
+  <!-- EN: standard motor -->
+  <DMSE_Propulsion_Standard.label>TODO</DMSE_Propulsion_Standard.label>
+  <!-- EN: Baseline solid-fuel motor. -->
+  <DMSE_Propulsion_Standard.description>TODO</DMSE_Propulsion_Standard.description>
+  <!-- EN: boosted motor -->
+  <DMSE_Propulsion_Booster.label>TODO</DMSE_Propulsion_Booster.label>
+  <!-- EN: A higher-impulse motor that reaches the target faster and extends range. -->
+  <DMSE_Propulsion_Booster.description>TODO</DMSE_Propulsion_Booster.description>
+  <!-- EN: cluster submunitions -->
+  <DMSE_Payload_Cluster.label>TODO</DMSE_Payload_Cluster.label>
+  <!-- EN: Releases a secondary blast across the impact area. -->
+  <DMSE_Payload_Cluster.description>TODO</DMSE_Payload_Cluster.description>
+  <!-- EN: no payload -->
+  <DMSE_Payload_None.label>TODO</DMSE_Payload_None.label>
+  <!-- EN: No secondary payload. The warhead alone has to be enough, which keeps the Scorer airframe light and its range long. -->
+  <DMSE_Payload_None.description>TODO</DMSE_Payload_None.description>
+  <!-- EN: EMP submunitions -->
+  <DMSE_Payload_EMP.label>TODO</DMSE_Payload_EMP.label>
+  <!-- EN: A secondary EMP burst that stuns and disables electronics around the impact. -->
+  <DMSE_Payload_EMP.description>TODO</DMSE_Payload_EMP.description>
+  <!-- EN: unitary penetrating warhead -->
+  <DMSE_AdvCruise_Warhead_Unitary.label>TODO</DMSE_AdvCruise_Warhead_Unitary.label>
+  <!-- EN: A WDU-36-class unitary charge: a lighter, tougher case with more explosive efficiency than the old Scorer warhead, and enough penetration to open a roof before it detonates. -->
+  <DMSE_AdvCruise_Warhead_Unitary.description>TODO</DMSE_AdvCruise_Warhead_Unitary.description>
+  <!-- EN: hard-target penetrator -->
+  <DMSE_AdvCruise_Warhead_Penetrator.label>TODO</DMSE_AdvCruise_Warhead_Penetrator.label>
+  <!-- EN: A dense tungsten penetrator that punches through thick roofs and overhead mountain before detonating inside, in the bunker-buster role the Tomahawk family also carries. Underground shelters stop being protection. -->
+  <DMSE_AdvCruise_Warhead_Penetrator.description>TODO</DMSE_AdvCruise_Warhead_Penetrator.description>
+  <!-- EN: terrain-matching guidance -->
+  <DMSE_AdvCruise_Guidance_TerrainMatch.label>TODO</DMSE_AdvCruise_Guidance_TerrainMatch.label>
+  <!-- EN: Terrain contour matching and scene matching in the TERCOM/DSMAC tradition: the missile flies a survey-grade route and corrects itself against the ground, giving very tight dispersion. It cannot be re-targeted in flight and has no terminal guidance at all, so a target that moves away is simply missed. Aim points follow a circular normal distribution around the target map center; it does not lock buildings or units. -->
+  <DMSE_AdvCruise_Guidance_TerrainMatch.description>TODO</DMSE_AdvCruise_Guidance_TerrainMatch.description>
+  <!-- EN: two-way datalink -->
+  <DMSE_AdvCruise_Guidance_Datalink.label>TODO</DMSE_AdvCruise_Guidance_Datalink.label>
+  <!-- EN: A satellite datalink of the Block IV kind: the missile can be re-targeted while in flight and even loiter, and when it reaches the target map the game pauses and you pick the impact point yourself. The most accurate option, and the only one that lets a moving target be chased mid-flight. -->
+  <DMSE_AdvCruise_Guidance_Datalink.description>TODO</DMSE_AdvCruise_Guidance_Datalink.description>
+  <!-- EN: anti-ship radar seeker -->
+  <DMSE_AdvCruise_Guidance_AntiShip.label>TODO</DMSE_AdvCruise_Guidance_AntiShip.label>
+  <!-- EN: An active radar seeker built for moving targets: ships and any other mobile base on the world map. It keeps re-aiming while the target keeps moving and does so more often than a normal seeker; the missile still misses if the target leaves its remaining range. -->
+  <DMSE_AdvCruise_Guidance_AntiShip.description>TODO</DMSE_AdvCruise_Guidance_AntiShip.description>
+  <!-- EN: turbofan sustainer -->
+  <DMSE_AdvCruise_Propulsion_Turbofan.label>TODO</DMSE_AdvCruise_Propulsion_Turbofan.label>
+  <!-- EN: A small turbofan in the F107 class, burning liquid fuel at altitude. Far more efficient than a rocket motor and much quieter on radar than a booster, at the cost of speed. -->
+  <DMSE_AdvCruise_Propulsion_Turbofan.description>TODO</DMSE_AdvCruise_Propulsion_Turbofan.description>
+  <!-- EN: extended-range turbofan -->
+  <DMSE_AdvCruise_Propulsion_TurbofanER.label>TODO</DMSE_AdvCruise_Propulsion_TurbofanER.label>
+  <!-- EN: A fuel-optimised turbofan with a larger tank. The longest reach of any cruise configuration, but the slowest to arrive and the most expensive to build. -->
+  <DMSE_AdvCruise_Propulsion_TurbofanER.description>TODO</DMSE_AdvCruise_Propulsion_TurbofanER.description>
+  <!-- EN: solid rocket booster -->
+  <DMSE_AdvCruise_Propulsion_Booster.label>TODO</DMSE_AdvCruise_Propulsion_Booster.label>
+  <!-- EN: A jettisonable solid booster that shoves the missile to speed and then burns out. Very fast and very obvious: range suffers because the booster case and propellant eat into the airframe budget. -->
+  <DMSE_AdvCruise_Propulsion_Booster.description>TODO</DMSE_AdvCruise_Propulsion_Booster.description>
+  <!-- EN: no payload -->
+  <DMSE_AdvCruise_Payload_None.label>TODO</DMSE_AdvCruise_Payload_None.label>
+  <!-- EN: No secondary payload. The unitary warhead and the fuel tank get the whole airframe. -->
+  <DMSE_AdvCruise_Payload_None.description>TODO</DMSE_AdvCruise_Payload_None.description>
+  <!-- EN: submunition dispenser -->
+  <DMSE_AdvCruise_Payload_Submunition.label>TODO</DMSE_AdvCruise_Payload_Submunition.label>
+  <!-- EN: A dispenser of combined-effects bomblets in the TLAM-D tradition: the missile opens up over the target and scatters a cluster of small charges across the area instead of one concentrated blast. -->
+  <DMSE_AdvCruise_Payload_Submunition.description>TODO</DMSE_AdvCruise_Payload_Submunition.description>
+  <!-- EN: graphite filament payload -->
+  <DMSE_AdvCruise_Payload_Graphite.label>TODO</DMSE_AdvCruise_Payload_Graphite.label>
+  <!-- EN: A carbon-fibre payload in the Kit-2 tradition: instead of blast, it shorts out the electrical grid around the impact, disabling powered buildings and stunning mechanoids over a wide radius. -->
+  <DMSE_AdvCruise_Payload_Graphite.description>TODO</DMSE_AdvCruise_Payload_Graphite.description>
+  <!-- EN: decoy payload -->
+  <DMSE_AdvCruise_Payload_Decoy.label>TODO</DMSE_AdvCruise_Payload_Decoy.label>
+  <!-- EN: Radar reflectors and a signal augmenter in place of a secondary charge. On enemy radar the missile looks twice its size: it is detected earlier, and air defences that rank threats by size engage it first. It does no extra damage. -->
+  <DMSE_AdvCruise_Payload_Decoy.description>TODO</DMSE_AdvCruise_Payload_Decoy.description>
+  <!-- EN: chaff dispenser -->
+  <DMSE_AdvCruise_Payload_Chaff.label>TODO</DMSE_AdvCruise_Payload_Chaff.label>
+  <!-- EN: A heavier chaff and streamer dispenser for the cruise airframe. Each bundle can break an enemy fire-control lock; there are more bundles than the light dispenser carries, but they are still expended one by one and never reloaded in flight. -->
+  <DMSE_AdvCruise_Payload_Chaff.description>TODO</DMSE_AdvCruise_Payload_Chaff.description>
+  <!-- EN: tandem shaped-charge warhead -->
+  <DMSE_AdvLight_Warhead_HEAT.label>TODO</DMSE_AdvLight_Warhead_HEAT.label>
+  <!-- EN: A tandem high-explosive anti-tank charge in the class of the AGM-114K. The precursor charge defeats reactive armour and the main jet carries the damage inside the target, so the blast radius is small but the damage is concentrated. -->
+  <DMSE_AdvLight_Warhead_HEAT.description>TODO</DMSE_AdvLight_Warhead_HEAT.description>
+  <!-- EN: blast-fragmentation warhead -->
+  <DMSE_AdvLight_Warhead_BlastFrag.label>TODO</DMSE_AdvLight_Warhead_BlastFrag.label>
+  <!-- EN: A blast-fragmentation charge in the class of the AGM-114M: a heavier case and a pre-fragmented sleeve trade penetration for a wider lethal radius against infantry and light structures. -->
+  <DMSE_AdvLight_Warhead_BlastFrag.description>TODO</DMSE_AdvLight_Warhead_BlastFrag.description>
+  <!-- EN: thermobaric warhead -->
+  <DMSE_AdvLight_Warhead_Thermobaric.label>TODO</DMSE_AdvLight_Warhead_Thermobaric.label>
+  <!-- EN: A metal augmented charge in the class of the AGM-114N. The fuel cloud burns rather than fragments: a small blast, but searing burns and fires that are far worse inside a room or bunker than in the open. -->
+  <DMSE_AdvLight_Warhead_Thermobaric.description>TODO</DMSE_AdvLight_Warhead_Thermobaric.description>
+  <!-- EN: kinetic blade warhead -->
+  <DMSE_AdvLight_Warhead_Kinetic.label>TODO</DMSE_AdvLight_Warhead_Kinetic.label>
+  <!-- EN: An inert mass with pop-out blades in the class of the AGM-114R9X. There is almost no explosive filler: the round kills the creature it hits and leaves the surroundings largely intact, at the cost of any real blast effect. -->
+  <DMSE_AdvLight_Warhead_Kinetic.description>TODO</DMSE_AdvLight_Warhead_Kinetic.description>
+  <!-- EN: inertial guidance -->
+  <DMSE_AdvLight_Guidance_Inertial.label>TODO</DMSE_AdvLight_Guidance_Inertial.label>
+  <!-- EN: A cheap strap-down inertial unit. No seeker, no terminal guidance and no cross-layer reach. Aim points follow a circular normal distribution around the target map center; it does not lock buildings or units. -->
+  <DMSE_AdvLight_Guidance_Inertial.description>TODO</DMSE_AdvLight_Guidance_Inertial.description>
+  <!-- EN: imaging infra-red seeker -->
+  <DMSE_AdvLight_Guidance_IIR.label>TODO</DMSE_AdvLight_Guidance_IIR.label>
+  <!-- EN: An imaging infra-red seeker that locks the hottest enclosed room if it is at least 15°C above the outdoors, and otherwise the largest creature on the target map. Fire-and-forget: no operator, no line of sight and no laser needed. -->
+  <DMSE_AdvLight_Guidance_IIR.description>TODO</DMSE_AdvLight_Guidance_IIR.description>
+  <!-- EN: semi-active laser seeker -->
+  <DMSE_AdvLight_Guidance_Laser.label>TODO</DMSE_AdvLight_Guidance_Laser.label>
+  <!-- EN: A semi-active laser seeker that homes on the most recent laser designation your faction has painted on the target map. The tightest dispersion of any seeker in this class, but there has to be a designator on the ground. -->
+  <DMSE_AdvLight_Guidance_Laser.description>TODO</DMSE_AdvLight_Guidance_Laser.description>
+  <!-- EN: millimetre-wave radar seeker -->
+  <DMSE_AdvLight_Guidance_MMW.label>TODO</DMSE_AdvLight_Guidance_MMW.label>
+  <!-- EN: A fire-and-forget millimetre-wave radar seeker in the class of the AGM-114L Longbow. It locks the hostile building with the largest footprint, or the largest hostile creature if no hostile buildings exist by itself, with no designator, no operator and no clear weather required. -->
+  <DMSE_AdvLight_Guidance_MMW.description>TODO</DMSE_AdvLight_Guidance_MMW.description>
+  <!-- EN: no payload -->
+  <DMSE_AdvLight_Payload_None.label>TODO</DMSE_AdvLight_Payload_None.label>
+  <!-- EN: No secondary charge. The warhead alone has to be enough, which keeps the missile light and the range long. -->
+  <DMSE_AdvLight_Payload_None.description>TODO</DMSE_AdvLight_Payload_None.description>
+  <!-- EN: secondary high-explosive charge -->
+  <DMSE_AdvLight_Payload_HE.label>TODO</DMSE_AdvLight_Payload_HE.label>
+  <!-- EN: A small secondary charge that detonates after the warhead, widening the damage radius a little. -->
+  <DMSE_AdvLight_Payload_HE.description>TODO</DMSE_AdvLight_Payload_HE.description>
+  <!-- EN: fragmentation sleeve -->
+  <DMSE_AdvLight_Payload_FragSleeve.label>TODO</DMSE_AdvLight_Payload_FragSleeve.label>
+  <!-- EN: An external pre-fragmented sleeve wrapped around the warhead. It sprays dense fragments over the impact area, badly wounding exposed infantry, but the extra mass costs a quarter of the missile&apos;s range. -->
+  <DMSE_AdvLight_Payload_FragSleeve.description>TODO</DMSE_AdvLight_Payload_FragSleeve.description>
+  <!-- EN: chaff dispenser -->
+  <DMSE_AdvLight_Payload_Chaff.label>TODO</DMSE_AdvLight_Payload_Chaff.label>
+  <!-- EN: A dispenser of chaff bundles and radar-absorbing streamers. When an enemy fire-control radar locks this missile, the dispenser can break the lock once per bundle; the bundles are a limited, one-way resource and do not make the missile quieter before the first lock. -->
+  <DMSE_AdvLight_Payload_Chaff.description>TODO</DMSE_AdvLight_Payload_Chaff.description>
+  <!-- EN: low-yield warhead -->
+  <DMSE_AdvBallistic_Warhead_LowYield.label>TODO</DMSE_AdvBallistic_Warhead_LowYield.label>
+  <!-- EN: A reduced-yield strategic warhead of the W78/W87 class scaled down for tactical use. Smaller blast and less damage than the full thermonuclear package, but far cheaper and safer to keep on alert. -->
+  <DMSE_AdvBallistic_Warhead_LowYield.description>TODO</DMSE_AdvBallistic_Warhead_LowYield.description>
+  <!-- EN: stellar-inertial guidance -->
+  <DMSE_AdvBallistic_Guidance_Stellar.label>TODO</DMSE_AdvBallistic_Guidance_Stellar.label>
+  <!-- EN: A stellar-updated inertial platform in the NS-50 tradition: star trackers trim the drift of the gyros during the coast, cutting dispersion to almost nothing. It is still a ballistic path with no terminal seeker, so a target that moves is still missed. Aim points follow a circular normal distribution around the target map center; it does not lock buildings or units. -->
+  <DMSE_AdvBallistic_Guidance_Stellar.description>TODO</DMSE_AdvBallistic_Guidance_Stellar.description>
+  <!-- EN: penetration aids -->
+  <DMSE_AdvBallistic_Payload_Penaids.label>TODO</DMSE_AdvBallistic_Payload_Penaids.label>
+  <!-- EN: Chaff, radar decoys and a low-observable shroud released with the re-entry vehicle. The missile shows up as a much smaller target on the way in, so enemy radars pick it up later and have less time to engage it. -->
+  <DMSE_AdvBallistic_Payload_Penaids.description>TODO</DMSE_AdvBallistic_Payload_Penaids.description>
+  <!-- EN: multiple re-entry vehicles -->
+  <DMSE_AdvBallistic_Payload_MIRV.label>TODO</DMSE_AdvBallistic_Payload_MIRV.label>
+  <!-- EN: A bus of several independent re-entry vehicles released before the terminal phase. This implementation keeps one impact point and spreads the sub-charges around it; a true multiple-target bus would need a different impact model. -->
+  <DMSE_AdvBallistic_Payload_MIRV.description>TODO</DMSE_AdvBallistic_Payload_MIRV.description>
+  <!-- EN: Amatol warhead -->
+  <DMSE_LegacyBallistic_Warhead_Amatol.label>TODO</DMSE_LegacyBallistic_Warhead_Amatol.label>
+  <!-- EN: Eight hundred and fifty kilograms of Amatol, a Second World War blast filler: simple, stable and cheap enough to build out of industrial stock. No special effects, just a large hole. -->
+  <DMSE_LegacyBallistic_Warhead_Amatol.description>TODO</DMSE_LegacyBallistic_Warhead_Amatol.description>
+  <!-- EN: Trialen warhead -->
+  <DMSE_LegacyBallistic_Warhead_Trialen.label>TODO</DMSE_LegacyBallistic_Warhead_Trialen.label>
+  <!-- EN: The later Trialen filler used when supplies of Amatol ran short: it adds an incendiary component to the blast, so the impact starts fires around the crater. Slightly more expensive and no more accurate. -->
+  <DMSE_LegacyBallistic_Warhead_Trialen.description>TODO</DMSE_LegacyBallistic_Warhead_Trialen.description>
+  <!-- EN: inertial guidance -->
+  <DMSE_Shahed_Guidance_Inertial.label>TODO</DMSE_Shahed_Guidance_Inertial.label>
+  <!-- EN: Standard long-range loitering munition inertial navigation. No target recognition or terminal guidance. Aim points follow a circular normal distribution around the map center. Uses one fire-control channel. -->
+  <DMSE_Shahed_Guidance_Inertial.description>TODO</DMSE_Shahed_Guidance_Inertial.description>
+  <!-- EN: TV guidance -->
+  <DMSE_Shahed_Guidance_TV.label>TODO</DMSE_Shahed_Guidance_TV.label>
+  <!-- EN: Optional long-range loitering munition TV guidance module. Lets the player choose the impact point when the drone reaches the target map. Costs one advanced component and occupies one additional fire-control channel (two in total). Enemy-launched TV drones fall back to inertial targeting. -->
+  <DMSE_Shahed_Guidance_TV.description>TODO</DMSE_Shahed_Guidance_TV.description>
+</LanguageData>

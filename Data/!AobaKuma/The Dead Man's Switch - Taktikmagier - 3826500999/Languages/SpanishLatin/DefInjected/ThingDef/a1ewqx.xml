@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Magier helmet -->
+  <DMST_Apparel_MagierHelmet.label>TODO</DMST_Apparel_MagierHelmet.label>
+  <!-- EN: A psychic helmet worn by magiers, Based on a tactical helmet and covered with a high conical hat made of military-standard fiber. Its surface has a psychically powered active camouflage, but complete invisibility requires wearing a magier cloak. -->
+  <DMST_Apparel_MagierHelmet.description>TODO</DMST_Apparel_MagierHelmet.description>
+  <!-- EN: Magier cloak -->
+  <DMST_Apparel_MagierCloak.label>TODO</DMST_Apparel_MagierCloak.label>
+  <!-- EN: An active optical camouflage cloak equipped by magiers. It has an active camouflage ability driven by psychic power, which consumes psychic entropy. requires a magier helmet to be effective. -->
+  <DMST_Apparel_MagierCloak.description>TODO</DMST_Apparel_MagierCloak.description>
+  <!-- EN: field manual -->
+  <DMST_FieldManual.label>TODO</DMST_FieldManual.label>
+  <!-- EN: A Colonization Fleet field manual: one Militärmagier spell broken down into numbered drills and printed for issue. Reading it through teaches that spell to a psycaster whose psylink is strong enough to cast it. -->
+  <DMST_FieldManual.description>TODO</DMST_FieldManual.description>
+  <!-- EN: Konzentrat -->
+  <DMST_Konzentrat.label>TODO</DMST_Konzentrat.label>
+  <!-- EN: A Fleet-issue injectable for psycasters in the field, where there is no time to meditate. It forces a magier&apos;s psychic focus back up on the spot, at the cost of half a day of dulled psychic sensitivity. Several doses in a row risk an overdose. -->
+  <DMST_Konzentrat.description>TODO</DMST_Konzentrat.description>
+  <!-- EN: Inject {0} -->
+  <DMST_Konzentrat.ingestible.ingestCommandString>TODO</DMST_Konzentrat.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <DMST_Konzentrat.ingestible.ingestReportString>TODO</DMST_Konzentrat.ingestible.ingestReportString>
+  <!-- EN: magier sigil -->
+  <DMST_MagierSigil.label>TODO</DMST_MagierSigil.label>
+  <!-- EN: An implant and identification code used by the Colonization Fleet&apos;s tactical magier corps to mark a caster&apos;s identity - usually so that members of the fleet do not realize who they were dealing with only after making a grave mistake. Beyond identification, it uses transcendent power to bind the place the caster&apos;s subconscious holds to be safest, so that when they lose consciousness or come close to death it raises a space-folding field to carry them out of danger, and to keep them from falling into enemy hands alive.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; when the bearer goes down, 80% chance to stop their bleeding and teleport them - beside a bed in the colony for the player, off the map for anyone else. When the bearer dies, the body is teleported the same way. Does nothing for prisoners, slaves, or under anaesthesia. -->
+  <DMST_MagierSigil.description>TODO</DMST_MagierSigil.description>
+  <!-- EN: gargoyle -->
+  <DMST_Construct_Gargoyle.label>TODO</DMST_Construct_Gargoyle.label>
+  <!-- EN: assembled components which animated by powerful psychic energy. It will engage nearby threats and defend the master from any harm that may come to them.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;Constructs occupy part of the neural heat limit of the caster that summoned them. Keeping too many constructs alive could prevent the psycaster from casting other abilities. -->
+  <DMST_Construct_Gargoyle.description>TODO</DMST_Construct_Gargoyle.description>
+  <!-- EN: head -->
+  <DMST_Construct_Gargoyle.tools.0.label>TODO</DMST_Construct_Gargoyle.tools.0.label>
+  <!-- EN: left fist -->
+  <DMST_Construct_Gargoyle.tools.1.label>TODO</DMST_Construct_Gargoyle.tools.1.label>
+  <!-- EN: right fist -->
+  <DMST_Construct_Gargoyle.tools.2.label>TODO</DMST_Construct_Gargoyle.tools.2.label>
+  <!-- EN: Sentry turret -->
+  <DMST_Turret_Sentry.label>TODO</DMST_Turret_Sentry.label>
+  <!-- EN: A quick-deployed, disposable remote-controlled turret that can be used continuously for about 12 hours after being deployed. It will automatically shut down after the energy is used up. These type of equipments are usually deployed in urban combat environments to ambush enemies. -->
+  <DMST_Turret_Sentry.description>TODO</DMST_Turret_Sentry.description>
+  <!-- EN: Battery power -->
+  <DMST_Turret_Sentry.comps.CompMechPowerCell.labelOverride>TODO</DMST_Turret_Sentry.comps.CompMechPowerCell.labelOverride>
+  <!-- EN: broom -->
+  <DMST_MagierBroom.label>TODO</DMST_MagierBroom.label>
+  <!-- EN: An anti-materiel rifle converted from the standard-issue Mech Semiauto Rifle. It is more practical than the tactical brooms magiers use in training; its one shortcoming is that it cannot sweep the floor. Forged from tungsteel alloy and psychic matter, it is engraved with precise sigils that turn psychic power into repulsion. Passively they use psychic power to lighten the rifle, and when actively triggered they can even carry the wielder on a long flight.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; only psycasters (a psylink and psychic sensitivity) can wield it. In a psycaster&apos;s hands its mass and movement penalty are divided by 1 + their psychic sensitivity. The wielder gains the psycast &quot;broom flight&quot;. -->
+  <DMST_MagierBroom.description>TODO</DMST_MagierBroom.description>
+  <!-- EN: stock -->
+  <DMST_MagierBroom.tools.0.label>TODO</DMST_MagierBroom.tools.0.label>
+  <!-- EN: barrel -->
+  <DMST_MagierBroom.tools.1.label>TODO</DMST_MagierBroom.tools.1.label>
+  <!-- EN: broom -->
+  <DMST_MagierBroom.verbs.Verb_Shoot.label>TODO</DMST_MagierBroom.verbs.Verb_Shoot.label>
+  <!-- EN: sentry construct gun -->
+  <DMST_Gun_SentryConstruct.label>TODO</DMST_Gun_SentryConstruct.label>
+  <!-- EN: The weapon half of an assembled sentry construct. It has no magazine to speak of - rounds condense out of the same crystallised entropy that holds the frame together, and stop when that runs out. -->
+  <DMST_Gun_SentryConstruct.description>TODO</DMST_Gun_SentryConstruct.description>
+  <!-- EN: sentry construct gun -->
+  <DMST_Gun_SentryConstruct.verbs.Verb_ShootCE.label>TODO</DMST_Gun_SentryConstruct.verbs.Verb_ShootCE.label>
+</LanguageData>

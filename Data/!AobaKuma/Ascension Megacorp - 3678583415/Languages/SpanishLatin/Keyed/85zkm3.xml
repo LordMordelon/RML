@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Open supply crate -->
+  <USAC_OpenCrate>TODO</USAC_OpenCrate>
+  <!-- EN: Supply crate opened -->
+  <USAC_CrateOpened>TODO</USAC_CrateOpened>
+  <!-- EN: TERMS_OF_SERVICE // User Service Agreement -->
+  <USAC.Terms.Title>TODO</USAC.Terms.Title>
+  <!-- EN: USAC Trade Terminal Use and Service Master Agreement
+
+This agreement is entered into by the user (hereinafter referred to as the &quot;User&quot;) and United.Stellar.Armament.Company (hereinafter referred to as &quot;USAC&quot; or the &quot;Company&quot;) and is legally binding. By voluntarily connecting to or using the Company&apos;s communication segments, system ports, and logistics response chains (collectively, the &quot;Service&quot;), the User is deemed to have read, understood, and unconditionally agreed to be bound by all terms of this agreement and any subsequent amendments.
+
+1. Data Collection and Privacy Notice
+  1.1 Authorization for data collection. The User agrees that, as a necessary condition for USAC to provide and optimize the Service, the Company will continuously collect operational data through its telemetry network, including but not limited to system logs, interaction records, and real-time random sampling of carbon-based vital signs, environmental media, and genetic fragments within the User&apos;s defended area (collectively, the &quot;Preliminary Telemetry Data&quot;).
+  1.2 Ownership of data and derivatives. All physical samples, analytical models, and related intellectual property generated from the Preliminary Telemetry Data are exclusively acquired and fully owned by USAC. The User hereby grants USAC complete, irrevocable, royalty-free rights covering all star sectors involved in the Company&apos;s services.
+
+2. Service Availability and Force Majeure
+  2.1 Service capability limits. USAC will make commercially reasonable efforts to maintain the normal operation of communication and logistics services. The Company bears no liability for breach, nor for pre-contractual fault, in respect of degraded transmission or dispatch caused by objective factors not directly attributable to the Company, including abnormal deep-space physical constants, orbital occlusion, or equipment overload.
+  2.2 Asset recovery rights under extreme circumstances. In the event of extreme financial restructuring or the withdrawal of strategic defense systems, USAC reserves the right, without prior notice, to forcibly recover and reallocate armed facilities and resources that have been delivered but not yet actually consumed, in order to preserve baseline redundancy and the Company&apos;s overall interests. The User may not raise claims or allege breach on this basis.
+
+3. Shipment and Delivery Terms
+  3.1 Delivery of routine materials and personnel. For personnel allotments and non-construction materials, USAC will use orbital drop-pod modules as the standard delivery vehicle according to operational conditions. Landing coordinates are automatically determined from preliminary telemetry data at high-orbit nodes, and the Company makes no guarantee regarding minor deviations or absolute precision at the final landing point.
+  3.2 Orbital deployment of structural goods. For all defensive arrays, prefabricated building units, and equivalent structural facilities under this agreement (collectively, the &quot;Facility Goods&quot;), regardless of size or mass, USAC will uniformly require vertical overhead delivery with or without damping by means of an orbital transport clamp.
+  3.3 Derivative impacts of delivery and waiver of liability. The User understands and acknowledges that, due to the objective engineering characteristics of the orbital ballistic delivery methods and clamp anchoring technologies described above, the delivery process necessarily includes the following physical limitations:
+    a. Incidental environmental effects. During logistics execution, object touchdown, and carrier disengagement, including clamp release, it is unavoidable that certain levels of crustal settlement, structural stress propagation, debris projection, and thermal discharge (collectively, the &quot;Incidental Environmental Effects&quot;) will occur.
+    b. Disclaimer for physical damage and consequential loss. To the fullest extent permitted by applicable law, USAC and its carriers bear no responsibility for repair, restoration, or monetary compensation for direct or indirect consequences arising from logistics execution, Incidental Environmental Effects, or insufficient bearing capacity at the landing site, including accidental injury or death of personnel or livestock, destruction or loss of existing structures, and depletion of natural resources, including vegetation and mineral deposits. All explicit and implicit risks resulting from delivery are borne solely by the User.
+    c. Transfer of identified assets. For all delivered entities equipped with autonomous defense protocols or armed identification logic, including defensive vehicles and biochemical employees, the operational risk and legal responsibility transfer to the receiving party the moment they fully leave USAC&apos;s near-orbit control (&quot;onshore transfer&quot;). Losses within the User&apos;s base or friendly-fire incidents caused by misidentification or hostile-response activation shall be deemed the responsibility of the receiving party&apos;s on-site deployment and maintenance management, and USAC will not entertain any related claims.
+
+4. Settlement Rules and Default Handling
+  4.1 Pricing and payment. All service functions are governed by preset billing rules, and the User must pay the full listed price shown by the system in approved tokens.
+  4.2 Overdue settlement and payment in kind. If the User fails to make full repayment within the grace period, USAC may initiate non-judicial compulsory subrogation procedures. To recover overdue principal and collection costs, USAC may, without interference from local injunction procedures, freeze and forcibly remove transferable physical assets within the User&apos;s effective jurisdiction, including but not limited to strategic precious-metal reserves, qualified biological labor and tissues, derivative organ sets, and recoverable scrap mechanical units.
+
+5. Compliance Commitments and Use Restrictions
+During the validity period of the Service authorization, the User is expressly prohibited from performing or assisting any third party in performing the following acts:
+  5.1 Prohibited acts.
+    a. Disseminating or introducing unverified false identity protocols to evade authentication and credit evaluation.
+    b. Reverse engineering or disassembling contracted components to penetrate or sabotage the network core layer.
+    c. Obstructing, resisting, or responding with kinetic force to Company line inspectors, damage assessment teams, or frontline debt-collection squads, regardless of whether those personnel are targeting the User directly.
+  5.2 Termination for breach. Any obvious violation of the compliance requirements above constitutes a material and incurable breach of this agreement. USAC may immediately terminate communication and service privileges unilaterally and directly initiate asset preservation procedures and armed liquidation orders under Section 4.2.
+
+6. Liability Cap and Final Interpretation
+  6.1 Exclusive compensation cap. Unless the parties separately execute a supplemental property exemption agreement, the maximum cumulative liability of USAC and its co-signing carriers for any direct or indirect physical damage, friendly-fire incident, or total facility collapse arising from the use or inability to use the Service shall be limited to refunding the exact amount actually paid by the User for the service currently in dispute. The Company expressly disclaims any legal compensation for unknown losses, consequential damages, prospective value loss, goodwill impairment, or other indirect damages.
+  6.2 Sole right of interpretation. USAC reserves the final right of interpretation regarding any textual ambiguity or dispute over the application of this agreement to specific circumstances, and that interpretation shall be binding on the User. -->
+  <USAC.Terms.Content>TODO</USAC.Terms.Content>
+  <!-- EN: Accept agreement -->
+  <USAC.Terms.Accept>TODO</USAC.Terms.Accept>
+  <!-- EN: Decline -->
+  <USAC.Terms.Decline>TODO</USAC.Terms.Decline>
+  <!-- EN: [USAC] You declined the user agreement and cannot use the USAC trade terminal. -->
+  <USAC.Terms.DeclineMessage>TODO</USAC.Terms.DeclineMessage>
+  <!-- EN: Enable USAC trade terminal and agreement popup -->
+  <USAC.Settings.EnableUSACTerminal>TODO</USAC.Settings.EnableUSACTerminal>
+  <!-- EN: If enabled, the vanilla comms console will be intercepted and the USAC agreement will appear before the first trade. If you decline the agreement in-game, this option will be automatically unchecked. If disabled, the game will permanently revert to the default vanilla or third-party trading interface. -->
+  <USAC.Settings.EnableUSACTerminalDesc>TODO</USAC.Settings.EnableUSACTerminalDesc>
+  <!-- EN: &lt; BACK -->
+  <USAC.UI.Back>TODO</USAC.UI.Back>
+  <!-- EN: CREDITS -->
+  <USAC.UI.Credits>TODO</USAC.UI.Credits>
+  <!-- EN: STRATEGIC_OVERVIEW // Strategic overview -->
+  <USAC.UI.Home.Title>TODO</USAC.UI.Home.Title>
+  <!-- EN: UNITED STELLAR ARMAMENT COMPANY\n[CORPORATE_INTRANET_V4.2] -->
+  <USAC.UI.Home.Banner>TODO</USAC.UI.Home.Banner>
+  <!-- EN: DEFINING THE FUTURE OF PLANETARY SECURITY -->
+  <USAC.UI.Home.Slogan>TODO</USAC.UI.Home.Slogan>
+  <!-- EN: USAC leads the field in interstellar resource monopoly and armed trade. Through our orbital settlement network, we guarantee absolute asset liquidity. -->
+  <USAC.UI.Home.Description>TODO</USAC.UI.Home.Description>
+  <!-- EN: ARMORY_CATALOG -->
+  <USAC.UI.Home.Bento.Products.Title>TODO</USAC.UI.Home.Bento.Products.Title>
+  <!-- EN: Catalog of authorized weapons and mechanized systems -->
+  <USAC.UI.Home.Bento.Products.Desc>TODO</USAC.UI.Home.Bento.Products.Desc>
+  <!-- EN: FINANCIAL_TERMINAL -->
+  <USAC.UI.Home.Bento.Assets.Title>TODO</USAC.UI.Home.Bento.Assets.Title>
+  <!-- EN: Credit assets and debt leverage management -->
+  <USAC.UI.Home.Bento.Assets.Desc>TODO</USAC.UI.Home.Bento.Assets.Desc>
+  <!-- EN: COMPLIANCE -->
+  <USAC.UI.Home.Bento.Legal.Title>TODO</USAC.UI.Home.Bento.Legal.Title>
+  <!-- EN: Legal clauses and automated collection protocols -->
+  <USAC.UI.Home.Bento.Legal.Desc>TODO</USAC.UI.Home.Bento.Legal.Desc>
+  <!-- EN: CORPORATE_SERVICES -->
+  <USAC.UI.Home.Bento.Services.Title>TODO</USAC.UI.Home.Bento.Services.Title>
+  <!-- EN: Tailored corporate support and remote asset maintenance -->
+  <USAC.UI.Home.Bento.Services.Desc>TODO</USAC.UI.Home.Bento.Services.Desc>
+  <!-- EN: AUTHORIZED_PRODUCT_CATALOG // Authorized catalog -->
+  <USAC.UI.Products.Title>TODO</USAC.UI.Products.Title>
+  <!-- EN: Mech orders -->
+  <USAC.UI.Products.Tab.Mech>TODO</USAC.UI.Products.Tab.Mech>
+  <!-- EN: Tactical weapons -->
+  <USAC.UI.Products.Tab.Weapon>TODO</USAC.UI.Products.Tab.Weapon>
+  <!-- EN: Tactical gear -->
+  <USAC.UI.Products.Tab.Apparel>TODO</USAC.UI.Products.Tab.Apparel>
+  <!-- EN: Logistics supplies -->
+  <USAC.UI.Products.Tab.Supply>TODO</USAC.UI.Products.Tab.Supply>
+  <!-- EN: PRODUCT_SPECIFICATION // Product specification -->
+  <USAC.UI.Detail.Title>TODO</USAC.UI.Detail.Title>
+  <!-- EN: EXECUTIVE_SUMMARY // Executive summary -->
+  <USAC.UI.Detail.Summary>TODO</USAC.UI.Detail.Summary>
+  <!-- EN: View details -->
+  <USAC.UI.Detail.Btn>TODO</USAC.UI.Detail.Btn>
+  <!-- EN: IDENTIFIER -->
+  <USAC.UI.Stat.Identifier>TODO</USAC.UI.Stat.Identifier>
+  <!-- EN: CATEGORY -->
+  <USAC.UI.Stat.Category>TODO</USAC.UI.Stat.Category>
+  <!-- EN: SUB_TYPE -->
+  <USAC.UI.Stat.SubType>TODO</USAC.UI.Stat.SubType>
+  <!-- EN: MOVE_SPEED -->
+  <USAC.UI.Stat.MoveSpeed>TODO</USAC.UI.Stat.MoveSpeed>
+  <!-- EN: ARMOR_SHARP -->
+  <USAC.UI.Stat.ArmorSharp>TODO</USAC.UI.Stat.ArmorSharp>
+  <!-- EN: ARMOR_BLUNT -->
+  <USAC.UI.Stat.ArmorBlunt>TODO</USAC.UI.Stat.ArmorBlunt>
+  <!-- EN: HEALTH_FACT -->
+  <USAC.UI.Stat.HealthFact>TODO</USAC.UI.Stat.HealthFact>
+  <!-- EN: WEIGHT_CLASS -->
+  <USAC.UI.Stat.WeightClass>TODO</USAC.UI.Stat.WeightClass>
+  <!-- EN: DAMAGE -->
+  <USAC.UI.Stat.Damage>TODO</USAC.UI.Stat.Damage>
+  <!-- EN: ARMOR_PEN -->
+  <USAC.UI.Stat.ArmorPen>TODO</USAC.UI.Stat.ArmorPen>
+  <!-- EN: RANGE -->
+  <USAC.UI.Stat.Range>TODO</USAC.UI.Stat.Range>
+  <!-- EN: COOLDOWN -->
+  <USAC.UI.Stat.Cooldown>TODO</USAC.UI.Stat.Cooldown>
+  <!-- EN: INSUL_COLD -->
+  <USAC.UI.Stat.InsulCold>TODO</USAC.UI.Stat.InsulCold>
+  <!-- EN: INSUL_HEAT -->
+  <USAC.UI.Stat.InsulHeat>TODO</USAC.UI.Stat.InsulHeat>
+  <!-- EN: NUTRITION -->
+  <USAC.UI.Stat.Nutrition>TODO</USAC.UI.Stat.Nutrition>
+  <!-- EN: MED_POTENCY -->
+  <USAC.UI.Stat.MedPotency>TODO</USAC.UI.Stat.MedPotency>
+  <!-- EN: LOGISTICS_MASS -->
+  <USAC.UI.Stat.Mass>TODO</USAC.UI.Stat.Mass>
+  <!-- EN: ASSET_TERMINAL // Asset terminal -->
+  <USAC.UI.Assets.Title>TODO</USAC.UI.Assets.Title>
+  <!-- EN: Synchronizing with the orbital settlement network... -->
+  <USAC.UI.Assets.SyncStatus>TODO</USAC.UI.Assets.SyncStatus>
+  <!-- EN: Current credit tier: [UNREGISTERED / NONE] -->
+  <USAC.UI.Assets.CreditLevel>TODO</USAC.UI.Assets.CreditLevel>
+  <!-- EN: Warning: no valid asset collateral agreement on file. -->
+  <USAC.UI.Assets.NoAgreement>TODO</USAC.UI.Assets.NoAgreement>
+  <!-- EN: Credit score: {0} -->
+  <USAC.UI.Assets.CreditScore>TODO</USAC.UI.Assets.CreditScore>
+  <!-- EN: Total debt: ₿{0} -->
+  <USAC.UI.Assets.TotalDebt>TODO</USAC.UI.Assets.TotalDebt>
+  <!-- EN: ACTIVE_CONTRACTS // Active contracts -->
+  <USAC.UI.Assets.ActiveContracts>TODO</USAC.UI.Assets.ActiveContracts>
+  <!-- EN: RISK_PRICING_APPLICATION // Risk pricing application -->
+  <USAC.UI.Assets.Apply.Title>TODO</USAC.UI.Assets.Apply.Title>
+  <!-- EN: Base plan interest rate -->
+  <USAC.UI.Assets.InterestRate>TODO</USAC.UI.Assets.InterestRate>
+  <!-- EN: Risk fee per cycle -->
+  <USAC.UI.Assets.GrowthRate>TODO</USAC.UI.Assets.GrowthRate>
+  <!-- EN: Principal growth method -->
+  <USAC.UI.Assets.Stat.GrowthMode>TODO</USAC.UI.Assets.Stat.GrowthMode>
+  <!-- EN: Effective interest rate -->
+  <USAC.UI.Assets.Stat.ActualInterest>TODO</USAC.UI.Assets.Stat.ActualInterest>
+  <!-- EN: Credit discount -->
+  <USAC.UI.Assets.Stat.CreditDiscount>TODO</USAC.UI.Assets.Stat.CreditDiscount>
+  <!-- EN: Sign the contract -->
+  <USAC.UI.Assets.Apply.Confirm>TODO</USAC.UI.Assets.Apply.Confirm>
+  <!-- EN: Warning: you are trading higher interest and risk fees for a larger credit line. Once signed, the USAC orbital collection system enforces this contract without exception. Any missed payment triggers asset seizure. -->
+  <USAC.UI.Assets.Apply.Warning>TODO</USAC.UI.Assets.Apply.Warning>
+  <!-- EN: Time until settlement -->
+  <USAC.UI.Assets.NextSettlement>TODO</USAC.UI.Assets.NextSettlement>
+  <!-- EN: ⚠ Missed payments: {0}! One more will trigger forced collection! -->
+  <USAC.UI.Assets.MissedWarning>TODO</USAC.UI.Assets.MissedWarning>
+  <!-- EN: Per cycle -->
+  <USAC.UI.Assets.Cycle>TODO</USAC.UI.Assets.Cycle>
+  <!-- EN: Grows with map wealth (×{0}%/cycle) -->
+  <USAC.UI.Assets.GrowthMode.WealthBased>TODO</USAC.UI.Assets.GrowthMode.WealthBased>
+  <!-- EN: Grows with current principal (×{0}%/cycle) -->
+  <USAC.UI.Assets.GrowthMode.PrincipalBased>TODO</USAC.UI.Assets.GrowthMode.PrincipalBased>
+  <!-- EN: Credit score too low (30 required). Financing has been disabled. -->
+  <USAC.UI.Assets.Block.LowCredit>TODO</USAC.UI.Assets.Block.LowCredit>
+  <!-- EN: Your asset valuation is too low for the requested limit. Raise the rate plan to pass assessment. -->
+  <USAC.UI.Assets.Block.LowWealth>TODO</USAC.UI.Assets.Block.LowWealth>
+  <!-- EN: Credit score -->
+  <USAC.UI.Assets.Stat.CreditScore>TODO</USAC.UI.Assets.Stat.CreditScore>
+  <!-- EN: Total map wealth -->
+  <USAC.UI.Assets.Stat.Wealth>TODO</USAC.UI.Assets.Stat.Wealth>
+  <!-- EN: Maximum assessed limit -->
+  <USAC.UI.Assets.Stat.MaxAmount>TODO</USAC.UI.Assets.Stat.MaxAmount>
+  <!-- EN: Debt forecast -->
+  <USAC.UI.Assets.Stat.Growth>TODO</USAC.UI.Assets.Stat.Growth>
+  <!-- EN: Credit limit: ₿{0} -->
+  <USAC.UI.Assets.MaxAmount>TODO</USAC.UI.Assets.MaxAmount>
+  <!-- EN: CONTRACT_SPECIFICATIONS // Contract details -->
+  <USAC.UI.Assets.Contract.Details>TODO</USAC.UI.Assets.Contract.Details>
+  <!-- EN: Contract ID: {0} -->
+  <USAC.UI.Assets.Contract.ID>TODO</USAC.UI.Assets.Contract.ID>
+  <!-- EN: Collateral mode: {0} -->
+  <USAC.UI.Assets.Contract.Type>TODO</USAC.UI.Assets.Contract.Type>
+  <!-- EN: Execution status: [ IN_EFFECT / Running ] -->
+  <USAC.UI.Assets.Contract.Status>TODO</USAC.UI.Assets.Contract.Status>
+  <!-- EN: Paid this quarter: ₿{0} -->
+  <USAC.UI.Assets.Contract.PaidQuarter>TODO</USAC.UI.Assets.Contract.PaidQuarter>
+  <!-- EN: Outstanding principal -->
+  <USAC.UI.Assets.Principal>TODO</USAC.UI.Assets.Principal>
+  <!-- EN: Principal-based linkage -->
+  <USAC.UI.Assets.Stat.Principal>TODO</USAC.UI.Assets.Stat.Principal>
+  <!-- EN: Current interest -->
+  <USAC.UI.Assets.Interest>TODO</USAC.UI.Assets.Interest>
+  <!-- EN: Interest rate -->
+  <USAC.UI.Assets.Stat.InterestRate>TODO</USAC.UI.Assets.Stat.InterestRate>
+  <!-- EN: Settlement imminent -->
+  <USAC.UI.Assets.Imminent>TODO</USAC.UI.Assets.Imminent>
+  <!-- EN: Missed payments: {0}. Your credit score keeps falling. Settle soon. -->
+  <USAC.UI.Assets.Warning.Caution>TODO</USAC.UI.Assets.Warning.Caution>
+  <!-- EN: ⚠ Missed payments: {0}! One more will immediately trigger forced collection! -->
+  <USAC.UI.Assets.Warning.Critical>TODO</USAC.UI.Assets.Warning.Critical>
+  <!-- EN: INTEREST_SETTLEMENT // Interest settlement -->
+  <USAC.UI.Assets.InterestPanel.Title>TODO</USAC.UI.Assets.InterestPanel.Title>
+  <!-- EN: ✓ No outstanding interest this period -->
+  <USAC.UI.Assets.InterestPaid>TODO</USAC.UI.Assets.InterestPaid>
+  <!-- EN: {0} credit bonds required -->
+  <USAC.UI.Assets.BondsNeeded>TODO</USAC.UI.Assets.BondsNeeded>
+  <!-- EN: Credit bonds held: {0} -->
+  <USAC.UI.Assets.BondsOwned>TODO</USAC.UI.Assets.BondsOwned>
+  <!-- EN: Pay interest ({0} credit bonds) -->
+  <USAC.UI.Assets.PayInterest>TODO</USAC.UI.Assets.PayInterest>
+  <!-- EN: PRINCIPAL_REPAYMENT // Principal repayment -->
+  <USAC.UI.Assets.RepayPanel.Title>TODO</USAC.UI.Assets.RepayPanel.Title>
+  <!-- EN: Quarterly free allowance -->
+  <USAC.UI.Assets.QuarterFree>TODO</USAC.UI.Assets.QuarterFree>
+  <!-- EN: Used -->
+  <USAC.UI.Assets.Used>TODO</USAC.UI.Assets.Used>
+  <!-- EN: Repay principal ({0} credit bonds) -->
+  <USAC.UI.Assets.Repay>TODO</USAC.UI.Assets.Repay>
+  <!-- EN: Repay principal ({0} credit bonds, incl. {1} surcharge) -->
+  <USAC.UI.Assets.RepaySurcharge>TODO</USAC.UI.Assets.RepaySurcharge>
+  <!-- EN: GROWTH_FORECAST // Principal growth forecast -->
+  <USAC.UI.Assets.GrowthForecast>TODO</USAC.UI.Assets.GrowthForecast>
+  <!-- EN: CYCLE_FORECAST // Cycle forecast -->
+  <USAC.UI.Assets.CycleForecast>TODO</USAC.UI.Assets.CycleForecast>
+  <!-- EN: Next cycle&apos;s interest -->
+  <USAC.UI.Assets.NextInterest>TODO</USAC.UI.Assets.NextInterest>
+  <!-- EN: Principal growth is added straight to the principal each cycle -->
+  <USAC.UI.Assets.GrowthNote>TODO</USAC.UI.Assets.GrowthNote>
+  <!-- EN: Principal increase = map wealth × {0}% per cycle -->
+  <USAC.UI.Assets.GrowthMode.Wealth>TODO</USAC.UI.Assets.GrowthMode.Wealth>
+  <!-- EN: Principal increase = current principal × {0}% per cycle -->
+  <USAC.UI.Assets.GrowthMode.Principal>TODO</USAC.UI.Assets.GrowthMode.Principal>
+  <!-- EN: Current map wealth: ₿{0} -->
+  <USAC.UI.Assets.CurrentWealth>TODO</USAC.UI.Assets.CurrentWealth>
+  <!-- EN: Strategic overview -->
+  <USAC.UI.Nav.Home>TODO</USAC.UI.Nav.Home>
+  <!-- EN: Asset terminal -->
+  <USAC.UI.Nav.Assets>TODO</USAC.UI.Nav.Assets>
+  <!-- EN: Authorized catalog -->
+  <USAC.UI.Nav.Products>TODO</USAC.UI.Nav.Products>
+  <!-- EN: Legal compliance -->
+  <USAC.UI.Nav.Legal>TODO</USAC.UI.Nav.Legal>
+  <!-- EN: Corporate services -->
+  <USAC.UI.Nav.Services>TODO</USAC.UI.Nav.Services>
+  <!-- EN: ● TUNNEL_ACTIVE // ENCRYPTION: SECURE -->
+  <USAC.UI.StatusBar>TODO</USAC.UI.StatusBar>
+  <!-- EN: LEGAL_COMPLIANCE // Legal compliance -->
+  <USAC.UI.Legal.Title>TODO</USAC.UI.Legal.Title>
+  <!-- EN: COLLECTION_ORDINANCE_V1.1 // Collection ordinance -->
+  <USAC.UI.Legal.Ordinance>TODO</USAC.UI.Legal.Ordinance>
+  <!-- EN: Clause 01: Asset priority -->
+  <USAC.UI.Legal.Clause01.Title>TODO</USAC.UI.Legal.Clause01.Title>
+  <!-- EN: In any default, USAC holds absolute first-priority collection rights over all local material assets. -->
+  <USAC.UI.Legal.Clause01.Desc>TODO</USAC.UI.Legal.Clause01.Desc>
+  <!-- EN: Clause 02: Automated enforcement -->
+  <USAC.UI.Legal.Clause02.Title>TODO</USAC.UI.Legal.Clause02.Title>
+  <!-- EN: Collection is directed automatically by orbital platforms. No manual defense or request for extension will be accepted. -->
+  <USAC.UI.Legal.Clause02.Desc>TODO</USAC.UI.Legal.Clause02.Desc>
+  <!-- EN: Warning: entering this portal constitutes acknowledgement and signature of every agreement listed above. The USAC Asset Collection Division accepts no liability for incidental civilian casualties or secondary harm during collection operations. -->
+  <USAC.UI.Legal.Footer>TODO</USAC.UI.Legal.Footer>
+  <!-- EN: [USAC] {0} written off. Your credit score has risen. -->
+  <USAC_PaymentSuccess>TODO</USAC_PaymentSuccess>
+  <!-- EN: [USAC] Payment failed: orbital satellites detected insufficient credit bonds within this area&apos;s beacon range. -->
+  <USAC_InsufficientBonds>TODO</USAC_InsufficientBonds>
+  <!-- EN: [USAC] Contract signed: {0} in assets has been dropped near the trade beacon. -->
+  <USAC_LoanApproved>TODO</USAC_LoanApproved>
+  <!-- EN: [USAC] Access restricted: this module is being upgraded, or your credit tier does not unlock it. -->
+  <USAC_FunctionInProgress>TODO</USAC_FunctionInProgress>
+  <!-- EN: CONNECTION_LOST // Connection lost -->
+  <USAC.UI.Error.404.Title>TODO</USAC.UI.Error.404.Title>
+  <!-- EN: The requested resource is not registered on the USAC intranet, or your access privileges have been revoked. -->
+  <USAC.UI.Error.404.Text>TODO</USAC.UI.Error.404.Text>
+  <!-- EN: Error: product not found -->
+  <USAC.UI.Error.ProductNotFound>TODO</USAC.UI.Error.ProductNotFound>
+  <!-- EN: CORPORATE_SERVICES // Corporate services -->
+  <USAC.UI.Services.Title>TODO</USAC.UI.Services.Title>
+  <!-- EN: LEASE_SERVICES // Lease services -->
+  <USAC.UI.Services.Lease.Title>TODO</USAC.UI.Services.Lease.Title>
+  <!-- EN: The USAC asset lease program. Heavy assault mining rigs are dropped by orbital platform onto a zone of your choosing, at 1,000 credits per 24-hour operating cycle. Cycle length is configurable, and auto-renewal is supported. -->
+  <USAC.UI.Services.Lease.Desc>TODO</USAC.UI.Services.Lease.Desc>
+  <!-- EN: Initial lease duration: {0} days -->
+  <USAC.UI.Services.Lease.Days>TODO</USAC.UI.Services.Lease.Days>
+  <!-- EN: Activate lease program -->
+  <USAC.UI.Services.Lease.Btn>TODO</USAC.UI.Services.Lease.Btn>
+  <!-- EN: ASSET_DEPLOYMENT_MONITOR // Deployed rigs -->
+  <USAC_ActiveRigs>TODO</USAC_ActiveRigs>
+  <!-- EN: Mining operation in progress -->
+  <USAC_LeaseActive>TODO</USAC_LeaseActive>
+  <!-- EN: REMOTE_RENEWAL // Remote renewal -->
+  <USAC.UI.Services.Renewal.Title>TODO</USAC.UI.Services.Renewal.Title>
+  <!-- EN: Renews the encrypted control-bandwidth links behind temporary mechanitor channels. Extending local data-relay authorization keeps non-permanent mech control hubs running for longer. -->
+  <USAC.UI.Services.Renewal.Desc>TODO</USAC.UI.Services.Renewal.Desc>
+  <!-- EN: Renew bandwidth channel -->
+  <USAC.UI.Services.Renewal.Btn>TODO</USAC.UI.Services.Renewal.Btn>
+  <!-- EN: Registered temporary bandwidth links -->
+  <USAC.UI.Services.Renewal.Header>TODO</USAC.UI.Services.Renewal.Header>
+  <!-- EN: No temporary mechanitor bandwidth links detected within controlled range. -->
+  <USAC.UI.Services.Renewal.NoMechnitor>TODO</USAC.UI.Services.Renewal.NoMechnitor>
+  <!-- EN: Link time remaining: {0} -->
+  <USAC.UI.Services.Renewal.Remaining>TODO</USAC.UI.Services.Renewal.Remaining>
+  <!-- EN: ORBITAL_TRADE_REQUEST // Orbital trade request -->
+  <USAC.UI.Services.Trader.Title>TODO</USAC.UI.Services.Trader.Title>
+  <!-- EN: Send a priority trade request over the orbital settlement network. A USAC orbital trade ship will reach this area in roughly one hour. -->
+  <USAC.UI.Services.Trader.Desc>TODO</USAC.UI.Services.Trader.Desc>
+  <!-- EN: Send request -->
+  <USAC.UI.Services.Trader.Btn>TODO</USAC.UI.Services.Trader.Btn>
+  <!-- EN: Trade ship en route -->
+  <USAC.UI.Services.Trader.Pending>TODO</USAC.UI.Services.Trader.Pending>
+  <!-- EN: ORBITAL_INBOUND // Trade ship arrival status -->
+  <USAC.UI.Services.Trader.Status.Title>TODO</USAC.UI.Services.Trader.Status.Title>
+  <!-- EN: Estimated arrival: {0} -->
+  <USAC.UI.Services.Trader.Status.ETA>TODO</USAC.UI.Services.Trader.Status.ETA>
+  <!-- EN: A USAC orbital trade ship is inbound -->
+  <USAC.UI.Services.Trader.Status.Desc>TODO</USAC.UI.Services.Trader.Status.Desc>
+  <!-- EN: [USAC] Request accepted: a USAC orbital trade ship is en route and should arrive in about one hour. -->
+  <USAC.Message.TraderCalled>TODO</USAC.Message.TraderCalled>
+  <!-- EN: [USAC] Trade ship in position: the USAC orbital trade ship is ready to trade. -->
+  <USAC.Message.TraderArrived>TODO</USAC.Message.TraderArrived>
+  <!-- EN: USAC orbital assault drill lease fee -->
+  <USAC.Debt.LeaseDrill>TODO</USAC.Debt.LeaseDrill>
+  <!-- EN: Temporary bandwidth link renewal fee for {0} -->
+  <USAC.Debt.Renewal>TODO</USAC.Debt.Renewal>
+  <!-- EN: [USAC] Renewal complete: a 30-cycle bandwidth link has been renewed for {0}. -->
+  <USAC.Message.Renewed>TODO</USAC.Message.Renewed>
+  <!-- EN: [USAC] Auto-renewed: the link for {0} has been extended by 30 cycles. -->
+  <USAC.Message.AutoRenewed>TODO</USAC.Message.AutoRenewed>
+  <!-- EN: [USAC] Renewal suspended: auto-renewal for {0} has been disabled due to insufficient credit bond reserves within beacon range. -->
+  <USAC.Message.AutoRenewFailed>TODO</USAC.Message.AutoRenewFailed>
+  <!-- EN: [USAC] Payment failed: insufficient credit bond reserves within trade beacon range. -->
+  <USAC.Message.InsufficientBonds>TODO</USAC.Message.InsufficientBonds>
+  <!-- EN: [USAC] Lease suspended: your credit bond reserves cannot cover the selected initial lease duration. -->
+  <USAC.Message.InsufficientBondsForLease>TODO</USAC.Message.InsufficientBondsForLease>
+  <!-- EN: [USAC] Auto-renewed: the mining rig&apos;s lease has been extended by 24 hours through the orbital settlement network. -->
+  <USAC.Message.LeaseAutoRenewed>TODO</USAC.Message.LeaseAutoRenewed>
+  <!-- EN: [USAC] Renewal failed: insufficient credit bond reserves near the orbital beacon. Auto-renewal has been disabled for this rig, and scheduled collection will proceed. -->
+  <USAC.Message.LeaseAutoRenewFailed>TODO</USAC.Message.LeaseAutoRenewFailed>
+  <!-- EN: Lease time remaining: {0} -->
+  <USAC_LeaseDurationLeft>TODO</USAC_LeaseDurationLeft>
+  <!-- EN: Empty ore hold -->
+  <USAC.UI.Drill.EmptyMinerals>TODO</USAC.UI.Drill.EmptyMinerals>
+  <!-- EN: Manually eject the minerals collected in the sealed hold. If the hold is not emptied before extraction, the USAC orbital platform will recover everything on board. -->
+  <USAC.UI.Drill.EmptyMinerals.Desc>TODO</USAC.UI.Drill.EmptyMinerals.Desc>
+  <!-- EN: USAC debt settlement -->
+  <USAC.Alert.DebtRepayment.Label>TODO</USAC.Alert.DebtRepayment.Label>
+  <!-- EN: USAC settlement: {0} days ({1} contracts) -->
+  <USAC.Alert.DebtRepayment.LabelWithTime>TODO</USAC.Alert.DebtRepayment.LabelWithTime>
+  <!-- EN: Credit score: {0}\nBonds in beacon range: {1}\n\n -->
+  <USAC.Alert.DebtRepayment.Explanation.Header>TODO</USAC.Alert.DebtRepayment.Explanation.Header>
+  <!-- EN: ▸ {0}\n  Principal: ₿{1}  Est. interest: ₿{2}\n  Due in: {3} days  Missed: {4}\n\n -->
+  <USAC.Alert.DebtRepayment.Explanation.ContractEntry>TODO</USAC.Alert.DebtRepayment.Explanation.ContractEntry>
+  <!-- EN: ▸ {0}\n  Principal: ₿{1}  Est. interest: ₿{2}\n  Est. principal growth: +₿{5}\n  Due in: {3} days  Missed: {4}\n\n -->
+  <USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>TODO</USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>
+  <!-- EN: ⚠ The nearest contract is due soon! Make sure you have enough USAC bonds on hand. -->
+  <USAC.Alert.DebtRepayment.Explanation.ImminentWarning>TODO</USAC.Alert.DebtRepayment.Explanation.ImminentWarning>
+  <!-- EN: [USAC financial node] Audit of {0} complete.\n\nInterest due this cycle: ₿{1} ({2} bonds required)\nCurrent principal: ₿{3}\nMissed payments: {4}\n\nConfirm to settle using USAC credit bonds within trade beacon range.\n -->
+  <USAC.Debt.Dialog.Repayment.Text>TODO</USAC.Debt.Dialog.Repayment.Text>
+  <!-- EN: ⚠ One more missed payment will trigger forced collection! -->
+  <USAC.Debt.Dialog.Repayment.Warning>TODO</USAC.Debt.Dialog.Repayment.Warning>
+  <!-- EN: Settle now (use bonds) -->
+  <USAC.Debt.Dialog.Repayment.Option.Pay>TODO</USAC.Debt.Dialog.Repayment.Option.Pay>
+  <!-- EN: Cannot pay / refuse -->
+  <USAC.Debt.Dialog.Repayment.Option.Refuse>TODO</USAC.Debt.Dialog.Repayment.Option.Refuse>
+  <!-- EN: USAC {0} settlement -->
+  <USAC.Debt.Dialog.Repayment.Title>TODO</USAC.Debt.Dialog.Repayment.Title>
+  <!-- EN: [USAC] Interest on {0} paid in full -->
+  <USAC.Debt.Message.InterestPaid>TODO</USAC.Debt.Message.InterestPaid>
+  <!-- EN: [USAC] The target colony is under orbital shielding. Forced collection has been postponed. -->
+  <USAC.Debt.Message.ForceCollectPausedByShield>TODO</USAC.Debt.Message.ForceCollectPausedByShield>
+  <!-- EN: {0} forced collection (missed payment #{1}) -->
+  <USAC.Debt.Transaction.ForceCollect>TODO</USAC.Debt.Transaction.ForceCollect>
+  <!-- EN: Signed {0} contract -->
+  <USAC.Debt.Transaction.SignContract>TODO</USAC.Debt.Transaction.SignContract>
+  <!-- EN: [USAC] Legacy debt data migrated to the new contract system -->
+  <USAC.Debt.Log.LegacyMigrated>TODO</USAC.Debt.Log.LegacyMigrated>
+  <!-- EN: Whole mortgage loan -->
+  <USAC.Debt.Type.WholeMortgage>TODO</USAC.Debt.Type.WholeMortgage>
+  <!-- EN: Dynamic credit -->
+  <USAC.Debt.Type.DynamicLoan>TODO</USAC.Debt.Type.DynamicLoan>
+  <!-- EN: Unknown contract -->
+  <USAC.Debt.Type.Unknown>TODO</USAC.Debt.Type.Unknown>
+  <!-- EN: {0} principal growth ({1}%) -->
+  <USAC.Debt.Transaction.PrincipalGrowth>TODO</USAC.Debt.Transaction.PrincipalGrowth>
+  <!-- EN: {0} cycle interest -->
+  <USAC.Debt.Transaction.CycleInterest>TODO</USAC.Debt.Transaction.CycleInterest>
+  <!-- EN: [USAC] {0}: principal +₿{1}, cycle interest ₿{2} -->
+  <USAC.Debt.Message.CycleProcessed>TODO</USAC.Debt.Message.CycleProcessed>
+  <!-- EN: {0} missed payment #{1}; interest rolled into principal -->
+  <USAC.Debt.Transaction.MissedPayment>TODO</USAC.Debt.Transaction.MissedPayment>
+  <!-- EN: {0} interest payment -->
+  <USAC.Debt.Transaction.InterestPayment>TODO</USAC.Debt.Transaction.InterestPayment>
+  <!-- EN: Pay the current interest first -->
+  <USAC.Debt.Error.PayInterestFirst>TODO</USAC.Debt.Error.PayInterestFirst>
+  <!-- EN: {0} bonds required (including {1} in surcharge) -->
+  <USAC.Debt.Error.NotEnoughBondsWithFee>TODO</USAC.Debt.Error.NotEnoughBondsWithFee>
+  <!-- EN: {0} principal repayment -->
+  <USAC.Debt.Transaction.PrincipalRepay>TODO</USAC.Debt.Transaction.PrincipalRepay>
+  <!-- EN: {0} excess repayment surcharge -->
+  <USAC.Debt.Transaction.RepaySurcharge>TODO</USAC.Debt.Transaction.RepaySurcharge>
+  <!-- EN: [USAC] {0} settled in full! -->
+  <USAC.Debt.Message.ContractSettled>TODO</USAC.Debt.Message.ContractSettled>
+  <!-- EN: By map wealth -->
+  <USAC.Debt.GrowthMode.WealthBase>TODO</USAC.Debt.GrowthMode.WealthBase>
+  <!-- EN: By current principal -->
+  <USAC.Debt.GrowthMode.PrincipalBase>TODO</USAC.Debt.GrowthMode.PrincipalBase>
+  <!-- EN: USAC {0}: ₿{1}\nCycle growth: {2}% ({3})\nCycle interest: {4}% -->
+  <USAC.Debt.ScenPart.Summary>TODO</USAC.Debt.ScenPart.Summary>
+  <!-- EN: Initial debt principal:  -->
+  <USAC.Debt.ScenPart.InitialDebt>TODO</USAC.Debt.ScenPart.InitialDebt>
+  <!-- EN: Debt type:  -->
+  <USAC.Debt.ScenPart.DebtType>TODO</USAC.Debt.ScenPart.DebtType>
+  <!-- EN: Dynamic credit (reserved) -->
+  <USAC.Debt.ScenPart.DynamicLoanReserved>TODO</USAC.Debt.ScenPart.DynamicLoanReserved>
+  <!-- EN: Growth basis:  -->
+  <USAC.Debt.ScenPart.GrowthBase>TODO</USAC.Debt.ScenPart.GrowthBase>
+  <!-- EN: Cycle growth rate (%):  -->
+  <USAC.Debt.ScenPart.GrowthRatePct>TODO</USAC.Debt.ScenPart.GrowthRatePct>
+  <!-- EN: Cycle interest rate (%):  -->
+  <USAC.Debt.ScenPart.InterestRatePct>TODO</USAC.Debt.ScenPart.InterestRatePct>
+  <!-- EN: Scenario start {0} -->
+  <USAC.Debt.Transaction.ScenarioStart>TODO</USAC.Debt.Transaction.ScenarioStart>
+  <!-- EN: [USAC] Orbital gripper capture failed: target lost. -->
+  <USAC.Debt.Message.GripperTargetLost>TODO</USAC.Debt.Message.GripperTargetLost>
+  <!-- EN: Orbital gripper destroyed (damage compensation) -->
+  <USAC.Debt.Transaction.GripperDestroyed>TODO</USAC.Debt.Transaction.GripperDestroyed>
+  <!-- EN: [USAC] Orbital gripper destroyed! A fee of ₿{0} has been added to your bill. -->
+  <USAC.Debt.Message.GripperDestroyedPenalty>TODO</USAC.Debt.Message.GripperDestroyedPenalty>
+  <!-- EN: [USAC] Organ-mortgage collection executed: organs harvested from {0}, value ₿{1} -->
+  <USAC.Debt.Message.OrganHarvested>TODO</USAC.Debt.Message.OrganHarvested>
+  <!-- EN: [USAC] Debt liquidation executed: {0} has been completely dismantled. -->
+  <USAC.Debt.Message.PawnDemolished>TODO</USAC.Debt.Message.PawnDemolished>
+  <!-- EN: [USAC] Your credit rating has fallen to a dangerous level. The USAC trade channel will close soon. -->
+  <USAC.Debt.Message.CreditDanger>TODO</USAC.Debt.Message.CreditDanger>
+  <!-- EN: [USAC] Missed credit-loan payment: credit score -25 (now {0}) -->
+  <USAC.Debt.Message.CreditPenalty>TODO</USAC.Debt.Message.CreditPenalty>
+  <!-- EN: Quarterly free allowance ₿{0} (₿{4} left)  ▸  Surcharge ₿{2}  →  Total cost ₿{3} -->
+  <USAC.UI.Assets.SurchargeHint>TODO</USAC.UI.Assets.SurchargeHint>
+  <!-- EN: ACCESS_DENIED//ACCESS DENIED.\n\n Insufficient permission to access... -->
+  <USAC.UI.Assets.AccessDenied>TODO</USAC.UI.Assets.AccessDenied>
+  <!-- EN: Generating settlement report... -->
+  <USAC.Ending.Settled.Loading>TODO</USAC.Ending.Settled.Loading>
+  <!-- EN: DEBT_SETTLED//Debt write-off report -->
+  <USAC.Ending.Settled.Title>TODO</USAC.Ending.Settled.Title>
+  <!-- EN: Dear interstellar citizen,\n\nWe are pleased to inform you that every asset-backed agreement filed with the Debt Management Department has now been formally written off. Across a long and difficult settlement process, you showed an exceptional level of commitment. Despite the unpredictable risks of this rimworld, you have proven that credit is the most widely accepted currency of all. -->
+  <USAC.Ending.Settled.Intro>TODO</USAC.Ending.Settled.Intro>
+  <!-- EN: Final credit score: {0} -->
+  <USAC.Ending.Settled.CreditScore>TODO</USAC.Ending.Settled.CreditScore>
+  <!-- EN: Your credit history has been filed, and the Debt Management Department has ended risk monitoring of your account. We trust you will maintain this exceptional standard of compliance in the years ahead. -->
+  <USAC.Ending.Settled.Close>TODO</USAC.Ending.Settled.Close>
+  <!-- EN: &quot;The contract ends. Prosperity endures.&quot; -->
+  <USAC.Ending.Settled.Ending>TODO</USAC.Ending.Settled.Ending>
+  <!-- EN: Generating liquidation certificate... -->
+  <USAC.Ending.Liquidation.Loading>TODO</USAC.Ending.Liquidation.Loading>
+  <!-- EN: LIQUIDATION_COMPLETE//Asset liquidation confirmation -->
+  <USAC.Ending.Liquidation.Title>TODO</USAC.Ending.Liquidation.Title>
+  <!-- EN: The process has begun. The target assets have been located, and the Debt Management Department will now carry out final liquidation. Everything is being done in accordance with regulation. -->
+  <USAC.Ending.Liquidation.Intro>TODO</USAC.Ending.Liquidation.Intro>
+  <!-- EN: The wailing alarm was cut short by a shriek from the sky. You looked up and saw dozens of vast steel clamps punch through the clouds, dragging orange trails behind them. With a violent clang of metal the roof under your feet shattered, and through the billowing smoke and dust, the heavy hum of hydraulic clamps closing became the last thing you ever heard of your home. You felt yourself seized and dragged upward, your face wrapped in a cold oxygen mask and sealing spray. The thrusters lit again, and gravity turned over entirely. You saw the crops you had tended, the bricks you had laid by hand, and your terrified companions, all falling away beneath you...\n\nOr rather, you were the one rising, faster and faster, into the endless dark. Before the suffocating silence took everything, the last thing you saw was that desolate land below, where all you had ever cared for disappeared into the rising dust. -->
+  <USAC.Ending.Liquidation.Body>TODO</USAC.Ending.Liquidation.Body>
+  <!-- EN: Asset liquidation financial summary: -->
+  <USAC.Ending.Liquidation.FinancialReport>TODO</USAC.Ending.Liquidation.FinancialReport>
+  <!-- EN: Total amount written off -->
+  <USAC.Ending.Liquidation.TotalDebtLiquidated>TODO</USAC.Ending.Liquidation.TotalDebtLiquidated>
+  <!-- EN: {0} has been delivered as collateral against overdue payments. -->
+  <USAC.Ending.Liquidation.CapturedAssets>TODO</USAC.Ending.Liquidation.CapturedAssets>
+  <!-- EN: The dust has settled. The land falls silent again, waiting for the next poor soul. -->
+  <USAC.Ending.Liquidation.Close>TODO</USAC.Ending.Liquidation.Close>
+  <!-- EN: &quot;The debt has been written off.&quot; -->
+  <USAC.Ending.Liquidation.Ending>TODO</USAC.Ending.Liquidation.Ending>
+  <!-- EN: Notice of debt sale -->
+  <USAC.Ending.Transfer.NegotiationTitle>TODO</USAC.Ending.Transfer.NegotiationTitle>
+  <!-- EN: Given your unauthorized interference with the collection process, the Debt Management Department has judged the cost of writing off this bad debt to be excessive. Your debt package has been sold to a third party: {0}.\n\nBecause the nature of the debt has changed, late payment penalties have raised your arrears to {2} silver. The financial link will be formally closed within 24 hours. After that, your credit record will no longer exist - only a new creditor, with an open-ended claim on your assets. -->
+  <USAC.Ending.Transfer.NegotiationText>TODO</USAC.Ending.Transfer.NegotiationText>
+  <!-- EN: Pay the new creditor in silver ({0}) -->
+  <USAC.Ending.Transfer.Option.Pay>TODO</USAC.Ending.Transfer.Option.Pay>
+  <!-- EN: Refuse. Prepare for liquidation in {0} days. -->
+  <USAC.Ending.Transfer.Option.Refuse>TODO</USAC.Ending.Transfer.Option.Refuse>
+  <!-- EN: Payment failed: the silver on this map ({0}) is not enough to settle the debt ({1}). Prepare for the attack. -->
+  <USAC.Ending.Transfer.BuyoutFail>TODO</USAC.Ending.Transfer.BuyoutFail>
+  <!-- EN: {0} has received the silver, and every one of your debts is written off in full under interstellar law. -->
+  <USAC.Ending.Transfer.BuyoutSuccess>TODO</USAC.Ending.Transfer.BuyoutSuccess>
+  <!-- EN: Debt assignment in effect -->
+  <USAC.Ending.Transfer.CountdownLabel>TODO</USAC.Ending.Transfer.CountdownLabel>
+  <!-- EN: USAC has formally exited your debt contract. {0} now holds the right to dispose of all your assets, and they have issued an ultimatum: a full seizure operation begins in {1} days. -->
+  <USAC.Ending.Transfer.CountdownText>TODO</USAC.Ending.Transfer.CountdownText>
+  <!-- EN: Asset seizure begins -->
+  <USAC.Ending.Transfer.SiegeStartLabel>TODO</USAC.Ending.Transfer.SiegeStartLabel>
+  <!-- EN: The armed collection team sent by {0} has arrived. They intend to break your will with relentless attacks over the next {1} days. Endure, or pay in blood. -->
+  <USAC.Ending.Transfer.SiegeStartText>TODO</USAC.Ending.Transfer.SiegeStartText>
+  <!-- EN: Debt cancelled -->
+  <USAC.Ending.Transfer.VictoryLabel>TODO</USAC.Ending.Transfer.VictoryLabel>
+  <!-- EN: After paying a heavy price, {0} has formally abandoned enforcement of this debt - the losses were simply too great. Your debt is now marked &quot;overdue and void,&quot; and no faction will trouble you over it again. -->
+  <USAC.Ending.Transfer.VictoryText>TODO</USAC.Ending.Transfer.VictoryText>
+  <!-- EN: DEBT_ASSIGNMENT//Report on transfer of claims -->
+  <USAC.Ending.Transfer.Credits.Title>TODO</USAC.Ending.Transfer.Credits.Title>
+  <!-- EN: {0} has purchased your debt, valued at ₿{1}, from the Debt Management Department on the secondary market. -->
+  <USAC.Ending.Transfer.Credits.Intro>TODO</USAC.Ending.Transfer.Credits.Intro>
+  <!-- EN: Note: the Debt Management Department always strives for efficiency and balance. When the cost of hedging a risk outweighs its return, transferring the asset package to a local third party with the capacity to receive it is standard procedure.\n\nThank you for being our credit client. We wish you luck in your future asset restructuring. -->
+  <USAC.Ending.Transfer.Credits.Body>TODO</USAC.Ending.Transfer.Credits.Body>
+  <!-- EN: &quot;The financial link has been safely disconnected.&quot; -->
+  <USAC.Ending.Transfer.Credits.Close>TODO</USAC.Ending.Transfer.Credits.Close>
+  <!-- EN: WAR_OF_DEBT//The final war of debt -->
+  <USAC.Ending.Transfer.Victory.Title>TODO</USAC.Ending.Transfer.Victory.Title>
+  <!-- EN: You solved your financial troubles in the oldest and most thorough way there is: you killed the creditors.\n\nAfter days of bloody defense, they finally understood that collecting from a band of fanatical colonists armed to the teeth was a losing proposition. As the last commando squad pulled back, the shackles of debt broke for good. Freedom always has a price, and you paid yours in full - in your creditors&apos; blood. -->
+  <USAC.Ending.Transfer.Victory.Body>TODO</USAC.Ending.Transfer.Victory.Body>
+  <!-- EN: &quot;The debt is gone.&quot; -->
+  <USAC.Ending.Transfer.Victory.Close>TODO</USAC.Ending.Transfer.Victory.Close>
+  <!-- EN: SILVER_SETTLEMENT//Silver repayment report -->
+  <USAC.Ending.Transfer.SilverBuyout.Title>TODO</USAC.Ending.Transfer.SilverBuyout.Title>
+  <!-- EN: {0} confirms receipt of {1} silver in full. Your debt status has been updated to &quot;settled.&quot;
+
+For a moment, the data flowing through the orbital settlement network stalled. The Debt Management Department&apos;s risk model verified the transaction&apos;s legality again and again, and still could not make sense of it. You held an enormous silver reserve and countless ways to convert it into instruments we recognize, yet you sat on it through settlement cycle after settlement cycle, waited out the debt transfer, and then bought the whole thing out in cash at once.
+
+Silver is worthless to the USAC orbital settlement network - our systems recognize only specific payment credentials. But {0} clearly does not mind. They will feed this silver into the local trade network and recover their costs through a long, inefficient chain of resales. For a faction that had just taken on a non-performing asset, the windfall was enough to leave their finance director staring at the wall for three minutes.
+
+Operations like this are exceedingly rare in our records. Usually only two kinds of people attempt them: financial talents who found an arbitrage window in the gray area of debt transfer, or gamblers who enjoy being hunted for money, proving in the most expensive way possible that rules are merely suggestions once you are rich enough.
+
+Whichever you are, you have proven one thing: on this rimworld, there is always someone who will reach their goal by the most absurd route available. -->
+  <USAC.Ending.Transfer.SilverBuyout.Body>TODO</USAC.Ending.Transfer.SilverBuyout.Body>
+  <!-- EN: The Debt Management Department has filed this case as &quot;atypical settlement behavior&quot; and recommends that future risk models account for &quot;deliberate delay despite capacity to pay.&quot;
+
+The dust has settled. Your credit record is gone from the system, replaced by a single cold entry: &quot;Settled (silver buyout).&quot; -->
+  <USAC.Ending.Transfer.SilverBuyout.Close>TODO</USAC.Ending.Transfer.SilverBuyout.Close>
+  <!-- EN: &quot;Rich, and willful.&quot; -->
+  <USAC.Ending.Transfer.SilverBuyout.Ending>TODO</USAC.Ending.Transfer.SilverBuyout.Ending>
+  <!-- EN: Asset seizure countdown -->
+  <USAC.Alert.SiegeCountdown.Label>TODO</USAC.Alert.SiegeCountdown.Label>
+  <!-- EN: Final defense in progress -->
+  <USAC.Alert.SiegeCountdown.LabelActive>TODO</USAC.Alert.SiegeCountdown.LabelActive>
+  <!-- EN: Time until the seizure operation begins: {0}
+
+Current creditor: {1}
+
+When the countdown ends, this faction will launch an unlimited forced seizure. Make sure your defenses are ready. -->
+  <USAC.Alert.SiegeCountdown.Explanation>TODO</USAC.Alert.SiegeCountdown.Explanation>
+  <!-- EN: Defense time remaining: {0}\n\nYou are under sustained attack from {1}. Hold out until the time runs down and the losses will force them to abandon their claim. -->
+  <USAC.Alert.SiegeCountdown.ExplanationActive>TODO</USAC.Alert.SiegeCountdown.ExplanationActive>
+  <!-- EN: Asset security level raised -->
+  <USAC_DebtSite_WarningLetterLabel>TODO</USAC_DebtSite_WarningLetterLabel>
+  <!-- EN: Given your default during the {0} settlement process, the Debt Management Department has classified your credit rating as &quot;high-risk default.&quot; All external credit access has been locked at the same time. We advise you to resume compliant performance immediately, before the security procedure escalates further. -->
+  <USAC_DebtSite_WarningLetterText>TODO</USAC_DebtSite_WarningLetterText>
+  <!-- EN: Financial access has been locked. -->
+  <USAC_DebtSite_LoanLockedWarning>TODO</USAC_DebtSite_LoanLockedWarning>
+  <!-- EN: Change of compulsory collection strategy -->
+  <USAC_DebtSite_EscalationLetterLabel>TODO</USAC_DebtSite_EscalationLetterLabel>
+  <!-- EN: Because asset preservation efforts against {0} continue to meet obstruction, the Debt Management Department has concluded that conventional recovery is ineffective. We will therefore attempt no further direct settlement communication with you. Automated assessment systems will take over from here. Based on security feedback, those systems will establish whatever long-term on-site preservation facilities they deem necessary near your location, and their conduct will depend entirely on how compliant the situation remains. Be advised that all secondary damage arising from this is borne by the defaulting party. -->
+  <USAC_DebtSite_EscalationLetterText>TODO</USAC_DebtSite_EscalationLetterText>
+  <!-- EN: ACCOUNT_TERMINATED//Confirmation of offshore transfer of asset package -->
+  <USAC.UI.Assets.TransferLocked.Title>TODO</USAC.UI.Assets.TransferLocked.Title>
+  <!-- EN: Service notice: under the risk management agreement, and following the classification of your credit model as a non-performing asset, the Debt Management Department has completed the offshore transfer of this bad debt. The stripping of these assets is irreversible.\n\nUSAC has formally terminated your interface access, and your account is now logically segregated. All further valuation and recovery procedures will be carried out independently by the trustee faction. We wish you well in the new cycle. -->
+  <USAC.UI.Assets.TransferLocked.Desc>TODO</USAC.UI.Assets.TransferLocked.Desc>
+  <!-- EN: QUASI-LEGAL_SETTLEMENT//Default settlement proposal -->
+  <USAC.UI.Assets.Negotiation.Title>TODO</USAC.UI.Assets.Negotiation.Title>
+  <!-- EN: Our systems have detected positive cash flow in your account. The Debt Management Department has authorized a &quot;second chance&quot; asset recovery window. We can discuss how to rebuild our partnership. -->
+  <USAC.UI.Assets.Negotiation.Available>TODO</USAC.UI.Assets.Negotiation.Available>
+  <!-- EN: Under the Patriot Financial Security Act, your account is currently under punitive control. We must observe at least two consecutive acts of proactive compliance (current progress: {0}/2) before a compliance officer will step in to reassess your risk. Please continue to demonstrate your commitment. -->
+  <USAC.UI.Assets.Negotiation.Locked>TODO</USAC.UI.Assets.Negotiation.Locked>
+  <!-- EN: Submit an application for asset restoration and default settlement -->
+  <USAC.UI.Assets.Negotiation.Btn>TODO</USAC.UI.Assets.Negotiation.Btn>
+  <!-- EN: Congratulations. Your default waiver has been approved. We have reassessed your risk model, and your financial access is restored to standard tier. Remember: credit matters more than life. -->
+  <USAC.UI.Assets.Negotiation.Success>TODO</USAC.UI.Assets.Negotiation.Success>
+  <!-- EN: Assets held: {0}/{1} -->
+  <USAC.UI.Storage.Contents>TODO</USAC.UI.Storage.Contents>
+  <!-- EN: TRADE_TERMINAL//Orbital trade terminal -->
+  <USAC.Trade.Terminal>TODO</USAC.Trade.Terminal>
+  <!-- EN: Search items, categories, or descriptions... -->
+  <USAC.Trade.SearchPlaceholder>TODO</USAC.Trade.SearchPlaceholder>
+  <!-- EN: Colony items -->
+  <USAC.Trade.PlayerItems>TODO</USAC.Trade.PlayerItems>
+  <!-- EN: Trader items -->
+  <USAC.Trade.TraderItems>TODO</USAC.Trade.TraderItems>
+  <!-- EN: Transaction summary -->
+  <USAC.Trade.Summary>TODO</USAC.Trade.Summary>
+  <!-- EN: No transactions yet -->
+  <USAC.Trade.NoActiveTrades>TODO</USAC.Trade.NoActiveTrades>
+  <!-- EN: Select how many {0} to trade. -->
+  <USAC.Trade.SelectCount>TODO</USAC.Trade.SelectCount>
+  <!-- EN: Buying -->
+  <USAC.Trade.Summary.Buy>TODO</USAC.Trade.Summary.Buy>
+  <!-- EN: Selling -->
+  <USAC.Trade.Summary.Sell>TODO</USAC.Trade.Summary.Sell>
+  <!-- EN: Net expenditure -->
+  <USAC.Trade.Summary.Net>TODO</USAC.Trade.Summary.Net>
+  <!-- EN: Settlement -->
+  <USAC.Trade.Summary.Settlement>TODO</USAC.Trade.Summary.Settlement>
+  <!-- EN: incl. ₿{0} lost as change -->
+  <USAC.Trade.Summary.IncludeWastage>TODO</USAC.Trade.Summary.IncludeWastage>
+  <!-- EN: Current assets -->
+  <USAC.Trade.Summary.Current>TODO</USAC.Trade.Summary.Current>
+  <!-- EN: Current -->
+  <USAC.Trade.Summary.CurrentAssets>TODO</USAC.Trade.Summary.CurrentAssets>
+  <!-- EN: After the transaction -->
+  <USAC.Trade.Summary.After>TODO</USAC.Trade.Summary.After>
+  <!-- EN: After -->
+  <USAC.Trade.Summary.AfterTransaction>TODO</USAC.Trade.Summary.AfterTransaction>
+  <!-- EN: Remaining -->
+  <USAC.Trade.Summary.AfterRemain>TODO</USAC.Trade.Summary.AfterRemain>
+  <!-- EN: No change in assets -->
+  <USAC.Trade.Summary.NoChange>TODO</USAC.Trade.Summary.NoChange>
+  <!-- EN: Lost as change: ₿{0} -->
+  <USAC.Trade.Summary.Wastage>TODO</USAC.Trade.Summary.Wastage>
+  <!-- EN: Buying from: {0} -->
+  <USAC.Trade.Summary.BuyingFrom>TODO</USAC.Trade.Summary.BuyingFrom>
+  <!-- EN: Selling to: {0} -->
+  <USAC.Trade.Summary.SellingTo>TODO</USAC.Trade.Summary.SellingTo>
+  <!-- EN: Click an item&apos;s icon to see its details. -->
+  <USAC.Trade.Summary.Tip_0>TODO</USAC.Trade.Summary.Tip_0>
+  <!-- EN: You said you didn&apos;t want to be here~ (Selected Works of the Chairman of USAC, 3:43) -->
+  <USAC.Trade.Summary.Tip_1>TODO</USAC.Trade.Summary.Tip_1>
+  <!-- EN: USAC does not split currency or give change. -->
+  <USAC.Trade.Summary.Tip_2>TODO</USAC.Trade.Summary.Tip_2>
+  <!-- EN: GuguGaga -->
+  <USAC.Trade.Summary.Tip_3>TODO</USAC.Trade.Summary.Tip_3>
+  <!-- EN: Click the input box to type an exact number. -->
+  <USAC.Trade.Summary.Tip_4>TODO</USAC.Trade.Summary.Tip_4>
+  <!-- EN: Item -->
+  <USAC.Trade.Header.Item>TODO</USAC.Trade.Header.Item>
+  <!-- EN: Held -->
+  <USAC.Trade.Header.Held>TODO</USAC.Trade.Header.Held>
+  <!-- EN: Stock -->
+  <USAC.Trade.Header.Stock>TODO</USAC.Trade.Header.Stock>
+  <!-- EN: Price -->
+  <USAC.Trade.Header.Price>TODO</USAC.Trade.Header.Price>
+  <!-- EN: Cancel -->
+  <USAC.Trade.Dialog.Cancel>TODO</USAC.Trade.Dialog.Cancel>
+  <!-- EN: Confirm -->
+  <USAC.Trade.Dialog.Confirm>TODO</USAC.Trade.Dialog.Confirm>
+  <!-- EN: Available: {0} -->
+  <USAC.Trade.Dialog.Available>TODO</USAC.Trade.Dialog.Available>
+  <!-- EN: {0} x{1} + {2} x{3} -->
+  <USAC.Trade.Currency.Combined>TODO</USAC.Trade.Currency.Combined>
+  <!-- EN: {0} x{1} -->
+  <USAC.Trade.Currency.Single>TODO</USAC.Trade.Currency.Single>
+  <!-- EN: Body bags -->
+  <USAC.Trade.Currency.CorpseBag>TODO</USAC.Trade.Currency.CorpseBag>
+  <!-- EN: Credit bonds -->
+  <USAC.Trade.Currency.Bond>TODO</USAC.Trade.Currency.Bond>
+  <!-- EN: The orbital network detected no valid assets within this area&apos;s trade beacon range. -->
+  <USAC.Trade.Currency.Empty>TODO</USAC.Trade.Currency.Empty>
+  <!-- EN: Asset details: -->
+  <USAC_Currency_Breakdown>TODO</USAC_Currency_Breakdown>
+  <!-- EN: Body bag value: ₿{0} -->
+  <USAC_Currency_CorpseBagValue>TODO</USAC_Currency_CorpseBagValue>
+  <!-- EN: Credit bonds ({0}): ₿{1} -->
+  <USAC_Currency_BondValue>TODO</USAC_Currency_BondValue>
+  <!-- EN: Available to spend: ₿{0} -->
+  <USAC_Currency_TotalValue>TODO</USAC_Currency_TotalValue>
+  <!-- EN: Least valuable body bag: ₿{0} -->
+  <USAC_Currency_SmallestBag>TODO</USAC_Currency_SmallestBag>
+  <!-- EN: USAC spends body bags first unless you enable &quot;Prioritize payment using bonds&quot;. Note that USAC gives no change - any excess value is lost. -->
+  <USAC_Currency_Desc>TODO</USAC_Currency_Desc>
+  <!-- EN: USAC currency -->
+  <USAC_Currency_LabelEmpty>TODO</USAC_Currency_LabelEmpty>
+  <!-- EN: Capacity: {0}/{1} -->
+  <USAC.UI.Storage.Capacity>TODO</USAC.UI.Storage.Capacity>
+  <!-- EN: Refrigeration active -->
+  <USAC.UI.Storage.RefrigerationActive>TODO</USAC.UI.Storage.RefrigerationActive>
+  <!-- EN: No power -->
+  <USAC.UI.Storage.NoPower>TODO</USAC.UI.Storage.NoPower>
+  <!-- EN: Enable bond payments -->
+  <USAC.Trade.EnableBonds>TODO</USAC.Trade.EnableBonds>
+  <!-- EN: Prioritize payment using bonds -->
+  <USAC.Trade.PriorityBonds>TODO</USAC.Trade.PriorityBonds>
+  <!-- EN: Select a deployment location for {0} -->
+  <USAC.Trade.PlaceDelivery>TODO</USAC.Trade.PlaceDelivery>
+  <!-- EN: Cannot be placed here -->
+  <USAC.Trade.CannotPlace>TODO</USAC.Trade.CannotPlace>
+  <!-- EN: Cannot be deployed under a thick roof -->
+  <USAC.Trade.CannotPlaceUnderThickRoof>TODO</USAC.Trade.CannotPlaceUnderThickRoof>
+  <!-- EN: Select a deployment location for {0} (press Q/E to rotate). -->
+  <USAC.Trade.SelectPlacement>TODO</USAC.Trade.SelectPlacement>
+  <!-- EN: All buildings have been delivered by transport clamp. -->
+  <USAC.Trade.DeliveriesDispatched>TODO</USAC.Trade.DeliveriesDispatched>
+  <!-- EN: Cannot overlap with a planned drop zone -->
+  <USAC.Trade.CannotOverlapWithPending>TODO</USAC.Trade.CannotOverlapWithPending>
+  <!-- EN: Cannot land on an existing building -->
+  <USAC.Trade.CannotLandOnBuilding>TODO</USAC.Trade.CannotLandOnBuilding>
+  <!-- EN: Payment failed: there is not enough currency (body bags or bonds) within trade beacon range to settle this bill. -->
+  <USAC.Trade.NotEnoughCurrency>TODO</USAC.Trade.NotEnoughCurrency>
+  <!-- EN: A Rising Giant -->
+  <USAC_FactionName>TODO</USAC_FactionName>
+  <!-- EN: A vast corporation born out of this world&apos;s enlightenment. After the colonial fleet departed, it used its hold on information and technology to monopolize the local energy industry, then expanded across the rim on the back of its cultural dominance. -->
+  <USAC_FactionDesc>TODO</USAC_FactionDesc>
+  <!-- EN: Contains: {0} -->
+  <USAC_CorpseBag_Contains>TODO</USAC_CorpseBag_Contains>
+  <!-- EN: Value: {0} -->
+  <USAC_CorpseBag_Value>TODO</USAC_CorpseBag_Value>
+  <!-- EN: Empty -->
+  <USAC_CorpseBag_Empty>TODO</USAC_CorpseBag_Empty>
+  <!-- EN: Eject body -->
+  <USAC_CorpseBag_Eject>TODO</USAC_CorpseBag_Eject>
+  <!-- EN: Eject the body from this bag. -->
+  <USAC_CorpseBag_EjectDesc>TODO</USAC_CorpseBag_EjectDesc>
+  <!-- EN: Pack {0} into body bag -->
+  <USAC_CorpseBag_PackCorpse>TODO</USAC_CorpseBag_PackCorpse>
+  <!-- EN: Body bag value -->
+  <USAC_CorpseBag_Currency>TODO</USAC_CorpseBag_Currency>
+  <!-- EN: The total market value of your body bags. USAC traders accept body bags as currency. -->
+  <USAC_CorpseBag_CurrencyDesc>TODO</USAC_CorpseBag_CurrencyDesc>
+  <!-- EN: USAC hostility reset -->
+  <USAC_HostilityReset>TODO</USAC_HostilityReset>
+  <!-- EN: USAC has called off its hostility. They are neutral toward you once again. -->
+  <USAC_HostilityResetDesc>TODO</USAC_HostilityResetDesc>
+  <!-- EN: Deep resources in range: -->
+  <USAC_ResourcesInRange>TODO</USAC_ResourcesInRange>
+  <!-- EN: Mining target: {0} -->
+  <USAC_MiningTarget>TODO</USAC_MiningTarget>
+  <!-- EN: Mining progress: {0} -->
+  <USAC_MiningPortionProgress>TODO</USAC_MiningPortionProgress>
+  <!-- EN: No deep resources in range -->
+  <USAC_NoResourcesInRange>TODO</USAC_NoResourcesInRange>
+  <!-- EN: Stored minerals: -->
+  <USAC_StoredMineralsHeader>TODO</USAC_StoredMineralsHeader>
+  <!-- EN: Evacuation countdown: {0} -->
+  <USAC_ExtractionCountdown>TODO</USAC_ExtractionCountdown>
+  <!-- EN: The USAC mining rig is preparing to evacuate. -->
+  <USAC_MiningRigExtracting>TODO</USAC_MiningRigExtracting>
+  <!-- EN: The USAC mining raid failed. No usable deep resources were found. -->
+  <USAC_MiningRaidFailed>TODO</USAC_MiningRaidFailed>
+  <!-- EN: Maintenance -->
+  <USAC_Readiness>TODO</USAC_Readiness>
+  <!-- EN: Daily consumption: {0}% -->
+  <USAC_ReadinessConsumption>TODO</USAC_ReadinessConsumption>
+  <!-- EN: {0} delivered by drop pod. -->
+  <USAC_MechDelivered>TODO</USAC_MechDelivered>
+  <!-- EN: Call in mech drop -->
+  <USAC_UseMechOrder>TODO</USAC_UseMechOrder>
+  <!-- EN: Requires the Biotech DLC. -->
+  <USAC_RequiresBiotech>TODO</USAC_RequiresBiotech>
+  <!-- EN: Take control of {0} -->
+  <USAC_ControlMech>TODO</USAC_ControlMech>
+  <!-- EN: Cannot reach the mech. -->
+  <USAC_ControlMech_NoPath>TODO</USAC_ControlMech_NoPath>
+  <!-- EN: Not a mechanitor. -->
+  <USAC_ControlMech_NotMechanitor>TODO</USAC_ControlMech_NotMechanitor>
+  <!-- EN: Requires {0} bandwidth. -->
+  <USAC_ControlMech_NeedBandwidth>TODO</USAC_ControlMech_NeedBandwidth>
+  <!-- EN: Destroy mech -->
+  <USAC_DeactivatedMech_Destroy>TODO</USAC_DeactivatedMech_Destroy>
+  <!-- EN: {0} is now controlled by {1}. -->
+  <USAC_MechControlled>TODO</USAC_MechControlled>
+  <!-- EN: Hibernate -->
+  <USAC_DeactivateMech>TODO</USAC_DeactivateMech>
+  <!-- EN: Put this mech into hibernation. It can still be moved, and reactivated later. -->
+  <USAC_DeactivateMechDesc>TODO</USAC_DeactivateMechDesc>
+  <!-- EN: {0} has entered hibernation. -->
+  <USAC_MechDeactivated>TODO</USAC_MechDeactivated>
+  <!-- EN: USAC credit bonds -->
+  <USAC_Bond_Label>TODO</USAC_Bond_Label>
+  <!-- EN: A registered certificate of value, printed on high-strength fiber paper and issued by USAC corporate dealers to those who trade with their ground forces. Special inks give it an intricate anti-counterfeiting pattern, alongside the registered holder&apos;s details.\n\nOnce goods are bought and equipment sold, whatever residual value remains can be converted into these certificates, locking in fixed purchasing power for the next deal. Since each bond is registered, nobody but its holder can spend it - which makes this very durable piece of paper all but worthless to anyone else on the rim. -->
+  <USAC_Bond_Desc>TODO</USAC_Bond_Desc>
+  <!-- EN: USAC currency -->
+  <USAC_Currency_Label>TODO</USAC_Currency_Label>
+  <!-- EN: Body bag value: {0} (including {1} bonds) -->
+  <USAC_Currency_LabelFull>TODO</USAC_Currency_LabelFull>
+  <!-- EN: Bonds x{0} -->
+  <USAC_Currency_LabelBondOnly>TODO</USAC_Currency_LabelBondOnly>
+  <!-- EN: Body bag value: {0} -->
+  <USAC_Currency_LabelCorpseBagOnly>TODO</USAC_Currency_LabelCorpseBagOnly>
+  <!-- EN: Spendable before the next bag is used: {0} -->
+  <USAC_Currency_UntilNextBag>TODO</USAC_Currency_UntilNextBag>
+  <!-- EN: The target must be a mechanoid. -->
+  <MessageTargetMustBeMechanoid>TODO</MessageTargetMustBeMechanoid>
+  <!-- EN: The target must be one of your own mechanoids. -->
+  <MessageTargetMustBePlayerMech>TODO</MessageTargetMustBePlayerMech>
+  <!-- EN: {0} has been fully charged. -->
+  <USAC_MessageMechCharged>TODO</USAC_MessageMechCharged>
+  <!-- EN: All damage to {0} has been repaired. -->
+  <USAC_MessageMechRepaired>TODO</USAC_MessageMechRepaired>
+  <!-- EN: {0} ({1}) has moved into communications range. {2} -->
+  <TraderArrival>TODO</TraderArrival>
+  <!-- EN: They come from {FACTION}. -->
+  <TraderArrivalFromFaction>TODO</TraderArrivalFromFaction>
+  <!-- EN: They belong to no known faction. -->
+  <TraderArrivalNoFaction>TODO</TraderArrivalNoFaction>
+  <!-- EN: hostile outpost -->
+  <USAC_SiteLabel_HostileOutpost>TODO</USAC_SiteLabel_HostileOutpost>
+  <!-- EN: enemy camp -->
+  <USAC_SiteLabel_EnemyCamp>TODO</USAC_SiteLabel_EnemyCamp>
+  <!-- EN: rogue base -->
+  <USAC_SiteLabel_RogueBase>TODO</USAC_SiteLabel_RogueBase>
+  <!-- EN: forward post -->
+  <USAC_SiteLabel_ForwardPost>TODO</USAC_SiteLabel_ForwardPost>
+  <!-- EN: resort camp -->
+  <USAC_SiteLabel_Resort>TODO</USAC_SiteLabel_Resort>
+  <!-- EN: retreat site -->
+  <USAC_SiteLabel_Retreat>TODO</USAC_SiteLabel_Retreat>
+  <!-- EN: remote lodge -->
+  <USAC_SiteLabel_Lodge>TODO</USAC_SiteLabel_Lodge>
+  <!-- EN: frontier outpost -->
+  <USAC_SiteLabel_Outpost>TODO</USAC_SiteLabel_Outpost>
+  <!-- EN: hostile camp -->
+  <USAC_SiteLabel_HostileCamp>TODO</USAC_SiteLabel_HostileCamp>
+  <!-- EN: hostile base -->
+  <USAC_SiteLabel_HostileBase>TODO</USAC_SiteLabel_HostileBase>
+  <!-- EN: Cover-up successful -->
+  <USAC_LetterLabelCoverup>TODO</USAC_LetterLabelCoverup>
+  <!-- EN: {0} covered for your operation. Several outposts were attacked and destroyed by {1}, and nothing ever pointed back to you. The elimination was a complete success. -->
+  <USAC_LetterTextCoverup>TODO</USAC_LetterTextCoverup>
+  <!-- EN: Cover-up successful -->
+  <USAC_Coverup>TODO</USAC_Coverup>
+  <!-- EN: The emergency siren cuts through the roar of reentry. USAC has already written this loss off as acceptable risk.
+
+You are four survivors, each from a different contract chain: inherited debt, automation layoffs, penal security work, and frontier hazard labor. Supplies are short, support is gone, and every promise ever made to you now depends on what you can build and defend on this rimworld. -->
+  <USAC_FourPersonStart_GameStartDialog>TODO</USAC_FourPersonStart_GameStartDialog>
+  <!-- EN: USAC asset protection operation -->
+  <USAC_DebtSite_CommercialRaid>TODO</USAC_DebtSite_CommercialRaid>
+  <!-- EN: Intelligence gathered at a USAC commercial site shows that it sold details of the weak points in your defenses, baiting a pirate assault on your colony. -->
+  <USAC_DebtSite_CommercialRaid_Desc>TODO</USAC_DebtSite_CommercialRaid_Desc>
+  <!-- EN: Artillery spotters detected at a USAC site... -->
+  <USAC_DebtSite_ArtilleryStrike>TODO</USAC_DebtSite_ArtilleryStrike>
+  <!-- EN: Aerial spotters detected at a USAC airfield... -->
+  <USAC_DebtSite_AirStrike>TODO</USAC_DebtSite_AirStrike>
+  <!-- EN: Incoming artillery -->
+  <USAC_ArtillerySupport_LetterLabel>TODO</USAC_ArtillerySupport_LetterLabel>
+  <!-- EN: A USAC artillery position nearby has answered the assault on your colony. Its spotters have marked your settlement, and bombardment is on its way. Take cover! -->
+  <USAC_ArtillerySupport_LetterText>TODO</USAC_ArtillerySupport_LetterText>
+  <!-- EN: Incoming airstrike -->
+  <USAC_AirbaseSupport_LetterLabel>TODO</USAC_AirbaseSupport_LetterLabel>
+  <!-- EN: A temporary USAC airfield nearby has sent a tactical bomber wing to your coordinates in support of the ground offensive. The strike is seconds from the target area! -->
+  <USAC_AirbaseSupport_LetterText>TODO</USAC_AirbaseSupport_LetterText>
+  <!-- EN: Pay USAC registration fee for {0} ({1} bonds) -->
+  <USAC_MechOrder_Register>TODO</USAC_MechOrder_Register>
+  <!-- EN: Not enough bonds: {0}/{1} -->
+  <USAC_MechOrder_NoFunds>TODO</USAC_MechOrder_NoFunds>
+  <!-- EN: {0} registered with USAC. Drop pod inbound ({1} bonds spent). -->
+  <USAC_MechOrder_Registered>TODO</USAC_MechOrder_Registered>
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyTouch"]/parts/li[2]/desc</xpath>
+    <value>
+      <!-- EN: Secondary mode: {OFFSET} -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyShort"]/parts/li[2]/desc</xpath>
+    <value>
+      <!-- EN: Secondary mode: {OFFSET} -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyMedium"]/parts/li[2]/desc</xpath>
+    <value>
+      <!-- EN: Secondary mode: {OFFSET} -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyLong"]/parts/li[2]/desc</xpath>
+    <value>
+      <!-- EN: Secondary mode: {OFFSET} -->
+      <desc>TODO</desc>
+    </value>
+  </Operation>
+</Patch>
