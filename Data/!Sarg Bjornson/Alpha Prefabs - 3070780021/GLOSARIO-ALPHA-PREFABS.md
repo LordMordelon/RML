@@ -20,7 +20,8 @@ Origen: **of.** = traducción oficial; **RML** = otro mod de RML; **nuevo** = de
 | fake sculpture | escultura de imitación | nuevo: el mod las describe como hechas en serie, no falsificadas |
 | small / large / grand sculpture | escultura pequeña / mediana / grande | of. (`large` es «mediana» en el juego) |
 | variation / variant layout | variante / diseño variante | nuevo |
-| Facing North / West / East / South | Mirando al norte / oeste / este / sur | nuevo |
+| Facing North / West / East / South | Orientado al norte / oeste / este / sur | nuevo |
+| shortLabel (nombre de la cuadrícula) | el mismo sentido que el inglés, sin abreviar | Angel, 25-oct: «lab.», «fáb.» o sacar «insectoide» quedaba raro |
 | simoleons | simoleones | broma del autor (la moneda de Los Sims) |
 | silly | tonterías | la categoría está comentada en el mod; solo aparece en los ajustes |
 
