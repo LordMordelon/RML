@@ -355,43 +355,38 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   Adventures («concejal» / «concejal citadino») y Alpha Prefabs («magister» / «magistrado»). Se
   encontraron cotejando cada fila contra la oficial; la mayoría de los demás avisos eran palabras sueltas
   sin relación.
-- **AncientCorps**: «escopeta de combate tula» (punto 7) y `DMSAC_Garage.description`, que tiene una
-  oración que empieza en minúscula («…primera línea. estaciones de mantenimiento…»). Cada uno en su
-  propio commit.
 - **El extractor**: la condición de CE (punto 1) y el cruce de `Patches` que cambia de posición a clase
   (punto 2).
 
-## Próxima sesión (25-oct-2026)
+## Próxima sesión (25-oct-2026, segunda)
 
-**Objetivo:** pasos 1 y 2 del orden de trabajo: Hemogen Pack, los 3 de MobileDragoon y AncientCorps.
+**Objetivo:** paso 3 del orden de trabajo: Taktikmagier, a mano.
 
-**Estado:** `master` de RML, cinco commits locales sin subir: `2371b901` (glosarios: gana la oficial),
-`32fccaca` (tabla y script para tres mods; Hegemony en pausa), `b72cf207` (AncientCorps, Synthetic y
-MobileDragoon reextraídos), `e6a0bdc7` (los seis mods nuevos, sin traducir) y el de este plan con los
-glosarios. Todas las decisiones de Angel están tomadas (puntos 1 a 7). `About.xml`, `LoadFolders.xml`,
-`ModList.tsv` y `docs/index.html` quedaron sin commitear: son generados y los rehace el builder.
+**Estado:** pasos 1 y 2 terminados el 25-oct-2026: Hemogen Pack (`ac44cde3`), los 3 de MobileDragoon
+(`f5f38247`), las 122 de AncientCorps (`b0d1f599`, glosario al día) y sus tres arreglos (`31788ae9`,
+`ef08f5d0`, `0c5aabff`). Las tres comprobaciones del diff salieron vacías y `-build` pasó sin avisos.
+`master` de RML tiene 14 commits sin subir, este plan incluido. Generados (`About.xml`, `LoadFolders.xml`,
+`ModList.tsv`, `docs/index.html`) sin commitear, como siempre.
 
-**Antes de empezarla (Angel):** nada.
+**Antes de empezarla (Angel):**
+1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
+2. Si puedes, probar en el juego AncientCorps: una misión de instalación, el nivel DEFCON en pantalla y un
+   saray ensamblando. Y Hemogen Pack: el botón «Administrar…» sobre un colono con hemorragia.
 
 **Al empezar (Claude):**
-1. Hemogen Pack: 5 entradas (4 de `Keyed`, 1 de `JobDef`), con los términos oficiales «pack de
-   hemógeno» y «hemorragia». A mano.
-2. MobileDragoon: los 3 `chargeNoun` de `Patches/qer29y.xml`, con el valor que tenían
-   (`git show b72cf207~1:` del archivo): «misil», «misil», «cohete».
-3. AncientCorps: las 122 entradas, en los seis pasos de su sección y con `GLOSARIO-AC.md`. A mano (no
-   va con script). Los 22 campos que guardan una clave quedan en `TODO`.
-4. Tres arreglos de AncientCorps, cada uno en su commit: «escopeta de combate tula» → «Tula»
-   (`DMS_KS23K.label`), «del cuerpo» → «del Cuerpo» (`DMSAC_Graveyard.description`) y la oración en
-   minúscula de `DMSAC_Garage.description`.
-5. Las tres comprobaciones del diff, `LoadFoldersBuilder -build` y preguntarle a Angel si sube los
-   commits.
+1. Taktikmagier: 182 entradas (179 en `Languages`, 3 en `Patches`), con `GLOSARIO-TAKTIKMAGIER.md` y las
+   psicoemisiones de la oficial («Reglas comunes»). A mano, con Edit. Su sección de «Cada mod» dice qué hay.
+2. Las tres comprobaciones del diff, que el XML siga bien formado, `LoadFoldersBuilder -build` y
+   preguntarle a Angel si sube.
 
-Son unas 1.700 palabras: cabe en una sesión. La siguiente es Taktikmagier (182, a mano).
+Cabe en una sesión. La siguiente es Citadel (272, a mano).
 
-**Decisiones de Angel:** ninguna pendiente. **Subir a GitHub:** recomiendo hacerlo al terminar
-AncientCorps, en un solo push: cada push que cambia el mod publica una versión nueva.
+**Decisiones de Angel:** ninguna pendiente. Recomiendo subir lo de hoy antes de seguir: son cinco mods
+terminados.
+
+**Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan («Reglas comunes», «Cada mod»), `GLOSARIO-AC.md`, `ARMAS-DMS.md`, y
-`herramientas-traduccion/oficial/` (`oficial.py`, `buscar.py`) para buscar en la traducción oficial.
+**Dónde leer:** este plan («Reglas comunes», la sección de Taktikmagier), `GLOSARIO-TAKTIKMAGIER.md`,
+`ARMAS-DMS.md` y `herramientas-traduccion/oficial/` para buscar en la traducción oficial.
