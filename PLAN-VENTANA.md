@@ -179,7 +179,13 @@ mod real cambiado (por ejemplo, uno de los que la columna marca hoy).
 - **Lo de un mod que el Agrupador movió** se reconoce por el nombre de su carpeta, también para la sexta
   columna: antes un mod movido y cambiado podía no marcarse.
 - **El juego:** `CambiosDeMod` (Logica, con pruebas) lee solo las líneas del mod y convierte el `\n`
-  literal en salto. `VentanaCambios` dibuja solo los renglones a la vista. La casilla es
+  literal en salto. `VentanaCambios` dibuja solo los renglones a la vista.
+- **Palabras resaltadas, como VS Code (Angel, 25-oct):** el renglón lleva el fondo suave y las palabras
+  que cambiaron, el mismo color más fuerte. `DiffDePalabras` (Logica, con pruebas) compara palabra por
+  palabra (subsecuencia común más larga; arriba de un millón de celdas marca el texto entero) y une los
+  espacios entre dos palabras cambiadas. La ventana corta los renglones ella misma, dibuja cada uno
+  entero y mide el resalte sobre el renglón hasta esa palabra, sin el margen que el juego suma a cada
+  medida. Las etiquetas `<color>`, `<b>`, `<i>` y `<size>` se sacan antes: partidas se verían tal cual. La casilla es
   `AjustesRml.VerCambios` («verCambios», encendida por defecto).
 - **Con los datos de hoy:** 7 mods con detalle, 108 textos, 41 KB; armar la copia tarda unos 13 s. El
   resumen dice «cambiados» y no «corregidos», porque también aparece en las filas «Actualizado».
