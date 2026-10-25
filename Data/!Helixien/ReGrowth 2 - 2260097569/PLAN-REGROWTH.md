@@ -30,9 +30,9 @@ Poner al día y revisar la traducción de ReGrowth 2 (Workshop 2260097569). Lo p
 |---|---|---|---|
 | 1 | Glosario del mod | chica | hecha: [GLOSARIO-REGROWTH.md](GLOSARIO-REGROWTH.md) |
 | 2 | Arreglar los textos cuyo inglés cambió | chica | hecha (25-oct-2026) |
-| 3 | Angel confirma los términos | chica | falta: Angel |
-| 4 | Aplicar los términos confirmados | chica | falta |
-| 5 | Revisar el resto contra el texto oficial | mediana | falta |
+| 3 | Angel confirma los términos | chica | hecha (25-oct-2026) |
+| 4 | Aplicar los términos confirmados | chica | hecha (25-oct-2026) |
+| 5 | Revisar el resto contra el texto oficial | mediana | hecha (25-oct-2026) |
 | 6 | Verificar y probar en partida | chica | falta |
 
 ### 2. Los textos cuyo inglés cambió
@@ -46,32 +46,41 @@ bien. Se arreglaron los que no correspondían:
   «warm areas» y «tropical areas» en vez de «areas of … temperatures».
 - `RG_NeoAmanita.description`: «que crece en racimos» quedaba repetido en la misma oración.
 - `SmartFarming.Icon.Smart.Desc`: el inglés pasó a plural («they are expected to die»).
-- `ScatteredFlames.Settings.IgniteGizmo.Desc`: «botón de gizmo» queda para la etapa 4, con el resto
-  de los «gizmo».
+- `ScatteredFlames.Settings.IgniteGizmo.Desc`: «botón de gizmo» se arregló en la etapa 4, con el
+  resto de los «gizmo».
 
-### 3. Términos para confirmar
+### 3 y 4. Términos
 
-Cada uno cambia varios textos que ya estaban traducidos, por eso no se hizo sin preguntar:
+Angel los decidió el 25-oct-2026; cada uno está en el glosario:
 
-1. **rimclaw → «iguanodonte».** El nombre es de un dinosaurio real, y el animal es una iguana
-   mutada. Opciones: dejarlo; «iguana del borde»; o dejar «rimclaw» como el juego deja «thrumbo».
-2. **chokevine.** El juego lo deja en inglés; el mod dice «enredadera estranguladora».
-3. **gizmo → «botón».** 12 textos de las opciones.
-4. **ancient → «ancestral»**, como el juego: «jeep ancestral», «poste eléctrico ancestral».
-5. **Pensamientos en tercera persona**, como el juego: «se bañó en aguas termales» en vez de «me
-   bañé…», y «mojad{PAWN_gender ? o : a}» / «empapad{PAWN_gender ? o : a}» en vez de «húmedo»
-   y «extremadamente húmedo», que no tienen género. «sandy» → «arenoso», como el oficial, en vez
-   de «arena».
-6. **«Predeterminado» → «Por defecto»** en las opciones.
-7. **Zarzales y semilla de ánima:** «zarzales rojos», «zarzales amarillos», «zarzales tropicales»
-   como el oficial, y «semilla de ánima».
+1. **rimclaw** queda «iguanodonte».
+2. **chokevine** queda «enredadera estranguladora», en español, aunque el juego lo deja en inglés.
+3. **gizmo → «botón»**, en las 6 opciones que lo nombraban.
+4. **ancient** queda «antiguo» («jeep antiguo», «poste eléctrico antiguo»). Angel dejó la elección:
+   el juego usa las dos palabras, y «antiguo» es la de lo más parecido («antiguo transporte de
+   tropas», «farola antigua»).
+5. **Pensamientos:** los baños siguen en primera persona («me bañé en aguas termales»), como pidió
+   Angel. «húmedo» y «extremadamente húmedo» pasan a «mojad{PAWN_gender ? o : a}» y
+   «empapad{PAWN_gender ? o : a}», y «arena» a «llen{PAWN_gender ? o : a} de arena»: el «arenoso»
+   oficial es de un terreno del mapa, no de un pensamiento.
+6. **«Predeterminado» → «Por defecto»**, en 9 opciones.
+7. **«zarzales rojos», «zarzales amarillos», «zarzales tropicales»** y **«semilla de ánima»**.
 
 ### 5. Revisar el resto
 
-Lo que el mod copia del juego va con el texto oficial. La comparación automática encontró la
-descripción de los zarzales y la del arbusto de bayas, que el mod copia tal cual del inglés del
-juego y en RML están traducidas de otra forma. Después, una lectura del resto archivo por archivo,
-con la regla de siempre: solo el valor, sin tocar etiquetas, comentarios ni codificación.
+Lo que el mod copia del juego va con el texto oficial: la descripción de los tres zarzales del mod
+(la misma del zarzal del juego) y la del arbusto de bayas. Las patas del estegosaurio siguen como
+estaban: «pata delantera» es lo que usa el juego en casi todos sus animales.
+
+La lectura del resto encontró, y se arregló:
+
+- `RG_Hemolope.description`: «sanguívoros» → «sanguífagos», el término oficial, y «puede ser
+  tratado» → «se puede ordeñar».
+- `RG_WasteBathing.stages.0.description`: «Qué guarrería...» es de España; ahora «Un asco total;
+  siento la suciedad en todo el cuerpo».
+- `RG_Bathe.reportString`: «relajarse» → «relajándose», como los demás trabajos del juego.
+- En las opciones: «vainilla» → «Vanilla» (2), «cultivos apestados» → «plagados», y las comidas con
+  sus nombres oficiales («sencilla», «lujosa»).
 
 ### 6. Verificar
 

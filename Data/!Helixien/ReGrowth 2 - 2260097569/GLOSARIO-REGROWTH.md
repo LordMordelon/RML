@@ -6,20 +6,19 @@ de la traducción que ya existía, comparada con la oficial del juego (los `.tar
 
 Las etiquetas (`label`) van en minúscula, como en la traducción oficial.
 
-Los términos marcados **a confirmar** son propuestas que Angel todavía no aprobó. Si se cambia uno,
-hay que buscarlo en todos los archivos de la carpeta, no solo en uno: casi todos aparecen también en
-las descripciones.
+Los términos que dicen **Angel, 25-oct** los decidió él. Si se cambia uno, hay que buscarlo en todos
+los archivos de la carpeta, no solo en uno: casi todos aparecen también en las descripciones.
 
 ## Animales
 
 | Inglés | Español | Notas |
 |---|---|---|
-| rimclaw | **iguanodonte** | **A confirmar.** Es una iguana gigante mutada por la contaminación, no el dinosaurio *Iguanodon*. Hoy dice «iguanodonte» en la etiqueta, los huevos y las descripciones |
+| rimclaw | **iguanodonte** | **Angel, 25-oct.** Es una iguana gigante mutada por la contaminación; el nombre se queda aunque sea el de un dinosaurio real. Va en la etiqueta, los huevos y las descripciones |
 | woolly stegosaurus | **estegosaurio lanudo** | Su lana: «lana de estegosaurio lanudo» |
 | kiwi / chick | **kiwi** / **cría de kiwi** | |
 | rabbit / kit | **conejo** / **cría de conejo** | |
 | hemolope / hemolope calf | **hemolope** / **ternero hemolope** | |
-| neutrolope / neutrolope calf | **neutrólope** / **cría de neutrólope** | Las crías de los dos antílopes no usan la misma palabra: ver el plan |
+| neutrolope / neutrolope calf | **neutrólope** / **cría de neutrólope** | Las crías de los dos antílopes usan palabras distintas («ternero», «cría»); se dejaron como estaban |
 | hatchling | **cría** | |
 | heavy dinosaur hide | **cuero pesado de dinosaurio** | |
 | egg (fert.) / egg (unfert.) | **huevo de … (fert.)** / **huevo de … (no fert.)** | |
@@ -29,15 +28,15 @@ las descripciones.
 | Inglés | Español | Notas |
 |---|---|---|
 | aspen tree / aspen forest | **álamo temblón** / **bosque de álamos temblones** | El bioma nuevo |
-| anima tree / anima seed | **árbol ánima** / **semilla de ánima** | Oficial: «árbol ánima», con tilde. Hoy la semilla dice «semilla anima», sin tilde ni «de» |
-| brambles | **zarzales** | Oficial. Las variantes del mod hoy dicen «zarzas rojas», «zarzas amarillas» y «zarzas tropicales» |
-| chokevine | **chokevine** | **A confirmar.** Oficial: el juego lo deja en inglés. Hoy el mod dice «enredadera estranguladora» |
+| anima tree / anima seed | **árbol ánima** / **semilla de ánima** | Oficial: «árbol ánima», con tilde |
+| brambles | **zarzales** | Oficial. Las variantes del mod: «zarzales rojos», «zarzales amarillos», «zarzales tropicales». Su descripción es la oficial del zarzal |
+| chokevine | **enredadera estranguladora** | **Angel, 25-oct.** El juego lo deja en inglés, «chokevine», pero acá va en español |
 | dandelions | **diente de león** | Oficial. El mod distingue «azul», «rojo» y «del desierto» por el nombre del def |
 | pine tree / willow tree | **pino** / **sauce** | Oficial. El mod distingue variantes: «pino azul», «pino naranja», «pino de tundra», «sauce blanco» |
 | toxipine / toxiteak | **toxipino** / **toxiteca** | |
 | tall toxigrass | **toxihierba alta** | |
 | fern / ivy | **helecho** / **hiedra** | |
-| mushroom / fungus | **hongo** | «Seta» queda solo en «cultivo de setas», el proyecto de investigación. **A confirmar** si se unifica |
+| mushroom / fungus | **hongo** | «Seta» queda solo en «cultivo de setas», el proyecto de investigación |
 | glowforest | **lumibosque** | Oficial (Odyssey) |
 | boulder | **roca de …** | «roca de granito», «roca de mármol» |
 
@@ -45,7 +44,11 @@ las descripciones.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| ancient (ruinas) | **ancestral** | Oficial: «automóvil ancestral». Hoy el mod dice «jeep antiguo» y «poste eléctrico antiguo» |
+| ancient (ruinas) | **antiguo** | «jeep antiguo», «poste eléctrico antiguo». El juego usa las dos palabras: «automóvil ancestral», pero «antiguo transporte de tropas» y «farola antigua», que son lo más parecido a estos dos. Angel dejó la elección el 25-oct |
+| hemolope / sanguophage | **sanguífago** | Oficial |
+| blight / blighted | **plaga** / **plagado** | Oficial |
+| simple / fine / lavish meal | **comida sencilla** / **comida buena** / **comida lujosa** | Oficial |
+| Vanilla | **Vanilla** | No se traduce (`RML/AGENTS.md`) |
 | hot spring | **aguas termales** / **fuente termal** | |
 | dust devil | **remolino de polvo** | |
 | fog storm | **niebla ventosa** | |
@@ -55,15 +58,16 @@ las descripciones.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| gizmo | **botón** | **A confirmar.** La traducción oficial no usa «gizmo» en ningún texto. Hoy aparece en 12 textos de las opciones |
-| Default: {0} | **Por defecto: {0}** | Como el resto de RML. Hoy el mod mezcla «Predeterminado» y «predeterminado» |
+| gizmo | **botón** | **Angel, 25-oct.** La traducción oficial no usa «gizmo» en ningún texto |
+| Default: {0} / Mod default: {0} | **Por defecto: {0}** / **por defecto del mod: {0}** | Como el resto de RML. «Default: True» → «Por defecto: activado» |
 | Smart farming | **Agricultura inteligente** | Módulo del mod |
 | Scattered Flames | **Llamas dispersas** | Módulo del mod |
 | pawn | **colono** | |
 
 ## Pensamientos
 
-La traducción oficial escribe la etiqueta de un pensamiento en tercera persona y en pasado: «comió
-cadáver», «empapad{PAWN_gender ? o : a}». La descripción sí va en primera persona («Estoy
-empapado»). Hoy las etiquetas de ReGrowth dicen «me bañé en aguas termales», en primera persona, y
-«húmedo» sin el género: ver el plan.
+| Inglés | Español | Notas |
+|---|---|---|
+| bathed in hot spring (y los otros baños) | **me bañé en aguas termales** | **Angel, 25-oct.** En primera persona, aunque el juego escribe estas etiquetas en tercera («comió cadáver»): a Angel le gusta más así |
+| wet / extremely wet | **mojad{PAWN_gender ? o : a}** / **empapad{PAWN_gender ? o : a}** | Con el género del colono, como el «empapado» oficial. El juego acepta la marca en pensamientos de este tipo (por ejemplo, «involucrad{…} en un ritual psíquico») |
+| sandy | **llen{PAWN_gender ? o : a} de arena** | El «arenoso» oficial es de un terreno del mapa, no de un pensamiento |

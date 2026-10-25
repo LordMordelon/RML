@@ -73,15 +73,15 @@
   <!-- EN: Enable {0} -->
   <RG.Enable>Habilitar {0}</RG.Enable>
   <!-- EN: Splash size (default: {0}): {3} -->
-  <SimpleFxSplashes.Settings.SizeMultiplier>Tamaño de salpicadura (predeterminado: {0}): {3}</SimpleFxSplashes.Settings.SizeMultiplier>
+  <SimpleFxSplashes.Settings.SizeMultiplier>Tamaño de salpicadura (por defecto: {0}): {3}</SimpleFxSplashes.Settings.SizeMultiplier>
   <!-- EN: Adjust how big the splash particles are. -->
   <SimpleFxSplashes.Settings.SizeMultiplier.Desc>Ajusta el tamaño de las partículas de salpicadura.</SimpleFxSplashes.Settings.SizeMultiplier.Desc>
   <!-- EN: Splash rarity (default: {0}): {3} -->
-  <SimpleFxSplashes.Settings.SplashRarity>Rareza de salpicadura (predeterminado: {0}): {3}</SimpleFxSplashes.Settings.SplashRarity>
+  <SimpleFxSplashes.Settings.SplashRarity>Rareza de salpicadura (por defecto: {0}): {3}</SimpleFxSplashes.Settings.SplashRarity>
   <!-- EN: Lowering this will spawn more splash particle, and increasing will make them rarer. This impacts performance. -->
   <SimpleFxSplashes.Settings.SplashRarity.Desc>Bajar este valor generará más partículas de salpicadura, y aumentarlo las hará más raras. Esto afecta al rendimiento.</SimpleFxSplashes.Settings.SplashRarity.Desc>
   <!-- EN: Filter natural tiles (default: {0}): {3} -->
-  <SimpleFxSplashes.Settings.FilterNature>Filtrar casillas naturales (predeterminado: {0}): {3}</SimpleFxSplashes.Settings.FilterNature>
+  <SimpleFxSplashes.Settings.FilterNature>Filtrar casillas naturales (por defecto: {0}): {3}</SimpleFxSplashes.Settings.FilterNature>
   <!-- EN: A reduction on natural cells (such as rough stone) allowed to splash rain. Only allow {0}% of natural tiles to splash rain. Increasing this impacts performance. -->
   <SimpleFxSplashes.Settings.FilterNature.Desc>Una reducción en las casillas naturales (como piedra en bruto) que pueden mostrar salpicaduras de lluvia. Solo permite que el {0}% de las casillas naturales muestren salpicaduras. Aumentar esto afecta al rendimiento.</SimpleFxSplashes.Settings.FilterNature.Desc>
   <!-- EN: Consider outdoor temperature -->
@@ -144,11 +144,11 @@
   <!-- EN: Allow cold sowing -->
   <SmartFarming.Settings.ColdSowing>Permitir siembra en frío</SmartFarming.Settings.ColdSowing>
   <!-- EN: Normally, the game does not allow sowing when the ground is frozen, even if the type of plant being sown tolerates freezing temperatures. Disable this to maintain vanilla rules. -->
-  <SmartFarming.Settings.ColdSowing.Desc>Normalmente, el juego no permite sembrar cuando el suelo está helado, incluso si el tipo de planta que se siembra tolera temperaturas bajo cero. Desactiva esto para mantener las reglas de vainilla.</SmartFarming.Settings.ColdSowing.Desc>
+  <SmartFarming.Settings.ColdSowing.Desc>Normalmente, el juego no permite sembrar cuando el suelo está helado, incluso si el tipo de planta que se siembra tolera temperaturas bajo cero. Desactiva esto para mantener las reglas de Vanilla.</SmartFarming.Settings.ColdSowing.Desc>
   <!-- EN: Allow harvest gizmo -->
-  <SmartFarming.Settings.AllowHarvest>Permitir gizmo de cosecha</SmartFarming.Settings.AllowHarvest>
+  <SmartFarming.Settings.AllowHarvest>Permitir el botón de cosecha</SmartFarming.Settings.AllowHarvest>
   <!-- EN: Show the &quot;allow harvest&quot; gizmo. Enabling this may have some performance impact for high population colonies with many crop workers. Changing this requires a game restart. -->
-  <SmartFarming.Settings.AllowHarvest.Desc>Muestra el gizmo de "permitir cosecha". Habilitar esto puede tener un impacto en el rendimiento en colonias con alta población y muchos agricultores. Cambiar esto requiere reiniciar el juego.</SmartFarming.Settings.AllowHarvest.Desc>
+  <SmartFarming.Settings.AllowHarvest.Desc>Muestra el botón «permitir cosecha». Habilitar esto puede tener un impacto en el rendimiento en colonias con alta población y muchos agricultores. Cambiar esto requiere reiniciar el juego.</SmartFarming.Settings.AllowHarvest.Desc>
   <!-- EN: Smart sow: -->
   <SmartFarming.Settings.SmartSowLabel>Siembra inteligente:</SmartFarming.Settings.SmartSowLabel>
   <!-- EN: Processed food factor: -->
@@ -162,9 +162,9 @@
   <!-- EN: When predicting plant growth, use the average zone fertility instead of the zone&apos;s weakest fertility. -->
   <SmartFarming.Settings.UseAverageFertility.Desc>Al predecir el crecimiento de las plantas, utiliza la fertilidad promedio de la zona en lugar de la fertilidad más débil de la zona.</SmartFarming.Settings.UseAverageFertility.Desc>
   <!-- EN: Automatically designate blighted crops for disposal -->
-  <SmartFarming.Settings.AutoCutBlighted>Designar automáticamente los cultivos apestados para su eliminación</SmartFarming.Settings.AutoCutBlighted>
+  <SmartFarming.Settings.AutoCutBlighted>Designar automáticamente los cultivos plagados para eliminarlos</SmartFarming.Settings.AutoCutBlighted>
   <!-- EN: If a crop becomes blighted, a cut work order will automatically be designated. -->
-  <SmartFarming.Settings.AutoCutBlighted.Desc>Si un cultivo se apesta, se designará automáticamente una orden de trabajo de corte.</SmartFarming.Settings.AutoCutBlighted.Desc>
+  <SmartFarming.Settings.AutoCutBlighted.Desc>Si un cultivo contrae una plaga, se designará automáticamente una orden de corte.</SmartFarming.Settings.AutoCutBlighted.Desc>
   <!-- EN: Harvest early if threatened -->
   <SmartFarming.Settings.AutoHarvestNow>Cosechar temprano si hay amenaza</SmartFarming.Settings.AutoHarvestNow>
   <!-- EN: If tonight&apos;s weather is going to be deadly cold, designate all plants for an immediate harvest. -->
@@ -172,21 +172,21 @@
   <!-- EN: Plants designated for an early harvest due to tonight&apos;s forecast. -->
   <SmartFarming.Message.AutoHarvestNow>Plantas designadas para una cosecha temprana debido al pronóstico del tiempo de esta noche.</SmartFarming.Message.AutoHarvestNow>
   <!-- EN: Alignment gizmo -->
-  <SmartFarming.Settings.OrchardAlignment>Gizmo de alineación</SmartFarming.Settings.OrchardAlignment>
+  <SmartFarming.Settings.OrchardAlignment>Botón de alineación</SmartFarming.Settings.OrchardAlignment>
   <!-- EN: Enables a gizmo that prompts pawns to plant trees in careful rows. -->
-  <SmartFarming.Settings.OrchardAlignment.Desc>Habilita un gizmo que indica a los colonos que planten árboles en filas cuidadosas.</SmartFarming.Settings.OrchardAlignment.Desc>
+  <SmartFarming.Settings.OrchardAlignment.Desc>Habilita un botón que indica a los colonos que planten árboles en filas ordenadas.</SmartFarming.Settings.OrchardAlignment.Desc>
   <!-- EN: Automatically try to harvest dying crops -->
   <SmartFarming.Settings.AutoCutDying>Intentar cosechar automáticamente cultivos moribundos</SmartFarming.Settings.AutoCutDying>
   <!-- EN: If a crop dies to the cold, try to automatically harvest any surviving crops before it is too late. Changing this requires a game restart. -->
   <SmartFarming.Settings.AutoCutDying.Desc>Si un cultivo muere por el frío, intenta cosechar automáticamente cualquier cultivo superviviente antes de que sea demasiado tarde. Cambiar esto requiere reiniciar el juego.</SmartFarming.Settings.AutoCutDying.Desc>
   <!-- EN: When grow zones give an estimated potential nutrition yield, it multiplies the raw food&apos;s nutrition by this value. For reference, a Simple Meal multiplies the value by 1.8, Fine Meals by 1.2, and Lavish Meals by 1.0. -->
-  <SmartFarming.Settings.ProcessedFood.Desc>Cuando las zonas de cultivo dan un rendimiento nutricional potencial estimado, multiplica la nutrición del alimento crudo por este valor. Como referencia, una comida simple multiplica el valor por 1.8, una comida buena por 1.2 y una comida opípara por 1.0.</SmartFarming.Settings.ProcessedFood.Desc>
+  <SmartFarming.Settings.ProcessedFood.Desc>Cuando las zonas de cultivo dan un rendimiento nutricional potencial estimado, multiplica la nutrición del alimento crudo por este valor. Como referencia, una comida sencilla multiplica el valor por 1.8, una comida buena por 1.2 y una comida lujosa por 1.0.</SmartFarming.Settings.ProcessedFood.Desc>
   <!-- EN: Minimum temperature allowance (Mod default: {0}, Min: {1}, Max: {2}):  -->
-  <SmartFarming.Settings.MinTempSlider>Tolerancia de temperatura mínima (Predeterminado: {0}, Mín: {1}, Máx: {2}): </SmartFarming.Settings.MinTempSlider>
+  <SmartFarming.Settings.MinTempSlider>Tolerancia de temperatura mínima (por defecto del mod: {0}, mín.: {1}, máx.: {2}): </SmartFarming.Settings.MinTempSlider>
   <!-- EN: When predicting the weather of the earliest harvest day, consider anything below this temperature unacceptable. Plants can potentially die at 0C, but can usually survive if it&apos;s only barely freezing for a few hours. However, random daily temperature deviation may reduce accuracy. -->
   <SmartFarming.Settings.MinTemp>Al predecir el clima del día de cosecha más temprano, considera inaceptable cualquier temperatura por debajo de esta. Las plantas pueden morir a 0°C, pero generalmente pueden sobrevivir si solo se congela ligeramente durante unas pocas horas. Sin embargo, la desviación aleatoria de la temperatura diaria puede reducir la precisión.</SmartFarming.Settings.MinTemp>
   <!-- EN: Petty jobs margin (Mod default: {0}, Min: {1}, Max: {2}):  -->
-  <SmartFarming.Settings.PettyJobsSlider>Margen de trabajos menores (Predeterminado: {0}, Mín: {1}, Máx: {2}): </SmartFarming.Settings.PettyJobsSlider>
+  <SmartFarming.Settings.PettyJobsSlider>Margen de trabajos menores (por defecto del mod: {0}, mín.: {1}, máx.: {2}): </SmartFarming.Settings.PettyJobsSlider>
   <!-- EN: If &quot;no petty jobs&quot; is enabled on a zone, pawns will not sow a field unless there is at least this percentage of empty tiles to sow. This can be useful for animal grazing zones. -->
   <SmartFarming.Settings.PettyJobs>Si "no hacer trabajos menores" está habilitado en una zona, los colonos no sembrarán un campo a menos que haya al menos este porcentaje de casillas vacías para sembrar. Esto puede ser útil para las zonas de pastoreo de animales.</SmartFarming.Settings.PettyJobs>
   <!-- EN: \nEarliest harvest day:  -->
@@ -206,7 +206,7 @@
   <!-- EN: Are you sure you want to merge these zones? This action cannot be undone. -->
   <SmartFarming.Icon.ConfirmMergeZones>¿Estás seguro de que quieres fusionar estas zonas? Esta acción no se puede deshacer.</SmartFarming.Icon.ConfirmMergeZones>
   <!-- EN: Disable all these features if you just want high performance vanilla fire. -->
-  <ScatteredFlames.Settings.DisableAll>Desactiva todas estas funciones si solo quieres el fuego de vainilla de alto rendimiento.</ScatteredFlames.Settings.DisableAll>
+  <ScatteredFlames.Settings.DisableAll>Desactiva todas estas funciones si solo quieres el fuego de Vanilla, de alto rendimiento.</ScatteredFlames.Settings.DisableAll>
   <!-- EN: Enable multi-flame graphics -->
   <ScatteredFlames.Settings.MultiFlames>Habilitar gráficos de llamas múltiples</ScatteredFlames.Settings.MultiFlames>
   <!-- EN: Enabling this will allow multiple flames to inhabit the same tile. This is a cosmetic change, and mechanically it still works like one flame. -->
@@ -242,13 +242,13 @@
   <!-- EN: This pawn is afraid of fire. -->
   <ScatteredFlames.Ignite.Scared>Este colono tiene miedo al fuego.</ScatteredFlames.Ignite.Scared>
   <!-- EN: Enable ignite gizmo -->
-  <ScatteredFlames.Settings.IgniteGizmo>Habilitar gizmo de prender fuego</ScatteredFlames.Settings.IgniteGizmo>
+  <ScatteredFlames.Settings.IgniteGizmo>Habilitar el botón de prender fuego</ScatteredFlames.Settings.IgniteGizmo>
   <!-- EN: Adds an &quot;Ignite&quot; gizmo button to your colonists, allowing them to manually start fires, similar to how raiders can. -->
-  <ScatteredFlames.Settings.IgniteGizmo.Desc>Añade un botón de gizmo "Prender fuego" a tus colonos, permitiéndoles iniciar incendios manualmente, de forma similar a como lo hacen los asaltantes.</ScatteredFlames.Settings.IgniteGizmo.Desc>
+  <ScatteredFlames.Settings.IgniteGizmo.Desc>Añade un botón «Prender fuego» a tus colonos, permitiéndoles iniciar incendios manualmente, de forma similar a como lo hacen los asaltantes.</ScatteredFlames.Settings.IgniteGizmo.Desc>
   <!-- EN: Enable scattered flames -->
   <RG.EnableScatteredFlames>Habilitar llamas dispersas</RG.EnableScatteredFlames>
   <!-- EN: Toggles the scattered flames visual effect. (Default: True) -->
-  <RG.EnableScatteredFlames.Desc>Alterna el efecto visual de llamas dispersas. (Predeterminado: Verdadero)</RG.EnableScatteredFlames.Desc>
+  <RG.EnableScatteredFlames.Desc>Alterna el efecto visual de llamas dispersas. (Por defecto: activado)</RG.EnableScatteredFlames.Desc>
   <!-- EN: Enable water puddles -->
   <RG.RainWaterPuddles>Charcos de agua de lluvia</RG.RainWaterPuddles>
   <!-- EN: Enable/disable formation of water puddles during rain. -->
@@ -260,13 +260,13 @@
   <!-- EN: Puddles per tick (normal speed) -->
   <RG.PuddlesPerTickNormal>Charcos por tick (velocidad normal)</RG.PuddlesPerTickNormal>
   <!-- EN: Amount of puddles that will be spawned each tick during rain while playing on normal game speed. Having too many puddles spawn will cause stutters until reaching maximum amount of puddles, especially at higher game speed. (Default {0}) -->
-  <RG.PuddlesPerTickNormal.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad normal. Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Predeterminado {0})</RG.PuddlesPerTickNormal.Desc>
+  <RG.PuddlesPerTickNormal.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad normal. Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Por defecto: {0})</RG.PuddlesPerTickNormal.Desc>
   <!-- EN: Puddles per tick (fast speed) -->
   <RG.PuddlesPerTickFast>Charcos por tick (velocidad rápida)</RG.PuddlesPerTickFast>
   <!-- EN: Amount of puddles that will be spawned each tick during rain while playing on fast game speed. Having too many puddles spawn will cause stutters until reaching maximum amount of puddles, especially at higher game speed. (Default {0}) -->
-  <RG.PuddlesPerTickFast.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad rápida. Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Predeterminado {0})</RG.PuddlesPerTickFast.Desc>
+  <RG.PuddlesPerTickFast.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad rápida. Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Por defecto: {0})</RG.PuddlesPerTickFast.Desc>
   <!-- EN: Puddles per tick (ultrafast+ speed) -->
   <RG.PuddlesPerTickUltrafast>Charcos por tick (velocidad ultrarrápida+)</RG.PuddlesPerTickUltrafast>
   <!-- EN: Amount of puddles that will be spawned each tick during rain while playing on ultrafast (or faster) game speed. Having too many puddles spawn will cause stutters until reaching maximum amount of puddles, especially at higher game speed. (Default {0}) -->
-  <RG.PuddlesPerTickUltrafast.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad ultrarrápida (o superior). Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Predeterminado {0})</RG.PuddlesPerTickUltrafast.Desc>
+  <RG.PuddlesPerTickUltrafast.Desc>Cantidad de charcos que se generarán cada tick durante la lluvia mientras se juega a velocidad ultrarrápida (o superior). Generar demasiados charcos causará tirones hasta alcanzar la cantidad máxima de charcos, especialmente a velocidades de juego más altas. (Por defecto: {0})</RG.PuddlesPerTickUltrafast.Desc>
 </LanguageData>

@@ -19,17 +19,17 @@
   <!-- EN: bathed in toxic waste -->
   <RG_WasteBathing.stages.0.label>me bañé en residuos tóxicos</RG_WasteBathing.stages.0.label>
   <!-- EN: I took a bath in toxic waste. Absolutely disgusting, I feel dirty. -->
-  <RG_WasteBathing.stages.0.description>Me di un baño en residuos tóxicos. Qué guarrería...</RG_WasteBathing.stages.0.description>
+  <RG_WasteBathing.stages.0.description>Me di un baño en residuos tóxicos. Un asco total; siento la suciedad en todo el cuerpo.</RG_WasteBathing.stages.0.description>
   <!-- EN: wet -->
-  <RG_Wet.stages.0.label>húmedo</RG_Wet.stages.0.label>
+  <RG_Wet.stages.0.label>mojad{PAWN_gender ? o : a}</RG_Wet.stages.0.label>
   <!-- EN: I&apos;m wet. -->
   <RG_Wet.stages.0.description>La humedad me afecta.</RG_Wet.stages.0.description>
   <!-- EN: extremely wet -->
-  <RG_ExtremelyWet.stages.0.label>extremadamente húmedo</RG_ExtremelyWet.stages.0.label>
+  <RG_ExtremelyWet.stages.0.label>empapad{PAWN_gender ? o : a}</RG_ExtremelyWet.stages.0.label>
   <!-- EN: I&apos;m extremely wet. -->
   <RG_ExtremelyWet.stages.0.description>La humedad me afecta de mala manera.</RG_ExtremelyWet.stages.0.description>
   <!-- EN: sandy -->
-  <RG_Sandy.stages.0.label>arena</RG_Sandy.stages.0.label>
+  <RG_Sandy.stages.0.label>llen{PAWN_gender ? o : a} de arena</RG_Sandy.stages.0.label>
   <!-- EN: There is sand like..... everywhere! Even in my eyes! -->
   <RG_Sandy.stages.0.description>Tengo arena en... ¡Todas partes! ¡Incluso en mis ojos!</RG_Sandy.stages.0.description>
   <!-- EN: warm water -->
