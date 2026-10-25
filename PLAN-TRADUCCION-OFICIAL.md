@@ -185,6 +185,8 @@ y `Common/Languages/English/Keyed`, como los demás de la ventana.
 
 ### Etapa 4: prueba en el juego (Angel)
 
+**Probada por Angel el 25-oct-2026: funciona.**
+
 1. Abrir los ajustes de RML: tiene que decir si hay arreglos nuevos, con una línea por parte
    (hoy, RimWorld y Biotech con arreglos y los demás DLC al día).
 2. Apretar «Actualizar» y reiniciar: la ventana se abre sola, con una fila parpadeando por cada
