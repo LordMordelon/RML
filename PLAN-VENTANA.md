@@ -74,6 +74,7 @@ Cada una en su propia sesión, con su commit. Ninguna se sube sin que Angel lo d
 | 3 | Pestaña «Novedades» | `Novedades.tsv` en el builder y la segunda pestaña |
 | 4 | Gráfico de solicitudes | La rama `solicitudes`, el action que cuenta los pedidos y el gráfico de los mods más pedidos (ver abajo) |
 | 5 | Ver qué cambió | Botón «Ver cambios» en las filas «Actualizado» y «Corregido» de Novedades, con los textos antes y después (ver abajo) |
+| 6 | Cambios contra el PC | «Ver cambios» compara contra la versión que el jugador tenía, venga de donde venga. Borrador, sin aprobar: [PLAN-CAMBIOS-LOCALES.md](PLAN-CAMBIOS-LOCALES.md) |
 
 ## Etapa 4: los mods más solicitados
 
