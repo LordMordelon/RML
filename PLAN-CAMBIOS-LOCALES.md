@@ -50,7 +50,8 @@ importar de dónde la bajó ni cómo actualizó.
    cambia.
 4. **Al cerrar la ventana**, la copia de los mods mostrados se pone al día con lo que hay ahora, para
    que la próxima vez compare contra esto. Como con `NovedadesVistas`.
-5. **La primera vez no hay copia**: se guarda y la ventana muestra lo del builder, como hoy. Desde la
+5. **La primera vez no hay copia**: la ventana muestra lo del builder, como hoy, y la copia se guarda
+   al cerrarla (si se guardara antes, una fila del builder sin ver se perdería en el próximo inicio). Desde la
    siguiente actualización ya compara contra el PC.
 
 ## Decisiones

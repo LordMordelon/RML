@@ -17,9 +17,9 @@ namespace RmlVentana
      *  formato del Cambios.tsv del builder. Si la ventana se abre antes de que termine, usa lo del
      *  builder, como antes.
      *
-     *  Un mod sin copia la recibe ahora y sigue con lo del builder hasta su proximo cambio. La copia de
-     *  uno que cambio se pone al dia al cerrar la ventana (AlCerrar): hasta entonces queda al lado, con
-     *  «.nueva» al final, y si el juego se cierra antes, el proximo inicio lo vuelve a mostrar.
+     *  Un mod sin copia sigue con lo del builder. Su primera copia, y la de uno que cambio, se ponen en
+     *  su lugar al cerrar la ventana (AlCerrar): hasta entonces quedan al lado, con «.nueva» al final, y
+     *  si el juego se cierra antes, el proximo inicio vuelve a mostrar lo mismo.
      *
      *  Nada de esto puede romper el juego: todo va en try, y un mod que no se puede leer se salta.
      */
@@ -192,18 +192,21 @@ namespace RmlVentana
                         var Vieja = File.Exists(Copia) ? CopiaDeTextos.Leer(File.ReadLines(Copia), out _) : null;
                         var Cambios = Vieja == null ? null : CopiaDeTextos.Comparar(Vieja, Ahora);
 
-                        // Sin copia, o sin nada que mostrar (otra fecha, el mismo texto): la copia se pone
-                        // al dia ahora y el mod no sale.
-                        if (Cambios == null || Cambios.Count == 0)
+                        // Sin nada que mostrar (otra fecha, el mismo texto): la copia se pone al dia ahora.
+                        if (Cambios != null && Cambios.Count == 0)
                         {
                             Escribir(Copia, Nueva);
-                            if (Cambios != null)
-                                R.Mods[Carpeta.PackageId] = CambiosLocales.Contar(Carpeta.PackageId, Carpeta.Nombre, Cambios);
+                            R.Mods[Carpeta.PackageId] = CambiosLocales.Contar(Carpeta.PackageId, Carpeta.Nombre, Cambios);
                             continue;
                         }
 
+                        // La primera copia tambien espera a que se cierre la ventana: puesta ahora, en el
+                        // proximo inicio el mod ya tendria copia, saldria sin cambios y se perderia la
+                        // fila del builder que el jugador todavia no vio.
                         Escribir(Copia + ".nueva", Nueva);
                         R.PorPoner.Add((Copia, Copia + ".nueva"));
+                        if (Cambios == null)
+                            continue;
                         R.Mods[Carpeta.PackageId] = CambiosLocales.Contar(Carpeta.PackageId, Carpeta.Nombre, Cambios);
                         foreach (var Cambio in Cambios)
                             Lineas.Append(TextosDeTraduccion.Fila(Carpeta.PackageId, Cambio)).Append('\n');
