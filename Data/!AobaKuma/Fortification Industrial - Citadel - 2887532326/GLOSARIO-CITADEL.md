@@ -10,7 +10,8 @@ Extended sigue
 encima de todos manda la traducción oficial, y después [RML/GLOSARIO.md](../../../GLOSARIO.md). El plan
 está en [PLAN-AOBAKUMA.md](../PLAN-AOBAKUMA.md).
 
-Armado el 25-oct-2026, con el mod recién extraído (272 entradas, ninguna traducida). **Origen**:
+Armado el 25-oct-2026, con el mod recién extraído (272 entradas, ninguna traducida). Ese mismo día se
+tradujo entero, a mano, y se sumaron las últimas filas de la tabla. **Origen**:
 *oficial*, *RML* (ya en uso en otro mod), *familia*, *CE* o *propuesta*.
 
 | Inglés | Español | Origen | Notas |
@@ -45,6 +46,12 @@ Armado el 25-oct-2026, con el mod recién extraído (272 entradas, ninguna tradu
 | heavy explosive shell (air burst) | **obús explosivo pesado (estallido aéreo)** | CE / familia | |
 | inferno spewer shot | **disparo de escupeinfiernos** | propuesta | |
 | Abandoned frontline (escenario) | **Frente abandonado** | propuesta | |
+| concrete | **concreto** | oficial | «piso de concreto» en la oficial; no «hormigón» |
+| deconstruct / non-deconstructible | **desarmar** / **que no se puede desarmar** | oficial | «Es una estructura permanente: una vez construida, no se puede desarmar» |
+| half-buried bunker | **búnker semienterrado** | propuesta | |
+| pillbox bunker | **fortín** | propuesta | En una regla de investigación |
+| Shots until barrel change / Barrel durability / Needs new reinforced barrel | **Tiros hasta el cambio de cañón** / **Durabilidad del cañón** / **Necesita un nuevo cañón reforzado** | oficial | De la torreta de cañón automático y el mortero; la oficial deja afuera el «Cannot shoot:» y aquí también |
+| propellant | **propelente** | propuesta | Del lanzacohetes de rieles múltiples |
 
 ## Reglas de investigación
 
