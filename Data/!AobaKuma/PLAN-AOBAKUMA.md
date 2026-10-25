@@ -357,43 +357,49 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   sin relación.
 - **El extractor**: la condición de CE (punto 1) y el cruce de `Patches` que cambia de posición a clase
   (punto 2).
+- **El chorro del lanzallamas en DMS** (encontrado el 25-oct al traducir Citadel): en
+  `ThingDef/go2jb9.xml` de DMS II, `Bullet_DMS_Flamethrower_Bioferrite` (*infused chemfuel stream*) dice
+  «chorro de prometeo gelificado», que es la traducción del de al lado. Va «chorro de quimbustible
+  infundido», como en Citadel. Y los dos de prometio dicen «prometeo», cuando CE y Citadel dicen
+  «prometio». Es un cambio de valor, en su propio commit. El DMS de 1.6 (`7y4coj.xml`) tiene lo mismo,
+  pero está congelado.
 
-## Próxima sesión (25-oct-2026, tercera)
+## Próxima sesión (25-oct-2026, cuarta)
 
-**Objetivo:** paso 4 del orden de trabajo: Fortification Industrial - Citadel, a mano.
+**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, primera de cinco
+sesiones: su `Keyed`, con tabla y script.
 
-**Estado:** pasos 1 a 3 terminados el 25-oct-2026. Taktikmagier quedó entero en `5fc83719` (182
-entradas, con su glosario al día); antes, Hemogen Pack, MobileDragoon y AncientCorps. Las tres
-comprobaciones del diff salieron vacías y `-build` pasó. `master` de RML tiene 17 commits sin subir, esta nota incluida. Los
-generados (`About.xml`, `LoadFolders.xml`, `ModList.tsv`, `docs/index.html`) quedan sin commitear, como
-siempre.
+**Estado:** pasos 1 a 4 terminados el 25-oct-2026. Citadel quedó entero en `b4373816` (272
+entradas, a mano, con su glosario al día). Las tres comprobaciones del diff salieron vacías, el XML está
+bien formado, los saltos de línea quedaron como estaban y `-build` pasó. `master` de RML tiene 19
+commits sin subir, esta nota incluida. Los generados (`About.xml`, `LoadFolders.xml`, `ModList.tsv`,
+`docs/index.html`) quedan sin commitear, como siempre.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Cerrar el juego y volver a armar la copia (`02-armar-copia-limpia.cmd`): `-build` no pudo
-   reemplazar `RmlVentana.dll` porque estaba abierta. Las traducciones sí quedaron copiadas.
-3. Si puedes, probar Taktikmagier en el juego: un magier con sus habilidades (destello, custodia,
-   constructo gárgola), la escoba en manos de un psicoemisor y un manual de campo. Y lo de antes:
-   AncientCorps (misión de instalación, DEFCON, saray) y Hemogen Pack («Administrar…»).
+2. Cerrar el juego y volver a armar la copia (`02-armar-copia-limpia.cmd`): `-build` sigue sin poder
+   reemplazar `RmlVentana.dll` porque el juego la tiene abierta. Las traducciones sí quedaron copiadas.
+3. Si puedes, probar Citadel en el juego: un búnker de ciudadela sobre un muro, el telémetro de
+   artillería, la cocina de campaña y el escenario «Frente abandonado». Y lo de antes: Taktikmagier,
+   AncientCorps y Hemogen Pack.
 
 **Al empezar (Claude):**
-1. Citadel: 272 entradas en 14 archivos, contadas el 25-oct. La mayor es `ThingDef/yy4tsw.xml` (181);
-   las 51 de investigación están en 5 archivos de `ResearchProjectDef` (43 son reglas de bloques
-   `rulesStrings`). A mano, con Edit, con `GLOSARIO-CITADEL.md`. Su sección de «Cada mod» dice qué hay.
-2. Las tres comprobaciones del diff, que el XML siga bien formado, `LoadFoldersBuilder -build` y
-   preguntarle a Angel si sube.
+1. Expedition: 1.290 `TODO` en `Languages/`, contados el 25-oct. La primera sesión es el `Keyed`: 549
+   entradas en un solo archivo (unas 3.836 palabras). Va con tabla y script (punto 6), en tandas, con
+   `GLOSARIO-EXPEDITION.md`.
+2. Después de cada tanda, `revisar.py` y las tres comprobaciones del diff; al final, `-build`.
 
-Cabe en una sesión, justa: son 1.874 palabras solo en `ThingDef`. La siguiente es Expedition (1.295,
-tabla y script, 5 sesiones).
+Cabe en una sesión: es el `Keyed` solo. Las otras cuatro siguen el orden de «Sesiones sugeridas» de la
+sección de Expedition.
 
-**Decisiones de Angel:** ninguna que frene el trabajo. Una para revisar cuando puedas: en Taktikmagier
-puse «pupilo de linaje» para *Bloodline Ward* en vez de «custodio de linaje», que era la propuesta
-aceptada, porque el trasfondo es de un niño criado a cargo de otros (ver `GLOSARIO-TAKTIKMAGIER.md`).
-Recomiendo dejarlo así.
+**Decisiones de Angel:** ninguna que frene el trabajo. Quedan para revisar cuando puedas: «pupilo de
+linaje» en Taktikmagier (recomiendo dejarlo) y corregir el chorro del lanzallamas de DMS II (en
+«Pendientes»; recomiendo corregirlo).
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan («Reglas comunes», la sección de Citadel), `GLOSARIO-CITADEL.md`,
-`ARMAS-DMS.md` y `herramientas-traduccion/oficial/` para buscar en la traducción oficial.
+**Dónde leer:** este plan (puntos 5 y 6, «Reglas comunes», la sección de Expedition),
+`GLOSARIO-EXPEDITION.md`, `ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`) y
+`herramientas-traduccion/oficial/`.
