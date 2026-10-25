@@ -34,6 +34,28 @@ Poner al día y revisar la traducción de ReGrowth 2 (Workshop 2260097569). Lo p
 | 4 | Aplicar los términos confirmados | chica | hecha (25-oct-2026) |
 | 5 | Revisar el resto contra el texto oficial | mediana | hecha (25-oct-2026) |
 | 6 | Verificar y probar en partida | chica | falta |
+| 7 | Las opciones que siguen en inglés | grande | falta: Angel decide |
+
+### 7. Las opciones que siguen en inglés
+
+Angel lo vio en el juego el 25-oct-2026: en las opciones del mod, buena parte de los renglones de las
+secciones General, Efectos visuales y Texturas siguen en inglés («Increase vanilla plant density»,
+«Enable new rock texture»). No es un error de la traducción: esos textos no están en ningún archivo
+que el juego pueda traducir.
+
+- Los escribe ModSettingsFramework, que viene dentro de ReGrowth (`0ModSettingsFramework.dll`). Cada
+  opción es una operación de `Patches/_ModSettings/` con su `<label>` y su `<tooltip>` escritos
+  ahí, y el código los muestra tal cual, sin buscar ninguna traducción (leído con ilspycmd).
+- Un `DefInjected` no llega a una operación de patch, y un `Patches` de RML tampoco: los patches
+  cambian defs, no otros patches. Por eso el extractor no los ve y ningún idioma los tiene traducidos.
+- Son 19 opciones en ReGrowth 2 (16 casillas y 3 deslizadores). El mismo framework lo usan ReBuild
+  Doors and Corners, Altered Carbon 2 y ReSplice Core.
+
+Lo único que funciona es código: que la DLL de RML (`Source/RmlVentana`), al arrancar el juego,
+recorra esas operaciones y cambie su `label` y su `tooltip` por el texto en español. Son campos
+públicos, así que no hace falta Harmony. Faltaría también decidir de dónde sale el texto (unas
+claves `Keyed` que el extractor tendría que aprender a escribir, para que no las borre al
+reextraer). Toca los dos repositorios, así que se hace solo con el visto bueno de Angel.
 
 ### 2. Los textos cuyo inglés cambió
 
