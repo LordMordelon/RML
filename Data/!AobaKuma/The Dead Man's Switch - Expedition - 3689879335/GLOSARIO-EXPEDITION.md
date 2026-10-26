@@ -197,6 +197,36 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | leaves the printer | **sale de fábrica** | propuesta | |
 | Scorer, Hellfire, Tomahawk, Minuteman III, Maverick, V-1, V-2, AGM-114K… | **tal cual** | — | Nombres propios de armas: «de la clase del Hellfire», «en la tradición del TLAM-D» |
 
+## Edificios y defensas (primera mitad de los `ThingDef`, 26-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| (incoming) / (leaving) | **(llegando)** / **(saliendo)** | oficial | Como «cápsula de escape (llegando)» y «transbordador (saliendo)» |
+| (launching) | **(en lanzamiento)** | propuesta | «misil balístico (en lanzamiento)» |
+| Shots until barrel change / Barrel durability | **Tiros hasta el cambio de cañón** / **Durabilidad del cañón** | oficial | «No puede disparar: necesita un nuevo cañón reforzado» |
+| rounds (de un cañón) / tracer / HE round | **proyectiles** / **trazador** / **proyectil HE** | propuesta | «proyectil HE de 37 mm», «Proyectiles de 37 mm» |
+| flak autocannon / revolver cannon | **cañón automático antiaéreo** / **cañón revólver** | oficial + RML | «cañón automático antiaéreo de 37 mm», basado en el «3.7 cm Flak 43» (nombre tal cual) |
+| air-defence gun / field air-defence system | **cañón antiaéreo** / **sistema de defensa antiaérea de campaña** | propuesta | |
+| crew-served / gunner | **servido por dotación** / **artillero** | RML | |
+| handwheels / optical sight | **volantes de mano** / **mira óptica** | propuesta | |
+| phased-array radar | **radar de matriz en fase** | propuesta | |
+| vertical launch silo / light vertical launch cell | **silo de lanzamiento vertical** / **celda de lanzamiento vertical ligera** | propuesta | Las *cells* de un lanzador son «celdas de lanzamiento» |
+| tilt-launch container / launch rail | **contenedor de lanzamiento inclinado** / **riel de lanzamiento** | propuesta | |
+| flame trench / blast suppression | **foso de llamas** / **supresión de la onda expansiva** | propuesta | |
+| gravship decks | **la cubierta de una gravinave** | propuesta | «No se puede instalar en la cubierta de una gravinave.» |
+| ancient stockpile entrance / staircase exit | **entrada de almacén antiguo** / **salida de escalera** | oficial + propuesta | «almacén antiguo» es oficial; «Hackéala para abrir la escotilla» |
+| cargo container / rabbit crate / military parcel | **contenedor de carga** / **cajón conejo** / **paquete militar** | RML + propuesta | El apodo «Conejo» va con comillas solo en la descripción |
+| structural frame / rotary part | **armazón estructural** / **pieza giratoria** | propuesta | Decorados. «No description....yet.»: «Sin descripción... todavía.» |
+| fuel silo / chemfuel silo | **silo de combustible** / **silo de quimbustible** | propuesta | |
+| Tanaka-Johnson drive | **conducción Tanaka-Johnson** | oficial | La oficial dice «conducción Johnson-Tanaka»; se respeta el orden del mod |
+| signal stealth device / solar shielding device | **dispositivo de ocultación de señales** / **dispositivo de protección solar** | propuesta | *solar flare*: «llamarada solar» (oficial) |
+| graphene battery / photovoltaic panel | **batería de grafeno** / **panel fotovoltaico** | propuesta | |
+| Graphene bio-reactor / rotary forger / organic assembler | **biorreactor de grafeno** / **forjadora rotativa** / **ensamblador orgánico** | propuesta | |
+| Scorer MLS | **Scorer MLS** | — | Nombre tal cual; la descripción explica MLS: «sistema de lanzamiento de misiles» |
+| Squall | **turbonada** | propuesta | Nombre de torreta traducido, en minúscula, como «hoja del alba» |
+| Edge World / Enlightened World | **Mundo del Borde** / **Mundo Iluminado** | propuesta | Lugares del trasfondo de la familia; «mundo del borde» ya está en RML |
+| pre-spacer planets | **planetas anteriores a la era espacial** | propuesta | |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se
