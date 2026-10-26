@@ -178,6 +178,25 @@ Los nombres de edificios que aparecen acá los tienen que repetir los `ThingDef`
 | safe period after arrival | **periodo seguro tras la llegada** | propuesta | |
 | god mode | **modo Dios** | propuesta | |
 
+## Partes y cuerpos de misil (fijados el 25-oct-2026)
+
+Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| … missile body | **cuerpo de misil …** | propuesta | «cuerpo de misil balístico», «cuerpo de misil de crucero avanzado» |
+| legacy (misil, munición) | **antiguo** / **antigua** | propuesta | «cuerpo de misil balístico antiguo», «munición merodeadora antigua»; en la descripción, «de primera generación» |
+| locks onto (un buscador) / lock | **se fija en** / **fija** | propuesta | Como «fijado por control de tiro» de la interfaz |
+| falls back to inertial targeting | **recurre al apuntado inercial** | propuesta | |
+| strap-down inertial unit | **unidad inercial solidaria** | propuesta | |
+| chaff bundle / radar-absorbing streamers | **paquete de chaff** / **tiras absorbentes de radar** | propuesta | |
+| bus (de un misil balístico) / sub-charges | **bus** / **subcargas** | propuesta | |
+| overhead mountain | **techos de montaña** | oficial | El techo oficial es «bajo tierra»; en el texto, «techos gruesos, incluso de montaña» |
+| passive acoustic radar | **radar acústico pasivo** | propuesta | |
+| launch tower / ballistic launch tower | **torre de lanzamiento** / **torre de lanzamiento balístico** | propuesta | |
+| leaves the printer | **sale de fábrica** | propuesta | |
+| Scorer, Hellfire, Tomahawk, Minuteman III, Maverick, V-1, V-2, AGM-114K… | **tal cual** | — | Nombres propios de armas: «de la clase del Hellfire», «en la tradición del TLAM-D» |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se
