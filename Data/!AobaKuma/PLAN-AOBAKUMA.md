@@ -364,33 +364,30 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   «prometio». Es un cambio de valor, en su propio commit. El DMS de 1.6 (`7y4coj.xml`) tiene lo mismo,
   pero está congelado.
 
-## Próxima sesión (25-oct-2026, cuarta)
+## Próxima sesión (25-oct-2026, quinta)
 
-**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, primera de cinco
-sesiones: su `Keyed`, con tabla y script.
+**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, segunda de cinco
+sesiones: las partes y los cuerpos de misil, con tabla y script.
 
-**Estado:** pasos 1 a 4 terminados el 25-oct-2026. Citadel quedó entero en `b4373816` (272
-entradas, a mano, con su glosario al día). Las tres comprobaciones del diff salieron vacías, el XML está
-bien formado, los saltos de línea quedaron como estaban y `-build` pasó. `master` de RML tiene 19
-commits sin subir, esta nota incluida. Los generados (`About.xml`, `LoadFolders.xml`, `ModList.tsv`,
-`docs/index.html`) quedan sin commitear, como siempre.
+**Estado:** el `Keyed` de Expedition quedó entero en `c839b8ad` (549 entradas, con tabla y script).
+`revisar.py` y las tres comprobaciones del diff salieron limpios, y `-build` pasó, esta vez también con la
+DLL. Los términos de la interfaz quedaron en «Interfaz» de `GLOSARIO-EXPEDITION.md`. Quedan 741 `TODO` en
+`Languages/` (contados). `master` de RML tiene 21 commits sin subir, esta nota incluida.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Cerrar el juego y volver a armar la copia (`02-armar-copia-limpia.cmd`): `-build` sigue sin poder
-   reemplazar `RmlVentana.dll` porque el juego la tiene abierta. Las traducciones sí quedaron copiadas.
-3. Si puedes, probar Citadel en el juego: un búnker de ciudadela sobre un muro, el telémetro de
-   artillería, la cocina de campaña y el escenario «Frente abandonado». Y lo de antes: Taktikmagier,
-   AncientCorps y Hemogen Pack.
+2. Si puedes, mirar en el juego la interfaz de misiles de Expedition (la pestaña Montaje, el plan de
+   ataque por oleadas y la consola de transferencia) y Citadel, Taktikmagier, AncientCorps y Hemogen Pack.
 
 **Al empezar (Claude):**
-1. Expedition: 1.290 `TODO` en `Languages/`, contados el 25-oct. La primera sesión es el `Keyed`: 549
-   entradas en un solo archivo (unas 3.836 palabras). Va con tabla y script (punto 6), en tandas, con
-   `GLOSARIO-EXPEDITION.md`.
-2. Después de cada tanda, `revisar.py` y las tres comprobaciones del diff; al final, `-build`.
+1. `DMSE.MissilePartDef` (138 entradas) y `DMSE.MissileBodyDef` (34): 172, unas 2.983 palabras según la
+   tabla de la sección de Expedition. Cabe en una sesión, en dos tandas (partes, cuerpos).
+2. Con `GLOSARIO-EXPEDITION.md` abierto: las secciones «Misiles» y «Ojivas y cargas» son justo esto.
+3. `aplicar.py` recorta los espacios del principio del valor; si una entrada los necesita, usar una copia
+   local con `rstrip` (en el `Keyed` hacían falta siete).
+4. Después de cada tanda, `revisar.py` y las tres comprobaciones del diff; al final, `-build`.
 
-Cabe en una sesión: es el `Keyed` solo. Las otras cuatro siguen el orden de «Sesiones sugeridas» de la
-sección de Expedition.
+Las otras tres sesiones: 3) y 4) `ThingDef` (339), 5) recetas (75), investigación (22) y lo demás (~133).
 
 **Decisiones de Angel:** ninguna que frene el trabajo. Quedan para revisar cuando puedas: «pupilo de
 linaje» en Taktikmagier (recomiendo dejarlo) y corregir el chorro del lanzallamas de DMS II (en
@@ -400,6 +397,5 @@ linaje» en Taktikmagier (recomiendo dejarlo) y corregir el chorro del lanzallam
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (puntos 5 y 6, «Reglas comunes», la sección de Expedition),
-`GLOSARIO-EXPEDITION.md`, `ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`) y
-`herramientas-traduccion/oficial/`.
+**Dónde leer:** este plan (punto 6, «Reglas comunes», la sección de Expedition), `GLOSARIO-EXPEDITION.md`,
+`ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`) y `herramientas-traduccion/oficial/`.
