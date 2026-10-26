@@ -363,38 +363,48 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (25-oct-2026, quinta)
+## Próxima sesión (25-oct-2026, sexta)
 
-**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, segunda de cinco
-sesiones: las partes y los cuerpos de misil, con tabla y script.
+**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, tercera de cinco
+sesiones: la primera mitad de los `ThingDef`, con tabla y script.
 
-**Estado:** el `Keyed` de Expedition quedó entero en `c839b8ad` (549 entradas, con tabla y script).
-`revisar.py` y las tres comprobaciones del diff salieron limpios, y `-build` pasó, esta vez también con la
-DLL. Los términos de la interfaz quedaron en «Interfaz» de `GLOSARIO-EXPEDITION.md`. Quedan 741 `TODO` en
-`Languages/` (contados). El chorro del lanzallamas de DMS II quedó corregido en `c1996d28`. `master` de
-RML tiene 23 commits sin subir, esta nota incluida.
+**Estado:** las partes y los cuerpos de misil quedaron enteros en `97da80c7` (172 entradas; antes, el
+`Keyed` en `c839b8ad`). `revisar.py`, `terminos.py` y las tres comprobaciones del diff salieron limpios, y
+`-build` pasó con la DLL. Los términos nuevos están en «Partes y cuerpos de misil» de
+`GLOSARIO-EXPEDITION.md`. Quedan 569 `TODO` en `Languages/` (contados): 339 de `ThingDef`, 75 de
+`RecipeDef`, 37 de `RulePackDef`, 22 de `ResearchProjectDef` y 96 más repartidos. `master` de RML tiene
+25 commits sin subir, esta nota incluida. Los cuatro archivos generados (`About.xml`, `LoadFolders.xml`,
+`ModList.tsv`, `docs/index.html`) siguen modificados sin commitear, como venían: los rehace la CI.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, mirar en el juego la interfaz de misiles de Expedition (la pestaña Montaje, el plan de
-   ataque por oleadas y la consola de transferencia) y Citadel, Taktikmagier, AncientCorps y Hemogen Pack.
+2. Si puedes, mirar en el juego la pestaña Montaje de Expedition: ahí aparecen los nombres y las
+   descripciones de las partes y los cuerpos de misil que se tradujeron ahora.
 
 **Al empezar (Claude):**
-1. `DMSE.MissilePartDef` (138 entradas) y `DMSE.MissileBodyDef` (34): 172, unas 2.983 palabras según la
-   tabla de la sección de Expedition. Cabe en una sesión, en dos tandas (partes, cuerpos).
-2. Con `GLOSARIO-EXPEDITION.md` abierto: las secciones «Misiles» y «Ojivas y cargas» son justo esto.
+1. `ThingDef/ypes4z.xml`: 339 entradas en un solo archivo, unas 5.328 palabras según la tabla de la
+   sección de Expedition. No cabe en una sesión: esta toma la primera mitad (unas 170, por orden del
+   archivo), en dos tandas, y la siguiente el resto.
+2. Los edificios que ya nombró el `Keyed` y los misiles de las partes tienen que repetir el mismo nombre:
+   secciones «Interfaz» y «Partes y cuerpos de misil» de `GLOSARIO-EXPEDITION.md`. Las armas siguen
+   `ARMAS-DMS.md` y la munición de CE, su glosario.
 3. `aplicar.py` recorta los espacios del principio del valor; si una entrada los necesita, usar una copia
-   local con `rstrip` (en el `Keyed` hacían falta siete).
-4. Después de cada tanda, `revisar.py` y las tres comprobaciones del diff; al final, `-build`.
+   local con `rstrip`.
+4. **`revisar.py` contra `HEAD`:** `git show` da el archivo con LF y el de trabajo tiene CRLF, así que
+   la copia original se pasa a CRLF antes de comparar (si no, marca todos los renglones).
+5. Después de cada tanda, `revisar.py`, `terminos.py` y las tres comprobaciones del diff; al final, `-build`.
 
-Las otras tres sesiones: 3) y 4) `ThingDef` (339), 5) recetas (75), investigación (22) y lo demás (~133).
+Las otras dos sesiones: 4) la segunda mitad de `ThingDef`; 5) recetas (75), investigación (22) y lo demás
+(133, con las reglas de gramática de `RulePackDef`).
 
-**Decisiones de Angel:** ninguna que frene el trabajo. Queda para revisar cuando puedas: «pupilo de
-linaje» en Taktikmagier (recomiendo dejarlo).
+**Decisiones de Angel:** ninguna que frene el trabajo. Para revisar cuando puedas: «pupilo de linaje» en
+Taktikmagier (recomiendo dejarlo) y «antiguo» para los misiles *legacy* (recomiendo dejarlo; la
+alternativa es «de primera generación», más largo).
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
 **Dónde leer:** este plan (punto 6, «Reglas comunes», la sección de Expedition), `GLOSARIO-EXPEDITION.md`,
-`ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`) y `herramientas-traduccion/oficial/`.
+`ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`, `terminos.py`) y
+`herramientas-traduccion/oficial/`.
