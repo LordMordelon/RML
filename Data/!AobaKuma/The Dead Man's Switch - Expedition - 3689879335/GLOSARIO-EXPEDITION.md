@@ -139,6 +139,45 @@ habitual en español; se usa así hasta que Angel lo cambie).
 | Aerospace Applications / orbital dynamics / Microgravity Manufacturing | **aplicaciones aeroespaciales** / **dinámica orbital** / **fabricación en microgravedad** | propuesta | Investigaciones, en minúscula como las oficiales |
 | integrated circuits / ballistics / strategic systems | **circuitos integrados** / **balística** / **sistemas estratégicos** | propuesta | |
 
+## Interfaz (fijados con el `Keyed`, 25-oct-2026)
+
+Los nombres de edificios que aparecen acá los tienen que repetir los `ThingDef` cuando se traduzcan.
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| tile / tiles (del mundo y del mapa) | **celda** / **celdas** | oficial | «celdas/día» en el juego |
+| Stele | **Estela** | familia | Por eso «trail» va «rastro», no «estela» |
+| huntdown squad | **escuadrón de cacería** | familia | |
+| shift-click | **Shift + clic** | oficial | |
+| vacstone | **vaciorita** | oficial | |
+| floor | **suelo** | oficial | |
+| search radar / fire control radar | **radar de búsqueda** / **radar de control de tiro** | propuesta | |
+| fire-control lock / locking | **fijado por control de tiro** / **fijando** | propuesta | |
+| guidance channel / strike guidance channel | **canal de guiado** / **canal de guiado de ataque** | propuesta | |
+| missile rack | **soporte de misiles** | propuesta | «soporte de misiles de crucero», «soporte de municiones merodeadoras» |
+| launcher / launch platform | **lanzador** / **plataforma de lanzamiento** | RML | |
+| strike mission / wave strike | **misión de ataque** / **ataque por oleadas** | propuesta | La misión es femenina: «{0} cancelada» |
+| strike command center | **centro de mando de ataques** | propuesta | |
+| assembly / assemble / Assembly tab | **montaje** / **montar** / **pestaña Montaje** | propuesta | |
+| refit | **reconfigurar** / **reconfiguración** | propuesta | Cambiar las partes de un misil o de un silo |
+| ballistic missile silo / strategic missile silo | **silo de misiles balísticos** / **silo de misiles estratégicos** | propuesta | |
+| salvo / ripple | **salva** | propuesta | |
+| timed (launch) | **sincronizado** | propuesta | «lanzamiento sincronizado» |
+| skipped | **omitido** | propuesta | |
+| missile launch position | **posición de lanzamiento de misiles** | propuesta | «posición enemiga de misiles» |
+| crew (de la posición) | **dotación** | propuesta | |
+| hull / hull edge | **casco** / **borde del casco** | RML | |
+| structural network / structural anchor pile | **red estructural** / **pilote estructural de anclaje** | propuesta | |
+| engine exhaust zone | **zona de escape del motor** | propuesta | |
+| transfer engine / ship command console / backup console | **motor de transferencia** / **consola de mando de la nave** / **consola de respaldo** | propuesta | |
+| transfer flight console | **consola de vuelo de transferencia** | propuesta | |
+| thrust-to-weight (TWR) | **empuje/peso** / **relación empuje/peso** | propuesta | |
+| rocket booster / attitude thrusters | **acelerador cohete** / **propulsores de maniobra** | propuesta | |
+| impact flight / hard impact flight | **vuelo de impacto** / **vuelo de impacto total** | propuesta | «protocolo de impacto total» |
+| park (la nave) | **estacionar** | propuesta | |
+| safe period after arrival | **periodo seguro tras la llegada** | propuesta | |
+| god mode | **modo Dios** | propuesta | |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se
