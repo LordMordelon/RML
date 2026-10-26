@@ -357,12 +357,11 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   sin relación.
 - **El extractor**: la condición de CE (punto 1) y el cruce de `Patches` que cambia de posición a clase
   (punto 2).
-- **El chorro del lanzallamas en DMS** (encontrado el 25-oct al traducir Citadel): en
-  `ThingDef/go2jb9.xml` de DMS II, `Bullet_DMS_Flamethrower_Bioferrite` (*infused chemfuel stream*) dice
-  «chorro de prometeo gelificado», que es la traducción del de al lado. Va «chorro de quimbustible
-  infundido», como en Citadel. Y los dos de prometio dicen «prometeo», cuando CE y Citadel dicen
-  «prometio». Es un cambio de valor, en su propio commit. El DMS de 1.6 (`7y4coj.xml`) tiene lo mismo,
-  pero está congelado.
+- **El chorro del lanzallamas en DMS:** corregido en DMS II el 25-oct (`c1996d28`, Angel dijo que sí):
+  `Bullet_DMS_Flamethrower_Bioferrite` es «chorro de quimbustible infundido», como en Citadel, y
+  `_Prometheum` dice «prometio». El inglés del mod repite *jellied prometheum stream* en el de bioferrita:
+  es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
+  (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
 ## Próxima sesión (25-oct-2026, quinta)
 
@@ -372,7 +371,8 @@ sesiones: las partes y los cuerpos de misil, con tabla y script.
 **Estado:** el `Keyed` de Expedition quedó entero en `c839b8ad` (549 entradas, con tabla y script).
 `revisar.py` y las tres comprobaciones del diff salieron limpios, y `-build` pasó, esta vez también con la
 DLL. Los términos de la interfaz quedaron en «Interfaz» de `GLOSARIO-EXPEDITION.md`. Quedan 741 `TODO` en
-`Languages/` (contados). `master` de RML tiene 21 commits sin subir, esta nota incluida.
+`Languages/` (contados). El chorro del lanzallamas de DMS II quedó corregido en `c1996d28`. `master` de
+RML tiene 23 commits sin subir, esta nota incluida.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
@@ -389,9 +389,8 @@ DLL. Los términos de la interfaz quedaron en «Interfaz» de `GLOSARIO-EXPEDITI
 
 Las otras tres sesiones: 3) y 4) `ThingDef` (339), 5) recetas (75), investigación (22) y lo demás (~133).
 
-**Decisiones de Angel:** ninguna que frene el trabajo. Quedan para revisar cuando puedas: «pupilo de
-linaje» en Taktikmagier (recomiendo dejarlo) y corregir el chorro del lanzallamas de DMS II (en
-«Pendientes»; recomiendo corregirlo).
+**Decisiones de Angel:** ninguna que frene el trabajo. Queda para revisar cuando puedas: «pupilo de
+linaje» en Taktikmagier (recomiendo dejarlo).
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
