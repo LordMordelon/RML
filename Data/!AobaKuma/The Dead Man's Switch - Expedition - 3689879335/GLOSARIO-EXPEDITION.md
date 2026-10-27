@@ -253,6 +253,25 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | PELE-Tungsteel | **PELE-tungstanio** | familia | *tungsteel*: «tungstanio» (DMS). PELE se explica en la descripción |
 | large / medium / small fragments | **fragmentos grandes** / **medianos** / **pequeños** | propuesta | |
 
+## Recetas, investigación y lo demás (26-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| C-Ration (en las recetas) | **ración de combate** | familia | El producto es `DMS_CombatRation`, que en DMS se llama así: la receta lleva el nombre del producto, no «ración C» |
+| T/R Component / Cluster Control Chipsets / Fire Control System | **componente electrónico** / **chip de control clúster** / **sistema de control de fuego** | familia | Productos de DMS, con su nombre de allá (DMS dice «control de fuego»; Expedition, «control de tiro») |
+| sinter | **sinterizar** | propuesta | «sinterizar tantacero x25» |
+| box furnace / sintering furnace | **horno de materiales** / **horno de sinterización** | familia | `DMS_LabFurnace` y `DMS_Furnace` |
+| Gas operation / Microelectronics basics | **manejo de gas** / **microelectrónicos básicos** | oficial | Investigaciones del juego |
+| vacuumize process / Radar / loitering munition (investigación) | **procesos al vacío** / **radar** / **municiones merodeadoras** | propuesta | |
+| Carbon synthesis | **síntesis de carbono** | propuesta | |
+| post-transfer safe period | **periodo seguro tras la transferencia** | propuesta | *raids*: «asaltos», oficial |
+| missile launch facility | **instalación de lanzamiento de misiles** | propuesta | Distinta de la «posición de lanzamiento de misiles» (`WorldObjectDef`) |
+| remove platform | **remover plataforma** | oficial | Como «removiendo suelo» del juego |
+| Penetrator with Enhanced Lateral Effect | **penetrador con efecto lateral mejorado** (PELE) | propuesta | Categoría de munición de CE |
+| Astrofuel silo | **silo de astrobustible** | RML | *astrofuel* = «astrobustible», como en VFE y Ferny |
+| Operation [first] [second] | **Operación [second] [first]** | propuesta | Nombres de misiones de ataque: sustantivo y después el adjetivo, que va en forma sin género («de Hierro», «Carmesí», «en Pedazos», «Boreal») porque los sustantivos son de los dos géneros |
+| (WIP) The Deviant: «todo» | **«Un traidor de la Flota Colonial…»** | — | El autor dejó «todo» en la descripción y el texto de inicio: van con el resumen del escenario, como se hizo con otros «todo» de RML |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se

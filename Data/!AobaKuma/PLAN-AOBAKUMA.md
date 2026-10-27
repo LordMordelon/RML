@@ -365,43 +365,43 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (26-oct-2026, octava)
+## Próxima sesión (26-oct-2026, novena)
 
-**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, quinta y última sesión: recetas,
-investigación y lo demás, con tabla y script.
+**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, primera de cuatro sesiones: el `Keyed` (la terminal).
 
-**Estado:** los `ThingDef` están terminados: la segunda mitad (170 entradas) quedó en `734d11bd`, con sus términos en
-«Estructuras, materiales, equipo y armas» de `GLOSARIO-EXPEDITION.md`. `revisar.py`, los términos y las tres
-comprobaciones del diff salieron limpios, y `-build` pasó con la DLL. Quedan 230 `TODO` en `Languages/` (contados): 75
-de `RecipeDef`, 37 de `RulePackDef`, 24 de `WorkGiverDef`, 22 de `ResearchProjectDef`, 22 de `WorldObjectDef`, 11 de
-`JobDef` y 39 repartidos en 14 archivos. `master` de RML tiene 1 commit sin subir, más esta nota. `ModList.tsv` y
-`docs/index.html` quedaron modificados por `-build`, sin commitear: los rehace la CI.
+**Estado:** The Dead Man's Switch - Expedition está **terminado**: recetas en `d555b331`, investigación y lo demás (más
+los 5 textos de `Patches/`) en `d583c0e5`, y una corrección en `136b5514` (el cañón antiaéreo antiguo nombra la
+investigación oficial «manejo de gas»). Sin `TODO` en todo el mod; `revisar.py`, los términos, las tres comprobaciones
+del diff y `-build` salieron limpios. Los términos nuevos están en «Recetas, investigación y lo demás» de
+`GLOSARIO-EXPEDITION.md`. `master` de RML tiene 6 commits sin subir (y el remoto, 1 que no está en local), más esta
+nota. `ModList.tsv` y `docs/index.html` siguen modificados por `-build`, sin commitear: los rehace la CI.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, mirar en el juego las armas sin vaina, el lanzador tierra-aire portátil, el designador láser y los
-   pilotes estructurales de Expedition: ahí se ven los nombres y las descripciones de esta sesión.
+2. Si puedes, probar Expedition en el juego: las recetas del centro de fabricación de precisión, el árbol de
+   investigación y el nombre de una misión de ataque (sale como «Operación Martillo Carmesí» o parecido).
 
 **Al empezar (Claude):**
-1. Las 230 entradas, en dos o tres tandas: recetas (75) con la plantilla de la sección 6 del glosario de CE; después
-   investigación (22) y lo demás (133, con las 37 reglas de gramática de `RulePackDef`, que conservan su `simbolo->`).
-   Caben en una sesión si las recetas salen en una tanda.
-2. Las recetas nombran lo que ya está traducido en `ThingDef/ypes4z.xml`: el nombre sale del producto. Las
-   investigaciones («municiones merodeadoras», «radar», «accionamiento por gases») tienen que coincidir con las
-   etiquetas de `ResearchProjectDef`.
-3. Los campos que guardan una clave (punto 5) se quedan en `TODO`.
-4. Las mismas herramientas que en la sesión anterior: copia del archivo antes de cada tanda para `revisar.py`, y la
-   copia de `terminos.py` con los términos de Expedition (la última está en la carpeta temporal de la sesión anterior,
-   `ee159f77…/scratchpad/terminos-exp.py`; si ya no existe, armarla con la lista de «Interfaz», «Partes y cuerpos de
-   misil» y «Edificios y defensas»). Python en Windows no entiende las rutas `/c/...`: pasarle rutas `C:\...`.
-5. Al terminar el mod: las tres comprobaciones del diff, que no quede un `TODO` fuera de los que se dejan a propósito,
-   `-build`, y avisar a Angel para la prueba en el juego.
+1. Ascension tiene 1.327 `TODO` en `Languages/` (contados; 22 son campos con clave, que se quedan) y 28 en `Patches/`.
+   Esta sesión: el `Keyed/85zkm3.xml`, 392 entradas, en dos o tres tandas con tabla y `aplicar.py`. Puede que no
+   quepa entero: la sugerencia del plan son dos sesiones para el `Keyed`.
+2. Glosario: `GLOSARIO-USAC.md` (USAC se explica una vez por descripción; rótulos de la terminal con el código en
+   inglés y lo de después de `//` traducido; apodos de mecas «M7 cobalto», «M88 rocky»).
+3. Herramientas: copia de los archivos antes de cada tanda para `revisar.py`; armar un `terminos-usac.py` desde
+   `herramientas-traduccion/terminos.py` con la lista de `GLOSARIO-USAC.md`. Python en Windows: rutas `C:/...` con
+   barra normal (con `\` en Bash se rompen).
+4. `aplicar.py` no toca los `<li>` de las reglas de gramática: esos van a mano con Edit, y `revisar.py` avisa en falso
+   en el primer `<li>` (lo compara con el inglés del último comentario).
+5. Al terminar cada tanda: `revisar.py`, términos y las tres comprobaciones del diff; un commit por tanda.
 
-**Decisiones de Angel:** ninguna pendiente.
+**Decisiones de Angel:** ninguna pendiente. Dos cosas resueltas en Expedition que conviene que mires: la descripción
+y el texto de inicio del escenario «El disidente», donde el autor dejó «todo», van con el resumen del escenario; y la
+descripción de las recetas de grafeno con madera dice «a partir de madera», aunque el inglés diga «quimbustible y
+madera» (la receta solo usa madera).
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 5, punto 6, «Reglas comunes», la sección de Expedition), `GLOSARIO-EXPEDITION.md`,
-la sección 6 de `GLOSARIO-COMBAT-EXTENDED.md` (recetas), `herramientas-traduccion/` y `herramientas-traduccion/oficial/`.
+**Dónde leer:** este plan (punto 5, punto 6, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
+`herramientas-traduccion/` y `herramientas-traduccion/oficial/`.
