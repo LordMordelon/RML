@@ -11,7 +11,7 @@
             <xpath>/Defs/ThingDef[defName="DMSE_Modular_AR"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -19,7 +19,7 @@
             <xpath>/Defs/ThingDef[defName="DMSE_Modular_AR"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -27,7 +27,7 @@
             <xpath>/Defs/ThingDef[defName="DMSE_Modular_AR"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
         </operations>
@@ -47,7 +47,7 @@
           <xpath>/Defs/ThingDef[defName="DMSE_FuelSiloTank"]/label</xpath>
           <value>
             <!-- EN: Astrofuel silo -->
-            <label>TODO</label>
+            <label>silo de astrobustible</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -55,7 +55,7 @@
           <xpath>/Defs/ThingDef[defName="DMSE_FuelTankSmall"]/label</xpath>
           <value>
             <!-- EN: small astrofuel silo -->
-            <label>TODO</label>
+            <label>silo de astrobustible pequeño</label>
           </value>
         </li>
       </operations>
