@@ -39,9 +39,11 @@ Lo pidió Angel el 23-oct-2026: una ventana que, al iniciar el juego, muestre qu
      de «marcar como revisada». Esos issues llevan una etiqueta propia, `solicitud`, para separarlos.
      **El juego recuerda las solicitudes:** al apretar el botón se guarda el packageId del mod y la fecha
      en los ajustes de RML (el archivo de configuración del mod que RimWorld guarda en
-     `Config/`), así que sobrevive a cerrar el juego. Desde entonces el botón dice «Solicitada el 18-oct»
-     en verde. Sigue apretable, con una ayuda que explica que vuelve a abrir el pedido, por si el
-     jugador no llegó a enviarlo: el juego sabe que se abrió el navegador, no si el issue se envió.
+     `Config/`), así que sobrevive a cerrar el juego. El botón dice siempre «Solicitar»: la fecha va en
+     la ayuda («Lo abriste el 18-oct…»). Hasta el 27-oct-2026 decía «Solicitada el 18-oct» en verde, y
+     Angel lo cambió porque lo daba por enviado: el juego sabe que se abrió el navegador, no si el issue
+     se envió, y revisarlo en GitHub gastaría consultas sin saber de qué cuenta es cada pedido. Pedir
+     dos veces no cuenta doble, porque `solicitud.yml` anota una línea por mod y por usuario.
      Cuando el mod entra a RML, la fila pasa a «Traducido» y la solicitud guardada se borra sola.
 
   Previsualización: https://claude.ai/artifact/WfNYPCKyZAR5RnkJAtcxZb (datos de ejemplo).

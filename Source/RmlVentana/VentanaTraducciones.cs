@@ -695,17 +695,18 @@ namespace RmlVentana
         private static void BotonSolicitar(Rect Columna, Fila Fila)
         {
             Text.Font = GameFont.Small;
+            // Siempre «Solicitar» (pedido de Angel, 27-oct-2026): el juego solo sabe que se abrio el navegador,
+            // no si el pedido se envio, y «Solicitada el…» lo daba por hecho. La fecha queda en la ayuda.
+            // Pedir dos veces no cuenta doble: solicitud.yml anota una linea por mod y por usuario.
             bool Pedida = Ajustes.Solicitudes.TryGetValue(Fila.Mod.PackageId, out string Fecha);
-            string Corta = Pedida ? FechaCorta(Fecha) : null;
-            string Texto = Pedida ? "RML_Ventana_SolicitadaEl".Translate(Corta).ToString() : "RML_Ventana_Solicitar".Translate().ToString();
+            string Texto = "RML_Ventana_Solicitar".Translate().ToString();
 
             Rect Boton = new Rect(Columna.x, Columna.center.y - 15f, Mathf.Min(Columna.width, Text.CalcSize(Texto).x + 28f), 30f);
-            bool Clic = Pedida
-                ? Widgets.ButtonText(Boton, Texto, true, true, Verde)
-                : Widgets.ButtonText(Boton, Texto);
-            TooltipHandler.TipRegion(Boton, Pedida
-                ? "RML_Ventana_SolicitadaAyuda".Translate(Corta).ToString()
-                : "RML_Ventana_SolicitarAyuda".Translate().ToString());
+            bool Clic = Widgets.ButtonText(Boton, Texto);
+            string Ayuda = "RML_Ventana_SolicitarAyuda".Translate().ToString();
+            if (Pedida)
+                Ayuda += "\n\n" + "RML_Ventana_SolicitadaAyuda".Translate(FechaCorta(Fecha));
+            TooltipHandler.TipRegion(Boton, Ayuda);
 
             if (!Clic) return;
 
