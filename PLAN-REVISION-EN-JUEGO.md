@@ -26,8 +26,8 @@ Antes de agregar una etiqueta se mide en los mods de RML que siempre sea texto (
 
 | Etiqueta | Dónde se vio | Mods de RML que la usan | Estado |
 |---|---|---|---|
-| `defaultLabel` / `defaultDesc` | Cinders: botón «Change to walking mode» de las torretas | Solo Cinders: 24 usos, todos texto | Medido; falta agregarla y reextraer |
-| `namerLabels` (lista) | Cinders: títulos de arte «Greatsword twisted», «Dragon slayer del temor» | 6 mods | Falta medir y agregar |
+| `defaultLabel` / `defaultDesc` | Cinders: botón «Change to walking mode» de las torretas | Solo Cinders: 24 usos, todos texto | **Hecho el 27-oct** (extractor 6789080, Cinders 03c7fc8b): «Cambiar a modo caminante» |
+| `namerLabels` (lista) | Cinders: títulos de arte «Greatsword twisted», «Dragon slayer del temor» | 6 mods | Lo que sigue |
 
 **`namerLabels`:** es la lista de palabras con que el juego inventa el título de un arma («Dragon slayer»,
 «longbow», «Great Bow»). La oficial la traduce (Odyssey: `Bow_Great_Unique.comps.CompUniqueWeapon.namerLabels.0` =
@@ -47,7 +47,7 @@ corresponde, y ponerla en la traducción la deja también en medio de una frase 
 
 Angel aprobó los puntos 1 y 2 el 27-oct-2026; el 3 quedó resuelto arriba.
 
-1. Agregar `defaultLabel` y `defaultDesc` al extractor, con prueba; reextraer Cinders y traducir los dos textos.
+1. ~~`defaultLabel` y `defaultDesc`~~: hecho el 27-oct.
 2. Medir `namerLabels` en los 6 mods; si sirve, agregarla igual y traducir las listas, mod por mod.
 3. ~~Hospitality~~: resuelto, se queda en español.
 4. Probar en el juego con una partida nueva o un arma nueva, y mandar capturas de lo que siga en inglés. Cada
