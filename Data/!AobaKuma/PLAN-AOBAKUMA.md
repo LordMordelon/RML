@@ -109,7 +109,8 @@ con una revisión después de cada tanda (`PLAN-HEGEMONY.md`). Hegemony está en
 25-oct-2026: el autor todavía no le da soporte de traducción a la ventana del mod.
 
 **Decisión de Angel (25-oct-2026): el mismo camino para Expedition, Ascension y Cinders.** Anotado en
-`RML/AGENTS.md`. Los demás mods de la familia van a mano. Cómo se hace, por tanda:
+`RML/AGENTS.md`. Desde el 26-oct-2026 Angel lo autorizó para cualquier mod, así que los demás de la
+familia pueden ir a mano o con tabla. Cómo se hace, por tanda:
 
 1. Leer los ingleses pendientes de una parte del mod (los `TODO`).
 2. Escribir la tabla clave → traducción en la carpeta temporal de la sesión, a mano, entrada por

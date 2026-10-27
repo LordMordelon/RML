@@ -309,34 +309,32 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
 
 ## Editar XML de traducción
 
-- **A mano y directo.** El contenido traducido se edita sobre el archivo, con las
-  herramientas de edición normales. Nada de scripts que reemplacen texto en masa: un
-  reemplazo global sobre estos archivos rompe cosas que no se ven hasta que el juego
-  las carga.
+- **A mano, directo o con tabla y script.** Cada traducción se escribe a mano, una por una. Puede
+  ir directo sobre el archivo, con las herramientas de edición normales, o en una tabla
+  clave → traducción que un script copia al archivo. **El camino de la tabla vale para cualquier
+  mod desde el 26-oct-2026** (Angel), después de probarse en DMS II, Hegemony y Expedition:
+  1. Leer los ingleses de los `TODO` de una parte del mod.
+  2. Escribir la tabla a mano, entrada por entrada, con el glosario del mod y la traducción oficial
+     abiertos.
+  3. Copiarla con `herramientas-traduccion/aplicar.py` (en la carpeta de trabajo, al lado de RML),
+     que solo escribe sobre `TODO`, no guarda si el XML queda inválido y avisa lo que no encontró.
+  4. Revisar cada tanda con `revisar.py` contra una copia de antes (que solo cambiaron los `TODO` y
+     que los marcadores siguen), con `terminos.py` cargado con el glosario del mod, y con las tres
+     comprobaciones del diff.
 
-  Hay dos excepciones, las dos de Combat Extended: las recetas y las etiquetas de partes de
-  armas de `Patches/`, que se llenan por script con las reglas de «Recetas por script» y
-  «Partes de armas por script» de
-  [PLAN-COMBAT-EXTENDED.md](Data/Combat%20Extended%20-%202890901044/PLAN-COMBAT-EXTENDED.md). No se
-  extienden a otros mods sin volver a preguntar.
+  Lo que no se hace nunca es un script que **genere o reemplace** texto en masa («cambiar X por Y»
+  en todos los archivos): un reemplazo global rompe cosas que no se ven hasta que el juego las
+  carga. Hay dos excepciones, las dos de Combat Extended: las recetas y las etiquetas de partes de
+  armas de `Patches/`, que se arman por script con las reglas de «Recetas por script» y «Partes de
+  armas por script» de
+  [PLAN-COMBAT-EXTENDED.md](Data/Combat%20Extended%20-%202890901044/PLAN-COMBAT-EXTENDED.md). Esas
+  no se extienden a otros mods sin volver a preguntar.
 
-  En The Dead Man's Switch II, Angel aprobó otra el 20-oct-2026: las recetas (`RecipeDef`) y las
-  partes del cuerpo (`BodyDef`). Ahí el script no traduce: copia una tabla clave → traducción que
-  Angel revisó entera, y solo sobre `TODO`. Está en «Decisiones de Angel» de
-  [PLAN-DMS-II.md](Data/!AobaKuma/The%20Dead%20Man's%20Switch%20-%203819799478/PLAN-DMS-II.md).
-
-  En Hegemony - Faction Territories and Vassalage 2, Angel aprobó el 24-oct-2026 el mismo camino
-  para todo el mod, por su tamaño (36.000 palabras): una tabla clave → traducción escrita a mano y un
-  script que la copia solo sobre `TODO`, con una revisión después de cada tanda. Las herramientas y
-  las reglas están en
-  [PLAN-HEGEMONY.md](Data/Hegemony%20-%20Faction%20Territories%20and%20Vassalage%202%20-%203825320105/PLAN-HEGEMONY.md).
-  Desde el 25-oct-2026 está en pausa: falta traducir las lecciones, y el autor todavía no le da
-  soporte de traducción a la ventana del mod (está escrita en su DLL). Se retoma si lo agrega.
-
-  En tres mods de la familia de AobaKuma, Angel aprobó el 25-oct-2026 el camino de Hegemony, también
-  por su tamaño: The Dead Man's Switch - Expedition, Ascension Megacorp y Cinders of the Embergarden
-  (unas 33.000 palabras entre los tres). Está en
-  [PLAN-AOBAKUMA.md](Data/!AobaKuma/PLAN-AOBAKUMA.md). Los otros mods de la familia van a mano.
+  Los planes que ya usan la tabla: «Decisiones de Angel» de
+  [PLAN-DMS-II.md](Data/!AobaKuma/The%20Dead%20Man's%20Switch%20-%203819799478/PLAN-DMS-II.md),
+  [PLAN-HEGEMONY.md](Data/Hegemony%20-%20Faction%20Territories%20and%20Vassalage%202%20-%203825320105/PLAN-HEGEMONY.md)
+  (en pausa desde el 25-oct-2026: el autor todavía no le da soporte de traducción a la ventana del
+  mod) y [PLAN-AOBAKUMA.md](Data/!AobaKuma/PLAN-AOBAKUMA.md).
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
