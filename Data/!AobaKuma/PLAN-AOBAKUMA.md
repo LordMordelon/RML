@@ -339,6 +339,10 @@ caminantes con tentáculos, un culto y la narradora Fumée.
   Alien Races).
 - Sesiones sugeridas: 1) lo oficial (partes del cuerpo, rasgos, genes) y `ThingDef` hasta la mitad;
   2) el resto de `ThingDef` y recetas; 3) trasfondos; 4) reglas, afecciones y lo demás.
+- **Sesión 1 hecha el 27-oct-2026** (`09221554` a `106f7039`): `BodyDef`, `WeaponTraitDef`, `GeneDef`,
+  `HairDef` y su categoría, y `ThingDef` hasta pasar la mitad (247 de 462). Lo que vino de la oficial
+  (partes del cuerpo, rasgos de Odyssey, genes de pelo de Biotech, torretas y textos de análisis de Core
+  y Anomaly) quedó tal cual. Términos nuevos en el glosario del mod.
 
 ### Hemogen Pack - Emergency transfusion (5)
 
@@ -369,36 +373,36 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, decimotercera)
+## Próxima sesión (27-oct-2026, decimocuarta)
 
-**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, primera de 3 o 4 sesiones.
+**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, segunda sesión.
 
-**Estado:** Ascension Megacorp **terminado** el 27-oct (ver su sección); los 15 `TODO` que le quedan son a
-propósito. Todo subido a GitHub ese día. Cinders tiene 1.493 `TODO` y 12.551 palabras (contados), con su
-glosario `GLOSARIO-CINDERS.md` ya armado. `ModList.tsv` y `docs/index.html` sin commitear son de `-build`:
-no se tocan.
+**Estado:** la primera sesión de Cinders está hecha (ver su sección; último commit `106f7039`, sin push).
+Quedan 1.000 `TODO` y 8.954 palabras (contados): `ThingDef` 215 (1.622 palabras), `RecipeDef` 114 (646),
+`BackstoryDef` 162 (3.456) y el resto chico.
 
 **Antes de empezarla (Angel):**
-1. Si puedes, mirar Ascension en el juego: la pestaña de salud de un M88 rocky y de un sintético (partes
-   del cuerpo), los permisos de la USAC y el narrador Rookie Rockefeller al crear una partida.
+1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 7 commits locales).
 
 **Al empezar (Claude):**
-1. Sesión 1, como sugiere la sección de Cinders: lo oficial primero. `BodyDef` (84 de 118 iguales al juego:
-   sacar `Bodies_Humanlike.xml` y `Bodies_Mechanoid.xml` de Core con
-   `tar --force-local -xOf "<.tar>" DefInjected/BodyDef/<archivo>` a la carpeta temporal), `WeaponTraitDef`
-   (74, de Odyssey, casi todo oficial) y los genes de Biotech; después `ThingDef` hasta la mitad.
-2. En tandas de ~800 palabras: `traducir.py tabla Cinders --archivo <tipo>`, `aplicar`, el informe y un
-   commit por tanda.
-3. La oficial tiene entradas repetidas con dos textos («left leg»: «pierna izquierda» en los mecas y
-   humanos, «pata izquierda» en los animales); elegir según el cuerpo, no la primera que salga.
-4. Lo que se aprendió en Ascension: `{0_gender ? o : a}` en los `deathMessage`, como la oficial; los
-   `approachOrderString` llevan el artículo según el género del sitio («Atacar el {0}.», «Atacar la {0}.»).
+1. Sacar la oficial a la carpeta temporal: los `.tar` de idioma volvieron a estar en
+   `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, sin desempaquetar. Con
+   `tar --force-local -xf "<.tar>" -C <carpeta>` para Core, Biotech, Odyssey, Ideology, Royalty y Anomaly.
+2. El resto de `ThingDef` (215, unas dos tandas de ~800 palabras) y `RecipeDef` (114, una tanda), con
+   `traducir.py tabla Cinders --archivo <tipo> --palabras 800`, `aplicar` y un commit por tanda. Caben en una
+   sesión.
+3. La tabla de `ThingDef` necesita la línea `## archivo: Languages/SpanishLatin/DefInjected/ThingDef/t3tjlh.xml`
+   arriba: `Cinder_AmorphousWall.label` está también en `AbilityDef` y sin ella `aplicar` se niega.
+4. Las recetas, con la plantilla oficial («fabricar …» / «Fabrica …» / «Fabricando …»); las armas, con las
+   reglas de `ARMAS-DMS.md` y los nombres que ya quedaron en `GLOSARIO-CINDERS.md`.
 
-**Decisiones de Angel:** ninguna pendiente.
+**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, ropa) son propuestas anotadas
+en el glosario; se cambian si Angel quiere.
 
-**Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
+**Ojo:** el informe de `aplicar` avisa «erosion sin erosión» cuando se escribió «erosivo/a», y «resurrect sin
+resucitar» con el verbo conjugado: son avisos falsos.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Cinders), `GLOSARIO-CINDERS.md`,
-`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
+**Dónde leer:** este plan (la sección de Cinders y «Reglas comunes»), `GLOSARIO-CINDERS.md`,
+`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo).
