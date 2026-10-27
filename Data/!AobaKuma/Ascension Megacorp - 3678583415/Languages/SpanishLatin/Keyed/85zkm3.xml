@@ -431,91 +431,91 @@ During the validity period of the Service authorization, the User is expressly p
   <!-- EN: [USAC] Orbital gripper capture failed: target lost. -->
   <USAC.Debt.Message.GripperTargetLost>[USAC] Falló la captura de la pinza orbital: se perdió el objetivo.</USAC.Debt.Message.GripperTargetLost>
   <!-- EN: Orbital gripper destroyed (damage compensation) -->
-  <USAC.Debt.Transaction.GripperDestroyed>TODO</USAC.Debt.Transaction.GripperDestroyed>
+  <USAC.Debt.Transaction.GripperDestroyed>Pinza orbital destruida (compensación por daños)</USAC.Debt.Transaction.GripperDestroyed>
   <!-- EN: [USAC] Orbital gripper destroyed! A fee of ₿{0} has been added to your bill. -->
-  <USAC.Debt.Message.GripperDestroyedPenalty>TODO</USAC.Debt.Message.GripperDestroyedPenalty>
+  <USAC.Debt.Message.GripperDestroyedPenalty>[USAC] ¡Pinza orbital destruida! Se agregó a tu cuenta una tarifa de ₿{0}.</USAC.Debt.Message.GripperDestroyedPenalty>
   <!-- EN: [USAC] Organ-mortgage collection executed: organs harvested from {0}, value ₿{1} -->
-  <USAC.Debt.Message.OrganHarvested>TODO</USAC.Debt.Message.OrganHarvested>
+  <USAC.Debt.Message.OrganHarvested>[USAC] Se ejecutó la cobranza por hipoteca de órganos: se extrajeron órganos de {0}, por un valor de ₿{1}</USAC.Debt.Message.OrganHarvested>
   <!-- EN: [USAC] Debt liquidation executed: {0} has been completely dismantled. -->
-  <USAC.Debt.Message.PawnDemolished>TODO</USAC.Debt.Message.PawnDemolished>
+  <USAC.Debt.Message.PawnDemolished>[USAC] Se ejecutó la liquidación de la deuda: se desmanteló por completo a {0}.</USAC.Debt.Message.PawnDemolished>
   <!-- EN: [USAC] Your credit rating has fallen to a dangerous level. The USAC trade channel will close soon. -->
-  <USAC.Debt.Message.CreditDanger>TODO</USAC.Debt.Message.CreditDanger>
+  <USAC.Debt.Message.CreditDanger>[USAC] Tu calificación crediticia cayó a un nivel peligroso. El canal comercial de la USAC se cerrará pronto.</USAC.Debt.Message.CreditDanger>
   <!-- EN: [USAC] Missed credit-loan payment: credit score -25 (now {0}) -->
-  <USAC.Debt.Message.CreditPenalty>TODO</USAC.Debt.Message.CreditPenalty>
+  <USAC.Debt.Message.CreditPenalty>[USAC] Pago de préstamo de crédito incumplido: calificación crediticia -25 (ahora {0})</USAC.Debt.Message.CreditPenalty>
   <!-- EN: Quarterly free allowance ₿{0} (₿{4} left)  ▸  Surcharge ₿{2}  →  Total cost ₿{3} -->
-  <USAC.UI.Assets.SurchargeHint>TODO</USAC.UI.Assets.SurchargeHint>
+  <USAC.UI.Assets.SurchargeHint>Cupo gratuito del trimestre ₿{0} (quedan ₿{4})  ▸  Recargo ₿{2}  →  Costo total ₿{3}</USAC.UI.Assets.SurchargeHint>
   <!-- EN: ACCESS_DENIED//ACCESS DENIED.\n\n Insufficient permission to access... -->
-  <USAC.UI.Assets.AccessDenied>TODO</USAC.UI.Assets.AccessDenied>
+  <USAC.UI.Assets.AccessDenied>ACCESS_DENIED//ACCESO DENEGADO.\n\n Permisos insuficientes para acceder...</USAC.UI.Assets.AccessDenied>
   <!-- EN: Generating settlement report... -->
-  <USAC.Ending.Settled.Loading>TODO</USAC.Ending.Settled.Loading>
+  <USAC.Ending.Settled.Loading>Generando informe de liquidación...</USAC.Ending.Settled.Loading>
   <!-- EN: DEBT_SETTLED//Debt write-off report -->
-  <USAC.Ending.Settled.Title>TODO</USAC.Ending.Settled.Title>
+  <USAC.Ending.Settled.Title>DEBT_SETTLED//Informe de cancelación de deuda</USAC.Ending.Settled.Title>
   <!-- EN: Dear interstellar citizen,\n\nWe are pleased to inform you that every asset-backed agreement filed with the Debt Management Department has now been formally written off. Across a long and difficult settlement process, you showed an exceptional level of commitment. Despite the unpredictable risks of this rimworld, you have proven that credit is the most widely accepted currency of all. -->
-  <USAC.Ending.Settled.Intro>TODO</USAC.Ending.Settled.Intro>
+  <USAC.Ending.Settled.Intro>Estimado ciudadano interestelar:\n\nNos complace informarte que todos los acuerdos respaldados por activos registrados en el Departamento de Gestión de Deudas ya se cancelaron formalmente. A lo largo de un proceso de liquidación largo y difícil, mostraste un nivel de compromiso excepcional. A pesar de los riesgos impredecibles de este mundoborde, demostraste que el crédito es la moneda más aceptada de todas.</USAC.Ending.Settled.Intro>
   <!-- EN: Final credit score: {0} -->
-  <USAC.Ending.Settled.CreditScore>TODO</USAC.Ending.Settled.CreditScore>
+  <USAC.Ending.Settled.CreditScore>Calificación crediticia final: {0}</USAC.Ending.Settled.CreditScore>
   <!-- EN: Your credit history has been filed, and the Debt Management Department has ended risk monitoring of your account. We trust you will maintain this exceptional standard of compliance in the years ahead. -->
-  <USAC.Ending.Settled.Close>TODO</USAC.Ending.Settled.Close>
+  <USAC.Ending.Settled.Close>Tu historial crediticio quedó archivado, y el Departamento de Gestión de Deudas dio por terminado el monitoreo de riesgo de tu cuenta. Confiamos en que mantendrás este excepcional nivel de cumplimiento en los años venideros.</USAC.Ending.Settled.Close>
   <!-- EN: &quot;The contract ends. Prosperity endures.&quot; -->
-  <USAC.Ending.Settled.Ending>TODO</USAC.Ending.Settled.Ending>
+  <USAC.Ending.Settled.Ending>&quot;El contrato termina. La prosperidad perdura.&quot;</USAC.Ending.Settled.Ending>
   <!-- EN: Generating liquidation certificate... -->
-  <USAC.Ending.Liquidation.Loading>TODO</USAC.Ending.Liquidation.Loading>
+  <USAC.Ending.Liquidation.Loading>Generando certificado de liquidación...</USAC.Ending.Liquidation.Loading>
   <!-- EN: LIQUIDATION_COMPLETE//Asset liquidation confirmation -->
-  <USAC.Ending.Liquidation.Title>TODO</USAC.Ending.Liquidation.Title>
+  <USAC.Ending.Liquidation.Title>LIQUIDATION_COMPLETE//Confirmación de liquidación de activos</USAC.Ending.Liquidation.Title>
   <!-- EN: The process has begun. The target assets have been located, and the Debt Management Department will now carry out final liquidation. Everything is being done in accordance with regulation. -->
-  <USAC.Ending.Liquidation.Intro>TODO</USAC.Ending.Liquidation.Intro>
+  <USAC.Ending.Liquidation.Intro>El proceso comenzó. Los activos objetivo fueron localizados, y el Departamento de Gestión de Deudas procederá ahora a la liquidación final. Todo se hace conforme al reglamento.</USAC.Ending.Liquidation.Intro>
   <!-- EN: The wailing alarm was cut short by a shriek from the sky. You looked up and saw dozens of vast steel clamps punch through the clouds, dragging orange trails behind them. With a violent clang of metal the roof under your feet shattered, and through the billowing smoke and dust, the heavy hum of hydraulic clamps closing became the last thing you ever heard of your home. You felt yourself seized and dragged upward, your face wrapped in a cold oxygen mask and sealing spray. The thrusters lit again, and gravity turned over entirely. You saw the crops you had tended, the bricks you had laid by hand, and your terrified companions, all falling away beneath you...\n\nOr rather, you were the one rising, faster and faster, into the endless dark. Before the suffocating silence took everything, the last thing you saw was that desolate land below, where all you had ever cared for disappeared into the rising dust. -->
-  <USAC.Ending.Liquidation.Body>TODO</USAC.Ending.Liquidation.Body>
+  <USAC.Ending.Liquidation.Body>La alarma que aullaba se cortó de golpe con un chillido que venía del cielo. Alzaste la vista y viste decenas de enormes pinzas de acero atravesar las nubes, arrastrando estelas anaranjadas. Con un violento estruendo metálico, el techo bajo tus pies se hizo pedazos, y entre el humo y el polvo que se levantaban, el zumbido pesado de las pinzas hidráulicas al cerrarse fue lo último que oíste de tu hogar. Sentiste que te agarraban y te arrastraban hacia arriba, con la cara envuelta en una fría máscara de oxígeno y en un aerosol sellador. Los propulsores se encendieron otra vez, y la gravedad se invirtió por completo. Viste los cultivos que habías cuidado, los ladrillos que habías puesto con tus propias manos y a tus compañeros aterrados, todo cayendo lejos bajo tus pies...\n\nO, mejor dicho, eras tú quien subía, cada vez más rápido, hacia la oscuridad infinita. Antes de que el silencio asfixiante se lo llevara todo, lo último que viste fue esa tierra desolada allá abajo, donde todo lo que alguna vez te importó desapareció entre el polvo que se alzaba.</USAC.Ending.Liquidation.Body>
   <!-- EN: Asset liquidation financial summary: -->
-  <USAC.Ending.Liquidation.FinancialReport>TODO</USAC.Ending.Liquidation.FinancialReport>
+  <USAC.Ending.Liquidation.FinancialReport>Resumen financiero de la liquidación de activos:</USAC.Ending.Liquidation.FinancialReport>
   <!-- EN: Total amount written off -->
-  <USAC.Ending.Liquidation.TotalDebtLiquidated>TODO</USAC.Ending.Liquidation.TotalDebtLiquidated>
+  <USAC.Ending.Liquidation.TotalDebtLiquidated>Monto total cancelado</USAC.Ending.Liquidation.TotalDebtLiquidated>
   <!-- EN: {0} has been delivered as collateral against overdue payments. -->
-  <USAC.Ending.Liquidation.CapturedAssets>TODO</USAC.Ending.Liquidation.CapturedAssets>
+  <USAC.Ending.Liquidation.CapturedAssets>{0} se entregó como garantía por los pagos vencidos.</USAC.Ending.Liquidation.CapturedAssets>
   <!-- EN: The dust has settled. The land falls silent again, waiting for the next poor soul. -->
-  <USAC.Ending.Liquidation.Close>TODO</USAC.Ending.Liquidation.Close>
+  <USAC.Ending.Liquidation.Close>El polvo se asentó. La tierra vuelve a quedar en silencio, a la espera del próximo pobre infeliz.</USAC.Ending.Liquidation.Close>
   <!-- EN: &quot;The debt has been written off.&quot; -->
-  <USAC.Ending.Liquidation.Ending>TODO</USAC.Ending.Liquidation.Ending>
+  <USAC.Ending.Liquidation.Ending>&quot;La deuda se canceló.&quot;</USAC.Ending.Liquidation.Ending>
   <!-- EN: Notice of debt sale -->
-  <USAC.Ending.Transfer.NegotiationTitle>TODO</USAC.Ending.Transfer.NegotiationTitle>
+  <USAC.Ending.Transfer.NegotiationTitle>Aviso de venta de deuda</USAC.Ending.Transfer.NegotiationTitle>
   <!-- EN: Given your unauthorized interference with the collection process, the Debt Management Department has judged the cost of writing off this bad debt to be excessive. Your debt package has been sold to a third party: {0}.\n\nBecause the nature of the debt has changed, late payment penalties have raised your arrears to {2} silver. The financial link will be formally closed within 24 hours. After that, your credit record will no longer exist - only a new creditor, with an open-ended claim on your assets. -->
-  <USAC.Ending.Transfer.NegotiationText>TODO</USAC.Ending.Transfer.NegotiationText>
+  <USAC.Ending.Transfer.NegotiationText>Debido a tu interferencia no autorizada en el proceso de cobranza, el Departamento de Gestión de Deudas consideró excesivo el costo de cancelar esta deuda incobrable. Tu paquete de deuda se vendió a un tercero: {0}.\n\nComo la naturaleza de la deuda cambió, los recargos por mora elevaron tus atrasos a {2} de plata. El enlace financiero se cerrará formalmente dentro de 24 horas. Después de eso, tu historial crediticio dejará de existir: solo quedará un nuevo acreedor, con un derecho sin límite sobre tus activos.</USAC.Ending.Transfer.NegotiationText>
   <!-- EN: Pay the new creditor in silver ({0}) -->
-  <USAC.Ending.Transfer.Option.Pay>TODO</USAC.Ending.Transfer.Option.Pay>
+  <USAC.Ending.Transfer.Option.Pay>Pagarle al nuevo acreedor en plata ({0})</USAC.Ending.Transfer.Option.Pay>
   <!-- EN: Refuse. Prepare for liquidation in {0} days. -->
-  <USAC.Ending.Transfer.Option.Refuse>TODO</USAC.Ending.Transfer.Option.Refuse>
+  <USAC.Ending.Transfer.Option.Refuse>Negarse. Prepararse para la liquidación dentro de {0} días.</USAC.Ending.Transfer.Option.Refuse>
   <!-- EN: Payment failed: the silver on this map ({0}) is not enough to settle the debt ({1}). Prepare for the attack. -->
-  <USAC.Ending.Transfer.BuyoutFail>TODO</USAC.Ending.Transfer.BuyoutFail>
+  <USAC.Ending.Transfer.BuyoutFail>Pago fallido: la plata de este mapa ({0}) no alcanza para saldar la deuda ({1}). Prepárate para el ataque.</USAC.Ending.Transfer.BuyoutFail>
   <!-- EN: {0} has received the silver, and every one of your debts is written off in full under interstellar law. -->
-  <USAC.Ending.Transfer.BuyoutSuccess>TODO</USAC.Ending.Transfer.BuyoutSuccess>
+  <USAC.Ending.Transfer.BuyoutSuccess>{0} recibió la plata, y todas tus deudas quedan canceladas por completo según la ley interestelar.</USAC.Ending.Transfer.BuyoutSuccess>
   <!-- EN: Debt assignment in effect -->
-  <USAC.Ending.Transfer.CountdownLabel>TODO</USAC.Ending.Transfer.CountdownLabel>
+  <USAC.Ending.Transfer.CountdownLabel>Cesión de deuda en vigor</USAC.Ending.Transfer.CountdownLabel>
   <!-- EN: USAC has formally exited your debt contract. {0} now holds the right to dispose of all your assets, and they have issued an ultimatum: a full seizure operation begins in {1} days. -->
-  <USAC.Ending.Transfer.CountdownText>TODO</USAC.Ending.Transfer.CountdownText>
+  <USAC.Ending.Transfer.CountdownText>La USAC se retiró formalmente de tu contrato de deuda. {0} tiene ahora el derecho de disponer de todos tus activos, y emitió un ultimátum: dentro de {1} días comienza una operación de embargo total.</USAC.Ending.Transfer.CountdownText>
   <!-- EN: Asset seizure begins -->
-  <USAC.Ending.Transfer.SiegeStartLabel>TODO</USAC.Ending.Transfer.SiegeStartLabel>
+  <USAC.Ending.Transfer.SiegeStartLabel>Comienza el embargo de activos</USAC.Ending.Transfer.SiegeStartLabel>
   <!-- EN: The armed collection team sent by {0} has arrived. They intend to break your will with relentless attacks over the next {1} days. Endure, or pay in blood. -->
-  <USAC.Ending.Transfer.SiegeStartText>TODO</USAC.Ending.Transfer.SiegeStartText>
+  <USAC.Ending.Transfer.SiegeStartText>Llegó el equipo armado de cobranza que envió {0}. Pretende quebrar tu voluntad con ataques implacables durante los próximos {1} días. Resiste, o paga con sangre.</USAC.Ending.Transfer.SiegeStartText>
   <!-- EN: Debt cancelled -->
-  <USAC.Ending.Transfer.VictoryLabel>TODO</USAC.Ending.Transfer.VictoryLabel>
+  <USAC.Ending.Transfer.VictoryLabel>Deuda anulada</USAC.Ending.Transfer.VictoryLabel>
   <!-- EN: After paying a heavy price, {0} has formally abandoned enforcement of this debt - the losses were simply too great. Your debt is now marked &quot;overdue and void,&quot; and no faction will trouble you over it again. -->
-  <USAC.Ending.Transfer.VictoryText>TODO</USAC.Ending.Transfer.VictoryText>
+  <USAC.Ending.Transfer.VictoryText>Tras pagar un precio muy alto, {0} abandonó formalmente el cobro de esta deuda: las pérdidas fueron demasiado grandes. Tu deuda queda marcada como &quot;vencida y nula&quot;, y ninguna facción volverá a molestarte por ella.</USAC.Ending.Transfer.VictoryText>
   <!-- EN: DEBT_ASSIGNMENT//Report on transfer of claims -->
-  <USAC.Ending.Transfer.Credits.Title>TODO</USAC.Ending.Transfer.Credits.Title>
+  <USAC.Ending.Transfer.Credits.Title>DEBT_ASSIGNMENT//Informe de cesión de créditos</USAC.Ending.Transfer.Credits.Title>
   <!-- EN: {0} has purchased your debt, valued at ₿{1}, from the Debt Management Department on the secondary market. -->
-  <USAC.Ending.Transfer.Credits.Intro>TODO</USAC.Ending.Transfer.Credits.Intro>
+  <USAC.Ending.Transfer.Credits.Intro>{0} le compró al Departamento de Gestión de Deudas, en el mercado secundario, tu deuda valorada en ₿{1}.</USAC.Ending.Transfer.Credits.Intro>
   <!-- EN: Note: the Debt Management Department always strives for efficiency and balance. When the cost of hedging a risk outweighs its return, transferring the asset package to a local third party with the capacity to receive it is standard procedure.\n\nThank you for being our credit client. We wish you luck in your future asset restructuring. -->
-  <USAC.Ending.Transfer.Credits.Body>TODO</USAC.Ending.Transfer.Credits.Body>
+  <USAC.Ending.Transfer.Credits.Body>Nota: el Departamento de Gestión de Deudas siempre busca la eficiencia y el equilibrio. Cuando el costo de cubrir un riesgo supera su rendimiento, transferir el paquete de activos a un tercero local con capacidad para recibirlo es el procedimiento estándar.\n\nGracias por ser nuestro cliente de crédito. Te deseamos suerte en tu futura reestructuración de activos.</USAC.Ending.Transfer.Credits.Body>
   <!-- EN: &quot;The financial link has been safely disconnected.&quot; -->
-  <USAC.Ending.Transfer.Credits.Close>TODO</USAC.Ending.Transfer.Credits.Close>
+  <USAC.Ending.Transfer.Credits.Close>&quot;El enlace financiero se desconectó de forma segura.&quot;</USAC.Ending.Transfer.Credits.Close>
   <!-- EN: WAR_OF_DEBT//The final war of debt -->
-  <USAC.Ending.Transfer.Victory.Title>TODO</USAC.Ending.Transfer.Victory.Title>
+  <USAC.Ending.Transfer.Victory.Title>WAR_OF_DEBT//La guerra final de la deuda</USAC.Ending.Transfer.Victory.Title>
   <!-- EN: You solved your financial troubles in the oldest and most thorough way there is: you killed the creditors.\n\nAfter days of bloody defense, they finally understood that collecting from a band of fanatical colonists armed to the teeth was a losing proposition. As the last commando squad pulled back, the shackles of debt broke for good. Freedom always has a price, and you paid yours in full - in your creditors&apos; blood. -->
-  <USAC.Ending.Transfer.Victory.Body>TODO</USAC.Ending.Transfer.Victory.Body>
+  <USAC.Ending.Transfer.Victory.Body>Resolviste tus problemas financieros de la forma más antigua y definitiva que existe: mataste a los acreedores.\n\nTras días de defensa sangrienta, por fin entendieron que cobrarle a una banda de colonos fanáticos armados hasta los dientes era un negocio perdido. Cuando se retiró la última escuadra de comando, los grilletes de la deuda se rompieron para siempre. La libertad siempre tiene un precio, y tú lo pagaste completo: con la sangre de tus acreedores.</USAC.Ending.Transfer.Victory.Body>
   <!-- EN: &quot;The debt is gone.&quot; -->
-  <USAC.Ending.Transfer.Victory.Close>TODO</USAC.Ending.Transfer.Victory.Close>
+  <USAC.Ending.Transfer.Victory.Close>&quot;La deuda desapareció.&quot;</USAC.Ending.Transfer.Victory.Close>
   <!-- EN: SILVER_SETTLEMENT//Silver repayment report -->
-  <USAC.Ending.Transfer.SilverBuyout.Title>TODO</USAC.Ending.Transfer.SilverBuyout.Title>
+  <USAC.Ending.Transfer.SilverBuyout.Title>SILVER_SETTLEMENT//Informe de pago en plata</USAC.Ending.Transfer.SilverBuyout.Title>
   <!-- EN: {0} confirms receipt of {1} silver in full. Your debt status has been updated to &quot;settled.&quot;
 
 For a moment, the data flowing through the orbital settlement network stalled. The Debt Management Department&apos;s risk model verified the transaction&apos;s legality again and again, and still could not make sense of it. You held an enormous silver reserve and countless ways to convert it into instruments we recognize, yet you sat on it through settlement cycle after settlement cycle, waited out the debt transfer, and then bought the whole thing out in cash at once.
@@ -525,313 +525,313 @@ Silver is worthless to the USAC orbital settlement network - our systems recogni
 Operations like this are exceedingly rare in our records. Usually only two kinds of people attempt them: financial talents who found an arbitrage window in the gray area of debt transfer, or gamblers who enjoy being hunted for money, proving in the most expensive way possible that rules are merely suggestions once you are rich enough.
 
 Whichever you are, you have proven one thing: on this rimworld, there is always someone who will reach their goal by the most absurd route available. -->
-  <USAC.Ending.Transfer.SilverBuyout.Body>TODO</USAC.Ending.Transfer.SilverBuyout.Body>
+  <USAC.Ending.Transfer.SilverBuyout.Body>{0} confirma haber recibido {1} de plata en su totalidad. El estado de tu deuda se actualizó a &quot;saldada&quot;.\n\nPor un momento, los datos que circulaban por la red orbital de liquidación se detuvieron. El modelo de riesgo del Departamento de Gestión de Deudas verificó la legalidad de la transacción una y otra vez, y aun así no logró entenderla. Tenías una enorme reserva de plata e innumerables formas de convertirla en instrumentos que reconocemos, pero la guardaste ciclo de liquidación tras ciclo de liquidación, esperaste a que se transfiriera la deuda y luego la compraste entera al contado, de una sola vez.\n\nLa plata no vale nada para la red orbital de liquidación de la USAC: nuestros sistemas solo reconocen credenciales de pago específicas. Pero a {0} claramente no le importa. Inyectará esta plata en la red comercial local y recuperará sus costos con una larga e ineficiente cadena de reventas. Para una facción que acababa de asumir un activo improductivo, la ganancia inesperada bastó para dejar a su director financiero mirando la pared durante tres minutos.\n\nOperaciones como esta son rarísimas en nuestros registros. Por lo general, solo dos tipos de personas las intentan: talentos financieros que encontraron una ventana de arbitraje en la zona gris de la cesión de deudas, o apostadores que disfrutan de que los persigan por dinero y que demuestran, de la forma más cara posible, que las reglas son simples sugerencias cuando uno es lo bastante rico.\n\nSeas cual seas, demostraste una cosa: en este mundoborde, siempre hay alguien que llega a su meta por el camino más absurdo que tenga a mano.</USAC.Ending.Transfer.SilverBuyout.Body>
   <!-- EN: The Debt Management Department has filed this case as &quot;atypical settlement behavior&quot; and recommends that future risk models account for &quot;deliberate delay despite capacity to pay.&quot;
 
 The dust has settled. Your credit record is gone from the system, replaced by a single cold entry: &quot;Settled (silver buyout).&quot; -->
-  <USAC.Ending.Transfer.SilverBuyout.Close>TODO</USAC.Ending.Transfer.SilverBuyout.Close>
+  <USAC.Ending.Transfer.SilverBuyout.Close>El Departamento de Gestión de Deudas archivó este caso como &quot;conducta de liquidación atípica&quot; y recomienda que los futuros modelos de riesgo tengan en cuenta el &quot;retraso deliberado pese a tener capacidad de pago&quot;.\n\nEl polvo se asentó. Tu historial crediticio desapareció del sistema, reemplazado por una sola y fría entrada: &quot;Saldada (compra con plata)&quot;.</USAC.Ending.Transfer.SilverBuyout.Close>
   <!-- EN: &quot;Rich, and willful.&quot; -->
-  <USAC.Ending.Transfer.SilverBuyout.Ending>TODO</USAC.Ending.Transfer.SilverBuyout.Ending>
+  <USAC.Ending.Transfer.SilverBuyout.Ending>&quot;Rico, y caprichoso.&quot;</USAC.Ending.Transfer.SilverBuyout.Ending>
   <!-- EN: Asset seizure countdown -->
-  <USAC.Alert.SiegeCountdown.Label>TODO</USAC.Alert.SiegeCountdown.Label>
+  <USAC.Alert.SiegeCountdown.Label>Cuenta regresiva para el embargo de activos</USAC.Alert.SiegeCountdown.Label>
   <!-- EN: Final defense in progress -->
-  <USAC.Alert.SiegeCountdown.LabelActive>TODO</USAC.Alert.SiegeCountdown.LabelActive>
+  <USAC.Alert.SiegeCountdown.LabelActive>Defensa final en curso</USAC.Alert.SiegeCountdown.LabelActive>
   <!-- EN: Time until the seizure operation begins: {0}
 
 Current creditor: {1}
 
 When the countdown ends, this faction will launch an unlimited forced seizure. Make sure your defenses are ready. -->
-  <USAC.Alert.SiegeCountdown.Explanation>TODO</USAC.Alert.SiegeCountdown.Explanation>
+  <USAC.Alert.SiegeCountdown.Explanation>Tiempo hasta que comience la operación de embargo: {0}\n\nAcreedor actual: {1}\n\nCuando termine la cuenta regresiva, esta facción lanzará un embargo forzoso sin límites. Asegúrate de que tus defensas estén listas.</USAC.Alert.SiegeCountdown.Explanation>
   <!-- EN: Defense time remaining: {0}\n\nYou are under sustained attack from {1}. Hold out until the time runs down and the losses will force them to abandon their claim. -->
-  <USAC.Alert.SiegeCountdown.ExplanationActive>TODO</USAC.Alert.SiegeCountdown.ExplanationActive>
+  <USAC.Alert.SiegeCountdown.ExplanationActive>Tiempo de defensa restante: {0}\n\nEstás bajo un ataque constante de {1}. Resiste hasta que se acabe el tiempo y las pérdidas los obligarán a abandonar su reclamo.</USAC.Alert.SiegeCountdown.ExplanationActive>
   <!-- EN: Asset security level raised -->
-  <USAC_DebtSite_WarningLetterLabel>TODO</USAC_DebtSite_WarningLetterLabel>
+  <USAC_DebtSite_WarningLetterLabel>Nivel de seguridad de activos elevado</USAC_DebtSite_WarningLetterLabel>
   <!-- EN: Given your default during the {0} settlement process, the Debt Management Department has classified your credit rating as &quot;high-risk default.&quot; All external credit access has been locked at the same time. We advise you to resume compliant performance immediately, before the security procedure escalates further. -->
-  <USAC_DebtSite_WarningLetterText>TODO</USAC_DebtSite_WarningLetterText>
+  <USAC_DebtSite_WarningLetterText>Debido a tu incumplimiento durante el proceso de liquidación de {0}, el Departamento de Gestión de Deudas clasificó tu calificación crediticia como &quot;incumplimiento de alto riesgo&quot;. Al mismo tiempo, se bloqueó todo acceso externo al crédito. Te recomendamos retomar de inmediato el cumplimiento, antes de que el procedimiento de seguridad escale todavía más.</USAC_DebtSite_WarningLetterText>
   <!-- EN: Financial access has been locked. -->
-  <USAC_DebtSite_LoanLockedWarning>TODO</USAC_DebtSite_LoanLockedWarning>
+  <USAC_DebtSite_LoanLockedWarning>Se bloqueó el acceso financiero.</USAC_DebtSite_LoanLockedWarning>
   <!-- EN: Change of compulsory collection strategy -->
-  <USAC_DebtSite_EscalationLetterLabel>TODO</USAC_DebtSite_EscalationLetterLabel>
+  <USAC_DebtSite_EscalationLetterLabel>Cambio de estrategia de cobranza forzosa</USAC_DebtSite_EscalationLetterLabel>
   <!-- EN: Because asset preservation efforts against {0} continue to meet obstruction, the Debt Management Department has concluded that conventional recovery is ineffective. We will therefore attempt no further direct settlement communication with you. Automated assessment systems will take over from here. Based on security feedback, those systems will establish whatever long-term on-site preservation facilities they deem necessary near your location, and their conduct will depend entirely on how compliant the situation remains. Be advised that all secondary damage arising from this is borne by the defaulting party. -->
-  <USAC_DebtSite_EscalationLetterText>TODO</USAC_DebtSite_EscalationLetterText>
+  <USAC_DebtSite_EscalationLetterText>Como los esfuerzos de preservación de activos contra {0} siguen encontrando obstáculos, el Departamento de Gestión de Deudas concluyó que la recuperación convencional es ineficaz. Por eso no intentaremos más comunicaciones directas de liquidación contigo. A partir de ahora se harán cargo los sistemas de evaluación automatizados. Según la información de seguridad, esos sistemas establecerán cerca de tu ubicación las instalaciones de preservación en el sitio a largo plazo que consideren necesarias, y su conducta dependerá por completo de cuánto se mantenga el cumplimiento. Ten en cuenta que todos los daños secundarios que se deriven de esto corren por cuenta de la parte incumplidora.</USAC_DebtSite_EscalationLetterText>
   <!-- EN: ACCOUNT_TERMINATED//Confirmation of offshore transfer of asset package -->
-  <USAC.UI.Assets.TransferLocked.Title>TODO</USAC.UI.Assets.TransferLocked.Title>
+  <USAC.UI.Assets.TransferLocked.Title>ACCOUNT_TERMINATED//Confirmación de transferencia extraterritorial del paquete de activos</USAC.UI.Assets.TransferLocked.Title>
   <!-- EN: Service notice: under the risk management agreement, and following the classification of your credit model as a non-performing asset, the Debt Management Department has completed the offshore transfer of this bad debt. The stripping of these assets is irreversible.\n\nUSAC has formally terminated your interface access, and your account is now logically segregated. All further valuation and recovery procedures will be carried out independently by the trustee faction. We wish you well in the new cycle. -->
-  <USAC.UI.Assets.TransferLocked.Desc>TODO</USAC.UI.Assets.TransferLocked.Desc>
+  <USAC.UI.Assets.TransferLocked.Desc>Aviso de servicio: conforme al acuerdo de gestión de riesgos, y tras clasificarse tu modelo crediticio como activo improductivo, el Departamento de Gestión de Deudas completó la transferencia extraterritorial de esta deuda incobrable. La separación de estos activos es irreversible.\n\nLa USAC dio por terminado formalmente tu acceso a la interfaz, y tu cuenta quedó segregada de forma lógica. Todos los procedimientos posteriores de valoración y recuperación los llevará a cabo de forma independiente la facción fiduciaria. Te deseamos lo mejor en el nuevo ciclo.</USAC.UI.Assets.TransferLocked.Desc>
   <!-- EN: QUASI-LEGAL_SETTLEMENT//Default settlement proposal -->
-  <USAC.UI.Assets.Negotiation.Title>TODO</USAC.UI.Assets.Negotiation.Title>
+  <USAC.UI.Assets.Negotiation.Title>QUASI-LEGAL_SETTLEMENT//Propuesta de liquidación del incumplimiento</USAC.UI.Assets.Negotiation.Title>
   <!-- EN: Our systems have detected positive cash flow in your account. The Debt Management Department has authorized a &quot;second chance&quot; asset recovery window. We can discuss how to rebuild our partnership. -->
-  <USAC.UI.Assets.Negotiation.Available>TODO</USAC.UI.Assets.Negotiation.Available>
+  <USAC.UI.Assets.Negotiation.Available>Nuestros sistemas detectaron un flujo de caja positivo en tu cuenta. El Departamento de Gestión de Deudas autorizó una ventana de recuperación de activos de &quot;segunda oportunidad&quot;. Podemos hablar de cómo reconstruir nuestra asociación.</USAC.UI.Assets.Negotiation.Available>
   <!-- EN: Under the Patriot Financial Security Act, your account is currently under punitive control. We must observe at least two consecutive acts of proactive compliance (current progress: {0}/2) before a compliance officer will step in to reassess your risk. Please continue to demonstrate your commitment. -->
-  <USAC.UI.Assets.Negotiation.Locked>TODO</USAC.UI.Assets.Negotiation.Locked>
+  <USAC.UI.Assets.Negotiation.Locked>Conforme a la Ley Patriota de Seguridad Financiera, tu cuenta está bajo control punitivo. Debemos observar al menos dos actos consecutivos de cumplimiento voluntario (progreso actual: {0}/2) antes de que un oficial de cumplimiento intervenga para reevaluar tu riesgo. Sigue demostrando tu compromiso.</USAC.UI.Assets.Negotiation.Locked>
   <!-- EN: Submit an application for asset restoration and default settlement -->
-  <USAC.UI.Assets.Negotiation.Btn>TODO</USAC.UI.Assets.Negotiation.Btn>
+  <USAC.UI.Assets.Negotiation.Btn>Presentar una solicitud de restitución de activos y liquidación del incumplimiento</USAC.UI.Assets.Negotiation.Btn>
   <!-- EN: Congratulations. Your default waiver has been approved. We have reassessed your risk model, and your financial access is restored to standard tier. Remember: credit matters more than life. -->
-  <USAC.UI.Assets.Negotiation.Success>TODO</USAC.UI.Assets.Negotiation.Success>
+  <USAC.UI.Assets.Negotiation.Success>Felicitaciones. Se aprobó la exención de tu incumplimiento. Reevaluamos tu modelo de riesgo, y tu acceso financiero vuelve al nivel estándar. Recuerda: el crédito importa más que la vida.</USAC.UI.Assets.Negotiation.Success>
   <!-- EN: Assets held: {0}/{1} -->
-  <USAC.UI.Storage.Contents>TODO</USAC.UI.Storage.Contents>
+  <USAC.UI.Storage.Contents>Activos guardados: {0}/{1}</USAC.UI.Storage.Contents>
   <!-- EN: TRADE_TERMINAL//Orbital trade terminal -->
-  <USAC.Trade.Terminal>TODO</USAC.Trade.Terminal>
+  <USAC.Trade.Terminal>TRADE_TERMINAL//Terminal comercial orbital</USAC.Trade.Terminal>
   <!-- EN: Search items, categories, or descriptions... -->
-  <USAC.Trade.SearchPlaceholder>TODO</USAC.Trade.SearchPlaceholder>
+  <USAC.Trade.SearchPlaceholder>Buscar artículos, categorías o descripciones...</USAC.Trade.SearchPlaceholder>
   <!-- EN: Colony items -->
-  <USAC.Trade.PlayerItems>TODO</USAC.Trade.PlayerItems>
+  <USAC.Trade.PlayerItems>Artículos de la colonia</USAC.Trade.PlayerItems>
   <!-- EN: Trader items -->
-  <USAC.Trade.TraderItems>TODO</USAC.Trade.TraderItems>
+  <USAC.Trade.TraderItems>Artículos del comerciante</USAC.Trade.TraderItems>
   <!-- EN: Transaction summary -->
-  <USAC.Trade.Summary>TODO</USAC.Trade.Summary>
+  <USAC.Trade.Summary>Resumen de la transacción</USAC.Trade.Summary>
   <!-- EN: No transactions yet -->
-  <USAC.Trade.NoActiveTrades>TODO</USAC.Trade.NoActiveTrades>
+  <USAC.Trade.NoActiveTrades>Todavía no hay transacciones</USAC.Trade.NoActiveTrades>
   <!-- EN: Select how many {0} to trade. -->
-  <USAC.Trade.SelectCount>TODO</USAC.Trade.SelectCount>
+  <USAC.Trade.SelectCount>Elige la cantidad de {0} para comerciar.</USAC.Trade.SelectCount>
   <!-- EN: Buying -->
-  <USAC.Trade.Summary.Buy>TODO</USAC.Trade.Summary.Buy>
+  <USAC.Trade.Summary.Buy>Compra</USAC.Trade.Summary.Buy>
   <!-- EN: Selling -->
-  <USAC.Trade.Summary.Sell>TODO</USAC.Trade.Summary.Sell>
+  <USAC.Trade.Summary.Sell>Venta</USAC.Trade.Summary.Sell>
   <!-- EN: Net expenditure -->
-  <USAC.Trade.Summary.Net>TODO</USAC.Trade.Summary.Net>
+  <USAC.Trade.Summary.Net>Gasto neto</USAC.Trade.Summary.Net>
   <!-- EN: Settlement -->
-  <USAC.Trade.Summary.Settlement>TODO</USAC.Trade.Summary.Settlement>
+  <USAC.Trade.Summary.Settlement>Liquidación</USAC.Trade.Summary.Settlement>
   <!-- EN: incl. ₿{0} lost as change -->
-  <USAC.Trade.Summary.IncludeWastage>TODO</USAC.Trade.Summary.IncludeWastage>
+  <USAC.Trade.Summary.IncludeWastage>con ₿{0} perdidos por falta de cambio</USAC.Trade.Summary.IncludeWastage>
   <!-- EN: Current assets -->
-  <USAC.Trade.Summary.Current>TODO</USAC.Trade.Summary.Current>
+  <USAC.Trade.Summary.Current>Activos actuales</USAC.Trade.Summary.Current>
   <!-- EN: Current -->
-  <USAC.Trade.Summary.CurrentAssets>TODO</USAC.Trade.Summary.CurrentAssets>
+  <USAC.Trade.Summary.CurrentAssets>Actual</USAC.Trade.Summary.CurrentAssets>
   <!-- EN: After the transaction -->
-  <USAC.Trade.Summary.After>TODO</USAC.Trade.Summary.After>
+  <USAC.Trade.Summary.After>Después de la transacción</USAC.Trade.Summary.After>
   <!-- EN: After -->
-  <USAC.Trade.Summary.AfterTransaction>TODO</USAC.Trade.Summary.AfterTransaction>
+  <USAC.Trade.Summary.AfterTransaction>Después</USAC.Trade.Summary.AfterTransaction>
   <!-- EN: Remaining -->
-  <USAC.Trade.Summary.AfterRemain>TODO</USAC.Trade.Summary.AfterRemain>
+  <USAC.Trade.Summary.AfterRemain>Restante</USAC.Trade.Summary.AfterRemain>
   <!-- EN: No change in assets -->
-  <USAC.Trade.Summary.NoChange>TODO</USAC.Trade.Summary.NoChange>
+  <USAC.Trade.Summary.NoChange>Sin cambios en los activos</USAC.Trade.Summary.NoChange>
   <!-- EN: Lost as change: ₿{0} -->
-  <USAC.Trade.Summary.Wastage>TODO</USAC.Trade.Summary.Wastage>
+  <USAC.Trade.Summary.Wastage>Perdido por falta de cambio: ₿{0}</USAC.Trade.Summary.Wastage>
   <!-- EN: Buying from: {0} -->
-  <USAC.Trade.Summary.BuyingFrom>TODO</USAC.Trade.Summary.BuyingFrom>
+  <USAC.Trade.Summary.BuyingFrom>Comprando a: {0}</USAC.Trade.Summary.BuyingFrom>
   <!-- EN: Selling to: {0} -->
-  <USAC.Trade.Summary.SellingTo>TODO</USAC.Trade.Summary.SellingTo>
+  <USAC.Trade.Summary.SellingTo>Vendiendo a: {0}</USAC.Trade.Summary.SellingTo>
   <!-- EN: Click an item&apos;s icon to see its details. -->
-  <USAC.Trade.Summary.Tip_0>TODO</USAC.Trade.Summary.Tip_0>
+  <USAC.Trade.Summary.Tip_0>Haz clic en el ícono de un artículo para ver sus detalles.</USAC.Trade.Summary.Tip_0>
   <!-- EN: You said you didn&apos;t want to be here~ (Selected Works of the Chairman of USAC, 3:43) -->
-  <USAC.Trade.Summary.Tip_1>TODO</USAC.Trade.Summary.Tip_1>
+  <USAC.Trade.Summary.Tip_1>Dijiste que no querías estar aquí~ (Obras escogidas del presidente de la USAC, 3:43)</USAC.Trade.Summary.Tip_1>
   <!-- EN: USAC does not split currency or give change. -->
-  <USAC.Trade.Summary.Tip_2>TODO</USAC.Trade.Summary.Tip_2>
+  <USAC.Trade.Summary.Tip_2>La USAC no fracciona la moneda ni da cambio.</USAC.Trade.Summary.Tip_2>
   <!-- EN: GuguGaga -->
-  <USAC.Trade.Summary.Tip_3>TODO</USAC.Trade.Summary.Tip_3>
+  <USAC.Trade.Summary.Tip_3>GuguGaga</USAC.Trade.Summary.Tip_3>
   <!-- EN: Click the input box to type an exact number. -->
-  <USAC.Trade.Summary.Tip_4>TODO</USAC.Trade.Summary.Tip_4>
+  <USAC.Trade.Summary.Tip_4>Haz clic en el cuadro de texto para escribir un número exacto.</USAC.Trade.Summary.Tip_4>
   <!-- EN: Item -->
-  <USAC.Trade.Header.Item>TODO</USAC.Trade.Header.Item>
+  <USAC.Trade.Header.Item>Artículo</USAC.Trade.Header.Item>
   <!-- EN: Held -->
-  <USAC.Trade.Header.Held>TODO</USAC.Trade.Header.Held>
+  <USAC.Trade.Header.Held>En posesión</USAC.Trade.Header.Held>
   <!-- EN: Stock -->
-  <USAC.Trade.Header.Stock>TODO</USAC.Trade.Header.Stock>
+  <USAC.Trade.Header.Stock>Existencias</USAC.Trade.Header.Stock>
   <!-- EN: Price -->
-  <USAC.Trade.Header.Price>TODO</USAC.Trade.Header.Price>
+  <USAC.Trade.Header.Price>Precio</USAC.Trade.Header.Price>
   <!-- EN: Cancel -->
-  <USAC.Trade.Dialog.Cancel>TODO</USAC.Trade.Dialog.Cancel>
+  <USAC.Trade.Dialog.Cancel>Cancelar</USAC.Trade.Dialog.Cancel>
   <!-- EN: Confirm -->
-  <USAC.Trade.Dialog.Confirm>TODO</USAC.Trade.Dialog.Confirm>
+  <USAC.Trade.Dialog.Confirm>Confirmar</USAC.Trade.Dialog.Confirm>
   <!-- EN: Available: {0} -->
-  <USAC.Trade.Dialog.Available>TODO</USAC.Trade.Dialog.Available>
+  <USAC.Trade.Dialog.Available>Disponible: {0}</USAC.Trade.Dialog.Available>
   <!-- EN: {0} x{1} + {2} x{3} -->
-  <USAC.Trade.Currency.Combined>TODO</USAC.Trade.Currency.Combined>
+  <USAC.Trade.Currency.Combined>{0} x{1} + {2} x{3}</USAC.Trade.Currency.Combined>
   <!-- EN: {0} x{1} -->
-  <USAC.Trade.Currency.Single>TODO</USAC.Trade.Currency.Single>
+  <USAC.Trade.Currency.Single>{0} x{1}</USAC.Trade.Currency.Single>
   <!-- EN: Body bags -->
-  <USAC.Trade.Currency.CorpseBag>TODO</USAC.Trade.Currency.CorpseBag>
+  <USAC.Trade.Currency.CorpseBag>Bolsas para cadáveres</USAC.Trade.Currency.CorpseBag>
   <!-- EN: Credit bonds -->
-  <USAC.Trade.Currency.Bond>TODO</USAC.Trade.Currency.Bond>
+  <USAC.Trade.Currency.Bond>Bonos de crédito</USAC.Trade.Currency.Bond>
   <!-- EN: The orbital network detected no valid assets within this area&apos;s trade beacon range. -->
-  <USAC.Trade.Currency.Empty>TODO</USAC.Trade.Currency.Empty>
+  <USAC.Trade.Currency.Empty>La red orbital no detectó activos válidos dentro del alcance de la baliza de comercio orbital de esta zona.</USAC.Trade.Currency.Empty>
   <!-- EN: Asset details: -->
-  <USAC_Currency_Breakdown>TODO</USAC_Currency_Breakdown>
+  <USAC_Currency_Breakdown>Detalle de activos:</USAC_Currency_Breakdown>
   <!-- EN: Body bag value: ₿{0} -->
-  <USAC_Currency_CorpseBagValue>TODO</USAC_Currency_CorpseBagValue>
+  <USAC_Currency_CorpseBagValue>Valor de las bolsas para cadáveres: ₿{0}</USAC_Currency_CorpseBagValue>
   <!-- EN: Credit bonds ({0}): ₿{1} -->
-  <USAC_Currency_BondValue>TODO</USAC_Currency_BondValue>
+  <USAC_Currency_BondValue>Bonos de crédito ({0}): ₿{1}</USAC_Currency_BondValue>
   <!-- EN: Available to spend: ₿{0} -->
-  <USAC_Currency_TotalValue>TODO</USAC_Currency_TotalValue>
+  <USAC_Currency_TotalValue>Disponible para gastar: ₿{0}</USAC_Currency_TotalValue>
   <!-- EN: Least valuable body bag: ₿{0} -->
-  <USAC_Currency_SmallestBag>TODO</USAC_Currency_SmallestBag>
+  <USAC_Currency_SmallestBag>Bolsa para cadáveres de menor valor: ₿{0}</USAC_Currency_SmallestBag>
   <!-- EN: USAC spends body bags first unless you enable &quot;Prioritize payment using bonds&quot;. Note that USAC gives no change - any excess value is lost. -->
-  <USAC_Currency_Desc>TODO</USAC_Currency_Desc>
+  <USAC_Currency_Desc>La USAC gasta primero las bolsas para cadáveres, salvo que actives &quot;Priorizar el pago con bonos&quot;. Ten en cuenta que la USAC no da cambio: cualquier valor sobrante se pierde.</USAC_Currency_Desc>
   <!-- EN: USAC currency -->
-  <USAC_Currency_LabelEmpty>TODO</USAC_Currency_LabelEmpty>
+  <USAC_Currency_LabelEmpty>Moneda USAC</USAC_Currency_LabelEmpty>
   <!-- EN: Capacity: {0}/{1} -->
-  <USAC.UI.Storage.Capacity>TODO</USAC.UI.Storage.Capacity>
+  <USAC.UI.Storage.Capacity>Capacidad: {0}/{1}</USAC.UI.Storage.Capacity>
   <!-- EN: Refrigeration active -->
-  <USAC.UI.Storage.RefrigerationActive>TODO</USAC.UI.Storage.RefrigerationActive>
+  <USAC.UI.Storage.RefrigerationActive>Refrigeración activa</USAC.UI.Storage.RefrigerationActive>
   <!-- EN: No power -->
-  <USAC.UI.Storage.NoPower>TODO</USAC.UI.Storage.NoPower>
+  <USAC.UI.Storage.NoPower>Sin energía</USAC.UI.Storage.NoPower>
   <!-- EN: Enable bond payments -->
-  <USAC.Trade.EnableBonds>TODO</USAC.Trade.EnableBonds>
+  <USAC.Trade.EnableBonds>Activar el pago con bonos</USAC.Trade.EnableBonds>
   <!-- EN: Prioritize payment using bonds -->
-  <USAC.Trade.PriorityBonds>TODO</USAC.Trade.PriorityBonds>
+  <USAC.Trade.PriorityBonds>Priorizar el pago con bonos</USAC.Trade.PriorityBonds>
   <!-- EN: Select a deployment location for {0} -->
-  <USAC.Trade.PlaceDelivery>TODO</USAC.Trade.PlaceDelivery>
+  <USAC.Trade.PlaceDelivery>Elige un lugar de despliegue para {0}</USAC.Trade.PlaceDelivery>
   <!-- EN: Cannot be placed here -->
-  <USAC.Trade.CannotPlace>TODO</USAC.Trade.CannotPlace>
+  <USAC.Trade.CannotPlace>No se puede colocar aquí</USAC.Trade.CannotPlace>
   <!-- EN: Cannot be deployed under a thick roof -->
-  <USAC.Trade.CannotPlaceUnderThickRoof>TODO</USAC.Trade.CannotPlaceUnderThickRoof>
+  <USAC.Trade.CannotPlaceUnderThickRoof>No se puede desplegar bajo un techo grueso</USAC.Trade.CannotPlaceUnderThickRoof>
   <!-- EN: Select a deployment location for {0} (press Q/E to rotate). -->
-  <USAC.Trade.SelectPlacement>TODO</USAC.Trade.SelectPlacement>
+  <USAC.Trade.SelectPlacement>Elige un lugar de despliegue para {0} (presiona Q/E para girar).</USAC.Trade.SelectPlacement>
   <!-- EN: All buildings have been delivered by transport clamp. -->
-  <USAC.Trade.DeliveriesDispatched>TODO</USAC.Trade.DeliveriesDispatched>
+  <USAC.Trade.DeliveriesDispatched>Todos los edificios se entregaron con pinzas de transporte.</USAC.Trade.DeliveriesDispatched>
   <!-- EN: Cannot overlap with a planned drop zone -->
-  <USAC.Trade.CannotOverlapWithPending>TODO</USAC.Trade.CannotOverlapWithPending>
+  <USAC.Trade.CannotOverlapWithPending>No puede superponerse con una zona de lanzamiento planificada</USAC.Trade.CannotOverlapWithPending>
   <!-- EN: Cannot land on an existing building -->
-  <USAC.Trade.CannotLandOnBuilding>TODO</USAC.Trade.CannotLandOnBuilding>
+  <USAC.Trade.CannotLandOnBuilding>No puede aterrizar sobre un edificio existente</USAC.Trade.CannotLandOnBuilding>
   <!-- EN: Payment failed: there is not enough currency (body bags or bonds) within trade beacon range to settle this bill. -->
-  <USAC.Trade.NotEnoughCurrency>TODO</USAC.Trade.NotEnoughCurrency>
+  <USAC.Trade.NotEnoughCurrency>Pago fallido: no hay suficiente moneda (bolsas para cadáveres o bonos) dentro del alcance de la baliza de comercio orbital para saldar esta cuenta.</USAC.Trade.NotEnoughCurrency>
   <!-- EN: A Rising Giant -->
-  <USAC_FactionName>TODO</USAC_FactionName>
+  <USAC_FactionName>Un gigante en ascenso</USAC_FactionName>
   <!-- EN: A vast corporation born out of this world&apos;s enlightenment. After the colonial fleet departed, it used its hold on information and technology to monopolize the local energy industry, then expanded across the rim on the back of its cultural dominance. -->
-  <USAC_FactionDesc>TODO</USAC_FactionDesc>
+  <USAC_FactionDesc>Una vasta corporación nacida de la ilustración de este mundo. Después de que partió la Flota Colonial, usó su control de la información y la tecnología para monopolizar la industria energética local, y luego se expandió por todo el borde gracias a su dominio cultural.</USAC_FactionDesc>
   <!-- EN: Contains: {0} -->
-  <USAC_CorpseBag_Contains>TODO</USAC_CorpseBag_Contains>
+  <USAC_CorpseBag_Contains>Contiene: {0}</USAC_CorpseBag_Contains>
   <!-- EN: Value: {0} -->
-  <USAC_CorpseBag_Value>TODO</USAC_CorpseBag_Value>
+  <USAC_CorpseBag_Value>Valor: {0}</USAC_CorpseBag_Value>
   <!-- EN: Empty -->
-  <USAC_CorpseBag_Empty>TODO</USAC_CorpseBag_Empty>
+  <USAC_CorpseBag_Empty>Vacía</USAC_CorpseBag_Empty>
   <!-- EN: Eject body -->
-  <USAC_CorpseBag_Eject>TODO</USAC_CorpseBag_Eject>
+  <USAC_CorpseBag_Eject>Expulsar el cuerpo</USAC_CorpseBag_Eject>
   <!-- EN: Eject the body from this bag. -->
-  <USAC_CorpseBag_EjectDesc>TODO</USAC_CorpseBag_EjectDesc>
+  <USAC_CorpseBag_EjectDesc>Saca el cuerpo de esta bolsa.</USAC_CorpseBag_EjectDesc>
   <!-- EN: Pack {0} into body bag -->
-  <USAC_CorpseBag_PackCorpse>TODO</USAC_CorpseBag_PackCorpse>
+  <USAC_CorpseBag_PackCorpse>Guardar {0} en una bolsa para cadáveres</USAC_CorpseBag_PackCorpse>
   <!-- EN: Body bag value -->
-  <USAC_CorpseBag_Currency>TODO</USAC_CorpseBag_Currency>
+  <USAC_CorpseBag_Currency>Valor de las bolsas para cadáveres</USAC_CorpseBag_Currency>
   <!-- EN: The total market value of your body bags. USAC traders accept body bags as currency. -->
-  <USAC_CorpseBag_CurrencyDesc>TODO</USAC_CorpseBag_CurrencyDesc>
+  <USAC_CorpseBag_CurrencyDesc>El valor de mercado total de tus bolsas para cadáveres. Los comerciantes de la USAC aceptan bolsas para cadáveres como moneda.</USAC_CorpseBag_CurrencyDesc>
   <!-- EN: USAC hostility reset -->
-  <USAC_HostilityReset>TODO</USAC_HostilityReset>
+  <USAC_HostilityReset>Fin de la hostilidad de la USAC</USAC_HostilityReset>
   <!-- EN: USAC has called off its hostility. They are neutral toward you once again. -->
-  <USAC_HostilityResetDesc>TODO</USAC_HostilityResetDesc>
+  <USAC_HostilityResetDesc>La USAC puso fin a su hostilidad. Vuelve a ser neutral contigo.</USAC_HostilityResetDesc>
   <!-- EN: Deep resources in range: -->
-  <USAC_ResourcesInRange>TODO</USAC_ResourcesInRange>
+  <USAC_ResourcesInRange>Recursos profundos en el alcance:</USAC_ResourcesInRange>
   <!-- EN: Mining target: {0} -->
-  <USAC_MiningTarget>TODO</USAC_MiningTarget>
+  <USAC_MiningTarget>Objetivo de minería: {0}</USAC_MiningTarget>
   <!-- EN: Mining progress: {0} -->
-  <USAC_MiningPortionProgress>TODO</USAC_MiningPortionProgress>
+  <USAC_MiningPortionProgress>Progreso de la minería: {0}</USAC_MiningPortionProgress>
   <!-- EN: No deep resources in range -->
-  <USAC_NoResourcesInRange>TODO</USAC_NoResourcesInRange>
+  <USAC_NoResourcesInRange>No hay recursos profundos en el alcance</USAC_NoResourcesInRange>
   <!-- EN: Stored minerals: -->
-  <USAC_StoredMineralsHeader>TODO</USAC_StoredMineralsHeader>
+  <USAC_StoredMineralsHeader>Minerales almacenados:</USAC_StoredMineralsHeader>
   <!-- EN: Evacuation countdown: {0} -->
-  <USAC_ExtractionCountdown>TODO</USAC_ExtractionCountdown>
+  <USAC_ExtractionCountdown>Cuenta regresiva de evacuación: {0}</USAC_ExtractionCountdown>
   <!-- EN: The USAC mining rig is preparing to evacuate. -->
-  <USAC_MiningRigExtracting>TODO</USAC_MiningRigExtracting>
+  <USAC_MiningRigExtracting>El equipo de minería de la USAC se prepara para evacuar.</USAC_MiningRigExtracting>
   <!-- EN: The USAC mining raid failed. No usable deep resources were found. -->
-  <USAC_MiningRaidFailed>TODO</USAC_MiningRaidFailed>
+  <USAC_MiningRaidFailed>La incursión minera de la USAC fracasó. No se encontraron recursos profundos aprovechables.</USAC_MiningRaidFailed>
   <!-- EN: Maintenance -->
-  <USAC_Readiness>TODO</USAC_Readiness>
+  <USAC_Readiness>Mantenimiento</USAC_Readiness>
   <!-- EN: Daily consumption: {0}% -->
-  <USAC_ReadinessConsumption>TODO</USAC_ReadinessConsumption>
+  <USAC_ReadinessConsumption>Consumo diario: {0}%</USAC_ReadinessConsumption>
   <!-- EN: {0} delivered by drop pod. -->
-  <USAC_MechDelivered>TODO</USAC_MechDelivered>
+  <USAC_MechDelivered>{0} se entregó en cápsula de escape.</USAC_MechDelivered>
   <!-- EN: Call in mech drop -->
-  <USAC_UseMechOrder>TODO</USAC_UseMechOrder>
+  <USAC_UseMechOrder>Solicitar el lanzamiento del meca</USAC_UseMechOrder>
   <!-- EN: Requires the Biotech DLC. -->
-  <USAC_RequiresBiotech>TODO</USAC_RequiresBiotech>
+  <USAC_RequiresBiotech>Requiere el DLC Biotech.</USAC_RequiresBiotech>
   <!-- EN: Take control of {0} -->
-  <USAC_ControlMech>TODO</USAC_ControlMech>
+  <USAC_ControlMech>Tomar el control de {0}</USAC_ControlMech>
   <!-- EN: Cannot reach the mech. -->
-  <USAC_ControlMech_NoPath>TODO</USAC_ControlMech_NoPath>
+  <USAC_ControlMech_NoPath>No se puede llegar al meca.</USAC_ControlMech_NoPath>
   <!-- EN: Not a mechanitor. -->
-  <USAC_ControlMech_NotMechanitor>TODO</USAC_ControlMech_NotMechanitor>
+  <USAC_ControlMech_NotMechanitor>No es mecanizador.</USAC_ControlMech_NotMechanitor>
   <!-- EN: Requires {0} bandwidth. -->
-  <USAC_ControlMech_NeedBandwidth>TODO</USAC_ControlMech_NeedBandwidth>
+  <USAC_ControlMech_NeedBandwidth>Requiere {0} de banda ancha.</USAC_ControlMech_NeedBandwidth>
   <!-- EN: Destroy mech -->
-  <USAC_DeactivatedMech_Destroy>TODO</USAC_DeactivatedMech_Destroy>
+  <USAC_DeactivatedMech_Destroy>Destruir el meca</USAC_DeactivatedMech_Destroy>
   <!-- EN: {0} is now controlled by {1}. -->
-  <USAC_MechControlled>TODO</USAC_MechControlled>
+  <USAC_MechControlled>{0} ahora está bajo el control de {1}.</USAC_MechControlled>
   <!-- EN: Hibernate -->
-  <USAC_DeactivateMech>TODO</USAC_DeactivateMech>
+  <USAC_DeactivateMech>Hibernar</USAC_DeactivateMech>
   <!-- EN: Put this mech into hibernation. It can still be moved, and reactivated later. -->
-  <USAC_DeactivateMechDesc>TODO</USAC_DeactivateMechDesc>
+  <USAC_DeactivateMechDesc>Pone este meca en hibernación. Todavía se puede mover, y reactivar más tarde.</USAC_DeactivateMechDesc>
   <!-- EN: {0} has entered hibernation. -->
-  <USAC_MechDeactivated>TODO</USAC_MechDeactivated>
+  <USAC_MechDeactivated>{0} entró en hibernación.</USAC_MechDeactivated>
   <!-- EN: USAC credit bonds -->
-  <USAC_Bond_Label>TODO</USAC_Bond_Label>
+  <USAC_Bond_Label>Bonos de crédito USAC</USAC_Bond_Label>
   <!-- EN: A registered certificate of value, printed on high-strength fiber paper and issued by USAC corporate dealers to those who trade with their ground forces. Special inks give it an intricate anti-counterfeiting pattern, alongside the registered holder&apos;s details.\n\nOnce goods are bought and equipment sold, whatever residual value remains can be converted into these certificates, locking in fixed purchasing power for the next deal. Since each bond is registered, nobody but its holder can spend it - which makes this very durable piece of paper all but worthless to anyone else on the rim. -->
-  <USAC_Bond_Desc>TODO</USAC_Bond_Desc>
+  <USAC_Bond_Desc>Un certificado de valor registrado, impreso en papel de fibra de alta resistencia, que los distribuidores corporativos de la USAC entregan a quienes comercian con sus fuerzas terrestres. Unas tintas especiales le dan un intrincado diseño antifalsificación, junto con los datos del titular registrado.\n\nUna vez compradas las mercancías y vendido el equipo, el valor residual que quede se puede convertir en estos certificados, lo que fija un poder de compra para el próximo trato. Como cada bono está registrado, nadie más que su titular puede gastarlo, y eso deja a este papel tan resistente prácticamente sin valor para cualquier otro en el borde.</USAC_Bond_Desc>
   <!-- EN: USAC currency -->
-  <USAC_Currency_Label>TODO</USAC_Currency_Label>
+  <USAC_Currency_Label>Moneda USAC</USAC_Currency_Label>
   <!-- EN: Body bag value: {0} (including {1} bonds) -->
-  <USAC_Currency_LabelFull>TODO</USAC_Currency_LabelFull>
+  <USAC_Currency_LabelFull>Valor de las bolsas para cadáveres: {0} (incluye {1} bonos)</USAC_Currency_LabelFull>
   <!-- EN: Bonds x{0} -->
-  <USAC_Currency_LabelBondOnly>TODO</USAC_Currency_LabelBondOnly>
+  <USAC_Currency_LabelBondOnly>Bonos x{0}</USAC_Currency_LabelBondOnly>
   <!-- EN: Body bag value: {0} -->
-  <USAC_Currency_LabelCorpseBagOnly>TODO</USAC_Currency_LabelCorpseBagOnly>
+  <USAC_Currency_LabelCorpseBagOnly>Valor de las bolsas para cadáveres: {0}</USAC_Currency_LabelCorpseBagOnly>
   <!-- EN: Spendable before the next bag is used: {0} -->
-  <USAC_Currency_UntilNextBag>TODO</USAC_Currency_UntilNextBag>
+  <USAC_Currency_UntilNextBag>Se puede gastar antes de usar la próxima bolsa: {0}</USAC_Currency_UntilNextBag>
   <!-- EN: The target must be a mechanoid. -->
-  <MessageTargetMustBeMechanoid>TODO</MessageTargetMustBeMechanoid>
+  <MessageTargetMustBeMechanoid>El objetivo debe ser un mecanoide.</MessageTargetMustBeMechanoid>
   <!-- EN: The target must be one of your own mechanoids. -->
-  <MessageTargetMustBePlayerMech>TODO</MessageTargetMustBePlayerMech>
+  <MessageTargetMustBePlayerMech>El objetivo debe ser uno de tus propios mecanoides.</MessageTargetMustBePlayerMech>
   <!-- EN: {0} has been fully charged. -->
-  <USAC_MessageMechCharged>TODO</USAC_MessageMechCharged>
+  <USAC_MessageMechCharged>{0} se cargó por completo.</USAC_MessageMechCharged>
   <!-- EN: All damage to {0} has been repaired. -->
-  <USAC_MessageMechRepaired>TODO</USAC_MessageMechRepaired>
+  <USAC_MessageMechRepaired>Se repararon todos los daños de {0}.</USAC_MessageMechRepaired>
   <!-- EN: {0} ({1}) has moved into communications range. {2} -->
-  <TraderArrival>TODO</TraderArrival>
+  <TraderArrival>{0} ({1}) entró en el alcance de las comunicaciones. {2}</TraderArrival>
   <!-- EN: They come from {FACTION}. -->
-  <TraderArrivalFromFaction>TODO</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>Vienen de {FACTION}.</TraderArrivalFromFaction>
   <!-- EN: They belong to no known faction. -->
-  <TraderArrivalNoFaction>TODO</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>No pertenecen a ninguna facción conocida.</TraderArrivalNoFaction>
   <!-- EN: hostile outpost -->
-  <USAC_SiteLabel_HostileOutpost>TODO</USAC_SiteLabel_HostileOutpost>
+  <USAC_SiteLabel_HostileOutpost>puesto de avanzada hostil</USAC_SiteLabel_HostileOutpost>
   <!-- EN: enemy camp -->
-  <USAC_SiteLabel_EnemyCamp>TODO</USAC_SiteLabel_EnemyCamp>
+  <USAC_SiteLabel_EnemyCamp>campamento enemigo</USAC_SiteLabel_EnemyCamp>
   <!-- EN: rogue base -->
-  <USAC_SiteLabel_RogueBase>TODO</USAC_SiteLabel_RogueBase>
+  <USAC_SiteLabel_RogueBase>base renegada</USAC_SiteLabel_RogueBase>
   <!-- EN: forward post -->
-  <USAC_SiteLabel_ForwardPost>TODO</USAC_SiteLabel_ForwardPost>
+  <USAC_SiteLabel_ForwardPost>puesto avanzado</USAC_SiteLabel_ForwardPost>
   <!-- EN: resort camp -->
-  <USAC_SiteLabel_Resort>TODO</USAC_SiteLabel_Resort>
+  <USAC_SiteLabel_Resort>campamento de descanso</USAC_SiteLabel_Resort>
   <!-- EN: retreat site -->
-  <USAC_SiteLabel_Retreat>TODO</USAC_SiteLabel_Retreat>
+  <USAC_SiteLabel_Retreat>lugar de retiro</USAC_SiteLabel_Retreat>
   <!-- EN: remote lodge -->
-  <USAC_SiteLabel_Lodge>TODO</USAC_SiteLabel_Lodge>
+  <USAC_SiteLabel_Lodge>refugio remoto</USAC_SiteLabel_Lodge>
   <!-- EN: frontier outpost -->
-  <USAC_SiteLabel_Outpost>TODO</USAC_SiteLabel_Outpost>
+  <USAC_SiteLabel_Outpost>puesto de avanzada fronterizo</USAC_SiteLabel_Outpost>
   <!-- EN: hostile camp -->
-  <USAC_SiteLabel_HostileCamp>TODO</USAC_SiteLabel_HostileCamp>
+  <USAC_SiteLabel_HostileCamp>campamento hostil</USAC_SiteLabel_HostileCamp>
   <!-- EN: hostile base -->
-  <USAC_SiteLabel_HostileBase>TODO</USAC_SiteLabel_HostileBase>
+  <USAC_SiteLabel_HostileBase>base hostil</USAC_SiteLabel_HostileBase>
   <!-- EN: Cover-up successful -->
-  <USAC_LetterLabelCoverup>TODO</USAC_LetterLabelCoverup>
+  <USAC_LetterLabelCoverup>Encubrimiento exitoso</USAC_LetterLabelCoverup>
   <!-- EN: {0} covered for your operation. Several outposts were attacked and destroyed by {1}, and nothing ever pointed back to you. The elimination was a complete success. -->
-  <USAC_LetterTextCoverup>TODO</USAC_LetterTextCoverup>
+  <USAC_LetterTextCoverup>{0} encubrió tu operación. {1} atacó y destruyó varios puestos de avanzada, y nada apuntó nunca hacia ti. La eliminación fue un éxito total.</USAC_LetterTextCoverup>
   <!-- EN: Cover-up successful -->
-  <USAC_Coverup>TODO</USAC_Coverup>
+  <USAC_Coverup>Encubrimiento exitoso</USAC_Coverup>
   <!-- EN: The emergency siren cuts through the roar of reentry. USAC has already written this loss off as acceptable risk.
 
 You are four survivors, each from a different contract chain: inherited debt, automation layoffs, penal security work, and frontier hazard labor. Supplies are short, support is gone, and every promise ever made to you now depends on what you can build and defend on this rimworld. -->
-  <USAC_FourPersonStart_GameStartDialog>TODO</USAC_FourPersonStart_GameStartDialog>
+  <USAC_FourPersonStart_GameStartDialog>La sirena de emergencia atraviesa el rugido de la reentrada. La USAC ya registró esta pérdida como un riesgo aceptable.\n\nSon cuatro sobrevivientes, cada uno de una cadena de contratos distinta: deuda heredada, despidos por automatización, trabajo penal de seguridad y trabajo de riesgo en la frontera. Los suministros escasean, el apoyo desapareció, y cada promesa que alguna vez les hicieron depende ahora de lo que puedan construir y defender en este mundoborde.</USAC_FourPersonStart_GameStartDialog>
   <!-- EN: USAC asset protection operation -->
-  <USAC_DebtSite_CommercialRaid>TODO</USAC_DebtSite_CommercialRaid>
+  <USAC_DebtSite_CommercialRaid>Operación de protección de activos de la USAC</USAC_DebtSite_CommercialRaid>
   <!-- EN: Intelligence gathered at a USAC commercial site shows that it sold details of the weak points in your defenses, baiting a pirate assault on your colony. -->
-  <USAC_DebtSite_CommercialRaid_Desc>TODO</USAC_DebtSite_CommercialRaid_Desc>
+  <USAC_DebtSite_CommercialRaid_Desc>La inteligencia reunida en un sitio comercial de la USAC muestra que vendió detalles de los puntos débiles de tus defensas, para provocar un asalto pirata contra tu colonia.</USAC_DebtSite_CommercialRaid_Desc>
   <!-- EN: Artillery spotters detected at a USAC site... -->
-  <USAC_DebtSite_ArtilleryStrike>TODO</USAC_DebtSite_ArtilleryStrike>
+  <USAC_DebtSite_ArtilleryStrike>Se detectaron observadores de artillería en un sitio de la USAC...</USAC_DebtSite_ArtilleryStrike>
   <!-- EN: Aerial spotters detected at a USAC airfield... -->
-  <USAC_DebtSite_AirStrike>TODO</USAC_DebtSite_AirStrike>
+  <USAC_DebtSite_AirStrike>Se detectaron observadores aéreos en un aeródromo de la USAC...</USAC_DebtSite_AirStrike>
   <!-- EN: Incoming artillery -->
-  <USAC_ArtillerySupport_LetterLabel>TODO</USAC_ArtillerySupport_LetterLabel>
+  <USAC_ArtillerySupport_LetterLabel>Artillería entrante</USAC_ArtillerySupport_LetterLabel>
   <!-- EN: A USAC artillery position nearby has answered the assault on your colony. Its spotters have marked your settlement, and bombardment is on its way. Take cover! -->
-  <USAC_ArtillerySupport_LetterText>TODO</USAC_ArtillerySupport_LetterText>
+  <USAC_ArtillerySupport_LetterText>Una posición de artillería de la USAC cercana respondió al asalto contra tu colonia. Sus observadores marcaron tu asentamiento, y el bombardeo ya viene en camino. ¡Ponte a cubierto!</USAC_ArtillerySupport_LetterText>
   <!-- EN: Incoming airstrike -->
-  <USAC_AirbaseSupport_LetterLabel>TODO</USAC_AirbaseSupport_LetterLabel>
+  <USAC_AirbaseSupport_LetterLabel>Ataque aéreo entrante</USAC_AirbaseSupport_LetterLabel>
   <!-- EN: A temporary USAC airfield nearby has sent a tactical bomber wing to your coordinates in support of the ground offensive. The strike is seconds from the target area! -->
-  <USAC_AirbaseSupport_LetterText>TODO</USAC_AirbaseSupport_LetterText>
+  <USAC_AirbaseSupport_LetterText>Un aeródromo temporal de la USAC cercano envió un ala de bombarderos tácticos a tus coordenadas en apoyo de la ofensiva terrestre. ¡El ataque está a segundos de la zona objetivo!</USAC_AirbaseSupport_LetterText>
   <!-- EN: Pay USAC registration fee for {0} ({1} bonds) -->
-  <USAC_MechOrder_Register>TODO</USAC_MechOrder_Register>
+  <USAC_MechOrder_Register>Pagar la tarifa de registro USAC de {0} ({1} bonos)</USAC_MechOrder_Register>
   <!-- EN: Not enough bonds: {0}/{1} -->
-  <USAC_MechOrder_NoFunds>TODO</USAC_MechOrder_NoFunds>
+  <USAC_MechOrder_NoFunds>Bonos insuficientes: {0}/{1}</USAC_MechOrder_NoFunds>
   <!-- EN: {0} registered with USAC. Drop pod inbound ({1} bonds spent). -->
-  <USAC_MechOrder_Registered>TODO</USAC_MechOrder_Registered>
+  <USAC_MechOrder_Registered>{0} quedó registrado en la USAC. Cápsula de escape en camino ({1} bonos gastados).</USAC_MechOrder_Registered>
 </LanguageData>
