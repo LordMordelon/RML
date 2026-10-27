@@ -228,6 +228,31 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | Enlightened World | **mundoilustrado** | Angel, 26-oct-2026 | Sin equivalente oficial: los mundos avanzados de donde vienen las flotas. Armado como los del juego (*glitterworld*, «mundobrillante»): una palabra y minúscula; «ilustrado» por la Ilustración (*the Enlightenment*). Un solo uso (`DMSE_FusionCore`), en plural: «los mundoilustrados» |
 | pre-spacer planets | **planetas anteriores a la era espacial** | propuesta | |
 
+## Estructuras, materiales, equipo y armas (segunda mitad de los `ThingDef`, 26-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| platform hull / substructure | **casco de plataforma** / **subestructura** | propuesta + oficial | Como «casco de gravinave», oficial |
+| large / small structural pile | **pilote estructural grande** / **pequeño** | propuesta | *link range*: «alcance de enlace»; *prebuilt*: «prefabricada» |
+| aerospike engine / nozzle | **motor aerospike** / **tobera** | propuesta | «toberas de Laval» |
+| vacuum pump / vacuum sealing facility wall | **bomba de vacío** / **muro de instalación sellada al vacío** | propuesta | |
+| plasticfiber | **fibra plástica** | propuesta | |
+| room exit / filled entrance | **salida de la sala** / **entrada rellena** | propuesta | *deconstruct*: «desarmar», oficial |
+| vacuum burns | **quemaduras de vacío** | oficial | |
+| Midsphere World | **los mundomedios** | oficial | El *midworld* del juego, como «mundoborde» |
+| spacer worlds | **mundos espaciales** | oficial | *spacer*: «espacial» |
+| carbon fiber (adjetivo del grafeno) | **fibra de carbono** | propuesta | Va sin «de», como «acero» y «hipertejido» en la oficial |
+| Uniform / Uniform Cap | **uniforme** / **gorra de uniforme** | propuesta | |
+| Orbital Rangers / Orbital Dragoons / Colonial Fleet Marines | **Rangers Orbitales** / **Dragones Orbitales** / **infantes de marina de la Flota Colonial** | propuesta | El casco: «casco de ranger orbital» |
+| EVA | **actividades extravehiculares** | propuesta | Pareja de IVA, «actividad intravehicular» |
+| heavy exoskeletal unit | **unidad exoesquelética pesada** | propuesta | BigSister queda tal cual |
+| laser designation / designation beam / designate | **designación láser** / **haz de designación** / **designar** | propuesta | |
+| caseless assault rifle / pistol / auto pistol | **fusil de asalto sin vaina** / **pistola sin vaina** / **pistola automática sin vaina** | propuesta + CE | |
+| caseless light machinegun / caseless defense firearm | **LMG sin vaina** / **arma de defensa sin vaina** | familia | LMG como en `ARMAS-DMS.md`; PDW se explica en la descripción |
+| bullet (cook-off) | **(detonación por calor)** | propuesta | «bala 5x50mm sin vaina (detonación por calor)» |
+| PELE-Tungsteel | **PELE-tungstanio** | familia | *tungsteel*: «tungstanio» (DMS). PELE se explica en la descripción |
+| large / medium / small fragments | **fragmentos grandes** / **medianos** / **pequeños** | propuesta | |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se
