@@ -89,6 +89,19 @@ chasis de un meca); las mayúsculas y el género de las palabras sueltas.
 
 Esto sí se ve en el juego: la regla falla o sale el símbolo entre corchetes.
 
+**Hecho el 27-oct-2026, salvo Alpha Books**, que sigue esperando una mirada en el juego. Un commit por mod:
+
+- DMS de 1.6: las 44 reglas con su guion, y los símbolos vuelven al nombre del inglés (`Type`, `Number`,
+  `MechType`, `MechAdj`, `MechVerb`, `Mech`). Ninguna traducción cambió.
+- Ascension Megacorp: «[corpGod] de [memeConcept]», como arma la oficial «[god] de [memeConcept]».
+- VSIE: las cinco opciones de `commentedabout` en los 12 archivos. Los pensamientos con «lo/la» detrás de una
+  preposición eran 10, no 3: van con «le» o con el pronombre delante del verbo («siempre le estaré en deuda»,
+  «nunca lo perdonaré»), que no dependen del género.
+- Insectoids 2: `insectoid_masc` con sus cinco opciones, y «Voraz», que faltaba también en `insectoid_fem`.
+- Hospitality: `adjwords_m` («gestos intrigantes, amistosos…»).
+- Deserters: «y un escuadrón de lealtad le sigue los pasos», sin género. La oficial define `[asker_o_a]` en
+  `GlobalUtility`, pero ninguna traducción lo usa y no se probó.
+
 | Mod | Archivo | Qué pasa |
 |---|---|---|
 | DMS de 1.6 (3121742525) | `QuestScriptDef/1vu7a5.xml`, `3opti5.xml`, `reqdcf.xml`; `RulePackDef/1ezexq.xml` y `ft1lfo.xml` | 44 reglas con `&gt;` sin el guion (`manufacture&gt;…`): no son reglas |
