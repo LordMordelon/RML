@@ -387,21 +387,56 @@ def _completar_es(alts):
     return salida
 
 
+def _columnas(cabecera):
+    """Pares (ingles, español) de columnas segun el encabezado de la tabla. Los glosarios de RML usan
+    «Inglés | Español», pero tambien «Sigla | Nombre en inglés | Español», «Inglés | Singular | Plural»,
+    «Inglés | Masculino | Femenino» y dos pares en la misma fila. Una tabla sin esas columnas no es de
+    terminos («Opción | Cómo queda»)."""
+    n = [norm(c) for c in cabecera]
+    pares = []
+    for i, c in enumerate(n):
+        if c.startswith("ingles") or c.startswith("serie (ingles") or c == "nombre en ingles":
+            for j in range(i + 1, len(n)):
+                if n[j].startswith("espanol") or n[j] in ("singular", "masculino"):
+                    pares.append((i, j))
+                    break
+                if n[j].startswith("ingles"):
+                    break
+    return pares
+
+
+def _separador(linea):
+    return linea.startswith("|") and set(linea.strip()) <= set("|-: ")
+
+
 def leer_glosario(md):
-    """Las filas «| ingles | **español** | ...» de un glosario. Las alternativas «a / b» se emparejan si son
-    tantas de un lado como del otro; si no, cada ingles acepta cualquiera de las traducciones."""
-    terminos = []
-    for linea in md.splitlines():
-        if not linea.startswith("|") or set(linea.strip()) <= set("|-: "):
+    """Las filas de terminos de un glosario: por el encabezado de cada tabla se sabe que columna es el
+    ingles y cual el español. En el español manda lo que va en negrita; si la celda no tiene negrita
+    (RimPacts, Alpha Prefabs, Combat Extended), la celda entera. Las alternativas «a / b» se emparejan si
+    son tantas de un lado como del otro; si no, cada ingles acepta cualquiera de las traducciones."""
+    terminos, lineas, pares = [], md.splitlines(), []
+    filas = []
+    for k, linea in enumerate(lineas):
+        if not linea.startswith("|"):
+            pares = []
+            continue
+        if _separador(linea):
             continue
         celdas = [c.strip() for c in linea.strip().strip("|").split("|")]
-        if len(celdas) < 2 or norm(celdas[0]) in ("ingles", "english"):
+        if k + 1 < len(lineas) and _separador(lineas[k + 1]):
+            pares = _columnas(celdas)
             continue
-        # «(detonación por calor)» traduce solo el parentesis del ingles: no es un termino que buscar
-        es_alts = [x for x in re.findall(r"\*\*(.+?)\*\*", celdas[1]) if not x.startswith("(")]
+        filas += [(celdas[i], celdas[j]) for i, j in pares if j < len(celdas)]
+    for celda_en, celda_es in filas:
+        if "**" in celda_es:
+            # «(detonación por calor)» traduce solo el parentesis del ingles: no es un termino que buscar
+            es_alts = [x for x in re.findall(r"\*\*(.+?)\*\*", celda_es) if not x.startswith("(")]
+        else:
+            limpia = re.sub(r"\(.*?\)|`|«|»|\"", "", celda_es)
+            es_alts = [x.strip() for x in re.split(r"\s*/\s*", limpia) if x.strip()]
         if not es_alts:
             continue
-        en = re.sub(r"\(.*?\)|`|\*|«|»|\"", "", celdas[0])
+        en = re.sub(r"\(.*?\)|`|\*|«|»|\"|[^\w\s/\-'.&]", "", celda_en)
         en_alts, completadas = _completar_en([a.strip() for a in re.split(r"\s*/\s*", en) if a.strip()])
         # La abreviatura no siempre se reconoce («handwheels / optical sight» son dos terminos): el español
         # completado se acepta ademas del original, nunca en su lugar, para no inventar un aviso
@@ -413,6 +448,10 @@ def leer_glosario(md):
             palabras = re.findall(r"[A-Za-z0-9]+", en_t)
             if "…" in en_t or "..." in en_t or len(en_t) < 3 or not es_l or not palabras:
                 continue
+            # «union → unión cliente»: con una sola palabra en ingles, el sustantivo del español (la primera)
+            # tambien vale, porque el ingles suelto no siempre lleva el resto
+            if len(palabras) == 1:
+                es_l = list(dict.fromkeys(es_l + [x.split()[0] for x in es_l if len(x.split()) > 1]))
             regs = [r for r in map(_re_es, es_l) if r]
             if regs:
                 # Palabra entera, con su plural: «EMP» no tiene que encontrar «employed», ni «EVA», «evaded»
@@ -429,8 +468,17 @@ def terminos(entradas, glosario):
         if e.valor == "TODO" or not e.en:
             continue
         es = norm(e.valor)
+        cumplidos, faltan = [], []
         for t in glosario:
-            if t.re_en.search(e.en) and not any(r.search(es) for r in t.re_es):
+            # «heat» (calor) no es «HEAT» (la sigla de la municion): un termino en minuscula no busca
+            # su forma toda en mayusculas
+            m = [x for x in t.re_en.findall(e.en) if not (t.en.islower() and x.isupper() and len(x) > 1)]
+            if m:
+                (cumplidos if any(r.search(es) for r in t.re_es) else faltan).append(t)
+        for t in faltan:
+            # «shell» es «obús», pero en «shotgun shell» manda «cartucho de escopeta»: si un termino mas
+            # largo que lo contiene se cumple, el corto no avisa
+            if not any(t.en.lower() in c.en.lower() and len(c.en) > len(t.en) for c in cumplidos):
                 avisos.setdefault(t, []).append(e.clave)
     return avisos
 
@@ -469,12 +517,18 @@ def buscar_mod(nombre):
         return os.path.abspath(p)
     candidatos = [c for c in carpetas_de_mods()
                   if os.path.basename(c).lower().startswith(nombre.lower()) or c.endswith(" - " + nombre)]
-    exactos = [c for c in candidatos if os.path.basename(c).lower() == nombre.lower()]
+    exactos = [c for c in candidatos if os.path.basename(c).lower() == nombre.lower()
+               or re.fullmatch(re.escape(nombre.lower()) + r" - \d+", os.path.basename(c).lower())]
+    # Un mod con ajustes tiene dos carpetas con el mismo nombre: la de Data/ es la traduccion; la de
+    # Ajustes/ se pide por su ruta
+    en_data = [c for c in exactos if os.path.relpath(c, RAIZ).startswith("Data")]
+    if len(exactos) > 1 and len(en_data) == 1:
+        return en_data[0]
     if len(exactos) == 1 or len(candidatos) == 1:
         return (exactos or candidatos)[0]
     if not candidatos:
         raise Error(f"no hay ninguna carpeta de mod que empiece con «{nombre}»")
-    raise Error(f"«{nombre}» es ambiguo:\n  " + "\n  ".join(os.path.basename(c) for c in candidatos))
+    raise Error(f"«{nombre}» es ambiguo:\n  " + "\n  ".join(os.path.relpath(c, RAIZ) for c in candidatos))
 
 
 def leer_mod(carpeta):

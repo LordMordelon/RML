@@ -250,6 +250,19 @@ class Glosario(unittest.TestCase):
         "| Scorer | **tal cual** | — | |",
         "| … missile body | **cuerpo de misil …** | propuesta | |",
     ])
+    CABECERA = "| Inglés | Español | Origen |\n|---|---|---|\n"
+
+    def test_sin_negrita_y_por_columnas(self):
+        # RimPacts, Alpha Prefabs y Combat Extended no marcan el español en negrita; una tabla «Sigla |
+        # Nombre en inglés | Español» tiene el ingles en la segunda columna; «Opción | ...» no es de terminos
+        md = "\n".join([
+            "| Inglés | Español | Origen | Notas |", "|---|---|---|---|",
+            "| quarter / quadrum (15 días) ✔ | cuadrun / cuadrunes | oficial | nota |",
+            "", "| Sigla | Nombre en inglés | Español | Origen |", "|---|---|---|---|",
+            "| FMJ | full metal jacket | blindada | propuesta |",
+            "", "| Opción | Cómo queda | A favor |", "|---|---|---|", "| A | algo | sí |"])
+        self.assertEqual([(t.en, t.es) for t in T.leer_glosario(md)],
+                         [("quarter", ("cuadrun",)), ("quadrum", ("cuadrunes",)), ("full metal jacket", ("blindada",))])
 
     def test_lee_las_filas(self):
         g = T.leer_glosario(self.MD)
@@ -257,18 +270,26 @@ class Glosario(unittest.TestCase):
         self.assertEqual(ingles, ["light missile", "loitering munition", "missile"])
 
     def test_completa_las_abreviaturas(self):
-        g = T.leer_glosario("| large / medium / small fragments | **fragmentos grandes** / **medianos** / **pequeños** | x |\n"
+        g = T.leer_glosario(self.CABECERA + "| large / medium / small fragments | **fragmentos grandes** / **medianos** / **pequeños** | x |\n"
                             "| bullet (cook-off) | **(detonación por calor)** | x |")
         self.assertEqual([(t.en, t.es) for t in g], [("large fragments", ("fragmentos grandes",)),
                          ("medium fragments", ("fragmentos medianos", "medianos")),
                          ("small fragments", ("fragmentos pequeños", "pequeños"))])
 
     def test_palabra_entera_con_plural(self):
-        g = T.leer_glosario("| EMP | **PEM** | oficial |\n| loitering munition | **munición merodeadora** | x |")
+        g = T.leer_glosario(self.CABECERA + "| EMP | **PEM** | oficial |\n| loitering munition | **munición merodeadora** | x |")
         ent = [T.Entrada("a", 0, "It is employed in EMP grenades", "Se usa en granadas", None),
                T.Entrada("b", 0, "Two loitering munitions", "Dos municiones merodeadoras", None),
                T.Entrada("c", 0, "Employed widely", "Muy usado", None)]
         self.assertEqual({t.en: c for t, c in T.terminos(ent, g).items()}, {"EMP": ["a"]})
+
+    def test_el_termino_largo_manda_y_la_sigla_no_es_la_palabra(self):
+        g = T.leer_glosario(self.CABECERA + "| shell | **obús** | oficial |\n| shotgun shell | **cartucho de escopeta** | x |\n"
+                            "| heat | **calor** | oficial |")
+        ent = [T.Entrada("a", 0, "12 gauge shotgun shell", "cartucho de escopeta 12 Gauge", None),
+               T.Entrada("b", 0, "90mm cannon shell (HEAT)", "obús de cañón 90mm (HEAT)", None),
+               T.Entrada("c", 0, "Cannon shell", "Cartucho", None)]
+        self.assertEqual({t.en: c for t, c in T.terminos(ent, g).items()}, {"shell": ["c"]})
 
     def test_avisa_solo_lo_que_falta(self):
         g = T.leer_glosario(self.MD)

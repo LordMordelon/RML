@@ -184,12 +184,19 @@ byte** al de git, sin avisos. Las 8.907 `TODO` de RML quedan reconocidas, todas 
 | Los `<li>` de `Patches` | 194 contados como traducibles, pero casi todos son nombres de mods | Un `<li>` sin comentario en inglés justo arriba no es una entrada |
 | `terminos` con el glosario tal cual | En Expedition daba 253 avisos: los glosarios abrevian («large / medium / small fragments»), «EMP» encontraba «employed», «municiones» no era «munición» | Completa las abreviaturas, busca palabras enteras con su plural y saca la raíz del plural en «-es»: 56 avisos, casi todos para mirar |
 | `aplicar` y `corregir` sin el mod | El comando necesita saber en qué carpeta buscar | `aplicar <mod> <tabla>` y `corregir <mod> <cambios>` |
+| `terminos` solo leía el español en negrita | 5 glosarios no usan negrita (RimPacts, Alpha Prefabs, Buffs 'n Nerfs y los dos de Combat Extended): con ellos no revisaba nada y no avisaba | Lee el encabezado de cada tabla para saber qué columna es el inglés y cuál el español («Sigla \| Nombre en inglés \| Español», «Inglés \| Singular \| Plural»…) y, sin negrita, toma la celda entera |
+| Palabras con dos sentidos | En Combat Extended, «shell» (obús) avisaba en cada «shotgun shell» (cartucho de escopeta) y «heat» en cada «HEAT» | Si en el mismo texto se cumple un término más largo que contiene al corto, el corto no avisa; un término en minúscula no busca su sigla en mayúsculas |
 | La tabla vieja recortaba espacios | Las entradas que los necesitaban pedían una copia del script | Se conservan, y un espacio al principio o al final que el inglés no tiene sale como aviso |
 
 **Errores en las herramientas viejas**, corregidos en la copia de `Herramientas/oficial/`: `oficial.py` guardaba
 la etiqueta de cada ataque con la clave de su arma, y «barrel» salía como oficial «LMG»; `buscar.py` no rehacía
 su caché de RML y su uso nombraba una variable `EXCLUIR` que no existe. Queda una limitación conocida: no
 encuentra las partes del cuerpo de la oficial («left lung»), que se siguen buscando a mano.
+
+**Cuánto avisa `terminos` hoy** (todo el mod, no una tanda): Expedition 35, Alpha Prefabs 48, RimPacts 191 y
+Combat Extended 1.114. En Combat Extended casi todo es ruido de filas que el comando no puede leer bien
+(«gauge shell → cartucho … Gauge», «magnum» emparejado con «revólver»): ahí los avisos de términos sirven poco.
+En una tanda de 80 entradas salen unos pocos.
 
 **Lo que salió de paso en RML**, sin tocar (para decidir aparte):
 
@@ -208,7 +215,7 @@ encuentra las partes del cuerpo de la oficial («left lung»), que se siguen bus
 gramática y dos `Patches` de Combat Extended), de `tabla` a `aplicar` sin tocar nada a mano. El informe salió
 limpio y el diff solo cambia los `TODO`, con los finales de renglón iguales a la copia de antes.
 
-**Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; cambiar la ruta en `PLAN-AOBAKUMA.md` y `PLAN-HEGEMONY.md`,
+**Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; cambiar la ruta en `PLAN-AOBAKUMA.md`, `PLAN-HEGEMONY.md`, `PLAN-ALPHA-PREFABS.md` y `PLAN-RIMPACTS.md`,
 que hoy edita otra sesión; y borrar `herramientas-traduccion/` cuando Angel confirme que ninguna sesión la usa.
 
 ## Etapa 2 (opcional): informe de términos viejos
