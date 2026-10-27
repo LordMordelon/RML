@@ -366,43 +366,38 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (26-oct-2026, novena)
+## Próxima sesión (27-oct-2026, décima)
 
-**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, primera de cuatro sesiones: el `Keyed` (la terminal).
+**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, segunda sesión: el `ThingDef` y las fichas del catálogo.
 
-**Estado:** The Dead Man's Switch - Expedition está **terminado**: recetas en `d555b331`, investigación y lo demás (más
-los 5 textos de `Patches/`) en `d583c0e5`, y una corrección en `136b5514` (el cañón antiaéreo antiguo nombra la
-investigación oficial «manejo de gas»). Sin `TODO` en todo el mod; `revisar.py`, los términos, las tres comprobaciones
-del diff y `-build` salieron limpios. Los términos nuevos están en «Recetas, investigación y lo demás» de
-`GLOSARIO-EXPEDITION.md`. `master` de RML tiene 6 commits sin subir (y el remoto, 1 que no está en local), más esta
-nota. `ModList.tsv` y `docs/index.html` siguen modificados por `-build`, sin commitear: los rehace la CI.
+**Estado:** el `Keyed` de Ascension (la terminal) está **terminado** en una sola sesión, no en dos: 392 entradas en tres
+commits (`fbc30ad5`, `1f2c47ef`, `bb333188`), y los términos nuevos en «La terminal» de `GLOSARIO-USAC.md`
+(commit siguiente). Las tres comprobaciones del diff y `revisar` salieron limpios. Quedan 963 `TODO` en el mod (contados;
+22 son campos con clave, que se quedan). `master` de RML tiene 25 commits sin subir (y el remoto, 1 que no está en
+local), más esta nota. `ModList.tsv` y `docs/index.html` siguen modificados por `-build`, sin commitear: los rehace la CI.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, probar Expedition en el juego: las recetas del centro de fabricación de precisión, el árbol de
-   investigación y el nombre de una misión de ataque (sale como «Operación Martillo Carmesí» o parecido).
+2. Si puedes, abrir la terminal de la USAC en el juego (desde la consola de comunicaciones) y mirar si algún rótulo se
+   corta: los de la ficha van enteros y en mayúsculas, como «PENETRACIÓN_DE_ARMADURA», aunque el inglés abrevie.
 
 **Al empezar (Claude):**
-1. Ascension tiene 1.327 `TODO` en `Languages/` (contados; 22 son campos con clave, que se quedan) y 28 en `Patches/`.
-   Esta sesión: el `Keyed/85zkm3.xml`, 392 entradas, en dos o tres tandas con `traducir.py tabla` y `aplicar`. Puede que no
-   quepa entero: la sugerencia del plan son dos sesiones para el `Keyed`.
-2. Glosario: `GLOSARIO-USAC.md` (USAC se explica una vez por descripción; rótulos de la terminal con el código en
-   inglés y lo de después de `//` traducido; apodos de mecas «M7 cobalto», «M88 rocky»).
-3. Herramientas: `python -I Herramientas/traducir.py` (desde `RML/`). `aplicar` guarda sola la copia de antes, y
-   `terminos` ya lee `GLOSARIO-USAC.md`, que está en la carpeta del mod; los de la familia se suman con `--glosario`.
-4. `aplicar` llena una lista de reglas de gramática entera cuando cada `<li>` tiene su inglés; la que no puede
-   emparejar sale en la tabla para hacerla a mano.
-5. Al terminar cada tanda: el informe de `aplicar` (revisión, términos y las tres comprobaciones del diff); un commit
-   por tanda.
+1. `DefInjected/ThingDef/f26qrt.xml`: 182 entradas, 2015 palabras. Armas con las reglas de `ARMAS-DMS.md` y la memoria
+   «armas al estilo del juego»; siglas (GPMG, DMR, SDA, HESCO) con la fórmula del glosario en la descripción.
+2. `DefInjected/USAC.USACProductDef/86kavs.xml`: 52 fichas, 1046 palabras; el nombre de cada producto, igual que su
+   `ThingDef`. Las dos partes suman unas 3000 palabras y caben en una sesión (esta hizo 4677).
+3. Por tanda: `traducir.py tabla` con `--archivo ThingDef` (o `USACProductDef`), `aplicar`, el informe y un commit.
+4. Los avisos de términos «credit bond sin bono(s) de crédito» son falsos: el glosario escribe «(s)».
 
-**Decisiones de Angel:** ninguna pendiente. Dos cosas resueltas en Expedition que conviene que mires: la descripción
-y el texto de inicio del escenario «El disidente», donde el autor dejó «todo», van con el resumen del escenario; y la
-descripción de las recetas de grafeno con madera dice «a partir de madera», aunque el inglés diga «quimbustible y
-madera» (la receta solo usa madera).
+**Decisiones de Angel:** ninguna pendiente. Tres cosas resueltas en el `Keyed` que conviene que mires: «Vanilla» queda
+sin traducir en el ajuste del mod («la consola de comunicaciones de Vanilla»); el contrato de usuario y las cartas van
+con tuteo, como el resto de RML; y las tres claves del juego que el mod reemplaza (`TraderArrival` y sus dos
+compañeras) van traducidas del inglés del mod, que no es el del juego.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 5, punto 6, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
-`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
+**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
+`The Dead Man's Switch - 3819799478/ARMAS-DMS.md`, `Herramientas/traducir.py` (cómo se usa cada orden, al principio
+del archivo) y `Herramientas/oficial/`.
