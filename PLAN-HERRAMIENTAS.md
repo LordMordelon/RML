@@ -1,6 +1,7 @@
 # Plan: un comando para traducir con tabla
 
-Borrador del 26-oct-2026, **para aprobar**. No se escribe código hasta el «Aprobado» de Angel.
+26-oct-2026. **Aprobado por Angel el mismo día**: las seis decisiones de abajo como se recomiendan, con la
+etapa 2 para después de la etapa 1.
 
 ## En simple
 
@@ -43,7 +44,10 @@ Expedition, unas 3.000 entradas sin un error que llegara al juego.
   renglones. Esas no se pueden emparejar con seguridad.
 - **`Patches/`**: todas las etiquetas se llaman igual (`<label>TODO</label>`). Lo que las distingue es el
   `xpath` de su operación. En las 2.868 entradas de `Patches` de RML, `xpath` + campo **no se repite nunca**,
-  así que sirve de nombre. Hay además 194 `<li>` dentro de operaciones de `Patches`.
+  así que sirve de nombre. Hay además 194 `<li>` dentro de `Patches`: casi todos son nombres de mods
+  (`<mods><li>Royalty</li>`), que no se traducen, y 69 son reglas de gramática con su comentario en inglés
+  justo encima de cada `<li>` (en `DefInjected`, en cambio, los comentarios van todos juntos arriba de la
+  lista). Un `<li>` sin comentario en inglés no es una entrada y no se toca nunca.
 
 En Expedition, la otra sesión hizo a mano las 37 reglas de gramática y los 5 textos de `Patches`.
 
@@ -97,13 +101,13 @@ por su número del Workshop, como en `RimworldExtractorLotes`.
 |---|---|---|
 | `estado [mod]` | Cuántos `TODO` hay, por mod o por archivo, y cuántas palabras de inglés | conteos a mano |
 | `tabla <mod> [archivo] [--palabras N]` | Escribe la tabla para llenar: encabezado por archivo, el inglés arriba de cada renglón y la clave con la traducción vacía. Corta en tandas de unas N palabras | `pendientes.py` y los programas de cada sesión |
-| `aplicar <tabla>` | Guarda una copia de cada archivo, copia la tabla solo sobre `TODO` y corre `revisar`, `terminos` y `comprobar` con un solo informe | `aplicar.py` + la copia a mano + las revisiones sueltas |
-| `revisar <mod> [--contra copia\|HEAD]` | Que fuera de los `TODO` no cambió ni un byte, y que cada traducción conserve los marcadores y los saltos del inglés. Sirve también después de editar a mano | `revisar.py` |
+| `aplicar <mod> <tabla>` | Guarda una copia de cada archivo, copia la tabla solo sobre `TODO` y corre `revisar`, `terminos` y `comprobar` con un solo informe | `aplicar.py` + la copia a mano + las revisiones sueltas |
+| `revisar <mod> [--contra copia\|HEAD]` | Que fuera de los `TODO` no cambió ni un byte, y que cada traducción conserve lo del inglés (qué frena y qué avisa: «Avance»). Sirve también después de editar a mano | `revisar.py` |
 | `terminos <mod> [--glosario ruta]...` | Lee los `GLOSARIO*.md` del mod (y los de la familia que se le pasen) y avisa cuando el inglés usa un término y el español no usa el acordado. Resume por término | `terminos.py` y sus copias |
 | `comprobar` | Las tres comprobaciones del diff de `AGENTS.md`, con los mismos comandos | copiarlas cada vez |
 | `prueba <mod> --desde <commit>` | La lista de nombres nuevos para mirar en el juego, agrupada (edificios, armas, investigación…) | armarla a mano |
 | `lineas <copia> <archivo>` | Devuelve a LF los renglones que Edit pasó a CRLF | `fin-de-linea.py` |
-| `corregir <cambios> <mod>` | Cambia valores ya traducidos por clave, comprobando el valor viejo (para correcciones de términos) | `corregir.py` |
+| `corregir <mod> <cambios>` | Cambia valores ya traducidos por clave, comprobando el valor viejo (para correcciones de términos) | `corregir.py` |
 
 `oficial/` (buscar en la traducción oficial y cotejar un glosario) se copia tal cual, con las cachés fuera de
 git, y la de RML se rehace sola cuando hay traducciones más nuevas que ella.
@@ -163,6 +167,46 @@ Antes que el código, como pide la forma de trabajo:
 | Una lista emparejada mal (traducción en el elemento equivocado) | Solo empareja si los números coinciden; si no, a mano |
 | Avisos de términos que no son errores (ruido) | Resumen por término en vez de uno por entrada; los avisos son para mirar, no bloquean |
 | La nube no tiene Python o se llama `python3` | Se documentan los dos nombres; el comando no usa bibliotecas de afuera |
+
+## Avance (26-oct-2026)
+
+**Etapa 1 hecha en la misma sesión del plan**, sin subir: `Herramientas/traducir.py`, sus pruebas
+(`Herramientas/pruebas/`, 26 en verde), `Herramientas/oficial/` y `herramientas.yml`. Rehacer las dos mitades de
+los `ThingDef` de Expedition (339 entradas) con las tablas de esas sesiones da un resultado **idéntico byte a
+byte** al de git, sin avisos. Las 8.907 `TODO` de RML quedan reconocidas, todas con su inglés.
+
+**Errores del plan que salieron al construirlo y medirlo contra RML**, ya corregidos en el comando:
+
+| Error | Cómo se vio | Arreglo |
+|---|---|---|
+| La revisión frenaba por cualquier marcador distinto | Sobre las 105.507 traducciones de RML frenaba 1.273 que están bien: el español saca con razón `[PAWN_pronoun]` (936) y traduce palabras entre corchetes («[Overloaded]» → «[Sobrecargado]») | Frena solo lo que se ve roto en el juego: una `{llave}` que el inglés no tiene (salvo las de género, `{X_gender ? a : b}`), un color sin cerrar, una regla sin su `simbolo->`, un cambio fuera de un `TODO`. Lo demás avisa. Con eso no frena ninguna traducción nueva correcta |
+| Emparejar listas por posición | En listas ya traducidas el orden del español no siempre sigue al de los comentarios (`ArtDescriptionUtility_Global`: el 32 es «subimageany->» en inglés y «artextra_clause->» en español) | Una lista con elementos traducidos y `TODO` mezclados va a mano. Hoy las 26 listas con `TODO` de RML están enteras en `TODO` |
+| Los `<li>` de `Patches` | 194 contados como traducibles, pero casi todos son nombres de mods | Un `<li>` sin comentario en inglés justo arriba no es una entrada |
+| `terminos` con el glosario tal cual | En Expedition daba 253 avisos: los glosarios abrevian («large / medium / small fragments»), «EMP» encontraba «employed», «municiones» no era «munición» | Completa las abreviaturas, busca palabras enteras con su plural y saca la raíz del plural en «-es»: 56 avisos, casi todos para mirar |
+| `aplicar` y `corregir` sin el mod | El comando necesita saber en qué carpeta buscar | `aplicar <mod> <tabla>` y `corregir <mod> <cambios>` |
+| La tabla vieja recortaba espacios | Las entradas que los necesitaban pedían una copia del script | Se conservan, y un espacio al principio o al final que el inglés no tiene sale como aviso |
+
+**Errores en las herramientas viejas**, corregidos en la copia de `Herramientas/oficial/`: `oficial.py` guardaba
+la etiqueta de cada ataque con la clave de su arma, y «barrel» salía como oficial «LMG»; `buscar.py` no rehacía
+su caché de RML y su uso nombraba una variable `EXCLUIR` que no existe. Queda una limitación conocida: no
+encuentra las partes del cuerpo de la oficial («left lung»), que se siguen buscando a mano.
+
+**Lo que salió de paso en RML**, sin tocar (para decidir aparte):
+
+- **44 reglas de gramática rotas** en The Dead Man's Switch de 1.6 (`3121742525`): perdieron el guion del
+  `simbolo->` («manufacture&gt;», «questDescription&gt;grupo de jefes»), así que el juego no las reconoce como
+  reglas. Esa carpeta está congelada.
+- **376 elementos de lista** en otros mods (Vanilla Social Interactions 144, Noobert 121, VIE - Memes 41…) cuyo
+  `simbolo->` no es el del comentario en la misma posición. Puede ser solo otro orden, que no rompe nada: no
+  está comprobado.
+- **El glosario de Expedition** dice «missile body / airframe → cuerpo del misil / fuselaje», y los 13 cuerpos
+  se tradujeron «cuerpo de misil …», como dice la fila de «Partes y cuerpos de misil». Sobra una de las dos.
+- **`PLAN-AOBAKUMA.md` cuenta 22 campos de Ascension** que guardan una clave de `Keyed`; en los archivos hay 8
+  (y el de `Hostilityresetbysystem_label`, que no es clave). AncientCorps da los 22 que dice.
+
+**Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; una tanda real de otro mod con el
+comando, con sus listas y sus `Patches` (criterio 3); cambiar la ruta en `PLAN-AOBAKUMA.md` y `PLAN-HEGEMONY.md`,
+que hoy edita otra sesión; y borrar `herramientas-traduccion/` cuando Angel confirme que ninguna sesión la usa.
 
 ## Etapa 2 (opcional): informe de términos viejos
 

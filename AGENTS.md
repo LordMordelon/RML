@@ -62,7 +62,10 @@ Source/RmlVentana.Tests/        las pruebas de Logica/, sin el juego (dotnet tes
 Source/LoadFoldersBuilder.Tests/ las del builder que no necesitan git ni Steam: hoy, la comparación de Cambios.tsv
 .github/workflows/              loadfolders.yml (índice en push), pages.yml (publica docs/ si cambió), release.yml (zip de output/ si cambió),
                                 pagina-diaria.yml (la página con las fechas de Steam del día), revisado.yml (anota una revisión),
-                                solicitud.yml (anota un pedido de traducción)
+                                solicitud.yml (anota un pedido de traducción), herramientas.yml (las pruebas de Herramientas/)
+Herramientas/traducir.py        el comando para traducir con tabla (PLAN-HERRAMIENTAS.md); no llega al juego ni dispara la CI del mod
+Herramientas/oficial/           buscar en la traducción oficial del juego y cotejar un glosario; sus cachés (*.pkl) no se commitean
+Herramientas/pruebas/           las pruebas del comando, sin el juego ni git
 ```
 
 Y cada carpeta de mod, por dentro:
@@ -313,14 +316,26 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   ir directo sobre el archivo, con las herramientas de edición normales, o en una tabla
   clave → traducción que un script copia al archivo. **El camino de la tabla vale para cualquier
   mod desde el 26-oct-2026** (Angel), después de probarse en DMS II, Hegemony y Expedition:
-  1. Leer los ingleses de los `TODO` de una parte del mod.
+  1. `python -I Herramientas/traducir.py tabla <mod> --palabras 1500 --salida <tabla.tsv>` arma la
+     tabla de la tanda (en la carpeta temporal): el inglés arriba de cada clave y, si el mismo inglés
+     ya está traducido en otro mod, cómo (`# RML: …`). Es solo una sugerencia.
   2. Escribir la tabla a mano, entrada por entrada, con el glosario del mod y la traducción oficial
-     abiertos.
-  3. Copiarla con `herramientas-traduccion/aplicar.py` (en la carpeta de trabajo, al lado de RML),
-     que solo escribe sobre `TODO`, no guarda si el XML queda inválido y avisa lo que no encontró.
-  4. Revisar cada tanda con `revisar.py` contra una copia de antes (que solo cambiaron los `TODO` y
-     que los marcadores siguen), con `terminos.py` cargado con el glosario del mod, y con las tres
-     comprobaciones del diff.
+     abiertos (`Herramientas/oficial/`).
+  3. `python -I Herramientas/traducir.py aplicar <mod> <tabla.tsv>` la copia solo sobre `TODO`,
+     guarda una copia de antes y, en el mismo informe, revisa la tanda, los términos del glosario
+     del mod (`--glosario` para sumar los de la familia) y las tres comprobaciones del diff.
+  4. Si un término nuevo salió en la tanda, va al glosario del mod antes de la siguiente.
+
+  Lo que hace el comando y por qué está en
+  [PLAN-HERRAMIENTAS.md](PLAN-HERRAMIENTAS.md); cómo se usa cada orden, al principio de
+  [traducir.py](Herramientas/traducir.py). No guarda nada si el XML queda inválido o si una
+  traducción rompe algo que se vería en el juego: una `{llave}` que el inglés no tiene, un color sin
+  cerrar o una regla de gramática sin su `simbolo->`. Los marcadores que faltan y los saltos de
+  línea solo los avisa, porque el español a menudo saca con razón `[PAWN_pronoun]`. Las listas se
+  llenan enteras y los `Patches` se nombran por su `xpath`; una lista que no se puede emparejar con
+  su inglés sale en la tabla para hacerla a mano. Los campos cuyo inglés es una clave de `Keyed` se
+  dejan en `TODO` solos. Las pruebas: `python -I Herramientas/pruebas/test_traducir.py` (la CI las
+  corre en `herramientas.yml`).
 
   Lo que no se hace nunca es un script que **genere o reemplace** texto en masa («cambiar X por Y»
   en todos los archivos): un reemplazo global rompe cosas que no se ven hasta que el juego las
