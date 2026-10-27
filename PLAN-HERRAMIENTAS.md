@@ -216,7 +216,15 @@ gramática y dos `Patches` de Combat Extended), de `tabla` a `aplicar` sin tocar
 limpio y el diff solo cambia los `TODO`, con los finales de renglón iguales a la copia de antes.
 
 **Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; cambiar la ruta en `PLAN-AOBAKUMA.md`, `PLAN-HEGEMONY.md`, `PLAN-ALPHA-PREFABS.md` y `PLAN-RIMPACTS.md`,
-que hoy edita otra sesión; y borrar `herramientas-traduccion/` cuando Angel confirme que ninguna sesión la usa.
+que hoy edita otra sesión; y borrar `herramientas-traduccion/`.
+
+**Borrar `herramientas-traduccion/`: aprobado por Angel (26-oct-2026)**, en la sesión siguiente y en este orden:
+1. Comprobar que ninguna otra sesión esté trabajando (`git status` sin cambios ajenos y preguntarle a Angel).
+2. Cambiar la ruta vieja por `Herramientas/traducir.py` en los cuatro planes que la nombran (cada uno en su
+   commit, con el mod en el mensaje): `PLAN-AOBAKUMA.md`, `PLAN-HEGEMONY.md`, `PLAN-ALPHA-PREFABS.md` y
+   `PLAN-RIMPACTS.md`. `grep -rn herramientas-traduccion RML` tiene que quedar solo con este plan.
+3. Borrar la carpeta. No tiene vuelta atrás (está fuera de git), pero nada de lo que tiene se pierde: los
+   scripts están en `Herramientas/` y las cachés se rehacen solas.
 
 ## Etapa 2 (opcional): informe de términos viejos
 
