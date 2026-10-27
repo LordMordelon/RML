@@ -1,0 +1,25 @@
+name: Pruebas de las herramientas de traducción
+
+# Solo corre las pruebas de Herramientas/traducir.py (PLAN-HERRAMIENTAS.md). No regenera nada ni
+# publica: Herramientas/ no está en los filtros de loadfolders.yml, así que un cambio acá no
+# dispara el índice ni la release.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'Herramientas/**'
+      - '.github/workflows/herramientas.yml'
+  pull_request:
+    paths:
+      - 'Herramientas/**'
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # El comando no usa bibliotecas de afuera: alcanza con el Python que trae el runner
+      - run: python3 -I Herramientas/pruebas/test_traducir.py
