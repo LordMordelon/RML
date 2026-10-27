@@ -314,6 +314,9 @@ reglas para nombrar su ideología), títulos y permisos al estilo Royalty, trasf
   `1.6/CE`.
 - Los 22 campos con clave del punto 5.
 - Sesiones sugeridas: 1) y 2) `Keyed`; 3) `ThingDef` y catálogo; 4) trasfondos, reglas y lo demás.
+- **Terminado el 27-oct-2026** (cuarta sesión: `a4d2f4f6` a `a5b03047`). Quedan 15 `TODO`, todos a propósito:
+  8 campos con clave de `WorldObjectDef` y 7 nombres internos del guion en `QuestScriptDef`. Las 66 partes del cuerpo iguales a las del juego salieron de la oficial (`Bodies_Humanlike.xml` y
+  `Bodies_Mechanoid.xml`); los mecas dicen «pierna», como Lancer y Pikeman. Falta la prueba en el juego.
 
 ### Cinders of the Embergarden (1.514)
 
@@ -366,42 +369,36 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, duodécima)
+## Próxima sesión (27-oct-2026, decimotercera)
 
-**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, cuarta y última sesión: todo lo que queda.
+**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, primera de 3 o 4 sesiones.
 
-**Estado:** trasfondos (`89f1a801`), reglas de nombres (`e804ebfd`) y las dos misiones (`774af993`) **terminados**, con
-sus términos en `GLOSARIO-USAC.md` («Nombres generados» y «Trasfondos y misiones»). `aplicar` y `revisar` salieron
-limpios. Quedan 402 `TODO`, 2405 palabras (contados): 29 se quedan (los 22 campos con clave y 7 nombres internos del
-guion de la misión), así que se traducen 373. `master` de RML tiene 37 commits sin subir (y el remoto, 1 que no está en
-local), más esta nota. `ModList.tsv` y `docs/index.html` sin commitear son de `-build`: no se tocan.
+**Estado:** Ascension Megacorp **terminado** el 27-oct (ver su sección); los 15 `TODO` que le quedan son a
+propósito. Todo subido a GitHub ese día. Cinders tiene 1.493 `TODO` y 12.551 palabras (contados), con su
+glosario `GLOSARIO-CINDERS.md` ya armado. `ModList.tsv` y `docs/index.html` sin commitear son de `-build`:
+no se tocan.
 
 **Antes de empezarla (Angel):**
-1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, mirar en el juego: el trasfondo de un colono de la USAC y el nombre de su ideología o de una deidad
-   (que no salga una palabra en inglés suelta ni un artículo raro).
+1. Si puedes, mirar Ascension en el juego: la pestaña de salud de un M88 rocky y de un sintético (partes
+   del cuerpo), los permisos de la USAC y el narrador Rookie Rockefeller al crear una partida.
 
 **Al empezar (Claude):**
-1. Por tamaño, de mayor a menor: `TipSetDef` (20, 440 palabras), `BodyDef` (120, 288; 66 se toman de la oficial,
-   `Bodies_Humanlike.xml` y `Bodies_Mechanoid.xml` de Core), `ScenarioDef` (5, 164), `RoyalTitlePermitDef` (20, 158),
-   `HediffDef` (35, 134), `RecipeDef` (21, 132), `SitePartDef` (20, 114), `AbilityDef`, `FactionDef`, `CultureDef`,
-   `StorytellerDef`, `ConceptDef`, `PawnKindDef` (27), `Patches/` (28) y unos veinte archivos chicos.
-2. Caben en una sesión si van en tandas de ~800 palabras: `traducir.py tabla Ascension --archivo <tipo>`, `aplicar`, el
-   informe y un commit por tanda.
-3. Los avisos «credit bond sin bono(s) de crédito», «supply crate sin caja de suministros (P/M/G)» y «private sin
-   soldado raso» son falsos. Los de marcadores en trasfondos son los pronombres que el español no usa.
-4. La oficial está en `.tar`: listas y reglas no salen en `oficial.pkl` (quedan vacías), así que se sacan con
-   `tar --force-local -xOf "<.tar>" <ruta>` a la carpeta temporal.
+1. Sesión 1, como sugiere la sección de Cinders: lo oficial primero. `BodyDef` (84 de 118 iguales al juego:
+   sacar `Bodies_Humanlike.xml` y `Bodies_Mechanoid.xml` de Core con
+   `tar --force-local -xOf "<.tar>" DefInjected/BodyDef/<archivo>` a la carpeta temporal), `WeaponTraitDef`
+   (74, de Odyssey, casi todo oficial) y los genes de Biotech; después `ThingDef` hasta la mitad.
+2. En tandas de ~800 palabras: `traducir.py tabla Cinders --archivo <tipo>`, `aplicar`, el informe y un
+   commit por tanda.
+3. La oficial tiene entradas repetidas con dos textos («left leg»: «pierna izquierda» en los mecas y
+   humanos, «pata izquierda» en los animales); elegir según el cuerpo, no la primera que salga.
+4. Lo que se aprendió en Ascension: `{0_gender ? o : a}` en los `deathMessage`, como la oficial; los
+   `approachOrderString` llevan el artículo según el género del sitio («Atacar el {0}.», «Atacar la {0}.»).
 
-**Decisiones de Angel:** ninguna pendiente. Para que mires (todo en «Nombres generados» del glosario): los tipos de
-deidad son palabras que sirven para dios y diosa (Mecenas, Centinela, Juez…), porque la lista no puede crecer; tres
-adjetivos de la ideología cambian para no tener género (*United* «Universal», *Corporate* «Empresarial», *Strategic*
-«Capital»); y los nombres de deidad (*Profitus*) quedan en inglés, como hace la oficial con las sílabas.
+**Decisiones de Angel:** ninguna pendiente.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
-**Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo. Al terminar Ascension sigue Cinders
-(paso 7 del orden de trabajo).
+**Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
+**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Cinders), `GLOSARIO-CINDERS.md`,
 `Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
