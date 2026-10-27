@@ -390,30 +390,8 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
 
 ### Revisión general de RML (27-oct-2026)
 
-Angel pidió revisar todo RML con las herramientas y dejar los arreglos para sesiones posteriores. Se pasaron las
-108.353 traducciones de `Data/` y `Ajustes/` por las revisiones de `traducir.py aplicar` (XML válido, llaves,
-colores, marcadores) y las 1.021 listas de reglas de gramática por una revisión aparte: cada `<li>` con su `->`, y
-ningún símbolo usado sin definir (lo que el inglés usa sin definir cuenta como del juego). Todos los XML se leen, y
-las tres comprobaciones del diff salen vacías. Lo que **sí está roto** en el juego (la regla falla o sale el
-símbolo en crudo):
-
-| Mod | Archivo | Qué pasa |
-|---|---|---|
-| DMS de 1.6 (3121742525) | `QuestScriptDef/1vu7a5.xml`, `3opti5.xml`, `reqdcf.xml`; `RulePackDef/1ezexq.xml` y `ft1lfo.xml` | 44 reglas con `&gt;` sin el guion (`manufacture&gt;…`): no son reglas |
-| DMS de 1.6 | `RulePackDef/06gdc7.xml`, `b61nht.xml`, `wvd86k.xml`, `1ezexq.xml`, `ft1lfo.xml` | Símbolos traducidos en un lado y no en el otro: se usa `[Tipo]`/`[MecaTipo]` y se define `Type`/`MechType` |
-| Ascension Megacorp | `RulePackDef/7y4ut7.xml` | `[corpGod] de[memeConceptDef]`: el inglés dice `[memeConcept]`, y falta el espacio |
-| Vanilla Social Interactions Expanded | 12 `RulePackDef` (`VSIE_Teaching_*`) | La regla 3 usa `[commentedabout]`, que la traducción no define: faltan sus 5 opciones |
-| VFE - Insectoids 2 | `QuestScriptDef/ok12s0.xml` | Se usa `[insectoid_masc]` y solo se define `insectoid_fem` |
-| Hospitality (Continued) | `InteractionDef/98958g.xml` | Se usa `[adjwords_m]` y solo se define `adjwords_f` |
-| VFE - Deserters | `QuestScriptDef/adaojn.xml` | «está siendo [hunted] por»: `[hunted]` no existe; va «perseguido» como texto |
-| Alpha Books | `RulePackDef/4hkvi8.xml` | `[CENSURADO]`, `[CLOQUEO]`, `[TIEMPO]`: el inglés también usa `[REDACTED]` sin definir; mirar en el juego antes de tocar |
-
-Texto feo pero no roto: tres pensamientos de VSIE (`ThoughtDef/aiug33.xml`) dicen «en deuda con
-{OTHERPAWN_objective}», que sale «con lo»/«con la»; mejor el nombre. Lo demás que avisó la revisión es falso: textos
-con una flecha «->» que no son reglas (Butter++, RimIris, CE, FSF…), los símbolos de arte de la oficial en Noobert,
-y 1.542 avisos de marcadores que el español saca con razón. Los avisos de términos de los glosarios de la familia
-(Cinders 149, DMS II 210, Ascension 62) son casi todos formas derivadas («erosiva» por *erosion*), pero los de DMS II
-y Ascension merecen una pasada.
+Lo que encontró, los glosarios incluidos, y el orden para arreglarlo están en
+[PLAN-REVISION-GENERAL.md](../../PLAN-REVISION-GENERAL.md).
 
 ## Estado al 27-oct-2026: traducción terminada
 
@@ -427,5 +405,5 @@ Los siete pasos del orden de trabajo están hechos: Cinders se terminó en su cu
    nombres de armas únicas, las facciones de Cinders y la narradora Fumée).
 3. Si quiere cambiar algún nombre propuesto, está en el glosario de cada mod con «propuesta».
 
-**Lo siguiente, en otras sesiones:** «Pendientes fuera de este plan» (arriba): primero las reglas rotas de la
-«Revisión general de RML», después los términos viejos en textos ya traducidos y la condición de CE en el extractor.
+**Lo siguiente, en otras sesiones:** [PLAN-REVISION-GENERAL.md](../../PLAN-REVISION-GENERAL.md) (glosarios,
+reglas rotas y los términos viejos de «Pendientes fuera de este plan»), y la condición de CE en el extractor.
