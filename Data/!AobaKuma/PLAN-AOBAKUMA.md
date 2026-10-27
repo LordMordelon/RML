@@ -348,6 +348,10 @@ caminantes con tentáculos, un culto y la narradora Fumée.
   mecas: el autor no las escribió); se dejan así, porque el juego mostraría lo mismo. Las recetas de munición
   se escribieron a mano, fila por fila, con la plantilla oficial (en este mod no rige la excepción de
   scripts de Combat Extended).
+- **Sesión 3 hecha el 27-oct-2026** (`15858dc7` a `cb3e0d22`): los 162 trasfondos y las 66 afecciones
+  (`HediffDef`). En los trasfondos, *Defense Council* va con mayúscula («Consejo de Defensa») porque ahí es el
+  gobierno de los refugios; los títulos entre comillas del inglés (los oficios del largo sueño) van entre «».
+  Términos nuevos en el glosario del mod.
 
 ### Hemogen Pack - Emergency transfusion (5)
 
@@ -378,35 +382,40 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, decimoquinta)
+## Próxima sesión (27-oct-2026, decimosexta)
 
-**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, tercera sesión (los trasfondos).
+**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, cuarta y última sesión (todo lo que queda).
 
-**Estado:** las sesiones 1 y 2 de Cinders están hechas (ver su sección; último commit `a3d227a6` más el de
-esta nota, todo sin push). Quedan 679 `TODO` y 6.694 palabras (contados): `BackstoryDef` 162 (3.456
-palabras), 8 de `ThingDef` que se dejan (su inglés es «TODO») y el resto chico (afecciones, reglas, `Keyed`,
-`Patches`, investigación…).
+**Estado:** las sesiones 1 a 3 de Cinders están hechas (ver su sección; último commit `cb3e0d22` más el de esta
+nota). En `master` hay 19 commits sin subir. Quedan 451 `TODO` y 2.762 palabras (contados); sin los 8 de
+`ThingDef` que se dejan (su inglés es «TODO»), 443 y 2.754 palabras: caben en una sesión.
 
 **Antes de empezarla (Angel):**
-1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 12 commits locales).
+1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 19 commits locales).
 
 **Al empezar (Claude):**
-1. Sacar la oficial a la carpeta temporal, como en la sesión 2: `tar --force-local -xf "<.tar>" -C <carpeta>`
-   con el `.tar` de `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, para Core,
-   Biotech, Odyssey, Ideology, Royalty y Anomaly.
-2. Los 162 trasfondos, con `traducir.py tabla Cinders --archivo BackstoryDef --palabras 800`, `aplicar` y un
-   commit por tanda: unas 4 o 5 tandas, caben en una sesión. Si sobra, seguir con `HediffDef` (66, 476
-   palabras).
-3. Trasfondos como la oficial: `{PAWN_gender ? o : a}` para el género y sin pronombres inventados (ver
-   «Reglas comunes»). El inglés viene del chino: traducir lo que quiere decir, sin agregar información.
-4. Sesión 4, después: afecciones, reglas de `RulePackDef`, `Keyed`, `Patches` y lo demás (unos 509 textos).
+1. Sacar la oficial a la carpeta temporal como en la sesión 3: `tar --force-local -xf "<.tar>" -C <carpeta>` con el
+   `.tar` de `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, para Core, Biotech, Odyssey,
+   Ideology, Royalty y Anomaly.
+2. Con `traducir.py tabla Cinders --archivo <parte> --palabras 800`, `aplicar` y un commit por tanda, en este orden:
+   - Reglas de `RulePackDef` (4 archivos, 135 textos, 511 palabras): los nombres de armas únicas copian
+     `RulePacks_Namers_UniqueWeapons.xml` de Odyssey; regla por regla como la oficial, cada `<li>` con su `simbolo->`.
+   - Investigación (`ResearchProjectDef`, 5 archivos, 50 textos, 496 palabras, y `ResearchTabDef`, 3).
+   - `ScenarioDef` (12, 389 palabras), `Keyed` (21, 234), `AbilityDef` (34, 188), `FactionDef` (20, 182),
+     `Patches` (64, 132), `EmberDialogueDef` (6, 122: la narradora Fumée).
+   - Lo chico: `PawnKindDef` (27), `DamageDef` (16), `BodyPartDef` (10), `ThoughtDef` (10), `QuestScriptDef` (8),
+     `MentalStateDef`, `XenotypeDef`, `CultureDef`, `StorytellerDef`, las 4 de CE y los sueltos (unos 30 en total).
+3. Al terminar, anotar la sesión 4 en la sección de Cinders y pasar al paso siguiente del orden de trabajo.
 
-**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, vestidos) son propuestas
-anotadas en el glosario; se cambian si Angel quiere.
+**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, vestidos, y hoy el «Consejo de
+Defensa» y el «Departamento de Seguridad Económica para Períodos Especiales») son propuestas anotadas en el glosario;
+se cambian si Angel quiere.
 
-**Ojo:** el informe de `aplicar` avisa «erosion sin erosión» cuando se escribió «erosivo/a», y «resurrect sin
-resucitar» con el verbo conjugado: son avisos falsos. Nada de scripts que armen texto: ni siquiera las
-recetas de munición con plantilla (eso solo vale en Combat Extended).
+**Ojo:** el informe de `aplicar` avisa «erosion sin erosión» cuando se escribió «erosivo/a», «resurrect sin
+resucitar» con el verbo conjugado y «Ashe sin de Ceniza» con «cenizas»: son avisos falsos. `corregir` falla si la
+clave está en dos archivos (`Cinder_Erosion.description` está en `HediffDef` y en la categoría de munición de CE):
+ahí se corrige la línea con `sed -i '<renglón>s/viejo/nuevo/'`, que respeta los saltos de línea. Nada de scripts que
+armen texto.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
