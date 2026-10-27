@@ -194,5 +194,25 @@ del muro lo dice en una frase («HESCO es la marca de su fabricante»).
 - **La ideología corporativa** (`CultureDef` «Zenith Ascension»: propuesta **Ascensión Cénit**) arma
   nombres con `[corpdomain]`, `[corpeventtheme]`, `[cultureleadertitle]`: cada símbolo se traduce con
   opciones del mismo género que pida la regla que lo usa, igual que arriba.
+- **Cómo quedaron (27-oct-2026)**, con las formas de la oficial de Ideology:
+  - *Station* y *Base*, que en español son femeninas, pasan a **complejo** y **núcleo**; *Facility* sola
+    es **Instalación [greek]**.
+  - **Tipo de deidad**: sustantivos que sirven para dios y diosa, porque la lista no puede crecer para
+    poner las dos formas como la oficial («Dios»/«Diosa»): **Mecenas** (*Patron*), **Centinela**
+    (*Guardian*), **Vigía** (*Overseer*), **Juez** (*Arbiter*), **Albacea** (*Executor*), **Gerente**
+    (*Administrator*). El dominio lleva su artículo («del comercio», «de las ganancias») y la regla del
+    meme usa `de[memeConceptDef]`, como la oficial.
+  - **Ideología**: «[corpSuffix] [corpPrefix]» con adjetivos que no cambian de género (**Universal**
+    por *United*, **Empresarial** por *Corporate*, **Capital** por *Strategic*), para que sirvan con
+    «Doctrina» y con «Protocolo»; la regla con *-ism* queda «[corpSuffix] del [corpPrefix]ismo»
+    («Doctrina del Industrialismo»). *The [corpConcept]* lleva el artículo en cada opción («El
+    Consorcio», «La Corporación»).
+  - **Nombres de deidad** (*Profit*, *Market*… + *us*, *ex*): sílabas de un nombre inventado; quedan en
+    inglés, como deja la oficial las de sus deidades.
+  - **Festivales**: «cumbre anual», «gala de la innovación» (todos femeninos, en minúscula como la
+    oficial). **Títulos de líder**: «director en jefe», «presidente ejecutivo», «director gerente»; las
+    siglas CEO, CFO, COO y CTO quedan.
+  - **Facciones**: marcas, con el orden del inglés: «Cénit Industrias», «Ápice Corp», «Vértice Sistemas
+    CMP» (*PMC*: compañía militar privada).
 - **«this world's enlightenment»** (la facción, *A vast corporation born out of…*): «la ilustración de este
   mundo», por el *Enlightened World* de Expedition, que es «mundoilustrado» (Angel, 26-oct-2026).

@@ -18,22 +18,22 @@
   <!-- EN: cultureLeaderTitle-&gt;COO -->
   <!-- EN: cultureLeaderTitle-&gt;CTO -->
   <LeaderTitleMaker_USAC.rulePack.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>memeLeaderNoun(priority=1)-&gt;[cultureLeaderNoun]</li>
+    <li>r_leaderTitle(p=6)-&gt;[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)-&gt;[cultureLeaderTitle]</li>
+    <li>cultureLeaderAdjective-&gt;en jefe</li>
+    <li>cultureLeaderAdjective-&gt;sénior</li>
+    <li>cultureLeaderAdjective-&gt;ejecutivo</li>
+    <li>cultureLeaderAdjective-&gt;gerente</li>
+    <li>cultureLeaderAdjective-&gt;general</li>
+    <li>cultureLeaderNoun-&gt;oficial</li>
+    <li>cultureLeaderNoun-&gt;director</li>
+    <li>cultureLeaderNoun-&gt;presidente</li>
+    <li>cultureLeaderNoun-&gt;mandatario</li>
+    <li>cultureLeaderNoun-&gt;administrador</li>
+    <li>cultureLeaderTitle-&gt;CEO</li>
+    <li>cultureLeaderTitle-&gt;CFO</li>
+    <li>cultureLeaderTitle-&gt;COO</li>
+    <li>cultureLeaderTitle-&gt;CTO</li>
   </LeaderTitleMaker_USAC.rulePack.rulesStrings>
 </LanguageData>
