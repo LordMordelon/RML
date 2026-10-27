@@ -91,4 +91,5 @@ el género.
 
 *Bloodline Ward* es «pupilo de linaje», no «custodio de linaje», que decía la propuesta: el trasfondo
 cuenta de un niño criado a costa de la Torre de los Magos, o sea a cargo de otros, que es el «pupilo»
-de la oficial. La habilidad *ward* sigue siendo «custodia», porque ahí es un escudo.
+de la oficial. La habilidad *ward* sigue siendo «custodia», porque ahí es un escudo. Aprobado por Angel el
+26-oct-2026.

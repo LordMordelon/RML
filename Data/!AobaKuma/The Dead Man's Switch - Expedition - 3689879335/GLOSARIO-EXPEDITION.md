@@ -185,7 +185,7 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | Inglés | Español | Origen | Notas |
 |---|---|---|---|
 | … missile body | **cuerpo de misil …** | propuesta | «cuerpo de misil balístico», «cuerpo de misil de crucero avanzado» |
-| legacy (misil, munición) | **antiguo** / **antigua** | propuesta | «cuerpo de misil balístico antiguo», «munición merodeadora antigua»; en la descripción, «de primera generación» |
+| legacy (misil, munición) | **antiguo** / **antigua** | Angel, 26-oct-2026 | «cuerpo de misil balístico antiguo», «munición merodeadora antigua»; en la descripción, «de primera generación» |
 | locks onto (un buscador) / lock | **se fija en** / **fija** | propuesta | Como «fijado por control de tiro» de la interfaz |
 | falls back to inertial targeting | **recurre al apuntado inercial** | propuesta | |
 | strap-down inertial unit | **unidad inercial solidaria** | propuesta | |
@@ -223,7 +223,7 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | graphene battery / photovoltaic panel | **batería de grafeno** / **panel fotovoltaico** | propuesta | |
 | Graphene bio-reactor / rotary forger / organic assembler | **biorreactor de grafeno** / **forjadora rotativa** / **ensamblador orgánico** | propuesta | |
 | Scorer MLS | **Scorer MLS** | — | Nombre tal cual; la descripción explica MLS: «sistema de lanzamiento de misiles» |
-| Squall | **turbonada** | propuesta | Nombre de torreta traducido, en minúscula, como «hoja del alba» |
+| Squall | **turbonada** | Angel, 26-oct-2026 | Nombre de torreta traducido, en minúscula, como «hoja del alba» |
 | Edge World | **mundoborde** | oficial | Es el *rimworld* del juego: el mod dice que el sistema se llama «Rim World» o «Edge World» (el nombre chino de RimWorld). Los demás tipos de mundo, en `RML/GLOSARIO.md` |
 | Enlightened World | **mundoilustrado** | Angel, 26-oct-2026 | Sin equivalente oficial: los mundos avanzados de donde vienen las flotas. Armado como los del juego (*glitterworld*, «mundobrillante»): una palabra y minúscula; «ilustrado» por la Ilustración (*the Enlightenment*). Un solo uso (`DMSE_FusionCore`), en plural: «los mundoilustrados» |
 | pre-spacer planets | **planetas anteriores a la era espacial** | propuesta | |
