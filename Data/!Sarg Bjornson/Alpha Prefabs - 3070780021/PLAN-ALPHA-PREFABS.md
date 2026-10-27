@@ -10,8 +10,8 @@ Los términos están en [GLOSARIO-ALPHA-PREFABS.md](GLOSARIO-ALPHA-PREFABS.md).
 ## Decisiones de Angel
 
 - **25-oct-2026: tabla + script**, como en Hegemony y por el tamaño. Cada traducción se escribe a
-  mano en una tabla clave → texto, y `herramientas-traduccion/aplicar.py` la copia solo sobre los
-  `TODO`. Después `revisar.py` compara con la copia de la extracción: mismos bytes fuera de los
+  mano en una tabla clave → texto, y un script la copia solo sobre los `TODO` (desde el 26-oct-2026,
+  `Herramientas/traducir.py aplicar`, que además revisa). Después la revisión compara con la copia de la extracción: mismos bytes fuera de los
   `TODO` y los mismos marcadores (`{0}`, `\n`, colores) en cada traducción.
 - Los 19 textos de `Patches/` se editan a mano: todos tienen la misma clave (`label`) y la tabla no
   los distingue.
