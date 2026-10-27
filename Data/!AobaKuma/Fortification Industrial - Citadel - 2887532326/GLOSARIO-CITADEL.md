@@ -35,7 +35,7 @@ tradujo entero, a mano, y se sumaron las últimas filas de la tabla. **Origen**:
 | artillery rangefinder | **telémetro de artillería** | propuesta | |
 | 105mm howitzer / coastal artillery | **obusero de 105 mm** / **artillería costera** | CE | *Howitzer shell* = «obús de obusero» en CE: el arma es «obusero» |
 | 37mm anti-tank gun / anti tank cannon turret | **cañón antitanque de 37 mm** / **torreta de cañón antitanque** | familia | Torreta: «torreta de <arma>» |
-| autocannon / autocannon turret | **cañón automático** / **torreta de cañón automático** | oficial | |
+| autocannon / autocannon turret | **cañón automático** / **torreta de cañón automática** | oficial | Decía «torreta de cañón automático» hasta el 27-oct-2026 |
 | 81mm mortar / mortar turret / mortar bunker | **mortero de 81 mm** / **mortero** / **búnker de mortero** | oficial | La torreta de un mortero se llama «mortero», como en la familia |
 | machine gun / twin / quad machine gun | **ametralladora** / **ametralladora doble** / **ametralladora cuádruple** | propuesta | |
 | Twin Heavy Flak gun | **cañón antiaéreo pesado doble** | RML | «cañón antiaéreo» |
@@ -46,11 +46,11 @@ tradujo entero, a mano, y se sumaron las últimas filas de la tabla. **Origen**:
 | heavy explosive shell (air burst) | **obús explosivo pesado (estallido aéreo)** | CE / familia | |
 | inferno spewer shot | **disparo de escupeinfiernos** | propuesta | |
 | Abandoned frontline (escenario) | **Frente abandonado** | propuesta | |
-| concrete | **concreto** | oficial | «piso de concreto» en la oficial; no «hormigón» |
+| concrete | **hormigón** | oficial | `Concrete` es «hormigón» en la oficial. Decía «concreto» hasta el 27-oct-2026 |
 | deconstruct / non-deconstructible | **desarmar** / **que no se puede desarmar** | oficial | «Es una estructura permanente: una vez construida, no se puede desarmar» |
 | half-buried bunker | **búnker semienterrado** | propuesta | |
 | pillbox bunker | **fortín** | propuesta | En una regla de investigación |
-| Shots until barrel change / Barrel durability / Needs new reinforced barrel | **Tiros hasta el cambio de cañón** / **Durabilidad del cañón** / **Necesita un nuevo cañón reforzado** | oficial | De la torreta de cañón automático y el mortero; la oficial deja afuera el «Cannot shoot:» y aquí también |
+| Shots until barrel change / Barrel durability / Needs new reinforced barrel | **Tiros hasta el cambio de cañón** / **Durabilidad del cañón** / **Necesita un nuevo cañón reforzado** | oficial | De la torreta de cañón automática y el mortero; la oficial deja afuera el «Cannot shoot:» y aquí también |
 | propellant | **propelente** | propuesta | Del lanzacohetes de rieles múltiples |
 
 ## Reglas de investigación

@@ -43,7 +43,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | suppressed | bajo supresión | propuesta | Como estado del colono |
 | hunkered down / hunkering | agazapado / agazaparse | propuesta | |
 | fire at will | fuego a discreción | oficial | |
-| hold fire | alto el fuego | propuesta | |
+| hold fire | cese al fuego | oficial | `CommandHoldFire`. Decía «alto el fuego» hasta el 27-oct-2026 |
 | fire mode | modo de disparo | propuesta | |
 | single shot / single fire | tiro a tiro | propuesta | |
 | burst / burst fire | ráfaga | propuesta | |
@@ -64,7 +64,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | raid / raider | asalto / asaltante | oficial | NO «incursión» |
 | drop pod | cápsula de escape | oficial | Igual que en el general. NO «cápsula de descenso» |
 | learning helper | asistente de aprendizaje | oficial | |
-| tile / cell | casilla | propuesta | «casilla del mundo» para el mapa del mundo |
+| tile / cell | celda | oficial | También en el mapa del mundo. Decía «casilla» hasta el 27-oct-2026 (Angel: «celda», como el juego) |
 | pawn | personaje | propuesta | En textos de ayuda; si es un colono, «colono» |
 | attachment | accesorio | propuesta | Mira, boca del cañón, culata, bajo el cañón |
 | autoloader | cargador automático | propuesta | |
@@ -136,7 +136,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 
 | Inglés | Español | Origen | Notas |
 |---|---|---|---|
-| armor penetration | penetración de armadura | oficial | |
+| armor penetration | penetración de blindaje | oficial | Decía «penetración de armadura» hasta el 27-oct-2026 |
 | sharp | cortante | oficial | Tipo de daño y de armadura |
 | blunt | contundente | oficial | |
 | heat | calor | oficial | |
@@ -148,7 +148,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | cooldown | enfriamiento | oficial | |
 | damage multiplier | multiplicador de daño | oficial | |
 | accuracy (short / long) | precisión (corta / larga) | oficial | |
-| melee | CaC (cuerpo a cuerpo) | oficial | Abreviado como en el juego: «penetración de armadura CaC» |
+| melee | CaC (cuerpo a cuerpo) | oficial | Abreviado como en el juego: «penetración de blindaje CaC» |
 | dodge chance | prob. de esquivar | oficial | |
 | parry | bloqueo | propuesta | |
 | counter-parry | contrabloqueo | propuesta | |
@@ -169,7 +169,7 @@ en inglés de `RimWorld/Data/Core/Defs` para ver qué es cada cosa.
 | aiming accuracy | precisión de puntería | propuesta | Distinta de *shooting accuracy*, «precisión de disparo» |
 | lead / lead error | anticipación / error de anticipación | propuesta | Apuntar delante de un blanco que se mueve |
 | range error | error de distancia | propuesta | |
-| fire rate | cadencia de fuego | propuesta | |
+| fire rate | cadencia de tiro | oficial | Decía «cadencia de fuego» hasta el 27-oct-2026 |
 | toughness (weapon) | dureza | propuesta | |
 | weapon handling | manejo de armas | propuesta | |
 | night vision | visión nocturna | propuesta | |
@@ -210,7 +210,7 @@ Van con singular y plural porque las recetas usan los dos (ver la sección 6).
 | sling bullet | bala de honda | balas de honda | propuesta | «bala de honda de piedra» |
 | pilum | pilum | pila | oficial («pila») | «pilum (thrown)» → «pilum (arrojado)», «(fired)» → «(disparado)» |
 | launcher grenade | granada de lanzador | granadas de lanzador | propuesta | Como el `AmmoSetDef` |
-| artillery / light cannon / heavy cannon / autocannon shell | obús de artillería / de cañón ligero / de cañón pesado / de cañón automático | obuses … | propuesta | |
+| artillery / light cannon / heavy cannon / autocannon shell | obús de artillería / de cañón ligero / de cañón pesado; **proyectil de cañón automático** | obuses … / proyectiles … | propuesta; oficial el último | «proyectil de cañón automático» es oficial (`Bullet_AutocannonTurret`); decía «obús de cañón automático» hasta el 27-oct-2026 |
 | mech shell | obús mecanoide | obuses mecanoides | propuesta | «obús mecanoide (demolición)» |
 | demolition shell | obús de demolición | obuses de demolición | propuesta | «obús de demolición 164x284mm» |
 | fuel shell | obús de combustible | obuses de combustible | propuesta | |
@@ -461,7 +461,7 @@ primero, escopeta y alto calibre después.
 | necked down | de cuello reducido | propuesta |
 | centerfire / rimfire | de percusión central / de percusión anular | propuesta |
 | intermediate cartridge | cartucho intermedio | propuesta |
-| stopping power | poder de detención | propuesta |
+| stopping power | potencia de parada | oficial |
 | blackpowder / smokeless powder | pólvora negra / pólvora sin humo | propuesta |
 | subsonic | subsónico/a | propuesta |
 | suppressed fire | disparar con supresor | propuesta |

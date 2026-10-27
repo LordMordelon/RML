@@ -69,7 +69,7 @@ general o por sus siglas en inglés GPMG (general-purpose machine gun)…».
 | risk control site | **sitio de control de riesgos** | familia | «sitio», como en FFF |
 | commercial outpost / outpost | **puesto de avanzada comercial** / **puesto de avanzada** | oficial | |
 | temporary airbase / artillery position | **base aérea temporal** / **posición de artillería** | propuesta | |
-| commercial raid / mining raid | **incursión comercial** / **incursión minera** | propuesta | |
+| commercial raid / mining raid | **asalto comercial** / **asalto minero** | propuesta | *raid* = «asalto», como el juego (Angel, 27-oct-2026). Decía «incursión comercial / minera» |
 
 ## La terminal (`Keyed`, 26-27-oct-2026)
 

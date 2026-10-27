@@ -30,7 +30,7 @@ traducción en uso, salvo los de la última tabla, que son nuevos.
 | airspace blockade | **bloqueo del espacio aéreo** | |
 | precision bombardment | **bombardeo de precisión** | |
 | hostile site / reinforcements inbound | **sitio hostil** / **refuerzos en camino** | |
-| huntdown / hunting party / hunted by {0} | **cacería** / **partida de caza** / **perseguidos por {0}** | Como en DMS («incursión de cacería»). Decía «persecución» y «grupo de caza» hasta el 24-oct-2026 |
+| huntdown / hunting party / hunted by {0} | **cacería** / **partida de caza** / **perseguidos por {0}** | Como en DMS («asalto de cacería»; decía «incursión de cacería» hasta el 27-oct-2026). Decía «persecución» y «grupo de caza» hasta el 24-oct-2026 |
 | raid wave | **oleada de asalto** | «Oleada de asalto entrante», «Oleada de asalto en camino» |
 | recycle | **reciclar** | |
 | mounted weapon | **arma montada** | |

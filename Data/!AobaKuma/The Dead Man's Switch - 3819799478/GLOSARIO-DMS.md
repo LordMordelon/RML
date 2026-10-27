@@ -83,7 +83,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | antigrain warhead | **obús de antigrano** | Oficial (`Shell_AntigrainWarhead`), el mismo objeto que carga el generador de punto cero. Decía «ojiva de antigrano», con la nota «como en vanilla», hasta el 25-oct-2026. Pendiente: 2 usos en este mod |
 | court-martial | **consejo de guerra** | Ya lo usaba la sesión 1 |
 | kill order | **orden de exterminio** | Ya lo usaba la sesión 1 |
-| hunt / hunting party / huntdown raid | **cacería** / **partida de caza** / **incursión de cacería** | |
+| hunt / hunting party / huntdown raid | **cacería** / **partida de caza** / **asalto de cacería** | *raid* = «asalto», como el juego (Angel, 27-oct-2026). Decía «incursión de cacería» |
 | remnant(s) | **los remanentes** | Ya lo usaba la sesión 1 |
 | elevator / freight elevator | **ascensor** / **ascensor de carga** | Para no confundirlo con el elevador (lifter) |
 | old arsenal / vault / treasury | **antiguo arsenal** / **bóveda** / **cámara del tesoro** | |
@@ -110,7 +110,6 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | firefoam | **espuma cortafuego** | Oficial. Decía «espuma ignífuga» hasta la sesión 6 |
 | EMP | **PEM** | Oficial («granadas PEM», «obús PEM»), y como en Combat Extended. Decía «EMP», sin traducir, hasta el 25-oct-2026, cuando Angel decidió que la oficial gana. Pendiente: 14 usos en este mod |
 | Legacy remnant | **remanentes del Legado** | |
-| exostrider | **exoandador** | |
 | key-card / access key | **tarjeta de acceso** | |
 | Pick up {0_label} / Decrypt {0_label} | **Recoger {0_label}** / **Descifrar {0_label}** | `Use` ya era «Usar {0_label}» |
 

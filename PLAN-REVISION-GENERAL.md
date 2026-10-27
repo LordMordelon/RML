@@ -51,6 +51,17 @@ y «quimiofango» no están en el juego base: son de mods y quedan como están.
 
 ## Paso 2: los glosarios de cada mod
 
+**Hecho el 27-oct-2026**, cada fila confirmada antes en la oficial con `buscar.py`, salvo dos excepciones:
+
+- **Chokevine se queda como «enredadera estranguladora»:** Angel lo confirmó el 27-oct como excepción a «la
+  oficial gana». No se cambia en los textos.
+- **Los compuestos de *raid* también pasan a «asalto»** (Angel, 27-oct): «asalto de cacería» en DMS y FFF,
+  «asalto comercial» y «asalto minero» en Ascension Megacorp. Hoy no hay textos con la forma vieja.
+
+Además: *tile* = «celda» en Combat Extended, RimPacts y Pirates; en RimPacts, *raid* = «asalto», *cooldown* =
+«enfriamiento» e *idle* = «ocioso». En DMS se borró la fila repetida de *exostrider* («exoandador»), que ya estaba
+bien más arriba. Los usos viejos en los textos quedan para el paso 4.
+
 Choques reales con la oficial o con el principal. Los de la columna «Ya pendiente» ya figuraban en un plan.
 
 | Glosario | Fila | Dice | Debe decir | Usos en RML | Ya pendiente |

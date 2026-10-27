@@ -88,7 +88,7 @@ Origen: **of.** = traducción oficial; **RML** = otro mod de RML; **nuevo** = de
 | acolyte / knight, dame / praetor / baron | acólito / caballero, dama / pretor / barón | of. |
 | count / duke / consul | arconte / dominus / cónsul | of. (el juego no traduce «conde» ni «duque») |
 | archcount / marquess / archduke | archiconde / marqués / archiduque | RML (Vanilla Factions Expanded - Empire) |
-| magister / despot | magister / déspota | RML (VFE - Empire) |
+| magister / despot | magistrado / déspota | of. / RML (Vanilla Factions Expanded - Empire). Decía «magister» hasta el 27-oct-2026 |
 
 ## Defensas
 

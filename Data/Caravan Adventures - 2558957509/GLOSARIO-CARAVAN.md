@@ -24,7 +24,7 @@ hay que buscarlo en todos los archivos de la carpeta, no solo en uno.
 | master shrine / ancient master shrine | **santuario maestro** / **santuario maestro ancestral** | |
 | bounty / bounty credits | **recompensa** / **créditos de recompensa** | «Bounty Services» → «Servicios de recompensas» |
 | hunter (de la facción) | **cazador** | «Experienced Hunter» → «cazador experimentado» |
-| prime councilor / town councilman | **consejero mayor** / **concejal** | |
+| prime councilor / town councilman | **consejero mayor** / **concejal citadino** | «concejal citadino» es oficial; decía «concejal» hasta el 27-oct-2026 |
 | envoy | **enviado** | |
 | comms / comms device | **comunicaciones** / **comunicador** | |
 | guild | **gremio** | Como el «gremio de comerciantes» oficial |

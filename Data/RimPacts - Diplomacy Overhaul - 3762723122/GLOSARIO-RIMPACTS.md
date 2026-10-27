@@ -54,11 +54,11 @@ Revisado contra la traducción oficial y los mods de RML a pedido de Angel (24-o
 | gift | regalo | oficial | «Ofrecer regalo» |
 | request (de bienes) / goods request | pedido / pedido de bienes | propuesta | El verbo, «solicitar», como en «Solicitar caravana mercante» (oficial) |
 | the rim | el borde | oficial | «across the rim» → «en todo el borde» |
-| tile | casilla | RML | Como en Hegemony |
+| tile | celda | oficial | Decía «casilla», como Hegemony, hasta el 27-oct-2026 (Angel: «celda», como el juego) |
 | silver | plata | oficial | |
 | caravan / trade caravan | caravana / caravana mercante | oficial | |
 | gravship | gravinave | oficial | |
-| raid | incursión | GLOSARIO | |
+| raid | asalto | oficial | Decía «incursión» hasta el 27-oct-2026 (Angel) |
 | quest | misión | GLOSARIO | |
 
 ## Tratados
@@ -89,7 +89,7 @@ Revisado contra la traducción oficial y los mods de RML a pedido de Angel (24-o
 | declare war | declarar la guerra | propuesta | |
 | war score ✔ | puntaje de guerra | Angel | «puntaje» y no «puntuación», más latino |
 | peace / sue for peace | paz / pedir la paz | propuesta | |
-| peace talks | charlas de paz | oficial | |
+| peace talks | diálogos de paz | oficial | Decía «charlas de paz» hasta el 27-oct-2026 |
 | peace conference | conferencia de paz | propuesta | |
 | ceasefire | alto el fuego | propuesta | |
 | surrender | rendición | propuesta | |
@@ -218,7 +218,7 @@ Se agregan acá a medida que aparezcan, con su origen.
 
 | Inglés | Español | Origen | Notas |
 |---|---|---|---|
-| ideoligion | ideología | RML | Como en los demás mods de RML |
+| ideoligion | ideoligión | oficial | Decía «ideología» hasta el 27-oct-2026 |
 | prometheum | prometio | RML | Como en Combat Extended |
 | notoriety | notoriedad | propuesta | |
 | kin (el pariente en otra corte) | pariente | propuesta | «nuestro pariente {0}» |
@@ -244,8 +244,8 @@ Se agregan acá a medida que aparezcan, con su origen.
 | standing war with pirates | guerra permanente con los piratas | propuesta | |
 | regular aid | ayuda regular | propuesta | |
 | exposure / exposed (espía) | ser descubierto / descubierto | propuesta | «Probabilidad diaria de ser descubierto» |
-| cooldown | tiempo de espera | propuesta | |
-| idle (espía, compañía) | libre | propuesta | |
+| cooldown | enfriamiento | oficial | Decía «tiempo de espera» hasta el 27-oct-2026 (Angel: como el juego) |
+| idle (espía, compañía) | ocioso | oficial | Decía «libre» hasta el 27-oct-2026 (Angel: como el juego) |
 | Lv. / XP | Nv. / Exp. | propuesta | «Nv. {0}», con espacio |
 | Great Road | Gran Camino | propuesta | |
 | bid site / bid level (trade hub) | sede candidata / nivel de candidatura | propuesta | |
@@ -263,7 +263,7 @@ Se agregan acá a medida que aparezcan, con su origen.
 | "Conquest, rise and fall" (ajuste) | «Conquista, auge y caída» | propuesta | Nombre de un ajuste del mod: confirmar que coincida cuando se traduzcan los ajustes |
 | "Strategy mode" / "Take control" / "Casus belli required" | «Modo estrategia» / «Tomar el control» / «Exigir casus belli» | propuesta | Igual que el anterior |
 | Elite / Regular / Cheap (ofertas de mercenarios) | Élite / Regular / Barata | propuesta | Van dentro de «Compañía {1} de {0}» |
-| drop pod / shuttle | cápsula de escape / lanzadera | GLOSARIO | El GLOSARIO general descarta «cápsula de descenso» |
+| drop pod / shuttle | cápsula de escape / transbordador | GLOSARIO | El GLOSARIO general descarta «cápsula de descenso» y «lanzadera» |
 | power ratio / submission pressure | relación de poder / presión de sometimiento | propuesta | «Relación de poder x{0}» |
 | ultimatum leverage | margen para ultimátums | propuesta | El recurso que gasta un ultimátum |
 | hegemon / hegemony (la potencia) | hegemón / hegemonía | propuesta | «[Hegemón]», «Recelo del hegemón». No confundir con la doctrina Hegemonía |

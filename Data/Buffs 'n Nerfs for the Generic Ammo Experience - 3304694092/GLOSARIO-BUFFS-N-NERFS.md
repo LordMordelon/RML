@@ -38,7 +38,7 @@ Cada fila dice de dónde sale:
 | locust (Reinforced Mechanoid 2) | langosta | propuesta | El meca no está traducido en RML; «langosta» como «gigalangosta» de VFE - Insectoids 2 |
 | machinist (tribal) | maquinista | propuesta | El tribal que lleva armas improvisadas |
 | musket ball | bala de mosquete | RML (glosario de CE) | |
-| slugthrower | lanzabalas | RML | Como VFE - Pirates. La investigación «lanzabalas» |
+| slugthrower | lanza perdigones | oficial | Decía «lanzabalas», como VFE - Pirates, hasta el 27-oct-2026 |
 | scattergun | escopeta | RML | Como las escopetas láser de VWE - Laser |
 | pump-action / lever-action | de corredera / de palanca | RML | |
 | marksman rifle | fusil de tirador | RML | Como `Bullet_MarksmanRifle` |

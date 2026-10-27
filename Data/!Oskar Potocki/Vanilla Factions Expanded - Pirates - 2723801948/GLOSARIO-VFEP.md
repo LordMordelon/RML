@@ -99,7 +99,7 @@ oficiales de animales y cosas se respetan: *Boomalopes* son «bumalopes».
 | tox pack | pack de tóxicos |
 | chemfuel | quimbustible |
 | plasteel | plastiacero |
-| cells (distancia) | casillas |
+| cells (distancia) | celdas |
 | boomalope | bumalope |
 | waster (xenotipo) | escorial |
 | tox absorption (gen de VRE Waster) | absorción de toxinas |

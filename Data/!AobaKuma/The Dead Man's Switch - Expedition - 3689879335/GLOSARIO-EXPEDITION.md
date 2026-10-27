@@ -214,7 +214,7 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | tilt-launch container / launch rail | **contenedor de lanzamiento inclinado** / **riel de lanzamiento** | propuesta | |
 | flame trench / blast suppression | **foso de llamas** / **supresión de la onda expansiva** | propuesta | |
 | gravship decks | **la cubierta de una gravinave** | propuesta | «No se puede instalar en la cubierta de una gravinave.» |
-| ancient stockpile entrance / staircase exit | **entrada de almacén antiguo** / **salida de escalera** | oficial + propuesta | «almacén antiguo» es oficial; «Hackéala para abrir la escotilla» |
+| ancient stockpile entrance / staircase exit | **acceso al almacén antiguo** / **salida de escalera** | oficial + propuesta | Oficial: `AncientHatch`. Decía «entrada de almacén antiguo» hasta el 27-oct-2026. «almacén antiguo» es oficial; «Hackéala para abrir la escotilla» |
 | cargo container / rabbit crate / military parcel | **contenedor de carga** / **cajón conejo** / **paquete militar** | RML + propuesta | El apodo «Conejo» va con comillas solo en la descripción |
 | structural frame / rotary part | **armazón estructural** / **pieza giratoria** | propuesta | Decorados. «No description....yet.»: «Sin descripción... todavía.» |
 | fuel silo / chemfuel silo | **silo de combustible** / **silo de quimbustible** | propuesta | |

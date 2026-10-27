@@ -40,7 +40,7 @@ orden de las palabras, recetas, descripciones repetidas) se usa tal cual. Origen
 | VFE - Empire | charge cell (demolition) | célula de carga (demolición) | propuesta | «célula de carga 40x68mm (demolición)» |
 | VFE - Empire | double autocannon | cañón automático doble | RML | |
 | VFE - Pirates | warbolter | de sarcotraje | Angel | RML llama al arma «lanzacohetes (sarcotraje)»: «cohete de sarcotraje (HE)», «cohetes de sarcotraje» |
-| VFE - Pirates | slugthrower | lanzabalas | RML | «cartucho de lanzabalas (postas)», con los tipos de escopeta del núcleo |
+| VFE - Pirates | slugthrower | lanza perdigones | oficial | «cartucho de lanza perdigones (postas)», con los tipos de escopeta del núcleo. Decía «lanzabalas» hasta el 27-oct-2026 |
 | VFE - Pirates | crypto cannon | criptocañón | RML | «combustible de criptocañón». *Crypto* suelto sigue siendo «criogénico», como en el núcleo |
 | VFE - Pirates | gauntlet charge cannon | cañón de carga de guantelete | RML | |
 | VFE - Pirates | salvaged laser eradicator | pulsoláser | RML | «rayo de pulsoláser» |

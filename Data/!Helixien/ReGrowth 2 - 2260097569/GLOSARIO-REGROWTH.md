@@ -30,7 +30,7 @@ los archivos de la carpeta, no solo en uno: casi todos aparecen también en las 
 | aspen tree / aspen forest | **álamo temblón** / **bosque de álamos temblones** | El bioma nuevo |
 | anima tree / anima seed | **árbol ánima** / **semilla de ánima** | Oficial: «árbol ánima», con tilde |
 | brambles | **zarzales** | Oficial. Las variantes del mod: «zarzales rojos», «zarzales amarillos», «zarzales tropicales». Su descripción es la oficial del zarzal |
-| chokevine | **enredadera estranguladora** | **Angel, 25-oct.** El juego lo deja en inglés, «chokevine», pero acá va en español |
+| chokevine | **enredadera estranguladora** | **Angel, 25-oct.** El juego lo deja en inglés, «chokevine», pero acá va en español. Confirmado el 27-oct-2026 como excepción a «la oficial gana» |
 | dandelions | **diente de león** | Oficial. El mod distingue «azul», «rojo» y «del desierto» por el nombre del def |
 | pine tree / willow tree | **pino** / **sauce** | Oficial. El mod distingue variantes: «pino azul», «pino naranja», «pino de tundra», «sauce blanco» |
 | toxipine / toxiteak | **toxipino** / **toxiteca** | |
