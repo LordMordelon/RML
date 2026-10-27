@@ -95,8 +95,9 @@ Esto sí se ve en el juego: la regla falla o sale el símbolo entre corchetes.
   `MechType`, `MechAdj`, `MechVerb`, `Mech`). Ninguna traducción cambió.
 - Ascension Megacorp: «[corpGod] de [memeConcept]», como arma la oficial «[god] de [memeConcept]».
 - VSIE: las cinco opciones de `commentedabout` en los 12 archivos. Los pensamientos con «lo/la» detrás de una
-  preposición eran 10, no 3: van con «le» o con el pronombre delante del verbo («siempre le estaré en deuda»,
-  «nunca lo perdonaré»), que no dependen del género.
+  preposición eran 10, no 3: van como la oficial, con `_pronoun` («él/ella») detrás de la preposición («siempre
+  estaré en deuda con {OTHERPAWN_pronoun}», como «agentes tras [PAWN_pronoun]») o con `_objective` delante del
+  verbo («nunca {BUTCHER_objective} perdonaré», como «[PAWN_objective] hizo amargado»).
 - Insectoids 2: `insectoid_masc` con sus cinco opciones, y «Voraz», que faltaba también en `insectoid_fem`.
 - Hospitality: `adjwords_m` («gestos intrigantes, amistosos…»).
 - Deserters: «y un escuadrón de lealtad le sigue los pasos», sin género. La oficial define `[asker_o_a]` en
