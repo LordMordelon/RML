@@ -188,6 +188,15 @@ Siete campos de `p1o6dh.xml` son nombres internos del guion (`$siteLabel`, `usac
 | programmable shaped charge | **carga hueca programable** | familia | |
 | depleted uranium (DU) | **uranio empobrecido** (**DU**) | CE | La sigla queda: «bala 7.62x51mm NATO (DU)» |
 | rifleman / sniper / heavy sniper / exo infantry / elite | **fusilero** / **francotirador** / **francotirador pesado** / **infantería exo** / **élite** | RML / oficial | |
+| scavenged / imperial / gunner / marksman (M88 rocky) | **recuperado** / **imperial** / **artillero** / **tirador** | propuesta | Detrás del nombre: «M88 rocky artillero imperial» |
+| operative(s) / executive (facción) | **agente(s)** / **ejecutivo** | propuesta | |
+| commission (el favor de la facción, como el *honor* del Imperio) | **comisión** | propuesta | |
+| mech supplier | **proveedor de mecas** | propuesta | «proveedor de mecas USAC» |
+| cold storage | **cámara frigorífica** | propuesta | En los consejos y en la ayuda de la bolsa para cadáveres |
+| depreciation fee / premium | **comisión por depreciación** / **sobreprecio** | propuesta | Los consejos de los bonos |
+| creeping bombardment | **bombardeo progresivo** | propuesta | |
+| radiotoxicity | **radiotoxicidad** | propuesta | |
+| Attack {0} / Attacking {0}. (sitios) | **Atacar el {0}.** / **Atacando el {0}.**, con «la» para la posición de artillería y la base aérea | oficial | La oficial dice «Atacar al {0}.»; el artículo va según el género del sitio |
 
 ## Partes del cuerpo
 
