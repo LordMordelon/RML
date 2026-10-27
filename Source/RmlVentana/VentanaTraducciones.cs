@@ -478,15 +478,9 @@ namespace RmlVentana
                         break;
                     default:
                         if (OficialJuego.FalloLaConsulta)
-                        {
-                            Texto = "RML_Oficial_SinRespuesta".Translate();
-                            Botones.Add(("RML_Oficial_Reintentar".Translate(), OficialJuego.Consultar));
-                        }
+                            Texto = AvisoDeRed();
                         else if (!Ajustes.RevisarOficial)
-                        {
                             Texto = "RML_Oficial_Apagada".Translate();
-                            Botones.Add(("RML_Oficial_RevisarAhora".Translate(), OficialJuego.Consultar));
-                        }
                         else
                         {
                             // Con la casilla encendida la consulta sale al iniciar; esto es por si no salio.
@@ -496,10 +490,24 @@ namespace RmlVentana
                         break;
                 }
 
+            // Siempre se puede volver a revisar a mano, este encendida o no la casilla. Mientras GitHub
+            // pide esperar no hay boton: apretarlo no serviria de nada.
+            if (!OficialJuego.EstaConsultando && !OficialJuego.PideEsperar && Estado != EstadoOficial.FaltaReiniciar)
+                Botones.Add(((OficialJuego.FalloLaConsulta ? "RML_Oficial_Reintentar" : "RML_Oficial_RevisarAhora").Translate(), OficialJuego.Consultar));
+
             if (OficialJuego.HayAlgoInstalado)
                 Botones.Add(((Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer));
 
             Lista.Label(Texto);
+
+            // Con una respuesta anterior el estado sigue siendo el de esa respuesta, y el fallo de la
+            // nueva consulta va aparte.
+            if (OficialJuego.FalloLaConsulta && !OficialJuego.EstaConsultando && Estado != EstadoOficial.SinConsulta)
+            {
+                GUI.color = new Color(0.95f, 0.8f, 0.45f);
+                Lista.Label(AvisoDeRed());
+                GUI.color = Color.white;
+            }
 
             // Una linea por parte: un DLC copiado de otra instalacion puede estar atrasado aunque el
             // juego base este al dia.
@@ -539,6 +547,16 @@ namespace RmlVentana
             foreach (var Boton in Botones)
                 if (Lista.ButtonText(Boton.Texto, widthPct: 0.4f))
                     Boton.Accion();
+        }
+
+        /** Por que fallo la ultima consulta: el limite de GitHub, con la hora local en que vuelve a
+         *  atender, o la conexion. */
+        private static string AvisoDeRed()
+        {
+            DateTime? Hasta = OficialJuego.EsperarHasta;
+            if (Hasta == null)
+                return "RML_Oficial_SinRespuesta".Translate();
+            return (OficialJuego.PideEsperar ? "RML_Oficial_Limite" : "RML_Oficial_LimitePasado").Translate(Hasta.Value.ToLocalTime().ToString("HH:mm"));
         }
 
         private static void AbrirCambios(Novedad Novedad)

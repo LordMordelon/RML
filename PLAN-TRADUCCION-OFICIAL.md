@@ -49,13 +49,25 @@ Junto al botón, una línea con el estado:
 | Hay arreglos en GitHub más nuevos que lo del juego | «Hay arreglos nuevos de la traducción oficial (del 20-oct)» | Actualizar |
 | Lo instalado ya es lo último | «La traducción oficial está al día» | Deshacer |
 | Steam actualizó el juego y volvió a poner su `.tar` | «El juego trae su propia traducción; la que bajaste quedó sin usar» | Actualizar de nuevo (si GitHub es más nuevo) · Borrar la que bajé |
-| La casilla de revisar está apagada | «La revisión está apagada» | Revisar ahora |
+| La casilla de revisar está apagada | «La revisión al iniciar el juego está apagada» | Revisar ahora |
 | El juego no es 1.7 | No aparece la sección | — |
 | Sin internet o GitHub no responde | «No se pudo consultar GitHub» | Reintentar |
+| GitHub agotó las consultas de la hora | «… Vuelve a intentarlo después de las 02:04» | ninguno hasta esa hora; después, Reintentar |
+
+«Revisar ahora» está en todos los estados salvo mientras consulta, mientras falta reiniciar y
+mientras GitHub pide esperar. Si una consulta nueva falla y había una anterior, el estado sigue
+siendo el de la anterior y el error sale en una línea aparte.
 
 La fecha de GitHub sale de su API pública (`api.github.com/repos/Ludeon/RimWorld-SpanishLatin/commits/master`),
-que deja 60 consultas por hora sin clave: se consulta una sola vez por inicio del juego, y nunca
-con la casilla de revisar apagada (ver «Lo que decidió Angel»).
+que deja 60 consultas por hora sin clave **por conexión**, sumando todo lo que use esa conexión. Cada
+consulta completa son 2 más una por carpeta de `Data/` (unas 8); si `master` no cambió desde la
+anterior del mismo inicio del juego, es una sola. Con la casilla apagada no se consulta nunca sin
+apretar el botón (ver «Lo que decidió Angel»).
+
+El 27-oct-2026 las 60 se agotaron probando —con la casilla encendida, cada inicio gastaba 8— y la
+sección decía «Revisa tu conexión a internet» aunque la conexión estaba bien. Desde entonces
+`TraduccionOficial.LimiteHasta` reconoce esa respuesta (403 o 429 con `X-RateLimit-Remaining` en 0)
+y la pantalla dice hasta qué hora esperar; los demás errores quedan en el log del juego.
 
 ## En Novedades, con su diff
 
@@ -87,12 +99,14 @@ Pedido de Angel al aprobar: una actualización de la traducción oficial sale en
 2. **Sin castellano.** Ludeon tiene otro repositorio igual para `Spanish (Español(Castellano))`, pero
    RML es para el español latinoamericano.
 3. **El `.tar` se renombra**, no se borra.
-4. **Una casilla para no revisar** (pedida el 25-oct-2026): «Revisar si hay arreglos de la traducción
-   oficial», en los ajustes de RML y encendida por defecto. Apagada:
+4. **Una casilla para no revisar** (pedida el 25-oct-2026): «Revisar al iniciar el juego si hay
+   arreglos de la traducción oficial», en los ajustes de RML. **Apagada por defecto desde el
+   27-oct-2026** (antes, encendida): Angel quiere que se consulte solo cuando él aprieta el botón.
+   Apagada:
    - RML no consulta GitHub al iniciar ni al abrir los ajustes, y no sale la línea de «hay arreglos
      nuevos» en «Novedades».
-   - La sección muestra «La revisión está apagada» con un botón «Revisar ahora», que consulta una vez
-     sin encender la casilla. Si el jugador quiere actualizar, sigue pudiendo.
+   - La sección muestra «La revisión al iniciar el juego está apagada» con un botón «Revisar ahora»,
+     que consulta una vez sin encender la casilla. Si el jugador quiere actualizar, sigue pudiendo.
    - Lo ya instalado no se toca: «Deshacer» sigue a mano, y las filas de una actualización hecha
      antes de reiniciar salen igual, porque esa actualización la pidió el jugador.
    Se guarda junto a las demás opciones de RML (`AjustesRml`), como la casilla de «Ver cambios».

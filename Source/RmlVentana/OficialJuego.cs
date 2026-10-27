@@ -69,6 +69,15 @@ namespace RmlVentana
         public static bool EstaConsultando => Consultando;
         public static bool FalloLaConsulta => Fallo;
 
+        // Se escribe antes que Fallo, que es volatile: quien lee Fallo en true ya ve la hora.
+        private static DateTime? Hasta;
+
+        /** Si la ultima consulta fallo porque se agotaron las consultas de la hora, hasta cuando (UTC). */
+        public static DateTime? EsperarHasta => Fallo ? Hasta : null;
+
+        /** Mientras dura el limite no se consulta: ni el boton ni el inicio del juego gastan nada. */
+        public static bool PideEsperar => EsperarHasta > DateTime.UtcNow;
+
         public static string ArchivoDeCambios => Path.Combine(GenFilePaths.ConfigFolderPath, "RML_CambiosOficiales.tsv");
 
         private static string Languages(string Carpeta) => Path.Combine(GenFilePaths.OfficialModsFolderPath, Carpeta, "Languages");
@@ -162,21 +171,30 @@ namespace RmlVentana
         /** En segundo plano: la pantalla sigue mientras tanto y muestra «Consultando GitHub…». */
         public static void Consultar()
         {
-            if (!Disponible || Consultando)
+            if (!Disponible || Consultando || PideEsperar)
                 return;
             Consultando = true;
             Fallo = false;
+            Hasta = null;
             List<string> Carpetas = Directory.GetDirectories(GenFilePaths.OfficialModsFolderPath).Select(Path.GetFileName).ToList();
+            ConsultaOficial Anterior = Respuesta;
             Task.Run(() =>
             {
                 try
                 {
-                    ConsultaOficial Nueva = Red.Consultar(Carpetas);
+                    ConsultaOficial Nueva = Red.Consultar(Carpetas, Anterior);
+                    if (Nueva == null)
+                        Log.Warning("[Traducciones [Español Latino]] GitHub respondió algo que no se pudo leer al consultar la traducción oficial.");
                     Respuesta = Nueva ?? Respuesta;
                     Fallo = Nueva == null;
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
+                    // .Result envuelve el error en un AggregateException.
+                    Exception Causa = e.GetBaseException();
+                    Hasta = (Causa as GitHubPideEsperar)?.Hasta;
+                    if (Hasta == null)
+                        Log.Warning("[Traducciones [Español Latino]] No se pudo consultar GitHub: " + Causa.Message);
                     Fallo = true;
                 }
                 finally
@@ -407,6 +425,17 @@ namespace RmlVentana
         }
     }
 
+    /** GitHub atiende 60 consultas por hora sin clave por conexion; agotadas, responde que se espere. */
+    internal class GitHubPideEsperar : Exception
+    {
+        public readonly DateTime Hasta;
+
+        public GitHubPideEsperar(DateTime Hasta) : base("GitHub no atiende más consultas hasta " + Hasta.ToString("o"))
+        {
+            this.Hasta = Hasta;
+        }
+    }
+
     /** Aparte, para que HttpClient no aparezca en ningun metodo que la 1.6 llegue a compilar. */
     internal static class Red
     {
@@ -422,14 +451,18 @@ namespace RmlVentana
 
         /** El ultimo cambio de master, la version de su README y el ultimo cambio de cada carpeta de
          *  Data/ que el repositorio tenga. Null si GitHub responde algo raro al primero; una carpeta que
-         *  falla solo queda afuera. Son 2 consultas mas una por carpeta, dentro de las 60 por hora. */
-        public static ConsultaOficial Consultar(List<string> Carpetas)
+         *  falla solo queda afuera. Son 2 consultas mas una por carpeta, dentro de las 60 por hora; si
+         *  master no cambio desde Anterior, una sola. */
+        public static ConsultaOficial Consultar(List<string> Carpetas, ConsultaOficial Anterior)
         {
             string Api = "https://api.github.com/repos/" + TraduccionOficial.Repositorio + "/commits";
-            string Json = Cliente.GetStringAsync(Api + "/master").Result;
+            string Json = Leer(Api + "/master");
             if (!TraduccionOficial.LeerCommit(Json, out string Sha, out DateTime Fecha))
                 return null;
-            string Readme = Cliente.GetStringAsync("https://raw.githubusercontent.com/" + TraduccionOficial.Repositorio + "/" + Sha + "/README.md").Result;
+            // Apretar «Revisar ahora» varias veces gastaba ocho consultas cada vez, y con eso se agotaron.
+            if (Anterior != null && Anterior.Sha == Sha)
+                return Anterior;
+            string Readme = Leer("https://raw.githubusercontent.com/" + TraduccionOficial.Repositorio + "/" + Sha + "/README.md");
             var Consulta = new ConsultaOficial
             {
                 Sha = Sha,
@@ -442,10 +475,15 @@ namespace RmlVentana
             {
                 try
                 {
-                    string DeLaCarpeta = Cliente.GetStringAsync(Api + "?sha=" + Sha + "&per_page=1&path=" + Uri.EscapeDataString(Carpeta)).Result;
+                    string DeLaCarpeta = Leer(Api + "?sha=" + Sha + "&per_page=1&path=" + Uri.EscapeDataString(Carpeta));
                     // Una carpeta que el repositorio no tiene responde con una lista vacia.
                     if (TraduccionOficial.LeerCommit(DeLaCarpeta, out _, out DateTime Cuando))
                         Consulta.PorCarpeta[Carpeta] = Cuando;
+                }
+                catch (GitHubPideEsperar)
+                {
+                    // Sin las demas carpetas, las que faltan no saldrian en la lista y nadie sabria por que.
+                    throw;
                 }
                 catch (Exception)
                 {
@@ -453,6 +491,23 @@ namespace RmlVentana
             }
             return Consulta;
         }
+
+        /** Como GetStringAsync, pero distingue el limite de consultas de un error de conexion. */
+        private static string Leer(string Url)
+        {
+            using (HttpResponseMessage Respuesta = Cliente.GetAsync(Url).Result)
+            {
+                DateTime? Hasta = TraduccionOficial.LimiteHasta((int)Respuesta.StatusCode,
+                    Cabecera(Respuesta, "X-RateLimit-Remaining"), Cabecera(Respuesta, "X-RateLimit-Reset"));
+                if (Hasta != null)
+                    throw new GitHubPideEsperar(Hasta.Value);
+                Respuesta.EnsureSuccessStatusCode();
+                return Respuesta.Content.ReadAsStringAsync().Result;
+            }
+        }
+
+        private static string Cabecera(HttpResponseMessage Respuesta, string Nombre) =>
+            Respuesta.Headers.TryGetValues(Nombre, out IEnumerable<string> Valores) ? Valores.FirstOrDefault() : null;
 
         /** El zip de ese cambio exacto y no el de master: si alguien sube algo mientras tanto, se instala
          *  lo que dice la fecha guardada. Avance recibe los MB bajados. */

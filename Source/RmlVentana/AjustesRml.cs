@@ -33,8 +33,9 @@ namespace RmlVentana
         public bool CambiosPorCategoria;
 
         /** «Revisar si hay arreglos de la traducción oficial» (PLAN-TRADUCCION-OFICIAL.md). Apagada, RML
-         *  no le consulta nada a GitHub salvo con «Revisar ahora». */
-        public bool RevisarOficial = true;
+         *  no le consulta nada a GitHub salvo con «Revisar ahora». Apagada de fabrica desde el 27-oct-2026,
+         *  a pedido de Angel: cada inicio del juego gastaba consultas del limite de GitHub. */
+        public bool RevisarOficial;
 
         /** El cambio de GitHub que se instalo con el boton: su codigo y su fecha (UTC, formato «o»).
          *  Null si no hay nada instalado. */
@@ -54,7 +55,7 @@ namespace RmlVentana
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref RevisarOficial, "revisarOficial", true);
+            Scribe_Values.Look(ref RevisarOficial, "revisarOficial", false);
             Scribe_Values.Look(ref OficialSha, "oficialSha");
             Scribe_Values.Look(ref OficialFecha, "oficialFecha");
             Scribe_Collections.Look(ref OficialCarpetas, "oficialCarpetas", LookMode.Value);

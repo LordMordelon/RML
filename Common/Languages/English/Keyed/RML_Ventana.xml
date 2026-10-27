@@ -88,13 +88,15 @@
   <!-- La traduccion oficial del juego, bajada de GitHub (PLAN-TRADUCCION-OFICIAL.md). -->
   <RML_Oficial_Titulo>Official game translation</RML_Oficial_Titulo>
   <RML_Oficial_Explicacion>Every time RimWorld updates, for any reason, it includes the changes the official translators have in their GitHub repository. So a fix they make today doesn't reach your game until the next RimWorld update. From here you can download it now, without waiting.</RML_Oficial_Explicacion>
-  <RML_Oficial_Revisar>Check for fixes to the official translation</RML_Oficial_Revisar>
+  <RML_Oficial_Revisar>Check for fixes to the official translation at startup</RML_Oficial_Revisar>
   <RML_Oficial_RevisarAyuda>At startup, asks GitHub for the date of the last change to the official translation. When off, RML never connects to GitHub unless you press "Check now".</RML_Oficial_RevisarAyuda>
   <RML_Oficial_Consultando>Checking GitHub…</RML_Oficial_Consultando>
-  <RML_Oficial_Apagada>Checking is turned off.</RML_Oficial_Apagada>
+  <RML_Oficial_Apagada>Checking at startup is turned off.</RML_Oficial_Apagada>
   <RML_Oficial_RevisarAhora>Check now</RML_Oficial_RevisarAhora>
   <RML_Oficial_SinRespuesta>Couldn't reach GitHub. Check your internet connection.</RML_Oficial_SinRespuesta>
   <RML_Oficial_Reintentar>Try again</RML_Oficial_Reintentar>
+  <RML_Oficial_Limite>GitHub answers up to 60 requests per hour from each connection, and they've been used up. Try again after {0}.</RML_Oficial_Limite>
+  <RML_Oficial_LimitePasado>GitHub asked to wait until {0}. You can try again now.</RML_Oficial_LimitePasado>
   <RML_Oficial_AlDia>The official translation is up to date. Last change on GitHub: {0}.</RML_Oficial_AlDia>
   <RML_Oficial_HayArreglos>There are new fixes to the official translation, from {0}.</RML_Oficial_HayArreglos>
   <RML_Oficial_Actualizar>Update</RML_Oficial_Actualizar>

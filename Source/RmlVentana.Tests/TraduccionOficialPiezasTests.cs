@@ -131,6 +131,28 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void ElLimiteDeGitHubDiceHastaCuando()
+        {
+            // 1793077476 es el 27-oct-2026 a las 5:04:36 UTC.
+            DateTime? Hasta = TraduccionOficial.LimiteHasta(403, "0", "1793077476");
+
+            Assert.AreEqual(new DateTime(2026, 10, 27, 5, 4, 36, DateTimeKind.Utc), Hasta);
+            Assert.AreEqual(DateTimeKind.Utc, Hasta.Value.Kind);
+            Assert.IsNotNull(TraduccionOficial.LimiteHasta(429, "0", "1793077476"));
+        }
+
+        [TestMethod]
+        public void OtroErrorDeGitHubNoEsElLimite()
+        {
+            // Un 403 con consultas disponibles es otra cosa (un repositorio bloqueado, por ejemplo).
+            Assert.IsNull(TraduccionOficial.LimiteHasta(403, "12", "1793077476"));
+            Assert.IsNull(TraduccionOficial.LimiteHasta(500, "0", "1793077476"));
+            Assert.IsNull(TraduccionOficial.LimiteHasta(200, "59", "1793077476"));
+            Assert.IsNull(TraduccionOficial.LimiteHasta(403, null, null));
+            Assert.IsNull(TraduccionOficial.LimiteHasta(403, "0", "mañana"));
+        }
+
+        [TestMethod]
         public void ElLectorDeTarDaNombreFechaYContenido()
         {
             byte[] Tar = ArmarTar(("Keyed/Misc.xml", "<LanguageData/>", Fecha), ("DefInjected/ThingDef/" + new string('a', 120) + ".xml", "x", Fecha.AddHours(-1)));

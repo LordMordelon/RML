@@ -255,6 +255,17 @@ namespace RmlVentana.Logica
             return true;
         }
 
+        /** Hasta cuando GitHub no atiende mas consultas sin clave (60 por hora por conexion), si la respuesta
+         *  es la de ese limite: un 403 o 429 con X-RateLimit-Remaining en 0. X-RateLimit-Reset viene en
+         *  segundos desde 1970, en UTC. Null si es cualquier otro error. */
+        public static DateTime? LimiteHasta(int Estado, string Quedan, string Reinicio)
+        {
+            if ((Estado != 403 && Estado != 429) || Quedan?.Trim() != "0" ||
+                !long.TryParse(Reinicio, System.Globalization.NumberStyles.None, System.Globalization.CultureInfo.InvariantCulture, out long Segundos))
+                return null;
+            return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(Segundos);
+        }
+
         /** La carpeta que envuelve todo el zip de GitHub («RimWorld-SpanishLatin-<codigo>/»), o "" si no hay. */
         public static string RaizDelZip(IEnumerable<string> Entradas)
         {
