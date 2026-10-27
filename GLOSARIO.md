@@ -235,7 +235,7 @@ Bombero · Médico · Cuidar niños · Vigilante · Entretener · Cazar · Culti
 - `Warning:` → `Advertencia:` · `Note:` → `Nota:`
 - `"Input a value"` → `"Introduce un valor"`
 - **Mantener sin traducir:**
-  - Nombres propios de mods (p. ej. *Save Our Ship 2*, *Biotech*, *Royalty*).
+  - Nombres propios de mods (p. ej. *Save Our Ship 2*, *Biotech*, *Royalty*). También el nombre con que el mod sale en la lista de opciones de mods, aunque venga de una clave de `Keyed` (`SettingsCategory`): se deja en inglés o en su idioma original (Angel, 27-oct-2026). Las únicas excepciones son los nombres cortos de Vanilla Expanded, que siguen en inglés: «VE - Psycasts», «VE - Aspirations» y «VE - Helixien Gas».
   - Placeholders dinámicos de RimWorld: `{...}`, `{0}`, `{PAWN_nameDef}`, `[resolvedQuestName]`, etc.
   - Secuencias literales de escape como `\n`.
   - La palabra de marca técnica `Vanilla` si se refiere al motor o contenido base no traducido.
