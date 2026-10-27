@@ -364,49 +364,43 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (26-oct-2026, séptima)
+## Próxima sesión (26-oct-2026, octava)
 
-**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, cuarta de cinco sesiones: la
-segunda mitad de los `ThingDef`, con tabla y script.
+**Objetivo:** paso 5 del orden de trabajo: The Dead Man's Switch - Expedition, quinta y última sesión: recetas,
+investigación y lo demás, con tabla y script.
 
-**Estado:** la primera mitad de `ThingDef/ypes4z.xml` quedó en `7f3bb54e` (169 entradas: misiles en vuelo,
-radares, lanzadores, defensa antiaérea, tanques, propulsores y fábricas). `revisar.py`, la revisión de términos y las
-tres comprobaciones del diff salieron limpios, y `-build` pasó con la DLL. Los términos nuevos están en «Edificios y
-defensas» de `GLOSARIO-EXPEDITION.md`. Quedan 400 `TODO` en `Languages/` (contados): 170 de `ThingDef`, 75 de
-`RecipeDef`, 37 de `RulePackDef`, 22 de `ResearchProjectDef` y 96 más repartidos. `master` de RML tiene 7 commits sin
-subir: esta parte, la nota y la corrección de «mundoborde» con su glosario, y «mundoilustrado». `ModList.tsv` y `docs/index.html` quedaron modificados por `-build`, sin commitear: los rehace la CI.
+**Estado:** los `ThingDef` están terminados: la segunda mitad (170 entradas) quedó en `734d11bd`, con sus términos en
+«Estructuras, materiales, equipo y armas» de `GLOSARIO-EXPEDITION.md`. `revisar.py`, los términos y las tres
+comprobaciones del diff salieron limpios, y `-build` pasó con la DLL. Quedan 230 `TODO` en `Languages/` (contados): 75
+de `RecipeDef`, 37 de `RulePackDef`, 24 de `WorkGiverDef`, 22 de `ResearchProjectDef`, 22 de `WorldObjectDef`, 11 de
+`JobDef` y 39 repartidos en 14 archivos. `master` de RML tiene 1 commit sin subir, más esta nota. `ModList.tsv` y
+`docs/index.html` quedaron modificados por `-build`, sin commitear: los rehace la CI.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, mirar en el juego los edificios de Expedition (radares, lanzadores, cañones antiaéreos, tanques): ahí se
-   ven los nombres y las descripciones de esta sesión.
+2. Si puedes, mirar en el juego las armas sin vaina, el lanzador tierra-aire portátil, el designador láser y los
+   pilotes estructurales de Expedition: ahí se ven los nombres y las descripciones de esta sesión.
 
 **Al empezar (Claude):**
-1. `ThingDef/ypes4z.xml`: las 170 entradas que quedan, unas 2.699 palabras de inglés (contadas), desde
-   `DMSE_Turret_Vulcan_WingBack.label` hasta el final, en dos tandas: hasta la 84 y desde `DMSE_Projectile_Stinger.label`.
-2. Los nombres tienen que repetir los de «Interfaz», «Partes y cuerpos de misil» y «Edificios y defensas» de
-   `GLOSARIO-EXPEDITION.md`. El GAU-4 «Wing-Back» es «GAU-4 alas atrás»; las armas siguen `ARMAS-DMS.md` y la
-   munición de CE, su glosario.
-3. `aplicar.py` recorta los espacios del principio del valor; si una entrada los necesita, usar una copia local con
-   `rstrip`.
-4. **`revisar.py` contra `HEAD`:** copiar el archivo antes de la primera tanda (el de trabajo tiene CRLF; `git show` da
-   LF y marcaría todos los renglones).
-5. **`terminos.py` trae el glosario de Hegemony:** se usa una copia en la carpeta temporal con los términos de
-   Expedition (gravinave, misil, ojiva, guiado, buscador, control de tiro, sin vaina, soporte, flota colonial…).
-   «flotas coloniales», en plural, sale como aviso y está bien.
-6. Después de cada tanda, `revisar.py`, los términos y las tres comprobaciones del diff; al final, `-build`.
+1. Las 230 entradas, en dos o tres tandas: recetas (75) con la plantilla de la sección 6 del glosario de CE; después
+   investigación (22) y lo demás (133, con las 37 reglas de gramática de `RulePackDef`, que conservan su `simbolo->`).
+   Caben en una sesión si las recetas salen en una tanda.
+2. Las recetas nombran lo que ya está traducido en `ThingDef/ypes4z.xml`: el nombre sale del producto. Las
+   investigaciones («municiones merodeadoras», «radar», «accionamiento por gases») tienen que coincidir con las
+   etiquetas de `ResearchProjectDef`.
+3. Los campos que guardan una clave (punto 5) se quedan en `TODO`.
+4. Las mismas herramientas que en la sesión anterior: copia del archivo antes de cada tanda para `revisar.py`, y la
+   copia de `terminos.py` con los términos de Expedition (la última está en la carpeta temporal de la sesión anterior,
+   `ee159f77…/scratchpad/terminos-exp.py`; si ya no existe, armarla con la lista de «Interfaz», «Partes y cuerpos de
+   misil» y «Edificios y defensas»). Python en Windows no entiende las rutas `/c/...`: pasarle rutas `C:\...`.
+5. Al terminar el mod: las tres comprobaciones del diff, que no quede un `TODO` fuera de los que se dejan a propósito,
+   `-build`, y avisar a Angel para la prueba en el juego.
 
-La quinta sesión: recetas (75), investigación (22) y lo demás (133, con las reglas de gramática de `RulePackDef`).
-Las investigaciones que nombran los `ThingDef` ya traducidos («municiones merodeadoras», «radar», «accionamiento por
-gases») tienen que coincidir con las etiquetas de `ResearchProjectDef`.
-
-**Decisiones de Angel:** ninguna pendiente. El 26-oct aprobó «mundoilustrado» (*Enlightened World*), «turbonada»
-(*Squall*), «pupilo de linaje» (Taktikmagier) y «antiguo» para los misiles *legacy*.
+**Decisiones de Angel:** ninguna pendiente.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 6, «Reglas comunes», la sección de Expedition), `GLOSARIO-EXPEDITION.md`,
-`ARMAS-DMS.md`, `herramientas-traduccion/` (`aplicar.py`, `revisar.py`, `terminos.py`) y
-`herramientas-traduccion/oficial/`.
+**Dónde leer:** este plan (punto 5, punto 6, «Reglas comunes», la sección de Expedition), `GLOSARIO-EXPEDITION.md`,
+la sección 6 de `GLOSARIO-COMBAT-EXTENDED.md` (recetas), `herramientas-traduccion/` y `herramientas-traduccion/oficial/`.
