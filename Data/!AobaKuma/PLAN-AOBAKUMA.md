@@ -342,7 +342,8 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
 
 ## Pendientes fuera de este plan
 
-- **Términos viejos en textos ya traducidos**, por la regla de la oficial: «lanzadera» (172 usos en 40
+- **Términos viejos en textos ya traducidos**, por la regla de la oficial: «mundo del borde» por «mundoborde» (13 usos en
+  5 archivos: DMS de 1.6, VRE - Sanguophage, Progression Scenarios y Persona Mechanoid Pawns 2), «lanzadera» (172 usos en 40
   archivos), «entropía psíquica» (26), «abrasador» (22, a revisar: algunos son el adjetivo),
   «psiconjuro» (14), «EMP» (14 en DMS II y 1 en FFF), «calor neuronal» (7), «sanguófago» (6),
   «ensamblador de genes» (6), «clúster mecanoide» (4), «letargo mortal» (2), «ojiva de antigrano» (2),
@@ -372,8 +373,8 @@ segunda mitad de los `ThingDef`, con tabla y script.
 radares, lanzadores, defensa antiaérea, tanques, propulsores y fábricas). `revisar.py`, la revisión de términos y las
 tres comprobaciones del diff salieron limpios, y `-build` pasó con la DLL. Los términos nuevos están en «Edificios y
 defensas» de `GLOSARIO-EXPEDITION.md`. Quedan 400 `TODO` en `Languages/` (contados): 170 de `ThingDef`, 75 de
-`RecipeDef`, 37 de `RulePackDef`, 22 de `ResearchProjectDef` y 96 más repartidos. `master` de RML tiene 2 commits sin
-subir, esta nota incluida. `ModList.tsv` y `docs/index.html` quedaron modificados por `-build`, sin commitear: los rehace la CI.
+`RecipeDef`, 37 de `RulePackDef`, 22 de `ResearchProjectDef` y 96 más repartidos. `master` de RML tiene 4 commits sin
+subir: esta parte, la nota y la corrección de «mundoborde» con su glosario. `ModList.tsv` y `docs/index.html` quedaron modificados por `-build`, sin commitear: los rehace la CI.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
@@ -399,8 +400,8 @@ La quinta sesión: recetas (75), investigación (22) y lo demás (133, con las r
 Las investigaciones que nombran los `ThingDef` ya traducidos («municiones merodeadoras», «radar», «accionamiento por
 gases») tienen que coincidir con las etiquetas de `ResearchProjectDef`.
 
-**Decisiones de Angel:** ninguna que frene el trabajo. Para revisar cuando puedas: «Mundo del Borde» y «Mundo
-Iluminado» (*Edge World*, *Enlightened World*, lugares del trasfondo; recomiendo dejarlos), «turbonada» para la torreta
+**Decisiones de Angel:** ninguna que frene el trabajo. Para revisar cuando puedas: «Mundo
+Iluminado» (*Enlightened World*, sin equivalente oficial; recomiendo dejarlo; *Edge World* ya es «mundoborde»), «turbonada» para la torreta
 *Squall* (recomiendo dejarla, como «hoja del alba») y, de antes, «pupilo de linaje» en Taktikmagier y «antiguo» para
 los misiles *legacy* (recomiendo dejar los dos).
 
