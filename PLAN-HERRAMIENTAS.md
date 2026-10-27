@@ -204,8 +204,11 @@ encuentra las partes del cuerpo de la oficial («left lung»), que se siguen bus
 - **`PLAN-AOBAKUMA.md` cuenta 22 campos de Ascension** que guardan una clave de `Keyed`; en los archivos hay 8
   (y el de `Hostilityresetbysystem_label`, que no es clave). AncientCorps da los 22 que dice.
 
-**Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; una tanda real de otro mod con el
-comando, con sus listas y sus `Patches` (criterio 3); cambiar la ruta en `PLAN-AOBAKUMA.md` y `PLAN-HEGEMONY.md`,
+**Tanda real de otro mod (criterio 3), hecha:** Cinders, 21 entradas en 4 archivos (dos listas de reglas de
+gramática y dos `Patches` de Combat Extended), de `tabla` a `aplicar` sin tocar nada a mano. El informe salió
+limpio y el diff solo cambia los `TODO`, con los finales de renglón iguales a la copia de antes.
+
+**Falta para terminar la etapa 1:** subir y ver las pruebas en GitHub; cambiar la ruta en `PLAN-AOBAKUMA.md` y `PLAN-HEGEMONY.md`,
 que hoy edita otra sesión; y borrar `herramientas-traduccion/` cuando Angel confirme que ninguna sesión la usa.
 
 ## Etapa 2 (opcional): informe de términos viejos
