@@ -10,7 +10,7 @@ que revisa los glosarios y los términos sin abrir el juego.
 en la sección 9 del [GLOSARIO.md](GLOSARIO.md).
 
 - **Hecho:** se leyó el código (`SettingsCategory`) de los mods de RML. 13 nombres salían de una clave de `Keyed`
-  que RML había traducido. 10 volvieron al inglés: Cinders (2), RimPsyche (3), Work Modes, Void Universe, Graphics
+  que RML había traducido. 10 volvieron al inglés, y los 3 de RimPsyche volvieron al español a pedido de Angel: Cinders (2), Work Modes, Void Universe, Graphics
   Setter, Manipulator Beam Emitter, Ancient Hydroponics y VE Framework - Outposts. Los tres nombres cortos de Vanilla
   Expanded («VE - Psycasts», «VE - Aspirations», «VE - Helixien Gas») ya estaban en inglés y se quedan.
 - **Hospitality se queda «Hospitalidad»** (Angel, 27-oct): su clave se usa en 7 lugares del código, no solo como
