@@ -104,6 +104,12 @@ class Aplicar(unittest.TestCase):
                             forzar=True)  # el ingles no trae el color: la revision lo frenaria
         self.assertIn(b"a &amp; b", nuevos["a.xml"])
 
+    def test_apostrofos_y_comillas_en_las_dos_formas(self):
+        # El juego lee igual «'» y «&apos;», «"» y «&quot;»: el comando acepta las dos y no convierte nada
+        for v in ("l'arme", "l&apos;arme", 'dijo "sí"', "dijo &quot;sí&quot;", "dijo «sí»"):
+            nuevos, _ = aplicar(f"A.label\t{v}\n", {"a.xml": SIMPLE})
+            self.assertIn(f"<A.label>{v}</A.label>".encode("utf-8"), nuevos["a.xml"])
+
     def test_rechaza_valores_vacios_repetidos_o_todo(self):
         with self.assertRaises(T.Error):
             aplicar("A.label\tuno\nA.label\tdos\n", {"a.xml": SIMPLE})
