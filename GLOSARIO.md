@@ -227,6 +227,11 @@ Bombero · Médico · Cuidar niños · Vigilante · Entretener · Cazar · Culti
 ## 9. Convenciones de Estilo y Gramática
 
 - **Tono y registro:** Neutro, directo, consistente con la localización oficial de RimWorld (Español Latinoamericano). Tuteo estándar en mensajes y eventos (*"has descubierto"*, *"puedes irrumpir"*, *"no detectas"*).
+- **Pronombres y género de los personajes**, como la traducción oficial (decidido el 27-oct-2026, en VSIE):
+  - Detrás de una preposición va `_pronoun`, que sale «él» o «ella»: «se enviaron agentes tras [PAWN_pronoun]», «siempre estaré en deuda con {OTHERPAWN_pronoun}». **Nunca `_objective` detrás de una preposición**: «a {OTHERPAWN_objective}» sale «a lo».
+  - `_objective` («lo» o «la») va pegado o delante del verbo: «traicionar[PAWN_objective]», «nunca {BUTCHER_objective} perdonaré».
+  - Un adjetivo que cambia con el género lleva `{X_gender ? o : a}`, aunque el inglés no lo marque: «Estoy muy agradecid{PAWN_gender ? o : a}» (oficial), «se volvió loc{OTHERPAWN_gender ? o : a}». En un pensamiento, `PAWN` es quien lo siente.
+  - Antes de usar un nombre (`PAWN`, `OTHERPAWN`, `SECONDPAWN`…), comprobar que el texto lo recibe: que ya aparezca en el inglés, o que el código del mod lo pase. Uno que no llega se ve tal cual en el juego, entre llaves.
 - `Warning:` → `Advertencia:` · `Note:` → `Nota:`
 - `"Input a value"` → `"Introduce un valor"`
 - **Mantener sin traducir:**
