@@ -352,6 +352,12 @@ caminantes con tentáculos, un culto y la narradora Fumée.
   (`HediffDef`). En los trasfondos, *Defense Council* va con mayúscula («Consejo de Defensa») porque ahí es el
   gobierno de los refugios; los títulos entre comillas del inglés (los oficios del largo sueño) van entre «».
   Términos nuevos en el glosario del mod.
+- **Sesión 4 hecha el 27-oct-2026** (`e9e5abb5` a `65a8cbda`): todo lo que quedaba. **Cinders está terminado**:
+  solo quedan los 8 `TODO` de `ThingDef` cuyo inglés es «TODO». En las reglas de nombres de armas únicas la
+  oficial separa los conceptos femeninos con otro símbolo (`badass_conceptF`), y `aplicar` no deja cambiar el
+  símbolo de una regla: van sin artículo («fusil de venganza») y con adjetivos que no cambian de género. La Flota
+  Linterna numera sus grupos al final y sin ordinal («División de Asalto 123»), y sus bases son todas «nave».
+  `LoadFoldersBuilder -copia` pasó. Falta la prueba en el juego.
 
 ### Hemogen Pack - Emergency transfusion (5)
 
@@ -382,42 +388,17 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, decimosexta)
+## Estado al 27-oct-2026: traducción terminada
 
-**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, cuarta y última sesión (todo lo que queda).
+Los siete pasos del orden de trabajo están hechos: Cinders se terminó en su cuarta sesión. Lo único que queda en
+ en la familia es lo que se deja a propósito: los campos que guardan una clave (AncientCorps y Ascension, punto
+5) y las 8 descripciones de Cinders cuyo inglés es «TODO». En  hay 29 commits sin subir.
 
-**Estado:** las sesiones 1 a 3 de Cinders están hechas (ver su sección; último commit `cb3e0d22` más el de esta
-nota). En `master` hay 19 commits sin subir. Quedan 451 `TODO` y 2.762 palabras (contados); sin los 8 de
-`ThingDef` que se dejan (su inglés es «TODO»), 443 y 2.754 palabras: caben en una sesión.
+**Lo que falta (Angel):**
+1. Decir «subir RML» para que llegue a GitHub y al Workshop.
+2. La prueba en el juego de cada mod (en la consola de RimWorld, que no salgan errores de traducción, y mirar los
+   nombres de armas únicas, las facciones de Cinders y la narradora Fumée).
+3. Si quiere cambiar algún nombre propuesto, está en el glosario de cada mod con «propuesta».
 
-**Antes de empezarla (Angel):**
-1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 19 commits locales).
-
-**Al empezar (Claude):**
-1. Sacar la oficial a la carpeta temporal como en la sesión 3: `tar --force-local -xf "<.tar>" -C <carpeta>` con el
-   `.tar` de `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, para Core, Biotech, Odyssey,
-   Ideology, Royalty y Anomaly.
-2. Con `traducir.py tabla Cinders --archivo <parte> --palabras 800`, `aplicar` y un commit por tanda, en este orden:
-   - Reglas de `RulePackDef` (4 archivos, 135 textos, 511 palabras): los nombres de armas únicas copian
-     `RulePacks_Namers_UniqueWeapons.xml` de Odyssey; regla por regla como la oficial, cada `<li>` con su `simbolo->`.
-   - Investigación (`ResearchProjectDef`, 5 archivos, 50 textos, 496 palabras, y `ResearchTabDef`, 3).
-   - `ScenarioDef` (12, 389 palabras), `Keyed` (21, 234), `AbilityDef` (34, 188), `FactionDef` (20, 182),
-     `Patches` (64, 132), `EmberDialogueDef` (6, 122: la narradora Fumée).
-   - Lo chico: `PawnKindDef` (27), `DamageDef` (16), `BodyPartDef` (10), `ThoughtDef` (10), `QuestScriptDef` (8),
-     `MentalStateDef`, `XenotypeDef`, `CultureDef`, `StorytellerDef`, las 4 de CE y los sueltos (unos 30 en total).
-3. Al terminar, anotar la sesión 4 en la sección de Cinders y pasar al paso siguiente del orden de trabajo.
-
-**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, vestidos, y hoy el «Consejo de
-Defensa» y el «Departamento de Seguridad Económica para Períodos Especiales») son propuestas anotadas en el glosario;
-se cambian si Angel quiere.
-
-**Ojo:** el informe de `aplicar` avisa «erosion sin erosión» cuando se escribió «erosivo/a», «resurrect sin
-resucitar» con el verbo conjugado y «Ashe sin de Ceniza» con «cenizas»: son avisos falsos. `corregir` falla si la
-clave está en dos archivos (`Cinder_Erosion.description` está en `HediffDef` y en la categoría de munición de CE):
-ahí se corrige la línea con `sed -i '<renglón>s/viejo/nuevo/'`, que respeta los saltos de línea. Nada de scripts que
-armen texto.
-
-**Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
-
-**Dónde leer:** este plan (la sección de Cinders y «Reglas comunes»), `GLOSARIO-CINDERS.md`,
-`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo).
+**Lo siguiente, en otras sesiones:** «Pendientes fuera de este plan» (arriba): los términos viejos en textos ya
+traducidos y la condición de CE en el extractor.
