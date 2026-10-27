@@ -74,6 +74,11 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
 | 2A46M «Anvil of Discipline» | **2A46M yunque de la disciplina** | familia | Apodo traducido, sin comillas, en minúscula |
 | uranium slug walker | **caminante de balas de uranio** | oficial | Como «torreta de balas de uranio» |
 | caseless | **sin vaina** | RML | «cartucho 5x50mm sin vaina (AP)» |
+| Magistrate shotgun / Needle PDW / Ouroboros rifle | **escopeta magistrado** / **PDW aguja** / **fusil uróboros** | propuesta | 27-oct. Reglas de `ARMAS-DMS.md`: minúscula, apodo detrás; PDW explicada en la descripción |
+| Flint anti material rifle / Dragon slayer Bow | **fusil antimaterial pedernal** / **arco matadragones** | propuesta | 27-oct. El «arco» es un lanzacohetes, pero el nombre es del autor |
+| war attacker / war sweeper / war striker / EXO | **atacante de guerra** / **barredor de guerra** / **golpeador de guerra** / **EXO** | propuesta | 27-oct. Mecas; «(Not Started)» es «(sin activar)» |
+| walker … turret | **torreta caminante de …** | oficial + familia | «torreta caminante de cañón automática», «lanzacohetes múltiple caminante»; el arma de cada una, como la oficial |
+| scav / maid / night service / exotic | **chatarrero** / **sirvienta** / **servicio nocturno** / **exótico** | propuesta | Ropa. «heightened libido»: «libido elevado», masculino como la oficial («libido alto») |
 
 ## Lo que se toma de la oficial
 
