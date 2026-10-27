@@ -106,6 +106,11 @@ mecanoide» (4), «cápsula de descenso» (4 mods), «garra de la cabeza» (3 mo
 
 Las tres se decidieron el 27-oct-2026, las tres como la traducción oficial.
 
+**Antes de cambiar cada uso, revisar su contexto** (Angel, 27-oct): leer el `<!-- EN: ... -->` y la frase entera,
+y cambiar solo si el inglés es de verdad ese término con ese sentido. Si no está claro, se deja como está y se anota
+en una lista «Dudas para Angel» al final de este plan. Nada de buscar y reemplazar. Vale también para cada término
+viejo del paso 4.
+
 1. **«asalto» para *raid*.** La oficial dice «asalto» (46 usos, contra 12 de «incursión»). El principal y
    RimPacts pasan a «asalto», y se revisa cada una de las 49 «incursión» de RML: solo se cambian las que vienen de
    *raid*; «incursión» queda para *incursion*.
