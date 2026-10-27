@@ -366,38 +366,40 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, décima)
+## Próxima sesión (27-oct-2026, undécima)
 
-**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, segunda sesión: el `ThingDef` y las fichas del catálogo.
+**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, tercera sesión: trasfondos y reglas de gramática.
 
-**Estado:** el `Keyed` de Ascension (la terminal) está **terminado** en una sola sesión, no en dos: 392 entradas en tres
-commits (`fbc30ad5`, `1f2c47ef`, `bb333188`), y los términos nuevos en «La terminal» de `GLOSARIO-USAC.md`
-(commit siguiente). Las tres comprobaciones del diff y `revisar` salieron limpios. Quedan 963 `TODO` en el mod (contados;
-22 son campos con clave, que se quedan). `master` de RML tiene 25 commits sin subir (y el remoto, 1 que no está en
-local), más esta nota. `ModList.tsv` y `docs/index.html` siguen modificados por `-build`, sin commitear: los rehace la CI.
+**Estado:** el `ThingDef` (182 entradas, `ae263cf5`) y las 52 fichas del catálogo (`d9016016`) están **terminados**, con
+sus términos en «El equipo y el catálogo» de `GLOSARIO-USAC.md` (`6b4c7354`). `aplicar` y `revisar` salieron limpios.
+Quedan 729 `TODO` en el mod, 4869 palabras (contados; 22 son campos con clave, que se quedan). `master` de RML tiene 29
+commits sin subir (y el remoto, 1 que no está en local), más esta nota. Los cambios sin commitear de `Source/RmlVentana`,
+`Common/Languages`, `PLAN-TRADUCCION-OFICIAL.md`, `ModList.tsv` y `docs/index.html` son de otra sesión o de `-build`: no
+se tocan.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, abrir la terminal de la USAC en el juego (desde la consola de comunicaciones) y mirar si algún rótulo se
-   corta: los de la ficha van enteros y en mayúsculas, como «PENETRACIÓN_DE_ARMADURA», aunque el inglés abrevie.
+2. Si puedes, mirar en el juego el catálogo de la terminal: los nombres de las fichas, como «Cañón sin retroceso
+   Torchwood», van enteros aunque el inglés diga «Torchwood RR». Si alguno se corta, se acorta.
 
 **Al empezar (Claude):**
-1. `DefInjected/ThingDef/f26qrt.xml`: 182 entradas, 2015 palabras. Armas con las reglas de `ARMAS-DMS.md` y la memoria
-   «armas al estilo del juego»; siglas (GPMG, DMR, SDA, HESCO) con la fórmula del glosario en la descripción.
-2. `DefInjected/USAC.USACProductDef/86kavs.xml`: 52 fichas, 1046 palabras; el nombre de cada producto, igual que su
-   `ThingDef`. Las dos partes suman unas 3000 palabras y caben en una sesión (esta hizo 4677).
-3. Por tanda: `traducir.py tabla` con `--archivo ThingDef` (o `USACProductDef`), `aplicar`, el informe y un commit.
-4. Los avisos de términos «credit bond sin bono(s) de crédito» son falsos: el glosario escribe «(s)».
+1. `BackstoryDef/q01scm.xml`: 84 entradas, 1192 palabras, con `{PAWN_gender ? o : a}` como la oficial.
+2. Las reglas: `RulePackDef` (7 archivos, 159 entradas, 528 palabras) y `QuestScriptDef` (7 archivos, 91 entradas, 751
+   palabras), con las reglas de «Nombres generados» del glosario (`[sitetype] [prefix]`, mismo género por símbolo).
+3. Las tres partes suman 334 entradas y 2471 palabras: caben en una sesión. Lo demás (395 entradas, 2398 palabras:
+   `BodyDef` 120, `HediffDef` 35, `Patches/` 28, `PawnKindDef` 27, `TipSetDef` 20, permisos, títulos…) va en la cuarta.
+4. Por tanda: `traducir.py tabla Ascension --archivo BackstoryDef` (o `RulePackDef`, `QuestScriptDef`), `aplicar`, el
+   informe y un commit. Los avisos «credit bond sin bono(s) de crédito», «supply crate sin caja de suministros (P/M/G)» y
+   «private sin soldado raso» son falsos.
+5. La oficial ya no está desempaquetada en el juego (volvió a `.tar`): buscar con `Herramientas/oficial/buscar.py` o
+   leyendo `oficial.pkl`. Ojo: *mechanitor* es «mecanizador» en la oficial.
 
-**Decisiones de Angel:** ninguna pendiente. Tres cosas resueltas en el `Keyed` que conviene que mires: «Vanilla» queda
-sin traducir en el ajuste del mod («la consola de comunicaciones de Vanilla»); el contrato de usuario y las cartas van
-con tuteo, como el resto de RML; y las tres claves del juego que el mod reemplaza (`TraderArrival` y sus dos
-compañeras) van traducidas del inglés del mod, que no es el del juego.
+**Decisiones de Angel:** ninguna pendiente. Para que mires: HESCO no lleva la fórmula de las siglas (es una marca, y la
+descripción lo dice); SABR, OSW y ACSW se explican solo entre paréntesis, porque su nombre en español no es la sigla.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
-**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
-`The Dead Man's Switch - 3819799478/ARMAS-DMS.md`, `Herramientas/traducir.py` (cómo se usa cada orden, al principio
-del archivo) y `Herramientas/oficial/`.
+**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md` (sobre todo «Nombres
+generados»), `Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
