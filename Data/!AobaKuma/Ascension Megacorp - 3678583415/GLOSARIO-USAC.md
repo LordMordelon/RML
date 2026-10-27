@@ -94,6 +94,39 @@ general o por sus siglas en inglés GPMG (general-purpose machine gun)…».
 reemplaza con su propio texto: van traducidas desde el inglés del mod, no copiadas de la oficial (que dice
 otra cosa y usa `{FACTION_name}`; el mod usa `{FACTION}`).
 
+## El equipo y el catálogo (`ThingDef` y `USACProductDef`, 27-oct-2026)
+
+Las fichas del catálogo llevan el nombre de su `ThingDef`, con mayúscula inicial como el inglés
+(«Fusil automático avanzado», «Casco de asalto»). Donde la ficha dice otra cosa, se sigue la ficha:
+«Fusil de tirador» (el objeto es «fusil de tirador avanzado»), «Bushmaster III», «Unidad Hardiman».
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| mechanitor | **mecanizador** | oficial | «Inyectar {0_label} para convertirse en mecanizador» |
+| bandwidth | **banda ancha** | oficial | También en «proxy VPN de banda ancha» |
+| neuro-augment serum / neural enhancement drug | **suero de neuromejora** / **droga de mejora neural** | propuesta | |
+| hardiman powered unit | **unidad motorizada Hardiman** | propuesta | Hardiman con mayúscula: es el nombre del exoesqueleto real. La ficha dice *Hardiman unit*: «Unidad Hardiman» |
+| heavy sentry gun | **torreta centinela pesada** | familia | Como la «torreta centinela» de DMS |
+| Foxhound GPMG | **GPMG Foxhound** | familia | Sigla primero, como «HMG Kord». La descripción explica GPMG con la fórmula |
+| Viper DMR / M905 «Viper» | **DMR víbora** / **M905 víbora** | familia | La descripción explica DMR (*designated marksman rifle*) |
+| M29 «SABR» | **M29 SABR** | propuesta | La descripción la explica entre paréntesis: *selectable assault battle rifle* |
+| M109 «Payload» / M307 «Terminator» | **M109 carga útil** / **M307 exterminador** | propuesta | Apodos traducidos, como «MQ-9 verdugo». OSW y ACSW se explican entre paréntesis |
+| XM931 Pulsar II / pulser beam | **XM931 pulsar II** / **haz de pulsos** | propuesta | |
+| chain cannon / chaingun bullet | **cañón de cadena** / **bala de ametralladora de cadena** | propuesta | |
+| hydra rocket / guided bomb | **cohete hydra** / **bomba guiada** | propuesta | |
+| mineclearing line segment / towed mineclearing rocket | **segmento de línea de desminado** / **cohete de desminado remolcado** | propuesta | |
+| 35mm APDS round / 105mm recoilless round | **proyectil APDS de 35 mm** / **proyectil sin retroceso de 105 mm** | familia | Proyectiles del juego, no de CE: «35 mm» con espacio |
+| .277 Fury (DU) y las demás DU | **.277 Fury (DU)**; bala: **bala .277 Fury (DU)** | CE | Como CE: la munición sin sustantivo, la bala con «bala» |
+| Krepost heavy walker / battle frame / geochelone chassis | **chasis del andador pesado krepost** / **del armazón de batalla** / **del geochelone** | familia | |
+| USAC Marine Corps | **Cuerpo de Marines de la USAC** | propuesta | |
+| field backpack | **mochila de campaña** | propuesta | |
+| registered (certificado) | **nominativo** | propuesta | El bono solo lo gasta su titular |
+| wetware material | **material biológico** | propuesta | La bolsa para cadáveres |
+| hellhound | **sabueso del infierno** | propuesta | El apodo del M7 cobalto |
+
+**HESCO no se explica con la fórmula:** no es una sigla sino la marca del fabricante, y la descripción
+del muro lo dice en una frase («HESCO es la marca de su fabricante»).
+
 ## Permisos y títulos (al estilo de Royalty)
 
 | Inglés | Español | Origen | Notas |
