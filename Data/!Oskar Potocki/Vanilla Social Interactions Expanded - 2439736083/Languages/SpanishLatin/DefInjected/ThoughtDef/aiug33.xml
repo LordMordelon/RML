@@ -107,7 +107,7 @@
   <!-- EN: {OTHERPAWN_nameDef} threw a tantrum. {OTHERPAWN_pronoun} needs to be taught some self control -->
   <VSIE_ThrewTantrum.stages.0.label>{OTHERPAWN_nameDef} tuvo una rabieta. Necesita aprender un poco de autocontrol</VSIE_ThrewTantrum.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} went berserk. I can never feel safe around {OTHERPAWN_objective} -->
-  <VSIE_WentBerserk.stages.0.label>{OTHERPAWN_nameDef} se volvió loco. Nunca podré sentirme seguro cerca de {OTHERPAWN_pronoun}</VSIE_WentBerserk.stages.0.label>
+  <VSIE_WentBerserk.stages.0.label>{OTHERPAWN_nameDef} se volvió loc{OTHERPAWN_gender ? o : a}. Nunca podré sentirme segur{PAWN_gender ? o : a} cerca de {OTHERPAWN_pronoun}</VSIE_WentBerserk.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} went on a fire starting spree. It was so close and everything we know would have turned to ash. How can I forgive that? -->
   <VSIE_WentOnFireStartingSpree.stages.0.label>{OTHERPAWN_nameDef} tuvo una racha de piromanía. Estuvo tan cerca y todo lo que conocemos se habría convertido en cenizas. ¿Cómo puedo perdonar eso?</VSIE_WentOnFireStartingSpree.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} went on a murderous rage. What if I’m {OTHERPAWN_possessive} next target? -->
@@ -125,7 +125,7 @@
   <!-- EN: {OTHERPAWN_nameDef} tamed a thrumbo. What a legendary feat! -->
   <VSIE_TamedThrumbo.stages.0.label>{OTHERPAWN_nameDef} domesticó un thrumbo. ¡Qué hazaña legendaria!</VSIE_TamedThrumbo.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} was previously our enemy. I don&apos;t trust {OTHERPAWN_objective} -->
-  <VSIE_WasPreviouslyOurEnemy.stages.0.label>{OTHERPAWN_nameDef} era anteriormente nuestro enemigo. No confío en {OTHERPAWN_pronoun}</VSIE_WasPreviouslyOurEnemy.stages.0.label>
+  <VSIE_WasPreviouslyOurEnemy.stages.0.label>{OTHERPAWN_nameDef} era anteriormente nuestr{OTHERPAWN_gender ? o : a} enemig{OTHERPAWN_gender ? o : a}. No confío en {OTHERPAWN_pronoun}</VSIE_WasPreviouslyOurEnemy.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} was badly injured in battle. I admire {OTHERPAWN_possessive} courage -->
   <VSIE_WasBadlyInjured.stages.0.label>{OTHERPAWN_nameDef} resultó gravemente herido en la batalla. Admiro su coraje</VSIE_WasBadlyInjured.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} didn&apos;t attend our wedding ceremony! Was it so hard to come and just be with me on that day? -->
@@ -155,7 +155,7 @@
   <!-- EN: {SECONDPAWN_nameDef} saved me from {THIRDPAWN_kindDef}, I will always be in {SECONDPAWN_possessive} debt -->
   <VSIE_SavedMeFromRaiders.stages.0.label>{SECONDPAWN_nameDef} me salvó de {THIRDPAWN_kindDef}, siempre estaré en deuda con {SECONDPAWN_pronoun}</VSIE_SavedMeFromRaiders.stages.0.label>
   <!-- EN: {SECONDPAWN_nameDef} cured my {0} {THIRDPAWN_nameDef}, I will always be grateful to {SECONDPAWN_objective} -->
-  <VSIE_CuredMyFriend.stages.0.label>{SECONDPAWN_nameDef} curó a mi {0} {THIRDPAWN_nameDef}, siempre estaré agradecido con {SECONDPAWN_pronoun}</VSIE_CuredMyFriend.stages.0.label>
+  <VSIE_CuredMyFriend.stages.0.label>{SECONDPAWN_nameDef} curó a mi {0} {THIRDPAWN_nameDef}, siempre estaré agradecid{PAWN_gender ? o : a} con {SECONDPAWN_pronoun}</VSIE_CuredMyFriend.stages.0.label>
   <!-- EN: {THIRDPAWN_nameDef} stole {SECONDPAWN_nameDef} away from me. What makes {THIRDPAWN_objective} so much better? -->
   <VSIE_StoleMyLover.stages.0.label>{THIRDPAWN_nameDef} me robó a {SECONDPAWN_nameDef}. ¿Qué hace que {THIRDPAWN_objective} sea mucho mejor?</VSIE_StoleMyLover.stages.0.label>
   <!-- EN: {OTHERPAWN_nameDef} is royalty. I’m impressed -->
