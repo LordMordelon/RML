@@ -57,16 +57,17 @@ Es cerca de diez veces VFE - Tribals. Las lecciones son el 73 % del texto.
 
 3. **Tabla y script: aprobado** («aplícalo donde sea posible, pero revísalo luego para que coincida y
    no haya errores»). Se escribe una tabla clave → traducción (escrita a mano, una por una) y un script
-   la copia solo sobre los `TODO`. Después se revisa. Las herramientas están fuera de los dos repos,
-   en `Traducciones RimWorld/herramientas-traduccion/`:
-   - `aplicar.py <tabla.tsv> <xml>...`: solo reemplaza renglones `<clave>TODO</clave>` cuya clave
-     esté en la tabla; rechaza `<`, `>` o `&` sin escapar, y no escribe si el XML no queda válido.
-     Respeta los saltos de línea (CRLF y LF) del archivo.
-   - `revisar.py <original> <traducido>`: que fuera de los `TODO` no haya cambiado ni un byte, y que
-     cada traducción tenga los mismos marcadores (`{0}`, `[X]`, colores) y los mismos saltos de línea
-     que el inglés. Los saltos del comentario se escriben `\n` en la traducción. El original es el de
-     `HEAD` (`git show HEAD:<ruta> > copia.xml`).
-   - `terminos.py <xml>...`: avisa cuando el inglés tiene un término de la tabla y el español no
+   la copia solo sobre los `TODO`. Después se revisa. Desde el 26-oct-2026 las herramientas son
+   órdenes de `RML/Herramientas/traducir.py` (cómo se usa cada una, al principio del archivo):
+   - `tabla <mod> --palabras N --salida <tabla.tsv>`: la tabla de la tanda, con el inglés arriba de
+     cada clave.
+   - `aplicar <mod> <tabla.tsv>`: solo reemplaza `TODO` cuya clave esté en la tabla; rechaza `<`, `>`
+     o `&` sin escapar, y no escribe si el XML no queda válido. Respeta los saltos de línea (CRLF y LF)
+     del archivo. Guarda una copia de antes y en el mismo informe corre las tres órdenes de abajo.
+   - `revisar <mod> [--contra HEAD]`: que fuera de los `TODO` no haya cambiado ni un byte, y que cada
+     traducción conserve lo del inglés (marcadores, colores, saltos de línea). Los saltos del
+     comentario se escriben `\n` en la traducción.
+   - `terminos <mod>`: avisa cuando el inglés tiene un término del glosario del mod y el español no
      tiene su traducción acordada.
 
 **Términos que salieron al traducir** (para usar igual en las lecciones): psycaster → psicoemisor;
@@ -120,6 +121,6 @@ sesión deja anotado acá hasta dónde llegó.
 ## Próxima sesión
 
 Lecciones de `ConceptDef/uq1759.xml`, en tandas de unas 115 lecciones. Por tanda: leer los ingleses
-pendientes, escribir la tabla en la carpeta temporal, `aplicar.py`, `revisar.py` contra `HEAD` y
-`terminos.py`. Al llegar a los botones de la ventana (Overview, People, Buildings, Deliveries y los
+pendientes con `traducir.py tabla`, escribir la tabla en la carpeta temporal y copiarla con
+`traducir.py aplicar`, que en el mismo informe revisa y busca los términos. Al llegar a los botones de la ventana (Overview, People, Buildings, Deliveries y los
 demás), fijar su traducción y anotarla en la tabla de términos de este plan antes de seguir.
