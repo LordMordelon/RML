@@ -28,8 +28,13 @@ La oficial se lee de los `.tar` del juego, sacados a la carpeta temporal con
 
 ## Paso 1: el glosario principal
 
+**Hecho el 27-oct-2026.** Además de la tabla, se sumaron las filas de las decisiones de Angel: *tile* = «celda»,
+*cooldown* = «enfriamiento» e *idle* = «ocioso» (una caravana o una torreta quieta es «inactiva», como en el juego),
+y *drop pod raid* pasó a «asalto en cápsulas de escape». `cotejar.py` solo avisa de *tile* = «baldosa», que es el
+piso: es esperado. Cada fila dice cuántos usos viejos quedan en RML para el paso 4.
+
 Cotejado contra la oficial, no choca en ninguna fila: la pasada del 25-oct ya lo había corregido. Está
-ordenado y sin filas repetidas. Faltan estos arreglos:
+ordenado y sin filas repetidas. Faltaban estos arreglos:
 
 | Fila | Dice | La oficial | Arreglo | Usos en RML |
 |---|---|---|---|---|

@@ -19,13 +19,13 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | bandwidth | **banda ancha** | Término oficial de RimWorld ES. Capacidad de control de mecas del mecanizador. NO "ancho de banda" |
 | (mech) command casket | **sarcófago de mando** | Coherente con el "Sarcófago de criptosueño" vanilla. NO "ataúd de mando" |
 | control group | **grupo de control** | |
-| command range | rango de mando / alcance de mando | |
+| command range | **rango del comando** | Oficial («Fuera de rango del comando», `OutOfCommandRange`). Decía «rango de mando / alcance de mando» hasta el 27-oct-2026. Pendiente: 9 usos de «alcance de mando» en 5 archivos de RML |
 | mech gestator | **gestador de mecas** | |
 | large mech gestator | **gran gestador de mecas** | Oficial vanilla. NO "gestador de mecas grande" |
 | gestation cycle / gestate | ciclo de gestación / gestar | |
 | (mech) recharger / charger | **cargador de mecas** | Oficial vanilla. NO "recargador"; el proceso/verbo sí es "recarga"/"recargar" |
 | large mech recharger | **gran cargador de mecas** | Oficial vanilla. Mismo patrón que "gran gestador de mecas": el adjetivo va **delante**, NO "cargador de mecas grande" |
-| supercharger | sobrecargador | |
+| (neural) supercharger | **supercargador (neural)** | Oficial (`NeuralSupercharger`). Decía «sobrecargador» hasta el 27-oct-2026 (sin usos en RML) |
 | mech booster | **potenciador meca** | Oficial (`MechBooster`). Decía «acelerador de mecas» hasta el 25-oct-2026 (sin usos en RML) |
 | mech cluster | **clúster de mecas** | Oficial (`MechCluster`). Decía «clúster mecanoide» hasta el 25-oct-2026. Pendiente: 4 usos en 3 archivos de RML |
 | mechhive / mech hive | **mecacolmena** | Oficial vanilla. NO "colmena mecanoide" |
@@ -40,8 +40,9 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | sub-persona (dentro del subnúcleo) | **sub-IA** | "boring/thinking/sophisticated sub-persona" → sub-IA aburrida / pensante / sofisticada |
 | psychoid substrate | **sustrato psicodinámico** | |
 | subcore encoder | codificador de subnúcleos | |
-| subcore scanner / softscanner | escáner de subnúcleos | |
-| ripscanner | **escanecorte** / escáner de corte | Escáner de extracción destructivo |
+| subcore scanner (cualquiera de los dos) | **escáner de subnúcleos** | Oficial en los trabajos («entrar al escáner de subnúcleos») |
+| (subcore) softscanner | **flexiescáner de subnúcleos** | Oficial (`SubcoreSoftscanner`). El que no mata |
+| (subcore) ripscanner | **rasgaescáner de subnúcleos** | Oficial (`SubcoreRipscanner`). Escáner de extracción destructivo. Decía «escanecorte / escáner de corte» hasta el 27-oct-2026. Pendiente: 2 usos de «escanecorte» en 2 archivos de RML |
 | band node | nodo de banda | |
 | band apparatus | aparato de banda | |
 | signal chip | **chip de señalización** | Oficial vanilla. Recompensa de Diabolus. NO "chip de señal" |
@@ -155,12 +156,15 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | frame (estructura interna) | estructura | *"frame stabilizer"* → estabilizador de estructura |
 | ghoul | **necrófago** | NO "caminante" |
 | shambler | **caminante** | Entidad de Anomaly |
-| creepjoiner | forastero anómalo | |
+| creepjoiner | forastero anómalo | **Propuesta, no oficial**: el juego no lo nombra en pantalla (`CreepJoiner` sale como «humano»). Sin usos en RML |
 | entity | entidad | Término de Anomaly |
-| raid / assault | asalto / incursión | |
+| raid / assault | **asalto** | Oficial (`Raid`, «asalto enemigo»: 46 usos contra 12 de «incursión», que sale sobre todo en las historias). Decidido por Angel el 27-oct-2026. «Incursión» queda para *incursion*. Pendiente: revisar los 52 usos de «incursión» en 17 archivos de RML, uno por uno con su inglés: solo se cambian los que vienen de *raid* |
 | EMP | **PEM** | Oficial: «granadas PEM», «obús PEM», «lanzagranadas PEM», el daño `EMP`. Lo usan así Combat Extended y el `ARMAS-DMS.md` de DMS. Hasta el 25-oct-2026 la familia DMS y Fortified Features Framework lo dejaban como «EMP»: sus glosarios ya dicen «PEM» y sus textos quedan pendientes |
 | siege | asedio | |
-| drop pod raid | incursión en cápsulas de escape | |
+| drop pod raid | **asalto en cápsulas de escape** | Sigue a *raid* y *drop pod*. Decía «incursión en cápsulas de escape» hasta el 27-oct-2026 |
+| tile (del mapa o del mundo) | **celda** | Oficial: «Inspector de celdas», «Esta celda está ocupada», «celdas/día» (23 usos, contra 4 de «casilla»). Decidido por Angel el 27-oct-2026. «Baldosa» es el piso. Pendiente: revisar los 298 usos de «casilla» en 70 archivos de RML, uno por uno con su inglés: una casilla para marcar (*checkbox*) se queda |
+| cooldown | **enfriamiento** | Oficial («Enfriamiento de vuelo», «Enfriamiento CaC»). Decidido por Angel el 27-oct-2026, también para RimPacts |
+| idle (colono sin trabajo) | **ocioso** | Oficial («1 colono ocioso», `ActivityIconIdle`). Una caravana o una torreta quieta es **inactiva**, como en el juego («Caravana inactiva»). Pendiente: revisar los 40 «Inactivo» de RML que vienen de *idle*, uno por uno |
 | loot | botín | |
 | quest | misión | |
 | quest expired | misión expirada | |
