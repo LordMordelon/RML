@@ -164,6 +164,40 @@ Antes que el código, como pide la forma de trabajo:
 | Avisos de términos que no son errores (ruido) | Resumen por término en vez de uno por entrada; los avisos son para mirar, no bloquean |
 | La nube no tiene Python o se llama `python3` | Se documentan los dos nombres; el comando no usa bibliotecas de afuera |
 
+## Etapa 2 (opcional): informe de términos viejos
+
+Se hace después de la etapa 1, en su propia sesión, y solo si Angel la aprueba aparte.
+
+**Para qué.** Desde el 25-oct-2026, si un glosario contradice a la traducción oficial, gana la oficial. Los
+glosarios ya se corrigieron, pero los textos traducidos antes siguen con el término viejo. La lista de
+pendientes está en «Pendientes fuera de este plan» de `PLAN-AOBAKUMA.md`, contada a mano ese día: «lanzadera»
+(172 usos en 40 archivos), «entropía psíquica» (26), «abrasador» (22), «psiconjuro» (14), «EMP» (15),
+«calor neuronal» (7) y otros más chicos. Esa cuenta envejece con cada traducción nueva.
+
+**Qué hace.** Una orden más, `traducir.py viejos [mod]`, **de solo lectura**: recorre RML y dice, por término
+y por mod, cuántos textos tienen todavía el término viejo y cuáles son (archivo y clave). Al final da el total.
+
+- **La lista de términos** va en un archivo, `Herramientas/terminos-viejos.tsv`: término viejo, término
+  correcto y una nota. Se arma con los pendientes de `PLAN-AOBAKUMA.md` y las filas de los glosarios que dicen
+  «Decía…». Un término que se corrige en un glosario se suma ahí en el mismo commit.
+- **Busca palabras enteras**, sin distinguir mayúsculas, y mira solo el texto traducido: no cuenta los
+  comentarios `EN:` ni los `TODO`, y no abre los `UNUSED.xml`.
+- **Los dudosos se marcan, no se cuentan como error.** «Abrasador» a veces es el adjetivo y está bien; esos
+  términos llevan la marca «revisar» en la lista y el informe los muestra aparte.
+- **Los mods congelados** (el DMS de 1.6) salen aparte, porque a propósito no se corrigen.
+
+**Qué no hace.** No corrige nada. Las correcciones siguen a mano, mod por mod y mirando cada caso, con
+`corregir` (que comprueba el valor viejo antes de cambiarlo), un commit por mod y las tres comprobaciones del
+diff.
+
+**Pruebas.** Con archivos chicos de ejemplo: que encuentre la palabra entera y no un pedazo («lanzaderas» sí,
+otra palabra que la contenga no), que salte comentarios, `TODO` y `UNUSED.xml`, y que separe los dudosos y los
+congelados. Y una comparación con la cuenta a mano de `PLAN-AOBAKUMA.md`: si las cifras no coinciden, se
+explica la diferencia antes de dar el informe por bueno.
+
+**Terminado cuando:** las pruebas pasan, el informe de todo RML queda al día en `PLAN-AOBAKUMA.md` (en lugar
+de la cuenta a mano) y `AGENTS.md` dice cómo correrlo. Es media sesión, estimada.
+
 ## Decisiones de Angel
 
 1. **Dónde:** `RML/Herramientas/` (recomendado) o dejarlo fuera de git.
@@ -172,8 +206,8 @@ Antes que el código, como pide la forma de trabajo:
 4. **Sugerencias de RML en la tabla:** si un inglés idéntico ya está traducido en otro mod, `tabla` lo
    muestra como comentario (`# RML: cañón (14)`) y la traducción se sigue escribiendo a mano. Recomendado: sí.
    Nunca se copia sola.
-5. **Informe de términos viejos** (cuántos «lanzadera», «EMP»… quedan, mod por mod): recomendado dejarlo
-   para después, en otra sesión.
+5. **Etapa 2, el informe de términos viejos** (arriba): aprobarla aparte, para después de la etapa 1.
+   Recomendado: sí, en su propia sesión, justo antes de empezar las correcciones de términos.
 6. **Borrar `herramientas-traduccion/`** cuando la migración esté probada y no haya otra sesión usándola.
 
 ## Sesiones (estimación)
