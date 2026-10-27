@@ -138,3 +138,5 @@ general o por sus siglas en inglés GPMG (general-purpose machine gun)…».
 - **La ideología corporativa** (`CultureDef` «Zenith Ascension»: propuesta **Ascensión Cénit**) arma
   nombres con `[corpdomain]`, `[corpeventtheme]`, `[cultureleadertitle]`: cada símbolo se traduce con
   opciones del mismo género que pida la regla que lo usa, igual que arriba.
+- **«this world's enlightenment»** (la facción, *A vast corporation born out of…*): «la ilustración de este
+  mundo», por el *Enlightened World* de Expedition, que es «mundoilustrado» (Angel, 26-oct-2026).

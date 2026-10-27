@@ -171,7 +171,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | rimworld | **mundoborde** | Término oficial del juego para los planetas del borde. NO "mundo del borde" (13 usos en 5 archivos de RML, el 26-oct-2026). En los mods de AobaKuma también *Edge World* |
 | midworld / glitterworld / urbworld | **mundomedio** / **mundobrillante** / **mundourbano** | Oficial. En una palabra y en minúscula; el plural es «mundobrillantes» |
 | coreworld / steamworld / iceworld / deadworld | **mundonúcleo** / **mundovapor** / **mundohielo** / **mundomuerto** | Oficial |
-| Enlightened World | **mundoilustrado** | Propuesta (Expedition, AobaKuma), armada como los oficiales |
+| Enlightened World | **mundoilustrado** | Aprobado por Angel el 26-oct-2026 (Expedition, AobaKuma), armado como los oficiales. *Enlightenment* es «ilustración» |
 | indworld / industrial world / medieval world / toxic world | **mundoindustrial** / **mundo industrial** / **mundo medieval** / **mundo tóxico** | Oficial: en dos palabras cuando el inglés también las separa |
 
 ---

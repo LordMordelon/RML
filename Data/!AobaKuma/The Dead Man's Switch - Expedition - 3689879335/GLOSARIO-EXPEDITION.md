@@ -225,7 +225,7 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | Scorer MLS | **Scorer MLS** | — | Nombre tal cual; la descripción explica MLS: «sistema de lanzamiento de misiles» |
 | Squall | **turbonada** | propuesta | Nombre de torreta traducido, en minúscula, como «hoja del alba» |
 | Edge World | **mundoborde** | oficial | Es el *rimworld* del juego: el mod dice que el sistema se llama «Rim World» o «Edge World» (el nombre chino de RimWorld). Los demás tipos de mundo, en `RML/GLOSARIO.md` |
-| Enlightened World | **mundoilustrado** | propuesta | Sin equivalente oficial: los mundos avanzados de donde vienen las flotas. Armado como los del juego (*glitterworld*, «mundobrillante»): una palabra y minúscula; «ilustrado» por la Ilustración (*the Enlightenment*). Un solo uso (`DMSE_FusionCore`), en plural: «los mundoilustrados» |
+| Enlightened World | **mundoilustrado** | Angel, 26-oct-2026 | Sin equivalente oficial: los mundos avanzados de donde vienen las flotas. Armado como los del juego (*glitterworld*, «mundobrillante»): una palabra y minúscula; «ilustrado» por la Ilustración (*the Enlightenment*). Un solo uso (`DMSE_FusionCore`), en plural: «los mundoilustrados» |
 | pre-spacer planets | **planetas anteriores a la era espacial** | propuesta | |
 
 ## Para revisar en contexto
