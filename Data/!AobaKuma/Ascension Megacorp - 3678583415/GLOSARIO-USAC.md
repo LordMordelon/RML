@@ -71,6 +71,29 @@ general o por sus siglas en inglés GPMG (general-purpose machine gun)…».
 | temporary airbase / artillery position | **base aérea temporal** / **posición de artillería** | propuesta | |
 | commercial raid / mining raid | **incursión comercial** / **incursión minera** | propuesta | |
 
+## La terminal (`Keyed`, 26-27-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| settlement (pago) / orbital settlement network | **liquidación** / **red orbital de liquidación** | propuesta | «Liquidación de intereses», «Liquidación USAC: {0}» |
+| missed payment | **pago incumplido** | propuesta | «pago incumplido n.º {1}», «Pagos incumplidos: {0}» |
+| repay principal / repayment | **amortizar capital** / **amortización del capital** | propuesta | |
+| surcharge / quarterly free allowance | **recargo** / **cupo gratuito del trimestre** | propuesta | |
+| written off / settled | **cancelada** / **saldada** | propuesta | La deuda «se canceló», «saldada (compra con plata)» |
+| Debt Management Department | **Departamento de Gestión de Deudas** | propuesta | Con mayúsculas cuando es el nombre propio, como en el inglés |
+| trade beacon | **baliza de comercio orbital** | oficial | Siempre entera, aunque el inglés diga solo *trade beacon* |
+| orbital gripper / transport clamp | **pinza orbital** / **pinza de transporte** | propuesta | |
+| lease / mining rig | **arrendamiento** / **equipo de minería** | propuesta | |
+| lost as change (USAC no da vuelto) | **perdido por falta de cambio** | propuesta | «cambio», no «vuelto», que es regional |
+| rimworld | **mundoborde** | oficial | Como en `RML/GLOSARIO.md` |
+| Patriot Financial Security Act | **Ley Patriota de Seguridad Financiera** | propuesta | |
+| Hibernate (meca) | **Hibernar** / **hibernación** | propuesta | |
+| Stat labels (MOVE_SPEED…) | **VELOCIDAD_DE_MOVIMIENTO**, **ARMADURA_CORTANTE**, **PENETRACIÓN_DE_ARMADURA**, **POTENCIAL_MÉDICO** | oficial | Los nombres oficiales de cada estadística, enteros y sin abreviar aunque el inglés abrevie (*ARMOR_PEN*, *INSUL_COLD*) |
+
+`TraderArrival`, `TraderArrivalFromFaction` y `TraderArrivalNoFaction` son claves del juego que el mod
+reemplaza con su propio texto: van traducidas desde el inglés del mod, no copiadas de la oficial (que dice
+otra cosa y usa `{FACTION_name}`; el mod usa `{FACTION}`).
+
 ## Permisos y títulos (al estilo de Royalty)
 
 | Inglés | Español | Origen | Notas |
