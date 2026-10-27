@@ -87,7 +87,12 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
   de punta hueca», «balas PEM», «recarga rápida», «ligero», «feo», «torpe», «ornamental»). Los que no
   existen en el juego (*light barrel*, *heavy receiver*, *choke*, *tactical front grip*…) son
   propuestas: «cañón ligero», «cajón de mecanismos pesado», «estrangulador», «empuñadura frontal
-  táctica».
+  táctica». Los demás propios, del 27-oct-2026: *flechette* «flechettes» (como en CE), *gourd* «calabaza»
+  (el arma de los tentáculos), *medication* «medicamento» («medicamento erosivo»), *extra great sword* /
+  *swift sword* «espada extragrande» / «espada veloz» (tipos de munición, entre «»), *grid tentacle*
+  «tentáculo reticular», *polymer pointer* «puntero de polímero», *shorted magazine* «cargador reducido».
+- **Partes del cuerpo de los mecas**: como Lancer, «meñique izquierdo» y «pie izquierdo»; el cinder, como
+  el humano, «dedo meñique izquierdo» y los dedos del pie de la oficial («4º dedo pie izquierdo»).
 - **Nombres de armas únicas** (`RulePackDef`): las reglas copian `RulePacks_Namers_UniqueWeapons.xml`
   de Odyssey. Se traducen como las oficiales, regla por regla.
 - **Genes de cabello**: como los oficiales de Biotech: «cabello negro», «cabello blanco», «cabello
