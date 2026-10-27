@@ -49,7 +49,7 @@ cortos.
 1. **Tabla y script, como en Hegemony: aprobado, con una condición** («sí, solo si se traducen
    naturalmente, y revisa el resultado»). A mano serían más de 4.000 ediciones sueltas. Cada traducción
    se escribe a mano, una por una, en una tabla clave → traducción; el script
-   (`Traducciones RimWorld/herramientas-traduccion/aplicar.py`) solo la copia sobre los `TODO`. La
+   (hoy `Herramientas/traducir.py aplicar`) solo la copia sobre los `TODO`. La
    condición quiere decir dos cosas:
    - **Que suene a español, no a inglés traducido.** Reordenar la frase cuando haga falta, nada de
      calcos («Ahora mismo no hay compañías de mercenarios disponibles», no «No hay compañías de
@@ -91,7 +91,10 @@ glosario.
 | 3 | 4017 a 6361 | unas 1.150 | unas 10.000 |
 | 4 | 6362 al final | unas 1.020 | unas 7.900 |
 
-Por tanda, con las herramientas de `Traducciones RimWorld/herramientas-traduccion/`:
+Por tanda, con los scripts sueltos de entonces. Desde el 26-oct-2026 son órdenes de
+`Herramientas/traducir.py`: `pendientes.py` es `tabla`, `aplicar.py` y `revisar.py` son `aplicar` y
+`revisar`, `terminos-rimpacts.py` es `terminos` (lee `GLOSARIO-RIMPACTS.md`), `fin-de-linea.py` es
+`lineas` y `corregir.py` es `corregir`.
 
 1. Al empezar la sesión, copiar `Languages/` a la carpeta temporal de la sesión. Es el original para
    `revisar.py`: como la carpeta no está commiteada, no hay `HEAD` contra el cual comparar, y la
@@ -187,5 +190,5 @@ deja anotado acá hasta dónde llegó.
 
 Solo falta la prueba en el juego (etapa 4), que hace Angel: la pestaña Diplomacia, firmar un tratado,
 los ajustes del mod, la ventana de la guerra mundial, la de la compañía de mercenarios y el informe de
-traducción (para ver lo de las razas opcionales). Lo que salga se corrige con `corregir.py`, un commit
+traducción (para ver lo de las razas opcionales). Lo que salga se corrige con `traducir.py corregir`, un commit
 por arreglo. Push solo cuando Angel lo diga.
