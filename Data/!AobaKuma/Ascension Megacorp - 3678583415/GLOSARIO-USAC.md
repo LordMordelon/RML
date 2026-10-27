@@ -202,6 +202,14 @@ Siete campos de `p1o6dh.xml` son nombres internos del guion (`$siteLabel`, `usac
 | vertical / horizontal rotor | **rotor vertical** / **horizontal** | propuesta |
 | mount lock / range finder | **traba de montaje** / **telémetro** | propuesta |
 | left / right mechanical leg | **pierna mecánica izquierda** / **derecha** | propuesta |
+| leg / front leg / back leg (de meca) | **pierna** / **pierna delantera** / **pierna trasera** | oficial (los mecas del juego, Lancer y Pikeman, dicen «pierna», no «pata») |
+| left / right mechanical shoulder | **hombro mecánico izquierdo** / **derecho** | oficial, con un orden: la oficial dice «hombro izquierdo mecánico» y «hombro mecánico derecho»; se usa el segundo para los dos |
+| fluid reprocessor | **reprocesador de fluidos** | propuesta, como el «reprocesador estomacal» de Biotech |
+| searching sensor (main, top) / infrared sensor | **sensor de búsqueda** (principal, superior) / **sensor infrarrojo** | propuesta |
+| weapon mount / ammo feeder | **soporte de arma** / **alimentador de munición** | propuesta |
+| trigger safety / weapon safety | **seguro del gatillo** / **seguro del arma** | propuesta |
+| battery array (main, secondary) | **conjunto de baterías** (principal, secundario) | propuesta |
+| erectus soldat / quadruped / bipedal / synth | **soldado erectus** / **cuadrúpedo** / **bípedo** / **sintético** | propuesta (los nombres de los cuerpos) |
 
 ## Nombres generados (`RulePackDef`)
 
