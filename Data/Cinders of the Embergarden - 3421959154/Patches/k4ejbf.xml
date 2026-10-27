@@ -12,7 +12,7 @@
           <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[2]/customSummary</xpath>
           <value>
             <!-- EN: Start with three cinders. -->
-            <customSummary>TODO</customSummary>
+            <customSummary>Comienzas con tres cinders.</customSummary>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -20,7 +20,7 @@
           <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[2]/xenotypeCounts/li[1]/description</xpath>
           <value>
             <!-- EN: non-baby Cinder -->
-            <description>TODO</description>
+            <description>no es un bebé cinder</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -28,7 +28,7 @@
           <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[2]/customSummary</xpath>
           <value>
             <!-- EN: Start with one cinders. -->
-            <customSummary>TODO</customSummary>
+            <customSummary>Comienzas con un cinder.</customSummary>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -36,7 +36,7 @@
           <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[2]/xenotypeCounts/li[1]/description</xpath>
           <value>
             <!-- EN: non-baby Cinder -->
-            <description>TODO</description>
+            <description>no es un bebé cinder</description>
           </value>
         </li>
       </operations>
@@ -53,7 +53,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -61,7 +61,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -69,7 +69,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -77,7 +77,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -85,7 +85,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -93,7 +93,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -101,7 +101,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -109,7 +109,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -117,7 +117,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -125,7 +125,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -133,7 +133,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -141,7 +141,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -149,7 +149,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -157,7 +157,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -165,7 +165,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -173,7 +173,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -181,7 +181,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -189,7 +189,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -197,7 +197,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -205,7 +205,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -213,7 +213,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -221,7 +221,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -229,7 +229,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -237,7 +237,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -245,7 +245,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -253,7 +253,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -261,7 +261,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -269,7 +269,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Left tentacle -->
-              <label>TODO</label>
+              <label>tentáculo izquierdo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -277,7 +277,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: right tentacle -->
-              <label>TODO</label>
+              <label>tentáculo derecho</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -285,7 +285,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: Front tentacle -->
-              <label>TODO</label>
+              <label>tentáculo delantero</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -293,7 +293,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -301,7 +301,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -309,7 +309,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -317,7 +317,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -325,7 +325,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -333,7 +333,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -341,7 +341,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -349,7 +349,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -357,7 +357,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -365,7 +365,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -373,7 +373,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -381,7 +381,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -389,7 +389,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_Dragonslayer"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -397,7 +397,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_ErosionGourd"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Tentacle blade -->
-              <label>TODO</label>
+              <label>hoja de tentáculo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -405,7 +405,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatsword"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: Tentacle blade -->
-              <label>TODO</label>
+              <label>hoja de tentáculo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -413,7 +413,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_ErosionGourd"]/description</xpath>
             <value>
               <!-- EN: A strange gourd,Can release tentacles to stab enemies in the distance,occasionally this thing grows some strange tentacles. \n CE data：  damage：20  AP：80Mpa -->
-              <description>TODO</description>
+              <description>Una calabaza extraña que puede soltar tentáculos para apuñalar enemigos a distancia. A veces le crecen tentáculos extraños. \n Datos de CE: daño: 20; penetración de blindaje: 80 MPa</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -421,7 +421,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_ImpactBreaker"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: head -->
-              <label>TODO</label>
+              <label>cabeza</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -429,7 +429,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_ElectricScythe"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: handle -->
-              <label>TODO</label>
+              <label>mango</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -437,7 +437,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_ElectricScythe"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: edge -->
-              <label>TODO</label>
+              <label>filo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -445,7 +445,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_HighFrequencySaw"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: point -->
-              <label>TODO</label>
+              <label>punta</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -453,7 +453,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_HighFrequencySaw"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: edge -->
-              <label>TODO</label>
+              <label>filo</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -461,7 +461,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatswordM"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: point -->
-              <label>TODO</label>
+              <label>punta</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -469,7 +469,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatswordM"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: edge -->
-              <label>TODO</label>
+              <label>filo</label>
             </value>
           </li>
         </operations>
@@ -491,7 +491,7 @@
               <xpath>/Defs/ThingDef[defName="Alien_Cinder"]/tools/li[1]/label</xpath>
               <value>
                 <!-- EN: left fist -->
-                <label>TODO</label>
+                <label>puño izquierdo</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -499,7 +499,7 @@
               <xpath>/Defs/ThingDef[defName="Alien_Cinder"]/tools/li[2]/label</xpath>
               <value>
                 <!-- EN: right fist -->
-                <label>TODO</label>
+                <label>puño derecho</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -507,7 +507,7 @@
               <xpath>/Defs/ThingDef[defName="Alien_Cinder"]/tools/li[3]/label</xpath>
               <value>
                 <!-- EN: teeth -->
-                <label>TODO</label>
+                <label>dientes</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -515,7 +515,7 @@
               <xpath>/Defs/ThingDef[defName="Alien_Cinder"]/tools/li[4]/label</xpath>
               <value>
                 <!-- EN: head -->
-                <label>TODO</label>
+                <label>cabeza</label>
               </value>
             </li>
           </operations>
@@ -540,7 +540,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: stock -->
-              <label>TODO</label>
+              <label>culata</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -548,7 +548,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[2]/label</xpath>
             <value>
               <!-- EN: barrel -->
-              <label>TODO</label>
+              <label>cañón</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -556,7 +556,7 @@
             <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[3]/label</xpath>
             <value>
               <!-- EN: muzzle -->
-              <label>TODO</label>
+              <label>boca del cañón</label>
             </value>
           </li>
         </operations>
