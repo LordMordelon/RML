@@ -224,7 +224,8 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | Graphene bio-reactor / rotary forger / organic assembler | **biorreactor de grafeno** / **forjadora rotativa** / **ensamblador orgánico** | propuesta | |
 | Scorer MLS | **Scorer MLS** | — | Nombre tal cual; la descripción explica MLS: «sistema de lanzamiento de misiles» |
 | Squall | **turbonada** | propuesta | Nombre de torreta traducido, en minúscula, como «hoja del alba» |
-| Edge World / Enlightened World | **Mundo del Borde** / **Mundo Iluminado** | propuesta | Lugares del trasfondo de la familia; «mundo del borde» ya está en RML |
+| Edge World | **mundoborde** | oficial | Es el *rimworld* del juego: el mod dice que el sistema se llama «Rim World» o «Edge World» (el nombre chino de RimWorld). Los demás tipos de mundo, en `RML/GLOSARIO.md` |
+| Enlightened World | **Mundo Iluminado** | propuesta | Sin equivalente oficial: los mundos avanzados de donde vienen las flotas. Un solo uso (`DMSE_FusionCore`) |
 | pre-spacer planets | **planetas anteriores a la era espacial** | propuesta | |
 
 ## Para revisar en contexto
