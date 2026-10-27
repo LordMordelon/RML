@@ -343,6 +343,11 @@ caminantes con tentáculos, un culto y la narradora Fumée.
   `HairDef` y su categoría, y `ThingDef` hasta pasar la mitad (247 de 462). Lo que vino de la oficial
   (partes del cuerpo, rasgos de Odyssey, genes de pelo de Biotech, torretas y textos de análisis de Core
   y Anomaly) quedó tal cual. Términos nuevos en el glosario del mod.
+- **Sesión 2 hecha el 27-oct-2026** (`b51eeeba` a `a3d227a6`): el resto de `ThingDef` y las 114 recetas.
+  Quedan en `TODO` 8 descripciones de `ThingDef` cuyo inglés es literalmente «TODO» (armas montadas de los
+  mecas: el autor no las escribió); se dejan así, porque el juego mostraría lo mismo. Las recetas de munición
+  se escribieron a mano, fila por fila, con la plantilla oficial (en este mod no rige la excepción de
+  scripts de Combat Extended).
 
 ### Hemogen Pack - Emergency transfusion (5)
 
@@ -373,34 +378,35 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, decimocuarta)
+## Próxima sesión (27-oct-2026, decimoquinta)
 
-**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, segunda sesión.
+**Objetivo:** paso 7 del orden de trabajo: Cinders of the Embergarden, tercera sesión (los trasfondos).
 
-**Estado:** la primera sesión de Cinders está hecha (ver su sección; último commit `106f7039`, sin push).
-Quedan 1.000 `TODO` y 8.954 palabras (contados): `ThingDef` 215 (1.622 palabras), `RecipeDef` 114 (646),
-`BackstoryDef` 162 (3.456) y el resto chico.
+**Estado:** las sesiones 1 y 2 de Cinders están hechas (ver su sección; último commit `a3d227a6` más el de
+esta nota, todo sin push). Quedan 679 `TODO` y 6.694 palabras (contados): `BackstoryDef` 162 (3.456
+palabras), 8 de `ThingDef` que se dejan (su inglés es «TODO») y el resto chico (afecciones, reglas, `Keyed`,
+`Patches`, investigación…).
 
 **Antes de empezarla (Angel):**
-1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 7 commits locales).
+1. Si quieres que lo de hoy llegue a GitHub, decir «subir RML» (son 12 commits locales).
 
 **Al empezar (Claude):**
-1. Sacar la oficial a la carpeta temporal: los `.tar` de idioma volvieron a estar en
-   `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, sin desempaquetar. Con
-   `tar --force-local -xf "<.tar>" -C <carpeta>` para Core, Biotech, Odyssey, Ideology, Royalty y Anomaly.
-2. El resto de `ThingDef` (215, unas dos tandas de ~800 palabras) y `RecipeDef` (114, una tanda), con
-   `traducir.py tabla Cinders --archivo <tipo> --palabras 800`, `aplicar` y un commit por tanda. Caben en una
-   sesión.
-3. La tabla de `ThingDef` necesita la línea `## archivo: Languages/SpanishLatin/DefInjected/ThingDef/t3tjlh.xml`
-   arriba: `Cinder_AmorphousWall.label` está también en `AbilityDef` y sin ella `aplicar` se niega.
-4. Las recetas, con la plantilla oficial («fabricar …» / «Fabrica …» / «Fabricando …»); las armas, con las
-   reglas de `ARMAS-DMS.md` y los nombres que ya quedaron en `GLOSARIO-CINDERS.md`.
+1. Sacar la oficial a la carpeta temporal, como en la sesión 2: `tar --force-local -xf "<.tar>" -C <carpeta>`
+   con el `.tar` de `D:\SteamLibrary\steamapps\common\RimWorld\Data\<Core o DLC>\Languages\`, para Core,
+   Biotech, Odyssey, Ideology, Royalty y Anomaly.
+2. Los 162 trasfondos, con `traducir.py tabla Cinders --archivo BackstoryDef --palabras 800`, `aplicar` y un
+   commit por tanda: unas 4 o 5 tandas, caben en una sesión. Si sobra, seguir con `HediffDef` (66, 476
+   palabras).
+3. Trasfondos como la oficial: `{PAWN_gender ? o : a}` para el género y sin pronombres inventados (ver
+   «Reglas comunes»). El inglés viene del chino: traducir lo que quiere decir, sin agregar información.
+4. Sesión 4, después: afecciones, reglas de `RulePackDef`, `Keyed`, `Patches` y lo demás (unos 509 textos).
 
-**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, ropa) son propuestas anotadas
-en el glosario; se cambian si Angel quiere.
+**Decisiones de Angel:** ninguna pendiente. Los nombres nuevos (armas, mecas, vestidos) son propuestas
+anotadas en el glosario; se cambian si Angel quiere.
 
 **Ojo:** el informe de `aplicar` avisa «erosion sin erosión» cuando se escribió «erosivo/a», y «resurrect sin
-resucitar» con el verbo conjugado: son avisos falsos.
+resucitar» con el verbo conjugado: son avisos falsos. Nada de scripts que armen texto: ni siquiera las
+recetas de munición con plantilla (eso solo vale en Combat Extended).
 
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 

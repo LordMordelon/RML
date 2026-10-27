@@ -79,6 +79,13 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
 | war attacker / war sweeper / war striker / EXO | **atacante de guerra** / **barredor de guerra** / **golpeador de guerra** / **EXO** | propuesta | 27-oct. Mecas; «(Not Started)» es «(sin activar)» |
 | walker … turret | **torreta caminante de …** | oficial + familia | «torreta caminante de cañón automática», «lanzacohetes múltiple caminante»; el arma de cada una, como la oficial |
 | scav / maid / night service / exotic | **chatarrero** / **sirvienta** / **servicio nocturno** / **exótico** | propuesta | Ropa. «heightened libido»: «libido elevado», masculino como la oficial («libido alto») |
+| commemorative / snowy night / starry / shawl | **conmemorativo** / **noche nevada** / **estrellado** / **chal** | propuesta | 27-oct. Vestidos: «chal de noche nevada», «chal estrellado» |
+| Fume Greatsword | **gran espada Fume** | propuesta | 27-oct. *Fume* queda como nombre propio, con mayúscula, como «misil Hellfire» |
+| exoskeleton (el meca *eroded exoskeleton*) | **exoesqueleto** | propuesta | 27-oct. «exoesqueleto erosionado», «minigun de exoesqueleto»; el edificio sin activar sigue «EXO erosionado», como su inglés |
+| Imitation Tombstone / trailer / rocket pod | **lápida de imitación** / **remolque** / **contenedor de cohetes** | propuesta | 27-oct |
+| war walker | **caminante de guerra** | propuesta | 27-oct. La receta de resucitarlos, como la oficial de Biotech («resucitar mecanoide ultrapesado») |
+| eroded KPV HMG | **HMG KPV erosionada** | familia | 27-oct. La sigla explicada en la descripción: «ametralladora pesada (HMG)» |
+| mech serum | **suero mecanoide** | oficial | Como «suero sanador mecanoide» |
 
 ## Lo que se toma de la oficial
 
