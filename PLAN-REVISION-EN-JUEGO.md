@@ -13,8 +13,8 @@ en la sección 9 del [GLOSARIO.md](GLOSARIO.md).
   que RML había traducido. 10 volvieron al inglés: Cinders (2), RimPsyche (3), Work Modes, Void Universe, Graphics
   Setter, Manipulator Beam Emitter, Ancient Hydroponics y VE Framework - Outposts. Los tres nombres cortos de Vanilla
   Expanded («VE - Psycasts», «VE - Aspirations», «VE - Helixien Gas») ya estaban en inglés y se quedan.
-- **Falta: Hospitality.** Su clave `Hospitality` («Hospitalidad») se usa en 7 lugares del código, no solo como
-  nombre. Ver cuáles muestran texto (por ejemplo, la pestaña del huésped) antes de tocarla.
+- **Hospitality se queda «Hospitalidad»** (Angel, 27-oct): su clave se usa en 7 lugares del código, no solo como
+  nombre, y un nombre que se usa en otras partes se deja en español.
 - **Falta:** mirar en el juego que la lista salga entera en inglés. Los nombres escritos en el código de cada mod
   no pasan por RML.
 
@@ -45,9 +45,11 @@ corresponde, y ponerla en la traducción la deja también en medio de una frase 
 
 ## 4. Cómo seguir
 
+Angel aprobó los puntos 1 y 2 el 27-oct-2026; el 3 quedó resuelto arriba.
+
 1. Agregar `defaultLabel` y `defaultDesc` al extractor, con prueba; reextraer Cinders y traducir los dos textos.
 2. Medir `namerLabels` en los 6 mods; si sirve, agregarla igual y traducir las listas, mod por mod.
-3. Hospitality: decidir la clave con el código a la vista.
+3. ~~Hospitality~~: resuelto, se queda en español.
 4. Probar en el juego con una partida nueva o un arma nueva, y mandar capturas de lo que siga en inglés. Cada
    caso nuevo se anota aquí con dónde se vio.
 
