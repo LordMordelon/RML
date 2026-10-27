@@ -104,15 +104,16 @@ mecanoide» (4), «cápsula de descenso» (4 mods), «garra de la cabeza» (3 mo
 
 ## Decisiones de Angel
 
-1. **«incursión» o «asalto» para *raid*.** La oficial dice «asalto», y por la regla de la oficial ganaría. En RML
-   hay 49 «incursión», no todos de *raid*. Si dice que sí, el principal y RimPacts pasan a «asalto», y se revisa
-   cada uno de los 49.
-2. **«casilla» o «celda» para una casilla del mapa (*tile*).** La oficial dice «celda» (86 usos, contra 5 de
-   «casilla»); «baldosa» es el piso. Combat Extended y RimPacts dicen «casilla», y en RML hay 298 «casilla».
-   Es un cambio grande: conviene decidirlo antes de tocar nada.
-3. **RimPacts, *cooldown* e *idle*.** El glosario propone «tiempo de espera» y «libre». La oficial usa
-   «enfriamiento» (71 usos) para la espera de una habilidad y «ocioso» para un colono sin trabajo. ¿Se cambian, o
-   en la diplomacia se quedan como están?
+Las tres se decidieron el 27-oct-2026, las tres como la traducción oficial.
+
+1. **«asalto» para *raid*.** La oficial dice «asalto» (46 usos, contra 12 de «incursión»). El principal y
+   RimPacts pasan a «asalto», y se revisa cada una de las 49 «incursión» de RML: solo se cambian las que vienen de
+   *raid*; «incursión» queda para *incursion*.
+2. **«celda» para una casilla del mapa (*tile*).** La oficial dice «celda» (86 usos, contra 5 de «casilla»);
+   «baldosa» es el piso. Combat Extended y RimPacts pasan a «celda», y se revisan las 298 «casilla» de RML una por
+   una, mod por mod: no todas son del mapa. Es el cambio más grande del paso 4.
+3. **RimPacts, *cooldown* e *idle*: «enfriamiento» y «ocioso»**, como la oficial, también en la diplomacia. El
+   glosario de RimPacts deja «tiempo de espera» y «libre».
 
 ## Orden de las sesiones
 
