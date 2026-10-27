@@ -5,7 +5,7 @@ Lo pidió Angel el 23-oct-2026: una ventana que, al iniciar el juego, muestre qu
 
 ## Lo que decidió Angel
 
-- **La ven todos** los jugadores de RML, con una casilla «No volver a mostrar» y una opción en los ajustes
+- **La ven todos** los jugadores de RML, con una casilla «No volver a abrir al iniciar RimWorld» y una opción en los ajustes
   del mod para volver a activarla o abrirla a mano.
 - **Aparece sola solo si hay novedades**: un mod activo que no estaba la última vez, o cambios nuevos en RML.
   Cambió el 25-oct: solo cambios nuevos en mods activos (ver «Cuándo aparece sola, de nuevo»).
@@ -16,7 +16,7 @@ Lo pidió Angel el 23-oct-2026: una ventana que, al iniciar el juego, muestre qu
   Si el jugador cambia el idioma a español latinoamericano durante la partida, la ventana sale en el
   siguiente inicio. El botón para abrirla a mano desde los ajustes del mod funciona en cualquier idioma.
 - **Título de la ventana:** «Traducciones [Español Latino]», el nombre de RML en Steam.
-- **Al pie**, junto a «No volver a mostrar», una nota: «si un mod también tiene otra traducción al español,
+- **Al pie**, junto a «No volver a abrir al iniciar RimWorld», una nota: «si un mod también tiene otra traducción al español,
   esta la sobrescribe». Es cierto porque el builder pone a todos los mods de RML en el
   `forceLoadAfter` de `About.xml`: RML carga después y su traducción gana.
 - **Qué muestra**, en dos pestañas, y abre siempre en la primera:
@@ -272,7 +272,7 @@ Desde la configuración de mods del juego se abre la ventana en esa pestaña y s
 juego, que quedaría vacía detrás. En 1.6 no hay traducción oficial que bajar, así que no hay pestaña y la
 ventana abre en «Novedades».
 
-Se sacaron dos opciones: «Mostrar la ventana al iniciar», que repetía la casilla «No volver a mostrar»
+Se sacaron dos opciones: «Mostrar la ventana al iniciar», que repetía la casilla «No volver a abrir al iniciar RimWorld»
 del pie, y «Mostrar los cambios de cada traducción»: «Ver cambios» sale siempre que hay detalle. El
 aviso de arreglos de «Novedades» lleva a la pestaña en vez de abrir otra pantalla.
 
@@ -282,7 +282,7 @@ Angel activó un mod, el juego se reinició y la ventana apareció con «Novedad
 RML». La abría el mod nuevo de la lista (la regla del 24-oct), que solo se marca en «Tus mods». Lo mismo
 pasaba al cargar la lista de mods de una partida o al volver a activar un mod.
 
-Ahora aparece sola solo si el juego está en español latinoamericano, no se marcó «No volver a mostrar» y
+Ahora aparece sola solo si el juego está en español latinoamericano, no se marcó «No volver a abrir al iniciar RimWorld» y
 «Novedades» tiene algo para mostrar (`Clasificador.DebeAparecerSola`):
 
 - **Un cambio sin ver de RML en un mod activo.** La primera vez, eso es la última actualización de RML; si
@@ -346,7 +346,7 @@ Angel la probó en 1.7 el 23-oct: sale la línea en el log y ningún error nuevo
   `About.xml`. Los paquetes no salen en la tabla, salvo que RML los traduzca.
 - **La ventana** (`VentanaTraducciones`) sigue la previsualización con los controles del juego: pestaña
   «Tus mods» (la de «Novedades» llega en la etapa 3), buscador, tabla, «NUEVO», botón «Solicitar», nota y
-  «No volver a mostrar». Los textos están en `Common/Languages/{SpanishLatin,English}/Keyed/`.
+  «No volver a abrir al iniciar RimWorld». Los textos están en `Common/Languages/{SpanishLatin,English}/Keyed/`.
 - **Aparece sola** (`AlIniciar`) al terminar de cargar, si el juego está en español latinoamericano y hay
   un mod nuevo desde la última vez, o si nunca se abrió. Se abre a mano desde Opciones → Configuración de
   mods → «Traducciones [Español Latino]».
