@@ -366,40 +366,42 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   es un descuido del autor, y la munición que dispara es el quimbustible infundido de CE. El DMS de 1.6
   (`7y4coj.xml`) sigue con «prometeo», porque está congelado.
 
-## Próxima sesión (27-oct-2026, undécima)
+## Próxima sesión (27-oct-2026, duodécima)
 
-**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, tercera sesión: trasfondos y reglas de gramática.
+**Objetivo:** paso 6 del orden de trabajo: Ascension Megacorp, cuarta y última sesión: todo lo que queda.
 
-**Estado:** el `ThingDef` (182 entradas, `ae263cf5`) y las 52 fichas del catálogo (`d9016016`) están **terminados**, con
-sus términos en «El equipo y el catálogo» de `GLOSARIO-USAC.md` (`6b4c7354`). `aplicar` y `revisar` salieron limpios.
-Quedan 729 `TODO` en el mod, 4869 palabras (contados; 22 son campos con clave, que se quedan). `master` de RML tiene 29
-commits sin subir (y el remoto, 1 que no está en local), más esta nota. Los cambios sin commitear de `Source/RmlVentana`,
-`Common/Languages`, `PLAN-TRADUCCION-OFICIAL.md`, `ModList.tsv` y `docs/index.html` son de otra sesión o de `-build`: no
-se tocan.
+**Estado:** trasfondos (`89f1a801`), reglas de nombres (`e804ebfd`) y las dos misiones (`774af993`) **terminados**, con
+sus términos en `GLOSARIO-USAC.md` («Nombres generados» y «Trasfondos y misiones»). `aplicar` y `revisar` salieron
+limpios. Quedan 402 `TODO`, 2405 palabras (contados): 29 se quedan (los 22 campos con clave y 7 nombres internos del
+guion de la misión), así que se traducen 373. `master` de RML tiene 37 commits sin subir (y el remoto, 1 que no está en
+local), más esta nota. `ModList.tsv` y `docs/index.html` sin commitear son de `-build`: no se tocan.
 
 **Antes de empezarla (Angel):**
 1. Decidir si subes los commits a GitHub (cada push que cambia el mod publica una versión nueva).
-2. Si puedes, mirar en el juego el catálogo de la terminal: los nombres de las fichas, como «Cañón sin retroceso
-   Torchwood», van enteros aunque el inglés diga «Torchwood RR». Si alguno se corta, se acorta.
+2. Si puedes, mirar en el juego: el trasfondo de un colono de la USAC y el nombre de su ideología o de una deidad
+   (que no salga una palabra en inglés suelta ni un artículo raro).
 
 **Al empezar (Claude):**
-1. `BackstoryDef/q01scm.xml`: 84 entradas, 1192 palabras, con `{PAWN_gender ? o : a}` como la oficial.
-2. Las reglas: `RulePackDef` (7 archivos, 159 entradas, 528 palabras) y `QuestScriptDef` (7 archivos, 91 entradas, 751
-   palabras), con las reglas de «Nombres generados» del glosario (`[sitetype] [prefix]`, mismo género por símbolo).
-3. Las tres partes suman 334 entradas y 2471 palabras: caben en una sesión. Lo demás (395 entradas, 2398 palabras:
-   `BodyDef` 120, `HediffDef` 35, `Patches/` 28, `PawnKindDef` 27, `TipSetDef` 20, permisos, títulos…) va en la cuarta.
-4. Por tanda: `traducir.py tabla Ascension --archivo BackstoryDef` (o `RulePackDef`, `QuestScriptDef`), `aplicar`, el
-   informe y un commit. Los avisos «credit bond sin bono(s) de crédito», «supply crate sin caja de suministros (P/M/G)» y
-   «private sin soldado raso» son falsos.
-5. La oficial ya no está desempaquetada en el juego (volvió a `.tar`): buscar con `Herramientas/oficial/buscar.py` o
-   leyendo `oficial.pkl`. Ojo: *mechanitor* es «mecanizador» en la oficial.
+1. Por tamaño, de mayor a menor: `TipSetDef` (20, 440 palabras), `BodyDef` (120, 288; 66 se toman de la oficial,
+   `Bodies_Humanlike.xml` y `Bodies_Mechanoid.xml` de Core), `ScenarioDef` (5, 164), `RoyalTitlePermitDef` (20, 158),
+   `HediffDef` (35, 134), `RecipeDef` (21, 132), `SitePartDef` (20, 114), `AbilityDef`, `FactionDef`, `CultureDef`,
+   `StorytellerDef`, `ConceptDef`, `PawnKindDef` (27), `Patches/` (28) y unos veinte archivos chicos.
+2. Caben en una sesión si van en tandas de ~800 palabras: `traducir.py tabla Ascension --archivo <tipo>`, `aplicar`, el
+   informe y un commit por tanda.
+3. Los avisos «credit bond sin bono(s) de crédito», «supply crate sin caja de suministros (P/M/G)» y «private sin
+   soldado raso» son falsos. Los de marcadores en trasfondos son los pronombres que el español no usa.
+4. La oficial está en `.tar`: listas y reglas no salen en `oficial.pkl` (quedan vacías), así que se sacan con
+   `tar --force-local -xOf "<.tar>" <ruta>` a la carpeta temporal.
 
-**Decisiones de Angel:** ninguna pendiente. Para que mires: HESCO no lleva la fórmula de las siglas (es una marca, y la
-descripción lo dice); SABR, OSW y ACSW se explican solo entre paréntesis, porque su nombre en español no es la sigla.
+**Decisiones de Angel:** ninguna pendiente. Para que mires (todo en «Nombres generados» del glosario): los tipos de
+deidad son palabras que sirven para dios y diosa (Mecenas, Centinela, Juez…), porque la lista no puede crecer; tres
+adjetivos de la ideología cambian para no tener género (*United* «Universal», *Corporate* «Empresarial», *Strategic*
+«Capital»); y los nombres de deidad (*Profitus*) quedan en inglés, como hace la oficial con las sílabas.
 
 **Ojo:** con `sed -i` de Git Bash los XML pierden el CRLF; si se usa, va con `-b`. Edit los respeta.
 
-**Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
+**Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo. Al terminar Ascension sigue Cinders
+(paso 7 del orden de trabajo).
 
-**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md` (sobre todo «Nombres
-generados»), `Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
+**Dónde leer:** este plan (punto 5, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
+`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.

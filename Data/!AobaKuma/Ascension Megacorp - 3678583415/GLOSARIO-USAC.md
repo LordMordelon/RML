@@ -127,6 +127,24 @@ Las fichas del catálogo llevan el nombre de su `ThingDef`, con mayúscula inici
 **HESCO no se explica con la fórmula:** no es una sigla sino la marca del fabricante, y la descripción
 del muro lo dice en una frase («HESCO es la marca de su fabricante»).
 
+## Trasfondos y misiones (`BackstoryDef` y `QuestScriptDef`, 27-oct-2026)
+
+Los títulos van en minúscula, como en Taktikmagier, y el género con `{PAWN_gender ? o : a}`. El préstamo
+de colonos copia la misión `PawnLend` de Royalty: sus textos siguen a la oficial («El transbordador ha
+llegado», «1 colono de [minAge] años o más»).
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| frontier project | **proyecto de frontera** | propuesta | Se repite en nueve trasfondos |
+| megacorporation | **megacorporación** | RML | |
+| liaison (de la USAC) | **enlace** | propuesta | «un enlace de alto rango», «de bajo nivel» |
+| recon data | **datos de reconocimiento** | propuesta | |
+| liability waivers | **exenciones de responsabilidad** | propuesta | |
+| warrant officer | **suboficial** | familia | |
+
+Siete campos de `p1o6dh.xml` son nombres internos del guion (`$siteLabel`, `usacRelation`, `minAge`,
+`returnLetterText`): se quedan en `TODO`, como los campos con clave.
+
 ## Permisos y títulos (al estilo de Royalty)
 
 | Inglés | Español | Origen | Notas |
