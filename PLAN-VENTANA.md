@@ -228,6 +228,9 @@ un ThingDef se reconoce por su tipo (`Categorias.PorTipo`); un ThingDef, o una c
 `AmmoDef` de Combat Extended, lo clasifica el juego mirando el def cargado
 (`VentanaCambios.CategoriaDe`), así que con su mod inactivo va a «Otros». Se guarda en
 `AjustesRml.CambiosPorCategoria`. Cada título se pliega y se despliega con un clic, con la flecha del juego (▶ cerrado, ▼ abierto), como las listas plegables de otros mods; arrancan abiertos.
+Desde el 27-oct-2026 cada título se ve como los de fecha de «Novedades» (pedido de Angel): una franja
+con la línea de color a la izquierda y, en vez del número entre paréntesis, una etiqueta por tipo
+(«57 cambiados» en ámbar, «3 nuevos» en verde, «1 quitado» en rojo), alineadas en una columna.
 
 Al volver a abrir la ventana, «Novedades» ya no queda vacía: si se vio todo, muestra lo de la última
 actualización de RML con el aviso «Ya viste estos cambios» (`NovedadesRml.ParaMostrar`), y eso no hace

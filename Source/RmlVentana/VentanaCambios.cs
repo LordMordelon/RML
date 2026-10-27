@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using RmlVentana.Logica;
 using UnityEngine;
@@ -25,12 +26,24 @@ namespace RmlVentana
         private const float RellenoBloque = 4f;
         private const float RellenoTexto = 12f;
 
-        private const float AltoTitulo = 30f;
+        // Los titulos de grupo, como los de fecha de Novedades (pedido por Angel): mismo alto y colores.
+        private const float AltoTitulo = 38f;
 
         private static readonly Color Gris = Hex(0xA9B0B8);
         /** El bloque del ingles, como los de la traduccion pero en gris (pedido por Angel). */
         private static readonly Colores GrisBloque = new Colores(Hex(0x2B3035), Hex(0x3D444D), Hex(0xB8C0C8), Hex(0x6E7681));
-        private static readonly Color FondoTitulo = Hex(0x1F252B);
+        private static readonly Color FondoGrupo = Hex(0x262D35);
+        private static readonly Color FranjaGrupo = Hex(0x4A5560);
+        private static readonly Color FranjaGrupoAbierta = Hex(0x6C8EAD);
+
+        /** Las etiquetas de cada titulo de grupo: ambar lo cambiado, como «Corregido»; verde lo nuevo y
+         *  rojo lo quitado, como los bloques del diff. */
+        private static readonly Dictionary<TipoDeTexto, (Color Fondo, Color Texto)> ColoresDeTipo = new Dictionary<TipoDeTexto, (Color, Color)>
+        {
+            [TipoDeTexto.Cambiado] = (Hex(0x7A5520), Hex(0xFBEFDC)),
+            [TipoDeTexto.Nuevo] = (Hex(0x3D6B30), Hex(0xEAF6E5)),
+            [TipoDeTexto.Quitado] = (Hex(0x7E2E31), Hex(0xFBE9E9)),
+        };
         private static readonly Colores Rojo = new Colores(Hex(0x4A1F21), Hex(0x8C2F33), Hex(0xF2E6E6), Hex(0xE5534B));
         private static readonly Colores Verde = new Colores(Hex(0x233B23), Hex(0x3F6E2F), Hex(0xE8F2E4), Hex(0x57AB5A));
 
@@ -66,6 +79,7 @@ namespace RmlVentana
         private class Fila
         {
             public TextoParaVer Texto;
+            public TipoDeTexto Tipo;
             public Categoria Categoria;
             public Bloque BloqueIngles, BloqueAntes, BloqueAhora;
             /** Ancho tambien: en una sola linea puede pasar el de la ventana. */
@@ -78,6 +92,8 @@ namespace RmlVentana
             public Fila Fila;
             public string Titulo;
             public Categoria Categoria;
+            /** Cuantos textos de cada tipo tiene el grupo, para sus etiquetas. */
+            public List<(TipoDeTexto Tipo, int Cuantos)> Cuantos;
             public float Alto => Fila?.Alto ?? AltoTitulo;
         }
 
@@ -101,7 +117,7 @@ namespace RmlVentana
             Resto = Math.Max(0, Novedad.Cambiados + Novedad.Nuevos + Novedad.Quitados - Textos.Count);
 
             foreach (TextoCambiado Texto in Textos)
-                Filas.Add(new Fila { Texto = CambiosDeMod.ParaVer(Texto), Categoria = CategoriaDe(Texto.Objeto) });
+                Filas.Add(new Fila { Texto = CambiosDeMod.ParaVer(Texto), Tipo = Texto.Tipo, Categoria = CategoriaDe(Texto.Objeto) });
             Ordenar();
 
             Titulo = "RML_Cambios_Titulo".Translate(Novedad.Nombre);
@@ -198,6 +214,14 @@ namespace RmlVentana
             }
 
             // En una linea, la lista se desplaza tambien hacia el costado, hasta el texto mas largo.
+            // Las etiquetas de todos los titulos empiezan en la misma columna, despues del nombre mas largo.
+            Text.Font = GameFont.Small;
+            float ColumnaEtiquetas = 0f;
+            foreach (Elemento Elemento in Elementos)
+                if (Elemento.Fila == null)
+                    ColumnaEtiquetas = Mathf.Max(ColumnaEtiquetas, Text.CalcSize(Elemento.Titulo).x);
+            ColumnaEtiquetas += RellenoTexto + FlechaTitulo + 10f + 24f;
+
             Rect Vista = new Rect(0f, 0f, AnchoContenido, Total);
             Widgets.BeginScrollView(Lista, ref Desplazamiento, Vista);
 
@@ -214,7 +238,7 @@ namespace RmlVentana
                 if (Elementos[i].Fila == null)
                 {
                     // Un clic rearma la lista desde este titulo hacia abajo; lo de arriba no cambia.
-                    DibujarTitulo(Renglon, Elementos[i]);
+                    DibujarTitulo(Renglon, Elementos[i], ColumnaEtiquetas);
                     continue;
                 }
                 // Sin linea antes de un titulo, que ya separa.
@@ -234,26 +258,44 @@ namespace RmlVentana
             Widgets.EndScrollView();
         }
 
-        /** El titulo de un grupo: la flecha, la categoria y cuantos textos tiene, en una franja como el
-         *  encabezado de las tablas de la otra ventana. Un clic lo pliega o lo despliega, como las listas
-         *  plegables del juego. */
-        private void DibujarTitulo(Rect Renglon, Elemento Titulo)
+        private const float FlechaTitulo = 16f;
+
+        /** El titulo de un grupo, como el de una fecha en Novedades: una franja separada de la de arriba,
+         *  con una linea de color a la izquierda, la flecha, la categoria y una etiqueta por tipo de
+         *  cambio con cuantos textos tiene. Un clic lo pliega o lo despliega. */
+        private void DibujarTitulo(Rect Renglon, Elemento Titulo, float ColumnaEtiquetas)
         {
             bool Plegada = Plegadas.Contains(Titulo.Categoria);
-            Widgets.DrawBoxSolid(Renglon, FondoTitulo);
-            Widgets.DrawHighlightIfMouseover(Renglon);
+            Rect Caja = new Rect(Renglon.x, Renglon.y + 4f, Renglon.width, Renglon.height - 4f);
+            Widgets.DrawBoxSolid(Caja, FondoGrupo);
+            Widgets.DrawBoxSolid(new Rect(Caja.x, Caja.y, AnchoFranja, Caja.height), Plegada ? FranjaGrupo : FranjaGrupoAbierta);
+            Widgets.DrawHighlightIfMouseover(Caja);
 
-            const float Flecha = 14f;
-            GUI.DrawTexture(new Rect(Renglon.x + RellenoTexto, Renglon.center.y - Flecha / 2f, Flecha, Flecha),
+            float X = Caja.x + RellenoTexto;
+            GUI.color = Plegada ? Gris : Color.white;
+            GUI.DrawTexture(new Rect(X, Caja.center.y - FlechaTitulo / 2f, FlechaTitulo, FlechaTitulo),
                 Plegada ? TexButton.Reveal : TexButton.Collapse);
+            GUI.color = Color.white;
+            X += FlechaTitulo + 10f;
 
             Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.MiddleLeft;
-            float X = Renglon.x + RellenoTexto + Flecha + 8f;
-            Widgets.Label(new Rect(X, Renglon.y, Renglon.width - X - RellenoTexto, Renglon.height), Titulo.Titulo);
+            Widgets.Label(new Rect(X, Caja.y, ColumnaEtiquetas - X, Caja.height), Titulo.Titulo);
+
+            Text.Font = GameFont.Tiny;
+            X = ColumnaEtiquetas;
+            foreach (var (Tipo, Cuantos) in Titulo.Cuantos)
+            {
+                string Texto = TextoDeCantidad(Tipo, Cuantos);
+                float Ancho = Text.CalcSize(Texto).x + 16f;
+                var (Fondo, ColorDeTexto) = ColoresDeTipo[Tipo];
+                VentanaTraducciones.Etiqueta(new Rect(X, Caja.center.y - 11f, Ancho, 22f), Texto, Fondo, ColorDeTexto);
+                X += Ancho + 6f;
+            }
+            Text.Font = GameFont.Small;
             Text.Anchor = TextAnchor.UpperLeft;
 
-            if (Widgets.ButtonInvisible(Renglon))
+            if (Widgets.ButtonInvisible(Caja))
             {
                 if (Plegada)
                     Plegadas.Remove(Titulo.Categoria);
@@ -345,8 +387,11 @@ namespace RmlVentana
             {
                 Elementos.Add(new Elemento
                 {
-                    Titulo = ("RML_Categoria_" + Grupo.Categoria).Translate() + " (" + Grupo.Textos.Count + ")",
+                    Titulo = ("RML_Categoria_" + Grupo.Categoria).Translate(),
                     Categoria = Grupo.Categoria,
+                    Cuantos = new[] { TipoDeTexto.Cambiado, TipoDeTexto.Nuevo, TipoDeTexto.Quitado }
+                        .Select(Tipo => (Tipo, Grupo.Textos.Count(x => x.Tipo == Tipo)))
+                        .Where(x => x.Item2 > 0).ToList(),
                 });
                 if (Plegadas.Contains(Grupo.Categoria))
                     continue;
@@ -506,6 +551,16 @@ namespace RmlVentana
         private static float Margen() => 2 * Text.CalcSize("a").x - Text.CalcSize("aa").x;
 
         private static float MargenIzquierdo() => Margen() / 2f;
+
+        private static string TextoDeCantidad(TipoDeTexto Tipo, int Cuantos)
+        {
+            switch (Tipo)
+            {
+                case TipoDeTexto.Nuevo: return Cantidad(Cuantos, "RML_Cambios_Nuevo", "RML_Cambios_Nuevos");
+                case TipoDeTexto.Quitado: return Cantidad(Cuantos, "RML_Cambios_Quitado", "RML_Cambios_Quitados");
+                default: return Cantidad(Cuantos, "RML_Cambios_Cambiado", "RML_Cambios_Cambiados");
+            }
+        }
 
         private static string Cantidad(int Numero, string Uno, string Varios) =>
             Numero == 1 ? Uno.Translate().ToString() : Varios.Translate(Numero).ToString();

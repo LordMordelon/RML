@@ -735,7 +735,7 @@ namespace RmlVentana
         }
 
         /** Una etiqueta de color con el texto centrado, en la fuente que este puesta. */
-        private static void Etiqueta(Rect Rect, string Texto, Color Fondo, Color ColorDeTexto)
+        internal static void Etiqueta(Rect Rect, string Texto, Color Fondo, Color ColorDeTexto)
         {
             Widgets.DrawBoxSolid(Rect, Fondo);
             TextAnchor Antes = Text.Anchor;
