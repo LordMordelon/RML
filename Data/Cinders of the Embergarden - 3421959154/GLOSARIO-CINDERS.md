@@ -97,3 +97,13 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
   como el pan o el dulce («cruasán», «macarón», «hogaza»), en minúscula. Los que son códigos del autor
   (`lowDoublePony`, `midPony`, `sideTail`) se traducen por lo que describen: «dos coletas bajas»,
   «coleta media», «coleta lateral».
+
+## Nombres de la facción (primera tanda con `traducir.py`, 26-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| Instigator / Navigator / Fire Keeper / Torchbearer / Redeemer | **Instigador** / **Navegante** / **Guardián del Fuego** / **Portador de la Antorcha** / **Redentor** | propuesta | Títulos del líder (`Cinder_NamerLeader`), con mayúscula como «Portador de la Linterna» |
+| [BrigadeType] [complex] | **[complex] [BrigadeType]** | propuesta | El nombre del asentamiento va al revés que en inglés: «Cuna de Ceniza», «Jardín de las Brasas» |
+| Cradle / Garden (de un nombre) | **Cuna** / **Jardín** | propuesta | Uno es femenino y el otro masculino: por eso los tipos van con «de», sin adjetivo que concuerde |
+| Withering / Ember / Ashe / Tranquil | **de la Marchitez** / **de las Brasas** / **de Ceniza** / **de la Calma** | propuesta | |
+| Secondary mode: {OFFSET} | **Modo secundario: {OFFSET}** | propuesta | La parte de las estadísticas de Combat Extended que agrega el mod |
