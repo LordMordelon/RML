@@ -115,9 +115,10 @@ familia pueden ir a mano o con tabla. Cómo se hace, por tanda:
 1. Leer los ingleses pendientes de una parte del mod (los `TODO`).
 2. Escribir la tabla clave → traducción en la carpeta temporal de la sesión, a mano, entrada por
    entrada, con el glosario del mod abierto.
-3. Copiarla con `herramientas-traduccion/aplicar.py`, que solo escribe sobre `TODO`.
-4. Revisar con `revisar.py` contra `HEAD` y con `terminos.py`, y después las tres comprobaciones del
-   diff. Si una tanda deja un término nuevo, va al glosario del mod antes de la tanda siguiente.
+3. Copiarla con `python -I Herramientas/traducir.py aplicar <mod> <tabla.tsv>`, que solo escribe sobre
+   `TODO`.
+4. Leer su informe: revisa contra la copia de antes, los términos del glosario del mod (`--glosario` para
+   sumar los de la familia) y las tres comprobaciones del diff. Si una tanda deja un término nuevo, va al glosario del mod antes de la tanda siguiente.
 
 Los campos que guardan una clave (punto 5) **no van en la tabla**: se quedan en `TODO`.
 
@@ -383,16 +384,16 @@ nota. `ModList.tsv` y `docs/index.html` siguen modificados por `-build`, sin com
 
 **Al empezar (Claude):**
 1. Ascension tiene 1.327 `TODO` en `Languages/` (contados; 22 son campos con clave, que se quedan) y 28 en `Patches/`.
-   Esta sesión: el `Keyed/85zkm3.xml`, 392 entradas, en dos o tres tandas con tabla y `aplicar.py`. Puede que no
+   Esta sesión: el `Keyed/85zkm3.xml`, 392 entradas, en dos o tres tandas con `traducir.py tabla` y `aplicar`. Puede que no
    quepa entero: la sugerencia del plan son dos sesiones para el `Keyed`.
 2. Glosario: `GLOSARIO-USAC.md` (USAC se explica una vez por descripción; rótulos de la terminal con el código en
    inglés y lo de después de `//` traducido; apodos de mecas «M7 cobalto», «M88 rocky»).
-3. Herramientas: copia de los archivos antes de cada tanda para `revisar.py`; armar un `terminos-usac.py` desde
-   `herramientas-traduccion/terminos.py` con la lista de `GLOSARIO-USAC.md`. Python en Windows: rutas `C:/...` con
-   barra normal (con `\` en Bash se rompen).
-4. `aplicar.py` no toca los `<li>` de las reglas de gramática: esos van a mano con Edit, y `revisar.py` avisa en falso
-   en el primer `<li>` (lo compara con el inglés del último comentario).
-5. Al terminar cada tanda: `revisar.py`, términos y las tres comprobaciones del diff; un commit por tanda.
+3. Herramientas: `python -I Herramientas/traducir.py` (desde `RML/`). `aplicar` guarda sola la copia de antes, y
+   `terminos` ya lee `GLOSARIO-USAC.md`, que está en la carpeta del mod; los de la familia se suman con `--glosario`.
+4. `aplicar` llena una lista de reglas de gramática entera cuando cada `<li>` tiene su inglés; la que no puede
+   emparejar sale en la tabla para hacerla a mano.
+5. Al terminar cada tanda: el informe de `aplicar` (revisión, términos y las tres comprobaciones del diff); un commit
+   por tanda.
 
 **Decisiones de Angel:** ninguna pendiente. Dos cosas resueltas en Expedition que conviene que mires: la descripción
 y el texto de inicio del escenario «El disidente», donde el autor dejó «todo», van con el resumen del escenario; y la
@@ -404,4 +405,4 @@ madera» (la receta solo usa madera).
 **Guías:** `traspaso` al terminar. No hay tarea de GitHub para este trabajo.
 
 **Dónde leer:** este plan (punto 5, punto 6, «Reglas comunes», la sección de Ascension), `GLOSARIO-USAC.md`,
-`herramientas-traduccion/` y `herramientas-traduccion/oficial/`.
+`Herramientas/traducir.py` (cómo se usa cada orden, al principio del archivo) y `Herramientas/oficial/`.
