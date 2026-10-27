@@ -22,26 +22,26 @@
   <!-- EN: operation(targetRelation==neutral)-&gt;Directive -->
   <!-- EN: operation(targetRelation==neutral)-&gt;Clean Sweep -->
   <USAC_OpportunitySite_OutpostRaid.questNameRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questName-&gt;[operation] [target]</li>
+    <li>questName-&gt;[operation] de [asker_faction_name]</li>
+    <li>questName-&gt;[operation] USAC [target]</li>
+    <li>target(targetRelation==hostile)-&gt;del puesto de avanzada hostil</li>
+    <li>target(targetRelation==hostile)-&gt;del campamento enemigo</li>
+    <li>target(targetRelation==hostile)-&gt;de la base renegada</li>
+    <li>target(targetRelation==hostile)-&gt;del puesto avanzado</li>
+    <li>target(targetRelation==neutral)-&gt;del campamento vacacional</li>
+    <li>target(targetRelation==neutral)-&gt;del sitio de retiro</li>
+    <li>target(targetRelation==neutral)-&gt;de la cabaña remota</li>
+    <li>target(targetRelation==neutral)-&gt;del puesto de avanzada fronterizo</li>
+    <li>operation(targetRelation==hostile)-&gt;Barrido</li>
+    <li>operation(targetRelation==hostile)-&gt;Incursión</li>
+    <li>operation(targetRelation==hostile)-&gt;Limpieza</li>
+    <li>operation(targetRelation==hostile)-&gt;Eliminación</li>
+    <li>operation(targetRelation==hostile)-&gt;Despeje</li>
+    <li>operation(targetRelation==neutral)-&gt;Operación especial</li>
+    <li>operation(targetRelation==neutral)-&gt;Supresión</li>
+    <li>operation(targetRelation==neutral)-&gt;Sanción</li>
+    <li>operation(targetRelation==neutral)-&gt;Directiva</li>
+    <li>operation(targetRelation==neutral)-&gt;Limpieza total</li>
   </USAC_OpportunitySite_OutpostRaid.questNameRules.rulesStrings>
 </LanguageData>

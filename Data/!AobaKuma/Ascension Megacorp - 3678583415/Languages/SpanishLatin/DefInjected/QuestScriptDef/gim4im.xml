@@ -15,19 +15,19 @@
   <!-- EN: pawnListHaveConjugation(colonistsToLendCount==1)-&gt;has -->
   <!-- EN: pawnListHaveConjugation(colonistsToLendCount&gt;1)-&gt;have -->
   <USAC_PawnLend.questDescriptionRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription-&gt;[asker_nameFull], [asker_faction_leaderTitle] de la facción [asker_faction_name], necesita manos extras para ayudar a [dutyDescription].\n\nTe está pidiendo que le prestes [colonistCountToLend] por [lendForDays] días.\n\n[willSendShuttle]</li>
+    <li>disease-&gt;gripe</li>
+    <li>disease-&gt;plaga</li>
+    <li>disease-&gt;malaria</li>
+    <li>disease-&gt;infección</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)-&gt;1 colono[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount&gt;1)-&gt;[colonistsToLendCount] colonos[minAgeOrOlder]</li>
+    <li>willSendShuttle-&gt;Enviará un transbordador para recoger [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)-&gt;al colono</li>
+    <li>colonists(colonistsToLendCount&gt;1)-&gt;a los colonos</li>
+    <li>minAgeOrOlder(minAge==0)-&gt;</li>
+    <li>minAgeOrOlder(minAge&gt;0)-&gt; de [minAge] años o más</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)-&gt;ha</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount&gt;1)-&gt;han</li>
   </USAC_PawnLend.questDescriptionRules.rulesStrings>
 </LanguageData>

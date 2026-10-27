@@ -14,18 +14,18 @@
   <!-- EN: targetAsset-&gt;resource convoys -->
   <!-- EN: targetAsset-&gt;patrol units -->
   <USAC_OpportunitySite_OutpostRaid.questDescriptionRules.rulesStrings>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
-    <li>TODO</li>
+    <li>questDescription(usacRelation==neutral)-&gt;Un enlace de bajo nivel de [asker_faction_name] se comunicó contigo por un canal cifrado. Se identificó cerca de tu posición un puesto de avanzada hostil de [siteFaction_name]. Sus [siteFaction_pawnsPlural] han estado [hostileAction] [targetAsset] de [asker_faction_name] en la región.\n\n[asker_faction_name] te exige que ataques el sitio y elimines a todos los hostiles. A cambio, te pagará una compensación por la operación. Según los datos de reconocimiento, [sitePart0_description].</li>
+    <li>questDescription(usacRelation==ally,targetRelation==hostile)-&gt;Un enlace de [asker_faction_name] se comunicó contigo por un canal cifrado. Se identificó cerca de tu posición un puesto de avanzada hostil de [siteFaction_name]. Sus [siteFaction_pawnsPlural] han estado [hostileAction] [targetAsset] de [asker_faction_name] en la región.\n\n[asker_faction_name] te pide que ataques el sitio y elimines a todos los hostiles. A cambio, te pagará una compensación por la operación. Según los datos de reconocimiento, [sitePart0_description].</li>
+    <li>questDescription(usacRelation==ally,targetRelation==neutral)-&gt;Un enlace de alto rango de [asker_faction_name] se comunicó contigo por un canal cifrado. Se identificó cerca de tu posición un puesto de avanzada de [siteFaction_name]. Sus [siteFaction_pawnsPlural] fueron evaluados como un objetivo de valor estratégico para [asker_faction_name].\n\n[asker_faction_name] te pide ayuda para atacar el sitio y eliminar a todos los que estén allí. A cambio, te pagará una compensación por la operación. Según los datos de reconocimiento, [sitePart0_description].</li>
+    <li>hostileAction-&gt;saboteando</li>
+    <li>hostileAction-&gt;hostigando</li>
+    <li>hostileAction-&gt;asaltando</li>
+    <li>hostileAction-&gt;emboscando</li>
+    <li>hostileAction-&gt;interceptando</li>
+    <li>targetAsset-&gt;las rutas logísticas y de suministro</li>
+    <li>targetAsset-&gt;los puestos de avanzada</li>
+    <li>targetAsset-&gt;los repetidores de comunicaciones</li>
+    <li>targetAsset-&gt;los convoyes de recursos</li>
+    <li>targetAsset-&gt;las unidades de patrulla</li>
   </USAC_OpportunitySite_OutpostRaid.questDescriptionRules.rulesStrings>
 </LanguageData>
