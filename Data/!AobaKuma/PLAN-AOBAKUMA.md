@@ -391,8 +391,8 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
 ## Estado al 27-oct-2026: traducción terminada
 
 Los siete pasos del orden de trabajo están hechos: Cinders se terminó en su cuarta sesión. Lo único que queda en
- en la familia es lo que se deja a propósito: los campos que guardan una clave (AncientCorps y Ascension, punto
-5) y las 8 descripciones de Cinders cuyo inglés es «TODO». En  hay 29 commits sin subir.
+`TODO` en la familia es lo que se deja a propósito: los campos que guardan una clave (AncientCorps y Ascension, punto
+5) y las 8 descripciones de Cinders cuyo inglés es «TODO». En `master` hay 31 commits sin subir.
 
 **Lo que falta (Angel):**
 1. Decir «subir RML» para que llegue a GitHub y al Workshop.
