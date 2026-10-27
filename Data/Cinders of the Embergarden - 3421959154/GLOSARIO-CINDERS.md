@@ -45,7 +45,12 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
 | walker / turret walker / main battle walker | **caminante** / **caminante torreta** / **caminante de combate principal** | familia | Como en AncientCorps |
 | ghoul / ghoul unit | **necrófago** / **unidad necrófaga** | oficial | No «caminante», que es el *shambler* |
 | cult / cult follower / cult guard / believer | **culto** / **seguidor del culto** / **guardia del culto** / **creyente** | RML | |
-| defense council | **consejo de defensa** | propuesta | |
+| Defense Council / National Defense Council | **Consejo de Defensa** / **Consejo de Defensa Nacional** | propuesta | 27-oct, en los trasfondos: con mayúscula, porque ahí es el nombre del gobierno de los refugios |
+| shelter / bunker | **refugio** / **búnker** | propuesta | Los refugios subterráneos del Consejo de Defensa |
+| data intelligence | **inteligencia de datos** | propuesta | 27-oct. Es lo que la sigla DI abrevia; en minúscula, como en el inglés |
+| Economic Security Department for Special Periods | **Departamento de Seguridad Económica para Períodos Especiales** | propuesta | 27-oct. El inglés lo llama también *Special Economic Security Department*: va siempre con el nombre largo |
+| dust fog / obscured area / core area | **niebla de polvo** / **zona oscurecida** / **zona central** | propuesta | 27-oct, trasfondos |
+| land ship / ground assault ship | **nave terrestre** / **nave de asalto terrestre** | propuesta | 27-oct, trasfondos |
 | Long Dream / long dream | **Largo Sueño** / **largo sueño** | propuesta | El escenario «Long dream gradually awakens»: «El largo sueño despierta poco a poco» |
 | deep sleep / light sleep | **sueño profundo** / **sueño ligero** | RML | |
 | crystallization coma / neural crystallization dissociation | **coma por cristalización** / **disociación por cristalización neural** | propuesta | |
