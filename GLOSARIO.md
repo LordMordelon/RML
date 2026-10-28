@@ -232,6 +232,13 @@ Bombero · Médico · Cuidar niños · Vigilante · Entretener · Cazar · Culti
   - `_objective` («lo» o «la») va pegado o delante del verbo: «traicionar[PAWN_objective]», «nunca {BUTCHER_objective} perdonaré».
   - Un adjetivo que cambia con el género lleva `{X_gender ? o : a}`, aunque el inglés no lo marque: «Estoy muy agradecid{PAWN_gender ? o : a}» (oficial), «se volvió loc{OTHERPAWN_gender ? o : a}». En un pensamiento, `PAWN` es quien lo siente.
   - Antes de usar un nombre (`PAWN`, `OTHERPAWN`, `SECONDPAWN`…), comprobar que el texto lo recibe: que ya aparezca en el inglés, o que el código del mod lo pase. Uno que no llega se ve tal cual en el juego, entre llaves.
+- **Título de un arma única** (decidido el 28-oct-2026, como la oficial de Odyssey): el juego lo arma juntando un
+  tipo de arma (`namerLabels`) con un adjetivo de uno de sus rasgos (`traitAdjectives`), en cualquier combinación.
+  - El tipo de arma va en minúscula: «arco grande», «fusil de asalto», «espadón».
+  - El adjetivo va en una forma que **no cambie con el género**, porque acompaña igual a «fusil» que a «pistola»:
+    terminado en -e, -l, -z u otra consonante («ardiente», «letal», «veloz»), o con «de» o «con» («de
+    precisión», «de electricidad», «con púas»). Nada de «pesada», «rápido» o «eléctrico»: saldría «fusil pesada».
+  - Un sustantivo suelto también sirve, si se lee bien detrás del arma: «fusil tormenta», «pistola gauss».
 - `Warning:` → `Advertencia:` · `Note:` → `Nota:`
 - `"Input a value"` → `"Introduce un valor"`
 - **Mantener sin traducir:**
