@@ -25,12 +25,12 @@ namespace RmlVentana
         private static readonly Color FranjaFecha = Hex(0x4A5560);
         private static readonly Color FranjaFechaAbierta = Hex(0x6C8EAD);
         private static readonly Color Verde = Hex(0x8FC77A);
-        /** El boton que hay que mantener presionado (BotonMantenido): el fondo, con el mouse encima, lo que
-         *  se va llenando y el borde. Del rojo de «Quitado» en «Ver cambios». */
-        private static readonly Color RojoBoton = Hex(0x5A2224);
-        private static readonly Color RojoBotonEncima = Hex(0x6E2A2D);
-        private static readonly Color RojoLleno = Hex(0xA8383D);
-        private static readonly Color RojoBorde = Hex(0xC9474A);
+        /** El boton que hay que mantener presionado (BotonMantenido): el tinte del boton del juego y lo que
+         *  se va llenando, transparente para que se vea el boton debajo. */
+        private static readonly Color RojoTinte = new Color(1f, 0.42f, 0.42f);
+        /** El del boton que baja la traduccion oficial. */
+        private static readonly Color VerdeTinte = new Color(0.45f, 1f, 0.45f);
+        private static readonly Color RojoLleno = new Color(0.85f, 0.18f, 0.18f, 0.55f);
 
         private static readonly Dictionary<Estado, (Color Fondo, Color Texto)> ColoresDeEstado = new Dictionary<Estado, (Color, Color)>
         {
@@ -549,8 +549,15 @@ namespace RmlVentana
             }
             Lista.Gap(6f);
             foreach (var Boton in Botones)
-                if (Lista.ButtonText(Boton.Texto, widthPct: 0.4f))
+            {
+                // El que baja la traduccion va en verde (pedido por Angel); los demas, normales.
+                bool Clic = Boton.Accion == (Action)OficialJuego.Instalar
+                    ? BotonTenido(Lista.GetRect(30f, 0.4f), Boton.Texto, VerdeTinte)
+                    : Widgets.ButtonText(Lista.GetRect(30f, 0.4f), Boton.Texto);
+                Lista.Gap(Lista.verticalSpacing);
+                if (Clic)
                     Boton.Accion();
+            }
 
             // Va ultimo y aparte: borra lo bajado, asi que no basta un clic (pedido por Angel).
             if (OficialJuego.HayAlgoInstalado)
@@ -559,6 +566,19 @@ namespace RmlVentana
                     (Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer);
                 Lista.Gap(Lista.verticalSpacing);
             }
+        }
+
+        /** El boton del juego teñido de un color, con el texto en blanco: teñido y no dibujado aparte, asi
+         *  sigue a los mods que cambian el aspecto de los botones, como PrettyUI. Devuelve si se hizo clic. */
+        private static bool BotonTenido(Rect Caja, string Texto, Color Tinte)
+        {
+            GUI.color = Tinte;
+            bool Clic = Widgets.ButtonText(Caja, "");
+            GUI.color = Color.white;
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Widgets.Label(Caja, Texto);
+            Text.Anchor = TextAnchor.UpperLeft;
+            return Clic;
         }
 
         private const double SegundosMantenido = 1.5;
@@ -583,15 +603,17 @@ namespace RmlVentana
             float Avance = PresionadoDesde == null ? 0f
                 : (float)Math.Min(1.0, (DateTime.UtcNow - PresionadoDesde.Value).TotalSeconds / SegundosMantenido);
 
-            Widgets.DrawBoxSolid(Caja, Encima ? RojoBotonEncima : RojoBoton);
+            // El clic ya lo tomo el MouseDown de arriba, asi que lo que devuelve no se usa. El relleno va
+            // encima del boton, y el texto otra vez encima del relleno.
+            BotonTenido(Caja, Texto, RojoTinte);
             if (Avance > 0f)
-                Widgets.DrawBoxSolid(new Rect(Caja.x, Caja.y, Caja.width * Avance, Caja.height), RojoLleno);
-            GUI.color = RojoBorde;
-            Widgets.DrawBox(Caja);
-            GUI.color = Color.white;
-            Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.Label(Caja, Texto);
-            Text.Anchor = TextAnchor.UpperLeft;
+            {
+                Rect Dentro = Caja.ContractedBy(2f);
+                Widgets.DrawBoxSolid(new Rect(Dentro.x, Dentro.y, Dentro.width * Avance, Dentro.height), RojoLleno);
+                Text.Anchor = TextAnchor.MiddleCenter;
+                Widgets.Label(Caja, Texto);
+                Text.Anchor = TextAnchor.UpperLeft;
+            }
             TooltipHandler.TipRegion(Caja, "RML_Oficial_Mantener".Translate());
 
             if (Avance >= 1f)
