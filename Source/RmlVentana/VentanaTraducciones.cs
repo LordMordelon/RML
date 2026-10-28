@@ -5,6 +5,7 @@ using RimWorld;
 using RmlVentana.Logica;
 using UnityEngine;
 using Verse;
+using Verse.Sound;
 
 namespace RmlVentana
 {
@@ -24,6 +25,12 @@ namespace RmlVentana
         private static readonly Color FranjaFecha = Hex(0x4A5560);
         private static readonly Color FranjaFechaAbierta = Hex(0x6C8EAD);
         private static readonly Color Verde = Hex(0x8FC77A);
+        /** El boton que hay que mantener presionado (BotonMantenido): el fondo, con el mouse encima, lo que
+         *  se va llenando y el borde. Del rojo de «Quitado» en «Ver cambios». */
+        private static readonly Color RojoBoton = Hex(0x5A2224);
+        private static readonly Color RojoBotonEncima = Hex(0x6E2A2D);
+        private static readonly Color RojoLleno = Hex(0xA8383D);
+        private static readonly Color RojoBorde = Hex(0xC9474A);
 
         private static readonly Dictionary<Estado, (Color Fondo, Color Texto)> ColoresDeEstado = new Dictionary<Estado, (Color, Color)>
         {
@@ -495,9 +502,6 @@ namespace RmlVentana
             if (!OficialJuego.EstaConsultando && !OficialJuego.PideEsperar && Estado != EstadoOficial.FaltaReiniciar)
                 Botones.Add(((OficialJuego.FalloLaConsulta ? "RML_Oficial_Reintentar" : "RML_Oficial_RevisarAhora").Translate(), OficialJuego.Consultar));
 
-            if (OficialJuego.HayAlgoInstalado)
-                Botones.Add(((Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer));
-
             Lista.Label(Texto);
 
             // Con una respuesta anterior el estado sigue siendo el de esa respuesta, y el fallo de la
@@ -547,6 +551,55 @@ namespace RmlVentana
             foreach (var Boton in Botones)
                 if (Lista.ButtonText(Boton.Texto, widthPct: 0.4f))
                     Boton.Accion();
+
+            // Va ultimo y aparte: borra lo bajado, asi que no basta un clic (pedido por Angel).
+            if (OficialJuego.HayAlgoInstalado)
+            {
+                BotonMantenido(Lista.GetRect(30f, 0.4f),
+                    (Estado == EstadoOficial.SinUsar ? "RML_Oficial_Borrar" : "RML_Oficial_Deshacer").Translate(), OficialJuego.Deshacer);
+                Lista.Gap(Lista.verticalSpacing);
+            }
+        }
+
+        private const double SegundosMantenido = 1.5;
+        /** Desde cuando se mantiene presionado el boton rojo, o null si no. */
+        private static DateTime? PresionadoDesde;
+
+        /** Un boton rojo que hace su accion solo si se lo mantiene presionado SegundosMantenido, y se va
+         *  llenando mientras tanto. Soltarlo o salir de el con el mouse lo vacia. La hora sale de DateTime,
+         *  como Parpadeo, y no de Time de Unity. */
+        private static void BotonMantenido(Rect Caja, string Texto, Action Accion)
+        {
+            Event Evento = Event.current;
+            bool Encima = Mouse.IsOver(Caja);
+            if (Evento.type == EventType.MouseDown && Evento.button == 0 && Encima)
+            {
+                PresionadoDesde = DateTime.UtcNow;
+                Evento.Use();
+            }
+            else if (Evento.rawType == EventType.MouseUp || !Encima)
+                PresionadoDesde = null;
+
+            float Avance = PresionadoDesde == null ? 0f
+                : (float)Math.Min(1.0, (DateTime.UtcNow - PresionadoDesde.Value).TotalSeconds / SegundosMantenido);
+
+            Widgets.DrawBoxSolid(Caja, Encima ? RojoBotonEncima : RojoBoton);
+            if (Avance > 0f)
+                Widgets.DrawBoxSolid(new Rect(Caja.x, Caja.y, Caja.width * Avance, Caja.height), RojoLleno);
+            GUI.color = RojoBorde;
+            Widgets.DrawBox(Caja);
+            GUI.color = Color.white;
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Widgets.Label(Caja, Texto);
+            Text.Anchor = TextAnchor.UpperLeft;
+            TooltipHandler.TipRegion(Caja, "RML_Oficial_Mantener".Translate());
+
+            if (Avance >= 1f)
+            {
+                PresionadoDesde = null;
+                SoundDefOf.Click.PlayOneShotOnCamera();
+                Accion();
+            }
         }
 
         /** Por que fallo la ultima consulta: el limite de GitHub, con la hora local en que vuelve a
