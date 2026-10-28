@@ -8,10 +8,6 @@
   <ALConfigHostilePredatorsLabel>Los depredadores que cazan a tus peones son considerados hostiles por toda tu facción</ALConfigHostilePredatorsLabel>
   <!-- EN: This does not change threat response of your pawns, it only makes them able to recognize a threat. -->
   <ALConfigHostilePredatorsTooltip>Esto no cambia la respuesta de autodefensa de tus peones, solo les permite reconocer al depredador como una amenaza activa.</ALConfigHostilePredatorsTooltip>
-  <!-- EN: Convert eggs ruined by temperature into unfertilized chicken eggs -->
-  <ALConfigEggConversionLabel>Convertir los huevos estropeados por la temperatura en huevos de gallina sin fertilizar</ALConfigEggConversionLabel>
-  <!-- EN: This does not affect already ruined eggs. -->
-  <ALConfigEggConversionTooltip>Esto no afecta a los huevos ya estropeados.</ALConfigEggConversionTooltip>
   <!-- EN: Convert any generic animal meat into chicken meat upon butchering -->
   <ALConfigMeatConversionLabel>Convertir cualquier carne de animal genérica en carne de pollo al despiezar</ALConfigMeatConversionLabel>
   <!-- EN: This does not affect already butchered meat. -->
@@ -44,10 +40,6 @@
   <ALConfigHaulingMTBLabel>Intervalo entre transportes {0}h. Por defecto: 1.5h.</ALConfigHaulingMTBLabel>
   <!-- EN: &apos;MTB&apos; stands for &apos;Mean Time Between&apos;. Setting to 0 drastically increases productiveness, but can affect performance with large amount of trained animals. -->
   <ALConfigHaulingMTBTooltip>Ajustar a 0 aumenta drásticamente la productividad, pero puede afectar el rendimiento con una gran cantidad de animales entrenados.</ALConfigHaulingMTBTooltip>
-  <!-- EN: Show extra stats for pawns -->
-  <ALConfigShowExtraDisplayStatsLabel>Mostrar estadísticas adicionales para los peones</ALConfigShowExtraDisplayStatsLabel>
-  <!-- EN: Shows some stats that vanilla misses, like resource production. -->
-  <ALConfigShowExtraDisplayStatsTooltip>Muestra algunas estadísticas que el juego base no incluye, como la producción de recursos.</ALConfigShowExtraDisplayStatsTooltip>
   <!-- EN: Always show animal relations -->
   <ALConfigAlwaysShowRelationsLabel>Mostrar siempre las relaciones de los animales</ALConfigAlwaysShowRelationsLabel>
   <!-- EN: By default, only relations with named animals are displayed. This allows to see all of them. -->
@@ -60,74 +52,70 @@
   <ALConfigTamingAgeFactorLabel>Los animales jóvenes son más fáciles de manejar</ALConfigTamingAgeFactorLabel>
   <!-- EN: Makes non-adult animals easier to tame and train, effectively reducing their wildness. Proportinal to their relative age - newborn are much easier, while almost adult are barely affected. -->
   <ALConfigTamingAgeFactorTooltip>Hace que los animales no adultos sean más fáciles de domesticar y entrenar, reduciendo su salvajismo. Es proporcional a su edad: los recién nacidos son mucho más fáciles, mientras que los casi adultos apenas se ven afectados.</ALConfigTamingAgeFactorTooltip>
-  <!-- EN: Obedient animals come when called for training -->
+  <!-- EN: Obedient animals come when called for training or play -->
   <ALConfigComeWhenCalledLabel>Los animales obedientes acuden al llamado para entrenar</ALConfigComeWhenCalledLabel>
-  <!-- EN: Animals with Obedience training will come to the trainer instead of forcing the trainer to chase them. They will meet somewhere in between. -->
+  <!-- EN: Animals with Obedience training will come to the handler instead of forcing the handler to chase them, dropping whatever they were doing. Any animal being handled also stays put while the handler talks to it, like the game already does while feeding it. Animals will not be called or held while fighting, fleeing, drafted or otherwise unavailable for interaction by the game&apos;s own rules. -->
   <ALConfigComeWhenCalledTooltip>Los animales con entrenamiento de obediencia irán hacia el entrenador en lugar de obligarlo a perseguirlos. Se encontrarán a mitad de camino.</ALConfigComeWhenCalledTooltip>
   <!-- EN: Allow playing with animals as recreation -->
   <ALConfigPlayWithAnimalsLabel>Permitir jugar con animales como recreación</ALConfigPlayWithAnimalsLabel>
   <!-- EN: Pawns capable of animal handling can play with colony animals for joy. Bonded and high-petness animals are preferred. High-skill handlers may also interact with wild animals for a chance to tame them. -->
   <ALConfigPlayWithAnimalsTooltip>Los individuos capaces de tratar con animales pueden jugar con los animales de la colonia para divertirse. Se prefieren los animales vinculados y los más mimosos. Los cuidadores muy hábiles también pueden interactuar con animales salvajes y tener la oportunidad de domesticarlos.</ALConfigPlayWithAnimalsTooltip>
-  <!-- EN: Wool type -->
-  <WoolType>Tipo de lana</WoolType>
-  <!-- EN: The type of wool this creature will yield when sheared. -->
-  <Stat_Race_WoolType_Desc>El tipo de lana que producirá esta criatura al ser esquilada.</Stat_Race_WoolType_Desc>
-  <!-- EN: Wool amount -->
-  <WoolAmount>Cantidad de lana</WoolAmount>
-  <!-- EN: The amount of wool yielded when shearing this creature and time it takes to grow wool. -->
-  <Stat_Race_WoolAmount_Desc>La cantidad de lana obtenida al esquilar a esta criatura y el tiempo que tarda en crecer.</Stat_Race_WoolAmount_Desc>
-  <!-- EN: Milk type -->
-  <MilkType>Tipo de leche</MilkType>
-  <!-- EN: The type of milk this creature will yield when milked. -->
-  <Stat_Race_MilkType_Desc>El tipo de leche que producirá esta criatura al ser ordeñada.</Stat_Race_MilkType_Desc>
-  <!-- EN: Milk amount -->
-  <MilkAmount>Cantidad de leche</MilkAmount>
-  <!-- EN: The amount of milk yielded when milking this creature and time it takes to produce milk. -->
-  <Stat_Race_MilkAmount_Desc>La cantidad de leche obtenida al ordeñar a esta criatura y el tiempo que tarda en producirse.</Stat_Race_MilkAmount_Desc>
-  <!-- EN: Milk female only -->
-  <MilkFemale>Solo hembras (leche)</MilkFemale>
-  <!-- EN: Some species may produce milk regardless of sex, but for most only females can be milked. -->
-  <MilkFemaleExplanation>Algunas especies pueden producir leche independientemente del sexo, pero en la mayoría solo se pueden ordeñar las hembras.</MilkFemaleExplanation>
+  <!-- EN: Show production stats for modded animal resources -->
+  <ALConfigShowExtraDisplayStatsLabel>Mostrar estadísticas adicionales para los peones</ALConfigShowExtraDisplayStatsLabel>
+  <!-- EN: Vanilla info cards only list milk and wool. This adds the same rows for custom gatherable resources used by other mods. -->
+  <ALConfigShowExtraDisplayStatsTooltip>Muestra algunas estadísticas que el juego base no incluye, como la producción de recursos.</ALConfigShowExtraDisplayStatsTooltip>
+  <!-- EN: Hunting spree mental break -->
+  <ALConfigHuntingSpreeLabel>TODO</ALConfigHuntingSpreeLabel>
+  <!-- EN: A major mental break where the colonist goes off to kill wild animals. Only picked when the colonist can fight and there is a wild animal on the map that is not too dangerous for the colonist&apos;s current weapon: an unarmed colonist only goes after small game, a melee weapon allows medium animals, a ranged weapon allows most non-predators and small predators, and nothing picks fights with bears, wolves, big cats, thrumbos or animals that explode when killed in melee. Turning this off removes it from the pool of possible breaks. -->
+  <ALConfigHuntingSpreeTooltip>TODO</ALConfigHuntingSpreeTooltip>
+  <!-- EN: Hunting spree frequency: {0} -->
+  <ALConfigHuntingSpreeFrequencyLabel>TODO</ALConfigHuntingSpreeFrequencyLabel>
+  <!-- EN: How likely the hunting spree is compared to the game&apos;s other major breaks. At 100% it has a bit over half the weight of a tantrum. Lower it if it comes up too often, or raise it to see it more. -->
+  <ALConfigHuntingSpreeFrequencyTooltip>TODO</ALConfigHuntingSpreeFrequencyTooltip>
   <!-- EN: Product type -->
   <AL_ResourceType>Tipo de producto</AL_ResourceType>
-  <!-- EN: This animal can produce some type of resource that is not considered milk or wool. Note, that this one can be less reliable since it is used for modded animals with some kind of custom production rules. -->
-  <AL_ResourceType_Desc>Este animal puede producir algún tipo de recurso que no se considera leche ni lana. Ten en cuenta que esto puede ser menos fiable, ya que se usa para animales de mods con reglas de producción personalizadas.</AL_ResourceType_Desc>
-  <!-- EN: Product amount -->
+  <!-- EN: This creature produces a gatherable resource that is neither milk nor wool. Added by another mod, so the numbers follow that mod&apos;s rules. -->
+  <AL_ResourceTypeDesc>TODO</AL_ResourceTypeDesc>
+  <!-- EN: {0} amount -->
   <AL_ResourceAmount>Cantidad de producto</AL_ResourceAmount>
-  <!-- EN: The amount of resource harvested from this creature and time it takes to grow. -->
-  <AL_ResourceAmount_Desc>La cantidad de recurso recolectado de esta criatura y el tiempo que tarda en crecer.</AL_ResourceAmount_Desc>
-  <!-- EN: Eggs type -->
-  <EggType>Tipo de huevo</EggType>
-  <!-- EN: The type of eggs this creature will lay. -->
-  <Stat_Race_EggType_Desc>El tipo de huevos que pondrá esta criatura.</Stat_Race_EggType_Desc>
-  <!-- EN: Eggs amount -->
-  <EggAmount>Cantidad de huevos</EggAmount>
-  <!-- EN: The amount of eggs in a clutch and how long it takes to produce them. -->
-  <Stat_Race_EggAmount_Desc>La cantidad de huevos en una nidada y cuánto tiempo se tarda en producirlos.</Stat_Race_EggAmount_Desc>
-  <!-- EN: Eggs female only -->
-  <EggFemale>Solo hembras (huevos)</EggFemale>
-  <!-- EN: Some species may produce eggs regardless of sex, but for most only females can do that. -->
-  <EggFemaleExplanation>Algunas especies pueden poner huevos independientemente del sexo, pero en la mayoría solo las hembras pueden hacerlo.</EggFemaleExplanation>
-  <!-- EN: Eggs must be fertilized -->
-  <EggNeedFertilization>Los huevos deben estar fertilizados</EggNeedFertilization>
-  <!-- EN: Some species may produce unfertilized eggs, but many others would not. -->
-  <EggNeedFertilizationExplanation>Algunas especies pueden producir huevos sin fertilizar, pero muchas otras no.</EggNeedFertilizationExplanation>
-  <!-- EN: Eggs incubation -->
-  <EggIncubation>Incubación de huevos</EggIncubation>
-  <!-- EN: How much times it takes for an egg to hatch. -->
-  <EggIncubationExplanation>Cuánto tiempo tarda un huevo en eclosionar.</EggIncubationExplanation>
-  <!-- EN: Mature age -->
-  <TimeToMature>Edad de madurez</TimeToMature>
-  <!-- EN: How much time it takes to reach reproductive age, age when it can produce milk/wool, or last defined life stage for species that can&apos;t reproduce. They are the same age for most species. -->
-  <TimeToMatureExplanation>Cuánto tiempo se tarda en alcanzar la edad reproductiva, la edad en la que puede producir leche/lana, o la última etapa de vida definida para especies que no pueden reproducirse.</TimeToMatureExplanation>
-  <!-- EN: Gestation period -->
-  <GestationPeriod>Periodo de gestación</GestationPeriod>
-  <!-- EN: How much times it takes to produce a new offspring. -->
-  <GestationPeriodExplanation>Cuánto tiempo se tarda en producir una nueva cría.</GestationPeriodExplanation>
-  <!-- EN: Litter size -->
-  <LitterSize>Tamaño de la camada</LitterSize>
-  <!-- EN: How many offsprings can be produced at once. -->
-  <LitterSizeExplanation>Cuántas crías pueden producirse a la vez.</LitterSizeExplanation>
+  <!-- EN: The amount of this resource gathered from the creature each time. -->
+  <AL_ResourceAmountDesc>TODO</AL_ResourceAmountDesc>
+  <!-- EN: {0} gathering interval -->
+  <AL_ResourceInterval>TODO</AL_ResourceInterval>
+  <!-- EN: The time the creature needs between gatherings. -->
+  <AL_ResourceIntervalDesc>TODO</AL_ResourceIntervalDesc>
+  <!-- EN: {0} per year -->
+  <AL_ResourcePerYear>TODO</AL_ResourcePerYear>
+  <!-- EN: The amount of this resource gathered over the course of a year.\n\nThis is calculated from the amount and the gathering interval. -->
+  <AL_ResourcePerYearDesc>TODO</AL_ResourcePerYearDesc>
+  <!-- EN: {0} market value -->
+  <AL_ResourceValue>TODO</AL_ResourceValue>
+  <!-- EN: The market value of one unit of this resource. -->
+  <AL_ResourceValueDesc>TODO</AL_ResourceValueDesc>
+  <!-- EN: {0} value per year -->
+  <AL_ResourceValuePerYear>TODO</AL_ResourceValuePerYear>
+  <!-- EN: The market value of one year&apos;s worth of this resource from this creature.\n\nThis is calculated from the amount per year and the market value. -->
+  <AL_ResourceValuePerYearDesc>TODO</AL_ResourceValuePerYearDesc>
+  <!-- EN: Product -->
+  <AL_GenericProduct>TODO</AL_GenericProduct>
+  <!-- EN: Random -->
+  <AL_RandomProduct>TODO</AL_RandomProduct>
+  <!-- EN: Random ({0}) -->
+  <AL_RandomProductNamed>TODO</AL_RandomProductNamed>
+  <!-- EN: Each gathering yields one of: {0}.\n\nThe market value shown is the average over these. -->
+  <AL_RandomProductDesc>TODO</AL_RandomProductDesc>
+  <!-- EN: Varies -->
+  <AL_VariableProduct>TODO</AL_VariableProduct>
+  <!-- EN: {0} (varies) -->
+  <AL_VariableProductCurrent>TODO</AL_VariableProductCurrent>
+  <!-- EN: The product depends on the animal&apos;s current condition or surroundings. Possible products: {0}. -->
+  <AL_VariableProductDesc>TODO</AL_VariableProductDesc>
+  <!-- EN: Extra items -->
+  <AL_ResourceExtra>TODO</AL_ResourceExtra>
+  <!-- EN: {0}% chance of {1} -->
+  <AL_ResourceExtraValue>TODO</AL_ResourceExtraValue>
+  <!-- EN: Each gathering has this chance to also yield the given number of extra items, of one kind from: {0}. -->
+  <AL_ResourceExtraDesc>TODO</AL_ResourceExtraDesc>
   <!-- EN: Animal needs treatment -->
   <AnimalNeedsTreatment>Un animal necesita tratamiento</AnimalNeedsTreatment>
   <!-- EN: Animals need treatment -->
