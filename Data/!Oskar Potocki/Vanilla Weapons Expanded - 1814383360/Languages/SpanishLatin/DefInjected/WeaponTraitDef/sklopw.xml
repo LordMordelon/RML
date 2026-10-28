@@ -4,210 +4,694 @@
   <VWE_UnderbarrelFlarestriker.label>lanzabengalas acoplado</VWE_UnderbarrelFlarestriker.label>
   <!-- EN: This weapon is equipped with an integrated under-barrel flare launcher. It fires bioferrite-fueled disruptor flares that illuminate the area and cause local psychic disruption. -->
   <VWE_UnderbarrelFlarestriker.description>Esta arma está equipada con un lanzador de bengalas integrado debajo del cañón. Dispara bengalas disruptoras alimentadas con bioferrita que iluminan el área y causan interrupción psíquica local.</VWE_UnderbarrelFlarestriker.description>
+  <!-- EN: flaring -->
+  <VWE_UnderbarrelFlarestriker.traitAdjectives.0>bengala</VWE_UnderbarrelFlarestriker.traitAdjectives.0>
+  <!-- EN: disruptor -->
+  <VWE_UnderbarrelFlarestriker.traitAdjectives.1>disruptor</VWE_UnderbarrelFlarestriker.traitAdjectives.1>
+  <!-- EN: bio-flare -->
+  <VWE_UnderbarrelFlarestriker.traitAdjectives.2>bio-bengala</VWE_UnderbarrelFlarestriker.traitAdjectives.2>
+  <!-- EN: illuminating -->
+  <VWE_UnderbarrelFlarestriker.traitAdjectives.3>iluminadora</VWE_UnderbarrelFlarestriker.traitAdjectives.3>
+  <!-- EN: psychic -->
+  <VWE_UnderbarrelFlarestriker.traitAdjectives.4>psíquica</VWE_UnderbarrelFlarestriker.traitAdjectives.4>
   <!-- EN: flare -->
   <VWE_UnderbarrelFlarestriker.modExtensions.0.abilityWithCharges.chargeNoun>bengala</VWE_UnderbarrelFlarestriker.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: underbarrel shotgun -->
   <VWE_UnderbarrelShotgun.label>escopeta acoplada</VWE_UnderbarrelShotgun.label>
   <!-- EN: This weapon features a stripped-down, under-barrel shotgun attachment. It provides the user with a secondary firing option specifically designed to breach doors or clear close-quarters threats without switching weapons. -->
   <VWE_UnderbarrelShotgun.description>Esta arma cuenta con un accesorio de escopeta debajo del cañón simplificado. Proporciona al usuario una opción de disparo secundaria diseñada específicamente para abrir puertas o despejar amenazas a corta distancia sin cambiar de arma.</VWE_UnderbarrelShotgun.description>
+  <!-- EN: breaching -->
+  <VWE_UnderbarrelShotgun.traitAdjectives.0>brecha</VWE_UnderbarrelShotgun.traitAdjectives.0>
+  <!-- EN: masterkey -->
+  <VWE_UnderbarrelShotgun.traitAdjectives.1>llave maestra</VWE_UnderbarrelShotgun.traitAdjectives.1>
+  <!-- EN: door-kicker -->
+  <VWE_UnderbarrelShotgun.traitAdjectives.2>pateador de puertas</VWE_UnderbarrelShotgun.traitAdjectives.2>
+  <!-- EN: underslung -->
+  <VWE_UnderbarrelShotgun.traitAdjectives.3>suspendida</VWE_UnderbarrelShotgun.traitAdjectives.3>
   <!-- EN: pitch-soaked tips -->
   <VWE_PitchSoakedTips.label>puntas empapadas en brea</VWE_PitchSoakedTips.label>
   <!-- EN: These projectiles have been dipped in sticky, flammable tar and wrapped in cloth. They have a high chance of igniting the target upon impact. -->
   <VWE_PitchSoakedTips.description>Estos proyectiles han sido sumergidos en alquitrán pegajoso e inflamable y envueltos en tela. Tienen una alta probabilidad de encender al objetivo al impactar.</VWE_PitchSoakedTips.description>
+  <!-- EN: burning -->
+  <VWE_PitchSoakedTips.traitAdjectives.0>ardiente</VWE_PitchSoakedTips.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <VWE_PitchSoakedTips.traitAdjectives.1>fogosa</VWE_PitchSoakedTips.traitAdjectives.1>
+  <!-- EN: tarred -->
+  <VWE_PitchSoakedTips.traitAdjectives.2>alquitranada</VWE_PitchSoakedTips.traitAdjectives.2>
+  <!-- EN: scorched -->
+  <VWE_PitchSoakedTips.traitAdjectives.3>chamuscada</VWE_PitchSoakedTips.traitAdjectives.3>
   <!-- EN: high-tension limbs -->
   <VWE_HighTensionLimbs.label>palas de alta tensión</VWE_HighTensionLimbs.label>
   <!-- EN: The limbs of this weapon are incredibly stiff, storing massive amounts of kinetic energy. It takes much longer to draw or crank, but the projectile flies faster and hits harder. -->
   <VWE_HighTensionLimbs.description>Las palas de esta arma son increíblemente rígidas, almacenando cantidades masivas de energía cinética. Se tarda mucho más en tensar o girar, pero el proyectil vuela más rápido y golpea más fuerte.</VWE_HighTensionLimbs.description>
+  <!-- EN: heavy -->
+  <VWE_HighTensionLimbs.traitAdjectives.0>pesada</VWE_HighTensionLimbs.traitAdjectives.0>
+  <!-- EN: stiff -->
+  <VWE_HighTensionLimbs.traitAdjectives.1>rígida</VWE_HighTensionLimbs.traitAdjectives.1>
+  <!-- EN: hard-draw -->
+  <VWE_HighTensionLimbs.traitAdjectives.2>tiro duro</VWE_HighTensionLimbs.traitAdjectives.2>
+  <!-- EN: tensioned -->
+  <VWE_HighTensionLimbs.traitAdjectives.3>tensada</VWE_HighTensionLimbs.traitAdjectives.3>
   <!-- EN: whisper fletching -->
   <VWE_WhisperFletching.label>emplumado silencioso</VWE_WhisperFletching.label>
   <!-- EN: The projectiles use soft, owl-down fletching that silences their flight. It generates almost no noise, preventing animals from fleeing when missed. -->
   <VWE_WhisperFletching.description>Los proyectiles utilizan un emplumado suave de plumón de búho que silencia su vuelo. No genera casi ningún ruido, evitando que los animales huyan cuando se falla.</VWE_WhisperFletching.description>
+  <!-- EN: silent -->
+  <VWE_WhisperFletching.traitAdjectives.0>silenciosa</VWE_WhisperFletching.traitAdjectives.0>
+  <!-- EN: whiskered -->
+  <VWE_WhisperFletching.traitAdjectives.1>bigotuda</VWE_WhisperFletching.traitAdjectives.1>
+  <!-- EN: owl-feather -->
+  <VWE_WhisperFletching.traitAdjectives.2>pluma de búho</VWE_WhisperFletching.traitAdjectives.2>
+  <!-- EN: hunting -->
+  <VWE_WhisperFletching.traitAdjectives.3>caza</VWE_WhisperFletching.traitAdjectives.3>
   <!-- EN: barbed heads -->
   <VWE_BarbedHeads.label>puntas con púas</VWE_BarbedHeads.label>
   <!-- EN: The projectiles are tipped with jagged, cruel hooks designed to tear flesh and get stuck in the wound. They cause immense pain and have higher stopping power. -->
   <VWE_BarbedHeads.description>Los proyectiles tienen puntas con ganchos dentados y crueles diseñados para desgarrar la carne y atascarse en la herida. Causan un dolor inmenso y tienen un mayor poder de parada.</VWE_BarbedHeads.description>
+  <!-- EN: cruel -->
+  <VWE_BarbedHeads.traitAdjectives.0>cruel</VWE_BarbedHeads.traitAdjectives.0>
+  <!-- EN: jagged -->
+  <VWE_BarbedHeads.traitAdjectives.1>dentada</VWE_BarbedHeads.traitAdjectives.1>
+  <!-- EN: barbed -->
+  <VWE_BarbedHeads.traitAdjectives.2>con púas</VWE_BarbedHeads.traitAdjectives.2>
+  <!-- EN: tearing -->
+  <VWE_BarbedHeads.traitAdjectives.3>desgarradora</VWE_BarbedHeads.traitAdjectives.3>
   <!-- EN: quick-draw string -->
   <VWE_QuickDrawString.label>cuerda de tiro rápido</VWE_QuickDrawString.label>
   <!-- EN: This bow is strung with a flexible, slightly slacker string. It allows for rapid volley fire at the cost of range and armor penetration. -->
   <VWE_QuickDrawString.description>Este arco está encordado con una cuerda flexible y ligeramente más floja. Permite un fuego de volea rápido a costa del alcance y la penetración de armadura.</VWE_QuickDrawString.description>
+  <!-- EN: loose -->
+  <VWE_QuickDrawString.traitAdjectives.0>suelta</VWE_QuickDrawString.traitAdjectives.0>
+  <!-- EN: rapid -->
+  <VWE_QuickDrawString.traitAdjectives.1>rápida</VWE_QuickDrawString.traitAdjectives.1>
+  <!-- EN: skirmisher -->
+  <VWE_QuickDrawString.traitAdjectives.2>escaramuzador</VWE_QuickDrawString.traitAdjectives.2>
+  <!-- EN: volley -->
+  <VWE_QuickDrawString.traitAdjectives.3>volea</VWE_QuickDrawString.traitAdjectives.3>
   <!-- EN: twin-nock -->
   <VWE_TwinNock.label>doble muesca</VWE_TwinNock.label>
   <!-- EN: This weapon is designed to fire two projectiles simultaneously. It creates a hail of arrows but makes aiming at specific targets much more difficult. -->
   <VWE_TwinNock.description>Esta arma está diseñada para disparar dos proyectiles simultáneamente. Crea una lluvia de flechas pero hace que apuntar a objetivos específicos sea mucho más difícil.</VWE_TwinNock.description>
+  <!-- EN: double -->
+  <VWE_TwinNock.traitAdjectives.0>doble</VWE_TwinNock.traitAdjectives.0>
+  <!-- EN: twin -->
+  <VWE_TwinNock.traitAdjectives.1>gemela</VWE_TwinNock.traitAdjectives.1>
+  <!-- EN: duo -->
+  <VWE_TwinNock.traitAdjectives.2>dúo</VWE_TwinNock.traitAdjectives.2>
+  <!-- EN: volley -->
+  <VWE_TwinNock.traitAdjectives.3>volea</VWE_TwinNock.traitAdjectives.3>
   <!-- EN: blunt heads -->
   <VWE_BluntHeads.label>puntas romas</VWE_BluntHeads.label>
   <!-- EN: The projectiles are tipped with heavy, flat weights instead of sharp points. They deal blunt trauma, cracking bones and causing bruising rather than bleeding wounds. -->
   <VWE_BluntHeads.description>Los proyectiles tienen puntas con pesos planos y pesados en lugar de puntas afiladas. Causan traumatismos contundentes, rompiendo huesos y causando hematomas en lugar de heridas sangrantes.</VWE_BluntHeads.description>
+  <!-- EN: stunning -->
+  <VWE_BluntHeads.traitAdjectives.0>aturdidora</VWE_BluntHeads.traitAdjectives.0>
+  <!-- EN: heavy -->
+  <VWE_BluntHeads.traitAdjectives.1>pesada</VWE_BluntHeads.traitAdjectives.1>
+  <!-- EN: smashing -->
+  <VWE_BluntHeads.traitAdjectives.2>aplastante</VWE_BluntHeads.traitAdjectives.2>
+  <!-- EN: thumping -->
+  <VWE_BluntHeads.traitAdjectives.3>golpeadora</VWE_BluntHeads.traitAdjectives.3>
+  <!-- EN: blunt -->
+  <VWE_BluntHeads.traitAdjectives.4>roma</VWE_BluntHeads.traitAdjectives.4>
   <!-- EN: siege assembly -->
   <VWE_SiegeAssembly.label>ensamblaje de asedio</VWE_SiegeAssembly.label>
   <!-- EN: This weapon is modified with heavy pulleys, a windlass, or reinforced laminate limbs, effectively turning it into a portable ballista. It hits with devastating force, capable of piercing thick armor, but the weapon is incredibly heavy and agonizingly slow to aim. -->
   <VWE_SiegeAssembly.description>Esta arma está modificada con poleas pesadas, un molinete o palas laminadas reforzadas, convirtiéndola efectivamente en una balista portátil. Golpea con una fuerza devastadora, capaz de perforar armaduras gruesas, pero el arma es increíblemente pesada y agonizantemente lenta para apuntar.</VWE_SiegeAssembly.description>
+  <!-- EN: siege -->
+  <VWE_SiegeAssembly.traitAdjectives.0>asedio</VWE_SiegeAssembly.traitAdjectives.0>
+  <!-- EN: heavy -->
+  <VWE_SiegeAssembly.traitAdjectives.1>pesada</VWE_SiegeAssembly.traitAdjectives.1>
+  <!-- EN: ballista -->
+  <VWE_SiegeAssembly.traitAdjectives.2>balista</VWE_SiegeAssembly.traitAdjectives.2>
+  <!-- EN: titan -->
+  <VWE_SiegeAssembly.traitAdjectives.3>titán</VWE_SiegeAssembly.traitAdjectives.3>
+  <!-- EN: sluggish -->
+  <VWE_SiegeAssembly.traitAdjectives.4>lenta</VWE_SiegeAssembly.traitAdjectives.4>
   <!-- EN: blast tips -->
   <VWE_BlastTips.label>puntas explosivas</VWE_BlastTips.label>
   <!-- EN: The arrowheads are replaced with crude, volatile explosive charges. Upon impact, they detonate in a small radius, dealing significant damage to clusters of enemies. However, the heavy and unbalanced payload causes the projectile to tumble in flight, making accurate fire nearly impossible. -->
   <VWE_BlastTips.description>Las puntas de flecha se reemplazan con cargas explosivas crudas y volátiles. Al impactar, detonan en un radio pequeño, infligiendo un daño significativo a grupos de enemigos. Sin embargo, la carga pesada y desequilibrada hace que el proyectil caiga en vuelo, haciendo que el fuego preciso sea casi imposible.</VWE_BlastTips.description>
+  <!-- EN: blasting -->
+  <VWE_BlastTips.traitAdjectives.0>explosiva</VWE_BlastTips.traitAdjectives.0>
+  <!-- EN: booming -->
+  <VWE_BlastTips.traitAdjectives.1>retumbante</VWE_BlastTips.traitAdjectives.1>
+  <!-- EN: explosive -->
+  <VWE_BlastTips.traitAdjectives.2>explosiva</VWE_BlastTips.traitAdjectives.2>
+  <!-- EN: volatile -->
+  <VWE_BlastTips.traitAdjectives.3>volátil</VWE_BlastTips.traitAdjectives.3>
+  <!-- EN: unstable -->
+  <VWE_BlastTips.traitAdjectives.4>inestable</VWE_BlastTips.traitAdjectives.4>
   <!-- EN: slip-string -->
   <VWE_SlipString.label>cuerda deslizante</VWE_SlipString.label>
   <!-- EN: This bow uses a specifically waxed, low-friction string. It allows the archer to hold extra arrows in their draw hand and loose them in a blur of motion. The hasty release prevents a full draw, limiting the weapon&apos;s effective range. -->
   <VWE_SlipString.description>Este arco utiliza una cuerda específicamente encerada y de baja fricción. Permite al arquero sostener flechas adicionales en su mano de tiro y soltarlas en un desenfoque de movimiento. La liberación apresurada evita un tiro completo, limitando el alcance efectivo del arma.</VWE_SlipString.description>
+  <!-- EN: swift -->
+  <VWE_SlipString.traitAdjectives.0>veloz</VWE_SlipString.traitAdjectives.0>
+  <!-- EN: blur -->
+  <VWE_SlipString.traitAdjectives.1>desenfoque</VWE_SlipString.traitAdjectives.1>
+  <!-- EN: rapid -->
+  <VWE_SlipString.traitAdjectives.2>rápida</VWE_SlipString.traitAdjectives.2>
+  <!-- EN: speed-draw -->
+  <VWE_SlipString.traitAdjectives.3>tiro rápido</VWE_SlipString.traitAdjectives.3>
+  <!-- EN: slip -->
+  <VWE_SlipString.traitAdjectives.4>deslizante</VWE_SlipString.traitAdjectives.4>
   <!-- EN: hyper-capacitor -->
   <VWE_HyperCapacitor.label>hipercondensador</VWE_HyperCapacitor.label>
   <!-- EN: This weapon replaces a standard mechanical firing pin or gas system with an electronic rail-assist powered by a massive capacitor. It eliminates the mechanical cycling time between shots almost entirely, but the capacitor takes a significantly long time to charge before the first shot can be fired. -->
   <VWE_HyperCapacitor.description>Esta arma reemplaza un percutor mecánico estándar o sistema de gas con una asistencia de riel electrónico alimentada por un condensador masivo. Elimina el tiempo de ciclo mecánico entre disparos casi por completo, pero el condensador tarda un tiempo significativamente largo en cargarse antes de que se pueda disparar el primer tiro.</VWE_HyperCapacitor.description>
+  <!-- EN: rail-assist -->
+  <VWE_HyperCapacitor.traitAdjectives.0>asistencia de riel</VWE_HyperCapacitor.traitAdjectives.0>
+  <!-- EN: spooling -->
+  <VWE_HyperCapacitor.traitAdjectives.1>bobinado</VWE_HyperCapacitor.traitAdjectives.1>
+  <!-- EN: capacitor -->
+  <VWE_HyperCapacitor.traitAdjectives.2>condensador</VWE_HyperCapacitor.traitAdjectives.2>
+  <!-- EN: hyper -->
+  <VWE_HyperCapacitor.traitAdjectives.3>hiper</VWE_HyperCapacitor.traitAdjectives.3>
   <!-- EN: ultracoils -->
   <VWE_Ultracoils.label>ultrabobinas</VWE_Ultracoils.label>
   <!-- EN: This weapon features extended, super-conductive acceleration rails that launch projectiles at hypersonic velocities, drastically increasing range and armor penetration at the cost of cycle time. -->
   <VWE_Ultracoils.description>Esta arma cuenta con rieles de aceleración superconductores extendidos que lanzan proyectiles a velocidades hipersónicas, aumentando drásticamente el alcance y la penetración de armadura a costa del tiempo de ciclo.</VWE_Ultracoils.description>
+  <!-- EN: hyper-velocity -->
+  <VWE_Ultracoils.traitAdjectives.0>hipervelocidad</VWE_Ultracoils.traitAdjectives.0>
+  <!-- EN: rail -->
+  <VWE_Ultracoils.traitAdjectives.1>riel</VWE_Ultracoils.traitAdjectives.1>
+  <!-- EN: accelerated -->
+  <VWE_Ultracoils.traitAdjectives.2>acelerada</VWE_Ultracoils.traitAdjectives.2>
+  <!-- EN: gauss -->
+  <VWE_Ultracoils.traitAdjectives.3>gauss</VWE_Ultracoils.traitAdjectives.3>
+  <!-- EN: piercing -->
+  <VWE_Ultracoils.traitAdjectives.4>perforante</VWE_Ultracoils.traitAdjectives.4>
   <!-- EN: crypto-coated rails -->
   <VWE_CryptoCoatedRails.label>rieles con recubrimiento cripto</VWE_CryptoCoatedRails.label>
   <!-- EN: The magnetic acceleration rails are coated in the crypto-particle cooling jacket, preventing the overheating common in charge weaponry and allowing for a much faster rate of fire. -->
   <VWE_CryptoCoatedRails.description>Los rieles de aceleración magnética están recubiertos con la camisa de enfriamiento de cripto-partículas, evitando el sobrecalentamiento común en el armamento de carga y permitiendo una cadencia de fuego mucho más rápida.</VWE_CryptoCoatedRails.description>
+  <!-- EN: cooled -->
+  <VWE_CryptoCoatedRails.traitAdjectives.0>refrigerada</VWE_CryptoCoatedRails.traitAdjectives.0>
+  <!-- EN: rapid -->
+  <VWE_CryptoCoatedRails.traitAdjectives.1>rápida</VWE_CryptoCoatedRails.traitAdjectives.1>
+  <!-- EN: cycled -->
+  <VWE_CryptoCoatedRails.traitAdjectives.2>ciclada</VWE_CryptoCoatedRails.traitAdjectives.2>
+  <!-- EN: vented -->
+  <VWE_CryptoCoatedRails.traitAdjectives.3>ventilada</VWE_CryptoCoatedRails.traitAdjectives.3>
+  <!-- EN: frosty -->
+  <VWE_CryptoCoatedRails.traitAdjectives.4>helada</VWE_CryptoCoatedRails.traitAdjectives.4>
   <!-- EN: vector compensator -->
   <VWE_VectorCompensator.label>compensador vectorial</VWE_VectorCompensator.label>
   <!-- EN: The barrel is lined with micro-magnetic coils that adjust the projectile&apos;s trajectory in mid-air. This &quot;smart bullet&quot; system actively corrects aim error, granting perfect accuracy, but requires lighter, smaller projectiles to function. -->
   <VWE_VectorCompensator.description>El cañón está revestido con bobinas micromagnéticas que ajustan la trayectoria del proyectil en el aire. Este sistema de "bala inteligente" corrige activamente el error de puntería, otorgando una precisión perfecta, pero requiere proyectiles más ligeros y pequeños para funcionar.</VWE_VectorCompensator.description>
+  <!-- EN: vectoring -->
+  <VWE_VectorCompensator.traitAdjectives.0>vectorial</VWE_VectorCompensator.traitAdjectives.0>
+  <!-- EN: smart -->
+  <VWE_VectorCompensator.traitAdjectives.1>inteligente</VWE_VectorCompensator.traitAdjectives.1>
+  <!-- EN: guided -->
+  <VWE_VectorCompensator.traitAdjectives.2>guiada</VWE_VectorCompensator.traitAdjectives.2>
+  <!-- EN: seeking -->
+  <VWE_VectorCompensator.traitAdjectives.3>buscadora</VWE_VectorCompensator.traitAdjectives.3>
+  <!-- EN: correcting -->
+  <VWE_VectorCompensator.traitAdjectives.4>correctora</VWE_VectorCompensator.traitAdjectives.4>
   <!-- EN: water-cooled -->
   <VWE_WaterCooled.label>refrigerada por agua</VWE_WaterCooled.label>
   <!-- EN: This weapon is encased in a heavy, liquid-filled cooling jacket. It prevents overheating, allowing for much faster sustained fire, but drastically increases the weapon&apos;s weight. -->
   <VWE_WaterCooled.description>Esta arma está encerrada en una pesada camisa de refrigeración llena de líquido. Evita el sobrecalentamiento, permitiendo un fuego sostenido mucho más rápido, pero aumenta drásticamente el peso del arma.</VWE_WaterCooled.description>
+  <!-- EN: cooled -->
+  <VWE_WaterCooled.traitAdjectives.0>refrigerada</VWE_WaterCooled.traitAdjectives.0>
+  <!-- EN: jacketed -->
+  <VWE_WaterCooled.traitAdjectives.1>encamisada</VWE_WaterCooled.traitAdjectives.1>
+  <!-- EN: heavy -->
+  <VWE_WaterCooled.traitAdjectives.2>pesada</VWE_WaterCooled.traitAdjectives.2>
+  <!-- EN: sustained -->
+  <VWE_WaterCooled.traitAdjectives.3>sostenida</VWE_WaterCooled.traitAdjectives.3>
+  <!-- EN: fluid -->
+  <VWE_WaterCooled.traitAdjectives.4>fluida</VWE_WaterCooled.traitAdjectives.4>
   <!-- EN: bipod -->
   <VWE_Bipod.label>bípode</VWE_Bipod.label>
   <!-- EN: This weapon features a heavy deployable bipod. It provides extreme stability and accuracy at long range, but the setup time nearly doubles the time it takes to aim. -->
   <VWE_Bipod.description>Esta arma cuenta con un bípode pesado desplegable. Proporciona una estabilidad y precisión extremas a largo alcance, pero el tiempo de preparación casi duplica el tiempo que se tarda en apuntar.</VWE_Bipod.description>
+  <!-- EN: mounted -->
+  <VWE_Bipod.traitAdjectives.0>montada</VWE_Bipod.traitAdjectives.0>
+  <!-- EN: entrenched -->
+  <VWE_Bipod.traitAdjectives.1>atrincherada</VWE_Bipod.traitAdjectives.1>
+  <!-- EN: defensive -->
+  <VWE_Bipod.traitAdjectives.2>defensiva</VWE_Bipod.traitAdjectives.2>
+  <!-- EN: static -->
+  <VWE_Bipod.traitAdjectives.3>estática</VWE_Bipod.traitAdjectives.3>
+  <!-- EN: bipod -->
+  <VWE_Bipod.traitAdjectives.4>bípode</VWE_Bipod.traitAdjectives.4>
   <!-- EN: saturation feed -->
   <VWE_SaturationFeed.label>alimentación de saturación</VWE_SaturationFeed.label>
   <!-- EN: This weapon has a modified feed mechanism designed to put as much lead in the air as possible. It doubles the number of shots per burst, but the violent vibration reduces accuracy significantly. -->
   <VWE_SaturationFeed.description>Esta arma tiene un mecanismo de alimentación modificado diseñado para poner tanto plomo en el aire como sea posible. Duplica el número de disparos por ráfaga, pero la vibración violenta reduce la precisión significativamente.</VWE_SaturationFeed.description>
+  <!-- EN: suppressing -->
+  <VWE_SaturationFeed.traitAdjectives.0>supresora</VWE_SaturationFeed.traitAdjectives.0>
+  <!-- EN: saturation -->
+  <VWE_SaturationFeed.traitAdjectives.1>saturación</VWE_SaturationFeed.traitAdjectives.1>
+  <!-- EN: storm -->
+  <VWE_SaturationFeed.traitAdjectives.2>tormenta</VWE_SaturationFeed.traitAdjectives.2>
+  <!-- EN: flooding -->
+  <VWE_SaturationFeed.traitAdjectives.3>inundación</VWE_SaturationFeed.traitAdjectives.3>
+  <!-- EN: raining -->
+  <VWE_SaturationFeed.traitAdjectives.4>lluvia</VWE_SaturationFeed.traitAdjectives.4>
   <!-- EN: short-stroke piston -->
   <VWE_ShortStrokePiston.label>pistón de carrera corta</VWE_ShortStrokePiston.label>
   <!-- EN: This weapon uses a modified short-travel bolt carrier that strictly limits burst length. It fires half as many shots per volley, but the mechanism resets twice as fast, allowing for extremely responsive engagement. -->
   <VWE_ShortStrokePiston.description>Esta arma utiliza un portacerrojo de recorrido corto modificado que limita estrictamente la longitud de la ráfaga. Dispara la mitad de tiros por descarga, pero el mecanismo se reinicia el doble de rápido, lo que permite un enfrentamiento extremadamente sensible.</VWE_ShortStrokePiston.description>
+  <!-- EN: short-stroke -->
+  <VWE_ShortStrokePiston.traitAdjectives.0>carrera corta</VWE_ShortStrokePiston.traitAdjectives.0>
+  <!-- EN: staccato -->
+  <VWE_ShortStrokePiston.traitAdjectives.1>staccato</VWE_ShortStrokePiston.traitAdjectives.1>
+  <!-- EN: rapid-cycle -->
+  <VWE_ShortStrokePiston.traitAdjectives.2>ciclo rápido</VWE_ShortStrokePiston.traitAdjectives.2>
+  <!-- EN: skirmish -->
+  <VWE_ShortStrokePiston.traitAdjectives.3>escaramuza</VWE_ShortStrokePiston.traitAdjectives.3>
+  <!-- EN: responsive -->
+  <VWE_ShortStrokePiston.traitAdjectives.4>sensible</VWE_ShortStrokePiston.traitAdjectives.4>
   <!-- EN: thump retrofit -->
   <VWE_ThumpRetrofit.label>modificación de golpe</VWE_ThumpRetrofit.label>
   <!-- EN: This weapon incorporates reverse-engineered mechanoid technology to fire heavy, blunt-force energy slugs that devastate structures and armor at the cost of range. -->
   <VWE_ThumpRetrofit.description>Esta arma incorpora tecnología mecanoide de ingeniería inversa para disparar balas de energía de fuerza contundente pesada que devastan estructuras y armaduras a costa del alcance.</VWE_ThumpRetrofit.description>
+  <!-- EN: thumping -->
+  <VWE_ThumpRetrofit.traitAdjectives.0>golpeadora</VWE_ThumpRetrofit.traitAdjectives.0>
+  <!-- EN: siege -->
+  <VWE_ThumpRetrofit.traitAdjectives.1>asedio</VWE_ThumpRetrofit.traitAdjectives.1>
+  <!-- EN: kinetic -->
+  <VWE_ThumpRetrofit.traitAdjectives.2>cinética</VWE_ThumpRetrofit.traitAdjectives.2>
+  <!-- EN: heavy -->
+  <VWE_ThumpRetrofit.traitAdjectives.3>pesada</VWE_ThumpRetrofit.traitAdjectives.3>
+  <!-- EN: crushing -->
+  <VWE_ThumpRetrofit.traitAdjectives.4>aplastante</VWE_ThumpRetrofit.traitAdjectives.4>
   <!-- EN: acid-injector flechettes -->
   <VWE_AcidInjectorFlechettes.label>flechettes acidificadores</VWE_AcidInjectorFlechettes.label>
   <!-- EN: This weapon has been re-barreled to fire fin-stabilized acid-injector flechettes. These rounds cause horrific internal dissolution in organic targets but are useless against mechanoids. -->
   <VWE_AcidInjectorFlechettes.description>Esta arma ha sido recañoneada para disparar flechettes inyectoras de ácido estabilizadas por aletas. Estas rondas causan una disolución interna horrible en objetivos orgánicos pero son inútiles contra mecanoides.</VWE_AcidInjectorFlechettes.description>
+  <!-- EN: fletcher -->
+  <VWE_AcidInjectorFlechettes.traitAdjectives.0>flechador</VWE_AcidInjectorFlechettes.traitAdjectives.0>
+  <!-- EN: acid-needle -->
+  <VWE_AcidInjectorFlechettes.traitAdjectives.1>aguja ácida</VWE_AcidInjectorFlechettes.traitAdjectives.1>
+  <!-- EN: injecting -->
+  <VWE_AcidInjectorFlechettes.traitAdjectives.2>inyectora</VWE_AcidInjectorFlechettes.traitAdjectives.2>
+  <!-- EN: dissolving -->
+  <VWE_AcidInjectorFlechettes.traitAdjectives.3>disolvente</VWE_AcidInjectorFlechettes.traitAdjectives.3>
   <!-- EN: deserter markings -->
   <VWE_DeserterMarkings.label>marcas de desertor</VWE_DeserterMarkings.label>
   <!-- EN: This weapon bears defaced Imperial crests; equipping it in the presence of Imperial caravans or visitors will be recognized as treason, causing an immediate and severe drop in relations. -->
   <VWE_DeserterMarkings.description>Esta arma lleva crestas imperiales desfiguradas; equiparla en presencia de caravanas o visitantes imperiales será reconocido como traición, causando una caída inmediata y severa en las relaciones.</VWE_DeserterMarkings.description>
+  <!-- EN: traitor -->
+  <VWE_DeserterMarkings.traitAdjectives.0>traidor</VWE_DeserterMarkings.traitAdjectives.0>
+  <!-- EN: deserter -->
+  <VWE_DeserterMarkings.traitAdjectives.1>desertor</VWE_DeserterMarkings.traitAdjectives.1>
+  <!-- EN: stolen -->
+  <VWE_DeserterMarkings.traitAdjectives.2>robada</VWE_DeserterMarkings.traitAdjectives.2>
+  <!-- EN: defaced -->
+  <VWE_DeserterMarkings.traitAdjectives.3>desfigurada</VWE_DeserterMarkings.traitAdjectives.3>
+  <!-- EN: illicit -->
+  <VWE_DeserterMarkings.traitAdjectives.4>ilícita</VWE_DeserterMarkings.traitAdjectives.4>
   <!-- EN: high-angle draw -->
   <VWE_HighAngleDraw.label>tiro parabólico</VWE_HighAngleDraw.label>
   <!-- EN: This weapon is strung for extreme parabolic arcing, allowing arrows to be lobbed over walls and obstacles to hit unseen targets, though it is impossible to aim precisely. -->
   <VWE_HighAngleDraw.description>Esta arma está encordada para lograr arcos parabólicos extremos, lo que permite lanzar flechas por encima de muros y obstáculos para alcanzar objetivos fuera de la vista, aunque resulta imposible apuntar con precisión.</VWE_HighAngleDraw.description>
+  <!-- EN: arcing -->
+  <VWE_HighAngleDraw.traitAdjectives.0>TODO</VWE_HighAngleDraw.traitAdjectives.0>
+  <!-- EN: parabolic -->
+  <VWE_HighAngleDraw.traitAdjectives.1>TODO</VWE_HighAngleDraw.traitAdjectives.1>
+  <!-- EN: lobbing -->
+  <VWE_HighAngleDraw.traitAdjectives.2>TODO</VWE_HighAngleDraw.traitAdjectives.2>
+  <!-- EN: indirect -->
+  <VWE_HighAngleDraw.traitAdjectives.3>TODO</VWE_HighAngleDraw.traitAdjectives.3>
+  <!-- EN: siege -->
+  <VWE_HighAngleDraw.traitAdjectives.4>TODO</VWE_HighAngleDraw.traitAdjectives.4>
   <!-- EN: lucky shots -->
   <VWE_LuckyShots.label>disparos afortunados</VWE_LuckyShots.label>
   <!-- EN: This weapon&apos;s action is tuned for occasional moments of perfect alignment, granting a chance for shots to bypass defenses and inflict significant bonus damage. -->
   <VWE_LuckyShots.description>El mecanismo de esta arma está calibrado para lograr momentos ocasionales de alineación perfecta, lo que otorga una probabilidad de que los disparos ignoren las defensas e inflijan un daño adicional considerable.</VWE_LuckyShots.description>
+  <!-- EN: critical -->
+  <VWE_LuckyShots.traitAdjectives.0>TODO</VWE_LuckyShots.traitAdjectives.0>
+  <!-- EN: vicious -->
+  <VWE_LuckyShots.traitAdjectives.1>TODO</VWE_LuckyShots.traitAdjectives.1>
+  <!-- EN: deadly -->
+  <VWE_LuckyShots.traitAdjectives.2>TODO</VWE_LuckyShots.traitAdjectives.2>
+  <!-- EN: tuned -->
+  <VWE_LuckyShots.traitAdjectives.3>TODO</VWE_LuckyShots.traitAdjectives.3>
+  <!-- EN: lucky -->
+  <VWE_LuckyShots.traitAdjectives.4>TODO</VWE_LuckyShots.traitAdjectives.4>
   <!-- EN: makeshift -->
   <VWE_MakeshiftTrait.label>improvisada</VWE_MakeshiftTrait.label>
   <!-- EN: This weapon is cobbled together from mismatched parts with a faulty sear mechanism. It is wildly unpredictable; sometimes it fails to fire entirely, while other times it accidentally discharges a double-length burst. -->
   <VWE_MakeshiftTrait.description>Esta arma está improvisada a partir de piezas que no coinciden con un mecanismo de fiador defectuoso. Es tremendamente impredecible; a veces no dispara en absoluto, mientras que otras veces descarga accidentalmente una ráfaga de doble longitud.</VWE_MakeshiftTrait.description>
+  <!-- EN: makeshift -->
+  <VWE_MakeshiftTrait.traitAdjectives.0>improvisada</VWE_MakeshiftTrait.traitAdjectives.0>
+  <!-- EN: cobbled -->
+  <VWE_MakeshiftTrait.traitAdjectives.1>adoquinada</VWE_MakeshiftTrait.traitAdjectives.1>
+  <!-- EN: jury-rigged -->
+  <VWE_MakeshiftTrait.traitAdjectives.2>aparejada</VWE_MakeshiftTrait.traitAdjectives.2>
+  <!-- EN: scrap -->
+  <VWE_MakeshiftTrait.traitAdjectives.3>chatarra</VWE_MakeshiftTrait.traitAdjectives.3>
+  <!-- EN: unpredictable -->
+  <VWE_MakeshiftTrait.traitAdjectives.4>impredecible</VWE_MakeshiftTrait.traitAdjectives.4>
   <!-- EN: ancient -->
   <VWE_AncientTrait.label>antigua</VWE_AncientTrait.label>
   <!-- EN: This weapon is a relic from a bygone era, its internal stress fractures held together by mere luck. It functions normally for a limited time, but after a set number of shots, the mechanism will shatter completely and the weapon will be destroyed. -->
   <VWE_AncientTrait.description>Esta arma es una reliquia de una era pasada, sus fracturas por estrés internas se mantienen unidas por pura suerte. Funciona normalmente durante un tiempo limitado, pero después de un número determinado de disparos, el mecanismo se romperá por completo y el arma será destruida.</VWE_AncientTrait.description>
+  <!-- EN: ancient -->
+  <VWE_AncientTrait.traitAdjectives.0>antigua</VWE_AncientTrait.traitAdjectives.0>
+  <!-- EN: relic -->
+  <VWE_AncientTrait.traitAdjectives.1>reliquia</VWE_AncientTrait.traitAdjectives.1>
+  <!-- EN: fragile -->
+  <VWE_AncientTrait.traitAdjectives.2>frágil</VWE_AncientTrait.traitAdjectives.2>
+  <!-- EN: crumbling -->
+  <VWE_AncientTrait.traitAdjectives.3>desmoronándose</VWE_AncientTrait.traitAdjectives.3>
+  <!-- EN: finite -->
+  <VWE_AncientTrait.traitAdjectives.4>finita</VWE_AncientTrait.traitAdjectives.4>
   <!-- EN: crypto rounds -->
   <VWE_CryptoRounds.label>rondas cripto</VWE_CryptoRounds.label>
   <!-- EN: This weapon fires rounds coated in active cryptoparticles that induce a rapid stasis-freeze effect on impact. -->
   <VWE_CryptoRounds.description>Esta arma dispara rondas recubiertas de criptopartículas activas que inducen un efecto de congelación por estasis rápido al impactar.</VWE_CryptoRounds.description>
+  <!-- EN: crypto -->
+  <VWE_CryptoRounds.traitAdjectives.0>cripto</VWE_CryptoRounds.traitAdjectives.0>
+  <!-- EN: stasis -->
+  <VWE_CryptoRounds.traitAdjectives.1>estasis</VWE_CryptoRounds.traitAdjectives.1>
+  <!-- EN: freezing -->
+  <VWE_CryptoRounds.traitAdjectives.2>congelación</VWE_CryptoRounds.traitAdjectives.2>
+  <!-- EN: preserving -->
+  <VWE_CryptoRounds.traitAdjectives.3>preservación</VWE_CryptoRounds.traitAdjectives.3>
+  <!-- EN: absolute -->
+  <VWE_CryptoRounds.traitAdjectives.4>absoluta</VWE_CryptoRounds.traitAdjectives.4>
   <!-- EN: void inscriptions -->
   <VWE_VoidInscriptions.label>inscripciones del vacío</VWE_VoidInscriptions.label>
   <!-- EN: This weapon is etched with shifting, non-euclidean glyphs that whisper to the wielder, continually draining their mental stability while equipped. -->
   <VWE_VoidInscriptions.description>Esta arma está grabada con glifos no euclidianos cambiantes que susurran al portador, drenando continuamente su estabilidad mental mientras está equipada.</VWE_VoidInscriptions.description>
+  <!-- EN: void -->
+  <VWE_VoidInscriptions.traitAdjectives.0>vacío</VWE_VoidInscriptions.traitAdjectives.0>
+  <!-- EN: accursed -->
+  <VWE_VoidInscriptions.traitAdjectives.1>maldita</VWE_VoidInscriptions.traitAdjectives.1>
+  <!-- EN: whispering -->
+  <VWE_VoidInscriptions.traitAdjectives.2>susurrante</VWE_VoidInscriptions.traitAdjectives.2>
+  <!-- EN: maddening -->
+  <VWE_VoidInscriptions.traitAdjectives.3>enloquecedora</VWE_VoidInscriptions.traitAdjectives.3>
+  <!-- EN: eldritch -->
+  <VWE_VoidInscriptions.traitAdjectives.4>sobrenatural</VWE_VoidInscriptions.traitAdjectives.4>
   <!-- EN: comfort grip -->
   <VWE_ComfortGrip.label>empuñadura cómoda</VWE_ComfortGrip.label>
   <!-- EN: This weapon is fitted with a custom-molded, ergonomic handle wrapped in high-quality leather. It feels reassuringly secure in the hand, filling the user with a sense of pride and accomplishment. -->
   <VWE_ComfortGrip.description>Esta arma está equipada con un mango ergonómico moldeado a medida envuelto en cuero de alta calidad. Se siente tranquilizadoramente segura en la mano, llenando al usuario con una sensación de orgullo y logro.</VWE_ComfortGrip.description>
+  <!-- EN: comfortable -->
+  <VWE_ComfortGrip.traitAdjectives.0>cómoda</VWE_ComfortGrip.traitAdjectives.0>
+  <!-- EN: ergonomic -->
+  <VWE_ComfortGrip.traitAdjectives.1>ergonómica</VWE_ComfortGrip.traitAdjectives.1>
+  <!-- EN: reassuring -->
+  <VWE_ComfortGrip.traitAdjectives.2>tranquilizadora</VWE_ComfortGrip.traitAdjectives.2>
+  <!-- EN: loved -->
+  <VWE_ComfortGrip.traitAdjectives.3>amada</VWE_ComfortGrip.traitAdjectives.3>
+  <!-- EN: trusted -->
+  <VWE_ComfortGrip.traitAdjectives.4>confiable</VWE_ComfortGrip.traitAdjectives.4>
   <!-- EN: grim notches -->
   <VWE_GrimNotches.label>muescas macabras</VWE_GrimNotches.label>
   <!-- EN: This weapon is covered in crude, carved notches, each tallying a life taken by a previous owner. It seems there’s one, and nineteen more of them. The handle feels rough and disturbing to hold, filling the user with a sense of dread and guilt. -->
   <VWE_GrimNotches.description>Esta arma está cubierta de muescas toscas y talladas, cada una contando una vida tomada por un propietario anterior. Parece que hay una, y diecinueve más de ellas. El mango se siente áspero e inquietante de sostener, llenando al usuario con una sensación de pavor y culpa.</VWE_GrimNotches.description>
+  <!-- EN: notched -->
+  <VWE_GrimNotches.traitAdjectives.0>muescada</VWE_GrimNotches.traitAdjectives.0>
+  <!-- EN: grim -->
+  <VWE_GrimNotches.traitAdjectives.1>macabra</VWE_GrimNotches.traitAdjectives.1>
+  <!-- EN: marked -->
+  <VWE_GrimNotches.traitAdjectives.2>marcada</VWE_GrimNotches.traitAdjectives.2>
+  <!-- EN: tallying -->
+  <VWE_GrimNotches.traitAdjectives.3>contando</VWE_GrimNotches.traitAdjectives.3>
+  <!-- EN: haunted -->
+  <VWE_GrimNotches.traitAdjectives.4>embrujada</VWE_GrimNotches.traitAdjectives.4>
   <!-- EN: worn rifling -->
   <VWE_WornRifling.label>estriado desgastado</VWE_WornRifling.label>
   <!-- EN: The spiral grooves inside this weapon&apos;s barrel have been worn smooth by overuse. It is significantly less accurate at all ranges. -->
   <VWE_WornRifling.description>Las ranuras en espiral dentro del cañón de esta arma se han desgastado por el uso excesivo. Es significativamente menos precisa en todos los rangos.</VWE_WornRifling.description>
+  <!-- EN: worn -->
+  <VWE_WornRifling.traitAdjectives.0>desgastada</VWE_WornRifling.traitAdjectives.0>
+  <!-- EN: smooth-bore -->
+  <VWE_WornRifling.traitAdjectives.1>ánima lisa</VWE_WornRifling.traitAdjectives.1>
+  <!-- EN: balding -->
+  <VWE_WornRifling.traitAdjectives.2>pelada</VWE_WornRifling.traitAdjectives.2>
+  <!-- EN: used -->
+  <VWE_WornRifling.traitAdjectives.3>usada</VWE_WornRifling.traitAdjectives.3>
+  <!-- EN: old -->
+  <VWE_WornRifling.traitAdjectives.4>vieja</VWE_WornRifling.traitAdjectives.4>
   <!-- EN: grit-clogged -->
   <VWE_GritClogged.label>obstruida por suciedad</VWE_GritClogged.label>
   <!-- EN: The internal mechanism is filled with sand, dirt, or dried grease. It cycles sluggishly, significantly increasing the time between shots. -->
   <VWE_GritClogged.description>El mecanismo interno está lleno de arena, suciedad o grasa seca. Cicla con lentitud, aumentando significativamente el tiempo entre disparos.</VWE_GritClogged.description>
+  <!-- EN: dirty -->
+  <VWE_GritClogged.traitAdjectives.0>sucia</VWE_GritClogged.traitAdjectives.0>
+  <!-- EN: gritty -->
+  <VWE_GritClogged.traitAdjectives.1>arenosa</VWE_GritClogged.traitAdjectives.1>
+  <!-- EN: jammed -->
+  <VWE_GritClogged.traitAdjectives.2>atascada</VWE_GritClogged.traitAdjectives.2>
+  <!-- EN: sandy -->
+  <VWE_GritClogged.traitAdjectives.3>arenosa</VWE_GritClogged.traitAdjectives.3>
+  <!-- EN: sticky -->
+  <VWE_GritClogged.traitAdjectives.4>pegajosa</VWE_GritClogged.traitAdjectives.4>
   <!-- EN: heavy scrap -->
   <VWE_HeavyScrap.label>chatarra pesada</VWE_HeavyScrap.label>
   <!-- EN: This weapon has been repaired using heavy, improper scrap metal components. It is cumbersome to carry and takes much longer to aim. -->
   <VWE_HeavyScrap.description>Esta arma ha sido reparada utilizando componentes de chatarra pesados e inadecuados. Es engorrosa de llevar y tarda mucho más en apuntar.</VWE_HeavyScrap.description>
+  <!-- EN: heavy -->
+  <VWE_HeavyScrap.traitAdjectives.0>pesada</VWE_HeavyScrap.traitAdjectives.0>
+  <!-- EN: scrap -->
+  <VWE_HeavyScrap.traitAdjectives.1>chatarra</VWE_HeavyScrap.traitAdjectives.1>
+  <!-- EN: leaden -->
+  <VWE_HeavyScrap.traitAdjectives.2>plomiza</VWE_HeavyScrap.traitAdjectives.2>
+  <!-- EN: bulky -->
+  <VWE_HeavyScrap.traitAdjectives.3>voluminosa</VWE_HeavyScrap.traitAdjectives.3>
+  <!-- EN: patched -->
+  <VWE_HeavyScrap.traitAdjectives.4>parcheada</VWE_HeavyScrap.traitAdjectives.4>
   <!-- EN: training conversion -->
   <VWE_TrainingConversion.label>conversión de entrenamiento</VWE_TrainingConversion.label>
   <!-- EN: This weapon has been permanently modified to fire non-lethal blunt pellets for target practice. While it causes pain and bruising, it lacks the stopping power and penetration to be useful in a real firefight. -->
   <VWE_TrainingConversion.description>Esta arma ha sido modificada permanentemente para disparar perdigones romos no letales para prácticas de tiro. Si bien causa dolor y hematomas, carece del poder de parada y penetración para ser útil en un tiroteo real.</VWE_TrainingConversion.description>
+  <!-- EN: practice -->
+  <VWE_TrainingConversion.traitAdjectives.0>práctica</VWE_TrainingConversion.traitAdjectives.0>
+  <!-- EN: training -->
+  <VWE_TrainingConversion.traitAdjectives.1>entrenamiento</VWE_TrainingConversion.traitAdjectives.1>
+  <!-- EN: rubber -->
+  <VWE_TrainingConversion.traitAdjectives.2>goma</VWE_TrainingConversion.traitAdjectives.2>
+  <!-- EN: blunt -->
+  <VWE_TrainingConversion.traitAdjectives.3>roma</VWE_TrainingConversion.traitAdjectives.3>
+  <!-- EN: harmless -->
+  <VWE_TrainingConversion.traitAdjectives.4>inofensiva</VWE_TrainingConversion.traitAdjectives.4>
   <!-- EN: janky -->
   <VWE_Janky.label>destartalada</VWE_Janky.label>
   <!-- EN: This weapon&apos;s internal mechanisms are loose and poorly fitted. It suffers from inconsistent cycling issues, meaning the cooldown duration is completely randomized after every single burst. -->
   <VWE_Janky.description>Los mecanismos internos de esta arma están sueltos y mal ajustados. Sufre de problemas de ciclo inconsistentes, lo que significa que la duración del enfriamiento es completamente aleatoria después de cada ráfaga.</VWE_Janky.description>
+  <!-- EN: janky -->
+  <VWE_Janky.traitAdjectives.0>destartalada</VWE_Janky.traitAdjectives.0>
+  <!-- EN: stuttering -->
+  <VWE_Janky.traitAdjectives.1>tartamudeante</VWE_Janky.traitAdjectives.1>
+  <!-- EN: loose -->
+  <VWE_Janky.traitAdjectives.2>suelta</VWE_Janky.traitAdjectives.2>
+  <!-- EN: rattle -->
+  <VWE_Janky.traitAdjectives.3>traqueteo</VWE_Janky.traitAdjectives.3>
+  <!-- EN: unreliable -->
+  <VWE_Janky.traitAdjectives.4>poco fiable</VWE_Janky.traitAdjectives.4>
+  <!-- EN: jamming -->
+  <VWE_Janky.traitAdjectives.5>atascamiento</VWE_Janky.traitAdjectives.5>
   <!-- EN: recoil-Op mechanism -->
   <VWE_RecoilOpMechanism.label>mecanismo de retroceso</VWE_RecoilOpMechanism.label>
   <!-- EN: This weapon fires a rapid 3-round burst. The uncontrollable recoil limits the weapon&apos;s effective range and severely reduces accuracy at medium and long distances. -->
   <VWE_RecoilOpMechanism.description>Esta arma dispara una ráfaga rápida de 3 rondas. El retroceso incontrolable limita el alcance efectivo del arma y reduce severamente la precisión a distancias medias y largas.</VWE_RecoilOpMechanism.description>
+  <!-- EN: automatic -->
+  <VWE_RecoilOpMechanism.traitAdjectives.0>automática</VWE_RecoilOpMechanism.traitAdjectives.0>
+  <!-- EN: cyclic -->
+  <VWE_RecoilOpMechanism.traitAdjectives.1>cíclica</VWE_RecoilOpMechanism.traitAdjectives.1>
+  <!-- EN: uncontrollabe -->
+  <VWE_RecoilOpMechanism.traitAdjectives.2>incontrolable</VWE_RecoilOpMechanism.traitAdjectives.2>
+  <!-- EN: storming -->
+  <VWE_RecoilOpMechanism.traitAdjectives.3>tormentosa</VWE_RecoilOpMechanism.traitAdjectives.3>
+  <!-- EN: recoil-op -->
+  <VWE_RecoilOpMechanism.traitAdjectives.4>op-retroceso</VWE_RecoilOpMechanism.traitAdjectives.4>
   <!-- EN: buntline barrel -->
   <VWE_BuntlineBarrel.label>cañón Buntline</VWE_BuntlineBarrel.label>
   <!-- EN: This weapon features an extended barrel that significantly increases range and accuracy. However, the added weight makes the weapon slower to aim. -->
   <VWE_BuntlineBarrel.description>Esta arma cuenta con un cañón extendido que aumenta significativamente el alcance y la precisión. Sin embargo, el peso añadido hace que el arma sea más lenta para apuntar.</VWE_BuntlineBarrel.description>
+  <!-- EN: buntline -->
+  <VWE_BuntlineBarrel.traitAdjectives.0>buntline</VWE_BuntlineBarrel.traitAdjectives.0>
+  <!-- EN: long-barrel -->
+  <VWE_BuntlineBarrel.traitAdjectives.1>cañón largo</VWE_BuntlineBarrel.traitAdjectives.1>
+  <!-- EN: carbine -->
+  <VWE_BuntlineBarrel.traitAdjectives.2>carabina</VWE_BuntlineBarrel.traitAdjectives.2>
+  <!-- EN: extended -->
+  <VWE_BuntlineBarrel.traitAdjectives.3>extendida</VWE_BuntlineBarrel.traitAdjectives.3>
   <!-- EN: snake-shot loads -->
   <VWE_SnakeShotLoads.label>cargas de perdigones</VWE_SnakeShotLoads.label>
   <!-- EN: This weapon fires spread-shot pellets instead of solid slugs. It provides a major accuracy boost at close range, but deals less damage and has zero armor penetration. -->
   <VWE_SnakeShotLoads.description>Esta arma dispara perdigones dispersos en lugar de balas sólidas. Proporciona un gran aumento de precisión a corta distancia, pero inflige menos daño y tiene cero penetración de armadura.</VWE_SnakeShotLoads.description>
+  <!-- EN: snake-shot -->
+  <VWE_SnakeShotLoads.traitAdjectives.0>perdigones</VWE_SnakeShotLoads.traitAdjectives.0>
+  <!-- EN: pellet -->
+  <VWE_SnakeShotLoads.traitAdjectives.1>perdigón</VWE_SnakeShotLoads.traitAdjectives.1>
+  <!-- EN: dusting -->
+  <VWE_SnakeShotLoads.traitAdjectives.2>polvorear</VWE_SnakeShotLoads.traitAdjectives.2>
+  <!-- EN: scattering -->
+  <VWE_SnakeShotLoads.traitAdjectives.3>dispersión</VWE_SnakeShotLoads.traitAdjectives.3>
   <!-- EN: top-break action -->
   <VWE_TopBreakAction.label>acción basculante</VWE_TopBreakAction.label>
   <!-- EN: This weapon features a hinged frame that breaks open for rapid casing ejection. It reloads significantly faster than a standard model, but the mechanism makes the weapon fragile and prone to breaking. -->
   <VWE_TopBreakAction.description>Esta arma cuenta con un marco con bisagras que se abre para la expulsión rápida de casquillos. Recarga significativamente más rápido que un modelo estándar, pero el mecanismo hace que el arma sea frágil y propensa a romperse.</VWE_TopBreakAction.description>
+  <!-- EN: hinged -->
+  <VWE_TopBreakAction.traitAdjectives.0>bisagra</VWE_TopBreakAction.traitAdjectives.0>
+  <!-- EN: top-break -->
+  <VWE_TopBreakAction.traitAdjectives.1>basculante</VWE_TopBreakAction.traitAdjectives.1>
+  <!-- EN: snapping -->
+  <VWE_TopBreakAction.traitAdjectives.2>chasquido</VWE_TopBreakAction.traitAdjectives.2>
+  <!-- EN: fragile -->
+  <VWE_TopBreakAction.traitAdjectives.3>frágil</VWE_TopBreakAction.traitAdjectives.3>
   <!-- EN: uranium slug -->
   <VWE_UraniumSlug.label>bala de uranio</VWE_UraniumSlug.label>
   <!-- EN: This weapon fires ultra-dense uranium slugs, giving it immense armor-penetrating capabilities, though the heavy recoil increases the time between shots. -->
   <VWE_UraniumSlug.description>Esta arma dispara balas de uranio ultradensas, lo que le otorga inmensas capacidades de penetración de armadura, aunque el fuerte retroceso aumenta el tiempo entre disparos.</VWE_UraniumSlug.description>
+  <!-- EN: anti-tank -->
+  <VWE_UraniumSlug.traitAdjectives.0>antitanque</VWE_UraniumSlug.traitAdjectives.0>
+  <!-- EN: slug -->
+  <VWE_UraniumSlug.traitAdjectives.1>bala</VWE_UraniumSlug.traitAdjectives.1>
+  <!-- EN: uranium -->
+  <VWE_UraniumSlug.traitAdjectives.2>uranio</VWE_UraniumSlug.traitAdjectives.2>
+  <!-- EN: dense -->
+  <VWE_UraniumSlug.traitAdjectives.3>densa</VWE_UraniumSlug.traitAdjectives.3>
   <!-- EN: straight-pull action -->
   <VWE_StraightPullAction.label>acción de cerrojo lineal</VWE_StraightPullAction.label>
   <!-- EN: This weapon uses a linear bolt mechanism to drastically reduce cooldown time, though it compromises long-range stability. -->
   <VWE_StraightPullAction.description>Esta arma utiliza un mecanismo de cerrojo lineal para reducir drásticamente el tiempo de enfriamiento, aunque compromete la estabilidad a largo alcance.</VWE_StraightPullAction.description>
+  <!-- EN: straight-pull -->
+  <VWE_StraightPullAction.traitAdjectives.0>tiro directo</VWE_StraightPullAction.traitAdjectives.0>
+  <!-- EN: rapid-bolt -->
+  <VWE_StraightPullAction.traitAdjectives.1>cerrojo rápido</VWE_StraightPullAction.traitAdjectives.1>
+  <!-- EN: skirmisher -->
+  <VWE_StraightPullAction.traitAdjectives.2>escaramuzador</VWE_StraightPullAction.traitAdjectives.2>
+  <!-- EN: fast-cycle -->
+  <VWE_StraightPullAction.traitAdjectives.3>ciclo rápido</VWE_StraightPullAction.traitAdjectives.3>
   <!-- EN: acceleration rail -->
   <VWE_AccelerationRail.label>riel de aceleración</VWE_AccelerationRail.label>
   <!-- EN: Retrofitted with a pulse-charge rail system, this weapon fires a single, high-velocity energy bolt that drastically improves damage and armor penetration. -->
   <VWE_AccelerationRail.description>Reequipada con un sistema de riel de carga de pulsos, esta arma dispara un solo perno de energía de alta velocidad que mejora drásticamente el daño y la penetración de armadura.</VWE_AccelerationRail.description>
+  <!-- EN: charged -->
+  <VWE_AccelerationRail.traitAdjectives.0>cargada</VWE_AccelerationRail.traitAdjectives.0>
+  <!-- EN: pulse -->
+  <VWE_AccelerationRail.traitAdjectives.1>pulso</VWE_AccelerationRail.traitAdjectives.1>
+  <!-- EN: rail-assisted -->
+  <VWE_AccelerationRail.traitAdjectives.2>asistida por riel</VWE_AccelerationRail.traitAdjectives.2>
+  <!-- EN: retrofitted -->
+  <VWE_AccelerationRail.traitAdjectives.3>reequipada</VWE_AccelerationRail.traitAdjectives.3>
+  <!-- EN: hybrid -->
+  <VWE_AccelerationRail.traitAdjectives.4>híbrida</VWE_AccelerationRail.traitAdjectives.4>
   <!-- EN: canted iron sights -->
   <VWE_CantedIronSights.label>miras de hierro inclinadas</VWE_CantedIronSights.label>
   <!-- EN: This weapon includes a secondary sight mounted at a 45-degree angle, allowing the sniper to effectively engage targets at close range without using the scope. -->
   <VWE_CantedIronSights.description>Esta arma incluye una mira secundaria montada en un ángulo de 45 grados, lo que permite al francotirador atacar eficazmente a objetivos a corta distancia sin usar la mira telescópica.</VWE_CantedIronSights.description>
+  <!-- EN: canted -->
+  <VWE_CantedIronSights.traitAdjectives.0>inclinada</VWE_CantedIronSights.traitAdjectives.0>
+  <!-- EN: CQB -->
+  <VWE_CantedIronSights.traitAdjectives.1>CQB</VWE_CantedIronSights.traitAdjectives.1>
+  <!-- EN: skirmish -->
+  <VWE_CantedIronSights.traitAdjectives.2>escaramuza</VWE_CantedIronSights.traitAdjectives.2>
+  <!-- EN: hybrid -->
+  <VWE_CantedIronSights.traitAdjectives.3>híbrida</VWE_CantedIronSights.traitAdjectives.3>
+  <!-- EN: tactical -->
+  <VWE_CantedIronSights.traitAdjectives.4>táctica</VWE_CantedIronSights.traitAdjectives.4>
   <!-- EN: fixed tele-lens -->
   <VWE_FixedTeleLens.label>teleobjetivo fijo</VWE_FixedTeleLens.label>
   <!-- EN: This weapon is fitted with extreme magnification optics that significantly extend effective range but render the weapon completely unable to target enemies within a large minimum radius. -->
   <VWE_FixedTeleLens.description>Esta arma está equipada con ópticas de aumento extremo que extienden significativamente el alcance efectivo pero hacen que el arma sea completamente incapaz de apuntar a enemigos dentro de un gran radio mínimo.</VWE_FixedTeleLens.description>
+  <!-- EN: telescopic -->
+  <VWE_FixedTeleLens.traitAdjectives.0>telescópica</VWE_FixedTeleLens.traitAdjectives.0>
+  <!-- EN: fixed-zoom -->
+  <VWE_FixedTeleLens.traitAdjectives.1>zoom fijo</VWE_FixedTeleLens.traitAdjectives.1>
+  <!-- EN: far-sighted -->
+  <VWE_FixedTeleLens.traitAdjectives.2>vista lejana</VWE_FixedTeleLens.traitAdjectives.2>
+  <!-- EN: observatory -->
+  <VWE_FixedTeleLens.traitAdjectives.3>observatorio</VWE_FixedTeleLens.traitAdjectives.3>
   <!-- EN: skeletonized frame -->
   <VWE_SkeletonizedFrame.label>marco esqueletizado</VWE_SkeletonizedFrame.label>
   <!-- EN: This weapon has had non-essential metal drilled out to drastically reduce weight. It increases the user&apos;s movement speed, but the structural integrity is compromised, lowering the weapon&apos;s maximum durability. -->
   <VWE_SkeletonizedFrame.description>A esta arma se le ha perforado el metal no esencial para reducir drásticamente el peso. Aumenta la velocidad de movimiento del usuario, pero la integridad estructural se ve comprometida, reduciendo la durabilidad máxima del arma.</VWE_SkeletonizedFrame.description>
+  <!-- EN: skeletonized -->
+  <VWE_SkeletonizedFrame.traitAdjectives.0>esqueletizada</VWE_SkeletonizedFrame.traitAdjectives.0>
+  <!-- EN: lightened -->
+  <VWE_SkeletonizedFrame.traitAdjectives.1>aligerada</VWE_SkeletonizedFrame.traitAdjectives.1>
+  <!-- EN: drilled -->
+  <VWE_SkeletonizedFrame.traitAdjectives.2>perforada</VWE_SkeletonizedFrame.traitAdjectives.2>
+  <!-- EN: hollow -->
+  <VWE_SkeletonizedFrame.traitAdjectives.3>hueca</VWE_SkeletonizedFrame.traitAdjectives.3>
+  <!-- EN: racing -->
+  <VWE_SkeletonizedFrame.traitAdjectives.4>de carreras</VWE_SkeletonizedFrame.traitAdjectives.4>
   <!-- EN: weighted stock -->
   <VWE_WeightedStock.label>culata contrapesada</VWE_WeightedStock.label>
   <!-- EN: This weapon features a reinforced, heavy stock designed for bludgeoning. It significantly increases melee damage and stun chance, but the added weight increases aiming time. -->
   <VWE_WeightedStock.description>Esta arma cuenta con una culata reforzada y pesada diseñada para golpear. Aumenta significativamente el daño cuerpo a cuerpo y la probabilidad de aturdimiento, pero el peso añadido aumenta el tiempo de apuntado.</VWE_WeightedStock.description>
+  <!-- EN: heavy -->
+  <VWE_WeightedStock.traitAdjectives.0>pesada</VWE_WeightedStock.traitAdjectives.0>
+  <!-- EN: bashing -->
+  <VWE_WeightedStock.traitAdjectives.1>golpeadora</VWE_WeightedStock.traitAdjectives.1>
+  <!-- EN: reinforced -->
+  <VWE_WeightedStock.traitAdjectives.2>reforzada</VWE_WeightedStock.traitAdjectives.2>
+  <!-- EN: club-stock -->
+  <VWE_WeightedStock.traitAdjectives.3>culata-garrote</VWE_WeightedStock.traitAdjectives.3>
+  <!-- EN: weighted -->
+  <VWE_WeightedStock.traitAdjectives.4>contrapesada</VWE_WeightedStock.traitAdjectives.4>
   <!-- EN: ported barrel -->
   <VWE_PortedBarrel.label>cañón con ventilación</VWE_PortedBarrel.label>
   <!-- EN: This weapon has gas vents drilled near the muzzle to counteract recoil. It reduces the cooldown time between shots, allowing for faster sustained fire, but slightly reduces maximum range. -->
   <VWE_PortedBarrel.description>Esta arma tiene respiraderos de gas perforados cerca de la boca para contrarrestar el retroceso. Reduce el tiempo de enfriamiento entre disparos, permitiendo un fuego sostenido más rápido, pero reduce ligeramente el alcance máximo.</VWE_PortedBarrel.description>
+  <!-- EN: ported -->
+  <VWE_PortedBarrel.traitAdjectives.0>ventilada</VWE_PortedBarrel.traitAdjectives.0>
+  <!-- EN: vented -->
+  <VWE_PortedBarrel.traitAdjectives.1>respiradero</VWE_PortedBarrel.traitAdjectives.1>
+  <!-- EN: compensated -->
+  <VWE_PortedBarrel.traitAdjectives.2>compensada</VWE_PortedBarrel.traitAdjectives.2>
+  <!-- EN: gas-cooled -->
+  <VWE_PortedBarrel.traitAdjectives.3>enfriada por gas</VWE_PortedBarrel.traitAdjectives.3>
   <!-- EN: illuminated sights -->
   <VWE_IlluminatedSights.label>miras iluminadas</VWE_IlluminatedSights.label>
   <!-- EN: This weapon is fitted with self-illuminating sights. It provides a consistent accuracy increase across all ranges, particularly useful in poor lighting conditions. -->
   <VWE_IlluminatedSights.description>Esta arma está equipada con miras autoiluminadas. Proporciona un aumento de precisión constante en todos los rangos, particularmente útil en condiciones de poca luz.</VWE_IlluminatedSights.description>
+  <!-- EN: glowing -->
+  <VWE_IlluminatedSights.traitAdjectives.0>brillante</VWE_IlluminatedSights.traitAdjectives.0>
+  <!-- EN: illuminated -->
+  <VWE_IlluminatedSights.traitAdjectives.1>iluminada</VWE_IlluminatedSights.traitAdjectives.1>
+  <!-- EN: night-sight -->
+  <VWE_IlluminatedSights.traitAdjectives.2>mira nocturna</VWE_IlluminatedSights.traitAdjectives.2>
+  <!-- EN: tritium -->
+  <VWE_IlluminatedSights.traitAdjectives.3>tritio</VWE_IlluminatedSights.traitAdjectives.3>
   <!-- EN: match trigger -->
   <VWE_MatchTrigger.label>gatillo de competición</VWE_MatchTrigger.label>
   <!-- EN: This weapon features a finely tuned, sensitive trigger mechanism. It improves accuracy at medium and long ranges, but requires a deliberate, gentle squeeze, which slightly increases aiming time. -->
   <VWE_MatchTrigger.description>Esta arma cuenta con un mecanismo de gatillo sensible y finamente ajustado. Mejora la precisión a distancias medias y largas, pero requiere un apretón deliberado y suave, lo que aumenta ligeramente el tiempo de apuntado.</VWE_MatchTrigger.description>
+  <!-- EN: match-grade -->
+  <VWE_MatchTrigger.traitAdjectives.0>grado de competición</VWE_MatchTrigger.traitAdjectives.0>
+  <!-- EN: hair-trigger -->
+  <VWE_MatchTrigger.traitAdjectives.1>gatillo sensible</VWE_MatchTrigger.traitAdjectives.1>
+  <!-- EN: tuned -->
+  <VWE_MatchTrigger.traitAdjectives.2>ajustada</VWE_MatchTrigger.traitAdjectives.2>
+  <!-- EN: custom-trigger -->
+  <VWE_MatchTrigger.traitAdjectives.3>gatillo personalizado</VWE_MatchTrigger.traitAdjectives.3>
   <!-- EN: fire selector -->
   <VWE_FireSelector.label>selector de fuego</VWE_FireSelector.label>
   <!-- EN: This weapon has been modified to fire controlled, semi-automatic shots rather than fully automatic sprays. It fires fewer shots per burst, but gains a massive accuracy boost at medium and long ranges. -->
   <VWE_FireSelector.description>Esta arma ha sido modificada para disparar tiros controlados y semiautomáticos en lugar de ráfagas completamente automáticas. Dispara menos tiros por ráfaga, pero obtiene un aumento masivo de precisión a distancias medias y largas.</VWE_FireSelector.description>
+  <!-- EN: select-fire -->
+  <VWE_FireSelector.traitAdjectives.0>fuego selectivo</VWE_FireSelector.traitAdjectives.0>
+  <!-- EN: disciplined -->
+  <VWE_FireSelector.traitAdjectives.1>disciplinada</VWE_FireSelector.traitAdjectives.1>
+  <!-- EN: marksman -->
+  <VWE_FireSelector.traitAdjectives.2>tirador</VWE_FireSelector.traitAdjectives.2>
+  <!-- EN: controlled -->
+  <VWE_FireSelector.traitAdjectives.3>controlada</VWE_FireSelector.traitAdjectives.3>
   <!-- EN: akimbo -->
   <VWE_Akimbo.label>a dos manos</VWE_Akimbo.label>
   <!-- EN: This weapon is paired with a matching duplicate, allowing the colonist to dual-wield. It doubles the number of rounds fired in a burst and doubles the fire rate, but aiming two weapons simultaneously significantly reduces accuracy. -->
   <VWE_Akimbo.description>Esta arma está emparejada con un duplicado a juego, lo que permite al colono empuñar dos armas. Duplica el número de rondas disparadas en una ráfaga y duplica la cadencia de fuego, pero apuntar dos armas simultáneamente reduce significativamente la precisión.</VWE_Akimbo.description>
+  <!-- EN: dual -->
+  <VWE_Akimbo.traitAdjectives.0>dual</VWE_Akimbo.traitAdjectives.0>
+  <!-- EN: twin -->
+  <VWE_Akimbo.traitAdjectives.1>gemela</VWE_Akimbo.traitAdjectives.1>
+  <!-- EN: akimbo -->
+  <VWE_Akimbo.traitAdjectives.2>a dos manos</VWE_Akimbo.traitAdjectives.2>
+  <!-- EN: double -->
+  <VWE_Akimbo.traitAdjectives.3>doble</VWE_Akimbo.traitAdjectives.3>
+  <!-- EN: paired -->
+  <VWE_Akimbo.traitAdjectives.4>emparejada</VWE_Akimbo.traitAdjectives.4>
 </LanguageData>
