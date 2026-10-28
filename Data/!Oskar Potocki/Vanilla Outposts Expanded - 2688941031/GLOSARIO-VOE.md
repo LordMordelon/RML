@@ -1,8 +1,8 @@
 # Glosario de Vanilla Outposts Expanded
 
 Complementa a [GLOSARIO.md](../../../GLOSARIO.md), que sigue mandando: si un término está en los dos,
-gana el general. Acá va lo que el mod agrega: los puestos de avanzada, sus tipos y sus órdenes. El
-plan de trabajo está en [PLAN-ACTUALIZACIONES.md](../../../PLAN-ACTUALIZACIONES.md).
+gana el general. Acá va lo que el mod agrega: los puestos de avanzada, sus tipos y sus órdenes. Se
+tradujo entero el 27-oct-2026.
 
 Origen de cada fila:
 
@@ -11,8 +11,8 @@ Origen de cada fila:
 - **RML**: ya usado así en otro mod de RML.
 - **propuesta**: sin nombre previo; se usa así hasta que Angel lo cambie acá.
 
-Las filas con ⚠ son propuestas que conviene que Angel mire antes de traducir, porque son los nombres
-que se ven en el mapa del mundo.
+Las filas con ⚠ son los nombres que se ven en el mapa del mundo. Angel aprobó el 27-oct-2026 la forma
+«puesto de avanzada …».
 
 ## Puestos de avanzada
 

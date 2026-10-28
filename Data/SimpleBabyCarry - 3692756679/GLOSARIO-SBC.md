@@ -2,7 +2,7 @@
 
 Complementa a [GLOSARIO.md](../../GLOSARIO.md), que sigue mandando: si un término está en los dos,
 gana el general. Acá va lo que el mod agrega: llevar bebés en brazos o en portabebés, sus estados de
-ánimo y sus opciones. El plan de trabajo está en [PLAN-ACTUALIZACIONES.md](../../PLAN-ACTUALIZACIONES.md).
+ánimo y sus opciones. Se tradujo entero el 27-oct-2026.
 
 Origen de cada fila:
 
@@ -10,8 +10,8 @@ Origen de cada fila:
 - **GLOSARIO**: el glosario general de RML.
 - **propuesta**: sin nombre previo; se usa así hasta que Angel lo cambie acá.
 
-Las filas con ⚠ son propuestas que conviene que Angel mire antes de la primera tanda, porque se
-repiten en muchas entradas.
+Los pensamientos no saben si el colono es hombre o mujer: se escriben sin adjetivos que cambien con
+el género («Me hirieron de gravedad», no «Estoy muy herido»).
 
 ## Bebés y cuidado
 
