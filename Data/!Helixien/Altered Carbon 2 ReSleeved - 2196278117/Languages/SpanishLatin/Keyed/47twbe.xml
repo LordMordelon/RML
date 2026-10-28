@@ -61,7 +61,7 @@
   <!-- EN: Current distance to casting origin: {0} tiles -->
   <AC.CurrentDistanceToCastingOrigin>Distancia actual al origen de la transmisión: {0} casillas</AC.CurrentDistanceToCastingOrigin>
   <!-- EN: {0} is currently needlecasting into this sleeve. If the sleeve travels beyond needlecasting range, the connection will automatically end and the sleeve might be lost.\n\nMaximum needlecasting range: {1} tiles -->
-  <AC.CaravanNeedlecastingIconTooltip>{0} está actualmente en transmisión remota a esta funda. Si se aleja más allá de su rango de transmisión, la conexión terminará automáticamente y podría perderse.\n\nAlcance máximo de transmisión remota: {1} casillas</AC.CaravanNeedlecastingIconTooltip>
+  <AC.CaravanNeedlecastingIconTooltip>{0} está actualmente en transmisión remota a esta funda. Si se aleja más allá de su rango de transmisión, la conexión terminará automáticamente y podría perderse.\n\nAlcance máximo de transmisión remota: {1} celdas</AC.CaravanNeedlecastingIconTooltip>
   <!-- EN: Do you really want to end {0}&apos;s needlecasting connection?
 
 {0} is currently not on your colony&apos;s local map. The sleeve {0} is connected to might be lost if there are no other colonists on the same local map as them. -->
@@ -385,7 +385,7 @@
   <!-- EN: Used for needlecasting by {0} -->
   <AC.NeedlecastingTarget>Usado para transmisión remota por {0}</AC.NeedlecastingTarget>
   <!-- EN: A cuirassier belt that will attempt to stop incoming projectiles or shrapnel, while not preventing the wearer from firing out. Just like a regular shield belt, it is susceptible to EMP.\n\nCuirassier belts do not recharge themselves; they need to be manually charged from a power grid, using batteries, rechargers or exposed conduits. -->
-  <AC.CuirassierBeltTooltip>Un cinturón de coracero que intentará detener proyectiles o metralla, sin impedir que el portador dispare. Al igual que un cinturón escudo normal, es susceptible a los PEM.\n\nLos coraceros no se recargan solos, sino que necesitan ser alimentados manualmente desde una red eléctrica, como baterías, recargadores o conductos expuestos.</AC.CuirassierBeltTooltip>
+  <AC.CuirassierBeltTooltip>Un cinturón de coracero que intentará detener proyectiles o metralla, sin impedir que el portador dispare. Al igual que un cinturón escudo normal, es susceptible a los PEM.\n\nLos cinturones de coracero no se recargan solos: hay que cargarlos a mano desde una red eléctrica, con baterías, recargadores o conductos expuestos.</AC.CuirassierBeltTooltip>
   <!-- EN: Cannot use: No Neural Matrix nearby. -->
   <AC.NoConnectedMatrix>No se puede usar: No hay una matriz neural cerca.</AC.NoConnectedMatrix>
   <!-- EN: Cannot use: Connected Neural Matrix is not powered. -->
@@ -449,7 +449,7 @@ If you edit the content from a non-colonist stack from another faction, their en
   <!-- EN: Expected stack degradation: {0} -->
   <AC.TotalStackDegradation>Degradación de pila esperada: {0}</AC.TotalStackDegradation>
   <!-- EN: WARNING: The more you edit, the higher the stack degradation will be, causing the stored pawn&apos;s consciousness to become more and more unstable. Stack degradation will go away over time after the stack is installed in a body, but this can take years. -->
-  <AC.Tutorial>ADVERTENCIA: Cuanto más edites, mayor será la degradación de la pila, lo que hará que la neutralidad de los colonos almacenados sea cada vez más inestable. La degradación de la pila desaparecerá con el tiempo después de ser instalada en un cuerpo, pero puede tardar años.</AC.Tutorial>
+  <AC.Tutorial>ADVERTENCIA: Cuanto más edites, mayor será la degradación de la pila, lo que hará que la conciencia del colono almacenado sea cada vez más inestable. La degradación de la pila desaparecerá con el tiempo después de instalarla en un cuerpo, pero puede tardar años.</AC.Tutorial>
   <!-- EN: Reset all -->
   <AC.ResetAll>Restablecer todo</AC.ResetAll>
   <!-- EN: Start editing -->
@@ -477,7 +477,7 @@ If you edit the content from a non-colonist stack from another faction, their en
   <!-- EN: Cancel persona unbonding. -->
   <AC.CancelUnbondingPersona>Cancelar desvinculación de persona.</AC.CancelUnbondingPersona>
   <!-- EN: Cancel unbonding the persona weapon. -->
-  <AC.CancelUnbondingPersonaDesc>Cancelar la desvinculación del objeto personal.</AC.CancelUnbondingPersonaDesc>
+  <AC.CancelUnbondingPersonaDesc>Cancelar la desvinculación del arma personal.</AC.CancelUnbondingPersonaDesc>
   <!-- EN: Enable Stack Spawning -->
   <AC.EnableStackSpawning>Habilitar aparición de pilas</AC.EnableStackSpawning>
   <!-- EN: If disabled, Neural Stacks and Archostacks will NOT spawn on any pawns. You can still craft them, get them as rewards or trade for them. -->
@@ -493,7 +493,7 @@ If you edit the content from a non-colonist stack from another faction, their en
   <!-- EN: Cost to grow sleeve multiplier: -->
   <AC.CostToGrowSleeveMultiplier>Multi. del coste de creación de funda:</AC.CostToGrowSleeveMultiplier>
   <!-- EN: Multiplier for the overall neutroamine cost needed to grow a new sleeve. -->
-  <AC.CostToGrowSleeveMultiplierDesc>Multiplicador del coste total de neutroamina necesario para crear una nueva funda.</AC.CostToGrowSleeveMultiplierDesc>
+  <AC.CostToGrowSleeveMultiplierDesc>Multiplicador del costo total de neutroamina necesario para crear una nueva funda.</AC.CostToGrowSleeveMultiplierDesc>
   <!-- EN: Enable Stack Degradation -->
   <AC.EnableStackDegradation>Habilitar degradación de pilas</AC.EnableStackDegradation>
   <!-- EN: If disabled, Neural Stacks can be edited to your heart&apos;s content without having to worry about stack degradation. -->
