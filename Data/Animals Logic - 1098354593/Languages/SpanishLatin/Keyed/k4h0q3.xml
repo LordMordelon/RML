@@ -53,69 +53,69 @@
   <!-- EN: Makes non-adult animals easier to tame and train, effectively reducing their wildness. Proportinal to their relative age - newborn are much easier, while almost adult are barely affected. -->
   <ALConfigTamingAgeFactorTooltip>Hace que los animales no adultos sean más fáciles de domesticar y entrenar, reduciendo su salvajismo. Es proporcional a su edad: los recién nacidos son mucho más fáciles, mientras que los casi adultos apenas se ven afectados.</ALConfigTamingAgeFactorTooltip>
   <!-- EN: Obedient animals come when called for training or play -->
-  <ALConfigComeWhenCalledLabel>Los animales obedientes acuden al llamado para entrenar</ALConfigComeWhenCalledLabel>
+  <ALConfigComeWhenCalledLabel>Los animales obedientes acuden al llamado para entrenar o jugar</ALConfigComeWhenCalledLabel>
   <!-- EN: Animals with Obedience training will come to the handler instead of forcing the handler to chase them, dropping whatever they were doing. Any animal being handled also stays put while the handler talks to it, like the game already does while feeding it. Animals will not be called or held while fighting, fleeing, drafted or otherwise unavailable for interaction by the game&apos;s own rules. -->
-  <ALConfigComeWhenCalledTooltip>Los animales con entrenamiento de obediencia irán hacia el entrenador en lugar de obligarlo a perseguirlos. Se encontrarán a mitad de camino.</ALConfigComeWhenCalledTooltip>
+  <ALConfigComeWhenCalledTooltip>Los animales con entrenamiento de obediencia irán hacia su cuidador en lugar de obligarlo a perseguirlos, y dejarán lo que estén haciendo. Además, un animal que está siendo atendido se queda quieto mientras el cuidador le habla, como el juego ya hace al alimentarlo. Los animales no se llaman ni se retienen mientras pelean, huyen, están reclutados o, por las reglas del propio juego, no se puede interactuar con ellos.</ALConfigComeWhenCalledTooltip>
   <!-- EN: Allow playing with animals as recreation -->
   <ALConfigPlayWithAnimalsLabel>Permitir jugar con animales como recreación</ALConfigPlayWithAnimalsLabel>
   <!-- EN: Pawns capable of animal handling can play with colony animals for joy. Bonded and high-petness animals are preferred. High-skill handlers may also interact with wild animals for a chance to tame them. -->
   <ALConfigPlayWithAnimalsTooltip>Los individuos capaces de tratar con animales pueden jugar con los animales de la colonia para divertirse. Se prefieren los animales vinculados y los más mimosos. Los cuidadores muy hábiles también pueden interactuar con animales salvajes y tener la oportunidad de domesticarlos.</ALConfigPlayWithAnimalsTooltip>
   <!-- EN: Show production stats for modded animal resources -->
-  <ALConfigShowExtraDisplayStatsLabel>Mostrar estadísticas adicionales para los peones</ALConfigShowExtraDisplayStatsLabel>
+  <ALConfigShowExtraDisplayStatsLabel>Mostrar estadísticas de producción de los recursos animales de otros mods</ALConfigShowExtraDisplayStatsLabel>
   <!-- EN: Vanilla info cards only list milk and wool. This adds the same rows for custom gatherable resources used by other mods. -->
-  <ALConfigShowExtraDisplayStatsTooltip>Muestra algunas estadísticas que el juego base no incluye, como la producción de recursos.</ALConfigShowExtraDisplayStatsTooltip>
+  <ALConfigShowExtraDisplayStatsTooltip>Las fichas de información del juego base solo muestran la leche y la lana. Esto agrega las mismas filas para los recursos recolectables propios que usan otros mods.</ALConfigShowExtraDisplayStatsTooltip>
   <!-- EN: Hunting spree mental break -->
-  <ALConfigHuntingSpreeLabel>TODO</ALConfigHuntingSpreeLabel>
+  <ALConfigHuntingSpreeLabel>Crisis mental de cacería frenética</ALConfigHuntingSpreeLabel>
   <!-- EN: A major mental break where the colonist goes off to kill wild animals. Only picked when the colonist can fight and there is a wild animal on the map that is not too dangerous for the colonist&apos;s current weapon: an unarmed colonist only goes after small game, a melee weapon allows medium animals, a ranged weapon allows most non-predators and small predators, and nothing picks fights with bears, wolves, big cats, thrumbos or animals that explode when killed in melee. Turning this off removes it from the pool of possible breaks. -->
-  <ALConfigHuntingSpreeTooltip>TODO</ALConfigHuntingSpreeTooltip>
+  <ALConfigHuntingSpreeTooltip>Una crisis mental grave en la que el colono sale a matar animales salvajes. Solo ocurre si el colono puede pelear y hay en el mapa un animal salvaje que no sea demasiado peligroso para el arma que lleva: sin arma solo va tras presas pequeñas, con un arma cuerpo a cuerpo también tras animales medianos, y con un arma a distancia tras casi todos los que no son depredadores y los depredadores pequeños. Nunca se enfrenta a osos, lobos, grandes felinos, trumbos ni animales que explotan al morir en combate cuerpo a cuerpo. Si se desactiva, sale de la lista de crisis posibles.</ALConfigHuntingSpreeTooltip>
   <!-- EN: Hunting spree frequency: {0} -->
-  <ALConfigHuntingSpreeFrequencyLabel>TODO</ALConfigHuntingSpreeFrequencyLabel>
+  <ALConfigHuntingSpreeFrequencyLabel>Frecuencia de la cacería frenética: {0}</ALConfigHuntingSpreeFrequencyLabel>
   <!-- EN: How likely the hunting spree is compared to the game&apos;s other major breaks. At 100% it has a bit over half the weight of a tantrum. Lower it if it comes up too often, or raise it to see it more. -->
-  <ALConfigHuntingSpreeFrequencyTooltip>TODO</ALConfigHuntingSpreeFrequencyTooltip>
+  <ALConfigHuntingSpreeFrequencyTooltip>Qué tan probable es la cacería frenética frente a las demás crisis graves del juego. Al 100% tiene algo más de la mitad del peso de una rabieta. Bájala si aparece demasiado seguido, o súbela para verla más.</ALConfigHuntingSpreeFrequencyTooltip>
   <!-- EN: Product type -->
   <AL_ResourceType>Tipo de producto</AL_ResourceType>
   <!-- EN: This creature produces a gatherable resource that is neither milk nor wool. Added by another mod, so the numbers follow that mod&apos;s rules. -->
-  <AL_ResourceTypeDesc>TODO</AL_ResourceTypeDesc>
+  <AL_ResourceTypeDesc>Esta criatura produce un recurso recolectable que no es leche ni lana. Lo agrega otro mod, así que las cifras siguen las reglas de ese mod.</AL_ResourceTypeDesc>
   <!-- EN: {0} amount -->
-  <AL_ResourceAmount>Cantidad de producto</AL_ResourceAmount>
+  <AL_ResourceAmount>Cantidad de {0}</AL_ResourceAmount>
   <!-- EN: The amount of this resource gathered from the creature each time. -->
-  <AL_ResourceAmountDesc>TODO</AL_ResourceAmountDesc>
+  <AL_ResourceAmountDesc>La cantidad de este recurso que se obtiene de la criatura cada vez.</AL_ResourceAmountDesc>
   <!-- EN: {0} gathering interval -->
-  <AL_ResourceInterval>TODO</AL_ResourceInterval>
+  <AL_ResourceInterval>Intervalo de recolección de {0}</AL_ResourceInterval>
   <!-- EN: The time the creature needs between gatherings. -->
-  <AL_ResourceIntervalDesc>TODO</AL_ResourceIntervalDesc>
+  <AL_ResourceIntervalDesc>El tiempo que la criatura necesita entre una recolección y otra.</AL_ResourceIntervalDesc>
   <!-- EN: {0} per year -->
-  <AL_ResourcePerYear>TODO</AL_ResourcePerYear>
+  <AL_ResourcePerYear>{0} por año</AL_ResourcePerYear>
   <!-- EN: The amount of this resource gathered over the course of a year.\n\nThis is calculated from the amount and the gathering interval. -->
-  <AL_ResourcePerYearDesc>TODO</AL_ResourcePerYearDesc>
+  <AL_ResourcePerYearDesc>La cantidad de este recurso que se obtiene a lo largo de un año.\n\nSe calcula a partir de la cantidad y del intervalo de recolección.</AL_ResourcePerYearDesc>
   <!-- EN: {0} market value -->
-  <AL_ResourceValue>TODO</AL_ResourceValue>
+  <AL_ResourceValue>Valor de mercado de {0}</AL_ResourceValue>
   <!-- EN: The market value of one unit of this resource. -->
-  <AL_ResourceValueDesc>TODO</AL_ResourceValueDesc>
+  <AL_ResourceValueDesc>El valor de mercado de una unidad de este recurso.</AL_ResourceValueDesc>
   <!-- EN: {0} value per year -->
-  <AL_ResourceValuePerYear>TODO</AL_ResourceValuePerYear>
+  <AL_ResourceValuePerYear>Valor por año de {0}</AL_ResourceValuePerYear>
   <!-- EN: The market value of one year&apos;s worth of this resource from this creature.\n\nThis is calculated from the amount per year and the market value. -->
-  <AL_ResourceValuePerYearDesc>TODO</AL_ResourceValuePerYearDesc>
+  <AL_ResourceValuePerYearDesc>El valor de mercado de lo que esta criatura produce de este recurso en un año.\n\nSe calcula a partir de la cantidad por año y del valor de mercado.</AL_ResourceValuePerYearDesc>
   <!-- EN: Product -->
-  <AL_GenericProduct>TODO</AL_GenericProduct>
+  <AL_GenericProduct>Producto</AL_GenericProduct>
   <!-- EN: Random -->
-  <AL_RandomProduct>TODO</AL_RandomProduct>
+  <AL_RandomProduct>Aleatorio</AL_RandomProduct>
   <!-- EN: Random ({0}) -->
-  <AL_RandomProductNamed>TODO</AL_RandomProductNamed>
+  <AL_RandomProductNamed>Aleatorio ({0})</AL_RandomProductNamed>
   <!-- EN: Each gathering yields one of: {0}.\n\nThe market value shown is the average over these. -->
-  <AL_RandomProductDesc>TODO</AL_RandomProductDesc>
+  <AL_RandomProductDesc>Cada recolección da uno de estos: {0}.\n\nEl valor de mercado que se muestra es el promedio entre ellos.</AL_RandomProductDesc>
   <!-- EN: Varies -->
-  <AL_VariableProduct>TODO</AL_VariableProduct>
+  <AL_VariableProduct>Varía</AL_VariableProduct>
   <!-- EN: {0} (varies) -->
-  <AL_VariableProductCurrent>TODO</AL_VariableProductCurrent>
+  <AL_VariableProductCurrent>{0} (varía)</AL_VariableProductCurrent>
   <!-- EN: The product depends on the animal&apos;s current condition or surroundings. Possible products: {0}. -->
-  <AL_VariableProductDesc>TODO</AL_VariableProductDesc>
+  <AL_VariableProductDesc>El producto depende del estado actual del animal o de su entorno. Productos posibles: {0}.</AL_VariableProductDesc>
   <!-- EN: Extra items -->
-  <AL_ResourceExtra>TODO</AL_ResourceExtra>
+  <AL_ResourceExtra>Objetos extra</AL_ResourceExtra>
   <!-- EN: {0}% chance of {1} -->
-  <AL_ResourceExtraValue>TODO</AL_ResourceExtraValue>
+  <AL_ResourceExtraValue>{0}% de probabilidad de {1}</AL_ResourceExtraValue>
   <!-- EN: Each gathering has this chance to also yield the given number of extra items, of one kind from: {0}. -->
-  <AL_ResourceExtraDesc>TODO</AL_ResourceExtraDesc>
+  <AL_ResourceExtraDesc>Cada recolección tiene esta probabilidad de dar además la cantidad indicada de objetos extra, de un tipo entre: {0}.</AL_ResourceExtraDesc>
   <!-- EN: Animal needs treatment -->
   <AnimalNeedsTreatment>Un animal necesita tratamiento</AnimalNeedsTreatment>
   <!-- EN: Animals need treatment -->
