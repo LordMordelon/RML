@@ -63,254 +63,254 @@
       </nomatch>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: teeth -->
-            <label>dientes</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: fist -->
-            <label>puño</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
-          <value>
-            <!-- EN: claw -->
-            <label>garra</label>
-          </value>
-        </li>
-      </operations>
-    </match>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationSequence" MayRequire="CETeam.CombatExtended">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VerySmall"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Small"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Medium"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Large"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VeryLarge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Huge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VerySmall"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Small"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Medium"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Large"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VeryLarge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Huge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VerySmall"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Small"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Medium"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Large"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VeryLarge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Huge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: teeth -->
+              <label>dientes</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VerySmall"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Small"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Medium"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Large"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VeryLarge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Huge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: fist -->
+              <label>puño</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VerySmall"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Small"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Medium"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Large"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VeryLarge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Huge"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
+            <value>
+              <!-- EN: claw -->
+              <label>garra</label>
+            </value>
+          </li>
+        </operations>
+      </li>
+    </operations>
   </Operation>
 </Patch>
