@@ -2,7 +2,7 @@
 <LanguageData>
   <!-- EN: Separate gene -->
   <RS.SeparateGene>Separar gen</RS.SeparateGene>
-  <!-- EN: Select a genepack from which to separate a gene from. -->
+  <!-- EN: Select a genepack from which to separate a gene. -->
   <RS.SeparateGeneDesc>Selecciona un paquete genético del cual separar un gen.</RS.SeparateGeneDesc>
   <!-- EN: Separating Genes -->
   <RS.SeparatingGenes>Separando genes</RS.SeparatingGenes>
@@ -12,7 +12,7 @@
   <RS.SelectGeneExplanation>El gen seleccionado se separará del resto del paquete genético.</RS.SelectGeneExplanation>
   <!-- EN: After successful separation two genepacks will be spawned. One only with the selected gene, the other one with the rest. This process is not perfect and there is a small chance of one of the gene packs being destroyed. -->
   <RS.SeparateGeneExplanation>Tras una separación exitosa, se generarán dos paquetes genéticos: uno solo con el gen seleccionado y el otro con el resto. Este proceso no es perfecto y existe una pequeña probabilidad de que uno de los paquetes genéticos sea destruido.</RS.SeparateGeneExplanation>
-  <!-- EN: Start gene separating -->
+  <!-- EN: Start gene separation -->
   <RS.StartSeparating>Iniciar separación de genes</RS.StartSeparating>
   <!-- EN: Gene centrifuge finished separating genepacks! -->
   <RS.FinishedSeparatingMessage>¡La centrífuga genética ha terminado de separar los paquetes genéticos!</RS.FinishedSeparatingMessage>
@@ -68,7 +68,7 @@
   <RS.ContainsXenogerm>Contiene: {0}</RS.ContainsXenogerm>
   <!-- EN: Xenogerm duplicator finished duplicating xenogerm! -->
   <RS.FinishedXenogermDuplicationMessage>¡El duplicador de xenogérmenes ha terminado de duplicar el xenogermen!</RS.FinishedXenogermDuplicationMessage>
-  <!-- EN: Do you really want to duplicate the xenogerm? Not enough archite capsules are loaded to duplicate all any archite genes inside the xenogerm. -->
+  <!-- EN: Do you really want to duplicate the xenogerm? Not enough archite capsules are loaded to duplicate all archite genes inside the xenogerm. -->
   <RS.NotEnoughArchiteCapsulesLoaded>¿Realmente deseas duplicar el xenogermen? No hay suficientes cápsulas de arquitas cargadas para duplicar los genes de arquitas presentes en el xenogermen.</RS.NotEnoughArchiteCapsulesLoaded>
   <!-- EN: Eject archite capsules -->
   <RS.EjectArchites>Expulsar cápsulas de arquitas</RS.EjectArchites>
@@ -90,7 +90,7 @@
   <RS.OrderInfusionIntoPawn>Ordenar infusión en {PAWN_nameDef}</RS.OrderInfusionIntoPawn>
   <!-- EN: Infuse this into a person to introduce a dark archite gene into their genetic code.\n\nThis is a surgical operation, so it requires a doctor and medical bed. -->
   <RS.InfuseDarkArchiteDesc>Infundir esto en una persona para introducir un gen de arquita oscura en su código genético.\n\nEsta es una operación quirúrgica, por lo que requiere un médico y una cama médica.</RS.InfuseDarkArchiteDesc>
-  <!-- EN: Cansel infusion -->
+  <!-- EN: Cancel infusion -->
   <RS.CancelInfusion>Cancelar infusión</RS.CancelInfusion>
   <!-- EN: Cancel infusing this voidspike into {PAWN_nameDef}. -->
   <RS.CancelInfusingDesc>Cancela la infusión de esta espina del vacío en {PAWN_nameDef}.</RS.CancelInfusingDesc>
