@@ -27,7 +27,7 @@ Antes de agregar una etiqueta se mide en los mods de RML que siempre sea texto (
 | Etiqueta | Dónde se vio | Mods de RML que la usan | Estado |
 |---|---|---|---|
 | `defaultLabel` / `defaultDesc` | Cinders: botón «Change to walking mode» de las torretas | Solo Cinders: 24 usos, todos texto | **Hecho el 27-oct** (extractor 6789080, Cinders 03c7fc8b): «Cambiar a modo caminante» |
-| `namerLabels` y `traitAdjectives` (listas) | Cinders: títulos de arte «Greatsword twisted», «Dragon slayer del temor» | 6 mods cada una: 50 y 230 usos | Medido el 28-oct; lo que sigue |
+| `namerLabels` y `traitAdjectives` (listas) | Cinders: títulos de arte «Greatsword twisted», «Dragon slayer del temor» | 7 mods | **Hecho el 28-oct** (extractor 1d52b4c, subido; RML 347a71d1…e65f75cf, sin subir): 505 recuperadas del UNUSED, 186 nuevas, ~225 pasadas a formas sin género |
 
 **Cómo arma el juego el título** (medido el 28-oct-2026 en el código de `CompUniqueWeapon`): junta el tipo de arma,
 sacado de `namerLabels` del `CompProperties_UniqueWeapon` (que es del juego: Cinders lo usa tal cual), el color y un
@@ -84,7 +84,8 @@ corresponde, y ponerla en la traducción la deja también en medio de una frase 
 Angel aprobó los puntos 1 y 2 el 27-oct-2026; el 3 quedó resuelto arriba.
 
 1. ~~`defaultLabel` y `defaultDesc`~~: hecho el 27-oct.
-2. Títulos de armas: `namerLabels` y `traitAdjectives` a `Prefabs.EtiquetasAgregadas`, con una prueba que pida las
+2. ~~Títulos de armas~~: hecho el 28-oct; falta verlo en el juego con un arma única nueva. Lo que se hizo:
+   `namerLabels` y `traitAdjectives` a `Prefabs.EtiquetasAgregadas`, con una prueba que pida las
    claves como la oficial (comp por su clase, lista por índice); la regla de la forma sin género al glosario;
    reextraer los mods y traducir con la tabla, mod por mod. **Va después de `RimworldExtractor/PLAN-CLASE-DEL-DEF.md`:**
    los rasgos de Custom Weapons Expanded y Combat Extended caen hoy en una carpeta con la clase de CE, y sus
