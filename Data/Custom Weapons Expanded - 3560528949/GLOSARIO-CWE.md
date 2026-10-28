@@ -75,9 +75,10 @@ cambie con el género («de precisión», «con buscador», «veloz»).
 («vista», la del colono), *shell* (partes del cuerpo) y *slug* («perdigón», el proyectil del lanzaperdigones
 mecanoide, que es otra arma). La *slug* de escopeta es una bala maciza.
 
-## Correcciones propuestas (esperan la aprobación de Angel)
+## Correcciones hechas (28-oct-2026)
 
-Encontradas al armar este glosario. No se aplicaron.
+Encontradas al armar este glosario; Angel las aprobó y se aplicaron el mismo día (RML `f392bd00` y `8aa1eab7`).
+Quedan como regla para lo que se traduzca de este mod.
 
 1. **Mayúscula inicial.** Unas 285 etiquetas empiezan con mayúscula: 155 de los módulos (`ThingDef`), 103 de los
    rasgos, 13 de las habilidades y 11 de los daños. El juego las usa en minúscula, como la oficial («cargador

@@ -56,12 +56,13 @@ El mod ya sigue el estilo del juego: las etiquetas van en minúscula y *EMP* es 
 | Touch / Short / Medium / Long | A quemarropa / Corta / Media / Larga |
 | Fire rate multiplier | Multiplicador de cadencia de fuego |
 
-## Correcciones propuestas (esperan la aprobación de Angel)
+## Nombres de la oficial (hecho el 28-oct-2026)
 
 La ventana del mod muestra estadísticas que el juego ya nombra en la ficha del arma. Si se llaman distinto, el
-jugador ve dos nombres para lo mismo. Propuesta: usar los de la oficial.
+jugador ve dos nombres para lo mismo, así que van con los de la oficial (aprobado por Angel; RML `12f7eab8`, que
+cambió también las dos bonificaciones).
 
-| Inglés | Hoy | Oficial (propuesta) | De dónde |
+| Inglés | Antes | Ahora (oficial) | De dónde |
 |---|---|---|---|
 | Range | Alcance | **Rango** | `Keyed:Range` |
 | Warmup time | Tiempo de puntería | **Calentamiento** | `Keyed:WarmupTime` |
