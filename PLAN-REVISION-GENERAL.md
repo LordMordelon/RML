@@ -132,6 +132,11 @@ plan»): «lanzadera» (172 usos), «entropía psíquica» (26), «abrasador» (
 (15), «mundo del borde» (13), «calor neuronal» (7), «sanguófago» (6), «ensamblador de genes» (6), «clúster
 mecanoide» (4), «cápsula de descenso» (4 mods), «garra de la cabeza» (3 mods) y los sueltos.
 
+Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
+«árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,
+Landmarks y Phytokin) y «árbol Gauranlen» con mayúscula por «árbol gauranlen» (5 usos en Vanilla Aspirations,
+Phytokin y Vanilla Skills). «Gauranlen Inc.», en Phytokin, es el nombre de una empresa y se queda.
+
 ## Decisiones de Angel
 
 Las tres se decidieron el 27-oct-2026, las tres como la traducción oficial.
@@ -161,3 +166,23 @@ viejo del paso 4.
 
 Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comprobaciones del diff; `LoadFoldersBuilder
 -copia` al final. Las decisiones de Angel se esperan antes de tocar lo que dependa de ellas, no antes de empezar.
+
+## Próxima sesión (28-oct-2026)
+
+**Objetivo:** pasar «árbol de ánima» a «árbol ánima» y «árbol Gauranlen» a «árbol gauranlen» (ver el paso 4).
+**Estado:** `master` de RML con tres commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads revisado y su glosario) y
+55b8e045 (VIE - Anima Theme traducido). La lista de usos se saca con
+`grep -rn --include=*.xml -i "árbol\(es\)\? de ánima\|árbol\(es\)\? Gauranlen" Data --exclude=UNUSED.xml`.
+**Antes de empezarla (Angel):**
+1. Decir si se suben los tres commits de las dríadas.
+2. Si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
+**Al empezar (Claude):**
+1. Si Angel lo aprueba, subir los tres commits.
+2. Corregir a mano los 25 «árbol de ánima» (9 archivos, 4 mods) y los 5 «árbol Gauranlen» (4 archivos, 3 mods),
+   leyendo el `EN:` de cada uno; adaptar el género y el plural de lo que acompaña («árboles ánima antiguos»). Un
+   commit por mod, las tres comprobaciones del diff y `LoadFoldersBuilder -copia`. Cabe en una sesión.
+**Decisiones de Angel:** los tres términos «a confirmar» de
+[GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
+(«nexo ánima», «creasemillas», «creanimabric»). Recomendación: dejarlos así, salvo que en el juego se lean mal.
+**Guías:** ninguna en especial; las reglas de «Editar XML de traducción» de `RML/AGENTS.md`.
+**Dónde leer:** el paso 4 de este plan y los glosarios de las dos carpetas de dríadas.
