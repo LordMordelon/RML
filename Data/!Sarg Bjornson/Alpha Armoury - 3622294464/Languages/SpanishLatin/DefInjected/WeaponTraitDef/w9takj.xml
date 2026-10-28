@@ -5,13 +5,13 @@
   <!-- EN: This weapon generates a localized skip field that allows its user to self-skip.\n\nAbility details: No charges, 4800 ticks cooldown (around 2 hours). 21 tiles range in line of sight. -->
   <AArmoury_SelfSkipField.description>Esta arma genera un campo de salto localizado que permite a su usuario autosaltar.\n\nDetalles de la habilidad: Sin cargas, 4800 ticks de enfriamiento (alrededor de 2 horas). Alcance de 21 casillas en línea de visión.</AArmoury_SelfSkipField.description>
   <!-- EN: skip -->
-  <AArmoury_SelfSkipField.traitAdjectives.0>salto</AArmoury_SelfSkipField.traitAdjectives.0>
+  <AArmoury_SelfSkipField.traitAdjectives.0>de salto</AArmoury_SelfSkipField.traitAdjectives.0>
   <!-- EN: skip field -->
   <AArmoury_SkipField.label>campo de salto</AArmoury_SkipField.label>
   <!-- EN: This weapon generates a localized skip field that allows its user to skip a target away.\n\nAbility details: No charges, 4800 ticks cooldown (around 2 hours). 21 tiles range in line of sight. -->
   <AArmoury_SkipField.description>Esta arma genera un campo de salto localizado que permite a su usuario saltar a un objetivo lejos.\n\nDetalles de la habilidad: Sin cargas, 4800 ticks de enfriamiento (alrededor de 2 horas). Alcance de 21 casillas en línea de visión.</AArmoury_SkipField.description>
   <!-- EN: skip -->
-  <AArmoury_SkipField.traitAdjectives.0>salto</AArmoury_SkipField.traitAdjectives.0>
+  <AArmoury_SkipField.traitAdjectives.0>de salto</AArmoury_SkipField.traitAdjectives.0>
   <!-- EN: invisibility field -->
   <AArmoury_InvisibilityField.label>campo de invisibilidad</AArmoury_InvisibilityField.label>
   <!-- EN: This weapon generates a field of psychic invisibility that will conceal its user for a time.\n\nAbility details: No charges, 30000 ticks cooldown (half a day). Lasts 4 hours. -->
@@ -23,7 +23,7 @@
   <!-- EN: This weapon can project a spray of acidic slug. The sludge will stick to targets and burn them, and turn terrain into insect sludge. -->
   <AArmoury_Sludge.description>Esta arma puede proyectar un spray de lodo ácido. El lodo se pegará a los objetivos y los quemará, y convertirá el terreno en lodo de insectos.</AArmoury_Sludge.description>
   <!-- EN: acidic -->
-  <AArmoury_Sludge.traitAdjectives.0>acídico</AArmoury_Sludge.traitAdjectives.0>
+  <AArmoury_Sludge.traitAdjectives.0>de ácido</AArmoury_Sludge.traitAdjectives.0>
   <!-- EN: sludge -->
   <AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>lodo</AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: detonation -->
@@ -37,25 +37,25 @@
   <!-- EN: This weapon can acquire the weapon traits of another unique weapon, destroying it in the process. Note that only traits that are compatible with the weapon will be acquired (no rocket launching bows).\n\nAbility details: No charges, 30000 ticks cooldown (half a day). 6 tiles range. -->
   <AArmoury_MimicCore.description>Esta arma puede adquirir los rasgos de arma de otra arma única, destruyéndola en el proceso. Ten en cuenta que solo se adquirirán los rasgos que sean compatibles con el arma (nada de arcos lanzacohetes).\n\nDetalles de la habilidad: Sin cargas, 30000 ticks de enfriamiento (medio día). Alcance de 6 casillas.</AArmoury_MimicCore.description>
   <!-- EN: mimetic -->
-  <AArmoury_MimicCore.traitAdjectives.0>mimético</AArmoury_MimicCore.traitAdjectives.0>
+  <AArmoury_MimicCore.traitAdjectives.0>de mimetismo</AArmoury_MimicCore.traitAdjectives.0>
   <!-- EN: flechettes -->
   <AArmoury_Flechettes.label>flechettes</AArmoury_Flechettes.label>
   <!-- EN: This weapon fires pointed, fin-stabilized steel projectiles. -->
   <AArmoury_Flechettes.description>Esta arma dispara proyectiles de acero puntiagudos y estabilizados por aletas.</AArmoury_Flechettes.description>
   <!-- EN: needle-like -->
-  <AArmoury_Flechettes.traitAdjectives.0>como aguja</AArmoury_Flechettes.traitAdjectives.0>
+  <AArmoury_Flechettes.traitAdjectives.0>en forma de aguja</AArmoury_Flechettes.traitAdjectives.0>
   <!-- EN: barbed -->
   <AArmoury_Flechettes.traitAdjectives.1>con púas</AArmoury_Flechettes.traitAdjectives.1>
   <!-- EN: serrated -->
-  <AArmoury_Flechettes.traitAdjectives.2>serrado</AArmoury_Flechettes.traitAdjectives.2>
+  <AArmoury_Flechettes.traitAdjectives.2>de filo serrado</AArmoury_Flechettes.traitAdjectives.2>
   <!-- EN: compact -->
-  <AArmoury_Flechettes.traitAdjectives.3>compacto</AArmoury_Flechettes.traitAdjectives.3>
+  <AArmoury_Flechettes.traitAdjectives.3>de tamaño compacto</AArmoury_Flechettes.traitAdjectives.3>
   <!-- EN: mini-rockets -->
   <AArmoury_MiniRocket.label>minicohetes</AArmoury_MiniRocket.label>
   <!-- EN: This weapon fires dangerous mini-rockets with an explosive payload. Less damaging than bullets, but affecting a greater area. -->
   <AArmoury_MiniRocket.description>Esta arma dispara peligrosos minicohetes con una carga explosiva. Menos dañinos que las balas, pero afectan a un área mayor.</AArmoury_MiniRocket.description>
   <!-- EN: explosive -->
-  <AArmoury_MiniRocket.traitAdjectives.0>explosivo</AArmoury_MiniRocket.traitAdjectives.0>
+  <AArmoury_MiniRocket.traitAdjectives.0>de explosión</AArmoury_MiniRocket.traitAdjectives.0>
   <!-- EN: detonating -->
   <AArmoury_MiniRocket.traitAdjectives.1>detonante</AArmoury_MiniRocket.traitAdjectives.1>
   <!-- EN: sonic amplifier -->
@@ -67,7 +67,7 @@
   <!-- EN: piercing -->
   <AArmoury_Sonic.traitAdjectives.1>penetrante</AArmoury_Sonic.traitAdjectives.1>
   <!-- EN: subharmonic -->
-  <AArmoury_Sonic.traitAdjectives.2>subarmónico</AArmoury_Sonic.traitAdjectives.2>
+  <AArmoury_Sonic.traitAdjectives.2>de subarmónicos</AArmoury_Sonic.traitAdjectives.2>
   <!-- EN: shriek-loaded -->
   <AArmoury_Sonic.traitAdjectives.3>cargado de chillidos</AArmoury_Sonic.traitAdjectives.3>
   <!-- EN: reverberant -->
@@ -77,7 +77,7 @@
   <!-- EN: This weapon fires ammunition that contains cryogenic chemicals. It will cause frostbite. -->
   <AArmoury_Cryo.description>Esta arma dispara munición que contiene productos químicos criogénicos. Causará congelación.</AArmoury_Cryo.description>
   <!-- EN: cold -->
-  <AArmoury_Cryo.traitAdjectives.0>frío</AArmoury_Cryo.traitAdjectives.0>
+  <AArmoury_Cryo.traitAdjectives.0>glacial</AArmoury_Cryo.traitAdjectives.0>
   <!-- EN: cryo -->
   <AArmoury_Cryo.traitAdjectives.1>crio</AArmoury_Cryo.traitAdjectives.1>
   <!-- EN: freezing -->
@@ -87,25 +87,25 @@
   <!-- EN: This weapon fires fertilizer canisters that will turn soil into tilled soil. -->
   <AArmoury_FertilizerCanisters.description>Esta arma dispara bidones de fertilizante que convierten la tierra en tierra labrada.</AArmoury_FertilizerCanisters.description>
   <!-- EN: fertilizing -->
-  <AArmoury_FertilizerCanisters.traitAdjectives.0>TODO</AArmoury_FertilizerCanisters.traitAdjectives.0>
+  <AArmoury_FertilizerCanisters.traitAdjectives.0>de abono</AArmoury_FertilizerCanisters.traitAdjectives.0>
   <!-- EN: corrosive burst -->
   <AArmoury_Corrosive.label>ráfaga corrosiva</AArmoury_Corrosive.label>
   <!-- EN: This weapon fires a pressurized blast of corrosive acid that deals increased damage to armor. -->
   <AArmoury_Corrosive.description>Esta arma dispara una ráfaga presurizada de ácido corrosivo que inflige mayor daño a la armadura.</AArmoury_Corrosive.description>
   <!-- EN: corrosive -->
-  <AArmoury_Corrosive.traitAdjectives.0>corrosivo</AArmoury_Corrosive.traitAdjectives.0>
+  <AArmoury_Corrosive.traitAdjectives.0>de corrosión</AArmoury_Corrosive.traitAdjectives.0>
   <!-- EN: potato cannon -->
   <AArmoury_PotatoCannon.label>cañón de patatas</AArmoury_PotatoCannon.label>
   <!-- EN: This weapon fires... potatoes... Not very useful offensively, but it is a great way to, well, plant potatoes. Note that potatoes need terrain with more than 70% fertility. -->
   <AArmoury_PotatoCannon.description>Esta arma dispara... patatas... No es muy útil ofensivamente, pero es una gran manera de, bueno, plantar patatas. Ten en cuenta que las patatas necesitan terreno con más del 70% de fertilidad.</AArmoury_PotatoCannon.description>
   <!-- EN: potato -->
-  <AArmoury_PotatoCannon.traitAdjectives.0>patata</AArmoury_PotatoCannon.traitAdjectives.0>
+  <AArmoury_PotatoCannon.traitAdjectives.0>de patatas</AArmoury_PotatoCannon.traitAdjectives.0>
   <!-- EN: incendiary launcher -->
   <AArmoury_IncendiaryLauncher.label>lanzador incendiario</AArmoury_IncendiaryLauncher.label>
   <!-- EN: This weapon fires incendiary canisters. -->
   <AArmoury_IncendiaryLauncher.description>Esta arma dispara botes incendiarios.</AArmoury_IncendiaryLauncher.description>
   <!-- EN: incendiary -->
-  <AArmoury_IncendiaryLauncher.traitAdjectives.0>incendiario</AArmoury_IncendiaryLauncher.traitAdjectives.0>
+  <AArmoury_IncendiaryLauncher.traitAdjectives.0>de fuego</AArmoury_IncendiaryLauncher.traitAdjectives.0>
   <!-- EN: EMP launcher -->
   <AArmoury_EMPLauncher.label>lanzador PEM</AArmoury_EMPLauncher.label>
   <!-- EN: This weapon fires EMP canisters. -->
@@ -117,7 +117,7 @@
   <!-- EN: This weapon fires toxic gas canisters. -->
   <AArmoury_ToxLauncherMain.description>Esta arma dispara botes de gas tóxico.</AArmoury_ToxLauncherMain.description>
   <!-- EN: toxic -->
-  <AArmoury_ToxLauncherMain.traitAdjectives.0>tóxico</AArmoury_ToxLauncherMain.traitAdjectives.0>
+  <AArmoury_ToxLauncherMain.traitAdjectives.0>de toxinas</AArmoury_ToxLauncherMain.traitAdjectives.0>
   <!-- EN: flamethrower -->
   <AArmoury_Flamethrower.label>lanzallamas</AArmoury_Flamethrower.label>
   <!-- EN: This launcher ignites its incendiary shells as soon as they leave the gun, releasing a huge cone of fire that burns everything in its path. -->
@@ -127,7 +127,7 @@
   <!-- EN: fiery -->
   <AArmoury_Flamethrower.traitAdjectives.1>ardiente</AArmoury_Flamethrower.traitAdjectives.1>
   <!-- EN: flame -->
-  <AArmoury_Flamethrower.traitAdjectives.2>llama</AArmoury_Flamethrower.traitAdjectives.2>
+  <AArmoury_Flamethrower.traitAdjectives.2>de llamas</AArmoury_Flamethrower.traitAdjectives.2>
   <!-- EN: flaming -->
   <AArmoury_Flamethrower.traitAdjectives.3>llameante</AArmoury_Flamethrower.traitAdjectives.3>
   <!-- EN: burning -->
@@ -149,7 +149,7 @@
   <!-- EN: Instead of gamma ray laser bursts, this repeater will produce a bunch of extremely dangerous acidic blasts. -->
   <AArmoury_AcidicRepeater.description>En lugar de ráfagas láser de rayos gamma, este repetidor producirá un montón de explosiones ácidas extremadamente peligrosas.</AArmoury_AcidicRepeater.description>
   <!-- EN: acidic -->
-  <AArmoury_AcidicRepeater.traitAdjectives.0>acídico</AArmoury_AcidicRepeater.traitAdjectives.0>
+  <AArmoury_AcidicRepeater.traitAdjectives.0>de ácido</AArmoury_AcidicRepeater.traitAdjectives.0>
   <!-- EN: cryo cannon -->
   <AArmoury_FrostRepeater.label>cañón criogénico</AArmoury_FrostRepeater.label>
   <!-- EN: Instead of gamma ray laser bursts, this repeater will fire a single frost ray that will damage everything on its path. -->
@@ -161,9 +161,9 @@
   <!-- EN: Instead of gamma ray laser bursts, this repeater will fire a single plasma ray that will damage everything on its path. -->
   <AArmoury_PlasmaCannon.description>En lugar de ráfagas láser de rayos gamma, este repetidor disparará un solo rayo de plasma que dañará todo a su paso.</AArmoury_PlasmaCannon.description>
   <!-- EN: plasma -->
-  <AArmoury_PlasmaCannon.traitAdjectives.0>plasma</AArmoury_PlasmaCannon.traitAdjectives.0>
+  <AArmoury_PlasmaCannon.traitAdjectives.0>de plasma</AArmoury_PlasmaCannon.traitAdjectives.0>
   <!-- EN: superheated -->
-  <AArmoury_PlasmaCannon.traitAdjectives.1>sobrecalentado</AArmoury_PlasmaCannon.traitAdjectives.1>
+  <AArmoury_PlasmaCannon.traitAdjectives.1>de sobrecalentamiento</AArmoury_PlasmaCannon.traitAdjectives.1>
   <!-- EN: chakram launcher -->
   <AArmoury_Chakram.label>lanzador de chakrams</AArmoury_Chakram.label>
   <!-- EN: Instead of bullets, this sniper fires extremely dangerous plasteel chakram that propel themselves via nano-skip fields. These chakram have extremely high armor penetration and deal gruesome cuts. -->
@@ -175,15 +175,15 @@
   <!-- EN: Instead of bullets, this gun fires concentrated thermal blasts that cause instant heatstroke in its targets. Useless against non-flammable enemies such as mechanoids. -->
   <AArmoury_ThermalBlasts.description>En lugar de balas, esta arma dispara explosiones térmicas concentradas que causan un golpe de calor instantáneo en sus objetivos. Inútil contra enemigos no inflamables como los mecanoides.</AArmoury_ThermalBlasts.description>
   <!-- EN: thermal -->
-  <AArmoury_ThermalBlasts.traitAdjectives.0>térmico</AArmoury_ThermalBlasts.traitAdjectives.0>
+  <AArmoury_ThermalBlasts.traitAdjectives.0>de calor</AArmoury_ThermalBlasts.traitAdjectives.0>
   <!-- EN: vanometric 3D printer -->
   <AArmoury_RandomProjectiles.label>impresora 3D vanométrica</AArmoury_RandomProjectiles.label>
   <!-- EN: A very rare archotech device that allows the weapon to work without the need for either ammunition or any power source. It seems to be very ancient tech and is malfunctioning, causing the weapon to produce random results every time it is fired.\n\nThis will either annihilate its target, or cause unbound chaos. -->
   <AArmoury_RandomProjectiles.description>Un dispositivo arqueotecnológico muy raro que permite que el arma funcione sin necesidad de munición ni ninguna fuente de energía. Parece ser tecnología muy antigua y está funcionando mal, causando que el arma produzca resultados aleatorios cada vez que se dispara.\n\nEsto aniquilará a su objetivo o causará un caos desatado.</AArmoury_RandomProjectiles.description>
   <!-- EN: vanometric -->
-  <AArmoury_RandomProjectiles.traitAdjectives.0>vanométrico</AArmoury_RandomProjectiles.traitAdjectives.0>
+  <AArmoury_RandomProjectiles.traitAdjectives.0>de vanometría</AArmoury_RandomProjectiles.traitAdjectives.0>
   <!-- EN: random -->
-  <AArmoury_RandomProjectiles.traitAdjectives.1>aleatorio</AArmoury_RandomProjectiles.traitAdjectives.1>
+  <AArmoury_RandomProjectiles.traitAdjectives.1>de azar</AArmoury_RandomProjectiles.traitAdjectives.1>
   <!-- EN: wild -->
   <AArmoury_RandomProjectiles.traitAdjectives.2>salvaje</AArmoury_RandomProjectiles.traitAdjectives.2>
   <!-- EN: needle projectiles -->
@@ -199,7 +199,7 @@
   <!-- EN: tesla -->
   <AArmoury_Tesla.traitAdjectives.0>tesla</AArmoury_Tesla.traitAdjectives.0>
   <!-- EN: electric -->
-  <AArmoury_Tesla.traitAdjectives.1>eléctrico</AArmoury_Tesla.traitAdjectives.1>
+  <AArmoury_Tesla.traitAdjectives.1>de electricidad</AArmoury_Tesla.traitAdjectives.1>
   <!-- EN: nerve spiker -->
   <AArmoury_NerveSpiker.label>perforador nervioso</AArmoury_NerveSpiker.label>
   <!-- EN: This weapon has been modified with a crossbow-like device that throws rough spikes embedded with a paralytic biotoxin. -->
@@ -225,7 +225,7 @@
   <!-- EN: This rifle has been modified to fire mutagenic syringes that can cause random harmful mutations on their targets. -->
   <AArmoury_SyringerGun.description>Este fusil ha sido modificado para disparar jeringas mutagénicas que pueden causar mutaciones dañinas aleatorias en sus objetivos.</AArmoury_SyringerGun.description>
   <!-- EN: mutagenic -->
-  <AArmoury_SyringerGun.traitAdjectives.0>mutagénico</AArmoury_SyringerGun.traitAdjectives.0>
+  <AArmoury_SyringerGun.traitAdjectives.0>de mutágenos</AArmoury_SyringerGun.traitAdjectives.0>
   <!-- EN: shatter rounds -->
   <AArmoury_ShatterRounds.label>rondas de fragmentación</AArmoury_ShatterRounds.label>
   <!-- EN: This weapon fires shatter rounds that will create shrapnel upon impact. -->
@@ -243,25 +243,25 @@
   <!-- EN: This weapon fires microscopic mechanite charges that cause a bolt of lightning to impact their targets. -->
   <AArmoury_Electric.description>Esta arma dispara cargas de mecanitos microscópicos que causan que un rayo impacte en sus objetivos.</AArmoury_Electric.description>
   <!-- EN: electric -->
-  <AArmoury_Electric.traitAdjectives.0>eléctrico</AArmoury_Electric.traitAdjectives.0>
+  <AArmoury_Electric.traitAdjectives.0>de electricidad</AArmoury_Electric.traitAdjectives.0>
   <!-- EN: tachyonic feed -->
   <AArmoury_TachyonicFeed.label>alimentación taquiónica</AArmoury_TachyonicFeed.label>
   <!-- EN: Projectiles fired by this weapon will cause increased, scaling damage on moving targets. -->
   <AArmoury_TachyonicFeed.description>Los proyectiles disparados por esta arma causarán daño aumentado y escalado en objetivos en movimiento.</AArmoury_TachyonicFeed.description>
   <!-- EN: tachyonic -->
-  <AArmoury_TachyonicFeed.traitAdjectives.0>taquiónico</AArmoury_TachyonicFeed.traitAdjectives.0>
+  <AArmoury_TachyonicFeed.traitAdjectives.0>de taquiones</AArmoury_TachyonicFeed.traitAdjectives.0>
   <!-- EN: hemovoric -->
   <AArmoury_Hemovoric.label>hemovórico</AArmoury_Hemovoric.label>
   <!-- EN: Projectiles fired by this weapon will drain blood from their target and attempt to transfer it to the shooter. Which is obviously quite useless unless the shooter is a Sanguophage! -->
   <AArmoury_Hemovoric.description>Los proyectiles disparados por esta arma drenarán sangre de su objetivo e intentarán transferirla al tirador. ¡Lo cual es obviamente bastante inútil a menos que el tirador sea un Sanguófago!</AArmoury_Hemovoric.description>
   <!-- EN: hemovoric -->
-  <AArmoury_Hemovoric.traitAdjectives.0>hemovórico</AArmoury_Hemovoric.traitAdjectives.0>
+  <AArmoury_Hemovoric.traitAdjectives.0>de hemógeno</AArmoury_Hemovoric.traitAdjectives.0>
   <!-- EN: psychic -->
   <AArmoury_Psychic.label>psíquico</AArmoury_Psychic.label>
   <!-- EN: Projectiles fired by this weapon will absorb life power from their target and attempt to transfer it in the form of psyfocus to the shooter. Which is obviously quite useless unless the shooter is a psycaster! -->
   <AArmoury_Psychic.description>Los proyectiles disparados por esta arma absorberán poder vital de su objetivo e intentarán transferirlo en forma de psicoconcentración al tirador. ¡Lo cual es obviamente bastante inútil a menos que el tirador sea un psíquico!</AArmoury_Psychic.description>
   <!-- EN: psychic -->
-  <AArmoury_Psychic.traitAdjectives.0>psíquico</AArmoury_Psychic.traitAdjectives.0>
+  <AArmoury_Psychic.traitAdjectives.0>de poder psíquico</AArmoury_Psychic.traitAdjectives.0>
   <!-- EN: bullet splitting -->
   <AArmoury_Splitting.label>división de balas</AArmoury_Splitting.label>
   <!-- EN: Projectiles fired by this weapon will be duplicated at half strength. -->
@@ -273,7 +273,7 @@
   <!-- EN: This minigun fires mechanite needles filled with a powerful healing serum. They will heal their targets instead of harming them. -->
   <AArmoury_HealingMinigun.description>Esta ametralladora dispara agujas de mecanitos llenas de un poderoso suero curativo. Curarán a sus objetivos en lugar de dañarlos.</AArmoury_HealingMinigun.description>
   <!-- EN: healing -->
-  <AArmoury_HealingMinigun.traitAdjectives.0>curativo</AArmoury_HealingMinigun.traitAdjectives.0>
+  <AArmoury_HealingMinigun.traitAdjectives.0>de curación</AArmoury_HealingMinigun.traitAdjectives.0>
   <!-- EN: lifesteal -->
   <AArmoury_Lifesteal.label>robo de vida</AArmoury_Lifesteal.label>
   <!-- EN: Projectiles fired by this weapon will drain health from their target and transfer it back to the wielder. -->
@@ -285,7 +285,7 @@
   <!-- EN: Bullets fired from this weapon have a microscopic ampoule of concentrated chemfuel. This will be injected into their targets and cause them to explode on death. -->
   <AArmoury_Chemburster.description>Las balas disparadas por esta arma tienen una ampolla microscópica de biocombustible concentrado. Esto se inyectará en sus objetivos y hará que exploten al morir.</AArmoury_Chemburster.description>
   <!-- EN: chemical -->
-  <AArmoury_Chemburster.traitAdjectives.0>químico</AArmoury_Chemburster.traitAdjectives.0>
+  <AArmoury_Chemburster.traitAdjectives.0>de químicos</AArmoury_Chemburster.traitAdjectives.0>
   <!-- EN: flux-charged -->
   <AArmoury_Flux.label>cargado de flujo</AArmoury_Flux.label>
   <!-- EN: Projectiles fired by this weapon will imbue their target with flux damage. Flux damage destabilizes a target’s bioelectric field, causing a short-range energy discharge that harms nearby creatures. -->
@@ -297,7 +297,7 @@
   <!-- EN: This weapon fires rounds with a stored electrical charge, which will paralize and cause heart attacks in targets. -->
   <AArmoury_Voltaic.description>Esta arma dispara rondas con una carga eléctrica almacenada, que paralizará y causará ataques al corazón en los objetivos.</AArmoury_Voltaic.description>
   <!-- EN: voltaic -->
-  <AArmoury_Voltaic.traitAdjectives.0>voltaico</AArmoury_Voltaic.traitAdjectives.0>
+  <AArmoury_Voltaic.traitAdjectives.0>de voltaje</AArmoury_Voltaic.traitAdjectives.0>
   <!-- EN: target locator -->
   <AArmoury_TargetLocator.label>localizador de objetivos</AArmoury_TargetLocator.label>
   <!-- EN: This weapon will do almost no damage, but will inject its target with a nano-beacon that will make other guns impact much harder. -->
@@ -327,25 +327,25 @@
   <!-- EN: Projectiles fired by this weapon will convert their wielder&apos;s neural heat into extra psychic damage. Every shot that hits will reduce this heat by 1. -->
   <AArmoury_EntropyRounds.description>Los proyectiles disparados por esta arma convertirán el calor neural de su portador en daño psíquico extra. Cada disparo que acierte reducirá este calor en 1.</AArmoury_EntropyRounds.description>
   <!-- EN: entropic -->
-  <AArmoury_EntropyRounds.traitAdjectives.0>entrópico</AArmoury_EntropyRounds.traitAdjectives.0>
+  <AArmoury_EntropyRounds.traitAdjectives.0>de entropía</AArmoury_EntropyRounds.traitAdjectives.0>
   <!-- EN: attached chainsaw -->
   <AArmoury_Chainsaw.label>motosierra acoplada</AArmoury_Chainsaw.label>
   <!-- EN: This weapon has an attached chainsaw, just like the Emperor intended. -->
   <AArmoury_Chainsaw.description>Esta arma tiene una motosierra acoplada, tal como el Emperador pretendía.</AArmoury_Chainsaw.description>
   <!-- EN: close combat -->
-  <AArmoury_Chainsaw.traitAdjectives.0>combate cuerpo a cuerpo</AArmoury_Chainsaw.traitAdjectives.0>
+  <AArmoury_Chainsaw.traitAdjectives.0>de combate cuerpo a cuerpo</AArmoury_Chainsaw.traitAdjectives.0>
   <!-- EN: attached bayonet -->
   <AArmoury_Bayonet.label>bayoneta acoplada</AArmoury_Bayonet.label>
   <!-- EN: This weapon has an attached bayonet. -->
   <AArmoury_Bayonet.description>Esta arma tiene una bayoneta acoplada.</AArmoury_Bayonet.description>
   <!-- EN: close combat -->
-  <AArmoury_Bayonet.traitAdjectives.0>combate cuerpo a cuerpo</AArmoury_Bayonet.traitAdjectives.0>
+  <AArmoury_Bayonet.traitAdjectives.0>de combate cuerpo a cuerpo</AArmoury_Bayonet.traitAdjectives.0>
   <!-- EN: toxic sprayer -->
   <AArmoury_ToxicSprayer.label>rociador tóxico</AArmoury_ToxicSprayer.label>
   <!-- EN: This weapon has a close quarters sprayer that will create a toxic mist when used in melee range. -->
   <AArmoury_ToxicSprayer.description>Esta arma tiene un rociador de corto alcance que creará una niebla tóxica cuando se use en combate cuerpo a cuerpo.</AArmoury_ToxicSprayer.description>
   <!-- EN: toxic spraying -->
-  <AArmoury_ToxicSprayer.traitAdjectives.0>rociador tóxico</AArmoury_ToxicSprayer.traitAdjectives.0>
+  <AArmoury_ToxicSprayer.traitAdjectives.0>de rocío tóxico</AArmoury_ToxicSprayer.traitAdjectives.0>
   <!-- EN: acid sprayer -->
   <AArmoury_AcidSprayer.label>rociador de ácido</AArmoury_AcidSprayer.label>
   <!-- EN: This weapon has a close quarters sprayer that will create an acid mist when used in melee range. -->
@@ -365,7 +365,7 @@
   <!-- EN: This weapon has an attached grenade launcher that fires &quot;holy hand&quot; grenades, filled with nanite inhibitors that will destabilize reanimated shamblers. It seems to have been intentionally adorned with religious motifs, though whether this was meant as a joke or taken seriously is unclear. Once fired, it must be reloaded using bioferrite. -->
   <AArmoury_HolyLauncher.description>Esta arma tiene un lanzagranadas acoplado que dispara granadas de "mano santa", llenas de inhibidores de nanitos que desestabilizarán a los shamblers reanimados. Parece haber sido adornada intencionalmente con motivos religiosos, aunque no está claro si esto fue una broma o se tomó en serio. Una vez disparado, debe recargarse usando bioferrita.</AArmoury_HolyLauncher.description>
   <!-- EN: holy -->
-  <AArmoury_HolyLauncher.traitAdjectives.0>santo</AArmoury_HolyLauncher.traitAdjectives.0>
+  <AArmoury_HolyLauncher.traitAdjectives.0>sagrado</AArmoury_HolyLauncher.traitAdjectives.0>
   <!-- EN: grenade -->
   <AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada</AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: deadlife launcher -->
@@ -373,7 +373,7 @@
   <!-- EN: This weapon has an attached deadlife launcher. Once fired, it must be reloaded using a deadlife shell. -->
   <AArmoury_DeadlifeLauncher.description>Esta arma tiene un lanzador necrovita acoplado. Una vez disparado, debe recargarse usando un proyectil necrovita.</AArmoury_DeadlifeLauncher.description>
   <!-- EN: deadlife -->
-  <AArmoury_DeadlifeLauncher.traitAdjectives.0>vida muerta</AArmoury_DeadlifeLauncher.traitAdjectives.0>
+  <AArmoury_DeadlifeLauncher.traitAdjectives.0>de vida muerta</AArmoury_DeadlifeLauncher.traitAdjectives.0>
   <!-- EN: deadlife shell -->
   <AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>proyectil necrovita</AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: fleshmelter launcher -->
@@ -389,7 +389,7 @@
   <!-- EN: This weapon has an attached tox grenade launcher. Once fired, it must be reloaded using steel. -->
   <AArmoury_ToxLauncher.description>Esta arma tiene un lanzagranadas tóxico acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_ToxLauncher.description>
   <!-- EN: tox -->
-  <AArmoury_ToxLauncher.traitAdjectives.0>tóxico</AArmoury_ToxLauncher.traitAdjectives.0>
+  <AArmoury_ToxLauncher.traitAdjectives.0>de toxinas</AArmoury_ToxLauncher.traitAdjectives.0>
   <!-- EN: tox canister -->
   <AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bote tóxico</AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: hellsphere launcher -->
@@ -413,7 +413,7 @@
   <!-- EN: This weapon has an attached magma grenade launcher. Once fired, it must be reloaded using a lot of steel. Magma grenades won&apos;t work on water. -->
   <AArmoury_MagmaLauncher.description>Esta arma tiene un lanzagranadas de magma acoplado. Una vez disparado, debe recargarse usando mucho acero. Las granadas de magma no funcionarán en el agua.</AArmoury_MagmaLauncher.description>
   <!-- EN: magmatic -->
-  <AArmoury_MagmaLauncher.traitAdjectives.0>magmático</AArmoury_MagmaLauncher.traitAdjectives.0>
+  <AArmoury_MagmaLauncher.traitAdjectives.0>de magma</AArmoury_MagmaLauncher.traitAdjectives.0>
   <!-- EN: magma grenade -->
   <AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de magma</AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: archotegg launcher -->
@@ -435,9 +435,9 @@
   <!-- EN: This weapon has an attached acid grenade launcher. Once fired, it must be reloaded using components. -->
   <AArmoury_AcidLauncher.description>Esta arma tiene un lanzagranadas de ácido acoplado. Una vez disparado, debe recargarse usando componentes.</AArmoury_AcidLauncher.description>
   <!-- EN: corrosive -->
-  <AArmoury_AcidLauncher.traitAdjectives.0>corrosivo</AArmoury_AcidLauncher.traitAdjectives.0>
+  <AArmoury_AcidLauncher.traitAdjectives.0>de corrosión</AArmoury_AcidLauncher.traitAdjectives.0>
   <!-- EN: acidic -->
-  <AArmoury_AcidLauncher.traitAdjectives.1>acídico</AArmoury_AcidLauncher.traitAdjectives.1>
+  <AArmoury_AcidLauncher.traitAdjectives.1>de ácido</AArmoury_AcidLauncher.traitAdjectives.1>
   <!-- EN: acid grenade -->
   <AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de ácido</AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: shrapnel launcher -->
@@ -445,9 +445,9 @@
   <!-- EN: This weapon has an attached shrapnel grenade launcher. Once fired, it must be reloaded using steel. -->
   <AArmoury_ShrapnelLauncher.description>Esta arma tiene un lanzagranadas de metralla acoplado. Una vez disparado, debe recargarse usando acero.</AArmoury_ShrapnelLauncher.description>
   <!-- EN: fragmentary -->
-  <AArmoury_ShrapnelLauncher.traitAdjectives.0>fragmentario</AArmoury_ShrapnelLauncher.traitAdjectives.0>
+  <AArmoury_ShrapnelLauncher.traitAdjectives.0>de fragmentación</AArmoury_ShrapnelLauncher.traitAdjectives.0>
   <!-- EN: shrapnel -->
-  <AArmoury_ShrapnelLauncher.traitAdjectives.1>metralla</AArmoury_ShrapnelLauncher.traitAdjectives.1>
+  <AArmoury_ShrapnelLauncher.traitAdjectives.1>de metralla</AArmoury_ShrapnelLauncher.traitAdjectives.1>
   <!-- EN: shrapnel grenade -->
   <AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>granada de metralla</AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: swarm launcher -->
@@ -511,7 +511,7 @@
   <!-- EN: This weapon has an attached broadshield launcher. Once fired, it must be reloaded using advanced components. -->
   <AArmoury_ShieldLauncher.description>Esta arma tiene un lanzador de escudo amplio acoplado. Una vez disparado, debe recargarse usando componentes avanzados.</AArmoury_ShieldLauncher.description>
   <!-- EN: shielded -->
-  <AArmoury_ShieldLauncher.traitAdjectives.0>escudado</AArmoury_ShieldLauncher.traitAdjectives.0>
+  <AArmoury_ShieldLauncher.traitAdjectives.0>con escudo</AArmoury_ShieldLauncher.traitAdjectives.0>
   <!-- EN: shield generator -->
   <AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>generador de escudo</AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: anti-tox launcher -->
@@ -519,7 +519,7 @@
   <!-- EN: This weapon has an attached anti-tox grenade launcher. Once fired, it must be reloaded using steel. Grenades reduce toxic buildup by 20%. -->
   <AArmoury_AntiToxLauncher.description>Esta arma tiene un lanzagranadas antitoxinas acoplado. Una vez disparado, debe recargarse usando acero. Las granadas reducen la acumulación tóxica en un 20%.</AArmoury_AntiToxLauncher.description>
   <!-- EN: anti-toxic -->
-  <AArmoury_AntiToxLauncher.traitAdjectives.0>antitóxico</AArmoury_AntiToxLauncher.traitAdjectives.0>
+  <AArmoury_AntiToxLauncher.traitAdjectives.0>de antitoxinas</AArmoury_AntiToxLauncher.traitAdjectives.0>
   <!-- EN: anti-tox canister -->
   <AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>bote antitoxinas</AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
   <!-- EN: grapple gun -->
@@ -537,7 +537,7 @@
   <!-- EN: resilient -->
   <AArmoury_PsychicResilience.traitAdjectives.0>resistente</AArmoury_PsychicResilience.traitAdjectives.0>
   <!-- EN: psychic -->
-  <AArmoury_PsychicResilience.traitAdjectives.1>psíquico</AArmoury_PsychicResilience.traitAdjectives.1>
+  <AArmoury_PsychicResilience.traitAdjectives.1>de poder psíquico</AArmoury_PsychicResilience.traitAdjectives.1>
   <!-- EN: satiating -->
   <AArmoury_Satiating.label>saciante</AArmoury_Satiating.label>
   <!-- EN: This weapon psychically suppresses the wielder&apos;s appetite. -->
@@ -549,7 +549,7 @@
   <!-- EN: This weapon is so easy to handle and wield that it will increase the wielder&apos;s shooting skill just by having it equipped.\n\n- Shooting skill +4. -->
   <AArmoury_SharpshootersFocus.description>Esta arma es tan fácil de manejar y empuñar que aumentará la habilidad de disparo del portador con solo tenerla equipada.\n\n- Habilidad de disparo +4.</AArmoury_SharpshootersFocus.description>
   <!-- EN: focused -->
-  <AArmoury_SharpshootersFocus.traitAdjectives.0>enfocado</AArmoury_SharpshootersFocus.traitAdjectives.0>
+  <AArmoury_SharpshootersFocus.traitAdjectives.0>de enfoque</AArmoury_SharpshootersFocus.traitAdjectives.0>
   <!-- EN: adrenal rush -->
   <AArmoury_AdrenalRush.label>subidón de adrenalina</AArmoury_AdrenalRush.label>
   <!-- EN: This weapon floods the wielder with a surge of combat stimulants upon landing a kill, briefly heightening reflexes and movement speed.\n\n- Move Speed x1.25 for 4 hours after a kill.\n\n- Melee Dodge Chance x1.25 for 4 hours after a kill.\n\n- Ranged Dodge Chance +25% for 4 hours after a kill. -->
@@ -563,17 +563,17 @@
   <!-- EN: radiant -->
   <AArmoury_RadiantCore.traitAdjectives.0>radiante</AArmoury_RadiantCore.traitAdjectives.0>
   <!-- EN: faulty -->
-  <AArmoury_RadiantCore.traitAdjectives.1>defectuoso</AArmoury_RadiantCore.traitAdjectives.1>
+  <AArmoury_RadiantCore.traitAdjectives.1>con fallas</AArmoury_RadiantCore.traitAdjectives.1>
   <!-- EN: radioactive -->
-  <AArmoury_RadiantCore.traitAdjectives.2>radiactivo</AArmoury_RadiantCore.traitAdjectives.2>
+  <AArmoury_RadiantCore.traitAdjectives.2>de radiación</AArmoury_RadiantCore.traitAdjectives.2>
   <!-- EN: orgasmatron core -->
   <AArmoury_Orgasmatron.label>núcleo orgasmatrón</AArmoury_Orgasmatron.label>
   <!-- EN: This weapon infuses projectiles with blissful bio-feedback, leaving targets dazed, flushed, and oddly satisfied, but also sluggy. -->
   <AArmoury_Orgasmatron.description>Esta arma infunde proyectiles con una maravillosa biorretroalimentación, dejando a los objetivos aturdidos, sonrojados y extrañamente satisfechos, pero también lentos.</AArmoury_Orgasmatron.description>
   <!-- EN: loving -->
-  <AArmoury_Orgasmatron.traitAdjectives.0>amoroso</AArmoury_Orgasmatron.traitAdjectives.0>
+  <AArmoury_Orgasmatron.traitAdjectives.0>de amor</AArmoury_Orgasmatron.traitAdjectives.0>
   <!-- EN: orgasmic -->
-  <AArmoury_Orgasmatron.traitAdjectives.1>orgásmico</AArmoury_Orgasmatron.traitAdjectives.1>
+  <AArmoury_Orgasmatron.traitAdjectives.1>de éxtasis</AArmoury_Orgasmatron.traitAdjectives.1>
   <!-- EN: sunburst core -->
   <AArmoury_SunburstCore.label>núcleo solar</AArmoury_SunburstCore.label>
   <!-- EN: This weapon blazes brighter under sunlight, dealing increased damage. Its power fades in shadow or darkness.\n\n- Damage while in sunlight +20%.\n\n- Damage while not in sunlight -20%. -->
@@ -589,19 +589,19 @@
   <!-- EN: This weapon is optimized for vacuum and deals greater damage in space or airless environments.\n\n- Damage while in space +20%.\n\n- Damage while planetside -20%. -->
   <AArmoury_VacuumSealed.description>Esta arma está optimizada para el vacío e inflige mayor daño en el espacio o entornos sin aire.\n\n- Daño en el espacio +20%.\n\n- Daño en la superficie planetaria -20%.</AArmoury_VacuumSealed.description>
   <!-- EN: airtight -->
-  <AArmoury_VacuumSealed.traitAdjectives.0>hermético</AArmoury_VacuumSealed.traitAdjectives.0>
+  <AArmoury_VacuumSealed.traitAdjectives.0>de cierre hermético</AArmoury_VacuumSealed.traitAdjectives.0>
   <!-- EN: void-hardened -->
-  <AArmoury_VacuumSealed.traitAdjectives.1>endurecido por el vacío</AArmoury_VacuumSealed.traitAdjectives.1>
+  <AArmoury_VacuumSealed.traitAdjectives.1>de casco de vacío</AArmoury_VacuumSealed.traitAdjectives.1>
   <!-- EN: pressurized -->
-  <AArmoury_VacuumSealed.traitAdjectives.2>presurizado</AArmoury_VacuumSealed.traitAdjectives.2>
+  <AArmoury_VacuumSealed.traitAdjectives.2>de presión</AArmoury_VacuumSealed.traitAdjectives.2>
   <!-- EN: toxin-tuned -->
   <AArmoury_ToxinTuned.label>sintonizado con toxinas</AArmoury_ToxinTuned.label>
   <!-- EN: This weapon is fed by pollution, doing more damage in polluted terrains.\n\n- Damage while on top of polluted terrain +20%. -->
   <AArmoury_ToxinTuned.description>Esta arma se alimenta de la contaminación, haciendo más daño en terrenos contaminados.\n\n- Daño sobre terreno contaminado +20%.</AArmoury_ToxinTuned.description>
   <!-- EN: corroded -->
-  <AArmoury_ToxinTuned.traitAdjectives.0>corroído</AArmoury_ToxinTuned.traitAdjectives.0>
+  <AArmoury_ToxinTuned.traitAdjectives.0>con corrosión</AArmoury_ToxinTuned.traitAdjectives.0>
   <!-- EN: tainted -->
-  <AArmoury_ToxinTuned.traitAdjectives.1>contaminado</AArmoury_ToxinTuned.traitAdjectives.1>
+  <AArmoury_ToxinTuned.traitAdjectives.1>con contaminación</AArmoury_ToxinTuned.traitAdjectives.1>
   <!-- EN: pestilent -->
   <AArmoury_ToxinTuned.traitAdjectives.2>pestilente</AArmoury_ToxinTuned.traitAdjectives.2>
   <!-- EN: oversized -->
@@ -611,19 +611,19 @@
   <!-- EN: huge -->
   <AArmoury_Oversized.traitAdjectives.0>enorme</AArmoury_Oversized.traitAdjectives.0>
   <!-- EN: oversized -->
-  <AArmoury_Oversized.traitAdjectives.1>sobredimensionada</AArmoury_Oversized.traitAdjectives.1>
+  <AArmoury_Oversized.traitAdjectives.1>de gran tamaño</AArmoury_Oversized.traitAdjectives.1>
   <!-- EN: gigantic -->
-  <AArmoury_Oversized.traitAdjectives.2>gigantesca</AArmoury_Oversized.traitAdjectives.2>
+  <AArmoury_Oversized.traitAdjectives.2>colosal</AArmoury_Oversized.traitAdjectives.2>
   <!-- EN: undersized -->
   <AArmoury_Undersized.label>subdimensionada</AArmoury_Undersized.label>
   <!-- EN: This weapon is undersized, making it faster to aim, lighter, and less dangerous in close combat. -->
   <AArmoury_Undersized.description>Esta arma es subdimensionada, lo que la hace más rápida para apuntar, más ligera y menos peligrosa en combate cuerpo a cuerpo.</AArmoury_Undersized.description>
   <!-- EN: small -->
-  <AArmoury_Undersized.traitAdjectives.0>pequeña</AArmoury_Undersized.traitAdjectives.0>
+  <AArmoury_Undersized.traitAdjectives.0>de bolsillo</AArmoury_Undersized.traitAdjectives.0>
   <!-- EN: undersized -->
-  <AArmoury_Undersized.traitAdjectives.1>subdimensionada</AArmoury_Undersized.traitAdjectives.1>
+  <AArmoury_Undersized.traitAdjectives.1>de tamaño reducido</AArmoury_Undersized.traitAdjectives.1>
   <!-- EN: tiny -->
-  <AArmoury_Undersized.traitAdjectives.2>diminuta</AArmoury_Undersized.traitAdjectives.2>
+  <AArmoury_Undersized.traitAdjectives.2>de tamaño mínimo</AArmoury_Undersized.traitAdjectives.2>
   <!-- EN: revolver scope -->
   <AArmoury_RevolverScope.label>mira de revólver</AArmoury_RevolverScope.label>
   <!-- EN: This revolver is outfitted with a scope, allowing it to fire farther. -->
@@ -631,21 +631,21 @@
   <!-- EN: scoped -->
   <AArmoury_RevolverScope.traitAdjectives.0>con mira</AArmoury_RevolverScope.traitAdjectives.0>
   <!-- EN: farsight -->
-  <AArmoury_RevolverScope.traitAdjectives.1>visión lejana</AArmoury_RevolverScope.traitAdjectives.1>
+  <AArmoury_RevolverScope.traitAdjectives.1>de visión lejana</AArmoury_RevolverScope.traitAdjectives.1>
   <!-- EN: double-tap cylinder -->
   <AArmoury_DoubleTap.label>cilindro de doble disparo</AArmoury_DoubleTap.label>
   <!-- EN: Turns the revolver’s single-shot action into a short burst, trading some accuracy for faster suppression. -->
   <AArmoury_DoubleTap.description>Convierte la acción de un solo disparo del revólver en una ráfaga corta, intercambiando algo de precisión por una supresión más rápida.</AArmoury_DoubleTap.description>
   <!-- EN: double-tap -->
-  <AArmoury_DoubleTap.traitAdjectives.0>doble disparo</AArmoury_DoubleTap.traitAdjectives.0>
+  <AArmoury_DoubleTap.traitAdjectives.0>de doble disparo</AArmoury_DoubleTap.traitAdjectives.0>
   <!-- EN: burst -->
-  <AArmoury_DoubleTap.traitAdjectives.1>ráfaga</AArmoury_DoubleTap.traitAdjectives.1>
+  <AArmoury_DoubleTap.traitAdjectives.1>de ráfaga</AArmoury_DoubleTap.traitAdjectives.1>
   <!-- EN: reinforced frame -->
   <AArmoury_ReinforcedFrame.label>marco reforzado</AArmoury_ReinforcedFrame.label>
   <!-- EN: This weapon has been reinforced with a plasteel carapace increasing its resilience. -->
   <AArmoury_ReinforcedFrame.description>Esta arma ha sido reforzada con un caparazón de plastiacero aumentando su resistencia.</AArmoury_ReinforcedFrame.description>
   <!-- EN: reinforced -->
-  <AArmoury_ReinforcedFrame.traitAdjectives.0>reforzado</AArmoury_ReinforcedFrame.traitAdjectives.0>
+  <AArmoury_ReinforcedFrame.traitAdjectives.0>con refuerzos</AArmoury_ReinforcedFrame.traitAdjectives.0>
   <!-- EN: insectoid slayer -->
   <AArmoury_InsectKiller.label>asesino de insectoides</AArmoury_InsectKiller.label>
   <!-- EN: This gun is especially damaging to insectoids, ripping them apart with a dangerous acid. -->
@@ -663,7 +663,7 @@
   <!-- EN: eldritchbreaking -->
   <AArmoury_AnomalyKiller.traitAdjectives.0>rompe-eldritch</AArmoury_AnomalyKiller.traitAdjectives.0>
   <!-- EN: voidtouched -->
-  <AArmoury_AnomalyKiller.traitAdjectives.1>tocado por el vacío</AArmoury_AnomalyKiller.traitAdjectives.1>
+  <AArmoury_AnomalyKiller.traitAdjectives.1>del vacío</AArmoury_AnomalyKiller.traitAdjectives.1>
   <!-- EN: abominationhungry -->
   <AArmoury_AnomalyKiller.traitAdjectives.2>hambriento de abominaciones</AArmoury_AnomalyKiller.traitAdjectives.2>
 </LanguageData>
