@@ -30,8 +30,11 @@ namespace RmlVentana
         private const float AltoTitulo = 38f;
 
         private static readonly Color Gris = Hex(0xA9B0B8);
-        /** El bloque del ingles, como los de la traduccion pero en gris (pedido por Angel). */
+        /** El bloque del ingles, como los de la traduccion pero en gris (pedido por Angel). Si cambio va
+         *  en dos, el de antes y el de ahora, con la franja y la marca en rojo y en verde. */
         private static readonly Colores GrisBloque = new Colores(Hex(0x2B3035), Hex(0x3D444D), Hex(0xB8C0C8), Hex(0x6E7681));
+        private static readonly Colores GrisAntes = new Colores(GrisBloque.Fondo, GrisBloque.Resalte, GrisBloque.Texto, Hex(0xE5534B));
+        private static readonly Colores GrisAhora = new Colores(GrisBloque.Fondo, GrisBloque.Resalte, GrisBloque.Texto, Hex(0x57AB5A));
         private static readonly Color FondoGrupo = Hex(0x262D35);
         private static readonly Color FranjaGrupo = Hex(0x4A5560);
         private static readonly Color FranjaGrupoAbierta = Hex(0x6C8EAD);
@@ -81,7 +84,7 @@ namespace RmlVentana
             public TextoParaVer Texto;
             public TipoDeTexto Tipo;
             public Categoria Categoria;
-            public Bloque BloqueIngles, BloqueAntes, BloqueAhora;
+            public Bloque BloqueInglesAntes, BloqueIngles, BloqueAntes, BloqueAhora;
             /** Ancho tambien: en una sola linea puede pasar el de la ventana. */
             public float Alto, Ancho;
         }
@@ -310,12 +313,18 @@ namespace RmlVentana
             float Ancho = Renglon.width - 2 * RellenoTexto;
             float Y = Renglon.y + RellenoTexto;
 
-            // El ingles va en un bloque como los de la traduccion, en gris y con «EN»: si cambio, lo quitado
-            // y lo agregado se resaltan en rojo y verde dentro de el.
+            // El ingles va en bloques como los de la traduccion, en gris y con «EN»: si cambio, el de antes
+            // con la franja roja y el de ahora con la verde, y lo quitado y lo agregado resaltado en cada uno.
             Text.Font = GameFont.Small;
+            if (Fila.BloqueInglesAntes != null)
+            {
+                DibujarBloque(new Rect(Renglon.x + RellenoTexto, Y, Ancho, Fila.BloqueInglesAntes.Alto), "EN", Fila.BloqueInglesAntes, GrisAntes);
+                Y += Fila.BloqueInglesAntes.Alto + 2f;
+            }
             if (Fila.BloqueIngles != null)
             {
-                DibujarBloque(new Rect(Renglon.x + RellenoTexto, Y, Ancho, Fila.BloqueIngles.Alto), "EN", Fila.BloqueIngles, GrisBloque);
+                DibujarBloque(new Rect(Renglon.x + RellenoTexto, Y, Ancho, Fila.BloqueIngles.Alto), "EN", Fila.BloqueIngles,
+                    Fila.Texto.InglesAntes != null || Fila.Texto.Ingles.Exists(x => x.Cambiado) ? GrisAhora : GrisBloque);
                 Y += Fila.BloqueIngles.Alto + 2f;
             }
 
@@ -454,18 +463,15 @@ namespace RmlVentana
                 Fila.Alto = 2 * RellenoTexto;
                 Fila.Ancho = 0f;
                 Text.Font = GameFont.Small;
-                Fila.BloqueIngles = Fila.Texto.Ingles.Count == 0 ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ingles), AnchoBloque));
-                if (Fila.BloqueIngles != null)
-                {
-                    Fila.Alto += Fila.BloqueIngles.Alto + 2f;
-                    Fila.Ancho = Fila.BloqueIngles.Ancho + AnchoFranja + AnchoMarca + RellenoBloque;
-                }
-
+                Fila.BloqueInglesAntes = Fila.Texto.InglesAntes == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.InglesAntes), AnchoBloque));
+                Fila.BloqueIngles = Fila.Texto.Ingles == null || Fila.Texto.Ingles.Count == 0 ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ingles), AnchoBloque));
                 Fila.BloqueAntes = Fila.Texto.Antes == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Antes), AnchoBloque));
                 Fila.BloqueAhora = Fila.Texto.Ahora == null ? null : ConRelleno(Acomodar(Como(Fila.Texto.Ahora), AnchoBloque));
-                foreach (Bloque Bloque in new[] { Fila.BloqueAntes, Fila.BloqueAhora })
+                foreach (Bloque Bloque in new[] { Fila.BloqueInglesAntes, Fila.BloqueIngles, Fila.BloqueAntes, Fila.BloqueAhora })
                     if (Bloque != null)
                         Fila.Ancho = Mathf.Max(Fila.Ancho, Bloque.Ancho + AnchoFranja + AnchoMarca + RellenoBloque);
+                if (Fila.BloqueInglesAntes != null) Fila.Alto += Fila.BloqueInglesAntes.Alto + 2f;
+                if (Fila.BloqueIngles != null) Fila.Alto += Fila.BloqueIngles.Alto + 2f;
                 if (Fila.BloqueAntes != null) Fila.Alto += Fila.BloqueAntes.Alto + 2f;
                 if (Fila.BloqueAhora != null) Fila.Alto += Fila.BloqueAhora.Alto;
                 Fila.Ancho += 2 * RellenoTexto;

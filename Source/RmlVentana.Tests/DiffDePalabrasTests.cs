@@ -96,42 +96,6 @@ namespace RmlVentana.Tests
             Assert.IsTrue(Ahora.All(x => x.Cambiado));
         }
 
-        /** Lo quitado entre [- ] y lo agregado entre [+ ], para el ingles, que va en un solo bloque. */
-        private static string Unido(List<Trozo> Trozos)
-        {
-            var Texto = new StringBuilder();
-            string Dentro = null;
-            foreach (Trozo Trozo in Trozos)
-            {
-                string Marca = !Trozo.Cambiado ? null : Trozo.Quitado ? "-" : "+";
-                if (Marca != Dentro)
-                {
-                    if (Dentro != null) Texto.Append("]");
-                    if (Marca != null) Texto.Append("[" + Marca);
-                    Dentro = Marca;
-                }
-                Texto.Append(Trozo.Texto);
-            }
-            if (Dentro != null) Texto.Append("]");
-            return Texto.ToString();
-        }
-
-        [TestMethod]
-        public void ElInglesUnidoMarcaLoAgregadoEnSuLugar()
-        {
-            var Trozos = DiffDePalabras.Unir("Filters the air.", "Filters the air, provides limited rebreathing and cools.");
-
-            Assert.AreEqual("Filters the air[+, provides limited rebreathing and cools].", Unido(Trozos));
-        }
-
-        [TestMethod]
-        public void ElInglesUnidoPoneLoQuitadoAntesDeLoAgregadoConUnEspacio()
-        {
-            var Trozos = DiffDePalabras.Unir("the big dog", "the small dog");
-
-            Assert.AreEqual("the [-big] [+small] dog", Unido(Trozos));
-        }
-
         [TestMethod]
         public void EnUnaLineaLosSaltosSeVenComoEnElArchivoYConservanSuMarca()
         {

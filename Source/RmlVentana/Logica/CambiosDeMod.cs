@@ -19,12 +19,12 @@ namespace RmlVentana.Logica
         public string Objeto = "";
     }
 
-    /** Un texto listo para «Ver cambios»: el ingles en un bloque, con lo quitado y lo agregado si
-     *  cambio, y la traduccion en uno o dos. Antes es null si no va el bloque rojo, y Ahora si no va
-     *  el verde. */
+    /** Un texto listo para «Ver cambios»: el ingles y la traduccion, cada uno en uno o dos bloques.
+     *  Antes es null si no va el bloque rojo, y Ahora si no va el verde; InglesAntes es null si el
+     *  ingles no cambio o solo se le agrego, e Ingles si solo se le quito. */
     public class TextoParaVer
     {
-        public List<Trozo> Ingles;
+        public List<Trozo> InglesAntes, Ingles;
         public List<Trozo> Antes, Ahora;
     }
 
@@ -77,15 +77,18 @@ namespace RmlVentana.Logica
             return Resultado;
         }
 
-        /** Como se muestra un texto. Si de la traduccion solo se agrego o solo se quito, va un bloque:
-         *  el otro repetiria el texto entero sin nada marcado, y parecia que todo habia cambiado. */
+        /** Como se muestra un texto. El ingles que cambio va en dos bloques, como la traduccion (pedido
+         *  por Angel: en uno solo, lo quitado y lo agregado quedaban pegados). Si solo se agrego o solo
+         *  se quito, va un bloque: el otro repetiria el texto entero sin nada marcado, y parecia que todo
+         *  habia cambiado. */
         public static TextoParaVer ParaVer(TextoCambiado Texto)
         {
             var Resultado = new TextoParaVer();
             string Ingles = DiffDePalabras.SinEtiquetas(Texto.Ingles), InglesAntes = DiffDePalabras.SinEtiquetas(Texto.InglesAntes ?? "");
-            Resultado.Ingles = InglesAntes.Length > 0 && InglesAntes != Ingles
-                ? DiffDePalabras.Unir(InglesAntes, Ingles)
-                : DiffDePalabras.SinMarcar(Ingles);
+            if (InglesAntes.Length > 0 && InglesAntes != Ingles)
+                Comparar(InglesAntes, Ingles, out Resultado.InglesAntes, out Resultado.Ingles);
+            else
+                Resultado.Ingles = DiffDePalabras.SinMarcar(Ingles);
 
             string Antes = DiffDePalabras.SinEtiquetas(Texto.Antes), Ahora = DiffDePalabras.SinEtiquetas(Texto.Ahora);
             if (Antes.Length == 0 || Ahora.Length == 0)
@@ -95,11 +98,17 @@ namespace RmlVentana.Logica
                 return Resultado;
             }
 
-            DiffDePalabras.Comparar(Antes, Ahora, out Resultado.Antes, out Resultado.Ahora);
-            bool Quitado = Resultado.Antes.Exists(x => x.Cambiado), Agregado = Resultado.Ahora.Exists(x => x.Cambiado);
-            if (Agregado && !Quitado) Resultado.Antes = null;
-            if (Quitado && !Agregado) Resultado.Ahora = null;
+            Comparar(Antes, Ahora, out Resultado.Antes, out Resultado.Ahora);
             return Resultado;
+        }
+
+        /** Los dos textos marcados, sin el bloque que no tendria nada marcado. */
+        private static void Comparar(string Antes, string Ahora, out List<Trozo> TrozosAntes, out List<Trozo> TrozosAhora)
+        {
+            DiffDePalabras.Comparar(Antes, Ahora, out TrozosAntes, out TrozosAhora);
+            bool Quitado = TrozosAntes.Exists(x => x.Cambiado), Agregado = TrozosAhora.Exists(x => x.Cambiado);
+            if (Agregado && !Quitado) TrozosAntes = null;
+            if (Quitado && !Agregado) TrozosAhora = null;
         }
 
         /** Las traducciones escriben el salto de linea como «\n» literal, y el juego lo convierte al

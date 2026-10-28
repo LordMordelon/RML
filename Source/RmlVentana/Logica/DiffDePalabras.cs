@@ -39,42 +39,6 @@ namespace RmlVentana.Logica
             UnirEspacios(TrozosAhora);
         }
 
-        /** Los dos textos en una sola lista, para el ingles, que va en un solo bloque: lo quitado y lo
-         *  agregado en su lugar, cada tramo con lo quitado primero y separado de lo agregado por un
-         *  espacio, como el control de cambios de un procesador de texto. */
-        public static List<Trozo> Unir(string Antes, string Ahora)
-        {
-            var Resultado = new List<Trozo>();
-            var Quitados = new List<Trozo>();
-            var Agregados = new List<Trozo>();
-
-            void Volcar()
-            {
-                Resultado.AddRange(Quitados);
-                if (Quitados.Count > 0 && Agregados.Count > 0
-                    && Quitados[Quitados.Count - 1].Texto.Trim().Length > 0 && Agregados[0].Texto.Trim().Length > 0)
-                    Resultado.Add(new Trozo { Texto = " " });
-                Resultado.AddRange(Agregados);
-                Quitados.Clear();
-                Agregados.Clear();
-            }
-
-            foreach (Trozo Trozo in Recorrer(Antes, Ahora))
-            {
-                if (!Trozo.Cambiado)
-                {
-                    Volcar();
-                    Resultado.Add(Trozo);
-                }
-                else
-                    (Trozo.Quitado ? Quitados : Agregados).Add(Trozo);
-            }
-            Volcar();
-
-            UnirEspacios(Resultado);
-            return Resultado;
-        }
-
         /** Los trozos de los dos textos en el orden de la comparacion: los comunes una vez, y los de un
          *  solo lado marcados, con Quitado si son del de antes. */
         private static List<Trozo> Recorrer(string Antes, string Ahora)
@@ -145,7 +109,6 @@ namespace RmlVentana.Logica
 
         private static void UnirEspacios(List<Trozo> Trozos)
         {
-            // En la lista unida, solo entre dos del mismo lado: entre lo quitado y lo agregado queda sin marcar.
             for (int i = 1; i < Trozos.Count - 1; i++)
                 if (!Trozos[i].Cambiado && Trozos[i - 1].Cambiado && Trozos[i + 1].Cambiado
                     && Trozos[i - 1].Quitado == Trozos[i + 1].Quitado && Trozos[i].Texto.Trim().Length == 0)

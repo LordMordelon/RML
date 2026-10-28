@@ -91,10 +91,32 @@ namespace RmlVentana.Tests
                 Tipo = TipoDeTexto.Cambiado, Ingles = "the dog", InglesAntes = "", Antes = "a", Ahora = "b",
             });
 
-            Assert.IsTrue(Cambio.Ingles.Any(x => x.Cambiado && x.Quitado));
+            // Como la traduccion: el de antes con lo quitado y el de ahora con lo agregado, cada uno en su bloque.
+            Assert.AreEqual("the big dog", string.Concat(Cambio.InglesAntes.Select(x => x.Texto)));
+            Assert.IsTrue(Cambio.InglesAntes.Any(x => x.Cambiado && x.Quitado));
+            Assert.AreEqual("the small dog", string.Concat(Cambio.Ingles.Select(x => x.Texto)));
             Assert.IsTrue(Cambio.Ingles.Any(x => x.Cambiado && !x.Quitado));
+            Assert.IsNull(Igual.InglesAntes);
             Assert.AreEqual("the dog", string.Concat(Igual.Ingles.Select(x => x.Texto)));
             Assert.IsFalse(Igual.Ingles.Any(x => x.Cambiado));
+        }
+
+        [TestMethod]
+        public void SiAlInglesSoloSeLeAgregoVaUnBloque()
+        {
+            var Agregado = CambiosDeMod.ParaVer(new TextoCambiado
+            {
+                Tipo = TipoDeTexto.Cambiado, Ingles = "Filters the air and cools.", InglesAntes = "Filters the air.", Antes = "a", Ahora = "b",
+            });
+            var Quitado = CambiosDeMod.ParaVer(new TextoCambiado
+            {
+                Tipo = TipoDeTexto.Cambiado, Ingles = "Filters the air.", InglesAntes = "Filters the air and cools.", Antes = "a", Ahora = "b",
+            });
+
+            Assert.IsNull(Agregado.InglesAntes);
+            Assert.IsTrue(Agregado.Ingles.Any(x => x.Cambiado));
+            Assert.IsNull(Quitado.Ingles);
+            Assert.IsTrue(Quitado.InglesAntes.Any(x => x.Cambiado && x.Quitado));
         }
 
         [TestMethod]
