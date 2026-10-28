@@ -51,6 +51,7 @@ GLOSARIO.md                     terminología oficial de RimWorld ES
 TRADUCIR.md                     guía para colaboradores: fork, extractor, traducir en VS Code y pull request
 CAMBIOS.md                      qué cambia respecto de RMK
 RESCATE-PENDIENTE.md            traducciones huérfanas y decisiones tomadas
+REVISION-TRADUCCION-OFICIAL.md  errores de la traducción oficial latina, con antes y después (issues 19 a 21); se arreglan en Ludeon/RimWorld-SpanishLatin
 Source/LoadFoldersBuilder/      genera LoadFolders.xml a partir de los .yaml
 Source/FileNameEncoder/         normaliza nombres de XML que NO vengan del extractor
 Source/RmlVentana/              la DLL de RML (.NET Framework 4.7.2, contra Krafs.Rimworld.Ref 1.6): la ventana de mods
