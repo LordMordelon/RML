@@ -51,9 +51,17 @@ namespace RmlVentana.Logica
             return Hash.ToString("x16");
         }
 
-        /** El archivo de la copia. Lo sin traducir no va: Comparar no lo muestra, y la copia pesa menos. */
-        public static string Escribir(string Huella, IEnumerable<Texto> Textos)
+        /** El archivo de la copia. Lo sin traducir no va: Comparar no lo muestra, y la copia pesa menos.
+         *
+         *  Con la copia Anterior, un texto cuya traduccion no cambio conserva el ingles de entonces. Si no,
+         *  una reextraccion que cambia solo el ingles pondria la copia al dia en silencio (no hay nada que
+         *  mostrar), y cuando despues cambiara la traduccion ya no se veria que el ingles tambien cambio. */
+        public static string Escribir(string Huella, IEnumerable<Texto> Textos, IEnumerable<Texto> Anterior = null)
         {
+            var Previos = new Dictionary<string, Texto>();
+            foreach (Texto Previo in Anterior ?? Enumerable.Empty<Texto>())
+                Previos[Previo.Clave] = Previo;
+
             var Resultado = new StringBuilder();
             Resultado.Append(Marca).Append('\t').Append(Huella).Append('\n');
             foreach (Texto Texto in Textos)
@@ -61,8 +69,12 @@ namespace RmlVentana.Logica
                 string Valor = TextosDeTraduccion.Limpio(Texto.Valor);
                 if (!TextosDeTraduccion.Traducido(Valor))
                     continue;
-                Resultado.Append(Texto.Clave).Append('\t').Append(Valor).Append('\t')
-                    .Append(TextosDeTraduccion.Limpio(Texto.Ingles)).Append('\n');
+                string Ingles = TextosDeTraduccion.Limpio(Texto.Ingles);
+                // La misma vara que TextosDeTraduccion.Comparar: un cambio solo de etiquetas no es un cambio.
+                if (Previos.TryGetValue(Texto.Clave, out Texto Previo) && Previo.Ingles.Length > 0 &&
+                    TextosDeTraduccion.SinEtiquetas(Previo.Valor) == TextosDeTraduccion.SinEtiquetas(Valor))
+                    Ingles = Previo.Ingles;
+                Resultado.Append(Texto.Clave).Append('\t').Append(Valor).Append('\t').Append(Ingles).Append('\n');
             }
             return Resultado.ToString();
         }

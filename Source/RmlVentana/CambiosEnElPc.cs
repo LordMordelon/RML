@@ -186,10 +186,10 @@ namespace RmlVentana
                         Ingles.TryGetValue(Carpeta.Relativa, out var DeLaCarpeta);
                         var Ahora = TextosDeTraduccion.ConIngles(
                             Archivos.SelectMany(x => TextosDeTraduccion.Leer(x.Relativa, File.ReadAllText(x.Ruta))), DeLaCarpeta);
-                        string Nueva = CopiaDeTextos.Escribir(Huella, Ahora);
+                        var Vieja = File.Exists(Copia) ? CopiaDeTextos.Leer(File.ReadLines(Copia), out _) : null;
+                        string Nueva = CopiaDeTextos.Escribir(Huella, Ahora, Vieja);
                         R.Leidos++;
 
-                        var Vieja = File.Exists(Copia) ? CopiaDeTextos.Leer(File.ReadLines(Copia), out _) : null;
                         var Cambios = Vieja == null ? null : CopiaDeTextos.Comparar(Vieja, Ahora);
 
                         // Sin nada que mostrar (otra fecha, el mismo texto): la copia se pone al dia ahora.

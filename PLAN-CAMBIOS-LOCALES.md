@@ -138,5 +138,10 @@ Pruebas primero en `RmlVentana.Tests` para las etapas 2 y 3. Costo estimado: una
   textos, la copia entera en 6,3 MB y 0,6 segundos la primera vez; el inglés calzó en las 84 y ningún
   mod salió cambiado sin cambios. Se dejó el inglés en la copia: sacarlo ahorraba 1,6 MB y los textos
   quitados saldrían sin su inglés.
+- **El inglés de la copia es el de la última traducción vista.** Un texto cuya traducción no cambió
+  conserva el inglés que tenía en la copia (`CopiaDeTextos.Escribir`). Antes la copia tomaba siempre el
+  inglés nuevo, y el 27-oct-2026 en Animals Logic se perdió la marca: la reextracción cambió solo el
+  inglés, el juego se abrió y la copia se puso al día en silencio, y cuando después cambió la traducción
+  el inglés salió sin resaltar.
 - **Al actualizar desde el Workshop** cambian las fechas de todos los archivos: ese inicio lee todos los
   mods activos (medio segundo, en segundo plano) y los que no cambiaron se ponen al día solos.

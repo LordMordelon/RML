@@ -136,6 +136,33 @@ namespace RmlVentana.Tests
         }
 
         [TestMethod]
+        public void ElInglesQueCambioSinLaTraduccionSigueMarcadoCuandoLaTraduccionCambia()
+        {
+            // Animals Logic, 27-oct-2026: se reextrajo (cambio el ingles, no la traduccion), el juego se
+            // abrio y la copia se puso al dia sola; despues cambio la traduccion y el ingles salio sin marcar.
+            var Primera = Ida("h1", new[] { new Texto(Keyed + "A", "Filters the air.", "Filtra el aire.") });
+            var Reextraido = new[] { new Texto(Keyed + "A", "Filters the air and rebreathes.", "Filtra el aire.") };
+            Assert.AreEqual(0, CopiaDeTextos.Comparar(Primera, Reextraido).Count);
+
+            var Segunda = CopiaDeTextos.Leer(Lineas(CopiaDeTextos.Escribir("h2", Reextraido, Primera)), out _);
+            var Traducido = new[] { new Texto(Keyed + "A", "Filters the air and rebreathes.", "Filtra el aire y lo recircula.") };
+            var Cambios = CopiaDeTextos.Comparar(Segunda, Traducido);
+
+            Assert.AreEqual("Filters the air.", Cambios[0].InglesAntes);
+        }
+
+        [TestMethod]
+        public void ConLaTraduccionCambiadaLaCopiaGuardaElInglesNuevo()
+        {
+            var Primera = Ida("h1", new[] { new Texto(Keyed + "A", "Filters the air.", "Filtra el aire.") });
+            var Ahora = new[] { new Texto(Keyed + "A", "Filters the air and rebreathes.", "Filtra el aire y lo recircula.") };
+
+            var Segunda = CopiaDeTextos.Leer(Lineas(CopiaDeTextos.Escribir("h2", Ahora, Primera)), out _);
+
+            Assert.AreEqual("Filters the air and rebreathes.", Segunda[0].Ingles);
+        }
+
+        [TestMethod]
         public void UnSaltoDeLineaDentroDelTextoNoEsUnCambio()
         {
             // La copia lo guarda en una linea: lo de ahora se compara igual, o cada texto con un salto
