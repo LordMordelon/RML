@@ -135,7 +135,8 @@ mecanoide» (4), «cápsula de descenso» (4 mods), «garra de la cabeza» (3 mo
 Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
 «árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,
 Landmarks y Phytokin) y «árbol Gauranlen» con mayúscula por «árbol gauranlen» (5 usos en Vanilla Aspirations,
-Phytokin y Vanilla Skills). «Gauranlen Inc.», en Phytokin, es el nombre de una empresa y se queda.
+Phytokin y Vanilla Skills). «Gauranlen Inc.», en Phytokin, es el nombre de una empresa y se queda. **Hechos el
+28-oct-2026** (c693be03…45b50815, un commit por mod).
 
 ## Decisiones de Angel
 
@@ -169,18 +170,13 @@ Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comproba
 
 ## Próxima sesión (28-oct-2026)
 
-**Objetivo:** pasar «árbol de ánima» a «árbol ánima» y «árbol Gauranlen» a «árbol gauranlen» (ver el paso 4).
-**Estado:** `master` de RML con tres commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads revisado y su glosario) y
-55b8e045 (VIE - Anima Theme traducido). La lista de usos se saca con
-`grep -rn --include=*.xml -i "árbol\(es\)\? de ánima\|árbol\(es\)\? Gauranlen" Data --exclude=UNUSED.xml`.
-**Antes de empezarla (Angel):**
-1. Decir si se suben los tres commits de las dríadas.
+**Hecho el 28-oct:** los 25 «árbol de ánima» y los 5 «árbol Gauranlen», un commit por mod (c693be03…45b50815).
+**Estado:** `master` de RML con diez commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads), 55b8e045 (VIE - Anima
+Theme), 66c9d486 (este plan), los seis de los árboles y el de esta nota.
+**Antes de seguir (Angel):**
+1. Decir si se suben los diez commits.
 2. Si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
-**Al empezar (Claude):**
-1. Si Angel lo aprueba, subir los tres commits.
-2. Corregir a mano los 25 «árbol de ánima» (9 archivos, 4 mods) y los 5 «árbol Gauranlen» (4 archivos, 3 mods),
-   leyendo el `EN:` de cada uno; adaptar el género y el plural de lo que acompaña («árboles ánima antiguos»). Un
-   commit por mod, las tres comprobaciones del diff y `LoadFoldersBuilder -copia`. Cabe en una sesión.
+**Al empezar (Claude):** si Angel lo aprueba, subirlos; después, seguir con el paso 4.
 **Decisiones de Angel:** los tres términos «a confirmar» de
 [GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
 («nexo ánima», «creasemillas», «creanimabric»). Recomendación: dejarlos así, salvo que en el juego se lean mal.
