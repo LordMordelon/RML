@@ -1,8 +1,9 @@
 # Glosario: Custom Weapons Expanded
 
 Términos que este mod repite, con la traducción que ya usan sus 992 entradas (contadas el 28-oct-2026).
-[RML/GLOSARIO.md](../../GLOSARIO.md), la terminología oficial de RimWorld, manda sobre este. Para los nombres
-de armas y las piezas comunes (cañón, culata, empuñadura), ver también el glosario de Vanilla Weapons Expanded,
+[RML/GLOSARIO.md](../../GLOSARIO.md), la terminología oficial de RimWorld, manda sobre este. El sistema de módulos
+es de Customize Weapon, que va primero: [GLOSARIO-CW.md](../Customize%20Weapon%20-%203550585103/GLOSARIO-CW.md). Para
+los nombres de armas y las piezas comunes (cañón, culata, empuñadura), ver también el glosario de Vanilla Weapons Expanded,
 [GLOSARIO-VWE.md](../!Oskar%20Potocki/Vanilla%20Weapons%20Expanded%20-%201814383360/GLOSARIO-VWE.md).
 
 El mod agrega **módulos** que se montan en un arma (`ThingDef`) y, por cada uno, un **rasgo** del mismo nombre
@@ -88,3 +89,5 @@ Encontradas al armar este glosario. No se aplicaron.
 3. **slug = bala maciza** en todas: «Bala de choque» (*shock slug*) → «bala maciza de choque».
 4. **mod → módulo:** «Mod perforante de la Alianza I» → «módulo perforante de la Alianza I» (y II, III).
 5. **toxic bullet** tiene dos traducciones en `DamageDef` («Proyectil tóxico» y «Bala tóxica»): dejar «bala tóxica».
+6. **stopping power** = «potencia de parada», como la oficial: «poder de detención adicional» → «potencia de parada
+   adicional». Va junto con la misma corrección en Customize Weapon.
