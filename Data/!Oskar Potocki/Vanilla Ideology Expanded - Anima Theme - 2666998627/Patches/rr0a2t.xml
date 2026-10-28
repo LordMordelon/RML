@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[1]/label</xpath>
+    <value>
+      <!-- EN: anima nexus connection -->
+      <label>conexión nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[1]/description</xpath>
+    <value>
+      <!-- EN: I am happily connected to an anima nexus tree. -->
+      <description>Estoy feliz por tener una conexión con un árbol nexo ánima.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[2]/label</xpath>
+    <value>
+      <!-- EN: want anima nexus connection -->
+      <label>quiere una conexión con el nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[2]/description</xpath>
+    <value>
+      <!-- EN: Without a connection to an anima nexus tree, I feel disconnected from nature. -->
+      <description>Sin una conexión con un árbol nexo ánima, no siento ninguna conexión con la naturaleza.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[3]/label</xpath>
+    <value>
+      <!-- EN: want anima nexus connection -->
+      <label>quiere una conexión con el nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[3]/description</xpath>
+    <value>
+      <!-- EN: Without a connection to an anima nexus tree, I feel disconnected from nature. -->
+      <description>Sin una conexión con un árbol nexo ánima, no siento ninguna conexión con la naturaleza.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[4]/label</xpath>
+    <value>
+      <!-- EN: want anima nexus connection -->
+      <label>quiere una conexión con el nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[4]/description</xpath>
+    <value>
+      <!-- EN: Without a connection to an anima nexus tree, I feel disconnected from nature. -->
+      <description>Sin una conexión con un árbol nexo ánima, no siento ninguna conexión con la naturaleza.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[5]/label</xpath>
+    <value>
+      <!-- EN: want anima nexus connection -->
+      <label>quiere una conexión con el nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[5]/description</xpath>
+    <value>
+      <!-- EN: Without a connection to an anima nexus tree, I feel disconnected from nature. -->
+      <description>Sin una conexión con un árbol nexo ánima, no siento ninguna conexión con la naturaleza.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[6]/label</xpath>
+    <value>
+      <!-- EN: want anima nexus connection -->
+      <label>quiere una conexión con el nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="GauranlenConnectionDesired"]/stages/li[6]/description</xpath>
+    <value>
+      <!-- EN: Without a connection to an anima nexus tree, I feel disconnected from nature. -->
+      <description>Sin una conexión con un árbol nexo ánima, no siento ninguna conexión con la naturaleza.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="ConnectedTreeDied"]/stages/li[1]/label</xpath>
+    <value>
+      <!-- EN: anima nexus death -->
+      <label>muerte del nexo ánima</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="ConnectedTreeDied"]/stages/li[1]/description</xpath>
+    <value>
+      <!-- EN: My tree... its calming presence became pure pain, then went silent. Its suffering echoes in my mind... -->
+      <description>Mi árbol... su presencia tranquilizadora se convirtió en puro dolor, luego enmudeció. Su sufrimiento resuena en mi mente...</description>
+    </value>
+  </Operation>
+</Patch>

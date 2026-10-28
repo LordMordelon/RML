@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: One or more Anima Nexus trees do not have their dryad caste set.\n\nSelect the tree and click the &apos;{0}&apos; button to set produced dryad caste. -->
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Uno o más árboles nexo ánima no tienen su casta de dríadas establecida.\n\nSelecciona el árbol y haz clic en el botón "{0}" para establecer la casta de las dríadas producidas.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <!-- EN: You have Anima Nexus trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Tienes árboles nexo ánima que están programados para ser podados, pero sus conectores no están asignados a cortar plantas.\n\nDebes asignar el trabajo de cortar plantas a los siguientes colonos</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <!-- EN: If this creature is injured, it will return to its connected Anima Nexus tree and enter a woody healing pod. After {DAYS} days, the dryad will emerge with its wounds healed. -->
+  <CommandHealInHealingPodDesc>Si esta criatura está herida, volverá al árbol nexo ánima al que está conectada y entrará en una vaina curativa leñosa. Al cabo de {DAYS} días, la dríada saldrá con sus heridas sanadas.</CommandHealInHealingPodDesc>
+  <!-- EN: An unconnected Anima Nexus tree. -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>un árbol nexo ánima sin conexión</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: The {0} has induced an Anima Nexus pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>El {0} hizo brotar una vaina nexo ánima cerca.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Anima Nexus tree. {ANIMAL_possessive} master cannot be changed. -->
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} tiene una conexión con {MASTER_nameDef} a través de su árbol nexo ánima. Su amo no puede ser cambiado.</DryadCannotChangeMaster>
+  <!-- EN: Connection strength too low to create Anima Nexus pod. -->
+  <ConnectionStrengthTooWeakForGaumakerPod>La fuerza de la conexión es demasiado baja para crear la vaina nexo ánima.</ConnectionStrengthTooWeakForGaumakerPod>
+</LanguageData>
