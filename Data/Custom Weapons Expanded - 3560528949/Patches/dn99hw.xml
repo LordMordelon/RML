@@ -23,7 +23,7 @@
               <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_BioBurner"]/label</xpath>
               <value>
                 <!-- EN: Mini Flamethrower -->
-                <label>Bioquemador</label>
+                <label>bioquemador</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -31,7 +31,7 @@
               <xpath>/Defs/ThingDef[defName="CWE_Module_BioBurner"]/label</xpath>
               <value>
                 <!-- EN: Mini Flamethrower -->
-                <label>Bioquemador</label>
+                <label>bioquemador</label>
               </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -58,7 +58,7 @@
             <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_Shotgun_Underbarrel"]/label</xpath>
             <value>
               <!-- EN: 12 gauge Shotgun attachment -->
-              <label>Accesorio de escopeta</label>
+              <label>accesorio de escopeta</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -66,7 +66,7 @@
             <xpath>/Defs/ThingDef[defName="CWE_Module_Shotgun_Underbarrel"]/label</xpath>
             <value>
               <!-- EN: 12 gauge Shotgun attachment -->
-              <label>Accesorio de escopeta</label>
+              <label>accesorio de escopeta</label>
             </value>
           </li>
         </operations>
