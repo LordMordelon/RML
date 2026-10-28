@@ -69,15 +69,15 @@
   <!-- EN: Increases magazine capacity, allowing more shots. -->
   <CWE_Module_MA_MagazineUpgradeIII.description>Aumenta la capacidad del cargador, lo que permite más disparos.</CWE_Module_MA_MagazineUpgradeIII.description>
   <!-- EN: Alliance Piercing Mod I -->
-  <CWE_Module_MA_PiercingModI.label>Mod perforante de la Alianza I</CWE_Module_MA_PiercingModI.label>
+  <CWE_Module_MA_PiercingModI.label>módulo perforante de la Alianza I</CWE_Module_MA_PiercingModI.label>
   <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
   <CWE_Module_MA_PiercingModI.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Module_MA_PiercingModI.description>
   <!-- EN: Alliance Piercing Mod II -->
-  <CWE_Module_MA_PiercingModII.label>Mod perforante de la Alianza II</CWE_Module_MA_PiercingModII.label>
+  <CWE_Module_MA_PiercingModII.label>módulo perforante de la Alianza II</CWE_Module_MA_PiercingModII.label>
   <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
   <CWE_Module_MA_PiercingModII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Module_MA_PiercingModII.description>
   <!-- EN: Alliance Piercing Mod III -->
-  <CWE_Module_MA_PiercingModIII.label>Mod perforante de la Alianza III</CWE_Module_MA_PiercingModIII.label>
+  <CWE_Module_MA_PiercingModIII.label>módulo perforante de la Alianza III</CWE_Module_MA_PiercingModIII.label>
   <!-- EN: Capacitor boosts kinetic coil generators, increasing shot penetration. -->
   <CWE_Module_MA_PiercingModIII.description>Un capacitor potencia los generadores de bobina cinética y aumenta la penetración del disparo.</CWE_Module_MA_PiercingModIII.description>
   <!-- EN: Alliance Extended Barrel I -->
@@ -299,7 +299,7 @@
   <!-- EN: Fires powerful grenade rounds that injure and stun enemies within a wide area. -->
   <CWE_Module_CWS_Grenade_launcher.description>Dispara potentes proyectiles de granada que hieren y aturden a los enemigos en un área amplia.</CWE_Module_CWS_Grenade_launcher.description>
   <!-- EN: Shock Slug -->
-  <CWE_Module_CWS_shock_slug.label>Bala de choque</CWE_Module_CWS_shock_slug.label>
+  <CWE_Module_CWS_shock_slug.label>bala maciza de choque</CWE_Module_CWS_shock_slug.label>
   <!-- EN: Fires a powerful round that stuns the target upon impact. -->
   <CWE_Module_CWS_shock_slug.description>Dispara un potente proyectil que aturde al objetivo al impactar.</CWE_Module_CWS_shock_slug.description>
   <!-- EN: lantern light -->
@@ -311,7 +311,7 @@
   <!-- EN: shotgun slug bullet -->
   <Bullet_UBShotgunSlug.label>bala maciza de escopeta</Bullet_UBShotgunSlug.label>
   <!-- EN: shotgun emp bullet -->
-  <Bullet_UBShotgunEMP.label>proyectil EMP de escopeta</Bullet_UBShotgunEMP.label>
+  <Bullet_UBShotgunEMP.label>proyectil PEM de escopeta</Bullet_UBShotgunEMP.label>
   <!-- EN: auto style module template -->
   <CWE_AutoStyleModuleTemplate.label>plantilla de módulo de estilo automático</CWE_AutoStyleModuleTemplate.label>
   <!-- EN: Internal template used to generate weapon style modules. -->
@@ -377,7 +377,7 @@
   <!-- EN: Frangible ferromagnetic slugs that shatter into shards on impact, widening wound channels. Reduced armor penetration, steadier control at short to mid range. Ammo for Gauss/Rail guns -->
   <CWE_Module_FerriteFragmentation.description>Balas ferromagnéticas frangibles que se fragmentan en esquirlas al impactar y ensanchan los canales de la herida. Menor penetración de blindaje y mayor control a corta y media distancia.\n            Munición para armas gauss/de riel</CWE_Module_FerriteFragmentation.description>
   <!-- EN: EMP slugs -->
-  <CWE_Module_EMPSlugs.label>Balas EMP</CWE_Module_EMPSlugs.label>
+  <CWE_Module_EMPSlugs.label>balas macizas PEM</CWE_Module_EMPSlugs.label>
   <!-- EN: Conductive, disruption-tuned slugs that interfere with electronics. Faster cycling but reduced raw penetration. Ammo for Gauss/Rail guns -->
   <CWE_Module_EMPSlugs.description>Balas conductoras, ajustadas para la disrupción, que interfieren con la electrónica. Ciclo más rápido, pero menor penetración bruta.\n            Munición para armas gauss/de riel</CWE_Module_EMPSlugs.description>
   <!-- EN: Thermite Core ammo -->
@@ -395,7 +395,7 @@
   <!-- EN: Overcharge Gauss Barrel -->
   <CWE_Module_Overcharge_GaussShoot.label>Cañón gauss de sobrecarga</CWE_Module_Overcharge_GaussShoot.label>
   <!-- EN: Installs an overcharge circuit that unlocks the Overcharge ability. Activating it supercharges the gauss coils and, after a brief 3s charge-up, fires a single overcharged shot. The blast deals 55 Sharp damage, 50% armor penetration, and high stopping power, but the ability has a long cooldown save it for priority targets. -->
-  <CWE_Module_Overcharge_GaussShoot.description>Instala un circuito de sobrecarga que desbloquea la habilidad Sobrecarga. Al activarla, sobrecarga las bobinas gauss y, tras una breve carga de 3 s, dispara un único proyectil sobrecargado. La descarga inflige 55 de daño punzante, un 50 % de penetración de blindaje y un gran poder de detención, pero la habilidad tiene un enfriamiento largo: resérvala para los objetivos prioritarios.</CWE_Module_Overcharge_GaussShoot.description>
+  <CWE_Module_Overcharge_GaussShoot.description>Instala un circuito de sobrecarga que desbloquea la habilidad Sobrecarga. Al activarla, sobrecarga las bobinas gauss y, tras una breve carga de 3 s, dispara un único proyectil sobrecargado. La descarga inflige 55 de daño punzante, un 50 % de penetración de blindaje y un gran potencia de parada, pero la habilidad tiene un enfriamiento largo: resérvala para los objetivos prioritarios.</CWE_Module_Overcharge_GaussShoot.description>
   <!-- EN: Thermal lance focus -->
   <CWE_Module_ThermalLanceFocus.label>Enfoque de lanza térmica</CWE_Module_ThermalLanceFocus.label>
   <!-- EN: Extreme focus for cutting shots: harder hits in short strings, reduced reach, and an ignition effect. 
@@ -724,7 +724,7 @@
   <!-- EN: A under-barrel shotgun attachment loaded with a solid slug round. It sacrifices pellet spread for a single heavy-impact shot, giving the user a compact breaching and anti-armor option without switching weapons. -->
   <CWE_Module_Shotgun_UnderbarrelSlug.description>Un accesorio de escopeta bajo el cañón cargado con una bala maciza. Sacrifica la dispersión de los perdigones a cambio de un único disparo de gran impacto, lo que ofrece al usuario una opción compacta de derribo y antiblindaje sin cambiar de arma.</CWE_Module_Shotgun_UnderbarrelSlug.description>
   <!-- EN: Shotgun emp attachment -->
-  <CWE_Module_Shotgun_UnderbarrelEMP.label>Accesorio de escopeta EMP</CWE_Module_Shotgun_UnderbarrelEMP.label>
+  <CWE_Module_Shotgun_UnderbarrelEMP.label>accesorio de escopeta PEM</CWE_Module_Shotgun_UnderbarrelEMP.label>
   <!-- EN: A under-barrel shotgun attachment configured to fire EMP shells. Instead of raw stopping power, it delivers a close-range pulse designed to disable shields, machinery, and electronic targets without requiring a weapon swap. -->
-  <CWE_Module_Shotgun_UnderbarrelEMP.description>Un accesorio de escopeta bajo el cañón configurado para disparar proyectiles EMP. En lugar de poder de detención bruto, lanza un pulso a corta distancia diseñado para inutilizar escudos, maquinaria y objetivos electrónicos sin necesidad de cambiar de arma.</CWE_Module_Shotgun_UnderbarrelEMP.description>
+  <CWE_Module_Shotgun_UnderbarrelEMP.description>Un accesorio de escopeta bajo el cañón configurado para disparar proyectiles PEM. En lugar de potencia de parada bruto, lanza un pulso a corta distancia diseñado para inutilizar escudos, maquinaria y objetivos electrónicos sin necesidad de cambiar de arma.</CWE_Module_Shotgun_UnderbarrelEMP.description>
 </LanguageData>
