@@ -4,73 +4,73 @@
     <mods>
       <li>Anomaly</li>
     </mods>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>Combat Extended</li>
-      </mods>
-      <match Class="PatchOperationSequence">
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationSequence" MayRequire="CETeam.CombatExtended">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_BioBurner"]/description</xpath>
+              <value>
+                <!-- EN: A bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant. -->
+                <description>Consume una carga presurizada de bioferrita para crear una llamarada.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_BioBurner"]/label</xpath>
+              <value>
+                <!-- EN: Mini Flamethrower -->
+                <label>Bioquemador</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="CWE_Module_BioBurner"]/label</xpath>
+              <value>
+                <!-- EN: Mini Flamethrower -->
+                <label>Bioquemador</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_Flare_Launcher"]/description</xpath>
+              <value>
+                <!-- EN: A utility launcher that shoots disruptor flares. Used for signaling or illumination. Loaded from the breech, its barrel is too thin to fire anything but flares. -->
+                <description>Un lanzador de utilidad que dispara bengalas disruptoras. Al impactar, la bengala quema una cápsula de bioferrita, lo que produce un destello brillante y una disrupción psíquica localizada. Esto aturde a las criaturas sensibles a lo psíquico, revela a las que son invisibles y reduce su consciencia y su velocidad de movimiento durante un breve periodo. Después, la bengala sigue ardiendo e ilumina una amplia zona durante un tiempo.</description>
+              </value>
+            </li>
+          </operations>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationSequence" MayRequire="CETeam.CombatExtended">
         <success>Always</success>
         <operations>
           <li Class="PatchOperationReplace">
             <success>Always</success>
-            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/description</xpath>
+            <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_Shotgun_Underbarrel"]/label</xpath>
             <value>
-              <!-- EN: A bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant. -->
-              <description>Consume una carga presurizada de bioferrita para crear una llamarada.</description>
+              <!-- EN: 12 gauge Shotgun attachment -->
+              <label>Accesorio de escopeta</label>
             </value>
           </li>
           <li Class="PatchOperationReplace">
             <success>Always</success>
-            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_BioBurner"]/label</xpath>
+            <xpath>/Defs/ThingDef[defName="CWE_Module_Shotgun_Underbarrel"]/label</xpath>
             <value>
-              <!-- EN: Mini Flamethrower -->
-              <label>Bioquemador</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="CWE_Module_BioBurner"]/label</xpath>
-            <value>
-              <!-- EN: Mini Flamethrower -->
-              <label>Bioquemador</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Flare_Launcher"]/description</xpath>
-            <value>
-              <!-- EN: A utility launcher that shoots disruptor flares. Used for signaling or illumination. Loaded from the breech, its barrel is too thin to fire anything but flares. -->
-              <description>Un lanzador de utilidad que dispara bengalas disruptoras. Al impactar, la bengala quema una cápsula de bioferrita, lo que produce un destello brillante y una disrupción psíquica localizada. Esto aturde a las criaturas sensibles a lo psíquico, revela a las que son invisibles y reduce su consciencia y su velocidad de movimiento durante un breve periodo. Después, la bengala sigue ardiendo e ilumina una amplia zona durante un tiempo.</description>
+              <!-- EN: 12 gauge Shotgun attachment -->
+              <label>Accesorio de escopeta</label>
             </value>
           </li>
         </operations>
-      </match>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/CombatExtended.CustomWeaponTraitDef[defName="CWE_Trait_Shotgun_Underbarrel"]/label</xpath>
-          <value>
-            <!-- EN: 12 gauge Shotgun attachment -->
-            <label>Accesorio de escopeta</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="CWE_Module_Shotgun_Underbarrel"]/label</xpath>
-          <value>
-            <!-- EN: 12 gauge Shotgun attachment -->
-            <label>Accesorio de escopeta</label>
-          </value>
-        </li>
-      </operations>
-    </match>
+      </li>
+    </operations>
   </Operation>
 </Patch>
