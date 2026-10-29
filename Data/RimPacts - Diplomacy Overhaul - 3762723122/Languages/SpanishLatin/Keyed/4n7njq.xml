@@ -1356,7 +1356,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Up to {0} factions at once, one person per faction. After someone returns, that faction can receive another after {1} days. -->
   <Rpt_RD_DispatchRules>Hasta {0} facciones a la vez, una persona por facción. Cuando alguien vuelve, esa facción puede recibir a otra persona después de {1} días.</Rpt_RD_DispatchRules>
   <!-- EN: Send {0} to {1} for {2} days. A shuttle will come to pick them up.\n\nOn return you receive: {3} silver · goodwill +{4} · trust +{5}\nIf this faction becomes hostile meanwhile, they return at once without any reward. -->
-  <Rpt_RD_DispatchConfirm>Enviar a {0} a {1} por {2} días. Una lanzadera vendrá a buscarla.\n\nAl volver recibes: {3} de plata · buena voluntad +{4} · confianza +{5}\nSi mientras tanto la facción se vuelve hostil, vuelve de inmediato y sin ninguna recompensa.</Rpt_RD_DispatchConfirm>
+  <Rpt_RD_DispatchConfirm>Enviar a {0} a {1} por {2} días. Un transbordador vendrá a buscarla.\n\nAl volver recibes: {3} de plata · buena voluntad +{4} · confianza +{5}\nSi mientras tanto la facción se vuelve hostil, vuelve de inmediato y sin ninguna recompensa.</Rpt_RD_DispatchConfirm>
   <!-- EN: No colonist can be sent. -->
   <Rpt_RD_DispatchNoPawn>No hay ningún colono que se pueda enviar.</Rpt_RD_DispatchNoPawn>
   <!-- EN: Someone is already staying with this faction. -->
@@ -2920,7 +2920,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Gives up the war of independence and returns to tribute. A humiliating rumor spreads. -->
   <Rpt_Tip_Resign>Abandona la guerra de independencia y vuelve al tributo. Corre un rumor humillante.</Rpt_Tip_Resign>
   <!-- EN: Choose the colonist to send after accepting a relief request. They leave at once by shuttle; if nobody is sent within the time left, the dispatch is cancelled. -->
-  <Rpt_Tip_Relief>Después de aceptar un pedido de ayuda, elige al colono que vas a mandar. Parte al instante en lanzadera; si no mandas a nadie en el tiempo que queda, el envío se cancela.</Rpt_Tip_Relief>
+  <Rpt_Tip_Relief>Después de aceptar un pedido de ayuda, elige al colono que vas a mandar. Parte al instante en transbordador; si no mandas a nadie en el tiempo que queda, el envío se cancela.</Rpt_Tip_Relief>
   <!-- EN: Pays silver to sign this treaty. Its effects are shown in the confirmation window. -->
   <Rpt_Tip_Sign>Paga plata para firmar este tratado. Sus efectos aparecen en la ventana de confirmación.</Rpt_Tip_Sign>
   <!-- EN: Signs this treaty (no silver needed). Its effects are shown in the confirmation window. -->
@@ -3250,11 +3250,11 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <!-- EN: Join the attack -->
   <Rpt_Giz_JoinAttack>Sumarse al ataque</Rpt_Giz_JoinAttack>
   <!-- EN: Attack this settlement alongside {0}. This makes {1} hostile.\nA shuttle carries your forces. If no shuttle is available, a caravan can travel there and join instead. -->
-  <Rpt_Giz_JoinAttackDesc>Ataca este asentamiento junto a {0}. Esto te vuelve hostil con {1}.\nUna lanzadera lleva a tus fuerzas. Si no hay ninguna disponible, una caravana puede viajar hasta ahí y sumarse.</Rpt_Giz_JoinAttackDesc>
+  <Rpt_Giz_JoinAttackDesc>Ataca este asentamiento junto a {0}. Esto te vuelve hostil con {1}.\nUn transbordador lleva a tus fuerzas. Si no hay ninguno disponible, una caravana puede viajar hasta ahí y sumarse.</Rpt_Giz_JoinAttackDesc>
   <!-- EN: Join the defense -->
   <Rpt_Giz_JoinDefend>Sumarse a la defensa</Rpt_Giz_JoinDefend>
   <!-- EN: Defend this settlement alongside {0}. This makes {1} hostile.\nA shuttle carries your forces. If no shuttle is available, a caravan can travel there and join instead. -->
-  <Rpt_Giz_JoinDefendDesc>Defiende este asentamiento junto a {0}. Esto te vuelve hostil con {1}.\nUna lanzadera lleva a tus fuerzas. Si no hay ninguna disponible, una caravana puede viajar hasta ahí y sumarse.</Rpt_Giz_JoinDefendDesc>
+  <Rpt_Giz_JoinDefendDesc>Defiende este asentamiento junto a {0}. Esto te vuelve hostil con {1}.\nUn transbordador lleva a tus fuerzas. Si no hay ninguno disponible, una caravana puede viajar hasta ahí y sumarse.</Rpt_Giz_JoinDefendDesc>
   <!-- EN: The enemy assault has already arrived. It is too late to join this battle. -->
   <Rpt_Giz_JoinWindowClosed>El asalto enemigo ya llegó. Es demasiado tarde para sumarse a esta batalla.</Rpt_Giz_JoinWindowClosed>
   <!-- EN: You have not committed to this war, and this is not a protected trade partner. -->
@@ -3282,9 +3282,9 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <!-- EN: Join the battle: {0} -->
   <Rpt_SpectateJoin>Sumarse a la batalla: {0}</Rpt_SpectateJoin>
   <!-- EN: Shuttle ready -->
-  <Rpt_LetterJoinShuttleLabel>Lanzadera lista</Rpt_LetterJoinShuttleLabel>
+  <Rpt_LetterJoinShuttleLabel>Transbordador listo</Rpt_LetterJoinShuttleLabel>
   <!-- EN: A shuttle bound for the battle at {0} has landed. Load the people you are sending, then give the &apos;Depart for the battle&apos; order. The same shuttle can carry them back once the battle ends. -->
-  <Rpt_LetterJoinShuttle>Aterrizó una lanzadera con destino a la batalla de {0}. Sube a la gente que vas a mandar y da la orden «Partir hacia la batalla». La misma lanzadera puede traerlos de vuelta cuando termine la batalla.</Rpt_LetterJoinShuttle>
+  <Rpt_LetterJoinShuttle>Aterrizó un transbordador con destino a la batalla de {0}. Sube a la gente que vas a mandar y da la orden «Partir hacia la batalla». El mismo transbordador puede traerlos de vuelta cuando termine la batalla.</Rpt_LetterJoinShuttle>
   <!-- EN: Treaties that will be broken: {0} -->
   <Rpt_Join_Treaties>Tratados que se romperán: {0}</Rpt_Join_Treaties>
   <!-- EN: If you stay out, {0} may fall - and that would tear up the trade protection pact and the trade agreement. -->
@@ -3648,15 +3648,15 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <!-- EN: — -->
   <Rpt_GRPawn_NoEstimate>—</Rpt_GRPawn_NoEstimate>
   <!-- EN: Shuttle arriving -->
-  <Rpt_LetterShuttleComingLabel>Llega una lanzadera</Rpt_LetterShuttleComingLabel>
+  <Rpt_LetterShuttleComingLabel>Llega un transbordador</Rpt_LetterShuttleComingLabel>
   <!-- EN: A shuttle is landing to carry {0} to {1}.\n\nIf they do not board within {2} days, the shuttle leaves and the mission is canceled. -->
-  <Rpt_LetterShuttleComing>Está aterrizando una lanzadera para llevar a {0} hasta {1}.\n\nSi no suben en {2} días, la lanzadera se va y la misión se cancela.</Rpt_LetterShuttleComing>
+  <Rpt_LetterShuttleComing>Está aterrizando un transbordador para llevar a {0} hasta {1}.\n\nSi no suben en {2} días, el transbordador se va y la misión se cancela.</Rpt_LetterShuttleComing>
   <!-- EN: The mission of {0} was canceled and the shuttle has left ({1} silver refunded). -->
-  <Rpt_MsgShuttleCanceled>Se canceló la misión de {0} y se fue la lanzadera (se devolvieron {1} de plata).</Rpt_MsgShuttleCanceled>
+  <Rpt_MsgShuttleCanceled>Se canceló la misión de {0} y se fue el transbordador (se devolvieron {1} de plata).</Rpt_MsgShuttleCanceled>
   <!-- EN: The relief mission of {0} was canceled and the shuttle has left. For failing the promised relief: goodwill {2}, trust {3} with {1}. -->
-  <Rpt_MsgShuttleCanceledRelief>Se canceló la misión de ayuda de {0} y se fue la lanzadera. Por no cumplir con la ayuda prometida: buena voluntad {2} y confianza {3} con {1}.</Rpt_MsgShuttleCanceledRelief>
+  <Rpt_MsgShuttleCanceledRelief>Se canceló la misión de ayuda de {0} y se fue el transbordador. Por no cumplir con la ayuda prometida: buena voluntad {2} y confianza {3} con {1}.</Rpt_MsgShuttleCanceledRelief>
   <!-- EN: The mission of {0} was canceled and the shuttle has left. -->
-  <Rpt_MsgShuttleCanceledNoRefund>Se canceló la misión de {0} y se fue la lanzadera.</Rpt_MsgShuttleCanceledNoRefund>
+  <Rpt_MsgShuttleCanceledNoRefund>Se canceló la misión de {0} y se fue el transbordador.</Rpt_MsgShuttleCanceledNoRefund>
   <!-- EN: Sign the &apos;{1}&apos; treaty with {0} ({2} silver).\n\n{3} -->
   <Rpt_UI_SignConfirm>Firmar el tratado «{1}» con {0} ({2} de plata).\n\n{3}</Rpt_UI_SignConfirm>
   <!-- EN: Sign the &apos;{1}&apos; treaty with {0} (free).\n\n{2} -->
@@ -3894,15 +3894,15 @@ No dowry is required — the tributary is sending one of its own people to us. -
   <!-- EN: Travel: on foot — an estimated {0}-day journey. After accepting, a caravan must arrive within {1} days and choose &apos;Join the defense&apos; at the settlement. -->
   <Rpt_DefendModeWalk>Viaje: a pie, unos {0} días de camino. Después de aceptar, una caravana tiene que llegar en {1} días y elegir «Sumarse a la defensa» en el asentamiento.</Rpt_DefendModeWalk>
   <!-- EN: Travel: shuttle — the requesting faction is sending a shuttle. Load your fighters aboard and give the &apos;Depart for the defense&apos; order to fly to the site. -->
-  <Rpt_DefendModeShuttle>Viaje: en lanzadera. La facción que pide ayuda manda una lanzadera. Sube a tus combatientes y da la orden «Partir hacia la defensa» para volar hasta el lugar.</Rpt_DefendModeShuttle>
+  <Rpt_DefendModeShuttle>Viaje: en transbordador. La facción que pide ayuda manda un transbordador. Sube a tus combatientes y da la orden «Partir hacia la defensa» para volar hasta el lugar.</Rpt_DefendModeShuttle>
   <!-- EN: Accept -->
   <Rpt_Defend_Accept>Aceptar</Rpt_Defend_Accept>
   <!-- EN: Join the defense: {0} -->
   <Rpt_DefendJoin>Sumarse a la defensa: {0}</Rpt_DefendJoin>
   <!-- EN: Shuttle arrived: defense -->
-  <Rpt_LetterDefendShuttleLabel>Llegó la lanzadera: defensa</Rpt_LetterDefendShuttleLabel>
+  <Rpt_LetterDefendShuttleLabel>Llegó el transbordador: defensa</Rpt_LetterDefendShuttleLabel>
   <!-- EN: A shuttle for the &apos;{0}&apos; defense has landed. Load your fighters and give the &apos;Depart for the defense&apos; order. The same shuttle can carry you back once the battle ends. -->
-  <Rpt_LetterDefendShuttle>Aterrizó una lanzadera para la defensa de «{0}». Sube a tus combatientes y da la orden «Partir hacia la defensa». La misma lanzadera puede traerte de vuelta cuando termine la batalla.</Rpt_LetterDefendShuttle>
+  <Rpt_LetterDefendShuttle>Aterrizó un transbordador para la defensa de «{0}». Sube a tus combatientes y da la orden «Partir hacia la defensa». El mismo transbordador puede traerte de vuelta cuando termine la batalla.</Rpt_LetterDefendShuttle>
   <!-- EN: Enemy at {0} -->
   <Rpt_LetterDefendWaveLabel>El enemigo está en {0}</Rpt_LetterDefendWaveLabel>
   <!-- EN: {0} has descended on &apos;{1}&apos;. Hold them off alongside the garrison. -->
@@ -3940,7 +3940,7 @@ The tier can be raised again. -->
   <!-- EN: You have arrived. The enemy will strike within 3-6 hours — prepare the defense. -->
   <Rpt_MsgDefendArrive>Llegaste. El enemigo atacará en 3 a 6 horas: prepara la defensa.</Rpt_MsgDefendArrive>
   <!-- EN: The return shuttle has arrived. Board everyone and give the launch order. -->
-  <Rpt_MsgDefendReturnShuttle>Llegó la lanzadera de vuelta. Sube a todos y da la orden de despegue.</Rpt_MsgDefendReturnShuttle>
+  <Rpt_MsgDefendReturnShuttle>Llegó el transbordador de vuelta. Sube a todos y da la orden de despegue.</Rpt_MsgDefendReturnShuttle>
   <!-- EN: The deadline for the &apos;{0}&apos; defense plea has passed. This counts as denying aid. -->
   <Rpt_MsgDefendMissed>Pasó el plazo del pedido de defensa de «{0}». Cuenta como negar la ayuda.</Rpt_MsgDefendMissed>
   <!-- EN: The &apos;{0}&apos; defense mission is void and has been called off. -->
@@ -4056,11 +4056,11 @@ The tier can be raised again. -->
   <!-- EN: Medieval tech only -->
   <Rpt_Set_MedievalTech>Solo tecnología medieval</Rpt_Set_MedievalTech>
   <!-- EN: When enabled, diplomacy works without shuttles, comms consoles or research (envoys walk, rewards arrive at the map edge). Enabled by default with Medieval Overhaul. -->
-  <Rpt_Set_MedievalTechTip>Si está activado, la diplomacia funciona sin lanzaderas, consolas de comunicaciones ni investigación (los enviados van a pie y las recompensas llegan al borde del mapa). Viene activado con Medieval Overhaul.</Rpt_Set_MedievalTechTip>
+  <Rpt_Set_MedievalTechTip>Si está activado, la diplomacia funciona sin transbordadores, consolas de comunicaciones ni investigación (los enviados van a pie y las recompensas llegan al borde del mapa). Viene activado con Medieval Overhaul.</Rpt_Set_MedievalTechTip>
   <!-- EN: Use shuttles with medieval tech -->
-  <Rpt_MedShuttle_Label>Usar lanzaderas con tecnología medieval</Rpt_MedShuttle_Label>
+  <Rpt_MedShuttle_Label>Usar transbordadores con tecnología medieval</Rpt_MedShuttle_Label>
   <!-- EN: When enabled, envoys, guests and battlefield deployments use shuttles even with &quot;Medieval tech only&quot; enabled. -->
-  <Rpt_MedShuttle_Tip>Si está activado, los enviados, los huéspedes y los despliegues en el campo de batalla usan lanzaderas aunque esté activado «Solo tecnología medieval».</Rpt_MedShuttle_Tip>
+  <Rpt_MedShuttle_Tip>Si está activado, los enviados, los huéspedes y los despliegues en el campo de batalla usan transbordadores aunque esté activado «Solo tecnología medieval».</Rpt_MedShuttle_Tip>
   <!-- EN: Protect ordinary traders from temperature -->
   <Rpt_Set_WardTrader>Proteger del clima a los comerciantes comunes</Rpt_Set_WardTrader>
   <!-- EN: When enabled, ordinary trade caravans and pack animals won&apos;t collapse or leave in extreme temperatures. -->
@@ -4068,7 +4068,7 @@ The tier can be raised again. -->
   <!-- EN: Faster transport flight -->
   <Rpt_Set_FastTransport>Vuelos de transporte más rápidos</Rpt_Set_FastTransport>
   <!-- EN: When enabled, shuttles and transport pods on the world map travel {0} times faster. -->
-  <Rpt_Set_FastTransportTip>Si está activado, las lanzaderas y las cápsulas de transporte viajan {0} veces más rápido por el mapa del mundo.</Rpt_Set_FastTransportTip>
+  <Rpt_Set_FastTransportTip>Si está activado, los transbordadores y las cápsulas de transporte viajan {0} veces más rápido por el mapa del mundo.</Rpt_Set_FastTransportTip>
   <!-- EN: Goods request -->
   <Rpt_UI_GoodsRequest>Pedido de bienes</Rpt_UI_GoodsRequest>
   <!-- EN: Compatibility: some features are off -->
@@ -4916,9 +4916,9 @@ Joining lets us request goods from the host and participants and trade on favora
   <!-- EN: An expo party has begun. Colonists gather to mingle with the guests. -->
   <Rpt_Msg_ExpoPartyStart>Empezó una fiesta de la exposición. Los colonos se juntan a conversar con los invitados.</Rpt_Msg_ExpoPartyStart>
   <!-- EN: {0} did not board the shuttle, so the expo visit was cancelled. -->
-  <Rpt_Msg_ExpoVisitCancel>{0} no subió a la lanzadera, así que se canceló la visita a la exposición.</Rpt_Msg_ExpoVisitCancel>
+  <Rpt_Msg_ExpoVisitCancel>{0} no subió al transbordador, así que se canceló la visita a la exposición.</Rpt_Msg_ExpoVisitCancel>
   <!-- EN: A shuttle dispatch is already underway. Try again once it finishes. -->
-  <Rpt_UI_PickupBusy>Ya hay una lanzadera despachada. Vuelve a intentarlo cuando termine.</Rpt_UI_PickupBusy>
+  <Rpt_UI_PickupBusy>Ya hay un transbordador despachado. Vuelve a intentarlo cuando termine.</Rpt_UI_PickupBusy>
   <!-- EN: (dispatched) -->
   <Rpt_UI_DispatchedTag>(enviado)</Rpt_UI_DispatchedTag>
   <!-- EN: Another faction is hosting an expo. You can host one after it ends. -->
@@ -7353,23 +7353,23 @@ All of them mount one more offensive the next day. Each of them lost {1} trust. 
   <!-- EN: Assault under way -->
   <Rpt_WW_QuestAccepted_AssaultLabel>Asalto en marcha</Rpt_WW_QuestAccepted_AssaultLabel>
   <!-- EN: We are moving on {0}.\n\nIt must be taken within {1} days. If you hold a client state you can give them battle orders; if not, a shuttle comes for you. -->
-  <Rpt_WW_QuestAccepted_Assault>Avanzamos sobre {0}.\n\nHay que tomarlo en un plazo de {1} días. Si tienes un estado cliente, puedes darle órdenes de batalla; si no, viene una lanzadera a buscarte.</Rpt_WW_QuestAccepted_Assault>
+  <Rpt_WW_QuestAccepted_Assault>Avanzamos sobre {0}.\n\nHay que tomarlo en un plazo de {1} días. Si tienes un estado cliente, puedes darle órdenes de batalla; si no, viene un transbordador a buscarte.</Rpt_WW_QuestAccepted_Assault>
   <!-- EN: Defense under way -->
   <Rpt_WW_QuestAccepted_DefendLabel>Defensa en marcha</Rpt_WW_QuestAccepted_DefendLabel>
   <!-- EN: We are going to hold {0}.\n\nIt will be decided within {1} days. When the shuttle lands, load your fighters and give the &apos;Depart for the defense&apos; order. If the place can only be reached on foot, send a caravan and choose &apos;Join the defense&apos;. -->
-  <Rpt_WW_QuestAccepted_Defend>Vamos a defender {0}.\n\nSe decide en un plazo de {1} días. Cuando aterrice la lanzadera, sube a tus combatientes y da la orden «Partir a la defensa». Si al lugar solo se puede llegar a pie, manda una caravana y elige «Sumarse a la defensa».</Rpt_WW_QuestAccepted_Defend>
+  <Rpt_WW_QuestAccepted_Defend>Vamos a defender {0}.\n\nSe decide en un plazo de {1} días. Cuando aterrice el transbordador, sube a tus combatientes y da la orden «Partir a la defensa». Si al lugar solo se puede llegar a pie, manda una caravana y elige «Sumarse a la defensa».</Rpt_WW_QuestAccepted_Defend>
   <!-- EN: Landing under way -->
   <Rpt_WW_QuestAccepted_LandingLabel>Desembarco en marcha</Rpt_WW_QuestAccepted_LandingLabel>
   <!-- EN: We are landing at {0}.\n\nLoad the shuttle and take the place within {1} days. -->
-  <Rpt_WW_QuestAccepted_Landing>Vamos a desembarcar en {0}.\n\nCarga la lanzadera y toma el lugar en un plazo de {1} días.</Rpt_WW_QuestAccepted_Landing>
+  <Rpt_WW_QuestAccepted_Landing>Vamos a desembarcar en {0}.\n\nCarga el transbordador y toma el lugar en un plazo de {1} días.</Rpt_WW_QuestAccepted_Landing>
   <!-- EN: Shuttle arrived -->
-  <Rpt_WW_QuestShuttleLabel>Llegó la lanzadera</Rpt_WW_QuestShuttleLabel>
+  <Rpt_WW_QuestShuttleLabel>Llegó el transbordador</Rpt_WW_QuestShuttleLabel>
   <!-- EN: A shuttle bound for {0} has arrived.\n\nLoad the people you are sending and launch it. -->
-  <Rpt_WW_QuestShuttle>Llegó una lanzadera con destino a {0}.\n\nSube a la gente que vas a mandar y hazla despegar.</Rpt_WW_QuestShuttle>
+  <Rpt_WW_QuestShuttle>Llegó un transbordador con destino a {0}.\n\nSube a la gente que vas a mandar y hazlo despegar.</Rpt_WW_QuestShuttle>
   <!-- EN: Front orders - assault -->
   <Rpt_WW_QuestLetter_AssaultOpenLabel>Órdenes del frente: asalto</Rpt_WW_QuestLetter_AssaultOpenLabel>
   <!-- EN: Staff have named {0} as the next objective.\n\nYou have {4} days to commit. Take it within {1} days of committing and the whole area collapses with it - {2} settlements fall to us at once.\n\nRefuse or miss the deadline and {3} of our border settlements are lost instead.\n\nIf you hold a client state they move in under battle orders. If not, a shuttle comes for you. -->
-  <Rpt_WW_QuestLetter_AssaultOpen>El estado mayor fijó {0} como el próximo objetivo.\n\nTienes {4} días para comprometerte. Si lo tomas en los {1} días siguientes a comprometerte, toda la zona se derrumba con él: caen en nuestras manos {2} asentamientos de una vez.\n\nSi te niegas o se vence el plazo, en cambio, perdemos {3} de nuestros asentamientos fronterizos.\n\nSi tienes un estado cliente, avanza con órdenes de batalla. Si no, viene una lanzadera a buscarte.</Rpt_WW_QuestLetter_AssaultOpen>
+  <Rpt_WW_QuestLetter_AssaultOpen>El estado mayor fijó {0} como el próximo objetivo.\n\nTienes {4} días para comprometerte. Si lo tomas en los {1} días siguientes a comprometerte, toda la zona se derrumba con él: caen en nuestras manos {2} asentamientos de una vez.\n\nSi te niegas o se vence el plazo, en cambio, perdemos {3} de nuestros asentamientos fronterizos.\n\nSi tienes un estado cliente, avanza con órdenes de batalla. Si no, viene un transbordador a buscarte.</Rpt_WW_QuestLetter_AssaultOpen>
   <!-- EN: Assault succeeded -->
   <Rpt_WW_QuestLetter_AssaultWinLabel>Asalto logrado</Rpt_WW_QuestLetter_AssaultWinLabel>
   <!-- EN: {0} has fallen, and the defensive line around it collapsed with it.\n\nWe took {1} settlements at once. -->
@@ -7393,7 +7393,7 @@ All of them mount one more offensive the next day. Each of them lost {1} trust. 
   <!-- EN: Front orders - landing -->
   <Rpt_WW_QuestLetter_LandingOpenLabel>Órdenes del frente: desembarco</Rpt_WW_QuestLetter_LandingOpenLabel>
   <!-- EN: {0} cannot be reached on foot.\n\nCommit within {4} days and a shuttle comes for you. Take the place within {1} days of landing and {2} strongholds in the area come with it.\n\nRefuse or miss the deadline and we lose {3} border settlements. -->
-  <Rpt_WW_QuestLetter_LandingOpen>A {0} no se puede llegar a pie.\n\nSi te comprometes en los próximos {4} días, viene una lanzadera a buscarte. Si tomas el lugar en los {1} días siguientes al desembarco, caen con él {2} fortalezas de la zona.\n\nSi te niegas o se vence el plazo, perdemos {3} asentamientos fronterizos.</Rpt_WW_QuestLetter_LandingOpen>
+  <Rpt_WW_QuestLetter_LandingOpen>A {0} no se puede llegar a pie.\n\nSi te comprometes en los próximos {4} días, viene un transbordador a buscarte. Si tomas el lugar en los {1} días siguientes al desembarco, caen con él {2} fortalezas de la zona.\n\nSi te niegas o se vence el plazo, perdemos {3} asentamientos fronterizos.</Rpt_WW_QuestLetter_LandingOpen>
   <!-- EN: Landing succeeded -->
   <Rpt_WW_QuestLetter_LandingWinLabel>Desembarco logrado</Rpt_WW_QuestLetter_LandingWinLabel>
   <!-- EN: We have landed at {0} and secured a foothold.\n\n{1} nearby settlements fell with it. -->
