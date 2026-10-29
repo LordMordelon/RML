@@ -40,7 +40,7 @@ Common/                          se carga siempre, sin IfModActive, arriba de ca
 LoadFolders.xml                 GENERADO — no editar a mano
 docs/index.html                 GENERADO — lista de mods como página web ordenable (GitHub Pages)
 ModList.tsv                     GENERADO — la misma lista en texto plano: mods que cubre RML, fecha de actualización del mod y de la traducción
-Novedades.tsv                   GENERADO solo en output/, sin commitear — lo que cambió en cada mod, para la ventana del juego (Novedades.cs)
+Novedades.tsv                   GENERADO solo en output/, sin commitear — lo que cambió en español en cada mod, para la ventana del juego (Novedades.cs, PLAN-SOLO-INGLES.md)
 Cambios.tsv                     GENERADO solo en output/, sin commitear — los textos de cada mod antes y después de la última subida, para «Ver cambios» (TextosDeTraduccion.cs)
 Ingles.tsv                      GENERADO solo en output/, sin commitear — el inglés de cada texto, que output/ no trae en comentarios, para comparar contra el PC (PLAN-CAMBIOS-LOCALES.md)
 01-regenerar-indice.cmd         regenera los anteriores

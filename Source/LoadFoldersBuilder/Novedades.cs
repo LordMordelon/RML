@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using RmlVentana.Logica;
+using Tocado = LoadFoldersBuilder.UltimosCambios.Tocado;
 
 namespace LoadFoldersBuilder;
 
@@ -12,6 +13,11 @@ namespace LoadFoldersBuilder;
  *  la fecha de la ultima actualizacion, asi que el tipo se sabe solo del ultimo cambio, y es
  *  aproximado: un cambio por otro motivo despues de una actualizacion tambien cuenta como
  *  «actualizado».
+ *
+ *  Solo cuenta un cambio en el español (PLAN-SOLO-INGLES.md): uno que toca solo el ingles de los
+ *  comentarios, una nota .md, el UNUSED.xml o el yaml no se ve en el juego, y no tiene que abrir la
+ *  ventana. Ni la fecha ni las marcas de abajo lo toman en cuenta. La fecha de ModList.tsv si: ahi
+ *  una reextraccion sin cambios dice que el mod se reviso despues de su actualizacion en Steam.
  *
  *  El nombre y la fecha de Steam salen de ModList.tsv, que el -build acaba de escribir. El juego
  *  cruza las filas con los mods por su packageId.
@@ -32,6 +38,10 @@ public static class Novedades
     /** Cuantos textos por mod van a Cambios.tsv: una actualizacion grande (Hegemony) traeria miles. Los
      *  totales van igual en Novedades.tsv, para el «y N mas». */
     public const int Tope = 200;
+
+    /** Hasta cuantos commits atras se busca el ultimo que cambio el español de un mod. Casi siempre es
+     *  el primero o el segundo. */
+    private const int TopeDeBusqueda = 20;
 
     private const string Encabezado = "PackageID\tMod\tAñadido\tÚltimo cambio\tTipo";
 
@@ -65,10 +75,11 @@ public static class Novedades
             .Select(Yaml => Path.GetRelativePath(RootPath, Path.GetDirectoryName(Yaml)!).Replace('\\', '/'))
             .ToList();
 
-        var Historial = UltimosCambios.Historial(RootPath, Carpetas);
+        var Historial = UltimosCambios.Historial(RootPath, Carpetas, out var Commits);
         if (Historial.Count == 0)
             return null;
 
+        var EnEspanol = UltimoCambioEnEspanol(RootPath, Commits);
         var Subida = CambiosDesdeLaUltimaSubida(RootPath, Carpetas, Historial);
 
         var Filas = new List<string> { Subida is null ? Encabezado : Encabezado + "\tÚltima actualización de RML\tTextos" };
@@ -80,8 +91,10 @@ public static class Novedades
             if (!Mods.TryGetValue(Id.Groups[1].Value, out var Mod) || Mod.PackageId.Length == 0) continue;
 
             string Anadido = Fechas[^1];
-            string Ultimo = Fechas[0];
-            string Cambio = Fechas.Count < 2 ? "" : TipoDeCambio(Fechas[1], Mod.Steam, Ultimo);
+            // Si no se encontro, el ultimo cambio de cualquier tipo, como antes.
+            string Ultimo = EnEspanol.TryGetValue(Carpeta, out string? DelEspanol) ? DelEspanol : Fechas[0];
+            string? Anterior = Fechas.FirstOrDefault(x => string.CompareOrdinal(x, Ultimo) < 0);
+            string Cambio = Anterior is null ? "" : TipoDeCambio(Anterior, Mod.Steam, Ultimo);
 
             string Fila = $"{Mod.PackageId}\t{Mod.Nombre}\t{Anadido}\t{Ultimo}\t{Cambio}";
             if (Subida is not null)
@@ -95,21 +108,20 @@ public static class Novedades
                 string BaseDeCarpeta = Subida.Base;
                 if (Marca == "c")
                     Subida.Archivos.TryGetValue(Carpeta, out Tocados);
-                else if (Marca == "a" && Fechas.Count >= 2 && AntesDelDia(RootPath, Ultimo) is { } BaseDelDia)
+                else if (Marca == "a" && Anterior is not null && AntesDelDia(RootPath, Ultimo) is { } BaseDelDia)
                 {
                     BaseDeCarpeta = BaseDelDia;
                     Tocados = ArchivosTocados(RootPath, BaseDelDia, Carpeta);
                 }
 
-                if (Tocados is not null)
+                var Cambios = Tocados is null ? [] : TextosCambiados(RootPath, BaseDeCarpeta, Tocados);
+                if (Marca == "c")
+                    Marca = MarcaDeCambio(Cambios);
+                if (Cambios.Count > 0)
                 {
-                    var Cambios = TextosCambiados(RootPath, BaseDeCarpeta, Tocados);
-                    if (Cambios.Count > 0)
-                    {
-                        Cuenta = string.Join(",", Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Cambiado),
-                            Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Nuevo), Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Quitado));
-                        FilasDeCambios.AddRange(Cambios.Take(Tope).Select(x => TextosDeTraduccion.Fila(Mod.PackageId, x)));
-                    }
+                    Cuenta = string.Join(",", Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Cambiado),
+                        Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Nuevo), Cambios.Count(x => x.Tipo == TextosDeTraduccion.Tipo.Quitado));
+                    FilasDeCambios.AddRange(Cambios.Take(Tope).Select(x => TextosDeTraduccion.Fila(Mod.PackageId, x)));
                 }
 
                 // Un mod añadido lleva ademas todos sus textos, para «Ver cambios» en su fila «Añadido».
@@ -130,36 +142,106 @@ public static class Novedades
         return new Archivos(string.Join("\n", Filas) + "\n", Subida is null ? null : string.Join("\n", FilasDeCambios) + "\n");
     }
 
-    /** Un archivo de una carpeta de mod que cambio desde la subida: su ruta en Base (null si es nuevo)
-     *  y la de ahora (null si se borro), relativas al repo, y su ruta dentro de la carpeta del mod. */
-    private record Tocado(string? Antes, string? Ahora, string Relativa);
+    /** Un archivo de una carpeta de mod como era antes y como es ahora (null si no existia), con su ruta
+     *  dentro de la carpeta del mod. */
+    public record Contenido(string Relativa, string? Antes, string? Ahora);
+
+    /** Los textos en español que cambiaron entre lo de antes y lo de ahora. Solo miran los XML de
+     *  traduccion, y en ellos solo los valores: el ingles de los comentarios, las notas .md, el
+     *  UNUSED.xml y el yaml no se ven en el juego. */
+    public static List<TextosDeTraduccion.Cambio> CambiosDeTexto(IEnumerable<Contenido> Archivos)
+    {
+        var Antes = new List<TextosDeTraduccion.Texto>();
+        var Ahora = new List<TextosDeTraduccion.Texto>();
+        foreach (Contenido Archivo in Archivos.Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa)).OrderBy(x => x.Relativa, StringComparer.Ordinal))
+        {
+            if (Archivo.Antes is not null)
+                Antes.AddRange(TextosDeTraduccion.Leer(Archivo.Relativa, Archivo.Antes));
+            if (Archivo.Ahora is not null)
+                Ahora.AddRange(TextosDeTraduccion.Leer(Archivo.Relativa, Archivo.Ahora));
+        }
+        return TextosDeTraduccion.Comparar(Antes, Ahora);
+    }
+
+    /** La marca de un mod que cambio desde la subida: «c» solo si cambio su español. */
+    public static string MarcaDeCambio(List<TextosDeTraduccion.Cambio> Cambios) => Cambios.Count > 0 ? "c" : "";
 
     private record UltimaSubida(string Base, Dictionary<string, string> Marcas, Dictionary<string, List<Tocado>> Archivos);
 
+    /** Archivos tocados y de donde sale cada lado: Antes y Ahora son una revision de git («HEAD»,
+     *  «abc123^»), y un Ahora null es el disco. */
+    private record Tanda(List<Tocado> Tocados, string Antes, string? Ahora);
+
+    /** Lo de antes y lo de ahora de los XML de traduccion de cada tanda, con un solo git cat-file para
+     *  todas. Null si git fallo. */
+    private static List<List<Contenido>>? Leer(string RootPath, List<Tanda> Tandas)
+    {
+        var Objetos = new List<string>();
+        foreach (Tanda Tanda in Tandas)
+            foreach (Tocado Tocado in Tanda.Tocados.Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa)))
+            {
+                if (Tocado.Antes is not null)
+                    Objetos.Add(Tanda.Antes + ":" + Tocado.Antes);
+                if (Tocado.Ahora is not null && Tanda.Ahora is not null)
+                    Objetos.Add(Tanda.Ahora + ":" + Tocado.Ahora);
+            }
+
+        if (UltimosCambios.Blobs(RootPath, Objetos) is not { } Blobs)
+            return null;
+
+        // En el mismo orden en que se pidieron.
+        int i = 0;
+        var Resultado = new List<List<Contenido>>();
+        foreach (Tanda Tanda in Tandas)
+        {
+            var Lista = new List<Contenido>();
+            foreach (Tocado Tocado in Tanda.Tocados.Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa)))
+            {
+                string? Antes = Tocado.Antes is null ? null : Blobs[i++];
+                string? Ahora = Tocado.Ahora is null ? null
+                    : Tanda.Ahora is not null ? Blobs[i++]
+                    : File.Exists(Path.Combine(RootPath, Tocado.Ahora)) ? File.ReadAllText(Path.Combine(RootPath, Tocado.Ahora)) : null;
+                Lista.Add(new Contenido(Tocado.Relativa, Antes, Ahora));
+            }
+            Resultado.Add(Lista);
+        }
+        return Resultado;
+    }
+
     /** Los textos de una carpeta que cambiaron desde Base, mirando solo los XML de traduccion que git
      *  dice que se tocaron: lo de antes sale de Base y lo de ahora, del disco. */
-    private static List<TextosDeTraduccion.Cambio> TextosCambiados(string RootPath, string Base, List<Tocado> Tocados)
+    private static List<TextosDeTraduccion.Cambio> TextosCambiados(string RootPath, string Base, List<Tocado> Tocados) =>
+        Leer(RootPath, [new Tanda(Tocados, Base, null)]) is [var Archivos] ? CambiosDeTexto(Archivos) : [];
+
+    /** Por carpeta, la fecha del ultimo commit que cambio su español (hoy, si es lo sin commitear). Se
+     *  recorren los commits de todas las carpetas a la vez, de a uno hacia atras y con un git cat-file por
+     *  vuelta, hasta TopeDeBusqueda. Si ninguno lo cambio, la del mas viejo, que es cuando aparecio; si se
+     *  llega al tope, la carpeta no va. */
+    private static Dictionary<string, string> UltimoCambioEnEspanol(string RootPath, Dictionary<string, List<UltimosCambios.Commit>> Commits)
     {
-        var DeTraduccion = Tocados.Where(x => TextosDeTraduccion.EsDeTraduccion(x.Relativa)).OrderBy(x => x.Relativa, StringComparer.Ordinal).ToList();
-        var Viejos = DeTraduccion.Where(x => x.Antes is not null).ToList();
-        var Contenidos = UltimosCambios.Blobs(RootPath, Viejos.Select(x => Base + ":" + x.Antes).ToList());
-        if (Contenidos is null)
-            return [];
+        var Resultado = new Dictionary<string, string>();
+        var Faltan = Commits.Where(x => x.Value.Count > 0).Select(x => x.Key).ToList();
 
-        var Antes = new List<TextosDeTraduccion.Texto>();
-        for (int i = 0; i < Viejos.Count; i++)
-            if (Contenidos[i] is { } Texto)
-                Antes.AddRange(TextosDeTraduccion.Leer(Viejos[i].Relativa, Texto));
-
-        var Ahora = new List<TextosDeTraduccion.Texto>();
-        foreach (Tocado Tocado in DeTraduccion.Where(x => x.Ahora is not null))
+        for (int Vuelta = 0; Vuelta < TopeDeBusqueda && Faltan.Count > 0; Vuelta++)
         {
-            string Archivo = Path.Combine(RootPath, Tocado.Ahora!);
-            if (File.Exists(Archivo))
-                Ahora.AddRange(TextosDeTraduccion.Leer(Tocado.Relativa, File.ReadAllText(Archivo)));
-        }
+            foreach (string Carpeta in Faltan.Where(x => Commits[x].Count == Vuelta))
+                Resultado[Carpeta] = Commits[Carpeta][^1].Fecha;
+            Faltan.RemoveAll(x => Commits[x].Count == Vuelta);
 
-        return TextosDeTraduccion.Comparar(Antes, Ahora);
+            var Tandas = Faltan.Select(x => Commits[x][Vuelta])
+                .Select(x => x.Hash is null ? new Tanda(x.Archivos, "HEAD", null) : new Tanda(x.Archivos, x.Hash + "^", x.Hash))
+                .ToList();
+            if (Leer(RootPath, Tandas) is not { } Contenidos)
+                break;
+
+            for (int i = Faltan.Count - 1; i >= 0; i--)
+                if (CambiosDeTexto(Contenidos[i]).Count > 0)
+                {
+                    Resultado[Faltan[i]] = Commits[Faltan[i]][Vuelta].Fecha;
+                    Faltan.RemoveAt(i);
+                }
+        }
+        return Resultado;
     }
 
     /** Lo que cambio desde la ultima subida de RML al Workshop: el diff entre el ultimo commit anterior

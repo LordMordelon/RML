@@ -295,6 +295,13 @@ No aparece por un mod nuevo en la lista, por lo ya visto, ni al volver al menú 
 revisión corre una sola vez, al terminar de cargar). Si se cierra el juego con la ventana abierta, vuelve a
 salir en el siguiente inicio: no se alcanzó a ver.
 
+**Solo cuenta un cambio en español (29-oct, [PLAN-SOLO-INGLES.md](PLAN-SOLO-INGLES.md)).** Toxin Warcasket
+abría la ventana con «Corregido» porque el autor solo pasó su inglés a ortografía estadounidense. Ahora el
+builder no marca ni fecha en `Novedades.tsv` lo que no cambia ningún texto en español: el inglés de los
+comentarios, las notas `.md`, el `UNUSED.xml` y el yaml. La fecha de `ModList.tsv` y de la página sí lo
+cuenta. En el juego, una fila «c» con la cuenta de textos vacía (de un `Novedades.tsv` anterior) tampoco
+sale (`EntradaDeNovedades.SinCambiosEnEspanol`).
+
 Al volver a abrirla a mano con todo visto, la pestaña salía vacía si lo mostrado venía del PC
 (`CambiosLocales`) en un mod sin tipo en `Novedades.tsv`, porque se añadió y se corrigió el mismo día
 (Alpha Prefabs). Ahora lo mostrado se vuelve a armar tal cual (`NovedadesRml.DeNuevo`).

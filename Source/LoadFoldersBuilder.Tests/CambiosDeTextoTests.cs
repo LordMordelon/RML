@@ -40,6 +40,40 @@ public class CambiosDeTextoTests
         Assert.AreEqual(0, Cambios.Count);
     }
 
+    // Toxin Warcasket, 29-oct (PLAN-SOLO-INGLES.md): el autor paso su ingles a ortografia estadounidense,
+    // la reextraccion cambio solo los comentarios EN y la ventana del juego lo mostraba como «Corregido».
+    [TestMethod]
+    public void UnCambioSoloEnElInglesNoMarcaElMod()
+    {
+        var Cambios = Novedades.CambiosDeTexto([
+            new(Keyed, Idioma("  <!-- EN: Synergises with armour -->\n  <A>Sinergiza con la armadura</A>"),
+                       Idioma("  <!-- EN: Synergizes with armor -->\n  <A>Sinergiza con la armadura</A>")),
+            // Lo que no se ve en el juego tampoco cuenta.
+            new("UNUSED.xml", Idioma("<B>viejo</B>"), Idioma("<B>otro</B>")),
+            new("PLAN-MOD.md", "uno", "dos"),
+            new("LoadFolders.Build.yaml", "a", "b"),
+        ]);
+
+        Assert.AreEqual(0, Cambios.Count);
+        Assert.AreEqual("", Novedades.MarcaDeCambio(Cambios));
+    }
+
+    [TestMethod]
+    public void UnCambioEnElEspanolMarcaElMod()
+    {
+        var Cambios = Novedades.CambiosDeTexto([
+            new(Keyed, Idioma("  <!-- EN: armour -->\n  <A>blindaje</A>"), Idioma("  <!-- EN: armor -->\n  <A>armadura</A>")),
+            // Un archivo nuevo y uno borrado se comparan contra nada.
+            new("Languages/SpanishLatin/Keyed/nuevo.xml", null, Idioma("<C>nueva</C>")),
+            new("Languages/SpanishLatin/Keyed/borrado.xml", Idioma("<D>quitada</D>"), null),
+        ]);
+
+        CollectionAssert.AreEqual(
+            new[] { TextosDeTraduccion.Tipo.Cambiado, TextosDeTraduccion.Tipo.Nuevo, TextosDeTraduccion.Tipo.Quitado },
+            Cambios.Select(x => x.Tipo).ToArray());
+        Assert.AreEqual("c", Novedades.MarcaDeCambio(Cambios));
+    }
+
     [TestMethod]
     public void LosTextosDeUnModAnadidoVanConSuPropiaMarca()
     {

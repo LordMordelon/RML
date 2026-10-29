@@ -4,8 +4,8 @@ using System.Text;
 namespace LoadFoldersBuilder;
 
 /** Fecha del ultimo cambio de cada mod, sacada del historial de git.
- *  Sirve para la lista de mods (ModList.tsv y docs/index.html) y, con todas las fechas, para
- *  Novedades.tsv: no interviene en la carga.
+ *  Sirve para la lista de mods (ModList.tsv y docs/index.html) y, con todas las fechas y los commits,
+ *  para Novedades.tsv: no interviene en la carga.
  */
 public static class UltimosCambios
 {
@@ -16,12 +16,28 @@ public static class UltimosCambios
     public static Dictionary<string, string> Calcular(string RootPath, IEnumerable<string> CarpetasDeMod) =>
         Historial(RootPath, CarpetasDeMod).ToDictionary(x => x.Key, x => x.Value[0]);
 
+    /** Un archivo de una carpeta de mod que cambio: su ruta antes (null si es nuevo) y despues (null si
+     *  se borro), relativas al repo, y su ruta dentro de la carpeta del mod. */
+    public record Tocado(string? Antes, string? Ahora, string Relativa);
+
+    /** Un commit que toco una carpeta de mod, con lo que le toco. Hash null es lo sin commitear: lo de
+     *  antes esta en HEAD y lo de ahora en el disco. */
+    public record Commit(string? Hash, string Fecha, List<Tocado> Archivos);
+
     /** Como Calcular, pero con todas las fechas en que cambio cada carpeta, sin repetir y de la
      *  mas nueva a la mas vieja. La ultima es la de cuando aparecio. */
-    public static Dictionary<string, List<string>> Historial(string RootPath, IEnumerable<string> CarpetasDeMod)
+    public static Dictionary<string, List<string>> Historial(string RootPath, IEnumerable<string> CarpetasDeMod) =>
+        Historial(RootPath, CarpetasDeMod, out _);
+
+    /** Como Historial, y ademas los commits de cada carpeta, de lo mas nuevo a lo mas viejo y con lo sin
+     *  commitear adelante. Un commit que solo movio la carpeta no va. */
+    public static Dictionary<string, List<string>> Historial(string RootPath, IEnumerable<string> CarpetasDeMod,
+        out Dictionary<string, List<Commit>> Commits)
     {
         var Carpetas = new HashSet<string>(CarpetasDeMod);
         var Fechas = new Dictionary<string, List<string>>();
+        var DeCadaCarpeta = new Dictionary<string, List<Commit>>();
+        Commits = DeCadaCarpeta;
 
         void Anotar(string Carpeta, string Fecha)
         {
@@ -29,6 +45,19 @@ public static class UltimosCambios
                 Fechas[Carpeta] = Lista = new List<string>();
             if (Lista.Count == 0 || Lista[^1] != Fecha)
                 Lista.Add(Fecha);
+        }
+
+        // "M<TAB>ruta": el archivo, en el commit de la carpeta (Hash null para lo sin commitear).
+        void Sumar(string Carpeta, string Prefijo, string? Hash, string Fecha, string[] Campos)
+        {
+            if (!DeCadaCarpeta.TryGetValue(Carpeta, out var Lista))
+                DeCadaCarpeta[Carpeta] = Lista = new List<Commit>();
+            if (Lista.Count == 0 || Lista[^1].Hash != Hash)
+                Lista.Add(new Commit(Hash, Fecha, new List<Tocado>()));
+
+            string Archivo = Campos[^1];
+            Lista[^1].Archivos.Add(new Tocado(Campos[0] == "A" ? null : Archivo, Campos[0] == "D" ? null : Archivo,
+                Archivo[(Prefijo.Length + 1)..]));
         }
 
         // Una sola pasada por todo el historial y no una llamada por mod, que con 250 mods
@@ -42,7 +71,7 @@ public static class UltimosCambios
         // -M100% detecta solo los renombres exactos, que git encuentra comparando hashes: tarda
         // lo mismo que --no-renames y no llega al limite de renombres, que es para los parecidos.
         var Historial = Git(RootPath, "-c", "core.quotepath=off", "log", "-M100%", "--relative",
-            "--format=%x01%as", "--name-status", "--", "Data");
+            "--format=%x01%as %H", "--name-status", "--", "Data");
         if (Historial is null)
         {
             Console.WriteLine("\e[93mNo se pudo leer el historial de git: la lista de mods queda sin fecha de traduccion.\x1b[0m");
@@ -55,12 +84,13 @@ public static class UltimosCambios
         // La fecha del ultimo movimiento, para un mod que no tenga ningun otro cambio.
         var Movidos = new Dictionary<string, string>();
 
-        string? FechaDelCommit = null;
+        string? FechaDelCommit = null, HashDelCommit = null;
         foreach (var Linea in Historial)
         {
             if (Linea.StartsWith(''))
             {
-                FechaDelCommit = Linea[1..];
+                FechaDelCommit = Linea[1..11];
+                HashDelCommit = Linea[12..];
                 continue;
             }
 
@@ -85,8 +115,11 @@ public static class UltimosCambios
                 continue;
             }
 
-            if (CarpetaDe(Campos[^1], Carpetas, Alias, out _) is { } Carpeta)
+            if (CarpetaDe(Campos[^1], Carpetas, Alias, out var DeLaCarpeta) is { } Carpeta)
+            {
                 Anotar(Carpeta, FechaDelCommit);
+                Sumar(Carpeta, DeLaCarpeta, HashDelCommit, FechaDelCommit, Campos);
+            }
         }
 
         foreach (var (Carpeta, Fecha) in Movidos)
@@ -99,18 +132,28 @@ public static class UltimosCambios
         // tambien sale con la fecha de hoy, porque sus archivos aparecen como nuevos; despues
         // del commit vuelve a la suya.
         var Hoy = DateTime.Now.ToString("yyyy-MM-dd");
-        var Pendientes = (Git(RootPath, "-c", "core.quotepath=off", "diff", "--name-only", "--relative", "HEAD", "--", "Data") ?? [])
-            .Concat(Git(RootPath, "-c", "core.quotepath=off", "ls-files", "--others", "--exclude-standard", "--", "Data") ?? []);
-        foreach (var Archivo in Pendientes)
+        var Pendientes = (Git(RootPath, "-c", "core.quotepath=off", "diff", "--name-status", "--no-renames", "--relative", "HEAD", "--", "Data") ?? [])
+            .Concat((Git(RootPath, "-c", "core.quotepath=off", "ls-files", "--others", "--exclude-standard", "--", "Data") ?? []).Select(x => "A\t" + x));
+        foreach (var Linea in Pendientes)
         {
-            if (CarpetaDe(Archivo, Carpetas, Alias, out _) is { } Carpeta)
+            var Campos = Linea.Split('\t');
+            if (CarpetaDe(Campos[^1], Carpetas, Alias, out var DeLaCarpeta) is { } Carpeta)
             {
                 if (!Fechas.TryGetValue(Carpeta, out var Lista))
                     Fechas[Carpeta] = Lista = new List<string>();
                 if (Lista.Count == 0 || Lista[0] != Hoy)
                     Lista.Insert(0, Hoy);
+                Sumar(Carpeta, DeLaCarpeta, null, Hoy, Campos);
             }
         }
+
+        // Sumar los dejo al final: lo sin commitear va adelante, como en las fechas.
+        foreach (var Lista in DeCadaCarpeta.Values)
+            if (Lista.Count > 1 && Lista[^1].Hash is null)
+            {
+                Lista.Insert(0, Lista[^1]);
+                Lista.RemoveAt(Lista.Count - 1);
+            }
 
         return Fechas;
     }

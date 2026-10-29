@@ -227,8 +227,54 @@ namespace RmlVentana.Tests
             Assert.AreEqual(12, Corregido.Nuevos);
             Assert.AreEqual(1, Corregido.Quitados);
             Assert.IsTrue(Corregido.TieneDetalle);
-            Assert.IsFalse(Lista.Single(x => x.PackageId == "autor.actualizado").TieneDetalle);
             Assert.IsFalse(Lista.Single(x => x.PackageId == "autor.nuevo").TieneDetalle);
+        }
+
+        // Toxin Warcasket, 29-oct (PLAN-SOLO-INGLES.md): el autor cambio solo su ingles y la ventana se abria
+        // para mostrar «Corregido» en un mod sin nada nuevo en español.
+        [TestMethod]
+        public void UnCambioSinTextosEnEspanolNoSaleNiAbreLaVentana()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConTextos);
+            var Activos = new HashSet<string> { "autor.actualizado" };
+            // La primera vez, y la de quien ya habia visto el cambio anterior del mod.
+            var Anterior = NovedadesRml.Claves(NovedadesRml.Leer(TsvConTextos.Replace("2026-10-21\tactualizado", "2026-10-01\tactualizado")));
+
+            foreach (var Vistas in new[] { null, Anterior })
+            {
+                var Lista = NovedadesRml.ParaMostrar(Leidas, Vistas, null, Hoy, out bool YaVistas);
+
+                Assert.IsFalse(Lista.Any(x => x.PackageId == "autor.actualizado"));
+                Assert.IsFalse(Clasificador.DebeAparecerSola(false, true, Lista, YaVistas, Activos));
+            }
+        }
+
+        [TestMethod]
+        public void UnCambioConTextosEnEspanolSaleYAbreLaVentana()
+        {
+            var Leidas = NovedadesRml.Leer(TsvConTextos.Replace("actualizado\tc\t\n", "actualizado\tc\t1,0,0\n"));
+            var Activos = new HashSet<string> { "autor.actualizado" };
+
+            var Lista = NovedadesRml.ParaMostrar(Leidas, null, null, Hoy, out bool YaVistas);
+
+            Assert.AreEqual(1, Lista.Single(x => x.PackageId == "autor.actualizado").Cambiados);
+            Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, Lista, YaVistas, Activos));
+        }
+
+        [TestMethod]
+        public void SinLaColumnaDeTextosUnCambioSaleComoAntes()
+        {
+            // Sin conexion con Steam el builder no pone la cuenta: no se sabe si cambio el español.
+            var Activos = new HashSet<string> { "autor.actualizado" };
+            foreach (string Texto in new[] { TsvConUltima, Tsv })
+            {
+                var Leidas = NovedadesRml.Leer(Texto);
+
+                var Lista = NovedadesRml.ParaMostrar(Leidas, new List<string>(), null, Hoy, out bool YaVistas);
+
+                Assert.IsTrue(Lista.Any(x => x.PackageId == "autor.actualizado"));
+                Assert.IsTrue(Clasificador.DebeAparecerSola(false, true, Lista, YaVistas, Activos));
+            }
         }
 
         [TestMethod]

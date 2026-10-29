@@ -22,6 +22,10 @@ namespace RmlVentana.Logica
         public int Cambiados, Nuevos, Quitados;
         /** Si se añadio en esa subida, cuantos textos tiene (cuarto numero de la septima columna). */
         public int Anadidos;
+        /** Marcado «c» con la septima columna vacia: lo que cambio desde la subida no toca el español
+         *  (el ingles de los comentarios, notas, UNUSED.xml o el yaml). El builder ya no las marca
+         *  (PLAN-SOLO-INGLES.md), pero un Novedades.tsv de antes puede traerlas. */
+        public bool SinCambiosEnEspanol;
     }
 
     public class Novedad
@@ -87,6 +91,7 @@ namespace RmlVentana.Logica
                 }
                 if (Cuenta.Length >= 4 && int.TryParse(Cuenta[3], out int A))
                     Entrada.Anadidos = A;
+                Entrada.SinCambiosEnEspanol = Entrada.EnLaUltima == "c" && Campos.Length >= 7 && Campos[6].Length == 0;
 
                 Resultado.Add(Entrada);
             }
@@ -111,7 +116,7 @@ namespace RmlVentana.Logica
 
             foreach (EntradaDeNovedades Entrada in Entradas)
             {
-                bool Cambiado = Entrada.Tipo == "actualizado" || Entrada.Tipo == "corregido";
+                bool Cambiado = (Entrada.Tipo == "actualizado" || Entrada.Tipo == "corregido") && !Entrada.SinCambiosEnEspanol;
 
                 bool AnadidoSinVer, CambioSinVer;
                 if (Vistas != null)
