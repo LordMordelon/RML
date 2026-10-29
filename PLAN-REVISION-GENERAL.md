@@ -132,6 +132,23 @@ plan»): «lanzadera» (172 usos), «entropía psíquica» (26), «abrasador» (
 (15), «mundo del borde» (13), «calor neuronal» (7), «sanguófago» (6), «ensamblador de genes» (6), «clúster
 mecanoide» (4), «cápsula de descenso» (4 mods), «garra de la cabeza» (3 mods) y los sueltos.
 
+**Los términos chicos, hechos el 29-oct-2026**, un commit por mod: 155 cambios en 144 renglones de 38 mods, cada uno
+mirado con su `EN:`. Se contaron de nuevo antes de empezar, también en plural, y algunas cifras eran más altas que
+las de arriba («EMP» 49, «mundo del borde» 24). Quedan a propósito:
+
+- **«entropía psíquica» en Vanilla Psycasts Expanded** (10 usos): son los poderes de hielo («nodes of psychic
+  entropy» que enfrían el aire), no el calor neural del juego. Va a «Dudas para Angel».
+- **«mundo del borde» en The Dead Man's Switch de 1.6** (8 usos): esa carpeta está congelada.
+- **«abrasador»**: de los 22, solo dos eran el meca *Scorcher* («mecas flamígeros», Persona Mechanoid Pawns 2).
+  Los demás son el adjetivo (*searing*, *blazing*, *scorching*) o el evento «Scorch» de Vanilla Events Expanded.
+- «ensamblador de genes» ya no estaba en ningún texto.
+
+De paso se corrigieron un «psicolanzador» de DMS II (psicoemisor), los «asaltos en cápsulas de escape» de FrozenSnowFox
+Tweaks (*drop pod raid*, como dice el glosario) y los cuatro sueltos de PLAN-AOBAKUMA: «mortisueño», «obús de antigrano»,
+«bomba descontaminante» y «limpiadroide».
+
+Falta: «lanzadera» (172), «incursión» (49, a revisar) y «casilla» (298, a revisar).
+
 Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
 «árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,
 Landmarks y Phytokin) y «árbol Gauranlen» con mayúscula por «árbol gauranlen» (5 usos en Vanilla Aspirations,
@@ -168,17 +185,25 @@ viejo del paso 4.
 Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comprobaciones del diff; `LoadFoldersBuilder
 -copia` al final. Las decisiones de Angel se esperan antes de tocar lo que dependa de ellas, no antes de empezar.
 
-## Próxima sesión (28-oct-2026)
+## Dudas para Angel
 
-**Hecho el 28-oct:** los 25 «árbol de ánima» y los 5 «árbol Gauranlen», un commit por mod (c693be03…45b50815).
-**Estado:** `master` de RML con once commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads), 55b8e045 (VIE - Anima
-Theme), 66c9d486 (este plan), los seis de los árboles y el de esta nota.
+1. **«entropía psíquica» en los poderes de hielo de Vanilla Psycasts Expanded** (10 usos, 29-oct-2026). El inglés dice
+   «psychic entropy» como algo que enfría: «nodes of psychic entropy», «Breathe forward a stream of psychic entropy,
+   the resulting cold…». Con «calor neural» la frase se contradice («una corriente de calor neural; el frío
+   resultante…»). Recomendación: dejar «entropía psíquica» ahí.
+
+## Próxima sesión (29-oct-2026)
+
+**Hecho el 29-oct:** los términos chicos del paso 4, un commit por mod (ver el paso 4).
+**Estado:** `master` de RML con commits sin subir: los doce del 28-oct y los de esta sesión.
 **Antes de seguir (Angel):**
-1. Decir si se suben los once commits.
+1. Decir si se suben.
 2. Si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
-**Al empezar (Claude):** si Angel lo aprueba, subirlos; después, seguir con el paso 4.
+3. Responder la duda de «Dudas para Angel».
+**Al empezar (Claude):** si Angel lo aprueba, subirlos; después, «lanzadera» (172 usos), luego «asalto» y al final
+«celda».
 **Decisiones de Angel:** los tres términos «a confirmar» de
 [GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
 («nexo ánima», «creasemillas», «creanimabric»). Recomendación: dejarlos así, salvo que en el juego se lean mal.
 **Guías:** ninguna en especial; las reglas de «Editar XML de traducción» de `RML/AGENTS.md`.
-**Dónde leer:** el paso 4 de este plan y los glosarios de las dos carpetas de dríadas.
+**Dónde leer:** el paso 4 de este plan y la fila *shuttle* de `GLOSARIO.md` («transbordador»).

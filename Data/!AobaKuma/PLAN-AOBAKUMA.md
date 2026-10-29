@@ -372,7 +372,8 @@ Sin glosario: «pack de hemógeno» y «hemorragia» son oficiales («blood loss
   «psiconjuro» (14), «EMP» (14 en DMS II y 1 en FFF), «calor neuronal» (7), «sanguófago» (6),
   «ensamblador de genes» (6), «clúster mecanoide» (4), «letargo mortal» (2), «ojiva de antigrano» (2),
   «barredoide» y «bomba de descontaminación» (1 cada uno). Se corrigen a mano, mod por mod, sin tocar
-  los `UNUSED.xml`, como los de «cápsula de escape» y «garra craneal» que ya estaban pendientes.
+  los `UNUSED.xml`, como los de «cápsula de escape» y «garra craneal» que ya estaban pendientes. **Todos menos
+  «lanzadera» se corrigieron el 29-oct-2026** (paso 4 de [PLAN-REVISION-GENERAL.md](../../PLAN-REVISION-GENERAL.md)).
 - **Otros glosarios de RML** con posibles choques con la oficial, a revisar en su contexto: Combat
   Extended («penetración de armadura» / oficial «penetración de blindaje», «cadencia de fuego» /
   «cadencia de tiro», «alto el fuego» / «cese al fuego», «poder de detención» / «potencia de parada»),
