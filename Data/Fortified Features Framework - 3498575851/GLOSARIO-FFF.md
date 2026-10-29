@@ -67,4 +67,4 @@ con el visto bueno de Angel: «meca» en masculino (13 textos de FFF y uno de DM
 
 El 25-oct-2026 Angel decidió que, si un glosario contradice a la traducción oficial, gana la oficial.
 Por eso «EMP» vuelve a ser **«PEM»**, como «granadas PEM» del juego (ver
-[RML/GLOSARIO.md](../../GLOSARIO.md)). Pendiente: el uso de «EMP» que queda en los textos de FFF.
+[RML/GLOSARIO.md](../../GLOSARIO.md)). El uso de «EMP» que quedaba en los textos de FFF se corrigió el 29-oct-2026.
