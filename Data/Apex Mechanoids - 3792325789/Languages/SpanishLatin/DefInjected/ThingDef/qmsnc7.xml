@@ -373,7 +373,7 @@
   <!-- EN: javelin -->
   <APM_Mech_Javelin.label>jabalina</APM_Mech_Javelin.label>
   <!-- EN: While standard mechanoids rely on direct ballistic impacts, the Javelin acts as a mobile missile launcher utilizing semi-autonomous micro-missile mechanics. Instead of a conventional payload, it fires tiny self-guided missile-mechanoids that cruise slowly toward their target with built-in homing capabilities.\n\nThe Javelin is equipped with a switchable missile system; while its basic rockets apply a stacking vulnerable hediff with every consecutive hit against heavy armor, specialized warheads require raw uranium to fire - allowing it to unleash devastating HE blasts, wide-area incendiary explosions, or crippling EMP pulses depending on the tactical situation. -->
-  <APM_Mech_Javelin.description>Mientras que los mecanoides estándar dependen de impactos balísticos directos, la jabalina actúa como un lanzamisiles móvil basado en micromisiles semiautónomos. En vez de una carga convencional, dispara diminutos mecanoides-misil autoguiados que avanzan despacio hacia su objetivo gracias a su sistema de rastreo integrado.\n\nLa jabalina cuenta con un sistema de misiles intercambiable: sus cohetes básicos aplican una vulnerabilidad acumulable con cada impacto consecutivo contra blindaje pesado, mientras que las ojivas especializadas requieren uranio en bruto para dispararse, lo que le permite desatar demoledoras explosiones de alto poder, deflagraciones incendiarias de área o pulsos EMP paralizantes según lo pida la situación táctica.</APM_Mech_Javelin.description>
+  <APM_Mech_Javelin.description>Mientras que los mecanoides estándar dependen de impactos balísticos directos, la jabalina actúa como un lanzamisiles móvil basado en micromisiles semiautónomos. En vez de una carga convencional, dispara diminutos mecanoides-misil autoguiados que avanzan despacio hacia su objetivo gracias a su sistema de rastreo integrado.\n\nLa jabalina cuenta con un sistema de misiles intercambiable: sus cohetes básicos aplican una vulnerabilidad acumulable con cada impacto consecutivo contra blindaje pesado, mientras que las ojivas especializadas requieren uranio en bruto para dispararse, lo que le permite desatar demoledoras explosiones de alto poder, deflagraciones incendiarias de área o pulsos PEM paralizantes según lo pida la situación táctica.</APM_Mech_Javelin.description>
   <!-- EN: Rocket uranium -->
   <APM_Mech_Javelin.comps.CompRefuelable.fuelLabel>Uranio para cohetes</APM_Mech_Javelin.comps.CompRefuelable.fuelLabel>
   <!-- EN: Rocket uranium -->
@@ -393,13 +393,13 @@
   <!-- EN: A fragmentation warhead with a wide blast. Tears through a crowd of lightly armoured targets, and does far less to a single heavy one than the basic rocket would. -->
   <APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.2.description>Una ojiva de fragmentación con una gran onda expansiva. Destroza a un grupo de objetivos con blindaje ligero, pero contra uno solo bien acorazado hace mucho menos que el cohete básico.</APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.2.description>
   <!-- EN: EMP rocket -->
-  <APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.label>cohete EMP</APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.label>
+  <APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.label>cohete PEM</APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.label>
   <!-- EN: An electromagnetic pulse that stuns machines outright and barely marks flesh. Mechanoid raids do not field this one. -->
   <APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.description>Un pulso electromagnético que aturde de inmediato a las máquinas y apenas deja marca en la carne. Las incursiones mecanoides no lo emplean.</APM_Mech_Javelin.comps.CompJavelinRocketRack.rockets.3.description>
   <!-- EN: Lasher -->
   <APM_Mech_Lasher.label>azotador</APM_Mech_Lasher.label>
   <!-- EN: Wielding a plasma charged whip, this mechanoid was originally engineered for heavy combat and destruction of enemy groups on the front lines as part of the core hive forces. However, mechanitors reconfigured its behavioral matrices to repurpose it for advanced animal handling, taming, and training. Beyond its agricultural utility, its primary combat role still utilizes this plasma whip in close-range skirmishes, allowing it to strike down foes and deal EMP damage with a chance to proc. -->
-  <APM_Mech_Lasher.description>Armado con un látigo cargado de plasma, este mecanoide fue diseñado para manejar, domesticar y adiestrar animales. Su papel más singular dentro de un destacamento mecanoide hace que el látigo del azotador sirva también en el combate a corta distancia: puede golpear a los enemigos e infligir daño EMP.\n\nEste mecanoide puede lanzar un latigazo que causa daño y electrifica todo lo que se encuentre en un área pequeña alrededor del látigo.</APM_Mech_Lasher.description>
+  <APM_Mech_Lasher.description>Armado con un látigo cargado de plasma, este mecanoide fue diseñado para manejar, domesticar y adiestrar animales. Su papel más singular dentro de un destacamento mecanoide hace que el látigo del azotador sirva también en el combate a corta distancia: puede golpear a los enemigos e infligir daño PEM.\n\nEste mecanoide puede lanzar un latigazo que causa daño y electrifica todo lo que se encuentre en un área pequeña alrededor del látigo.</APM_Mech_Lasher.description>
   <!-- EN: left fist -->
   <APM_Mech_Lasher.tools.0.label>puño izquierdo</APM_Mech_Lasher.tools.0.label>
   <!-- EN: right fist -->
@@ -599,17 +599,17 @@
   <!-- EN: edge -->
   <APM_Weapon_DuelistsPsySpear.tools.2.label>filo</APM_Weapon_DuelistsPsySpear.tools.2.label>
   <!-- EN: EMP impactor -->
-  <APM_Gun_EMP_Impactor.label>impactador EMP</APM_Gun_EMP_Impactor.label>
+  <APM_Gun_EMP_Impactor.label>impactador PEM</APM_Gun_EMP_Impactor.label>
   <!-- EN: A mechanoid grade electromagnetic grenade launcher, featuring better accuracy, a larger range and a bigger blast than more common variants of the same type. Organic life has many clear weaknesses, yet militaries still use said threats in their arsenals all the same. The mechhive is no different. -->
   <APM_Gun_EMP_Impactor.description>Un lanzagranadas electromagnético de grado mecanoide, con mejor precisión, mayor alcance y una onda expansiva más amplia que las variantes comunes de su tipo. La vida orgánica tiene muchas debilidades evidentes y, aun así, los ejércitos siguen incluyendo estas amenazas en sus arsenales. La mecacolmena no es distinta.</APM_Gun_EMP_Impactor.description>
   <!-- EN: EMP impactor -->
-  <APM_Gun_EMP_Impactor.verbs.Verb_Shoot.label>impactador EMP</APM_Gun_EMP_Impactor.verbs.Verb_Shoot.label>
+  <APM_Gun_EMP_Impactor.verbs.Verb_Shoot.label>impactador PEM</APM_Gun_EMP_Impactor.verbs.Verb_Shoot.label>
   <!-- EN: stock -->
   <APM_Gun_EMP_Impactor.tools.0.label>culata</APM_Gun_EMP_Impactor.tools.0.label>
   <!-- EN: barrel -->
   <APM_Gun_EMP_Impactor.tools.1.label>cañón</APM_Gun_EMP_Impactor.tools.1.label>
   <!-- EN: EMP impactor projectile -->
-  <APM_Proj_EMP_Impactor.label>proyectil de impactador EMP</APM_Proj_EMP_Impactor.label>
+  <APM_Proj_EMP_Impactor.label>proyectil de impactador PEM</APM_Proj_EMP_Impactor.label>
   <!-- EN: laser -->
   <APM_Gazer_Laser.label>láser</APM_Gazer_Laser.label>
   <!-- EN: A weaker laser from Gazer&apos;s eye -->
@@ -645,7 +645,7 @@
   <!-- EN: javelin high-explosive missile -->
   <APM_Proj_JavelinMissile_HighExplosive.label>misil de alto poder explosivo de jabalina</APM_Proj_JavelinMissile_HighExplosive.label>
   <!-- EN: javelin EMP missile -->
-  <APM_Proj_JavelinMissile_EMP.label>misil EMP de jabalina</APM_Proj_JavelinMissile_EMP.label>
+  <APM_Proj_JavelinMissile_EMP.label>misil PEM de jabalina</APM_Proj_JavelinMissile_EMP.label>
   <!-- EN: mech whip -->
   <APM_Weapon_MechWhip.label>látigo de meca</APM_Weapon_MechWhip.label>
   <!-- EN: The mech whip can deal heavy damage and stun multiple targets in close proximity to the user. It appears the mechhive views sentient organic life akin to how we view cattle, and treats us as such. -->
