@@ -231,6 +231,8 @@ Bombero · Médico · Cuidar niños · Vigilante · Entretener · Cazar · Culti
   - Detrás de una preposición va `_pronoun`, que sale «él» o «ella»: «se enviaron agentes tras [PAWN_pronoun]», «siempre estaré en deuda con {OTHERPAWN_pronoun}». **Nunca `_objective` detrás de una preposición**: «a {OTHERPAWN_objective}» sale «a lo».
   - `_objective` («lo» o «la») va pegado o delante del verbo: «traicionar[PAWN_objective]», «nunca {BUTCHER_objective} perdonaré».
   - Un adjetivo que cambia con el género lleva `{X_gender ? o : a}`, aunque el inglés no lo marque: «Estoy muy agradecid{PAWN_gender ? o : a}» (oficial), «se volvió loc{OTHERPAWN_gender ? o : a}». En un pensamiento, `PAWN` es quien lo siente.
+  - Cuando el marcador es un número (`{0}`, `{1}`), el género va con ese número: «{0} ha muerto quemad{0_gender ? o : a}» (oficial). Siempre la forma masculina primero.
+  - `_possessive` sale «su», sin género. `_definite` e `_indefinite` ponen el artículo según el género de la palabra: «{0_indefinite} está deambulando» sale «un hombre» o «una mujer», y «{1_indefinite}» delante de un mueble, «una mesa» (oficial). Conviene usarlos en vez de escribir «un» o «una» fijo cuando el inglés trae un `{0}` que puede ser cualquier cosa.
   - Antes de usar un nombre (`PAWN`, `OTHERPAWN`, `SECONDPAWN`…), comprobar que el texto lo recibe: que ya aparezca en el inglés, o que el código del mod lo pase. Uno que no llega se ve tal cual en el juego, entre llaves.
 - **Título de un arma única** (decidido el 28-oct-2026, como la oficial de Odyssey): el juego lo arma juntando un
   tipo de arma (`namerLabels`) con un adjetivo de uno de sus rasgos (`traitAdjectives`), en cualquier combinación.
