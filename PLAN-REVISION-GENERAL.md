@@ -147,7 +147,20 @@ De paso se corrigieron un «psicolanzador» de DMS II (psicoemisor), los «asalt
 Tweaks (*drop pod raid*, como dice el glosario) y los cuatro sueltos de PLAN-AOBAKUMA: «mortisueño», «obús de antigrano»,
 «bomba descontaminante» y «limpiadroide».
 
-Falta: «lanzadera» (172), «incursión» (49, a revisar) y «casilla» (298, a revisar).
+**«lanzadera» → «transbordador», hecho el 29-oct-2026** en una sesión aparte, un commit por mod: 141 cambios en 14
+mods, cada uno mirado con su `EN:` y con el género cambiado alrededor («el transbordador», «estrellado», «hazlo
+despegar»). Los nombres siguen a la oficial: «transbordador de pasajeros», «transbordador estrellado», «motor de
+transbordador». Quedan a propósito:
+
+- **The Dead Man's Switch de 1.6** (8 usos): la carpeta está congelada.
+- **`ship_word` de Vanilla Gravship Expanded - Chapter 2**, el generador de nombres de naves enemigas: todas las
+  palabras de esa lista son femeninas porque las reglas dicen «La [ship_word] sangrienta» o «la [ship_word]
+  [Color]». Con «transbordador» saldría «La transbordador sangrienta».
+- **Los que no son *shuttle***: los lanzacohetes de los mecas de Vanilla Gravship Expanded - Chapter 1 (*javelin
+  pod*, *rocketswarm pod*, *javelin launcher*: 6 usos) y la *heavy dropship* de Vanilla Gravship Expanded -
+  Expanded (5 usos). Ver «Dudas para Angel».
+
+Falta: «incursión» (49, a revisar) y «casilla» (298, a revisar).
 
 Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
 «árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,
@@ -191,14 +204,22 @@ Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comproba
    «psychic entropy» como algo que enfría: «nodes of psychic entropy», «Breathe forward a stream of psychic entropy,
    the resulting cold…». Con «calor neural» la frase se contradice («una corriente de calor neural; el frío
    resultante…»). **Respondida el 29-oct-2026: Angel decidió dejar «entropía psíquica» ahí.**
+2. **La *heavy dropship* de Vanilla Gravship Expanded - Expanded** (29-oct-2026). Se llama «lanzadera pesada», pero su
+   propia descripción en inglés dice «An astrofuel-powered shuttle». Cambiar solo la descripción dejaría dos nombres
+   para la misma nave. **Recomendado:** «transbordador pesado» en las 5 entradas (nombre, descripción, entrante,
+   saliente y el `TransportShipDef`), porque el mod la presenta como un transbordador. Las dos etiquetas tienen la
+   misma clave en dos carpetas, así que se corrigen a mano y no con `corregir`.
+3. **Los lanzacohetes de los mecas de Vanilla Gravship Expanded - Chapter 1** (29-oct-2026): *javelin pod* =
+   «lanzadera javelin» y *rocketswarm pod* = «lanzadera de enjambre de cohetes» (6 usos con la descripción del
+   cazador). No son transbordadores. La oficial dice «lanzacohetes múltiple» para *rocketswarm launcher*, y RML ya usa
+   «jabalina» para *javelin* en 5 lugares. **Recomendado:** «lanzajabalinas» y «lanzacohetes múltiple».
 
 ## Próxima sesión (29-oct-2026)
 
 **Hecho el 29-oct:** los términos chicos del paso 4, un commit por mod (ver el paso 4).
 **Estado:** todo subido a GitHub el 29-oct (f61f3997); la duda de «entropía psíquica», respondida.
 **Antes de seguir (Angel):** si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
-**Al empezar (Claude):** «lanzadera» (172 usos), luego «asalto» y al final
-«celda».
+**Al empezar (Claude):** «lanzadera» se hizo el 29-oct en una sesión aparte; sigue «asalto» y al final «celda».
 **Decisiones de Angel:** los tres términos «a confirmar» de
 [GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
 («nexo ánima», «creasemillas», «creanimabric»). Recomendación: dejarlos así, salvo que en el juego se lean mal.

@@ -105,7 +105,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | skygate | puerta celeste | |
 | gateway | pasarela espacial / portal espacial | |
 | gravship | **gravinave** | Oficial vanilla (Odyssey). NO "nave gravitacional", "nave gravitatoria" ni "gravnave" |
-| shuttle | **transbordador** | Oficial: «transbordador imperial» (`Shuttle`), 219 usos en la oficial contra 6 de «lanzadera». Decía «lanzadera» hasta el 25-oct-2026. Pendiente: 172 usos de «lanzadera» en 40 archivos de RML |
+| shuttle | **transbordador** | Oficial: «transbordador imperial» (`Shuttle`), 219 usos en la oficial contra 6 de «lanzadera». Decía «lanzadera» hasta el 25-oct-2026; los textos de RML se corrigieron el 29-oct-2026. Es masculino: «el transbordador», «transbordador estrellado» |
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
 | drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa. *Drop pod (leaving)* es «cápsula de escape (saliendo)», como la oficial. Corregido en los 4 mods que lo usaban el 29-oct-2026 |
 | head claw | **garra craneal** | Oficial vanilla (insectoides). NO «garra de la cabeza». Corregido el 29-oct-2026 en los 3 mods que lo usaban (VFE - Insectoids 2, VQE - Cryptoforge, Zoology); el `UNUSED.xml` de Cryptoforge no se toca |
