@@ -233,7 +233,7 @@ de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra co
 
 **«Lanzadera» y «EMP» pasan a la forma oficial** el 25-oct-2026: Angel decidió que, si un glosario
 contradice a la oficial, gana la oficial. Son «transbordador» (shuttle; 10 usos de «lanzadera» en este
-mod) y «PEM». Los «EMP» de los textos se corrigieron el 29-oct-2026; las «lanzadera» quedan pendientes.
+mod) y «PEM». Los «EMP» y las «lanzadera» de los textos se corrigieron el 29-oct-2026.
 
 **Se dejan como estaban**, porque no son el mismo término que la oficial: «proyectil de alto
 explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la munición de mortero) y
