@@ -19,7 +19,7 @@
   <!-- EN: Core lifecycle verbose logging -->
   <JDB_SpaceServices_Settings_VerboseCoreLogging>Registro detallado del ciclo de vida del núcleo</JDB_SpaceServices_Settings_VerboseCoreLogging>
   <!-- EN: Write extra shared lifecycle, shuttle, cleanup, and service pawn diagnostics. Does not enable Hospital or Hospitality logs. -->
-  <JDB_SpaceServices_Settings_VerboseCoreLoggingDesc>Escribe diagnósticos adicionales del ciclo de vida compartido, lanzaderas, limpieza y peones de servicio. No habilita los registros de Hospital ni de Hospitality.</JDB_SpaceServices_Settings_VerboseCoreLoggingDesc>
+  <JDB_SpaceServices_Settings_VerboseCoreLoggingDesc>Escribe diagnósticos adicionales del ciclo de vida compartido, transbordadores, limpieza y peones de servicio. No habilita los registros de Hospital ni de Hospitality.</JDB_SpaceServices_Settings_VerboseCoreLoggingDesc>
   <!-- EN: Hospital verbose logging -->
   <JDB_SpaceServices_Settings_VerboseHospitalLogging>Registro detallado de Hospital</JDB_SpaceServices_Settings_VerboseHospitalLogging>
   <!-- EN: Write extra Hospital patient arrival, departure, and cleanup diagnostics. -->
@@ -103,9 +103,9 @@
   <!-- EN: Allow arrivals without forced vacsuits when the selected service pad is in a safe sealed environment. Most sealed arrivals will have Space Services-added or plain Odyssey vacsuits removed; some suited traffic is still kept for variety. -->
   <JDB_SpaceServices_Settings_SealedNoSuitDesc>Permite llegadas sin trajes de vacío obligatorios cuando la plataforma de servicio seleccionada esté en un entorno sellado y seguro. A la mayoría de las llegadas selladas se les retirarán los trajes de vacío añadidos por Servicios Espaciales o los trajes simples de Odyssey; se mantiene algo de tráfico con traje para mayor variedad.</JDB_SpaceServices_Settings_SealedNoSuitDesc>
   <!-- EN: Allow modded shuttle visuals -->
-  <JDB_SpaceServices_Settings_ModdedShuttleVisuals>Permitir aspectos de lanzaderas con mods</JDB_SpaceServices_Settings_ModdedShuttleVisuals>
+  <JDB_SpaceServices_Settings_ModdedShuttleVisuals>Permitir aspectos de transbordadores con mods</JDB_SpaceServices_Settings_ModdedShuttleVisuals>
   <!-- EN: Include shuttle visuals from optional non-Ludeon mods in the random service shuttle pool. Disable this to use only built-in vanilla/Odyssey-style visuals. -->
-  <JDB_SpaceServices_Settings_ModdedShuttleVisualsDesc>Incluye los aspectos de lanzaderas de mods opcionales no oficiales en el grupo aleatorio de lanzaderas de servicio. Desactiva esto para usar únicamente los aspectos integrados vainilla o de estilo Odyssey.</JDB_SpaceServices_Settings_ModdedShuttleVisualsDesc>
+  <JDB_SpaceServices_Settings_ModdedShuttleVisualsDesc>Incluye los aspectos de transbordadores de mods opcionales no oficiales en el grupo aleatorio de transbordadores de servicio. Desactiva esto para usar únicamente los aspectos integrados vainilla o de estilo Odyssey.</JDB_SpaceServices_Settings_ModdedShuttleVisualsDesc>
   <!-- EN: Disable patients&apos; gambling addictions -->
   <JDB_SpaceServices_Settings_DisablePatientGamblingAddictions>Desactivar adicciones al juego de los pacientes</JDB_SpaceServices_Settings_DisablePatientGamblingAddictions>
   <!-- EN: Stops patients from gambling while bedridden. This may reduce immersion for colonies with advanced libertarian healthcare. -->
@@ -121,7 +121,7 @@
   <!-- EN: Block Casino visitors on space and sky islands -->
   <JDB_SpaceServices_Settings_BlockCasinoVisitors>Bloquear visitantes de Casino en el espacio e islas celestes</JDB_SpaceServices_Settings_BlockCasinoVisitors>
   <!-- EN: Default on. Prevents Hospitality: Casino&apos;s independent map-edge visitor group from spawning on space and atmospheric or sky-island maps. These visitors do not use Hospitality or Space Services shuttles. -->
-  <JDB_SpaceServices_Settings_BlockCasinoVisitorsDesc>Activado por defecto. Evita que el grupo independiente de visitantes del borde del mapa de Hospitality: Casino aparezca en mapas espaciales, atmosféricos o de islas celestes. Estos visitantes no utilizan las lanzaderas de Hospitality ni de Servicios Espaciales.</JDB_SpaceServices_Settings_BlockCasinoVisitorsDesc>
+  <JDB_SpaceServices_Settings_BlockCasinoVisitorsDesc>Activado por defecto. Evita que el grupo independiente de visitantes del borde del mapa de Hospitality: Casino aparezca en mapas espaciales, atmosféricos o de islas celestes. Estos visitantes no utilizan los transbordadores de Hospitality ni de Servicios Espaciales.</JDB_SpaceServices_Settings_BlockCasinoVisitorsDesc>
   <!-- EN: Block VGE asteroid shower on service maps -->
   <JDB_SpaceServices_Settings_BlockVGEAsteroidShower>Bloquear lluvia de asteroides de VGE en mapas de servicio</JDB_SpaceServices_Settings_BlockVGEAsteroidShower>
   <!-- EN: Prevents Vanilla Gravship Expanded - Chapter 1&apos;s asteroid shower incident from firing on eligible stationary Space Services maps. The event can destroy static bases and has no practical counter for that use case. -->
@@ -131,7 +131,7 @@
   <!-- EN: Experimental. Allows normal planet maps with service landing pads to use the same pad pipeline for Hospital and Hospitality traffic. Does not make the map a space map, and does not enable vacuum gear, space hazards, or space-layer handling. Some modlists may still expect normal map-edge arrivals and departures, so use at your own risk. -->
   <JDB_SpaceServices_Settings_GroundsideServicePadsDesc>Experimental. Permite que los mapas planetarios normales con plataformas de aterrizaje de servicio utilicen el mismo sistema de plataformas para el tráfico de Hospital y Hospitality. No convierte el mapa en un mapa espacial ni activa equipo de vacío, peligros espaciales o gestión de capas espaciales. Algunas listas de mods aún pueden esperar llegadas y salidas normales por el borde del mapa, así que úsalo bajo tu propio riesgo.</JDB_SpaceServices_Settings_GroundsideServicePadsDesc>
   <!-- EN: Groundside Hospitality shuttle share: {0}% -->
-  <JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShare>Proporción de lanzaderas terrestres de Hospitality: {0}%</JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShare>
+  <JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShare>Proporción de transbordadores terrestres de Hospitality: {0}%</JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShare>
   <!-- EN: Chance for a groundside Hospitality visitor group to use Space Services pad arrival and departure instead of normal Hospitality map-edge behavior. Native-selected visitors are not managed by Space Services. -->
   <JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShareDesc>Probabilidad de que un grupo de visitantes terrestres de Hospitality use la llegada y salida por plataforma de Servicios Espaciales en lugar del comportamiento normal del borde del mapa de Hospitality. Los visitantes seleccionados de forma nativa no son gestionados por Servicios Espaciales.</JDB_SpaceServices_Settings_GroundsideHospitalityShuttleShareDesc>
   <!-- EN: MedPod service-pawn bridge -->
@@ -141,9 +141,9 @@
   <!-- EN: Hospitality: Room Service integration -->
   <JDB_SpaceServices_Settings_RoomServiceExperimentalSupport>Integración con Hospitality: Room Service</JDB_SpaceServices_Settings_RoomServiceExperimentalSupport>
   <!-- EN: Initial experimental support, default on. For Space Services-tracked Hospitality guests only, suppresses Room Service&apos;s guest-to-Hospital conversion and special surgery offers because their patient lifecycle is not yet safe for service shuttles. Also stops new companionship solicitation once shuttle departure begins. Ordinary untracked Hospitality guests are unaffected. -->
-  <JDB_SpaceServices_Settings_RoomServiceExperimentalSupportDesc>Soporte experimental inicial, activado por defecto. Solo para huéspedes de Hospitality rastreados por Servicios Espaciales, suprime la conversión de huésped a Hospital y las ofertas especiales de cirugía de Room Service porque su ciclo de vida de paciente aún no es seguro para las lanzaderas de servicio. También detiene nuevas solicitudes de compañía una vez que comienza la salida de la lanzadera. Los huéspedes comunes de Hospitality no rastreados no se ven afectados.</JDB_SpaceServices_Settings_RoomServiceExperimentalSupportDesc>
+  <JDB_SpaceServices_Settings_RoomServiceExperimentalSupportDesc>Soporte experimental inicial, activado por defecto. Solo para huéspedes de Hospitality rastreados por Servicios Espaciales, suprime la conversión de huésped a Hospital y las ofertas especiales de cirugía de Room Service porque su ciclo de vida de paciente aún no es seguro para los transbordadores de servicio. También detiene nuevas solicitudes de compañía una vez que comienza la salida del transbordador. Los huéspedes comunes de Hospitality no rastreados no se ven afectados.</JDB_SpaceServices_Settings_RoomServiceExperimentalSupportDesc>
   <!-- EN: Guest is staging for service-shuttle departure. -->
-  <JDB_SpaceServices_RoomService_DepartingGuest>El huésped se está preparando para la salida de la lanzadera de servicio.</JDB_SpaceServices_RoomService_DepartingGuest>
+  <JDB_SpaceServices_RoomService_DepartingGuest>El huésped se está preparando para la salida del transbordador de servicio.</JDB_SpaceServices_RoomService_DepartingGuest>
   <!-- EN: Suppress mass casualty pre-drop effects -->
   <JDB_SpaceServices_Settings_SuppressMassCasualtyPreDropEffects>Suprimir efectos previos al aterrizaje de bajas masivas</JDB_SpaceServices_Settings_SuppressMassCasualtyPreDropEffects>
   <!-- EN: Experimental. Hides Hospital&apos;s early wound filth and mote effects while mass-casualty pawns are being packed into drop pods, before the pods visibly land. Requires a restart to take effect. -->
@@ -229,7 +229,7 @@
   <!-- EN: Clear reservations -->
   <JDB_SpaceServices_Panel_ClearReservations>Limpiar reservas</JDB_SpaceServices_Panel_ClearReservations>
   <!-- EN: Remove shuttles -->
-  <JDB_SpaceServices_Panel_RemoveShuttles>Eliminar lanzaderas</JDB_SpaceServices_Panel_RemoveShuttles>
+  <JDB_SpaceServices_Panel_RemoveShuttles>Eliminar transbordadores</JDB_SpaceServices_Panel_RemoveShuttles>
   <!-- EN: Reset service traffic -->
   <JDB_SpaceServices_Panel_ResetTraffic>Restablecer tráfico de servicio</JDB_SpaceServices_Panel_ResetTraffic>
 </LanguageData>
