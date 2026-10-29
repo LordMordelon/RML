@@ -137,7 +137,7 @@ mirado con su `EN:`. Se contaron de nuevo antes de empezar, también en plural, 
 las de arriba («EMP» 49, «mundo del borde» 24). Quedan a propósito:
 
 - **«entropía psíquica» en Vanilla Psycasts Expanded** (10 usos): son los poderes de hielo («nodes of psychic
-  entropy» que enfrían el aire), no el calor neural del juego. Va a «Dudas para Angel».
+  entropy» que enfrían el aire), no el calor neural del juego. Angel decidió dejarla (29-oct-2026).
 - **«mundo del borde» en The Dead Man's Switch de 1.6** (8 usos): esa carpeta está congelada.
 - **«abrasador»**: de los 22, solo dos eran el meca *Scorcher* («mecas flamígeros», Persona Mechanoid Pawns 2).
   Los demás son el adjetivo (*searing*, *blazing*, *scorching*) o el evento «Scorch» de Vanilla Events Expanded.
@@ -190,17 +190,14 @@ Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comproba
 1. **«entropía psíquica» en los poderes de hielo de Vanilla Psycasts Expanded** (10 usos, 29-oct-2026). El inglés dice
    «psychic entropy» como algo que enfría: «nodes of psychic entropy», «Breathe forward a stream of psychic entropy,
    the resulting cold…». Con «calor neural» la frase se contradice («una corriente de calor neural; el frío
-   resultante…»). Recomendación: dejar «entropía psíquica» ahí.
+   resultante…»). **Respondida el 29-oct-2026: Angel decidió dejar «entropía psíquica» ahí.**
 
 ## Próxima sesión (29-oct-2026)
 
 **Hecho el 29-oct:** los términos chicos del paso 4, un commit por mod (ver el paso 4).
-**Estado:** `master` de RML con commits sin subir: los doce del 28-oct y los de esta sesión.
-**Antes de seguir (Angel):**
-1. Decir si se suben.
-2. Si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
-3. Responder la duda de «Dudas para Angel».
-**Al empezar (Claude):** si Angel lo aprueba, subirlos; después, «lanzadera» (172 usos), luego «asalto» y al final
+**Estado:** todo subido a GitHub el 29-oct (f61f3997); la duda de «entropía psíquica», respondida.
+**Antes de seguir (Angel):** si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
+**Al empezar (Claude):** «lanzadera» (172 usos), luego «asalto» y al final
 «celda».
 **Decisiones de Angel:** los tres términos «a confirmar» de
 [GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
