@@ -167,7 +167,7 @@
   <!-- EN: Declares a holy war on a faction that keeps rejecting our missionaries. The war score rises only through victories, and you can win once it reaches {0}. Victory converts them to our ideoligion. -->
   <Rpt_Tip_HolyWar>Declara una guerra santa a una facción que sigue rechazando a nuestros misioneros. El puntaje de guerra solo sube con victorias, y puedes ganar cuando llegue a {0}. La victoria los convierte a nuestra ideología.</Rpt_Tip_HolyWar>
   <!-- EN: You declare a holy war on {0}.\nThe moment you declare, you become hostile and their raids begin. One holy war casus belli is spent.\n\nIn a holy war the war score never rises above 0 over time. Above 0 it only rises through victories such as conquests and repelled raids, and a victorious peace is only possible at a war score of {1} or more.\nIf you win, {0} will adopt {2}. -->
-  <Rpt_Act_HolyWarConfirm>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus incursiones. Se gasta un casus belli de guerra santa.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas e incursiones rechazadas, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSi ganas, {0} adoptará {2}.</Rpt_Act_HolyWarConfirm>
+  <Rpt_Act_HolyWarConfirm>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus asaltos. Se gasta un casus belli de guerra santa.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas y asaltos rechazados, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSi ganas, {0} adoptará {2}.</Rpt_Act_HolyWarConfirm>
   <!-- EN: You have no casus belli for a holy war. -->
   <Rpt_Holy_CantNoCause>No tienes ningún casus belli de guerra santa.</Rpt_Holy_CantNoCause>
   <!-- EN: You can only declare a holy war on a faction whose ideoligion differs from ours. -->
@@ -249,9 +249,9 @@
   <!-- EN: Faction that made us its rival: none -->
   <Rpt_Rival_AiNone>Facción que nos declaró rival: ninguna</Rpt_Rival_AiNone>
   <!-- EN: One hostile faction at our tech level makes us its rival. Meanwhile it never turns neutral; the rivalry ends once its trust reaches {0}. It declares war on us more often, and while at war its wartime raids come more often. -->
-  <Rpt_Tip_RivalAi>Una facción hostil de nuestro nivel tecnológico nos declara su rival. Mientras tanto, nunca se vuelve neutral; la rivalidad termina cuando su confianza llega a {0}. Nos declara la guerra más seguido, y mientras estamos en guerra sus incursiones de guerra llegan con más frecuencia.</Rpt_Tip_RivalAi>
+  <Rpt_Tip_RivalAi>Una facción hostil de nuestro nivel tecnológico nos declara su rival. Mientras tanto, nunca se vuelve neutral; la rivalidad termina cuando su confianza llega a {0}. Nos declara la guerra más seguido, y mientras estamos en guerra sus asaltos de guerra llegan con más frecuencia.</Rpt_Tip_RivalAi>
   <!-- EN: Benefits\n· +{0} doctrine progress for each settlement the rival loses (whoever takes it; needs a doctrine)\n· Trust with our rival&apos;s own rivals +{1} each quarter\n· &quot;Fabricate casus belli&quot; against the rival finishes {4} days sooner\n· Our spies at the rival run a {5}% lower risk of discovery\nCosts\n· Rival goodwill −{2} and trust with the rival&apos;s ally −{3} each quarter\n· The rival declares war on us more often\n· While at war with the rival, wartime raids come more often\n· No treaties, gifts or regular aid with a rival -->
-  <Rpt_Tip_RivalEffects>Beneficios\n- +{0} de progreso de doctrina por cada asentamiento que pierde el rival (lo tome quien lo tome; requiere una doctrina)\n- Confianza con los rivales de nuestro rival +{1} cada cuadrun\n- «Fabricar casus belli» contra el rival termina {4} días antes\n- Nuestros espías en el rival corren un riesgo de ser descubiertos un {5}% menor\nCostos\n- Buena voluntad del rival −{2} y confianza con el aliado del rival −{3} cada cuadrun\n- El rival nos declara la guerra más seguido\n- Mientras estamos en guerra con el rival, sus incursiones de guerra llegan con más frecuencia\n- Con un rival no hay tratados, regalos ni ayuda regular</Rpt_Tip_RivalEffects>
+  <Rpt_Tip_RivalEffects>Beneficios\n- +{0} de progreso de doctrina por cada asentamiento que pierde el rival (lo tome quien lo tome; requiere una doctrina)\n- Confianza con los rivales de nuestro rival +{1} cada cuadrun\n- «Fabricar casus belli» contra el rival termina {4} días antes\n- Nuestros espías en el rival corren un riesgo de ser descubiertos un {5}% menor\nCostos\n- Buena voluntad del rival −{2} y confianza con el aliado del rival −{3} cada cuadrun\n- El rival nos declara la guerra más seguido\n- Mientras estamos en guerra con el rival, sus asaltos de guerra llegan con más frecuencia\n- Con un rival no hay tratados, regalos ni ayuda regular</Rpt_Tip_RivalEffects>
   <!-- EN: Declare rival… -->
   <Rpt_Rival_PickBtn>Declarar rival…</Rpt_Rival_PickBtn>
   <!-- EN: (No faction can be made a rival) -->
@@ -498,7 +498,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: None -->
   <Rpt_SD_Perk_EffNone>Ninguna</Rpt_SD_Perk_EffNone>
   <!-- EN: Warns in advance of offensives launched by or against factions where our spy is embedded, and once those factions schedule a wartime, retaliation or war-of-independence punitive raid on us, tells how many days away it is -->
-  <Rpt_SD_Perk_EffIsolation>Avisa con anticipación de las ofensivas que lanzan las facciones donde está infiltrado nuestro espía, o que se lanzan contra ellas, y cuando esas facciones programan contra nosotros una incursión de guerra, de represalia o de castigo por la guerra de independencia, dice en cuántos días llegará</Rpt_SD_Perk_EffIsolation>
+  <Rpt_SD_Perk_EffIsolation>Avisa con anticipación de las ofensivas que lanzan las facciones donde está infiltrado nuestro espía, o que se lanzan contra ellas, y cuando esas facciones programan contra nosotros un asalto de guerra, de represalia o de castigo por la guerra de independencia, dice en cuántos días llegará</Rpt_SD_Perk_EffIsolation>
   <!-- EN: Buy price -{0}% when trading with factions where our spy is embedded -->
   <Rpt_SD_Perk_EffMercantile>Precio de compra -{0}% al comerciar con facciones donde está infiltrado nuestro espía</Rpt_SD_Perk_EffMercantile>
   <!-- EN: Power ratio required to demand tribute from factions where our spy is embedded x{0} -->
@@ -510,7 +510,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Success chance {0}% (includes espionage perk +{1}%) -->
   <Rpt_SD_Perk_MediateChanceSpy>Probabilidad de éxito {0}% (incluye la ventaja de espionaje +{1}%)</Rpt_SD_Perk_MediateChanceSpy>
   <!-- EN: Intel: a raid by {0} has been scheduled for about {1} days from now. -->
-  <Rpt_SD_Perk_RaidForewarn>Inteligencia: {0} programó una incursión para dentro de unos {1} días.</Rpt_SD_Perk_RaidForewarn>
+  <Rpt_SD_Perk_RaidForewarn>Inteligencia: {0} programó un asalto para dentro de unos {1} días.</Rpt_SD_Perk_RaidForewarn>
   <!-- EN: Call to arms… ({0} trust) -->
   <Rpt_SD_AllyCall_Act>Llamado a las armas… ({0} de confianza)</Rpt_SD_AllyCall_Act>
   <!-- EN: Asks this ally to join our war. Costs {0} of its trust whatever the answer. -->
@@ -1452,9 +1452,9 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Declares a holy war on a faction of a different ideoligion without a casus belli (none is spent). The war score rises only through victories, and you can win once it reaches {0}. If you win, you receive tribute and that faction adopts our ideoligion. Without the Ideology DLC you receive tribute only. -->
   <Rpt_RD_Tip_HolyAnytime>Declara una guerra santa a una facción de otra ideología sin casus belli (no se gasta ninguno). El puntaje de guerra solo sube con victorias, y puedes ganar cuando llegue a {0}. Si ganas, recibes tributo y esa facción adopta nuestra ideología. Sin el DLC Ideology, solo recibes tributo.</Rpt_RD_Tip_HolyAnytime>
   <!-- EN: You declare a holy war on {0}.\nThe moment you declare, you become hostile and their raids begin. No casus belli is spent.\n\nIn a holy war the war score never rises above 0 over time. Above 0 it only rises through victories such as conquests and repelled raids, and a victorious peace is only possible at a war score of {1} or more.\nIf you win, you receive tribute and {0} will adopt {2}. -->
-  <Rpt_RD_HolyAnytimeConfirm>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus incursiones. No se gasta ningún casus belli.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas e incursiones rechazadas, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSi ganas, recibes tributo y {0} adoptará {2}.</Rpt_RD_HolyAnytimeConfirm>
+  <Rpt_RD_HolyAnytimeConfirm>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus asaltos. No se gasta ningún casus belli.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas y asaltos rechazados, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSi ganas, recibes tributo y {0} adoptará {2}.</Rpt_RD_HolyAnytimeConfirm>
   <!-- EN: You declare a holy war on {0}.\nThe moment you declare, you become hostile and their raids begin. No casus belli is spent.\n\nIn a holy war the war score never rises above 0 over time. Above 0 it only rises through victories such as conquests and repelled raids, and a victorious peace is only possible at a war score of {1} or more.\nWithout the Ideology DLC, a victory brings tribute only. -->
-  <Rpt_RD_HolyAnytimeConfirmNoIdeo>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus incursiones. No se gasta ningún casus belli.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas e incursiones rechazadas, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSin el DLC Ideology, una victoria solo trae tributo.</Rpt_RD_HolyAnytimeConfirmNoIdeo>
+  <Rpt_RD_HolyAnytimeConfirmNoIdeo>Declaras una guerra santa a {0}.\nEn el momento en que la declaras, se vuelven hostiles y empiezan sus asaltos. No se gasta ningún casus belli.\n\nEn una guerra santa, el puntaje de guerra nunca sube de 0 con el tiempo. Por encima de 0 solo sube con victorias, como conquistas y asaltos rechazados, y una paz victoriosa solo es posible con un puntaje de guerra de {1} o más.\nSin el DLC Ideology, una victoria solo trae tributo.</Rpt_RD_HolyAnytimeConfirmNoIdeo>
   <!-- EN: Members of the {0} league do not ally with factions outside the league. -->
   <Rpt_RD_LgAllyBlocked>Los miembros de la liga {0} no se alían con facciones de fuera de la liga.</Rpt_RD_LgAllyBlocked>
   <!-- EN: While the {0} league stands, alliances, non-aggression pacts and defense pacts with its members cannot be broken. -->
@@ -1706,7 +1706,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Defense pact reinforcement scale: {0} -->
   <Rpt_Set_DefenseAidFactor>Tamaño de los refuerzos del pacto de defensa: {0}</Rpt_Set_DefenseAidFactor>
   <!-- EN: Adjusts the size of defense pact reinforcements relative to raid points. -->
-  <Rpt_Set_DefenseAidFactorTip>Ajusta el tamaño de los refuerzos del pacto de defensa en relación con los puntos de incursión.</Rpt_Set_DefenseAidFactorTip>
+  <Rpt_Set_DefenseAidFactorTip>Ajusta el tamaño de los refuerzos del pacto de defensa en relación con los puntos de asalto.</Rpt_Set_DefenseAidFactorTip>
   <!-- EN: Trade agreement extra caravan frequency: {0} -->
   <Rpt_Set_TradeFreqFactor>Frecuencia de las caravanas extra del acuerdo comercial: {0}</Rpt_Set_TradeFreqFactor>
   <!-- EN: Adjusts how often guaranteed caravans from trade agreement partners arrive. Higher = more often. At 0, they do not come. -->
@@ -2350,7 +2350,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: a plague -->
   <Rpt_Disaster_1>una plaga</Rpt_Disaster_1>
   <!-- EN: a devastating raid -->
-  <Rpt_Disaster_2>una incursión devastadora</Rpt_Disaster_2>
+  <Rpt_Disaster_2>un asalto devastador</Rpt_Disaster_2>
   <!-- EN: Send relief ({0} silver) -->
   <Rpt_Relief_Send>Mandar ayuda ({0} de plata)</Rpt_Relief_Send>
   <!-- EN: Ignore -->
@@ -2584,9 +2584,9 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Declare war -->
   <Rpt_Act_DeclareWar>Declarar la guerra</Rpt_Act_DeclareWar>
   <!-- EN: You declare war on {0}.\nThey turn hostile at once and their raids begin.\nThis uses one casus belli. -->
-  <Rpt_Act_DeclareWarConfirm>Le declaras la guerra a {0}.\nSe vuelven hostiles al instante y empiezan sus incursiones.\nEsto gasta un casus belli.</Rpt_Act_DeclareWarConfirm>
+  <Rpt_Act_DeclareWarConfirm>Le declaras la guerra a {0}.\nSe vuelven hostiles al instante y empiezan sus asaltos.\nEsto gasta un casus belli.</Rpt_Act_DeclareWarConfirm>
   <!-- EN: You declare war on {0}.\nThey turn hostile at once and their raids begin. -->
-  <Rpt_Act_DeclareWarConfirmNoCause>Le declaras la guerra a {0}.\nSe vuelven hostiles al instante y empiezan sus incursiones.</Rpt_Act_DeclareWarConfirmNoCause>
+  <Rpt_Act_DeclareWarConfirmNoCause>Le declaras la guerra a {0}.\nSe vuelven hostiles al instante y empiezan sus asaltos.</Rpt_Act_DeclareWarConfirmNoCause>
   <!-- EN: ⚠ You have a non-aggression pact with this faction.\nBreaking it to declare war: notoriety +{0}, their trust {1}, trust with every faction {2}, goodwill {3}. -->
   <Rpt_War_DeclareNapWarn>⚠ Tienes un pacto de no agresión con esta facción.\nSi lo rompes para declarar la guerra: notoriedad +{0}, su confianza {1}, confianza con todas las facciones {2}, buena voluntad {3}.</Rpt_War_DeclareNapWarn>
   <!-- EN: Make peace -->
@@ -2794,7 +2794,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Declaration of war - {0} -->
   <Rpt_LetterWarDeclaredLabel>Declaración de guerra: {0}</Rpt_LetterWarDeclaredLabel>
   <!-- EN: {0} has declared war on us.\nTheir first raid will arrive in {1} days. -->
-  <Rpt_LetterWarDeclared>{0} nos declaró la guerra.\nSu primera incursión llegará en {1} días.</Rpt_LetterWarDeclared>
+  <Rpt_LetterWarDeclared>{0} nos declaró la guerra.\nSu primer asalto llegará en {1} días.</Rpt_LetterWarDeclared>
   <!-- EN: Our client state&apos;s lands will also come under attack. -->
   <Rpt_LetterWarDeclaredPuppet>También atacarán las tierras de nuestro estado cliente.</Rpt_LetterWarDeclaredPuppet>
   <!-- EN: You can fight, or submit now and become their tributary. -->
@@ -2808,7 +2808,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Submit to {0}. You pay {1} silver, become their tributary, and this war ends.\n\nYou cannot end the tribute for {2} days, and word of your humiliation will spread across the rim. This cannot be undone. -->
   <Rpt_WarDeclared_SubmitConfirm>Te sometes a {0}. Pagas {1} de plata, te vuelves su tributario y esta guerra termina.\n\nNo podrás terminar el tributo durante {2} días, y la noticia de tu humillación correrá por todo el borde. No tiene vuelta atrás.</Rpt_WarDeclared_SubmitConfirm>
   <!-- EN: A wartime raid from {0} is closing in. -->
-  <Rpt_Msg_WarRaid>Se acerca una incursión de guerra de {0}.</Rpt_Msg_WarRaid>
+  <Rpt_Msg_WarRaid>Se acerca un asalto de guerra de {0}.</Rpt_Msg_WarRaid>
   <!-- EN: {0} declared war on us. -->
   <Rpt_Chron_NpcWarDeclared>{0} nos declaró la guerra.</Rpt_Chron_NpcWarDeclared>
   <!-- EN: {0} has been wiped out and the war ends in our victory. Spoils: {1} silver. -->
@@ -2848,7 +2848,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Orders their leader&apos;s assassination. After {0} days, success throws them into turmoil; failure exposes you, costing trust and starting a war. -->
   <Rpt_Tip_Assassinate>Ordena asesinar a su líder. Después de {0} días, si sale bien, los sume en el caos; si falla, te descubren: pierdes confianza y empieza una guerra.</Rpt_Tip_Assassinate>
   <!-- EN: Sends an agent to destabilize them. On success after {0} days, their power drops and their raids weaken for {1} days. -->
-  <Rpt_Tip_Sabotage>Manda a un agente a desestabilizarlos. Si sale bien, después de {0} días baja su poder y sus incursiones se debilitan durante {1} días.</Rpt_Tip_Sabotage>
+  <Rpt_Tip_Sabotage>Manda a un agente a desestabilizarlos. Si sale bien, después de {0} días baja su poder y sus asaltos se debilitan durante {1} días.</Rpt_Tip_Sabotage>
   <!-- EN: Mediator doctrine only. Guarantees peace between two other factions for {0} days. Both gain trust each quarter it holds. Factions hostile to us cannot be chosen. -->
   <Rpt_Tip_PeaceGuard>Solo con la doctrina del Mediador. Garantiza la paz entre otras dos facciones durante {0} días. Las dos ganan confianza cada cuadrun que se mantiene. No se pueden elegir facciones hostiles a nosotros.</Rpt_Tip_PeaceGuard>
   <!-- EN: Hegemony doctrine only. Shows troops on their border to press submission. Goodwill drops, and the transient shock to their submission pressure lasts {0} days. -->
@@ -2892,9 +2892,9 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Isolation doctrine only. While declared, calls to arms and coalition invites are declined automatically without penalty. -->
   <Rpt_Tip_Neutrality>Solo con la doctrina Aislamiento. Mientras la neutralidad esté declarada, los llamados a las armas y las invitaciones a coaliciones se rechazan solos, sin penalización.</Rpt_Tip_Neutrality>
   <!-- EN: Spends one casus belli to start a war. You become hostile at once, their raids begin, and their allies join in. -->
-  <Rpt_Tip_DeclareWar>Gasta un casus belli para empezar una guerra. Se vuelven hostiles al instante, empiezan sus incursiones y sus aliados se suman.</Rpt_Tip_DeclareWar>
+  <Rpt_Tip_DeclareWar>Gasta un casus belli para empezar una guerra. Se vuelven hostiles al instante, empiezan sus asaltos y sus aliados se suman.</Rpt_Tip_DeclareWar>
   <!-- EN: Starts a war. You become hostile at once, their raids begin, and their allies join in. -->
-  <Rpt_Tip_DeclareWarNoCause>Empieza una guerra. Se vuelven hostiles al instante, empiezan sus incursiones y sus aliados se suman.</Rpt_Tip_DeclareWarNoCause>
+  <Rpt_Tip_DeclareWarNoCause>Empieza una guerra. Se vuelven hostiles al instante, empiezan sus asaltos y sus aliados se suman.</Rpt_Tip_DeclareWarNoCause>
   <!-- EN: Asks to end the war. The further the war score leans to either side and the longer the war lasts, the likelier they accept. -->
   <Rpt_Tip_MakePeace>Pide terminar la guerra. Cuanto más se incline el puntaje de guerra hacia cualquier lado y cuanto más dure la guerra, más probable es que acepten.</Rpt_Tip_MakePeace>
   <!-- EN: Sends stockpiled weapons to the faction you back. They are not returned; goodwill, trust and that faction&apos;s battle odds rise. -->
@@ -2938,7 +2938,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: You cannot ally with them again for {0} days. -->
   <Rpt_Tip_BreakAllianceLock>No podrás volver a aliarte con ellos durante {0} días.</Rpt_Tip_BreakAllianceLock>
   <!-- EN: Pay silver for a {0}-day truce with this faction. Their raids stop meanwhile. It cannot be renewed; sign again when it ends. -->
-  <Rpt_Tip_PermTruce>Paga plata por una tregua de {0} días con esta facción. Mientras tanto, sus incursiones se detienen. No se puede renovar; vuelve a firmarla cuando termine.</Rpt_Tip_PermTruce>
+  <Rpt_Tip_PermTruce>Paga plata por una tregua de {0} días con esta facción. Mientras tanto, sus asaltos se detienen. No se puede renovar; vuelve a firmarla cuando termine.</Rpt_Tip_PermTruce>
   <!-- EN: Extends a fixed-term treaty. Available from 7 days before expiry. -->
   <Rpt_Tip_Renew>Extiende un tratado de plazo fijo. Disponible desde 7 días antes de que venza.</Rpt_Tip_Renew>
   <!-- EN: Automatically extends fixed-term treaties on expiry when you have the silver. -->
@@ -3498,7 +3498,7 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <!-- EN: Sabotage… -->
   <Rpt_Act_Sabotage>Sabotaje…</Rpt_Act_Sabotage>
   <!-- EN: Send agents to sabotage {0}&apos;s internal affairs ({1} silver, {2} days of preparation).\n\nSuccess chance is about {3}%. On success their national power is weakened and they fall into turmoil for {4} days, weakening their raids. On failure the agents may be caught, souring relations badly and inviting retaliation. -->
-  <Rpt_Act_SabotageConfirm>Mandar agentes a sabotear los asuntos internos de {0} ({1} de plata, {2} días de preparación).\n\nLa probabilidad de éxito es de un {3}%. Si sale bien, su poder nacional se debilita y quedan sumidos en el caos durante {4} días, lo que debilita sus incursiones. Si falla, pueden atrapar a los agentes: las relaciones empeoran mucho y se arriesgan represalias.</Rpt_Act_SabotageConfirm>
+  <Rpt_Act_SabotageConfirm>Mandar agentes a sabotear los asuntos internos de {0} ({1} de plata, {2} días de preparación).\n\nLa probabilidad de éxito es de un {3}%. Si sale bien, su poder nacional se debilita y quedan sumidos en el caos durante {4} días, lo que debilita sus asaltos. Si falla, pueden atrapar a los agentes: las relaciones empeoran mucho y se arriesgan represalias.</Rpt_Act_SabotageConfirm>
   <!-- EN: Sabotage succeeded: {0} -->
   <Rpt_LetterSabotageOkLabel>Sabotaje exitoso: {0}</Rpt_LetterSabotageOkLabel>
   <!-- EN: The operation planted inside {0} has borne fruit. Their national power is weakened and they fall into turmoil for {1} days. Nothing was traced back to us. -->
@@ -3624,7 +3624,7 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <!-- EN: Coalition — the hunt begins -->
   <Rpt_LetterAntiPlayerLabel>Coalición: empieza la cacería</Rpt_LetterAntiPlayerLabel>
   <!-- EN: The factions have formed a coalition against us: {0}\n\nThe coalition will send joint raids periodically until our notoriety fades. -->
-  <Rpt_LetterAntiPlayer>Las facciones formaron una coalición contra nosotros: {0}\n\nLa coalición mandará incursiones conjuntas cada cierto tiempo hasta que baje nuestra notoriedad.</Rpt_LetterAntiPlayer>
+  <Rpt_LetterAntiPlayer>Las facciones formaron una coalición contra nosotros: {0}\n\nLa coalición mandará asaltos conjuntos cada cierto tiempo hasta que baje nuestra notoriedad.</Rpt_LetterAntiPlayer>
   <!-- EN: The hunt is over -->
   <Rpt_LetterAntiPlayerDisbandLabel>Terminó la cacería</Rpt_LetterAntiPlayerDisbandLabel>
   <!-- EN: Our notoriety has faded and the coalition against us has disbanded. -->
@@ -3746,7 +3746,7 @@ No dowry is required — the tributary is sending one of its own people to us. -
   <!-- EN: Trade prices {0} in your favor -->
   <Rpt_BldEff_TradePrice>Precios de comercio {0} a tu favor</Rpt_BldEff_TradePrice>
   <!-- EN: Raid size on this map {0} -->
-  <Rpt_BldEff_RaidSize>Tamaño de las incursiones en este mapa {0}</Rpt_BldEff_RaidSize>
+  <Rpt_BldEff_RaidSize>Tamaño de los asaltos en este mapa {0}</Rpt_BldEff_RaidSize>
   <!-- EN: Envoy and gift favor {0} -->
   <Rpt_BldEff_Envoy>Favor de los enviados y regalos {0}</Rpt_BldEff_Envoy>
   <!-- EN: Caravan move speed {0} -->
@@ -3812,11 +3812,11 @@ No dowry is required — the tributary is sending one of its own people to us. -
   <!-- EN: Our settlement begins its days as a tributary of {0}. As long as the silver flows, {0} will not touch us.\n\nCollection is waived for the first {1} days. Afterwards a share of our wealth is due each quarter — and breaking the pact means a war of independence. -->
   <Rpt_LetterTributaryStart>Nuestro asentamiento empieza sus días como tributario de {0}. Mientras la plata siga llegando, {0} no nos va a tocar.\n\nDurante los primeros {1} días no se cobra. Después hay que pagar una parte de nuestra riqueza cada cuadrun, y romper el pacto significa una guerra de independencia.</Rpt_LetterTributaryStart>
   <!-- EN: Cut off tribute to {0} and declare independence.\n\nA war of independence rages for {1} days — raids intensify and punitive forces arrive periodically. Hold out to win freedom, or resign midway in humiliation. -->
-  <Rpt_UI_IndepWarConfirm>Dejar de pagarle tributo a {0} y declarar la independencia.\n\nSe desata una guerra de independencia durante {1} días: las incursiones se intensifican y cada cierto tiempo llegan fuerzas de castigo. Resiste para ganar la libertad, o ríndete a mitad de camino y carga con la humillación.</Rpt_UI_IndepWarConfirm>
+  <Rpt_UI_IndepWarConfirm>Dejar de pagarle tributo a {0} y declarar la independencia.\n\nSe desata una guerra de independencia durante {1} días: los asaltos se intensifican y cada cierto tiempo llegan fuerzas de castigo. Resiste para ganar la libertad, o ríndete a mitad de camino y carga con la humillación.</Rpt_UI_IndepWarConfirm>
   <!-- EN: War of independence -->
   <Rpt_LetterIndepWarLabel>Guerra de independencia</Rpt_LetterIndepWarLabel>
   <!-- EN: We have cut off tribute to {0}. Our overlord calls it treason.\n\nHold out for {1} days and independence is ours. Raids will intensify, and punitive forces will arrive periodically. -->
-  <Rpt_LetterIndepWar>Dejamos de pagarle tributo a {0}. Nuestro señor lo llama traición.\n\nSi resistimos {1} días, la independencia es nuestra. Las incursiones se intensificarán, y cada cierto tiempo llegarán fuerzas de castigo.</Rpt_LetterIndepWar>
+  <Rpt_LetterIndepWar>Dejamos de pagarle tributo a {0}. Nuestro señor lo llama traición.\n\nSi resistimos {1} días, la independencia es nuestra. Los asaltos se intensificarán, y cada cierto tiempo llegarán fuerzas de castigo.</Rpt_LetterIndepWar>
   <!-- EN: A punitive force from {0} descends upon us! -->
   <Rpt_MsgPunitiveRaid>¡Cae sobre nosotros una fuerza de castigo de {0}!</Rpt_MsgPunitiveRaid>
   <!-- EN: Independence won -->
@@ -3934,7 +3934,7 @@ The outcome is settled from the remaining forces and tech level, and cannot be u
 With its defenses broken, the outpost has dropped one tier. Its garrison and reinforcements shrink accordingly.
 
 The tier can be raised again. -->
-  <Rpt_LetterPirateDefendLost>{0} no resistió la incursión de {1}.\n\nCon sus defensas quebradas, el puesto bajó un nivel. Su guarnición y sus refuerzos se achican en proporción.\n\nEl nivel se puede volver a subir.</Rpt_LetterPirateDefendLost>
+  <Rpt_LetterPirateDefendLost>{0} no resistió el asalto de {1}.\n\nCon sus defensas quebradas, el puesto bajó un nivel. Su guarnición y sus refuerzos se achican en proporción.\n\nEl nivel se puede volver a subir.</Rpt_LetterPirateDefendLost>
   <!-- EN: Send a caravan to &apos;{0}&apos; within {1} days. On arrival, choose &apos;Join the defense&apos; at the settlement. -->
   <Rpt_MsgDefendWalk>Manda una caravana a «{0}» en menos de {1} días. Al llegar, elige «Sumarse a la defensa» en el asentamiento.</Rpt_MsgDefendWalk>
   <!-- EN: You have arrived. The enemy will strike within 3-6 hours — prepare the defense. -->
@@ -4182,9 +4182,9 @@ The tier can be raised again. -->
   <!-- EN: Colonist incoming damage -{0}% -->
   <Rpt_UI_CourtEffectMarshalIso>Daño recibido por los colonos -{0}%</Rpt_UI_CourtEffectMarshalIso>
   <!-- EN: Commands the military. A hegemon cannot sign defense pacts, so the marshal defends the colony instead - raids on our settlements are {0}% smaller -->
-  <Rpt_UI_CourtTipMarshalHeg>Dirige el ejército. Un hegemón no puede firmar pactos de defensa, así que el mariscal se dedica a defender la colonia: las incursiones contra nuestros asentamientos son un {0}% más chicas</Rpt_UI_CourtTipMarshalHeg>
+  <Rpt_UI_CourtTipMarshalHeg>Dirige el ejército. Un hegemón no puede firmar pactos de defensa, así que el mariscal se dedica a defender la colonia: los asaltos contra nuestros asentamientos son un {0}% más chicos</Rpt_UI_CourtTipMarshalHeg>
   <!-- EN: Raid size -{0}% -->
-  <Rpt_UI_CourtEffectMarshalHeg>Tamaño de las incursiones -{0}%</Rpt_UI_CourtEffectMarshalHeg>
+  <Rpt_UI_CourtEffectMarshalHeg>Tamaño de los asaltos -{0}%</Rpt_UI_CourtEffectMarshalHeg>
   <!-- EN: Route income +{0}% · accident chance -{1}% -->
   <Rpt_UI_CourtEffectSteward>Ingresos de las rutas +{0}% · probabilidad de accidente -{1}%</Rpt_UI_CourtEffectSteward>
   <!-- EN: Spymaster -->
@@ -5746,7 +5746,7 @@ Cost: caravans and routes suffer -->
   <!-- EN: Forbidden: embargoes, taking tributaries
 Violation: joint war, independence backing, insults, ultimatums = -15 progress
 Cost: higher treaty costs, treaty upkeep trust −1 per quarter, wealth draws bigger raids -->
-  <Rpt_Doctrine2_Rule>Prohibido: embargos, tomar tributarios\nIncumplimiento: guerra conjunta, apoyar una independencia, insultos, ultimátums = progreso -15\nCosto: tratados más caros, confianza por mantenimiento de tratados −1 por cuadrun, la riqueza atrae incursiones más grandes</Rpt_Doctrine2_Rule>
+  <Rpt_Doctrine2_Rule>Prohibido: embargos, tomar tributarios\nIncumplimiento: guerra conjunta, apoyar una independencia, insultos, ultimátums = progreso -15\nCosto: tratados más caros, confianza por mantenimiento de tratados −1 por cuadrun, la riqueza atrae asaltos más grandes</Rpt_Doctrine2_Rule>
   <!-- EN: Caravan draw -->
   <Rpt_Doctrine2_Node1>Atractivo para las caravanas</Rpt_Doctrine2_Node1>
   <!-- EN: Extra caravan frequency x1.15 -->
@@ -6957,7 +6957,7 @@ This cannot be undone. Become a neutral power? -->
   <!-- EN: A war of attrition.\n\n- Market prices +{0}\n- Trader silver x{1}\n- Extra trader frequency x{2}\n- Building effects reduced by {3}\n- Mood, tend quality and harvests all drop. -->
   <Rpt_WW_Stage_MidTip>Una guerra de desgaste.\n\n- Precios de mercado +{0}\n- Plata de los comerciantes x{1}\n- Frecuencia de comerciantes adicionales x{2}\n- Efectos de los edificios reducidos en {3}\n- Bajan el ánimo, la calidad del tratamiento médico y las cosechas.</Rpt_WW_Stage_MidTip>
   <!-- EN: The world is burnt out.\n\n- Market prices -{0}\n- Trader silver x{1}\n- Extra trader frequency x{2}\n- Building effects stop entirely.\n- Only research speeds up; work, mood, medicine and harvests all collapse.\n- Raids come more often but smaller. -->
-  <Rpt_WW_Stage_LateTip>El mundo quedó agotado.\n\n- Precios de mercado -{0}\n- Plata de los comerciantes x{1}\n- Frecuencia de comerciantes adicionales x{2}\n- Los edificios dejan de tener efecto.\n- Solo se acelera la investigación; el trabajo, el ánimo, la medicina y las cosechas se derrumban.\n- Las incursiones llegan más seguido, pero son más chicas.</Rpt_WW_Stage_LateTip>
+  <Rpt_WW_Stage_LateTip>El mundo quedó agotado.\n\n- Precios de mercado -{0}\n- Plata de los comerciantes x{1}\n- Frecuencia de comerciantes adicionales x{2}\n- Los edificios dejan de tener efecto.\n- Solo se acelera la investigación; el trabajo, el ánimo, la medicina y las cosechas se derrumban.\n- Los asaltos llegan más seguido, pero son más chicos.</Rpt_WW_Stage_LateTip>
   <!-- EN: Early world war -->
   <Rpt_WW_LetterStageEarlyLabel>Guerra mundial inicial</Rpt_WW_LetterStageEarlyLabel>
   <!-- EN: The world war has begun. Everything turns to a war footing.\n\nPrices rise and traders come often. Your colonists work faster but research falls behind, and they wear out faster for it. -->
@@ -7109,7 +7109,7 @@ This cannot be undone. Become a neutral power? -->
   <!-- EN: Rear security -->
   <Rpt_WW_Tree_A3>Seguridad de la retaguardia</Rpt_WW_Tree_A3>
   <!-- EN: Raids aimed at you are 10% smaller. -->
-  <Rpt_WW_Tree_A3Desc>Las incursiones contra ti son un 10% más chicas.</Rpt_WW_Tree_A3Desc>
+  <Rpt_WW_Tree_A3Desc>Los asaltos contra ti son un 10% más chicos.</Rpt_WW_Tree_A3Desc>
   <!-- EN: War economy -->
   <Rpt_WW_Tree_A4>Economía de guerra</Rpt_WW_Tree_A4>
   <!-- EN: You gain 25% more war score. -->
@@ -7251,7 +7251,7 @@ This cannot be undone. -->
   <!-- EN: Requisition -->
   <Rpt_WW_Dec_Requisition>Requisa</Rpt_WW_Dec_Requisition>
   <!-- EN: Spends colonist mood to reduce raid size this quarter. -->
-  <Rpt_WW_Dec_RequisitionDesc>Gasta ánimo de los colonos para que las incursiones de este cuadrun sean más chicas.</Rpt_WW_Dec_RequisitionDesc>
+  <Rpt_WW_Dec_RequisitionDesc>Gasta ánimo de los colonos para que los asaltos de este cuadrun sean más chicos.</Rpt_WW_Dec_RequisitionDesc>
   <!-- EN: Only during a world war. -->
   <Rpt_WW_Dec_NotAtWar>Solo durante una guerra mundial.</Rpt_WW_Dec_NotAtWar>
   <!-- EN: Not available to a neutral power. -->
@@ -7339,7 +7339,7 @@ All of them mount one more offensive the next day. Each of them lost {1} trust. 
   <!-- EN: Requisition -->
   <Rpt_WW_Dec_RequisitionLabel>Requisa</Rpt_WW_Dec_RequisitionLabel>
   <!-- EN: Supplies have been turned over to the front.\n\nRaids this quarter come in at x{0}. Colonist mood {1} for {2} days. -->
-  <Rpt_WW_Dec_RequisitionBody>Se entregaron suministros al frente.\n\nLas incursiones de este cuadrun llegan a x{0}. Ánimo de los colonos {1} durante {2} días.</Rpt_WW_Dec_RequisitionBody>
+  <Rpt_WW_Dec_RequisitionBody>Se entregaron suministros al frente.\n\nLos asaltos de este cuadrun llegan a x{0}. Ánimo de los colonos {1} durante {2} días.</Rpt_WW_Dec_RequisitionBody>
   <!-- EN: Decisions lapsed -->
   <Rpt_WW_Dec_UnpaidLabel>Decisiones vencidas</Rpt_WW_Dec_UnpaidLabel>
   <!-- EN: We could not pay the {0} silver upkeep, so every ongoing decision lapsed.\n\nRaise the silver and activate them again. -->
