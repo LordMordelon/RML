@@ -80,7 +80,7 @@ traducción en uso. Los nombres que el jugador ve en etiquetas los aprobó Angel
 | stele / glyph / decoder | **estela** / **glifo** / **decodificador** | |
 | reality anchor | **ancla de realidad** | |
 | zero-point (generator, reactor) | **de punto cero** | |
-| antigrain warhead | **obús de antigrano** | Oficial (`Shell_AntigrainWarhead`), el mismo objeto que carga el generador de punto cero. Decía «ojiva de antigrano», con la nota «como en vanilla», hasta el 25-oct-2026. Pendiente: 2 usos en este mod |
+| antigrain warhead | **obús de antigrano** | Oficial (`Shell_AntigrainWarhead`), el mismo objeto que carga el generador de punto cero. Decía «ojiva de antigrano», con la nota «como en vanilla», hasta el 25-oct-2026. Los usos de este mod se corrigieron el 29-oct-2026 |
 | court-martial | **consejo de guerra** | Ya lo usaba la sesión 1 |
 | kill order | **orden de exterminio** | Ya lo usaba la sesión 1 |
 | hunt / hunting party / huntdown raid | **cacería** / **partida de caza** / **asalto de cacería** | *raid* = «asalto», como el juego (Angel, 27-oct-2026). Decía «incursión de cacería» |
@@ -233,7 +233,7 @@ de Core y los DLC) cuando el inglés es el mismo; los textos que decían otra co
 
 **«Lanzadera» y «EMP» pasan a la forma oficial** el 25-oct-2026: Angel decidió que, si un glosario
 contradice a la oficial, gana la oficial. Son «transbordador» (shuttle; 10 usos de «lanzadera» en este
-mod) y «PEM». Los textos ya traducidos quedan pendientes.
+mod) y «PEM». Los «EMP» de los textos se corrigieron el 29-oct-2026; las «lanzadera» quedan pendientes.
 
 **Se dejan como estaban**, porque no son el mismo término que la oficial: «proyectil de alto
 explosivo» (14 usos parejos en el mod; el «obús explosivo» oficial es la munición de mortero) y
