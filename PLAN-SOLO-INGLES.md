@@ -54,3 +54,21 @@ cambios en español sí cuente: es lo que dice que el mod se revisó después de
 
 1. Plan aprobado.
 2. Los cambios en `.md` de notas, `UNUSED.xml` o el yaml también quedan afuera: ninguno se ve en el juego.
+
+## Próxima sesión (29-oct-2026)
+
+**Objetivo:** hacer este plan: un cambio solo en el inglés de un mod no abre la ventana del juego.
+**Estado:** plan aprobado (0f0b14bd), sin código todavía. `master` de RML con tres commits sin subir: este plan, su
+aprobación y f5bb4c4d (glosario, de otra sesión: no es de este trabajo).
+**Antes de empezarla (Angel):** nada.
+**Al empezar (Claude):**
+1. Pruebas primero, viéndolas fallar: 3 en `Source/RmlVentana.Tests` (fila «c» con cuenta vacía, con «1,0,0» y sin
+   la columna) y 2 en `Source/LoadFoldersBuilder.Tests` (solo el comentario EN, y el valor).
+2. Los tres cambios de «Qué se cambia»: `Novedades.cs` (la marca «c» y la fecha del último cambio en español) y
+   `Logica/NovedadesRml.cs` (la red en el juego). Cabe en una sesión.
+3. `dotnet test` de los dos proyectos, `-copia` y mirar en `output/Novedades.tsv` que Toxin Warcasket no lleve «c».
+4. Actualizar `PLAN-VENTANA.md` («Cuándo aparece sola») y `AGENTS.md` si cambia algo de lo que dicen.
+**Decisiones de Angel:** ninguna pendiente; las dos están arriba.
+**Guías:** ninguna en especial; antes de subir, preguntarle a Angel.
+**Dónde leer:** este plan, «Cuándo aparece sola, de nuevo» de `PLAN-VENTANA.md` y `PLAN-CAMBIOS-LOCALES.md`.
+**Después:** el paso 4 de `PLAN-REVISION-GENERAL.md`, «lanzadera» (172 usos), en otra sesión.
