@@ -155,10 +155,23 @@ transbordador». Quedan a propósito:
 - **The Dead Man's Switch de 1.6** (8 usos): la carpeta está congelada.
 - **`ship_word` de Vanilla Gravship Expanded - Chapter 2**, el generador de nombres de naves enemigas: todas las
   palabras de esa lista son femeninas porque las reglas dicen «La [ship_word] sangrienta» o «la [ship_word]
-  [Color]». Con «transbordador» saldría «La transbordador sangrienta».
+  [Color]». Con «transbordador» saldría «La transbordador sangrienta». La oficial de Odyssey, de donde VGE copió la
+  lista, la parte en dos: `ship_word` (masculinas, con «transbordador») y `ship_wordFem`, cada una con sus reglas
+  `r_name`. Si se quiere, se hace igual, pero eso ya es rehacer las reglas y no cambiar un término.
 - **Los que no son *shuttle***: los lanzacohetes de los mecas de Vanilla Gravship Expanded - Chapter 1 (*javelin
   pod*, *rocketswarm pod*, *javelin launcher*: 6 usos) y la *heavy dropship* de Vanilla Gravship Expanded -
   Expanded (5 usos). Ver «Dudas para Angel».
+
+Después se comparó cada cambio con los 198 textos de la oficial que dicen *shuttle* (clon de `RimWorld-SpanishLatin`,
+con su `EN:`), y donde el inglés era el mismo se tomó la frase oficial: «El transbordador ha llegado» (*Shuttle
+arrived*), «(llegando)», «impulsado por quimbustible», «gravinaves» en vez de «Nave gravitatoria» y el permiso de
+DMS con tuteo y «celdas», como el de Royalty (7 commits, 03d2191c…c4c0d6f0).
+
+De paso aparecieron dos errores **en la propia oficial**, para un PR a Ludeon si Angel quiere:
+- Odyssey, `Keyed`: cuatro textos siguen con «lanzadera» (`CommandShuttleNoPilot`, `CommandRefuelShuttleFromCargoDesc`,
+  `NoFuelInShuttle`, `ShuttleFullyFueled`); el resto de Odyssey dice «transbordador».
+- Core, `ShouldDepartOnShuttleInspectString`: *Should depart on shuttle* dice «Debe apartarse del transbordador»;
+  en Royalty la misma frase es «Debería partir en el transbordador».
 
 Falta: «incursión» (49, a revisar) y «casilla» (298, a revisar).
 
