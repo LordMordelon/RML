@@ -5,7 +5,8 @@ Pedido de Angel el 29-oct-2026, a partir de Toxin Warcasket: el autor pasó su i
 las traducciones quedaron iguales, porque ya estaban bien. En casos así, la ventana de RML no tiene que abrirse
 sola al iniciar el juego para mostrar «Corregido» en un mod donde no cambió nada en español.
 
-**Estado: en espera de la aprobación de Angel.**
+**Estado: aprobado por Angel el 29-oct-2026**, también lo de dejar afuera las notas `.md`, el `UNUSED.xml` y el
+yaml. Se hace en una sesión nueva.
 
 ## Por qué pasa
 
@@ -49,8 +50,7 @@ cambios en español sí cuente: es lo que dice que el mod se revisó después de
 - Las pruebas nuevas primero, viéndolas fallar; después el código. Al final, `-copia` y mirar en
   `output/Novedades.tsv` que Toxin Warcasket ya no lleve la «c».
 
-## Lo que decide Angel
+## Decisiones de Angel (29-oct-2026)
 
-1. Aprobar el plan.
-2. ¿Los cambios en `.md` de notas, `UNUSED.xml` o el yaml también quedan afuera? Recomendación: sí, ninguno se ve
-   en el juego.
+1. Plan aprobado.
+2. Los cambios en `.md` de notas, `UNUSED.xml` o el yaml también quedan afuera: ninguno se ve en el juego.
