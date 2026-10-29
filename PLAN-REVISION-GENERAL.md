@@ -171,10 +171,10 @@ Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comproba
 ## Próxima sesión (28-oct-2026)
 
 **Hecho el 28-oct:** los 25 «árbol de ánima» y los 5 «árbol Gauranlen», un commit por mod (c693be03…45b50815).
-**Estado:** `master` de RML con diez commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads), 55b8e045 (VIE - Anima
+**Estado:** `master` de RML con once commits sin subir: 3e0b1f33 y 04e1b651 (VIE - Dryads), 55b8e045 (VIE - Anima
 Theme), 66c9d486 (este plan), los seis de los árboles y el de esta nota.
 **Antes de seguir (Angel):**
-1. Decir si se suben los diez commits.
+1. Decir si se suben los once commits.
 2. Si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
 **Al empezar (Claude):** si Angel lo aprueba, subirlos; después, seguir con el paso 4.
 **Decisiones de Angel:** los tres términos «a confirmar» de
