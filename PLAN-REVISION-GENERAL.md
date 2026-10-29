@@ -173,7 +173,27 @@ De paso aparecieron dos errores **en la propia oficial**, para un PR a Ludeon si
 - Core, `ShouldDepartOnShuttleInspectString`: *Should depart on shuttle* dice «Debe apartarse del transbordador»;
   en Royalty la misma frase es «Debería partir en el transbordador».
 
-Falta: «incursión» (49, a revisar) y «casilla» (298, a revisar).
+**«incursión» → «asalto», hecho el 29-oct-2026**, un commit por mod (22 commits, 4e59445d…01ae1388): 73 textos y 5
+reglas, cada uno mirado con su `EN:` y con el género cambiado alrededor («el asalto minero», «más chicos»,
+«aquellos»). Quedan con «incursión» a propósito:
+
+- **Los que no son *raid***: *incursion* en AncientCorps («cada incursión en sus instalaciones») y en la nave de
+  desembarco de Vanilla Gravship Expanded - Chapter 2; *foray* en Alpha Books («una incursión olvidable en la crítica
+  culinaria»).
+- **The Dead Man's Switch de 1.6** (1 uso): la carpeta está congelada.
+- **Donde la oficial dice «incursión» con el mismo inglés** (Angel, 29-oct-2026: mismo inglés = misma frase):
+  «Incursiones llegando en {0}» y su descripción en Vanilla Christmas Expanded (copiadas de Ideology), y «participó en
+  incursión» con sus dos descripciones en Vanilla Memes (como el precepto «incursión» de Ideology). La oficial mezcla
+  los dos términos para *raid*; si se le propone a Ludeon pasarlos a «asalto», estos se cambian después.
+
+La comparación con la oficial (mismo `EN:`) dio cuatro frases para copiar: «Un asalto de {0} llegó para destruir al {1}
+que se vio obligado a aterrizar cerca» (Vanilla Christmas), «asalto enemigo» (Caravan Adventures), «desde nuestro
+último asalto» con el `{replace: …}` que pone «1 día» en singular (Vanilla Memes: es el mismo
+`PreceptComp_SituationalThought` del juego) y, sin *raid* en el inglés, la etiqueta *visitor group* de Vanilla Events
+Expanded, que decía «incursión de grupo visitante» y pasó a la oficial «grupo de visitantes». «Asalto: gravinave
+enemiga» sigue a «Asalto: cultistas horaxianos».
+
+Falta: «casilla» (298, a revisar).
 
 Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
 «árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,

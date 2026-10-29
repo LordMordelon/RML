@@ -158,7 +158,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | shambler | **caminante** | Entidad de Anomaly |
 | creepjoiner | forastero anómalo | **Propuesta, no oficial**: el juego no lo nombra en pantalla (`CreepJoiner` sale como «humano»). Sin usos en RML |
 | entity | entidad | Término de Anomaly |
-| raid / assault | **asalto** | Oficial (`Raid`, «asalto enemigo»: 46 usos contra 12 de «incursión», que sale sobre todo en las historias). Decidido por Angel el 27-oct-2026. «Incursión» queda para *incursion*. Pendiente: revisar los 52 usos de «incursión» en 17 archivos de RML, uno por uno con su inglés: solo se cambian los que vienen de *raid* |
+| raid / assault | **asalto** | Oficial (`Raid`, «asalto enemigo»: 46 usos contra 12 de «incursión», que sale sobre todo en las historias). Decidido por Angel el 27-oct-2026. «Incursión» queda para *incursion*. Los textos de RML se pasaron el 29-oct-2026; quedan con «incursión» solo los que copian una frase oficial que la usa («Incursiones llegando en {0}», «participó en incursión») |
 | EMP | **PEM** | Oficial: «granadas PEM», «obús PEM», «lanzagranadas PEM», el daño `EMP`. Lo usan así Combat Extended y el `ARMAS-DMS.md` de DMS. Hasta el 25-oct-2026 la familia DMS y Fortified Features Framework lo dejaban como «EMP». El 29-oct-2026 se corrigieron los textos de todo RML |
 | siege | asedio | |
 | drop pod raid | **asalto en cápsulas de escape** | Sigue a *raid* y *drop pod*. Decía «incursión en cápsulas de escape» hasta el 27-oct-2026 |
