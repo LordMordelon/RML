@@ -230,7 +230,7 @@ como a la bestia. Lo que dice el mod de esta arma:
   descripción en inglés dice «Kord anti-everything machinegun chambered in death».
 - **Con Combat Extended** aparece además como `DMS_Dozer_KordMG`, «Kord HMG turret»: «una ametralladora
   pesada para soldados meca o plataformas de apoyo de infantería».
-- **Dispara** ráfagas de seis tiros, con un alcance de 40 casillas, y usa el `DMS_Bullet_Kord`, «uranium
+- **Dispara** ráfagas de seis tiros, con un alcance de 40 celdas, y usa el `DMS_Bullet_Kord`, «uranium
   APT shell» (hoy «proyectil APT de uranio»): bala perforante trazadora con núcleo de uranio, de 18 de
   daño. El GAU-19/A usa la misma bala.
 - Si está el mod The Dead Man's Switch - Ancient Corps, construir la torreta pide además una
