@@ -283,7 +283,7 @@
   <!-- EN: Adjust arc of fire -->
   <CE_ArcOfFireAdjLabel>Ajustar arco de fuego</CE_ArcOfFireAdjLabel>
   <!-- EN: Adjust the allowed arc of fire of this turret. \n\nRight-click to save changes\nLeft-click to cancel changes\nMiddle-click to edit the span of AOF\nHold {0} during setting to show actual targetable tiles. -->
-  <CE_ArcOfFireAdjDesc>Ajusta el arco de fuego permitido de esta torreta. \n\nClic derecho para guardar los cambios\nClic izquierdo para cancelarlos\nClic central para editar la amplitud del arco\nMantén {0} mientras lo ajustas para ver las casillas a las que de verdad puede apuntar.</CE_ArcOfFireAdjDesc>
+  <CE_ArcOfFireAdjDesc>Ajusta el arco de fuego permitido de esta torreta. \n\nClic derecho para guardar los cambios\nClic izquierdo para cancelarlos\nClic central para editar la amplitud del arco\nMantén {0} mientras lo ajustas para ver las celdas a las que de verdad puede apuntar.</CE_ArcOfFireAdjDesc>
   <!-- EN: Hold {0} and click to temporarily unrestrict this turret&apos;s firing arc. -->
   <CE_ArcOfFireToggle>Mantén {0} y haz clic para liberar temporalmente el arco de fuego de esta torreta.</CE_ArcOfFireToggle>
   <!-- EN: Hold {0} and click to reset firing arc settings for this turret. -->
@@ -425,9 +425,9 @@
   <!-- EN: bullet -->
   <CE_GenericBullet>bala</CE_GenericBullet>
   <!-- EN: Distance: {0}/{1} Tiles -->
-  <CE_ArtilleryTarget_Distance>Distancia: {0}/{1} casillas</CE_ArtilleryTarget_Distance>
+  <CE_ArtilleryTarget_Distance>Distancia: {0}/{1} celdas</CE_ArtilleryTarget_Distance>
   <!-- EN: Distance: {0} Tiles\nselections in range: {1}/{2} -->
-  <CE_ArtilleryTarget_Distance_Selections>Distancia: {0} casillas\nseleccionados en rango: {1}/{2}</CE_ArtilleryTarget_Distance_Selections>
+  <CE_ArtilleryTarget_Distance_Selections>Distancia: {0} celdas\nseleccionados en rango: {1}/{2}</CE_ArtilleryTarget_Distance_Selections>
   <!-- EN: Target is beyond maximum range -->
   <CE_ArtilleryTarget_DestinationBeyondMaximumRange>El objetivo está más allá del rango máximo</CE_ArtilleryTarget_DestinationBeyondMaximumRange>
   <!-- EN: Target: -->
@@ -437,9 +437,9 @@
   <!-- EN: Are you sure you want to attack {0} ({1})?\n\nThis will make {1} hostile to you, and they may retaliate with raids and artillery fire against your colony! -->
   <CE_ArtilleryTarget_AttackingAllies>¿Seguro que quieres atacar {0} ({1})?\n\n¡{1} se volverá hostil y puede responder con asaltos y fuego de artillería contra tu colonia!</CE_ArtilleryTarget_AttackingAllies>
   <!-- EN: Attack world tile -->
-  <CE_ArtilleryTargetLabel>Atacar casilla del mundo</CE_ArtilleryTargetLabel>
+  <CE_ArtilleryTargetLabel>Atacar celda del mundo</CE_ArtilleryTargetLabel>
   <!-- EN: Attack a world tile. If the selected tile contains a map, you can select the attack target within that map. -->
-  <CE_ArtilleryTargetDesc>Ataca una casilla del mapa del mundo. Si la casilla elegida tiene un mapa, puedes elegir el objetivo dentro de ese mapa.</CE_ArtilleryTargetDesc>
+  <CE_ArtilleryTargetDesc>Ataca una celda del mapa del mundo. Si la celda elegida tiene un mapa, puedes elegir el objetivo dentro de ese mapa.</CE_ArtilleryTargetDesc>
   <!-- EN: Selected target already destroyed -->
   <CE_ArtilleryTarget_AlreadyDestroyed>El objetivo elegido ya fue destruido</CE_ArtilleryTarget_AlreadyDestroyed>
   <!-- EN: Can only target artillery mark -->
@@ -485,7 +485,7 @@
   <!-- EN: Safe distance for reload: {0} -->
   <CE_Settings_OpportunisticReload_SafeDistance_Title>Distancia segura para recargar: {0}</CE_Settings_OpportunisticReload_SafeDistance_Title>
   <!-- EN: Minimum cells to closest hostile pawn (no LoS required) before a pawn will opportunistically reload. -->
-  <CE_Settings_OpportunisticReload_SafeDistance_Desc>Casillas mínimas hasta el hostil más cercano (sin necesidad de línea de visión) para que un personaje recargue cuando pueda.</CE_Settings_OpportunisticReload_SafeDistance_Desc>
+  <CE_Settings_OpportunisticReload_SafeDistance_Desc>Celdas mínimas hasta el hostil más cercano (sin necesidad de línea de visión) para que un personaje recargue cuando pueda.</CE_Settings_OpportunisticReload_SafeDistance_Desc>
   <!-- EN: Cooldown after fight: {0} sec. -->
   <CE_Settings_OpportunisticReload_SecondsAfterFight_Title>Espera tras el combate: {0} s</CE_Settings_OpportunisticReload_SecondsAfterFight_Title>
   <!-- EN: Delay between a pawn being in combat and opportunistically reloading. -->
@@ -723,7 +723,7 @@
   <!-- EN: A group from {0} is planning to raid {1} at {2} soon in retaliation for recent events. -->
   <CE_Message_CounterRaid>Un grupo de {0} planea asaltar pronto {1} en {2}, como represalia por lo ocurrido.</CE_Message_CounterRaid>
   <!-- EN: Cannot fire on different layer tile with this piece of artillery. -->
-  <CE_Message_ArtilleryBadLayer>Esta pieza de artillería no puede disparar a una casilla de otra capa.</CE_Message_ArtilleryBadLayer>
+  <CE_Message_ArtilleryBadLayer>Esta pieza de artillería no puede disparar a una celda de otra capa.</CE_Message_ArtilleryBadLayer>
   <!-- EN: Ready to resupply turrets -->
   <DormantCompAmmoBeacon>Listo para reabastecer torretas</DormantCompAmmoBeacon>
   <!-- EN: Targeted bodypart: -->
@@ -857,7 +857,7 @@
   <!-- EN: Ammunition stacks won&apos;t spawn damaging projectiles on cooking off. -->
   <CE_Settings_RealisticCookOff_Desc>Las pilas de munición no lanzan proyectiles dañinos al detonar por calor.</CE_Settings_RealisticCookOff_Desc>
   <!-- EN: Enables extra tooltips for the cell under the mouse pointer (hold left-shift to view). -->
-  <CE_Settings_ShowExtraTooltips_Desc>Activa información extra de la casilla bajo el cursor (mantén Shift izquierdo para verla).</CE_Settings_ShowExtraTooltips_Desc>
+  <CE_Settings_ShowExtraTooltips_Desc>Activa información extra de la celda bajo el cursor (mantén Shift izquierdo para verla).</CE_Settings_ShowExtraTooltips_Desc>
   <!-- EN: Show extra tooltips -->
   <CE_Settings_ShowExtraTooltips_Title>Mostrar información extra</CE_Settings_ShowExtraTooltips_Title>
   <!-- EN: Enables extra (internal, redundant, or confusing) stats in some info cards. -->
@@ -903,7 +903,7 @@
   <!-- EN: Require marker for off-map artillery -->
   <CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Title>Exigir marca para la artillería de fuera del mapa</CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Title>
   <!-- EN: When enabled, off-map artillery can only target artillery markers. Disable this to target unmarked cells with the full unspotted accuracy penalty. -->
-  <CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Desc>Si está activado, la artillería de fuera del mapa solo puede apuntar a marcas de artillería. Desactívalo para apuntar a casillas sin marcar, con toda la penalización de precisión por no tener observador.</CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Desc>
+  <CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Desc>Si está activado, la artillería de fuera del mapa solo puede apuntar a marcas de artillería. Desactívalo para apuntar a celdas sin marcar, con toda la penalización de precisión por no tener observador.</CE_Settings_RequireArtilleryMarkerForOffMapArtillery_Desc>
   <!-- EN: Use real weapon names -->
   <CE_Settings_RealWeaponNames_Title>Usar nombres reales de armas</CE_Settings_RealWeaponNames_Title>
   <!-- EN: When enabled, base game weapons, as well as some official add-on content, will use their real life names.\n\nRequires a restart to apply. -->

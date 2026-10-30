@@ -86,7 +86,7 @@ comprobaciones del diff. La comprobación 1 va a mostrar estos cambios de valor:
 se miran uno por uno.
 
 **No cambian** (se revisaron y son otro concepto): la «supresión» de CE (estar bajo fuego), que no es la
-«represión» oficial de los esclavos; «casilla» (*tile* del mapa), que no es la «baldosa» del piso;
+«represión» oficial de los esclavos; «celda» (*tile* del mapa; decía «casilla» hasta el 27-oct-2026), que no es la «baldosa» del piso;
 «obús» (*shell*), que la oficial ya usa para la munición.
 
 ## 3. *slug* y *airburst*: CE contra la familia DMS
