@@ -49,17 +49,28 @@ public static class NotaDeSteam
     /** Arma la nota del repo y la escribe en nota-de-steam.txt. False si falta Steam o git. */
     public static bool Escribir(string RootPath)
     {
+        if (Calcular(RootPath) is not { } Nota)
+            return false;
+
+        File.WriteAllText(Path.Combine(RootPath, Archivo), Nota.Replace("\n", "\r\n"));
+        Console.WriteLine("\n" + Nota);
+        return true;
+    }
+
+    /** La nota del repo, o null con un aviso si falta Steam o git. SubidaWorkshop la manda con la subida. */
+    public static string? Calcular(string RootPath)
+    {
         if (!ActualizacionesSteam.Momentos([IdDeRml]).TryGetValue(IdDeRml, out var Subida))
         {
             Console.WriteLine("\e[93mNo se pudo saber de Steam cuando fue la ultima subida de RML: no hay nota de cambios.\x1b[0m");
-            return false;
+            return null;
         }
 
         if (UltimosCambios.Git(RootPath, "rev-list", "-1", $"--before=@{Subida.ToUnixTimeSeconds()}", "HEAD") is not [var Base]
             || UltimosCambios.Git(RootPath, "-c", "core.quotepath=off", "ls-tree", "-r", "-d", "--name-only", Base, "--", "Data") is not { } Arbol)
         {
             Console.WriteLine("\e[93mNo se pudo leer el historial de git: no hay nota de cambios.\x1b[0m");
-            return false;
+            return null;
         }
 
         // Tambien salen Data/ y las carpetas de autor, que no son de ningun mod y no molestan.
@@ -76,15 +87,12 @@ public static class NotaDeSteam
                 if (Campos[0].Length > 0 && Campos[0].All(char.IsDigit))
                     Nombres[Campos[0]] = Campos[1];
 
-        string Nota = Armar(Antes, Ahora, Nombres);
-        File.WriteAllText(Path.Combine(RootPath, Archivo), Nota.Replace("\n", "\r\n"));
-        Console.WriteLine("\nNota de cambios desde la subida a Steam del {0:dd-MM-yyyy HH:mm} (hora de este PC):\n\n{1}",
-            Subida.ToLocalTime(), Nota);
-        return true;
+        Console.WriteLine("\nNota de cambios desde la subida a Steam del {0:dd-MM-yyyy HH:mm} (hora de este PC):", Subida.ToLocalTime());
+        return Armar(Antes, Ahora, Nombres);
     }
 
     /** La carpeta de mod de una ruta de Data/: «Data/<mod>» o «Data/!<autor>/<mod>». */
-    private static string? CarpetaDe(string Ruta)
+    internal static string? CarpetaDe(string Ruta)
     {
         string[] Partes = Ruta.Split('/');
         if (Partes.Length < 2 || Partes[0] != "Data") return null;

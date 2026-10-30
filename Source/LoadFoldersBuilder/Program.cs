@@ -29,7 +29,10 @@ using YamlDotNet.Serialization.NamingConventions;
 //
 // -nota escribe nota-de-steam.txt, la nota de cambios desde la ultima subida al Workshop (ver
 // NotaDeSteam.cs). Lo usa 03-subir-al-workshop.cmd; no toca nada mas.
-var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or "-pagina" or "-nota");
+//
+// -workshop hace lo mismo que -copia y, si pasa, sube output/ al Workshop con SteamCMD, con esa nota
+// (ver SubidaWorkshop.cs). Pregunta antes de subir, asi que necesita teclado: lo usa el 03.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or "-pagina" or "-nota" or "-workshop");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -48,6 +51,11 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
 
     if (Comando is "-copia")
         StopProgram(Rutas.Informar(Statics.RootPath!) && Dll.Compilar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
+
+    // Nunca sube una copia vieja, con rutas demasiado largas o sin la DLL.
+    if (Comando is "-workshop")
+        StopProgram(Rutas.Informar(Statics.RootPath!) && Dll.Compilar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!)
+            && SubidaWorkshop.Subir(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-nota")
         StopProgram(NotaDeSteam.Escribir(Statics.RootPath!) ? 0 : 1);

@@ -35,9 +35,23 @@ como carpeta hermana de este repo (`RML/` y `RimworldExtractor/`), con el .NET S
 3. **Cambios a mano en `Data/`:** corre `01-regenerar-indice.cmd`; sin eso no se ven en el juego.
 4. **Antes de commitear:** revisa el diff como dice
    [AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
-5. **Publicar:** las versiones de GitHub salen solas con cada push. Al Workshop se sube desde el juego
-   con `03-subir-al-workshop.cmd`, que además deja copiada la nota de cambios desde la subida anterior
-   para pegarla en la página del Workshop.
+5. **Publicar:** las versiones de GitHub salen solas con cada push. Al Workshop se sube con
+   `03-subir-al-workshop.cmd`: muestra la nota de cambios («Añadidos:» y los mods nuevos desde la subida
+   anterior), pregunta y sube con SteamCMD, sin abrir el juego. Sin SteamCMD configurado, deja la nota
+   copiada y se sube desde el juego.
+
+   Para configurar SteamCMD, una sola vez: descomprime
+   [steamcmd.zip](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) en `C:\steamcmd`, fuera
+   de esta carpeta y de cualquiera que se sincronice; define las dos variables y abre una consola nueva:
+
+   ```
+   setx STEAMCMD "C:\steamcmd\steamcmd.exe"
+   setx STEAM_USUARIO "<tu usuario de Steam>"
+   ```
+
+   Después corre `C:\steamcmd\steamcmd.exe +login <tu usuario> +quit`: se actualiza, pide la contraseña
+   y el código de Steam Guard, y guarda la sesión en esa carpeta. Quien la copie puede subir con tu
+   cuenta, así que no la compartas. La cuenta tiene que ser la dueña del mod en el Workshop.
 
 Cómo está organizado y qué no hay que tocar: [AGENTS.md](AGENTS.md). Qué cambia respecto de
 [RimWorld Mod Korean](https://github.com/RimWorldKorea/RMK), del que deriva: [CAMBIOS.md](CAMBIOS.md).

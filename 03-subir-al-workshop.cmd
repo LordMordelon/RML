@@ -1,6 +1,11 @@
 @echo off
-REM Prepara la subida al Workshop: deja al dia la copia liviana de output\ y se
-REM asegura de que Mods\RML enlace a ella. Despues se sube desde el juego.
+REM Sube RML al Workshop: deja al dia la copia liviana de output\, se asegura de que
+REM Mods\RML enlace a ella y la sube con SteamCMD, con la nota de cambios desde la
+REM subida anterior. Pregunta antes de subir.
+REM
+REM SteamCMD necesita dos variables, definidas una sola vez (ver README): STEAMCMD con
+REM la ruta de steamcmd.exe y STEAM_USUARIO con el usuario de Steam. Sin ellas, deja la
+REM nota en el portapapeles y se sube desde el juego, como antes.
 REM
 REM Mods\RML enlaza (junction) a "output\RimWorld Mod Latino" y no al repo: el juego
 REM carga exactamente lo que se sube, sin .git, Source, UNUSED.xml ni comentarios.
@@ -41,22 +46,12 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM La nota de cambios desde la ultima subida a Steam, para pegarla en la pagina del Workshop
-REM despues de subir (ver Source\LoadFoldersBuilder\NotaDeSteam.cs). Queda en nota-de-steam.txt
-REM y en el portapapeles. Sin conexion con Steam no hay nota, y se sube igual.
-dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -nota
-if not errorlevel 1 (
-    powershell -NoProfile -Command "Get-Content -Raw -Encoding UTF8 'nota-de-steam.txt' | Set-Clipboard"
-    echo La nota de cambios quedo copiada: pegala en el Workshop despues de subir.
-)
-
 REM Si ya enlaza a la copia, no hay nada que tocar.
 fsutil reparsepoint query "%ENLACE%" 2> nul | find /i "%COPIA%" > nul
 if not errorlevel 1 (
     echo.
-    echo Mods\RML ya apunta a output. Abre RimWorld y sube RML desde el juego.
-    pause
-    exit /b 0
+    echo Mods\RML ya apunta a output.
+    goto :subir
 )
 
 REM Una carpeta de verdad no se toca: rmdir sobre ella la borraria.
@@ -88,5 +83,32 @@ if errorlevel 1 (
 )
 
 echo.
-echo Mods\RML apunta ahora a output. Abre RimWorld y sube RML desde el juego.
+echo Mods\RML apunta ahora a output.
+
+:subir
+if defined STEAMCMD if defined STEAM_USUARIO goto :steamcmd
+
+REM Sin SteamCMD: la nota queda en nota-de-steam.txt y en el portapapeles, para pegarla en
+REM la pagina del Workshop despues de subir desde el juego (ver NotaDeSteam.cs).
+dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -nota
+if not errorlevel 1 (
+    powershell -NoProfile -Command "Get-Content -Raw -Encoding UTF8 'nota-de-steam.txt' | Set-Clipboard"
+    echo La nota de cambios quedo copiada: pegala en el Workshop despues de subir.
+)
+echo.
+echo Abre RimWorld y sube RML desde el juego.
 pause
+exit /b 0
+
+REM Con SteamCMD: -workshop rehace la copia, avisa lo sin commitear, muestra la nota,
+REM pregunta y sube (ver SubidaWorkshop.cs). Si la sesion de Steam vencio, la pide aca.
+:steamcmd
+dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -workshop
+if errorlevel 1 (
+    echo.
+    echo No se subio al Workshop. El motivo esta arriba.
+    pause
+    exit /b 1
+)
+pause
+exit /b 0
