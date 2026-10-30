@@ -35,6 +35,33 @@ Poner al día y revisar la traducción de ReGrowth 2 (Workshop 2260097569). Lo p
 | 5 | Revisar el resto contra el texto oficial | mediana | hecha (25-oct-2026) |
 | 6 | Verificar y probar en partida | chica | falta |
 | 7 | Las opciones que siguen en inglés | grande | falta: Angel decide |
+| 8 | Actualización del 29-oct: seis animales nuevos | chica | hecha (30-oct-2026) |
+| 9 | ReGrowth: Boiling, el módulo del bosque hirviente | chica | hecha (30-oct-2026) |
+
+### 8. La actualización del 29-oct-2026
+
+El autor la publicó el 29-oct-2026 y se reextrajo el 30-oct. Trajo 69 textos nuevos (unas 880
+palabras), todos en `TODO`, y ninguna traducción vieja con el inglés cambiado (comparado clave por clave
+contra el commit anterior). Son seis animales: dodo, ardilla dientes de sable, drak ártico,
+trinaxodonte, velociraptor y sintetión, con sus huevos, dos cueros de dinosaurio nuevos y el cuerpo de
+terópodo. Más dos avisos de `Keyed` sobre el terreno y el agua contaminada.
+
+- **El `UNUSED.xml` perdió 9 líneas y está bien:** el extractor recuperó esas traducciones (pulmones,
+  riñones, ojos, cabeza y pezuñas) para el cuerpo nuevo de terópodo y los animales nuevos, con el mismo
+  texto en inglés.
+- **Los textos copiados del juego** van con la oficial: las descripciones de los huevos siguen la del
+  huevo de gallina, y el macho del dodo es «gallo».
+- Los nombres nuevos están en el glosario. Tres son inventados o poco usados y se pueden cambiar si no
+  convencen en el juego: «drak ártico», «trinaxodonte» y «sintetión».
+
+### 9. ReGrowth: Boiling (Workshop 2981924439)
+
+Mod aparte, en `Data/!Helixien/ReGrowth Boiling - 2981924439/`, extraído por primera vez el 30-oct-2026:
+57 textos, unas 590 palabras. Es el bioma «bosque hirviente», con su lluvia que quema, sus plantas y la
+bestia lechuza. Sus términos están en
+[GLOSARIO-BOILING.md](../ReGrowth%20Boiling%20-%202981924439/GLOSARIO-BOILING.md), que sigue a este.
+Seis de sus plantas y las cuatro lluvias copian textos del juego (zarzales, hierba, musgo, arbusto,
+bayas, abedul, pino, lluvia y tormenta): van con la oficial y solo se agrega lo que el mod cambia.
 
 ### 7. Las opciones que siguen en inglés
 

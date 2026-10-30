@@ -18,10 +18,17 @@ los archivos de la carpeta, no solo en uno: casi todos aparecen también en las 
 | kiwi / chick | **kiwi** / **cría de kiwi** | |
 | rabbit / kit | **conejo** / **cría de conejo** | |
 | hemolope / hemolope calf | **hemolope** / **ternero hemolope** | |
-| neutrolope / neutrolope calf | **neutrólope** / **cría de neutrólope** | Las crías de los dos antílopes usan palabras distintas («ternero», «cría»); se dejaron como estaban |
-| hatchling | **cría** | |
-| heavy dinosaur hide | **cuero pesado de dinosaurio** | |
-| egg (fert.) / egg (unfert.) | **huevo de … (fert.)** / **huevo de … (no fert.)** | |
+| neutrolope / neutrolope calf | **neutrílope** / **cría de neutrílope** | Las crías de los dos antílopes usan palabras distintas («ternero», «cría»); se dejaron como estaban. Hasta el 30-oct-2026 este glosario decía «neutrólope», pero los textos del mod dicen «neutrílope» |
+| hatchling / chick / calf | **cría** / **cría de …** | En los animales del 30-oct-2026, «cría de …» con el nombre del animal, como la oficial («cría de ciervo», «cría de cobra») y el kiwi del mod |
+| heavy / medium / thin dinosaur hide | **cuero pesado de dinosaurio** / **cuero mediano de dinosaurio** / **cuero fino de dinosaurio** | |
+| theropod / sauropod | **terópodo** / **saurópodo** | «carne de terópodo» |
+| egg (fert.) / egg (unfert.) | **huevo de … (fert.)** / **huevo de … (no fert.)** | Oficial. La descripción sigue a la del huevo de gallina: «Se puede comer crudo, pero cocinado es mucho mejor» |
+| dodo / cock | **dodo** / **gallo** | 30-oct-2026. «gallo» es el macho de la gallina en la oficial |
+| sabertooth squirrel | **ardilla dientes de sable** | 30-oct-2026 |
+| arctic drak | **drak ártico** | 30-oct-2026. Nombre inventado (híbrido de lagarto y ave): se deja, como el «trumbo» oficial adapta el *thrumbo*. Si suena mal en el juego, la otra opción es «draco ártico» |
+| thrinaxodon | **trinaxodonte** | 30-oct-2026. El nombre en español del género *Thrinaxodon*, como «iguanodonte» |
+| velociraptor | **velociraptor** | 30-oct-2026 |
+| synthetion / buck / doe | **sintetión** / **sintetión macho** / **sintetión hembra** | 30-oct-2026. Nombre inventado; el macho y la hembra como el «kiwi hembra» del mod |
 
 ## Plantas y árboles
 
