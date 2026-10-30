@@ -272,6 +272,31 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | Operation [first] [second] | **Operación [second] [first]** | propuesta | Nombres de misiones de ataque: sustantivo y después el adjetivo, que va en forma sin género («de Hierro», «Carmesí», «en Pedazos», «Boreal») porque los sustantivos son de los dos géneros |
 | (WIP) The Deviant: «todo» | **«Un traidor de la Flota Colonial…»** | — | El autor dejó «todo» en la descripción y el texto de inicio: van con el resumen del escenario, como se hizo con otros «todo» de RML |
 
+## Alerta aérea, bloqueos y munición antiaérea (actualización del mod, 29-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| air alert / no detection / early warning | **alerta aérea** / **sin detección** / **alerta temprana** | propuesta | Las etapas, en minúscula: «Alerta aérea: {0} ({1})» |
+| passive / active intercept | **intercepción pasiva** / **activa** | propuesta | Como «ventana de intercepción», ya en uso |
+| blockade / call off / lift (a blockade) | **bloqueo** / **cancelar** / **levantar** | propuesta | «Bloqueo anunciado», «Bloqueo en vigor» |
+| airspace / non-allied craft | **espacio aéreo** / **aeronaves no aliadas** | propuesta | |
+| air-defence node | **nodo de defensa antiaérea** | propuesta | |
+| radar suppressed / radar starting | **radar suprimido** / **radar en arranque** | propuesta | |
+| radar detection network | **red de detección por radar** | propuesta | Investigación; «red de control de tiro» para la otra |
+| NPC | **PNJ** | RML | «los PNJ», como en el resto de RML |
+| radio-command guidance | **guiado por mando de radio** | propuesta | Como el «enlace de mando por radio» del interceptor antiguo |
+| automatic imaging seeker | **buscador automático de imagen** | propuesta | Como «buscador infrarrojo de imagen» |
+| cluster bomblet warhead / bomblet | **ojiva de submuniciones en racimo** / **submunición** | CE | |
+| bunker buster payload / delayed fuze | **carga rompebúnkeres** / **espoleta de retardo** | CE + RML | «espoleta» ya está en DMS |
+| intercept debris / rubble | **restos de intercepción** / **escombros** | propuesta + oficial | *debris* = «restos», como los de la carnimasa; *rubble* = «escombros» |
+| scattered metal scrap | **chatarra dispersa** | oficial | *scrap*: «chatarra» |
+| flak (munición) | **antiaéreo/a** | CE | «37x250mmR antiaéreo», «cartucho antiaéreo 37x250mmR (AP)», «bala antiaérea 37x250mmR (AP-HE)» |
+| eight-round clips | **peines de ocho** | propuesta | |
+| airburst fragmentation shell / submunition | **proyectil** / **submunición de fragmentación de estallido aéreo** | familia | «proyectil de fragmentación de estallido aéreo de 35 mm» |
+| radar cross-section / jamming strength | **sección transversal de radar** / **potencia de interferencia** | propuesta | |
+| specific impulse / world speed factor | **impulso específico** / **factor de velocidad en el mundo** | propuesta | |
+| engagement (de un interceptor) / roll | **enfrentamiento** / **tirada** | propuesta | «Tiradas de intercepción adicionales por enfrentamiento» |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se

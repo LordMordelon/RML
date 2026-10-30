@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: intercept debris -->
+  <DMSE_InterceptDebrisChunk.label>restos de intercepción</DMSE_InterceptDebrisChunk.label>
+  <!-- EN: scattered metal scrap -->
+  <DMSE_Filth_MetalScrap.label>chatarra dispersa</DMSE_Filth_MetalScrap.label>
   <!-- EN: legacy ballistic missile (incoming) -->
   <DMSE_Incoming_LegacyBallisticMissile.label>misil balístico antiguo (llegando)</DMSE_Incoming_LegacyBallisticMissile.label>
   <!-- EN: legacy loitering munition (incoming) -->
@@ -24,18 +28,16 @@
   <DMSE_Incoming_Yj.label>misil antibuque hipersónico (llegando)</DMSE_Incoming_Yj.label>
   <!-- EN: tactical ballistic missile (incoming) -->
   <DMSE_Incoming_Tochka.label>misil balístico táctico (llegando)</DMSE_Incoming_Tochka.label>
-  <!-- EN: ballistic missile (launching) -->
-  <DMSE_Launch_Ballistic.label>misil balístico (en lanzamiento)</DMSE_Launch_Ballistic.label>
   <!-- EN: light missile (launching) -->
   <DMSE_Launch_Light.label>misil ligero (en lanzamiento)</DMSE_Launch_Light.label>
   <!-- EN: loitering munition (launching) -->
   <DMSE_Launch_Loiter.label>munición merodeadora (en lanzamiento)</DMSE_Launch_Loiter.label>
-  <!-- EN: cruise missile (launching) -->
-  <DMSE_Launch_Cruise.label>misil de crucero (en lanzamiento)</DMSE_Launch_Cruise.label>
   <!-- EN: legacy ballistic missile (launching) -->
   <DMSE_Launch_LegacyBallistic.label>misil balístico antiguo (en lanzamiento)</DMSE_Launch_LegacyBallistic.label>
   <!-- EN: legacy loitering munition (launching) -->
   <DMSE_Launch_LegacyLoiter.label>munición merodeadora antigua (en lanzamiento)</DMSE_Launch_LegacyLoiter.label>
+  <!-- EN: long-range loitering munition (launching) -->
+  <DMSE_Launch_Shahed.label>munición merodeadora de largo alcance (en lanzamiento)</DMSE_Launch_Shahed.label>
   <!-- EN: legacy interceptor (launching) -->
   <DMSE_Launch_LegacyInterceptor.label>interceptor antiguo (en lanzamiento)</DMSE_Launch_LegacyInterceptor.label>
   <!-- EN: advanced light missile (launching) -->
@@ -56,33 +58,27 @@
   <DMSE_Launch_Yj.label>misil antibuque hipersónico (en lanzamiento)</DMSE_Launch_Yj.label>
   <!-- EN: tactical ballistic missile (launching) -->
   <DMSE_Launch_Tochka.label>misil balístico táctico (en lanzamiento)</DMSE_Launch_Tochka.label>
-  <!-- EN: long-range loitering munition (launching) -->
-  <DMSE_Launch_Shahed.label>munición merodeadora de largo alcance (en lanzamiento)</DMSE_Launch_Shahed.label>
   <!-- EN: long-range loitering munition -->
   <DMSE_Missile_Shahed.label>munición merodeadora de largo alcance</DMSE_Missile_Shahed.label>
-  <!-- EN: A cheap, rail-launched delta-wing attack drone with a pusher propeller. Reaches distant targets with a small high-explosive warhead, but is slow and vulnerable to air defence. Delivered with inertial guidance and map-center circular normal dispersion. Fit an optional TV guidance module for one advanced component to choose an impact point; TV occupies two fire-control channels instead of one. Requires loitering munitions and microelectronics basics to manufacture. -->
+  <!-- EN: A cheap delta-wing attack drone with a pusher propeller, launched from a rail. It flies a long way with a small warhead, but it is slow and easy to shoot down.\n\nComes with inertial guidance, which scatters impacts around the center of the target map. An optional TV guidance module lets you pick the impact point, but uses an extra fire-control channel. -->
   <DMSE_Missile_Shahed.description>Un dron de ataque barato, de ala delta y hélice propulsora, que se lanza desde un riel. Alcanza objetivos lejanos con una pequeña ojiva explosiva, pero es lento y vulnerable a la defensa antiaérea. Llega con guiado inercial y una dispersión normal circular centrada en el mapa. Por un componente avanzado se le puede montar un módulo opcional de guiado por TV para elegir el punto de impacto; el guiado por TV ocupa dos canales de control de tiro en vez de uno. Para fabricarla hacen falta las investigaciones de municiones merodeadoras y de microelectrónicos básicos.</DMSE_Missile_Shahed.description>
   <!-- EN: long-range loitering munition (incoming) -->
   <DMSE_Incoming_Shahed.label>munición merodeadora de largo alcance (llegando)</DMSE_Incoming_Shahed.label>
   <!-- EN: passive acoustic radar -->
   <DMSE_AcousticEarlyWarningRadar.label>radar acústico pasivo</DMSE_AcousticEarlyWarningRadar.label>
-  <!-- EN: A pre-radar concrete acoustic mirror that passively gathers the engine noise of distant aircraft without emitting any electromagnetic signal or drawing power, leaving anti-radiation seekers nothing to lock onto at the cost of short range, vague bearings and near-blindness to stealthy or fast targets; what it provides is not fire control but an early and imprecise warning that something is coming. -->
+  <!-- EN: A concrete acoustic mirror that listens for distant engine noise. It needs no power and emits nothing, so anti-radiation missiles cannot find it. Its warnings come early but are vague, and it struggles to hear fast or stealthy targets.\n\nDetects incoming threats only, and cannot guide interceptors. -->
   <DMSE_AcousticEarlyWarningRadar.description>Un espejo acústico de hormigón, anterior al radar, que recoge en forma pasiva el ruido de los motores de aeronaves lejanas sin emitir ninguna señal electromagnética ni consumir energía. No les deja nada en qué fijarse a los buscadores antirradiación, a cambio de un alcance corto, de rumbos vagos y de estar casi ciego ante objetivos furtivos o rápidos. Lo que da no es control de tiro, sino un aviso temprano e impreciso de que algo se acerca.</DMSE_AcousticEarlyWarningRadar.description>
   <!-- EN: ballistic launch tower -->
   <DMSE_Building_BallisticRack.label>torre de lanzamiento balístico</DMSE_Building_BallisticRack.label>
-  <!-- EN: An old launch tower that stands a ballistic missile upright in a truss frame, simple and cheap but with no flame trench and no blast suppression, so that at ignition the exhaust and shockwave sweep outward to set nearby grass alight and injure anyone who did not walk far enough; it is good for throwing cheap airframes a long way and bad for building next to your own warehouse.\n\nThe airframe has no item form: colonists assemble it on the tower from raw materials. Swap airframes from the assembly tab; newer ones need their own research.\n\nCannot be installed on gravship decks. -->
+  <!-- EN: An old open truss tower that holds a ballistic missile upright. It is cheap, but has no flame trench: at launch, the blast sets nearby grass on fire and injures anyone standing too close.\n\nMissiles are assembled on the tower from raw materials and never exist as items. Switch airframes in the assembly tab; newer airframes require research.\n\nCannot be built on a gravship. -->
   <DMSE_Building_BallisticRack.description>Una vieja torre de lanzamiento que sostiene un misil balístico en posición vertical dentro de un armazón de celosía. Es simple y barata, pero no tiene foso de llamas ni supresión de la onda expansiva: al encenderse, el escape y la onda de choque barren los alrededores, prenden fuego a la hierba cercana y hieren a quien no se haya alejado lo suficiente. Sirve para lanzar fuselajes baratos muy lejos, y no para construirla al lado de tu propio almacén.\n\nEl fuselaje no existe como objeto: los colonos lo montan en la torre a partir de materias primas. Los fuselajes se cambian desde la pestaña Montaje; los más nuevos necesitan su propia investigación.\n\nNo se puede instalar en la cubierta de una gravinave.</DMSE_Building_BallisticRack.description>
-  <!-- EN: ballistic missile (leaving) -->
-  <DMSE_SkyFaller_BallisticMissile.label>misil balístico (saliendo)</DMSE_SkyFaller_BallisticMissile.label>
-  <!-- EN: ballistic missile (incoming) -->
-  <DMSE_Incoming_BallisticMissile.label>misil balístico (llegando)</DMSE_Incoming_BallisticMissile.label>
   <!-- EN: strategic missile silo -->
   <DMSE_Building_BallisticSilo.label>silo de misiles estratégicos</DMSE_Building_BallisticSilo.label>
-  <!-- EN: A semi-buried strategic missile silo whose heavy concrete hatches, layered shock absorption and blast suppression keep a launch from spilling onto its surroundings, among the most expensive and toughest structures a base can build and existing for a single missile.\n\nThe ballistic airframe is assembled directly in the silo by colonists consuming raw materials; once built, launch via the fire command at a world map target.\n\nCannot be installed on gravship decks. -->
+  <!-- EN: A semi-buried strategic missile silo with heavy concrete hatches and blast suppression, so a launch does not harm its surroundings. It is very expensive and very tough, and holds a single missile.\n\nMissiles are assembled in the silo from raw materials, then launched at a target on the world map.\n\nCannot be built on a gravship. -->
   <DMSE_Building_BallisticSilo.description>Un silo semienterrado de misiles estratégicos, cuyas pesadas compuertas de hormigón, su amortiguación de impactos en capas y su supresión de la onda expansiva evitan que un lanzamiento afecte a los alrededores. Está entre las estructuras más caras y resistentes que puede construir una base, y existe para un solo misil.\n\nEl fuselaje balístico lo montan los colonos directamente en el silo, consumiendo materias primas; una vez construido, se lanza con la orden de fuego contra un objetivo del mapa del mundo.\n\nNo se puede instalar en la cubierta de una gravinave.</DMSE_Building_BallisticSilo.description>
   <!-- EN: early fire control radar -->
   <DMSE_EarlyFireControlRadar.label>radar de control de tiro temprano</DMSE_EarlyFireControlRadar.label>
-  <!-- EN: An early fire-control radar that still needs a human operator to slew the dish onto the target with handwheels and an optical sight before reading the firing solution to the launcher, guiding only one interceptor at a time with slow locks and poor accuracy yet letting a colony put interceptors beyond the horizon long before integrated circuits mature. -->
+  <!-- EN: An early fire-control radar, aimed by hand with handwheels and an optical sight. It can guide only one interceptor at a time, locks on slowly and is not very accurate.\n\nRequires an operator. -->
   <DMSE_EarlyFireControlRadar.description>Un radar de control de tiro temprano que todavía necesita un operador humano para girar la antena hacia el objetivo con volantes de mano y una mira óptica, antes de pasarle la solución de tiro al lanzador. Guía un solo interceptor a la vez, tarda en fijar y es poco preciso, pero le permite a una colonia poner interceptores más allá del horizonte mucho antes de que maduren los circuitos integrados.</DMSE_EarlyFireControlRadar.description>
   <!-- EN: structural frame -->
   <DMSE_StructuralFrame_Section.label>armazón estructural</DMSE_StructuralFrame_Section.label>
@@ -142,11 +138,11 @@
   <DMSE_StaircaseExit_White.description>Una escalera de mano que lleva a la superficie.</DMSE_StaircaseExit_White.description>
   <!-- EN: rotary launch rail -->
   <DMSE_Building_RotaryLauncher.label>riel de lanzamiento giratorio</DMSE_Building_RotaryLauncher.label>
-  <!-- EN: An old 360-degree launcher whose rail is turned by hand crank and foot pedal, able to fire early loitering munitions and light missiles with a slew rate that depends on how fast the crank is turned and a reload that takes one round at a time, cheap, reliable and completely free of electronics at the cost of needing an operator at all times. -->
+  <!-- EN: An old launch rail that turns a full circle by hand crank. It fires early loitering munitions and light missiles, and reloads one round at a time.\n\nNeeds no power, but requires an operator at all times. -->
   <DMSE_Building_RotaryLauncher.description>Un viejo lanzador de 360 grados cuyo riel se gira con una manivela y un pedal. Dispara municiones merodeadoras tempranas y misiles ligeros; gira tan rápido como se mueva la manivela y se recarga de un proyectil a la vez. Es barato, confiable y no tiene nada de electrónica, a cambio de necesitar un operador en todo momento.</DMSE_Building_RotaryLauncher.description>
   <!-- EN: field air-defence system -->
   <DMSE_Building_FieldAirDefense.label>sistema de defensa antiaérea de campaña</DMSE_Building_FieldAirDefense.label>
-  <!-- EN: A gun-missile field air-defence system with two 30 mm cannon, four short-range missiles and a search and track radar packed into one turret that fires missiles under radar guidance and then uses the guns to mop up, the last line of mobile air defence, though the radar draws heavily, ammunition disappears at a frightening rate and switching it on greets every anti-radiation seeker in the world.\n\nFully automatic, no operator needed; the cannon also engages enemies on the map and uses steel as ammunition. -->
+  <!-- EN: A self-contained air-defense turret with twin autocannons, four short-range missiles and its own search and tracking radar. It engages targets with missiles first, then finishes them off with its guns.\n\nFully automatic. The cannons also fire on ground enemies and use steel as ammunition. The radar uses a lot of power, and its emissions can be tracked by anti-radiation missiles. -->
   <DMSE_Building_FieldAirDefense.description>Un sistema de defensa antiaérea de campaña de cañones y misiles, con dos cañones de 30 mm, cuatro misiles de corto alcance y un radar de búsqueda y seguimiento reunidos en una sola torreta. Dispara los misiles guiados por radar y después remata con los cañones. Es la última línea de la defensa antiaérea móvil, aunque el radar consume mucho, la munición se acaba a un ritmo alarmante y encenderlo es saludar a todos los buscadores antirradiación del mundo.\n\nEs totalmente automático y no necesita operador; el cañón también ataca a los enemigos del mapa y usa acero como munición.</DMSE_Building_FieldAirDefense.description>
   <!-- EN: Cannon rounds -->
   <DMSE_Building_FieldAirDefense.comps.CompRefuelable.fuelLabel>Proyectiles de cañón</DMSE_Building_FieldAirDefense.comps.CompRefuelable.fuelLabel>
@@ -164,15 +160,15 @@
   <DMSE_Bullet_FieldAirDefense.label>proyectil de 30 mm</DMSE_Bullet_FieldAirDefense.label>
   <!-- EN: search radar -->
   <DMSE_SearchRadar.label>radar de búsqueda</DMSE_SearchRadar.label>
-  <!-- EN: An active search radar whose rotating antenna sweeps the sky to feed bearings, ranges and headings to the whole air-defence net, unable to guide an intercept the way a fire-control radar can but leaving that radar a telescope in a blind man&apos;s hands without it, and drawing heavily while telling every anti-radiation seeker for tens of kilometres where the battery is. -->
+  <!-- EN: An active search radar with a rotating antenna. It finds and tracks incoming threats for the whole air-defense network, but cannot guide interceptors by itself.\n\nUses a lot of power. Its emissions can be tracked by anti-radiation missiles. -->
   <DMSE_SearchRadar.description>Un radar de búsqueda activo cuya antena giratoria barre el cielo para pasarle marcaciones, distancias y rumbos a toda la red de defensa antiaérea. No puede guiar una intercepción como un radar de control de tiro, pero sin él ese radar es un telescopio en manos de un ciego. Consume mucho y le dice a todo buscador antirradiación en decenas de kilómetros a la redonda dónde está la batería.</DMSE_SearchRadar.description>
   <!-- EN: fire control radar -->
   <DMSE_FireControlRadar.label>radar de control de tiro</DMSE_FireControlRadar.label>
-  <!-- EN: A dedicated fire-control radar able to track and guide four targets at once, refining the coarse tracks from a search radar into firing solutions and assigning them to interceptors with far more accuracy and responsiveness than the early sets, though it needs steady power and good cooling and becomes the most expensive target on the map once an anti-radiation missile has it. -->
+  <!-- EN: A dedicated fire-control radar. It turns search radar tracks into firing solutions and guides several interceptors at once, much faster and more accurately than early sets.\n\nNeeds a steady power supply. Its emissions can be tracked by anti-radiation missiles. -->
   <DMSE_FireControlRadar.description>Un radar de control de tiro dedicado, capaz de seguir y guiar cuatro objetivos a la vez. Afina las trazas aproximadas de un radar de búsqueda hasta convertirlas en soluciones de tiro y se las asigna a los interceptores con mucha más precisión y rapidez de respuesta que los equipos tempranos. Necesita energía estable y buena refrigeración, y se vuelve el objetivo más caro del mapa en cuanto un misil antirradiación se fija en él.</DMSE_FireControlRadar.description>
   <!-- EN: vertical launch silo -->
   <DMSE_Building_MediumVLS.label>silo de lanzamiento vertical</DMSE_Building_MediumVLS.label>
-  <!-- EN: A 2x2 vertical launcher with four cells sized for medium missiles, gas-ejecting each round from its tube before ignition through hatches and a flame trench built for repeated launches, letting medium missiles be deployed as densely as light ones at the cost of construction and upkeep.\n\nCannot be installed on gravship decks. -->
+  <!-- EN: A vertical launcher with four cells for medium missiles. Each missile is pushed out of its tube before igniting, and a built-in flame trench allows repeated launches. It is costly to build.\n\nCannot be built on a gravship. -->
   <DMSE_Building_MediumVLS.description>Un lanzador vertical de 2x2 con cuatro celdas de lanzamiento para misiles medianos. Expulsa cada misil del tubo con gas antes del encendido, y sus compuertas y su foso de llamas están hechos para lanzamientos repetidos: permite desplegar misiles medianos con la misma densidad que los ligeros, a cambio de su construcción y su mantenimiento.\n\nNo se puede instalar en la cubierta de una gravinave.</DMSE_Building_MediumVLS.description>
   <!-- EN: legacy flak gun -->
   <DMSE_Turret_LegacyFlak.label>cañón antiaéreo antiguo</DMSE_Turret_LegacyFlak.label>
@@ -212,6 +208,10 @@
   <DMSE_Gun_Millennium.verbs.Verb_Shoot.label>cañón revólver de 35 mm</DMSE_Gun_Millennium.verbs.Verb_Shoot.label>
   <!-- EN: 35 mm airburst round -->
   <DMSE_Bullet_Millennium.label>proyectil de estallido aéreo de 35 mm</DMSE_Bullet_Millennium.label>
+  <!-- EN: airburst fragmentation submunition -->
+  <DMSE_Bullet_AirburstFrag.label>submunición de fragmentación de estallido aéreo</DMSE_Bullet_AirburstFrag.label>
+  <!-- EN: 35 mm airburst fragmentation shell -->
+  <DMSE_Bullet_MillenniumAirburst.label>proyectil de fragmentación de estallido aéreo de 35 mm</DMSE_Bullet_MillenniumAirburst.label>
   <!-- EN: Fusion reactor -->
   <DMSE_FusionCore.label>reactor de fusión</DMSE_FusionCore.label>
   <!-- EN: A highly mature compact tokamak fusion reactor, commonly found in colonial fleets and ships used in the Enlightened World, has a built-in supercritical carbon dioxide turbine to provide power for its own cycle and ship equipment. However, its most crucial function is to preheat the ship&apos;s nuclear thermal propulsion system so that it can reach its maximum design power to move small-mass celestial bodies.\n\nOn a ship built from structural piles, each working fusion reactor supports up to two nuclear thermal thrusters. -->
@@ -246,11 +246,11 @@
   <DMSE_Incoming_LightMissile.label>misil ligero (llegando)</DMSE_Incoming_LightMissile.label>
   <!-- EN: tilt-launch container -->
   <DMSE_Building_LightMissileLauncher.label>contenedor de lanzamiento inclinado</DMSE_Building_LightMissileLauncher.label>
-  <!-- EN: A tilt-launch box holding four light missiles whose lid doubles as the launch rail, loading and firing automatically at the cost of hydraulics and power while four cells share one box to give decent salvo weight in a small footprint.\n\nStrike missiles are launched at targets beyond the local map; surface-to-air and dual-role missiles are also fired by the fire-control network as interceptors. -->
+  <!-- EN: An angled launch box that holds four light missiles. It loads and fires on its own, giving a solid salvo from a small footprint.\n\nRequires power. Strike missiles are launched at targets beyond the map. Surface-to-air and dual-role missiles are also fired by the fire-control network as interceptors. -->
   <DMSE_Building_LightMissileLauncher.description>Una caja de lanzamiento inclinado con cuatro misiles ligeros, cuya tapa sirve también de riel de lanzamiento. Carga y dispara automáticamente a costa de hidráulica y energía, y sus cuatro celdas en una sola caja dan una salva aceptable en poco espacio.\n\nLos misiles de ataque se lanzan contra objetivos más allá del mapa local; los misiles tierra-aire y los de doble función también los dispara la red de control de tiro como interceptores.</DMSE_Building_LightMissileLauncher.description>
   <!-- EN: light vertical launch cell -->
   <DMSE_Building_LightMissileVLS.label>celda de lanzamiento vertical ligera</DMSE_Building_LightMissileVLS.label>
-  <!-- EN: A 1x1 vertical launcher with four cells flush with the ground and sized only for light missiles, compact enough to ring a base&apos;s perimeter at the cost of loading each cell separately, with every opening hatch telling the enemy that something is here.\n\nCannot be installed on gravship decks. -->
+  <!-- EN: A ground-level vertical launcher with four cells for light missiles. It fits on a single tile, so it is easy to place along a perimeter, but each cell must be loaded separately.\n\nCannot be built on a gravship. -->
   <DMSE_Building_LightMissileVLS.description>Un lanzador vertical de 1x1 con cuatro celdas a ras de suelo, hechas solo para misiles ligeros. Es lo bastante compacto para rodear el perímetro de una base, a cambio de cargar cada celda por separado, y cada compuerta que se abre le avisa al enemigo que aquí hay algo.\n\nNo se puede instalar en la cubierta de una gravinave.</DMSE_Building_LightMissileVLS.description>
   <!-- EN: loitering munition (leaving) -->
   <DMSE_SkyFaller_Loiter.label>munición merodeadora (saliendo)</DMSE_SkyFaller_Loiter.label>
@@ -258,11 +258,11 @@
   <DMSE_Incoming_Loiter.label>munición merodeadora (llegando)</DMSE_Incoming_Loiter.label>
   <!-- EN: launch rail -->
   <DMSE_Building_LoiteringLauncher.label>riel de lanzamiento</DMSE_Building_LoiteringLauncher.label>
-  <!-- EN: A tilt rail for a single loitering munition, with no power and no servos, only a rail, a set of stops and a single round waiting to launch, cheap enough to line a perimeter with and fragile enough that one shell ends the whole rail.\n\nStrike munitions are launched at targets beyond the local map; an interceptor loitering munition on the rail is fired by the fire-control network instead. -->
+  <!-- EN: A simple tilted rail that holds one loitering munition. It needs no power and is cheap enough to line a perimeter with, but a single hit can destroy it.\n\nStrike munitions are launched at targets beyond the map. Interceptor munitions are fired automatically by the fire-control network. -->
   <DMSE_Building_LoiteringLauncher.description>Un riel inclinado para una sola munición merodeadora, sin energía ni servos: solo un riel, unos topes y una munición que espera su lanzamiento. Es tan barato que se puede llenar un perímetro con ellos, y tan frágil que un solo proyectil acaba con el riel entero.\n\nLas municiones de ataque se lanzan contra objetivos más allá del mapa local; una munición merodeadora interceptora en el riel, en cambio, la dispara la red de control de tiro.</DMSE_Building_LoiteringLauncher.description>
   <!-- EN: phased-array radar -->
   <DMSE_PhaseArrayRadar.label>radar de matriz en fase</DMSE_PhaseArrayRadar.label>
-  <!-- EN: A phased-array radar that combines search and fire control in a fixed face with electronic scanning and more than twenty simultaneous target channels, guiding over twenty missiles at once in attack or defence and acting as the brain of the whole air-defence net at the price of a large share of a base&apos;s power and a cost that makes any colony wince. -->
+  <!-- EN: A fixed phased-array radar that combines search and fire control. It can track and guide more than twenty missiles at once, in attack or defense, and serves as the core of an air-defense network.\n\nVery expensive, and draws a large share of a colony&apos;s power. -->
   <DMSE_PhaseArrayRadar.description>Un radar de matriz en fase que reúne búsqueda y control de tiro en una cara fija con barrido electrónico y más de veinte canales simultáneos de objetivos. Guía más de veinte misiles a la vez, en ataque o en defensa, y es el cerebro de toda la red de defensa antiaérea, al precio de una gran parte de la energía de la base y de un costo que hace estremecer a cualquier colonia.</DMSE_PhaseArrayRadar.description>
   <!-- EN: signal stealth device -->
   <DMSE_StealthDevice.label>dispositivo de ocultación de señales</DMSE_StealthDevice.label>
@@ -274,15 +274,15 @@
   <DMSE_SolarShield.description>Un enorme generador de campo magnético, muy usado por la flota colonial en las instalaciones orbitales automatizadas. Bloquea con eficacia la radiación solar entrante y protege la zona de las llamaradas solares.</DMSE_SolarShield.description>
   <!-- EN: loitering munition rack -->
   <DMSE_LoiteringRack.label>soporte de municiones merodeadoras</DMSE_LoiteringRack.label>
-  <!-- EN: A rack that hold loitering munitions. Stored Munition will not degrade. -->
+  <!-- EN: A rack that holds loitering munitions. Stored munitions do not deteriorate. -->
   <DMSE_LoiteringRack.description>Un soporte para municiones merodeadoras. La munición guardada no se deteriora.</DMSE_LoiteringRack.description>
   <!-- EN: missile rack -->
   <DMSE_MissileRack.label>soporte de misiles</DMSE_MissileRack.label>
-  <!-- EN: A metal rack that holds up to four light missiles. Missiles stored inside are sheltered from the elements and will not degrade. -->
+  <!-- EN: A metal rack that holds up to four light missiles. Stored missiles are protected from the weather and do not deteriorate. -->
   <DMSE_MissileRack.description>Un soporte metálico para hasta cuatro misiles ligeros. Los misiles guardados quedan protegidos de la intemperie y no se deterioran.</DMSE_MissileRack.description>
   <!-- EN: cruise missile rack -->
   <DMSE_CruiseMissileRack.label>soporte de misiles de crucero</DMSE_CruiseMissileRack.label>
-  <!-- EN: A 2x4 armoured rack that holds up to two cruise missiles. Missiles stored inside are sheltered from the elements and will not degrade. -->
+  <!-- EN: An armored rack that holds up to two cruise missiles. Stored missiles are protected from the weather and do not deteriorate. -->
   <DMSE_CruiseMissileRack.description>Un soporte blindado de 2x4 para hasta dos misiles de crucero. Los misiles guardados quedan protegidos de la intemperie y no se deterioran.</DMSE_CruiseMissileRack.description>
   <!-- EN: graphene battery -->
   <DMSE_Battery.label>batería de grafeno</DMSE_Battery.label>
@@ -310,16 +310,12 @@
   <DMSE_TableArtifuscle.description>Un enorme equipo industrial que se usa para montar artimúsculo y neutroamina.</DMSE_TableArtifuscle.description>
   <!-- EN: SAM launcher -->
   <DMSE_Building_RotaryMissileLauncher.label>lanzador de misiles tierra-aire</DMSE_Building_RotaryMissileLauncher.label>
-  <!-- EN: A four-round surface-to-air launcher on a rotating base, aimed and fired by a single operator, with no radar of its own and dependent on a fire-control radar to hand it a target, so that all the operator does is pull the trigger when the lamp lights and pray the seeker holds. -->
+  <!-- EN: A four-round surface-to-air launcher on a rotating base. It has no radar of its own and fires only at targets handed to it by a fire-control radar.\n\nRequires an operator. -->
   <DMSE_Building_RotaryMissileLauncher.description>Un lanzador tierra-aire de cuatro misiles sobre una base giratoria, que apunta y dispara un solo operador. No tiene radar propio y depende de un radar de control de tiro que le asigne un objetivo, así que lo único que hace el operador es apretar el gatillo cuando se enciende la luz y rezar para que el buscador no pierda el blanco.</DMSE_Building_RotaryMissileLauncher.description>
   <!-- EN: Scorer MLS -->
   <DMSE_Building_Scorer.label>Scorer MLS</DMSE_Building_Scorer.label>
-  <!-- EN: The S1120 &quot;Scorer&quot; is a cruise missile launch system. It is a highly versatile anti-ship missile launcher used on cruisers and armed landing ships of the Colonial Fleet. -->
+  <!-- EN: A cruise missile launch system used aboard the Colonial Fleet&apos;s cruisers and armed landing ships. It is a versatile launcher, most often used against ships. -->
   <DMSE_Building_Scorer.description>El S1120 «Scorer» es un sistema de lanzamiento de misiles de crucero (MLS, por sus siglas en inglés). Es un lanzador de misiles antibuque muy versátil que se usa en los cruceros y en los buques de desembarco armados de la Flota Colonial.</DMSE_Building_Scorer.description>
-  <!-- EN: cruise missile (leaving) -->
-  <DMSE_SkyFaller_CruiseMissile.label>misil de crucero (saliendo)</DMSE_SkyFaller_CruiseMissile.label>
-  <!-- EN: cruise missile (incoming) -->
-  <DMSE_Incoming_CruiseMissile.label>misil de crucero (llegando)</DMSE_Incoming_CruiseMissile.label>
   <!-- EN: interceptor missile -->
   <DMSE_SkyFaller_Interceptor.label>misil interceptor</DMSE_SkyFaller_Interceptor.label>
   <!-- EN: Squall -->
@@ -432,43 +428,45 @@
   <DMSE_VacuumRoom_Filled.label>entrada rellena</DMSE_VacuumRoom_Filled.label>
   <!-- EN: a filled entrance ready for deconstruct and recycle resources. -->
   <DMSE_VacuumRoom_Filled.description>Una entrada rellena, lista para desarmarla y recuperar los recursos.</DMSE_VacuumRoom_Filled.description>
-  <!-- EN: intercepting projectile -->
-  <DMSE_InterceptProjectile.label>proyectil interceptor</DMSE_InterceptProjectile.label>
   <!-- EN: advanced general-purpose missile -->
   <DMSE_Missile_AdvancedLight.label>misil de propósito general avanzado</DMSE_Missile_AdvancedLight.label>
-  <!-- EN: A Hellfire-class multi-role airframe with modern seekers and tight dispersion. Comes off the printer already loaded with a tandem shaped-charge warhead and an inertial unit; swap the loadout in the assembly tab if you want something else. -->
+  <!-- EN: A compact multi-role missile, accurate and able to carry more than older light missiles.\n\nComes with a tandem shaped-charge warhead and an automatic imaging seeker. The parts can be changed in the assembly tab. -->
   <DMSE_Missile_AdvancedLight.description>Un fuselaje multirol de la clase del Hellfire, con buscadores modernos y poca dispersión. Sale de fábrica ya cargado con una ojiva de carga hueca en tándem y una unidad inercial; cambia la configuración en la pestaña Montaje si quieres otra cosa.</DMSE_Missile_AdvancedLight.description>
   <!-- EN: advanced cruise missile -->
   <DMSE_Missile_AdvancedCruise.label>misil de crucero avanzado</DMSE_Missile_AdvancedCruise.label>
-  <!-- EN: A Tomahawk-class low-observable cruise missile: terrain-following, datalinked and far more accurate than the Scorer chassis it supersedes. It is delivered with a penetrating unitary warhead, terrain-matching guidance and a turbofan already fitted. -->
+  <!-- EN: A stealthy cruise missile that hugs the terrain on the way in. It is far more accurate than the older Scorer missile.\n\nComes with a penetrating warhead, terrain-matching guidance and a turbofan engine. The parts can be changed in the assembly tab. -->
   <DMSE_Missile_AdvancedCruise.description>Un misil de crucero furtivo de la clase del Tomahawk: sigue el terreno, tiene enlace de datos y es mucho más preciso que el chasis Scorer al que reemplaza. Se entrega con una ojiva penetrante unitaria, guiado por correlación del terreno y un turbofán ya montados.</DMSE_Missile_AdvancedCruise.description>
   <!-- EN: legacy loitering munition -->
   <DMSE_Missile_LegacyLoiter.label>munición merodeadora antigua</DMSE_Missile_LegacyLoiter.label>
-  <!-- EN: An early pulsejet-powered loitering munition whose boxy airframe and stubby straight wings are carried along a preset heading by a clockwork inertial autopilot, slow enough to give a radar operator time to make tea and inaccurate enough that a miss of tens of metres is normal, yet simple enough to need only steel, fuel and a simple jet tube to be thrown into the sky from a tilt rail; before anything better exists, this is what beyond-visual-range strike means. -->
+  <!-- EN: An early pulsejet loitering munition flown along a preset heading by a clockwork autopilot. It is slow, loud and inaccurate, but simple enough to build from little more than steel and fuel.\n\nFired from a launch rail. Comes in a fixed configuration. -->
   <DMSE_Missile_LegacyLoiter.description>Una munición merodeadora temprana, impulsada por pulsorreactor, cuyo fuselaje cuadrado y alas rectas y cortas siguen un rumbo preestablecido gracias a un piloto automático inercial de relojería. Es tan lenta que el operador de radar tiene tiempo de prepararse un té y tan imprecisa que fallar por decenas de metros es normal, pero tan simple que solo necesita acero, combustible y un tubo de reacción sencillo para lanzarla al cielo desde un riel inclinado; antes de que exista algo mejor, esto es lo que significa atacar más allá del alcance visual.</DMSE_Missile_LegacyLoiter.description>
   <!-- EN: legacy interceptor loitering munition -->
   <DMSE_Missile_Rheintochter.label>munición merodeadora interceptora antigua</DMSE_Missile_Rheintochter.label>
-  <!-- EN: A first-generation guided interceptor loitering munition whose four oversized fins and radio command link are paired with a solid motor that can barely catch a bomber, launched to circle over the target area and then flown onto an incoming aircraft by an operator with naked eyes and a joystick at a dispiriting hit rate; in an age when flak still relies on tracers and prayer, it is a genuine guided interceptor. -->
+  <!-- EN: An early guided interceptor with four oversized fins and a radio command link. After launch it circles over the target area until an operator steers it onto an incoming threat. It is slow and rarely hits, but it is a true guided interceptor.\n\nFired by the fire-control network. Comes in a fixed configuration. -->
   <DMSE_Missile_Rheintochter.description>Una munición merodeadora interceptora guiada de primera generación, cuyas cuatro aletas enormes y su enlace de mando por radio van con un motor de combustible sólido que apenas alcanza a un bombardero. Se lanza para sobrevolar en círculos la zona objetivo y luego un operador la dirige contra el avión que llega, a simple vista y con una palanca de mando, con un porcentaje de aciertos desalentador; en una época en que el fuego antiaéreo todavía depende de los trazadores y de las plegarias, es un verdadero interceptor guiado.</DMSE_Missile_Rheintochter.description>
   <!-- EN: light surface-to-air missile -->
   <DMSE_Missile_Stinger.label>misil tierra-aire ligero</DMSE_Missile_Stinger.label>
-  <!-- EN: A man-portable infrared-guided surface-to-air missile whose launch tube, sight and small round weigh under twenty kilograms all up, short-ranged and light-headed against fast or manoeuvring targets yet giving every infantry squad an air-defence option that does not wait for a radar and fits into any magazine with room to spare. -->
+  <!-- EN: A slim, man-portable heat-seeking anti-air missile. It has a short range and a small warhead, and struggles against fast or agile targets, but it fits in almost any launcher. -->
   <DMSE_Missile_Stinger.description>Un misil tierra-aire portátil guiado por infrarrojos, cuyo tubo de lanzamiento, mira y pequeño proyectil pesan en total menos de veinte kilos. Tiene poco alcance y una ojiva ligera contra blancos rápidos o que maniobran, pero le da a cada escuadra de infantería una opción de defensa antiaérea que no espera a un radar y que cabe de sobra en cualquier polvorín.</DMSE_Missile_Stinger.description>
   <!-- EN: ground-attack missile -->
   <DMSE_Missile_Maverick.label>misil de ataque a tierra</DMSE_Missile_Maverick.label>
-  <!-- EN: A television and infrared-guided light ground-attack missile, once hung under an attack aircraft&apos;s wing and now loaded into launch boxes, small and medium-ranged but with a seeker that lets an operator fly it onto the target in the terminal phase, making it deadly against point targets and armoured vehicles and better suited to deleting one specific thing from the map than to demolishing a base. -->
+  <!-- EN: A light ground-attack missile with a TV and infrared seeker. It is best at destroying one specific target, not at leveling a whole base. -->
   <DMSE_Missile_Maverick.description>Un misil ligero de ataque a tierra guiado por televisión e infrarrojos, que antes iba colgado bajo el ala de un avión de ataque y ahora se carga en cajas de lanzamiento. Es pequeño y de alcance medio, pero su buscador le permite a un operador dirigirlo contra el objetivo en la fase terminal, lo que lo hace mortal contra blancos puntuales y vehículos blindados, y más adecuado para borrar del mapa una cosa concreta que para demoler una base.</DMSE_Missile_Maverick.description>
   <!-- EN: advanced surface-to-air missile -->
   <DMSE_Missile_Sparrow.label>misil tierra-aire avanzado</DMSE_Missile_Sparrow.label>
-  <!-- EN: A semi-active radar-homing medium-range surface-to-air missile, slender with small fins and able to keep receiving the illuminator&apos;s signal through hard manoeuvres, faster, longer-legged and more accurate than a Stinger at the price of a fire-control radar that must keep illuminating the target, which is to say it was never a one-man weapon. -->
+  <!-- EN: A medium-range anti-air missile with semi-active radar homing. It is faster, longer-ranged and more accurate than light anti-air missiles, but a fire-control radar must keep the target illuminated until impact. -->
   <DMSE_Missile_Sparrow.description>Un misil tierra-aire de alcance medio con guiado por radar semiactivo, esbelto, de aletas pequeñas y capaz de seguir recibiendo la señal del iluminador durante maniobras bruscas. Es más rápido, de mayor alcance y más preciso que un Stinger, a cambio de un radar de control de tiro que tiene que seguir iluminando el objetivo; es decir, nunca fue un arma para una sola persona.</DMSE_Missile_Sparrow.description>
   <!-- EN: hypersonic anti-ship missile -->
   <DMSE_Missile_Yj.label>misil antibuque hipersónico</DMSE_Missile_Yj.label>
-  <!-- EN: A hypersonic anti-ship missile boosted by a solid rocket and cruised by a ramjet, with a terminal speed above Mach 5 and limited manoeuvring on an extremely low sea-skimming trajectory that leaves a defender tens of seconds to react, its cost and upkeep just as extreme and therefore reserved for targets that deserve it. -->
+  <!-- EN: A hypersonic anti-ship missile with a rocket booster and a ramjet cruise stage. Its very low, very fast final approach gives defenders little time to respond. It is extremely expensive. -->
   <DMSE_Missile_Yj.description>Un misil antibuque hipersónico, acelerado por un cohete de combustible sólido y llevado en crucero por un estatorreactor, con una velocidad terminal de más de Mach 5 y una capacidad de maniobra limitada en una trayectoria rasante sobre el mar, extremadamente baja, que le deja al defensor unas decenas de segundos para reaccionar. Su costo y su mantenimiento son igual de extremos, así que se reserva para los objetivos que lo merecen.</DMSE_Missile_Yj.description>
+  <!-- EN: tactical ballistic missile -->
+  <DMSE_Missile_Tochka.label>misil balístico táctico</DMSE_Missile_Tochka.label>
+  <!-- EN: A solid-fuel tactical ballistic missile, fired from a tilted launcher or a vertical launch cell. It climbs high, then dives steeply onto targets far away, accurate enough to hit a depot or command post. -->
+  <DMSE_Missile_Tochka.description>Un misil balístico táctico de combustible sólido, que se dispara desde un lanzador inclinado o desde una celda de lanzamiento vertical. Sube muy alto y después cae en picada sobre objetivos lejanos, con precisión suficiente para dar en un depósito o en un puesto de mando.</DMSE_Missile_Tochka.description>
   <!-- EN: anti-ship loitering munition -->
   <DMSE_Missile_Termite.label>munición merodeadora antibuque</DMSE_Missile_Termite.label>
-  <!-- EN: A folding-wing anti-ship loitering munition that skims the sea on a small turbojet and uses a passive radar and infrared seeker to find a hull in the terminal phase, slow and modestly armed but cheap, launchable from a ground rail, and inclined to go after moving ships, which is enough against an opponent without an Aegis system. -->
+  <!-- EN: A folding-wing anti-ship loitering munition powered by a small turbojet. It is slow and lightly armed, but cheap, fires from a ground rail and chases moving ships with its own seeker. -->
   <DMSE_Missile_Termite.description>Una munición merodeadora antibuque de alas plegables que vuela rasante sobre el mar con un pequeño turborreactor y usa un buscador pasivo de radar e infrarrojos para encontrar un casco en la fase terminal. Es lenta y de armamento modesto, pero barata, se puede lanzar desde un riel en tierra y tiende a ir tras los barcos en movimiento, lo que basta contra un rival sin un sistema Aegis.</DMSE_Missile_Termite.description>
   <!-- EN: Carbohydrate -->
   <DMSE_Carbohydrate.label>carbohidrato</DMSE_Carbohydrate.label>
@@ -490,7 +488,7 @@
   <DMSE_Nitrogallium.description>Un material semiconductor con una excelente conductividad térmica. Este compuesto monocristalino de aspecto vítreo se usa ampliamente en la mayoría de los mundos espaciales para reemplazar a los semiconductores de silicio en diversas aplicaciones electrónicas, y también puede evitar que las prótesis biónicas rechacen el tejido biológico. Su producción requiere un ambiente de vacío para evitar la contaminación química del aire: la estructura cristalina «crece» sobre un sustrato mediante deposición de vapor. Por eso, los mundos que usan este material a gran escala suelen tener instalaciones especializadas de producción al vacío para fabricarlo y procesarlo en un ambiente sellado.</DMSE_Nitrogallium.description>
   <!-- EN: supersonic anti-ship missile -->
   <DMSE_Missile_Moskit.label>misil antibuque supersónico</DMSE_Missile_Moskit.label>
-  <!-- EN: A ramjet-powered supersonic anti-ship missile that climbs after launch before diving to skim the sea with a terminal speed that compresses a close-in defence system&apos;s reaction time to seconds, big, thirsty and complicated at several times the price of a loitering munition, yet one round is enough to take a frigate out of the fight. -->
+  <!-- EN: A large ramjet-powered supersonic anti-ship missile. It skims the sea on its final approach, leaving close-in defenses only seconds to react. It is expensive, but one hit can take a warship out of the fight. -->
   <DMSE_Missile_Moskit.description>Un misil antibuque supersónico impulsado por estatorreactor que asciende después del lanzamiento y luego pica para volar rasante sobre el mar, con una velocidad terminal que reduce a segundos el tiempo de reacción de un sistema de defensa de corto alcance. Es grande, gasta mucho combustible, es complicado y cuesta varias veces lo que una munición merodeadora, pero basta uno solo para dejar fuera de combate a una fragata.</DMSE_Missile_Moskit.description>
   <!-- EN: interceptor missile -->
   <DMSE_InterceptorMissile.label>misil interceptor</DMSE_InterceptorMissile.label>
@@ -498,11 +496,11 @@
   <DMSE_InterceptorMissile.description>Un proyectil interceptor tierra-aire listo para disparar. Se carga en el contenedor interno de un lanzador de misiles tierra-aire y se gasta uno por enfrentamiento para destruir las amenazas entrantes durante la fase intermedia del combate más allá del alcance visual.</DMSE_InterceptorMissile.description>
   <!-- EN: field air-defence missile -->
   <DMSE_Missile_Grison.label>misil de defensa antiaérea de campaña</DMSE_Missile_Grison.label>
-  <!-- EN: A short-range surface-to-air missile for gun-missile air-defence systems, steered by radio command and sharing a radar and an electro-optical sight with a coaxial cannon, so that the crew need not watch the sky constantly even as the radar, once switched on, becomes a lamp in the dark that anti-radiation seekers love. -->
+  <!-- EN: A short-range anti-air missile for field air-defense turrets, steered onto its target by radio command. -->
   <DMSE_Missile_Grison.description>Un misil tierra-aire de corto alcance para sistemas de defensa antiaérea de cañón y misil, dirigido por mando por radio, que comparte un radar y una mira electroóptica con un cañón coaxial. Así la dotación no tiene que vigilar el cielo todo el tiempo, aunque el radar, una vez encendido, se vuelve una lámpara en la oscuridad que a los buscadores antirradiación les encanta.</DMSE_Missile_Grison.description>
   <!-- EN: man-portable SAM launcher -->
   <DMSE_Apparel_SamLauncher.label>lanzador de misiles tierra-aire portátil</DMSE_Apparel_SamLauncher.label>
-  <!-- EN: A shoulder-carried surface-to-air launcher whose tube, grip, rudimentary IFF antenna and helmet-linked sight let one person fire an interceptor at a beyond-visual-range track, provided the operator stands still to complete the lock. It is slung across the back, leaving the hands free for a primary weapon.\n\nLoad it with light surface-to-air missiles. The air-defence command engages incoming threats that your radar network has already tracked on this map; it needs no fire-control channel. -->
+  <!-- EN: A shoulder-fired anti-air launcher with a simple friend-or-foe antenna and a helmet-linked sight. It is carried on the back, leaving the hands free for a main weapon. The user must stand still to lock on.\n\nLoad with light surface-to-air missiles. It fires at incoming threats already tracked by your radar network on this map, and needs no fire-control channel. -->
   <DMSE_Apparel_SamLauncher.description>Un lanzador tierra-aire que se lleva al hombro. Su tubo, su empuñadura, una antena IFF (identificación amigo-enemigo) rudimentaria y una mira conectada al casco le permiten a una sola persona disparar un interceptor contra un blanco rastreado más allá del alcance visual, siempre que se quede quieta hasta completar la fijación. Va colgado a la espalda y deja las manos libres para un arma principal.\n\nCárgalo con misiles tierra-aire ligeros. El mando de defensa antiaérea ataca las amenazas entrantes que tu red de radares ya rastreó en este mapa; no necesita un canal de control de tiro.</DMSE_Apparel_SamLauncher.description>
   <!-- EN: missile -->
   <DMSE_Apparel_SamLauncher.comps.CompManPortableSAM.chargeNoun>misil</DMSE_Apparel_SamLauncher.comps.CompManPortableSAM.chargeNoun>
@@ -656,6 +654,24 @@
   <DMSE_Bullet_20x102mmNATO_HE_HV.label>bala 20x102mm NATO (AP-HE)</DMSE_Bullet_20x102mmNATO_HE_HV.label>
   <!-- EN: 20x102mm NATO bullet (Sabot) -->
   <DMSE_Bullet_20x102mmNATO_Sabot_HV.label>bala 20x102mm NATO (Sabot)</DMSE_Bullet_20x102mmNATO_Sabot_HV.label>
+  <!-- EN: 37x250mmR high-explosive cartridge fed from eight-round clips to interwar and wartime anti-aircraft guns. -->
+  <DMSE_Ammo_37x250mmFlak_AP.description>Cartucho explosivo 37x250mmR que se carga en peines de ocho en los cañones antiaéreos de entreguerras y de tiempos de guerra.</DMSE_Ammo_37x250mmFlak_AP.description>
+  <!-- EN: 37x250mmR flak cartridge (AP) -->
+  <DMSE_Ammo_37x250mmFlak_AP.label>cartucho antiaéreo 37x250mmR (AP)</DMSE_Ammo_37x250mmFlak_AP.label>
+  <!-- EN: 37x250mmR high-explosive cartridge fed from eight-round clips to interwar and wartime anti-aircraft guns. -->
+  <DMSE_Ammo_37x250mmFlak_Incendiary.description>Cartucho explosivo 37x250mmR que se carga en peines de ocho en los cañones antiaéreos de entreguerras y de tiempos de guerra.</DMSE_Ammo_37x250mmFlak_Incendiary.description>
+  <!-- EN: 37x250mmR flak cartridge (AP-I) -->
+  <DMSE_Ammo_37x250mmFlak_Incendiary.label>cartucho antiaéreo 37x250mmR (AP-I)</DMSE_Ammo_37x250mmFlak_Incendiary.label>
+  <!-- EN: 37x250mmR high-explosive cartridge fed from eight-round clips to interwar and wartime anti-aircraft guns. -->
+  <DMSE_Ammo_37x250mmFlak_HE.description>Cartucho explosivo 37x250mmR que se carga en peines de ocho en los cañones antiaéreos de entreguerras y de tiempos de guerra.</DMSE_Ammo_37x250mmFlak_HE.description>
+  <!-- EN: 37x250mmR flak cartridge (AP-HE) -->
+  <DMSE_Ammo_37x250mmFlak_HE.label>cartucho antiaéreo 37x250mmR (AP-HE)</DMSE_Ammo_37x250mmFlak_HE.label>
+  <!-- EN: 37x250mmR flak bullet (AP) -->
+  <DMSE_Bullet_37x250mmFlak_AP.label>bala antiaérea 37x250mmR (AP)</DMSE_Bullet_37x250mmFlak_AP.label>
+  <!-- EN: 37x250mmR flak bullet (AP-I) -->
+  <DMSE_Bullet_37x250mmFlak_Incendiary.label>bala antiaérea 37x250mmR (AP-I)</DMSE_Bullet_37x250mmFlak_Incendiary.label>
+  <!-- EN: 37x250mmR flak bullet (AP-HE) -->
+  <DMSE_Bullet_37x250mmFlak_HE.label>bala antiaérea 37x250mmR (AP-HE)</DMSE_Bullet_37x250mmFlak_HE.label>
   <!-- EN: The design purpose of this ammunition is to experiment with tungsten steel as a new material for projectiles, while extensively testing the PELE (Penetration with Enhanced Lateral Effects) ammunition design in order to gather comprehensive feedback for performance improvements. -->
   <DMSE_Ammo_762x385mmRCannonShell_PELE.description>Esta munición se diseñó para experimentar con el tungstanio como nuevo material para proyectiles y, a la vez, para probar a fondo el diseño de munición PELE (penetración con efectos laterales mejorados, por sus siglas en inglés), con el fin de reunir información completa para mejorar su rendimiento.</DMSE_Ammo_762x385mmRCannonShell_PELE.description>
   <!-- EN: 76.2x385mmR cannon shell (PELE-Tungsteel) -->

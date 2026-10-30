@@ -1,5 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- EN: no detection -->
+  <DMSE.AirAlert.Stage1>sin detección</DMSE.AirAlert.Stage1>
+  <!-- EN: early warning -->
+  <DMSE.AirAlert.Stage2>alerta temprana</DMSE.AirAlert.Stage2>
+  <!-- EN: passive intercept -->
+  <DMSE.AirAlert.Stage3>intercepción pasiva</DMSE.AirAlert.Stage3>
+  <!-- EN: active intercept -->
+  <DMSE.AirAlert.Stage4>intercepción activa</DMSE.AirAlert.Stage4>
+  <!-- EN: blockade -->
+  <DMSE.AirAlert.Stage5>bloqueo</DMSE.AirAlert.Stage5>
+  <!-- EN: Air alert: {0} ({1}) -->
+  <DMSE.AirAlert.InspectStage>Alerta aérea: {0} ({1})</DMSE.AirAlert.InspectStage>
+  <!-- EN: Disabled: {0} -->
+  <DMSE.AirAlert.InspectUnavailable>Desactivada: {0}</DMSE.AirAlert.InspectUnavailable>
+  <!-- EN: Blockade in {0} -->
+  <DMSE.AirAlert.InspectBlockadePending>Bloqueo en {0}</DMSE.AirAlert.InspectBlockadePending>
+  <!-- EN: Blockade: {0} tiles -->
+  <DMSE.AirAlert.InspectBlockadeActive>Bloqueo: {0} celdas</DMSE.AirAlert.InspectBlockadeActive>
+  <!-- EN: no air defense -->
+  <DMSE.AirAlert.Unavailable.NoEquipment>sin defensa antiaérea</DMSE.AirAlert.Unavailable.NoEquipment>
+  <!-- EN: no air-defense node -->
+  <DMSE.AirAlert.Unavailable.NoNode>sin nodo de defensa antiaérea</DMSE.AirAlert.Unavailable.NoNode>
+  <!-- EN: radar starting -->
+  <DMSE.AirAlert.Unavailable.WarmingUp>radar en arranque</DMSE.AirAlert.Unavailable.WarmingUp>
+  <!-- EN: radar suppressed -->
+  <DMSE.AirAlert.Unavailable.RadarDown>radar suprimido</DMSE.AirAlert.Unavailable.RadarDown>
+  <!-- EN: no interceptors -->
+  <DMSE.AirAlert.Unavailable.NoAmmo>sin interceptores</DMSE.AirAlert.Unavailable.NoAmmo>
+  <!-- EN: no fire control -->
+  <DMSE.AirAlert.Unavailable.NoFireControl>sin control de tiro</DMSE.AirAlert.Unavailable.NoFireControl>
+  <!-- EN: no radar coverage -->
+  <DMSE.AirAlert.Unavailable.NoTracking>sin cobertura de radar</DMSE.AirAlert.Unavailable.NoTracking>
+  <!-- EN: Blockade announced -->
+  <DMSE.AirAlert.BlockadeNoticeLabel>Bloqueo anunciado</DMSE.AirAlert.BlockadeNoticeLabel>
+  <!-- EN: In {3}, {0} will close the airspace within {2} tiles of {1} to non-allied craft. -->
+  <DMSE.AirAlert.BlockadeNoticeText>En {3}, {0} cerrará a las aeronaves no aliadas el espacio aéreo a menos de {2} celdas de {1}.</DMSE.AirAlert.BlockadeNoticeText>
+  <!-- EN: Blockade in effect -->
+  <DMSE.AirAlert.BlockadeActiveLabel>Bloqueo en vigor</DMSE.AirAlert.BlockadeActiveLabel>
+  <!-- EN: {0} has closed the airspace within {2} tiles of {1}. -->
+  <DMSE.AirAlert.BlockadeActiveText>{0} cerró el espacio aéreo a menos de {2} celdas de {1}.</DMSE.AirAlert.BlockadeActiveText>
+  <!-- EN: {0} called off the blockade at {1}. -->
+  <DMSE.AirAlert.BlockadeCancelled>{0} canceló el bloqueo de {1}.</DMSE.AirAlert.BlockadeCancelled>
+  <!-- EN: {0} lifted the blockade at {1}. -->
+  <DMSE.AirAlert.BlockadeLifted>{0} levantó el bloqueo de {1}.</DMSE.AirAlert.BlockadeLifted>
+  <!-- EN: {1} is intercepting your missile. -->
+  <DMSE.AirAlert.EngagingPlayer>{1} está interceptando tu misil.</DMSE.AirAlert.EngagingPlayer>
+  <!-- EN: Neutral air defense -->
+  <DMSE.AirAlert.NeutralInterceptLabel>Defensa antiaérea neutral</DMSE.AirAlert.NeutralInterceptLabel>
+  <!-- EN: {1} ({0}) will intercept non-allied missiles in its airspace, including yours. -->
+  <DMSE.AirAlert.NeutralInterceptText>{1} ({0}) interceptará los misiles no aliados que entren en su espacio aéreo, incluidos los tuyos.</DMSE.AirAlert.NeutralInterceptText>
+  <!-- EN: Interceptor disarmed: {0} is allied. -->
+  <DMSE.AirAlert.InterceptorSafed>Interceptor desarmado: {0} es aliado.</DMSE.AirAlert.InterceptorSafed>
+  <!-- EN: Route crosses {0}&apos;s blockade ({1}, {2} tiles). -->
+  <DMSE.Airspace.Blocked>La ruta cruza el bloqueo de {0} ({1}, {2} celdas).</DMSE.Airspace.Blocked>
   <!-- EN: Undetected -->
   <DMSE.BVR.World.Undetected>Sin detectar</DMSE.BVR.World.Undetected>
   <!-- EN: Detected -->
@@ -98,6 +152,8 @@
   <DMSE.Strike.NoRoundsAssigned>Asigna al menos un misil a una oleada</DMSE.Strike.NoRoundsAssigned>
   <!-- EN: At most {0} missiles per mission -->
   <DMSE.Strike.TooManyRounds>Como máximo {0} misiles por misión</DMSE.Strike.TooManyRounds>
+  <!-- EN: At most {0} missiles per wave -->
+  <DMSE.Strike.WaveRoundLimit>Como máximo {0} misiles por oleada</DMSE.Strike.WaveRoundLimit>
   <!-- EN: At most {0} waves per mission -->
   <DMSE.Strike.TooManyWaves>Como máximo {0} oleadas por misión</DMSE.Strike.TooManyWaves>
   <!-- EN: Wave {0} requires {1} guidance channels; capacity is {2} -->
@@ -154,8 +210,10 @@
   <DMSE.Strike.Plan.Title>Plan de ataque por oleadas: {0}</DMSE.Strike.Plan.Title>
   <!-- EN: Target: {0} ({1} tiles) -->
   <DMSE.Strike.Plan.Target>Objetivo: {0} ({1} celdas)</DMSE.Strike.Plan.Target>
-  <!-- EN: Guidance channels: {0} (free {1}) · wave limit {0} · guidance period {2} -->
+  <!-- EN: Guidance channels: {0} (free {1}) · guidance period {2} -->
   <DMSE.Strike.Plan.Channels>Canales de guiado: {0} (libres {1}) · límite por oleada {0} · periodo de guiado {2}</DMSE.Strike.Plan.Channels>
+  <!-- EN: Wave limit: {0} missiles -->
+  <DMSE.Strike.Plan.WaveRoundLimit>Límite por oleada: {0} misiles</DMSE.Strike.Plan.WaveRoundLimit>
   <!-- EN: This site has no map yet. The first missile to arrive generates it, and the site&apos;s own air defense, with fully loaded SAMs, then engages the missiles still in flight. -->
   <DMSE.Strike.Plan.SiteWarning>Este sitio todavía no tiene mapa. El primer misil que llegue lo genera, y entonces la defensa aérea del propio sitio, con los SAM a plena carga, ataca a los misiles que sigan en vuelo.</DMSE.Strike.Plan.SiteWarning>
   <!-- EN: Available missiles: {0} -->
@@ -272,7 +330,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.Strike.Report.Label>Resultados de {0}</DMSE.Strike.Report.Label>
   <!-- EN: {0} on {1}, launched from {2}: -->
   <DMSE.Strike.Report.Header>{0} sobre {1}, lanzada desde {2}:</DMSE.Strike.Report.Header>
-  <!-- EN: Wave {0}: {1} launched — {2} intercepted in flight, {3} hit, {4} shot down at the target, {5} missed -->
+  <!-- EN: Wave {0}: {1} launched: {2} intercepted in flight, {3} hit, {4} shot down at the target, {5} missed -->
   <DMSE.Strike.Report.Wave>Oleada {0}: {1} lanzados — {2} interceptados en vuelo, {3} impactos, {4} derribados en el objetivo, {5} fallidos</DMSE.Strike.Report.Wave>
   <!-- EN: , {0} stopped by shields -->
   <DMSE.Strike.Report.WaveShieldBlocked>, {0} detenidos por escudos</DMSE.Strike.Report.WaveShieldBlocked>
@@ -302,7 +360,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.Strike.ChannelCost>Canales de guiado por misil: {0}</DMSE.Strike.ChannelCost>
   <!-- EN: Currently active -->
   <DMSE.UI.ActiveConfig>Configuración activa</DMSE.UI.ActiveConfig>
-  <!-- EN: Pending assembly — not yet active -->
+  <!-- EN: Pending assembly: not yet active -->
   <DMSE.UI.PendingConfig>Montaje pendiente: todavía no está activa</DMSE.UI.PendingConfig>
   <!-- EN: Damage -->
   <DMSE.UI.DamageChange>Daño</DMSE.UI.DamageChange>
@@ -352,11 +410,9 @@ Enable research work for a colonist on that map. -->
   <DMSE.MissileBase.Destroyed>Posición de misiles destruida</DMSE.MissileBase.Destroyed>
   <!-- EN: Your colonists have destroyed all radars and launch facilities at the enemy missile position. The missile threat from this position has been neutralized. -->
   <DMSE.MissileBase.DestroyedDesc>Tus colonos destruyeron todos los radares y las instalaciones de lanzamiento de la posición enemiga de misiles. La amenaza de misiles de esa posición quedó neutralizada.</DMSE.MissileBase.DestroyedDesc>
-  <!-- EN: This area is within {0} tiles of an enemy missile position&apos;s anti-air denial zone. Shuttle takeoff and landing are not possible here. -->
-  <DMSE.MissileBase.ShuttleBlocked>Esta zona está a menos de {0} celdas de la zona de exclusión antiaérea de una posición enemiga de misiles. Aquí no pueden despegar ni aterrizar transbordadores.</DMSE.MissileBase.ShuttleBlocked>
-  <!-- EN: Ground access denied — enemy regrouping ({0}) -->
+  <!-- EN: Ground access denied: enemy regrouping ({0}) -->
   <DMSE.MissileBase.ReentryBlockedIn>Acceso terrestre denegado: el enemigo se está reagrupando ({0})</DMSE.MissileBase.ReentryBlockedIn>
-  <!-- EN: Access denied — enemy regrouping ({0}) -->
+  <!-- EN: Access denied: enemy regrouping ({0}) -->
   <DMSE.MissileBase.ReentryBlocked>Acceso denegado: el enemigo se está reagrupando ({0})</DMSE.MissileBase.ReentryBlocked>
   <!-- EN: Your pawns have arrived at a missile launch position. The enemy has deployed fire control radars and launch vehicles here, continuously striking nearby colonies. Destroying all radars will neutralize their strike capability. -->
   <DMSE.MissileBase.ArrivedLetter>Tu gente llegó a una posición de lanzamiento de misiles. El enemigo desplegó aquí radares de control de tiro y vehículos lanzadores, y ataca sin pausa a las colonias cercanas. Destruir todos los radares neutralizará su capacidad de ataque.</DMSE.MissileBase.ArrivedLetter>
@@ -378,7 +434,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.Alert.HuntdownThreatCritical>Cacería en camino</DMSE.Alert.HuntdownThreatCritical>
   <!-- EN: the position of Stele has been tracked down, hunting squad and possible air strike will arrive in no time, transfer before it&apos;s too late. -->
   <DMSE.Alert.HuntdownThreatCritical.Desc>Rastrearon la posición de la Estela: un escuadrón de cacería, y quizás un ataque aéreo, llegarán en cualquier momento. Haz la transferencia antes de que sea tarde.</DMSE.Alert.HuntdownThreatCritical.Desc>
-  <!-- EN: {0} incoming threats — interception window: {1} left -->
+  <!-- EN: {0} incoming threats, interception window: {1} left -->
   <DMSE.Alert.Pods>{0} amenazas entrantes — ventana de intercepción: quedan {1}</DMSE.Alert.Pods>
   <!-- EN: Midcourse intercept window: {0} -->
   <DMSE.Alert.Pods.Window.Midcourse>Ventana de intercepción a mitad de trayecto: {0}</DMSE.Alert.Pods.Window.Midcourse>
@@ -472,11 +528,11 @@ Enable research work for a colonist on that map. -->
   <DMSE.Alert.Exist.ClickHint>Haz clic para terminar antes la observación.</DMSE.Alert.Exist.ClickHint>
   <!-- EN: End observation now? The map will no longer be held open and may be cleaned up by the game. -->
   <DMSE.Alert.Exist.EndEarly.Confirm>¿Terminar la observación ahora? El mapa ya no se mantendrá abierto y el juego podría limpiarlo.</DMSE.Alert.Exist.EndEarly.Confirm>
-  <!-- EN: End observation early?\n\nThe enemy crew will have the opportunity to regroup — the launch position&apos;s defenses and timers will reset, as if the observation never happened.\n\nThis cannot be undone. -->
+  <!-- EN: End observation early?\n\nThe enemy crew will have the opportunity to regroup. The launch position&apos;s defenses and timers will reset, as if the observation never happened.\n\nThis cannot be undone. -->
   <DMSE.Alert.Exist.EndEarly.Confirm.MissileBase>¿Terminar antes la observación?\n\nLa dotación enemiga tendrá la oportunidad de reagruparse: las defensas y los temporizadores de la posición de lanzamiento se restablecerán, como si la observación nunca hubiera ocurrido.\n\nEsto no se puede deshacer.</DMSE.Alert.Exist.EndEarly.Confirm.MissileBase>
   <!-- EN: Observation ended early. Enemy forces may regroup. -->
   <DMSE.Alert.Exist.ObservationEnded>La observación terminó antes de tiempo. Las fuerzas enemigas podrían reagruparse.</DMSE.Alert.Exist.ObservationEnded>
-  <!-- EN: {0} missiles outbound — first impact in {1} -->
+  <!-- EN: {0} missiles outbound: first impact in {1} -->
   <DMSE.Alert.PlayerMissiles.Label>{0} misiles en camino — primer impacto en {1}</DMSE.Alert.PlayerMissiles.Label>
   <!-- EN: Target: {0} -->
   <DMSE.Alert.PlayerMissiles.MapHeader>Objetivo: {0}</DMSE.Alert.PlayerMissiles.MapHeader>
@@ -512,6 +568,20 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.Settings.GodModeInstantAssembly>Modo Dios: montaje instantáneo de misiles</DMSE.Missile.Settings.GodModeInstantAssembly>
   <!-- EN: While god mode is on, missile and ballistic silo refits finish immediately: no confirmation, hauling or assembly work, and no resources are used. Parts are available without research. Removed parts are not refunded. -->
   <DMSE.Missile.Settings.GodModeInstantAssemblyDesc>Con el modo Dios activo, las reconfiguraciones de misiles y de silos balísticos terminan al instante: sin confirmación, sin transporte ni trabajo de montaje, y sin gastar recursos. Las partes están disponibles sin investigación. Las partes que se quitan no se reembolsan.</DMSE.Missile.Settings.GodModeInstantAssemblyDesc>
+  <!-- EN: Intercept debris causes damage -->
+  <DMSE.BVR.Settings.InterceptDebrisDamage>Los restos de intercepción hacen daño</DMSE.BVR.Settings.InterceptDebrisDamage>
+  <!-- EN: Large debris from intercepted missiles and drop pods deals light blunt damage where it lands. Roofs stop it. When off, debris only leaves dust, sparks and rubble. -->
+  <DMSE.BVR.Settings.InterceptDebrisDamageDesc>Los restos grandes de los misiles y las cápsulas de escape interceptados hacen un daño contundente leve donde caen. Los techos los detienen. Si está desactivado, los restos solo dejan polvo, chispas y escombros.</DMSE.BVR.Settings.InterceptDebrisDamageDesc>
+  <!-- EN: Intercept effect density -->
+  <DMSE.BVR.Settings.InterceptFxDensity>Densidad de los efectos de intercepción</DMSE.BVR.Settings.InterceptFxDensity>
+  <!-- EN: How many fragments, smoke puffs and trail puffs an interception makes. Lower it if large salvos slow the game down. Large debris still lands at every setting. -->
+  <DMSE.BVR.Settings.InterceptFxDensityDesc>Cuántos fragmentos y nubes de humo, sueltas y del rastro, deja una intercepción. Bájala si las salvas grandes hacen más lento el juego. Los restos grandes caen igual con cualquier valor.</DMSE.BVR.Settings.InterceptFxDensityDesc>
+  <!-- EN: Low -->
+  <DMSE.BVR.Settings.InterceptFxDensity0>Baja</DMSE.BVR.Settings.InterceptFxDensity0>
+  <!-- EN: Medium -->
+  <DMSE.BVR.Settings.InterceptFxDensity1>Media</DMSE.BVR.Settings.InterceptFxDensity1>
+  <!-- EN: High -->
+  <DMSE.BVR.Settings.InterceptFxDensity2>Alta</DMSE.BVR.Settings.InterceptFxDensity2>
   <!-- EN: Pending stats (after assembly) -->
   <DMSE.Missile.Stats>Estadísticas pendientes (tras el montaje)</DMSE.Missile.Stats>
   <!-- EN: Blast radius: {0} -->
@@ -536,7 +606,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.MissileLauncher.OutOfRange>El objetivo está fuera del alcance del misil ({0} celdas).</DMSE.MissileLauncher.OutOfRange>
   <!-- EN: {0} / {1} tiles -->
   <DMSE.MissileLauncher.RangeLabel>{0} / {1} celdas</DMSE.MissileLauncher.RangeLabel>
-  <!-- EN: No target at this location — the missile will be wasted -->
+  <!-- EN: No target at this location: the missile will be wasted -->
   <DMSE.MissileLauncher.NoTargetHere>No hay ningún objetivo en este lugar: el misil se desperdiciará</DMSE.MissileLauncher.NoTargetHere>
   <!-- EN: Striking across orbital layers requires a guided missile. Inertial guidance and unguided munitions cannot. -->
   <DMSE.Missile.CrossLayerNeedsGuidance>Atacar entre capas orbitales requiere un misil guiado. El guiado inercial y la munición sin guiado no pueden.</DMSE.Missile.CrossLayerNeedsGuidance>
@@ -552,7 +622,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.Inspect>Cuerpo: {0}\nOjiva: {1}\nExplosión: {2} / {3} de daño</DMSE.Missile.Inspect>
   <!-- EN: Needs (for assembly): {0} -->
   <DMSE.Missile.NeedResources>Necesita (para el montaje): {0}</DMSE.Missile.NeedResources>
-  <!-- EN: Resources ready — confirm to begin assembly -->
+  <!-- EN: Resources ready: confirm to begin assembly -->
   <DMSE.Missile.ReadyToAssemble>Recursos listos: confirma para empezar el montaje</DMSE.Missile.ReadyToAssemble>
   <!-- EN: No resources available to assemble -->
   <DMSE.Missile.NoResources>No hay recursos disponibles para el montaje</DMSE.Missile.NoResources>
@@ -560,7 +630,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.EditingSlot>Editando el misil 1 de {0} del soporte</DMSE.Missile.EditingSlot>
   <!-- EN: Queue for assembly -->
   <DMSE.Missile.ConfirmAssembly>Poner en cola para montaje</DMSE.Missile.ConfirmAssembly>
-  <!-- EN: Assembly queued — colonists will begin shortly -->
+  <!-- EN: Assembly queued: colonists will begin shortly -->
   <DMSE.Missile.AssemblyQueued>Montaje en cola: los colonos empezarán en breve</DMSE.Missile.AssemblyQueued>
   <!-- EN: Reset to assembled config -->
   <DMSE.Missile.ResetToCurrent>Volver a la configuración montada</DMSE.Missile.ResetToCurrent>
@@ -586,6 +656,8 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.SeekerLocked>{0} fijó un objetivo. El misil está cayendo.</DMSE.Missile.SeekerLocked>
   <!-- EN: inertial guidance -->
   <DMSE.Guidance.Inertial>guiado inercial</DMSE.Guidance.Inertial>
+  <!-- EN: radio-command guidance -->
+  <DMSE.Guidance.RadioCommand>guiado por mando de radio</DMSE.Guidance.RadioCommand>
   <!-- EN: {0}: you choose the impact point on arrival -->
   <DMSE.Guidance.ManualTarget>{0}: eliges el punto de impacto al llegar</DMSE.Guidance.ManualTarget>
   <!-- EN: {0}: locks a target automatically on arrival -->
@@ -610,6 +682,42 @@ Enable research work for a colonist on that map. -->
   <DMSE_MissileRackStored>Misiles almacenados: {0} / {1}</DMSE_MissileRackStored>
   <!-- EN: Inventory -->
   <DMSE.Tab.MissileInventory>Inventario</DMSE.Tab.MissileInventory>
+  <!-- EN: Features -->
+  <DMSE.MissileInventory.Features>Características</DMSE.MissileInventory.Features>
+  <!-- EN: Blast -->
+  <DMSE.MissileInventory.Stat.BlastRadius>Explosión</DMSE.MissileInventory.Stat.BlastRadius>
+  <!-- EN: Damage -->
+  <DMSE.MissileInventory.Stat.Damage>Daño</DMSE.MissileInventory.Stat.Damage>
+  <!-- EN: tiles -->
+  <DMSE.MissileInventory.Unit.Tiles>celdas</DMSE.MissileInventory.Unit.Tiles>
+  <!-- EN: Active mechanics for this missile -->
+  <DMSE.MissileInventory.Feature.Mechanics>Mecánicas activas de este misil</DMSE.MissileInventory.Feature.Mechanics>
+  <!-- EN: Primary warhead damage type: {0}; damage: {1}; blast radius: {2} tiles. Payload capacity N = {3}. -->
+  <DMSE.MissileInventory.Feature.Warhead>Tipo de daño principal de la ojiva: {0}; daño: {1}; radio de explosión: {2} celdas. Capacidad de carga útil N = {3}.</DMSE.MissileInventory.Feature.Warhead>
+  <!-- EN: Intercept hit chance bonus: {0}% -->
+  <DMSE.MissileInventory.Feature.InterceptBonus>Bonificación a la probabilidad de impacto al interceptar: {0}%</DMSE.MissileInventory.Feature.InterceptBonus>
+  <!-- EN: Additional intercept rolls per engagement: {0} -->
+  <DMSE.MissileInventory.Feature.ExtraRolls>Tiradas de intercepción adicionales por enfrentamiento: {0}</DMSE.MissileInventory.Feature.ExtraRolls>
+  <!-- EN: Warhead range adjustment: {0} tiles -->
+  <DMSE.MissileInventory.Feature.RangeOffset>Ajuste de alcance por la ojiva: {0} celdas</DMSE.MissileInventory.Feature.RangeOffset>
+  <!-- EN: Can penetrate thick rock roofs and target objects beneath them. -->
+  <DMSE.MissileInventory.Feature.PenetratesRoof>Puede atravesar techos gruesos de roca y atacar lo que está debajo.</DMSE.MissileInventory.Feature.PenetratesRoof>
+  <!-- EN: Scatter radius: {0} tiles; terminal position updates: {1}; {2} -->
+  <DMSE.MissileInventory.Feature.Guidance>Radio de dispersión: {0} celdas; actualizaciones de la posición en la fase terminal: {1}; {2}</DMSE.MissileInventory.Feature.Guidance>
+  <!-- EN: Terminal guidance can update the target position in flight. -->
+  <DMSE.MissileInventory.Feature.Guided>El guiado terminal puede actualizar en vuelo la posición del objetivo.</DMSE.MissileInventory.Feature.Guided>
+  <!-- EN: No terminal guidance; uses the default impact point dispersion. -->
+  <DMSE.MissileInventory.Feature.Unguided>Sin guiado terminal; usa la dispersión del punto de impacto por defecto.</DMSE.MissileInventory.Feature.Unguided>
+  <!-- EN: Effective range: {0} tiles; world speed factor: {1}; fuel: {2}; specific impulse: {3}. -->
+  <DMSE.MissileInventory.Feature.Propulsion>Alcance efectivo: {0} celdas; factor de velocidad en el mundo: {1}; combustible: {2}; impulso específico: {3}.</DMSE.MissileInventory.Feature.Propulsion>
+  <!-- EN: Payload effect scales with body capacity N = {0}; effective range: {1} tiles. -->
+  <DMSE.MissileInventory.Feature.Payload>El efecto de la carga útil crece con la capacidad del cuerpo N = {0}; alcance efectivo: {1} celdas.</DMSE.MissileInventory.Feature.Payload>
+  <!-- EN: Radar cross-section factor: {0}. -->
+  <DMSE.MissileInventory.Feature.Signature>Factor de sección transversal de radar: {0}.</DMSE.MissileInventory.Feature.Signature>
+  <!-- EN: Jamming strength: {0}%. -->
+  <DMSE.MissileInventory.Feature.Jamming>Potencia de interferencia: {0}%.</DMSE.MissileInventory.Feature.Jamming>
+  <!-- EN: Chaff / streamer charges: {0}. -->
+  <DMSE.MissileInventory.Feature.Chaff>Cargas de chaff / tiras: {0}.</DMSE.MissileInventory.Feature.Chaff>
   <!-- EN: Loaded: {0} / {1} -->
   <DMSE.MissileInventory.Count>Cargados: {0} / {1}</DMSE.MissileInventory.Count>
   <!-- EN: No missiles loaded. -->
@@ -630,7 +738,7 @@ Enable research work for a colonist on that map. -->
   <DMSE.MissileLauncher.Ballistic.LoadedWith>Misil balístico cargado: {0}</DMSE.MissileLauncher.Ballistic.LoadedWith>
   <!-- EN: Ballistic missile: awaiting assembly by colonists -->
   <DMSE.MissileLauncher.Ballistic.AwaitingAssembly>Misil balístico: esperando que los colonos lo monten</DMSE.MissileLauncher.Ballistic.AwaitingAssembly>
-  <!-- EN: Ballistic missile silo: unloaded — configure in Assembly tab -->
+  <!-- EN: Ballistic missile silo: unloaded, configure in Assembly tab -->
   <DMSE.MissileLauncher.Ballistic.Unloaded>Silo de misiles balísticos: descargado; configúralo en la pestaña Montaje</DMSE.MissileLauncher.Ballistic.Unloaded>
   <!-- EN: Fire Artillery -->
   <DMSE.Artillery.Fire>Disparar artillería</DMSE.Artillery.Fire>
@@ -640,17 +748,17 @@ Enable research work for a colonist on that map. -->
   <DMSE.Artillery.Stop>Dejar de disparar</DMSE.Artillery.Stop>
   <!-- EN: Halt sustained fire. Current status: {0} -->
   <DMSE.Artillery.StopDesc>Detiene el fuego sostenido. Estado actual: {0}</DMSE.Artillery.StopDesc>
-  <!-- EN: Target is too close — minimum range is {0} cells. -->
+  <!-- EN: Target is too close: minimum range is {0} cells. -->
   <DMSE.Artillery.TooClose>El objetivo está demasiado cerca: el alcance mínimo es de {0} celdas.</DMSE.Artillery.TooClose>
   <!-- EN: No fire control radar with a free guidance channel available. -->
   <DMSE.Artillery.NoFireControl>No hay ningún radar de control de tiro con un canal de guiado libre.</DMSE.Artillery.NoFireControl>
-  <!-- EN: No shell loaded — sustained fire halted. -->
+  <!-- EN: No shell loaded: sustained fire halted. -->
   <DMSE.Artillery.NoAmmo>No hay ningún proyectil cargado: se detuvo el fuego sostenido.</DMSE.Artillery.NoAmmo>
   <!-- EN: Artillery shells are unguided and cannot strike across orbital layers. -->
   <DMSE.Artillery.CrossLayer>Los proyectiles de artillería no son guiados y no pueden atacar entre capas orbitales.</DMSE.Artillery.CrossLayer>
   <!-- EN: The artillery salvo found no target and was wasted. -->
   <DMSE.Artillery.Missed>La salva de artillería no encontró ningún objetivo y se desperdició.</DMSE.Artillery.Missed>
-  <!-- EN: Barrel worn out — sustained fire halted. Replace the reinforced barrel. -->
+  <!-- EN: Barrel worn out: sustained fire halted. Replace the reinforced barrel. -->
   <DMSE.Artillery.NoBarrel>Cañón desgastado: se detuvo el fuego sostenido. Reemplaza el cañón reforzado.</DMSE.Artillery.NoBarrel>
   <!-- EN: Device is inactive (no power, broken down, or switched off). -->
   <DMSE.BVR.DeviceInactive>El dispositivo está inactivo (sin energía, averiado o apagado).</DMSE.BVR.DeviceInactive>
