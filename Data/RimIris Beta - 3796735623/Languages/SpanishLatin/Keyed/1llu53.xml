@@ -242,10 +242,10 @@ On confirm, developer mode turns ON automatically for ~60 seconds (please reprod
 Set 2.0 for a visibility test. -->
   <RimIris_Post_Ground_Intensity_Tip>Brillo del resplandor de ambiente. 0 = suelo perfectamente limpio, 0,25 = un ambiente sutil.\nPon 2,0 para comprobar que se ve.</RimIris_Post_Ground_Intensity_Tip>
   <!-- EN: Smoothness of the glow transition between bright tiles. 0 = each cell stands alone, 1 = large smooth blends. -->
-  <RimIris_Post_Ground_Radius_Tip>Suavidad de la transición del brillo entre casillas claras. 0 = cada casilla va sola, 1 = mezclas amplias y suaves.</RimIris_Post_Ground_Radius_Tip>
+  <RimIris_Post_Ground_Radius_Tip>Suavidad de la transición del brillo entre celdas claras. 0 = cada celda va sola, 1 = mezclas amplias y suaves.</RimIris_Post_Ground_Radius_Tip>
   <!-- EN: How bright terrain must be to glow. Drag down = more terrain glows; drag up = terrain types drop out one tier at a time (far right = only the brightest type).
 The threshold auto-normalizes to the terrain types actually present on this map (works on any map/modlist); transitions stay blur-smoothed — no hard per-tile steps. -->
-  <RimIris_Post_Ground_Threshold_Tip>Cuánto brillo necesita el terreno para resplandecer. Hacia abajo = resplandece más terreno; hacia arriba = los tipos de terreno salen de a un nivel (todo a la derecha = solo el tipo más claro).\nEl umbral se ajusta solo a los tipos de terreno que de verdad hay en este mapa (sirve con cualquier mapa y lista de mods); las transiciones quedan suavizadas con desenfoque, sin saltos bruscos entre casillas.</RimIris_Post_Ground_Threshold_Tip>
+  <RimIris_Post_Ground_Threshold_Tip>Cuánto brillo necesita el terreno para resplandecer. Hacia abajo = resplandece más terreno; hacia arriba = los tipos de terreno salen de a un nivel (todo a la derecha = solo el tipo más claro).\nEl umbral se ajusta solo a los tipos de terreno que de verdad hay en este mapa (sirve con cualquier mapa y lista de mods); las transiciones quedan suavizadas con desenfoque, sin saltos bruscos entre celdas.</RimIris_Post_Ground_Threshold_Tip>
   <!-- EN: Tone Mapping -->
   <RimIris_Post_Tonemap>Mapeo de tonos</RimIris_Post_Tonemap>
   <!-- EN: ACES curve rolls off overbright areas for filmic highlight transitions. Applies to the game frame only. -->
@@ -512,7 +512,7 @@ The strength slider accepts negative values: below 0 brightens the night (nightf
   <!-- EN: Terrain relief (normal-shaded ground) -->
   <RimIris_Terrain_Enable>Relieve del terreno (suelo sombreado por normales)</RimIris_Terrain_Enable>
   <!-- EN: Treats the terrain texture&apos;s brightness as a heightfield and lights it with the sun/moon direction: raking daylight sweeps visible micro-relief across the ground over the day, and breaks the mechanical 16-cell texture repetition. Multiply-only — can never exceed the original color. Strength 0 is pixel-exact vanilla. Polluted/burned terrain keeps the vanilla look. -->
-  <RimIris_Terrain_Enable_Tip>Toma el brillo de la textura del terreno como un mapa de alturas y lo ilumina según la dirección del sol o la luna: la luz rasante del día recorre un microrrelieve visible sobre el suelo a lo largo de la jornada y rompe la repetición mecánica de la textura cada 16 casillas. Solo multiplica: nunca puede pasar el color original. Con fuerza 0 queda idéntico al juego, píxel por píxel. El terreno contaminado o quemado conserva el aspecto original.</RimIris_Terrain_Enable_Tip>
+  <RimIris_Terrain_Enable_Tip>Toma el brillo de la textura del terreno como un mapa de alturas y lo ilumina según la dirección del sol o la luna: la luz rasante del día recorre un microrrelieve visible sobre el suelo a lo largo de la jornada y rompe la repetición mecánica de la textura cada 16 celdas. Solo multiplica: nunca puede pasar el color original. Con fuerza 0 queda idéntico al juego, píxel por píxel. El terreno contaminado o quemado conserva el aspecto original.</RimIris_Terrain_Enable_Tip>
   <!-- EN: Relief strength -->
   <RimIris_Terrain_Strength>Fuerza del relieve</RimIris_Terrain_Strength>
   <!-- EN: Intensity of the raking light. 0 = exactly vanilla; try 0.4-0.8 and tune live. Applies instantly. -->
@@ -521,7 +521,7 @@ The strength slider accepts negative values: below 0 brightens the night (nightf
   <RimIris_Wet_Enable>Suelo mojado (humedad por lluvia y charcos)</RimIris_Wet_Enable>
   <!-- EN: Ground gradually darkens and reflects in the rain, with reflective puddles in low spots; slowly dries after the rain stops.
 Unaffected under roofs, on water, and on snow-covered cells. -->
-  <RimIris_Wet_Enable_Tip>El suelo se oscurece y brilla de a poco con la lluvia, con charcos que reflejan en las partes bajas; se seca lentamente cuando para la lluvia.\nNo afecta bajo techo, sobre el agua ni en las casillas cubiertas de nieve.</RimIris_Wet_Enable_Tip>
+  <RimIris_Wet_Enable_Tip>El suelo se oscurece y brilla de a poco con la lluvia, con charcos que reflejan en las partes bajas; se seca lentamente cuando para la lluvia.\nNo afecta bajo techo, sobre el agua ni en las celdas cubiertas de nieve.</RimIris_Wet_Enable_Tip>
   <!-- EN: Wetness strength -->
   <RimIris_Wet_Strength>Fuerza de la humedad</RimIris_Wet_Strength>
   <!-- EN: Overall strength of darkening and sheen. 0 = invisible, 0.7 = natural, 1.0 = deepest. Applies instantly. -->
@@ -661,7 +661,7 @@ Overwrites all picture settings; does not touch the pack slot, frosted glass or 
   <!-- EN: Diag view: darkness glow field (grey) -->
   <RimIris_Diag_GlowView>Vista de diagnóstico: campo de brillo de la oscuridad (gris)</RimIris_Diag_GlowView>
   <!-- EN: Shows the darkness glow field as grayscale. Grey above ~0.6 = fully darkness-exempt cells. After building a wall at night, a whole 17x17-section patch lighting up here = the exemption bake is the culprit; if it stays black, switch to the weight view. -->
-  <RimIris_Diag_GlowView_Tip>Muestra en escala de grises el campo de brillo de la oscuridad. Gris sobre ~0,6 = casillas del todo exentas de oscuridad. Si después de construir un muro de noche se ilumina aquí un parche entero de 17x17 casillas, el culpable es el cálculo de la exención; si sigue negro, cambia a la vista de pesos.</RimIris_Diag_GlowView_Tip>
+  <RimIris_Diag_GlowView_Tip>Muestra en escala de grises el campo de brillo de la oscuridad. Gris sobre ~0,6 = celdas del todo exentas de oscuridad. Si después de construir un muro de noche se ilumina aquí un parche entero de 17x17 celdas, el culpable es el cálculo de la exención; si sigue negro, cambia a la vista de pesos.</RimIris_Diag_GlowView_Tip>
   <!-- EN: Diag view: ground-glow weight field (red) -->
   <RimIris_Diag_FieldView>Vista de diagnóstico: campo de pesos del resplandor del suelo (rojo)</RimIris_Diag_FieldView>
   <!-- EN: Shows the ground-glow GPU weight field in red (post-process read, day/night identical). A section-sized red patch while the rest of the map is uniform = the weight bake is the culprit; if both views look normal, the suspect moves elsewhere. -->
@@ -814,7 +814,7 @@ The path is resolved from the mod&apos;s actual install location. -->
   <!-- EN: Tide debug view (red=offshore field, green=gate, blue=relief U) -->
   <RimIris_Tide_Debug>Vista de depuración de la marea (rojo = campo mar adentro, verde = compuerta, azul = relieve U)</RimIris_Tide_Debug>
   <!-- EN: Renders the water film&apos;s internal fields as colors: red = offshore distance (dark at the waterline -&gt; full red at 4 cells), green = gate, blue = the sampled relief U (blue varying with position = the relief field is alive; constant = flat field). Remove after verification. -->
-  <RimIris_Tide_Debug_Tip>Muestra en colores los campos internos de la película de agua: rojo = distancia mar adentro (oscuro en la orilla -&gt; rojo pleno a 4 casillas), verde = compuerta, azul = el relieve U muestreado (si el azul cambia según la posición, el campo de relieve funciona; si es constante, el campo es plano). Quítalo después de comprobarlo.</RimIris_Tide_Debug_Tip>
+  <RimIris_Tide_Debug_Tip>Muestra en colores los campos internos de la película de agua: rojo = distancia mar adentro (oscuro en la orilla -&gt; rojo pleno a 4 celdas), verde = compuerta, azul = el relieve U muestreado (si el azul cambia según la posición, el campo de relieve funciona; si es constante, el campo es plano). Quítalo después de comprobarlo.</RimIris_Tide_Debug_Tip>
   <!-- EN: Drag the bottom-right grip to resize the window -->
   <RimIris_Tut_Grip>Arrastra la esquina de abajo a la derecha para cambiar el tamaño de la ventana</RimIris_Tut_Grip>
   <!-- EN: Drag the top edge of the window to move it -->
