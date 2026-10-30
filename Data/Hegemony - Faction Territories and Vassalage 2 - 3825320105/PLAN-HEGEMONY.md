@@ -180,11 +180,21 @@ Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el ext
   extractor, si vuelve a pasar: reutilizar la traducción del `label` cuando una etapa dice lo mismo que el
   nombre del edificio («farm» = `FT2_Farm.label`).
 
-### 2. Botón «Clear» de la tienda de recursos
+### 2. Botón «Clear» y la ventana de configuración — hecho (30-oct)
 
-- La clave `Hegemony_Clear_83B12C2216` («Borrar») sí está traducida, pero el juego muestra «Clear». El
-  botón usa otra clave o un texto fijo en la DLL. Buscar en `Common/Languages/English/Keyed/Text.xml` del
-  mod cuál clave dice «Clear» junto al buscador de la tienda; si es texto fijo en la DLL, avisar al autor.
+- «Clear», «Search all settings...», «Reset all settings», «Reset tab», «CATEGORIES», «Filter tabs...» y
+  «N settings - changes apply immediately» no son de Hegemony: son de **Jaeger's Utility Framework**
+  (3825311621), el mod del que depende. RML no lo tenía. Se agregó con su carpeta en `Data/` y se tradujo
+  (110 textos, commit 2e76f4dd), con los mismos términos que Hegemony (pista, asistencia, impedimento,
+  Borrar). Falta comprobarlo en el juego.
+
+### 4. «goodwill gift» en las noticias de diplomacia de la IA — no se puede desde la traducción
+
+- El mensaje «Diplomacia de la IA: goodwill gift: X y Y» / «X completó goodwill gift con Y» arma el nombre
+  de la acción desde el nombre interno del código (`GoodwillGift` → «goodwill gift»), no desde la clave
+  `Hegemony_Label_GoodwillGift_43BCF303D6` («Regalo de buena voluntad»), que sí está traducida. Es texto
+  fijo de la DLL: hay que pedirle al autor que use la clave. Seguramente pasa lo mismo con las demás
+  acciones de diplomacia de la IA.
 
 ### 3. «Cant» al lado de la cantidad
 
