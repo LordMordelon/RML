@@ -255,15 +255,15 @@
   <!-- EN: Biome grid enabled (on current map) -->
   <GeologicalLandforms.Settings.Debug.BiomeGridEnabledForCurrentMap>Cuadrícula de biomas activada (en el mapa actual)</GeologicalLandforms.Settings.Debug.BiomeGridEnabledForCurrentMap>
   <!-- EN: Ignore world tile requirements (unsafe) -->
-  <GeologicalLandforms.Settings.Debug.IgnoreWorldTileReqInGodMode>Ignorar requisitos de casilla mundial (inseguro)</GeologicalLandforms.Settings.Debug.IgnoreWorldTileReqInGodMode>
+  <GeologicalLandforms.Settings.Debug.IgnoreWorldTileReqInGodMode>Ignorar requisitos de celda del mundo (inseguro)</GeologicalLandforms.Settings.Debug.IgnoreWorldTileReqInGodMode>
   <!-- EN: Replace all stone on current map -->
   <GeologicalLandforms.Settings.Debug.ReplaceStoneOnCurrentMap>Reemplazar toda la piedra en el mapa actual</GeologicalLandforms.Settings.Debug.ReplaceStoneOnCurrentMap>
   <!-- EN: Set terrain in area -->
   <GeologicalLandforms.Settings.Debug.SetTerrainInArea>Establecer terreno en el área</GeologicalLandforms.Settings.Debug.SetTerrainInArea>
   <!-- EN: Refresh all world tiles -->
-  <GeologicalLandforms.Settings.Debug.RefreshWorldTileData>Actualizar todos los datos de casillas mundiales</GeologicalLandforms.Settings.Debug.RefreshWorldTileData>
+  <GeologicalLandforms.Settings.Debug.RefreshWorldTileData>Actualizar todos los datos de celdas del mundo</GeologicalLandforms.Settings.Debug.RefreshWorldTileData>
   <!-- EN: Refresh all world tiles (forced) -->
-  <GeologicalLandforms.Settings.Debug.RefreshWorldTileDataForced>Actualizar todos los datos de casillas mundiales (forzado)</GeologicalLandforms.Settings.Debug.RefreshWorldTileDataForced>
+  <GeologicalLandforms.Settings.Debug.RefreshWorldTileDataForced>Actualizar todos los datos de celdas del mundo (forzado)</GeologicalLandforms.Settings.Debug.RefreshWorldTileDataForced>
   <!-- EN: Biome grid entries -->
   <GeologicalLandforms.Settings.Debug.BiomeGridEntriesHeader>Entradas de cuadrícula de biomas</GeologicalLandforms.Settings.Debug.BiomeGridEntriesHeader>
   <!-- EN: Total capacity of plant ecosystem -->
@@ -315,7 +315,7 @@
   <!-- EN: Set cells from Map Area -->
   <GeologicalLandforms.Settings.Debug.BiomeGridEntrySetFromArea>Establecer celdas desde área del mapa</GeologicalLandforms.Settings.Debug.BiomeGridEntrySetFromArea>
   <!-- EN: Regenerate from world tile -->
-  <GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>Regenerar desde casilla mundial</GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>
+  <GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>Regenerar desde celda del mundo</GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>
   <!-- EN: Plant commonalities -->
   <GeologicalLandforms.Settings.Debug.BiomeGridDetails.PotentialPlants>Probabilidades de plantas</GeologicalLandforms.Settings.Debug.BiomeGridDetails.PotentialPlants>
   <!-- EN: Animal commonalities -->
@@ -339,7 +339,7 @@
   <!-- EN: biome transition -->
   <GeologicalLandforms.WorldMap.FeatureLabelBiomeTransition>transición de bioma</GeologicalLandforms.WorldMap.FeatureLabelBiomeTransition>
   <!-- EN: Biomes from adjacent tiles cover some parts of this world tile. -->
-  <GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>Los biomas de las casillas adyacentes cubren algunas partes de esta casilla mundial.</GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>
+  <GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>Los biomas de las celdas adyacentes cubren algunas partes de esta celda del mundo.</GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>
   <!-- EN: A landform added by the {0} mod. -->
   <GeologicalLandforms.WorldMap.FeatureDescriptionLandform>Un accidente geográfico añadido por el mod {0}.</GeologicalLandforms.WorldMap.FeatureDescriptionLandform>
   <!-- EN: Search for map feature nearby -->
@@ -351,9 +351,9 @@
   <!-- EN: (Landform) Any (POI) -->
   <GeologicalLandforms.WorldMap.FindLandformAnyPOI>(Accidente geográfico) Cualquiera (POI)</GeologicalLandforms.WorldMap.FindLandformAnyPOI>
   <!-- EN: Found {0} map feature {1} tiles away -->
-  <GeologicalLandforms.WorldMap.FindLandformSuccess>Se encontró la característica de mapa {0} a {1} casillas de distancia</GeologicalLandforms.WorldMap.FindLandformSuccess>
+  <GeologicalLandforms.WorldMap.FindLandformSuccess>Se encontró la característica de mapa {0} a {1} celdas de distancia</GeologicalLandforms.WorldMap.FindLandformSuccess>
   <!-- EN: Could not find any {0} map feature within {1} tiles (max distance can be changed in mod settings) -->
-  <GeologicalLandforms.WorldMap.FindLandformFail>No se pudo encontrar ninguna característica de mapa {0} en un radio de {1} casillas (la distancia máxima se puede cambiar en la configuración del mod)</GeologicalLandforms.WorldMap.FindLandformFail>
+  <GeologicalLandforms.WorldMap.FindLandformFail>No se pudo encontrar ninguna característica de mapa {0} en un radio de {1} celdas (la distancia máxima se puede cambiar en la configuración del mod)</GeologicalLandforms.WorldMap.FindLandformFail>
   <!-- EN: Set landform override (god mode) -->
   <GeologicalLandforms.WorldMap.SetLandform>Establecer anulación de accidente geográfico (modo dios)</GeologicalLandforms.WorldMap.SetLandform>
   <!-- EN: Auto -->
