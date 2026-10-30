@@ -189,7 +189,7 @@
   <!-- EN: Increased Linkables Range -->
   <FSFTweaksIncreasedLinkablesRangeTitle>Rango de objetos vinculables aumentado</FSFTweaksIncreasedLinkablesRangeTitle>
   <!-- EN: Changes linkables to have a maximum connection distance of 50 tiles, removes the line of sight requirement and removes the must be placed adjacent requirement.\nNote: The adjacent change is only for certain linkables like Vitals Monitors. -->
-  <FSFTweaksIncreasedLinkablesRangeDesc>Cambia los objetos vinculables para que tengan una distancia máxima de conexión de 50 casillas, elimina el requisito de línea de visión y elimina el requisito de que deban colocarse de forma adyacente.\nNota: El cambio de adyacencia solo se aplica a ciertos objetos vinculables como los monitores de constantes vitales.</FSFTweaksIncreasedLinkablesRangeDesc>
+  <FSFTweaksIncreasedLinkablesRangeDesc>Cambia los objetos vinculables para que tengan una distancia máxima de conexión de 50 celdas, elimina el requisito de línea de visión y elimina el requisito de que deban colocarse de forma adyacente.\nNota: El cambio de adyacencia solo se aplica a ciertos objetos vinculables como los monitores de constantes vitales.</FSFTweaksIncreasedLinkablesRangeDesc>
   <!-- EN: Interaction Spots Can Overlap -->
   <FSFTweaksInteractionSpotsCanOverlapTitle>Los puntos de interacción pueden solaparse</FSFTweaksInteractionSpotsCanOverlapTitle>
   <!-- EN: Removes the restriction on everything so interaction spots can overlap.  The interaction spot is where a pawn stands while using the building and typically where you place a seat for them. -->
@@ -265,7 +265,7 @@
   <!-- EN: Water Movement Tweaks -->
   <FSFTweaksWaterMovementTweaksTitle>Retoques de movimiento en el agua</FSFTweaksWaterMovementTweaksTitle>
   <!-- EN: Allows you to customise the pathing cost of water and if the tiles are impassable. -->
-  <FSFTweaksWaterMovementTweaksOnDesc>Te permite personalizar el coste de ruta del agua y si las casillas son intransitables.</FSFTweaksWaterMovementTweaksOnDesc>
+  <FSFTweaksWaterMovementTweaksOnDesc>Te permite personalizar el coste de ruta del agua y si las celdas son intransitables.</FSFTweaksWaterMovementTweaksOnDesc>
   <!-- EN: Wear Masks With Hats -->
   <FSFTweaksWearMasksWithHatsTitle>Usar máscaras con sombreros</FSFTweaksWearMasksWithHatsTitle>
   <!-- EN: Changes all items with a label name containing the word mask to the layer EyeCover so they can be worn with hats. -->
@@ -465,7 +465,7 @@
   <!-- EN: Deep Water is Passable -->
   <FSFTweaksWaterMovementTweaksDeepPassable>El agua profunda es transitable</FSFTweaksWaterMovementTweaksDeepPassable>
   <!-- EN: Input a value to adjust the pathing cost of water tiles.  The pathing cost is irrelevant if the terrain is set to impassable.\nPathing cost is a bit odd so you&apos;ll have to experiment with numbers.  A cost of 4 gives 76% movement speed on a tile but 40 gives 25%.\nVanilla Values Shallow Water 30, Chest Deep Water 42, Deep Water 300. -->
-  <FSFTweaksWaterMovementTweaksDesc>Ingresa un valor para ajustar el costo de desplazamiento de las casillas de agua. El costo es irrelevante si el terreno está definido como intransitable.\nEl costo de desplazamiento es algo particular, así que tendrás que experimentar con los números. Un costo de 4 da un 76 % de velocidad de movimiento en la casilla, pero 40 da un 25 %.\nValores originales: agua poco profunda 30, agua hasta el pecho 42, agua profunda 300.</FSFTweaksWaterMovementTweaksDesc>
+  <FSFTweaksWaterMovementTweaksDesc>Ingresa un valor para ajustar el costo de desplazamiento de las celdas de agua. El costo es irrelevante si el terreno está definido como intransitable.\nEl costo de desplazamiento es algo particular, así que tendrás que experimentar con los números. Un costo de 4 da un 76 % de velocidad de movimiento en la celda, pero 40 da un 25 %.\nValores originales: agua poco profunda 30, agua hasta el pecho 42, agua profunda 300.</FSFTweaksWaterMovementTweaksDesc>
   <!-- EN: Allow Adjacent Sowing on plants. -->
   <FSFTweaksIndoorTreeFarmsAdjacentSow>Permitir siembra adyacente en plantas.</FSFTweaksIndoorTreeFarmsAdjacentSow>
   <!-- EN: Allow plants to be planted under roofs. -->
@@ -575,7 +575,7 @@
   <!-- EN: Polux Bush Absorption Speed (Default 25000) -->
   <FSFTweaksPoluxBushSpeed>Velocidad de absorción del arbusto Polux (por defecto 25000)</FSFTweaksPoluxBushSpeed>
   <!-- EN: Input values to adjust the radius and speed at which Polux Plants absorb pollution.  The Radius is written in tiles which use a circular radius.  The Speed value is written in what the game calls ticks.  There are 2500 ticks in one game hour and 60000 ticks in one game day. -->
-  <FSFTweaksPoluxPollutionDesc>Introduce valores para ajustar el radio y la velocidad a la que las plantas Polux absorben la contaminación. El radio se expresa en casillas y usa un radio circular. El valor de velocidad se expresa en lo que el juego llama ticks. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.</FSFTweaksPoluxPollutionDesc>
+  <FSFTweaksPoluxPollutionDesc>Introduce valores para ajustar el radio y la velocidad a la que las plantas Polux absorben la contaminación. El radio se expresa en celdas y usa un radio circular. El valor de velocidad se expresa en lo que el juego llama ticks. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.</FSFTweaksPoluxPollutionDesc>
   <!-- EN: Polux Seed Amount Minimum Range (Default 0) -->
   <FSFTweaksPoluxSeedsMin>Rango mínimo de cantidad de semillas Polux (por defecto 0)</FSFTweaksPoluxSeedsMin>
   <!-- EN: Polux Seed Amount Maximum Range (Default 1) -->
@@ -993,11 +993,11 @@
   <!-- EN: Radius -->
   <FSFTweaksPollutionPumpsRadius>Radio</FSFTweaksPollutionPumpsRadius>
   <!-- EN: Tiles Per Wastepack -->
-  <FSFTweaksPollutionPumpsWaste>Casillas por paquete de residuos</FSFTweaksPollutionPumpsWaste>
+  <FSFTweaksPollutionPumpsWaste>Celdas por paquete de residuos</FSFTweaksPollutionPumpsWaste>
   <!-- EN: Ticks Per Interval -->
   <FSFTweaksPollutionPumpsInterval>Ticks por intervalo</FSFTweaksPollutionPumpsInterval>
   <!-- EN: Input values to adjust the various statistics of Pollution Pumps.  The Interval value is written in ticks.\nTicks are a game term for time.  There are 2500 ticks in one game hour and 60000 ticks in one game day.\nVanilla Values 200, 10, 6, 15000.  Based on these numbers the pump can cover 372 tiles, it cleans 1 tile every 6 hours which takes 93 days and produces 62 Wastepacks. -->
-  <FSFTweaksPollutionPumpsDesc>Introduce valores para ajustar las diversas estadísticas de las bombas de contaminación. El valor del intervalo se expresa en ticks.\nLos ticks son un término del juego para el tiempo. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nValores de Vanilla 200, 10, 6, 15000. Según estos números, la bomba puede cubrir 372 casillas, limpia 1 casilla cada 6 horas, lo que tarda 93 días, y produce 62 paquetes de residuos.</FSFTweaksPollutionPumpsDesc>
+  <FSFTweaksPollutionPumpsDesc>Introduce valores para ajustar las diversas estadísticas de las bombas de contaminación. El valor del intervalo se expresa en ticks.\nLos ticks son un término del juego para el tiempo. Hay 2500 ticks en una hora de juego y 60000 ticks en un día de juego.\nValores de Vanilla 200, 10, 6, 15000. Según estos números, la bomba puede cubrir 372 celdas, limpia 1 celda cada 6 horas, lo que tarda 93 días, y produce 62 paquetes de residuos.</FSFTweaksPollutionPumpsDesc>
   <!-- EN: Anomaly Tweaks -->
   <FSFTweaksAnomalyTweaksTitle>Ajustes de Anomaly</FSFTweaksAnomalyTweaksTitle>
   <!-- EN: Ghouls -->
@@ -1165,7 +1165,7 @@
   <!-- EN: Deepchem Tanks -->
   <FSFTweaksVEPNDeepchemTank>Tanques de quimiofango</FSFTweaksVEPNDeepchemTank>
   <!-- EN: Input a value to adjust the amount of fuel that can be stored within the tanks.  The vanilla stack limit of Chemfuel and Deepchem is 150, the tanks take up 6 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 27,000. -->
-  <FSFTweaksVEPNChemfuelDesc>Introduce un valor para ajustar la cantidad de combustible que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para el quimbustible y el quimiofango es 150, los tanques ocupan 6 casillas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por casilla, la capacidad de almacenamiento mínima recomendada es 27 000.</FSFTweaksVEPNChemfuelDesc>
+  <FSFTweaksVEPNChemfuelDesc>Introduce un valor para ajustar la cantidad de combustible que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para el quimbustible y el quimiofango es 150, los tanques ocupan 6 celdas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por celda, la capacidad de almacenamiento mínima recomendada es 27 000.</FSFTweaksVEPNChemfuelDesc>
   <!-- EN: Helixien Gas Tanks -->
   <FSFTweaksVEPNHelixienTank>Tanques de gas helixiano</FSFTweaksVEPNHelixienTank>
   <!-- EN: Input a value to adjust the amount of helixien gas that can be stored within the tanks.  The vanilla capacity is 3000. -->
@@ -1173,15 +1173,15 @@
   <!-- EN: Hemogen Tanks -->
   <FSFTweaksVEPNHemogenTank>Tanques de hemógeno</FSFTweaksVEPNHemogenTank>
   <!-- EN: Input a value to adjust the amount of hemogen that can be stored within the tanks.  The vanilla capacity is 200, the stack limit of Hemogen Packs is 10, the tank takes up 4 tiles. -->
-  <FSFTweaksVEPNHemogenDesc>Introduce un valor para ajustar la cantidad de hemógeno que se puede almacenar en los tanques. La capacidad de Vanilla es 200, el límite de apilamiento de los paquetes de hemógeno es 10 y el tanque ocupa 4 casillas.</FSFTweaksVEPNHemogenDesc>
+  <FSFTweaksVEPNHemogenDesc>Introduce un valor para ajustar la cantidad de hemógeno que se puede almacenar en los tanques. La capacidad de Vanilla es 200, el límite de apilamiento de los paquetes de hemógeno es 10 y el tanque ocupa 4 celdas.</FSFTweaksVEPNHemogenDesc>
   <!-- EN: Neutroamine Tanks -->
   <FSFTweaksVEPNNeutroamineTank>Tanques de neutroamina</FSFTweaksVEPNNeutroamineTank>
   <!-- EN: Input a value to adjust the amount of neutroamine that can be stored within the tanks.  The vanilla stack limit of Neutroamine is 150, the tank takes up 6 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 27,000. -->
-  <FSFTweaksVEPNNeutroamineDesc>Introduce un valor para ajustar la cantidad de neutroamina que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para la neutroamina es 150, el tanque ocupa 6 casillas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por casilla, la capacidad de almacenamiento mínima recomendada es 27 000.</FSFTweaksVEPNNeutroamineDesc>
+  <FSFTweaksVEPNNeutroamineDesc>Introduce un valor para ajustar la cantidad de neutroamina que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para la neutroamina es 150, el tanque ocupa 6 celdas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por celda, la capacidad de almacenamiento mínima recomendada es 27 000.</FSFTweaksVEPNNeutroamineDesc>
   <!-- EN: Nutrient Paste Tanks -->
   <FSFTweaksVEPNPasteTank>Tanques de pasta nutritiva</FSFTweaksVEPNPasteTank>
   <!-- EN: Input a value to adjust the amount of paste that can be stored within the tanks.  The vanilla stack limit of Paste Meals is 10, the tank takes up 4 tiles, at 10x stack size with shelves providing 3 slots per tile the recommended minimum storage capacity is 1,200. -->
-  <FSFTweaksVEPNPasteDesc>Introduce un valor para ajustar la cantidad de pasta que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para las comidas de pasta es 10, el tanque ocupa 4 casillas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por casilla, la capacidad de almacenamiento mínima recomendada es 1200.</FSFTweaksVEPNPasteDesc>
+  <FSFTweaksVEPNPasteDesc>Introduce un valor para ajustar la cantidad de pasta que se puede almacenar en los tanques. El límite de apilamiento de Vanilla para las comidas de pasta es 10, el tanque ocupa 4 celdas; con un tamaño de pila 10x y estanterías que dan 3 ranuras por celda, la capacidad de almacenamiento mínima recomendada es 1200.</FSFTweaksVEPNPasteDesc>
   <!-- EN: Vanilla Factions Expanded Deserters Tweaks -->
   <FSFTweaksVFEDesertersTweaksTitle>Ajustes de Vanilla Factions Expanded - Deserters</FSFTweaksVFEDesertersTweaksTitle>
   <!-- EN: Intel Never Expires -->
