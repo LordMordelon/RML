@@ -92,3 +92,42 @@ de los archivos `DefInjected` ya traducidos: copiarlos de ahí.
 | masterwork / poor | **magistral** / **mediocre** | Oficial |
 | chemfuel | **quimbustible** | Oficial |
 | Spacer | **espacial** | Oficial |
+
+## Términos de la actualización (30-oct-2026)
+
+La ventana nueva (Keyed) y las lecciones del Asistente de aprendizaje (ConceptDef).
+
+| Inglés | Español | Nota |
+|---|---|---|
+| town | **ciudad** | settlement sigue siendo **asentamiento** |
+| native (WD2, juego) | **propio** / **del juego** | lo de WD2 es «propio»; lo de RimWorld, «del juego» |
+| vanilla | **de Vanilla** | |
+| stock | **existencias** | |
+| quote | **presupuesto** | |
+| blocker | **impedimento** | |
+| tier resources | **recursos de etapa** | |
+| grand slot | **espacio de gran construcción** | |
+| supporting town / settlement | **ciudad / asentamiento de apoyo** | |
+| loaded map | **mapa cargado** | |
+| Recall / Hold position | **Retirar** / **Mantener la posición** | |
+| array (logistics array) | **red** (**red logística**) | |
+| path (VPE) | **vía** (**vía psíquica**) | |
+| roster (mech roster) | **plantilla** (**plantilla de mecas**) | la del botón; otras listas, «lista» |
+| arms deal | **trato de armas** | |
+| flagship | **nave insignia** | antes «buque insignia»; unificado 30-oct |
+| Stellarch | **estelarca** | Oficial |
+| drop pod | **cápsula de escape** | Oficial |
+| skip (transporte) | **teletransporte** | Oficial |
+| subcore (standard / high) | **subnúcleo** (**estándar** / **avanzado**) | Oficial |
+| gravlite panel / gravcore | **panel de gravilita** / **gravinúcleo** | Oficial |
+| archite | **arquita** | Oficial |
+| growth vat | **tanque de crecimiento** | Oficial |
+| scarlands | **tierras escarificadas** | Oficial |
+| Militor / Scyther / Lancer | **militoide** / **segador** / **lancero** | Oficial |
+| Learning Helper | **Asistente de aprendizaje** | Oficial |
+| Shooting / Melee | **Tiro** / **Cuerpo a cuerpo** | Oficial |
+| flake / wake-up / go-juice / penoxycyline | **escama** / **despertar** / **Ju-Go** / **penoxicilina** | Oficial |
+| NPC | **PNJ** o **de la IA** | |
+| icon | **ícono** | |
+| Hegemony reference - X | **Referencia de Hegemony: x** | títulos de las lecciones de referencia |
+| Procedural base defences | **Defensas procedurales de las bases** | ajuste del mod |

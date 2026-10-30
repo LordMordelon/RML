@@ -144,9 +144,21 @@ synthesis plant» pasó a «life support»): se corrigen a mano contra el `EN` n
 4. Verificar (las tres comprobaciones, `revisar`, `terminos`, ningún `TODO`), regenerar el índice y
    commitear por partes. Sin push hasta que Angel diga.
 
-## Próxima sesión
+### Avance desde el 30-oct-2026
 
-Lecciones de `ConceptDef/uq1759.xml`, en tandas de unas 115 lecciones. Por tanda: leer los ingleses
-pendientes con `traducir.py tabla`, escribir la tabla en la carpeta temporal y copiarla con
-`traducir.py aplicar`, que en el mismo informe revisa y busca los términos. Al llegar a los botones de la ventana (Overview, People, Buildings, Deliveries y los
-demás), fijar su traducción y anotarla en la tabla de términos de este plan antes de seguir.
+- Paso 1 hecho y commiteado (b73184d8).
+- Paso 2 en curso: el `Keyed` se traduce de arriba hacia abajo con `traducir.py tabla --archivo Keyed`; lo
+  que queda en `TODO` es lo pendiente. Cuidados que salieron: la tabla pierde los espacios del final de un
+  texto («Aporte detenido: »), así que al terminar hay que devolvérselos a los que el inglés tiene; el `%`
+  va pegado como en el inglés (el juego le pone el número delante); los `Keyed` con «-&gt;» dan un falso
+  aviso de «regla de gramática» y se aplican con `--forzar`, mirando que no haya otro aviso grave.
+- `corregir` con dos renglones de la misma clave aplica solo el último: una corrección por clave y tanda.
+- Paso 2 terminado el 30-oct: los 8.868 textos del `Keyed` (547e3f9d). Al final se devolvieron los espacios
+  finales a 178 textos y se unificaron términos con la oficial («cápsula de escape») y entre sí («nave
+  insignia», «plantilla de mecas», «vía psíquica», «trato de armas», «ícono»).
+- Paso 3 terminado el 30-oct: las 1.294 entradas de `ConceptDef`. Unas 600 son lecciones de «referencia»
+  cuyo texto es idéntico a uno de la ventana: se copió esa misma traducción, ya revisada, para que la
+  lección y la ventana digan lo mismo. Sus títulos van como «Referencia de Hegemony: …» con el nombre del
+  botón o ajuste tal como está en la ventana.
+- Los términos nuevos están en la última tabla de `GLOSARIO-HEGEMONY.md`.
+- Falta: probar en el juego (ventana, lecciones del Asistente de aprendizaje) y confirmar «avasallar».
