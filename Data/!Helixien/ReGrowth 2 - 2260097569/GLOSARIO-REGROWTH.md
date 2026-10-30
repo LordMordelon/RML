@@ -25,10 +25,10 @@ los archivos de la carpeta, no solo en uno: casi todos aparecen también en las 
 | egg (fert.) / egg (unfert.) | **huevo de … (fert.)** / **huevo de … (no fert.)** | Oficial. La descripción sigue a la del huevo de gallina: «Se puede comer crudo, pero cocinado es mucho mejor» |
 | dodo / cock | **dodo** / **gallo** | 30-oct-2026. «gallo» es el macho de la gallina en la oficial |
 | sabertooth squirrel | **ardilla dientes de sable** | 30-oct-2026 |
-| arctic drak | **drak ártico** | 30-oct-2026. Nombre inventado (híbrido de lagarto y ave): se deja, como el «trumbo» oficial adapta el *thrumbo*. Si suena mal en el juego, la otra opción es «draco ártico» |
-| thrinaxodon | **trinaxodonte** | 30-oct-2026. El nombre en español del género *Thrinaxodon*, como «iguanodonte» |
+| arctic drak | **draco ártico** | **Angel, 30-oct.** Nombre inventado (híbrido de lagarto y ave). Se eligió sobre «drak ártico» y «drako ártico». «huevo de draco», «los dracos árticos» |
+| thrinaxodon | **trinaxodonte** | **Angel, 30-oct.** El nombre en español del género *Thrinaxodon*, como «iguanodonte» |
 | velociraptor | **velociraptor** | 30-oct-2026 |
-| synthetion / buck / doe | **sintetión** / **sintetión macho** / **sintetión hembra** | 30-oct-2026. Nombre inventado; el macho y la hembra como el «kiwi hembra» del mod |
+| synthetion / buck / doe | **sintetión** / **sintetión macho** / **sintetión hembra** | **Angel, 30-oct.** Nombre inventado; el macho y la hembra como el «kiwi hembra» del mod |
 
 ## Plantas y árboles
 
