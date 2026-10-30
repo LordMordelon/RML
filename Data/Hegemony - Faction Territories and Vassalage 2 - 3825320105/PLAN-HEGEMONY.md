@@ -162,3 +162,31 @@ synthesis plant» pasó a «life support»): se corrigen a mano contra el `EN` n
   botón o ajuste tal como está en la ventana.
 - Los términos nuevos están en la última tabla de `GLOSARIO-HEGEMONY.md`.
 - Falta: probar en el juego (ventana, lecciones del Asistente de aprendizaje) y confirmar «avasallar».
+
+## A investigar: textos que en el juego siguen en inglés (30-oct-2026)
+
+Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el extractor, no escribir a mano.
+
+### 1. Nombres de etapa de los edificios («Growing patch», «Council hut», «Hut»)
+
+- **Causa encontrada:** cada edificio tiene una lista `tierLabels` con el nombre de sus 6 etapas
+  (`Common/Defs/Buildings.xml` del mod; el mod los traduce en
+  `Common/Languages/English/DefInjected/FactionTerritories2.BuildingDef/Text.xml`). Son 792 en 132
+  edificios. El extractor no conocía la etiqueta `tierLabels`, así que nunca llegaron a RML.
+- **Hecho y commiteado (30-oct):** en el extractor, `tierLabels` agregada a `Prefabs.EtiquetasAgregadas`,
+  con su prueba (`EtapasDeEdificioTests`). Con eso se reextrajo Hegemony: aparecieron las 792 entradas en
+  `BuildingDef/mcqike.xml`, y el diff no dañó nada (8 textos solo cambian `&apos;` por `'`, que es lo mismo).
+- Las 792 se tradujeron con tabla a mano, y Angel pidió commitearlas así. Queda una idea para el
+  extractor, si vuelve a pasar: reutilizar la traducción del `label` cuando una etapa dice lo mismo que el
+  nombre del edificio («farm» = `FT2_Farm.label`).
+
+### 2. Botón «Clear» de la tienda de recursos
+
+- La clave `Hegemony_Clear_83B12C2216` («Borrar») sí está traducida, pero el juego muestra «Clear». El
+  botón usa otra clave o un texto fijo en la DLL. Buscar en `Common/Languages/English/Keyed/Text.xml` del
+  mod cuál clave dice «Clear» junto al buscador de la tienda; si es texto fijo en la DLL, avisar al autor.
+
+### 3. «Cant» al lado de la cantidad
+
+- `Hegemony_Qty_A9BE9C3E9A` es «Cant.» y en el juego se ve «Cant» (sin punto, quizá recortado). Mirar si
+  cabe «Cant.» o conviene otra forma.

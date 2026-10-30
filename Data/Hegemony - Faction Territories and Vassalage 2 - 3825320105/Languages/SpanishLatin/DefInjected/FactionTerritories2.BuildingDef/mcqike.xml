@@ -7,528 +7,2112 @@
 - Does not build new structures or upgrade grand constructions.
 - Higher levels shorten the check interval. Pausing upgrades keeps its bandwidth. -->
   <FT2_GrandAICore.description>Automatiza las mejoras y, con Biotech, da banda ancha para mecas.\n- Mejora los edificios existentes que se puedan pagar, con materiales locales y los puntos de tecnología necesarios.\n- No construye estructuras nuevas ni mejora grandes construcciones.\n- Los niveles más altos acortan el intervalo de revisión. Pausar las mejoras conserva su banda ancha.</FT2_GrandAICore.description>
+  <!-- EN: settlement AI core -->
+  <FT2_GrandAICore.tierLabels.0>núcleo de IA del asentamiento</FT2_GrandAICore.tierLabels.0>
+  <!-- EN: settlement AI core -->
+  <FT2_GrandAICore.tierLabels.1>núcleo de IA del asentamiento</FT2_GrandAICore.tierLabels.1>
+  <!-- EN: settlement AI core -->
+  <FT2_GrandAICore.tierLabels.2>núcleo de IA del asentamiento</FT2_GrandAICore.tierLabels.2>
+  <!-- EN: settlement AI core -->
+  <FT2_GrandAICore.tierLabels.3>núcleo de IA del asentamiento</FT2_GrandAICore.tierLabels.3>
+  <!-- EN: planetary planning intelligence -->
+  <FT2_GrandAICore.tierLabels.4>inteligencia de planificación planetaria</FT2_GrandAICore.tierLabels.4>
+  <!-- EN: archotech civic mind -->
+  <FT2_GrandAICore.tierLabels.5>mente cívica arqueotéc</FT2_GrandAICore.tierLabels.5>
   <!-- EN: town hall -->
   <FT2_TownHall.label>ayuntamiento</FT2_TownHall.label>
   <!-- EN: Produces prosperity and leads settlement development. Upgrades unlock technology, raise building limits and create more building space. -->
   <FT2_TownHall.description>Produce prosperidad y dirige el desarrollo del asentamiento. Las mejoras desbloquean tecnología, suben los límites de edificios y crean más espacio para construir.</FT2_TownHall.description>
+  <!-- EN: council hut -->
+  <FT2_TownHall.tierLabels.0>choza del consejo</FT2_TownHall.tierLabels.0>
+  <!-- EN: town hall -->
+  <FT2_TownHall.tierLabels.1>ayuntamiento</FT2_TownHall.tierLabels.1>
+  <!-- EN: municipal centre -->
+  <FT2_TownHall.tierLabels.2>centro municipal</FT2_TownHall.tierLabels.2>
+  <!-- EN: administration complex -->
+  <FT2_TownHall.tierLabels.3>complejo administrativo</FT2_TownHall.tierLabels.3>
+  <!-- EN: planetary administration -->
+  <FT2_TownHall.tierLabels.4>administración planetaria</FT2_TownHall.tierLabels.4>
+  <!-- EN: archotech nexus -->
+  <FT2_TownHall.tierLabels.5>nexo arqueotéc</FT2_TownHall.tierLabels.5>
   <!-- EN: housing -->
   <FT2_Housing.label>viviendas</FT2_Housing.label>
   <!-- EN: Provides room for residents. Spare housing supports growth; overcrowding reduces happiness. Copies add capacity. -->
   <FT2_Housing.description>Da espacio a los residentes. Las viviendas libres favorecen el crecimiento; el hacinamiento reduce la felicidad. Cada copia agrega capacidad.</FT2_Housing.description>
+  <!-- EN: hut -->
+  <FT2_Housing.tierLabels.0>chozas</FT2_Housing.tierLabels.0>
+  <!-- EN: houses -->
+  <FT2_Housing.tierLabels.1>casas</FT2_Housing.tierLabels.1>
+  <!-- EN: residential area -->
+  <FT2_Housing.tierLabels.2>zona residencial</FT2_Housing.tierLabels.2>
+  <!-- EN: habitat complex -->
+  <FT2_Housing.tierLabels.3>complejo habitacional</FT2_Housing.tierLabels.3>
+  <!-- EN: arcology -->
+  <FT2_Housing.tierLabels.4>arcología</FT2_Housing.tierLabels.4>
+  <!-- EN: archotech habitat -->
+  <FT2_Housing.tierLabels.5>hábitat arqueotéc</FT2_Housing.tierLabels.5>
   <!-- EN: barracks -->
   <FT2_Barracks.label>cuartel</FT2_Barracks.label>
   <!-- EN: Funds better equipment for recruits and soldiers. Every barracks contributes to the per-soldier budget. Initial generated settlements include barracks when normal eligibility and building slots permit; their random initial-building chance is not used. -->
   <FT2_Barracks.description>Financia mejor equipamiento para reclutas y soldados. Cada cuartel aporta al presupuesto por soldado. Los asentamientos generados al inicio incluyen un cuartel cuando lo permiten la elegibilidad normal y los espacios para edificios; no se usa su probabilidad aleatoria de edificio inicial.</FT2_Barracks.description>
+  <!-- EN: warrior lodge -->
+  <FT2_Barracks.tierLabels.0>casa de guerreros</FT2_Barracks.tierLabels.0>
+  <!-- EN: barracks -->
+  <FT2_Barracks.tierLabels.1>cuartel</FT2_Barracks.tierLabels.1>
+  <!-- EN: military arsenal -->
+  <FT2_Barracks.tierLabels.2>arsenal militar</FT2_Barracks.tierLabels.2>
+  <!-- EN: advanced arsenal -->
+  <FT2_Barracks.tierLabels.3>arsenal avanzado</FT2_Barracks.tierLabels.3>
+  <!-- EN: elite arsenal -->
+  <FT2_Barracks.tierLabels.4>arsenal de élite</FT2_Barracks.tierLabels.4>
+  <!-- EN: archotech garrison -->
+  <FT2_Barracks.tierLabels.5>guarnición arqueotéc</FT2_Barracks.tierLabels.5>
   <!-- EN: mine -->
   <FT2_Mine.label>mina</FT2_Mine.label>
   <!-- EN: Produces stone and metal for construction and industry. Taxes can send part of the output home. -->
   <FT2_Mine.description>Produce piedra y metal para la construcción y la industria. Los impuestos pueden enviar parte de la producción a casa.</FT2_Mine.description>
+  <!-- EN: surface dig -->
+  <FT2_Mine.tierLabels.0>excavación a cielo abierto</FT2_Mine.tierLabels.0>
+  <!-- EN: mine -->
+  <FT2_Mine.tierLabels.1>mina</FT2_Mine.tierLabels.1>
+  <!-- EN: mining complex -->
+  <FT2_Mine.tierLabels.2>complejo minero</FT2_Mine.tierLabels.2>
+  <!-- EN: deep extraction facility -->
+  <FT2_Mine.tierLabels.3>instalación de extracción profunda</FT2_Mine.tierLabels.3>
+  <!-- EN: automated extraction array -->
+  <FT2_Mine.tierLabels.4>red de extracción automatizada</FT2_Mine.tierLabels.4>
+  <!-- EN: matter extraction nexus -->
+  <FT2_Mine.tierLabels.5>nexo de extracción de materia</FT2_Mine.tierLabels.5>
   <!-- EN: lumber yard -->
   <FT2_LumberYard.label>aserradero</FT2_LumberYard.label>
   <!-- EN: Produces wood for construction and manufacturing. Taxes can send part of the output home. -->
   <FT2_LumberYard.description>Produce madera para la construcción y la manufactura. Los impuestos pueden enviar parte de la producción a casa.</FT2_LumberYard.description>
+  <!-- EN: woodcutting camp -->
+  <FT2_LumberYard.tierLabels.0>campamento de leñadores</FT2_LumberYard.tierLabels.0>
+  <!-- EN: lumber yard -->
+  <FT2_LumberYard.tierLabels.1>aserradero</FT2_LumberYard.tierLabels.1>
+  <!-- EN: forestry complex -->
+  <FT2_LumberYard.tierLabels.2>complejo forestal</FT2_LumberYard.tierLabels.2>
+  <!-- EN: managed forestry habitat -->
+  <FT2_LumberYard.tierLabels.3>hábitat forestal gestionado</FT2_LumberYard.tierLabels.3>
+  <!-- EN: automated arboretum -->
+  <FT2_LumberYard.tierLabels.4>arboreto automatizado</FT2_LumberYard.tierLabels.4>
+  <!-- EN: biomass synthesis grove -->
+  <FT2_LumberYard.tierLabels.5>arboleda de síntesis de biomasa</FT2_LumberYard.tierLabels.5>
   <!-- EN: farm -->
   <FT2_Farm.label>granja</FT2_Farm.label>
   <!-- EN: Grows vegetables to feed inhabitants and build reserves. Normal rations, cloning and growth vats consume reserves; surplus can fund settlers, supply caravans or physical tithes. -->
   <FT2_Farm.description>Cultiva vegetales para alimentar a los habitantes y formar reservas. Las raciones normales, la clonación y los tanques de crecimiento consumen reservas; el excedente puede financiar colonos, abastecer caravanas o pagar diezmos físicos.</FT2_Farm.description>
+  <!-- EN: growing patch -->
+  <FT2_Farm.tierLabels.0>huerta</FT2_Farm.tierLabels.0>
+  <!-- EN: farm -->
+  <FT2_Farm.tierLabels.1>granja</FT2_Farm.tierLabels.1>
+  <!-- EN: agricultural estate -->
+  <FT2_Farm.tierLabels.2>finca agrícola</FT2_Farm.tierLabels.2>
+  <!-- EN: hydroponics complex -->
+  <FT2_Farm.tierLabels.3>complejo hidropónico</FT2_Farm.tierLabels.3>
+  <!-- EN: automated cultivation habitat -->
+  <FT2_Farm.tierLabels.4>hábitat de cultivo automatizado</FT2_Farm.tierLabels.4>
+  <!-- EN: biosynthesis array -->
+  <FT2_Farm.tierLabels.5>red de biosíntesis</FT2_Farm.tierLabels.5>
   <!-- EN: ranch -->
   <FT2_Ranch.label>rancho</FT2_Ranch.label>
   <!-- EN: Produces meat and animal products through livestock husbandry. Food supports population and expeditions; taxes can supply eligible animal-product tithes. Daily yield responds to labour, happiness, mayor and biome. -->
   <FT2_Ranch.description>Produce carne y productos animales con la cría de ganado. La comida sostiene a la población y las expediciones; los impuestos pueden abastecer los diezmos de productos animales que correspondan. El rendimiento diario depende del trabajo, la felicidad, el alcalde y el bioma.</FT2_Ranch.description>
+  <!-- EN: animal enclosure -->
+  <FT2_Ranch.tierLabels.0>corral</FT2_Ranch.tierLabels.0>
+  <!-- EN: ranch -->
+  <FT2_Ranch.tierLabels.1>rancho</FT2_Ranch.tierLabels.1>
+  <!-- EN: livestock complex -->
+  <FT2_Ranch.tierLabels.2>complejo ganadero</FT2_Ranch.tierLabels.2>
+  <!-- EN: husbandry habitat -->
+  <FT2_Ranch.tierLabels.3>hábitat de cría</FT2_Ranch.tierLabels.3>
+  <!-- EN: automated husbandry complex -->
+  <FT2_Ranch.tierLabels.4>complejo de cría automatizado</FT2_Ranch.tierLabels.4>
+  <!-- EN: biogenesis sanctuary -->
+  <FT2_Ranch.tierLabels.5>santuario biogénesis</FT2_Ranch.tierLabels.5>
   <!-- EN: trading outpost -->
   <FT2_TradingOutpost.label>puesto comercial</FT2_TradingOutpost.label>
   <!-- EN: Generates prosperity through commerce, helping pay for development and expeditions. -->
   <FT2_TradingOutpost.description>Genera prosperidad con el comercio, lo que ayuda a pagar el desarrollo y las expediciones.</FT2_TradingOutpost.description>
+  <!-- EN: bartering post -->
+  <FT2_TradingOutpost.tierLabels.0>puesto de trueque</FT2_TradingOutpost.tierLabels.0>
+  <!-- EN: trading outpost -->
+  <FT2_TradingOutpost.tierLabels.1>puesto comercial</FT2_TradingOutpost.tierLabels.1>
+  <!-- EN: commercial district -->
+  <FT2_TradingOutpost.tierLabels.2>distrito comercial</FT2_TradingOutpost.tierLabels.2>
+  <!-- EN: interstellar exchange -->
+  <FT2_TradingOutpost.tierLabels.3>bolsa interestelar</FT2_TradingOutpost.tierLabels.3>
+  <!-- EN: orbital trade nexus -->
+  <FT2_TradingOutpost.tierLabels.4>nexo comercial orbital</FT2_TradingOutpost.tierLabels.4>
+  <!-- EN: archotech exchange -->
+  <FT2_TradingOutpost.tierLabels.5>bolsa arqueotéc</FT2_TradingOutpost.tierLabels.5>
   <!-- EN: workshop -->
   <FT2_Workshop.label>taller</FT2_Workshop.label>
   <!-- EN: Produces components appropriate to workshop development and settlement technology. -->
   <FT2_Workshop.description>Produce componentes acordes al desarrollo del taller y a la tecnología del asentamiento.</FT2_Workshop.description>
+  <!-- EN: artisan workshop -->
+  <FT2_Workshop.tierLabels.0>taller artesano</FT2_Workshop.tierLabels.0>
+  <!-- EN: workshop -->
+  <FT2_Workshop.tierLabels.1>taller</FT2_Workshop.tierLabels.1>
+  <!-- EN: factory -->
+  <FT2_Workshop.tierLabels.2>fábrica</FT2_Workshop.tierLabels.2>
+  <!-- EN: fabrication plant -->
+  <FT2_Workshop.tierLabels.3>planta de fabricación</FT2_Workshop.tierLabels.3>
+  <!-- EN: advanced fabrication complex -->
+  <FT2_Workshop.tierLabels.4>complejo de fabricación avanzada</FT2_Workshop.tierLabels.4>
+  <!-- EN: archotech assembler -->
+  <FT2_Workshop.tierLabels.5>ensamblador arqueotéc</FT2_Workshop.tierLabels.5>
   <!-- EN: defences -->
   <FT2_Defences.label>defensas</FT2_Defences.label>
   <!-- EN: Funds perimeter cover, walls and technology-appropriate automated defences. Recent attacks damage their condition; local materials fund gradual repairs. Controlled by Procedural base defences in Military settings. New settlement maps only. -->
   <FT2_Defences.description>Financia coberturas perimetrales, muros y defensas automáticas acordes a la tecnología. Los ataques recientes dañan su estado; los materiales locales financian reparaciones graduales. Se controla con «Defensas procedurales de la base» en la configuración militar. Solo en mapas de asentamiento nuevos.</FT2_Defences.description>
+  <!-- EN: perimeter barricades -->
+  <FT2_Defences.tierLabels.0>barricadas perimetrales</FT2_Defences.tierLabels.0>
+  <!-- EN: fortified perimeter -->
+  <FT2_Defences.tierLabels.1>perímetro fortificado</FT2_Defences.tierLabels.1>
+  <!-- EN: defence network -->
+  <FT2_Defences.tierLabels.2>red de defensa</FT2_Defences.tierLabels.2>
+  <!-- EN: automated defence grid -->
+  <FT2_Defences.tierLabels.3>red de defensa automatizada</FT2_Defences.tierLabels.3>
+  <!-- EN: adaptive defence grid -->
+  <FT2_Defences.tierLabels.4>red de defensa adaptable</FT2_Defences.tierLabels.4>
+  <!-- EN: archotech defence nexus -->
+  <FT2_Defences.tierLabels.5>nexo de defensa arqueotéc</FT2_Defences.tierLabels.5>
   <!-- EN: great granary -->
   <FT2_GrandGranary.label>gran granero</FT2_GrandGranary.label>
   <!-- EN: A monumental reserve and agricultural complex. One grand construction per settlement; upgrades are not capped by the town hall. -->
   <FT2_GrandGranary.description>Un complejo monumental de reservas y agricultura. Una gran construcción por asentamiento; las mejoras no están limitadas por el ayuntamiento.</FT2_GrandGranary.description>
+  <!-- EN: great granary -->
+  <FT2_GrandGranary.tierLabels.0>gran granero</FT2_GrandGranary.tierLabels.0>
+  <!-- EN: great harvest hall -->
+  <FT2_GrandGranary.tierLabels.1>gran salón de la cosecha</FT2_GrandGranary.tierLabels.1>
+  <!-- EN: continental food reserve -->
+  <FT2_GrandGranary.tierLabels.2>reserva continental de alimentos</FT2_GrandGranary.tierLabels.2>
+  <!-- EN: planetary sustenance complex -->
+  <FT2_GrandGranary.tierLabels.3>complejo planetario de sustento</FT2_GrandGranary.tierLabels.3>
+  <!-- EN: stellar abundance vault -->
+  <FT2_GrandGranary.tierLabels.4>bóveda de la abundancia estelar</FT2_GrandGranary.tierLabels.4>
+  <!-- EN: eternal abundance nexus -->
+  <FT2_GrandGranary.tierLabels.5>nexo de la abundancia eterna</FT2_GrandGranary.tierLabels.5>
   <!-- EN: eternal citadel -->
   <FT2_GrandCitadel.label>ciudadela eterna</FT2_GrandCitadel.label>
   <!-- EN: A vast defensive stronghold. Each level supplies ten times the construction allowance of regular Defences when procedural base defences are enabled. Can keep upgrading beyond the town hall limit, with rising costs. -->
   <FT2_GrandCitadel.description>Una enorme fortaleza defensiva. Cada nivel da diez veces el margen de construcción de las defensas normales cuando las defensas procedurales de la base están activadas. Puede seguir mejorándose más allá del límite del ayuntamiento, con costos crecientes.</FT2_GrandCitadel.description>
+  <!-- EN: great hillfort -->
+  <FT2_GrandCitadel.tierLabels.0>gran castro</FT2_GrandCitadel.tierLabels.0>
+  <!-- EN: eternal citadel -->
+  <FT2_GrandCitadel.tierLabels.1>ciudadela eterna</FT2_GrandCitadel.tierLabels.1>
+  <!-- EN: continental defence command -->
+  <FT2_GrandCitadel.tierLabels.2>mando de defensa continental</FT2_GrandCitadel.tierLabels.2>
+  <!-- EN: planetary aegis -->
+  <FT2_GrandCitadel.tierLabels.3>égida planetaria</FT2_GrandCitadel.tierLabels.3>
+  <!-- EN: stellar bulwark -->
+  <FT2_GrandCitadel.tierLabels.4>baluarte estelar</FT2_GrandCitadel.tierLabels.4>
+  <!-- EN: immutable aegis nexus -->
+  <FT2_GrandCitadel.tierLabels.5>nexo de la égida inmutable</FT2_GrandCitadel.tierLabels.5>
   <!-- EN: grand library -->
   <FT2_GrandAcademy.label>gran biblioteca</FT2_GrandAcademy.label>
   <!-- EN: A monumental library producing global tech points and prosperity. Occupies a grand-construction slot. -->
   <FT2_GrandAcademy.description>Una biblioteca monumental que produce puntos de tecnología globales y prosperidad. Ocupa un espacio de gran construcción.</FT2_GrandAcademy.description>
+  <!-- EN: great learning circle -->
+  <FT2_GrandAcademy.tierLabels.0>gran círculo del saber</FT2_GrandAcademy.tierLabels.0>
+  <!-- EN: great library -->
+  <FT2_GrandAcademy.tierLabels.1>gran biblioteca</FT2_GrandAcademy.tierLabels.1>
+  <!-- EN: grand library -->
+  <FT2_GrandAcademy.tierLabels.2>biblioteca mayor</FT2_GrandAcademy.tierLabels.2>
+  <!-- EN: planetary knowledge complex -->
+  <FT2_GrandAcademy.tierLabels.3>complejo planetario del conocimiento</FT2_GrandAcademy.tierLabels.3>
+  <!-- EN: stellar consciousness archive -->
+  <FT2_GrandAcademy.tierLabels.4>archivo de la conciencia estelar</FT2_GrandAcademy.tierLabels.4>
+  <!-- EN: infinite wisdom nexus -->
+  <FT2_GrandAcademy.tierLabels.5>nexo de la sabiduría infinita</FT2_GrandAcademy.tierLabels.5>
   <!-- EN: living arcology -->
   <FT2_GrandArcology.label>arcología viviente</FT2_GrandArcology.label>
   <!-- EN: A massive self-supporting habitat. Infinite level progression is independent of town hall level. -->
   <FT2_GrandArcology.description>Un hábitat enorme y autosuficiente. Su progresión infinita de niveles no depende del nivel del ayuntamiento.</FT2_GrandArcology.description>
+  <!-- EN: great communal dwelling -->
+  <FT2_GrandArcology.tierLabels.0>gran vivienda comunal</FT2_GrandArcology.tierLabels.0>
+  <!-- EN: great garden city -->
+  <FT2_GrandArcology.tierLabels.1>gran ciudad jardín</FT2_GrandArcology.tierLabels.1>
+  <!-- EN: world habitation project -->
+  <FT2_GrandArcology.tierLabels.2>proyecto de habitación mundial</FT2_GrandArcology.tierLabels.2>
+  <!-- EN: living arcology -->
+  <FT2_GrandArcology.tierLabels.3>arcología viviente</FT2_GrandArcology.tierLabels.3>
+  <!-- EN: stellar garden habitat -->
+  <FT2_GrandArcology.tierLabels.4>hábitat jardín estelar</FT2_GrandArcology.tierLabels.4>
+  <!-- EN: genesis world sanctuary -->
+  <FT2_GrandArcology.tierLabels.5>santuario del mundo génesis</FT2_GrandArcology.tierLabels.5>
   <!-- EN: river mill -->
   <FT2_RiverMill.label>molino fluvial</FT2_RiverMill.label>
   <!-- EN: Uses direct river access for manufacturing. -->
   <FT2_RiverMill.description>Usa el acceso directo al río para la manufactura.</FT2_RiverMill.description>
+  <!-- EN: river wheel -->
+  <FT2_RiverMill.tierLabels.0>rueda fluvial</FT2_RiverMill.tierLabels.0>
+  <!-- EN: river mill -->
+  <FT2_RiverMill.tierLabels.1>molino fluvial</FT2_RiverMill.tierLabels.1>
+  <!-- EN: river industrial works -->
+  <FT2_RiverMill.tierLabels.2>obras industriales fluviales</FT2_RiverMill.tierLabels.2>
+  <!-- EN: hydrokinetic complex -->
+  <FT2_RiverMill.tierLabels.3>complejo hidrocinético</FT2_RiverMill.tierLabels.3>
+  <!-- EN: molecular current works -->
+  <FT2_RiverMill.tierLabels.4>obras moleculares de corriente</FT2_RiverMill.tierLabels.4>
+  <!-- EN: eternal flow nexus -->
+  <FT2_RiverMill.tierLabels.5>nexo del flujo eterno</FT2_RiverMill.tierLabels.5>
   <!-- EN: coastal fishery -->
   <FT2_CoastalFishery.label>pesquería costera</FT2_CoastalFishery.label>
   <!-- EN: Harvests fish from coastal waters. Requires a neighbouring water tile. -->
   <FT2_CoastalFishery.description>Pesca en las aguas costeras. Requiere una celda de agua vecina.</FT2_CoastalFishery.description>
+  <!-- EN: coastal fishing camp -->
+  <FT2_CoastalFishery.tierLabels.0>campamento de pesca costera</FT2_CoastalFishery.tierLabels.0>
+  <!-- EN: coastal fishery -->
+  <FT2_CoastalFishery.tierLabels.1>pesquería costera</FT2_CoastalFishery.tierLabels.1>
+  <!-- EN: marine harvesting port -->
+  <FT2_CoastalFishery.tierLabels.2>puerto de cosecha marina</FT2_CoastalFishery.tierLabels.2>
+  <!-- EN: oceanic cultivation complex -->
+  <FT2_CoastalFishery.tierLabels.3>complejo de cultivo oceánico</FT2_CoastalFishery.tierLabels.3>
+  <!-- EN: pelagic biosynthesis array -->
+  <FT2_CoastalFishery.tierLabels.4>red de biosíntesis pelágica</FT2_CoastalFishery.tierLabels.4>
+  <!-- EN: ocean genesis sanctuary -->
+  <FT2_CoastalFishery.tierLabels.5>santuario génesis oceánico</FT2_CoastalFishery.tierLabels.5>
   <!-- EN: terrace farm -->
   <FT2_TerraceFarm.label>cultivo en terrazas</FT2_TerraceFarm.label>
   <!-- EN: Cultivates hillsides. Requires hills or mountains. -->
   <FT2_TerraceFarm.description>Cultiva las laderas. Requiere colinas o montañas.</FT2_TerraceFarm.description>
+  <!-- EN: terrace garden -->
+  <FT2_TerraceFarm.tierLabels.0>huerta en terrazas</FT2_TerraceFarm.tierLabels.0>
+  <!-- EN: terrace farm -->
+  <FT2_TerraceFarm.tierLabels.1>cultivo en terrazas</FT2_TerraceFarm.tierLabels.1>
+  <!-- EN: hillside agricultural estate -->
+  <FT2_TerraceFarm.tierLabels.2>finca agrícola en ladera</FT2_TerraceFarm.tierLabels.2>
+  <!-- EN: stepped hydroponics complex -->
+  <FT2_TerraceFarm.tierLabels.3>complejo hidropónico escalonado</FT2_TerraceFarm.tierLabels.3>
+  <!-- EN: upland biosynthesis array -->
+  <FT2_TerraceFarm.tierLabels.4>red de biosíntesis de altura</FT2_TerraceFarm.tierLabels.4>
+  <!-- EN: ascending harvest sanctuary -->
+  <FT2_TerraceFarm.tierLabels.5>santuario de la cosecha ascendente</FT2_TerraceFarm.tierLabels.5>
   <!-- EN: deep-core mine -->
   <FT2_DeepMine.label>mina profunda</FT2_DeepMine.label>
   <!-- EN: Extracts deep resources at mountain settlements. -->
   <FT2_DeepMine.description>Extrae recursos profundos en los asentamientos de montaña.</FT2_DeepMine.description>
+  <!-- EN: mountain dig -->
+  <FT2_DeepMine.tierLabels.0>excavación en la montaña</FT2_DeepMine.tierLabels.0>
+  <!-- EN: mountain mine -->
+  <FT2_DeepMine.tierLabels.1>mina de montaña</FT2_DeepMine.tierLabels.1>
+  <!-- EN: deep-core mine -->
+  <FT2_DeepMine.tierLabels.2>mina de núcleo profundo</FT2_DeepMine.tierLabels.2>
+  <!-- EN: mantle extraction complex -->
+  <FT2_DeepMine.tierLabels.3>complejo de extracción del manto</FT2_DeepMine.tierLabels.3>
+  <!-- EN: planetary matter bore -->
+  <FT2_DeepMine.tierLabels.4>perforadora de materia planetaria</FT2_DeepMine.tierLabels.4>
+  <!-- EN: deepmatter genesis nexus -->
+  <FT2_DeepMine.tierLabels.5>nexo génesis de materia profunda</FT2_DeepMine.tierLabels.5>
   <!-- EN: managed forest -->
   <FT2_ForestReserve.label>bosque gestionado</FT2_ForestReserve.label>
   <!-- EN: A managed forest requires a forested biome. Grasslands and other treeless vanilla biomes do not qualify. -->
   <FT2_ForestReserve.description>Un bosque gestionado requiere un bioma boscoso. La pradera y los demás biomas sin árboles del juego base no sirven.</FT2_ForestReserve.description>
+  <!-- EN: managed grove -->
+  <FT2_ForestReserve.tierLabels.0>arboleda cuidada</FT2_ForestReserve.tierLabels.0>
+  <!-- EN: managed forest -->
+  <FT2_ForestReserve.tierLabels.1>bosque gestionado</FT2_ForestReserve.tierLabels.1>
+  <!-- EN: forestry reserve -->
+  <FT2_ForestReserve.tierLabels.2>reserva forestal</FT2_ForestReserve.tierLabels.2>
+  <!-- EN: arboreal habitat complex -->
+  <FT2_ForestReserve.tierLabels.3>complejo de hábitat arbóreo</FT2_ForestReserve.tierLabels.3>
+  <!-- EN: forest renewal array -->
+  <FT2_ForestReserve.tierLabels.4>red de renovación forestal</FT2_ForestReserve.tierLabels.4>
+  <!-- EN: eternal forest sanctuary -->
+  <FT2_ForestReserve.tierLabels.5>santuario del bosque eterno</FT2_ForestReserve.tierLabels.5>
   <!-- EN: landmark refinery complex -->
   <FT2_SiteRefinery.label>complejo de refinería del punto de interés</FT2_SiteRefinery.label>
   <!-- EN: Expands an ancient chemfuel refinery on this exact tile, adding prosperity and chemfuel goods. -->
   <FT2_SiteRefinery.description>Amplía una refinería de quimbustible antigua en esta misma celda y agrega prosperidad y quimbustible como bien.</FT2_SiteRefinery.description>
+  <!-- EN: fuel gathering site -->
+  <FT2_SiteRefinery.tierLabels.0>sitio de recolección de combustible</FT2_SiteRefinery.tierLabels.0>
+  <!-- EN: fuel distillery -->
+  <FT2_SiteRefinery.tierLabels.1>destilería de combustible</FT2_SiteRefinery.tierLabels.1>
+  <!-- EN: landmark refinery -->
+  <FT2_SiteRefinery.tierLabels.2>refinería del punto de interés</FT2_SiteRefinery.tierLabels.2>
+  <!-- EN: molecular fuel complex -->
+  <FT2_SiteRefinery.tierLabels.3>complejo molecular de combustible</FT2_SiteRefinery.tierLabels.3>
+  <!-- EN: synthetic energy array -->
+  <FT2_SiteRefinery.tierLabels.4>red de energía sintética</FT2_SiteRefinery.tierLabels.4>
+  <!-- EN: eternal energy nexus -->
+  <FT2_SiteRefinery.tierLabels.5>nexo de la energía eterna</FT2_SiteRefinery.tierLabels.5>
   <!-- EN: toxic extraction plant -->
   <FT2_ToxicExtractor.label>planta de extracción tóxica</FT2_ToxicExtractor.label>
   <!-- EN: Harvests local toxic deposits, with a small happiness cost. Requires a toxic landmark on this tile. -->
   <FT2_ToxicExtractor.description>Aprovecha los yacimientos tóxicos locales, con un pequeño costo en felicidad. Requiere un punto de interés tóxico en esta celda.</FT2_ToxicExtractor.description>
+  <!-- EN: toxic gathering site -->
+  <FT2_ToxicExtractor.tierLabels.0>sitio de recolección tóxica</FT2_ToxicExtractor.tierLabels.0>
+  <!-- EN: toxic ore works -->
+  <FT2_ToxicExtractor.tierLabels.1>obras de mineral tóxico</FT2_ToxicExtractor.tierLabels.1>
+  <!-- EN: toxic extractor -->
+  <FT2_ToxicExtractor.tierLabels.2>planta de extracción tóxica</FT2_ToxicExtractor.tierLabels.2>
+  <!-- EN: hazard extraction complex -->
+  <FT2_ToxicExtractor.tierLabels.3>complejo de extracción peligrosa</FT2_ToxicExtractor.tierLabels.3>
+  <!-- EN: tainted matter refinery -->
+  <FT2_ToxicExtractor.tierLabels.4>refinería de materia contaminada</FT2_ToxicExtractor.tierLabels.4>
+  <!-- EN: entropy reclamation sanctuary -->
+  <FT2_ToxicExtractor.tierLabels.5>santuario de recuperación entrópica</FT2_ToxicExtractor.tierLabels.5>
   <!-- EN: geographical observatory -->
   <FT2_FeatureObservatory.label>observatorio geográfico</FT2_FeatureObservatory.label>
   <!-- EN: Studies a named geographical feature or local tile feature. Requires the feature on this settlement tile. -->
   <FT2_FeatureObservatory.description>Estudia un accidente geográfico con nombre o un rasgo local de la celda. Requiere ese accidente en la celda del asentamiento.</FT2_FeatureObservatory.description>
+  <!-- EN: geographical watchpost -->
+  <FT2_FeatureObservatory.tierLabels.0>puesto de vigilancia geográfica</FT2_FeatureObservatory.tierLabels.0>
+  <!-- EN: geographical observatory -->
+  <FT2_FeatureObservatory.tierLabels.1>observatorio geográfico</FT2_FeatureObservatory.tierLabels.1>
+  <!-- EN: geographical research station -->
+  <FT2_FeatureObservatory.tierLabels.2>estación de investigación geográfica</FT2_FeatureObservatory.tierLabels.2>
+  <!-- EN: planetary survey institute -->
+  <FT2_FeatureObservatory.tierLabels.3>instituto de estudios planetarios</FT2_FeatureObservatory.tierLabels.3>
+  <!-- EN: deepworld insight array -->
+  <FT2_FeatureObservatory.tierLabels.4>red de visión del mundo profundo</FT2_FeatureObservatory.tierLabels.4>
+  <!-- EN: omniscient world nexus -->
+  <FT2_FeatureObservatory.tierLabels.5>nexo omnisciente del mundo</FT2_FeatureObservatory.tierLabels.5>
   <!-- EN: landmark research museum -->
   <FT2_LandmarkMuseum.label>museo de investigación del punto de interés</FT2_LandmarkMuseum.label>
   <!-- EN: A research and visitor centre for the landmark on this exact tile. -->
   <FT2_LandmarkMuseum.description>Un centro de investigación y de visitantes para el punto de interés de esta misma celda.</FT2_LandmarkMuseum.description>
+  <!-- EN: landmark shrine -->
+  <FT2_LandmarkMuseum.tierLabels.0>santuario del punto de interés</FT2_LandmarkMuseum.tierLabels.0>
+  <!-- EN: landmark museum -->
+  <FT2_LandmarkMuseum.tierLabels.1>museo del punto de interés</FT2_LandmarkMuseum.tierLabels.1>
+  <!-- EN: landmark heritage gallery -->
+  <FT2_LandmarkMuseum.tierLabels.2>galería del patrimonio del punto de interés</FT2_LandmarkMuseum.tierLabels.2>
+  <!-- EN: planetary memory archive -->
+  <FT2_LandmarkMuseum.tierLabels.3>archivo de la memoria planetaria</FT2_LandmarkMuseum.tierLabels.3>
+  <!-- EN: stellar heritage vault -->
+  <FT2_LandmarkMuseum.tierLabels.4>bóveda del patrimonio estelar</FT2_LandmarkMuseum.tierLabels.4>
+  <!-- EN: eternal landmark archive -->
+  <FT2_LandmarkMuseum.tierLabels.5>archivo eterno del punto de interés</FT2_LandmarkMuseum.tierLabels.5>
   <!-- EN: greenhouse -->
   <FT2_Greenhouse.label>invernadero</FT2_Greenhouse.label>
   <!-- EN: Pays local material upkeep to reduce mapped cold farming hardship. All eligible copies contribute paid local levels. Wildlife, fishing and unrelated hazards are unchanged. Produces no food by itself. -->
   <FT2_Greenhouse.description>Paga mantenimiento de materiales locales para reducir las penurias de cultivo por frío del mapa. Todas las copias elegibles aportan sus niveles locales pagados. La fauna, la pesca y los peligros que no tienen relación no cambian. No produce comida por sí solo.</FT2_Greenhouse.description>
+  <!-- EN: sheltered growing plot -->
+  <FT2_Greenhouse.tierLabels.0>parcela de cultivo resguardada</FT2_Greenhouse.tierLabels.0>
+  <!-- EN: glazed growing house -->
+  <FT2_Greenhouse.tierLabels.1>casa de cultivo acristalada</FT2_Greenhouse.tierLabels.1>
+  <!-- EN: greenhouse -->
+  <FT2_Greenhouse.tierLabels.2>invernadero</FT2_Greenhouse.tierLabels.2>
+  <!-- EN: climate-controlled greenhouse -->
+  <FT2_Greenhouse.tierLabels.3>invernadero climatizado</FT2_Greenhouse.tierLabels.3>
+  <!-- EN: adaptive climate garden -->
+  <FT2_Greenhouse.tierLabels.4>jardín de clima adaptable</FT2_Greenhouse.tierLabels.4>
+  <!-- EN: archotech growing sanctuary -->
+  <FT2_Greenhouse.tierLabels.5>santuario de cultivo arqueotéc</FT2_Greenhouse.tierLabels.5>
   <!-- EN: irrigation works -->
   <FT2_Irrigation.label>obras de riego</FT2_Irrigation.label>
   <!-- EN: Pays local material upkeep to reduce mapped dry farming hardship and its covered consumption costs. Requires safe local river or lake water and nonfreezing conditions. Produces no food or water stock by itself. -->
   <FT2_Irrigation.description>Paga mantenimiento de materiales locales para reducir las penurias de cultivo por sequía del mapa y los costos de consumo que cubre. Requiere agua segura de un río o lago local y condiciones sin heladas. No produce comida ni reservas de agua por sí solo.</FT2_Irrigation.description>
+  <!-- EN: irrigation channels -->
+  <FT2_Irrigation.tierLabels.0>canales de riego</FT2_Irrigation.tierLabels.0>
+  <!-- EN: irrigation works -->
+  <FT2_Irrigation.tierLabels.1>obras de riego</FT2_Irrigation.tierLabels.1>
+  <!-- EN: pumped irrigation grid -->
+  <FT2_Irrigation.tierLabels.2>red de riego por bombeo</FT2_Irrigation.tierLabels.2>
+  <!-- EN: precision irrigation network -->
+  <FT2_Irrigation.tierLabels.3>red de riego de precisión</FT2_Irrigation.tierLabels.3>
+  <!-- EN: adaptive watershed works -->
+  <FT2_Irrigation.tierLabels.4>obras de cuenca adaptables</FT2_Irrigation.tierLabels.4>
+  <!-- EN: archotech hydration lattice -->
+  <FT2_Irrigation.tierLabels.5>retícula de hidratación arqueotéc</FT2_Irrigation.tierLabels.5>
   <!-- EN: grand cartographic archive -->
   <FT2_GrandChancery.label>gran archivo cartográfico</FT2_GrandChancery.label>
   <!-- EN: Coordinates this settlement&apos;s territorial administration, helping it maintain claims farther from home. Higher levels slow the loss of influence with distance, with diminishing returns. Only this settlement&apos;s claims benefit. Active local archives multiply their effects together, with no minimum decay rate; territory range limits still apply. -->
   <FT2_GrandChancery.description>Coordina la administración territorial de este asentamiento y lo ayuda a mantener reclamos más lejos de casa. Los niveles más altos hacen más lenta la pérdida de influencia con la distancia, con rendimientos decrecientes. Solo benefician los reclamos de este asentamiento. Los efectos de los archivos locales activos se multiplican entre sí, sin un ritmo mínimo de pérdida; los límites de alcance del territorio se siguen aplicando.</FT2_GrandChancery.description>
+  <!-- EN: great council circle -->
+  <FT2_GrandChancery.tierLabels.0>gran círculo del consejo</FT2_GrandChancery.tierLabels.0>
+  <!-- EN: grand cartographic archive -->
+  <FT2_GrandChancery.tierLabels.1>gran archivo cartográfico</FT2_GrandChancery.tierLabels.1>
+  <!-- EN: territorial administration bureau -->
+  <FT2_GrandChancery.tierLabels.2>oficina de administración territorial</FT2_GrandChancery.tierLabels.2>
+  <!-- EN: planetary governance nexus -->
+  <FT2_GrandChancery.tierLabels.3>nexo de gobierno planetario</FT2_GrandChancery.tierLabels.3>
+  <!-- EN: stellar administration network -->
+  <FT2_GrandChancery.tierLabels.4>red de administración estelar</FT2_GrandChancery.tierLabels.4>
+  <!-- EN: archotech sovereignty nexus -->
+  <FT2_GrandChancery.tierLabels.5>nexo de soberanía arqueotéc</FT2_GrandChancery.tierLabels.5>
   <!-- EN: grand academy -->
   <FT2_GrandTrainingAcademy.label>gran academia</FT2_GrandTrainingAcademy.label>
   <!-- EN: Develops a small cadre of persistent residents for expeditions and mayoral service. Trains all enabled skills of its residents, mayor and friendly caravan visitors on this tile. Training spends local materials and prosperity; higher levels improve teaching and capacity. -->
   <FT2_GrandTrainingAcademy.description>Forma un pequeño grupo de residentes permanentes para expediciones y para servir de alcalde. Entrena todas las habilidades activadas de sus residentes, del alcalde y de los visitantes de caravanas amistosas en esta celda. El entrenamiento gasta materiales locales y prosperidad; los niveles más altos mejoran la enseñanza y la capacidad.</FT2_GrandTrainingAcademy.description>
+  <!-- EN: great learning lodge -->
+  <FT2_GrandTrainingAcademy.tierLabels.0>gran casa del saber</FT2_GrandTrainingAcademy.tierLabels.0>
+  <!-- EN: grand scholastic academy -->
+  <FT2_GrandTrainingAcademy.tierLabels.1>gran academia escolástica</FT2_GrandTrainingAcademy.tierLabels.1>
+  <!-- EN: grand academy -->
+  <FT2_GrandTrainingAcademy.tierLabels.2>gran academia</FT2_GrandTrainingAcademy.tierLabels.2>
+  <!-- EN: planetary command academy -->
+  <FT2_GrandTrainingAcademy.tierLabels.3>academia de mando planetaria</FT2_GrandTrainingAcademy.tierLabels.3>
+  <!-- EN: stellar command academy -->
+  <FT2_GrandTrainingAcademy.tierLabels.4>academia de mando estelar</FT2_GrandTrainingAcademy.tierLabels.4>
+  <!-- EN: archotech mastery academy -->
+  <FT2_GrandTrainingAcademy.tierLabels.5>academia de maestría arqueotéc</FT2_GrandTrainingAcademy.tierLabels.5>
   <!-- EN: psychic sanctum -->
   <FT2_PsychicSanctum.label>santuario psíquico</FT2_PsychicSanctum.label>
   <!-- EN: Trains a small number of actual residents as psycasters. Training takes time and local resources; psylink advancement has an additional payment. A psycaster mayor mentors the students. Resident psycasters recover focus here between expeditions. -->
   <FT2_PsychicSanctum.description>Entrena como psicoemisores a unos pocos residentes reales. El entrenamiento lleva tiempo y recursos locales; subir de nivel de psicoenlace tiene un pago adicional. Un alcalde psicoemisor guía a los alumnos. Los psicoemisores residentes recuperan aquí su psicoenfoque entre expediciones.</FT2_PsychicSanctum.description>
+  <!-- EN: anima sanctuary -->
+  <FT2_PsychicSanctum.tierLabels.0>santuario de ánima</FT2_PsychicSanctum.tierLabels.0>
+  <!-- EN: psychic monastery -->
+  <FT2_PsychicSanctum.tierLabels.1>monasterio psíquico</FT2_PsychicSanctum.tierLabels.1>
+  <!-- EN: psychic sanctum -->
+  <FT2_PsychicSanctum.tierLabels.2>santuario psíquico</FT2_PsychicSanctum.tierLabels.2>
+  <!-- EN: neural communion centre -->
+  <FT2_PsychicSanctum.tierLabels.3>centro de comunión neuronal</FT2_PsychicSanctum.tierLabels.3>
+  <!-- EN: psionic conclave -->
+  <FT2_PsychicSanctum.tierLabels.4>cónclave psiónico</FT2_PsychicSanctum.tierLabels.4>
+  <!-- EN: archotech noetic nexus -->
+  <FT2_PsychicSanctum.tierLabels.5>nexo noético arqueotéc</FT2_PsychicSanctum.tierLabels.5>
   <!-- EN: flesh heart -->
   <FT2_FleshHeart.label>corazón de carne</FT2_FleshHeart.label>
   <!-- EN: A living heart that grows twisted meat and fleshbeasts for your expeditions. Its creatures need feeding and confinement. Neglect them, and they may turn on their keepers. -->
   <FT2_FleshHeart.description>Un corazón vivo que hace crecer carne retorcida y carnibestias para tus expediciones. Sus criaturas necesitan alimento y encierro. Si las descuidas, pueden volverse contra sus cuidadores.</FT2_FleshHeart.description>
+  <!-- EN: flesh shrine -->
+  <FT2_FleshHeart.tierLabels.0>santuario de carne</FT2_FleshHeart.tierLabels.0>
+  <!-- EN: flesh sanctum -->
+  <FT2_FleshHeart.tierLabels.1>templo de carne</FT2_FleshHeart.tierLabels.1>
+  <!-- EN: flesh heart -->
+  <FT2_FleshHeart.tierLabels.2>corazón de carne</FT2_FleshHeart.tierLabels.2>
+  <!-- EN: bioengineered flesh heart -->
+  <FT2_FleshHeart.tierLabels.3>corazón de carne de bioingeniería</FT2_FleshHeart.tierLabels.3>
+  <!-- EN: morphogenic flesh heart -->
+  <FT2_FleshHeart.tierLabels.4>corazón de carne morfogénico</FT2_FleshHeart.tierLabels.4>
+  <!-- EN: archotech flesh nexus -->
+  <FT2_FleshHeart.tierLabels.5>nexo de carne arqueotéc</FT2_FleshHeart.tierLabels.5>
   <!-- EN: propaganda centre -->
   <FT2_PropagandaCentre.label>centro de propaganda</FT2_PropagandaCentre.label>
   <!-- EN: Speakers, broadcasts and carefully chosen stories carry your beliefs beyond the border. Winning a faction over takes time, supplies and influence. Its rulers may resist or resent the interference. -->
   <FT2_PropagandaCentre.description>Altavoces, transmisiones e historias bien elegidas llevan tus creencias más allá de la frontera. Ganarse a una facción lleva tiempo, suministros e influencia. Sus gobernantes pueden resistirse a la injerencia o tomarla a mal.</FT2_PropagandaCentre.description>
+  <!-- EN: speaker&apos;s circle -->
+  <FT2_PropagandaCentre.tierLabels.0>círculo del orador</FT2_PropagandaCentre.tierLabels.0>
+  <!-- EN: doctrine hall -->
+  <FT2_PropagandaCentre.tierLabels.1>salón de la doctrina</FT2_PropagandaCentre.tierLabels.1>
+  <!-- EN: propaganda centre -->
+  <FT2_PropagandaCentre.tierLabels.2>centro de propaganda</FT2_PropagandaCentre.tierLabels.2>
+  <!-- EN: planetary media centre -->
+  <FT2_PropagandaCentre.tierLabels.3>centro de medios planetario</FT2_PropagandaCentre.tierLabels.3>
+  <!-- EN: neural persuasion network -->
+  <FT2_PropagandaCentre.tierLabels.4>red de persuasión neuronal</FT2_PropagandaCentre.tierLabels.4>
+  <!-- EN: archotech consensus nexus -->
+  <FT2_PropagandaCentre.tierLabels.5>nexo de consenso arqueotéc</FT2_PropagandaCentre.tierLabels.5>
   <!-- EN: grand logistics array -->
   <FT2_GrandLogisticsArray.label>gran red logística</FT2_GrandLogisticsArray.label>
   <!-- EN: A lifeline between distant settlements. Share supplies with towns within reach and send parties instantly to another array, including an ally&apos;s. Greater levels extend the reach. A one-way link does not guarantee a journey back; each faction pays its own travel costs. -->
   <FT2_GrandLogisticsArray.description>Un lazo vital entre asentamientos lejanos. Comparte suministros con los pueblos a su alcance y envía grupos al instante a otra red, incluida la de un aliado. Los niveles más altos amplían el alcance. Un enlace de ida no garantiza el viaje de vuelta; cada facción paga sus propios costos de viaje.</FT2_GrandLogisticsArray.description>
+  <!-- EN: cargo gathering ground -->
+  <FT2_GrandLogisticsArray.tierLabels.0>campo de reunión de carga</FT2_GrandLogisticsArray.tierLabels.0>
+  <!-- EN: cargo exchange -->
+  <FT2_GrandLogisticsArray.tierLabels.1>lonja de carga</FT2_GrandLogisticsArray.tierLabels.1>
+  <!-- EN: grand drop-pod array -->
+  <FT2_GrandLogisticsArray.tierLabels.2>gran red de cápsulas de escape</FT2_GrandLogisticsArray.tierLabels.2>
+  <!-- EN: grand logistics array -->
+  <FT2_GrandLogisticsArray.tierLabels.3>gran red logística</FT2_GrandLogisticsArray.tierLabels.3>
+  <!-- EN: matter-transfer nexus -->
+  <FT2_GrandLogisticsArray.tierLabels.4>nexo de transferencia de materia</FT2_GrandLogisticsArray.tierLabels.4>
+  <!-- EN: archotech transit lattice -->
+  <FT2_GrandLogisticsArray.tierLabels.5>retícula de tránsito arqueotéc</FT2_GrandLogisticsArray.tierLabels.5>
   <!-- EN: moving city -->
   <FT2_MovingCity.label>ciudad móvil</FT2_MovingCity.label>
   <!-- EN: A city that carries its people and buildings to a new home. Levels 1-5 cross land, 6-10 brave the seas, 11-15 take flight and 16 onward reach space. Movement is unavailable while its map is open. -->
   <FT2_MovingCity.description>Una ciudad que lleva a su gente y sus edificios a un nuevo hogar. Los niveles 1-5 cruzan tierra, del 6 al 10 desafían los mares, del 11 al 15 levantan vuelo y del 16 en adelante llegan al espacio. No se puede mover mientras su mapa está abierto.</FT2_MovingCity.description>
+  <!-- EN: travelling camp -->
+  <FT2_MovingCity.tierLabels.0>campamento itinerante</FT2_MovingCity.tierLabels.0>
+  <!-- EN: wagon city -->
+  <FT2_MovingCity.tierLabels.1>ciudad de carretas</FT2_MovingCity.tierLabels.1>
+  <!-- EN: crawler city -->
+  <FT2_MovingCity.tierLabels.2>ciudad oruga</FT2_MovingCity.tierLabels.2>
+  <!-- EN: mobile arcology -->
+  <FT2_MovingCity.tierLabels.3>arcología móvil</FT2_MovingCity.tierLabels.3>
+  <!-- EN: flying fortress -->
+  <FT2_MovingCity.tierLabels.4>fortaleza voladora</FT2_MovingCity.tierLabels.4>
+  <!-- EN: archotech citadel -->
+  <FT2_MovingCity.tierLabels.5>ciudadela arqueotéc</FT2_MovingCity.tierLabels.5>
   <!-- EN: orbital laser array -->
   <FT2_OrbitalLaser.label>red de láser orbital</FT2_OrbitalLaser.label>
   <!-- EN: An orbital weapon that concentrates a devastating beam on an enemy. Firing costs resources, and the weapon must recharge between strikes. Higher levels shorten the wait. Choose a target on an open map. -->
   <FT2_OrbitalLaser.description>Un arma orbital que concentra un rayo devastador sobre un enemigo. Disparar cuesta recursos, y el arma debe recargarse entre ataques. Los niveles más altos acortan la espera. Elige un objetivo en un mapa abierto.</FT2_OrbitalLaser.description>
+  <!-- EN: sun mirror -->
+  <FT2_OrbitalLaser.tierLabels.0>espejo solar</FT2_OrbitalLaser.tierLabels.0>
+  <!-- EN: solar focusing tower -->
+  <FT2_OrbitalLaser.tierLabels.1>torre de concentración solar</FT2_OrbitalLaser.tierLabels.1>
+  <!-- EN: orbital beam platform -->
+  <FT2_OrbitalLaser.tierLabels.2>plataforma de rayo orbital</FT2_OrbitalLaser.tierLabels.2>
+  <!-- EN: orbital laser array -->
+  <FT2_OrbitalLaser.tierLabels.3>red de láser orbital</FT2_OrbitalLaser.tierLabels.3>
+  <!-- EN: orbital lance array -->
+  <FT2_OrbitalLaser.tierLabels.4>red de lanza orbital</FT2_OrbitalLaser.tierLabels.4>
+  <!-- EN: archotech stellar lance -->
+  <FT2_OrbitalLaser.tierLabels.5>lanza estelar arqueotéc</FT2_OrbitalLaser.tierLabels.5>
   <!-- EN: orbital bombardment platform -->
   <FT2_OrbitalBombarder.label>plataforma de bombardeo orbital</FT2_OrbitalBombarder.label>
   <!-- EN: An orbital battery that rains destruction on enemy positions. Each strike needs ammunition and time to recharge; upgrades shorten the wait. Choose a target on an open map and keep allies clear of the blast. -->
   <FT2_OrbitalBombarder.description>Una batería orbital que hace llover destrucción sobre las posiciones enemigas. Cada ataque necesita munición y tiempo para recargarse; las mejoras acortan la espera. Elige un objetivo en un mapa abierto y mantén a tus aliados lejos de la explosión.</FT2_OrbitalBombarder.description>
+  <!-- EN: skyfall shrine -->
+  <FT2_OrbitalBombarder.tierLabels.0>santuario de la lluvia celeste</FT2_OrbitalBombarder.tierLabels.0>
+  <!-- EN: siege skyworks -->
+  <FT2_OrbitalBombarder.tierLabels.1>artificios de asedio celestes</FT2_OrbitalBombarder.tierLabels.1>
+  <!-- EN: orbital artillery platform -->
+  <FT2_OrbitalBombarder.tierLabels.2>plataforma de artillería orbital</FT2_OrbitalBombarder.tierLabels.2>
+  <!-- EN: orbital bombardment platform -->
+  <FT2_OrbitalBombarder.tierLabels.3>plataforma de bombardeo orbital</FT2_OrbitalBombarder.tierLabels.3>
+  <!-- EN: orbital siege array -->
+  <FT2_OrbitalBombarder.tierLabels.4>red de asedio orbital</FT2_OrbitalBombarder.tierLabels.4>
+  <!-- EN: archotech skyfall nexus -->
+  <FT2_OrbitalBombarder.tierLabels.5>nexo de lluvia celeste arqueotéc</FT2_OrbitalBombarder.tierLabels.5>
   <!-- EN: grand observatory -->
   <FT2_GrandObservatory.label>gran observatorio</FT2_GrandObservatory.label>
   <!-- EN: Searches orbit for new resource asteroids. Scans need sustained funding, take time and become faster with upgrades. Discoveries are real world sites that can be visited and support nearby territorial settlements. -->
   <FT2_GrandObservatory.description>Busca en órbita nuevos asteroides con recursos. Los escaneos necesitan financiamiento continuo, llevan tiempo y se aceleran con las mejoras. Los descubrimientos son sitios reales del mundo que se pueden visitar y que benefician a los asentamientos territoriales cercanos.</FT2_GrandObservatory.description>
+  <!-- EN: skywatch circle -->
+  <FT2_GrandObservatory.tierLabels.0>círculo de observación del cielo</FT2_GrandObservatory.tierLabels.0>
+  <!-- EN: grand star chart hall -->
+  <FT2_GrandObservatory.tierLabels.1>gran salón de cartas estelares</FT2_GrandObservatory.tierLabels.1>
+  <!-- EN: orbital tracking centre -->
+  <FT2_GrandObservatory.tierLabels.2>centro de seguimiento orbital</FT2_GrandObservatory.tierLabels.2>
+  <!-- EN: grand observatory -->
+  <FT2_GrandObservatory.tierLabels.3>gran observatorio</FT2_GrandObservatory.tierLabels.3>
+  <!-- EN: deep-space observatory -->
+  <FT2_GrandObservatory.tierLabels.4>observatorio del espacio profundo</FT2_GrandObservatory.tierLabels.4>
+  <!-- EN: archotech astral observatory -->
+  <FT2_GrandObservatory.tierLabels.5>observatorio astral arqueotéc</FT2_GrandObservatory.tierLabels.5>
   <!-- EN: asteroid extraction plant -->
   <FT2_SiteBuilding_Asteroid.label>planta de extracción de asteroides</FT2_SiteBuilding_Asteroid.label>
   <!-- EN: Processes the asteroid deposits on this tile into local metal reserves. -->
   <FT2_SiteBuilding_Asteroid.description>Procesa los yacimientos de asteroide de esta celda y los convierte en reservas locales de metal.</FT2_SiteBuilding_Asteroid.description>
+  <!-- EN: stone gathering camp -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.0>campamento de recolección de piedra</FT2_SiteBuilding_Asteroid.tierLabels.0>
+  <!-- EN: mineral extraction yard -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.1>patio de extracción mineral</FT2_SiteBuilding_Asteroid.tierLabels.1>
+  <!-- EN: asteroid processing works -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.2>obras de procesamiento de asteroides</FT2_SiteBuilding_Asteroid.tierLabels.2>
+  <!-- EN: asteroid extraction plant -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.3>planta de extracción de asteroides</FT2_SiteBuilding_Asteroid.tierLabels.3>
+  <!-- EN: stellar mineral refinery -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.4>refinería mineral estelar</FT2_SiteBuilding_Asteroid.tierLabels.4>
+  <!-- EN: archotech asteroid reclamation nexus -->
+  <FT2_SiteBuilding_Asteroid.tierLabels.5>nexo de recuperación de asteroides arqueotéc</FT2_SiteBuilding_Asteroid.tierLabels.5>
   <!-- EN: station salvage yard -->
   <FT2_SiteBuilding_SpaceStation.label>desguace de la estación</FT2_SiteBuilding_SpaceStation.label>
   <!-- EN: Reclaims components and technical knowledge from the station on this tile. -->
   <FT2_SiteBuilding_SpaceStation.description>Recupera componentes y conocimiento técnico de la estación de esta celda.</FT2_SiteBuilding_SpaceStation.description>
+  <!-- EN: relic gathering camp -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.0>campamento de recolección de reliquias</FT2_SiteBuilding_SpaceStation.tierLabels.0>
+  <!-- EN: relic recovery workshop -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.1>taller de recuperación de reliquias</FT2_SiteBuilding_SpaceStation.tierLabels.1>
+  <!-- EN: station recovery works -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.2>obras de recuperación de la estación</FT2_SiteBuilding_SpaceStation.tierLabels.2>
+  <!-- EN: station salvage yard -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.3>desguace de la estación</FT2_SiteBuilding_SpaceStation.tierLabels.3>
+  <!-- EN: stellar technology reclamation complex -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.4>complejo estelar de recuperación de tecnología</FT2_SiteBuilding_SpaceStation.tierLabels.4>
+  <!-- EN: archotech station reclamation nexus -->
+  <FT2_SiteBuilding_SpaceStation.tierLabels.5>nexo de recuperación de la estación arqueotéc</FT2_SiteBuilding_SpaceStation.tierLabels.5>
   <!-- EN: harbour -->
   <FT2_Harbour.label>puerto</FT2_Harbour.label>
   <!-- EN: A river or coastal port supporting fishing, trade and waterborne expeditions. Each level produces fish and prosperity and improves water travel speed, following the same level and technology-stage progression as transport hubs. Parties can use this speed along connected rivers, choosing overland travel when it is faster. Hubs below Spacer speed land travel only; Spacer-or-higher hubs take priority on water too. Open-water terrain and territory movement cost 1 per tile before travel speed. Grav sites and Spacer transport hubs provide the same water access. Water settlements start with a harbour. -->
   <FT2_Harbour.description>Un puerto fluvial o costero que favorece la pesca, el comercio y las expediciones por agua. Cada nivel produce pescado y prosperidad y mejora la velocidad de viaje por agua, con la misma progresión de niveles y etapas tecnológicas que los centros de transporte. Los grupos pueden usar esta velocidad por los ríos conectados, y eligen ir por tierra cuando es más rápido. Los centros de nivel inferior a espacial solo aceleran el viaje por tierra; los de nivel espacial o superior también tienen prioridad en el agua. El terreno de mar abierto y el movimiento por el territorio cuestan 1 por celda antes de aplicar la velocidad de viaje. Los sitios de gravedad y los centros de transporte espaciales dan el mismo acceso al agua. Los asentamientos en el agua empiezan con un puerto.</FT2_Harbour.description>
+  <!-- EN: raft landing -->
+  <FT2_Harbour.tierLabels.0>embarcadero de balsas</FT2_Harbour.tierLabels.0>
+  <!-- EN: harbour -->
+  <FT2_Harbour.tierLabels.1>puerto</FT2_Harbour.tierLabels.1>
+  <!-- EN: commercial port -->
+  <FT2_Harbour.tierLabels.2>puerto comercial</FT2_Harbour.tierLabels.2>
+  <!-- EN: automated seaport -->
+  <FT2_Harbour.tierLabels.3>puerto marítimo automatizado</FT2_Harbour.tierLabels.3>
+  <!-- EN: advanced marine terminal -->
+  <FT2_Harbour.tierLabels.4>terminal marítima avanzada</FT2_Harbour.tierLabels.4>
+  <!-- EN: archotech harbour -->
+  <FT2_Harbour.tierLabels.5>puerto arqueotéc</FT2_Harbour.tierLabels.5>
   <!-- EN: transport hub -->
   <FT2_TransportHub.label>centro de transporte</FT2_TransportHub.label>
   <!-- EN: Improves journey speed and deployment range. Spacer hubs also allow flight over water and impassable mountains. -->
   <FT2_TransportHub.description>Mejora la velocidad de viaje y el alcance de despliegue. Los centros espaciales también permiten volar sobre el agua y las montañas infranqueables.</FT2_TransportHub.description>
+  <!-- EN: stables -->
+  <FT2_TransportHub.tierLabels.0>establos</FT2_TransportHub.tierLabels.0>
+  <!-- EN: carriage depot -->
+  <FT2_TransportHub.tierLabels.1>depósito de carruajes</FT2_TransportHub.tierLabels.1>
+  <!-- EN: motor pool -->
+  <FT2_TransportHub.tierLabels.2>parque automotor</FT2_TransportHub.tierLabels.2>
+  <!-- EN: shuttle port -->
+  <FT2_TransportHub.tierLabels.3>puerto de transbordadores</FT2_TransportHub.tierLabels.3>
+  <!-- EN: teleportation gate -->
+  <FT2_TransportHub.tierLabels.4>portal de teletransporte</FT2_TransportHub.tierLabels.4>
+  <!-- EN: phase transit nexus -->
+  <FT2_TransportHub.tierLabels.5>nexo de tránsito de fase</FT2_TransportHub.tierLabels.5>
   <!-- EN: prosthetic workshop -->
   <FT2_ProstheticWorkshop.label>taller de prótesis</FT2_ProstheticWorkshop.label>
   <!-- EN: Occasionally completes a prosthetic or implant suited to settlement and workshop technology. Higher-tech items are rarer. Suitable workshops can install better-than-natural implants in new adults and soldiers. -->
   <FT2_ProstheticWorkshop.description>De vez en cuando completa una prótesis o un implante acorde a la tecnología del asentamiento y del taller. Los objetos de más tecnología son más escasos. Los talleres adecuados pueden instalar implantes mejores que los naturales en los adultos y soldados nuevos.</FT2_ProstheticWorkshop.description>
+  <!-- EN: bone setter -->
+  <FT2_ProstheticWorkshop.tierLabels.0>componedor de huesos</FT2_ProstheticWorkshop.tierLabels.0>
+  <!-- EN: prosthetic artisan -->
+  <FT2_ProstheticWorkshop.tierLabels.1>artesano de prótesis</FT2_ProstheticWorkshop.tierLabels.1>
+  <!-- EN: prosthetic workshop -->
+  <FT2_ProstheticWorkshop.tierLabels.2>taller de prótesis</FT2_ProstheticWorkshop.tierLabels.2>
+  <!-- EN: bionics laboratory -->
+  <FT2_ProstheticWorkshop.tierLabels.3>laboratorio biónico</FT2_ProstheticWorkshop.tierLabels.3>
+  <!-- EN: advanced augmentation forge -->
+  <FT2_ProstheticWorkshop.tierLabels.4>forja de aumentos avanzada</FT2_ProstheticWorkshop.tierLabels.4>
+  <!-- EN: archotech limb atelier -->
+  <FT2_ProstheticWorkshop.tierLabels.5>taller de miembros arqueotéc</FT2_ProstheticWorkshop.tierLabels.5>
   <!-- EN: hospital -->
   <FT2_Hospital.label>hospital</FT2_Hospital.label>
   <!-- EN: Accelerates recovery and produces medicine for settlement tithes. -->
   <FT2_Hospital.description>Acelera la recuperación y produce medicina para los diezmos del asentamiento.</FT2_Hospital.description>
+  <!-- EN: healer lodge -->
+  <FT2_Hospital.tierLabels.0>casa del curandero</FT2_Hospital.tierLabels.0>
+  <!-- EN: infirmary -->
+  <FT2_Hospital.tierLabels.1>enfermería</FT2_Hospital.tierLabels.1>
+  <!-- EN: hospital -->
+  <FT2_Hospital.tierLabels.2>hospital</FT2_Hospital.tierLabels.2>
+  <!-- EN: regenerative clinic -->
+  <FT2_Hospital.tierLabels.3>clínica regenerativa</FT2_Hospital.tierLabels.3>
+  <!-- EN: advanced medical centre -->
+  <FT2_Hospital.tierLabels.4>centro médico avanzado</FT2_Hospital.tierLabels.4>
+  <!-- EN: archotech healing sanctuary -->
+  <FT2_Hospital.tierLabels.5>santuario de sanación arqueotéc</FT2_Hospital.tierLabels.5>
   <!-- EN: biolab -->
   <FT2_Biolab.label>biolaboratorio</FT2_Biolab.label>
   <!-- EN: Design a settlement xenotype using the gene editor. Lab level limits complexity and archite genes; applying a template spends genetic material. -->
   <FT2_Biolab.description>Diseña un xenotipo para el asentamiento con el editor de genes. El nivel del laboratorio limita la complejidad y los genes arquita; aplicar una plantilla gasta material genético.</FT2_Biolab.description>
+  <!-- EN: herbalist -->
+  <FT2_Biolab.tierLabels.0>herbolario</FT2_Biolab.tierLabels.0>
+  <!-- EN: breeding house -->
+  <FT2_Biolab.tierLabels.1>casa de cría</FT2_Biolab.tierLabels.1>
+  <!-- EN: genetics institute -->
+  <FT2_Biolab.tierLabels.2>instituto de genética</FT2_Biolab.tierLabels.2>
+  <!-- EN: biolab -->
+  <FT2_Biolab.tierLabels.3>biolaboratorio</FT2_Biolab.tierLabels.3>
+  <!-- EN: gene engineering centre -->
+  <FT2_Biolab.tierLabels.4>centro de ingeniería genética</FT2_Biolab.tierLabels.4>
+  <!-- EN: archogenetics nexus -->
+  <FT2_Biolab.tierLabels.5>nexo arqueogenético</FT2_Biolab.tierLabels.5>
   <!-- EN: mech control centre -->
   <FT2_MechControl.label>centro de control de mecas</FT2_MechControl.label>
   <!-- EN: Provides bandwidth for active mechs. Mechs contribute labour and defence without housing or food. -->
   <FT2_MechControl.description>Da banda ancha para los mecas activos. Los mecas aportan trabajo y defensa sin necesitar vivienda ni comida.</FT2_MechControl.description>
+  <!-- EN: signal cairn -->
+  <FT2_MechControl.tierLabels.0>hito de señales</FT2_MechControl.tierLabels.0>
+  <!-- EN: control tower -->
+  <FT2_MechControl.tierLabels.1>torre de control</FT2_MechControl.tierLabels.1>
+  <!-- EN: mech control centre -->
+  <FT2_MechControl.tierLabels.2>centro de control de mecas</FT2_MechControl.tierLabels.2>
+  <!-- EN: bandwidth complex -->
+  <FT2_MechControl.tierLabels.3>complejo de banda ancha</FT2_MechControl.tierLabels.3>
+  <!-- EN: mech coordination nexus -->
+  <FT2_MechControl.tierLabels.4>nexo de coordinación de mecas</FT2_MechControl.tierLabels.4>
+  <!-- EN: archotech control matrix -->
+  <FT2_MechControl.tierLabels.5>matriz de control arqueotéc</FT2_MechControl.tierLabels.5>
   <!-- EN: mech fabrication plant -->
   <FT2_MechFactory.label>planta de fabricación de mecas</FT2_MechFactory.label>
   <!-- EN: Builds mechs using local materials and available bandwidth. Choose a weighted roster of chassis to suit the settlement. Each completed mech pays its own bandwidth-scaled material cost. -->
   <FT2_MechFactory.description>Construye mecas con materiales locales y la banda ancha disponible. Elige una lista ponderada de chasis según el asentamiento. Cada meca terminado paga su propio costo de materiales, que aumenta con su banda ancha.</FT2_MechFactory.description>
+  <!-- EN: automaton forge -->
+  <FT2_MechFactory.tierLabels.0>forja de autómatas</FT2_MechFactory.tierLabels.0>
+  <!-- EN: mechanical foundry -->
+  <FT2_MechFactory.tierLabels.1>fundición mecánica</FT2_MechFactory.tierLabels.1>
+  <!-- EN: mech fabrication plant -->
+  <FT2_MechFactory.tierLabels.2>planta de fabricación de mecas</FT2_MechFactory.tierLabels.2>
+  <!-- EN: advanced mech foundry -->
+  <FT2_MechFactory.tierLabels.3>fundición de mecas avanzada</FT2_MechFactory.tierLabels.3>
+  <!-- EN: ultratech fabrication complex -->
+  <FT2_MechFactory.tierLabels.4>complejo de fabricación ultratecnológico</FT2_MechFactory.tierLabels.4>
+  <!-- EN: archotech mech assembler -->
+  <FT2_MechFactory.tierLabels.5>ensamblador de mecas arqueotéc</FT2_MechFactory.tierLabels.5>
   <!-- EN: embassy -->
   <FT2_Embassy.label>embajada</FT2_Embassy.label>
   <!-- EN: Supports defence pacts, peace terms, grievance reparations and trusted diplomatic services. Higher levels reduce negotiated costs. -->
   <FT2_Embassy.description>Permite pactos de defensa, condiciones de paz, reparaciones por agravios y servicios diplomáticos de confianza. Los niveles más altos reducen los costos negociados.</FT2_Embassy.description>
+  <!-- EN: envoy lodge -->
+  <FT2_Embassy.tierLabels.0>casa del enviado</FT2_Embassy.tierLabels.0>
+  <!-- EN: consulate -->
+  <FT2_Embassy.tierLabels.1>consulado</FT2_Embassy.tierLabels.1>
+  <!-- EN: embassy -->
+  <FT2_Embassy.tierLabels.2>embajada</FT2_Embassy.tierLabels.2>
+  <!-- EN: diplomatic mission -->
+  <FT2_Embassy.tierLabels.3>misión diplomática</FT2_Embassy.tierLabels.3>
+  <!-- EN: interstellar embassy -->
+  <FT2_Embassy.tierLabels.4>embajada interestelar</FT2_Embassy.tierLabels.4>
+  <!-- EN: concordance nexus -->
+  <FT2_Embassy.tierLabels.5>nexo de concordia</FT2_Embassy.tierLabels.5>
   <!-- EN: royal chancery -->
   <FT2_Chancery.label>cancillería real</FT2_Chancery.label>
   <!-- EN: Stored honour and local materials let titled colonists expedite existing permits. Senior titles improve diplomatic arbitration. No titles or permits are granted for free. -->
   <FT2_Chancery.description>El honor acumulado y los materiales locales permiten a los colonos con título agilizar los permisos que ya tienen. Los títulos superiores mejoran el arbitraje diplomático. No se otorgan títulos ni permisos gratis.</FT2_Chancery.description>
+  <!-- EN: herald lodge -->
+  <FT2_Chancery.tierLabels.0>casa del heraldo</FT2_Chancery.tierLabels.0>
+  <!-- EN: royal chancery -->
+  <FT2_Chancery.tierLabels.1>cancillería real</FT2_Chancery.tierLabels.1>
+  <!-- EN: royal secretariat -->
+  <FT2_Chancery.tierLabels.2>secretaría real</FT2_Chancery.tierLabels.2>
+  <!-- EN: imperial liaison office -->
+  <FT2_Chancery.tierLabels.3>oficina de enlace imperial</FT2_Chancery.tierLabels.3>
+  <!-- EN: stellar court -->
+  <FT2_Chancery.tierLabels.4>corte estelar</FT2_Chancery.tierLabels.4>
+  <!-- EN: archon chancery -->
+  <FT2_Chancery.tierLabels.5>cancillería del arconte</FT2_Chancery.tierLabels.5>
   <!-- EN: pilgrim sanctuary -->
   <FT2_Pilgrimage.label>santuario de peregrinos</FT2_Pilgrimage.label>
   <!-- EN: Funded pilgrim visits produce prosperity and ritual happiness. Ideological differences cause friction; a relic museum helps mitigate it. -->
   <FT2_Pilgrimage.description>Las visitas de peregrinos financiadas producen prosperidad y felicidad ritual. Las diferencias ideológicas causan roces; un museo de reliquias ayuda a reducirlos.</FT2_Pilgrimage.description>
+  <!-- EN: sacred grove -->
+  <FT2_Pilgrimage.tierLabels.0>arboleda sagrada</FT2_Pilgrimage.tierLabels.0>
+  <!-- EN: pilgrim sanctuary -->
+  <FT2_Pilgrimage.tierLabels.1>santuario de peregrinos</FT2_Pilgrimage.tierLabels.1>
+  <!-- EN: ritual retreat -->
+  <FT2_Pilgrimage.tierLabels.2>retiro ritual</FT2_Pilgrimage.tierLabels.2>
+  <!-- EN: interfaith sanctuary -->
+  <FT2_Pilgrimage.tierLabels.3>santuario interreligioso</FT2_Pilgrimage.tierLabels.3>
+  <!-- EN: stellar pilgrimage centre -->
+  <FT2_Pilgrimage.tierLabels.4>centro de peregrinación estelar</FT2_Pilgrimage.tierLabels.4>
+  <!-- EN: transcendent sanctuary -->
+  <FT2_Pilgrimage.tierLabels.5>santuario trascendente</FT2_Pilgrimage.tierLabels.5>
   <!-- EN: relic museum -->
   <FT2_RelicMuseum.label>museo de reliquias</FT2_RelicMuseum.label>
   <!-- EN: Sponsor secured relic exhibitions for prosperity and pilgrimage happiness. Security upkeep prevents theft. Exhibits are strategic contracts, not duplicated physical relics. -->
   <FT2_RelicMuseum.description>Patrocina exhibiciones de reliquias protegidas para obtener prosperidad y felicidad de peregrinaje. El mantenimiento de la seguridad evita robos. Las exhibiciones son contratos estratégicos, no reliquias físicas duplicadas.</FT2_RelicMuseum.description>
+  <!-- EN: relic shrine -->
+  <FT2_RelicMuseum.tierLabels.0>santuario de reliquias</FT2_RelicMuseum.tierLabels.0>
+  <!-- EN: relic museum -->
+  <FT2_RelicMuseum.tierLabels.1>museo de reliquias</FT2_RelicMuseum.tierLabels.1>
+  <!-- EN: heritage gallery -->
+  <FT2_RelicMuseum.tierLabels.2>galería del patrimonio</FT2_RelicMuseum.tierLabels.2>
+  <!-- EN: reliquary archive -->
+  <FT2_RelicMuseum.tierLabels.3>archivo relicario</FT2_RelicMuseum.tierLabels.3>
+  <!-- EN: stellar relic vault -->
+  <FT2_RelicMuseum.tierLabels.4>bóveda de reliquias estelar</FT2_RelicMuseum.tierLabels.4>
+  <!-- EN: eternal memory archive -->
+  <FT2_RelicMuseum.tierLabels.5>archivo de la memoria eterna</FT2_RelicMuseum.tierLabels.5>
   <!-- EN: pollution reclamation plant -->
   <FT2_Reclamation.label>planta de recuperación de contaminación</FT2_Reclamation.label>
   <!-- EN: While upkeep is paid, immediately reduces tile-pollution happiness penalties and stored-waste happiness and human-work penalties. Also cleans tile pollution first, then recycles stored mech waste into steel. Waste above 100 spills onto the tile and can anger nearby factions. Contamination requires quarantine. Mech hives ignore pollution penalties and do not operate reclamation. Mitigates toxic landmarks while supplied. -->
   <FT2_Reclamation.description>Mientras se pague el mantenimiento, reduce de inmediato las penalizaciones de felicidad por la contaminación de la celda y las de felicidad y trabajo humano por los desechos almacenados. Además, limpia primero la contaminación de la celda y después recicla los desechos de mecas almacenados en acero. Los desechos por encima de 100 se derraman sobre la celda y pueden enojar a las facciones cercanas. La contaminación exige cuarentena. Las mecacolmenas ignoran las penalizaciones por contaminación y no hacen recuperación. Reduce los efectos de los puntos de interés tóxicos mientras tenga suministros.</FT2_Reclamation.description>
+  <!-- EN: refuse pit -->
+  <FT2_Reclamation.tierLabels.0>pozo de desechos</FT2_Reclamation.tierLabels.0>
+  <!-- EN: salvage yard -->
+  <FT2_Reclamation.tierLabels.1>patio de chatarra</FT2_Reclamation.tierLabels.1>
+  <!-- EN: pollution reclamation plant -->
+  <FT2_Reclamation.tierLabels.2>planta de recuperación de contaminación</FT2_Reclamation.tierLabels.2>
+  <!-- EN: molecular recycler -->
+  <FT2_Reclamation.tierLabels.3>reciclador molecular</FT2_Reclamation.tierLabels.3>
+  <!-- EN: cleanmatter complex -->
+  <FT2_Reclamation.tierLabels.4>complejo de materia limpia</FT2_Reclamation.tierLabels.4>
+  <!-- EN: entropic reclamation nexus -->
+  <FT2_Reclamation.tierLabels.5>nexo de recuperación entrópica</FT2_Reclamation.tierLabels.5>
   <!-- EN: mech repair dock -->
   <FT2_MechRepair.label>muelle de reparación de mecas</FT2_MechRepair.label>
   <!-- EN: Recovers a configurable share of destroyed autonomous mechs as damaged chassis. Materials and repair time restore them within bandwidth. Select advanced mech chassis by repair and factory technology. -->
   <FT2_MechRepair.description>Recupera, como chasis dañados, una parte configurable de los mecas autónomos destruidos. Los materiales y el tiempo de reparación los restauran dentro de la banda ancha. Elige chasis de mecas avanzados según la tecnología de reparación y de fábrica.</FT2_MechRepair.description>
+  <!-- EN: automaton shelter -->
+  <FT2_MechRepair.tierLabels.0>refugio de autómatas</FT2_MechRepair.tierLabels.0>
+  <!-- EN: mechanical workshop -->
+  <FT2_MechRepair.tierLabels.1>taller mecánico</FT2_MechRepair.tierLabels.1>
+  <!-- EN: mech repair dock -->
+  <FT2_MechRepair.tierLabels.2>muelle de reparación de mecas</FT2_MechRepair.tierLabels.2>
+  <!-- EN: mech restoration bay -->
+  <FT2_MechRepair.tierLabels.3>bahía de restauración de mecas</FT2_MechRepair.tierLabels.3>
+  <!-- EN: ultratech repair cradle -->
+  <FT2_MechRepair.tierLabels.4>cuna de reparación ultratecnológica</FT2_MechRepair.tierLabels.4>
+  <!-- EN: archotech renewal forge -->
+  <FT2_MechRepair.tierLabels.5>forja de renovación arqueotéc</FT2_MechRepair.tierLabels.5>
   <!-- EN: gene bank -->
   <FT2_GeneBank.label>banco de genes</FT2_GeneBank.label>
   <!-- EN: Records non-archite genes through funded research in an optional archive. Export archived genes creates paid native genepacks for physical delivery to your colony. Biolabs do not need a gene bank, archive entry or owned genepack and can select any gene. -->
   <FT2_GeneBank.description>Registra genes no arquita mediante investigación financiada, en un archivo opcional. Exportar genes archivados crea packs de genes nativos, pagados, para entregarlos físicamente a tu colonia. Los biolaboratorios no necesitan un banco de genes, una entrada en el archivo ni un pack de genes propio, y pueden elegir cualquier gen.</FT2_GeneBank.description>
+  <!-- EN: heredity archive -->
+  <FT2_GeneBank.tierLabels.0>archivo de la herencia</FT2_GeneBank.tierLabels.0>
+  <!-- EN: lineage library -->
+  <FT2_GeneBank.tierLabels.1>biblioteca de linajes</FT2_GeneBank.tierLabels.1>
+  <!-- EN: gene bank -->
+  <FT2_GeneBank.tierLabels.2>banco de genes</FT2_GeneBank.tierLabels.2>
+  <!-- EN: genomic archive -->
+  <FT2_GeneBank.tierLabels.3>archivo genómico</FT2_GeneBank.tierLabels.3>
+  <!-- EN: xenogene repository -->
+  <FT2_GeneBank.tierLabels.4>repositorio de xenogenes</FT2_GeneBank.tierLabels.4>
+  <!-- EN: archogene library -->
+  <FT2_GeneBank.tierLabels.5>biblioteca arqueogenética</FT2_GeneBank.tierLabels.5>
   <!-- EN: tissue culture centre -->
   <FT2_TissueCulture.label>centro de cultivo de tejidos</FT2_TissueCulture.label>
   <!-- EN: Uses local materials to produce gene implantation supplies and medicine. Applying a vassal xenotype consumes supplies; insufficient supplies leave the original xenotype intact. -->
   <FT2_TissueCulture.description>Usa materiales locales para producir suministros de implantación genética y medicina. Aplicar un xenotipo vasallo consume suministros; si no alcanzan, el xenotipo original queda intacto.</FT2_TissueCulture.description>
+  <!-- EN: herbal nursery -->
+  <FT2_TissueCulture.tierLabels.0>vivero herbolario</FT2_TissueCulture.tierLabels.0>
+  <!-- EN: apothecary culture house -->
+  <FT2_TissueCulture.tierLabels.1>casa de cultivos del boticario</FT2_TissueCulture.tierLabels.1>
+  <!-- EN: cell culture laboratory -->
+  <FT2_TissueCulture.tierLabels.2>laboratorio de cultivo celular</FT2_TissueCulture.tierLabels.2>
+  <!-- EN: tissue culture centre -->
+  <FT2_TissueCulture.tierLabels.3>centro de cultivo de tejidos</FT2_TissueCulture.tierLabels.3>
+  <!-- EN: organogenesis centre -->
+  <FT2_TissueCulture.tierLabels.4>centro de organogénesis</FT2_TissueCulture.tierLabels.4>
+  <!-- EN: regenerative tissue nexus -->
+  <FT2_TissueCulture.tierLabels.5>nexo de tejido regenerativo</FT2_TissueCulture.tierLabels.5>
   <!-- EN: containment complex -->
   <FT2_Containment.label>complejo de contención</FT2_Containment.label>
   <!-- EN: Fund entity containment contracts for anomaly knowledge and bioferrite. Suppression upkeep and quarantine mitigate breaches. Breaches cause injuries, contamination and temporary threats that can call allied aid. -->
   <FT2_Containment.description>Financia contratos de contención de entidades para obtener conocimiento de anomalías y bioferrita. El mantenimiento de supresión y la cuarentena reducen las fugas. Las fugas causan heridas, contaminación y amenazas temporales que pueden pedir ayuda aliada.</FT2_Containment.description>
+  <!-- EN: warding circle -->
+  <FT2_Containment.tierLabels.0>círculo de protección</FT2_Containment.tierLabels.0>
+  <!-- EN: sealed vault -->
+  <FT2_Containment.tierLabels.1>bóveda sellada</FT2_Containment.tierLabels.1>
+  <!-- EN: containment complex -->
+  <FT2_Containment.tierLabels.2>complejo de contención</FT2_Containment.tierLabels.2>
+  <!-- EN: entity research institute -->
+  <FT2_Containment.tierLabels.3>instituto de investigación de entidades</FT2_Containment.tierLabels.3>
+  <!-- EN: void containment bastion -->
+  <FT2_Containment.tierLabels.4>bastión de contención del vacío</FT2_Containment.tierLabels.4>
+  <!-- EN: abyssal research nexus -->
+  <FT2_Containment.tierLabels.5>nexo de investigación abisal</FT2_Containment.tierLabels.5>
   <!-- EN: quarantine station -->
   <FT2_Quarantine.label>estación de cuarentena</FT2_Quarantine.label>
   <!-- EN: Consumes materials to clear contamination, suppress containment breaches and mitigate toxic landmark penalties. Helps existing hospital recovery through reduced contamination. -->
   <FT2_Quarantine.description>Consume materiales para eliminar la contaminación, contener las fugas de entidades y reducir las penalizaciones de los puntos de interés tóxicos. Ayuda a la recuperación en el hospital existente al reducir la contaminación.</FT2_Quarantine.description>
+  <!-- EN: isolation camp -->
+  <FT2_Quarantine.tierLabels.0>campamento de aislamiento</FT2_Quarantine.tierLabels.0>
+  <!-- EN: quarantine ward -->
+  <FT2_Quarantine.tierLabels.1>pabellón de cuarentena</FT2_Quarantine.tierLabels.1>
+  <!-- EN: quarantine station -->
+  <FT2_Quarantine.tierLabels.2>estación de cuarentena</FT2_Quarantine.tierLabels.2>
+  <!-- EN: purification institute -->
+  <FT2_Quarantine.tierLabels.3>instituto de purificación</FT2_Quarantine.tierLabels.3>
+  <!-- EN: sterilisation complex -->
+  <FT2_Quarantine.tierLabels.4>complejo de esterilización</FT2_Quarantine.tierLabels.4>
+  <!-- EN: reality purification nexus -->
+  <FT2_Quarantine.tierLabels.5>nexo de purificación de la realidad</FT2_Quarantine.tierLabels.5>
   <!-- EN: orbital observatory -->
   <FT2_Observatory.label>observatorio orbital</FT2_Observatory.label>
   <!-- EN: Reports nearby hostile parties and threats to trusted allies. Funded observatories also improve orbital travel. -->
   <FT2_Observatory.description>Informa a los aliados de confianza sobre los grupos hostiles y las amenazas cercanas. Los observatorios financiados también mejoran el viaje orbital.</FT2_Observatory.description>
+  <!-- EN: watchtower -->
+  <FT2_Observatory.tierLabels.0>atalaya</FT2_Observatory.tierLabels.0>
+  <!-- EN: signal tower -->
+  <FT2_Observatory.tierLabels.1>torre de señales</FT2_Observatory.tierLabels.1>
+  <!-- EN: radar observatory -->
+  <FT2_Observatory.tierLabels.2>observatorio de radar</FT2_Observatory.tierLabels.2>
+  <!-- EN: orbital observatory -->
+  <FT2_Observatory.tierLabels.3>observatorio orbital</FT2_Observatory.tierLabels.3>
+  <!-- EN: deep-space signal bureau -->
+  <FT2_Observatory.tierLabels.4>oficina de señales del espacio profundo</FT2_Observatory.tierLabels.4>
+  <!-- EN: omniscient survey nexus -->
+  <FT2_Observatory.tierLabels.5>nexo de reconocimiento omnisciente</FT2_Observatory.tierLabels.5>
   <!-- EN: hazard engineering station -->
   <FT2_Terraforming.label>estación de ingeniería de riesgos</FT2_Terraforming.label>
   <!-- EN: Funded engineering reduces territorial landmark hazards and contamination, increases productivity and improves landmark upgrade efficiency. Does not edit native terrain or weather. -->
   <FT2_Terraforming.description>La ingeniería financiada reduce los peligros y la contaminación de los puntos de interés territoriales, aumenta la productividad y mejora la eficiencia de las mejoras de los puntos de interés. No modifica el terreno ni el clima nativos.</FT2_Terraforming.description>
+  <!-- EN: drainage lodge -->
+  <FT2_Terraforming.tierLabels.0>casa de drenaje</FT2_Terraforming.tierLabels.0>
+  <!-- EN: land management office -->
+  <FT2_Terraforming.tierLabels.1>oficina de gestión de tierras</FT2_Terraforming.tierLabels.1>
+  <!-- EN: environmental works -->
+  <FT2_Terraforming.tierLabels.2>obras ambientales</FT2_Terraforming.tierLabels.2>
+  <!-- EN: hazard engineering station -->
+  <FT2_Terraforming.tierLabels.3>estación de ingeniería de riesgos</FT2_Terraforming.tierLabels.3>
+  <!-- EN: terraforming complex -->
+  <FT2_Terraforming.tierLabels.4>complejo de terraformación</FT2_Terraforming.tierLabels.4>
+  <!-- EN: planetary renewal nexus -->
+  <FT2_Terraforming.tierLabels.5>nexo de renovación planetaria</FT2_Terraforming.tierLabels.5>
   <!-- EN: military academy -->
   <FT2_Academy.label>academia militar</FT2_Academy.label>
   <!-- EN: Recurring local material upkeep builds training readiness. Recruits and departing soldiers receive skill training; saved expedition readiness improves simulation strength independently of barracks equipment. -->
   <FT2_Academy.description>Un mantenimiento periódico con materiales locales forma preparación de entrenamiento. Los reclutas y los soldados que parten reciben entrenamiento de habilidades; la preparación acumulada para expediciones mejora la fuerza en la simulación, aparte del equipamiento del cuartel.</FT2_Academy.description>
+  <!-- EN: warrior circle -->
+  <FT2_Academy.tierLabels.0>círculo de guerreros</FT2_Academy.tierLabels.0>
+  <!-- EN: military academy -->
+  <FT2_Academy.tierLabels.1>academia militar</FT2_Academy.tierLabels.1>
+  <!-- EN: officer school -->
+  <FT2_Academy.tierLabels.2>escuela de oficiales</FT2_Academy.tierLabels.2>
+  <!-- EN: combat simulation centre -->
+  <FT2_Academy.tierLabels.3>centro de simulación de combate</FT2_Academy.tierLabels.3>
+  <!-- EN: stellar war college -->
+  <FT2_Academy.tierLabels.4>escuela de guerra estelar</FT2_Academy.tierLabels.4>
+  <!-- EN: tactical cognition nexus -->
+  <FT2_Academy.tierLabels.5>nexo de cognición táctica</FT2_Academy.tierLabels.5>
   <!-- EN: granary and logistics depot -->
   <FT2_Granary.label>granero y depósito logístico</FT2_Granary.label>
   <!-- EN: Maintains emergency food reserves, reduces starvation losses and sends funded relief convoys. Convoys carry real food cargo and settlement troops; escorts add actual funded guards. -->
   <FT2_Granary.description>Mantiene reservas de comida de emergencia, reduce las pérdidas por hambruna y envía convoyes de ayuda financiados. Los convoyes llevan carga real de comida y tropas del asentamiento; las escoltas agregan guardias reales financiados.</FT2_Granary.description>
+  <!-- EN: granary -->
+  <FT2_Granary.tierLabels.0>granero</FT2_Granary.tierLabels.0>
+  <!-- EN: supply warehouse -->
+  <FT2_Granary.tierLabels.1>almacén de suministros</FT2_Granary.tierLabels.1>
+  <!-- EN: logistics depot -->
+  <FT2_Granary.tierLabels.2>depósito logístico</FT2_Granary.tierLabels.2>
+  <!-- EN: automated supply centre -->
+  <FT2_Granary.tierLabels.3>centro de suministros automatizado</FT2_Granary.tierLabels.3>
+  <!-- EN: matter reserve hub -->
+  <FT2_Granary.tierLabels.4>centro de reservas de materia</FT2_Granary.tierLabels.4>
+  <!-- EN: post-scarcity reserve nexus -->
+  <FT2_Granary.tierLabels.5>nexo de reservas de la abundancia</FT2_Granary.tierLabels.5>
   <!-- EN: food processor -->
   <FT2_FoodProcessor.label>procesador de alimentos</FT2_FoodProcessor.label>
   <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
   <FT2_FoodProcessor.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_FoodProcessor.description>
+  <!-- EN: preserving hut -->
+  <FT2_FoodProcessor.tierLabels.0>choza de conservas</FT2_FoodProcessor.tierLabels.0>
+  <!-- EN: provisioner kitchen -->
+  <FT2_FoodProcessor.tierLabels.1>cocina de abastecimiento</FT2_FoodProcessor.tierLabels.1>
+  <!-- EN: food-processing plant -->
+  <FT2_FoodProcessor.tierLabels.2>planta procesadora de alimentos</FT2_FoodProcessor.tierLabels.2>
+  <!-- EN: nutrient refinery -->
+  <FT2_FoodProcessor.tierLabels.3>refinería de nutrientes</FT2_FoodProcessor.tierLabels.3>
+  <!-- EN: molecular food synthesiser -->
+  <FT2_FoodProcessor.tierLabels.4>sintetizador molecular de alimentos</FT2_FoodProcessor.tierLabels.4>
+  <!-- EN: archotech sustenance engine -->
+  <FT2_FoodProcessor.tierLabels.5>motor de sustento arqueotéc</FT2_FoodProcessor.tierLabels.5>
   <!-- EN: tool workshop -->
   <FT2_Toolsmith.label>taller de herramientas</FT2_Toolsmith.label>
   <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
   <FT2_Toolsmith.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_Toolsmith.description>
+  <!-- EN: toolmaker hut -->
+  <FT2_Toolsmith.tierLabels.0>choza del herramentero</FT2_Toolsmith.tierLabels.0>
+  <!-- EN: smithy -->
+  <FT2_Toolsmith.tierLabels.1>herrería</FT2_Toolsmith.tierLabels.1>
+  <!-- EN: machine-tool workshop -->
+  <FT2_Toolsmith.tierLabels.2>taller de máquinas herramienta</FT2_Toolsmith.tierLabels.2>
+  <!-- EN: precision tool fabricator -->
+  <FT2_Toolsmith.tierLabels.3>fabricador de herramientas de precisión</FT2_Toolsmith.tierLabels.3>
+  <!-- EN: molecular tool foundry -->
+  <FT2_Toolsmith.tierLabels.4>fundición molecular de herramientas</FT2_Toolsmith.tierLabels.4>
+  <!-- EN: archotech tool nexus -->
+  <FT2_Toolsmith.tierLabels.5>nexo de herramientas arqueotéc</FT2_Toolsmith.tierLabels.5>
   <!-- EN: clothing workshop -->
   <FT2_Tailor.label>taller de ropa</FT2_Tailor.label>
   <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
   <FT2_Tailor.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_Tailor.description>
+  <!-- EN: sewing hut -->
+  <FT2_Tailor.tierLabels.0>choza de costura</FT2_Tailor.tierLabels.0>
+  <!-- EN: tailor workshop -->
+  <FT2_Tailor.tierLabels.1>taller de ropa</FT2_Tailor.tierLabels.1>
+  <!-- EN: garment factory -->
+  <FT2_Tailor.tierLabels.2>fábrica de prendas</FT2_Tailor.tierLabels.2>
+  <!-- EN: smart-fabric atelier -->
+  <FT2_Tailor.tierLabels.3>taller de tejidos inteligentes</FT2_Tailor.tierLabels.3>
+  <!-- EN: adaptive apparel foundry -->
+  <FT2_Tailor.tierLabels.4>fundición de ropa adaptable</FT2_Tailor.tierLabels.4>
+  <!-- EN: archotech vestment loom -->
+  <FT2_Tailor.tierLabels.5>telar de vestiduras arqueotéc</FT2_Tailor.tierLabels.5>
   <!-- EN: luxury workshop -->
   <FT2_LuxuryIndustry.label>taller de lujo</FT2_LuxuryIndustry.label>
   <!-- EN: Processes local resources for civilian needs. Hover for current daily rates, inputs and limits. -->
   <FT2_LuxuryIndustry.description>Procesa recursos locales para las necesidades civiles. Pasa el cursor por encima para ver las tasas diarias actuales, los insumos y los límites.</FT2_LuxuryIndustry.description>
+  <!-- EN: craft hut -->
+  <FT2_LuxuryIndustry.tierLabels.0>choza artesana</FT2_LuxuryIndustry.tierLabels.0>
+  <!-- EN: artisan guild -->
+  <FT2_LuxuryIndustry.tierLabels.1>gremio de artesanos</FT2_LuxuryIndustry.tierLabels.1>
+  <!-- EN: luxury factory -->
+  <FT2_LuxuryIndustry.tierLabels.2>fábrica de lujo</FT2_LuxuryIndustry.tierLabels.2>
+  <!-- EN: holo-art studio -->
+  <FT2_LuxuryIndustry.tierLabels.3>estudio de holoarte</FT2_LuxuryIndustry.tierLabels.3>
+  <!-- EN: molecular artisan palace -->
+  <FT2_LuxuryIndustry.tierLabels.4>palacio artesano molecular</FT2_LuxuryIndustry.tierLabels.4>
+  <!-- EN: archotech wonder atelier -->
+  <FT2_LuxuryIndustry.tierLabels.5>taller de maravillas arqueotéc</FT2_LuxuryIndustry.tierLabels.5>
   <!-- EN: textile producer -->
   <FT2_TextileIndustry.label>productor textil</FT2_TextileIndustry.label>
   <!-- EN: Produces suitable fabric or leather for clothing workshops, caravans and supply contracts. -->
   <FT2_TextileIndustry.description>Produce tela o cuero adecuados para los talleres de ropa, las caravanas y los contratos de suministro.</FT2_TextileIndustry.description>
+  <!-- EN: fibre plot -->
+  <FT2_TextileIndustry.tierLabels.0>parcela de fibras</FT2_TextileIndustry.tierLabels.0>
+  <!-- EN: weaving mill -->
+  <FT2_TextileIndustry.tierLabels.1>molino de tejidos</FT2_TextileIndustry.tierLabels.1>
+  <!-- EN: textile factory -->
+  <FT2_TextileIndustry.tierLabels.2>fábrica textil</FT2_TextileIndustry.tierLabels.2>
+  <!-- EN: synthetic fibre plant -->
+  <FT2_TextileIndustry.tierLabels.3>planta de fibras sintéticas</FT2_TextileIndustry.tierLabels.3>
+  <!-- EN: programmable fabric foundry -->
+  <FT2_TextileIndustry.tierLabels.4>fundición de tela programable</FT2_TextileIndustry.tierLabels.4>
+  <!-- EN: archotech textile matrix -->
+  <FT2_TextileIndustry.tierLabels.5>matriz textil arqueotéc</FT2_TextileIndustry.tierLabels.5>
   <!-- EN: life support -->
   <FT2_Orbital_LifeSupport.label>soporte vital</FT2_Orbital_LifeSupport.label>
   <!-- EN: Sealed food-growing and recycling systems supply orbital residents. Optional paid local climate protection reduces covered orbital hardships without changing this building&apos;s own food output. Negative terrain, specialisation and food-event modifiers do not reduce its food output. Staffing, general productivity, taxes and configured food scaling still apply. -->
   <FT2_Orbital_LifeSupport.description>Sistemas sellados de cultivo de alimentos y reciclaje abastecen a los residentes orbitales. Una protección climática local opcional, pagada, reduce las penurias orbitales que cubre sin cambiar la producción de comida de este edificio. Los modificadores negativos de terreno, especialización y eventos de comida no reducen su producción de comida. El personal, la productividad general, los impuestos y la escala de comida configurada sí se aplican.</FT2_Orbital_LifeSupport.description>
+  <!-- EN: food recycling hut -->
+  <FT2_Orbital_LifeSupport.tierLabels.0>choza de reciclaje de comida</FT2_Orbital_LifeSupport.tierLabels.0>
+  <!-- EN: cultivation house -->
+  <FT2_Orbital_LifeSupport.tierLabels.1>casa de cultivo</FT2_Orbital_LifeSupport.tierLabels.1>
+  <!-- EN: nutrient processing works -->
+  <FT2_Orbital_LifeSupport.tierLabels.2>planta procesadora de nutrientes</FT2_Orbital_LifeSupport.tierLabels.2>
+  <!-- EN: orbital life support -->
+  <FT2_Orbital_LifeSupport.tierLabels.3>soporte vital orbital</FT2_Orbital_LifeSupport.tierLabels.3>
+  <!-- EN: molecular nutrient cultivator -->
+  <FT2_Orbital_LifeSupport.tierLabels.4>cultivador molecular de nutrientes</FT2_Orbital_LifeSupport.tierLabels.4>
+  <!-- EN: archotech sustenance garden -->
+  <FT2_Orbital_LifeSupport.tierLabels.5>jardín de sustento arqueotéc</FT2_Orbital_LifeSupport.tierLabels.5>
   <!-- EN: orbital salvage gantry -->
   <FT2_Orbital_Salvage.label>grúa de desguace orbital</FT2_Orbital_Salvage.label>
   <!-- EN: Recovers metal from derelict orbital structures. Output enters local metal reserves; tithes follow the settlement settings. -->
   <FT2_Orbital_Salvage.description>Recupera metal de estructuras orbitales abandonadas. Lo producido entra en las reservas locales de metal; los diezmos siguen la configuración del asentamiento.</FT2_Orbital_Salvage.description>
+  <!-- EN: scrap gathering camp -->
+  <FT2_Orbital_Salvage.tierLabels.0>campamento de recolección de chatarra</FT2_Orbital_Salvage.tierLabels.0>
+  <!-- EN: salvage workshop -->
+  <FT2_Orbital_Salvage.tierLabels.1>taller de desguace</FT2_Orbital_Salvage.tierLabels.1>
+  <!-- EN: salvage crane yard -->
+  <FT2_Orbital_Salvage.tierLabels.2>patio de grúas de desguace</FT2_Orbital_Salvage.tierLabels.2>
+  <!-- EN: orbital salvage gantry -->
+  <FT2_Orbital_Salvage.tierLabels.3>grúa de desguace orbital</FT2_Orbital_Salvage.tierLabels.3>
+  <!-- EN: precision orbital reclamation array -->
+  <FT2_Orbital_Salvage.tierLabels.4>red orbital de recuperación de precisión</FT2_Orbital_Salvage.tierLabels.4>
+  <!-- EN: archotech matter reclamation forge -->
+  <FT2_Orbital_Salvage.tierLabels.5>forja de recuperación de materia arqueotéc</FT2_Orbital_Salvage.tierLabels.5>
   <!-- EN: vacuum component fabricator -->
   <FT2_Orbital_Components.label>fabricador de componentes en vacío</FT2_Orbital_Components.label>
   <!-- EN: Manufactures industrial components in sealed orbital production cells. Output enters local component reserves. -->
   <FT2_Orbital_Components.description>Fabrica componentes industriales en celdas de producción orbitales selladas. Lo producido entra en las reservas locales de componentes.</FT2_Orbital_Components.description>
+  <!-- EN: parts crafting hut -->
+  <FT2_Orbital_Components.tierLabels.0>choza de piezas</FT2_Orbital_Components.tierLabels.0>
+  <!-- EN: precision parts workshop -->
+  <FT2_Orbital_Components.tierLabels.1>taller de piezas de precisión</FT2_Orbital_Components.tierLabels.1>
+  <!-- EN: sealed component factory -->
+  <FT2_Orbital_Components.tierLabels.2>fábrica de componentes sellada</FT2_Orbital_Components.tierLabels.2>
+  <!-- EN: vacuum component fabricator -->
+  <FT2_Orbital_Components.tierLabels.3>fabricador de componentes en vacío</FT2_Orbital_Components.tierLabels.3>
+  <!-- EN: molecular component foundry -->
+  <FT2_Orbital_Components.tierLabels.4>fundición molecular de componentes</FT2_Orbital_Components.tierLabels.4>
+  <!-- EN: archotech component synthesiser -->
+  <FT2_Orbital_Components.tierLabels.5>sintetizador de componentes arqueotéc</FT2_Orbital_Components.tierLabels.5>
   <!-- EN: orbital fibre culture -->
   <FT2_Orbital_Textiles.label>cultivo orbital de fibras</FT2_Orbital_Textiles.label>
   <!-- EN: Cultivates textile feedstock under controlled orbital conditions. Produces the same technology-eligible physical textiles as a textile producer. -->
   <FT2_Orbital_Textiles.description>Cultiva materia prima textil en condiciones orbitales controladas. Produce los mismos textiles físicos, según la tecnología, que un productor textil.</FT2_Orbital_Textiles.description>
+  <!-- EN: fibre gathering hut -->
+  <FT2_Orbital_Textiles.tierLabels.0>choza de recolección de fibras</FT2_Orbital_Textiles.tierLabels.0>
+  <!-- EN: fibre cultivation house -->
+  <FT2_Orbital_Textiles.tierLabels.1>casa de cultivo de fibras</FT2_Orbital_Textiles.tierLabels.1>
+  <!-- EN: sealed textile works -->
+  <FT2_Orbital_Textiles.tierLabels.2>planta textil sellada</FT2_Orbital_Textiles.tierLabels.2>
+  <!-- EN: orbital fibre culture -->
+  <FT2_Orbital_Textiles.tierLabels.3>cultivo orbital de fibras</FT2_Orbital_Textiles.tierLabels.3>
+  <!-- EN: molecular fibre culture -->
+  <FT2_Orbital_Textiles.tierLabels.4>cultivo molecular de fibras</FT2_Orbital_Textiles.tierLabels.4>
+  <!-- EN: archotech textile garden -->
+  <FT2_Orbital_Textiles.tierLabels.5>jardín textil arqueotéc</FT2_Orbital_Textiles.tierLabels.5>
   <!-- EN: vacuum research laboratory -->
   <FT2_Orbital_Research.label>laboratorio de investigación en vacío</FT2_Orbital_Research.label>
   <!-- EN: Runs experiments requiring orbital vacuum and isolation. Produces technology points using normal research and workforce modifiers. -->
   <FT2_Orbital_Research.description>Hace experimentos que requieren el vacío y el aislamiento orbitales. Produce puntos de tecnología con los modificadores normales de investigación y de fuerza de trabajo.</FT2_Orbital_Research.description>
+  <!-- EN: skywatch lodge -->
+  <FT2_Orbital_Research.tierLabels.0>casa de observación del cielo</FT2_Orbital_Research.tierLabels.0>
+  <!-- EN: astronomer&apos;s study -->
+  <FT2_Orbital_Research.tierLabels.1>estudio del astrónomo</FT2_Orbital_Research.tierLabels.1>
+  <!-- EN: vacuum experiment laboratory -->
+  <FT2_Orbital_Research.tierLabels.2>laboratorio de experimentos en vacío</FT2_Orbital_Research.tierLabels.2>
+  <!-- EN: vacuum research laboratory -->
+  <FT2_Orbital_Research.tierLabels.3>laboratorio de investigación en vacío</FT2_Orbital_Research.tierLabels.3>
+  <!-- EN: deep-space research institute -->
+  <FT2_Orbital_Research.tierLabels.4>instituto de investigación del espacio profundo</FT2_Orbital_Research.tierLabels.4>
+  <!-- EN: archotech celestial research nexus -->
+  <FT2_Orbital_Research.tierLabels.5>nexo de investigación celeste arqueotéc</FT2_Orbital_Research.tierLabels.5>
   <!-- EN: pressurised habitation ring -->
   <FT2_Orbital_Habitat.label>anillo habitacional presurizado</FT2_Orbital_Habitat.label>
   <!-- EN: Expands sealed accommodation around the station. Provides housing and a small comfort bonus, but no free food. -->
   <FT2_Orbital_Habitat.description>Amplía el alojamiento sellado alrededor de la estación. Da viviendas y una pequeña bonificación de comodidad, pero no comida gratis.</FT2_Orbital_Habitat.description>
+  <!-- EN: communal shelter -->
+  <FT2_Orbital_Habitat.tierLabels.0>refugio comunal</FT2_Orbital_Habitat.tierLabels.0>
+  <!-- EN: enclosed dwelling hall -->
+  <FT2_Orbital_Habitat.tierLabels.1>salón habitacional cerrado</FT2_Orbital_Habitat.tierLabels.1>
+  <!-- EN: sealed habitation block -->
+  <FT2_Orbital_Habitat.tierLabels.2>bloque habitacional sellado</FT2_Orbital_Habitat.tierLabels.2>
+  <!-- EN: pressurised habitation ring -->
+  <FT2_Orbital_Habitat.tierLabels.3>anillo habitacional presurizado</FT2_Orbital_Habitat.tierLabels.3>
+  <!-- EN: orbital habitat arcology -->
+  <FT2_Orbital_Habitat.tierLabels.4>arcología de hábitat orbital</FT2_Orbital_Habitat.tierLabels.4>
+  <!-- EN: archotech orbital sanctuary -->
+  <FT2_Orbital_Habitat.tierLabels.5>santuario orbital arqueotéc</FT2_Orbital_Habitat.tierLabels.5>
   <!-- EN: orbital freight exchange -->
   <FT2_Orbital_Exchange.label>bolsa de carga orbital</FT2_Orbital_Exchange.label>
   <!-- EN: Coordinates cargo handling and orbital commerce. Produces local prosperity; real agreements still need funded shipments. -->
   <FT2_Orbital_Exchange.description>Coordina el manejo de carga y el comercio orbital. Produce prosperidad local; los acuerdos reales siguen necesitando envíos financiados.</FT2_Orbital_Exchange.description>
+  <!-- EN: cargo gathering yard -->
+  <FT2_Orbital_Exchange.tierLabels.0>patio de reunión de carga</FT2_Orbital_Exchange.tierLabels.0>
+  <!-- EN: freight counting house -->
+  <FT2_Orbital_Exchange.tierLabels.1>casa de cuentas de fletes</FT2_Orbital_Exchange.tierLabels.1>
+  <!-- EN: freight handling terminal -->
+  <FT2_Orbital_Exchange.tierLabels.2>terminal de manejo de fletes</FT2_Orbital_Exchange.tierLabels.2>
+  <!-- EN: orbital freight exchange -->
+  <FT2_Orbital_Exchange.tierLabels.3>bolsa de carga orbital</FT2_Orbital_Exchange.tierLabels.3>
+  <!-- EN: stellar commerce exchange -->
+  <FT2_Orbital_Exchange.tierLabels.4>bolsa de comercio estelar</FT2_Orbital_Exchange.tierLabels.4>
+  <!-- EN: archotech commerce nexus -->
+  <FT2_Orbital_Exchange.tierLabels.5>nexo comercial arqueotéc</FT2_Orbital_Exchange.tierLabels.5>
   <!-- EN: orbital defence battery -->
   <FT2_Orbital_Defence.label>batería de defensa orbital</FT2_Orbital_Defence.label>
   <!-- EN: Protects the station using the existing settlement defence system. Does not create free soldiers or intercept world parties automatically. -->
   <FT2_Orbital_Defence.description>Protege la estación con el sistema de defensa existente del asentamiento. No crea soldados gratis ni intercepta grupos del mundo de forma automática.</FT2_Orbital_Defence.description>
+  <!-- EN: watchpost -->
+  <FT2_Orbital_Defence.tierLabels.0>puesto de vigilancia</FT2_Orbital_Defence.tierLabels.0>
+  <!-- EN: defensive bastion -->
+  <FT2_Orbital_Defence.tierLabels.1>bastión defensivo</FT2_Orbital_Defence.tierLabels.1>
+  <!-- EN: station defence emplacement -->
+  <FT2_Orbital_Defence.tierLabels.2>emplazamiento de defensa de la estación</FT2_Orbital_Defence.tierLabels.2>
+  <!-- EN: orbital defence battery -->
+  <FT2_Orbital_Defence.tierLabels.3>batería de defensa orbital</FT2_Orbital_Defence.tierLabels.3>
+  <!-- EN: stellar defence array -->
+  <FT2_Orbital_Defence.tierLabels.4>red de defensa estelar</FT2_Orbital_Defence.tierLabels.4>
+  <!-- EN: archotech orbital bulwark -->
+  <FT2_Orbital_Defence.tierLabels.5>baluarte orbital arqueotéc</FT2_Orbital_Defence.tierLabels.5>
   <!-- EN: microgravity medical centre -->
   <FT2_Orbital_Medical.label>centro médico de microgravedad</FT2_Orbital_Medical.label>
   <!-- EN: Produces medicine using the normal hospital technology-stage rules and contributes to settlement recovery. -->
   <FT2_Orbital_Medical.description>Produce medicina con las reglas normales de etapas tecnológicas del hospital y contribuye a la recuperación del asentamiento.</FT2_Orbital_Medical.description>
+  <!-- EN: healer&apos;s shelter -->
+  <FT2_Orbital_Medical.tierLabels.0>refugio del curandero</FT2_Orbital_Medical.tierLabels.0>
+  <!-- EN: sealed infirmary -->
+  <FT2_Orbital_Medical.tierLabels.1>enfermería sellada</FT2_Orbital_Medical.tierLabels.1>
+  <!-- EN: station hospital -->
+  <FT2_Orbital_Medical.tierLabels.2>hospital de la estación</FT2_Orbital_Medical.tierLabels.2>
+  <!-- EN: microgravity medical centre -->
+  <FT2_Orbital_Medical.tierLabels.3>centro médico de microgravedad</FT2_Orbital_Medical.tierLabels.3>
+  <!-- EN: orbital regenerative clinic -->
+  <FT2_Orbital_Medical.tierLabels.4>clínica regenerativa orbital</FT2_Orbital_Medical.tierLabels.4>
+  <!-- EN: archotech orbital healing sanctuary -->
+  <FT2_Orbital_Medical.tierLabels.5>santuario orbital de sanación arqueotéc</FT2_Orbital_Medical.tierLabels.5>
   <!-- EN: orbital mech assembly dock -->
   <FT2_Orbital_Mechs.label>muelle orbital de ensamblaje de mecas</FT2_Orbital_Mechs.label>
   <!-- EN: Fabricates autonomous mechanoids using the normal chassis, material and bandwidth requirements. Requires Biotech as well as an orbital location. -->
   <FT2_Orbital_Mechs.description>Fabrica mecanoides autónomos con los requisitos normales de chasis, materiales y banda ancha. Requiere Biotech, además de una ubicación orbital.</FT2_Orbital_Mechs.description>
+  <!-- EN: construct crafting hut -->
+  <FT2_Orbital_Mechs.tierLabels.0>choza de construcción de autómatas</FT2_Orbital_Mechs.tierLabels.0>
+  <!-- EN: automaton workshop -->
+  <FT2_Orbital_Mechs.tierLabels.1>taller de autómatas</FT2_Orbital_Mechs.tierLabels.1>
+  <!-- EN: sealed mech assembly works -->
+  <FT2_Orbital_Mechs.tierLabels.2>planta sellada de ensamblaje de mecas</FT2_Orbital_Mechs.tierLabels.2>
+  <!-- EN: orbital mech assembly dock -->
+  <FT2_Orbital_Mechs.tierLabels.3>muelle orbital de ensamblaje de mecas</FT2_Orbital_Mechs.tierLabels.3>
+  <!-- EN: stellar mech fabrication complex -->
+  <FT2_Orbital_Mechs.tierLabels.4>complejo estelar de fabricación de mecas</FT2_Orbital_Mechs.tierLabels.4>
+  <!-- EN: archotech orbital machine forge -->
+  <FT2_Orbital_Mechs.tierLabels.5>forja orbital de máquinas arqueotéc</FT2_Orbital_Mechs.tierLabels.5>
   <!-- EN: organ harvesting theatre -->
   <FT2_OrganHarvesting.label>quirófano de extracción de órganos</FT2_OrganHarvesting.label>
   <!-- EN: Processes adult slaves into natural organs for trade and delivery. Each completed harvest kills one slave and produces one whole intact natural organ. Surgery spends actual stored medicine and local prosperity, while the deaths cause temporary unhappiness. Children and protected residents are excluded. Player settlements start paused; enable harvesting in Institutions. Higher levels increase work, with at most one victim per settlement per day. -->
   <FT2_OrganHarvesting.description>Procesa a esclavos adultos para obtener órganos naturales para comerciar y entregar. Cada extracción completada mata a un esclavo y produce un órgano natural entero e intacto. La cirugía gasta medicina realmente almacenada y prosperidad local, y las muertes causan infelicidad temporal. Los niños y los residentes protegidos quedan excluidos. Los asentamientos del jugador empiezan en pausa; activa la extracción en Instituciones. Los niveles más altos aumentan el trabajo, con un máximo de una víctima por asentamiento al día.</FT2_OrganHarvesting.description>
+  <!-- EN: anatomist&apos;s hut -->
+  <FT2_OrganHarvesting.tierLabels.0>choza del anatomista</FT2_OrganHarvesting.tierLabels.0>
+  <!-- EN: anatomical workshop -->
+  <FT2_OrganHarvesting.tierLabels.1>taller anatómico</FT2_OrganHarvesting.tierLabels.1>
+  <!-- EN: organ harvesting theatre -->
+  <FT2_OrganHarvesting.tierLabels.2>quirófano de extracción de órganos</FT2_OrganHarvesting.tierLabels.2>
+  <!-- EN: organ extraction clinic -->
+  <FT2_OrganHarvesting.tierLabels.3>clínica de extracción de órganos</FT2_OrganHarvesting.tierLabels.3>
+  <!-- EN: precision organ reclamation laboratory -->
+  <FT2_OrganHarvesting.tierLabels.4>laboratorio de recuperación de órganos de precisión</FT2_OrganHarvesting.tierLabels.4>
+  <!-- EN: archotech organ reclamation complex -->
+  <FT2_OrganHarvesting.tierLabels.5>complejo de recuperación de órganos arqueotéc</FT2_OrganHarvesting.tierLabels.5>
   <!-- EN: cloning facility -->
   <FT2_Cloning.label>instalación de clonación</FT2_Cloning.label>
   <!-- EN: Produces adult population using large amounts of surplus food. Requires Spacer technology and free housing; shortages proportionally pause cloning. -->
   <FT2_Cloning.description>Produce población adulta con grandes cantidades de comida sobrante. Requiere tecnología espacial y viviendas libres; la escasez pausa la clonación en proporción.</FT2_Cloning.description>
+  <!-- EN: birth shrine -->
+  <FT2_Cloning.tierLabels.0>santuario del nacimiento</FT2_Cloning.tierLabels.0>
+  <!-- EN: replication workshop -->
+  <FT2_Cloning.tierLabels.1>taller de replicación</FT2_Cloning.tierLabels.1>
+  <!-- EN: somatic laboratory -->
+  <FT2_Cloning.tierLabels.2>laboratorio somático</FT2_Cloning.tierLabels.2>
+  <!-- EN: cloning facility -->
+  <FT2_Cloning.tierLabels.3>instalación de clonación</FT2_Cloning.tierLabels.3>
+  <!-- EN: population replication centre -->
+  <FT2_Cloning.tierLabels.4>centro de replicación de población</FT2_Cloning.tierLabels.4>
+  <!-- EN: archotech genesis complex -->
+  <FT2_Cloning.tierLabels.5>complejo génesis arqueotéc</FT2_Cloning.tierLabels.5>
   <!-- EN: growth vat complex -->
   <FT2_GrowthVats.label>complejo de tanques de crecimiento</FT2_GrowthVats.label>
   <!-- EN: Accelerates child maturation using much more food than ordinary feeding. Requires Spacer technology and Biotech; food shortages pause the bonus. -->
   <FT2_GrowthVats.description>Acelera la maduración de los niños usando mucha más comida que la alimentación normal. Requiere tecnología espacial y Biotech; la falta de comida pausa la bonificación.</FT2_GrowthVats.description>
+  <!-- EN: nursery lodge -->
+  <FT2_GrowthVats.tierLabels.0>casa cuna</FT2_GrowthVats.tierLabels.0>
+  <!-- EN: childcare house -->
+  <FT2_GrowthVats.tierLabels.1>casa de cuidado infantil</FT2_GrowthVats.tierLabels.1>
+  <!-- EN: development clinic -->
+  <FT2_GrowthVats.tierLabels.2>clínica de desarrollo</FT2_GrowthVats.tierLabels.2>
+  <!-- EN: growth vat complex -->
+  <FT2_GrowthVats.tierLabels.3>complejo de tanques de crecimiento</FT2_GrowthVats.tierLabels.3>
+  <!-- EN: accelerated maturation centre -->
+  <FT2_GrowthVats.tierLabels.4>centro de maduración acelerada</FT2_GrowthVats.tierLabels.4>
+  <!-- EN: archotech growth sanctuary -->
+  <FT2_GrowthVats.tierLabels.5>santuario de crecimiento arqueotéc</FT2_GrowthVats.tierLabels.5>
   <!-- EN: brewery -->
   <FT2_Brewery.label>cervecería</FT2_Brewery.label>
   <!-- EN: Grows brewing crops and makes beer from surplus local food and wood. Beer can supply a tavern or travel as ordinary goods. Normal home rations remain protected. -->
   <FT2_Brewery.description>Cultiva plantas para elaborar cerveza y la produce con el excedente local de comida y madera. La cerveza puede abastecer una taberna o viajar como mercancía común. Las raciones normales del hogar siguen protegidas.</FT2_Brewery.description>
+  <!-- EN: brewing hut -->
+  <FT2_Brewery.tierLabels.0>choza cervecera</FT2_Brewery.tierLabels.0>
+  <!-- EN: brewing den -->
+  <FT2_Brewery.tierLabels.1>bodega cervecera</FT2_Brewery.tierLabels.1>
+  <!-- EN: brewery -->
+  <FT2_Brewery.tierLabels.2>cervecería</FT2_Brewery.tierLabels.2>
+  <!-- EN: automated brewery -->
+  <FT2_Brewery.tierLabels.3>cervecería automatizada</FT2_Brewery.tierLabels.3>
+  <!-- EN: precision fermentation plant -->
+  <FT2_Brewery.tierLabels.4>planta de fermentación de precisión</FT2_Brewery.tierLabels.4>
+  <!-- EN: archotech brewing complex -->
+  <FT2_Brewery.tierLabels.5>complejo cervecero arqueotéc</FT2_Brewery.tierLabels.5>
   <!-- EN: smokeleaf workshop -->
   <FT2_SmokeleafWorkshop.label>taller de hojahumeante</FT2_SmokeleafWorkshop.label>
   <!-- EN: Develops from smokeleaf cultivation into drug and pharmaceutical production. Workshop and settlement technology unlock more vanilla drugs, ending with luciferium at Ultra. A shared trade-value output budget spends surplus local food and wood; valuable drugs take more work and inputs per item. Earlier products remain available. All products can be stored, delivered or traded; smoking dens consume only joints. -->
   <FT2_SmokeleafWorkshop.description>Pasa del cultivo de hojahumeante a la producción de drogas y fármacos. La tecnología del taller y del asentamiento desbloquea más drogas del juego base, hasta el luciferio en la etapa ultra. Un presupuesto de producción compartido, medido en valor comercial, gasta el excedente local de comida y madera; las drogas valiosas requieren más trabajo e insumos por unidad. Los productos anteriores siguen disponibles. Todos los productos se pueden almacenar, entregar o comerciar; los fumaderos consumen solo porros.</FT2_SmokeleafWorkshop.description>
+  <!-- EN: smokeleaf workshop -->
+  <FT2_SmokeleafWorkshop.tierLabels.0>taller de hojahumeante</FT2_SmokeleafWorkshop.tierLabels.0>
+  <!-- EN: herbal apothecary -->
+  <FT2_SmokeleafWorkshop.tierLabels.1>botica herbolaria</FT2_SmokeleafWorkshop.tierLabels.1>
+  <!-- EN: drug laboratory -->
+  <FT2_SmokeleafWorkshop.tierLabels.2>laboratorio de drogas</FT2_SmokeleafWorkshop.tierLabels.2>
+  <!-- EN: pharmaceutical plant -->
+  <FT2_SmokeleafWorkshop.tierLabels.3>planta farmacéutica</FT2_SmokeleafWorkshop.tierLabels.3>
+  <!-- EN: mechanite pharmaceutical laboratory -->
+  <FT2_SmokeleafWorkshop.tierLabels.4>laboratorio farmacéutico de mecanitas</FT2_SmokeleafWorkshop.tierLabels.4>
+  <!-- EN: archotech drug synthesiser -->
+  <FT2_SmokeleafWorkshop.tierLabels.5>sintetizador de drogas arqueotéc</FT2_SmokeleafWorkshop.tierLabels.5>
   <!-- EN: tavern -->
   <FT2_Tavern.label>taberna</FT2_Tavern.label>
   <!-- EN: Serves actual local beer to adult residents. Supplied adults gain happiness but lose productive working time. Venue levels add capacity, not unlimited bonuses. Consumption can be paused in Institutions. -->
   <FT2_Tavern.description>Sirve cerveza local real a los residentes adultos. Los adultos abastecidos ganan felicidad pero pierden tiempo de trabajo productivo. Los niveles del local suman capacidad, no bonificaciones ilimitadas. El consumo se puede pausar en Instituciones.</FT2_Tavern.description>
+  <!-- EN: drinking lodge -->
+  <FT2_Tavern.tierLabels.0>casa de bebedores</FT2_Tavern.tierLabels.0>
+  <!-- EN: tavern -->
+  <FT2_Tavern.tierLabels.1>taberna</FT2_Tavern.tierLabels.1>
+  <!-- EN: public house -->
+  <FT2_Tavern.tierLabels.2>casa pública</FT2_Tavern.tierLabels.2>
+  <!-- EN: social lounge -->
+  <FT2_Tavern.tierLabels.3>salón social</FT2_Tavern.tierLabels.3>
+  <!-- EN: sensory lounge -->
+  <FT2_Tavern.tierLabels.4>salón sensorial</FT2_Tavern.tierLabels.4>
+  <!-- EN: archotech convivial hall -->
+  <FT2_Tavern.tierLabels.5>salón de convivencia arqueotéc</FT2_Tavern.tierLabels.5>
   <!-- EN: smoking den -->
   <FT2_SmokingDen.label>fumadero</FT2_SmokingDen.label>
   <!-- EN: Consumes actual local smokeleaf joints for adult recreation. Happiness rises while human production falls. Capacity and real supplies limit the effects. Consumption can be paused in Institutions. -->
   <FT2_SmokingDen.description>Consume porros de hojahumeante locales reales para la recreación de los adultos. La felicidad sube mientras baja la producción humana. La capacidad y los suministros reales limitan los efectos. El consumo se puede pausar en Instituciones.</FT2_SmokingDen.description>
+  <!-- EN: smoking circle -->
+  <FT2_SmokingDen.tierLabels.0>círculo de fumadores</FT2_SmokingDen.tierLabels.0>
+  <!-- EN: smoking den -->
+  <FT2_SmokingDen.tierLabels.1>fumadero</FT2_SmokingDen.tierLabels.1>
+  <!-- EN: smokeleaf lounge -->
+  <FT2_SmokingDen.tierLabels.2>salón de hojahumeante</FT2_SmokingDen.tierLabels.2>
+  <!-- EN: recreation lounge -->
+  <FT2_SmokingDen.tierLabels.3>salón recreativo</FT2_SmokingDen.tierLabels.3>
+  <!-- EN: sensory retreat -->
+  <FT2_SmokingDen.tierLabels.4>retiro sensorial</FT2_SmokingDen.tierLabels.4>
+  <!-- EN: archotech relaxation sanctuary -->
+  <FT2_SmokingDen.tierLabels.5>santuario de relajación arqueotéc</FT2_SmokingDen.tierLabels.5>
   <!-- EN: archaeology institute -->
   <FT2_SiteBuilding_Ruins.label>instituto de arqueología</FT2_SiteBuilding_Ruins.label>
   <!-- EN: Uses archaeological ruins on this exact tile. -->
   <FT2_SiteBuilding_Ruins.description>Aprovecha las ruinas arqueológicas de esta misma celda.</FT2_SiteBuilding_Ruins.description>
+  <!-- EN: archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.0>instituto de arqueología</FT2_SiteBuilding_Ruins.tierLabels.0>
+  <!-- EN: established archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.1>instituto de arqueología consolidado</FT2_SiteBuilding_Ruins.tierLabels.1>
+  <!-- EN: industrial archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.2>instituto de arqueología industrial</FT2_SiteBuilding_Ruins.tierLabels.2>
+  <!-- EN: advanced archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.3>instituto de arqueología avanzado</FT2_SiteBuilding_Ruins.tierLabels.3>
+  <!-- EN: stellar archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.4>instituto de arqueología estelar</FT2_SiteBuilding_Ruins.tierLabels.4>
+  <!-- EN: archotech archaeology institute -->
+  <FT2_SiteBuilding_Ruins.tierLabels.5>instituto de arqueología arqueotéc</FT2_SiteBuilding_Ruins.tierLabels.5>
   <!-- EN: infrastructure reclamation office -->
   <FT2_SiteBuilding_Colony.label>oficina de recuperación de infraestructura</FT2_SiteBuilding_Colony.label>
   <!-- EN: Uses abandoned infrastructure on this exact tile. -->
   <FT2_SiteBuilding_Colony.description>Aprovecha la infraestructura abandonada de esta misma celda.</FT2_SiteBuilding_Colony.description>
+  <!-- EN: infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.0>oficina de recuperación de infraestructura</FT2_SiteBuilding_Colony.tierLabels.0>
+  <!-- EN: established infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.1>oficina de recuperación de infraestructura consolidada</FT2_SiteBuilding_Colony.tierLabels.1>
+  <!-- EN: industrial infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.2>oficina de recuperación de infraestructura industrial</FT2_SiteBuilding_Colony.tierLabels.2>
+  <!-- EN: advanced infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.3>oficina de recuperación de infraestructura avanzada</FT2_SiteBuilding_Colony.tierLabels.3>
+  <!-- EN: stellar infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.4>oficina de recuperación de infraestructura estelar</FT2_SiteBuilding_Colony.tierLabels.4>
+  <!-- EN: archotech infrastructure reclamation office -->
+  <FT2_SiteBuilding_Colony.tierLabels.5>oficina de recuperación de infraestructura arqueotéc</FT2_SiteBuilding_Colony.tierLabels.5>
   <!-- EN: jelly farm -->
   <FT2_SiteBuilding_Insects.label>granja de jalea</FT2_SiteBuilding_Insects.label>
   <!-- EN: Uses insectoid habitat on this exact tile. -->
   <FT2_SiteBuilding_Insects.description>Aprovecha el hábitat insectoide de esta misma celda.</FT2_SiteBuilding_Insects.description>
+  <!-- EN: jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.0>granja de jalea</FT2_SiteBuilding_Insects.tierLabels.0>
+  <!-- EN: established jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.1>granja de jalea consolidada</FT2_SiteBuilding_Insects.tierLabels.1>
+  <!-- EN: industrial jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.2>granja de jalea industrial</FT2_SiteBuilding_Insects.tierLabels.2>
+  <!-- EN: advanced jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.3>granja de jalea avanzada</FT2_SiteBuilding_Insects.tierLabels.3>
+  <!-- EN: stellar jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.4>granja de jalea estelar</FT2_SiteBuilding_Insects.tierLabels.4>
+  <!-- EN: archotech jelly farm -->
+  <FT2_SiteBuilding_Insects.tierLabels.5>granja de jalea arqueotéc</FT2_SiteBuilding_Insects.tierLabels.5>
   <!-- EN: fuel recovery plant -->
   <FT2_SiteBuilding_Refinery.label>planta de recuperación de combustible</FT2_SiteBuilding_Refinery.label>
   <!-- EN: Uses chemfuel deposits on this exact tile. -->
   <FT2_SiteBuilding_Refinery.description>Aprovecha los yacimientos de quimbustible de esta misma celda.</FT2_SiteBuilding_Refinery.description>
+  <!-- EN: fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.0>planta de recuperación de combustible</FT2_SiteBuilding_Refinery.tierLabels.0>
+  <!-- EN: established fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.1>planta de recuperación de combustible consolidada</FT2_SiteBuilding_Refinery.tierLabels.1>
+  <!-- EN: industrial fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.2>planta de recuperación de combustible industrial</FT2_SiteBuilding_Refinery.tierLabels.2>
+  <!-- EN: advanced fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.3>planta de recuperación de combustible avanzada</FT2_SiteBuilding_Refinery.tierLabels.3>
+  <!-- EN: stellar fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.4>planta de recuperación de combustible estelar</FT2_SiteBuilding_Refinery.tierLabels.4>
+  <!-- EN: archotech fuel recovery plant -->
+  <FT2_SiteBuilding_Refinery.tierLabels.5>planta de recuperación de combustible arqueotéc</FT2_SiteBuilding_Refinery.tierLabels.5>
   <!-- EN: hazard reclamation works -->
   <FT2_SiteBuilding_Toxic.label>obras de recuperación de zonas peligrosas</FT2_SiteBuilding_Toxic.label>
   <!-- EN: Uses toxic environment on this exact tile. -->
   <FT2_SiteBuilding_Toxic.description>Aprovecha el entorno tóxico de esta misma celda.</FT2_SiteBuilding_Toxic.description>
+  <!-- EN: hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.0>obras de recuperación de zonas peligrosas</FT2_SiteBuilding_Toxic.tierLabels.0>
+  <!-- EN: established hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.1>obras de recuperación de zonas peligrosas consolidadas</FT2_SiteBuilding_Toxic.tierLabels.1>
+  <!-- EN: industrial hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.2>obras de recuperación de zonas peligrosas industriales</FT2_SiteBuilding_Toxic.tierLabels.2>
+  <!-- EN: advanced hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.3>obras de recuperación de zonas peligrosas avanzadas</FT2_SiteBuilding_Toxic.tierLabels.3>
+  <!-- EN: stellar hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.4>obras de recuperación de zonas peligrosas estelares</FT2_SiteBuilding_Toxic.tierLabels.4>
+  <!-- EN: archotech hazard reclamation works -->
+  <FT2_SiteBuilding_Toxic.tierLabels.5>obras de recuperación de zonas peligrosas arqueotéc</FT2_SiteBuilding_Toxic.tierLabels.5>
   <!-- EN: geothermal utility plant -->
   <FT2_SiteBuilding_Heat.label>planta geotérmica</FT2_SiteBuilding_Heat.label>
   <!-- EN: Uses geothermal activity on this exact tile. -->
   <FT2_SiteBuilding_Heat.description>Aprovecha la actividad geotérmica de esta misma celda.</FT2_SiteBuilding_Heat.description>
+  <!-- EN: geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.0>planta geotérmica</FT2_SiteBuilding_Heat.tierLabels.0>
+  <!-- EN: established geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.1>planta geotérmica consolidada</FT2_SiteBuilding_Heat.tierLabels.1>
+  <!-- EN: industrial geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.2>planta geotérmica industrial</FT2_SiteBuilding_Heat.tierLabels.2>
+  <!-- EN: advanced geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.3>planta geotérmica avanzada</FT2_SiteBuilding_Heat.tierLabels.3>
+  <!-- EN: stellar geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.4>planta geotérmica estelar</FT2_SiteBuilding_Heat.tierLabels.4>
+  <!-- EN: archotech geothermal utility plant -->
+  <FT2_SiteBuilding_Heat.tierLabels.5>planta geotérmica arqueotéc</FT2_SiteBuilding_Heat.tierLabels.5>
   <!-- EN: thermal spa -->
   <FT2_SiteBuilding_Springs.label>balneario termal</FT2_SiteBuilding_Springs.label>
   <!-- EN: Uses thermal springs on this exact tile. -->
   <FT2_SiteBuilding_Springs.description>Aprovecha las aguas termales de esta misma celda.</FT2_SiteBuilding_Springs.description>
+  <!-- EN: thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.0>balneario termal</FT2_SiteBuilding_Springs.tierLabels.0>
+  <!-- EN: established thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.1>balneario termal consolidado</FT2_SiteBuilding_Springs.tierLabels.1>
+  <!-- EN: industrial thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.2>balneario termal industrial</FT2_SiteBuilding_Springs.tierLabels.2>
+  <!-- EN: advanced thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.3>balneario termal avanzado</FT2_SiteBuilding_Springs.tierLabels.3>
+  <!-- EN: stellar thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.4>balneario termal estelar</FT2_SiteBuilding_Springs.tierLabels.4>
+  <!-- EN: archotech thermal spa -->
+  <FT2_SiteBuilding_Springs.tierLabels.5>balneario termal arqueotéc</FT2_SiteBuilding_Springs.tierLabels.5>
   <!-- EN: inland fishery -->
   <FT2_SiteBuilding_Water.label>pesquería continental</FT2_SiteBuilding_Water.label>
   <!-- EN: Uses freshwater habitat on this exact tile. -->
   <FT2_SiteBuilding_Water.description>Aprovecha el hábitat de agua dulce de esta misma celda.</FT2_SiteBuilding_Water.description>
+  <!-- EN: inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.0>pesquería continental</FT2_SiteBuilding_Water.tierLabels.0>
+  <!-- EN: established inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.1>pesquería continental consolidada</FT2_SiteBuilding_Water.tierLabels.1>
+  <!-- EN: industrial inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.2>pesquería continental industrial</FT2_SiteBuilding_Water.tierLabels.2>
+  <!-- EN: advanced inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.3>pesquería continental avanzada</FT2_SiteBuilding_Water.tierLabels.3>
+  <!-- EN: stellar inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.4>pesquería continental estelar</FT2_SiteBuilding_Water.tierLabels.4>
+  <!-- EN: archotech inland fishery -->
+  <FT2_SiteBuilding_Water.tierLabels.5>pesquería continental arqueotéc</FT2_SiteBuilding_Water.tierLabels.5>
   <!-- EN: marine fishery -->
   <FT2_SiteBuilding_Coast.label>pesquería marina</FT2_SiteBuilding_Coast.label>
   <!-- EN: Uses coastal waters on this exact tile. -->
   <FT2_SiteBuilding_Coast.description>Aprovecha las aguas costeras de esta misma celda.</FT2_SiteBuilding_Coast.description>
+  <!-- EN: marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.0>pesquería marina</FT2_SiteBuilding_Coast.tierLabels.0>
+  <!-- EN: established marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.1>pesquería marina consolidada</FT2_SiteBuilding_Coast.tierLabels.1>
+  <!-- EN: industrial marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.2>pesquería marina industrial</FT2_SiteBuilding_Coast.tierLabels.2>
+  <!-- EN: advanced marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.3>pesquería marina avanzada</FT2_SiteBuilding_Coast.tierLabels.3>
+  <!-- EN: stellar marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.4>pesquería marina estelar</FT2_SiteBuilding_Coast.tierLabels.4>
+  <!-- EN: archotech marine fishery -->
+  <FT2_SiteBuilding_Coast.tierLabels.5>pesquería marina arqueotéc</FT2_SiteBuilding_Coast.tierLabels.5>
   <!-- EN: harbour trade exchange -->
   <FT2_SiteBuilding_Harbor.label>lonja comercial del puerto</FT2_SiteBuilding_Harbor.label>
   <!-- EN: Uses harbour infrastructure on this exact tile. -->
   <FT2_SiteBuilding_Harbor.description>Aprovecha la infraestructura portuaria de esta misma celda.</FT2_SiteBuilding_Harbor.description>
+  <!-- EN: harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.0>lonja comercial del puerto</FT2_SiteBuilding_Harbor.tierLabels.0>
+  <!-- EN: established harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.1>lonja comercial del puerto consolidada</FT2_SiteBuilding_Harbor.tierLabels.1>
+  <!-- EN: industrial harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.2>lonja comercial del puerto industrial</FT2_SiteBuilding_Harbor.tierLabels.2>
+  <!-- EN: advanced harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.3>lonja comercial del puerto avanzada</FT2_SiteBuilding_Harbor.tierLabels.3>
+  <!-- EN: stellar harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.4>lonja comercial del puerto estelar</FT2_SiteBuilding_Harbor.tierLabels.4>
+  <!-- EN: archotech harbour trade exchange -->
+  <FT2_SiteBuilding_Harbor.tierLabels.5>lonja comercial del puerto arqueotéc</FT2_SiteBuilding_Harbor.tierLabels.5>
   <!-- EN: glacial research station -->
   <FT2_SiteBuilding_Ice.label>estación de investigación glacial</FT2_SiteBuilding_Ice.label>
   <!-- EN: Uses glacial terrain on this exact tile. -->
   <FT2_SiteBuilding_Ice.description>Aprovecha el terreno glacial de esta misma celda.</FT2_SiteBuilding_Ice.description>
+  <!-- EN: glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.0>estación de investigación glacial</FT2_SiteBuilding_Ice.tierLabels.0>
+  <!-- EN: established glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.1>estación de investigación glacial consolidada</FT2_SiteBuilding_Ice.tierLabels.1>
+  <!-- EN: industrial glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.2>estación de investigación glacial industrial</FT2_SiteBuilding_Ice.tierLabels.2>
+  <!-- EN: advanced glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.3>estación de investigación glacial avanzada</FT2_SiteBuilding_Ice.tierLabels.3>
+  <!-- EN: stellar glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.4>estación de investigación glacial estelar</FT2_SiteBuilding_Ice.tierLabels.4>
+  <!-- EN: archotech glacial research station -->
+  <FT2_SiteBuilding_Ice.tierLabels.5>estación de investigación glacial arqueotéc</FT2_SiteBuilding_Ice.tierLabels.5>
   <!-- EN: sheltered orchard -->
   <FT2_SiteBuilding_Valley.label>huerto resguardado</FT2_SiteBuilding_Valley.label>
   <!-- EN: Uses sheltered lowlands on this exact tile. -->
   <FT2_SiteBuilding_Valley.description>Aprovecha las tierras bajas resguardadas de esta misma celda.</FT2_SiteBuilding_Valley.description>
+  <!-- EN: sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.0>huerto resguardado</FT2_SiteBuilding_Valley.tierLabels.0>
+  <!-- EN: established sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.1>huerto resguardado consolidado</FT2_SiteBuilding_Valley.tierLabels.1>
+  <!-- EN: industrial sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.2>huerto resguardado industrial</FT2_SiteBuilding_Valley.tierLabels.2>
+  <!-- EN: advanced sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.3>huerto resguardado avanzado</FT2_SiteBuilding_Valley.tierLabels.3>
+  <!-- EN: stellar sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.4>huerto resguardado estelar</FT2_SiteBuilding_Valley.tierLabels.4>
+  <!-- EN: archotech sheltered orchard -->
+  <FT2_SiteBuilding_Valley.tierLabels.5>huerto resguardado arqueotéc</FT2_SiteBuilding_Valley.tierLabels.5>
   <!-- EN: strata mine -->
   <FT2_SiteBuilding_Rock.label>mina de estratos</FT2_SiteBuilding_Rock.label>
   <!-- EN: Uses rock formations on this exact tile. -->
   <FT2_SiteBuilding_Rock.description>Aprovecha las formaciones rocosas de esta misma celda.</FT2_SiteBuilding_Rock.description>
+  <!-- EN: strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.0>mina de estratos</FT2_SiteBuilding_Rock.tierLabels.0>
+  <!-- EN: established strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.1>mina de estratos consolidada</FT2_SiteBuilding_Rock.tierLabels.1>
+  <!-- EN: industrial strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.2>mina de estratos industrial</FT2_SiteBuilding_Rock.tierLabels.2>
+  <!-- EN: advanced strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.3>mina de estratos avanzada</FT2_SiteBuilding_Rock.tierLabels.3>
+  <!-- EN: stellar strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.4>mina de estratos estelar</FT2_SiteBuilding_Rock.tierLabels.4>
+  <!-- EN: archotech strata mine -->
+  <FT2_SiteBuilding_Rock.tierLabels.5>mina de estratos arqueotéc</FT2_SiteBuilding_Rock.tierLabels.5>
   <!-- EN: volcanic foundry -->
   <FT2_SiteBuilding_Lava.label>fundición volcánica</FT2_SiteBuilding_Lava.label>
   <!-- EN: Uses volcanic terrain on this exact tile. -->
   <FT2_SiteBuilding_Lava.description>Aprovecha el terreno volcánico de esta misma celda.</FT2_SiteBuilding_Lava.description>
+  <!-- EN: volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.0>fundición volcánica</FT2_SiteBuilding_Lava.tierLabels.0>
+  <!-- EN: established volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.1>fundición volcánica consolidada</FT2_SiteBuilding_Lava.tierLabels.1>
+  <!-- EN: industrial volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.2>fundición volcánica industrial</FT2_SiteBuilding_Lava.tierLabels.2>
+  <!-- EN: advanced volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.3>fundición volcánica avanzada</FT2_SiteBuilding_Lava.tierLabels.3>
+  <!-- EN: stellar volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.4>fundición volcánica estelar</FT2_SiteBuilding_Lava.tierLabels.4>
+  <!-- EN: archotech volcanic foundry -->
+  <FT2_SiteBuilding_Lava.tierLabels.5>fundición volcánica arqueotéc</FT2_SiteBuilding_Lava.tierLabels.5>
   <!-- EN: obsidian mine -->
   <FT2_SiteBuilding_Obsidian.label>mina de obsidiana</FT2_SiteBuilding_Obsidian.label>
   <!-- EN: Uses obsidian deposits on this exact tile. -->
   <FT2_SiteBuilding_Obsidian.description>Aprovecha los yacimientos de obsidiana de esta misma celda.</FT2_SiteBuilding_Obsidian.description>
+  <!-- EN: obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.0>mina de obsidiana</FT2_SiteBuilding_Obsidian.tierLabels.0>
+  <!-- EN: established obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.1>mina de obsidiana consolidada</FT2_SiteBuilding_Obsidian.tierLabels.1>
+  <!-- EN: industrial obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.2>mina de obsidiana industrial</FT2_SiteBuilding_Obsidian.tierLabels.2>
+  <!-- EN: advanced obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.3>mina de obsidiana avanzada</FT2_SiteBuilding_Obsidian.tierLabels.3>
+  <!-- EN: stellar obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.4>mina de obsidiana estelar</FT2_SiteBuilding_Obsidian.tierLabels.4>
+  <!-- EN: archotech obsidian mine -->
+  <FT2_SiteBuilding_Obsidian.tierLabels.5>mina de obsidiana arqueotéc</FT2_SiteBuilding_Obsidian.tierLabels.5>
   <!-- EN: desert conservatory -->
   <FT2_SiteBuilding_Desert.label>invernadero del desierto</FT2_SiteBuilding_Desert.label>
   <!-- EN: Uses arid terrain on this exact tile. -->
   <FT2_SiteBuilding_Desert.description>Aprovecha el terreno árido de esta misma celda.</FT2_SiteBuilding_Desert.description>
+  <!-- EN: desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.0>invernadero del desierto</FT2_SiteBuilding_Desert.tierLabels.0>
+  <!-- EN: established desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.1>invernadero del desierto consolidado</FT2_SiteBuilding_Desert.tierLabels.1>
+  <!-- EN: industrial desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.2>invernadero del desierto industrial</FT2_SiteBuilding_Desert.tierLabels.2>
+  <!-- EN: advanced desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.3>invernadero del desierto avanzado</FT2_SiteBuilding_Desert.tierLabels.3>
+  <!-- EN: stellar desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.4>invernadero del desierto estelar</FT2_SiteBuilding_Desert.tierLabels.4>
+  <!-- EN: archotech desert conservatory -->
+  <FT2_SiteBuilding_Desert.tierLabels.5>invernadero del desierto arqueotéc</FT2_SiteBuilding_Desert.tierLabels.5>
   <!-- EN: wetland herb garden -->
   <FT2_SiteBuilding_Wetland.label>huerto de hierbas del humedal</FT2_SiteBuilding_Wetland.label>
   <!-- EN: Uses wetland habitat on this exact tile. -->
   <FT2_SiteBuilding_Wetland.description>Aprovecha el hábitat de humedal de esta misma celda.</FT2_SiteBuilding_Wetland.description>
+  <!-- EN: wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.0>huerto de hierbas del humedal</FT2_SiteBuilding_Wetland.tierLabels.0>
+  <!-- EN: established wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.1>huerto de hierbas del humedal consolidado</FT2_SiteBuilding_Wetland.tierLabels.1>
+  <!-- EN: industrial wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.2>huerto de hierbas del humedal industrial</FT2_SiteBuilding_Wetland.tierLabels.2>
+  <!-- EN: advanced wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.3>huerto de hierbas del humedal avanzado</FT2_SiteBuilding_Wetland.tierLabels.3>
+  <!-- EN: stellar wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.4>huerto de hierbas del humedal estelar</FT2_SiteBuilding_Wetland.tierLabels.4>
+  <!-- EN: archotech wetland herb garden -->
+  <FT2_SiteBuilding_Wetland.tierLabels.5>huerto de hierbas del humedal arqueotéc</FT2_SiteBuilding_Wetland.tierLabels.5>
   <!-- EN: terraforming research annex -->
   <FT2_SiteBuilding_Scar.label>anexo de investigación de terraformación</FT2_SiteBuilding_Scar.label>
   <!-- EN: Uses terraforming remnants on this exact tile. -->
   <FT2_SiteBuilding_Scar.description>Aprovecha los restos de terraformación de esta misma celda.</FT2_SiteBuilding_Scar.description>
+  <!-- EN: terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.0>anexo de investigación de terraformación</FT2_SiteBuilding_Scar.tierLabels.0>
+  <!-- EN: established terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.1>anexo de investigación de terraformación consolidado</FT2_SiteBuilding_Scar.tierLabels.1>
+  <!-- EN: industrial terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.2>anexo de investigación de terraformación industrial</FT2_SiteBuilding_Scar.tierLabels.2>
+  <!-- EN: advanced terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.3>anexo de investigación de terraformación avanzado</FT2_SiteBuilding_Scar.tierLabels.3>
+  <!-- EN: stellar terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.4>anexo de investigación de terraformación estelar</FT2_SiteBuilding_Scar.tierLabels.4>
+  <!-- EN: archotech terraforming research annex -->
+  <FT2_SiteBuilding_Scar.tierLabels.5>anexo de investigación de terraformación arqueotéc</FT2_SiteBuilding_Scar.tierLabels.5>
   <!-- EN: restored military depot -->
   <FT2_SiteBuilding_Military.label>depósito militar restaurado</FT2_SiteBuilding_Military.label>
   <!-- EN: Uses ancient defences on this exact tile. -->
   <FT2_SiteBuilding_Military.description>Aprovecha las defensas antiguas de esta misma celda.</FT2_SiteBuilding_Military.description>
+  <!-- EN: restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.0>depósito militar restaurado</FT2_SiteBuilding_Military.tierLabels.0>
+  <!-- EN: established restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.1>depósito militar restaurado consolidado</FT2_SiteBuilding_Military.tierLabels.1>
+  <!-- EN: industrial restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.2>depósito militar restaurado industrial</FT2_SiteBuilding_Military.tierLabels.2>
+  <!-- EN: advanced restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.3>depósito militar restaurado avanzado</FT2_SiteBuilding_Military.tierLabels.3>
+  <!-- EN: stellar restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.4>depósito militar restaurado estelar</FT2_SiteBuilding_Military.tierLabels.4>
+  <!-- EN: archotech restored military depot -->
+  <FT2_SiteBuilding_Military.tierLabels.5>depósito militar restaurado arqueotéc</FT2_SiteBuilding_Military.tierLabels.5>
   <!-- EN: salvage sorting yard -->
   <FT2_SiteBuilding_Warehouse.label>patio de clasificación de chatarra</FT2_SiteBuilding_Warehouse.label>
   <!-- EN: Uses salvage reserves on this exact tile. -->
   <FT2_SiteBuilding_Warehouse.description>Aprovecha las reservas de chatarra de esta misma celda.</FT2_SiteBuilding_Warehouse.description>
+  <!-- EN: salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.0>patio de clasificación de chatarra</FT2_SiteBuilding_Warehouse.tierLabels.0>
+  <!-- EN: established salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.1>patio de clasificación de chatarra consolidado</FT2_SiteBuilding_Warehouse.tierLabels.1>
+  <!-- EN: industrial salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.2>patio de clasificación de chatarra industrial</FT2_SiteBuilding_Warehouse.tierLabels.2>
+  <!-- EN: advanced salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.3>patio de clasificación de chatarra avanzado</FT2_SiteBuilding_Warehouse.tierLabels.3>
+  <!-- EN: stellar salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.4>patio de clasificación de chatarra estelar</FT2_SiteBuilding_Warehouse.tierLabels.4>
+  <!-- EN: archotech salvage sorting yard -->
+  <FT2_SiteBuilding_Warehouse.tierLabels.5>patio de clasificación de chatarra arqueotéc</FT2_SiteBuilding_Warehouse.tierLabels.5>
   <!-- EN: launch logistics centre -->
   <FT2_SiteBuilding_Launch.label>centro logístico de lanzamiento</FT2_SiteBuilding_Launch.label>
   <!-- EN: Uses launch infrastructure on this exact tile. -->
   <FT2_SiteBuilding_Launch.description>Aprovecha la infraestructura de lanzamiento de esta misma celda.</FT2_SiteBuilding_Launch.description>
+  <!-- EN: launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.0>centro logístico de lanzamiento</FT2_SiteBuilding_Launch.tierLabels.0>
+  <!-- EN: established launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.1>centro logístico de lanzamiento consolidado</FT2_SiteBuilding_Launch.tierLabels.1>
+  <!-- EN: industrial launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.2>centro logístico de lanzamiento industrial</FT2_SiteBuilding_Launch.tierLabels.2>
+  <!-- EN: advanced launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.3>centro logístico de lanzamiento avanzado</FT2_SiteBuilding_Launch.tierLabels.3>
+  <!-- EN: stellar launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.4>centro logístico de lanzamiento estelar</FT2_SiteBuilding_Launch.tierLabels.4>
+  <!-- EN: archotech launch logistics centre -->
+  <FT2_SiteBuilding_Launch.tierLabels.5>centro logístico de lanzamiento arqueotéc</FT2_SiteBuilding_Launch.tierLabels.5>
   <!-- EN: signal research array -->
   <FT2_SiteBuilding_Uplink.label>antena de investigación de señales</FT2_SiteBuilding_Uplink.label>
   <!-- EN: Uses ancient communications on this exact tile. -->
   <FT2_SiteBuilding_Uplink.description>Aprovecha las comunicaciones antiguas de esta misma celda.</FT2_SiteBuilding_Uplink.description>
+  <!-- EN: signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.0>antena de investigación de señales</FT2_SiteBuilding_Uplink.tierLabels.0>
+  <!-- EN: established signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.1>antena de investigación de señales consolidada</FT2_SiteBuilding_Uplink.tierLabels.1>
+  <!-- EN: industrial signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.2>antena de investigación de señales industrial</FT2_SiteBuilding_Uplink.tierLabels.2>
+  <!-- EN: advanced signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.3>antena de investigación de señales avanzada</FT2_SiteBuilding_Uplink.tierLabels.3>
+  <!-- EN: stellar signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.4>antena de investigación de señales estelar</FT2_SiteBuilding_Uplink.tierLabels.4>
+  <!-- EN: archotech signal research array -->
+  <FT2_SiteBuilding_Uplink.tierLabels.5>antena de investigación de señales arqueotéc</FT2_SiteBuilding_Uplink.tierLabels.5>
   <!-- EN: wildlife enclosure -->
   <FT2_SiteBuilding_Wildlife.label>recinto de fauna</FT2_SiteBuilding_Wildlife.label>
   <!-- EN: Uses abundant wildlife on this exact tile. -->
   <FT2_SiteBuilding_Wildlife.description>Aprovecha la fauna abundante de esta misma celda.</FT2_SiteBuilding_Wildlife.description>
+  <!-- EN: wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.0>recinto de fauna</FT2_SiteBuilding_Wildlife.tierLabels.0>
+  <!-- EN: established wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.1>recinto de fauna consolidado</FT2_SiteBuilding_Wildlife.tierLabels.1>
+  <!-- EN: industrial wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.2>recinto de fauna industrial</FT2_SiteBuilding_Wildlife.tierLabels.2>
+  <!-- EN: advanced wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.3>recinto de fauna avanzado</FT2_SiteBuilding_Wildlife.tierLabels.3>
+  <!-- EN: stellar wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.4>recinto de fauna estelar</FT2_SiteBuilding_Wildlife.tierLabels.4>
+  <!-- EN: archotech wildlife enclosure -->
+  <FT2_SiteBuilding_Wildlife.tierLabels.5>recinto de fauna arqueotéc</FT2_SiteBuilding_Wildlife.tierLabels.5>
   <!-- EN: wildlife restoration enclosure -->
   <FT2_SiteBuilding_PoorWildlife.label>recinto de recuperación de fauna</FT2_SiteBuilding_PoorWildlife.label>
   <!-- EN: Uses sparse wildlife on this exact tile. -->
   <FT2_SiteBuilding_PoorWildlife.description>Aprovecha la fauna escasa de esta misma celda.</FT2_SiteBuilding_PoorWildlife.description>
+  <!-- EN: wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.0>recinto de recuperación de fauna</FT2_SiteBuilding_PoorWildlife.tierLabels.0>
+  <!-- EN: established wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.1>recinto de recuperación de fauna consolidado</FT2_SiteBuilding_PoorWildlife.tierLabels.1>
+  <!-- EN: industrial wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.2>recinto de recuperación de fauna industrial</FT2_SiteBuilding_PoorWildlife.tierLabels.2>
+  <!-- EN: advanced wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.3>recinto de recuperación de fauna avanzado</FT2_SiteBuilding_PoorWildlife.tierLabels.3>
+  <!-- EN: stellar wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.4>recinto de recuperación de fauna estelar</FT2_SiteBuilding_PoorWildlife.tierLabels.4>
+  <!-- EN: archotech wildlife restoration enclosure -->
+  <FT2_SiteBuilding_PoorWildlife.tierLabels.5>recinto de recuperación de fauna arqueotéc</FT2_SiteBuilding_PoorWildlife.tierLabels.5>
   <!-- EN: botanical garden -->
   <FT2_SiteBuilding_Plants.label>jardín botánico</FT2_SiteBuilding_Plants.label>
   <!-- EN: Uses rich flora on this exact tile. -->
   <FT2_SiteBuilding_Plants.description>Aprovecha la flora rica de esta misma celda.</FT2_SiteBuilding_Plants.description>
+  <!-- EN: botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.0>jardín botánico</FT2_SiteBuilding_Plants.tierLabels.0>
+  <!-- EN: established botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.1>jardín botánico consolidado</FT2_SiteBuilding_Plants.tierLabels.1>
+  <!-- EN: industrial botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.2>jardín botánico industrial</FT2_SiteBuilding_Plants.tierLabels.2>
+  <!-- EN: advanced botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.3>jardín botánico avanzado</FT2_SiteBuilding_Plants.tierLabels.3>
+  <!-- EN: stellar botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.4>jardín botánico estelar</FT2_SiteBuilding_Plants.tierLabels.4>
+  <!-- EN: archotech botanical garden -->
+  <FT2_SiteBuilding_Plants.tierLabels.5>jardín botánico arqueotéc</FT2_SiteBuilding_Plants.tierLabels.5>
   <!-- EN: soil restoration nursery -->
   <FT2_SiteBuilding_PoorPlants.label>vivero de recuperación de suelos</FT2_SiteBuilding_PoorPlants.label>
   <!-- EN: Uses sparse flora on this exact tile. -->
   <FT2_SiteBuilding_PoorPlants.description>Aprovecha la flora escasa de esta misma celda.</FT2_SiteBuilding_PoorPlants.description>
+  <!-- EN: soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.0>vivero de recuperación de suelos</FT2_SiteBuilding_PoorPlants.tierLabels.0>
+  <!-- EN: established soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.1>vivero de recuperación de suelos consolidado</FT2_SiteBuilding_PoorPlants.tierLabels.1>
+  <!-- EN: industrial soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.2>vivero de recuperación de suelos industrial</FT2_SiteBuilding_PoorPlants.tierLabels.2>
+  <!-- EN: advanced soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.3>vivero de recuperación de suelos avanzado</FT2_SiteBuilding_PoorPlants.tierLabels.3>
+  <!-- EN: stellar soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.4>vivero de recuperación de suelos estelar</FT2_SiteBuilding_PoorPlants.tierLabels.4>
+  <!-- EN: archotech soil restoration nursery -->
+  <FT2_SiteBuilding_PoorPlants.tierLabels.5>vivero de recuperación de suelos arqueotéc</FT2_SiteBuilding_PoorPlants.tierLabels.5>
   <!-- EN: ancient forest sanctuary -->
   <FT2_SiteBuilding_Forest.label>santuario del bosque antiguo</FT2_SiteBuilding_Forest.label>
   <!-- EN: Uses ancient forest on this exact tile. -->
   <FT2_SiteBuilding_Forest.description>Aprovecha el bosque antiguo de esta misma celda.</FT2_SiteBuilding_Forest.description>
+  <!-- EN: ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.0>santuario del bosque antiguo</FT2_SiteBuilding_Forest.tierLabels.0>
+  <!-- EN: established ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.1>santuario del bosque antiguo consolidado</FT2_SiteBuilding_Forest.tierLabels.1>
+  <!-- EN: industrial ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.2>santuario del bosque antiguo industrial</FT2_SiteBuilding_Forest.tierLabels.2>
+  <!-- EN: advanced ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.3>santuario del bosque antiguo avanzado</FT2_SiteBuilding_Forest.tierLabels.3>
+  <!-- EN: stellar ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.4>santuario del bosque antiguo estelar</FT2_SiteBuilding_Forest.tierLabels.4>
+  <!-- EN: archotech ancient forest sanctuary -->
+  <FT2_SiteBuilding_Forest.tierLabels.5>santuario del bosque antiguo arqueotéc</FT2_SiteBuilding_Forest.tierLabels.5>
   <!-- EN: mineral assay mine -->
   <FT2_SiteBuilding_Minerals.label>mina de ensayo mineral</FT2_SiteBuilding_Minerals.label>
   <!-- EN: Uses mineral deposits on this exact tile. -->
   <FT2_SiteBuilding_Minerals.description>Aprovecha los yacimientos minerales de esta misma celda.</FT2_SiteBuilding_Minerals.description>
+  <!-- EN: mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.0>mina de ensayo mineral</FT2_SiteBuilding_Minerals.tierLabels.0>
+  <!-- EN: established mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.1>mina de ensayo mineral consolidada</FT2_SiteBuilding_Minerals.tierLabels.1>
+  <!-- EN: industrial mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.2>mina de ensayo mineral industrial</FT2_SiteBuilding_Minerals.tierLabels.2>
+  <!-- EN: advanced mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.3>mina de ensayo mineral avanzada</FT2_SiteBuilding_Minerals.tierLabels.3>
+  <!-- EN: stellar mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.4>mina de ensayo mineral estelar</FT2_SiteBuilding_Minerals.tierLabels.4>
+  <!-- EN: archotech mineral assay mine -->
+  <FT2_SiteBuilding_Minerals.tierLabels.5>mina de ensayo mineral arqueotéc</FT2_SiteBuilding_Minerals.tierLabels.5>
   <!-- EN: fog harvesting array -->
   <FT2_SiteBuilding_Fog.label>red atrapanieblas</FT2_SiteBuilding_Fog.label>
   <!-- EN: Uses persistent fog on this exact tile. -->
   <FT2_SiteBuilding_Fog.description>Aprovecha la niebla persistente de esta misma celda.</FT2_SiteBuilding_Fog.description>
+  <!-- EN: fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.0>red atrapanieblas</FT2_SiteBuilding_Fog.tierLabels.0>
+  <!-- EN: established fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.1>red atrapanieblas consolidada</FT2_SiteBuilding_Fog.tierLabels.1>
+  <!-- EN: industrial fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.2>red atrapanieblas industrial</FT2_SiteBuilding_Fog.tierLabels.2>
+  <!-- EN: advanced fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.3>red atrapanieblas avanzada</FT2_SiteBuilding_Fog.tierLabels.3>
+  <!-- EN: stellar fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.4>red atrapanieblas estelar</FT2_SiteBuilding_Fog.tierLabels.4>
+  <!-- EN: archotech fog harvesting array -->
+  <FT2_SiteBuilding_Fog.tierLabels.5>red atrapanieblas arqueotéc</FT2_SiteBuilding_Fog.tierLabels.5>
   <!-- EN: solar agriculture complex -->
   <FT2_SiteBuilding_Sun.label>complejo agrícola solar</FT2_SiteBuilding_Sun.label>
   <!-- EN: Uses abundant sunshine on this exact tile. -->
   <FT2_SiteBuilding_Sun.description>Aprovecha el sol abundante de esta misma celda.</FT2_SiteBuilding_Sun.description>
+  <!-- EN: solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.0>complejo agrícola solar</FT2_SiteBuilding_Sun.tierLabels.0>
+  <!-- EN: established solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.1>complejo agrícola solar consolidado</FT2_SiteBuilding_Sun.tierLabels.1>
+  <!-- EN: industrial solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.2>complejo agrícola solar industrial</FT2_SiteBuilding_Sun.tierLabels.2>
+  <!-- EN: advanced solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.3>complejo agrícola solar avanzado</FT2_SiteBuilding_Sun.tierLabels.3>
+  <!-- EN: stellar solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.4>complejo agrícola solar estelar</FT2_SiteBuilding_Sun.tierLabels.4>
+  <!-- EN: archotech solar agriculture complex -->
+  <FT2_SiteBuilding_Sun.tierLabels.5>complejo agrícola solar arqueotéc</FT2_SiteBuilding_Sun.tierLabels.5>
   <!-- EN: rainwater collection works -->
   <FT2_SiteBuilding_Rain.label>obras de captación de lluvia</FT2_SiteBuilding_Rain.label>
   <!-- EN: Uses wet climate on this exact tile. -->
   <FT2_SiteBuilding_Rain.description>Aprovecha el clima húmedo de esta misma celda.</FT2_SiteBuilding_Rain.description>
+  <!-- EN: rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.0>obras de captación de lluvia</FT2_SiteBuilding_Rain.tierLabels.0>
+  <!-- EN: established rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.1>obras de captación de lluvia consolidadas</FT2_SiteBuilding_Rain.tierLabels.1>
+  <!-- EN: industrial rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.2>obras de captación de lluvia industriales</FT2_SiteBuilding_Rain.tierLabels.2>
+  <!-- EN: advanced rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.3>obras de captación de lluvia avanzadas</FT2_SiteBuilding_Rain.tierLabels.3>
+  <!-- EN: stellar rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.4>obras de captación de lluvia estelares</FT2_SiteBuilding_Rain.tierLabels.4>
+  <!-- EN: archotech rainwater collection works -->
+  <FT2_SiteBuilding_Rain.tierLabels.5>obras de captación de lluvia arqueotéc</FT2_SiteBuilding_Rain.tierLabels.5>
   <!-- EN: wind utility farm -->
   <FT2_SiteBuilding_Wind.label>parque eólico</FT2_SiteBuilding_Wind.label>
   <!-- EN: Uses persistent wind on this exact tile. -->
   <FT2_SiteBuilding_Wind.description>Aprovecha el viento persistente de esta misma celda.</FT2_SiteBuilding_Wind.description>
+  <!-- EN: wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.0>parque eólico</FT2_SiteBuilding_Wind.tierLabels.0>
+  <!-- EN: established wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.1>parque eólico consolidado</FT2_SiteBuilding_Wind.tierLabels.1>
+  <!-- EN: industrial wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.2>parque eólico industrial</FT2_SiteBuilding_Wind.tierLabels.2>
+  <!-- EN: advanced wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.3>parque eólico avanzado</FT2_SiteBuilding_Wind.tierLabels.3>
+  <!-- EN: stellar wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.4>parque eólico estelar</FT2_SiteBuilding_Wind.tierLabels.4>
+  <!-- EN: archotech wind utility farm -->
+  <FT2_SiteBuilding_Wind.tierLabels.5>parque eólico arqueotéc</FT2_SiteBuilding_Wind.tierLabels.5>
   <!-- EN: fish hatchery -->
   <FT2_SiteBuilding_Fish.label>criadero de peces</FT2_SiteBuilding_Fish.label>
   <!-- EN: Uses abundant fish on this exact tile. -->
   <FT2_SiteBuilding_Fish.description>Aprovecha los peces abundantes de esta misma celda.</FT2_SiteBuilding_Fish.description>
+  <!-- EN: fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.0>criadero de peces</FT2_SiteBuilding_Fish.tierLabels.0>
+  <!-- EN: established fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.1>criadero de peces consolidado</FT2_SiteBuilding_Fish.tierLabels.1>
+  <!-- EN: industrial fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.2>criadero de peces industrial</FT2_SiteBuilding_Fish.tierLabels.2>
+  <!-- EN: advanced fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.3>criadero de peces avanzado</FT2_SiteBuilding_Fish.tierLabels.3>
+  <!-- EN: stellar fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.4>criadero de peces estelar</FT2_SiteBuilding_Fish.tierLabels.4>
+  <!-- EN: archotech fish hatchery -->
+  <FT2_SiteBuilding_Fish.tierLabels.5>criadero de peces arqueotéc</FT2_SiteBuilding_Fish.tierLabels.5>
   <!-- EN: fish conservation hatchery -->
   <FT2_SiteBuilding_PoorFish.label>criadero de conservación de peces</FT2_SiteBuilding_PoorFish.label>
   <!-- EN: Uses depleted fish stocks on this exact tile. -->
   <FT2_SiteBuilding_PoorFish.description>Aprovecha las poblaciones de peces agotadas de esta misma celda.</FT2_SiteBuilding_PoorFish.description>
+  <!-- EN: fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.0>criadero de conservación de peces</FT2_SiteBuilding_PoorFish.tierLabels.0>
+  <!-- EN: established fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.1>criadero de conservación de peces consolidado</FT2_SiteBuilding_PoorFish.tierLabels.1>
+  <!-- EN: industrial fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.2>criadero de conservación de peces industrial</FT2_SiteBuilding_PoorFish.tierLabels.2>
+  <!-- EN: advanced fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.3>criadero de conservación de peces avanzado</FT2_SiteBuilding_PoorFish.tierLabels.3>
+  <!-- EN: stellar fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.4>criadero de conservación de peces estelar</FT2_SiteBuilding_PoorFish.tierLabels.4>
+  <!-- EN: archotech fish conservation hatchery -->
+  <FT2_SiteBuilding_PoorFish.tierLabels.5>criadero de conservación de peces arqueotéc</FT2_SiteBuilding_PoorFish.tierLabels.5>
   <!-- EN: river fishery -->
   <FT2_SiteBuilding_River.label>pesquería fluvial</FT2_SiteBuilding_River.label>
   <!-- EN: Uses river formations on this exact tile. -->
   <FT2_SiteBuilding_River.description>Aprovecha las formaciones fluviales de esta misma celda.</FT2_SiteBuilding_River.description>
+  <!-- EN: river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.0>pesquería fluvial</FT2_SiteBuilding_River.tierLabels.0>
+  <!-- EN: established river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.1>pesquería fluvial consolidada</FT2_SiteBuilding_River.tierLabels.1>
+  <!-- EN: industrial river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.2>pesquería fluvial industrial</FT2_SiteBuilding_River.tierLabels.2>
+  <!-- EN: advanced river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.3>pesquería fluvial avanzada</FT2_SiteBuilding_River.tierLabels.3>
+  <!-- EN: stellar river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.4>pesquería fluvial estelar</FT2_SiteBuilding_River.tierLabels.4>
+  <!-- EN: archotech river fishery -->
+  <FT2_SiteBuilding_River.tierLabels.5>pesquería fluvial arqueotéc</FT2_SiteBuilding_River.tierLabels.5>
   <!-- EN: intensive crop estate -->
   <FT2_SiteBuilding_Fertile.label>finca de cultivo intensivo</FT2_SiteBuilding_Fertile.label>
   <!-- EN: Uses fertile soil on this exact tile. -->
   <FT2_SiteBuilding_Fertile.description>Aprovecha el suelo fértil de esta misma celda.</FT2_SiteBuilding_Fertile.description>
+  <!-- EN: intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.0>finca de cultivo intensivo</FT2_SiteBuilding_Fertile.tierLabels.0>
+  <!-- EN: established intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.1>finca de cultivo intensivo consolidada</FT2_SiteBuilding_Fertile.tierLabels.1>
+  <!-- EN: industrial intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.2>finca de cultivo intensivo industrial</FT2_SiteBuilding_Fertile.tierLabels.2>
+  <!-- EN: advanced intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.3>finca de cultivo intensivo avanzada</FT2_SiteBuilding_Fertile.tierLabels.3>
+  <!-- EN: stellar intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.4>finca de cultivo intensivo estelar</FT2_SiteBuilding_Fertile.tierLabels.4>
+  <!-- EN: archotech intensive crop estate -->
+  <FT2_SiteBuilding_Fertile.tierLabels.5>finca de cultivo intensivo arqueotéc</FT2_SiteBuilding_Fertile.tierLabels.5>
   <!-- EN: ecotone research preserve -->
   <FT2_SiteBuilding_Mixed.label>reserva de investigación del ecotono</FT2_SiteBuilding_Mixed.label>
   <!-- EN: Uses biome ecotone on this exact tile. -->
   <FT2_SiteBuilding_Mixed.description>Aprovecha el ecotono de biomas de esta misma celda.</FT2_SiteBuilding_Mixed.description>
+  <!-- EN: ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.0>reserva de investigación del ecotono</FT2_SiteBuilding_Mixed.tierLabels.0>
+  <!-- EN: established ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.1>reserva de investigación del ecotono consolidada</FT2_SiteBuilding_Mixed.tierLabels.1>
+  <!-- EN: industrial ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.2>reserva de investigación del ecotono industrial</FT2_SiteBuilding_Mixed.tierLabels.2>
+  <!-- EN: advanced ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.3>reserva de investigación del ecotono avanzada</FT2_SiteBuilding_Mixed.tierLabels.3>
+  <!-- EN: stellar ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.4>reserva de investigación del ecotono estelar</FT2_SiteBuilding_Mixed.tierLabels.4>
+  <!-- EN: archotech ecotone research preserve -->
+  <FT2_SiteBuilding_Mixed.tierLabels.5>reserva de investigación del ecotono arqueotéc</FT2_SiteBuilding_Mixed.tierLabels.5>
   <!-- EN: site survey station -->
   <FT2_SiteBuilding_Unknown.label>estación de reconocimiento del sitio</FT2_SiteBuilding_Unknown.label>
   <!-- EN: Uses unclassified site on this exact tile. -->
   <FT2_SiteBuilding_Unknown.description>Aprovecha el sitio sin clasificar de esta misma celda.</FT2_SiteBuilding_Unknown.description>
+  <!-- EN: site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.0>estación de reconocimiento del sitio</FT2_SiteBuilding_Unknown.tierLabels.0>
+  <!-- EN: established site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.1>estación de reconocimiento del sitio consolidada</FT2_SiteBuilding_Unknown.tierLabels.1>
+  <!-- EN: industrial site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.2>estación de reconocimiento del sitio industrial</FT2_SiteBuilding_Unknown.tierLabels.2>
+  <!-- EN: advanced site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.3>estación de reconocimiento del sitio avanzada</FT2_SiteBuilding_Unknown.tierLabels.3>
+  <!-- EN: stellar site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.4>estación de reconocimiento del sitio estelar</FT2_SiteBuilding_Unknown.tierLabels.4>
+  <!-- EN: archotech site survey station -->
+  <FT2_SiteBuilding_Unknown.tierLabels.5>estación de reconocimiento del sitio arqueotéc</FT2_SiteBuilding_Unknown.tierLabels.5>
   <!-- EN: insect gene laboratory -->
   <FT2_InsectGeneLab.label>laboratorio genético de insectos</FT2_InsectGeneLab.label>
   <!-- EN: Studies local insect samples, supplying genetic material and the normal vassal xenotype editor with available vanilla and modded genes. Insects occasionally injure workers. -->
   <FT2_InsectGeneLab.description>Estudia muestras de insectos locales y aporta material genético y, al editor normal de xenotipos vasallos, los genes disponibles del juego base y de los mods. Los insectos a veces hieren a los trabajadores.</FT2_InsectGeneLab.description>
+  <!-- EN: insect sample hut -->
+  <FT2_InsectGeneLab.tierLabels.0>choza de muestras de insectos</FT2_InsectGeneLab.tierLabels.0>
+  <!-- EN: insect breeding laboratory -->
+  <FT2_InsectGeneLab.tierLabels.1>laboratorio de cría de insectos</FT2_InsectGeneLab.tierLabels.1>
+  <!-- EN: insect gene laboratory -->
+  <FT2_InsectGeneLab.tierLabels.2>laboratorio genético de insectos</FT2_InsectGeneLab.tierLabels.2>
+  <!-- EN: insect genome institute -->
+  <FT2_InsectGeneLab.tierLabels.3>instituto del genoma de insectos</FT2_InsectGeneLab.tierLabels.3>
+  <!-- EN: hive adaptation complex -->
+  <FT2_InsectGeneLab.tierLabels.4>complejo de adaptación de colmenas</FT2_InsectGeneLab.tierLabels.4>
+  <!-- EN: archotech hive genesis laboratory -->
+  <FT2_InsectGeneLab.tierLabels.5>laboratorio génesis de colmenas arqueotéc</FT2_InsectGeneLab.tierLabels.5>
   <!-- EN: indoctrination camp -->
   <FT2_IndoctrinationCamp.label>campo de adoctrinamiento</FT2_IndoctrinationCamp.label>
   <!-- EN: Recruits have a chance equal to indoctrination camp level divided by town hall level to adopt the colony&apos;s primary ideology. -->
   <FT2_IndoctrinationCamp.description>Los reclutas tienen una probabilidad igual al nivel del campo de adoctrinamiento dividido por el nivel del ayuntamiento de adoptar la ideología principal de la colonia.</FT2_IndoctrinationCamp.description>
+  <!-- EN: shrine -->
+  <FT2_IndoctrinationCamp.tierLabels.0>santuario</FT2_IndoctrinationCamp.tierLabels.0>
+  <!-- EN: indoctrination camp -->
+  <FT2_IndoctrinationCamp.tierLabels.1>campo de adoctrinamiento</FT2_IndoctrinationCamp.tierLabels.1>
+  <!-- EN: conversion institute -->
+  <FT2_IndoctrinationCamp.tierLabels.2>instituto de conversión</FT2_IndoctrinationCamp.tierLabels.2>
+  <!-- EN: ideology academy -->
+  <FT2_IndoctrinationCamp.tierLabels.3>academia ideológica</FT2_IndoctrinationCamp.tierLabels.3>
+  <!-- EN: neural indoctrination centre -->
+  <FT2_IndoctrinationCamp.tierLabels.4>centro de adoctrinamiento neuronal</FT2_IndoctrinationCamp.tierLabels.4>
+  <!-- EN: archotech conviction nexus -->
+  <FT2_IndoctrinationCamp.tierLabels.5>nexo de convicción arqueotéc</FT2_IndoctrinationCamp.tierLabels.5>
   <!-- EN: weapons workshop -->
   <FT2_WeaponsWorkshop.label>taller de armas</FT2_WeaponsWorkshop.label>
   <!-- EN: Unlocks weapons up to this workshop&apos;s technology stage. Current-stage quality rises from poor to masterwork within the stage; lower-stage weapons are always masterwork. -->
   <FT2_WeaponsWorkshop.description>Desbloquea armas hasta la etapa tecnológica de este taller. En la etapa actual, la calidad sube de mediocre a magistral dentro de la etapa; las armas de etapas inferiores son siempre magistrales.</FT2_WeaponsWorkshop.description>
+  <!-- EN: weaponmaker&apos;s hut -->
+  <FT2_WeaponsWorkshop.tierLabels.0>choza del armero</FT2_WeaponsWorkshop.tierLabels.0>
+  <!-- EN: weapons workshop -->
+  <FT2_WeaponsWorkshop.tierLabels.1>taller de armas</FT2_WeaponsWorkshop.tierLabels.1>
+  <!-- EN: arms factory -->
+  <FT2_WeaponsWorkshop.tierLabels.2>fábrica de armas</FT2_WeaponsWorkshop.tierLabels.2>
+  <!-- EN: advanced arms plant -->
+  <FT2_WeaponsWorkshop.tierLabels.3>planta de armas avanzada</FT2_WeaponsWorkshop.tierLabels.3>
+  <!-- EN: ultraweapon forge -->
+  <FT2_WeaponsWorkshop.tierLabels.4>forja de ultraarmas</FT2_WeaponsWorkshop.tierLabels.4>
+  <!-- EN: archotech arsenal -->
+  <FT2_WeaponsWorkshop.tierLabels.5>arsenal arqueotéc</FT2_WeaponsWorkshop.tierLabels.5>
   <!-- EN: armor workshop -->
   <FT2_ArmorWorkshop.label>taller de armaduras</FT2_ArmorWorkshop.label>
   <!-- EN: Unlocks armor and apparel up to this workshop&apos;s technology stage. Current-stage quality rises from poor to masterwork; lower-stage apparel is always masterwork. -->
   <FT2_ArmorWorkshop.description>Desbloquea armaduras y ropa hasta la etapa tecnológica de este taller. En la etapa actual, la calidad sube de mediocre a magistral; la ropa de etapas inferiores es siempre magistral.</FT2_ArmorWorkshop.description>
+  <!-- EN: armorer&apos;s hut -->
+  <FT2_ArmorWorkshop.tierLabels.0>choza del forjador</FT2_ArmorWorkshop.tierLabels.0>
+  <!-- EN: armor workshop -->
+  <FT2_ArmorWorkshop.tierLabels.1>taller de armaduras</FT2_ArmorWorkshop.tierLabels.1>
+  <!-- EN: armor factory -->
+  <FT2_ArmorWorkshop.tierLabels.2>fábrica de armaduras</FT2_ArmorWorkshop.tierLabels.2>
+  <!-- EN: powered armor fabricator -->
+  <FT2_ArmorWorkshop.tierLabels.3>fabricador de armaduras motorizadas</FT2_ArmorWorkshop.tierLabels.3>
+  <!-- EN: ultraarmor forge -->
+  <FT2_ArmorWorkshop.tierLabels.4>forja de ultraarmaduras</FT2_ArmorWorkshop.tierLabels.4>
+  <!-- EN: archotech armory -->
+  <FT2_ArmorWorkshop.tierLabels.5>armería arqueotéc</FT2_ArmorWorkshop.tierLabels.5>
   <!-- EN: furniture workshop -->
   <FT2_FurnitureWorkshop.label>taller de muebles</FT2_FurnitureWorkshop.label>
   <!-- EN: Unlocks minifiable buildings up to this workshop&apos;s technology stage. Buildings with quality rise from poor to masterwork within the stage; lower-stage furniture is always masterwork. -->
   <FT2_FurnitureWorkshop.description>Desbloquea edificios minificables hasta la etapa tecnológica de este taller. Los edificios con calidad suben de mediocre a magistral dentro de la etapa; los muebles de etapas inferiores son siempre magistrales.</FT2_FurnitureWorkshop.description>
+  <!-- EN: carpenter&apos;s hut -->
+  <FT2_FurnitureWorkshop.tierLabels.0>choza del carpintero</FT2_FurnitureWorkshop.tierLabels.0>
+  <!-- EN: furniture workshop -->
+  <FT2_FurnitureWorkshop.tierLabels.1>taller de muebles</FT2_FurnitureWorkshop.tierLabels.1>
+  <!-- EN: furniture factory -->
+  <FT2_FurnitureWorkshop.tierLabels.2>fábrica de muebles</FT2_FurnitureWorkshop.tierLabels.2>
+  <!-- EN: habitat furnishings plant -->
+  <FT2_FurnitureWorkshop.tierLabels.3>planta de mobiliario para hábitats</FT2_FurnitureWorkshop.tierLabels.3>
+  <!-- EN: luxury fabrication complex -->
+  <FT2_FurnitureWorkshop.tierLabels.4>complejo de fabricación de lujo</FT2_FurnitureWorkshop.tierLabels.4>
+  <!-- EN: archotech design studio -->
+  <FT2_FurnitureWorkshop.tierLabels.5>estudio de diseño arqueotéc</FT2_FurnitureWorkshop.tierLabels.5>
   <!-- EN: research station -->
   <FT2_ResearchStation.label>estación de investigación</FT2_ResearchStation.label>
   <!-- EN: Produces global tech points at player vassals. Spend them to advance a vassal town hall beyond its technology threshold or to fuel selected colony research. -->
   <FT2_ResearchStation.description>Produce puntos de tecnología globales en los vasallos del jugador. Úsalos para hacer avanzar el ayuntamiento de un vasallo más allá de su umbral tecnológico o para impulsar investigaciones elegidas de la colonia.</FT2_ResearchStation.description>
+  <!-- EN: sage&apos;s hut -->
+  <FT2_ResearchStation.tierLabels.0>choza del sabio</FT2_ResearchStation.tierLabels.0>
+  <!-- EN: scholars&apos; hall -->
+  <FT2_ResearchStation.tierLabels.1>salón de eruditos</FT2_ResearchStation.tierLabels.1>
+  <!-- EN: research station -->
+  <FT2_ResearchStation.tierLabels.2>estación de investigación</FT2_ResearchStation.tierLabels.2>
+  <!-- EN: research institute -->
+  <FT2_ResearchStation.tierLabels.3>instituto de investigación</FT2_ResearchStation.tierLabels.3>
+  <!-- EN: advanced research complex -->
+  <FT2_ResearchStation.tierLabels.4>complejo de investigación avanzada</FT2_ResearchStation.tierLabels.4>
+  <!-- EN: archotech discovery matrix -->
+  <FT2_ResearchStation.tierLabels.5>matriz de descubrimiento arqueotéc</FT2_ResearchStation.tierLabels.5>
   <!-- EN: slave market -->
   <FT2_SlaveMarket.label>mercado de esclavos</FT2_SlaveMarket.label>
   <!-- EN: Periodically adds slaves when housing is available, increasing prosperity at a happiness cost. -->
   <FT2_SlaveMarket.description>Agrega esclavos cada cierto tiempo cuando hay viviendas libres, lo que aumenta la prosperidad a costa de la felicidad.</FT2_SlaveMarket.description>
+  <!-- EN: bondservants&apos; enclosure -->
+  <FT2_SlaveMarket.tierLabels.0>corral de siervos</FT2_SlaveMarket.tierLabels.0>
+  <!-- EN: slave market -->
+  <FT2_SlaveMarket.tierLabels.1>mercado de esclavos</FT2_SlaveMarket.tierLabels.1>
+  <!-- EN: labour exchange -->
+  <FT2_SlaveMarket.tierLabels.2>bolsa de trabajo</FT2_SlaveMarket.tierLabels.2>
+  <!-- EN: orbital slave market -->
+  <FT2_SlaveMarket.tierLabels.3>mercado de esclavos orbital</FT2_SlaveMarket.tierLabels.3>
+  <!-- EN: interstellar slave exchange -->
+  <FT2_SlaveMarket.tierLabels.4>bolsa de esclavos interestelar</FT2_SlaveMarket.tierLabels.4>
+  <!-- EN: archotech servitude nexus -->
+  <FT2_SlaveMarket.tierLabels.5>nexo de servidumbre arqueotéc</FT2_SlaveMarket.tierLabels.5>
   <!-- EN: recreation center -->
   <FT2_RecreationCenter.label>centro recreativo</FT2_RecreationCenter.label>
   <!-- EN: Raises the settlement&apos;s happiness target with each building level. -->
   <FT2_RecreationCenter.description>Sube el objetivo de felicidad del asentamiento con cada nivel del edificio.</FT2_RecreationCenter.description>
+  <!-- EN: gathering ground -->
+  <FT2_RecreationCenter.tierLabels.0>lugar de reunión</FT2_RecreationCenter.tierLabels.0>
+  <!-- EN: festival hall -->
+  <FT2_RecreationCenter.tierLabels.1>salón de festivales</FT2_RecreationCenter.tierLabels.1>
+  <!-- EN: recreation center -->
+  <FT2_RecreationCenter.tierLabels.2>centro recreativo</FT2_RecreationCenter.tierLabels.2>
+  <!-- EN: holorecreation complex -->
+  <FT2_RecreationCenter.tierLabels.3>complejo de holorrecreación</FT2_RecreationCenter.tierLabels.3>
+  <!-- EN: immersive recreation dome -->
+  <FT2_RecreationCenter.tierLabels.4>cúpula de recreación inmersiva</FT2_RecreationCenter.tierLabels.4>
+  <!-- EN: archotech pleasure garden -->
+  <FT2_RecreationCenter.tierLabels.5>jardín de placeres arqueotéc</FT2_RecreationCenter.tierLabels.5>
   <!-- EN: royal palace -->
   <FT2_RoyalPalace.label>palacio real</FT2_RoyalPalace.label>
   <!-- EN: Accumulates honour at player vassals. Claim it for a colonist with a non-hostile royal faction. -->
   <FT2_RoyalPalace.description>Acumula honor en los vasallos del jugador. Reclámalo para un colono con una facción real no hostil.</FT2_RoyalPalace.description>
+  <!-- EN: chieftain&apos;s hall -->
+  <FT2_RoyalPalace.tierLabels.0>salón del jefe</FT2_RoyalPalace.tierLabels.0>
+  <!-- EN: noble manor -->
+  <FT2_RoyalPalace.tierLabels.1>mansión noble</FT2_RoyalPalace.tierLabels.1>
+  <!-- EN: royal palace -->
+  <FT2_RoyalPalace.tierLabels.2>palacio real</FT2_RoyalPalace.tierLabels.2>
+  <!-- EN: stellic palace -->
+  <FT2_RoyalPalace.tierLabels.3>palacio estélico</FT2_RoyalPalace.tierLabels.3>
+  <!-- EN: imperial palace -->
+  <FT2_RoyalPalace.tierLabels.4>palacio imperial</FT2_RoyalPalace.tierLabels.4>
+  <!-- EN: archotech throne -->
+  <FT2_RoyalPalace.tierLabels.5>trono arqueotéc</FT2_RoyalPalace.tierLabels.5>
   <!-- EN: monolith -->
   <FT2_Monolith.label>monolito</FT2_Monolith.label>
   <!-- EN: Produces bioferrite, twisted meat and stored anomaly knowledge. Physical goods use the normal tithe delivery schedule. -->
   <FT2_Monolith.description>Produce bioferrita, carne retorcida y conocimiento de anomalías almacenado. Los bienes físicos siguen el calendario normal de entrega de diezmos.</FT2_Monolith.description>
+  <!-- EN: fallen monolith -->
+  <FT2_Monolith.tierLabels.0>monolito caído</FT2_Monolith.tierLabels.0>
+  <!-- EN: stirring monolith -->
+  <FT2_Monolith.tierLabels.1>monolito agitado</FT2_Monolith.tierLabels.1>
+  <!-- EN: awakened monolith -->
+  <FT2_Monolith.tierLabels.2>monolito despierto</FT2_Monolith.tierLabels.2>
+  <!-- EN: void research center -->
+  <FT2_Monolith.tierLabels.3>centro de investigación del vacío</FT2_Monolith.tierLabels.3>
+  <!-- EN: void research complex -->
+  <FT2_Monolith.tierLabels.4>complejo de investigación del vacío</FT2_Monolith.tierLabels.4>
+  <!-- EN: void research nexus -->
+  <FT2_Monolith.tierLabels.5>nexo de investigación del vacío</FT2_Monolith.tierLabels.5>
   <!-- EN: grav site -->
   <FT2_GravSite.label>sitio de gravedad</FT2_GravSite.label>
   <!-- EN: Produces metals and gravlite panels, with rare gravcores at higher stages. Enables military journeys to or from orbit and flight over difficult surface terrain. -->
   <FT2_GravSite.description>Produce metales y paneles de gravilita, y en etapas más altas, algún gravinúcleo raro. Permite viajes militares hacia la órbita o desde ella, y volar sobre terreno difícil de la superficie.</FT2_GravSite.description>
+  <!-- EN: strange scrap site -->
+  <FT2_GravSite.tierLabels.0>sitio de chatarra extraña</FT2_GravSite.tierLabels.0>
+  <!-- EN: ancient wreck site -->
+  <FT2_GravSite.tierLabels.1>sitio de restos antiguos</FT2_GravSite.tierLabels.1>
+  <!-- EN: gravitic excavation -->
+  <FT2_GravSite.tierLabels.2>excavación gravitatoria</FT2_GravSite.tierLabels.2>
+  <!-- EN: grav site -->
+  <FT2_GravSite.tierLabels.3>sitio de gravedad</FT2_GravSite.tierLabels.3>
+  <!-- EN: gravcore recovery complex -->
+  <FT2_GravSite.tierLabels.4>complejo de recuperación de gravinúcleos</FT2_GravSite.tierLabels.4>
+  <!-- EN: archotech gravitation nexus -->
+  <FT2_GravSite.tierLabels.5>nexo de gravitación arqueotéc</FT2_GravSite.tierLabels.5>
   <!-- EN: Stellarch&apos;s flagship -->
   <FT2_StellarchFlagship.label>nave insignia de la estelarca</FT2_StellarchFlagship.label>
   <!-- EN: The Empire&apos;s unique flagship combines a spacefaring city, propaganda centre, psychic sanctum and orbital laser. It can travel through space from level 1 at half normal moving-city speed. Upgrades cost the combined price of all four structures. Its services use normal funding and cooldowns. Taking it provokes an Imperial annihilation war against its new holder, even if that faction cannot operate its systems. It is granted once and can never be rebuilt after destruction or demolition. -->
   <FT2_StellarchFlagship.description>La nave insignia única del Imperio combina una ciudad espacial, un centro de propaganda, un santuario psíquico y una red de láser orbital. Puede viajar por el espacio desde el nivel 1 a la mitad de la velocidad normal de una ciudad móvil. Las mejoras cuestan el precio combinado de las cuatro estructuras. Sus servicios usan el financiamiento y los tiempos de recarga normales. Tomarla provoca una guerra de aniquilación imperial contra su nuevo dueño, aunque esa facción no pueda operar sus sistemas. Se otorga una sola vez y nunca se puede reconstruir si se destruye o se demuele.</FT2_StellarchFlagship.description>
+  <!-- EN: Stellarch&apos;s command vessel -->
+  <FT2_StellarchFlagship.tierLabels.0>nave de mando de la estelarca</FT2_StellarchFlagship.tierLabels.0>
+  <!-- EN: Stellarch&apos;s royal flagship -->
+  <FT2_StellarchFlagship.tierLabels.1>nave insignia real de la estelarca</FT2_StellarchFlagship.tierLabels.1>
+  <!-- EN: Stellarch&apos;s imperial flagship -->
+  <FT2_StellarchFlagship.tierLabels.2>nave insignia imperial de la estelarca</FT2_StellarchFlagship.tierLabels.2>
+  <!-- EN: Stellarch&apos;s flagship -->
+  <FT2_StellarchFlagship.tierLabels.3>nave insignia de la estelarca</FT2_StellarchFlagship.tierLabels.3>
+  <!-- EN: Stellarch&apos;s sovereign flagship -->
+  <FT2_StellarchFlagship.tierLabels.4>nave insignia soberana de la estelarca</FT2_StellarchFlagship.tierLabels.4>
+  <!-- EN: Stellarch&apos;s ascendant flagship -->
+  <FT2_StellarchFlagship.tierLabels.5>nave insignia ascendente de la estelarca</FT2_StellarchFlagship.tierLabels.5>
   <!-- EN: subcore foundry -->
   <FT2_SubcoreFoundry.label>fundición de subnúcleos</FT2_SubcoreFoundry.label>
   <!-- EN: Produces basic, standard and high mechanoid subcores as physical trade goods. Large-scale neural synthesis replaces live scanning. Consumes local metal, industrial components and prosperity; shortages slow production. Higher levels increase output. -->
   <FT2_SubcoreFoundry.description>Produce subnúcleos básicos, estándar y avanzados como bienes físicos de comercio. La síntesis neuronal a gran escala reemplaza el escaneo en vivo. Consume metal local, componentes industriales y prosperidad; la escasez frena la producción. Los niveles más altos aumentan la producción.</FT2_SubcoreFoundry.description>
+  <!-- EN: neural workshop -->
+  <FT2_SubcoreFoundry.tierLabels.0>taller neuronal</FT2_SubcoreFoundry.tierLabels.0>
+  <!-- EN: neural workshop -->
+  <FT2_SubcoreFoundry.tierLabels.1>taller neuronal</FT2_SubcoreFoundry.tierLabels.1>
+  <!-- EN: neural laboratory -->
+  <FT2_SubcoreFoundry.tierLabels.2>laboratorio neuronal</FT2_SubcoreFoundry.tierLabels.2>
+  <!-- EN: subcore foundry -->
+  <FT2_SubcoreFoundry.tierLabels.3>fundición de subnúcleos</FT2_SubcoreFoundry.tierLabels.3>
+  <!-- EN: neural synthesis complex -->
+  <FT2_SubcoreFoundry.tierLabels.4>complejo de síntesis neuronal</FT2_SubcoreFoundry.tierLabels.4>
+  <!-- EN: archotech mind forge -->
+  <FT2_SubcoreFoundry.tierLabels.5>forja mental arqueotéc</FT2_SubcoreFoundry.tierLabels.5>
 </LanguageData>

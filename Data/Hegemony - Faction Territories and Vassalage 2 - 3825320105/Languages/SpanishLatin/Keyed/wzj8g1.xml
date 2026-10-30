@@ -4094,7 +4094,7 @@ Loyal combat power: {2}
   <!-- EN: Cannot deploy while injured:\n- {0}{1} -->
   <Hegemony_Cannot_deploy_while_injured_3AE3E4352D>No se puede desplegar con heridas:\n- {0}{1}</Hegemony_Cannot_deploy_while_injured_3AE3E4352D>
   <!-- EN: Cannot start {0}. Jaeger&apos;s Utility Framework 1.2.0 or later with assistance API 1 and player-work priority is required. Update both mods and restart the game. -->
-  <Hegemony_Cannot_start_Jaeger_s_Utility_ABAF13CA5F>No se puede iniciar {0}. Se requiere Jaeger&apos;s Utility Framework 1.2.0 o posterior, con la API de asistencia 1 y la prioridad del trabajo del jugador. Actualiza los dos mods y reinicia el juego.</Hegemony_Cannot_start_Jaeger_s_Utility_ABAF13CA5F>
+  <Hegemony_Cannot_start_Jaeger_s_Utility_ABAF13CA5F>No se puede iniciar {0}. Se requiere Jaeger's Utility Framework 1.2.0 o posterior, con la API de asistencia 1 y la prioridad del trabajo del jugador. Actualiza los dos mods y reinicia el juego.</Hegemony_Cannot_start_Jaeger_s_Utility_ABAF13CA5F>
   <!-- EN: Capacity at home. Generation is limited to one creature per update and 200 at home to bound map deployment. -->
   <Hegemony_Capacity_at_home_Generation_is_0CEF96C4DC>Capacidad en casa. La generación se limita a una criatura por actualización y a 200 en casa, para acotar el despliegue en el mapa.</Hegemony_Capacity_at_home_Generation_is_0CEF96C4DC>
   <!-- EN: {0} - Capacity per level -->
@@ -5222,7 +5222,7 @@ Loyal combat power: {2}
   <!-- EN: Component production -->
   <Hegemony_Component_production_838FB5A635>Producción de componentes</Hegemony_Component_production_838FB5A635>
   <!-- EN: components/li[@Class=&apos;FactionTerritories2.LegacyImport&apos;] -->
-  <Hegemony_components_li_Class_FactionTerritories_LegacyImport_DFE681E187>components/li[@Class=&apos;FactionTerritories2.LegacyImport&apos;]</Hegemony_components_li_Class_FactionTerritories_LegacyImport_DFE681E187>
+  <Hegemony_components_li_Class_FactionTerritories_LegacyImport_DFE681E187>components/li[@Class='FactionTerritories2.LegacyImport']</Hegemony_components_li_Class_FactionTerritories_LegacyImport_DFE681E187>
   <!-- EN: concat({0}) -->
   <Hegemony_concat_59F1F54266>concat({0})</Hegemony_concat_59F1F54266>
   <!-- EN: {0} concluded -->
@@ -8025,7 +8025,7 @@ Loyal combat power: {2}
   <!-- EN: Hegemony parties consume this multiple of settlement food per human per day. Mechs require no food. Allied territorial feeding reduces carried-food consumption. -->
   <Hegemony_Hegemony_parties_consume_this_multiple_10687FF515>Los grupos de Hegemony consumen este múltiplo de la comida del asentamiento por humano por día. Los mecas no necesitan comida. La alimentación en territorio aliado reduce el consumo de la comida que se lleva.</Hegemony_Hegemony_parties_consume_this_multiple_10687FF515>
   <!-- EN: Hegemony requires Jaeger&apos;s Utility Framework 1.11.4 or later with inline tutorial links, hover-dismiss highlights and player-work priority. Update both mods and restart the game. -->
-  <Hegemony_Hegemony_requires_Jaeger_s_Utility_A4B878E880>Hegemony requiere Jaeger&apos;s Utility Framework 1.11.4 o posterior, con enlaces del tutorial en el texto, resaltados que se descartan al pasar el cursor y prioridad del trabajo del jugador. Actualiza los dos mods y reinicia el juego.</Hegemony_Hegemony_requires_Jaeger_s_Utility_A4B878E880>
+  <Hegemony_Hegemony_requires_Jaeger_s_Utility_A4B878E880>Hegemony requiere Jaeger's Utility Framework 1.11.4 o posterior, con enlaces del tutorial en el texto, resaltados que se descartan al pasar el cursor y prioridad del trabajo del jugador. Actualiza los dos mods y reinicia el juego.</Hegemony_Hegemony_requires_Jaeger_s_Utility_A4B878E880>
   <!-- EN: {0} (Hegemony settlement) -->
   <Hegemony_Hegemony_settlement_00AD759862>{0} (asentamiento de Hegemony)</Hegemony_Hegemony_settlement_00AD759862>
   <!-- EN: Hegemony settlement deliveries are unavailable. -->
@@ -9972,7 +9972,7 @@ Loyal combat power: {2}
   <!-- EN: Moderate invasion pressure during declared objective wars; normal invasion range and troop limits remain. -->
   <Hegemony_Moderate_invasion_pressure_during_declared_881E89A963>Presión de invasión moderada durante las guerras con objetivos declaradas; se mantienen el alcance de invasión y los límites de tropas normales.</Hegemony_Moderate_invasion_pressure_during_declared_881E89A963>
   <!-- EN: {0}/modExtensions/li[@Class=&apos;FactionTerritories2.SiteEffectOverrideExtension&apos;] -->
-  <Hegemony_modExtensions_li_Class_FactionTerritories_SiteEffectOverrideExtension_1C65C17A66>{0}/modExtensions/li[@Class=&apos;FactionTerritories2.SiteEffectOverrideExtension&apos;]</Hegemony_modExtensions_li_Class_FactionTerritories_SiteEffectOverrideExtension_1C65C17A66>
+  <Hegemony_modExtensions_li_Class_FactionTerritories_SiteEffectOverrideExtension_1C65C17A66>{0}/modExtensions/li[@Class='FactionTerritories2.SiteEffectOverrideExtension']</Hegemony_modExtensions_li_Class_FactionTerritories_SiteEffectOverrideExtension_1C65C17A66>
   <!-- EN: Monolith -->
   <Hegemony_Monolith_5CBBDE53AB>Monolito</Hegemony_Monolith_5CBBDE53AB>
   <!-- EN: Monoliths bank global anomaly knowledge when Anomaly is active.\n- Apply it to an eligible selected anomaly project.\n- Ordinary research and anomaly research have different RimWorld requirements. -->
@@ -10856,7 +10856,7 @@ Loyal combat power: {2}
   <!-- EN: Nutrition per Hegemony food unit, default 1; adjustable from 0.1 to 10.\n- The same rate converts food both ways and is fixed at departure. Changing it cannot resize paid cargo.\n- Actual pool intake or withdrawal determines food spent or collected. Source reserves and separate escort provisions apply. Verbose logs show nutrition, food units, rate and returning cargo. -->
   <Hegemony_Nutrition_per_Hegemony_food_unit_CC85F31828>Nutrición por unidad de comida de Hegemony, por defecto 1; ajustable de 0,1 a 10.\n- La misma tasa convierte la comida en las dos direcciones y queda fija al partir. Cambiarla no puede cambiar el tamaño de la carga pagada.\n- La entrada o el retiro real de la reserva decide la comida gastada o recogida. Se aplican las reservas del origen y las provisiones aparte de las escoltas. Los registros detallados muestran la nutrición, las unidades de comida, la tasa y la carga que vuelve.</Hegemony_Nutrition_per_Hegemony_food_unit_CC85F31828>
   <!-- EN: {0} Object type={1}; ID={2}; name=&apos;{3}&apos;; tile=&apos;{4}&apos;{5}; saved faction records={6}; identifiable saved player factions={7}; faction examples (maximum8)=[{8}]. -->
-  <Hegemony_Object_type_ID_name_tile_AE18442495>{0} Tipo de objeto={1}; ID={2}; nombre=&apos;{3}&apos;; celda=&apos;{4}&apos;{5}; registros de facciones guardados={6}; facciones del jugador guardadas identificables={7}; ejemplos de facciones (máximo 8)=[{8}].</Hegemony_Object_type_ID_name_tile_AE18442495>
+  <Hegemony_Object_type_ID_name_tile_AE18442495>{0} Tipo de objeto={1}; ID={2}; nombre='{3}'; celda='{4}'{5}; registros de facciones guardados={6}; facciones del jugador guardadas identificables={7}; ejemplos de facciones (máximo 8)=[{8}].</Hegemony_Object_type_ID_name_tile_AE18442495>
   <!-- EN: Objective: {0} -->
   <Hegemony_Objective_442745EFCF>Objetivo: {0}</Hegemony_Objective_442745EFCF>
   <!-- EN: Objective wars end when their goal is met, peace is accepted or this limit is reached. Native permanent hostility can remain afterwards. -->
@@ -14246,7 +14246,7 @@ Select this settlement to view its Overview, People, Buildings, Deliveries and R
   <!-- EN: Set up a biolab -->
   <Hegemony_Set_up_a_biolab_6CFC9D17A4>Montar un biolaboratorio</Hegemony_Set_up_a_biolab_6CFC9D17A4>
   <!-- EN: Settings unavailable. Check Jaeger&apos;s Utility Framework and the error log. -->
-  <Hegemony_Settings_unavailable_Check_Jaeger_s_CF8D63FB24>La configuración no está disponible. Revisa Jaeger&apos;s Utility Framework y el registro de errores.</Hegemony_Settings_unavailable_Check_Jaeger_s_CF8D63FB24>
+  <Hegemony_Settings_unavailable_Check_Jaeger_s_CF8D63FB24>La configuración no está disponible. Revisa Jaeger's Utility Framework y el registro de errores.</Hegemony_Settings_unavailable_Check_Jaeger_s_CF8D63FB24>
   <!-- EN: Settlement {0} -->
   <Hegemony_Settlement_3CD6FA725E>Asentamiento {0}</Hegemony_Settlement_3CD6FA725E>
   <!-- EN: Settlement -->
@@ -18047,7 +18047,7 @@ Select this settlement to view its Overview, People, Buildings, Deliveries and R
   <!-- EN: World commands use distinct artwork for management, people, supplies, settlers and military actions.\n- Travelling armies, settlers and caravans have separate markers.\n- Source and target buttons use selection brackets.\n- Hover a command for its action and any missing requirement. -->
   <Hegemony_World_commands_use_distinct_artwork_8B7853E7F2>Las órdenes del mundo usan ilustraciones distintas para la gestión, las personas, los suministros, los colonos y las acciones militares.\n- Los ejércitos, colonos y caravanas en viaje tienen marcadores distintos.\n- Los botones de origen y objetivo usan corchetes de selección.\n- Pasa el cursor sobre una orden para ver su acción y cualquier requisito que falte.</Hegemony_World_commands_use_distinct_artwork_8B7853E7F2>
   <!-- EN: world/components/li[@Class=&apos;FactionTerritories2.Component&apos;] -->
-  <Hegemony_world_components_li_Class_FactionTerritories_F2305CFD30>world/components/li[@Class=&apos;FactionTerritories2.Component&apos;]</Hegemony_world_components_li_Class_FactionTerritories_F2305CFD30>
+  <Hegemony_world_components_li_Class_FactionTerritories_F2305CFD30>world/components/li[@Class='FactionTerritories2.Component']</Hegemony_world_components_li_Class_FactionTerritories_F2305CFD30>
   <!-- EN: World Domination 2 -->
   <Hegemony_World_Domination_DC41A362E9>World Domination 2</Hegemony_World_Domination_DC41A362E9>
   <!-- EN: World Domination 2 outpost territory -->
@@ -18090,7 +18090,7 @@ Select this settlement to view its Overview, People, Buildings, Deliveries and R
   <!-- EN: World tutorial -->
   <Hegemony_World_tutorial_F4CECB0115>Tutorial del mundo</Hegemony_World_tutorial_F4CECB0115>
   <!-- EN: world/worldObjects/worldObjects/li[ID=&apos;{0}&apos;] -->
-  <Hegemony_world_worldObjects_worldObjects_li_ID_F82ACF1AFB>world/worldObjects/worldObjects/li[ID=&apos;{0}&apos;]</Hegemony_world_worldObjects_worldObjects_li_ID_F82ACF1AFB>
+  <Hegemony_world_worldObjects_worldObjects_li_ID_F82ACF1AFB>world/worldObjects/worldObjects/li[ID='{0}']</Hegemony_world_worldObjects_worldObjects_li_ID_F82ACF1AFB>
   <!-- EN: Would you like to turn off vanilla raids?
 
 - Turn them off to face Hegemony&apos;s travelling invasion forces instead.
