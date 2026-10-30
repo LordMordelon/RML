@@ -47,7 +47,7 @@ Ingles.tsv                      GENERADO solo en output/, sin commitear — el i
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
 03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego. Con
                                 LoadFoldersBuilder -nota copia la nota de cambios para la página del Workshop
-                                (NotaDeSteam.cs): los mods nuevos de cada día desde la última subida, en hora de Chile
+                                (NotaDeSteam.cs): «Añadidos:» y los mods nuevos desde la última subida
 nota-de-steam.txt               GENERADO por el 03, sin commitear — esa misma nota
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
