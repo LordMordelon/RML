@@ -353,8 +353,8 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
   Los planes que ya usan la tabla: «Decisiones de Angel» de
   [PLAN-DMS-II.md](Data/!AobaKuma/The%20Dead%20Man's%20Switch%20-%203819799478/PLAN-DMS-II.md),
   [PLAN-HEGEMONY.md](Data/Hegemony%20-%20Faction%20Territories%20and%20Vassalage%202%20-%203825320105/PLAN-HEGEMONY.md)
-  (en pausa desde el 25-oct-2026: el autor todavía no le da soporte de traducción a la ventana del
-  mod) y [PLAN-AOBAKUMA.md](Data/!AobaKuma/PLAN-AOBAKUMA.md).
+  (terminado el 30-oct-2026, con la ventana del mod, cuando el autor le dio soporte de traducción)
+  y [PLAN-AOBAKUMA.md](Data/!AobaKuma/PLAN-AOBAKUMA.md).
 
   Esto vale para el **contenido**. Las operaciones estructurales —reextraer, actualizar
   por lotes, regenerar el índice— las hace el extractor, no una edición a mano.
