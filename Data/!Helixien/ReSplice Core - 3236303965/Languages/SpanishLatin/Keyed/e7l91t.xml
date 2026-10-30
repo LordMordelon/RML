@@ -78,8 +78,8 @@
   <RS.TargetArchiteCapsuleLevel>Cantidad objetivo de cápsulas de arquitas: {0}</RS.TargetArchiteCapsuleLevel>
   <!-- EN: Infuse voidspike -->
   <RS.InfuseDarkArchite>Infundir espina del vacío</RS.InfuseDarkArchite>
-  <!-- EN: Infusing a voidspike will put {PAWN_nameDef} in a short coma as the spike&apos;s gene integrates itself. On average, this lasts for {COMADURATION}. -->
-  <RS.InfuseDarkArchiteWarningDesc>Infundir una espina del vacío pondrá a {PAWN_nameDef} en un coma breve mientras el gen de la espina se integra. En promedio, esto dura {COMADURATION}.</RS.InfuseDarkArchiteWarningDesc>
+  <!-- EN: Infusing this voidspike will put {PAWN_nameDef} into a coma while its dark archite gene integrates. The coma lasts one to three days, depending on the quality of the surgery. -->
+  <RS.InfuseDarkArchiteWarningDesc>Infundir esta espina del vacío pondrá a {PAWN_nameDef} en coma mientras su gen de arquita oscura se integra. El coma dura de uno a tres días, según la calidad de la cirugía.</RS.InfuseDarkArchiteWarningDesc>
   <!-- EN: After infusion, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <RS.InfuseDarkArchiteWarningNewMetabolism>Tras la infusión, {PAWN_nameDef} tendrá un valor de metabolismo de {MET} y un multiplicador de consumo de comida de {CONSUMPTION}.</RS.InfuseDarkArchiteWarningNewMetabolism>
   <!-- EN: Voidspike infusion ordered -->
@@ -90,6 +90,8 @@
   <RS.OrderInfusionIntoPawn>Ordenar infusión en {PAWN_nameDef}</RS.OrderInfusionIntoPawn>
   <!-- EN: Infuse this into a person to introduce a dark archite gene into their genetic code.\n\nThis is a surgical operation, so it requires a doctor and medical bed. -->
   <RS.InfuseDarkArchiteDesc>Infundir esto en una persona para introducir un gen de arquita oscura en su código genético.\n\nEsta es una operación quirúrgica, por lo que requiere un médico y una cama médica.</RS.InfuseDarkArchiteDesc>
+  <!-- EN: No suitable recipients available for voidspike infusion. -->
+  <NoInfuseablePawns>No hay receptores adecuados para infundir la espina del vacío.</NoInfuseablePawns>
   <!-- EN: Cancel infusion -->
   <RS.CancelInfusion>Cancelar infusión</RS.CancelInfusion>
   <!-- EN: Cancel infusing this voidspike into {PAWN_nameDef}. -->
