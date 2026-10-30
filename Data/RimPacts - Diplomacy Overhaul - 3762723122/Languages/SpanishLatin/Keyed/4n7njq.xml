@@ -862,7 +862,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Factions toward the Great Road: {0}/{1} -->
   <Rpt_TX_Net_NotGreat>Facciones hacia el Gran Camino: {0}/{1}</Rpt_TX_Net_NotGreat>
   <!-- EN: Counts other factions&apos; settlements reachable from our settlements (or from the trade hub, if we hold it) by traveling only on roads. Both world-generated roads and roads we built count; settlements of factions hostile to us cannot be passed through. Embargoed factions are not counted.\n\n· Each settlement: all trade route income +{0}% (up to +{1}%)\n· {2} settlements: route slots +1; {3}: +2\n· {4} or more factions connected opens the Great Road\n· Road-connected settlements get a route distance limit of {5} tiles, income by road level, and fewer incidents -->
-  <Rpt_TX_Net_Tip>Cuenta los asentamientos de otras facciones a los que se llega desde los nuestros (o desde el centro de comercio, si lo tenemos) viajando solo por caminos. Cuentan tanto los caminos que generó el mundo como los que construimos; no se puede pasar por asentamientos de facciones hostiles. Las facciones con embargo no se cuentan.\n\n- Cada asentamiento: ingresos de todas las rutas comerciales +{0}% (hasta +{1}%)\n- {2} asentamientos: espacios para rutas +1; {3}: +2\n- Con {4} facciones conectadas o más se abre el Gran Camino\n- Los asentamientos conectados por camino tienen un límite de distancia de ruta de {5} casillas, ingresos según el nivel del camino y menos incidentes</Rpt_TX_Net_Tip>
+  <Rpt_TX_Net_Tip>Cuenta los asentamientos de otras facciones a los que se llega desde los nuestros (o desde el centro de comercio, si lo tenemos) viajando solo por caminos. Cuentan tanto los caminos que generó el mundo como los que construimos; no se puede pasar por asentamientos de facciones hostiles. Las facciones con embargo no se cuentan.\n\n- Cada asentamiento: ingresos de todas las rutas comerciales +{0}% (hasta +{1}%)\n- {2} asentamientos: espacios para rutas +1; {3}: +2\n- Con {4} facciones conectadas o más se abre el Gran Camino\n- Los asentamientos conectados por camino tienen un límite de distancia de ruta de {5} celdas, ingresos según el nivel del camino y menos incidentes</Rpt_TX_Net_Tip>
   <!-- EN: Grand caravan visits this year: {0}/{1} -->
   <Rpt_TX_Grand_Year>Visitas de grandes caravanas este año: {0}/{1}</Rpt_TX_Grand_Year>
   <!-- EN: A grand caravan is on its way: {0} -->
@@ -1148,7 +1148,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Building ({0} days) -->
   <Rpt_TX_Road_Work>En construcción ({0} días)</Rpt_TX_Road_Work>
   <!-- EN: Lay a {0} from our settlement to this one. Clicking measures the path and shows the cost and construction time in a confirmation.\n\nOnce connected by road: this route&apos;s income x{1} · incidents -{2}% · route distance limit {3} tiles -->
-  <Rpt_TX_Road_BuildTip>Tiende un {0} desde nuestro asentamiento hasta este. Al hacer clic, se mide el trayecto y se muestran el costo y el tiempo de construcción en una confirmación.\n\nUna vez conectados por camino: ingresos de esta ruta x{1} · incidentes -{2}% · límite de distancia de la ruta {3} casillas</Rpt_TX_Road_BuildTip>
+  <Rpt_TX_Road_BuildTip>Tiende un {0} desde nuestro asentamiento hasta este. Al hacer clic, se mide el trayecto y se muestran el costo y el tiempo de construcción en una confirmación.\n\nUna vez conectados por camino: ingresos de esta ruta x{1} · incidentes -{2}% · límite de distancia de la ruta {3} celdas</Rpt_TX_Road_BuildTip>
   <!-- EN: Roads cannot be built to settlements of hostile factions. -->
   <Rpt_TX_Road_Hostile>No se pueden construir caminos hacia asentamientos de facciones hostiles.</Rpt_TX_Road_Hostile>
   <!-- EN: Once the trading company reaches Lv.{0}, you can open smuggling routes to factions at war with us (except permanent enemies) without a trade agreement. -->
@@ -1218,7 +1218,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Road: {0} -->
   <Rpt_TX_Dt_Road>Camino: {0}</Rpt_TX_Dt_Road>
   <!-- EN: Once connected: income ×{0} · incidents -{1}% · distance limit {2} tiles -->
-  <Rpt_TX_Dt_RoadEff>Una vez conectado: ingresos ×{0} · incidentes -{1}% · límite de distancia {2} casillas</Rpt_TX_Dt_RoadEff>
+  <Rpt_TX_Dt_RoadEff>Una vez conectado: ingresos ×{0} · incidentes -{1}% · límite de distancia {2} celdas</Rpt_TX_Dt_RoadEff>
   <!-- EN: Upgrade this route&apos;s road to {0}. Clicking measures the path and shows the cost and construction time in a confirmation.\n\nOnce finished: this route&apos;s income x{1} (now x{2}) -->
   <Rpt_TX_Road_UpTip>Mejora el camino de esta ruta a {0}. Al hacer clic, se mide el trayecto y se muestran el costo y el tiempo de construcción en una confirmación.\n\nUna vez terminado: ingresos de esta ruta x{1} (ahora x{2})</Rpt_TX_Road_UpTip>
   <!-- EN: Once finished: income ×{0} (now ×{1}) -->
@@ -1348,7 +1348,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: · {0} — not connected by land -->
   <Rpt_RD_LandFarNoLand>- {0}: no está conectado por tierra</Rpt_RD_LandFarNoLand>
   <!-- EN: · {0} — {1} other settlement(s) in between (nearest settlement {2} tiles away) -->
-  <Rpt_RD_LandFarBetween>- {0}: {1} asentamiento(s) de por medio (el más cercano a {2} casillas)</Rpt_RD_LandFarBetween>
+  <Rpt_RD_LandFarBetween>- {0}: {1} asentamiento(s) de por medio (el más cercano a {2} celdas)</Rpt_RD_LandFarBetween>
   <!-- EN: In &quot;Strategy mode&quot;, the client state&apos;s &quot;Order attack&quot; is free only along a connected front line. Without one, offensives reach only the {0} nearest settlements of that faction. -->
   <Rpt_RD_LandFarTail>En el «Modo estrategia», la «Orden de ataque» del estado cliente solo es libre a lo largo de una línea de frente conectada. Sin ella, las ofensivas solo llegan a los {0} asentamientos más cercanos de esa facción.</Rpt_RD_LandFarTail>
   <!-- EN: {0} days — {1} silver · goodwill +{2} · trust +{3} -->
@@ -1736,7 +1736,7 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <!-- EN: Adjusts how often trade routes with warring factions lose their quarterly income. -->
   <Rpt_Set_RouteRiskTip>Ajusta cada cuánto las rutas comerciales con facciones en guerra pierden su ingreso del cuadrun.</Rpt_Set_RouteRiskTip>
   <!-- EN: Max road order distance: {0} tiles -->
-  <Rpt_Set_RoadMaxTiles>Distancia máxima para encargar un camino: {0} casillas</Rpt_Set_RoadMaxTiles>
+  <Rpt_Set_RoadMaxTiles>Distancia máxima para encargar un camino: {0} celdas</Rpt_Set_RoadMaxTiles>
   <!-- EN: The farthest a settlement can be for you to order a road from the Trade tab. Raising it lets you reach distant settlements, but cost and construction time grow to match. -->
   <Rpt_Set_RoadMaxTilesTip>Lo más lejos que puede estar un asentamiento para encargar un camino desde la pestaña Comercio. Subirlo te deja llegar a asentamientos lejanos, pero el costo y el tiempo de construcción crecen en proporción.</Rpt_Set_RoadMaxTilesTip>
   <!-- EN: Vanilla Trading Expanded detected — &quot;Faction market prices&quot; is automatically disabled to avoid conflicting price systems. -->
@@ -1926,7 +1926,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Show faction territory on the world map -->
   <Rpt_Set_RegionOverlay>Mostrar el territorio de las facciones en el mapa del mundo</Rpt_Set_RegionOverlay>
   <!-- EN: Paints each tile in the color of the faction whose settlement is closest by travel cost. -->
-  <Rpt_Set_RegionOverlayTip>Pinta cada casilla del color de la facción cuyo asentamiento queda más cerca por costo de viaje.</Rpt_Set_RegionOverlayTip>
+  <Rpt_Set_RegionOverlayTip>Pinta cada celda del color de la facción cuyo asentamiento queda más cerca por costo de viaje.</Rpt_Set_RegionOverlayTip>
   <!-- EN: {0} is already drawing territory. Turn its territory overlay off to use this instead. -->
   <Rpt_Set_RegionOverlayRival>{0} ya dibuja territorios. Desactiva su capa de territorio para usar esta.</Rpt_Set_RegionOverlayRival>
   <!-- EN: Always enabled in &quot;Strategy mode&quot;, because its rules use faction territory. -->
@@ -2280,7 +2280,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Requires a trade agreement. -->
   <Rpt_TT_NeedTradeTreaty>Hace falta un acuerdo comercial.</Rpt_TT_NeedTradeTreaty>
   <!-- EN: Too far. (distance {0} / max {1} tiles) -->
-  <Rpt_TT_TooFar>Demasiado lejos. (distancia {0} / máximo {1} casillas)</Rpt_TT_TooFar>
+  <Rpt_TT_TooFar>Demasiado lejos. (distancia {0} / máximo {1} celdas)</Rpt_TT_TooFar>
   <!-- EN: All route slots are in use. (upgrade the company) -->
   <Rpt_TT_NoSlots>Todos los espacios para rutas están ocupados. (mejora la compañía)</Rpt_TT_NoSlots>
   <!-- EN: Trade route income: {1} silver arrived from {0}. -->
@@ -2450,7 +2450,7 @@ This opportunity closes in {2} day(s). -->
   <!-- EN: Connected road: {0} -->
   <Rpt_TT_RoadTier>Camino que los une: {0}</Rpt_TT_RoadTier>
   <!-- EN: No path, or too far. (max {0} tiles) -->
-  <Rpt_TT_NoPath>No hay paso, o está demasiado lejos. (máximo {0} casillas)</Rpt_TT_NoPath>
+  <Rpt_TT_NoPath>No hay paso, o está demasiado lejos. (máximo {0} celdas)</Rpt_TT_NoPath>
   <!-- EN: Road opened: {0} -->
   <Rpt_LetterRoadDoneLabel>Camino abierto: {0}</Rpt_LetterRoadDoneLabel>
   <!-- EN: The {1} to {0}&apos;s settlement is open. Caravans can travel quickly. -->
@@ -3104,7 +3104,7 @@ The world keeps turning. What you do with it is entirely up to you. -->
   <!-- EN: {0} repelled an attack by {1} at {2}. -->
   <Rpt_Chron_Repelled>{0} rechazó un ataque de {1} en {2}.</Rpt_Chron_Repelled>
   <!-- EN: Offensive alert radius: {0} tiles -->
-  <Rpt_Set_ConquestNotify>Radio de aviso de ofensivas: {0} casillas</Rpt_Set_ConquestNotify>
+  <Rpt_Set_ConquestNotify>Radio de aviso de ofensivas: {0} celdas</Rpt_Set_ConquestNotify>
   <!-- EN: Alerts you to offensives within this distance of your settlements. At 0 you are only told about wars you have taken a side in. -->
   <Rpt_Set_ConquestNotifyTip>Te avisa de las ofensivas a esta distancia de tus asentamientos o menos. En 0, solo te avisan de las guerras en las que tomaste partido.</Rpt_Set_ConquestNotifyTip>
   <!-- EN: Offensive imminent: {0} -->
@@ -4028,9 +4028,9 @@ The tier can be raised again. -->
   <!-- EN: How often other factions declare war on you. At 0, none do. -->
   <Rpt_Set_NpcDeclareFactorTip>Cada cuánto te declaran la guerra otras facciones. En 0, nunca.</Rpt_Set_NpcDeclareFactorTip>
   <!-- EN: Client state placement range: {0}-{1} tiles -->
-  <Rpt_Set_PuppetMaxTiles>Distancia para ubicar un estado cliente: {0}-{1} casillas</Rpt_Set_PuppetMaxTiles>
+  <Rpt_Set_PuppetMaxTiles>Distancia para ubicar un estado cliente: {0}-{1} celdas</Rpt_Set_PuppetMaxTiles>
   <!-- EN: The farthest a client state town can be placed from the reference settlement (minimum {0} tiles). -->
-  <Rpt_Set_PuppetMaxTilesTip>Lo más lejos que se puede ubicar el pueblo de un estado cliente respecto del asentamiento de referencia (mínimo {0} casillas).</Rpt_Set_PuppetMaxTilesTip>
+  <Rpt_Set_PuppetMaxTilesTip>Lo más lejos que se puede ubicar el pueblo de un estado cliente respecto del asentamiento de referencia (mínimo {0} celdas).</Rpt_Set_PuppetMaxTilesTip>
   <!-- EN: Operation duration x{0} -->
   <Rpt_Set_OpDaysFactor>Duración de las operaciones x{0}</Rpt_Set_OpDaysFactor>
   <!-- EN: Multiplier on the days envoys, assassination and sabotage preparation, missionary work, spy infiltration and spy operations take. -->
@@ -6079,7 +6079,7 @@ Cost: {3} silver. Trust with both rises each quarter it holds, but trust gained 
   <!-- EN: Found client state ({0} silver) -->
   <Rpt_Puppet_FoundBtn>Fundar un estado cliente ({0} de plata)</Rpt_Puppet_FoundBtn>
   <!-- EN: Founded on empty ground {0} to {1} tiles from a settlement of yours. -->
-  <Rpt_Puppet_FoundHint>Se funda en terreno vacío, a entre {0} y {1} casillas de uno de tus asentamientos.</Rpt_Puppet_FoundHint>
+  <Rpt_Puppet_FoundHint>Se funda en terreno vacío, a entre {0} y {1} celdas de uno de tus asentamientos.</Rpt_Puppet_FoundHint>
   <!-- EN: Requires the research &quot;client statecraft&quot;. -->
   <Rpt_Puppet_NeedResearch>Requiere la investigación «gobierno de estados clientes».</Rpt_Puppet_NeedResearch>
   <!-- EN: &quot;Faction dynamics&quot; is disabled. -->
@@ -6093,15 +6093,15 @@ Cost: {3} silver. Trust with both rises each quarter it holds, but trust gained 
   <!-- EN: Must be on the same surface as the reference settlement. -->
   <Rpt_Puppet_TileLayer>Tiene que estar en la misma superficie que el asentamiento de referencia.</Rpt_Puppet_TileLayer>
   <!-- EN: Too close. Must be at least {0} tiles away (now {1}). -->
-  <Rpt_Puppet_TileTooClose>Demasiado cerca. Tiene que estar a {0} casillas como mínimo (ahora, {1}).</Rpt_Puppet_TileTooClose>
+  <Rpt_Puppet_TileTooClose>Demasiado cerca. Tiene que estar a {0} celdas como mínimo (ahora, {1}).</Rpt_Puppet_TileTooClose>
   <!-- EN: Too far. Must be within {0} tiles (now {1}). -->
-  <Rpt_Puppet_TileTooFar>Demasiado lejos. Tiene que estar a {0} casillas como máximo (ahora, {1}).</Rpt_Puppet_TileTooFar>
+  <Rpt_Puppet_TileTooFar>Demasiado lejos. Tiene que estar a {0} celdas como máximo (ahora, {1}).</Rpt_Puppet_TileTooFar>
   <!-- EN: Found here ({0} tiles) -->
-  <Rpt_Puppet_TileOk>Fundar acá ({0} casillas)</Rpt_Puppet_TileOk>
+  <Rpt_Puppet_TileOk>Fundar acá ({0} celdas)</Rpt_Puppet_TileOk>
   <!-- EN: {0} tiles - {1} -->
-  <Rpt_Puppet_TileNo>{0} casillas: {1}</Rpt_Puppet_TileNo>
+  <Rpt_Puppet_TileNo>{0} celdas: {1}</Rpt_Puppet_TileNo>
   <!-- EN: Found a client state {1} tiles from {0}.\n\nOnce founded, you cannot dissolve it. The only way it can end is another faction destroying it in war. -->
-  <Rpt_Puppet_FoundConfirm>Fundar un estado cliente a {1} casillas de {0}.\n\nUna vez fundado, no lo puedes disolver. Solo puede terminar si otra facción lo destruye en una guerra.</Rpt_Puppet_FoundConfirm>
+  <Rpt_Puppet_FoundConfirm>Fundar un estado cliente a {1} celdas de {0}.\n\nUna vez fundado, no lo puedes disolver. Solo puede terminar si otra facción lo destruye en una guerra.</Rpt_Puppet_FoundConfirm>
   <!-- EN: Founding cost: {0} silver (you have {1}) -->
   <Rpt_Puppet_FoundCost>Costo de fundación: {0} de plata (tienes {1})</Rpt_Puppet_FoundCost>
   <!-- EN: {0} - {1} settlements -->
@@ -6309,7 +6309,7 @@ For the first {2} days they cannot be recalled. After that, recall them and you 
   <!-- EN: Found a town -->
   <Rpt_Puppet_FoundStart>Fundar un pueblo</Rpt_Puppet_FoundStart>
   <!-- EN: Must be {0}-{1} tiles from a town of the client state. -->
-  <Rpt_Puppet_FoundTileRange>Tiene que estar a entre {0} y {1} casillas de un pueblo del estado cliente.</Rpt_Puppet_FoundTileRange>
+  <Rpt_Puppet_FoundTileRange>Tiene que estar a entre {0} y {1} celdas de un pueblo del estado cliente.</Rpt_Puppet_FoundTileRange>
   <!-- EN: Found here -->
   <Rpt_Puppet_FoundTileOk>Fundar acá</Rpt_Puppet_FoundTileOk>
   <!-- EN: Found a new town for {0} here.\n\nOne settler is spent; founding rights for this era become {1}/{2}. -->
@@ -6469,13 +6469,13 @@ The next request will be available in {0} days. -->
   <!-- EN: Your client state is not at war with this faction. -->
   <Rpt_Giz_PuppetAttackNoWar>Tu estado cliente no está en guerra con esta facción.</Rpt_Giz_PuppetAttackNoWar>
   <!-- EN: Too far from your client state. Pirate bases must be within {0} tiles (nearest {1}). -->
-  <Rpt_Giz_PuppetAttackPirateFar>Está demasiado lejos de tu estado cliente. Las bases piratas tienen que estar a {0} casillas o menos (la más cercana está a {1}).</Rpt_Giz_PuppetAttackPirateFar>
+  <Rpt_Giz_PuppetAttackPirateFar>Está demasiado lejos de tu estado cliente. Las bases piratas tienen que estar a {0} celdas o menos (la más cercana está a {1}).</Rpt_Giz_PuppetAttackPirateFar>
   <!-- EN: Not adjacent. {0} other settlements lie between (limit {1}). -->
   <Rpt_Giz_PuppetAttackBlocked>No es limítrofe: hay {0} asentamientos más en el medio (el límite es {1}).</Rpt_Giz_PuppetAttackBlocked>
   <!-- EN: Too far. Must be within {0} tiles (nearest {1}). -->
-  <Rpt_Giz_PuppetAttackTooFar>Demasiado lejos. Tiene que estar a {0} casillas o menos (el más cercano está a {1}).</Rpt_Giz_PuppetAttackTooFar>
+  <Rpt_Giz_PuppetAttackTooFar>Demasiado lejos. Tiene que estar a {0} celdas o menos (el más cercano está a {1}).</Rpt_Giz_PuppetAttackTooFar>
   <!-- EN: Away from your borders. The target must lie within {0} tiles of your territory. -->
-  <Rpt_Giz_PuppetAttackFarBorder>Queda lejos de tus fronteras. El objetivo tiene que estar a {0} casillas o menos de tu territorio.</Rpt_Giz_PuppetAttackFarBorder>
+  <Rpt_Giz_PuppetAttackFarBorder>Queda lejos de tus fronteras. El objetivo tiene que estar a {0} celdas o menos de tu territorio.</Rpt_Giz_PuppetAttackFarBorder>
   <!-- EN: Only cities of a faction sharing a border can be designated. -->
   <Rpt_Giz_PuppetAttackNotBorder>Solo se pueden marcar ciudades de una facción con la que compartes frontera.</Rpt_Giz_PuppetAttackNotBorder>
   <!-- EN: Another faction’s territory lies in between. The path to the target must not cross a third party’s land. -->
@@ -6771,7 +6771,7 @@ The next request will be available in {0} days. -->
   <!-- EN: You have no client state, so you cannot take settlements. When the conference ends, the rest is shared among the victors. -->
   <Rpt_WW_Peace_NoBuyer>No tienes estado cliente, así que no puedes quedarte con asentamientos. Cuando termine la conferencia, los vencedores se reparten el resto.</Rpt_WW_Peace_NoBuyer>
   <!-- EN: owner {0} - occupied by {1} - {2} tiles from your land -->
-  <Rpt_WW_Peace_LotInfo>dueño: {0} · ocupado por {1} · a {2} casillas de tus tierras</Rpt_WW_Peace_LotInfo>
+  <Rpt_WW_Peace_LotInfo>dueño: {0} · ocupado por {1} · a {2} celdas de tus tierras</Rpt_WW_Peace_LotInfo>
   <!-- EN: Defeated - {0} ({1} factions to be dissolved) -->
   <Rpt_WW_Peace_Defeated>Derrotados: {0} ({1} facciones se van a disolver)</Rpt_WW_Peace_Defeated>
   <!-- EN: Conference log ({0}) -->
