@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry-&gt;[conversed]. -->
+  <!-- EN: r_logentry(p=0.2)-&gt;[conversed], [result]. -->
+  <!-- EN: r_logentry(p=0.1)-&gt;[neutral_conversed], [emotional_result]. -->
+  <!-- EN: conversed-&gt;[INITIATOR_nameDef] had [conversation] with [RECIPIENT_nameDef] about {0} -->
+  <!-- EN: conversed-&gt;[INITIATOR_nameDef] [talkedabout] {0} with [RECIPIENT_nameDef] -->
+  <!-- EN: neutral_conversed-&gt;[INITIATOR_nameDef] [neutral_talkedabout] {0} with [RECIPIENT_nameDef] -->
+  <!-- EN: neutral_talkedabout-&gt;shared thoughts on -->
+  <!-- EN: neutral_talkedabout-&gt;exchanged views on -->
+  <RPC_ConversationUtility.rulePack.rulesStrings>
+    <li>r_logentry-&gt;[conversed].</li>
+    <li>r_logentry(p=0.2)-&gt;[conversed], [result].</li>
+    <li>r_logentry(p=0.1)-&gt;[neutral_conversed], [emotional_result].</li>
+    <li>conversed-&gt;[INITIATOR_nameDef] tuvo [conversation] con [RECIPIENT_nameDef] sobre {0}</li>
+    <li>conversed-&gt;[INITIATOR_nameDef] [talkedabout] {0} con [RECIPIENT_nameDef]</li>
+    <li>neutral_conversed-&gt;[INITIATOR_nameDef] [neutral_talkedabout] {0} con [RECIPIENT_nameDef]</li>
+    <li>neutral_talkedabout-&gt;compartió ideas sobre</li>
+    <li>neutral_talkedabout-&gt;intercambió puntos de vista sobre</li>
+  </RPC_ConversationUtility.rulePack.rulesStrings>
+</LanguageData>
