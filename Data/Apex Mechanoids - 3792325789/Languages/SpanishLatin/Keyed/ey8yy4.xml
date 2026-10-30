@@ -13,21 +13,21 @@
   <!-- EN: Unload preserved food -->
   <APM.FrostivusFoodPreservation.ManualUnload.Label>Descargar comida conservada</APM.FrostivusFoodPreservation.ManualUnload.Label>
   <!-- EN: Choose a cell where Frostivus should unload all preserved food. Manually unloaded food will be forbidden. -->
-  <APM.FrostivusFoodPreservation.ManualUnload.Desc>Elige una casilla donde el frostivus deba descargar toda la comida conservada. La comida descargada manualmente quedará prohibida.</APM.FrostivusFoodPreservation.ManualUnload.Desc>
+  <APM.FrostivusFoodPreservation.ManualUnload.Desc>Elige una celda donde el frostivus deba descargar toda la comida conservada. La comida descargada manualmente quedará prohibida.</APM.FrostivusFoodPreservation.ManualUnload.Desc>
   <!-- EN: No preserved food carried. -->
   <APM.FrostivusFoodPreservation.ManualUnload.NoFood>No lleva comida conservada.</APM.FrostivusFoodPreservation.ManualUnload.NoFood>
   <!-- EN: Frostivus cannot reach that cell. -->
-  <APM.FrostivusFoodPreservation.ManualUnload.NoPath>El frostivus no puede llegar a esa casilla.</APM.FrostivusFoodPreservation.ManualUnload.NoPath>
+  <APM.FrostivusFoodPreservation.ManualUnload.NoPath>El frostivus no puede llegar a esa celda.</APM.FrostivusFoodPreservation.ManualUnload.NoPath>
   <!-- EN: Frostivus cannot use preservation commands right now. -->
   <APM.FrostivusFoodPreservation.CommandUnavailable>El frostivus no puede usar los comandos de conservación en este momento.</APM.FrostivusFoodPreservation.CommandUnavailable>
   <!-- EN: Release from cryo-chamber -->
   <APM.FrostivusFoodPreservation.ReleaseDevoured.Label>Liberar de la cámara criogénica</APM.FrostivusFoodPreservation.ReleaseDevoured.Label>
   <!-- EN: Choose a cell where Frostivus should release devoured pawns or corpses. -->
-  <APM.FrostivusFoodPreservation.ReleaseDevoured.Desc>Elige una casilla donde el frostivus deba liberar a los individuos devorados o sus cadáveres.</APM.FrostivusFoodPreservation.ReleaseDevoured.Desc>
+  <APM.FrostivusFoodPreservation.ReleaseDevoured.Desc>Elige una celda donde el frostivus deba liberar a los individuos devorados o sus cadáveres.</APM.FrostivusFoodPreservation.ReleaseDevoured.Desc>
   <!-- EN: No devoured pawn or corpse inside. -->
   <APM.FrostivusFoodPreservation.ReleaseDevoured.NoContents>No hay ningún individuo devorado ni cadáver en su interior.</APM.FrostivusFoodPreservation.ReleaseDevoured.NoContents>
   <!-- EN: Frostivus cannot reach that cell. -->
-  <APM.FrostivusFoodPreservation.ReleaseDevoured.NoPath>El frostivus no puede llegar a esa casilla.</APM.FrostivusFoodPreservation.ReleaseDevoured.NoPath>
+  <APM.FrostivusFoodPreservation.ReleaseDevoured.NoPath>El frostivus no puede llegar a esa celda.</APM.FrostivusFoodPreservation.ReleaseDevoured.NoPath>
   <!-- EN: Frostivus can only swallow a spawned humanlike pawn or corpse on its map. -->
   <APM.FrostivusFoodPreservation.CryptoSwallow.InvalidTarget>El frostivus solo puede engullir a un individuo humanoide o a un cadáver presentes en su mapa.</APM.FrostivusFoodPreservation.CryptoSwallow.InvalidTarget>
   <!-- EN: Frostivus can swallow any humanlike corpse or downed pawn, but only colonists, prisoners, or slaves while alive. -->
@@ -235,7 +235,7 @@
   <!-- EN: This pack is already maintaining {0} deployed satellites. -->
   <APM.MechamancerPack.MaxSatellites>Esta mochila ya mantiene {0} satélites desplegados.</APM.MechamancerPack.MaxSatellites>
   <!-- EN: No valid satellite deployment cell found. -->
-  <APM.MechamancerPack.NoValidSpawnCell>No se encontró ninguna casilla válida para desplegar el satélite.</APM.MechamancerPack.NoValidSpawnCell>
+  <APM.MechamancerPack.NoValidSpawnCell>No se encontró ninguna celda válida para desplegar el satélite.</APM.MechamancerPack.NoValidSpawnCell>
   <!-- EN: Select mechanoid... -->
   <APM.MechanoidContainer.Gizmo.ChooseMech.MouseLabel>Seleccionar mecanoide...</APM.MechanoidContainer.Gizmo.ChooseMech.MouseLabel>
   <!-- EN: Contains an unidentified mechanoid. -->
@@ -249,7 +249,7 @@
   <!-- EN: Auto artillery -->
   <APM_Ravager_AutoArtillery_Label>Artillería automática</APM_Ravager_AutoArtillery_Label>
   <!-- EN: Allow this ravager to automatically choose hostile pawns as artillery targets while under player control. Manual attack orders always fire once at the selected cell. -->
-  <APM_Ravager_AutoArtillery_Desc>Permite que este devastador elija automáticamente objetivos hostiles para su artillería mientras esté bajo el control del jugador. Las órdenes de ataque manuales siempre disparan una vez contra la casilla seleccionada.</APM_Ravager_AutoArtillery_Desc>
+  <APM_Ravager_AutoArtillery_Desc>Permite que este devastador elija automáticamente objetivos hostiles para su artillería mientras esté bajo el control del jugador. Las órdenes de ataque manuales siempre disparan una vez contra la celda seleccionada.</APM_Ravager_AutoArtillery_Desc>
   <!-- EN: Auto artillery: disabled. -->
   <APM_Ravager_Inspect_AutoArtilleryDisabled>Artillería automática: desactivada.</APM_Ravager_Inspect_AutoArtilleryDisabled>
   <!-- EN: Auto artillery: cannot fire from under a roof. -->
@@ -263,9 +263,9 @@
   <!-- EN: Toxicity in the atmosphere in local area has reach the critical point of {0} that would affect the globe, relations with other faction will deteriorate. -->
   <APM_ToxicPurifier_LevelToAffectRelation>La toxicidad en la atmósfera de la zona ha alcanzado el punto crítico de {0} que afectaría a todo el planeta; las relaciones con otras facciones se deteriorarán.</APM_ToxicPurifier_LevelToAffectRelation>
   <!-- EN: Toxicity in the atmosphere in local area has reach the critical point of {0} that would affect nearby tiles. -->
-  <APM_ToxicPurifier_LevelToStartSpreading>La toxicidad en la atmósfera de la zona ha alcanzado el punto crítico de {0} que afectaría a las casillas cercanas.</APM_ToxicPurifier_LevelToStartSpreading>
+  <APM_ToxicPurifier_LevelToStartSpreading>La toxicidad en la atmósfera de la zona ha alcanzado el punto crítico de {0} que afectaría a las celdas cercanas.</APM_ToxicPurifier_LevelToStartSpreading>
   <!-- EN: Toxicity in the atmosphere in local area has reach the critical point of {0} which would affect nearby tiles and critical point of {1} which would affect faction relations. -->
-  <APM_ToxicPurifier_LevelToAffectRelationAndStartSpreading>La toxicidad en la atmósfera de la zona ha alcanzado el punto crítico de {0}, que afectaría a las casillas cercanas, y el punto crítico de {1}, que afectaría a las relaciones entre facciones.</APM_ToxicPurifier_LevelToAffectRelationAndStartSpreading>
+  <APM_ToxicPurifier_LevelToAffectRelationAndStartSpreading>La toxicidad en la atmósfera de la zona ha alcanzado el punto crítico de {0}, que afectaría a las celdas cercanas, y el punto crítico de {1}, que afectaría a las relaciones entre facciones.</APM_ToxicPurifier_LevelToAffectRelationAndStartSpreading>
   <!-- EN: Mode -->
   <APM_ToxicPurifier_ModeChangeLabel>Modo</APM_ToxicPurifier_ModeChangeLabel>
   <!-- EN: Change purifier station mode. -->
@@ -315,7 +315,7 @@
   <!-- EN: Needs an operator. -->
   <APM.GazerEmplacement.Fail.NeedsOperator>Necesita un operador.</APM.GazerEmplacement.Fail.NeedsOperator>
   <!-- EN: Choose a target cell. -->
-  <APM.GazerEmplacement.Fail.NoTargetCell>Elige una casilla objetivo.</APM.GazerEmplacement.Fail.NoTargetCell>
+  <APM.GazerEmplacement.Fail.NoTargetCell>Elige una celda objetivo.</APM.GazerEmplacement.Fail.NoTargetCell>
   <!-- EN: Target is gone. -->
   <APM.GazerEmplacement.Fail.TargetGone>El objetivo ya no está.</APM.GazerEmplacement.Fail.TargetGone>
   <!-- EN: Target is out of bounds. -->
