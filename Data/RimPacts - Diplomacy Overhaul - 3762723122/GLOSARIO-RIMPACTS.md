@@ -103,6 +103,8 @@ Revisado contra la traducción oficial y los mods de RML a pedido de Angel (24-o
 | world war ✔ | guerra mundial | Angel | En minúscula, como sustantivo común. 103 veces |
 | bloc | bloque | propuesta | |
 | offensive / front / front quest | ofensiva / frente / misión del frente | propuesta | |
+| swear fealty / oath of fealty | jurar vasallaje / juramento de vasallaje | propuesta | Compatibilidad con Hegemony, que usa «vasallo / vasallaje» |
+| annihilation war / invasion battle / attack force | guerra de aniquilación / batalla de invasión / fuerza de ataque | propuesta | De Hegemony (29-oct-2026) |
 | doctrine / combat doctrine | doctrina / doctrina de combate | propuesta | |
 | war measures / war staff / war footing | medidas de guerra / estado mayor de guerra / pie de guerra | propuesta | Efectos de salud (`HediffDef`) |
 | stages early / middle / late | inicial / intermedia / avanzada | propuesta | Etapas del pie de guerra |
