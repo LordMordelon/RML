@@ -19,7 +19,7 @@
   <!-- EN: The amount of fuel the armor&apos;s tank holds when full. A tank already holding more than this loses the excess. Default: {0}. -->
   <SCWC_TankCapacityDesc>Cuánto combustible cabe en el tanque de la armadura cuando está lleno. Un tanque que ya tenga más pierde el sobrante. Por defecto: {0}.</SCWC_TankCapacityDesc>
   <!-- EN: Range (cells) -->
-  <SCWC_JumpRange>Alcance (casillas)</SCWC_JumpRange>
+  <SCWC_JumpRange>Alcance (celdas)</SCWC_JumpRange>
   <!-- EN: The maximum distance a breach jump can carry the pilot. Aerial warcasket parts add their own jump range on top. Default: {0}. -->
   <SCWC_JumpRangeDesc>La distancia máxima a la que un salto de brecha puede llevar al piloto. Las piezas del sarcotraje de aeroasaltante suman su propio alcance de salto. Por defecto: {0}.</SCWC_JumpRangeDesc>
   <!-- EN: Cooldown (hours) -->
@@ -31,13 +31,13 @@
   <!-- EN: Jumps burn no fuel. -->
   <SCWC_JumpSummaryFree>Los saltos no queman combustible.</SCWC_JumpSummaryFree>
   <!-- EN: Blast radius (cells) -->
-  <SCWC_BlastRadius>Radio de la explosión (casillas)</SCWC_BlastRadius>
+  <SCWC_BlastRadius>Radio de la explosión (celdas)</SCWC_BlastRadius>
   <!-- EN: The radius of the blast when the pilot lands. At 0, landings cause no blast. Default: {0}. -->
   <SCWC_BlastRadiusDesc>El radio de la explosión cuando el piloto aterriza. En 0, los aterrizajes no causan explosión. Por defecto: {0}.</SCWC_BlastRadiusDesc>
   <!-- EN: Roof punch radius (cells) -->
-  <SCWC_RoofRadius>Radio de rotura del techo (casillas)</SCWC_RoofRadius>
+  <SCWC_RoofRadius>Radio de rotura del techo (celdas)</SCWC_RoofRadius>
   <!-- EN: The radius of roof torn open around the pilot at takeoff and landing. Below 1, only the roof over the pilot&apos;s own cell opens; at 0, roofs are left intact. A jump within a single room never breaks the roof, and overhead mountain always holds. Default: {0}. -->
-  <SCWC_RoofRadiusDesc>El radio de techo que se rompe alrededor del piloto al despegar y al aterrizar. Por debajo de 1, solo se abre el techo sobre la casilla del piloto; en 0, los techos quedan intactos. Un salto dentro de una misma habitación nunca rompe el techo, y el techo de montaña siempre resiste. Por defecto: {0}.</SCWC_RoofRadiusDesc>
+  <SCWC_RoofRadiusDesc>El radio de techo que se rompe alrededor del piloto al despegar y al aterrizar. Por debajo de 1, solo se abre el techo sobre la celda del piloto; en 0, los techos quedan intactos. Un salto dentro de una misma habitación nunca rompe el techo, y el techo de montaña siempre resiste. Por defecto: {0}.</SCWC_RoofRadiusDesc>
   <!-- EN: Damage to creatures -->
   <SCWC_CreatureDamage>Daño a criaturas</SCWC_CreatureDamage>
   <!-- EN: The damage the landing blast deals to each person, animal or mechanoid caught in it. The pilot is never harmed. Default: {0}. -->
@@ -63,7 +63,7 @@
   <!-- EN: The extra damage a landing deals to walls and other structures while the pilot wears the shipcracker warcasket shoulders. Creatures take no extra damage. Default: {0}. -->
   <SCWC_ShouldersBonusDesc>El daño extra que un aterrizaje causa a paredes y otras estructuras mientras el piloto lleva las hombreras de rompenaves. Las criaturas no reciben daño extra. Por defecto: {0}.</SCWC_ShouldersBonusDesc>
   <!-- EN: Without the shoulders: {0} to a wall, {1} to other structures, across {2} cells.\nWith the shoulders: {3} to a wall, {4} to other structures. -->
-  <SCWC_LandingSummary>Sin las hombreras: {0} a una pared, {1} a otras estructuras, en {2} casillas.\nCon las hombreras: {3} a una pared, {4} a otras estructuras.</SCWC_LandingSummary>
+  <SCWC_LandingSummary>Sin las hombreras: {0} a una pared, {1} a otras estructuras, en {2} celdas.\nCon las hombreras: {3} a una pared, {4} a otras estructuras.</SCWC_LandingSummary>
   <!-- EN: No landing blast. -->
   <SCWC_LandingSummaryOff>No hay explosión al aterrizar.</SCWC_LandingSummaryOff>
   <!-- EN: Unlimited range in vacuum -->
