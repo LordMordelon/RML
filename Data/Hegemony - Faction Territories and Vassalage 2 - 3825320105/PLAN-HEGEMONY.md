@@ -73,7 +73,7 @@ Es cerca de diez veces VFE - Tribals. Las lecciones son el 73 % del texto.
 **Términos que salieron al traducir** (para usar igual en las lecciones): psycaster → psicoemisor;
 psylink → psicoenlace; bandwidth → banda ancha; tech points → puntos de tecnología; technology stage
 → etapa tecnológica; grand construction → gran construcción; landmark → punto de interés (oficial);
-goodwill → buena voluntad; outlander → forastero; realm → reino; tile → casilla; grav site → sitio de
+goodwill → buena voluntad; outlander → forastero; realm → reino; tile → celda; grav site → sitio de
 gravedad; Spacer → espacial; masterwork / poor → magistral / mediocre (oficial); chemfuel →
 quimbustible (oficial); mech → meca; troops → tropas; travelling party → grupo en viaje; skirmish →
 escaramuza. Los nombres de edificios, rasgos y memes son los de los archivos ya traducidos: copiarlos

@@ -70,7 +70,7 @@
   <!-- EN: coastal fishery -->
   <FT2_CoastalFishery.label>pesquería costera</FT2_CoastalFishery.label>
   <!-- EN: Harvests coastal food. Requires a neighbouring water tile. -->
-  <FT2_CoastalFishery.description>Obtiene comida de la costa. Requiere una casilla de agua vecina.</FT2_CoastalFishery.description>
+  <FT2_CoastalFishery.description>Obtiene comida de la costa. Requiere una celda de agua vecina.</FT2_CoastalFishery.description>
   <!-- EN: terrace farm -->
   <FT2_TerraceFarm.label>cultivo en terrazas</FT2_TerraceFarm.label>
   <!-- EN: Cultivates hillsides. Requires hills or mountains. -->
@@ -86,19 +86,19 @@
   <!-- EN: landmark refinery complex -->
   <FT2_SiteRefinery.label>complejo de refinería del punto de interés</FT2_SiteRefinery.label>
   <!-- EN: Expands an ancient chemfuel refinery on this exact tile, adding prosperity and chemfuel goods. -->
-  <FT2_SiteRefinery.description>Amplía una refinería de quimbustible antigua en esta misma casilla y agrega prosperidad y quimbustible como bien.</FT2_SiteRefinery.description>
+  <FT2_SiteRefinery.description>Amplía una refinería de quimbustible antigua en esta misma celda y agrega prosperidad y quimbustible como bien.</FT2_SiteRefinery.description>
   <!-- EN: toxic extraction plant -->
   <FT2_ToxicExtractor.label>planta de extracción tóxica</FT2_ToxicExtractor.label>
   <!-- EN: Harvests local toxic deposits, with a small happiness cost. Requires a toxic landmark on this tile. -->
-  <FT2_ToxicExtractor.description>Aprovecha los yacimientos tóxicos locales, con un pequeño costo en felicidad. Requiere un punto de interés tóxico en esta casilla.</FT2_ToxicExtractor.description>
+  <FT2_ToxicExtractor.description>Aprovecha los yacimientos tóxicos locales, con un pequeño costo en felicidad. Requiere un punto de interés tóxico en esta celda.</FT2_ToxicExtractor.description>
   <!-- EN: geographical observatory -->
   <FT2_FeatureObservatory.label>observatorio geográfico</FT2_FeatureObservatory.label>
   <!-- EN: Studies a named geographical feature or local tile feature. Requires the feature on this settlement tile. -->
-  <FT2_FeatureObservatory.description>Estudia un accidente geográfico con nombre o un rasgo local de la casilla. Requiere ese accidente en la casilla del asentamiento.</FT2_FeatureObservatory.description>
+  <FT2_FeatureObservatory.description>Estudia un accidente geográfico con nombre o un rasgo local de la celda. Requiere ese accidente en la celda del asentamiento.</FT2_FeatureObservatory.description>
   <!-- EN: landmark research museum -->
   <FT2_LandmarkMuseum.label>museo de investigación del punto de interés</FT2_LandmarkMuseum.label>
   <!-- EN: A research and visitor centre for the landmark on this exact tile. -->
-  <FT2_LandmarkMuseum.description>Un centro de investigación y de visitantes para el punto de interés de esta misma casilla.</FT2_LandmarkMuseum.description>
+  <FT2_LandmarkMuseum.description>Un centro de investigación y de visitantes para el punto de interés de esta misma celda.</FT2_LandmarkMuseum.description>
   <!-- EN: grand cartographic archive -->
   <FT2_GrandChancery.label>gran archivo cartográfico</FT2_GrandChancery.label>
   <!-- EN: Coordinates this settlement&apos;s territorial administration, helping it maintain claims farther from home. Higher levels slow the loss of influence with distance, with diminishing returns. Only this settlement&apos;s claims benefit; its strongest active archive applies, and decay never stops. -->
@@ -106,7 +106,7 @@
   <!-- EN: grand academy -->
   <FT2_GrandTrainingAcademy.label>gran academia</FT2_GrandTrainingAcademy.label>
   <!-- EN: Develops a small cadre of persistent residents for expeditions and mayoral service. Trains all enabled skills of its residents, mayor and friendly caravan visitors on this tile. Training spends local materials and prosperity; higher levels improve teaching and capacity. -->
-  <FT2_GrandTrainingAcademy.description>Forma un pequeño grupo de residentes permanentes para expediciones y para servir de alcalde. Entrena todas las habilidades activadas de sus residentes, del alcalde y de los visitantes de caravanas amistosas en esta casilla. El entrenamiento gasta materiales locales y prosperidad; los niveles más altos mejoran la enseñanza y la capacidad.</FT2_GrandTrainingAcademy.description>
+  <FT2_GrandTrainingAcademy.description>Forma un pequeño grupo de residentes permanentes para expediciones y para servir de alcalde. Entrena todas las habilidades activadas de sus residentes, del alcalde y de los visitantes de caravanas amistosas en esta celda. El entrenamiento gasta materiales locales y prosperidad; los niveles más altos mejoran la enseñanza y la capacidad.</FT2_GrandTrainingAcademy.description>
   <!-- EN: psychic sanctum -->
   <FT2_PsychicSanctum.label>santuario psíquico</FT2_PsychicSanctum.label>
   <!-- EN: Trains a small number of actual residents as psycasters. Training takes time and local resources; psylink advancement has an additional payment. A psycaster mayor mentors the students. Resident psycasters recover focus here between expeditions. -->
@@ -142,15 +142,15 @@
   <!-- EN: asteroid extraction plant -->
   <FT2_SiteBuilding_Asteroid.label>planta de extracción de asteroides</FT2_SiteBuilding_Asteroid.label>
   <!-- EN: Processes the asteroid deposits on this tile into local metal reserves. -->
-  <FT2_SiteBuilding_Asteroid.description>Procesa los yacimientos de asteroide de esta casilla y los convierte en reservas locales de metal.</FT2_SiteBuilding_Asteroid.description>
+  <FT2_SiteBuilding_Asteroid.description>Procesa los yacimientos de asteroide de esta celda y los convierte en reservas locales de metal.</FT2_SiteBuilding_Asteroid.description>
   <!-- EN: station salvage yard -->
   <FT2_SiteBuilding_SpaceStation.label>desguace de la estación</FT2_SiteBuilding_SpaceStation.label>
   <!-- EN: Reclaims components and technical knowledge from the station on this tile. -->
-  <FT2_SiteBuilding_SpaceStation.description>Recupera componentes y conocimiento técnico de la estación de esta casilla.</FT2_SiteBuilding_SpaceStation.description>
+  <FT2_SiteBuilding_SpaceStation.description>Recupera componentes y conocimiento técnico de la estación de esta celda.</FT2_SiteBuilding_SpaceStation.description>
   <!-- EN: harbour -->
   <FT2_Harbour.label>puerto</FT2_Harbour.label>
   <!-- EN: A river or coastal port supporting fishing, trade and waterborne expeditions. Each level produces food and prosperity and improves water travel speed, following the same level and technology-stage progression as transport hubs. Parties can use this speed along connected rivers, choosing overland travel when it is faster. Hubs below Spacer speed land travel only; Spacer-or-higher hubs take priority on water too. Open-water terrain and territory movement cost 1 per tile before travel speed. Grav sites and Spacer transport hubs provide the same water access. Water settlements start with a harbour. -->
-  <FT2_Harbour.description>Un puerto fluvial o costero que favorece la pesca, el comercio y las expediciones por agua. Cada nivel produce comida y prosperidad y mejora la velocidad de viaje por agua, con la misma progresión de niveles y etapas tecnológicas que los centros de transporte. Los grupos pueden usar esta velocidad por los ríos conectados, y eligen ir por tierra cuando es más rápido. Los centros de nivel inferior a espacial solo aceleran el viaje por tierra; los de nivel espacial o superior también tienen prioridad en el agua. El terreno de mar abierto y el movimiento por el territorio cuestan 1 por casilla antes de aplicar la velocidad de viaje. Los sitios de gravedad y los centros de transporte espaciales dan el mismo acceso al agua. Los asentamientos en el agua empiezan con un puerto.</FT2_Harbour.description>
+  <FT2_Harbour.description>Un puerto fluvial o costero que favorece la pesca, el comercio y las expediciones por agua. Cada nivel produce comida y prosperidad y mejora la velocidad de viaje por agua, con la misma progresión de niveles y etapas tecnológicas que los centros de transporte. Los grupos pueden usar esta velocidad por los ríos conectados, y eligen ir por tierra cuando es más rápido. Los centros de nivel inferior a espacial solo aceleran el viaje por tierra; los de nivel espacial o superior también tienen prioridad en el agua. El terreno de mar abierto y el movimiento por el territorio cuestan 1 por celda antes de aplicar la velocidad de viaje. Los sitios de gravedad y los centros de transporte espaciales dan el mismo acceso al agua. Los asentamientos en el agua empiezan con un puerto.</FT2_Harbour.description>
   <!-- EN: transport hub -->
   <FT2_TransportHub.label>centro de transporte</FT2_TransportHub.label>
   <!-- EN: Improves journey speed and deployment range. Spacer hubs also allow flight over water and impassable mountains. -->
@@ -194,7 +194,7 @@
   <!-- EN: pollution reclamation plant -->
   <FT2_Reclamation.label>planta de recuperación de contaminación</FT2_Reclamation.label>
   <!-- EN: Uses upkeep to clean tile pollution first, then recycles stored mech waste into steel. Waste above 100 spills onto the tile and can anger nearby factions. Mech hives ignore the penalties and do not operate reclamation. Mitigates toxic landmarks while supplied. -->
-  <FT2_Reclamation.description>Usa el mantenimiento para limpiar primero la contaminación de la casilla y después recicla los desechos de mecas almacenados en acero. Los desechos por encima de 100 se derraman sobre la casilla y pueden enojar a las facciones cercanas. Las mecacolmenas ignoran las penalizaciones y no hacen recuperación. Reduce los efectos de los puntos de interés tóxicos mientras tenga suministros.</FT2_Reclamation.description>
+  <FT2_Reclamation.description>Usa el mantenimiento para limpiar primero la contaminación de la celda y después recicla los desechos de mecas almacenados en acero. Los desechos por encima de 100 se derraman sobre la celda y pueden enojar a las facciones cercanas. Las mecacolmenas ignoran las penalizaciones y no hacen recuperación. Reduce los efectos de los puntos de interés tóxicos mientras tenga suministros.</FT2_Reclamation.description>
   <!-- EN: mech repair dock -->
   <FT2_MechRepair.label>muelle de reparación de mecas</FT2_MechRepair.label>
   <!-- EN: Recovers a configurable share of destroyed autonomous mechs as damaged chassis. Materials and repair time restore them within bandwidth. Select advanced mech chassis by repair and factory technology. -->
@@ -302,155 +302,155 @@
   <!-- EN: archaeology institute -->
   <FT2_SiteBuilding_Ruins.label>instituto de arqueología</FT2_SiteBuilding_Ruins.label>
   <!-- EN: Uses archaeological ruins on this exact tile. -->
-  <FT2_SiteBuilding_Ruins.description>Aprovecha las ruinas arqueológicas de esta misma casilla.</FT2_SiteBuilding_Ruins.description>
+  <FT2_SiteBuilding_Ruins.description>Aprovecha las ruinas arqueológicas de esta misma celda.</FT2_SiteBuilding_Ruins.description>
   <!-- EN: infrastructure reclamation office -->
   <FT2_SiteBuilding_Colony.label>oficina de recuperación de infraestructura</FT2_SiteBuilding_Colony.label>
   <!-- EN: Uses abandoned infrastructure on this exact tile. -->
-  <FT2_SiteBuilding_Colony.description>Aprovecha la infraestructura abandonada de esta misma casilla.</FT2_SiteBuilding_Colony.description>
+  <FT2_SiteBuilding_Colony.description>Aprovecha la infraestructura abandonada de esta misma celda.</FT2_SiteBuilding_Colony.description>
   <!-- EN: jelly farm -->
   <FT2_SiteBuilding_Insects.label>granja de jalea</FT2_SiteBuilding_Insects.label>
   <!-- EN: Uses insectoid habitat on this exact tile. -->
-  <FT2_SiteBuilding_Insects.description>Aprovecha el hábitat insectoide de esta misma casilla.</FT2_SiteBuilding_Insects.description>
+  <FT2_SiteBuilding_Insects.description>Aprovecha el hábitat insectoide de esta misma celda.</FT2_SiteBuilding_Insects.description>
   <!-- EN: fuel recovery plant -->
   <FT2_SiteBuilding_Refinery.label>planta de recuperación de combustible</FT2_SiteBuilding_Refinery.label>
   <!-- EN: Uses chemfuel deposits on this exact tile. -->
-  <FT2_SiteBuilding_Refinery.description>Aprovecha los yacimientos de quimbustible de esta misma casilla.</FT2_SiteBuilding_Refinery.description>
+  <FT2_SiteBuilding_Refinery.description>Aprovecha los yacimientos de quimbustible de esta misma celda.</FT2_SiteBuilding_Refinery.description>
   <!-- EN: hazard reclamation works -->
   <FT2_SiteBuilding_Toxic.label>obras de recuperación de zonas peligrosas</FT2_SiteBuilding_Toxic.label>
   <!-- EN: Uses toxic environment on this exact tile. -->
-  <FT2_SiteBuilding_Toxic.description>Aprovecha el entorno tóxico de esta misma casilla.</FT2_SiteBuilding_Toxic.description>
+  <FT2_SiteBuilding_Toxic.description>Aprovecha el entorno tóxico de esta misma celda.</FT2_SiteBuilding_Toxic.description>
   <!-- EN: geothermal utility plant -->
   <FT2_SiteBuilding_Heat.label>planta geotérmica</FT2_SiteBuilding_Heat.label>
   <!-- EN: Uses geothermal activity on this exact tile. -->
-  <FT2_SiteBuilding_Heat.description>Aprovecha la actividad geotérmica de esta misma casilla.</FT2_SiteBuilding_Heat.description>
+  <FT2_SiteBuilding_Heat.description>Aprovecha la actividad geotérmica de esta misma celda.</FT2_SiteBuilding_Heat.description>
   <!-- EN: thermal spa -->
   <FT2_SiteBuilding_Springs.label>balneario termal</FT2_SiteBuilding_Springs.label>
   <!-- EN: Uses thermal springs on this exact tile. -->
-  <FT2_SiteBuilding_Springs.description>Aprovecha las aguas termales de esta misma casilla.</FT2_SiteBuilding_Springs.description>
+  <FT2_SiteBuilding_Springs.description>Aprovecha las aguas termales de esta misma celda.</FT2_SiteBuilding_Springs.description>
   <!-- EN: inland fishery -->
   <FT2_SiteBuilding_Water.label>pesquería continental</FT2_SiteBuilding_Water.label>
   <!-- EN: Uses freshwater habitat on this exact tile. -->
-  <FT2_SiteBuilding_Water.description>Aprovecha el hábitat de agua dulce de esta misma casilla.</FT2_SiteBuilding_Water.description>
+  <FT2_SiteBuilding_Water.description>Aprovecha el hábitat de agua dulce de esta misma celda.</FT2_SiteBuilding_Water.description>
   <!-- EN: marine fishery -->
   <FT2_SiteBuilding_Coast.label>pesquería marina</FT2_SiteBuilding_Coast.label>
   <!-- EN: Uses coastal waters on this exact tile. -->
-  <FT2_SiteBuilding_Coast.description>Aprovecha las aguas costeras de esta misma casilla.</FT2_SiteBuilding_Coast.description>
+  <FT2_SiteBuilding_Coast.description>Aprovecha las aguas costeras de esta misma celda.</FT2_SiteBuilding_Coast.description>
   <!-- EN: harbour trade exchange -->
   <FT2_SiteBuilding_Harbor.label>lonja comercial del puerto</FT2_SiteBuilding_Harbor.label>
   <!-- EN: Uses harbour infrastructure on this exact tile. -->
-  <FT2_SiteBuilding_Harbor.description>Aprovecha la infraestructura portuaria de esta misma casilla.</FT2_SiteBuilding_Harbor.description>
+  <FT2_SiteBuilding_Harbor.description>Aprovecha la infraestructura portuaria de esta misma celda.</FT2_SiteBuilding_Harbor.description>
   <!-- EN: glacial research station -->
   <FT2_SiteBuilding_Ice.label>estación de investigación glacial</FT2_SiteBuilding_Ice.label>
   <!-- EN: Uses glacial terrain on this exact tile. -->
-  <FT2_SiteBuilding_Ice.description>Aprovecha el terreno glacial de esta misma casilla.</FT2_SiteBuilding_Ice.description>
+  <FT2_SiteBuilding_Ice.description>Aprovecha el terreno glacial de esta misma celda.</FT2_SiteBuilding_Ice.description>
   <!-- EN: sheltered orchard -->
   <FT2_SiteBuilding_Valley.label>huerto resguardado</FT2_SiteBuilding_Valley.label>
   <!-- EN: Uses sheltered lowlands on this exact tile. -->
-  <FT2_SiteBuilding_Valley.description>Aprovecha las tierras bajas resguardadas de esta misma casilla.</FT2_SiteBuilding_Valley.description>
+  <FT2_SiteBuilding_Valley.description>Aprovecha las tierras bajas resguardadas de esta misma celda.</FT2_SiteBuilding_Valley.description>
   <!-- EN: strata mine -->
   <FT2_SiteBuilding_Rock.label>mina de estratos</FT2_SiteBuilding_Rock.label>
   <!-- EN: Uses rock formations on this exact tile. -->
-  <FT2_SiteBuilding_Rock.description>Aprovecha las formaciones rocosas de esta misma casilla.</FT2_SiteBuilding_Rock.description>
+  <FT2_SiteBuilding_Rock.description>Aprovecha las formaciones rocosas de esta misma celda.</FT2_SiteBuilding_Rock.description>
   <!-- EN: volcanic foundry -->
   <FT2_SiteBuilding_Lava.label>fundición volcánica</FT2_SiteBuilding_Lava.label>
   <!-- EN: Uses volcanic terrain on this exact tile. -->
-  <FT2_SiteBuilding_Lava.description>Aprovecha el terreno volcánico de esta misma casilla.</FT2_SiteBuilding_Lava.description>
+  <FT2_SiteBuilding_Lava.description>Aprovecha el terreno volcánico de esta misma celda.</FT2_SiteBuilding_Lava.description>
   <!-- EN: obsidian mine -->
   <FT2_SiteBuilding_Obsidian.label>mina de obsidiana</FT2_SiteBuilding_Obsidian.label>
   <!-- EN: Uses obsidian deposits on this exact tile. -->
-  <FT2_SiteBuilding_Obsidian.description>Aprovecha los yacimientos de obsidiana de esta misma casilla.</FT2_SiteBuilding_Obsidian.description>
+  <FT2_SiteBuilding_Obsidian.description>Aprovecha los yacimientos de obsidiana de esta misma celda.</FT2_SiteBuilding_Obsidian.description>
   <!-- EN: desert conservatory -->
   <FT2_SiteBuilding_Desert.label>invernadero del desierto</FT2_SiteBuilding_Desert.label>
   <!-- EN: Uses arid terrain on this exact tile. -->
-  <FT2_SiteBuilding_Desert.description>Aprovecha el terreno árido de esta misma casilla.</FT2_SiteBuilding_Desert.description>
+  <FT2_SiteBuilding_Desert.description>Aprovecha el terreno árido de esta misma celda.</FT2_SiteBuilding_Desert.description>
   <!-- EN: wetland herb garden -->
   <FT2_SiteBuilding_Wetland.label>huerto de hierbas del humedal</FT2_SiteBuilding_Wetland.label>
   <!-- EN: Uses wetland habitat on this exact tile. -->
-  <FT2_SiteBuilding_Wetland.description>Aprovecha el hábitat de humedal de esta misma casilla.</FT2_SiteBuilding_Wetland.description>
+  <FT2_SiteBuilding_Wetland.description>Aprovecha el hábitat de humedal de esta misma celda.</FT2_SiteBuilding_Wetland.description>
   <!-- EN: terraforming research annex -->
   <FT2_SiteBuilding_Scar.label>anexo de investigación de terraformación</FT2_SiteBuilding_Scar.label>
   <!-- EN: Uses terraforming remnants on this exact tile. -->
-  <FT2_SiteBuilding_Scar.description>Aprovecha los restos de terraformación de esta misma casilla.</FT2_SiteBuilding_Scar.description>
+  <FT2_SiteBuilding_Scar.description>Aprovecha los restos de terraformación de esta misma celda.</FT2_SiteBuilding_Scar.description>
   <!-- EN: restored military depot -->
   <FT2_SiteBuilding_Military.label>depósito militar restaurado</FT2_SiteBuilding_Military.label>
   <!-- EN: Uses ancient defences on this exact tile. -->
-  <FT2_SiteBuilding_Military.description>Aprovecha las defensas antiguas de esta misma casilla.</FT2_SiteBuilding_Military.description>
+  <FT2_SiteBuilding_Military.description>Aprovecha las defensas antiguas de esta misma celda.</FT2_SiteBuilding_Military.description>
   <!-- EN: salvage sorting yard -->
   <FT2_SiteBuilding_Warehouse.label>patio de clasificación de chatarra</FT2_SiteBuilding_Warehouse.label>
   <!-- EN: Uses salvage reserves on this exact tile. -->
-  <FT2_SiteBuilding_Warehouse.description>Aprovecha las reservas de chatarra de esta misma casilla.</FT2_SiteBuilding_Warehouse.description>
+  <FT2_SiteBuilding_Warehouse.description>Aprovecha las reservas de chatarra de esta misma celda.</FT2_SiteBuilding_Warehouse.description>
   <!-- EN: launch logistics centre -->
   <FT2_SiteBuilding_Launch.label>centro logístico de lanzamiento</FT2_SiteBuilding_Launch.label>
   <!-- EN: Uses launch infrastructure on this exact tile. -->
-  <FT2_SiteBuilding_Launch.description>Aprovecha la infraestructura de lanzamiento de esta misma casilla.</FT2_SiteBuilding_Launch.description>
+  <FT2_SiteBuilding_Launch.description>Aprovecha la infraestructura de lanzamiento de esta misma celda.</FT2_SiteBuilding_Launch.description>
   <!-- EN: signal research array -->
   <FT2_SiteBuilding_Uplink.label>antena de investigación de señales</FT2_SiteBuilding_Uplink.label>
   <!-- EN: Uses ancient communications on this exact tile. -->
-  <FT2_SiteBuilding_Uplink.description>Aprovecha las comunicaciones antiguas de esta misma casilla.</FT2_SiteBuilding_Uplink.description>
+  <FT2_SiteBuilding_Uplink.description>Aprovecha las comunicaciones antiguas de esta misma celda.</FT2_SiteBuilding_Uplink.description>
   <!-- EN: wildlife enclosure -->
   <FT2_SiteBuilding_Wildlife.label>recinto de fauna</FT2_SiteBuilding_Wildlife.label>
   <!-- EN: Uses abundant wildlife on this exact tile. -->
-  <FT2_SiteBuilding_Wildlife.description>Aprovecha la fauna abundante de esta misma casilla.</FT2_SiteBuilding_Wildlife.description>
+  <FT2_SiteBuilding_Wildlife.description>Aprovecha la fauna abundante de esta misma celda.</FT2_SiteBuilding_Wildlife.description>
   <!-- EN: wildlife restoration enclosure -->
   <FT2_SiteBuilding_PoorWildlife.label>recinto de recuperación de fauna</FT2_SiteBuilding_PoorWildlife.label>
   <!-- EN: Uses sparse wildlife on this exact tile. -->
-  <FT2_SiteBuilding_PoorWildlife.description>Aprovecha la fauna escasa de esta misma casilla.</FT2_SiteBuilding_PoorWildlife.description>
+  <FT2_SiteBuilding_PoorWildlife.description>Aprovecha la fauna escasa de esta misma celda.</FT2_SiteBuilding_PoorWildlife.description>
   <!-- EN: botanical garden -->
   <FT2_SiteBuilding_Plants.label>jardín botánico</FT2_SiteBuilding_Plants.label>
   <!-- EN: Uses rich flora on this exact tile. -->
-  <FT2_SiteBuilding_Plants.description>Aprovecha la flora rica de esta misma casilla.</FT2_SiteBuilding_Plants.description>
+  <FT2_SiteBuilding_Plants.description>Aprovecha la flora rica de esta misma celda.</FT2_SiteBuilding_Plants.description>
   <!-- EN: soil restoration nursery -->
   <FT2_SiteBuilding_PoorPlants.label>vivero de recuperación de suelos</FT2_SiteBuilding_PoorPlants.label>
   <!-- EN: Uses sparse flora on this exact tile. -->
-  <FT2_SiteBuilding_PoorPlants.description>Aprovecha la flora escasa de esta misma casilla.</FT2_SiteBuilding_PoorPlants.description>
+  <FT2_SiteBuilding_PoorPlants.description>Aprovecha la flora escasa de esta misma celda.</FT2_SiteBuilding_PoorPlants.description>
   <!-- EN: ancient forest sanctuary -->
   <FT2_SiteBuilding_Forest.label>santuario del bosque antiguo</FT2_SiteBuilding_Forest.label>
   <!-- EN: Uses ancient forest on this exact tile. -->
-  <FT2_SiteBuilding_Forest.description>Aprovecha el bosque antiguo de esta misma casilla.</FT2_SiteBuilding_Forest.description>
+  <FT2_SiteBuilding_Forest.description>Aprovecha el bosque antiguo de esta misma celda.</FT2_SiteBuilding_Forest.description>
   <!-- EN: mineral assay mine -->
   <FT2_SiteBuilding_Minerals.label>mina de ensayo mineral</FT2_SiteBuilding_Minerals.label>
   <!-- EN: Uses mineral deposits on this exact tile. -->
-  <FT2_SiteBuilding_Minerals.description>Aprovecha los yacimientos minerales de esta misma casilla.</FT2_SiteBuilding_Minerals.description>
+  <FT2_SiteBuilding_Minerals.description>Aprovecha los yacimientos minerales de esta misma celda.</FT2_SiteBuilding_Minerals.description>
   <!-- EN: fog harvesting array -->
   <FT2_SiteBuilding_Fog.label>red atrapanieblas</FT2_SiteBuilding_Fog.label>
   <!-- EN: Uses persistent fog on this exact tile. -->
-  <FT2_SiteBuilding_Fog.description>Aprovecha la niebla persistente de esta misma casilla.</FT2_SiteBuilding_Fog.description>
+  <FT2_SiteBuilding_Fog.description>Aprovecha la niebla persistente de esta misma celda.</FT2_SiteBuilding_Fog.description>
   <!-- EN: solar agriculture complex -->
   <FT2_SiteBuilding_Sun.label>complejo agrícola solar</FT2_SiteBuilding_Sun.label>
   <!-- EN: Uses abundant sunshine on this exact tile. -->
-  <FT2_SiteBuilding_Sun.description>Aprovecha el sol abundante de esta misma casilla.</FT2_SiteBuilding_Sun.description>
+  <FT2_SiteBuilding_Sun.description>Aprovecha el sol abundante de esta misma celda.</FT2_SiteBuilding_Sun.description>
   <!-- EN: rainwater collection works -->
   <FT2_SiteBuilding_Rain.label>obras de captación de lluvia</FT2_SiteBuilding_Rain.label>
   <!-- EN: Uses wet climate on this exact tile. -->
-  <FT2_SiteBuilding_Rain.description>Aprovecha el clima húmedo de esta misma casilla.</FT2_SiteBuilding_Rain.description>
+  <FT2_SiteBuilding_Rain.description>Aprovecha el clima húmedo de esta misma celda.</FT2_SiteBuilding_Rain.description>
   <!-- EN: wind utility farm -->
   <FT2_SiteBuilding_Wind.label>parque eólico</FT2_SiteBuilding_Wind.label>
   <!-- EN: Uses persistent wind on this exact tile. -->
-  <FT2_SiteBuilding_Wind.description>Aprovecha el viento persistente de esta misma casilla.</FT2_SiteBuilding_Wind.description>
+  <FT2_SiteBuilding_Wind.description>Aprovecha el viento persistente de esta misma celda.</FT2_SiteBuilding_Wind.description>
   <!-- EN: fish hatchery -->
   <FT2_SiteBuilding_Fish.label>criadero de peces</FT2_SiteBuilding_Fish.label>
   <!-- EN: Uses abundant fish on this exact tile. -->
-  <FT2_SiteBuilding_Fish.description>Aprovecha los peces abundantes de esta misma casilla.</FT2_SiteBuilding_Fish.description>
+  <FT2_SiteBuilding_Fish.description>Aprovecha los peces abundantes de esta misma celda.</FT2_SiteBuilding_Fish.description>
   <!-- EN: fish conservation hatchery -->
   <FT2_SiteBuilding_PoorFish.label>criadero de conservación de peces</FT2_SiteBuilding_PoorFish.label>
   <!-- EN: Uses depleted fish stocks on this exact tile. -->
-  <FT2_SiteBuilding_PoorFish.description>Aprovecha las poblaciones de peces agotadas de esta misma casilla.</FT2_SiteBuilding_PoorFish.description>
+  <FT2_SiteBuilding_PoorFish.description>Aprovecha las poblaciones de peces agotadas de esta misma celda.</FT2_SiteBuilding_PoorFish.description>
   <!-- EN: river fishery -->
   <FT2_SiteBuilding_River.label>pesquería fluvial</FT2_SiteBuilding_River.label>
   <!-- EN: Uses river formations on this exact tile. -->
-  <FT2_SiteBuilding_River.description>Aprovecha las formaciones fluviales de esta misma casilla.</FT2_SiteBuilding_River.description>
+  <FT2_SiteBuilding_River.description>Aprovecha las formaciones fluviales de esta misma celda.</FT2_SiteBuilding_River.description>
   <!-- EN: intensive crop estate -->
   <FT2_SiteBuilding_Fertile.label>finca de cultivo intensivo</FT2_SiteBuilding_Fertile.label>
   <!-- EN: Uses fertile soil on this exact tile. -->
-  <FT2_SiteBuilding_Fertile.description>Aprovecha el suelo fértil de esta misma casilla.</FT2_SiteBuilding_Fertile.description>
+  <FT2_SiteBuilding_Fertile.description>Aprovecha el suelo fértil de esta misma celda.</FT2_SiteBuilding_Fertile.description>
   <!-- EN: ecotone research preserve -->
   <FT2_SiteBuilding_Mixed.label>reserva de investigación del ecotono</FT2_SiteBuilding_Mixed.label>
   <!-- EN: Uses biome ecotone on this exact tile. -->
-  <FT2_SiteBuilding_Mixed.description>Aprovecha el ecotono de biomas de esta misma casilla.</FT2_SiteBuilding_Mixed.description>
+  <FT2_SiteBuilding_Mixed.description>Aprovecha el ecotono de biomas de esta misma celda.</FT2_SiteBuilding_Mixed.description>
   <!-- EN: site survey station -->
   <FT2_SiteBuilding_Unknown.label>estación de reconocimiento del sitio</FT2_SiteBuilding_Unknown.label>
   <!-- EN: Uses unclassified site on this exact tile. -->
-  <FT2_SiteBuilding_Unknown.description>Aprovecha el sitio sin clasificar de esta misma casilla.</FT2_SiteBuilding_Unknown.description>
+  <FT2_SiteBuilding_Unknown.description>Aprovecha el sitio sin clasificar de esta misma celda.</FT2_SiteBuilding_Unknown.description>
   <!-- EN: insect gene laboratory -->
   <FT2_InsectGeneLab.label>laboratorio genético de insectos</FT2_InsectGeneLab.label>
   <!-- EN: Studies local insect samples, supplying genetic material and the normal vassal xenotype editor with available vanilla and modded genes. Insects occasionally injure workers. -->
