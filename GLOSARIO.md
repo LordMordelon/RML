@@ -162,7 +162,7 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | EMP | **PEM** | Oficial: «granadas PEM», «obús PEM», «lanzagranadas PEM», el daño `EMP`. Lo usan así Combat Extended y el `ARMAS-DMS.md` de DMS. Hasta el 25-oct-2026 la familia DMS y Fortified Features Framework lo dejaban como «EMP». El 29-oct-2026 se corrigieron los textos de todo RML |
 | siege | asedio | |
 | drop pod raid | **asalto en cápsulas de escape** | Sigue a *raid* y *drop pod*. Decía «incursión en cápsulas de escape» hasta el 27-oct-2026 |
-| tile (del mapa o del mundo) | **celda** | Oficial: «Inspector de celdas», «Esta celda está ocupada», «celdas/día» (23 usos, contra 4 de «casilla»). Decidido por Angel el 27-oct-2026. «Baldosa» es el piso. Pendiente: revisar los 298 usos de «casilla» en 70 archivos de RML, uno por uno con su inglés: una casilla para marcar (*checkbox*) se queda |
+| tile (del mapa o del mundo) | **celda** | Oficial: «Inspector de celdas», «Esta celda está ocupada», «celdas/día» (23 usos, contra 4 de «casilla»). Decidido por Angel el 27-oct-2026. «Baldosa» es el piso. Los usos de «casilla» de RML se revisaron uno por uno el 29-oct-2026 (paso 4 de PLAN-REVISION-GENERAL.md); una casilla para marcar (*checkbox*) se queda |
 | cooldown | **enfriamiento** | Oficial («Enfriamiento de vuelo», «Enfriamiento CaC»). Decidido por Angel el 27-oct-2026, también para RimPacts |
 | idle (colono sin trabajo) | **ocioso** | Oficial («1 colono ocioso», `ActivityIconIdle`). Una caravana o una torreta quieta es **inactiva**, como en el juego («Caravana inactiva»). Pendiente: revisar los 40 «Inactivo» de RML que vienen de *idle*, uno por uno |
 | loot | botín | |

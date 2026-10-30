@@ -193,7 +193,18 @@ que se vio obligado a aterrizar cerca» (Vanilla Christmas), «asalto enemigo» 
 Expanded, que decía «incursión de grupo visitante» y pasó a la oficial «grupo de visitantes». «Asalto: gravinave
 enemiga» sigue a «Asalto: cultistas horaxianos».
 
-Falta: «casilla» (298, a revisar).
+**«casilla» → «celda», hecho el 29-oct-2026**, un commit por mod (53 commits, 155ce067…5ff3f28c): 265 textos en 52
+mods, cada uno mirado con su `EN:` (*tile*, *cell* o *square* del mapa o del mundo). Las frases siguen a la oficial:
+«celdas del mundo» (no «casillas mundiales», en Geological Landforms), «por celda», «a {0} celdas de distancia». De paso,
+Altered Carbon decía «{0} casillas gloval» y quedó «{0} celdas del mundo». Quedan con «casilla» a propósito:
+
+- **Las casillas de marcar** (*checkbox*): Better autocasting for Vanilla Psycasts Expanded (4) y Winston Waves (1).
+- **Los «casilleros»** (*locker*, *tool cabinet*) de The Dead Man's Switch II, Props and Decor y Gravship 1 y 2.
+- **The Dead Man's Switch de 1.6** (1 uso) y los `UNUSED.xml` (2): congelada y no se tocan.
+
+Ningún texto de RML tiene el mismo inglés que una «casilla» de la oficial. La oficial dice «celda» en casi todo; la
+única «casilla» del mapa es `Coast.description` de Core (*This tile borders the coast* = «Esta casilla bordea la
+costa»), otro error posible para un PR a Ludeon.
 
 Del contraste de las dríadas (28-oct-2026) salieron dos más, los dos contra la oficial de Royalty e Ideology:
 «árbol de ánima» por el oficial «árbol ánima» (25 usos en 9 archivos de Vanilla Backstories, Props and Decor,
@@ -252,7 +263,7 @@ Cada sesión: un commit por arreglo, con el mod en el mensaje; las tres comproba
 **Hecho el 29-oct:** los términos chicos del paso 4, un commit por mod (ver el paso 4).
 **Estado:** todo subido a GitHub el 29-oct (f61f3997); la duda de «entropía psíquica», respondida.
 **Antes de seguir (Angel):** si puedes, probar en el juego VIE - Dryads y Anima Theme activos juntos.
-**Al empezar (Claude):** «lanzadera» se hizo el 29-oct en una sesión aparte; sigue «asalto» y al final «celda».
+**Al empezar (Claude):** «lanzadera», «asalto» y «celda» quedaron hechos el 29-oct (ver el paso 4); «celda», sin subir.
 **Decisiones de Angel:** los tres términos «a confirmar» de
 [GLOSARIO-ANIMA.md](Data/!Oskar%20Potocki/Vanilla%20Ideology%20Expanded%20-%20Anima%20Theme%20-%202666998627/GLOSARIO-ANIMA.md)
 («nexo ánima», «creasemillas», «creanimabric»). Recomendación: dejarlos así, salvo que en el juego se lean mal.
