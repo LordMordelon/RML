@@ -137,7 +137,7 @@ habitual en español; se usa así hasta que Angel lo cambie).
 | Precise fabrication center | **centro de fabricación de precisión** | propuesta | |
 | impact crater wasteland | **páramo de cráteres de impacto** | propuesta | Bioma |
 | Aerospace Applications / orbital dynamics / Microgravity Manufacturing | **aplicaciones aeroespaciales** / **dinámica orbital** / **fabricación en microgravedad** | propuesta | Investigaciones, en minúscula como las oficiales |
-| integrated circuits / ballistics / strategic systems | **circuitos integrados** / **balística** / **sistemas estratégicos** | propuesta | |
+| advanced / cutting-edge missile engineering / ballistic platform research | **ingeniería avanzada de misiles** / **ingeniería de misiles de vanguardia** / **investigación de plataformas balísticas** | propuesta | Investigaciones que el mod renombró el 29-oct-2026; antes eran *integrated circuits*, *strategic systems* y *ballistics* («circuitos integrados», «sistemas estratégicos», «balística») |
 
 ## Interfaz (fijados con el `Keyed`, 25-oct-2026)
 
@@ -262,7 +262,9 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | sinter | **sinterizar** | propuesta | «sinterizar tantacero x25» |
 | box furnace / sintering furnace | **horno de materiales** / **horno de sinterización** | familia | `DMS_LabFurnace` y `DMS_Furnace` |
 | Gas operation / Microelectronics basics | **manejo de gas** / **microelectrónicos básicos** | oficial | Investigaciones del juego |
-| vacuumize process / Radar / loitering munition (investigación) | **procesos al vacío** / **radar** / **municiones merodeadoras** | propuesta | |
+| vacuumize process (investigación) | **procesos al vacío** | propuesta | |
+| early warning and manual fire control / basic missile engineering | **alerta temprana y control de tiro manual** / **ingeniería básica de misiles** | propuesta | Investigaciones renombradas el 29-oct-2026; antes eran *Radar* y *loitering munition* |
+| (missile) airframe, en la descripción | **fuselaje** o **misil** | propuesta | Desde el 29-oct-2026 el mod escribe descripciones cortas, sin las clases reales (Hellfire, Tomahawk…): se traducen así, sin agregarlas |
 | Carbon synthesis | **síntesis de carbono** | propuesta | |
 | post-transfer safe period | **periodo seguro tras la transferencia** | propuesta | *raids*: «asaltos», oficial |
 | missile launch facility | **instalación de lanzamiento de misiles** | propuesta | Distinta de la «posición de lanzamiento de misiles» (`WorldObjectDef`) |

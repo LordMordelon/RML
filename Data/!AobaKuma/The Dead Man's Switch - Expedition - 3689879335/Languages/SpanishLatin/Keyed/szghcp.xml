@@ -211,7 +211,7 @@
   <!-- EN: Target: {0} ({1} tiles) -->
   <DMSE.Strike.Plan.Target>Objetivo: {0} ({1} celdas)</DMSE.Strike.Plan.Target>
   <!-- EN: Guidance channels: {0} (free {1}) · guidance period {2} -->
-  <DMSE.Strike.Plan.Channels>Canales de guiado: {0} (libres {1}) · límite por oleada {0} · periodo de guiado {2}</DMSE.Strike.Plan.Channels>
+  <DMSE.Strike.Plan.Channels>Canales de guiado: {0} (libres {1}) · periodo de guiado {2}</DMSE.Strike.Plan.Channels>
   <!-- EN: Wave limit: {0} missiles -->
   <DMSE.Strike.Plan.WaveRoundLimit>Límite por oleada: {0} misiles</DMSE.Strike.Plan.WaveRoundLimit>
   <!-- EN: This site has no map yet. The first missile to arrive generates it, and the site&apos;s own air defense, with fully loaded SAMs, then engages the missiles still in flight. -->
@@ -331,7 +331,7 @@ Enable research work for a colonist on that map. -->
   <!-- EN: {0} on {1}, launched from {2}: -->
   <DMSE.Strike.Report.Header>{0} sobre {1}, lanzada desde {2}:</DMSE.Strike.Report.Header>
   <!-- EN: Wave {0}: {1} launched: {2} intercepted in flight, {3} hit, {4} shot down at the target, {5} missed -->
-  <DMSE.Strike.Report.Wave>Oleada {0}: {1} lanzados — {2} interceptados en vuelo, {3} impactos, {4} derribados en el objetivo, {5} fallidos</DMSE.Strike.Report.Wave>
+  <DMSE.Strike.Report.Wave>Oleada {0}: {1} lanzados: {2} interceptados en vuelo, {3} impactos, {4} derribados en el objetivo, {5} fallidos</DMSE.Strike.Report.Wave>
   <!-- EN: , {0} stopped by shields -->
   <DMSE.Strike.Report.WaveShieldBlocked>, {0} detenidos por escudos</DMSE.Strike.Report.WaveShieldBlocked>
   <!-- EN: {0} arrived but their result is unknown. -->
@@ -361,7 +361,7 @@ Enable research work for a colonist on that map. -->
   <!-- EN: Currently active -->
   <DMSE.UI.ActiveConfig>Configuración activa</DMSE.UI.ActiveConfig>
   <!-- EN: Pending assembly: not yet active -->
-  <DMSE.UI.PendingConfig>Montaje pendiente: todavía no está activa</DMSE.UI.PendingConfig>
+  <DMSE.UI.PendingConfig>Montaje pendiente: todavía no está activo</DMSE.UI.PendingConfig>
   <!-- EN: Damage -->
   <DMSE.UI.DamageChange>Daño</DMSE.UI.DamageChange>
   <!-- EN: Departure blocked: {0} errors, {1} warnings -->
@@ -435,7 +435,7 @@ Enable research work for a colonist on that map. -->
   <!-- EN: the position of Stele has been tracked down, hunting squad and possible air strike will arrive in no time, transfer before it&apos;s too late. -->
   <DMSE.Alert.HuntdownThreatCritical.Desc>Rastrearon la posición de la Estela: un escuadrón de cacería, y quizás un ataque aéreo, llegarán en cualquier momento. Haz la transferencia antes de que sea tarde.</DMSE.Alert.HuntdownThreatCritical.Desc>
   <!-- EN: {0} incoming threats, interception window: {1} left -->
-  <DMSE.Alert.Pods>{0} amenazas entrantes — ventana de intercepción: quedan {1}</DMSE.Alert.Pods>
+  <DMSE.Alert.Pods>{0} amenazas entrantes, ventana de intercepción: quedan {1}</DMSE.Alert.Pods>
   <!-- EN: Midcourse intercept window: {0} -->
   <DMSE.Alert.Pods.Window.Midcourse>Ventana de intercepción a mitad de trayecto: {0}</DMSE.Alert.Pods.Window.Midcourse>
   <!-- EN: Terminal (CIWS) window: {0} -->
@@ -533,7 +533,7 @@ Enable research work for a colonist on that map. -->
   <!-- EN: Observation ended early. Enemy forces may regroup. -->
   <DMSE.Alert.Exist.ObservationEnded>La observación terminó antes de tiempo. Las fuerzas enemigas podrían reagruparse.</DMSE.Alert.Exist.ObservationEnded>
   <!-- EN: {0} missiles outbound: first impact in {1} -->
-  <DMSE.Alert.PlayerMissiles.Label>{0} misiles en camino — primer impacto en {1}</DMSE.Alert.PlayerMissiles.Label>
+  <DMSE.Alert.PlayerMissiles.Label>{0} misiles en camino: primer impacto en {1}</DMSE.Alert.PlayerMissiles.Label>
   <!-- EN: Target: {0} -->
   <DMSE.Alert.PlayerMissiles.MapHeader>Objetivo: {0}</DMSE.Alert.PlayerMissiles.MapHeader>
   <!-- EN:   Impact in {0}: -->

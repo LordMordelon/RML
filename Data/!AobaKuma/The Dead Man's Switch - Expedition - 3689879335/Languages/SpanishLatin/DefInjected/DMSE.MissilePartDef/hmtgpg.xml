@@ -3,11 +3,11 @@
   <!-- EN: thermonuclear warhead -->
   <DMSE_Ballistic_Warhead_Thermonuclear.label>ojiva termonuclear</DMSE_Ballistic_Warhead_Thermonuclear.label>
   <!-- EN: A thermonuclear warhead. It has no special effects. It does not need any. -->
-  <DMSE_Ballistic_Warhead_Thermonuclear.description>Una enorme ojiva explosiva de rendimiento termonuclear. Sin efectos especiales: el radio de la explosión y el daño hablan por sí solos.</DMSE_Ballistic_Warhead_Thermonuclear.description>
+  <DMSE_Ballistic_Warhead_Thermonuclear.description>Una ojiva termonuclear. No tiene efectos especiales. No le hacen falta.</DMSE_Ballistic_Warhead_Thermonuclear.description>
   <!-- EN: airburst warhead -->
   <DMSE_Ballistic_Warhead_Airburst.label>ojiva de estallido aéreo</DMSE_Ballistic_Warhead_Airburst.label>
   <!-- EN: A warhead that detonates above the target to spread fragments over a wide area. When used on an interceptor, it gets extra chances to hit in each engagement. -->
-  <DMSE_Ballistic_Warhead_Airburst.description>Detona por encima del objetivo para cubrir la mayor superficie posible con fragmentos. Usada como interceptor, gana tiradas de intercepción adicionales en cada ventana de intercepción.</DMSE_Ballistic_Warhead_Airburst.description>
+  <DMSE_Ballistic_Warhead_Airburst.description>Una ojiva que detona por encima del objetivo para esparcir fragmentos sobre una zona amplia. Usada en un interceptor, gana oportunidades adicionales de impacto en cada enfrentamiento.</DMSE_Ballistic_Warhead_Airburst.description>
   <!-- EN: cluster bomblet warhead -->
   <DMSE_Ballistic_Warhead_ClusterBomblet.label>ojiva de submuniciones en racimo</DMSE_Ballistic_Warhead_ClusterBomblet.label>
   <!-- EN: A warhead that opens over the target and scatters many small fragmentation bomblets. Each bomblet falls on its own, spreading damage across a whole compound instead of a single point. -->
@@ -19,19 +19,19 @@
   <!-- EN: inertial guidance -->
   <DMSE_Ballistic_Guidance_Inertial.label>guiado inercial</DMSE_Ballistic_Guidance_Inertial.label>
   <!-- EN: Basic inertial guidance. With a big enough warhead, precision hardly matters. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_Ballistic_Guidance_Inertial.description>Unidad de referencia inercial solidaria. Con un rendimiento termonuclear, la alta precisión sobra. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo; no fija edificios ni unidades.</DMSE_Ballistic_Guidance_Inertial.description>
+  <DMSE_Ballistic_Guidance_Inertial.description>Guiado inercial básico. Con una ojiva lo bastante grande, la precisión casi no importa. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_Ballistic_Guidance_Inertial.description>
   <!-- EN: fire-control guidance -->
   <DMSE_Ballistic_Guidance_FireControl.label>guiado por control de tiro</DMSE_Ballistic_Guidance_FireControl.label>
   <!-- EN: Terminal guidance assisted by the colony&apos;s fire-control radar network. It greatly tightens impact dispersion. -->
-  <DMSE_Ballistic_Guidance_FireControl.description>Guiado terminal asistido por la red de radares de control de tiro de la colonia. Reduce mucho la dispersión del impacto, para ataques de precisión.</DMSE_Ballistic_Guidance_FireControl.description>
+  <DMSE_Ballistic_Guidance_FireControl.description>Guiado terminal asistido por la red de radares de control de tiro de la colonia. Reduce mucho la dispersión del impacto.</DMSE_Ballistic_Guidance_FireControl.description>
   <!-- EN: laser terminal seeker -->
   <DMSE_Ballistic_Guidance_Laser.label>buscador láser terminal</DMSE_Ballistic_Guidance_Laser.label>
   <!-- EN: A semi-active laser seeker. It homes on the most recent point your colony marked on the target map with a laser target designator, and falls back to inertial guidance if there is none. -->
-  <DMSE_Ballistic_Guidance_Laser.description>Buscador láser semiactivo para el vehículo de reentrada. Se fija en la designación láser más reciente que tu facción haya marcado en el mapa objetivo con un designador láser de objetivos. Si no hay ninguna, recurre al apuntado inercial.</DMSE_Ballistic_Guidance_Laser.description>
+  <DMSE_Ballistic_Guidance_Laser.description>Un buscador láser semiactivo. Se dirige al punto más reciente que tu colonia haya marcado en el mapa objetivo con un designador láser de objetivos, y si no hay ninguno, recurre al guiado inercial.</DMSE_Ballistic_Guidance_Laser.description>
   <!-- EN: no payload -->
   <DMSE_Ballistic_Payload_None.label>sin carga útil</DMSE_Ballistic_Payload_None.label>
   <!-- EN: No secondary charge. The warhead does all the work. -->
-  <DMSE_Ballistic_Payload_None.description>Sin carga útil secundaria. En un ataque balístico, la ojiva principal suele bastar por sí sola.</DMSE_Ballistic_Payload_None.description>
+  <DMSE_Ballistic_Payload_None.description>Sin carga secundaria. La ojiva hace todo el trabajo.</DMSE_Ballistic_Payload_None.description>
   <!-- EN: cluster payload -->
   <DMSE_Ballistic_Payload_Cluster.label>carga en racimo</DMSE_Ballistic_Payload_Cluster.label>
   <!-- EN: Scatters submunitions across a wide area, trading concentrated blast for coverage. -->
@@ -43,35 +43,35 @@
   <!-- EN: antiparticle payload -->
   <DMSE_Ballistic_Payload_Antiparticle.label>carga de antipartículas</DMSE_Ballistic_Payload_Antiparticle.label>
   <!-- EN: A secondary antiparticle burst that destroys almost everything in range. The most destructive payload available. -->
-  <DMSE_Ballistic_Payload_Antiparticle.description>Un estallido secundario de antipartículas que vaporiza todo lo que tiene a su alcance. La carga útil secundaria más destructiva que existe.</DMSE_Ballistic_Payload_Antiparticle.description>
+  <DMSE_Ballistic_Payload_Antiparticle.description>Un estallido secundario de antipartículas que destruye casi todo lo que tiene a su alcance. La carga útil más destructiva que hay.</DMSE_Ballistic_Payload_Antiparticle.description>
   <!-- EN: light HE warhead -->
   <DMSE_Light_Warhead_HE.label>ojiva HE ligera</DMSE_Light_Warhead_HE.label>
   <!-- EN: A compact high-explosive warhead sized for light missiles. -->
-  <DMSE_Light_Warhead_HE.description>Una ojiva explosiva compacta, a la escala de los misiles ligeros. Explosión estándar, sin efectos especiales.</DMSE_Light_Warhead_HE.description>
+  <DMSE_Light_Warhead_HE.description>Una ojiva explosiva compacta, del tamaño justo para los misiles ligeros.</DMSE_Light_Warhead_HE.description>
   <!-- EN: incendiary warhead -->
   <DMSE_Light_Warhead_Incendiary.label>ojiva incendiaria</DMSE_Light_Warhead_Incendiary.label>
   <!-- EN: Scatters burning thermite on impact, setting fire to everything in its radius, even behind walls. -->
-  <DMSE_Light_Warhead_Incendiary.description>Esparce termita ardiente al impactar. Prende fuego a todas las celdas en un radio de N, haya o no línea de visión.</DMSE_Light_Warhead_Incendiary.description>
+  <DMSE_Light_Warhead_Incendiary.description>Esparce termita ardiente al impactar y prende fuego a todo lo que está en su radio, incluso detrás de los muros.</DMSE_Light_Warhead_Incendiary.description>
   <!-- EN: continuous rod warhead -->
   <DMSE_Light_Warhead_ContinuousRod.label>ojiva de varilla continua</DMSE_Light_Warhead_ContinuousRod.label>
   <!-- EN: A ring of steel rods that expands when it detonates, shredding aircraft. Improves the hit chance of interceptors. -->
-  <DMSE_Light_Warhead_ContinuousRod.description>Un anillo de varillas de acero que se expande al detonar y maximiza la densidad de fragmentos contra blancos aéreos. Da una bonificación a la probabilidad de intercepción cuando se usa como misil tierra-aire.</DMSE_Light_Warhead_ContinuousRod.description>
+  <DMSE_Light_Warhead_ContinuousRod.description>Un anillo de varillas de acero que se expande al detonar y destroza aeronaves. Mejora la probabilidad de impacto de los interceptores.</DMSE_Light_Warhead_ContinuousRod.description>
   <!-- EN: inertial guidance -->
   <DMSE_Light_Guidance_Inertial.label>guiado inercial</DMSE_Light_Guidance_Inertial.label>
   <!-- EN: Basic inertial guidance with no seeker. The missile follows a preset path. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_Light_Guidance_Inertial.description>Unidad de referencia inercial solidaria básica. Sin buscadores: depende de una trayectoria de vuelo preprogramada. La dispersión no cambia. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo; no fija edificios ni unidades.</DMSE_Light_Guidance_Inertial.description>
+  <DMSE_Light_Guidance_Inertial.description>Guiado inercial básico, sin buscador. El misil sigue una trayectoria preprogramada. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_Light_Guidance_Inertial.description>
   <!-- EN: heat-signature seeker -->
   <DMSE_Light_Guidance_IR.label>buscador de firma térmica</DMSE_Light_Guidance_IR.label>
   <!-- EN: A passive infrared seeker that homes on heat. It targets the hottest indoor room if it is at least 15°C warmer than outside, otherwise the largest creature on the map, and falls back to inertial guidance if it finds neither. -->
-  <DMSE_Light_Guidance_IR.description>Un buscador infrarrojo pasivo que se dirige a la firma térmica más fuerte. Se fija en la habitación interior más caliente si está al menos 15 °C por encima del exterior; si no, en la criatura más grande del mapa. Si no encuentra ninguna de las dos, recurre al apuntado inercial.</DMSE_Light_Guidance_IR.description>
+  <DMSE_Light_Guidance_IR.description>Un buscador infrarrojo pasivo que se dirige al calor. Fija la habitación interior más caliente si está al menos 15 °C por encima del exterior; si no, la criatura más grande del mapa. Si no encuentra ninguna de las dos, recurre al guiado inercial.</DMSE_Light_Guidance_IR.description>
   <!-- EN: anti-radiation seeker -->
   <DMSE_Light_Guidance_AntiRadiation.label>buscador antirradiación</DMSE_Light_Guidance_AntiRadiation.label>
   <!-- EN: A seeker that homes on radar emissions. It targets the most powerful enemy radar that is switched on, then the building drawing the most power, then falls back to inertial guidance. Passive acoustic mirrors are invisible to it. -->
-  <DMSE_Light_Guidance_AntiRadiation.description>Se dirige a las emisiones de radar activo. Se fija en el radar enemigo encendido de mayor potencia del mapa objetivo; los radares acústicos pasivos le son invisibles. Si no hay ninguno, recurre al edificio que más energía consume, y después al apuntado inercial.</DMSE_Light_Guidance_AntiRadiation.description>
+  <DMSE_Light_Guidance_AntiRadiation.description>Un buscador que se dirige a las emisiones de radar. Fija el radar enemigo encendido más potente; si no hay, el edificio que más energía consume, y por último recurre al guiado inercial. Los espejos acústicos pasivos le son invisibles.</DMSE_Light_Guidance_AntiRadiation.description>
   <!-- EN: laser seeker -->
   <DMSE_Light_Guidance_Laser.label>buscador láser</DMSE_Light_Guidance_Laser.label>
   <!-- EN: A semi-active laser seeker. It homes on the most recent point your colony marked on the target map with a laser target designator, and falls back to inertial guidance if there is none. -->
-  <DMSE_Light_Guidance_Laser.description>Buscador láser semiactivo. Se fija en la designación láser más reciente que tu facción haya marcado en el mapa objetivo con un designador láser de objetivos. Si no hay ninguna, recurre al apuntado inercial.</DMSE_Light_Guidance_Laser.description>
+  <DMSE_Light_Guidance_Laser.description>Un buscador láser semiactivo. Se dirige al punto más reciente que tu colonia haya marcado en el mapa objetivo con un designador láser de objetivos, y si no hay ninguno, recurre al guiado inercial.</DMSE_Light_Guidance_Laser.description>
   <!-- EN: semi-active radar seeker -->
   <DMSE_Light_Guidance_SemiActive.label>buscador de radar semiactivo</DMSE_Light_Guidance_SemiActive.label>
   <!-- EN: A semi-active radar seeker that homes on the reflection of a fire-control radar illuminating the target. Built for interception; against ground targets it uses inertial guidance with tight dispersion. -->
@@ -79,7 +79,7 @@
   <!-- EN: no payload -->
   <DMSE_Light_Payload_None.label>sin carga útil</DMSE_Light_Payload_None.label>
   <!-- EN: No secondary charge. The warhead does all the work. -->
-  <DMSE_Light_Payload_None.description>Sin carga útil secundaria. El misil depende por completo de la detonación de su ojiva principal.</DMSE_Light_Payload_None.description>
+  <DMSE_Light_Payload_None.description>Sin carga secundaria. La ojiva hace todo el trabajo.</DMSE_Light_Payload_None.description>
   <!-- EN: HE payload -->
   <DMSE_Light_Payload_HighExplosive.label>carga HE</DMSE_Light_Payload_HighExplosive.label>
   <!-- EN: A second high-explosive charge that detonates after the warhead, widening the damage radius. -->
@@ -91,31 +91,31 @@
   <!-- EN: toxic gas payload -->
   <DMSE_Light_Payload_ToxicGas.label>carga de gas tóxico</DMSE_Light_Payload_ToxicGas.label>
   <!-- EN: Releases a cloud of toxic gas that lingers long after the blast, denying the area to anyone without protection. -->
-  <DMSE_Light_Payload_ToxicGas.description>Dispersa una nube de gas tóxico en N celdas, que persiste mucho después de la explosión y le niega la zona a la infantería sin protección.</DMSE_Light_Payload_ToxicGas.description>
+  <DMSE_Light_Payload_ToxicGas.description>Libera una nube de gas tóxico que persiste mucho después de la explosión y le niega la zona a cualquiera que no tenga protección.</DMSE_Light_Payload_ToxicGas.description>
   <!-- EN: chaff dispenser -->
   <DMSE_Light_Payload_Chaff.label>dispensador de chaff</DMSE_Light_Payload_Chaff.label>
   <!-- EN: A single bundle of chaff and radar-absorbing streamers. It can break one enemy fire-control lock, then it is spent. -->
-  <DMSE_Light_Payload_Chaff.description>Un solo paquete de chaff y unas cuantas tiras absorbentes de radar. Da una oportunidad de romper el fijado de un control de tiro enemigo; después, el dispensador queda vacío el resto del vuelo.</DMSE_Light_Payload_Chaff.description>
+  <DMSE_Light_Payload_Chaff.description>Un solo paquete de chaff y tiras absorbentes de radar. Puede romper una vez el fijado de un control de tiro enemigo; después, se agota.</DMSE_Light_Payload_Chaff.description>
   <!-- EN: high-explosive warhead -->
   <DMSE_Warhead_HE.label>ojiva explosiva</DMSE_Warhead_HE.label>
   <!-- EN: A large high-explosive warhead with a wide blast radius. -->
-  <DMSE_Warhead_HE.description>Una gran ojiva explosiva. Radio amplio, mucho daño.</DMSE_Warhead_HE.description>
+  <DMSE_Warhead_HE.description>Una gran ojiva explosiva con un radio de explosión amplio.</DMSE_Warhead_HE.description>
   <!-- EN: armor-piercing warhead -->
   <DMSE_Warhead_AP.label>ojiva perforante</DMSE_Warhead_AP.label>
   <!-- EN: A focused penetrating warhead. Its blast radius is smaller, but it does far more damage. -->
-  <DMSE_Warhead_AP.description>Un penetrador concentrado. Radio menor, pero mucho más daño.</DMSE_Warhead_AP.description>
+  <DMSE_Warhead_AP.description>Una ojiva penetrante concentrada. Su radio de explosión es menor, pero hace mucho más daño.</DMSE_Warhead_AP.description>
   <!-- EN: EMP warhead -->
   <DMSE_Warhead_EMP.label>ojiva PEM</DMSE_Warhead_EMP.label>
   <!-- EN: An EMP warhead that disables mechanoids and electronics over a wide area without a lethal blast. -->
-  <DMSE_Warhead_EMP.description>Inutiliza a los mecanoides y aturde a los objetivos en una zona amplia, sin una explosión letal.</DMSE_Warhead_EMP.description>
+  <DMSE_Warhead_EMP.description>Una ojiva PEM que inutiliza a los mecanoides y la electrónica en una zona amplia, sin una explosión letal.</DMSE_Warhead_EMP.description>
   <!-- EN: inertial guidance -->
   <DMSE_Guidance_Inertial.label>guiado inercial</DMSE_Guidance_Inertial.label>
   <!-- EN: Inertial guidance with no target recognition and no terminal guidance. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_Guidance_Inertial.description>Navegación inercial sin reconocimiento de objetivos. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo, dentro del círculo inscrito en el mapa. No fija edificios ni unidades y no tiene guiado terminal.</DMSE_Guidance_Inertial.description>
+  <DMSE_Guidance_Inertial.description>Guiado inercial sin reconocimiento de objetivos ni guiado terminal. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_Guidance_Inertial.description>
   <!-- EN: active radar seeker -->
   <DMSE_Guidance_ActiveRadar.label>buscador de radar activo</DMSE_Guidance_ActiveRadar.label>
   <!-- EN: A fire-and-forget active radar seeker. It targets the largest enemy building, or the largest enemy creature if there are no buildings, and falls back to inertial guidance if it finds nothing. Provides terminal guidance. -->
-  <DMSE_Guidance_ActiveRadar.description>Un buscador de radar activo de tipo dispara y olvida. Fija el edificio hostil de mayor superficie; si no hay edificios hostiles, fija la criatura hostil de mayor tamaño corporal. Si no encuentra un objetivo, recurre a la dispersión inercial alrededor del centro del mapa. Tiene guiado terminal.</DMSE_Guidance_ActiveRadar.description>
+  <DMSE_Guidance_ActiveRadar.description>Un buscador de radar activo de tipo dispara y olvida. Fija el edificio enemigo más grande, o la criatura enemiga más grande si no hay edificios, y si no encuentra nada, recurre al guiado inercial. Tiene guiado terminal.</DMSE_Guidance_ActiveRadar.description>
   <!-- EN: TV guidance -->
   <DMSE_Guidance_Precision.label>guiado por TV</DMSE_Guidance_Precision.label>
   <!-- EN: An operator-guided TV seeker with a datalink to the launch site. When the missile reaches the target map, the game pauses and you choose the impact point. Greatly tightens dispersion. Enemy TV missiles have no operator and use inertial guidance instead. -->
@@ -123,7 +123,7 @@
   <!-- EN: electromagnetic-signal seeker -->
   <DMSE_Guidance_EMSignal.label>buscador de señal electromagnética</DMSE_Guidance_EMSignal.label>
   <!-- EN: A passive seeker that homes on electrical activity. It targets the powered enemy building drawing the most electricity, and falls back to inertial guidance if nothing is powered. -->
-  <DMSE_Guidance_EMSignal.description>Buscador pasivo que se dirige a las emisiones electromagnéticas de los tendidos eléctricos y la maquinaria. Se fija en el edificio enemigo con energía que más electricidad consume en el mapa objetivo. Si nada tiene energía, recurre al apuntado inercial.</DMSE_Guidance_EMSignal.description>
+  <DMSE_Guidance_EMSignal.description>Un buscador pasivo que se dirige a la actividad eléctrica. Fija el edificio enemigo con energía que más electricidad consume, y si nada tiene energía, recurre al guiado inercial.</DMSE_Guidance_EMSignal.description>
   <!-- EN: anti-ship radar seeker -->
   <DMSE_Guidance_AntiShip.label>buscador de radar antibuque</DMSE_Guidance_AntiShip.label>
   <!-- EN: An active radar seeker built for moving targets, such as ships and other mobile bases on the world map. It updates its aim more often than a normal seeker, but the missile still misses if the target moves out of its remaining range. -->
@@ -131,23 +131,23 @@
   <!-- EN: laser seeker -->
   <DMSE_Guidance_Laser.label>buscador láser</DMSE_Guidance_Laser.label>
   <!-- EN: A semi-active laser seeker. It homes on the most recent point your colony marked on the target map with a laser target designator, and falls back to inertial guidance if there is none. -->
-  <DMSE_Guidance_Laser.description>Buscador láser semiactivo. Se fija en la designación láser más reciente que tu facción haya marcado en el mapa objetivo con un designador láser de objetivos. Si no hay ninguna, recurre al apuntado inercial.</DMSE_Guidance_Laser.description>
+  <DMSE_Guidance_Laser.description>Un buscador láser semiactivo. Se dirige al punto más reciente que tu colonia haya marcado en el mapa objetivo con un designador láser de objetivos, y si no hay ninguno, recurre al guiado inercial.</DMSE_Guidance_Laser.description>
   <!-- EN: standard motor -->
   <DMSE_Propulsion_Standard.label>motor estándar</DMSE_Propulsion_Standard.label>
   <!-- EN: A standard solid-fuel rocket motor. -->
-  <DMSE_Propulsion_Standard.description>Motor básico de combustible sólido.</DMSE_Propulsion_Standard.description>
+  <DMSE_Propulsion_Standard.description>Un motor cohete estándar de combustible sólido.</DMSE_Propulsion_Standard.description>
   <!-- EN: boosted motor -->
   <DMSE_Propulsion_Booster.label>motor potenciado</DMSE_Propulsion_Booster.label>
   <!-- EN: A more powerful motor that reaches the target faster and flies farther. -->
-  <DMSE_Propulsion_Booster.description>Un motor de mayor impulso que llega antes al objetivo y aumenta el alcance.</DMSE_Propulsion_Booster.description>
+  <DMSE_Propulsion_Booster.description>Un motor más potente, que llega antes al objetivo y vuela más lejos.</DMSE_Propulsion_Booster.description>
   <!-- EN: cluster submunitions -->
   <DMSE_Payload_Cluster.label>submuniciones en racimo</DMSE_Payload_Cluster.label>
   <!-- EN: Releases submunitions that cause a second blast across the impact area. -->
-  <DMSE_Payload_Cluster.description>Libera una explosión secundaria sobre la zona del impacto.</DMSE_Payload_Cluster.description>
+  <DMSE_Payload_Cluster.description>Libera submuniciones que provocan una segunda explosión sobre la zona del impacto.</DMSE_Payload_Cluster.description>
   <!-- EN: no payload -->
   <DMSE_Payload_None.label>sin carga útil</DMSE_Payload_None.label>
   <!-- EN: No secondary charge. The warhead does all the work, keeping the missile light and its range long. -->
-  <DMSE_Payload_None.description>Sin carga útil secundaria. La ojiva tiene que bastar por sí sola, lo que mantiene ligero el fuselaje del Scorer y largo su alcance.</DMSE_Payload_None.description>
+  <DMSE_Payload_None.description>Sin carga secundaria. La ojiva hace todo el trabajo, lo que mantiene ligero el misil y largo su alcance.</DMSE_Payload_None.description>
   <!-- EN: bunker buster payload -->
   <DMSE_Payload_BunkerBuster.label>carga rompebúnkeres</DMSE_Payload_BunkerBuster.label>
   <!-- EN: A hardened penetrator charge with a delayed fuze. It bores through thick rock roofs and detonates inside, wrecking nearby structures.\n\nWithout this or a penetrator warhead, a missile that hits a mountain detonates on the rock surface, and its seeker ignores targets under thick roofs. -->
@@ -159,19 +159,19 @@
   <!-- EN: unitary penetrating warhead -->
   <DMSE_AdvCruise_Warhead_Unitary.label>ojiva penetrante unitaria</DMSE_AdvCruise_Warhead_Unitary.label>
   <!-- EN: A single large charge in a light, tough casing. It hits harder than the old Scorer warhead and can punch through a roof before it detonates. -->
-  <DMSE_AdvCruise_Warhead_Unitary.description>Una carga unitaria de la clase WDU-36: una carcasa más ligera y resistente, con más eficiencia explosiva que la vieja ojiva del Scorer y la penetración suficiente para abrir un techo antes de detonar.</DMSE_AdvCruise_Warhead_Unitary.description>
+  <DMSE_AdvCruise_Warhead_Unitary.description>Una sola carga grande en una carcasa ligera y resistente. Golpea más fuerte que la vieja ojiva del Scorer y puede atravesar un techo antes de detonar.</DMSE_AdvCruise_Warhead_Unitary.description>
   <!-- EN: hard-target penetrator -->
   <DMSE_AdvCruise_Warhead_Penetrator.label>penetrador de blancos duros</DMSE_AdvCruise_Warhead_Penetrator.label>
   <!-- EN: A dense tungsten penetrator that punches through thick roofs and overhead mountain before detonating inside. Underground shelters offer no protection against it. -->
-  <DMSE_AdvCruise_Warhead_Penetrator.description>Un denso penetrador de tungsteno que atraviesa techos gruesos, incluso de montaña, antes de detonar adentro, en el papel de destructor de búnkeres que también cumple la familia Tomahawk. Los refugios subterráneos dejan de proteger.</DMSE_AdvCruise_Warhead_Penetrator.description>
+  <DMSE_AdvCruise_Warhead_Penetrator.description>Un denso penetrador de tungsteno que atraviesa techos gruesos, incluso de montaña, antes de detonar adentro. Los refugios subterráneos no protegen contra él.</DMSE_AdvCruise_Warhead_Penetrator.description>
   <!-- EN: terrain-matching guidance -->
   <DMSE_AdvCruise_Guidance_TerrainMatch.label>guiado por correlación del terreno</DMSE_AdvCruise_Guidance_TerrainMatch.label>
   <!-- EN: Guidance that compares the ground below with a stored map, giving very tight dispersion. It cannot be retargeted in flight and has no terminal guidance, so a moving target is simply missed. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_AdvCruise_Guidance_TerrainMatch.description>Correlación del contorno del terreno y de la escena, en la tradición de TERCOM y DSMAC: el misil sigue una ruta trazada con precisión de topógrafo y se corrige contra el suelo, lo que da una dispersión muy baja. No se le puede cambiar el objetivo en vuelo y no tiene ningún guiado terminal, así que, si el objetivo se aleja, simplemente lo falla. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo; no fija edificios ni unidades.</DMSE_AdvCruise_Guidance_TerrainMatch.description>
+  <DMSE_AdvCruise_Guidance_TerrainMatch.description>Un guiado que compara el suelo de abajo con un mapa guardado, lo que da una dispersión muy baja. No se le puede cambiar el objetivo en vuelo y no tiene guiado terminal, así que un objetivo en movimiento simplemente se falla. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_AdvCruise_Guidance_TerrainMatch.description>
   <!-- EN: two-way datalink -->
   <DMSE_AdvCruise_Guidance_Datalink.label>enlace de datos bidireccional</DMSE_AdvCruise_Guidance_Datalink.label>
   <!-- EN: A two-way satellite datalink. The missile can be retargeted in flight, and when it reaches the target map the game pauses so you can pick the impact point. The most accurate option, and the only one that can chase a moving target mid-flight. -->
-  <DMSE_AdvCruise_Guidance_Datalink.description>Un enlace de datos por satélite del tipo Block IV: al misil se le puede cambiar el objetivo en vuelo e incluso dejarlo merodeando, y cuando llega al mapa objetivo el juego se pausa y eliges tú el punto de impacto. Es la opción más precisa, y la única que permite perseguir un objetivo en movimiento a mitad del vuelo.</DMSE_AdvCruise_Guidance_Datalink.description>
+  <DMSE_AdvCruise_Guidance_Datalink.description>Un enlace de datos bidireccional por satélite. Al misil se le puede cambiar el objetivo en vuelo, y cuando llega al mapa objetivo el juego se pausa para que elijas el punto de impacto. Es la opción más precisa, y la única que puede perseguir un objetivo en movimiento a mitad del vuelo.</DMSE_AdvCruise_Guidance_Datalink.description>
   <!-- EN: anti-ship radar seeker -->
   <DMSE_AdvCruise_Guidance_AntiShip.label>buscador de radar antibuque</DMSE_AdvCruise_Guidance_AntiShip.label>
   <!-- EN: An active radar seeker built for moving targets, such as ships and other mobile bases on the world map. It updates its aim more often than a normal seeker, but the missile still misses if the target moves out of its remaining range. -->
@@ -179,23 +179,23 @@
   <!-- EN: turbofan sustainer -->
   <DMSE_AdvCruise_Propulsion_Turbofan.label>turbofán de crucero</DMSE_AdvCruise_Propulsion_Turbofan.label>
   <!-- EN: A small fuel-efficient turbofan engine. It flies much farther than a rocket motor and is harder to spot on radar, but it is slow. -->
-  <DMSE_AdvCruise_Propulsion_Turbofan.description>Un pequeño turbofán de la clase del F107, que quema combustible líquido en altura. Mucho más eficiente que un motor cohete y mucho más discreto en el radar que un acelerador, a costa de la velocidad.</DMSE_AdvCruise_Propulsion_Turbofan.description>
+  <DMSE_AdvCruise_Propulsion_Turbofan.description>Un turbofán pequeño y de bajo consumo. Vuela mucho más lejos que un motor cohete y es más difícil de ver en el radar, pero es lento.</DMSE_AdvCruise_Propulsion_Turbofan.description>
   <!-- EN: extended-range turbofan -->
   <DMSE_AdvCruise_Propulsion_TurbofanER.label>turbofán de alcance extendido</DMSE_AdvCruise_Propulsion_TurbofanER.label>
   <!-- EN: A fuel-saving turbofan with a larger tank. It has the longest range of any cruise setup, but it is the slowest to arrive and the most expensive to build. -->
-  <DMSE_AdvCruise_Propulsion_TurbofanER.description>Un turbofán optimizado para el consumo, con un tanque más grande. El mayor alcance de todas las configuraciones de crucero, pero el que más tarda en llegar y el más caro de fabricar.</DMSE_AdvCruise_Propulsion_TurbofanER.description>
+  <DMSE_AdvCruise_Propulsion_TurbofanER.description>Un turbofán de bajo consumo con un tanque más grande. Tiene el mayor alcance de todas las configuraciones de crucero, pero es el que más tarda en llegar y el más caro de fabricar.</DMSE_AdvCruise_Propulsion_TurbofanER.description>
   <!-- EN: solid rocket booster -->
   <DMSE_AdvCruise_Propulsion_Booster.label>acelerador de combustible sólido</DMSE_AdvCruise_Propulsion_Booster.label>
   <!-- EN: A solid rocket booster that pushes the missile to high speed, then burns out. It is very fast and very easy to spot, and its weight cuts the missile&apos;s range. -->
-  <DMSE_AdvCruise_Propulsion_Booster.description>Un acelerador sólido desechable que lleva el misil a gran velocidad y después se agota. Muy rápido y muy evidente: el alcance se resiente, porque la carcasa del acelerador y su propelente se comen parte del presupuesto del fuselaje.</DMSE_AdvCruise_Propulsion_Booster.description>
+  <DMSE_AdvCruise_Propulsion_Booster.description>Un acelerador de combustible sólido que lleva el misil a gran velocidad y después se agota. Es muy rápido y muy fácil de ver, y su peso le resta alcance al misil.</DMSE_AdvCruise_Propulsion_Booster.description>
   <!-- EN: no payload -->
   <DMSE_AdvCruise_Payload_None.label>sin carga útil</DMSE_AdvCruise_Payload_None.label>
   <!-- EN: No secondary charge. The warhead and fuel tank get all the space. -->
-  <DMSE_AdvCruise_Payload_None.description>Sin carga útil secundaria. La ojiva unitaria y el tanque de combustible se quedan con todo el fuselaje.</DMSE_AdvCruise_Payload_None.description>
+  <DMSE_AdvCruise_Payload_None.description>Sin carga secundaria. La ojiva y el tanque de combustible se quedan con todo el espacio.</DMSE_AdvCruise_Payload_None.description>
   <!-- EN: submunition dispenser -->
   <DMSE_AdvCruise_Payload_Submunition.label>dispensador de submuniciones</DMSE_AdvCruise_Payload_Submunition.label>
   <!-- EN: A dispenser that opens over the target and scatters small bomblets across the area instead of one concentrated blast. -->
-  <DMSE_AdvCruise_Payload_Submunition.description>Un dispensador de bombetas de efectos combinados, en la tradición del TLAM-D: el misil se abre sobre el objetivo y esparce un racimo de cargas pequeñas por la zona, en vez de una sola explosión concentrada.</DMSE_AdvCruise_Payload_Submunition.description>
+  <DMSE_AdvCruise_Payload_Submunition.description>Un dispensador que se abre sobre el objetivo y esparce submuniciones pequeñas por la zona, en vez de una sola explosión concentrada.</DMSE_AdvCruise_Payload_Submunition.description>
   <!-- EN: bunker buster payload -->
   <DMSE_AdvCruise_Payload_BunkerBuster.label>carga rompebúnkeres</DMSE_AdvCruise_Payload_BunkerBuster.label>
   <!-- EN: A hardened penetrator charge with a delayed fuze. It bores through thick rock roofs and detonates inside, wrecking nearby structures.\n\nWithout this or a penetrator warhead, a missile that hits a mountain detonates on the rock surface, and its seeker ignores targets under thick roofs. -->
@@ -203,7 +203,7 @@
   <!-- EN: graphite filament payload -->
   <DMSE_AdvCruise_Payload_Graphite.label>carga de filamentos de grafito</DMSE_AdvCruise_Payload_Graphite.label>
   <!-- EN: A payload of carbon fibers that shorts out the power grid around the impact instead of exploding. It disables powered buildings and stuns mechanoids over a wide area. -->
-  <DMSE_AdvCruise_Payload_Graphite.description>Una carga de fibra de carbono en la tradición del Kit-2: en vez de explotar, pone en cortocircuito la red eléctrica alrededor del impacto, inutiliza los edificios con energía y aturde a los mecanoides en un radio amplio.</DMSE_AdvCruise_Payload_Graphite.description>
+  <DMSE_AdvCruise_Payload_Graphite.description>Una carga de fibras de carbono que, en vez de explotar, pone en cortocircuito la red eléctrica alrededor del impacto. Inutiliza los edificios con energía y aturde a los mecanoides en una zona amplia.</DMSE_AdvCruise_Payload_Graphite.description>
   <!-- EN: decoy payload -->
   <DMSE_AdvCruise_Payload_Decoy.label>carga señuelo</DMSE_AdvCruise_Payload_Decoy.label>
   <!-- EN: Radar reflectors and a signal booster in place of a secondary charge. The missile looks twice as large on enemy radar, so it is detected earlier and drawn fire from air defenses that rank threats by size. Adds no damage. -->
@@ -211,27 +211,27 @@
   <!-- EN: chaff dispenser -->
   <DMSE_AdvCruise_Payload_Chaff.label>dispensador de chaff</DMSE_AdvCruise_Payload_Chaff.label>
   <!-- EN: A larger dispenser of chaff and radar-absorbing streamers. Each bundle can break one enemy fire-control lock. It holds more bundles than the light version, but they cannot be reloaded in flight. -->
-  <DMSE_AdvCruise_Payload_Chaff.description>Un dispensador de chaff y tiras más pesado, para el fuselaje de crucero. Cada paquete puede romper el fijado de un control de tiro enemigo; lleva más paquetes que el dispensador ligero, pero igual se gastan de a uno y nunca se recargan en vuelo.</DMSE_AdvCruise_Payload_Chaff.description>
+  <DMSE_AdvCruise_Payload_Chaff.description>Un dispensador más grande de chaff y tiras absorbentes de radar. Cada paquete puede romper el fijado de un control de tiro enemigo. Lleva más paquetes que la versión ligera, pero no se pueden recargar en vuelo.</DMSE_AdvCruise_Payload_Chaff.description>
   <!-- EN: tandem shaped-charge warhead -->
   <DMSE_AdvLight_Warhead_HEAT.label>ojiva de carga hueca en tándem</DMSE_AdvLight_Warhead_HEAT.label>
   <!-- EN: A tandem shaped-charge warhead. A small first charge defeats reactive armor so the main charge can do its damage inside the target. Small blast, concentrated damage. -->
-  <DMSE_AdvLight_Warhead_HEAT.description>Una carga antitanque explosiva en tándem, de la clase del AGM-114K. La carga precursora vence el blindaje reactivo y el chorro principal lleva el daño al interior del objetivo, así que el radio de la explosión es pequeño, pero el daño se concentra.</DMSE_AdvLight_Warhead_HEAT.description>
+  <DMSE_AdvLight_Warhead_HEAT.description>Una ojiva de carga hueca en tándem. Una pequeña carga precursora vence el blindaje reactivo para que la carga principal haga su daño dentro del objetivo. Explosión pequeña, daño concentrado.</DMSE_AdvLight_Warhead_HEAT.description>
   <!-- EN: blast-fragmentation warhead -->
   <DMSE_AdvLight_Warhead_BlastFrag.label>ojiva de explosión y fragmentación</DMSE_AdvLight_Warhead_BlastFrag.label>
   <!-- EN: A blast-fragmentation warhead with a heavy pre-fragmented casing. It gives up penetration for a wider lethal radius against infantry and light structures. -->
-  <DMSE_AdvLight_Warhead_BlastFrag.description>Una carga de explosión y fragmentación de la clase del AGM-114M: una carcasa más pesada y una camisa prefragmentada cambian penetración por un radio letal más amplio contra la infantería y las estructuras ligeras.</DMSE_AdvLight_Warhead_BlastFrag.description>
+  <DMSE_AdvLight_Warhead_BlastFrag.description>Una ojiva de explosión y fragmentación con una carcasa prefragmentada pesada. Cambia penetración por un radio letal más amplio contra la infantería y las estructuras ligeras.</DMSE_AdvLight_Warhead_BlastFrag.description>
   <!-- EN: thermobaric warhead -->
   <DMSE_AdvLight_Warhead_Thermobaric.label>ojiva termobárica</DMSE_AdvLight_Warhead_Thermobaric.label>
   <!-- EN: A thermobaric warhead that burns instead of fragmenting. The blast is small, but its burns and fires are far worse inside a room or bunker than in the open. -->
-  <DMSE_AdvLight_Warhead_Thermobaric.description>Una carga aumentada con metal, de la clase del AGM-114N. La nube de combustible quema en vez de fragmentarse: una explosión pequeña, pero con quemaduras graves e incendios que son mucho peores dentro de una habitación o un búnker que al aire libre.</DMSE_AdvLight_Warhead_Thermobaric.description>
+  <DMSE_AdvLight_Warhead_Thermobaric.description>Una ojiva termobárica que quema en vez de fragmentarse. La explosión es pequeña, pero sus quemaduras e incendios son mucho peores dentro de una habitación o un búnker que al aire libre.</DMSE_AdvLight_Warhead_Thermobaric.description>
   <!-- EN: kinetic blade warhead -->
   <DMSE_AdvLight_Warhead_Kinetic.label>ojiva de hojas cinéticas</DMSE_AdvLight_Warhead_Kinetic.label>
   <!-- EN: An inert warhead with pop-out blades and almost no explosive. It kills the creature it hits and leaves the surroundings mostly intact. -->
-  <DMSE_AdvLight_Warhead_Kinetic.description>Una masa inerte con hojas desplegables, de la clase del AGM-114R9X. Casi no lleva relleno explosivo: el proyectil mata a la criatura en la que impacta y deja el entorno casi intacto, a costa de cualquier efecto de explosión real.</DMSE_AdvLight_Warhead_Kinetic.description>
+  <DMSE_AdvLight_Warhead_Kinetic.description>Una ojiva inerte con hojas desplegables y casi sin explosivo. Mata a la criatura en la que impacta y deja el entorno casi intacto.</DMSE_AdvLight_Warhead_Kinetic.description>
   <!-- EN: inertial guidance -->
   <DMSE_AdvLight_Guidance_Inertial.label>guiado inercial</DMSE_AdvLight_Guidance_Inertial.label>
   <!-- EN: Cheap inertial guidance with no seeker and no terminal guidance. Cannot strike other map layers. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_AdvLight_Guidance_Inertial.description>Una unidad inercial solidaria barata. Sin buscador, sin guiado terminal y sin alcance entre capas orbitales. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo; no fija edificios ni unidades.</DMSE_AdvLight_Guidance_Inertial.description>
+  <DMSE_AdvLight_Guidance_Inertial.description>Guiado inercial barato, sin buscador ni guiado terminal. No puede atacar otras capas del mapa. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_AdvLight_Guidance_Inertial.description>
   <!-- EN: automatic imaging seeker -->
   <DMSE_AdvLight_Guidance_Imaging.label>buscador automático de imagen</DMSE_AdvLight_Guidance_Imaging.label>
   <!-- EN: An automatic imaging seeker that targets enemy creatures in the open, choosing the most dangerous first, then the largest. It ignores anyone under a roof, and falls back to inertial guidance if it finds no target. -->
@@ -243,15 +243,15 @@
   <!-- EN: semi-active laser seeker -->
   <DMSE_AdvLight_Guidance_Laser.label>buscador láser semiactivo</DMSE_AdvLight_Guidance_Laser.label>
   <!-- EN: A semi-active laser seeker that homes on the most recent point your colony marked on the target map with a laser target designator. The most accurate seeker for this missile, but someone has to mark the target. -->
-  <DMSE_AdvLight_Guidance_Laser.description>Un buscador láser semiactivo que se dirige a la designación láser más reciente que tu facción haya marcado en el mapa objetivo. Tiene la menor dispersión de todos los buscadores de esta clase, pero tiene que haber un designador en tierra.</DMSE_AdvLight_Guidance_Laser.description>
+  <DMSE_AdvLight_Guidance_Laser.description>Un buscador láser semiactivo que se dirige al punto más reciente que tu colonia haya marcado en el mapa objetivo con un designador láser de objetivos. Es el buscador más preciso de este misil, pero alguien tiene que marcar el objetivo.</DMSE_AdvLight_Guidance_Laser.description>
   <!-- EN: millimetre-wave radar seeker -->
   <DMSE_AdvLight_Guidance_MMW.label>buscador de radar de onda milimétrica</DMSE_AdvLight_Guidance_MMW.label>
   <!-- EN: A fire-and-forget millimeter-wave radar seeker. It targets the largest enemy building, or the largest enemy creature if there are no buildings. It needs no designator, no operator and no clear weather. -->
-  <DMSE_AdvLight_Guidance_MMW.description>Un buscador de radar de onda milimétrica de tipo dispara y olvida, de la clase del AGM-114L Longbow. Fija por sí solo el edificio hostil de mayor superficie, o la criatura hostil más grande si no hay edificios hostiles, sin designador, sin operador y sin necesidad de buen tiempo.</DMSE_AdvLight_Guidance_MMW.description>
+  <DMSE_AdvLight_Guidance_MMW.description>Un buscador de radar de onda milimétrica de tipo dispara y olvida. Fija el edificio enemigo más grande, o la criatura enemiga más grande si no hay edificios. No necesita designador, ni operador, ni buen tiempo.</DMSE_AdvLight_Guidance_MMW.description>
   <!-- EN: no payload -->
   <DMSE_AdvLight_Payload_None.label>sin carga útil</DMSE_AdvLight_Payload_None.label>
   <!-- EN: No secondary charge. The warhead does all the work, keeping the missile light and its range long. -->
-  <DMSE_AdvLight_Payload_None.description>Sin carga secundaria. La ojiva tiene que bastar por sí sola, lo que mantiene ligero el misil y largo su alcance.</DMSE_AdvLight_Payload_None.description>
+  <DMSE_AdvLight_Payload_None.description>Sin carga secundaria. La ojiva hace todo el trabajo, lo que mantiene ligero el misil y largo su alcance.</DMSE_AdvLight_Payload_None.description>
   <!-- EN: secondary high-explosive charge -->
   <DMSE_AdvLight_Payload_HE.label>carga explosiva secundaria</DMSE_AdvLight_Payload_HE.label>
   <!-- EN: A small second charge that detonates after the warhead, widening the damage radius a little. -->
@@ -263,37 +263,37 @@
   <!-- EN: chaff dispenser -->
   <DMSE_AdvLight_Payload_Chaff.label>dispensador de chaff</DMSE_AdvLight_Payload_Chaff.label>
   <!-- EN: A dispenser of chaff and radar-absorbing streamers. Each bundle can break one enemy fire-control lock, but the bundles run out and do nothing to hide the missile before it is locked. -->
-  <DMSE_AdvLight_Payload_Chaff.description>Un dispensador de paquetes de chaff y tiras absorbentes de radar. Cuando un radar de control de tiro enemigo fija este misil, el dispensador puede romper el fijado una vez por paquete; los paquetes son un recurso limitado que no se repone y no hacen al misil más discreto antes del primer fijado.</DMSE_AdvLight_Payload_Chaff.description>
+  <DMSE_AdvLight_Payload_Chaff.description>Un dispensador de chaff y tiras absorbentes de radar. Cada paquete puede romper el fijado de un control de tiro enemigo, pero los paquetes se acaban y no ocultan al misil antes de que lo fijen.</DMSE_AdvLight_Payload_Chaff.description>
   <!-- EN: low-yield warhead -->
   <DMSE_AdvBallistic_Warhead_LowYield.label>ojiva de bajo rendimiento</DMSE_AdvBallistic_Warhead_LowYield.label>
   <!-- EN: A smaller strategic warhead scaled down for tactical use. It does less damage than a full thermonuclear warhead, but it is much cheaper. -->
-  <DMSE_AdvBallistic_Warhead_LowYield.description>Una ojiva estratégica de rendimiento reducido, de la clase W78/W87, rebajada para uso táctico. Menos explosión y menos daño que el paquete termonuclear completo, pero mucho más barata y segura de mantener en alerta.</DMSE_AdvBallistic_Warhead_LowYield.description>
+  <DMSE_AdvBallistic_Warhead_LowYield.description>Una ojiva estratégica más pequeña, rebajada para uso táctico. Hace menos daño que una ojiva termonuclear completa, pero es mucho más barata.</DMSE_AdvBallistic_Warhead_LowYield.description>
   <!-- EN: stellar-inertial guidance -->
   <DMSE_AdvBallistic_Guidance_Stellar.label>guiado astroinercial</DMSE_AdvBallistic_Guidance_Stellar.label>
   <!-- EN: Inertial guidance corrected by star sightings during flight, cutting dispersion to almost nothing. It has no terminal seeker, so a moving target is still missed. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_AdvBallistic_Guidance_Stellar.description>Una plataforma inercial actualizada con las estrellas, en la tradición del NS-50: los rastreadores estelares corrigen la deriva de los giroscopios durante el vuelo inercial y reducen la dispersión casi a nada. Sigue siendo una trayectoria balística sin buscador terminal, así que un objetivo que se mueve se falla igual. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa objetivo; no fija edificios ni unidades.</DMSE_AdvBallistic_Guidance_Stellar.description>
+  <DMSE_AdvBallistic_Guidance_Stellar.description>Guiado inercial corregido con observaciones de las estrellas durante el vuelo, que reduce la dispersión casi a nada. No tiene buscador terminal, así que un objetivo en movimiento se falla igual. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_AdvBallistic_Guidance_Stellar.description>
   <!-- EN: penetration aids -->
   <DMSE_AdvBallistic_Payload_Penaids.label>ayudas de penetración</DMSE_AdvBallistic_Payload_Penaids.label>
   <!-- EN: Chaff, radar decoys and a stealth shroud released with the warhead. The missile looks much smaller on the way in, so enemy radars spot it later and have less time to respond. -->
-  <DMSE_AdvBallistic_Payload_Penaids.description>Chaff, señuelos de radar y una cubierta de baja observabilidad que se liberan con el vehículo de reentrada. En la aproximación, el misil aparece como un blanco mucho más pequeño, así que los radares enemigos lo detectan más tarde y tienen menos tiempo para atacarlo.</DMSE_AdvBallistic_Payload_Penaids.description>
+  <DMSE_AdvBallistic_Payload_Penaids.description>Chaff, señuelos de radar y una cubierta furtiva que se liberan junto con la ojiva. En la aproximación, el misil parece mucho más pequeño, así que los radares enemigos lo detectan más tarde y tienen menos tiempo para reaccionar.</DMSE_AdvBallistic_Payload_Penaids.description>
   <!-- EN: multiple re-entry vehicles -->
   <DMSE_AdvBallistic_Payload_MIRV.label>vehículos de reentrada múltiples</DMSE_AdvBallistic_Payload_MIRV.label>
   <!-- EN: Several separate warheads released before the final dive. They spread out and land around a single impact point. -->
-  <DMSE_AdvBallistic_Payload_MIRV.description>Un bus con varios vehículos de reentrada independientes que se liberan antes de la fase terminal. Esta implementación conserva un solo punto de impacto y reparte las subcargas a su alrededor; un bus de verdad con varios objetivos necesitaría otro modelo de impacto.</DMSE_AdvBallistic_Payload_MIRV.description>
+  <DMSE_AdvBallistic_Payload_MIRV.description>Varias ojivas independientes que se liberan antes de la caída final. Se separan y caen alrededor de un solo punto de impacto.</DMSE_AdvBallistic_Payload_MIRV.description>
   <!-- EN: Amatol warhead -->
   <DMSE_LegacyBallistic_Warhead_Amatol.label>ojiva de amatol</DMSE_LegacyBallistic_Warhead_Amatol.label>
   <!-- EN: A large, simple warhead of amatol explosive, stable and cheap enough to make from industrial materials. It leaves a big hole and nothing more. -->
-  <DMSE_LegacyBallistic_Warhead_Amatol.description>Ochocientos cincuenta kilos de amatol, un relleno explosivo de la Segunda Guerra Mundial: simple, estable y lo bastante barato como para fabricarlo con materiales industriales. Sin efectos especiales, solo un gran agujero.</DMSE_LegacyBallistic_Warhead_Amatol.description>
+  <DMSE_LegacyBallistic_Warhead_Amatol.description>Una ojiva grande y simple de amatol, un explosivo estable y lo bastante barato para fabricarlo con materiales industriales. Deja un gran agujero y nada más.</DMSE_LegacyBallistic_Warhead_Amatol.description>
   <!-- EN: Trialen warhead -->
   <DMSE_LegacyBallistic_Warhead_Trialen.label>ojiva de trialeno</DMSE_LegacyBallistic_Warhead_Trialen.label>
   <!-- EN: A warhead of trialen explosive with an incendiary component, so the impact starts fires around the crater. Slightly more expensive than amatol. -->
-  <DMSE_LegacyBallistic_Warhead_Trialen.description>El trialeno, el relleno posterior que se usó cuando escaseó el amatol: le suma un componente incendiario a la explosión, así que el impacto provoca incendios alrededor del cráter. Algo más caro, y no más preciso.</DMSE_LegacyBallistic_Warhead_Trialen.description>
+  <DMSE_LegacyBallistic_Warhead_Trialen.description>Una ojiva de trialeno, un explosivo con un componente incendiario, así que el impacto provoca incendios alrededor del cráter. Algo más cara que la de amatol.</DMSE_LegacyBallistic_Warhead_Trialen.description>
   <!-- EN: inertial guidance -->
   <DMSE_Shahed_Guidance_Inertial.label>guiado inercial</DMSE_Shahed_Guidance_Inertial.label>
   <!-- EN: Standard inertial guidance with no target recognition or terminal guidance. Uses one fire-control channel. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
-  <DMSE_Shahed_Guidance_Inertial.description>Navegación inercial estándar de una munición merodeadora de largo alcance. Sin reconocimiento de objetivos ni guiado terminal. Los puntos de puntería siguen una distribución normal circular alrededor del centro del mapa. Usa un canal de control de tiro.</DMSE_Shahed_Guidance_Inertial.description>
+  <DMSE_Shahed_Guidance_Inertial.description>Guiado inercial estándar, sin reconocimiento de objetivos ni guiado terminal. Usa un canal de control de tiro. Los impactos se dispersan alrededor del centro del mapa objetivo. No fija edificios ni criaturas.</DMSE_Shahed_Guidance_Inertial.description>
   <!-- EN: TV guidance -->
   <DMSE_Shahed_Guidance_TV.label>guiado por TV</DMSE_Shahed_Guidance_TV.label>
   <!-- EN: An optional TV guidance module. When the drone reaches the target map, you choose the impact point. Uses two fire-control channels instead of one. Enemy drones with this module use inertial guidance instead. -->
-  <DMSE_Shahed_Guidance_TV.description>Módulo opcional de guiado por TV para una munición merodeadora de largo alcance. Permite al jugador elegir el punto de impacto cuando el dron llega al mapa objetivo. Cuesta un componente avanzado y ocupa un canal de control de tiro más (dos en total). Los drones de TV que lanza el enemigo recurren al apuntado inercial.</DMSE_Shahed_Guidance_TV.description>
+  <DMSE_Shahed_Guidance_TV.description>Un módulo opcional de guiado por TV. Cuando el dron llega al mapa objetivo, eliges el punto de impacto. Usa dos canales de control de tiro en vez de uno. Los drones enemigos con este módulo recurren al guiado inercial.</DMSE_Shahed_Guidance_TV.description>
 </LanguageData>
