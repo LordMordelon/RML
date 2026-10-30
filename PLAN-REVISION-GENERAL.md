@@ -173,7 +173,7 @@ De paso aparecieron dos errores **en la propia oficial**, para un PR a Ludeon si
 - Core, `ShouldDepartOnShuttleInspectString`: *Should depart on shuttle* dice «Debe apartarse del transbordador»;
   en Royalty la misma frase es «Debería partir en el transbordador».
 
-**«incursión» → «asalto», hecho el 29-oct-2026**, un commit por mod (22 commits, 4e59445d…01ae1388): 73 textos y 5
+**«incursión» → «asalto», hecho el 29-oct-2026**, un commit por mod (22 commits, ff572fb4…078ae527): 73 textos y 5
 reglas, cada uno mirado con su `EN:` y con el género cambiado alrededor («el asalto minero», «más chicos»,
 «aquellos»). Quedan con «incursión» a propósito:
 
