@@ -193,7 +193,7 @@
   <!-- EN: Enable Plant Yield Changes -->
   <EnablePlantYieldChanges>Activar los cambios de rendimiento de las plantas</EnablePlantYieldChanges>
   <!-- EN: Plants will produce realistic food/drug yields per tile -->
-  <EnablePlantYieldChanges_Tooltip>Las plantas producirán rendimientos realistas de comida/drogas por casilla</EnablePlantYieldChanges_Tooltip>
+  <EnablePlantYieldChanges_Tooltip>Las plantas producirán rendimientos realistas de comida/drogas por celda</EnablePlantYieldChanges_Tooltip>
   <!-- EN: Tree Growth Time Multiplier {0}x -->
   <TreeGrowthMultiplier>Multiplicador del tiempo de crecimiento de árboles: {0}x</TreeGrowthMultiplier>
   <!-- EN: If drastically reduced on an existing map, trees may experince death waves. In that case, it is recommended to reduce by 0.2 or less each playsession. -->
@@ -235,7 +235,7 @@
   <!-- EN: Max Shadow Length: {0} -->
   <MaxShadowLength>Longitud máxima de sombra: {0}</MaxShadowLength>
   <!-- EN: The max length a shadow can be in tiles -->
-  <MaxShadowLength_Tooltip>La longitud máxima que puede tener una sombra en casillas</MaxShadowLength_Tooltip>
+  <MaxShadowLength_Tooltip>La longitud máxima que puede tener una sombra en celdas</MaxShadowLength_Tooltip>
   <!-- EN: Max Shadow Strength: {0} -->
   <MaxShadowStrength>Fuerza máxima de sombra: {0}</MaxShadowStrength>
   <!-- EN: Lightens shadows (0: no shadows, 0-1 lighter shadows, 1: default shadows) -->
@@ -281,5 +281,5 @@
   <!-- EN: Enable Realistic Heat Balance -->
   <EnableRealisticHeatBalance>Activar equilibrio de calor realista</EnableRealisticHeatBalance>
   <!-- EN: Campfires, smithies, and other heat-producing objects balanced to real-world heat production (based on 1 tile = 1m by 1m by 2.5m) -->
-  <EnableRealisticHeatBalance_Tooltip>Hogueras, forjas y otros objetos que producen calor equilibrados con la producción de calor del mundo real (basado en 1 casilla = 1m por 1m por 2.5m)</EnableRealisticHeatBalance_Tooltip>
+  <EnableRealisticHeatBalance_Tooltip>Hogueras, forjas y otros objetos que producen calor equilibrados con la producción de calor del mundo real (basado en 1 celda = 1m por 1m por 2.5m)</EnableRealisticHeatBalance_Tooltip>
 </LanguageData>
