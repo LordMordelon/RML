@@ -104,11 +104,11 @@
   <!-- EN: Learn -->
   <TM_Learn>Aprender</TM_Learn>
   <!-- EN: Target tile is beyond reach of Gateway. -->
-  <TM_GatewayBeyondMaximumRange>La casilla objetivo está más allá del alcance del Portal.</TM_GatewayBeyondMaximumRange>
+  <TM_GatewayBeyondMaximumRange>La celda objetivo está más allá del alcance del Portal.</TM_GatewayBeyondMaximumRange>
   <!-- EN: Invalid target tile for Gateway. -->
-  <TM_InvalidGatewaySelection>Casilla objetivo no válida para Portal.</TM_InvalidGatewaySelection>
+  <TM_InvalidGatewaySelection>Celda objetivo no válida para Portal.</TM_InvalidGatewaySelection>
   <!-- EN: Gateway can only be used on map tiles occupied by colonists. -->
-  <TM_InvalidGatewayNotOccupied>El Portal solo se puede usar en casillas del mapa ocupadas por colonos.</TM_InvalidGatewayNotOccupied>
+  <TM_InvalidGatewayNotOccupied>El Portal solo se puede usar en celdas del mapa ocupadas por colonos.</TM_InvalidGatewayNotOccupied>
   <!-- EN: An exception has been throw by {0} while trying to cast {1} - restoring mana and exiting ability attempt. -->
   <TM_Exception>Se ha producido una excepción por {0} al intentar lanzar {1} - restaurando maná y saliendo del intento de habilidad.</TM_Exception>
   <!-- EN: An exception has been thrown while trying to close {0} - ending ability. -->
@@ -408,7 +408,7 @@
   <!-- EN: Unable to complete golem recipe {0}; resources have been returned -->
   <TM_GolemBillUnsuccessful>No se pudo completar la receta de gólem {0}; se han devuelto los recursos</TM_GolemBillUnsuccessful>
   <!-- EN: The golem could not return to its designated position, cell is unreachable or occupied. -->
-  <TM_GolemCannotReturn>El gólem no pudo regresar a su posición designada, la casilla es inalcanzable o está ocupada.</TM_GolemCannotReturn>
+  <TM_GolemCannotReturn>El gólem no pudo regresar a su posición designada, la celda es inalcanzable o está ocupada.</TM_GolemCannotReturn>
   <!-- EN: The {0} upgrade has replaced the {1} upgrade; only one upgrade of this type can occupy the {2}. -->
   <TM_GolemPartReplaced>La mejora {0} ha reemplazado a la mejora {1}; solo una mejora de este tipo puede ocupar el {2}.</TM_GolemPartReplaced>
   <!-- EN: Unfinished {0} -->
@@ -1188,7 +1188,7 @@ At rank 3: summons two lesser elementals to accompany your primary summon. -->
   <!-- EN: Reduces the cost of Poison by 10% per skill level. -->
   <TM_Poison_eff_desc>Reduce el costo de Veneno en un 10% por nivel de habilidad.</TM_Poison_eff_desc>
   <!-- EN: Increases the potency of poison, dealing 25% more per skill level for each square the victim moves. -->
-  <TM_Poison_pwr_desc>Aumenta la potencia del veneno, infligiendo un 25% más por nivel de habilidad por cada casilla que la víctima se mueva.</TM_Poison_pwr_desc>
+  <TM_Poison_pwr_desc>Aumenta la potencia del veneno, infligiendo un 25% más por nivel de habilidad por cada celda que la víctima se mueva.</TM_Poison_pwr_desc>
   <!-- EN: Increases the minimum and maximum severity levels of poison.  Severity levels cause reduction in fighting and moving capacities. Also increases duration of poison by 10% per level.
 Level 0: (10%-40%), Duration 45s
 Level 1: (20%-60%), Duration 49.5s
@@ -2686,7 +2686,7 @@ Level 3: Movement +25%, Manipulation +25%, Breathing +15%, Blood Circulation +10
   <TM_SeismicSlash_eff_desc>Reduce el costo de aguante de Tajo sísmico en 10% por punto de habilidad.</TM_SeismicSlash_eff_desc>
   <!-- EN: Increases the number of strikes adjacent to the strike line by 2 per level.  Base level checks 2 adjacent squares, max level will check all 8 adjacent squares.
 If nothing is occupying the square, the adjacent strike his nothing. -->
-  <TM_SeismicSlash_ver_desc>Aumenta la cantidad de golpes adyacentes a la línea de impacto en 2 por nivel. El nivel base revisa 2 casillas adyacentes, el nivel máximo revisa las 8 casillas adyacentes.\nSi no hay nada ocupando la casilla, el golpe adyacente no impacta en nada.</TM_SeismicSlash_ver_desc>
+  <TM_SeismicSlash_ver_desc>Aumenta la cantidad de golpes adyacentes a la línea de impacto en 2 por nivel. El nivel base revisa 2 celdas adyacentes, el nivel máximo revisa las 8 celdas adyacentes.\nSi no hay nada ocupando la celda, el golpe adyacente no impacta en nada.</TM_SeismicSlash_ver_desc>
   <!-- EN: Increases the number of strikes by 1 per skill level.  Base number of strikes is 2.
 Increases the hit chance of Blade Spin by 4% per level.  Base is 50%. -->
   <TM_BladeSpin_pwr_desc>Aumenta la cantidad de golpes en 1 por nivel de habilidad. El número base de golpes es 2.\nAumenta la probabilidad de impacto de Giro de hoja en 4% por nivel. La base es 50%.</TM_BladeSpin_pwr_desc>
@@ -2694,13 +2694,13 @@ Increases the hit chance of Blade Spin by 4% per level.  Base is 50%. -->
   <TM_BladeSpin_eff_desc>Reduce el costo de aguante de Giro de hoja en 10% por punto de habilidad.</TM_BladeSpin_eff_desc>
   <!-- EN: Increases the radius of Blade Spin by .5 squares per skill level.  Base radius is 2 squares.
 Increases the hit chance of Blade Spin by 4% per level.  Base is 50%. -->
-  <TM_BladeSpin_ver_desc>Aumenta el radio de Giro de hoja en 0.5 casillas por nivel de habilidad. Radio base 2 casillas.\nAumenta la probabilidad de impacto de Giro de hoja en 4% por nivel. La base es 50%.</TM_BladeSpin_ver_desc>
+  <TM_BladeSpin_ver_desc>Aumenta el radio de Giro de hoja en 0.5 celdas por nivel de habilidad. Radio base 2 celdas.\nAumenta la probabilidad de impacto de Giro de hoja en 4% por nivel. La base es 50%.</TM_BladeSpin_ver_desc>
   <!-- EN: Increases chance to critical strike by 15% per skill level.  Base chance is 10%.  Critical strikes deal 3x damage. -->
   <TM_PhaseStrike_pwr_desc>Aumenta la probabilidad de golpe crítico en 15% por nivel de habilidad. La base es 10%. Los golpes críticos infligen 3x daño.</TM_PhaseStrike_pwr_desc>
   <!-- EN: Decreases the stamina cost of Phase Strike by 8% per skill point. -->
   <TM_PhaseStrike_eff_desc>Reduce el costo de aguante de Golpe de fase en 8% por punto de habilidad.</TM_PhaseStrike_eff_desc>
   <!-- EN: Increases the radius of phased strike by .5 squares per skill level. -->
-  <TM_PhaseStrike_ver_desc>Aumenta el radio del golpe de fase en 0.5 casillas por nivel de habilidad.</TM_PhaseStrike_ver_desc>
+  <TM_PhaseStrike_ver_desc>Aumenta el radio del golpe de fase en 0.5 celdas por nivel de habilidad.</TM_PhaseStrike_ver_desc>
   <!-- EN: Blade Mastery -->
   <TM_BladeFocus_pwr>Maestría de hoja</TM_BladeFocus_pwr>
   <!-- EN: Body Mastery -->
@@ -2864,7 +2864,7 @@ This ability has a minimum target range of 5 cells.
 Training in this skill improves the maximum range, damage, and reduces the psionic energy required to perform the attack.
 
 This augmentation occurs automatically but must be trained in at least once to become active. This skill requires 2 ability points to level. -->
-  <TM_PsionicAugmentation_ver_desc>El psiónico concentra su energía psiónica para aplastar a un oponente con poder bruto. Esto solo ocurre en combate, pero puede usarse en conjunto con otras capacidades de combate.\nEsta habilidad tiene un alcance mínimo de objetivo de 5 casillas.\nEl entrenamiento en esta habilidad mejora el alcance máximo, el daño y reduce la energía psiónica requerida para realizar el ataque.\n\nEsta mejora ocurre automáticamente, pero debe entrenarse al menos una vez para activarse. Esta habilidad requiere 2 puntos de habilidad para subir de nivel.</TM_PsionicAugmentation_ver_desc>
+  <TM_PsionicAugmentation_ver_desc>El psiónico concentra su energía psiónica para aplastar a un oponente con poder bruto. Esto solo ocurre en combate, pero puede usarse en conjunto con otras capacidades de combate.\nEsta habilidad tiene un alcance mínimo de objetivo de 5 celdas.\nEl entrenamiento en esta habilidad mejora el alcance máximo, el daño y reduce la energía psiónica requerida para realizar el ataque.\n\nEsta mejora ocurre automáticamente, pero debe entrenarse al menos una vez para activarse. Esta habilidad requiere 2 puntos de habilidad para subir de nivel.</TM_PsionicAugmentation_ver_desc>
   <!-- EN: Projectiles deflected by barrier have a chance to drain stamina instead of psionic energy. Each level improves this chance by 15%.
 Level 0: 0%
 Level 1: 15%
@@ -2874,7 +2874,7 @@ Level 3: 45% -->
   <!-- EN: Reduces the amount of psionic energy drained when deflecting a projectile by 10% per skill point. -->
   <TM_PsionicBarrier_eff_desc>Reduce la cantidad de energía psiónica drenada al desviar un proyectil en 10% por punto de habilidad.</TM_PsionicBarrier_eff_desc>
   <!-- EN: Increases the radius of barrier by 3/4th a cell per skill point. Default radius is 2.5 cells. -->
-  <TM_PsionicBarrier_ver_desc>Aumenta el radio de la barrera en 3/4 de casilla por punto de habilidad. El radio predeterminado es 2.5 casillas.</TM_PsionicBarrier_ver_desc>
+  <TM_PsionicBarrier_ver_desc>Aumenta el radio de la barrera en 3/4 de celda por punto de habilidad. El radio predeterminado es 2.5 celdas.</TM_PsionicBarrier_ver_desc>
   <!-- EN: Power up psi blast, each level increases damage by 15%. -->
   <TM_PsionicBlast_pwr_desc>Aumenta la potencia de Explosión psiónica; cada nivel incrementa el daño en 15%.</TM_PsionicBlast_pwr_desc>
   <!-- EN: Decreases stamina cost of Psionic Blast by 8% per level of base stamina cost. -->
@@ -2944,7 +2944,7 @@ Base nullification chance: 30% -->
   <!-- EN: Increases the Wave of Fear effect radius by .8 cells per skill point. Default radius is 4 cells. 
 
 The radius is further increase by .7 cells per every 10% of Hate. -->
-  <TM_WaveOfFear_ver_desc>Aumenta el radio de efecto de Ola de miedo en 0.8 casillas por punto de habilidad. El radio predeterminado es 4 casillas.\n\nEl radio se incrementa además en 0.7 casillas por cada 10% de Odio.</TM_WaveOfFear_ver_desc>
+  <TM_WaveOfFear_ver_desc>Aumenta el radio de efecto de Ola de miedo en 0.8 celdas por punto de habilidad. El radio predeterminado es 4 celdas.\n\nEl radio se incrementa además en 0.7 celdas por cada 10% de Odio.</TM_WaveOfFear_ver_desc>
   <!-- EN: Increase Spite damage by 10% per skill level. -->
   <TM_Spite_pwr_desc>Aumenta el daño de Desdén en 10% por nivel de habilidad.</TM_Spite_pwr_desc>
   <!-- EN: Decreases stamina cost of Spite by 10% per skill level. -->
@@ -2968,7 +2968,7 @@ Level 0: 0%
 Level 1: 11%
 Level 2: 12%
 Level 3: 13% -->
-  <TM_LifeSteal_ver_desc>Cada golpe puede curar a un aliado cercano (dentro de 3 casillas) por un % del daño infligido por nivel de habilidad.\nNivel 0: 0%\nNivel 1: 11%\nNivel 2: 12%\nNivel 3: 13%</TM_LifeSteal_ver_desc>
+  <TM_LifeSteal_ver_desc>Cada golpe puede curar a un aliado cercano (dentro de 3 celdas) por un % del daño infligido por nivel de habilidad.\nNivel 0: 0%\nNivel 1: 11%\nNivel 2: 12%\nNivel 3: 13%</TM_LifeSteal_ver_desc>
   <!-- EN: Increases the damage of each grave blade by 12% per skill level. -->
   <TM_GraveBlade_pwr_desc>Aumenta el daño de cada hoja sepulcral en 12% por nivel de habilidad.</TM_GraveBlade_pwr_desc>
   <!-- EN: Reduces the stamina cost of Grave Blade by 8% per skill level. -->
@@ -3100,13 +3100,13 @@ Level 3: adds a 15% boost to stamina and mana regeneration -->
   <!-- EN: Reduces energy activation cost and upkeep cost by 11% per skill point. -->
   <TM_TaskMasterAura_eff_desc>Reduce el costo de activación y mantenimiento de energía en 11% por punto de habilidad.</TM_TaskMasterAura_eff_desc>
   <!-- EN: Increases the reach of the Task Master Aura by 2 cells per skill point; base reach is 15c. Increases the frequency the effect is applied by 5%. -->
-  <TM_TaskMasterAura_ver_desc>Aumenta el alcance del Aura del capataz en 2 casillas por punto de habilidad; el alcance base es 15 c. Aumenta la frecuencia con la que se aplica el efecto en 5%.</TM_TaskMasterAura_ver_desc>
+  <TM_TaskMasterAura_ver_desc>Aumenta el alcance del Aura del capataz en 2 celdas por punto de habilidad; el alcance base es 15 c. Aumenta la frecuencia con la que se aplica el efecto en 5%.</TM_TaskMasterAura_ver_desc>
   <!-- EN: Improves effect of Commander's Aura and reduces the amount of time between motivational speeches by 10%. -->
   <TM_CommanderAura_pwr_desc>Mejora el efecto del Aura del Comandante y reduce el tiempo entre discursos motivacionales en 10%.</TM_CommanderAura_pwr_desc>
   <!-- EN: Reduces energy activation cost and upkeep cost by 10% per skill point. -->
   <TM_CommanderAura_eff_desc>Reduce el costo de activación y mantenimiento de energía en 10% por punto de habilidad.</TM_CommanderAura_eff_desc>
   <!-- EN: Increases the reach of Commander's Aura by 2 cells per skill point; base reach is 15c. Increases duration of aura effect on pawns by 10% per skill point; base duration is .5hrs (game time). -->
-  <TM_CommanderAura_ver_desc>Aumenta el alcance del Aura del Comandante en 2 casillas por punto de habilidad; el alcance base es 15 c. Aumenta la duración del efecto del aura en los peones en 10% por punto de habilidad; la duración base es 0.5 h (tiempo de juego).</TM_CommanderAura_ver_desc>
+  <TM_CommanderAura_ver_desc>Aumenta el alcance del Aura del Comandante en 2 celdas por punto de habilidad; el alcance base es 15 c. Aumenta la duración del efecto del aura en los peones en 10% por punto de habilidad; la duración base es 0.5 h (tiempo de juego).</TM_CommanderAura_ver_desc>
   <!-- EN: Increases the amount of rest gained by each affected pawn by 10% per skill level and extends the duration pawns stay alert. This is a flat bonus, unaffected by the number of pawns receiving the order. -->
   <TM_StayAlert_pwr_desc>Aumenta la cantidad de descanso obtenido por cada peón afectado en 10% por nivel de habilidad y extiende la duración de la alerta. Es una bonificación plana, no afectada por la cantidad de peones que reciben la orden.</TM_StayAlert_pwr_desc>
   <!-- EN: Reduces the stamina required to order Stay Alert! by 10% per skill level. -->
@@ -3401,7 +3401,7 @@ Level 3: 75%, 8 targets max -->
   <!-- EN: Reduces energy cost by 10% per skill level. -->
   <TM_Taunt_eff_desc>Reduce el costo de energía en 10% por nivel de habilidad.</TM_Taunt_eff_desc>
   <!-- EN: Increases the radius of taunt by 2 cells; default is 15 cells. -->
-  <TM_Taunt_ver_desc>Aumenta el radio de provocación en 2 casillas; el valor predeterminado es 15 casillas.</TM_Taunt_ver_desc>
+  <TM_Taunt_ver_desc>Aumenta el radio de provocación en 2 celdas; el valor predeterminado es 15 celdas.</TM_Taunt_ver_desc>
   <!-- EN: Destruction -->
   <TM_Explosion_pwr>Destrucción</TM_Explosion_pwr>
   <!-- EN: Chant -->
@@ -3413,7 +3413,7 @@ Level 3: 75%, 8 targets max -->
   <!-- EN: Reduces energy cost of Explosion by 1% per skill level. -->
   <TM_Explosion_eff_desc>Reduce el costo de energía de Explosión en 1% por nivel de habilidad.</TM_Explosion_eff_desc>
   <!-- EN: Reduces the time it takes Explosion to activate by 1% and increases the radius of Explosion by 1 cells at levels 10/20/30; default is 12 cells. -->
-  <TM_Explosion_ver_desc>Reduce el tiempo que tarda Explosión en activarse en 1% y aumenta el radio de Explosión en 1 casilla en los niveles 10/20/30; el valor predeterminado es 12 casillas.</TM_Explosion_ver_desc>
+  <TM_Explosion_ver_desc>Reduce el tiempo que tarda Explosión en activarse en 1% y aumenta el radio de Explosión en 1 celda en los niveles 10/20/30; el valor predeterminado es 12 celdas.</TM_Explosion_ver_desc>
   <!-- EN: Capacity -->
   <TM_MedicalSupply_ver>Capacidad</TM_MedicalSupply_ver>
   <!-- EN: Increases the maximum amount of Medical Supply carried by 10 per skill level. -->
