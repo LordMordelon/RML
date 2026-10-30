@@ -118,6 +118,32 @@ sesión deja anotado acá hasta dónde llegó.
   (sus textos están escritos en la DLL, sin `Keyed` ni `.Translate()`). Angel le pidió ese soporte en
   Steam. Si lo agrega, se reextrae el mod, se traduce la interfaz y después se siguen las lecciones.
 
+- 30-oct-2026: **se retoma.** El autor agregó el soporte de traducción: Angel reextrajo el mod y
+  apareció `Keyed/wzj8g1.xml`, la ventana entera. Angel pidió traducir todo en una sola sesión, sin
+  importar el costo, con la traducción oficial como referencia. Los términos pasaron a
+  [GLOSARIO-HEGEMONY.md](GLOSARIO-HEGEMONY.md), que es el que lee `traducir.py`.
+
+## Etapas desde el 30-oct-2026
+
+Cifras de la reextracción del 30-oct:
+
+| Archivo | Pendientes | Palabras en inglés |
+|---|---|---|
+| `Keyed/wzj8g1.xml` (la ventana) | 8.868 (8.373 ingleses distintos) | 106.845 |
+| `ConceptDef` (lecciones) | 1.294 | 38.140 |
+| `BuildingDef`, `MainButtonDef`, `WorldObjectDef` (nuevos) | 18 | 330 |
+| **Total** | **10.180** | **145.315** |
+
+Además, 11 descripciones ya traducidas de `BuildingDef` cambiaron su inglés (y la etiqueta «nutrient
+synthesis plant» pasó a «life support»): se corrigen a mano contra el `EN` nuevo.
+
+1. Los archivos cortos y las 11 descripciones con el inglés cambiado.
+2. `Keyed`, de arriba hacia abajo, en tandas de unas 3.000 palabras. Los botones y pestañas fijan su
+   traducción en el glosario antes de que aparezcan en las lecciones.
+3. `ConceptDef`, igual. Los nombres de la ventana se copian de lo traducido en el paso 2 (decisión 1).
+4. Verificar (las tres comprobaciones, `revisar`, `terminos`, ningún `TODO`), regenerar el índice y
+   commitear por partes. Sin push hasta que Angel diga.
+
 ## Próxima sesión
 
 Lecciones de `ConceptDef/uq1759.xml`, en tandas de unas 115 lecciones. Por tanda: leer los ingleses
