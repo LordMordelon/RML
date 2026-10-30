@@ -81,9 +81,9 @@
   <!-- EN: Lowering this will spawn more splash particle, and increasing will make them rarer. This impacts performance. -->
   <SimpleFxSplashes.Settings.SplashRarity.Desc>Bajar este valor generará más partículas de salpicadura, y aumentarlo las hará más raras. Esto afecta al rendimiento.</SimpleFxSplashes.Settings.SplashRarity.Desc>
   <!-- EN: Filter natural tiles (default: {0}): {3} -->
-  <SimpleFxSplashes.Settings.FilterNature>Filtrar casillas naturales (por defecto: {0}): {3}</SimpleFxSplashes.Settings.FilterNature>
+  <SimpleFxSplashes.Settings.FilterNature>Filtrar celdas naturales (por defecto: {0}): {3}</SimpleFxSplashes.Settings.FilterNature>
   <!-- EN: A reduction on natural cells (such as rough stone) allowed to splash rain. Only allow {0}% of natural tiles to splash rain. Increasing this impacts performance. -->
-  <SimpleFxSplashes.Settings.FilterNature.Desc>Una reducción en las casillas naturales (como piedra en bruto) que pueden mostrar salpicaduras de lluvia. Solo permite que el {0}% de las casillas naturales muestren salpicaduras. Aumentar esto afecta al rendimiento.</SimpleFxSplashes.Settings.FilterNature.Desc>
+  <SimpleFxSplashes.Settings.FilterNature.Desc>Una reducción en las celdas naturales (como piedra en bruto) que pueden mostrar salpicaduras de lluvia. Solo permite que el {0}% de las celdas naturales muestren salpicaduras. Aumentar esto afecta al rendimiento.</SimpleFxSplashes.Settings.FilterNature.Desc>
   <!-- EN: Consider outdoor temperature -->
   <SimpleFxVapor.Settings.ConsiderOutdoors>Considerar temperatura exterior</SimpleFxVapor.Settings.ConsiderOutdoors>
   <!-- EN: Do not show indoor vapors if it&apos;s freezing cold outside. -->
@@ -188,7 +188,7 @@
   <!-- EN: Petty jobs margin (Mod default: {0}, Min: {1}, Max: {2}):  -->
   <SmartFarming.Settings.PettyJobsSlider>Margen de trabajos menores (por defecto del mod: {0}, mín.: {1}, máx.: {2}): </SmartFarming.Settings.PettyJobsSlider>
   <!-- EN: If &quot;no petty jobs&quot; is enabled on a zone, pawns will not sow a field unless there is at least this percentage of empty tiles to sow. This can be useful for animal grazing zones. -->
-  <SmartFarming.Settings.PettyJobs>Si "no hacer trabajos menores" está habilitado en una zona, los colonos no sembrarán un campo a menos que haya al menos este porcentaje de casillas vacías para sembrar. Esto puede ser útil para las zonas de pastoreo de animales.</SmartFarming.Settings.PettyJobs>
+  <SmartFarming.Settings.PettyJobs>Si "no hacer trabajos menores" está habilitado en una zona, los colonos no sembrarán un campo a menos que haya al menos este porcentaje de celdas vacías para sembrar. Esto puede ser útil para las zonas de pastoreo de animales.</SmartFarming.Settings.PettyJobs>
   <!-- EN: \nEarliest harvest day:  -->
   <SmartFarming.Inspector.MinHarvestDay>\nDía de cosecha más temprano: </SmartFarming.Inspector.MinHarvestDay>
   <!-- EN: \nPlants will likely die before harvest -->
@@ -210,7 +210,7 @@
   <!-- EN: Enable multi-flame graphics -->
   <ScatteredFlames.Settings.MultiFlames>Habilitar gráficos de llamas múltiples</ScatteredFlames.Settings.MultiFlames>
   <!-- EN: Enabling this will allow multiple flames to inhabit the same tile. This is a cosmetic change, and mechanically it still works like one flame. -->
-  <ScatteredFlames.Settings.MultiFlames.Desc>Al habilitar esto, se permitirá que varias llamas ocupen la misma casilla. Este es un cambio cosmético y mecánicamente sigue funcionando como una sola llama.</ScatteredFlames.Settings.MultiFlames.Desc>
+  <ScatteredFlames.Settings.MultiFlames.Desc>Al habilitar esto, se permitirá que varias llamas ocupen la misma celda. Este es un cambio cosmético y mecánicamente sigue funcionando como una sola llama.</ScatteredFlames.Settings.MultiFlames.Desc>
   <!-- EN: Enable particle effects -->
   <ScatteredFlames.Settings.SpecialFX>Habilitar efectos de partículas</ScatteredFlames.Settings.SpecialFX>
   <!-- EN: Allows wild fires to emit special effects such as sparks. -->
