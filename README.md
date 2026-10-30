@@ -36,7 +36,8 @@ como carpeta hermana de este repo (`RML/` y `RimworldExtractor/`), con el .NET S
 4. **Antes de commitear:** revisa el diff como dice
    [AGENTS.md](AGENTS.md#antes-de-commitear-mirar-el-diff).
 5. **Publicar:** las versiones de GitHub salen solas con cada push. Al Workshop se sube desde el juego
-   con `03-subir-al-workshop.cmd`.
+   con `03-subir-al-workshop.cmd`, que además deja copiada la nota de cambios desde la subida anterior
+   para pegarla en la página del Workshop.
 
 Cómo está organizado y qué no hay que tocar: [AGENTS.md](AGENTS.md). Qué cambia respecto de
 [RimWorld Mod Korean](https://github.com/RimWorldKorea/RMK), del que deriva: [CAMBIOS.md](CAMBIOS.md).

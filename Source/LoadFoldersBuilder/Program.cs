@@ -26,7 +26,10 @@ using YamlDotNet.Serialization.NamingConventions;
 // -pagina solo reescribe ModList.tsv y docs/index.html, con las fechas de Steam del momento.
 // Lo usa pagina-diaria.yml para que la pagina siga a Steam aunque nadie toque Data/: no
 // escribe LoadFolders.xml, About.xml ni output/, que no dependen de Steam.
-var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or "-pagina");
+//
+// -nota escribe nota-de-steam.txt, la nota de cambios desde la ultima subida al Workshop (ver
+// NotaDeSteam.cs). Lo usa 03-subir-al-workshop.cmd; no toca nada mas.
+var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or "-pagina" or "-nota");
 
 {
     Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
@@ -45,6 +48,9 @@ var Comando = args.FirstOrDefault(x => x is "-build" or "-rutas" or "-copia" or 
 
     if (Comando is "-copia")
         StopProgram(Rutas.Informar(Statics.RootPath!) && Dll.Compilar(Statics.RootPath!) && CopiaLimpia.Armar(Statics.RootPath!) ? 0 : 1);
+
+    if (Comando is "-nota")
+        StopProgram(NotaDeSteam.Escribir(Statics.RootPath!) ? 0 : 1);
 
     if (Comando is "-build" or "-pagina") goto StartBuild;
 

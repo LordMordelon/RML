@@ -41,6 +41,15 @@ if errorlevel 1 (
     exit /b 1
 )
 
+REM La nota de cambios desde la ultima subida a Steam, para pegarla en la pagina del Workshop
+REM despues de subir (ver Source\LoadFoldersBuilder\NotaDeSteam.cs). Queda en nota-de-steam.txt
+REM y en el portapapeles. Sin conexion con Steam no hay nota, y se sube igual.
+dotnet run --project "Source\LoadFoldersBuilder" -c Release -- -nota
+if not errorlevel 1 (
+    powershell -NoProfile -Command "Get-Content -Raw -Encoding UTF8 'nota-de-steam.txt' | Set-Clipboard"
+    echo La nota de cambios quedo copiada: pegala en el Workshop despues de subir.
+)
+
 REM Si ya enlaza a la copia, no hay nada que tocar.
 fsutil reparsepoint query "%ENLACE%" 2> nul | find /i "%COPIA%" > nul
 if not errorlevel 1 (

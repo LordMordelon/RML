@@ -45,7 +45,10 @@ Cambios.tsv                     GENERADO solo en output/, sin commitear — los 
 Ingles.tsv                      GENERADO solo en output/, sin commitear — el inglés de cada texto, que output/ no trae en comentarios, para comparar contra el PC (PLAN-CAMBIOS-LOCALES.md)
 01-regenerar-indice.cmd         regenera los anteriores
 02-armar-copia-limpia.cmd       deja al día output/, la copia liviana que carga el juego y se sube (el 01 ya lo hace)
-03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego
+03-subir-al-workshop.cmd        corre el 02 y deja Mods\RML enlazado a output/ para subir desde el juego. Con
+                                LoadFoldersBuilder -nota copia la nota de cambios para la página del Workshop
+                                (NotaDeSteam.cs): los mods nuevos de cada día desde la última subida, en hora de Chile
+nota-de-steam.txt               GENERADO por el 03, sin commitear — esa misma nota
 LoadFolders.Build.Example.yaml  referencia de campos, con cada uno comentado
 GLOSARIO.md                     terminología oficial de RimWorld ES
 TRADUCIR.md                     guía para colaboradores: fork, extractor, traducir en VS Code y pull request
