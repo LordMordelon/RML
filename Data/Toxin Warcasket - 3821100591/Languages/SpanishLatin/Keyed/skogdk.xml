@@ -15,15 +15,15 @@
   <!-- EN: How much chemfuel a full tank holds. The gauge counts it in units of one. Lowering it below a tank&apos;s current fill drops the excess. Default: {0}. -->
   <TXWC_TankCapacityDesc>Cuánto quimbustible cabe en un tanque lleno. El indicador lo cuenta de a una unidad. Si se baja por debajo de lo que ya tiene un tanque, el sobrante se pierde. Por defecto: {0}.</TXWC_TankCapacityDesc>
   <!-- EN: Tox gas per chemfuel (cells) -->
-  <TXWC_GasPerChemfuel>Gas tóxico por quimbustible (casillas)</TXWC_GasPerChemfuel>
+  <TXWC_GasPerChemfuel>Gas tóxico por quimbustible (celdas)</TXWC_GasPerChemfuel>
   <!-- EN: How many cells of tox gas each chemfuel in the tank makes, however it is spent: vented, jetted, or burst when the pilot goes down. The absorb banks a chemfuel&apos;s worth per that much gas drawn in. A tox pack fills 45 cells from 35 chemfuel. Default: {0}. -->
-  <TXWC_GasPerChemfuelDesc>Cuántas casillas de gas tóxico produce cada unidad de quimbustible del tanque, se gaste como se gaste: liberado, en chorro o al reventar cuando el piloto cae. Al absorber, se guarda una unidad de quimbustible por cada esa cantidad de gas aspirado. Un pack de tóxicos llena 45 casillas con 35 de quimbustible. Por defecto: {0}.</TXWC_GasPerChemfuelDesc>
+  <TXWC_GasPerChemfuelDesc>Cuántas celdas de gas tóxico produce cada unidad de quimbustible del tanque, se gaste como se gaste: liberado, en chorro o al reventar cuando el piloto cae. Al absorber, se guarda una unidad de quimbustible por cada esa cantidad de gas aspirado. Un pack de tóxicos llena 45 celdas con 35 de quimbustible. Por defecto: {0}.</TXWC_GasPerChemfuelDesc>
   <!-- EN: Vent rate (chemfuel per second) -->
   <TXWC_VentRate>Ritmo de purga (quimbustible por segundo)</TXWC_VentRate>
   <!-- EN: How fast the vent empties the tank. A faster vent makes a wider cloud that clears sooner. Default: {0}. -->
   <TXWC_VentRateDesc>Qué tan rápido la purga vacía el tanque. Una purga más rápida forma una nube más amplia que se despeja antes. Por defecto: {0}.</TXWC_VentRateDesc>
   <!-- EN: A full tank: {0} chemfuel for {1} cells of tox gas ({2} tox packs). The vent empties it in {3} seconds. -->
-  <TXWC_TankSummary>Un tanque lleno: {0} de quimbustible para {1} casillas de gas tóxico ({2} packs de tóxicos). La purga lo vacía en {3} segundos.</TXWC_TankSummary>
+  <TXWC_TankSummary>Un tanque lleno: {0} de quimbustible para {1} celdas de gas tóxico ({2} packs de tóxicos). La purga lo vacía en {3} segundos.</TXWC_TankSummary>
   <!-- EN: Cost (chemfuel) -->
   <TXWC_JetCost>Costo (quimbustible)</TXWC_JetCost>
   <!-- EN: How much chemfuel each gas jet draws from the tank. Without a tank, one of the shoulders&apos; own jets makes the same gas for the same chemfuel. Default: {0}. -->
@@ -39,7 +39,7 @@
   <!-- EN: The full width of the cone the gas jet lands in. A wider cone spreads the same gas thinner. Default: {0}. -->
   <TXWC_JetConeWidthDesc>El ancho total del cono donde cae el chorro de gas. Un cono más ancho reparte el mismo gas más disperso. Por defecto: {0}.</TXWC_JetConeWidthDesc>
   <!-- EN: Range (cells) -->
-  <TXWC_JetRange>Alcance (casillas)</TXWC_JetRange>
+  <TXWC_JetRange>Alcance (celdas)</TXWC_JetRange>
   <!-- EN: How far the gas jet reaches. A longer jet spreads the same gas thinner. Default: {0}. -->
   <TXWC_JetRangeDesc>Hasta dónde llega el chorro de gas. Un chorro más largo reparte el mismo gas más disperso. Por defecto: {0}.</TXWC_JetRangeDesc>
   <!-- EN: Aiming time (seconds) -->
@@ -47,9 +47,9 @@
   <!-- EN: How long the pilot takes to aim the gas jet before it fires. Default: {0}. -->
   <TXWC_JetWarmupDesc>Cuánto tarda el piloto en apuntar el chorro de gas antes de que salga. Por defecto: {0}.</TXWC_JetWarmupDesc>
   <!-- EN: A jet: {0} chemfuel for {1} cells of tox gas ({2} tox packs). A full tank holds {3}, the shoulders alone {4}. -->
-  <TXWC_JetSummary>Un chorro: {0} de quimbustible para {1} casillas de gas tóxico ({2} packs de tóxicos). Un tanque lleno alcanza para {3}; las hombreras solas, para {4}.</TXWC_JetSummary>
+  <TXWC_JetSummary>Un chorro: {0} de quimbustible para {1} celdas de gas tóxico ({2} packs de tóxicos). Un tanque lleno alcanza para {3}; las hombreras solas, para {4}.</TXWC_JetSummary>
   <!-- EN: Radius (cells) -->
-  <TXWC_AbsorbRadius>Radio (casillas)</TXWC_AbsorbRadius>
+  <TXWC_AbsorbRadius>Radio (celdas)</TXWC_AbsorbRadius>
   <!-- EN: How far around the pilot the absorb draws gas in. Default: {0}. -->
   <TXWC_AbsorbRadiusDesc>Hasta qué distancia alrededor del piloto se aspira el gas. Por defecto: {0}.</TXWC_AbsorbRadiusDesc>
   <!-- EN: Duration (seconds) -->
@@ -61,7 +61,7 @@
   <!-- EN: How long the absorb takes to recharge. Default: {0}. -->
   <TXWC_AbsorbCooldownDesc>Cuánto tarda en recargarse la absorción. Por defecto: {0}.</TXWC_AbsorbCooldownDesc>
   <!-- EN: One absorb draws from the {0} cells around the pilot. A full cloud over them banks {1} chemfuel. -->
-  <TXWC_AbsorbSummary>Una absorción aspira de las {0} casillas alrededor del piloto. Una nube completa sobre ellas guarda {1} de quimbustible.</TXWC_AbsorbSummary>
+  <TXWC_AbsorbSummary>Una absorción aspira de las {0} celdas alrededor del piloto. Una nube completa sobre ellas guarda {1} de quimbustible.</TXWC_AbsorbSummary>
   <!-- EN: Toxin warcasket is spacer tier -->
   <TXWC_SpacerTier>El sarcotraje de toxina es de nivel espacial</TXWC_SpacerTier>
   <!-- EN: Rebuilds the toxin warcasket at the 10th generation spacer tier, like the siegebreaker. It gains spacer armor and insulation, no speed penalty, toxic and psychic resistance, vacuum resistance{0}, and a shield bubble, but costs spacer components and plasteel and needs the spacer warcaskets research. Veteran raiders can wear it too. Default: off. -->
