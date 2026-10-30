@@ -981,8 +981,8 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <Rpt_TX_TrustReason_Smuggle>Contrabando descubierto</Rpt_TX_TrustReason_Smuggle>
   <!-- EN: Smuggling route active — quarterly income ~{0} silver (managed in the trading company window) -->
   <Rpt_TX_WITab_Smuggle>Ruta de contrabando activa: ingreso por cuadrun de unos {0} de plata (se administra en la ventana de la compañía comercial)</Rpt_TX_WITab_Smuggle>
-  <!-- EN: Trading with members: buy {0}% cheaper and sell {0}% dearer.\nRoutes to member settlements cost half to open.\nWith {1} or more members, route slots +1.\nEach quarter, pay {2} silver per member in dues.\nEach quarter, gain +1 mercantile doctrine progress per member (up to +{3}).\nMembers become trade allies. On joining, goodwill below {5} rises to {5}.\nTrade allies cannot be targeted by a declaration of war, rival designation, false-flag provocation or demand for submission, and are excluded from client-state targets. They do not help in battle.\nMembers that turn hostile to us, are embargoed, or whose trust falls below {4} leave the league. -->
-  <Rpt_TX_League_Rule>Al comerciar con los miembros: compras un {0}% más barato y vendes un {0}% más caro.\nAbrir rutas a asentamientos de miembros cuesta la mitad.\nCon {1} miembros o más, espacios para rutas +1.\nCada cuadrun, pagas {2} de plata de cuota por miembro.\nCada cuadrun, ganas +1 de progreso de la doctrina mercantil por miembro (hasta +{3}).\nLos miembros pasan a ser aliados comerciales. Al unirse, si su buena voluntad está por debajo de {5}, sube a {5}.\nA los aliados comerciales no se les puede declarar la guerra, declararlos rivales, hacerles una provocación de bandera falsa ni exigirles sumisión, y quedan fuera de los objetivos de estado cliente. No ayudan en batalla.\nLos miembros que se vuelven hostiles, reciben un embargo o cuya confianza baja de {4} dejan la liga.</Rpt_TX_League_Rule>
+  <!-- EN: Trading with members: buy {0}% cheaper and sell {0}% dearer.\nRoutes to member settlements cost half to open.\nWith {1} or more members, route slots +1.\nEach quarter, pay {2} silver per member in dues.\nEach quarter, gain +1 mercantile doctrine progress per member (up to +{3}).\nMembers become trade allies. On joining, goodwill below {5} rises to {5}.\nTrade allies cannot be targeted by a declaration of war, rival designation, false-flag provocation or demand for submission, and are excluded from client-state targets. They do not help in battle.\nIn a war against a trade ally, you cannot back a side, commit to fight or take part in a coalition, and your mercenary companies, hired mercenaries, weapons, secret war funds and sold intel do not reach that war.\nMembers do not go to war with each other. In a world war they may stand on different blocs.\nMembers that turn hostile to us, are embargoed, whose trust falls below {4}, or that stand on the bloc opposing us in a world war leave the league. -->
+  <Rpt_TX_League_Rule>Al comerciar con los miembros: compras un {0}% más barato y vendes un {0}% más caro.\nAbrir rutas a asentamientos de miembros cuesta la mitad.\nCon {1} miembros o más, espacios para rutas +1.\nCada cuadrun, pagas {2} de plata de cuota por miembro.\nCada cuadrun, ganas +1 de progreso de la doctrina mercantil por miembro (hasta +{3}).\nLos miembros pasan a ser aliados comerciales. Al unirse, si su buena voluntad está por debajo de {5}, sube a {5}.\nA los aliados comerciales no se les puede declarar la guerra, declararlos rivales, hacerles una provocación de bandera falsa ni exigirles sumisión, y quedan fuera de los objetivos de estado cliente. No ayudan en batalla.\nEn una guerra contra un aliado comercial, no puedes apoyar a un bando, comprometerte a pelear ni sumarte a una coalición, y tus compañías de mercenarios, los mercenarios contratados, las armas, los fondos de guerra secretos y la información vendida no llegan a esa guerra.\nLos miembros no van a la guerra entre sí. En una guerra mundial pueden quedar en bloques distintos.\nLos miembros que se vuelven hostiles, reciben un embargo, cuya confianza baja de {4} o que quedan en el bloque contrario al nuestro en una guerra mundial dejan la liga.</Rpt_TX_League_Rule>
   <!-- EN: No trade league. Once the trading company reaches Lv.{0}, you can found one. -->
   <Rpt_TX_League_None>No hay liga comercial. Cuando la compañía comercial llegue al Nv. {0}, podrás fundar una.</Rpt_TX_League_None>
   <!-- EN: Found trade league ({0} silver) -->
@@ -1037,6 +1037,16 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <Rpt_TX_League_ReasonEmbargo>embargo</Rpt_TX_League_ReasonEmbargo>
   <!-- EN: trust fell -->
   <Rpt_TX_League_ReasonTrust>bajó la confianza</Rpt_TX_League_ReasonTrust>
+  <!-- EN: enemy bloc in the world war -->
+  <Rpt_TX_League_ReasonWorldWar>bloque enemigo en la guerra mundial</Rpt_TX_League_ReasonWorldWar>
+  <!-- EN: Trade allies&apos; wars ended -->
+  <Rpt_TX_League_MemberWarsEndedLabel>Terminaron las guerras entre aliados comerciales</Rpt_TX_League_MemberWarsEndedLabel>
+  <!-- EN: Trade league members do not go to war with each other. The wars between members have ended.\n{0} -->
+  <Rpt_TX_League_MemberWarsEnded>Los miembros de la liga comercial no van a la guerra entre sí. Terminaron las guerras entre miembros.\n{0}</Rpt_TX_League_MemberWarsEnded>
+  <!-- EN: \n\nMembers who left the coalition against {1}: {0} -->
+  <Rpt_TX_League_CoalLeft>\n\nMiembros que dejaron la coalición contra {1}: {0}</Rpt_TX_League_CoalLeft>
+  <!-- EN: {0} is our trade ally, so you cannot help a side fighting it. Expel it from the trade league first. -->
+  <Rpt_TX_League_CantAid>{0} es nuestro aliado comercial, así que no puedes ayudar a un bando que pelea contra esa facción. Primero expúlsala de la liga comercial.</Rpt_TX_League_CantAid>
   <!-- EN: Dissolve trade league -->
   <Rpt_TX_League_Dissolve>Disolver la liga comercial</Rpt_TX_League_Dissolve>
   <!-- EN: Dissolve the trade league. All members leave and the founding cost is not refunded. -->
@@ -1901,6 +1911,12 @@ If exposed, {2}&apos;s goodwill and trust drop sharply, and {1} grows suspicious
   <Rpt_UI_Grp_GwLow>Buena voluntad de -1 a -75</Rpt_UI_Grp_GwLow>
   <!-- EN: Goodwill -76 or less -->
   <Rpt_UI_Grp_GwHostile>Buena voluntad -76 o menos</Rpt_UI_Grp_GwHostile>
+  <!-- EN: Factions with something to do -->
+  <Rpt_UI_Grp_Pinned>Facciones con algo pendiente</Rpt_UI_Grp_Pinned>
+  <!-- EN: Other factions -->
+  <Rpt_UI_Grp_Rest>Otras facciones</Rpt_UI_Grp_Rest>
+  <!-- EN: Factions with a time-limited matter are gathered at the top. They return to their usual place once it is handled or the time runs out. -->
+  <Rpt_UI_Grp_PinnedTip>Las facciones con un asunto que tiene plazo se agrupan arriba. Vuelven a su lugar de siempre cuando se resuelve o se acaba el tiempo.</Rpt_UI_Grp_PinnedTip>
   <!-- EN: Join coalition - {0} ({1}d left) -->
   <Rpt_UI_CoalitionJoin>Sumarse a la coalición: {0} (quedan {1} d)</Rpt_UI_CoalitionJoin>
   <!-- EN: Join the coalition against {0}. {1} faction(s) have already joined. Joining will make you hostile to the faction the coalition opposes.
@@ -3229,6 +3245,58 @@ The outcome of the battle is already settled and will not change. The battlefiel
   <Rpt_Spec_EndConfirm>Terminar ya la batalla de {0}.\n\nFuerzas que sobreviven: {1} atacantes, {2} defensores. El ganador se decide por estas cifras y el nivel tecnológico de cada bando, y el campo de batalla se quita.\n\nNo tiene vuelta atrás.</Rpt_Spec_EndConfirm>
   <!-- EN: End spectating {0}. The attackers have not arrived yet, so this battle resolves exactly as it would have without spectating. The map is removed and the result cannot be undone. -->
   <Rpt_Spec_EndConfirmPreRaid>Dejar de observar {0}. Los atacantes todavía no llegaron, así que esta batalla se resuelve exactamente como se habría resuelto sin observarla. El mapa se quita y el resultado no tiene vuelta atrás.</Rpt_Spec_EndConfirmPreRaid>
+  <!-- EN: End spectating {0}. If you close the battlefield before the battle ends, the outcome is decided on the spot (if the garrison is still standing, the defense holds). The result cannot be undone. -->
+  <Rpt_Spec_EndConfirmFt2>Dejar de observar {0}. Si cierras el campo de batalla antes de que termine la batalla, el resultado se decide en el acto (si la guarnición sigue en pie, la defensa resiste). El resultado no tiene vuelta atrás.</Rpt_Spec_EndConfirmFt2>
+  <!-- EN: {0}: the attackers turned back before arriving, so spectating has ended. -->
+  <Rpt_Ft2_SpectateVoid>{0}: los atacantes se volvieron antes de llegar, así que ya no se observa la batalla.</Rpt_Ft2_SpectateVoid>
+  <!-- EN: Could not order the attack on {0}: {1} -->
+  <Rpt_Ft2_OrderFailed>No se pudo ordenar el ataque a {0}: {1}</Rpt_Ft2_OrderFailed>
+  <!-- EN: Settlements cannot be razed during the world war (world war rules). -->
+  <Rpt_Ft2_WwNoRaze>Durante la guerra mundial no se pueden arrasar asentamientos (reglas de la guerra mundial).</Rpt_Ft2_WwNoRaze>
+  <!-- EN: There is no peace in an annihilation war until one side is destroyed. -->
+  <Rpt_Ft2_PeaceNoAnnihilation>En una guerra de aniquilación no hay paz hasta que uno de los bandos es destruido.</Rpt_Ft2_PeaceNoAnnihilation>
+  <!-- EN: At the current war score this peace would be a surrender. Decide in the surrender confirmation window. -->
+  <Rpt_Ft2_PeaceIsSurrender>Con el puntaje de guerra actual, esta paz sería una rendición. Decídelo en la ventana de confirmación de la rendición.</Rpt_Ft2_PeaceIsSurrender>
+  <!-- EN: A client state cannot swear fealty with another faction. -->
+  <Rpt_Ft2_FealtyPuppet>Un estado cliente no puede jurar vasallaje a otra facción.</Rpt_Ft2_FealtyPuppet>
+  <!-- EN: Your tributaries cannot swear fealty with another faction. -->
+  <Rpt_Ft2_FealtyTributary>Tus tributarios no pueden jurar vasallaje a otra facción.</Rpt_Ft2_FealtyTributary>
+  <!-- EN: Fealty cannot be sworn with a permanently hostile faction. -->
+  <Rpt_Ft2_FealtyPermanent>No se puede jurar vasallaje a una facción permanentemente hostil.</Rpt_Ft2_FealtyPermanent>
+  <!-- EN: You already pay tribute to another faction. -->
+  <Rpt_Ft2_FealtyOtherLord>Ya le pagas tributo a otra facción.</Rpt_Ft2_FealtyOtherLord>
+  <!-- EN: an oath of fealty -->
+  <Rpt_Ft2_FealtyPaid>un juramento de vasallaje</Rpt_Ft2_FealtyPaid>
+  <!-- EN: their oath of fealty -->
+  <Rpt_PeaceHow_Ft2Fealty>su juramento de vasallaje</Rpt_PeaceHow_Ft2Fealty>
+  <!-- EN: You are not at war with {0}. Allied offensives can only be requested against factions you are at war with. -->
+  <Rpt_Ft2_OffensiveNeedWar>No estás en guerra con {0}. Las ofensivas aliadas solo se pueden pedir contra facciones con las que estás en guerra.</Rpt_Ft2_OffensiveNeedWar>
+  <!-- EN: {0} cannot go to war with {1}. -->
+  <Rpt_Ft2_OffensiveAllyBlocked>{0} no puede entrar en guerra con {1}.</Rpt_Ft2_OffensiveAllyBlocked>
+  <!-- EN: {0} is at war with {1}, so you cannot hand over weapons. -->
+  <Rpt_Ft2_ArmsBlocked>{0} está en guerra con {1}, así que no puedes entregar armas.</Rpt_Ft2_ArmsBlocked>
+  <!-- EN: This cannot be done at this settlement (it is managed by RimPacts). -->
+  <Rpt_Ft2_PuppetNotHere>Esto no se puede hacer en este asentamiento (lo administra RimPacts).</Rpt_Ft2_PuppetNotHere>
+  <!-- EN: Hegemony warning: this attack betrays an alliance or a peace/border agreement. It causes permanent hostility with that faction that gifts or reparations cannot remove. -->
+  <Rpt_Ft2_AttackWarnFt2>Aviso de Hegemony: este ataque traiciona una alianza o un acuerdo de paz o de fronteras. Provoca una hostilidad permanente con esa facción, que ni los regalos ni las reparaciones pueden quitar.</Rpt_Ft2_AttackWarnFt2>
+  <!-- EN: Ordered {0} to attack {1}. Spectating opens when the attack force sets out. -->
+  <Rpt_Ft2_OrderSent>Se le ordenó a {0} atacar {1}. Podrás observar la batalla cuando salga la fuerza de ataque.</Rpt_Ft2_OrderSent>
+  <!-- EN: The attack force of {0} against {1} did not set out. Check the distance, troops and number of simultaneous invasions. -->
+  <Rpt_Ft2_OrderNoInvasion>La fuerza de ataque de {0} contra {1} no salió. Revisa la distancia, las tropas y la cantidad de invasiones simultáneas.</Rpt_Ft2_OrderNoInvasion>
+  <!-- EN: Deployed to another faction&apos;s invasion battle. -->
+  <Rpt_Ft2_MercBusy>Está desplegada en la batalla de invasión de otra facción.</Rpt_Ft2_MercBusy>
+  <!-- EN: The company &quot;{0}&quot; joined the attack on {2} ({1} troops). -->
+  <Rpt_Ft2_MercSortieAtk>La compañía «{0}» se sumó al ataque a {2} ({1} tropas).</Rpt_Ft2_MercSortieAtk>
+  <!-- EN: The company &quot;{0}&quot; joined the defense of {2} ({1} troops). -->
+  <Rpt_Ft2_MercSortieDef>La compañía «{0}» se sumó a la defensa de {2} ({1} tropas).</Rpt_Ft2_MercSortieDef>
+  <!-- EN: The company &quot;{0}&quot; returned from the invasion battle (survivors {1}/{2} · {3}). -->
+  <Rpt_Ft2_MercSortieBack>La compañía «{0}» volvió de la batalla de invasión (sobrevivientes {1}/{2} · {3}).</Rpt_Ft2_MercSortieBack>
+  <!-- EN: our side won -->
+  <Rpt_Ft2_MercWon>ganó nuestro bando</Rpt_Ft2_MercWon>
+  <!-- EN: our side lost -->
+  <Rpt_Ft2_MercLost>perdió nuestro bando</Rpt_Ft2_MercLost>
+  <!-- EN: an invasion battle -->
+  <Rpt_MC_ChronVia_Ft2>una batalla de invasión</Rpt_MC_ChronVia_Ft2>
   <!-- EN: Battle ended — {0} attackers vs {1} defenders, {2} -->
   <Rpt_Spec_EndResult>Batalla terminada: {0} atacantes contra {1} defensores, {2}</Rpt_Spec_EndResult>
   <!-- EN: attackers win -->
@@ -4213,6 +4281,8 @@ The tier can be raised again. -->
   <Rpt_LetterCounterSabotageLabel>Sabotaje a la red eléctrica</Rpt_LetterCounterSabotageLabel>
   <!-- EN: Someone tampered with the wiring and short-circuited {0} conduits. Batteries discharged and sparks flew.\n\nThe culprit left no trace. A stronger counterintelligence network at the bureau catches infiltrators sooner. -->
   <Rpt_LetterCounterSabotage>Alguien manipuló el cableado y provocó un cortocircuito en {0} conductos. Las baterías se descargaron y saltaron chispas.\n\nEl culpable no dejó rastro. Una red de contrainteligencia más fuerte en la oficina atrapa antes a los infiltrados.</Rpt_LetterCounterSabotage>
+  <!-- EN: Someone tampered with the wiring and short-circuited {0} conduits. Sparks flew.\n\nThe culprit left no trace. A stronger counterintelligence network at the bureau catches infiltrators sooner. -->
+  <Rpt_LetterCounterSabotageNoBattery>Alguien manipuló el cableado y provocó un cortocircuito en {0} conductos. Saltaron chispas.\n\nEl culpable no dejó rastro. Una red de contrainteligencia más fuerte en la oficina atrapa antes a los infiltrados.</Rpt_LetterCounterSabotageNoBattery>
   <!-- EN: Enemy spy caught: {0} -->
   <Rpt_LetterCounterCaughtLabel>Espía enemigo capturado: {0}</Rpt_LetterCounterCaughtLabel>
   <!-- EN: Our counterintelligence network caught a spy sent by {0}. For the next {1} days, no new spy will come. A faction that turned one of our spies, however, can still send one during this time, guided by the traitor.\n\nWhat should we do with the captured spy? -->
@@ -6254,6 +6324,20 @@ For the first {2} days they cannot be recalled. After that, recall them and you 
   <Rpt_Puppet_Ees_Role>Función</Rpt_Puppet_Ees_Role>
   <!-- EN: Commander -->
   <Rpt_Puppet_Ees_Commander>Comandante</Rpt_Puppet_Ees_Commander>
+  <!-- EN: Outer wall outline -->
+  <Rpt_Puppet_Ees_FortOutline>Contorno de la muralla exterior</Rpt_Puppet_Ees_FortOutline>
+  <!-- EN: Inner division -->
+  <Rpt_Puppet_Ees_FortDivision>División interior</Rpt_Puppet_Ees_FortDivision>
+  <!-- EN: Outer defenses -->
+  <Rpt_Puppet_Ees_FortWorks>Defensas exteriores</Rpt_Puppet_Ees_FortWorks>
+  <!-- EN: Gate layout -->
+  <Rpt_Puppet_Ees_FortGates>Disposición de las puertas</Rpt_Puppet_Ees_FortGates>
+  <!-- EN: EES default (varies by city) -->
+  <Rpt_Puppet_Ees_FortDefault>Predeterminado de EES (varía según la ciudad)</Rpt_Puppet_Ees_FortDefault>
+  <!-- EN: Choose this city&apos;s fortress layout. It applies the next time this city&apos;s map is generated; a map that already exists stays as it is. If &quot;Manage automatically&quot; is enabled, it is chosen again when the tier changes. -->
+  <Rpt_Puppet_Ees_FortTip>Elige la disposición de la fortaleza de esta ciudad. Se aplica la próxima vez que se genere el mapa de esta ciudad; un mapa que ya existe queda como está. Si «Gestión automática» está activada, se vuelve a elegir cuando cambia el nivel.</Rpt_Puppet_Ees_FortTip>
+  <!-- EN: {0}: {1} → {2}. Applies the next time this city&apos;s map is generated. -->
+  <Rpt_Puppet_Ees_FortApplied>{0}: {1} → {2}. Se aplica la próxima vez que se genere el mapa de esta ciudad.</Rpt_Puppet_Ees_FortApplied>
   <!-- EN: Mortar battery -->
   <Rpt_Puppet_Ees_Mortar>Batería de morteros</Rpt_Puppet_Ees_Mortar>
   <!-- EN: Installed -->
