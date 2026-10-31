@@ -21,29 +21,6 @@ nada. Sin ningún `TODO`. Índice regenerado y commit «RimIris: traducción com
 secciones y la página «Iluminación por escena». Si algo sigue en inglés con todo traducido, está
 escrito dentro de la DLL y no se arregla desde RML.
 
-## Términos que se eligieron
+## Términos
 
-No hay términos de gráficos en la traducción oficial salvo los de abajo; el resto son los usuales en
-los menús de gráficos en español.
-
-| Inglés | Español | De dónde |
-|---|---|---|
-| hue / saturation | matiz / saturación | oficial |
-| cold snap / heat wave | frente frío / ola de calor | oficial |
-| developer mode | modo desarrollador | oficial |
-| bloom (light / ground) | resplandor (de luces / del suelo) | |
-| sun glow | halo solar (el efecto); brillo del sol (el valor del juego) | |
-| god rays | rayos de sol | |
-| vignette, tone mapping, exposure | viñeta, mapeo de tonos, exposición | |
-| depth of field, bokeh | profundidad de campo, bokeh | |
-| post-processing | posprocesado | |
-| shader pack / preset / add-on | paquete de shaders / preajuste / complemento | |
-| built-in | integrado | |
-| jelly water | agua gelatinosa | |
-| tide run-up | avance de la marea | |
-| scenario (rules, lighting, branch) | escena (reglas de escena, iluminación por escena, rama de escena) | «escenario» se confunde con los del juego |
-| picture | imagen | |
-| uniform, ACES, HDR, GPU, CPU | sin traducir | términos técnicos |
-
-Los cuatro valores con espacio al principio o al final (`StatusAddons`, `OriginTag`, `PresetTag`,
-`ProfileTag`) lo llevan como `&#32;`, porque `aplicar.py` recorta los espacios.
+Están en [GLOSARIO-RIMIRIS.md](GLOSARIO-RIMIRIS.md).
