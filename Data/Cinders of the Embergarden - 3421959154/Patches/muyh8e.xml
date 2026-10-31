@@ -1,37 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationSequence" MayRequireAnyOf="CETeam.CombatExtended,CETeam.CombatExtended_steam">
-        <success>Always</success>
-        <operations>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/StatDef[defName="SightsEfficiency"]/parts/li[4]/desc</xpath>
-            <value>
-              <!-- EN: Secondary mode: {OFFSET} -->
-              <desc>Modo secundario: {OFFSET}</desc>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/StatDef[defName="ShotSpread"]/parts/li[4]/desc</xpath>
-            <value>
-              <!-- EN: Secondary mode: {OFFSET} -->
-              <desc>Modo secundario: {OFFSET}</desc>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/StatDef[defName="SwayFactor"]/parts/li[3]/desc</xpath>
-            <value>
-              <!-- EN: Secondary mode: {OFFSET} -->
-              <desc>Modo secundario: {OFFSET}</desc>
-            </value>
-          </li>
-        </operations>
-      </li>
-    </operations>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SightsEfficiency"]/parts/li[4]/desc</xpath>
+          <value>
+            <!-- EN: Secondary mode: {OFFSET} -->
+            <desc>Modo secundario: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="ShotSpread"]/parts/li[4]/desc</xpath>
+          <value>
+            <!-- EN: Secondary mode: {OFFSET} -->
+            <desc>Modo secundario: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SwayFactor"]/parts/li[3]/desc</xpath>
+          <value>
+            <!-- EN: Secondary mode: {OFFSET} -->
+            <desc>Modo secundario: {OFFSET}</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
 </Patch>
