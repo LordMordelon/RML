@@ -23,7 +23,7 @@
   <!-- EN: Shader Packs -->
   <RimIris_Screen_Title>Paquetes de shaders</RimIris_Screen_Title>
   <!-- EN: STATUS: -->
-  <RimIris_Screen_StatusPrefix>TODO</RimIris_Screen_StatusPrefix>
+  <RimIris_Screen_StatusPrefix>ESTADO:</RimIris_Screen_StatusPrefix>
   <!-- EN: Lighting: enabled · {0} -->
   <RimIris_Screen_StatusOn>Iluminación: activada · {0}</RimIris_Screen_StatusOn>
   <!-- EN:  · +{0} add-on(s) -->
@@ -513,29 +513,29 @@ The strength slider accepts negative values: below 0 brightens the night (nightf
   <!-- EN: Rocky reef outcrops in the shallow offshore band of saltwater bodies (rivers and ponds stay clear). Purely visual — no terrain, no gameplay. 0 = off. -->
   <RimIris_Sea_Reef_Tip>Afloramientos de arrecife rocoso en la franja poco profunda cerca de la costa de las masas de agua salada (los ríos y estanques quedan despejados). Solo visual: sin terreno ni efecto en el juego. 0 = apagado.</RimIris_Sea_Reef_Tip>
   <!-- EN: Bed neighbour mixing -->
-  <RimIris_Bed_FreshMix>TODO</RimIris_Bed_FreshMix>
+  <RimIris_Bed_FreshMix>Mezcla del fondo con el vecino</RimIris_Bed_FreshMix>
   <!-- EN: TEMPORARY diagnostic: cap on the seabed&apos;s &quot;neighbour-material mixing&quot; — how much of the dominant bed texture may be mixed with the real share of a neighbouring shore material (soil/gravel/limestone). 0 = old behaviour (one texture per region = the &quot;white film&quot;); 0.30 = shipped; 0.5 = strong mixing. Changing it re-bakes the bed (~1 s). -->
-  <RimIris_Bed_FreshMix_Tip>TODO</RimIris_Bed_FreshMix_Tip>
+  <RimIris_Bed_FreshMix_Tip>Diagnóstico TEMPORAL: límite de la «mezcla con el material vecino» del fondo marino, es decir, cuánto de la textura dominante del fondo se puede mezclar con la parte real de un material de orilla vecino (tierra, grava, caliza). 0 = comportamiento anterior (una textura por región = la «película blanca»); 0,30 = el valor publicado; 0,5 = mezcla fuerte. Al cambiarlo se vuelve a generar el fondo (~1 s).</RimIris_Bed_FreshMix_Tip>
   <!-- EN: Flow modulation (temp) -->
-  <RimIris_Bed_FlowGain>TODO</RimIris_Bed_FlowGain>
+  <RimIris_Bed_FlowGain>Modulación por la corriente (temp.)</RimIris_Bed_FlowGain>
   <!-- EN: TEMPORARY diagnostic: the fresh surface&apos;s flow-drifting zebra brightness modulation (plasma, features 8/3.2/1.6 cells, drifts 0.48 cells/s along the river). 1 = shipped, 0 = layer fully off (flat water). Use it to identify the moving texture. -->
-  <RimIris_Bed_FlowGain_Tip>TODO</RimIris_Bed_FlowGain_Tip>
+  <RimIris_Bed_FlowGain_Tip>Diagnóstico TEMPORAL: la modulación de brillo en franjas de cebra de la superficie de agua dulce, que se desplaza con la corriente (plasma, detalles de 8/3,2/1,6 celdas, avanza 0,48 celdas/s a lo largo del río). 1 = el valor publicado, 0 = capa apagada del todo (agua plana). Sirve para identificar la textura en movimiento.</RimIris_Bed_FlowGain_Tip>
   <!-- EN: Bed sediment mottle (temp) -->
-  <RimIris_Bed_Sediment>TODO</RimIris_Bed_Sediment>
+  <RimIris_Bed_Sediment>Manchas de sedimento del fondo (temp.)</RimIris_Bed_Sediment>
   <!-- EN: TEMPORARY diagnostic: the bed&apos;s slowly CRAWLING sediment mottle (plasma, feature ~33 cells, drifts ~0.13 cells/s along +X, 12% amplitude) which previously had no gate at all. 1 = shipped, 0 = off. Use it to identify the moving texture seen at 4x speed. -->
-  <RimIris_Bed_Sediment_Tip>TODO</RimIris_Bed_Sediment_Tip>
+  <RimIris_Bed_Sediment_Tip>Diagnóstico TEMPORAL: las manchas de sedimento del fondo que AVANZAN lentamente (plasma, detalle de ~33 celdas, avanza ~0,13 celdas/s hacia +X, amplitud del 12%), que antes no se podían apagar con nada. 1 = el valor publicado, 0 = apagado. Sirve para identificar la textura en movimiento que se ve a velocidad x4.</RimIris_Bed_Sediment_Tip>
   <!-- EN: Bed caustic web (temp) -->
-  <RimIris_Bed_Caustic>TODO</RimIris_Bed_Caustic>
+  <RimIris_Bed_Caustic>Red cáustica del fondo (temp.)</RimIris_Bed_Caustic>
   <!-- EN: TEMPORARY diagnostic: the bed&apos;s caustic interference web (double plasma sample + abs fold, feature ~8 cells, jitters back and forth) which previously had no gate at all. 1 = shipped, 0 = off. Use it to identify the back-and-forth crawling texture. -->
-  <RimIris_Bed_Caustic_Tip>TODO</RimIris_Bed_Caustic_Tip>
+  <RimIris_Bed_Caustic_Tip>Diagnóstico TEMPORAL: la red de interferencia cáustica del fondo (doble muestra de plasma + pliegue con valor absoluto, detalle de ~8 celdas, tiembla de un lado a otro), que antes no se podía apagar con nada. 1 = el valor publicado, 0 = apagado. Sirve para identificar la textura que avanza de un lado a otro.</RimIris_Bed_Caustic_Tip>
   <!-- EN: Seabed underwater brightness (temp) -->
-  <RimIris_Bed_WaterBright>TODO</RimIris_Bed_WaterBright>
+  <RimIris_Bed_WaterBright>Brillo del fondo marino bajo el agua (temp.)</RimIris_Bed_WaterBright>
   <!-- EN: TEMP A/B for the pale-film report: the seabed&apos;s overall underwater brightness. 1 = shipped (the bright sand bed shows at full strength = the pale film). Drag down to dim the bed until it reads as water over a partly-visible bed. Live. -->
-  <RimIris_Bed_WaterBright_Tip>TODO</RimIris_Bed_WaterBright_Tip>
+  <RimIris_Bed_WaterBright_Tip>A/B TEMPORAL para el reporte de la película pálida: el brillo general del fondo marino bajo el agua. 1 = el valor publicado (el fondo de arena clara se ve con toda su fuerza = la película pálida). Bájalo para oscurecer el fondo hasta que se vea como agua sobre un fondo que se ve a medias. En vivo.</RimIris_Bed_WaterBright_Tip>
   <!-- EN: Bed texture density (temp) -->
-  <RimIris_Bed_UVScale>TODO</RimIris_Bed_UVScale>
+  <RimIris_Bed_UVScale>Densidad de la textura del fondo (temp.)</RimIris_Bed_UVScale>
   <!-- EN: TEMP A/B: the bed texture&apos;s tiling scale (UV per world cell; 0.0625 = one tile per 16 cells). If the zebra-stripe period follows this dial, the bands are texture tiling; if not, they come from something else. Live. -->
-  <RimIris_Bed_UVScale_Tip>TODO</RimIris_Bed_UVScale_Tip>
+  <RimIris_Bed_UVScale_Tip>A/B TEMPORAL: la escala de repetición de la textura del fondo (UV por celda del mundo; 0,0625 = una repetición cada 16 celdas). Si el ancho de las franjas de cebra sigue a este control, las bandas son la repetición de la textura; si no, vienen de otra cosa. En vivo.</RimIris_Bed_UVScale_Tip>
   <!-- EN: Terrain relief (normal-shaded ground) -->
   <RimIris_Terrain_Enable>Relieve del terreno (suelo sombreado por normales)</RimIris_Terrain_Enable>
   <!-- EN: Treats the terrain texture&apos;s brightness as a heightfield and lights it with the sun/moon direction: raking daylight sweeps visible micro-relief across the ground over the day, and breaks the mechanical 16-cell texture repetition. Multiply-only — can never exceed the original color. Strength 0 is pixel-exact vanilla. Polluted/burned terrain keeps the vanilla look. -->
@@ -702,17 +702,17 @@ Overwrites all picture settings; does not touch the pack slot, frosted glass or 
   <!-- EN: The asset bundle required by material-level shaders (thing enhancements). -->
   <RimIris_Diag_ShaderPack_Tip>El paquete de recursos que necesitan los shaders de material (las mejoras de las cosas).</RimIris_Diag_ShaderPack_Tip>
   <!-- EN: IsoRim: -->
-  <RimIris_Diag_IsoRim>TODO</RimIris_Diag_IsoRim>
+  <RimIris_Diag_IsoRim>IsoRim:</RimIris_Diag_IsoRim>
   <!-- EN: Auto-detects the IsoRim Waylith mod (isometric/3D camera) and its 3D-view state. Our composite post-processing adapts to its view and any heading automatically; without the mod or with its view off, behaviour is vanilla. -->
-  <RimIris_Diag_IsoRim_Tip>TODO</RimIris_Diag_IsoRim_Tip>
+  <RimIris_Diag_IsoRim_Tip>Detecta solo el mod IsoRim Waylith (cámara isométrica/3D) y el estado de su vista 3D. Nuestro posprocesado final se adapta solo a su vista y a cualquier orientación; sin el mod o con su vista apagada, todo funciona como en el juego original.</RimIris_Diag_IsoRim_Tip>
   <!-- EN: not detected -->
-  <RimIris_Diag_IsoRim_Absent>TODO</RimIris_Diag_IsoRim_Absent>
+  <RimIris_Diag_IsoRim_Absent>no detectado</RimIris_Diag_IsoRim_Absent>
   <!-- EN: 3D view off (vanilla camera) -->
-  <RimIris_Diag_IsoRim_Off>TODO</RimIris_Diag_IsoRim_Off>
+  <RimIris_Diag_IsoRim_Off>vista 3D apagada (cámara original)</RimIris_Diag_IsoRim_Off>
   <!-- EN: isometric · heading {0:F0}° -->
-  <RimIris_Diag_IsoRim_Iso>TODO</RimIris_Diag_IsoRim_Iso>
+  <RimIris_Diag_IsoRim_Iso>isométrica · orientación {0:F0}°</RimIris_Diag_IsoRim_Iso>
   <!-- EN: perspective · heading {0:F0}° -->
-  <RimIris_Diag_IsoRim_Persp>TODO</RimIris_Diag_IsoRim_Persp>
+  <RimIris_Diag_IsoRim_Persp>perspectiva · orientación {0:F0}°</RimIris_Diag_IsoRim_Persp>
   <!-- EN: Currently loaded picture parameters: -->
   <RimIris_Diag_LoadedParams>Parámetros de imagen cargados ahora:</RimIris_Diag_LoadedParams>
   <!-- EN: Reflects the values actually loaded from the settings file — check here first if the picture looks wrong.
@@ -867,11 +867,11 @@ The path is resolved from the mod&apos;s actual install location. -->
   <!-- EN: The GPU bake hit an error in this save cycle, so the CPU path took over automatically (cause in the log). Loading a save or starting a new game re-arms the GPU path. -->
   <RimIris_Darkness_GpuBake_Banned_Tip>El cálculo en la GPU tuvo un error desde que se cargó esta partida, así que la CPU se encargó sola (la causa está en el registro). Al cargar una partida o empezar una nueva, se vuelve a probar la GPU.</RimIris_Darkness_GpuBake_Banned_Tip>
   <!-- EN: Collapse / expand the left sidebar -->
-  <RimIris_Screen_CollapseTip>TODO</RimIris_Screen_CollapseTip>
+  <RimIris_Screen_CollapseTip>Contraer o expandir la barra lateral izquierda</RimIris_Screen_CollapseTip>
   <!-- EN: Use legacy menu (compatibility mode) -->
-  <RimIris_Esc_LegacyMenu>TODO</RimIris_Esc_LegacyMenu>
+  <RimIris_Esc_LegacyMenu>Usar el menú anterior (modo de compatibilidad)</RimIris_Esc_LegacyMenu>
   <!-- EN: Hide the new menu and use the pre-2026-10-09 legacy screen. Takes effect immediately; the new UI stays compiled and can be switched back at any time. -->
-  <RimIris_Esc_LegacyMenu_Tip>TODO</RimIris_Esc_LegacyMenu_Tip>
+  <RimIris_Esc_LegacyMenu_Tip>Oculta el menú nuevo y usa la pantalla anterior al 09-10-2026. Se aplica de inmediato; la interfaz nueva sigue incluida y se puede volver a ella en cualquier momento.</RimIris_Esc_LegacyMenu_Tip>
   <!-- EN: The scenario branch owns the picture: main lighting dials are locked. Edit them under Scenarios. -->
   <RimIris_Scenario_LockBanner>La rama de escena controla la imagen: los controles principales de iluminación están bloqueados. Edítalos en «Iluminación por escena».</RimIris_Scenario_LockBanner>
   <!-- EN: Scenario branch is locked: main lighting settings can&apos;t be changed right now. -->
@@ -1279,7 +1279,7 @@ The path is resolved from the mod&apos;s actual install location. -->
   <!-- EN: night -->
   <RimIris_Scn_DemoNight>noche</RimIris_Scn_DemoNight>
   <!-- EN: Render failover mode -->
-  <RimIris_Alert_Failover>TODO</RimIris_Alert_Failover>
+  <RimIris_Alert_Failover>Modo de renderizado de respaldo</RimIris_Alert_Failover>
   <!-- EN: RimIris is currently outputting the frame through its own composite pipeline instead of the engine&apos;s native render chain — either the engine&apos;s chain failed its self-check, or a heavier feature is on (god rays, scenario pack pre/post passes). The picture is normal, but this mode costs some extra performance.\n\nThis notice clears itself once the engine&apos;s native chain resumes; if a heavier feature is the reason, turning it off returns you to the high-performance mode. -->
-  <RimIris_Alert_Failover_Desc>TODO</RimIris_Alert_Failover_Desc>
+  <RimIris_Alert_Failover_Desc>RimIris está entregando la imagen por su propio proceso de mezcla final en lugar de la cadena de renderizado propia del motor: o la cadena del motor no pasó su autocomprobación, o hay activado un efecto más pesado (rayos de sol, pasadas previas o posteriores de un paquete de escena). La imagen se ve normal, pero este modo cuesta algo más de rendimiento.\n\nEste aviso desaparece solo cuando vuelve la cadena propia del motor; si la causa es un efecto más pesado, al apagarlo vuelves al modo de alto rendimiento.</RimIris_Alert_Failover_Desc>
 </LanguageData>
