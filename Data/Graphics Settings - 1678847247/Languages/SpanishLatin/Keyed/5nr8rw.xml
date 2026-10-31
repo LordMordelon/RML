@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Graphics Settings -->
+  <GS_MenuTitle>Configuración gráfica</GS_MenuTitle>
+  <!-- EN: Presets -->
+  <GS_PresetsTitle>Preajustes</GS_PresetsTitle>
+  <!-- EN: Recommended sharpens textures and improves detail on angled surfaces. Default restores the game&apos;s settings. -->
+  <GS_PresetsHelp>«Recomendado» hace más nítidas las texturas y mejora el detalle en superficies inclinadas. «Por defecto» restablece la configuración del juego.</GS_PresetsHelp>
+  <!-- EN: Default -->
+  <GS_DefaultPreset>Por defecto</GS_DefaultPreset>
+  <!-- EN: Recommended -->
+  <GS_RecommendedPreset>Recomendado</GS_RecommendedPreset>
+  <!-- EN: Settings -->
+  <GS_AdvancedTab>Configuración</GS_AdvancedTab>
+  <!-- EN: Memory profiler -->
+  <GS_MemoryTab>Análisis de memoria</GS_MemoryTab>
+  <!-- EN: General Settings -->
+  <GS_GeneralSettings>Ajustes generales</GS_GeneralSettings>
+  <!-- EN: (Recommended) Activate Mip-Mapping -->
+  <GS_MipMapping>(Recomendado) Activar Mip-Mapping</GS_MipMapping>
+  <!-- EN: MipMap Bias -->
+  <GS_MipMapBias>Sesgo de MipMap</GS_MipMapBias>
+  <!-- EN: Sharpest -->
+  <GS_MipMapSharp>Más Nítido</GS_MipMapSharp>
+  <!-- EN: Blurriest -->
+  <GS_MipMapBlurry>Más Borroso</GS_MipMapBlurry>
+  <!-- EN: Anisotropic Filter Level -->
+  <GS_AnisoLevel>Nivel de Filtro Anisotrópico</GS_AnisoLevel>
+  <!-- EN: Texture Filtering -->
+  <GS_TextureFiltering>Filtrado de Texturas</GS_TextureFiltering>
+  <!-- EN: Bilinear -->
+  <GS_FilterModeBilinear>Bilineal</GS_FilterModeBilinear>
+  <!-- EN: Trilinear -->
+  <GS_FilterModeTrilinear>Trilineal</GS_FilterModeTrilinear>
+  <!-- EN: Reset -->
+  <GS_Reset>Restablecer</GS_Reset>
+  <!-- EN: You will have to restart the game to apply changes! -->
+  <GS_RestartRequired>¡Tendrás que reiniciar el juego para aplicar los cambios!</GS_RestartRequired>
+  <!-- EN: Restart Game -->
+  <GS_RestartGameButton>Reiniciar Juego</GS_RestartGameButton>
+  <!-- EN: This value changes how blurry textures can get depending on zoom, it is recommended to be equal or below 0. -->
+  <GS_MipMapToolTip>Este valor cambia cuán borrosas pueden volverse las texturas dependiendo del zoom. Se recomienda que sea igual o inferior a 0.</GS_MipMapToolTip>
+  <!-- EN: Set the level of anisotropic filtering, higher levels may reduce performance on older graphics cards. -->
+  <GS_AnisoLevelToolTip>Establece el nivel de filtrado anisotrópico. Niveles más altos pueden reducir el rendimiento en tarjetas gráficas antiguas.</GS_AnisoLevelToolTip>
+  <!-- EN: {0} mods have loaded textures. Run an analysis to see results. -->
+  <GS_ModsToProcessLabel>{0} mods tienen texturas cargadas. Haz un análisis para ver los resultados.</GS_ModsToProcessLabel>
+  <!-- EN: No mod textures are loaded. -->
+  <GS_NoModsToProcess>No hay texturas de mods cargadas.</GS_NoModsToProcess>
+  <!-- EN: Analyze textures -->
+  <GS_CacheRecalc>Analizar texturas</GS_CacheRecalc>
+  <!-- EN: Stop -->
+  <GS_CacheStop>Detener</GS_CacheStop>
+  <!-- EN: Continue -->
+  <GS_CacheContinue>Continuar</GS_CacheContinue>
+  <!-- EN: Not Enough VRAM -->
+  <GS_CacheWarnRAM>VRAM Insuficiente</GS_CacheWarnRAM>
+  <!-- EN: Calculating... Please wait. -->
+  <GS_RecalcProcess>Calculando... Por favor, espera.</GS_RecalcProcess>
+  <!-- EN: Warning:\n{0} -->
+  <GS_CacheWarning>Advertencia:\n{0}</GS_CacheWarning>
+  <!-- EN: Your system cannot support these settings.&quot; -->
+  <GS_CacheWarnOverflow>Tu sistema no puede soportar estos ajustes.</GS_CacheWarnOverflow>
+  <!-- EN: Your system may struggle with these settings. -->
+  <GS_CacheWarnStruggle>Tu sistema podría tener dificultades con estos ajustes.</GS_CacheWarnStruggle>
+  <!-- EN: Graphics Settings -->
+  <GS_OpenSettings>Configuración gráfica</GS_OpenSettings>
+  <!-- EN: Texture filtering -->
+  <GS_TextureSampling>Filtrado de texturas</GS_TextureSampling>
+  <!-- EN: Change texture filtering -->
+  <GS_OverrideFilterMode>Cambiar el filtrado de texturas</GS_OverrideFilterMode>
+  <!-- EN: Point keeps pixels sharp. Bilinear softens edges. Trilinear also smooths changes between texture detail levels. -->
+  <GS_FilterModeHelp>«Puntual» mantiene nítidos los píxeles. «Bilineal» suaviza los bordes. «Trilineal» suaviza además el paso entre los niveles de detalle de las texturas.</GS_FilterModeHelp>
+  <!-- EN: Point -->
+  <GS_FilterModePoint>Puntual</GS_FilterModePoint>
+  <!-- EN: Filtering: {0} -->
+  <GS_FilterModeValue>Filtrado: {0}</GS_FilterModeValue>
+  <!-- EN: Improve detail on angled surfaces -->
+  <GS_OverrideAnisotropicLevel>Mejorar el detalle en superficies inclinadas</GS_OverrideAnisotropicLevel>
+  <!-- EN: Keeps surfaces like floors clearer when viewed at an angle. Higher levels may affect performance. -->
+  <GS_AnisotropicLevelHelp>Mantiene más nítidas superficies como los suelos cuando se ven en ángulo. Los niveles más altos pueden afectar al rendimiento.</GS_AnisotropicLevelHelp>
+  <!-- EN: Detail level: {0} -->
+  <GS_AnisotropicLevelValue>Nivel de detalle: {0}</GS_AnisotropicLevelValue>
+  <!-- EN: Overall texture resolution -->
+  <GS_GlobalMipmapLimit>Resolución general de las texturas</GS_GlobalMipmapLimit>
+  <!-- EN: Affects vanilla and mod textures. -->
+  <GS_GlobalMipmapLimitDescription>Afecta a las texturas de Vanilla y de los mods.</GS_GlobalMipmapLimitDescription>
+  <!-- EN: Lower resolutions reduce detail and can reduce memory use. -->
+  <GS_GlobalMipmapLimitHelp>Las resoluciones más bajas reducen el detalle y pueden reducir el uso de memoria.</GS_GlobalMipmapLimitHelp>
+  <!-- EN: Adjust texture resolution -->
+  <GS_OverrideGlobalMipmapLimit>Ajustar la resolución de las texturas</GS_OverrideGlobalMipmapLimit>
+  <!-- EN: Texture resolution: {0} -->
+  <GS_GlobalMipmapLimitValue>Resolución de las texturas: {0}</GS_GlobalMipmapLimitValue>
+  <!-- EN: Full resolution -->
+  <GS_FullResolution>Resolución completa</GS_FullResolution>
+  <!-- EN: 1/2 resolution -->
+  <GS_HalfResolution>1/2 de la resolución</GS_HalfResolution>
+  <!-- EN: 1/4 resolution -->
+  <GS_QuarterResolution>1/4 de la resolución</GS_QuarterResolution>
+  <!-- EN: 1/8 resolution -->
+  <GS_EighthResolution>1/8 de la resolución</GS_EighthResolution>
+  <!-- EN: Interface -->
+  <GS_InterfaceGroup>Interfaz</GS_InterfaceGroup>
+  <!-- EN: Estimated mod texture data: {0} -->
+  <GS_EstimatedTextureData>Datos de texturas de mods estimados: {0}</GS_EstimatedTextureData>
+  <!-- EN: Run an analysis to see the estimate. -->
+  <GS_EstimateNotReady>Haz un análisis para ver la estimación.</GS_EstimateNotReady>
+  <!-- EN: {0} textures not included in the estimate -->
+  <GS_UnestimatedTextureCount>{0} texturas no incluidas en la estimación</GS_UnestimatedTextureCount>
+  <!-- EN: Show Graphics Settings on the main menu -->
+  <GS_MainMenuButton>Mostrar Configuración gráfica en el menú principal</GS_MainMenuButton>
+  <!-- EN: Show or hide this shortcut on the main menu. -->
+  <GS_MainMenuButtonHelp>Muestra u oculta este acceso directo en el menú principal.</GS_MainMenuButtonHelp>
+  <!-- EN: Texture sharpness -->
+  <GS_MipMapBiasSection>Nitidez de las texturas</GS_MipMapBiasSection>
+  <!-- EN: Adjust texture sharpness -->
+  <GS_OverrideMipMapBias>Ajustar la nitidez de las texturas</GS_OverrideMipMapBias>
+  <!-- EN: Move right for sharper textures. Very sharp settings can make fine details shimmer. -->
+  <GS_MipMapBiasHelp>Mueve a la derecha para texturas más nítidas. Con valores muy nítidos, los detalles finos pueden parpadear.</GS_MipMapBiasHelp>
+  <!-- EN: Adjust texture sharpness as you zoom in and out. -->
+  <GS_MipMapBiasDescription>Ajusta la nitidez de las texturas al acercar y alejar la cámara.</GS_MipMapBiasDescription>
+  <!-- EN: Sharpness: {0} -->
+  <GS_MipMapBiasValue>Nitidez: {0}</GS_MipMapBiasValue>
+  <!-- EN: Performance -->
+  <GS_MipMapPerformanceMode>Rendimiento</GS_MipMapPerformanceMode>
+  <!-- EN: Balanced performance -->
+  <GS_MipMapBalancedPerformance>Equilibrado, más rendimiento</GS_MipMapBalancedPerformance>
+  <!-- EN: Balanced (default) -->
+  <GS_MipMapBalancedDefault>Equilibrado (por defecto)</GS_MipMapBalancedDefault>
+  <!-- EN: Balanced quality -->
+  <GS_MipMapBalancedQuality>Equilibrado, más calidad</GS_MipMapBalancedQuality>
+  <!-- EN: Quality -->
+  <GS_MipMapQualityMode>Calidad</GS_MipMapQualityMode>
+  <!-- EN: Reset to defaults -->
+  <GS_ResetToDefaults>Restablecer valores por defecto</GS_ResetToDefaults>
+  <!-- EN: Apply -->
+  <GS_ApplySettings>Aplicar</GS_ApplySettings>
+  <!-- EN: Preview -->
+  <GS_Preview>Vista previa</GS_Preview>
+  <!-- EN: Default -->
+  <GS_PreviewDefault>Por defecto</GS_PreviewDefault>
+  <!-- EN: Current settings -->
+  <GS_PreviewCurrent>Configuración actual</GS_PreviewCurrent>
+  <!-- EN: Show split test colors -->
+  <GS_PreviewSplitTestColors>Mostrar colores de prueba en la división</GS_PreviewSplitTestColors>
+  <!-- EN: This is a sample image, not a game scene. Results may look different in game. -->
+  <GS_PreviewHint>Es una imagen de muestra, no una escena del juego. En el juego, el resultado puede verse distinto.</GS_PreviewHint>
+  <!-- EN: Preview image is unavailable. -->
+  <GS_PreviewUnavailable>La imagen de vista previa no está disponible.</GS_PreviewUnavailable>
+  <!-- EN: {0} / {1} mods analyzed -->
+  <GS_ModsShown>{0} / {1} mods analizados</GS_ModsShown>
+  <!-- EN: Search mods -->
+  <GS_SearchMods>Buscar mods</GS_SearchMods>
+  <!-- EN: Filter by mod name or package ID. -->
+  <GS_SearchModsTip>Filtra por el nombre o el ID de paquete del mod.</GS_SearchModsTip>
+  <!-- EN: Clear -->
+  <GS_ClearSearch>Borrar</GS_ClearSearch>
+  <!-- EN: No mods match this search. -->
+  <GS_NoMatchingMods>Ningún mod coincide con la búsqueda.</GS_NoMatchingMods>
+  <!-- EN: Estimated texture data: {0}. This is {1} of the total estimate. -->
+  <GS_ModEstimatedPayloadTooltip>Datos de texturas estimados: {0}. Es el {1} de la estimación total.</GS_ModEstimatedPayloadTooltip>
+  <!-- EN: {0}: {1}, {3} textures ({2}) -->
+  <GS_ModMemoryRowLabel>{0}: {1}, {3} texturas ({2})</GS_ModMemoryRowLabel>
+  <!-- EN: {0}: no estimate, {1} textures -->
+  <GS_ModMemoryRowNoEstimateLabel>{0}: sin estimación, {1} texturas</GS_ModMemoryRowNoEstimateLabel>
+  <!-- EN: No size estimate available -->
+  <GS_ModNoTextureEstimate>No hay una estimación del tamaño</GS_ModNoTextureEstimate>
+  <!-- EN: This mod&apos;s texture sizes could not be estimated. -->
+  <GS_ModNoTextureEstimateTooltip>No se pudo estimar el tamaño de las texturas de este mod.</GS_ModNoTextureEstimateTooltip>
+  <!-- EN: Checking textures: {2} / {3} assets ({0} / {1} mods) -->
+  <GS_ReadTextureMetadataProgress>Revisando texturas: {2} / {3} recursos ({0} / {1} mods)</GS_ReadTextureMetadataProgress>
+  <!-- EN: Estimating sizes: {0} / {1} mods -->
+  <GS_EstimateProgress>Estimando tamaños: {0} / {1} mods</GS_EstimateProgress>
+  <!-- EN: Analysis stopped before it finished. Try again. -->
+  <GS_AnalysisFailedStatus>El análisis se detuvo antes de terminar. Vuelve a intentarlo.</GS_AnalysisFailedStatus>
+  <!-- EN: Pause -->
+  <GS_CachePause>Pausa</GS_CachePause>
+  <!-- EN: Resume -->
+  <GS_CacheResume>Reanudar</GS_CacheResume>
+  <!-- EN: Analyzing… -->
+  <GS_CacheWorking>Analizando…</GS_CacheWorking>
+  <!-- EN: Memory overview -->
+  <GS_MemorySummaryTitle>Resumen de memoria</GS_MemorySummaryTitle>
+  <!-- EN: Mod texture estimate -->
+  <GS_SummaryEstimateLabel>Estimación de texturas de mods</GS_SummaryEstimateLabel>
+  <!-- EN: {0} mods, {1} textures -->
+  <GS_SummaryCounts>{0} mods, {1} texturas</GS_SummaryCounts>
+  <!-- EN: Approximate texture data for loaded mods -->
+  <GS_SummaryEstimateScenario>Datos de texturas aproximados de los mods cargados</GS_SummaryEstimateScenario>
+  <!-- EN: {0} textures could not be estimated -->
+  <GS_SummaryUnestimatedTextures>No se pudieron estimar {0} texturas</GS_SummaryUnestimatedTextures>
+  <!-- EN: Estimated texture data by mod -->
+  <GS_SummaryModsTitle>Datos de texturas estimados por mod</GS_SummaryModsTitle>
+  <!-- EN: Show details about these readings. -->
+  <GS_ShowMemoryInfo>Muestra los detalles de estas lecturas.</GS_ShowMemoryInfo>
+  <!-- EN: Hide reading details. -->
+  <GS_HideMemoryInfo>Oculta los detalles de las lecturas.</GS_HideMemoryInfo>
+  <!-- EN: About these readings -->
+  <GS_MemoryInfoTitle>Sobre estas lecturas</GS_MemoryInfoTitle>
+  <!-- EN: VRAM -->
+  <GS_MemoryInfoVramTitle>VRAM</GS_MemoryInfoVramTitle>
+  <!-- EN: Shows current graphics memory reported by the game. Driver readings can include all graphics resources used by the game. If unavailable, this shows allocations tracked by the game. -->
+  <GS_MemoryInfoVramText>Muestra la memoria gráfica actual que informa el juego. Las lecturas del controlador pueden incluir todos los recursos gráficos que usa el juego. Si no están disponibles, muestra las asignaciones que registra el juego.</GS_MemoryInfoVramText>
+  <!-- EN: Minimum and peak -->
+  <GS_MemoryInfoRangeTitle>Mínimo y máximo</GS_MemoryInfoRangeTitle>
+  <!-- EN: Shows the lowest and highest readings recorded while this window is open. Readings update every two seconds. -->
+  <GS_MemoryInfoRangeText>Muestra la lectura más baja y la más alta registradas mientras esta ventana está abierta. Las lecturas se actualizan cada dos segundos.</GS_MemoryInfoRangeText>
+  <!-- EN: RAM -->
+  <GS_MemoryInfoRamTitle>RAM</GS_MemoryInfoRamTitle>
+  <!-- EN: Shows memory used by the whole game, including non-graphics data. -->
+  <GS_MemoryInfoRamText>Muestra la memoria que usa todo el juego, incluidos los datos que no son gráficos.</GS_MemoryInfoRamText>
+  <!-- EN: Mod texture estimate -->
+  <GS_MemoryInfoEstimateTitle>Estimación de texturas de mods</GS_MemoryInfoEstimateTitle>
+  <!-- EN: Estimates texture data for loaded mods. This is not a measured VRAM total. -->
+  <GS_MemoryInfoEstimateText>Estima los datos de texturas de los mods cargados. No es un total de VRAM medido.</GS_MemoryInfoEstimateText>
+  <!-- EN: Run an analysis to see the estimate. -->
+  <GS_SummaryWaiting>Haz un análisis para ver la estimación.</GS_SummaryWaiting>
+  <!-- EN: RAM -->
+  <GS_RuntimeRamLabel>RAM</GS_RuntimeRamLabel>
+  <!-- EN: {0} -->
+  <GS_RuntimeRamValue>{0}</GS_RuntimeRamValue>
+  <!-- EN: VRAM -->
+  <GS_RuntimeVramLabel>VRAM</GS_RuntimeVramLabel>
+  <!-- EN: {0} reported of {1} budget -->
+  <GS_VramDriverBudgetValue>{0} informados de {1} de presupuesto</GS_VramDriverBudgetValue>
+  <!-- EN: {0} reported of {1} GPU memory -->
+  <GS_VramDriverTotalValue>{0} informados de {1} de memoria de GPU</GS_VramDriverTotalValue>
+  <!-- EN: {0} reported by the driver -->
+  <GS_VramDriverOnlyValue>{0} informados por el controlador</GS_VramDriverOnlyValue>
+  <!-- EN: {0} tracked by the game of {1} GPU memory -->
+  <GS_VramTrackedTotalValue>{0} registrados por el juego de {1} de memoria de GPU</GS_VramTrackedTotalValue>
+  <!-- EN: {0} tracked by the game -->
+  <GS_VramTrackedOnlyValue>{0} registrados por el juego</GS_VramTrackedOnlyValue>
+  <!-- EN: Not available -->
+  <GS_RuntimeUnavailable>No disponible</GS_RuntimeUnavailable>
+  <!-- EN: Min: {0}, Peak: {1} -->
+  <GS_VramObservedRange>Mínimo: {0}, máximo: {1}</GS_VramObservedRange>
+  <!-- EN: Min: {0} -->
+  <GS_VramMinLabel>Mínimo: {0}</GS_VramMinLabel>
+  <!-- EN: Peak: {0} -->
+  <GS_VramPeakLabel>Máximo: {0}</GS_VramPeakLabel>
+  <!-- EN: Collecting readings -->
+  <GS_VramRangeWaiting>Recopilando lecturas</GS_VramRangeWaiting>
+  <!-- EN: No readings available -->
+  <GS_VramRangeUnavailable>No hay lecturas disponibles</GS_VramRangeUnavailable>
+  <!-- EN: Current reading: {0} -->
+  <GS_VramCurrentTooltip>Lectura actual: {0}</GS_VramCurrentTooltip>
+  <!-- EN: Minimum VRAM usage recorded while this window is open -->
+  <GS_VramLowTooltip>Uso mínimo de VRAM registrado mientras esta ventana está abierta</GS_VramLowTooltip>
+  <!-- EN: Maximum VRAM usage recorded while this window is open -->
+  <GS_VramPeakTooltip>Uso máximo de VRAM registrado mientras esta ventana está abierta</GS_VramPeakTooltip>
+  <!-- EN: Reported GPU memory budget: {0} -->
+  <GS_VramBudgetTooltip>Presupuesto de memoria de GPU informado: {0}</GS_VramBudgetTooltip>
+  <!-- EN: GPU memory limit used for the bar scale: {0} -->
+  <GS_VramDeviceLimitTooltip>Límite de memoria de GPU usado para la escala de la barra: {0}</GS_VramDeviceLimitTooltip>
+  <!-- EN: Reading reported by the graphics driver. It includes GPU resources beyond mod textures. -->
+  <GS_VramDriverTooltip>Lectura que informa el controlador gráfico. Incluye recursos de la GPU además de las texturas de los mods.</GS_VramDriverTooltip>
+  <!-- EN: Fallback reading of GPU allocations tracked by the game. It may miss allocations managed elsewhere. -->
+  <GS_VramTrackedTooltip>Lectura de respaldo de las asignaciones de la GPU que registra el juego. Puede no incluir las asignaciones que se gestionan en otra parte.</GS_VramTrackedTooltip>
+</LanguageData>
