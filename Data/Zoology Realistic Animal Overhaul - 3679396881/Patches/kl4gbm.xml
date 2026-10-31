@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationSequence" MayRequire="CETeam.CombatExtended">
-        <success>Always</success>
-        <operations>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalBabyTiny"]/label</xpath>
-            <value>
-              <!-- EN: animal baby tiny AP factors -->
-              <label>factores de PA de cría animal diminuta</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalBaby"]/label</xpath>
-            <value>
-              <!-- EN: animal baby AP factors -->
-              <label>factores de PA de cría animal</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalJuvenile"]/label</xpath>
-            <value>
-              <!-- EN: animal juvenile AP factors -->
-              <label>factores de PA de animal juvenil</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/LifeStagePenetrationDef[defName="EusocialInsectLarva"]/label</xpath>
-            <value>
-              <!-- EN: eusocial insect larva AP factors -->
-              <label>factores de PA de larva de insecto eusocial</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/LifeStagePenetrationDef[defName="EusocialInsectJuvenile"]/label</xpath>
-            <value>
-              <!-- EN: eusocial insect juvenile AP factors -->
-              <label>factores de PA de insecto eusocial juvenil</label>
-            </value>
-          </li>
-        </operations>
-      </li>
-    </operations>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalBabyTiny"]/label</xpath>
+          <value>
+            <!-- EN: animal baby tiny AP factors -->
+            <label>factores de PA de cría animal diminuta</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalBaby"]/label</xpath>
+          <value>
+            <!-- EN: animal baby AP factors -->
+            <label>factores de PA de cría animal</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/LifeStagePenetrationDef[defName="AnimalJuvenile"]/label</xpath>
+          <value>
+            <!-- EN: animal juvenile AP factors -->
+            <label>factores de PA de animal juvenil</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/LifeStagePenetrationDef[defName="EusocialInsectLarva"]/label</xpath>
+          <value>
+            <!-- EN: eusocial insect larva AP factors -->
+            <label>factores de PA de larva de insecto eusocial</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/LifeStagePenetrationDef[defName="EusocialInsectJuvenile"]/label</xpath>
+          <value>
+            <!-- EN: eusocial insect juvenile AP factors -->
+            <label>factores de PA de insecto eusocial juvenil</label>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
@@ -516,38 +516,6 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Panther"]/tools/li[1]/label</xpath>
-    <value>
-      <!-- EN: head -->
-      <label>cabeza</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Panther"]/tools/li[2]/label</xpath>
-    <value>
-      <!-- EN: left claw -->
-      <label>garra izquierda</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Panther"]/tools/li[3]/label</xpath>
-    <value>
-      <!-- EN: right claw -->
-      <label>garra derecha</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Panther"]/tools/li[4]/label</xpath>
-    <value>
-      <!-- EN: canines -->
-      <label>caninos</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
     <xpath>/Defs/ThingDef[defName="Lynx"]/tools/li[1]/label</xpath>
     <value>
       <!-- EN: head -->
@@ -637,38 +605,6 @@
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>/Defs/ThingDef[defName="Horse"]/tools/li[4]/label</xpath>
-    <value>
-      <!-- EN: teeth -->
-      <label>dientes</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[1]/label</xpath>
-    <value>
-      <!-- EN: head -->
-      <label>cabeza</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[2]/label</xpath>
-    <value>
-      <!-- EN: left hoof -->
-      <label>pezuña izquierda</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[3]/label</xpath>
-    <value>
-      <!-- EN: right hoof -->
-      <label>pezuña derecha</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Donkey"]/tools/li[4]/label</xpath>
     <value>
       <!-- EN: teeth -->
       <label>dientes</label>
@@ -1004,22 +940,6 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Rat"]/tools/li[1]/label</xpath>
-    <value>
-      <!-- EN: head -->
-      <label>cabeza</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Rat"]/tools/li[2]/label</xpath>
-    <value>
-      <!-- EN: Incisors -->
-      <label>Incisivos</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
     <xpath>/Defs/ThingDef[defName="Squirrel"]/tools/li[1]/label</xpath>
     <value>
       <!-- EN: head -->
@@ -1336,38 +1256,6 @@
     <value>
       <!-- EN: antler -->
       <label>asta</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[1]/label</xpath>
-    <value>
-      <!-- EN: head -->
-      <label>cabeza</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[2]/label</xpath>
-    <value>
-      <!-- EN: left hoof -->
-      <label>pezuña izquierda</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[3]/label</xpath>
-    <value>
-      <!-- EN: right hoof -->
-      <label>pezuña derecha</label>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Ibex"]/tools/li[4]/label</xpath>
-    <value>
-      <!-- EN: horn -->
-      <label>cuerno</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
