@@ -12,6 +12,8 @@ todavía**: Angel lo revisa y decide.
 
 ## 1. La condición de Combat Extended en los `Patches/`
 
+**Decidido por Angel el 31-oct-2026: por nombre** («Combat Extended»), que funciona con el CE oficial y con el no oficial. El extractor ya lo escribe así; los cinco mods que cambiaron en la reextracción del 31-oct están en `PLAN-ACTUALIZACION-31-OCT.md` de la raíz de RML.
+
 **Qué pasa.** Cuando un mod traduce algo que solo existe con Combat Extended, el parche de RML lleva
 una condición: «aplicar solo si está CE». Al reextraer, el extractor la escribe por **packageId**
 (`MayRequireAnyOf="CETeam.CombatExtended,CETeam.CombatExtended_steam"`), aunque el mod original la
