@@ -20,12 +20,14 @@
   <RimIris_Pack_Builtin_Desc>Posprocesado / tono de la iluminación / agua / mareas / suelo mojado por la lluvia / profundidad de campo / rayos de sol.</RimIris_Pack_Builtin_Desc>
   <!-- EN: Built-in -->
   <RimIris_Pack_Builtin_Short>Integrado</RimIris_Pack_Builtin_Short>
-  <!-- EN: RimIris Shader Packs -->
+  <!-- EN: Shader Packs -->
   <RimIris_Screen_Title>Paquetes de shaders de RimIris</RimIris_Screen_Title>
+  <!-- EN: STATUS: -->
+  <RimIris_Screen_StatusPrefix>TODO</RimIris_Screen_StatusPrefix>
   <!-- EN: Lighting: enabled · {0} -->
   <RimIris_Screen_StatusOn>Iluminación: activada · {0}</RimIris_Screen_StatusOn>
   <!-- EN:  · +{0} add-on(s) -->
-  <RimIris_Screen_StatusAddons>&#32;· +{0} complemento(s)</RimIris_Screen_StatusAddons>
+  <RimIris_Screen_StatusAddons> · +{0} complemento(s)</RimIris_Screen_StatusAddons>
   <!-- EN: Lighting: none (vanilla rendering) -->
   <RimIris_Screen_StatusOff>Iluminación: ninguna (renderizado original)</RimIris_Screen_StatusOff>
   <!-- EN: Drag to resize the window -->
@@ -226,7 +228,8 @@ Independent from Ground Bloom — each has its own threshold, radius and intensi
   <RimIris_Report_Button>¿Algún problema? Paquete de diagnóstico en un clic</RimIris_Report_Button>
   <!-- EN: This collects your computer&apos;s OS and hardware info, the game environment configuration and the diagnostic logs. It contains no privacy data unrelated to diagnostics.
 
-On confirm, developer mode turns ON automatically for ~60 seconds (please reproduce the problem during that window), then turns OFF, the package is built and the folder opens by itself. -->
+On confirm, developer mode turns ON automatically for ~60 seconds (please reproduce the problem during that window), then turns OFF, the package is built and the folder opens by itself.
+A per-frame performance monitor also runs during the window (every light/shader pipeline stage, stutter attribution, GC and bake events) and is included in the package to diagnose framerate loss. -->
   <RimIris_Report_Confirm_Body>Esto reúne el sistema operativo y el hardware de tu computadora, la configuración del juego y los registros de diagnóstico. No contiene datos privados que no tengan que ver con el diagnóstico.\n\nAl confirmar, el modo desarrollador se enciende solo durante unos 60 segundos (repite el problema en ese tiempo), después se apaga, se arma el paquete y la carpeta se abre sola.</RimIris_Report_Confirm_Body>
   <!-- EN: Recording… {0}s left (reproduce the problem now) -->
   <RimIris_Report_Recording>Grabando… quedan {0} s (repite el problema ahora)</RimIris_Report_Recording>
@@ -509,6 +512,30 @@ The strength slider accepts negative values: below 0 brightens the night (nightf
   <RimIris_Sea_Reef>Arrecifes</RimIris_Sea_Reef>
   <!-- EN: Rocky reef outcrops in the shallow offshore band of saltwater bodies (rivers and ponds stay clear). Purely visual — no terrain, no gameplay. 0 = off. -->
   <RimIris_Sea_Reef_Tip>Afloramientos de arrecife rocoso en la franja poco profunda cerca de la costa de las masas de agua salada (los ríos y estanques quedan despejados). Solo visual: sin terreno ni efecto en el juego. 0 = apagado.</RimIris_Sea_Reef_Tip>
+  <!-- EN: Bed neighbour mixing -->
+  <RimIris_Bed_FreshMix>TODO</RimIris_Bed_FreshMix>
+  <!-- EN: TEMPORARY diagnostic: cap on the seabed&apos;s &quot;neighbour-material mixing&quot; — how much of the dominant bed texture may be mixed with the real share of a neighbouring shore material (soil/gravel/limestone). 0 = old behaviour (one texture per region = the &quot;white film&quot;); 0.30 = shipped; 0.5 = strong mixing. Changing it re-bakes the bed (~1 s). -->
+  <RimIris_Bed_FreshMix_Tip>TODO</RimIris_Bed_FreshMix_Tip>
+  <!-- EN: Flow modulation (temp) -->
+  <RimIris_Bed_FlowGain>TODO</RimIris_Bed_FlowGain>
+  <!-- EN: TEMPORARY diagnostic: the fresh surface&apos;s flow-drifting zebra brightness modulation (plasma, features 8/3.2/1.6 cells, drifts 0.48 cells/s along the river). 1 = shipped, 0 = layer fully off (flat water). Use it to identify the moving texture. -->
+  <RimIris_Bed_FlowGain_Tip>TODO</RimIris_Bed_FlowGain_Tip>
+  <!-- EN: Bed sediment mottle (temp) -->
+  <RimIris_Bed_Sediment>TODO</RimIris_Bed_Sediment>
+  <!-- EN: TEMPORARY diagnostic: the bed&apos;s slowly CRAWLING sediment mottle (plasma, feature ~33 cells, drifts ~0.13 cells/s along +X, 12% amplitude) which previously had no gate at all. 1 = shipped, 0 = off. Use it to identify the moving texture seen at 4x speed. -->
+  <RimIris_Bed_Sediment_Tip>TODO</RimIris_Bed_Sediment_Tip>
+  <!-- EN: Bed caustic web (temp) -->
+  <RimIris_Bed_Caustic>TODO</RimIris_Bed_Caustic>
+  <!-- EN: TEMPORARY diagnostic: the bed&apos;s caustic interference web (double plasma sample + abs fold, feature ~8 cells, jitters back and forth) which previously had no gate at all. 1 = shipped, 0 = off. Use it to identify the back-and-forth crawling texture. -->
+  <RimIris_Bed_Caustic_Tip>TODO</RimIris_Bed_Caustic_Tip>
+  <!-- EN: Seabed underwater brightness (temp) -->
+  <RimIris_Bed_WaterBright>TODO</RimIris_Bed_WaterBright>
+  <!-- EN: TEMP A/B for the pale-film report: the seabed&apos;s overall underwater brightness. 1 = shipped (the bright sand bed shows at full strength = the pale film). Drag down to dim the bed until it reads as water over a partly-visible bed. Live. -->
+  <RimIris_Bed_WaterBright_Tip>TODO</RimIris_Bed_WaterBright_Tip>
+  <!-- EN: Bed texture density (temp) -->
+  <RimIris_Bed_UVScale>TODO</RimIris_Bed_UVScale>
+  <!-- EN: TEMP A/B: the bed texture&apos;s tiling scale (UV per world cell; 0.0625 = one tile per 16 cells). If the zebra-stripe period follows this dial, the bands are texture tiling; if not, they come from something else. Live. -->
+  <RimIris_Bed_UVScale_Tip>TODO</RimIris_Bed_UVScale_Tip>
   <!-- EN: Terrain relief (normal-shaded ground) -->
   <RimIris_Terrain_Enable>Relieve del terreno (suelo sombreado por normales)</RimIris_Terrain_Enable>
   <!-- EN: Treats the terrain texture&apos;s brightness as a heightfield and lights it with the sun/moon direction: raking daylight sweeps visible micro-relief across the ground over the day, and breaks the mechanical 16-cell texture repetition. Multiply-only — can never exceed the original color. Strength 0 is pixel-exact vanilla. Polluted/burned terrain keeps the vanilla look. -->
@@ -577,7 +604,7 @@ Overwrites all picture settings; does not touch the pack slot, frosted glass or 
   <!-- EN: RimIris preset imported: {0} -->
   <RimIris_Preset_Imported>Preajuste de RimIris importado: {0}</RimIris_Preset_Imported>
   <!-- EN:  (from {0}) -->
-  <RimIris_Preset_OriginTag>&#32;(de {0})</RimIris_Preset_OriginTag>
+  <RimIris_Preset_OriginTag> (de {0})</RimIris_Preset_OriginTag>
   <!-- EN: Share -->
   <RimIris_Preset_ShareBtn>Compartir</RimIris_Preset_ShareBtn>
   <!-- EN: Compress this preset&apos;s parameters into a one-line share code and copy it to the clipboard — paste it to other players. -->
@@ -674,6 +701,18 @@ Overwrites all picture settings; does not touch the pack slot, frosted glass or 
   <RimIris_Diag_ShaderPack_Missing>No cargado</RimIris_Diag_ShaderPack_Missing>
   <!-- EN: The asset bundle required by material-level shaders (thing enhancements). -->
   <RimIris_Diag_ShaderPack_Tip>El paquete de recursos que necesitan los shaders de material (las mejoras de las cosas).</RimIris_Diag_ShaderPack_Tip>
+  <!-- EN: IsoRim: -->
+  <RimIris_Diag_IsoRim>TODO</RimIris_Diag_IsoRim>
+  <!-- EN: Auto-detects the IsoRim Waylith mod (isometric/3D camera) and its 3D-view state. Our composite post-processing adapts to its view and any heading automatically; without the mod or with its view off, behaviour is vanilla. -->
+  <RimIris_Diag_IsoRim_Tip>TODO</RimIris_Diag_IsoRim_Tip>
+  <!-- EN: not detected -->
+  <RimIris_Diag_IsoRim_Absent>TODO</RimIris_Diag_IsoRim_Absent>
+  <!-- EN: 3D view off (vanilla camera) -->
+  <RimIris_Diag_IsoRim_Off>TODO</RimIris_Diag_IsoRim_Off>
+  <!-- EN: isometric · heading {0:F0}° -->
+  <RimIris_Diag_IsoRim_Iso>TODO</RimIris_Diag_IsoRim_Iso>
+  <!-- EN: perspective · heading {0:F0}° -->
+  <RimIris_Diag_IsoRim_Persp>TODO</RimIris_Diag_IsoRim_Persp>
   <!-- EN: Currently loaded picture parameters: -->
   <RimIris_Diag_LoadedParams>Parámetros de imagen cargados ahora:</RimIris_Diag_LoadedParams>
   <!-- EN: Reflects the values actually loaded from the settings file — check here first if the picture looks wrong.
@@ -827,6 +866,16 @@ The path is resolved from the mod&apos;s actual install location. -->
   <RimIris_Darkness_GpuBake_Banned>El cálculo en la GPU falló en esta partida cargada: se usa la CPU</RimIris_Darkness_GpuBake_Banned>
   <!-- EN: The GPU bake hit an error in this save cycle, so the CPU path took over automatically (cause in the log). Loading a save or starting a new game re-arms the GPU path. -->
   <RimIris_Darkness_GpuBake_Banned_Tip>El cálculo en la GPU tuvo un error desde que se cargó esta partida, así que la CPU se encargó sola (la causa está en el registro). Al cargar una partida o empezar una nueva, se vuelve a probar la GPU.</RimIris_Darkness_GpuBake_Banned_Tip>
+  <!-- EN: Collapse / expand the left sidebar -->
+  <RimIris_Screen_CollapseTip>TODO</RimIris_Screen_CollapseTip>
+  <!-- EN: Use legacy menu (compatibility mode) -->
+  <RimIris_Esc_LegacyMenu>TODO</RimIris_Esc_LegacyMenu>
+  <!-- EN: Hide the new menu and use the pre-2026-10-09 legacy screen. Takes effect immediately; the new UI stays compiled and can be switched back at any time. -->
+  <RimIris_Esc_LegacyMenu_Tip>TODO</RimIris_Esc_LegacyMenu_Tip>
+  <!-- EN: The scenario branch owns the picture: main lighting dials are locked. Edit them under Scenarios. -->
+  <RimIris_Scenario_LockBanner>La rama de escena controla la imagen: los controles principales de iluminación están bloqueados. Edítalos en «Iluminación por escena».</RimIris_Scenario_LockBanner>
+  <!-- EN: Scenario branch is locked: main lighting settings can&apos;t be changed right now. -->
+  <RimIris_Scenario_LockedWrite>La rama de escena está bloqueada: ahora no se pueden cambiar los ajustes principales de iluminación.</RimIris_Scenario_LockedWrite>
   <!-- EN: Scenario rules -->
   <RimIris_Scn_Title>Reglas de escena</RimIris_Scn_Title>
   <!-- EN: Environment census -->
@@ -1098,9 +1147,9 @@ The path is resolved from the mod&apos;s actual install location. -->
   <!-- EN: Clear -->
   <RimIris_Scn_ClearLook>Quitar</RimIris_Scn_ClearLook>
   <!-- EN: Preset ·  -->
-  <RimIris_Scn_PresetTag>Preajuste ·&#32;</RimIris_Scn_PresetTag>
+  <RimIris_Scn_PresetTag>Preajuste · </RimIris_Scn_PresetTag>
   <!-- EN: Profile ·  -->
-  <RimIris_Scn_ProfileTag>Perfil ·&#32;</RimIris_Scn_ProfileTag>
+  <RimIris_Scn_ProfileTag>Perfil · </RimIris_Scn_ProfileTag>
   <!-- EN: Clear -->
   <RimIris_Scn_ClearTag>Quitar</RimIris_Scn_ClearTag>
   <!-- EN: Rain/Snow -->
@@ -1153,8 +1202,6 @@ The path is resolved from the mod&apos;s actual install location. -->
   <RimIris_Scn_PreviewNeedBranch>activa primero «Iluminación por escena» para ver la vista previa</RimIris_Scn_PreviewNeedBranch>
   <!-- EN: Packs... -->
   <RimIris_Scn_PackManager>Paquetes...</RimIris_Scn_PackManager>
-  <!-- EN: Scenario branch is locked: main lighting settings can&apos;t be changed right now. -->
-  <RimIris_Scenario_LockedWrite>La rama de escena está bloqueada: ahora no se pueden cambiar los ajustes principales de iluminación.</RimIris_Scenario_LockedWrite>
   <!-- EN: Scenario packs -->
   <RimIris_ScnPack_Title>Paquetes de escenas</RimIris_ScnPack_Title>
   <!-- EN: Name -->
@@ -1211,8 +1258,6 @@ The path is resolved from the mod&apos;s actual install location. -->
   <RimIris_ScnPack_PathOk>se importará: {0}</RimIris_ScnPack_PathOk>
   <!-- EN: built-in -->
   <RimIris_ScnPack_Shipped>integrado</RimIris_ScnPack_Shipped>
-  <!-- EN: The scenario branch owns the picture: main lighting dials are locked. Edit them under Scenarios. -->
-  <RimIris_Scenario_LockBanner>La rama de escena controla la imagen: los controles principales de iluminación están bloqueados. Edítalos en «Iluminación por escena».</RimIris_Scenario_LockBanner>
   <!-- EN: The picture was changed but not saved to the profile (next switch restores it) -->
   <RimIris_Scn_TweakDirty>La imagen cambió pero no se guardó en el perfil (el próximo cambio la devuelve)</RimIris_Scn_TweakDirty>
   <!-- EN: Save to “{0}” -->
@@ -1233,4 +1278,8 @@ The path is resolved from the mod&apos;s actual install location. -->
   <RimIris_Scn_DemoHint>Cambia cada 30 s: mediodía despejado → mediodía con lluvia → mediodía con nieve → noche despejada → noche con nieve (y vuelve a empezar). Primero marca «Iluminación por escena» en la columna izquierda.</RimIris_Scn_DemoHint>
   <!-- EN: night -->
   <RimIris_Scn_DemoNight>noche</RimIris_Scn_DemoNight>
+  <!-- EN: Render failover mode -->
+  <RimIris_Alert_Failover>TODO</RimIris_Alert_Failover>
+  <!-- EN: RimIris is currently outputting the frame through its own composite pipeline instead of the engine&apos;s native render chain — either the engine&apos;s chain failed its self-check, or a heavier feature is on (god rays, scenario pack pre/post passes). The picture is normal, but this mode costs some extra performance.\n\nThis notice clears itself once the engine&apos;s native chain resumes; if a heavier feature is the reason, turning it off returns you to the high-performance mode. -->
+  <RimIris_Alert_Failover_Desc>TODO</RimIris_Alert_Failover_Desc>
 </LanguageData>
