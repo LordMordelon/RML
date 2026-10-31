@@ -1,237 +1,238 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationSequence" MayRequireAnyOf="CETeam.CombatExtended,CETeam.CombatExtended_steam">
-        <success>Always</success>
-        <operations>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: head -->
-              <label>cabeza</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: laser cutter -->
-              <label>cortador láser</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: surgical drill -->
-              <label>taladro quirúrgico</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: left leg -->
-              <label>pierna izquierda</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: right leg -->
-              <label>pierna derecha</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: head -->
-              <label>cabeza</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: muzzle -->
-              <label>boca del cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: muzzle -->
-              <label>boca del cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: muzzle -->
-              <label>boca del cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[3]/label</xpath>
-            <value>
-              <!-- EN: muzzle -->
-              <label>boca del cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_AssaultRifle"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_AssaultRifle"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_LightMachinegun"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_LightMachinegun"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_MarksmanRifle"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_MarksmanRifle"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_OSW"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_OSW"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_ACSW"]/tools/li[1]/label</xpath>
-            <value>
-              <!-- EN: stock -->
-              <label>culata</label>
-            </value>
-          </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="USAC_Gun_ACSW"]/tools/li[2]/label</xpath>
-            <value>
-              <!-- EN: barrel -->
-              <label>cañón</label>
-            </value>
-          </li>
-        </operations>
-      </li>
-    </operations>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: laser cutter -->
+            <label>cortador láser</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: surgical drill -->
+            <label>taladro quirúrgico</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: left leg -->
+            <label>pierna izquierda</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: right leg -->
+            <label>pierna derecha</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Mech_Omaha"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: head -->
+            <label>cabeza</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_CobraAC"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>boca del cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_TorchwoodRR"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>boca del cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_ViperDMR"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>boca del cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_BushmasterAC"]/tools/li[3]/label</xpath>
+          <value>
+            <!-- EN: muzzle -->
+            <label>boca del cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_AssaultRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_AssaultRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_LightMachinegun"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_LightMachinegun"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_MarksmanRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_MarksmanRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_OSW"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_OSW"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_ACSW"]/tools/li[1]/label</xpath>
+          <value>
+            <!-- EN: stock -->
+            <label>culata</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="USAC_Gun_ACSW"]/tools/li[2]/label</xpath>
+          <value>
+            <!-- EN: barrel -->
+            <label>cañón</label>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
 </Patch>
