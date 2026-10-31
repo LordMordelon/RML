@@ -188,6 +188,11 @@ Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el ext
   (110 textos, commit 2e76f4dd), con los mismos términos que Hegemony (pista, asistencia, impedimento,
   Borrar). Falta comprobarlo en el juego.
 
+### 3. «Cant» al lado de la cantidad
+
+- `Hegemony_Qty_A9BE9C3E9A` es «Cant.» y en el juego se ve «Cant» (sin punto, quizá recortado). Mirar si
+  cabe «Cant.» o conviene otra forma.
+
 ### 4. «goodwill gift» en las noticias de diplomacia de la IA — no se puede desde la traducción
 
 - El mensaje «Diplomacia de la IA: goodwill gift: X y Y» / «X completó goodwill gift con Y» arma el nombre
@@ -195,8 +200,20 @@ Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el ext
   `Hegemony_Label_GoodwillGift_43BCF303D6` («Regalo de buena voluntad»), que sí está traducida. Es texto
   fijo de la DLL: hay que pedirle al autor que use la clave. Seguramente pasa lo mismo con las demás
   acciones de diplomacia de la IA.
+- Mensaje para el autor (borrador, lo manda Angel en la página del mod en Steam si quiere):
 
-### 3. «Cant» al lado de la cantidad
+  > Hi! Thanks for adding translation support, I'm translating Hegemony into Latin American Spanish.
+  > One thing I couldn't translate: the AI diplomacy news shows the action name from the code instead of
+  > its translated label. In Spanish it reads «Diplomacia de la IA: goodwill gift: Heinor y Corporación
+  > de vuelo» and «Heinor completó goodwill gift con Corporación de vuelo». The key
+  > `Hegemony_Label_GoodwillGift` is already translated («Regalo de buena voluntad»), so it looks like the
+  > message uses the enum name (`GoodwillGift` → "goodwill gift") instead of that key. Could the news use
+  > the label keys for every AI diplomacy action? Thanks!
 
-- `Hegemony_Qty_A9BE9C3E9A` es «Cant.» y en el juego se ve «Cant» (sin punto, quizá recortado). Mirar si
-  cabe «Cant.» o conviene otra forma.
+### Pendiente (31-oct)
+
+1. Probar en el juego: la cuadrícula de edificios (etapas), la configuración de Hegemony y el botón
+   «Clear» de la tienda, que ahora vienen del framework.
+2. El punto 3: «Cant» al lado de la cantidad.
+3. Mandar al autor el mensaje del punto 4.
+4. Confirmar con Angel «avasallar/avasallamiento» (ver el glosario).
