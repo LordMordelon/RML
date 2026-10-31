@@ -8,10 +8,11 @@
 #   python -I Herramientas/traducir.py revisar <mod> [--contra HEAD|carpeta]
 #   python -I Herramientas/traducir.py terminos <mod> [--glosario ruta.md]...
 #   python -I Herramientas/traducir.py comprobar
+#   python -I Herramientas/traducir.py ingles [--desde commit]
 #   python -I Herramientas/traducir.py prueba <mod> [--desde commit]
 #   python -I Herramientas/traducir.py lineas <copia.xml> <archivo.xml>
 #   python -I Herramientas/traducir.py corregir <mod> <cambios.tsv>
-import argparse, collections, glob, os, re, shutil, subprocess, sys, tempfile, time, unicodedata
+import argparse, collections, glob, html, os, re, shutil, subprocess, sys, tempfile, time, unicodedata
 import xml.etree.ElementTree as ET
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -191,6 +192,48 @@ def revisar(orig, nuevo, en_patches=False):
             continue
         mal += _problemas_de(e, my.groups()[-2], i + 1)
     return mal
+
+
+Cambiado = collections.namedtuple("Cambiado", "clave antes ahora valor")
+
+
+def _en_comparable(en):
+    # Un escape distinto (&apos; o ') o un salto de linea de mas no es un cambio del ingles
+    return re.sub(r"\s+", " ", html.unescape(html.unescape(en or "")).replace("\\n", " ")).strip()
+
+
+def ingles_cambiado(orig, nuevo, en_patches=False):
+    """Las traducciones cuyo ingles cambio y cuyo español quedo igual: el extractor actualiza el comentario
+    EN pero no el valor, asi que una actualizacion del mod deja el texto viejo sin marcarlo (RimIris, 31-oct)."""
+    antes = {e.clave: e for e in leer_entradas(_lineas(orig), en_patches)[0]}
+    cambiados = []
+    for e in leer_entradas(_lineas(nuevo), en_patches)[0]:
+        a = antes.get(e.clave)
+        if (a and e.valor == a.valor and e.valor != "TODO" and a.en is not None and e.en is not None
+                and _en_comparable(a.en) != _en_comparable(e.en)):
+            cambiados.append(Cambiado(e.clave, a.en, e.en, e.valor))
+    return cambiados
+
+
+RE_TEXTO = re.compile(r"<([A-Za-z0-9_.\-]+)>([^<]+)</\1>|<li>([^<]+)</li>")
+
+
+def _textos(b):
+    # Los valores traducidos de un archivo, sin comentarios, condiciones de mods, xpath ni success
+    t = re.sub(r"<!--.*?-->|<mods>.*?</mods>|<xpath>.*?</xpath>|<success>.*?</success>", "",
+               b.decode("utf-8-sig", "replace"), flags=re.S)
+    return [m.group(2) or m.group(3) for m in RE_TEXTO.finditer(t) if (m.group(2) or m.group(3)).strip() != "TODO"]
+
+
+def desaparecidas(antes, despues, unused=b""):
+    """Los textos traducidos de un mod que estaban y ya no estan en ningun archivo en uso. Se compara el mod
+    entero porque una reextraccion mueve textos de un archivo a otro (de Patches a DefInjected). Lo que paso
+    al UNUSED.xml se avisa igual, marcado: puede ser una clave que el mod saco o una perdida, como las reglas
+    de Insectoids 2, que el extractor recorto y aparto ahi."""
+    quedan = collections.Counter(x for b in despues.values() for x in _textos(b))
+    apartadas = set(re.findall(r">([^<]+)</entry>", unused.decode("utf-8-sig", "replace")))
+    faltan = collections.Counter(x for b in antes.values() for x in _textos(b)) - quedan
+    return sorted(("(al UNUSED) " if x in apartadas else "") + x for x in faltan.elements())
 
 
 class Informe:
@@ -611,6 +654,44 @@ COMPROBACIONES = [
 ]
 
 
+def ingles_cambiado_desde(desde):
+    """Lo de ingles_cambiado en cada XML de Data/ y Ajustes/ que difiere de <desde> (un commit)."""
+    nombres = git("-c", "core.quotepath=off", "diff", "--name-only", desde, "--", "Data", "Ajustes") or b""
+    salida = []
+    for rel in nombres.decode("utf-8").splitlines():
+        p = os.path.join(RAIZ, rel)
+        if not rel.endswith(".xml") or rel.endswith("UNUSED.xml") or not os.path.exists(p):
+            continue
+        orig = git("show", f"{desde}:{rel}")
+        if orig is None:
+            continue
+        for c in ingles_cambiado(orig, open(p, "rb").read(), es_patch(rel)):
+            salida.append(f"{rel}\n  {c.clave}\n  EN antes: {c.antes}\n  EN ahora: {c.ahora}\n  ES: {c.valor}")
+    return salida
+
+
+def desaparecidas_desde(desde):
+    """Lo de desaparecidas en cada carpeta de mod de Data/ y Ajustes/ con algun cambio desde <desde>."""
+    nombres = (git("-c", "core.quotepath=off", "diff", "--name-only", desde, "--", "Data", "Ajustes") or b"").decode("utf-8")
+    carpetas = set()
+    for rel in nombres.splitlines():
+        d = os.path.dirname(os.path.join(RAIZ, rel))
+        while len(d) > len(RAIZ) and not os.path.exists(os.path.join(d, "LoadFolders.Build.yaml")):
+            d = os.path.dirname(d)
+        if len(d) > len(RAIZ):
+            carpetas.add(d)
+    salida = []
+    for c in sorted(carpetas):
+        base = rel_git(c, "")
+        lista = (git("-c", "core.quotepath=off", "ls-tree", "-r", "--name-only", desde, "--", base) or b"").decode("utf-8")
+        antes = {r: git("show", f"{desde}:{r}") or b"" for r in lista.splitlines()
+                 if r.endswith(".xml") and not r.endswith("UNUSED.xml")}
+        unused = os.path.join(c, "UNUSED.xml")
+        for x in desaparecidas(antes, leer_mod(c), open(unused, "rb").read() if os.path.exists(unused) else b""):
+            salida.append(f"{base}: {x[:200]}")
+    return salida
+
+
 def comprobar(tocados=None):
     b, sucio = bash(), False
     for titulo, cmd in COMPROBACIONES:
@@ -620,6 +701,17 @@ def comprobar(tocados=None):
         if salida:
             sucio = True
             print("    " + salida.replace("\n", "\n    "))
+    # La 4 no es de grep: lee los comentarios EN como lo hace la tabla
+    cambiados = ingles_cambiado_desde("HEAD")
+    print(f"  4) que no quede español viejo donde cambio el ingles: {'vacia' if not cambiados else 'SALIO ALGO'}")
+    if cambiados:
+        sucio = True
+        print("    " + "\n    ".join(x.replace("\n", "\n    ") for x in cambiados))
+    perdidas = desaparecidas_desde("HEAD")
+    print(f"  5) que ningun texto traducido haya desaparecido del mod: {'vacia' if not perdidas else 'SALIO ALGO'}")
+    if perdidas:
+        sucio = True
+        print("    " + "\n    ".join(perdidas))
     if tocados is not None:
         estado = (git("-c", "core.quotepath=off", "status", "--short") or b"").decode("utf-8", "replace")
         ajenos = [l[3:].strip('"') for l in estado.splitlines() if l[3:].strip('"') not in tocados]
@@ -735,6 +827,14 @@ def cmd_comprobar(a):
     return 1 if comprobar() else 0
 
 
+def cmd_ingles(a):
+    cambiados = ingles_cambiado_desde(a.desde)
+    for x in cambiados:
+        print(x + "\n")
+    print(f"{len(cambiados)} traduccion(es) con el ingles cambiado desde {a.desde} y el español igual")
+    return 1 if cambiados else 0
+
+
 def cmd_prueba(a):
     carpeta = buscar_mod(a.mod)
     grupos = collections.defaultdict(list)
@@ -816,6 +916,7 @@ def main(args=None):
     o = s.add_parser("revisar"); o.add_argument("mod"); o.add_argument("--contra", default="HEAD"); o.set_defaults(f=cmd_revisar)
     o = s.add_parser("terminos"); o.add_argument("mod"); o.add_argument("--glosario", action="append"); o.set_defaults(f=cmd_terminos)
     o = s.add_parser("comprobar"); o.set_defaults(f=cmd_comprobar)
+    o = s.add_parser("ingles"); o.add_argument("--desde", default="HEAD"); o.set_defaults(f=cmd_ingles)
     o = s.add_parser("prueba"); o.add_argument("mod"); o.add_argument("--desde"); o.set_defaults(f=cmd_prueba)
     o = s.add_parser("lineas"); o.add_argument("copia"); o.add_argument("archivo"); o.set_defaults(f=cmd_lineas)
     o = s.add_parser("corregir"); o.add_argument("mod"); o.add_argument("cambios"); o.set_defaults(f=cmd_corregir)

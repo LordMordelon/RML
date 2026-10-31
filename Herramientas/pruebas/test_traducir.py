@@ -210,6 +210,48 @@ class Revisar(unittest.TestCase):
         self.assertTrue(T.revisar(SIMPLE, SIMPLE + b"<!-- x -->\r\n"))
 
 
+class InglesCambiado(unittest.TestCase):
+    # RimIris, 31-oct-2026: el mod cambio «RimIris Shader Packs» por «Shader Packs», la reextraccion
+    # actualizo el comentario EN y el español viejo se commiteo sin que nada avisara
+    def test_avisa_si_cambio_el_ingles_y_no_el_español(self):
+        orig = xml(["  <!-- EN: RimIris Shader Packs -->", "  <T.title>Paquetes de shaders de RimIris</T.title>"])
+        nuevo = xml(["  <!-- EN: Shader Packs -->", "  <T.title>Paquetes de shaders de RimIris</T.title>"])
+        c = T.ingles_cambiado(orig, nuevo)
+        self.assertEqual([(x.clave, x.antes, x.ahora) for x in c], [("T.title", "RimIris Shader Packs", "Shader Packs")])
+
+    def test_no_avisa_si_el_español_cambio_o_es_todo_o_solo_cambia_el_escape(self):
+        orig = xml(["  <!-- EN: a -->", "  <A.label>uno</A.label>", "  <!-- EN: b -->", "  <B.label>TODO</B.label>",
+                    "  <!-- EN: it&apos;s -->", "  <C.label>es</C.label>"])
+        nuevo = xml(["  <!-- EN: a2 -->", "  <A.label>uno2</A.label>", "  <!-- EN: b2 -->", "  <B.label>TODO</B.label>",
+                     "  <!-- EN: it's -->", "  <C.label>es</C.label>"], fin="\n")
+        self.assertEqual(T.ingles_cambiado(orig, nuevo), [])
+
+    def test_patches_por_xpath(self):
+        nuevo = PATCH.replace(b"EN: stock", b"EN: buttstock")
+        self.assertEqual(T.ingles_cambiado(PATCH, nuevo, True), [])  # el valor es TODO
+        hecho = PATCH.replace(b"<label>TODO</label>", b"<label>culata</label>", 1)
+        c = T.ingles_cambiado(hecho, hecho.replace(b"EN: stock", b"EN: buttstock"), True)
+        self.assertEqual([x.clave for x in c], ['/Defs/ThingDef[defName="X"]/tools/li[1]/label|label'])
+
+
+class Desaparecidas(unittest.TestCase):
+    # Insectoids 2, 31-oct-2026: la reextraccion recorto la lista de reglas al largo del ingles y las
+    # variantes [insectoid_masc] agregadas a mano se fueron al UNUSED.xml sin que nada avisara
+    def test_avisa_la_regla_que_se_fue(self):
+        antes = {"a.xml": xml(["  <Q.rulesStrings>", "    <li>x_fem-&gt;Voraz</li>", "    <li>x_masc-&gt;Voraz</li>",
+                               "  </Q.rulesStrings>"])}
+        despues = {"a.xml": xml(["  <Q.rulesStrings>", "    <li>x_fem-&gt;Voraz</li>", "  </Q.rulesStrings>"])}
+        self.assertEqual(T.desaparecidas(antes, despues), ["x_masc-&gt;Voraz"])
+
+    def test_mover_de_archivo_no_es_perderla_y_lo_del_unused_se_marca(self):
+        antes = {"Patches/p.xml": PATCH.replace(b"<label>TODO</label>", b"<label>culata</label>", 1),
+                 "k.xml": xml(["  <!-- EN: lab -->", "  <L.label>laboratorio</L.label>"])}
+        despues = {"d.xml": xml(["  <!-- EN: stock -->", "  <X.tools.0.label>culata</X.tools.0.label>"]),
+                   "k.xml": xml([])}
+        unused = b'<entry class="RoomRoleDef" node="L.label" original="lab">laboratorio</entry>'
+        self.assertEqual(T.desaparecidas(antes, despues, unused), ["(al UNUSED) laboratorio"])
+
+
 class Tabla(unittest.TestCase):
     def test_la_plantilla_llenada_se_aplica_entera(self):
         archivos = {"Languages/SpanishLatin/DefInjected/ThingDef/a.xml": SIMPLE, "r.xml": LISTA}

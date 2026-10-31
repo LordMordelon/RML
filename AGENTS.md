@@ -307,7 +307,25 @@ git diff HEAD --name-only -z | xargs -0 -r awk '
 '
 ```
 
-Las tres tienen que salir vacías. Si sale algo, hay que entender **por qué** antes de
+Hay dos más que no caben en `grep` porque leen los comentarios EN y comparan el mod entero. Las
+corre `python -I Herramientas/traducir.py comprobar`, junto con estas tres (y `aplicar` las corre
+solas):
+
+4. **Que no quede español viejo donde cambió el inglés.** El extractor actualiza el comentario
+   `<!-- EN: -->` pero deja el valor, así que una actualización del mod deja el texto viejo sin
+   marcarlo como `TODO`. Pasó con RimIris el 31-oct-2026: el título pasó de «RimIris Shader
+   Packs» a «Shader Packs» y se commiteó el español viejo. Cada caso se revisa contra el inglés
+   nuevo: si es solo una errata del inglés, el español queda; si cambia el sentido, se corrige
+   en el mismo commit del mod. `traducir.py ingles --desde <commit>` lo busca contra un commit
+   anterior, para lo que ya se commiteó.
+5. **Que ningún texto traducido haya desaparecido del mod.** Junta los textos de todos los
+   archivos del mod antes y después, porque una reextracción los mueve de un archivo a otro.
+   Lo que pasó al `UNUSED.xml` sale marcado «(al UNUSED)»: puede ser una clave que el mod sacó o
+   una pérdida. El 31-oct-2026 el extractor recortó al largo del inglés las listas de reglas que
+   tenían variantes de género agregadas a mano (Insectoids 2, Vanilla Social Interactions
+   Expanded, Hospitality) y las apartó al `UNUSED.xml`; ninguna de las tres de arriba lo vio.
+
+Las cinco tienen que salir vacías. Si sale algo, hay que entender **por qué** antes de
 commitear: puede ser correcto, pero nunca se da por bueno sin mirarlo.
 
 Cuando algo aparece dañado, lo primero es averiguar si lo causó el cambio en curso:
@@ -332,7 +350,7 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
      abiertos (`Herramientas/oficial/`).
   3. `python -I Herramientas/traducir.py aplicar <mod> <tabla.tsv>` la copia solo sobre `TODO`,
      guarda una copia de antes y, en el mismo informe, revisa la tanda, los términos del glosario
-     del mod (`--glosario` para sumar los de la familia) y las tres comprobaciones del diff.
+     del mod (`--glosario` para sumar los de la familia) y las cinco comprobaciones del diff.
   4. Si un término nuevo salió en la tanda, va al glosario del mod antes de la siguiente.
 
   Lo que hace el comando y por qué está en
