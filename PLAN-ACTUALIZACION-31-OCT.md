@@ -8,7 +8,7 @@ extracción de cada mod.
 Lo pidió Angel el 31-oct: revisar, corregir y traducir las actualizaciones y el contenido nuevo. Se borra al
 terminar, como los otros planes.
 
-## Hecho (31-oct, sin push)
+## Hecho (31-oct, subido)
 
 - **La reextracción, commiteada mod por mod** (`77bdf65f` … `2c13d8fa`), con las comprobaciones del diff.
   Los archivos que solo cambiaban en saltos de línea no dejaron commit.
@@ -43,7 +43,7 @@ terminar, como los otros planes.
 
 **Objetivo:** el arreglo del extractor para las listas de reglas, y después los `TODO` chicos (Props and Decor,
 RimIris, Ascension).
-**Estado:** todo commiteado en `master` de RML, **sin push** (Angel decide cuándo subir). El extractor sin cambios.
+**Estado:** todo subido a `master` de RML el 31-oct (`3ce5a505`). El extractor sin cambios.
 **Antes de empezarla (Angel):** no reextraer nada hasta que esté el arreglo del extractor.
 **Al empezar (Claude):**
 1. En `RimworldExtractor`: prueba que falle con una lista de `rulesStrings` más larga que la del inglés, y el
