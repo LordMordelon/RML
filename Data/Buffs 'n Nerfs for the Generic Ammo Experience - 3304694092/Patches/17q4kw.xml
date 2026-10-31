@@ -1,0 +1,2965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PlantBlazebulb"]/description</xpath>
+          <value>
+            <!-- EN: Genetically engineered mushroom designed to yield prometheum for use in incendiary weapons.\n\nGreat care must be taken in cultivating this plant as the incendiary compounds inside the bulbs can self-ignite at temperatures above 28°C. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it. -->
+            <description>TODO</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket"]/label</xpath>
+          <value>
+            <!-- EN: make charged rocket (HE-C) x5 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket"]/description</xpath>
+          <value>
+            <!-- EN: Craft 5 high-explosive charged rockets. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket"]/jobString</xpath>
+          <value>
+            <!-- EN: Making HE-C charged rockets. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_ICP"]/label</xpath>
+          <value>
+            <!-- EN: make charged rocket (ICP) x5 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_ICP"]/description</xpath>
+          <value>
+            <!-- EN: Craft 5 incendiary prometheum charged rockets. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_ICP"]/jobString</xpath>
+          <value>
+            <!-- EN: Making ICP charged rockets. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_BB"]/label</xpath>
+          <value>
+            <!-- EN: make charged rocket (BB) x5 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_BB"]/description</xpath>
+          <value>
+            <!-- EN: Craft 5 bunker buster charged rockets. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_ChargedRocket_BB"]/jobString</xpath>
+          <value>
+            <!-- EN: Making BB charged rockets. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeVWEThrowingKnives"]/label</xpath>
+          <value>
+            <!-- EN: make throwing knives x10 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeVWEThrowingKnives"]/description</xpath>
+          <value>
+            <!-- EN: Craft 10 throwing knives. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeVWEThrowingKnives"]/jobString</xpath>
+          <value>
+            <!-- EN: Making throwing knives. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeThrowingRocks"]/label</xpath>
+          <value>
+            <!-- EN: make throwing rocks from chunk x50 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeThrowingRocks"]/description</xpath>
+          <value>
+            <!-- EN: Craft 50 throwing rocks by roughly breaking a stone chunk apart. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeThrowingRocks"]/jobString</xpath>
+          <value>
+            <!-- EN: Making throwing rocks. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_FletcherDart"]/label</xpath>
+          <value>
+            <!-- EN: make fletcher dart x20 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_FletcherDart"]/description</xpath>
+          <value>
+            <!-- EN: Craft 20 fletcher darts. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_FletcherDart"]/jobString</xpath>
+          <value>
+            <!-- EN: Making fletcher darts. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Tox"]/label</xpath>
+          <value>
+            <!-- EN: make tox launcher grenades x50 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Tox"]/description</xpath>
+          <value>
+            <!-- EN: Craft 50 tox launcher grenades. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Tox"]/jobString</xpath>
+          <value>
+            <!-- EN: Making tox launcher grenades. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_VFET_Throwspikes"]/label</xpath>
+          <value>
+            <!-- EN: make throwspikes x10 -->
+            <label>TODO</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_VFET_Throwspikes"]/description</xpath>
+          <value>
+            <!-- EN: Craft 10 throwspikes. -->
+            <description>TODO</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeAmmo_VFET_Throwspikes"]/jobString</xpath>
+          <value>
+            <!-- EN: Making throwspikes. -->
+            <jobString>TODO</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_LaserChargePack"]/description</xpath>
+    <value>
+      <!-- EN: A universal charge pack that energy weapons can pull power from. Each charge pack can supply enough power for one full recharge of the weapon. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingCategoryDef[defName="AmmoMechCharged"]/label</xpath>
+    <value>
+      <!-- EN: charged mech ammo -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_MechCharged"]/label</xpath>
+    <value>
+      <!-- EN: charged mech -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_Mech_Charged"]/label</xpath>
+    <value>
+      <!-- EN: charged mech cartridge -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="Sabot"]/label</xpath>
+    <value>
+      <!-- EN: armor-piercing discarding sabot -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="Sabot"]/labelShort</xpath>
+    <value>
+      <!-- EN: AP-S -->
+      <labelShort>TODO</labelShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Uses a discarding sabot to fire an undersized projectile at higher muzzle velocities, greatly improving armor penetration. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_Rifle_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: rifle cartridge (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_RifleIntermediate_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: intermediate rifle cartridge (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_RifleMagnum_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: magnum rifle cartridge (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_AntiMateriel_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: anti-materiel cartridge (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_Autocannon_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: anti-autocannon shell (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Ammo_LightCannonShell_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: light cannon shell (AP-S) -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make anti-materiel (FMJ) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 anti-materiel (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making anti-materiel (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_AP"]/label</xpath>
+    <value>
+      <!-- EN: make anti-materiel (AP) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 anti-materiel (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making anti-materiel (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make anti-materiel (AP-S) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 anti-materiel (AP-S) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making anti-materiel (AP-S) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make anti-materiel (AP-I) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 anti-materiel (AP-I) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making anti-materiel (AP-I) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_HE"]/label</xpath>
+    <value>
+      <!-- EN: make anti-materiel (HE) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 anti-materiel (HE) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making anti-materiel (HE) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/label</xpath>
+    <value>
+      <!-- EN: make wooden arrows x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 stone arrows. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/jobString</xpath>
+    <value>
+      <!-- EN: Making wooden arrows. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/label</xpath>
+    <value>
+      <!-- EN: make steel arrows x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 steel arrows. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/jobString</xpath>
+    <value>
+      <!-- EN: Making steel arrows. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Plasteel"]/label</xpath>
+    <value>
+      <!-- EN: make plasteel arrows x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Plasteel"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 plasteel arrows. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Plasteel"]/jobString</xpath>
+    <value>
+      <!-- EN: Making plasteel arrows. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/label</xpath>
+    <value>
+      <!-- EN: make venom arrows x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 venom arrows. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/jobString</xpath>
+    <value>
+      <!-- EN: Making venom arrows. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame"]/label</xpath>
+    <value>
+      <!-- EN: make flame-tipped arrows x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame"]/description</xpath>
+    <value>
+      <!-- EN: Craft 20 flame arrows. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame"]/jobString</xpath>
+    <value>
+      <!-- EN: Making flame arrows. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE"]/label</xpath>
+    <value>
+      <!-- EN: make high explosive artillery shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 high explosive artillery shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making high explosive artillery shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE_HFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make airburst artillery shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE_HFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 airburst artillery shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_HE_HFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making airburst artillery shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make incendiary artillery shells x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 incendiary artillery shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making incendiary artillery shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make EMP artillery shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 EMP artillery shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making EMP artillery shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Smoke"]/label</xpath>
+    <value>
+      <!-- EN: make smoke artillery shells x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Smoke"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 smoke artillery shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_Smoke"]/jobString</xpath>
+    <value>
+      <!-- EN: Making smoke artillery shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_AP"]/label</xpath>
+    <value>
+      <!-- EN: make autocannon shell (AP) x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 autocannon shell (AP). -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (AP) autocannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make autocannon shell (AP-I) x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 autocannon shell (AP-I). -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (AP-I) autocannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_HE"]/label</xpath>
+    <value>
+      <!-- EN: make autocannon shell (AP-HE) x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 autocannon shell (AP-HE). -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (AP-HE) autocannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make autocannon shell (AP-S) x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 autocannon shell (AP-S). -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Autocannon_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making (AP-S) autocannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/label</xpath>
+    <value>
+      <!-- EN: make musket ball x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 musket balls using steel and any explosive compound. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MusketBall"]/jobString</xpath>
+    <value>
+      <!-- EN: Making musket balls. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/label</xpath>
+    <value>
+      <!-- EN: make blunderbuss shot x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 blunderbuss shots. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_BlunderbussShot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making blunderbuss shots. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/label</xpath>
+    <value>
+      <!-- EN: Make mortar grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 mortar grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MortarGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making mortar grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Round"]/label</xpath>
+    <value>
+      <!-- EN: make round cannon ball x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Round"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 round cannon ball. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Round"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a round cannon ball. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Bursting"]/label</xpath>
+    <value>
+      <!-- EN: make bursting cannon ball x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Bursting"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 bursting cannon ball. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Bursting"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a bursting cannon ball. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make incendiary cannon ball x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 incendiary cannon ball. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making an incendiary cannon ball. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Grape"]/label</xpath>
+    <value>
+      <!-- EN: Make grapeshot cannon ball x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Grape"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 grapeshot cannon ball. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_CannonBall_Grape"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a grapeshot cannon ball. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged"]/label</xpath>
+    <value>
+      <!-- EN: make charged heavy cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 charged heavy cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged heavy cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_AP"]/label</xpath>
+    <value>
+      <!-- EN: make charged heavy (Conc.) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 charged heavy (Conc.) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged heavy (Conc.) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_Ion"]/label</xpath>
+    <value>
+      <!-- EN: make charged heavy (Ion) cartridge x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_Ion"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 charged heavy (Ion) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCharged_Ion"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged heavy (Ion) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged"]/label</xpath>
+    <value>
+      <!-- EN: make charged pistol cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged pistol cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged pistol cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_AP"]/label</xpath>
+    <value>
+      <!-- EN: make charged pistol (Conc.) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged pistol (Conc.) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged pistol (Conc.) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_Ion"]/label</xpath>
+    <value>
+      <!-- EN: make charged pistol (Ion) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_Ion"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged pistol (Ion) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolCharged_Ion"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged pistol (Ion) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged"]/label</xpath>
+    <value>
+      <!-- EN: make charged rifle cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged rifle cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged rifle cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_AP"]/label</xpath>
+    <value>
+      <!-- EN: make charged rifle (Conc.) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged rifle (Conc.) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged rifle (Conc.) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_Ion"]/label</xpath>
+    <value>
+      <!-- EN: make charged rifle (Ion) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_Ion"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 Charged rifle (Ion) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleCharged_Ion"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged rifle (Ion) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged"]/label</xpath>
+    <value>
+      <!-- EN: make charged shotgun shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 charged shotgun shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged shotgun shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Slug"]/label</xpath>
+    <value>
+      <!-- EN: make Charged shotgun (Slug) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Slug"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 Charged shotgun (Slug) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Slug"]/jobString</xpath>
+    <value>
+      <!-- EN: Making Charged shotgun (Slug) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Ion"]/label</xpath>
+    <value>
+      <!-- EN: make charged shotgun (Ion) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Ion"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 Charged shotgun (Ion) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_ShotgunCharged_Ion"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged shotgun (Ion) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]/label</xpath>
+    <value>
+      <!-- EN: make disposable rocket launcher x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 disposable rocket launcher. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]/jobString</xpath>
+    <value>
+      <!-- EN: Making disposable rocket launcher. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher"]/label</xpath>
+    <value>
+      <!-- EN: make disposable rocket launcher x4 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher"]/description</xpath>
+    <value>
+      <!-- EN: Craft 4 disposable rocket launchers. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeDisposableRocketLauncher"]/jobString</xpath>
+    <value>
+      <!-- EN: Making disposable rocket launchers. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Flare"]/label</xpath>
+    <value>
+      <!-- EN: make flare x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Flare"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 flare shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Flare"]/jobString</xpath>
+    <value>
+      <!-- EN: Making flare shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXRefinery"]/label</xpath>
+    <value>
+      <!-- EN: Refine chemfuel into x1 FSX -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXRefinery"]/description</xpath>
+    <value>
+      <!-- EN: Use the refinery to synthesize FSX from chemfuel. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXRefinery"]/jobString</xpath>
+    <value>
+      <!-- EN: Synthesizing FSX. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXDrugLab"]/label</xpath>
+    <value>
+      <!-- EN: Synthesize x1 FSX -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXDrugLab"]/description</xpath>
+    <value>
+      <!-- EN: Synthesize FSX from chemfuel using chemistry equipment. This process is slightly less efficient than refining at a biofuel refinery. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="Make_FSXDrugLab"]/jobString</xpath>
+    <value>
+      <!-- EN: Synthesizing FSX. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeConcussionGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make concussion grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeConcussionGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 concussion grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeConcussionGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making concussion grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFragGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make frag grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFragGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 frag grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFragGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making frag grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeMolotovCocktail"]/label</xpath>
+    <value>
+      <!-- EN: make molotov cocktails x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeMolotovCocktail"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 molotov cocktails using prometheum and some sort of textile, leather or fabric. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeMolotovCocktail"]/jobString</xpath>
+    <value>
+      <!-- EN: Making molotov cocktails. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeMolotovCocktail"]/ingredients/li[1]/filter/customSummary</xpath>
+    <value>
+      <!-- EN: any textiles, leathers or wools -->
+      <customSummary>TODO</customSummary>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeEMPGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make EMP grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeEMPGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 EMP grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeEMPGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making EMP grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFlashbangGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make flashbang grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFlashbangGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 flashbang grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFlashbangGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making flashbang grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeStickBomb"]/label</xpath>
+    <value>
+      <!-- EN: make stick bombs x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeStickBomb"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 stick bombs using FSX, wood and some sort of textile, leather or fabric. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeStickBomb"]/jobString</xpath>
+    <value>
+      <!-- EN: Making stick bombs. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeStickBomb"]/ingredients/li[3]/filter/customSummary</xpath>
+    <value>
+      <!-- EN: any textiles, leathers or wools -->
+      <customSummary>TODO</customSummary>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeSmokeGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make smoke grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeSmokeGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 smoke grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeSmokeGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making smoke grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFirefoamGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make firefoam grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFirefoamGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 firefoam grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeFirefoamGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making firefoam grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeToxGrenade"]/label</xpath>
+    <value>
+      <!-- EN: make tox grenades x10 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeToxGrenade"]/description</xpath>
+    <value>
+      <!-- EN: Craft 10 tox grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeToxGrenade"]/jobString</xpath>
+    <value>
+      <!-- EN: Making tox grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HEAT"]/label</xpath>
+    <value>
+      <!-- EN: make heavy (HEAT) cannon shells x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HEAT"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy (HEAT) cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HEAT"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy (HEAT) cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_AP"]/label</xpath>
+    <value>
+      <!-- EN: make heavy (AP) cannon shells x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy (AP) cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy (AP) cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE"]/label</xpath>
+    <value>
+      <!-- EN: make heavy (HE) cannon shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy (HE) cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy (HE) cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE_TFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make heavy (Time-Fuzed) cannon shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE_TFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy (Time-Fuzed) cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_HE_TFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy (Time-Fuzed) cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_APCR"]/label</xpath>
+    <value>
+      <!-- EN: make heavy (APCR) cannon shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_APCR"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy (APCR) cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_APCR"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy (APCR) cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make heavy EMP cannon shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 heavy EMP cannon shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making heavy EMP cannon shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (FMJ) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_AP"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (AP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HP"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (HP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (HP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (HP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (AP-I) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (AP-I) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (AP-I) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HE"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (HE) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (HE) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (HE) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make intermediate rifle (AP-S) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 intermediate rifle (AP-S) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making intermediate rifle (AP-S) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack"]/label</xpath>
+    <value>
+      <!-- EN: make laser charge pack x3 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack"]/description</xpath>
+    <value>
+      <!-- EN: Craft three laser charge packs. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack"]/jobString</xpath>
+    <value>
+      <!-- EN: Making a laser charge pack. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech"]/label</xpath>
+    <value>
+      <!-- EN: make mechanoid charge pack x3 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech"]/description</xpath>
+    <value>
+      <!-- EN: Craft three mechanoid charge packs. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LaserChargePack_Mech"]/jobString</xpath>
+    <value>
+      <!-- EN: Making mechanoid charge packs. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE"]/label</xpath>
+    <value>
+      <!-- EN: make HE launcher grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 HE launcher grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making HE launcher grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HEDP"]/label</xpath>
+    <value>
+      <!-- EN: make HEDP launcher grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HEDP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 HEDP launcher grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HEDP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making HEDP launcher grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make EMP launcher grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 EMP launcher grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making EMP launcher grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Smoke"]/label</xpath>
+    <value>
+      <!-- EN: make smoke launcher grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Smoke"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 smoke launcher grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Smoke"]/jobString</xpath>
+    <value>
+      <!-- EN: Making smoke launcher grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE_TFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make HE Time-Fuzed launcher grenades x50 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE_TFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 50 HE Time-Fuzed launcher grenades. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_HE_TFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making HE Time-Fuzed launcher grenades. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_AP"]/label</xpath>
+    <value>
+      <!-- EN: make light cannon (AP) shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 light cannon (AP) shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making light cannon (AP) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE"]/label</xpath>
+    <value>
+      <!-- EN: make light cannon (HE) shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 light cannon (HE) shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making light cannon (HE) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE_TFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make light cannon (Time-Fuzed) shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE_TFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 light cannon (Time-Fuzed) shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_HE_TFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making light cannon (Time-Fuzed) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make light cannon (AP-S) shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 light cannon (AP-S) shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_LightCannonShell_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making light cannon (AP-S) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make magnum pistol (FMJ) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum pistol (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum pistol (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_AP"]/label</xpath>
+    <value>
+      <!-- EN: make magnum pistol (AP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum pistol (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum pistol (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_HP"]/label</xpath>
+    <value>
+      <!-- EN: make magnum pistol (HP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_HP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum pistol (HP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_PistolMagnum_HP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum pistol (HP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make magnum rifle (FMJ) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum rifle (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum rifle (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_AP"]/label</xpath>
+    <value>
+      <!-- EN: make magnum rifle (AP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum rifle (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum rifle (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make magnum rifle (AP-I) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum rifle (AP-I) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum rifle (AP-I) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_HE"]/label</xpath>
+    <value>
+      <!-- EN: make magnum rifle (HE) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum rifle (HE) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum rifle (HE) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make magnum rifle (AP-S) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 magnum rifle (AP-S) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making magnum rifle (AP-) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MechShell_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make mech shell x6 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MechShell_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 6 mech shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_MechShell_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making mech shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Mech_Charged"]/label</xpath>
+    <value>
+      <!-- EN: make charged mech cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Mech_Charged"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 charged mech cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Mech_Charged"]/jobString</xpath>
+    <value>
+      <!-- EN: Making charged mech cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive"]/label</xpath>
+    <value>
+      <!-- EN: make high explosive mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 high explosive mortar shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive"]/jobString</xpath>
+    <value>
+      <!-- EN: Making high explosive mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive_HFuzed"]/label</xpath>
+    <value>
+      <!-- EN: make airburst mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive_HFuzed"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 airbust mortar shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_HighExplosive_HFuzed"]/jobString</xpath>
+    <value>
+      <!-- EN: Making airburst mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make incendiary mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 incendiary mortar shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making incendiary mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_EMP"]/label</xpath>
+    <value>
+      <!-- EN: make EMP mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_EMP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 EMP mortar shell. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_EMP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making EMP mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Firefoam"]/label</xpath>
+    <value>
+      <!-- EN: make firefoam mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Firefoam"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 firefoam mortar shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Firefoam"]/jobString</xpath>
+    <value>
+      <!-- EN: Making firefoam mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Smoke"]/label</xpath>
+    <value>
+      <!-- EN: make smoke mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Smoke"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 smoke mortar shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Smoke"]/jobString</xpath>
+    <value>
+      <!-- EN: Making smoke mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Toxic"]/label</xpath>
+    <value>
+      <!-- EN: make tox mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Toxic"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 tox mortar shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Toxic"]/jobString</xpath>
+    <value>
+      <!-- EN: Making tox mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Deadlife"]/label</xpath>
+    <value>
+      <!-- EN: make deadlife mortar shell x1 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Deadlife"]/description</xpath>
+    <value>
+      <!-- EN: Craft 1 deadlife mortar shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeShell_Deadlife"]/jobString</xpath>
+    <value>
+      <!-- EN: Making deadlife mortar shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make pistol (FMJ) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 pistol (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making pistol (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_AP"]/label</xpath>
+    <value>
+      <!-- EN: make pistol (AP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 pistol (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making pistol (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_HP"]/label</xpath>
+    <value>
+      <!-- EN: make pistol (HP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_HP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 pistol (HP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Pistol_HP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making pistol (HP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_FMJ"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (FMJ) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_FMJ"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (FMJ) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_FMJ"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (FMJ) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_AP"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (AP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_AP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (AP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_AP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (AP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HP"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (HP) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HP"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (HP) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HP"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (HP) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Incendiary"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (AP-I) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Incendiary"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (AP-I) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Incendiary"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (AP-I) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HE"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (HE) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HE"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (HE) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_HE"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (HE) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Sabot"]/label</xpath>
+    <value>
+      <!-- EN: make rifle (AP-S) cartridge x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Sabot"]/description</xpath>
+    <value>
+      <!-- EN: Craft 200 rifle (AP-S) cartridges. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Rifle_Sabot"]/jobString</xpath>
+    <value>
+      <!-- EN: Making rifle (AP-S) cartridges. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Buck"]/label</xpath>
+    <value>
+      <!-- EN: make shotgun (Buck) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Buck"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 shotgun (Buck) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Buck"]/jobString</xpath>
+    <value>
+      <!-- EN: Making shotgun (Buck) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Slug"]/label</xpath>
+    <value>
+      <!-- EN: make shotgun (Slug) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Slug"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 shotgun (Slug) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Slug"]/jobString</xpath>
+    <value>
+      <!-- EN: Making shotgun (Slug) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Beanbag"]/label</xpath>
+    <value>
+      <!-- EN: make shotgun (BB) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Beanbag"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 shotgun (BB) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_Beanbag"]/jobString</xpath>
+    <value>
+      <!-- EN: Making shotgun (BB) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_ElectroSlug"]/label</xpath>
+    <value>
+      <!-- EN: make shotgun (EMP) shell x100 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_ElectroSlug"]/description</xpath>
+    <value>
+      <!-- EN: Craft 100 shotgun (EMP) shells. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_Shotgun_ElectroSlug"]/jobString</xpath>
+    <value>
+      <!-- EN: Making shotgun (EMP) shells. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone"]/label</xpath>
+    <value>
+      <!-- EN: make stone sling bullets from chunk x200 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone"]/description</xpath>
+    <value>
+      <!-- EN: Make 200 stone sling bullets by carving a stone chunk. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Stone"]/jobString</xpath>
+    <value>
+      <!-- EN: Making stone sling bullets. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Steel"]/label</xpath>
+    <value>
+      <!-- EN: make steel sling bullets x20 -->
+      <label>TODO</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Steel"]/description</xpath>
+    <value>
+      <!-- EN: Make 20 steel sling bullets. -->
+      <description>TODO</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeAmmo_SlingBullet_Steel"]/jobString</xpath>
+    <value>
+      <!-- EN: Making steel sling bullets. -->
+      <jobString>TODO</jobString>
+    </value>
+  </Operation>
+</Patch>
