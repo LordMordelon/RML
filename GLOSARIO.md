@@ -16,6 +16,7 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | mech | **meca** (pl. mecas) | Forma abreviada de "mecanoide" |
 | mechanoid | mecanoide | |
 | mechlink | **mecaenlace** | NO "mecoenlace" ni "mechlink" |
+| mechband (antenna / dish) | **mecabanda** (antena de mecabanda / disco de mecabanda) | Oficial (Biotech). NO "banda meca" ni "plato". *mechlink antenna* es «antena de enlace meca». *mechanoid band* (nodos de banda) sigue «banda mecanoide» |
 | bandwidth | **banda ancha** | Término oficial de RimWorld ES. Capacidad de control de mecas del mecanizador. NO "ancho de banda" |
 | (mech) command casket | **sarcófago de mando** | Coherente con el "Sarcófago de criptosueño" vanilla. NO "ataúd de mando" |
 | control group | **grupo de control** | |
@@ -42,7 +43,7 @@ Glosario y guía de estilo centralizada para el proyecto de traducción al Espa�
 | subcore encoder | codificador de subnúcleos | |
 | subcore scanner (cualquiera de los dos) | **escáner de subnúcleos** | Oficial en los trabajos («entrar al escáner de subnúcleos») |
 | (subcore) softscanner | **flexiescáner de subnúcleos** | Oficial (`SubcoreSoftscanner`). El que no mata |
-| (subcore) ripscanner | **rasgaescáner de subnúcleos** | Oficial (`SubcoreRipscanner`). Escáner de extracción destructivo. Decía «escanecorte / escáner de corte» hasta el 27-oct-2026. Pendiente: 2 usos de «escanecorte» en 2 archivos de RML |
+| (subcore) ripscanner | **rasgaescáner de subnúcleos** | Oficial (`SubcoreRipscanner`). Escáner de extracción destructivo. Decía «escanecorte / escáner de corte» hasta el 27-oct-2026. Los 2 usos de «escanecorte» se corrigieron el 31-oct-2026 |
 | band node | nodo de banda | |
 | band apparatus | aparato de banda | |
 | signal chip | **chip de señalización** | Oficial vanilla. Recompensa de Diabolus. NO "chip de señal" |
