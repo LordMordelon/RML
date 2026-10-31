@@ -31,7 +31,7 @@ terminar, como los otros planes.
 
 | Qué | Nota |
 |---|---|
-| **Extractor: no recortar listas de reglas más largas que el inglés** | Antes de la próxima reextracción. Tarea del extractor, con prueba que falle primero. Hasta entonces, la comprobación 5 lo avisa |
+| ~~Extractor: no recortar listas de reglas más largas que el inglés~~ | Hecho el 31-oct en el extractor (`ReglasAgregadasTests`), sin subir. Reextraídos Insectoids 2, VSIE y Hospitality: sin cambios y `comprobar` vacío. Las 91 del `UNUSED.xml` de VSIE ya estaban en `master` |
 | VFE - Props and Decor | 73 `TODO`, 130 palabras: los `shortLabel` nuevos del catálogo |
 | RimIris Beta | 24 `TODO`, 448 palabras |
 | Ascension Megacorp | 5 descripciones nuevas de munición de CE (los otros 15 `TODO` son a propósito: ver su plan) |
