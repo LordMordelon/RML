@@ -32,25 +32,21 @@ terminar, como los otros planes.
 | Qué | Nota |
 |---|---|
 | ~~Extractor: no recortar listas de reglas más largas que el inglés~~ | Hecho el 31-oct en el extractor (`ReglasAgregadasTests`), sin subir. Reextraídos Insectoids 2, VSIE y Hospitality: sin cambios y `comprobar` vacío. Las 91 del `UNUSED.xml` de VSIE ya estaban en `master` |
-| VFE - Props and Decor | 73 `TODO`, 130 palabras: los `shortLabel` nuevos del catálogo |
-| RimIris Beta | 24 `TODO`, 448 palabras |
-| Ascension Megacorp | 5 descripciones nuevas de munición de CE (los otros 15 `TODO` son a propósito: ver su plan) |
+| ~~VFE - Props and Decor, RimIris Beta, Ascension Megacorp~~ | Traducidos el 31-oct (`b7eba52c`, `3e22355d`, `eff8c022`), sin subir. En Ascension quedan los 15 `TODO` a propósito. Props and Decor dice «antiguo» en todo el mod donde la oficial dice «ancestral» (*ancient*), y algunos nombres completos no siguen a la oficial («gestor de mecas», «monitor de constantes vitales»): los cortos nuevos van con la oficial. Queda para la revisión general |
 | Buffs 'n Nerfs | 364 `TODO`. El mod no se actualizó: son patches que el extractor antes no traía. La descripción de `PlantBlazebulb` va en un `FindMod` «Ideology» (el mismo DLC dueño) y salió en `Patches`, no en `DefInjected`: averiguar por qué antes de traducirla, porque así el juego la pisa con la oficial |
 | ReSplice Core | Mezcla «pack de genes» (4, el oficial) con «paquete genético» (13): unificar al oficial |
 | Graphics Settings y Mini Expeditions | Fuera de `master` hasta que Angel diga. Mini Expeditions necesita plan y glosario propios |
 
 ## Próxima sesión
 
-**Objetivo:** el arreglo del extractor para las listas de reglas, y después los `TODO` chicos (Props and Decor,
-RimIris, Ascension).
-**Estado:** todo subido a `master` de RML el 31-oct (`3ce5a505`). El extractor sin cambios.
-**Antes de empezarla (Angel):** no reextraer nada hasta que esté el arreglo del extractor.
+**Objetivo:** ReSplice Core («pack de genes») y después Buffs 'n Nerfs, empezando por averiguar lo de
+`PlantBlazebulb`.
+**Estado:** el arreglo del extractor (`3fb3b98`) y las tres traducciones están commiteados el 31-oct, **sin
+subir**: falta el visto bueno de Angel para el push de los dos repos.
 **Al empezar (Claude):**
-1. En `RimworldExtractor`: prueba que falle con una lista de `rulesStrings` más larga que la del inglés, y el
-   arreglo para que se conserve entera. Probarlo reextrayendo Insectoids 2, VSIE y Hospitality, con
-   `traducir.py comprobar` vacío.
-2. Los `TODO` de Props and Decor, RimIris y Ascension con la tabla, y `comprobar` antes de cada commit.
-**Decisiones de Angel:** ninguna pendiente.
+1. ReSplice Core: pasar los 13 «paquete genético» a «pack de genes», el oficial, y su glosario si lo nombra.
+2. Buffs 'n Nerfs: por qué la descripción de `PlantBlazebulb` sale en `Patches`; después los `TODO` con la tabla.
+**Decisiones de Angel:** el push; «antiguo» o «ancestral» en Props and Decor (ver arriba).
 **Guías:** «Antes de commitear: mirar el diff» (ahora con cinco comprobaciones) y «Editar XML de traducción» de
 `RML/AGENTS.md`.
 **Dónde leer:** este plan.
