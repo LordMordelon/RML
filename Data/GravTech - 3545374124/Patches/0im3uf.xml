@@ -20,7 +20,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/completedLetterLabel</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetterLabel</xpath>
     <value>
       <!-- EN: Cerebrex node studied: {RESEARCH} unlocked -->
       <completedLetterLabel>Nodo cerebrex estudiado: {RESEARCH} desbloqueado</completedLetterLabel>
@@ -28,7 +28,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/completedLetter</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetter</xpath>
     <value>
       <!-- EN: By studying the Cerebrex node, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
       <completedLetter>Al estudiar el nodo cerebrex, {PAWN_labelShort} obtuvo la comprensión necesaria para el/los proyecto(s) de investigación {RESEARCH}.\n\nTus investigadores ya pueden usar los bancos de investigación para empezar a investigar cómo usar realmente esa tecnología.</completedLetter>
@@ -36,7 +36,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/activateLabelString</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/activateLabelString</xpath>
     <value>
       <!-- EN: Analyze... -->
       <activateLabelString>Analizar...</activateLabelString>
@@ -44,7 +44,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/activateDescString</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/activateDescString</xpath>
     <value>
       <!-- EN: Analyze the Cerebrex node. -->
       <activateDescString>Analiza el nodo cerebrex.</activateDescString>
@@ -52,7 +52,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/jobString</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/jobString</xpath>
     <value>
       <!-- EN: Analyze Cerebrex node -->
       <jobString>Analizar nodo cerebrex</jobString>
@@ -60,7 +60,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/guiLabelString</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/guiLabelString</xpath>
     <value>
       <!-- EN: Choose who should analyze this -->
       <guiLabelString>Elige quién debería analizar esto</guiLabelString>
@@ -68,7 +68,7 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[1]/inspectString</xpath>
+    <xpath>/Defs/ThingDef[defName="Apparel_CerebrexNode"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/inspectString</xpath>
     <value>
       <!-- EN: Can be analyzed by a colonist. -->
       <inspectString>Puede ser analizado por un colono.</inspectString>

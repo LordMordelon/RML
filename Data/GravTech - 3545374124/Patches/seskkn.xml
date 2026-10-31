@@ -45,7 +45,7 @@
           </li>
           <li Class="PatchOperationReplace">
             <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="Apparel_GravPack"]/comps/li[1]/chargeNoun</xpath>
+            <xpath>/Defs/ThingDef[defName="Apparel_GravPack"]/comps/li[@Class="VanillaGravshipExpanded.CompProperties_ApparelOxygenProvider"]/chargeNoun</xpath>
             <value>
               <!-- EN: oxygen u³ -->
               <chargeNoun>oxígeno u³</chargeNoun>
@@ -116,7 +116,7 @@
           </li>
           <li Class="PatchOperationReplace">
             <success>Always</success>
-            <xpath>/Defs/HediffDef[defName="GravHands"]/comps/li[1]/tools/li[1]/label</xpath>
+            <xpath>/Defs/HediffDef[defName="GravHands"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li[1]/label</xpath>
             <value>
               <!-- EN: grav fist -->
               <label>gravipuño</label>
