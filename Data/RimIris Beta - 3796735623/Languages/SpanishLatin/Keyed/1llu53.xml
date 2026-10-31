@@ -21,7 +21,7 @@
   <!-- EN: Built-in -->
   <RimIris_Pack_Builtin_Short>Integrado</RimIris_Pack_Builtin_Short>
   <!-- EN: Shader Packs -->
-  <RimIris_Screen_Title>Paquetes de shaders de RimIris</RimIris_Screen_Title>
+  <RimIris_Screen_Title>Paquetes de shaders</RimIris_Screen_Title>
   <!-- EN: STATUS: -->
   <RimIris_Screen_StatusPrefix>TODO</RimIris_Screen_StatusPrefix>
   <!-- EN: Lighting: enabled · {0} -->
@@ -230,7 +230,7 @@ Independent from Ground Bloom — each has its own threshold, radius and intensi
 
 On confirm, developer mode turns ON automatically for ~60 seconds (please reproduce the problem during that window), then turns OFF, the package is built and the folder opens by itself.
 A per-frame performance monitor also runs during the window (every light/shader pipeline stage, stutter attribution, GC and bake events) and is included in the package to diagnose framerate loss. -->
-  <RimIris_Report_Confirm_Body>Esto reúne el sistema operativo y el hardware de tu computadora, la configuración del juego y los registros de diagnóstico. No contiene datos privados que no tengan que ver con el diagnóstico.\n\nAl confirmar, el modo desarrollador se enciende solo durante unos 60 segundos (repite el problema en ese tiempo), después se apaga, se arma el paquete y la carpeta se abre sola.</RimIris_Report_Confirm_Body>
+  <RimIris_Report_Confirm_Body>Esto reúne el sistema operativo y el hardware de tu computadora, la configuración del juego y los registros de diagnóstico. No contiene datos privados que no tengan que ver con el diagnóstico.\n\nAl confirmar, el modo desarrollador se enciende solo durante unos 60 segundos (repite el problema en ese tiempo), después se apaga, se arma el paquete y la carpeta se abre sola.\nEn ese tiempo también corre un monitor de rendimiento por fotograma (cada etapa del proceso de luces y shaders, el origen de los tirones y los eventos de GC y de horneado), que va en el paquete para diagnosticar la pérdida de fotogramas.</RimIris_Report_Confirm_Body>
   <!-- EN: Recording… {0}s left (reproduce the problem now) -->
   <RimIris_Report_Recording>Grabando… quedan {0} s (repite el problema ahora)</RimIris_Report_Recording>
   <!-- EN: Generated: -->
