@@ -1,23 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!-- EN: Range -->
-  <CWF_Range>Rango</CWF_Range>
   <!-- EN: DPS -->
   <CWF_RangeDPS>Daño por segundo</CWF_RangeDPS>
   <!-- EN: Burst count -->
   <CWF_RangeBurstCount>Tiros por ráfaga</CWF_RangeBurstCount>
-  <!-- EN: Warmup time -->
-  <CWF_RangeWarmupTime>Calentamiento</CWF_RangeWarmupTime>
   <!-- EN: Cooldown -->
   <CWF_RangeCooldown>Enfriamiento</CWF_RangeCooldown>
   <!-- EN: Projectile -->
   <CWF_Projectile>Proyectil</CWF_Projectile>
-  <!-- EN: Damage -->
-  <CWF_Damage>Daño</CWF_Damage>
-  <!-- EN: Armor penetration -->
-  <CWF_ArmorPenetration>Penetración de blindaje</CWF_ArmorPenetration>
-  <!-- EN: Stopping power -->
-  <CWF_StoppingPower>Potencia de parada</CWF_StoppingPower>
   <!-- EN: Accuracy -->
   <CWF_Accuracy>Precisión</CWF_Accuracy>
   <!-- EN: Touch -->
@@ -116,6 +106,8 @@
   <CWF_RandomModuleGeneration>Generación aleatoria de módulos</CWF_RandomModuleGeneration>
   <!-- EN: If enabled, pawns from other factions, like raiders, allies, and traders, can spawn with weapons that have random modules -->
   <CWF_RandomModuleGenerationDesc>Si se activa, los personajes de otras facciones, como asaltantes, aliados y comerciantes, pueden aparecer con armas que tienen módulos aleatorios</CWF_RandomModuleGenerationDesc>
+  <!-- EN: Max random modules: {0} -->
+  <CWF_RandomModuleLimit>TODO</CWF_RandomModuleLimit>
   <!-- EN: Rarity Weights -->
   <CWF_RarityWeights>Pesos de rareza</CWF_RarityWeights>
   <!-- EN: Determines how often each rarity is assigned when random modules are generated. Higher weight means more common. -->
