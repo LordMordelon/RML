@@ -73,6 +73,10 @@ Herramientas/oficial/           buscar en la traducción oficial del juego y cot
 Herramientas/pruebas/           las pruebas del comando, sin el juego ni git
 ```
 
+Los planes terminados se borran y quedan en git. `PLAN-VENTANA.md`, `PLAN-CAMBIOS-LOCALES.md`,
+`PLAN-SOLO-INGLES.md` y `PLAN-TRADUCCION-OFICIAL.md` se borraron el 31-oct-2026; los comentarios del
+código que los nombran se leen con `git show 4d7f61ee:PLAN-VENTANA.md` (y así los otros).
+
 Y cada carpeta de mod, por dentro:
 
 ```
