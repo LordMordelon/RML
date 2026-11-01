@@ -163,7 +163,7 @@ varias mejor. Lo que sí se propone:
 | 7 | takes 12/20 seconds to cast | toma 12 segundos para lanzarse | **tarda** 12 segundos **en** lanzarse (como ya dice Hemosage) | 4 | Descripción y aviso de neurosismo y sismo temporal |
 | 8 | insane (accuracy, amount) | precisión insana / cantidad insana | precisión **extraordinaria** / cantidad **descomunal** | 2 | Salud del lanzador (disparo guiado); descripción de las perlas de calor |
 | 9 | item | artículo | **objeto** | 4 | Cristal de hielo, salto temporal de fabricación, transmutación, aviso «debe valer al menos $1 por objeto» |
-| 10 | pawn | peón / peones | **colono(s)** si son de la colonia, **persona(s)** si no. «El peón no tiene el gen de hemógeno» → «No es hemogénico.», como la oficial | 11 | Descripciones de poderes y caminos; aviso de Hemosage |
+| ~~10~~ | pawn | peón / peones | **Retirada** (1-nov-2026): la oficial también usa «peón» para *pawn* y el glosario general lo admite. Solo queda «El peón no tiene el gen de hemógeno» → «No es hemogénico.», que es la frase oficial | 1 | Aviso de Hemosage |
 | 11 | tooltip (opciones del mod) | las estadísticas se mueven a una información sobre herramientas | las estadísticas pasan a un **recuadro que aparece al pasar el cursor** | 1 | Opciones → Configuración de mods → VE - Psycasts |
 | 12 | focus (en los poderes propios) | foco de calor, foco de sombra, concentración en la hoja, concentración de disparo, enfoque de sangre | Una sola palabra, **concentración**, como el *focus* oficial: concentración de calor / de sombra / de sangre (decide Angel) | 7 | Botones del poder y pestaña Salud |
 
