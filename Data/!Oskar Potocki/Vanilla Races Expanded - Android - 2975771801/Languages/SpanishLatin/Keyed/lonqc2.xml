@@ -95,7 +95,7 @@
   <!-- EN: {1_labelShort} is incapable of doing Crafting work, and so cannot ever self-repair. -->
   <VREA.MessageCannotSelfRepairEver>{1_labelShort} es incapaz de realizar trabajos de Fabricación, por lo que nunca podrá autorrepararse.</VREA.MessageCannotSelfRepairEver>
   <!-- EN: To self-repair, {1_labelShort} must also be assigned to Crafting work. -->
-  <VREA.MessageSelfRepairUnsatisfied>Para autorrepararse, {1_labelShort} también debe estar asignado a trabajos de Fabricación.</VREA.MessageSelfRepairUnsatisfied>
+  <VREA.MessageSelfRepairUnsatisfied>Para autorrepararse, {1_labelShort} también debe estar asignad{1_gender ? o : a} a trabajos de Fabricación.</VREA.MessageSelfRepairUnsatisfied>
   <!-- EN: View components -->
   <VREA.ViewComponents>Ver componentes</VREA.ViewComponents>
   <!-- EN: Click to view {PAWN_nameDef}&apos;s components. -->
@@ -117,7 +117,7 @@
   <!-- EN: Subcore polyanalyzer completed for {PAWN_nameDef}. Scan progress: {1} -->
   <VREA.MessageSubcorePolyanalyzerCompleted>Polianalizador de subnúcleos completado para {PAWN_nameDef}. Progreso del escaneo: {1}</VREA.MessageSubcorePolyanalyzerCompleted>
   <!-- EN: {PAWN_nameDef} has already been scanned. -->
-  <VREA.AlreadyScanned>{PAWN_nameDef} ya ha sido escaneado.</VREA.AlreadyScanned>
+  <VREA.AlreadyScanned>{PAWN_nameDef} ya ha sido escanead{PAWN_gender ? o : a}.</VREA.AlreadyScanned>
   <!-- EN: Subcore polyanalyzer not initiated -->
   <VREA.SubcorePolyanalyzerNotInit>Polianalizador de subnúcleos no iniciado</VREA.SubcorePolyanalyzerNotInit>
   <!-- EN: Start subcore polyanalyzer -->
