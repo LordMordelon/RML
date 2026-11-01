@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Outlet: {0} (aims at {1}), efficiency {2} -->
+  <AO_FacilityOutlet>Salida: {0} (apunta a {1}), eficiencia {2}</AO_FacilityOutlet>
+  <!-- EN: Evaporating: drying power {0}, water use {1} units/day -->
+  <AO_EvaporativeCoolerInspect>Evaporando: poder de secado {0}, consumo de agua {1} unidades/día</AO_EvaporativeCoolerInspect>
+  <!-- EN: O2-free air: {0} / {1} units (target {2}). Oxygen: {3} / {1} units (target {4}) -->
+  <AO_GasPumpStores>Aire sin O2: {0} / {1} unidades (objetivo {2}). Oxígeno: {3} / {1} unidades (objetivo {4})</AO_GasPumpStores>
+  <!-- EN: Goal: {0} hPa, {1}% O2. Here: {2} hPa, {3}% O2. Adjusts at most {4} units/h -->
+  <AO_GasPumpGoals>Meta: {0} hPa, {1} % de O2. Aquí: {2} hPa, {3} % de O2. Ajusta como máximo {4} unidades/h</AO_GasPumpGoals>
+  <!-- EN: No power. -->
+  <AO_GasPumpNoPower>Sin energía.</AO_GasPumpNoPower>
+  <!-- EN: Cannot raise the pressure: a store it needs is empty. -->
+  <AO_GasPumpStoresEmpty>No puede subir la presión: una reserva que necesita está vacía.</AO_GasPumpStoresEmpty>
+  <!-- EN: Cannot lower the oxygen: the O2-free air store is empty or the stores are full. -->
+  <AO_GasPumpCannotDilute>No puede bajar el oxígeno: la reserva de aire sin O2 está vacía o las reservas están llenas.</AO_GasPumpCannotDilute>
+  <!-- EN: Cannot raise the oxygen: the oxygen store is empty or the stores are full. -->
+  <AO_GasPumpCannotEnrich>No puede subir el oxígeno: la reserva de oxígeno está vacía o las reservas están llenas.</AO_GasPumpCannotEnrich>
+  <!-- EN: Cannot lower the pressure: the stores are full. Haulers must empty them. -->
+  <AO_GasPumpOutputFull>No puede bajar la presión: las reservas están llenas. Los transportistas tienen que vaciarlas.</AO_GasPumpOutputFull>
+  <!-- EN: Auto haul -->
+  <AO_GasPumpAutoRefill>Transporte automático</AO_GasPumpAutoRefill>
+  <!-- EN: When on, haulers keep each store near its target level: they refill it from gas tanks when it is 25% below, and empty it into tanks when it is 25% above. -->
+  <AO_GasPumpAutoRefillDesc>Si está activado, los transportistas mantienen cada reserva cerca de su nivel objetivo: la rellenan con tanques de gas cuando está un 25 % por debajo, y la vacían en tanques cuando está un 25 % por encima.</AO_GasPumpAutoRefillDesc>
+  <!-- EN: The pump slowly releases gas below this pressure and compresses air into its stores above it (±10 hPa). -->
+  <AO_GasPumpPressureGoalTip>La bomba suelta gas despacio por debajo de esta presión y comprime aire en sus reservas por encima de ella (±10 hPa).</AO_GasPumpPressureGoalTip>
+  <!-- EN: The pump slowly swaps air to dilute or enrich the oxygen toward this level (±0.5 points). -->
+  <AO_GasPumpOxygenGoalTip>La bomba cambia el aire despacio para diluir o enriquecer el oxígeno hasta este nivel (±0,5 puntos).</AO_GasPumpOxygenGoalTip>
+  <!-- EN: O2-free air store target -->
+  <AO_GasPumpInertTargetTitle>Objetivo de la reserva de aire sin O2</AO_GasPumpInertTargetTitle>
+  <!-- EN: Oxygen store target -->
+  <AO_GasPumpOxygenTargetTitle>Objetivo de la reserva de oxígeno</AO_GasPumpOxygenTargetTitle>
+  <!-- EN: Haulers keep this store within 25% of the target level: refilling it from gas tanks below, emptying it into tanks above. A full store stops the pump compressing; an empty one stops it releasing. -->
+  <AO_GasPumpTargetTip>Los transportistas mantienen esta reserva a menos de un 25 % del nivel objetivo: la rellenan con tanques de gas si está por debajo y la vacían en tanques si está por encima. Una reserva llena hace que la bomba deje de comprimir; una vacía, que deje de soltar.</AO_GasPumpTargetTip>
+  <!-- EN: target {0} (now {1}) -->
+  <AO_GasPumpTargetBar>objetivo {0} (ahora {1})</AO_GasPumpTargetBar>
+  <!-- EN: Stored water: {0} / {1} units -->
+  <AO_RainCollectorStore>Agua guardada: {0} / {1} unidades</AO_RainCollectorStore>
+  <!-- EN: Full: empty it to keep collecting. -->
+  <AO_RainCollectorFull>Lleno: vacíalo para seguir juntando.</AO_RainCollectorFull>
+  <!-- EN: Water -->
+  <AO_RainCollectorBar>Agua</AO_RainCollectorBar>
+  <!-- EN: Empty -->
+  <AO_RainCollectorEmpty>Vaciar</AO_RainCollectorEmpty>
+  <!-- EN: Set the stored water out beside the collector as a stack of water. -->
+  <AO_RainCollectorEmptyDesc>Deja el agua guardada junto al colector, como una pila de agua.</AO_RainCollectorEmptyDesc>
+  <!-- EN: Less than one unit stored. -->
+  <AO_RainCollectorEmptyNone>Hay menos de una unidad guardada.</AO_RainCollectorEmptyNone>
+  <!-- EN: No room beside the rain collector for the water. -->
+  <AO_RainCollectorNoRoom>No hay espacio junto al colector de lluvia para el agua.</AO_RainCollectorNoRoom>
+  <!-- EN: Water pumped out: {0} units set out ({1} more pending) -->
+  <AO_MoisturePumpWater>Agua bombeada: {0} unidades dejadas ({1} más pendientes)</AO_MoisturePumpWater>
+  <!-- EN: Irrigate below -->
+  <AO_IrrigatorThresholdTitle>Regar por debajo de</AO_IrrigatorThresholdTitle>
+  <!-- EN: When any growing-zone soil in its spray area holds less water than this share of its capacity, the irrigator sprays the whole circle, about 20 mm of water on every cell per session, and sprays again while the soil stays dry. Plants wilt below 20% soil water and grow at full rate from 50%. -->
+  <AO_IrrigatorThresholdTip>Cuando el suelo de cualquier área de cultivo dentro de su alcance guarda menos agua que esta proporción de su capacidad, el aspersor rocía todo el círculo, unos 20 mm de agua en cada celda por sesión, y vuelve a rociar mientras el suelo siga seco. Las plantas se marchitan con menos de 20 % de agua en el suelo y crecen a toda velocidad desde el 50 %.</AO_IrrigatorThresholdTip>
+  <!-- EN: {0} of capacity -->
+  <AO_IrrigatorThresholdBar>{0} de la capacidad</AO_IrrigatorThresholdBar>
+  <!-- EN: Irrigates below {0} of capacity (driest planted soil in range: {1}) -->
+  <AO_IrrigatorThresholdInspect>Riega por debajo de {0} de la capacidad (suelo plantado más seco a su alcance: {1})</AO_IrrigatorThresholdInspect>
+  <!-- EN: Spraying. -->
+  <AO_IrrigatorSpraying>Rociando.</AO_IrrigatorSpraying>
+  <!-- EN: Tank empty: cannot irrigate. -->
+  <AO_IrrigatorTankEmpty>Tanque vacío: no puede regar.</AO_IrrigatorTankEmpty>
+  <!-- EN: No growing zone (with watering allowed) in its spray area. -->
+  <AO_IrrigatorNoZone>No hay áreas de cultivo (con el riego permitido) a su alcance.</AO_IrrigatorNoZone>
+  <!-- EN: Adjust output power -->
+  <AO_FanAdjustPower>Ajustar potencia</AO_FanAdjustPower>
+  <!-- EN: Set the fan&apos;s power consumption. Zero switches it off. Higher power produces stronger wind. -->
+  <AO_FanPowerTip>Elige el consumo de energía del ventilador. Cero lo apaga. Más potencia produce un viento más fuerte.</AO_FanPowerTip>
+  <!-- EN: Rotate fan -->
+  <AO_FanRotate>Girar ventilador</AO_FanRotate>
+  <!-- EN: Rotate 90 degrees clockwise -->
+  <AO_FanRotateCW>Girar 90 grados en el sentido de las agujas del reloj</AO_FanRotateCW>
+  <!-- EN: Rotate 90 degrees counterclockwise -->
+  <AO_FanRotateCCW>Girar 90 grados en sentido contrario a las agujas del reloj</AO_FanRotateCCW>
+  <!-- EN: Cannot rotate the fan: its new footprint is obstructed or cannot support it. -->
+  <AO_FanRotationBlocked>No se puede girar el ventilador: su nuevo espacio está obstruido o no puede sostenerlo.</AO_FanRotationBlocked>
+  <!-- EN: Fan output: {0} / {1} W -->
+  <AO_FanOutputReadout>Potencia del ventilador: {0} / {1} W</AO_FanOutputReadout>
+  <!-- EN: Target wind: {0} m/s -->
+  <AO_FanWindReadout>Viento objetivo: {0} m/s</AO_FanWindReadout>
+  <!-- EN: Fan stopped -->
+  <AO_FanStopped>Ventilador detenido</AO_FanStopped>
+  <!-- EN: Stored energy: {0} / {1} J -->
+  <AO_FanEnergyReadout>Energía acumulada: {0} / {1} J</AO_FanEnergyReadout>
+  <!-- EN: Mainspring -->
+  <AO_Mainspring>Resorte</AO_Mainspring>
+  <!-- EN: Stored energy: {0} / {1} J. Toggle automatic rewinding. When enabled and empty, a colonist assigned to basic tasks will wind the spring fully. Disabling this does not stop a charged fan. -->
+  <AO_MainspringTip>Energía acumulada: {0} / {1} J. Activa o desactiva la cuerda automática. Si está activada y el resorte se acaba, un colono asignado a tareas básicas le dará cuerda completa. Desactivarla no detiene un ventilador con cuerda.</AO_MainspringTip>
+  <!-- EN: Auto-rewind: {0} -->
+  <AO_MainspringStatus>Cuerda automática: {0}</AO_MainspringStatus>
+  <!-- EN: Stored energy -->
+  <AO_FanStoredEnergy>Energía acumulada</AO_FanStoredEnergy>
+  <!-- EN: Automatically request rewinding when the mainspring is empty. -->
+  <AO_FanAutoRewindTip>Pedir que le den cuerda automáticamente cuando el resorte se acabe.</AO_FanAutoRewindTip>
+  <!-- EN: DEV: Fill energy -->
+  <AO_FanDevRefill>DEV: Llenar energía</AO_FanDevRefill>
+  <!-- EN: Instantly fill this fan&apos;s stored energy to capacity. -->
+  <AO_FanDevRefillTip>Llena al instante la energía acumulada de este ventilador.</AO_FanDevRefillTip>
+  <!-- EN: Set the equivalent output power. This device consumes no electricity or stored energy. Zero stops its wind and operating light. -->
+  <AO_FanUnlimitedPowerTip>Elige la potencia equivalente. Este dispositivo no consume electricidad ni energía acumulada. Cero detiene su viento y su luz de funcionamiento.</AO_FanUnlimitedPowerTip>
+  <!-- EN: Turbojet power -->
+  <AO_JetPower>Potencia del turborreactor</AO_JetPower>
+  <!-- EN: Flamed out: the intake air has too little oxygen ({0} kPa O2; relights above {1} kPa). -->
+  <AO_JetFlamedOut>Apagado: el aire de la toma tiene muy poco oxígeno ({0} kPa de O2; vuelve a encender sobre {1} kPa).</AO_JetFlamedOut>
+  <!-- EN: Intake oxygen: {0} kPa -->
+  <AO_JetIntakeOxygen>Oxígeno de la toma: {0} kPa</AO_JetIntakeOxygen>
+  <!-- EN: {0}% O2 -->
+  <AO_GasTankOxygenTag>{0} % de O2</AO_GasTankOxygenTag>
+  <!-- EN: Contents: {0}% oxygen, {1} m³ of gas at normal pressure. -->
+  <AO_GasTankInspect>Contenido: {0} % de oxígeno, {1} m³ de gas a presión normal.</AO_GasTankInspect>
+  <!-- EN: Filling air tanks: about {0} per hour (intake {1} hPa, goal {2} hPa). -->
+  <AO_CompressorFilling>Llenando tanques de aire: unos {0} por hora (toma {1} hPa, meta {2} hPa).</AO_CompressorFilling>
+  <!-- EN: Idle: intake pressure {0} hPa has reached the goal ({1} hPa). -->
+  <AO_CompressorGoalReached>Inactivo: la presión de la toma, {0} hPa, llegó a la meta ({1} hPa).</AO_CompressorGoalReached>
+  <!-- EN: Pump down to -->
+  <AO_CompressorGoalTitle>Bombear hasta</AO_CompressorGoalTitle>
+  <!-- EN: Pump down to: it keeps working until the air around it is down to this pressure. Outdoors the air stays near 1013 hPa, so a goal below that means it never stops. Higher intake pressure fills tanks faster. -->
+  <AO_CompressorGoalTip>Bombear hasta: sigue funcionando hasta que el aire a su alrededor baja a esta presión. Al aire libre el aire se mantiene cerca de 1013 hPa, así que una meta más baja significa que nunca se detiene. Con más presión en la toma, llena los tanques más rápido.</AO_CompressorGoalTip>
+  <!-- EN: Idle: no power. -->
+  <AO_CompressorNoPower>Inactivo: sin energía.</AO_CompressorNoPower>
+  <!-- EN: Idle: no open cell beside it to draw air from. -->
+  <AO_CompressorIntakeBlocked>Inactivo: no hay ninguna celda abierta a su lado de donde aspirar aire.</AO_CompressorIntakeBlocked>
+  <!-- EN: Waiting: no room nearby for another tank. -->
+  <AO_CompressorOutputFull>Esperando: no hay espacio cerca para otro tanque.</AO_CompressorOutputFull>
+  <!-- EN: Tank in progress: {0} -->
+  <AO_CompressorPool>Tanque en curso: {0}</AO_CompressorPool>
+  <!-- EN: Separating air: about {0} oxygen and {1} nitrogen tanks per hour (intake {2} hPa, {3}% O2, goal {4} hPa). -->
+  <AO_PsaFilling>Separando aire: unos {0} tanques de oxígeno y {1} de nitrógeno por hora (toma {2} hPa, {3} % de O2, meta {4} hPa).</AO_PsaFilling>
+  <!-- EN: Oxygen tank in progress: {0}; nitrogen tank: {1} -->
+  <AO_PsaPools>Tanque de oxígeno en curso: {0}; tanque de nitrógeno: {1}</AO_PsaPools>
+  <!-- EN: Releasing {0} tanks per hour; {1} tanks stored{2} -->
+  <AO_ReleaseSpotInspect>Liberando {0} tanques por hora; {1} tanques guardados{2}</AO_ReleaseSpotInspect>
+  <!-- EN:  (paused) -->
+  <AO_ReleaseSpotPaused> (en pausa)</AO_ReleaseSpotPaused>
+  <!-- EN:  (pressure {0} hPa has reached the goal, {1} hPa) -->
+  <AO_ReleaseSpotGoalReached> (la presión, {0} hPa, llegó a la meta, {1} hPa)</AO_ReleaseSpotGoalReached>
+  <!-- EN: Fill up to -->
+  <AO_ReleaseGoalTitle>Llenar hasta</AO_ReleaseGoalTitle>
+  <!-- EN: Fill up to: the spot releases gas only while the air here is below this pressure. Outdoors the air stays near 1013 hPa. -->
+  <AO_ReleaseGoalTip>Llenar hasta: el lugar solo suelta gas mientras el aire aquí esté por debajo de esta presión. Al aire libre el aire se mantiene cerca de 1013 hPa.</AO_ReleaseGoalTip>
+  <!-- EN: {0} hPa -->
+  <AO_PressureGoalBar>{0} hPa</AO_PressureGoalBar>
+  <!-- EN: Goal: {0}.\n\n{1} -->
+  <AO_GoalStepDesc>Meta: {0}.\n\n{1}</AO_GoalStepDesc>
+  <!-- EN: Goal {0} -->
+  <AO_GoalMote>Meta {0}</AO_GoalMote>
+  <!-- EN: Reset ({0}) -->
+  <AO_GoalReset>Restablecer ({0})</AO_GoalReset>
+  <!-- EN: Goal pressure: {0} hPa -->
+  <AO_PressureGoalInspect>Presión meta: {0} hPa</AO_PressureGoalInspect>
+  <!-- EN: Release -->
+  <AO_ReleaseSpotRelease>Liberar</AO_ReleaseSpotRelease>
+  <!-- EN: Open or close the valve. A closed spot keeps its tanks. -->
+  <AO_ReleaseSpotReleaseDesc>Abre o cierra la válvula. Un lugar cerrado conserva sus tanques.</AO_ReleaseSpotReleaseDesc>
+  <!-- EN: Release rate -->
+  <AO_ReleaseRateTitle>Ritmo de liberación</AO_ReleaseRateTitle>
+  <!-- EN: {0} tanks / hour -->
+  <AO_ReleaseRateBar>{0} tanques / hora</AO_ReleaseRateBar>
+  <!-- EN: How many gas tanks this spot uses up per hour, 0 to 100 (0 = closed). Each tank is taken from the stack first, then its gas is released over that time. -->
+  <AO_ReleaseRateTip>Cuántos tanques de gas gasta este lugar por hora, de 0 a 100 (0 = cerrado). Cada tanque se saca primero de la pila, y luego su gas se suelta durante ese tiempo.</AO_ReleaseRateTip>
+  <!-- EN: Idle: no power. -->
+  <AO_HumidityNoPower>Inactivo: sin energía.</AO_HumidityNoPower>
+  <!-- EN: Idle: humidity {0}% has reached the goal ({1}%). -->
+  <AO_HumidityGoalReached>Inactivo: la humedad, {0} %, llegó a la meta ({1} %).</AO_HumidityGoalReached>
+  <!-- EN: {0}% humidity -->
+  <AO_HumidityGoalBar>{0} % de humedad</AO_HumidityGoalBar>
+  <!-- EN: Idle: out of water. -->
+  <AO_HumidifierNoWater>Inactivo: sin agua.</AO_HumidifierNoWater>
+  <!-- EN: Misting up to {0} water units per hour (humidity {1}%, goal {2}%). -->
+  <AO_HumidifierRunning>Echando neblina, hasta {0} unidades de agua por hora (humedad {1} %, meta {2} %).</AO_HumidifierRunning>
+  <!-- EN: Humidify to -->
+  <AO_HumidifierGoalTitle>Humedecer hasta</AO_HumidifierGoalTitle>
+  <!-- EN: It runs while the mean relative humidity of its own cell and the open cells beside it is below this goal (0 to 100%). -->
+  <AO_HumidifierGoalTip>Funciona mientras la humedad relativa media de su propia celda y de las celdas abiertas a su lado esté por debajo de esta meta (de 0 a 100 %).</AO_HumidifierGoalTip>
+  <!-- EN: Condensing about {0} water units per hour (humidity {1}%, goal {2}%). -->
+  <AO_DehumidifierRunning>Condensando unas {0} unidades de agua por hora (humedad {1} %, meta {2} %).</AO_DehumidifierRunning>
+  <!-- EN: Water unit in progress: {0} -->
+  <AO_DehumidifierPool>Unidad de agua en curso: {0}</AO_DehumidifierPool>
+  <!-- EN: Waiting: no room nearby for the water (haul it away). -->
+  <AO_DehumidifierOutputFull>Esperando: no hay espacio cerca para el agua (llévatela).</AO_DehumidifierOutputFull>
+  <!-- EN: Dry down to -->
+  <AO_DehumidifierGoalTitle>Secar hasta</AO_DehumidifierGoalTitle>
+  <!-- EN: It runs while the mean relative humidity of its own cell and the open cells beside it is above this goal (0 to 100%). It works at any temperature and slows down as the air nears the goal. -->
+  <AO_DehumidifierGoalTip>Funciona mientras la humedad relativa media de su propia celda y de las celdas abiertas a su lado esté por encima de esta meta (de 0 a 100 %). Funciona a cualquier temperatura y va más lento a medida que el aire se acerca a la meta.</AO_DehumidifierGoalTip>
+  <!-- EN: Humid air ({0}% humidity): spoiling at {1} speed. -->
+  <AO_RotHumid>Aire húmedo ({0} % de humedad): se echa a perder a velocidad {1}.</AO_RotHumid>
+  <!-- EN: Dry air ({0}% humidity): spoiling at {1} speed. -->
+  <AO_RotDry>Aire seco ({0} % de humedad): se echa a perder a velocidad {1}.</AO_RotDry>
+  <!-- EN: Atmosphere Overhaul -->
+  <AO_Settings_Category>Atmosphere Overhaul</AO_Settings_Category>
+  <!-- EN: Simulation interval: {0} ticks (shorter = more accurate, more CPU) -->
+  <AO_Settings_Interval>Intervalo de simulación: {0} ticks (más corto = más preciso, más CPU)</AO_Settings_Interval>
+  <!-- EN: Simulation interval: {0} ticks (default) (shorter = more accurate, more CPU) -->
+  <AO_Settings_IntervalDefault>Intervalo de simulación: {0} ticks (por defecto) (más corto = más preciso, más CPU)</AO_Settings_IntervalDefault>
+  <!-- EN: Wind can carry things off the map (they may turn up on the neighbouring tile) -->
+  <AO_Settings_WindOffMap>El viento puede sacar cosas del mapa (pueden aparecer en la celda vecina)</AO_Settings_WindOffMap>
+  <!-- EN: Thirst: creatures need to drink water (applies as needs are next refreshed, e.g. on load) -->
+  <AO_Settings_Thirst>Sed: las criaturas necesitan beber agua (se aplica cuando se actualizan las necesidades, por ejemplo al cargar)</AO_Settings_Thirst>
+  <!-- EN: Crop water use: ×{0} -->
+  <AO_Settings_CropWater>Consumo de agua de los cultivos: ×{0}</AO_Settings_CropWater>
+  <!-- EN: Show humidity overlay -->
+  <AO_Overlay_Humidity>Mostrar superposición de humedad</AO_Overlay_Humidity>
+  <!-- EN: Show air pressure overlay -->
+  <AO_Overlay_AirPressure>Mostrar superposición de presión del aire</AO_Overlay_AirPressure>
+  <!-- EN: Show wind overlay -->
+  <AO_Overlay_Wind>Mostrar superposición de viento</AO_Overlay_Wind>
+  <!-- EN: Show oxygen overlay -->
+  <AO_Overlay_Oxygen>Mostrar superposición de oxígeno</AO_Overlay_Oxygen>
+  <!-- EN: Show streamline overlay -->
+  <AO_Overlay_Streamlines>Mostrar superposición de líneas de flujo</AO_Overlay_Streamlines>
+  <!-- EN: Show ground surface temperature overlay -->
+  <AO_Overlay_GroundTemperature>Mostrar superposición de temperatura de la superficie del suelo</AO_Overlay_GroundTemperature>
+  <!-- EN: Show feels-like temperature overlay -->
+  <AO_Overlay_FeelsLike>Mostrar superposición de sensación térmica</AO_Overlay_FeelsLike>
+  <!-- EN: Show soil water held -->
+  <AO_Overlay_SoilWater>Mostrar el agua que guarda el suelo</AO_Overlay_SoilWater>
+  <!-- EN: Show building failure risk -->
+  <AO_Overlay_BuildingRisk>Mostrar riesgo de rotura de edificios</AO_Overlay_BuildingRisk>
+  <!-- EN: Show roof failure risk -->
+  <AO_Overlay_RoofRisk>Mostrar riesgo de rotura de techos</AO_Overlay_RoofRisk>
+  <!-- EN: Show altitude overlay -->
+  <AO_Overlay_Altitude>Mostrar superposición de altitud</AO_Overlay_Altitude>
+  <!-- EN: Show latitude/longitude grid -->
+  <AO_Overlay_LatLonGrid>Mostrar cuadrícula de latitud y longitud</AO_Overlay_LatLonGrid>
+  <!-- EN: Flow at {0} -->
+  <AO_Overlay_FlowAt>Flujo a {0}</AO_Overlay_FlowAt>
+  <!-- EN: Wind strength at {0} -->
+  <AO_Overlay_WindAt>Fuerza del viento a {0}</AO_Overlay_WindAt>
+  <!-- EN: Air pressure at {0} -->
+  <AO_Overlay_PressureAt>Presión del aire a {0}</AO_Overlay_PressureAt>
+  <!-- EN: Humidity at {0} -->
+  <AO_Overlay_HumidityAt>Humedad a {0}</AO_Overlay_HumidityAt>
+  <!-- EN: Temperature at {0} -->
+  <AO_Overlay_TemperatureAt>Temperatura a {0}</AO_Overlay_TemperatureAt>
+  <!-- EN: Cloud at {0} -->
+  <AO_Overlay_CloudAt>Nubes a {0}</AO_Overlay_CloudAt>
+  <!-- EN: Show all clouds -->
+  <AO_Overlay_AllClouds>Mostrar todas las nubes</AO_Overlay_AllClouds>
+  <!-- EN: Show precipitation overlay -->
+  <AO_Overlay_Precipitation>Mostrar superposición de precipitaciones</AO_Overlay_Precipitation>
+  <!-- EN: Show weather systems: fronts, tropical cyclones, thunderstorms -->
+  <AO_Overlay_WeatherSystems>Mostrar sistemas meteorológicos: frentes, ciclones tropicales, tormentas eléctricas</AO_Overlay_WeatherSystems>
+  <!-- EN: Show ocean current overlay -->
+  <AO_Overlay_OceanCurrent>Mostrar superposición de corrientes oceánicas</AO_Overlay_OceanCurrent>
+  <!-- EN: Show surface temperature overlay -->
+  <AO_Overlay_SurfaceTemperature>Mostrar superposición de temperatura de la superficie</AO_Overlay_SurfaceTemperature>
+  <!-- EN: Show weather forecast slider -->
+  <AO_Overlay_ForecastSlider>Mostrar barra del pronóstico del clima</AO_Overlay_ForecastSlider>
+  <!-- EN: N -->
+  <AO_Compass_N>N</AO_Compass_N>
+  <!-- EN: NE -->
+  <AO_Compass_NE>NE</AO_Compass_NE>
+  <!-- EN: E -->
+  <AO_Compass_E>E</AO_Compass_E>
+  <!-- EN: SE -->
+  <AO_Compass_SE>SE</AO_Compass_SE>
+  <!-- EN: S -->
+  <AO_Compass_S>S</AO_Compass_S>
+  <!-- EN: SW -->
+  <AO_Compass_SW>SO</AO_Compass_SW>
+  <!-- EN: W -->
+  <AO_Compass_W>O</AO_Compass_W>
+  <!-- EN: NW -->
+  <AO_Compass_NW>NO</AO_Compass_NW>
+  <!-- EN: {0} {1}m/s -->
+  <AO_Readout_Wind>{0} {1}m/s</AO_Readout_Wind>
+  <!-- EN: Calm {0}m/s -->
+  <AO_Readout_WindCalm>Calma {0}m/s</AO_Readout_WindCalm>
+  <!-- EN: Calm -->
+  <AO_Readout_Calm>Calma</AO_Readout_Calm>
+  <!-- EN: Land -->
+  <AO_Readout_Land>Tierra</AO_Readout_Land>
+  <!-- EN: Sea -->
+  <AO_Readout_Sea>Mar</AO_Readout_Sea>
+  <!-- EN: Sea ice {0}% ({1} m) -->
+  <AO_Readout_SeaIce>Mar congelado {0} % ({1} m)</AO_Readout_SeaIce>
+  <!-- EN: Sea (ice biome, open water) -->
+  <AO_Readout_SeaIceBiomeOpen>Mar (bioma de hielo, agua abierta)</AO_Readout_SeaIceBiomeOpen>
+  <!-- EN: Near ground -->
+  <AO_Readout_NearGround>Junto al suelo</AO_Readout_NearGround>
+  <!-- EN: {0} layer -->
+  <AO_Readout_Layer>Capa {0}</AO_Readout_Layer>
+  <!-- EN: Cache {0}/{1} -->
+  <AO_Readout_Cache>Caché {0}/{1}</AO_Readout_Cache>
+  <!-- EN: Next update in {0}h -->
+  <AO_Readout_NextUpdate>Próxima actualización en {0} h</AO_Readout_NextUpdate>
+  <!-- EN: {0}  {1}m  {2}hPa -->
+  <AO_Readout_Place>{0}  {1}m  {2}hPa</AO_Readout_Place>
+  <!-- EN: {0}C | Surface {1}C -->
+  <AO_Readout_Temperatures>{0}C | Superficie {1}C</AO_Readout_Temperatures>
+  <!-- EN: Cloud {0}% Humid {1}% -->
+  <AO_Readout_CloudHumid>Nubes {0} % Humedad {1} %</AO_Readout_CloudHumid>
+  <!-- EN: Rain {0}mm/h -->
+  <AO_Readout_Rain>Lluvia {0}mm/h</AO_Readout_Rain>
+  <!-- EN: Initializing weather -->
+  <AO_WeatherStatus_Initializing>Iniciando el clima</AO_WeatherStatus_Initializing>
+  <!-- EN: Weather worker stopped -->
+  <AO_WeatherStatus_Stopped>El cálculo del clima se detuvo</AO_WeatherStatus_Stopped>
+  <!-- EN: Forecasting paused -->
+  <AO_WeatherStatus_Paused>Pronóstico en pausa</AO_WeatherStatus_Paused>
+  <!-- EN: Waiting for weather cache -->
+  <AO_WeatherStatus_Waiting>Esperando la caché del clima</AO_WeatherStatus_Waiting>
+  <!-- EN: Atmosphere Overhaul: the GPU climate engine could not run, so world weather is stopped.\n\nReason: {0}\n\nPlatform: {1}\nGPU device: {2}\n\nPlease send this message and the log file:\n{3} -->
+  <AO_GpuEngineFailed>Atmosphere Overhaul: el motor climático de la GPU no pudo funcionar, así que el clima del mundo está detenido.\n\nMotivo: {0}\n\nPlataforma: {1}\nDispositivo GPU: {2}\n\nPor favor, envía este mensaje y el archivo de registro:\n{3}</AO_GpuEngineFailed>
+  <!-- EN: none created -->
+  <AO_GpuEngineNoDevice>no se creó ninguno</AO_GpuEngineNoDevice>
+  <!-- EN: now -->
+  <AO_SeaIceWhen_Now>ahora</AO_SeaIceWhen_Now>
+  <!-- EN: within a day -->
+  <AO_SeaIceWhen_Day>antes de un día</AO_SeaIceWhen_Day>
+  <!-- EN: in about {0} days -->
+  <AO_SeaIceWhen_Days>en unos {0} días</AO_SeaIceWhen_Days>
+  <!-- EN: Sea ice thinning -->
+  <AO_SeaIceWarnLabel>El mar congelado se adelgaza</AO_SeaIceWarnLabel>
+  <!-- EN: Sea ice breaking up -->
+  <AO_SeaIceWarnUrgentLabel>El mar congelado se rompe</AO_SeaIceWarnUrgentLabel>
+  <!-- EN: The sea ice under {0} is thinning.\n\nAt the current melt rate it is expected to break up {1}. Once it breaks up, the tile becomes open ocean.\n\nConsider moving your people to solid ground. -->
+  <AO_SeaIceWarnText>El hielo bajo {0} se está adelgazando.\n\nAl ritmo actual de deshielo, se espera que se rompa {1}. Cuando se rompa, la celda pasará a ser océano abierto.\n\nConsidera llevar a tu gente a tierra firme.</AO_SeaIceWarnText>
+  <!-- EN: The sea ice under {0} is about to break up.\n\nAt the current melt rate it is expected to break up {1}. Once it breaks up, the tile becomes open ocean.\n\nConsider moving your people to solid ground. -->
+  <AO_SeaIceWarnUrgentText>El hielo bajo {0} está a punto de romperse.\n\nAl ritmo actual de deshielo, se espera que se rompa {1}. Cuando se rompa, la celda pasará a ser océano abierto.\n\nConsidera llevar a tu gente a tierra firme.</AO_SeaIceWarnUrgentText>
+  <!-- EN: Settlement lost to the sea -->
+  <AO_SeaIceLostLabel>Asentamiento perdido en el mar</AO_SeaIceLostLabel>
+  <!-- EN: The sea ice under {0} has broken up. The whole settlement collapsed into the ocean with the ice sheet. -->
+  <AO_SeaIceLostText>El hielo bajo {0} se rompió. Todo el asentamiento se hundió en el océano junto con la capa de hielo.</AO_SeaIceLostText>
+  <!-- EN: No one was there when it happened. -->
+  <AO_SeaIceLostNobody>No había nadie cuando pasó.</AO_SeaIceLostNobody>
+  <!-- EN: Missing, lost to the sea with the collapsed ice: -->
+  <AO_SeaIceLostMissing>Desaparecidos, perdidos en el mar con el hielo hundido:</AO_SeaIceLostMissing>
+  <!-- EN: People: -->
+  <AO_SeaIceLostPeople>Personas:</AO_SeaIceLostPeople>
+  <!-- EN: Animals: -->
+  <AO_SeaIceLostAnimals>Animales:</AO_SeaIceLostAnimals>
+  <!-- EN: Mechanoids: -->
+  <AO_SeaIceLostMechanoids>Mecanoides:</AO_SeaIceLostMechanoids>
+  <!-- EN: {0} (prisoner) -->
+  <AO_SeaIceLostPrisoner>{0} (prisionero)</AO_SeaIceLostPrisoner>
+  <!-- EN: {0} (slave) -->
+  <AO_SeaIceLostSlave>{0} (esclavo)</AO_SeaIceLostSlave>
+  <!-- EN: Forecast +{0} h: {1} -->
+  <AO_Forecast_ReadoutHeader>Pronóstico +{0} h: {1}</AO_Forecast_ReadoutHeader>
+  <!-- EN: Weather forecast: now ({0}) -->
+  <AO_Forecast_Now>Pronóstico del clima: ahora ({0})</AO_Forecast_Now>
+  <!-- EN: Weather forecast: +{0} h ({1}) -->
+  <AO_Forecast_Ahead>Pronóstico del clima: +{0} h ({1})</AO_Forecast_Ahead>
+  <!-- EN: {0} h computed -->
+  <AO_Forecast_Computed>{0} h calculadas</AO_Forecast_Computed>
+  <!-- EN: Drag to see the forecast for the coming hours on the world map overlays, weather systems and tile readout.\nLeftmost is now. Greyed hours are not computed yet. -->
+  <AO_Forecast_Tip>Arrastra para ver el pronóstico de las próximas horas en las superposiciones del mapa del mundo, los sistemas meteorológicos y la lectura de la celda.\nEl extremo izquierdo es ahora. Las horas en gris todavía no se calculan.</AO_Forecast_Tip>
+  <!-- EN: Feels like {0} -->
+  <AO_FeelsLike>Sensación térmica {0}</AO_FeelsLike>
+  <!-- EN: Oxygen delivery (breathing × blood pumping) {0}: {1} -->
+  <AO_StatPart_OxygenDelivery>Aporte de oxígeno (respiración × bombeo de sangre) {0}: {1}</AO_StatPart_OxygenDelivery>
+  <!-- EN: Shielded by {0} ({1}) -->
+  <AO_StatPart_ExposureShield>Protegido por {0} ({1})</AO_StatPart_ExposureShield>
+  <!-- EN: Breathing barrier (worn gear over head or mouth): {0} -->
+  <AO_Protection_BreathingBarrier>Barrera respiratoria (equipo puesto sobre la cabeza o la boca): {0}</AO_Protection_BreathingBarrier>
+  <!-- EN: Body barrier (worn gear over the torso): {0} -->
+  <AO_Protection_BodyBarrier>Barrera corporal (equipo puesto sobre el torso): {0}</AO_Protection_BodyBarrier>
+  <!-- EN: {0}: sealed ({1}) -->
+  <AO_Protection_Intact>{0}: sellado ({1})</AO_Protection_Intact>
+  <!-- EN: {0}: BREACHED at {1} HP - no protection -->
+  <AO_Protection_Breached>{0}: ROTO a {1} PV; sin protección</AO_Protection_Breached>
+  <!-- EN: Breathing in suit air: 100% -->
+  <AO_StatPart_BreathingSupplyFilter>Respirando el aire del traje: 100 %</AO_StatPart_BreathingSupplyFilter>
+  <!-- EN: {0}: {1} -->
+  <AO_StatPart_AddStat>{0}: {1}</AO_StatPart_AddStat>
+  <!-- EN: Body size {0}: {1} -->
+  <AO_StatPart_BodySize>Tamaño corporal {0}: {1}</AO_StatPart_BodySize>
+  <!-- EN: Adapted to {0} hPa (now {1}).\nSafe pressure now: {2}–{3} hPa; below: decompression sickness, above: barotrauma.\nAdapts by half in {4} h. -->
+  <AO_PressureAdaptation_Tip>Adaptado a {0} hPa (ahora {1}).\nPresión segura ahora: {2}–{3} hPa; por debajo, enfermedad por descompresión; por encima, barotrauma.\nSe adapta a la mitad en {4} h.</AO_PressureAdaptation_Tip>
+  <!-- EN: auto -->
+  <AO_BreathingMode_Auto>automático</AO_BreathingMode_Auto>
+  <!-- EN: always on -->
+  <AO_BreathingMode_AlwaysOn>siempre encendido</AO_BreathingMode_AlwaysOn>
+  <!-- EN: off -->
+  <AO_BreathingMode_Off>apagado</AO_BreathingMode_Off>
+  <!-- EN: Auto air -->
+  <AO_BreathingGizmoAuto>Aire automático</AO_BreathingGizmoAuto>
+  <!-- EN: {0}: {1} air tanks of breathing gas (about {2} h at this wearer&apos;s rate).\n\nWhen on, the gear decides by itself: it supplies whenever the air is potentially harmful for this wearer: oxygen near its limits, thin air or a pressure drop a sealed suit can help with, or toxins it is not immune to (tox gas, rot stink, pollution, toxic fallout).\n\nTurning auto off keeps the current state. -->
+  <AO_BreathingGizmoAutoDesc>{0}: {1} tanques de aire de gas respirable (unas {2} h al ritmo de quien lo lleva).\n\nSi está activado, el equipo decide solo: suministra aire cada vez que el aire puede ser dañino para quien lo lleva: oxígeno cerca de sus límites, aire delgado o una caída de presión en que ayude un traje hermético, o toxinas a las que no es inmune (gas tóxico, hedor a putrefacción, contaminación, lluvia tóxica).\n\nDesactivar el modo automático mantiene el estado actual.</AO_BreathingGizmoAutoDesc>
+  <!-- EN: In suit air ({0}) -->
+  <AO_BreathingGizmoOn>Aire del traje ({0})</AO_BreathingGizmoOn>
+  <!-- EN: {0}: {1} air tanks of breathing gas (about {2} h at this wearer&apos;s rate).\n\nOn: breathe the in suit air (keeps inhaled toxins out; a sealed suit holds its pressure). Off: breathe the air outside, no gas used.\n\nClicking sets it by hand and turns auto off. -->
+  <AO_BreathingGizmoOnDesc>{0}: {1} tanques de aire de gas respirable (unas {2} h al ritmo de quien lo lleva).\n\nEncendido: respira el aire del traje (deja afuera las toxinas que se inhalan; un traje hermético mantiene su presión). Apagado: respira el aire de afuera, sin gastar gas.\n\nHacer clic lo elige a mano y desactiva el modo automático.</AO_BreathingGizmoOnDesc>
+  <!-- EN: Breathing gas: {0} air tanks ({1}) -->
+  <AO_BreathingInspect>Gas respirable: {0} tanques de aire ({1})</AO_BreathingInspect>
+  <!-- EN: breached (below 50% HP): does not work -->
+  <AO_BreathingBreached>roto (menos del 50 % de PV): no funciona</AO_BreathingBreached>
+  <!-- EN: Refill {0} from {1} -->
+  <AO_RefillBreathing>Recargar {0} con {1}</AO_RefillBreathing>
+  <!-- EN: too little oxygen in this tank -->
+  <AO_RefillTooLittleOxygen>este tanque tiene muy poco oxígeno</AO_RefillTooLittleOxygen>
+  <!-- EN: supplying -->
+  <AO_SuitState_On>suministrando</AO_SuitState_On>
+  <!-- EN: standby -->
+  <AO_SuitState_Standby>en espera</AO_SuitState_Standby>
+  <!-- EN: empty -->
+  <AO_SuitState_Empty>vacío</AO_SuitState_Empty>
+  <!-- EN: breached -->
+  <AO_SuitState_Breached>roto</AO_SuitState_Breached>
+  <!-- EN: {0} ({1}): {2} -->
+  <AO_SuitTip_Gear>{0} ({1}): {2}</AO_SuitTip_Gear>
+  <!-- EN: Breathing gas left: {0} (about {1} h) -->
+  <AO_SuitTip_Supply>Gas respirable restante: {0} (unas {1} h)</AO_SuitTip_Supply>
+  <!-- EN: Sealed suit: holds {0} hPa while supplying -->
+  <AO_SuitTip_Sealed>Traje hermético: mantiene {0} hPa mientras suministra</AO_SuitTip_Sealed>
+  <!-- EN: Not sealed: the breath can be pushed only slightly above the air outside -->
+  <AO_SuitTip_Unsealed>No es hermético: el aliento solo puede quedar apenas por encima del aire de afuera</AO_SuitTip_Unsealed>
+  <!-- EN: Outside: {0} hPa, oxygen {1} hPa. Body: {2} hPa, breathing oxygen {3} hPa -->
+  <AO_SuitTip_Air>Afuera: {0} hPa, oxígeno {1} hPa. Cuerpo: {2} hPa, oxígeno respirado {3} hPa</AO_SuitTip_Air>
+  <!-- EN: Suit air -->
+  <AO_SuitStatusTitle>Aire del traje</AO_SuitStatusTitle>
+  <!-- EN: Gas {0} · {1} h -->
+  <AO_SuitStatusGas>Gas {0} · {1} h</AO_SuitStatusGas>
+  <!-- EN: no breathing supply -->
+  <AO_SuitStatusNoSupply>sin reserva de aire</AO_SuitStatusNoSupply>
+  <!-- EN: Body {0} hPa · O2 {1} hPa -->
+  <AO_SuitStatusBody>Cuerpo {0} hPa · O2 {1} hPa</AO_SuitStatusBody>
+  <!-- EN: no air data here -->
+  <AO_SuitStatusNoAir>sin datos del aire aquí</AO_SuitStatusNoAir>
+  <!-- EN: Sealed {0} hPa -->
+  <AO_SuitStatusSealed>Hermético {0} hPa</AO_SuitStatusSealed>
+  <!-- EN: Not sealed -->
+  <AO_SuitStatusUnsealed>No hermético</AO_SuitStatusUnsealed>
+  <!-- EN: This pawn&apos;s limits: oxygen {0}–{1} hPa, air pressure {2}–{3} hPa -->
+  <AO_SuitStatusLimits>Límites de este peón: oxígeno {0}–{1} hPa, presión del aire {2}–{3} hPa</AO_SuitStatusLimits>
+  <!-- EN: Losing about {0} L a day. -->
+  <AO_HydrationTipRate>Pierde unos {0} L al día.</AO_HydrationTipRate>
+  <!-- EN: Found on the way (caravan): {0} of it -->
+  <AO_HydrationTipForage>Encontrada en el camino (caravana): {0}</AO_HydrationTipForage>
+  <!-- EN: No water -->
+  <AO_NoWater>Sin agua</AO_NoWater>
+  <!-- EN: Water ({0} units per colonist) -->
+  <AO_StartingWaterSummary>Agua ({0} unidades por colono)</AO_StartingWaterSummary>
+  <!-- EN: Drink {0} ({1} units) -->
+  <AO_DrinkOrder>Beber {0} ({1} unidades)</AO_DrinkOrder>
+  <!-- EN: Drink from the river -->
+  <AO_DrinkRiverOrder>Beber del río</AO_DrinkRiverOrder>
+  <!-- EN: Fetch water ({0} units) -->
+  <AO_FetchWaterOrder>Buscar agua ({0} unidades)</AO_FetchWaterOrder>
+  <!-- EN: cannot carry any -->
+  <AO_FetchCannotCarry>no puede cargar nada</AO_FetchCannotCarry>
+  <!-- EN: Must be placed on fresh water (a river, lake or pond) -->
+  <AO_MustPlaceOnFreshWater>Se tiene que poner sobre agua dulce (un río, un lago o un estanque)</AO_MustPlaceOnFreshWater>
+  <!-- EN: No fresh water in range of the water fetching spot -->
+  <AO_FetchNoWaterInRange>No hay agua dulce al alcance del lugar de recogida de agua</AO_FetchNoWaterInRange>
+  <!-- EN: {0} has no water to fetch. -->
+  <AO_FetchSourceEmpty>{0} no tiene agua para recoger.</AO_FetchSourceEmpty>
+  <!-- EN: salt water cannot be drunk -->
+  <AO_WaterNot_Salt>el agua salada no se puede beber</AO_WaterNot_Salt>
+  <!-- EN: polluted water -->
+  <AO_WaterNot_Polluted>agua contaminada</AO_WaterNot_Polluted>
+  <!-- EN: under a bridge -->
+  <AO_WaterNot_Bridge>bajo un puente</AO_WaterNot_Bridge>
+  <!-- EN: Low water -->
+  <AO_LowWater>Poca agua</AO_LowWater>
+  <!-- EN: There are only {0} water units left on the map for {1} colonists and prisoners: about {2} days of drinking.\n\nBuild a water fetching spot and add a &quot;fetch water&quot; bill to bring water from rivers, lakes and ponds. Build rain collectors or dehumidifiers to gather more. -->
+  <AO_LowWaterDesc>Solo quedan {0} unidades de agua en el mapa para {1} colonos y prisioneros: unos {2} días de bebida.\n\nConstruye un lugar de recogida de agua y agrégale un proyecto de &quot;buscar agua&quot; para traer agua de ríos, lagos y estanques. Construye colectores de lluvia o deshumidificadores para juntar más.</AO_LowWaterDesc>
+  <!-- EN: {0} has run out of water. Its members are dehydrating. -->
+  <AO_MessageCaravanOutOfWater>{0} se quedó sin agua. Sus miembros se están deshidratando.</AO_MessageCaravanOutOfWater>
+  <!-- EN: Water: {0} days ({1} units), found on the way: {2} -->
+  <AO_CaravanWaterInspect>Agua: {0} días ({1} unidades), encontrada en el camino: {2}</AO_CaravanWaterInspect>
+  <!-- EN: Days of water -->
+  <AO_DaysOfWater>Días de agua</AO_DaysOfWater>
+  <!-- EN: enough -->
+  <AO_WaterDaysInfinite>suficiente</AO_WaterDaysInfinite>
+  <!-- EN: How long the water carried lasts, after what the land here provides. Water in food is not counted. -->
+  <AO_WaterDaysTip>Cuánto dura el agua que se lleva, después de lo que aporta la tierra de aquí. No se cuenta el agua de la comida.</AO_WaterDaysTip>
+  <!-- EN: Counted along the chosen route, then at the destination. -->
+  <AO_WaterDaysTipRoute>Se cuenta a lo largo de la ruta elegida, y luego en el destino.</AO_WaterDaysTipRoute>
+  <!-- EN: Water foraged per day -->
+  <AO_WaterForagedPerDay>Agua recogida por día</AO_WaterForagedPerDay>
+  <!-- EN: {0} units -->
+  <AO_WaterForagedPerDayValue>{0} unidades</AO_WaterForagedPerDayValue>
+  <!-- EN: Water the land provides on the way each day, from rivers, lakes, rain, springs and dew. The caravan drinks it before the water it carries. -->
+  <AO_WaterForagedPerDayTip>El agua que la tierra aporta cada día en el camino, de ríos, lagos, lluvia, manantiales y rocío. La caravana la bebe antes que el agua que lleva.</AO_WaterForagedPerDayTip>
+  <!-- EN: A river, lake or pond here: the land provides all the water ({0}). -->
+  <AO_WaterForage_River>Aquí hay un río, un lago o un estanque: la tierra aporta toda el agua ({0}).</AO_WaterForage_River>
+  <!-- EN: Rain or snow is falling: the caravan catches all the water it needs ({0}). -->
+  <AO_WaterForage_Rain>Está lloviendo o nevando: la caravana junta toda el agua que necesita ({0}).</AO_WaterForage_Rain>
+  <!-- EN: Springs and dew here provide {0} of the water. -->
+  <AO_WaterForage_Dry>Los manantiales y el rocío de aquí aportan {0} del agua.</AO_WaterForage_Dry>
+  <!-- EN: Sweating in the heat: ×{0} -->
+  <AO_HydrationTipHeat>Sudor por el calor: ×{0}</AO_HydrationTipHeat>
+  <!-- EN: Breath and skin in this air&apos;s humidity: ×{0} (×100% = perfectly dry air) -->
+  <AO_HydrationTipDry>Aliento y piel con la humedad de este aire: ×{0} (×100 % = aire totalmente seco)</AO_HydrationTipDry>
+  <!-- EN: Catching rain: {0} units ({1} L) an hour -->
+  <AO_RainCollectorCatching>Juntando lluvia: {0} unidades ({1} L) por hora</AO_RainCollectorCatching>
+  <!-- EN: No rain to catch -->
+  <AO_RainCollectorIdle>No hay lluvia que juntar</AO_RainCollectorIdle>
+  <!-- EN: Roofed: catches no rain -->
+  <AO_RainCollectorRoofed>Techado: no junta lluvia</AO_RainCollectorRoofed>
+  <!-- EN: dry air -->
+  <AO_PlantFactor_DryAir>aire seco</AO_PlantFactor_DryAir>
+  <!-- EN: oxygen -->
+  <AO_PlantFactor_Oxygen>oxígeno</AO_PlantFactor_Oxygen>
+  <!-- EN: air pressure -->
+  <AO_PlantFactor_Pressure>presión del aire</AO_PlantFactor_Pressure>
+  <!-- EN: soil water -->
+  <AO_PlantFactor_SoilWater>agua del suelo</AO_PlantFactor_SoilWater>
+  <!-- EN: Soil water: {0} mm (of {1}) -->
+  <AO_SoilWaterInspect>Agua del suelo: {0} mm (de {1})</AO_SoilWaterInspect>
+  <!-- EN: Allow watering -->
+  <AO_CommandAllowWatering>Permitir riego</AO_CommandAllowWatering>
+  <!-- EN: Let growers water the plants here when the soil runs low (below 30% of what it can hold). They soak each cell to full; one water unit adds 10 mm. -->
+  <AO_CommandAllowWateringDesc>Deja que los cultivadores rieguen las plantas de aquí cuando el suelo tenga poca agua (menos del 30 % de lo que puede guardar). Empapan cada celda hasta llenarla; una unidad de agua suma 10 mm.</AO_CommandAllowWateringDesc>
+  <!-- EN: Pumping from fresh water (no tank needed) -->
+  <AO_IrrigatorPumping>Bombeando de agua dulce (no necesita tanque)</AO_IrrigatorPumping>
+  <!-- EN: Spraying from the connected water pipes (no tank needed) -->
+  <AO_IrrigatorPipes>Rociando desde las tuberías de agua conectadas (no necesita tanque)</AO_IrrigatorPipes>
+  <!-- EN: No fresh water within 3 cells: using its tank -->
+  <AO_IrrigatorTank>No hay agua dulce a 3 celdas o menos: usa su tanque</AO_IrrigatorTank>
+  <!-- EN: Soaking {0} cells -->
+  <AO_IrrigatorSoaking>Empapando {0} celdas</AO_IrrigatorSoaking>
+  <!-- EN: water -->
+  <AO_GrowerTankFuelLabel>agua</AO_GrowerTankFuelLabel>
+  <!-- EN: Water -->
+  <AO_GrowerTankGizmoLabel>Agua</AO_GrowerTankGizmoLabel>
+  <!-- EN: Needs water -->
+  <AO_GrowerTankEmpty>Necesita agua</AO_GrowerTankEmpty>
+  <!-- EN: Ground {0} -->
+  <AO_ReadoutGround>Suelo {0}</AO_ReadoutGround>
+  <!-- EN: Humid {0}% -->
+  <AO_ReadoutHumid>Humedad {0} %</AO_ReadoutHumid>
+  <!-- EN: Soil {0}/{1}mm -->
+  <AO_ReadoutSoil>Suelo {0}/{1}mm</AO_ReadoutSoil>
+  <!-- EN: The sea ice is breaking up... -->
+  <AtmosphereOverhaul_SeaIceCollapse>El mar congelado se está rompiendo...</AtmosphereOverhaul_SeaIceCollapse>
+  <!-- EN: Exporting the atmosphere... -->
+  <AtmosphereOverhaul_AtmosphereExport>Exportando la atmósfera...</AtmosphereOverhaul_AtmosphereExport>
+  <!-- EN: Adapting the atmosphere to this world... -->
+  <AtmosphereOverhaul_AtmosphereInject>Adaptando la atmósfera a este mundo...</AtmosphereOverhaul_AtmosphereInject>
+  <!-- EN: Tornado -->
+  <AO_TornadoLetterLabel>Tornado</AO_TornadoLetterLabel>
+  <!-- EN: A supercell storm has spawned a tornado nearby. Winds near its core reach 80 m/s, strong enough to tear down any wall and roof and throw people and objects into the air.\n\nGet everyone into strong shelter, or form a caravan and leave the map! Ideally under thick rock, away from its path. -->
+  <AO_TornadoLetterText>Una tormenta supercelular formó un tornado cerca. Los vientos junto a su núcleo llegan a 80 m/s, con fuerza suficiente para derribar cualquier pared y techo, y lanzar por los aires a personas y objetos.\n\n¡Lleva a todos a un refugio resistente, o forma una caravana y sal del mapa! Lo ideal es bajo roca gruesa, lejos de su camino.</AO_TornadoLetterText>
+  <!-- EN: Tornado warning -->
+  <AO_TornadoWarningLabel>Alerta de tornado</AO_TornadoWarningLabel>
+  <!-- EN: Conditions around {0} favor a tornado. One is expected to touch down in about {1} hours.\n\nIt will tear apart roofs and walls and throw people and objects into the air. Get everyone into strong shelter, ideally under thick rock. -->
+  <AO_TornadoWarningText>Las condiciones alrededor de {0} favorecen un tornado. Se espera que uno toque tierra en unas {1} horas.\n\nDestrozará techos y paredes, y lanzará por los aires a personas y objetos. Lleva a todos a un refugio resistente, idealmente bajo roca gruesa.</AO_TornadoWarningText>
+  <!-- EN: Air flow limit -->
+  <AO_VentSpeedTitle>Límite de flujo de aire</AO_VentSpeedTitle>
+  <!-- EN: The fastest air may pass through this vent, from 0 (closed) to {0} m/s. Small pressure differences pass freely; large ones are held to this speed, so rooms balance gently. -->
+  <AO_VentSpeedTip>La velocidad máxima a la que el aire puede pasar por este respiradero, de 0 (cerrado) a {0} m/s. Las diferencias de presión pequeñas pasan libremente; las grandes se limitan a esta velocidad, así que las habitaciones se equilibran con suavidad.</AO_VentSpeedTip>
+  <!-- EN: up to {0} m/s -->
+  <AO_VentSpeedBar>hasta {0} m/s</AO_VentSpeedBar>
+  <!-- EN: closed -->
+  <AO_VentSpeedClosed>cerrado</AO_VentSpeedClosed>
+  <!-- EN: Air flow: {0} m/s (limit {1} m/s) -->
+  <AO_VentAirOpen>Flujo de aire: {0} m/s (límite {1} m/s)</AO_VentAirOpen>
+  <!-- EN: Air flow: closed -->
+  <AO_VentAirClosed>Flujo de aire: cerrado</AO_VentAirClosed>
+  <!-- EN: Cyclone approaching -->
+  <AO_CycloneApproachLabel>Se acerca un ciclón</AO_CycloneApproachLabel>
+  <!-- EN: A category {1} tropical cyclone is approaching {0}. Its winds are expected to reach the colony in about {2} hours.\n\nIts winds will damage roofs and walls and throw people and objects into the air. Reinforce the colony and keep everyone indoors. -->
+  <AO_CycloneApproachText>Un ciclón tropical de categoría {1} se acerca a {0}. Se espera que sus vientos lleguen a la colonia en unas {2} horas.\n\nSus vientos dañarán techos y paredes, y lanzarán por los aires a personas y objetos. Refuerza la colonia y mantén a todos bajo techo.</AO_CycloneApproachText>
+  <!-- EN: Raging winds -->
+  <AO_CycloneWindsLabel>Vientos furiosos</AO_CycloneWindsLabel>
+  <!-- EN: The winds of a category {1} tropical cyclone have reached {0}.\n\nRoofs and walls are under heavy load, and anyone outside can be thrown into the air. Keep everyone indoors. -->
+  <AO_CycloneWindsText>Los vientos de un ciclón tropical de categoría {1} llegaron a {0}.\n\nLos techos y las paredes soportan una carga enorme, y quien esté afuera puede salir volando. Mantén a todos bajo techo.</AO_CycloneWindsText>
+  <!-- EN: Eye of the storm -->
+  <AO_CycloneEyeLabel>Ojo de la tormenta</AO_CycloneEyeLabel>
+  <!-- EN: All creation is still shaken, yet sunlight pours down like a miracle.\n\nRight now your colonists feel the wind die down. Those outside look up: above the towering, awe-inspiring wall of dense cloud, a corner of clean sky shows itself, as if in mercy.\nEnjoy the moment! Many people never see such a sight in a lifetime.\n\nThe eye will not stay, and soon the destructive winds will return. -->
+  <AO_CycloneEyeText>Toda la creación sigue estremecida, y aun así la luz del sol cae como un milagro.\n\nEn este momento tus colonos sienten que el viento amaina. Los que están afuera miran hacia arriba: sobre la imponente e impresionante muralla de nubes densas, se asoma un pedazo de cielo limpio, como por misericordia.\n¡Disfruta el momento! Mucha gente no ve algo así en toda su vida.\n\nEl ojo no se quedará, y pronto volverán los vientos destructivos.</AO_CycloneEyeText>
+  <!-- EN: Weather overlays need a working Doppler weather radar: build one (research: weather radar) under open sky on any of your maps and keep it powered. Then winds, pressure, humidity, temperature, clouds, precipitation, ocean currents and the height selector appear here. -->
+  <AO_WeatherRadarNeeded>Las superposiciones del clima necesitan un radar meteorológico Doppler funcionando: construye uno (investigación: radar meteorológico) a cielo abierto en cualquiera de tus mapas y mantenlo con energía. Entonces aparecerán aquí los vientos, la presión, la humedad, la temperatura, las nubes, las precipitaciones, las corrientes oceánicas y el selector de altura.</AO_WeatherRadarNeeded>
+  <!-- EN: Preparing the weather -->
+  <AtmosphereOverhaul_PreparingWeather>Preparando el clima</AtmosphereOverhaul_PreparingWeather>
+  <!-- EN: Settling the atmosphere over this world -->
+  <AtmosphereOverhaul_PreparingWeatherNow>Asentando la atmósfera sobre este mundo</AtmosphereOverhaul_PreparingWeatherNow>
+  <!-- EN: Computing the next hour -->
+  <AtmosphereOverhaul_PreparingWeatherForecast>Calculando la próxima hora</AtmosphereOverhaul_PreparingWeatherForecast>
+  <!-- EN: Strong winds are damaging structures. -->
+  <AO_WindDamage_Message>Los vientos fuertes están dañando las estructuras.</AO_WindDamage_Message>
+  <!-- EN: Strong winds are scattering furniture. -->
+  <AO_WindDamage_Furniture>Los vientos fuertes están desparramando los muebles.</AO_WindDamage_Furniture>
+  <!-- EN: Strong winds are felling trees. -->
+  <AO_WindDamage_Trees>Los vientos fuertes están derribando árboles.</AO_WindDamage_Trees>
+  <!-- EN: Strong winds are flattening crops. -->
+  <AO_WindDamage_Crops>Los vientos fuertes están aplastando los cultivos.</AO_WindDamage_Crops>
+  <!-- EN: Strong winds are tearing off roofs. -->
+  <AO_WindDamage_Roofs>Los vientos fuertes están arrancando techos.</AO_WindDamage_Roofs>
+  <!-- EN: Strong wind is blowing things away. -->
+  <AO_WindTransport_Started>El viento fuerte se está llevando cosas.</AO_WindTransport_Started>
+  <!-- EN: Things blown in from a neighbouring region lie near the map edge. -->
+  <AO_WindTransport_Found>Hay cosas traídas por el viento desde una región vecina cerca del borde del mapa.</AO_WindTransport_Found>
+  <!-- EN: {0}: moves in wind above {1} m/s (whole stack {2} m/s); gusts here {3} m/s -->
+  <AO_WindTransport_Readout>{0}: se mueve con viento de más de {1} m/s (la pila entera, {2} m/s); ráfagas aquí: {3} m/s</AO_WindTransport_Readout>
+  <!-- EN: {0}: no air to move it -->
+  <AO_WindTransport_ReadoutVacuum>{0}: no hay aire que lo mueva</AO_WindTransport_ReadoutVacuum>
+  <!-- EN: {0} was blown away by the wind. -->
+  <AO_WindTransport_PawnBlown>El viento se llevó a {0}.</AO_WindTransport_PawnBlown>
+  <!-- EN: Blown off the map -->
+  <AO_WindTransport_OffMapLabel>Sacado del mapa por el viento</AO_WindTransport_OffMapLabel>
+  <!-- EN: {0} was carried off the map by the wind.\n\nIf still able to walk, {0} may find the way back within a few hours. -->
+  <AO_WindTransport_OffMapText>El viento sacó a {0} del mapa.\n\nSi todavía puede caminar, {0} quizás encuentre el camino de vuelta en unas horas.</AO_WindTransport_OffMapText>
+  <!-- EN: Swept away -->
+  <AO_WindTransport_SweptLabel>Arrastrado</AO_WindTransport_SweptLabel>
+  <!-- EN: {0} was thrown by the wind where no one can stand and was swept away.
+
+If still able to walk, {0} may find the way back within a few hours. -->
+  <AO_WindTransport_SweptText>El viento lanzó a {0} a un lugar donde nadie puede mantenerse en pie, y desapareció en la corriente.\n\nSi todavía puede caminar, {0} quizás encuentre el camino de vuelta en unas horas.</AO_WindTransport_SweptText>
+  <!-- EN: Lost to the void -->
+  <AO_WindTransport_VoidLabel>Perdido en el vacío</AO_WindTransport_VoidLabel>
+  <!-- EN: {0} was blown off the hull into space. -->
+  <AO_WindTransport_VoidText>El viento sacó a {0} del casco, hacia el espacio.</AO_WindTransport_VoidText>
+  <!-- EN: {0} was blown away and has escaped. -->
+  <AO_WindTransport_EntityEscaped>El viento se llevó a {0}, y escapó.</AO_WindTransport_EntityEscaped>
+  <!-- EN: {0} made it back after being blown away. -->
+  <AO_WindTransport_Returned>{0} volvió tras salir volando con el viento.</AO_WindTransport_Returned>
+  <!-- EN: Never returned -->
+  <AO_WindTransport_LostLabel>Nunca volvió</AO_WindTransport_LostLabel>
+  <!-- EN: {0} was blown away by the wind and never returned. -->
+  <AO_WindTransport_LostText>El viento se llevó a {0}, y nunca volvió.</AO_WindTransport_LostText>
+  <!-- EN: {0} was sucked into the {1} by the wind. -->
+  <AO_WindTransport_PawnIngested>El viento arrastró a {0} hacia el {1}.</AO_WindTransport_PawnIngested>
+  <!-- EN: World expanded -->
+  <AO_WorldExpandedLabel>Mundo ampliado</AO_WorldExpandedLabel>
+  <!-- EN: This world was saved with {0}% planet coverage. It now covers the whole globe, so weather can run everywhere.
+
+The original land, settlements and maps are unchanged. The new regions are open ocean. -->
+  <AO_WorldExpandedText>Este mundo se guardó con un {0} % de cobertura del planeta. Ahora cubre todo el globo, para que el clima pueda funcionar en todas partes.\n\nLa tierra, los asentamientos y los mapas originales no cambian. Las regiones nuevas son océano abierto.</AO_WorldExpandedText>
+  <!-- EN: Water quality: {0} -->
+  <AO_DBH_WaterQuality>Calidad del agua: {0}</AO_DBH_WaterQuality>
+  <!-- EN: Tank water: {0} -->
+  <AO_DBH_TankQuality>Agua del tanque: {0}</AO_DBH_TankQuality>
+  <!-- EN: treated -->
+  <AO_DBH_Treated>tratada</AO_DBH_Treated>
+  <!-- EN: untreated -->
+  <AO_DBH_Untreated>sin tratar</AO_DBH_Untreated>
+  <!-- EN: contaminated -->
+  <AO_DBH_Contaminated>contaminada</AO_DBH_Contaminated>
+  <!-- EN: no water -->
+  <AO_DBH_SourceDry>sin agua</AO_DBH_SourceDry>
+  <!-- EN: the water is contaminated -->
+  <AO_DBH_SourceContaminated>el agua está contaminada</AO_DBH_SourceContaminated>
+  <!-- EN: Outlet: {0} (aims at {1}), output {2} -->
+  <AO_DBH_Outlet>Salida: {0} (apunta a {1}), potencia {2}</AO_DBH_Outlet>
+  <!-- EN: Breathing in suit air: 0% -->
+  <AO_StatPart_BreathingSupplySmoke>Respirando el aire del traje: 0 %</AO_StatPart_BreathingSupplySmoke>
+</LanguageData>

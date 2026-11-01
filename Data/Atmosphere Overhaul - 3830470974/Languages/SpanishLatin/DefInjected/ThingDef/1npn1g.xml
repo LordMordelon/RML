@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: oxygen mask -->
+  <AO_OxygenMask.label>máscara de oxígeno</AO_OxygenMask.label>
+  <!-- EN: A sealed mouth-and-nose mask with a small regulator and a gas bottle. When the air holds too little or too much oxygen, as at high altitude, in an oxygen-starved sealed room or near an oxygen leak, it feeds the wearer a breath with just enough oxygen. It cannot help where the air itself is too thin, such as in a vacuum.\n\nRefilled from an air tank. -->
+  <AO_OxygenMask.description>Una máscara hermética de boca y nariz, con un pequeño regulador y una botella de gas. Cuando el aire tiene muy poco o demasiado oxígeno, como en las alturas, en una habitación hermética sin oxígeno o cerca de una fuga de oxígeno, le da a quien la lleva un aliento con el oxígeno justo. No sirve donde el aire mismo es demasiado delgado, como en el vacío.\n\nSe recarga con un tanque de aire.</AO_OxygenMask.description>
+  <!-- EN: Industrial Blower -->
+  <AO_IndustrialBlower.label>soplador industrial</AO_IndustrialBlower.label>
+  <!-- EN: A small electric fan that circulates air in the direction it faces. -->
+  <AO_IndustrialBlower.description>Un pequeño ventilador eléctrico que mueve el aire hacia donde mira.</AO_IndustrialBlower.description>
+  <!-- EN: Household Fan -->
+  <AO_HouseholdFan.label>ventilador doméstico</AO_HouseholdFan.label>
+  <!-- EN: A small electric fan that circulates air in the direction it faces. Its output can be adjusted, and it can be turned by hand. -->
+  <AO_HouseholdFan.description>Un pequeño ventilador eléctrico que mueve el aire hacia donde mira. Su potencia se puede ajustar, y se puede girar a mano.</AO_HouseholdFan.description>
+  <!-- EN: wind-up fan -->
+  <AO_WindUpFan.label>ventilador de cuerda</AO_WindUpFan.label>
+  <!-- EN: A small mainspring-driven fan. A full winding runs it for 180 seconds. Colonists assigned to basic tasks can automatically rewind it when empty. -->
+  <AO_WindUpFan.description>Un pequeño ventilador movido por un resorte. Con la cuerda completa funciona 180 segundos. Los colonos asignados a tareas básicas pueden darle cuerda solos cuando se acaba.</AO_WindUpFan.description>
+  <!-- EN: archotech wind producer -->
+  <AO_ArchotechWindProducer.label>generador de viento arqueotéc</AO_ArchotechWindProducer.label>
+  <!-- EN: An archotech device that drives air without fuel or electricity. Its equivalent output can be adjusted from zero to 100,000 watts, reaching a target wind speed of 90 metres per second across its entire footprint. -->
+  <AO_ArchotechWindProducer.description>Un dispositivo arqueotéc que mueve el aire sin combustible ni electricidad. Su potencia equivalente se puede ajustar de cero a 100.000 vatios, y alcanza una velocidad de viento objetivo de 90 metros por segundo en toda su superficie.</AO_ArchotechWindProducer.description>
+  <!-- EN: turbojet -->
+  <AO_Turbojet.label>turborreactor</AO_Turbojet.label>
+  <!-- EN: A chemfuel-powered jet engine with a separate intake and three-cell exhaust. Exhaust is extremely hot and oxygen-poor. Keep the intake and exhaust clear. -->
+  <AO_Turbojet.description>Un motor a reacción que funciona con quimbustible, con una toma de aire aparte y un escape de tres celdas. El escape es extremadamente caliente y pobre en oxígeno. Mantén despejadas la toma y el escape.</AO_Turbojet.description>
+  <!-- EN: Doppler weather radar -->
+  <AO_DopplerWeatherRadar.label>radar meteorológico Doppler</AO_DopplerWeatherRadar.label>
+  <!-- EN: A rotating radar dish under a weatherproof dome that tracks wind, cloud and rain far beyond the colony. While at least one is powered on any of your maps, the world map shows the planet&apos;s weather layers (winds, pressure, humidity, temperature, clouds, precipitation, ocean currents) and the height selector. Needs open sky. Can link to a nearby multi-analyzer. -->
+  <AO_DopplerWeatherRadar.description>Una antena de radar giratoria bajo una cúpula a prueba de intemperie, que sigue el viento, las nubes y la lluvia mucho más allá de la colonia. Mientras al menos uno tenga energía en cualquiera de tus mapas, el mapa del mundo muestra las capas del clima del planeta (vientos, presión, humedad, temperatura, nubes, precipitaciones, corrientes oceánicas) y el selector de altura. Necesita cielo abierto. Se puede conectar a un multianalizador cercano.</AO_DopplerWeatherRadar.description>
+  <!-- EN: air tank -->
+  <AO_AirTank.label>tanque de aire</AO_AirTank.label>
+  <!-- EN: A small cylinder of compressed air (2.5 m³ at normal pressure). Its tag records the oxygen share of the air it was filled with; stacks merge only when the tags are within 5 points, and average them. Used up at a gas release spot. Heat, fire or heavy damage can make a stack burst, releasing all of its air at once. -->
+  <AO_AirTank.description>Un pequeño cilindro de aire comprimido (2,5 m³ a presión normal). Su etiqueta anota la proporción de oxígeno del aire con que se llenó; las pilas solo se juntan cuando sus etiquetas difieren en menos de 5 puntos, y se promedian. Se gasta en un lugar de liberación de gas. El calor, el fuego o un daño fuerte pueden hacer estallar una pila, que suelta todo su aire de golpe.</AO_AirTank.description>
+  <!-- EN: oxygen tank -->
+  <AO_OxygenTank.label>tanque de oxígeno</AO_OxygenTank.label>
+  <!-- EN: A small cylinder of oxygen (2.5 m³ at normal pressure). Used up at a gas release spot. Heat, fire or heavy damage can make a stack burst, releasing all of its gas at once. -->
+  <AO_OxygenTank.description>Un pequeño cilindro de oxígeno (2,5 m³ a presión normal). Se gasta en un lugar de liberación de gas. El calor, el fuego o un daño fuerte pueden hacer estallar una pila, que suelta todo su gas de golpe.</AO_OxygenTank.description>
+  <!-- EN: air compressor -->
+  <AO_AirCompressor.label>compresor de aire</AO_AirCompressor.label>
+  <!-- EN: A large electric compressor that fills gas tanks with the air around it, drawn in evenly from every open cell beside it: about 33 tanks per hour at normal pressure. Each tank is tagged automatically with its oxygen share. It works at any pressure, faster in denser air, until the air around it is down to the set goal pressure. -->
+  <AO_AirCompressor.description>Un gran compresor eléctrico que llena tanques de gas con el aire a su alrededor, aspirado por igual de cada celda abierta a su lado: unos 33 tanques por hora a presión normal. Cada tanque se etiqueta solo con su proporción de oxígeno. Funciona a cualquier presión, más rápido con aire más denso, hasta que el aire a su alrededor baja a la presión meta elegida.</AO_AirCompressor.description>
+  <!-- EN: PSA separation unit -->
+  <AO_PsaSeparationUnit.label>unidad de separación PSA</AO_PsaSeparationUnit.label>
+  <!-- EN: A pressure-swing adsorption unit. It draws in the air around it (evenly from every open cell beside it) and separates it. The oxygen goes into oxygen tanks, the rest into nitrogen-filled air tanks. From normal air that is about 7 oxygen tanks and 26 nitrogen tanks per hour. It works at any pressure, faster in denser air, until the air around it is down to the set goal pressure. -->
+  <AO_PsaSeparationUnit.description>Una unidad de adsorción por oscilación de presión. Aspira el aire a su alrededor (por igual de cada celda abierta a su lado) y lo separa. El oxígeno va a tanques de oxígeno, y el resto a tanques de aire con nitrógeno. Del aire normal salen unos 7 tanques de oxígeno y 26 de nitrógeno por hora. Funciona a cualquier presión, más rápido con aire más denso, hasta que el aire a su alrededor baja a la presión meta elegida.</AO_PsaSeparationUnit.description>
+  <!-- EN: gas release spot -->
+  <AO_GasReleaseSpot.label>lugar de liberación de gas</AO_GasReleaseSpot.label>
+  <!-- EN: A storage spot for one stack of gas tanks. It uses up the tanks automatically at the set rate and goal pressure, releasing the gas in all directions. -->
+  <AO_GasReleaseSpot.description>Un lugar de almacenamiento para una pila de tanques de gas. Gasta los tanques solo, al ritmo y la presión meta elegidos, y suelta el gas en todas direcciones.</AO_GasReleaseSpot.description>
+  <!-- EN: water -->
+  <AO_Water.label>agua</AO_Water.label>
+  <!-- EN: Clean liquid water, 250 g per unit. Collected by dehumidifiers and as condensate from air compressors; used by humidifiers. -->
+  <AO_Water.description>Agua líquida limpia, 250 g por unidad. La recogen los deshumidificadores y queda como condensado de los compresores de aire; la usan los humidificadores.</AO_Water.description>
+  <!-- EN: humidifier -->
+  <AO_Humidifier.label>humidificador</AO_Humidifier.label>
+  <!-- EN: An ultrasonic humidifier. It turns water into a fine mist on its own cell and the open cells beside it, up to 4 units per hour. The mist evaporates into the air and cools it. It runs until the humidity around it reaches the set goal. -->
+  <AO_Humidifier.description>Un humidificador ultrasónico. Convierte el agua en una neblina fina sobre su propia celda y las celdas abiertas a su lado, hasta 4 unidades por hora. La neblina se evapora en el aire y lo enfría. Funciona hasta que la humedad a su alrededor llega a la meta elegida.</AO_Humidifier.description>
+  <!-- EN: water -->
+  <AO_Humidifier.comps.CompRefuelable.fuelLabel>agua</AO_Humidifier.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Water -->
+  <AO_Humidifier.comps.CompRefuelable.fuelGizmoLabel>Agua</AO_Humidifier.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Needs water -->
+  <AO_Humidifier.comps.CompRefuelable.outOfFuelMessage>Necesita agua</AO_Humidifier.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: dehumidifier -->
+  <AO_Dehumidifier.label>deshumidificador</AO_Dehumidifier.label>
+  <!-- EN: A refrigerant dehumidifier. It draws the air of its own cell and the open cells beside it and condenses out the moisture above the set goal humidity, at any temperature. It works better in warm humid air and slows as the air nears the goal. It runs until the humidity around it is down to the set goal. -->
+  <AO_Dehumidifier.description>Un deshumidificador por refrigeración. Aspira el aire de su propia celda y de las celdas abiertas a su lado, y condensa la humedad que pasa de la meta elegida, a cualquier temperatura. Funciona mejor con aire cálido y húmedo, y va más lento a medida que el aire se acerca a la meta. Funciona hasta que la humedad a su alrededor baja a la meta elegida.</AO_Dehumidifier.description>
+  <!-- EN: water fetching spot -->
+  <AO_WaterFetchSpot.label>lugar de recogida de agua</AO_WaterFetchSpot.label>
+  <!-- EN: A spot on fresh water (a river, lake or pond; not the sea or polluted water) for organizing water fetching. Add a &quot;fetch water&quot; bill: colonists who haul will walk there, fill as much water as they can carry, and take it to storage. -->
+  <AO_WaterFetchSpot.description>Un lugar sobre agua dulce (un río, un lago o un estanque; no el mar ni el agua contaminada) para organizar la recogida de agua. Agrega un proyecto de &quot;buscar agua&quot;: los colonos que transportan irán hasta ahí, llenarán toda el agua que puedan cargar y la llevarán al almacén.</AO_WaterFetchSpot.description>
+  <!-- EN: rain collector -->
+  <AO_RainCollector.label>colector de lluvia</AO_RainCollector.label>
+  <!-- EN: A wide funnel over a barrel. When it rains, it catches the water that falls on it and stores it. It needs open sky, and catches nothing while snowing or freezing. It overflows while plenty of water is already waiting next to it. -->
+  <AO_RainCollector.description>Un embudo ancho sobre un barril. Cuando llueve, junta el agua que le cae encima y la guarda. Necesita cielo abierto, y no junta nada mientras nieva o hiela. Se rebalsa mientras ya haya bastante agua esperando a su lado.</AO_RainCollector.description>
+  <!-- EN: irrigator -->
+  <AO_Irrigator.label>aspersor de riego</AO_Irrigator.label>
+  <!-- EN: An electric sprinkler. When any growing zone within 9 cells dries below its set level, it sprays everything it can reach at once, about 20 mm of water on every cell per session, and sprays again while the soil stays dry. Within 3 cells of fresh water (a river, lake or pond) it pumps its own water without limit; elsewhere it uses the water in its own tank, which colonists keep filled. -->
+  <AO_Irrigator.description>Un aspersor eléctrico. Cuando cualquier área de cultivo a 9 celdas o menos se seca por debajo del nivel elegido, rocía de una vez todo lo que alcanza, unos 20 mm de agua en cada celda por sesión, y vuelve a rociar mientras el suelo siga seco. A 3 celdas o menos de agua dulce (un río, un lago o un estanque) bombea su propia agua sin límite; en otros lugares usa el agua de su tanque, que los colonos mantienen lleno.</AO_Irrigator.description>
+  <!-- EN: water -->
+  <AO_Irrigator.comps.CompRefuelable.fuelLabel>agua</AO_Irrigator.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Water -->
+  <AO_Irrigator.comps.CompRefuelable.fuelGizmoLabel>Agua</AO_Irrigator.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Needs water -->
+  <AO_Irrigator.comps.CompRefuelable.outOfFuelMessage>Necesita agua</AO_Irrigator.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: wind-borne thing -->
+  <AO_WindBorneThing.label>objeto llevado por el viento</AO_WindBorneThing.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation. It cools and dampens the air around it, and works best in hot, dry air: in saturated air it stops. Must be regularly replenished with water. Not efficient enough to refrigerate food. -->
+  <PassiveCooler.description>Un enfriador tradicional sin electricidad que funciona mediante la evaporación del agua. Enfría y humedece el aire a su alrededor, y funciona mejor con aire caliente y seco: con el aire saturado se detiene. Hay que reponerle agua con regularidad. No es lo suficientemente eficiente para refrigerar los alimentos.</PassiveCooler.description>
+  <!-- EN: A wind-powered electrical generator. Its power follows the wind blowing through it along its rotor axis, and the density of the air. Wind across it gives nothing. Storms above about 30 m/s can break it. -->
+  <WindTurbine.description>Un generador de electricidad accionado por el viento. Su energía depende del viento que pasa por ella a lo largo del eje del rotor, y de la densidad del aire. El viento de costado no produce nada. Las tormentas de más de unos 30 m/s pueden romperla.</WindTurbine.description>
+  <!-- EN: Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.\n\nWithin its working radius it also keeps the water table down and pumps waterlogged soil down to half its capacity. Everything it pumps out, from the soil and from the ground it dries, is set out beside it as water units. -->
+  <MoisturePump.description>Muy lentamente normaliza la humedad del terreno cercano, convirtiendo ciénagas o aguas poco profundas en suelo seco, y la arena blanda en arena normal. No afecta aguas profundas.\n\nDentro de su radio de trabajo también mantiene bajo el nivel freático y bombea el suelo empapado hasta la mitad de su capacidad. Todo lo que bombea, del suelo y del terreno que seca, lo deja a su lado como unidades de agua.</MoisturePump.description>
+  <!-- EN: A vent between two rooms. People cannot pass through it, but air can: while open, air flows through at no more than the speed set on the vent (0-20 m/s), so pressure and temperature balance gently instead of rushing through like an opened door. Closed, it holds air like a wall. -->
+  <Vent.description>Un respiradero entre dos habitaciones. Las personas no pueden pasar por él, pero el aire sí: mientras está abierto, el aire pasa a no más de la velocidad elegida en el respiradero (0-20 m/s), así que la presión y la temperatura se equilibran con suavidad en vez de irrumpir como por una puerta abierta. Cerrado, retiene el aire como una pared.</Vent.description>
+</LanguageData>

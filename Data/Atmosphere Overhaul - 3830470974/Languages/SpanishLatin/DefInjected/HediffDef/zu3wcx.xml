@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {0} in the {1} -->
+  <AO_BlastInjury.labelNounPretty>{0} en {1}</AO_BlastInjury.labelNounPretty>
+  <!-- EN: blast injury -->
+  <AO_BlastInjury.label>lesión por explosión</AO_BlastInjury.label>
+  <!-- EN: a blast injury -->
+  <AO_BlastInjury.labelNoun>una lesión por explosión</AO_BlastInjury.labelNoun>
+  <!-- EN: Tissue torn by the pressure wave of an explosion: a ruptured eardrum, or bruised and bleeding lungs. -->
+  <AO_BlastInjury.description>Tejido desgarrado por la onda de presión de una explosión: un tímpano roto, o pulmones magullados y sangrantes.</AO_BlastInjury.description>
+  <!-- EN: Torn apart by blast -->
+  <AO_BlastInjury.injuryProps.destroyedLabel>Destrozado por una explosión</AO_BlastInjury.injuryProps.destroyedLabel>
+  <!-- EN: treated -->
+  <AO_BlastInjury.comps.HediffComp_TendDuration.labelTendedWell>tratada</AO_BlastInjury.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <AO_BlastInjury.comps.HediffComp_TendDuration.labelTendedWellInner>tratada</AO_BlastInjury.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: treated -->
+  <AO_BlastInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>tratada</AO_BlastInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: blast scar -->
+  <AO_BlastInjury.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de explosión</AO_BlastInjury.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: pressure adaptation -->
+  <AO_PressureAdaptation.label>adaptación a la presión</AO_PressureAdaptation.label>
+  <!-- EN: The air pressure this creature&apos;s body is adapted to; it follows the surrounding pressure over time. A pressure drop far below it causes decompression sickness, a rise far above it barotrauma. Change pressure slowly, or give the body time to adapt. -->
+  <AO_PressureAdaptation.description>La presión del aire a la que está adaptado el cuerpo de esta criatura; con el tiempo sigue a la presión que la rodea. Una caída de presión muy por debajo causa enfermedad por descompresión, y una subida muy por encima, barotrauma. Cambia la presión despacio, o dale tiempo al cuerpo para adaptarse.</AO_PressureAdaptation.description>
+  <!-- EN: suit air -->
+  <AO_BreathingGear.label>aire del traje</AO_BreathingGear.label>
+  <!-- EN: The air inside this creature&apos;s breathing gear: whether the helmet or mask is supplying, how much breathing gas is left, whether the suit is sealed, and what the body gets compared with the air outside. -->
+  <AO_BreathingGear.description>El aire dentro del equipo de respiración de esta criatura: si el casco o la máscara está suministrando aire, cuánto gas respirable queda, si el traje está sellado y lo que recibe el cuerpo comparado con el aire de afuera.</AO_BreathingGear.description>
+  <!-- EN: hypoxia -->
+  <AO_Hypoxia.label>hipoxia</AO_Hypoxia.label>
+  <!-- EN: Too little oxygen reaches the body&apos;s tissues. The brain is affected first: confusion and clumsiness, then unconsciousness and death. Recovery is quick once the victim breathes enough oxygen again. -->
+  <AO_Hypoxia.description>Llega muy poco oxígeno a los tejidos del cuerpo. El cerebro es lo primero afectado: confusión y torpeza, luego inconsciencia y muerte. La recuperación es rápida en cuanto la víctima vuelve a respirar suficiente oxígeno.</AO_Hypoxia.description>
+  <!-- EN: breathless -->
+  <AO_Hypoxia.stages.0.label>sin aliento</AO_Hypoxia.stages.0.label>
+  <!-- EN: breathless -->
+  <AO_Hypoxia.stages.1.label>sin aliento</AO_Hypoxia.stages.1.label>
+  <!-- EN: minor -->
+  <AO_Hypoxia.stages.2.label>leve</AO_Hypoxia.stages.2.label>
+  <!-- EN: serious -->
+  <AO_Hypoxia.stages.3.label>seria</AO_Hypoxia.stages.3.label>
+  <!-- EN: extreme -->
+  <AO_Hypoxia.stages.4.label>extrema</AO_Hypoxia.stages.4.label>
+  <!-- EN: oxygen toxicity -->
+  <AO_OxygenToxicity.label>toxicidad del oxígeno</AO_OxygenToxicity.label>
+  <!-- EN: Breathing oxygen at too high a pressure poisons the body. Over hours it inflames and scars the lungs; at very high pressure it brings tunnel vision, twitching and seizures. It heals slowly in normal air. -->
+  <AO_OxygenToxicity.description>Respirar oxígeno a una presión demasiado alta envenena el cuerpo. Con las horas inflama y deja cicatrices en los pulmones; a una presión muy alta provoca visión de túnel, espasmos y convulsiones. Se cura despacio en aire normal.</AO_OxygenToxicity.description>
+  <!-- EN: chest tightness -->
+  <AO_OxygenToxicity.stages.0.label>opresión en el pecho</AO_OxygenToxicity.stages.0.label>
+  <!-- EN: chest tightness -->
+  <AO_OxygenToxicity.stages.1.label>opresión en el pecho</AO_OxygenToxicity.stages.1.label>
+  <!-- EN: minor -->
+  <AO_OxygenToxicity.stages.2.label>leve</AO_OxygenToxicity.stages.2.label>
+  <!-- EN: serious -->
+  <AO_OxygenToxicity.stages.3.label>seria</AO_OxygenToxicity.stages.3.label>
+  <!-- EN: extreme -->
+  <AO_OxygenToxicity.stages.4.label>extrema</AO_OxygenToxicity.stages.4.label>
+  <!-- EN: ebullism -->
+  <AO_Ebullism.label>ebullismo</AO_Ebullism.label>
+  <!-- EN: The air pressure is so low that body fluids boil at body temperature. Skin and tissues swell with vapour, saliva and tears boil off, and the victim soon dies unless the pressure returns. -->
+  <AO_Ebullism.description>La presión del aire es tan baja que los líquidos del cuerpo hierven a la temperatura corporal. La piel y los tejidos se hinchan de vapor, la saliva y las lágrimas se evaporan, y la víctima muere pronto si la presión no vuelve.</AO_Ebullism.description>
+  <!-- EN: swelling -->
+  <AO_Ebullism.stages.0.label>hinchazón</AO_Ebullism.stages.0.label>
+  <!-- EN: swelling -->
+  <AO_Ebullism.stages.1.label>hinchazón</AO_Ebullism.stages.1.label>
+  <!-- EN: serious -->
+  <AO_Ebullism.stages.2.label>serio</AO_Ebullism.stages.2.label>
+  <!-- EN: extreme -->
+  <AO_Ebullism.stages.3.label>extremo</AO_Ebullism.stages.3.label>
+  <!-- EN: high-pressure sickness -->
+  <AO_HighPressureSickness.label>enfermedad por alta presión</AO_HighPressureSickness.label>
+  <!-- EN: Gas breathed at high pressure acts like an anaesthetic (nitrogen narcosis): the victim feels drunk, then confused, then stuporous. At extreme pressure, tremors and collapse follow. It clears quickly once the pressure is lower. -->
+  <AO_HighPressureSickness.description>El gas respirado a alta presión actúa como un anestésico (narcosis por nitrógeno): la víctima se siente ebria, luego confundida y luego aturdida. A presiones extremas, le siguen temblores y el colapso. Se pasa rápido en cuanto la presión baja.</AO_HighPressureSickness.description>
+  <!-- EN: narcosis -->
+  <AO_HighPressureSickness.stages.0.label>narcosis</AO_HighPressureSickness.stages.0.label>
+  <!-- EN: narcosis -->
+  <AO_HighPressureSickness.stages.1.label>narcosis</AO_HighPressureSickness.stages.1.label>
+  <!-- EN: confused -->
+  <AO_HighPressureSickness.stages.2.label>confusión</AO_HighPressureSickness.stages.2.label>
+  <!-- EN: stupor -->
+  <AO_HighPressureSickness.stages.3.label>estupor</AO_HighPressureSickness.stages.3.label>
+  <!-- EN: collapse -->
+  <AO_HighPressureSickness.stages.4.label>colapso</AO_HighPressureSickness.stages.4.label>
+  <!-- EN: decompression sickness -->
+  <AO_DecompressionSickness.label>enfermedad por descompresión</AO_DecompressionSickness.label>
+  <!-- EN: The pressure fell faster than the body could adapt, and gas dissolved in the tissues came out as bubbles (&quot;the bends&quot;). It causes joint pain, then choking and nerve damage, and can kill. Returning to a higher pressure lets it heal quickly. -->
+  <AO_DecompressionSickness.description>La presión bajó más rápido de lo que el cuerpo podía adaptarse, y el gas disuelto en los tejidos salió en forma de burbujas (el &quot;mal de los buzos&quot;). Causa dolor en las articulaciones, luego ahogo y daño en los nervios, y puede matar. Volver a una presión más alta permite que se cure rápido.</AO_DecompressionSickness.description>
+  <!-- EN: tingling -->
+  <AO_DecompressionSickness.stages.0.label>hormigueo</AO_DecompressionSickness.stages.0.label>
+  <!-- EN: joint pain -->
+  <AO_DecompressionSickness.stages.1.label>dolor articular</AO_DecompressionSickness.stages.1.label>
+  <!-- EN: the bends -->
+  <AO_DecompressionSickness.stages.2.label>mal de los buzos</AO_DecompressionSickness.stages.2.label>
+  <!-- EN: the chokes -->
+  <AO_DecompressionSickness.stages.3.label>ahogo</AO_DecompressionSickness.stages.3.label>
+  <!-- EN: neurological -->
+  <AO_DecompressionSickness.stages.4.label>neurológica</AO_DecompressionSickness.stages.4.label>
+  <!-- EN: barotrauma -->
+  <AO_Barotrauma.label>barotrauma</AO_Barotrauma.label>
+  <!-- EN: The pressure rose faster than the body could equalise. The middle ears and sinuses are squeezed, causing pain and muffled hearing; in severe cases the eardrums tear. It heals once the pressure inside has evened out. -->
+  <AO_Barotrauma.description>La presión subió más rápido de lo que el cuerpo podía compensar. El oído medio y los senos nasales se comprimen, lo que causa dolor y sordera parcial; en los casos graves, los tímpanos se rompen. Se cura una vez que la presión interna se empareja.</AO_Barotrauma.description>
+  <!-- EN: ear pressure -->
+  <AO_Barotrauma.stages.0.label>presión en los oídos</AO_Barotrauma.stages.0.label>
+  <!-- EN: ear squeeze -->
+  <AO_Barotrauma.stages.1.label>oídos comprimidos</AO_Barotrauma.stages.1.label>
+  <!-- EN: sinus squeeze -->
+  <AO_Barotrauma.stages.2.label>senos nasales comprimidos</AO_Barotrauma.stages.2.label>
+  <!-- EN: severe -->
+  <AO_Barotrauma.stages.3.label>grave</AO_Barotrauma.stages.3.label>
+  <!-- EN: torn eardrums -->
+  <AO_Barotrauma.stages.4.label>tímpanos rotos</AO_Barotrauma.stages.4.label>
+  <!-- EN: blister -->
+  <AO_Blister.label>ampolla</AO_Blister.label>
+  <!-- EN: a blister -->
+  <AO_Blister.labelNoun>una ampolla</AO_Blister.labelNoun>
+  <!-- EN: A fluid-filled blister on skin softened by long hours in damp air. It stings, and heals by itself in a couple of days. -->
+  <AO_Blister.description>Una ampolla llena de líquido en la piel ablandada por largas horas en aire húmedo. Arde, y se cura sola en un par de días.</AO_Blister.description>
+  <!-- EN: rheumatism -->
+  <AO_Rheumatism.label>reumatismo</AO_Rheumatism.label>
+  <!-- EN: Aching, stiff joints brought on by living in cold, damp air; the old suffer most. Each damp spell can make it worse. It eases only slowly, in dry air. -->
+  <AO_Rheumatism.description>Dolor y rigidez en las articulaciones por vivir en aire frío y húmedo; los ancianos son los que más sufren. Cada racha húmeda puede empeorarlo. Solo se alivia despacio, con aire seco.</AO_Rheumatism.description>
+  <!-- EN: mild -->
+  <AO_Rheumatism.stages.0.label>leve</AO_Rheumatism.stages.0.label>
+  <!-- EN: moderate -->
+  <AO_Rheumatism.stages.1.label>moderado</AO_Rheumatism.stages.1.label>
+  <!-- EN: severe -->
+  <AO_Rheumatism.stages.2.label>grave</AO_Rheumatism.stages.2.label>
+  <!-- EN: dehydration -->
+  <AO_Dehydration.label>deshidratación</AO_Dehydration.label>
+  <!-- EN: The body is short of water. Thirst comes first, then headache, weakness and confusion as the blood thickens and the kidneys fail; it ends in collapse and death within hours, faster in heat. Once the creature drinks again, it recovers about as fast. -->
+  <AO_Dehydration.description>Al cuerpo le falta agua. Primero llega la sed, luego el dolor de cabeza, la debilidad y la confusión a medida que la sangre se espesa y los riñones fallan; termina en colapso y muerte en cuestión de horas, más rápido con calor. En cuanto la criatura vuelve a beber, se recupera más o menos igual de rápido.</AO_Dehydration.description>
+  <!-- EN: trivial -->
+  <AO_Dehydration.stages.0.label>insignificante</AO_Dehydration.stages.0.label>
+  <!-- EN: minor -->
+  <AO_Dehydration.stages.1.label>leve</AO_Dehydration.stages.1.label>
+  <!-- EN: moderate -->
+  <AO_Dehydration.stages.2.label>moderada</AO_Dehydration.stages.2.label>
+  <!-- EN: severe -->
+  <AO_Dehydration.stages.3.label>grave</AO_Dehydration.stages.3.label>
+  <!-- EN: extreme -->
+  <AO_Dehydration.stages.4.label>extrema</AO_Dehydration.stages.4.label>
+</LanguageData>

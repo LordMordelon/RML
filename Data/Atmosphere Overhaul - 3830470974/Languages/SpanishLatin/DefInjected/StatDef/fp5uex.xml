@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: water need -->
+  <AO_HydrationRateFactor.label>necesidad de agua</AO_HydrationRateFactor.label>
+  <!-- EN: A multiplier on how fast this creature loses water. Desert-adapted creatures need much less; women need somewhat less than men. -->
+  <AO_HydrationRateFactor.description>Un multiplicador de qué tan rápido pierde agua esta criatura. Las criaturas adaptadas al desierto necesitan mucho menos; las mujeres necesitan algo menos que los hombres.</AO_HydrationRateFactor.description>
+  <!-- EN: atmosphere protection -->
+  <AO_VacuumResistance.label>protección atmosférica</AO_VacuumResistance.label>
+  <!-- EN: How well this creature is protected from bad air: thin or dense air, too little or too much oxygen, and sudden pressure changes. At 100% it is unaffected.\n\nIncludes vacuum resistance from vac suits, helmets, genes and implants when the Odyssey DLC is active. -->
+  <AO_VacuumResistance.description>Qué tan protegida está esta criatura del aire dañino: aire delgado o denso, muy poco o demasiado oxígeno, y cambios bruscos de presión. Al 100 % no le afecta.\n\nIncluye la resistencia al vacío de los trajes de vacío, los cascos, los genes y los implantes cuando el DLC Odyssey está activo.</AO_VacuumResistance.description>
+  <!-- EN: {0} hPa -->
+  <AO_OxygenPressureMin.formatString>{0} hPa</AO_OxygenPressureMin.formatString>
+  <!-- EN: min oxygen pressure -->
+  <AO_OxygenPressureMin.label>presión mínima de oxígeno</AO_OxygenPressureMin.label>
+  <!-- EN: Below this oxygen partial pressure the body is starved of oxygen and develops hypoxia, which ends in unconsciousness and death. Normal air at sea level has about 213 hPa of oxygen; the highest mountain towns about 110.\n\nIt rises when breathing or blood pumping is impaired, and falls with vacuum resistance (vac suits, helmets). -->
+  <AO_OxygenPressureMin.description>Por debajo de esta presión parcial de oxígeno, al cuerpo le falta oxígeno y sufre hipoxia, que termina en inconsciencia y muerte. El aire normal al nivel del mar tiene unos 213 hPa de oxígeno; los pueblos de montaña más altos, unos 110.\n\nSube cuando la respiración o el bombeo de sangre están afectados, y baja con la resistencia al vacío (trajes de vacío, cascos).</AO_OxygenPressureMin.description>
+  <!-- EN: {0} hPa -->
+  <AO_OxygenPressureMax.formatString>{0} hPa</AO_OxygenPressureMax.formatString>
+  <!-- EN: max oxygen pressure -->
+  <AO_OxygenPressureMax.label>presión máxima de oxígeno</AO_OxygenPressureMax.label>
+  <!-- EN: Above this oxygen partial pressure, oxygen itself becomes toxic: over hours it damages the lungs, and at very high pressure it causes seizures. Pure oxygen at normal pressure is about 1013 hPa. -->
+  <AO_OxygenPressureMax.description>Por encima de esta presión parcial de oxígeno, el oxígeno mismo se vuelve tóxico: con las horas daña los pulmones, y a presiones muy altas provoca convulsiones. El oxígeno puro a presión normal tiene unos 1013 hPa.</AO_OxygenPressureMax.description>
+  <!-- EN: {0} hPa -->
+  <AO_AirPressureMin.formatString>{0} hPa</AO_AirPressureMin.formatString>
+  <!-- EN: min air pressure -->
+  <AO_AirPressureMin.label>presión mínima del aire</AO_AirPressureMin.label>
+  <!-- EN: Below this air pressure, body fluids boil at body temperature (ebullism): tissues swell, and death follows within minutes. 63 hPa is the Armstrong limit for humans. -->
+  <AO_AirPressureMin.description>Por debajo de esta presión del aire, los líquidos del cuerpo hierven a la temperatura corporal (ebullismo): los tejidos se hinchan y la muerte llega en minutos. 63 hPa es el límite de Armstrong para los humanos.</AO_AirPressureMin.description>
+  <!-- EN: {0} hPa -->
+  <AO_AirPressureMax.formatString>{0} hPa</AO_AirPressureMax.formatString>
+  <!-- EN: max air pressure -->
+  <AO_AirPressureMax.label>presión máxima del aire</AO_AirPressureMax.label>
+  <!-- EN: Above this air pressure, the dissolved gas acts like an anaesthetic (nitrogen narcosis) and the dense air is hard to breathe. At extreme pressure it causes tremors and collapse. -->
+  <AO_AirPressureMax.description>Por encima de esta presión del aire, el gas disuelto actúa como un anestésico (narcosis por nitrógeno) y el aire denso cuesta respirarlo. A presiones extremas provoca temblores y colapso.</AO_AirPressureMax.description>
+  <!-- EN: pressure change tolerance -->
+  <AO_PressureChangeTolerance.label>tolerancia a los cambios de presión</AO_PressureChangeTolerance.label>
+  <!-- EN: The body slowly adapts to the pressure around it. If the pressure falls below the adapted pressure divided by this factor, dissolved gas forms bubbles in the body, causing decompression sickness. If it rises above the adapted pressure times this factor, ears, sinuses and lungs are hurt by the pressure. -->
+  <AO_PressureChangeTolerance.description>El cuerpo se adapta despacio a la presión que lo rodea. Si la presión baja de la presión adaptada dividida por este factor, el gas disuelto forma burbujas en el cuerpo y causa enfermedad por descompresión. Si sube de la presión adaptada multiplicada por este factor, la presión daña los oídos, los senos nasales y los pulmones.</AO_PressureChangeTolerance.description>
+  <!-- EN: x{0} -->
+  <AO_PressureChangeTolerance.formatString>x{0}</AO_PressureChangeTolerance.formatString>
+  <!-- EN: pressure adaptation half-life -->
+  <AO_PressureAdaptationHalfLife.label>vida media de adaptación a la presión</AO_PressureAdaptationHalfLife.label>
+  <!-- EN: How fast the body adapts to a new air pressure: after this many hours, half of the difference is gone. Smaller creatures adapt faster. -->
+  <AO_PressureAdaptationHalfLife.description>Qué tan rápido se adapta el cuerpo a una presión del aire nueva: después de estas horas, se fue la mitad de la diferencia. Las criaturas más pequeñas se adaptan más rápido.</AO_PressureAdaptationHalfLife.description>
+  <!-- EN: {0} h -->
+  <AO_PressureAdaptationHalfLife.formatString>{0} h</AO_PressureAdaptationHalfLife.formatString>
+</LanguageData>

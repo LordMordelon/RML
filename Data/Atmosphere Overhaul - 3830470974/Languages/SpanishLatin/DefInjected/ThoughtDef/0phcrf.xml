@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: eye of the storm -->
+  <AO_CycloneEye.stages.0.label>ojo de la tormenta</AO_CycloneEye.stages.0.label>
+  <!-- EN: Calm and clear, with a wall of storm all around. Time seems to stretch on forever. -->
+  <AO_CycloneEye.stages.0.description>Calma y cielo despejado, con un muro de tormenta alrededor. Es como si el tiempo se estirara para siempre.</AO_CycloneEye.stages.0.description>
+  <!-- EN: muggy air -->
+  <AO_MuggyAir.stages.0.label>aire bochornoso</AO_MuggyAir.stages.0.label>
+  <!-- EN: The air in here is hot and damp. It clings to everything. -->
+  <AO_MuggyAir.stages.0.description>El aire aquí adentro es caliente y húmedo. Se pega a todo.</AO_MuggyAir.stages.0.description>
+  <!-- EN: dry air -->
+  <AO_DryAir.stages.0.label>aire seco</AO_DryAir.stages.0.label>
+  <!-- EN: The air in here is so dry my throat and eyes are sore. -->
+  <AO_DryAir.stages.0.description>El aire aquí adentro es tan seco que me duelen la garganta y los ojos.</AO_DryAir.stages.0.description>
+  <!-- EN: thirsty -->
+  <AO_NeedWater.stages.0.label>sedient{PAWN_gender ? o : a}</AO_NeedWater.stages.0.label>
+  <!-- EN: I&apos;m really thirsty. -->
+  <AO_NeedWater.stages.0.description>Tengo mucha sed.</AO_NeedWater.stages.0.description>
+  <!-- EN: parched -->
+  <AO_NeedWater.stages.1.label>muy sedient{PAWN_gender ? o : a}</AO_NeedWater.stages.1.label>
+  <!-- EN: My mouth is dry and my head is pounding. I need water. -->
+  <AO_NeedWater.stages.1.description>Tengo la boca seca y me late la cabeza. Necesito agua.</AO_NeedWater.stages.1.description>
+  <!-- EN: dehydrated -->
+  <AO_NeedWater.stages.2.label>deshidratad{PAWN_gender ? o : a}</AO_NeedWater.stages.2.label>
+  <!-- EN: I haven&apos;t had a drink in so long. My head aches and everything feels slow. -->
+  <AO_NeedWater.stages.2.description>Hace tanto que no bebo nada. Me duele la cabeza y todo se siente lento.</AO_NeedWater.stages.2.description>
+  <!-- EN: badly dehydrated -->
+  <AO_NeedWater.stages.3.label>muy deshidratad{PAWN_gender ? o : a}</AO_NeedWater.stages.3.label>
+  <!-- EN: My tongue is swollen and my skin is dry. I can&apos;t think about anything but water. -->
+  <AO_NeedWater.stages.3.description>Tengo la lengua hinchada y la piel seca. No puedo pensar en otra cosa que en agua.</AO_NeedWater.stages.3.description>
+  <!-- EN: severely dehydrated -->
+  <AO_NeedWater.stages.4.label>gravemente deshidratad{PAWN_gender ? o : a}</AO_NeedWater.stages.4.label>
+  <!-- EN: I can barely stand. My heart is racing. Water... please... -->
+  <AO_NeedWater.stages.4.description>Apenas me puedo parar. El corazón me late a mil. Agua... por favor...</AO_NeedWater.stages.4.description>
+  <!-- EN: dying of thirst -->
+  <AO_NeedWater.stages.5.label>muriendo de sed</AO_NeedWater.stages.5.label>
+  <!-- EN: Everything is fading. I&apos;m going to die without water. -->
+  <AO_NeedWater.stages.5.description>Todo se está apagando. Me voy a morir sin agua.</AO_NeedWater.stages.5.description>
+</LanguageData>
