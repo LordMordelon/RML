@@ -245,6 +245,12 @@ Bombero · Médico · Cuidar niños · Vigilante · Entretener · Cazar · Culti
     terminado en -e, -l, -z u otra consonante («ardiente», «letal», «veloz»), o con «de» o «con» («de
     precisión», «de electricidad», «con púas»). Nada de «pesada», «rápido» o «eléctrico»: saldría «fusil pesada».
   - Un sustantivo suelto también sirve, si se lee bien detrás del arma: «fusil tormenta», «pistola gauss».
+- **Comillas `"…"`, como la oficial** (Angel, 1-nov-2026). La oficial no usa nunca «…» (242 textos con `"`). Lo que
+  dice una persona, una palabra citada o el nombre de algo que se menciona va entre `"`. Si la frase entera ya va
+  entre comillas (porque el mod la pone dentro de `"{2}"`), lo citado por dentro va con comillas simples:
+  `"… Dice 'no vayan aquí'. …"`. Hay traducciones anteriores con «…»; se pasan a `"` cuando se toca su mod.
+- **El título de algo que llega en una carta** (un encargo, una misión) va en el color de los nombres del juego,
+  con `(*Name)…(/Name)` y sin corchetes, como los nombres en las cartas de la oficial (Mini Expeditions, 1-nov-2026).
 - `Warning:` → `Advertencia:` · `Note:` → `Nota:`
 - `"Input a value"` → `"Introduce un valor"`
 - **Mantener sin traducir:**
