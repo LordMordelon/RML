@@ -46,7 +46,7 @@ de los archivos `DefInjected` ya traducidos: copiarlos de ahí.
 
 | Inglés | Español | Notas |
 |---|---|---|
-| vassalise / vassalisation | **avasallar** / **avasallamiento** | Hacer vasallo a una facción. **A confirmar** |
+| vassalise / vassalisation | **avasallar** / **avasallamiento** | Hacer vasallo a una facción. Confirmado por Angel (31-oct) |
 | tithe | **diezmo** | |
 | fealty | **lealtad** | «Fealty sworn»: «Lealtad jurada» |
 | independence | **independencia** | |

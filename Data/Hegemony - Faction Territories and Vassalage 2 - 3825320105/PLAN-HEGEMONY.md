@@ -161,7 +161,7 @@ synthesis plant» pasó a «life support»): se corrigen a mano contra el `EN` n
   lección y la ventana digan lo mismo. Sus títulos van como «Referencia de Hegemony: …» con el nombre del
   botón o ajuste tal como está en la ventana.
 - Los términos nuevos están en la última tabla de `GLOSARIO-HEGEMONY.md`.
-- Falta: probar en el juego (ventana, lecciones del Asistente de aprendizaje) y confirmar «avasallar».
+- Probado en el juego y «avasallar» confirmado por Angel el 31-oct (#28, #31).
 
 ## A investigar: textos que en el juego siguen en inglés (30-oct-2026)
 
@@ -212,8 +212,8 @@ Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el ext
 
 ### Pendiente (31-oct), cada uno en un issue de RML
 
-1. Probar en el juego: la cuadrícula de edificios (etapas), la configuración de Hegemony y el botón
-   «Clear» de la tienda, que ahora vienen del framework (#28).
-2. El punto 3: «Cant» al lado de la cantidad (#29).
+1. ~~Probar en el juego: la cuadrícula de edificios (etapas), la configuración de Hegemony y el botón
+   «Clear» de la tienda, que ahora vienen del framework~~ (#28). Bien, según Angel (31-oct).
+2. ~~El punto 3: «Cant» al lado de la cantidad~~ (#29). Queda como está: Angel lo ve bien (31-oct).
 3. Mandar al autor el mensaje del punto 4 (#30).
-4. Confirmar con Angel «avasallar/avasallamiento» (ver el glosario) (#31).
+4. ~~Confirmar con Angel «avasallar/avasallamiento»~~ (#31). Confirmado (31-oct).
