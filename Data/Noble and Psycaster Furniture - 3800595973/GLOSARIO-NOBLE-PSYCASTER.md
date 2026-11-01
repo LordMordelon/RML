@@ -31,7 +31,7 @@ psicofoco».
 | horaxian | **horaxiano** | Oficial |
 | requires power | **requiere electricidad** | Como la puerta de seguridad oficial |
 
-## Términos propios (sin oficial; a confirmar)
+## Términos propios (sin oficial; aprobados por Angel el 31-oct-2026)
 
 | Inglés | Español | Notas |
 |---|---|---|
