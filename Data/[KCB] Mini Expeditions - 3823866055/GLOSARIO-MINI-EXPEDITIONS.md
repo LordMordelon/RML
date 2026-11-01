@@ -20,8 +20,7 @@ traducción oficial (`Herramientas/oficial/`).
 | Exp. Lv.{0} / Lv.{0} | Nv. exp. {0} / Nv. {0} | El inglés abrevia; el español también |
 | XP | exp. / experiencia | |
 | verdict | veredicto | |
-| Shooting / Melee / Plants / Medicine | Tiro / Cuerpo a cuerpo / Plantas / Medicina | Oficial |
-| Research (la habilidad Intelectual) | Investigación | Como dice el inglés del mod |
+| Shooting / Melee / Plants / Medicine / Research | Tiro / Lucha / Plantas / Salud / Ciencia | Así en las barras y filas de habilidades (`EX_Stat_*`): tienen 60 píxeles fijos y «Cuerpo a cuerpo», «Medicina» e «Investigación» se cortaban (Angel, 31-oct-2026). En el resto del texto, «cuerpo a cuerpo» y «medicina», como la oficial |
 | downed | inconsciente | Oficial |
 | mental break | colapso mental | Oficial |
 | healer / resurrector mech serum | suero sanador / reanimador mecanoide | Oficial |
@@ -44,9 +43,10 @@ traducción oficial (`Herramientas/oficial/`).
 | trainability / body size | adiestrabilidad / tamaño corporal | Oficial |
 | Muebles (bed, stool, drape…) | como la oficial | cama, taburete, cortinas, estante, caballito (baby decoration)… |
 
-Nombres de las reliquias: Mira del tirador, Frasco del vendaval, Engranaje del artesano, Filo del santo
-de la espada, Botiquín del sanador, Núcleo del sabio, Fruto de la abundancia, Tomo del saber, Moneda del
-mercader, Placa del guardián.
+Nombres de las reliquias (cortos porque su casilla corta los de más de ~19 letras): Mira del tirador, Frasco
+del vendaval, Engranaje artesano, Filo del espadachín, Botiquín del sanador, Núcleo del sabio, Fruto
+pródigo, Tomo del saber, Moneda mercante, Placa del guardián, Cáliz de la vitalidad, Incensario sereno,
+Almohada del sueño, Pluma elocuente, Pico del minero, Corona del héroe.
 
 Notas de estilo:
 

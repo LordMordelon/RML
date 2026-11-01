@@ -45,13 +45,13 @@
   <!-- EN: Shooting -->
   <EX_Stat_Shooting>Tiro</EX_Stat_Shooting>
   <!-- EN: Melee -->
-  <EX_Stat_Melee>Cuerpo a cuerpo</EX_Stat_Melee>
+  <EX_Stat_Melee>Lucha</EX_Stat_Melee>
   <!-- EN: Plants -->
   <EX_Stat_Plants>Plantas</EX_Stat_Plants>
   <!-- EN: Medicine -->
-  <EX_Stat_Medicine>Medicina</EX_Stat_Medicine>
+  <EX_Stat_Medicine>Salud</EX_Stat_Medicine>
   <!-- EN: Research -->
-  <EX_Stat_Intellectual>Investigación</EX_Stat_Intellectual>
+  <EX_Stat_Intellectual>Ciencia</EX_Stat_Intellectual>
   <!-- EN: Combat win chance, fewer injuries from first strikes, hunting -->
   <EX_StatDesc_Shooting>Probabilidad de ganar combates, menos heridas por los primeros ataques, caza</EX_StatDesc_Shooting>
   <!-- EN: Combat win chance (esp. animals), lighter melee wounds, avoiding accidents -->
@@ -179,15 +179,15 @@
   <!-- EN: Gale Vial -->
   <EX_Relic_Swift>Frasco del vendaval</EX_Relic_Swift>
   <!-- EN: Artisan&apos;s Gear -->
-  <EX_Relic_Diligence>Engranaje del artesano</EX_Relic_Diligence>
+  <EX_Relic_Diligence>Engranaje artesano</EX_Relic_Diligence>
   <!-- EN: Sword Saint&apos;s Edge -->
-  <EX_Relic_Blade>Filo del santo de la espada</EX_Relic_Blade>
+  <EX_Relic_Blade>Filo del espadachín</EX_Relic_Blade>
   <!-- EN: Healer&apos;s Kit -->
   <EX_Relic_Healer>Botiquín del sanador</EX_Relic_Healer>
   <!-- EN: Sage&apos;s Core -->
   <EX_Relic_Scholar>Núcleo del sabio</EX_Relic_Scholar>
   <!-- EN: Fruit of Plenty -->
-  <EX_Relic_Harvest>Fruto de la abundancia</EX_Relic_Harvest>
+  <EX_Relic_Harvest>Fruto pródigo</EX_Relic_Harvest>
   <!-- EN: Tome of Learning -->
   <EX_Relic_Wisdom>Tomo del saber</EX_Relic_Wisdom>
   <!-- EN: Colonist shooting accuracy {0} -->
@@ -207,7 +207,7 @@
   <!-- EN: Colonist global learning factor {0} -->
   <EX_RelicDesc_Wisdom>Factor de aprendizaje global de los colonos {0}</EX_RelicDesc_Wisdom>
   <!-- EN: Merchant&apos;s Coin -->
-  <EX_Relic_Merchant>Moneda del mercader</EX_Relic_Merchant>
+  <EX_Relic_Merchant>Moneda mercante</EX_Relic_Merchant>
   <!-- EN: Guardian&apos;s Plate -->
   <EX_Relic_Guardian>Placa del guardián</EX_Relic_Guardian>
   <!-- EN: Colonist trade price improvement {0} -->
@@ -557,7 +557,7 @@
   <!-- EN: Close -->
   <EX_Close>Cerrar</EX_Close>
   <!-- EN: Back to setup -->
-  <EX_NewExpedition>Volver a la preparación</EX_NewExpedition>
+  <EX_NewExpedition>Volver a preparar</EX_NewExpedition>
   <!-- EN: Expedition returned -->
   <EX_LetterLabel>Expedición de vuelta</EX_LetterLabel>
   <!-- EN: The expedition party is back. They left what they brought at the center of the home area.\n\n{0} -->
@@ -1055,7 +1055,7 @@
   <!-- EN: {0}: injured, brings only {1} of their skills. -->
   <EX_InjuredLine>{0}: con heridas, aporta solo el {1} de sus habilidades.</EX_InjuredLine>
   <!-- EN: Expedition lodge -->
-  <EX_Tab_Lodge>Albergue de la expedición</EX_Tab_Lodge>
+  <EX_Tab_Lodge>Albergue</EX_Tab_Lodge>
   <!-- EN: Active effects -->
   <EX_ActiveEffects>Efectos activos</EX_ActiveEffects>
   <!-- EN: These effects are applied in the actual game, to every colonist. (You can also see them under &apos;expedition relic effects&apos; in a colonist&apos;s health tab.) -->
@@ -1067,11 +1067,11 @@
   <!-- EN: Chalice of Vitality -->
   <EX_Relic_Vitality>Cáliz de la vitalidad</EX_Relic_Vitality>
   <!-- EN: Censer of Serenity -->
-  <EX_Relic_Serenity>Incensario de la serenidad</EX_Relic_Serenity>
+  <EX_Relic_Serenity>Incensario sereno</EX_Relic_Serenity>
   <!-- EN: Pillow of Deep Sleep -->
-  <EX_Relic_Slumber>Almohada del sueño profundo</EX_Relic_Slumber>
+  <EX_Relic_Slumber>Almohada del sueño</EX_Relic_Slumber>
   <!-- EN: Silver-Tongued Quill -->
-  <EX_Relic_Eloquence>Pluma de la elocuencia</EX_Relic_Eloquence>
+  <EX_Relic_Eloquence>Pluma elocuente</EX_Relic_Eloquence>
   <!-- EN: Miner&apos;s Pickaxe -->
   <EX_Relic_Miner>Pico del minero</EX_Relic_Miner>
   <!-- EN: Colonist immunity gain speed {0} -->
@@ -1626,9 +1626,9 @@ It isn&apos;t tied to tiles and can go anywhere. -->
   <!-- EN: Search items... -->
   <EX_LootPicker_Search>Buscar objetos...</EX_LootPicker_Search>
   <!-- EN: Enable all shown -->
-  <EX_LootPicker_AllOn>Activar todos los que se ven</EX_LootPicker_AllOn>
+  <EX_LootPicker_AllOn>Activar visibles</EX_LootPicker_AllOn>
   <!-- EN: Disable all shown -->
-  <EX_LootPicker_AllOff>Desactivar todos los que se ven</EX_LootPicker_AllOff>
+  <EX_LootPicker_AllOff>Desactivar visibles</EX_LootPicker_AllOff>
   <!-- EN: Reset all -->
   <EX_LootPicker_Reset>Restablecer todo</EX_LootPicker_Reset>
   <!-- EN: No items match. -->
@@ -1654,7 +1654,7 @@ It isn&apos;t tied to tiles and can go anywhere. -->
   <!-- EN: Get one random piece of furniture. Higher grades are rarer. The shop-only &apos;{0}&apos; can turn up too. -->
   <EX_ShopFurnDesc>Obtén un mueble al azar. Las calidades más altas son más raras. También puede salir «{0}», exclusivo de la tienda.</EX_ShopFurnDesc>
   <!-- EN: Pull for {0} coins -->
-  <EX_ShopBuy>Sortear por {0} monedas</EX_ShopBuy>
+  <EX_ShopBuy>Sortear por {0}</EX_ShopBuy>
   <!-- EN: {0} more coins needed -->
   <EX_ShopNotEnough>Faltan {0} monedas</EX_ShopNotEnough>
   <!-- EN: Furniture storage is full ({0} slots) -->
@@ -1888,7 +1888,7 @@ It isn&apos;t tied to tiles and can go anywhere. -->
   <!-- EN: Party {0} is ready to form! -->
   <EX_ShopPartyBought>¡El grupo {0} está listo para formarse!</EX_ShopPartyBought>
   <!-- EN: Back to setup -->
-  <EX_LiveToSetup>Volver a la preparación</EX_LiveToSetup>
+  <EX_LiveToSetup>Volver a preparar</EX_LiveToSetup>
   <!-- EN: Go to the expedition -->
   <EX_WatchLive>Ir a la expedición</EX_WatchLive>
   <!-- EN: Out on an expedition ({0} until back) -->
@@ -1972,7 +1972,7 @@ It isn&apos;t tied to tiles and can go anywhere. -->
   <!-- EN: Press the filter button above to pick a mod -->
   <EX_ModItems_PickFirst>Presiona el botón de filtro de arriba para elegir un mod</EX_ModItems_PickFirst>
   <!-- EN: Buy for {0} coins -->
-  <EX_ShopPurchase>Comprar por {0} monedas</EX_ShopPurchase>
+  <EX_ShopPurchase>Comprar por {0}</EX_ShopPurchase>
   <!-- EN: Recommend options -->
   <EX_RecommendOptionsTip>Opciones de la recomendación</EX_RecommendOptionsTip>
   <!-- EN: Include slaves -->
