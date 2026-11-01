@@ -20,7 +20,7 @@ y lo manda [RML/GLOSARIO.md](../../../GLOSARIO.md).
 | Inglés | Español | Dónde se ve en el juego |
 |---|---|---|
 | hemosage | **hemosabio** | Ventana Psico: nombre del camino |
-| Hemogenic only | **Hemogénicos** | La carta del hemosabio bloqueada. «Bloqueado: Solo hemogénicos» se cortaba (captura del 31-oct-2026) |
+| Hemogenic only | **Hemogénicos** | La carta del hemosabio bloqueada: «Bloqueado: Hemogénicos». Sin «Solo», como las demás cartas; «Bloqueado: Solo hemogénicos» se cortaba (captura del 31-oct-2026) |
 | blood focus / Bloodfocus | **enfoque de sangre** | Botón del poder y pestaña Salud |
 | bloodmist | **niebla de sangre** | Pestaña Salud de quien la respira |
 | blood rite | **rito de sangre** | Botón del poder y pestaña Salud |

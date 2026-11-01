@@ -8,7 +8,8 @@ que falta decidir.
 **Estado:** las secciones 1 a 6 están hechas (1-nov-2026). Angel aprobó las propuestas
 recomendadas. Al revisar el contexto cambiaron dos cosas: *enthrall* revive a un muerto y no deja
 el rasgo *thrall*, así que queda «esclavizar» y solo el rasgo pasa a «siervo»; y la carta del
-hemosabio dice «Hemogénicos». Además se corrigió «sangúfago» → «sanguífago» en Hemosage (4 textos).
+hemosabio dice «Hemogénicos». Después Angel pidió sacar «Solo» de todas las cartas bloqueadas:
+«Imperiales», «Tribales», «Hemogénicos» y, en Vanilla Races Expanded - Archon, «Trascendentes». Además se corrigió «sangúfago» → «sanguífago» en Hemosage (4 textos).
 Lo nuevo de la segunda revisión, al final, está **propuesto**.
 
 **Cómo se hace:** a mano sobre los XML de `Data/`, un commit por arreglo («Vanilla Psycasts

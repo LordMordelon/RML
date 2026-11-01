@@ -92,7 +92,7 @@ Sin oficial. Aprobados por Angel el 1-nov-2026.
 | construct (rock / steel) | **constructo** (de roca / de acero) | |
 | Basilicus Bestower | **Basilicus el Otorgador** | El narrador |
 | Psycasts (la pestaña) | **Psico** | «Psicoemisiones» no entra en la pestaña (captura del 31-oct-2026) |
-| Imperials only / Tribals only | **Solo imperial** / **Solo tribales** | En la carta bloqueada caben unos 24 caracteres con «Bloqueado: » adelante. «Solo imperiales» se cortaba |
+| Imperials only / Tribals only | **Imperiales** / **Tribales** | La carta bloqueada dice «Bloqueado: Imperiales». Sin «Solo», como lo pidió Angel el 1-nov-2026: con él, «Solo imperiales» se cortaba (caben unos 24 caracteres con «Bloqueado: » adelante). Igual en Hemosage («Hemogénicos»), Puppeteer («Imperiales») y Vanilla Races Expanded - Archon («Trascendentes») |
 
 ### Los caminos (*paths*)
 

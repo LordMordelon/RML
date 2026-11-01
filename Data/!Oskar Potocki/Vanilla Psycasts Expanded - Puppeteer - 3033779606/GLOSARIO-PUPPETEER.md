@@ -20,7 +20,7 @@ y lo manda [RML/GLOSARIO.md](../../../GLOSARIO.md).
 |---|---|---|
 | puppeteer | **titiritero** | Ventana Psico: nombre del camino; pestaña Salud del lanzador |
 | puppet | **marioneta** | Botón del poder; pestaña Salud de la marioneta |
-| Imperials only | **Solo imperial** | La carta del titiritero bloqueada. «Solo imperiales» se cortaba (captura del 31-oct-2026) |
+| Imperials only | **Imperiales** | La carta del titiritero bloqueada: «Bloqueado: Imperiales». Sin «Solo», como las demás cartas; «Solo imperiales» se cortaba (captura del 31-oct-2026) |
 | brain leech | **sanguijuela cerebral** | Botón del poder; pestaña Salud de la víctima («Sanguijuela cerebral», con mayúscula como el inglés) |
 | leeching | **drenaje** | Pestaña Salud del lanzador |
 | subjugation | **subyugación** | Botón del poder; pestaña Salud: «subyugación (leve)» |
