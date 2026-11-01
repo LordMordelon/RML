@@ -210,10 +210,10 @@ Angel probó en el juego y mandó capturas. Idea de Angel: que lo arregle el ext
   > message uses the enum name (`GoodwillGift` → "goodwill gift") instead of that key. Could the news use
   > the label keys for every AI diplomacy action? Thanks!
 
-### Pendiente (31-oct)
+### Pendiente (31-oct), cada uno en un issue de RML
 
 1. Probar en el juego: la cuadrícula de edificios (etapas), la configuración de Hegemony y el botón
-   «Clear» de la tienda, que ahora vienen del framework.
-2. El punto 3: «Cant» al lado de la cantidad.
-3. Mandar al autor el mensaje del punto 4.
-4. Confirmar con Angel «avasallar/avasallamiento» (ver el glosario).
+   «Clear» de la tienda, que ahora vienen del framework (#28).
+2. El punto 3: «Cant» al lado de la cantidad (#29).
+3. Mandar al autor el mensaje del punto 4 (#30).
+4. Confirmar con Angel «avasallar/avasallamiento» (ver el glosario) (#31).
