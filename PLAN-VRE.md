@@ -36,11 +36,36 @@ Falta una lectura de las descripciones mod por mod (ver «Después»).
 | 13 | Highmate, Saurid | danger / crush (peinados) | danger / crush (en inglés) | **peligro** / **flechazo** (decide Angel) | 2 | Nombre del peinado al crear o editar un personaje |
 | 14 | Archon | weak / high / extreme entropy capacity | capacidad de entropía débil / alta / extrema | capacidad de **calor neural** débil / alta / extrema (decide Angel: el gen cambia el calor neural, que la oficial nunca llama «entropía») | 3 | Nombre del gen |
 | 15 | Phytokin | Natural Meditation focus | foco de Meditación Natural | **enfoque de meditación natural** (oficial) | 2 | Efecto del gen al pasar el mouse |
-| 16 | Todos | pawn | peón / peones | **colono(s)** o **persona(s)**, como en VPE | 15 | Efectos de los genes al pasar el mouse; avisos |
+| ~~16~~ | Todos | pawn | peón / peones | **Retirada**: la oficial también usa «peón» cuando el inglés dice *pawn* («Ordena a un peón activar el generador de escudo», Odyssey) y el glosario general lo admite | 15 | — |
 
 Quedan como están, aunque el cotejo los marcó: «piel de corteza» (*barkskin*; el «dermocortezana»
 oficial es un modo del árbol gauranlen, no un gen), «drenaje de hemógeno» (es un edificio, no el
 gen oficial), «quemadura» (*sear*), los títulos en femenino y las piezas de nombres de genes.
+
+## Lycanthrope, leído entero (1-nov-2026)
+
+Los 153 textos, contra el inglés y contra los textos de Biotech que copia. Parte la tradujo Angel a
+mano. Glosario: `Data/!Oskar Potocki/Vanilla Races Expanded - Lycanthrope - 3114453100/GLOSARIO-LYCANTHROPE.md`.
+La traducción es buena; lo que se propone:
+
+| # | Inglés | Hoy | Propuesta | Por qué | Dónde se ve en el juego |
+|---|---|---|---|---|---|
+| L1 | 1st of Septober / 1st of Aprimay | el 1 de **Septiembre** / el 1 de **Aprimayo** | el 1 de **Septobre** / el 1 de **Abrimay** | Los cuadrimestres oficiales; «Septiembre» es un mes que el juego no tiene | Descripción del gen de transformación estacional |
+| L2 | endogene loss shock | choque por pérdida de endogenes | **shock de pérdida de genes de línea germinal** | Oficial: «shock de pérdida de genes» | Pestaña Salud; aviso «sufre de…» |
+| L3 | gene loss shock (en la carta) | sufrirá un choque por pérdida de genes | sufrirá un **shock de pérdida de genes** | Frase oficial exacta | Carta al implantar |
+| L4 | endogermination coma | coma de endogerminación | **coma endogerminativo** | Como el «coma xenogerminativo» oficial | Pestaña Salud; carta al implantar |
+| L5 | endogenes | endogenes | **genes de línea germinal** | Oficial (`Endogenes`) | Aviso «no tiene … disponibles», carta, descripción del choque |
+| L6 | superior dark vision | visión nocturna superior | **visión oscura superior** | Oficial: *dark vision* es «visión oscura». La descripción copia la oficial: «penalizaciones del humor», «amplía su capacidad» | Nombre del gen |
+| L7 | drop pods | cápsulas de transporte | **cápsulas de escape** | Oficial; la cápsula de transporte es otra cosa | Carta de los refuerzos lobunos |
+| L8 | downed | debe estar incapacitado | debe estar **derribado** | Oficial en el mismo aviso de Biotech | Aviso al forzar la implantación |
+| L9 | removed (genes) | fueron removidos | fueron **eliminados** | Frase oficial; «remover» es un calco | Descripción del choque |
+| L10 | Implant… / Emit… / Morph into… / Force this person… | Implantar… / Emitir… / Transformarse en… / Forzar a esta persona… | **Implanta…** / **Emite…** / **Transfórmate en…** / **Obliga a esta persona…** | Las descripciones de poderes oficiales van en imperativo | Al pasar el mouse por los botones de los poderes |
+| L11 | killed pack member / sold pack member | mató a miembro de la manada / vendió miembro de la manada | mató **a un** miembro de la manada / vendió **a un** miembro de la manada | Falta el artículo | Pestaña Social, opinión |
+| L12 | speech inability | incapacidad del habla | **incapacidad de hablar** | Más natural | Nombre del gen |
+| L13 | Extra-capable in perception | Con una percepción extra capaz | Con una percepción **excepcional** | Calco | Descripción de dos genes de esquiva |
+| L14 | …results in being hit by every swing - even the one that would miss | resulta en ser golpeado por cada golpe, incluso aquellos que fallarían | hace que **reciban cada golpe**, incluso los que fallarían | Calco | Descripción del gen sin esquiva |
+| L15 | panic-fleeing light | pánico (huyendo de la luz) | **huida despavorida (de la luz)** (decide Angel) | Como la oficial *panic fleeing* | Encima del personaje |
+| L16 | (descripción del xenotipo) | …hecha especialmente turbia… El niño nació pero fue abandonado…, pero logró… | …**aún más turbia porque**… El niño nació **y** fue abandonado…, **aunque** logró… | Dos «pero» seguidos y un calco | Ventana del xenotipo |
 
 ## Después
 
