@@ -33,7 +33,7 @@ inglés cambia.
 | frostbite / hypothermia / heatstroke | **congelación** / **hipotermia** / **golpe de calor** | Oficial. El del mod, *freezing* y *freeze*: «congelación» |
 | EMP | **PEM** | Oficial |
 | solar flare | **llamarada solar** | Oficial |
-| minor / moderate / severe / extreme (etapas) | **leve** / **moderada** / **severa** / **extrema** | Oficial. *serious*: ver «Decisiones de Angel» en el plan |
+| minor / moderate / serious / severe / extreme (etapas) | **leve** / **moderada** / **seria** / **severa** / **extrema** | Oficial. Concuerdan con el nombre: «sobrecalentamiento» va con «serio» y «extremo». *serious* es «serio/seria» por decisión de Angel (1-nov-2026), como la hipotermia del juego |
 | aptitude | **aptitud** | Oficial: «La aptitud actúa como una compensación en el nivel de habilidad» |
 
 ## Términos propios del mod
@@ -59,6 +59,9 @@ No tienen oficial.
 | android behaviorist station | **reprogramador de androides** | |
 | android part workbench | **mesa de repuestos de androide** | |
 | shred (android) | **triturar** | Como carnear, pero para androides |
+| sleep mode | **modo de suspensión** | Angel, 1-nov-2026. NO «modo de sueño» |
+| basic / intermediate / advanced / expert {0} | **{0} de nivel básico** / intermedio / avanzado / experto | Para que concuerde con cualquier habilidad («construcción de nivel básico») |
+| (trasfondos) | con género: «fue cread{PAWN_gender ? o : a}» | Como los trasfondos oficiales |
 | self-repair / self-destruct | **autorreparación** / **autodestrucción** | |
 | presence firewall | **cortafuegos de presencia** | |
 | New Utopia / Android Haven | **Nueva Utopía** / **Refugio de Androides** | |

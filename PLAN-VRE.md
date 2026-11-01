@@ -13,7 +13,8 @@ commits, uno por arreglo. Angel eligió la propuesta en las tres que decidía (1
 cambió al comparar con el juego:
 
 - **1:** el juego usa «leve» en las etapas de hipotermia y golpe de calor, pero «serio/seria» para
-  *serious*, donde VRE dice «grave». Se dejó «grave»; queda como pregunta para Angel.
+  *serious*, donde VRE dice «grave». Angel eligió «serio/seria», como el juego (1-nov-2026): se cambió en
+  Android (congelación y sobrecalentamiento) e Insector (golpe de calor y estrés térmico), 5 textos.
 - **2:** «dependencia de la contaminación», con artículo, como la descripción del mismo gen.
 - **4:** también «del psicoemisor» más abajo en la misma descripción, y «preparándolo» (era «preparándolos»
   para «el individuo»).
@@ -96,7 +97,10 @@ La traducción es buena; lo que se propone:
 Los 720 textos, contra el inglés y contra los textos del juego que copia (hipotermia, golpe de calor,
 pérdida de sangre, quemaduras). Glosario:
 `Data/!Oskar Potocki/Vanilla Races Expanded - Android - 2975771801/GLOSARIO-ANDROID.md`. La traducción
-es buena y casi toda sigue al juego; lo que se propone (cada una ya comparada con la oficial):
+es buena y casi toda sigue al juego; lo que se propuso (cada una ya comparada con la oficial).
+
+**Aplicadas el 1-nov-2026**, con el visto bueno de Angel: las 21, 81 textos en 21 commits, uno por arreglo
+(de 38083f7e a 2966ba01). En A16 Angel eligió «modo de suspensión». A14 fueron los 31 trasfondos.
 
 | # | Inglés | Hoy | Propuesta | Oficial | Textos | Dónde se ve en el juego |
 |---|---|---|---|---|---|---|
@@ -131,23 +135,40 @@ el texto de relleno «Es un trozo» (*stub*), que el mod dice que nunca se ve.
 - Leer las descripciones de cada mod contra el inglés, empezando por Android, Insector y Archon,
   que son los más grandes. Conviene hacerlo en sesiones aparte, de a dos o tres mods.
 - Glosario por mod a medida que se lean (como `GLOSARIO-VPE.md`).
+- Los trasfondos de los otros mods de VRE pueden estar todos en masculino, como estaban los de Android (A14):
+  revisarlos con su mod.
+
+## Pendiente aparte: Vanilla Backstories Expanded y los títulos femeninos
+
+Angel quiere revisar si el extractor saca los títulos de mujer de los trasfondos (pedido del 1-nov-2026). Lo que
+se vio ese día, sin tocar nada:
+
+- El mod (`Data/!Oskar Potocki/Vanilla Backstories Expanded - 2861806869`) trae 174 trasfondos, y en inglés
+  **ninguno** tiene `titleFemale` ni `titleShortFemale`. RML tampoco tiene ninguno: el extractor saca solo los
+  campos que el XML del mod trae, así que a una colona le sale el título en masculino. Las descripciones sí usan
+  `{PAWN_gender ? … : …}` (147 veces).
+- El juego hace lo mismo en inglés (5 `titleFemale` en 784 trasfondos), y aun así la traducción oficial le agrega
+  `titleFemale` a 770: el juego acepta inyectar ese campo aunque el inglés no lo traiga.
+- Lo que hay que decidir: que el extractor agregue siempre `titleFemale` y `titleShortFemale` a cada `BackstoryDef`
+  (es un cambio en el extractor, y vale para todos los mods de RML con trasfondos), o agregarlos a mano solo en
+  este mod. Antes, probar en el juego que una traducción con `titleFemale` sobre un trasfondo que no lo trae se ve.
 
 ## Próxima sesión (1-nov-2026)
 
-**Objetivo:** leer las descripciones de Vanilla Races Expanded - Android contra el inglés y el juego, y armar su glosario.
-**Estado:** las 31 correcciones de este plan están aplicadas y subidas (4dcce5fc). Lycanthrope tiene glosario y está
-leído entero; los otros 13 mods, no. VPE, Hemosage y Puppeteer quedaron revisados y subidos aparte (`PLAN-VPE.md`).
-**Antes de empezarla (Angel):** nada. Si quieres, probar en el juego los cambios de VPE y VRE y anotar lo raro.
+**Objetivo:** leer las descripciones de Vanilla Races Expanded - Insector contra el inglés y el juego, y armar su glosario.
+**Estado:** Android leído entero, con glosario y sus 21 correcciones aplicadas (de 38083f7e a 2966ba01, **sin push**).
+Lycanthrope también está leído; los otros 12 mods, no. *serious* ya es «serio/seria».
+**Antes de empezarla (Angel):** decir si se suben los commits de Android. Si quieres, probar en el juego los
+trasfondos de una androide (el género) y el botón «Modo de suspensión».
 **Al empezar (Claude):**
-1. `git -C RML pull` para descartar las copias viejas de los commits de VPE en el `master` local (otra sesión deja
-   archivos sin commitear: el `rebase.autoStash` los guarda y los devuelve).
-2. Android: 716 textos. Leerlos contra el `EN`, armar `GLOSARIO-ANDROID.md` en su carpeta y proponer en una tabla en
-   el chat, con la columna «Dónde se ve en el juego» y si hay oficial o no.
+1. `git -C RML pull` (otra sesión deja archivos sin commitear: el `rebase.autoStash` los guarda y los devuelve).
+2. Insector: 526 textos. Leerlos contra el `EN`, armar `GLOSARIO-INSECTOR.md` en su carpeta y proponer en una tabla
+   en el chat, con la columna «Dónde se ve en el juego» y si hay oficial o no. Mirar los trasfondos (género).
 3. Comparar cada propuesta con el juego antes de aplicarla (`Herramientas/oficial/oficial.py`, `--contiene`). Aplicar
-   con tabla y script, un commit por arreglo, y `traducir.py comprobar` antes de cada commit.
-4. Android solo cabe en una sesión. Insector (526) y Archon (374) van en las siguientes.
-**Decisiones de Angel:** *serious* en las etapas de hipotermia y golpe de calor: el juego dice «serio/seria», VRE dice
-«grave». Recomendación: «serio/seria», como el juego.
+   con `traducir.py corregir`, un commit por arreglo, y `traducir.py comprobar` antes de cada commit. La comprobación
+   1 y la 5 muestran a propósito los textos cambiados: tienen que ser solo esos.
+4. Archon (374) va en la siguiente. Vanilla Backstories Expanded, cuando Angel lo pida (ver arriba).
+**Decisiones de Angel:** ninguna pendiente.
 **Guías:** ninguna skill de tarea; reglas en `RML/AGENTS.md` («Editar XML de traducción», «Antes de commitear»).
 **Dónde leer:** este plan; `GLOSARIO.md`; `Data/!Oskar Potocki/Vanilla Races Expanded - Lycanthrope - 3114453100/GLOSARIO-LYCANTHROPE.md`
 como modelo de glosario.
