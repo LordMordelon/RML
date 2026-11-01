@@ -110,6 +110,9 @@ Terminología clave para mods orbitales y espaciales (*Mechanitor Orbital Platfo
 | transport pod | **cápsula de transporte** | Lanzador terrestre vanilla |
 | drop pod | **cápsula de escape** | Oficial vanilla (`ActiveDropPod`, «Llegar en cápsulas de escape»). NO «cápsula de descenso», que el juego no usa. *Drop pod (leaving)* es «cápsula de escape (saliendo)», como la oficial. Corregido en los 4 mods que lo usaban el 29-oct-2026 |
 | head claw | **garra craneal** | Oficial vanilla (insectoides). NO «garra de la cabeza». Corregido el 29-oct-2026 en los 3 mods que lo usaban (VFE - Insectoids 2, VQE - Cryptoforge, Zoology); el `UNUSED.xml` de Cryptoforge no se toca |
+| megaspider / spelopede / megascarab | **megaraña** / **espelópedo** / **megaescarabajo** | Oficiales (`Megaspider`, `Spelopede`, `Megascarab`). NO «megaaraña», «espelópodo», «espeleopeda» ni «megascarabajo». Corregido el 1-nov-2026 en VFE - Insectoids 2, Props and Decor, VRE - Insector y Alpha Books |
+| cocoon (de insecto) | **crisálida** | Oficial (`CocoonMegaspider`: «crisálida de megaraña»). Es femenino: «una crisálida», «la crisálida». NO «capullo». Corregido el 1-nov-2026 en VFE - Insectoids 2, Props and Decor, VGE - Chapter 2, VRE - Insector y Zoology. *Metapod* de VRE - Insector es **metápodo** |
+| hive / megahive / hive queen | **colmena** / **megacolmena** / **reina de la colmena** | Oficiales (`Hive`, `InsectMegahive`, `HiveQueen`) |
 | ship chunk | **escombro de nave** | |
 | ship core | núcleo de nave | |
 | hard vacuum / vacuum | vacío espacial / vacío | |

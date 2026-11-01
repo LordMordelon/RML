@@ -31,7 +31,7 @@ Traducir Insectoids: Lore Realized (Workshop 3831266112, `qsx.hivequeen`) entero
 | 2 | Traducir todo, con tabla (`traducir.py tabla` / `aplicar`) | chica | hecha (1-nov-2026) |
 | 3 | Verificar: las cinco comprobaciones | chica | hecha: las cinco vacías |
 | 4 | Confirmar términos y probar en partida | chica | falta: Angel |
-| 5 | Nombres oficiales de insectos en otros mods | chica | falta: ver «Pendientes» |
+| 5 | Nombres oficiales de insectos en otros mods | chica | hecha (1-nov-2026): ver «Corrección en otros mods» |
 
 ### 2. Decisiones al traducir
 
@@ -57,9 +57,24 @@ Traducir Insectoids: Lore Realized (Workshop 3831266112, `qsx.hivequeen`) entero
 - «séquito» para *retinue*.
 - Probar en partida que los textos de inspección armados por partes se lean bien.
 
-## Pendientes
+## Corrección en otros mods (1-nov-2026, aprobada por Angel)
 
-- **«megaaraña» y «espeleopeda» en otros mods**, contra «megaraña» y «espelópedo» oficiales:
-  VFE - Insectoids 2 (`PawnKindDef`, `ThingDef`, `Keyed`), VFE - Props and Decor, VRE - Insector (dos
-  archivos) y Alpha Books (`RulePackDef`). En VRE - Insector además dice «espelópodos». Va en commits
-  aparte, uno por mod, y antes se le pregunta a Angel.
+46 textos en 6 mods, un commit por mod, revisado cada uno contra su `EN`. Sin tocar los `UNUSED.xml`.
+
+- **«megaaraña», «espelópodo», «espeleopeda» y «megascarabajo»** pasaron a «megaraña», «espelópedo» y
+  «megaescarabajo»: VFE - Insectoids 2, Props and Decor, VRE - Insector y Alpha Books.
+- **«capullo» pasó a «crisálida»** donde es la de un insecto, con los artículos y adjetivos en femenino:
+  VFE - Insectoids 2 (la crisálida de jalea de los enjambradores), Props and Decor, VGE - Chapter 2 (la
+  descripción del exogusano copia la de vanilla y quedó con el texto oficial), VRE - Insector y Zoology.
+  `VFEI_ToBeCocooned` es el enjambrador que va a formar su crisálida (`CompSwarmlingToCocoon` en la DLL),
+  no alguien envuelto: «por convertirse en crisálida».
+- **VRE - Insector decía «metápodo» en las etiquetas y «metacapullo» en los `Keyed`**: quedó «metápodo»
+  en todos, que es lo que se ve sobre el objeto.
+- Los tres términos quedaron en [RML/GLOSARIO.md](../../GLOSARIO.md).
+
+## Para más adelante
+
+- **El género de las etiquetas.** El juego elige «un» o «una» con las listas `WordInfo/Gender` de la
+  traducción oficial, que tienen el nombre completo de cada cosa («crisálida de megaraña»). RML no
+  trae esas listas para ningún mod, así que una etiqueta femenina nueva («crisálida insectoide») puede
+  salir con artículo masculino en algún mensaje. Pasa en todo RML, no solo acá.

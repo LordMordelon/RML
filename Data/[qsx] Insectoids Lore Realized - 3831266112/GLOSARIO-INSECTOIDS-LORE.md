@@ -21,8 +21,8 @@ hay que buscarlo en todos los archivos de la carpeta, no solo en uno.
 | hive queen | **reina de la colmena** | `HiveQueen`. Sola, «reina» |
 | cocoon | **crisálida** | `CocoonMegascarab` y los demás. Vale también para las crisálidas de este mod (`qsx_Pupa*`) |
 | megascarab | **megaescarabajo** | |
-| spelopede | **espelópedo** | RML tenía «espeleopeda» en un mod: la oficial gana |
-| megaspider | **megaraña** | RML tenía «megaaraña» en un mod: la oficial gana |
+| spelopede | **espelópedo** | NO «espeleopeda» ni «espelópodo» (corregidos en otros mods el 1-nov-2026) |
+| megaspider | **megaraña** | NO «megaaraña» (corregida en otros mods el 1-nov-2026) |
 | locust | **langosta** | |
 | larva | **larva** | `EusocialInsectLarva` |
 | insect jelly | **jalea de insecto** | |
