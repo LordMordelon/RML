@@ -9,11 +9,11 @@
   <!-- EN: Geneline {0} -->
   <VRE_GenelineName>Linaje genético {0}</VRE_GenelineName>
   <!-- EN: Delete this geneline. Removing it will result in all insectors with this geneline immediately entering the metapod stage and turning into baseline insectors. -->
-  <VRE_DeleteThisGeneline>Eliminar este linaje genético. Eliminarlo provocará que todos los insectores con este linaje entren inmediatamente en la etapa de metacapullo y se conviertan en insectores base.</VRE_DeleteThisGeneline>
+  <VRE_DeleteThisGeneline>Eliminar este linaje genético. Eliminarlo provocará que todos los insectores con este linaje entren inmediatamente en la etapa de metápodo y se conviertan en insectores base.</VRE_DeleteThisGeneline>
   <!-- EN: Create a new geneline -->
   <VRE_CreateGeneline>Crear un nuevo linaje genético</VRE_CreateGeneline>
   <!-- EN: You can edit existing genelines or create a brand new geneline. Remember that changing a geneline will require your insectors to enter a metapod stage which will last 24 hours. -->
-  <VRE_CreateGenelineExplanation>Puedes editar linajes genéticos existentes o crear uno nuevo. Recuerda que cambiar un linaje requerirá que tus insectores entren en una etapa de metacapullo que durará 24 horas.</VRE_CreateGenelineExplanation>
+  <VRE_CreateGenelineExplanation>Puedes editar linajes genéticos existentes o crear uno nuevo. Recuerda que cambiar un linaje requerirá que tus insectores entren en una etapa de metápodo que durará 24 horas.</VRE_CreateGenelineExplanation>
   <!-- EN: Geneline name cannot be empty. -->
   <VRE_GenelineNameCannotBeEmpty>El nombre del linaje genético no puede estar vacío.</VRE_GenelineNameCannotBeEmpty>
   <!-- EN: Cannot save geneline with multiple conflicting genes. -->
@@ -31,7 +31,7 @@
   <!-- EN: Needs equal amount of evolutions and degrades. -->
   <VRE_NeedEqualAmount>Necesita la misma cantidad de evoluciones y degradaciones.</VRE_NeedEqualAmount>
   <!-- EN: Changing the genes of a geneline will cause all insectors that are a part of that geneline to enter the metapod stage. The metapod stage will last 24 hours, during which the insectors will be unavailable. -->
-  <VRE_ChangingGenelineExplanation>Cambiar los genes de un linaje provocará que todos los insectores que formen parte de ese linaje entren en la etapa de metacapullo. La etapa de metacapullo durará 24 horas, durante las cuales los insectores no estarán disponibles.</VRE_ChangingGenelineExplanation>
+  <VRE_ChangingGenelineExplanation>Cambiar los genes de un linaje provocará que todos los insectores que formen parte de ese linaje entren en la etapa de metápodo. La etapa de metápodo durará 24 horas, durante las cuales los insectores no estarán disponibles.</VRE_ChangingGenelineExplanation>
   <!-- EN: Cannot save: {0} -->
   <VRE_CannotSave>No se puede guardar: {0}</VRE_CannotSave>
   <!-- EN: Change to: {0} -->
@@ -41,15 +41,15 @@ Insector colonists that will be affected:
 
 {0}
  -->
-  <VRE_DeleteGenelineConfirmation>Estás a punto de eliminar un linaje genético que es utilizado por algunos de tus colonos. Eliminarlo provocará que estos insectores entren inmediatamente en la etapa de metacapullo y se conviertan en insectores base.\nColonos insectores que se verán afectados:\n\n{0}</VRE_DeleteGenelineConfirmation>
+  <VRE_DeleteGenelineConfirmation>Estás a punto de eliminar un linaje genético que es utilizado por algunos de tus colonos. Eliminarlo provocará que estos insectores entren inmediatamente en la etapa de metápodo y se conviertan en insectores base.\nColonos insectores que se verán afectados:\n\n{0}</VRE_DeleteGenelineConfirmation>
   <!-- EN: Genelines -->
   <VRE_Genelines>Linajes genéticos</VRE_Genelines>
   <!-- EN: Genetic blueprints with biologically coded evolutions and degrades. -->
   <VRE_GenelinesDesc>text.todo</VRE_GenelinesDesc>
   <!-- EN: Time until {PAWN_nameDef} emerges: {1}\nInsert insect jelly into the metapod to speed up the process significantly. -->
-  <VRE_MetapodTimer>Tiempo hasta que {PAWN_nameDef} emerja: {1}\nInserta jalea de insecto en el metacapullo para acelerar el proceso significativamente.</VRE_MetapodTimer>
+  <VRE_MetapodTimer>Tiempo hasta que {PAWN_nameDef} emerja: {1}\nInserta jalea de insecto en el metápodo para acelerar el proceso significativamente.</VRE_MetapodTimer>
   <!-- EN: Cannot change genelines due to metapod sickness. -->
-  <VRE_MetapodSicknessCannotChangeGeneline>No se pueden cambiar los linajes genéticos debido a la enfermedad del metacapullo.</VRE_MetapodSicknessCannotChangeGeneline>
+  <VRE_MetapodSicknessCannotChangeGeneline>No se pueden cambiar los linajes genéticos debido a la enfermedad del metápodo.</VRE_MetapodSicknessCannotChangeGeneline>
   <!-- EN: Chestburst pregnancy -->
   <VRE_ChestburstPregnancyReady>Embarazo revienta-pechos</VRE_ChestburstPregnancyReady>
   <!-- EN: When a colonist with chestburst pregnancy gene becomes pregnant, they need to designate another willing or unwilling individual to implant the fetus. Once the fetus matures, it will burst out of the ribcage of the victim, killing the host. If they don’t do it before the second trimester begins (6 days), the pregnancy will be terminated. -->
