@@ -2,7 +2,12 @@
 
 Revisión de los 14 mods de Vanilla Races Expanded contra la traducción oficial y el glosario general,
 como la de Vanilla Psycasts Expanded (`Data/Vanilla Psycasts Expanded - 2842502659/PLAN-VPE.md`).
-Primera pasada del 1-nov-2026. **Estado:** propuesto; no se cambió ningún texto.
+Primera pasada del 1-nov-2026. **Estado:** Angel aceptó las propuestas el 1-nov-2026, con una
+condición que vale para todo: **antes de aplicar cada una, comparar cómo lo hace el juego**
+(`Herramientas/oficial/oficial.py`, y `--contiene` para frases). Si el juego lo dice de otra forma,
+gana el juego; si no tiene nada parecido, gana el español natural. Así se hizo en VPE, y la
+comparación retiró tres propuestas («toma 12 segundos», «artículo» y «peón»). Todavía no se cambió
+ningún texto. Las marcadas «decide Angel» (13, 14 y L15) esperan su respuesta.
 
 Ninguno de los 14 tiene `TODO`. Son 3012 textos: Android 716, Insector 526, Archon 374,
 Sanguophage 313, Saurid y Lycanthrope 153, Phytokin 146, Fungoid 129, Waster 124, Highmate 113,
