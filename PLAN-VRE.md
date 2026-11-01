@@ -91,6 +91,41 @@ La traducción es buena; lo que se propone:
 | L15 | panic-fleeing light | pánico (huyendo de la luz) | **huida despavorida (de la luz)** (decide Angel) | Como la oficial *panic fleeing* | Encima del personaje |
 | L16 | (descripción del xenotipo) | …hecha especialmente turbia… El niño nació pero fue abandonado…, pero logró… | …**aún más turbia porque**… El niño nació **y** fue abandonado…, **aunque** logró… | Dos «pero» seguidos y un calco | Ventana del xenotipo |
 
+## Android, leído entero (1-nov-2026)
+
+Los 720 textos, contra el inglés y contra los textos del juego que copia (hipotermia, golpe de calor,
+pérdida de sangre, quemaduras). Glosario:
+`Data/!Oskar Potocki/Vanilla Races Expanded - Android - 2975771801/GLOSARIO-ANDROID.md`. La traducción
+es buena y casi toda sigue al juego; lo que se propone (cada una ya comparada con la oficial):
+
+| # | Inglés | Hoy | Propuesta | Oficial | Textos | Dónde se ve en el juego |
+|---|---|---|---|---|---|---|
+| A1 | urbworld | ingeniero de urbworld / un urbworld | ingeniero de **mundourbano** / un **mundourbano** | Sí | 2 | Trasfondo en la ficha del personaje |
+| A2 | mechlink | soporte de enlace mecánico / enlaces mecánicos | soporte de **mecaenlace** / **mecaenlaces** | Sí | 2 | Componente en la ventana de creación y en la ficha |
+| A3 | softscanner | escaneada por un escáner de subnúcleos | por un **flexiescáner de subnúcleos** | Sí | 1 | Salud: descripción de la enfermedad del escaneo |
+| A4 | toxic wastepacks | paquetes de residuos tóxicos | **packs** de residuos tóxicos | Sí | 2 | Subrutinas «cero residuos» y «residuos extra» |
+| A5 | joy (necesidad) | diversión deshabilitada / necesidad de diversión | **recreación** deshabilitada / de **recreación** | Sí | 4 | Componente; descripción del androide básico |
+| A6 | outdoors (necesidad) | exteriores deshabilitados | **aire libre** deshabilitado | Sí | 1 | Componente |
+| A7 | berserk | ha entrado en un estado de furia / se volverán locos | se ha vuelto **frenétic{o/a}** / se volverán **frenéticos** | Sí | 2 | Carta del despertar con ánimo bajo; componente sin colapsos |
+| A8 | downed person | una persona abatida | una persona **derribada** | Sí | 1 | Ayuda del botón del polianalizador |
+| A9 | baseline humans | se limita a imitar a humanos estándar | a humanos **basinertes** | Sí | 1 | Descripción de la estación de creación |
+| A10 | No reachable, un-reserved non-prisoner neutrocasket… | No hay neutrocápsula no reservada para prisioneros… (dice otra cosa) | No hay **una neutrocápsula para no prisioneros accesible, sin reservar** y a temperatura segura | Sí (la de la cama) | 1 | Menú del clic derecho al rescatar |
+| A11 | Assign this stand to be owned by… | Asignar este soporte para ser propiedad de… | **Asigna este soporte para que sea propiedad de** un androide específico | Sí (la de la cama) | 1 | Botón del soporte |
+| A12 | {0} in the {1} / Burned off / Lost to freeze | {0} en {1} / Quemado (PEM) / Perdido por congelación | **la {0} en {1_gender ? el : la} {1}** / Quemado**(a)** (PEM), **Achicharrado(a)** (PEM) / Perdido**(a)** por congelación | Sí (quemadura y congelación) | 5 | Salud, al pasar el mouse por la herida; registro de combate |
+| A13 | basic / intermediate / advanced / expert {0} | {0} básico (sale «construcción básico») | **{0} de nivel básico** (y así los otros) | No: el juego usa adjetivos que no cambian («{0} fuerte») | 4 | Componentes de habilidad en la ventana de creación |
+| A14 | (trasfondos) | todo en masculino: «fue ensamblado», «fue creado» | con género, como los trasfondos oficiales: «fue ensamblad{PAWN_gender ? o : a}». De paso, 6 frases calcadas («dejado languidecer», «fue dejado oxidarse», «dejando a X soportar»…) | Sí (la forma) | ~29 | Trasfondo de las androides en la ficha |
+| A15 | has already been scanned / must also be assigned | ya ha sido escaneado / debe estar asignado | escanead**{PAWN_gender ? o : a}** / asignad**{1_gender ? o : a}** | Sí (la forma) | 2 | Avisos arriba a la izquierda |
+| A16 | sleep mode | modo de sueño (5) / modo sueño (1) / modo de suspensión (1) | **modo de suspensión** en los 7 (decide Angel) | No | 7 | Botón del androide, su nombre mientras duerme y la subrutina |
+| A17 | About {0}s: | Sobre los {0}s: (sale «Sobre los androide básicos») | **Sobre el tipo {0}:** | No | 1 | Ventana de información del androide |
+| A18 | remove component / Removing artificial body part | eliminar componente / Quitando parte del cuerpo artificial | **quitar** componente / Quitando parte **corporal** artificial | No | 2 | Lista de operaciones; lo que hace el médico |
+| A19 | Avoid freezing by equipping warm clothes on your android | Evita la congelación equipando ropa abrigada en tu androide | Evita la congelación **vistiendo a tu androide con ropa abrigada** en ambientes fríos | Sí (la de la hipotermia) | 1 | Salud: descripción de la congelación |
+| A20 | when neutro loss becomes severe | se vuelve grave | se vuelve **severa** (como su etapa y la hemorragia oficial) | Sí | 1 | Salud: descripción de la pérdida de neutroamina |
+| A21 | Consider crafting new reactors and schedule them for reactor replacement | …y programarlos para el reemplazo del reactor (parece que se programan los reactores) | …y **programar el cambio de reactor de esos androides** | No | 1 | Alerta de poca energía |
+
+Quedan como están: «subnúcleo de IA» (*persona subcore*; el oficial *persona core* es «núcleo de IA»),
+la categoría «androide» en el almacén (las oficiales también son una palabra: «biónico», «natural») y
+el texto de relleno «Es un trozo» (*stub*), que el mod dice que nunca se ve.
+
 ## Después
 
 - Leer las descripciones de cada mod contra el inglés, empezando por Android, Insector y Archon,
