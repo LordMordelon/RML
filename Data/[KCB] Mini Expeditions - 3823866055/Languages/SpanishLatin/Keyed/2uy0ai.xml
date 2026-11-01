@@ -1,0 +1,2010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Mini Expeditions -->
+  <EX_Title>Mini Expeditions</EX_Title>
+  <!-- EN: Colonists ({0}) -->
+  <EX_Candidates>Colonos ({0})</EX_Candidates>
+  <!-- EN: No colonists on this map can go on an expedition. -->
+  <EX_NoColonists>Ningún colono de este mapa puede ir de expedición.</EX_NoColonists>
+  <!-- EN: Party ({0}/{1}) -->
+  <EX_Party>Grupo ({0}/{1})</EX_Party>
+  <!-- EN: An expedition party can have at most {0} members. -->
+  <EX_PartyFull>Un grupo de expedición puede tener como máximo {0} miembros.</EX_PartyFull>
+  <!-- EN: Click to remove from the party -->
+  <EX_ClickToRemove>Haz clic para quitar del grupo</EX_ClickToRemove>
+  <!-- EN: Click a candidate on the left to add them to the party -->
+  <EX_PartyStageEmpty>Haz clic en un colono de la izquierda para sumarlo al grupo</EX_PartyStageEmpty>
+  <!-- EN: Party skills (sum of members) -->
+  <EX_PartyStats>Habilidades del grupo (suma de los miembros)</EX_PartyStats>
+  <!-- EN: Gear: Shooting +{0} · Melee +{1} · Armor {2} -->
+  <EX_Gear>Equipo: Tiro +{0} · Cuerpo a cuerpo +{1} · Armadura {2}</EX_Gear>
+  <!-- EN: Each member&apos;s weapon adds to Shooting (ranged) or Melee (melee) based on its tech level and quality. Worn armor softens injuries on the road. -->
+  <EX_GearTip>El arma de cada miembro suma a Tiro si es a distancia o a Cuerpo a cuerpo si es cuerpo a cuerpo, según su nivel tecnológico y su calidad. La armadura puesta suaviza las heridas del camino.</EX_GearTip>
+  <!-- EN: Experience +{0}, weapons +{1}, traits {2} -->
+  <EX_StatBonusTip>Experiencia +{0}, armas +{1}, rasgos {2}</EX_StatBonusTip>
+  <!-- EN: Unarmed -->
+  <EX_Unarmed>Sin arma</EX_Unarmed>
+  <!-- EN: Region: {0} -->
+  <EX_Region>Región: {0}</EX_Region>
+  <!-- EN: You can leave with {0}, but a full party of five does better. -->
+  <EX_NotFull>Puedes partir con {0}, pero a un grupo completo de cinco le va mejor.</EX_NotFull>
+  <!-- EN: Downed and can&apos;t join the party -->
+  <EX_Unavailable_Downed>Inconsciente; no puede unirse al grupo</EX_Unavailable_Downed>
+  <!-- EN: Mental break -->
+  <EX_Unavailable_Mental>Colapso mental</EX_Unavailable_Mental>
+  <!-- EN: Unavailable -->
+  <EX_Unavailable_Other>No disponible</EX_Unavailable_Other>
+  <!-- EN: Recommend -->
+  <EX_Recommend>Recomendar</EX_Recommend>
+  <!-- EN: Clear -->
+  <EX_Clear>Vaciar</EX_Clear>
+  <!-- EN: Set out -->
+  <EX_Start>Partir</EX_Start>
+  <!-- EN: The party is resting. Next expedition in {0}. -->
+  <EX_Cooldown>El grupo está descansando. Próxima expedición en {0}.</EX_Cooldown>
+  <!-- EN: Shooting -->
+  <EX_Stat_Shooting>Tiro</EX_Stat_Shooting>
+  <!-- EN: Melee -->
+  <EX_Stat_Melee>Cuerpo a cuerpo</EX_Stat_Melee>
+  <!-- EN: Plants -->
+  <EX_Stat_Plants>Plantas</EX_Stat_Plants>
+  <!-- EN: Medicine -->
+  <EX_Stat_Medicine>Medicina</EX_Stat_Medicine>
+  <!-- EN: Research -->
+  <EX_Stat_Intellectual>Investigación</EX_Stat_Intellectual>
+  <!-- EN: Combat win chance, fewer injuries from first strikes, hunting -->
+  <EX_StatDesc_Shooting>Probabilidad de ganar combates, menos heridas por los primeros ataques, caza</EX_StatDesc_Shooting>
+  <!-- EN: Combat win chance (esp. animals), lighter melee wounds, avoiding accidents -->
+  <EX_StatDesc_Melee>Probabilidad de ganar combates (sobre todo contra animales), heridas cuerpo a cuerpo más leves, evitar accidentes</EX_StatDesc_Melee>
+  <!-- EN: More foraged food, herbs, less hunger, avoiding thorns -->
+  <EX_StatDesc_Plants>Más comida recolectada, hierbas, menos hambre, evitar espinas</EX_StatDesc_Plants>
+  <!-- EN: Lighter wounds, field treatment, helping the wounded -->
+  <EX_StatDesc_Medicine>Heridas más leves, tratamiento en el terreno, ayudar a heridos</EX_StatDesc_Medicine>
+  <!-- EN: Better supplies, decoding ruins, slightly higher great chance -->
+  <EX_StatDesc_Intellectual>Mejores suministros, descifrar ruinas, algo más de probabilidad de un gran éxito</EX_StatDesc_Intellectual>
+  <!-- EN: Exp. Lv.{0} -->
+  <EX_Level>Nv. exp. {0}</EX_Level>
+  <!-- EN: {0} / {1} -->
+  <EX_Xp>{0} / {1}</EX_Xp>
+  <!-- EN: Max level -->
+  <EX_MaxLevel>Nivel máximo</EX_MaxLevel>
+  <!-- EN: Level bonus: all skills +{0}, great expedition chance {1} -->
+  <EX_LevelBonus>Bonificación de nivel: todas las habilidades +{0}, probabilidad de una gran expedición {1}</EX_LevelBonus>
+  <!-- EN: Days on expeditions: {0} -->
+  <EX_TotalExpeditions>Días de expedición: {0}</EX_TotalExpeditions>
+  <!-- EN: Expedition XP +{0} -->
+  <EX_XpGained>Exp. de expedición +{0}</EX_XpGained>
+  <!-- EN: Expedition level up! Lv.{0} -->
+  <EX_LevelUp>¡Subió el nivel de expedición! Nv. {0}</EX_LevelUp>
+  <!-- EN: Exploring... -->
+  <EX_Exploring>Explorando...</EX_Exploring>
+  <!-- EN: {0}% -->
+  <EX_Progress>{0}%</EX_Progress>
+  <!-- EN: Skip -->
+  <EX_Skip>Saltar</EX_Skip>
+  <!-- EN: Hurt x{0} -->
+  <EX_HurtCount>Heridas x{0}</EX_HurtCount>
+  <!-- EN: Healthy -->
+  <EX_Healthy>Sin heridas</EX_Healthy>
+  <!-- EN: A party of {0} leaves the colony for {1} day(s). -->
+  <EX_Departure>Un grupo de {0} deja la colonia por {1} día(s).</EX_Departure>
+  <!-- EN: Exploring... (day {0}/{1}) -->
+  <EX_ExploringDay>Explorando... (día {0}/{1})</EX_ExploringDay>
+  <!-- EN: ── Day {0} ── -->
+  <EX_DayStart>── Día {0} ──</EX_DayStart>
+  <!-- EN: Duration -->
+  <EX_Days>Duración</EX_Days>
+  <!-- EN: {0}d -->
+  <EX_DayN>{0} d</EX_DayN>
+  <!-- EN: {0} events · longer = more loot, relic chance and danger · rest {1}d -->
+  <EX_DaysInfo>{0} eventos · más largo = más botín, más probabilidad de reliquias y más peligro · descanso {1} d</EX_DaysInfo>
+  <!-- EN: Relics (total Lv.{0}) -->
+  <EX_Relics>Reliquias (Nv. total {0})</EX_Relics>
+  <!-- EN: Lv.{0} -->
+  <EX_RelicLevel>Nv. {0}</EX_RelicLevel>
+  <!-- EN: Undiscovered -->
+  <EX_RelicUndiscovered>Sin descubrir</EX_RelicUndiscovered>
+  <!-- EN: Legend says even the fingerprints on its lens never missed. -->
+  <EX_RelicFlavor_Marksman>Dice la leyenda que ni las huellas digitales de su lente fallaban un tiro.</EX_RelicFlavor_Marksman>
+  <!-- EN: Do not drink. Just holding it puts a spring in your step. -->
+  <EX_RelicFlavor_Swift>No se bebe. Con solo sostenerlo, se te aligera el paso.</EX_RelicFlavor_Swift>
+  <!-- EN: It never stops turning. Watching it makes you want to get back to work. -->
+  <EX_RelicFlavor_Diligence>Nunca deja de girar. Verlo te da ganas de volver al trabajo.</EX_RelicFlavor_Diligence>
+  <!-- EN: Half-drawn, and the enemy already flinches. -->
+  <EX_RelicFlavor_Blade>A medio desenvainar, y el enemigo ya retrocede.</EX_RelicFlavor_Blade>
+  <!-- EN: Fills the hands that wrap bandages with unearned confidence. -->
+  <EX_RelicFlavor_Healer>Llena de una confianza inmerecida las manos que vendan heridas.</EX_RelicFlavor_Healer>
+  <!-- EN: Sometimes it mutters answers to itself. Unnervingly, they are usually right. -->
+  <EX_RelicFlavor_Scholar>A veces murmura respuestas para sí. Lo inquietante es que suelen ser correctas.</EX_RelicFlavor_Scholar>
+  <!-- EN: Rumor has it the garden grows itself now. Nobody planted anything. -->
+  <EX_RelicFlavor_Harvest>Dicen que ahora el huerto crece solo. Nadie plantó nada.</EX_RelicFlavor_Harvest>
+  <!-- EN: Opens to a different page every time. Somehow every page is useful. -->
+  <EX_RelicFlavor_Wisdom>Se abre en una página distinta cada vez. De algún modo, todas las páginas son útiles.</EX_RelicFlavor_Wisdom>
+  <!-- EN: Heads, you get a discount. Tails, you also get a discount. -->
+  <EX_RelicFlavor_Merchant>Cara, te hacen descuento. Sello, también te hacen descuento.</EX_RelicFlavor_Merchant>
+  <!-- EN: Protects you without being worn. Nobody knows how, and nobody asks. -->
+  <EX_RelicFlavor_Guardian>Te protege sin llevarlo puesto. Nadie sabe cómo, y nadie pregunta.</EX_RelicFlavor_Guardian>
+  <!-- EN: Search name... -->
+  <EX_SearchHint>Buscar nombre...</EX_SearchHint>
+  <!-- EN: Sort: {0} -->
+  <EX_SortBy>Orden: {0}</EX_SortBy>
+  <!-- EN: Name -->
+  <EX_Sort_Name>Nombre</EX_Sort_Name>
+  <!-- EN: Overall -->
+  <EX_Sort_Overall>General</EX_Sort_Overall>
+  <!-- EN: Combat -->
+  <EX_Sort_Combat>Combate</EX_Sort_Combat>
+  <!-- EN: Plants -->
+  <EX_Sort_Plants>Plantas</EX_Sort_Plants>
+  <!-- EN: Medicine -->
+  <EX_Sort_Medicine>Medicina</EX_Sort_Medicine>
+  <!-- EN: Research -->
+  <EX_Sort_Intellectual>Investigación</EX_Sort_Intellectual>
+  <!-- EN: History -->
+  <EX_History>Historial</EX_History>
+  <!-- EN: View log -->
+  <EX_ViewLog>Ver registro</EX_ViewLog>
+  <!-- EN: and {0} more -->
+  <EX_AndMore>y {0} más</EX_AndMore>
+  <!-- EN: Expedition log -->
+  <EX_LogTitle>Registro de la expedición</EX_LogTitle>
+  <!-- EN: {0}-day expedition · Party: {1} -->
+  <EX_LogSubtitle>Expedición de {0} días · Grupo: {1}</EX_LogSubtitle>
+  <!-- EN: Expedition history -->
+  <EX_HistoryTitle>Historial de expediciones</EX_HistoryTitle>
+  <!-- EN: {0} expeditions · Exp. Lv.{1} · Relics total Lv.{2} -->
+  <EX_HistSummary>{0} expediciones · Nv. exp. {1} · Nv. total de reliquias {2}</EX_HistSummary>
+  <!-- EN: No expeditions yet. -->
+  <EX_HistEmpty>Todavía no hay expediciones.</EX_HistEmpty>
+  <!-- EN: #{0} · {1}-day expedition -->
+  <EX_HistHead>#{0} · Expedición de {1} días</EX_HistHead>
+  <!-- EN: Party: {0} -->
+  <EX_HistMembers>Grupo: {0}</EX_HistMembers>
+  <!-- EN: {0} events ({1} success / {2} failed) · {3} injuries · XP +{4} (Lv.{5}) -->
+  <EX_HistStats>{0} eventos ({1} con éxito / {2} fallidos) · {3} heridas · Exp. +{4} (Nv. {5})</EX_HistStats>
+  <!-- EN: Gained: {0} -->
+  <EX_HistGains>Obtenido: {0}</EX_HistGains>
+  <!-- EN: Relics: {0} -->
+  <EX_HistRelics>Reliquias: {0}</EX_HistRelics>
+  <!-- EN: [Relic] {0} Lv.{1} -->
+  <EX_RelicGained>[Reliquia] {0} Nv. {1}</EX_RelicGained>
+  <!-- EN: Expedition relic {0} Lv.{1}: {2} -->
+  <EX_RelicStatExplain>Reliquia de expedición {0} Nv. {1}: {2}</EX_RelicStatExplain>
+  <!-- EN: Found a mysterious relic! [{0}] -->
+  <EX_Ev_Relic>¡Encontraron una reliquia misteriosa! [{0}]</EX_Ev_Relic>
+  <!-- EN: Relic! -->
+  <EX_Float_Relic>¡Reliquia!</EX_Float_Relic>
+  <!-- EN: Marksman&apos;s Scope -->
+  <EX_Relic_Marksman>Mira del tirador</EX_Relic_Marksman>
+  <!-- EN: Gale Vial -->
+  <EX_Relic_Swift>Frasco del vendaval</EX_Relic_Swift>
+  <!-- EN: Artisan&apos;s Gear -->
+  <EX_Relic_Diligence>Engranaje del artesano</EX_Relic_Diligence>
+  <!-- EN: Sword Saint&apos;s Edge -->
+  <EX_Relic_Blade>Filo del santo de la espada</EX_Relic_Blade>
+  <!-- EN: Healer&apos;s Kit -->
+  <EX_Relic_Healer>Botiquín del sanador</EX_Relic_Healer>
+  <!-- EN: Sage&apos;s Core -->
+  <EX_Relic_Scholar>Núcleo del sabio</EX_Relic_Scholar>
+  <!-- EN: Fruit of Plenty -->
+  <EX_Relic_Harvest>Fruto de la abundancia</EX_Relic_Harvest>
+  <!-- EN: Tome of Learning -->
+  <EX_Relic_Wisdom>Tomo del saber</EX_Relic_Wisdom>
+  <!-- EN: Colonist shooting accuracy {0} -->
+  <EX_RelicDesc_Marksman>Precisión de disparo de los colonos {0}</EX_RelicDesc_Marksman>
+  <!-- EN: Colonist move speed {0} -->
+  <EX_RelicDesc_Swift>Velocidad de movimiento de los colonos {0}</EX_RelicDesc_Swift>
+  <!-- EN: Colonist global work speed {0} -->
+  <EX_RelicDesc_Diligence>Velocidad de trabajo global de los colonos {0}</EX_RelicDesc_Diligence>
+  <!-- EN: Colonist melee hit chance {0} -->
+  <EX_RelicDesc_Blade>Probabilidad de golpe cuerpo a cuerpo de los colonos {0}</EX_RelicDesc_Blade>
+  <!-- EN: Colonist medical tend quality {0} -->
+  <EX_RelicDesc_Healer>Calidad del tratamiento médico de los colonos {0}</EX_RelicDesc_Healer>
+  <!-- EN: Colonist research speed {0} -->
+  <EX_RelicDesc_Scholar>Velocidad de investigación de los colonos {0}</EX_RelicDesc_Scholar>
+  <!-- EN: Colonist plant work speed {0} -->
+  <EX_RelicDesc_Harvest>Velocidad de agricultura de los colonos {0}</EX_RelicDesc_Harvest>
+  <!-- EN: Colonist global learning factor {0} -->
+  <EX_RelicDesc_Wisdom>Factor de aprendizaje global de los colonos {0}</EX_RelicDesc_Wisdom>
+  <!-- EN: Merchant&apos;s Coin -->
+  <EX_Relic_Merchant>Moneda del mercader</EX_Relic_Merchant>
+  <!-- EN: Guardian&apos;s Plate -->
+  <EX_Relic_Guardian>Placa del guardián</EX_Relic_Guardian>
+  <!-- EN: Colonist trade price improvement {0} -->
+  <EX_RelicDesc_Merchant>Mejora de regateo de los colonos {0}</EX_RelicDesc_Merchant>
+  <!-- EN: Colonist incoming damage {0} (down to -50%) -->
+  <EX_RelicDesc_Guardian>Daño recibido por los colonos {0} (hasta -50%)</EX_RelicDesc_Guardian>
+  <!-- EN: [KCB] Mini Expeditions -->
+  <EX_Settings_Category>[KCB] Mini Expeditions</EX_Settings_Category>
+  <!-- EN: Mini Expeditions settings -->
+  <EX_Settings_Open>Configuración de Mini Expeditions</EX_Settings_Open>
+  <!-- EN: Settings -->
+  <EX_SettingsShort>Configuración</EX_SettingsShort>
+  <!-- EN: Rewards -->
+  <EX_Settings_Rewards>Recompensas</EX_Settings_Rewards>
+  <!-- EN: Growth -->
+  <EX_Settings_Growth>Crecimiento</EX_Settings_Growth>
+  <!-- EN: Risk and rest -->
+  <EX_Settings_Risk>Riesgo y descanso</EX_Settings_Risk>
+  <!-- EN: Presentation -->
+  <EX_Settings_Display>Presentación</EX_Settings_Display>
+  <!-- EN: Reward multiplier -->
+  <EX_Settings_RewardMult>Multiplicador de recompensas</EX_Settings_RewardMult>
+  <!-- EN: Multiplies the amount of supplies found. -->
+  <EX_Settings_RewardMult_Tip>Multiplica la cantidad de suministros encontrados.</EX_Settings_RewardMult_Tip>
+  <!-- EN: Relic chance multiplier -->
+  <EX_Settings_RelicChanceMult>Multiplicador de probabilidad de reliquias</EX_Settings_RelicChanceMult>
+  <!-- EN: The base is about 20% per expedition day; this multiplies it. -->
+  <EX_Settings_RelicChanceMult_Tip>La base es de alrededor de un 20% por día de expedición; esto la multiplica.</EX_Settings_RelicChanceMult_Tip>
+  <!-- EN: Relic effect multiplier -->
+  <EX_Settings_RelicEffectMult>Multiplicador del efecto de las reliquias</EX_Settings_RelicEffectMult>
+  <!-- EN: Multiplies every relic&apos;s per-level effect, including relics you already have. -->
+  <EX_Settings_RelicEffectMult_Tip>Multiplica el efecto por nivel de cada reliquia, incluidas las que ya tienes.</EX_Settings_RelicEffectMult_Tip>
+  <!-- EN: Skill XP multiplier -->
+  <EX_Settings_SkillXpMult>Multiplicador de exp. de habilidades</EX_Settings_SkillXpMult>
+  <!-- EN: Multiplies the XP members gain in random skills. 0 disables it. -->
+  <EX_Settings_SkillXpMult_Tip>Multiplica la experiencia que ganan los miembros en habilidades al azar. 0 lo desactiva.</EX_Settings_SkillXpMult_Tip>
+  <!-- EN: Expedition XP multiplier -->
+  <EX_Settings_ExpeditionXpMult>Multiplicador de exp. de expedición</EX_Settings_ExpeditionXpMult>
+  <!-- EN: Multiplies the XP that raises the expedition level. -->
+  <EX_Settings_ExpeditionXpMult_Tip>Multiplica la experiencia que sube el nivel de expedición.</EX_Settings_ExpeditionXpMult_Tip>
+  <!-- EN: Injury severity multiplier -->
+  <EX_Settings_InjuryMult>Multiplicador de gravedad de las heridas</EX_Settings_InjuryMult>
+  <!-- EN: Multiplies injury severity. 0 means no injuries. On Easy, the safety cap that keeps expeditions from killing anyone still applies. -->
+  <EX_Settings_InjuryMult_Tip>Multiplica la gravedad de las heridas. 0 significa sin heridas. En Fácil, sigue aplicándose el límite de seguridad que evita que las expediciones maten a alguien.</EX_Settings_InjuryMult_Tip>
+  <!-- EN: Hunger/fatigue multiplier -->
+  <EX_Settings_FatigueMult>Multiplicador de hambre/cansancio</EX_Settings_FatigueMult>
+  <!-- EN: Multiplies the food and rest lost on return. -->
+  <EX_Settings_FatigueMult_Tip>Multiplica la comida y el descanso que se pierden al regresar.</EX_Settings_FatigueMult_Tip>
+  <!-- EN: Rest period multiplier -->
+  <EX_Settings_CooldownMult>Multiplicador del período de descanso</EX_Settings_CooldownMult>
+  <!-- EN: Multiplies the wait before the next expedition (1 game day per expedition day). 0 means no wait. -->
+  <EX_Settings_CooldownMult_Tip>Multiplica la espera antes de la próxima expedición (1 día de juego por día de expedición). 0 significa sin espera.</EX_Settings_CooldownMult_Tip>
+  <!-- EN: Animation speed -->
+  <EX_Settings_AnimationSpeedMult>Velocidad de la animación</EX_Settings_AnimationSpeedMult>
+  <!-- EN: Higher plays the expedition screen faster. (1-day trip: 15 s by default) -->
+  <EX_Settings_AnimationSpeedMult_Tip>Un valor más alto reproduce más rápido la pantalla de expedición. (Viaje de 1 día: 15 s por defecto)</EX_Settings_AnimationSpeedMult_Tip>
+  <!-- EN: Letter when the party is ready -->
+  <EX_Settings_NotifyReady>Carta cuando el grupo esté listo</EX_Settings_NotifyReady>
+  <!-- EN: Sends an &apos;Expedition party ready&apos; letter once the rest period ends and a new expedition can set out. -->
+  <EX_Settings_NotifyReady_Tip>Envía una carta «Grupo de expedición listo» cuando termina el período de descanso y puede partir una nueva expedición.</EX_Settings_NotifyReady_Tip>
+  <!-- EN: The expedition party has rested and is ready to set out again. -->
+  <EX_ReadyAgain>El grupo de expedición ya descansó y está listo para partir otra vez.</EX_ReadyAgain>
+  <!-- EN: Expedition party ready -->
+  <EX_ReadyLetterLabel>Grupo de expedición listo</EX_ReadyLetterLabel>
+  <!-- EN: The party has rested up and is ready to set out on the next expedition. -->
+  <EX_ReadyLetterText>El grupo ya descansó y está listo para partir en la próxima expedición.</EX_ReadyLetterText>
+  <!-- EN: An incredible find! A rare treasure: [{0}] -->
+  <EX_Ev_Jackpot>¡Un hallazgo increíble! Un tesoro raro: [{0}]</EX_Ev_Jackpot>
+  <!-- EN: Rare! -->
+  <EX_Float_Jackpot>¡Raro!</EX_Float_Jackpot>
+  <!-- EN: [Rare] -->
+  <EX_LegendaryTag>[Raro]</EX_LegendaryTag>
+  <!-- EN: Rare reward chance multiplier -->
+  <EX_Settings_LegendaryChanceMult>Multiplicador de probabilidad de recompensas raras</EX_Settings_LegendaryChanceMult>
+  <!-- EN: Quest-tier items such as healer and resurrector mech serums, persona cores and archotech parts. The base is about 1.5% per expedition day; this multiplies it. -->
+  <EX_Settings_LegendaryChanceMult_Tip>Objetos del nivel de las misiones, como el suero sanador mecanoide y el suero reanimador mecanoide, los núcleos de IA y las piezas arqueotéc. La base es de alrededor de un 1,5% por día de expedición; esto la multiplica.</EX_Settings_LegendaryChanceMult_Tip>
+  <!-- EN: [Dev] Greatly boost relic and legendary chance -->
+  <EX_DevRelicBoost>[Dev] Aumentar mucho la probabilidad de reliquias y de botín legendario</EX_DevRelicBoost>
+  <!-- EN: Testing option, only visible in dev mode. Adds {0} relic chance and 30% legendary loot chance to every event. Not saved; it turns off when the game restarts. -->
+  <EX_DevRelicBoostTip>Opción de prueba, visible solo en el modo de desarrollo. Suma {0} de probabilidad de reliquia y un 30% de probabilidad de botín legendario a cada evento. No se guarda; se apaga al reiniciar el juego.</EX_DevRelicBoostTip>
+  <!-- EN: Skill experience -->
+  <EX_SkillXp>Experiencia de habilidades</EX_SkillXp>
+  <!-- EN: Something tells you today is a lucky day! -->
+  <EX_GreatStart>¡Algo te dice que hoy es un día de suerte!</EX_GreatStart>
+  <!-- EN: The party has returned to the colony. -->
+  <EX_Return>El grupo regresó a la colonia.</EX_Return>
+  <!-- EN: Hurt! -->
+  <EX_Float_Injury>¡Herida!</EX_Float_Injury>
+  <!-- EN: Thank you! -->
+  <EX_Float_Thanks>¡Gracias!</EX_Float_Thanks>
+  <!-- EN: Trap! -->
+  <EX_Float_Trap>¡Trampa!</EX_Float_Trap>
+  <!-- EN: Victory! -->
+  <EX_Float_Victory>¡Victoria!</EX_Float_Victory>
+  <!-- EN: Retreat! -->
+  <EX_Float_Retreat>¡Retirada!</EX_Float_Retreat>
+  <!-- EN: It got away! -->
+  <EX_Float_Escaped>¡Se escapó!</EX_Float_Escaped>
+  <!-- EN: Dodged! -->
+  <EX_Float_Dodge>¡Lo esquivó!</EX_Float_Dodge>
+  <!-- EN: Supplies -->
+  <EX_Kind_Supplies>Suministros</EX_Kind_Supplies>
+  <!-- EN: Foraging -->
+  <EX_Kind_Forage>Recolección</EX_Kind_Forage>
+  <!-- EN: Hunting -->
+  <EX_Kind_Hunt>Caza</EX_Kind_Hunt>
+  <!-- EN: Helping locals -->
+  <EX_Kind_Help>Ayuda a los lugareños</EX_Kind_Help>
+  <!-- EN: Combat -->
+  <EX_Kind_Combat>Combate</EX_Kind_Combat>
+  <!-- EN: Ruins -->
+  <EX_Kind_Ruins>Ruinas</EX_Kind_Ruins>
+  <!-- EN: Accident -->
+  <EX_Kind_Accident>Accidente</EX_Kind_Accident>
+  <!-- EN: Rest -->
+  <EX_Kind_Quiet>Descanso</EX_Kind_Quiet>
+  <!-- EN: Treasure -->
+  <EX_Kind_Treasure>Tesoro</EX_Kind_Treasure>
+  <!-- EN: Found usable supplies at an abandoned camp. -->
+  <EX_Ev_Supplies_0>Encontraron suministros útiles en un campamento abandonado.</EX_Ev_Supplies_0>
+  <!-- EN: Dug supplies out of a collapsed storehouse. -->
+  <EX_Ev_Supplies_1>Desenterraron suministros de un almacén derrumbado.</EX_Ev_Supplies_1>
+  <!-- EN: Pried open a cargo crate left by the road. -->
+  <EX_Ev_Supplies_2>Forzaron una caja de carga abandonada junto al camino.</EX_Ev_Supplies_2>
+  <!-- EN: Thanks to {0}&apos;s keen eye, the party picked out something valuable. -->
+  <EX_Ev_SuppliesGood>Gracias al buen ojo de {0}, el grupo escogió algo valioso.</EX_Ev_SuppliesGood>
+  <!-- EN: Gathered edible plants in the fields. -->
+  <EX_Ev_Forage_0>Recolectaron plantas comestibles en los campos.</EX_Ev_Forage_0>
+  <!-- EN: Found bushes heavy with wild berries. -->
+  <EX_Ev_Forage_1>Encontraron arbustos cargados de bayas silvestres.</EX_Ev_Forage_1>
+  <!-- EN: {0}&apos;s plant knowledge greatly increased the harvest. -->
+  <EX_Ev_ForageGood>Lo que sabe {0} de plantas aumentó mucho la cosecha.</EX_Ev_ForageGood>
+  <!-- EN: Picked some medicinal herbs as well. -->
+  <EX_Ev_ForageHerb>También recogieron algunas hierbas medicinales.</EX_Ev_ForageHerb>
+  <!-- EN: Spotted a group of {0} and tried to hunt. -->
+  <EX_Ev_Hunt>Vieron un grupo de {0} e intentaron cazar.</EX_Ev_Hunt>
+  <!-- EN: {0}&apos;s precise shot brought one down. -->
+  <EX_Ev_HuntSuccess>Un disparo preciso de {0} abatió a uno.</EX_Ev_HuntSuccess>
+  <!-- EN: The prey noticed and ran off. -->
+  <EX_Ev_HuntFail>La presa se dio cuenta y huyó.</EX_Ev_HuntFail>
+  <!-- EN: Found a wounded traveler collapsed by the road. -->
+  <EX_Ev_HelpWounded>Encontraron a un viajero herido tirado junto al camino.</EX_Ev_HelpWounded>
+  <!-- EN: {0}&apos;s first aid got the traveler back on their feet. They gave a reward in thanks. -->
+  <EX_Ev_HelpWoundedOk>Los primeros auxilios de {0} pusieron de pie al viajero, que en agradecimiento les dio una recompensa.</EX_Ev_HelpWoundedOk>
+  <!-- EN: The party did its best but could not help much. -->
+  <EX_Ev_HelpWoundedFail>El grupo hizo lo que pudo, pero no logró ayudar mucho.</EX_Ev_HelpWoundedFail>
+  <!-- EN: Met a farmer short of hands for the harvest. -->
+  <EX_Ev_HelpFarmer>Conocieron a un granjero al que le faltaban manos para la cosecha.</EX_Ev_HelpFarmer>
+  <!-- EN: {0} helped bring in the harvest, and the farmer shared some food. -->
+  <EX_Ev_HelpFarmerOk>{0} ayudó a levantar la cosecha, y el granjero compartió algo de comida.</EX_Ev_HelpFarmerOk>
+  <!-- EN: The farmer shook their head at the clumsy work. -->
+  <EX_Ev_HelpFarmerFail>El granjero negó con la cabeza ante el trabajo torpe.</EX_Ev_HelpFarmerFail>
+  <!-- EN: Met a merchant stuck with a broken cart. -->
+  <EX_Ev_HelpMerchant>Conocieron a un mercader atascado con una carreta rota.</EX_Ev_HelpMerchant>
+  <!-- EN: {0} figured out a fix for the cart and got paid for it. -->
+  <EX_Ev_HelpMerchantOk>{0} dio con la forma de arreglar la carreta, y el mercader le pagó por ello.</EX_Ev_HelpMerchantOk>
+  <!-- EN: The cart stayed broken, but the merchant thanked them anyway. -->
+  <EX_Ev_HelpMerchantFail>La carreta siguió rota, pero el mercader les dio las gracias igual.</EX_Ev_HelpMerchantFail>
+  <!-- EN: {0} pirates ambush the party! -->
+  <EX_Ev_Combat_Raiders>¡{0} piratas emboscan al grupo!</EX_Ev_Combat_Raiders>
+  <!-- EN: {1} hungry {0} attack! -->
+  <EX_Ev_Combat_Predators>¡Atacan {1} {0} con hambre!</EX_Ev_Combat_Predators>
+  <!-- EN: {0} ancient mechanoids wake up and attack! -->
+  <EX_Ev_Combat_Mechs>¡{0} mecanoides antiguos despiertan y atacan!</EX_Ev_Combat_Mechs>
+  <!-- EN: {0}&apos;s accurate fire suppressed the enemy. -->
+  <EX_Ev_CombatWin_Shoot>El fuego certero de {0} contuvo al enemigo.</EX_Ev_CombatWin_Shoot>
+  <!-- EN: {0} charged in and beat the enemy down. -->
+  <EX_Ev_CombatWin_Melee>{0} cargó y derribó al enemigo a golpes.</EX_Ev_CombatWin_Melee>
+  <!-- EN: Collected some spoils. -->
+  <EX_Ev_CombatLoot>Recogieron algo de botín.</EX_Ev_CombatLoot>
+  <!-- EN: Overwhelmed, the party retreated. -->
+  <EX_Ev_CombatLose>Superado por el enemigo, el grupo se retiró.</EX_Ev_CombatLose>
+  <!-- EN: Some of the cargo was lost during the retreat. -->
+  <EX_Ev_CombatLostItems>Se perdió parte de la carga durante la retirada.</EX_Ev_CombatLostItems>
+  <!-- EN: Found the entrance to ancient ruins. -->
+  <EX_Ev_Ruins>Encontraron la entrada a unas ruinas antiguas.</EX_Ev_Ruins>
+  <!-- EN: {0} decoded the sealed door, and the party claimed a relic. -->
+  <EX_Ev_RuinsOk>{0} descifró la puerta sellada, y el grupo se quedó con una reliquia.</EX_Ev_RuinsOk>
+  <!-- EN: Nobody could work out the mechanism, so the party turned back. -->
+  <EX_Ev_RuinsFail>Nadie logró entender el mecanismo, así que el grupo dio media vuelta.</EX_Ev_RuinsFail>
+  <!-- EN: Someone touched the wrong thing and set off a trap! -->
+  <EX_Ev_RuinsTrap>¡Alguien tocó lo que no debía y activó una trampa!</EX_Ev_RuinsTrap>
+  <!-- EN: Someone slipped on a steep slope. -->
+  <EX_Ev_Accident_0>Alguien resbaló en una pendiente empinada.</EX_Ev_Accident_0>
+  <!-- EN: Rocks suddenly came tumbling down! -->
+  <EX_Ev_Accident_1>¡De pronto cayeron rocas rodando!</EX_Ev_Accident_1>
+  <!-- EN: The party pushed through sharp thorny brush. -->
+  <EX_Ev_Accident_2>El grupo atravesó una maleza de espinas afiladas.</EX_Ev_Accident_2>
+  <!-- EN: Thanks to {0}&apos;s quick thinking, everyone was fine. -->
+  <EX_Ev_AccidentAvoid>Gracias a la rapidez de {0}, todos salieron ilesos.</EX_Ev_AccidentAvoid>
+  <!-- EN: A peaceful road. The party rested by a campfire for a while. -->
+  <EX_Ev_Quiet_0>Un camino tranquilo. El grupo descansó un rato junto a una fogata.</EX_Ev_Quiet_0>
+  <!-- EN: The party stopped to take in a beautiful sunset. -->
+  <EX_Ev_Quiet_1>El grupo se detuvo a contemplar un hermoso atardecer.</EX_Ev_Quiet_1>
+  <!-- EN: Under a sky full of stars, the party shared stories by the fire. -->
+  <EX_Ev_Quiet_2>Bajo un cielo lleno de estrellas, el grupo compartió historias junto al fuego.</EX_Ev_Quiet_2>
+  <!-- EN: Found a treasure chest hidden in the brush! -->
+  <EX_Ev_Treasure>¡Encontraron un cofre del tesoro escondido en la maleza!</EX_Ev_Treasure>
+  <!-- EN: {0} injured: {1} -->
+  <EX_Ev_Injured>Heridas de {0}: {1}</EX_Ev_Injured>
+  <!-- EN: Luckily, nobody was hurt. -->
+  <EX_Ev_NoHarm>Por suerte, nadie salió herido.</EX_Ev_NoHarm>
+  <!-- EN: {0} treated the wounds on the spot. -->
+  <EX_Ev_Treated>{0} trató las heridas en el lugar.</EX_Ev_Treated>
+  <!-- EN: Verdict -->
+  <EX_Eval_Title>Veredicto</EX_Eval_Title>
+  <!-- EN: Score {0}/100 -->
+  <EX_Eval_Score>Puntaje {0}/100</EX_Eval_Score>
+  <!-- EN: Success {0} · Uneventful {1} · Failure {2} -->
+  <EX_Eval_Ratio>Éxitos {0} · Sin novedad {1} · Fracasos {2}</EX_Eval_Ratio>
+  <!-- EN: Party mood: {0} ({1}, 1 day) -->
+  <EX_Eval_Mood>Ánimo del grupo: {0} ({1}, 1 día)</EX_Eval_Mood>
+  <!-- EN: Legendary expedition -->
+  <EX_Eval_Grade_S>Expedición legendaria</EX_Eval_Grade_S>
+  <!-- EN: Great success -->
+  <EX_Eval_Grade_A>Gran éxito</EX_Eval_Grade_A>
+  <!-- EN: Smooth sailing -->
+  <EX_Eval_Grade_B>Viento en popa</EX_Eval_Grade_B>
+  <!-- EN: Uneventful -->
+  <EX_Eval_Grade_C>Sin novedad</EX_Eval_Grade_C>
+  <!-- EN: Tough going -->
+  <EX_Eval_Grade_D>Cuesta arriba</EX_Eval_Grade_D>
+  <!-- EN: Disaster -->
+  <EX_Eval_Grade_F>Desastre</EX_Eval_Grade_F>
+  <!-- EN: The bards are already writing songs. {0}&apos;s name appears three times in the chorus. -->
+  <EX_Eval_S_0>Los bardos ya están escribiendo canciones. El nombre de {0} sale tres veces en el estribillo.</EX_Eval_S_0>
+  <!-- EN: Flawless. So flawless the next expedition already feels nervous. -->
+  <EX_Eval_S_1>Impecable. Tan impecable que la próxima expedición ya está nerviosa.</EX_Eval_S_1>
+  <!-- EN: That wasn&apos;t an expedition. That was a shopping trip. -->
+  <EX_Eval_S_2>Eso no fue una expedición. Fue una salida de compras.</EX_Eval_S_2>
+  <!-- EN: Lady Luck followed the party around like a lost puppy. -->
+  <EX_Eval_S_3>La diosa Fortuna siguió al grupo a todas partes como un cachorro perdido.</EX_Eval_S_3>
+  <!-- EN: Even Randy clapped this time. -->
+  <EX_Eval_S_4>Hasta Randy aplaudió esta vez.</EX_Eval_S_4>
+  <!-- EN: {0} has announced plans to write a memoir. -->
+  <EX_Eval_S_5>{0} anunció que piensa escribir sus memorias.</EX_Eval_S_5>
+  <!-- EN: A new chapter has been added to the colony history books. -->
+  <EX_Eval_S_6>Se agregó un capítulo nuevo a los libros de historia de la colonia.</EX_Eval_S_6>
+  <!-- EN: The party held a victory parade on the way home. Nobody asked them to. -->
+  <EX_Eval_S_7>El grupo hizo un desfile de la victoria camino a casa. Nadie se lo pidió.</EX_Eval_S_7>
+  <!-- EN: A fine outing. The small hiccups just add flavor to the story. -->
+  <EX_Eval_A_0>Una buena salida. Los pequeños tropiezos solo le dan sabor a la historia.</EX_Eval_A_0>
+  <!-- EN: Tonight&apos;s dinner will be all bragging and no silence. -->
+  <EX_Eval_A_1>La cena de esta noche será pura fanfarronería y nada de silencio.</EX_Eval_A_1>
+  <!-- EN: {0} is visibly standing a little taller. -->
+  <EX_Eval_A_2>{0} camina con la frente un poco más en alto.</EX_Eval_A_2>
+  <!-- EN: Everything went according to plan. Nobody made a plan, but still. -->
+  <EX_Eval_A_3>Todo salió según el plan. Nadie hizo un plan, pero igual.</EX_Eval_A_3>
+  <!-- EN: Heavy bags, light steps. -->
+  <EX_Eval_A_4>Bolsas pesadas, pasos ligeros.</EX_Eval_A_4>
+  <!-- EN: Expect a line of volunteers for the next expedition. -->
+  <EX_Eval_A_5>Prepárense para una fila de voluntarios en la próxima expedición.</EX_Eval_A_5>
+  <!-- EN: A few close calls, but that&apos;s half the fun. -->
+  <EX_Eval_A_6>Hubo algunos sustos, pero eso es la mitad de la diversión.</EX_Eval_A_6>
+  <!-- EN: The party high-fived. Even the bandaged hands joined in. -->
+  <EX_Eval_A_7>El grupo chocó los cinco. Hasta las manos vendadas se sumaron.</EX_Eval_A_7>
+  <!-- EN: Not bad. Actually, pretty good. -->
+  <EX_Eval_B_0>Nada mal. De hecho, bastante bien.</EX_Eval_B_0>
+  <!-- EN: Something gained, something learned. Mostly the gained part will be remembered. -->
+  <EX_Eval_B_1>Algo se ganó y algo se aprendió. Lo que se recordará, sobre todo, es lo ganado.</EX_Eval_B_1>
+  <!-- EN: {0} says: &quot;Next time we&apos;ll do even better.&quot; -->
+  <EX_Eval_B_2>{0} dice: «La próxima vez lo haremos aún mejor».</EX_Eval_B_2>
+  <!-- EN: A smooth trip. Being smooth is a skill too. -->
+  <EX_Eval_B_3>Un viaje sin tropiezos. Que todo salga bien también es una habilidad.</EX_Eval_B_3>
+  <!-- EN: Quite a haul for an ordinary day. -->
+  <EX_Eval_B_4>Todo un botín para un día cualquiera.</EX_Eval_B_4>
+  <!-- EN: They stumbled a few times, but mostly forward. -->
+  <EX_Eval_B_5>Tropezaron varias veces, pero casi siempre hacia adelante.</EX_Eval_B_5>
+  <!-- EN: Good enough to brag to mom about. -->
+  <EX_Eval_B_6>Suficiente para presumírselo a mamá.</EX_Eval_B_6>
+  <!-- EN: Quietly solid. -->
+  <EX_Eval_B_7>Discretamente sólido.</EX_Eval_B_7>
+  <!-- EN: They went. They came back. That&apos;s about it. -->
+  <EX_Eval_C_0>Fueron. Volvieron. Eso es todo.</EX_Eval_C_0>
+  <!-- EN: Half good, half bad. That&apos;s life. -->
+  <EX_Eval_C_1>Mitad bueno, mitad malo. Así es la vida.</EX_Eval_C_1>
+  <!-- EN: {0} insists they did something important. Evidence is lacking. -->
+  <EX_Eval_C_2>{0} insiste en que hizo algo importante. Faltan pruebas.</EX_Eval_C_2>
+  <!-- EN: Too long for a walk, too dull for an adventure. -->
+  <EX_Eval_C_3>Demasiado largo para un paseo, demasiado aburrido para una aventura.</EX_Eval_C_3>
+  <!-- EN: Nothing worth recording happened, but it has been recorded anyway. -->
+  <EX_Eval_C_4>No pasó nada digno de anotarse, pero se anotó igual.</EX_Eval_C_4>
+  <!-- EN: They broke even. Probably. -->
+  <EX_Eval_C_5>Quedaron a mano. Probablemente.</EX_Eval_C_5>
+  <!-- EN: Nobody cheered when they came back. Nobody sighed either. -->
+  <EX_Eval_C_6>Nadie los vitoreó al volver. Tampoco nadie suspiró.</EX_Eval_C_6>
+  <!-- EN: Next time, they agreed not to hold the map upside down. -->
+  <EX_Eval_C_7>Acordaron que la próxima vez no sostendrán el mapa al revés.</EX_Eval_C_7>
+  <!-- EN: Rough going. Let&apos;s focus on the part where everyone came back. -->
+  <EX_Eval_D_0>Fue duro. Quedémonos con que todos volvieron.</EX_Eval_D_0>
+  <!-- EN: {0}, from now on &quot;just a quick trip&quot; is a banned phrase. -->
+  <EX_Eval_D_1>{0}, de ahora en adelante «solo un viaje rápido» es una frase prohibida.</EX_Eval_D_1>
+  <!-- EN: They brought home more scars than supplies. -->
+  <EX_Eval_D_2>Trajeron a casa más cicatrices que suministros.</EX_Eval_D_2>
+  <!-- EN: Lessons were learned. Luckily, lessons weigh nothing. -->
+  <EX_Eval_D_3>Se aprendieron lecciones. Por suerte, las lecciones no pesan nada.</EX_Eval_D_3>
+  <!-- EN: Let&apos;s call it bad luck and save the skill talk for later. -->
+  <EX_Eval_D_4>Digamos que fue mala suerte y dejemos lo de la habilidad para después.</EX_Eval_D_4>
+  <!-- EN: The party slipped home quietly. Nobody is making eye contact. -->
+  <EX_Eval_D_5>El grupo volvió a casa sin hacer ruido. Nadie mira a nadie a los ojos.</EX_Eval_D_5>
+  <!-- EN: Maybe pack more weapons next time. -->
+  <EX_Eval_D_6>Quizás la próxima vez convenga llevar más armas.</EX_Eval_D_6>
+  <!-- EN: Adventure is supposed to be like this. Probably. -->
+  <EX_Eval_D_7>Se supone que la aventura es así. Probablemente.</EX_Eval_D_7>
+  <!-- EN: ...Let&apos;s pretend this expedition never happened. -->
+  <EX_Eval_F_0>...Hagamos como que esta expedición nunca pasó.</EX_Eval_F_0>
+  <!-- EN: Randy is laughing. Loudly. -->
+  <EX_Eval_F_1>Randy se está riendo. A carcajadas.</EX_Eval_F_1>
+  <!-- EN: {0} refuses to go anywhere near a map for a while. -->
+  <EX_Eval_F_2>{0} se niega a acercarse a un mapa por un tiempo.</EX_Eval_F_2>
+  <!-- EN: Coming back at all was a miracle. It was the only miracle. -->
+  <EX_Eval_F_3>Volver ya fue un milagro. Fue el único milagro.</EX_Eval_F_3>
+  <!-- EN: Consider writing an apology letter to the doctor in advance. -->
+  <EX_Eval_F_4>Conviene escribirle al médico una carta de disculpas por adelantado.</EX_Eval_F_4>
+  <!-- EN: The expedition journal contains a single line: &quot;Why did we go?&quot; -->
+  <EX_Eval_F_5>El diario de la expedición tiene una sola línea: «¿Para qué fuimos?».</EX_Eval_F_5>
+  <!-- EN: At this point the enemies were exploring us. -->
+  <EX_Eval_F_6>A esa altura, los enemigos nos estaban explorando a nosotros.</EX_Eval_F_6>
+  <!-- EN: Cheer up. Rock bottom means the only way is up. -->
+  <EX_Eval_F_7>Ánimo. Tocar fondo quiere decir que solo queda subir.</EX_Eval_F_7>
+  <!-- EN: Expedition results -->
+  <EX_Result>Resultados de la expedición</EX_Result>
+  <!-- EN: Great expedition! -->
+  <EX_GreatExpedition>¡Gran expedición!</EX_GreatExpedition>
+  <!-- EN: Events -->
+  <EX_Events>Eventos</EX_Events>
+  <!-- EN: Gained -->
+  <EX_Gains>Obtenido</EX_Gains>
+  <!-- EN: Lost -->
+  <EX_Losses>Perdido</EX_Losses>
+  <!-- EN: Nothing -->
+  <EX_None>Nada</EX_None>
+  <!-- EN: Success -->
+  <EX_Outcome_Good>Éxito</EX_Outcome_Good>
+  <!-- EN: Failure -->
+  <EX_Outcome_Bad>Fracaso</EX_Outcome_Bad>
+  <!-- EN: Uneventful -->
+  <EX_Outcome_Neutral>Sin novedad</EX_Outcome_Neutral>
+  <!-- EN: {0}: {1} ({2}) -->
+  <EX_InjuryLine>{0}: {1} ({2})</EX_InjuryLine>
+  <!-- EN: · tended -->
+  <EX_Tended>· tratada</EX_Tended>
+  <!-- EN: Lost: {0} -->
+  <EX_LostItem>Perdido: {0}</EX_LostItem>
+  <!-- EN: Whole party: food -{0}, rest -{1} -->
+  <EX_Fatigue>Todo el grupo: comida -{0}, descanso -{1}</EX_Fatigue>
+  <!-- EN: Close -->
+  <EX_Close>Cerrar</EX_Close>
+  <!-- EN: Back to setup -->
+  <EX_NewExpedition>Volver a la preparación</EX_NewExpedition>
+  <!-- EN: Expedition returned -->
+  <EX_LetterLabel>Expedición de vuelta</EX_LetterLabel>
+  <!-- EN: The expedition party is back. They left what they brought at the center of the home area.\n\n{0} -->
+  <EX_LetterText>El grupo de expedición está de vuelta. Dejaron lo que trajeron en el centro del área del hogar.\n\n{0}</EX_LetterText>
+  <!-- EN: Difficulty -->
+  <EX_Difficulty>Dificultad</EX_Difficulty>
+  <!-- EN: Easy -->
+  <EX_Diff_Easy>Fácil</EX_Diff_Easy>
+  <!-- EN: Hard -->
+  <EX_Diff_Hard>Difícil</EX_Diff_Hard>
+  <!-- EN: Easy: injuries stay light, and no one loses a body part or dies. -->
+  <EX_DiffDesc_Easy>Fácil: las heridas son leves, y nadie pierde una parte del cuerpo ni muere.</EX_DiffDesc_Easy>
+  <!-- EN: Warning: dangerous events become far more common, and members may lose body parts or even die. Only take this on once your expedition team is strong enough. (Rewards, expedition XP and relic chance +{0}) -->
+  <EX_DiffDesc_Hard>Advertencia: los eventos peligrosos se vuelven mucho más frecuentes, y los miembros pueden perder partes del cuerpo o incluso morir. Hazlo solo cuando tu equipo de expedición sea lo bastante fuerte. (Recompensas, exp. de expedición y probabilidad de reliquias +{0})</EX_DiffDesc_Hard>
+  <!-- EN: [Hard] -->
+  <EX_HardTag>[Difícil]</EX_HardTag>
+  <!-- EN: Mode -->
+  <EX_Mode>Modo</EX_Mode>
+  <!-- EN: Quick -->
+  <EX_Mode_Fast>Rápido</EX_Mode_Fast>
+  <!-- EN: Real-time -->
+  <EX_Mode_Realtime>En tiempo real</EX_Mode_Realtime>
+  <!-- EN: Plays out right away and shows the result. (Game time is paused) -->
+  <EX_ModeDesc_Fast>Se resuelve al instante y muestra el resultado. (El tiempo del juego queda en pausa)</EX_ModeDesc_Fast>
+  <!-- EN: The party leaves the map for {0} day(s) of game time. Keeps going even if you close the window. -->
+  <EX_ModeDesc_Realtime>El grupo deja el mapa por {0} día(s) de tiempo de juego. Sigue aunque cierres la ventana.</EX_ModeDesc_Realtime>
+  <!-- EN: A real-time expedition needs at least one colonist left at home. -->
+  <EX_LiveNeedsHome>Una expedición en tiempo real necesita que al menos un colono se quede en casa.</EX_LiveNeedsHome>
+  <!-- EN: {0}% · back in {1} -->
+  <EX_LiveRemaining>{0}% · de vuelta en {1}</EX_LiveRemaining>
+  <!-- EN: Close (expedition continues) -->
+  <EX_CloseLive>Cerrar (la expedición sigue)</EX_CloseLive>
+  <!-- EN: [Dev] Return now -->
+  <EX_DevFinishNow>[Dev] Volver ahora</EX_DevFinishNow>
+  <!-- EN: {0} ({1}) -->
+  <EX_ButtonLive>{0} ({1})</EX_ButtonLive>
+  <!-- EN: The expedition is out. Back in {0}.\n\nClick to watch how it is going. -->
+  <EX_ButtonLiveTip>La expedición está afuera. De vuelta en {0}.\n\nHaz clic para ver cómo le va.</EX_ButtonLiveTip>
+  <!-- EN: Dead -->
+  <EX_Dead>Muerto</EX_Dead>
+  <!-- EN: Fatal! -->
+  <EX_Float_Fatal>¡Mortal!</EX_Float_Fatal>
+  <!-- EN: A terrible blow! {0} lost a body part: {1} -->
+  <EX_Ev_Severed>¡Un golpe terrible! {0} perdió una parte del cuerpo: {1}</EX_Ev_Severed>
+  <!-- EN: {0} was mortally wounded and did not make it... -->
+  <EX_Ev_Fatal>{0} recibió una herida mortal y no sobrevivió...</EX_Ev_Fatal>
+  <!-- EN: {0}: lost {1} -->
+  <EX_InjuryLost>{0}: perdió {1}</EX_InjuryLost>
+  <!-- EN: {0}: died ({1}) -->
+  <EX_InjuryFatal>{0}: murió ({1})</EX_InjuryFatal>
+  <!-- EN: Deaths: {0} -->
+  <EX_HistDeaths>Muertes: {0}</EX_HistDeaths>
+  <!-- EN: exploring {0} -->
+  <EX_ButtonStatusLive>explorando {0}</EX_ButtonStatusLive>
+  <!-- EN: expedition complete -->
+  <EX_ButtonStatusDone>expedición terminada</EX_ButtonStatusDone>
+  <!-- EN: The expedition has returned.\n\nClick to see the result. -->
+  <EX_ButtonDoneTip>La expedición regresó.\n\nHaz clic para ver el resultado.</EX_ButtonDoneTip>
+  <!-- EN: Expedition complete -->
+  <EX_ReturnLetterLabel>Expedición terminada</EX_ReturnLetterLabel>
+  <!-- EN: Expedition ended early -->
+  <EX_AbortLetterLabel>Expedición terminada antes de tiempo</EX_AbortLetterLabel>
+  <!-- EN: The expedition finished its {0}-day trip and returned to the colony.\nVerdict: {1} -->
+  <EX_ReturnLetterText>La expedición terminó su viaje de {0} días y regresó a la colonia.\nVeredicto: {1}</EX_ReturnLetterText>
+  <!-- EN: The expedition was called off and hurried home. The events and rewards of the remaining trip were lost.\nVerdict: {1} -->
+  <EX_AbortLetterText>La expedición se suspendió y volvió a toda prisa. Se perdieron los eventos y las recompensas del resto del viaje.\nVeredicto: {1}</EX_AbortLetterText>
+  <!-- EN: Did not return: {0} -->
+  <EX_ReturnLetterDeaths>No regresaron: {0}</EX_ReturnLetterDeaths>
+  <!-- EN: Brought back (center of the home area):\n{0} -->
+  <EX_ReturnLetterLoot>Trajeron (en el centro del área del hogar):\n{0}</EX_ReturnLetterLoot>
+  <!-- EN: They brought nothing back. -->
+  <EX_ReturnLetterNoLoot>No trajeron nada.</EX_ReturnLetterNoLoot>
+  <!-- EN: Open this letter to see the expedition result. -->
+  <EX_ReturnLetterClick>Abre esta carta para ver el resultado de la expedición.</EX_ReturnLetterClick>
+  <!-- EN: End expedition -->
+  <EX_EndLive>Terminar la expedición</EX_EndLive>
+  <!-- EN: End the expedition now and bring the party straight home?\n\nEvents not yet reached and their rewards are lost, and hurrying back carries a penalty:\n\n - Extra hunger loss {0}\n - Extra fatigue {1}\n - Mood {2} &quot;{3}&quot; (for a day) -->
+  <EX_EndLiveConfirm>¿Terminar la expedición ahora y traer al grupo directo a casa?\n\nSe pierden los eventos que faltan y sus recompensas, y volver a toda prisa tiene una penalización:\n\n - Hambre extra {0}\n - Cansancio extra {1}\n - Ánimo {2} «{3}» (por un día)</EX_EndLiveConfirm>
+  <!-- EN: The expedition was called off and hurried home. -->
+  <EX_AbortedLog>La expedición se suspendió y volvió a toda prisa.</EX_AbortedLog>
+  <!-- EN: [Ended early] -->
+  <EX_AbortedTag>[Terminada antes de tiempo]</EX_AbortedTag>
+  <!-- EN: Early return penalty: mood &quot;{0}&quot; {1} (one day) -->
+  <EX_AbortPenaltyLine>Penalización por volver antes de tiempo: ánimo «{0}» {1} (un día)</EX_AbortPenaltyLine>
+  <!-- EN: Expedition -->
+  <EX_Tab_Expedition>Expedición</EX_Tab_Expedition>
+  <!-- EN: Requests -->
+  <EX_Tab_Requests>Encargos</EX_Tab_Requests>
+  <!-- EN: Requests ({0}) -->
+  <EX_Tab_RequestsN>Encargos ({0})</EX_Tab_RequestsN>
+  <!-- EN: Relics -->
+  <EX_Tab_Relics>Reliquias</EX_Tab_Relics>
+  <!-- EN: Colonists ({0}) -->
+  <EX_Group_Colonists>Colonos ({0})</EX_Group_Colonists>
+  <!-- EN: Slaves ({0}) -->
+  <EX_Group_Slaves>Esclavos ({0})</EX_Group_Slaves>
+  <!-- EN: Mechanoids ({0}) -->
+  <EX_Group_Mechs>Mecanoides ({0})</EX_Group_Mechs>
+  <!-- EN: Colonists -->
+  <EX_GroupTab_Colonists>Colonos</EX_GroupTab_Colonists>
+  <!-- EN: Slaves -->
+  <EX_GroupTab_Slaves>Esclavos</EX_GroupTab_Slaves>
+  <!-- EN: Mechanoids -->
+  <EX_GroupTab_Mechs>Mecanoides</EX_GroupTab_Mechs>
+  <!-- EN: No colonists on this map can go on an expedition. -->
+  <EX_NoGroup_Colonists>Ningún colono de este mapa puede ir de expedición.</EX_NoGroup_Colonists>
+  <!-- EN: No slaves on this map can go on an expedition. -->
+  <EX_NoGroup_Slaves>Ningún esclavo de este mapa puede ir de expedición.</EX_NoGroup_Slaves>
+  <!-- EN: No mechanoids on this map can go on an expedition. -->
+  <EX_NoGroup_Mechs>Ningún mecanoide de este mapa puede ir de expedición.</EX_NoGroup_Mechs>
+  <!-- EN: Exp. Lv.{0} -->
+  <EX_PawnLevelShort>Nv. exp. {0}</EX_PawnLevelShort>
+  <!-- EN: Party skills -->
+  <EX_PartySkills>Habilidades del grupo</EX_PartySkills>
+  <!-- EN: Party traits -->
+  <EX_PartyTraits>Rasgos del grupo</EX_PartyTraits>
+  <!-- EN: Expedition effects by trait -->
+  <EX_TraitInfoTitle>Efectos de los rasgos en la expedición</EX_TraitInfoTitle>
+  <!-- EN: No member has a trait that affects expeditions. -->
+  <EX_NoTraitEffects>Ningún miembro tiene un rasgo que afecte a las expediciones.</EX_NoTraitEffects>
+  <!-- EN: {0} · {1}: {2} -->
+  <EX_TraitLine>{0} · {1}: {2}</EX_TraitLine>
+  <!-- EN: {0} events {1} -->
+  <EX_Fx_Weight>eventos de {0} {1}</EX_Fx_Weight>
+  <!-- EN: {0} {1} -->
+  <EX_Fx_Stat>{0} {1}</EX_Fx_Stat>
+  <!-- EN: safe escape after a lost fight {0} -->
+  <EX_Fx_Escape>huida segura tras perder un combate {0}</EX_Fx_Escape>
+  <!-- EN: own injuries {0} -->
+  <EX_Fx_Injury>heridas propias {0}</EX_Fx_Injury>
+  <!-- EN: party hunger {0} -->
+  <EX_Fx_Food>hambre del grupo {0}</EX_Fx_Food>
+  <!-- EN: party fatigue {0} -->
+  <EX_Fx_Rest>cansancio del grupo {0}</EX_Fx_Rest>
+  <!-- EN: own skill XP {0} -->
+  <EX_Fx_SkillXp>exp. propia de habilidades {0}</EX_Fx_SkillXp>
+  <!-- EN: loot {0} -->
+  <EX_Fx_Loot>botín {0}</EX_Fx_Loot>
+  <!-- EN: Party gear -->
+  <EX_PartyGear>Equipo del grupo</EX_PartyGear>
+  <!-- EN: Shooting +{0} · Melee +{1} · Injury reduction {2} -->
+  <EX_GearTotal>Tiro +{0} · Cuerpo a cuerpo +{1} · Reducción de heridas {2}</EX_GearTotal>
+  <!-- EN: {0} ({1} +{2}) -->
+  <EX_GearWeapon>{0} ({1} +{2})</EX_GearWeapon>
+  <!-- EN: {0}: {1} · armor {2} -->
+  <EX_GearMember>{0}: {1} · armadura {2}</EX_GearMember>
+  <!-- EN: Party experience -->
+  <EX_PartyExperience>Experiencia del grupo</EX_PartyExperience>
+  <!-- EN: All skills +{0} -->
+  <EX_ExpTotal>Todas las habilidades +{0}</EX_ExpTotal>
+  <!-- EN: Expedition Lv.{0}: all skills +{1} · great expedition chance {2} -->
+  <EX_ExpTeam>Nv. de expedición {0}: todas las habilidades +{1} · probabilidad de una gran expedición {2}</EX_ExpTeam>
+  <!-- EN: {0} exp. Lv.{1} ({2}): all skills +{3} -->
+  <EX_ExpMember>{0}, nv. exp. {1} ({2}): todas las habilidades +{3}</EX_ExpMember>
+  <!-- EN: {0}/{1} -->
+  <EX_PawnXp>{0}/{1}</EX_PawnXp>
+  <!-- EN: Every member has a personal expedition level that rises with each trip; each level adds +{0} to all skills. -->
+  <EX_ExpPawnHint>Cada miembro tiene un nivel de expedición propio, que sube con cada viaje; cada nivel suma +{0} a todas las habilidades.</EX_ExpPawnHint>
+  <!-- EN: Thanks to {0}&apos;s quick thinking, the party slipped away without a scratch. -->
+  <EX_Ev_CombatEscape>Gracias a la rapidez de {0}, el grupo escapó sin un rasguño.</EX_Ev_CombatEscape>
+  <!-- EN: Preparation -->
+  <EX_Prep>Preparación</EX_Prep>
+  <!-- EN: An expedition is already out. -->
+  <EX_AlreadyOut>Ya hay una expedición afuera.</EX_AlreadyOut>
+  <!-- EN: Request board -->
+  <EX_ReqBoard>Tablón de encargos</EX_ReqBoard>
+  <!-- EN: Take requests -->
+  <EX_ReqReceive>Recibir encargos</EX_ReqReceive>
+  <!-- EN: While on, a new request comes in every 2-4 days or so. Up to 4 requests can be open at once. -->
+  <EX_ReqReceiveTip>Mientras está activado, llega un encargo nuevo cada 2 a 4 días, más o menos. Puede haber hasta 4 encargos abiertos a la vez.</EX_ReqReceiveTip>
+  <!-- EN: Difficulty -->
+  <EX_ReqDiffLabel>Dificultad</EX_ReqDiffLabel>
+  <!-- EN: Mixed -->
+  <EX_ReqDiff_Mixed>Mixta</EX_ReqDiff_Mixed>
+  <!-- EN: Difficulty of incoming requests. Mixed sends a mix of Easy and Hard. Requests already on the board are not affected. -->
+  <EX_ReqDiffTip>Dificultad de los encargos que llegan. «Mixta» manda una mezcla de Fácil y Difícil. No cambia los encargos que ya están en el tablón.</EX_ReqDiffTip>
+  <!-- EN: Next request in about {0} -->
+  <EX_ReqNext>Próximo encargo en unos {0}</EX_ReqNext>
+  <!-- EN: [Dev] Post request -->
+  <EX_DevPostRequest>[Dev] Publicar un encargo</EX_DevPostRequest>
+  <!-- EN: No requests yet. -->
+  <EX_ReqNone>Todavía no hay encargos.</EX_ReqNone>
+  <!-- EN: Taking requests is turned off. -->
+  <EX_ReqNoneOff>Recibir encargos está desactivado.</EX_ReqNoneOff>
+  <!-- EN: {0} · {1} day(s) · {2} -->
+  <EX_ReqCardInfo>{0} · {1} día(s) · {2}</EX_ReqCardInfo>
+  <!-- EN: Accept within: {0} -->
+  <EX_ReqExpiresIn>Aceptar antes de: {0}</EX_ReqExpiresIn>
+  <!-- EN: Request -->
+  <EX_ReqPrep>Encargo</EX_ReqPrep>
+  <!-- EN: Pick a request from the board above. -->
+  <EX_ReqPickOne>Elige un encargo del tablón de arriba.</EX_ReqPickOne>
+  <!-- EN: Accept and depart -->
+  <EX_ReqStart>Aceptar y partir</EX_ReqStart>
+  <!-- EN: Client: {0} -->
+  <EX_ReqClient>Cliente: {0}</EX_ReqClient>
+  <!-- EN: Needed skills -->
+  <EX_ReqSkills>Habilidades necesarias</EX_ReqSkills>
+  <!-- EN: {0} day(s) · {1} (set by the request) -->
+  <EX_ReqFixed>{0} día(s) · {1} (los fija el encargo)</EX_ReqFixed>
+  <!-- EN: Reward (on success) -->
+  <EX_ReqRewards>Recompensa (si sale bien)</EX_ReqRewards>
+  <!-- EN: Verdict C or better pays the full reward, D pays half. Anything lower, or ending the expedition early, pays nothing. -->
+  <EX_ReqRule>Con un veredicto C o mejor se paga la recompensa completa, y con D, la mitad. Con menos, o si la expedición se termina antes de tiempo, no se paga nada.</EX_ReqRule>
+  <!-- EN: Wandering Traders&apos; Guild -->
+  <EX_ReqClientWanderer>Gremio de Comerciantes Errantes</EX_ReqClientWanderer>
+  <!-- EN: Go to the request tab -->
+  <EX_ReqGoto>Ir a la pestaña de encargos</EX_ReqGoto>
+  <!-- EN: New request: {0} -->
+  <EX_ReqLetterLabel>Encargo nuevo: {0}</EX_ReqLetterLabel>
+  <!-- EN: A new request has arrived from {0}.\n\n[{1}]\n&quot;{2}&quot;\n\nNeeded skills: {3}\nDuration: {4} day(s) · Difficulty: {5}\nReward: {6}\n\nAccept within: {7} -->
+  <EX_ReqLetterText>Llegó un encargo nuevo de {0}.\n\n[{1}]\n«{2}»\n\nHabilidades necesarias: {3}\nDuración: {4} día(s) · Dificultad: {5}\nRecompensa: {6}\n\nAceptar antes de: {7}</EX_ReqLetterText>
+  <!-- EN: [Request reward] -->
+  <EX_ReqRewardTag>[Recompensa de encargo]</EX_ReqRewardTag>
+  <!-- EN: Failed -->
+  <EX_ReqOutcome_0>Fracaso</EX_ReqOutcome_0>
+  <!-- EN: Partial success -->
+  <EX_ReqOutcome_1>Éxito parcial</EX_ReqOutcome_1>
+  <!-- EN: Success -->
+  <EX_ReqOutcome_2>Éxito</EX_ReqOutcome_2>
+  <!-- EN: Setting out to fulfil {0}&apos;s request &apos;{1}&apos;. -->
+  <EX_ReqDepartLog>Partiendo a cumplir el encargo «{1}» de {0}.</EX_ReqDepartLog>
+  <!-- EN: Request: {0} — {1} -->
+  <EX_HistRequest>Encargo: {0} — {1}</EX_HistRequest>
+  <!-- EN: Suppression -->
+  <EX_ReqStyle_Combat>Eliminación</EX_ReqStyle_Combat>
+  <!-- EN: Hunt -->
+  <EX_ReqStyle_Hunt>Caza</EX_ReqStyle_Hunt>
+  <!-- EN: Gathering -->
+  <EX_ReqStyle_Gather>Recolección</EX_ReqStyle_Gather>
+  <!-- EN: Relief -->
+  <EX_ReqStyle_Medical>Socorro</EX_ReqStyle_Medical>
+  <!-- EN: Survey -->
+  <EX_ReqStyle_Research>Reconocimiento</EX_ReqStyle_Research>
+  <!-- EN: Escort -->
+  <EX_ReqStyle_Escort>Escolta</EX_ReqStyle_Escort>
+  <!-- EN: Raider Sweep -->
+  <EX_ReqTitle_Combat_0>Barrido de saqueadores</EX_ReqTitle_Combat_0>
+  <!-- EN: Pirate Hunt -->
+  <EX_ReqTitle_Combat_1>Cacería de piratas</EX_ReqTitle_Combat_1>
+  <!-- EN: Rogue Machine Takedown -->
+  <EX_ReqTitle_Combat_2>Derribo de máquinas descontroladas</EX_ReqTitle_Combat_2>
+  <!-- EN: Beast Hunt -->
+  <EX_ReqTitle_Hunt_0>Caza de la bestia</EX_ReqTitle_Hunt_0>
+  <!-- EN: Winter Meat Stockpile -->
+  <EX_ReqTitle_Hunt_1>Reserva de carne para el invierno</EX_ReqTitle_Hunt_1>
+  <!-- EN: Hunting Contest Rematch -->
+  <EX_ReqTitle_Hunt_2>Revancha del concurso de caza</EX_ReqTitle_Hunt_2>
+  <!-- EN: Herb Gathering -->
+  <EX_ReqTitle_Gather_0>Recolección de hierbas</EX_ReqTitle_Gather_0>
+  <!-- EN: Rare Plant Collection -->
+  <EX_ReqTitle_Gather_1>Colecta de plantas raras</EX_ReqTitle_Gather_1>
+  <!-- EN: Wild Fruit Harvest -->
+  <EX_ReqTitle_Gather_2>Cosecha de fruta silvestre</EX_ReqTitle_Gather_2>
+  <!-- EN: Fever Village Relief -->
+  <EX_ReqTitle_Medical_0>Socorro a la aldea de la fiebre</EX_ReqTitle_Medical_0>
+  <!-- EN: Treating the Wounded -->
+  <EX_ReqTitle_Medical_1>Atender a los heridos</EX_ReqTitle_Medical_1>
+  <!-- EN: Relief Supply Run -->
+  <EX_ReqTitle_Medical_2>Envío de suministros de socorro</EX_ReqTitle_Medical_2>
+  <!-- EN: Ancient Ruins Survey -->
+  <EX_ReqTitle_Research_0>Reconocimiento de ruinas antiguas</EX_ReqTitle_Research_0>
+  <!-- EN: Cracking the Sealed Vault -->
+  <EX_ReqTitle_Research_1>Abrir la bóveda sellada</EX_ReqTitle_Research_1>
+  <!-- EN: Data Recovery from the Wreck -->
+  <EX_ReqTitle_Research_2>Recuperar datos de los restos</EX_ReqTitle_Research_2>
+  <!-- EN: Caravan Escort -->
+  <EX_ReqTitle_Escort_0>Escolta de caravana</EX_ReqTitle_Escort_0>
+  <!-- EN: Envoy Protection -->
+  <EX_ReqTitle_Escort_1>Protección de un enviado</EX_ReqTitle_Escort_1>
+  <!-- EN: Supply Column Escort -->
+  <EX_ReqTitle_Escort_2>Escolta de un convoy de suministros</EX_ReqTitle_Escort_2>
+  <!-- EN: Pirates have camped on the road outside our village. Their toll is &apos;everything you own.&apos; We gave up on negotiating. -->
+  <EX_ReqQuote_Combat_0>Unos piratas acamparon en el camino a las afueras de nuestra aldea. Su peaje es «todo lo que tienes». Dejamos de negociar.</EX_ReqQuote_Combat_0>
+  <!-- EN: Someone steals our chickens every night. The culprits are seven armed raiders. Those must be some chickens. -->
+  <EX_ReqQuote_Combat_1>Alguien nos roba las gallinas todas las noches. Los culpables son siete saqueadores armados. Deben ser unas gallinas muy especiales.</EX_ReqQuote_Combat_1>
+  <!-- EN: A broken machine has decided our field is the enemy. What did the potatoes ever do? -->
+  <EX_ReqQuote_Combat_2>Una máquina averiada decidió que nuestro campo es el enemigo. ¿Qué le hicieron las papas?</EX_ReqQuote_Combat_2>
+  <!-- EN: We hired mercenaries. The mercenaries ran away. So we&apos;re calling you. You won&apos;t run, right? -->
+  <EX_ReqQuote_Combat_3>Contratamos mercenarios. Los mercenarios huyeron. Así que te llamamos a ti. Tú no vas a huir, ¿verdad?</EX_ReqQuote_Combat_3>
+  <!-- EN: The raider boss stole our chief&apos;s hat. Forget the hat. Teach the boss a lesson. -->
+  <EX_ReqQuote_Combat_4>El jefe de los saqueadores le robó el sombrero a nuestro jefe. Olvídate del sombrero. Dale una lección al jefe.</EX_ReqQuote_Combat_4>
+  <!-- EN: Bandits are charging a toll on the bridge. We built that bridge. -->
+  <EX_ReqQuote_Combat_5>Unos bandidos cobran peaje en el puente. Ese puente lo construimos nosotros.</EX_ReqQuote_Combat_5>
+  <!-- EN: There aren&apos;t many of them, according to our scout. Our scout can only count to three. -->
+  <EX_ReqQuote_Combat_6>Según nuestro explorador, no son muchos. Nuestro explorador solo sabe contar hasta tres.</EX_ReqQuote_Combat_6>
+  <!-- EN: Anyone who can shoot will do. Anyone who knows which end of the gun to hold, even better. -->
+  <EX_ReqQuote_Combat_7>Sirve cualquiera que sepa disparar. Si sabe de qué lado se agarra el arma, mejor todavía.</EX_ReqQuote_Combat_7>
+  <!-- EN: The pirates sent a letter announcing they&apos;ll rob our storehouse. Polite of them. Please stop them anyway. -->
+  <EX_ReqQuote_Combat_8>Los piratas mandaron una carta para avisar que van a robar nuestro almacén. Muy amables. Igual, por favor, detenlos.</EX_ReqQuote_Combat_8>
+  <!-- EN: A pack of machines woke up in the ruins. Whoever woke them is currently reflecting on their choices. -->
+  <EX_ReqQuote_Combat_9>Una manada de máquinas despertó en las ruinas. Quien las despertó está reflexionando ahora sobre sus decisiones.</EX_ReqQuote_Combat_9>
+  <!-- EN: Our guard captain is very brave. He&apos;s just under his bed right now. Please come instead. -->
+  <EX_ReqQuote_Combat_10>El capitán de nuestra guardia es muy valiente. Solo que ahora está debajo de su cama. Por favor, ven tú.</EX_ReqQuote_Combat_10>
+  <!-- EN: They&apos;re armed, angry and hungry. Solve the third one and you&apos;ve half won. -->
+  <EX_ReqQuote_Combat_11>Están armados, enojados y hambrientos. Resuelve lo tercero y tienes media batalla ganada.</EX_ReqQuote_Combat_11>
+  <!-- EN: We sent a letter hoping to settle this peacefully. The reply was a molotov. -->
+  <EX_ReqQuote_Combat_12>Mandamos una carta con la esperanza de arreglarlo en paz. La respuesta fue un cóctel molotov.</EX_ReqQuote_Combat_12>
+  <!-- EN: The pay is generous, if you come back alive. That&apos;s a joke. Probably. -->
+  <EX_ReqQuote_Combat_13>La paga es generosa, si vuelves con vida. Es una broma. Probablemente.</EX_ReqQuote_Combat_13>
+  <!-- EN: We know where their hideout is. Their singing is so awful you can&apos;t miss it. -->
+  <EX_ReqQuote_Combat_14>Sabemos dónde está su guarida. Cantan tan mal que no hay forma de no encontrarla.</EX_ReqQuote_Combat_14>
+  <!-- EN: A gang wearing boar masks has been spotted. They&apos;re scarier than real boars. -->
+  <EX_ReqQuote_Combat_15>Vieron a una banda con máscaras de jabalí. Dan más miedo que los jabalíes de verdad.</EX_ReqQuote_Combat_15>
+  <!-- EN: They&apos;ve started calling our village &apos;the place you can just rob.&apos; Restore our honor. -->
+  <EX_ReqQuote_Combat_16>Empezaron a llamar a nuestra aldea «el lugar que se puede robar sin más». Devuélvenos el honor.</EX_ReqQuote_Combat_16>
+  <!-- EN: Five good fighters is all we need. We already have five bad ones. -->
+  <EX_ReqQuote_Combat_17>Solo necesitamos cinco buenos combatientes. Cinco malos ya tenemos.</EX_ReqQuote_Combat_17>
+  <!-- EN: A huge beast uses our fence as a toothpick. Turn it into dinner. -->
+  <EX_ReqQuote_Hunt_0>Una bestia enorme usa nuestra cerca de mondadientes. Conviértela en la cena.</EX_ReqQuote_Hunt_0>
+  <!-- EN: Winter is coming and the meat store is empty. Only echoes in there. -->
+  <EX_ReqQuote_Hunt_1>Se viene el invierno y la despensa de carne está vacía. Ahí adentro solo hay eco.</EX_ReqQuote_Hunt_1>
+  <!-- EN: The village feast is next week and the guest of honor (the meat) is still alive in the woods. -->
+  <EX_ReqQuote_Hunt_2>El banquete de la aldea es la próxima semana, y el invitado de honor (la carne) sigue vivo en el bosque.</EX_ReqQuote_Hunt_2>
+  <!-- EN: Wolves are after our sheep. The sheep have already written their wills. -->
+  <EX_ReqQuote_Hunt_3>Los lobos andan tras nuestras ovejas. Las ovejas ya escribieron su testamento.</EX_ReqQuote_Hunt_3>
+  <!-- EN: Hunt some deer. Except the one the elder named &apos;Sparkles.&apos; Not that you could tell them apart. -->
+  <EX_ReqQuote_Hunt_4>Caza algunos ciervos. Menos el que el anciano bautizó «Chispitas». Aunque no sabrías distinguirlos.</EX_ReqQuote_Hunt_4>
+  <!-- EN: We need leather. A lot of it. Don&apos;t ask why. Fashion doesn&apos;t explain itself. -->
+  <EX_ReqQuote_Hunt_5>Necesitamos cuero. Mucho. No preguntes para qué. La moda no da explicaciones.</EX_ReqQuote_Hunt_5>
+  <!-- EN: The bear in the woods raided our honey pots. Now it&apos;s our turn to raid the bear. -->
+  <EX_ReqQuote_Hunt_6>El oso del bosque saqueó nuestros tarros de miel. Ahora nos toca saquear al oso.</EX_ReqQuote_Hunt_6>
+  <!-- EN: We need someone who shoots straight and knows the forest. The last hunter managed one of the two. -->
+  <EX_ReqQuote_Hunt_7>Necesitamos a alguien que dispare derecho y conozca el bosque. El último cazador cumplía con una de las dos.</EX_ReqQuote_Hunt_7>
+  <!-- EN: One boar has terrorized the whole village. It now thinks it&apos;s king. -->
+  <EX_ReqQuote_Hunt_8>Un solo jabalí tiene aterrorizada a toda la aldea. Ahora cree que es el rey.</EX_ReqQuote_Hunt_8>
+  <!-- EN: We&apos;ll split the meat. No, wait, you&apos;re getting paid separately, so we&apos;ll keep all the meat. -->
+  <EX_ReqQuote_Hunt_9>Nos repartiremos la carne. No, espera: a ti te pagan aparte, así que nos quedamos con toda la carne.</EX_ReqQuote_Hunt_9>
+  <!-- EN: The prey was so fast our hunter collapsed from exhaustion. We&apos;d like someone faster. -->
+  <EX_ReqQuote_Hunt_10>La presa era tan rápida que nuestro cazador cayó rendido de cansancio. Queremos a alguien más rápido.</EX_ReqQuote_Hunt_10>
+  <!-- EN: We found tracks. The footprints are as big as my head. Hence this request. -->
+  <EX_ReqQuote_Hunt_11>Encontramos rastros. Las huellas son tan grandes como mi cabeza. De ahí este encargo.</EX_ReqQuote_Hunt_11>
+  <!-- EN: The elk are migrating. Miss them and it&apos;s beans until next year. -->
+  <EX_ReqQuote_Hunt_12>Los ciervos canadienses están migrando. Si se nos escapan, comeremos frijoles hasta el año que viene.</EX_ReqQuote_Hunt_12>
+  <!-- EN: Just drive the predators off. &apos;Very thoroughly,&apos; please. -->
+  <EX_ReqQuote_Hunt_13>Solo espanta a los depredadores. «Muy a fondo», por favor.</EX_ReqQuote_Hunt_13>
+  <!-- EN: Our cook says he&apos;s going on strike if no meat arrives today. The village&apos;s fate is in your hands. -->
+  <EX_ReqQuote_Hunt_14>Nuestro cocinero dice que se va a ir a huelga si hoy no llega carne. El destino de la aldea está en tus manos.</EX_ReqQuote_Hunt_14>
+  <!-- EN: We lost the hunting contest to the next village. We need revenge. Tasty revenge. -->
+  <EX_ReqQuote_Hunt_15>Perdimos el concurso de caza contra la aldea vecina. Queremos venganza. Una venganza sabrosa.</EX_ReqQuote_Hunt_15>
+  <!-- EN: That beast is clever. It dodged our traps three times. You&apos;re trap number four. -->
+  <EX_ReqQuote_Hunt_16>Esa bestia es astuta. Esquivó nuestras trampas tres veces. Tú eres la trampa número cuatro.</EX_ReqQuote_Hunt_16>
+  <!-- EN: We need meat, leather, and a heroic story about how we did it. The story&apos;s a bonus. -->
+  <EX_ReqQuote_Hunt_17>Necesitamos carne, cuero y una historia heroica de cómo lo logramos. La historia es un extra.</EX_ReqQuote_Hunt_17>
+  <!-- EN: There&apos;s a patch of rare herbs over the mountain. Problem is, nobody wants to cross the mountain. -->
+  <EX_ReqQuote_Gather_0>Al otro lado de la montaña hay un parche de hierbas raras. El problema es que nadie quiere cruzar la montaña.</EX_ReqQuote_Gather_0>
+  <!-- EN: The harvest was poor this year. We&apos;ll need wild berries to make it through winter. -->
+  <EX_ReqQuote_Gather_1>La cosecha de este año fue mala. Vamos a necesitar bayas silvestres para pasar el invierno.</EX_ReqQuote_Gather_1>
+  <!-- EN: A botanist wants rare mushroom samples. Don&apos;t eat them. The last forager sang for three days straight. -->
+  <EX_ReqQuote_Gather_2>Un botánico quiere muestras de hongos raros. No te los comas. El último recolector se pasó tres días seguidos cantando.</EX_ReqQuote_Gather_2>
+  <!-- EN: We need someone who can tell herbs apart. The poisonous ones look exactly like the medicinal ones. That&apos;s the problem. -->
+  <EX_ReqQuote_Gather_3>Necesitamos a alguien que sepa distinguir las hierbas. Las venenosas son idénticas a las medicinales. Ese es el problema.</EX_ReqQuote_Gather_3>
+  <!-- EN: Grandma needs to brew an old remedy. The ingredient list is three scrolls long. -->
+  <EX_ReqQuote_Gather_4>La abuela tiene que preparar un remedio antiguo. La lista de ingredientes ocupa tres pergaminos.</EX_ReqQuote_Gather_4>
+  <!-- EN: The woods are full of fruit and we have no hands to pick it. Just lend us your hands. And feet. -->
+  <EX_ReqQuote_Gather_5>El bosque está lleno de fruta y no tenemos manos para recogerla. Solo préstanos las tuyas. Y los pies.</EX_ReqQuote_Gather_5>
+  <!-- EN: Bring us seeds for a new crop. Anything but potatoes this time, please. -->
+  <EX_ReqQuote_Gather_6>Tráenos semillas para un cultivo nuevo. Cualquier cosa menos papas esta vez, por favor.</EX_ReqQuote_Gather_6>
+  <!-- EN: We&apos;re holding a flower festival with no flowers. A flower festival without flowers is just a festival. -->
+  <EX_ReqQuote_Gather_7>Vamos a hacer un festival de las flores sin flores. Un festival de las flores sin flores es solo un festival.</EX_ReqQuote_Gather_7>
+  <!-- EN: We urgently need antidote herbs. Don&apos;t ask. My brother ate something off the ground again. -->
+  <EX_ReqQuote_Gather_8>Necesitamos hierbas antídoto con urgencia. No preguntes. Mi hermano volvió a comer algo del suelo.</EX_ReqQuote_Gather_8>
+  <!-- EN: We want to revive an abandoned orchard. Find the surviving trees and gather cuttings. -->
+  <EX_ReqQuote_Gather_9>Queremos revivir un huerto abandonado. Encuentra los árboles que sobrevivieron y junta esquejes.</EX_ReqQuote_Gather_9>
+  <!-- EN: The forest is big and easy to get lost in. We&apos;ll give you a map. We can&apos;t promise the map is right. -->
+  <EX_ReqQuote_Gather_10>El bosque es grande y es fácil perderse. Te daremos un mapa. No podemos prometer que el mapa esté bien.</EX_ReqQuote_Gather_10>
+  <!-- EN: We&apos;re looking for spice plants. Our village food is known as &apos;healthy but tasteless.&apos; -->
+  <EX_ReqQuote_Gather_11>Buscamos plantas para especias. La comida de nuestra aldea es famosa por ser «sana pero sin sabor».</EX_ReqQuote_Gather_11>
+  <!-- EN: Scholars want to study swamp plants. The scholars won&apos;t be the ones wading in. You will. -->
+  <EX_ReqQuote_Gather_12>Unos eruditos quieren estudiar plantas del pantano. Los que se meterán en el barro no serán los eruditos. Serás tú.</EX_ReqQuote_Gather_12>
+  <!-- EN: The herb merchant arrives next month. We need a full storehouse to save face. -->
+  <EX_ReqQuote_Gather_13>El mercader de hierbas llega el mes que viene. Necesitamos el almacén lleno para no quedar mal.</EX_ReqQuote_Gather_13>
+  <!-- EN: The mushrooms only glow at night. So you&apos;ll need to go into the forest at night. Good luck. -->
+  <EX_ReqQuote_Gather_14>Los hongos solo brillan de noche. Así que tendrás que entrar al bosque de noche. Buena suerte.</EX_ReqQuote_Gather_14>
+  <!-- EN: We&apos;ve prepared the baskets. They&apos;re a bit big. On purpose. -->
+  <EX_ReqQuote_Gather_15>Ya preparamos las canastas. Son un poco grandes. A propósito.</EX_ReqQuote_Gather_15>
+  <!-- EN: Find the rare flower and the chief will propose with it. Fail, and so does the chief&apos;s love life. -->
+  <EX_ReqQuote_Gather_16>Encuentra la flor rara y el jefe se declarará con ella. Si fallas, también fracasa la vida amorosa del jefe.</EX_ReqQuote_Gather_16>
+  <!-- EN: Anyone good with plants will do. Anyone who&apos;s never killed a houseplant, even better. -->
+  <EX_ReqQuote_Gather_17>Sirve cualquiera que se dé maña con las plantas. Si nunca se le murió una planta de interior, mejor todavía.</EX_ReqQuote_Gather_17>
+  <!-- EN: A fever is spreading through the village. We have one doctor, and the doctor is in bed too. -->
+  <EX_ReqQuote_Medical_0>Una fiebre se está extendiendo por la aldea. Tenemos un médico, y el médico también está en cama.</EX_ReqQuote_Medical_0>
+  <!-- EN: Injured travelers are stranded at the pass. Bring bandages and steady hands. -->
+  <EX_ReqQuote_Medical_1>Hay viajeros heridos atrapados en el paso. Trae vendas y manos firmes.</EX_ReqQuote_Medical_1>
+  <!-- EN: We just found out our healer faints at the sight of blood. Please help. -->
+  <EX_ReqQuote_Medical_2>Acabamos de descubrir que nuestro curandero se desmaya al ver sangre. Por favor, ayúdanos.</EX_ReqQuote_Medical_2>
+  <!-- EN: Lots of people were hurt in the landslide. They all say they&apos;re fine. They don&apos;t look fine. -->
+  <EX_ReqQuote_Medical_3>Mucha gente salió herida en el derrumbe. Todos dicen que están bien. No se ven bien.</EX_ReqQuote_Medical_3>
+  <!-- EN: It&apos;s not contagious. Probably. Bring a mask anyway. -->
+  <EX_ReqQuote_Medical_4>No es contagioso. Probablemente. Igual trae una máscara.</EX_ReqQuote_Medical_4>
+  <!-- EN: The refugee column has many wounded. They swear they&apos;ll never forget your kindness. For about a week. -->
+  <EX_ReqQuote_Medical_5>La columna de refugiados tiene muchos heridos. Juran que nunca olvidarán tu bondad. Por una semana, más o menos.</EX_ReqQuote_Medical_5>
+  <!-- EN: Deliver medical supplies to a remote clinic, and see a few patients while you&apos;re there. -->
+  <EX_ReqQuote_Medical_6>Lleva suministros médicos a una clínica remota, y ya que estás allí, atiende a algunos pacientes.</EX_ReqQuote_Medical_6>
+  <!-- EN: Our blacksmith hit his own finger with a hammer. Third time. Please do it properly this time. -->
+  <EX_ReqQuote_Medical_7>Nuestro herrero se golpeó un dedo con el martillo. Por tercera vez. Por favor, esta vez hazlo bien.</EX_ReqQuote_Medical_7>
+  <!-- EN: Seeking a brave doctor for a plague village. Bravery optional. Doctoring required. -->
+  <EX_ReqQuote_Medical_8>Se busca médico valiente para una aldea con peste. La valentía es opcional. Lo de médico, no.</EX_ReqQuote_Medical_8>
+  <!-- EN: The children won&apos;t stop coughing. The mothers can&apos;t sleep. Nobody can sleep. -->
+  <EX_ReqQuote_Medical_9>Los niños no paran de toser. Las madres no pueden dormir. Nadie puede dormir.</EX_ReqQuote_Medical_9>
+  <!-- EN: Teach us first aid. Our current method is &apos;spit on it.&apos; -->
+  <EX_ReqQuote_Medical_10>Enséñanos primeros auxilios. Nuestro método actual es «escupirle encima».</EX_ReqQuote_Medical_10>
+  <!-- EN: An injured patrol can&apos;t make it back. Patching them up so they can walk is faster than carrying them. -->
+  <EX_ReqQuote_Medical_11>Una patrulla herida no puede volver. Curarlos para que puedan caminar es más rápido que cargarlos.</EX_ReqQuote_Medical_11>
+  <!-- EN: We have medicine. We just don&apos;t know how to use it. The goat ate the instructions. -->
+  <EX_ReqQuote_Medical_12>Tenemos medicina. Lo que no sabemos es usarla. La cabra se comió las instrucciones.</EX_ReqQuote_Medical_12>
+  <!-- EN: An old hermit is sick up in the mountains. He&apos;s too stubborn to come down, so you&apos;ll have to go up. -->
+  <EX_ReqQuote_Medical_13>Un viejo ermitaño está enfermo allá en las montañas. Es demasiado terco para bajar, así que tendrás que subir tú.</EX_ReqQuote_Medical_13>
+  <!-- EN: Three people were bitten by a viper. Please come before it&apos;s four. The snake is still there. -->
+  <EX_ReqQuote_Medical_14>A tres personas las mordió una víbora. Por favor, ven antes de que sean cuatro. La serpiente sigue ahí.</EX_ReqQuote_Medical_14>
+  <!-- EN: A mother is about to give birth and the midwife is on holiday. Hurry. Babies don&apos;t take holidays. -->
+  <EX_ReqQuote_Medical_15>Una madre está por dar a luz y la partera está de vacaciones. Apúrate. Los bebés no se toman vacaciones.</EX_ReqQuote_Medical_15>
+  <!-- EN: Our village medicine is &apos;rest and it&apos;ll pass.&apos; Someone rested and it didn&apos;t pass. -->
+  <EX_ReqQuote_Medical_16>La medicina de nuestra aldea es «descansa y se te pasa». Alguien descansó y no se le pasó.</EX_ReqQuote_Medical_16>
+  <!-- EN: We need someone good at healing and someone clever. If it&apos;s the same person, no discount. -->
+  <EX_ReqQuote_Medical_17>Necesitamos a alguien que sepa curar y a alguien listo. Si es la misma persona, no hay descuento.</EX_ReqQuote_Medical_17>
+  <!-- EN: Open the sealed door of the ancient ruins. The only thing we&apos;ve ever opened is a lunchbox. -->
+  <EX_ReqQuote_Research_0>Abre la puerta sellada de las ruinas antiguas. Lo único que hemos abierto alguna vez es una lonchera.</EX_ReqQuote_Research_0>
+  <!-- EN: The academy is waiting for our ruins survey. The deadline was yesterday. -->
+  <EX_ReqQuote_Research_1>La academia está esperando nuestro reconocimiento de las ruinas. El plazo venció ayer.</EX_ReqQuote_Research_1>
+  <!-- EN: We&apos;re picking up strange signals from underground. Our radio plays beeps instead of music. -->
+  <EX_ReqQuote_Research_2>Captamos señales extrañas que vienen del subsuelo. Nuestra radio pone pitidos en vez de música.</EX_ReqQuote_Research_2>
+  <!-- EN: The ruins are full of traps. Luckily we know where they are. Most of them. -->
+  <EX_ReqQuote_Research_3>Las ruinas están llenas de trampas. Por suerte sabemos dónde están. Casi todas.</EX_ReqQuote_Research_3>
+  <!-- EN: We need someone who reads ancient script. Our scholar thinks it&apos;s a shopping list. -->
+  <EX_ReqQuote_Research_4>Necesitamos a alguien que lea escritura antigua. Nuestro erudito cree que es una lista de compras.</EX_ReqQuote_Research_4>
+  <!-- EN: Recover data from a collapsed lab. Don&apos;t touch anything shiny. Shiny is the most dangerous. -->
+  <EX_ReqQuote_Research_5>Recupera los datos de un laboratorio derrumbado. No toques nada brillante. Lo brillante es lo más peligroso.</EX_ReqQuote_Research_5>
+  <!-- EN: We got a map of the ruins. It says &apos;do not go here.&apos; So we&apos;re going. -->
+  <EX_ReqQuote_Research_6>Conseguimos un mapa de las ruinas. Dice «no vayan aquí». Así que vamos.</EX_ReqQuote_Research_6>
+  <!-- EN: Ancient machine parts were found in the catacombs. The problem is, they still move. -->
+  <EX_ReqQuote_Research_7>Encontraron piezas de máquinas antiguas en las catacumbas. El problema es que todavía se mueven.</EX_ReqQuote_Research_7>
+  <!-- EN: Open the old vault and we&apos;ll share the loot. We don&apos;t know the code. That&apos;s the whole point. -->
+  <EX_ReqQuote_Research_8>Abre la vieja bóveda y nos repartimos el botín. No sabemos la clave. De eso se trata.</EX_ReqQuote_Research_8>
+  <!-- EN: Solve the puzzle inside the ruins. Our brightest mind is still standing at the door, thinking. -->
+  <EX_ReqQuote_Research_9>Resuelve el acertijo dentro de las ruinas. Nuestra mente más brillante sigue parada en la puerta, pensando.</EX_ReqQuote_Research_9>
+  <!-- EN: An ancient device glows every night. Nobody can sleep. Just tell us what it is. -->
+  <EX_ReqQuote_Research_10>Un aparato antiguo brilla todas las noches. Nadie puede dormir. Solo dinos qué es.</EX_ReqQuote_Research_10>
+  <!-- EN: The diggers ran away mid-excavation. They heard something. The wind, surely. Probably. -->
+  <EX_ReqQuote_Research_11>Los excavadores huyeron a mitad de la excavación. Oyeron algo. El viento, seguro. Probablemente.</EX_ReqQuote_Research_11>
+  <!-- EN: We need an appraisal. The thing we call &apos;treasure&apos; might be a chamber pot. -->
+  <EX_ReqQuote_Research_12>Necesitamos una tasación. Lo que llamamos «tesoro» podría ser una bacinica.</EX_ReqQuote_Research_12>
+  <!-- EN: Record the cave paintings. Don&apos;t check whether the monster in them was real. -->
+  <EX_ReqQuote_Research_13>Registra las pinturas rupestres. No compruebes si el monstruo que sale en ellas era real.</EX_ReqQuote_Research_13>
+  <!-- EN: An ancient library is about to flood. Save as many books as you can. -->
+  <EX_ReqQuote_Research_14>Una biblioteca antigua está por inundarse. Salva todos los libros que puedas.</EX_ReqQuote_Research_14>
+  <!-- EN: The entrance is locked with a riddle. We&apos;ve worked out the answer isn&apos;t &apos;potato.&apos; -->
+  <EX_ReqQuote_Research_15>La entrada está cerrada con un acertijo. Ya descubrimos que la respuesta no es «papa».</EX_ReqQuote_Research_15>
+  <!-- EN: There are usable parts left in the ship wreckage, they say. Whether the wreckage is still &apos;usable&apos; is another matter. -->
+  <EX_ReqQuote_Research_16>Dicen que en los restos de la nave quedan piezas que sirven. Si los restos todavía «sirven» es otro tema.</EX_ReqQuote_Research_16>
+  <!-- EN: We want someone sharp and quick on their feet. Ruins love clever people, and traps love slow ones. -->
+  <EX_ReqQuote_Research_17>Queremos a alguien despierto y ágil. A las ruinas les encantan los listos, y a las trampas, los lentos.</EX_ReqQuote_Research_17>
+  <!-- EN: A caravan has to cross a rough road. Please guard the people, not just the cargo. -->
+  <EX_ReqQuote_Escort_0>Una caravana tiene que cruzar un camino difícil. Por favor, cuida a la gente, no solo la carga.</EX_ReqQuote_Escort_0>
+  <!-- EN: Escort an important guest to the next settlement. The guest talks nonstop. That&apos;s a hazard too. -->
+  <EX_ReqQuote_Escort_1>Escolta a un invitado importante hasta el próximo asentamiento. El invitado no para de hablar. Eso también es un peligro.</EX_ReqQuote_Escort_1>
+  <!-- EN: Carry this medicine chest safely. Don&apos;t shake it. We won&apos;t tell you what&apos;s inside. -->
+  <EX_ReqQuote_Escort_2>Lleva este cofre de medicinas sano y salvo. No lo sacudas. No te vamos a decir qué hay adentro.</EX_ReqQuote_Escort_2>
+  <!-- EN: Guard the wedding procession. The groom&apos;s relatives and the bride&apos;s relatives are traveling together. That&apos;s the real danger. -->
+  <EX_ReqQuote_Escort_3>Protege el cortejo de la boda. Los parientes del novio y los de la novia viajan juntos. Ese es el verdadero peligro.</EX_ReqQuote_Escort_3>
+  <!-- EN: A group of scholars is heading out for fieldwork. Protect them, and patch them up. Scholars get hurt a lot. -->
+  <EX_ReqQuote_Escort_4>Un grupo de eruditos sale a hacer trabajo de campo. Protégelos, y cúralos. Los eruditos se lastiman mucho.</EX_ReqQuote_Escort_4>
+  <!-- EN: We&apos;re moving a chest of silver. The pirates know. How they know is a mystery to us too. -->
+  <EX_ReqQuote_Escort_5>Vamos a trasladar un cofre de plata. Los piratas lo saben. Cómo lo saben es un misterio también para nosotros.</EX_ReqQuote_Escort_5>
+  <!-- EN: Escort the pilgrims to the holy site. They insist on walking. Very slowly. -->
+  <EX_ReqQuote_Escort_6>Escolta a los peregrinos hasta el lugar sagrado. Insisten en ir a pie. Muy despacio.</EX_ReqQuote_Escort_6>
+  <!-- EN: Take the new settler families there. Four kids, two goats and a ridiculous amount of luggage. -->
+  <EX_ReqQuote_Escort_7>Lleva hasta allá a las familias de colonos nuevos. Cuatro niños, dos cabras y una cantidad ridícula de equipaje.</EX_ReqQuote_Escort_7>
+  <!-- EN: Deliver the mail. Sounds easy? The last courier lost it to wolves. -->
+  <EX_ReqQuote_Escort_8>Entrega el correo. ¿Suena fácil? El último mensajero lo perdió a manos de los lobos.</EX_ReqQuote_Escort_8>
+  <!-- EN: A noble&apos;s child wants an &apos;adventure.&apos; Give them one without a scratch. Adventurous, but safe. -->
+  <EX_ReqQuote_Escort_9>El hijo de un noble quiere una «aventura». Dásela sin un rasguño. Aventurera, pero segura.</EX_ReqQuote_Escort_9>
+  <!-- EN: Guard the convoy of wounded. Bring medical skills so nobody collapses on the road. -->
+  <EX_ReqQuote_Escort_10>Protege el convoy de heridos. Trae habilidades médicas para que nadie se desplome en el camino.</EX_ReqQuote_Escort_10>
+  <!-- EN: Protect the diplomatic envoy. If talks go badly you&apos;ll need to run, so wear good shoes. -->
+  <EX_ReqQuote_Escort_11>Protege a la comitiva diplomática. Si las conversaciones salen mal, tendrás que correr, así que ponte buenos zapatos.</EX_ReqQuote_Escort_11>
+  <!-- EN: We&apos;re hauling grain to the next village. To starving raiders it looks like a treasure chest. -->
+  <EX_ReqQuote_Escort_12>Vamos a llevar grano a la aldea vecina. Para unos saqueadores muertos de hambre, eso parece un cofre del tesoro.</EX_ReqQuote_Escort_12>
+  <!-- EN: Our chief is attending the talks in person. The chief can&apos;t fight. Arguing, though, he&apos;s great at. -->
+  <EX_ReqQuote_Escort_13>Nuestro jefe va a ir en persona a las conversaciones. El jefe no sabe pelear. Discutir, en cambio, se le da de maravilla.</EX_ReqQuote_Escort_13>
+  <!-- EN: The medicine convoy has been ambushed twice. Make sure there isn&apos;t a third time. -->
+  <EX_ReqQuote_Escort_14>Ya emboscaron dos veces al convoy de medicinas. Asegúrate de que no haya una tercera.</EX_ReqQuote_Escort_14>
+  <!-- EN: Escort the traveling circus. The lion is on our side. Probably. -->
+  <EX_ReqQuote_Escort_15>Escolta al circo ambulante. El león está de nuestro lado. Probablemente.</EX_ReqQuote_Escort_15>
+  <!-- EN: It&apos;s a night road, so we need a gunslinger and a doctor. If everyone&apos;s alive by morning, you&apos;ve succeeded. -->
+  <EX_ReqQuote_Escort_16>Es un camino nocturno, así que necesitamos a un pistolero y a un médico. Si al amanecer todos siguen vivos, lo lograste.</EX_ReqQuote_Escort_16>
+  <!-- EN: The load is heavy, the road is long and the enemies are many. But so is the pay. Fair, right? -->
+  <EX_ReqQuote_Escort_17>La carga es pesada, el camino es largo y los enemigos son muchos. Pero la paga también es mucha. Justo, ¿no?</EX_ReqQuote_Escort_17>
+  <!-- EN: Can&apos;t walk -->
+  <EX_Unavailable_Immobile>No puede caminar</EX_Unavailable_Immobile>
+  <!-- EN: Hurt -{0} -->
+  <EX_InjuredShort>Heridas -{0}</EX_InjuredShort>
+  <!-- EN: Injured. Brings only {0} of their skills on an expedition. -->
+  <EX_InjuredTip>Con heridas. En una expedición aporta solo el {0} de sus habilidades.</EX_InjuredTip>
+  <!-- EN: {0}: injured, brings only {1} of their skills. -->
+  <EX_InjuredLine>{0}: con heridas, aporta solo el {1} de sus habilidades.</EX_InjuredLine>
+  <!-- EN: Expedition lodge -->
+  <EX_Tab_Lodge>Albergue de la expedición</EX_Tab_Lodge>
+  <!-- EN: Active effects -->
+  <EX_ActiveEffects>Efectos activos</EX_ActiveEffects>
+  <!-- EN: These effects are applied in the actual game, to every colonist. (You can also see them under &apos;expedition relic effects&apos; in a colonist&apos;s health tab.) -->
+  <EX_ActiveEffectsNote>Estos efectos se aplican en la partida misma, a todos los colonos. (También los puedes ver en «efectos de las reliquias de expedición», en la pestaña de salud de cada colono).</EX_ActiveEffectsNote>
+  <!-- EN: No effects yet. Find relics or place furniture in the lodge. -->
+  <EX_ActiveEffectsNone>Todavía no hay efectos. Encuentra reliquias o pon muebles en el albergue.</EX_ActiveEffectsNone>
+  <!-- EN: Expedition lodge: {0} -->
+  <EX_LodgeEffectLine>Albergue de la expedición: {0}</EX_LodgeEffectLine>
+  <!-- EN: Chalice of Vitality -->
+  <EX_Relic_Vitality>Cáliz de la vitalidad</EX_Relic_Vitality>
+  <!-- EN: Censer of Serenity -->
+  <EX_Relic_Serenity>Incensario de la serenidad</EX_Relic_Serenity>
+  <!-- EN: Pillow of Deep Sleep -->
+  <EX_Relic_Slumber>Almohada del sueño profundo</EX_Relic_Slumber>
+  <!-- EN: Silver-Tongued Quill -->
+  <EX_Relic_Eloquence>Pluma de la elocuencia</EX_Relic_Eloquence>
+  <!-- EN: Miner&apos;s Pickaxe -->
+  <EX_Relic_Miner>Pico del minero</EX_Relic_Miner>
+  <!-- EN: Colonist immunity gain speed {0} -->
+  <EX_RelicDesc_Vitality>Velocidad de inmunización de los colonos {0}</EX_RelicDesc_Vitality>
+  <!-- EN: Colonist mental break threshold {0} -->
+  <EX_RelicDesc_Serenity>Umbral de colapso mental de los colonos {0}</EX_RelicDesc_Serenity>
+  <!-- EN: Colonist rest rate {0} -->
+  <EX_RelicDesc_Slumber>Tasa de reposo de los colonos {0}</EX_RelicDesc_Slumber>
+  <!-- EN: Colonist social impact {0} -->
+  <EX_RelicDesc_Eloquence>Impacto social de los colonos {0}</EX_RelicDesc_Eloquence>
+  <!-- EN: Colonist mining speed {0} -->
+  <EX_RelicDesc_Miner>Velocidad de minería de los colonos {0}</EX_RelicDesc_Miner>
+  <!-- EN: Someone with a cold took one sip and the cold ran away. So did they. -->
+  <EX_RelicFlavor_Vitality>Alguien con un resfriado tomó un sorbo y el resfriado salió huyendo. Y esa persona también.</EX_RelicFlavor_Vitality>
+  <!-- EN: One whiff calms you right down. So far down you sometimes forget the question. -->
+  <EX_RelicFlavor_Serenity>Con una sola inhalación te calmas de golpe. Tanto que a veces se te olvida la pregunta.</EX_RelicFlavor_Serenity>
+  <!-- EN: Lie on it and you&apos;re asleep in three seconds. Whoever has to carry it suffers the most. -->
+  <EX_RelicFlavor_Slumber>Te acuestas encima y te duermes en tres segundos. El que más sufre es quien tiene que cargarla.</EX_RelicFlavor_Slumber>
+  <!-- EN: No one has ever turned down an apology written with this quill. -->
+  <EX_RelicFlavor_Eloquence>Nadie ha rechazado nunca una disculpa escrita con esta pluma.</EX_RelicFlavor_Eloquence>
+  <!-- EN: Rocks split on their own. The pickaxe just has to glare at them. -->
+  <EX_RelicFlavor_Miner>Las rocas se parten solas. Al pico le basta con mirarlas feo.</EX_RelicFlavor_Miner>
+  <!-- EN: Experience +{0}, weapons +{1}, traits {2}, furniture +{3} -->
+  <EX_StatBonusTipFull>Experiencia +{0}, armas +{1}, rasgos {2}, muebles +{3}</EX_StatBonusTipFull>
+  <!-- EN: All skills +{0} · great expedition chance {1} -->
+  <EX_ExpTotalFull>Todas las habilidades +{0} · probabilidad de una gran expedición {1}</EX_ExpTotalFull>
+  <!-- EN: Slave revolt -->
+  <EX_Kind_Rebellion>Rebelión de esclavos</EX_Kind_Rebellion>
+  <!-- EN: Led by {0}, the slaves rose up in revolt! -->
+  <EX_Ev_Rebellion>¡Encabezados por {0}, los esclavos se rebelaron!</EX_Ev_Rebellion>
+  <!-- EN: Thanks to {0}, the revolt was put down. The rebellious slaves were badly hurt. -->
+  <EX_Ev_RebellionCrushed>Gracias a {0}, se sofocó la rebelión. Los esclavos rebeldes quedaron gravemente heridos.</EX_Ev_RebellionCrushed>
+  <!-- EN: The revolt couldn&apos;t be put down! {0}&apos;s band left the colonists badly hurt. -->
+  <EX_Ev_RebellionFail>¡No se pudo sofocar la rebelión! La banda de {0} dejó gravemente heridos a los colonos.</EX_Ev_RebellionFail>
+  <!-- EN: Decline request -->
+  <EX_ReqDecline>Rechazar el encargo</EX_ReqDecline>
+  <!-- EN: Duration: {0} day(s) -->
+  <EX_ReqDays>Duración: {0} día(s)</EX_ReqDays>
+  <!-- EN: Difficulty: {0} -->
+  <EX_ReqDifficulty>Dificultad: {0}</EX_ReqDifficulty>
+  <!-- EN: {0} goodwill +{1} -->
+  <EX_ReqGoodwill>Buena voluntad de {0} +{1}</EX_ReqGoodwill>
+  <!-- EN: Verdict C or better pays the full reward, D pays half. Anything lower, or ending the expedition early, pays nothing. Finishing with B or better also makes the client faction a little friendlier. -->
+  <EX_ReqRuleFull>Con un veredicto C o mejor se paga la recompensa completa, y con D, la mitad. Con menos, o si la expedición se termina antes de tiempo, no se paga nada. Terminar con B o mejor también hace un poco más amistosa a la facción que hizo el encargo.</EX_ReqRuleFull>
+  <!-- EN: Found a piece of furniture worth taking for the lodge: [{0}] -->
+  <EX_Ev_Furniture>Encontraron un mueble que vale la pena llevar al albergue: [{0}]</EX_Ev_Furniture>
+  <!-- EN: [Furniture] -->
+  <EX_FurnitureTag>[Mueble]</EX_FurnitureTag>
+  <!-- EN: (left behind, storage full) -->
+  <EX_FurnitureLostTag>(se quedó atrás, el depósito está lleno)</EX_FurnitureLostTag>
+  <!-- EN: The furniture storage ({1} slots) is full, so {0} was left behind. Make room in the lodge tab. -->
+  <EX_FurnitureFull>El depósito de muebles ({1} espacios) está lleno, así que {0} se quedó atrás. Haz espacio en la pestaña del albergue.</EX_FurnitureFull>
+  <!-- EN: [{0}] {1} -->
+  <EX_FurnLabel>[{0}] {1}</EX_FurnLabel>
+  <!-- EN: bed -->
+  <EX_Furn_Bed>cama</EX_Furn_Bed>
+  <!-- EN: desk -->
+  <EX_Furn_Desk>escritorio</EX_Furn_Desk>
+  <!-- EN: dining chair -->
+  <EX_Furn_Chair>silla de comedor</EX_Furn_Chair>
+  <!-- EN: end table -->
+  <EX_Furn_EndTable>mesa auxiliar</EX_Furn_EndTable>
+  <!-- EN: dresser -->
+  <EX_Furn_Dresser>cómoda</EX_Furn_Dresser>
+  <!-- EN: Party {0} {1} -->
+  <EX_FurnFx_Skill>{0} del grupo {1}</EX_FurnFx_Skill>
+  <!-- EN: Expedition injuries {0} -->
+  <EX_FurnFx_InjuryReduce>Heridas en las expediciones {0}</EX_FurnFx_InjuryReduce>
+  <!-- EN: Expedition loot {0} -->
+  <EX_FurnFx_LootBonus>Botín de las expediciones {0}</EX_FurnFx_LootBonus>
+  <!-- EN: Great expedition chance {0} -->
+  <EX_FurnFx_GreatChance>Probabilidad de una gran expedición {0}</EX_FurnFx_GreatChance>
+  <!-- EN: Relic chance {0} -->
+  <EX_FurnFx_RelicChance>Probabilidad de reliquias {0}</EX_FurnFx_RelicChance>
+  <!-- EN: Hunger and fatigue after expeditions {0} -->
+  <EX_FurnFx_FatigueReduce>Hambre y cansancio después de las expediciones {0}</EX_FurnFx_FatigueReduce>
+  <!-- EN: Expedition XP {0} -->
+  <EX_FurnFx_ExpeditionXp>Exp. de expedición {0}</EX_FurnFx_ExpeditionXp>
+  <!-- EN: Colonist move speed {0} -->
+  <EX_FurnFx_MoveSpeed>Velocidad de movimiento de los colonos {0}</EX_FurnFx_MoveSpeed>
+  <!-- EN: Colonist global work speed {0} -->
+  <EX_FurnFx_WorkSpeed>Velocidad de trabajo global de los colonos {0}</EX_FurnFx_WorkSpeed>
+  <!-- EN: Colonist global learning {0} -->
+  <EX_FurnFx_Learning>Aprendizaje global de los colonos {0}</EX_FurnFx_Learning>
+  <!-- EN: Colonist rest rate {0} -->
+  <EX_FurnFx_RestRate>Tasa de reposo de los colonos {0}</EX_FurnFx_RestRate>
+  <!-- EN: Colonist mental break threshold {0} -->
+  <EX_FurnFx_MentalBreak>Umbral de colapso mental de los colonos {0}</EX_FurnFx_MentalBreak>
+  <!-- EN: Colonist immunity gain speed {0} -->
+  <EX_FurnFx_Immunity>Velocidad de inmunización de los colonos {0}</EX_FurnFx_Immunity>
+  <!-- EN: In-game effect: once placed in the lodge, it applies to every colonist. -->
+  <EX_FurnInGame>Efecto en la partida: una vez puesto en el albergue, se aplica a todos los colonos.</EX_FurnInGame>
+  <!-- EN: Expedition effect: once placed in the lodge, it applies to expeditions. -->
+  <EX_FurnExpedition>Efecto en la expedición: una vez puesto en el albergue, se aplica a las expediciones.</EX_FurnExpedition>
+  <!-- EN: Expedition lodge ({0}×{1}) -->
+  <EX_LodgeTitle>Albergue de la expedición ({0}×{1})</EX_LodgeTitle>
+  <!-- EN: Furniture storage ({0}/{1}) -->
+  <EX_LodgeInventory>Depósito de muebles ({0}/{1})</EX_LodgeInventory>
+  <!-- EN: Sort: {0} -->
+  <EX_FurnSort>Orden: {0}</EX_FurnSort>
+  <!-- EN: Type -->
+  <EX_FurnSort_Type>Tipo</EX_FurnSort_Type>
+  <!-- EN: Quality -->
+  <EX_FurnSort_Quality>Calidad</EX_FurnSort_Quality>
+  <!-- EN: Effect -->
+  <EX_FurnSort_Effect>Efecto</EX_FurnSort_Effect>
+  <!-- EN: Reset -->
+  <EX_LodgeReset>Restablecer</EX_LodgeReset>
+  <!-- EN: Put every placed piece of furniture and every relic back into storage? -->
+  <EX_LodgeResetConfirm>¿Devolver al depósito todos los muebles puestos y todas las reliquias?</EX_LodgeResetConfirm>
+  <!-- EN: Maximum size -->
+  <EX_LodgeMaxSize>Tamaño máximo</EX_LodgeMaxSize>
+  <!-- EN: Expand {0}×{1} (Lv.{2}) -->
+  <EX_LodgeExpand>Ampliar a {0}×{1} (Nv. {2})</EX_LodgeExpand>
+  <!-- EN: Can be expanded at expedition Lv.{0}. -->
+  <EX_LodgeExpandTip>Se puede ampliar con el nivel de expedición {0}.</EX_LodgeExpandTip>
+  <!-- EN: Pick a piece in storage to place it in the lodge. Click a placed piece to move it, turn it or put it away. -->
+  <EX_LodgeHint>Elige un mueble del depósito para ponerlo en el albergue. Haz clic en un mueble puesto para moverlo, girarlo o guardarlo.</EX_LodgeHint>
+  <!-- EN: Click a lodge tile to place · R to rotate · right-click to cancel -->
+  <EX_LodgePlacingHint>Haz clic en una casilla del albergue para ponerlo · R para girar · clic derecho para cancelar</EX_LodgePlacingHint>
+  <!-- EN: Rotate (R) -->
+  <EX_LodgeRotate>Girar (R)</EX_LodgeRotate>
+  <!-- EN: Cancel -->
+  <EX_LodgeCancel>Cancelar</EX_LodgeCancel>
+  <!-- EN: Move -->
+  <EX_LodgeMove>Mover</EX_LodgeMove>
+  <!-- EN: Store -->
+  <EX_LodgeStore>Guardar</EX_LodgeStore>
+  <!-- EN: Discard -->
+  <EX_FurnDiscard>Desechar</EX_FurnDiscard>
+  <!-- EN: Discard {0}? This can&apos;t be undone. -->
+  <EX_FurnDiscardConfirm>¿Desechar {0}? No se puede deshacer.</EX_FurnDiscardConfirm>
+  <!-- EN: Sell +{0} -->
+  <EX_FurnSell>Vender +{0}</EX_FurnSell>
+  <!-- EN: Sell {0} for {1} expedition coins? This can&apos;t be undone. -->
+  <EX_FurnSellConfirm>¿Vender {0} por {1} monedas de expedición? No se puede deshacer.</EX_FurnSellConfirm>
+  <!-- EN: Sold {0} for {1} expedition coins. -->
+  <EX_FurnSold>Se vendió {0} por {1} monedas de expedición.</EX_FurnSold>
+  <!-- EN: Sell furniture you don&apos;t use for a few expedition coins. Better quality fetches more.\n\n{0}\n\nStatues sell for double. -->
+  <EX_FurnSellTip>Vende los muebles que no uses por algunas monedas de expedición. Cuanto mejor la calidad, más te dan.\n\n{0}\n\nLas estatuas se venden por el doble.</EX_FurnSellTip>
+  <!-- EN: Fuse furniture -->
+  <EX_FuseStart>Fusionar muebles</EX_FuseStart>
+  <!-- EN: Furniture fusion -->
+  <EX_FuseTitle>Fusión de muebles</EX_FuseTitle>
+  <!-- EN: Pick {0} stored pieces of the same quality to fuse them into 1 piece one quality higher. Its kind and effect are random. (Legendary pieces can&apos;t be fused.) -->
+  <EX_FuseHint>Elige {0} muebles guardados de la misma calidad para fusionarlos en 1 mueble de una calidad más. Su tipo y su efecto son al azar. (Los muebles legendarios no se pueden fusionar).</EX_FuseHint>
+  <!-- EN: {0} → {1} -->
+  <EX_FuseTarget>{0} → {1}</EX_FuseTarget>
+  <!-- EN: Fuse ({0}/{1}) -->
+  <EX_FuseButton>Fusionar ({0}/{1})</EX_FuseButton>
+  <!-- EN: Fuse {0} {1} pieces?\n\nThey will be used up, and you get 1 {2} piece of a random kind and effect. -->
+  <EX_FuseConfirm>¿Fusionar {0} muebles de calidad {1}?\n\nSe gastan, y obtienes 1 mueble de calidad {2} de tipo y efecto al azar.</EX_FuseConfirm>
+  <!-- EN: Only pieces of the same quality can be fused together. -->
+  <EX_FuseWrongPick>Solo se pueden fusionar muebles de la misma calidad.</EX_FuseWrongPick>
+  <!-- EN: All {0} pieces are already picked. Click a picked piece to take it back out. -->
+  <EX_FuseFull>Ya elegiste los {0} muebles. Haz clic en uno elegido para sacarlo.</EX_FuseFull>
+  <!-- EN: Legendary pieces can&apos;t be fused any further. -->
+  <EX_FuseLegendary>Los muebles legendarios ya no se pueden fusionar más.</EX_FuseLegendary>
+  <!-- EN: Fusing furniture... -->
+  <EX_FuseOpening>Fusionando muebles...</EX_FuseOpening>
+  <!-- EN: Fusion complete! -->
+  <EX_FuseResult>¡Fusión completa!</EX_FuseResult>
+  <!-- EN: It doesn&apos;t fit there. -->
+  <EX_LodgeNoRoom>Ahí no cabe.</EX_LodgeNoRoom>
+  <!-- EN: Lodge effects in total -->
+  <EX_LodgeTotals>Efectos totales del albergue</EX_LodgeTotals>
+  <!-- EN: No furniture placed. -->
+  <EX_LodgeTotalsNone>No hay muebles puestos.</EX_LodgeTotalsNone>
+  <!-- EN: Requests -->
+  <EX_Settings_Requests>Encargos</EX_Settings_Requests>
+  <!-- EN: Request interval: {0}~{1} days -->
+  <EX_Settings_RequestInterval>Intervalo entre encargos: {0}~{1} días</EX_Settings_RequestInterval>
+  <!-- EN: How long until a new request comes in. Each wait is rolled at random within this range. -->
+  <EX_Settings_RequestInterval_Tip>Cuánto falta para que llegue un encargo nuevo. Cada espera se sortea al azar dentro de este rango.</EX_Settings_RequestInterval_Tip>
+  <!-- EN: Accept within {0} -->
+  <EX_ReqUntil>Aceptar antes de {0}</EX_ReqUntil>
+  <!-- EN: Decline -->
+  <EX_ReqDeclineShort>Rechazar</EX_ReqDeclineShort>
+  <!-- EN: Needed skills: -->
+  <EX_ReqSkillsInline>Habilidades necesarias:</EX_ReqSkillsInline>
+  <!-- EN: [{0}] {1} {2} -->
+  <EX_FurnLabelStuff>[{0}] {1} {2}</EX_FurnLabelStuff>
+  <!-- EN: floor -->
+  <EX_Furn_Floor>suelo</EX_Furn_Floor>
+  <!-- EN: Floors aren&apos;t placed on tiles: laying one covers the whole lodge floor. (One at a time.) You can also drag it from storage onto the room. -->
+  <EX_FloorNote>Los suelos no se ponen en casillas: al colocar uno, cubre todo el suelo del albergue. (Uno a la vez). También puedes arrastrarlo del depósito a la habitación.</EX_FloorNote>
+  <!-- EN: Lay floor -->
+  <EX_FloorLay>Colocar suelo</EX_FloorLay>
+  <!-- EN: Lift floor -->
+  <EX_FloorLift>Quitar suelo</EX_FloorLift>
+  <!-- EN: ← {0} -->
+  <EX_LodgeFrom>← {0}</EX_LodgeFrom>
+  <!-- EN: {0}: {1} -->
+  <EX_LodgeItemLine>{0}: {1}</EX_LodgeItemLine>
+  <!-- EN: No effect -->
+  <EX_FurnFx_None>Sin efecto</EX_FurnFx_None>
+  <!-- EN: Request cancelled: {0} -->
+  <EX_ReqExpiredLabel>Encargo cancelado: {0}</EX_ReqExpiredLabel>
+  <!-- EN: A word from {0}: &quot;You shop for jobs, I see. Into the cart, and that&apos;s where they stay.&quot; -->
+  <EX_ReqExpiredLine_0>Unas palabras de {0}: «Ya veo que vas de compras por los trabajos. Al carrito, y ahí se quedan».</EX_ReqExpiredLine_0>
+  <!-- EN: A word from {0}: &quot;We posted it and you just browsed? Did you mistake us for a museum?&quot; -->
+  <EX_ReqExpiredLine_1>Unas palabras de {0}: «¿Lo publicamos y solo te pusiste a mirar? ¿Nos confundiste con un museo?».</EX_ReqExpiredLine_1>
+  <!-- EN: A word from {0}: &quot;Picking and choosing is fine, but the sun set while you chose. We&apos;ll ask someone else.&quot; -->
+  <EX_ReqExpiredLine_2>Unas palabras de {0}: «Está bien elegir, pero se puso el sol mientras elegías. Se lo pediremos a otro».</EX_ReqExpiredLine_2>
+  <!-- EN: A word from {0}: &quot;Our client grew old waiting for your reply. That&apos;s not a figure of speech.&quot; -->
+  <EX_ReqExpiredLine_3>Unas palabras de {0}: «Nuestro cliente envejeció esperando tu respuesta. Y no es una forma de decir».</EX_ReqExpiredLine_3>
+  <!-- EN: A word from {0}: &quot;Word is your colony keeps the board open and only takes what it fancies. Just so you know.&quot; -->
+  <EX_ReqExpiredLine_4>Unas palabras de {0}: «Se dice que tu colonia tiene el tablón abierto y solo acepta lo que se le antoja. Para que lo sepas».</EX_ReqExpiredLine_4>
+  <!-- EN: No one was hurt -->
+  <EX_NoInjuries>Nadie salió herido</EX_NoInjuries>
+  <!-- EN: Relic found! -->
+  <EX_ResultFx_Relic>¡Encontraron una reliquia!</EX_ResultFx_Relic>
+  <!-- EN: Rare treasure! -->
+  <EX_ResultFx_Rare>¡Tesoro raro!</EX_ResultFx_Rare>
+  <!-- EN: [Request] -->
+  <EX_RequestTag>[Encargo]</EX_RequestTag>
+  <!-- EN: Clear all records -->
+  <EX_HistClear>Borrar todos los registros</EX_HistClear>
+  <!-- EN: Clear every expedition record? This can&apos;t be undone. (Expedition level and relics stay.) -->
+  <EX_HistClearConfirm>¿Borrar todos los registros de expediciones? No se puede deshacer. (El nivel de expedición y las reliquias se mantienen).</EX_HistClearConfirm>
+  <!-- EN: stool -->
+  <EX_Furn_Stool>taburete</EX_Furn_Stool>
+  <!-- EN: armchair -->
+  <EX_Furn_Armchair>sillón</EX_Furn_Armchair>
+  <!-- EN: couch -->
+  <EX_Furn_Couch>sofá</EX_Furn_Couch>
+  <!-- EN: torch lamp -->
+  <EX_Furn_Torch>antorcha</EX_Furn_Torch>
+  <!-- EN: brazier -->
+  <EX_Furn_Brazier>brasero</EX_Furn_Brazier>
+  <!-- EN: standing lamp -->
+  <EX_Furn_StandingLamp>lámpara de pie</EX_Furn_StandingLamp>
+  <!-- EN: drape -->
+  <EX_Furn_Drape>cortinas</EX_Furn_Drape>
+  <!-- EN: double bed -->
+  <EX_Furn_DoubleBed>cama doble</EX_Furn_DoubleBed>
+  <!-- EN: royal bed -->
+  <EX_Furn_RoyalBed>cama real</EX_Furn_RoyalBed>
+  <!-- EN: bedroll -->
+  <EX_Furn_Bedroll>saco de dormir</EX_Furn_Bedroll>
+  <!-- EN: double bedroll -->
+  <EX_Furn_DoubleBedroll>saco de dormir doble</EX_Furn_DoubleBedroll>
+  <!-- EN: shelf -->
+  <EX_Furn_Shelf>estante</EX_Furn_Shelf>
+  <!-- EN: small shelf -->
+  <EX_Furn_SmallShelf>estante pequeño</EX_Furn_SmallShelf>
+  <!-- EN: baby decoration -->
+  <EX_Furn_BabyDecoration>caballito</EX_Furn_BabyDecoration>
+  <!-- EN: toy box -->
+  <EX_Furn_ToyBox>caja de juguetes</EX_Furn_ToyBox>
+  <!-- EN: [Dev] Spawn furniture -->
+  <EX_DevSpawnFurniture>[Dev] Generar un mueble</EX_DevSpawnFurniture>
+  <!-- EN: The furniture storage is full. -->
+  <EX_LodgeInventoryFull>El depósito de muebles está lleno.</EX_LodgeInventoryFull>
+  <!-- EN: Expanded! {0}×{1} -->
+  <EX_LodgeExpandFx>¡Ampliado! {0}×{1}</EX_LodgeExpandFx>
+  <!-- EN: {0} slave(s) are coming along. They may revolt during the expedition. (Revolt chance about {1}) -->
+  <EX_SlaveWarning>Van {0} esclavo(s) en el grupo. Pueden rebelarse durante la expedición. (Probabilidad de rebelión: alrededor de {1})</EX_SlaveWarning>
+  <!-- EN: Picks up to five colonists with the best skills and gear, healthy ones first.\n\nSlaves and mechanoids are left out by default. The gear button next to it lets each be included. -->
+  <EX_RecommendTip>Elige hasta cinco colonos con las mejores habilidades y el mejor equipo, primero los que están sanos.\n\nLos esclavos y los mecanoides quedan fuera por defecto. El botón de engranaje de al lado permite incluir a cada uno.</EX_RecommendTip>
+  <!-- EN: On the request tab, colonists strong in the request&apos;s needed skills come first. -->
+  <EX_RecommendTipRequest>En la pestaña de encargos, van primero los colonos fuertes en las habilidades que pide el encargo.</EX_RecommendTipRequest>
+  <!-- EN: {0} came into the lodge. -->
+  <EX_VisitEnter>{0} entró al albergue.</EX_VisitEnter>
+  <!-- EN: {0} left the lodge. -->
+  <EX_VisitLeave>{0} salió del albergue.</EX_VisitLeave>
+  <!-- EN: No one has stopped by yet. -->
+  <EX_VisitLogEmpty>Todavía no ha pasado nadie.</EX_VisitLogEmpty>
+  <!-- EN: {0} looked at the {1} and said: &quot;This is practically art. I&apos;m not supposed to sit on it, right?&quot; -->
+  <EX_VisitComment_0>{0} miró un mueble ({1}) y dijo: «Esto es prácticamente arte. No es para sentarse, ¿verdad?».</EX_VisitComment_0>
+  <!-- EN: {0} looked at the {1} and said: &quot;Whoever picked this has a great eye.&quot; -->
+  <EX_VisitComment_1>{0} miró un mueble ({1}) y dijo: «Quien eligió esto tiene muy buen ojo».</EX_VisitComment_1>
+  <!-- EN: {0} looked at the {1} and said: &quot;This wouldn&apos;t look out of place in a noble&apos;s manor.&quot; -->
+  <EX_VisitComment_2>{0} miró un mueble ({1}) y dijo: «Esto no desentonaría en la mansión de un noble».</EX_VisitComment_2>
+  <!-- EN: {0} looked at the {1} and said: &quot;Can I touch it? No, I&apos;ll just look.&quot; -->
+  <EX_VisitComment_3>{0} miró un mueble ({1}) y dijo: «¿Lo puedo tocar? No, mejor solo miro».</EX_VisitComment_3>
+  <!-- EN: {0} looked at the {1} and said: &quot;Wow... we had something like this in the colony?&quot; -->
+  <EX_VisitComment_4>{0} miró un mueble ({1}) y dijo: «Guau... ¿teníamos algo así en la colonia?».</EX_VisitComment_4>
+  <!-- EN: {0} looked at the {1} and said: &quot;After seeing this, my own furniture looks sad.&quot; -->
+  <EX_VisitComment_5>{0} miró un mueble ({1}) y dijo: «Después de ver esto, mis muebles se ven tristes».</EX_VisitComment_5>
+  <!-- EN: {0} looked at the {1} and said: &quot;You can feel the craftsmanship. Every grain is alive.&quot; -->
+  <EX_VisitComment_6>{0} miró un mueble ({1}) y dijo: «Se nota el oficio. Cada veta está viva».</EX_VisitComment_6>
+  <!-- EN: {0} looked at the {1} and said: &quot;Coming back from an expedition to this would melt the fatigue away.&quot; -->
+  <EX_VisitComment_7>{0} miró un mueble ({1}) y dijo: «Volver de una expedición a esto le derretiría el cansancio a cualquiera».</EX_VisitComment_7>
+  <!-- EN: {0} looked at the {1} and said: &quot;This needs to be passed down as an heirloom.&quot; -->
+  <EX_VisitComment_8>{0} miró un mueble ({1}) y dijo: «Esto hay que heredarlo de generación en generación».</EX_VisitComment_8>
+  <!-- EN: {0} looked at the {1} and said: &quot;Honestly, I&apos;m a little jealous. Should I join the expedition team?&quot; -->
+  <EX_VisitComment_9>{0} miró un mueble ({1}) y dijo: «La verdad, me da un poco de envidia. ¿Me uno al equipo de expedición?».</EX_VisitComment_9>
+  <!-- EN: {0} looked at the {1} and said: &quot;Hm, decent. Does the job.&quot; -->
+  <EX_VisitComment_10>{0} miró un mueble ({1}) y dijo: «Mmm, decente. Cumple».</EX_VisitComment_10>
+  <!-- EN: {0} looked at the {1} and said: &quot;Not bad. Can&apos;t quite call it good either.&quot; -->
+  <EX_VisitComment_11>{0} miró un mueble ({1}) y dijo: «No está mal. Tampoco se puede decir que esté bien».</EX_VisitComment_11>
+  <!-- EN: {0} looked at the {1} and said: &quot;Plain, but it grows on you.&quot; -->
+  <EX_VisitComment_12>{0} miró un mueble ({1}) y dijo: «Sencillo, pero con el tiempo te va gustando».</EX_VisitComment_12>
+  <!-- EN: {0} looked at the {1} and said: &quot;Was this here before? It&apos;s so unassuming I never noticed.&quot; -->
+  <EX_VisitComment_13>{0} miró un mueble ({1}) y dijo: «¿Esto estaba aquí antes? Es tan discreto que nunca lo noté».</EX_VisitComment_13>
+  <!-- EN: {0} looked at the {1} and said: &quot;Looks sturdy. That&apos;s what matters most.&quot; -->
+  <EX_VisitComment_14>{0} miró un mueble ({1}) y dijo: «Se ve resistente. Eso es lo que más importa».</EX_VisitComment_14>
+  <!-- EN: {0} looked at the {1} and said: &quot;Would be nice if it came in another color.&quot; -->
+  <EX_VisitComment_15>{0} miró un mueble ({1}) y dijo: «Estaría bueno que viniera en otro color».</EX_VisitComment_15>
+  <!-- EN: {0} looked at the {1} and said: &quot;Very expedition-lodge, this.&quot; -->
+  <EX_VisitComment_16>{0} miró un mueble ({1}) y dijo: «Muy de albergue de expedición, esto».</EX_VisitComment_16>
+  <!-- EN: {0} looked at the {1} and said: &quot;Whoever chose it has very safe taste.&quot; -->
+  <EX_VisitComment_17>{0} miró un mueble ({1}) y dijo: «Quien lo eligió tiene un gusto muy prudente».</EX_VisitComment_17>
+  <!-- EN: {0} looked at the {1} and said: &quot;Looks like good value. No idea what it cost, though.&quot; -->
+  <EX_VisitComment_18>{0} miró un mueble ({1}) y dijo: «Parece que vale lo que cuesta. Aunque no tengo idea de cuánto costó».</EX_VisitComment_18>
+  <!-- EN: {0} looked at the {1} and said: &quot;I sat on it... and yes, it can be sat on.&quot; -->
+  <EX_VisitComment_19>{0} miró un mueble ({1}) y dijo: «Me senté encima... y sí, se puede usar para sentarse».</EX_VisitComment_19>
+  <!-- EN: {0} looked at the {1} and said: &quot;Did anyone else hear that creak just now?&quot; -->
+  <EX_VisitComment_20>{0} miró un mueble ({1}) y dijo: «¿Alguien más oyó ese crujido recién?».</EX_VisitComment_20>
+  <!-- EN: {0} looked at the {1} and said: &quot;They said it was picked up on an expedition. It smells like the road.&quot; -->
+  <EX_VisitComment_21>{0} miró un mueble ({1}) y dijo: «Dijeron que lo recogieron en una expedición. Tiene olor a camino».</EX_VisitComment_21>
+  <!-- EN: {0} looked at the {1} and said: &quot;Can we even call this furniture...?&quot; -->
+  <EX_VisitComment_22>{0} miró un mueble ({1}) y dijo: «¿A esto se le puede llamar mueble...?».</EX_VisitComment_22>
+  <!-- EN: {0} looked at the {1} and said: &quot;Better take a commemorative picture before it falls apart.&quot; -->
+  <EX_VisitComment_23>{0} miró un mueble ({1}) y dijo: «Mejor sacarle una foto de recuerdo antes de que se desarme».</EX_VisitComment_23>
+  <!-- EN: {0} looked at the {1} and said: &quot;Who let this into the lodge? I&apos;m asking seriously.&quot; -->
+  <EX_VisitComment_24>{0} miró un mueble ({1}) y dijo: «¿Quién dejó entrar esto al albergue? Lo pregunto en serio».</EX_VisitComment_24>
+  <!-- EN: {0} looked at the {1} and said: &quot;My back hurts just looking at it.&quot; -->
+  <EX_VisitComment_25>{0} miró un mueble ({1}) y dijo: «Me duele la espalda con solo mirarlo».</EX_VisitComment_25>
+  <!-- EN: {0} looked at the {1} and said: &quot;This would be more useful as firewood.&quot; -->
+  <EX_VisitComment_26>{0} miró un mueble ({1}) y dijo: «Esto serviría más como leña».</EX_VisitComment_26>
+  <!-- EN: {0} looked at the {1} and said: &quot;Fall asleep near this and you&apos;ll have nightmares.&quot; -->
+  <EX_VisitComment_27>{0} miró un mueble ({1}) y dijo: «Si te duermes cerca de esto, vas a tener pesadillas».</EX_VisitComment_27>
+  <!-- EN: {0} looked at the {1} and said: &quot;Can I be honest? ...No, never mind.&quot; -->
+  <EX_VisitComment_28>{0} miró un mueble ({1}) y dijo: «¿Puedo decir la verdad? ...No, olvídalo».</EX_VisitComment_28>
+  <!-- EN: {0} looked at the {1} and said: &quot;It has character, at least. The bad kind.&quot; -->
+  <EX_VisitComment_29>{0} miró un mueble ({1}) y dijo: «Al menos tiene personalidad. De la mala».</EX_VisitComment_29>
+  <!-- EN: {0} looked around, grumbled &quot;There&apos;s nowhere to even stand!&quot; and left. -->
+  <EX_VisitGrumble_0>{0} miró a su alrededor, refunfuñó «¡No hay ni dónde pararse!» y se fue.</EX_VisitGrumble_0>
+  <!-- EN: {0} grumbled &quot;Is this a lodge or a storeroom?&quot; and left. -->
+  <EX_VisitGrumble_1>{0} refunfuñó «¿Esto es un albergue o un depósito?» y se fue.</EX_VisitGrumble_1>
+  <!-- EN: {0} got stuck between the furniture, squeezed free, said &quot;Never again.&quot; and left. -->
+  <EX_VisitGrumble_2>{0} se atascó entre los muebles, se zafó como pudo, dijo «Nunca más» y se fue.</EX_VisitGrumble_2>
+  <!-- EN: {0} said &quot;I can&apos;t breathe in here... I&apos;m getting some air.&quot; and left. -->
+  <EX_VisitGrumble_3>{0} dijo «Aquí adentro no se puede respirar... Voy a tomar aire» y se fue.</EX_VisitGrumble_3>
+  <!-- EN: {0} grumbled &quot;Make some room for people, not just furniture.&quot; and left. -->
+  <EX_VisitGrumble_4>{0} refunfuñó «Hagan lugar para la gente, no solo para los muebles» y se fue.</EX_VisitGrumble_4>
+  <!-- EN: Relics ({1}) -->
+  <EX_RelicStorage>Reliquias ({1})</EX_RelicStorage>
+  <!-- EN: Purely decorative. Setting it out in the lodge gives no stat bonus. (You already get a relic&apos;s effect just by owning it.)
+It isn&apos;t tied to tiles and can go anywhere. -->
+  <EX_RelicDecorNote>Es solo decorativa. Exhibirla en el albergue no da ninguna bonificación. (El efecto de una reliquia ya lo tienes con solo poseerla).\nNo depende de las casillas y puede ir en cualquier lugar.</EX_RelicDecorNote>
+  <!-- EN: Click anywhere in the lodge to set it out · right-click to cancel -->
+  <EX_RelicPlacingHint>Haz clic en cualquier lugar del albergue para exhibirla · clic derecho para cancelar</EX_RelicPlacingHint>
+  <!-- EN: Expedition window size: {0} -->
+  <EX_Settings_WindowScale>Tamaño de la ventana de expedición: {0}</EX_Settings_WindowScale>
+  <!-- EN: 100% is the window&apos;s full size. It only shrinks on its own if it would not fit on the screen. Applies the next time the window opens. -->
+  <EX_Settings_WindowScale_Tip>100% es el tamaño completo de la ventana. Solo se achica sola si no cabría en la pantalla. Se aplica la próxima vez que se abra la ventana.</EX_Settings_WindowScale_Tip>
+  <!-- EN: After changing this, close the expedition window and open it again to see the new size. -->
+  <EX_Settings_WindowScaleNote>Después de cambiar esto, cierra la ventana de expedición y vuelve a abrirla para ver el tamaño nuevo.</EX_Settings_WindowScaleNote>
+  <!-- EN: {0} looked around the empty room, grumbled &quot;Is this really a lodge? Only the echo lives here.&quot; and left. -->
+  <EX_VisitEmpty_0>{0} miró la habitación vacía, refunfuñó «¿Esto es un albergue de verdad? Aquí solo vive el eco» y se fue.</EX_VisitEmpty_0>
+  <!-- EN: {0} grumbled &quot;If there were even one chair, I&apos;d sit down...&quot; and left. -->
+  <EX_VisitEmpty_1>{0} refunfuñó «Si hubiera aunque sea una silla, me sentaría...» y se fue.</EX_VisitEmpty_1>
+  <!-- EN: {0} stared at the floor for a while, said &quot;I didn&apos;t come here to admire the floor.&quot; and left. -->
+  <EX_VisitEmpty_2>{0} se quedó un rato mirando el suelo, dijo «No vine a admirar el suelo» y se fue.</EX_VisitEmpty_2>
+  <!-- EN: {0} grumbled &quot;Some expedition lodge. It&apos;s barer than the storeroom.&quot; and left. -->
+  <EX_VisitEmpty_3>{0} refunfuñó «Vaya albergue de expedición. Está más vacío que el depósito» y se fue.</EX_VisitEmpty_3>
+  <!-- EN: {0} grumbled &quot;You&apos;ll call me back once there&apos;s furniture, right?&quot; and left. -->
+  <EX_VisitEmpty_4>{0} refunfuñó «Me vuelves a llamar cuando haya muebles, ¿no?» y se fue.</EX_VisitEmpty_4>
+  <!-- EN: No furniture yet.\nExpeditions bring furniture home as a reward. -->
+  <EX_LodgeNoFurniture>Todavía no hay muebles.\nLas expediciones traen muebles a casa como recompensa.</EX_LodgeNoFurniture>
+  <!-- EN: Relics in the lodge are purely decorative. Setting one out gives no stat bonus. (You already get a relic&apos;s effect just by owning it.)\nDrag a relic from storage to anywhere in the lodge; drag a placed relic to move it, or back to storage to put it away. -->
+  <EX_RelicTabHint>Las reliquias del albergue son solo decorativas. Exhibir una no da ninguna bonificación. (El efecto de una reliquia ya lo tienes con solo poseerla).\nArrastra una reliquia del depósito a cualquier lugar del albergue; arrastra una ya exhibida para moverla, o devuélvela al depósito para guardarla.</EX_RelicTabHint>
+  <!-- EN: Office Lv.{0} -->
+  <EX_OfficeShort>Oficina Nv. {0}</EX_OfficeShort>
+  <!-- EN: {0} / {1} -->
+  <EX_OfficeValue>{0} / {1}</EX_OfficeValue>
+  <!-- EN: Request office level up! Lv.{0} -->
+  <EX_OfficeLevelUp>¡Subió el nivel de la oficina de encargos! Nv. {0}</EX_OfficeLevelUp>
+  <!-- EN: The request office grows every time a request is seen through to the end.\n\nSuccess +{0} (Hard +{1})\nPartial success +{2}\nFailure +{3}\n\nEach level raises request rewards by {4}, and longer, harder requests come in a little more often.\nMax Lv.{5} · Current reward bonus +{6} -->
+  <EX_OfficeTip>La oficina de encargos crece cada vez que un encargo se lleva hasta el final.\n\nÉxito +{0} (Difícil +{1})\nÉxito parcial +{2}\nFracaso +{3}\n\nCada nivel sube las recompensas de los encargos en {4}, y los encargos más largos y difíciles llegan un poco más seguido.\nNv. máximo {5} · Bonificación actual de recompensa +{6}</EX_OfficeTip>
+  <!-- EN: Request &apos;{0}&apos;: {1} (office XP +{2}) -->
+  <EX_ReqOutcomeOffice>Encargo «{0}»: {1} (exp. de la oficina +{2})</EX_ReqOutcomeOffice>
+  <!-- EN: Declined the request &apos;{0}&apos;. -->
+  <EX_ReqDeclinedOffice>Se rechazó el encargo «{0}».</EX_ReqDeclinedOffice>
+  <!-- EN: Really decline the request &apos;{0}&apos;? -->
+  <EX_ReqDeclineConfirmOffice>¿Seguro que quieres rechazar el encargo «{0}»?</EX_ReqDeclineConfirmOffice>
+  <!-- EN: {0}&apos;s request &apos;{1}&apos; was not accepted in time and has been withdrawn.\n\n{2} -->
+  <EX_ReqExpiredOffice>El encargo «{1}» de {0} no se aceptó a tiempo y se retiró.\n\n{2}</EX_ReqExpiredOffice>
+  <!-- EN: New companion -->
+  <EX_Kind_Joiner>Nuevo compañero</EX_Kind_Joiner>
+  <!-- EN: Animal tagalong -->
+  <EX_Kind_AnimalJoin>Un animal se suma</EX_Kind_AnimalJoin>
+  <!-- EN: {0} spent the whole night swapping stories with a drifter met on the road. -->
+  <EX_Ev_Joiner_0>{0} se pasó la noche entera intercambiando historias con un vagabundo que encontraron en el camino.</EX_Ev_Joiner_0>
+  <!-- EN: {0} pulled a collapsed stranger back from the brink. -->
+  <EX_Ev_Joiner_1>{0} salvó a un desconocido que se había desplomado y estaba al borde de la muerte.</EX_Ev_Joiner_1>
+  <!-- EN: The party hid someone running from bandits. {0} came up with the plan. -->
+  <EX_Ev_Joiner_2>El grupo escondió a alguien que huía de unos bandidos. El plan fue idea de {0}.</EX_Ev_Joiner_2>
+  <!-- EN: The last survivor of an abandoned settlement opened up after a long talk with {0}. -->
+  <EX_Ev_Joiner_3>El último sobreviviente de un asentamiento abandonado se abrió tras una larga charla con {0}.</EX_Ev_Joiner_3>
+  <!-- EN: &quot;Could I... come with you?&quot; -->
+  <EX_Ev_JoinerAsk>«¿Podría... ir con ustedes?»</EX_Ev_JoinerAsk>
+  <!-- EN: A {1} caught a whiff of {0}&apos;s snacks and has been following ever since. -->
+  <EX_Ev_AnimalJoin_0>Un animal ({1}) olió las golosinas de {0} y desde entonces sigue al grupo.</EX_Ev_AnimalJoin_0>
+  <!-- EN: {0} freed a {1} caught in a trap. -->
+  <EX_Ev_AnimalJoin_1>{0} liberó a un animal ({1}) atrapado en una trampa.</EX_Ev_AnimalJoin_1>
+  <!-- EN: A few stray {1} have been trailing the party. {0} suddenly feels like a herd leader. -->
+  <EX_Ev_AnimalJoin_2>Unos cuantos animales sueltos ({1}) vienen detrás del grupo. De pronto, {0} se siente líder de manada.</EX_Ev_AnimalJoin_2>
+  <!-- EN: A young {1} won&apos;t leave {0}&apos;s side. It seems to think {0} is its mother. -->
+  <EX_Ev_AnimalJoin_3>Una cría ({1}) no se separa de {0}. Parece creer que {0} es su madre.</EX_Ev_AnimalJoin_3>
+  <!-- EN: A {1} quietly settled down by the campfire. Right on {0}&apos;s blanket, of course. -->
+  <EX_Ev_AnimalJoin_4>Un animal ({1}) se acomodó tranquilo junto a la fogata. Justo encima de la manta de {0}, claro.</EX_Ev_AnimalJoin_4>
+  <!-- EN: Those eyes are clearly saying &quot;take me with you.&quot; -->
+  <EX_Ev_AnimalJoinAsk>Esos ojos dicen claramente «llévame contigo».</EX_Ev_AnimalJoinAsk>
+  <!-- EN: Take me along! -->
+  <EX_Float_Join>¡Llévenme!</EX_Float_Join>
+  <!-- EN: Someone wants to join -->
+  <EX_JoinTitle>Alguien quiere unirse</EX_JoinTitle>
+  <!-- EN: An animal wants to come along -->
+  <EX_AnimalJoinTitle>Un animal quiere acompañarlos</EX_AnimalJoinTitle>
+  <!-- EN: Welcome them -->
+  <EX_JoinAccept>Darle la bienvenida</EX_JoinAccept>
+  <!-- EN: Politely decline -->
+  <EX_JoinDecline>Rechazar con cortesía</EX_JoinDecline>
+  <!-- EN: Age {0} · {1} -->
+  <EX_JoinAge>Edad {0} · {1}</EX_JoinAge>
+  <!-- EN: Traits -->
+  <EX_JoinTraits>Rasgos</EX_JoinTraits>
+  <!-- EN: Best skills -->
+  <EX_JoinSkills>Mejores habilidades</EX_JoinSkills>
+  <!-- EN: (burning passion) -->
+  <EX_JoinPassionMajor>(pasión ardiente)</EX_JoinPassionMajor>
+  <!-- EN: (passion) -->
+  <EX_JoinPassionMinor>(pasión)</EX_JoinPassionMinor>
+  <!-- EN: Age {0} · body size {1} · trainability: {2} -->
+  <EX_AnimalJoinInfo>Edad {0} · tamaño corporal {1} · adiestrabilidad: {2}</EX_AnimalJoinInfo>
+  <!-- EN: Welcomed {0}. They will head home with the party when the expedition ends. -->
+  <EX_JoinAcceptedLog>Se le dio la bienvenida a {0}. Irá a casa con el grupo cuando termine la expedición.</EX_JoinAcceptedLog>
+  <!-- EN: {0} spotted a familiar face by the roadside. {1}, who had been kidnapped, had slipped away and was making their way home! -->
+  <EX_Ev_Returnee>{0} vio una cara conocida al costado del camino. ¡{1}, a quien habían secuestrado, había escapado y venía camino a casa!</EX_Ev_Returnee>
+  <!-- EN: {0}: &quot;I thought I&apos;d never see you again... Let&apos;s go home.&quot; -->
+  <EX_Ev_ReturneeSay>{0}: «Creí que nunca volvería a verte... Vamos a casa».</EX_Ev_ReturneeSay>
+  <!-- EN: A kidnapped colonist is back -->
+  <EX_ReturneeTitle>Volvió un colono secuestrado</EX_ReturneeTitle>
+  <!-- EN: OK -->
+  <EX_ReturneeOk>Aceptar</EX_ReturneeOk>
+  <!-- EN: {0} will head home with the party. -->
+  <EX_ReturneeLog>{0} irá a casa con el grupo.</EX_ReturneeLog>
+  <!-- EN: I&apos;m back! -->
+  <EX_Float_Returnee>¡Volví!</EX_Float_Returnee>
+  <!-- EN: {0} (returned) -->
+  <EX_ReturneeArrived>{0} (de vuelta)</EX_ReturneeArrived>
+  <!-- EN: Said a polite goodbye to {0}. -->
+  <EX_JoinDeclinedLog>Se despidieron de {0} con cortesía.</EX_JoinDeclinedLog>
+  <!-- EN: New arrivals: {0} -->
+  <EX_JoinArrivedLine>Recién llegados: {0}</EX_JoinArrivedLine>
+  <!-- EN: Followed home -->
+  <EX_RaidWarnLabel>Los siguieron hasta casa</EX_RaidWarnLabel>
+  <!-- EN: Someone followed the expedition party&apos;s tracks. {1}\n\nRaid expected in about {0}.\n\nPrepare your defenses. -->
+  <EX_RaidWarnText>Alguien siguió el rastro del grupo de expedición. {1}\n\nSe espera un asalto en unos {0}.\n\nPrepara las defensas.</EX_RaidWarnText>
+  <!-- EN: The enemies met on the road seem bent on revenge. -->
+  <EX_RaidWarnRaiders>Parece que los enemigos con que se cruzaron en el camino quieren venganza.</EX_RaidWarnRaiders>
+  <!-- EN: Signals from the awakened machines are heading toward the colony. -->
+  <EX_RaidWarnMechs>Unas señales de las máquinas que despertaron se dirigen hacia la colonia.</EX_RaidWarnMechs>
+  <!-- EN: Raid incoming: {0} -->
+  <EX_RaidAlertLabel>Asalto en camino: {0}</EX_RaidAlertLabel>
+  <!-- EN: Enemies who followed an expedition party home are on their way. Prepare your defenses. -->
+  <EX_RaidAlertDesc>Vienen en camino enemigos que siguieron a un grupo de expedición hasta casa. Prepara las defensas.</EX_RaidAlertDesc>
+  <!-- EN: Raiders -->
+  <EX_RaidAlertRaiders>Saqueadores</EX_RaidAlertRaiders>
+  <!-- EN: Mechanoids -->
+  <EX_RaidAlertMechs>Mecanoides</EX_RaidAlertMechs>
+  <!-- EN: {0}: arriving in {1} -->
+  <EX_RaidAlertLine>{0}: llegan en {1}</EX_RaidAlertLine>
+  <!-- EN: Someone followed the party. A raid is expected in about {0} days. -->
+  <EX_RaidAfterLine>Alguien siguió al grupo. Se espera un asalto en unos {0} días.</EX_RaidAfterLine>
+  <!-- EN: Someone followed the party. A raid is expected soon. -->
+  <EX_RaidAfterLineSoon>Alguien siguió al grupo. Se espera un asalto pronto.</EX_RaidAfterLineSoon>
+  <!-- EN: Spotted a place worth a look on the way back: {0} -->
+  <EX_SiteAfterLine>En el camino de vuelta vieron un lugar que vale la pena revisar: {0}</EX_SiteAfterLine>
+  <!-- EN: Saw something interesting on the way back, but couldn&apos;t find the spot again. -->
+  <EX_SiteAfterLineLost>En el camino de vuelta vieron algo interesante, pero no pudieron volver a encontrar el lugar.</EX_SiteAfterLineLost>
+  <!-- EN: Brought back: {0} -->
+  <EX_DiseaseLabel>Lo trajeron de vuelta: {0}</EX_DiseaseLabel>
+  <!-- EN: Some of the returning party aren&apos;t feeling well.\n\nAffected: {0}\nIllness: {1}\n\nGet them treated soon. -->
+  <EX_DiseaseText>Algunos de los que volvieron no se sienten bien.\n\nAfectados: {0}\nEnfermedad: {1}\n\nHaz que los traten pronto.</EX_DiseaseText>
+  <!-- EN: Caught {1} on the way home: {0} -->
+  <EX_DiseaseAfterLine>Se contagiaron de {1} en el camino a casa: {0}</EX_DiseaseAfterLine>
+  <!-- EN: General -->
+  <EX_SettingsTab_General>General</EX_SettingsTab_General>
+  <!-- EN: Reward items -->
+  <EX_SettingsTab_Loot>Objetos de recompensa</EX_SettingsTab_Loot>
+  <!-- EN: Events -->
+  <EX_SettingsTab_Events>Eventos</EX_SettingsTab_Events>
+  <!-- EN: Reset general settings -->
+  <EX_Settings_ResetGeneral>Restablecer la configuración general</EX_Settings_ResetGeneral>
+  <!-- EN: Reset event settings -->
+  <EX_Settings_ResetEvents>Restablecer la configuración de eventos</EX_Settings_ResetEvents>
+  <!-- EN: Special happenings that rarely occur during an expedition or right after it. Turned off, they never happen. -->
+  <EX_SettingsEvents_Intro>Sucesos especiales que pasan muy de vez en cuando durante una expedición o justo después. Desactivados, no pasan nunca.</EX_SettingsEvents_Intro>
+  <!-- EN: Joiners -->
+  <EX_SettingsEv_Joiners>Nuevos miembros</EX_SettingsEv_Joiners>
+  <!-- EN: Colonist joins -->
+  <EX_SettingsEv_JoinColonists>Se suman colonos</EX_SettingsEv_JoinColonists>
+  <!-- EN: Someone met on the road asks to join the colony. You see their traits and three best skills and decide. Joiners don&apos;t take part in the expedition; they arrive with the party when it ends. -->
+  <EX_SettingsEv_JoinColonists_Tip>Alguien que encuentran en el camino pide unirse a la colonia. Ves sus rasgos y sus tres mejores habilidades, y decides. Quienes se suman no participan en la expedición; llegan con el grupo cuando termina.</EX_SettingsEv_JoinColonists_Tip>
+  <!-- EN: Colonist join chance multiplier -->
+  <EX_SettingsEv_JoinColonistChance>Multiplicador de probabilidad de que se sumen colonos</EX_SettingsEv_JoinColonistChance>
+  <!-- EN: Base: about 5% for a 1-day trip, +3% per extra day. -->
+  <EX_SettingsEv_JoinColonistChance_Tip>Base: alrededor de un 5% para un viaje de 1 día, +3% por cada día más.</EX_SettingsEv_JoinColonistChance_Tip>
+  <!-- EN: Animal joins -->
+  <EX_SettingsEv_JoinAnimals>Se suman animales</EX_SettingsEv_JoinAnimals>
+  <!-- EN: An animal, or a small herd, follows the party. Accepted animals arrive tame. -->
+  <EX_SettingsEv_JoinAnimals_Tip>Un animal, o una pequeña manada, sigue al grupo. Los animales aceptados llegan domesticados.</EX_SettingsEv_JoinAnimals_Tip>
+  <!-- EN: Animal join chance multiplier -->
+  <EX_SettingsEv_JoinAnimalChance>Multiplicador de probabilidad de que se sumen animales</EX_SettingsEv_JoinAnimalChance>
+  <!-- EN: Base: about 8% for a 1-day trip, +4% per extra day. -->
+  <EX_SettingsEv_JoinAnimalChance_Tip>Base: alrededor de un 8% para un viaje de 1 día, +4% por cada día más.</EX_SettingsEv_JoinAnimalChance_Tip>
+  <!-- EN: Raids -->
+  <EX_SettingsEv_Raid>Asaltos</EX_SettingsEv_Raid>
+  <!-- EN: A raid follows the party home -->
+  <EX_SettingsEv_RaidFollows>Un asalto sigue al grupo hasta casa</EX_SettingsEv_RaidFollows>
+  <!-- EN: Enemies who spotted the party come after the colony. On return, a red threat letter tells you how long you have. -->
+  <EX_SettingsEv_RaidFollows_Tip>Los enemigos que vieron al grupo van tras la colonia. Al volver, una carta roja de amenaza te dice cuánto tiempo tienes.</EX_SettingsEv_RaidFollows_Tip>
+  <!-- EN: Raid chance multiplier -->
+  <EX_SettingsEv_RaidChance>Multiplicador de probabilidad de asalto</EX_SettingsEv_RaidChance>
+  <!-- EN: Base 4%, +5% per fight with raiders or mechanoids. (Max 40%) -->
+  <EX_SettingsEv_RaidChance_Tip>Base 4%, +5% por cada combate contra saqueadores o mecanoides. (Máximo 40%)</EX_SettingsEv_RaidChance_Tip>
+  <!-- EN: Time until the raid: {0}-{1} days -->
+  <EX_SettingsEv_RaidDelay>Tiempo hasta el asalto: {0}-{1} días</EX_SettingsEv_RaidDelay>
+  <!-- EN: How long after the return the raid arrives; rolled at random within this range. -->
+  <EX_SettingsEv_RaidDelay_Tip>Cuánto después del regreso llega el asalto; se sortea al azar dentro de este rango.</EX_SettingsEv_RaidDelay_Tip>
+  <!-- EN: Site discovery -->
+  <EX_SettingsEv_Site>Descubrir lugares</EX_SettingsEv_Site>
+  <!-- EN: Discover nearby sites -->
+  <EX_SettingsEv_SiteDiscovery>Descubrir lugares cercanos</EX_SettingsEv_SiteDiscovery>
+  <!-- EN: On the way home the party spots a place such as a hidden stash, a work site (logging camp, mine...) or an ancient facility. It becomes a regular quest. -->
+  <EX_SettingsEv_SiteDiscovery_Tip>En el camino a casa, el grupo ve un lugar como un escondite, un sitio de trabajo (campamento maderero, mina...) o una instalación antigua. Se convierte en una misión normal.</EX_SettingsEv_SiteDiscovery_Tip>
+  <!-- EN: Site discovery chance multiplier -->
+  <EX_SettingsEv_SiteChance>Multiplicador de probabilidad de descubrir lugares</EX_SettingsEv_SiteChance>
+  <!-- EN: Base: about 6% for a 1-day trip, +2% per extra day. -->
+  <EX_SettingsEv_SiteChance_Tip>Base: alrededor de un 6% para un viaje de 1 día, +2% por cada día más.</EX_SettingsEv_SiteChance_Tip>
+  <!-- EN: Disease -->
+  <EX_SettingsEv_Disease>Enfermedades</EX_SettingsEv_Disease>
+  <!-- EN: Illness after the trip -->
+  <EX_SettingsEv_DiseaseOn>Enfermedad después del viaje</EX_SettingsEv_DiseaseOn>
+  <!-- EN: Some members come home with an illness such as the flu or malaria. A party good at Medicine catches it less often (up to -60%). Deadly illnesses (plague, malaria) only ever strike one member. -->
+  <EX_SettingsEv_DiseaseOn_Tip>Algunos miembros vuelven a casa con una enfermedad, como la gripe o la malaria. Un grupo bueno en Medicina se contagia menos seguido (hasta -60%). Las enfermedades mortales (peste, malaria) nunca afectan a más de un miembro.</EX_SettingsEv_DiseaseOn_Tip>
+  <!-- EN: Illness chance multiplier -->
+  <EX_SettingsEv_DiseaseChance>Multiplicador de probabilidad de enfermedad</EX_SettingsEv_DiseaseChance>
+  <!-- EN: Base: about 3% for a 1-day trip, +1% per extra day, lowered by the party&apos;s Medicine. -->
+  <EX_SettingsEv_DiseaseChance_Tip>Base: alrededor de un 3% para un viaje de 1 día, +1% por cada día más; la Medicina del grupo la baja.</EX_SettingsEv_DiseaseChance_Tip>
+  <!-- EN: Most members infected at once: {0} -->
+  <EX_SettingsEv_DiseaseMax>Máximo de miembros contagiados a la vez: {0}</EX_SettingsEv_DiseaseMax>
+  <!-- EN: Cap on how many members catch the illness. Never more than 2, and usually just one; plague and malaria always strike just one. -->
+  <EX_SettingsEv_DiseaseMax_Tip>Tope de cuántos miembros se contagian. Nunca más de 2, y casi siempre solo uno; la peste y la malaria siempre afectan a uno solo.</EX_SettingsEv_DiseaseMax_Tip>
+  <!-- EN: Items that expeditions and requests can hand out. Unticked items never turn up. ({0}/{1} in use) -->
+  <EX_LootPicker_Intro>Objetos que pueden dar las expediciones y los encargos. Los que no están marcados no aparecen nunca. ({0}/{1} en uso)</EX_LootPicker_Intro>
+  <!-- EN: Search items... -->
+  <EX_LootPicker_Search>Buscar objetos...</EX_LootPicker_Search>
+  <!-- EN: Enable all shown -->
+  <EX_LootPicker_AllOn>Activar todos los que se ven</EX_LootPicker_AllOn>
+  <!-- EN: Disable all shown -->
+  <EX_LootPicker_AllOff>Desactivar todos los que se ven</EX_LootPicker_AllOff>
+  <!-- EN: Reset all -->
+  <EX_LootPicker_Reset>Restablecer todo</EX_LootPicker_Reset>
+  <!-- EN: No items match. -->
+  <EX_LootPicker_None>Ningún objeto coincide.</EX_LootPicker_None>
+  <!-- EN: All -->
+  <EX_LootTech_All>Todos</EX_LootTech_All>
+  <!-- EN: Shop -->
+  <EX_Tab_Shop>Tienda</EX_Tab_Shop>
+  <!-- EN: Expedition shop -->
+  <EX_ShopTitle>Tienda de expedición</EX_ShopTitle>
+  <!-- EN: Expedition coins {0} -->
+  <EX_Coins>Monedas de expedición {0}</EX_Coins>
+  <!-- EN: Expedition coins +{0} -->
+  <EX_CoinsGained>Monedas de expedición +{0}</EX_CoinsGained>
+  <!-- EN: Every finished expedition earns up to {0} coins, based on its grade, the party&apos;s fighting strength, length and difficulty. -->
+  <EX_ShopCoinHelp>Cada expedición terminada da hasta {0} monedas, según su calificación, la fuerza de combate del grupo, la duración y la dificultad.</EX_ShopCoinHelp>
+  <!-- EN: Relic pull -->
+  <EX_ShopRelicTitle>Sorteo de reliquia</EX_ShopRelicTitle>
+  <!-- EN: Pick one of three face-down cards to level up its relic. Only one of the three gives +2.\nThe shop-only relic &apos;{0}&apos; can turn up too. -->
+  <EX_ShopRelicDesc>Elige una de tres cartas boca abajo para subir el nivel de su reliquia. Solo una de las tres da +2.\nTambién puede salir «{0}», la reliquia exclusiva de la tienda.</EX_ShopRelicDesc>
+  <!-- EN: Furniture pull -->
+  <EX_ShopFurnTitle>Sorteo de mueble</EX_ShopFurnTitle>
+  <!-- EN: Get one random piece of furniture. Higher grades are rarer. The shop-only &apos;{0}&apos; can turn up too. -->
+  <EX_ShopFurnDesc>Obtén un mueble al azar. Las calidades más altas son más raras. También puede salir «{0}», exclusivo de la tienda.</EX_ShopFurnDesc>
+  <!-- EN: Pull for {0} coins -->
+  <EX_ShopBuy>Sortear por {0} monedas</EX_ShopBuy>
+  <!-- EN: {0} more coins needed -->
+  <EX_ShopNotEnough>Faltan {0} monedas</EX_ShopNotEnough>
+  <!-- EN: Furniture storage is full ({0} slots) -->
+  <EX_ShopInventoryFull>El depósito de muebles está lleno ({0} espacios)</EX_ShopInventoryFull>
+  <!-- EN: Shop only -->
+  <EX_ShopExclusive>Exclusivo de la tienda</EX_ShopExclusive>
+  <!-- EN: Pick a card -->
+  <EX_RelicPickTitle>Elige una carta</EX_RelicPickTitle>
+  <!-- EN: Only one of the three gives +2 levels -->
+  <EX_RelicPickHint>Solo una de las tres da +2 niveles</EX_RelicPickHint>
+  <!-- EN: Relic upgraded! -->
+  <EX_RelicPickedTitle>¡Reliquia mejorada!</EX_RelicPickedTitle>
+  <!-- EN: Jackpot! +2 levels! -->
+  <EX_RelicPickedBig>¡Premio mayor! ¡+2 niveles!</EX_RelicPickedBig>
+  <!-- EN: Which one hides the +2? -->
+  <EX_RelicPickBlind>¿Cuál esconde el +2?</EX_RelicPickBlind>
+  <!-- EN: Dealing the cards... -->
+  <EX_RelicDealing>Repartiendo las cartas...</EX_RelicDealing>
+  <!-- EN: +{0} -->
+  <EX_RelicCardGain>+{0}</EX_RelicCardGain>
+  <!-- EN: {0} Lv.{1} → Lv.{2} ({3}) -->
+  <EX_RelicPickResult>{0} Nv. {1} → Nv. {2} ({3})</EX_RelicPickResult>
+  <!-- EN: Chosen -->
+  <EX_RelicChosen>Elegida</EX_RelicChosen>
+  <!-- EN: OK -->
+  <EX_Ok>Aceptar</EX_Ok>
+  <!-- EN: Opening the crate... -->
+  <EX_FurnPullOpening>Abriendo la caja...</EX_FurnPullOpening>
+  <!-- EN: LEGENDARY!! -->
+  <EX_FurnPullLegend>¡¡LEGENDARIO!!</EX_FurnPullLegend>
+  <!-- EN: New furniture -->
+  <EX_FurnPullResult>Mueble nuevo</EX_FurnPullResult>
+  <!-- EN: Shop-only statue! -->
+  <EX_FurnPullStatue>¡Estatua exclusiva de la tienda!</EX_FurnPullStatue>
+  <!-- EN: Hero&apos;s Crown -->
+  <EX_Relic_Crown>Corona del héroe</EX_Relic_Crown>
+  <!-- EN: Colonist mood {0} -->
+  <EX_RelicDesc_Crown>Ánimo de los colonos {0}</EX_RelicDesc_Crown>
+  <!-- EN: Just knowing the crown is somewhere in the colony puts a little swagger in everyone&apos;s step. -->
+  <EX_RelicFlavor_Crown>Con solo saber que la corona está en algún lugar de la colonia, todos caminan con un poco más de aires.</EX_RelicFlavor_Crown>
+  <!-- EN: Shop only -->
+  <EX_RelicShopOnly>Exclusiva de la tienda</EX_RelicShopOnly>
+  <!-- EN: statue -->
+  <EX_Furn_Statue>estatua</EX_Furn_Statue>
+  <!-- EN: {0} looked at the {1} and said: &quot;Sit on this and I bet the next expedition gets an S.&quot; -->
+  <EX_VisitCommentMore_0_0>{0} miró un mueble ({1}) y dijo: «Me siento aquí y apuesto a que la próxima expedición saca una S».</EX_VisitCommentMore_0_0>
+  <!-- EN: {0} looked at the {1} and said: &quot;Someone found this out there? All I ever bring back is rocks.&quot; -->
+  <EX_VisitCommentMore_0_1>{0} miró un mueble ({1}) y dijo: «¿Alguien encontró esto allá afuera? Yo solo traigo piedras».</EX_VisitCommentMore_0_1>
+  <!-- EN: {0} looked at the {1} and said: &quot;Not a speck of dust. Who&apos;s secretly polishing this?&quot; -->
+  <EX_VisitCommentMore_0_2>{0} miró un mueble ({1}) y dijo: «Ni una mota de polvo. ¿Quién lo está lustrando a escondidas?».</EX_VisitCommentMore_0_2>
+  <!-- EN: {0} looked at the {1} and said: &quot;We could charge admission for this.&quot; -->
+  <EX_VisitCommentMore_0_3>{0} miró un mueble ({1}) y dijo: «Podríamos cobrar entrada para ver esto».</EX_VisitCommentMore_0_3>
+  <!-- EN: {0} looked at the {1} and said: &quot;I&apos;m breathing quietly in case it breaks.&quot; -->
+  <EX_VisitCommentMore_0_4>{0} miró un mueble ({1}) y dijo: «Estoy respirando despacito por si se rompe».</EX_VisitCommentMore_0_4>
+  <!-- EN: {0} looked at the {1} and said: &quot;Think anyone would mind if I swapped this for my bed?&quot; -->
+  <EX_VisitCommentMore_0_5>{0} miró un mueble ({1}) y dijo: «¿A alguien le molestaría si lo cambio por mi cama?».</EX_VisitCommentMore_0_5>
+  <!-- EN: {0} looked at the {1} and said: &quot;And here I thought the expedition was roughing it. They went shopping.&quot; -->
+  <EX_VisitCommentMore_0_6>{0} miró un mueble ({1}) y dijo: «Y yo que creía que la expedición pasaba penurias. Se fueron de compras».</EX_VisitCommentMore_0_6>
+  <!-- EN: {0} looked at the {1} and said: &quot;Right at our colony&apos;s level. That&apos;s a compliment. Probably.&quot; -->
+  <EX_VisitCommentMore_1_0>{0} miró un mueble ({1}) y dijo: «Justo al nivel de nuestra colonia. Es un cumplido. Probablemente».</EX_VisitCommentMore_1_0>
+  <!-- EN: {0} looked at the {1} and said: &quot;Nothing special, but I&apos;ve grown oddly fond of it.&quot; -->
+  <EX_VisitCommentMore_1_1>{0} miró un mueble ({1}) y dijo: «Nada especial, pero le agarré un cariño raro».</EX_VisitCommentMore_1_1>
+  <!-- EN: {0} looked at the {1} and said: &quot;With this here, the room finally looks lived in.&quot; -->
+  <EX_VisitCommentMore_1_2>{0} miró un mueble ({1}) y dijo: «Con esto aquí, por fin la habitación parece habitada».</EX_VisitCommentMore_1_2>
+  <!-- EN: {0} looked at the {1} and said: &quot;Don&apos;t knock ordinary. Ordinary lasts.&quot; -->
+  <EX_VisitCommentMore_1_3>{0} miró un mueble ({1}) y dijo: «No desprecies lo común. Lo común dura».</EX_VisitCommentMore_1_3>
+  <!-- EN: {0} looked at the {1} and said: &quot;Picture them lugging this home for days. I&apos;m tearing up.&quot; -->
+  <EX_VisitCommentMore_1_4>{0} miró un mueble ({1}) y dijo: «Imagínatelos cargando esto días enteros hasta casa. Se me caen las lágrimas».</EX_VisitCommentMore_1_4>
+  <!-- EN: {0} looked at the {1} and said: &quot;Hmm... three points. Out of ten. No, out of five.&quot; -->
+  <EX_VisitCommentMore_1_5>{0} miró un mueble ({1}) y dijo: «Mmm... tres puntos. De diez. No, de cinco».</EX_VisitCommentMore_1_5>
+  <!-- EN: {0} looked at the {1} and said: &quot;It&apos;s fine. But why put it right here of all places?&quot; -->
+  <EX_VisitCommentMore_1_6>{0} miró un mueble ({1}) y dijo: «Está bien. Pero ¿por qué ponerlo justo aquí?».</EX_VisitCommentMore_1_6>
+  <!-- EN: {0} looked at the {1} and said: &quot;That&apos;s not furniture. That&apos;s an expedition scar.&quot; -->
+  <EX_VisitCommentMore_2_0>{0} miró un mueble ({1}) y dijo: «Eso no es un mueble. Es una cicatriz de expedición».</EX_VisitCommentMore_2_0>
+  <!-- EN: {0} looked at the {1} and said: &quot;If anyone suggests firewood, I won&apos;t object.&quot; -->
+  <EX_VisitCommentMore_2_1>{0} miró un mueble ({1}) y dijo: «Si alguien propone usarlo de leña, no me opongo».</EX_VisitCommentMore_2_1>
+  <!-- EN: {0} looked at the {1} and said: &quot;Should I write a will before sitting on it?&quot; -->
+  <EX_VisitCommentMore_2_2>{0} miró un mueble ({1}) y dijo: «¿Debería hacer testamento antes de sentarme encima?».</EX_VisitCommentMore_2_2>
+  <!-- EN: {0} looked at the {1} and said: &quot;Whoever picked this up needs an eye test.&quot; -->
+  <EX_VisitCommentMore_2_3>{0} miró un mueble ({1}) y dijo: «Quien recogió esto necesita un examen de la vista».</EX_VisitCommentMore_2_3>
+  <!-- EN: {0} looked at the {1} and said: &quot;That smell... let&apos;s call it the scent of adventure.&quot; -->
+  <EX_VisitCommentMore_2_4>{0} miró un mueble ({1}) y dijo: «Ese olor... digamos que es el aroma de la aventura».</EX_VisitCommentMore_2_4>
+  <!-- EN: {0} looked at the {1} and said: &quot;Let&apos;s get a picture before it falls apart.&quot; -->
+  <EX_VisitCommentMore_2_5>{0} miró un mueble ({1}) y dijo: «Saquémosle una foto antes de que se desarme».</EX_VisitCommentMore_2_5>
+  <!-- EN: {0} peered at the {1} and said: &quot;Through this I could read someone&apos;s dinner menu from across the map.&quot; -->
+  <EX_VisitRelic_Marksman_0>{0} observó de cerca una reliquia ({1}) y dijo: «Con esto podría leer el menú de la cena de alguien desde la otra punta del mapa».</EX_VisitRelic_Marksman_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Just touching it makes me feel like I&apos;d never miss.&quot; -->
+  <EX_VisitRelic_Marksman_1>{0} observó de cerca una reliquia ({1}) y dijo: «Con solo tocarla siento que nunca fallaría un tiro».</EX_VisitRelic_Marksman_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Is it just me, or is the scope aiming at me?&quot; -->
+  <EX_VisitRelic_Marksman_2>{0} observó de cerca una reliquia ({1}) y dijo: «¿Soy yo, o la mira me está apuntando?».</EX_VisitRelic_Marksman_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Just looking at it makes my legs itch to run.&quot; -->
+  <EX_VisitRelic_Swift_0>{0} observó de cerca una reliquia ({1}) y dijo: «Con solo mirarla, las piernas me piden correr».</EX_VisitRelic_Swift_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Thanks to this I&apos;m first in line for dinner every time.&quot; -->
+  <EX_VisitRelic_Swift_1>{0} observó de cerca una reliquia ({1}) y dijo: «Gracias a esto, siempre llego primero a la fila de la cena».</EX_VisitRelic_Swift_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;I&apos;m standing still, so why am I out of breath?&quot; -->
+  <EX_VisitRelic_Swift_2>{0} observó de cerca una reliquia ({1}) y dijo: «No me estoy moviendo, ¿por qué me falta el aire?».</EX_VisitRelic_Swift_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Looking at it suddenly makes me want to work. Terrifying.&quot; -->
+  <EX_VisitRelic_Diligence_0>{0} observó de cerca una reliquia ({1}) y dijo: «Mirarla me dan ganas de trabajar de repente. Aterrador».</EX_VisitRelic_Diligence_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;The gears look like they&apos;re turning on their own. Just me?&quot; -->
+  <EX_VisitRelic_Diligence_1>{0} observó de cerca una reliquia ({1}) y dijo: «Parece que los engranajes giran solos. ¿Soy solo yo?».</EX_VisitRelic_Diligence_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;If we put this away, will everyone go back to slacking?&quot; -->
+  <EX_VisitRelic_Diligence_2>{0} observó de cerca una reliquia ({1}) y dijo: «Si la guardamos, ¿todos vuelven a holgazanear?».</EX_VisitRelic_Diligence_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;The way it gleams, it&apos;s like it&apos;s grinning. Creepily.&quot; -->
+  <EX_VisitRelic_Blade_0>{0} observó de cerca una reliquia ({1}) y dijo: «Por cómo brilla, parece que estuviera sonriendo. Da escalofríos».</EX_VisitRelic_Blade_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Isn&apos;t it a bit dangerous to leave it out without a sheath?&quot; -->
+  <EX_VisitRelic_Blade_1>{0} observó de cerca una reliquia ({1}) y dijo: «¿No es un poco peligroso dejarla afuera sin vaina?».</EX_VisitRelic_Blade_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;After seeing this, the kitchen knife looks like a toy.&quot; -->
+  <EX_VisitRelic_Blade_2>{0} observó de cerca una reliquia ({1}) y dijo: «Después de ver esto, el cuchillo de cocina parece un juguete».</EX_VisitRelic_Blade_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Stand near it and colds probably just run off.&quot; -->
+  <EX_VisitRelic_Healer_0>{0} observó de cerca una reliquia ({1}) y dijo: «Si te paras cerca, seguro que los resfriados salen huyendo».</EX_VisitRelic_Healer_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;The doctor&apos;s going to be jealous.&quot; -->
+  <EX_VisitRelic_Healer_1>{0} observó de cerca una reliquia ({1}) y dijo: «Al médico le va a dar envidia».</EX_VisitRelic_Healer_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Would it heal if I pressed it on a wound? ...No?&quot; -->
+  <EX_VisitRelic_Healer_2>{0} observó de cerca una reliquia ({1}) y dijo: «¿Se curaría si la aprieto contra una herida? ...¿No?».</EX_VisitRelic_Healer_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;I feel smarter just looking at it. Just feel.&quot; -->
+  <EX_VisitRelic_Scholar_0>{0} observó de cerca una reliquia ({1}) y dijo: «Con solo mirarla siento que pienso mejor. Lo siento, nada más».</EX_VisitRelic_Scholar_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;I get the feeling it&apos;s smarter than me. Stings a bit.&quot; -->
+  <EX_VisitRelic_Scholar_1>{0} observó de cerca una reliquia ({1}) y dijo: «Me da la sensación de que es más lista que yo. Duele un poco».</EX_VisitRelic_Scholar_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;I can&apos;t talk to it. I&apos;m afraid it&apos;ll answer.&quot; -->
+  <EX_VisitRelic_Scholar_2>{0} observó de cerca una reliquia ({1}) y dijo: «No me atrevo a hablarle. Me da miedo que me conteste».</EX_VisitRelic_Scholar_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Put a flowerpot next to this and you&apos;d have a forest by morning.&quot; -->
+  <EX_VisitRelic_Harvest_0>{0} observó de cerca una reliquia ({1}) y dijo: «Pones una maceta al lado y a la mañana tienes un bosque».</EX_VisitRelic_Harvest_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;It smells like soil. In a good way.&quot; -->
+  <EX_VisitRelic_Harvest_1>{0} observó de cerca una reliquia ({1}) y dijo: «Huele a tierra. En el buen sentido».</EX_VisitRelic_Harvest_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Looking at this makes me want to plant potatoes.&quot; -->
+  <EX_VisitRelic_Harvest_2>{0} observó de cerca una reliquia ({1}) y dijo: «Mirar esto me da ganas de plantar papas».</EX_VisitRelic_Harvest_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;That old-book smell... so this is what wisdom smells like.&quot; -->
+  <EX_VisitRelic_Wisdom_0>{0} observó de cerca una reliquia ({1}) y dijo: «Ese olor a libro viejo... así que así huele la sabiduría».</EX_VisitRelic_Wisdom_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;I want to open it, but I feel like I shouldn&apos;t.&quot; -->
+  <EX_VisitRelic_Wisdom_1>{0} observó de cerca una reliquia ({1}) y dijo: «Quiero abrirlo, pero siento que no debería».</EX_VisitRelic_Wisdom_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Read this and I&apos;d probably start lecturing everyone.&quot; -->
+  <EX_VisitRelic_Wisdom_2>{0} observó de cerca una reliquia ({1}) y dijo: «Si leo esto, seguro que empiezo a darle sermones a todo el mundo».</EX_VisitRelic_Wisdom_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;How much would this fetch? Kidding. Kidding.&quot; -->
+  <EX_VisitRelic_Merchant_0>{0} observó de cerca una reliquia ({1}) y dijo: «¿Cuánto darían por esto? Es broma. Es broma».</EX_VisitRelic_Merchant_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;I feel my haggling skills improving just looking at it.&quot; -->
+  <EX_VisitRelic_Merchant_1>{0} observó de cerca una reliquia ({1}) y dijo: «Siento que regateo mejor con solo mirarla».</EX_VisitRelic_Merchant_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;It shines like silver. No, better than silver.&quot; -->
+  <EX_VisitRelic_Merchant_2>{0} observó de cerca una reliquia ({1}) y dijo: «Brilla como la plata. No, mejor que la plata».</EX_VisitRelic_Merchant_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Next to this, I feel like nobody could lay a finger on me.&quot; -->
+  <EX_VisitRelic_Guardian_0>{0} observó de cerca una reliquia ({1}) y dijo: «A su lado siento que nadie podría ponerme un dedo encima».</EX_VisitRelic_Guardian_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Reassuring. More reassuring than our guard captain.&quot; -->
+  <EX_VisitRelic_Guardian_1>{0} observó de cerca una reliquia ({1}) y dijo: «Da tranquilidad. Más que nuestro capitán de la guardia».</EX_VisitRelic_Guardian_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Can I knock on it? Ow. My hand lost.&quot; -->
+  <EX_VisitRelic_Guardian_2>{0} observó de cerca una reliquia ({1}) y dijo: «¿Puedo golpearla? Ay. Perdió mi mano».</EX_VisitRelic_Guardian_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Looking at this, I don&apos;t think I need a nap.&quot; -->
+  <EX_VisitRelic_Vitality_0>{0} observó de cerca una reliquia ({1}) y dijo: «Mirando esto, creo que no necesito una siesta».</EX_VisitRelic_Vitality_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Get close and I swear my skin looks better.&quot; -->
+  <EX_VisitRelic_Vitality_1>{0} observó de cerca una reliquia ({1}) y dijo: «Te acercas y te juro que la piel se ve mejor».</EX_VisitRelic_Vitality_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Since this showed up, everyone seems to cough less.&quot; -->
+  <EX_VisitRelic_Vitality_2>{0} observó de cerca una reliquia ({1}) y dijo: «Desde que apareció esto, parece que todos tosen menos».</EX_VisitRelic_Vitality_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Just looking at it calms me down... so sleepy...&quot; -->
+  <EX_VisitRelic_Serenity_0>{0} observó de cerca una reliquia ({1}) y dijo: «Con solo mirarla me calmo... qué sueño...».</EX_VisitRelic_Serenity_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Forgot everything that annoyed me today. What was it again?&quot; -->
+  <EX_VisitRelic_Serenity_1>{0} observó de cerca una reliquia ({1}) y dijo: «Se me olvidó todo lo que me molestó hoy. ¿Qué era?».</EX_VisitRelic_Serenity_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;I wish I had one of these in my room.&quot; -->
+  <EX_VisitRelic_Serenity_2>{0} observó de cerca una reliquia ({1}) y dijo: «Ojalá tuviera una de estas en mi cuarto».</EX_VisitRelic_Serenity_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;I yawned the moment I saw it. It definitely works.&quot; -->
+  <EX_VisitRelic_Slumber_0>{0} observó de cerca una reliquia ({1}) y dijo: «Bostecé apenas la vi. Funciona, sin duda».</EX_VisitRelic_Slumber_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;I want to lie down here. No wait, I already am.&quot; -->
+  <EX_VisitRelic_Slumber_1>{0} observó de cerca una reliquia ({1}) y dijo: «Quiero acostarme aquí. No, espera, si ya estoy en la cama».</EX_VisitRelic_Slumber_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;Near this, even snoring sounds like a lullaby.&quot; -->
+  <EX_VisitRelic_Slumber_2>{0} observó de cerca una reliquia ({1}) y dijo: «Cerca de esto, hasta los ronquidos suenan a canción de cuna».</EX_VisitRelic_Slumber_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Looking at it, words just flow. What I mean to say is...&quot; -->
+  <EX_VisitRelic_Eloquence_0>{0} observó de cerca una reliquia ({1}) y dijo: «Mirándola, las palabras me salen solas. Lo que quiero decir es...».</EX_VisitRelic_Eloquence_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Give a speech holding this and everyone would applaud.&quot; -->
+  <EX_VisitRelic_Eloquence_1>{0} observó de cerca una reliquia ({1}) y dijo: «Si das un discurso con esto en la mano, todos aplauden».</EX_VisitRelic_Eloquence_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;I&apos;m usually tongue-tied, but this has me doubting that.&quot; -->
+  <EX_VisitRelic_Eloquence_2>{0} observó de cerca una reliquia ({1}) y dijo: «Siempre se me traba la lengua, pero esto me hace dudar».</EX_VisitRelic_Eloquence_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;Every wall makes me want to dig. Is this thing to blame?&quot; -->
+  <EX_VisitRelic_Miner_0>{0} observó de cerca una reliquia ({1}) y dijo: «Cada pared me da ganas de cavar. ¿La culpa es de esto?».</EX_VisitRelic_Miner_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;I think I&apos;ve developed an eye for shiny rocks.&quot; -->
+  <EX_VisitRelic_Miner_1>{0} observó de cerca una reliquia ({1}) y dijo: «Creo que me salió buen ojo para las piedras brillantes».</EX_VisitRelic_Miner_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;With this, I could move a mountain.&quot; -->
+  <EX_VisitRelic_Miner_2>{0} observó de cerca una reliquia ({1}) y dijo: «Con esto podría mover una montaña».</EX_VisitRelic_Miner_2>
+  <!-- EN: {0} peered at the {1} and said: &quot;I want to try it on... No, I shouldn&apos;t. Just once?&quot; -->
+  <EX_VisitRelic_Crown_0>{0} observó de cerca una reliquia ({1}) y dijo: «Me la quiero probar... No, no debería. ¿Solo una vez?».</EX_VisitRelic_Crown_0>
+  <!-- EN: {0} peered at the {1} and said: &quot;Looking at it, my head bows on its own.&quot; -->
+  <EX_VisitRelic_Crown_1>{0} observó de cerca una reliquia ({1}) y dijo: «Al mirarla, la cabeza se me inclina sola».</EX_VisitRelic_Crown_1>
+  <!-- EN: {0} peered at the {1} and said: &quot;We bought this at the shop? So heroism&apos;s for sale now.&quot; -->
+  <EX_VisitRelic_Crown_2>{0} observó de cerca una reliquia ({1}) y dijo: «¿Esto lo compramos en la tienda? Así que ahora el heroísmo está a la venta».</EX_VisitRelic_Crown_2>
+  <!-- EN: Max Lv.{0} · final effect {1} -->
+  <EX_RelicMax>Nv. máximo {0} · efecto final {1}</EX_RelicMax>
+  <!-- EN: Lv.{0} (max) -->
+  <EX_RelicLevelMax>Nv. {0} (máximo)</EX_RelicLevelMax>
+  <!-- EN: Drop chance per day (now Lv.{0} → next Lv.{1}) -->
+  <EX_DropTitle>Probabilidad de hallazgo por día (ahora Nv. {0} → siguiente Nv. {1})</EX_DropTitle>
+  <!-- EN: Relic -->
+  <EX_DropRelic>Reliquia</EX_DropRelic>
+  <!-- EN: Furniture -->
+  <EX_DropFurniture>Mueble</EX_DropFurniture>
+  <!-- EN: Rare -->
+  <EX_DropLegendary>Raro</EX_DropLegendary>
+  <!-- EN: (from Lv.{0}) -->
+  <EX_DropUnlock>(desde el Nv. {0})</EX_DropUnlock>
+  <!-- EN: Rolled once per expedition day. A great expedition raises relic and rare treasure chances further, and requests raise the furniture chance by 30%. Mod setting multipliers are included. -->
+  <EX_DropNote>Se sortea una vez por día de expedición. Una gran expedición sube aún más la probabilidad de reliquias y de tesoros raros, y los encargos suben la de muebles en un 30%. Incluye los multiplicadores de la configuración del mod.</EX_DropNote>
+  <!-- EN: Furniture · effects -->
+  <EX_FurnInfoButton>Muebles · efectos</EX_FurnInfoButton>
+  <!-- EN: Furniture and effects -->
+  <EX_FurnInfoTitle>Muebles y efectos</EX_FurnInfoTitle>
+  <!-- EN: Furniture you can get -->
+  <EX_FurnInfoKinds>Muebles que puedes obtener</EX_FurnInfoKinds>
+  <!-- EN: Effects furniture can have -->
+  <EX_FurnInfoEffects>Efectos que pueden tener los muebles</EX_FurnInfoEffects>
+  <!-- EN: Each piece rolls one effect, and its strength depends on quality. Statues give {0} of a normal piece&apos;s effect. Blue effects apply to your colonists in game. -->
+  <EX_FurnInfoEffectsHint>Cada mueble sortea un efecto, y su fuerza depende de la calidad. Las estatuas dan el {0} del efecto de un mueble normal. Los efectos en azul se aplican a tus colonos en la partida.</EX_FurnInfoEffectsHint>
+  <!-- EN: In game -->
+  <EX_FurnInfoInGame>En la partida</EX_FurnInfoInGame>
+  <!-- EN: Expeditions -->
+  <EX_FurnInfoExpedition>Expediciones</EX_FurnInfoExpedition>
+  <!-- EN: Normal {0}  ~  Legendary {1} -->
+  <EX_FurnInfoRange>Normal {0}  ~  Legendario {1}</EX_FurnInfoRange>
+  <!-- EN: Coins +{0} -->
+  <EX_DevAddCoins>Monedas +{0}</EX_DevAddCoins>
+  <!-- EN: Resting after another expedition ({0}) -->
+  <EX_Unavailable_Resting>Descansando de otra expedición ({0})</EX_Unavailable_Resting>
+  <!-- EN: Party {0} -->
+  <EX_PartySlotTip>Grupo {0}</EX_PartySlotTip>
+  <!-- EN: Ready to go -->
+  <EX_PartySlotReady>Listo para partir</EX_PartySlotReady>
+  <!-- EN: Party {0} ready -->
+  <EX_ReadyLetterLabelN>Grupo {0} listo</EX_ReadyLetterLabelN>
+  <!-- EN: Every relic is at max level -->
+  <EX_ShopRelicAllMax>Todas las reliquias están al nivel máximo</EX_ShopRelicAllMax>
+  <!-- EN: Extra party -->
+  <EX_ShopPartyTitle>Grupo extra</EX_ShopPartyTitle>
+  <!-- EN: Form one more party. Each party and each member rests on their own, and several parties can be out on realtime expeditions at once. (Now {0}/{1}) -->
+  <EX_ShopPartyDesc>Forma un grupo más. Cada grupo y cada miembro descansan por su cuenta, y puede haber varios grupos afuera a la vez en expediciones en tiempo real. (Ahora {0}/{1})</EX_ShopPartyDesc>
+  <!-- EN: Party limit reached ({0}) -->
+  <EX_ShopPartyMax>Se alcanzó el límite de grupos ({0})</EX_ShopPartyMax>
+  <!-- EN: Party {0} is ready to form! -->
+  <EX_ShopPartyBought>¡El grupo {0} está listo para formarse!</EX_ShopPartyBought>
+  <!-- EN: Back to setup -->
+  <EX_LiveToSetup>Volver a la preparación</EX_LiveToSetup>
+  <!-- EN: Go to the expedition -->
+  <EX_WatchLive>Ir a la expedición</EX_WatchLive>
+  <!-- EN: Out on an expedition ({0} until back) -->
+  <EX_PartySlotAway>De expedición (vuelve en {0})</EX_PartySlotAway>
+  <!-- EN: Party {0}: back in {1} -->
+  <EX_ButtonLiveTipN>Grupo {0}: de vuelta en {1}</EX_ButtonLiveTipN>
+  <!-- EN: Resting after going out with party {0} ({1}) -->
+  <EX_Unavailable_OtherParty>Descansando después de salir con el grupo {0} ({1})</EX_Unavailable_OtherParty>
+  <!-- EN: Party {0} is out · back in {1} -->
+  <EX_PartyOutStatus>El grupo {0} está afuera · de vuelta en {1}</EX_PartyOutStatus>
+  <!-- EN: Expedition level +1 -->
+  <EX_DevLevelUp>Nivel de expedición +1</EX_DevLevelUp>
+  <!-- EN: Furniture pull quality odds -->
+  <EX_ShopFurnOddsTitle>Probabilidades de calidad del sorteo de mueble</EX_ShopFurnOddsTitle>
+  <!-- EN: Out with party {0} -->
+  <EX_Unavailable_OnExpedition>Afuera con el grupo {0}</EX_Unavailable_OnExpedition>
+  <!-- EN: {0} is downed and can&apos;t join the party. -->
+  <EX_PartyDownedRemoved>{0} está inconsciente y no puede unirse al grupo.</EX_PartyDownedRemoved>
+  <!-- EN: Furniture {0} · {1} {2} -->
+  <EX_ShopFurnOddsKinds>Muebles {0} · {1} {2}</EX_ShopFurnOddsKinds>
+  <!-- EN: Quality odds (the same for every kind) -->
+  <EX_ShopFurnOddsGrades>Probabilidades de calidad (iguales para todos los tipos)</EX_ShopFurnOddsGrades>
+  <!-- EN: Shorter rest -->
+  <EX_ShopRestTitle>Descanso más corto</EX_ShopRestTitle>
+  <!-- EN: Every party&apos;s and member&apos;s rest gets {0} shorter per level. Max Lv.{1}. Now Lv.{2} (-{3}) -->
+  <EX_ShopRestDesc>El descanso de cada grupo y de cada miembro se acorta en {0} por nivel. Nv. máximo {1}. Ahora Nv. {2} (-{3})</EX_ShopRestDesc>
+  <!-- EN: Max level (Lv.{0}) reached -->
+  <EX_ShopRestMax>Se alcanzó el nivel máximo (Nv. {0})</EX_ShopRestMax>
+  <!-- EN: Shorter rest Lv.{0}! Rest time -{1} -->
+  <EX_ShopRestBought>¡Descanso más corto Nv. {0}! Tiempo de descanso -{1}</EX_ShopRestBought>
+  <!-- EN: Transcendent -->
+  <EX_DropTranscendent>Trascendente</EX_DropTranscendent>
+  <!-- EN: [Transcendent] -->
+  <EX_TranscendentTag>[Trascendente]</EX_TranscendentTag>
+  <!-- EN: Transcendent!! -->
+  <EX_Float_Transcendent>¡¡Trascendente!!</EX_Float_Transcendent>
+  <!-- EN: Transcendent find! -->
+  <EX_ResultFx_Transcendent>¡Hallazgo trascendente!</EX_ResultFx_Transcendent>
+  <!-- EN: Unbelievable! A transcendent {0}, glowing faintly! -->
+  <EX_Ev_Transcendent>¡Increíble! ¡Un objeto trascendente, con un brillo tenue: {0}!</EX_Ev_Transcendent>
+  <!-- EN: Ordinary -->
+  <EX_LootTier_Normal>Común</EX_LootTier_Normal>
+  <!-- EN: Rare -->
+  <EX_LootTier_Rare>Raro</EX_LootTier_Rare>
+  <!-- EN: Transcendent -->
+  <EX_LootTier_Transcendent>Trascendente</EX_LootTier_Transcendent>
+  <!-- EN: Mystery box -->
+  <EX_ShopBoxTitle>Caja misteriosa</EX_ShopBoxTitle>
+  <!-- EN: Open an ancient hermetic crate. It holds an ordinary, rare or transcendent reward at fixed odds, delivered straight to the colony. -->
+  <EX_ShopBoxDesc>Abre una antigua caja hermética. Trae una recompensa común, rara o trascendente con probabilidades fijas, que se entrega directo en la colonia.</EX_ShopBoxDesc>
+  <!-- EN: No colony to deliver to -->
+  <EX_ShopBoxNoMap>No hay una colonia donde entregarla</EX_ShopBoxNoMap>
+  <!-- EN: Mystery box odds -->
+  <EX_ShopBoxOddsTitle>Probabilidades de la caja misteriosa</EX_ShopBoxOddsTitle>
+  <!-- EN: The odds are fixed, whatever the expedition level or settings. Items turned off in the mod settings never come out. -->
+  <EX_ShopBoxOddsNote>Las probabilidades son fijas, sin importar el nivel de expedición ni la configuración. Los objetos desactivados en la configuración del mod nunca salen.</EX_ShopBoxOddsNote>
+  <!-- EN: Prying it open... -->
+  <EX_ShopBoxOpening>Forzando la tapa...</EX_ShopBoxOpening>
+  <!-- EN: Inside the box -->
+  <EX_ShopBoxResult>Dentro de la caja</EX_ShopBoxResult>
+  <!-- EN: Nothing could be given, so the coins were refunded -->
+  <EX_ShopBoxEmpty>No se pudo dar nada, así que se devolvieron las monedas</EX_ShopBoxEmpty>
+  <!-- EN: Delivered to the middle of your home area -->
+  <EX_ShopBoxSent>Entregado en el centro de tu área del hogar</EX_ShopBoxSent>
+  <!-- EN: Mystery box reward delivered: {0} -->
+  <EX_ShopBoxDelivered>Recompensa de la caja misteriosa entregada: {0}</EX_ShopBoxDelivered>
+  <!-- EN: Add mod items -->
+  <EX_SettingsTab_ModItems>Agregar objetos de mods</EX_SettingsTab_ModItems>
+  <!-- EN: Add items from any mod to the expedition rewards. Ordinary ones join the good loot table; rare and transcendent ones join the rare-treasure finds and the mystery box. Amounts follow the item&apos;s value. ({0} added) -->
+  <EX_ModItems_Intro>Agrega objetos de cualquier mod a las recompensas de las expediciones. Los comunes entran a la tabla de botín bueno; los raros y trascendentes, a los hallazgos de tesoros raros y a la caja misteriosa. Las cantidades dependen del valor del objeto. ({0} agregados)</EX_ModItems_Intro>
+  <!-- EN: pick a mod -->
+  <EX_ModItems_PickMod>elige un mod</EX_ModItems_PickMod>
+  <!-- EN: Filter: {0} -->
+  <EX_ModItems_Filter>Filtro: {0}</EX_ModItems_Filter>
+  <!-- EN: {0} added -->
+  <EX_ModItems_AddedN>{0} agregados</EX_ModItems_AddedN>
+  <!-- EN: Show added items only -->
+  <EX_ModItems_AddedOnly>Mostrar solo los objetos agregados</EX_ModItems_AddedOnly>
+  <!-- EN: Remove all from this mod -->
+  <EX_ModItems_ClearMod>Quitar todos los de este mod</EX_ModItems_ClearMod>
+  <!-- EN: Press the filter button above to pick a mod -->
+  <EX_ModItems_PickFirst>Presiona el botón de filtro de arriba para elegir un mod</EX_ModItems_PickFirst>
+  <!-- EN: Buy for {0} coins -->
+  <EX_ShopPurchase>Comprar por {0} monedas</EX_ShopPurchase>
+  <!-- EN: Recommend options -->
+  <EX_RecommendOptionsTip>Opciones de la recomendación</EX_RecommendOptionsTip>
+  <!-- EN: Include slaves -->
+  <EX_RecommendSlaves>Incluir esclavos</EX_RecommendSlaves>
+  <!-- EN: Include mechanoids -->
+  <EX_RecommendMechs>Incluir mecanoides</EX_RecommendMechs>
+  <!-- EN: on -->
+  <EX_On>sí</EX_On>
+  <!-- EN: off -->
+  <EX_Off>no</EX_Off>
+  <!-- EN: Walk out and back -->
+  <EX_WalkOut>Salir y volver a pie</EX_WalkOut>
+  <!-- EN: When on, the party doesn&apos;t vanish at once. They drop what they&apos;re doing, gather in the middle of the home area and walk off the map edge; once everyone is gone the trip begins and the window opens again.\n\nComing back, they walk in from the map edge. In real-time the result comes in when they reach the home area; in fast mode the result comes first and they walk in afterwards.\n\nThe loot isn&apos;t dropped: the members carry it in their inventory, shared out (weight ignored), and put it away once home.\n\nWorks in both modes. Game time runs while they walk. -->
+  <EX_WalkOutTip>Si está activado, el grupo no desaparece de golpe. Dejan lo que están haciendo, se juntan en el centro del área del hogar y salen caminando por el borde del mapa; cuando ya se fueron todos, empieza el viaje y la ventana se vuelve a abrir.\n\nAl regresar, entran caminando desde el borde del mapa. En tiempo real, el resultado llega cuando alcanzan el área del hogar; en el modo rápido, primero llega el resultado y después entran caminando.\n\nEl botín no se deja en el suelo: los miembros lo llevan en su inventario, repartido (sin contar el peso), y lo guardan al llegar a casa.\n\nFunciona en los dos modos. El tiempo de juego corre mientras caminan.</EX_WalkOutTip>
+  <!-- EN: Party {0} is getting ready: they gather in the middle of the home area, then walk off the map. -->
+  <EX_DepartGathering>El grupo {0} se está preparando: se juntan en el centro del área del hogar y después salen caminando del mapa.</EX_DepartGathering>
+  <!-- EN: Party {0} is on its way back. -->
+  <EX_ReturnWalking>El grupo {0} viene de vuelta.</EX_ReturnWalking>
+  <!-- EN: {0} can no longer leave and dropped out of the party. -->
+  <EX_DepartDropped>{0} ya no puede partir y dejó el grupo.</EX_DepartDropped>
+  <!-- EN: Party {0}&apos;s departure was called off. -->
+  <EX_DepartCancelled>Se suspendió la partida del grupo {0}.</EX_DepartCancelled>
+  <!-- EN: Call off departure -->
+  <EX_DepartCancel>Suspender la partida</EX_DepartCancel>
+  <!-- EN: Leaving with party {0} -->
+  <EX_Unavailable_Departing>Saliendo con el grupo {0}</EX_Unavailable_Departing>
+  <!-- EN: Coming back with party {0} -->
+  <EX_Unavailable_Returning>Volviendo con el grupo {0}</EX_Unavailable_Returning>
+  <!-- EN: Party {0} is leaving · walking off the map -->
+  <EX_PartyDepartingStatus>El grupo {0} está saliendo · camina hacia el borde del mapa</EX_PartyDepartingStatus>
+  <!-- EN: Party {0} is coming back · walking to the home area -->
+  <EX_PartyReturningStatus>El grupo {0} está volviendo · camina hacia el área del hogar</EX_PartyReturningStatus>
+  <!-- EN: Members left behind without a party came home: {0} -->
+  <EX_StraysReturned>Volvieron a casa los miembros que quedaron atrás sin grupo: {0}</EX_StraysReturned>
+</LanguageData>
