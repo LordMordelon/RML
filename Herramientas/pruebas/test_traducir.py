@@ -137,6 +137,17 @@ class Aplicar(unittest.TestCase):
         self.assertIn(b"{1}", nuevos["a.xml"])
         self.assertTrue(inf.avisos[0].startswith("a.xml: GRAVE"))
 
+    def test_el_espacio_del_borde_del_ingles_no_se_pierde(self):
+        # «Normal hatching in » va pegado a un numero: sin el espacio salia «Eclosion normal en6 horas»
+        borde = xml(["  <!-- EN: Normal hatching in  -->", "  <K1>TODO</K1>",
+                     "  <!-- EN:  / Cocoons:  -->", "  <K2>TODO</K2>"])
+        for malo in ("K1\tEclosión normal en\n", "K2\t / Crisálidas:\n", "K2\t/ Crisálidas: \n"):
+            with self.assertRaises(T.Error):
+                aplicar(malo, {"a.xml": borde})
+        nuevos, inf = aplicar("K1\tEclosión normal en \nK2\t / Crisálidas: \n", {"a.xml": borde})
+        self.assertIn("<K1>Eclosión normal en </K1>".encode("utf-8"), nuevos["a.xml"])
+        self.assertEqual(inf.avisos, [])
+
     def test_el_genero_entre_llaves_no_es_inventado(self):
         x = xml(["  <!-- EN: {0} in the {1} -->", "  <G>TODO</G>"])
         nuevos, _ = aplicar("G\t{0} en {1_gender ? el : la} {1}\n", {"g.xml": x})
@@ -272,6 +283,12 @@ class Tabla(unittest.TestCase):
         nuevos, inf = aplicar("\n".join(llenas), archivos)
         self.assertEqual(inf.no_encontradas, [])
         self.assertEqual(sum(b.count(b">TODO<") for b in nuevos.values()), 2)  # las de S
+
+    def test_marca_el_espacio_del_borde(self):
+        # En la tabla un espacio al final no se ve: se avisa en su propio renglon
+        p = T.plantilla({"a.xml": xml(["  <!-- EN: Normal hatching in  -->", "  <K1>TODO</K1>"])}, set())
+        self.assertIn("# OJO: el ingles termina con espacio", p)
+        self.assertNotIn("# OJO", T.plantilla({"a.xml": SIMPLE}, set()))
 
     def test_tope_de_palabras(self):
         p = T.plantilla({"a.xml": SIMPLE}, set(), palabras=2)

@@ -402,6 +402,12 @@ Un commit por arreglo: si uno resulta mal, se revierte ese solo.
 
 - **Todo en `UTF-8`.**
 
+- **Los espacios del borde del inglés se conservan.** Si el `EN:` empieza o termina con un espacio
+  (en el comentario se ve como dos espacios antes del `-->`), la traducción también: el mod pega ese
+  texto a un número o a otro texto, y sin el espacio queda pegado. En Insectoids: Lore Realized se
+  perdieron 32 y el juego mostraba «Eclosión normal en6 horas» (1-nov-2026). La tabla de
+  `traducir.py` lo marca con un renglón `# OJO:` y `aplicar` no guarda una traducción que lo pierda.
+
 - **No se traduce:**
   - Nombres propios de mods (*Save Our Ship 2*, *Biotech*, *Royalty*).
   - Marcadores dinámicos: `{0}`, `{PAWN_nameDef}`, `[resolvedQuestName]`.

@@ -168,9 +168,23 @@ def _problemas_de(e, es, n):
         mal.append(Problema(False, f"{donde}: marcadores distintos {lista(e.en)} vs {lista(es)}"))
     if es != es.strip() and e.en == e.en.strip():  # la tabla ya no recorta: un espacio de mas se veria
         mal.append(Problema(False, f"{donde}: espacios al principio o al final que el ingles no tiene"))
+    # Al reves es grave: el mod pega el texto a un numero o a otro texto, y sin el espacio el juego
+    # mostraba «Eclosion normal en6 horas» (Insectoids Lore Realized, 1-nov-2026)
+    borde = _borde(e.en)
+    if ("principio" in borde and not es.startswith(" ")) or ("final" in borde and not es.endswith(" ")):
+        mal.append(Problema(True, f"{donde}: el ingles tiene un espacio al {borde} y la traduccion no; "
+                                  "sin el, el texto queda pegado al que sigue"))
     if _saltos(e.en) != es.count("\\n"):
         mal.append(Problema(False, f"{donde}: saltos de linea {_saltos(e.en)} en ingles, {es.count(chr(92) + 'n')} en espanol"))
     return mal
+
+
+def _borde(en):
+    """Donde lleva espacio el ingles: «principio», «final», los dos o ninguno."""
+    if not en or not en.strip():
+        return ""
+    lados = [lado for lado, si in (("principio", en.startswith(" ")), ("final", en.endswith(" "))) if si]
+    return " y al ".join(lados)
 
 
 def revisar(orig, nuevo, en_patches=False):
@@ -362,6 +376,9 @@ def plantilla(archivos, claves_keyed, sugerencias=None, palabras=None, claves=Fa
                     bloque.append(f"# CLAVE DE KEYED, se deja en TODO: {e.clave} ({e.en.strip()})")
                     continue
                 bloque.append("# EN: " + (e.en or "").replace("\n", "\\n"))
+                if _borde(e.en):  # en la tabla un espacio al final no se ve
+                    bloque.append(f"# OJO: el ingles {'empieza' if _borde(e.en) == 'principio' else 'termina'}"
+                                  f" con espacio{' (y empieza)' if ' y ' in _borde(e.en) else ''}: la traduccion tambien")
                 sug = (sugerencias or {}).get((e.en or "").strip().lower())
                 if sug:
                     mas = sorted(sug.items(), key=lambda x: -x[1])[:2]
