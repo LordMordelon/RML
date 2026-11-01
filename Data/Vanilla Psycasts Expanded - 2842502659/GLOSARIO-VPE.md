@@ -28,7 +28,13 @@ con y sin el mod. Las etiquetas van en minúscula, como en la oficial.
 | manhunter | **cazahombres** | Oficial. *territorial manhunter*: «cazahombres territorial» |
 | flashstorm | **tormenta eléctrica** | Oficial. El poder y la condición del mapa |
 | mental break | **colapso mental** | Oficial. *mind break*, el poder del arconte, es otra cosa: «quiebre mental» |
-| joyfuzz | **júbilo** | Oficial (`Joyfuzz`) |
+| joyfuzz | **júbilo** | Oficial (`Joyfuzz`). «un bucle de júbilo» |
+| sad wandering | **vagando tristemente** | Oficial (`Wander_Sad`). El estado propio del mod usa el mismo nombre |
+| psychic soothe (el efecto y los poderes del empático) | **sedante psíquico** | Como la condición oficial. «sedante psíquico (mujeres)» / «(hombres)» |
+| focus (el efecto) / focus (el poder) | **enfoque** / **concentración** | Oficial: `PsychicFocus` es «enfoque psíquico» y el poder `Focus`, «concentración». Por eso «enfoque de sombra», «enfoque de calor», «enfoque de sangre»; y «Concentración de combate inducida psíquicamente», como el oficial «Concentración mental inducida psíquicamente» |
+| takes 12 seconds | **toma 12 segundos** | Como la descripción oficial del neurosismo. No «tarda… en» |
+| item | **objeto** o **artículo** | La oficial usa las dos; no se cambia lo que ya está |
+| pawn | **peón** | La oficial también lo usa («Ordena a un peón activar…»). Admitido por el glosario general |
 | consciousness (la capacidad) | **conciencia** | Oficial (`Consciousness`) |
 | thrall (de sanguífago) | **sanguiesclavo** | Oficial (Biotech). El *thrall* de este mod es otra cosa: «siervo» |
 | archotech | **arqueotéc** | Oficial, invariable |
@@ -91,6 +97,8 @@ Sin oficial. Aprobados por Angel el 1-nov-2026.
 | psyessence | **psiesencia** | |
 | construct (rock / steel) | **constructo** (de roca / de acero) | |
 | Basilicus Bestower | **Basilicus el Otorgador** | El narrador |
+| …scales with psychic sensitivity | **depende de** la sensibilidad psíquica | «escala con» era un calco (40 textos, 1-nov-2026). *scaling with*: «según» o «que depende de». La oficial no tiene una frase así |
+| insane (accuracy, amount) | **extraordinaria** / **descomunal** | «insana» era un calco |
 | Psycasts (la pestaña) | **Psico** | «Psicoemisiones» no entra en la pestaña (captura del 31-oct-2026) |
 | Imperials only / Tribals only | **Imperiales** / **Tribales** | La carta bloqueada dice «Bloqueado: Imperiales». Sin «Solo», como lo pidió Angel el 1-nov-2026: con él, «Solo imperiales» se cortaba (caben unos 24 caracteres con «Bloqueado: » adelante). Igual en Hemosage («Hemogénicos»), Puppeteer («Imperiales») y Vanilla Races Expanded - Archon («Trascendentes») |
 
@@ -120,4 +128,4 @@ La ventana los ordena por su nombre en español: cambiar uno lo cambia de lugar.
 
 - **«entropía psíquica»** en los poderes de hielo (10 usos): ya está en el paso 4 de
   `PLAN-REVISION-GENERAL.md`.
-- Lo propuesto en «Segunda revisión» de [PLAN-VPE.md](PLAN-VPE.md).
+- Probar en el juego (ver «Después» en [PLAN-VPE.md](PLAN-VPE.md)).

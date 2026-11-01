@@ -139,7 +139,13 @@ Hoy «esclavo», que es el *slave* oficial de Ideology. No es el sanguiesclavo d
 | psylink (implante) | psicoenlace (dev) | **psicoenlace** | Pestaña Salud del psicoemisor |
 | subjugation: minor / major (Puppeteer) | menor / mayor | **leve / grave** | Pestaña Salud: «subyugación (leve)» |
 
-## Segunda revisión (propuesta, 1-nov-2026)
+## Segunda revisión (hecha el 1-nov-2026)
+
+Angel la aprobó con una condición: comparar antes cada propuesta con el juego. Esa comparación cambió
+tres cosas: la 7 se retiró (el neurosismo oficial dice «Hacer esto **toma** 12 segundos»), la 9
+también (la oficial usa «objeto» y «artículo») y la 12 quedó como en el juego: «enfoque» para el
+efecto (`PsychicFocus`, «enfoque psíquico») y «concentración» para el poder. La 10 se había
+retirado antes. Se aplicaron 62 textos.
 
 Se buscaron los textos que el mod copió de Royalty con cambios chicos (el inglés no es idéntico,
 así que el primer cotejo no los vio) y las frases que suenan a traducción automática. Las
