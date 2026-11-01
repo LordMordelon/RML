@@ -75,13 +75,13 @@
   <!-- EN: Psylink level gained: {0} -->
   <VPE.PsylinkGained>Nivel de psicoenlace ganado: {0}</VPE.PsylinkGained>
   <!-- EN: {0} has gained a new level of psylink. Upon reaching that level, {1} raised psycasting-related stats slightly. {1} can now also allocate a point to either learn a new psycast, improve psycasting stats further or unlock a new meditation focus.\n\nPsycasting experience needed for next level is: {2}. -->
-  <VPE.PsylinkGained.Desc>{0} ha ganado un nuevo nivel de psicoenlace. Al alcanzar ese nivel, {1} aumentó ligeramente las estadísticas relacionadas con el lanzamiento psíquico. {1} ahora también puede asignar un punto para aprender una nueva psicoemisión, mejorar aún más las estadísticas de lanzamiento psíquico o desbloquear un nuevo foco de meditación.\n\nLa experiencia psíquica necesaria para el siguiente nivel es: {2}.</VPE.PsylinkGained.Desc>
+  <VPE.PsylinkGained.Desc>{0} ha ganado un nuevo nivel de psicoenlace. Al alcanzar ese nivel, {1} aumentó ligeramente las estadísticas relacionadas con la psicoemisión. {1} ahora también puede asignar un punto para aprender una nueva psicoemisión, mejorar aún más las estadísticas de psicoemisión o desbloquear un nuevo enfoque de meditación.\n\nLa experiencia de psicoemisor necesaria para el siguiente nivel es: {2}.</VPE.PsylinkGained.Desc>
   <!-- EN: Unlocked via Psycaster points -->
-  <VPE.UnlockedByPoints>Desbloqueado a través de puntos de psíquico</VPE.UnlockedByPoints>
+  <VPE.UnlockedByPoints>Desbloqueado a través de puntos de psicoemisor</VPE.UnlockedByPoints>
   <!-- EN: Must target eltex -->
   <VPE.MustEltex>Debe apuntar a eltex</VPE.MustEltex>
   <!-- EN: Not a psycaster -->
-  <VPE.NotPsycaster>No es un psíquico</VPE.NotPsycaster>
+  <VPE.NotPsycaster>No es un psicoemisor</VPE.NotPsycaster>
   <!-- EN: Already wearing a psyring -->
   <VPE.AlreadyPsyring>Ya lleva un anillo psíquico</VPE.AlreadyPsyring>
   <!-- EN: Must be researchable -->
@@ -93,7 +93,7 @@
   <!-- EN: Target must be downed. -->
   <VPE.MustBeDowned>El objetivo debe estar derribado.</VPE.MustBeDowned>
   <!-- EN: Target must have at least one psycaster level. -->
-  <VPE.MustHavePsychicLevel>El objetivo debe tener al menos un nivel de psíquico.</VPE.MustHavePsychicLevel>
+  <VPE.MustHavePsychicLevel>El objetivo debe tener al menos un nivel de psicoemisor.</VPE.MustHavePsychicLevel>
   <!-- EN: Must have at least {0} neural heat. -->
   <VPE.MustHaveHeatAmount>Debe tener al menos {0} de calor neural.</VPE.MustHaveHeatAmount>
   <!-- EN: Target must be corpse. -->
@@ -111,7 +111,7 @@
   <!-- EN: Target must in the dark -->
   <VPE.MustBeInDark>El objetivo debe estar en la oscuridad</VPE.MustBeInDark>
   <!-- EN: Must be a psycaster -->
-  <VPE.MustBePsycaster>Debe ser un psíquico</VPE.MustBePsycaster>
+  <VPE.MustBePsycaster>Debe ser un psicoemisor</VPE.MustBePsycaster>
   <!-- EN: Already knows {0} -->
   <VPE.AlreadyHasPsycast>Ya conoce {0}</VPE.AlreadyHasPsycast>
   <!-- EN: Target must be in the same faction. -->
@@ -125,11 +125,11 @@
   <!-- EN: Vanilla Psycasts Expanded -->
   <VanillaPsycastsExpanded>VE - Psycasts</VanillaPsycastsExpanded>
   <!-- EN: Psycaster XP per Psyfocus % gained -->
-  <VPE.XPPerPercent>XP de psíquico por % de psicofoco ganado</VPE.XPPerPercent>
+  <VPE.XPPerPercent>XP de psicoemisor por % de psicofoco ganado</VPE.XPPerPercent>
   <!-- EN: Basilicus Bestower Psycaster spawn chance -->
-  <VPE.PsycasterSpawnBaseChance>Probabilidad de aparición de psíquico de Basilicus el Otorgador</VPE.PsycasterSpawnBaseChance>
+  <VPE.PsycasterSpawnBaseChance>Probabilidad de aparición de psicoemisor de Basilicus el Otorgador</VPE.PsycasterSpawnBaseChance>
   <!-- EN: Basilicus Bestower Psycaster strength factor -->
-  <VPE.PsycasterSpawnAdditional>Factor de fuerza de psíquico de Basilicus el Otorgador</VPE.PsycasterSpawnAdditional>
+  <VPE.PsycasterSpawnAdditional>Factor de fuerza de psicoemisor de Basilicus el Otorgador</VPE.PsycasterSpawnAdditional>
   <!-- EN: Allow shrinking? -->
   <VPE.AllowShrink>¿Permitir encoger?</VPE.AllowShrink>
   <!-- EN: Allow psycast gizmos to be shrunken to half size when there are a lot of them. -->
@@ -141,7 +141,7 @@
   <!-- EN: Mute Skipdoor Sound -->
   <VPE.MuteSkipdoor>Silenciar sonido de puerta de salto</VPE.MuteSkipdoor>
   <!-- EN: Maximum psycaster level -->
-  <VPE.MaxLevel>Nivel máximo de psíquico</VPE.MaxLevel>
+  <VPE.MaxLevel>Nivel máximo de psicoemisor</VPE.MaxLevel>
   <!-- EN: Scale base psyfocus gain with stat points? -->
   <VPE.ChangeFocusGain>¿Escalar ganancia base de psicofoco con puntos de estadística?</VPE.ChangeFocusGain>
   <!-- EN: If enabled, then the base psyfocus gain before any foci can be increased by spending stat points. -->
@@ -151,13 +151,13 @@
   <!-- EN: Psycaster Level: {0} -->
   <VPE.PsyLevel>Nivel de psicoenlace: {0}</VPE.PsyLevel>
   <!-- EN: Earn psycaster experience by meditating. -->
-  <VPE.EarnXP>Gana experiencia psíquica meditando.</VPE.EarnXP>
+  <VPE.EarnXP>Gana experiencia de psicoemisor meditando.</VPE.EarnXP>
   <!-- EN: Available points to spend: {0} -->
   <VPE.Points>Puntos disponibles para gastar: {0}</VPE.Points>
   <!-- EN: Spend points on unlocking new paths, unlocking psycasts, unlocking meditation foci, improving stats, etc. -->
   <VPE.SpendPoints>Gasta puntos en desbloquear nuevos caminos, desbloquear psicoemisiones, desbloquear focos de meditación, mejorar estadísticas, etc.</VPE.SpendPoints>
   <!-- EN: Psycaster stats -->
-  <VPE.PsycasterStats>Estadísticas psíquicas</VPE.PsycasterStats>
+  <VPE.PsycasterStats>Estadísticas de psicoemisor</VPE.PsycasterStats>
   <!-- EN: Upgrade -->
   <VPE.Upgrade>Mejorar</VPE.Upgrade>
   <!-- EN: Focus types: -->
@@ -233,7 +233,7 @@
   <!-- EN: {0}
 
 Capturing psycasters is a viable strategy and can be considered beneficial. -->
-  <VPE.PsycasterRaidDescription>{0}\n\nCapturar psíquicos es una estrategia viable y puede considerarse beneficiosa.</VPE.PsycasterRaidDescription>
+  <VPE.PsycasterRaidDescription>{0}\n\nCapturar psicoemisores es una estrategia viable y puede considerarse beneficiosa.</VPE.PsycasterRaidDescription>
   <!-- EN: Locked: Requires a Royal Title -->
   <VPE.LockedTitle>Bloqueado: Requiere un título real</VPE.LockedTitle>
   <!-- EN: Locked: Cannot be unlocked with points -->
