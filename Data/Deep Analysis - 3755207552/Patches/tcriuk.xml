@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Research Data</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_MidMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelLabel>Datos del analizador</fuelLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_MidMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelGizmoLabel>Datos del analizador</fuelGizmoLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_BigMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelLabel>Datos del analizador</fuelLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_BigMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelGizmoLabel>Datos del analizador</fuelGizmoLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_WallMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelLabel>Datos del analizador</fuelLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_WallMultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+          <value>
+            <!-- EN: Analyzer Data -->
+            <fuelGizmoLabel>Datos del analizador</fuelGizmoLabel>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
