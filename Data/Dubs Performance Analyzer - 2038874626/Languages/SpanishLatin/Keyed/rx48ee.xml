@@ -375,7 +375,7 @@
   <!-- EN: Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save -->
   <fix.faction.tooltip>Quita todas las referencias a facciones borradas en los objetos del mundo. Resuelve los problemas al quitar facciones a mitad de una partida</fix.faction.tooltip>
   <!-- EN: Frame Profiler -->
-  <frameprofiler.button>Perfilador de fotogramas</frameprofiler.button>
+  <frameprofiler.button>Perfilador</frameprofiler.button>
   <!-- EN: Open the Frame Profiler -->
   <frameprofiler.open>Abrir el perfilador de fotogramas</frameprofiler.open>
   <!-- EN: Open the game&apos;s built-in Frame Profiler. Turn on &quot;Mirror timings to the vanilla Frame Profiler&quot; in Settings to see Analyzer&apos;s timings in it too. -->
@@ -461,11 +461,11 @@
   <!-- EN: A flame graph of one average frame, all on the same scale. The top bar is the engine&apos;s own breakdown: PollEvents, GameUpdate, CaptureFrame, other engine work, and waiting for the next frame. Under the part where this tab&apos;s root runs is the root itself, and under that the rows of this list, each by its own time. So the widths show how much of the whole frame what you are looking at really costs. -->
   <frame.heading.tip>Un gráfico de llamas de un fotograma promedio, todo en la misma escala. La barra de arriba es el desglose del propio motor: PollEvents, GameUpdate, CaptureFrame, otro trabajo del motor y la espera del siguiente fotograma. Bajo la parte donde corre la raíz de esta pestaña está la raíz misma, y bajo ella las filas de esta lista, cada una por su tiempo propio. Así, los anchos muestran cuánto cuesta de verdad, del fotograma entero, lo que estás mirando.</frame.heading.tip>
   <!-- EN: Whole frame -->
-  <frame.label.whole>Fotograma entero</frame.label.whole>
+  <frame.label.whole>Fotograma</frame.label.whole>
   <!-- EN: Game ticks -->
-  <frame.label.ticks>Ticks de juego</frame.label.ticks>
+  <frame.label.ticks>Ticks</frame.label.ticks>
   <!-- EN: Frame update -->
-  <frame.label.update>Actualización de fotograma</frame.label.update>
+  <frame.label.update>Actualización</frame.label.update>
   <!-- EN: This tab -->
   <frame.label.tab>Esta pestaña</frame.label.tab>
   <!-- EN: {0}: {1} ms per {2}{3} = {4} ms per frame, {5} of the frame. It runs inside GameUpdate. -->
