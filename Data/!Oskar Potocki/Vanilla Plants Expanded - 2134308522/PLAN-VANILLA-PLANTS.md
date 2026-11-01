@@ -44,9 +44,8 @@ Angel el 1-nov-2026, con el mod recién extraído y sin nada traducido.
 
 ### 4. Para confirmar con Angel
 
-- «chiles» para *peppers* (otras opciones: «ajíes», «pimientos picantes»).
-- «arvejas» para *peas* (otras: «guisantes», «chícharos»).
-- «albaricoques» para *apricots* (otra: «damascos»).
+- Confirmados por Angel el 1-nov-2026: «chiles» (*peppers*), «arvejas» (*peas*; «guisantes» es de
+  España) y «damascos» (*apricots*, en lugar de «albaricoques»; el árbol, «árbol de damasco»).
 - Probar en partida el secado de las ciruelas (los cuatro `Keyed`, con la duración en `{0}`).
 
 ## Para más adelante

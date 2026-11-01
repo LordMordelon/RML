@@ -61,8 +61,8 @@ hay que buscarlo en todos los archivos de la carpeta, no solo en uno.
 | oranges | **naranjas** | orange tree | **naranjo** |
 | onions | **cebollas** | onion plant | **planta de cebolla** |
 | pumpkins | **calabazas** | pumpkin plant | **planta de calabaza** |
-| peppers | **chiles** (a confirmar) | pepper plant | **planta de chile** |
-| peas | **arvejas** (a confirmar) | pea plant | **planta de arveja** |
+| peppers | **chiles** (Angel, 1-nov-2026) | pepper plant | **planta de chile** |
+| peas | **arvejas** (Angel, 1-nov-2026; NO «guisantes», que es de España) | pea plant | **planta de arveja** |
 | eggplants | **berenjenas** | eggplant | **berenjena** |
 | cabbages | **repollos** | cabbage plant | **planta de repollo** |
 | beets | **remolachas** | beet plant | **planta de remolacha** |
@@ -83,7 +83,7 @@ smith», como se dice en español).
 | red beefsteak tomato(es) | **tomate(s) red beefsteak** |
 | granny smith apple(s) | **manzano / manzanas granny smith** |
 | sakura tree / sakuranbo | **árbol de sakura** / **sakuranbo** |
-| apricot(s) | **albaricoquero** / **albaricoques** (a confirmar: «damascos» en el Cono Sur) |
+| apricot(s) | **árbol de damasco** / **damascos** (Angel, 1-nov-2026; NO «albaricoques») |
 | damson plum(s) | **ciruelo damasceno** / **ciruelas damascenas** |
 | gros michel banana(s) | **banano** / **bananas gros michel** |
 | mandarin(s) | **mandarino** / **mandarinas** |
