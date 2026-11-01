@@ -16,7 +16,7 @@ solo lo que el inglés cambia.
 | xenotype / xenogerm / xenogenes | **xenotipo** / **xenogermen** / **xenogenes** | Oficial |
 | germline / germline genes (*endogenes*) | **línea germinal** / **genes de línea germinal** | Oficial (`Endogenes` dice «genes de línea germinal»). En el texto corrido, «genes de la línea germinal», como la oficial |
 | xenogermination coma | **coma xenogerminativo** | Oficial. El del mod, *endogermination coma*: **coma endogerminativo** |
-| gene loss shock | **shock de pérdida de genes** | Oficial. NO «choque» |
+| gene loss shock | **shock de pérdida de genes** | Oficial. NO «choque». El del mod, *endogene loss shock*: **shock de pérdida germinal**, porque con «de genes de línea germinal» no cabía en Salud (Angel, 1-nov-2026) |
 | implant genes / gene implanter | **implantar genes** / **implantador genético** | Oficial |
 | dark vision | **visión oscura** | Oficial (`DarkVision`). El gen del mod: «visión oscura superior» |
 | downed | **derribado** | Oficial en los avisos (`DownedLower`) |
