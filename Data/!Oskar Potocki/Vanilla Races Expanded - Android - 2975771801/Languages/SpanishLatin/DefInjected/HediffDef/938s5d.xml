@@ -5,7 +5,7 @@
   <!-- EN: An electromagnetic shock. -->
   <VREA_ElectromagneticShock.description>Un choque electromagnético.</VREA_ElectromagneticShock.description>
   <!-- EN: {0} in the {1} -->
-  <VREA_EMPBurn.labelNounPretty>{0} en {1}</VREA_EMPBurn.labelNounPretty>
+  <VREA_EMPBurn.labelNounPretty>la {0} en {1_gender ? el : la} {1}</VREA_EMPBurn.labelNounPretty>
   <!-- EN: EMP burn -->
   <VREA_EMPBurn.label>quemadura por PEM</VREA_EMPBurn.label>
   <!-- EN: an EMP burn -->
@@ -13,9 +13,9 @@
   <!-- EN: An EMP burn. -->
   <VREA_EMPBurn.description>Una quemadura por PEM.</VREA_EMPBurn.description>
   <!-- EN: Burned off (EMP) -->
-  <VREA_EMPBurn.injuryProps.destroyedLabel>Quemado (PEM)</VREA_EMPBurn.injuryProps.destroyedLabel>
+  <VREA_EMPBurn.injuryProps.destroyedLabel>Quemado(a) (PEM)</VREA_EMPBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out (EMP) -->
-  <VREA_EMPBurn.injuryProps.destroyedOutLabel>Quemado (PEM)</VREA_EMPBurn.injuryProps.destroyedOutLabel>
+  <VREA_EMPBurn.injuryProps.destroyedOutLabel>Achicharrado(a) (PEM)</VREA_EMPBurn.injuryProps.destroyedOutLabel>
   <!-- EN: bandaged -->
   <VREA_EMPBurn.comps.HediffComp_TendDuration.labelTendedWell>vendada</VREA_EMPBurn.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: tended -->
@@ -54,13 +54,13 @@
   <!-- EN: extreme -->
   <VREA_Freezing.stages.4.label>extrema</VREA_Freezing.stages.4.label>
   <!-- EN: {0} in the {1} -->
-  <VREA_Freeze.labelNounPretty>{0} en {1}</VREA_Freeze.labelNounPretty>
+  <VREA_Freeze.labelNounPretty>la {0} en {1_gender ? el : la} {1}</VREA_Freeze.labelNounPretty>
   <!-- EN: freeze -->
   <VREA_Freeze.label>congelación</VREA_Freeze.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
   <VREA_Freeze.description>Tejido congelado causado por exposición al frío sin protección adecuada. La congelación es muy dolorosa y las partes del cuerpo congeladas a menudo se pierden.</VREA_Freeze.description>
   <!-- EN: Lost to freeze -->
-  <VREA_Freeze.injuryProps.destroyedLabel>Perdido por congelación</VREA_Freeze.injuryProps.destroyedLabel>
+  <VREA_Freeze.injuryProps.destroyedLabel>Perdido(a) por congelación</VREA_Freeze.injuryProps.destroyedLabel>
   <!-- EN: overheating -->
   <VREA_Overheating.label>sobrecalentamiento</VREA_Overheating.label>
   <!-- EN: A generalized disruption to android functioning caused by excessive exposure to heat and sun. The android memory becomes scrambled, leading to faster drain of memory space. Recovery is quick once in a cool area, but if heat exposure continues, android will continue to lose memory space which can result in frequent reformatting. -->
