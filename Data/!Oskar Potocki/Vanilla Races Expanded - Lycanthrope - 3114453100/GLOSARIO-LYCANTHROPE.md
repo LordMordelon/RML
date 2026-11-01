@@ -2,7 +2,7 @@
 
 Términos de los lobunos y licanos. Se armó el 1-nov-2026, al revisar la traducción contra la
 oficial. Parte de la traducción la hizo Angel a mano (la misión de los refugiados, 21-oct-2026). Lo
-manda [RML/GLOSARIO.md](../../../GLOSARIO.md); las correcciones propuestas están en
+manda [RML/GLOSARIO.md](../../../GLOSARIO.md); las correcciones, aplicadas el 1-nov-2026, están en
 [PLAN-VRE.md](../../../PLAN-VRE.md).
 
 El mod copia los textos de Biotech sobre implantar el xenogermen, pero con la línea germinal
@@ -14,7 +14,7 @@ solo lo que el inglés cambia.
 | Inglés | Español | Notas |
 |---|---|---|
 | xenotype / xenogerm / xenogenes | **xenotipo** / **xenogermen** / **xenogenes** | Oficial |
-| germline / germline genes (*endogenes*) | **línea germinal** / **genes de línea germinal** | Oficial (`Endogenes` dice «genes de línea germinal»). Hoy el mod dice «endogenes» |
+| germline / germline genes (*endogenes*) | **línea germinal** / **genes de línea germinal** | Oficial (`Endogenes` dice «genes de línea germinal»). En el texto corrido, «genes de la línea germinal», como la oficial |
 | xenogermination coma | **coma xenogerminativo** | Oficial. El del mod, *endogermination coma*: **coma endogerminativo** |
 | gene loss shock | **shock de pérdida de genes** | Oficial. NO «choque» |
 | implant genes / gene implanter | **implantar genes** / **implantador genético** | Oficial |

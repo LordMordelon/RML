@@ -6,8 +6,27 @@ Primera pasada del 1-nov-2026. **Estado:** Angel aceptó las propuestas el 1-nov
 condición que vale para todo: **antes de aplicar cada una, comparar cómo lo hace el juego**
 (`Herramientas/oficial/oficial.py`, y `--contiene` para frases). Si el juego lo dice de otra forma,
 gana el juego; si no tiene nada parecido, gana el español natural. Así se hizo en VPE, y la
-comparación retiró tres propuestas («toma 12 segundos», «artículo» y «peón»). Todavía no se cambió
-ningún texto. Las marcadas «decide Angel» (13, 14 y L15) esperan su respuesta.
+comparación retiró tres propuestas («toma 12 segundos», «artículo» y «peón»).
+
+**Aplicadas el 1-nov-2026:** las 15 de la primera tabla y las 16 de Lycanthrope, 94 textos en 28
+commits, uno por arreglo. Angel eligió la propuesta en las tres que decidía (13, 14 y L15). Lo que
+cambió al comparar con el juego:
+
+- **1:** el juego usa «leve» en las etapas de hipotermia y golpe de calor, pero «serio/seria» para
+  *serious*, donde VRE dice «grave». Se dejó «grave»; queda como pregunta para Angel.
+- **2:** «dependencia de la contaminación», con artículo, como la descripción del mismo gen.
+- **4:** también «del psicoemisor» más abajo en la misma descripción, y «preparándolo» (era «preparándolos»
+  para «el individuo»).
+- **6 y 9:** eran más textos que los contados: la etiqueta del trabajo (`label`) en los dos, y en Android
+  «Repostar con neutroamina» y «Repostando con TargetA.».
+- **12:** «humano basinerte» y «humanos basinertes», como dice el juego («los humanos basinertes»).
+- **L2, L3, L5 y L9** van en un solo commit, porque se cruzan en los mismos textos. En el texto corrido
+  va «genes de **la** línea germinal», como la oficial (`EndogenesDesc`, `ReimplantXenogerm`); en las
+  etiquetas, sin artículo. L9 quedó con la frase oficial exacta: «han sido eliminados o expulsados
+  recientemente».
+- **L8:** la frase oficial entera: «debe ser derribado antes de poder forzar{PAWN_objective} a reimplantar».
+- **L10:** «Se transforma en un xenotipo diferente» en lugar de «Transfórmate»: las descripciones de poderes
+  del juego van en tercera persona («Implanta», «Emite»), no en imperativo de tú.
 
 Ninguno de los 14 tiene `TODO`. Son 3012 textos: Android 716, Insector 526, Archon 374,
 Sanguophage 313, Saurid y Lycanthrope 153, Phytokin 146, Fungoid 129, Waster 124, Highmate 113,
@@ -74,8 +93,6 @@ La traducción es buena; lo que se propone:
 
 ## Después
 
-- Aprobadas las correcciones, aplicarlas con la tabla clave → viejo → nuevo, un commit por arreglo, y
-  las cinco comprobaciones.
 - Leer las descripciones de cada mod contra el inglés, empezando por Android, Insector y Archon,
   que son los más grandes. Conviene hacerlo en sesiones aparte, de a dos o tres mods.
 - Glosario por mod a medida que se lean (como `GLOSARIO-VPE.md`).
