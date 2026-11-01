@@ -288,6 +288,10 @@
   <DMSE_LegacyBallistic_Warhead_Trialen.label>ojiva de trialeno</DMSE_LegacyBallistic_Warhead_Trialen.label>
   <!-- EN: A warhead of trialen explosive with an incendiary component, so the impact starts fires around the crater. Slightly more expensive than amatol. -->
   <DMSE_LegacyBallistic_Warhead_Trialen.description>Una ojiva de trialeno, un explosivo con un componente incendiario, así que el impacto provoca incendios alrededor del cráter. Algo más cara que la de amatol.</DMSE_LegacyBallistic_Warhead_Trialen.description>
+  <!-- EN: image-recognition seeker -->
+  <DMSE_Sabre_Guidance_Imaging.label>buscador de reconocimiento de imagen</DMSE_Sabre_Guidance_Imaging.label>
+  <!-- EN: A compact camera seeker with onboard target recognition. It picks the most dangerous enemy creature in the open, then the largest, and ignores anyone under a roof. If it finds no target it reports none, leaving a loiter flight control to hold and keep looking. -->
+  <DMSE_Sabre_Guidance_Imaging.description>Un buscador compacto con cámara y reconocimiento de objetivos a bordo. Elige a la criatura enemiga más peligrosa que esté al descubierto, después a la más grande, e ignora a quien esté bajo techo. Si no encuentra ningún objetivo, lo informa y deja que un control de vuelo de merodeo espere y siga buscando.</DMSE_Sabre_Guidance_Imaging.description>
   <!-- EN: inertial guidance -->
   <DMSE_Shahed_Guidance_Inertial.label>guiado inercial</DMSE_Shahed_Guidance_Inertial.label>
   <!-- EN: Standard inertial guidance with no target recognition or terminal guidance. Uses one fire-control channel. Impacts scatter around the center of the target map. It does not lock onto buildings or creatures. -->
@@ -296,4 +300,12 @@
   <DMSE_Shahed_Guidance_TV.label>guiado por TV</DMSE_Shahed_Guidance_TV.label>
   <!-- EN: An optional TV guidance module. When the drone reaches the target map, you choose the impact point. Uses two fire-control channels instead of one. Enemy drones with this module use inertial guidance instead. -->
   <DMSE_Shahed_Guidance_TV.description>Un módulo opcional de guiado por TV. Cuando el dron llega al mapa objetivo, eliges el punto de impacto. Usa dos canales de control de tiro en vez de uno. Los drones enemigos con este módulo recurren al guiado inercial.</DMSE_Shahed_Guidance_TV.description>
+  <!-- EN: radar-homing seeker -->
+  <DMSE_Shahed_Guidance_RadarHoming.label>buscador de emisiones de radar</DMSE_Shahed_Guidance_RadarHoming.label>
+  <!-- EN: A passive seeker that homes on radar emissions only. It locks onto the most powerful enemy radar that is switched on; if there is no radar to lock, it reports no target instead of falling back to a power grid. Combine it with a loiter flight control to keep the drone waiting overhead until a radar comes on. Passive acoustic mirrors are invisible to it. -->
+  <DMSE_Shahed_Guidance_RadarHoming.description>Un buscador pasivo que se guía solo por las emisiones de radar. Se fija en el radar enemigo encendido más potente; si no hay ningún radar en el que fijarse, informa que no hay objetivo en vez de recurrir a una red eléctrica. Combínalo con un control de vuelo de merodeo para que el dron espere sobre la zona hasta que se encienda un radar. Los espejos acústicos pasivos le son invisibles.</DMSE_Shahed_Guidance_RadarHoming.description>
+  <!-- EN: loiter flight control -->
+  <DMSE_Payload_Loiter.label>control de vuelo de merodeo</DMSE_Payload_Loiter.label>
+  <!-- EN: Flight-control software and an extra fuel reserve for loitering munitions. When the seeker finds nothing on arrival, the drone does not fall back to inertial guidance: it holds over the target area for about an in-game hour, re-running its seeker every few seconds, and only dives on an inertial impact point once that time runs out.\n\nA loitering drone still sits in the interception wave: terminal defences can shoot it down the whole time it waits. Requires a loitering munition airframe. -->
+  <DMSE_Payload_Loiter.description>Software de control de vuelo y una reserva extra de combustible para municiones merodeadoras. Cuando el buscador no encuentra nada al llegar, el dron no recurre al guiado inercial: se mantiene sobre la zona objetivo durante cerca de una hora de juego, vuelve a correr su buscador cada pocos segundos y solo se lanza en picada sobre un punto de impacto inercial cuando se acaba ese tiempo.\n\nUn dron que merodea sigue en la oleada de intercepción: las defensas terminales pueden derribarlo durante toda la espera. Requiere un fuselaje de munición merodeadora.</DMSE_Payload_Loiter.description>
 </LanguageData>

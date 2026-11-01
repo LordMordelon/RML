@@ -299,6 +299,27 @@ Los `ThingDef` de los misiles y los lanzadores tienen que repetir estos nombres.
 | specific impulse / world speed factor | **impulso específico** / **factor de velocidad en el mundo** | propuesta | |
 | engagement (de un interceptor) / roll | **enfrentamiento** / **tirada** | propuesta | «Tiradas de intercepción adicionales por enfrentamiento» |
 
+## Banco de montaje, posición de campaña y cañón NK-30 (actualización del mod, 31-oct-2026)
+
+| Inglés | Español | Origen | Notas |
+|---|---|---|---|
+| missile assembly bench / order / design | **banco de montaje de misiles** / **pedido** / **diseño** | propuesta | «Hacer pedido», «Guardar diseño», «Diseños de misiles» |
+| design name lock | **bloqueo del nombre del diseño** | propuesta | |
+| part slot / payload capacity N | **ranura de la parte** / **capacidad de carga útil N** | propuesta | «Ranuras de partes» en la ficha del cuerpo |
+| missile item | **objeto de misil** | propuesta | Configurar en el objeto, distinto de configurar en la plataforma |
+| tilt / vertical launch | **lanzamiento inclinado** / **vertical** | propuesta | Como «contenedor de lanzamiento inclinado» |
+| terminal updates | **actualizaciones terminales** | propuesta | Ya en uso en el `Keyed` |
+| loiter / loiter flight control / loiter time | **merodear** / **control de vuelo de merodeo** / **tiempo de merodeo** | propuesta | Como «munición merodeadora» |
+| Sabre light loitering munition | **munición merodeadora ligera Sabre** | propuesta | Sabre, nombre tal cual |
+| image-recognition / radar-homing seeker | **buscador de reconocimiento de imagen** / **de emisiones de radar** | propuesta | |
+| in the open (no bajo techo) | **al descubierto** | familia | |
+| field launch position / field structures | **posición de lanzamiento de campaña** / **estructuras de campaña** | propuesta | «armazón de campaña», «unidad de energía de campaña», «depósito de munición de campaña» |
+| ammo carrier / crew shelter / garrison | **transporte de munición** / **refugio para la dotación** / **guarnición** | propuesta | |
+| NK-30 «Empero» / long-range cannon | **NK-30 «Empero»** / **cañón de largo alcance** | — | Nombre tal cual, con comillas solo en la descripción |
+| shell / reduced charge / plunging fire | **obús** / **carga reducida** / **tiro curvo** | oficial + propuesta | *high-explosive mortar shell*: «obús explosivo», el objeto oficial |
+| firefoam / goodwill / berserk | **espuma cortafuego** / **buena voluntad** / **frenético** | oficial | |
+| [designator], [body], [warhead]… (reglas de nombre de misil) | **sin traducir** | — | Las palabras las pone el código en inglés (`designWord`, `designator`): las reglas quedan como en el inglés |
+
 ## Para revisar en contexto
 
 - **`(TODO) blablabla, anyway {0} need you dead.`** es un texto provisional del autor en `Keyed`. Se

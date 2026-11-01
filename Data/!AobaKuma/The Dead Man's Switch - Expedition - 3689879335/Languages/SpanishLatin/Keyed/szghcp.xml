@@ -34,12 +34,12 @@
   <DMSE.AirAlert.Unavailable.NoTracking>sin cobertura de radar</DMSE.AirAlert.Unavailable.NoTracking>
   <!-- EN: Blockade announced -->
   <DMSE.AirAlert.BlockadeNoticeLabel>Bloqueo anunciado</DMSE.AirAlert.BlockadeNoticeLabel>
-  <!-- EN: In {3}, {0} will close the airspace within {2} tiles of {1} to non-allied craft. -->
-  <DMSE.AirAlert.BlockadeNoticeText>En {3}, {0} cerrará a las aeronaves no aliadas el espacio aéreo a menos de {2} celdas de {1}.</DMSE.AirAlert.BlockadeNoticeText>
+  <!-- EN: In {3}, {0} will close the airspace within {2} tiles of {1}. Its air defense will fire on any non-allied craft flying through. -->
+  <DMSE.AirAlert.BlockadeNoticeText>En {3}, {0} cerrará el espacio aéreo a menos de {2} celdas de {1}. Su defensa aérea disparará contra cualquier aeronave no aliada que lo atraviese.</DMSE.AirAlert.BlockadeNoticeText>
   <!-- EN: Blockade in effect -->
   <DMSE.AirAlert.BlockadeActiveLabel>Bloqueo en vigor</DMSE.AirAlert.BlockadeActiveLabel>
-  <!-- EN: {0} has closed the airspace within {2} tiles of {1}. -->
-  <DMSE.AirAlert.BlockadeActiveText>{0} cerró el espacio aéreo a menos de {2} celdas de {1}.</DMSE.AirAlert.BlockadeActiveText>
+  <!-- EN: {0} has closed the airspace within {2} tiles of {1}. Non-allied craft flying through will be fired on. -->
+  <DMSE.AirAlert.BlockadeActiveText>{0} cerró el espacio aéreo a menos de {2} celdas de {1}. Se disparará contra las aeronaves no aliadas que lo atraviesen.</DMSE.AirAlert.BlockadeActiveText>
   <!-- EN: {0} called off the blockade at {1}. -->
   <DMSE.AirAlert.BlockadeCancelled>{0} canceló el bloqueo de {1}.</DMSE.AirAlert.BlockadeCancelled>
   <!-- EN: {0} lifted the blockade at {1}. -->
@@ -52,8 +52,142 @@
   <DMSE.AirAlert.NeutralInterceptText>{1} ({0}) interceptará los misiles no aliados que entren en su espacio aéreo, incluidos los tuyos.</DMSE.AirAlert.NeutralInterceptText>
   <!-- EN: Interceptor disarmed: {0} is allied. -->
   <DMSE.AirAlert.InterceptorSafed>Interceptor desarmado: {0} es aliado.</DMSE.AirAlert.InterceptorSafed>
-  <!-- EN: Route crosses {0}&apos;s blockade ({1}, {2} tiles). -->
-  <DMSE.Airspace.Blocked>La ruta cruza el bloqueo de {0} ({1}, {2} celdas).</DMSE.Airspace.Blocked>
+  <!-- EN: Route crosses {0}&apos;s blockade ({1}, {2} tiles); its air defense will fire on you. -->
+  <DMSE.Airspace.Blocked>La ruta cruza el bloqueo de {0} ({1}, {2} celdas); su defensa aérea te disparará.</DMSE.Airspace.Blocked>
+  <!-- EN: {0} &quot;{1}&quot; -->
+  <DMSE.Missile.DesignNameLabel>{0} «{1}»</DMSE.Missile.DesignNameLabel>
+  <!-- EN: Configure assembly -->
+  <DMSE.Bench.Open>Configurar montaje</DMSE.Bench.Open>
+  <!-- EN: Choose a missile body and its parts, name the design and place an order. Colonists bring the materials and assemble the missiles here. -->
+  <DMSE.Bench.OpenDesc>Elige un cuerpo de misil y sus partes, ponle nombre al diseño y haz un pedido. Los colonos traen los materiales y montan los misiles aquí.</DMSE.Bench.OpenDesc>
+  <!-- EN: Cancel order -->
+  <DMSE.Bench.CancelOrder>Cancelar pedido</DMSE.Bench.CancelOrder>
+  <!-- EN: Cancel the current order. Materials already delivered are returned next to the bench. -->
+  <DMSE.Bench.CancelOrderDesc>Cancela el pedido actual. Los materiales ya entregados se devuelven junto al banco.</DMSE.Bench.CancelOrderDesc>
+  <!-- EN: Cancel this order? Materials already delivered will be returned next to the bench. -->
+  <DMSE.Bench.CancelOrderConfirm>¿Cancelar este pedido? Los materiales ya entregados se devolverán junto al banco.</DMSE.Bench.CancelOrderConfirm>
+  <!-- EN: Missile order finished: {0}. -->
+  <DMSE.Bench.OrderDone>Pedido de misiles terminado: {0}.</DMSE.Bench.OrderDone>
+  <!-- EN: Output rack full: move finished missiles off the bench. -->
+  <DMSE.Bench.OutputFull>Soporte de salida lleno: saca los misiles terminados del banco.</DMSE.Bench.OutputFull>
+  <!-- EN: Order: {0} ({1} left) -->
+  <DMSE.Bench.InspectOrder>Pedido: {0} (quedan {1})</DMSE.Bench.InspectOrder>
+  <!-- EN: Assembly progress: {0} -->
+  <DMSE.Bench.InspectProgress>Avance del montaje: {0}</DMSE.Bench.InspectProgress>
+  <!-- EN: This missile body cannot be built at an assembly bench. -->
+  <DMSE.Bench.NotProducible>Este cuerpo de misil no se puede fabricar en un banco de montaje.</DMSE.Bench.NotProducible>
+  <!-- EN: Requires research: {0} -->
+  <DMSE.Bench.NeedsResearch>Requiere la investigación: {0}</DMSE.Bench.NeedsResearch>
+  <!-- EN: Choose a missile body on the left to start a design. -->
+  <DMSE.Bench.EmptyHint>Elige un cuerpo de misil a la izquierda para empezar un diseño.</DMSE.Bench.EmptyHint>
+  <!-- EN: Load design -->
+  <DMSE.Bench.LoadDesign>Cargar diseño</DMSE.Bench.LoadDesign>
+  <!-- EN: Save design -->
+  <DMSE.Bench.SaveDesign>Guardar diseño</DMSE.Bench.SaveDesign>
+  <!-- EN: Order in progress. Cancel the order to change the design. -->
+  <DMSE.Bench.LockedWhileOrdered>Pedido en curso. Cancela el pedido para cambiar el diseño.</DMSE.Bench.LockedWhileOrdered>
+  <!-- EN: If equipped: -->
+  <DMSE.Bench.IfEquipped>Si se instala:</DMSE.Bench.IfEquipped>
+  <!-- EN: Name suggestions -->
+  <DMSE.Bench.NameCandidates>Nombres sugeridos</DMSE.Bench.NameCandidates>
+  <!-- EN: Strike -->
+  <DMSE.Bench.Group.Strike>Ataque</DMSE.Bench.Group.Strike>
+  <!-- EN: Guidance -->
+  <DMSE.Bench.Group.Guidance>Guiado</DMSE.Bench.Group.Guidance>
+  <!-- EN: Survivability -->
+  <DMSE.Bench.Group.Survival>Supervivencia</DMSE.Bench.Group.Survival>
+  <!-- EN: Blast radius -->
+  <DMSE.Bench.Stat.Radius>Radio de explosión</DMSE.Bench.Stat.Radius>
+  <!-- EN: Targeting -->
+  <DMSE.Bench.Stat.Guidance>Apuntado</DMSE.Bench.Stat.Guidance>
+  <!-- EN: Scatter -->
+  <DMSE.Bench.Stat.Scatter>Dispersión</DMSE.Bench.Stat.Scatter>
+  <!-- EN: Damage type -->
+  <DMSE.Bench.Stat.DamageType>Tipo de daño</DMSE.Bench.Stat.DamageType>
+  <!-- EN: Penetrates thick roof -->
+  <DMSE.Bench.Stat.ThickRoof>Atraviesa techos gruesos</DMSE.Bench.Stat.ThickRoof>
+  <!-- EN: World speed -->
+  <DMSE.Bench.Stat.Speed>Velocidad en el mundo</DMSE.Bench.Stat.Speed>
+  <!-- EN: Terminal updates -->
+  <DMSE.Bench.Stat.TerminalUpdates>Actualizaciones terminales</DMSE.Bench.Stat.TerminalUpdates>
+  <!-- EN: Fire-control channels -->
+  <DMSE.Bench.Stat.Channels>Canales de control de tiro</DMSE.Bench.Stat.Channels>
+  <!-- EN: Loiter time -->
+  <DMSE.Bench.Stat.Loiter>Tiempo de merodeo</DMSE.Bench.Stat.Loiter>
+  <!-- EN: Radar signature -->
+  <DMSE.Bench.Stat.Signature>Firma de radar</DMSE.Bench.Stat.Signature>
+  <!-- EN: Chaff charges -->
+  <DMSE.Bench.Stat.Chaff>Cargas de chaff</DMSE.Bench.Stat.Chaff>
+  <!-- EN: Jamming strength -->
+  <DMSE.Bench.Stat.Jam>Potencia de interferencia</DMSE.Bench.Stat.Jam>
+  <!-- EN: No materials needed -->
+  <DMSE.Bench.NoMaterials>No necesita materiales</DMSE.Bench.NoMaterials>
+  <!-- EN: short {0} -->
+  <DMSE.Bench.Short>faltan {0}</DMSE.Bench.Short>
+  <!-- EN: Keep on bench -->
+  <DMSE.Bench.Output.KeepOnBench>Dejar en el banco</DMSE.Bench.Output.KeepOnBench>
+  <!-- EN: Finished missiles wait on the bench. Launchers that accept them load straight from it. -->
+  <DMSE.Bench.Output.KeepOnBenchDesc>Los misiles terminados esperan en el banco. Los lanzadores que los aceptan se cargan directamente desde ahí.</DMSE.Bench.Output.KeepOnBenchDesc>
+  <!-- EN: Finished missiles are taken off the bench and hauled to the best storage. -->
+  <DMSE.Bench.Output.SendToStorageDesc>Los misiles terminados se sacan del banco y se llevan al mejor almacén.</DMSE.Bench.Output.SendToStorageDesc>
+  <!-- EN: Missile {0} of {1} · {2} -->
+  <DMSE.Bench.Progress>Misil {0} de {1} · {2}</DMSE.Bench.Progress>
+  <!-- EN: gathering materials -->
+  <DMSE.Bench.State.Collecting>reuniendo materiales</DMSE.Bench.State.Collecting>
+  <!-- EN: ready to assemble -->
+  <DMSE.Bench.State.Ready>listo para montar</DMSE.Bench.State.Ready>
+  <!-- EN: assembling -->
+  <DMSE.Bench.State.Working>montando</DMSE.Bench.State.Working>
+  <!-- EN: waiting for space on the bench -->
+  <DMSE.Bench.State.OutputBlocked>esperando espacio en el banco</DMSE.Bench.State.OutputBlocked>
+  <!-- EN: Place order -->
+  <DMSE.Bench.PlaceOrder>Hacer pedido</DMSE.Bench.PlaceOrder>
+  <!-- EN: Complete now -->
+  <DMSE.Bench.InstantComplete>Terminar ahora</DMSE.Bench.InstantComplete>
+  <!-- EN: Choose a missile body. -->
+  <DMSE.Bench.Block.NoBody>Elige un cuerpo de misil.</DMSE.Bench.Block.NoBody>
+  <!-- EN: The design name contains unsupported characters. -->
+  <DMSE.Bench.Block.BadName>El nombre del diseño tiene caracteres no admitidos.</DMSE.Bench.Block.BadName>
+  <!-- EN: Not enough {0} yet (short {1}); colonists will wait for it. -->
+  <DMSE.Bench.Warn.Short>Todavía no hay suficiente {0} (faltan {1}); los colonos lo esperarán.</DMSE.Bench.Warn.Short>
+  <!-- EN: No launcher on this map accepts this missile yet. -->
+  <DMSE.Bench.Warn.NoLauncher>Ningún lanzador de este mapa acepta este misil todavía.</DMSE.Bench.Warn.NoLauncher>
+  <!-- EN: {0} missile(s), about {1} h of work -->
+  <DMSE.Bench.Summary>{0} misil(es), unas {1} h de trabajo</DMSE.Bench.Summary>
+  <!-- EN: Lock or unlock the design&apos;s name. When locked, the name will not regenerate when parts are changed. -->
+  <DMSE.Bench.LockNameButtonDesc>Bloquea o desbloquea el nombre del diseño. Bloqueado, el nombre no se vuelve a generar al cambiar las partes.</DMSE.Bench.LockNameButtonDesc>
+  <!-- EN: Design name lock is on. The name will not regenerate when changing parts. -->
+  <DMSE.Bench.LockNameOn>El bloqueo del nombre del diseño está activado. El nombre no se volverá a generar al cambiar las partes.</DMSE.Bench.LockNameOn>
+  <!-- EN: Design name lock is off. The name will regenerate when changing parts. -->
+  <DMSE.Bench.LockNameOff>El bloqueo del nombre del diseño está desactivado. El nombre se volverá a generar al cambiar las partes.</DMSE.Bench.LockNameOff>
+  <!-- EN: Per missile: {0}\nThis order: {1}\nIn storage: {2} -->
+  <DMSE.Bench.MaterialTip>Por misil: {0}\nEste pedido: {1}\nEn almacén: {2}</DMSE.Bench.MaterialTip>
+  <!-- EN: About {0} h with your fastest available crafter (work speed {1}). -->
+  <DMSE.Bench.WorkTimeTip>Unas {0} h con tu artesano disponible más rápido (velocidad de trabajo {1}).</DMSE.Bench.WorkTimeTip>
+  <!-- EN: Loitering munitions -->
+  <DMSE.Bench.Size.Loitering>Municiones merodeadoras</DMSE.Bench.Size.Loitering>
+  <!-- EN: Light missiles -->
+  <DMSE.Bench.Size.Light>Misiles ligeros</DMSE.Bench.Size.Light>
+  <!-- EN: Medium missiles -->
+  <DMSE.Bench.Size.Medium>Misiles medianos</DMSE.Bench.Size.Medium>
+  <!-- EN: Ballistic missiles -->
+  <DMSE.Bench.Size.Ballistic>Misiles balísticos</DMSE.Bench.Size.Ballistic>
+  <!-- EN: Missile designs -->
+  <DMSE.Blueprint.Title>Diseños de misiles</DMSE.Blueprint.Title>
+  <!-- EN: No saved designs yet. Use &quot;Save design&quot; at an assembly bench. -->
+  <DMSE.Blueprint.Empty>Todavía no hay diseños guardados. Usa «Guardar diseño» en un banco de montaje.</DMSE.Blueprint.Empty>
+  <!-- EN: Open folder -->
+  <DMSE.Blueprint.OpenFolder>Abrir carpeta</DMSE.Blueprint.OpenFolder>
+  <!-- EN: A design named &quot;{0}&quot; already exists. Overwrite it? -->
+  <DMSE.Blueprint.OverwriteConfirm>Ya existe un diseño llamado «{0}». ¿Sobrescribirlo?</DMSE.Blueprint.OverwriteConfirm>
+  <!-- EN: Design saved: {0} -->
+  <DMSE.Blueprint.Saved>Diseño guardado: {0}</DMSE.Blueprint.Saved>
+  <!-- EN: Could not save the design: {0} -->
+  <DMSE.Blueprint.SaveFailed>No se pudo guardar el diseño: {0}</DMSE.Blueprint.SaveFailed>
+  <!-- EN: Missing definition: {0} -->
+  <DMSE.Blueprint.MissingDef>Falta la definición: {0}</DMSE.Blueprint.MissingDef>
+  <!-- EN: Part does not fit this body: {0} -->
+  <DMSE.Blueprint.Incompatible>La parte no cabe en este cuerpo: {0}</DMSE.Blueprint.Incompatible>
   <!-- EN: Undetected -->
   <DMSE.BVR.World.Undetected>Sin detectar</DMSE.BVR.World.Undetected>
   <!-- EN: Detected -->
@@ -100,6 +234,26 @@
   <DMSE.BVR.World.ChannelBreakdown>Canales: artillería {0}, local {1}, mundo {2}, ataque {3}; libres {4}</DMSE.BVR.World.ChannelBreakdown>
   <!-- EN: Missile type: {0} -->
   <DMSE.BVR.World.MissileType>Tipo de misil: {0}</DMSE.BVR.World.MissileType>
+  <!-- EN: Pod shot down: colonists missing -->
+  <DMSE.BVR.PawnsMissingLabel>Cápsula derribada: colonos desaparecidos</DMSE.BVR.PawnsMissingLabel>
+  <!-- EN: A transport carrying your people was shot down by air defense. No bodies were recovered; the following are missing:\n\n{0} -->
+  <DMSE.BVR.PawnsMissingText>La defensa aérea derribó un transporte que llevaba a tu gente. No se recuperaron cuerpos; quedan desaparecidos:\n\n{0}</DMSE.BVR.PawnsMissingText>
+  <!-- EN: The route crosses {0}&apos;s blockade around {1} ({2} tiles). Its air defense fires on anything flying through. -->
+  <DMSE.BVR.InterceptRiskRoute>La ruta cruza el bloqueo de {0} alrededor de {1} ({2} celdas). Su defensa aérea dispara contra todo lo que vuele por ahí.</DMSE.BVR.InterceptRiskRoute>
+  <!-- EN: {0} is covered by {1} air-defense radar. Drop pods and shuttles landing there may be shot down. -->
+  <DMSE.BVR.InterceptRiskDestination>El radar de defensa aérea de {1} cubre {0}. Las cápsulas de escape y los transbordadores que aterricen ahí pueden ser derribados.</DMSE.BVR.InterceptRiskDestination>
+  <!-- EN: Anyone aboard a downed drop pod or shuttle goes missing. Gravships and transfer ships are damaged instead of destroyed.\n\nLaunch anyway? -->
+  <DMSE.BVR.InterceptRiskFooter>Quien vaya a bordo de una cápsula de escape o de un transbordador derribado queda desaparecido. Las gravinaves y las naves de transferencia reciben daños en vez de destruirse.\n\n¿Lanzar de todos modos?</DMSE.BVR.InterceptRiskFooter>
+  <!-- EN: {0}&apos;s air defense at {1} fired on {2}. -->
+  <DMSE.Blockade.Engaging>La defensa aérea de {0} en {1} disparó contra {2}.</DMSE.Blockade.Engaging>
+  <!-- EN: {0}: one transport was shot down by {1}. {2} remaining. -->
+  <DMSE.Blockade.PodDown>{0}: {1} derribó un transporte. Quedan {2}.</DMSE.Blockade.PodDown>
+  <!-- EN: {0} was hit by {1}&apos;s air defense. {2} structures aboard were damaged. -->
+  <DMSE.Blockade.GravshipHit>La defensa aérea de {1} alcanzó a {0}. Se dañaron {2} estructuras a bordo.</DMSE.Blockade.GravshipHit>
+  <!-- EN: Transfer ship hit -->
+  <DMSE.Blockade.TransferHitLabel>Nave de transferencia alcanzada</DMSE.Blockade.TransferHitLabel>
+  <!-- EN: {0} was hit by {1}&apos;s air defense while flying through its blockade. Explosions tore through {2} spots aboard. -->
+  <DMSE.Blockade.TransferHitText>La defensa aérea de {1} alcanzó a {0} mientras cruzaba su bloqueo. Las explosiones arrasaron {2} puntos a bordo.</DMSE.Blockade.TransferHitText>
   <!-- EN: fire SAM -->
   <DMSE.ManPortableSAM.Fire>disparar SAM</DMSE.ManPortableSAM.Fire>
   <!-- EN: Lock onto an incoming threat that your radar network is tracking on this map and fire a light surface-to-air missile at it. The wielder stands still while locking on; no fire-control channel is used.\n\nMissiles loaded: {0} -->
@@ -112,8 +266,248 @@
   <DMSE.ManPortableSAM.TargetLost>El objetivo desapareció o ya lo ataca otro interceptor.</DMSE.ManPortableSAM.TargetLost>
   <!-- EN: {0} (arrives in {1}, hit chance {2}) -->
   <DMSE.ManPortableSAM.TargetOption>{0} (llega en {1}, probabilidad de impacto {2})</DMSE.ManPortableSAM.TargetOption>
+  <!-- EN: The next round loaded is a {0}, which cannot intercept. Fire it at a ground target first. -->
+  <DMSE.ManPortableSAM.CannotIntercept>El próximo proyectil cargado ({0}) no puede interceptar. Dispáralo primero contra un objetivo terrestre.</DMSE.ManPortableSAM.CannotIntercept>
   <!-- EN: Engaging: {0} -->
   <DMSE.TurretGun.Engaging>Atacando: {0}</DMSE.TurretGun.Engaging>
+  <!-- EN: Target is too close: minimum range is {0} cells. -->
+  <DMSE.TurretGun.TooClose>El objetivo está demasiado cerca: el alcance mínimo es de {0} celdas.</DMSE.TurretGun.TooClose>
+  <!-- EN: Target is out of range: maximum range is {0} cells. -->
+  <DMSE.TurretGun.OutOfRange>El objetivo está fuera de alcance: el alcance máximo es de {0} celdas.</DMSE.TurretGun.OutOfRange>
+  <!-- EN: Range: {0} to {1} cells. Targets inside the minimum range cannot be engaged. -->
+  <DMSE.TurretGun.RangeBand>Alcance: de {0} a {1} celdas. No se puede atacar a los objetivos dentro del alcance mínimo.</DMSE.TurretGun.RangeBand>
+  <!-- EN: The gun is busy shelling a world map target. -->
+  <DMSE.TurretGun.BarrelBusy>El cañón está ocupado bombardeando un objetivo del mapa del mundo.</DMSE.TurretGun.BarrelBusy>
+  <!-- EN: Missile body -->
+  <DMSE.Card.Body>Cuerpo del misil</DMSE.Card.Body>
+  <!-- EN: Missile item -->
+  <DMSE.Card.Item>Objeto de misil</DMSE.Card.Item>
+  <!-- EN: Size class -->
+  <DMSE.Card.SizeClass>Clase de tamaño</DMSE.Card.SizeClass>
+  <!-- EN: Loitering munition: the earliest beyond-visual-range weapon. Tilt-launched and allowed on gravships. It is slow, but its small radar signature means it is detected later. -->
+  <DMSE.Card.SizeClassDesc.Loitering>Munición merodeadora: la primera arma más allá del alcance visual. Se lanza inclinada y se permite en las gravinaves. Es lenta, pero por su pequeña firma de radar la detectan más tarde.</DMSE.Card.SizeClassDesc.Loitering>
+  <!-- EN: Light missile: short- to medium-range air defense or ground attack, loaded into multi-round launchers. -->
+  <DMSE.Card.SizeClassDesc.Light>Misil ligero: defensa aérea de corto a medio alcance o ataque a tierra; se carga en lanzadores de varios proyectiles.</DMSE.Card.SizeClassDesc.Light>
+  <!-- EN: Medium missile: cruise or anti-ballistic missions. Parts can be customized on the item or on a storage rack. -->
+  <DMSE.Card.SizeClassDesc.Medium>Misil mediano: misiones de crucero o antibalísticas. Las partes se pueden personalizar en el objeto o en un soporte de misiles.</DMSE.Card.SizeClassDesc.Medium>
+  <!-- EN: Ballistic missile: long-range strike. Vertical launch only and cannot be built on a gravship. It is built and configured directly on the launch silo. -->
+  <DMSE.Card.SizeClassDesc.Ballistic>Misil balístico: ataque de largo alcance. Solo de lanzamiento vertical, y no se puede construir en una gravinave. Se fabrica y se configura directamente en el silo de lanzamiento.</DMSE.Card.SizeClassDesc.Ballistic>
+  <!-- EN: Launch mode -->
+  <DMSE.Card.LaunchMode>Modo de lanzamiento</DMSE.Card.LaunchMode>
+  <!-- EN: Tilt launch -->
+  <DMSE.Card.LaunchMode.Tilt>Lanzamiento inclinado</DMSE.Card.LaunchMode.Tilt>
+  <!-- EN: Vertical launch -->
+  <DMSE.Card.LaunchMode.Vertical>Lanzamiento vertical</DMSE.Card.LaunchMode.Vertical>
+  <!-- EN: Tilt or vertical -->
+  <DMSE.Card.LaunchMode.Both>Inclinado o vertical</DMSE.Card.LaunchMode.Both>
+  <!-- EN: Determines which launch platforms can load this missile. Tilt launchers can rotate and can be built on gravships. Vertical launchers have one facing and cannot be built on gravships. Launch mode does not change flight stats. -->
+  <DMSE.Card.LaunchModeDesc>Determina qué plataformas de lanzamiento pueden cargar este misil. Los lanzadores inclinados pueden girar y se pueden construir en gravinaves. Los verticales tienen una sola orientación y no se pueden construir en gravinaves. El modo de lanzamiento no cambia las estadísticas de vuelo.</DMSE.Card.LaunchModeDesc>
+  <!-- EN: Launch platforms -->
+  <DMSE.Card.Platforms>Plataformas de lanzamiento</DMSE.Card.Platforms>
+  <!-- EN: Launch platforms that can load this missile, based on each platform&apos;s fixed storage settings. Click the links below to view them. -->
+  <DMSE.Card.PlatformsDesc>Las plataformas de lanzamiento que pueden cargar este misil, según la configuración fija de almacenamiento de cada una. Haz clic en los enlaces de abajo para verlas.</DMSE.Card.PlatformsDesc>
+  <!-- EN: Configured on -->
+  <DMSE.Card.Customize>Se configura en</DMSE.Card.Customize>
+  <!-- EN: Not configurable -->
+  <DMSE.Card.Customize.None>No se puede configurar</DMSE.Card.Customize.None>
+  <!-- EN: Missile item -->
+  <DMSE.Card.Customize.Item>Objeto de misil</DMSE.Card.Customize.Item>
+  <!-- EN: Storage building -->
+  <DMSE.Card.Customize.StorageBuilding>Edificio de almacenamiento</DMSE.Card.Customize.StorageBuilding>
+  <!-- EN: Launch platform -->
+  <DMSE.Card.Customize.Launcher>Plataforma de lanzamiento</DMSE.Card.Customize.Launcher>
+  <!-- EN: Fixed configuration. Parts cannot be changed. -->
+  <DMSE.Card.CustomizeDesc.None>Configuración fija. Las partes no se pueden cambiar.</DMSE.Card.CustomizeDesc.None>
+  <!-- EN: Select the missile item and change parts in its Assembly tab. After you confirm, colonists bring the materials and do the work. You can also order it built to spec at a missile assembly bench. -->
+  <DMSE.Card.CustomizeDesc.Item>Selecciona el objeto de misil y cambia las partes en su pestaña Montaje. Al confirmar, los colonos traen los materiales y hacen el trabajo. También puedes pedirlo armado a medida en un banco de montaje de misiles.</DMSE.Card.CustomizeDesc.Item>
+  <!-- EN: Parts are changed on a dedicated storage building, consuming resources. -->
+  <DMSE.Card.CustomizeDesc.StorageBuilding>Las partes se cambian en un edificio de almacenamiento dedicado, y se gastan recursos.</DMSE.Card.CustomizeDesc.StorageBuilding>
+  <!-- EN: No item form: choose the body and configure parts directly on the launch platform. -->
+  <DMSE.Card.CustomizeDesc.Launcher>No existe como objeto: elige el cuerpo y configura las partes directamente en la plataforma de lanzamiento.</DMSE.Card.CustomizeDesc.Launcher>
+  <!-- EN: Part slots -->
+  <DMSE.Card.Slots>Ranuras de partes</DMSE.Card.Slots>
+  <!-- EN: The part slots this body offers. Each slot holds at most one part. Slots the body does not have cannot be used. -->
+  <DMSE.Card.SlotsDesc>Las ranuras de partes que ofrece este cuerpo. Cada ranura lleva como máximo una parte. Las ranuras que el cuerpo no tiene no se pueden usar.</DMSE.Card.SlotsDesc>
+  <!-- EN: No part is installed in this slot. -->
+  <DMSE.Card.EmptySlotDesc>No hay ninguna parte instalada en esta ranura.</DMSE.Card.EmptySlotDesc>
+  <!-- EN: Damage and damage type of the main blast at the impact point. Warhead parts can add or remove damage and override the damage type. -->
+  <DMSE.Card.DamageDesc>Daño y tipo de daño de la explosión principal en el punto de impacto. Las partes de ojiva pueden sumar o restar daño y reemplazar el tipo de daño.</DMSE.Card.DamageDesc>
+  <!-- EN: Radius of the main blast, in cells. Warhead and payload effects use the payload capacity N for their own area and are not affected by this value. -->
+  <DMSE.Card.RadiusDesc>Radio de la explosión principal, en celdas. Los efectos de ojiva y de carga útil usan la capacidad de carga útil N para su propia área y no dependen de este valor.</DMSE.Card.RadiusDesc>
+  <!-- EN: Random offset radius of the impact point from the aim point, in cells. Guidance parts tighten it. Inertial guidance has the most scatter. -->
+  <DMSE.Card.ScatterDesc>Radio de desvío aleatorio del punto de impacto respecto del punto de puntería, en celdas. Las partes de guiado lo reducen. El guiado inercial es el que más se dispersa.</DMSE.Card.ScatterDesc>
+  <!-- EN: {0} tiles -->
+  <DMSE.Card.RangeTiles>{0} celdas</DMSE.Card.RangeTiles>
+  <!-- EN: Unlimited -->
+  <DMSE.Card.Unlimited>Ilimitado</DMSE.Card.Unlimited>
+  <!-- EN: Maximum strike distance on the world map.\nRange = (fuel × specific impulse × conversion factor + flat bonus + warhead range) × payload factor\n\nFuel: {0}\nSpecific impulse: {1}\nConversion factor: {2}\nFlat bonus: {3}\nWarhead range: {4}\nPayload factor: {5}\n\nResult: {6} -->
+  <DMSE.Card.RangeDesc>Distancia máxima de ataque en el mapa del mundo.\nAlcance = (combustible × impulso específico × factor de conversión + bonificación fija + alcance de la ojiva) × factor de carga útil\n\nCombustible: {0}\nImpulso específico: {1}\nFactor de conversión: {2}\nBonificación fija: {3}\nAlcance de la ojiva: {4}\nFactor de carga útil: {5}\n\nResultado: {6}</DMSE.Card.RangeDesc>
+  <!-- EN: Flight speed multiplier on the world map. Faster missiles give enemy air defense less time to engage. -->
+  <DMSE.Card.SpeedDesc>Multiplicador de la velocidad de vuelo en el mapa del mundo. Los misiles más rápidos le dan a la defensa aérea enemiga menos tiempo para atacarlos.</DMSE.Card.SpeedDesc>
+  <!-- EN: Payload capacity N -->
+  <DMSE.Card.PayloadCapacity>Capacidad de carga útil N</DMSE.Card.PayloadCapacity>
+  <!-- EN: Set by the body. The area, count and strength of every warhead and payload effect scale with N (for example, an incendiary warhead ignites everything within N cells), so the same part is stronger on a bigger body. -->
+  <DMSE.Card.PayloadCapacityDesc>La fija el cuerpo. El área, la cantidad y la fuerza de cada efecto de ojiva y de carga útil crecen con N (por ejemplo, una ojiva incendiaria prende fuego a todo lo que esté a N celdas o menos), así que la misma parte es más fuerte en un cuerpo más grande.</DMSE.Card.PayloadCapacityDesc>
+  <!-- EN: Missiles that penetrate thick roofs breach the rock before detonating, and their seekers also lock onto targets under thick roofs. Other missiles that hit a thick roof only explode on the rock surface. -->
+  <DMSE.Card.ThickRoofDesc>Los misiles que atraviesan techos gruesos perforan la roca antes de detonar, y sus buscadores también se fijan en objetivos bajo techos gruesos. Los demás misiles que dan en un techo grueso solo explotan sobre la superficie de la roca.</DMSE.Card.ThickRoofDesc>
+  <!-- EN: No guidance -->
+  <DMSE.Card.NoGuidance>Sin guiado</DMSE.Card.NoGuidance>
+  <!-- EN: With terminal guidance, how many times the missile can correct its impact point to the target&apos;s new position in flight (body base count plus seeker bonus). When they run out, it flies to the last known position and misses if the target has left. -->
+  <DMSE.Card.TerminalUpdatesDesc>Con guiado terminal, cuántas veces el misil puede corregir en vuelo su punto de impacto hacia la nueva posición del objetivo (la cantidad base del cuerpo más la bonificación del buscador). Cuando se agotan, vuela a la última posición conocida y falla si el objetivo se fue.</DMSE.Card.TerminalUpdatesDesc>
+  <!-- EN: Fire-control channels the missile occupies for the whole flight. Only radio command and fire-control radar guidance need continuous ground support. Autonomous seekers and preset guidance use none. Ballistic missiles use 2 channels each, others use 1. -->
+  <DMSE.Card.ChannelsDesc>Canales de control de tiro que el misil ocupa durante todo el vuelo. Solo el guiado por mando de radio y el guiado por radar de control de tiro necesitan apoyo continuo desde tierra. Los buscadores autónomos y el guiado preprogramado no usan ninguno. Los misiles balísticos usan 2 canales cada uno; los demás, 1.</DMSE.Card.ChannelsDesc>
+  <!-- EN: 1 per missile (2 ballistic) -->
+  <DMSE.Card.ChannelsPerMissile>1 por misil (2 los balísticos)</DMSE.Card.ChannelsPerMissile>
+  <!-- EN: While loitering, the seeker searches again every {0}. Terminal defenses can still engage it during this time. -->
+  <DMSE.Card.LoiterRetry>Mientras merodea, el buscador vuelve a buscar cada {0}. Las defensas terminales pueden atacarlo igual durante ese tiempo.</DMSE.Card.LoiterRetry>
+  <!-- EN: Only loitering munitions can loiter. Other bodies with this part do not. -->
+  <DMSE.Card.LoiterOnlyLoitering>Solo las municiones merodeadoras pueden merodear. Los demás cuerpos con esta parte no lo hacen.</DMSE.Card.LoiterOnlyLoitering>
+  <!-- EN: No guidance part installed: uses the body&apos;s built-in targeting. -->
+  <DMSE.Card.BuiltInGuidance>No hay ninguna parte de guiado instalada: usa el apuntado propio del cuerpo.</DMSE.Card.BuiltInGuidance>
+  <!-- EN: Built for moving targets on the world map: the flight path re-aims more often. -->
+  <DMSE.Card.TracksMobile>Hecho para objetivos móviles en el mapa del mundo: la trayectoria se corrige más seguido.</DMSE.Card.TracksMobile>
+  <!-- EN: Terminal guidance -->
+  <DMSE.Card.TerminalGuidance>Guiado terminal</DMSE.Card.TerminalGuidance>
+  <!-- EN: Provides terminal guidance: can strike across map layers and track moving targets using the body&apos;s terminal updates. -->
+  <DMSE.Card.TerminalGuidanceYes>Da guiado terminal: puede atacar a través de las capas del mapa y seguir objetivos móviles con las actualizaciones terminales del cuerpo.</DMSE.Card.TerminalGuidanceYes>
+  <!-- EN: No terminal guidance: cannot strike across map layers or track moving targets. -->
+  <DMSE.Card.TerminalGuidanceNo>Sin guiado terminal: no puede atacar a través de las capas del mapa ni seguir objetivos móviles.</DMSE.Card.TerminalGuidanceNo>
+  <!-- EN: Impact point -->
+  <DMSE.Card.TargetSelection>Punto de impacto</DMSE.Card.TargetSelection>
+  <!-- EN: Chosen by player -->
+  <DMSE.Card.TargetManual>Lo elige el jugador</DMSE.Card.TargetManual>
+  <!-- EN: Automatic lock -->
+  <DMSE.Card.TargetAuto>Fijado automático</DMSE.Card.TargetAuto>
+  <!-- EN: A salvo of missiles with the same seeker type spreads its locks over different targets instead of all hitting the same one. -->
+  <DMSE.Card.SpreadNote>Una salva de misiles con el mismo tipo de buscador reparte sus fijados entre distintos objetivos en vez de dar todos en el mismo.</DMSE.Card.SpreadNote>
+  <!-- EN: Intercept hit factor -->
+  <DMSE.Card.Intercept>Factor de acierto en la intercepción</DMSE.Card.Intercept>
+  <!-- EN: When fired as an interceptor, this multiplies the hit chance computed by the fire-control radar (on both the map and the world map). -->
+  <DMSE.Card.InterceptDesc>Al dispararse como interceptor, multiplica la probabilidad de acierto que calcula el radar de control de tiro (tanto en el mapa como en el mapa del mundo).</DMSE.Card.InterceptDesc>
+  <!-- EN: Warhead bonus: hit chance +{0} -->
+  <DMSE.Card.InterceptBonus>Bonificación de la ojiva: probabilidad de acierto +{0}</DMSE.Card.InterceptBonus>
+  <!-- EN: Extra intercept rolls: {0} (can hit other targets in the same wave) -->
+  <DMSE.Card.InterceptRolls>Tiradas de intercepción adicionales: {0} (pueden dar en otros objetivos de la misma oleada)</DMSE.Card.InterceptRolls>
+  <!-- EN: Multiplies the detection range level of the world-map track. Above 1, the missile is detected earlier and draws air defenses that use threat assessment (a decoy). Below 1, it is detected later (penetration). -->
+  <DMSE.Card.SignatureDesc>Multiplica el nivel de alcance de detección de la trayectoria en el mapa del mundo. Por encima de 1, el misil se detecta antes y atrae a las defensas aéreas que evalúan la amenaza (un señuelo). Por debajo de 1, se detecta más tarde (penetración).</DMSE.Card.SignatureDesc>
+  <!-- EN: Chaff charges and jamming strength. On the world map, a charge is used whenever enemy fire control locks on, with a {0} chance to break the lock and delay the next one. Charges are not replenished in flight. When intercepted on a map, the enemy hit chance is reduced by {1}. -->
+  <DMSE.Card.ChaffDesc>Cargas de chaff y potencia de interferencia. En el mapa del mundo, se gasta una carga cada vez que el control de tiro enemigo fija el misil, con una probabilidad de {0} de romper el fijado y retrasar el siguiente. Las cargas no se reponen en vuelo. Cuando se lo intercepta en un mapa, la probabilidad de acierto del enemigo baja en {1}.</DMSE.Card.ChaffDesc>
+  <!-- EN: Warhead effect -->
+  <DMSE.Card.WarheadEffect>Efecto de la ojiva</DMSE.Card.WarheadEffect>
+  <!-- EN: Payload effect -->
+  <DMSE.Card.PayloadEffect>Efecto de la carga útil</DMSE.Card.PayloadEffect>
+  <!-- EN: Values above are for payload capacity N = {0}. -->
+  <DMSE.Card.ScaledByN>Los valores de arriba son para una capacidad de carga útil N = {0}.</DMSE.Card.ScaledByN>
+  <!-- EN: The effect scales with the body&apos;s payload capacity N: -->
+  <DMSE.Card.ScaledByNGroups>El efecto crece con la capacidad de carga útil N del cuerpo:</DMSE.Card.ScaledByNGroups>
+  <!-- EN: N = {0} ({1}) -->
+  <DMSE.Card.NGroup>N = {0} ({1})</DMSE.Card.NGroup>
+  <!-- EN: When used as an interceptor, hit chance +{0} (N × 5%). No extra effect against ground targets. -->
+  <DMSE.Card.Warhead.ContinuousRod>Usada como interceptor, probabilidad de acierto +{0} (N × 5%). Sin efecto adicional contra objetivos terrestres.</DMSE.Card.Warhead.ContinuousRod>
+  <!-- EN: Range +{0} tiles (N × 2). No extra effect at the impact point. -->
+  <DMSE.Card.Warhead.ExtendedFuel>Alcance +{0} celdas (N × 2). Sin efecto adicional en el punto de impacto.</DMSE.Card.Warhead.ExtendedFuel>
+  <!-- EN: Against ground targets: an extra blast with radius {0} and {1} damage at the impact point. As an interceptor: {2} extra independent intercept rolls (N ÷ 5, rounded down) that can hit other targets in the same wave. -->
+  <DMSE.Card.Warhead.Airburst>Contra objetivos terrestres: una explosión extra de radio {0} y {1} de daño en el punto de impacto. Como interceptor: {2} tiradas de intercepción independientes extra (N ÷ 5, redondeado hacia abajo) que pueden dar en otros objetivos de la misma oleada.</DMSE.Card.Warhead.Airburst>
+  <!-- EN: Penetrates thick roofs and locks onto targets under them. After the main blast, an extra blast with radius 2 and {0} damage hits the impact point. -->
+  <DMSE.Card.Warhead.TungstenPenetrator>Atraviesa techos gruesos y se fija en objetivos bajo ellos. Después de la explosión principal, una explosión extra de radio 2 y {0} de daño da en el punto de impacto.</DMSE.Card.Warhead.TungstenPenetrator>
+  <!-- EN: Ignores line of sight and sets fires within {0} cells of the impact point. -->
+  <DMSE.Card.Warhead.Incendiary>Ignora la línea de visión y provoca incendios a {0} celdas o menos del punto de impacto.</DMSE.Card.Warhead.Incendiary>
+  <!-- EN: Ignores line of sight. An EMP blast with radius {0} and {1} damage disables electronics and mechanoids. -->
+  <DMSE.Card.Warhead.EMP>Ignora la línea de visión. Una explosión PEM de radio {0} y {1} de daño inutiliza la electrónica y los mecanoides.</DMSE.Card.Warhead.EMP>
+  <!-- EN: Every animal on the target map immediately goes berserk. -->
+  <DMSE.Card.Warhead.AnimalBerserk>Todos los animales del mapa objetivo se vuelven frenéticos al instante.</DMSE.Card.Warhead.AnimalBerserk>
+  <!-- EN: Releases {0} physical bomblets ({1}) that land within {2} cells. The bomblets fly and can hit anyone in their path. -->
+  <DMSE.Card.Warhead.ClusterBomblets>Libera {0} submuniciones físicas ({1}) que caen a {2} celdas o menos. Las submuniciones vuelan y pueden darle a cualquiera que esté en su camino.</DMSE.Card.Warhead.ClusterBomblets>
+  <!-- EN: When fired by the player, each pawn of a non-hostile faction in the spread area costs {0} goodwill with that faction. -->
+  <DMSE.Card.Warhead.ClusterGoodwill>Si la dispara el jugador, cada personaje de una facción no hostil que esté en la zona de dispersión cuesta {0} de buena voluntad con esa facción.</DMSE.Card.Warhead.ClusterGoodwill>
+  <!-- EN: Every creature within radius {0} takes {1} burn damage, and each cell has a {2} chance to catch fire. Most effective in enclosed rooms. -->
+  <DMSE.Card.Warhead.Thermobaric>Cada criatura en un radio de {0} recibe {1} de daño por quemadura, y cada celda tiene una probabilidad de {2} de prenderse fuego. Es más eficaz en salas cerradas.</DMSE.Card.Warhead.Thermobaric>
+  <!-- EN: Almost no blast: strikes the nearest creature within 3 cells of the impact point with {0} blades, each dealing {1} cut damage. -->
+  <DMSE.Card.Warhead.KineticBlades>Casi sin explosión: golpea a la criatura más cercana a 3 celdas o menos del punto de impacto con {0} hojas, que hacen {1} de daño cortante cada una.</DMSE.Card.Warhead.KineticBlades>
+  <!-- EN: An extra blast with radius {0} and {1} damage at the impact point. -->
+  <DMSE.Card.Payload.HighExplosive>Una explosión extra de radio {0} y {1} de daño en el punto de impacto.</DMSE.Card.Payload.HighExplosive>
+  <!-- EN: Penetrates thick roofs and locks onto targets under them. Detonates inside with radius {0} and {1} damage ({2} armor penetration), and deals an extra {4} structural damage to buildings within {3} cells of the center. -->
+  <DMSE.Card.Payload.BunkerBuster>Atraviesa techos gruesos y se fija en objetivos bajo ellos. Detona dentro con radio {0} y {1} de daño ({2} de penetración de blindaje), y hace {4} de daño estructural extra a los edificios a {3} celdas o menos del centro.</DMSE.Card.Payload.BunkerBuster>
+  <!-- EN: Scatters {1} sub-explosions within {0} cells, each with radius {2} and {3} damage. -->
+  <DMSE.Card.Payload.Cluster>Esparce {1} subexplosiones a {0} celdas o menos, cada una de radio {2} y {3} de daño.</DMSE.Card.Payload.Cluster>
+  <!-- EN: Each plant within {0} cells has a {1} chance to die. -->
+  <DMSE.Card.Payload.Defoliant>Cada planta a {0} celdas o menos tiene una probabilidad de {1} de morir.</DMSE.Card.Payload.Defoliant>
+  <!-- EN: Puts out fires within {0} cells and covers the area in firefoam. -->
+  <DMSE.Card.Payload.FireFoam>Apaga los incendios a {0} celdas o menos y cubre la zona de espuma cortafuego.</DMSE.Card.Payload.FireFoam>
+  <!-- EN: A vaporizing blast with radius {0} and {1} damage at the impact point. -->
+  <DMSE.Card.Payload.Antiparticle>Una explosión vaporizadora de radio {0} y {1} de daño en el punto de impacto.</DMSE.Card.Payload.Antiparticle>
+  <!-- EN: Floods every cell within {0} cells with toxic gas. -->
+  <DMSE.Card.Payload.ToxicGas>Llena de gas tóxico cada celda a {0} celdas o menos.</DMSE.Card.Payload.ToxicGas>
+  <!-- EN: An EMP blast with radius {0} and {1} damage at the impact point: disables electronics and stuns mechanoids. -->
+  <DMSE.Card.Payload.EMP>Una explosión PEM de radio {0} y {1} de daño en el punto de impacto: inutiliza la electrónica y aturde a los mecanoides.</DMSE.Card.Payload.EMP>
+  <!-- EN: Range becomes {0}. Every creature within radius {1} takes (body size rounded up + 1) hits of {2} stab damage ({3} armor penetration). -->
+  <DMSE.Card.Payload.AirburstTungsten>El alcance pasa a {0}. Cada criatura en un radio de {1} recibe (tamaño corporal redondeado hacia arriba + 1) impactos de {2} de daño por puñalada ({3} de penetración de blindaje).</DMSE.Card.Payload.AirburstTungsten>
+  <!-- EN: An extra blast with radius {0} and {1} damage ({2}). -->
+  <DMSE.Card.Payload.Extra>Una explosión extra de radio {0} y {1} de daño ({2}).</DMSE.Card.Payload.Extra>
+  <!-- EN: Drops {0} × {1} ({2} chance). -->
+  <DMSE.Card.Payload.Spawn>Suelta {0} × {1} (probabilidad de {2}).</DMSE.Card.Payload.Spawn>
+  <!-- EN: Does not search for targets: impacts scatter randomly around the center of the target map and never lock onto buildings or creatures. -->
+  <DMSE.Card.Guidance.Inertial>No busca objetivos: los impactos se dispersan al azar alrededor del centro del mapa objetivo y nunca se fijan en edificios ni en criaturas.</DMSE.Card.Guidance.Inertial>
+  <!-- EN: Locks onto the active enemy radar with the highest power level (ties go to the one drawing more power). Purely passive warning equipment is ignored. -->
+  <DMSE.Card.Guidance.AntiRadiation>Se fija en el radar enemigo activo con el mayor nivel de potencia (en caso de empate, el que consume más energía). El equipo de alerta puramente pasivo se ignora.</DMSE.Card.Guidance.AntiRadiation>
+  <!-- EN: With no active radar, it targets the powered enemy building drawing the most electricity, then falls back to inertial guidance. -->
+  <DMSE.Card.Guidance.AntiRadiationFallback>Sin un radar activo, apunta al edificio enemigo con energía que consume más electricidad, y si no hay, recurre al guiado inercial.</DMSE.Card.Guidance.AntiRadiationFallback>
+  <!-- EN: With no active radar, it does not pick another target. With loitering flight control it can wait overhead until a radar switches on. -->
+  <DMSE.Card.Guidance.AntiRadiationNoFallback>Sin un radar activo, no elige otro objetivo. Con control de vuelo de merodeo puede esperar sobre la zona hasta que se encienda un radar.</DMSE.Card.Guidance.AntiRadiationNoFallback>
+  <!-- EN: Locks onto the hottest indoor room at least {0} warmer than outdoors. Otherwise it targets the largest creature (wild animals included, the attacker and its allies excluded). If there is neither, it falls back to inertial guidance. -->
+  <DMSE.Card.Guidance.HeatSource>Se fija en la sala interior más caliente que esté al menos {0} por encima de la temperatura exterior. Si no, apunta a la criatura más grande (incluidos los animales salvajes, sin contar al atacante ni a sus aliados). Si no hay ninguna de las dos, recurre al guiado inercial.</DMSE.Card.Guidance.HeatSource>
+  <!-- EN: Locks onto the powered enemy building drawing the most electricity. Falls back to inertial guidance if nothing is powered. -->
+  <DMSE.Card.Guidance.ElectromagneticSignal>Se fija en el edificio enemigo con energía que consume más electricidad. Recurre al guiado inercial si no hay nada con energía.</DMSE.Card.Guidance.ElectromagneticSignal>
+  <!-- EN: When you launch it, the game pauses on arrival and you choose the impact point freely. Enemy launches have no operator and use inertial guidance instead. -->
+  <DMSE.Card.Guidance.TV>Cuando lo lanzas, el juego se pausa al llegar y eliges libremente el punto de impacto. Los lanzamientos enemigos no tienen operador y usan guiado inercial.</DMSE.Card.Guidance.TV>
+  <!-- EN: Locks onto the most recent laser designation your side placed on the target map. Falls back to inertial guidance if there is none. -->
+  <DMSE.Card.Guidance.Laser>Se fija en la designación láser más reciente que tu bando puso en el mapa objetivo. Recurre al guiado inercial si no hay ninguna.</DMSE.Card.Guidance.Laser>
+  <!-- EN: Mainly for air-defense interception, guided by fire-control radar illumination. Against ground targets it aims inertially. Occupies a fire-control channel for the whole flight. -->
+  <DMSE.Card.Guidance.FireControl>Sobre todo para la intercepción antiaérea, guiado por la iluminación del radar de control de tiro. Contra objetivos terrestres apunta por guiado inercial. Ocupa un canal de control de tiro durante todo el vuelo.</DMSE.Card.Guidance.FireControl>
+  <!-- EN: The ground station sends continuous corrections. Against ground targets it aims inertially. Occupies a fire-control channel for the whole flight. -->
+  <DMSE.Card.Guidance.RadioCommand>La estación en tierra envía correcciones continuas. Contra objetivos terrestres apunta por guiado inercial. Ocupa un canal de control de tiro durante todo el vuelo.</DMSE.Card.Guidance.RadioCommand>
+  <!-- EN: Locks only onto enemy creatures in the open (not under a roof), preferring higher combat power, then larger body size. Falls back to inertial guidance if none are found. -->
+  <DMSE.Card.Guidance.Imaging>Se fija solo en criaturas enemigas al descubierto (no bajo techo): prefiere el mayor poder de combate y después el mayor tamaño corporal. Recurre al guiado inercial si no encuentra ninguna.</DMSE.Card.Guidance.Imaging>
+  <!-- EN: Fire-and-forget: locks onto the largest enemy building, then the largest enemy creature. Falls back to inertial guidance if there are neither. -->
+  <DMSE.Card.Guidance.ActiveRadar>Dispara y olvida: se fija en el edificio enemigo más grande y después en la criatura enemiga más grande. Recurre al guiado inercial si no hay ninguno de los dos.</DMSE.Card.Guidance.ActiveRadar>
+  <!-- EN: Built for moving targets on the world map (ships, mobile bases): the flight path corrects more often, with {0} extra terminal updates. On arrival it hits the toughest enemy building first, then the largest enemy creature. -->
+  <DMSE.Card.Guidance.AntiShip>Hecho para objetivos móviles en el mapa del mundo (barcos, bases móviles): la trayectoria se corrige más seguido, con {0} actualizaciones terminales extra. Al llegar, da primero en el edificio enemigo más resistente y después en la criatura enemiga más grande.</DMSE.Card.Guidance.AntiShip>
+  <!-- EN: Part slot -->
+  <DMSE.Card.PartSlot>Ranura de la parte</DMSE.Card.PartSlot>
+  <!-- EN: The slot this part goes into. Each slot holds one part, and installing this replaces the current one. -->
+  <DMSE.Card.PartSlotDesc>La ranura en la que va esta parte. Cada ranura lleva una parte, y al instalar esta se reemplaza la actual.</DMSE.Card.PartSlotDesc>
+  <!-- EN: Compatible bodies -->
+  <DMSE.Card.CompatibleBodies>Cuerpos compatibles</DMSE.Card.CompatibleBodies>
+  <!-- EN: Missile bodies that can take this part (they must have the matching slot). Click the links below to view them. -->
+  <DMSE.Card.CompatibleBodiesDesc>Los cuerpos de misil que pueden llevar esta parte (tienen que tener la ranura correspondiente). Haz clic en los enlaces de abajo para verlos.</DMSE.Card.CompatibleBodiesDesc>
+  <!-- EN: Loitering munitions only. -->
+  <DMSE.Card.RequiresLoitering>Solo municiones merodeadoras.</DMSE.Card.RequiresLoitering>
+  <!-- EN: Research required -->
+  <DMSE.Card.Research>Investigación requerida</DMSE.Card.Research>
+  <!-- EN: Can be selected once these research projects are finished. -->
+  <DMSE.Card.ResearchDesc>Se puede elegir una vez terminados estos proyectos de investigación.</DMSE.Card.ResearchDesc>
+  <!-- EN: Assembly materials -->
+  <DMSE.Card.Cost>Materiales de montaje</DMSE.Card.Cost>
+  <!-- EN: Materials that must be hauled in and consumed to install this part during a refit. A body&apos;s default parts are already included in its build cost. When the part is removed or replaced, part of the materials is refunded according to the body&apos;s refund rate. -->
+  <DMSE.Card.CostDesc>Materiales que hay que traer y gastar para instalar esta parte durante una reconfiguración. Las partes por defecto de un cuerpo ya están incluidas en su costo de fabricación. Cuando la parte se quita o se reemplaza, se devuelve un porcentaje de los materiales según la tasa de reembolso del cuerpo.</DMSE.Card.CostDesc>
+  <!-- EN: Added to the body&apos;s base value. -->
+  <DMSE.Card.ModifierDesc>Se suma al valor base del cuerpo.</DMSE.Card.ModifierDesc>
+  <!-- EN: Overrides the damage type of the main blast. -->
+  <DMSE.Card.DamageTypeDesc>Reemplaza el tipo de daño de la explosión principal.</DMSE.Card.DamageTypeDesc>
+  <!-- EN: Fuel -->
+  <DMSE.Card.Fuel>Combustible</DMSE.Card.Fuel>
+  <!-- EN: Specific impulse -->
+  <DMSE.Card.Impulse>Impulso específico</DMSE.Card.Impulse>
+  <!-- EN: Range is roughly fuel × specific impulse × the body&apos;s conversion factor, so both increase range. -->
+  <DMSE.Card.FuelImpulseDesc>El alcance es aproximadamente combustible × impulso específico × factor de conversión del cuerpo, así que los dos aumentan el alcance.</DMSE.Card.FuelImpulseDesc>
+  <!-- EN: Refit work -->
+  <DMSE.Card.AssembleWork>Trabajo de reconfiguración</DMSE.Card.AssembleWork>
+  <!-- EN: Work needed to apply one configuration change. Affected by the working colonist&apos;s work speed. -->
+  <DMSE.Card.AssembleWorkDesc>El trabajo necesario para aplicar un cambio de configuración. Depende de la velocidad de trabajo del colono que lo hace.</DMSE.Card.AssembleWorkDesc>
+  <!-- EN: Removal refund -->
+  <DMSE.Card.Refund>Reembolso al quitar</DMSE.Card.Refund>
+  <!-- EN: Share of a part&apos;s materials returned when it is removed or replaced. -->
+  <DMSE.Card.RefundDesc>La proporción de los materiales de una parte que se devuelve al quitarla o reemplazarla.</DMSE.Card.RefundDesc>
   <!-- EN: Every loaded missile is reserved for a strike mission -->
   <DMSE.Strike.AllRoundsReserved>Todos los misiles cargados están reservados para una misión de ataque</DMSE.Strike.AllRoundsReserved>
   <!-- EN: Reserved for strike missions: {0} -->
@@ -418,6 +812,14 @@ Enable research work for a colonist on that map. -->
   <DMSE.MissileBase.ArrivedLetter>Tu gente llegó a una posición de lanzamiento de misiles. El enemigo desplegó aquí radares de control de tiro y vehículos lanzadores, y ataca sin pausa a las colonias cercanas. Destruir todos los radares neutralizará su capacidad de ataque.</DMSE.MissileBase.ArrivedLetter>
   <!-- EN: A mobile tactical ballistic missile launch position equipped with fire control radar and missile launchers. The position will relocate after completing its mission. -->
   <DMSE.MissileBase.SiteDesc>Una posición móvil de lanzamiento de misiles balísticos tácticos, equipada con radar de control de tiro y lanzadores de misiles. La posición se reubicará al completar su misión.</DMSE.MissileBase.SiteDesc>
+  <!-- EN: Enemy supply drop: {0} ×{1} -->
+  <DMSE.MissileBase.SupplyDrop>Suministros enemigos lanzados: {0} ×{1}</DMSE.MissileBase.SupplyDrop>
+  <!-- EN: Enemy missile resupply: {1} missiles dropped for {0} empty launchers. The crew will load them shortly. -->
+  <DMSE.MissileBase.RackResupply>Reabastecimiento enemigo de misiles: se lanzaron {1} misiles para {0} lanzadores vacíos. La dotación los cargará en breve.</DMSE.MissileBase.RackResupply>
+  <!-- EN: Your pawns have arrived at an enemy field launch position. A search radar sits at its centre, with launch positions, ammunition carriers and crew shelters spread around it. Supply pods keep the garrison fed while any radar is operational; destroying all launchers neutralizes the position. -->
+  <DMSE.FieldLaunchSite.ArrivedLetter>Tus colonos llegaron a una posición enemiga de lanzamiento de campaña. En el centro hay un radar de búsqueda, con posiciones de lanzamiento, transportes de munición y refugios para la dotación repartidos alrededor. Las cápsulas de suministros mantienen abastecida a la guarnición mientras algún radar funcione; destruir todos los lanzadores neutraliza la posición.</DMSE.FieldLaunchSite.ArrivedLetter>
+  <!-- EN: {0} has deployed a field missile launch position {3} tiles {2} of {1}. Its launchers can strike your colony; supply pods will keep its garrison fed while its radars run.\n\nDestroy every launcher to neutralize it, or knock out its radars to cut off its supplies. -->
+  <DMSE.FieldLaunchSite.SpawnedLetter>{0} desplegó una posición de lanzamiento de misiles de campaña a {3} celdas al {2} de {1}. Sus lanzadores pueden atacar tu colonia; las cápsulas de suministros mantendrán abastecida a su guarnición mientras sus radares funcionen.\n\nDestruye todos los lanzadores para neutralizarla, o inutiliza sus radares para cortarle los suministros.</DMSE.FieldLaunchSite.SpawnedLetter>
   <!-- EN: Launch Missile -->
   <ScorerLaunch>Lanzar misil</ScorerLaunch>
   <!-- EN: Launch the loaded tactical missile at a target beyond this map. The target map stays visible for 2 days to assess damage; launching again resets the timer. -->
@@ -436,10 +838,14 @@ Enable research work for a colonist on that map. -->
   <DMSE.Alert.HuntdownThreatCritical.Desc>Rastrearon la posición de la Estela: un escuadrón de cacería, y quizás un ataque aéreo, llegarán en cualquier momento. Haz la transferencia antes de que sea tarde.</DMSE.Alert.HuntdownThreatCritical.Desc>
   <!-- EN: {0} incoming threats, interception window: {1} left -->
   <DMSE.Alert.Pods>{0} amenazas entrantes, ventana de intercepción: quedan {1}</DMSE.Alert.Pods>
+  <!-- EN: {0} missiles loitering overhead, {1} before they dive -->
+  <DMSE.Alert.Pods.Loitering>{0} misiles merodeando sobre la zona; faltan {1} para que se lancen en picada</DMSE.Alert.Pods.Loitering>
   <!-- EN: Midcourse intercept window: {0} -->
   <DMSE.Alert.Pods.Window.Midcourse>Ventana de intercepción a mitad de trayecto: {0}</DMSE.Alert.Pods.Window.Midcourse>
   <!-- EN: Terminal (CIWS) window: {0} -->
   <DMSE.Alert.Pods.Window.Terminal>Ventana terminal (CIWS): {0}</DMSE.Alert.Pods.Window.Terminal>
+  <!-- EN: Loiter time left: {0} -->
+  <DMSE.Alert.Pods.Window.Loitering>Tiempo de merodeo restante: {0}</DMSE.Alert.Pods.Window.Loitering>
   <!-- EN:   · {0}  [{1}] -->
   <DMSE.Alert.Pods.Target>  · {0}  [{1}]</DMSE.Alert.Pods.Target>
   <!-- EN: interceptor in flight -->
@@ -448,6 +854,8 @@ Enable research work for a colonist on that map. -->
   <DMSE.Alert.Pods.Status.Locking>fijando con control de tiro</DMSE.Alert.Pods.Status.Locking>
   <!-- EN: unengaged -->
   <DMSE.Alert.Pods.Status.Unengaged>sin interceptar</DMSE.Alert.Pods.Status.Unengaged>
+  <!-- EN: loitering, waiting for a target -->
+  <DMSE.Alert.Pods.Status.Loitering>merodeando, a la espera de un objetivo</DMSE.Alert.Pods.Status.Loitering>
   <!-- EN: BVR System -->
   <DMSE.Alert.BVRStatus.Label>Sistema BVR</DMSE.Alert.BVRStatus.Label>
   <!-- EN: Search radars: -->
@@ -602,6 +1010,8 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.Stat.TerminalGuidance>Guiado: puede actualizar la posición de su objetivo {0} vez (veces) en vuelo y atacar entre capas orbitales</DMSE.Missile.Stat.TerminalGuidance>
   <!-- EN: Unguided: cannot track moving targets or strike across orbital layers -->
   <DMSE.Missile.Stat.NoTerminalGuidance>Sin guiado: no puede seguir objetivos en movimiento ni atacar entre capas orbitales</DMSE.Missile.Stat.NoTerminalGuidance>
+  <!-- EN: Loiter flight control: waits up to {0} before falling back -->
+  <DMSE.Missile.Stat.Loiter>Control de vuelo de merodeo: espera hasta {0} antes de recurrir al guiado inercial</DMSE.Missile.Stat.Loiter>
   <!-- EN: Target is beyond missile range ({0} tiles). -->
   <DMSE.MissileLauncher.OutOfRange>El objetivo está fuera del alcance del misil ({0} celdas).</DMSE.MissileLauncher.OutOfRange>
   <!-- EN: {0} / {1} tiles -->
@@ -654,6 +1064,8 @@ Enable research work for a colonist on that map. -->
   <DMSE.Missile.IncomingMissed>Un misil lanzado por {0} perdió su objetivo y falló.</DMSE.Missile.IncomingMissed>
   <!-- EN: {0} locked onto a target. The missile is coming down. -->
   <DMSE.Missile.SeekerLocked>{0} fijó un objetivo. El misil está cayendo.</DMSE.Missile.SeekerLocked>
+  <!-- EN: The seeker found no target: the missile is loitering overhead and will wait {0} before falling back to inertial guidance. -->
+  <DMSE.Missile.Loitering>El buscador no encontró ningún objetivo: el misil merodea sobre la zona y esperará {0} antes de recurrir al guiado inercial.</DMSE.Missile.Loitering>
   <!-- EN: inertial guidance -->
   <DMSE.Guidance.Inertial>guiado inercial</DMSE.Guidance.Inertial>
   <!-- EN: radio-command guidance -->
@@ -760,6 +1172,10 @@ Enable research work for a colonist on that map. -->
   <DMSE.Artillery.Missed>La salva de artillería no encontró ningún objetivo y se desperdició.</DMSE.Artillery.Missed>
   <!-- EN: Barrel worn out: sustained fire halted. Replace the reinforced barrel. -->
   <DMSE.Artillery.NoBarrel>Cañón desgastado: se detuvo el fuego sostenido. Reemplaza el cañón reforzado.</DMSE.Artillery.NoBarrel>
+  <!-- EN: Cannot shell your own map tile. -->
+  <DMSE.Artillery.TargetIsHome>No puedes bombardear tu propia celda del mapa.</DMSE.Artillery.TargetIsHome>
+  <!-- EN: Target is beyond gun range ({0} tiles). -->
+  <DMSE.Artillery.OutOfRange>El objetivo está más allá del alcance del cañón ({0} celdas).</DMSE.Artillery.OutOfRange>
   <!-- EN: Device is inactive (no power, broken down, or switched off). -->
   <DMSE.BVR.DeviceInactive>El dispositivo está inactivo (sin energía, averiado o apagado).</DMSE.BVR.DeviceInactive>
   <!-- EN: reloading, {0} remaining -->
@@ -770,6 +1186,10 @@ Enable research work for a colonist on that map. -->
   <DMSE.Artillery.StateReady>listo para disparar</DMSE.Artillery.StateReady>
   <!-- EN: Artillery: ready to fire -->
   <DMSE.Artillery.Ready>Artillería: lista para disparar</DMSE.Artillery.Ready>
+  <!-- EN: Radar guidance: available (scatter {0} cells) -->
+  <DMSE.Artillery.GuidanceOnline>Guiado por radar: disponible (dispersión de {0} celdas)</DMSE.Artillery.GuidanceOnline>
+  <!-- EN: Radar guidance: no free fire-control channel (unguided, scatter {0} cells) -->
+  <DMSE.Artillery.GuidanceOffline>Guiado por radar: no hay canal de control de tiro libre (sin guiado, dispersión de {0} celdas)</DMSE.Artillery.GuidanceOffline>
   <!-- EN: Too close to {0} (same placement layer). -->
   <DMSE.PlaceWorker.TooCloseSameLayer>Demasiado cerca de {0} (misma capa de colocación).</DMSE.PlaceWorker.TooCloseSameLayer>
   <!-- EN: Remove platform -->

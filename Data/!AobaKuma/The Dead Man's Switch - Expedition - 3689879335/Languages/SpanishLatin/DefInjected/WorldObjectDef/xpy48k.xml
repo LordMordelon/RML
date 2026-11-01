@@ -4,6 +4,10 @@
   <DMSE_Interceptor.label>misil interceptor</DMSE_Interceptor.label>
   <!-- EN: A surface-to-air interceptor heading toward a predicted meeting point. -->
   <DMSE_Interceptor.description>Un interceptor tierra-aire que se dirige hacia un punto de encuentro previsto.</DMSE_Interceptor.description>
+  <!-- EN: blockade interceptor -->
+  <DMSE_BlockadeInterceptor.label>interceptor de bloqueo</DMSE_BlockadeInterceptor.label>
+  <!-- EN: A surface-to-air interceptor fired at a craft flying through a closed airspace. -->
+  <DMSE_BlockadeInterceptor.description>Un interceptor tierra-aire disparado contra una aeronave que atraviesa un espacio aéreo cerrado.</DMSE_BlockadeInterceptor.description>
   <!-- EN: incoming drop pods -->
   <DMSE_DropPodTrack.label>cápsulas de escape entrantes</DMSE_DropPodTrack.label>
   <!-- EN: Hostile drop pods tracked by world radar on their way in. -->
@@ -12,6 +16,10 @@
   <DMSE_TransferShip.label>nave de transferencia</DMSE_TransferShip.label>
   <!-- EN: A section of ground carried off by a structural network, now a ship of its own. -->
   <DMSE_TransferShip.description>Un trozo de terreno arrancado por una red estructural, que ahora es una nave por derecho propio.</DMSE_TransferShip.description>
+  <!-- EN: field launch position -->
+  <DMSE_FieldLaunchSite.label>posición de lanzamiento de campaña</DMSE_FieldLaunchSite.label>
+  <!-- EN: A rapidly deployed field missile position fielded by an industrial-era faction: a search radar, scattered launch positions, ammunition carriers and crew shelters. Supply pods keep the garrison fed for as long as its radars stay operational. -->
+  <DMSE_FieldLaunchSite.description>Una posición de misiles de campaña de despliegue rápido, propia de una facción de la era industrial: un radar de búsqueda, posiciones de lanzamiento dispersas, transportes de munición y refugios para la dotación. Las cápsulas de suministros mantienen abastecida a la guarnición mientras sus radares sigan funcionando.</DMSE_FieldLaunchSite.description>
   <!-- EN: missile launch position -->
   <DMSE_MissileBase.label>posición de lanzamiento de misiles</DMSE_MissileBase.label>
   <!-- EN: A mobile tactical ballistic missile launch position. The enemy crew continuously fires missiles at your colony and replenishes their stocks via supply drops. The position will relocate after some time. -->
@@ -36,6 +44,10 @@
   <DMSE_WorldObject_Loiter.label>munición merodeadora</DMSE_WorldObject_Loiter.label>
   <!-- EN: A loitering munition in flight. -->
   <DMSE_WorldObject_Loiter.description>Una munición merodeadora en vuelo.</DMSE_WorldObject_Loiter.description>
+  <!-- EN: artillery shell -->
+  <DMSE_WorldObject_ArtilleryStrike.label>obús de artillería</DMSE_WorldObject_ArtilleryStrike.label>
+  <!-- EN: A long-range artillery shell in flight. -->
+  <DMSE_WorldObject_ArtilleryStrike.description>Un obús de artillería de largo alcance en vuelo.</DMSE_WorldObject_ArtilleryStrike.description>
   <!-- EN: cruise missile -->
   <DMSE_WorldObject_CruiseMissile.label>misil de crucero</DMSE_WorldObject_CruiseMissile.label>
   <!-- EN: cruise missile in flight. -->

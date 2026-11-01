@@ -38,6 +38,8 @@
   <DMSE_Launch_LegacyLoiter.label>munición merodeadora antigua (en lanzamiento)</DMSE_Launch_LegacyLoiter.label>
   <!-- EN: long-range loitering munition (launching) -->
   <DMSE_Launch_Shahed.label>munición merodeadora de largo alcance (en lanzamiento)</DMSE_Launch_Shahed.label>
+  <!-- EN: light loitering munition (launching) -->
+  <DMSE_Launch_Sabre.label>munición merodeadora ligera (en lanzamiento)</DMSE_Launch_Sabre.label>
   <!-- EN: legacy interceptor (launching) -->
   <DMSE_Launch_LegacyInterceptor.label>interceptor antiguo (en lanzamiento)</DMSE_Launch_LegacyInterceptor.label>
   <!-- EN: advanced light missile (launching) -->
@@ -58,6 +60,14 @@
   <DMSE_Launch_Yj.label>misil antibuque hipersónico (en lanzamiento)</DMSE_Launch_Yj.label>
   <!-- EN: tactical ballistic missile (launching) -->
   <DMSE_Launch_Tochka.label>misil balístico táctico (en lanzamiento)</DMSE_Launch_Tochka.label>
+  <!-- EN: Sabre light loitering munition -->
+  <DMSE_Missile_Sabre.label>munición merodeadora ligera Sabre</DMSE_Missile_Sabre.label>
+  <!-- EN: A tube-launched loitering munition with folding wings and an image-recognition seeker. It fits a man-portable SAM launcher, which fires it at ground targets well beyond the reach of a surface-to-air missile. It can also be fired from a launch rail for a short-range strike: its seeker hunts the most dangerous enemy creature in the open, and its loiter flight control keeps it circling until one shows up.\n\nCannot intercept incoming threats. Comes in a fixed configuration and cannot be modified. -->
+  <DMSE_Missile_Sabre.description>Una munición merodeadora lanzada desde tubo, con alas plegables y un buscador de reconocimiento de imagen. Cabe en un lanzador de misiles tierra-aire portátil, que la dispara contra objetivos terrestres mucho más allá del alcance de un misil tierra-aire. También se puede disparar desde un riel de lanzamiento para un ataque de corto alcance: su buscador caza a la criatura enemiga más peligrosa que esté al descubierto, y su control de vuelo de merodeo la mantiene dando vueltas hasta que aparezca una.\n\nNo puede interceptar amenazas entrantes. Viene con una configuración fija y no se puede modificar.</DMSE_Missile_Sabre.description>
+  <!-- EN: light loitering munition (incoming) -->
+  <DMSE_Incoming_Sabre.label>munición merodeadora ligera (llegando)</DMSE_Incoming_Sabre.label>
+  <!-- EN: light loitering munition -->
+  <DMSE_Projectile_Sabre.label>munición merodeadora ligera</DMSE_Projectile_Sabre.label>
   <!-- EN: long-range loitering munition -->
   <DMSE_Missile_Shahed.label>munición merodeadora de largo alcance</DMSE_Missile_Shahed.label>
   <!-- EN: A cheap delta-wing attack drone with a pusher propeller, launched from a rail. It flies a long way with a small warhead, but it is slow and easy to shoot down.\n\nComes with inertial guidance, which scatters impacts around the center of the target map. An optional TV guidance module lets you pick the impact point, but uses an extra fire-control channel. -->
@@ -92,6 +102,44 @@
   <DMSE_StructuralFrame_Center.label>armazón estructural</DMSE_StructuralFrame_Center.label>
   <!-- EN: No description....yet. -->
   <DMSE_StructuralFrame_Center.description>Sin descripción... todavía.</DMSE_StructuralFrame_Center.description>
+  <!-- EN: small field frame -->
+  <DMSE_FieldStructure_SmallFrame.label>armazón de campaña pequeño</DMSE_FieldStructure_SmallFrame.label>
+  <!-- EN: A decorative frame for field structures. -->
+  <DMSE_FieldStructure_SmallFrame.description>Un armazón decorativo para estructuras de campaña.</DMSE_FieldStructure_SmallFrame.description>
+  <!-- EN: medium field frame -->
+  <DMSE_FieldStructure_MediumFrame.label>armazón de campaña mediano</DMSE_FieldStructure_MediumFrame.label>
+  <!-- EN: A decorative frame for field structures. -->
+  <DMSE_FieldStructure_MediumFrame.description>Un armazón decorativo para estructuras de campaña.</DMSE_FieldStructure_MediumFrame.description>
+  <!-- EN: medium field section -->
+  <DMSE_FieldStructure_MediumSection.label>sección de campaña mediana</DMSE_FieldStructure_MediumSection.label>
+  <!-- EN: A decorative frame section for field structures. -->
+  <DMSE_FieldStructure_MediumSection.description>Una sección de armazón decorativa para estructuras de campaña.</DMSE_FieldStructure_MediumSection.description>
+  <!-- EN: field frame -->
+  <DMSE_FieldStructure_Frame.label>armazón de campaña</DMSE_FieldStructure_Frame.label>
+  <!-- EN: A standard frame for assembling field structures. -->
+  <DMSE_FieldStructure_Frame.description>Un armazón estándar para montar estructuras de campaña.</DMSE_FieldStructure_Frame.description>
+  <!-- EN: field support -->
+  <DMSE_FieldStructure_Support.label>soporte de campaña</DMSE_FieldStructure_Support.label>
+  <!-- EN: A load-bearing support for field structures. -->
+  <DMSE_FieldStructure_Support.description>Un soporte de carga para estructuras de campaña.</DMSE_FieldStructure_Support.description>
+  <!-- EN: field hull section -->
+  <DMSE_FieldStructure_Hull.label>sección de casco de campaña</DMSE_FieldStructure_Hull.label>
+  <!-- EN: An armored hull section for field structures. -->
+  <DMSE_FieldStructure_Hull.description>Una sección de casco blindada para estructuras de campaña.</DMSE_FieldStructure_Hull.description>
+  <!-- EN: field power unit -->
+  <DMSE_FieldStructure_PowerUnit.label>unidad de energía de campaña</DMSE_FieldStructure_PowerUnit.label>
+  <!-- EN: A compact power unit for field structures. Supplies 1500 W while switched on. -->
+  <DMSE_FieldStructure_PowerUnit.description>Una unidad de energía compacta para estructuras de campaña. Suministra 1500 W mientras está encendida.</DMSE_FieldStructure_PowerUnit.description>
+  <!-- EN: field extinguisher unit -->
+  <DMSE_FieldStructure_ExtinguisherUnit.label>unidad extintora de campaña</DMSE_FieldStructure_ExtinguisherUnit.label>
+  <!-- EN: A fire-suppressant unit for field structures. Can be triggered by a colonist to spray extinguishing foam over a 4.9-cell radius. -->
+  <DMSE_FieldStructure_ExtinguisherUnit.description>Una unidad antiincendios para estructuras de campaña. Un colono puede activarla para rociar espuma cortafuego en un radio de 4.9 celdas.</DMSE_FieldStructure_ExtinguisherUnit.description>
+  <!-- EN: Trigger {0_label} -->
+  <DMSE_FieldStructure_ExtinguisherUnit.comps.CompUsable.useLabel>Activar {0_label}</DMSE_FieldStructure_ExtinguisherUnit.comps.CompUsable.useLabel>
+  <!-- EN: field ammo storage -->
+  <DMSE_FieldStructure_AmmoStorage.label>depósito de munición de campaña</DMSE_FieldStructure_AmmoStorage.label>
+  <!-- EN: A sealed ammunition locker for field structures. Holds up to eight missiles. -->
+  <DMSE_FieldStructure_AmmoStorage.description>Un armario de munición sellado para estructuras de campaña. Guarda hasta ocho misiles.</DMSE_FieldStructure_AmmoStorage.description>
   <!-- EN: rotary part -->
   <DMSE_lathedeco.label>pieza giratoria</DMSE_lathedeco.label>
   <!-- EN: No description....yet. -->
@@ -260,6 +308,28 @@
   <DMSE_Building_LoiteringLauncher.label>riel de lanzamiento</DMSE_Building_LoiteringLauncher.label>
   <!-- EN: A simple tilted rail that holds one loitering munition. It needs no power and is cheap enough to line a perimeter with, but a single hit can destroy it.\n\nStrike munitions are launched at targets beyond the map. Interceptor munitions are fired automatically by the fire-control network. -->
   <DMSE_Building_LoiteringLauncher.description>Un riel inclinado simple para una sola munición merodeadora. No necesita energía y es tan barato que se puede llenar un perímetro con ellos, pero un solo impacto lo destruye.\n\nLas municiones de ataque se lanzan contra objetivos más allá del mapa. Las municiones interceptoras las dispara sola la red de control de tiro.</DMSE_Building_LoiteringLauncher.description>
+  <!-- EN: long-range cannon -->
+  <DMSE_Turret_Empero.label>cañón de largo alcance</DMSE_Turret_Empero.label>
+  <!-- EN: The NK-30 &quot;Empero&quot; is a heavy long-range cannon with an extremely high muzzle velocity. It shells distant targets with precision, suppressing enemy fire and destroying installations. At close range it fires reduced charges at low velocity for plunging fire, still with very high accuracy. When shelling a target on the world map, it keeps firing until stopped, out of power, or out of shells. Each shot uses one high-explosive mortar shell.\n\nUnguided shells scatter widely at long range and only land near the middle of the target area. If a fire-control radar that supports artillery guidance has a free channel when the gun fires, the shell is radar-guided onto enemy turrets, powered buildings or people in the area, and lands much closer to them. Each guided shell holds one channel for a while.\n\nCannot strike targets in high orbit across layers. -->
+  <DMSE_Turret_Empero.description>El NK-30 «Empero» es un cañón pesado de largo alcance con una velocidad de boca altísima. Bombardea con precisión objetivos lejanos, suprime el fuego enemigo y destruye instalaciones. A corta distancia dispara cargas reducidas a baja velocidad para hacer tiro curvo, también con una precisión muy alta. Cuando bombardea un objetivo en el mapa del mundo, sigue disparando hasta que lo detengan o se quede sin energía o sin obuses. Cada disparo gasta un obús explosivo.\n\nLos obuses sin guiado se dispersan mucho a gran distancia y solo caen cerca del centro de la zona objetivo. Si un radar de control de tiro compatible con el guiado de artillería tiene un canal libre cuando el cañón dispara, el obús se guía por radar hacia las torretas enemigas, los edificios con energía o las personas de la zona, y cae mucho más cerca de ellos. Cada obús guiado ocupa un canal durante un rato.\n\nNo puede atacar objetivos en órbita alta a través de capas.</DMSE_Turret_Empero.description>
+  <!-- EN: Shells -->
+  <DMSE_Turret_Empero.comps.CompRefuelable.fuelLabel>Obuses</DMSE_Turret_Empero.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Shells -->
+  <DMSE_Turret_Empero.comps.CompRefuelable.fuelGizmoLabel>Obuses</DMSE_Turret_Empero.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Cannot fire: no shells. -->
+  <DMSE_Turret_Empero.comps.CompRefuelable.outOfFuelMessage>No puede disparar: no hay obuses.</DMSE_Turret_Empero.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: NK-30 cannon (reduced charge) -->
+  <DMSE_Gun_Empero.label>cañón NK-30 (carga reducida)</DMSE_Gun_Empero.label>
+  <!-- EN: The main gun of the NK-30 Empero, firing reduced charges at low muzzle velocity for plunging fire on targets close by. -->
+  <DMSE_Gun_Empero.description>El cañón principal del NK-30 Empero, que dispara cargas reducidas a baja velocidad de boca para hacer tiro curvo contra objetivos cercanos.</DMSE_Gun_Empero.description>
+  <!-- EN: NK-30 cannon (reduced charge) -->
+  <DMSE_Gun_Empero.verbs.Verb_Shoot.label>cañón NK-30 (carga reducida)</DMSE_Gun_Empero.verbs.Verb_Shoot.label>
+  <!-- EN: reduced-charge shell -->
+  <DMSE_Bullet_Shell_EmperoReduced.label>obús de carga reducida</DMSE_Bullet_Shell_EmperoReduced.label>
+  <!-- EN: departing long-range shell -->
+  <DMSE_ArtilleryDeparture_Empero.label>obús de largo alcance (saliendo)</DMSE_ArtilleryDeparture_Empero.label>
+  <!-- EN: long-range shell -->
+  <DMSE_Bullet_Shell_Empero.label>obús de largo alcance</DMSE_Bullet_Shell_Empero.label>
   <!-- EN: phased-array radar -->
   <DMSE_PhaseArrayRadar.label>radar de matriz en fase</DMSE_PhaseArrayRadar.label>
   <!-- EN: A fixed phased-array radar that combines search and fire control. It can track and guide more than twenty missiles at once, in attack or defense, and serves as the core of an air-defense network.\n\nVery expensive, and draws a large share of a colony&apos;s power. -->
@@ -272,6 +342,10 @@
   <DMSE_SolarShield.label>dispositivo de protección solar</DMSE_SolarShield.label>
   <!-- EN: A massive magnetic field generator, widely used by the colonial fleet in automated orbital facilities, effectively shielding against incoming solar radiation, effectively protecting area from solar flares. -->
   <DMSE_SolarShield.description>Un enorme generador de campo magnético, muy usado por la flota colonial en las instalaciones orbitales automatizadas. Bloquea con eficacia la radiación solar entrante y protege la zona de las llamaradas solares.</DMSE_SolarShield.description>
+  <!-- EN: missile assembly bench -->
+  <DMSE_MissileAssemblyBench.label>banco de montaje de misiles</DMSE_MissileAssemblyBench.label>
+  <!-- EN: A two-by-four gantry where missiles are built from a bare airframe and the parts you choose. Finished missiles can wait on the bench for a launcher, or be sent to storage.\n\nTool cabinets and machine cabinets nearby speed up the work. Working outdoors or in uncomfortable temperatures slows it down. -->
+  <DMSE_MissileAssemblyBench.description>Un pórtico de dos por cuatro donde se arman misiles a partir de un fuselaje vacío y las partes que elijas. Los misiles terminados pueden esperar en el banco a un lanzador, o mandarse al almacén.\n\nLos gabinetes para herramientas y los gabinetes de máquinas cercanos aceleran el trabajo. Trabajar al aire libre o con temperaturas incómodas lo vuelve más lento.</DMSE_MissileAssemblyBench.description>
   <!-- EN: loitering munition rack -->
   <DMSE_LoiteringRack.label>soporte de municiones merodeadoras</DMSE_LoiteringRack.label>
   <!-- EN: A rack that holds loitering munitions. Stored munitions do not deteriorate. -->
@@ -478,7 +552,7 @@
   <DMSE_TantastenAlloy.description>Una aleación especial compuesta de tántalo y tungsteno. Es dura, resistente al desgaste y a la corrosión, y tiene un punto de fusión altísimo, de hasta 3080 °C, por lo que se usa mucho en las toberas de Laval de los motores cohete y en los propulsores de pulso de los mecas militares de alto rendimiento.\n\nEl tántalo se encuentra en cantidades mínimas en los asteroides y se puede extraer minando vaciorita. Su procesamiento y su producción se tienen que hacer en un ambiente de vacío, para evitar la contaminación por gases como el nitrógeno y el oxígeno. Por eso, los mundos capaces de producirlo y usarlo a gran escala suelen tener grandes plataformas industriales en órbita dedicadas a fabricar y procesar estos materiales.</DMSE_TantastenAlloy.description>
   <!-- EN: Graphene -->
   <DMSE_Graphene.label>grafeno</DMSE_Graphene.label>
-  <!-- EN: A single-layer carbon material produced by exfoliating graphite, it is the most widely used non-metallic material in the Midsphere World. Thanks to its excellent thermal conductivity and electrical properties, it is commonly employed in electronic components, beam emitters, and supercapacitors. \n\nGraphene itself demands extremely stringent production conditions and is often further processed into materials like carbon nanotubes or fullerenes. As a result, worlds capable of large-scale production and application typically possess massive industrial platforms in near-Earth orbit dedicated to manufacturing and processing these materials. -->
+  <!-- EN: A single-layer carbon material produced by exfoliating graphite, it is the most widely used non-metallic material in the Midworld. Thanks to its excellent thermal conductivity and electrical properties, it is commonly employed in electronic components, beam emitters, and supercapacitors. \n\nGraphene itself demands extremely stringent production conditions and is often further processed into materials like carbon nanotubes or fullerenes. As a result, worlds capable of large-scale production and application typically possess massive industrial platforms in near-Earth orbit dedicated to manufacturing and processing these materials. -->
   <DMSE_Graphene.description>Un material de carbono de una sola capa que se obtiene exfoliando grafito; es el material no metálico más usado en los mundomedios. Gracias a su excelente conductividad térmica y a sus propiedades eléctricas, se emplea habitualmente en componentes electrónicos, emisores de haces y supercondensadores.\n\nLa producción del grafeno exige condiciones extremadamente estrictas, y a menudo se sigue procesando para obtener materiales como los nanotubos de carbono o los fullerenos. Por eso, los mundos capaces de producirlo y usarlo a gran escala suelen tener enormes plataformas industriales en órbita baja dedicadas a fabricar y procesar estos materiales.</DMSE_Graphene.description>
   <!-- EN: carbon fiber -->
   <DMSE_Graphene.stuffProps.stuffAdjective>fibra de carbono</DMSE_Graphene.stuffProps.stuffAdjective>
@@ -500,12 +574,14 @@
   <DMSE_Missile_Grison.description>Un misil antiaéreo de corto alcance para torretas de defensa antiaérea de campaña, dirigido a su objetivo por mando de radio.</DMSE_Missile_Grison.description>
   <!-- EN: man-portable SAM launcher -->
   <DMSE_Apparel_SamLauncher.label>lanzador de misiles tierra-aire portátil</DMSE_Apparel_SamLauncher.label>
-  <!-- EN: A shoulder-fired anti-air launcher with a simple friend-or-foe antenna and a helmet-linked sight. It is carried on the back, leaving the hands free for a main weapon. The user must stand still to lock on.\n\nLoad with light surface-to-air missiles. It fires at incoming threats already tracked by your radar network on this map, and needs no fire-control channel. -->
-  <DMSE_Apparel_SamLauncher.description>Un lanzador antiaéreo que se dispara al hombro, con una antena sencilla de identificación amigo-enemigo y una mira conectada al casco. Se lleva a la espalda y deja las manos libres para un arma principal. Mientras fija el blanco, no se puede mover.\n\nSe carga con misiles tierra-aire ligeros. Dispara contra las amenazas entrantes que tu red de radares ya sigue en este mapa, y no necesita un canal de control de tiro.</DMSE_Apparel_SamLauncher.description>
+  <!-- EN: A shoulder-fired anti-air launcher with a simple friend-or-foe antenna and a helmet-linked sight. It is carried on the back, leaving the hands free for a main weapon. The user must stand still to lock on.\n\nLoad with light surface-to-air missiles. It fires at incoming threats already tracked by your radar network on this map, and needs no fire-control channel.\n\nIt can also be loaded by hand with Sabre light loitering munitions, which it fires only at ground targets, with a much longer reach. -->
+  <DMSE_Apparel_SamLauncher.description>Un lanzador antiaéreo que se dispara al hombro, con una antena sencilla de identificación amigo-enemigo y una mira conectada al casco. Se lleva a la espalda y deja las manos libres para un arma principal. Mientras fija el blanco, no se puede mover.\n\nSe carga con misiles tierra-aire ligeros. Dispara contra las amenazas entrantes que tu red de radares ya sigue en este mapa, y no necesita un canal de control de tiro.\n\nTambién se puede cargar a mano con municiones merodeadoras ligeras Sabre, que dispara solo contra objetivos terrestres y con un alcance mucho mayor.</DMSE_Apparel_SamLauncher.description>
   <!-- EN: missile -->
   <DMSE_Apparel_SamLauncher.comps.CompManPortableSAM.chargeNoun>misil</DMSE_Apparel_SamLauncher.comps.CompManPortableSAM.chargeNoun>
   <!-- EN: fire missile -->
-  <DMSE_Apparel_SamLauncher.verbs.Verb_LaunchProjectile.label>disparar misil</DMSE_Apparel_SamLauncher.verbs.Verb_LaunchProjectile.label>
+  <DMSE_Apparel_SamLauncher.verbs.Verb_LaunchManPortableMissile-0.label>disparar misil</DMSE_Apparel_SamLauncher.verbs.Verb_LaunchManPortableMissile-0.label>
+  <!-- EN: launch loitering munition -->
+  <DMSE_Apparel_SamLauncher.verbs.Verb_LaunchManPortableMissile-1.label>lanzar munición merodeadora</DMSE_Apparel_SamLauncher.verbs.Verb_LaunchManPortableMissile-1.label>
   <!-- EN: light surface-to-air missile -->
   <DMSE_Projectile_Stinger.label>misil tierra-aire ligero</DMSE_Projectile_Stinger.label>
   <!-- EN: Uniform Cap -->
@@ -604,14 +680,24 @@
   <DMSE_Modular_PDW.tools.3.label>cañón</DMSE_Modular_PDW.tools.3.label>
   <!-- EN: caseless defense firearm -->
   <DMSE_Modular_PDW.verbs.Verb_Shoot.label>arma de defensa sin vaina</DMSE_Modular_PDW.verbs.Verb_Shoot.label>
+  <!-- EN: A long caseless cartridge with a solid propellant enveloping the slim projectile. -->
+  <Ammo_5x50mmCaseless_FMJ.description>Cartucho largo sin vaina, con un propelente sólido que envuelve el delgado proyectil.</Ammo_5x50mmCaseless_FMJ.description>
   <!-- EN: 5x50mm Caseless (FMJ) -->
   <Ammo_5x50mmCaseless_FMJ.label>5x50mm sin vaina (FMJ)</Ammo_5x50mmCaseless_FMJ.label>
+  <!-- EN: A long caseless cartridge with a solid propellant enveloping the slim projectile. -->
+  <Ammo_5x50mmCaseless_AP.description>Cartucho largo sin vaina, con un propelente sólido que envuelve el delgado proyectil.</Ammo_5x50mmCaseless_AP.description>
   <!-- EN: 5x50mm Caseless (AP) -->
   <Ammo_5x50mmCaseless_AP.label>5x50mm sin vaina (AP)</Ammo_5x50mmCaseless_AP.label>
+  <!-- EN: A long caseless cartridge with a solid propellant enveloping the slim projectile. -->
+  <Ammo_5x50mmCaseless_HP.description>Cartucho largo sin vaina, con un propelente sólido que envuelve el delgado proyectil.</Ammo_5x50mmCaseless_HP.description>
   <!-- EN: 5x50mm Caseless (HP) -->
   <Ammo_5x50mmCaseless_HP.label>5x50mm sin vaina (HP)</Ammo_5x50mmCaseless_HP.label>
+  <!-- EN: A long caseless cartridge with a solid propellant enveloping the slim projectile. -->
+  <Ammo_5x50mmCaseless_Incendiary.description>Cartucho largo sin vaina, con un propelente sólido que envuelve el delgado proyectil.</Ammo_5x50mmCaseless_Incendiary.description>
   <!-- EN: 5x50mm Caseless (AP-I) -->
   <Ammo_5x50mmCaseless_Incendiary.label>5x50mm sin vaina (AP-I)</Ammo_5x50mmCaseless_Incendiary.label>
+  <!-- EN: A long caseless cartridge with a solid propellant enveloping the slim projectile. -->
+  <Ammo_5x50mmCaseless_HE.description>Cartucho largo sin vaina, con un propelente sólido que envuelve el delgado proyectil.</Ammo_5x50mmCaseless_HE.description>
   <!-- EN: 5x50mm Caseless (AP-HE) -->
   <Ammo_5x50mmCaseless_HE.label>5x50mm sin vaina (AP-HE)</Ammo_5x50mmCaseless_HE.label>
   <!-- EN: 5x50mm Caseless bullet(cook-off) -->
