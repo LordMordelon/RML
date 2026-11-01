@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Settings -->
+  <tab.settings>Configuración</tab.settings>
+  <!-- EN: Tick -->
+  <tab.tick>Tick</tab.tick>
+  <!-- EN: Update -->
+  <tab.update>Actualización</tab.update>
+  <!-- EN: GUI -->
+  <tab.gui>Interfaz</tab.gui>
+  <!-- EN: Modder -->
+  <tab.modder>Modder</tab.modder>
+  <!-- EN: Enable and disable optional settings which effect which information is displayed -->
+  <tab.settings.desc>Activa y desactiva las opciones que cambian la información que se muestra</tab.settings.desc>
+  <!-- EN: Methods which are tick based -->
+  <tab.tick.desc>Métodos que corren por tick</tab.tick.desc>
+  <!-- EN: Methods which are update based -->
+  <tab.update.desc>Métodos que corren en cada actualización</tab.update.desc>
+  <!-- EN: Methods which are run on gui -->
+  <tab.gui.desc>Métodos que corren en la interfaz (GUI)</tab.gui.desc>
+  <!-- EN: Methods which have been added by modders via Analyzer.xml -->
+  <tab.modder.desc>Métodos que los modders agregaron con Analyzer.xml</tab.modder.desc>
+  <!-- EN: Overrides -->
+  <settings.Overrides>Reemplazos</settings.Overrides>
+  <!-- EN: Disabling -->
+  <settings.Disabling>Desactivar</settings.Disabling>
+  <!-- EN: Optimizations -->
+  <settings.Optimizations>Optimizaciones</settings.Optimizations>
+  <!-- EN: Performance Options -->
+  <settings.performance>Opciones de rendimiento</settings.performance>
+  <!-- EN: Developer Options -->
+  <settings.developer>Opciones de desarrollador</settings.developer>
+  <!-- EN: Analyzer Wiki -->
+  <settings.wiki>Wiki de Analyzer</settings.wiki>
+  <!-- EN: Dubs Discord -->
+  <settings.discord>Discord de Dubs</settings.discord>
+  <!-- EN: Path to Dnspy (Including the Exe) -->
+  <settings.dnspy>Ruta de dnSpy (con el .exe)</settings.dnspy>
+  <!-- EN: Stat updates per second -->
+  <settings.ups>Actualizaciones de estadísticas por segundo</settings.ups>
+  <!-- EN: Verbose Logging -->
+  <settings.logging>Registro detallado</settings.logging>
+  <!-- EN: Disable FPS and TPS Counter -->
+  <settings.disable.tps.counter>Desactivar el contador de FPS y TPS</settings.disable.tps.counter>
+  <!-- EN: Disable automatic cleanup -->
+  <settings.disable.cleanup>Desactivar la limpieza automática</settings.disable.cleanup>
+  <!-- EN: Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting &apos;Cleanup&apos; -->
+  <settings.disable.cleanup.desc>NO lo hagas si no sabes lo que haces. Impide que Analyzer limpie solo lo que deja. Puedes forzar una limpieza inmediata haciendo clic derecho en el botón de su pestaña del menú y eligiendo «Cleanup»</settings.disable.cleanup.desc>
+  <!-- EN: Enable log without debug mode -->
+  <settings.enable.debug.log>Activar el registro sin el modo desarrollador</settings.enable.debug.log>
+  <!-- EN: Show the main tab icon on the bottom bar -->
+  <settings.show.icon>Mostrar el icono de la pestaña principal en la barra inferior</settings.show.icon>
+  <!-- EN: Show methods in analyzer using long-form names (includes params) -->
+  <settings.long.form.names>Mostrar los métodos con su nombre completo (con los parámetros)</settings.long.form.names>
+  <!-- EN: Disable multi-threaded patching, may prevent issues with assembly patching. -->
+  <settings.disable.threading>Desactivar el parcheo en varios hilos; puede evitar problemas al parchear ensamblados.</settings.disable.threading>
+  <!-- EN: Profile -->
+  <devoptions.heading>Perfilar</devoptions.heading>
+  <!-- EN: Method -->
+  <devoptions.input.method>Método</devoptions.input.method>
+  <!-- EN: Method Internals -->
+  <devoptions.input.methodinternal>Internos del método</devoptions.input.methodinternal>
+  <!-- EN: Method Harmony -->
+  <devoptions.input.methodharmony>Harmony del método</devoptions.input.methodharmony>
+  <!-- EN: Type -->
+  <devoptions.input.type>Tipo</devoptions.input.type>
+  <!-- EN: Subclass of Type -->
+  <devoptions.input.subclasses>Subclases del tipo</devoptions.input.subclasses>
+  <!-- EN: Type Harmony -->
+  <devoptions.input.typeharmony>Harmony del tipo</devoptions.input.typeharmony>
+  <!-- EN: Assembly -->
+  <devoptions.input.assembly>Ensamblado</devoptions.input.assembly>
+  <!-- EN: Tick -->
+  <devoptions.patchtype.tick>Tick</devoptions.patchtype.tick>
+  <!-- EN: Update -->
+  <devoptions.patchtype.update>Actualización</devoptions.patchtype.update>
+  <!-- EN: Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching -->
+  <top.pause.analyzer>Pausa o reanuda el perfilado del analizador; no equivale a quitar los parches</top.pause.analyzer>
+  <!-- EN: Refresh the list of logs -->
+  <top.refresh>Actualiza la lista de registros</top.refresh>
+  <!-- EN: Search by name or time to filter which entries show -->
+  <top.search>Busca por nombre o tiempo para filtrar las entradas que se muestran</top.search>
+  <!-- EN: This will show a rough estimate of the memory consumed and thrown away at a given time -->
+  <top.gc.tip>Muestra una estimación aproximada de la memoria que se ocupa y se descarta en un momento dado</top.gc.tip>
+  <!-- EN: This will show your calculated frames per second -->
+  <top.fps.tip>Muestra los fotogramas por segundo calculados</top.fps.tip>
+  <!-- EN: This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x -->
+  <top.tps.tip>Muestra los ticks por segundo. El tick es la unidad con que el juego mide el paso del tiempo; puede haber varios por segundo, y el juego apunta a 60 TPS a velocidad 1x</top.tps.tip>
+  <!-- EN: Max -->
+  <logs.max>Máx.</logs.max>
+  <!-- EN: Average -->
+  <logs.av>Promedio</logs.av>
+  <!-- EN: Avg -->
+  <logs.avpu>Prom.</logs.avpu>
+  <!-- EN: Percent -->
+  <logs.percent>Porcentaje</logs.percent>
+  <!-- EN: Per Call -->
+  <logs.avpc>Por llamada</logs.avpc>
+  <!-- EN: Total Calls -->
+  <logs.calls>Llamadas totales</logs.calls>
+  <!-- EN: Name -->
+  <logs.name>Nombre</logs.name>
+  <!-- EN: Total -->
+  <logs.total>Total</logs.total>
+  <!-- EN: Calls -->
+  <logs.callspu>Llamadas</logs.callspu>
+  <!-- EN: Max -->
+  <logs.maxpu>Máx.</logs.maxpu>
+  <!-- EN: Frame -->
+  <dpa.frame>Fotograma</dpa.frame>
+  <!-- EN: The most time the method took in a single tick or frame, in milliseconds, within the samples shown at the top. -->
+  <logs.max.desc>El mayor tiempo que tomó el método en un solo tick o fotograma, en milisegundos, dentro de las muestras que se ven arriba.</logs.max.desc>
+  <!-- EN: Average time per tick or frame, in milliseconds, over the samples shown at the top. Includes the profiled methods it calls. -->
+  <logs.av.desc>Tiempo promedio por tick o fotograma, en milisegundos, en las muestras que se ven arriba. Incluye los métodos perfilados que llama.</logs.av.desc>
+  <!-- EN: The method&apos;s share of the root shown at the top, averaged over the same samples. Includes the profiled methods it calls. The bar under each row shows its own time solid and the rest faded, in the same colour as the bar at the top. -->
+  <logs.percent.desc>La parte de la raíz de arriba que ocupa el método, promediada sobre las mismas muestras. Incluye los métodos perfilados que llama. La barra bajo cada fila muestra su tiempo propio en sólido y el resto atenuado, del mismo color que la barra de arriba.</logs.percent.desc>
+  <!-- EN: Average time of a single call, in microseconds (us). -->
+  <logs.avpc.desc>Tiempo promedio de una sola llamada, en microsegundos (us).</logs.avpc.desc>
+  <!-- EN: Total number of calls over the samples shown at the top. -->
+  <logs.calls.desc>Número total de llamadas en las muestras que se ven arriba.</logs.calls.desc>
+  <!-- EN: The profiled method. A small square before the name is a spike flag; hover the name to see what it means. -->
+  <logs.name.desc>El método perfilado. Un cuadradito antes del nombre marca un pico; pasa el cursor sobre el nombre para ver qué significa.</logs.name.desc>
+  <!-- EN: Total time over all the samples shown at the top, in milliseconds. -->
+  <logs.total.desc>Tiempo total en todas las muestras que se ven arriba, en milisegundos.</logs.total.desc>
+  <!-- EN: Average number of calls per {0}. -->
+  <logs.callspu.desc>Número promedio de llamadas por {0}.</logs.callspu.desc>
+  <!-- EN: Mod Name -->
+  <panel.mod.name>Nombre del mod</panel.mod.name>
+  <!-- EN: Patch Type -->
+  <panel.patch.type>Tipo de parche</panel.patch.type>
+  <!-- EN: Open in Github -->
+  <panel.opengithub>Abrir en GitHub</panel.opengithub>
+  <!-- EN: Open in Dnspy (requires the local path to be set) -->
+  <panel.opendnspy>Abrir en dnSpy (requiere configurar la ruta local)</panel.opendnspy>
+  <!-- EN: Colonist Bar OnGUI -->
+  <entry.gui.colonistbar>Barra de colonos (OnGUI)</entry.gui.colonistbar>
+  <!-- EN: The colonist bar along the top of the screen -->
+  <entry.gui.colonistbar.tooltip>La barra de colonos en la parte superior de la pantalla</entry.gui.colonistbar.tooltip>
+  <!-- EN: Do Tabs -->
+  <entry.gui.dotabs>Pestañas (DoTabs)</entry.gui.dotabs>
+  <!-- EN: The inspect pane which opens up upon selecting a thing -->
+  <entry.gui.dotabs.tooltip>El panel de inspección que se abre al seleccionar algo</entry.gui.dotabs.tooltip>
+  <!-- EN: Game Component OnGUI -->
+  <entry.gui.gamecomponent>Componentes de juego (OnGUI)</entry.gui.gamecomponent>
+  <!-- EN: The GUI methods for each gamecomponent -->
+  <entry.gui.gamecomponent.tooltip>Los métodos de interfaz de cada GameComponent</entry.gui.gamecomponent.tooltip>
+  <!-- EN: Resource Readout OnGUI -->
+  <entry.gui.resourcereadout>Lista de recursos (OnGUI)</entry.gui.resourcereadout>
+  <!-- EN: The UI function for the resource readout on the left of the screen -->
+  <entry.gui.resourcereadout.tooltip>La función de interfaz de la lista de recursos, a la izquierda de la pantalla</entry.gui.resourcereadout.tooltip>
+  <!-- EN: UI Root OnGUI -->
+  <entry.gui.uiroot>UIRoot (OnGUI)</entry.gui.uiroot>
+  <!-- EN: A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot -->
+  <entry.gui.uiroot.tooltip>Varios métodos OnGUI de distintos tipos, entre ellos: UIRoot_Play, WindowStack, AlertsReadout y MainButtonsRoot</entry.gui.uiroot.tooltip>
+  <!-- EN: Window Stack OnGUI -->
+  <entry.gui.windowstack>Pila de ventanas (OnGUI)</entry.gui.windowstack>
+  <!-- EN: The OnGUI method for the window stack, should show profiling for all active windows -->
+  <entry.gui.windowstack.tooltip>El método OnGUI de la pila de ventanas; debería mostrar el perfilado de todas las ventanas abiertas</entry.gui.windowstack.tooltip>
+  <!-- EN: ThingOverlayONGUI -->
+  <entry.gui.thingoverlay.ongui>Superposición de objetos (OnGUI)</entry.gui.thingoverlay.ongui>
+  <!-- EN: Thing overlay ONGUI  -->
+  <entry.gui.thingoverlay.ongui.tooltip>OnGUI de la superposición de objetos</entry.gui.thingoverlay.ongui.tooltip>
+  <!-- EN: Job Drivers -->
+  <entry.tick.jobdriver>Job Drivers</entry.tick.jobdriver>
+  <!-- EN: A breakdown of what is occuring in each job as it is being executed by a pawn -->
+  <entry.tick.jobdriver.tooltip>Un desglose de lo que ocurre en cada trabajo mientras un individuo lo ejecuta</entry.tick.jobdriver.tooltip>
+  <!-- EN: Single Tick -->
+  <entry.tick.single>Tick simple</entry.tick.single>
+  <!-- EN: A variety of tick methods, including; World, History, FilthMonitor, Storyteller -->
+  <entry.tick.single.tooltip>Varios métodos de tick, entre ellos: World, History, FilthMonitor y Storyteller</entry.tick.single.tooltip>
+  <!-- EN: Thing Comps -->
+  <entry.tick.thingcomp>Comps de objetos</entry.tick.thingcomp>
+  <!-- EN: Thing comps, these can be added to any ThingWithComp, this collects them all into one category -->
+  <entry.tick.thingcomp.tooltip>Los comps de objetos, que se pueden agregar a cualquier ThingWithComp; esta categoría los reúne a todos</entry.tick.thingcomp.tooltip>
+  <!-- EN: Pathfinding -->
+  <entry.tick.pathfinder>Búsqueda de caminos</entry.tick.pathfinder>
+  <!-- EN: Shows a variety of methods which are used in pathfinding -->
+  <entry.tick.pathfinder.tooltip>Muestra varios métodos que se usan en la búsqueda de caminos</entry.tick.pathfinder.tooltip>
+  <!-- EN: Game Component Tick -->
+  <entry.tick.gamecomponent>Componentes de juego (Tick)</entry.tick.gamecomponent>
+  <!-- EN: The Tick methods for each gamecomponent -->
+  <entry.tick.gamecomponent.tooltip>Los métodos Tick de cada GameComponent</entry.tick.gamecomponent.tooltip>
+  <!-- EN: Lords -->
+  <entry.tick.lord>Lords</entry.tick.lord>
+  <!-- EN: Lords are used for group AI, like weddings, raids, traders etc -->
+  <entry.tick.lord.tooltip>Los lords son la IA de grupo: bodas, asaltos, comerciantes, etc.</entry.tick.lord.tooltip>
+  <!-- EN: Statistics -->
+  <entry.tick.stats>Estadísticas</entry.tick.stats>
+  <!-- EN: A variety of methods which are used to calculate and looking up stat-based values -->
+  <entry.tick.stats.tooltip>Varios métodos que calculan y consultan valores basados en estadísticas</entry.tick.stats.tooltip>
+  <!-- EN: Map Component Tick -->
+  <entry.tick.mapcomponent>Componentes de mapa (Tick)</entry.tick.mapcomponent>
+  <!-- EN: The Tick method for Map Components -->
+  <entry.tick.mapcomponent.tooltip>El método Tick de los MapComponent</entry.tick.mapcomponent.tooltip>
+  <!-- EN: Needs -->
+  <entry.tick.needs>Necesidades</entry.tick.needs>
+  <!-- EN: Shows a variety of methods which are used in Needs calculations -->
+  <entry.tick.needs.tooltip>Muestra varios métodos que se usan para calcular las necesidades</entry.tick.needs.tooltip>
+  <!-- EN: Pawn Generation -->
+  <entry.tick.pawngen>Generación de individuos</entry.tick.pawngen>
+  <!-- EN: Shows methods around PawnGen and generation of pawns for raids  -->
+  <entry.tick.pawngen.tooltip>Muestra los métodos de PawnGen y de la generación de individuos para los asaltos</entry.tick.pawngen.tooltip>
+  <!-- EN: Pawn Tick -->
+  <entry.tick.pawn>Tick de individuos</entry.tick.pawn>
+  <!-- EN: The variety of methods which are called on Pawn:Tick, including a variety of trackers -->
+  <entry.tick.pawn.tooltip>Los métodos que se llaman en Pawn:Tick, entre ellos varios trackers</entry.tick.pawn.tooltip>
+  <!-- EN: Rooms -->
+  <entry.tick.room>Habitaciones</entry.tick.room>
+  <!-- EN: The method which is responsible for the updating of room stats -->
+  <entry.tick.room.tooltip>El método que actualiza las estadísticas de las habitaciones</entry.tick.room.tooltip>
+  <!-- EN: Storyteller and Incidents -->
+  <entry.tick.storyteller>Cuentacuentos e incidentes</entry.tick.storyteller>
+  <!-- EN: A variety of methods relating to both incident and quest generation -->
+  <entry.tick.storyteller.tooltip>Varios métodos de la generación de incidentes y de misiones</entry.tick.storyteller.tooltip>
+  <!-- EN: ThinkNodes -->
+  <entry.tick.thinknodes>ThinkNodes</entry.tick.thinknodes>
+  <!-- EN: ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab -->
+  <entry.tick.thinknodes.tooltip>Los ThinkNodes son, básicamente, grupos de JobGivers generales filtrados en un árbol de IA: satisfacer necesidades, mejorar la vestimenta, huir… Todo el trabajo se junta en un solo JobGiver_Work, que se puede perfilar por partes en la pestaña Work Giver</entry.tick.thinknodes.tooltip>
+  <!-- EN: Tick Things -->
+  <entry.tick.things>Tick de objetos</entry.tick.things>
+  <!-- EN: Profiles the ticking methods of various things on the map -->
+  <entry.tick.things.tooltip>Perfila los métodos de tick de varios objetos del mapa</entry.tick.things.tooltip>
+  <!-- EN: Job Giver -->
+  <entry.tick.jobgiver>Job Giver</entry.tick.jobgiver>
+  <!-- EN: All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc -->
+  <entry.tick.jobgiver.tooltip>Todos los trabajos que se buscan a mano en el árbol de pensamiento (ThinkTree) del individuo, como satisfacer necesidades, huir del peligro, mejorar la vestimenta puesta, etc.</entry.tick.jobgiver.tooltip>
+  <!-- EN: Work Giver -->
+  <entry.tick.workgiver>Work Giver</entry.tick.workgiver>
+  <!-- EN: Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab -->
+  <entry.tick.workgiver.tooltip>Work Giver son solo los trabajos de la pestaña Trabajo. No incluye los que corre la IA para cosas como satisfacer necesidades o mejorar la vestimenta: esos están en la pestaña ThinkNodes</entry.tick.workgiver.tooltip>
+  <!-- EN: World Tick -->
+  <entry.tick.world>Tick del mundo</entry.tick.world>
+  <!-- EN: Tick methods for various world entries, such as; WorldPawns, Factions, Caravans -->
+  <entry.tick.world.tooltip>Métodos de tick de varias partes del mundo, como WorldPawns, facciones y caravanas</entry.tick.world.tooltip>
+  <!-- EN: Alerts -->
+  <entry.update.alert>Alertas</entry.update.alert>
+  <!-- EN: The recalculate and draw methods for Alerts -->
+  <entry.update.alert.tooltip>Los métodos que recalculan y dibujan las alertas</entry.update.alert.tooltip>
+  <!-- EN: Draw Dynamic Things -->
+  <entry.update.dynamicdraw>Dibujo de objetos dinámicos</entry.update.dynamicdraw>
+  <!-- EN: The draw method for things which are drawn via the DynamicDrawManager -->
+  <entry.update.dynamicdraw.tooltip>El método de dibujo de los objetos que se dibujan con el DynamicDrawManager</entry.update.dynamicdraw.tooltip>
+  <!-- EN: Game Component Update -->
+  <entry.update.gamecomponent>Componentes de juego (Update)</entry.update.gamecomponent>
+  <!-- EN: The Update method for each gamecomponent -->
+  <entry.update.gamecomponent.tooltip>El método Update de cada GameComponent</entry.update.gamecomponent.tooltip>
+  <!-- EN: Harmony Patches -->
+  <entry.update.harmonypatches>Parches de Harmony</entry.update.harmonypatches>
+  <!-- EN: Harmony patches added by mods (Prefixes and Postfixes only) -->
+  <entry.update.harmonypatches.tooltip>Parches de Harmony agregados por mods (solo Prefix y Postfix)</entry.update.harmonypatches.tooltip>
+  <!-- EN: Harmony Transpilers -->
+  <entry.update.harmonytranspilers>Transpilers de Harmony</entry.update.harmonytranspilers>
+  <!-- EN: Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it -->
+  <entry.update.harmonytranspilers.tooltip>Muestra un perfilado semipreciso de todos los transpilers de Harmony; la wiki tiene un artículo que lo explica en detalle</entry.update.harmonytranspilers.tooltip>
+  <!-- EN: Info Card -->
+  <entry.update.infocard>Ventana de información</entry.update.infocard>
+  <!-- EN: A variety of methods which relate to info panels, including stats, and gui methods -->
+  <entry.update.infocard.tooltip>Varios métodos de los paneles de información, entre ellos las estadísticas y los de interfaz</entry.update.infocard.tooltip>
+  <!-- EN: Map Component Update -->
+  <entry.update.mapcomponent>Componentes de mapa (Update)</entry.update.mapcomponent>
+  <!-- EN: The Update method for Map Components -->
+  <entry.update.mapcomponent.tooltip>El método Update de los MapComponent</entry.update.mapcomponent.tooltip>
+  <!-- EN: Harmony Transpiled Methods -->
+  <entry.update.transpilermethods>Métodos con transpilers de Harmony</entry.update.transpilermethods>
+  <!-- EN: Profiles entire methods that have transpiler patches, doesn&apos;t show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it -->
+  <entry.update.transpilermethods.tooltip>Perfila métodos enteros que tienen parches transpiler. No muestra el impacto de cada cambio por separado, solo el del método completo. Un transpiler puede cambiar cuántas veces corre parte del código de un método, no solo llamar a métodos extra. Sirve para comparar cómo corre un método antes y después de agregar un mod que lo parchea</entry.update.transpilermethods.tooltip>
+  <!-- EN: Draw Printed Things -->
+  <entry.update.sectionlayer.thingsdrawlayer>Dibujo de objetos impresos</entry.update.sectionlayer.thingsdrawlayer>
+  <!-- EN: Profile how long each thing takes to print -->
+  <entry.update.sectionlayer.thingsdrawlayer.tooltip>Perfila cuánto tarda en imprimirse cada objeto</entry.update.sectionlayer.thingsdrawlayer.tooltip>
+  <!-- EN: Sections -->
+  <entry.update.sections>Secciones</entry.update.sections>
+  <!-- EN: Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones) -->
+  <entry.update.sections.tooltip>Muestra el método que regenera las SectionLayer (como la nieve, las sombras del sol o las zonas)</entry.update.sections.tooltip>
+  <!-- EN: Pawn Renderer -->
+  <entry.update.pawnrenderer>Renderizado de individuos</entry.update.pawnrenderer>
+  <!-- EN: Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel -->
+  <entry.update.pawnrenderer.tooltip>Muestra la función PawnRenderer, que dibuja a los individuos y su vestimenta</entry.update.pawnrenderer.tooltip>
+  <!-- EN: Root -->
+  <entry.update.root>Raíz</entry.update.root>
+  <!-- EN: Various root methods -->
+  <entry.update.root.tooltip>Varios métodos raíz</entry.update.root.tooltip>
+  <!-- EN: Section Layer Things -->
+  <entry.update.sectionlayerthings>Objetos de SectionLayer</entry.update.sectionlayerthings>
+  <!-- EN: More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function -->
+  <entry.update.sectionlayerthings.tooltip>Un perfilado más a fondo de las SectionLayer, con la creación de mallas y la función TakePrintFrom</entry.update.sectionlayerthings.tooltip>
+  <!-- EN: MapDrawer -->
+  <entry.update.mapdrawer>MapDrawer</entry.update.mapdrawer>
+  <!-- EN: Draw method on each map section layer -->
+  <entry.update.mapdrawer.tooltip>El método de dibujo de cada SectionLayer del mapa</entry.update.mapdrawer.tooltip>
+  <!-- EN: Shooting and Combat -->
+  <entry.update.shooting>Disparos y combate</entry.update.shooting>
+  <!-- EN: Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc -->
+  <entry.update.shooting.tooltip>Muestra varios métodos de combate y disparos, entre ellos los verbs, las torretas y los proyectiles</entry.update.shooting.tooltip>
+  <!-- EN: UI Root Update -->
+  <entry.update.uiroot>UIRoot (Update)</entry.update.uiroot>
+  <!-- EN: A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor -->
+  <entry.update.uiroot.tooltip>Varios métodos de actualización de la interfaz, como AlertsReadout, Messages y Tutor</entry.update.uiroot.tooltip>
+  <!-- EN: Thought Workers -->
+  <entry.update.thoughtworker>Thought Workers</entry.update.thoughtworker>
+  <!-- EN: Thought Workers, these drive the updates of pawns thoughts -->
+  <entry.update.thoughtworker.tooltip>Los ThoughtWorker, que actualizan los pensamientos de los individuos</entry.update.thoughtworker.tooltip>
+  <!-- EN: Frame times -->
+  <entry.update.frametimes>Tiempos de fotograma</entry.update.frametimes>
+  <!-- EN: Shows entries which correlate to the frame times of your game (how long does each frame take to complete) -->
+  <entry.update.frametimes.tooltip>Muestra entradas relacionadas con los tiempos de fotograma del juego (cuánto tarda en completarse cada fotograma)</entry.update.frametimes.tooltip>
+  <!-- EN: Custom Update -->
+  <entry.update.custom>Actualización personalizada</entry.update.custom>
+  <!-- EN: Custom Profiled methods in the update category -->
+  <entry.update.custom.tooltip>Métodos perfilados a medida en la categoría de actualización</entry.update.custom.tooltip>
+  <!-- EN: Custom Tick -->
+  <entry.tick.custom>Tick personalizado</entry.tick.custom>
+  <!-- EN: Custom Profiled methods in the tick category -->
+  <entry.tick.custom.tooltip>Métodos perfilados a medida en la categoría de tick</entry.tick.custom.tooltip>
+  <!-- EN: Fix Everything -->
+  <FixEverything>Arreglar todo</FixEverything>
+  <!-- EN: Disable Alerts individually -->
+  <performance.alertsoverride>Desactivar alertas una por una</performance.alertsoverride>
+  <!-- EN: Choose to disable expensive alerts -->
+  <performance.alertsoverride.tooltip>Elige qué alertas costosas desactivar</performance.alertsoverride.tooltip>
+  <!-- EN: Disable all Alerts -->
+  <performance.alertsdisable>Desactivar todas las alertas</performance.alertsdisable>
+  <!-- EN: Disable all alerts -->
+  <performance.alertsdisable.tooltip>Desactiva todas las alertas</performance.alertsdisable.tooltip>
+  <!-- EN: Improve the speed of rendering for snow -->
+  <performance.sectionlayersnow>Acelerar el dibujo de la nieve</performance.sectionlayersnow>
+  <!-- EN: Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour -->
+  <performance.sectionlayersnow.tooltip>Reemplaza un Mathf.Lerp por una multiplicación de bytes en el cálculo del color de la nieve</performance.sectionlayersnow.tooltip>
+  <!-- EN: Remove some stutters for raid AI -->
+  <performance.lordnotifydamage>Quitar tirones de la IA de los asaltos</performance.lordnotifydamage>
+  <!-- EN: Removes a redundant damage-notification check from the Lord toils &apos;LordToil_AssaultColony&apos; and &apos;LordToil_AssaultColonySappers&apos; -->
+  <performance.lordnotifydamage.tooltip>Quita una comprobación de daño redundante de los LordToil «LordToil_AssaultColony» y «LordToil_AssaultColonySappers»</performance.lordnotifydamage.tooltip>
+  <!-- EN: Disable in-game music -->
+  <performance.killaudio>Desactivar la música del juego</performance.killaudio>
+  <!-- EN: Prevent music player bugs by destructively prefixing the &apos;MusicManagerPlay:MusicUpdate&apos; function -->
+  <performance.killaudio.tooltip>Evita errores del reproductor de música con un prefijo destructivo sobre la función «MusicManagerPlay:MusicUpdate»</performance.killaudio.tooltip>
+  <!-- EN: Optimize the repair job -->
+  <performance.buildingrepair>Optimizar el trabajo de reparación</performance.buildingrepair>
+  <!-- EN: Removes objects that are not repairable or do not have hitpoints (which the Type &apos;ListerBuildingsRepairable&apos; does not filter out) -->
+  <performance.buildingrepair.tooltip>Quita los objetos que no se pueden reparar o que no tienen puntos de vida (que el tipo «ListerBuildingsRepairable» no filtra)</performance.buildingrepair.tooltip>
+  <!-- EN: Optimize roof jobgiver -->
+  <performance.roof>Optimizar el JobGiver de techos</performance.roof>
+  <!-- EN: Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed -->
+  <performance.roof.tooltip>Guarda en caché cuándo se quitan techos o hay que reponerlos, y evita que el JobGiver corra si nada cambió</performance.roof.tooltip>
+  <!-- EN: Optimize drawing for walls and conduits -->
+  <performance.wallsnconduits>Optimizar el dibujo de muros y conductos</performance.wallsnconduits>
+  <!-- EN: Set the mesh draw type for walls and conduits to &apos;MapMeshOnly&apos; -->
+  <performance.wallsnconduits.tooltip>Cambia el tipo de dibujo de malla de los muros y conductos a «MapMeshOnly»</performance.wallsnconduits.tooltip>
+  <!-- EN: Optimize deep drills -->
+  <performance.compdeepdrill>Optimizar los taladros de profundidad</performance.compdeepdrill>
+  <!-- EN: Skips a check for the &apos;correct&apos; stone under a drill, improves performance of drills when using pawns with high mining -->
+  <performance.compdeepdrill.tooltip>Se salta la comprobación de la piedra «correcta» bajo el taladro; mejora el rendimiento de los taladros con individuos de minería alta</performance.compdeepdrill.tooltip>
+  <!-- EN: Cache ComfortableTemperatureRange -->
+  <performance.tempcache>Caché de ComfortableTemperatureRange</performance.tempcache>
+  <!-- EN: Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding -->
+  <performance.tempcache.tooltip>Guarda el rango de temperatura segura una vez por tick, lo que reduce la carga de CPU de consultarlo sin parar para cosas como la búsqueda de caminos</performance.tempcache.tooltip>
+  <!-- EN: Reduce stutters while panning -->
+  <performance.zoom>Reducir los tirones al desplazar la cámara</performance.zoom>
+  <!-- EN: Lowers the target tps when panning to reduce stuttering -->
+  <performance.zoom.tooltip>Baja los TPS objetivo al desplazar la cámara para reducir los tirones</performance.zoom.tooltip>
+  <!-- EN: Optimize pawn labels -->
+  <performance.drawlabelsfix>Optimizar las etiquetas de individuos</performance.drawlabelsfix>
+  <!-- EN: Optimize the drawing of pawn and animal names in-map -->
+  <performance.drawlabelsfix.tooltip>Optimiza el dibujo de los nombres de individuos y animales en el mapa</performance.drawlabelsfix.tooltip>
+  <!-- EN: Optimize Map Loading -->
+  <temp.section>Optimizar la carga del mapa</temp.section>
+  <!-- EN: Caches types in the constructor for &apos;Section&apos; - this should be fixed in a future rw update -->
+  <temp.section.tooltip>Guarda en caché los tipos en el constructor de «Section»; esto debería arreglarse en una futura actualización de RimWorld</temp.section.tooltip>
+  <!-- EN: Fix mod removal, may solve grey screen issue -->
+  <fix.fixmodremoval>Arreglar la eliminación de mods; puede resolver la pantalla gris</fix.fixmodremoval>
+  <!-- EN: This fixes the area manager trying to loop through null area classes from missing mods -->
+  <fix.fixmodremoval.tooltip>Evita que el gestor de áreas intente recorrer clases de área nulas de mods que faltan</fix.fixmodremoval.tooltip>
+  <!-- EN: Fix missing mod factions -->
+  <fix.faction>Arreglar facciones de mods que faltan</fix.faction>
+  <!-- EN: Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save -->
+  <fix.faction.tooltip>Quita todas las referencias a facciones borradas en los objetos del mundo. Resuelve los problemas al quitar facciones a mitad de una partida</fix.faction.tooltip>
+  <!-- EN: Frame Profiler -->
+  <frameprofiler.button>Perfilador de fotogramas</frameprofiler.button>
+  <!-- EN: Open the Frame Profiler -->
+  <frameprofiler.open>Abrir el perfilador de fotogramas</frameprofiler.open>
+  <!-- EN: Open the game&apos;s built-in Frame Profiler. Turn on &quot;Mirror timings to the vanilla Frame Profiler&quot; in Settings to see Analyzer&apos;s timings in it too. -->
+  <frameprofiler.button.tip>Abre el perfilador de fotogramas que trae el juego. Activa «Mirror timings to the vanilla Frame Profiler» en la configuración para ver ahí también los tiempos de Analyzer.</frameprofiler.button.tip>
+  <!-- EN: Patches -->
+  <tab.patches>Parches</tab.patches>
+  <!-- EN: Harmony patches from every mod. They can run anywhere, so each row says whether it ran in ticks, frame updates or the interface, and the percentages are of the whole frame -->
+  <tab.patches.desc>Parches de Harmony de todos los mods. Pueden correr en cualquier parte, así que cada fila dice si corrió en ticks, en actualizaciones de fotograma o en la interfaz, y los porcentajes son del fotograma entero</tab.patches.desc>
+  <!-- EN: Spikes -->
+  <logs.spikes>Picos</logs.spikes>
+  <!-- EN: How many runs in the samples shown at the top were spikes: over 1 ms and over 5 times the method&apos;s usual run. Hover a row&apos;s count for the details, including methods that run on a steady interval. -->
+  <logs.spikes.desc>Cuántas ejecuciones de las muestras de arriba fueron picos: más de 1 ms y más de 5 veces lo que tarda el método por lo general. Pasa el cursor sobre el número de una fila para ver los detalles, incluidos los métodos que corren a intervalos fijos.</logs.spikes.desc>
+  <!-- EN: Rows shown use {0} of the root, counting each row&apos;s own time once. -->
+  <logs.header.percenttotal>Las filas que se ven usan el {0} de la raíz, contando una sola vez el tiempo propio de cada fila.</logs.header.percenttotal>
+  <!-- EN: Rows shown add up to {0} ms. -->
+  <logs.header.mstotal>Las filas que se ven suman {0} ms.</logs.header.mstotal>
+  <!-- EN: Rows shown add up to {0} ms at their highest. -->
+  <logs.header.maxtotal>Las filas que se ven suman {0} ms en su punto más alto.</logs.header.maxtotal>
+  <!-- EN: Sorted by this column. Click again for the default order. -->
+  <logs.header.sorted>Ordenado por esta columna. Haz clic otra vez para volver al orden predeterminado.</logs.header.sorted>
+  <!-- EN: Click to sort by this column. -->
+  <logs.header.clicktosort>Haz clic para ordenar por esta columna.</logs.header.clicktosort>
+  <!-- EN: Solid: {0} ms of its own time ({1} of the root). Faded: {2} ms including the profiled methods it calls ({3}). Averages over {4} samples, on the same scale as the bar at the top. -->
+  <logs.rowbar.tip>Sólido: {0} ms de tiempo propio ({1} de la raíz). Atenuado: {2} ms contando los métodos perfilados que llama ({3}). Promedios de {4} muestras, en la misma escala que la barra de arriba.</logs.rowbar.tip>
+  <!-- EN: tick -->
+  <phase.tick>tick</phase.tick>
+  <!-- EN: update -->
+  <phase.update>actualización</phase.update>
+  <!-- EN: interface -->
+  <phase.interface>interfaz</phase.interface>
+  <!-- EN: other threads -->
+  <phase.threads>otros hilos</phase.threads>
+  <!-- EN: outside the game loop -->
+  <phase.none>fuera del bucle del juego</phase.none>
+  <!-- EN: tick -->
+  <unit.tick>tick</unit.tick>
+  <!-- EN: ticks -->
+  <unit.ticks>ticks</unit.ticks>
+  <!-- EN: frame -->
+  <unit.frame>fotograma</unit.frame>
+  <!-- EN: frames -->
+  <unit.frames>fotogramas</unit.frames>
+  <!-- EN: Whole frame -->
+  <root.frame.title>Fotograma entero</root.frame.title>
+  <!-- EN: frame -->
+  <root.frame.noun>fotograma</root.frame.noun>
+  <!-- EN: Game tick (TickManager.DoSingleTick) -->
+  <root.tick.title>Tick de juego (TickManager.DoSingleTick)</root.tick.title>
+  <!-- EN: game tick -->
+  <root.tick.noun>tick de juego</root.tick.noun>
+  <!-- EN: Frame update (Root_Play.Update) -->
+  <root.update.title>Actualización de fotograma (Root_Play.Update)</root.update.title>
+  <!-- EN: frame update -->
+  <root.update.noun>ciclo de actualización</root.update.noun>
+  <!-- EN: {0}: {1} ms per {2}, avg of last {3} {4}. Rows: {5} ms ({6}) -->
+  <root.heading>{0}: {1} ms por {2}, prom. de los últimos {3} {4}. Filas: {5} ms ({6})</root.heading>
+  <!-- EN: Every number in this tab is an average over the last {0} {1} (up to 2,000), measured inside the {2} only. Calls made outside it are not counted here.\n\nThe rows below use {3} ms of it, counting each row&apos;s own time once. -->
+  <root.heading.tip>Cada número de esta pestaña es un promedio de los últimos {0} {1} (hasta 2000), medido solo dentro del {2}. Las llamadas hechas fuera no se cuentan aquí.\n\nLas filas de abajo usan {3} ms de eso, contando una sola vez el tiempo propio de cada fila.</root.heading.tip>
+  <!-- EN: {0}\n{1} ms per {2} of its own time, {3} of the {4} -->
+  <root.segment.tip>{0}\n{1} ms por {2} de tiempo propio, {3} del {4}</root.segment.tip>
+  <!-- EN: {0} other rows -->
+  <root.otherrows>{0} filas más</root.otherrows>
+  <!-- EN: The whole bar is the {0}. Each coloured part is one row&apos;s own time, not counting other rows inside it, so nested rows are only counted once. The bar under each row uses the same colour and scale. This dark part is time this list doesn&apos;t cover. -->
+  <root.rest.tip>La barra entera es el {0}. Cada parte de color es el tiempo propio de una fila, sin contar otras filas dentro de ella, así que las filas anidadas se cuentan una sola vez. La barra bajo cada fila usa el mismo color y la misma escala. Esta parte oscura es el tiempo que esta lista no cubre.</root.rest.tip>
+  <!-- EN: PollEvents: the engine reading window, mouse and keyboard events. -->
+  <frame.tip.poll>PollEvents: el motor lee los eventos de la ventana, el mouse y el teclado.</frame.tip.poll>
+  <!-- EN: GameUpdate: the game&apos;s update. Root_Play.Update and every game tick run in here. -->
+  <frame.tip.update>GameUpdate: la actualización del juego. Aquí corren Root_Play.Update y cada tick del juego.</frame.tip.update>
+  <!-- EN: CaptureFrame: building the frame to draw, including the map, the world and the interface (OnGUI). -->
+  <frame.tip.capture>CaptureFrame: arma el fotograma que se va a dibujar, con el mapa, el mundo y la interfaz (OnGUI).</frame.tip.capture>
+  <!-- EN: Other engine work: everything else the engine does each frame, such as GPU memory and render queue work. -->
+  <frame.tip.other>Otro trabajo del motor: todo lo demás que hace el motor en cada fotograma, como la memoria de la GPU y la cola de renderizado.</frame.tip.other>
+  <!-- EN: Waiting for the next frame: the main thread is idle, held back by vsync or the frame rate cap. This is not a cost; it is the headroom left before the game would drop below that rate. -->
+  <frame.tip.waiting>Esperando el siguiente fotograma: el hilo principal está inactivo, frenado por la sincronización vertical o por el límite de fotogramas. No es un costo: es el margen que queda antes de que el juego baje de esa tasa.</frame.tip.waiting>
+  <!-- EN: waiting for next frame -->
+  <frame.waiting>esperando el siguiente fotograma</frame.waiting>
+  <!-- EN: {0}\n{1} ms per frame, {2} of the frame -->
+  <frame.segment.tip>{0}\n{1} ms por fotograma, {2} del fotograma</frame.segment.tip>
+  <!-- EN: x {0} ticks per frame -->
+  <frame.ticksperframe>x {0} ticks por fotograma</frame.ticksperframe>
+  <!-- EN: Frame map: where the work in this tab happens inside one average frame of {0} ms ({1} fps, last {2} frames) -->
+  <frame.heading>Mapa del fotograma: dónde ocurre el trabajo de esta pestaña dentro de un fotograma promedio de {0} ms ({1} fps, últimos {2} fotogramas)</frame.heading>
+  <!-- EN: A flame graph of one average frame, all on the same scale. The top bar is the engine&apos;s own breakdown: PollEvents, GameUpdate, CaptureFrame, other engine work, and waiting for the next frame. Under the part where this tab&apos;s root runs is the root itself, and under that the rows of this list, each by its own time. So the widths show how much of the whole frame what you are looking at really costs. -->
+  <frame.heading.tip>Un gráfico de llamas de un fotograma promedio, todo en la misma escala. La barra de arriba es el desglose del propio motor: PollEvents, GameUpdate, CaptureFrame, otro trabajo del motor y la espera del siguiente fotograma. Bajo la parte donde corre la raíz de esta pestaña está la raíz misma, y bajo ella las filas de esta lista, cada una por su tiempo propio. Así, los anchos muestran cuánto cuesta de verdad, del fotograma entero, lo que estás mirando.</frame.heading.tip>
+  <!-- EN: Whole frame -->
+  <frame.label.whole>Fotograma entero</frame.label.whole>
+  <!-- EN: Game ticks -->
+  <frame.label.ticks>Ticks de juego</frame.label.ticks>
+  <!-- EN: Frame update -->
+  <frame.label.update>Actualización de fotograma</frame.label.update>
+  <!-- EN: This tab -->
+  <frame.label.tab>Esta pestaña</frame.label.tab>
+  <!-- EN: {0}: {1} ms per {2}{3} = {4} ms per frame, {5} of the frame. It runs inside GameUpdate. -->
+  <frame.root.tip>{0}: {1} ms por {2}{3} = {4} ms por fotograma, {5} del fotograma. Corre dentro de GameUpdate.</frame.root.tip>
+  <!-- EN: {0}\n{1} ms per {2} of its own time{3} = {4} ms per frame.\n{5} of the {6}, {7} of the whole frame. -->
+  <frame.row.tip>{0}\n{1} ms por {2} de tiempo propio{3} = {4} ms por fotograma.\n{5} del {6}, {7} del fotograma entero.</frame.row.tip>
+  <!-- EN: This tab: {0}, {1} ms per {2}, avg of last {3} {4}. Rows: {5} ms ({6}) -->
+  <frame.tab.heading>Esta pestaña: {0}, {1} ms por {2}, prom. de los últimos {3} {4}. Filas: {5} ms ({6})</frame.tab.heading>
+  <!-- EN: Every number in this tab is an average over the last {0} {1} (up to 2,000), measured inside the {2} only. Calls made outside it are not counted here.\n\nThe rows below use {3} ms of it, counting each row&apos;s own time once. The bar under each row uses the same colour as its part of the flame graph above. -->
+  <frame.tab.heading.tip>Cada número de esta pestaña es un promedio de los últimos {0} {1} (hasta 2000), medido solo dentro del {2}. Las llamadas hechas fuera no se cuentan aquí.\n\nLas filas de abajo usan {3} ms de eso, contando una sola vez el tiempo propio de cada fila. La barra bajo cada fila usa el mismo color que su parte en el gráfico de llamas de arriba.</frame.tab.heading.tip>
+  <!-- EN: Runs every {0} {1}. -->
+  <spike.every>Corre cada {0} {1}.</spike.every>
+  <!-- EN: 1 spike in the last {0} {1}: worst {2} ms, usual run {3} ms. -->
+  <spike.one>1 pico en los últimos {0} {1}: el peor, {2} ms; lo habitual, {3} ms.</spike.one>
+  <!-- EN: {0} spikes in the last {1} {2}: worst {3} ms, usual run {4} ms. -->
+  <spike.many>{0} picos en los últimos {1} {2}: el peor, {3} ms; lo habitual, {4} ms.</spike.many>
+  <!-- EN: These are well above its usual run, so the interval doesn&apos;t explain them. -->
+  <spike.notinterval>Están muy por encima de lo habitual, así que el intervalo no los explica.</spike.notinterval>
+  <!-- EN: Each run takes about {0} ms. That&apos;s normal for this method, but it causes a regular hitch. -->
+  <spike.heavy>Cada ejecución tarda unos {0} ms. Es normal para este método, pero causa un tirón regular.</spike.heavy>
+  <!-- EN: Each run takes about {0} ms, so its time comes in bursts. That&apos;s expected. -->
+  <spike.light>Cada ejecución tarda unos {0} ms, así que su tiempo llega en ráfagas. Es lo esperado.</spike.light>
+  <!-- EN: Trace callers -->
+  <stack.trace>Rastrear llamadas</stack.trace>
+  <!-- EN: Record which code paths call this method, sample by sample, so you can click a point below and see who made the calls in it. Ticking it again starts a fresh recording. -->
+  <stack.trace.tip>Registra qué rutas de código llaman a este método, muestra por muestra, para que puedas hacer clic en un punto de abajo y ver quién hizo esas llamadas. Al marcarlo otra vez empieza una grabación nueva.</stack.trace.tip>
+  <!-- EN: Tracing {0}: {1} stacks captured, {2} different paths. Pause the analyzer to hold the samples still. -->
+  <stack.status.tracing>Rastreando {0}: {1} pilas capturadas, {2} rutas distintas. Pausa el analizador para dejar quietas las muestras.</stack.status.tracing>
+  <!-- EN: Stopped: {0} stacks captured, {1} different paths. -->
+  <stack.status.stopped>Detenido: {0} pilas capturadas, {1} rutas distintas.</stack.status.stopped>
+  <!-- EN: Tick &apos;Trace callers&apos; to start recording. -->
+  <stack.status.idle>Marca «Rastrear llamadas» para empezar a grabar.</stack.status.idle>
+  <!-- EN: Drag to resize the samples and the stacks below them. -->
+  <stack.splitter.tip>Arrastra para cambiar el tamaño de las muestras y de las pilas de abajo.</stack.splitter.tip>
+  <!-- EN: Click a sample to see its stacks, scroll to zoom at the mouse, drag to pan -->
+  <stack.samples.hint>Haz clic en una muestra para ver sus pilas, usa la rueda para acercar donde está el cursor y arrastra para desplazarte</stack.samples.hint>
+  <!-- EN: Selected: {0} ago (click it again to show all) -->
+  <stack.samples.selected>Seleccionada: hace {0} (haz clic otra vez para ver todas)</stack.samples.selected>
+  <!-- EN: {0} {1} ago: {2} ms, {3} calls -->
+  <stack.sample.tip>Hace {0} {1}: {2} ms, {3} llamadas</stack.sample.tip>
+  <!-- EN: No stacks recorded for this sample. -->
+  <stack.sample.none>No se registraron pilas para esta muestra.</stack.sample.none>
+  <!-- EN: Click to see who made these calls. -->
+  <stack.sample.click>Haz clic para ver quién hizo estas llamadas.</stack.sample.click>
+  <!-- EN: Sample {0} {1} ago: {2} calls -->
+  <stack.title.sample>Muestra de hace {0} {1}: {2} llamadas</stack.title.sample>
+  <!-- EN: on {0} -->
+  <stack.title.ontype>en {0}</stack.title.ontype>
+  <!-- EN: split by caller from sampled stacks -->
+  <stack.title.sampled>repartidas por llamador según las pilas muestreadas</stack.title.sampled>
+  <!-- EN: All recorded samples -->
+  <stack.title.all>Todas las muestras registradas</stack.title.all>
+  <!-- EN: All recorded samples, calls on {0} -->
+  <stack.title.alltype>Todas las muestras registradas, llamadas en {0}</stack.title.alltype>
+  <!-- EN: No stacks were recorded for the selected sample -->
+  <stack.title.none>No se registraron pilas para la muestra seleccionada</stack.title.none>
+  <!-- EN: Calls -->
+  <stack.col.calls>Llamadas</stack.col.calls>
+  <!-- EN: Patches -->
+  <stack.col.patches>Parches</stack.col.patches>
+  <!-- EN: Called from -->
+  <stack.col.calledfrom>Llamado desde</stack.col.calledfrom>
+  <!-- EN: Method -->
+  <stack.col.method>Método</stack.col.method>
+  <!-- EN: Mod -->
+  <stack.col.mod>Mod</stack.col.mod>
+  <!-- EN: Each row is one distinct call path into this method. Every call is counted. When a sample has many calls, stacks are captured for the first 128 and then for every 2nd, 4th, 8th... call, and each captured stack counts for the calls it stands for, so the split between callers is then an estimate that adds up to the real total. When the row you selected is one type of a shared method (such as Pawn under Tick Things), only calls on that type are recorded. Called from is the method that made the call. Patches counts the Harmony patches on every method along the path. Click a row to see its full call stack. -->
+  <stack.table.tip>Cada fila es una ruta de llamada distinta hacia este método. Se cuentan todas las llamadas. Cuando una muestra tiene muchas llamadas, se capturan las pilas de las primeras 128 y después de una de cada 2, de cada 4, de cada 8…, y cada pila capturada vale por las llamadas que representa, así que el reparto entre llamadores es una estimación que suma el total real. Si la fila que elegiste es un tipo de un método compartido (como Pawn en Tick de objetos), solo se registran las llamadas sobre ese tipo. «Llamado desde» es el método que hizo la llamada. «Parches» cuenta los parches de Harmony de todos los métodos de la ruta. Haz clic en una fila para ver su pila de llamadas completa.</stack.table.tip>
+  <!-- EN: Select a row to see its full call stack -->
+  <stack.select>Elige una fila para ver su pila de llamadas completa</stack.select>
+  <!-- EN: Full call stack, nearest caller first. Click a method to profile it -->
+  <stack.full>Pila de llamadas completa, con el llamador más cercano primero. Haz clic en un método para perfilarlo</stack.full>
+  <!-- EN: Profile {0} (Custom {1}) -->
+  <stack.menu.profile>Perfilar {0} (personalizado: {1})</stack.menu.profile>
+  <!-- EN: Profile the methods {0} calls (Custom {1}) -->
+  <stack.menu.internal>Perfilar los métodos que llama {0} (personalizado: {1})</stack.menu.internal>
+  <!-- EN: Profile the Harmony patches on {0} (Custom {1}) -->
+  <stack.menu.patches>Perfilar los parches de Harmony de {0} (personalizado: {1})</stack.menu.patches>
+  <!-- EN: Copy -->
+  <stack.menu.copy>Copiar</stack.menu.copy>
+  <!-- EN: Open in dnSpy -->
+  <stack.menu.dnspy>Abrir en dnSpy</stack.menu.dnspy>
+  <!-- EN: Unknown mod -->
+  <group.unknown>Mod desconocido</group.unknown>
+  <!-- EN: {0}  ({1}) -->
+  <group.heading>{0}  ({1})</group.heading>
+  <!-- EN: All of this mod&apos;s rows. The values are the totals of its rows, and the groups follow the column you sort by. Click to collapse or expand. -->
+  <group.tip>Todas las filas de este mod. Los valores son el total de sus filas, y los grupos siguen la columna por la que ordenas. Haz clic para contraer o expandir.</group.tip>
+</LanguageData>
