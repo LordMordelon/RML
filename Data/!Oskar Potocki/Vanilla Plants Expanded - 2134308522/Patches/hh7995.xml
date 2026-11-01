@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimCuisine 2 Core (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Beet"]/label</xpath>
+          <value>
+            <!-- EN: chioggia beet plant -->
+            <label>planta de remolacha chioggia</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Beet"]/description</xpath>
+          <value>
+            <!-- EN: An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale. While beets do require rich soil they are quite hearty, and will continue to grow very slowly through winter. They need to be planted during growing season, though. -->
+            <description>Un vegetal parecido a una hierba, muy cultivado tanto para los humanos como para el ganado. Aunque por fuera parecen remolachas comunes, por dentro tienen una pulpa con franjas rojas y blancas muy característica. Son las más dulces de todas. Aunque las remolachas necesitan tierra fértil, son bastante resistentes y siguen creciendo muy lento durante el invierno. Eso sí, hay que plantarlas durante la temporada de cultivo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawBeets"]/label</xpath>
+          <value>
+            <!-- EN: chioggia beets -->
+            <label>remolachas chioggia</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawBeets"]/description</xpath>
+          <value>
+            <!-- EN: An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale. -->
+            <description>Un vegetal parecido a una hierba, muy cultivado tanto para los humanos como para el ganado. Aunque por fuera parecen remolachas comunes, por dentro tienen una pulpa con franjas rojas y blancas muy característica. Son las más dulces de todas.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Cabbage"]/label</xpath>
+          <value>
+            <!-- EN: cauliflower plant -->
+            <label>planta de coliflor</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Cabbage"]/description</xpath>
+          <value>
+            <!-- EN: A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins. This particular strain seems highly resistant to airborne toxins and radiation. -->
+            <description>Un vegetal grande y redondo con un centro blanco y duro rodeado de hojas verdes, rico de forma natural en fibra y vitaminas B. Esta variedad en particular parece muy resistente a las toxinas en el aire y a la radiación.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawCabbage"]/label</xpath>
+          <value>
+            <!-- EN: cauliflowers -->
+            <label>coliflores</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawCabbage"]/description</xpath>
+          <value>
+            <!-- EN: A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins. -->
+            <description>Un vegetal grande y redondo con un centro blanco y duro rodeado de hojas verdes, rico de forma natural en fibra y vitaminas B.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Onion"]/label</xpath>
+          <value>
+            <!-- EN: white onion plant -->
+            <label>planta de cebolla blanca</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Onion"]/description</xpath>
+          <value>
+            <!-- EN: A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired. Cannot suffer the effects of blight. -->
+            <description>Una variedad de cebolla fuerte y penetrante, perfecta para ensaladas sabrosas o para cocinar en general cuando se buscan sabores fuertes. No le afecta la plaga.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawOnion"]/label</xpath>
+          <value>
+            <!-- EN: white onions -->
+            <label>cebollas blancas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawOnion"]/description</xpath>
+          <value>
+            <!-- EN: A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired. -->
+            <description>Una variedad de cebolla fuerte y penetrante, perfecta para ensaladas sabrosas o para cocinar en general cuando se buscan sabores fuertes.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Pumpkin"]/label</xpath>
+          <value>
+            <!-- EN: mammoth gold pumpkin plant -->
+            <label>planta de calabaza mammoth gold</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Pumpkin"]/description</xpath>
+          <value>
+            <!-- EN: One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins. -->
+            <description>Una de las variedades de calabaza más grandes: la mammoth gold puede llegar a pesar entre 25 y 50 kg. Técnicamente una baya gigante, las calabazas son famosas por lo fácil que es sembrarlas y cosecharlas. Sin embargo, su resistencia significa más peso y masa: son demasiado aparatosas para los contenedores hidropónicos.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPumpkin"]/label</xpath>
+          <value>
+            <!-- EN: mammoth gold pumpkins -->
+            <label>calabazas mammoth gold</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPumpkin"]/description</xpath>
+          <value>
+            <!-- EN: One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. -->
+            <description>Una de las variedades de calabaza más grandes: la mammoth gold puede llegar a pesar entre 25 y 50 kg. Técnicamente una baya gigante, las calabazas son famosas por lo fácil que es sembrarlas y cosecharlas.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Tomato"]/label</xpath>
+          <value>
+            <!-- EN: red beefsteak tomato plant -->
+            <label>planta de tomate red beefsteak</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Tomato"]/description</xpath>
+          <value>
+            <!-- EN: A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties. Tomatoes are easily removed from the vine without having to uproot the plant. -->
+            <description>Una variedad de tomate firme, carnoso, sabroso y de un rojo intenso. Su sabor es suave, jugoso y equilibrado comparado con otras variedades. Los tomates se sacan fácilmente de la mata sin tener que arrancar la planta.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawTomatoes"]/label</xpath>
+          <value>
+            <!-- EN: red beefsteak tomatoes -->
+            <label>tomates red beefsteak</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawTomatoes"]/description</xpath>
+          <value>
+            <!-- EN: A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties. -->
+            <description>Una variedad de tomate firme, carnoso, sabroso y de un rojo intenso. Su sabor es suave, jugoso y equilibrado comparado con otras variedades.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/label</xpath>
+          <value>
+            <!-- EN: granny smith apple tree -->
+            <label>manzano granny smith</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/description</xpath>
+          <value>
+            <!-- EN: A tree bearing hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened. -->
+            <description>Un árbol que da manzanas duras, de piel verde clara y pulpa crujiente y jugosa. Su sabor es agrio y ácido. Se mantiene firme al hornearla, lo que la vuelve una manzana muy popular para cocinar, sobre todo en tartas, donde se puede endulzar.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawApple"]/label</xpath>
+          <value>
+            <!-- EN: granny smith apples -->
+            <label>manzanas granny smith</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawApple"]/description</xpath>
+          <value>
+            <!-- EN: Hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened. -->
+            <description>Manzanas duras, de piel verde clara y pulpa crujiente y jugosa. Su sabor es agrio y ácido. Se mantiene firme al hornearla, lo que la vuelve una manzana muy popular para cocinar, sobre todo en tartas, donde se puede endulzar.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_CherryTree"]/label</xpath>
+          <value>
+            <!-- EN: sakura tree -->
+            <label>árbol de sakura</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_CherryTree"]/description</xpath>
+          <value>
+            <!-- EN: Also known as the cherry blossom, Sakura trees produce small fruits known as sakuranbo, small cherries that do not have much flesh beyond the seed within. Due to their bitter taste, sakuranbo are not traditionally eaten raw, but these trees have been genetically modified to produce sweeter tasting fruits. This particular genus is quite beautiful, speckled with pink blossoms throughout, blooming fully each winter. -->
+            <description>También conocido como cerezo en flor, el árbol de sakura da unos frutos pequeños llamados sakuranbo: cerezas pequeñas que no tienen mucha pulpa aparte del hueso. Por su sabor amargo, los sakuranbo no se comen crudos tradicionalmente, pero estos árboles fueron modificados genéticamente para dar frutos más dulces. Este género en particular es muy bonito: está salpicado de flores rosadas y florece por completo cada invierno.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawCherry"]/label</xpath>
+          <value>
+            <!-- EN: sakuranbo -->
+            <label>sakuranbo</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawCherry"]/description</xpath>
+          <value>
+            <!-- EN: Small cherries that do not have much flesh beyond the seed within. Due to their bitter taste, sakuranbo are not traditionally eaten raw, but these fruits have been genetically modified to have a sweeter taste. -->
+            <description>Cerezas pequeñas que no tienen mucha pulpa aparte del hueso. Por su sabor amargo, los sakuranbo no se comen crudos tradicionalmente, pero estos frutos fueron modificados genéticamente para tener un sabor más dulce.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_PeachTree"]/label</xpath>
+          <value>
+            <!-- EN: apricot tree -->
+            <label>albaricoquero</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_PeachTree"]/description</xpath>
+          <value>
+            <!-- EN: The apricot is a fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. It is mainly consumed fresh, although it is also used to make some by-products like stewed fruit, jams, juices and dried apricots. Apricots have a high concentration of vitamin C. This variety of apricot tree is quite hardy, and they can be planted in stony soil. -->
+            <description>El albaricoque es una fruta parecida al durazno, pero mucho más pequeña, de color amarillo pálido o anaranjado con algunos tonos rojos. Se come sobre todo fresco, aunque también se usa para hacer algunos derivados, como compota, mermeladas, jugos y albaricoques secos. Los albaricoques tienen una alta concentración de vitamina C. Esta variedad de albaricoquero es muy resistente y se puede plantar en suelo pedregoso.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPeach"]/label</xpath>
+          <value>
+            <!-- EN: apricots -->
+            <label>albaricoques</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPeach"]/description</xpath>
+          <value>
+            <!-- EN: A fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. It is mainly consumed fresh, although it is also used to make some by-products like stewed fruit, jams, juices and dried apricots. Apricots have a high concentration of vitamin C. -->
+            <description>Una fruta parecida al durazno, pero mucho más pequeña, de color amarillo pálido o anaranjado con algunos tonos rojos. Se come sobre todo fresca, aunque también se usa para hacer algunos derivados, como compota, mermeladas, jugos y albaricoques secos. Los albaricoques tienen una alta concentración de vitamina C.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_PlumTree"]/label</xpath>
+          <value>
+            <!-- EN: damson plum tree -->
+            <label>ciruelo damasceno</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_PlumTree"]/description</xpath>
+          <value>
+            <!-- EN: The Damson plum tree, also archaically called the &quot;damascene&quot;, is a bushy tree bearing a relatively small ovoid fruit with a distinctive, somewhat astringent taste, widely used for culinary purposes, particularly in fruit preserves and jams. Many cultures also dry-age plums into prunes for long-term preservation. -->
+            <description>El ciruelo damasceno, cuyo antiguo nombre era "damascena", es un árbol frondoso que da una fruta ovalada relativamente pequeña, de sabor característico y algo astringente, muy usada en la cocina, sobre todo en conservas de fruta y mermeladas. Muchas culturas también secan las ciruelas para convertirlas en ciruelas pasas y conservarlas por mucho tiempo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPlum"]/label</xpath>
+          <value>
+            <!-- EN: damson plums -->
+            <label>ciruelas damascenas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawPlum"]/description</xpath>
+          <value>
+            <!-- EN: A relatively small ovoid fruit with a distinctive, somewhat astringent taste, widely used for culinary purposes, particularly in fruit preserves and jams. Many cultures also dry-age plums into prunes for long-term preservation. -->
+            <description>Una fruta ovalada relativamente pequeña, de sabor característico y algo astringente, muy usada en la cocina, sobre todo en conservas de fruta y mermeladas. Muchas culturas también secan las ciruelas para convertirlas en ciruelas pasas y conservarlas por mucho tiempo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_BananaTree"]/label</xpath>
+          <value>
+            <!-- EN: gros michel banana tree -->
+            <label>banano gros michel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_BananaTree"]/description</xpath>
+          <value>
+            <!-- EN: A tall tropical tree adorned with a cluster of yellow, elongated berries. These trees have been genetically modified to resist the fungal infections that nearly caused their extinction in old Terra. The Gros Michel variety has a distinct taste, different from that of Cavendish variety bananas. Bananas are easy to harvest, since a whole &quot;hand&quot; can be cut at the same time. -->
+            <description>Un árbol tropical alto, adornado con un racimo de bayas amarillas y alargadas. Estos árboles fueron modificados genéticamente para resistir las infecciones por hongos que casi los llevaron a la extinción en la vieja Terra. La variedad Gros Michel tiene un sabor característico, distinto del de las bananas de la variedad Cavendish. Las bananas son fáciles de cosechar, porque se puede cortar una "mano" entera a la vez.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawBanana"]/label</xpath>
+          <value>
+            <!-- EN: gros michel bananas -->
+            <label>bananas gros michel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawBanana"]/description</xpath>
+          <value>
+            <!-- EN: Yellow, elongated berries. These bananas have been genetically modified to resist the fungal infections that nearly caused their extinction in old Terra. The Gros Michel variety has a distinct taste, different from that of Cavendish variety bananas. -->
+            <description>Bayas amarillas y alargadas. Estas bananas fueron modificadas genéticamente para resistir las infecciones por hongos que casi las llevaron a la extinción en la vieja Terra. La variedad Gros Michel tiene un sabor característico, distinto del de las bananas de la variedad Cavendish.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="VCE_Fruit"]/label</xpath>
+          <value>
+            <!-- EN: raw dessert fruits -->
+            <label>frutas de postre crudas</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_OrangeTree"]/label</xpath>
+          <value>
+            <!-- EN: mandarin tree -->
+            <label>mandarino</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_OrangeTree"]/description</xpath>
+          <value>
+            <!-- EN: A small citrus tree with fruit resembling miniature oranges, usually eaten plain or in fruit salads. Mandarins are smaller and oblate, rather than spherical, like the common oranges (which are a mandarin hybrid). The taste is considered less sour, as well as sweeter and stronger. Mandarin trees are well equipped for growing in humid environments and in wet soil. -->
+            <description>Un pequeño árbol cítrico de frutos parecidos a naranjas en miniatura, que suelen comerse solos o en ensaladas de fruta. Las mandarinas son más pequeñas y achatadas, no esféricas como las naranjas comunes (que son un híbrido de la mandarina). Su sabor se considera menos ácido, además de más dulce e intenso. Los mandarinos están bien preparados para crecer en ambientes húmedos y en suelo mojado.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawOrange"]/label</xpath>
+          <value>
+            <!-- EN: mandarins -->
+            <label>mandarinas</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawOrange"]/description</xpath>
+          <value>
+            <!-- EN: A small citrus tree with fruit resembling miniature oranges, usually eaten plain or in fruit salads. Mandarins are smaller and oblate, rather than spherical, like the common oranges (which are a mandarin hybrid). The taste is considered less sour, as well as sweeter and stronger. -->
+            <description>Un pequeño árbol cítrico de frutos parecidos a naranjas en miniatura, que suelen comerse solos o en ensaladas de fruta. Las mandarinas son más pequeñas y achatadas, no esféricas como las naranjas comunes (que son un híbrido de la mandarina). Su sabor se considera menos ácido, además de más dulce e intenso.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Eggplant"]/label</xpath>
+          <value>
+            <!-- EN: black beauty aubergine plant -->
+            <label>planta de berenjena black beauty</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Eggplant"]/description</xpath>
+          <value>
+            <!-- EN: A bulbous, tender, tasty purplish-black fruit of the nightshade family. Aubergines or eggplants are great in a variety of dishes, and the Black Beauty variety is delicious grilled, baked and stir-fried. Flourishes in warm weather. -->
+            <description>Una fruta bulbosa, tierna y sabrosa, de color negro violáceo, de la familia de las solanáceas. Las berenjenas son excelentes en una gran variedad de platos, y la variedad Black Beauty es deliciosa a la parrilla, al horno y salteada. Prospera con el clima cálido.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawEggplant"]/label</xpath>
+          <value>
+            <!-- EN: black beauty aubergines -->
+            <label>berenjenas black beauty</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawEggplant"]/description</xpath>
+          <value>
+            <!-- EN: A bulbous, tender, tasty purplish-black fruit of the nightshade family. Aubergines or eggplants are great in a variety of dishes, and the Black Beauty variety is delicious grilled, baked and stir-fried. -->
+            <description>Una fruta bulbosa, tierna y sabrosa, de color negro violáceo, de la familia de las solanáceas. Las berenjenas son excelentes en una gran variedad de platos, y la variedad Black Beauty es deliciosa a la parrilla, al horno y salteada.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Grass"]/label</xpath>
+          <value>
+            <!-- EN: forage grass -->
+            <label>hierba forrajera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_TallGrass"]/label</xpath>
+          <value>
+            <!-- EN: forage tall grass -->
+            <label>hierba alta forrajera</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Grass"]/description</xpath>
+          <value>
+            <!-- EN: Cultivated forage grass. Grows anywhere there is a little light and minimally fertile ground. -->
+            <description>Hierba forrajera cultivada. Crece en cualquier sitio donde haya un poco de luz y suelo fértil.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_TallGrass"]/description</xpath>
+          <value>
+            <!-- EN: Cultivated forage tall grass. Grows anywhere there is a little light and minimally fertile ground. Slows down anyone moving over it. -->
+            <description>Hierba alta forrajera cultivada. Crece en cualquier sitio donde haya un poco de luz y suelo fértil. Reduce considerablemente la velocidad de cualquiera que camine sobre ella.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
