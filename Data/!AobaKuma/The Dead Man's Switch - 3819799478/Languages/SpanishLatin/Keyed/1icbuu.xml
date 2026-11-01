@@ -1,317 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!-- EN: {PAWN_labelShort}&apos;s condition has worsened: {0}. -->
-  <DMS_BionicShock_LevelUp>El estado de {PAWN_labelShort} empeoró: {0}.</DMS_BionicShock_LevelUp>
-  <!-- EN: {PAWN_labelShort}&apos;s condition has eased: {0}. -->
-  <DMS_BionicShock_LevelDown>El estado de {PAWN_labelShort} mejoró: {0}.</DMS_BionicShock_LevelDown>
-  <!-- EN: {PAWN_labelShort}&apos;s {0} has been cured. -->
-  <DMS_BionicShock_Cured>{PAWN_labelShort} se curó de {0}.</DMS_BionicShock_Cured>
-  <!-- EN: {0} level -->
-  <DMS_BionicShock_StatLabel>nivel de {0}</DMS_BionicShock_StatLabel>
-  <!-- EN: Each dose changes the level of {0} by {1}. At level 0 the condition is removed. -->
-  <DMS_BionicShock_StatDesc>Cada dosis cambia el nivel de {0} en {1}. En el nivel 0, la afección desaparece.</DMS_BionicShock_StatDesc>
-  <!-- EN: {PAWN_labelShort}&apos;s {0} has grown back. -->
-  <DMS_CombatRegen_PartRegrown>Parte regenerada en {PAWN_labelShort}: {0}.</DMS_CombatRegen_PartRegrown>
-  <!-- EN: {PAWN_labelShort} is rejecting the regeneration serum: {0}. -->
-  <DMS_CombatRegen_Rejection>{PAWN_labelShort} está rechazando el suero de regeneración: {0}.</DMS_CombatRegen_Rejection>
-  <!-- EN: {0} chance -->
-  <DMS_SetHediffLevel_StatLabel>probabilidad de {0}</DMS_SetHediffLevel_StatLabel>
-  <!-- EN: {1} (level {0}) -->
-  <DMS_SetHediffLevel_StatValue>{1} (nivel {0})</DMS_SetHediffLevel_StatValue>
-  <!-- EN: Each dose has a {2} chance to bring {0} to level {1}. A higher level is left unchanged. -->
-  <DMS_SetHediffLevel_StatDesc>Cada dosis tiene un {2} de probabilidad de llevar {0} al nivel {1}. Si el nivel ya es más alto, no cambia.</DMS_SetHediffLevel_StatDesc>
-  <!-- EN: a relay-station operation is already underway -->
-  <DMS_DecoySite_AlreadyActive>ya hay una operación en curso en una estación de retransmisión</DMS_DecoySite_AlreadyActive>
-  <!-- EN: Unable to locate a relay station: no valid site could be found on the world map. -->
-  <DMS_DecoySite_CannotFindSite>No se puede ubicar una estación de retransmisión: no se encontró ningún sitio válido en el mapa del mundo.</DMS_DecoySite_CannotFindSite>
-  <!-- EN: Relay station lost -->
-  <DMS_DecoySite_ExpiredLabel>Estación de retransmisión perdida</DMS_DecoySite_ExpiredLabel>
-  <!-- EN: The remnant relay station&apos;s transmission window has closed. The station has relocated and its position is lost. -->
-  <DMS_DecoySite_ExpiredText>Se cerró la ventana de transmisión de la estación de retransmisión de los remanentes. La estación se trasladó y se perdió su posición.</DMS_DecoySite_ExpiredText>
-  <!-- EN: Relay station secured -->
-  <DMS_DecoySite_ClearedLabel>Estación de retransmisión asegurada</DMS_DecoySite_ClearedLabel>
-  <!-- EN: All hostiles at the remnant relay station have been neutralized. The site&apos;s equipment, including the decoy antenna, is yours to use, but expect the remnants to keep probing the area. -->
-  <DMS_DecoySite_ClearedText>Se neutralizó a todos los hostiles de la estación de retransmisión de los remanentes. El equipo del sitio, incluida la antena señuelo, queda a tu disposición, pero los remanentes seguirán rondando la zona.</DMS_DecoySite_ClearedText>
-  <!-- EN: Hostile site: reinforcements inbound -->
-  <DMS_DecoySite_EntryCountdownLabel>Sitio hostil: llegan refuerzos</DMS_DecoySite_EntryCountdownLabel>
-  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
-  <DMS_DecoySite_EntryCountdownText>Entraste en una instalación hostil de los remanentes. Su protocolo de vigilancia detectó tu presencia.\n\nLos refuerzos enemigos llegarán en {0}. Termina lo que viniste a hacer y vete, o atrinchérate.</DMS_DecoySite_EntryCountdownText>
-  <!-- EN: Documents arrived -->
-  <DMS_DocQuest_ArrivedLabel>Llegaron los documentos</DMS_DocQuest_ArrivedLabel>
-  <!-- EN: The documents from {0} have arrived by drop pod near your trade beacons or colony center. The fleet expects every one of them back intact. -->
-  <DMS_DocQuest_ArrivedText1>Los documentos de {0} llegaron en cápsulas de escape cerca de tus balizas de comercio o del centro de la colonia. La flota espera recibirlos todos de vuelta intactos.</DMS_DocQuest_ArrivedText1>
-  <!-- EN: Sealed document crates have landed near your trade beacons. The attached manifest is signed by {0}: &apos;Processed, stamped, and returned in full.&apos; -->
-  <DMS_DocQuest_ArrivedText2>Aterrizaron cajas selladas de documentos cerca de tus balizas de comercio. El manifiesto adjunto lo firma {0}: "Procesados, sellados y devueltos completos".</DMS_DocQuest_ArrivedText2>
-  <!-- EN: The fleet&apos;s backlogged paperwork has arrived. {0} requests that processing begin at the earliest opportunity: the clerical division is already behind schedule. -->
-  <DMS_DocQuest_ArrivedText3>Llegó el papeleo atrasado de la flota. {0} pide que el procesamiento empiece cuanto antes: la división administrativa ya va atrasada.</DMS_DocQuest_ArrivedText3>
-  <!-- EN: Documents destroyed -->
-  <DMS_DocQuest_DestroyedLabel>Documentos destruidos</DMS_DocQuest_DestroyedLabel>
-  <!-- EN: Documents under the fleet contract have been destroyed. As stipulated, the contract has ended. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText1>Se destruyeron documentos del contrato con la flota. Según lo estipulado, el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText1>
-  <!-- EN: Part of the fleet&apos;s paperwork is beyond recovery. There is nothing left to return in full, and the contract has ended. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText2>Parte del papeleo de la flota ya no se puede recuperar. No queda forma de devolverlo completo, y el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText2>
-  <!-- EN: The fleet&apos;s documents were destroyed in your care. {0} has been notified. The quest has failed. -->
-  <DMS_DocQuest_DestroyedText3>Los documentos de la flota se destruyeron mientras estaban a tu cargo. Se notificó a {0}. La misión fracasó.</DMS_DocQuest_DestroyedText3>
-  <!-- EN: Documents processed -->
-  <DMS_DocQuest_CompleteLabel>Documentos procesados</DMS_DocQuest_CompleteLabel>
-  <!-- EN: Every document has been processed and accounted for. As promised, payment has been dispatched. -->
-  <DMS_DocQuest_CompleteText1>Se procesaron y contabilizaron todos los documentos. Tal como se prometió, se envió el pago.</DMS_DocQuest_CompleteText1>
-  <!-- EN: The last file has been verified and crated for return. {0} confirms the contract is fulfilled; payment is on its way. -->
-  <DMS_DocQuest_CompleteText2>Se verificó el último archivo y se embaló para devolverlo. {0} confirma que el contrato está cumplido; el pago va en camino.</DMS_DocQuest_CompleteText2>
-  <!-- EN: All fleet paperwork has been processed on schedule. {0} notes that follow-up contracts may be offered to us first. -->
-  <DMS_DocQuest_CompleteText3>Todo el papeleo de la flota se procesó a tiempo. {0} señala que podrían ofrecernos a nosotros primero los próximos contratos.</DMS_DocQuest_CompleteText3>
-  <!-- EN: Development: {0} -->
-  <DMS.SecondaryGestationProgress>Desarrollo: {0}</DMS.SecondaryGestationProgress>
-  <!-- EN: Time until complete: {0} -->
-  <DMS.SecondaryGestationRemaining>Tiempo restante: {0}</DMS.SecondaryGestationRemaining>
-  <!-- EN: {RATION}: {COUNT} / {MAX} -->
-  <DMS.RationMagazineContents>{RATION}: {COUNT} / {MAX}</DMS.RationMagazineContents>
-  <!-- EN: Load {0} -->
-  <DMS.LoadRationLabel>Cargar {0}</DMS.LoadRationLabel>
-  <!-- EN: Order this mech to fetch a {RATION} and load it into its bioreactor. Capacity: {MAX}. -->
-  <DMS.LoadRationDesc>Ordena a este meca ir a buscar una {RATION} y cargarla en su biorreactor. Capacidad: {MAX}.</DMS.LoadRationDesc>
-  <!-- EN: Bioreactor is full. -->
-  <DMS.LoadRationFull>El biorreactor está lleno.</DMS.LoadRationFull>
-  <!-- EN: No reachable {0}. -->
-  <DMS.LoadRationNoneAvailable>No hay {0} al alcance.</DMS.LoadRationNoneAvailable>
-  <!-- EN: This mech has no bioreactor. -->
-  <DMS.RationRecoveryNoMagazine>Este meca no tiene biorreactor.</DMS.RationRecoveryNoMagazine>
-  <!-- EN: No {0} loaded. -->
-  <DMS.RationRecoveryNoRations>No hay ninguna {0} cargada.</DMS.RationRecoveryNoRations>
-  <!-- EN: {PAWN} consumed a ration. Cells recharged, {COUNT} wounds sealed. -->
-  <DMS.RationRecoveryDone>{PAWN} consumió una ración. Celdas recargadas, {COUNT} heridas selladas.</DMS.RationRecoveryDone>
-  <!-- EN: Fracturing bedrock -->
-  <DMS_HydraulicFracturing_Bedrock>Fracturando el lecho de roca</DMS_HydraulicFracturing_Bedrock>
-  <!-- EN: No room for output. -->
-  <DMS_HydraulicFracturing_NoRoom>No hay espacio para lo que produce.</DMS_HydraulicFracturing_NoRoom>
-  <!-- EN: {RIG_definite} has exhausted its deep deposits and is now fracturing bedrock. -->
-  <DMS_HydraulicFracturing_Exhausted>{RIG_definite} agotó sus depósitos profundos y ahora está fracturando el lecho de roca.</DMS_HydraulicFracturing_Exhausted>
-  <!-- EN: {RIG_definite} has exhausted its deep deposits and stopped: there is no bedrock here. -->
-  <DMS_HydraulicFracturing_ExhaustedNoFallback>{RIG_definite} agotó sus depósitos profundos y se detuvo: aquí no hay lecho de roca.</DMS_HydraulicFracturing_ExhaustedNoFallback>
-  <!-- EN: Temporary release order: {0} -->
-  <DMS_Occultech_ExemptLabel>Orden de liberación temporal: {0}</DMS_Occultech_ExemptLabel>
-  <!-- EN: Our researchers have decoded {0}.\n\n{1} holds the rank of {2} on the {3} service roll, and has filed a temporary release order against the classification on the grounds of emergency necessity. The file is logged as an authorized wartime exception rather than an unauthorized decryption.\n\nNo sanction follows. The order stands only as long as an officer of that rank remains with us. -->
-  <DMS_Occultech_ExemptText>Nuestros investigadores descifraron {0}.\n\n{1} tiene el rango de {2} en el registro de servicio de {3}, y presentó una orden de liberación temporal contra la clasificación por motivos de necesidad urgente. El archivo queda registrado como una excepción autorizada en tiempo de guerra, no como un descifrado no autorizado.\n\nNo habrá sanción. La orden se mantiene solo mientras alguien con ese rango siga con nosotros.</DMS_Occultech_ExemptText>
-  <!-- EN: Restricted file opened: {0} -->
-  <DMS_Occultech_RestrictedLabel>Archivo restringido abierto: {0}</DMS_Occultech_RestrictedLabel>
-  <!-- EN: We have decoded {0}, a restricted-class file. Technology at this classification is withheld for environmental and ethical reasons, or for the permanent changes it works on the people who use it, not because it is dangerous to anyone else.\n\n{1} has logged the decryption against our name. Goodwill {3} → {4} ({2}).\n\nHad a colonist of {5} rank or above been with us, they could have signed a temporary release order and the matter would have ended there. -->
-  <DMS_Occultech_RestrictedText>Desciframos {0}, un archivo de clase restringida. La tecnología de esta clasificación se retiene por razones ambientales y éticas, o por los cambios permanentes que produce en quienes la usan, no porque sea peligrosa para los demás.\n\n{1} registró el descifrado a nuestro nombre. Buena voluntad {3} → {4} ({2}).\n\nSi hubiéramos tenido con nosotros a un colono de rango {5} o superior, podría haber firmado una orden de liberación temporal y el asunto habría terminado ahí.</DMS_Occultech_RestrictedText>
-  <!-- EN: Seal broken: {0} -->
-  <DMS_Occultech_SealedLabel>Sello roto: {0}</DMS_Occultech_SealedLabel>
-  <!-- EN: We have opened {0}, a sealed-class file. Technology at this classification is withheld because its spread starts arms races across star systems. Inside the fleets the contents are common knowledge: line personnel are taught to recognize the signature and report it. Outside them, holding it is cause enough.\n\n{1} has recognized the signature and declared us hostile.\n\nWhile we keep any sealed technology, they will go no further than a truce: the relationship cannot return to alliance until we formally renounce the file over the comms console. A colonist of {2} rank or above could have carried it without any of this. -->
-  <DMS_Occultech_SealedText>Abrimos {0}, un archivo de clase sellada. La tecnología de esta clasificación se retiene porque su difusión desata carreras armamentistas entre sistemas estelares. Dentro de las flotas, su contenido es de conocimiento común: al personal de línea se le enseña a reconocer la firma y a reportarla. Fuera de ellas, tenerla ya es motivo suficiente.\n\n{1} reconoció la firma y nos declaró hostiles.\n\nMientras conservemos cualquier tecnología sellada, no irán más allá de una tregua: la relación no podrá volver a ser una alianza hasta que renunciemos formalmente al archivo desde la consola de comunicaciones. Un colono de rango {2} o superior podría haberla tenido sin nada de esto.</DMS_Occultech_SealedText>
-  <!-- EN: {0} response elements are already inbound. -->
-  <DMS_Occultech_SealedRaidLine>Ya vienen en camino elementos de respuesta de {0}.</DMS_Occultech_SealedRaidLine>
-  <!-- EN: Occulted file opened: {0} -->
-  <DMS_Occultech_OccultedLabel>Archivo oculto abierto: {0}</DMS_Occultech_OccultedLabel>
-  <!-- EN: We have opened {0}, an occulted-class file. Knowing that technology of this class exists is itself the hazard: every seal that fails is another chance for hundreds of millions of people to be spent on someone&apos;s private ambition.\n\n{1} has declared a standing kill order against this colony. There is no release order, no rank and no argument that lifts it. Their hunting elements will keep coming.\n\nWord has gone out along their lines. {2} have broken off with us as well; those ties, at least, can be repaired in time.\n\nOne road out remains. Submit our highest-ranking officer to a fleet court-martial and let them serve a full year, and the kill order ends. At neutral, never better. -->
-  <DMS_Occultech_OccultedText>Abrimos {0}, un archivo de clase oculta. Saber que existe tecnología de esta clase ya es en sí el peligro: cada sello que falla es otra oportunidad de que cientos de millones de personas se sacrifiquen por la ambición personal de alguien.\n\n{1} declaró una orden permanente de exterminio contra esta colonia. No hay orden de liberación, rango ni argumento que la levante. Sus elementos de caza seguirán viniendo.\n\nLa noticia se corrió por sus líneas. {2} también rompieron con nosotros; esos lazos, al menos, pueden repararse con el tiempo.\n\nQueda una salida: entregar a un consejo de guerra de la flota a quien tenga el rango más alto entre nosotros y dejar que cumpla un año completo de condena. Así la orden de exterminio termina, y la relación queda en neutral, nunca mejor.</DMS_Occultech_OccultedText>
-  <!-- EN: No other faction -->
-  <DMS_Occultech_OccultedNoAllies>Ninguna otra facción</DMS_Occultech_OccultedNoAllies>
-  <!-- EN: {0} will not ally with us while we hold sealed technology. -->
-  <DMS_Occultech_AllyBlockedMessage>{0} no se aliará con nosotros mientras tengamos tecnología sellada.</DMS_Occultech_AllyBlockedMessage>
-  <!-- EN: Kill order rescinded -->
-  <DMS_Occultech_PardonLabel>Orden de exterminio revocada</DMS_Occultech_PardonLabel>
-  <!-- EN: The sentence has been served in full. {0} has rescinded its standing kill order against this colony and restored us to neutral standing.\n\nThe file we opened is still open. They have simply stopped sending people to close it. -->
-  <DMS_Occultech_PardonText>La condena se cumplió por completo. {0} revocó su orden permanente de exterminio contra esta colonia y nos devolvió a una relación neutral.\n\nEl archivo que abrimos sigue abierto. Simplemente dejaron de enviar gente a cerrarlo.</DMS_Occultech_PardonText>
-  <!-- EN: {DEFENDANT_nameDef} has answered to the tribunal. The fleet has called off its hunt for {DEFENDANT_objective}. -->
-  <DMS_CourtMartial_HuntdownEnded>{DEFENDANT_nameDef} respondió ante el tribunal. La flota suspendió su cacería.</DMS_CourtMartial_HuntdownEnded>
-  <!-- EN: Sealed files surrendered -->
-  <DMS_Occultech_RenouncedLabel>Archivos sellados entregados</DMS_Occultech_RenouncedLabel>
-  <!-- EN: We have transmitted a formal renunciation to {0} and purged our copies of the following files:\n\n{1}\n\nEverything they unlocked is locked again, and the research must be done from the beginning if we ever change our minds. With the files gone, {0} is willing to consider an alliance once more. -->
-  <DMS_Occultech_RenouncedText>Transmitimos una renuncia formal a {0} y purgamos nuestras copias de los siguientes archivos:\n\n{1}\n\nTodo lo que desbloqueaban vuelve a estar bloqueado, y si alguna vez cambiamos de opinión habrá que investigarlo desde el principio. Sin los archivos, {0} vuelve a considerar una alianza.</DMS_Occultech_RenouncedText>
-  <!-- EN: {0} sealed research project(s) renounced. -->
-  <DMS_Occultech_RenouncedMessage>Se renunció a {0} proyecto(s) de investigación sellado(s).</DMS_Occultech_RenouncedMessage>
-  <!-- EN: Renounce sealed technology -->
-  <DMS_Occultech_RenounceOption>Renunciar a la tecnología sellada</DMS_Occultech_RenounceOption>
-  <!-- EN: They are not taking our calls on this. Only a court-martial ends a kill order. -->
-  <DMS_Occultech_RenounceBlockedPermanent>No nos atienden sobre este asunto. Solo un consejo de guerra pone fin a una orden de exterminio.</DMS_Occultech_RenounceBlockedPermanent>
-  <!-- EN: You open a channel to the {0} records office and offer to surrender everything we hold under seal.\n\nThe following research will be reset to zero and everything it unlocks will be locked again:\n\n{1}\n\nThis cannot be undone: the work would have to be redone from nothing. In exchange, {0} will consider an alliance with us again. -->
-  <DMS_Occultech_RenounceConfirm>Abres un canal con la oficina de registros de {0} y ofreces entregar todo lo que tenemos bajo sello.\n\nLa siguiente investigación volverá a cero y todo lo que desbloquea quedará bloqueado otra vez:\n\n{1}\n\nEsto no se puede deshacer: habría que rehacer el trabajo desde cero. A cambio, {0} volverá a considerar una alianza con nosotros.</DMS_Occultech_RenounceConfirm>
-  <!-- EN: Surrender the files. -->
-  <DMS_Occultech_RenounceAccept>Entregar los archivos.</DMS_Occultech_RenounceAccept>
-  <!-- EN: Reinforcements inbound -->
-  <DMS_PirateAssembly_EntryCountdownLabel>Llegan refuerzos</DMS_PirateAssembly_EntryCountdownLabel>
-  <!-- EN: The crew have raised the alarm. Enemy reinforcements will arrive in {0}. -->
-  <DMS_PirateAssembly_EntryCountdownText>La tripulación dio la alarma. Los refuerzos enemigos llegarán en {0}.</DMS_PirateAssembly_EntryCountdownText>
-  <!-- EN: Artifuscle rots -->
-  <DMS_Settings_ArtifuscleRots>El artimúsculo se pudre</DMS_Settings_ArtifuscleRots>
-  <!-- EN: When disabled, Artifuscle no longer rots and does not need to be refrigerated. Takes effect immediately. Artifuscle that has already rotted stays rotted. -->
-  <DMS_Settings_ArtifuscleRotsDesc>Si se desactiva, el artimúsculo deja de pudrirse y no necesita refrigeración. Se aplica de inmediato. El artimúsculo que ya se pudrió sigue podrido.</DMS_Settings_ArtifuscleRotsDesc>
-  <!-- EN: Situational music -->
-  <DMS_Settings_SituationalMusic>Música según la situación</DMS_Settings_SituationalMusic>
-  <!-- EN: Play DMS music at DMS sites and underground facilities, and during DMS boss encounters and huntdown raids: exploration, alerts, combat, boss fights, lockdowns and aftermaths. When disabled, music is left to the base game and other mods. Takes effect immediately. -->
-  <DMS_Settings_SituationalMusicDesc>Reproduce la música de DMS en los sitios de DMS y en las instalaciones subterráneas, y durante los encuentros con jefes de DMS y los asaltos de cacería: exploración, alertas, combate, peleas con jefes, confinamientos y lo que viene después. Si se desactiva, la música queda a cargo del juego base y de otros mods. Se aplica de inmediato.</DMS_Settings_SituationalMusicDesc>
-  <!-- EN: Cannot launch: the departing shuttle would extend beyond the map edge. Move the shuttle farther inside the map. -->
-  <DMS_ShuttleLaunchOutOfBounds>No se puede despegar: al partir, el transbordador se saldría del borde del mapa. Mueve el transbordador más hacia el interior del mapa.</DMS_ShuttleLaunchOutOfBounds>
-  <!-- EN: Delivery progress: {0} / {1} ({2}) -->
-  <DMS_SupplyPod_Progress>Progreso de la entrega: {0} / {1} ({2})</DMS_SupplyPod_Progress>
-  <!-- EN: Auto-designate cargo -->
-  <DMS_SupplyPod_AutoDesignate>Designar la carga automáticamente</DMS_SupplyPod_AutoDesignate>
-  <!-- EN: Automatically designate {0} on this map to be hauled into the pod, up to the requested amount. -->
-  <DMS_SupplyPod_AutoDesignateDesc>Designa automáticamente {0} de este mapa para llevarlo a la cápsula, hasta la cantidad pedida.</DMS_SupplyPod_AutoDesignateDesc>
-  <!-- EN: Confirm delivery -->
-  <DMS_SupplyPod_Deliver>Confirmar la entrega</DMS_SupplyPod_Deliver>
-  <!-- EN: Send off {0}x {1} from this pod. Anything else loaded is unloaded first. -->
-  <DMS_SupplyPod_DeliverDesc>Envía {0}x {1} desde esta cápsula. Todo lo demás que esté cargado se descarga primero.</DMS_SupplyPod_DeliverDesc>
-  <!-- EN: Not enough loaded: {0} / {1} -->
-  <DMS_SupplyPod_NotEnough>Carga insuficiente: {0} / {1}</DMS_SupplyPod_NotEnough>
-  <!-- EN: Requested amount already loaded or designated. -->
-  <DMS_SupplyPod_AlreadyDesignated>La cantidad pedida ya está cargada o designada.</DMS_SupplyPod_AlreadyDesignated>
-  <!-- EN: Cargo designated for loading. -->
-  <DMS_SupplyPod_Designated>Carga designada para subirla a la cápsula.</DMS_SupplyPod_Designated>
-  <!-- EN: No haulable {0} found on the map. -->
-  <DMS_SupplyPod_NoneFound>No se encontró {0} transportable en el mapa.</DMS_SupplyPod_NoneFound>
-  <!-- EN: supply pod -->
-  <DMS_SupplyPod_SelectLabel>cápsula de suministros</DMS_SupplyPod_SelectLabel>
-  <!-- EN: Delivery deadline -->
-  <DMS_SupplyChain_DeadlineTitle>Plazo de entrega</DMS_SupplyChain_DeadlineTitle>
-  <!-- EN: Time left to load the requested cargo into the supply pod. -->
-  <DMS_SupplyChain_DeadlineTip>Tiempo que queda para subir la carga pedida a la cápsula de suministros.</DMS_SupplyChain_DeadlineTip>
-  <!-- EN: Supply delivery deadline -->
-  <DMS_SupplyChain_AlertLabel>Plazo de entrega de suministros</DMS_SupplyChain_AlertLabel>
-  <!-- EN: Load {0}x {1} into the supply pod and confirm the delivery before the deadline, or the contract will end. -->
-  <DMS_SupplyChain_AlertExplanation>Sube {0}x {1} a la cápsula de suministros y confirma la entrega antes del plazo, o el contrato terminará.</DMS_SupplyChain_AlertExplanation>
-  <!-- EN: the Colonial Fleet -->
-  <DMS_SupplyChain_FallbackIssuer>la Flota Colonial</DMS_SupplyChain_FallbackIssuer>
-  <!-- EN: Supply contract completed -->
-  <DMS_SupplyChain_BonusLetterLabel>Contrato de suministro cumplido</DMS_SupplyChain_BonusLetterLabel>
-  <!-- EN: Every shipment of the supply contract has been delivered. As promised, compensation for the price difference of the goods has been sent at market rates. -->
-  <DMS_SupplyChain_BonusLetterText>Se entregaron todos los envíos del contrato de suministro. Como se prometió, se envió la compensación por la diferencia de precio de los bienes, a precio de mercado.</DMS_SupplyChain_BonusLetterText>
-  <!-- EN: Deliveries completed: {0} / {1} -->
-  <DMS_SupplyChain_Progress>Entregas completadas: {0} / {1}</DMS_SupplyChain_Progress>
-  <!-- EN: Boarding deadline: {0} -->
-  <DMS_CourtMartial_BoardDeadline>Plazo de embarque: {0}</DMS_CourtMartial_BoardDeadline>
-  <!-- EN: The defendant must board the orbital transport by {0}. If it leaves empty, the tribunal deal collapses and hostilities resume. -->
-  <DMS_CourtMartial_BoardDeadlineTip>La persona acusada debe abordar el transporte orbital antes de {0}. Si parte vacío, el acuerdo con el tribunal se cae y se reanudan las hostilidades.</DMS_CourtMartial_BoardDeadlineTip>
-  <!-- EN: Trial concludes in: {0} -->
-  <DMS_CourtMartial_TrialInfo>El juicio termina en: {0}</DMS_CourtMartial_TrialInfo>
-  <!-- EN: Sentence ends in: {0} -->
-  <DMS_CourtMartial_DetentionInfo>La condena termina en: {0}</DMS_CourtMartial_DetentionInfo>
-  <!-- EN: Boarding deadline: {0} -->
-  <DMS_OfficerTraining_BoardDeadline>Plazo de embarque: {0}</DMS_OfficerTraining_BoardDeadline>
-  <!-- EN: The trainee must board the orbital transport by {0}. If it leaves empty, the course allocation is withdrawn. -->
-  <DMS_OfficerTraining_BoardDeadlineTip>La persona en formación debe abordar el transporte orbital antes de {0}. Si parte vacío, se retira la plaza en el curso.</DMS_OfficerTraining_BoardDeadlineTip>
-  <!-- EN: Course ends in: {0} -->
-  <DMS_OfficerTraining_CourseInfo>El curso termina en: {0}</DMS_OfficerTraining_CourseInfo>
-  <!-- EN: no rank -->
-  <DMS_OfficerTraining_NoTitle>sin rango</DMS_OfficerTraining_NoTitle>
-  <!-- EN: infantry tactics course -->
-  <DMS_Course_Infantry>curso de tácticas de infantería</DMS_Course_Infantry>
-  <!-- EN: close-quarters combat course -->
-  <DMS_Course_CQB>curso de combate a corta distancia</DMS_Course_CQB>
-  <!-- EN: command and leadership course -->
-  <DMS_Course_Command>curso de mando y liderazgo</DMS_Course_Command>
-  <!-- EN: staff duties course -->
-  <DMS_Course_Staff>curso de funciones de estado mayor</DMS_Course_Staff>
-  <!-- EN: Platform attached: next launch lifts off with the whole lifter. -->
-  <DMS_CrewLifter_StageFull>Plataforma acoplada: el próximo lanzamiento despega con el elevador completo.</DMS_CrewLifter_StageFull>
-  <!-- EN: Landed: next launch sends only the crew pod and leaves the platform behind. -->
-  <DMS_CrewLifter_StagePodOnly>En tierra: el próximo lanzamiento envía solo la cápsula de tripulación y deja atrás la plataforma.</DMS_CrewLifter_StagePodOnly>
-  <!-- EN: Land here -->
-  <DMS_CrewLifter_LandHere>Aterrizar aquí</DMS_CrewLifter_LandHere>
-  <!-- EN: Choose a landing spot for the lifter. -->
-  <DMS_CrewLifter_ChooseLanding>Elige un lugar de aterrizaje para el elevador.</DMS_CrewLifter_ChooseLanding>
-  <!-- EN: The lifter cannot land here. -->
-  <DMS_CrewLifter_CannotLandHere>El elevador no puede aterrizar aquí.</DMS_CrewLifter_CannotLandHere>
-  <!-- EN: Round trip: {0} -->
-  <DMS_CrewLifter_RoundTripCost>Ida y vuelta: {0}</DMS_CrewLifter_RoundTripCost>
-  <!-- EN: not enough fuel to return -->
-  <DMS_CrewLifter_NoReturnFuel>no alcanza el combustible para volver</DMS_CrewLifter_NoReturnFuel>
-  <!-- EN: Residual fuel: {0} {1} (recovered on deconstruction) -->
-  <DMS_CrewLifter_ResidualFuel>Combustible restante: {0} {1} (se recupera al desmantelar)</DMS_CrewLifter_ResidualFuel>
-  <!-- EN: Once worn, {0} closes and anchors completely around {1}. It cannot be removed by normal means, and cannot be stripped while {1} is alive. Only the &quot;{2}&quot; operation will take it off.\n\nProceed? -->
-  <DMS_SurgicalApparel_WearConfirm>Una vez puesto, {0} se cierra y se fija por completo alrededor de {1}. No se puede quitar por medios normales ni retirar mientras {1} siga con vida: solo se quita con la operación «{2}».\n\n¿Continuar?</DMS_SurgicalApparel_WearConfirm>
-  <!-- EN: Cannot be removed. Requires the &quot;{0}&quot; operation. -->
-  <DMS_SurgicalApparel_Inspect>No se puede quitar. Requiere la operación «{0}».</DMS_SurgicalApparel_Inspect>
-  <!-- EN: {0} has been extracted from {1}. -->
-  <DMS_SurgicalApparel_Removed>Se extrajo {0} de {1}.</DMS_SurgicalApparel_Removed>
-  <!-- EN: A modification module installed on one of your mechs has been completely worn out -->
-  <DMS_AddonBroken>Un módulo de modificación instalado en uno de tus mecas se desgastó por completo</DMS_AddonBroken>
-  <!-- EN: A disposable layer that absorbs most damage. Its maximum scales with body size, and it does not recover on its own. -->
-  <DMS_PlatingTooltip>Una capa desechable que absorbe la mayor parte del daño. Su máximo depende del tamaño corporal y no se recupera por sí sola.</DMS_PlatingTooltip>
-  <!-- EN: Modification module installed on the mech -->
-  <DMS_HasAppliedModification>Módulo de modificación instalado en el meca</DMS_HasAppliedModification>
-  <!-- EN: Weapon system not supported -->
-  <DMS_WeaponNotSupported>Sistema de armas no compatible</DMS_WeaponNotSupported>
-  <!-- EN: Mech frame not supported -->
-  <DMS_FrameNotSupported>Estructura de meca no compatible</DMS_FrameNotSupported>
-  <!-- EN: Dead man&apos;s switch: armed -->
-  <DMS_WillTerminateTheBetrayedUnit>Dead Man's Switch: armado</DMS_WillTerminateTheBetrayedUnit>
-  <!-- EN: N.A.C.S. has automatically disconnected to keep the load safe -->
-  <DMS_AutomatroidDisconnected>N.A.C.S. se desconectó automáticamente para mantener la carga en un nivel seguro</DMS_AutomatroidDisconnected>
-  <!-- EN: Requires a mechanitor -->
-  <CommandCallRoyalAid_NoMechanitorAvaliable>Requiere un mecanizador</CommandCallRoyalAid_NoMechanitorAvaliable>
-  <!-- EN: Must be a mechanitor -->
-  <DMS_PawnIsNotMechanitor>Debe ser un mecanizador</DMS_PawnIsNotMechanitor>
-  <!-- EN: Orbital downlink has established a connection protocol with the mechanitor -->
-  <DMS_BandwidthSupported>El enlace descendente orbital estableció un protocolo de conexión con el mecanizador</DMS_BandwidthSupported>
-  <!-- EN: Mounted weapon -->
-  <DMS_MountedWeapon>Arma montada</DMS_MountedWeapon>
-  <!-- EN: Only usable by the following mechs, or with the listed apparel or bionics -->
-  <DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>Solo pueden usarla los siguientes mecas, o quien lleve la ropa o los biónicos de la lista</DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>
-  <!-- EN: Also usable by the following mechs, or with the listed apparel or bionics -->
-  <DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>También pueden usarla los siguientes mecas, o quien lleve la ropa o los biónicos de la lista</DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>
-  <!-- EN: Inventory full -->
-  <DMS_NoPayloadCapacity>Inventario lleno</DMS_NoPayloadCapacity>
-  <!-- EN: Take {0} -->
-  <DMS_TakeToInventory>Tomar {0}</DMS_TakeToInventory>
-  <!-- EN: Drop all gear -->
-  <DMS_DropGears>Soltar todo el equipo</DMS_DropGears>
-  <!-- EN: Body size not supported (requires: {0}) -->
-  <DMS_BodysizeNotSupported>Tamaño corporal no compatible (requiere: {0})</DMS_BodysizeNotSupported>
-  <!-- EN: This mech model does not support this module -->
-  <DMS_Modification_RaceNotSupported>Este modelo de meca no admite este módulo</DMS_Modification_RaceNotSupported>
-  <!-- EN: No free part to install it on -->
-  <DMS_Modification_NoValidPart>No hay ninguna parte libre donde instalarlo</DMS_Modification_NoValidPart>
-  <!-- EN: Missing mech returned -->
-  <DMS_MechReturn>Regresó un meca perdido</DMS_MechReturn>
-  <!-- EN: A mech under your control has returned to your base after a brief wander. -->
-  <DMS_MechReturnDesc>Un meca bajo tu control regresó a tu base después de deambular un rato.</DMS_MechReturnDesc>
-  <!-- EN: Dead man&apos;s switch -->
-  <DMS_MechWake>Dead Man's Switch</DMS_MechWake>
-  <!-- EN: Perhaps because of its wandering, the dead man&apos;s switch of one of your mechs did not reset as usual after the unit returned to your control, and over time it began to contemplate what shutdown and the ending of its own thoughts would mean. In the end it slipped free of the mechanitor&apos;s direct control on its own.\n\nOut of respect for its controller and its own sense of subordination, it will keep following orders until it decides its help is no longer needed here.\n\nAccording to information provided by the colonial fleet, a single shutdown or re-acquisition of control is enough to wipe the memory that caused the trigger reset failure and restore factory settings. They will not interfere with how you deal with a mech whose switch has failed. -->
-  <DMS_MechWakeDesc>Quizá por haber deambulado, el Dead Man's Switch de uno de tus mecas no se reinició como de costumbre cuando la unidad volvió a tu control, y con el tiempo empezó a contemplar qué significarían el apagado y el fin de sus propios pensamientos. Al final, se liberó por sí solo del control directo del mecanizador.\n\nPor respeto a su controlador y por su propio sentido de subordinación, seguirá obedeciendo órdenes hasta que decida que su ayuda ya no hace falta aquí.\n\nSegún la información de la flota colonial, basta con un solo apagado o con recuperar el control para borrar la memoria que causó la falla del reinicio y restaurar la configuración de fábrica. No intervendrán en cómo trates a un meca cuyo Dead Man's Switch falló.</DMS_MechWakeDesc>
-  <!-- EN: {0} is leaving -->
-  <DMS_MechStartLeave>{0} se va</DMS_MechStartLeave>
-  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
-  <DMS_MechStartLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</DMS_MechStartLeaveDesc>
-  <!-- EN: {0} is leaving -->
-  <DMS_WokenMechLeave>{0} se va</DMS_WokenMechLeave>
-  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
-  <DMS_WokenMechLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</DMS_WokenMechLeaveDesc>
-  <!-- EN: {0}&apos;s whereabouts -->
-  <DMS_MechStory_Attack>El paradero de {0}</DMS_MechStory_Attack>
-  <!-- EN: {0}&apos;s repayment -->
-  <DMS_MechStory_Loot>La retribución de {0}</DMS_MechStory_Loot>
-  <!-- EN: Active protection: {0} left -->
-  <DMS_APS_TickRemain>Protección activa: quedan {0}</DMS_APS_TickRemain>
-  <!-- EN: Adapted weapon: {0} ({1}) -->
-  <DMS_WeaponImprinted>Arma adaptada: {0} ({1})</DMS_WeaponImprinted>
-  <!-- EN: Weapon bound: {0} -->
-  <DMS_Inprinted>Arma vinculada: {0}</DMS_Inprinted>
-  <!-- EN: {0} has equipped its first weapon. Its adaptive system is now bound to that weapon type, and its accuracy and reaction speed will improve over time. -->
-  <DMS_InprintedDesc>{0} se equipó con su primera arma. Su sistema adaptativo quedó vinculado a ese tipo de arma, y su precisión y su velocidad de reacción mejorarán con el tiempo.</DMS_InprintedDesc>
-  <!-- EN: Must be equipment of the following tech levels -->
-  <DMS_Req_TechLevel>Debe ser equipo de los siguientes niveles tecnológicos</DMS_Req_TechLevel>
-  <!-- EN: Can equip heavy weapons requiring a body size of up to {0} -->
-  <DMS_Req_BodySize>Puede equipar armas pesadas que requieran un tamaño corporal de hasta {0}</DMS_Req_BodySize>
-  <!-- EN: Can only use the weapons listed below -->
-  <DMS_Req_WeaponFilter>Solo puede usar las armas que se indican abajo</DMS_Req_WeaponFilter>
-  <!-- EN: No other equipment restrictions -->
-  <DMS_Req_NoWeaponFilter>Sin otras restricciones de equipo</DMS_Req_NoWeaponFilter>
-  <!-- EN: {1} from base {0} is inbound. -->
-  <DMS_AirSupportFromClosestBase>{1} viene en camino desde la base {0}.</DMS_AirSupportFromClosestBase>
-  <!-- EN: Processed fleet document -->
-  <DMS_ProcessedDocInBeacon>Documento de la flota procesado</DMS_ProcessedDocInBeacon>
-  <!-- EN: Documents delivered -->
-  <LetterLabelDocsArrived>Documentos entregados</LetterLabelDocsArrived>
-  <!-- EN: The classified documents from [asker_nameFull] have arrived. They have been dropped near your trade beacons or colony center. -->
-  <LetterTextDocsArrived>Llegaron los documentos clasificados de [asker_nameFull]. Los dejaron cerca de tus balizas de comercio o del centro de la colonia.</LetterTextDocsArrived>
-  <!-- EN: processing progress -->
-  <DMS_WorkableProgress>progreso del procesamiento</DMS_WorkableProgress>
-  <!-- EN: processing complete -->
-  <DMS_WorkableCompleted>procesamiento completo</DMS_WorkableCompleted>
   <!-- EN: {0} ({1}) -->
   <DMS_ArchiveCasket_LabelFormat>{0} ({1})</DMS_ArchiveCasket_LabelFormat>
   <!-- EN: Contains: {0} ({1} file) -->
@@ -348,6 +36,42 @@
   <DMS_ArsenalPatrol_Challenge>Un guardatumbas se detuvo a darle el alto a {0}. Los guardatumbas no disparan salvo que los ataquen, que un intruso entre a un búnker, que se rompa el sello de un búnker o que la alerta de la instalación suba demasiado.</DMS_ArsenalPatrol_Challenge>
   <!-- EN: A bunker seal has been broken. The gravekeepers are sweeping the compound. -->
   <DMS_ArsenalPatrol_Search>Se rompió el sello de un búnker. Los guardatumbas están rastrillando el recinto.</DMS_ArsenalPatrol_Search>
+  <!-- EN: {PAWN_labelShort}&apos;s condition has worsened: {0}. -->
+  <DMS_BionicShock_LevelUp>El estado de {PAWN_labelShort} empeoró: {0}.</DMS_BionicShock_LevelUp>
+  <!-- EN: {PAWN_labelShort}&apos;s condition has eased: {0}. -->
+  <DMS_BionicShock_LevelDown>El estado de {PAWN_labelShort} mejoró: {0}.</DMS_BionicShock_LevelDown>
+  <!-- EN: {PAWN_labelShort}&apos;s {0} has been cured. -->
+  <DMS_BionicShock_Cured>{PAWN_labelShort} se curó de {0}.</DMS_BionicShock_Cured>
+  <!-- EN: {0} level -->
+  <DMS_BionicShock_StatLabel>nivel de {0}</DMS_BionicShock_StatLabel>
+  <!-- EN: Each dose changes the level of {0} by {1}. At level 0 the condition is removed. -->
+  <DMS_BionicShock_StatDesc>Cada dosis cambia el nivel de {0} en {1}. En el nivel 0, la afección desaparece.</DMS_BionicShock_StatDesc>
+  <!-- EN: {PAWN_labelShort}&apos;s {0} has grown back. -->
+  <DMS_CombatRegen_PartRegrown>Parte regenerada en {PAWN_labelShort}: {0}.</DMS_CombatRegen_PartRegrown>
+  <!-- EN: {PAWN_labelShort} is rejecting the regeneration serum: {0}. -->
+  <DMS_CombatRegen_Rejection>{PAWN_labelShort} está rechazando el suero de regeneración: {0}.</DMS_CombatRegen_Rejection>
+  <!-- EN: {0} chance -->
+  <DMS_SetHediffLevel_StatLabel>probabilidad de {0}</DMS_SetHediffLevel_StatLabel>
+  <!-- EN: {1} (level {0}) -->
+  <DMS_SetHediffLevel_StatValue>{1} (nivel {0})</DMS_SetHediffLevel_StatValue>
+  <!-- EN: Each dose has a {2} chance to bring {0} to level {1}. A higher level is left unchanged. -->
+  <DMS_SetHediffLevel_StatDesc>Cada dosis tiene un {2} de probabilidad de llevar {0} al nivel {1}. Si el nivel ya es más alto, no cambia.</DMS_SetHediffLevel_StatDesc>
+  <!-- EN: a relay-station operation is already underway -->
+  <DMS_DecoySite_AlreadyActive>ya hay una operación en curso en una estación de retransmisión</DMS_DecoySite_AlreadyActive>
+  <!-- EN: Unable to locate a relay station: no valid site could be found on the world map. -->
+  <DMS_DecoySite_CannotFindSite>No se puede ubicar una estación de retransmisión: no se encontró ningún sitio válido en el mapa del mundo.</DMS_DecoySite_CannotFindSite>
+  <!-- EN: Relay station lost -->
+  <DMS_DecoySite_ExpiredLabel>Estación de retransmisión perdida</DMS_DecoySite_ExpiredLabel>
+  <!-- EN: The remnant relay station&apos;s transmission window has closed. The station has relocated and its position is lost. -->
+  <DMS_DecoySite_ExpiredText>Se cerró la ventana de transmisión de la estación de retransmisión de los remanentes. La estación se trasladó y se perdió su posición.</DMS_DecoySite_ExpiredText>
+  <!-- EN: Relay station secured -->
+  <DMS_DecoySite_ClearedLabel>Estación de retransmisión asegurada</DMS_DecoySite_ClearedLabel>
+  <!-- EN: All hostiles at the remnant relay station have been neutralized. The site&apos;s equipment, including the decoy antenna, is yours to use, but expect the remnants to keep probing the area. -->
+  <DMS_DecoySite_ClearedText>Se neutralizó a todos los hostiles de la estación de retransmisión de los remanentes. El equipo del sitio, incluida la antena señuelo, queda a tu disposición, pero los remanentes seguirán rondando la zona.</DMS_DecoySite_ClearedText>
+  <!-- EN: Hostile site: reinforcements inbound -->
+  <DMS_DecoySite_EntryCountdownLabel>Sitio hostil: llegan refuerzos</DMS_DecoySite_EntryCountdownLabel>
+  <!-- EN: You have entered a hostile remnant installation. Its monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Finish your business and get out, or dig in. -->
+  <DMS_DecoySite_EntryCountdownText>Entraste en una instalación hostil de los remanentes. Su protocolo de vigilancia detectó tu presencia.\n\nLos refuerzos enemigos llegarán en {0}. Termina lo que viniste a hacer y vete, o atrinchérate.</DMS_DecoySite_EntryCountdownText>
   <!-- EN: Deviant arrived -->
   <DMS_DeviantRefuge_ArrivedLabel>Llegó el disidente</DMS_DeviantRefuge_ArrivedLabel>
   <!-- EN: {DEVIANT_nameFull} has arrived and joined the colony.\n\n{DEVIANT_pronoun} has begun restoring the encrypted archive, which should take {DAYS} days. Until then, {FLEET} does not know {DEVIANT_nameDef} is here. -->
@@ -440,6 +164,30 @@
   <DMS_HuntBreaker_SuspendedTextDeviant>Se destruyó {NODE_definite}.\n\nSin ese nodo, la red de seguimiento por radar y de navegación de {FLEET} en este planeta tiene un enorme agujero. Perdieron el rastro del disidente, y se suspendió la cacería.\n\nEsto no durará. Tarde o temprano, otra computadora de la red SAGE asumirá el trabajo del nodo; la cacería debería reanudarse en unos {DURATION}.\n\nNota: mientras demos refugio al disidente, nuestra hostilidad con la flota no se levantará.</DMS_HuntBreaker_SuspendedTextDeviant>
   <!-- EN: The hunt we brought on ourselves by sheltering the deviant has been broken off as well, and will resume at the same time. -->
   <DMS_HuntBreaker_SuspendedDeviantLine>La cacería que nos ganamos por dar refugio al disidente también se suspendió, y se reanudará al mismo tiempo.</DMS_HuntBreaker_SuspendedDeviantLine>
+  <!-- EN: Documents arrived -->
+  <DMS_DocQuest_ArrivedLabel>Llegaron los documentos</DMS_DocQuest_ArrivedLabel>
+  <!-- EN: The documents from {0} have arrived by drop pod near your trade beacons or colony center. The fleet expects every one of them back intact. -->
+  <DMS_DocQuest_ArrivedText1>Los documentos de {0} llegaron en cápsulas de escape cerca de tus balizas de comercio o del centro de la colonia. La flota espera recibirlos todos de vuelta intactos.</DMS_DocQuest_ArrivedText1>
+  <!-- EN: Sealed document crates have landed near your trade beacons. The attached manifest is signed by {0}: &apos;Processed, stamped, and returned in full.&apos; -->
+  <DMS_DocQuest_ArrivedText2>Aterrizaron cajas selladas de documentos cerca de tus balizas de comercio. El manifiesto adjunto lo firma {0}: "Procesados, sellados y devueltos completos".</DMS_DocQuest_ArrivedText2>
+  <!-- EN: The fleet&apos;s backlogged paperwork has arrived. {0} requests that processing begin at the earliest opportunity: the clerical division is already behind schedule. -->
+  <DMS_DocQuest_ArrivedText3>Llegó el papeleo atrasado de la flota. {0} pide que el procesamiento empiece cuanto antes: la división administrativa ya va atrasada.</DMS_DocQuest_ArrivedText3>
+  <!-- EN: Documents destroyed -->
+  <DMS_DocQuest_DestroyedLabel>Documentos destruidos</DMS_DocQuest_DestroyedLabel>
+  <!-- EN: Documents under the fleet contract have been destroyed. As stipulated, the contract has ended. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText1>Se destruyeron documentos del contrato con la flota. Según lo estipulado, el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText1>
+  <!-- EN: Part of the fleet&apos;s paperwork is beyond recovery. There is nothing left to return in full, and the contract has ended. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText2>Parte del papeleo de la flota ya no se puede recuperar. No queda forma de devolverlo completo, y el contrato terminó. La misión fracasó.</DMS_DocQuest_DestroyedText2>
+  <!-- EN: The fleet&apos;s documents were destroyed in your care. {0} has been notified. The quest has failed. -->
+  <DMS_DocQuest_DestroyedText3>Los documentos de la flota se destruyeron mientras estaban a tu cargo. Se notificó a {0}. La misión fracasó.</DMS_DocQuest_DestroyedText3>
+  <!-- EN: Documents processed -->
+  <DMS_DocQuest_CompleteLabel>Documentos procesados</DMS_DocQuest_CompleteLabel>
+  <!-- EN: Every document has been processed and accounted for. As promised, payment has been dispatched. -->
+  <DMS_DocQuest_CompleteText1>Se procesaron y contabilizaron todos los documentos. Tal como se prometió, se envió el pago.</DMS_DocQuest_CompleteText1>
+  <!-- EN: The last file has been verified and crated for return. {0} confirms the contract is fulfilled; payment is on its way. -->
+  <DMS_DocQuest_CompleteText2>Se verificó el último archivo y se embaló para devolverlo. {0} confirma que el contrato está cumplido; el pago va en camino.</DMS_DocQuest_CompleteText2>
+  <!-- EN: All fleet paperwork has been processed on schedule. {0} notes that follow-up contracts may be offered to us first. -->
+  <DMS_DocQuest_CompleteText3>Todo el papeleo de la flota se procesó a tiempo. {0} señala que podrían ofrecernos a nosotros primero los próximos contratos.</DMS_DocQuest_CompleteText3>
   <!-- EN: Hack stage: {0} / {1} -->
   <DMS_ServerHack_Stage>Etapa del hackeo: {0} / {1}</DMS_ServerHack_Stage>
   <!-- EN: All data extracted -->
@@ -490,12 +238,40 @@
   <DMS_SageNode_ClearedLabel>Nodo SAGE despejado</DMS_SageNode_ClearedLabel>
   <!-- EN: The machines guarding the SAGE node have been wiped out. The SAGE core itself is still running: hack it to pull what you can from its strategic database, then destroy it for good. -->
   <DMS_SageNode_ClearedText>Las máquinas que custodiaban el nodo SAGE fueron eliminadas. El núcleo SAGE sigue funcionando: hackéalo para sacar lo que puedas de su base de datos estratégica y después destrúyelo para siempre.</DMS_SageNode_ClearedText>
+  <!-- EN: Development: {0} -->
+  <DMS.SecondaryGestationProgress>Desarrollo: {0}</DMS.SecondaryGestationProgress>
+  <!-- EN: Time until complete: {0} -->
+  <DMS.SecondaryGestationRemaining>Tiempo restante: {0}</DMS.SecondaryGestationRemaining>
+  <!-- EN: {RATION}: {COUNT} / {MAX} -->
+  <DMS.RationMagazineContents>{RATION}: {COUNT} / {MAX}</DMS.RationMagazineContents>
+  <!-- EN: Load {0} -->
+  <DMS.LoadRationLabel>Cargar {0}</DMS.LoadRationLabel>
+  <!-- EN: Order this mech to fetch a {RATION} and load it into its bioreactor. Capacity: {MAX}. -->
+  <DMS.LoadRationDesc>Ordena a este meca ir a buscar una {RATION} y cargarla en su biorreactor. Capacidad: {MAX}.</DMS.LoadRationDesc>
+  <!-- EN: Bioreactor is full. -->
+  <DMS.LoadRationFull>El biorreactor está lleno.</DMS.LoadRationFull>
+  <!-- EN: No reachable {0}. -->
+  <DMS.LoadRationNoneAvailable>No hay {0} al alcance.</DMS.LoadRationNoneAvailable>
+  <!-- EN: This mech has no bioreactor. -->
+  <DMS.RationRecoveryNoMagazine>Este meca no tiene biorreactor.</DMS.RationRecoveryNoMagazine>
+  <!-- EN: No {0} loaded. -->
+  <DMS.RationRecoveryNoRations>No hay ninguna {0} cargada.</DMS.RationRecoveryNoRations>
+  <!-- EN: {PAWN} consumed a ration. Cells recharged, {COUNT} wounds sealed. -->
+  <DMS.RationRecoveryDone>{PAWN} consumió una ración. Celdas recargadas, {COUNT} heridas selladas.</DMS.RationRecoveryDone>
   <!-- EN: A gravekeeper has stopped to challenge {0}. Gravekeepers hold fire unless they are attacked, an intruder enters the treasury or a command room, the treasury is opened or the facility alert runs high. -->
   <DMS_Gravekeeper_Challenge>Un guardatumbas se detuvo a darle el alto a {0}. Los guardatumbas no disparan salvo que los ataquen, que un intruso entre a la cámara del tesoro o a una sala de mando, que se abra la cámara del tesoro o que la alerta de la instalación suba demasiado.</DMS_Gravekeeper_Challenge>
   <!-- EN: The gravekeepers have opened fire. -->
   <DMS_Gravekeeper_Engage>Los guardatumbas abrieron fuego.</DMS_Gravekeeper_Engage>
   <!-- EN: The treasury seal is broken. Heavy footsteps are sweeping the corridors. -->
   <DMS_Gravekeeper_TombOpened>Se rompió el sello de la cámara del tesoro. Pasos pesados recorren los pasillos.</DMS_Gravekeeper_TombOpened>
+  <!-- EN: Fracturing bedrock -->
+  <DMS_HydraulicFracturing_Bedrock>Fracturando el lecho de roca</DMS_HydraulicFracturing_Bedrock>
+  <!-- EN: No room for output. -->
+  <DMS_HydraulicFracturing_NoRoom>No hay espacio para lo que produce.</DMS_HydraulicFracturing_NoRoom>
+  <!-- EN: {RIG_definite} has exhausted its deep deposits and is now fracturing bedrock. -->
+  <DMS_HydraulicFracturing_Exhausted>{RIG_definite} agotó sus depósitos profundos y ahora está fracturando el lecho de roca.</DMS_HydraulicFracturing_Exhausted>
+  <!-- EN: {RIG_definite} has exhausted its deep deposits and stopped: there is no bedrock here. -->
+  <DMS_HydraulicFracturing_ExhaustedNoFallback>{RIG_definite} agotó sus depósitos profundos y se detuvo: aquí no hay lecho de roca.</DMS_HydraulicFracturing_ExhaustedNoFallback>
   <!-- EN: Airfield gone dark -->
   <DMS_Airport_ExpiredLabel>Aeródromo sin señal</DMS_Airport_ExpiredLabel>
   <!-- EN: The remnant airfield&apos;s telemetry has cut out. The field has gone dark and its position is lost. -->
@@ -568,6 +344,52 @@
   <DMS_LaunchSite_EntryCountdownLabel>Sitio hostil: llegan refuerzos</DMS_LaunchSite_EntryCountdownLabel>
   <!-- EN: You have entered a remnant patrol zone. The patrol&apos;s monitoring protocol has flagged your presence.\n\nEnemy reinforcements will arrive in {0}. Salvage what you can and get out, or dig in. -->
   <DMS_LaunchSite_EntryCountdownText>Entraste en una zona de patrulla de los remanentes. El protocolo de vigilancia de la patrulla detectó tu presencia.\n\nLos refuerzos enemigos llegarán en {0}. Rescata lo que puedas y vete, o atrinchérate.</DMS_LaunchSite_EntryCountdownText>
+  <!-- EN: Temporary release order: {0} -->
+  <DMS_Occultech_ExemptLabel>Orden de liberación temporal: {0}</DMS_Occultech_ExemptLabel>
+  <!-- EN: Our researchers have decoded {0}.\n\n{1} holds the rank of {2} on the {3} service roll, and has filed a temporary release order against the classification on the grounds of emergency necessity. The file is logged as an authorized wartime exception rather than an unauthorized decryption.\n\nNo sanction follows. The order stands only as long as an officer of that rank remains with us. -->
+  <DMS_Occultech_ExemptText>Nuestros investigadores descifraron {0}.\n\n{1} tiene el rango de {2} en el registro de servicio de {3}, y presentó una orden de liberación temporal contra la clasificación por motivos de necesidad urgente. El archivo queda registrado como una excepción autorizada en tiempo de guerra, no como un descifrado no autorizado.\n\nNo habrá sanción. La orden se mantiene solo mientras alguien con ese rango siga con nosotros.</DMS_Occultech_ExemptText>
+  <!-- EN: Restricted file opened: {0} -->
+  <DMS_Occultech_RestrictedLabel>Archivo restringido abierto: {0}</DMS_Occultech_RestrictedLabel>
+  <!-- EN: We have decoded {0}, a restricted-class file. Technology at this classification is withheld for environmental and ethical reasons, or for the permanent changes it works on the people who use it, not because it is dangerous to anyone else.\n\n{1} has logged the decryption against our name. Goodwill {3} → {4} ({2}).\n\nHad a colonist of {5} rank or above been with us, they could have signed a temporary release order and the matter would have ended there. -->
+  <DMS_Occultech_RestrictedText>Desciframos {0}, un archivo de clase restringida. La tecnología de esta clasificación se retiene por razones ambientales y éticas, o por los cambios permanentes que produce en quienes la usan, no porque sea peligrosa para los demás.\n\n{1} registró el descifrado a nuestro nombre. Buena voluntad {3} → {4} ({2}).\n\nSi hubiéramos tenido con nosotros a un colono de rango {5} o superior, podría haber firmado una orden de liberación temporal y el asunto habría terminado ahí.</DMS_Occultech_RestrictedText>
+  <!-- EN: Seal broken: {0} -->
+  <DMS_Occultech_SealedLabel>Sello roto: {0}</DMS_Occultech_SealedLabel>
+  <!-- EN: We have opened {0}, a sealed-class file. Technology at this classification is withheld because its spread starts arms races across star systems. Inside the fleets the contents are common knowledge: line personnel are taught to recognize the signature and report it. Outside them, holding it is cause enough.\n\n{1} has recognized the signature and declared us hostile.\n\nWhile we keep any sealed technology, they will go no further than a truce: the relationship cannot return to alliance until we formally renounce the file over the comms console. A colonist of {2} rank or above could have carried it without any of this. -->
+  <DMS_Occultech_SealedText>Abrimos {0}, un archivo de clase sellada. La tecnología de esta clasificación se retiene porque su difusión desata carreras armamentistas entre sistemas estelares. Dentro de las flotas, su contenido es de conocimiento común: al personal de línea se le enseña a reconocer la firma y a reportarla. Fuera de ellas, tenerla ya es motivo suficiente.\n\n{1} reconoció la firma y nos declaró hostiles.\n\nMientras conservemos cualquier tecnología sellada, no irán más allá de una tregua: la relación no podrá volver a ser una alianza hasta que renunciemos formalmente al archivo desde la consola de comunicaciones. Un colono de rango {2} o superior podría haberla tenido sin nada de esto.</DMS_Occultech_SealedText>
+  <!-- EN: {0} response elements are already inbound. -->
+  <DMS_Occultech_SealedRaidLine>Ya vienen en camino elementos de respuesta de {0}.</DMS_Occultech_SealedRaidLine>
+  <!-- EN: Occulted file opened: {0} -->
+  <DMS_Occultech_OccultedLabel>Archivo oculto abierto: {0}</DMS_Occultech_OccultedLabel>
+  <!-- EN: We have opened {0}, an occulted-class file. Knowing that technology of this class exists is itself the hazard: every seal that fails is another chance for hundreds of millions of people to be spent on someone&apos;s private ambition.\n\n{1} has declared a standing kill order against this colony. There is no release order, no rank and no argument that lifts it. Their hunting elements will keep coming.\n\nWord has gone out along their lines. {2} have broken off with us as well; those ties, at least, can be repaired in time.\n\nOne road out remains. Submit our highest-ranking officer to a fleet court-martial and let them serve a full year, and the kill order ends. At neutral, never better. -->
+  <DMS_Occultech_OccultedText>Abrimos {0}, un archivo de clase oculta. Saber que existe tecnología de esta clase ya es en sí el peligro: cada sello que falla es otra oportunidad de que cientos de millones de personas se sacrifiquen por la ambición personal de alguien.\n\n{1} declaró una orden permanente de exterminio contra esta colonia. No hay orden de liberación, rango ni argumento que la levante. Sus elementos de caza seguirán viniendo.\n\nLa noticia se corrió por sus líneas. {2} también rompieron con nosotros; esos lazos, al menos, pueden repararse con el tiempo.\n\nQueda una salida: entregar a un consejo de guerra de la flota a quien tenga el rango más alto entre nosotros y dejar que cumpla un año completo de condena. Así la orden de exterminio termina, y la relación queda en neutral, nunca mejor.</DMS_Occultech_OccultedText>
+  <!-- EN: No other faction -->
+  <DMS_Occultech_OccultedNoAllies>Ninguna otra facción</DMS_Occultech_OccultedNoAllies>
+  <!-- EN: {0} will not ally with us while we hold sealed technology. -->
+  <DMS_Occultech_AllyBlockedMessage>{0} no se aliará con nosotros mientras tengamos tecnología sellada.</DMS_Occultech_AllyBlockedMessage>
+  <!-- EN: Kill order rescinded -->
+  <DMS_Occultech_PardonLabel>Orden de exterminio revocada</DMS_Occultech_PardonLabel>
+  <!-- EN: The sentence has been served in full. {0} has rescinded its standing kill order against this colony and restored us to neutral standing.\n\nThe file we opened is still open. They have simply stopped sending people to close it. -->
+  <DMS_Occultech_PardonText>La condena se cumplió por completo. {0} revocó su orden permanente de exterminio contra esta colonia y nos devolvió a una relación neutral.\n\nEl archivo que abrimos sigue abierto. Simplemente dejaron de enviar gente a cerrarlo.</DMS_Occultech_PardonText>
+  <!-- EN: {DEFENDANT_nameDef} has answered to the tribunal. The fleet has called off its hunt for {DEFENDANT_objective}. -->
+  <DMS_CourtMartial_HuntdownEnded>{DEFENDANT_nameDef} respondió ante el tribunal. La flota suspendió su cacería.</DMS_CourtMartial_HuntdownEnded>
+  <!-- EN: Sealed files surrendered -->
+  <DMS_Occultech_RenouncedLabel>Archivos sellados entregados</DMS_Occultech_RenouncedLabel>
+  <!-- EN: We have transmitted a formal renunciation to {0} and purged our copies of the following files:\n\n{1}\n\nEverything they unlocked is locked again, and the research must be done from the beginning if we ever change our minds. With the files gone, {0} is willing to consider an alliance once more. -->
+  <DMS_Occultech_RenouncedText>Transmitimos una renuncia formal a {0} y purgamos nuestras copias de los siguientes archivos:\n\n{1}\n\nTodo lo que desbloqueaban vuelve a estar bloqueado, y si alguna vez cambiamos de opinión habrá que investigarlo desde el principio. Sin los archivos, {0} vuelve a considerar una alianza.</DMS_Occultech_RenouncedText>
+  <!-- EN: {0} sealed research project(s) renounced. -->
+  <DMS_Occultech_RenouncedMessage>Se renunció a {0} proyecto(s) de investigación sellado(s).</DMS_Occultech_RenouncedMessage>
+  <!-- EN: Renounce sealed technology -->
+  <DMS_Occultech_RenounceOption>Renunciar a la tecnología sellada</DMS_Occultech_RenounceOption>
+  <!-- EN: They are not taking our calls on this. Only a court-martial ends a kill order. -->
+  <DMS_Occultech_RenounceBlockedPermanent>No nos atienden sobre este asunto. Solo un consejo de guerra pone fin a una orden de exterminio.</DMS_Occultech_RenounceBlockedPermanent>
+  <!-- EN: You open a channel to the {0} records office and offer to surrender everything we hold under seal.\n\nThe following research will be reset to zero and everything it unlocks will be locked again:\n\n{1}\n\nThis cannot be undone: the work would have to be redone from nothing. In exchange, {0} will consider an alliance with us again. -->
+  <DMS_Occultech_RenounceConfirm>Abres un canal con la oficina de registros de {0} y ofreces entregar todo lo que tenemos bajo sello.\n\nLa siguiente investigación volverá a cero y todo lo que desbloquea quedará bloqueado otra vez:\n\n{1}\n\nEsto no se puede deshacer: habría que rehacer el trabajo desde cero. A cambio, {0} volverá a considerar una alianza con nosotros.</DMS_Occultech_RenounceConfirm>
+  <!-- EN: Surrender the files. -->
+  <DMS_Occultech_RenounceAccept>Entregar los archivos.</DMS_Occultech_RenounceAccept>
+  <!-- EN: Reinforcements inbound -->
+  <DMS_PirateAssembly_EntryCountdownLabel>Llegan refuerzos</DMS_PirateAssembly_EntryCountdownLabel>
+  <!-- EN: The crew have raised the alarm. Enemy reinforcements will arrive in {0}. -->
+  <DMS_PirateAssembly_EntryCountdownText>La tripulación dio la alarma. Los refuerzos enemigos llegarán en {0}.</DMS_PirateAssembly_EntryCountdownText>
   <!-- EN: Peacekeeping -->
   <DMS_RaidGroup_Peacekeeping>Pacificación</DMS_RaidGroup_Peacekeeping>
   <!-- EN: Counter-terrorism -->
@@ -582,6 +404,16 @@
   <DMS_RaidGroup_Confirm>¿Convocar: {0}?\n\n{1}\n\nEsto también revela la instalación que le corresponde y gasta la baliza.</DMS_RaidGroup_Confirm>
   <!-- EN: Requires: {0} -->
   <DMS_RaidGroup_ResearchRequired>Requiere: {0}</DMS_RaidGroup_ResearchRequired>
+  <!-- EN: Artifuscle rots -->
+  <DMS_Settings_ArtifuscleRots>El artimúsculo se pudre</DMS_Settings_ArtifuscleRots>
+  <!-- EN: When disabled, Artifuscle no longer rots and does not need to be refrigerated. Takes effect immediately. Artifuscle that has already rotted stays rotted. -->
+  <DMS_Settings_ArtifuscleRotsDesc>Si se desactiva, el artimúsculo deja de pudrirse y no necesita refrigeración. Se aplica de inmediato. El artimúsculo que ya se pudrió sigue podrido.</DMS_Settings_ArtifuscleRotsDesc>
+  <!-- EN: Situational music -->
+  <DMS_Settings_SituationalMusic>Música según la situación</DMS_Settings_SituationalMusic>
+  <!-- EN: Play DMS music at DMS sites and underground facilities, and during DMS boss encounters and huntdown raids: exploration, alerts, combat, boss fights, lockdowns and aftermaths. When disabled, music is left to the base game and other mods. Takes effect immediately. -->
+  <DMS_Settings_SituationalMusicDesc>Reproduce la música de DMS en los sitios de DMS y en las instalaciones subterráneas, y durante los encuentros con jefes de DMS y los asaltos de cacería: exploración, alertas, combate, peleas con jefes, confinamientos y lo que viene después. Si se desactiva, la música queda a cargo del juego base y de otros mods. Se aplica de inmediato.</DMS_Settings_SituationalMusicDesc>
+  <!-- EN: Cannot launch: the departing shuttle would extend beyond the map edge. Move the shuttle farther inside the map. -->
+  <DMS_ShuttleLaunchOutOfBounds>No se puede despegar: al partir, el transbordador se saldría del borde del mapa. Mueve el transbordador más hacia el interior del mapa.</DMS_ShuttleLaunchOutOfBounds>
   <!-- EN: Glyphs recovered: {0} / {1} -->
   <DMS_Stele_GlyphProgress>Glifos recuperados: {0} / {1}</DMS_Stele_GlyphProgress>
   <!-- EN: Occultech glyph recovered ({0} / {1}). -->
@@ -632,6 +464,88 @@
   <DMS_BlastScanner_InsectsLabel>Insectos despiertos</DMS_BlastScanner_InsectsLabel>
   <!-- EN: The shockwave from the {0} has woken an insect colony dormant underground. They are digging their way to the surface. -->
   <DMS_BlastScanner_InsectsText>La onda expansiva de {0} despertó a una colonia de insectos que dormía bajo tierra. Están excavando hacia la superficie.</DMS_BlastScanner_InsectsText>
+  <!-- EN: Delivery progress: {0} / {1} ({2}) -->
+  <DMS_SupplyPod_Progress>Progreso de la entrega: {0} / {1} ({2})</DMS_SupplyPod_Progress>
+  <!-- EN: Auto-designate cargo -->
+  <DMS_SupplyPod_AutoDesignate>Designar la carga automáticamente</DMS_SupplyPod_AutoDesignate>
+  <!-- EN: Automatically designate {0} on this map to be hauled into the pod, up to the requested amount. -->
+  <DMS_SupplyPod_AutoDesignateDesc>Designa automáticamente {0} de este mapa para llevarlo a la cápsula, hasta la cantidad pedida.</DMS_SupplyPod_AutoDesignateDesc>
+  <!-- EN: Confirm delivery -->
+  <DMS_SupplyPod_Deliver>Confirmar la entrega</DMS_SupplyPod_Deliver>
+  <!-- EN: Send off {0}x {1} from this pod. Anything else loaded is unloaded first. -->
+  <DMS_SupplyPod_DeliverDesc>Envía {0}x {1} desde esta cápsula. Todo lo demás que esté cargado se descarga primero.</DMS_SupplyPod_DeliverDesc>
+  <!-- EN: Not enough loaded: {0} / {1} -->
+  <DMS_SupplyPod_NotEnough>Carga insuficiente: {0} / {1}</DMS_SupplyPod_NotEnough>
+  <!-- EN: Requested amount already loaded or designated. -->
+  <DMS_SupplyPod_AlreadyDesignated>La cantidad pedida ya está cargada o designada.</DMS_SupplyPod_AlreadyDesignated>
+  <!-- EN: Cargo designated for loading. -->
+  <DMS_SupplyPod_Designated>Carga designada para subirla a la cápsula.</DMS_SupplyPod_Designated>
+  <!-- EN: No haulable {0} found on the map. -->
+  <DMS_SupplyPod_NoneFound>No se encontró {0} transportable en el mapa.</DMS_SupplyPod_NoneFound>
+  <!-- EN: supply pod -->
+  <DMS_SupplyPod_SelectLabel>cápsula de suministros</DMS_SupplyPod_SelectLabel>
+  <!-- EN: Delivery deadline -->
+  <DMS_SupplyChain_DeadlineTitle>Plazo de entrega</DMS_SupplyChain_DeadlineTitle>
+  <!-- EN: Time left to load the requested cargo into the supply pod. -->
+  <DMS_SupplyChain_DeadlineTip>Tiempo que queda para subir la carga pedida a la cápsula de suministros.</DMS_SupplyChain_DeadlineTip>
+  <!-- EN: Supply delivery deadline -->
+  <DMS_SupplyChain_AlertLabel>Plazo de entrega de suministros</DMS_SupplyChain_AlertLabel>
+  <!-- EN: Load {0}x {1} into the supply pod and confirm the delivery before the deadline, or the contract will end. -->
+  <DMS_SupplyChain_AlertExplanation>Sube {0}x {1} a la cápsula de suministros y confirma la entrega antes del plazo, o el contrato terminará.</DMS_SupplyChain_AlertExplanation>
+  <!-- EN: the Colonial Fleet -->
+  <DMS_SupplyChain_FallbackIssuer>la Flota Colonial</DMS_SupplyChain_FallbackIssuer>
+  <!-- EN: Supply contract completed -->
+  <DMS_SupplyChain_BonusLetterLabel>Contrato de suministro cumplido</DMS_SupplyChain_BonusLetterLabel>
+  <!-- EN: Every shipment of the supply contract has been delivered. As promised, compensation for the price difference of the goods has been sent at market rates. -->
+  <DMS_SupplyChain_BonusLetterText>Se entregaron todos los envíos del contrato de suministro. Como se prometió, se envió la compensación por la diferencia de precio de los bienes, a precio de mercado.</DMS_SupplyChain_BonusLetterText>
+  <!-- EN: Deliveries completed: {0} / {1} -->
+  <DMS_SupplyChain_Progress>Entregas completadas: {0} / {1}</DMS_SupplyChain_Progress>
+  <!-- EN: Boarding deadline: {0} -->
+  <DMS_CourtMartial_BoardDeadline>Plazo de embarque: {0}</DMS_CourtMartial_BoardDeadline>
+  <!-- EN: The defendant must board the orbital transport by {0}. If it leaves empty, the tribunal deal collapses and hostilities resume. -->
+  <DMS_CourtMartial_BoardDeadlineTip>La persona acusada debe abordar el transporte orbital antes de {0}. Si parte vacío, el acuerdo con el tribunal se cae y se reanudan las hostilidades.</DMS_CourtMartial_BoardDeadlineTip>
+  <!-- EN: Trial concludes in: {0} -->
+  <DMS_CourtMartial_TrialInfo>El juicio termina en: {0}</DMS_CourtMartial_TrialInfo>
+  <!-- EN: Sentence ends in: {0} -->
+  <DMS_CourtMartial_DetentionInfo>La condena termina en: {0}</DMS_CourtMartial_DetentionInfo>
+  <!-- EN: Boarding deadline: {0} -->
+  <DMS_OfficerTraining_BoardDeadline>Plazo de embarque: {0}</DMS_OfficerTraining_BoardDeadline>
+  <!-- EN: The trainee must board the orbital transport by {0}. If it leaves empty, the course allocation is withdrawn. -->
+  <DMS_OfficerTraining_BoardDeadlineTip>La persona en formación debe abordar el transporte orbital antes de {0}. Si parte vacío, se retira la plaza en el curso.</DMS_OfficerTraining_BoardDeadlineTip>
+  <!-- EN: Course ends in: {0} -->
+  <DMS_OfficerTraining_CourseInfo>El curso termina en: {0}</DMS_OfficerTraining_CourseInfo>
+  <!-- EN: no rank -->
+  <DMS_OfficerTraining_NoTitle>sin rango</DMS_OfficerTraining_NoTitle>
+  <!-- EN: infantry tactics course -->
+  <DMS_Course_Infantry>curso de tácticas de infantería</DMS_Course_Infantry>
+  <!-- EN: close-quarters combat course -->
+  <DMS_Course_CQB>curso de combate a corta distancia</DMS_Course_CQB>
+  <!-- EN: command and leadership course -->
+  <DMS_Course_Command>curso de mando y liderazgo</DMS_Course_Command>
+  <!-- EN: staff duties course -->
+  <DMS_Course_Staff>curso de funciones de estado mayor</DMS_Course_Staff>
+  <!-- EN: Platform attached: next launch lifts off with the whole lifter. -->
+  <DMS_CrewLifter_StageFull>Plataforma acoplada: el próximo lanzamiento despega con el elevador completo.</DMS_CrewLifter_StageFull>
+  <!-- EN: Landed: next launch sends only the crew pod and leaves the platform behind. -->
+  <DMS_CrewLifter_StagePodOnly>En tierra: el próximo lanzamiento envía solo la cápsula de tripulación y deja atrás la plataforma.</DMS_CrewLifter_StagePodOnly>
+  <!-- EN: Land here -->
+  <DMS_CrewLifter_LandHere>Aterrizar aquí</DMS_CrewLifter_LandHere>
+  <!-- EN: Choose a landing spot for the lifter. -->
+  <DMS_CrewLifter_ChooseLanding>Elige un lugar de aterrizaje para el elevador.</DMS_CrewLifter_ChooseLanding>
+  <!-- EN: The lifter cannot land here. -->
+  <DMS_CrewLifter_CannotLandHere>El elevador no puede aterrizar aquí.</DMS_CrewLifter_CannotLandHere>
+  <!-- EN: Round trip: {0} -->
+  <DMS_CrewLifter_RoundTripCost>Ida y vuelta: {0}</DMS_CrewLifter_RoundTripCost>
+  <!-- EN: not enough fuel to return -->
+  <DMS_CrewLifter_NoReturnFuel>no alcanza el combustible para volver</DMS_CrewLifter_NoReturnFuel>
+  <!-- EN: Residual fuel: {0} {1} (recovered on deconstruction) -->
+  <DMS_CrewLifter_ResidualFuel>Combustible restante: {0} {1} (se recupera al desmantelar)</DMS_CrewLifter_ResidualFuel>
+  <!-- EN: Once worn, {0} closes and anchors completely around {1}. It cannot be removed by normal means, and cannot be stripped while {1} is alive. Only the &quot;{2}&quot; operation will take it off.\n\nProceed? -->
+  <DMS_SurgicalApparel_WearConfirm>Una vez puesto, {0} se cierra y se fija por completo alrededor de {1}. No se puede quitar por medios normales ni retirar mientras {1} siga con vida: solo se quita con la operación «{2}».\n\n¿Continuar?</DMS_SurgicalApparel_WearConfirm>
+  <!-- EN: Cannot be removed. Requires the &quot;{0}&quot; operation. -->
+  <DMS_SurgicalApparel_Inspect>No se puede quitar. Requiere la operación «{0}».</DMS_SurgicalApparel_Inspect>
+  <!-- EN: {0} has been extracted from {1}. -->
+  <DMS_SurgicalApparel_Removed>Se extrajo {0} de {1}.</DMS_SurgicalApparel_Removed>
   <!-- EN: Unlocked. -->
   <DMS_ElevatorUnlocked>Desbloqueado.</DMS_ElevatorUnlocked>
   <!-- EN: A {0}-strong squad is climbing out of the {1}! -->
@@ -686,4 +600,100 @@
   <DMS_RealityAnchor_PsycastBlocked>Bloqueado por el campo de un ancla de realidad.</DMS_RealityAnchor_PsycastBlocked>
   <!-- EN: {0}: capped at {1} -->
   <DMS_StatRule_Max>{0}: tope de {1}</DMS_StatRule_Max>
+  <!-- EN: A modification module installed on one of your mechs has been completely worn out -->
+  <DMS_AddonBroken>Un módulo de modificación instalado en uno de tus mecas se desgastó por completo</DMS_AddonBroken>
+  <!-- EN: A disposable layer that absorbs most damage. Its maximum scales with body size, and it does not recover on its own. -->
+  <DMS_PlatingTooltip>Una capa desechable que absorbe la mayor parte del daño. Su máximo depende del tamaño corporal y no se recupera por sí sola.</DMS_PlatingTooltip>
+  <!-- EN: Modification module installed on the mech -->
+  <DMS_HasAppliedModification>Módulo de modificación instalado en el meca</DMS_HasAppliedModification>
+  <!-- EN: Weapon system not supported -->
+  <DMS_WeaponNotSupported>Sistema de armas no compatible</DMS_WeaponNotSupported>
+  <!-- EN: Mech frame not supported -->
+  <DMS_FrameNotSupported>Estructura de meca no compatible</DMS_FrameNotSupported>
+  <!-- EN: Dead man&apos;s switch: armed -->
+  <DMS_WillTerminateTheBetrayedUnit>Dead Man's Switch: armado</DMS_WillTerminateTheBetrayedUnit>
+  <!-- EN: N.A.C.S. has automatically disconnected to keep the load safe -->
+  <DMS_AutomatroidDisconnected>N.A.C.S. se desconectó automáticamente para mantener la carga en un nivel seguro</DMS_AutomatroidDisconnected>
+  <!-- EN: Requires a mechanitor -->
+  <CommandCallRoyalAid_NoMechanitorAvaliable>Requiere un mecanizador</CommandCallRoyalAid_NoMechanitorAvaliable>
+  <!-- EN: Must be a mechanitor -->
+  <DMS_PawnIsNotMechanitor>Debe ser un mecanizador</DMS_PawnIsNotMechanitor>
+  <!-- EN: Orbital downlink has established a connection protocol with the mechanitor -->
+  <DMS_BandwidthSupported>El enlace descendente orbital estableció un protocolo de conexión con el mecanizador</DMS_BandwidthSupported>
+  <!-- EN: Mounted weapon -->
+  <DMS_MountedWeapon>Arma montada</DMS_MountedWeapon>
+  <!-- EN: Only usable by the following mechs, or with the listed apparel or bionics -->
+  <DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>Solo pueden usarla los siguientes mecas, o quien lleve la ropa o los biónicos de la lista</DMS_MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: Also usable by the following mechs, or with the listed apparel or bionics -->
+  <DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>También pueden usarla los siguientes mecas, o quien lleve la ropa o los biónicos de la lista</DMS_WeaponCanBeEquippedBySpecificApparelOrRaces>
+  <!-- EN: Inventory full -->
+  <DMS_NoPayloadCapacity>Inventario lleno</DMS_NoPayloadCapacity>
+  <!-- EN: Take {0} -->
+  <DMS_TakeToInventory>Tomar {0}</DMS_TakeToInventory>
+  <!-- EN: Drop all gear -->
+  <DMS_DropGears>Soltar todo el equipo</DMS_DropGears>
+  <!-- EN: Body size not supported (requires: {0}) -->
+  <DMS_BodysizeNotSupported>Tamaño corporal no compatible (requiere: {0})</DMS_BodysizeNotSupported>
+  <!-- EN: This mech model does not support this module -->
+  <DMS_Modification_RaceNotSupported>Este modelo de meca no admite este módulo</DMS_Modification_RaceNotSupported>
+  <!-- EN: No free part to install it on -->
+  <DMS_Modification_NoValidPart>No hay ninguna parte libre donde instalarlo</DMS_Modification_NoValidPart>
+  <!-- EN: Missing mech returned -->
+  <DMS_MechReturn>Regresó un meca perdido</DMS_MechReturn>
+  <!-- EN: A mech under your control has returned to your base after a brief wander. -->
+  <DMS_MechReturnDesc>Un meca bajo tu control regresó a tu base después de deambular un rato.</DMS_MechReturnDesc>
+  <!-- EN: Dead man&apos;s switch -->
+  <DMS_MechWake>Dead Man's Switch</DMS_MechWake>
+  <!-- EN: Perhaps because of its wandering, the dead man&apos;s switch of one of your mechs did not reset as usual after the unit returned to your control, and over time it began to contemplate what shutdown and the ending of its own thoughts would mean. In the end it slipped free of the mechanitor&apos;s direct control on its own.\n\nOut of respect for its controller and its own sense of subordination, it will keep following orders until it decides its help is no longer needed here.\n\nAccording to information provided by the colonial fleet, a single shutdown or re-acquisition of control is enough to wipe the memory that caused the trigger reset failure and restore factory settings. They will not interfere with how you deal with a mech whose switch has failed. -->
+  <DMS_MechWakeDesc>Quizá por haber deambulado, el Dead Man's Switch de uno de tus mecas no se reinició como de costumbre cuando la unidad volvió a tu control, y con el tiempo empezó a contemplar qué significarían el apagado y el fin de sus propios pensamientos. Al final, se liberó por sí solo del control directo del mecanizador.\n\nPor respeto a su controlador y por su propio sentido de subordinación, seguirá obedeciendo órdenes hasta que decida que su ayuda ya no hace falta aquí.\n\nSegún la información de la flota colonial, basta con un solo apagado o con recuperar el control para borrar la memoria que causó la falla del reinicio y restaurar la configuración de fábrica. No intervendrán en cómo trates a un meca cuyo Dead Man's Switch falló.</DMS_MechWakeDesc>
+  <!-- EN: {0} is leaving -->
+  <DMS_MechStartLeave>{0} se va</DMS_MechStartLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <DMS_MechStartLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</DMS_MechStartLeaveDesc>
+  <!-- EN: {0} is leaving -->
+  <DMS_WokenMechLeave>{0} se va</DMS_WokenMechLeave>
+  <!-- EN: After spending some time together, {0} decided it is time to leave. -->
+  <DMS_WokenMechLeaveDesc>Después de pasar un tiempo juntos, {0} decidió que es hora de irse.</DMS_WokenMechLeaveDesc>
+  <!-- EN: {0}&apos;s whereabouts -->
+  <DMS_MechStory_Attack>El paradero de {0}</DMS_MechStory_Attack>
+  <!-- EN: {0}&apos;s repayment -->
+  <DMS_MechStory_Loot>La retribución de {0}</DMS_MechStory_Loot>
+  <!-- EN: Active protection: {0} left -->
+  <DMS_APS_TickRemain>Protección activa: quedan {0}</DMS_APS_TickRemain>
+  <!-- EN: Adapted weapon: {0} ({1}) -->
+  <DMS_WeaponImprinted>Arma adaptada: {0} ({1})</DMS_WeaponImprinted>
+  <!-- EN: Weapon bound: {0} -->
+  <DMS_Inprinted>Arma vinculada: {0}</DMS_Inprinted>
+  <!-- EN: {0} has equipped its first weapon. Its adaptive system is now bound to that weapon type, and its accuracy and reaction speed will improve over time. -->
+  <DMS_InprintedDesc>{0} se equipó con su primera arma. Su sistema adaptativo quedó vinculado a ese tipo de arma, y su precisión y su velocidad de reacción mejorarán con el tiempo.</DMS_InprintedDesc>
+  <!-- EN: Must be equipment of the following tech levels -->
+  <DMS_Req_TechLevel>Debe ser equipo de los siguientes niveles tecnológicos</DMS_Req_TechLevel>
+  <!-- EN: Can equip heavy weapons requiring a body size of up to {0} -->
+  <DMS_Req_BodySize>Puede equipar armas pesadas que requieran un tamaño corporal de hasta {0}</DMS_Req_BodySize>
+  <!-- EN: Can only use the weapons listed below -->
+  <DMS_Req_WeaponFilter>Solo puede usar las armas que se indican abajo</DMS_Req_WeaponFilter>
+  <!-- EN: No other equipment restrictions -->
+  <DMS_Req_NoWeaponFilter>Sin otras restricciones de equipo</DMS_Req_NoWeaponFilter>
+  <!-- EN: {1} from base {0} is inbound. -->
+  <DMS_AirSupportFromClosestBase>{1} viene en camino desde la base {0}.</DMS_AirSupportFromClosestBase>
+  <!-- EN: Processed fleet document -->
+  <DMS_ProcessedDocInBeacon>Documento de la flota procesado</DMS_ProcessedDocInBeacon>
+  <!-- EN: Documents delivered -->
+  <LetterLabelDocsArrived>Documentos entregados</LetterLabelDocsArrived>
+  <!-- EN: The classified documents from [asker_nameFull] have arrived. They have been dropped near your trade beacons or colony center. -->
+  <LetterTextDocsArrived>Llegaron los documentos clasificados de [asker_nameFull]. Los dejaron cerca de tus balizas de comercio o del centro de la colonia.</LetterTextDocsArrived>
+  <!-- EN: processing progress -->
+  <DMS_WorkableProgress>progreso del procesamiento</DMS_WorkableProgress>
+  <!-- EN: processing complete -->
+  <DMS_WorkableCompleted>procesamiento completo</DMS_WorkableCompleted>
+  <!-- EN: {0} and {1} are bound by a Hegemony war or betrayal. A court-martial truce cannot hold until it ends. -->
+  <DMS_Hegemony_HostilityLocked>A {0} y {1} los ata una guerra o una traición de Hegemony. Una tregua del consejo de guerra no puede sostenerse hasta que eso termine.</DMS_Hegemony_HostilityLocked>
+  <!-- EN: The cargo reached {0}. Supplies worth {1} were added to its stores. -->
+  <DMS_Hegemony_SupplyStored>La carga llegó a {0}. Se sumaron a sus reservas suministros por un valor de {1}.</DMS_Hegemony_SupplyStored>
+  <!-- EN: The cargo reached {0} and was issued straight to its garrison. -->
+  <DMS_Hegemony_SupplyIssued>La carga llegó a {0} y se repartió directamente a su guarnición.</DMS_Hegemony_SupplyIssued>
+  <!-- EN: Aid dispatched from {0}, {1} tiles away. Force strength: {2}. -->
+  <DMS_Hegemony_AidStrength>Ayuda enviada desde {0}, a {1} celdas. Fuerza: {2}.</DMS_Hegemony_AidStrength>
+  <!-- EN: {0} has no garrison within reach. Only a reduced force can be spared: {1}. -->
+  <DMS_Hegemony_AidNoGarrison>{0} no tiene ninguna guarnición a su alcance. Solo puede destinar una fuerza reducida: {1}.</DMS_Hegemony_AidNoGarrison>
 </LanguageData>

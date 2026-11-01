@@ -326,6 +326,23 @@ después de cada una, está en [ARMAS-DMS.md](ARMAS-DMS.md).
 | Caretta | caretta | | Hound | sabueso |
 | Killdozer | demoledor | | Verling bird | dron explorador |
 
+## Edificios para Hegemony (actualización del 31-oct-2026)
+
+Las etapas siguen el estilo de las de Hegemony: *complex* «complejo», *industrial park* «parque
+industrial», y *cluster* «conjunto de …».
+
+| Inglés | Español | Notas |
+|---|---|---|
+| automated workbenches | **mesas de trabajo automatizadas** | El grupo del menú |
+| tungsteel foundry / component stamping plant | **fundición de tungstanio** / **planta de estampado de componentes** | |
+| artiprotein vats / synthetic fibre mill / field supply depot | **cubas de artiproteína** / **hilandería de fibras sintéticas** / **depósito de suministros de campaña** | |
+| salvage (primera etapa) | **de chatarra** | «fundidora de chatarra», «mesa de piezas de chatarra» |
+| bloomery forge | **forja de horno bajo** | |
+| Taxes can send X home | **Los impuestos pueden enviar X a casa** | |
+| chain of command faction influence | **influencia de facción: cadena de mando** | Como «influencia de facción: origen budista» de Hegemony |
+| court-martial truce | **tregua del consejo de guerra** | |
+| plasfiber | **plasfibra** | Ya en RML |
+
 ## Pendientes
 
 Inconsistencias que ya estaban en las traducciones. No se corrigieron en las etapas 1 a 3

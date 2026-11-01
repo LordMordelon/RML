@@ -122,6 +122,14 @@
   <DMS_WeaponInprint.stages.4.label>especializado</DMS_WeaponInprint.stages.4.label>
   <!-- EN: maximized -->
   <DMS_WeaponInprint.stages.5.label>maximizado</DMS_WeaponInprint.stages.5.label>
+  <!-- EN: reality anchored -->
+  <DMS_RealityAnchored.label>anclado a la realidad</DMS_RealityAnchored.label>
+  <!-- EN: This creature stands inside a reality anchor&apos;s stabilized field. No connection beyond this dimension can form here: its capacities and physical limits cannot exceed 120% of normal, it cannot cast psycasts, and it cannot stay invisible.\n\nThe effect lifts within moments of leaving the field. -->
+  <DMS_RealityAnchored.description>Esta criatura está dentro del campo estabilizado de un ancla de realidad. Aquí no se puede formar ninguna conexión más allá de esta dimensión: sus capacidades y límites físicos no pueden superar el 120% de lo normal, no puede lanzar psicoemisiones y no puede mantenerse invisible.\n\nEl efecto desaparece momentos después de salir del campo.</DMS_RealityAnchored.description>
+  <!-- EN: reality suppressed -->
+  <DMS_RealitySuppressed.label>realidad suprimida</DMS_RealitySuppressed.label>
+  <!-- EN: A reality anchor&apos;s field is pinning this creature to ordinary physics. The transcendent properties that sustain it are being stripped away: it moves and acts sluggishly, strikes with half its strength and is far easier to hold in containment.\n\nThe effect lifts within moments of leaving the field. -->
+  <DMS_RealitySuppressed.description>El campo de un ancla de realidad está sujetando a esta criatura a la física común. Le están arrancando las propiedades trascendentes que la sostienen: se mueve y actúa con torpeza, golpea con la mitad de su fuerza y es mucho más fácil de mantener contenida.\n\nEl efecto desaparece momentos después de salir del campo.</DMS_RealitySuppressed.description>
   <!-- EN: Visual Sensor -->
   <DMS_ProstheticEye.label>sensor de visión</DMS_ProstheticEye.label>
   <!-- EN: a bionic sensor -->
@@ -228,6 +236,38 @@
   <DMS_SensibilityBlockerHigh.label>sensibilidad bloqueada</DMS_SensibilityBlockerHigh.label>
   <!-- EN: A sensibility blocker is suppressing affective thought. The subject no longer cares about their surroundings: secondary needs are suspended and environment-related negative thoughts have no effect on mood. -->
   <DMS_SensibilityBlockerHigh.description>Un bloqueador de sensibilidad está suprimiendo el pensamiento afectivo. Al sujeto ya no le importa su entorno: las necesidades secundarias quedan en pausa y los pensamientos negativos por el entorno no afectan su estado de ánimo.</DMS_SensibilityBlockerHigh.description>
+  <!-- EN: infrasonic trauma -->
+  <DMS_SubsonicTrauma.label>trauma infrasónico</DMS_SubsonicTrauma.label>
+  <!-- EN: Tuned infrasound has set this creature&apos;s inner ear and viscera resonating. It causes nausea, disorientation and deep, diffuse pain that no wound explains. The keener a creature&apos;s hearing, the harder it is hit; a deaf creature is unaffected. Repeated exposure stacks up quickly, and at its worst the pain alone is enough to cause shock.\n\nThe effect fades on its own within a couple of hours. -->
+  <DMS_SubsonicTrauma.description>Un infrasonido sintonizado hizo resonar el oído interno y las vísceras de esta criatura. Causa náuseas, desorientación y un dolor profundo y difuso que ninguna herida explica. Cuanto más fino es el oído de una criatura, más fuerte la afecta; a una criatura sorda no le hace nada. La exposición repetida se acumula rápido y, en el peor de los casos, el dolor basta por sí solo para provocar un shock.\n\nEl efecto se pasa solo en un par de horas.</DMS_SubsonicTrauma.description>
+  <!-- EN: discomfort -->
+  <DMS_SubsonicTrauma.stages.0.label>malestar</DMS_SubsonicTrauma.stages.0.label>
+  <!-- EN: disoriented -->
+  <DMS_SubsonicTrauma.stages.1.label>desorientación</DMS_SubsonicTrauma.stages.1.label>
+  <!-- EN: agonizing -->
+  <DMS_SubsonicTrauma.stages.2.label>agonía</DMS_SubsonicTrauma.stages.2.label>
+  <!-- EN: {0} in the {1} -->
+  <DMS_InfrasoundRupture.labelNounPretty>la {0} en {1_gender ? el : la} {1}</DMS_InfrasoundRupture.labelNounPretty>
+  <!-- EN: infrasonic rupture -->
+  <DMS_InfrasoundRupture.label>ruptura infrasónica</DMS_InfrasoundRupture.label>
+  <!-- EN: an infrasonic rupture -->
+  <DMS_InfrasoundRupture.labelNoun>una ruptura infrasónica</DMS_InfrasoundRupture.labelNoun>
+  <!-- EN: Tissue torn apart from the inside by resonating infrasound. Left untreated, it can scar into permanent hearing loss. -->
+  <DMS_InfrasoundRupture.description>Tejido desgarrado desde adentro por la resonancia de un infrasonido. Sin tratar, puede cicatrizar en una pérdida de audición permanente.</DMS_InfrasoundRupture.description>
+  <!-- EN: Ruptured -->
+  <DMS_InfrasoundRupture.injuryProps.destroyedLabel>Reventado(a)</DMS_InfrasoundRupture.injuryProps.destroyedLabel>
+  <!-- EN: treated -->
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: repaired -->
+  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>reparada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: infrasonic scarring -->
+  <DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz infrasónica</DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: infrasonic module -->
+  <DMS_SubsonicModule.label>módulo de infrasonido</DMS_SubsonicModule.label>
+  <!-- EN: A tuned infrasound emitter array mounted on the hull. It lets the mech release a burst of infrasound that wracks nearby living enemies with pain and panic. -->
+  <DMS_SubsonicModule.description>Un conjunto de emisores de infrasonido sintonizados montado en el casco. Le permite al meca soltar una ráfaga de infrasonido que llena de dolor y pánico a los enemigos vivos cercanos.</DMS_SubsonicModule.description>
   <!-- EN: Ceramic Plates -->
   <DMS_CeramicsPlating.label>placas de cerámica</DMS_CeramicsPlating.label>
   <!-- EN: Disposable ceramic armor that effectively protects the wearer from small arms fire and shrapnel.\n\nAlthough it is an excellent protective armor, it must be completely replaced once damaged. -->
@@ -292,44 +332,4 @@
   <DMS_BandNode.label>nodo de banda (N.A.C.S.)</DMS_BandNode.label>
   <!-- EN: Following the N.A.C.S. protocol, the assisted computing array has increased this mechanitor&apos;s bandwidth. -->
   <DMS_BandNode.description>Siguiendo el protocolo N.A.C.S., el conjunto de computación asistida ha aumentado la banda ancha de este mecanizador.</DMS_BandNode.description>
-  <!-- EN: reality anchored -->
-  <DMS_RealityAnchored.label>anclado a la realidad</DMS_RealityAnchored.label>
-  <!-- EN: This creature stands inside a reality anchor&apos;s stabilized field. No connection beyond this dimension can form here: its capacities and physical limits cannot exceed 120% of normal, it cannot cast psycasts, and it cannot stay invisible.\n\nThe effect lifts within moments of leaving the field. -->
-  <DMS_RealityAnchored.description>Esta criatura está dentro del campo estabilizado de un ancla de realidad. Aquí no se puede formar ninguna conexión más allá de esta dimensión: sus capacidades y límites físicos no pueden superar el 120% de lo normal, no puede lanzar psicoemisiones y no puede mantenerse invisible.\n\nEl efecto desaparece momentos después de salir del campo.</DMS_RealityAnchored.description>
-  <!-- EN: reality suppressed -->
-  <DMS_RealitySuppressed.label>realidad suprimida</DMS_RealitySuppressed.label>
-  <!-- EN: A reality anchor&apos;s field is pinning this creature to ordinary physics. The transcendent properties that sustain it are being stripped away: it moves and acts sluggishly, strikes with half its strength and is far easier to hold in containment.\n\nThe effect lifts within moments of leaving the field. -->
-  <DMS_RealitySuppressed.description>El campo de un ancla de realidad está sujetando a esta criatura a la física común. Le están arrancando las propiedades trascendentes que la sostienen: se mueve y actúa con torpeza, golpea con la mitad de su fuerza y es mucho más fácil de mantener contenida.\n\nEl efecto desaparece momentos después de salir del campo.</DMS_RealitySuppressed.description>
-  <!-- EN: infrasonic trauma -->
-  <DMS_SubsonicTrauma.label>trauma infrasónico</DMS_SubsonicTrauma.label>
-  <!-- EN: Tuned infrasound has set this creature&apos;s inner ear and viscera resonating. It causes nausea, disorientation and deep, diffuse pain that no wound explains. The keener a creature&apos;s hearing, the harder it is hit; a deaf creature is unaffected. Repeated exposure stacks up quickly, and at its worst the pain alone is enough to cause shock.\n\nThe effect fades on its own within a couple of hours. -->
-  <DMS_SubsonicTrauma.description>Un infrasonido sintonizado hizo resonar el oído interno y las vísceras de esta criatura. Causa náuseas, desorientación y un dolor profundo y difuso que ninguna herida explica. Cuanto más fino es el oído de una criatura, más fuerte la afecta; a una criatura sorda no le hace nada. La exposición repetida se acumula rápido y, en el peor de los casos, el dolor basta por sí solo para provocar un shock.\n\nEl efecto se pasa solo en un par de horas.</DMS_SubsonicTrauma.description>
-  <!-- EN: discomfort -->
-  <DMS_SubsonicTrauma.stages.0.label>malestar</DMS_SubsonicTrauma.stages.0.label>
-  <!-- EN: disoriented -->
-  <DMS_SubsonicTrauma.stages.1.label>desorientación</DMS_SubsonicTrauma.stages.1.label>
-  <!-- EN: agonizing -->
-  <DMS_SubsonicTrauma.stages.2.label>agonía</DMS_SubsonicTrauma.stages.2.label>
-  <!-- EN: {0} in the {1} -->
-  <DMS_InfrasoundRupture.labelNounPretty>la {0} en {1_gender ? el : la} {1}</DMS_InfrasoundRupture.labelNounPretty>
-  <!-- EN: infrasonic rupture -->
-  <DMS_InfrasoundRupture.label>ruptura infrasónica</DMS_InfrasoundRupture.label>
-  <!-- EN: an infrasonic rupture -->
-  <DMS_InfrasoundRupture.labelNoun>una ruptura infrasónica</DMS_InfrasoundRupture.labelNoun>
-  <!-- EN: Tissue torn apart from the inside by resonating infrasound. Left untreated, it can scar into permanent hearing loss. -->
-  <DMS_InfrasoundRupture.description>Tejido desgarrado desde adentro por la resonancia de un infrasonido. Sin tratar, puede cicatrizar en una pérdida de audición permanente.</DMS_InfrasoundRupture.description>
-  <!-- EN: Ruptured -->
-  <DMS_InfrasoundRupture.injuryProps.destroyedLabel>Reventado(a)</DMS_InfrasoundRupture.injuryProps.destroyedLabel>
-  <!-- EN: treated -->
-  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: treated -->
-  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>tratada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <!-- EN: repaired -->
-  <DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>reparada</DMS_InfrasoundRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: infrasonic scarring -->
-  <DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz infrasónica</DMS_InfrasoundRupture.comps.HediffComp_GetsPermanent.permanentLabel>
-  <!-- EN: infrasonic module -->
-  <DMS_SubsonicModule.label>módulo de infrasonido</DMS_SubsonicModule.label>
-  <!-- EN: A tuned infrasound emitter array mounted on the hull. It lets the mech release a burst of infrasound that wracks nearby living enemies with pain and panic. -->
-  <DMS_SubsonicModule.description>Un conjunto de emisores de infrasonido sintonizados montado en el casco. Le permite al meca soltar una ráfaga de infrasonido que llena de dolor y pánico a los enemigos vivos cercanos.</DMS_SubsonicModule.description>
 </LanguageData>
