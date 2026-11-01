@@ -335,7 +335,10 @@ que el daño ya existía y el cambio solo lo destapó.
 **El mensaje de commit dice qué se tocó y en qué mod.** «Magic: devolver sus nombres a las
 reglas del meme Transcendent» sirve; «correccion» no. Cuando aparece una pérdida, se rastrea
 con `git log`, y una fila de «correccion» obliga a abrir cada commit para saber cuál fue.
-Un commit por arreglo: si uno resulta mal, se revierte ese solo.
+**Un commit por mod** (Angel, 1-nov-2026): una tanda de correcciones o una traducción va en un solo commit
+por mod, que es más fácil de revisar que uno por arreglo. El cuerpo del mensaje lista cada arreglo en una
+línea, para que `git log` siga diciendo qué se cambió. Lo que cruza varios mods (un término en todos) va en
+un commit aparte, que nombra el término.
 
 ## Editar XML de traducción
 

@@ -156,16 +156,17 @@ se vio ese día, sin tocar nada:
 ## Próxima sesión (1-nov-2026)
 
 **Objetivo:** leer las descripciones de Vanilla Races Expanded - Insector contra el inglés y el juego, y armar su glosario.
-**Estado:** Android leído entero, con glosario y sus 21 correcciones aplicadas (de 38083f7e a 2966ba01, **sin push**).
+**Estado:** Android leído entero, con glosario y sus 21 correcciones aplicadas (de 38083f7e a 2966ba01, subidas el 1-nov-2026).
 Lycanthrope también está leído; los otros 12 mods, no. *serious* ya es «serio/seria».
-**Antes de empezarla (Angel):** decir si se suben los commits de Android. Si quieres, probar en el juego los
+**Antes de empezarla (Angel):** nada. Si quieres, probar en el juego los
 trasfondos de una androide (el género) y el botón «Modo de suspensión».
 **Al empezar (Claude):**
 1. `git -C RML pull` (otra sesión deja archivos sin commitear: el `rebase.autoStash` los guarda y los devuelve).
 2. Insector: 526 textos. Leerlos contra el `EN`, armar `GLOSARIO-INSECTOR.md` en su carpeta y proponer en una tabla
    en el chat, con la columna «Dónde se ve en el juego» y si hay oficial o no. Mirar los trasfondos (género).
 3. Comparar cada propuesta con el juego antes de aplicarla (`Herramientas/oficial/oficial.py`, `--contiene`). Aplicar
-   con `traducir.py corregir`, un commit por arreglo, y `traducir.py comprobar` antes de cada commit. La comprobación
+   con `traducir.py corregir`, **un solo commit para todo Insector** (Angel, 1-nov-2026; cada arreglo en una línea
+   del cuerpo), y `traducir.py comprobar` antes del commit. La comprobación
    1 y la 5 muestran a propósito los textos cambiados: tienen que ser solo esos.
 4. Archon (374) va en la siguiente. Vanilla Backstories Expanded, cuando Angel lo pida (ver arriba).
 **Decisiones de Angel:** ninguna pendiente.
