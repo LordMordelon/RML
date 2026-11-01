@@ -33,13 +33,13 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
 ## Decisiones de Angel
 
 - [x] Que lo haga el extractor para todos los mods (1-nov-2026).
-- [ ] **Aprobar este plan.** Es grande: toca el extractor, publica una versión y suma unos 1270 `TODO` en
+- [x] **Plan aprobado por Angel el 1-nov-2026.** Es grande: toca el extractor, publica una versión y suma unos 1270 `TODO` en
   16 mods. Antes de cambiar el extractor, probar en el juego que un `titleFemale` agregado a mano en un
   trasfondo que no lo trae se ve (por ejemplo, uno de Vanilla Backstories Expanded).
 
 ## Próxima sesión
 
-**Objetivo:** con el plan aprobado, hacer el paso 1 (extractor y su prueba) y el paso 2 con Vanilla
+**Objetivo:** (plan aprobado) primero la prueba en el juego: agregar a mano un `titleFemale` a un trasfondo de Vanilla Backstories Expanded, regenerar `output/` y pedirle a Angel que lo mire con una colona. Si se ve, hacer el paso 1 (extractor y su prueba) y el paso 2 con Vanilla
 Backstories Expanded.
 **Al empezar (Claude):** `git -C RML pull` y `git -C RimworldExtractor pull`; leer este plan y «Escribir sobre
 RML» de `RimworldExtractor/AGENTS.md`. Buscar dónde extrae los campos de un def (`Extractor.ExtractDefsInternal`).
