@@ -96,3 +96,23 @@ La traducción es buena; lo que se propone:
 - Leer las descripciones de cada mod contra el inglés, empezando por Android, Insector y Archon,
   que son los más grandes. Conviene hacerlo en sesiones aparte, de a dos o tres mods.
 - Glosario por mod a medida que se lean (como `GLOSARIO-VPE.md`).
+
+## Próxima sesión (1-nov-2026)
+
+**Objetivo:** leer las descripciones de Vanilla Races Expanded - Android contra el inglés y el juego, y armar su glosario.
+**Estado:** las 31 correcciones de este plan están aplicadas y subidas (4dcce5fc). Lycanthrope tiene glosario y está
+leído entero; los otros 13 mods, no. VPE, Hemosage y Puppeteer quedaron revisados y subidos aparte (`PLAN-VPE.md`).
+**Antes de empezarla (Angel):** nada. Si quieres, probar en el juego los cambios de VPE y VRE y anotar lo raro.
+**Al empezar (Claude):**
+1. `git -C RML pull` para descartar las copias viejas de los commits de VPE en el `master` local (otra sesión deja
+   archivos sin commitear: el `rebase.autoStash` los guarda y los devuelve).
+2. Android: 716 textos. Leerlos contra el `EN`, armar `GLOSARIO-ANDROID.md` en su carpeta y proponer en una tabla en
+   el chat, con la columna «Dónde se ve en el juego» y si hay oficial o no.
+3. Comparar cada propuesta con el juego antes de aplicarla (`Herramientas/oficial/oficial.py`, `--contiene`). Aplicar
+   con tabla y script, un commit por arreglo, y `traducir.py comprobar` antes de cada commit.
+4. Android solo cabe en una sesión. Insector (526) y Archon (374) van en las siguientes.
+**Decisiones de Angel:** *serious* en las etapas de hipotermia y golpe de calor: el juego dice «serio/seria», VRE dice
+«grave». Recomendación: «serio/seria», como el juego.
+**Guías:** ninguna skill de tarea; reglas en `RML/AGENTS.md` («Editar XML de traducción», «Antes de commitear»).
+**Dónde leer:** este plan; `GLOSARIO.md`; `Data/!Oskar Potocki/Vanilla Races Expanded - Lycanthrope - 3114453100/GLOSARIO-LYCANTHROPE.md`
+como modelo de glosario.
