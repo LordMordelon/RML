@@ -699,7 +699,7 @@
   <!-- EN: Party gear -->
   <EX_PartyGear>Equipo del grupo</EX_PartyGear>
   <!-- EN: Shooting +{0} · Melee +{1} · Injury reduction {2} -->
-  <EX_GearTotal>Tiro +{0} · Cuerpo a cuerpo +{1} · Reducción de heridas {2}</EX_GearTotal>
+  <EX_GearTotal>Tiro +{0} · Lucha +{1} · Menos heridas {2}</EX_GearTotal>
   <!-- EN: {0} ({1} +{2}) -->
   <EX_GearWeapon>{0} ({1} +{2})</EX_GearWeapon>
   <!-- EN: {0}: {1} · armor {2} -->
@@ -709,7 +709,7 @@
   <!-- EN: All skills +{0} -->
   <EX_ExpTotal>Todas las habilidades +{0}</EX_ExpTotal>
   <!-- EN: Expedition Lv.{0}: all skills +{1} · great expedition chance {2} -->
-  <EX_ExpTeam>Nv. de expedición {0}: todas las habilidades +{1} · probabilidad de una gran expedición {2}</EX_ExpTeam>
+  <EX_ExpTeam>Nivel de expedición {0}: todas las habilidades +{1} · probabilidad de una gran expedición {2}</EX_ExpTeam>
   <!-- EN: {0} exp. Lv.{1} ({2}): all skills +{3} -->
   <EX_ExpMember>{0}, nv. exp. {1} ({2}): todas las habilidades +{3}</EX_ExpMember>
   <!-- EN: {0}/{1} -->
@@ -743,7 +743,7 @@
   <!-- EN: Taking requests is turned off. -->
   <EX_ReqNoneOff>Recibir encargos está desactivado.</EX_ReqNoneOff>
   <!-- EN: {0} · {1} day(s) · {2} -->
-  <EX_ReqCardInfo>{0} · {1} día(s) · {2}</EX_ReqCardInfo>
+  <EX_ReqCardInfo>{0} · {1} d · {2}</EX_ReqCardInfo>
   <!-- EN: Accept within: {0} -->
   <EX_ReqExpiresIn>Aceptar antes de: {0}</EX_ReqExpiresIn>
   <!-- EN: Request -->
@@ -783,53 +783,53 @@
   <!-- EN: Request: {0} — {1} -->
   <EX_HistRequest>Encargo: {0} — {1}</EX_HistRequest>
   <!-- EN: Suppression -->
-  <EX_ReqStyle_Combat>Eliminación</EX_ReqStyle_Combat>
+  <EX_ReqStyle_Combat>Combate</EX_ReqStyle_Combat>
   <!-- EN: Hunt -->
   <EX_ReqStyle_Hunt>Caza</EX_ReqStyle_Hunt>
   <!-- EN: Gathering -->
-  <EX_ReqStyle_Gather>Recolección</EX_ReqStyle_Gather>
+  <EX_ReqStyle_Gather>Cosecha</EX_ReqStyle_Gather>
   <!-- EN: Relief -->
   <EX_ReqStyle_Medical>Socorro</EX_ReqStyle_Medical>
   <!-- EN: Survey -->
-  <EX_ReqStyle_Research>Reconocimiento</EX_ReqStyle_Research>
+  <EX_ReqStyle_Research>Estudio</EX_ReqStyle_Research>
   <!-- EN: Escort -->
   <EX_ReqStyle_Escort>Escolta</EX_ReqStyle_Escort>
   <!-- EN: Raider Sweep -->
-  <EX_ReqTitle_Combat_0>Barrido de saqueadores</EX_ReqTitle_Combat_0>
+  <EX_ReqTitle_Combat_0>Barrer bandidos</EX_ReqTitle_Combat_0>
   <!-- EN: Pirate Hunt -->
-  <EX_ReqTitle_Combat_1>Cacería de piratas</EX_ReqTitle_Combat_1>
+  <EX_ReqTitle_Combat_1>Caza de piratas</EX_ReqTitle_Combat_1>
   <!-- EN: Rogue Machine Takedown -->
-  <EX_ReqTitle_Combat_2>Derribo de máquinas descontroladas</EX_ReqTitle_Combat_2>
+  <EX_ReqTitle_Combat_2>Máquinas locas</EX_ReqTitle_Combat_2>
   <!-- EN: Beast Hunt -->
-  <EX_ReqTitle_Hunt_0>Caza de la bestia</EX_ReqTitle_Hunt_0>
+  <EX_ReqTitle_Hunt_0>Cazar la bestia</EX_ReqTitle_Hunt_0>
   <!-- EN: Winter Meat Stockpile -->
-  <EX_ReqTitle_Hunt_1>Reserva de carne para el invierno</EX_ReqTitle_Hunt_1>
+  <EX_ReqTitle_Hunt_1>Carne invernal</EX_ReqTitle_Hunt_1>
   <!-- EN: Hunting Contest Rematch -->
-  <EX_ReqTitle_Hunt_2>Revancha del concurso de caza</EX_ReqTitle_Hunt_2>
+  <EX_ReqTitle_Hunt_2>La revancha</EX_ReqTitle_Hunt_2>
   <!-- EN: Herb Gathering -->
-  <EX_ReqTitle_Gather_0>Recolección de hierbas</EX_ReqTitle_Gather_0>
+  <EX_ReqTitle_Gather_0>Juntar hierbas</EX_ReqTitle_Gather_0>
   <!-- EN: Rare Plant Collection -->
-  <EX_ReqTitle_Gather_1>Colecta de plantas raras</EX_ReqTitle_Gather_1>
+  <EX_ReqTitle_Gather_1>Plantas raras</EX_ReqTitle_Gather_1>
   <!-- EN: Wild Fruit Harvest -->
-  <EX_ReqTitle_Gather_2>Cosecha de fruta silvestre</EX_ReqTitle_Gather_2>
+  <EX_ReqTitle_Gather_2>Fruta silvestre</EX_ReqTitle_Gather_2>
   <!-- EN: Fever Village Relief -->
-  <EX_ReqTitle_Medical_0>Socorro a la aldea de la fiebre</EX_ReqTitle_Medical_0>
+  <EX_ReqTitle_Medical_0>Aldea febril</EX_ReqTitle_Medical_0>
   <!-- EN: Treating the Wounded -->
-  <EX_ReqTitle_Medical_1>Atender a los heridos</EX_ReqTitle_Medical_1>
+  <EX_ReqTitle_Medical_1>Atender heridos</EX_ReqTitle_Medical_1>
   <!-- EN: Relief Supply Run -->
-  <EX_ReqTitle_Medical_2>Envío de suministros de socorro</EX_ReqTitle_Medical_2>
+  <EX_ReqTitle_Medical_2>Llevar socorro</EX_ReqTitle_Medical_2>
   <!-- EN: Ancient Ruins Survey -->
-  <EX_ReqTitle_Research_0>Reconocimiento de ruinas antiguas</EX_ReqTitle_Research_0>
+  <EX_ReqTitle_Research_0>Ruinas antiguas</EX_ReqTitle_Research_0>
   <!-- EN: Cracking the Sealed Vault -->
-  <EX_ReqTitle_Research_1>Abrir la bóveda sellada</EX_ReqTitle_Research_1>
+  <EX_ReqTitle_Research_1>Bóveda sellada</EX_ReqTitle_Research_1>
   <!-- EN: Data Recovery from the Wreck -->
-  <EX_ReqTitle_Research_2>Recuperar datos de los restos</EX_ReqTitle_Research_2>
+  <EX_ReqTitle_Research_2>Rescatar datos</EX_ReqTitle_Research_2>
   <!-- EN: Caravan Escort -->
-  <EX_ReqTitle_Escort_0>Escolta de caravana</EX_ReqTitle_Escort_0>
+  <EX_ReqTitle_Escort_0>Caravana segura</EX_ReqTitle_Escort_0>
   <!-- EN: Envoy Protection -->
-  <EX_ReqTitle_Escort_1>Protección de un enviado</EX_ReqTitle_Escort_1>
+  <EX_ReqTitle_Escort_1>Enviado a salvo</EX_ReqTitle_Escort_1>
   <!-- EN: Supply Column Escort -->
-  <EX_ReqTitle_Escort_2>Escolta de un convoy de suministros</EX_ReqTitle_Escort_2>
+  <EX_ReqTitle_Escort_2>Convoy seguro</EX_ReqTitle_Escort_2>
   <!-- EN: Pirates have camped on the road outside our village. Their toll is &apos;everything you own.&apos; We gave up on negotiating. -->
   <EX_ReqQuote_Combat_0>Unos piratas acamparon en el camino a las afueras de nuestra aldea. Su peaje es «todo lo que tienes». Dejamos de negociar.</EX_ReqQuote_Combat_0>
   <!-- EN: Someone steals our chickens every night. The culprits are seven armed raiders. Those must be some chickens. -->
@@ -1097,7 +1097,7 @@
   <!-- EN: Experience +{0}, weapons +{1}, traits {2}, furniture +{3} -->
   <EX_StatBonusTipFull>Experiencia +{0}, armas +{1}, rasgos {2}, muebles +{3}</EX_StatBonusTipFull>
   <!-- EN: All skills +{0} · great expedition chance {1} -->
-  <EX_ExpTotalFull>Todas las habilidades +{0} · probabilidad de una gran expedición {1}</EX_ExpTotalFull>
+  <EX_ExpTotalFull>Todas las habilidades +{0} · gran expedición {1}</EX_ExpTotalFull>
   <!-- EN: Slave revolt -->
   <EX_Kind_Rebellion>Rebelión de esclavos</EX_Kind_Rebellion>
   <!-- EN: Led by {0}, the slaves rose up in revolt! -->
@@ -1247,7 +1247,7 @@
   <!-- EN: How long until a new request comes in. Each wait is rolled at random within this range. -->
   <EX_Settings_RequestInterval_Tip>Cuánto falta para que llegue un encargo nuevo. Cada espera se sortea al azar dentro de este rango.</EX_Settings_RequestInterval_Tip>
   <!-- EN: Accept within {0} -->
-  <EX_ReqUntil>Aceptar antes de {0}</EX_ReqUntil>
+  <EX_ReqUntil>Plazo: {0}</EX_ReqUntil>
   <!-- EN: Decline -->
   <EX_ReqDeclineShort>Rechazar</EX_ReqDeclineShort>
   <!-- EN: Needed skills: -->
