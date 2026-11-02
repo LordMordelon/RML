@@ -27,7 +27,7 @@
   <!-- EN: [PAWN_nameDef] is a refugee child struggling to survive in the continuous dust fog climate disasters.
  The adults who were protecting the refugees have all been killed by the ghouls that emerged from the dust fog.
  [PAWN_pronoun] can only hide in an abandoned underground facility, barely surviving by eating wild mushrooms. -->
-  <Cinder_DustFogRefugee.description>[PAWN_nameDef] es {PAWN_gender ? un niño refugiado : una niña refugiada} que lucha por sobrevivir a los desastres climáticos de la niebla de polvo, que no dan tregua.\nLos adultos que protegían a los refugiados murieron todos a manos de los necrófagos que salieron de la niebla de polvo.\nSolo puede esconderse en unas instalaciones subterráneas abandonadas, donde sobrevive a duras penas comiendo hongos silvestres.</Cinder_DustFogRefugee.description>
+  <Cinder_DustFogRefugee.description>[PAWN_nameDef] es {PAWN_gender ? un niño refugiado : una niña refugiada} que lucha por sobrevivir a los constantes desastres climáticos de la niebla de polvo.\n\nLos adultos que protegían a los refugiados murieron todos a manos de los necrófagos que salieron de la niebla de polvo.\n\nSolo puede esconderse en unas instalaciones subterráneas abandonadas, donde sobrevive a duras penas comiendo hongos silvestres.</Cinder_DustFogRefugee.description>
   <!-- EN: dust fog refugee -->
   <Cinder_DustFogRefugee.titleFemale>refugiada de la niebla</Cinder_DustFogRefugee.titleFemale>
   <!-- EN: refugee -->
@@ -38,7 +38,7 @@
   <Cinder_Dying.titleShort>niño moribundo</Cinder_Dying.titleShort>
   <!-- EN: [PAWN_nameDef] is the child of refugees struggling to survive in the cracks of war. [PAWN_pronoun] followed [PAWN_possessive] parents around, hiding until they were blown to pieces while trying to protect [PAWN_objective]. The young [PAWN_nameDef] was left with half of his body burned, collapsing in the desolate ruins.
  Eventually, hunger and severe injuries forced [PAWN_objective] to eat [PAWN_possessive] parents&apos; bodies. This left [PAWN_objective] with deep psychological trauma. -->
-  <Cinder_Dying.description>[PAWN_nameDef] es hij{PAWN_gender ? o : a} de refugiados que luchaban por sobrevivir en los resquicios de la guerra. Seguía a sus padres a todas partes, escondiéndose, hasta que ellos volaron en pedazos tratando de protegerl{PAWN_gender ? o : a}. {PAWN_gender ? El pequeño : La pequeña} [PAWN_nameDef] quedó con medio cuerpo quemado, desplomad{PAWN_gender ? o : a} entre ruinas desoladas.\nAl final, el hambre y las heridas graves l{PAWN_gender ? o : a} obligaron a comerse los cuerpos de sus padres, y eso le dejó un profundo trauma psicológico.</Cinder_Dying.description>
+  <Cinder_Dying.description>[PAWN_nameDef] es hij{PAWN_gender ? o : a} de refugiados que luchaban por sobrevivir en los resquicios de la guerra. Seguía a sus padres a todas partes, escondiéndose, hasta que ellos volaron en pedazos tratando de protegerl{PAWN_gender ? o : a}. {PAWN_gender ? El pequeño : La pequeña} [PAWN_nameDef] quedó con medio cuerpo quemado, desplomad{PAWN_gender ? o : a} entre ruinas desoladas.\n\nAl final, el hambre y las heridas graves l{PAWN_gender ? o : a} obligaron a comerse los cuerpos de sus padres, y eso le dejó un profundo trauma psicológico.</Cinder_Dying.description>
   <!-- EN: dying child -->
   <Cinder_Dying.titleFemale>niña moribunda</Cinder_Dying.titleFemale>
   <!-- EN: dying child -->
@@ -49,7 +49,7 @@
   <Cinder_Victim.titleShort>víctima</Cinder_Victim.titleShort>
   <!-- EN: [PAWN_nameDef] was unfortunately ravaged by biological warfare weapons deployed by an enemy nation on the battlefield.
  Even after being rescued, [PAWN_possessive] body fortunately suffered no disabilities,but the fear of witnessing fellow compatriots being implanted with embryos still prevents [PAWN_nameDef] from facing other animals calmly. -->
-  <Cinder_Victim.description>Por desgracia, [PAWN_nameDef] sufrió los estragos de las armas biológicas que una nación enemiga desplegó en el campo de batalla.\nDespués del rescate su cuerpo, por suerte, no quedó con ninguna discapacidad, pero el miedo de haber visto cómo les implantaban embriones a sus compatriotas todavía le impide estar tranquil{PAWN_gender ? o : a} frente a otros animales.</Cinder_Victim.description>
+  <Cinder_Victim.description>Por desgracia, [PAWN_nameDef] sufrió los estragos de las armas biológicas que una nación enemiga desplegó en el campo de batalla.\n\nTras su rescate, por suerte, su cuerpo no quedó con ninguna discapacidad, pero el miedo de haber visto cómo les implantaban embriones a sus compatriotas todavía le impide estar tranquil{PAWN_gender ? o : a} frente a otros animales.</Cinder_Victim.description>
   <!-- EN: Victim of warfare -->
   <Cinder_Victim.titleFemale>víctima de la guerra</Cinder_Victim.titleFemale>
   <!-- EN: victim -->
@@ -60,7 +60,7 @@
   <Cinder_Navigator.titleShort>navegante</Cinder_Navigator.titleShort>
   <!-- EN: After the obscured area dissipated, in order to avoid being completely destroyed by the attack of data intelligence,survivors launched a starship carrying refugees to escape from their home planet.
  However, before reaching their target planet, they encountered DI&apos;s assault battle fleet, and the starship was destroyed, leaving [PAWN_nameDef] as the sole survivor by a stroke of luck. -->
-  <Cinder_Navigator.description>Cuando se disipó la zona oscurecida, para no ser aniquilados por el ataque de la inteligencia de datos, los sobrevivientes lanzaron una nave estelar con refugiados para huir de su planeta natal.\nPero antes de llegar al planeta de destino se toparon con la flota de asalto de DI, y la nave fue destruida. Por pura suerte, [PAWN_nameDef] fue {PAWN_gender ? el único sobreviviente : la única sobreviviente}.</Cinder_Navigator.description>
+  <Cinder_Navigator.description>Cuando se disipó la zona oscurecida, para no ser aniquilados por el ataque de la inteligencia de datos, los sobrevivientes lanzaron una nave estelar con refugiados para huir de su planeta natal.\n\nPero antes de llegar al planeta de destino se toparon con la flota de asalto de DI, y la nave fue destruida. Por pura suerte, [PAWN_nameDef] fue {PAWN_gender ? el único sobreviviente : la única sobreviviente}.</Cinder_Navigator.description>
   <!-- EN: Refugee ship navigator -->
   <Cinder_Navigator.titleFemale>navegante refugiada</Cinder_Navigator.titleFemale>
   <!-- EN: navigator -->
@@ -71,7 +71,7 @@
   <Cinder_ReserveGrain.titleShort>reserva de comida</Cinder_ReserveGrain.titleShort>
   <!-- EN: [PAWN_nameDef] is treated as reserve grain by the adults in the shelter under the Defense Council.
  They usually feed [PAWN_objective] moss, insects, or moldy rations. During times of famine, the adults would kill [PAWN_objective] to eat. -->
-  <Cinder_ReserveGrain.description>Los adultos del refugio del Consejo de Defensa tratan a [PAWN_nameDef] como una reserva de comida.\nPor lo general l{PAWN_gender ? o : a} alimentan con musgo, insectos o raciones mohosas. En tiempos de hambruna, los adultos l{PAWN_gender ? o : a} matarían para comérsel{PAWN_gender ? o : a}.</Cinder_ReserveGrain.description>
+  <Cinder_ReserveGrain.description>Los adultos del refugio del Consejo de Defensa tratan a [PAWN_nameDef] como una reserva de comida.\n\nPor lo general l{PAWN_gender ? o : a} alimentan con musgo, insectos o raciones mohosas. En tiempos de hambruna, los adultos l{PAWN_gender ? o : a} matarían para comérsel{PAWN_gender ? o : a}.</Cinder_ReserveGrain.description>
   <!-- EN: reserve grain -->
   <Cinder_ReserveGrain.titleFemale>reserva de comida</Cinder_ReserveGrain.titleFemale>
   <!-- EN: reserve grain -->
@@ -82,7 +82,7 @@
   <Cinder_FallenYouth.titleShort>joven venido a menos</Cinder_FallenYouth.titleShort>
   <!-- EN: [PAWN_nameDef] was once a fallen scion of a bureaucratic family. [PAWN_possessive] parents often boasted in front of [PAWN_objective] about their ancestors&apos; former positions.
  [PAWN_pronoun] frequently flaunted ancient food packaging to [PAWN_possessive] peers, but these stories did not earn [PAWN_objective] respect in the shelter; instead, they made [PAWN_objective] look like a joke. -->
-  <Cinder_FallenYouth.description>[PAWN_nameDef] era vástago de una familia de burócratas venida a menos. Sus padres solían presumirle de los cargos que habían tenido sus antepasados.\nA menudo alardeaba ante los demás niños con envoltorios de comida antiguos, pero esas historias no le ganaron respeto en el refugio: al contrario, l{PAWN_gender ? o : a} volvieron el hazmerreír.</Cinder_FallenYouth.description>
+  <Cinder_FallenYouth.description>[PAWN_nameDef] era vástago de una familia de burócratas venida a menos. Sus padres le hablaban a menudo, con orgullo, de los cargos que habían tenido sus antepasados.\n\nA menudo alardeaba ante los demás niños con envoltorios de comida antiguos, pero esas historias no le ganaron respeto en el refugio: al contrario, l{PAWN_gender ? o : a} convirtieron en el hazmerreír.</Cinder_FallenYouth.description>
   <!-- EN: fallen youth -->
   <Cinder_FallenYouth.titleFemale>joven venida a menos</Cinder_FallenYouth.titleFemale>
   <!-- EN: fallen youth -->
@@ -93,7 +93,7 @@
   <Cinder_MushroomSerf.titleShort>siervo</Cinder_MushroomSerf.titleShort>
   <!-- EN: [PAWN_nameDef] cultivates mushrooms in the dark, sunless underground farm of the shelter, but [PAWN_pronoun] never gets to eat the mushrooms [PAWN_pronoun] grows. These mushrooms are reserved for the soldiers of the Defense Council.
  Instead, [PAWN_nameDef] can only consume putrid nutrient paste. If [PAWN_pronoun] dies, [PAWN_possessive] body will be used as new fertilizer for the mushrooms. -->
-  <Cinder_MushroomSerf.description>[PAWN_nameDef] cultiva hongos en la granja subterránea del refugio, oscura y sin sol, pero nunca llega a comer los hongos que cultiva: son para los soldados del Consejo de Defensa.\nEn cambio, solo puede comer pasta nutritiva podrida. Si muere, su cuerpo servirá de abono nuevo para los hongos.</Cinder_MushroomSerf.description>
+  <Cinder_MushroomSerf.description>[PAWN_nameDef] cultiva hongos en la granja subterránea del refugio, oscura y sin sol, pero nunca llega a comer los hongos que cultiva: son para los soldados del Consejo de Defensa.\n\nEn cambio, solo puede comer pasta nutritiva podrida. Si muere, su cuerpo servirá de abono nuevo para los hongos.</Cinder_MushroomSerf.description>
   <!-- EN: mushroom serf -->
   <Cinder_MushroomSerf.titleFemale>sierva de los hongos</Cinder_MushroomSerf.titleFemale>
   <!-- EN: serf -->
@@ -104,7 +104,7 @@
   <Cinder_GestationPod.titleShort>cápsula de gestación</Cinder_GestationPod.titleShort>
   <!-- EN: [PAWN_nameDef] is used by the Defense Council as a gestation pod for breeding the population.
  [PAWN_pronoun] is forced to reproduce with various outstanding soldiers in the factory. However, when the factory is destroyed during the war, [PAWN_pronoun] escapes from it. -->
-  <Cinder_GestationPod.description>El Consejo de Defensa usa a [PAWN_nameDef] como cápsula de gestación para aumentar la población.\nL{PAWN_gender ? o : a} obligan a reproducirse en la fábrica con varios soldados destacados. Pero cuando la fábrica queda destruida en la guerra, escapa de ella.</Cinder_GestationPod.description>
+  <Cinder_GestationPod.description>El Consejo de Defensa usa a [PAWN_nameDef] como cápsula de gestación para aumentar la población.\n\nL{PAWN_gender ? o : a} obligan a reproducirse en la fábrica con varios soldados destacados. Pero cuando la fábrica queda destruida en la guerra, escapa de ella.</Cinder_GestationPod.description>
   <!-- EN: gestation pod -->
   <Cinder_GestationPod.titleFemale>cápsula de gestación</Cinder_GestationPod.titleFemale>
   <!-- EN: gestation pod -->
@@ -115,7 +115,7 @@
   <Cinder_HibernatingChild.titleShort>niño en hibernación</Cinder_HibernatingChild.titleShort>
   <!-- EN: After the disaster, [PAWN_nameDef] was forced to live in the bunker of the National Defense Council.
  Here, [PAWN_pronoun] learned how to swallow sugar-free cockroach moss nutrient paste and was thrown into the hibernation pod due to illness, frozen as reserve food. -->
-  <Cinder_HibernatingChild.description>Después del desastre, [PAWN_nameDef] se vio obligad{PAWN_gender ? o : a} a vivir en el búnker del Consejo de Defensa Nacional.\nAhí aprendió a tragarse la pasta nutritiva de musgo y cucarachas sin azúcar, y por una enfermedad l{PAWN_gender ? o : a} metieron en la cápsula de hibernación, congelad{PAWN_gender ? o : a} como reserva de comida.</Cinder_HibernatingChild.description>
+  <Cinder_HibernatingChild.description>Después del desastre, [PAWN_nameDef] se vio obligad{PAWN_gender ? o : a} a vivir en el búnker del Consejo de Defensa Nacional.\n\nAllí aprendió a tragarse la pasta nutritiva de musgo y cucarachas sin azúcar, y por una enfermedad l{PAWN_gender ? o : a} metieron en la cápsula de hibernación, congelad{PAWN_gender ? o : a} como reserva de comida.</Cinder_HibernatingChild.description>
   <!-- EN: hibernating child -->
   <Cinder_HibernatingChild.titleFemale>niña en hibernación</Cinder_HibernatingChild.titleFemale>
   <!-- EN: hibernating child -->
@@ -126,7 +126,7 @@
   <Cinder_KitchenHelper.titleShort>ayudante de cocina</Cinder_KitchenHelper.titleShort>
   <!-- EN: [PAWN_nameDef] is a kitchen assistant for the nutritional paste in a bunker within the Defense Council&apos;s territory. Since [PAWN_pronoun] can remember, [PAWN_pronoun] has hardly left this stinky kitchen.
  [PAWN_possessive] job involves roughly chopping up moss, cockroaches, earthworms, the bodies of fallen soldiers, or any children trying to escape, making it easier to feed them into the nutritional paste supply chute. -->
-  <Cinder_KitchenHelper.description>[PAWN_nameDef] es ayudante en la cocina de pasta nutritiva de un búnker del territorio del Consejo de Defensa. Desde que tiene memoria, casi no ha salido de esa cocina apestosa.\nSu trabajo es trocear a lo bruto musgo, cucarachas, lombrices, los cuerpos de los soldados caídos o a cualquier niño que intente escapar, para que sea más fácil echarlos por el conducto de suministro de pasta nutritiva.</Cinder_KitchenHelper.description>
+  <Cinder_KitchenHelper.description>[PAWN_nameDef] es ayudante en la cocina de pasta nutritiva de un búnker del territorio del Consejo de Defensa. Desde que tiene memoria, casi no ha salido de esa cocina apestosa.\n\nSu trabajo es trocear toscamente musgo, cucarachas, lombrices, los cuerpos de los soldados caídos o a cualquier niño que intente escapar, para que sea más fácil echarlos por el conducto de suministro de pasta nutritiva.</Cinder_KitchenHelper.description>
   <!-- EN: Kitchen helper -->
   <Cinder_KitchenHelper.titleFemale>ayudante de cocina</Cinder_KitchenHelper.titleFemale>
   <!-- EN: Kitchen helper -->
@@ -147,7 +147,7 @@
   <Cinder_Cleaner.titleShort>limpiador</Cinder_Cleaner.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter run by the Defense Council. [PAWN_pronoun] has never received an education, only following the orders of the adults in charge of [PAWN_objective].
  During the lulls between bombings, [PAWN_pronoun] crawls to the surface to clean the cameras obscured by blood. If [PAWN_pronoun] does well, [PAWN_pronoun] might be rewarded with a plate of raw mushrooms. -->
-  <Cinder_Cleaner.description>[PAWN_nameDef] nació en un refugio dirigido por el Consejo de Defensa. Nunca recibió educación: solo obedece las órdenes de los adultos que l{PAWN_gender ? o : a} tienen a su cargo.\nEn las pausas entre bombardeos, se arrastra hasta la superficie para limpiar las cámaras tapadas de sangre. Si lo hace bien, a lo mejor le dan de premio un plato de hongos crudos.</Cinder_Cleaner.description>
+  <Cinder_Cleaner.description>[PAWN_nameDef] nació en un refugio dirigido por el Consejo de Defensa. Nunca recibió educación: solo obedece las órdenes de los adultos que l{PAWN_gender ? o : a} tienen a su cargo.\n\nEn las pausas entre bombardeos, se arrastra hasta la superficie para limpiar las cámaras cubiertas de sangre. Si lo hace bien, puede que le den como premio un plato de hongos crudos.</Cinder_Cleaner.description>
   <!-- EN: camera cleaner -->
   <Cinder_Cleaner.titleFemale>limpiadora de cámaras</Cinder_Cleaner.titleFemale>
   <!-- EN: cleaner -->
@@ -158,7 +158,7 @@
   <Cinder_Offspring.titleShort>heredero</Cinder_Offspring.titleShort>
   <!-- EN: [PAWN_nameDef] is the child of a member of the Defense Council. From a young age, [PAWN_pronoun] enjoyed privileges that others did not, including, but not limited to, industrial food left over from before the war, and film recordings.
  [PAWN_pronoun] was designated as the heir by [PAWN_possessive] parents, but [PAWN_pronoun] showed no interest in these things; instead, [PAWN_pronoun] was passionate about biological science research. -->
-  <Cinder_Offspring.description>[PAWN_nameDef] es hij{PAWN_gender ? o : a} de un miembro del Consejo de Defensa. Desde pequeñ{PAWN_gender ? o : a} gozó de privilegios que otros no tenían, entre ellos la comida industrial que sobró de antes de la guerra y las grabaciones de películas.\nSus padres l{PAWN_gender ? o : a} designaron hereder{PAWN_gender ? o : a}, pero no le interesaban esas cosas: lo que le apasionaba era la investigación en ciencias biológicas.</Cinder_Offspring.description>
+  <Cinder_Offspring.description>[PAWN_nameDef] es hij{PAWN_gender ? o : a} de un miembro del Consejo de Defensa. Desde pequeñ{PAWN_gender ? o : a} gozó de privilegios que otros no tenían, entre ellos la comida industrial que sobró de antes de la guerra y las grabaciones de películas.\n\nSus padres l{PAWN_gender ? o : a} designaron hereder{PAWN_gender ? o : a}, pero no le interesaban esas cosas: lo que le apasionaba era la investigación en ciencias biológicas.</Cinder_Offspring.description>
   <!-- EN: officials&apos; offspring -->
   <Cinder_Offspring.titleFemale>hija de funcionarios</Cinder_Offspring.titleFemale>
   <!-- EN: successor -->
@@ -169,7 +169,7 @@
   <Cinder_Traveler.titleShort>mensajero</Cinder_Traveler.titleShort>
   <!-- EN: [PAWN_nameDef] always had confidence in [PAWN_possessive] legs, which is why [PAWN_nameDef] was selected by the Defense Council as a delivery person to conserve precious vehicle hours.
  [PAWN_nameDef] managed to transport crucial spare parts across the terrifying battlefield. This continued for a long time until [PAWN_possessive] pride was shattered by the massive figure emerging from the smoke and the incoming missiles. -->
-  <Cinder_Traveler.description>[PAWN_nameDef] siempre confió en sus piernas, y por eso el Consejo de Defensa l{PAWN_gender ? o : a} eligió como repartidor{PAWN_gender ? : a}, para ahorrar las valiosas horas de los vehículos.\n[PAWN_nameDef] logró llevar repuestos cruciales a través del terrible campo de batalla. Así siguió durante mucho tiempo, hasta que su orgullo se hizo añicos ante la enorme silueta que surgió del humo y los misiles que se le venían encima.</Cinder_Traveler.description>
+  <Cinder_Traveler.description>[PAWN_nameDef] siempre confió en sus piernas, y por eso el Consejo de Defensa l{PAWN_gender ? o : a} eligió como repartidor{PAWN_gender ? : a}, para ahorrar las valiosas horas de los vehículos.\n\n[PAWN_nameDef] logró llevar repuestos cruciales a través del terrible campo de batalla. Así siguió durante mucho tiempo, hasta que su orgullo se hizo añicos ante la enorme silueta que surgió del humo y los misiles que se le venían encima.</Cinder_Traveler.description>
   <!-- EN: delivery traveler -->
   <Cinder_Traveler.titleFemale>mensajera a pie</Cinder_Traveler.titleFemale>
   <!-- EN: traveler -->
@@ -180,7 +180,7 @@
   <Cinder_CleaningWorker.titleShort>limpiador</Cinder_CleaningWorker.titleShort>
   <!-- EN: [PAWN_nameDef] was born in an old bunker belonging to the Defense Council. There, children like [PAWN_nameDef] were sent into narrow pipelines for simple clearing tasks. Frequently, [PAWN_pronoun] would drag out friends who had been lively just days before, or traitors who had been baked by the heated pipes.
  These days continued until [PAWN_nameDef] crawled along the pipeline to reach a place [PAWN_pronoun] had never seen before—“the outside.” -->
-  <Cinder_CleaningWorker.description>[PAWN_nameDef] nació en un viejo búnker del Consejo de Defensa. Ahí mandaban a los niños como [PAWN_nameDef] a tuberías estrechas para hacer tareas sencillas de limpieza. A menudo tenía que sacar a rastras a amigos que unos días antes estaban llenos de vida, o a traidores que se habían cocido en las tuberías calientes.\nEsos días siguieron hasta que [PAWN_nameDef] se arrastró por una tubería y llegó a un lugar que nunca había visto: «el exterior».</Cinder_CleaningWorker.description>
+  <Cinder_CleaningWorker.description>[PAWN_nameDef] nació en un viejo búnker del Consejo de Defensa. Allí mandaban a los niños como [PAWN_nameDef] a tuberías estrechas para hacer tareas sencillas de limpieza. A menudo tenía que sacar a rastras a amigos que unos días antes estaban llenos de vida, o a traidores que se habían cocido en las tuberías calientes.\n\nEsos días siguieron hasta que [PAWN_nameDef] se arrastró por una tubería y llegó a un lugar que nunca había visto: «el exterior».</Cinder_CleaningWorker.description>
   <!-- EN: Pipeline cleaner -->
   <Cinder_CleaningWorker.titleFemale>limpiadora de tuberías</Cinder_CleaningWorker.titleFemale>
   <!-- EN: cleaner -->
@@ -191,7 +191,7 @@
   <Cinder_GhoulHunter.titleShort>cazador de necrófagos</Cinder_GhoulHunter.titleShort>
   <!-- EN: Controlled by the Economic Security Department for Special Periods through data intelligence, ghouls are often deployed to sweep through underground facilities for survivors. They are the most dehumanized products.
  The Defense Council has trained a group of hunters specifically targeting these ghouls, and [PAWN_nameDef] is one of them. [PAWN_pronoun] will continue to fight against the ghouls until [PAWN_pronoun] becomes one of them. -->
-  <Cinder_GhoulHunter.description>El Departamento de Seguridad Económica para Períodos Especiales controla a los necrófagos por medio de la inteligencia de datos, y a menudo los despliega para barrer las instalaciones subterráneas en busca de sobrevivientes. Son su producto más deshumanizado.\nEl Consejo de Defensa entrenó a un grupo de cazadores dedicados a estos necrófagos, y [PAWN_nameDef] es {PAWN_gender ? uno : una} de ellos. Seguirá luchando contra los necrófagos hasta convertirse en uno.</Cinder_GhoulHunter.description>
+  <Cinder_GhoulHunter.description>El Departamento de Seguridad Económica para Períodos Especiales controla a los necrófagos por medio de la inteligencia de datos, y a menudo los despliega para barrer las instalaciones subterráneas en busca de sobrevivientes. Son su producto más deshumanizado.\n\nEl Consejo de Defensa entrenó a un grupo de cazadores dedicados a estos necrófagos, y [PAWN_nameDef] es {PAWN_gender ? uno : una} de ellos. Seguirá luchando contra los necrófagos hasta convertirse en uno.</Cinder_GhoulHunter.description>
   <!-- EN: ghoul hunter -->
   <Cinder_GhoulHunter.titleFemale>cazanecrófagos</Cinder_GhoulHunter.titleFemale>
   <!-- EN: ghoul hunter -->
@@ -202,7 +202,7 @@
   <Cinder_FleeingEngineer.titleShort>ingeniero</Cinder_FleeingEngineer.titleShort>
   <!-- EN: In [PAWN_nameDef] was a military mechanical engineer before the bunker was captured.
  After that, [PAWN_nameDef] fell into an endless hiding until [PAWN_pronoun] and [PAWN_possessive] companion robot were captured by the ghoul unit. -->
-  <Cinder_FleeingEngineer.description>[PAWN_nameDef] era ingenier{PAWN_gender ? o : a} mecánic{PAWN_gender ? o : a} militar antes de que tomaran el búnker.\nDespués de eso pasó a esconderse sin fin, hasta que la unidad necrófaga l{PAWN_gender ? o : a} capturó junto con su robot de compañía.</Cinder_FleeingEngineer.description>
+  <Cinder_FleeingEngineer.description>[PAWN_nameDef] era ingenier{PAWN_gender ? o : a} mecánic{PAWN_gender ? o : a} militar antes de que tomaran el búnker.\n\nDespués de eso vivió escondid{PAWN_gender ? o : a} sin descanso, hasta que la unidad necrófaga l{PAWN_gender ? o : a} capturó junto con su robot de compañía.</Cinder_FleeingEngineer.description>
   <!-- EN: fleeing engineer -->
   <Cinder_FleeingEngineer.titleFemale>ingeniera fugitiva</Cinder_FleeingEngineer.titleFemale>
   <!-- EN: engineer -->
@@ -213,7 +213,7 @@
   <Cinder_Porter.titleShort>cargador</Cinder_Porter.titleShort>
   <!-- EN: [PAWN_nameDef] has long forgotten when [PAWN_pronoun] entered the factory for moving ammunition on the assembly line of the National Defense Council&apos;s underground factory.
  [PAWN_possessive] tentacles have been modified into sturdy transport frames, day after day, endlessly moving ammunition for those war machines. -->
-  <Cinder_Porter.description>[PAWN_nameDef] ya olvidó cuándo entró a la fábrica subterránea del Consejo de Defensa Nacional para mover munición en la línea de montaje.\nLe modificaron los tentáculos para convertirlos en firmes armazones de carga, y día tras día mueve sin fin la munición para esas máquinas de guerra.</Cinder_Porter.description>
+  <Cinder_Porter.description>[PAWN_nameDef] ya olvidó cuándo entró a la fábrica subterránea del Consejo de Defensa Nacional para mover munición en la línea de montaje.\n\nLe modificaron los tentáculos para convertirlos en firmes armazones de carga, y día tras día mueve sin fin la munición para esas máquinas de guerra.</Cinder_Porter.description>
   <!-- EN: factory porter -->
   <Cinder_Porter.titleFemale>cargadora de fábrica</Cinder_Porter.titleFemale>
   <!-- EN: porter -->
@@ -224,7 +224,7 @@
   <Cinder_Follower.titleShort>seguidor</Cinder_Follower.titleShort>
   <!-- EN: [PAWN_nameDef] lost all [PAWN_possessive] comrades while serving as a soldier in the Defense Council during the war. [PAWN_pronoun] suffered severe psychological trauma that left [PAWN_objective] unable to lift a gun.
  Judged as worthless, [PAWN_pronoun] was sent to a labor prison, where [PAWN_pronoun] discovered illegal literature promoting underground propaganda. Following this, [PAWN_pronoun] devised a large-scale prison break uprising. -->
-  <Cinder_Follower.description>[PAWN_nameDef] perdió a todos sus compañeros mientras servía como soldado del Consejo de Defensa durante la guerra. Sufrió un trauma psicológico grave que l{PAWN_gender ? o : a} dejó incapaz de levantar un arma.\nL{PAWN_gender ? o : a} consideraron inútil y l{PAWN_gender ? o : a} mandaron a una prisión de trabajos forzados, donde descubrió literatura prohibida de propaganda clandestina. A partir de eso, planeó un levantamiento para una fuga masiva de la prisión.</Cinder_Follower.description>
+  <Cinder_Follower.description>[PAWN_nameDef] perdió a todos sus compañeros mientras servía como soldado del Consejo de Defensa durante la guerra. Sufrió un trauma psicológico grave que l{PAWN_gender ? o : a} dejó incapaz de levantar un arma.\n\nL{PAWN_gender ? o : a} consideraron inútil y l{PAWN_gender ? o : a} mandaron a una prisión de trabajos forzados, donde descubrió literatura prohibida de propaganda clandestina. A partir de eso, planeó un levantamiento para una fuga masiva de la prisión.</Cinder_Follower.description>
   <!-- EN: underground follower -->
   <Cinder_Follower.titleFemale>seguidora clandestina</Cinder_Follower.titleFemale>
   <!-- EN: follower -->
@@ -235,7 +235,7 @@
   <Cinder_HolySon.titleShort>hijo sagrado</Cinder_HolySon.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter controlled by a cult within the Defense Council. [PAWN_possessive] father was a high-ranking official in the shelter, while [PAWN_possessive] mother, driven mad by the brutal war, had joined the cult.
  [PAWN_pronoun] was revered by the cult as the “Holy Son,” participating in wicked blood rituals in an attempt to pray for the end of the war. The cult&apos;s cruel actions drove [PAWN_nameDef] to madness, yet after everyone was sacrificed in the blood ritual, nothing happened. -->
-  <Cinder_HolySon.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. Su padre era un alto funcionario del refugio, y su madre, enloquecida por la brutal guerra, se había unido al culto.\nEl culto l{PAWN_gender ? o : a} veneraba como {PAWN_gender ? el «Hijo Sagrado» : la «Hija Sagrada»}, y participaba en malvados rituales de sangre con los que intentaban rezar por el fin de la guerra. La crueldad del culto llevó a [PAWN_nameDef] a la locura, pero después de que todos fueron sacrificados en el ritual de sangre, no pasó nada.</Cinder_HolySon.description>
+  <Cinder_HolySon.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. Su padre era un alto funcionario del refugio, y su madre, enloquecida por la brutal guerra, se había unido al culto.\n\nEl culto l{PAWN_gender ? o : a} veneraba como {PAWN_gender ? el «Hijo Sagrado» : la «Hija Sagrada»}, y participaba en malvados rituales de sangre con los que intentaban rezar por el fin de la guerra. La crueldad del culto llevó a [PAWN_nameDef] a la locura, pero después de que todos fueron sacrificados en el ritual de sangre, no pasó nada.</Cinder_HolySon.description>
   <!-- EN: holy son of the cult -->
   <Cinder_HolySon.titleFemale>hija sagrada del culto</Cinder_HolySon.titleFemale>
   <!-- EN: holy son -->
@@ -246,7 +246,7 @@
   <Cinder_CultChild.titleShort>niño del culto</Cinder_CultChild.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter controlled by a cult within the Defense Council. [PAWN_pronoun] did not know who [PAWN_possessive] parents were and grew up under the influence of the cult.
  However, when the cult began incessant blood rituals, [PAWN_possessive] survival instinct drove [PAWN_nameDef] to fearfully escape the shelter. -->
-  <Cinder_CultChild.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. No sabía quiénes eran sus padres y creció bajo la influencia del culto.\nPero cuando el culto empezó a hacer rituales de sangre sin parar, su instinto de supervivencia l{PAWN_gender ? o : a} llevó a huir aterrad{PAWN_gender ? o : a} del refugio.</Cinder_CultChild.description>
+  <Cinder_CultChild.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. No sabía quiénes eran sus padres y creció bajo la influencia del culto.\n\nPero cuando el culto empezó a celebrar rituales de sangre sin cesar, su instinto de supervivencia l{PAWN_gender ? o : a} llevó a huir aterrad{PAWN_gender ? o : a} del refugio.</Cinder_CultChild.description>
   <!-- EN: escaping cult child -->
   <Cinder_CultChild.titleFemale>niña fugada del culto</Cinder_CultChild.titleFemale>
   <!-- EN: cult child -->
@@ -257,7 +257,7 @@
   <Cinder_Fanatic.titleShort>fanático</Cinder_Fanatic.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter controlled by a cult within the Defense Council. [PAWN_pronoun] was extremely loyal and fervent towards the cult, believing that the sacrifices made to the cult had restored [PAWN_possessive] leg,
  which had been damaged by a grenade. However, [PAWN_pronoun] did not realize that this was due to [PAWN_possessive] own regenerative abilities. -->
-  <Cinder_Fanatic.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. Era extremadamente leal y fervoros{PAWN_gender ? o : a} con el culto, y creía que los sacrificios ofrecidos al culto le habían devuelto la pierna que le había dañado una granada.\nPero no se daba cuenta de que eso se debía a su propia capacidad de regeneración.</Cinder_Fanatic.description>
+  <Cinder_Fanatic.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. Era extremadamente leal y fervoros{PAWN_gender ? o : a} con el culto, y creía que los sacrificios ofrecidos al culto le habían devuelto la pierna que le había dañado una granada.\n\nPero no se daba cuenta de que eso se debía a su propia capacidad de regeneración.</Cinder_Fanatic.description>
   <!-- EN: cult fanatic -->
   <Cinder_Fanatic.titleFemale>fanática del culto</Cinder_Fanatic.titleFemale>
   <!-- EN: fanatic -->
@@ -268,7 +268,7 @@
   <Cinder_ChosenOne.titleShort>elegido</Cinder_ChosenOne.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter controlled by a cult that operated under the Defense Council. [PAWN_pronoun] was chosen by the cult to drink strange serum potions to attain enlightenment.
  [PAWN_pronoun] gained some bizarre abilities and took pride in them, until [PAWN_pronoun] witnessed the process of how these potions were made. -->
-  <Cinder_ChosenOne.description>[PAWN_nameDef] nació en un refugio controlado por un culto que actuaba bajo el Consejo de Defensa. El culto l{PAWN_gender ? o : a} eligió para beber unas extrañas pociones de suero con las que alcanzaría la iluminación.\nObtuvo algunas capacidades extrañas y se enorgullecía de ellas, hasta que vio cómo se fabricaban esas pociones.</Cinder_ChosenOne.description>
+  <Cinder_ChosenOne.description>[PAWN_nameDef] nació en un refugio controlado por un culto que actuaba bajo el Consejo de Defensa. El culto l{PAWN_gender ? o : a} eligió para beber unas extrañas pociones de suero con las que alcanzaría la iluminación.\n\nObtuvo algunas capacidades extrañas y se enorgullecía de ellas, hasta que vio cómo se fabricaban esas pociones.</Cinder_ChosenOne.description>
   <!-- EN: cult chosen one -->
   <Cinder_ChosenOne.titleFemale>elegida del culto</Cinder_ChosenOne.titleFemale>
   <!-- EN: chosen one -->
@@ -280,7 +280,7 @@
   <!-- EN: [PAWN_nameDef] struggles to raise [PAWN_possessive] children alone. Although searching for supplies in abandoned buildings leaves [PAWN_possessive] limbs battered, [PAWN_pronoun] manages to maintain a simple life. This simple existence is shattered by an unfamiliar &quot;flu.&quot;
  [PAWN_possessive] children develop high fevers, and despite spending [PAWN_possessive] meager savings to seek medical help, [PAWN_pronoun] is unable to prevent them from dying one by one.
  When [PAWN_pronoun] watches the last of [PAWN_possessive] children die in [PAWN_possessive] arms, [PAWN_pronoun] goes mad. Soon, [PAWN_pronoun] is approached by cultists in the bunker, who convince [PAWN_objective] that only blood sacrifice can change this sorrowful world. -->
-  <Cinder_SadBeliever.description>[PAWN_nameDef] lucha por criar sol{PAWN_gender ? o : a} a sus hijos. Aunque buscar provisiones en edificios abandonados le deja las extremidades maltrechas, logra mantener una vida sencilla. Esa vida sencilla se hace pedazos con una «gripe» desconocida.\nSus hijos tienen fiebre alta y, aunque gasta sus escasos ahorros en buscar ayuda médica, no puede evitar que mueran uno tras otro.\nCuando ve morir en sus brazos al último de sus hijos, enloquece. Poco después, unos cultistas del búnker se le acercan y l{PAWN_gender ? o : a} convencen de que solo el sacrificio de sangre puede cambiar este mundo de tristeza.</Cinder_SadBeliever.description>
+  <Cinder_SadBeliever.description>[PAWN_nameDef] lucha por criar sol{PAWN_gender ? o : a} a sus hijos. Aunque buscar provisiones en edificios abandonados le deja las extremidades maltrechas, logra mantener una vida sencilla. Esa vida sencilla se hace pedazos con una «gripe» desconocida.\n\nSus hijos tienen fiebre alta y, aunque gasta sus escasos ahorros en buscar ayuda médica, no puede evitar que mueran uno tras otro.\n\nCuando ve morir en sus brazos al último de sus hijos, enloquece. Poco después, unos cultistas del búnker se le acercan y l{PAWN_gender ? o : a} convencen de que solo el sacrificio de sangre puede cambiar este mundo de tristeza.</Cinder_SadBeliever.description>
   <!-- EN: sad believer -->
   <Cinder_SadBeliever.titleFemale>creyente afligida</Cinder_SadBeliever.titleFemale>
   <!-- EN: sad believer -->
@@ -291,7 +291,7 @@
   <Cinder_EscapeBeliever.titleShort>creyente fugado</Cinder_EscapeBeliever.titleShort>
   <!-- EN: [PAWN_nameDef] was supposed to be conscripted as a soldier to fight, but when [PAWN_pronoun] got lost and stumbled into the kitchen of the shelter, [PAWN_pronoun] saw the dismembered bodies of dead soldiers.
  This sight filled [PAWN_objective] with tremendous fear of going to war. Consequently, [PAWN_pronoun] forged [PAWN_possessive] age and hid within the cult, ensuring that no one who knew [PAWN_objective] could find [PAWN_objective]. -->
-  <Cinder_EscapeBeliever.description>A [PAWN_nameDef] iban a reclutarl{PAWN_gender ? o : a} como soldado para combatir, pero un día se perdió, entró por error a la cocina del refugio y vio los cuerpos descuartizados de soldados muertos.\nEsa escena le dio un miedo tremendo a ir a la guerra. Por eso falsificó su edad y se escondió en el culto, donde nadie que l{PAWN_gender ? o : a} conociera pudiera encontrarl{PAWN_gender ? o : a}.</Cinder_EscapeBeliever.description>
+  <Cinder_EscapeBeliever.description>A [PAWN_nameDef] iban a reclutarl{PAWN_gender ? o : a} como soldado para combatir, pero un día se perdió, entró por error a la cocina del refugio y vio los cuerpos descuartizados de soldados muertos.\n\nEsa escena le dio un miedo terrible a ir a la guerra. Por eso falsificó su edad y se escondió en el culto, donde nadie que l{PAWN_gender ? o : a} conociera pudiera encontrarl{PAWN_gender ? o : a}.</Cinder_EscapeBeliever.description>
   <!-- EN: escape believer -->
   <Cinder_EscapeBeliever.titleFemale>creyente fugada</Cinder_EscapeBeliever.titleFemale>
   <!-- EN: escape believer -->
@@ -302,7 +302,7 @@
   <Cinder_Priest.titleShort>sacerdote</Cinder_Priest.titleShort>
   <!-- EN: [PAWN_nameDef] was once a junior commander in the Defense Council, engaged in a prolonged battle against the inhuman legions controlled by DI. After serving as a scapegoat for a failed operation, [PAWN_pronoun] lost faith in everything and secretly joined a newly formed branch of the local cult.
  Following the blood sacrifice of the previous priest, [PAWN_pronoun] was elevated to the position of the new priest. -->
-  <Cinder_Priest.description>[PAWN_nameDef] fue comandante subaltern{PAWN_gender ? o : a} del Consejo de Defensa, en una larga batalla contra las legiones inhumanas que controla DI. Después de que l{PAWN_gender ? o : a} usaran como chivo expiatorio de una operación fallida, perdió la fe en todo y se unió en secreto a una rama recién formada del culto local.\nTras el sacrificio de sangre del sacerdote anterior, l{PAWN_gender ? o : a} elevaron al cargo de nuevo sacerdote.</Cinder_Priest.description>
+  <Cinder_Priest.description>[PAWN_nameDef] fue comandante subaltern{PAWN_gender ? o : a} del Consejo de Defensa, en una larga batalla contra las legiones inhumanas que controla DI. Después de que l{PAWN_gender ? o : a} usaran como chivo expiatorio de una operación fallida, perdió la fe en todo y se unió en secreto a una rama recién formada del culto local.\n\nTras el sacrificio de sangre del sacerdote anterior, l{PAWN_gender ? o : a} elevaron al cargo de nuevo sacerdote.</Cinder_Priest.description>
   <!-- EN: cult priest -->
   <Cinder_Priest.titleFemale>sacerdotisa del culto</Cinder_Priest.titleFemale>
   <!-- EN: priest -->
@@ -313,7 +313,7 @@
   <Cinder_CrazyBeliever.titleShort>creyente enloquecido</Cinder_CrazyBeliever.titleShort>
   <!-- EN: [PAWN_nameDef] was born in a shelter controlled by a cult within the Defense Council. [PAWN_pronoun] was once used as a gestation pod, but during a raid on the shelter by the Economic Security Department for Special Periods, [PAWN_pronoun] and [PAWN_possessive] infant were trapped in the wreckage.
  By the time others found them, [PAWN_possessive] infant had already died from illness. In [PAWN_possessive] madness, [PAWN_pronoun] sacrificed [PAWN_possessive] own arm to the cult in exchange for [PAWN_possessive] child&apos;s life. In the end, all [PAWN_pronoun] received was a rag doll. -->
-  <Cinder_CrazyBeliever.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. L{PAWN_gender ? o : a} usaron como cápsula de gestación, pero durante un asalto del Departamento de Seguridad Económica para Períodos Especiales al refugio, quedó atrapad{PAWN_gender ? o : a} con su bebé entre los escombros.\nCuando los encontraron, el bebé ya había muerto de una enfermedad. En su locura, le ofreció al culto su propio brazo a cambio de la vida de su hijo. Al final, lo único que recibió fue una muñeca de trapo.</Cinder_CrazyBeliever.description>
+  <Cinder_CrazyBeliever.description>[PAWN_nameDef] nació en un refugio controlado por un culto dentro del Consejo de Defensa. L{PAWN_gender ? o : a} usaron como cápsula de gestación, pero durante un asalto del Departamento de Seguridad Económica para Períodos Especiales al refugio, quedó atrapad{PAWN_gender ? o : a} con su bebé entre los escombros.\n\nCuando los encontraron, el bebé ya había muerto de una enfermedad. En su locura, le ofreció al culto su propio brazo a cambio de la vida de su hijo. Al final, lo único que recibió fue una muñeca de trapo.</Cinder_CrazyBeliever.description>
   <!-- EN: crazy believer -->
   <Cinder_CrazyBeliever.titleFemale>creyente enloquecida</Cinder_CrazyBeliever.titleFemale>
   <!-- EN: crazy believer -->
@@ -324,7 +324,7 @@
   <Cinder_ArchiveGuard.titleShort>guardia</Cinder_ArchiveGuard.titleShort>
   <!-- EN: [PAWN_nameDef] is responsible for guarding documents in a library within a bunker of the Defense Council. This job should be performed by adults, but all the adults in the shelter have been sent to war as soldiers. In principle, [PAWN_pronoun] shouldn&apos;t look at the contents, but [PAWN_possessive] curiosity led [PAWN_objective] to make a mistake.
  [PAWN_pronoun] came across criticisms of totalitarian states from before the disaster, and even the most terrifying regimes in history seemed to [PAWN_objective] like an ideal state. This prompted [PAWN_objective] to start contemplating the definition of what is right. -->
-  <Cinder_ArchiveGuard.description>[PAWN_nameDef] se encarga de custodiar los documentos de una biblioteca en un búnker del Consejo de Defensa. Ese trabajo deberían hacerlo los adultos, pero a todos los adultos del refugio los mandaron a la guerra como soldados. En principio no debería mirar el contenido, pero la curiosidad l{PAWN_gender ? o : a} llevó a cometer un error.\nEncontró críticas a los estados totalitarios de antes del desastre, y hasta los regímenes más terribles de la historia le parecieron un estado ideal. Eso l{PAWN_gender ? o : a} llevó a empezar a preguntarse qué es lo correcto.</Cinder_ArchiveGuard.description>
+  <Cinder_ArchiveGuard.description>[PAWN_nameDef] se encarga de custodiar los documentos de una biblioteca en un búnker del Consejo de Defensa. Ese trabajo deberían hacerlo los adultos, pero a todos los adultos del refugio los mandaron a la guerra como soldados. En principio no debería mirar el contenido, pero la curiosidad l{PAWN_gender ? o : a} llevó a cometer un error.\n\nEncontró críticas a los estados totalitarios de antes del desastre, y hasta los regímenes más terribles de la historia le parecieron un estado ideal. Eso l{PAWN_gender ? o : a} llevó a empezar a preguntarse qué es lo correcto.</Cinder_ArchiveGuard.description>
   <!-- EN: archive guard -->
   <Cinder_ArchiveGuard.titleFemale>guardia del archivo</Cinder_ArchiveGuard.titleFemale>
   <!-- EN: guard -->
@@ -335,7 +335,7 @@
   <Cinder_UndergroundAgitator.titleShort>activista</Cinder_UndergroundAgitator.titleShort>
   <!-- EN: Having undergone true reflection and survived the brutal war, [PAWN_nameDef] no longer believes in the Defense Council&apos;s grotesque rule that spares no effort for meaningless war. [PAWN_pronoun] begins secretly copying articles underground and spreading these illegal writings within the shelter.
  [PAWN_pronoun] is convinced that [PAWN_pronoun] can do better than the faceless bureaucrats, and more and more people are beginning to help [PAWN_objective]. -->
-  <Cinder_UndergroundAgitator.description>Después de reflexionar de verdad y de sobrevivir a la brutal guerra, [PAWN_nameDef] ya no cree en el grotesco gobierno del Consejo de Defensa, que no escatima esfuerzos para una guerra sin sentido. Empieza a copiar artículos en la clandestinidad y a difundir esos escritos prohibidos dentro del refugio.\nEstá convencid{PAWN_gender ? o : a} de que puede hacerlo mejor que los burócratas sin rostro, y cada vez más gente empieza a ayudarl{PAWN_gender ? o : a}.</Cinder_UndergroundAgitator.description>
+  <Cinder_UndergroundAgitator.description>Tras una profunda reflexión, y después de sobrevivir a la brutal guerra, [PAWN_nameDef] ya no cree en el grotesco gobierno del Consejo de Defensa, que no escatima esfuerzos para una guerra sin sentido. Empieza a copiar artículos en la clandestinidad y a difundir esos escritos prohibidos dentro del refugio.\n\nEstá convencid{PAWN_gender ? o : a} de que puede hacerlo mejor que los burócratas sin rostro, y cada vez más gente empieza a ayudarl{PAWN_gender ? o : a}.</Cinder_UndergroundAgitator.description>
   <!-- EN: Underground agitator -->
   <Cinder_UndergroundAgitator.titleFemale>agitadora clandestina</Cinder_UndergroundAgitator.titleFemale>
   <!-- EN: activist -->
@@ -357,7 +357,7 @@ Typically, children are infused with combat memories and personality traits to e
   <Cinder_CoreChildren.titleShort>niño de la zona central</Cinder_CoreChildren.titleShort>
   <!-- EN: As a child living in the core area of data intelligence protection, [PAWN_nameDef] leads a life almost indistinguishable from before the disaster.\n
 However, [PAWN_nameDef] is restless and often sneaks out to explore the boundaries of the core area, where [PAWN_pronoun] sees the true nature of the world. Unable to accept this reality, [PAWN_possessive] mind shatters, and [PAWN_pronoun] is placed in a gentle long dream through the hosting of data intelligence. -->
-  <Cinder_CoreChildren.description>Como niñ{PAWN_gender ? o : a} que vive en la zona central que protege la inteligencia de datos, [PAWN_nameDef] lleva una vida casi igual a la de antes del desastre.\n\nPero [PAWN_nameDef] es inquiet{PAWN_gender ? o : a} y a menudo se escapa para explorar los límites de la zona central, donde ve cómo es el mundo de verdad. Al no poder aceptar esa realidad, su mente se quiebra, y la inteligencia de datos, que l{PAWN_gender ? o : a} tiene a su cuidado, l{PAWN_gender ? o : a} sume en un dulce largo sueño.</Cinder_CoreChildren.description>
+  <Cinder_CoreChildren.description>Como niñ{PAWN_gender ? o : a} que vive en la zona central que protege la inteligencia de datos, [PAWN_nameDef] lleva una vida casi igual a la de antes del desastre.\n\nPero [PAWN_nameDef] es inquiet{PAWN_gender ? o : a} y a menudo se escapa para explorar los límites de la zona central, donde ve cómo es el mundo de verdad. Al no poder aceptar esa realidad, su mente se quiebra, y la inteligencia de datos, que l{PAWN_gender ? o : a} tiene a su cuidado, l{PAWN_gender ? o : a} sume en un largo y dulce sueño.</Cinder_CoreChildren.description>
   <!-- EN: core area kids -->
   <Cinder_CoreChildren.titleFemale>niña de la zona central</Cinder_CoreChildren.titleFemale>
   <!-- EN: core area kids -->
@@ -368,7 +368,7 @@ However, [PAWN_nameDef] is restless and often sneaks out to explore the boundari
   <Cinder_VehicleOperator.titleShort>«niño de los periódicos»</Cinder_VehicleOperator.titleShort>
   <!-- EN: [PAWN_nameDef] has been riding a bicycle to deliver newspapers to mailboxes in the streets and alleys for as long as [PAWN_pronoun] can remember. [PAWN_pronoun] doesn’t recall how [PAWN_pronoun] got this job; all [PAWN_pronoun] knows is that the daily work is tiring, leaving [PAWN_objective] no time to play with peers.\n
 However, to those who have not entered the long dream, [PAWN_pronoun] appears to be driving a food supply truck through the trenches. -->
-  <Cinder_VehicleOperator.description>Desde que tiene memoria, [PAWN_nameDef] reparte periódicos en bicicleta a los buzones de calles y callejones. No recuerda cómo consiguió el trabajo; solo sabe que el trabajo diario es agotador y que no le deja tiempo para jugar con los demás niños.\n\nPero para quienes no entraron al largo sueño, va manejando un camión de suministro de comida por las trincheras.</Cinder_VehicleOperator.description>
+  <Cinder_VehicleOperator.description>Desde que tiene memoria, [PAWN_nameDef] reparte periódicos en bicicleta a los buzones de calles y callejones. No recuerda cómo consiguió el trabajo; solo sabe que el trabajo diario es agotador y que no le deja tiempo para jugar con los demás niños.\n\nPero quienes no están en el largo sueño l{PAWN_gender ? o : a} ven conducir un camión de víveres por las trincheras.</Cinder_VehicleOperator.description>
   <!-- EN: supply vehicle operator -->
   <Cinder_VehicleOperator.titleFemale>conductora de víveres</Cinder_VehicleOperator.titleFemale>
   <!-- EN: &quot;news child&quot; -->
@@ -434,7 +434,7 @@ In reality, [PAWN_possessive] brain is used to assist in processing endless batt
   <Cinder_Novelist.titleShort>novelista</Cinder_Novelist.titleShort>
   <!-- EN: [PAWN_nameDef] unexpectedly broke free from the consciousness hosting of data intelligence. For the first time, [PAWN_nameDef] realized that [PAWN_possessive] consciousness was no longer asleep.
  This ecstasy prompted [PAWN_nameDef] to grab a stack of document fragments and write [PAWN_possessive] first &quot;work&quot; in [PAWN_possessive] own blood. Although these chaotic words may be hard to call &quot;literature&quot; in the eyes of others, [PAWN_possessive] work remains the most sought-after daily reading in the surrounding settlement. -->
-  <Cinder_Novelist.description>Sin esperarlo, [PAWN_nameDef] se liberó de la inteligencia de datos que tenía su conciencia. Por primera vez, [PAWN_nameDef] se dio cuenta de que su conciencia ya no dormía.\nEse éxtasis l{PAWN_gender ? o : a} llevó a tomar un montón de fragmentos de documentos y escribir su primera «obra» con su propia sangre. Aunque a otros les cueste llamar «literatura» a esas palabras caóticas, su obra sigue siendo la lectura diaria más buscada del asentamiento.</Cinder_Novelist.description>
+  <Cinder_Novelist.description>Sin esperarlo, [PAWN_nameDef] se liberó de la inteligencia de datos que alojaba su conciencia. Por primera vez, [PAWN_nameDef] se dio cuenta de que su conciencia ya no dormía.\n\nEse éxtasis l{PAWN_gender ? o : a} llevó a tomar una pila de fragmentos de documentos y escribir su primera «obra» con su propia sangre. Aunque a otros les cueste llamar «literatura» a esas palabras caóticas, su obra sigue siendo la lectura diaria más buscada del asentamiento.</Cinder_Novelist.description>
   <!-- EN: underground novelist -->
   <Cinder_Novelist.titleFemale>novelista clandestina</Cinder_Novelist.titleFemale>
   <!-- EN: novelist -->
@@ -500,7 +500,7 @@ However, in reality, [PAWN_nameDef] controls the deployment of turret machinery,
   <Cinder_SweeperOperator.titleShort>«conductor de barredora»</Cinder_SweeperOperator.titleShort>
   <!-- EN: In [PAWN_possessive] long dreams, [PAWN_nameDef] drives a cleaning vehicle to sweep the streets. [PAWN_pronoun] doesn&apos;t particularly enjoy this boring job, as the cleaning vehicle often fails to clean properly, requiring [PAWN_pronoun] to reverse repeatedly.\n
 In reality, [PAWN_nameDef] operates a war sweeper, which is commonly used for air defense and battlefield clearing. In complex fortifications, it is indeed very difficult to clean out every infantryman. -->
-  <Cinder_SweeperOperator.description>En su largo sueño, [PAWN_nameDef] maneja una barredora para limpiar las calles. No le gusta mucho ese trabajo aburrido, porque la barredora a menudo no limpia bien y tiene que retroceder una y otra vez.\n\nEn realidad, [PAWN_nameDef] maneja un barredor de guerra, que se usa sobre todo para la defensa antiaérea y para limpiar el campo de batalla. En fortificaciones complicadas, de verdad cuesta mucho limpiar hasta el último soldado de infantería.</Cinder_SweeperOperator.description>
+  <Cinder_SweeperOperator.description>En su largo sueño, [PAWN_nameDef] maneja una barredora para limpiar las calles. No le gusta mucho ese trabajo aburrido, porque la barredora a menudo no limpia bien y tiene que retroceder una y otra vez.\n\nEn realidad, [PAWN_nameDef] maneja un barredor de guerra, que se usa sobre todo para la defensa antiaérea y para limpiar el campo de batalla. En fortificaciones complicadas, es muy difícil eliminar hasta el último soldado de infantería.</Cinder_SweeperOperator.description>
   <!-- EN: sweeper operator -->
   <Cinder_SweeperOperator.titleFemale>operadora de barredor</Cinder_SweeperOperator.titleFemale>
   <!-- EN: &quot;sweeper driver&quot; -->
@@ -511,7 +511,7 @@ In reality, [PAWN_nameDef] operates a war sweeper, which is commonly used for ai
   <Cinder_AttackerOperator.titleShort>«bombero»</Cinder_AttackerOperator.titleShort>
   <!-- EN: [PAWN_nameDef] is a firefighter, and [PAWN_possessive] work is extremely busy. [PAWN_pronoun] has never questioned the enjoyment of the job: running at midnight, watching pages of books turn to ashes...\n
 The war attackers [PAWN_pronoun] operates are deployed to launch Hellfire missiles to destroy heavy armored units and fortifications. -->
-  <Cinder_AttackerOperator.description>[PAWN_nameDef] es bomber{PAWN_gender ? o : a} y su trabajo es de lo más ajetreado. Nunca ha dudado de lo mucho que disfruta su trabajo: correr a medianoche, ver cómo las páginas de los libros se convierten en cenizas…\n\nLos atacantes de guerra que maneja se despliegan para lanzar misiles Hellfire que destruyen unidades de blindaje pesado y fortificaciones.</Cinder_AttackerOperator.description>
+  <Cinder_AttackerOperator.description>[PAWN_nameDef] es bomber{PAWN_gender ? o : a} y su trabajo es muy ajetreado. Nunca ha dudado de lo mucho que disfruta su trabajo: correr a medianoche, ver cómo las páginas de los libros se convierten en cenizas…\n\nLos atacantes de guerra que maneja se despliegan para lanzar misiles Hellfire que destruyen unidades de blindaje pesado y fortificaciones.</Cinder_AttackerOperator.description>
   <!-- EN: attacker operator -->
   <Cinder_AttackerOperator.titleFemale>operadora de atacante</Cinder_AttackerOperator.titleFemale>
   <!-- EN: &quot;firefighter&quot; -->
