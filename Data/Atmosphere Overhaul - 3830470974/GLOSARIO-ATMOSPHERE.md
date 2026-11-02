@@ -55,7 +55,7 @@ hay que buscarlo en todos los archivos de la carpeta, no solo en uno.
 | tropical cyclone / eye of the storm | **ciclón tropical** / **ojo de la tormenta** | |
 | blast wave / blast injury | **onda expansiva** / **lesión por explosión** | |
 | hypoxia / ebullism / barotrauma | **hipoxia** / **ebullismo** / **barotrauma** | Términos médicos |
-| decompression sickness / the bends | **enfermedad por descompresión** / **mal de los buzos** | **a confirmar** |
+| decompression sickness / the bends | **enfermedad por descompresión** / **mal del buzo** | Elegido por Angel (1-nov). En la descripción, «enfermedad del buzo»; en la etapa, «mal», para no repetir «enfermedad» en la pestaña Salud |
 | high-pressure sickness / narcosis | **enfermedad por alta presión** / **narcosis** | |
 | thin air / stale air / muggy air | **aire delgado** / **aire viciado** / **aire bochornoso** | **a confirmar** «delgado» |
 | haulers / growers | **transportistas** / **cultivadores** | |
