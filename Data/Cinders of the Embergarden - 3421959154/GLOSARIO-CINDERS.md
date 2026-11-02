@@ -51,6 +51,7 @@ Aceptó las tres propuestas: **cinder**, **Flota Linterna**, **la Cuna**, **nuev
 | Economic Security Department for Special Periods | **Departamento de Seguridad Económica para Períodos Especiales** | propuesta | 27-oct. El inglés lo llama también *Special Economic Security Department*: va siempre con el nombre largo |
 | dust fog / obscured area / core area | **niebla de polvo** / **zona oscurecida** / **zona central** | propuesta | 27-oct, trasfondos |
 | land ship / ground assault ship | **nave terrestre** / **nave de asalto terrestre** | propuesta | 27-oct, trasfondos |
+| títulos de trasfondo acortados | **refugiado de la niebla**, **navegante refugiado**, **conductor de víveres**, **técnico de armamento**, **unidad de datos**, **jefe de fábrica militar**, **comando de ingeniería**, **tropa de recuperación**, **controlador de tiro**; en femenino, **cazanecrófagos** y **agricultora hidropónica** | propuesta | 1-nov. La ficha del colono corta el título a un ancho fijo (Arial, hasta 1050 a tamaño 100; ver `RML/PLAN-TITULOS-FEMENINOS.md`). No volver al nombre largo |
 | Long Dream / long dream | **Largo Sueño** / **largo sueño** | propuesta | El escenario «Long dream gradually awakens»: «El largo sueño despierta poco a poco» |
 | deep sleep / light sleep | **sueño profundo** / **sueño ligero** | RML | |
 | crystallization coma / neural crystallization dissociation | **coma por cristalización** / **disociación por cristalización neural** | propuesta | |
