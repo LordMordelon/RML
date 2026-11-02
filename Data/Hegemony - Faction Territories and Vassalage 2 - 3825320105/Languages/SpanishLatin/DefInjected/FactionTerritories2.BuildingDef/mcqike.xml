@@ -1203,16 +1203,16 @@
   <FT2_OrganHarvesting.tierLabels.4>laboratorio de recuperación de órganos de precisión</FT2_OrganHarvesting.tierLabels.4>
   <!-- EN: archotech organ reclamation complex -->
   <FT2_OrganHarvesting.tierLabels.5>complejo de recuperación de órganos arqueotéc</FT2_OrganHarvesting.tierLabels.5>
-  <!-- EN: cloning facility -->
-  <FT2_Cloning.label>instalación de clonación</FT2_Cloning.label>
-  <!-- EN: Produces adult population using large amounts of surplus food. Requires Spacer technology and free housing; shortages proportionally pause cloning. -->
-  <FT2_Cloning.description>Produce población adulta con grandes cantidades de comida sobrante. Requiere tecnología espacial y viviendas libres; la escasez pausa la clonación en proporción.</FT2_Cloning.description>
-  <!-- EN: birth shrine -->
-  <FT2_Cloning.tierLabels.0>santuario del nacimiento</FT2_Cloning.tierLabels.0>
-  <!-- EN: replication workshop -->
-  <FT2_Cloning.tierLabels.1>taller de replicación</FT2_Cloning.tierLabels.1>
-  <!-- EN: somatic laboratory -->
-  <FT2_Cloning.tierLabels.2>laboratorio somático</FT2_Cloning.tierLabels.2>
+  <!-- EN: nursery and cloning facility -->
+  <FT2_Cloning.label>guardería e instalación de clonación</FT2_Cloning.label>
+  <!-- EN: Nurseries support natural births among existing adult couples from Neolithic technology. They still need normal food, happiness and free housing. From Spacer, the same building also clones adults using surplus food; shortages proportionally pause cloning. Nursery support continues at higher stages. -->
+  <FT2_Cloning.description>Las guarderías favorecen los nacimientos naturales entre las parejas adultas existentes desde la tecnología neolítica. Igual necesitan la comida normal, felicidad y viviendas libres. Desde la etapa espacial, el mismo edificio también clona adultos con la comida sobrante; la escasez pausa la clonación en proporción. El apoyo de la guardería sigue en las etapas superiores.</FT2_Cloning.description>
+  <!-- EN: communal nursery -->
+  <FT2_Cloning.tierLabels.0>guardería comunal</FT2_Cloning.tierLabels.0>
+  <!-- EN: midwives&apos; house -->
+  <FT2_Cloning.tierLabels.1>casa de parteras</FT2_Cloning.tierLabels.1>
+  <!-- EN: maternity centre -->
+  <FT2_Cloning.tierLabels.2>centro de maternidad</FT2_Cloning.tierLabels.2>
   <!-- EN: cloning facility -->
   <FT2_Cloning.tierLabels.3>instalación de clonación</FT2_Cloning.tierLabels.3>
   <!-- EN: population replication centre -->
@@ -1925,8 +1925,8 @@
   <FT2_InsectGeneLab.tierLabels.5>laboratorio génesis de colmenas arqueotéc</FT2_InsectGeneLab.tierLabels.5>
   <!-- EN: indoctrination camp -->
   <FT2_IndoctrinationCamp.label>campo de adoctrinamiento</FT2_IndoctrinationCamp.label>
-  <!-- EN: Recruits have a chance equal to indoctrination camp level divided by town hall level to adopt the colony&apos;s primary ideology. -->
-  <FT2_IndoctrinationCamp.description>Los reclutas tienen una probabilidad igual al nivel del campo de adoctrinamiento dividido por el nivel del ayuntamiento de adoptar la ideología principal de la colonia.</FT2_IndoctrinationCamp.description>
+  <!-- EN: Recruits retain their camp-level chance to adopt the colony&apos;s primary ideology. Operating camps also build saved local conversion progress toward the controlling ruler&apos;s primary ideology. At 100%, the settlement adopts it. Default progress is 0.25 percentage points per productive camp level-day; existing named residents retain their personal beliefs. The strongest eligible camp also reduces incoming propaganda by 5% per level, multiplicatively, weighted by faction population coverage. Existing influence is unchanged. -->
+  <FT2_IndoctrinationCamp.description>Los reclutas conservan la probabilidad, según el nivel del campo, de adoptar la ideología principal de la colonia. Los campos en funcionamiento también acumulan un avance guardado de conversión local hacia la ideología principal del gobernante que controla el asentamiento. Al 100 %, el asentamiento la adopta. El avance por defecto es de 0,25 puntos porcentuales por nivel y día productivo del campo; los residentes con nombre conservan sus creencias personales. El campo elegible más fuerte también reduce la propaganda entrante un 5 % por nivel, de forma multiplicativa, ponderado por la cobertura de población de la facción. La influencia existente no cambia.</FT2_IndoctrinationCamp.description>
   <!-- EN: shrine -->
   <FT2_IndoctrinationCamp.tierLabels.0>santuario</FT2_IndoctrinationCamp.tierLabels.0>
   <!-- EN: indoctrination camp -->
@@ -1973,8 +1973,8 @@
   <FT2_ArmorWorkshop.tierLabels.5>armería arqueotéc</FT2_ArmorWorkshop.tierLabels.5>
   <!-- EN: furniture workshop -->
   <FT2_FurnitureWorkshop.label>taller de muebles</FT2_FurnitureWorkshop.label>
-  <!-- EN: Unlocks minifiable buildings up to this workshop&apos;s technology stage. Buildings with quality rise from poor to masterwork within the stage; lower-stage furniture is always masterwork. -->
-  <FT2_FurnitureWorkshop.description>Desbloquea edificios minificables hasta la etapa tecnológica de este taller. Los edificios con calidad suben de mediocre a magistral dentro de la etapa; los muebles de etapas inferiores son siempre magistrales.</FT2_FurnitureWorkshop.description>
+  <!-- EN: Produces furniture value after paying local construction inputs, limited by town and workshop technology. Workshop progress and quality affect produced value. Plain caravans and tithes allocate normal-quality furniture in its default material; the resource shop spends the same reserve for its supported quality offers. Existing unique or stateful packed furniture keeps its identity. -->
+  <FT2_FurnitureWorkshop.description>Produce valor en muebles después de pagar los insumos de construcción locales, con el límite de la tecnología de la ciudad y del taller. El avance y la calidad del taller afectan el valor producido. Las caravanas simples y los diezmos asignan muebles de calidad normal en su material por defecto; la tienda de recursos gasta la misma reserva en las ofertas de calidad que admite. Los muebles empaquetados únicos o con estado propio que ya existen conservan su identidad.</FT2_FurnitureWorkshop.description>
   <!-- EN: carpenter&apos;s hut -->
   <FT2_FurnitureWorkshop.tierLabels.0>choza del carpintero</FT2_FurnitureWorkshop.tierLabels.0>
   <!-- EN: furniture workshop -->

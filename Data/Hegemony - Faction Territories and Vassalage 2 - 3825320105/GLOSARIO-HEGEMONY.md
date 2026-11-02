@@ -131,3 +131,24 @@ La ventana nueva (Keyed) y las lecciones del Asistente de aprendizaje (ConceptDe
 | icon | **ícono** | |
 | Hegemony reference - X | **Referencia de Hegemony: x** | títulos de las lecciones de referencia |
 | Procedural base defences | **Defensas procedurales de las bases** | ajuste del mod |
+
+## Términos de la actualización (1-nov-2026)
+
+Guarderías, valor especializado por categoría, liberar esclavos y comerciantes financiados.
+
+| Inglés | Español | Nota |
+|---|---|---|
+| nursery | **guardería** | Oficial. El edificio es «guardería e instalación de clonación» |
+| communal nursery / midwives' house / maternity centre | **guardería comunal** / **casa de parteras** / **centro de maternidad** | etapas del edificio |
+| Stash / Tithe (botones) | **Guardar** / **Diezmo** | por categoría de objetos |
+| Special resource categories | **Categorías de recursos especiales** | |
+| specialist goods / broad specialist goods | **bienes especializados** / **bienes especializados amplios** | |
+| category value | **valor de categoría** | «weapon value»: **valor en armas** |
+| unique or stateful | **únicos o con estado propio** | |
+| Furniture / Textiles (categorías) | **Mobiliario** / **Textiles** | Oficial; en el texto corrido, «muebles» |
+| freed people | **personas liberadas** | |
+| home share | **parte para la ciudad** | en el reparto de liberación |
+| ambient traders | **comerciantes del entorno** | antes también «ambientales»; unificado |
+| supervisor | **supervisor** | |
+| Site effects overlay | **capa de efectos del sitio** | |
+| Debug actions (menú) | **Debug actions** | queda en inglés, como en el juego |
