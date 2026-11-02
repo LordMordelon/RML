@@ -46,15 +46,25 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
   ya traducidos** que el extractor viejo había apartado. Volvieron todos a su lugar (comprobado uno por
   uno) y el `UNUSED.xml` quedó vacío y se borró. Los 48 que faltaban (24 trasfondos nuevos) se tradujeron
   con la tabla. Ningún otro mod tiene títulos femeninos en su `UNUSED.xml`.
-- Pendiente aparte: varios títulos de VBE vienen abreviados de antes («activista D.C.», «alborot. de
-  mundourbano», «médico militar en form.»). Los femeninos siguen al masculino; si se cambian, van juntos
-  (ver «Nombres cortos sin abreviar»).
+- Angel lo probó en el juego: el femenino se ve («Esclava artificial»). Pero **la ficha corta el título** a
+  un ancho fijo. Medido con sus capturas, la fuente es Arial y cabe lo que mide hasta ~1080 unidades a
+  tamaño 100 (`ImageFont.truetype("arial.ttf", 100).getlength(titulo)`, con la primera letra en
+  mayúscula; «Emprendedor de mundo» cabe justo). Se usa 1050 para dejar margen. Se mide en ancho y no
+  en letras porque «m» ocupa el triple que «i».
+- VBE quedó con los 174 dentro del ancho (f9674fdb): 42 trasfondos reescritos completos y sin abreviar
+  («cazarrecompensas», «criptozoólogo»), los términos del glosario (`mundomedio`, `quimbustible`) y
+  femeninos mal formados («comercianta»). «Programador de mundomedio» no cabe de ninguna forma y quedó
+  «programador».
+- En los otros 15 mods hay **74 títulos que no caben**, que se arreglan junto con sus femeninos: Persona
+  Mechanoid Pawns 2 (14), VQE Deadlife (12), Ascension Megacorp y Cinders (9), DMS II (8), Archon (5),
+  DMS 1.6, VQE Ancients (4), The Generator, Android (3), Taktikmagier, Altered Carbon y Magic (1).
+- La oficial tiene el mismo problema: 104 títulos de Core, Royalty y Anomaly se cortan («emprendedor de
+  mundourbano»). No es de RML: va como corrección a Ludeon, si Angel quiere.
 
 ## Próxima sesión
 
-**Objetivo:** si Angel vio los títulos femeninos en el juego (una colona con un trasfondo de VBE, por
-ejemplo con Pawn Editor), subir el extractor y VBE, y seguir con los otros 15 mods: reextraer, cinco
-comprobaciones, traducir con la tabla, un commit por mod. Quedan unos 850 textos; empezar por Persona
-Mechanoid Pawns 2 (113 trasfondos).
+**Objetivo:** subir el extractor y VBE cuando Angel diga, y seguir con los otros 15 mods: reextraer, cinco
+comprobaciones, traducir con la tabla (femeninos que quepan en el ancho) y acortar sus títulos que no
+caben, un commit por mod. Quedan unos 850 textos; empezar por Persona Mechanoid Pawns 2 (113 trasfondos).
 **Al empezar (Claude):** `git -C RML pull` y `git -C RimworldExtractor pull`; reextraer con
 `RimworldExtractorLotes` desde la rama `titulos-femeninos` (o `master`, si ya se unió).
