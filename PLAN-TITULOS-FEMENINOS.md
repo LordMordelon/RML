@@ -67,10 +67,30 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
 - La oficial tiene el mismo problema: 104 títulos de Core, Royalty y Anomaly se cortan («emprendedor de
   mundourbano»). No es de RML: va como corrección a Ludeon, si Angel quiere.
 
-## Próxima sesión
+## Próxima sesión (1-nov-2026)
 
-**Objetivo:** subir el extractor y VBE cuando Angel diga, y seguir con los otros 15 mods: reextraer, cinco
-comprobaciones, traducir con la tabla (femeninos que quepan en el ancho) y acortar sus títulos que no
-caben, un commit por mod. Quedan unos 850 textos; empezar por Persona Mechanoid Pawns 2 (113 trasfondos).
-**Al empezar (Claude):** `git -C RML pull` y `git -C RimworldExtractor pull`; reextraer con
-`RimworldExtractorLotes` desde la rama `titulos-femeninos` (o `master`, si ya se unió).
+**Objetivo:** terminar Persona Mechanoid Pawns 2: títulos femeninos, títulos que se cortan y descripciones con género.
+**Estado:** el extractor nuevo está en GitHub (4653f81, publica versión). En RML, VBE y The Generator están terminados y
+subidos; Persona Mechanoid Pawns 2 está reextraído y commiteado en local, sin subir (360a750a), con 226 `TODO`. El pedido a
+la traducción oficial está abierto: https://github.com/Ludeon/RimWorld-SpanishLatin/pull/195 (89 textos; se responde si
+zerstrick comenta).
+**Al empezar (Claude):**
+1. `git -C RML pull`. Leer de este plan solo «Hecho» y esta sección.
+2. **Títulos femeninos:** 226 textos (113 `titleFemale` y 113 `titleShortFemale`), con `traducir.py tabla` / `aplicar`.
+   Son mecas con personalidad, pero tienen género (son colonos con un gen de aspecto mecanoide): «Meca ingeniero» →
+   «Meca ingeniera». Medir cada título con Arial, límite 1050 (receta en «Hecho»).
+3. **14 títulos que se cortan** (masculino y femenino). Ya medidas y caben: «Meca archivista», «Meca de autoforja»,
+   «Meca de núcleos», «Meca de derrumbes», «Meca de recompensas», «Meca de pruebas», «Meca fantasma», «Meca animador»,
+   «Meca a la deriva», «Meca de sistemas», «Meca exmente de nave», «Meca errante» y «Meca del desguace». Falta una para
+   «Meca técnico de perforación del vacío» («Meca perforador del vacío» no cabe).
+4. **Descripciones:** el mod las escribe en masculino. Una búsqueda automática encuentra algo en 101 de las 226 entradas
+   `description` del archivo, con falsos positivos («mundo», «cuerpo»): hay que leerlas. Lo más común es «gestado» (53),
+   «desplegado» (7), «diseñado» (4) y «lo elogiaban». Se arreglan con `gestad{PAWN_gender ? o : a}`, como en VBE.
+   Es una sesión entera; si no alcanza, commitear lo hecho y dejar el resto anotado acá.
+5. Cinco comprobaciones, un commit del mod, `-copia` y pedirle a Angel que lo mire en el juego.
+**Decisiones de Angel:**
+- The Dead Man's Switch 1.6 (29 trasfondos) quedó congelado con la II. Recomendación: no tocarlo.
+- Después de Persona Mechanoid Pawns 2, el orden: Cinders, Deadlife, Archon, DMS II, Ancients, Ascension y los chicos.
+  Quedan también las 19 descripciones de VBE.
+**Guías:** ninguna en especial; las reglas están en `RML/AGENTS.md` («Editar XML de traducción»).
+**Dónde leer:** este plan; los commits de VBE (7c8ff924, 0838be33) y de The Generator (2da5702b) como ejemplo.
