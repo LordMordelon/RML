@@ -80,7 +80,9 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
   los colonos («muñeco viviente», «niño ídolo», «sirviente»). «Una soldado», como la oficial («soldado desertora»).
 - **Tono de la oficial** (pedido de Angel, 1-nov-2026): al revisar las descripciones, además del género, párrafos
   separados por una línea en blanco (`\n\n`) y nada de frases coloquiales («a lo bruto», «a lo mejor», «de lo más…»).
-  La oficial cuenta en pasado, pero el tiempo verbal sigue al inglés: Angel decidió dejar el presente (1-nov-2026).
+  Y en pasado, como la oficial, aunque el inglés esté en presente (Angel, 1-nov-2026: «En su largo sueño, Valeria
+  solía repartir regalos…»). Se queda en presente lo que sigue siendo cierto o es general («que le lleva regalos a
+  todo el mundo», de Santa Claus), y el trasfondo «colono» («su historia todavía está por contarse»).
 
 ## Próxima sesión (1-nov-2026)
 
@@ -101,6 +103,6 @@ sin subir. El pedido a la oficial (https://github.com/Ludeon/RimWorld-SpanishLat
 **Decisiones de Angel:**
 - The Dead Man's Switch 1.6 (29 trasfondos) quedó congelado con la II: no se toca (recomendación; Angel no la cambió).
 - El orden: Deadlife, Archon, DMS II, Ancients, Ascension y los chicos. Quedan también las 19 descripciones de VBE.
-- Las descripciones en presente se quedan en presente, como el inglés (1-nov-2026): no pasarlas a pasado.
+- Las descripciones van en pasado, como la oficial, aunque el inglés esté en presente (1-nov-2026).
 **Guías:** ninguna en especial; las reglas están en `RML/AGENTS.md` («Editar XML de traducción»).
 **Dónde leer:** este plan; el commit de Persona Mechanoid Pawns 2 (3501c342) como ejemplo.
