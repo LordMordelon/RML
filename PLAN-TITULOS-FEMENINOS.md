@@ -67,30 +67,32 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
 - La oficial tiene el mismo problema: 104 títulos de Core, Royalty y Anomaly se cortan («emprendedor de
   mundourbano»). No es de RML: va como corrección a Ludeon, si Angel quiere.
 
+- **Persona Mechanoid Pawns 2** terminado (3501c342, sin subir): los 226 femeninos, los 14 títulos que se cortaban
+  («Voidbore-Tech Mech» quedó «Meca de perforación») y 108 descripciones con género. «Meca cazadora-asesina» mide 1065:
+  pasa el margen de 1050 pero no el máximo medido (1083, «Emprendedor de mundo»). Falta que Angel lo mire en el juego.
+  Lo que sirvió: leer todas las descripciones de corrido y escribir una lista `clave | viejo | nuevo` a mano, que un
+  script aplica comprobando que cada «viejo» aparezca una sola vez en su descripción. Ojo con los participios: la
+  marca de género reemplaza solo la «o» final («gestad{PAWN_gender ? o : a}», no «gesta…»).
+
 ## Próxima sesión (1-nov-2026)
 
-**Objetivo:** terminar Persona Mechanoid Pawns 2: títulos femeninos, títulos que se cortan y descripciones con género.
-**Estado:** el extractor nuevo está en GitHub (4653f81, publica versión). En RML, VBE y The Generator están terminados y
-subidos; Persona Mechanoid Pawns 2 está reextraído y commiteado en local, sin subir (360a750a), con 226 `TODO`. El pedido a
-la traducción oficial está abierto: https://github.com/Ludeon/RimWorld-SpanishLatin/pull/195 (89 textos; se responde si
-zerstrick comenta).
+**Objetivo:** Cinders of the Embergarden: títulos femeninos, 9 títulos que se cortan y descripciones con género.
+**Estado:** VBE, The Generator y Persona Mechanoid Pawns 2 terminados; los dos commits de Persona Mechanoid Pawns 2
+(360a750a y 3501c342) y este plan están en local, sin subir. Cinders **todavía no está reextraído**: tiene sus 54
+`title` y ningún `titleFemale`. El pedido a la oficial (https://github.com/Ludeon/RimWorld-SpanishLatin/pull/195) sigue
+abierto.
 **Al empezar (Claude):**
-1. `git -C RML pull`. Leer de este plan solo «Hecho» y esta sección.
-2. **Títulos femeninos:** 226 textos (113 `titleFemale` y 113 `titleShortFemale`), con `traducir.py tabla` / `aplicar`.
-   Son mecas con personalidad, pero tienen género (son colonos con un gen de aspecto mecanoide): «Meca ingeniero» →
-   «Meca ingeniera». Medir cada título con Arial, límite 1050 (receta en «Hecho»).
-3. **14 títulos que se cortan** (masculino y femenino). Ya medidas y caben: «Meca archivista», «Meca de autoforja»,
-   «Meca de núcleos», «Meca de derrumbes», «Meca de recompensas», «Meca de pruebas», «Meca fantasma», «Meca animador»,
-   «Meca a la deriva», «Meca de sistemas», «Meca exmente de nave», «Meca errante» y «Meca del desguace». Falta una para
-   «Meca técnico de perforación del vacío» («Meca perforador del vacío» no cabe).
-4. **Descripciones:** el mod las escribe en masculino. Una búsqueda automática encuentra algo en 101 de las 226 entradas
-   `description` del archivo, con falsos positivos («mundo», «cuerpo»): hay que leerlas. Lo más común es «gestado» (53),
-   «desplegado» (7), «diseñado» (4) y «lo elogiaban». Se arreglan con `gestad{PAWN_gender ? o : a}`, como en VBE.
-   Es una sesión entera; si no alcanza, commitear lo hecho y dejar el resto anotado acá.
-5. Cinco comprobaciones, un commit del mod, `-copia` y pedirle a Angel que lo mire en el juego.
+1. `git -C RML pull`. Preguntarle a Angel si subir lo de Persona Mechanoid Pawns 2 y si ya lo miró en el juego. Leer de
+   este plan solo «Hecho» y esta sección.
+2. Reextraer Cinders con `RimworldExtractorLotes` (desde `RimworldExtractor/`, con el comienzo de su carpeta), mirar
+   el diff con `traducir.py comprobar` y commitear la estructura.
+3. Igual que en Persona Mechanoid Pawns 2: femeninos con `traducir.py tabla` / `aplicar`, los 9 títulos que se cortan
+   (medir con Arial, límite 1050) y las descripciones leídas una por una. Con el glosario de AobaKuma
+   (`Data/!AobaKuma/PLAN-AOBAKUMA.md` dice dónde está).
+4. Cinco comprobaciones, un commit del mod, `-copia` y pedirle a Angel que lo mire en el juego.
 **Decisiones de Angel:**
-- The Dead Man's Switch 1.6 (29 trasfondos) quedó congelado con la II. Recomendación: no tocarlo.
-- Después de Persona Mechanoid Pawns 2, el orden: Cinders, Deadlife, Archon, DMS II, Ancients, Ascension y los chicos.
-  Quedan también las 19 descripciones de VBE.
+- The Dead Man's Switch 1.6 (29 trasfondos) quedó congelado con la II: no se toca (recomendación; Angel no la cambió).
+- Después de Cinders, el orden: Deadlife, Archon, DMS II, Ancients, Ascension y los chicos. Quedan también las 19
+  descripciones de VBE.
 **Guías:** ninguna en especial; las reglas están en `RML/AGENTS.md` («Editar XML de traducción»).
-**Dónde leer:** este plan; los commits de VBE (7c8ff924, 0838be33) y de The Generator (2da5702b) como ejemplo.
+**Dónde leer:** este plan; el commit de Persona Mechanoid Pawns 2 (3501c342) como ejemplo.
