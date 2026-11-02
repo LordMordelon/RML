@@ -21,7 +21,7 @@
   <!-- EN: pressure adaptation -->
   <AO_PressureAdaptation.label>adaptación a la presión</AO_PressureAdaptation.label>
   <!-- EN: The air pressure this creature&apos;s body is adapted to; it follows the surrounding pressure over time. A pressure drop far below it causes decompression sickness, a rise far above it barotrauma. Change pressure slowly, or give the body time to adapt. -->
-  <AO_PressureAdaptation.description>La presión del aire a la que está adaptado el cuerpo de esta criatura; con el tiempo sigue a la presión que la rodea. Una caída de presión muy por debajo causa enfermedad por descompresión, y una subida muy por encima, barotrauma. Cambia la presión despacio, o dale tiempo al cuerpo para adaptarse.</AO_PressureAdaptation.description>
+  <AO_PressureAdaptation.description>La presión del aire a la que está adaptado el cuerpo de esta criatura; con el tiempo sigue a la presión que la rodea. Una caída de presión muy por debajo causa enfermedad de descompresión, y una subida muy por encima, barotrauma. Cambia la presión despacio, o dale tiempo al cuerpo para adaptarse.</AO_PressureAdaptation.description>
   <!-- EN: suit air -->
   <AO_BreathingGear.label>aire del traje</AO_BreathingGear.label>
   <!-- EN: The air inside this creature&apos;s breathing gear: whether the helmet or mask is supplying, how much breathing gas is left, whether the suit is sealed, and what the body gets compared with the air outside. -->
@@ -45,9 +45,9 @@
   <!-- EN: Breathing oxygen at too high a pressure poisons the body. Over hours it inflames and scars the lungs; at very high pressure it brings tunnel vision, twitching and seizures. It heals slowly in normal air. -->
   <AO_OxygenToxicity.description>Respirar oxígeno a una presión demasiado alta envenena el cuerpo. Con las horas inflama y deja cicatrices en los pulmones; a una presión muy alta provoca visión de túnel, espasmos y convulsiones. Se cura despacio en aire normal.</AO_OxygenToxicity.description>
   <!-- EN: chest tightness -->
-  <AO_OxygenToxicity.stages.0.label>opresión en el pecho</AO_OxygenToxicity.stages.0.label>
+  <AO_OxygenToxicity.stages.0.label>opresión torácica</AO_OxygenToxicity.stages.0.label>
   <!-- EN: chest tightness -->
-  <AO_OxygenToxicity.stages.1.label>opresión en el pecho</AO_OxygenToxicity.stages.1.label>
+  <AO_OxygenToxicity.stages.1.label>opresión torácica</AO_OxygenToxicity.stages.1.label>
   <!-- EN: minor -->
   <AO_OxygenToxicity.stages.2.label>leve</AO_OxygenToxicity.stages.2.label>
   <!-- EN: serious -->
@@ -81,7 +81,7 @@
   <!-- EN: collapse -->
   <AO_HighPressureSickness.stages.4.label>colapso</AO_HighPressureSickness.stages.4.label>
   <!-- EN: decompression sickness -->
-  <AO_DecompressionSickness.label>enfermedad por descompresión</AO_DecompressionSickness.label>
+  <AO_DecompressionSickness.label>enfermedad de descompresión</AO_DecompressionSickness.label>
   <!-- EN: The pressure fell faster than the body could adapt, and gas dissolved in the tissues came out as bubbles (&quot;the bends&quot;). It causes joint pain, then choking and nerve damage, and can kill. Returning to a higher pressure lets it heal quickly. -->
   <AO_DecompressionSickness.description>La presión bajó más rápido de lo que el cuerpo podía adaptarse, y el gas disuelto en los tejidos salió en forma de burbujas (la &quot;enfermedad del buzo&quot;). Causa dolor en las articulaciones, luego ahogo y daño en los nervios, y puede matar. Volver a una presión más alta permite que se cure rápido.</AO_DecompressionSickness.description>
   <!-- EN: tingling -->
@@ -89,7 +89,7 @@
   <!-- EN: joint pain -->
   <AO_DecompressionSickness.stages.1.label>dolor articular</AO_DecompressionSickness.stages.1.label>
   <!-- EN: the bends -->
-  <AO_DecompressionSickness.stages.2.label>mal del buzo</AO_DecompressionSickness.stages.2.label>
+  <AO_DecompressionSickness.stages.2.label>burbujas</AO_DecompressionSickness.stages.2.label>
   <!-- EN: the chokes -->
   <AO_DecompressionSickness.stages.3.label>ahogo</AO_DecompressionSickness.stages.3.label>
   <!-- EN: neurological -->
@@ -103,7 +103,7 @@
   <!-- EN: ear squeeze -->
   <AO_Barotrauma.stages.1.label>oídos comprimidos</AO_Barotrauma.stages.1.label>
   <!-- EN: sinus squeeze -->
-  <AO_Barotrauma.stages.2.label>senos nasales comprimidos</AO_Barotrauma.stages.2.label>
+  <AO_Barotrauma.stages.2.label>nariz comprimida</AO_Barotrauma.stages.2.label>
   <!-- EN: severe -->
   <AO_Barotrauma.stages.3.label>grave</AO_Barotrauma.stages.3.label>
   <!-- EN: torn eardrums -->
