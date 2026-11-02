@@ -58,6 +58,12 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
 - En los otros 15 mods hay **74 títulos que no caben**, que se arreglan junto con sus femeninos: Persona
   Mechanoid Pawns 2 (14), VQE Deadlife (12), Ascension Megacorp y Cinders (9), DMS II (8), Archon (5),
   DMS 1.6, VQE Ancients (4), The Generator, Android (3), Taktikmagier, Altered Carbon y Magic (1).
+- **Descripciones con género fijo.** Una colona con «Como inspector de seguridad, Felicia…» (captura de
+  Angel). The Generator quedó hecho (f1287c81). Una búsqueda de «De niño», «experto», «conocido»,
+  «Nacido», «como un»… sin `{PAWN_gender}` da **62 descripciones** para mirar una por una (algunas no
+  son del colono): VBE 19, Persona Mechanoid Pawns 2 (11), VQE Ancients (8), Archon (6), DMS y DMS II (4
+  cada uno), Deadlife (3), Altered Carbon, Android y Magic (2), Cryptoforge (1). Se arreglan junto con
+  cada mod, con `{PAWN_gender ? o : a}`.
 - La oficial tiene el mismo problema: 104 títulos de Core, Royalty y Anomaly se cortan («emprendedor de
   mundourbano»). No es de RML: va como corrección a Ludeon, si Angel quiere.
 
