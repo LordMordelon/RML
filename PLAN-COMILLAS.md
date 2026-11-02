@@ -6,8 +6,9 @@ carta va con `(*Name)…(/Name)`. Mini Expeditions ya está hecho. Angel pidió 
 
 ## Lo que queda
 
-**291 renglones en 36 archivos de 22 mods** (sin contar los `UNUSED.xml` ni los comentarios `EN:`). Los que
-más tienen: Cinders, DMS Expedition (4 archivos cada uno), DMS Taktikmagier (3); RimPacts, Combat Extended,
+**234 renglones en 32 archivos de 21 mods** (sin contar los `UNUSED.xml` ni los comentarios `EN:`). Cinders
+quedó hecho el 1-nov-2026, junto con sus títulos femeninos. Los que
+más tienen: DMS Expedition (4 archivos), DMS Taktikmagier (3); RimPacts, Combat Extended,
 Apex Mechanoids, ReGrowth 2, DMS II y Ascension (2). Para verlos:
 
 ```sh
