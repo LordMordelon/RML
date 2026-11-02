@@ -74,25 +74,33 @@ es que sí»: que el extractor los saque para todos los mods, no solo a mano en 
   script aplica comprobando que cada «viejo» aparezca una sola vez en su descripción. Ojo con los participios: la
   marca de género reemplaza solo la «o» final («gestad{PAWN_gender ? o : a}», no «gesta…»).
 
+- Persona Mechanoid Pawns 2 subido el 1-nov-2026; Angel todavía no lo mira en el juego.
+- **Cinders of the Embergarden** terminado (fdd41123, eb7fbfeb, 8067befc; sin subir): los 108 femeninos, los 9 títulos
+  que se cortaban (anotados en su glosario), 7 descripciones con género y 3 apodos que estaban en femenino también para
+  los colonos («muñeco viviente», «niño ídolo», «sirviente»). «Una soldado», como la oficial («soldado desertora»).
+- **Tono de la oficial** (pedido de Angel, 1-nov-2026): al revisar las descripciones, además del género, párrafos
+  separados por una línea en blanco (`\n\n`) y nada de frases coloquiales («a lo bruto», «a lo mejor», «de lo más…»).
+  La oficial cuenta en pasado; en Cinders quedó el presente del inglés, a la espera de que Angel decida.
+
 ## Próxima sesión (1-nov-2026)
 
-**Objetivo:** Cinders of the Embergarden: títulos femeninos, 9 títulos que se cortan y descripciones con género.
-**Estado:** VBE, The Generator y Persona Mechanoid Pawns 2 terminados; los dos commits de Persona Mechanoid Pawns 2
-(360a750a y 3501c342) y este plan están en local, sin subir. Cinders **todavía no está reextraído**: tiene sus 54
-`title` y ningún `titleFemale`. El pedido a la oficial (https://github.com/Ludeon/RimWorld-SpanishLatin/pull/195) sigue
-abierto.
+**Objetivo:** VQE Deadlife: títulos femeninos, 12 títulos que se cortan, descripciones con género y con el tono de la
+oficial.
+**Estado:** VBE, The Generator, Persona Mechanoid Pawns 2 y Cinders terminados; los tres commits de Cinders y este plan,
+sin subir. El pedido a la oficial (https://github.com/Ludeon/RimWorld-SpanishLatin/pull/195) sigue abierto.
 **Al empezar (Claude):**
-1. `git -C RML pull`. Preguntarle a Angel si subir lo de Persona Mechanoid Pawns 2 y si ya lo miró en el juego. Leer de
-   este plan solo «Hecho» y esta sección.
-2. Reextraer Cinders con `RimworldExtractorLotes` (desde `RimworldExtractor/`, con el comienzo de su carpeta), mirar
+1. `git -C RML pull`. Preguntarle a Angel si subir Cinders y si miró en el juego Cinders y Persona Mechanoid Pawns 2.
+   Leer de este plan solo «Hecho» y esta sección.
+2. Reextraer Deadlife con `RimworldExtractorLotes` (desde `RimworldExtractor/`, con el comienzo de su carpeta), mirar
    el diff con `traducir.py comprobar` y commitear la estructura.
-3. Igual que en Persona Mechanoid Pawns 2: femeninos con `traducir.py tabla` / `aplicar`, los 9 títulos que se cortan
-   (medir con Arial, límite 1050) y las descripciones leídas una por una. Con el glosario de AobaKuma
-   (`Data/!AobaKuma/PLAN-AOBAKUMA.md` dice dónde está).
-4. Cinco comprobaciones, un commit del mod, `-copia` y pedirle a Angel que lo mire en el juego.
+3. Igual que en Cinders: femeninos con `traducir.py tabla` / `aplicar`, los títulos que se cortan (medir los dos
+   géneros con Arial, límite 1050), las descripciones leídas una por una contra el inglés (género y tono) y una lista
+   `clave | viejo | nuevo` que un script aplica comprobando que cada «viejo» aparezca una vez.
+4. Cinco comprobaciones (la 1 y la 5 muestran lo cambiado a propósito: contarlo), un commit del mod, `-copia` y pedirle
+   a Angel que lo mire en el juego.
 **Decisiones de Angel:**
 - The Dead Man's Switch 1.6 (29 trasfondos) quedó congelado con la II: no se toca (recomendación; Angel no la cambió).
-- Después de Cinders, el orden: Deadlife, Archon, DMS II, Ancients, Ascension y los chicos. Quedan también las 19
-  descripciones de VBE.
+- El orden: Deadlife, Archon, DMS II, Ancients, Ascension y los chicos. Quedan también las 19 descripciones de VBE.
+- Pendiente: si las descripciones en presente pasan a pasado, como la oficial.
 **Guías:** ninguna en especial; las reglas están en `RML/AGENTS.md` («Editar XML de traducción»).
 **Dónde leer:** este plan; el commit de Persona Mechanoid Pawns 2 (3501c342) como ejemplo.
